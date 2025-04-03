@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/buildingBlockGallery/
 ## StructuredDocumentTag.buildingBlockGallery property
 
 Specifies type of building block for this **SDT**.
-Can not be ``None``.
+Can not be ``null``.
 
 
 

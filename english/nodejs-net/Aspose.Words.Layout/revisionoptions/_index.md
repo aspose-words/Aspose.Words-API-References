@@ -39,9 +39,9 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 | [revisionBarsPosition](./revisionBarsPosition/) | Gets or sets rendering position of revision bars. Default value is [HorizontalAlignment.Outside](../../aspose.words.drawing/horizontalalignment/#Outside). |
 | [revisionBarsWidth](./revisionBarsWidth/) | Gets or sets width of revision bars, points. |
 | [showInBalloons](./showInBalloons/) | Allows to specify whether the revisions are rendered in the balloons. Default value is [ShowInBalloons.None](../showinballoons/#None). |
-| [showOriginalRevision](./showOriginalRevision/) | Allows to specify whether the original text should be shown instead of revised one. Default value is ``False``. |
-| [showRevisionBars](./showRevisionBars/) | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is ``True``. |
-| [showRevisionMarks](./showRevisionMarks/) | Allow to specify whether revision text should be marked with special formatting markup. Default value is ``True``. |
+| [showOriginalRevision](./showOriginalRevision/) | Allows to specify whether the original text should be shown instead of revised one. Default value is ``false``. |
+| [showRevisionBars](./showRevisionBars/) | Allows to specify whether revision bars should be rendered near lines containing revised content. Default value is ``true``. |
+| [showRevisionMarks](./showRevisionMarks/) | Allow to specify whether revision text should be marked with special formatting markup. Default value is ``true``. |
 
 ### Examples
 

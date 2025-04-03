@@ -26,7 +26,7 @@ and the user.
 
 | Name | Description |
 | --- | --- |
-|[ respond(promptText, defaultResponse)](./respond/#string_string) | When implemented, returns a response from the user on prompting. Your implementation should return ``None`` to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window). |
+|[ respond(promptText, defaultResponse)](./respond/#string_string) | When implemented, returns a response from the user on prompting. Your implementation should return ``null`` to indicate that the user has not responded to the prompt (i.e. the user has pressed the Cancel button in the prompt window). |
 
 ### See Also
 

@@ -31,7 +31,7 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 | Name | Description |
 | --- | --- |
 | [document](./document/) | Gets document this instance enumerates. |
-| [kind](./kind/) | Gets the kind of the current entity. This can be an empty string but never ``None``. |
+| [kind](./kind/) | Gets the kind of the current entity. This can be an empty string but never ``null``. |
 | [pageIndex](./pageIndex/) | Gets the 1-based index of a page which contains the current entity. |
 | [text](./text/) | Gets text of the current span entity. Throws for other entity types. |
 | [this[]](./this[]/) |  |

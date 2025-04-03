@@ -20,7 +20,7 @@ get pageStartingNumber(): number
 
 ### Remarks
 
-The [PageSetup.restartPageNumbering](../restartPageNumbering/) property, if set to ``False``, will override the
+The [PageSetup.restartPageNumbering](../restartPageNumbering/) property, if set to ``false``, will override the
 [PageSetup.pageStartingNumber](./) property so that page numbering can continue from the previous section.
 
 

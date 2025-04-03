@@ -22,7 +22,7 @@ get fontsFolderAlias(): string
 ### Remarks
 
 When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.exportFontResources](../exportFontResources/) 
-is set to ``True``, Aspose.Words needs to save fonts used in the document as standalone files. 
+is set to ``true``, Aspose.Words needs to save fonts used in the document as standalone files. 
 [HtmlSaveOptions.fontsFolder](../fontsFolder/) allows you to specify where the fonts will be saved and 
 [HtmlSaveOptions.fontsFolderAlias](./) allows to specify how the font URIs will be constructed.
 

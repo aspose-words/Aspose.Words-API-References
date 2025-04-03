@@ -23,7 +23,7 @@ importNode(srcNode: Aspose.Words.NodeisImportChildren: boolean)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | [Node](../../node/) | The node to import. |
-| isImportChildren | boolean | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+| isImportChildren | boolean | ``true`` to import all child nodes recursively; otherwise, ``false``. |
 
 ### Remarks
 

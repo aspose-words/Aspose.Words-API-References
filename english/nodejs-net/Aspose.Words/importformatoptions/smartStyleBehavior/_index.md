@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words/importformatoptions/smartStyleBehavior/
 
 Gets or sets a boolean value that specifies how styles will be imported
 when they have equal names in source and destination documents.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.AI/checkgrammaroptions/preserveFormatting/
 
 Allows to specify either [IAiModelText.checkGrammar()](../../iaimodeltext/checkGrammar/#document_checkgrammaroptions) will try to preserve
 layout and formatting of the original document, or not.
-Default value is ``True``.
+Default value is ``true``.
 
 
 
@@ -23,8 +23,8 @@ get preserveFormatting(): boolean
 
 ### Remarks
 
-When the option is set to ``False``, the quality of grammar checking is higher
-than when this option is set to ``True``. However, the original formatting of the
+When the option is set to ``false``, the quality of grammar checking is higher
+than when this option is set to ``true``. However, the original formatting of the
 text is not preserved in this case.
 
 

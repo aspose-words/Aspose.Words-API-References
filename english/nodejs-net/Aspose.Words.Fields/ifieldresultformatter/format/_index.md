@@ -25,7 +25,7 @@ format(value: stringformat: Aspose.Words.Fields.GeneralFormat)
 
 ### Remarks
 
-The implementation should return ``None`` to indicate that the default formatting should be applied.
+The implementation should return ``null`` to indicate that the default formatting should be applied.
 
 
 
@@ -45,7 +45,7 @@ format(value: numberformat: Aspose.Words.Fields.GeneralFormat)
 
 ### Remarks
 
-The implementation should return ``None`` to indicate that the default formatting should be applied.
+The implementation should return ``null`` to indicate that the default formatting should be applied.
 
 
 

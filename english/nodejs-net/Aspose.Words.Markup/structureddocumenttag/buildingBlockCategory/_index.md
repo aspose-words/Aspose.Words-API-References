@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/buildingBlockCategory
 ## StructuredDocumentTag.buildingBlockCategory property
 
 Specifies category of building block for this **SDT** node.
-Can not be ``None``.
+Can not be ``null``.
 
 
 

@@ -60,7 +60,7 @@ To create a new field use the [DocumentBuilder.insertField()](../documentbuilder
 | [isLocked](./isLocked/) | Gets or sets whether the field is locked (should not recalculate its result). |
 | [localeId](./localeId/) | Gets or sets the LCID of the field. |
 | [result](./result/) | Gets or sets text that is between the field separator and field end. |
-| [separator](./separator/) | Gets the node that represents the field separator. Can be ``None``. |
+| [separator](./separator/) | Gets the node that represents the field separator. Can be ``null``. |
 | [start](./start/) | Gets the node that represents the start of the field. |
 | [type](./type/) | Gets the Microsoft Word field type. |
 
@@ -165,7 +165,7 @@ To create a new field use the [DocumentBuilder.insertField()](../documentbuilder
 |[ asFieldXE()](./asFieldXE/#default) |  |
 |[ getFieldCode()](./getFieldCode/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 |[ getFieldCode(includeChildFieldCodes)](./getFieldCode/#boolean) | Returns text between field start and field separator (or field end if there is no separator). |
-|[ remove()](./remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``None``. |
+|[ remove()](./remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``null``. |
 |[ unlink()](./unlink/#default) | Performs the field unlink. |
 |[ update()](./update/#default) | Performs the field update. Throws if the field is being updated already. |
 |[ update(ignoreMergeFormat)](./update/#boolean) | Performs a field update. Throws if the field is being updated already. |

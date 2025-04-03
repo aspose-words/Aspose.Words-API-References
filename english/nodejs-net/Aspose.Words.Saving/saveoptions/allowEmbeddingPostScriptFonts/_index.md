@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Saving/saveoptions/allowEmbeddingPostScriptFonts/
 
 Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines
 when embedding TrueType fonts in a document upon it is saved.
-The default value is ``False``.
+The default value is ``false``.
 
 
 
@@ -26,7 +26,7 @@ get allowEmbeddingPostScriptFonts(): boolean
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
 This option only works when [FontInfoCollection.embedTrueTypeFonts](../../../aspose.words.fonts/fontinfocollection/embedTrueTypeFonts/) of the
-[DocumentBase.fontInfos](../../../aspose.words/documentbase/fontInfos/) property is set to ``True``.
+[DocumentBase.fontInfos](../../../aspose.words/documentbase/fontInfos/) property is set to ``true``.
 
 
 

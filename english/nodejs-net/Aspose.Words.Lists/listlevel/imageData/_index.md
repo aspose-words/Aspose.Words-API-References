@@ -20,7 +20,7 @@ get imageData(): Aspose.Words.Drawing.ImageData
 
 ### Remarks
 
-If this level doesn't define picture bullet returns ``None``.
+If this level doesn't define picture bullet returns ``null``.
 Before setting new image for non picture bullet shape, please use [ListLevel.createPictureBullet()](../createPictureBullet/#default) method first.
 
 

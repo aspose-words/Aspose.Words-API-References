@@ -14,9 +14,9 @@ url: /nodejs-net/Aspose.Words.Saving/fixedpagesaveoptions/optimizeOutput/
 Flag indicates whether it is required to optimize output.
 If this flag is set redundant nested canvases and empty canvases are removed,
 also neighbor glyphs with the same formatting are concatenated.
-Note: The accuracy of the content display may be affected if this property is set to ``True``.
+Note: The accuracy of the content display may be affected if this property is set to ``true``.
 
-Default is ``False``.
+Default is ``false``.
 
 
 

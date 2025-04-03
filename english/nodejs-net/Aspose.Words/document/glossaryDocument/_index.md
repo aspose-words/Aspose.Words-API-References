@@ -21,7 +21,7 @@ get glossaryDocument(): Aspose.Words.BuildingBlocks.GlossaryDocument
 
 ### Remarks
 
-This property returns ``None`` if the document does not have a glossary document.
+This property returns ``null`` if the document does not have a glossary document.
 
 You can add a glossary document to a document by creating a
 [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) object and assigning to this property.

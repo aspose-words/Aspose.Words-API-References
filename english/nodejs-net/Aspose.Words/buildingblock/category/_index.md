@@ -24,7 +24,7 @@ Building blocks in Microsoft Word user interface are arranged
 into Galleries. Each [BuildingBlock.gallery](../gallery/) can have multiple Categories. Each block within
 a [BuildingBlock.category](./) has a [BuildingBlock.name](../name/).
 
-Cannot be ``None`` and cannot be an empty string.
+Cannot be ``null`` and cannot be an empty string.
 
 Corresponds to the **docPartPr.category.name** element in OOXML.
 

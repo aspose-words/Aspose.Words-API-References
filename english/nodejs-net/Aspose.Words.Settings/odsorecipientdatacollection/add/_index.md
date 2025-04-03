@@ -20,7 +20,7 @@ add(value: Aspose.Words.Settings.OdsoRecipientData)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoRecipientData](../../odsorecipientdata/) | The object to add. Cannot be ``None``. |
+| value | [OdsoRecipientData](../../odsorecipientdata/) | The object to add. Cannot be ``null``. |
 
 ### Examples
 

@@ -24,7 +24,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nod
 | [font](./font/) | Provides access to the default font formatting of legend entries. To override the font formatting for a specific legend entry, use the[ChartLegendEntry.font](../chartlegendentry/font/) property. |
 | [format](./format/) | Provides access to fill and line formatting of the legend. |
 | [legendEntries](./legendEntries/) | Returns a collection of legend entries for all series and trendlines of the parent chart. |
-| [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap legend. Default value is ``False``. |
+| [overlay](./overlay/) | Determines whether other chart elements shall be allowed to overlap legend. Default value is ``false``. |
 | [position](./position/) | Specifies the position of the legend on a chart. |
 
 ### Examples

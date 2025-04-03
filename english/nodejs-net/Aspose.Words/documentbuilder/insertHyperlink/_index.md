@@ -22,7 +22,7 @@ insertHyperlink(displayText: stringurlOrBookmark: stringisBookmark: boolean)
 | --- | --- | --- |
 | displayText | string | Text of the link to be displayed in the document. |
 | urlOrBookmark | string | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
-| isBookmark | boolean | ``True`` if the previous parameter is a name of a bookmark inside the document; ``False`` is the previous parameter is a URL. |
+| isBookmark | boolean | ``true`` if the previous parameter is a name of a bookmark inside the document; ``false`` is the previous parameter is a URL. |
 
 ### Remarks
 

@@ -22,7 +22,7 @@ get ignoreOleData(): boolean
 
 Ignoring OLE data may reduce memory consumption and increase performance without data lost in a case when destination format does not support OLE objects.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

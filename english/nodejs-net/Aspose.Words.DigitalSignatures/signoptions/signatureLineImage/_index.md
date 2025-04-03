@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.DigitalSignatures/signoptions/signatureLineImage/
 ## SignOptions.signatureLineImage property
 
 The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/).
-Default value is ``None``.
+Default value is ``null``.
 
 
 

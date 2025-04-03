@@ -3,7 +3,7 @@ title: ParagraphFormat.noSpaceBetweenParagraphsOfSameStyle property
 linktitle: noSpaceBetweenParagraphsOfSameStyle property
 articleTitle: noSpaceBetweenParagraphsOfSameStyle property
 second_title: Aspose.Words for NodeJs
-description: "ParagraphFormat.noSpaceBetweenParagraphsOfSameStyle property. When ``True``, [ParagraphFormat.spaceBefore](../spaceBefore/) and [ParagraphFormat.spaceAfter](../spaceAfter/) will be ignored between the paragraphs of the same style."
+description: "ParagraphFormat.noSpaceBetweenParagraphsOfSameStyle property. When ``true``, [ParagraphFormat.spaceBefore](../spaceBefore/) and [ParagraphFormat.spaceAfter](../spaceAfter/) will be ignored between the paragraphs of the same style."
 type: docs
 weight: 250
 url: /nodejs-net/Aspose.Words/paragraphformat/noSpaceBetweenParagraphsOfSameStyle/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/paragraphformat/noSpaceBetweenParagraphsOfSameStyl
 
 ## ParagraphFormat.noSpaceBetweenParagraphsOfSameStyle property
 
-When ``True``, [ParagraphFormat.spaceBefore](../spaceBefore/) and [ParagraphFormat.spaceAfter](../spaceAfter/) will be ignored
+When ``true``, [ParagraphFormat.spaceBefore](../spaceBefore/) and [ParagraphFormat.spaceAfter](../spaceAfter/) will be ignored
 between the paragraphs of the same style.
 
 

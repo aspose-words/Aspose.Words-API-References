@@ -23,7 +23,7 @@ importNode(srcNode: Aspose.Words.NodeisImportChildren: boolean)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | [Node](../../node/) | The node being imported. |
-| isImportChildren | boolean | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+| isImportChildren | boolean | ``true`` to import all child nodes recursively; otherwise, ``false``. |
 
 ### Remarks
 
@@ -63,7 +63,7 @@ importNode(srcNode: Aspose.Words.NodeisImportChildren: booleanimportFormatMode: 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | [Node](../../node/) | The node to imported. |
-| isImportChildren | boolean | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+| isImportChildren | boolean | ``true`` to import all child nodes recursively; otherwise, ``false``. |
 | importFormatMode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
 
 ### Remarks

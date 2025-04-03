@@ -25,7 +25,7 @@ These digital signatures will not be saved when you save this [Document](../) ob
 into a file or stream because saving or converting will produce a document that is different from the
 original and the original digital signatures will no longer be valid.
 
-This collection is never ``None``. If the document is not signed, it will contain zero elements.
+This collection is never ``null``. If the document is not signed, it will contain zero elements.
 
 
 

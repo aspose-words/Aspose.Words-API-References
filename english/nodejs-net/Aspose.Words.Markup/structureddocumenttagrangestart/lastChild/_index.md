@@ -20,7 +20,7 @@ get lastChild(): Aspose.Words.Node
 
 ### Remarks
 
-If there is no last child node, a ``None`` is returned.
+If there is no last child node, a ``null`` is returned.
 
 
 

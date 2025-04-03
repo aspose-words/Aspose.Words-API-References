@@ -25,7 +25,7 @@ getEffectiveValue(index: numbernumberStyle: Aspose.Words.NumberStylecustomNumber
 | --- | --- | --- |
 | index | number | The index of the list item (must be in the range from 1 to 32767). |
 | numberStyle | [NumberStyle](../../../aspose.words/numberstyle/) | The [NumberStyle](../../../aspose.words/numberstyle/) of the [ListLevel](../) object. |
-| customNumberStyleFormat | string | The optional format string used when [NumberStyle.Custom](../../../aspose.words/numberstyle/#Custom) is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be ``None`` or empty. |
+| customNumberStyleFormat | string | The optional format string used when [NumberStyle.Custom](../../../aspose.words/numberstyle/#Custom) is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be ``null`` or empty. |
 
 ### Returns
 
@@ -37,7 +37,7 @@ the*customNumberStyleFormat* parameter, in the list item at the position determi
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentException)) | *customNumberStyleFormat* is``None`` or empty when the *numberStyle* is custom.-or-*customNumberStyleFormat* is not``None`` or empty when the *numberStyle* is non-custom.-or-*customNumberStyleFormat* is invalid. |
+| RuntimeError (Proxy error(ArgumentException)) | *customNumberStyleFormat* is``null`` or empty when the *numberStyle* is custom.-or-*customNumberStyleFormat* is not``null`` or empty when the *numberStyle* is non-custom.-or-*customNumberStyleFormat* is invalid. |
 | RuntimeError (Proxy error(ArgumentOutOfRangeException)) | index is out of range. |
 
 ### Examples

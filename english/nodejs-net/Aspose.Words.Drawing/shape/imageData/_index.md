@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing/shape/imageData/
 ## Shape.imageData property
 
 Provides access to the image of the shape.
-Returns ``None`` if the shape cannot have an image.
+Returns ``null`` if the shape cannot have an image.
 
 
 

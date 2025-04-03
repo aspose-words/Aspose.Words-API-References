@@ -45,8 +45,8 @@ The [CompositeNode](./) class:
 | [customNodeId](../node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [firstChild](./firstChild/) | Gets the first child of the node. |
-| [hasChildNodes](./hasChildNodes/) | Returns ``True`` if this node has any child nodes. |
-| [isComposite](./isComposite/) | Returns ``True`` as this node can have child nodes. |
+| [hasChildNodes](./hasChildNodes/) | Returns ``true`` if this node has any child nodes. |
+| [isComposite](./isComposite/) | Returns ``true`` as this node can have child nodes. |
 | [lastChild](./lastChild/) | Gets the last child of the node. |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [nodeType](../node/nodeType/) | Gets the type of this node.<br>(Inherited from [Node](../node/)) |

@@ -25,7 +25,7 @@ remove(gradientStop: Aspose.Words.Drawing.GradientStop)
 
 ### Returns
 
-``True`` if gradient stop was successfully removed, otherwise ``False``.
+``true`` if gradient stop was successfully removed, otherwise ``false``.
 
 
 ### Examples

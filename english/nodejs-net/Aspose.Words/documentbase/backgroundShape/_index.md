@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/documentbase/backgroundShape/
 
 ## DocumentBase.backgroundShape property
 
-Gets or sets the background shape of the document. Can be ``None``.
+Gets or sets the background shape of the document. Can be ``null``.
 
 
 
@@ -27,7 +27,7 @@ to [ShapeType.Rectangle](../../../aspose.words.drawing/shapetype/#Rectangle) to 
 Microsoft Word supports only the fill properties of a background shape. All other properties
 are ignored.
 
-Setting this property to a non-null value will also set the [ViewOptions.displayBackgroundShape](../../../aspose.words.settings/viewoptions/displayBackgroundShape/) to ``True``.
+Setting this property to a non-null value will also set the [ViewOptions.displayBackgroundShape](../../../aspose.words.settings/viewoptions/displayBackgroundShape/) to ``true``.
 
 
 

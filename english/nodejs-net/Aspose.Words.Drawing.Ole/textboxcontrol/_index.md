@@ -23,11 +23,11 @@ The TextBox control displays text from an organized set of data or user input.
 | [backColor](../forms2olecontrol/backColor/) | Gets or sets a background color of the control. The default value depends on a type of the control.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [caption](../forms2olecontrol/caption/) | Gets or sets a Caption property of the control. Default value is an empty string.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [childNodes](../forms2olecontrol/childNodes/) | Gets collection of immediate child controls.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
-| [enabled](../forms2olecontrol/enabled/) | Returns ``True`` if control is in enabled state.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
+| [enabled](../forms2olecontrol/enabled/) | Returns ``true`` if control is in enabled state.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [foreColor](../forms2olecontrol/foreColor/) | Gets or sets a foreground color of the control. The default value depends on a type of the control.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [groupName](../forms2olecontrol/groupName/) | Gets or sets a string that specifies a group of mutually exclusive controls. The default value is an empty string.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
 | [height](../forms2olecontrol/height/) | Gets or sets a height of the control in points.<br>(Inherited from [Forms2OleControl](../forms2olecontrol/)) |
-| [isForms2OleControl](../olecontrol/isForms2OleControl/) | Returns ``True`` if the control is a [Forms2OleControl](../forms2olecontrol/).<br>(Inherited from [OleControl](../olecontrol/)) |
+| [isForms2OleControl](../olecontrol/isForms2OleControl/) | Returns ``true`` if the control is a [Forms2OleControl](../forms2olecontrol/).<br>(Inherited from [OleControl](../olecontrol/)) |
 | [name](../olecontrol/name/) | Gets or sets name of the ActiveX control.<br>(Inherited from [OleControl](../olecontrol/)) |
 | [text](./text/) | Gets or sets a text of the control. |
 | [type](./type/) | Gets type of Forms 2.0 control. |

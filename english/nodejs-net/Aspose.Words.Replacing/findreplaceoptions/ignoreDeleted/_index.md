@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreDeleted/
 ## FindReplaceOptions.ignoreDeleted property
 
 Gets or sets a boolean value indicating either to ignore text inside delete revisions.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

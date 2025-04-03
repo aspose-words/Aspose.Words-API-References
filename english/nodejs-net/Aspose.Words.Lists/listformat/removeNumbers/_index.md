@@ -20,7 +20,7 @@ removeNumbers()
 
 ### Remarks
 
-Calling this method is equivalent to setting the [ListFormat.list](../list/) property to ``None``.
+Calling this method is equivalent to setting the [ListFormat.list](../list/) property to ``null``.
 
 
 

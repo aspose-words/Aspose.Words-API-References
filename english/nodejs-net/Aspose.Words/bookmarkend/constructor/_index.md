@@ -22,7 +22,7 @@ BookmarkEnd(doc: Aspose.Words.DocumentBasename: string)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | [DocumentBase](../../documentbase/) | The owner document. |
-| name | string | The name of the bookmark. Cannot be ``None``. |
+| name | string | The name of the bookmark. Cannot be ``null``. |
 
 ### See Also
 

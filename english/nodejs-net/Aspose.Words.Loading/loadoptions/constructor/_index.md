@@ -29,7 +29,7 @@ LoadOptions(password: string)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | string | The password to open an encrypted document. Can be ``None`` or empty string. |
+| password | string | The password to open an encrypted document. Can be ``null`` or empty string. |
 
 ## LoadOptions(loadFormat, password, baseUri) {#loadformat_string_string}
 
@@ -43,8 +43,8 @@ LoadOptions(loadFormat: Aspose.Words.LoadFormatpassword: stringbaseUri: string)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | loadFormat | [LoadFormat](../../../aspose.words/loadformat/) | The format of the document to be loaded. |
-| password | string | The password to open an encrypted document. Can be ``None`` or empty string. |
-| baseUri | string | The string that will be used to resolve relative URIs to absolute. Can be ``None`` or empty string. |
+| password | string | The password to open an encrypted document. Can be ``null`` or empty string. |
+| baseUri | string | The string that will be used to resolve relative URIs to absolute. Can be ``null`` or empty string. |
 
 ## See Also
 

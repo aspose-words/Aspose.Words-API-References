@@ -20,11 +20,11 @@ get embedFullFonts(): boolean
 
 ### Remarks
 
-The default value is ``False``, which means the fonts are subsetted before embedding.
+The default value is ``false``, which means the fonts are subsetted before embedding.
 Subsetting is useful if you want to keep the output file size smaller. Subsetting removes all
 unused glyphs from a font.
 
-When this value is set to ``True``, a complete font file is embedded into PDF without
+When this value is set to ``true``, a complete font file is embedded into PDF without
 subsetting. This will result in larger output files, but can be a useful option when you want to
 edit the resulting PDF later (e.g. add more text).
 

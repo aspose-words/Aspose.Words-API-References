@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.saveFontFaceCssSeparately property
 linktitle: saveFontFaceCssSeparately property
 articleTitle: saveFontFaceCssSeparately property
 second_title: Aspose.Words for NodeJs
-description: "HtmlFixedSaveOptions.saveFontFaceCssSeparately property. Flag indicates whether @font-face CSS rules should be placed into a separate file fontFaces.css when a document is being saved with external stylesheet (that is, when [HtmlFixedSaveOptions.exportEmbeddedCss](../exportEmbeddedCss/) is ``False``)"
+description: "HtmlFixedSaveOptions.saveFontFaceCssSeparately property. Flag indicates whether @font-face CSS rules should be placed into a separate file fontFaces.css when a document is being saved with external stylesheet (that is, when [HtmlFixedSaveOptions.exportEmbeddedCss](../exportEmbeddedCss/) is ``false``)"
 type: docs
 weight: 180
 url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/saveFontFaceCssSeparately/
@@ -13,8 +13,8 @@ url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/saveFontFaceCssSeparat
 
 Flag indicates whether "@font-face" CSS rules should be placed into a separate file "fontFaces.css"
 when a document is being saved with external stylesheet (that is, when [HtmlFixedSaveOptions.exportEmbeddedCss](../exportEmbeddedCss/)
-is ``False``).
-Default value is ``False``, all CSS rules are written into single file "styles.css".
+is ``false``).
+Default value is ``false``, all CSS rules are written into single file "styles.css".
 
 
 
@@ -24,7 +24,7 @@ get saveFontFaceCssSeparately(): boolean
 
 ### Remarks
 
-Setting this property to ``True`` restores the old behavior (separate files) for compatibility with legacy code.
+Setting this property to ``true`` restores the old behavior (separate files) for compatibility with legacy code.
 
 
 

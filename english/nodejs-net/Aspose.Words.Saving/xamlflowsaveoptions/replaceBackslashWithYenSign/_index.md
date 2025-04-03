@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/replaceBackslashWithYen
 ## XamlFlowSaveOptions.replaceBackslashWithYenSign property
 
 Specifies whether backslash characters should be replaced with yen signs.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

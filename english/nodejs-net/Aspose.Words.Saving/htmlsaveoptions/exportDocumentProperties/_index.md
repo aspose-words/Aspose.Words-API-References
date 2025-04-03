@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportDocumentProperties/
 ## HtmlSaveOptions.exportDocumentProperties property
 
 Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

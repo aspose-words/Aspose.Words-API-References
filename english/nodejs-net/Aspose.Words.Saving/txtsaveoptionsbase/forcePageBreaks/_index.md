@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Saving/txtsaveoptionsbase/forcePageBreaks/
 
 Allows to specify whether the page breaks should be preserved during export.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

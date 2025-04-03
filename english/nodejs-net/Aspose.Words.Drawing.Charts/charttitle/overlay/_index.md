@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/charttitle/overlay/
 ## ChartTitle.overlay property
 
 Determines whether other chart elements shall be allowed to overlap title.
-By default overlay is ``False``.
+By default overlay is ``false``.
 
 
 

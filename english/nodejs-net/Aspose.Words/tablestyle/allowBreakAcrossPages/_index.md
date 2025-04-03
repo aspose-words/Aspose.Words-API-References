@@ -20,7 +20,7 @@ get allowBreakAcrossPages(): boolean
 
 ### Remarks
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/revision/group/
 
 ## Revision.group property
 
-Gets the revision group. Returns ``None`` if the revision does not belong to any group.
+Gets the revision group. Returns ``null`` if the revision does not belong to any group.
 
 
 

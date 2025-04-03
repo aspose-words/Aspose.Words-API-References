@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/xamlfixedsaveoptions/resourcesFolderAlias/
 ## XamlFixedSaveOptions.resourcesFolderAlias property
 
 Specifies the name of the folder used to construct image URIs written into an fixed page Xaml document.
-Default is ``None``.
+Default is ``null``.
 
 
 

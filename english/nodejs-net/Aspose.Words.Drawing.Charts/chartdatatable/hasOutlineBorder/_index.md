@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatatable/hasOutlineBorder/
 
 Gets or sets a flag indicating whether an outline border, that is, a border around series and category names,
 is displayed.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

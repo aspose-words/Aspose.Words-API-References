@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.AI/checkgrammaroptions/improveStylistics/
 ## CheckGrammarOptions.improveStylistics property
 
 Allows to specify either AI will try to improve stylistics of the text being proofed.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

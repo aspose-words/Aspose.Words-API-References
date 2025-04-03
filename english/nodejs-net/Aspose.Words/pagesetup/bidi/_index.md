@@ -20,7 +20,7 @@ get bidi(): boolean
 
 ### Remarks
 
-When ``True``, the columns in this section are laid out from right to left.
+When ``true``, the columns in this section are laid out from right to left.
 
 
 

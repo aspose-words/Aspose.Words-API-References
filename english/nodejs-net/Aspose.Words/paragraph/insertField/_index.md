@@ -22,7 +22,7 @@ insertField(fieldType: Aspose.Words.Fields.FieldTypeupdateField: booleanrefNode:
 | --- | --- | --- |
 | fieldType | [FieldType](../../../aspose.words.fields/fieldtype/) | The type of the field to insert. |
 | updateField | boolean | Specifies whether to update the field immediately. |
-| refNode | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``None``, then appends to the end of the paragraph). |
+| refNode | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``null``, then appends to the end of the paragraph). |
 | isAfter | boolean | Whether to insert the field after or before reference node. |
 
 ### Returns
@@ -42,7 +42,7 @@ insertField(fieldCode: stringrefNode: Aspose.Words.NodeisAfter: boolean)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | string | The field code to insert (without curly braces). |
-| refNode | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``None``, then appends to the end of the paragraph). |
+| refNode | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``null``, then appends to the end of the paragraph). |
 | isAfter | boolean | Whether to insert the field after or before reference node. |
 
 ### Returns
@@ -62,8 +62,8 @@ insertField(fieldCode: stringfieldValue: stringrefNode: Aspose.Words.NodeisAfter
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | string | The field code to insert (without curly braces). |
-| fieldValue | string | The field value to insert. Pass ``None`` for fields that do not have a value. |
-| refNode | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``None``, then appends to the end of the paragraph). |
+| fieldValue | string | The field value to insert. Pass ``null`` for fields that do not have a value. |
+| refNode | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``null``, then appends to the end of the paragraph). |
 | isAfter | boolean | Whether to insert the field after or before reference node. |
 
 ### Returns

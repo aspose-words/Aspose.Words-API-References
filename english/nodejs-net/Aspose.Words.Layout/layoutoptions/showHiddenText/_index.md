@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Layout/layoutoptions/showHiddenText/
 ## LayoutOptions.showHiddenText property
 
 Gets or sets indication of whether hidden text in the document is rendered.
-Default is ``False``.
+Default is ``false``.
 
 
 

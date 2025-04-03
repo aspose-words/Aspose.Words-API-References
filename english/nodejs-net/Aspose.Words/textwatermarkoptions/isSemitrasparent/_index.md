@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words/textwatermarkoptions/isSemitrasparent/
 ## TextWatermarkOptions.isSemitrasparent property
 
 Gets or sets a boolean value which is responsible for opacity of the watermark.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

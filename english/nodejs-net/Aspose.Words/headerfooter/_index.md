@@ -50,9 +50,9 @@ considered linked to previous in Microsoft Word.
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [firstChild](../compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [firstParagraph](../story/firstParagraph/) | Gets the first paragraph in the story.<br>(Inherited from [Story](../story/)) |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [headerFooterType](./headerFooterType/) | Gets the type of this header/footer. |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [isHeader](./isHeader/) | True if this [HeaderFooter](./) object is a header. |
 | [isLinkedToPrevious](./isLinkedToPrevious/) | True if this header or footer is linked to the corresponding header or footer in the previous section. |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |

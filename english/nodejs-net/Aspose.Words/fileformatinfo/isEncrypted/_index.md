@@ -3,7 +3,7 @@ title: FileFormatInfo.isEncrypted property
 linktitle: isEncrypted property
 articleTitle: isEncrypted property
 second_title: Aspose.Words for NodeJs
-description: "FileFormatInfo.isEncrypted property. Returns ``True`` if the document is encrypted and requires a password to open."
+description: "FileFormatInfo.isEncrypted property. Returns ``true`` if the document is encrypted and requires a password to open."
 type: docs
 weight: 40
 url: /nodejs-net/Aspose.Words/fileformatinfo/isEncrypted/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/fileformatinfo/isEncrypted/
 
 ## FileFormatInfo.isEncrypted property
 
-Returns ``True`` if the document is encrypted and requires a password to open.
+Returns ``true`` if the document is encrypted and requires a password to open.
 
 
 

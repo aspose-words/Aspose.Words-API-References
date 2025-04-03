@@ -28,7 +28,7 @@ For more information see [CustomPart](../../../aspose.words.markup/custompart/).
 
 Aspose.Words loads and saves custom parts into OOXML documents only.
 
-This property cannot be ``None``.
+This property cannot be ``null``.
 
 
 

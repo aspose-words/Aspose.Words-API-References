@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words/list/isRestartAtEachSection/
 ## List.isRestartAtEachSection property
 
 Specifies whether list should be restarted at each section.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

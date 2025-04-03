@@ -20,9 +20,9 @@ get xscale(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
-If ``True``, the text runs along a path from left to right along the x value of 
+If ``true``, the text runs along a path from left to right along the x value of 
 the lower boundary of the shape.
 
 

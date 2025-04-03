@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Layout/layoutoptions/keepOriginalFontMetrics/
 ## LayoutOptions.keepOriginalFontMetrics property
 
 Gets or sets an indication of whether the original font metrics should be used after font substitution.
-Default is ``True``.
+Default is ``true``.
 
 
 

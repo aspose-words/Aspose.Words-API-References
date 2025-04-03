@@ -21,7 +21,7 @@ get isLinkedToPrevious(): boolean
 
 ### Remarks
 
-Default is ``True``.
+Default is ``true``.
 
 Note, when your link a header or footer, its contents is cleared.
 

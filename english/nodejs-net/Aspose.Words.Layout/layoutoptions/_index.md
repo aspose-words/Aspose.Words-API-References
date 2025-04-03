@@ -40,11 +40,11 @@ should be called in order for the changed options to be applied to the layout.
 | [callback](./callback/) | Gets or sets [IPageLayoutCallback](../ipagelayoutcallback/) implementation used by page layout model. |
 | [commentDisplayMode](./commentDisplayMode/) | Gets or sets the way comments are rendered. Default value is [CommentDisplayMode.ShowInBalloons](../commentdisplaymode/#ShowInBalloons). |
 | [continuousSectionPageNumberingRestart](./continuousSectionPageNumberingRestart/) | Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering. |
-| [ignorePrinterMetrics](./ignorePrinterMetrics/) | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is ``True``. |
-| [keepOriginalFontMetrics](./keepOriginalFontMetrics/) | Gets or sets an indication of whether the original font metrics should be used after font substitution. Default is ``True``. |
+| [ignorePrinterMetrics](./ignorePrinterMetrics/) | Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored. Default is ``true``. |
+| [keepOriginalFontMetrics](./keepOriginalFontMetrics/) | Gets or sets an indication of whether the original font metrics should be used after font substitution. Default is ``true``. |
 | [revisionOptions](./revisionOptions/) | Gets revision options. |
-| [showHiddenText](./showHiddenText/) | Gets or sets indication of whether hidden text in the document is rendered. Default is ``False``. |
-| [showParagraphMarks](./showParagraphMarks/) | Gets or sets indication of whether paragraph marks are rendered. Default is ``False``. |
+| [showHiddenText](./showHiddenText/) | Gets or sets indication of whether hidden text in the document is rendered. Default is ``false``. |
+| [showParagraphMarks](./showParagraphMarks/) | Gets or sets indication of whether paragraph marks are rendered. Default is ``false``. |
 
 ### Examples
 

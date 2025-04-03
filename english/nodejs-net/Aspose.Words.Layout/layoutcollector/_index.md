@@ -27,7 +27,7 @@ You will be able to find out on which page a particular document node (e.g. run,
 by using the [LayoutCollector.getStartPageIndex()](./getStartPageIndex/#node), [LayoutCollector.getEndPageIndex()](./getEndPageIndex/#node) and [LayoutCollector.getNumPagesSpanned()](./getNumPagesSpanned/#node) methods. 
 These methods automatically build page layout model of the document and update fields if required.
 
-When you no longer need to collect layout information, it is best to set the [LayoutCollector.document](./document/) property to ``None``
+When you no longer need to collect layout information, it is best to set the [LayoutCollector.document](./document/) property to ``null``
 to avoid unnecessary collection of more layout mappings.
 
 

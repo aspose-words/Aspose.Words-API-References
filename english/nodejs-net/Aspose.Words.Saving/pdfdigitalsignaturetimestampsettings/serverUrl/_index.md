@@ -20,8 +20,8 @@ get serverUrl(): string
 
 ### Remarks
 
-The default value is ``None``.
-If ``None``, then the digital signature will not be time-stamped.
+The default value is ``null``.
+If ``null``, then the digital signature will not be time-stamped.
 
 
 

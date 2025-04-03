@@ -40,8 +40,8 @@ and properties to create or modify a [OfficeMath](./) object. In this version yo
 | [displayType](./displayType/) | Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line. |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [firstChild](../../aspose.words/compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [isComposite](../../aspose.words/node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [isComposite](../../aspose.words/node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [justification](./justification/) | Gets/sets Office Math justification. |
 | [lastChild](../../aspose.words/compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [mathObjectType](./mathObjectType/) | Gets type [OfficeMath.mathObjectType](./mathObjectType/) of this Office Math object. |

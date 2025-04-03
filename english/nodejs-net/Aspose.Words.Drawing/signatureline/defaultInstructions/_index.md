@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing/signatureline/defaultInstructions/
 ## SignatureLine.defaultInstructions property
 
 Gets or sets a value indicating that default instructions is shown in the Sign dialog.
-Default value for this property is ``True``.
+Default value for this property is ``true``.
 
 
 

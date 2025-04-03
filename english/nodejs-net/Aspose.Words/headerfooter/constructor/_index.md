@@ -26,7 +26,7 @@ HeaderFooter(doc: Aspose.Words.DocumentBaseheaderFooterType: Aspose.Words.Header
 ### Remarks
 
 When [HeaderFooter](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append [HeaderFooter](../) to a [Section](../../section/) use [CompositeNode.insertAfter()](../../compositenode/insertAfter/#node_node), [CompositeNode.insertBefore()](../../compositenode/insertBefore/#node_node),
 or [Section.headersFooters](../../section/headersFooters/) property and methods [NodeCollection.add()](../../nodecollection/add/#node), [NodeCollection.insert()](../../nodecollection/insert/#number_node).

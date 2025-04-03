@@ -22,7 +22,7 @@ get groupIndex(): number
 
 ### Remarks
 
-[ReplacingArgs.groupIndex](./) has effect only when [ReplacingArgs.groupName](../groupName/) is ``None``.
+[ReplacingArgs.groupIndex](./) has effect only when [ReplacingArgs.groupName](../groupName/) is ``null``.
 
 Default is zero.
 

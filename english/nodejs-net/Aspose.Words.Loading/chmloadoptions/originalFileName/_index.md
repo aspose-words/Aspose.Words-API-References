@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Loading/chmloadoptions/originalFileName/
 ## ChmLoadOptions.originalFileName property
 
 The name of the CHM file.
-Default value is ``None``.
+Default value is ``null``.
 
 
 

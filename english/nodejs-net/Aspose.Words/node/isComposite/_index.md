@@ -3,7 +3,7 @@ title: Node.isComposite property
 linktitle: isComposite property
 articleTitle: isComposite property
 second_title: Aspose.Words for NodeJs
-description: "Node.isComposite property. Returns ``True`` if this node can contain other nodes."
+description: "Node.isComposite property. Returns ``true`` if this node can contain other nodes."
 type: docs
 weight: 30
 url: /nodejs-net/Aspose.Words/node/isComposite/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/node/isComposite/
 
 ## Node.isComposite property
 
-Returns ``True`` if this node can contain other nodes.
+Returns ``true`` if this node can contain other nodes.
 
 
 

@@ -20,7 +20,7 @@ get odso(): Aspose.Words.Settings.Odso
 
 ### Remarks
 
-This object is never ``None``.
+This object is never ``null``.
 
 
 

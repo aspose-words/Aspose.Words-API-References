@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/resourcesFolderAlias/
 ## HtmlFixedSaveOptions.resourcesFolderAlias property
 
 Specifies the name of the folder used to construct image URIs written into an Html document.
-Default is ``None``.
+Default is ``null``.
 
 
 

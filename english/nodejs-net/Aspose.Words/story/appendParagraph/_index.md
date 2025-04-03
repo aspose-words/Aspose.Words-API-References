@@ -21,7 +21,7 @@ appendParagraph(text: string)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | string | The text for the paragraph. Can be ``None`` or empty string. |
+| text | string | The text for the paragraph. Can be ``null`` or empty string. |
 
 ### Returns
 

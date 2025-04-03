@@ -20,13 +20,13 @@ get useInvariantCultureNumberFormat(): boolean
 
 ### Remarks
 
-When this property is set to ``True``, number format is taken from an invariant culture.
+When this property is set to ``true``, number format is taken from an invariant culture.
 
 
-When this property is set to ``False``, number format is taken from the current thread's culture.
+When this property is set to ``false``, number format is taken from the current thread's culture.
 
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

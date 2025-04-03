@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Saving/txtsaveoptions/addBidiMarks/
 
 Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -3,7 +3,7 @@ title: List.isListStyleDefinition property
 linktitle: isListStyleDefinition property
 articleTitle: isListStyleDefinition property
 second_title: Aspose.Words for NodeJs
-description: "List.isListStyleDefinition property. Returns ``True`` if this list is a definition of a list style."
+description: "List.isListStyleDefinition property. Returns ``true`` if this list is a definition of a list style."
 type: docs
 weight: 20
 url: /nodejs-net/Aspose.Words/list/isListStyleDefinition/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/list/isListStyleDefinition/
 
 ## List.isListStyleDefinition property
 
-Returns ``True`` if this list is a definition of a list style.
+Returns ``true`` if this list is a definition of a list style.
 
 
 
@@ -21,7 +21,7 @@ get isListStyleDefinition(): boolean
 
 ### Remarks
 
-When this property is ``True``, the [List.style](../style/) property returns the list style that
+When this property is ``true``, the [List.style](../style/) property returns the list style that
 this list defines.
 
 By modifying properties of a list that defines a list style, you modify the properties

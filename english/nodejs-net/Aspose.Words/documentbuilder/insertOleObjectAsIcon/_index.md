@@ -22,9 +22,9 @@ insertOleObjectAsIcon(fileName: stringisLinked: booleaniconFile: stringiconCapti
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | Full path to the file. |
-| isLinked | boolean | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | string | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
-| iconCaption | string | Icon caption. If the value is ``None``, Aspose.Words will use the file name. |
+| isLinked | boolean | If ``true`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | string | Full path to the ICO file. If the value is ``null``, Aspose.Words will use a predefined image. |
+| iconCaption | string | Icon caption. If the value is ``null``, Aspose.Words will use the file name. |
 
 ### Returns
 
@@ -45,9 +45,9 @@ insertOleObjectAsIcon(fileName: stringprogId: stringisLinked: booleaniconFile: s
 | --- | --- | --- |
 | fileName | string | Full path to the file. |
 | progId | string | ProgId of OLE object. |
-| isLinked | boolean | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | string | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
-| iconCaption | string | Icon caption. If the value is ``None``, Aspose.Words will use the file name. |
+| isLinked | boolean | If ``true`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | string | Full path to the ICO file. If the value is ``null``, Aspose.Words will use a predefined image. |
+| iconCaption | string | Icon caption. If the value is ``null``, Aspose.Words will use the file name. |
 
 ### Returns
 
@@ -68,8 +68,8 @@ insertOleObjectAsIcon(stream: BufferprogId: stringiconFile: stringiconCaption: s
 | --- | --- | --- |
 | stream | Buffer | Stream containing application data. |
 | progId | string | ProgId of OLE object. |
-| iconFile | string | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
-| iconCaption | string | Icon caption. If the value is ``None``, Aspose.Words will use the a predefined icon caption. |
+| iconFile | string | Full path to the ICO file. If the value is ``null``, Aspose.Words will use a predefined image. |
+| iconCaption | string | Icon caption. If the value is ``null``, Aspose.Words will use the a predefined icon caption. |
 
 ### Returns
 

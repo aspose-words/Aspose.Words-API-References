@@ -20,7 +20,7 @@ get encryptionDetails(): Aspose.Words.Saving.PdfEncryptionDetails
 
 ### Remarks
 
-The default value is ``None`` and the output document will not be encrypted.
+The default value is ``null`` and the output document will not be encrypted.
 When this property is set to a valid [PdfEncryptionDetails](../../pdfencryptiondetails/) object,
 then the output PDF document will be encrypted.
 

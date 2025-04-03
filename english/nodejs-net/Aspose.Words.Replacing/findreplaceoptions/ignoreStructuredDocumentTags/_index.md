@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreStructuredDocum
 ## FindReplaceOptions.ignoreStructuredDocumentTags property
 
 Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/).
-The default value is ``False``.
+The default value is ``false``.
 
 
 
@@ -22,7 +22,7 @@ get ignoreStructuredDocumentTags(): boolean
 
 ### Remarks
 
-When this option is set to ``True``, the content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
+When this option is set to ``true``, the content of [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/)
 will be treated as a simple text.
 
 

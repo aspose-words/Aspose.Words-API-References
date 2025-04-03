@@ -20,7 +20,7 @@ get paragraphFormat(): Aspose.Words.ParagraphFormat
 
 ### Remarks
 
-For character and list styles this property returns ``None``.
+For character and list styles this property returns ``null``.
 
 
 

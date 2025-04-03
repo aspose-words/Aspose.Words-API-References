@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Settings/odsorecipientdata/uniqueTag/
 ## OdsoRecipientData.uniqueTag property
 
 Specifies the contents of a given record in the column containing unique data.
-The default value is ``None``.
+The default value is ``null``.
 
 
 

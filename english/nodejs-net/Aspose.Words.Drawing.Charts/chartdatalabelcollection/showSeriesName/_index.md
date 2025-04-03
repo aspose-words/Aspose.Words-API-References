@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/showSeries
 ## ChartDataLabelCollection.showSeriesName property
 
 Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series.
-``True`` to show the series name; ``False`` to hide. By default ``False``.
+``true`` to show the series name; ``false`` to hide. By default ``false``.
 
 
 

@@ -22,7 +22,7 @@ get stroked(): boolean
 
 This is a shortcut to the [Stroke.on](../../stroke/on/) property.
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

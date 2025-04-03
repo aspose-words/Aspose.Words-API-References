@@ -39,7 +39,7 @@ The properties in the collection are sorted alphabetically by name.
 | Name | Description |
 | --- | --- |
 |[ clear()](./clear/#default) | Removes all properties from the collection. |
-|[ contains(name)](./contains/#string) | Returns ``True`` if a property with the specified name exists in the collection. |
+|[ contains(name)](./contains/#string) | Returns ``true`` if a property with the specified name exists in the collection. |
 |[ indexOf(name)](./indexOf/#string) | Gets the index of a property by name. |
 |[ remove(name)](./remove/#string) | Removes a property with the specified name from the collection. |
 |[ removeAt(index)](./removeAt/#number) | Removes a property at the specified index. |

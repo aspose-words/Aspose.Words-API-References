@@ -24,7 +24,7 @@ getEmbeddedFontAsOpenType(style: Aspose.Words.Fonts.EmbeddedFontStyle)
 
 ### Returns
 
-Returns ``None`` if the specified font is not embedded.
+Returns ``null`` if the specified font is not embedded.
 
 
 ### See Also

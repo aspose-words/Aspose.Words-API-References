@@ -69,7 +69,7 @@ Document(fileName: stringloadOptions: Aspose.Words.Loading.LoadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | File name of the document to open. |
-| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``null``. |
 
 ### Exceptions
 
@@ -127,7 +127,7 @@ Document(stream: BufferloadOptions: Aspose.Words.Loading.LoadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream where to load the document from. |
-| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``null``. |
 
 ### Remarks
 

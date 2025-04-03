@@ -28,7 +28,7 @@ To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/word
 
 | Name | Description |
 | --- | --- |
-|[ isDictionaryRegistered(language)](./isDictionaryRegistered/#string) | Returns ``False`` if for the specified language there is no dictionary registered or if registered is Null dictionary, ``True`` otherwise. |
+|[ isDictionaryRegistered(language)](./isDictionaryRegistered/#string) | Returns ``false`` if for the specified language there is no dictionary registered or if registered is Null dictionary, ``true`` otherwise. |
 |[ registerDictionary(language, stream)](./registerDictionary/#string_buffer) | Registers and loads a hyphenation dictionary for the specified language from a stream. Throws if dictionary cannot be read or has invalid format. |
 |[ registerDictionary(language, fileName)](./registerDictionary/#string_string) | Registers and loads a hyphenation dictionary for the specified language from file. Throws if dictionary cannot be read or has invalid format. |
 |[ unregisterDictionary(language)](./unregisterDictionary/#string) | Unregisters a hyphenation dictionary for the specified language. |

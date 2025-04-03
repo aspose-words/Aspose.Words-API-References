@@ -20,9 +20,9 @@ get bidi(): boolean
 
 ### Remarks
 
-When ``True``, the cells in rows are laid out right to left.
+When ``true``, the cells in rows are laid out right to left.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

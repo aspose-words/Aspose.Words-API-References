@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Loading/loadoptions/preserveIncludePictureField/
 ## LoadOptions.preserveIncludePictureField property
 
 Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -25,7 +25,7 @@ the appropriate paragraph formatting has been changed.
 
 AutomaticallyUpdate property is applicable to paragraph styles only.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -63,8 +63,8 @@ the paragraph as it might make the paragraph invalid when the document is opened
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [firstChild](../compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [frameFormat](./frameFormat/) | Provides access to the frame formatting properties. |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [isDeleteRevision](./isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
 | [isEndOfCell](./isEndOfCell/) | True if this paragraph is the last paragraph in a [Cell](../../aspose.words.tables/cell/); false otherwise. |
 | [isEndOfDocument](./isEndOfDocument/) | True if this paragraph is the last paragraph in the last section of the document. |
@@ -74,8 +74,8 @@ the paragraph as it might make the paragraph invalid when the document is opened
 | [isInCell](./isInCell/) | True if this paragraph is an immediate child of [Cell](../../aspose.words.tables/cell/); false otherwise. |
 | [isInsertRevision](./isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [isListItem](./isListItem/) | True when the paragraph is an item in a bulleted or numbered list in original revision. |
-| [isMoveFromRevision](./isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [isMoveToRevision](./isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [isMoveFromRevision](./isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [isMoveToRevision](./isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [listFormat](./listFormat/) | Provides access to the list formatting properties of the paragraph. |
 | [listLabel](./listLabel/) | Gets a [Paragraph.listLabel](./listLabel/) object that provides access to list numbering value and formatting for this paragraph. |

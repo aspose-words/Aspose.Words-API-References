@@ -3,7 +3,7 @@ title: Forms2OleControl.enabled property
 linktitle: enabled property
 articleTitle: enabled property
 second_title: Aspose.Words for NodeJs
-description: "Forms2OleControl.enabled property. Returns ``True`` if control is in enabled state."
+description: "Forms2OleControl.enabled property. Returns ``true`` if control is in enabled state."
 type: docs
 weight: 40
 url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/enabled/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/enabled/
 
 ## Forms2OleControl.enabled property
 
-Returns ``True`` if control is in enabled state.
+Returns ``true`` if control is in enabled state.
 
 
 

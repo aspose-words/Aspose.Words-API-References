@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/revision/author/
 
 ## Revision.author property
 
-Gets or sets the author of this revision. Can not be empty string or ``None``.
+Gets or sets the author of this revision. Can not be empty string or ``null``.
 
 
 

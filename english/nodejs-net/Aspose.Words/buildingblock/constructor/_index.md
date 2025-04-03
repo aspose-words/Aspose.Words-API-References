@@ -25,7 +25,7 @@ BuildingBlock(glossaryDoc: Aspose.Words.BuildingBlocks.GlossaryDocument)
 ### Remarks
 
 When [BuildingBlock](../) is created, it belongs to the specified glossary document, 
-but is not yet part of the glossary document and [Node.parentNode](../../node/parentNode/) is ``None``.
+but is not yet part of the glossary document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append [BuildingBlock](../) to a [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) use 
 [CompositeNode.appendChild()](../../compositenode/appendChild/#node).

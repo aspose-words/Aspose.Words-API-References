@@ -30,7 +30,7 @@ getFieldCode(includeChildFieldCodes: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | ``True`` if child field codes should be included. |
+| includeChildFieldCodes | boolean | ``true`` if child field codes should be included. |
 
 ## See Also
 

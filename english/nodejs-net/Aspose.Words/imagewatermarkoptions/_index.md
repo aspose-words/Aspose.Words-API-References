@@ -26,7 +26,7 @@ To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/
 
 | Name | Description |
 | --- | --- |
-| [isWashout](./isWashout/) | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is ``True``. |
+| [isWashout](./isWashout/) | Gets or sets a boolean value which is responsible for washout effect of the watermark. The default value is ``true``. |
 | [scale](./scale/) | Gets or sets the scale factor expressed as a fraction of the image. The default value is 0 - auto. |
 
 ### See Also

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/isHidden/
 ## ChartDataLabel.isHidden property
 
 Gets/sets a flag indicating whether this label is hidden.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

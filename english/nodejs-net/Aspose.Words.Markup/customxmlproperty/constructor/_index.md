@@ -20,9 +20,9 @@ CustomXmlProperty(name: stringuri: stringvalue: string)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| name | string | The name of the property. Cannot be ``None``. |
-| uri | string | The namespace URI of the property. Cannot be ``None``. |
-| value | string | The value of the property. Cannot be ``None``. |
+| name | string | The name of the property. Cannot be ``null``. |
+| uri | string | The namespace URI of the property. Cannot be ``null``. |
+| value | string | The value of the property. Cannot be ``null``. |
 
 ### See Also
 

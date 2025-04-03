@@ -25,7 +25,7 @@ insertAfter(newChild: Aspose.Words.NoderefChild: Aspose.Words.Node)
 
 ### Remarks
 
-If *refChild* is``None``, inserts *newChild* at the beginning of the list of child nodes.
+If *refChild* is``null``, inserts *newChild* at the beginning of the list of child nodes.
 
 
 

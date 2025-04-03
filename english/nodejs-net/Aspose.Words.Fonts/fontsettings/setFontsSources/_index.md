@@ -56,7 +56,7 @@ For the fonts in the [SystemFontSource](../../systemfontsource/) and [FolderFont
 to the font file. For [MemoryFontSource](../../memoryfontsource/) and [StreamFontSource](../../streamfontsource/) cache key is defined
 in the [MemoryFontSource.cacheKey](../../memoryfontsource/cacheKey/) and [StreamFontSource.cacheKey](../../streamfontsource/cacheKey/) properties
 respectively. For the [FileFontSource](../../filefontsource/) cache key is either [FileFontSource.cacheKey](../../filefontsource/cacheKey/)
-property or a file path if the [FileFontSource.cacheKey](../../filefontsource/cacheKey/) is ``None``.
+property or a file path if the [FileFontSource.cacheKey](../../filefontsource/cacheKey/) is ``null``.
 
 It is highly recommended to provide the same font sources when loading cache as at the time the cache was saved.
 Any changes in the font sources (e.g. adding new fonts, moving font files or changing the cache key) may lead to the

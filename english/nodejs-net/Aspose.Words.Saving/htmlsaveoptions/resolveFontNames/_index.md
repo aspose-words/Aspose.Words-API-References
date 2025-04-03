@@ -22,11 +22,11 @@ get resolveFontNames(): boolean
 
 ### Remarks
 
-By default, this option is set to ``False`` and font family names are written to HTML as specified
+By default, this option is set to ``false`` and font family names are written to HTML as specified
 in source documents. That is, [Document.fontSettings](../../../aspose.words/document/fontSettings/) are ignored and no resolution or substitution
 of font family names is performed.
 
-If this option is set to ``True``, Aspose.Words uses [Document.fontSettings](../../../aspose.words/document/fontSettings/) to resolve
+If this option is set to ``true``, Aspose.Words uses [Document.fontSettings](../../../aspose.words/document/fontSettings/) to resolve
 each font family name specified in a source document into the name of an available font family, performing
 font substitution as required.
 

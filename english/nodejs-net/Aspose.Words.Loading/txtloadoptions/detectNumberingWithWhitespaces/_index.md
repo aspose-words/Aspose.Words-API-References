@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Loading/txtloadoptions/detectNumberingWithWhitespa
 ## TxtLoadOptions.detectNumberingWithWhitespaces property
 
 Allows to specify how numbered list items are recognized when document is imported from plain text format.
-The default value is ``True``.
+The default value is ``true``.
 
 
 ```js
@@ -21,10 +21,10 @@ get detectNumberingWithWhitespaces(): boolean
 
 ### Remarks
 
-If this option is set to ``False``, lists recognition algorithm detects list paragraphs, when list numbers ends with
+If this option is set to ``false``, lists recognition algorithm detects list paragraphs, when list numbers ends with
 either dot, right bracket or bullet symbols (such as "•", "\*", "-" or "o").
 
-If this option is set to ``True``, whitespaces are also used as list number delimiters:
+If this option is set to ``true``, whitespaces are also used as list number delimiters:
 list recognition algorithm for Arabic style numbering (1., 1.1.2.) uses both whitespaces and dot (".") symbols.
 
 

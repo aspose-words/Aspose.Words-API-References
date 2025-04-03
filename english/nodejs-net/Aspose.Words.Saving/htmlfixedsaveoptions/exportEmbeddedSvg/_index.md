@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/exportEmbeddedSvg/
 ## HtmlFixedSaveOptions.exportEmbeddedSvg property
 
 Specifies whether SVG resources should be embedded into Html document.
-Default value is ``True``.
+Default value is ``true``.
 
 
 

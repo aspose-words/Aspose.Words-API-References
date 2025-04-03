@@ -20,10 +20,10 @@ get fontSettings(): Aspose.Words.Fonts.FontSettings
 
 ### Remarks
 
-This property allows to specify font settings per document. If set to ``None``, default static font settings
+This property allows to specify font settings per document. If set to ``null``, default static font settings
 [FontSettings.defaultInstance](../../../aspose.words.fonts/fontsettings/defaultInstance/) will be used.
 
-The default value is ``None``.
+The default value is ``null``.
 
 
 

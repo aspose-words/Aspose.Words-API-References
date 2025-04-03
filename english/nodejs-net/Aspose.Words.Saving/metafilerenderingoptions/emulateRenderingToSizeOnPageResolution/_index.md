@@ -20,7 +20,7 @@ get emulateRenderingToSizeOnPageResolution(): number
 
 ### Remarks
 
-This option is used only when [MetafileRenderingOptions.emulateRenderingToSizeOnPage](../emulateRenderingToSizeOnPage/) is set to ``True``.
+This option is used only when [MetafileRenderingOptions.emulateRenderingToSizeOnPage](../emulateRenderingToSizeOnPage/) is set to ``true``.
 
 The default value is 96. This is a default display resolution. I.e. metafile rendering will emulate the display of
 the metafile in MS Word with a 100% zoom factor.

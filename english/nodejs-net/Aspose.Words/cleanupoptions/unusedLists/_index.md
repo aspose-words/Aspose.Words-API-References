@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words/cleanupoptions/unusedLists/
 ## CleanupOptions.unusedLists property
 
 Specifies whether unused list and list definitions should be removed from document.
-Default value is ``True``.
+Default value is ``true``.
 
 
 

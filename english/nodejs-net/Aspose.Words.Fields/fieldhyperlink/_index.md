@@ -44,7 +44,7 @@ When selected, causes control to jump to the location such as a bookmark or a UR
 | [openInNewWindow](./openInNewWindow/) | Gets or sets whether to open the destination site in a new web browser window. |
 | [result](../../aspose.words/field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [screenTip](./screenTip/) | Gets or sets the ScreenTip text for the hyperlink. |
-| [separator](../../aspose.words/field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../../aspose.words/field/)) |
+| [separator](../../aspose.words/field/separator/) | Gets the node that represents the field separator. Can be ``null``.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [start](../../aspose.words/field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [subAddress](./subAddress/) | Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps. |
 | [target](./target/) | Gets or sets the target to which the link should be redirected. |
@@ -151,7 +151,7 @@ When selected, causes control to jump to the location such as a bookmark or a UR
 |[ asFieldXE()](../../aspose.words/field/asFieldXE/#default) | <br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ getFieldCode()](../../aspose.words/field/getFieldCode/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ getFieldCode(includeChildFieldCodes)](../../aspose.words/field/getFieldCode/#boolean) | Returns text between field start and field separator (or field end if there is no separator).<br>(Inherited from [Field](../../aspose.words/field/)) |
-|[ remove()](../../aspose.words/field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``None``.<br>(Inherited from [Field](../../aspose.words/field/)) |
+|[ remove()](../../aspose.words/field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``null``.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ unlink()](../../aspose.words/field/unlink/#default) | Performs the field unlink.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ update()](../../aspose.words/field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ update(ignoreMergeFormat)](../../aspose.words/field/update/#boolean) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../../aspose.words/field/)) |

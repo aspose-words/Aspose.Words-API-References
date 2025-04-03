@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportShapesAsSvg/
 
 Controls whether [Shape](../../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving
 to HTML, MHTML, EPUB or AZW3.
-Default value is ``False``.
+Default value is ``false``.
 
 
 
@@ -23,7 +23,7 @@ get exportShapesAsSvg(): boolean
 
 ### Remarks
 
-If this option is set to ``True``, [Shape](../../../aspose.words.drawing/shape/) nodes are exported as \<svg\> elements.
+If this option is set to ``true``, [Shape](../../../aspose.words.drawing/shape/) nodes are exported as \<svg\> elements.
 Otherwise, they are rendered to bitmaps and are exported as \<img\> elements.
 
 

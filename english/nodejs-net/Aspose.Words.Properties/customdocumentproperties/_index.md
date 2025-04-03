@@ -52,7 +52,7 @@ The properties in the collection are sorted alphabetically by name.
 |[ add(name, value)](./add/#string_number) | Creates a new custom document property of the [PropertyType.Double](../propertytype/#Double) data type. |
 |[ addLinkToContent(name, linkSource)](./addLinkToContent/#string_string) | Creates a new linked to content custom document property. |
 |[ clear()](../documentpropertycollection/clear/#default) | Removes all properties from the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
-|[ contains(name)](../documentpropertycollection/contains/#string) | Returns ``True`` if a property with the specified name exists in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
+|[ contains(name)](../documentpropertycollection/contains/#string) | Returns ``true`` if a property with the specified name exists in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ indexOf(name)](../documentpropertycollection/indexOf/#string) | Gets the index of a property by name.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ remove(name)](../documentpropertycollection/remove/#string) | Removes a property with the specified name from the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ removeAt(index)](../documentpropertycollection/removeAt/#number) | Removes a property at the specified index.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |

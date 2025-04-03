@@ -20,9 +20,9 @@ get useSystemLcid(): boolean
 
 ### Remarks
 
-If set to ``True``, then MS Word behavior is emulated which takes LCID value from Windows registry.
+If set to ``true``, then MS Word behavior is emulated which takes LCID value from Windows registry.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

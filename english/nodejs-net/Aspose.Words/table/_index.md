@@ -45,7 +45,7 @@ A minimal valid table needs to have at least one [Row](../../aspose.words.tables
 | [alignment](./alignment/) | Specifies how an inline table is aligned in the document. |
 | [allowAutoFit](./allowAutoFit/) | Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents. |
 | [allowCellSpacing](./allowCellSpacing/) | Gets or sets the "Allow spacing between cells" option. |
-| [allowOverlap](./allowOverlap/) | Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is ``True``. |
+| [allowOverlap](./allowOverlap/) | Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed. Default value is ``true``. |
 | [bidi](./bidi/) | Gets or sets whether this is a right-to-left table. |
 | [bottomPadding](./bottomPadding/) | Gets or sets the amount of space (in points) to add below the contents of cells. |
 | [cellSpacing](./cellSpacing/) | Gets or sets the amount of space (in points) between the cells. |
@@ -59,9 +59,9 @@ A minimal valid table needs to have at least one [Row](../../aspose.words.tables
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [firstChild](../compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [firstRow](./firstRow/) | Returns the first [Row](../../aspose.words.tables/row/) node in the table. |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [horizontalAnchor](./horizontalAnchor/) | Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.Column](../../aspose.words.drawing/relativehorizontalposition/#Column). |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [lastRow](./lastRow/) | Returns the last [Row](../../aspose.words.tables/row/) node in the table. |
 | [leftIndent](./leftIndent/) | Gets or sets the value that represents the left indent of the table. |
@@ -172,6 +172,47 @@ A minimal valid table needs to have at least one [Row](../../aspose.words.tables
 
 ### Examples
 
+Shows how to build a formatted 2x2 table.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let table = builder.startTable();
+builder.insertCell();
+builder.cellFormat.verticalAlignment = aw.Tables.CellVerticalAlignment.Center;
+builder.write("Row 1, cell 1.");
+builder.insertCell();
+builder.write("Row 1, cell 2.");
+builder.endRow();
+
+// While building the table, the document builder will apply its current RowFormat/CellFormat property values
+// to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+expect(table.rows.at(0).cells.at(0).cellFormat.verticalAlignment).toEqual(aw.Tables.CellVerticalAlignment.Center);
+expect(table.rows.at(0).cells.at(1).cellFormat.verticalAlignment).toEqual(aw.Tables.CellVerticalAlignment.Center);
+
+builder.insertCell();
+builder.rowFormat.height = 100;
+builder.rowFormat.heightRule = aw.HeightRule.Exactly;
+builder.cellFormat.orientation = aw.TextOrientation.Upward;
+builder.write("Row 2, cell 1.");
+builder.insertCell();
+builder.cellFormat.orientation = aw.TextOrientation.Downward;
+builder.write("Row 2, cell 2.");
+builder.endRow();
+builder.endTable();
+
+// Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+expect(table.rows.at(0).rowFormat.height).toEqual(0);
+expect(table.rows.at(0).rowFormat.heightRule).toEqual(aw.HeightRule.Auto);
+expect(table.rows.at(1).rowFormat.height).toEqual(100);
+expect(table.rows.at(1).rowFormat.heightRule).toEqual(aw.HeightRule.Exactly);
+expect(table.rows.at(1).cells.at(0).cellFormat.orientation).toEqual(aw.TextOrientation.Upward);
+expect(table.rows.at(1).cells.at(1).cellFormat.orientation).toEqual(aw.TextOrientation.Downward);
+
+doc.save(base.artifactsDir + "DocumentBuilder.BuildTable.docx");
+```
+
 Shows how to create a table.
 
 ```js
@@ -281,47 +322,6 @@ function createTable(doc, rowCount, cellCount, cellText)
 
   return table;
 }
-```
-
-Shows how to build a formatted 2x2 table.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-let table = builder.startTable();
-builder.insertCell();
-builder.cellFormat.verticalAlignment = aw.Tables.CellVerticalAlignment.Center;
-builder.write("Row 1, cell 1.");
-builder.insertCell();
-builder.write("Row 1, cell 2.");
-builder.endRow();
-
-// While building the table, the document builder will apply its current RowFormat/CellFormat property values
-// to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-expect(table.rows.at(0).cells.at(0).cellFormat.verticalAlignment).toEqual(aw.Tables.CellVerticalAlignment.Center);
-expect(table.rows.at(0).cells.at(1).cellFormat.verticalAlignment).toEqual(aw.Tables.CellVerticalAlignment.Center);
-
-builder.insertCell();
-builder.rowFormat.height = 100;
-builder.rowFormat.heightRule = aw.HeightRule.Exactly;
-builder.cellFormat.orientation = aw.TextOrientation.Upward;
-builder.write("Row 2, cell 1.");
-builder.insertCell();
-builder.cellFormat.orientation = aw.TextOrientation.Downward;
-builder.write("Row 2, cell 2.");
-builder.endRow();
-builder.endTable();
-
-// Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-expect(table.rows.at(0).rowFormat.height).toEqual(0);
-expect(table.rows.at(0).rowFormat.heightRule).toEqual(aw.HeightRule.Auto);
-expect(table.rows.at(1).rowFormat.height).toEqual(100);
-expect(table.rows.at(1).rowFormat.heightRule).toEqual(aw.HeightRule.Exactly);
-expect(table.rows.at(1).cells.at(0).cellFormat.orientation).toEqual(aw.TextOrientation.Upward);
-expect(table.rows.at(1).cells.at(1).cellFormat.orientation).toEqual(aw.TextOrientation.Downward);
-
-doc.save(base.artifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
 ### See Also

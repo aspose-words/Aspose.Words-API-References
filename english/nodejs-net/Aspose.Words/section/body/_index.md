@@ -23,7 +23,7 @@ get body(): Aspose.Words.Body
 
 [Body](../../body/) contains main text of the section.
 
-Returns ``None`` if the section does not have a [Body](../../body/) node among its children.
+Returns ``null`` if the section does not have a [Body](../../body/) node among its children.
 
 
 

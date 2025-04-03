@@ -22,7 +22,7 @@ get behindText(): boolean
 
 Has effect only for top level shapes.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

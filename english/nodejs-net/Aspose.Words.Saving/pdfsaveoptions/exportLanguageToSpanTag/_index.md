@@ -20,12 +20,12 @@ get exportLanguageToSpanTag(): boolean
 
 ### Remarks
 
-Default value is ``False`` and "Lang" attribute is attached to a marked-content sequence in a page content stream.
+Default value is ``false`` and "Lang" attribute is attached to a marked-content sequence in a page content stream.
 
-When the value is ``True`` "Span" tag is created for the text with non-default language
+When the value is ``true`` "Span" tag is created for the text with non-default language
 and "Lang" attribute is attached to this tag.
 
-This value is ignored when [PdfSaveOptions.exportDocumentStructure](../exportDocumentStructure/) is ``False``. 
+This value is ignored when [PdfSaveOptions.exportDocumentStructure](../exportDocumentStructure/) is ``false``. 
 
 
 

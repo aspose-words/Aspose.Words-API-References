@@ -20,7 +20,7 @@ get name(): string
 
 ### Remarks
 
-Cannot be ``None``.
+Cannot be ``null``.
 
 
 

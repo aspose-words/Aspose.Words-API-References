@@ -20,7 +20,7 @@ get childNodes(): Aspose.Words.Drawing.Ole.Forms2OleControlCollection
 
 ### Remarks
 
-Returns ``None`` if this control can not have children.
+Returns ``null`` if this control can not have children.
 
 
 ### Examples

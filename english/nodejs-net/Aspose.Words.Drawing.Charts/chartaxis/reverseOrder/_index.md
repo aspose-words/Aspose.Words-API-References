@@ -21,7 +21,7 @@ get reverseOrder(): boolean
 
 ### Remarks
 
-The property is not supported by MS Office 2016 new charts. Default value is ``False``.
+The property is not supported by MS Office 2016 new charts. Default value is ``false``.
 
 
 

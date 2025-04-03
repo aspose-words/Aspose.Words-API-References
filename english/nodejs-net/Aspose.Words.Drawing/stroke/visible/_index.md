@@ -20,7 +20,7 @@ get visible(): boolean
 
 ### Remarks
 
-The default value for a [Shape](../../shape/) is ``True``.
+The default value for a [Shape](../../shape/) is ``true``.
 
 
 

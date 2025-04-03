@@ -32,7 +32,7 @@ and [Bookmark.bookmarkEnd](./bookmarkEnd/) in a document tree and allows to work
 | [bookmarkEnd](./bookmarkEnd/) | Gets the node that represents the end of the bookmark. |
 | [bookmarkStart](./bookmarkStart/) | Gets the node that represents the start of the bookmark. |
 | [firstColumn](./firstColumn/) | Gets the zero-based index of the first column of the table column range associated with the bookmark. |
-| [isColumn](./isColumn/) | Returns ``True`` if this bookmark is a table column bookmark. |
+| [isColumn](./isColumn/) | Returns ``true`` if this bookmark is a table column bookmark. |
 | [lastColumn](./lastColumn/) | Gets the zero-based index of the last column of the table column range associated with the bookmark. |
 | [name](./name/) | Gets or sets the name of the bookmark. |
 | [text](./text/) | Gets or sets the text enclosed in the bookmark. |

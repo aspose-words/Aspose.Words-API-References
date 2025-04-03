@@ -22,9 +22,9 @@ get groupName(): string
 
 ### Remarks
 
-When group name is ``None``, [ReplacingArgs.groupIndex](../groupIndex/) is used to identify the group.
+When group name is ``null``, [ReplacingArgs.groupIndex](../groupIndex/) is used to identify the group.
 
-Default is ``None``.
+Default is ``null``.
 
 
 

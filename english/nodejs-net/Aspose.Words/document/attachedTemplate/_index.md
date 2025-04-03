@@ -22,7 +22,7 @@ get attachedTemplate(): string
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentNullException)) | Throws if you attempt to set to a ``None`` value. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws if you attempt to set to a ``null`` value. |
 
 ### Remarks
 

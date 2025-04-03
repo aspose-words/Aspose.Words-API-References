@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words/table/allowOverlap/
 
 Gets whether a floating table shall allow other floating objects in the document
 to overlap its extents when displayed.
-Default value is ``True``.
+Default value is ``true``.
 
 
 

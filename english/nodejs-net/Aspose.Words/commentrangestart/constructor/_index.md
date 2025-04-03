@@ -26,7 +26,7 @@ CommentRangeStart(doc: Aspose.Words.DocumentBaseid: number)
 ### Remarks
 
 When [CommentRangeStart](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append a [CommentRangeStart](../) to the document use InsertAfter or InsertBefore
 on the paragraph where you want the comment inserted.

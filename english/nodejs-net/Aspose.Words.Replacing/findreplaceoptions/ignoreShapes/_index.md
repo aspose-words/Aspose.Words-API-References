@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreShapes/
 
 Gets or sets a boolean value indicating either to ignore shapes within a text.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

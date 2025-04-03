@@ -31,7 +31,7 @@ Note that this method deletes the merge field from the document after moving the
 
 ### Returns
 
-``True`` if the merge field was found and the cursor was moved; ``False`` otherwise.
+``true`` if the merge field was found and the cursor was moved; ``false`` otherwise.
 
 
 ## moveToMergeField(fieldName, isAfter, isDeleteField) {#string_boolean_boolean}
@@ -46,12 +46,12 @@ moveToMergeField(fieldName: stringisAfter: booleanisDeleteField: boolean)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldName | string | The case-insensitive name of the mail merge field. |
-| isAfter | boolean | When ``True``, moves the cursor to be after the field end. When ``False``, moves the cursor to be before the field start.  |
-| isDeleteField | boolean | When ``True``, deletes the merge field. |
+| isAfter | boolean | When ``true``, moves the cursor to be after the field end. When ``false``, moves the cursor to be before the field start.  |
+| isDeleteField | boolean | When ``true``, deletes the merge field. |
 
 ### Returns
 
-``True`` if the merge field was found and the cursor was moved; ``False`` otherwise.
+``true`` if the merge field was found and the cursor was moved; ``false`` otherwise.
 
 
 ## Examples

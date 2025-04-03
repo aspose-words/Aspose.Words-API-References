@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words/imagewatermarkoptions/isWashout/
 ## ImageWatermarkOptions.isWashout property
 
 Gets or sets a boolean value which is responsible for washout effect of the watermark.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

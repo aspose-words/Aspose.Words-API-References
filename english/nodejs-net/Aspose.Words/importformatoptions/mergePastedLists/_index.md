@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words/importformatoptions/mergePastedLists/
 ## ImportFormatOptions.mergePastedLists property
 
 Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

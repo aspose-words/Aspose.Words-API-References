@@ -3,7 +3,7 @@ title: StructuredDocumentTag.lockContents property
 linktitle: lockContents property
 articleTitle: lockContents property
 second_title: Aspose.Words for NodeJs
-description: "StructuredDocumentTag.lockContents property. When set to ``True``, this property will prohibit a user from editing the contents of this SDT."
+description: "StructuredDocumentTag.lockContents property. When set to ``true``, this property will prohibit a user from editing the contents of this SDT."
 type: docs
 weight: 200
 url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/lockContents/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/lockContents/
 
 ## StructuredDocumentTag.lockContents property
 
-When set to ``True``, this property will prohibit a user from editing the contents of this **SDT**.
+When set to ``true``, this property will prohibit a user from editing the contents of this **SDT**.
 
 
 

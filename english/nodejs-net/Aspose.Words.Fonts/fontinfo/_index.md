@@ -34,7 +34,7 @@ defined in a document.
 | [charset](./charset/) | Gets or sets the character set for the font. |
 | [embeddingLicensingRights](./embeddingLicensingRights/) | Gets the embedded font licensing rights. |
 | [family](./family/) | Gets or sets the font family this font belongs to. |
-| [isTrueType](./isTrueType/) | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is ``True``. |
+| [isTrueType](./isTrueType/) | Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font. Default is ``true``. |
 | [name](./name/) | Gets the name of the font. |
 | [panose](./panose/) | Gets or sets the PANOSE typeface classification number. |
 | [pitch](./pitch/) | The pitch indicates if the font is fixed pitch, proportionally spaced, or relies on a default setting. |

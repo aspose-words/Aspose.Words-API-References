@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Drawing/shape/signatureLine/
 
 ## Shape.signatureLine property
 
-Gets [SignatureLine](../../signatureline/) object if the shape is a signature line. Returns ``None`` otherwise.
+Gets [SignatureLine](../../signatureline/) object if the shape is a signature line. Returns ``null`` otherwise.
 
 
 

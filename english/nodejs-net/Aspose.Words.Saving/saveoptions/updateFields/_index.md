@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/saveoptions/updateFields/
 ## SaveOptions.updateFields property
 
 Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format.
-Default value for this property is ``True``.
+Default value for this property is ``true``.
 
 
 

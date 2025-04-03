@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Settings/odso/recipientDatas/
 ## Odso.recipientDatas property
 
 Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge.
-This object is never ``None``.
+This object is never ``null``.
 
 
 

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Settings/odsorecipientdata/active/
 ## OdsoRecipientData.active property
 
 Specifies whether the record from the data source shall be imported into a document when the mail merge is performed.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

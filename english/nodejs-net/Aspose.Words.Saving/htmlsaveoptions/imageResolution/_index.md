@@ -23,7 +23,7 @@ get imageResolution(): number
 ### Remarks
 
 This property effects raster images when [HtmlSaveOptions.scaleImageToShapeSize](../scaleImageToShapeSize/) 
-is ``True`` and effects metafiles exported as raster images. Some image properties such as cropping
+is ``true`` and effects metafiles exported as raster images. Some image properties such as cropping
 or rotation require saving transformed images and in this case transformed images are created in the given
 resolution.
 

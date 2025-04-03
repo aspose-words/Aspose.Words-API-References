@@ -25,7 +25,7 @@ setTextInputValue(newValue: object)
 
 ### Remarks
 
-The [FormField.textInputDefault](../textInputDefault/) value is applied if *newValue* is``None``.
+The [FormField.textInputDefault](../textInputDefault/) value is applied if *newValue* is``null``.
 
 
 ### See Also

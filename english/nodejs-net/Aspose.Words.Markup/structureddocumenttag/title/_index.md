@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/title/
 ## StructuredDocumentTag.title property
 
 Specifies the friendly name associated with this **SDT**.
-Can not be ``None``.
+Can not be ``null``.
 
 
 

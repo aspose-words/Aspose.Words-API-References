@@ -20,8 +20,8 @@ get statusText(): string
 
 ### Remarks
 
-If the [FormField.ownStatus](../ownStatus/) property is set to ``True``, the [FormField.statusText](./) property specifies the status bar text.
-If the [FormField.ownStatus](../ownStatus/) property is set to ``False``, the [FormField.statusText](./) property specifies the name of an AutoText
+If the [FormField.ownStatus](../ownStatus/) property is set to ``true``, the [FormField.statusText](./) property specifies the status bar text.
+If the [FormField.ownStatus](../ownStatus/) property is set to ``false``, the [FormField.statusText](./) property specifies the name of an AutoText
 entry that contains status bar text for the form field.
 
 Microsoft Word allows strings with at most 138 characters.

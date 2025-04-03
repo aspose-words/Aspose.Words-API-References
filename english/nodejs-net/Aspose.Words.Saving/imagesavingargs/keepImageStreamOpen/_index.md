@@ -20,9 +20,9 @@ get keepImageStreamOpen(): boolean
 
 ### Remarks
 
-Default is ``False`` and Aspose.Words will close the stream you provided
+Default is ``false`` and Aspose.Words will close the stream you provided
 in the Aspose.Words.Saving.ImageSavingArgs.ImageStream property after writing an image into it.
-Specify ``True`` to keep the stream open.
+Specify ``true`` to keep the stream open.
 
 
 

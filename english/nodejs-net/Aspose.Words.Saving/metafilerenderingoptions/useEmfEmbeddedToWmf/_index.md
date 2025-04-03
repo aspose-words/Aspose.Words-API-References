@@ -23,14 +23,14 @@ get useEmfEmbeddedToWmf(): boolean
 WMF metafiles could contain embedded EMF data. MS Word in most cases uses embedded EMF data.
 GDI+ always uses WMF data.
 
-When this value is set to ``True``, Aspose.Words uses embedded EMF data when rendering.
+When this value is set to ``true``, Aspose.Words uses embedded EMF data when rendering.
 
-When this value is set to ``False``, Aspose.Words uses WMF data when rendering.
+When this value is set to ``false``, Aspose.Words uses WMF data when rendering.
 
 This option is used only when metafile is rendered as vector graphics. When metafile is rendered
 to bitmap, WMF data is always used.
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

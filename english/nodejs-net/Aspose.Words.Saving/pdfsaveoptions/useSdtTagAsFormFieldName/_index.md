@@ -20,15 +20,15 @@ get useSdtTagAsFormFieldName(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
-When set to ``False``, SDT control Id property is used as a name of form field in PDF.
+When set to ``false``, SDT control Id property is used as a name of form field in PDF.
 
-When set to ``True``, SDT control Tag property is used as a name of form field in PDF.
+When set to ``true``, SDT control Tag property is used as a name of form field in PDF.
 
-If set to ``True`` and Tag is empty, Id property will be used as a form field name.
+If set to ``true`` and Tag is empty, Id property will be used as a form field name.
 
-If set to ``True`` and Tag values are not unique, duplicate Tag values will be altered to build
+If set to ``true`` and Tag values are not unique, duplicate Tag values will be altered to build
 unique PDF form field names.
 
 

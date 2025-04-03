@@ -53,8 +53,8 @@ Corresponds to the **docPart**, **docPartPr** and **docPartBody** elements in OO
 | [firstSection](./firstSection/) | Gets the first section in the building block. |
 | [gallery](./gallery/) | Specifies the first-level categorization for the building block for the purposes of  classification or user interface sorting. |
 | [guid](./guid/) | Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block. |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [lastSection](./lastSection/) | Gets the last section in the building block. |
 | [name](./name/) | Gets or sets the name of this building block. |

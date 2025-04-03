@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/smartParagraphBreakRe
 Gets or sets a boolean value indicating either it is allowed to replace paragraph break
 when there is no next sibling paragraph.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

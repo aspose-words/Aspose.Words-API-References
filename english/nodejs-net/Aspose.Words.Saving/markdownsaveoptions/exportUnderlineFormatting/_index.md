@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/exportUnderlineFormatti
 
 Gets or sets a boolean value indicating either to export underline
 text formatting as sequence of two plus characters "++".
-The default value is ``False``.
+The default value is ``false``.
 
 
 

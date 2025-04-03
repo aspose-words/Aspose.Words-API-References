@@ -20,7 +20,7 @@ get password(): string
 
 ### Remarks
 
-In order to save document without encryption this property should be ``None`` or empty string.
+In order to save document without encryption this property should be ``null`` or empty string.
 
 
 

@@ -20,7 +20,7 @@ get anchorLocked(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 Has effect only for top level shapes.
 

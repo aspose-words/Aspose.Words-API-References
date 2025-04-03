@@ -20,9 +20,9 @@ get keepCssStreamOpen(): boolean
 
 ### Remarks
 
-Default is ``False`` and Aspose.Words will close the stream you provided
+Default is ``false`` and Aspose.Words will close the stream you provided
 in the Aspose.Words.Saving.CssSavingArgs.CssStream property after writing an CSS information into it.
-Specify ``True`` to keep the stream open.
+Specify ``true`` to keep the stream open.
 
 
 

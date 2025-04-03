@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxistitle/show/
 ## ChartAxisTitle.show property
 
 Determines whether the title shall be shown for the axis.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

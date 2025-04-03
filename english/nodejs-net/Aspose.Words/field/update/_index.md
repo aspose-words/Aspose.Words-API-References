@@ -29,7 +29,7 @@ update(ignoreMergeFormat: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | If ``True`` then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+| ignoreMergeFormat | boolean | If ``true`` then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ## See Also
 

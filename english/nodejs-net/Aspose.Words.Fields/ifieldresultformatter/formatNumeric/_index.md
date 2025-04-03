@@ -25,7 +25,7 @@ formatNumeric(value: numberformat: string)
 
 ### Remarks
 
-The implementation should return ``None`` to indicate that the default formatting should be applied.
+The implementation should return ``null`` to indicate that the default formatting should be applied.
 
 
 

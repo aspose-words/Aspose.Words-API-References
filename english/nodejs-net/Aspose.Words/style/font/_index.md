@@ -20,7 +20,7 @@ get font(): Aspose.Words.Font
 
 ### Remarks
 
-For list styles this property returns ``None``.
+For list styles this property returns ``null``.
 
 
 

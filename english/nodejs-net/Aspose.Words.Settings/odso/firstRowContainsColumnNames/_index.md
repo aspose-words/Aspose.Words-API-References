@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Settings/odso/firstRowContainsColumnNames/
 
 Specifies that a hosting application shall treat the first row of data in the specified external data
 source as a header row containing the names of each column in the data source.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/checked/
 ## StructuredDocumentTag.checked property
 
 Gets/Sets current state of the Checkbox **SDT**.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
 
 

@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/field/separator/
 
 ## Field.separator property
 
-Gets the node that represents the field separator. Can be ``None``.
+Gets the node that represents the field separator. Can be ``null``.
 
 
 

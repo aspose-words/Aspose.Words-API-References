@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Loading/loadoptions/encoding/
 
 Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified
 inside the document.
-Can be ``None``. Default is ``None``.
+Can be ``null``. Default is ``null``.
 
 
 
@@ -25,7 +25,7 @@ get encoding(): string
 
 This property is used only when loading HTML, TXT, or CHM documents.
 
-If encoding is not specified inside the document and this property is ``None``, then the system will try to
+If encoding is not specified inside the document and this property is ``null``, then the system will try to
 automatically detect the encoding.
 
 

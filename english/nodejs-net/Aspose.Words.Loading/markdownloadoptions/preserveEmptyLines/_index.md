@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Loading/markdownloadoptions/preserveEmptyLines/
 ## MarkdownLoadOptions.preserveEmptyLines property
 
 Gets or sets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.Markdown](../../../aspose.words/loadformat/#Markdown) document.
-The default value is ``False``.
+The default value is ``false``.
 Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and
 end of the document are also ignored. This option allows to import such empty lines.
 

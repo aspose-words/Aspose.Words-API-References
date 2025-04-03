@@ -22,7 +22,7 @@ get defaultTemplate(): string
 
 ### Remarks
 
-If specified, this path is used to load template when [Document.automaticallyUpdateStyles](../../../aspose.words/document/automaticallyUpdateStyles/) is ``True``,
+If specified, this path is used to load template when [Document.automaticallyUpdateStyles](../../../aspose.words/document/automaticallyUpdateStyles/) is ``true``,
 but [Document.attachedTemplate](../../../aspose.words/document/attachedTemplate/) is empty.
 
 

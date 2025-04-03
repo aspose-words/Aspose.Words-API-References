@@ -21,7 +21,7 @@ get frameset(): Aspose.Words.Framesets.Frameset
 
 ### Remarks
 
-If the document is not framed, the property has the ``None`` value.
+If the document is not framed, the property has the ``null`` value.
 
 
 

@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Loading/markdownloadoptions/importUnderlineFormatt
 
 Gets or sets a boolean value indicating either to recognize a sequence
 of two plus characters "++" as underline text formatting.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

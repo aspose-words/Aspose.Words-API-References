@@ -20,8 +20,8 @@ get helpText(): string
 
 ### Remarks
 
-If the [FormField.ownHelp](../ownHelp/) property is set to ``True``, [FormField.helpText](./) specifies the text string value.
-If [FormField.ownHelp](../ownHelp/) is set to ``False``, [FormField.helpText](./) specifies the name of an AutoText entry that contains help
+If the [FormField.ownHelp](../ownHelp/) property is set to ``true``, [FormField.helpText](./) specifies the text string value.
+If [FormField.ownHelp](../ownHelp/) is set to ``false``, [FormField.helpText](./) specifies the name of an AutoText entry that contains help
 text for the form field.
 
 Microsoft Word allows strings with at most 255 characters.

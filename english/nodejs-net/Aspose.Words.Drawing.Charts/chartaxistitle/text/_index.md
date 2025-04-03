@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxistitle/text/
 ## ChartAxisTitle.text property
 
 Gets or sets the text of the axis title.
-If ``None`` or empty value is specified, auto generated title will be shown.
+If ``null`` or empty value is specified, auto generated title will be shown.
 
 
 

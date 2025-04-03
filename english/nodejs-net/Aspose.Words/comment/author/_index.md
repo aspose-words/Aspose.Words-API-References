@@ -20,7 +20,7 @@ get author(): string
 
 ### Remarks
 
-Cannot be ``None``.
+Cannot be ``null``.
 
 Default is empty string.
 

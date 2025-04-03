@@ -41,12 +41,12 @@ All text of the document is stored in runs of text.
 | [customNodeId](../node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [font](../inline/font/) | Provides access to the font formatting of this object.<br>(Inherited from [Inline](../inline/)) |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [isDeleteRevision](../inline/isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [isFormatRevision](../inline/isFormatRevision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [isInsertRevision](../inline/isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
-| [isMoveFromRevision](../inline/isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
-| [isMoveToRevision](../inline/isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
+| [isMoveFromRevision](../inline/isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
+| [isMoveToRevision](../inline/isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [isPhoneticGuide](./isPhoneticGuide/) | Gets a boolean value indicating either the run is a phonetic guide. |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [nodeType](./nodeType/) | Returns [NodeType.Run](../nodetype/#Run). |
@@ -123,51 +123,6 @@ doc.firstSection.body.firstParagraph.appendChild(run);
 doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Shows how to construct an Aspose.words document by hand.
-
-```js
-let doc = new aw.Document();
-
-// A blank document contains one section, one body and one paragraph.
-// Call the "RemoveAllChildren" method to remove all those nodes,
-// and end up with a document node with no children.
-doc.removeAllChildren();
-
-// This document now has no composite child nodes that we can add content to.
-// If we wish to edit it, we will need to repopulate its node collection.
-// First, create a new section, and then append it as a child to the root document node.
-let section = new aw.Section(doc);
-doc.appendChild(section);
-
-// Set some page setup properties for the section.
-section.pageSetup.sectionStart = aw.SectionStart.NewPage;
-section.pageSetup.paperSize = aw.PaperSize.Letter;
-
-// A section needs a body, which will contain and display all its contents
-// on the page between the section's header and footer.
-let body = new aw.Body(doc);
-section.appendChild(body);
-
-// Create a paragraph, set some formatting properties, and then append it as a child to the body.
-let para = new aw.Paragraph(doc);
-
-para.paragraphFormat.styleName = "Heading 1";
-para.paragraphFormat.alignment = aw.ParagraphAlignment.Center;
-
-body.appendChild(para);
-
-// Finally, add some content to do the document. Create a run,
-// set its appearance and contents, and then append it as a child to the paragraph.
-let run = new aw.Run(doc);
-run.text = "Hello World!";
-run.font.color = "#FF0000";
-para.appendChild(run);
-
-expect(doc.getText().trim()).toEqual("Hello World!");
-
-doc.save(base.artifactsDir + "Section.CreateManually.docx");
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```js
@@ -216,6 +171,51 @@ paragraph.getChildNodes(aw.NodeType.Run, true).remove(paragraphText);
 
 expect(paragraph.getText().trim()).toEqual("Run 1. Updated run 2. Run 3.");
 expect(paragraph.getChildNodes(aw.NodeType.Any, true).count).toEqual(3);
+```
+
+Shows how to construct an Aspose.words document by hand.
+
+```js
+let doc = new aw.Document();
+
+// A blank document contains one section, one body and one paragraph.
+// Call the "RemoveAllChildren" method to remove all those nodes,
+// and end up with a document node with no children.
+doc.removeAllChildren();
+
+// This document now has no composite child nodes that we can add content to.
+// If we wish to edit it, we will need to repopulate its node collection.
+// First, create a new section, and then append it as a child to the root document node.
+let section = new aw.Section(doc);
+doc.appendChild(section);
+
+// Set some page setup properties for the section.
+section.pageSetup.sectionStart = aw.SectionStart.NewPage;
+section.pageSetup.paperSize = aw.PaperSize.Letter;
+
+// A section needs a body, which will contain and display all its contents
+// on the page between the section's header and footer.
+let body = new aw.Body(doc);
+section.appendChild(body);
+
+// Create a paragraph, set some formatting properties, and then append it as a child to the body.
+let para = new aw.Paragraph(doc);
+
+para.paragraphFormat.styleName = "Heading 1";
+para.paragraphFormat.alignment = aw.ParagraphAlignment.Center;
+
+body.appendChild(para);
+
+// Finally, add some content to do the document. Create a run,
+// set its appearance and contents, and then append it as a child to the paragraph.
+let run = new aw.Run(doc);
+run.text = "Hello World!";
+run.font.color = "#FF0000";
+para.appendChild(run);
+
+expect(doc.getText().trim()).toEqual("Hello World!");
+
+doc.save(base.artifactsDir + "Section.CreateManually.docx");
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/comment/ancestor/
 
 ## Comment.ancestor property
 
-Returns the parent [Comment](../) object. Returns ``None`` for top-level comments.
+Returns the parent [Comment](../) object. Returns ``null`` for top-level comments.
 
 
 

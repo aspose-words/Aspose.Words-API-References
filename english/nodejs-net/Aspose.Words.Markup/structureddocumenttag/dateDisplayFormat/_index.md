@@ -20,7 +20,7 @@ get dateDisplayFormat(): string
 
 ### Remarks
 
-Can not be ``None``.
+Can not be ``null``.
 
 The dates for English (U.S.) is "mm/dd/yyyy"
 

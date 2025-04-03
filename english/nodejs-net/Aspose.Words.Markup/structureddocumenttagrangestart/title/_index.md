@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/title/
 ## StructuredDocumentTagRangeStart.title property
 
 Specifies the friendly name associated with this structured document tag.
-Can not be ``None``.
+Can not be ``null``.
 
 
 

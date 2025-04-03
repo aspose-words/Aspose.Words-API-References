@@ -30,9 +30,9 @@ You do not create instances of this class directly. Objects of this class are re
 | Name | Description |
 | --- | --- |
 | [encoding](./encoding/) | Gets the detected encoding if applicable to the current document format. At the moment detects encoding only for HTML documents. |
-| [hasDigitalSignature](./hasDigitalSignature/) | Returns ``True`` if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not  specify whether the signature is valid or not. |
-| [hasMacros](./hasMacros/) | Returns ``True`` if this document contains a VBA macros. |
-| [isEncrypted](./isEncrypted/) | Returns ``True`` if the document is encrypted and requires a password to open. |
+| [hasDigitalSignature](./hasDigitalSignature/) | Returns ``true`` if this document contains a digital signature. This property merely informs that a digital signature is present on a document, but it does not  specify whether the signature is valid or not. |
+| [hasMacros](./hasMacros/) | Returns ``true`` if this document contains a VBA macros. |
+| [isEncrypted](./isEncrypted/) | Returns ``true`` if the document is encrypted and requires a password to open. |
 | [loadFormat](./loadFormat/) | Gets the detected document format. |
 
 ### Examples

@@ -3,7 +3,7 @@ title: DocSaveOptions.saveRoutingSlip property
 linktitle: saveRoutingSlip property
 articleTitle: saveRoutingSlip property
 second_title: Aspose.Words for NodeJs
-description: "DocSaveOptions.saveRoutingSlip property. When ``False``, RoutingSlip data is not saved to output document"
+description: "DocSaveOptions.saveRoutingSlip property. When ``false``, RoutingSlip data is not saved to output document"
 type: docs
 weight: 70
 url: /nodejs-net/Aspose.Words.Saving/docsaveoptions/saveRoutingSlip/
@@ -11,8 +11,8 @@ url: /nodejs-net/Aspose.Words.Saving/docsaveoptions/saveRoutingSlip/
 
 ## DocSaveOptions.saveRoutingSlip property
 
-When ``False``, RoutingSlip data is not saved to output document.
-Default value is ``True``.
+When ``false``, RoutingSlip data is not saved to output document.
+Default value is ``true``.
 
 
 

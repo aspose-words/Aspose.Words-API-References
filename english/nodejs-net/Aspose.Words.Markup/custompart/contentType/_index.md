@@ -20,7 +20,7 @@ get contentType(): string
 
 ### Remarks
 
-This property is applicable only when [CustomPart.isExternal](../isExternal/) is ``False``.
+This property is applicable only when [CustomPart.isExternal](../isExternal/) is ``false``.
 
 The default value is an empty string. A valid value must be a non-empty string.
 

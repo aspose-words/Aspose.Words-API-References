@@ -76,7 +76,7 @@ insertField(fieldCode: stringfieldValue: string)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | string | The field code to insert (without curly braces). |
-| fieldValue | string | The field value to insert. Pass ``None`` for fields that do not have a value. |
+| fieldValue | string | The field value to insert. Pass ``null`` for fields that do not have a value. |
 
 ### Remarks
 

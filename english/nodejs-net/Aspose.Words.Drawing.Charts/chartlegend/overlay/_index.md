@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegend/overlay/
 ## ChartLegend.overlay property
 
 Determines whether other chart elements shall be allowed to overlap legend.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

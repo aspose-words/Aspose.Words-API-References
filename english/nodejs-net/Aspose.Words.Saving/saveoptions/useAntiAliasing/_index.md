@@ -20,7 +20,7 @@ get useAntiAliasing(): boolean
 
 ### Remarks
 
-The default value is ``False``. When this value is set to ``True`` anti-aliasing is
+The default value is ``false``. When this value is set to ``true`` anti-aliasing is
 used for rendering.
 
 

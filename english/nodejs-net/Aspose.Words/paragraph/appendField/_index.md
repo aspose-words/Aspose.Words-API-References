@@ -58,7 +58,7 @@ appendField(fieldCode: stringfieldValue: string)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | string | The field code to append (without curly braces). |
-| fieldValue | string | The field value to append. Pass ``None`` for fields that do not have a value. |
+| fieldValue | string | The field value to append. Pass ``null`` for fields that do not have a value. |
 
 ### Returns
 

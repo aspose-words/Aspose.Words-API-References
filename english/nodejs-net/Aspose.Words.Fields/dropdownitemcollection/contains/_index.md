@@ -24,7 +24,7 @@ contains(value: string)
 
 ### Returns
 
-``True`` if the item is found in the collection; otherwise, ``False``.
+``true`` if the item is found in the collection; otherwise, ``false``.
 
 
 ### See Also

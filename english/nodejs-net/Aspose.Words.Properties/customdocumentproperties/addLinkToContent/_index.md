@@ -25,7 +25,7 @@ addLinkToContent(name: stringlinkSource: string)
 
 ### Returns
 
-The newly created property object or ``None`` when the *linkSource* is invalid.
+The newly created property object or ``null`` when the *linkSource* is invalid.
 
 
 ### Examples

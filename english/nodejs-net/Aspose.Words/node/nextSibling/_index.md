@@ -20,7 +20,7 @@ get nextSibling(): Aspose.Words.Node
 
 ### Remarks
 
-If there is no next node, a ``None`` is returned.
+If there is no next node, a ``null`` is returned.
 
 
 

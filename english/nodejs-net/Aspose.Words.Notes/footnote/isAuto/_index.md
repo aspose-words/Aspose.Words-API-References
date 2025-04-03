@@ -21,7 +21,7 @@ get isAuto(): boolean
 
 ### Remarks
 
-[Footnote.referenceMark](../referenceMark/) initialized with empty string if [Footnote.isAuto](./) set to ``False``.
+[Footnote.referenceMark](../referenceMark/) initialized with empty string if [Footnote.isAuto](./) set to ``false``.
 
 
 

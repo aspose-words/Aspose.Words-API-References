@@ -49,7 +49,7 @@ You do not create instances of the [Fill](./) class directly.
 | [rotateWithObject](./rotateWithObject/) | Gets or sets whether the fill rotates with the specified object. |
 | [textureAlignment](./textureAlignment/) | Gets or sets the alignment for tile texture fill. |
 | [transparency](./transparency/) | Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
-| [visible](./visible/) | Gets or sets value that is ``True`` if the formatting applied to this instance, is visible. |
+| [visible](./visible/) | Gets or sets value that is ``true`` if the formatting applied to this instance, is visible. |
 
 ### Methods
 

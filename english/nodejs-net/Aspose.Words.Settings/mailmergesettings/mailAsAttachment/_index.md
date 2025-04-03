@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/mailAsAttachment/
 ## MailMergeSettings.mailAsAttachment property
 
 Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather 
-than the body of the actual e-mail. The default value is ``False``.
+than the body of the actual e-mail. The default value is ``false``.
 
 
 

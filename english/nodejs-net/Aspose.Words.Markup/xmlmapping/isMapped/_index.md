@@ -3,7 +3,7 @@ title: XmlMapping.isMapped property
 linktitle: isMapped property
 articleTitle: isMapped property
 second_title: Aspose.Words for NodeJs
-description: "XmlMapping.isMapped property. Returns ``True`` if the parent structured document tag is successfully mapped to XML data."
+description: "XmlMapping.isMapped property. Returns ``true`` if the parent structured document tag is successfully mapped to XML data."
 type: docs
 weight: 20
 url: /nodejs-net/Aspose.Words.Markup/xmlmapping/isMapped/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Markup/xmlmapping/isMapped/
 
 ## XmlMapping.isMapped property
 
-Returns ``True`` if the parent structured document tag is successfully mapped to XML data.
+Returns ``true`` if the parent structured document tag is successfully mapped to XML data.
 
 
 

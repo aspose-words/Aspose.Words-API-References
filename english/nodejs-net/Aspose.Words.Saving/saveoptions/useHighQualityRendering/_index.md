@@ -20,7 +20,7 @@ get useHighQualityRendering(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 This property is used when the document is exported to image formats:
 [SaveFormat.Tiff](../../../aspose.words/saveformat/#Tiff), [SaveFormat.Png](../../../aspose.words/saveformat/#Png), [SaveFormat.Bmp](../../../aspose.words/saveformat/#Bmp),
 [SaveFormat.Jpeg](../../../aspose.words/saveformat/#Jpeg), [SaveFormat.Emf](../../../aspose.words/saveformat/#Emf).

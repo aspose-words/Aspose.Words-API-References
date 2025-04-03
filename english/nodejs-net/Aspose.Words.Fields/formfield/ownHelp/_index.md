@@ -20,8 +20,8 @@ get ownHelp(): boolean
 
 ### Remarks
 
-If ``True``, the text specified by the [FormField.helpText](../helpText/) property is displayed.
-If ``False``, the text in the AutoText entry specified by the [FormField.helpText](../helpText/) property is displayed.
+If ``true``, the text specified by the [FormField.helpText](../helpText/) property is displayed.
+If ``false``, the text in the AutoText entry specified by the [FormField.helpText](../helpText/) property is displayed.
 
 
 

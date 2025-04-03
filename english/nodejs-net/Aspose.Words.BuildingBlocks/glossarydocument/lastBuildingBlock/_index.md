@@ -20,7 +20,7 @@ get lastBuildingBlock(): Aspose.Words.BuildingBlocks.BuildingBlock
 
 ### Remarks
 
-Returns ``None`` if there are no building blocks available.
+Returns ``null`` if there are no building blocks available.
 
 
 

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/allowNegativeIndent/
 ## HtmlSaveOptions.allowNegativeIndent property
 
 Specifies whether negative left and right indents of paragraphs are normalized
-when saving to HTML, MHTML or EPUB. Default value is ``False``.
+when saving to HTML, MHTML or EPUB. Default value is ``false``.
 
 
 

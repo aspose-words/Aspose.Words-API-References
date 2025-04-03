@@ -20,10 +20,10 @@ get userPromptRespondent(): Aspose.Words.Fields.IFieldUserPromptRespondent
 
 ### Remarks
 
-If the value of this property is set to ``None``, the fields that require user response on prompting
+If the value of this property is set to ``null``, the fields that require user response on prompting
 (such as [FieldAsk](../../fieldask/) or [FieldFillIn](../../fieldfillin/)) are not updated.
 
-The default value is ``None``.
+The default value is ``null``.
 
 
 

@@ -34,7 +34,7 @@ If the extension cannot be recognized, returns [SaveFormat.Unknown](../../savefo
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentNullException)) | Throws if the parameter is ``None``. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws if the parameter is ``null``. |
 
 ### Examples
 

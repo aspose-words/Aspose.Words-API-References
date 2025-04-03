@@ -21,7 +21,7 @@ get listFormat(): Aspose.Words.Lists.ListFormat
 ### Remarks
 
 This property is only valid for paragraph styles.
-For other style types this property returns ``None``.
+For other style types this property returns ``null``.
 
 
 

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/showPercen
 ## ChartDataLabelCollection.showPercentage property
 
 Allows to specify whether percentage value is to be displayed for the data labels of the entire series.
-Default value is ``False``. Applies only to Pie charts. 
+Default value is ``false``. Applies only to Pie charts. 
 
 
 

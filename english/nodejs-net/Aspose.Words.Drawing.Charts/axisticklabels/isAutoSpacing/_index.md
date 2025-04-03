@@ -20,7 +20,7 @@ get isAutoSpacing(): boolean
 
 ### Remarks
 
-The default value is ``True``.
+The default value is ``true``.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016
 new charts.

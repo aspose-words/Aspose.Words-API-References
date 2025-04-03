@@ -11,8 +11,8 @@ url: /nodejs-net/Aspose.Words.Drawing/oleformat/oleIcon/
 
 ## OleFormat.oleIcon property
 
-Gets the draw aspect of the OLE object. When ``True``, the OLE object is displayed as an icon.
-When ``False``, the OLE object is displayed as content.
+Gets the draw aspect of the OLE object. When ``true``, the OLE object is displayed as an icon.
+When ``false``, the OLE object is displayed as content.
 
 
 

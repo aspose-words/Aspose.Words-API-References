@@ -44,10 +44,10 @@ make sure all of the form field nodes are created in a correct order and in a su
 | Name | Description |
 | --- | --- |
 | [calculateOnExit](./calculateOnExit/) | True if references to the specified form field are automatically updated whenever the field is exited. |
-| [checkBoxSize](./checkBoxSize/) | Gets or sets the size of the checkbox in points. Has effect only when [FormField.isCheckBoxExactSize](./isCheckBoxExactSize/) is ``True``. |
-| [checked](./checked/) | Gets or sets the checked status of the check box form field. Default value for this property is ``False``. |
+| [checkBoxSize](./checkBoxSize/) | Gets or sets the size of the checkbox in points. Has effect only when [FormField.isCheckBoxExactSize](./isCheckBoxExactSize/) is ``true``. |
+| [checked](./checked/) | Gets or sets the checked status of the check box form field. Default value for this property is ``false``. |
 | [customNodeId](../../aspose.words/node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [default](./default/) | Gets or sets the default value of the check box form field. Default value for this property is ``False``. |
+| [default](./default/) | Gets or sets the default value of the check box form field. Default value for this property is ``false``. |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [dropDownItems](./dropDownItems/) | Provides access to the items of a dropdown form field. |
 | [dropDownSelectedIndex](./dropDownSelectedIndex/) | Gets or sets the index specifying the currently selected item in a dropdown form field. |
@@ -57,12 +57,12 @@ make sure all of the form field nodes are created in a correct order and in a su
 | [font](../../aspose.words/inline/font/) | Provides access to the font formatting of this object.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [helpText](./helpText/) | Returns or sets the text that's displayed in a message box when the form field has the focus and the user presses F1. |
 | [isCheckBoxExactSize](./isCheckBoxExactSize/) | Gets or sets the boolean value that indicates whether the size of the textbox is automatic or specified explicitly. |
-| [isComposite](../../aspose.words/node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [isComposite](../../aspose.words/node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [isDeleteRevision](../../aspose.words/inline/isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [isFormatRevision](../../aspose.words/inline/isFormatRevision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [isInsertRevision](../../aspose.words/inline/isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
-| [isMoveFromRevision](../../aspose.words/inline/isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
-| [isMoveToRevision](../../aspose.words/inline/isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
+| [isMoveFromRevision](../../aspose.words/inline/isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
+| [isMoveToRevision](../../aspose.words/inline/isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../../aspose.words/inline/)) |
 | [maxLength](./maxLength/) | Maximum length for the text field. Zero when the length is not limited. |
 | [name](./name/) | Gets or sets the form field name. |
 | [nextSibling](../../aspose.words/node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |

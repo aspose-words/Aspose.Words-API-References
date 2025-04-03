@@ -25,7 +25,7 @@ evaluate(field: Aspose.Words.Fields.Fieldexpression: Aspose.Words.Fields.Compari
 
 ### Remarks
 
-The implementation should return ``None`` to indicate that the default evaluation should be performed.
+The implementation should return ``null`` to indicate that the default evaluation should be performed.
 
 
 

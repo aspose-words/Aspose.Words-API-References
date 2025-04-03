@@ -41,7 +41,7 @@ A field in the following format will be used as a mail merge source: { IF 0 = 0 
 | [comparisonOperator](./comparisonOperator/) | Gets or sets the comparison operator. |
 | [displayResult](../../aspose.words/field/displayResult/) | Gets the text that represents the displayed field result.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [end](../../aspose.words/field/end/) | Gets the node that represents the field end.<br>(Inherited from [Field](../../aspose.words/field/)) |
-| [falseText](./falseText/) | Gets or sets the text displayed if the comparison expression is ``False``. |
+| [falseText](./falseText/) | Gets or sets the text displayed if the comparison expression is ``false``. |
 | [format](../../aspose.words/field/format/) | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [isDirty](../../aspose.words/field/isDirty/) | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [isLocked](../../aspose.words/field/isLocked/) | Gets or sets whether the field is locked (should not recalculate its result).<br>(Inherited from [Field](../../aspose.words/field/)) |
@@ -49,7 +49,7 @@ A field in the following format will be used as a mail merge source: { IF 0 = 0 
 | [localeId](../../aspose.words/field/localeId/) | Gets or sets the LCID of the field.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [result](../../aspose.words/field/result/) | Gets or sets text that is between the field separator and field end.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [rightExpression](./rightExpression/) | Gets or sets the right part of the comparison expression. |
-| [separator](../../aspose.words/field/separator/) | Gets the node that represents the field separator. Can be ``None``.<br>(Inherited from [Field](../../aspose.words/field/)) |
+| [separator](../../aspose.words/field/separator/) | Gets the node that represents the field separator. Can be ``null``.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [start](../../aspose.words/field/start/) | Gets the node that represents the start of the field.<br>(Inherited from [Field](../../aspose.words/field/)) |
 | [trueText](./trueText/) | Gets or sets the text displayed if the comparison expression is true. |
 | [type](../../aspose.words/field/type/) | Gets the Microsoft Word field type.<br>(Inherited from [Field](../../aspose.words/field/)) |
@@ -156,7 +156,7 @@ A field in the following format will be used as a mail merge source: { IF 0 = 0 
 |[ evaluateCondition()](./evaluateCondition/#default) | Evaluates the condition. |
 |[ getFieldCode()](../../aspose.words/field/getFieldCode/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ getFieldCode(includeChildFieldCodes)](../../aspose.words/field/getFieldCode/#boolean) | Returns text between field start and field separator (or field end if there is no separator).<br>(Inherited from [Field](../../aspose.words/field/)) |
-|[ remove()](../../aspose.words/field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``None``.<br>(Inherited from [Field](../../aspose.words/field/)) |
+|[ remove()](../../aspose.words/field/remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``null``.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ unlink()](../../aspose.words/field/unlink/#default) | Performs the field unlink.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ update()](../../aspose.words/field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ update(ignoreMergeFormat)](../../aspose.words/field/update/#boolean) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../../aspose.words/field/)) |

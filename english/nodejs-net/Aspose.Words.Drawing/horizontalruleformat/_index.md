@@ -24,7 +24,7 @@ To learn more, visit the [Working with Shapes](https://docs.aspose.com/words/nod
 | [alignment](./alignment/) | Gets or sets the alignment of the horizontal rule. |
 | [color](./color/) | Gets or sets the brush color that fills the horizontal rule. |
 | [height](./height/) | Gets or sets the height of the horizontal rule. |
-| [noShade](./noShade/) | Indicates the presence of 3D shading for the horizontal rule. If ``True``, then the horizontal rule is without 3D shading and solid color is used. |
+| [noShade](./noShade/) | Indicates the presence of 3D shading for the horizontal rule. If ``true``, then the horizontal rule is without 3D shading and solid color is used. |
 | [widthPercent](./widthPercent/) | Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width. |
 
 ### Examples

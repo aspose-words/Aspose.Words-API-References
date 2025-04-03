@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/removeJavaScriptFromLi
 ## HtmlFixedSaveOptions.removeJavaScriptFromLinks property
 
 Specifies whether JavaScript will be removed from links.
-Default is ``False``.
+Default is ``false``.
 If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
 
 

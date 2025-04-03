@@ -21,11 +21,11 @@ To learn more, visit the [Working with Sections](https://docs.aspose.com/words/n
 
 Use [TextColumnCollection.setCount()](./setCount/#number) to set the number of text columns.
 
-To make all columns equal width and spaced evenly, set [TextColumnCollection.evenlySpaced](./evenlySpaced/) to ``True``
+To make all columns equal width and spaced evenly, set [TextColumnCollection.evenlySpaced](./evenlySpaced/) to ``true``
 and specify the amount of space between the columns in [TextColumnCollection.spacing](./spacing/). MS Word will
 automatically calculate column widths.
 
-If you have [TextColumnCollection.evenlySpaced](./evenlySpaced/) set to ``False``, you need to specify width and spacing for each
+If you have [TextColumnCollection.evenlySpaced](./evenlySpaced/) set to ``false``, you need to specify width and spacing for each
 column individually. Use the indexer to access individual [TextColumn](../textcolumn/) objects.
 
 When using custom column widths, make sure the sum of all column widths and spacings between them
@@ -40,7 +40,7 @@ equals page width minus left and right page margins.
 | --- | --- |
 | [count](./count/) | Gets the number of columns in the section of a document. |
 | [evenlySpaced](./evenlySpaced/) | True if text columns are of equal width and evenly spaced. |
-| [lineBetween](./lineBetween/) | When ``True``, adds a vertical line between columns. |
+| [lineBetween](./lineBetween/) | When ``true``, adds a vertical line between columns. |
 | [spacing](./spacing/) | When columns are evenly spaced, gets or sets the amount of space between each column in points. |
 | [this[]](./this[]/) |  |
 | [width](./width/) | When columns are evenly spaced, gets the width of the columns. |

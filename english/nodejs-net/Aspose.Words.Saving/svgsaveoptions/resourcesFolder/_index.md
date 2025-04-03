@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/resourcesFolder/
 ## SvgSaveOptions.resourcesFolder property
 
 Specifies the physical folder where resources (images) are saved when exporting a document to Svg format.
-Default is ``None``.
+Default is ``null``.
 
 
 
@@ -22,7 +22,7 @@ get resourcesFolder(): string
 
 ### Remarks
 
-Has effect only if [SvgSaveOptions.exportEmbeddedImages](../exportEmbeddedImages/) property is ``False``.
+Has effect only if [SvgSaveOptions.exportEmbeddedImages](../exportEmbeddedImages/) property is ``false``.
 
 When you save a [Document](../../../aspose.words/document/) in SVG format, Aspose.Words needs to save all
 images embedded in the document as standalone files. [SvgSaveOptions.resourcesFolder](./)

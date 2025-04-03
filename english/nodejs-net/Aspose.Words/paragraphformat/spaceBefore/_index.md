@@ -26,7 +26,7 @@ get spaceBefore(): number
 
 ### Remarks
 
-Has no effect when [ParagraphFormat.spaceBeforeAuto](../spaceBeforeAuto/) is ``True``.
+Has no effect when [ParagraphFormat.spaceBeforeAuto](../spaceBeforeAuto/) is ``true``.
 
 Valid values range from 0 to 1584 inclusive.
 

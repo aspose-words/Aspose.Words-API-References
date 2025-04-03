@@ -29,9 +29,9 @@ already rotated to the correct orientation.
 
 | Name | Description |
 | --- | --- |
-| [colored](./colored/) | Returns ``True`` if the page contains colored content. |
+| [colored](./colored/) | Returns ``true`` if the page contains colored content. |
 | [heightInPoints](./heightInPoints/) | Gets the height of the page in points. |
-| [landscape](./landscape/) | Returns ``True`` if the page orientation specified in the document for this page is landscape. |
+| [landscape](./landscape/) | Returns ``true`` if the page orientation specified in the document for this page is landscape. |
 | [paperSize](./paperSize/) | Gets the paper size as enumeration. |
 | [paperTray](./paperTray/) | Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific. |
 | [widthInPoints](./widthInPoints/) | Gets the width of the page in points. |

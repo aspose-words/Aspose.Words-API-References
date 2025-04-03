@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Layout/revisionoptions/showRevisionMarks/
 ## RevisionOptions.showRevisionMarks property
 
 Allow to specify whether revision text should be marked with special formatting markup.
-Default value is ``True``.
+Default value is ``true``.
 
 
 

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing/oleformat/olePackage/
 ## OleFormat.olePackage property
 
 Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Package.
-Returns ``None`` otherwise.
+Returns ``null`` otherwise.
 
 
 

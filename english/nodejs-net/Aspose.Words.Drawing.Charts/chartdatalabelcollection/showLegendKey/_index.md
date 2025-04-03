@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/showLegend
 ## ChartDataLabelCollection.showLegendKey property
 
 Allows to specify whether legend key is to be displayed for the data labels of the entire series.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

@@ -58,7 +58,7 @@ and [ShapeBase.verticalAlignment](./verticalAlignment/) properties.
 | [aspectRatioLocked](./aspectRatioLocked/) | Specifies whether the shape's aspect ratio is locked. |
 | [behindText](./behindText/) | Specifies whether the shape is below or above text. |
 | [bottom](./bottom/) | Gets the position of the bottom edge of the containing block of the shape. |
-| [canHaveImage](./canHaveImage/) | Returns ``True`` if the shape type allows the shape to have an image. |
+| [canHaveImage](./canHaveImage/) | Returns ``true`` if the shape type allows the shape to have an image. |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [customNodeId](../../aspose.words/node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [distanceBottom](./distanceBottom/) | Returns or sets the distance (in points) between the document text and the bottom edge of the shape. |
@@ -71,26 +71,26 @@ and [ShapeBase.verticalAlignment](./verticalAlignment/) properties.
 | [flipOrientation](./flipOrientation/) | Switches the orientation of a shape. |
 | [font](./font/) | Provides access to the font formatting of this object. |
 | [glow](./glow/) | Gets glow formatting for the shape. |
-| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [height](./height/) | Gets or sets the height of the containing block of the shape. |
 | [heightRelative](./heightRelative/) | Gets or sets the value that represents the percentage of shape's relative height. |
 | [hidden](./hidden/) | Gets or sets a boolean value indicating whether the shape is visible. |
 | [horizontalAlignment](./horizontalAlignment/) | Specifies how the shape is positioned horizontally. |
 | [href](./href/) | Gets or sets the full hyperlink address for a shape. |
-| [isComposite](../../aspose.words/node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [isComposite](../../aspose.words/node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [isDecorative](./isDecorative/) | Gets or sets the flag that specifies whether the shape is decorative in the document. |
 | [isDeleteRevision](./isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
-| [isGroup](./isGroup/) | Returns ``True`` if this is a group shape. |
-| [isHorizontalRule](./isHorizontalRule/) | Returns ``True`` if this shape is a horizontal rule. |
-| [isImage](./isImage/) | Returns ``True`` if this shape is an image shape. |
+| [isGroup](./isGroup/) | Returns ``true`` if this is a group shape. |
+| [isHorizontalRule](./isHorizontalRule/) | Returns ``true`` if this shape is a horizontal rule. |
+| [isImage](./isImage/) | Returns ``true`` if this shape is an image shape. |
 | [isInline](./isInline/) | A quick way to determine if this shape is positioned inline with text. |
 | [isInsertRevision](./isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [isLayoutInCell](./isLayoutInCell/) | Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it. |
-| [isMoveFromRevision](./isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [isMoveToRevision](./isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [isMoveFromRevision](./isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [isMoveToRevision](./isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [isSignatureLine](./isSignatureLine/) | Indicates that shape is a [SignatureLine](../signatureline/). |
-| [isTopLevel](./isTopLevel/) | Returns ``True`` if this shape is not a child of a group shape. |
-| [isWordArt](./isWordArt/) | Returns ``True`` if this shape is a WordArt object. |
+| [isTopLevel](./isTopLevel/) | Returns ``true`` if this shape is not a child of a group shape. |
+| [isWordArt](./isWordArt/) | Returns ``true`` if this shape is a WordArt object. |
 | [lastChild](../../aspose.words/compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [left](./left/) | Gets or sets the position of the left edge of the containing block of the shape. |
 | [leftRelative](./leftRelative/) | Gets or sets the value that represents shape's relative left position in percent. |

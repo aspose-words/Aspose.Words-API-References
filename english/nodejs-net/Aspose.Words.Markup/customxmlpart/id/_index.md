@@ -26,7 +26,7 @@ to open a document created with a non-GUID value. So, a GUID is preferred value 
 
 A valid value must be an identifier that is unique among all custom XML data parts in this document.
 
-The default value is an empty string. The value cannot be ``None``.
+The default value is an empty string. The value cannot be ``null``.
 
 
 

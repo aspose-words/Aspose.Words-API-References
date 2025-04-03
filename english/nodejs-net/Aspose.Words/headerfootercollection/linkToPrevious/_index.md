@@ -21,7 +21,7 @@ linkToPrevious(isLinkToPrevious: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isLinkToPrevious | boolean | ``True`` to link the headers and footers to the previous section; ``False`` to unlink them. |
+| isLinkToPrevious | boolean | ``true`` to link the headers and footers to the previous section; ``false`` to unlink them. |
 
 ### Remarks
 
@@ -43,7 +43,7 @@ linkToPrevious(headerFooterType: Aspose.Words.HeaderFooterTypeisLinkToPrevious: 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | headerFooterType | [HeaderFooterType](../../headerfootertype/) | A [HeaderFooterType](../../headerfootertype/) value that specifies the header or footer to link/unlink. |
-| isLinkToPrevious | boolean | ``True`` to link the header or footer to the previous section; ``False`` to unlink. |
+| isLinkToPrevious | boolean | ``true`` to link the header or footer to the previous section; ``false`` to unlink. |
 
 ### Remarks
 

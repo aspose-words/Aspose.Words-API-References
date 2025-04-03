@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Fields/formfield/checked/
 ## FormField.checked property
 
 Gets or sets the checked status of the check box form field.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
 
 

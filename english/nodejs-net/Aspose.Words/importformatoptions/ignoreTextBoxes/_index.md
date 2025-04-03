@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words/importformatoptions/ignoreTextBoxes/
 
 Gets or sets a boolean value that specifies that source formatting of textboxes content ignored
 if [ImportFormatMode.KeepSourceFormatting](../../importformatmode/#KeepSourceFormatting) mode is used.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

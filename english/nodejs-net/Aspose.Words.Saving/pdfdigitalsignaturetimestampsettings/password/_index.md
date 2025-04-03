@@ -20,7 +20,7 @@ get password(): string
 
 ### Remarks
 
-The default value is ``None``.
+The default value is ``null``.
 
 
 

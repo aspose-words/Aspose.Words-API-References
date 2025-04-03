@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.AI/checkgrammaroptions/makeRevisions/
 ## CheckGrammarOptions.makeRevisions property
 
 Allows to specify either final or revised document to be returned with proofed text.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

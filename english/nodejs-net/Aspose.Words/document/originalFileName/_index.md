@@ -20,7 +20,7 @@ get originalFileName(): string
 
 ### Remarks
 
-Returns ``None`` if the document was loaded from a stream or created blank.
+Returns ``null`` if the document was loaded from a stream or created blank.
 
 
 

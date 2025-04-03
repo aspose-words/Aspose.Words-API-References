@@ -20,8 +20,8 @@ get ownStatus(): boolean
 
 ### Remarks
 
-If ``True``, the text specified by the [FormField.statusText](../statusText/) property is displayed.
-If ``False``, the text of the AutoText entry specified by the [FormField.statusText](../statusText/) property is displayed.
+If ``true``, the text specified by the [FormField.statusText](../statusText/) property is displayed.
+If ``false``, the text of the AutoText entry specified by the [FormField.statusText](../statusText/) property is displayed.
 
 
 

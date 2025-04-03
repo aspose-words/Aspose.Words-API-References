@@ -20,11 +20,11 @@ get additionalTextPositioning(): boolean
 
 ### Remarks
 
-If ``True``, additional text positioning operators are written to the output PDF. This may help to overcome
+If ``true``, additional text positioning operators are written to the output PDF. This may help to overcome
 issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
 
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

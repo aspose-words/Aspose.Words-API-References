@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words/importformatoptions/ignoreHeaderFooter/
 
 Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored
 if [ImportFormatMode.KeepSourceFormatting](../../importformatmode/#KeepSourceFormatting) mode is used.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

@@ -48,7 +48,7 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 
 | Name | Description |
 | --- | --- |
-| [ancestor](./ancestor/) | Returns the parent [Comment](./) object. Returns ``None`` for top-level comments. |
+| [ancestor](./ancestor/) | Returns the parent [Comment](./) object. Returns ``null`` for top-level comments. |
 | [author](./author/) | Returns or sets the author name for a comment. |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [customNodeId](../node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
@@ -59,14 +59,14 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 | [firstChild](../compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [firstParagraph](../inlinestory/firstParagraph/) | Gets the first paragraph in the story.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [font](../inlinestory/font/) | Provides access to the font formatting of the anchor character of this object.<br>(Inherited from [InlineStory](../inlinestory/)) |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [id](./id/) | Gets or sets the comment identifier. |
 | [initial](./initial/) | Returns or sets the initials of the user associated with a specific comment. |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [isDeleteRevision](../inlinestory/isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [isInsertRevision](../inlinestory/isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
-| [isMoveFromRevision](../inlinestory/isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
-| [isMoveToRevision](../inlinestory/isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
+| [isMoveFromRevision](../inlinestory/isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
+| [isMoveToRevision](../inlinestory/isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [lastParagraph](../inlinestory/lastParagraph/) | Gets the last paragraph in the story.<br>(Inherited from [InlineStory](../inlinestory/)) |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
@@ -165,6 +165,25 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 
 ### Examples
 
+Shows how to add a comment to a paragraph.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+builder.write("Hello world!");
+
+var today = new Date(2024, 11, 26);
+var comment = new aw.Comment(doc, "John Doe", "JD", today);
+builder.currentParagraph.appendChild(comment);
+builder.moveTo(comment.appendChild(new aw.Paragraph(doc)));
+builder.write("Comment text.");
+
+expect(comment.dateTime).toEqual(today);
+
+// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
+doc.save(base.artifactsDir + "InlineStory.AddComment.docx");
+```
+
 Shows how to add a comment to a document, and then reply to it.
 
 ```js
@@ -192,25 +211,6 @@ expect(comment.ancestor).toBe(null);
 expect(comment.replies.at(0).ancestor).toEqual(comment);
 
 doc.save(base.artifactsDir + "Comment.AddCommentWithReply.docx");
-```
-
-Shows how to add a comment to a paragraph.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-builder.write("Hello world!");
-
-var today = new Date(2024, 11, 26);
-var comment = new aw.Comment(doc, "John Doe", "JD", today);
-builder.currentParagraph.appendChild(comment);
-builder.moveTo(comment.appendChild(new aw.Paragraph(doc)));
-builder.write("Comment text.");
-
-expect(comment.dateTime).toEqual(today);
-
-// In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
-doc.save(base.artifactsDir + "InlineStory.AddComment.docx");
 ```
 
 ### See Also

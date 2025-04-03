@@ -81,7 +81,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | --- | --- |
 | [attachedTemplate](./attachedTemplate/) | Gets or sets the full path of the template attached to the document. |
 | [automaticallyUpdateStyles](./automaticallyUpdateStyles/) | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
-| [backgroundShape](../documentbase/backgroundShape/) | Gets or sets the background shape of the document. Can be ``None``.<br>(Inherited from [DocumentBase](../documentbase/)) |
+| [backgroundShape](../documentbase/backgroundShape/) | Gets or sets the background shape of the document. Can be ``null``.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [bibliography](./bibliography/) | Gets the [Document.bibliography](./bibliography/) object that represents the list of sources available in the document. |
 | [builtInDocumentProperties](./builtInDocumentProperties/) | Returns a collection that represents all the built-in document properties of the document. |
 | [compatibilityOptions](./compatibilityOptions/) | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
@@ -103,13 +103,13 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [footnoteSeparators](../documentbase/footnoteSeparators/) | Provides access to the footnote/endnote separators defined in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [frameset](./frameset/) | Returns a [Document.frameset](./frameset/) instance if this document represents a frames page. |
 | [glossaryDocument](./glossaryDocument/) | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
-| [grammarChecked](./grammarChecked/) | Returns ``True`` if the document has been checked for grammar. |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [hasMacros](./hasMacros/) | Returns ``True`` if the document has a VBA project (macros). |
-| [hasRevisions](./hasRevisions/) | Returns ``True`` if the document has any tracked changes. |
+| [grammarChecked](./grammarChecked/) | Returns ``true`` if the document has been checked for grammar. |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [hasMacros](./hasMacros/) | Returns ``true`` if the document has a VBA project (macros). |
+| [hasRevisions](./hasRevisions/) | Returns ``true`` if the document has any tracked changes. |
 | [hyphenationOptions](./hyphenationOptions/) | Provides access to document hyphenation options. |
 | [includeTextboxesFootnotesEndnotesInStat](./includeTextboxesFootnotesEndnotesInStat/) | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [justificationMode](./justificationMode/) | Gets or sets the character spacing adjustment of a document. |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [lastSection](./lastSection/) | Gets the last section in the document. |
@@ -136,7 +136,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [shadeFormData](./shadeFormData/) | Specifies whether to turn on the gray shading on form fields. |
 | [showGrammaticalErrors](./showGrammaticalErrors/) | Specifies whether to display grammar errors in this document. |
 | [showSpellingErrors](./showSpellingErrors/) | Specifies whether to display spelling errors in this document. |
-| [spellingChecked](./spellingChecked/) | Returns ``True`` if the document has been checked for spelling. |
+| [spellingChecked](./spellingChecked/) | Returns ``true`` if the document has been checked for spelling. |
 | [styles](../documentbase/styles/) | Returns a collection of styles defined in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [theme](./theme/) | Gets the [Document.theme](./theme/) object for this document. |
 | [trackRevisions](./trackRevisions/) | True if changes are tracked when this document is edited in Microsoft Word. |

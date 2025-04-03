@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportLanguageInformation/
 ## HtmlSaveOptions.exportLanguageInformation property
 
 Specifies whether language information is exported to HTML, MHTML or EPUB.
-Default is ``False``.
+Default is ``false``.
 
 
 
@@ -22,7 +22,7 @@ get exportLanguageInformation(): boolean
 
 ### Remarks
 
-When this property is set to ``True`` Aspose.Words outputs **lang** HTML attribute on the document
+When this property is set to ``true`` Aspose.Words outputs **lang** HTML attribute on the document
 elements that specify language. This can be needed to preserve language related semantics.
 
 

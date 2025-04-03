@@ -22,7 +22,7 @@ get chart(): Aspose.Words.Drawing.Charts.Chart
 ### Remarks
 
 This property will return the [Chart](../../chart/) object only if [Shape.hasChart](../hasChart/)
-property is ``True`` for this [Shape](../), and will throw an exception otherwise.
+property is ``true`` for this [Shape](../), and will throw an exception otherwise.
 
 
 ### See Also

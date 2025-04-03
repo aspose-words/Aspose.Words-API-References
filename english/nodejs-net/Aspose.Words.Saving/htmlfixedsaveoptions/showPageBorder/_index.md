@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/showPageBorder/
 ## HtmlFixedSaveOptions.showPageBorder property
 
 Specifies whether border around pages should be shown.
-Default is ``True``.
+Default is ``true``.
 
 
 

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreFields/
 ## FindReplaceOptions.ignoreFields property
 
 Gets or sets a boolean value indicating either to ignore text inside fields.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

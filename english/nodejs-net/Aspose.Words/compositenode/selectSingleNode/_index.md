@@ -33,7 +33,7 @@ that use attribute names are not supported.
 
 ### Returns
 
-The first [Node](../../node/) that matches the XPath query or ``None`` if no matching node is found.
+The first [Node](../../node/) that matches the XPath query or ``null`` if no matching node is found.
 
 
 ### Examples

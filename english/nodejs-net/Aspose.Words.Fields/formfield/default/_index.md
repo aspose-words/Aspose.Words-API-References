@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Fields/formfield/default/
 ## FormField.default property
 
 Gets or sets the default value of the check box form field.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
 
 

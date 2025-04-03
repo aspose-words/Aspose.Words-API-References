@@ -21,7 +21,7 @@ moveToField(field: Aspose.Words.Fields.FieldisAfter: boolean)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | field | [Field](../../field/) | The field to move the cursor to. |
-| isAfter | boolean | When ``True``, moves the cursor to be after the field end. When ``False``, moves the cursor to be before the field start. |
+| isAfter | boolean | When ``true``, moves the cursor to be after the field end. When ``false``, moves the cursor to be before the field start. |
 
 ### Examples
 

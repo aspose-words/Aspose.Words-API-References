@@ -56,10 +56,10 @@ the [StructuredDocumentTag.xmlMapping](./xmlMapping/) property.
 | Name | Description |
 | --- | --- |
 | [appearance](./appearance/) | Gets/sets the appearance of a structured document tag. |
-| [buildingBlockCategory](./buildingBlockCategory/) | Specifies category of building block for this **SDT** node. Can not be ``None``. |
-| [buildingBlockGallery](./buildingBlockGallery/) | Specifies type of building block for this **SDT**. Can not be ``None``. |
+| [buildingBlockCategory](./buildingBlockCategory/) | Specifies category of building block for this **SDT** node. Can not be ``null``. |
+| [buildingBlockGallery](./buildingBlockGallery/) | Specifies type of building block for this **SDT**. Can not be ``null``. |
 | [calendarType](./calendarType/) | Specifies the type of calendar for this **SDT**. Default is [SdtCalendarType.Default](../sdtcalendartype/#Default) |
-| [checked](./checked/) | Gets/Sets current state of the Checkbox **SDT**. Default value for this property is ``False``. |
+| [checked](./checked/) | Gets/Sets current state of the Checkbox **SDT**. Default value for this property is ``false``. |
 | [color](./color/) | Gets or sets the color of the structured document tag. |
 | [contentsFont](./contentsFont/) | Font formatting that will be applied to text entered into **SDT**. |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
@@ -71,29 +71,29 @@ the [StructuredDocumentTag.xmlMapping](./xmlMapping/) property.
 | [endCharacterFont](./endCharacterFont/) | Font formatting that will be applied to the last character of text entered into **SDT**. |
 | [firstChild](../../aspose.words/compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [fullDate](./fullDate/) | Specifies the full date and time last entered into this **SDT**. |
-| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [id](./id/) | Specifies a unique read-only persistent numerical Id for this **SDT**. |
-| [isComposite](../../aspose.words/node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [isComposite](../../aspose.words/node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [isShowingPlaceholderText](./isShowingPlaceholderText/) | Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). |
 | [isTemporary](./isTemporary/) | Specifies whether this **SDT** shall be removed from the WordProcessingML document when its contents are modified. |
 | [lastChild](../../aspose.words/compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [level](./level/) | Gets the level at which this **SDT** occurs in the document tree. |
 | [listItems](./listItems/) | Gets [SdtListItemCollection](../sdtlistitemcollection/) associated with this **SDT**. |
-| [lockContentControl](./lockContentControl/) | When set to ``True``, this property will prohibit a user from deleting this **SDT**. |
-| [lockContents](./lockContents/) | When set to ``True``, this property will prohibit a user from editing the contents of this **SDT**. |
+| [lockContentControl](./lockContentControl/) | When set to ``true``, this property will prohibit a user from deleting this **SDT**. |
+| [lockContents](./lockContents/) | When set to ``true``, this property will prohibit a user from editing the contents of this **SDT**. |
 | [multiline](./multiline/) | Specifies whether this **SDT** allows multiple lines of text. |
 | [nextSibling](../../aspose.words/node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [nodeType](./nodeType/) | Returns [NodeType.StructuredDocumentTag](../../aspose.words/nodetype/#StructuredDocumentTag). |
 | [parentNode](../../aspose.words/node/parentNode/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xmlMapping](./xmlMapping/) element or the [StructuredDocumentTag.isShowingPlaceholderText](./isShowingPlaceholderText/) element is ``True``. |
+| [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xmlMapping](./xmlMapping/) element or the [StructuredDocumentTag.isShowingPlaceholderText](./isShowingPlaceholderText/) element is ``true``. |
 | [placeholderName](./placeholderName/) | Gets or sets Name of the [BuildingBlock](../../aspose.words/buildingblock/) containing placeholder text. |
 | [previousSibling](../../aspose.words/node/previousSibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [range](../../aspose.words/node/range/) | Returns a [Range](../../aspose.words/range/) object that represents the portion of a document that is contained in this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [sdtType](./sdtType/) | Gets type of this **Structured document tag**. |
 | [style](./style/) | Gets or sets the Style of the structured document tag. |
 | [styleName](./styleName/) | Gets or sets the name of the style applied to the structured document tag. |
-| [tag](./tag/) | Specifies a tag associated with the current SDT node. Can not be ``None``. |
-| [title](./title/) | Specifies the friendly name associated with this **SDT**. Can not be ``None``. |
+| [tag](./tag/) | Specifies a tag associated with the current SDT node. Can not be ``null``. |
+| [title](./title/) | Specifies the friendly name associated with this **SDT**. Can not be ``null``. |
 | [wordOpenXML](./wordOpenXML/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../aspose.words/saveformat/#FlatOpc) format. |
 | [wordOpenXMLMinimal](./wordOpenXMLMinimal/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../aspose.words/saveformat/#FlatOpc) format. |
 | [xmlMapping](./xmlMapping/) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |

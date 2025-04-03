@@ -26,10 +26,10 @@ To learn more, visit the [Clean Up a Document](https://docs.aspose.com/words/nod
 
 | Name | Description |
 | --- | --- |
-| [duplicateStyle](./duplicateStyle/) | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is ``False``. |
+| [duplicateStyle](./duplicateStyle/) | Gets/sets a flag indicating whether duplicate styles should be removed from document. Default value is ``false``. |
 | [unusedBuiltinStyles](./unusedBuiltinStyles/) | Specifies that unused [Style.builtIn](../style/builtIn/) styles should be removed from document. |
-| [unusedLists](./unusedLists/) | Specifies whether unused list and list definitions should be removed from document. Default value is ``True``. |
-| [unusedStyles](./unusedStyles/) | Specifies whether unused styles should be removed from document. Default value is ``True``. |
+| [unusedLists](./unusedLists/) | Specifies whether unused list and list definitions should be removed from document. Default value is ``true``. |
+| [unusedStyles](./unusedStyles/) | Specifies whether unused styles should be removed from document. Default value is ``true``. |
 
 ### Examples
 

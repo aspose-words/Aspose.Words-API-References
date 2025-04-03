@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/showDataLabelsRange/
 ## ChartDataLabel.showDataLabelsRange property
 
 Allows to specify if values from data labels range to be displayed in the data labels. 
-Default value is ``False``.
+Default value is ``false``.
 
 
 

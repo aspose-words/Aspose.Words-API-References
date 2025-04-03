@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/tag/
 ## StructuredDocumentTag.tag property
 
 Specifies a tag associated with the current SDT node.
-Can not be ``None``.
+Can not be ``null``.
 
 
 

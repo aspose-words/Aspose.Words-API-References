@@ -3,7 +3,7 @@ title: FrameFormat.isFrame property
 linktitle: isFrame property
 articleTitle: isFrame property
 second_title: Aspose.Words for NodeJs
-description: "FrameFormat.isFrame property. Returns ``True`` if the paragraph is a frame."
+description: "FrameFormat.isFrame property. Returns ``true`` if the paragraph is a frame."
 type: docs
 weight: 60
 url: /nodejs-net/Aspose.Words/frameformat/isFrame/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/frameformat/isFrame/
 
 ## FrameFormat.isFrame property
 
-Returns ``True`` if the paragraph is a frame.
+Returns ``true`` if the paragraph is a frame.
 
 
 

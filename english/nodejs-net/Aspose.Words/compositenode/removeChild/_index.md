@@ -24,7 +24,7 @@ removeChild(oldChild: Aspose.Words.Node)
 
 ### Remarks
 
-The parent of *oldChild* is set to``None`` after the node is removed.
+The parent of *oldChild* is set to``null`` after the node is removed.
 
 
 

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/resourcesFolderAlias/
 ## SvgSaveOptions.resourcesFolderAlias property
 
 Specifies the name of the folder used to construct image URIs written into an SVG document.
-Default is ``None``.
+Default is ``null``.
 
 
 

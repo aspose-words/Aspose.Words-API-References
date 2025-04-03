@@ -24,7 +24,7 @@ setBorder(borderType: Aspose.Words.BorderTypelineStyle: Aspose.Words.LineStyleli
 | lineStyle | [LineStyle](../../linestyle/) | The line style to apply. |
 | lineWidth | number | The line width to set (in points). |
 | color | string | The color to use for the border. |
-| isOverrideCellBorders | boolean | When ``True``, causes all existing explicit cell borders to be removed. |
+| isOverrideCellBorders | boolean | When ``true``, causes all existing explicit cell borders to be removed. |
 
 ### Examples
 

@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Drawing/shape/oleFormat/
 
 ## Shape.oleFormat property
 
-Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns ``None``.
+Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns ``null``.
 
 
 

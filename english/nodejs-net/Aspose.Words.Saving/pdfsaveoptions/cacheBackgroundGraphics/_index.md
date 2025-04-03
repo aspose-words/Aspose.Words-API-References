@@ -20,9 +20,9 @@ get cacheBackgroundGraphics(): boolean
 
 ### Remarks
 
-Default value is ``True`` and background graphics are written to the PDF document as an xObject.
+Default value is ``true`` and background graphics are written to the PDF document as an xObject.
 
-When the value is ``False`` background graphics are not cached.
+When the value is ``false`` background graphics are not cached.
 
 Some shapes are not supported for caching(shapes with fields, bookmarks, HRefs).
 

@@ -20,7 +20,7 @@ get hidden(): boolean
 
 ### Remarks
 
-Default value is ``False``.
+Default value is ``false``.
 
 
 

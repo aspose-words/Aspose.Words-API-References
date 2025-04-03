@@ -24,7 +24,7 @@ hasDmlEffect(dmlEffectType: Aspose.Words.TextDmlEffect)
 
 ### Returns
 
-``True`` if particular DrawingML text effect is applied.
+``true`` if particular DrawingML text effect is applied.
 
 
 ### See Also

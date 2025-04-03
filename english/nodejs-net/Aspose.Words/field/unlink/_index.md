@@ -29,7 +29,7 @@ Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot b
 
 ### Returns
 
-``True`` if the field has been unlinked, otherwise ``False``.
+``true`` if the field has been unlinked, otherwise ``false``.
 
 
 

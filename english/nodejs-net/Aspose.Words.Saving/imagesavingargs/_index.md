@@ -42,7 +42,7 @@ To save images into streams instead of files, use the Aspose.Words.Saving.ImageS
 | [currentShape](./currentShape/) | Gets the [ShapeBase](../../aspose.words.drawing/shapebase/) object corresponding to the shape or group shape  that is about to be saved. |
 | [document](./document/) | Gets the document object that is currently being saved. |
 | [imageFileName](./imageFileName/) | Gets or sets the file name (without path) where the image will be saved to. |
-| [isImageAvailable](./isImageAvailable/) | Returns ``True`` if the current image is available for export. |
+| [isImageAvailable](./isImageAvailable/) | Returns ``true`` if the current image is available for export. |
 | [keepImageStreamOpen](./keepImageStreamOpen/) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
 
 ### Examples

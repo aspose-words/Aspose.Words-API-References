@@ -20,7 +20,7 @@ get bidi(): boolean
 
 ### Remarks
 
-When ``True``, the runs and other inline objects in this paragraph
+When ``true``, the runs and other inline objects in this paragraph
 are laid out right to left.
 
 

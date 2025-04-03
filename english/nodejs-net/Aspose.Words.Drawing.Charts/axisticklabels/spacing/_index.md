@@ -23,7 +23,7 @@ get spacing(): number
 The property has effect for text category and series axes. It is not supported by MS Office 2016
 new charts. Valid range of a value is greater than or equal to 1.
 
-Setting this property sets the [AxisTickLabels.isAutoSpacing](../isAutoSpacing/) property to ``False``.
+Setting this property sets the [AxisTickLabels.isAutoSpacing](../isAutoSpacing/) property to ``false``.
 
 
 

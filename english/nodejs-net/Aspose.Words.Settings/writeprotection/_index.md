@@ -35,7 +35,7 @@ via the [Document.writeProtection](../../aspose.words/document/writeProtection/)
 
 | Name | Description |
 | --- | --- |
-| [isWriteProtected](./isWriteProtected/) | Returns ``True`` when a write protection password is set. |
+| [isWriteProtected](./isWriteProtected/) | Returns ``true`` when a write protection password is set. |
 | [readOnlyRecommended](./readOnlyRecommended/) | Specifies whether the document author has recommended that the document be opened as read-only. |
 
 ### Methods
@@ -43,7 +43,7 @@ via the [Document.writeProtection](../../aspose.words/document/writeProtection/)
 | Name | Description |
 | --- | --- |
 |[ setPassword(password)](./setPassword/#string) | Sets the write protection password for the document. |
-|[ validatePassword(password)](./validatePassword/#string) | Returns ``True`` if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns ``False``. |
+|[ validatePassword(password)](./validatePassword/#string) | Returns ``true`` if the specified password is the same as the write-protection password the document was protected with. If document is not write-protected with password then returns ``false``. |
 
 ### See Also
 

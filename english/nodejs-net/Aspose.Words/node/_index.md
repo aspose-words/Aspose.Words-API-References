@@ -45,7 +45,7 @@ The [Node](./) class:
 | --- | --- |
 | [customNodeId](./customNodeId/) | Specifies custom node identifier. |
 | [document](./document/) | Gets the document to which this node belongs. |
-| [isComposite](./isComposite/) | Returns ``True`` if this node can contain other nodes. |
+| [isComposite](./isComposite/) | Returns ``true`` if this node can contain other nodes. |
 | [nextSibling](./nextSibling/) | Gets the node immediately following this node. |
 | [nodeType](./nodeType/) | Gets the type of this node. |
 | [parentNode](./parentNode/) | Gets the immediate parent of this node. |

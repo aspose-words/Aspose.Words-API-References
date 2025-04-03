@@ -20,8 +20,8 @@ get linkedStyle(): Aspose.Words.Style
 
 ### Remarks
 
-This property is ``None`` when the list level is not linked to a paragraph style.
-This property can be set to ``None``.
+This property is ``null`` when the list level is not linked to a paragraph style.
+This property can be set to ``null``.
 
 
 

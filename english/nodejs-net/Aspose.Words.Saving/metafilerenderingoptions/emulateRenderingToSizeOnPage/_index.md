@@ -24,14 +24,14 @@ get emulateRenderingToSizeOnPage(): boolean
 When metafiles are displayed in MS Word, some graphics may be scaled according to the actual metafile size in pixels.
 I.e. even zooming may affect the metafile display.
 
-When this value is set to ``True``, Aspose.Words emulates rendering according to the metafile size on page.
+When this value is set to ``true``, Aspose.Words emulates rendering according to the metafile size on page.
 The size in pixels is calculated from the metafile size on the page and the specified [MetafileRenderingOptions.emulateRenderingToSizeOnPageResolution](../emulateRenderingToSizeOnPageResolution/).
 
-When this value is set to ``False``, Aspose.Words emulates metafile rendering to its default size in pixels.
+When this value is set to ``false``, Aspose.Words emulates metafile rendering to its default size in pixels.
 
 This option is used only when metafile is rendered as vector graphics.
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

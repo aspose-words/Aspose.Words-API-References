@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportImagesAsBase64/
 ## HtmlSaveOptions.exportImagesAsBase64 property
 
 Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB.
-Default is ``False``.
+Default is ``false``.
 
 
 
@@ -22,7 +22,7 @@ get exportImagesAsBase64(): boolean
 
 ### Remarks
 
-When this property is set to ``True`` images data are exported
+When this property is set to ``true`` images data are exported
 directly into the **img** elements and separate files are not created.
 
 

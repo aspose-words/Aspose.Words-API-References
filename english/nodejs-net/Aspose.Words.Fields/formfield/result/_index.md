@@ -31,7 +31,7 @@ specified in [FormField.textInputFormat](../textInputFormat/). If you want to se
 format, use the [FormField.setTextInputValue()](../setTextInputValue/#object) method.
 
 For a text form field the [FormField.textInputDefault](../textInputDefault/) value is applied
-if *value* is``None``.
+if *value* is``null``.
 
 
 

@@ -22,23 +22,23 @@ getChild(nodeType: Aspose.Words.NodeTypeindex: numberisDeep: boolean)
 | --- | --- | --- |
 | nodeType | [NodeType](../../nodetype/) | Specifies the type of the child node. |
 | index | number | Zero based index of the child node to select. Negative indexes are also allowed and indicate access from the end, that is -1 means the last node. |
-| isDeep | boolean | ``True`` to select from all child nodes recursively; ``False`` to select only among immediate children. See remarks for more info. |
+| isDeep | boolean | ``true`` to select from all child nodes recursively; ``false`` to select only among immediate children. See remarks for more info. |
 
 ### Remarks
 
-If index is out of range, a ``None`` is returned.
+If index is out of range, a ``null`` is returned.
 
 
 
 
 Note that markup nodes ([NodeType.StructuredDocumentTag](../../nodetype/#StructuredDocumentTag) and [NodeType.SmartTag](../../nodetype/#SmartTag))
-are traversed even when *isDeep* =``False`` and [CompositeNode.getChild()](./#nodetype_number_boolean) is invoked for non-markup node type. For example if the first run in a para
-is wrapped in a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), it will still be returned by [CompositeNode.getChild()](./#nodetype_number_boolean)([NodeType.Run](../../nodetype/#Run), 0, ``False``).
+are traversed even when *isDeep* =``false`` and [CompositeNode.getChild()](./#nodetype_number_boolean) is invoked for non-markup node type. For example if the first run in a para
+is wrapped in a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), it will still be returned by [CompositeNode.getChild()](./#nodetype_number_boolean)([NodeType.Run](../../nodetype/#Run), 0, ``false``).
 
 
 ### Returns
 
-The child node that matches the criteria or ``None`` if no matching node is found.
+The child node that matches the criteria or ``null`` if no matching node is found.
 
 
 ### Examples

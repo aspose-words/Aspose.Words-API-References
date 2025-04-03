@@ -24,7 +24,7 @@ setCount(newCount: number)
 
 ### Remarks
 
-When [TextColumnCollection.evenlySpaced](../evenlySpaced/) is ``False`` and you increase the number of columns,
+When [TextColumnCollection.evenlySpaced](../evenlySpaced/) is ``false`` and you increase the number of columns,
 new [TextColumn](../../textcolumn/) objects are created with zero width and spacing.
 You need to set width and spacing for the new columns.
 

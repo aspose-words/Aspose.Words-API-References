@@ -22,7 +22,7 @@ get filled(): boolean
 
 This is a shortcut to the [Fill.visible](../../fill/visible/) property.
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

@@ -20,7 +20,7 @@ get spacing(): number
 
 ### Remarks
 
-Has effect only when [TextColumnCollection.evenlySpaced](../evenlySpaced/) is set to ``True``.
+Has effect only when [TextColumnCollection.evenlySpaced](../evenlySpaced/) is set to ``true``.
 
 
 

@@ -25,7 +25,7 @@ that is a direct child of a [Paragraph](../../paragraph/). Any insert operations
 [DocumentBuilder](../) will insert before the [DocumentBuilder.currentNode](./).
 
 When the current paragraph is empty or the cursor is positioned just
-before the end of a paragraph or structured document tag, [DocumentBuilder.currentNode](./) returns ``None``.
+before the end of a paragraph or structured document tag, [DocumentBuilder.currentNode](./) returns ``null``.
 
 
 

@@ -34,15 +34,15 @@ root node of the tree that contains all other nodes of the document.
 
 | Name | Description |
 | --- | --- |
-| [backgroundShape](./backgroundShape/) | Gets or sets the background shape of the document. Can be ``None``. |
+| [backgroundShape](./backgroundShape/) | Gets or sets the background shape of the document. Can be ``null``. |
 | [count](../compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [customNodeId](../node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](./document/) | Gets this instance. |
 | [firstChild](../compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [fontInfos](./fontInfos/) | Provides access to properties of fonts used in this document. |
 | [footnoteSeparators](./footnoteSeparators/) | Provides access to the footnote/endnote separators defined in the document. |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [lists](./lists/) | Provides access to the list formatting used in the document. |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |

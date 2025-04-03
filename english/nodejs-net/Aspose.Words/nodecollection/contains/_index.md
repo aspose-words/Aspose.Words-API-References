@@ -31,7 +31,7 @@ This method performs a linear search; therefore, the average execution time is p
 
 ### Returns
 
-``True`` if item is found in the collection; otherwise, ``False``.
+``true`` if item is found in the collection; otherwise, ``false``.
 
 
 ### Examples

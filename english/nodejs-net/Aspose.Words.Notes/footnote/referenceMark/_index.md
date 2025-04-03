@@ -22,8 +22,8 @@ get referenceMark(): string
 
 ### Remarks
 
-If this property is set to **empty string** () or ``None``, then [Footnote.isAuto](../isAuto/) property will automatically be set to ``True``, 
-if set to anything else then [Footnote.isAuto](../isAuto/) will be set to ``False``.
+If this property is set to **empty string** () or ``null``, then [Footnote.isAuto](../isAuto/) property will automatically be set to ``true``, 
+if set to anything else then [Footnote.isAuto](../isAuto/) will be set to ``false``.
 
 
 RTF-format can only store 1 symbol as custom reference mark, so upon export only the first symbol will be written others will be discard.

@@ -20,7 +20,7 @@ get value(): string
 
 ### Remarks
 
-Cannot be ``None`` and cannot be an empty string.
+Cannot be ``null`` and cannot be an empty string.
 
 
 

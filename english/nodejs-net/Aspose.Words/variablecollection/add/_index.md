@@ -21,7 +21,7 @@ add(name: stringvalue: string)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | The case-insensitive name of the variable to add. |
-| value | string | The value of the variable. The value cannot be ``None``, if value is null empty string will be used instead. |
+| value | string | The value of the variable. The value cannot be ``null``, if value is null empty string will be used instead. |
 
 ### Examples
 

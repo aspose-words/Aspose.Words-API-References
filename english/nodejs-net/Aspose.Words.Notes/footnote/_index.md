@@ -47,13 +47,13 @@ The [Footnote](./) class is used to represent both footnotes and endnotes in a W
 | [firstParagraph](../../aspose.words/inlinestory/firstParagraph/) | Gets the first paragraph in the story.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [font](../../aspose.words/inlinestory/font/) | Provides access to the font formatting of the anchor character of this object.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [footnoteType](./footnoteType/) | Returns a value that specifies whether this is a footnote or endnote. |
-| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [isAuto](./isAuto/) | Holds a value that specifies whether this is a auto-numbered footnote or  footnote with user defined custom reference mark. |
-| [isComposite](../../aspose.words/node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [isComposite](../../aspose.words/node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [isDeleteRevision](../../aspose.words/inlinestory/isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [isInsertRevision](../../aspose.words/inlinestory/isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
-| [isMoveFromRevision](../../aspose.words/inlinestory/isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
-| [isMoveToRevision](../../aspose.words/inlinestory/isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
+| [isMoveFromRevision](../../aspose.words/inlinestory/isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
+| [isMoveToRevision](../../aspose.words/inlinestory/isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [lastChild](../../aspose.words/compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [lastParagraph](../../aspose.words/inlinestory/lastParagraph/) | Gets the last paragraph in the story.<br>(Inherited from [InlineStory](../../aspose.words/inlinestory/)) |
 | [nextSibling](../../aspose.words/node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |

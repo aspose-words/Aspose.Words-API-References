@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing/signatureline/showDate/
 ## SignatureLine.showDate property
 
 Gets or sets a value indicating that sign date is shown in the signature line.
-Default value for this property is ``True``.
+Default value for this property is ``true``.
 
 
 

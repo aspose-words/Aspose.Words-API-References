@@ -20,7 +20,7 @@ add(value: Aspose.Words.Settings.OdsoFieldMapData)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoFieldMapData](../../odsofieldmapdata/) | The object to add. Cannot be ``None``. |
+| value | [OdsoFieldMapData](../../odsofieldmapdata/) | The object to add. Cannot be ``null``. |
 
 ### Examples
 

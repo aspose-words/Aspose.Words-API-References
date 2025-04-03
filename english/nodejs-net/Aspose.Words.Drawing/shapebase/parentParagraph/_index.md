@@ -20,7 +20,7 @@ get parentParagraph(): Aspose.Words.Paragraph
 
 ### Remarks
 
-For child shapes of a group shape and child shapes of an Office Math object always returns ``None``.
+For child shapes of a group shape and child shapes of an Office Math object always returns ``null``.
 
 
 ### Examples

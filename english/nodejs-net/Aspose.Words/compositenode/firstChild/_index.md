@@ -20,7 +20,7 @@ get firstChild(): Aspose.Words.Node
 
 ### Remarks
 
-If there is no first child node, a ``None`` is returned.
+If there is no first child node, a ``null`` is returned.
 
 
 

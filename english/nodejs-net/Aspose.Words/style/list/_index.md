@@ -21,7 +21,7 @@ get list(): Aspose.Words.Lists.List
 ### Remarks
 
 This property is only valid for list styles.
-For other style types this property returns ``None``.
+For other style types this property returns ``null``.
 
 
 

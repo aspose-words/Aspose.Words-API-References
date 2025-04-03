@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words/importformatoptions/keepSourceNumbering/
 
 Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and
 destination documents.
-The default value is ``False``.
+The default value is ``false``.
 
 
 
@@ -22,6 +22,43 @@ get keepSourceNumbering(): boolean
 ```
 
 ### Examples
+
+Shows how to import a document with numbered lists.
+
+```js
+const srcDoc = new aw.Document(base.myDir + "List source.docx");
+const dstDoc = new aw.Document(base.myDir + "List destination.docx");
+
+expect(dstDoc.lists.count).toEqual(4);
+
+const options = new aw.ImportFormatOptions();
+
+// If there is a clash of list styles, apply the list format of the source document.
+// Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
+// Set the "KeepSourceNumbering" property to "true" import all clashing
+// list style numbering with the same appearance that it had in the source document.
+options.keepSourceNumbering = isKeepSourceNumbering;
+
+dstDoc.appendDocument(srcDoc, aw.ImportFormatMode.KeepSourceFormatting, options);
+dstDoc.updateListLabels();
+
+expect(dstDoc.lists.count).toEqual(isKeepSourceNumbering ? 5 : 4);
+```
+
+Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
+
+```js
+const srcDoc = new aw.Document(base.myDir + "List with the same definition identifier - source.docx");
+const dstDoc = new aw.Document(base.myDir + "List with the same definition identifier - destination.docx");
+
+// Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
+// to identical styles as Aspose.Words imports them into destination documents.
+const importFormatOptions = new aw.ImportFormatOptions();
+importFormatOptions.keepSourceNumbering = true;
+
+dstDoc.appendDocument(srcDoc, aw.ImportFormatMode.UseDestinationStyles, importFormatOptions);
+dstDoc.updateListLabels();
+```
 
 Shows how to resolve list numbering clashes in source and destination documents.
 
@@ -74,43 +111,6 @@ else
     "12. Item 3\r\n" +
     "13. Item 4");
 }
-```
-
-Shows how to import a document with numbered lists.
-
-```js
-const srcDoc = new aw.Document(base.myDir + "List source.docx");
-const dstDoc = new aw.Document(base.myDir + "List destination.docx");
-
-expect(dstDoc.lists.count).toEqual(4);
-
-const options = new aw.ImportFormatOptions();
-
-// If there is a clash of list styles, apply the list format of the source document.
-// Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
-// Set the "KeepSourceNumbering" property to "true" import all clashing
-// list style numbering with the same appearance that it had in the source document.
-options.keepSourceNumbering = isKeepSourceNumbering;
-
-dstDoc.appendDocument(srcDoc, aw.ImportFormatMode.KeepSourceFormatting, options);
-dstDoc.updateListLabels();
-
-expect(dstDoc.lists.count).toEqual(isKeepSourceNumbering ? 5 : 4);
-```
-
-Shows how resolve a clash when importing documents that have lists with the same list definition identifier.
-
-```js
-const srcDoc = new aw.Document(base.myDir + "List with the same definition identifier - source.docx");
-const dstDoc = new aw.Document(base.myDir + "List with the same definition identifier - destination.docx");
-
-// Set the "KeepSourceNumbering" property to "true" to apply a different list definition ID
-// to identical styles as Aspose.Words imports them into destination documents.
-const importFormatOptions = new aw.ImportFormatOptions();
-importFormatOptions.keepSourceNumbering = true;
-
-dstDoc.appendDocument(srcDoc, aw.ImportFormatMode.UseDestinationStyles, importFormatOptions);
-dstDoc.updateListLabels();
 ```
 
 ### See Also

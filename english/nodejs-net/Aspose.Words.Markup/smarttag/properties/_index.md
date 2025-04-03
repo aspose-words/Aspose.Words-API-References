@@ -20,7 +20,7 @@ get properties(): Aspose.Words.Markup.CustomXmlPropertyCollection
 
 ### Remarks
 
-Cannot be ``None``.
+Cannot be ``null``.
 
 
 

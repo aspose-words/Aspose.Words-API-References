@@ -20,9 +20,9 @@ get reverseRows(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
-If ``True``, the layout order of rows is reversed. This attribute is used for vertical text layout.
+If ``true``, the layout order of rows is reversed. This attribute is used for vertical text layout.
 
 
 

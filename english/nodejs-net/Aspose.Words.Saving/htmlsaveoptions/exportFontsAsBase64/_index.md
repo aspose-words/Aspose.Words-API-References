@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportFontsAsBase64/
 ## HtmlSaveOptions.exportFontsAsBase64 property
 
 Specifies whether fonts resources should be embedded to HTML in Base64 encoding.
-Default is ``False``.
+Default is ``false``.
 
 
 
@@ -22,7 +22,7 @@ get exportFontsAsBase64(): boolean
 
 ### Remarks
 
-By default, fonts are written to separate files. If this option is set to ``True``, fonts will be embedded
+By default, fonts are written to separate files. If this option is set to ``true``, fonts will be embedded
 into the document's CSS in Base64 encoding.
 
 

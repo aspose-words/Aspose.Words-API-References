@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/saveoptions/updateCreatedTimeProperty/
 ## SaveOptions.updateCreatedTimeProperty property
 
 Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving.
-Default value is ``False``;
+Default value is ``false``;
 
 
 

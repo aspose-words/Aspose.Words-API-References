@@ -20,7 +20,7 @@ setPassword(password: string)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | string | The password to set. Cannot be ``None``, but can be an empty string. |
+| password | string | The password to set. Cannot be ``null``, but can be an empty string. |
 
 ### Remarks
 

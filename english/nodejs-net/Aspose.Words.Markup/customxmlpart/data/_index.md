@@ -20,7 +20,7 @@ get data(): number[]
 
 ### Remarks
 
-The default value is an empty byte array. The value cannot be ``None``.
+The default value is an empty byte array. The value cannot be ``null``.
 
 
 

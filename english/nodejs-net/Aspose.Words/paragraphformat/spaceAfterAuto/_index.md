@@ -20,7 +20,7 @@ get spaceAfterAuto(): boolean
 
 ### Remarks
 
-When set to ``True``, overrides the effect of [ParagraphFormat.spaceAfter](../spaceAfter/).
+When set to ``true``, overrides the effect of [ParagraphFormat.spaceAfter](../spaceAfter/).
 
 
 

@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Settings/odso/fieldMapDatas/
 
 Gets or sets a collection of objects that specify how columns from the external data source 
 are mapped to the predefined merge field names in the document.
-This object is never ``None``.
+This object is never ``null``.
 
 
 

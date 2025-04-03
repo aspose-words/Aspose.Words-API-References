@@ -20,9 +20,9 @@ get imageBytes(): number[]
 
 ### Remarks
 
-Setting the value to ``None`` or an empty array will remove the image from the shape.
+Setting the value to ``null`` or an empty array will remove the image from the shape.
 
-Returns ``None`` if the image is not stored in the document (e.g the image is probably linked in this case).
+Returns ``null`` if the image is not stored in the document (e.g the image is probably linked in this case).
 
 
 

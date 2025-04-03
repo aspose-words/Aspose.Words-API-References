@@ -20,7 +20,7 @@ get autoUpdate(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

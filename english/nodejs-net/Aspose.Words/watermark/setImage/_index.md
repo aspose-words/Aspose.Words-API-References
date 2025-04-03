@@ -46,14 +46,14 @@ setImage(imagePath: stringoptions: Aspose.Words.ImageWatermarkOptions)
 
 ### Remarks
 
-If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``None``, the watermark will be set with default options.
+If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``null``, the watermark will be set with default options.
 
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the path is ``None``. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the path is ``null``. |
 
 ## See Also
 

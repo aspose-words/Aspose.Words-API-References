@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportPageSetup/
 ## HtmlSaveOptions.exportPageSetup property
 
 Specifies whether page setup is exported to HTML, MHTML or EPUB.
-Default is ``False``.
+Default is ``false``.
 
 
 

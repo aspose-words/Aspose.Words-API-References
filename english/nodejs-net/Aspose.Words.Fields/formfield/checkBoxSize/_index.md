@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Fields/formfield/checkBoxSize/
 
 ## FormField.checkBoxSize property
 
-Gets or sets the size of the checkbox in points. Has effect only when [FormField.isCheckBoxExactSize](../isCheckBoxExactSize/) is ``True``.
+Gets or sets the size of the checkbox in points. Has effect only when [FormField.isCheckBoxExactSize](../isCheckBoxExactSize/) is ``true``.
 
 
 

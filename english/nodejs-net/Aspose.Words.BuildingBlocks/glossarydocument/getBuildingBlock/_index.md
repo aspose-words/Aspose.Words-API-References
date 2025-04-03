@@ -21,7 +21,7 @@ getBuildingBlock(gallery: Aspose.Words.BuildingBlocks.BuildingBlockGallerycatego
 | Parameter | Type | Description |
 | --- | --- | --- |
 | gallery | [BuildingBlockGallery](../../buildingblockgallery/) | The gallery criteria. |
-| category | string | The category criteria. Can be ``None``, in which case it will not be used for comparison. |
+| category | string | The category criteria. Can be ``null``, in which case it will not be used for comparison. |
 | name | string | The building block name criteria. |
 
 ### Remarks
@@ -41,7 +41,7 @@ name is not guaranteed to be unique.
 
 ### Returns
 
-The matching building block or ``None`` if a match was not found.
+The matching building block or ``null`` if a match was not found.
 
 
 ### See Also

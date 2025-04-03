@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/showLegendKey/
 ## ChartDataLabel.showLegendKey property
 
 Allows to specify if legend key is to be displayed for the data labels on a chart. 
-Default value is ``False``.
+Default value is ``false``.
 
 
 

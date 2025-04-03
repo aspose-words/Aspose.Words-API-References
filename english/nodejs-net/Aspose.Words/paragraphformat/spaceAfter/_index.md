@@ -26,7 +26,7 @@ get spaceAfter(): number
 
 ### Remarks
 
-Has no effect when [ParagraphFormat.spaceAfterAuto](../spaceAfterAuto/) is ``True``.
+Has no effect when [ParagraphFormat.spaceAfterAuto](../spaceAfterAuto/) is ``true``.
 
 Valid values ​​range from 0 to 1584 inclusive.
 

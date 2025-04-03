@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Loading/txtloadoptions/detectHyperlinks/
 ## TxtLoadOptions.detectHyperlinks property
 
 Specifies either to detect hyperlinks in text.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -13,7 +13,7 @@ url: /nodejs-net/Aspose.Words.Loading/txtloadoptions/autoNumberingDetection/
 
 Gets or sets a boolean value indicating either automatic numbering detection
 will be performed while loading a document.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

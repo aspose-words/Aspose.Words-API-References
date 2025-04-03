@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Settings/hyphenationoptions/hyphenateCaps/
 ## HyphenationOptions.hyphenateCaps property
 
 Gets or sets value determining whether words written in all capital letters are hyphenated.
-Default value for this property is ``True``.
+Default value for this property is ``true``.
 
 
 

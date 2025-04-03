@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/rangeEnd/
 ## StructuredDocumentTagRangeStart.rangeEnd property
 
 Specifies end of range if the [StructuredDocumentTag](../../structureddocumenttag/) is a ranged structured document tag.
-Otherwise returns ``None``.
+Otherwise returns ``null``.
 
 
 

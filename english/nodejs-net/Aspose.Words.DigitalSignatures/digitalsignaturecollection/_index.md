@@ -33,7 +33,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Gets the number of elements contained in the collection. |
-| [isValid](./isValid/) | Returns ``True`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``True`` if there are no digital signatures. Returns ``False`` if at least one digital signature is invalid. |
+| [isValid](./isValid/) | Returns ``true`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``true`` if there are no digital signatures. Returns ``false`` if at least one digital signature is invalid. |
 | [this[]](./this[]/) |  |
 
 ### Examples

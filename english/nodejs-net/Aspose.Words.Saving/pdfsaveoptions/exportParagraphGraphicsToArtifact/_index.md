@@ -20,12 +20,12 @@ get exportParagraphGraphicsToArtifact(): boolean
 
 ### Remarks
 
-Default value is ``False`` and paragraph graphics (underlines, text emphasis, etc.)
+Default value is ``false`` and paragraph graphics (underlines, text emphasis, etc.)
 will be marked as "Span" in the logical structure of the document.
 
-When the value is ``True`` the paragraph graphics will be marked as "Artifact".
+When the value is ``true`` the paragraph graphics will be marked as "Artifact".
 
-This value is ignored when [PdfSaveOptions.exportDocumentStructure](../exportDocumentStructure/) is ``False``. 
+This value is ignored when [PdfSaveOptions.exportDocumentStructure](../exportDocumentStructure/) is ``false``. 
 
 
 

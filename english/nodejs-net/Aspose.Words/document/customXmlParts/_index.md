@@ -22,7 +22,7 @@ get customXmlParts(): Aspose.Words.Markup.CustomXmlPartCollection
 
 Aspose.Words loads and saves Custom XML Parts into OOXML and DOC documents only.
 
-This property cannot be ``None``.
+This property cannot be ``null``.
 
 
 

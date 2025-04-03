@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Layout/layoutoptions/showParagraphMarks/
 ## LayoutOptions.showParagraphMarks property
 
 Gets or sets indication of whether paragraph marks are rendered.
-Default is ``False``.
+Default is ``false``.
 
 
 

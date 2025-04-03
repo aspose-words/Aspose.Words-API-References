@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/showCatego
 ## ChartDataLabelCollection.showCategoryName property
 
 Allows to specify whether category name is to be displayed for the data labels of the entire series.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

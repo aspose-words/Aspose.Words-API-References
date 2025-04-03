@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Layout/layoutoptions/ignorePrinterMetrics/
 ## LayoutOptions.ignorePrinterMetrics property
 
 Gets or sets indication of whether the "Use printer metrics to lay out document" compatibility option is ignored.
-Default is ``True``.
+Default is ``true``.
 
 
 

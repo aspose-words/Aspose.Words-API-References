@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words/cleanupoptions/duplicateStyle/
 ## CleanupOptions.duplicateStyle property
 
 Gets/sets a flag indicating whether duplicate styles should be removed from document.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

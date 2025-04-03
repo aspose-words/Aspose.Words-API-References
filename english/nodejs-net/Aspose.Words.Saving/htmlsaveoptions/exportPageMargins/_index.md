@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportPageMargins/
 ## HtmlSaveOptions.exportPageMargins property
 
 Specifies whether page margins is exported to HTML, MHTML or EPUB.
-Default is ``False``.
+Default is ``false``.
 
 
 

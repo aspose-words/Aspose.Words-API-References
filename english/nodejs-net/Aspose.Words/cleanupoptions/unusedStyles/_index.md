@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words/cleanupoptions/unusedStyles/
 ## CleanupOptions.unusedStyles property
 
 Specifies whether unused styles should be removed from document.
-Default value is ``True``.
+Default value is ``true``.
 
 
 

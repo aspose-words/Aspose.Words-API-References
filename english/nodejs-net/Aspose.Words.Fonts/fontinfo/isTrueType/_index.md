@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Fonts/fontinfo/isTrueType/
 ## FontInfo.isTrueType property
 
 Indicates that this font is a TrueType or OpenType font as opposed to a raster or vector font.
-Default is ``True``.
+Default is ``true``.
 
 
 

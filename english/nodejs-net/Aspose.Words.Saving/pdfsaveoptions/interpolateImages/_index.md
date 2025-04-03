@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/interpolateImages/
 ## PdfSaveOptions.interpolateImages property
 
 A flag indicating whether image interpolation shall be performed by a conforming reader.
-When ``False`` is specified, the flag is not written to the output document and
+When ``false`` is specified, the flag is not written to the output document and
 the default behaviour of reader is used instead.
 
 
@@ -32,9 +32,9 @@ attempts to produce a smooth transition between adjacent sample values.
 A conforming Reader may choose to not implement this feature of PDF,
 or may use any specific implementation of interpolation that it wishes.
 
-The default value is ``False``.
+The default value is ``false``.
 
-Interpolation flag is prohibited by PDF/A compliance. ``False`` value will be used automatically
+Interpolation flag is prohibited by PDF/A compliance. ``false`` value will be used automatically
 when saving to PDF/A.
 
 

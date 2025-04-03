@@ -72,9 +72,9 @@ you navigate to a different place in the document to reflect formatting properti
 | [currentStructuredDocumentTag](./currentStructuredDocumentTag/) | Gets the structured document tag that is currently selected in this [DocumentBuilder](./). |
 | [document](./document/) | Gets or sets the [DocumentBuilder.document](./document/) object that this object is attached to. |
 | [font](./font/) | Returns an object that represents current font formatting properties. |
-| [isAtEndOfParagraph](./isAtEndOfParagraph/) | Returns ``True`` if the cursor is at the end of the current paragraph. |
+| [isAtEndOfParagraph](./isAtEndOfParagraph/) | Returns ``true`` if the cursor is at the end of the current paragraph. |
 | [isAtEndOfStructuredDocumentTag](./isAtEndOfStructuredDocumentTag/) | Returns **true** if the cursor is at the end of a structured document tag. |
-| [isAtStartOfParagraph](./isAtStartOfParagraph/) | Returns ``True`` if the cursor is at the beginning of the current paragraph (no text before the cursor). |
+| [isAtStartOfParagraph](./isAtStartOfParagraph/) | Returns ``true`` if the cursor is at the beginning of the current paragraph (no text before the cursor). |
 | [italic](./italic/) | True if the font is formatted as italic. |
 | [listFormat](./listFormat/) | Returns an object that represents current list formatting properties. |
 | [pageSetup](./pageSetup/) | Returns an object that represents current page setup and section properties. |

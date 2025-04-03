@@ -3,7 +3,7 @@ title: ShapeBase.isImage property
 linktitle: isImage property
 articleTitle: isImage property
 second_title: Aspose.Words for NodeJs
-description: "ShapeBase.isImage property. Returns ``True`` if this shape is an image shape."
+description: "ShapeBase.isImage property. Returns ``true`` if this shape is an image shape."
 type: docs
 weight: 250
 url: /nodejs-net/Aspose.Words.Drawing/shapebase/isImage/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Drawing/shapebase/isImage/
 
 ## ShapeBase.isImage property
 
-Returns ``True`` if this shape is an image shape.
+Returns ``true`` if this shape is an image shape.
 
 
 

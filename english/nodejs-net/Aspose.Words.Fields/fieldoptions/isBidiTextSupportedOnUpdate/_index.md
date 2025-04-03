@@ -20,13 +20,13 @@ get isBidiTextSupportedOnUpdate(): boolean
 
 ### Remarks
 
-When this property is set to ``True``, additional steps are performed to produce Right-To-Left language
+When this property is set to ``true``, additional steps are performed to produce Right-To-Left language
 (i.e. Arabic or Hebrew) compatible field result during its update.
 
-When this property is set to ``False`` and Right-To-Left language is used, correctness of field result
+When this property is set to ``false`` and Right-To-Left language is used, correctness of field result
 after its update is not guaranteed.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

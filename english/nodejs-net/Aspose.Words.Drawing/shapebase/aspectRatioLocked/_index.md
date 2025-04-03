@@ -20,8 +20,8 @@ get aspectRatioLocked(): boolean
 
 ### Remarks
 
-The default value depends on the [ShapeType](../../shapetype/), for the [ShapeType.Image](../../shapetype/#Image) it is ``True``
-but for the other shape types it is ``False``.
+The default value depends on the [ShapeType](../../shapetype/), for the [ShapeType.Image](../../shapetype/#Image) it is ``true``
+but for the other shape types it is ``false``.
 
 Has effect for top level shapes only.
 

@@ -20,7 +20,7 @@ get spaceBeforeAuto(): boolean
 
 ### Remarks
 
-When set to ``True``, overrides the effect of [ParagraphFormat.spaceBefore](../spaceBefore/).
+When set to ``true``, overrides the effect of [ParagraphFormat.spaceBefore](../spaceBefore/).
 
 
 

@@ -46,7 +46,7 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 
 | Name | Description |
 | --- | --- |
-| [backgroundShape](../../aspose.words/documentbase/backgroundShape/) | Gets or sets the background shape of the document. Can be ``None``.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
+| [backgroundShape](../../aspose.words/documentbase/backgroundShape/) | Gets or sets the background shape of the document. Can be ``null``.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [buildingBlocks](./buildingBlocks/) | Returns a typed collection that represents all building blocks in the glossary document. |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [customNodeId](../../aspose.words/node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -55,8 +55,8 @@ Corresponds to the **glossaryDocument** and **docParts** elements in OOXML.
 | [firstChild](../../aspose.words/compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [fontInfos](../../aspose.words/documentbase/fontInfos/) | Provides access to properties of fonts used in this document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
 | [footnoteSeparators](../../aspose.words/documentbase/footnoteSeparators/) | Provides access to the footnote/endnote separators defined in the document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |
-| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [isComposite](../../aspose.words/node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [isComposite](../../aspose.words/node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [lastBuildingBlock](./lastBuildingBlock/) | Gets the last building block in the glossary document. |
 | [lastChild](../../aspose.words/compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [lists](../../aspose.words/documentbase/lists/) | Provides access to the list formatting used in the document.<br>(Inherited from [DocumentBase](../../aspose.words/documentbase/)) |

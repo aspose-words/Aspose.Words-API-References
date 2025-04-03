@@ -31,7 +31,7 @@ Skips tab stops with [TabStop.alignment](../../tabstop/alignment/) set to [TabAl
 
 ### Returns
 
-A tab stop object or ``None`` if a suitable tab stop was not found.
+A tab stop object or ``null`` if a suitable tab stop was not found.
 
 
 ### Examples

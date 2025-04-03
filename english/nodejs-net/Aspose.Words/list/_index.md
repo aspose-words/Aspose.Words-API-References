@@ -40,10 +40,10 @@ To apply or remove list formatting from a paragraph, use [ListFormat](../../aspo
 | Name | Description |
 | --- | --- |
 | [document](./document/) | Gets the owner document. |
-| [isListStyleDefinition](./isListStyleDefinition/) | Returns ``True`` if this list is a definition of a list style. |
-| [isListStyleReference](./isListStyleReference/) | Returns ``True`` if this list is a reference to a list style. |
-| [isMultiLevel](./isMultiLevel/) | Returns ``True`` when the list contains 9 levels; ``False`` when 1 level. |
-| [isRestartAtEachSection](./isRestartAtEachSection/) | Specifies whether list should be restarted at each section. Default value is ``False``. |
+| [isListStyleDefinition](./isListStyleDefinition/) | Returns ``true`` if this list is a definition of a list style. |
+| [isListStyleReference](./isListStyleReference/) | Returns ``true`` if this list is a reference to a list style. |
+| [isMultiLevel](./isMultiLevel/) | Returns ``true`` when the list contains 9 levels; ``false`` when 1 level. |
+| [isRestartAtEachSection](./isRestartAtEachSection/) | Specifies whether list should be restarted at each section. Default value is ``false``. |
 | [listId](./listId/) | Gets the unique identifier of the list. |
 | [listLevels](./listLevels/) | Gets the collection of list levels for this list. |
 | [style](./style/) | Gets the list style that this list references or defines. |

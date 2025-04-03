@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/showPageBorder/
 ## SvgSaveOptions.showPageBorder property
 
 Controls whether a border is added to the outline of the page.
-Default is ``True``.
+Default is ``true``.
 
 
 

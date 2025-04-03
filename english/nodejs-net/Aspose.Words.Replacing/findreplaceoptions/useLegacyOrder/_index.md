@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/useLegacyOrder/
 ## FindReplaceOptions.useLegacyOrder property
 
 True indicates that a text search is performed sequentially from top to bottom considering the text boxes.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

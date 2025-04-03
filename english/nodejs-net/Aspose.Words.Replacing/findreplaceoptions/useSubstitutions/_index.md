@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/useSubstitutions/
 ## FindReplaceOptions.useSubstitutions property
 
 Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

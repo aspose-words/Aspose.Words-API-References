@@ -50,7 +50,7 @@ protect(type: Aspose.Words.ProtectionTypepassword: string)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | [ProtectionType](../../protectiontype/) | Specifies the protection type for the document. |
-| password | string | The password to protect the document with. Specify ``None`` or empty string if you want to protect the document without a password. |
+| password | string | The password to protect the document with. Specify ``null`` or empty string if you want to protect the document without a password. |
 
 ### Remarks
 

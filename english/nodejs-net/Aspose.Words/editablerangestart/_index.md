@@ -46,7 +46,7 @@ as a single object.
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [editableRange](./editableRange/) | Gets the facade object that encapsulates this editable range start and end. |
 | [id](./id/) | Specifies the identifier of the editable range. |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [nodeType](./nodeType/) | Returns [NodeType.EditableRangeStart](../nodetype/#EditableRangeStart). |
 | [parentNode](../node/parentNode/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../node/)) |

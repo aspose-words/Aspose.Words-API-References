@@ -34,8 +34,8 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``None`` |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``null`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``null`` |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
 | RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 
@@ -64,8 +64,8 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``None`` |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``null`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``null`` |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
 | RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 
@@ -94,8 +94,8 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``None`` |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``null`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``null`` |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
 | RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 
@@ -125,8 +125,8 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``None`` |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``null`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``null`` |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
 | RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if there is no private key with the given alias |

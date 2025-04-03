@@ -21,12 +21,12 @@ get displayDocTitle(): boolean
 
 ### Remarks
 
-If ``False``, the title bar should instead display the name of the PDF file containing the document.
+If ``false``, the title bar should instead display the name of the PDF file containing the document.
 
-This flag is required by PDF/UA compliance. ``True`` value will be used automatically when saving
+This flag is required by PDF/UA compliance. ``true`` value will be used automatically when saving
 to PDF/UA.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

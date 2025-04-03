@@ -49,7 +49,7 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [aspectRatioLocked](../shapebase/aspectRatioLocked/) | Specifies whether the shape's aspect ratio is locked.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [behindText](../shapebase/behindText/) | Specifies whether the shape is below or above text.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [bottom](../shapebase/bottom/) | Gets the position of the bottom edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [canHaveImage](../shapebase/canHaveImage/) | Returns ``True`` if the shape type allows the shape to have an image.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [canHaveImage](../shapebase/canHaveImage/) | Returns ``true`` if the shape type allows the shape to have an image.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [chart](./chart/) | Provides access to the chart properties if this shape has a [Chart](../chart/). |
 | [count](../../aspose.words/compositenode/count/) | Gets the number of immediate children of this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [customNodeId](../../aspose.words/node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -58,7 +58,7 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [distanceRight](../shapebase/distanceRight/) | Returns or sets the distance (in points) between the document text and the right edge of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [distanceTop](../shapebase/distanceTop/) | Returns or sets the distance (in points) between the document text and the top edge of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [document](../../aspose.words/node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../../aspose.words/node/)) |
-| [extrusionEnabled](./extrusionEnabled/) | Returns ``True`` if an extrusion effect is enabled. |
+| [extrusionEnabled](./extrusionEnabled/) | Returns ``true`` if an extrusion effect is enabled. |
 | [fill](../shapebase/fill/) | Gets fill formatting for the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [fillColor](./fillColor/) | Defines the brush color that fills the closed path of the shape. |
 | [filled](./filled/) | Determines whether the closed path of the shape will be filled. |
@@ -67,31 +67,31 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [flipOrientation](../shapebase/flipOrientation/) | Switches the orientation of a shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [font](../shapebase/font/) | Provides access to the font formatting of this object.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [glow](../shapebase/glow/) | Gets glow formatting for the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [hasChart](./hasChart/) | Returns ``True`` if this [Shape](./) has a [Chart](../chart/). |
-| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-| [hasImage](./hasImage/) | Returns ``True`` if the shape has image bytes or links an image. |
-| [hasSmartArt](./hasSmartArt/) | Returns ``True`` if this [Shape](./) has a SmartArt object. |
+| [hasChart](./hasChart/) | Returns ``true`` if this [Shape](./) has a [Chart](../chart/). |
+| [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [hasImage](./hasImage/) | Returns ``true`` if the shape has image bytes or links an image. |
+| [hasSmartArt](./hasSmartArt/) | Returns ``true`` if this [Shape](./) has a SmartArt object. |
 | [height](../shapebase/height/) | Gets or sets the height of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [heightRelative](../shapebase/heightRelative/) | Gets or sets the value that represents the percentage of shape's relative height.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [hidden](../shapebase/hidden/) | Gets or sets a boolean value indicating whether the shape is visible.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [horizontalAlignment](../shapebase/horizontalAlignment/) | Specifies how the shape is positioned horizontally.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [horizontalRuleFormat](./horizontalRuleFormat/) | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns ``None``. |
+| [horizontalRuleFormat](./horizontalRuleFormat/) | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns ``null``. |
 | [href](../shapebase/href/) | Gets or sets the full hyperlink address for a shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [imageData](./imageData/) | Provides access to the image of the shape. Returns ``None`` if the shape cannot have an image. |
-| [isComposite](../../aspose.words/node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
+| [imageData](./imageData/) | Provides access to the image of the shape. Returns ``null`` if the shape cannot have an image. |
+| [isComposite](../../aspose.words/node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [isDecorative](../shapebase/isDecorative/) | Gets or sets the flag that specifies whether the shape is decorative in the document.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [isDeleteRevision](../shapebase/isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [isGroup](../shapebase/isGroup/) | Returns ``True`` if this is a group shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [isHorizontalRule](../shapebase/isHorizontalRule/) | Returns ``True`` if this shape is a horizontal rule.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [isImage](../shapebase/isImage/) | Returns ``True`` if this shape is an image shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [isGroup](../shapebase/isGroup/) | Returns ``true`` if this is a group shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [isHorizontalRule](../shapebase/isHorizontalRule/) | Returns ``true`` if this shape is a horizontal rule.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [isImage](../shapebase/isImage/) | Returns ``true`` if this shape is an image shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [isInline](../shapebase/isInline/) | A quick way to determine if this shape is positioned inline with text.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [isInsertRevision](../shapebase/isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [isLayoutInCell](../shapebase/isLayoutInCell/) | Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [isMoveFromRevision](../shapebase/isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [isMoveToRevision](../shapebase/isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [isMoveFromRevision](../shapebase/isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [isMoveToRevision](../shapebase/isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [isSignatureLine](../shapebase/isSignatureLine/) | Indicates that shape is a [SignatureLine](../signatureline/).<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [isTopLevel](../shapebase/isTopLevel/) | Returns ``True`` if this shape is not a child of a group shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [isWordArt](../shapebase/isWordArt/) | Returns ``True`` if this shape is a WordArt object.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [isTopLevel](../shapebase/isTopLevel/) | Returns ``true`` if this shape is not a child of a group shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
+| [isWordArt](../shapebase/isWordArt/) | Returns ``true`` if this shape is a WordArt object.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [lastChild](../../aspose.words/compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [lastParagraph](./lastParagraph/) | Gets the last paragraph in the shape. |
 | [left](../shapebase/left/) | Gets or sets the position of the left edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
@@ -100,7 +100,7 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [name](../shapebase/name/) | Gets or sets the optional shape name.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [nextSibling](../../aspose.words/node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [nodeType](./nodeType/) | Returns [NodeType.Shape](../../aspose.words/nodetype/#Shape). |
-| [oleFormat](./oleFormat/) | Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns ``None``. |
+| [oleFormat](./oleFormat/) | Provides access to the OLE data of a shape. For a shape that is not an OLE object or ActiveX control, returns ``null``. |
 | [parentNode](../../aspose.words/node/parentNode/) | Gets the immediate parent of this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [parentParagraph](../shapebase/parentParagraph/) | Returns the immediate parent paragraph.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [previousSibling](../../aspose.words/node/previousSibling/) | Gets the node immediately preceding this node.<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -113,10 +113,10 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 | [right](../shapebase/right/) | Gets the position of the right edge of the containing block of the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [rotation](../shapebase/rotation/) | Defines the angle (in degrees) that a shape is rotated. Positive value corresponds to clockwise rotation angle.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [screenTip](../shapebase/screenTip/) | Defines the text displayed when the mouse pointer moves over the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [shadowEnabled](./shadowEnabled/) | Returns ``True`` if a shadow effect is enabled. |
+| [shadowEnabled](./shadowEnabled/) | Returns ``true`` if a shadow effect is enabled. |
 | [shadowFormat](../shapebase/shadowFormat/) | Gets shadow formatting for the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [shapeType](../shapebase/shapeType/) | Gets the shape type.<br>(Inherited from [ShapeBase](../shapebase/)) |
-| [signatureLine](./signatureLine/) | Gets [SignatureLine](../signatureline/) object if the shape is a signature line. Returns ``None`` otherwise. |
+| [signatureLine](./signatureLine/) | Gets [SignatureLine](../signatureline/) object if the shape is a signature line. Returns ``null`` otherwise. |
 | [softEdge](../shapebase/softEdge/) | Gets soft edge formatting for the shape.<br>(Inherited from [ShapeBase](../shapebase/)) |
 | [storyType](./storyType/) | Returns [StoryType.Textbox](../../aspose.words/storytype/#Textbox). |
 | [stroke](./stroke/) | Defines a stroke for a shape. |

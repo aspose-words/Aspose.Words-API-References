@@ -3,7 +3,7 @@ title: InlineStory.isMoveToRevision property
 linktitle: isMoveToRevision property
 articleTitle: isMoveToRevision property
 second_title: Aspose.Words for NodeJs
-description: "InlineStory.isMoveToRevision property. Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled."
+description: "InlineStory.isMoveToRevision property. Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 60
 url: /nodejs-net/Aspose.Words/inlinestory/isMoveToRevision/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/inlinestory/isMoveToRevision/
 
 ## InlineStory.isMoveToRevision property
 
-Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
+Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.
 
 
 

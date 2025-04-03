@@ -23,7 +23,7 @@ insertOleObject(stream: BufferprogId: stringasIcon: booleanpresentation: Buffer)
 | stream | Buffer | Stream containing application data. |
 | progId | string | Programmatic Identifier of OLE object. |
 | asIcon | boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Buffer | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
+| presentation | Buffer | Image presentation of OLE object. If value is ``null`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 
@@ -42,9 +42,9 @@ insertOleObject(fileName: stringisLinked: booleanasIcon: booleanpresentation: Bu
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | Full path to the file. |
-| isLinked | boolean | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| isLinked | boolean | If ``true`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
 | asIcon | boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Buffer | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
+| presentation | Buffer | Image presentation of OLE object. If value is ``null`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 
@@ -64,9 +64,9 @@ insertOleObject(fileName: stringprogId: stringisLinked: booleanasIcon: booleanpr
 | --- | --- | --- |
 | fileName | string | Full path to the file. |
 | progId | string | ProgId of OLE object. |
-| isLinked | boolean | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| isLinked | boolean | If ``true`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
 | asIcon | boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Buffer | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
+| presentation | Buffer | Image presentation of OLE object. If value is ``null`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 

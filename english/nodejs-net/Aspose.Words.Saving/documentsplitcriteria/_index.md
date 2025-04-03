@@ -31,7 +31,7 @@ In typical cases specifying only one flag is the most practical option.
 | Name | Description |
 | --- | --- |
 | None | The document is not split. |
-| PageBreak | The document is split into parts at explicit page breaks. A page break can be specified by a Aspose.Words.ControlChar.PageBreak character,  a section break specifying start of new section on a new page, or a paragraph that has its [ParagraphFormat.pageBreakBefore](../../aspose.words/paragraphformat/pageBreakBefore/) property set to ``True``. |
+| PageBreak | The document is split into parts at explicit page breaks. A page break can be specified by a Aspose.Words.ControlChar.PageBreak character,  a section break specifying start of new section on a new page, or a paragraph that has its [ParagraphFormat.pageBreakBefore](../../aspose.words/paragraphformat/pageBreakBefore/) property set to ``true``. |
 | ColumnBreak | The document is split into parts at column breaks. A column break can be specified by a Aspose.Words.ControlChar.ColumnBreak character or a section break specifying start of new section in a new column. |
 | SectionBreak | The document is split into parts at a section break of any type. |
 | HeadingParagraph | The document is split into parts at a paragraph formatted using a heading style **Heading 1**, **Heading 2** etc.  Use together with [HtmlSaveOptions.documentSplitHeadingLevel](../htmlsaveoptions/documentSplitHeadingLevel/) to specify the heading levels  (from 1 to the specified level) at which to split. |

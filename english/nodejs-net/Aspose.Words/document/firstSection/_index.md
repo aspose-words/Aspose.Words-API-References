@@ -20,7 +20,7 @@ get firstSection(): Aspose.Words.Section
 
 ### Remarks
 
-Returns ``None`` if there are no sections.
+Returns ``null`` if there are no sections.
 
 
 
