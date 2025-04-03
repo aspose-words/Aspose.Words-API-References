@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.softEdge property. Gets soft edge formatting for the shape."
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/softEdge/
+url: /nodejs-net/aspose.words.drawing/shapebase/softEdge/
 ---
 
 ## ShapeBase.softEdge property

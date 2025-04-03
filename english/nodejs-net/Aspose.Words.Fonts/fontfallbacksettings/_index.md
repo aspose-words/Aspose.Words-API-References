@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontFallbackSettings class. Specifies font fallback mechanism settings"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fonts/fontfallbacksettings/
+url: /nodejs-net/aspose.words.fonts/fontfallbacksettings/
 ---
 
 ## FontFallbackSettings class

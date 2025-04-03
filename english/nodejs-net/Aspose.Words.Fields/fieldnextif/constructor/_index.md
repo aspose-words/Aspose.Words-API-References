@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldNextIf constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldnextif/constructor/
+url: /nodejs-net/aspose.words.fields/fieldnextif/constructor/
 ---
 
 ## FieldNextIf() {#default}

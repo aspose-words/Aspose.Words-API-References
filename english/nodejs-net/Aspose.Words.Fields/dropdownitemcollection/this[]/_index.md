@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DropDownItemCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/this[]/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/this[]/
 ---
 
 ## DropDownItemCollection.this[] property

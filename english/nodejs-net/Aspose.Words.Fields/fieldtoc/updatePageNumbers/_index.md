@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.updatePageNumbers method. Updates the page numbers for items in this table of contents."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/updatePageNumbers/
+url: /nodejs-net/aspose.words.fields/fieldtoc/updatePageNumbers/
 ---
 
 ## updatePageNumbers() {#default}
@@ -20,7 +20,7 @@ updatePageNumbers()
 
 ### Returns
 
-``True`` if the operation is successful. If any of the related TOC bookmarks was removed, ``False`` will be returned.
+``true`` if the operation is successful. If any of the related TOC bookmarks was removed, ``false`` will be returned.
 
 
 

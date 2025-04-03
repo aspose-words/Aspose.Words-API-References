@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.endBookmark method. Marks the current position in the document as a bookmark end."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words/documentbuilder/endBookmark/
+url: /nodejs-net/aspose.words/documentbuilder/endBookmark/
 ---
 
 ## endBookmark(bookmarkName) {#string}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.GradientStopCollection class. Contains a collection of [GradientStop](../gradientstop/) objects"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Drawing/gradientstopcollection/
+url: /nodejs-net/aspose.words.drawing/gradientstopcollection/
 ---
 
 ## GradientStopCollection class

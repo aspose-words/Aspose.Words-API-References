@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OleControl.name property. Gets or sets name of the ActiveX control."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Ole/olecontrol/name/
+url: /nodejs-net/aspose.words.drawing.ole/olecontrol/name/
 ---
 
 ## OleControl.name property

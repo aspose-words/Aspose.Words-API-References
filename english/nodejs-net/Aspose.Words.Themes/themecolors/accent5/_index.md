@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ThemeColors.accent5 property. Specifies color Accent 5."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Themes/themecolors/accent5/
+url: /nodejs-net/aspose.words.themes/themecolors/accent5/
 ---
 
 ## ThemeColors.accent5 property

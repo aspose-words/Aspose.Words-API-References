@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.WebExtensions.WebExtensionReference class. Represents the reference to a web extension"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreference/
+url: /nodejs-net/aspose.words.webextensions/webextensionreference/
 ---
 
 ## WebExtensionReference class

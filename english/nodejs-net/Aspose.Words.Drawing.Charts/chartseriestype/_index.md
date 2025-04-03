@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartSeriesType enumeration. Specifies a type of a chart series."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriestype/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriestype/
 ---
 
 ## ChartSeriesType enumeration

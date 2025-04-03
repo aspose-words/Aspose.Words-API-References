@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GeneralFormatCollection.removeAt method. Removes a general format occurrence at the specified index."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/generalformatcollection/removeAt/
+url: /nodejs-net/aspose.words.fields/generalformatcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

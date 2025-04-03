@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.toImage2 method. "
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/toImage2/
+url: /nodejs-net/aspose.words.drawing/imagedata/toImage2/
 ---
 
 ## toImage2() {#default}

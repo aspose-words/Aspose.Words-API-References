@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuiltInDocumentProperties.title property. Gets or sets the title of the document."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/title/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/title/
 ---
 
 ## BuiltInDocumentProperties.title property

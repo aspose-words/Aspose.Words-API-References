@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.webExtensionTaskPanes property. Returns a collection that represents a list of task pane add-ins."
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words/document/webExtensionTaskPanes/
+url: /nodejs-net/aspose.words/document/webExtensionTaskPanes/
 ---
 
 ## Document.webExtensionTaskPanes property

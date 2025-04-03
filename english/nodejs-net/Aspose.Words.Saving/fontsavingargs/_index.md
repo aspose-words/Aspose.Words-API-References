@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.FontSavingArgs class. Provides data for the [IFontSavingCallback.fontSaving()](../ifontsavingcallback/fontSaving/#fontsavingargs) event"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Saving/fontsavingargs/
+url: /nodejs-net/aspose.words.saving/fontsavingargs/
 ---
 
 ## FontSavingArgs class
@@ -20,7 +20,7 @@ To learn more, visit the [Save a Document](https://docs.aspose.com/words/nodejs-
 ### Remarks
 
 When Aspose.Words saves a document to HTML or related formats and [HtmlSaveOptions.exportFontResources](../htmlsaveoptions/exportFontResources/) 
-is set to ``True``, it saves each font subject for export into a separate file.
+is set to ``true``, it saves each font subject for export into a separate file.
 
 [FontSavingArgs](./) controls whether particular font resource should be exported and how.
 
@@ -42,7 +42,7 @@ To save fonts into streams instead of files, use the Aspose.Words.Saving.FontSav
 | [document](./document/) | Gets the document object that is being saved. |
 | [fontFamilyName](./fontFamilyName/) | Indicates the current font family name. |
 | [fontFileName](./fontFileName/) | Gets or sets the file name (without path) where the font will be saved to. |
-| [isExportNeeded](./isExportNeeded/) | Allows to specify whether the current font will be exported as a font resource. Default is ``True``. |
+| [isExportNeeded](./isExportNeeded/) | Allows to specify whether the current font will be exported as a font resource. Default is ``true``. |
 | [isSubsettingNeeded](./isSubsettingNeeded/) | Allows to specify whether the current font will be subsetted before exporting as a font resource. |
 | [italic](./italic/) | Indicates whether the current font is italic. |
 | [keepFontStreamOpen](./keepFontStreamOpen/) | Specifies whether Aspose.Words should keep the stream open or close it after saving a font. |

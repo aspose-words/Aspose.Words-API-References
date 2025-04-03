@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Border.distanceFromText property. Gets or sets distance of the border from text or from the page edge in points."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/border/distanceFromText/
+url: /nodejs-net/aspose.words/border/distanceFromText/
 ---
 
 ## Border.distanceFromText property

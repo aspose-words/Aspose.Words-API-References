@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.MailMergeDataType enumeration. Specifies the type of an external mail merge data source."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Settings/mailmergedatatype/
+url: /nodejs-net/aspose.words.settings/mailmergedatatype/
 ---
 
 ## MailMergeDataType enumeration

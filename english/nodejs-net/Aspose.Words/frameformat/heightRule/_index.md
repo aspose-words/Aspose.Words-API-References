@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FrameFormat.heightRule property. Gets the rule for determining the height of the specified frame."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/frameformat/heightRule/
+url: /nodejs-net/aspose.words/frameformat/heightRule/
 ---
 
 ## FrameFormat.heightRule property

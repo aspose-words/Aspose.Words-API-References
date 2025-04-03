@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DownsampleOptions.resolution property. Specifies the resolution in pixels per inch which the images should be downsampled to."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/downsampleoptions/resolution/
+url: /nodejs-net/aspose.words.saving/downsampleoptions/resolution/
 ---
 
 ## DownsampleOptions.resolution property

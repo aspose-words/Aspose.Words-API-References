@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionReference.store property. Specifies the instance of the marketplace where the web extension is stored."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreference/store/
+url: /nodejs-net/aspose.words.webextensions/webextensionreference/store/
 ---
 
 ## WebExtensionReference.store property

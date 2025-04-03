@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.leftIndent property. Gets or sets the value that represents the left indent of the table."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words/table/leftIndent/
+url: /nodejs-net/aspose.words/table/leftIndent/
 ---
 
 ## Table.leftIndent property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "The Aspose.Words.Drawing.Ole namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing.Ole/
+url: /nodejs-net/aspose.words.drawing.ole/
 ---
 
 The **Aspose.Words.Drawing.Ole** namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents.

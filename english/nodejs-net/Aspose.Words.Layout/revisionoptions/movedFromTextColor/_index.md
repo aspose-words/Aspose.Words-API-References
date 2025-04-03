@@ -3,15 +3,15 @@ title: RevisionOptions.movedFromTextColor property
 linktitle: movedFromTextColor property
 articleTitle: movedFromTextColor property
 second_title: Aspose.Words for NodeJs
-description: "RevisionOptions.movedFromTextColor property. Allows to specify the color to be used for areas where content was moved from [RevisionType.Moving](../../../Aspose.Words/revisiontype/#Moving)"
+description: "RevisionOptions.movedFromTextColor property. Allows to specify the color to be used for areas where content was moved from [RevisionType.Moving](../../../aspose.words/revisiontype/#Moving)"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/movedFromTextColor/
+url: /nodejs-net/aspose.words.layout/revisionoptions/movedFromTextColor/
 ---
 
 ## RevisionOptions.movedFromTextColor property
 
-Allows to specify the color to be used for areas where content was moved from [RevisionType.Moving](../../../Aspose.Words/revisiontype/#Moving).
+Allows to specify the color to be used for areas where content was moved from [RevisionType.Moving](../../../aspose.words/revisiontype/#Moving).
 Default value is [RevisionColor.ByAuthor](../../revisioncolor/#ByAuthor).
 
 

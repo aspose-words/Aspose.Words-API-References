@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.XmlMapping class. Specifies the information that is used to establish a mapping between the parent structured document tag and an XML element stored within a custom XML data part in the document"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Markup/xmlmapping/
+url: /nodejs-net/aspose.words.markup/xmlmapping/
 ---
 
 ## XmlMapping class
@@ -23,7 +23,7 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 | Name | Description |
 | --- | --- |
 | [customXmlPart](./customXmlPart/) | Returns the custom XML data part to which the parent structured document tag is mapped. |
-| [isMapped](./isMapped/) | Returns ``True`` if the parent structured document tag is successfully mapped to XML data. |
+| [isMapped](./isMapped/) | Returns ``true`` if the parent structured document tag is successfully mapped to XML data. |
 | [prefixMappings](./prefixMappings/) | Returns XML namespace prefix mappings to evaluate the [XmlMapping.xpath](./xpath/). |
 | [storeItemId](./storeItemId/) | Specifies the custom XML data identifier for the custom XML data part which shall be used to evaluate the [XmlMapping.xpath](./xpath/) expression. |
 | [xpath](./xpath/) | Returns the XPath expression, which is evaluated to find the custom XML node that is mapped to the parent structured document tag. |

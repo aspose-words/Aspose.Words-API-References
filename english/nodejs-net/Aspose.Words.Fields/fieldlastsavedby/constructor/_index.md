@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldLastSavedBy constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldlastsavedby/constructor/
+url: /nodejs-net/aspose.words.fields/fieldlastsavedby/constructor/
 ---
 
 ## FieldLastSavedBy() {#default}

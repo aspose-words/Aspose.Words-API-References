@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeriesGroup.axisY property. Provides access to properties of the Y axis of this series group."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroup/axisY/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroup/axisY/
 ---
 
 ## ChartSeriesGroup.axisY property

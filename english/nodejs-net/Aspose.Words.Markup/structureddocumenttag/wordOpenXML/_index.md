@@ -3,15 +3,15 @@ title: StructuredDocumentTag.wordOpenXML property
 linktitle: wordOpenXML property
 articleTitle: wordOpenXML property
 second_title: Aspose.Words for NodeJs
-description: "StructuredDocumentTag.wordOpenXML property. Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc) format."
+description: "StructuredDocumentTag.wordOpenXML property. Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc) format."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/wordOpenXML/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/wordOpenXML/
 ---
 
 ## StructuredDocumentTag.wordOpenXML property
 
-Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc) format.
+Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc) format.
 
 
 

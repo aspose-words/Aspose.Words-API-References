@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IStructuredDocumentTag.isMultiSection property. Returns true if this instance is a ranged (multi-section) structured document tag."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/isMultiSection/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/isMultiSection/
 ---
 
 ## IStructuredDocumentTag.isMultiSection property

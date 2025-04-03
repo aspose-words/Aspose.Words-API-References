@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.XpsSaveOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/xpssaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/xpssaveoptions/constructor/
 ---
 
 ## XpsSaveOptions() {#default}
 
 Initializes a new instance of this class that can be used to save a document
-in the [SaveFormat.Xps](../../../Aspose.Words/saveformat/#Xps) format.
+in the [SaveFormat.Xps](../../../aspose.words/saveformat/#Xps) format.
 
 
 
@@ -23,7 +23,7 @@ XpsSaveOptions()
 ## XpsSaveOptions(saveFormat) {#saveformat}
 
 Initializes a new instance of this class that can be used to save a document
-in the [SaveFormat.Xps](../../../Aspose.Words/saveformat/#Xps) or [SaveFormat.OpenXps](../../../Aspose.Words/saveformat/#OpenXps) format.
+in the [SaveFormat.Xps](../../../aspose.words/saveformat/#Xps) or [SaveFormat.OpenXps](../../../aspose.words/saveformat/#OpenXps) format.
 
 
 
@@ -33,7 +33,7 @@ XpsSaveOptions(saveFormat: Aspose.Words.SaveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../../../Aspose.Words/saveformat/) |  |
+| saveFormat | [SaveFormat](../../../aspose.words/saveformat/) |  |
 
 ## See Also
 

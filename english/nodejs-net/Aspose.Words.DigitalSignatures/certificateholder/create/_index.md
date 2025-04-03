@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.CertificateHolder.create method"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.DigitalSignatures/certificateholder/create/
+url: /nodejs-net/aspose.words.digitalsignatures/certificateholder/create/
 ---
 
 ## create(certBytes, password) {#number[]_unknown}
@@ -16,7 +16,7 @@ Creates [CertificateHolder](../) object using byte array of PKCS12 store and its
 
 
 ```js
-create(certBytes: number[]password)
+create(certBytes: number[], password)
 ```
 
 | Parameter | Type | Description |
@@ -34,8 +34,8 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``None`` |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``null`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``null`` |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
 | RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 
@@ -46,7 +46,7 @@ Creates [CertificateHolder](../) object using byte array of PKCS12 store and its
 
 
 ```js
-create(certBytes: number[]password: string)
+create(certBytes: number[], password: string)
 ```
 
 | Parameter | Type | Description |
@@ -64,8 +64,8 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``None`` |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *certBytes* is``null`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``null`` |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
 | RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 
@@ -76,7 +76,7 @@ Creates [CertificateHolder](../) object using path to PKCS12 store and its passw
 
 
 ```js
-create(fileName: stringpassword: string)
+create(fileName: string, password: string)
 ```
 
 | Parameter | Type | Description |
@@ -94,8 +94,8 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``None`` |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``null`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``null`` |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
 | RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 
@@ -106,7 +106,7 @@ Creates [CertificateHolder](../) object using path to PKCS12 store, its password
 
 
 ```js
-create(fileName: stringpassword: stringalias: string)
+create(fileName: string, password: string, alias: string)
 ```
 
 | Parameter | Type | Description |
@@ -125,8 +125,8 @@ An instance of [CertificateHolder](../)
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``None`` |
-| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``None`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *fileName* is``null`` |
+| RuntimeError (Proxy error(InvalidParameterException)) | Thrown if *password* is``null`` |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if PKCS12 store contains no aliases |
 | RuntimeError (Proxy error(IOException)) | Thrown if there is wrong password or corrupted file. |
 | RuntimeError (Proxy error(SecurityException)) | Thrown if there is no private key with the given alias |

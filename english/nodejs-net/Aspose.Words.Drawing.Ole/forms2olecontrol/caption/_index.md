@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Forms2OleControl.caption property. Gets or sets a Caption property of the control"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/caption/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrol/caption/
 ---
 
 ## Forms2OleControl.caption property

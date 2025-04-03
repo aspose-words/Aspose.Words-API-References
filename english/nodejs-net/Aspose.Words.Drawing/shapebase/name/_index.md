@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.name property. Gets or sets the optional shape name."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/name/
+url: /nodejs-net/aspose.words.drawing/shapebase/name/
 ---
 
 ## ShapeBase.name property
@@ -22,7 +22,7 @@ get name(): string
 
 Default is empty string.
 
-Cannot be ``None``, but can be an empty string.
+Cannot be ``null``, but can be an empty string.
 
 
 

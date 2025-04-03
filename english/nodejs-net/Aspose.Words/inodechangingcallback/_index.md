@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.INodeChangingCallback class. Implement this interface if you want to receive notifications when nodes are inserted or removed in the document."
 type: docs
 weight: 580
-url: /nodejs-net/Aspose.Words/inodechangingcallback/
+url: /nodejs-net/aspose.words/inodechangingcallback/
 ---
 
 ## INodeChangingCallback class

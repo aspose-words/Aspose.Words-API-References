@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ViewOptions.formsDesign property. Specifies whether the document is in forms design mode."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Settings/viewoptions/formsDesign/
+url: /nodejs-net/aspose.words.settings/viewoptions/formsDesign/
 ---
 
 ## ViewOptions.formsDesign property

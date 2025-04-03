@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.ComparisonExpression class. The comparison expression"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/comparisonexpression/
+url: /nodejs-net/aspose.words.fields/comparisonexpression/
 ---
 
 ## ComparisonExpression class

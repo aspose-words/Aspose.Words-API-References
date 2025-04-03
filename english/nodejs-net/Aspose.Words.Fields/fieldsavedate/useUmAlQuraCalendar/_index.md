@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSaveDate.useUmAlQuraCalendar property. Gets or sets whether to use the Um-al-Qura calendar."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldsavedate/useUmAlQuraCalendar/
+url: /nodejs-net/aspose.words.fields/fieldsavedate/useUmAlQuraCalendar/
 ---
 
 ## FieldSaveDate.useUmAlQuraCalendar property

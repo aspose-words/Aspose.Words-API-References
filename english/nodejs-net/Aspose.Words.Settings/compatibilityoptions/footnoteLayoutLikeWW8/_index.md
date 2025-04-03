@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.footnoteLayoutLikeWW8 property. Emulate Word 6.x/95/97 Footnote Placement."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/footnoteLayoutLikeWW8/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/footnoteLayoutLikeWW8/
 ---
 
 ## CompatibilityOptions.footnoteLayoutLikeWW8 property

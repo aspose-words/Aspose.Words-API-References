@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.htmlVersion property. Specifies version of HTML standard that should be used when saving the document to HTML or MHTML"
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/htmlVersion/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/htmlVersion/
 ---
 
 ## HtmlSaveOptions.htmlVersion property

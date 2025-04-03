@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.differentFirstPageHeaderFooter property. True if a different header or footer is used on the first page."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/pagesetup/differentFirstPageHeaderFooter/
+url: /nodejs-net/aspose.words/pagesetup/differentFirstPageHeaderFooter/
 ---
 
 ## PageSetup.differentFirstPageHeaderFooter property
@@ -19,6 +19,49 @@ get differentFirstPageHeaderFooter(): boolean
 ```
 
 ### Examples
+
+Shows how to track the order in which a text replacement operation traverses nodes.
+
+```js
+test.each([false,
+  true])('Order', (differentFirstPageHeaderFooter) => {
+  let doc = new aw.Document(base.myDir + "Header and footer types.docx");
+
+  let firstPageSection = doc.firstSection;
+
+  let logger = new ReplaceLog();
+  let options = new aw.Replacing.FindReplaceOptions();
+  options.replacingCallback = logger;
+
+  // Using a different header/footer for the first page will affect the search order.
+  firstPageSection.pageSetup.differentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+  doc.range.replace(new Regex("(header|footer)"), "", options);
+
+  if (differentFirstPageHeaderFooter)
+    expect(logger.text.replace("\r", "")).toEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n");
+  else
+    expect(logger.text.replace("\r", "")).toEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n");
+});
+
+
+  /// <summary>
+  /// During a find-and-replace operation, records the contents of every node that has text that the operation 'finds',
+  /// in the state it is in before the replacement takes place.
+  /// This will display the order in which the text replacement operation traverses nodes.
+  /// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+  public ReplaceAction Replacing(ReplacingArgs args)
+  {
+    mTextBuilder.AppendLine(args.matchNode.getText());
+    return aw.Replacing.ReplaceAction.Skip;
+  }
+
+  internal string Text => mTextBuilder.toString();
+
+  private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
+```
 
 Shows how to enable or disable primary headers/footers.
 
@@ -85,49 +128,6 @@ builder.insertBreak(aw.BreakType.PageBreak);
 builder.writeln("Page3");
 
 doc.save(base.artifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
-```
-
-Shows how to track the order in which a text replacement operation traverses nodes.
-
-```js
-test.each([false,
-  true])('Order', (differentFirstPageHeaderFooter) => {
-  let doc = new aw.Document(base.myDir + "Header and footer types.docx");
-
-  let firstPageSection = doc.firstSection;
-
-  let logger = new ReplaceLog();
-  let options = new aw.Replacing.FindReplaceOptions();
-  options.replacingCallback = logger;
-
-  // Using a different header/footer for the first page will affect the search order.
-  firstPageSection.pageSetup.differentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-  doc.range.replace(new Regex("(header|footer)"), "", options);
-
-  if (differentFirstPageHeaderFooter)
-    expect(logger.text.replace("\r", "")).toEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n");
-  else
-    expect(logger.text.replace("\r", "")).toEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n");
-});
-
-
-  /// <summary>
-  /// During a find-and-replace operation, records the contents of every node that has text that the operation 'finds',
-  /// in the state it is in before the replacement takes place.
-  /// This will display the order in which the text replacement operation traverses nodes.
-  /// </summary>
-private class ReplaceLog : IReplacingCallback
-{
-  public ReplaceAction Replacing(ReplacingArgs args)
-  {
-    mTextBuilder.AppendLine(args.matchNode.getText());
-    return aw.Replacing.ReplaceAction.Skip;
-  }
-
-  internal string Text => mTextBuilder.toString();
-
-  private readonly StringBuilder mTextBuilder = new StringBuilder();
-}
 ```
 
 ### See Also

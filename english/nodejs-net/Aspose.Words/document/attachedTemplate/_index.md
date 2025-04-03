@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.attachedTemplate property. Gets or sets the full path of the template attached to the document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/document/attachedTemplate/
+url: /nodejs-net/aspose.words/document/attachedTemplate/
 ---
 
 ## Document.attachedTemplate property
@@ -22,7 +22,7 @@ get attachedTemplate(): string
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentNullException)) | Throws if you attempt to set to a ``None`` value. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws if you attempt to set to a ``null`` value. |
 
 ### Remarks
 
@@ -35,5 +35,5 @@ Empty string means the document is attached to the Normal template.
 
 * module [Aspose.Words](../../)
 * class [Document](../)
-* property [BuiltInDocumentProperties.template](../../../Aspose.Words.Properties/builtindocumentproperties/template/)
+* property [BuiltInDocumentProperties.template](../../../aspose.words.properties/builtindocumentproperties/template/)
 

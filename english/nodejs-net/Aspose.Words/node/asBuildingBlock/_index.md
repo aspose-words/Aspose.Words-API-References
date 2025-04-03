@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asBuildingBlock method. Cast node to [BuildingBlock](../../buildingblock/)."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/node/asBuildingBlock/
+url: /nodejs-net/aspose.words/node/asBuildingBlock/
 ---
 
 ## asBuildingBlock() {#default}

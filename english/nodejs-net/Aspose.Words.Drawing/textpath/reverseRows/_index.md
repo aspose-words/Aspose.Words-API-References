@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.reverseRows property. Determines whether the layout order of rows is reversed."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing/textpath/reverseRows/
+url: /nodejs-net/aspose.words.drawing/textpath/reverseRows/
 ---
 
 ## TextPath.reverseRows property
@@ -20,9 +20,9 @@ get reverseRows(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
-If ``True``, the layout order of rows is reversed. This attribute is used for vertical text layout.
+If ``true``, the layout order of rows is reversed. This attribute is used for vertical text layout.
 
 
 

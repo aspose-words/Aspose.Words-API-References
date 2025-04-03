@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.TextBox class. Defines attributes that specify how a text is displayed inside a shape"
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words.Drawing/textbox/
+url: /nodejs-net/aspose.words.drawing/textbox/
 ---
 
 ## TextBox class

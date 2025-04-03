@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TabStop class. Represents a single custom tab stop"
 type: docs
 weight: 1320
-url: /nodejs-net/Aspose.Words/tabstop/
+url: /nodejs-net/aspose.words/tabstop/
 ---
 
 ## TabStop class
@@ -42,7 +42,7 @@ For more information see [TabStopCollection](../tabstopcollection/).
 | Name | Description |
 | --- | --- |
 | [alignment](./alignment/) | Gets or sets the alignment of text at this tab stop. |
-| [isClear](./isClear/) | Returns ``True`` if this tab stop clears any existing tab stops in this position. |
+| [isClear](./isClear/) | Returns ``true`` if this tab stop clears any existing tab stops in this position. |
 | [leader](./leader/) | Gets or sets the type of the leader line displayed under the tab character. |
 | [position](./position/) | Gets the position of the tab stop in points. |
 

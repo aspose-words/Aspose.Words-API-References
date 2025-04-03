@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutCollector.getNumPagesSpanned method. Gets number of pages the specified node spans"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Layout/layoutcollector/getNumPagesSpanned/
+url: /nodejs-net/aspose.words.layout/layoutcollector/getNumPagesSpanned/
 ---
 
 ## getNumPagesSpanned(node) {#node}
@@ -22,7 +22,7 @@ getNumPagesSpanned(node: Aspose.Words.Node)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../../Aspose.Words/node/) |  |
+| node | [Node](../../../aspose.words/node/) |  |
 
 ### Examples
 

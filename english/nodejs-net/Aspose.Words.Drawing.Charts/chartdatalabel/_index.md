@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartDataLabel class. Represents data label on a chart point or trendline"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/
 ---
 
 ## ChartDataLabel class
@@ -31,8 +31,8 @@ The [ChartDataLabelCollection](../chartdatalabelcollection/) contains a [ChartDa
 | [font](./font/) | Provides access to the font formatting of this data label. |
 | [format](./format/) | Provides access to fill and line formatting of the data label. |
 | [index](./index/) | Specifies the index of the containing element.  This index shall determine which of the parent's children collection this element applies to. Default value is 0. |
-| [isHidden](./isHidden/) | Gets/sets a flag indicating whether this label is hidden. The default value is ``False``. |
-| [isVisible](./isVisible/) | Returns ``True`` if this data label has something to display. |
+| [isHidden](./isHidden/) | Gets/sets a flag indicating whether this label is hidden. The default value is ``false``. |
+| [isVisible](./isVisible/) | Returns ``true`` if this data label has something to display. |
 | [left](./left/) | Gets or sets the distance of the data label in points from the left edge of the chart or from the position specified by its [ChartDataLabel.position](./position/) property, depending on the value of the [ChartDataLabel.leftMode](./leftMode/) property. |
 | [leftMode](./leftMode/) | Gets or sets the interpretation mode of the [ChartDataLabel.left](./left/) property value: whether it sets the location of the data label from the left edge of the chart of from the position specified by its [ChartDataLabel.position](./position/) property. |
 | [numberFormat](./numberFormat/) | Returns number format of the parent element. |
@@ -40,14 +40,14 @@ The [ChartDataLabelCollection](../chartdatalabelcollection/) contains a [ChartDa
 | [position](./position/) | Gets or sets the position of the data label. |
 | [rotation](./rotation/) | Gets or sets the rotation of the label in degrees. |
 | [separator](./separator/) | Gets or sets string separator used for the data labels on a chart.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
-| [showBubbleSize](./showBubbleSize/) | Allows to specify if bubble size is to be displayed for the data labels on a chart.  Applies only to Bubble charts.  Default value is ``False``. |
-| [showCategoryName](./showCategoryName/) | Allows to specify if category name is to be displayed for the data labels on a chart.  Default value is ``False``. |
-| [showDataLabelsRange](./showDataLabelsRange/) | Allows to specify if values from data labels range to be displayed in the data labels.  Default value is ``False``. |
-| [showLeaderLines](./showLeaderLines/) | Allows to specify if data label leader lines need be shown.  Default value is ``False``. |
-| [showLegendKey](./showLegendKey/) | Allows to specify if legend key is to be displayed for the data labels on a chart.  Default value is ``False``. |
-| [showPercentage](./showPercentage/) | Allows to specify if percentage value is to be displayed for the data labels on a chart.  Default value is ``False``. |
-| [showSeriesName](./showSeriesName/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart.  ``True`` to show the series name; ``False`` to hide. By default ``False``. |
-| [showValue](./showValue/) | Allows to specify if values are to be displayed in the data labels.  Default value is ``False``. |
+| [showBubbleSize](./showBubbleSize/) | Allows to specify if bubble size is to be displayed for the data labels on a chart.  Applies only to Bubble charts.  Default value is ``false``. |
+| [showCategoryName](./showCategoryName/) | Allows to specify if category name is to be displayed for the data labels on a chart.  Default value is ``false``. |
+| [showDataLabelsRange](./showDataLabelsRange/) | Allows to specify if values from data labels range to be displayed in the data labels.  Default value is ``false``. |
+| [showLeaderLines](./showLeaderLines/) | Allows to specify if data label leader lines need be shown.  Default value is ``false``. |
+| [showLegendKey](./showLegendKey/) | Allows to specify if legend key is to be displayed for the data labels on a chart.  Default value is ``false``. |
+| [showPercentage](./showPercentage/) | Allows to specify if percentage value is to be displayed for the data labels on a chart.  Default value is ``false``. |
+| [showSeriesName](./showSeriesName/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart.  ``true`` to show the series name; ``false`` to hide. By default ``false``. |
+| [showValue](./showValue/) | Allows to specify if values are to be displayed in the data labels.  Default value is ``false``. |
 | [top](./top/) | Gets or sets the distance of the data label in points from the top edge of the chart or from the position specified by its [ChartDataLabel.position](./position/) property, depending on the value of the [ChartDataLabel.topMode](./topMode/) property. |
 | [topMode](./topMode/) | Gets or sets the interpretation mode of the [ChartDataLabel.top](./top/) property value: whether it sets the location of the data label from the top edge of the chart of from the position specified by its [ChartDataLabel.position](./position/) property. |
 

@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "Table.verticalAnchor property. Gets the base object from which the vertical positioning of floating table should be calculated"
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/table/verticalAnchor/
+url: /nodejs-net/aspose.words/table/verticalAnchor/
 ---
 
 ## Table.verticalAnchor property
 
 Gets the base object from which the vertical positioning of floating table should be calculated.
-Default value is [RelativeVerticalPosition.Margin](../../../Aspose.Words.Drawing/relativeverticalposition/#Margin).
+Default value is [RelativeVerticalPosition.Margin](../../../aspose.words.drawing/relativeverticalposition/#Margin).
 
 
 

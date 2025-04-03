@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocSaveOptions.password property. Gets/sets a password to encrypt document using RC4 encryption method."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/docsaveoptions/password/
+url: /nodejs-net/aspose.words.saving/docsaveoptions/password/
 ---
 
 ## DocSaveOptions.password property
@@ -20,7 +20,7 @@ get password(): string
 
 ### Remarks
 
-In order to save document without encryption this property should be ``None`` or empty string.
+In order to save document without encryption this property should be ``null`` or empty string.
 
 
 

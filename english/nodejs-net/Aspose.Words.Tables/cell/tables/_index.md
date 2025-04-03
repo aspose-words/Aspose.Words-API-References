@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.tables property. Gets a collection of tables that are immediate children of the cell."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Tables/cell/tables/
+url: /nodejs-net/aspose.words.tables/cell/tables/
 ---
 
 ## Cell.tables property

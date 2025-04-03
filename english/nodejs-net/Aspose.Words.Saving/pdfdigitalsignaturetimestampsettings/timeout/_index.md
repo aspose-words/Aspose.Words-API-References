@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfDigitalSignatureTimestampSettings.timeout property. Time-out value for accessing timestamp server."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturetimestampsettings/timeout/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
 ---
 
 ## PdfDigitalSignatureTimestampSettings.timeout property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextBox.breakForwardLink method. Breaks the link to the next [TextBox](../)."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing/textbox/breakForwardLink/
+url: /nodejs-net/aspose.words.drawing/textbox/breakForwardLink/
 ---
 
 ## breakForwardLink() {#default}

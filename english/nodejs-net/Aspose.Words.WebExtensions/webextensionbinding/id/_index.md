@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionBinding.id property. Specifies the binding identifier."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbinding/id/
+url: /nodejs-net/aspose.words.webextensions/webextensionbinding/id/
 ---
 
 ## WebExtensionBinding.id property

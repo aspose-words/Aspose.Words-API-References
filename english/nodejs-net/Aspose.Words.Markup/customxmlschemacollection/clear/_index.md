@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlSchemaCollection.clear method. Removes all elements from the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/customxmlschemacollection/clear/
+url: /nodejs-net/aspose.words.markup/customxmlschemacollection/clear/
 ---
 
 ## clear() {#default}

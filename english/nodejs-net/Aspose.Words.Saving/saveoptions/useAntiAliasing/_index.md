@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SaveOptions.useAntiAliasing property. Gets or sets a value determining whether or not to use anti-aliasing for rendering."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/useAntiAliasing/
+url: /nodejs-net/aspose.words.saving/saveoptions/useAntiAliasing/
 ---
 
 ## SaveOptions.useAntiAliasing property
@@ -20,16 +20,16 @@ get useAntiAliasing(): boolean
 
 ### Remarks
 
-The default value is ``False``. When this value is set to ``True`` anti-aliasing is
+The default value is ``false``. When this value is set to ``true`` anti-aliasing is
 used for rendering.
 
 
 This property is used when the document is exported to the following formats:
-[SaveFormat.Tiff](../../../Aspose.Words/saveformat/#Tiff), [SaveFormat.Png](../../../Aspose.Words/saveformat/#Png), [SaveFormat.Bmp](../../../Aspose.Words/saveformat/#Bmp),
-[SaveFormat.Jpeg](../../../Aspose.Words/saveformat/#Jpeg), [SaveFormat.Emf](../../../Aspose.Words/saveformat/#Emf). When the document is exported to the
-[SaveFormat.Html](../../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../../Aspose.Words/saveformat/#Mhtml),
-[SaveFormat.Epub](../../../Aspose.Words/saveformat/#Epub), [SaveFormat.Azw3](../../../Aspose.Words/saveformat/#Azw3)
-or [SaveFormat.Mobi](../../../Aspose.Words/saveformat/#Mobi) formats this option is used for raster images.
+[SaveFormat.Tiff](../../../aspose.words/saveformat/#Tiff), [SaveFormat.Png](../../../aspose.words/saveformat/#Png), [SaveFormat.Bmp](../../../aspose.words/saveformat/#Bmp),
+[SaveFormat.Jpeg](../../../aspose.words/saveformat/#Jpeg), [SaveFormat.Emf](../../../aspose.words/saveformat/#Emf). When the document is exported to the
+[SaveFormat.Html](../../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../../aspose.words/saveformat/#Mhtml),
+[SaveFormat.Epub](../../../aspose.words/saveformat/#Epub), [SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3)
+or [SaveFormat.Mobi](../../../aspose.words/saveformat/#Mobi) formats this option is used for raster images.
 
 
 

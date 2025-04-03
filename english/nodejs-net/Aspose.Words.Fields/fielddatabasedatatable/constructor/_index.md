@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDatabaseDataTable constructor. Initializes a new instance of the [FieldDatabaseDataTable](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fielddatabasedatatable/constructor/
+url: /nodejs-net/aspose.words.fields/fielddatabasedatatable/constructor/
 ---
 
 ## FieldDatabaseDataTable(columnNames) {#string[]}

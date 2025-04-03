@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlLoadOptions.blockImportMode property. Gets or sets a value that specifies how properties of block-level elements are imported"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Loading/htmlloadoptions/blockImportMode/
+url: /nodejs-net/aspose.words.loading/htmlloadoptions/blockImportMode/
 ---
 
 ## HtmlLoadOptions.blockImportMode property

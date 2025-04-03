@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.ComparisonEvaluationResult constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/comparisonevaluationresult/constructor/
+url: /nodejs-net/aspose.words.fields/comparisonevaluationresult/constructor/
 ---
 
 ## ComparisonEvaluationResult(result) {#boolean}

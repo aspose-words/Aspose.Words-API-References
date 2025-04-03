@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarksOutlineLevelCollection.contains method. Determines whether the collection contains a bookmark with the given name."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/bookmarksoutlinelevelcollection/contains/
+url: /nodejs-net/aspose.words.saving/bookmarksoutlinelevelcollection/contains/
 ---
 
 ## contains(name) {#string}
@@ -24,7 +24,7 @@ contains(name: string)
 
 ### Returns
 
-``True`` if item is found in the collection; otherwise, ``False``.
+``true`` if item is found in the collection; otherwise, ``false``.
 
 
 ### Examples

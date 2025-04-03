@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomPartCollection constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/custompartcollection/constructor/
+url: /nodejs-net/aspose.words.markup/custompartcollection/constructor/
 ---
 
 ## CustomPartCollection() {#default}

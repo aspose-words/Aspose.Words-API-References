@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OoxmlSaveOptions.compressionLevel property. Specifies the compression level used to save document"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/ooxmlsaveoptions/compressionLevel/
+url: /nodejs-net/aspose.words.saving/ooxmlsaveoptions/compressionLevel/
 ---
 
 ## OoxmlSaveOptions.compressionLevel property

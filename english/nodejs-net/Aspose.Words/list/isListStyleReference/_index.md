@@ -3,15 +3,15 @@ title: List.isListStyleReference property
 linktitle: isListStyleReference property
 articleTitle: isListStyleReference property
 second_title: Aspose.Words for NodeJs
-description: "List.isListStyleReference property. Returns ``True`` if this list is a reference to a list style."
+description: "List.isListStyleReference property. Returns ``true`` if this list is a reference to a list style."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/list/isListStyleReference/
+url: /nodejs-net/aspose.words/list/isListStyleReference/
 ---
 
 ## List.isListStyleReference property
 
-Returns ``True`` if this list is a reference to a list style.
+Returns ``true`` if this list is a reference to a list style.
 
 
 

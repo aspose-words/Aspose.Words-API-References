@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WarningInfo.warningType property. Returns the type of the warning."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/warninginfo/warningType/
+url: /nodejs-net/aspose.words/warninginfo/warningType/
 ---
 
 ## WarningInfo.warningType property

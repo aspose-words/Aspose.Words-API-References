@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.clearFormatting method. Resets to default paragraph formatting."
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words/paragraphformat/clearFormatting/
+url: /nodejs-net/aspose.words/paragraphformat/clearFormatting/
 ---
 
 ## clearFormatting() {#default}

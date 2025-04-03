@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.HtmlSaveOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/constructor/
 ---
 
 ## HtmlSaveOptions() {#default}
 
 Initializes a new instance of this class that can be used to save a document
-in the [SaveFormat.Html](../../../Aspose.Words/saveformat/#Html) format.
+in the [SaveFormat.Html](../../../aspose.words/saveformat/#Html) format.
 
 
 
@@ -23,8 +23,8 @@ HtmlSaveOptions()
 ## HtmlSaveOptions(saveFormat) {#saveformat}
 
 Initializes a new instance of this class that can be used to save a document
-in the [SaveFormat.Html](../../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../../Aspose.Words/saveformat/#Mhtml), [SaveFormat.Epub](../../../Aspose.Words/saveformat/#Epub),
-[SaveFormat.Azw3](../../../Aspose.Words/saveformat/#Azw3) or [SaveFormat.Mobi](../../../Aspose.Words/saveformat/#Mobi) format.
+in the [SaveFormat.Html](../../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../../aspose.words/saveformat/#Epub),
+[SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../../aspose.words/saveformat/#Mobi) format.
 
 
 
@@ -34,7 +34,7 @@ HtmlSaveOptions(saveFormat: Aspose.Words.SaveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../../../Aspose.Words/saveformat/) | Can be [SaveFormat.Html](../../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../../Aspose.Words/saveformat/#Mhtml), [SaveFormat.Epub](../../../Aspose.Words/saveformat/#Epub), [SaveFormat.Azw3](../../../Aspose.Words/saveformat/#Azw3) or [SaveFormat.Mobi](../../../Aspose.Words/saveformat/#Mobi). |
+| saveFormat | [SaveFormat](../../../aspose.words/saveformat/) | Can be [SaveFormat.Html](../../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../../aspose.words/saveformat/#Epub), [SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../../aspose.words/saveformat/#Mobi). |
 
 ## See Also
 

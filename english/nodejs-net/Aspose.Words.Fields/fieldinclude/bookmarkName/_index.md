@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldInclude.bookmarkName property. Gets or sets the name of the bookmark in the document to include."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldinclude/bookmarkName/
+url: /nodejs-net/aspose.words.fields/fieldinclude/bookmarkName/
 ---
 
 ## FieldInclude.bookmarkName property

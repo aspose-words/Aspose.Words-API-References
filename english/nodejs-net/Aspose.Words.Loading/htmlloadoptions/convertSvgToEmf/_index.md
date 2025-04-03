@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlLoadOptions.convertSvgToEmf property. Gets or sets a value indicating whether to convert loaded SVG images to the EMF format"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Loading/htmlloadoptions/convertSvgToEmf/
+url: /nodejs-net/aspose.words.loading/htmlloadoptions/convertSvgToEmf/
 ---
 
 ## HtmlLoadOptions.convertSvgToEmf property
 
 Gets or sets a value indicating whether to convert loaded SVG images to the EMF format.
-Default value is ``False`` and, if possible, loaded SVG images are stored as is without conversion.
+Default value is ``false`` and, if possible, loaded SVG images are stored as is without conversion.
 
 
 
@@ -26,7 +26,7 @@ Newer versions of MS Word support SVG images natively. If the MS Word version sp
 SVG, Aspose.Words will store SVG images as is without conversion. If SVG is not supported, loaded SVG images will be
 converted to the EMF format.
 
-If, however, this option is set to ``True``, Aspose.Words will convert loaded SVG images to EMF even if SVG
+If, however, this option is set to ``true``, Aspose.Words will convert loaded SVG images to EMF even if SVG
 images are supported by the specified version of MS Word.
 
 

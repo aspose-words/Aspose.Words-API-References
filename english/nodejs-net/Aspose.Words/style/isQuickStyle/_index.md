@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.isQuickStyle property. Specifies whether this style is shown in the Quick Style gallery inside MS Word UI."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/style/isQuickStyle/
+url: /nodejs-net/aspose.words/style/isQuickStyle/
 ---
 
 ## Style.isQuickStyle property

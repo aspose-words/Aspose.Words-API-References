@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.city property. Gets or sets the city of a source."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Bibliography/source/city/
+url: /nodejs-net/aspose.words.bibliography/source/city/
 ---
 
 ## Source.city property

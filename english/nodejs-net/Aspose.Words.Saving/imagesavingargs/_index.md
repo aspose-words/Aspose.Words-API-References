@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.ImageSavingArgs class. Provides data for the [IImageSavingCallback.imageSaving()](../iimagesavingcallback/imageSaving/#imagesavingargs) event"
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words.Saving/imagesavingargs/
+url: /nodejs-net/aspose.words.saving/imagesavingargs/
 ---
 
 ## ImageSavingArgs class
@@ -39,10 +39,10 @@ To save images into streams instead of files, use the Aspose.Words.Saving.ImageS
 
 | Name | Description |
 | --- | --- |
-| [currentShape](./currentShape/) | Gets the [ShapeBase](../../Aspose.Words.Drawing/shapebase/) object corresponding to the shape or group shape  that is about to be saved. |
+| [currentShape](./currentShape/) | Gets the [ShapeBase](../../aspose.words.drawing/shapebase/) object corresponding to the shape or group shape  that is about to be saved. |
 | [document](./document/) | Gets the document object that is currently being saved. |
 | [imageFileName](./imageFileName/) | Gets or sets the file name (without path) where the image will be saved to. |
-| [isImageAvailable](./isImageAvailable/) | Returns ``True`` if the current image is available for export. |
+| [isImageAvailable](./isImageAvailable/) | Returns ``true`` if the current image is available for export. |
 | [keepImageStreamOpen](./keepImageStreamOpen/) | Specifies whether Aspose.Words should keep the stream open or close it after saving an image. |
 
 ### Examples

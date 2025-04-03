@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionGroup.text property. Returns inserted/deleted/moved text or description of format change."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/revisiongroup/text/
+url: /nodejs-net/aspose.words/revisiongroup/text/
 ---
 
 ## RevisionGroup.text property

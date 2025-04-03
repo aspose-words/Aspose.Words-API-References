@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.CertificateHolder class. Represents a holder of X509Certificate2 instance"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.DigitalSignatures/certificateholder/
+url: /nodejs-net/aspose.words.digitalsignatures/certificateholder/
 ---
 
 ## CertificateHolder class
@@ -21,7 +21,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 
 [CertificateHolder](./) can be created by static factory methods only. 
 It contains an instance of **X509Certificate2** which is used to introduce private, public keys and certificate chains into the system.
-This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../Aspose.Words.Saving/pdfdigitalsignaturedetails/) instead of obsolete methods with 
+This class is applied in [DigitalSignatureUtil](../digitalsignatureutil/) and [PdfDigitalSignatureDetails](../../aspose.words.saving/pdfdigitalsignaturedetails/) instead of obsolete methods with 
 System.Security.Cryptography.X509Certificates.X509Certificate2 as parameters.
 
 

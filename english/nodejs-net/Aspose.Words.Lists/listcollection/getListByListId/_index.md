@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListCollection.getListByListId method. Gets a list by a list identifier."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Lists/listcollection/getListByListId/
+url: /nodejs-net/aspose.words.lists/listcollection/getListByListId/
 ---
 
 ## getListByListId(listId) {#number}
@@ -33,7 +33,7 @@ of the [ListFormat](../../listformat/) object.
 
 ### Returns
 
-Returns the list object. Returns ``None`` if a list with the specified identifier was not found.
+Returns the list object. Returns ``null`` if a list with the specified identifier was not found.
 
 
 ### Examples

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.acceptEnd method. Accepts a visitor for visiting the end of the cell."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Tables/cell/acceptEnd/
+url: /nodejs-net/aspose.words.tables/cell/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}
@@ -20,7 +20,7 @@ acceptEnd(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The document visitor. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The document visitor. |
 
 ### Returns
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OleFormat.autoUpdate property. Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/autoUpdate/
+url: /nodejs-net/aspose.words.drawing/oleformat/autoUpdate/
 ---
 
 ## OleFormat.autoUpdate property
@@ -20,7 +20,7 @@ get autoUpdate(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

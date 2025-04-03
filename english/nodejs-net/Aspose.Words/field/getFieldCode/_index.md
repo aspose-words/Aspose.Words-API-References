@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.Field.getFieldCode method"
 type: docs
 weight: 1060
-url: /nodejs-net/Aspose.Words/field/getFieldCode/
+url: /nodejs-net/aspose.words/field/getFieldCode/
 ---
 
 ## getFieldCode() {#default}
@@ -30,7 +30,7 @@ getFieldCode(includeChildFieldCodes: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| includeChildFieldCodes | boolean | ``True`` if child field codes should be included. |
+| includeChildFieldCodes | boolean | ``true`` if child field codes should be included. |
 
 ## See Also
 

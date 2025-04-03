@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfDigitalSignatureDetails.timestampSettings property. Gets or sets the digital signature timestamp settings."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/timestampSettings/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/timestampSettings/
 ---
 
 ## PdfDigitalSignatureDetails.timestampSettings property
@@ -20,7 +20,7 @@ get timestampSettings(): Aspose.Words.Saving.PdfDigitalSignatureTimestampSetting
 
 ### Remarks
 
-The default value is ``None`` and the digital signature will not be time-stamped.
+The default value is ``null`` and the digital signature will not be time-stamped.
 When this property is set to a valid [PdfDigitalSignatureTimestampSettings](../../pdfdigitalsignaturetimestampsettings/) object,
 then the digital signature in the PDF document will be time-stamped.
 

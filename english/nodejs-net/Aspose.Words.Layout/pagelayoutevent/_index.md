@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.PageLayoutEvent enumeration. A code of event raised during page layout model build and rendering."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Layout/pagelayoutevent/
+url: /nodejs-net/aspose.words.layout/pagelayoutevent/
 ---
 
 ## PageLayoutEvent enumeration
@@ -33,8 +33,8 @@ For example, computing number of pages in the document or updating fields does n
 | --- | --- |
 | None | Default value |
 | WatchDog | Corresponds to a checkpoint in code which is often visited and which is suitable to abort process. |
-| BuildStarted | Build of the page layout has started. Fired once. This is the first event which occurs when [Document.updatePageLayout()](../../Aspose.Words/document/updatePageLayout/#default) is called. |
-| BuildFinished | Build of the page layout has finished. Fired once. This is the last event which occurs when [Document.updatePageLayout()](../../Aspose.Words/document/updatePageLayout/#default) is called. |
+| BuildStarted | Build of the page layout has started. Fired once. This is the first event which occurs when [Document.updatePageLayout()](../../aspose.words/document/updatePageLayout/#default) is called. |
+| BuildFinished | Build of the page layout has finished. Fired once. This is the last event which occurs when [Document.updatePageLayout()](../../aspose.words/document/updatePageLayout/#default) is called. |
 | ConversionStarted | Conversion of document model to page layout has started. Fired once. This occurs when layout model starts pulling document content. |
 | ConversionFinished | Conversion of document model to page layout has finished. Fired once. This occurs when layout model stops pulling document content. |
 | ReflowStarted | Reflow of the page layout has started. Fired once. This occurs when layout model starts reflowing document content. |

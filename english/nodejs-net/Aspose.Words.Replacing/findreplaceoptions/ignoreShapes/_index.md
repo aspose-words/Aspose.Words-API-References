@@ -6,14 +6,14 @@ second_title: Aspose.Words for NodeJs
 description: "FindReplaceOptions.ignoreShapes property. Gets or sets a boolean value indicating either to ignore shapes within a text."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreShapes/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/ignoreShapes/
 ---
 
 ## FindReplaceOptions.ignoreShapes property
 
 Gets or sets a boolean value indicating either to ignore shapes within a text.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

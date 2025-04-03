@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.displayUnit property. Specifies the scaling value of the display units for the value axis."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/displayUnit/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/displayUnit/
 ---
 
 ## ChartAxis.displayUnit property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageInfo.widthInPoints property. Gets the width of the page in points."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Rendering/pageinfo/widthInPoints/
+url: /nodejs-net/aspose.words.rendering/pageinfo/widthInPoints/
 ---
 
 ## PageInfo.widthInPoints property

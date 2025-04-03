@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IDocumentReaderPlugin.read method. Reads the data from the specified stream into the [Document](../../document/) instance."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/idocumentreaderplugin/read/
+url: /nodejs-net/aspose.words/idocumentreaderplugin/read/
 ---
 
 ## read(src, loadOptions, document) {#buffer_loadoptions_document}
@@ -16,13 +16,13 @@ Reads the data from the specified stream into the [Document](../../document/) in
 
 
 ```js
-read(src: BufferloadOptions: Aspose.Words.Loading.LoadOptionsdocument: Aspose.Words.Document)
+read(src: Buffer, loadOptions: Aspose.Words.Loading.LoadOptions, document: Aspose.Words.Document)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | src | Buffer | The source stream to read the document from. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | An additional load options to load the document. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | An additional load options to load the document. |
 | document | [Document](../../document/) | The instance of the [Document](../../document/) class to read the data to.  If the instance contains some content, it will be overridden by the data from the source stream |
 
 ### See Also

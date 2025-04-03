@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asTable method. Cast node to [Table](../../table/)."
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words/node/asTable/
+url: /nodejs-net/aspose.words/node/asTable/
 ---
 
 ## asTable() {#default}

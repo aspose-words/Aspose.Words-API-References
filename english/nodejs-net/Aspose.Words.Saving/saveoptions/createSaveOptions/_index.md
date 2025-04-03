@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.SaveOptions.createSaveOptions method"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/createSaveOptions/
+url: /nodejs-net/aspose.words.saving/saveoptions/createSaveOptions/
 ---
 
 ## createSaveOptions(saveFormat) {#saveformat}
@@ -20,7 +20,7 @@ createSaveOptions(saveFormat: Aspose.Words.SaveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../../../Aspose.Words/saveformat/) | The save format for which to create a save options object. |
+| saveFormat | [SaveFormat](../../../aspose.words/saveformat/) | The save format for which to create a save options object. |
 
 ### Returns
 

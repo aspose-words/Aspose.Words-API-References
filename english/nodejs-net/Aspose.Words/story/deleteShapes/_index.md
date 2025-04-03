@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Story.deleteShapes method. Deletes all shapes from the text of this story."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/story/deleteShapes/
+url: /nodejs-net/aspose.words/story/deleteShapes/
 ---
 
 ## deleteShapes() {#default}

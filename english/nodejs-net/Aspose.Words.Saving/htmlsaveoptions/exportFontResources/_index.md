@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportFontResources property. Specifies whether font resources should be exported to HTML, MHTML or EPUB"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportFontResources/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportFontResources/
 ---
 
 ## HtmlSaveOptions.exportFontResources property
 
 Specifies whether font resources should be exported to HTML, MHTML or EPUB.
-Default is ``False``.
+Default is ``false``.
 
 
 
@@ -25,11 +25,11 @@ get exportFontResources(): boolean
 Exporting font resources allows for consistent document rendering independent of the fonts available
 in a given user's environment.
 
-If [HtmlSaveOptions.exportFontResources](./) is set to ``True``, main HTML document will refer to every font via 
+If [HtmlSaveOptions.exportFontResources](./) is set to ``true``, main HTML document will refer to every font via 
 the CSS 3 **@font-face** at-rule and fonts will be output as separate files. When exporting to IDPF EPUB or MHTML 
 formats, fonts will be embedded into the corresponding package along with other subsidiary files.
 
-If [HtmlSaveOptions.exportFontsAsBase64](../exportFontsAsBase64/) is set to ``True``, fonts will not be saved to separate files.
+If [HtmlSaveOptions.exportFontsAsBase64](../exportFontsAsBase64/) is set to ``true``, fonts will not be saved to separate files.
 Instead, they will be embedded into **@font-face** at-rules in Base64 encoding.
 
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable

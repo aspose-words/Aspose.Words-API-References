@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldFormCheckBox method. "
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words/field/asFieldFormCheckBox/
+url: /nodejs-net/aspose.words/field/asFieldFormCheckBox/
 ---
 
 ## asFieldFormCheckBox() {#default}

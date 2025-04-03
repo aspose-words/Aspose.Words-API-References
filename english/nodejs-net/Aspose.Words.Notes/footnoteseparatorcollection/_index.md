@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Notes.FootnoteSeparatorCollection class. Provides typed access to [FootnoteSeparator](../footnoteseparator/) nodes of a document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Notes/footnoteseparatorcollection/
+url: /nodejs-net/aspose.words.notes/footnoteseparatorcollection/
 ---
 
 ## FootnoteSeparatorCollection class

@@ -6,12 +6,12 @@ second_title: Aspose.Words for NodeJs
 description: "PdfLoadOptions.skipPdfImages property. Gets or sets the flag indicating whether images must be skipped while loading PDF document"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Loading/pdfloadoptions/skipPdfImages/
+url: /nodejs-net/aspose.words.loading/pdfloadoptions/skipPdfImages/
 ---
 
 ## PdfLoadOptions.skipPdfImages property
 
-Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is ``False``.
+Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is ``false``.
 
 
 

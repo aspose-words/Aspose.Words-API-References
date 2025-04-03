@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.shadow property. Defines whether a shadow is applied to the text on a text path."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing/textpath/shadow/
+url: /nodejs-net/aspose.words.drawing/textpath/shadow/
 ---
 
 ## TextPath.shadow property
@@ -20,7 +20,7 @@ get shadow(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

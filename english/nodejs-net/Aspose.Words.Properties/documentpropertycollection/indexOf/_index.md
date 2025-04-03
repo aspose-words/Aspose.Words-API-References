@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentPropertyCollection.indexOf method. Gets the index of a property by name."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Properties/documentpropertycollection/indexOf/
+url: /nodejs-net/aspose.words.properties/documentpropertycollection/indexOf/
 ---
 
 ## indexOf(name) {#string}

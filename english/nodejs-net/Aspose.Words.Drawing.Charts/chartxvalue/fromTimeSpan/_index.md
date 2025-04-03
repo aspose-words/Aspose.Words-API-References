@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartXValue.fromTimeSpan method. Creates a [ChartXValue](../) instance of the [ChartXValueType.Time](../../chartxvaluetype/#Time) type."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartxvalue/fromTimeSpan/
+url: /nodejs-net/aspose.words.drawing.charts/chartxvalue/fromTimeSpan/
 ---
 
 ## fromTimeSpan(value) {#unknown}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.bidi property. Gets or sets whether this is a right-to-left table."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/table/bidi/
+url: /nodejs-net/aspose.words/table/bidi/
 ---
 
 ## Table.bidi property
@@ -20,9 +20,9 @@ get bidi(): boolean
 
 ### Remarks
 
-When ``True``, the cells in this row are laid out right to left.
+When ``true``, the cells in this row are laid out right to left.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

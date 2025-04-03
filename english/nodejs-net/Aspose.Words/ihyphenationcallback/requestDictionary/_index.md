@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IHyphenationCallback.requestDictionary method. Notifies application that hyphenation dictionary for the specified language wasn't found and may need to be registered."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/ihyphenationcallback/requestDictionary/
+url: /nodejs-net/aspose.words/ihyphenationcallback/requestDictionary/
 ---
 
 ## requestDictionary(language) {#string}
@@ -18,7 +18,7 @@ Implementation should find a dictionary and register it using[Hyphenation.regist
 
 
 If dictionary is unavailable for the specified language implementation can opt out of further calls for the same language
-using[Hyphenation.registerDictionary()](../../hyphenation/registerDictionary/#string_string) with ``None`` value.
+using[Hyphenation.registerDictionary()](../../hyphenation/registerDictionary/#string_string) with ``null`` value.
 
 
 

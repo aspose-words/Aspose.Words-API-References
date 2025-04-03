@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PhoneticGuide.rubyText property. Gets ruby text of the phonetic guide."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/phoneticguide/rubyText/
+url: /nodejs-net/aspose.words/phoneticguide/rubyText/
 ---
 
 ## PhoneticGuide.rubyText property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.smallCaps property. True if the font is formatted as small capital letters."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing/textpath/smallCaps/
+url: /nodejs-net/aspose.words.drawing/textpath/smallCaps/
 ---
 
 ## TextPath.smallCaps property
@@ -20,7 +20,7 @@ get smallCaps(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

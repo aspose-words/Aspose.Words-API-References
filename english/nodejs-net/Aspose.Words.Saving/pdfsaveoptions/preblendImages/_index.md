@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.preblendImages property. Gets or sets a value determining whether or not to preblend transparent images with black background color."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/preblendImages/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/preblendImages/
 ---
 
 ## PdfSaveOptions.preblendImages property
@@ -25,7 +25,7 @@ Preblending images may improve PDF document visual appearance in Adobe Reader an
 In order to properly display preblended images, PDF viewer application must support /Matte entry in soft-mask image dictionary.
 Also preblending images may decrease PDF rendering performance.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

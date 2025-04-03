@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.MultiplePagesType enumeration. Specifies how document is printed out."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Settings/multiplepagestype/
+url: /nodejs-net/aspose.words.settings/multiplepagestype/
 ---
 
 ## MultiplePagesType enumeration

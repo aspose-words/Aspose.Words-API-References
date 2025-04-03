@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSRectangleF.width property. "
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/jsrectanglef/width/
+url: /nodejs-net/aspose.words/jsrectanglef/width/
 ---
 
 ## JSRectangleF.width property

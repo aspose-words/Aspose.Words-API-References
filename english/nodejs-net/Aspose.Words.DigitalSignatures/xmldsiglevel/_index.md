@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.XmlDsigLevel enumeration. Specifies the level of a digital signature based on XML-DSig standard."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.DigitalSignatures/xmldsiglevel/
+url: /nodejs-net/aspose.words.digitalsignatures/xmldsiglevel/
 ---
 
 ## XmlDsigLevel enumeration

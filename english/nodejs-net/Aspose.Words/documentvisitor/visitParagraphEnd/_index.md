@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitParagraphEnd method. Called when enumeration of a paragraph has ended."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words/documentvisitor/visitParagraphEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitParagraphEnd/
 ---
 
 ## visitParagraphEnd(paragraph) {#paragraph}

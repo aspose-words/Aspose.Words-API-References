@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator.moveFirstChild method. Moves to the first child entity."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/moveFirstChild/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/moveFirstChild/
 ---
 
 ## moveFirstChild() {#default}

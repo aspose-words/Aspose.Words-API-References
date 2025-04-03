@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.heightRelative property. Gets or sets the value that represents the percentage of shape's relative height."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/heightRelative/
+url: /nodejs-net/aspose.words.drawing/shapebase/heightRelative/
 ---
 
 ## ShapeBase.heightRelative property

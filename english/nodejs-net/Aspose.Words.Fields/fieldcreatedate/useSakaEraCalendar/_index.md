@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldCreateDate.useSakaEraCalendar property. Gets or sets whether to use the Saka Era calendar."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldcreatedate/useSakaEraCalendar/
+url: /nodejs-net/aspose.words.fields/fieldcreatedate/useSakaEraCalendar/
 ---
 
 ## FieldCreateDate.useSakaEraCalendar property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.fieldDatabaseProvider property. Gets or sets a provider that returns a query result for the [FieldDatabase](../../fielddatabase/) field."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/fieldDatabaseProvider/
+url: /nodejs-net/aspose.words.fields/fieldoptions/fieldDatabaseProvider/
 ---
 
 ## FieldOptions.fieldDatabaseProvider property

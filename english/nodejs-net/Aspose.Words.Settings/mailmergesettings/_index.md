@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.MailMergeSettings class. Specifies all of the mail merge information for a document"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/
 ---
 
 ## MailMergeSettings class
@@ -63,15 +63,15 @@ using the Aspose.Words.MailMerging.MailMerge object.
 | [dataSource](./dataSource/) | Specifies the path to the mail-merge data source. The default value is an empty string. |
 | [dataType](./dataType/) | Specifies the type of the mail-merge data source and the method of data access. The default value is [MailMergeDataType.Default](../mailmergedatatype/#Default). |
 | [destination](./destination/) | Specifies how Microsoft Word will output the results of a mail merge. The default value is [MailMergeDestination.Default](../mailmergedestination/#Default). |
-| [doNotSupressBlankLines](./doNotSupressBlankLines/) | Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. The default value is ``False``. |
+| [doNotSupressBlankLines](./doNotSupressBlankLines/) | Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge. The default value is ``false``. |
 | [headerSource](./headerSource/) | Specifies the path to the mail-merge header source. The default value is an empty string. |
-| [linkToQuery](./linkToQuery/) | Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document  is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is ``False``. |
-| [mailAsAttachment](./mailAsAttachment/) | Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather  than the body of the actual e-mail. The default value is ``False``. |
+| [linkToQuery](./linkToQuery/) | Not sure about this one. The Microsoft Word Automation Reference suggests that this specifies that the query is executed every time the document  is opened in Microsoft Word. But the OOXML specification suggests that this specifies that the query contains a reference to an external query file which contains the actual query. The default value is ``false``. |
+| [mailAsAttachment](./mailAsAttachment/) | Specifies that the documents produced during a mail merge operation should be emailed as an attachment rather  than the body of the actual e-mail. The default value is ``false``. |
 | [mailSubject](./mailSubject/) | Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge. The default value is an empty string. |
 | [mainDocumentType](./mainDocumentType/) | Specifies the mail-merge main document type.  The default value is [MailMergeMainDocumentType.Default](../mailmergemaindocumenttype/#Default). |
 | [odso](./odso/) | Gets or sets the object that specifies the Office Data Source Object (ODSO) settings. |
 | [query](./query/) | Contains the Structured Query Language string that shall be run against the specified external data source to  return the set of records which shall be imported into the document when the mail merge operation is performed. The default value is an empty string. |
-| [viewMergedData](./viewMergedData/) | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields  have been inserted (e.g. preview merged data). The default value is ``False``. |
+| [viewMergedData](./viewMergedData/) | Specifies that Microsoft Word shall display the data from the specified external data source where merge fields  have been inserted (e.g. preview merged data). The default value is ``false``. |
 
 ### Methods
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldFileName constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldfilename/constructor/
+url: /nodejs-net/aspose.words.fields/fieldfilename/constructor/
 ---
 
 ## FieldFileName() {#default}

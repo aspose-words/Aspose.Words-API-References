@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompareOptions.ignoreFields property. Specifies whether to compare differences in fields."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Comparing/compareoptions/ignoreFields/
+url: /nodejs-net/aspose.words.comparing/compareoptions/ignoreFields/
 ---
 
 ## CompareOptions.ignoreFields property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TxtSaveOptions.maxCharactersPerLine property. Gets or sets an integer value that specifies the maximum number of characters per one line"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/txtsaveoptions/maxCharactersPerLine/
+url: /nodejs-net/aspose.words.saving/txtsaveoptions/maxCharactersPerLine/
 ---
 
 ## TxtSaveOptions.maxCharactersPerLine property

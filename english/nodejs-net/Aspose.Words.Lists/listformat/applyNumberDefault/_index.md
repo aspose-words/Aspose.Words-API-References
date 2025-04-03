@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListFormat.applyNumberDefault method. Starts a new default numbered list and applies it to the paragraph."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Lists/listformat/applyNumberDefault/
+url: /nodejs-net/aspose.words.lists/listformat/applyNumberDefault/
 ---
 
 ## applyNumberDefault() {#default}

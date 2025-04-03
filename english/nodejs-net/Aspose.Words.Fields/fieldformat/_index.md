@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldFormat class. Provides typed access to field's numeric, date and time, and general formatting"
 type: docs
 weight: 470
-url: /nodejs-net/Aspose.Words.Fields/fieldformat/
+url: /nodejs-net/aspose.words.fields/fieldformat/
 ---
 
 ## FieldFormat class

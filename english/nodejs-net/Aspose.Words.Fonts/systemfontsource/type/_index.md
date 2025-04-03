@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SystemFontSource.type property. Returns the type of the font source."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/systemfontsource/type/
+url: /nodejs-net/aspose.words.fonts/systemfontsource/type/
 ---
 
 ## SystemFontSource.type property

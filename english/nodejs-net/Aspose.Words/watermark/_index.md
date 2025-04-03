@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Watermark class. Represents class to work with document watermark"
 type: docs
 weight: 1510
-url: /nodejs-net/Aspose.Words/watermark/
+url: /nodejs-net/aspose.words/watermark/
 ---
 
 ## Watermark class

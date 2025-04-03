@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FileFormatUtil.contentTypeToSaveFormat method. Converts IANA content type into a save format enumerated value."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/fileformatutil/contentTypeToSaveFormat/
+url: /nodejs-net/aspose.words/fileformatutil/contentTypeToSaveFormat/
 ---
 
 ## contentTypeToSaveFormat(contentType) {#string}

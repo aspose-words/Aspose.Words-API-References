@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.OdtSaveMeasureUnit enumeration. Specified units of measure to apply to measurable document content such as shape, widths and other during saving."
 type: docs
 weight: 500
-url: /nodejs-net/Aspose.Words.Saving/odtsavemeasureunit/
+url: /nodejs-net/aspose.words.saving/odtsavemeasureunit/
 ---
 
 ## OdtSaveMeasureUnit enumeration

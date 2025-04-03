@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartMultilevelValue.level2 property. Gets the name of the chart intermediate level that this value refers to."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartmultilevelvalue/level2/
+url: /nodejs-net/aspose.words.drawing.charts/chartmultilevelvalue/level2/
 ---
 
 ## ChartMultilevelValue.level2 property

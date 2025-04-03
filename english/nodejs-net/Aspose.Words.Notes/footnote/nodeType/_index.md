@@ -3,15 +3,15 @@ title: Footnote.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
 second_title: Aspose.Words for NodeJs
-description: "Footnote.nodeType property. Returns [NodeType.Footnote](../../../Aspose.Words/nodetype/#Footnote)."
+description: "Footnote.nodeType property. Returns [NodeType.Footnote](../../../aspose.words/nodetype/#Footnote)."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Notes/footnote/nodeType/
+url: /nodejs-net/aspose.words.notes/footnote/nodeType/
 ---
 
 ## Footnote.nodeType property
 
-Returns [NodeType.Footnote](../../../Aspose.Words/nodetype/#Footnote).
+Returns [NodeType.Footnote](../../../aspose.words/nodetype/#Footnote).
 
 
 

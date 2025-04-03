@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldUnknown constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldunknown/constructor/
+url: /nodejs-net/aspose.words.fields/fieldunknown/constructor/
 ---
 
 ## FieldUnknown() {#default}

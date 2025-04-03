@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSubject.text property. Gets or sets the text of the subject."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldsubject/text/
+url: /nodejs-net/aspose.words.fields/fieldsubject/text/
 ---
 
 ## FieldSubject.text property

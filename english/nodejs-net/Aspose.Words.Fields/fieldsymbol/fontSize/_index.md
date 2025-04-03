@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSymbol.fontSize property. Gets or sets the size in points of the font of the character retrieved by the field."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldsymbol/fontSize/
+url: /nodejs-net/aspose.words.fields/fieldsymbol/fontSize/
 ---
 
 ## FieldSymbol.fontSize property

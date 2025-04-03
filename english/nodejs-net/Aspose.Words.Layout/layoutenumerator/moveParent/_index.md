@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.LayoutEnumerator.moveParent method"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/moveParent/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/moveParent/
 ---
 
 ## moveParent() {#default}

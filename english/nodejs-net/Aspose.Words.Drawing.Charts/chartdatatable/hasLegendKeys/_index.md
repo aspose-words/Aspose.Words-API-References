@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataTable.hasLegendKeys property. Gets or sets a flag indicating whether legend keys are displayed in the data table"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatatable/hasLegendKeys/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatatable/hasLegendKeys/
 ---
 
 ## ChartDataTable.hasLegendKeys property
 
 Gets or sets a flag indicating whether legend keys are displayed in the data table.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

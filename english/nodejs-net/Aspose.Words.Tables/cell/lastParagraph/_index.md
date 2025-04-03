@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.lastParagraph property. Gets the last paragraph among the immediate children."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Tables/cell/lastParagraph/
+url: /nodejs-net/aspose.words.tables/cell/lastParagraph/
 ---
 
 ## Cell.lastParagraph property

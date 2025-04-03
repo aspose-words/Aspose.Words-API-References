@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.BookmarkCollection.remove method"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/bookmarkcollection/remove/
+url: /nodejs-net/aspose.words/bookmarkcollection/remove/
 ---
 
 ## remove(bookmark) {#bookmark}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.addressFieldName property. Specifies the column within the data source that contains e-mail addresses"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/addressFieldName/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/addressFieldName/
 ---
 
 ## MailMergeSettings.addressFieldName property

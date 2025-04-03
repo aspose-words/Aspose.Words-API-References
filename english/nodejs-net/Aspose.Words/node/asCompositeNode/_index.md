@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asCompositeNode method. Cast node to [CompositeNode](../../compositenode/)."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/node/asCompositeNode/
+url: /nodejs-net/aspose.words/node/asCompositeNode/
 ---
 
 ## asCompositeNode() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.font property. Specifies character formatting used for the list label."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Lists/listlevel/font/
+url: /nodejs-net/aspose.words.lists/listlevel/font/
 ---
 
 ## ListLevel.font property

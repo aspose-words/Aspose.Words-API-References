@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.lineStartingNumber property. Gets or sets the starting line number."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/pagesetup/lineStartingNumber/
+url: /nodejs-net/aspose.words/pagesetup/lineStartingNumber/
 ---
 
 ## PageSetup.lineStartingNumber property

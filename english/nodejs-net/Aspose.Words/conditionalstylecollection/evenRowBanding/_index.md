@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConditionalStyleCollection.evenRowBanding property. Gets the even row banding style."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/evenRowBanding/
+url: /nodejs-net/aspose.words/conditionalstylecollection/evenRowBanding/
 ---
 
 ## ConditionalStyleCollection.evenRowBanding property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConditionalStyleCollection.oddRowBanding property. Gets the odd row banding style."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/oddRowBanding/
+url: /nodejs-net/aspose.words/conditionalstylecollection/oddRowBanding/
 ---
 
 ## ConditionalStyleCollection.oddRowBanding property

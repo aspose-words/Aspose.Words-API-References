@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.headingLevelForChapter property. Gets or sets the heading level style that is applied to the chapter titles in the document."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/pagesetup/headingLevelForChapter/
+url: /nodejs-net/aspose.words/pagesetup/headingLevelForChapter/
 ---
 
 ## PageSetup.headingLevelForChapter property

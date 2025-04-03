@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.RevisionGroup class. Represents a group of sequential [Revision](../revision/) objects"
 type: docs
 weight: 1090
-url: /nodejs-net/Aspose.Words/revisiongroup/
+url: /nodejs-net/aspose.words/revisiongroup/
 ---
 
 ## RevisionGroup class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitStructuredDocumentTagRangeStart method. Called when a StructuredDocumentTagRangeStart is encountered."
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words/documentvisitor/visitStructuredDocumentTagRangeStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitStructuredDocumentTagRangeStart/
 ---
 
 ## visitStructuredDocumentTagRangeStart(sdtRangeStart) {#structureddocumenttagrangestart}
@@ -20,7 +20,7 @@ visitStructuredDocumentTagRangeStart(sdtRangeStart: Aspose.Words.Markup.Structur
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sdtRangeStart | [StructuredDocumentTagRangeStart](../../../Aspose.Words.Markup/structureddocumenttagrangestart/) |  |
+| sdtRangeStart | [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/) |  |
 
 ### See Also
 

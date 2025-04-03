@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Properties.DocumentSecurity enumeration. Used as a value for the [BuiltInDocumentProperties.security](../builtindocumentproperties/security/) property"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Properties/documentsecurity/
+url: /nodejs-net/aspose.words.properties/documentsecurity/
 ---
 
 ## DocumentSecurity enumeration

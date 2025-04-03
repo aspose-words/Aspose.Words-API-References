@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.shading property. Returns a [Shading](../../shading/) object that refers to the shading formatting for the paragraph."
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words/paragraphformat/shading/
+url: /nodejs-net/aspose.words/paragraphformat/shading/
 ---
 
 ## ParagraphFormat.shading property

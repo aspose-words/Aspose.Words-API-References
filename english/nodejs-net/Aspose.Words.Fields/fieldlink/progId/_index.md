@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldLink.progId property. Gets or sets the application type of the link information."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Fields/fieldlink/progId/
+url: /nodejs-net/aspose.words.fields/fieldlink/progId/
 ---
 
 ## FieldLink.progId property

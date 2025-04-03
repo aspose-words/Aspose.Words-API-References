@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.endRow method. Ends a table row in the document."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/documentbuilder/endRow/
+url: /nodejs-net/aspose.words/documentbuilder/endRow/
 ---
 
 ## endRow() {#default}

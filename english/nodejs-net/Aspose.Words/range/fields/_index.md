@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Range.fields property. Returns a [Range.fields](./) collection that represents all fields in the range."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/range/fields/
+url: /nodejs-net/aspose.words/range/fields/
 ---
 
 ## Range.fields property

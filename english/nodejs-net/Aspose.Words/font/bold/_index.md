@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.bold property. True if the font is formatted as bold."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/font/bold/
+url: /nodejs-net/aspose.words/font/bold/
 ---
 
 ## Font.bold property

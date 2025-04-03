@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FrameFormat.width property. Gets the width of the specified frame, in points."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/frameformat/width/
+url: /nodejs-net/aspose.words/frameformat/width/
 ---
 
 ## FrameFormat.width property

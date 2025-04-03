@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Fill.twoColorGradient method"
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words.Drawing/fill/twoColorGradient/
+url: /nodejs-net/aspose.words.drawing/fill/twoColorGradient/
 ---
 
 ## twoColorGradient(style, variant) {#gradientstyle_gradientvariant}
@@ -15,7 +15,7 @@ Sets the specified fill to a two-color gradient.
 
 
 ```js
-twoColorGradient(style: Aspose.Words.Drawing.GradientStylevariant: Aspose.Words.Drawing.GradientVariant)
+twoColorGradient(style: Aspose.Words.Drawing.GradientStyle, variant: Aspose.Words.Drawing.GradientVariant)
 ```
 
 | Parameter | Type | Description |
@@ -29,7 +29,7 @@ Sets the specified fill to a two-color gradient.
 
 
 ```js
-twoColorGradient(color1: stringcolor2: stringstyle: Aspose.Words.Drawing.GradientStylevariant: Aspose.Words.Drawing.GradientVariant)
+twoColorGradient(color1: string, color2: string, style: Aspose.Words.Drawing.GradientStyle, variant: Aspose.Words.Drawing.GradientVariant)
 ```
 
 | Parameter | Type | Description |

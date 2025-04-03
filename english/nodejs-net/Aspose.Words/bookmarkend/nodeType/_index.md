@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkEnd.nodeType property. Returns [NodeType.BookmarkEnd](../../nodetype/#BookmarkEnd)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/bookmarkend/nodeType/
+url: /nodejs-net/aspose.words/bookmarkend/nodeType/
 ---
 
 ## BookmarkEnd.nodeType property

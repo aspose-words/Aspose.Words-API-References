@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDatabase constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fielddatabase/constructor/
+url: /nodejs-net/aspose.words.fields/fielddatabase/constructor/
 ---
 
 ## FieldDatabase() {#default}

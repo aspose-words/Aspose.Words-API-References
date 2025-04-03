@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartXValue.fromString method. Creates a [ChartXValue](../) instance of the [ChartXValueType.String](../../chartxvaluetype/#String) type."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartxvalue/fromString/
+url: /nodejs-net/aspose.words.drawing.charts/chartxvalue/fromString/
 ---
 
 ## fromString(value) {#string}

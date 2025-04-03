@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TxtSaveOptionsBase.paragraphBreak property. Specifies the string to use as a paragraph break when exporting in text formats."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/txtsaveoptionsbase/paragraphBreak/
+url: /nodejs-net/aspose.words.saving/txtsaveoptionsbase/paragraphBreak/
 ---
 
 ## TxtSaveOptionsBase.paragraphBreak property

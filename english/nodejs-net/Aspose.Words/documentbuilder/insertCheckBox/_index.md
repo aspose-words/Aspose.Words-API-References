@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertCheckBox method"
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words/documentbuilder/insertCheckBox/
+url: /nodejs-net/aspose.words/documentbuilder/insertCheckBox/
 ---
 
 ## insertCheckBox(name, checkedValue, size) {#string_boolean_number}
@@ -15,7 +15,7 @@ Inserts a checkbox form field at the current position.
 
 
 ```js
-insertCheckBox(name: stringcheckedValue: booleansize: number)
+insertCheckBox(name: string, checkedValue: boolean, size: number)
 ```
 
 | Parameter | Type | Description |
@@ -42,7 +42,7 @@ Inserts a checkbox form field at the current position.
 
 
 ```js
-insertCheckBox(name: stringdefaultValue: booleancheckedValue: booleansize: number)
+insertCheckBox(name: string, defaultValue: boolean, checkedValue: boolean, size: number)
 ```
 
 | Parameter | Type | Description |

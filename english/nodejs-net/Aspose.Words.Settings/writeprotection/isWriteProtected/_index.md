@@ -3,15 +3,15 @@ title: WriteProtection.isWriteProtected property
 linktitle: isWriteProtected property
 articleTitle: isWriteProtected property
 second_title: Aspose.Words for NodeJs
-description: "WriteProtection.isWriteProtected property. Returns ``True`` when a write protection password is set."
+description: "WriteProtection.isWriteProtected property. Returns ``true`` when a write protection password is set."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/writeprotection/isWriteProtected/
+url: /nodejs-net/aspose.words.settings/writeprotection/isWriteProtected/
 ---
 
 ## WriteProtection.isWriteProtected property
 
-Returns ``True`` when a write protection password is set.
+Returns ``true`` when a write protection password is set.
 
 
 

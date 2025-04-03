@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "MarkdownSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/markdownsaveoptions/saveFormat/
 ---
 
 ## MarkdownSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Markdown](../../../Aspose.Words/saveformat/#Markdown).
+Can only be [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown).
 
 
 

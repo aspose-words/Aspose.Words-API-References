@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Fill.gradientVariant property. Gets the gradient variant [GradientVariant](../../gradientvariant/) for the fill."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing/fill/gradientVariant/
+url: /nodejs-net/aspose.words.drawing/fill/gradientVariant/
 ---
 
 ## Fill.gradientVariant property

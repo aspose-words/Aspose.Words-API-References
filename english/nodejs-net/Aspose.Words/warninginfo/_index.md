@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving"
 type: docs
 weight: 1470
-url: /nodejs-net/Aspose.Words/warninginfo/
+url: /nodejs-net/aspose.words/warninginfo/
 ---
 
 ## WarningInfo class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.BubbleSizeCollection class. Represents a collection of bubble sizes for a chart series."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing.Charts/bubblesizecollection/
+url: /nodejs-net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 
 ## BubbleSizeCollection class

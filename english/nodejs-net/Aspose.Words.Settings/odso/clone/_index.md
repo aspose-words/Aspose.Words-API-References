@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Odso.clone method. Returns a deep clone of this object."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Settings/odso/clone/
+url: /nodejs-net/aspose.words.settings/odso/clone/
 ---
 
 ## clone() {#default}

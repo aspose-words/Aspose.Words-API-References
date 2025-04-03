@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.HorizontalRuleAlignment enumeration. Represents the alignment for the specified horizontal rule."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Drawing/horizontalrulealignment/
+url: /nodejs-net/aspose.words.drawing/horizontalrulealignment/
 ---
 
 ## HorizontalRuleAlignment enumeration

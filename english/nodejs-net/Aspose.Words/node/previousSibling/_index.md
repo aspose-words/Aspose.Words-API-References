@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.previousSibling property. Gets the node immediately preceding this node."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/node/previousSibling/
+url: /nodejs-net/aspose.words/node/previousSibling/
 ---
 
 ## Node.previousSibling property
@@ -20,7 +20,7 @@ get previousSibling(): Aspose.Words.Node
 
 ### Remarks
 
-If there is no preceding node, a ``None`` is returned.
+If there is no preceding node, a ``null`` is returned.
 
 
 

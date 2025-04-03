@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Revision.accept method. Accepts this revision."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/revision/accept/
+url: /nodejs-net/aspose.words/revision/accept/
 ---
 
 ## accept() {#default}

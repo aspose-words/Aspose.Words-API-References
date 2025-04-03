@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.ulTrailSpace property. Underline All Trailing Spaces."
 type: docs
 weight: 580
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/ulTrailSpace/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/ulTrailSpace/
 ---
 
 ## CompatibilityOptions.ulTrailSpace property

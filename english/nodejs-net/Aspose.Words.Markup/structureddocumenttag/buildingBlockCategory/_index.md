@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.buildingBlockCategory property. Specifies category of building block for this SDT node"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/buildingBlockCategory/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/buildingBlockCategory/
 ---
 
 ## StructuredDocumentTag.buildingBlockCategory property
 
 Specifies category of building block for this **SDT** node.
-Can not be ``None``.
+Can not be ``null``.
 
 
 

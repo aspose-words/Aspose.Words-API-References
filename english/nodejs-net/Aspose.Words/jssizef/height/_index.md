@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSSizeF.height property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/jssizef/height/
+url: /nodejs-net/aspose.words/jssizef/height/
 ---
 
 ## JSSizeF.height property

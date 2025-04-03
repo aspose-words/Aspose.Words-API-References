@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutOptions.revisionOptions property. Gets revision options."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Layout/layoutoptions/revisionOptions/
+url: /nodejs-net/aspose.words.layout/layoutoptions/revisionOptions/
 ---
 
 ## LayoutOptions.revisionOptions property

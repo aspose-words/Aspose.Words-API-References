@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignature class. Represents a digital signature on a document and the result of its verification"
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/digitalsignature/
+url: /nodejs-net/aspose.words/digitalsignature/
 ---
 
 ## DigitalSignature class
@@ -23,7 +23,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | --- | --- |
 | [certificateHolder](./certificateHolder/) | Returns the certificate holder object that contains the certificate was used to sign the document. |
 | [comments](./comments/) | Gets the signing purpose comment. |
-| [isValid](./isValid/) | Returns ``True`` if this digital signature is valid and the document has not been tampered with. |
+| [isValid](./isValid/) | Returns ``true`` if this digital signature is valid and the document has not been tampered with. |
 | [issuerName](./issuerName/) | Returns the subject distinguished name of the certificate isuuer. |
 | [signTime](./signTime/) | Gets the time the document was signed. |
 | [signatureType](./signatureType/) | Gets the type of the digital signature. |

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.IPageLayoutCallback class. Implement this interface if you want to have your own custom method called during build and rendering of page layout model."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Layout/ipagelayoutcallback/
+url: /nodejs-net/aspose.words.layout/ipagelayoutcallback/
 ---
 
 ## IPageLayoutCallback class

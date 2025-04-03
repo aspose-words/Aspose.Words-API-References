@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.headerSource property. Specifies the path to the mail-merge header source"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/headerSource/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/headerSource/
 ---
 
 ## MailMergeSettings.headerSource property

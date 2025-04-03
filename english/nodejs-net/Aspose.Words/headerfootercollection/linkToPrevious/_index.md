@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.HeaderFooterCollection.linkToPrevious method"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/headerfootercollection/linkToPrevious/
+url: /nodejs-net/aspose.words/headerfootercollection/linkToPrevious/
 ---
 
 ## linkToPrevious(isLinkToPrevious) {#boolean}
@@ -21,7 +21,7 @@ linkToPrevious(isLinkToPrevious: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| isLinkToPrevious | boolean | ``True`` to link the headers and footers to the previous section; ``False`` to unlink them. |
+| isLinkToPrevious | boolean | ``true`` to link the headers and footers to the previous section; ``false`` to unlink them. |
 
 ### Remarks
 
@@ -37,13 +37,13 @@ header or footer in the previous section.
 
 
 ```js
-linkToPrevious(headerFooterType: Aspose.Words.HeaderFooterTypeisLinkToPrevious: boolean)
+linkToPrevious(headerFooterType: Aspose.Words.HeaderFooterType, isLinkToPrevious: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | headerFooterType | [HeaderFooterType](../../headerfootertype/) | A [HeaderFooterType](../../headerfootertype/) value that specifies the header or footer to link/unlink. |
-| isLinkToPrevious | boolean | ``True`` to link the header or footer to the previous section; ``False`` to unlink. |
+| isLinkToPrevious | boolean | ``true`` to link the header or footer to the previous section; ``false`` to unlink. |
 
 ### Remarks
 

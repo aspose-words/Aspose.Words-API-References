@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GradientStopCollection.insert method. Inserts a [GradientStop](../../gradientstop/) to the collection at a specified index."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/gradientstopcollection/insert/
+url: /nodejs-net/aspose.words.drawing/gradientstopcollection/insert/
 ---
 
 ## insert(index, gradientStop) {#number_gradientstop}
@@ -16,7 +16,7 @@ Inserts a [GradientStop](../../gradientstop/) to the collection at a specified i
 
 
 ```js
-insert(index: numbergradientStop: Aspose.Words.Drawing.GradientStop)
+insert(index: number, gradientStop: Aspose.Words.Drawing.GradientStop)
 ```
 
 | Parameter | Type | Description |

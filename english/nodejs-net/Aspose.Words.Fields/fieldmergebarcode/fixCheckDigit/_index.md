@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldMergeBarcode.fixCheckDigit property. Gets or sets whether to fix the check digit if it’s invalid."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/fixCheckDigit/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/fixCheckDigit/
 ---
 
 ## FieldMergeBarcode.fixCheckDigit property

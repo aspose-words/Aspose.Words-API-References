@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GradientStopCollection.remove method. Removes a specified [GradientStop](../../gradientstop/) from the collection."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/gradientstopcollection/remove/
+url: /nodejs-net/aspose.words.drawing/gradientstopcollection/remove/
 ---
 
 ## remove(gradientStop) {#gradientstop}
@@ -25,7 +25,7 @@ remove(gradientStop: Aspose.Words.Drawing.GradientStop)
 
 ### Returns
 
-``True`` if gradient stop was successfully removed, otherwise ``False``.
+``true`` if gradient stop was successfully removed, otherwise ``false``.
 
 
 ### Examples

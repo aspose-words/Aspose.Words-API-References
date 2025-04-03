@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.EmfPlusDualRenderingMode enumeration. Specifies how Aspose.Words should render EMF+ Dual metafiles."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Saving/emfplusdualrenderingmode/
+url: /nodejs-net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 
 ## EmfPlusDualRenderingMode enumeration

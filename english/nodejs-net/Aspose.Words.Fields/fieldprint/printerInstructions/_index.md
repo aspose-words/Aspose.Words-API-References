@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldPrint.printerInstructions property. Gets or sets the printer-specific control code characters or PostScript instructions."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldprint/printerInstructions/
+url: /nodejs-net/aspose.words.fields/fieldprint/printerInstructions/
 ---
 
 ## FieldPrint.printerInstructions property

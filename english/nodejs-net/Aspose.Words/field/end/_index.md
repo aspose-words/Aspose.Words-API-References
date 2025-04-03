@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.end property. Gets the node that represents the field end."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/field/end/
+url: /nodejs-net/aspose.words/field/end/
 ---
 
 ## Field.end property

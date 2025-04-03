@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionReference.id property. Identifier associated with the web extension within a catalog provider."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreference/id/
+url: /nodejs-net/aspose.words.webextensions/webextensionreference/id/
 ---
 
 ## WebExtensionReference.id property

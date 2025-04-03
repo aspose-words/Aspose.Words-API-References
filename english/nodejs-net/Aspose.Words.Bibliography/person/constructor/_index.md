@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Person constructor. Initialize a new instance of the [Person](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Bibliography/person/constructor/
+url: /nodejs-net/aspose.words.bibliography/person/constructor/
 ---
 
 ## Person(last, first, middle) {#string_string_string}
@@ -16,7 +16,7 @@ Initialize a new instance of the [Person](../) class.
 
 
 ```js
-Person(last: stringfirst: stringmiddle: string)
+Person(last: string, first: string, middle: string)
 ```
 
 | Parameter | Type | Description |

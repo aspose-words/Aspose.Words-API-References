@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Person.last property. Gets or sets the last name of a person."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Bibliography/person/last/
+url: /nodejs-net/aspose.words.bibliography/person/last/
 ---
 
 ## Person.last property

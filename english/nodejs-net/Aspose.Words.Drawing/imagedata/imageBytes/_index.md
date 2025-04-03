@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.imageBytes property. Gets or sets the raw bytes of the image stored in the shape."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/imageBytes/
+url: /nodejs-net/aspose.words.drawing/imagedata/imageBytes/
 ---
 
 ## ImageData.imageBytes property
@@ -20,9 +20,9 @@ get imageBytes(): number[]
 
 ### Remarks
 
-Setting the value to ``None`` or an empty array will remove the image from the shape.
+Setting the value to ``null`` or an empty array will remove the image from the shape.
 
-Returns ``None`` if the image is not stored in the document (e.g the image is probably linked in this case).
+Returns ``null`` if the image is not stored in the document (e.g the image is probably linked in this case).
 
 
 

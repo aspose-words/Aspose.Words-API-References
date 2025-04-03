@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.LayoutEntityType enumeration. Types of the layout entities."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Layout/layoutentitytype/
+url: /nodejs-net/aspose.words.layout/layoutentitytype/
 ---
 
 ## LayoutEntityType enumeration

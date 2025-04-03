@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.backColor property. Gets or sets the background color of the stroke."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/stroke/backColor/
+url: /nodejs-net/aspose.words.drawing/stroke/backColor/
 ---
 
 ## Stroke.backColor property

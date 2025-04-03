@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "CssSavingArgs.isExportNeeded property. Allows to specify whether the CSS will be exported to file and embedded to HTML document"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/csssavingargs/isExportNeeded/
+url: /nodejs-net/aspose.words.saving/csssavingargs/isExportNeeded/
 ---
 
 ## CssSavingArgs.isExportNeeded property
 
-Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is ``True``.
-When this property is ``False``, the CSS information will not be saved to a CSS file and will not be embedded to HTML document.
+Allows to specify whether the CSS will be exported to file and embedded to HTML document. Default is ``true``.
+When this property is ``false``, the CSS information will not be saved to a CSS file and will not be embedded to HTML document.
 
 
 

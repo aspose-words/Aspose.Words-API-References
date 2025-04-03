@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitGroupShapeStart method. Called when enumeration of a group shape has started."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/documentvisitor/visitGroupShapeStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitGroupShapeStart/
 ---
 
 ## visitGroupShapeStart(groupShape) {#groupshape}
@@ -20,7 +20,7 @@ visitGroupShapeStart(groupShape: Aspose.Words.Drawing.GroupShape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| groupShape | [GroupShape](../../../Aspose.Words.Drawing/groupshape/) | The object that is being visited. |
+| groupShape | [GroupShape](../../../aspose.words.drawing/groupshape/) | The object that is being visited. |
 
 ### Returns
 

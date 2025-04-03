@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Story.storyType property. Gets the type of this story."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/story/storyType/
+url: /nodejs-net/aspose.words/story/storyType/
 ---
 
 ## Story.storyType property

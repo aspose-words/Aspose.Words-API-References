@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldListNum.startingNumber property. Gets or sets the starting value for this field."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldlistnum/startingNumber/
+url: /nodejs-net/aspose.words.fields/fieldlistnum/startingNumber/
 ---
 
 ## FieldListNum.startingNumber property

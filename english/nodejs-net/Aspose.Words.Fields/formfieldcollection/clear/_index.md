@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormFieldCollection.clear method. Removes all form fields from this collection and from the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/formfieldcollection/clear/
+url: /nodejs-net/aspose.words.fields/formfieldcollection/clear/
 ---
 
 ## clear() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldAsk constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldask/constructor/
+url: /nodejs-net/aspose.words.fields/fieldask/constructor/
 ---
 
 ## FieldAsk() {#default}

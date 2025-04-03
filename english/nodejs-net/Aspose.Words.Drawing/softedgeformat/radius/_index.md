@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SoftEdgeFormat.radius property. Gets or sets a double value that represents the length of the radius for a soft edge effect in points (pt)"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/softedgeformat/radius/
+url: /nodejs-net/aspose.words.drawing/softedgeformat/radius/
 ---
 
 ## SoftEdgeFormat.radius property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontPitch enumeration. Represents the font pitch."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Fonts/fontpitch/
+url: /nodejs-net/aspose.words.fonts/fontpitch/
 ---
 
 ## FontPitch enumeration

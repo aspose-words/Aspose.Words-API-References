@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.ImageData.save method"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/save/
+url: /nodejs-net/aspose.words.drawing/imagedata/save/
 ---
 
 ## save(stream) {#unknown}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.CustomPartCollection class. Represents a collection of [CustomPart](../custompart/) objects"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Markup/custompartcollection/
+url: /nodejs-net/aspose.words.markup/custompartcollection/
 ---
 
 ## CustomPartCollection class
@@ -20,7 +20,7 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 ### Remarks
 
 You do not normally need to create instances of this class. You access custom parts 
-related to the OOXML package via the [Document.packageCustomParts](../../Aspose.Words/document/packageCustomParts/) property.
+related to the OOXML package via the [Document.packageCustomParts](../../aspose.words/document/packageCustomParts/) property.
 
 
 
@@ -50,5 +50,5 @@ related to the OOXML package via the [Document.packageCustomParts](../../Aspose.
 
 * module [Aspose.Words.Markup](../)
 * class [CustomPart](../custompart/)
-* property [Document.packageCustomParts](../../Aspose.Words/document/packageCustomParts/)
+* property [Document.packageCustomParts](../../aspose.words/document/packageCustomParts/)
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldUserName method. "
 type: docs
 weight: 1040
-url: /nodejs-net/Aspose.Words/field/asFieldUserName/
+url: /nodejs-net/aspose.words/field/asFieldUserName/
 ---
 
 ## asFieldUserName() {#default}

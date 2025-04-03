@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Comment constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/comment/constructor/
+url: /nodejs-net/aspose.words/comment/constructor/
 ---
 
 ## Comment(doc) {#documentbase}
@@ -26,7 +26,7 @@ Comment(doc: Aspose.Words.DocumentBase)
 ### Remarks
 
 When [Comment](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append [Comment](../) to the document use [CompositeNode.insertAfter()](../../compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../compositenode/insertBefore/#node_node)
 on the paragraph where you want the comment inserted.
@@ -44,14 +44,14 @@ Initializes a new instance of the [Comment](../) class.
 
 
 ```js
-Comment(doc: Aspose.Words.DocumentBaseauthor: stringinitial: stringdateTime: Date)
+Comment(doc: Aspose.Words.DocumentBase, author: string, initial: string, dateTime: Date)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | doc | [DocumentBase](../../documentbase/) | The owner document. |
-| author | string | The author name for the comment. Cannot be ``None``. |
-| initial | string | The author initials for the comment. Cannot be ``None``. |
+| author | string | The author name for the comment. Cannot be ``null``. |
+| initial | string | The author initials for the comment. Cannot be ``null``. |
 | dateTime | Date | The date and time for the comment. |
 
 ## See Also

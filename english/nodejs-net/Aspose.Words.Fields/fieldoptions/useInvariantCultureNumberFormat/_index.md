@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.useInvariantCultureNumberFormat property. Gets or sets the value indicating that number format is parsed using invariant culture or not"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/useInvariantCultureNumberFormat/
+url: /nodejs-net/aspose.words.fields/fieldoptions/useInvariantCultureNumberFormat/
 ---
 
 ## FieldOptions.useInvariantCultureNumberFormat property
@@ -20,13 +20,13 @@ get useInvariantCultureNumberFormat(): boolean
 
 ### Remarks
 
-When this property is set to ``True``, number format is taken from an invariant culture.
+When this property is set to ``true``, number format is taken from an invariant culture.
 
 
-When this property is set to ``False``, number format is taken from the current thread's culture.
+When this property is set to ``false``, number format is taken from the current thread's culture.
 
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

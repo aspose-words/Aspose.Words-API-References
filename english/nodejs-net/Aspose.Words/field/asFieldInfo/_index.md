@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldInfo method. "
 type: docs
 weight: 580
-url: /nodejs-net/Aspose.Words/field/asFieldInfo/
+url: /nodejs-net/aspose.words/field/asFieldInfo/
 ---
 
 ## asFieldInfo() {#default}

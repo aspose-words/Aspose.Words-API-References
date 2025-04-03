@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RowFormat.clearFormatting method. Resets to default row formatting."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Tables/rowformat/clearFormatting/
+url: /nodejs-net/aspose.words.tables/rowformat/clearFormatting/
 ---
 
 ## clearFormatting() {#default}

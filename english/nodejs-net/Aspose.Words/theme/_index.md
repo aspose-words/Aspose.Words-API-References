@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Theme class. Represents document Theme, and provides access to main theme parts including [Theme.majorFonts](./majorFonts/), [Theme.minorFonts](./minorFonts/) and [Theme.colors](./colors/) To learn more, visit the [Working with Styles and Themes](https://docs.aspose.com/words/nodejs-net/working-with-styles-and-themes/) documentation article."
 type: docs
 weight: 1430
-url: /nodejs-net/Aspose.Words/theme/
+url: /nodejs-net/aspose.words/theme/
 ---
 
 ## Theme class

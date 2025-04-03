@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.widthRelative property. Gets or sets the value that represents the percentage of shape's relative width."
 type: docs
 weight: 560
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/widthRelative/
+url: /nodejs-net/aspose.words.drawing/shapebase/widthRelative/
 ---
 
 ## ShapeBase.widthRelative property

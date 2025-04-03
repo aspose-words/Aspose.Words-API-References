@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.currentSection property. Gets the section that is currently selected in this [DocumentBuilder](../)."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/documentbuilder/currentSection/
+url: /nodejs-net/aspose.words/documentbuilder/currentSection/
 ---
 
 ## DocumentBuilder.currentSection property

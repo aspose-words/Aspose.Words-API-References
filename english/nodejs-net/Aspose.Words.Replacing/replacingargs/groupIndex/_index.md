@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ReplacingArgs.groupIndex property. Identifies, by index, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](../replacement/) string."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Replacing/replacingargs/groupIndex/
+url: /nodejs-net/aspose.words.replacing/replacingargs/groupIndex/
 ---
 
 ## ReplacingArgs.groupIndex property
@@ -22,7 +22,7 @@ get groupIndex(): number
 
 ### Remarks
 
-[ReplacingArgs.groupIndex](./) has effect only when [ReplacingArgs.groupName](../groupName/) is ``None``.
+[ReplacingArgs.groupIndex](./) has effect only when [ReplacingArgs.groupName](../groupName/) is ``null``.
 
 Default is zero.
 

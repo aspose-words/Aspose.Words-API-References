@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.addReply method. Adds a reply to this comment."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/comment/addReply/
+url: /nodejs-net/aspose.words/comment/addReply/
 ---
 
 ## addReply(author, initial, dateTime, text) {#string_string_date_string}
@@ -15,7 +15,7 @@ Adds a reply to this comment.
 
 
 ```js
-addReply(author: stringinitial: stringdateTime: Datetext: string)
+addReply(author: string, initial: string, dateTime: Date, text: string)
 ```
 
 | Parameter | Type | Description |

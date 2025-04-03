@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.growAutofit property. Allow Tables to AutoFit Into Page Margins."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/growAutofit/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/growAutofit/
 ---
 
 ## CompatibilityOptions.growAutofit property

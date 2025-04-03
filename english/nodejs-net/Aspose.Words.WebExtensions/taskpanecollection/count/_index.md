@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TaskPaneCollection.count property. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpanecollection/count/
+url: /nodejs-net/aspose.words.webextensions/taskpanecollection/count/
 ---
 
 ## TaskPaneCollection.count property

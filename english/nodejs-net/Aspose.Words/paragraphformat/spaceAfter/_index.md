@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.spaceAfter property. Gets or sets the amount of spacing (in points) after the paragraph."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words/paragraphformat/spaceAfter/
+url: /nodejs-net/aspose.words/paragraphformat/spaceAfter/
 ---
 
 ## ParagraphFormat.spaceAfter property
@@ -26,7 +26,7 @@ get spaceAfter(): number
 
 ### Remarks
 
-Has no effect when [ParagraphFormat.spaceAfterAuto](../spaceAfterAuto/) is ``True``.
+Has no effect when [ParagraphFormat.spaceAfterAuto](../spaceAfterAuto/) is ``true``.
 
 Valid values ​​range from 0 to 1584 inclusive.
 

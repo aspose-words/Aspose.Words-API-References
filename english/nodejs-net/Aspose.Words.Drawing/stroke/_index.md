@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Stroke class. Defines a stroke for a shape"
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words.Drawing/stroke/
+url: /nodejs-net/aspose.words.drawing/stroke/
 ---
 
 ## Stroke class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfoCollection.contains method. Determines whether the collection contains a font with the given name."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fonts/fontinfocollection/contains/
+url: /nodejs-net/aspose.words.fonts/fontinfocollection/contains/
 ---
 
 ## contains(name) {#string}
@@ -24,7 +24,7 @@ contains(name: string)
 
 ### Returns
 
-``True`` if the item is found in the collection; otherwise, ``False``.
+``true`` if the item is found in the collection; otherwise, ``false``.
 
 
 ### See Also

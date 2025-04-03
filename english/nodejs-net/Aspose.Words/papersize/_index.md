@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.PaperSize enumeration. Specifies paper size."
 type: docs
 weight: 980
-url: /nodejs-net/Aspose.Words/papersize/
+url: /nodejs-net/aspose.words/papersize/
 ---
 
 ## PaperSize enumeration

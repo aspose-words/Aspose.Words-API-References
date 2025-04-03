@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OleControl.asForms2OleControl method. "
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Ole/olecontrol/asForms2OleControl/
+url: /nodejs-net/aspose.words.drawing.ole/olecontrol/asForms2OleControl/
 ---
 
 ## asForms2OleControl() {#default}

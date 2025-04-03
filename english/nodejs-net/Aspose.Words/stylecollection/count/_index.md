@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StyleCollection.count property. Gets the number of styles in the collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/stylecollection/count/
+url: /nodejs-net/aspose.words/stylecollection/count/
 ---
 
 ## StyleCollection.count property

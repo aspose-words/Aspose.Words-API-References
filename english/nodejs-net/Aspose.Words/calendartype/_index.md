@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.CalendarType enumeration. Specifies the type of a calendar."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/calendartype/
+url: /nodejs-net/aspose.words/calendartype/
 ---
 
 ## CalendarType enumeration

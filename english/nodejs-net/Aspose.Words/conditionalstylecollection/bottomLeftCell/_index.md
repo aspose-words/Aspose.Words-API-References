@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConditionalStyleCollection.bottomLeftCell property. Gets the bottom left cell style."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/bottomLeftCell/
+url: /nodejs-net/aspose.words/conditionalstylecollection/bottomLeftCell/
 ---
 
 ## ConditionalStyleCollection.bottomLeftCell property

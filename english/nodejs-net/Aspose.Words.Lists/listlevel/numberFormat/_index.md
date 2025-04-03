@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.numberFormat property. Returns or sets the number format for the list level."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Lists/listlevel/numberFormat/
+url: /nodejs-net/aspose.words.lists/listlevel/numberFormat/
 ---
 
 ## ListLevel.numberFormat property

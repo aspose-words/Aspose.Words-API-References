@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ToaCategories constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/toacategories/constructor/
+url: /nodejs-net/aspose.words.fields/toacategories/constructor/
 ---
 
 ## ToaCategories() {#default}

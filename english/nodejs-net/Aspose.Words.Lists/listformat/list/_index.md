@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListFormat.list property. Gets or sets the list this paragraph is a member of."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Lists/listformat/list/
+url: /nodejs-net/aspose.words.lists/listformat/list/
 ---
 
 ## ListFormat.list property
@@ -24,8 +24,8 @@ The list that is being assigned to this property must belong to the current docu
 
 The list that is being assigned to this property must not be a list style definition.
 
-Setting this property to ``None`` removes bullets and numbering from the paragraph
-and sets the list level number to zero. Setting this property to ``None`` is equivalent
+Setting this property to ``null`` removes bullets and numbering from the paragraph
+and sets the list level number to zero. Setting this property to ``null`` is equivalent
 to calling [ListFormat.removeNumbers()](../removeNumbers/#default).
 
 

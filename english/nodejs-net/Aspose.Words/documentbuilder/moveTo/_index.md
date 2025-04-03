@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.moveTo method. Moves the cursor to an inline node or to the end of a paragraph."
 type: docs
 weight: 520
-url: /nodejs-net/Aspose.Words/documentbuilder/moveTo/
+url: /nodejs-net/aspose.words/documentbuilder/moveTo/
 ---
 
 ## moveTo(node) {#node}

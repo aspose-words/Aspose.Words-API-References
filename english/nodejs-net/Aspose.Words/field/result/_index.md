@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.result property. Gets or sets text that is between the field separator and field end."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/field/result/
+url: /nodejs-net/aspose.words/field/result/
 ---
 
 ## Field.result property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TaskPane.dockState property. Specifies the last-docked location of this task pane object."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpane/dockState/
+url: /nodejs-net/aspose.words.webextensions/taskpane/dockState/
 ---
 
 ## TaskPane.dockState property

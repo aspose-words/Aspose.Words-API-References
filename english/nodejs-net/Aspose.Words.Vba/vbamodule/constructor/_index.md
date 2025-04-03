@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VbaModule constructor. Creates an empty module."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Vba/vbamodule/constructor/
+url: /nodejs-net/aspose.words.vba/vbamodule/constructor/
 ---
 
 ## VbaModule() {#default}

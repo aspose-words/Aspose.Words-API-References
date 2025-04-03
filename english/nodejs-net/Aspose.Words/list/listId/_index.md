@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "List.listId property. Gets the unique identifier of the list."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/list/listId/
+url: /nodejs-net/aspose.words/list/listId/
 ---
 
 ## List.listId property
@@ -21,7 +21,7 @@ get listId(): number
 ### Remarks
 
 You do not normally need to use this property. But if you use it, you normally do so
-in conjunction with the [ListCollection.getListByListId()](../../../Aspose.Words.Lists/listcollection/getListByListId/#number) method to find a
+in conjunction with the [ListCollection.getListByListId()](../../../aspose.words.lists/listcollection/getListByListId/#number) method to find a
 list by its identifier.
 
 

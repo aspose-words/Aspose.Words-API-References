@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSeq.resetNumber property. Gets or sets an integer number to reset the sequence number to"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldseq/resetNumber/
+url: /nodejs-net/aspose.words.fields/fieldseq/resetNumber/
 ---
 
 ## FieldSeq.resetNumber property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TxtListIndentation.character property. Gets or sets which character to use for indenting list levels"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/txtlistindentation/character/
+url: /nodejs-net/aspose.words.saving/txtlistindentation/character/
 ---
 
 ## TxtListIndentation.character property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.applyBreakingRules property. Use Legacy Ethiopic and Amharic Line Breaking Rules."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/applyBreakingRules/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/applyBreakingRules/
 ---
 
 ## CompatibilityOptions.applyBreakingRules property

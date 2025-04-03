@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "HyphenationOptions.autoHyphenation property. Gets or sets value determining whether automatic hyphenation is turned on for the document"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Settings/hyphenationoptions/autoHyphenation/
+url: /nodejs-net/aspose.words.settings/hyphenationoptions/autoHyphenation/
 ---
 
 ## HyphenationOptions.autoHyphenation property
 
 Gets or sets value determining whether automatic hyphenation is turned on for the document.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
 
 

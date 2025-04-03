@@ -3,15 +3,15 @@ title: Table.firstRow property
 linktitle: firstRow property
 articleTitle: firstRow property
 second_title: Aspose.Words for NodeJs
-description: "Table.firstRow property. Returns the first [Row](../../../Aspose.Words.Tables/row/) node in the table."
+description: "Table.firstRow property. Returns the first [Row](../../../aspose.words.tables/row/) node in the table."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/table/firstRow/
+url: /nodejs-net/aspose.words/table/firstRow/
 ---
 
 ## Table.firstRow property
 
-Returns the first [Row](../../../Aspose.Words.Tables/row/) node in the table.
+Returns the first [Row](../../../aspose.words.tables/row/) node in the table.
 
 
 

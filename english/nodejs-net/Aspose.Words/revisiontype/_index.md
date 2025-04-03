@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.RevisionType enumeration. Specifies the type of change being tracked in [Revision](../revision/)."
 type: docs
 weight: 1110
-url: /nodejs-net/Aspose.Words/revisiontype/
+url: /nodejs-net/aspose.words/revisiontype/
 ---
 
 ## RevisionType enumeration

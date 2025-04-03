@@ -3,16 +3,16 @@ title: MarkdownSaveOptions.imageSavingCallback property
 linktitle: imageSavingCallback property
 articleTitle: imageSavingCallback property
 second_title: Aspose.Words for NodeJs
-description: "MarkdownSaveOptions.imageSavingCallback property. Allows to control how images are saved when a document is saved to [SaveFormat.Markdown](../../../Aspose.Words/saveformat/#Markdown) format."
+description: "MarkdownSaveOptions.imageSavingCallback property. Allows to control how images are saved when a document is saved to [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/imageSavingCallback/
+url: /nodejs-net/aspose.words.saving/markdownsaveoptions/imageSavingCallback/
 ---
 
 ## MarkdownSaveOptions.imageSavingCallback property
 
 Allows to control how images are saved when a document is saved to
-[SaveFormat.Markdown](../../../Aspose.Words/saveformat/#Markdown) format.
+[SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format.
 
 
 

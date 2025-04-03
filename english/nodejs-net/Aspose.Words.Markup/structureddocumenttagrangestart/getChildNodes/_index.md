@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.getChildNodes method. Returns a live collection of child nodes that match the specified types."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/getChildNodes/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/getChildNodes/
 ---
 
 ## getChildNodes(nodeType, isDeep) {#nodetype_boolean}
@@ -15,12 +15,12 @@ Returns a live collection of child nodes that match the specified types.
 
 
 ```js
-getChildNodes(nodeType: Aspose.Words.NodeTypeisDeep: boolean)
+getChildNodes(nodeType: Aspose.Words.NodeType, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nodeType | [NodeType](../../../Aspose.Words/nodetype/) |  |
+| nodeType | [NodeType](../../../aspose.words/nodetype/) |  |
 | isDeep | boolean |  |
 
 ### See Also

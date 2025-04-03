@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator.type property. Gets the type of the current entity."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/type/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/type/
 ---
 
 ## LayoutEnumerator.type property

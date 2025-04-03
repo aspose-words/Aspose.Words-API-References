@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Rendering.NodeRendererBase.getBoundsInPixels2 method"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Rendering/noderendererbase/getBoundsInPixels2/
+url: /nodejs-net/aspose.words.rendering/noderendererbase/getBoundsInPixels2/
 ---
 
 ## getBoundsInPixels2(scale, dpi) {#number_number}
 
 ```js
-getBoundsInPixels2(scale: numberdpi: number)
+getBoundsInPixels2(scale: number, dpi: number)
 ```
 
 | Parameter | Type | Description |
@@ -23,7 +23,7 @@ getBoundsInPixels2(scale: numberdpi: number)
 ## getBoundsInPixels2(scale, horizontalDpi, verticalDpi) {#number_number_number}
 
 ```js
-getBoundsInPixels2(scale: numberhorizontalDpi: numberverticalDpi: number)
+getBoundsInPixels2(scale: number, horizontalDpi: number, verticalDpi: number)
 ```
 
 | Parameter | Type | Description |

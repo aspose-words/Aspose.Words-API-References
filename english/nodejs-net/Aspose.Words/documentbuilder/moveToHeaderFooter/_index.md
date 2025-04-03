@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.moveToHeaderFooter method. Moves the cursor to the beginning of a header or footer in the current section."
 type: docs
 weight: 580
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToHeaderFooter/
+url: /nodejs-net/aspose.words/documentbuilder/moveToHeaderFooter/
 ---
 
 ## moveToHeaderFooter(headerFooterType) {#headerfootertype}

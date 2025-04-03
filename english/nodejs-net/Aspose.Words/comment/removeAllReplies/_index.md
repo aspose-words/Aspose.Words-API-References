@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.removeAllReplies method. Removes all replies to this comment."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/comment/removeAllReplies/
+url: /nodejs-net/aspose.words/comment/removeAllReplies/
 ---
 
 ## removeAllReplies() {#default}

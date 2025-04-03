@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.snapToGrid property. Specifies whether the current font should use the document grid characters per line settings when laying out."
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words/font/snapToGrid/
+url: /nodejs-net/aspose.words/font/snapToGrid/
 ---
 
 ## Font.snapToGrid property

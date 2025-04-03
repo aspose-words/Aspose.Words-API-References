@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "EditableRange.editorGroup property. Returns or sets an alias (or editing group) which shall be used to determine if the current user shall be allowed to edit this editable range."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/editablerange/editorGroup/
+url: /nodejs-net/aspose.words/editablerange/editorGroup/
 ---
 
 ## EditableRange.editorGroup property

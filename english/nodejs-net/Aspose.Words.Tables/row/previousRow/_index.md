@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Row.previousRow property. Gets the previous [Row](../) node."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Tables/row/previousRow/
+url: /nodejs-net/aspose.words.tables/row/previousRow/
 ---
 
 ## Row.previousRow property
@@ -22,7 +22,7 @@ get previousRow(): Aspose.Words.Tables.Row
 ### Remarks
 
 The method can be used when you need to have typed access to table rows. If a
-[StructuredDocumentTag](../../../Aspose.Words.Markup/structureddocumenttag/) node is found in a table instead of a row,
+[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) node is found in a table instead of a row,
 it is automatically traversed to get a row contained within.
 
 

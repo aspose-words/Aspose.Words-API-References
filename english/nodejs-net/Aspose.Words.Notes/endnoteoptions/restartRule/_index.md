@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "EndnoteOptions.restartRule property. Determines when automatic numbering restarts."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Notes/endnoteoptions/restartRule/
+url: /nodejs-net/aspose.words.notes/endnoteoptions/restartRule/
 ---
 
 ## EndnoteOptions.restartRule property

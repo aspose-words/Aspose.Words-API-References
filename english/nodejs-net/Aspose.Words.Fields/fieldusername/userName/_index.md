@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldUserName.userName property. Gest or sets the current user's name."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldusername/userName/
+url: /nodejs-net/aspose.words.fields/fieldusername/userName/
 ---
 
 ## FieldUserName.userName property

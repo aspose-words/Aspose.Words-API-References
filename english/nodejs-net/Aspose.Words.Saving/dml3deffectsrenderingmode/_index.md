@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.Dml3DEffectsRenderingMode enumeration. Specifies how 3D shape effects are rendered."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/dml3deffectsrenderingmode/
+url: /nodejs-net/aspose.words.saving/dml3deffectsrenderingmode/
 ---
 
 ## Dml3DEffectsRenderingMode enumeration

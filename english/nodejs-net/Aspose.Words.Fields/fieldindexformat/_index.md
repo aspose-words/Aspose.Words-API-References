@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldIndexFormat enumeration. Specifies the formatting for the [FieldIndex](../fieldindex/) fields in a document."
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words.Fields/fieldindexformat/
+url: /nodejs-net/aspose.words.fields/fieldindexformat/
 ---
 
 ## FieldIndexFormat enumeration

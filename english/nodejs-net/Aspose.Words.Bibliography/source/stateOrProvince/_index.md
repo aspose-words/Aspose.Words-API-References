@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.stateOrProvince property. Gets or sets the state or province of a source."
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words.Bibliography/source/stateOrProvince/
+url: /nodejs-net/aspose.words.bibliography/source/stateOrProvince/
 ---
 
 ## Source.stateOrProvince property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.Field.update method"
 type: docs
 weight: 1090
-url: /nodejs-net/Aspose.Words/field/update/
+url: /nodejs-net/aspose.words/field/update/
 ---
 
 ## update() {#default}
@@ -29,7 +29,7 @@ update(ignoreMergeFormat: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| ignoreMergeFormat | boolean | If ``True`` then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
+| ignoreMergeFormat | boolean | If ``true`` then direct field result formatting is abandoned, regardless of the MERGEFORMAT switch, otherwise normal update is performed. |
 
 ## See Also
 

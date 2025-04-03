@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompareOptions.ignoreTables property. Specifies whether to compare the differences in data contained in tables."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Comparing/compareoptions/ignoreTables/
+url: /nodejs-net/aspose.words.comparing/compareoptions/ignoreTables/
 ---
 
 ## CompareOptions.ignoreTables property

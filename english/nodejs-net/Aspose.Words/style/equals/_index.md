@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.equals method. Compares with the specified style"
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/style/equals/
+url: /nodejs-net/aspose.words/style/equals/
 ---
 
 ## equals(style) {#style}

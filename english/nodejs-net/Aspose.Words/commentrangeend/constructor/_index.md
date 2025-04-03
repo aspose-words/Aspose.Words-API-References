@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CommentRangeEnd constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/commentrangeend/constructor/
+url: /nodejs-net/aspose.words/commentrangeend/constructor/
 ---
 
 ## CommentRangeEnd(doc, id) {#documentbase_number}
@@ -15,7 +15,7 @@ Initializes a new instance of this class.
 
 
 ```js
-CommentRangeEnd(doc: Aspose.Words.DocumentBaseid: number)
+CommentRangeEnd(doc: Aspose.Words.DocumentBase, id: number)
 ```
 
 | Parameter | Type | Description |
@@ -26,7 +26,7 @@ CommentRangeEnd(doc: Aspose.Words.DocumentBaseid: number)
 ### Remarks
 
 When [CommentRangeEnd](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append a [CommentRangeEnd](../) to the document use InsertAfter or InsertBefore
 on the paragraph where you want the comment inserted.

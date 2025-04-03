@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDdeAuto.insertAsUnicode property. Gets or sets whether to insert the linked object as Unicode text."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldddeauto/insertAsUnicode/
+url: /nodejs-net/aspose.words.fields/fieldddeauto/insertAsUnicode/
 ---
 
 ## FieldDdeAuto.insertAsUnicode property

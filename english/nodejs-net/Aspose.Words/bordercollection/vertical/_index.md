@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BorderCollection.vertical property. Gets the vertical border that is used between cells."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/bordercollection/vertical/
+url: /nodejs-net/aspose.words/bordercollection/vertical/
 ---
 
 ## BorderCollection.vertical property

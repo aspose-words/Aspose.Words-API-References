@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "ChartLegend.overlay property. Determines whether other chart elements shall be allowed to overlap legend"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegend/overlay/
+url: /nodejs-net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 
 ## ChartLegend.overlay property
 
 Determines whether other chart elements shall be allowed to overlap legend.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

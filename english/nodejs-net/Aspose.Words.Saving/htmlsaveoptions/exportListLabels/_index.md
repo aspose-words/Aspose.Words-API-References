@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportListLabels property. Controls how list labels are output to HTML, MHTML or EPUB"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportListLabels/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportListLabels/
 ---
 
 ## HtmlSaveOptions.exportListLabels property

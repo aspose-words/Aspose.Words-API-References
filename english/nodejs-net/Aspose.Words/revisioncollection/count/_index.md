@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionCollection.count property. Returns the number of revisions in the collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/revisioncollection/count/
+url: /nodejs-net/aspose.words/revisioncollection/count/
 ---
 
 ## RevisionCollection.count property

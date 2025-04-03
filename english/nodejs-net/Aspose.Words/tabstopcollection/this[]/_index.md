@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TabStopCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/tabstopcollection/this[]/
+url: /nodejs-net/aspose.words/tabstopcollection/this[]/
 ---
 
 ## TabStopCollection.this[] property

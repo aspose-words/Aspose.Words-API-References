@@ -3,15 +3,15 @@ title: StructuredDocumentTagRangeStart.wordOpenXMLMinimal property
 linktitle: wordOpenXMLMinimal property
 articleTitle: wordOpenXMLMinimal property
 second_title: Aspose.Words for NodeJs
-description: "StructuredDocumentTagRangeStart.wordOpenXMLMinimal property. Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc) format."
+description: "StructuredDocumentTagRangeStart.wordOpenXMLMinimal property. Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc) format."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/wordOpenXMLMinimal/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/wordOpenXMLMinimal/
 ---
 
 ## StructuredDocumentTagRangeStart.wordOpenXMLMinimal property
 
-Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc) format.
+Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc) format.
 
 Unlike the [StructuredDocumentTagRangeStart.wordOpenXML](../wordOpenXML/) property, this method generates a stripped-down document that excludes any non-content-related parts.
 

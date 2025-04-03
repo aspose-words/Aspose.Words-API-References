@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.document property. Returns the document containing the parent chart."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/document/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/document/
 ---
 
 ## ChartAxis.document property

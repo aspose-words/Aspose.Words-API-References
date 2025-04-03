@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TabAlignment enumeration. Specifies the alignment/type of a tab stop."
 type: docs
 weight: 1300
-url: /nodejs-net/Aspose.Words/tabalignment/
+url: /nodejs-net/aspose.words/tabalignment/
 ---
 
 ## TabAlignment enumeration

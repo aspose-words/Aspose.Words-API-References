@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.preserveTabs property. Gets or sets whether to preserve tab entries within table entries."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/preserveTabs/
+url: /nodejs-net/aspose.words.fields/fieldtoc/preserveTabs/
 ---
 
 ## FieldToc.preserveTabs property

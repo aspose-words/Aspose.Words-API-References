@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.startColumnBookmark method. Marks the current position in the document as a column bookmark start"
 type: docs
 weight: 660
-url: /nodejs-net/Aspose.Words/documentbuilder/startColumnBookmark/
+url: /nodejs-net/aspose.words/documentbuilder/startColumnBookmark/
 ---
 
 ## startColumnBookmark(bookmarkName) {#string}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfDigitalSignatureDetails.location property. Gets or sets the location of the signing."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/location/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/location/
 ---
 
 ## PdfDigitalSignatureDetails.location property
@@ -20,7 +20,7 @@ get location(): string
 
 ### Remarks
 
-The default value is ``None``.
+The default value is ``null``.
 
 
 

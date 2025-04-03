@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.behindText property. Specifies whether the shape is below or above text."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/behindText/
+url: /nodejs-net/aspose.words.drawing/shapebase/behindText/
 ---
 
 ## ShapeBase.behindText property
@@ -22,7 +22,7 @@ get behindText(): boolean
 
 Has effect only for top level shapes.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

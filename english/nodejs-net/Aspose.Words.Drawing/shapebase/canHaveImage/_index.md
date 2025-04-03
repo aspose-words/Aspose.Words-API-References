@@ -3,15 +3,15 @@ title: ShapeBase.canHaveImage property
 linktitle: canHaveImage property
 articleTitle: canHaveImage property
 second_title: Aspose.Words for NodeJs
-description: "ShapeBase.canHaveImage property. Returns ``True`` if the shape type allows the shape to have an image."
+description: "ShapeBase.canHaveImage property. Returns ``true`` if the shape type allows the shape to have an image."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/canHaveImage/
+url: /nodejs-net/aspose.words.drawing/shapebase/canHaveImage/
 ---
 
 ## ShapeBase.canHaveImage property
 
-Returns ``True`` if the shape type allows the shape to have an image.
+Returns ``true`` if the shape type allows the shape to have an image.
 
 
 
@@ -22,7 +22,7 @@ get canHaveImage(): boolean
 ### Remarks
 
 Although Microsoft Word has a special shape type for images, it appears that in Microsoft Word documents any shape
-except a group shape can have an image, therefore this property returns ``True`` for all shapes except [GroupShape](../../groupshape/).
+except a group shape can have an image, therefore this property returns ``true`` for all shapes except [GroupShape](../../groupshape/).
 
 
 

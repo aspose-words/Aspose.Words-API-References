@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.MarkupLevel enumeration. Specifies the level in the document tree where a particular [StructuredDocumentTag](../structureddocumenttag/) can occur."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Markup/markuplevel/
+url: /nodejs-net/aspose.words.markup/markuplevel/
 ---
 
 ## MarkupLevel enumeration

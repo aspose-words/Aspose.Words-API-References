@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.comparisonExpressionEvaluator property. Gets or sets the field comparison expressions evaluator."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/comparisonExpressionEvaluator/
+url: /nodejs-net/aspose.words.fields/fieldoptions/comparisonExpressionEvaluator/
 ---
 
 ## FieldOptions.comparisonExpressionEvaluator property

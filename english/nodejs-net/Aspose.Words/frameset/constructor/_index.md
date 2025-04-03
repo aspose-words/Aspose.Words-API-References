@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Frameset constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/frameset/constructor/
+url: /nodejs-net/aspose.words/frameset/constructor/
 ---
 
 ## Frameset() {#default}

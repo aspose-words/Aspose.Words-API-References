@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Section.clone method. Creates a duplicate of this section."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/section/clone/
+url: /nodejs-net/aspose.words/section/clone/
 ---
 
 ## clone() {#default}

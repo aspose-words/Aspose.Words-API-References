@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.markupLanguage property. Gets MarkupLanguage used for this graphic object."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/markupLanguage/
+url: /nodejs-net/aspose.words.drawing/shapebase/markupLanguage/
 ---
 
 ## ShapeBase.markupLanguage property

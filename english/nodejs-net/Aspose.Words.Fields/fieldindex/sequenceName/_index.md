@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIndex.sequenceName property. Gets or sets the name of a sequence whose number is included with the page number."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Fields/fieldindex/sequenceName/
+url: /nodejs-net/aspose.words.fields/fieldindex/sequenceName/
 ---
 
 ## FieldIndex.sequenceName property

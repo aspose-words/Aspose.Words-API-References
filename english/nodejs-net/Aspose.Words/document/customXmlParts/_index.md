@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.customXmlParts property. Gets or sets the collection of Custom XML Data Storage Parts."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/document/customXmlParts/
+url: /nodejs-net/aspose.words/document/customXmlParts/
 ---
 
 ## Document.customXmlParts property
@@ -22,7 +22,7 @@ get customXmlParts(): Aspose.Words.Markup.CustomXmlPartCollection
 
 Aspose.Words loads and saves Custom XML Parts into OOXML and DOC documents only.
 
-This property cannot be ``None``.
+This property cannot be ``null``.
 
 
 
@@ -89,5 +89,5 @@ doc.save(base.artifactsDir + "StructuredDocumentTag.customXml.docx");
 
 * module [Aspose.Words](../../)
 * class [Document](../)
-* class [CustomXmlPart](../../../Aspose.Words.Markup/customxmlpart/)
+* class [CustomXmlPart](../../../aspose.words.markup/customxmlpart/)
 

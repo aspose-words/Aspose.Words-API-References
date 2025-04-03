@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.initial property. Returns or sets the initials of the user associated with a specific comment."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/comment/initial/
+url: /nodejs-net/aspose.words/comment/initial/
 ---
 
 ## Comment.initial property
@@ -20,7 +20,7 @@ get initial(): string
 
 ### Remarks
 
-Cannot be ``None``.
+Cannot be ``null``.
 
 Default is empty string.
 

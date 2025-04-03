@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionReferenceCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreferencecollection/this[]/
+url: /nodejs-net/aspose.words.webextensions/webextensionreferencecollection/this[]/
 ---
 
 ## WebExtensionReferenceCollection.this[] property

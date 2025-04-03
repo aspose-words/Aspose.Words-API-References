@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.author property. Returns or sets the author name for a comment."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/comment/author/
+url: /nodejs-net/aspose.words/comment/author/
 ---
 
 ## Comment.author property
@@ -20,7 +20,7 @@ get author(): string
 
 ### Remarks
 
-Cannot be ``None``.
+Cannot be ``null``.
 
 Default is empty string.
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOcx constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldocx/constructor/
+url: /nodejs-net/aspose.words.fields/fieldocx/constructor/
 ---
 
 ## FieldOcx() {#default}

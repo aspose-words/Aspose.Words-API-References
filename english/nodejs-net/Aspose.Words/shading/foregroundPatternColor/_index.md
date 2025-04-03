@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shading.foregroundPatternColor property. Gets or sets the color that's applied to the foreground of the [Shading](../) object."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/shading/foregroundPatternColor/
+url: /nodejs-net/aspose.words/shading/foregroundPatternColor/
 ---
 
 ## Shading.foregroundPatternColor property

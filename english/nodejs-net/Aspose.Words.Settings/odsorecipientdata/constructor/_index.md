@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdsoRecipientData constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/odsorecipientdata/constructor/
+url: /nodejs-net/aspose.words.settings/odsorecipientdata/constructor/
 ---
 
 ## OdsoRecipientData() {#default}

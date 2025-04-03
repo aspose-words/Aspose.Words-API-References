@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompareOptions.compareMoves property. Specifies whether to compare differences   between the two documents."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Comparing/compareoptions/compareMoves/
+url: /nodejs-net/aspose.words.comparing/compareoptions/compareMoves/
 ---
 
 ## CompareOptions.compareMoves property

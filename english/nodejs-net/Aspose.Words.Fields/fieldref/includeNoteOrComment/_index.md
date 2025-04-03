@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldRef.includeNoteOrComment property. Gets or sets whether to increment footnote, endnote, and annotation numbers that are marked by the bookmark, and insert the corresponding footnote, endnote, and comment text."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldref/includeNoteOrComment/
+url: /nodejs-net/aspose.words.fields/fieldref/includeNoteOrComment/
 ---
 
 ## FieldRef.includeNoteOrComment property

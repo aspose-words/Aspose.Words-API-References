@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.done property. Gets or sets flag indicating that the comment has been marked done."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/comment/done/
+url: /nodejs-net/aspose.words/comment/done/
 ---
 
 ## Comment.done property

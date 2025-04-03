@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldFormDropDown method. "
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/field/asFieldFormDropDown/
+url: /nodejs-net/aspose.words/field/asFieldFormDropDown/
 ---
 
 ## asFieldFormDropDown() {#default}

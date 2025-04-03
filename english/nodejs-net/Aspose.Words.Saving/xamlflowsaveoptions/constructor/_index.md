@@ -6,12 +6,12 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.XamlFlowSaveOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/constructor/
 ---
 
 ## XamlFlowSaveOptions() {#default}
 
-Initializes a new instance of this class that can be used to save a document in the [SaveFormat.XamlFlow](../../../Aspose.Words/saveformat/#XamlFlow) format.
+Initializes a new instance of this class that can be used to save a document in the [SaveFormat.XamlFlow](../../../aspose.words/saveformat/#XamlFlow) format.
 
 
 
@@ -21,8 +21,8 @@ XamlFlowSaveOptions()
 
 ## XamlFlowSaveOptions(saveFormat) {#saveformat}
 
-Initializes a new instance of this class that can be used to save a document in the [SaveFormat.XamlFlow](../../../Aspose.Words/saveformat/#XamlFlow)
-or [SaveFormat.XamlFlowPack](../../../Aspose.Words/saveformat/#XamlFlowPack) format.
+Initializes a new instance of this class that can be used to save a document in the [SaveFormat.XamlFlow](../../../aspose.words/saveformat/#XamlFlow)
+or [SaveFormat.XamlFlowPack](../../../aspose.words/saveformat/#XamlFlowPack) format.
 
 
 
@@ -32,7 +32,7 @@ XamlFlowSaveOptions(saveFormat: Aspose.Words.SaveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../../../Aspose.Words/saveformat/) | Can be [SaveFormat.XamlFlow](../../../Aspose.Words/saveformat/#XamlFlow) or [SaveFormat.XamlFlowPack](../../../Aspose.Words/saveformat/#XamlFlowPack). |
+| saveFormat | [SaveFormat](../../../aspose.words/saveformat/) | Can be [SaveFormat.XamlFlow](../../../aspose.words/saveformat/#XamlFlow) or [SaveFormat.XamlFlowPack](../../../aspose.words/saveformat/#XamlFlowPack). |
 
 ## See Also
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.baseTimeUnit property. Returns or sets the smallest time unit that is represented on the time category axis."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/baseTimeUnit/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/baseTimeUnit/
 ---
 
 ## ChartAxis.baseTimeUnit property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SdtListItemCollection.count property. Gets number of items in the collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/sdtlistitemcollection/count/
+url: /nodejs-net/aspose.words.markup/sdtlistitemcollection/count/
 ---
 
 ## SdtListItemCollection.count property

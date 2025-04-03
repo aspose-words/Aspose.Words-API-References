@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Replacing.FindReplaceOptions class. Specifies options for find/replace operations"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/
 ---
 
 ## FindReplaceOptions class
@@ -33,20 +33,20 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/nodejs
 | [applyParagraphFormat](./applyParagraphFormat/) | Paragraph formatting applied to new content. |
 | [direction](./direction/) | Selects direction for replace. Default value is [FindReplaceDirection.Forward](../findreplacedirection/#Forward). |
 | [findWholeWordsOnly](./findWholeWordsOnly/) | True indicates the oldValue must be a standalone word. |
-| [ignoreDeleted](./ignoreDeleted/) | Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is ``False``. |
-| [ignoreFieldCodes](./ignoreFieldCodes/) | Gets or sets a boolean value indicating either to ignore text inside field codes. The default value is ``False``. |
-| [ignoreFields](./ignoreFields/) | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is ``False``. |
-| [ignoreFootnotes](./ignoreFootnotes/) | Gets or sets a boolean value indicating either to ignore footnotes. The default value is ``False``. |
-| [ignoreInserted](./ignoreInserted/) | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is ``False``. |
+| [ignoreDeleted](./ignoreDeleted/) | Gets or sets a boolean value indicating either to ignore text inside delete revisions. The default value is ``false``. |
+| [ignoreFieldCodes](./ignoreFieldCodes/) | Gets or sets a boolean value indicating either to ignore text inside field codes. The default value is ``false``. |
+| [ignoreFields](./ignoreFields/) | Gets or sets a boolean value indicating either to ignore text inside fields. The default value is ``false``. |
+| [ignoreFootnotes](./ignoreFootnotes/) | Gets or sets a boolean value indicating either to ignore footnotes. The default value is ``false``. |
+| [ignoreInserted](./ignoreInserted/) | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is ``false``. |
 | [ignoreShapes](./ignoreShapes/) | Gets or sets a boolean value indicating either to ignore shapes within a text. |
-| [ignoreStructuredDocumentTags](./ignoreStructuredDocumentTags/) | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/). The default value is ``False``. |
+| [ignoreStructuredDocumentTags](./ignoreStructuredDocumentTags/) | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/). The default value is ``false``. |
 | [legacyMode](./legacyMode/) | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
 | [matchCase](./matchCase/) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
 | [replacementFormat](./replacementFormat/) | Specifies format of the replacement. Default is [ReplacementFormat.Text](../replacementformat/#Text). |
 | [replacingCallback](./replacingCallback/) | The user-defined method which is called before every replace occurrence. |
 | [smartParagraphBreakReplacement](./smartParagraphBreakReplacement/) | Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph. |
-| [useLegacyOrder](./useLegacyOrder/) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is ``False``. |
-| [useSubstitutions](./useSubstitutions/) | Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is ``False``. |
+| [useLegacyOrder](./useLegacyOrder/) | True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is ``false``. |
+| [useSubstitutions](./useSubstitutions/) | Gets or sets a boolean value indicating whether to recognize and use substitutions within replacement patterns. The default value is ``false``. |
 
 ### Examples
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentProperty.toDouble method. Returns the property value as double."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/toDouble/
+url: /nodejs-net/aspose.words.properties/documentproperty/toDouble/
 ---
 
 ## toDouble() {#default}

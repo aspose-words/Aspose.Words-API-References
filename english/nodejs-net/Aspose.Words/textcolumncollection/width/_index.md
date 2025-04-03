@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextColumnCollection.width property. When columns are evenly spaced, gets the width of the columns."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/textcolumncollection/width/
+url: /nodejs-net/aspose.words/textcolumncollection/width/
 ---
 
 ## TextColumnCollection.width property
@@ -20,7 +20,7 @@ get width(): number
 
 ### Remarks
 
-Has effect only when [TextColumnCollection.evenlySpaced](../evenlySpaced/) is set to ``True``.
+Has effect only when [TextColumnCollection.evenlySpaced](../evenlySpaced/) is set to ``true``.
 
 
 

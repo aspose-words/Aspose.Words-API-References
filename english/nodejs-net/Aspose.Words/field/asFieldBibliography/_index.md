@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldBibliography method. "
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/field/asFieldBibliography/
+url: /nodejs-net/aspose.words/field/asFieldBibliography/
 ---
 
 ## asFieldBibliography() {#default}

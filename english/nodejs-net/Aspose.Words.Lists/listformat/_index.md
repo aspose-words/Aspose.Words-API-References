@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Lists.ListFormat class. Allows to control what list formatting is applied to a paragraph"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Lists/listformat/
+url: /nodejs-net/aspose.words.lists/listformat/
 ---
 
 ## ListFormat class
@@ -26,24 +26,24 @@ is applied to the paragraph.
 You do not create objects of the [ListFormat](./) class directly.
 You access [ListFormat](./) as a property of another object that can
 have list formatting associated with it. At the moment the objects that can
-have list formatting are: [Paragraph](../../Aspose.Words/paragraph/),
-[Style](../../Aspose.Words/style/) and [DocumentBuilder](../../Aspose.Words/documentbuilder/).
+have list formatting are: [Paragraph](../../aspose.words/paragraph/),
+[Style](../../aspose.words/style/) and [DocumentBuilder](../../aspose.words/documentbuilder/).
 
-[ListFormat](./) of a [Paragraph](../../Aspose.Words/paragraph/) specifies
+[ListFormat](./) of a [Paragraph](../../aspose.words/paragraph/) specifies
 what list formatting and list level is applied to that particular paragraph.
 
-[ListFormat](./) of a [Style](../../Aspose.Words/style/) (applicable
+[ListFormat](./) of a [Style](../../aspose.words/style/) (applicable
 to paragraph styles only) allows to specify what list formatting and list level
 is applied to all paragraphs of that particular style.
 
-[ListFormat](./) of a [DocumentBuilder](../../Aspose.Words/documentbuilder/)
+[ListFormat](./) of a [DocumentBuilder](../../aspose.words/documentbuilder/)
 provides access to the list formatting at the current cursor position
-inside the [DocumentBuilder](../../Aspose.Words/documentbuilder/).
+inside the [DocumentBuilder](../../aspose.words/documentbuilder/).
 
-The list formatting itself is stored inside a [List](../../Aspose.Words/list/)
+The list formatting itself is stored inside a [List](../../aspose.words/list/)
 object that is stored separately from the paragraphs. The list objects
 are stored inside a [ListCollection](../listcollection/) collection. There is a single
-[ListCollection](../listcollection/) collection per [Document](../../Aspose.Words/document/).
+[ListCollection](../listcollection/) collection per [Document](../../aspose.words/document/).
 
 The paragraphs do not physically belong to a list. The paragraphs just
 reference a particular list object via the [ListFormat.list](./list/) property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "EditableRangeStart.accept method. Accepts a visitor."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/editablerangestart/accept/
+url: /nodejs-net/aspose.words/editablerangestart/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}
@@ -33,7 +33,7 @@ For more info see the Visitor design pattern.
 
 ### Returns
 
-``False`` if the visitor requested the enumeration to stop.
+``false`` if the visitor requested the enumeration to stop.
 
 
 ### See Also

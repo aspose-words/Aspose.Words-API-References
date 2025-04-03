@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.document property. Gets the document to which this node belongs."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/node/document/
+url: /nodejs-net/aspose.words/node/document/
 ---
 
 ## Node.document property

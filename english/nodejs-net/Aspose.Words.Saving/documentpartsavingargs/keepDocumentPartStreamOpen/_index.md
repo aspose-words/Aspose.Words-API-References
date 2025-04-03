@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentPartSavingArgs.keepDocumentPartStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving a document part."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/documentpartsavingargs/keepDocumentPartStreamOpen/
+url: /nodejs-net/aspose.words.saving/documentpartsavingargs/keepDocumentPartStreamOpen/
 ---
 
 ## DocumentPartSavingArgs.keepDocumentPartStreamOpen property
@@ -20,12 +20,12 @@ get keepDocumentPartStreamOpen(): boolean
 
 ### Remarks
 
-Default is ``False`` and Aspose.Words will close the stream you provided
+Default is ``false`` and Aspose.Words will close the stream you provided
 in the Aspose.Words.Saving.DocumentPartSavingArgs.DocumentPartStream property after writing a document part into it.
-Specify ``True`` to keep the stream open. Please note that the main output stream 
+Specify ``true`` to keep the stream open. Please note that the main output stream 
 provided in the call to Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.SaveFormat) or 
 Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions) will never be closed by Aspose.Words 
-even if [DocumentPartSavingArgs.keepDocumentPartStreamOpen](./) is set to ``False``.
+even if [DocumentPartSavingArgs.keepDocumentPartStreamOpen](./) is set to ``false``.
 
 
 

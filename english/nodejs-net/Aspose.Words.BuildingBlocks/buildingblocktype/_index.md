@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.BuildingBlocks.BuildingBlockType enumeration. Specifies a building block type"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.BuildingBlocks/buildingblocktype/
+url: /nodejs-net/aspose.words.buildingblocks/buildingblocktype/
 ---
 
 ## BuildingBlockType enumeration
@@ -36,5 +36,5 @@ Corresponds to the **ST_DocPartType** type in OOXML.
 ### See Also
 
 * module [Aspose.Words.BuildingBlocks](../)
-* property [BuildingBlock.type](../../Aspose.Words/buildingblock/type/)
+* property [BuildingBlock.type](../../aspose.words/buildingblock/type/)
 

@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxisTitle.show property. Determines whether the title shall be shown for the axis"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxistitle/show/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 
 ## ChartAxisTitle.show property
 
 Determines whether the title shall be shown for the axis.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -3,15 +3,15 @@ title: Document.hasMacros property
 linktitle: hasMacros property
 articleTitle: hasMacros property
 second_title: Aspose.Words for NodeJs
-description: "Document.hasMacros property. Returns ``True`` if the document has a VBA project (macros)."
+description: "Document.hasMacros property. Returns ``true`` if the document has a VBA project (macros)."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words/document/hasMacros/
+url: /nodejs-net/aspose.words/document/hasMacros/
 ---
 
 ## Document.hasMacros property
 
-Returns ``True`` if the document has a VBA project (macros).
+Returns ``true`` if the document has a VBA project (macros).
 
 
 

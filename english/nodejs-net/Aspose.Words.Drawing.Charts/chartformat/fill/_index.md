@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartFormat.fill property. Gets fill formatting for the parent chart element."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartformat/fill/
+url: /nodejs-net/aspose.words.drawing.charts/chartformat/fill/
 ---
 
 ## ChartFormat.fill property

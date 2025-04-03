@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.margins property. Returns or sets preset [Margins](../../margins/) of the page."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/pagesetup/margins/
+url: /nodejs-net/aspose.words/pagesetup/margins/
 ---
 
 ## PageSetup.margins property

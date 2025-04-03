@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomPart.isExternal property. False if this custom part is stored inside the OOXML package"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/custompart/isExternal/
+url: /nodejs-net/aspose.words.markup/custompart/isExternal/
 ---
 
 ## CustomPart.isExternal property
@@ -20,7 +20,7 @@ get isExternal(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

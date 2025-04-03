@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.preserveFormFields property. Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text"
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/preserveFormFields/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/preserveFormFields/
 ---
 
 ## PdfSaveOptions.preserveFormFields property
 
 Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text.
-Default is ``False``.
+Default is ``false``.
 
 
 
@@ -24,7 +24,7 @@ get preserveFormFields(): boolean
 
 Microsoft Word form fields include text input, drop down and check box controls.
 
-When set to ``False``, these fields will be exported as text to PDF. When set to ``True``,
+When set to ``false``, these fields will be exported as text to PDF. When set to ``true``,
 these fields will be exported as PDF form fields.
 
 When exporting form fields to PDF as form fields, some formatting loss might occur because PDF form
@@ -33,10 +33,10 @@ fields do not support all features of Microsoft Word form fields.
 Also, the output size depends on the content size because editable forms in Microsoft Word are
 inline objects.
 
-Editable forms are prohibited by PDF/A compliance. ``False`` value will be used automatically
+Editable forms are prohibited by PDF/A compliance. ``false`` value will be used automatically
 when saving to PDF/A.
 
-Form fields are not supported when saving to PDF/UA. ``False`` value will be used automatically.
+Form fields are not supported when saving to PDF/UA. ``false`` value will be used automatically.
 
 
 

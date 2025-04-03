@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.activeRecord property. Specifies the one-based index of the record from the data source which shall be displayed in Microsoft Word"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/activeRecord/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/activeRecord/
 ---
 
 ## MailMergeSettings.activeRecord property

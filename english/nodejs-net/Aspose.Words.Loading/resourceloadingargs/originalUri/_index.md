@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ResourceLoadingArgs.originalUri property. Original URI of the resource as specified in imported document."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Loading/resourceloadingargs/originalUri/
+url: /nodejs-net/aspose.words.loading/resourceloadingargs/originalUri/
 ---
 
 ## ResourceLoadingArgs.originalUri property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.shortTitle property. Gets or sets the short title of a source."
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words.Bibliography/source/shortTitle/
+url: /nodejs-net/aspose.words.bibliography/source/shortTitle/
 ---
 
 ## Source.shortTitle property

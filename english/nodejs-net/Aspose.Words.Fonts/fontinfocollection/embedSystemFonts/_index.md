@@ -6,15 +6,15 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfoCollection.embedSystemFonts property. Specifies whether or not to embed System fonts into the document"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/fontinfocollection/embedSystemFonts/
+url: /nodejs-net/aspose.words.fonts/fontinfocollection/embedSystemFonts/
 ---
 
 ## FontInfoCollection.embedSystemFonts property
 
 Specifies whether or not to embed System fonts into the document.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
-This option works only when [FontInfoCollection.embedTrueTypeFonts](../embedTrueTypeFonts/) option is set to ``True``.
+This option works only when [FontInfoCollection.embedTrueTypeFonts](../embedTrueTypeFonts/) option is set to ``true``.
 
 
 
@@ -25,7 +25,7 @@ get embedSystemFonts(): boolean
 
 ### Remarks
 
-Setting this property to ``True`` is useful if the user is on an East Asian system
+Setting this property to ``true`` is useful if the user is on an East Asian system
 and wants to create a document that is readable by others who do not have fonts for that
 language on their system. For example, a user on a Japanese system could choose to embed the
 fonts in a document so that the Japanese document would be readable on all systems.

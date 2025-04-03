@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisScaling constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisscaling/constructor/
+url: /nodejs-net/aspose.words.drawing.charts/axisscaling/constructor/
 ---
 
 ## AxisScaling() {#default}

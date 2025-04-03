@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "SaveOptions.memoryOptimization property. Gets or sets value determining if memory optimization should be performed before saving the document"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/memoryOptimization/
+url: /nodejs-net/aspose.words.saving/saveoptions/memoryOptimization/
 ---
 
 ## SaveOptions.memoryOptimization property
 
 Gets or sets value determining if memory optimization should be performed before saving the document.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
 
 
@@ -22,7 +22,7 @@ get memoryOptimization(): boolean
 
 ### Remarks
 
-Setting this option to ``True`` can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
+Setting this option to ``true`` can significantly decrease memory consumption while saving large documents at the cost of slower saving time.
 
 
 

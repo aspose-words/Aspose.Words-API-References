@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.packageCustomParts property. Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using unknown relationships."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/document/packageCustomParts/
+url: /nodejs-net/aspose.words/document/packageCustomParts/
 ---
 
 ## Document.packageCustomParts property
@@ -24,11 +24,11 @@ Do not confuse these custom parts with Custom XML Data. If you need to access Cu
 use the [Document.customXmlParts](../customXmlParts/) property.
 
 This collection contains OOXML parts whose parent is the OOXML package and they targets are of an "unknown relationship".
-For more information see [CustomPart](../../../Aspose.Words.Markup/custompart/).
+For more information see [CustomPart](../../../aspose.words.markup/custompart/).
 
 Aspose.Words loads and saves custom parts into OOXML documents only.
 
-This property cannot be ``None``.
+This property cannot be ``null``.
 
 
 
@@ -37,5 +37,5 @@ This property cannot be ``None``.
 
 * module [Aspose.Words](../../)
 * class [Document](../)
-* class [CustomPart](../../../Aspose.Words.Markup/custompart/)
+* class [CustomPart](../../../aspose.words.markup/custompart/)
 

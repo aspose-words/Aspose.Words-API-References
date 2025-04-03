@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.id property. Specifies a unique read-only persistent numerical Id for this structured document tag."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/id/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/id/
 ---
 
 ## StructuredDocumentTagRangeStart.id property
@@ -25,9 +25,9 @@ get id(): number
 Id attribute shall follow these rules:
 
 * The document shall retain structured document tag ids only if the whole document
-  is cloned [Document.clone()](../../../Aspose.Words/document/clone/#default).
+  is cloned [Document.clone()](../../../aspose.words/document/clone/#default).
   
-* During [DocumentBase.importNode()](../../../Aspose.Words/documentbase/importNode/#node_boolean)
+* During [DocumentBase.importNode()](../../../aspose.words/documentbase/importNode/#node_boolean)
   Id shall be retained if import does not cause conflicts with other structured document tag Ids in
   the target document.
   

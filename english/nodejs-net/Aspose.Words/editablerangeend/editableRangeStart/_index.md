@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "EditableRangeEnd.editableRangeStart property. Corresponding [EditableRangeStart](../../editablerangestart/), received by ID."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/editablerangeend/editableRangeStart/
+url: /nodejs-net/aspose.words/editablerangeend/editableRangeStart/
 ---
 
 ## EditableRangeEnd.editableRangeStart property

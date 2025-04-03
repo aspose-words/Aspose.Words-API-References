@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextBox.textBoxWrapMode property. Determines how text wraps inside a shape."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing/textbox/textBoxWrapMode/
+url: /nodejs-net/aspose.words.drawing/textbox/textBoxWrapMode/
 ---
 
 ## TextBox.textBoxWrapMode property

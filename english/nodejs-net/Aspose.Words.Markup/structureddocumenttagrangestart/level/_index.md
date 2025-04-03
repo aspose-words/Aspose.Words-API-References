@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.level property. Gets the level at which this structured document tag range start occurs in the document tree."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/level/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 
 ## StructuredDocumentTagRangeStart.level property

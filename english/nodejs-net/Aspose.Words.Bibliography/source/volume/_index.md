@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.volume property. Gets or sets the volume of a source."
 type: docs
 weight: 520
-url: /nodejs-net/Aspose.Words.Bibliography/source/volume/
+url: /nodejs-net/aspose.words.bibliography/source/volume/
 ---
 
 ## Source.volume property

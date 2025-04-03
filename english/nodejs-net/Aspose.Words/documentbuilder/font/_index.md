@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.font property. Returns an object that represents current font formatting properties."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/documentbuilder/font/
+url: /nodejs-net/aspose.words/documentbuilder/font/
 ---
 
 ## DocumentBuilder.font property

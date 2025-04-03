@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.BarcodeParameters class. Container class for barcode parameters to pass-through to BarcodeGenerator"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/
 ---
 
 ## BarcodeParameters class

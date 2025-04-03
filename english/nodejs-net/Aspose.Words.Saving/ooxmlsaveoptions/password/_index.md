@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OoxmlSaveOptions.password property. Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/ooxmlsaveoptions/password/
+url: /nodejs-net/aspose.words.saving/ooxmlsaveoptions/password/
 ---
 
 ## OoxmlSaveOptions.password property
@@ -20,7 +20,7 @@ get password(): string
 
 ### Remarks
 
-In order to save document without encryption this property should be ``None`` or empty string.
+In order to save document without encryption this property should be ``null`` or empty string.
 
 
 

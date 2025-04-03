@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.pageCount property. Gets the number of pages in the document as calculated by the most recent page layout operation."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words/document/pageCount/
+url: /nodejs-net/aspose.words/document/pageCount/
 ---
 
 ## Document.pageCount property

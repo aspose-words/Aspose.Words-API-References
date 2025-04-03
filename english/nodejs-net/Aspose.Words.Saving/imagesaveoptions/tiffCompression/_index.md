@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSaveOptions.tiffCompression property. Gets or sets the type of compression to apply when saving generated images to the TIFF format."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/tiffCompression/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/tiffCompression/
 ---
 
 ## ImageSaveOptions.tiffCompression property

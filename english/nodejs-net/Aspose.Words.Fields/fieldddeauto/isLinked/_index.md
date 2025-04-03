@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDdeAuto.isLinked property. Gets or sets whether to reduce the file size by not storing graphics data with the document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fieldddeauto/isLinked/
+url: /nodejs-net/aspose.words.fields/fieldddeauto/isLinked/
 ---
 
 ## FieldDdeAuto.isLinked property

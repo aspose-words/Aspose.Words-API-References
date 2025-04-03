@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldCitation.suppressTitle property. Gets or sets whether the title information is suppressed from the citation."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/fieldcitation/suppressTitle/
+url: /nodejs-net/aspose.words.fields/fieldcitation/suppressTitle/
 ---
 
 ## FieldCitation.suppressTitle property

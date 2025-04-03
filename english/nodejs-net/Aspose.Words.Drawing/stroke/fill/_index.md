@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.fill property. Gets fill formatting for the [Stroke](../)."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Drawing/stroke/fill/
+url: /nodejs-net/aspose.words.drawing/stroke/fill/
 ---
 
 ## Stroke.fill property

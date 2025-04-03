@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.type property. Gets the style type (paragraph or character)."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words/style/type/
+url: /nodejs-net/aspose.words/style/type/
 ---
 
 ## Style.type property

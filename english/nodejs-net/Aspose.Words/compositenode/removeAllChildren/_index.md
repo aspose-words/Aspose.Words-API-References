@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.removeAllChildren method. Removes all the child nodes of the current node."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/compositenode/removeAllChildren/
+url: /nodejs-net/aspose.words/compositenode/removeAllChildren/
 ---
 
 ## removeAllChildren() {#default}

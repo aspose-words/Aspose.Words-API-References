@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.tableOfFiguresLabel property. Gets or sets the name of the sequence identifier used when building a table of figures."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/tableOfFiguresLabel/
+url: /nodejs-net/aspose.words.fields/fieldtoc/tableOfFiguresLabel/
 ---
 
 ## FieldToc.tableOfFiguresLabel property

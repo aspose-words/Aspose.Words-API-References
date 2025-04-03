@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.styleName property. Gets or sets the name of the table style applied to this table."
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words/table/styleName/
+url: /nodejs-net/aspose.words/table/styleName/
 ---
 
 ## Table.styleName property

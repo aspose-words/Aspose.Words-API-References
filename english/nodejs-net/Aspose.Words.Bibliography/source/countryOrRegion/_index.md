@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.countryOrRegion property. Gets or sets the country or region of a source."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Bibliography/source/countryOrRegion/
+url: /nodejs-net/aspose.words.bibliography/source/countryOrRegion/
 ---
 
 ## Source.countryOrRegion property

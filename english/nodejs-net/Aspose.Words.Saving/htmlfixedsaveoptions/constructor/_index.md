@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlFixedSaveOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/constructor/
 ---
 
 ## HtmlFixedSaveOptions() {#default}

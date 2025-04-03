@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertStyleSeparator method. Inserts style separator into the document."
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words/documentbuilder/insertStyleSeparator/
+url: /nodejs-net/aspose.words/documentbuilder/insertStyleSeparator/
 ---
 
 ## insertStyleSeparator() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.moveToMergeField method"
 type: docs
 weight: 590
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToMergeField/
+url: /nodejs-net/aspose.words/documentbuilder/moveToMergeField/
 ---
 
 ## moveToMergeField(fieldName) {#string}
@@ -31,7 +31,7 @@ Note that this method deletes the merge field from the document after moving the
 
 ### Returns
 
-``True`` if the merge field was found and the cursor was moved; ``False`` otherwise.
+``true`` if the merge field was found and the cursor was moved; ``false`` otherwise.
 
 
 ## moveToMergeField(fieldName, isAfter, isDeleteField) {#string_boolean_boolean}
@@ -40,18 +40,18 @@ Moves the merge field to the specified merge field.
 
 
 ```js
-moveToMergeField(fieldName: stringisAfter: booleanisDeleteField: boolean)
+moveToMergeField(fieldName: string, isAfter: boolean, isDeleteField: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldName | string | The case-insensitive name of the mail merge field. |
-| isAfter | boolean | When ``True``, moves the cursor to be after the field end. When ``False``, moves the cursor to be before the field start.  |
-| isDeleteField | boolean | When ``True``, deletes the merge field. |
+| isAfter | boolean | When ``true``, moves the cursor to be after the field end. When ``false``, moves the cursor to be before the field start.  |
+| isDeleteField | boolean | When ``true``, deletes the merge field. |
 
 ### Returns
 
-``True`` if the merge field was found and the cursor was moved; ``False`` otherwise.
+``true`` if the merge field was found and the cursor was moved; ``false`` otherwise.
 
 
 ## Examples

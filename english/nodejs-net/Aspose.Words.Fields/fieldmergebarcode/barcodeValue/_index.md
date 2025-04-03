@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldMergeBarcode.barcodeValue property. Gets or sets the barcode value."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/barcodeValue/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/barcodeValue/
 ---
 
 ## FieldMergeBarcode.barcodeValue property

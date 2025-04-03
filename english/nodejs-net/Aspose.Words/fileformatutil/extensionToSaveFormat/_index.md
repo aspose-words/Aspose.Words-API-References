@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FileFormatUtil.extensionToSaveFormat method. Converts a file name extension into a [SaveFormat](../../saveformat/) value."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/fileformatutil/extensionToSaveFormat/
+url: /nodejs-net/aspose.words/fileformatutil/extensionToSaveFormat/
 ---
 
 ## extensionToSaveFormat(extension) {#string}
@@ -34,7 +34,7 @@ If the extension cannot be recognized, returns [SaveFormat.Unknown](../../savefo
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentNullException)) | Throws if the parameter is ``None``. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws if the parameter is ``null``. |
 
 ### Examples
 

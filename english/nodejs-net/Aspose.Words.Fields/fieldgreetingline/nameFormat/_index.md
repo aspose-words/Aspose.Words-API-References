@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldGreetingLine.nameFormat property. Gets or sets the format of the name included in the field."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldgreetingline/nameFormat/
+url: /nodejs-net/aspose.words.fields/fieldgreetingline/nameFormat/
 ---
 
 ## FieldGreetingLine.nameFormat property

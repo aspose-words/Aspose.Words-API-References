@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldFormat.dateTimeFormat property. Gets or sets a formatting that is applied to a date and time field result"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldformat/dateTimeFormat/
+url: /nodejs-net/aspose.words.fields/fieldformat/dateTimeFormat/
 ---
 
 ## FieldFormat.dateTimeFormat property

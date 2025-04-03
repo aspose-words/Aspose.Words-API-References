@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.MailMergeCheckErrors enumeration. Specifies how Microsoft Word will report errors detected during mail merge."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Settings/mailmergecheckerrors/
+url: /nodejs-net/aspose.words.settings/mailmergecheckerrors/
 ---
 
 ## MailMergeCheckErrors enumeration

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontFallbackSettings.load method"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/fontfallbacksettings/load/
+url: /nodejs-net/aspose.words.fonts/fontfallbacksettings/load/
 ---
 
 ## load(fileName) {#string}

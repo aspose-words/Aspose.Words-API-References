@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Node.toString method"
 type: docs
 weight: 510
-url: /nodejs-net/Aspose.Words/node/toString/
+url: /nodejs-net/aspose.words/node/toString/
 ---
 
 ## toString(saveFormat) {#saveformat}
@@ -38,7 +38,7 @@ toString(saveOptions: Aspose.Words.Saving.SaveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveOptions | [SaveOptions](../../../Aspose.Words.Saving/saveoptions/) | Specifies the options that control how the node is saved. |
+| saveOptions | [SaveOptions](../../../aspose.words.saving/saveoptions/) | Specifies the options that control how the node is saved. |
 
 ### Returns
 

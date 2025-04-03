@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldSubject method. "
 type: docs
 weight: 920
-url: /nodejs-net/Aspose.Words/field/asFieldSubject/
+url: /nodejs-net/aspose.words/field/asFieldSubject/
 ---
 
 ## asFieldSubject() {#default}

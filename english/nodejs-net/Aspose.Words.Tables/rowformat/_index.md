@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Tables.RowFormat class. Represents all formatting for a table row"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Tables/rowformat/
+url: /nodejs-net/aspose.words.tables/rowformat/
 ---
 
 ## RowFormat class

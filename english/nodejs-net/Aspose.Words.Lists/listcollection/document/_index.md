@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListCollection.document property. Gets the owner document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Lists/listcollection/document/
+url: /nodejs-net/aspose.words.lists/listcollection/document/
 ---
 
 ## ListCollection.document property

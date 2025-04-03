@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlLoadOptions.supportVml property. Gets or sets a value indicating whether to support VML images."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Loading/htmlloadoptions/supportVml/
+url: /nodejs-net/aspose.words.loading/htmlloadoptions/supportVml/
 ---
 
 ## HtmlLoadOptions.supportVml property

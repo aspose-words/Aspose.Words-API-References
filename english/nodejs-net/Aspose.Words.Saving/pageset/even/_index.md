@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSet.even property. Gets a set with all the even pages of the document in their original order."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/pageset/even/
+url: /nodejs-net/aspose.words.saving/pageset/even/
 ---
 
 ## PageSet.even property

@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionOptions.showOriginalRevision property. Allows to specify whether the original text should be shown instead of revised one"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/showOriginalRevision/
+url: /nodejs-net/aspose.words.layout/revisionoptions/showOriginalRevision/
 ---
 
 ## RevisionOptions.showOriginalRevision property
 
 Allows to specify whether the original text should be shown instead of revised one.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

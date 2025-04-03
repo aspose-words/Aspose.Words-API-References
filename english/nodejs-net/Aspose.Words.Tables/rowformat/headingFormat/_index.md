@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RowFormat.headingFormat property. True if the row is repeated as a table heading on every page when the table spans more than one page."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Tables/rowformat/headingFormat/
+url: /nodejs-net/aspose.words.tables/rowformat/headingFormat/
 ---
 
 ## RowFormat.headingFormat property

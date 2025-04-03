@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.moveToStructuredDocumentTag method"
 type: docs
 weight: 620
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToStructuredDocumentTag/
+url: /nodejs-net/aspose.words/documentbuilder/moveToStructuredDocumentTag/
 ---
 
 ## moveToStructuredDocumentTag(structuredDocumentTagIndex, characterIndex) {#number_number}
@@ -15,7 +15,7 @@ Moves the cursor to a structured document tag in the current section.
 
 
 ```js
-moveToStructuredDocumentTag(structuredDocumentTagIndex: numbercharacterIndex: number)
+moveToStructuredDocumentTag(structuredDocumentTagIndex: number, characterIndex: number)
 ```
 
 | Parameter | Type | Description |
@@ -42,12 +42,12 @@ Moves the cursor to the structured document tag.
 
 
 ```js
-moveToStructuredDocumentTag(structuredDocumentTag: Aspose.Words.Markup.StructuredDocumentTagcharacterIndex: number)
+moveToStructuredDocumentTag(structuredDocumentTag: Aspose.Words.Markup.StructuredDocumentTag, characterIndex: number)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| structuredDocumentTag | [StructuredDocumentTag](../../../Aspose.Words.Markup/structureddocumenttag/) | The structured document tag to move to. |
+| structuredDocumentTag | [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) | The structured document tag to move to. |
 | characterIndex | number | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
 
 ## See Also

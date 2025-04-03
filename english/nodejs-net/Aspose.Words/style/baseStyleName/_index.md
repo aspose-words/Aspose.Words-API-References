@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.baseStyleName property. Gets/sets the name of the style this style is based on."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/style/baseStyleName/
+url: /nodejs-net/aspose.words/style/baseStyleName/
 ---
 
 ## Style.baseStyleName property

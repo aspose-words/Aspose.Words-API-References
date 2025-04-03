@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SignatureLineOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/signaturelineoptions/constructor/
+url: /nodejs-net/aspose.words/signaturelineoptions/constructor/
 ---
 
 ## SignatureLineOptions() {#default}

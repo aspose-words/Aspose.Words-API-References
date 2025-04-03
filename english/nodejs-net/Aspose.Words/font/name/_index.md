@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.name property. Gets or sets the name of the font."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/font/name/
+url: /nodejs-net/aspose.words/font/name/
 ---
 
 ## Font.name property
@@ -30,6 +30,21 @@ and [Font.nameOther](../nameOther/) to the specified value.
 
 ### Examples
 
+Shows how to format a run of text using its font property.
+
+```js
+let doc = new aw.Document();
+let run = new aw.Run(doc, "Hello world!");
+
+let font = run.font;
+font.name = "Courier New";
+font.size = 36;
+font.highlightColor = "#FFFF00";
+
+doc.firstSection.body.firstParagraph.appendChild(run);
+doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
+```
+
 Shows how to insert formatted text using DocumentBuilder.
 
 ```js
@@ -45,21 +60,6 @@ font.name = "Courier New";
 font.underline = aw.Underline.Dash;
 
 builder.write("Hello world!");
-```
-
-Shows how to format a run of text using its font property.
-
-```js
-let doc = new aw.Document();
-let run = new aw.Run(doc, "Hello world!");
-
-let font = run.font;
-font.name = "Courier New";
-font.size = 36;
-font.highlightColor = "#FFFF00";
-
-doc.firstSection.body.firstParagraph.appendChild(run);
-doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 ### See Also

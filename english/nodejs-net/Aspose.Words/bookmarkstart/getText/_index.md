@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarkStart.getText method. Returns an empty string."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/bookmarkstart/getText/
+url: /nodejs-net/aspose.words/bookmarkstart/getText/
 ---
 
 ## getText() {#default}

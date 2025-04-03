@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.cropRight property. Defines the fraction of picture removal from the right side."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/cropRight/
+url: /nodejs-net/aspose.words.drawing/imagedata/cropRight/
 ---
 
 ## ImageData.cropRight property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertFootnote method"
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/documentbuilder/insertFootnote/
+url: /nodejs-net/aspose.words/documentbuilder/insertFootnote/
 ---
 
 ## insertFootnote(footnoteType, footnoteText) {#footnotetype_string}
@@ -15,12 +15,12 @@ Inserts a footnote or endnote into the document.
 
 
 ```js
-insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteTypefootnoteText: string)
+insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteType, footnoteText: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| footnoteType | [FootnoteType](../../../Aspose.Words.Notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
+| footnoteType | [FootnoteType](../../../aspose.words.notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
 | footnoteText | string | Specifies the text of the footnote. |
 
 ### Returns
@@ -34,12 +34,12 @@ Inserts a footnote or endnote into the document.
 
 
 ```js
-insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteTypefootnoteText: stringreferenceMark: string)
+insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteType, footnoteText: string, referenceMark: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| footnoteType | [FootnoteType](../../../Aspose.Words.Notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
+| footnoteType | [FootnoteType](../../../aspose.words.notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
 | footnoteText | string | Specifies the text of the footnote. |
 | referenceMark | string | Specifies the custom reference mark of the footnote. |
 

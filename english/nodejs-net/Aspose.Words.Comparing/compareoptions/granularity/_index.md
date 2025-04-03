@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompareOptions.granularity property. Specifies whether changes are tracked by character or by word."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Comparing/compareoptions/granularity/
+url: /nodejs-net/aspose.words.comparing/compareoptions/granularity/
 ---
 
 ## CompareOptions.granularity property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.allowCellSpacing property. Gets or sets the Allow spacing between cells option."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/table/allowCellSpacing/
+url: /nodejs-net/aspose.words/table/allowCellSpacing/
 ---
 
 ## Table.allowCellSpacing property

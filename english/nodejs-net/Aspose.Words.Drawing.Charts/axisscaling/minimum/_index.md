@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisScaling.minimum property. Gets or sets minimum value of the axis."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisscaling/minimum/
+url: /nodejs-net/aspose.words.drawing.charts/axisscaling/minimum/
 ---
 
 ## AxisScaling.minimum property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Row.isFirstRow property. True if this is the first row in a table; false otherwise."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Tables/row/isFirstRow/
+url: /nodejs-net/aspose.words.tables/row/isFirstRow/
 ---
 
 ## Row.isFirstRow property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLabel.labelString property. Gets a string representation of list label."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Lists/listlabel/labelString/
+url: /nodejs-net/aspose.words.lists/listlabel/labelString/
 ---
 
 ## ListLabel.labelString property

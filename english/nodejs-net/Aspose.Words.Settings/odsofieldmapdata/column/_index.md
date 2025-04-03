@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdsoFieldMapData.column property. Specifies the zero-based index of the column within an external data source which shall be mapped to the local name of a specific MERGEFIELD field"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdata/column/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdata/column/
 ---
 
 ## OdsoFieldMapData.column property

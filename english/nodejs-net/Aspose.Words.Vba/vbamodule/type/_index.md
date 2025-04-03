@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VbaModule.type property. Specifies whether the module is a procedural module, document module, class module, or designer module."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Vba/vbamodule/type/
+url: /nodejs-net/aspose.words.vba/vbamodule/type/
 ---
 
 ## VbaModule.type property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PreferredWidth.type property. Gets the unit of measure used for this preferred width value."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Tables/preferredwidth/type/
+url: /nodejs-net/aspose.words.tables/preferredwidth/type/
 ---
 
 ## PreferredWidth.type property

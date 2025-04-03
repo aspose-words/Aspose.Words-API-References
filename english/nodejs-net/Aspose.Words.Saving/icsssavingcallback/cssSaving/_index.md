@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ICssSavingCallback.cssSaving method. Called when Aspose.Words saves an CSS (Cascading Style Sheet)."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/icsssavingcallback/cssSaving/
+url: /nodejs-net/aspose.words.saving/icsssavingcallback/cssSaving/
 ---
 
 ## cssSaving(args) {#csssavingargs}

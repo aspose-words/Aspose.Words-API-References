@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.LegendPosition enumeration. Specifies the possible positions for a chart legend."
 type: docs
 weight: 470
-url: /nodejs-net/Aspose.Words.Drawing.Charts/legendposition/
+url: /nodejs-net/aspose.words.drawing.charts/legendposition/
 ---
 
 ## LegendPosition enumeration

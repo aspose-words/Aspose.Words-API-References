@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartFormat.setDefaultFill method. Resets the fill of the chart element to have the default value."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartformat/setDefaultFill/
+url: /nodejs-net/aspose.words.drawing.charts/chartformat/setDefaultFill/
 ---
 
 ## setDefaultFill() {#default}

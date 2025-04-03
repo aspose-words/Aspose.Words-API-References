@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Fill.gradientAngle property. Gets or sets the angle of the gradient fill."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/fill/gradientAngle/
+url: /nodejs-net/aspose.words.drawing/fill/gradientAngle/
 ---
 
 ## Fill.gradientAngle property

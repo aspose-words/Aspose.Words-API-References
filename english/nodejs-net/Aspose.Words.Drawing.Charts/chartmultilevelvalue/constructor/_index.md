@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartMultilevelValue constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartmultilevelvalue/constructor/
+url: /nodejs-net/aspose.words.drawing.charts/chartmultilevelvalue/constructor/
 ---
 
 ## ChartMultilevelValue(level1, level2, level3) {#string_string_string}
@@ -15,7 +15,7 @@ Initializes a new instance of this class that represents a three-level value.
 
 
 ```js
-ChartMultilevelValue(level1: stringlevel2: stringlevel3: string)
+ChartMultilevelValue(level1: string, level2: string, level3: string)
 ```
 
 | Parameter | Type | Description |
@@ -30,7 +30,7 @@ Initializes a new instance of this class that represents a two-level value.
 
 
 ```js
-ChartMultilevelValue(level1: stringlevel2: string)
+ChartMultilevelValue(level1: string, level2: string)
 ```
 
 | Parameter | Type | Description |

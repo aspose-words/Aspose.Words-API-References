@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ThemeColors.accent4 property. Specifies color Accent 4."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Themes/themecolors/accent4/
+url: /nodejs-net/aspose.words.themes/themecolors/accent4/
 ---
 
 ## ThemeColors.accent4 property

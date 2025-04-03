@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.AI.AnthropicAiModel class. An abstract class representing the integration with Anthropic’s AI models within the Aspose.Words."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.AI/anthropicaimodel/
+url: /nodejs-net/aspose.words.ai/anthropicaimodel/
 ---
 
 ## AnthropicAiModel class

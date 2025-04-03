@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSubstitutionSettings.tableSubstitution property. Settings related to table substitution rule."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fonts/fontsubstitutionsettings/tableSubstitution/
+url: /nodejs-net/aspose.words.fonts/fontsubstitutionsettings/tableSubstitution/
 ---
 
 ## FontSubstitutionSettings.tableSubstitution property

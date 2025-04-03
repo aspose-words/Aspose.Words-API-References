@@ -3,15 +3,15 @@ title: ShadowFormat.visible property
 linktitle: visible property
 articleTitle: visible property
 second_title: Aspose.Words for NodeJs
-description: "ShadowFormat.visible property. Returns ``True`` if the formatting applied to this instance is visible."
+description: "ShadowFormat.visible property. Returns ``true`` if the formatting applied to this instance is visible."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/shadowformat/visible/
+url: /nodejs-net/aspose.words.drawing/shadowformat/visible/
 ---
 
 ## ShadowFormat.visible property
 
-Returns ``True`` if the formatting applied to this instance is visible.
+Returns ``true`` if the formatting applied to this instance is visible.
 
 
 
@@ -21,7 +21,7 @@ get visible(): boolean
 
 ### Remarks
 
-Unlike [ShadowFormat.clear()](../clear/#default), assigning ``False`` to Visible does not clear the formatting,
+Unlike [ShadowFormat.clear()](../clear/#default), assigning ``false`` to Visible does not clear the formatting,
 it only hides the shape effect.
 
 

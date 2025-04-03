@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlFixedSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/saveFormat/
 ---
 
 ## HtmlFixedSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.HtmlFixed](../../../Aspose.Words/saveformat/#HtmlFixed).
+Can only be [SaveFormat.HtmlFixed](../../../aspose.words/saveformat/#HtmlFixed).
 
 
 

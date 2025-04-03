@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.broadcastTitle property. Gets or sets the broadcast title of a source."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Bibliography/source/broadcastTitle/
+url: /nodejs-net/aspose.words.bibliography/source/broadcastTitle/
 ---
 
 ## Source.broadcastTitle property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LoadOptions.ignoreOleData property. Specifies whether to ignore the OLE data."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/ignoreOleData/
+url: /nodejs-net/aspose.words.loading/loadoptions/ignoreOleData/
 ---
 
 ## LoadOptions.ignoreOleData property
@@ -22,7 +22,7 @@ get ignoreOleData(): boolean
 
 Ignoring OLE data may reduce memory consumption and increase performance without data lost in a case when destination format does not support OLE objects.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

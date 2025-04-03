@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Run constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/run/constructor/
+url: /nodejs-net/aspose.words/run/constructor/
 ---
 
 ## Run(doc) {#documentbase}
@@ -26,7 +26,7 @@ Run(doc: Aspose.Words.DocumentBase)
 ### Remarks
 
 When [Run](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append [Run](../) to the document use [CompositeNode.insertAfter()](../../compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../compositenode/insertBefore/#node_node)
 on the paragraph where you want the run inserted.
@@ -41,7 +41,7 @@ Initializes a new instance of the **Run** class.
 
 
 ```js
-Run(doc: Aspose.Words.DocumentBasetext: string)
+Run(doc: Aspose.Words.DocumentBase, text: string)
 ```
 
 | Parameter | Type | Description |
@@ -52,7 +52,7 @@ Run(doc: Aspose.Words.DocumentBasetext: string)
 ### Remarks
 
 When [Run](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append [Run](../) to the document use [CompositeNode.insertAfter()](../../compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../compositenode/insertBefore/#node_node)
 on the paragraph where you want the run inserted.

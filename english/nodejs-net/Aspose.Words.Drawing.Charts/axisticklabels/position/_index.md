@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisTickLabels.position property. Gets or sets the position of the tick labels on the axis."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisticklabels/position/
+url: /nodejs-net/aspose.words.drawing.charts/axisticklabels/position/
 ---
 
 ## AxisTickLabels.position property

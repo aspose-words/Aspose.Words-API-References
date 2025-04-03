@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfo.charset property. Gets or sets the character set for the font."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/charset/
+url: /nodejs-net/aspose.words.fonts/fontinfo/charset/
 ---
 
 ## FontInfo.charset property

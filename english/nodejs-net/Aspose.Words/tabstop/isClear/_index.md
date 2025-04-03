@@ -3,15 +3,15 @@ title: TabStop.isClear property
 linktitle: isClear property
 articleTitle: isClear property
 second_title: Aspose.Words for NodeJs
-description: "TabStop.isClear property. Returns ``True`` if this tab stop clears any existing tab stops in this position."
+description: "TabStop.isClear property. Returns ``true`` if this tab stop clears any existing tab stops in this position."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/tabstop/isClear/
+url: /nodejs-net/aspose.words/tabstop/isClear/
 ---
 
 ## TabStop.isClear property
 
-Returns ``True`` if this tab stop clears any existing tab stops in this position.
+Returns ``true`` if this tab stop clears any existing tab stops in this position.
 
 
 

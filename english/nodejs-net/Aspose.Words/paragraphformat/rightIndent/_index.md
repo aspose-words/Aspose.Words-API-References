@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.rightIndent property. Gets or sets the value (in points) that represents the right indent for paragraph."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/paragraphformat/rightIndent/
+url: /nodejs-net/aspose.words/paragraphformat/rightIndent/
 ---
 
 ## ParagraphFormat.rightIndent property

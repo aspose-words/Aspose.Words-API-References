@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSettings.setFontsFolder method. Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/setFontsFolder/
+url: /nodejs-net/aspose.words.fonts/fontsettings/setFontsFolder/
 ---
 
 ## setFontsFolder(fontFolder, recursive) {#string_boolean}
@@ -17,7 +17,7 @@ This is a shortcut to [FontSettings.setFontsFolders()](../setFontsFolders/#strin
 
 
 ```js
-setFontsFolder(fontFolder: stringrecursive: boolean)
+setFontsFolder(fontFolder: string, recursive: boolean)
 ```
 
 | Parameter | Type | Description |

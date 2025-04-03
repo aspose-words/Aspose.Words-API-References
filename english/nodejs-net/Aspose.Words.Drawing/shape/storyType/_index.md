@@ -3,15 +3,15 @@ title: Shape.storyType property
 linktitle: storyType property
 articleTitle: storyType property
 second_title: Aspose.Words for NodeJs
-description: "Shape.storyType property. Returns [StoryType.Textbox](../../../Aspose.Words/storytype/#Textbox)."
+description: "Shape.storyType property. Returns [StoryType.Textbox](../../../aspose.words/storytype/#Textbox)."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Drawing/shape/storyType/
+url: /nodejs-net/aspose.words.drawing/shape/storyType/
 ---
 
 ## Shape.storyType property
 
-Returns [StoryType.Textbox](../../../Aspose.Words/storytype/#Textbox).
+Returns [StoryType.Textbox](../../../aspose.words/storytype/#Textbox).
 
 
 

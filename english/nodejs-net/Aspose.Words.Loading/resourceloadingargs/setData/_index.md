@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ResourceLoadingArgs.setData method. Sets user provided data of the resource which is used if [IResourceLoadingCallback.resourceLoading()](../../iresourceloadingcallback/resourceLoading/#resourceloadingargs) returns [ResourceLoadingAction.UserProvided](../../resourceloadingaction/#UserProvided)."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Loading/resourceloadingargs/setData/
+url: /nodejs-net/aspose.words.loading/resourceloadingargs/setData/
 ---
 
 ## setData(data) {#number[]}

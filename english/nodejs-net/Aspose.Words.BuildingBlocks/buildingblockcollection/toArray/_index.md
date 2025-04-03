@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuildingBlockCollection.toArray method. Copies all building blocks from the collection to a new array of building blocks."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.BuildingBlocks/buildingblockcollection/toArray/
+url: /nodejs-net/aspose.words.buildingblocks/buildingblockcollection/toArray/
 ---
 
 ## toArray() {#default}

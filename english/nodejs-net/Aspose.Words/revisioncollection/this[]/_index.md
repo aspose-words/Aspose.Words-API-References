@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/revisioncollection/this[]/
+url: /nodejs-net/aspose.words/revisioncollection/this[]/
 ---
 
 ## RevisionCollection.this[] property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Replacing.FindReplaceOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/constructor/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/constructor/
 ---
 
 ## FindReplaceOptions() {#default}
@@ -50,7 +50,7 @@ Initializes a new instance of the FindReplaceOptions class with the specified di
 
 
 ```js
-FindReplaceOptions(direction: Aspose.Words.Replacing.FindReplaceDirectionreplacingCallback: Aspose.Words.Replacing.IReplacingCallback)
+FindReplaceOptions(direction: Aspose.Words.Replacing.FindReplaceDirection, replacingCallback: Aspose.Words.Replacing.IReplacingCallback)
 ```
 
 | Parameter | Type | Description |

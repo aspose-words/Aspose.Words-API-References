@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.remove method. Removes itself from the parent."
 type: docs
 weight: 500
-url: /nodejs-net/Aspose.Words/node/remove/
+url: /nodejs-net/aspose.words/node/remove/
 ---
 
 ## remove() {#default}

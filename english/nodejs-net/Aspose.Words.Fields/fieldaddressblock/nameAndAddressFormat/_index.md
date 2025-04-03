@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldAddressBlock.nameAndAddressFormat property. Gets or sets the name and address format."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldaddressblock/nameAndAddressFormat/
+url: /nodejs-net/aspose.words.fields/fieldaddressblock/nameAndAddressFormat/
 ---
 
 ## FieldAddressBlock.nameAndAddressFormat property

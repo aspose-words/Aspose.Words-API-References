@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldAutoText constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldautotext/constructor/
+url: /nodejs-net/aspose.words.fields/fieldautotext/constructor/
 ---
 
 ## FieldAutoText() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.moveToBookmark method"
 type: docs
 weight: 530
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToBookmark/
+url: /nodejs-net/aspose.words/documentbuilder/moveToBookmark/
 ---
 
 ## moveToBookmark(bookmarkName) {#string}
@@ -27,7 +27,7 @@ moveToBookmark(bookmarkName: string)
 Moves the cursor to a position just after the start of the bookmark with the
 specified name.
 
-The comparison is not case-sensitive. If the bookmark was not found, ``False`` is
+The comparison is not case-sensitive. If the bookmark was not found, ``false`` is
 returned and the cursor is not moved.
 
 Inserting new text does not replace existing text of the bookmark.
@@ -42,7 +42,7 @@ text will not be visible because it becomes part of the field code.
 
 ### Returns
 
-``True`` if the bookmark was found; ``False`` otherwise.
+``true`` if the bookmark was found; ``false`` otherwise.
 
 
 ## moveToBookmark(bookmarkName, isStart, isAfter) {#string_boolean_boolean}
@@ -51,14 +51,14 @@ Moves the cursor to a bookmark with greater precision.
 
 
 ```js
-moveToBookmark(bookmarkName: stringisStart: booleanisAfter: boolean)
+moveToBookmark(bookmarkName: string, isStart: boolean, isAfter: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | bookmarkName | string | The name of the bookmark to move the cursor to. |
-| isStart | boolean | When ``True``, moves the cursor to the beginning of the bookmark. When ``False``, moves the cursor to the end of the bookmark. |
-| isAfter | boolean | When ``True``, moves the cursor to be after the bookmark start or end position. When ``False``, moves the cursor to be before the bookmark start or end position. |
+| isStart | boolean | When ``true``, moves the cursor to the beginning of the bookmark. When ``false``, moves the cursor to the end of the bookmark. |
+| isAfter | boolean | When ``true``, moves the cursor to be after the bookmark start or end position. When ``false``, moves the cursor to be before the bookmark start or end position. |
 
 ### Remarks
 
@@ -66,7 +66,7 @@ Moves the cursor to a position before or after the bookmark start or end.
 
 If desired position is not at inline level, moves to the next paragraph.
 
-The comparison is not case-sensitive. If the bookmark was not found, ``False`` is
+The comparison is not case-sensitive. If the bookmark was not found, ``false`` is
 returned and the cursor is not moved.
 
 
@@ -74,7 +74,7 @@ returned and the cursor is not moved.
 
 ### Returns
 
-``True`` if the bookmark was found; ``False`` otherwise.
+``true`` if the bookmark was found; ``false`` otherwise.
 
 
 ## Examples

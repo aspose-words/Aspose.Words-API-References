@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.startArrowType property. Defines the arrowhead for the start of a stroke."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing/stroke/startArrowType/
+url: /nodejs-net/aspose.words.drawing/stroke/startArrowType/
 ---
 
 ## Stroke.startArrowType property

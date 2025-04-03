@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldDocVariable method. "
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/field/asFieldDocVariable/
+url: /nodejs-net/aspose.words/field/asFieldDocVariable/
 ---
 
 ## asFieldDocVariable() {#default}

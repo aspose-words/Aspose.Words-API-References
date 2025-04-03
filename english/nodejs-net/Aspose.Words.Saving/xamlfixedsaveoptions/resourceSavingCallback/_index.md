@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XamlFixedSaveOptions.resourceSavingCallback property. Allows to control how resources (images and fonts) are saved when a document is exported to fixed page Xaml format."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/xamlfixedsaveoptions/resourceSavingCallback/
+url: /nodejs-net/aspose.words.saving/xamlfixedsaveoptions/resourceSavingCallback/
 ---
 
 ## XamlFixedSaveOptions.resourceSavingCallback property

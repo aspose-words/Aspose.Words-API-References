@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AdjustmentCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/adjustmentcollection/this[]/
+url: /nodejs-net/aspose.words.drawing/adjustmentcollection/this[]/
 ---
 
 ## AdjustmentCollection.this[] property

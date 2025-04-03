@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Layout.ContinuousSectionRestart enumeration. Represents different behaviors when computing page numbers in a continuous section that restarts page numbering."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Layout/continuoussectionrestart/
+url: /nodejs-net/aspose.words.layout/continuoussectionrestart/
 ---
 
 ## ContinuousSectionRestart enumeration

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "NodeCollection.insert method. Inserts a node into the collection at the specified index."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/nodecollection/insert/
+url: /nodejs-net/aspose.words/nodecollection/insert/
 ---
 
 ## insert(index, node) {#number_node}
@@ -15,7 +15,7 @@ Inserts a node into the collection at the specified index.
 
 
 ```js
-insert(index: numbernode: Aspose.Words.Node)
+insert(index: number, node: Aspose.Words.Node)
 ```
 
 | Parameter | Type | Description |

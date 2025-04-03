@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.IRevisionCriteria class. Implement this interface if you want to control when certain [Revision](../revision/) should be accepted/rejected or not by the [RevisionCollection.accept()](../revisioncollection/accept/#irevisioncriteria)/[RevisionCollection.reject()](../revisioncollection/reject/#irevisioncriteria) methods."
 type: docs
 weight: 590
-url: /nodejs-net/Aspose.Words/irevisioncriteria/
+url: /nodejs-net/aspose.words/irevisioncriteria/
 ---
 
 ## IRevisionCriteria class

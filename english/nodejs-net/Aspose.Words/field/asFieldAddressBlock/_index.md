@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldAddressBlock method. "
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/field/asFieldAddressBlock/
+url: /nodejs-net/aspose.words/field/asFieldAddressBlock/
 ---
 
 ## asFieldAddressBlock() {#default}

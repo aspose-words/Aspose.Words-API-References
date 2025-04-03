@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Document.updateWordCount method"
 type: docs
 weight: 800
-url: /nodejs-net/Aspose.Words/document/updateWordCount/
+url: /nodejs-net/aspose.words/document/updateWordCount/
 ---
 
 ## updateWordCount() {#default}
@@ -24,7 +24,7 @@ updateWordCount()
 properties in the [Document.builtInDocumentProperties](../builtInDocumentProperties/) collection of the [Document](../).
 
 Note that [Document.updateWordCount()](./#default) does not update number of lines and pages properties.
-Use the [Document.updateWordCount()](./#default) overload and pass ``True`` value as a parameter to do that.
+Use the [Document.updateWordCount()](./#default) overload and pass ``true`` value as a parameter to do that.
 
 When you use an evaluation version, the evaluation watermark will also be included
 in the word count.
@@ -34,7 +34,7 @@ in the word count.
 
 ## updateWordCount(updateLinesCount) {#boolean}
 
-Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.lines](../../../Aspose.Words.Properties/builtindocumentproperties/lines/) property.
+Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.lines](../../../aspose.words.properties/builtindocumentproperties/lines/) property.
 
 
 
@@ -44,7 +44,7 @@ updateWordCount(updateLinesCount: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| updateLinesCount | boolean | ``True`` if number of lines in the document shall be calculated. |
+| updateLinesCount | boolean | ``true`` if number of lines in the document shall be calculated. |
 
 ### Remarks
 

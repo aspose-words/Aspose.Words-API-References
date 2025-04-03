@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionOptions.showRevisionBars property. Allows to specify whether revision bars should be rendered near lines containing revised content"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/showRevisionBars/
+url: /nodejs-net/aspose.words.layout/revisionoptions/showRevisionBars/
 ---
 
 ## RevisionOptions.showRevisionBars property
 
 Allows to specify whether revision bars should be rendered near lines containing revised content.
-Default value is ``True``.
+Default value is ``true``.
 
 
 

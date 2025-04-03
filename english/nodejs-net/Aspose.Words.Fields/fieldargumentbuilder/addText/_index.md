@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldArgumentBuilder.addText method. Adds a plain text to the argument."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldargumentbuilder/addText/
+url: /nodejs-net/aspose.words.fields/fieldargumentbuilder/addText/
 ---
 
 ## addText(text) {#string}

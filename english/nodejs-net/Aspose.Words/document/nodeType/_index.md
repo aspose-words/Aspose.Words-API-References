@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.nodeType property. Returns [NodeType.Document](../../nodetype/#Document)."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/document/nodeType/
+url: /nodejs-net/aspose.words/document/nodeType/
 ---
 
 ## Document.nodeType property

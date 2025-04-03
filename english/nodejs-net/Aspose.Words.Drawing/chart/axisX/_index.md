@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Chart.axisX property. Provides access to properties of the primary X axis of the chart."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/chart/axisX/
+url: /nodejs-net/aspose.words.drawing/chart/axisX/
 ---
 
 ## Chart.axisX property

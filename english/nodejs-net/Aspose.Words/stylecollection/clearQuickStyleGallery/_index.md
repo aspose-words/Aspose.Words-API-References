@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StyleCollection.clearQuickStyleGallery method. Removes all styles from the Quick Style Gallery panel."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/stylecollection/clearQuickStyleGallery/
+url: /nodejs-net/aspose.words/stylecollection/clearQuickStyleGallery/
 ---
 
 ## clearQuickStyleGallery() {#default}

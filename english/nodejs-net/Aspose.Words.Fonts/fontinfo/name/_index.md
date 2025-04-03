@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfo.name property. Gets the name of the font."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/name/
+url: /nodejs-net/aspose.words.fonts/fontinfo/name/
 ---
 
 ## FontInfo.name property
@@ -20,7 +20,7 @@ get name(): string
 
 ### Remarks
 
-Cannot be ``None``. Can be an empty string.
+Cannot be ``null``. Can be an empty string.
 
 
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldGoToButton.displayText property. Gets or sets the text of the button that appears in the document, such that it can be selected to activate the jump."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldgotobutton/displayText/
+url: /nodejs-net/aspose.words.fields/fieldgotobutton/displayText/
 ---
 
 ## FieldGoToButton.displayText property

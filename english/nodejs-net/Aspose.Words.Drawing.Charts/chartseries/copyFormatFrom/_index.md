@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeries.copyFormatFrom method. Copies default data point format from the data point with the specified index."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/copyFormatFrom/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/copyFormatFrom/
 ---
 
 ## copyFormatFrom(dataPointIndex) {#number}

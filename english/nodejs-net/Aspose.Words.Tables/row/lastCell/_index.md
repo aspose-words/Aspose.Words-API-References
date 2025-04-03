@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Row.lastCell property. Returns the last [Cell](../../cell/) in the row."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Tables/row/lastCell/
+url: /nodejs-net/aspose.words.tables/row/lastCell/
 ---
 
 ## Row.lastCell property

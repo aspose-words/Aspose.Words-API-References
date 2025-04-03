@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.alignment property. Gets or sets text alignment for the paragraph."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/paragraphformat/alignment/
+url: /nodejs-net/aspose.words/paragraphformat/alignment/
 ---
 
 ## ParagraphFormat.alignment property

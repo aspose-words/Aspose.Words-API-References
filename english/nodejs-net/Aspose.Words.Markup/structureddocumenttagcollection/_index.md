@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Markup.StructuredDocumentTagCollection class. A collection of [IStructuredDocumentTag](../istructureddocumenttag/) instances that represent the structured document tags in the specified range"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagcollection/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagcollection/
 ---
 
 ## StructuredDocumentTagCollection class

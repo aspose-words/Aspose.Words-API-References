@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Log class. "
 type: docs
 weight: 800
-url: /nodejs-net/Aspose.Words/log/
+url: /nodejs-net/aspose.words/log/
 ---
 
 ## Log class

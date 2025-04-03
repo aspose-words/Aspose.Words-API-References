@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.style property. Gets or sets the Style of the structured document tag."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/style/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/style/
 ---
 
 ## StructuredDocumentTag.style property
@@ -20,7 +20,7 @@ get style(): Aspose.Words.Style
 
 ### Remarks
 
-Only [StyleType.Character](../../../Aspose.Words/styletype/#Character) style or [StyleType.Paragraph](../../../Aspose.Words/styletype/#Paragraph) style with linked character style can be set.
+Only [StyleType.Character](../../../aspose.words/styletype/#Character) style or [StyleType.Paragraph](../../../aspose.words/styletype/#Paragraph) style with linked character style can be set.
 
 
 

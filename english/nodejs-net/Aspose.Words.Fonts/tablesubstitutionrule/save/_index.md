@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.TableSubstitutionRule.save method"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/save/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 
 ## save(fileName) {#string}

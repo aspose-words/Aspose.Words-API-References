@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.insertBreak method. Inserts a break of the specified type into the document."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/documentbuilder/insertBreak/
+url: /nodejs-net/aspose.words/documentbuilder/insertBreak/
 ---
 
 ## insertBreak(breakType) {#breaktype}

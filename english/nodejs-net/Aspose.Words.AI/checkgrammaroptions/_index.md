@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.AI.CheckGrammarOptions class. Allows to specify various options while checking grammar of a document using AI."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.AI/checkgrammaroptions/
+url: /nodejs-net/aspose.words.ai/checkgrammaroptions/
 ---
 
 ## CheckGrammarOptions class
@@ -23,9 +23,9 @@ Allows to specify various options while checking grammar of a document using AI.
 
 | Name | Description |
 | --- | --- |
-| [improveStylistics](./improveStylistics/) | Allows to specify either AI will try to improve stylistics of the text being proofed. Default value is ``False``. |
-| [makeRevisions](./makeRevisions/) | Allows to specify either final or revised document to be returned with proofed text. Default value is ``False``. |
-| [preserveFormatting](./preserveFormatting/) | Allows to specify either [IAiModelText.checkGrammar()](../iaimodeltext/checkGrammar/#document_checkgrammaroptions) will try to preserve layout and formatting of the original document, or not. Default value is ``True``. |
+| [improveStylistics](./improveStylistics/) | Allows to specify either AI will try to improve stylistics of the text being proofed. Default value is ``false``. |
+| [makeRevisions](./makeRevisions/) | Allows to specify either final or revised document to be returned with proofed text. Default value is ``false``. |
+| [preserveFormatting](./preserveFormatting/) | Allows to specify either [IAiModelText.checkGrammar()](../iaimodeltext/checkGrammar/#document_checkgrammaroptions) will try to preserve layout and formatting of the original document, or not. Default value is ``true``. |
 
 ### See Also
 

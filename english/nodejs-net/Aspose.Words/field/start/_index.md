@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.start property. Gets the node that represents the start of the field."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/field/start/
+url: /nodejs-net/aspose.words/field/start/
 ---
 
 ## Field.start property

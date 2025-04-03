@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionCollection.rejectAll method. Rejects all revisions in this collection."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/revisioncollection/rejectAll/
+url: /nodejs-net/aspose.words/revisioncollection/rejectAll/
 ---
 
 ## rejectAll() {#default}

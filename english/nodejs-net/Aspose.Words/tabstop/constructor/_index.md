@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TabStop constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/tabstop/constructor/
+url: /nodejs-net/aspose.words/tabstop/constructor/
 ---
 
 ## TabStop(position) {#number}
@@ -28,7 +28,7 @@ Initializes a new instance of this class.
 
 
 ```js
-TabStop(position: numberalignment: Aspose.Words.TabAlignmentleader: Aspose.Words.TabLeader)
+TabStop(position: number, alignment: Aspose.Words.TabAlignment, leader: Aspose.Words.TabLeader)
 ```
 
 | Parameter | Type | Description |

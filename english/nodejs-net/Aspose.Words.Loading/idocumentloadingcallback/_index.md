@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.IDocumentLoadingCallback class. Implement this interface if you want to have your own custom method called during loading a document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Loading/idocumentloadingcallback/
+url: /nodejs-net/aspose.words.loading/idocumentloadingcallback/
 ---
 
 ## IDocumentLoadingCallback class

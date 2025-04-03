@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldUpdatingProgressArgs.updateCompleted property. Gets a value indicating whether field updating is completed."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldupdatingprogressargs/updateCompleted/
+url: /nodejs-net/aspose.words.fields/fieldupdatingprogressargs/updateCompleted/
 ---
 
 ## FieldUpdatingProgressArgs.updateCompleted property

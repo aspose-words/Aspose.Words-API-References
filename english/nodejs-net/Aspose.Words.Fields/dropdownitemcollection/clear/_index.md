@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DropDownItemCollection.clear method. Removes all elements from the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/clear/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/clear/
 ---
 
 ## clear() {#default}

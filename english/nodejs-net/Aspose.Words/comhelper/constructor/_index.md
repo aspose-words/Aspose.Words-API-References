@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ComHelper constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/comhelper/constructor/
+url: /nodejs-net/aspose.words/comhelper/constructor/
 ---
 
 ## ComHelper() {#default}

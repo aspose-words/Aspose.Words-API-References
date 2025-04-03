@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.getShapeRenderer method. Creates and returns an object that can be used to render this shape into an image."
 type: docs
 weight: 610
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/getShapeRenderer/
+url: /nodejs-net/aspose.words.drawing/shapebase/getShapeRenderer/
 ---
 
 ## getShapeRenderer() {#default}
@@ -20,7 +20,7 @@ getShapeRenderer()
 
 ### Remarks
 
-This method just invokes the [ShapeRenderer](../../../Aspose.Words.Rendering/shaperenderer/) constructor and passes
+This method just invokes the [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/) constructor and passes
 this object as a parameter.
 
 

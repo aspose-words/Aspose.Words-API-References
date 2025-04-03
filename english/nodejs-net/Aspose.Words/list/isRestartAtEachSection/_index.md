@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "List.isRestartAtEachSection property. Specifies whether list should be restarted at each section"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/list/isRestartAtEachSection/
+url: /nodejs-net/aspose.words/list/isRestartAtEachSection/
 ---
 
 ## List.isRestartAtEachSection property
 
 Specifies whether list should be restarted at each section.
-Default value is ``False``.
+Default value is ``false``.
 
 
 
@@ -24,7 +24,7 @@ get isRestartAtEachSection(): boolean
 
 This option is supported only in RTF, DOC and DOCX document formats.
 
-This option will be written to DOCX only if [OoxmlCompliance](../../../Aspose.Words.Saving/ooxmlcompliance/) is higher then [OoxmlCompliance.Ecma376_2006](../../../Aspose.Words.Saving/ooxmlcompliance/#Ecma376_2006).
+This option will be written to DOCX only if [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/) is higher then [OoxmlCompliance.Ecma376_2006](../../../aspose.words.saving/ooxmlcompliance/#Ecma376_2006).
 
 
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldTA.shortCitation property. Gets or sets the short citation for the entry."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldta/shortCitation/
+url: /nodejs-net/aspose.words.fields/fieldta/shortCitation/
 ---
 
 ## FieldTA.shortCitation property

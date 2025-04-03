@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabelCollection.rotation property. Gets or sets the rotation of the data labels of the entire series in degrees."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/rotation/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/rotation/
 ---
 
 ## ChartDataLabelCollection.rotation property
@@ -22,7 +22,7 @@ get rotation(): number
 
 The range of acceptable values is from -180 to 180 inclusive. The default value is 0.
 
-If the [ChartDataLabelCollection.orientation](../orientation/) value is [ShapeTextOrientation.Horizontal](../../../Aspose.Words.Drawing/shapetextorientation/#Horizontal), label shapes,
+If the [ChartDataLabelCollection.orientation](../orientation/) value is [ShapeTextOrientation.Horizontal](../../../aspose.words.drawing/shapetextorientation/#Horizontal), label shapes,
 if they exist, are rotated along with the label text. Otherwise, only the label text is rotated.
 
 

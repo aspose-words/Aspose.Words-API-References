@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FramesetCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Framesets/framesetcollection/this[]/
+url: /nodejs-net/aspose.words.framesets/framesetcollection/this[]/
 ---
 
 ## FramesetCollection.this[] property

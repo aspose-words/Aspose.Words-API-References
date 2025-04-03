@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.baselineAlignment property. Gets or sets fonts vertical position on a line."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/paragraphformat/baselineAlignment/
+url: /nodejs-net/aspose.words/paragraphformat/baselineAlignment/
 ---
 
 ## ParagraphFormat.baselineAlignment property

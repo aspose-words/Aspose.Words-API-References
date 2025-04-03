@@ -6,12 +6,12 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator.kind property. Gets the kind of the current entity"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/kind/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/kind/
 ---
 
 ## LayoutEnumerator.kind property
 
-Gets the kind of the current entity. This can be an empty string but never ``None``.
+Gets the kind of the current entity. This can be an empty string but never ``null``.
 
 
 

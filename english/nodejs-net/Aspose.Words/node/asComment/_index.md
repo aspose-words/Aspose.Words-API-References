@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asComment method. Cast node to [Comment](../../comment/)."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/node/asComment/
+url: /nodejs-net/aspose.words/node/asComment/
 ---
 
 ## asComment() {#default}

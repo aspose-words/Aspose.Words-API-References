@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldGoToButton.location property. Gets or sets the name of a bookmark, a page number, or some other item to jump to."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldgotobutton/location/
+url: /nodejs-net/aspose.words.fields/fieldgotobutton/location/
 ---
 
 ## FieldGoToButton.location property

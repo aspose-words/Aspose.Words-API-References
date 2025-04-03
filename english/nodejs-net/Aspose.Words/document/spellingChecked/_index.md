@@ -3,15 +3,15 @@ title: Document.spellingChecked property
 linktitle: spellingChecked property
 articleTitle: spellingChecked property
 second_title: Aspose.Words for NodeJs
-description: "Document.spellingChecked property. Returns ``True`` if the document has been checked for spelling."
+description: "Document.spellingChecked property. Returns ``true`` if the document has been checked for spelling."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/document/spellingChecked/
+url: /nodejs-net/aspose.words/document/spellingChecked/
 ---
 
 ## Document.spellingChecked property
 
-Returns ``True`` if the document has been checked for spelling.
+Returns ``true`` if the document has been checked for spelling.
 
 
 
@@ -21,7 +21,7 @@ get spellingChecked(): boolean
 
 ### Remarks
 
-To recheck the spelling in the document, set this property to ``False``.
+To recheck the spelling in the document, set this property to ``false``.
 
 
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Paragraph class. Represents a paragraph of text"
 type: docs
 weight: 990
-url: /nodejs-net/Aspose.Words/paragraph/
+url: /nodejs-net/aspose.words/paragraph/
 ---
 
 ## Paragraph class
@@ -26,12 +26,12 @@ To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words
 
 The complete list of child nodes that can occur inside a paragraph consists of
 [BookmarkStart](../bookmarkstart/), [BookmarkEnd](../bookmarkend/),
-[FieldStart](../../Aspose.Words.Fields/fieldstart/), [FieldSeparator](../../Aspose.Words.Fields/fieldseparator/),
-[FieldEnd](../../Aspose.Words.Fields/fieldend/), [FormField](../../Aspose.Words.Fields/formfield/),
-[Comment](../comment/), [Footnote](../../Aspose.Words.Notes/footnote/),
+[FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/),
+[FieldEnd](../../aspose.words.fields/fieldend/), [FormField](../../aspose.words.fields/formfield/),
+[Comment](../comment/), [Footnote](../../aspose.words.notes/footnote/),
 [Run](../run/), [SpecialChar](../specialchar/),
-[Shape](../../Aspose.Words.Drawing/shape/), [GroupShape](../../Aspose.Words.Drawing/groupshape/),
-[SmartTag](../../Aspose.Words.Markup/smarttag/).
+[Shape](../../aspose.words.drawing/shape/), [GroupShape](../../aspose.words.drawing/groupshape/),
+[SmartTag](../../aspose.words.markup/smarttag/).
 
 A valid paragraph in Microsoft Word always ends with a paragraph break character and
 a minimal valid paragraph consists just of a paragraph break. The [Paragraph](./)
@@ -63,19 +63,19 @@ the paragraph as it might make the paragraph invalid when the document is opened
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [firstChild](../compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [frameFormat](./frameFormat/) | Provides access to the frame formatting properties. |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [isDeleteRevision](./isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled. |
-| [isEndOfCell](./isEndOfCell/) | True if this paragraph is the last paragraph in a [Cell](../../Aspose.Words.Tables/cell/); false otherwise. |
+| [isEndOfCell](./isEndOfCell/) | True if this paragraph is the last paragraph in a [Cell](../../aspose.words.tables/cell/); false otherwise. |
 | [isEndOfDocument](./isEndOfDocument/) | True if this paragraph is the last paragraph in the last section of the document. |
 | [isEndOfHeaderFooter](./isEndOfHeaderFooter/) | True if this paragraph is the last paragraph in the [HeaderFooter](../headerfooter/) (main text story) of a [Section](../section/); false otherwise. |
 | [isEndOfSection](./isEndOfSection/) | True if this paragraph is the last paragraph in the [Body](../body/) (main text story) of a [Section](../section/); false otherwise. |
 | [isFormatRevision](./isFormatRevision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled. |
-| [isInCell](./isInCell/) | True if this paragraph is an immediate child of [Cell](../../Aspose.Words.Tables/cell/); false otherwise. |
+| [isInCell](./isInCell/) | True if this paragraph is an immediate child of [Cell](../../aspose.words.tables/cell/); false otherwise. |
 | [isInsertRevision](./isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled. |
 | [isListItem](./isListItem/) | True when the paragraph is an item in a bulleted or numbered list in original revision. |
-| [isMoveFromRevision](./isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
-| [isMoveToRevision](./isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
+| [isMoveFromRevision](./isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled. |
+| [isMoveToRevision](./isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled. |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [listFormat](./listFormat/) | Provides access to the list formatting properties of the paragraph. |
 | [listLabel](./listLabel/) | Gets a [Paragraph.listLabel](./listLabel/) object that provides access to list numbering value and formatting for this paragraph. |
@@ -105,7 +105,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkStart()](../node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/).<br>(Inherited from [Node](../node/)) |
 |[ asBuildingBlock()](../node/asBuildingBlock/#default) | Cast node to [BuildingBlock](../buildingblock/).<br>(Inherited from [Node](../node/)) |
-|[ asCell()](../node/asCell/#default) | Cast node to [Cell](../../Aspose.Words.Tables/cell/).<br>(Inherited from [Node](../node/)) |
+|[ asCell()](../node/asCell/#default) | Cast node to [Cell](../../aspose.words.tables/cell/).<br>(Inherited from [Node](../node/)) |
 |[ asComment()](../node/asComment/#default) | Cast node to [Comment](../comment/).<br>(Inherited from [Node](../node/)) |
 |[ asCommentRangeEnd()](../node/asCommentRangeEnd/#default) | Cast node to [CommentRangeEnd](../commentrangeend/).<br>(Inherited from [Node](../node/)) |
 |[ asCommentRangeStart()](../node/asCommentRangeStart/#default) | Cast node to [CommentRangeStart](../commentrangestart/).<br>(Inherited from [Node](../node/)) |
@@ -113,25 +113,25 @@ the paragraph as it might make the paragraph invalid when the document is opened
 |[ asDocument()](../node/asDocument/#default) | Cast node to [Node.document](../node/document/).<br>(Inherited from [Node](../node/)) |
 |[ asEditableRangeEnd()](../node/asEditableRangeEnd/#default) | Cast node to [EditableRangeEnd](../editablerangeend/).<br>(Inherited from [Node](../node/)) |
 |[ asEditableRangeStart()](../node/asEditableRangeStart/#default) | Cast node to [EditableRangeStart](../editablerangestart/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldEnd()](../node/asFieldEnd/#default) | Cast node to [FieldEnd](../../Aspose.Words.Fields/fieldend/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldSeparator()](../node/asFieldSeparator/#default) | Cast node to [FieldSeparator](../../Aspose.Words.Fields/fieldseparator/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldStart()](../node/asFieldStart/#default) | Cast node to [FieldStart](../../Aspose.Words.Fields/fieldstart/).<br>(Inherited from [Node](../node/)) |
-|[ asFootnote()](../node/asFootnote/#default) | Cast node to [Footnote](../../Aspose.Words.Notes/footnote/).<br>(Inherited from [Node](../node/)) |
-|[ asFormField()](../node/asFormField/#default) | Cast node to [FormField](../../Aspose.Words.Fields/formfield/).<br>(Inherited from [Node](../node/)) |
-|[ asGlossaryDocument()](../node/asGlossaryDocument/#default) | Cast node to [GlossaryDocument](../../Aspose.Words.BuildingBlocks/glossarydocument/).<br>(Inherited from [Node](../node/)) |
-|[ asGroupShape()](../node/asGroupShape/#default) | Cast node to [GroupShape](../../Aspose.Words.Drawing/groupshape/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldEnd()](../node/asFieldEnd/#default) | Cast node to [FieldEnd](../../aspose.words.fields/fieldend/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldSeparator()](../node/asFieldSeparator/#default) | Cast node to [FieldSeparator](../../aspose.words.fields/fieldseparator/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldStart()](../node/asFieldStart/#default) | Cast node to [FieldStart](../../aspose.words.fields/fieldstart/).<br>(Inherited from [Node](../node/)) |
+|[ asFootnote()](../node/asFootnote/#default) | Cast node to [Footnote](../../aspose.words.notes/footnote/).<br>(Inherited from [Node](../node/)) |
+|[ asFormField()](../node/asFormField/#default) | Cast node to [FormField](../../aspose.words.fields/formfield/).<br>(Inherited from [Node](../node/)) |
+|[ asGlossaryDocument()](../node/asGlossaryDocument/#default) | Cast node to [GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/).<br>(Inherited from [Node](../node/)) |
+|[ asGroupShape()](../node/asGroupShape/#default) | Cast node to [GroupShape](../../aspose.words.drawing/groupshape/).<br>(Inherited from [Node](../node/)) |
 |[ asHeaderFooter()](../node/asHeaderFooter/#default) | Cast node to [HeaderFooter](../headerfooter/).<br>(Inherited from [Node](../node/)) |
-|[ asOfficeMath()](../node/asOfficeMath/#default) | Cast node to [OfficeMath](../../Aspose.Words.Math/officemath/).<br>(Inherited from [Node](../node/)) |
+|[ asOfficeMath()](../node/asOfficeMath/#default) | Cast node to [OfficeMath](../../aspose.words.math/officemath/).<br>(Inherited from [Node](../node/)) |
 |[ asParagraph()](../node/asParagraph/#default) | Cast node to [Paragraph](./).<br>(Inherited from [Node](../node/)) |
-|[ asRow()](../node/asRow/#default) | Cast node to [Row](../../Aspose.Words.Tables/row/).<br>(Inherited from [Node](../node/)) |
+|[ asRow()](../node/asRow/#default) | Cast node to [Row](../../aspose.words.tables/row/).<br>(Inherited from [Node](../node/)) |
 |[ asRun()](../node/asRun/#default) | Cast node to [Run](../run/).<br>(Inherited from [Node](../node/)) |
 |[ asSection()](../node/asSection/#default) | Cast node to [Section](../section/).<br>(Inherited from [Node](../node/)) |
-|[ asShape()](../node/asShape/#default) | Cast node to [Shape](../../Aspose.Words.Drawing/shape/).<br>(Inherited from [Node](../node/)) |
-|[ asSmartTag()](../node/asSmartTag/#default) | Cast node to [SmartTag](../../Aspose.Words.Markup/smarttag/).<br>(Inherited from [Node](../node/)) |
+|[ asShape()](../node/asShape/#default) | Cast node to [Shape](../../aspose.words.drawing/shape/).<br>(Inherited from [Node](../node/)) |
+|[ asSmartTag()](../node/asSmartTag/#default) | Cast node to [SmartTag](../../aspose.words.markup/smarttag/).<br>(Inherited from [Node](../node/)) |
 |[ asSpecialChar()](../node/asSpecialChar/#default) | Cast node to [SpecialChar](../specialchar/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTag()](../node/asStructuredDocumentTag/#default) | Cast node to [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTagRangeEnd()](../node/asStructuredDocumentTagRangeEnd/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../Aspose.Words.Markup/structureddocumenttagrangeend/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTagRangeStart()](../node/asStructuredDocumentTagRangeStart/#default) | Cast node to [StructuredDocumentTagRangeStart](../../Aspose.Words.Markup/structureddocumenttagrangestart/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTag()](../node/asStructuredDocumentTag/#default) | Cast node to [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTagRangeEnd()](../node/asStructuredDocumentTagRangeEnd/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTagRangeStart()](../node/asStructuredDocumentTagRangeStart/#default) | Cast node to [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/).<br>(Inherited from [Node](../node/)) |
 |[ asSubDocument()](../node/asSubDocument/#default) | Cast node to [SubDocument](../subdocument/).<br>(Inherited from [Node](../node/)) |
 |[ asTable()](../node/asTable/#default) | Cast node to [Table](../table/).<br>(Inherited from [Node](../node/)) |
 |[ clone(isCloneChildren)](../node/clone/#boolean) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
@@ -169,7 +169,7 @@ the paragraph as it might make the paragraph invalid when the document is opened
 |[ remove()](../node/remove/#default) | Removes itself from the parent.<br>(Inherited from [Node](../node/)) |
 |[ removeAllChildren()](../compositenode/removeAllChildren/#default) | Removes all the child nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ removeChild(oldChild)](../compositenode/removeChild/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../Aspose.Words.Markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ selectNodes(xpath)](../compositenode/selectNodes/#string) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ selectSingleNode(xpath)](../compositenode/selectSingleNode/#string) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ toString(saveFormat)](../node/toString/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../node/)) |

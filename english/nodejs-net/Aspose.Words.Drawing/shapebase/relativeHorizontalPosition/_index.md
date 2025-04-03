@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.relativeHorizontalPosition property. Specifies relative to what the shape is positioned horizontally."
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/relativeHorizontalPosition/
+url: /nodejs-net/aspose.words.drawing/shapebase/relativeHorizontalPosition/
 ---
 
 ## ShapeBase.relativeHorizontalPosition property

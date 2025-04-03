@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Tables.CellMerge enumeration. Specifies how a cell in a table is merged with other cells."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Tables/cellmerge/
+url: /nodejs-net/aspose.words.tables/cellmerge/
 ---
 
 ## CellMerge enumeration

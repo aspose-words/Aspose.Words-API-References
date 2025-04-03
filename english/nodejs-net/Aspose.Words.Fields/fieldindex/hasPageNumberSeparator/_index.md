@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIndex.hasPageNumberSeparator property. Gets a value indicating whether a page number separator is overridden through the field's code."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldindex/hasPageNumberSeparator/
+url: /nodejs-net/aspose.words.fields/fieldindex/hasPageNumberSeparator/
 ---
 
 ## FieldIndex.hasPageNumberSeparator property

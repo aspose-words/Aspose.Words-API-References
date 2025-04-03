@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IPageSavingCallback.pageSaving method. Called when Aspose.Words saves a separate page to fixed page formats."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/ipagesavingcallback/pageSaving/
+url: /nodejs-net/aspose.words.saving/ipagesavingcallback/pageSaving/
 ---
 
 ## pageSaving(args) {#pagesavingargs}

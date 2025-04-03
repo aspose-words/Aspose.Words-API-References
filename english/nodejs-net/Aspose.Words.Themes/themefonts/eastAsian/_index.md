@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ThemeFonts.eastAsian property. Specifies font name for EastAsian characters."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Themes/themefonts/eastAsian/
+url: /nodejs-net/aspose.words.themes/themefonts/eastAsian/
 ---
 
 ## ThemeFonts.eastAsian property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IFieldUpdatingCallback.fieldUpdated method. A user defined method that is called just after a field is updated."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/ifieldupdatingcallback/fieldUpdated/
+url: /nodejs-net/aspose.words.fields/ifieldupdatingcallback/fieldUpdated/
 ---
 
 ## fieldUpdated(field) {#field}
@@ -20,7 +20,7 @@ fieldUpdated(field: Aspose.Words.Fields.Field)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../../Aspose.Words/field/) |  |
+| field | [Field](../../../aspose.words/field/) |  |
 
 ### See Also
 

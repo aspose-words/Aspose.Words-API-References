@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.keepTogether property. True if all lines in the paragraph are to remain on the same page."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/paragraphformat/keepTogether/
+url: /nodejs-net/aspose.words/paragraphformat/keepTogether/
 ---
 
 ## ParagraphFormat.keepTogether property

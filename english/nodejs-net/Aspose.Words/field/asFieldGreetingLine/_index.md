@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldGreetingLine method. "
 type: docs
 weight: 500
-url: /nodejs-net/Aspose.Words/field/asFieldGreetingLine/
+url: /nodejs-net/aspose.words/field/asFieldGreetingLine/
 ---
 
 ## asFieldGreetingLine() {#default}

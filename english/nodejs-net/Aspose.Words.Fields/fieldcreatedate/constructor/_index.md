@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldCreateDate constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldcreatedate/constructor/
+url: /nodejs-net/aspose.words.fields/fieldcreatedate/constructor/
 ---
 
 ## FieldCreateDate() {#default}

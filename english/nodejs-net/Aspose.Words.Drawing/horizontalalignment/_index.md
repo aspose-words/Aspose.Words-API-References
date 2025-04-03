@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.HorizontalAlignment enumeration. Specifies horizontal alignment of a floating shape, text frame or floating table."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Drawing/horizontalalignment/
+url: /nodejs-net/aspose.words.drawing/horizontalalignment/
 ---
 
 ## HorizontalAlignment enumeration

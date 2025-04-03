@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CellCollection.toArray method. Copies all cells from the collection to a new array of cells."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Tables/cellcollection/toArray/
+url: /nodejs-net/aspose.words.tables/cellcollection/toArray/
 ---
 
 ## toArray() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.revisions property. Gets a collection of revisions (tracked changes) that exist in this document."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/document/revisions/
+url: /nodejs-net/aspose.words/document/revisions/
 ---
 
 ## Document.revisions property

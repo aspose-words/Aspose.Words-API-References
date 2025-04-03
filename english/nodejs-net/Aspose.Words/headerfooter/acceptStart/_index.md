@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HeaderFooter.acceptStart method. Accepts a visitor for visiting the start of the header."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/headerfooter/acceptStart/
+url: /nodejs-net/aspose.words/headerfooter/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

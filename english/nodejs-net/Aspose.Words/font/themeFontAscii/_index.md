@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.themeFontAscii property. Gets or sets the theme font used for Latin text (characters with character codes from 0 (zero) through 127) in the applied font scheme that is associated with this [Font](../) object."
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words/font/themeFontAscii/
+url: /nodejs-net/aspose.words/font/themeFontAscii/
 ---
 
 ## Font.themeFontAscii property

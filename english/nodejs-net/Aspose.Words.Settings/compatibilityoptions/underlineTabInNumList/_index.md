@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.underlineTabInNumList property. Underline Following Character Following Numbering."
 type: docs
 weight: 590
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/underlineTabInNumList/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/underlineTabInNumList/
 ---
 
 ## CompatibilityOptions.underlineTabInNumList property

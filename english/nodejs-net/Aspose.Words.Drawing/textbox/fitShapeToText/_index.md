@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextBox.fitShapeToText property. Determines whether Microsoft Word will grow the shape to fit text."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/textbox/fitShapeToText/
+url: /nodejs-net/aspose.words.drawing/textbox/fitShapeToText/
 ---
 
 ## TextBox.fitShapeToText property
@@ -20,7 +20,7 @@ get fitShapeToText(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Adjustment.name property. Gets the name of the adjustment."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/adjustment/name/
+url: /nodejs-net/aspose.words.drawing/adjustment/name/
 ---
 
 ## Adjustment.name property

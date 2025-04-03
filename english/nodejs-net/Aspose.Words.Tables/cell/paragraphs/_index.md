@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.paragraphs property. Gets a collection of paragraphs that are immediate children of the cell."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Tables/cell/paragraphs/
+url: /nodejs-net/aspose.words.tables/cell/paragraphs/
 ---
 
 ## Cell.paragraphs property

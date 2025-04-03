@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.SignOptions class. Allows to specify options for document signing"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.DigitalSignatures/signoptions/
+url: /nodejs-net/aspose.words.digitalsignatures/signoptions/
 ---
 
 ## SignOptions class
@@ -31,7 +31,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | [providerId](./providerId/) | Specifies the class ID of the signature provider. Default value is **Empty (all zeroes) Guid**. |
 | [signTime](./signTime/) | The date of signing. Default value is **current time** (datetime.datetime.now) |
 | [signatureLineId](./signatureLineId/) | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
-| [signatureLineImage](./signatureLineImage/) | The image that will be shown in associated [SignatureLine](../../Aspose.Words.Drawing/signatureline/). Default value is ``None``. |
+| [signatureLineImage](./signatureLineImage/) | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is ``null``. |
 | [xmlDsigLevel](./xmlDsigLevel/) | Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDsigLevel.XmlDSig](../xmldsiglevel/#XmlDSig). |
 
 ### See Also

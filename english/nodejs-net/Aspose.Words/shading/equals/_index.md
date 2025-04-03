@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shading.equals method. Determines whether the specified [Shading](../) is equal in value to the current [Shading](../)."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/shading/equals/
+url: /nodejs-net/aspose.words/shading/equals/
 ---
 
 ## equals(rhs) {#shading}

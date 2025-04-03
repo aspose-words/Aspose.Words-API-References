@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.resourceFolder property. Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML"
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/resourceFolder/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/resourceFolder/
 ---
 
 ## HtmlSaveOptions.resourceFolder property

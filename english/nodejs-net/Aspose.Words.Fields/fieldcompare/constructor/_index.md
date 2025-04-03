@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldCompare constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldcompare/constructor/
+url: /nodejs-net/aspose.words.fields/fieldcompare/constructor/
 ---
 
 ## FieldCompare() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.paperSize property. Returns or sets the paper size."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/pagesetup/paperSize/
+url: /nodejs-net/aspose.words/pagesetup/paperSize/
 ---
 
 ## PageSetup.paperSize property

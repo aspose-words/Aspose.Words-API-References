@@ -3,13 +3,13 @@ title: Aspose.Words.Vba module
 linktitle: Aspose.Words.Vba module
 articleTitle: Aspose.Words.Vba module
 second_title: Aspose.Words for NodeJs
-description: "The aspose.words.vba module provides classes to work with VBA projects."
+description: "The Aspose.Words.Vba module provides classes to work with VBA projects."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Vba/
+url: /nodejs-net/aspose.words.vba/
 ---
 
-The **aspose.words.vba** module provides classes to work with VBA projects.
+The **Aspose.Words.Vba** module provides classes to work with VBA projects.
 
 
 A [VbaProject](./vbaproject/) inside the document is defined as a collection of [VbaModule](./vbamodule/).

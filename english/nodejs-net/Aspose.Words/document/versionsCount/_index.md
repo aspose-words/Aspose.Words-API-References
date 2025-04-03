@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.versionsCount property. Gets the number of document versions that was stored in the DOC document."
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words/document/versionsCount/
+url: /nodejs-net/aspose.words/document/versionsCount/
 ---
 
 ## Document.versionsCount property

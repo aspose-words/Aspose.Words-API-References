@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertSignatureLine method"
 type: docs
 weight: 470
-url: /nodejs-net/Aspose.Words/documentbuilder/insertSignatureLine/
+url: /nodejs-net/aspose.words/documentbuilder/insertSignatureLine/
 ---
 
 ## insertSignatureLine(signatureLineOptions) {#signaturelineoptions}
@@ -33,22 +33,22 @@ Inserts a signature line at the specified position.
 
 
 ```js
-insertSignatureLine(signatureLineOptions: Aspose.Words.SignatureLineOptionshorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertSignatureLine(signatureLineOptions: Aspose.Words.SignatureLineOptions, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | signatureLineOptions | [SignatureLineOptions](../../signaturelineoptions/) | The object that stores parameters of creating signature line. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the signature line is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the signature line is measured from. |
 | left | number | Distance in points from the origin to the left side of the signature line. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the signature line measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the signature line measured from. |
 | top | number | Distance in points from the origin to the top side of the signature line. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the signature line. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the signature line. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 

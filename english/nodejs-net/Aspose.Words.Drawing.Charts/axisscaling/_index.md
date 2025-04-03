@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.AxisScaling class. Represents the scaling options of the axis"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisscaling/
+url: /nodejs-net/aspose.words.drawing.charts/axisscaling/
 ---
 
 ## AxisScaling class

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.UserInformation class. Specifies information about the user"
 type: docs
 weight: 1310
-url: /nodejs-net/Aspose.Words.Fields/userinformation/
+url: /nodejs-net/aspose.words.fields/userinformation/
 ---
 
 ## UserInformation class

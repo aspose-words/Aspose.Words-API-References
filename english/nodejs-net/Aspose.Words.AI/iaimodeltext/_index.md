@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.AI.IAiModelText class. The common interface for AI models designed to generate a variety of text-based content."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.AI/iaimodeltext/
+url: /nodejs-net/aspose.words.ai/iaimodeltext/
 ---
 
 ## IAiModelText class

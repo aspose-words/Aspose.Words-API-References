@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldAutoNum constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldautonum/constructor/
+url: /nodejs-net/aspose.words.fields/fieldautonum/constructor/
 ---
 
 ## FieldAutoNum() {#default}

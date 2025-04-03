@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Properties.DocumentProperty class. Represents a custom or built-in document property"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/
+url: /nodejs-net/aspose.words.properties/documentproperty/
 ---
 
 ## DocumentProperty class

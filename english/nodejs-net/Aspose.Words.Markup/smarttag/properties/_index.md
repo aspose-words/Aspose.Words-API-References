@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SmartTag.properties property. A collection of the smart tag properties."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/smarttag/properties/
+url: /nodejs-net/aspose.words.markup/smarttag/properties/
 ---
 
 ## SmartTag.properties property
@@ -20,7 +20,7 @@ get properties(): Aspose.Words.Markup.CustomXmlPropertyCollection
 
 ### Remarks
 
-Cannot be ``None``.
+Cannot be ``null``.
 
 
 

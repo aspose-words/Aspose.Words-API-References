@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "EditableRangeStart.editableRange property. Gets the facade object that encapsulates this editable range start and end."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/editablerangestart/editableRange/
+url: /nodejs-net/aspose.words/editablerangestart/editableRange/
 ---
 
 ## EditableRangeStart.editableRange property

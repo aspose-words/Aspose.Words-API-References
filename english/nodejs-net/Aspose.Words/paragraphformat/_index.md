@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ParagraphFormat class. Represents all the formatting for a paragraph"
 type: docs
 weight: 1020
-url: /nodejs-net/Aspose.Words/paragraphformat/
+url: /nodejs-net/aspose.words/paragraphformat/
 ---
 
 ## ParagraphFormat class
@@ -45,7 +45,7 @@ To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words
 | [lineUnitBefore](./lineUnitBefore/) | Gets or sets the amount of spacing (in gridlines) before the paragraphs. |
 | [linesToDrop](./linesToDrop/) | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
 | [mirrorIndents](./mirrorIndents/) | Gets or sets a flag indicating whether the left and right indents are of the same width. |
-| [noSpaceBetweenParagraphsOfSameStyle](./noSpaceBetweenParagraphsOfSameStyle/) | When ``True``, [ParagraphFormat.spaceBefore](./spaceBefore/) and [ParagraphFormat.spaceAfter](./spaceAfter/) will be ignored between the paragraphs of the same style. |
+| [noSpaceBetweenParagraphsOfSameStyle](./noSpaceBetweenParagraphsOfSameStyle/) | When ``true``, [ParagraphFormat.spaceBefore](./spaceBefore/) and [ParagraphFormat.spaceAfter](./spaceAfter/) will be ignored between the paragraphs of the same style. |
 | [outlineLevel](./outlineLevel/) | Specifies the outline level of the paragraph in the document. |
 | [pageBreakBefore](./pageBreakBefore/) | True if a page break is forced before the paragraph. |
 | [rightIndent](./rightIndent/) | Gets or sets the value (in points) that represents the right indent for paragraph. |
@@ -62,7 +62,7 @@ To learn more, visit the [Working with Paragraphs](https://docs.aspose.com/words
 | [suppressLineNumbers](./suppressLineNumbers/) | Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section. |
 | [tabStops](./tabStops/) | Gets the collection of custom tab stops defined for this object. |
 | [widowControl](./widowControl/) | True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph. |
-| [wordWrap](./wordWrap/) | If this property is ``False``, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
+| [wordWrap](./wordWrap/) | If this property is ``false``, Latin text in the middle of a word can be wrapped for the current paragraph. Otherwise Latin text is wrapped by whole words. |
 
 ### Methods
 

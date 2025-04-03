@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XlsxSaveOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/xlsxsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/xlsxsaveoptions/constructor/
 ---
 
 ## XlsxSaveOptions() {#default}

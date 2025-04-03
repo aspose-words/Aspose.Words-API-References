@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuiltInDocumentProperties.nameOfApplication property. Gets or sets the name of the application."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/nameOfApplication/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/nameOfApplication/
 ---
 
 ## BuiltInDocumentProperties.nameOfApplication property

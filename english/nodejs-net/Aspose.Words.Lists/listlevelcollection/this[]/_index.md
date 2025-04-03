@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevelCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Lists/listlevelcollection/this[]/
+url: /nodejs-net/aspose.words.lists/listlevelcollection/this[]/
 ---
 
 ## ListLevelCollection.this[] property

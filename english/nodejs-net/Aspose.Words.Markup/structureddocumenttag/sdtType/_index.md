@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.sdtType property. Gets type of this Structured document tag."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/sdtType/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/sdtType/
 ---
 
 ## StructuredDocumentTag.sdtType property

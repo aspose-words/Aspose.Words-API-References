@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.customStyles property. Gets or sets a list of styles other than the built-in heading styles to include in the table of contents."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/customStyles/
+url: /nodejs-net/aspose.words.fields/fieldtoc/customStyles/
 ---
 
 ## FieldToc.customStyles property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GlossaryDocument.accept method. Accepts a visitor."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/accept/
+url: /nodejs-net/aspose.words.buildingblocks/glossarydocument/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}
@@ -20,26 +20,26 @@ accept(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 ### Remarks
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../Aspose.Words/documentvisitor/).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 
 
 
-Calls [DocumentVisitor.visitGlossaryDocumentStart()](../../../Aspose.Words/documentvisitor/visitGlossaryDocumentStart/#glossarydocument), then calls [Node.accept()](../../../Aspose.Words/node/accept/#documentvisitor)
-for all child nodes of this node and then calls [DocumentVisitor.visitGlossaryDocumentEnd()](../../../Aspose.Words/documentvisitor/visitGlossaryDocumentEnd/#glossarydocument)
+Calls [DocumentVisitor.visitGlossaryDocumentStart()](../../../aspose.words/documentvisitor/visitGlossaryDocumentStart/#glossarydocument), then calls [Node.accept()](../../../aspose.words/node/accept/#documentvisitor)
+for all child nodes of this node and then calls [DocumentVisitor.visitGlossaryDocumentEnd()](../../../aspose.words/documentvisitor/visitGlossaryDocumentEnd/#glossarydocument)
 at the end.
 
 
 
 
 Note: A glossary document node and its children are not visited when you execute a
-Visitor over a [Document](../../../Aspose.Words/document/). If you want to execute a Visitor over a
+Visitor over a [Document](../../../aspose.words/document/). If you want to execute a Visitor over a
 glossary document, you need to call [GlossaryDocument.accept()](./#documentvisitor).
 
 
@@ -48,7 +48,7 @@ glossary document, you need to call [GlossaryDocument.accept()](./#documentvisit
 
 ### Returns
 
-True if all nodes were visited; false if [DocumentVisitor](../../../Aspose.Words/documentvisitor/) stopped the operation before visiting all nodes.
+True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 
 
 ### See Also

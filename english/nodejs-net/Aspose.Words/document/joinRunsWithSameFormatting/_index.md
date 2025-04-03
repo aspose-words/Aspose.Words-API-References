@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.joinRunsWithSameFormatting method. Joins runs with same formatting in all paragraphs of the document."
 type: docs
 weight: 640
-url: /nodejs-net/Aspose.Words/document/joinRunsWithSameFormatting/
+url: /nodejs-net/aspose.words/document/joinRunsWithSameFormatting/
 ---
 
 ## joinRunsWithSameFormatting() {#default}

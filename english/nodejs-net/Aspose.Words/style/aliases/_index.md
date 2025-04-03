@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.aliases property. Gets all aliases of this style"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/style/aliases/
+url: /nodejs-net/aspose.words/style/aliases/
 ---
 
 ## Style.aliases property

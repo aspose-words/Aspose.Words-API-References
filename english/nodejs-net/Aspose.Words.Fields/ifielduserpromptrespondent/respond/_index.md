@@ -6,19 +6,19 @@ second_title: Aspose.Words for NodeJs
 description: "IFieldUserPromptRespondent.respond method. When implemented, returns a response from the user on prompting"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/ifielduserpromptrespondent/respond/
+url: /nodejs-net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 
 ## respond(promptText, defaultResponse) {#string_string}
 
 When implemented, returns a response from the user on prompting.
-Your implementation should return ``None`` to indicate that the user has not responded to the prompt
+Your implementation should return ``null`` to indicate that the user has not responded to the prompt
 (i.e. the user has pressed the Cancel button in the prompt window).
 
 
 
 ```js
-respond(promptText: stringdefaultResponse: string)
+respond(promptText: string, defaultResponse: string)
 ```
 
 | Parameter | Type | Description |

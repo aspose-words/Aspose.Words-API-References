@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "INodeChangingCallback.nodeRemoved method. Called when a node belonging to this document has been removed from its parent."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/inodechangingcallback/nodeRemoved/
+url: /nodejs-net/aspose.words/inodechangingcallback/nodeRemoved/
 ---
 
 ## nodeRemoved(args) {#nodechangingargs}

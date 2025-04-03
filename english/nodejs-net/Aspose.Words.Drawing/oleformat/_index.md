@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.OleFormat class. Provides access to the data of an OLE object or ActiveX control"
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/
+url: /nodejs-net/aspose.words.drawing/oleformat/
 ---
 
 ## OleFormat class
@@ -32,11 +32,11 @@ You do not create instances of the [OleFormat](./) class directly.
 | [autoUpdate](./autoUpdate/) | Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word. |
 | [clsid](./clsid/) | Gets the CLSID of the OLE object. |
 | [iconCaption](./iconCaption/) | Gets icon caption of OLE object. In case if the OLE object does not have an icon or a caption cannot be retrieved, returns an empty string. |
-| [isLink](./isLink/) | Returns ``True`` if the OLE object is linked (when [OleFormat.sourceFullName](./sourceFullName/) is specified). |
+| [isLink](./isLink/) | Returns ``true`` if the OLE object is linked (when [OleFormat.sourceFullName](./sourceFullName/) is specified). |
 | [isLocked](./isLocked/) | Specifies whether the link to the OLE object is locked from updates. |
 | [oleControl](./oleControl/) | Gets [OleFormat.oleControl](./oleControl/) objects if this OLE object is an ActiveX control. Otherwise this property is null. |
-| [oleIcon](./oleIcon/) | Gets the draw aspect of the OLE object. When ``True``, the OLE object is displayed as an icon. When ``False``, the OLE object is displayed as content. |
-| [olePackage](./olePackage/) | Provide access to [OlePackage](../olepackage/) if OLE object is an OLE Package. Returns ``None`` otherwise. |
+| [oleIcon](./oleIcon/) | Gets the draw aspect of the OLE object. When ``true``, the OLE object is displayed as an icon. When ``false``, the OLE object is displayed as content. |
+| [olePackage](./olePackage/) | Provide access to [OlePackage](../olepackage/) if OLE object is an OLE Package. Returns ``null`` otherwise. |
 | [progId](./progId/) | Gets or sets the ProgID of the OLE object. |
 | [sourceFullName](./sourceFullName/) | Gets or sets the path and name of the source file for the linked OLE object. |
 | [sourceItem](./sourceItem/) | Gets or sets a string that is used to identify the portion of the source file that is being linked. |

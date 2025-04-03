@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlPart constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/customxmlpart/constructor/
+url: /nodejs-net/aspose.words.markup/customxmlpart/constructor/
 ---
 
 ## CustomXmlPart() {#default}

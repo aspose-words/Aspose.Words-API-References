@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertImage method"
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words/documentbuilder/insertImage/
+url: /nodejs-net/aspose.words/documentbuilder/insertImage/
 ---
 
 ## insertImage(image) {#jsimage}
@@ -22,7 +22,7 @@ insertImage(image: Aspose.Words.JSImage)
 ## insertImage(image, width, height) {#jsimage_number_number}
 
 ```js
-insertImage(image: Aspose.Words.JSImagewidth: numberheight: number)
+insertImage(image: Aspose.Words.JSImage, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -34,19 +34,19 @@ insertImage(image: Aspose.Words.JSImagewidth: numberheight: number)
 ## insertImage(image, horzPos, left, vertPos, top, width, height, wrapType) {#jsimage_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype}
 
 ```js
-insertImage(image: Aspose.Words.JSImagehorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertImage(image: Aspose.Words.JSImage, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | image | [JSImage](../../jsimage/) |  |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) |  |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
 | left | number |  |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) |  |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
 | top | number |  |
 | width | number |  |
 | height | number |  |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) |  |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
 
 ## insertImage(fileName) {#string}
 
@@ -67,7 +67,7 @@ This overload will automatically download the image before inserting into the do
 if you specify a remote URI.
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -93,7 +93,7 @@ insertImage(stream: Buffer)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -119,7 +119,7 @@ insertImage(imageBytes: number[])
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -135,7 +135,7 @@ Inserts an inline image from a file or URL into the document and scales it to th
 
 
 ```js
-insertImage(fileName: stringwidth: numberheight: number)
+insertImage(fileName: string, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -147,7 +147,7 @@ insertImage(fileName: stringwidth: numberheight: number)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -163,7 +163,7 @@ Inserts an inline image from a stream into the document and scales it to the spe
 
 
 ```js
-insertImage(stream: Bufferwidth: numberheight: number)
+insertImage(stream: Buffer, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -175,7 +175,7 @@ insertImage(stream: Bufferwidth: numberheight: number)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -191,7 +191,7 @@ Inserts an inline image from a byte array into the document and scales it to the
 
 
 ```js
-insertImage(imageBytes: number[]width: numberheight: number)
+insertImage(imageBytes: number[], width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -203,7 +203,7 @@ insertImage(imageBytes: number[]width: numberheight: number)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -219,24 +219,24 @@ Inserts an image from a file or URL at the specified position and size.
 
 
 ```js
-insertImage(fileName: stringhorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertImage(fileName: string, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The file that contains the image. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -252,24 +252,24 @@ Inserts an image from a stream at the specified position and size.
 
 
 ```js
-insertImage(stream: BufferhorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertImage(stream: Buffer, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream that contains the image. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -285,24 +285,24 @@ Inserts an image from a byte array at the specified position and size.
 
 
 ```js
-insertImage(imageBytes: number[]horzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertImage(imageBytes: number[], horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageBytes | number[] | The byte array that contains the image. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 

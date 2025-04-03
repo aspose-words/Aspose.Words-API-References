@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "UserInformation.address property. Gets or sets the user's postal address."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/userinformation/address/
+url: /nodejs-net/aspose.words.fields/userinformation/address/
 ---
 
 ## UserInformation.address property

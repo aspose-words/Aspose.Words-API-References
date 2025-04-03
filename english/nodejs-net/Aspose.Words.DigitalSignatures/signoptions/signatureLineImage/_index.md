@@ -3,16 +3,16 @@ title: SignOptions.signatureLineImage property
 linktitle: signatureLineImage property
 articleTitle: signatureLineImage property
 second_title: Aspose.Words for NodeJs
-description: "SignOptions.signatureLineImage property. The image that will be shown in associated [SignatureLine](../../../Aspose.Words.Drawing/signatureline/)"
+description: "SignOptions.signatureLineImage property. The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/)"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.DigitalSignatures/signoptions/signatureLineImage/
+url: /nodejs-net/aspose.words.digitalsignatures/signoptions/signatureLineImage/
 ---
 
 ## SignOptions.signatureLineImage property
 
-The image that will be shown in associated [SignatureLine](../../../Aspose.Words.Drawing/signatureline/).
-Default value is ``None``.
+The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/).
+Default value is ``null``.
 
 
 

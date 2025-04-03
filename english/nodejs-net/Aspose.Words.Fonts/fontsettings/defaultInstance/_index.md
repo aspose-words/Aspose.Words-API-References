@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSettings.defaultInstance property. Static default font settings."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/defaultInstance/
+url: /nodejs-net/aspose.words.fonts/fontsettings/defaultInstance/
 ---
 
 ## FontSettings.defaultInstance property
@@ -20,7 +20,7 @@ get defaultInstance(): Aspose.Words.Fonts.FontSettings
 
 ### Remarks
 
-This instance is used by default in a document unless [Document.fontSettings](../../../Aspose.Words/document/fontSettings/) is specified.
+This instance is used by default in a document unless [Document.fontSettings](../../../aspose.words/document/fontSettings/) is specified.
 
 
 

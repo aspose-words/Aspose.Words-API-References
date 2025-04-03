@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Watermark.type property. Gets the watermark type."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/watermark/type/
+url: /nodejs-net/aspose.words/watermark/type/
 ---
 
 ## Watermark.type property

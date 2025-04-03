@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.IDocumentSavingCallback class. Implement this interface if you want to have your own custom method called during saving a document."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words.Saving/idocumentsavingcallback/
+url: /nodejs-net/aspose.words.saving/idocumentsavingcallback/
 ---
 
 ## IDocumentSavingCallback class

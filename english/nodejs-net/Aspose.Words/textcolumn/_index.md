@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TextColumn class. Represents a single text column"
 type: docs
 weight: 1360
-url: /nodejs-net/Aspose.Words/textcolumn/
+url: /nodejs-net/aspose.words/textcolumn/
 ---
 
 ## TextColumn class
@@ -21,7 +21,7 @@ To learn more, visit the [Working with Sections](https://docs.aspose.com/words/n
 ### Remarks
 
 [TextColumn](./) objects are only used to specify columns with custom width and spacing. If you want
-the columns in the document to be of equal width, set TextColumns.[TextColumnCollection.evenlySpaced](../textcolumncollection/evenlySpaced/) to ``True``.
+the columns in the document to be of equal width, set TextColumns.[TextColumnCollection.evenlySpaced](../textcolumncollection/evenlySpaced/) to ``true``.
 
 When a new [TextColumn](./) is created it has its width and spacing set to zero.
 

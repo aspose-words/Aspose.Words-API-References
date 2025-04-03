@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.tickLabels property. Provides access to the properties of the axis tick mark labels."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/tickLabels/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/tickLabels/
 ---
 
 ## ChartAxis.tickLabels property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldLink.isLinked property. Gets or sets whether to reduce the file size by not storing graphics data with the document."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/fieldlink/isLinked/
+url: /nodejs-net/aspose.words.fields/fieldlink/isLinked/
 ---
 
 ## FieldLink.isLinked property

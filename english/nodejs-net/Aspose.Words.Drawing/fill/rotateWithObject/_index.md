@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Fill.rotateWithObject property. Gets or sets whether the fill rotates with the specified object."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Drawing/fill/rotateWithObject/
+url: /nodejs-net/aspose.words.drawing/fill/rotateWithObject/
 ---
 
 ## Fill.rotateWithObject property

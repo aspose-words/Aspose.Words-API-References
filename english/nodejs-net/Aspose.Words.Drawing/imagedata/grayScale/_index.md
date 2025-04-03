@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.grayScale property. Determines whether a picture will display in grayscale mode."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/grayScale/
+url: /nodejs-net/aspose.words.drawing/imagedata/grayScale/
 ---
 
 ## ImageData.grayScale property
@@ -20,7 +20,7 @@ get grayScale(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

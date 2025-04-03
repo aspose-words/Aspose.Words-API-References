@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VariableCollection.indexOfKey method. Returns the zero-based index of the specified document variable in the collection."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/variablecollection/indexOfKey/
+url: /nodejs-net/aspose.words/variablecollection/indexOfKey/
 ---
 
 ## indexOfKey(name) {#string}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentSavingArgs.estimatedProgress property. Overall estimated percentage progress."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/documentsavingargs/estimatedProgress/
+url: /nodejs-net/aspose.words.saving/documentsavingargs/estimatedProgress/
 ---
 
 ## DocumentSavingArgs.estimatedProgress property

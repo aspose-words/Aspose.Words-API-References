@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder class. Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/documentbuilder/
+url: /nodejs-net/aspose.words/documentbuilder/
 ---
 
 ## DocumentBuilder class
@@ -72,9 +72,9 @@ you navigate to a different place in the document to reflect formatting properti
 | [currentStructuredDocumentTag](./currentStructuredDocumentTag/) | Gets the structured document tag that is currently selected in this [DocumentBuilder](./). |
 | [document](./document/) | Gets or sets the [DocumentBuilder.document](./document/) object that this object is attached to. |
 | [font](./font/) | Returns an object that represents current font formatting properties. |
-| [isAtEndOfParagraph](./isAtEndOfParagraph/) | Returns ``True`` if the cursor is at the end of the current paragraph. |
+| [isAtEndOfParagraph](./isAtEndOfParagraph/) | Returns ``true`` if the cursor is at the end of the current paragraph. |
 | [isAtEndOfStructuredDocumentTag](./isAtEndOfStructuredDocumentTag/) | Returns **true** if the cursor is at the end of a structured document tag. |
-| [isAtStartOfParagraph](./isAtStartOfParagraph/) | Returns ``True`` if the cursor is at the beginning of the current paragraph (no text before the cursor). |
+| [isAtStartOfParagraph](./isAtStartOfParagraph/) | Returns ``true`` if the cursor is at the beginning of the current paragraph (no text before the cursor). |
 | [italic](./italic/) | True if the font is formatted as italic. |
 | [listFormat](./listFormat/) | Returns an object that represents current list formatting properties. |
 | [pageSetup](./pageSetup/) | Returns an object that represents current page setup and section properties. |
@@ -108,7 +108,7 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insertField(fieldCode, fieldValue)](./insertField/#string_string) | Inserts a Word field into a document without updating the field result. |
 |[ insertFootnote(footnoteType, footnoteText)](./insertFootnote/#footnotetype_string) | Inserts a footnote or endnote into the document. |
 |[ insertFootnote(footnoteType, footnoteText, referenceMark)](./insertFootnote/#footnotetype_string_string) | Inserts a footnote or endnote into the document. |
-|[ insertForms2OleControl(forms2OleControl)](./insertForms2OleControl/#forms2olecontrol) | Inserts [Forms2OleControl](../../Aspose.Words.Drawing.Ole/forms2olecontrol/) object into current position. |
+|[ insertForms2OleControl(forms2OleControl)](./insertForms2OleControl/#forms2olecontrol) | Inserts [Forms2OleControl](../../aspose.words.drawing.ole/forms2olecontrol/) object into current position. |
 |[ insertGroupShape(shapes)](./insertGroupShape/#shapebase[]) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
 |[ insertGroupShape(left, top, width, height, shapes)](./insertGroupShape/#number_number_number_number_shapebase[]) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
 |[ insertHorizontalRule()](./insertHorizontalRule/#default) | Inserts a horizontal rule shape into the document. |
@@ -144,7 +144,7 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insertShape(shapeType, horzPos, left, vertPos, top, width, height, wrapType)](./insertShape/#shapetype_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype) | Inserts free-floating shape with specified position, size and text wrap type. |
 |[ insertSignatureLine(signatureLineOptions)](./insertSignatureLine/#signaturelineoptions) | Inserts a signature line at the current position. |
 |[ insertSignatureLine(signatureLineOptions, horzPos, left, vertPos, top, wrapType)](./insertSignatureLine/#signaturelineoptions_relativehorizontalposition_number_relativeverticalposition_number_wraptype) | Inserts a signature line at the specified position. |
-|[ insertStructuredDocumentTag(type)](./insertStructuredDocumentTag/#sdttype) | Inserts a [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/) into the document. |
+|[ insertStructuredDocumentTag(type)](./insertStructuredDocumentTag/#sdttype) | Inserts a [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) into the document. |
 |[ insertStyleSeparator()](./insertStyleSeparator/#default) | Inserts style separator into the document. |
 |[ insertTableOfContents(switches)](./insertTableOfContents/#string) | Inserts a TOC (table of contents) field into the document. |
 |[ insertTextInput(name, type, format, fieldValue, maxLength)](./insertTextInput/#string_textformfieldtype_string_string_number) | Inserts a text form field at the current position. |

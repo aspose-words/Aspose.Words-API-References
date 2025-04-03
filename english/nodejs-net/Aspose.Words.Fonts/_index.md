@@ -3,13 +3,13 @@ title: Aspose.Words.Fonts module
 linktitle: Aspose.Words.Fonts module
 articleTitle: Aspose.Words.Fonts module
 second_title: Aspose.Words for NodeJs
-description: "The aspose.words.fonts module provides classes and enumerations to access information about fonts used in a document."
+description: "The Aspose.Words.Fonts module provides classes and enumerations to access information about fonts used in a document."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Fonts/
+url: /nodejs-net/aspose.words.fonts/
 ---
 
-The **aspose.words.fonts** module provides classes and enumerations to access information about
+The **Aspose.Words.Fonts** module provides classes and enumerations to access information about
 fonts used in a document.
 
 

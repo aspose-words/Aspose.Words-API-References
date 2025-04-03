@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asCommentRangeEnd method. Cast node to [CommentRangeEnd](../../commentrangeend/)."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/node/asCommentRangeEnd/
+url: /nodejs-net/aspose.words/node/asCommentRangeEnd/
 ---
 
 ## asCommentRangeEnd() {#default}

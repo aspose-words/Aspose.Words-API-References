@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.majorUnit property. Returns or sets the distance between major tick marks."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/majorUnit/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/majorUnit/
 ---
 
 ## ChartAxis.majorUnit property
@@ -23,7 +23,7 @@ get majorUnit(): number
 Valid range of a value is greater than zero. The property has effect for time category and 
 value axes.
 
-Setting this property sets the [ChartAxis.majorUnitIsAuto](../majorUnitIsAuto/) property to ``False``.
+Setting this property sets the [ChartAxis.majorUnitIsAuto](../majorUnitIsAuto/) property to ``false``.
 
 
 

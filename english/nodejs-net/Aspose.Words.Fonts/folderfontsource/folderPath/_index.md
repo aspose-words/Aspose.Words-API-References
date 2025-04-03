@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FolderFontSource.folderPath property. Path to the folder."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/folderfontsource/folderPath/
+url: /nodejs-net/aspose.words.fonts/folderfontsource/folderPath/
 ---
 
 ## FolderFontSource.folderPath property

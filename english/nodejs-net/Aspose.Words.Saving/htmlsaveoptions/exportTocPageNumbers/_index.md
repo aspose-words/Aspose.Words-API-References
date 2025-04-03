@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportTocPageNumbers property. Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB"
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportTocPageNumbers/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportTocPageNumbers/
 ---
 
 ## HtmlSaveOptions.exportTocPageNumbers property
 
 Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartXValue.fromMultilevelValue method. Creates a [ChartXValue](../) instance of the [ChartXValueType.Multilevel](../../chartxvaluetype/#Multilevel) type."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartxvalue/fromMultilevelValue/
+url: /nodejs-net/aspose.words.drawing.charts/chartxvalue/fromMultilevelValue/
 ---
 
 ## fromMultilevelValue(value) {#chartmultilevelvalue}

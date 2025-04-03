@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "LoadOptions.baseUri property. Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/baseUri/
+url: /nodejs-net/aspose.words.loading/loadoptions/baseUri/
 ---
 
 ## LoadOptions.baseUri property
 
 Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required.
-Can be ``None`` or empty string. Default is ``None``.
+Can be ``null`` or empty string. Default is ``null``.
 
 
 

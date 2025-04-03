@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldNoteRef method. "
 type: docs
 weight: 700
-url: /nodejs-net/Aspose.Words/field/asFieldNoteRef/
+url: /nodejs-net/aspose.words/field/asFieldNoteRef/
 ---
 
 ## asFieldNoteRef() {#default}

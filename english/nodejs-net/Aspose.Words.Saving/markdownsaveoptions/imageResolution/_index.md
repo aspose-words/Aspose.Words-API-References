@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MarkdownSaveOptions.imageResolution property. Specifies the output resolution for images when exporting to Markdown"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/imageResolution/
+url: /nodejs-net/aspose.words.saving/markdownsaveoptions/imageResolution/
 ---
 
 ## MarkdownSaveOptions.imageResolution property

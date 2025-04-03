@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIncludeText.mimeType property. Gets or sets the MIME type of the referenced file."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldincludetext/mimeType/
+url: /nodejs-net/aspose.words.fields/fieldincludetext/mimeType/
 ---
 
 ## FieldIncludeText.mimeType property

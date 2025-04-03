@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageData.borders property. Gets the collection of borders of the image"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/borders/
+url: /nodejs-net/aspose.words.drawing/imagedata/borders/
 ---
 
 ## ImageData.borders property

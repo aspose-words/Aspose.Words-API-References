@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldKeywords method. "
 type: docs
 weight: 590
-url: /nodejs-net/Aspose.Words/field/asFieldKeywords/
+url: /nodejs-net/aspose.words/field/asFieldKeywords/
 ---
 
 ## asFieldKeywords() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.hangingPunctuation property. Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/paragraphformat/hangingPunctuation/
+url: /nodejs-net/aspose.words/paragraphformat/hangingPunctuation/
 ---
 
 ## ParagraphFormat.hangingPunctuation property

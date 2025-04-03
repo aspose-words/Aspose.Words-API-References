@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConvertUtil.millimeterToPoint method. Converts millimeters to points."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/convertutil/millimeterToPoint/
+url: /nodejs-net/aspose.words/convertutil/millimeterToPoint/
 ---
 
 ## millimeterToPoint(millimeters) {#number}

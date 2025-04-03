@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Section.pageSetup property. Returns an object that represents page setup and section properties."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/section/pageSetup/
+url: /nodejs-net/aspose.words/section/pageSetup/
 ---
 
 ## Section.pageSetup property

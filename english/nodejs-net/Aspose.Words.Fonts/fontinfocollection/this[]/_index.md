@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfoCollection.this[] property. "
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fonts/fontinfocollection/this[]/
+url: /nodejs-net/aspose.words.fonts/fontinfocollection/this[]/
 ---
 
 ## FontInfoCollection.this[] property

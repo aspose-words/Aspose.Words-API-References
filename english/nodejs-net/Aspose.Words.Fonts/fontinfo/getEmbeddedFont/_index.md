@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfo.getEmbeddedFont method. Gets a specific embedded font file."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/getEmbeddedFont/
+url: /nodejs-net/aspose.words.fonts/fontinfo/getEmbeddedFont/
 ---
 
 ## getEmbeddedFont(format, style) {#embeddedfontformat_embeddedfontstyle}
@@ -15,7 +15,7 @@ Gets a specific embedded font file.
 
 
 ```js
-getEmbeddedFont(format: Aspose.Words.Fonts.EmbeddedFontFormatstyle: Aspose.Words.Fonts.EmbeddedFontStyle)
+getEmbeddedFont(format: Aspose.Words.Fonts.EmbeddedFontFormat, style: Aspose.Words.Fonts.EmbeddedFontStyle)
 ```
 
 | Parameter | Type | Description |
@@ -25,7 +25,7 @@ getEmbeddedFont(format: Aspose.Words.Fonts.EmbeddedFontFormatstyle: Aspose.Words
 
 ### Returns
 
-Returns ``None`` if the specified font is not embedded.
+Returns ``null`` if the specified font is not embedded.
 
 
 ### See Also

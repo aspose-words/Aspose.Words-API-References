@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldAutoNumLgl.removeTrailingPeriod property. Gets or sets whether to display the number without a trailing period."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldautonumlgl/removeTrailingPeriod/
+url: /nodejs-net/aspose.words.fields/fieldautonumlgl/removeTrailingPeriod/
 ---
 
 ## FieldAutoNumLgl.removeTrailingPeriod property

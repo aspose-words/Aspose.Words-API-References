@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shape.filled property. Determines whether the closed path of the shape will be filled."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/shape/filled/
+url: /nodejs-net/aspose.words.drawing/shape/filled/
 ---
 
 ## Shape.filled property
@@ -22,7 +22,7 @@ get filled(): boolean
 
 This is a shortcut to the [Fill.visible](../../fill/visible/) property.
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

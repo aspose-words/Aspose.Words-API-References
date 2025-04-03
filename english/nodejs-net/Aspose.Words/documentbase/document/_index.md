@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBase.document property. Gets this instance."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/documentbase/document/
+url: /nodejs-net/aspose.words/documentbase/document/
 ---
 
 ## DocumentBase.document property

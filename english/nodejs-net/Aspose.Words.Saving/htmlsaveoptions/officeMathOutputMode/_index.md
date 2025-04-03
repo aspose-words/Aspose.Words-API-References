@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.officeMathOutputMode property. Controls how OfficeMath objects are exported to HTML, MHTML or EPUB"
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/officeMathOutputMode/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/officeMathOutputMode/
 ---
 
 ## HtmlSaveOptions.officeMathOutputMode property

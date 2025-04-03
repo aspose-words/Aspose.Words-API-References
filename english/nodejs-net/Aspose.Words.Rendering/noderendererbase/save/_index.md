@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Rendering.NodeRendererBase.save method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Rendering/noderendererbase/save/
+url: /nodejs-net/aspose.words.rendering/noderendererbase/save/
 ---
 
 ## save(fileName, saveOptions) {#string_imagesaveoptions}
@@ -15,13 +15,13 @@ Renders the shape into an image and saves into a file.
 
 
 ```js
-save(fileName: stringsaveOptions: Aspose.Words.Saving.ImageSaveOptions)
+save(fileName: string, saveOptions: Aspose.Words.Saving.ImageSaveOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | [ImageSaveOptions](../../../Aspose.Words.Saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
+| saveOptions | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``null``. |
 
 ## save(fileName, saveOptions) {#string_svgsaveoptions}
 
@@ -29,13 +29,13 @@ Renders the shape into an SVG image and saves into a file.
 
 
 ```js
-save(fileName: stringsaveOptions: Aspose.Words.Saving.SvgSaveOptions)
+save(fileName: string, saveOptions: Aspose.Words.Saving.SvgSaveOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | [SvgSaveOptions](../../../Aspose.Words.Saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
+| saveOptions | [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``null``. |
 
 ## save(stream, saveOptions) {#buffer_imagesaveoptions}
 
@@ -43,13 +43,13 @@ Renders the shape into an image and saves into a stream.
 
 
 ```js
-save(stream: BuffersaveOptions: Aspose.Words.Saving.ImageSaveOptions)
+save(stream: Buffer, saveOptions: Aspose.Words.Saving.ImageSaveOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream where to save the image of the shape. |
-| saveOptions | [ImageSaveOptions](../../../Aspose.Words.Saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved in the PNG format. |
+| saveOptions | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``null``. If this is ``null``, the image will be saved in the PNG format. |
 
 ## save(stream, saveOptions) {#buffer_svgsaveoptions}
 
@@ -57,13 +57,13 @@ Renders the shape into an SVG image and saves into a stream.
 
 
 ```js
-save(stream: BuffersaveOptions: Aspose.Words.Saving.SvgSaveOptions)
+save(stream: Buffer, saveOptions: Aspose.Words.Saving.SvgSaveOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream where to save the SVG image of the shape. |
-| saveOptions | [SvgSaveOptions](../../../Aspose.Words.Saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved with the default options. |
+| saveOptions | [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``null``. If this is ``null``, the image will be saved with the default options. |
 
 ## Examples
 

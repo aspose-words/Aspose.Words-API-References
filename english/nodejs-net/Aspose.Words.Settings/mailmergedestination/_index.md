@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.MailMergeDestination enumeration. Specifies the possible results which may be generated when a mail merge is carried out on a document."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Settings/mailmergedestination/
+url: /nodejs-net/aspose.words.settings/mailmergedestination/
 ---
 
 ## MailMergeDestination enumeration

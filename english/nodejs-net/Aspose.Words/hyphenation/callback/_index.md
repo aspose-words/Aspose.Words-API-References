@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Hyphenation.callback property. Gets or sets callback interface used to request dictionaries when page layout of the document is built"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/hyphenation/callback/
+url: /nodejs-net/aspose.words/hyphenation/callback/
 ---
 
 ## Hyphenation.callback property

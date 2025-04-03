@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Body constructor. Initializes a new instance of the [Body](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/body/constructor/
+url: /nodejs-net/aspose.words/body/constructor/
 ---
 
 ## Body(doc) {#documentbase}
@@ -26,7 +26,7 @@ Body(doc: Aspose.Words.DocumentBase)
 ### Remarks
 
 When [Body](../) is created, it belongs to the specified document, but is not 
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append [Body](../) to a [Section](../../section/) use [CompositeNode.appendChild()](../../compositenode/appendChild/#node)
 [CompositeNode.insertAfter()](../../compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../compositenode/insertBefore/#node_node)

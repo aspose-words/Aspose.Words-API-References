@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlLoadOptions.supportFontFaceRules property. Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Loading/htmlloadoptions/supportFontFaceRules/
+url: /nodejs-net/aspose.words.loading/htmlloadoptions/supportFontFaceRules/
 ---
 
 ## HtmlLoadOptions.supportFontFaceRules property
 
 Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts.
-Default value is ``False``.
+Default value is ``false``.
 
 
 
@@ -23,10 +23,10 @@ get supportFontFaceRules(): boolean
 ### Remarks
 
 If this option is enabled, fonts declared in @font-face rules are loaded and embedded into the resulting document's
-font definitions (see [DocumentBase.fontInfos](../../../Aspose.Words/documentbase/fontInfos/)). This makes the loaded fonts available for rendering but
+font definitions (see [DocumentBase.fontInfos](../../../aspose.words/documentbase/fontInfos/)). This makes the loaded fonts available for rendering but
 doesn't automatically enable embedding of the fonts upon saving. In order to save the document with loaded fonts,
-the [FontInfoCollection.embedTrueTypeFonts](../../../Aspose.Words.Fonts/fontinfocollection/embedTrueTypeFonts/) property of the [DocumentBase.fontInfos](../../../Aspose.Words/documentbase/fontInfos/)
-collection should be set to ``True``.
+the [FontInfoCollection.embedTrueTypeFonts](../../../aspose.words.fonts/fontinfocollection/embedTrueTypeFonts/) property of the [DocumentBase.fontInfos](../../../aspose.words/documentbase/fontInfos/)
+collection should be set to ``true``.
 
 
 Supported font formats are TTF, EOT, and WOFF.

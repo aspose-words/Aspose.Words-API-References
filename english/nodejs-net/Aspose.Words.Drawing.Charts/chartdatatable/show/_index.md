@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataTable.show property. Gets or sets a flag indicating whether the data table will be shown for the chart"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatatable/show/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatatable/show/
 ---
 
 ## ChartDataTable.show property
 
 Gets or sets a flag indicating whether the data table will be shown for the chart.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

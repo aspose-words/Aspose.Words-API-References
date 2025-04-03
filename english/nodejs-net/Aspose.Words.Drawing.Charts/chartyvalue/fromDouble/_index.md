@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartYValue.fromDouble method. Creates a [ChartYValue](../) instance of the [ChartYValueType.Double](../../chartyvaluetype/#Double) type."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartyvalue/fromDouble/
+url: /nodejs-net/aspose.words.drawing.charts/chartyvalue/fromDouble/
 ---
 
 ## fromDouble(value) {#number}

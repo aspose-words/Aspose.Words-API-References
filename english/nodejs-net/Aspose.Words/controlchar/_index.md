@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ControlChar class. Control characters often encountered in documents"
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/controlchar/
+url: /nodejs-net/aspose.words/controlchar/
 ---
 
 ## ControlChar class

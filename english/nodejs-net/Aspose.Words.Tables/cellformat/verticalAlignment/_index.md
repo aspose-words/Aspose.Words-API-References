@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CellFormat.verticalAlignment property. Returns or sets the vertical alignment of text in the cell."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Tables/cellformat/verticalAlignment/
+url: /nodejs-net/aspose.words.tables/cellformat/verticalAlignment/
 ---
 
 ## CellFormat.verticalAlignment property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldCreateDate method. "
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/field/asFieldCreateDate/
+url: /nodejs-net/aspose.words/field/asFieldCreateDate/
 ---
 
 ## asFieldCreateDate() {#default}

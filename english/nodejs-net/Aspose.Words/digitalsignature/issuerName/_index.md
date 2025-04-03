@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DigitalSignature.issuerName property. Returns the subject distinguished name of the certificate isuuer."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/digitalsignature/issuerName/
+url: /nodejs-net/aspose.words/digitalsignature/issuerName/
 ---
 
 ## DigitalSignature.issuerName property

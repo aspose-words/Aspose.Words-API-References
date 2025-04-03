@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Forms2OleControl.width property. Gets or sets a width of the control in points."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/width/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrol/width/
 ---
 
 ## Forms2OleControl.width property

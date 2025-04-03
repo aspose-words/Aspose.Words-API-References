@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextPath.text property. Defines the text of the text path."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Drawing/textpath/text/
+url: /nodejs-net/aspose.words.drawing/textpath/text/
 ---
 
 ## TextPath.text property

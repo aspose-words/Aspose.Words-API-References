@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.imageBytes property. Defines the image for a stroke image or pattern fill."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Drawing/stroke/imageBytes/
+url: /nodejs-net/aspose.words.drawing/stroke/imageBytes/
 ---
 
 ## Stroke.imageBytes property

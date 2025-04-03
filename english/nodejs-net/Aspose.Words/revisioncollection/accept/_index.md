@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionCollection.accept method. Accepts revisions that match specified criteria."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/revisioncollection/accept/
+url: /nodejs-net/aspose.words/revisioncollection/accept/
 ---
 
 ## accept(criteria) {#irevisioncriteria}

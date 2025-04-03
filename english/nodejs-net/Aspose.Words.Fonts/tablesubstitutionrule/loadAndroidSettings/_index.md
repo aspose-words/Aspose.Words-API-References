@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableSubstitutionRule.loadAndroidSettings method. Loads predefined table substitution settings for Android platform."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/loadAndroidSettings/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/loadAndroidSettings/
 ---
 
 ## loadAndroidSettings() {#default}

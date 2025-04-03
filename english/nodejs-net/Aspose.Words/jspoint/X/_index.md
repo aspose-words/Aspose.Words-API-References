@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "JSPoint.X property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/jspoint/X/
+url: /nodejs-net/aspose.words/jspoint/X/
 ---
 
 ## JSPoint.X property

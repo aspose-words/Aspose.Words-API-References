@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataPoint.clearFormat method. Clears format of this data point"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapoint/clearFormat/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatapoint/clearFormat/
 ---
 
 ## clearFormat() {#default}

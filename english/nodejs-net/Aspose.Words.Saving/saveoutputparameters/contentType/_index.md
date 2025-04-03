@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SaveOutputParameters.contentType property. Returns the Content-Type string (Internet Media Type) that identifies the type of the saved document."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/saveoutputparameters/contentType/
+url: /nodejs-net/aspose.words.saving/saveoutputparameters/contentType/
 ---
 
 ## SaveOutputParameters.contentType property

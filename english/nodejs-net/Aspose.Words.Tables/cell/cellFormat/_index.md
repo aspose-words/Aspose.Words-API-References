@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.cellFormat property. Provides access to the formatting properties of the cell."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Tables/cell/cellFormat/
+url: /nodejs-net/aspose.words.tables/cell/cellFormat/
 ---
 
 ## Cell.cellFormat property

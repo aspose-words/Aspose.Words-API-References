@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomPartCollection.clone method. Makes a deep copy of this collection and its items."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/custompartcollection/clone/
+url: /nodejs-net/aspose.words.markup/custompartcollection/clone/
 ---
 
 ## clone() {#default}

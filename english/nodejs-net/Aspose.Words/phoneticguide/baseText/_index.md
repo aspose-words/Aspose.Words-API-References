@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PhoneticGuide.baseText property. Gets base text of the phonetic guide."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/phoneticguide/baseText/
+url: /nodejs-net/aspose.words/phoneticguide/baseText/
 ---
 
 ## PhoneticGuide.baseText property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.autoColor property. Returns the present calculated color of the text (black or white) to be used for 'auto color'"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/font/autoColor/
+url: /nodejs-net/aspose.words/font/autoColor/
 ---
 
 ## Font.autoColor property

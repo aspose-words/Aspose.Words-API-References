@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionPropertyCollection.count property. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionpropertycollection/count/
+url: /nodejs-net/aspose.words.webextensions/webextensionpropertycollection/count/
 ---
 
 ## WebExtensionPropertyCollection.count property

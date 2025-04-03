@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldIncludePicture method. "
 type: docs
 weight: 550
-url: /nodejs-net/Aspose.Words/field/asFieldIncludePicture/
+url: /nodejs-net/aspose.words/field/asFieldIncludePicture/
 ---
 
 ## asFieldIncludePicture() {#default}

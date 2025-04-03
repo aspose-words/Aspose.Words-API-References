@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.rightPadding property. Gets or sets the amount of space (in points) to add to the right of the contents of cells."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words/table/rightPadding/
+url: /nodejs-net/aspose.words/table/rightPadding/
 ---
 
 ## Table.rightPadding property

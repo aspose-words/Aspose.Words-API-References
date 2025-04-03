@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Style.paragraphFormat property. Gets the paragraph formatting of the style."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/style/paragraphFormat/
+url: /nodejs-net/aspose.words/style/paragraphFormat/
 ---
 
 ## Style.paragraphFormat property
@@ -20,7 +20,7 @@ get paragraphFormat(): Aspose.Words.ParagraphFormat
 
 ### Remarks
 
-For character and list styles this property returns ``None``.
+For character and list styles this property returns ``null``.
 
 
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FileFontSource class. Represents the single TrueType font file stored in the file system"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fonts/filefontsource/
+url: /nodejs-net/aspose.words.fonts/filefontsource/
 ---
 
 ## FileFontSource class

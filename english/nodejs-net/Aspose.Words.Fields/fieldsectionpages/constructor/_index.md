@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSectionPages constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldsectionpages/constructor/
+url: /nodejs-net/aspose.words.fields/fieldsectionpages/constructor/
 ---
 
 ## FieldSectionPages() {#default}

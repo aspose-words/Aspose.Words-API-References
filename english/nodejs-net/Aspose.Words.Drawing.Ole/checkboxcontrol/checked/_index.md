@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "CheckBoxControl.checked property. Gets or sets a boolean value indicating either this [CheckBoxControl](../) is checked or not"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Ole/checkboxcontrol/checked/
+url: /nodejs-net/aspose.words.drawing.ole/checkboxcontrol/checked/
 ---
 
 ## CheckBoxControl.checked property
 
 Gets or sets a boolean value indicating either this [CheckBoxControl](../) is checked or not.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

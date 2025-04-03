@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.exportLanguageToSpanTag property. Gets or sets a value determining whether or not to create a Span tag in the document structure to export the text language."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/exportLanguageToSpanTag/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/exportLanguageToSpanTag/
 ---
 
 ## PdfSaveOptions.exportLanguageToSpanTag property
@@ -20,12 +20,12 @@ get exportLanguageToSpanTag(): boolean
 
 ### Remarks
 
-Default value is ``False`` and "Lang" attribute is attached to a marked-content sequence in a page content stream.
+Default value is ``false`` and "Lang" attribute is attached to a marked-content sequence in a page content stream.
 
-When the value is ``True`` "Span" tag is created for the text with non-default language
+When the value is ``true`` "Span" tag is created for the text with non-default language
 and "Lang" attribute is attached to this tag.
 
-This value is ignored when [PdfSaveOptions.exportDocumentStructure](../exportDocumentStructure/) is ``False``. 
+This value is ignored when [PdfSaveOptions.exportDocumentStructure](../exportDocumentStructure/) is ``false``. 
 
 
 

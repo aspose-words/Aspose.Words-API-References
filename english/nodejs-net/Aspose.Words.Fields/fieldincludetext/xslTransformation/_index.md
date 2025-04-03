@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIncludeText.xslTransformation property. Gets or sets the location of XSL Transformation to format XML data."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/fieldincludetext/xslTransformation/
+url: /nodejs-net/aspose.words.fields/fieldincludetext/xslTransformation/
 ---
 
 ## FieldIncludeText.xslTransformation property

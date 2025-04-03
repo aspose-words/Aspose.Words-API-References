@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.edition property. Gets or sets the editor of a source."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Bibliography/source/edition/
+url: /nodejs-net/aspose.words.bibliography/source/edition/
 ---
 
 ## Source.edition property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.oddAndEvenPagesHeaderFooter property. True if the document has different headers and footers for odd-numbered and even-numbered pages."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/pagesetup/oddAndEvenPagesHeaderFooter/
+url: /nodejs-net/aspose.words/pagesetup/oddAndEvenPagesHeaderFooter/
 ---
 
 ## PageSetup.oddAndEvenPagesHeaderFooter property

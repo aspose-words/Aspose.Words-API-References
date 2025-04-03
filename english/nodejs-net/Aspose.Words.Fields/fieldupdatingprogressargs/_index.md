@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fields.FieldUpdatingProgressArgs class. Provides data for the field updating progress event."
 type: docs
 weight: 1100
-url: /nodejs-net/Aspose.Words.Fields/fieldupdatingprogressargs/
+url: /nodejs-net/aspose.words.fields/fieldupdatingprogressargs/
 ---
 
 ## FieldUpdatingProgressArgs class

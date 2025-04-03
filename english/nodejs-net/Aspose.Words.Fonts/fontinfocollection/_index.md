@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FontInfoCollection class. Represents a collection of fonts used in a document"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Fonts/fontinfocollection/
+url: /nodejs-net/aspose.words.fonts/fontinfocollection/
 ---
 
 ## FontInfoCollection class
@@ -22,7 +22,7 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 Items are [FontInfo](../fontinfo/) objects.
 
 You do not create instances of this class directly. 
-Use the [DocumentBase.fontInfos](../../Aspose.Words/documentbase/fontInfos/) property to access the collection of fonts 
+Use the [DocumentBase.fontInfos](../../aspose.words/documentbase/fontInfos/) property to access the collection of fonts 
 defined in the document.
 
 
@@ -33,9 +33,9 @@ defined in the document.
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Gets the number of elements contained in the collection. |
-| [embedSystemFonts](./embedSystemFonts/) | Specifies whether or not to embed System fonts into the document. Default value for this property is ``False``. |
-| [embedTrueTypeFonts](./embedTrueTypeFonts/) | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is ``False``. |
-| [saveSubsetFonts](./saveSubsetFonts/) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is ``False``. |
+| [embedSystemFonts](./embedSystemFonts/) | Specifies whether or not to embed System fonts into the document. Default value for this property is ``false``. |
+| [embedTrueTypeFonts](./embedTrueTypeFonts/) | Specifies whether or not to embed TrueType fonts in a document when it is saved. Default value for this property is ``false``. |
+| [saveSubsetFonts](./saveSubsetFonts/) | Specifies whether or not to save a subset of the embedded TrueType fonts with the document. Default value for this property is ``false``. |
 | [this[]](./this[]/) |  |
 | [this[]](./this[]/) |  |
 
@@ -80,5 +80,5 @@ doc.save(base.artifactsDir + "Font.FontInfoCollection.docx");
 
 * module [Aspose.Words.Fonts](../)
 * class [FontInfo](../fontinfo/)
-* property [DocumentBase.fontInfos](../../Aspose.Words/documentbase/fontInfos/)
+* property [DocumentBase.fontInfos](../../aspose.words/documentbase/fontInfos/)
 

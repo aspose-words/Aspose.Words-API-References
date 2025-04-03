@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FrameFormat.relativeHorizontalPosition property. Gets the relative horizontal position of a frame."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/frameformat/relativeHorizontalPosition/
+url: /nodejs-net/aspose.words/frameformat/relativeHorizontalPosition/
 ---
 
 ## FrameFormat.relativeHorizontalPosition property

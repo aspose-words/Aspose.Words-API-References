@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PdfEncryptionDetails constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/pdfencryptiondetails/constructor/
+url: /nodejs-net/aspose.words.saving/pdfencryptiondetails/constructor/
 ---
 
 ## PdfEncryptionDetails(userPassword, ownerPassword) {#string_string}
@@ -15,7 +15,7 @@ Initializes an instance of this class.
 
 
 ```js
-PdfEncryptionDetails(userPassword: stringownerPassword: string)
+PdfEncryptionDetails(userPassword: string, ownerPassword: string)
 ```
 
 | Parameter | Type | Description |
@@ -29,7 +29,7 @@ Initializes an instance of this class.
 
 
 ```js
-PdfEncryptionDetails(userPassword: stringownerPassword: stringpermissions: Aspose.Words.Saving.PdfPermissions)
+PdfEncryptionDetails(userPassword: string, ownerPassword: string, permissions: Aspose.Words.Saving.PdfPermissions)
 ```
 
 | Parameter | Type | Description |

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.otherPagesTray property. Gets or sets the paper tray (bin) to be used for all but the first page of a section"
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/pagesetup/otherPagesTray/
+url: /nodejs-net/aspose.words/pagesetup/otherPagesTray/
 ---
 
 ## PageSetup.otherPagesTray property

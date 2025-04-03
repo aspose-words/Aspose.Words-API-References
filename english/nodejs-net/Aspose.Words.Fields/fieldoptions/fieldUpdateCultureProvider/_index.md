@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.fieldUpdateCultureProvider property. Gets or sets a provider that returns a culture object specific for each particular field."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/fieldUpdateCultureProvider/
+url: /nodejs-net/aspose.words.fields/fieldoptions/fieldUpdateCultureProvider/
 ---
 
 ## FieldOptions.fieldUpdateCultureProvider property

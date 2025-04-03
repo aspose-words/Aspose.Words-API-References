@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSize.verticalResolution property. Gets the vertical resolution in DPI."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/imagesize/verticalResolution/
+url: /nodejs-net/aspose.words.drawing/imagesize/verticalResolution/
 ---
 
 ## ImageSize.verticalResolution property

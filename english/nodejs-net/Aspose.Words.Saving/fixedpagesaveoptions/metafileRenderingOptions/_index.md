@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FixedPageSaveOptions.metafileRenderingOptions property. Allows to specify metafile rendering options."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/fixedpagesaveoptions/metafileRenderingOptions/
+url: /nodejs-net/aspose.words.saving/fixedpagesaveoptions/metafileRenderingOptions/
 ---
 
 ## FixedPageSaveOptions.metafileRenderingOptions property

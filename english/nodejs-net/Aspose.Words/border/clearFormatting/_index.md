@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Border.clearFormatting method. Resets border properties to default values."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/border/clearFormatting/
+url: /nodejs-net/aspose.words/border/clearFormatting/
 ---
 
 ## clearFormatting() {#default}

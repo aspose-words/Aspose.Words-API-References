@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlLoadOptions.webRequestTimeout property. The number of milliseconds to wait before the web request times out"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Loading/htmlloadoptions/webRequestTimeout/
+url: /nodejs-net/aspose.words.loading/htmlloadoptions/webRequestTimeout/
 ---
 
 ## HtmlLoadOptions.webRequestTimeout property

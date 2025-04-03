@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSavingArgs.document property. Gets the document object that is currently being saved."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/imagesavingargs/document/
+url: /nodejs-net/aspose.words.saving/imagesavingargs/document/
 ---
 
 ## ImageSavingArgs.document property

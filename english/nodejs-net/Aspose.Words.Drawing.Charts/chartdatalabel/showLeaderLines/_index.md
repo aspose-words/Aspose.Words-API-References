@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.showLeaderLines property. Allows to specify if data label leader lines need be shown"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/showLeaderLines/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/showLeaderLines/
 ---
 
 ## ChartDataLabel.showLeaderLines property
 
 Allows to specify if data label leader lines need be shown. 
-Default value is ``False``.
+Default value is ``false``.
 
 
 

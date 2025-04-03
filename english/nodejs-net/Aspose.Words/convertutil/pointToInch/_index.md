@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ConvertUtil.pointToInch method. Converts points to inches."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/convertutil/pointToInch/
+url: /nodejs-net/aspose.words/convertutil/pointToInch/
 ---
 
 ## pointToInch(points) {#number}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitGlossaryDocumentEnd method. Called when enumeration of a glossary document has ended."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/documentvisitor/visitGlossaryDocumentEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitGlossaryDocumentEnd/
 ---
 
 ## visitGlossaryDocumentEnd(glossary) {#glossarydocument}
@@ -20,13 +20,13 @@ visitGlossaryDocumentEnd(glossary: Aspose.Words.BuildingBlocks.GlossaryDocument)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| glossary | [GlossaryDocument](../../../Aspose.Words.BuildingBlocks/glossarydocument/) | The object that is being visited. |
+| glossary | [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) | The object that is being visited. |
 
 ### Remarks
 
 Note: A glossary document node and its children are not visited when you execute a
 Visitor over a [Document](../../document/). If you want to execute a Visitor over a
-glossary document, you need to call [GlossaryDocument.accept()](../../../Aspose.Words.BuildingBlocks/glossarydocument/accept/#documentvisitor).
+glossary document, you need to call [GlossaryDocument.accept()](../../../aspose.words.buildingblocks/glossarydocument/accept/#documentvisitor).
 
 
 

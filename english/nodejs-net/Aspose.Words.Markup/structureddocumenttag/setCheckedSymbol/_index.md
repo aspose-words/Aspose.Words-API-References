@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.setCheckedSymbol method. Sets the symbol used to represent the checked state of a check box content control."
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/setCheckedSymbol/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/setCheckedSymbol/
 ---
 
 ## setCheckedSymbol(characterCode, fontName) {#number_string}
@@ -15,7 +15,7 @@ Sets the symbol used to represent the checked state of a check box content contr
 
 
 ```js
-setCheckedSymbol(characterCode: numberfontName: string)
+setCheckedSymbol(characterCode: number, fontName: string)
 ```
 
 | Parameter | Type | Description |

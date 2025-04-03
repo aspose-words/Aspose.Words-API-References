@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OfficeMath.mathObjectType property. Gets type [OfficeMath.mathObjectType](./) of this Office Math object."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Math/officemath/mathObjectType/
+url: /nodejs-net/aspose.words.math/officemath/mathObjectType/
 ---
 
 ## OfficeMath.mathObjectType property

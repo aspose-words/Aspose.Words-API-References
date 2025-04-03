@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBase.pageColor property. Gets or sets the page color of the document"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/documentbase/pageColor/
+url: /nodejs-net/aspose.words/documentbase/pageColor/
 ---
 
 ## DocumentBase.pageColor property

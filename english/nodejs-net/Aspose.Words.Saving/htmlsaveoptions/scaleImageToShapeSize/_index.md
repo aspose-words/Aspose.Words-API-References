@@ -6,14 +6,14 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.scaleImageToShapeSize property. Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB"
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/scaleImageToShapeSize/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/scaleImageToShapeSize/
 ---
 
 ## HtmlSaveOptions.scaleImageToShapeSize property
 
 Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML
 or EPUB.
-Default value is ``True``.
+Default value is ``true``.
 
 
 
@@ -31,16 +31,16 @@ In order to display an image in the browser, it must be scaled to the shape size
 The [HtmlSaveOptions.scaleImageToShapeSize](./) property controls where the scaling of the image
 takes place: in Aspose.Words during export to HTML or in the browser when displaying the document.
 
-When [HtmlSaveOptions.scaleImageToShapeSize](./) is ``True``, the image is scaled by Aspose.Words
+When [HtmlSaveOptions.scaleImageToShapeSize](./) is ``true``, the image is scaled by Aspose.Words
 using high quality scaling during export to HTML. When [HtmlSaveOptions.scaleImageToShapeSize](./) 
-is ``False``, the image is output with its original size and the browser has to scale it.
+is ``false``, the image is output with its original size and the browser has to scale it.
 
 In general, browsers do quick and poor quality scaling. As a result, you will normally get better 
-display quality in the browser and smaller file size when [HtmlSaveOptions.scaleImageToShapeSize](./) is ``True``, 
-but better printing quality and faster conversion when [HtmlSaveOptions.scaleImageToShapeSize](./) is ``False``.
+display quality in the browser and smaller file size when [HtmlSaveOptions.scaleImageToShapeSize](./) is ``true``, 
+but better printing quality and faster conversion when [HtmlSaveOptions.scaleImageToShapeSize](./) is ``false``.
 
 In addition to shapes containing individual raster images, this option also affects group shapes consisting
-of raster images. If [HtmlSaveOptions.scaleImageToShapeSize](./) is ``False`` and a group shape contains raster images
+of raster images. If [HtmlSaveOptions.scaleImageToShapeSize](./) is ``false`` and a group shape contains raster images
 whose intrinsic resolution is higher than the value specified in [HtmlSaveOptions.imageResolution](../imageResolution/), Aspose.Words will
 increase rendering resolution for that group. This allows to better preserve quality of grouped high resolution
 images when saving to HTML.

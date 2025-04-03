@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSaveOptions.imageContrast property. Gets or sets the contrast for the generated images."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/imageContrast/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/imageContrast/
 ---
 
 ## ImageSaveOptions.imageContrast property

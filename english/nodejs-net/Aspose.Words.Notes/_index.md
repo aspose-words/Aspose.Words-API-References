@@ -3,13 +3,13 @@ title: Aspose.Words.Notes module
 linktitle: Aspose.Words.Notes module
 articleTitle: Aspose.Words.Notes module
 second_title: Aspose.Words for NodeJs
-description: "The aspose.words.notes module provides classes to work with Microsoft Word endnotes and footnotes."
+description: "The Aspose.Words.Notes module provides classes to work with Microsoft Word endnotes and footnotes."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Notes/
+url: /nodejs-net/aspose.words.notes/
 ---
 
-The **aspose.words.notes** module provides classes to work with Microsoft Word endnotes and footnotes.
+The **Aspose.Words.Notes** module provides classes to work with Microsoft Word endnotes and footnotes.
 
 
 

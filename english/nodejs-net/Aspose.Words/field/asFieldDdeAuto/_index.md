@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldDdeAuto method. "
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/field/asFieldDdeAuto/
+url: /nodejs-net/aspose.words/field/asFieldDdeAuto/
 ---
 
 ## asFieldDdeAuto() {#default}

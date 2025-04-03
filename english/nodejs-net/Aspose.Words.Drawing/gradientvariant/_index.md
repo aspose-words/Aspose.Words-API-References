@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.GradientVariant enumeration. Specifies the variant for a gradient fill."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Drawing/gradientvariant/
+url: /nodejs-net/aspose.words.drawing/gradientvariant/
 ---
 
 ## GradientVariant enumeration

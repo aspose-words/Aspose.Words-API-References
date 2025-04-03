@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.pageBreakBefore property. True if a page break is forced before the paragraph."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/paragraphformat/pageBreakBefore/
+url: /nodejs-net/aspose.words/paragraphformat/pageBreakBefore/
 ---
 
 ## ParagraphFormat.pageBreakBefore property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.JSPoint class. "
 type: docs
 weight: 680
-url: /nodejs-net/Aspose.Words/jspoint/
+url: /nodejs-net/aspose.words/jspoint/
 ---
 
 ## JSPoint class

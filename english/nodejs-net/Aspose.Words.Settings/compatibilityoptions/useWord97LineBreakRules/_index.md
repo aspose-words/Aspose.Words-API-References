@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.useWord97LineBreakRules property. Emulate Word 97 East Asian Line Breaking."
 type: docs
 weight: 680
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/useWord97LineBreakRules/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/useWord97LineBreakRules/
 ---
 
 ## CompatibilityOptions.useWord97LineBreakRules property

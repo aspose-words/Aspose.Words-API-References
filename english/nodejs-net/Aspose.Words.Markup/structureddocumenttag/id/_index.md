@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.id property. Specifies a unique read-only persistent numerical Id for this SDT."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/id/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/id/
 ---
 
 ## StructuredDocumentTag.id property
@@ -24,9 +24,9 @@ get id(): number
 
 Id attribute shall follow these rules:
 
-* The document shall retain SDT ids only if the whole document is cloned [Document.clone()](../../../Aspose.Words/document/clone/#default).
+* The document shall retain SDT ids only if the whole document is cloned [Document.clone()](../../../aspose.words/document/clone/#default).
   
-* During [DocumentBase.importNode()](../../../Aspose.Words/documentbase/importNode/#node_boolean)
+* During [DocumentBase.importNode()](../../../aspose.words/documentbase/importNode/#node_boolean)
   Id shall be retained if import does not cause conflicts with other SDT Ids in
   the target document.
   

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentProperty.toDateTime method. Returns the property value as DateTime in UTC."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/toDateTime/
+url: /nodejs-net/aspose.words.properties/documentproperty/toDateTime/
 ---
 
 ## toDateTime() {#default}

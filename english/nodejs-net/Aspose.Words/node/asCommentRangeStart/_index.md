@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asCommentRangeStart method. Cast node to [CommentRangeStart](../../commentrangestart/)."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/node/asCommentRangeStart/
+url: /nodejs-net/aspose.words/node/asCommentRangeStart/
 ---
 
 ## asCommentRangeStart() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtension.bindings property. Specifies a list of web extension bindings."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/webextension/bindings/
+url: /nodejs-net/aspose.words/webextension/bindings/
 ---
 
 ## WebExtension.bindings property

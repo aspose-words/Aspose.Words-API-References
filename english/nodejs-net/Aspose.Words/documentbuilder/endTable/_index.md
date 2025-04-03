@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.endTable method. Ends a table in the document."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words/documentbuilder/endTable/
+url: /nodejs-net/aspose.words/documentbuilder/endTable/
 ---
 
 ## endTable() {#default}

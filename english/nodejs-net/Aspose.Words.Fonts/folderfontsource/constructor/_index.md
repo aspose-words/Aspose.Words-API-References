@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Fonts.FolderFontSource constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/folderfontsource/constructor/
+url: /nodejs-net/aspose.words.fonts/folderfontsource/constructor/
 ---
 
 ## FolderFontSource(folderPath, scanSubfolders) {#string_boolean}
@@ -15,7 +15,7 @@ Ctor.
 
 
 ```js
-FolderFontSource(folderPath: stringscanSubfolders: boolean)
+FolderFontSource(folderPath: string, scanSubfolders: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -29,7 +29,7 @@ Ctor.
 
 
 ```js
-FolderFontSource(folderPath: stringscanSubfolders: booleanpriority: number)
+FolderFontSource(folderPath: string, scanSubfolders: boolean, priority: number)
 ```
 
 | Parameter | Type | Description |

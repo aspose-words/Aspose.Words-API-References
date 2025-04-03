@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTag.buildingBlockGallery property. Specifies type of building block for this SDT"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/buildingBlockGallery/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/buildingBlockGallery/
 ---
 
 ## StructuredDocumentTag.buildingBlockGallery property
 
 Specifies type of building block for this **SDT**.
-Can not be ``None``.
+Can not be ``null``.
 
 
 

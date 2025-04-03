@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.write method. Inserts a string into the document at the current insert position."
 type: docs
 weight: 690
-url: /nodejs-net/Aspose.Words/documentbuilder/write/
+url: /nodejs-net/aspose.words/documentbuilder/write/
 ---
 
 ## write(text) {#string}

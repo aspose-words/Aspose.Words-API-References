@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldAuthor method. "
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/field/asFieldAuthor/
+url: /nodejs-net/aspose.words/field/asFieldAuthor/
 ---
 
 ## asFieldAuthor() {#default}

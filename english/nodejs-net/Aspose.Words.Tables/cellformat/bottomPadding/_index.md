@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CellFormat.bottomPadding property. Returns or sets the amount of space (in points) to add below the contents of cell."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Tables/cellformat/bottomPadding/
+url: /nodejs-net/aspose.words.tables/cellformat/bottomPadding/
 ---
 
 ## CellFormat.bottomPadding property

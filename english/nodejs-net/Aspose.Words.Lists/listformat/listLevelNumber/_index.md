@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListFormat.listLevelNumber property. Gets or sets the list level number (0 to 8) for the paragraph."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Lists/listformat/listLevelNumber/
+url: /nodejs-net/aspose.words.lists/listformat/listLevelNumber/
 ---
 
 ## ListFormat.listLevelNumber property

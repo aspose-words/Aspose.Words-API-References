@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DropDownItemCollection.contains method. Determines whether the collection contains the specified value."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/contains/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/contains/
 ---
 
 ## contains(value) {#string}
@@ -24,7 +24,7 @@ contains(value: string)
 
 ### Returns
 
-``True`` if the item is found in the collection; otherwise, ``False``.
+``true`` if the item is found in the collection; otherwise, ``false``.
 
 
 ### See Also

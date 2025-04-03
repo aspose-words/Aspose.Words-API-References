@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VbaModule.sourceCode property. Gets or sets VBA project module source code."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Vba/vbamodule/sourceCode/
+url: /nodejs-net/aspose.words.vba/vbamodule/sourceCode/
 ---
 
 ## VbaModule.sourceCode property

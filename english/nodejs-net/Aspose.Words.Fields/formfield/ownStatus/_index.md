@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.ownStatus property. Specifies the source of the text that's displayed in the status bar when a form field has the focus."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Fields/formfield/ownStatus/
+url: /nodejs-net/aspose.words.fields/formfield/ownStatus/
 ---
 
 ## FormField.ownStatus property
@@ -20,8 +20,8 @@ get ownStatus(): boolean
 
 ### Remarks
 
-If ``True``, the text specified by the [FormField.statusText](../statusText/) property is displayed.
-If ``False``, the text of the AutoText entry specified by the [FormField.statusText](../statusText/) property is displayed.
+If ``true``, the text specified by the [FormField.statusText](../statusText/) property is displayed.
+If ``false``, the text of the AutoText entry specified by the [FormField.statusText](../statusText/) property is displayed.
 
 
 

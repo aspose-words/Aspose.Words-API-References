@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WarningInfoCollection.warning method. Implements the [IWarningCallback](../../iwarningcallback/) interface"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/warninginfocollection/warning/
+url: /nodejs-net/aspose.words/warninginfocollection/warning/
 ---
 
 ## warning(info) {#warninginfo}

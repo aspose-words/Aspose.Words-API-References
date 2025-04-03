@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBase.footnoteSeparators property. Provides access to the footnote/endnote separators defined in the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/documentbase/footnoteSeparators/
+url: /nodejs-net/aspose.words/documentbase/footnoteSeparators/
 ---
 
 ## DocumentBase.footnoteSeparators property

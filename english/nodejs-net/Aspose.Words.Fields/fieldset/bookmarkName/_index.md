@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSet.bookmarkName property. Gets or sets the name of the bookmark."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldset/bookmarkName/
+url: /nodejs-net/aspose.words.fields/fieldset/bookmarkName/
 ---
 
 ## FieldSet.bookmarkName property

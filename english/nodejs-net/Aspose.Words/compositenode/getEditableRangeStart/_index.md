@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getEditableRangeStart method. "
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/compositenode/getEditableRangeStart/
+url: /nodejs-net/aspose.words/compositenode/getEditableRangeStart/
 ---
 
 ## getEditableRangeStart(index, isDeep) {#number_boolean}
 
 ```js
-getEditableRangeStart(index: numberisDeep: boolean)
+getEditableRangeStart(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

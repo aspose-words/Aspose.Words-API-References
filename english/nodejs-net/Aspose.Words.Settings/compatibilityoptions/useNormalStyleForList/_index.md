@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.useNormalStyleForList property. Do Not Automatically Apply List Paragraph Style To Bulleted/Numbered Text."
 type: docs
 weight: 630
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/useNormalStyleForList/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/useNormalStyleForList/
 ---
 
 ## CompatibilityOptions.useNormalStyleForList property

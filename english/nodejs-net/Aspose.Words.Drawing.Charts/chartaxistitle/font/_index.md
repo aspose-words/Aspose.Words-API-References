@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxisTitle.font property. Provides access to the font formatting of the axis title."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxistitle/font/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxistitle/font/
 ---
 
 ## ChartAxisTitle.font property

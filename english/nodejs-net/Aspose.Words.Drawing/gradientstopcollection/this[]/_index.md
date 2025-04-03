@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GradientStopCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/gradientstopcollection/this[]/
+url: /nodejs-net/aspose.words.drawing/gradientstopcollection/this[]/
 ---
 
 ## GradientStopCollection.this[] property

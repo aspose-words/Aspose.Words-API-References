@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.NodeCollection class. Represents a collection of nodes of a specific type"
 type: docs
 weight: 860
-url: /nodejs-net/Aspose.Words/nodecollection/
+url: /nodejs-net/aspose.words/nodecollection/
 ---
 
 ## NodeCollection class

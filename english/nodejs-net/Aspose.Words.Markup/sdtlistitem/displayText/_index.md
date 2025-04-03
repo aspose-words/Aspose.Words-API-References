@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SdtListItem.displayText property. Gets the text to display in the run content in place of the [SdtListItem.value](../value/) attribute contents for this list item."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Markup/sdtlistitem/displayText/
+url: /nodejs-net/aspose.words.markup/sdtlistitem/displayText/
 ---
 
 ## SdtListItem.displayText property
@@ -21,7 +21,7 @@ get displayText(): string
 
 ### Remarks
 
-Cannot be ``None`` and cannot be an empty string.
+Cannot be ``null`` and cannot be an empty string.
 
 
 

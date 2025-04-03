@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FootnoteSeparator.separatorType property. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Notes/footnoteseparator/separatorType/
+url: /nodejs-net/aspose.words.notes/footnoteseparator/separatorType/
 ---
 
 ## FootnoteSeparator.separatorType property

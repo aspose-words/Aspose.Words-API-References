@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.List class. Represents formatting of a list"
 type: docs
 weight: 780
-url: /nodejs-net/Aspose.Words/list/
+url: /nodejs-net/aspose.words/list/
 ---
 
 ## List class
@@ -23,14 +23,14 @@ A list in a Microsoft Word document is a set of list formatting properties.
 Each list can have up to 9 levels and formatting properties, such as number style, start value,
 indent, tab position etc are defined separately for each level.
 
-A [List](./) object always belongs to the [ListCollection](../../Aspose.Words.Lists/listcollection/) collection.
+A [List](./) object always belongs to the [ListCollection](../../aspose.words.lists/listcollection/) collection.
 
-To create a new list, use the Add methods of the [ListCollection](../../Aspose.Words.Lists/listcollection/) collection.
+To create a new list, use the Add methods of the [ListCollection](../../aspose.words.lists/listcollection/) collection.
 
-To modify formatting of a list, use [ListLevel](../../Aspose.Words.Lists/listlevel/) objects found in
+To modify formatting of a list, use [ListLevel](../../aspose.words.lists/listlevel/) objects found in
 the [List.listLevels](./listLevels/) collection.
 
-To apply or remove list formatting from a paragraph, use [ListFormat](../../Aspose.Words.Lists/listformat/).
+To apply or remove list formatting from a paragraph, use [ListFormat](../../aspose.words.lists/listformat/).
 
 
 
@@ -40,10 +40,10 @@ To apply or remove list formatting from a paragraph, use [ListFormat](../../Aspo
 | Name | Description |
 | --- | --- |
 | [document](./document/) | Gets the owner document. |
-| [isListStyleDefinition](./isListStyleDefinition/) | Returns ``True`` if this list is a definition of a list style. |
-| [isListStyleReference](./isListStyleReference/) | Returns ``True`` if this list is a reference to a list style. |
-| [isMultiLevel](./isMultiLevel/) | Returns ``True`` when the list contains 9 levels; ``False`` when 1 level. |
-| [isRestartAtEachSection](./isRestartAtEachSection/) | Specifies whether list should be restarted at each section. Default value is ``False``. |
+| [isListStyleDefinition](./isListStyleDefinition/) | Returns ``true`` if this list is a definition of a list style. |
+| [isListStyleReference](./isListStyleReference/) | Returns ``true`` if this list is a reference to a list style. |
+| [isMultiLevel](./isMultiLevel/) | Returns ``true`` when the list contains 9 levels; ``false`` when 1 level. |
+| [isRestartAtEachSection](./isRestartAtEachSection/) | Specifies whether list should be restarted at each section. Default value is ``false``. |
 | [listId](./listId/) | Gets the unique identifier of the list. |
 | [listLevels](./listLevels/) | Gets the collection of list levels for this list. |
 | [style](./style/) | Gets the list style that this list references or defines. |
@@ -203,7 +203,7 @@ doc.save(base.artifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ### See Also
 
 * module [Aspose.Words](../)
-* class [ListCollection](../../Aspose.Words.Lists/listcollection/)
-* class [ListLevel](../../Aspose.Words.Lists/listlevel/)
-* class [ListFormat](../../Aspose.Words.Lists/listformat/)
+* class [ListCollection](../../aspose.words.lists/listcollection/)
+* class [ListLevel](../../aspose.words.lists/listlevel/)
+* class [ListFormat](../../aspose.words.lists/listformat/)
 

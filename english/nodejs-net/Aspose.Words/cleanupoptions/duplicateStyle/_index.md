@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "CleanupOptions.duplicateStyle property. Gets/sets a flag indicating whether duplicate styles should be removed from document"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/cleanupoptions/duplicateStyle/
+url: /nodejs-net/aspose.words/cleanupoptions/duplicateStyle/
 ---
 
 ## CleanupOptions.duplicateStyle property
 
 Gets/sets a flag indicating whether duplicate styles should be removed from document.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

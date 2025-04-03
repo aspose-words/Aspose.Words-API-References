@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfo.embeddingLicensingRights property. Gets the embedded font licensing rights."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/embeddingLicensingRights/
+url: /nodejs-net/aspose.words.fonts/fontinfo/embeddingLicensingRights/
 ---
 
 ## FontInfo.embeddingLicensingRights property

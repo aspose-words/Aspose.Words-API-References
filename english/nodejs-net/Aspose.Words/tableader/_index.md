@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TabLeader enumeration. Specifies the type of the leader line displayed under the tab character."
 type: docs
 weight: 1310
-url: /nodejs-net/Aspose.Words/tableader/
+url: /nodejs-net/aspose.words/tableader/
 ---
 
 ## TabLeader enumeration

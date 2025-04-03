@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.textPosition property. Returns or sets the position (in points) for the second line of wrapping text for the list level."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Lists/listlevel/textPosition/
+url: /nodejs-net/aspose.words.lists/listlevel/textPosition/
 ---
 
 ## ListLevel.textPosition property

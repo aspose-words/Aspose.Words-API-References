@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisScaling.type property. Gets or sets scaling type of the axis."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisscaling/type/
+url: /nodejs-net/aspose.words.drawing.charts/axisscaling/type/
 ---
 
 ## AxisScaling.type property

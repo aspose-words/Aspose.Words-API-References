@@ -6,14 +6,14 @@ second_title: Aspose.Words for NodeJs
 description: "MarkdownLoadOptions.importUnderlineFormatting property. Gets or sets a boolean value indicating either to recognize a sequence of two plus characters ++ as underline text formatting"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Loading/markdownloadoptions/importUnderlineFormatting/
+url: /nodejs-net/aspose.words.loading/markdownloadoptions/importUnderlineFormatting/
 ---
 
 ## MarkdownLoadOptions.importUnderlineFormatting property
 
 Gets or sets a boolean value indicating either to recognize a sequence
 of two plus characters "++" as underline text formatting.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

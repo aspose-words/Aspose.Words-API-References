@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldPageRef.insertRelativePosition property. Gets or sets whether to insert a relative position of the bookmarked paragraph."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldpageref/insertRelativePosition/
+url: /nodejs-net/aspose.words.fields/fieldpageref/insertRelativePosition/
 ---
 
 ## FieldPageRef.insertRelativePosition property

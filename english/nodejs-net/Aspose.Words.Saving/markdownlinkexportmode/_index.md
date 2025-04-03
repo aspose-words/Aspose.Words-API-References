@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.MarkdownLinkExportMode enumeration. Specifies how links are exported into Markdown."
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words.Saving/markdownlinkexportmode/
+url: /nodejs-net/aspose.words.saving/markdownlinkexportmode/
 ---
 
 ## MarkdownLinkExportMode enumeration

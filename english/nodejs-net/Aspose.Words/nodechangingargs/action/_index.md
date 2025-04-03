@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "NodeChangingArgs.action property. Gets a value indicating what type of node change event is occurring."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/nodechangingargs/action/
+url: /nodejs-net/aspose.words/nodechangingargs/action/
 ---
 
 ## NodeChangingArgs.action property

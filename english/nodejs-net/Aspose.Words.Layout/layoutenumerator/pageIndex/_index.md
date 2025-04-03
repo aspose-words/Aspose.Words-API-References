@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator.pageIndex property. Gets the 1-based index of a page which contains the current entity."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/pageIndex/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/pageIndex/
 ---
 
 ## LayoutEnumerator.pageIndex property

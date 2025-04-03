@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.isDeleteRevision property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/isDeleteRevision/
+url: /nodejs-net/aspose.words.drawing/shapebase/isDeleteRevision/
 ---
 
 ## ShapeBase.isDeleteRevision property

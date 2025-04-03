@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TextOrientation enumeration. Specifies orientation of text on a page, in a table cell or a text frame."
 type: docs
 weight: 1400
-url: /nodejs-net/Aspose.Words/textorientation/
+url: /nodejs-net/aspose.words/textorientation/
 ---
 
 ## TextOrientation enumeration

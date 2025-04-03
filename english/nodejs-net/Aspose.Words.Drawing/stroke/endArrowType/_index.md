@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.endArrowType property. Defines the arrowhead for the end of a stroke."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing/stroke/endArrowType/
+url: /nodejs-net/aspose.words.drawing/stroke/endArrowType/
 ---
 
 ## Stroke.endArrowType property

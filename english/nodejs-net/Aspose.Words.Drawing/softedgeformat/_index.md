@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.SoftEdgeFormat class. Represents the soft edge formatting for an object."
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words.Drawing/softedgeformat/
+url: /nodejs-net/aspose.words.drawing/softedgeformat/
 ---
 
 ## SoftEdgeFormat class

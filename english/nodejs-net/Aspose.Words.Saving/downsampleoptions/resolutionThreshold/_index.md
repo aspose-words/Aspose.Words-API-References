@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DownsampleOptions.resolutionThreshold property. Specifies the threshold resolution in pixels per inch"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/downsampleoptions/resolutionThreshold/
+url: /nodejs-net/aspose.words.saving/downsampleoptions/resolutionThreshold/
 ---
 
 ## DownsampleOptions.resolutionThreshold property

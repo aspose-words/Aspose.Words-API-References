@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BarcodeParameters.isBookmark property. Whether [BarcodeParameters.postalAddress](../postalAddress/) is the name of a bookmark."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/isBookmark/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/isBookmark/
 ---
 
 ## BarcodeParameters.isBookmark property

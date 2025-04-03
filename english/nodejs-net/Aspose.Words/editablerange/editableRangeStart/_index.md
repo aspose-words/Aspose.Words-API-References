@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "EditableRange.editableRangeStart property. Gets the node that represents the start of the editable range."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/editablerange/editableRangeStart/
+url: /nodejs-net/aspose.words/editablerange/editableRangeStart/
 ---
 
 ## EditableRange.editableRangeStart property

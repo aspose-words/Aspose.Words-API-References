@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.textOrientation property. Allows to specify [PageSetup.textOrientation](./) for the whole page"
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words/pagesetup/textOrientation/
+url: /nodejs-net/aspose.words/pagesetup/textOrientation/
 ---
 
 ## PageSetup.textOrientation property

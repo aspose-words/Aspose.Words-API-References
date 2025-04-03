@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BorderCollection.this[] property. "
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/bordercollection/this[]/
+url: /nodejs-net/aspose.words/bordercollection/this[]/
 ---
 
 ## BorderCollection.this[] property

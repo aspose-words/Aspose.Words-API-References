@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asDocument method. Cast node to [Node.document](../document/)."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words/node/asDocument/
+url: /nodejs-net/aspose.words/node/asDocument/
 ---
 
 ## asDocument() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldShape.text property. Gets or sets the text to retrieve."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldshape/text/
+url: /nodejs-net/aspose.words.fields/fieldshape/text/
 ---
 
 ## FieldShape.text property

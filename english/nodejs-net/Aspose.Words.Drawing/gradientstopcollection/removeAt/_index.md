@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GradientStopCollection.removeAt method. Removes a [GradientStop](../../gradientstop/) from the collection at a specified index."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/gradientstopcollection/removeAt/
+url: /nodejs-net/aspose.words.drawing/gradientstopcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

@@ -3,15 +3,15 @@ title: Table.convertToHorizontallyMergedCells method
 linktitle: convertToHorizontallyMergedCells method
 articleTitle: convertToHorizontallyMergedCells method
 second_title: Aspose.Words for NodeJs
-description: "Table.convertToHorizontallyMergedCells method. Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../../Aspose.Words.Tables/cellformat/horizontalMerge/)."
+description: "Table.convertToHorizontallyMergedCells method. Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../../aspose.words.tables/cellformat/horizontalMerge/)."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/table/convertToHorizontallyMergedCells/
+url: /nodejs-net/aspose.words/table/convertToHorizontallyMergedCells/
 ---
 
 ## convertToHorizontallyMergedCells() {#default}
 
-Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../../Aspose.Words.Tables/cellformat/horizontalMerge/).
+Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../../aspose.words.tables/cellformat/horizontalMerge/).
 
 
 
@@ -21,9 +21,9 @@ convertToHorizontallyMergedCells()
 
 ### Remarks
 
-Table cells can be horizontally merged either using merge flags [CellFormat.horizontalMerge](../../../Aspose.Words.Tables/cellformat/horizontalMerge/) or using cell width [CellFormat.width](../../../Aspose.Words.Tables/cellformat/width/).
+Table cells can be horizontally merged either using merge flags [CellFormat.horizontalMerge](../../../aspose.words.tables/cellformat/horizontalMerge/) or using cell width [CellFormat.width](../../../aspose.words.tables/cellformat/width/).
 
-When table cell is merged by width property [CellFormat.horizontalMerge](../../../Aspose.Words.Tables/cellformat/horizontalMerge/) is meaningless but sometimes having merge flags is more convenient way.
+When table cell is merged by width property [CellFormat.horizontalMerge](../../../aspose.words.tables/cellformat/horizontalMerge/) is meaningless but sometimes having merge flags is more convenient way.
 
 Use this method to transforms table cells horizontally merged by width to cells merged by merge flags.
 

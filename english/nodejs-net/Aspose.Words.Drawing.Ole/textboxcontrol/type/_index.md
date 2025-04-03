@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextBoxControl.type property. Gets type of Forms 2.0 control."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Ole/textboxcontrol/type/
+url: /nodejs-net/aspose.words.drawing.ole/textboxcontrol/type/
 ---
 
 ## TextBoxControl.type property

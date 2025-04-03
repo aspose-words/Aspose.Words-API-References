@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BubbleSizeCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/bubblesizecollection/this[]/
+url: /nodejs-net/aspose.words.drawing.charts/bubblesizecollection/this[]/
 ---
 
 ## BubbleSizeCollection.this[] property

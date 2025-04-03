@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.frameset property. Returns a [Document.frameset](./) instance if this document represents a frames page."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/document/frameset/
+url: /nodejs-net/aspose.words/document/frameset/
 ---
 
 ## Document.frameset property
@@ -21,7 +21,7 @@ get frameset(): Aspose.Words.Framesets.Frameset
 
 ### Remarks
 
-If the document is not framed, the property has the ``None`` value.
+If the document is not framed, the property has the ``null`` value.
 
 
 

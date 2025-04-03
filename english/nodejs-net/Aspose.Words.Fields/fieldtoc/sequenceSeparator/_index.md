@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldToc.sequenceSeparator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/sequenceSeparator/
+url: /nodejs-net/aspose.words.fields/fieldtoc/sequenceSeparator/
 ---
 
 ## FieldToc.sequenceSeparator property

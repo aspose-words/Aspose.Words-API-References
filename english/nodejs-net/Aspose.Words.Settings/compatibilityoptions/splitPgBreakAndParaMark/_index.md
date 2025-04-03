@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.splitPgBreakAndParaMark property. Always Move Paragraph Mark to Page after a Page Break."
 type: docs
 weight: 460
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/splitPgBreakAndParaMark/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/splitPgBreakAndParaMark/
 ---
 
 ## CompatibilityOptions.splitPgBreakAndParaMark property

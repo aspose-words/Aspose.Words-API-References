@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldGreetingLine constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldgreetingline/constructor/
+url: /nodejs-net/aspose.words.fields/fieldgreetingline/constructor/
 ---
 
 ## FieldGreetingLine() {#default}

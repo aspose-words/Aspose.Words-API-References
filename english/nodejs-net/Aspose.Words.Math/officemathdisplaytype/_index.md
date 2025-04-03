@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Math.OfficeMathDisplayType enumeration. Specifies the display format type of the equation."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Math/officemathdisplaytype/
+url: /nodejs-net/aspose.words.math/officemathdisplaytype/
 ---
 
 ## OfficeMathDisplayType enumeration

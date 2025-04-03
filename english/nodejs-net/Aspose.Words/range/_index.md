@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Range class. Represents a contiguous area in a document"
 type: docs
 weight: 1060
-url: /nodejs-net/Aspose.Words/range/
+url: /nodejs-net/aspose.words/range/
 ---
 
 ## Range class
@@ -49,7 +49,7 @@ over a fragment of a document.
 | Name | Description |
 | --- | --- |
 |[ delete()](./delete/#default) | Deletes all characters of the range. |
-|[ normalizeFieldTypes()](./normalizeFieldTypes/#default) | Changes field type values [FieldChar.fieldType](../../Aspose.Words.Fields/fieldchar/fieldType/) of [FieldStart](../../Aspose.Words.Fields/fieldstart/), [FieldSeparator](../../Aspose.Words.Fields/fieldseparator/), [FieldEnd](../../Aspose.Words.Fields/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
+|[ normalizeFieldTypes()](./normalizeFieldTypes/#default) | Changes field type values [FieldChar.fieldType](../../aspose.words.fields/fieldchar/fieldType/) of [FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/), [FieldEnd](../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes. |
 |[ replace(pattern, replacement)](./replace/#string_string) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 |[ replace(pattern, replacement, options)](./replace/#string_string_findreplaceoptions) | Replaces all occurrences of a specified character string pattern with a replacement string. |
 |[ replaceRegex(pattern, replacement)](./replaceRegex/#string_string) | Replaces all occurrences of a character pattern specified by a regular expression with another string. |

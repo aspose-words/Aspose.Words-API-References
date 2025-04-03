@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartAxis.crosses property. Specifies how this axis crosses the perpendicular axis."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/crosses/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/crosses/
 ---
 
 ## ChartAxis.crosses property

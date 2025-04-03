@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitFieldSeparator method. Called when a field separator is encountered in the document."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words/documentvisitor/visitFieldSeparator/
+url: /nodejs-net/aspose.words/documentvisitor/visitFieldSeparator/
 ---
 
 ## visitFieldSeparator(fieldSeparator) {#fieldseparator}
@@ -20,7 +20,7 @@ visitFieldSeparator(fieldSeparator: Aspose.Words.Fields.FieldSeparator)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldSeparator | [FieldSeparator](../../../Aspose.Words.Fields/fieldseparator/) | The object that is being visited. |
+| fieldSeparator | [FieldSeparator](../../../aspose.words.fields/fieldseparator/) | The object that is being visited. |
 
 ### Remarks
 

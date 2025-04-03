@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "FindReplaceOptions.ignoreFieldCodes property. Gets or sets a boolean value indicating either to ignore text inside field codes"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreFieldCodes/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/ignoreFieldCodes/
 ---
 
 ## FindReplaceOptions.ignoreFieldCodes property
 
 Gets or sets a boolean value indicating either to ignore text inside field codes.
-The default value is ``False``.
+The default value is ``false``.
 
 
 
@@ -23,7 +23,7 @@ get ignoreFieldCodes(): boolean
 ### Remarks
 
 This option affects only field codes (it does not ignore nodes between
-[NodeType.FieldSeparator](../../../Aspose.Words/nodetype/#FieldSeparator) and [NodeType.FieldEnd](../../../Aspose.Words/nodetype/#FieldEnd)).
+[NodeType.FieldSeparator](../../../aspose.words/nodetype/#FieldSeparator) and [NodeType.FieldEnd](../../../aspose.words/nodetype/#FieldEnd)).
 
 To ignore whole field, please use corresponding option [FindReplaceOptions.ignoreFields](../ignoreFields/).
 

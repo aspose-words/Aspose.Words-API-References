@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Cell.acceptStart method. Accepts a visitor for visiting the start of the cell."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Tables/cell/acceptStart/
+url: /nodejs-net/aspose.words.tables/cell/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}
@@ -20,7 +20,7 @@ acceptStart(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The document visitor. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The document visitor. |
 
 ### Returns
 

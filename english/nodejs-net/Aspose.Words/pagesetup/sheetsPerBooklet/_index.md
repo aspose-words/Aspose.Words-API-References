@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.sheetsPerBooklet property. Returns or sets the number of pages to be included in each booklet."
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words/pagesetup/sheetsPerBooklet/
+url: /nodejs-net/aspose.words/pagesetup/sheetsPerBooklet/
 ---
 
 ## PageSetup.sheetsPerBooklet property

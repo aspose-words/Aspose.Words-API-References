@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.JSPointF class. "
 type: docs
 weight: 690
-url: /nodejs-net/Aspose.Words/jspointf/
+url: /nodejs-net/aspose.words/jspointf/
 ---
 
 ## JSPointF class

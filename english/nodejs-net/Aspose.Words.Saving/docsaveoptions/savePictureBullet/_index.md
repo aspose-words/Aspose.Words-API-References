@@ -3,16 +3,16 @@ title: DocSaveOptions.savePictureBullet property
 linktitle: savePictureBullet property
 articleTitle: savePictureBullet property
 second_title: Aspose.Words for NodeJs
-description: "DocSaveOptions.savePictureBullet property. When ``False``, PictureBullet data is not saved to output document"
+description: "DocSaveOptions.savePictureBullet property. When ``false``, PictureBullet data is not saved to output document"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/docsaveoptions/savePictureBullet/
+url: /nodejs-net/aspose.words.saving/docsaveoptions/savePictureBullet/
 ---
 
 ## DocSaveOptions.savePictureBullet property
 
-When ``False``, PictureBullet data is not saved to output document.
-Default value is ``True``.
+When ``false``, PictureBullet data is not saved to output document.
+Default value is ``true``.
 
 
 

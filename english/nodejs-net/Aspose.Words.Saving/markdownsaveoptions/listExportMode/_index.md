@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MarkdownSaveOptions.listExportMode property. Specifies how list items will be written to the output file"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/listExportMode/
+url: /nodejs-net/aspose.words.saving/markdownsaveoptions/listExportMode/
 ---
 
 ## MarkdownSaveOptions.listExportMode property
@@ -23,7 +23,7 @@ get listExportMode(): Aspose.Words.Saving.MarkdownListExportMode
 ### Remarks
 
 When this property is set to [MarkdownListExportMode.PlainText](../../markdownlistexportmode/#PlainText) all list labels are
-updated using [Document.updateListLabels()](../../../Aspose.Words/document/updateListLabels/#default) and exported with their actual values. Such lists
+updated using [Document.updateListLabels()](../../../aspose.words/document/updateListLabels/#default) and exported with their actual values. Such lists
 can be non-compatible with Markdown format and will be recognized as plain text upon importing in this case.
 
 When this property is set to [MarkdownListExportMode.MarkdownSyntax](../../markdownlistexportmode/#MarkdownSyntax), writer tries to export

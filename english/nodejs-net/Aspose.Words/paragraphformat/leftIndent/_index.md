@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.leftIndent property. Gets or sets the value (in points) that represents the left indent for paragraph."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/paragraphformat/leftIndent/
+url: /nodejs-net/aspose.words/paragraphformat/leftIndent/
 ---
 
 ## ParagraphFormat.leftIndent property

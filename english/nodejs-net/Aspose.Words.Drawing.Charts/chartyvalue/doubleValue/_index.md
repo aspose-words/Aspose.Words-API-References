@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartYValue.doubleValue property. Gets the stored numeric value."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartyvalue/doubleValue/
+url: /nodejs-net/aspose.words.drawing.charts/chartyvalue/doubleValue/
 ---
 
 ## ChartYValue.doubleValue property

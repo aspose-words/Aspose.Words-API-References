@@ -6,26 +6,26 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.getEffectiveValue method. Reports the string representation of the [ListLevel](../) object for the specified index of the list item"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Lists/listlevel/getEffectiveValue/
+url: /nodejs-net/aspose.words.lists/listlevel/getEffectiveValue/
 ---
 
 ## getEffectiveValue(index, numberStyle, customNumberStyleFormat) {#number_numberstyle_string}
 
 Reports the string representation of the [ListLevel](../) object for the specified index
-of the list item. Parameters specify the [NumberStyle](../../../Aspose.Words/numberstyle/) and an optional format string
-used when [NumberStyle.Custom](../../../Aspose.Words/numberstyle/#Custom) is specified.
+of the list item. Parameters specify the [NumberStyle](../../../aspose.words/numberstyle/) and an optional format string
+used when [NumberStyle.Custom](../../../aspose.words/numberstyle/#Custom) is specified.
 
 
 
 ```js
-getEffectiveValue(index: numbernumberStyle: Aspose.Words.NumberStylecustomNumberStyleFormat: string)
+getEffectiveValue(index: number, numberStyle: Aspose.Words.NumberStyle, customNumberStyleFormat: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index of the list item (must be in the range from 1 to 32767). |
-| numberStyle | [NumberStyle](../../../Aspose.Words/numberstyle/) | The [NumberStyle](../../../Aspose.Words/numberstyle/) of the [ListLevel](../) object. |
-| customNumberStyleFormat | string | The optional format string used when [NumberStyle.Custom](../../../Aspose.Words/numberstyle/#Custom) is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be ``None`` or empty. |
+| numberStyle | [NumberStyle](../../../aspose.words/numberstyle/) | The [NumberStyle](../../../aspose.words/numberstyle/) of the [ListLevel](../) object. |
+| customNumberStyleFormat | string | The optional format string used when [NumberStyle.Custom](../../../aspose.words/numberstyle/#Custom) is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be ``null`` or empty. |
 
 ### Returns
 
@@ -37,7 +37,7 @@ the*customNumberStyleFormat* parameter, in the list item at the position determi
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentException)) | *customNumberStyleFormat* is``None`` or empty when the *numberStyle* is custom.-or-*customNumberStyleFormat* is not``None`` or empty when the *numberStyle* is non-custom.-or-*customNumberStyleFormat* is invalid. |
+| RuntimeError (Proxy error(ArgumentException)) | *customNumberStyleFormat* is``null`` or empty when the *numberStyle* is custom.-or-*customNumberStyleFormat* is not``null`` or empty when the *numberStyle* is non-custom.-or-*customNumberStyleFormat* is invalid. |
 | RuntimeError (Proxy error(ArgumentOutOfRangeException)) | index is out of range. |
 
 ### Examples

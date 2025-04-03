@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldHyperlink constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldhyperlink/constructor/
+url: /nodejs-net/aspose.words.fields/fieldhyperlink/constructor/
 ---
 
 ## FieldHyperlink() {#default}

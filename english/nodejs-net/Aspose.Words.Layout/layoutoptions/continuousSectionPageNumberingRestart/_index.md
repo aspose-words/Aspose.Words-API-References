@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutOptions.continuousSectionPageNumberingRestart property. Gets or sets the mode of behavior for computing page numbers when a continuous section restarts the page numbering."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Layout/layoutoptions/continuousSectionPageNumberingRestart/
+url: /nodejs-net/aspose.words.layout/layoutoptions/continuousSectionPageNumberingRestart/
 ---
 
 ## LayoutOptions.continuousSectionPageNumberingRestart property

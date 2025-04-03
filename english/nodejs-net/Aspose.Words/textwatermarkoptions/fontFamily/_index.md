@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextWatermarkOptions.fontFamily property. Gets or sets font family name"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/textwatermarkoptions/fontFamily/
+url: /nodejs-net/aspose.words/textwatermarkoptions/fontFamily/
 ---
 
 ## TextWatermarkOptions.fontFamily property

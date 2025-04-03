@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BuiltInDocumentProperties.revisionNumber property. Gets or sets the document revision number."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/revisionNumber/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/revisionNumber/
 ---
 
 ## BuiltInDocumentProperties.revisionNumber property
@@ -26,31 +26,6 @@ Aspose.Words does not update this property.
 
 
 ### Examples
-
-Shows how to work with REVNUM fields.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.write("Current revision #");
-
-// Insert a REVNUM field, which displays the document's current revision number property.
-let field = builder.insertField(aw.Fields.FieldType.FieldRevisionNum, true).asFieldRevNum();
-
-expect(field.getFieldCode()).toEqual(" REVNUM ");
-expect(field.result).toEqual("1");
-expect(doc.builtInDocumentProperties.revisionNumber).toEqual(1);
-
-// This property counts how many times a document has been saved in Microsoft Word,
-// and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
-// via Properties -> Details. We can update this property manually.
-doc.builtInDocumentProperties.revisionNumber++;
-expect(field.result).toEqual("1");
-field.update();
-
-expect(field.result).toEqual("2");
-```
 
 Shows how to work with document properties in the "Origin" category.
 
@@ -81,6 +56,31 @@ properties.lastSavedTime = Date.now();
 
 // We can right-click this document in Windows Explorer and find these properties in "Properties" -> "Details" -> "Origin".
 doc.save(base.artifactsDir + "DocumentProperties.origin.docx");
+```
+
+Shows how to work with REVNUM fields.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.write("Current revision #");
+
+// Insert a REVNUM field, which displays the document's current revision number property.
+let field = builder.insertField(aw.Fields.FieldType.FieldRevisionNum, true).asFieldRevNum();
+
+expect(field.getFieldCode()).toEqual(" REVNUM ");
+expect(field.result).toEqual("1");
+expect(doc.builtInDocumentProperties.revisionNumber).toEqual(1);
+
+// This property counts how many times a document has been saved in Microsoft Word,
+// and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
+// via Properties -> Details. We can update this property manually.
+doc.builtInDocumentProperties.revisionNumber++;
+expect(field.result).toEqual("1");
+field.update();
+
+expect(field.result).toEqual("2");
 ```
 
 ### See Also

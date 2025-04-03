@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.showSeriesName property. Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/showSeriesName/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/showSeriesName/
 ---
 
 ## ChartDataLabel.showSeriesName property
 
 Returns or sets a Boolean to indicate the series name display behavior for the data labels on a chart. 
-``True`` to show the series name; ``False`` to hide. By default ``False``.
+``true`` to show the series name; ``false`` to hide. By default ``false``.
 
 
 

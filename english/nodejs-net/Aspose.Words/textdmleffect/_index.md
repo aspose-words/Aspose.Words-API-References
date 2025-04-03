@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.TextDmlEffect enumeration. Dml text effect for text runs."
 type: docs
 weight: 1380
-url: /nodejs-net/Aspose.Words/textdmleffect/
+url: /nodejs-net/aspose.words/textdmleffect/
 ---
 
 ## TextDmlEffect enumeration

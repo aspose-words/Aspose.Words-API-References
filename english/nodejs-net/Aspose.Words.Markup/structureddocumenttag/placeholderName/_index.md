@@ -3,15 +3,15 @@ title: StructuredDocumentTag.placeholderName property
 linktitle: placeholderName property
 articleTitle: placeholderName property
 second_title: Aspose.Words for NodeJs
-description: "StructuredDocumentTag.placeholderName property. Gets or sets Name of the [BuildingBlock](../../../Aspose.Words/buildingblock/) containing placeholder text."
+description: "StructuredDocumentTag.placeholderName property. Gets or sets Name of the [BuildingBlock](../../../aspose.words/buildingblock/) containing placeholder text."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/placeholderName/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/placeholderName/
 ---
 
 ## StructuredDocumentTag.placeholderName property
 
-Gets or sets Name of the [BuildingBlock](../../../Aspose.Words/buildingblock/) containing placeholder text.
+Gets or sets Name of the [BuildingBlock](../../../aspose.words/buildingblock/) containing placeholder text.
 
 
 
@@ -24,7 +24,7 @@ get placeholderName(): string
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(InvalidOperationException)) | Throw if BuildingBlock with this name [BuildingBlock.name](../../../Aspose.Words/buildingblock/name/) is not present in [Document.glossaryDocument](../../../Aspose.Words/document/glossaryDocument/). |
+| RuntimeError (Proxy error(InvalidOperationException)) | Throw if BuildingBlock with this name [BuildingBlock.name](../../../aspose.words/buildingblock/name/) is not present in [Document.glossaryDocument](../../../aspose.words/document/glossaryDocument/). |
 
 ### Examples
 

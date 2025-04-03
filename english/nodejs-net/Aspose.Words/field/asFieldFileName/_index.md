@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldFileName method. "
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words/field/asFieldFileName/
+url: /nodejs-net/aspose.words/field/asFieldFileName/
 ---
 
 ## asFieldFileName() {#default}

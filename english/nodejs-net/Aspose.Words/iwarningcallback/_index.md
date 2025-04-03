@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.IWarningCallback class. Implement this interface if you want to have your own custom method called to  capture loss of fidelity warnings that can occur during document loading or saving."
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words/iwarningcallback/
+url: /nodejs-net/aspose.words/iwarningcallback/
 ---
 
 ## IWarningCallback class

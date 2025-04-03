@@ -3,15 +3,15 @@ title: ShapeBase.isWordArt property
 linktitle: isWordArt property
 articleTitle: isWordArt property
 second_title: Aspose.Words for NodeJs
-description: "ShapeBase.isWordArt property. Returns ``True`` if this shape is a WordArt object."
+description: "ShapeBase.isWordArt property. Returns ``true`` if this shape is a WordArt object."
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/isWordArt/
+url: /nodejs-net/aspose.words.drawing/shapebase/isWordArt/
 ---
 
 ## ShapeBase.isWordArt property
 
-Returns ``True`` if this shape is a WordArt object.
+Returns ``true`` if this shape is a WordArt object.
 
 
 

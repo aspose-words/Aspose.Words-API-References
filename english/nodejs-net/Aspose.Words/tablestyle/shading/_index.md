@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableStyle.shading property. Gets a [Shading](../../shading/) object that refers to the shading formatting for table cells."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/tablestyle/shading/
+url: /nodejs-net/aspose.words/tablestyle/shading/
 ---
 
 ## TableStyle.shading property

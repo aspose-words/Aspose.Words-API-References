@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BarcodeParameters.symbolRotation property. Rotation of the barcode symbol"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/symbolRotation/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/symbolRotation/
 ---
 
 ## BarcodeParameters.symbolRotation property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.endArrowWidth property. Defines the arrowhead width for the end of a stroke."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/stroke/endArrowWidth/
+url: /nodejs-net/aspose.words.drawing/stroke/endArrowWidth/
 ---
 
 ## Stroke.endArrowWidth property

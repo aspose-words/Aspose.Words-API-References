@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "BookmarksOutlineLevelCollection constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/bookmarksoutlinelevelcollection/constructor/
+url: /nodejs-net/aspose.words.saving/bookmarksoutlinelevelcollection/constructor/
 ---
 
 ## BookmarksOutlineLevelCollection() {#default}

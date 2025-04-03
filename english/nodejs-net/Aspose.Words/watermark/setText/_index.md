@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Watermark.setText method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/watermark/setText/
+url: /nodejs-net/aspose.words/watermark/setText/
 ---
 
 ## setText(text) {#string}
@@ -25,7 +25,7 @@ setText(text: string)
 ### Remarks
 
 The text length must be in the range from 1 to 200 inclusive.
-The text cannot be ``None`` or contain only whitespaces.
+The text cannot be ``null`` or contain only whitespaces.
 
 
 
@@ -34,7 +34,7 @@ The text cannot be ``None`` or contain only whitespaces.
 | exception | condition |
 | --- | --- |
 | RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when the text length is out of range or the text contains only whitespaces. |
-| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the text is ``None``. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the text is ``null``. |
 
 ## setText(text, options) {#string_textwatermarkoptions}
 
@@ -42,7 +42,7 @@ Adds Text watermark into the document.
 
 
 ```js
-setText(text: stringoptions: Aspose.Words.TextWatermarkOptions)
+setText(text: string, options: Aspose.Words.TextWatermarkOptions)
 ```
 
 | Parameter | Type | Description |
@@ -53,11 +53,11 @@ setText(text: stringoptions: Aspose.Words.TextWatermarkOptions)
 ### Remarks
 
 The text length must be in the range from 1 to 200 inclusive.
-The text cannot be ``None`` or contain only whitespaces.
+The text cannot be ``null`` or contain only whitespaces.
 
 
 
-If [TextWatermarkOptions](../../textwatermarkoptions/) is ``None``, the watermark will be set with default options.
+If [TextWatermarkOptions](../../textwatermarkoptions/) is ``null``, the watermark will be set with default options.
 
 
 ### Exceptions
@@ -65,7 +65,7 @@ If [TextWatermarkOptions](../../textwatermarkoptions/) is ``None``, the watermar
 | exception | condition |
 | --- | --- |
 | RuntimeError (Proxy error(ArgumentOutOfRangeException)) | Throws when the text length is out of range or the text contain only whitespaces. |
-| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the text is ``None``. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the text is ``null``. |
 
 ## See Also
 

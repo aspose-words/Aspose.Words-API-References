@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.ImagePixelFormat enumeration. Specifies the pixel format for the generated images of document pages."
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words.Saving/imagepixelformat/
+url: /nodejs-net/aspose.words.saving/imagepixelformat/
 ---
 
 ## ImagePixelFormat enumeration

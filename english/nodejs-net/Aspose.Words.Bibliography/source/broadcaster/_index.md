@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.broadcaster property. Gets or sets the broadcaster of a source."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Bibliography/source/broadcaster/
+url: /nodejs-net/aspose.words.bibliography/source/broadcaster/
 ---
 
 ## Source.broadcaster property

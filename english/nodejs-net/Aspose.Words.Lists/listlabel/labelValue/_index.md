@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLabel.labelValue property. Gets a numeric value for this label."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Lists/listlabel/labelValue/
+url: /nodejs-net/aspose.words.lists/listlabel/labelValue/
 ---
 
 ## ListLabel.labelValue property
@@ -20,7 +20,7 @@ get labelValue(): number
 
 ### Remarks
 
-Use the [Document.updateListLabels()](../../../Aspose.Words/document/updateListLabels/#default) method to update the value of this property.
+Use the [Document.updateListLabels()](../../../aspose.words/document/updateListLabels/#default) method to update the value of this property.
 
 
 

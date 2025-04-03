@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TableStyle.verticalAlignment property. Specifies the vertical alignment for the cells."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/tablestyle/verticalAlignment/
+url: /nodejs-net/aspose.words/tablestyle/verticalAlignment/
 ---
 
 ## TableStyle.verticalAlignment property
@@ -20,7 +20,7 @@ get verticalAlignment(): Aspose.Words.Tables.CellVerticalAlignment
 
 ### Remarks
 
-The default value is [CellVerticalAlignment.Top](../../../Aspose.Words.Tables/cellverticalalignment/#Top).
+The default value is [CellVerticalAlignment.Top](../../../aspose.words.tables/cellverticalalignment/#Top).
 
 
 

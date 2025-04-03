@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Forms2OleControl.type property. Gets type of Forms 2.0 control."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/type/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrol/type/
 ---
 
 ## Forms2OleControl.type property

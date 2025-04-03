@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.digitalSignatureDetails property. Gets or sets the details for signing the output PDF document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/digitalSignatureDetails/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/digitalSignatureDetails/
 ---
 
 ## PdfSaveOptions.digitalSignatureDetails property
@@ -20,7 +20,7 @@ get digitalSignatureDetails(): Aspose.Words.Saving.PdfDigitalSignatureDetails
 
 ### Remarks
 
-The default value is ``None`` and the output document will not be signed.
+The default value is ``null`` and the output document will not be signed.
 When this property is set to a valid [PdfDigitalSignatureDetails](../../pdfdigitalsignaturedetails/) object,
 then the output PDF document will be digitally signed.
 

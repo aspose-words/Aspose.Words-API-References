@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.IDocumentMergerPlugin class. Defines an interface for external merger plugin that can merge Pdf documents."
 type: docs
 weight: 550
-url: /nodejs-net/Aspose.Words/idocumentmergerplugin/
+url: /nodejs-net/aspose.words/idocumentmergerplugin/
 ---
 
 ## IDocumentMergerPlugin class

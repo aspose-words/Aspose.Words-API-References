@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.document property. Gets or sets the [DocumentBuilder.document](./) object that this object is attached to."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/documentbuilder/document/
+url: /nodejs-net/aspose.words/documentbuilder/document/
 ---
 
 ## DocumentBuilder.document property

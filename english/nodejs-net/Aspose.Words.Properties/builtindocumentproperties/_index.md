@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Properties.BuiltInDocumentProperties class. A collection of built-in document properties"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/
 ---
 
 ## BuiltInDocumentProperties class
@@ -81,7 +81,7 @@ The properties in the collection are sorted alphabetically by name.
 | Name | Description |
 | --- | --- |
 |[ clear()](../documentpropertycollection/clear/#default) | Removes all properties from the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
-|[ contains(name)](../documentpropertycollection/contains/#string) | Returns ``True`` if a property with the specified name exists in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
+|[ contains(name)](../documentpropertycollection/contains/#string) | Returns ``true`` if a property with the specified name exists in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ indexOf(name)](../documentpropertycollection/indexOf/#string) | Gets the index of a property by name.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ remove(name)](../documentpropertycollection/remove/#string) | Removes a property with the specified name from the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ removeAt(index)](../documentpropertycollection/removeAt/#number) | Removes a property at the specified index.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
@@ -111,7 +111,7 @@ for (let docProperty of doc.builtInDocumentProperties)
 
 * module [Aspose.Words.Properties](../)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
-* class [Document](../../Aspose.Words/document/)
-* property [Document.builtInDocumentProperties](../../Aspose.Words/document/builtInDocumentProperties/)
-* property [Document.customDocumentProperties](../../Aspose.Words/document/customDocumentProperties/)
+* class [Document](../../aspose.words/document/)
+* property [Document.builtInDocumentProperties](../../aspose.words/document/builtInDocumentProperties/)
+* property [Document.customDocumentProperties](../../aspose.words/document/customDocumentProperties/)
 

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OdsoFieldMapDataCollection.removeAt method. Removes the element at the specified index."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdatacollection/removeAt/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdatacollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

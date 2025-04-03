@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageLayoutCallbackArgs.event property. Gets event."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Layout/pagelayoutcallbackargs/event/
+url: /nodejs-net/aspose.words.layout/pagelayoutcallbackargs/event/
 ---
 
 ## PageLayoutCallbackArgs.event property

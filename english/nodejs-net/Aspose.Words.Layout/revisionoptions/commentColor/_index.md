@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "RevisionOptions.commentColor property. Allows to specify the color to be used for comments"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/commentColor/
+url: /nodejs-net/aspose.words.layout/revisionoptions/commentColor/
 ---
 
 ## RevisionOptions.commentColor property

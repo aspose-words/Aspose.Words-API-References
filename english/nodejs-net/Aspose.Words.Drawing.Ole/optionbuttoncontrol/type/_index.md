@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "OptionButtonControl.type property. Gets type of Forms 2.0 control."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Ole/optionbuttoncontrol/type/
+url: /nodejs-net/aspose.words.drawing.ole/optionbuttoncontrol/type/
 ---
 
 ## OptionButtonControl.type property

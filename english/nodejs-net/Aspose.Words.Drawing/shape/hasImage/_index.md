@@ -3,15 +3,15 @@ title: Shape.hasImage property
 linktitle: hasImage property
 articleTitle: hasImage property
 second_title: Aspose.Words for NodeJs
-description: "Shape.hasImage property. Returns ``True`` if the shape has image bytes or links an image."
+description: "Shape.hasImage property. Returns ``true`` if the shape has image bytes or links an image."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing/shape/hasImage/
+url: /nodejs-net/aspose.words.drawing/shape/hasImage/
 ---
 
 ## Shape.hasImage property
 
-Returns ``True`` if the shape has image bytes or links an image.
+Returns ``true`` if the shape has image bytes or links an image.
 
 
 
@@ -20,6 +20,22 @@ get hasImage(): boolean
 ```
 
 ### Examples
+
+Shows how to delete all shapes with images from a document.
+
+```js
+let doc = new aw.Document(base.myDir + "Images.docx");
+let shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
+
+expect(shapes.filter(s => s.hasImage).length).toEqual(9);
+
+for (let shape of shapes)
+  if (shape.hasImage) 
+    shape.remove();
+
+shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
+expect(shapes.filter(s => s.hasImage).length).toEqual(0);
+```
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
 
@@ -46,22 +62,6 @@ for (let node of nodes)
     imageIndex++;
   }
 }
-```
-
-Shows how to delete all shapes with images from a document.
-
-```js
-let doc = new aw.Document(base.myDir + "Images.docx");
-let shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
-
-expect(shapes.filter(s => s.hasImage).length).toEqual(9);
-
-for (let shape of shapes)
-  if (shape.hasImage) 
-    shape.remove();
-
-shapes = doc.getChildNodes(aw.NodeType.Shape, true).toArray().map(node => node.asShape());
-expect(shapes.filter(s => s.hasImage).length).toEqual(0);
 ```
 
 ### See Also

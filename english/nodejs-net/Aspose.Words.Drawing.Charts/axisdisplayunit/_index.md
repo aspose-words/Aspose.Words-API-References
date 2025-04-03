@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.AxisDisplayUnit class. Provides access to the scaling options of the display units for the value axis"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisdisplayunit/
+url: /nodejs-net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 
 ## AxisDisplayUnit class

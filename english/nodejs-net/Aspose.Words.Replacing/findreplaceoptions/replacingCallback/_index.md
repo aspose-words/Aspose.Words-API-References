@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FindReplaceOptions.replacingCallback property. The user-defined method which is called before every replace occurrence."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/replacingCallback/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/replacingCallback/
 ---
 
 ## FindReplaceOptions.replacingCallback property

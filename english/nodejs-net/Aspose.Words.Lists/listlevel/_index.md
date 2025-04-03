@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Lists.ListLevel class. Defines formatting for a list level"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Lists/listlevel/
+url: /nodejs-net/aspose.words.lists/listlevel/
 ---
 
 ## ListLevel class
@@ -55,7 +55,7 @@ for individual list levels.
 |[ createPictureBullet()](./createPictureBullet/#default) | Creates picture bullet shape for the current list level. |
 |[ deletePictureBullet()](./deletePictureBullet/#default) | Deletes picture bullet for the current list level. |
 |[ equals(level)](./equals/#listlevel) | Compares with the specified ListLevel. |
-|[ getEffectiveValue(index, numberStyle, customNumberStyleFormat)](./getEffectiveValue/#number_numberstyle_string) | Reports the string representation of the [ListLevel](./) object for the specified index of the list item. Parameters specify the [NumberStyle](../../Aspose.Words/numberstyle/) and an optional format string used when [NumberStyle.Custom](../../Aspose.Words/numberstyle/#Custom) is specified. |
+|[ getEffectiveValue(index, numberStyle, customNumberStyleFormat)](./getEffectiveValue/#number_numberstyle_string) | Reports the string representation of the [ListLevel](./) object for the specified index of the list item. Parameters specify the [NumberStyle](../../aspose.words/numberstyle/) and an optional format string used when [NumberStyle.Custom](../../aspose.words/numberstyle/#Custom) is specified. |
 
 ### Examples
 

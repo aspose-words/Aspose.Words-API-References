@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontFallbackSettings.loadMsOfficeFallbackSettings method. Loads predefined fallback settings which mimics the Microsoft Word fallback and uses Microsoft office fonts."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/fontfallbacksettings/loadMsOfficeFallbackSettings/
+url: /nodejs-net/aspose.words.fonts/fontfallbacksettings/loadMsOfficeFallbackSettings/
 ---
 
 ## loadMsOfficeFallbackSettings() {#default}

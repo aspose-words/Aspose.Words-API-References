@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PhysicalFontInfo.fullFontName property. Full name of the font."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fonts/physicalfontinfo/fullFontName/
+url: /nodejs-net/aspose.words.fonts/physicalfontinfo/fullFontName/
 ---
 
 ## PhysicalFontInfo.fullFontName property

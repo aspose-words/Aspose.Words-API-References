@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataLabel.font property. Provides access to the font formatting of this data label."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/font/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/font/
 ---
 
 ## ChartDataLabel.font property

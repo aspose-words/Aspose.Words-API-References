@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.underline property. Gets or sets the type of underline applied to the font."
 type: docs
 weight: 540
-url: /nodejs-net/Aspose.Words/font/underline/
+url: /nodejs-net/aspose.words/font/underline/
 ---
 
 ## Font.underline property
@@ -19,6 +19,20 @@ get underline(): Aspose.Words.Underline
 ```
 
 ### Examples
+
+Shows how to configure the style and color of a text underline.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.font.underline = aw.Underline.Dotted;
+builder.font.underlineColor = "#FF0000";
+
+builder.writeln("Underlined text.");
+
+doc.save(base.artifactsDir + "Font.Underlines.docx");
+```
 
 Shows how to insert formatted text using DocumentBuilder.
 
@@ -55,20 +69,6 @@ builder.writeln(".");
 
 // Ctrl + left clicking the link in the text in Microsoft Word will take us to the URL via a new web browser window.
 doc.save(base.artifactsDir + "DocumentBuilder.insertHyperlink.docx");
-```
-
-Shows how to configure the style and color of a text underline.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.font.underline = aw.Underline.Dotted;
-builder.font.underlineColor = "#FF0000";
-
-builder.writeln("Underlined text.");
-
-doc.save(base.artifactsDir + "Font.Underlines.docx");
 ```
 
 ### See Also

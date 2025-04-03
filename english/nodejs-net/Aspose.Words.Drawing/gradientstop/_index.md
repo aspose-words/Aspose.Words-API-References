@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.GradientStop class. Represents one gradient stop"
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing/gradientstop/
+url: /nodejs-net/aspose.words.drawing/gradientstop/
 ---
 
 ## GradientStop class

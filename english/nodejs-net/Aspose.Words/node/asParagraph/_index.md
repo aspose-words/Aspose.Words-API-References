@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asParagraph method. Cast node to [Paragraph](../../paragraph/)."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words/node/asParagraph/
+url: /nodejs-net/aspose.words/node/asParagraph/
 ---
 
 ## asParagraph() {#default}

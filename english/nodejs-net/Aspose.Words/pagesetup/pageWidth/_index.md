@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.pageWidth property. Returns or sets the width of the page in points."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words/pagesetup/pageWidth/
+url: /nodejs-net/aspose.words/pagesetup/pageWidth/
 ---
 
 ## PageSetup.pageWidth property

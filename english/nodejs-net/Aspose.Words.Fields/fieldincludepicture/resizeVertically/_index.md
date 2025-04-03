@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIncludePicture.resizeVertically property. Gets or sets whether to resize the picture vertically from the source."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldincludepicture/resizeVertically/
+url: /nodejs-net/aspose.words.fields/fieldincludepicture/resizeVertically/
 ---
 
 ## FieldIncludePicture.resizeVertically property

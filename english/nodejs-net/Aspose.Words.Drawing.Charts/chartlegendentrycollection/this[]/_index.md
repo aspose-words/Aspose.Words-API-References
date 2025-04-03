@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartLegendEntryCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegendentrycollection/this[]/
+url: /nodejs-net/aspose.words.drawing.charts/chartlegendentrycollection/this[]/
 ---
 
 ## ChartLegendEntryCollection.this[] property

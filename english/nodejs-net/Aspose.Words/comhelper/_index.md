@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ComHelper class. Provides methods for COM clients to load a document into Aspose.Words."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/comhelper/
+url: /nodejs-net/aspose.words/comhelper/
 ---
 
 ## ComHelper class

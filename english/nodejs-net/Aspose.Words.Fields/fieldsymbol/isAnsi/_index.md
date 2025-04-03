@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldSymbol.isAnsi property. Gets or sets whether the character code is interpreted as the value of an ANSI character."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldsymbol/isAnsi/
+url: /nodejs-net/aspose.words.fields/fieldsymbol/isAnsi/
 ---
 
 ## FieldSymbol.isAnsi property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DocumentBuilder.insertOleObject method"
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words/documentbuilder/insertOleObject/
+url: /nodejs-net/aspose.words/documentbuilder/insertOleObject/
 ---
 
 ## insertOleObject(stream, progId, asIcon, presentation) {#buffer_string_boolean_buffer}
@@ -15,7 +15,7 @@ Inserts an embedded OLE object from a stream into the document.
 
 
 ```js
-insertOleObject(stream: BufferprogId: stringasIcon: booleanpresentation: Buffer)
+insertOleObject(stream: Buffer, progId: string, asIcon: boolean, presentation: Buffer)
 ```
 
 | Parameter | Type | Description |
@@ -23,7 +23,7 @@ insertOleObject(stream: BufferprogId: stringasIcon: booleanpresentation: Buffer)
 | stream | Buffer | Stream containing application data. |
 | progId | string | Programmatic Identifier of OLE object. |
 | asIcon | boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Buffer | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
+| presentation | Buffer | Image presentation of OLE object. If value is ``null`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 
@@ -36,15 +36,15 @@ Inserts an embedded or linked OLE object from a file into the document. Detects 
 
 
 ```js
-insertOleObject(fileName: stringisLinked: booleanasIcon: booleanpresentation: Buffer)
+insertOleObject(fileName: string, isLinked: boolean, asIcon: boolean, presentation: Buffer)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | Full path to the file. |
-| isLinked | boolean | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| isLinked | boolean | If ``true`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
 | asIcon | boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Buffer | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
+| presentation | Buffer | Image presentation of OLE object. If value is ``null`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 
@@ -57,16 +57,16 @@ Inserts an embedded or linked OLE object from a file into the document. Detects 
 
 
 ```js
-insertOleObject(fileName: stringprogId: stringisLinked: booleanasIcon: booleanpresentation: Buffer)
+insertOleObject(fileName: string, progId: string, isLinked: boolean, asIcon: boolean, presentation: Buffer)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | Full path to the file. |
 | progId | string | ProgId of OLE object. |
-| isLinked | boolean | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| isLinked | boolean | If ``true`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
 | asIcon | boolean | Specifies either Iconic or Normal mode of OLE object being inserted. |
-| presentation | Buffer | Image presentation of OLE object. If value is ``None`` Aspose.Words will use one of the predefined images. |
+| presentation | Buffer | Image presentation of OLE object. If value is ``null`` Aspose.Words will use one of the predefined images. |
 
 ### Returns
 

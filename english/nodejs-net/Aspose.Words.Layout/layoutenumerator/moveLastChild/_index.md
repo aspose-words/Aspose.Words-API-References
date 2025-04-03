@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutEnumerator.moveLastChild method. Moves to the last child entity."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/moveLastChild/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/moveLastChild/
 ---
 
 ## moveLastChild() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.shadeFormData property. Specifies whether to turn on the gray shading on form fields."
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words/document/shadeFormData/
+url: /nodejs-net/aspose.words/document/shadeFormData/
 ---
 
 ## Document.shadeFormData property

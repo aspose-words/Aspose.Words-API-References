@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.style property. Gets or sets the paragraph style applied to this formatting."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/paragraphformat/style/
+url: /nodejs-net/aspose.words/paragraphformat/style/
 ---
 
 ## ParagraphFormat.style property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevelCollection.count property. Gets the number of levels in this list."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Lists/listlevelcollection/count/
+url: /nodejs-net/aspose.words.lists/listlevelcollection/count/
 ---
 
 ## ListLevelCollection.count property

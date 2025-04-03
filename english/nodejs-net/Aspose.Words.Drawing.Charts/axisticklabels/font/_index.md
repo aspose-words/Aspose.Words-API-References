@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisTickLabels.font property. Provides access to font formatting of the tick labels."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisticklabels/font/
+url: /nodejs-net/aspose.words.drawing.charts/axisticklabels/font/
 ---
 
 ## AxisTickLabels.font property

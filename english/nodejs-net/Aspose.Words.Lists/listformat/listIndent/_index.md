@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListFormat.listIndent method. Increases the list level of the current paragraph by one level."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Lists/listformat/listIndent/
+url: /nodejs-net/aspose.words.lists/listformat/listIndent/
 ---
 
 ## listIndent() {#default}

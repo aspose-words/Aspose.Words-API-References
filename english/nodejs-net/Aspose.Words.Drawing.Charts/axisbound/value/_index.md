@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisBound.value property. Returns numeric value of axis bound."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisbound/value/
+url: /nodejs-net/aspose.words.drawing.charts/axisbound/value/
 ---
 
 ## AxisBound.value property

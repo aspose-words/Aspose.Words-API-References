@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.displayResult property. Gets the text that represents the displayed field result."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/field/displayResult/
+url: /nodejs-net/aspose.words/field/displayResult/
 ---
 
 ## Field.displayResult property
@@ -21,7 +21,7 @@ get displayResult(): string
 ### Remarks
 
 The [Document.updateListLabels()](../../document/updateListLabels/#default) method must be called to obtain correct value for the
-[FieldListNum](../../../Aspose.Words.Fields/fieldlistnum/), [FieldAutoNum](../../../Aspose.Words.Fields/fieldautonum/), [FieldAutoNumOut](../../../Aspose.Words.Fields/fieldautonumout/) and [FieldAutoNumLgl](../../../Aspose.Words.Fields/fieldautonumlgl/) fields.
+[FieldListNum](../../../aspose.words.fields/fieldlistnum/), [FieldAutoNum](../../../aspose.words.fields/fieldautonum/), [FieldAutoNumOut](../../../aspose.words.fields/fieldautonumout/) and [FieldAutoNumLgl](../../../aspose.words.fields/fieldautonumlgl/) fields.
 
 
 

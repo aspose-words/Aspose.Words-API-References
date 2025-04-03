@@ -3,16 +3,16 @@ title: PdfSaveOptions.useBookFoldPrintingSettings property
 linktitle: useBookFoldPrintingSettings property
 articleTitle: useBookFoldPrintingSettings property
 second_title: Aspose.Words for NodeJs
-description: "PdfSaveOptions.useBookFoldPrintingSettings property. Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.multiplePages](../../../Aspose.Words/pagesetup/multiplePages/)."
+description: "PdfSaveOptions.useBookFoldPrintingSettings property. Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.multiplePages](../../../aspose.words/pagesetup/multiplePages/)."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/useBookFoldPrintingSettings/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/useBookFoldPrintingSettings/
 ---
 
 ## PdfSaveOptions.useBookFoldPrintingSettings property
 
 Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout,
-if it is specified via [PageSetup.multiplePages](../../../Aspose.Words/pagesetup/multiplePages/).
+if it is specified via [PageSetup.multiplePages](../../../aspose.words/pagesetup/multiplePages/).
 
 
 

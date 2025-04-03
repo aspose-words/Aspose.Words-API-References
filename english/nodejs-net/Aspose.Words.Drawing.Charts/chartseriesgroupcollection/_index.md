@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartSeriesGroupCollection class. Represents a collection of [ChartSeriesGroup](../chartseriesgroup/) objects."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroupcollection/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroupcollection/
 ---
 
 ## ChartSeriesGroupCollection class

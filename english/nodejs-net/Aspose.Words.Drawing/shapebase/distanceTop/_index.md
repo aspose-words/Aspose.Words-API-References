@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.distanceTop property. Returns or sets the distance (in points) between the document text and the top edge of the shape."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/distanceTop/
+url: /nodejs-net/aspose.words.drawing/shapebase/distanceTop/
 ---
 
 ## ShapeBase.distanceTop property

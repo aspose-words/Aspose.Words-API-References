@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.suppressTopSpacingWP property. Emulate WordPerfect 5.x Line Spacing."
 type: docs
 weight: 520
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/suppressTopSpacingWP/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/suppressTopSpacingWP/
 ---
 
 ## CompatibilityOptions.suppressTopSpacingWP property

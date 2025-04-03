@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Odso.dataSourceType property. Specifies the type of the external data source to be connected to as part of the ODSO connection information for this mail merge"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Settings/odso/dataSourceType/
+url: /nodejs-net/aspose.words.settings/odso/dataSourceType/
 ---
 
 ## Odso.dataSourceType property

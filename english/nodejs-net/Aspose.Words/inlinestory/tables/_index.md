@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "InlineStory.tables property. Gets a collection of tables that are immediate children of the story."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/inlinestory/tables/
+url: /nodejs-net/aspose.words/inlinestory/tables/
 ---
 
 ## InlineStory.tables property

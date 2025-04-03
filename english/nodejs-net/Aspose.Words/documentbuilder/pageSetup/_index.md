@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBuilder.pageSetup property. Returns an object that represents current page setup and section properties."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/documentbuilder/pageSetup/
+url: /nodejs-net/aspose.words/documentbuilder/pageSetup/
 ---
 
 ## DocumentBuilder.pageSetup property

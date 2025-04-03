@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.unlink method. Performs the field unlink."
 type: docs
 weight: 1080
-url: /nodejs-net/Aspose.Words/field/unlink/
+url: /nodejs-net/aspose.words/field/unlink/
 ---
 
 ## unlink() {#default}
@@ -29,7 +29,7 @@ Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot b
 
 ### Returns
 
-``True`` if the field has been unlinked, otherwise ``False``.
+``true`` if the field has been unlinked, otherwise ``false``.
 
 
 

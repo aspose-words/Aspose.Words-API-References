@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.ResourceLoadingArgs class. Provides data for the [IResourceLoadingCallback.resourceLoading()](../iresourceloadingcallback/resourceLoading/#resourceloadingargs) method."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Loading/resourceloadingargs/
+url: /nodejs-net/aspose.words.loading/resourceloadingargs/
 ---
 
 ## ResourceLoadingArgs class

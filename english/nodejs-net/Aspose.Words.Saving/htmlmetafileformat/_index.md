@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.HtmlMetafileFormat enumeration. Indicates the format in which metafiles are saved to HTML documents."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Saving/htmlmetafileformat/
+url: /nodejs-net/aspose.words.saving/htmlmetafileformat/
 ---
 
 ## HtmlMetafileFormat enumeration

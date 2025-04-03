@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionBindingCollection.clear method. "
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbindingcollection/clear/
+url: /nodejs-net/aspose.words.webextensions/webextensionbindingcollection/clear/
 ---
 
 ## clear() {#default}

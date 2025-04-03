@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Border.lineStyle property. Gets or sets the border style."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/border/lineStyle/
+url: /nodejs-net/aspose.words/border/lineStyle/
 ---
 
 ## Border.lineStyle property

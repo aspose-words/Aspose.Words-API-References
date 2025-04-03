@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.SaveOutputParameters class. This object is returned to the caller after a document is saved and contains additional information that  has been generated or calculated during the save operation"
 type: docs
 weight: 790
-url: /nodejs-net/Aspose.Words.Saving/saveoutputparameters/
+url: /nodejs-net/aspose.words.saving/saveoutputparameters/
 ---
 
 ## SaveOutputParameters class

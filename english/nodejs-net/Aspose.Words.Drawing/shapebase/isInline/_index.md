@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.isInline property. A quick way to determine if this shape is positioned inline with text."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/isInline/
+url: /nodejs-net/aspose.words.drawing/shapebase/isInline/
 ---
 
 ## ShapeBase.isInline property

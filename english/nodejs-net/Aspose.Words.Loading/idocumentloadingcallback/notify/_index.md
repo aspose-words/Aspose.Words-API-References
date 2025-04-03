@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IDocumentLoadingCallback.notify method. This is called to notify of document loading progress."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Loading/idocumentloadingcallback/notify/
+url: /nodejs-net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 
 ## notify(args) {#documentloadingargs}

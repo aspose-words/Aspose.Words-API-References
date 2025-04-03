@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.zorder property. Determines the display order of overlapping shapes."
 type: docs
 weight: 590
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/zorder/
+url: /nodejs-net/aspose.words.drawing/shapebase/zorder/
 ---
 
 ## ShapeBase.zorder property

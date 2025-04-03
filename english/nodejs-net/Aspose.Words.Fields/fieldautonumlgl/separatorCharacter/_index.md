@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldAutoNumLgl.separatorCharacter property. Gets or sets the separator character to be used."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldautonumlgl/separatorCharacter/
+url: /nodejs-net/aspose.words.fields/fieldautonumlgl/separatorCharacter/
 ---
 
 ## FieldAutoNumLgl.separatorCharacter property

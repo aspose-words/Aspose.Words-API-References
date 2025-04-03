@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph.parentSection property. Retrieves the parent [Section](../../section/) of the paragraph."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words/paragraph/parentSection/
+url: /nodejs-net/aspose.words/paragraph/parentSection/
 ---
 
 ## Paragraph.parentSection property

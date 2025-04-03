@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.SectionLayoutMode enumeration. Specifies the layout mode for a section allowing to define the document grid behavior."
 type: docs
 weight: 1180
-url: /nodejs-net/Aspose.Words/sectionlayoutmode/
+url: /nodejs-net/aspose.words/sectionlayoutmode/
 ---
 
 ## SectionLayoutMode enumeration

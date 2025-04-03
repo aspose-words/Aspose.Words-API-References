@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldTime constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldtime/constructor/
+url: /nodejs-net/aspose.words.fields/fieldtime/constructor/
 ---
 
 ## FieldTime() {#default}

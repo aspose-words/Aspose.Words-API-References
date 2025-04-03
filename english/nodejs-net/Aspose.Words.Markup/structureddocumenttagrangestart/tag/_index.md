@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagRangeStart.tag property. Specifies a tag associated with the current structured document tag node"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/tag/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 
 ## StructuredDocumentTagRangeStart.tag property
 
 Specifies a tag associated with the current structured document tag node.
-Can not be ``None``.
+Can not be ``null``.
 
 
 

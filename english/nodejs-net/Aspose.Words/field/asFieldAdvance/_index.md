@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldAdvance method. "
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/field/asFieldAdvance/
+url: /nodejs-net/aspose.words/field/asFieldAdvance/
 ---
 
 ## asFieldAdvance() {#default}

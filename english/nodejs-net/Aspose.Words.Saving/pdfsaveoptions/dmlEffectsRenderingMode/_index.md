@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.dmlEffectsRenderingMode property. Gets or sets a value determining how DrawingML effects are rendered."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/dmlEffectsRenderingMode/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/dmlEffectsRenderingMode/
 ---
 
 ## PdfSaveOptions.dmlEffectsRenderingMode property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Paragraph.isListItem property. True when the paragraph is an item in a bulleted or numbered list in original revision."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/paragraph/isListItem/
+url: /nodejs-net/aspose.words/paragraph/isListItem/
 ---
 
 ## Paragraph.isListItem property

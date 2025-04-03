@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source constructor. Initialize a new instance of the [Source](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Bibliography/source/constructor/
+url: /nodejs-net/aspose.words.bibliography/source/constructor/
 ---
 
 ## Source(tag, sourceType) {#string_sourcetype}
@@ -16,7 +16,7 @@ Initialize a new instance of the [Source](../) class.
 
 
 ```js
-Source(tag: stringsourceType: Aspose.Words.Bibliography.SourceType)
+Source(tag: string, sourceType: Aspose.Words.Bibliography.SourceType)
 ```
 
 | Parameter | Type | Description |

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartFormat class. Represents the formatting of a chart element"
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartformat/
+url: /nodejs-net/aspose.words.drawing.charts/chartformat/
 ---
 
 ## ChartFormat class

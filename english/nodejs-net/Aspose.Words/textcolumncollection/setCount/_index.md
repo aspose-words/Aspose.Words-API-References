@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TextColumnCollection.setCount method. Arranges text into the specified number of text columns."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/textcolumncollection/setCount/
+url: /nodejs-net/aspose.words/textcolumncollection/setCount/
 ---
 
 ## setCount(newCount) {#number}
@@ -24,7 +24,7 @@ setCount(newCount: number)
 
 ### Remarks
 
-When [TextColumnCollection.evenlySpaced](../evenlySpaced/) is ``False`` and you increase the number of columns,
+When [TextColumnCollection.evenlySpaced](../evenlySpaced/) is ``false`` and you increase the number of columns,
 new [TextColumn](../../textcolumn/) objects are created with zero width and spacing.
 You need to set width and spacing for the new columns.
 

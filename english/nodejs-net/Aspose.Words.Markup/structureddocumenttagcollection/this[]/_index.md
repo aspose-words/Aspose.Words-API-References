@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "StructuredDocumentTagCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagcollection/this[]/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagcollection/this[]/
 ---
 
 ## StructuredDocumentTagCollection.this[] property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CustomXmlSchemaCollection.remove method. Removes the specified value from the collection."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/customxmlschemacollection/remove/
+url: /nodejs-net/aspose.words.markup/customxmlschemacollection/remove/
 ---
 
 ## remove(name) {#string}

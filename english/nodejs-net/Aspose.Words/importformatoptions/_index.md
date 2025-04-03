@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.ImportFormatOptions class. Allows to specify various import options to format output"
 type: docs
 weight: 630
-url: /nodejs-net/Aspose.Words/importformatoptions/
+url: /nodejs-net/aspose.words/importformatoptions/
 ---
 
 ## ImportFormatOptions class
@@ -26,13 +26,13 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 
 | Name | Description |
 | --- | --- |
-| [adjustSentenceAndWordSpacing](./adjustSentenceAndWordSpacing/) | Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is ``False``. |
-| [forceCopyStyles](./forceCopyStyles/) | Gets or sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode. The default value is ``False``. |
-| [ignoreHeaderFooter](./ignoreHeaderFooter/) | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode is used. The default value is ``True``. |
-| [ignoreTextBoxes](./ignoreTextBoxes/) | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode is used. The default value is ``True``. |
-| [keepSourceNumbering](./keepSourceNumbering/) | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is ``False``. |
-| [mergePastedLists](./mergePastedLists/) | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is ``False``. |
-| [smartStyleBehavior](./smartStyleBehavior/) | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is ``False``. |
+| [adjustSentenceAndWordSpacing](./adjustSentenceAndWordSpacing/) | Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is ``false``. |
+| [forceCopyStyles](./forceCopyStyles/) | Gets or sets a boolean value indicating either to copy conflicting styles in [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode. The default value is ``false``. |
+| [ignoreHeaderFooter](./ignoreHeaderFooter/) | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode is used. The default value is ``true``. |
+| [ignoreTextBoxes](./ignoreTextBoxes/) | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [ImportFormatMode.KeepSourceFormatting](../importformatmode/#KeepSourceFormatting) mode is used. The default value is ``true``. |
+| [keepSourceNumbering](./keepSourceNumbering/) | Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents. The default value is ``false``. |
+| [mergePastedLists](./mergePastedLists/) | Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists. The default value is ``false``. |
+| [smartStyleBehavior](./smartStyleBehavior/) | Gets or sets a boolean value that specifies how styles will be imported when they have equal names in source and destination documents. The default value is ``false``. |
 
 ### Examples
 

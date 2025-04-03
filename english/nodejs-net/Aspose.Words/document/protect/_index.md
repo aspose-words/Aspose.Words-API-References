@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Document.protect method"
 type: docs
 weight: 660
-url: /nodejs-net/Aspose.Words/document/protect/
+url: /nodejs-net/aspose.words/document/protect/
 ---
 
 ## protect(type) {#protectiontype}
@@ -44,13 +44,13 @@ Protects the document from changes and optionally sets a protection password.
 
 
 ```js
-protect(type: Aspose.Words.ProtectionTypepassword: string)
+protect(type: Aspose.Words.ProtectionType, password: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | type | [ProtectionType](../../protectiontype/) | Specifies the protection type for the document. |
-| password | string | The password to protect the document with. Specify ``None`` or empty string if you want to protect the document without a password. |
+| password | string | The password to protect the document with. Specify ``null`` or empty string if you want to protect the document without a password. |
 
 ### Remarks
 

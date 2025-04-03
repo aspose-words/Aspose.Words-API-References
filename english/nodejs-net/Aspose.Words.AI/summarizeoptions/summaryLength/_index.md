@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SummarizeOptions.summaryLength property. Allows to specify summary length"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.AI/summarizeoptions/summaryLength/
+url: /nodejs-net/aspose.words.ai/summarizeoptions/summaryLength/
 ---
 
 ## SummarizeOptions.summaryLength property

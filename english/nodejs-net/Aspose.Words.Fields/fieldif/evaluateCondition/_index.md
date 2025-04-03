@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIf.evaluateCondition method. Evaluates the condition."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldif/evaluateCondition/
+url: /nodejs-net/aspose.words.fields/fieldif/evaluateCondition/
 ---
 
 ## evaluateCondition() {#default}

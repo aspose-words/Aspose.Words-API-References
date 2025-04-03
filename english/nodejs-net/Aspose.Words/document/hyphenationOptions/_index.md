@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.hyphenationOptions property. Provides access to document hyphenation options."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words/document/hyphenationOptions/
+url: /nodejs-net/aspose.words/document/hyphenationOptions/
 ---
 
 ## Document.hyphenationOptions property

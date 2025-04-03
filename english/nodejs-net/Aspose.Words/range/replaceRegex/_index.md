@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Range.replaceRegex method"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/range/replaceRegex/
+url: /nodejs-net/aspose.words/range/replaceRegex/
 ---
 
 ## replaceRegex(pattern, replacement) {#string_string}
@@ -15,7 +15,7 @@ Replaces all occurrences of a character pattern specified by a regular expressio
 
 
 ```js
-replaceRegex(pattern: stringreplacement: string)
+replaceRegex(pattern: string, replacement: string)
 ```
 
 | Parameter | Type | Description |
@@ -55,14 +55,14 @@ Replaces all occurrences of a character pattern specified by a regular expressio
 
 
 ```js
-replaceRegex(pattern: stringreplacement: stringoptions: Aspose.Words.Replacing.FindReplaceOptions)
+replaceRegex(pattern: string, replacement: string, options: Aspose.Words.Replacing.FindReplaceOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pattern | string | A regular expression pattern used to find matches. |
 | replacement | string | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../../Aspose.Words.Replacing/findreplaceoptions/) | [FindReplaceOptions](../../../Aspose.Words.Replacing/findreplaceoptions/) object to specify additional options. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
 
 ### Remarks
 

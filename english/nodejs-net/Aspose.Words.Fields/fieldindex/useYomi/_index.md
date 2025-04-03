@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIndex.useYomi property. Gets or sets whether to enable the use of yomi text for index entries."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Fields/fieldindex/useYomi/
+url: /nodejs-net/aspose.words.fields/fieldindex/useYomi/
 ---
 
 ## FieldIndex.useYomi property

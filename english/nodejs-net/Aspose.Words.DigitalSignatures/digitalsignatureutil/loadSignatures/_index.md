@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureUtil.loadSignatures method"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.DigitalSignatures/digitalsignatureutil/loadSignatures/
+url: /nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/loadSignatures/
 ---
 
 ## loadSignatures(fileName) {#string}

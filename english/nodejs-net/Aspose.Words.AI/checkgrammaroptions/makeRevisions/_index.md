@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "CheckGrammarOptions.makeRevisions property. Allows to specify either final or revised document to be returned with proofed text"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.AI/checkgrammaroptions/makeRevisions/
+url: /nodejs-net/aspose.words.ai/checkgrammaroptions/makeRevisions/
 ---
 
 ## CheckGrammarOptions.makeRevisions property
 
 Allows to specify either final or revised document to be returned with proofed text.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

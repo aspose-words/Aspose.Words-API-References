@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ReplacingArgs.groupName property. Identifies, by name, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](../replacement/) string."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Replacing/replacingargs/groupName/
+url: /nodejs-net/aspose.words.replacing/replacingargs/groupName/
 ---
 
 ## ReplacingArgs.groupName property
@@ -22,9 +22,9 @@ get groupName(): string
 
 ### Remarks
 
-When group name is ``None``, [ReplacingArgs.groupIndex](../groupIndex/) is used to identify the group.
+When group name is ``null``, [ReplacingArgs.groupIndex](../groupIndex/) is used to identify the group.
 
-Default is ``None``.
+Default is ``null``.
 
 
 

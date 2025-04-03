@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VbaModule.name property. Gets or sets VBA project module name."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Vba/vbamodule/name/
+url: /nodejs-net/aspose.words.vba/vbamodule/name/
 ---
 
 ## VbaModule.name property

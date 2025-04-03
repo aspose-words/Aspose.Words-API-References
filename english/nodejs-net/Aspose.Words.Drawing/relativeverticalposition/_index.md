@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.RelativeVerticalPosition enumeration. Specifies to what the vertical position of a shape or text frame is relative."
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words.Drawing/relativeverticalposition/
+url: /nodejs-net/aspose.words.drawing/relativeverticalposition/
 ---
 
 ## RelativeVerticalPosition enumeration

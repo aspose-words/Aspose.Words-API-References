@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "LayoutOptions.commentDisplayMode property. Gets or sets the way comments are rendered"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Layout/layoutoptions/commentDisplayMode/
+url: /nodejs-net/aspose.words.layout/layoutoptions/commentDisplayMode/
 ---
 
 ## LayoutOptions.commentDisplayMode property

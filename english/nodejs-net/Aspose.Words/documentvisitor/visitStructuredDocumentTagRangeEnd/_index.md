@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitStructuredDocumentTagRangeEnd method. Called when a StructuredDocumentTagRangeEnd is encountered."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/documentvisitor/visitStructuredDocumentTagRangeEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitStructuredDocumentTagRangeEnd/
 ---
 
 ## visitStructuredDocumentTagRangeEnd(sdtRangeEnd) {#structureddocumenttagrangeend}
@@ -20,7 +20,7 @@ visitStructuredDocumentTagRangeEnd(sdtRangeEnd: Aspose.Words.Markup.StructuredDo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sdtRangeEnd | [StructuredDocumentTagRangeEnd](../../../Aspose.Words.Markup/structureddocumenttagrangeend/) |  |
+| sdtRangeEnd | [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/) |  |
 
 ### See Also
 

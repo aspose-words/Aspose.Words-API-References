@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getSmartTag method. "
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/compositenode/getSmartTag/
+url: /nodejs-net/aspose.words/compositenode/getSmartTag/
 ---
 
 ## getSmartTag(index, isDeep) {#number_boolean}
 
 ```js
-getSmartTag(index: numberisDeep: boolean)
+getSmartTag(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

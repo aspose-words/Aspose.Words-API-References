@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CommentRangeEnd.nodeType property. Returns [NodeType.CommentRangeEnd](../../nodetype/#CommentRangeEnd)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/commentrangeend/nodeType/
+url: /nodejs-net/aspose.words/commentrangeend/nodeType/
 ---
 
 ## CommentRangeEnd.nodeType property

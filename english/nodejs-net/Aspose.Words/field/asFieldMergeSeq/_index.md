@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldMergeSeq method. "
 type: docs
 weight: 670
-url: /nodejs-net/Aspose.Words/field/asFieldMergeSeq/
+url: /nodejs-net/aspose.words/field/asFieldMergeSeq/
 ---
 
 ## asFieldMergeSeq() {#default}

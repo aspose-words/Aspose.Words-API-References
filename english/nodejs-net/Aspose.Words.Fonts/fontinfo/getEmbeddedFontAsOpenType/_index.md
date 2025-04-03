@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontInfo.getEmbeddedFontAsOpenType method. Gets an embedded font file in OpenType format"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/getEmbeddedFontAsOpenType/
+url: /nodejs-net/aspose.words.fonts/fontinfo/getEmbeddedFontAsOpenType/
 ---
 
 ## getEmbeddedFontAsOpenType(style) {#embeddedfontstyle}
@@ -24,7 +24,7 @@ getEmbeddedFontAsOpenType(style: Aspose.Words.Fonts.EmbeddedFontStyle)
 
 ### Returns
 
-Returns ``None`` if the specified font is not embedded.
+Returns ``null`` if the specified font is not embedded.
 
 
 ### See Also

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Section constructor. Initializes a new instance of the Section class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/section/constructor/
+url: /nodejs-net/aspose.words/section/constructor/
 ---
 
 ## Section(doc) {#documentbase}
@@ -25,7 +25,7 @@ Section(doc: Aspose.Words.DocumentBase)
 ### Remarks
 
 When the section is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To include [Section](../) into a document use [CompositeNode.insertAfter()](../../compositenode/insertAfter/#node_node) and 
 [CompositeNode.insertBefore()](../../compositenode/insertBefore/#node_node) methods of the [Document](../../document/) OR

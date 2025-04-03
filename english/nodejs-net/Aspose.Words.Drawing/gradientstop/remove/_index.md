@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "GradientStop.remove method. Removes the gradient stop from the parent [GradientStopCollection](../../gradientstopcollection/)."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/gradientstop/remove/
+url: /nodejs-net/aspose.words.drawing/gradientstop/remove/
 ---
 
 ## remove() {#default}

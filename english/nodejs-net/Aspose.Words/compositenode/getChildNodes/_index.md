@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getChildNodes method. Returns a live collection of child nodes that match the specified type."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/compositenode/getChildNodes/
+url: /nodejs-net/aspose.words/compositenode/getChildNodes/
 ---
 
 ## getChildNodes(nodeType, isDeep) {#nodetype_boolean}
@@ -15,13 +15,13 @@ Returns a live collection of child nodes that match the specified type.
 
 
 ```js
-getChildNodes(nodeType: Aspose.Words.NodeTypeisDeep: boolean)
+getChildNodes(nodeType: Aspose.Words.NodeType, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | nodeType | [NodeType](../../nodetype/) | Specifies the type of nodes to select. |
-| isDeep | boolean | ``True`` to select from all child nodes recursively; ``False`` to select only among immediate children.  |
+| isDeep | boolean | ``true`` to select from all child nodes recursively; ``false`` to select only among immediate children.  |
 
 ### Remarks
 

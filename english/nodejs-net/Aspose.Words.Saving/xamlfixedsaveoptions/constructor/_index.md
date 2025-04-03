@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XamlFixedSaveOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/xamlfixedsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/xamlfixedsaveoptions/constructor/
 ---
 
 ## XamlFixedSaveOptions() {#default}

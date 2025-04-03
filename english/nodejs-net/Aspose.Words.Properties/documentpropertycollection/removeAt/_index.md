@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentPropertyCollection.removeAt method. Removes a property at the specified index."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Properties/documentpropertycollection/removeAt/
+url: /nodejs-net/aspose.words.properties/documentpropertycollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

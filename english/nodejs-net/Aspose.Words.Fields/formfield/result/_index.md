@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.result property. Gets or sets a string that represents the result of this form field."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Fields/formfield/result/
+url: /nodejs-net/aspose.words.fields/formfield/result/
 ---
 
 ## FormField.result property
@@ -31,7 +31,7 @@ specified in [FormField.textInputFormat](../textInputFormat/). If you want to se
 format, use the [FormField.setTextInputValue()](../setTextInputValue/#object) method.
 
 For a text form field the [FormField.textInputDefault](../textInputDefault/) value is applied
-if *value* is``None``.
+if *value* is``null``.
 
 
 

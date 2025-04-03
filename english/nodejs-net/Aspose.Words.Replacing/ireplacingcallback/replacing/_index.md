@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IReplacingCallback.replacing method. A user defined method that is called during a replace operation for each match found just before a replace is made."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Replacing/ireplacingcallback/replacing/
+url: /nodejs-net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 
 ## replacing(args) {#replacingargs}

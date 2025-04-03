@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.doNotSupressBlankLines property. Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/doNotSupressBlankLines/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/doNotSupressBlankLines/
 ---
 
 ## MailMergeSettings.doNotSupressBlankLines property
 
 Specifies how an application performing the mail merge shall handle blank lines in the merged documents resulting from the mail merge.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

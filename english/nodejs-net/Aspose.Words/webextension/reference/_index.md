@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtension.reference property. Specifies the primary reference to an web extension."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/webextension/reference/
+url: /nodejs-net/aspose.words/webextension/reference/
 ---
 
 ## WebExtension.reference property

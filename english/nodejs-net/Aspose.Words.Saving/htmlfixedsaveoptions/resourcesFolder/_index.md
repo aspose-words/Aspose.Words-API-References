@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlFixedSaveOptions.resourcesFolder property. Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/resourcesFolder/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/resourcesFolder/
 ---
 
 ## HtmlFixedSaveOptions.resourcesFolder property
 
 Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format.
-Default is ``None``.
+Default is ``null``.
 
 
 
@@ -22,9 +22,9 @@ get resourcesFolder(): string
 
 ### Remarks
 
-Has effect only if [HtmlFixedSaveOptions.exportEmbeddedImages](../exportEmbeddedImages/) property is ``False``.
+Has effect only if [HtmlFixedSaveOptions.exportEmbeddedImages](../exportEmbeddedImages/) property is ``false``.
 
-When you save a [Document](../../../Aspose.Words/document/) in Html format, Aspose.Words needs to save all
+When you save a [Document](../../../aspose.words/document/) in Html format, Aspose.Words needs to save all
 images embedded in the document as standalone files. [HtmlFixedSaveOptions.resourcesFolder](./)
 allows you to specify where the images will be saved and [HtmlFixedSaveOptions.resourcesFolderAlias](../resourcesFolderAlias/)
 allows to specify how the image URIs will be constructed.

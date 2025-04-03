@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.ShadowType enumeration. Specifies the type of a shape shadow."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Drawing/shadowtype/
+url: /nodejs-net/aspose.words.drawing/shadowtype/
 ---
 
 ## ShadowType enumeration

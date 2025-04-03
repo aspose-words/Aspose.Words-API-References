@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "VariableCollection.removeAt method. Removes a document variable at the specified index."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/variablecollection/removeAt/
+url: /nodejs-net/aspose.words/variablecollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

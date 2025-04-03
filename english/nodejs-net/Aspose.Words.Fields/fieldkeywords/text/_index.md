@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldKeywords.text property. Gets or sets the text of the keywords."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldkeywords/text/
+url: /nodejs-net/aspose.words.fields/fieldkeywords/text/
 ---
 
 ## FieldKeywords.text property

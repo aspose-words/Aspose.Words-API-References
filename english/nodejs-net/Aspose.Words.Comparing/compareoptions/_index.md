@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Comparing.CompareOptions class. Allows to choose additional options for document comparison operation"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Comparing/compareoptions/
+url: /nodejs-net/aspose.words.comparing/compareoptions/
 ---
 
 ## CompareOptions class

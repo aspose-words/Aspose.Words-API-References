@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "WebExtensionProperty constructor. Creates web extension custom property with specified name and value."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionproperty/constructor/
+url: /nodejs-net/aspose.words.webextensions/webextensionproperty/constructor/
 ---
 
 ## WebExtensionProperty(name, value) {#string_string}
@@ -15,7 +15,7 @@ Creates web extension custom property with specified name and value.
 
 
 ```js
-WebExtensionProperty(name: stringvalue: string)
+WebExtensionProperty(name: string, value: string)
 ```
 
 | Parameter | Type | Description |

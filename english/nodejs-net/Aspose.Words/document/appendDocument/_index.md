@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Document.appendDocument method"
 type: docs
 weight: 550
-url: /nodejs-net/Aspose.Words/document/appendDocument/
+url: /nodejs-net/aspose.words/document/appendDocument/
 ---
 
 ## appendDocument(srcDoc, importFormatMode) {#document_importformatmode}
@@ -15,7 +15,7 @@ Appends the specified document to the end of this document.
 
 
 ```js
-appendDocument(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatMode)
+appendDocument(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode)
 ```
 
 | Parameter | Type | Description |
@@ -29,7 +29,7 @@ Appends the specified document to the end of this document.
 
 
 ```js
-appendDocument(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatModeimportFormatOptions: Aspose.Words.ImportFormatOptions)
+appendDocument(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode, importFormatOptions: Aspose.Words.ImportFormatOptions)
 ```
 
 | Parameter | Type | Description |

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TabStopCollection.equals method. Determines whether the specified [TabStopCollection](../) is equal in value to the current [TabStopCollection](../)."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/tabstopcollection/equals/
+url: /nodejs-net/aspose.words/tabstopcollection/equals/
 ---
 
 ## equals(rhs) {#tabstopcollection}

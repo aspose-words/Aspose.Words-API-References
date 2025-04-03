@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartDataLabelCollection class. Represents a collection of [ChartDataLabel](../chartdatalabel/)"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 
 ## ChartDataLabelCollection class
@@ -29,14 +29,14 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nod
 | [position](./position/) | Gets or sets the position of the data labels. |
 | [rotation](./rotation/) | Gets or sets the rotation of the data labels of the entire series in degrees. |
 | [separator](./separator/) | Gets or sets string separator used for the data labels of the entire series.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
-| [showBubbleSize](./showBubbleSize/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts.  Default value is ``False``. |
-| [showCategoryName](./showCategoryName/) | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is ``False``. |
-| [showDataLabelsRange](./showDataLabelsRange/) | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is ``False``. |
-| [showLeaderLines](./showLeaderLines/) | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is ``False``. |
-| [showLegendKey](./showLegendKey/) | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is ``False``. |
-| [showPercentage](./showPercentage/) | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is ``False``. Applies only to Pie charts. |
-| [showSeriesName](./showSeriesName/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. ``True`` to show the series name; ``False`` to hide. By default ``False``. |
-| [showValue](./showValue/) | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is ``False``. |
+| [showBubbleSize](./showBubbleSize/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts.  Default value is ``false``. |
+| [showCategoryName](./showCategoryName/) | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is ``false``. |
+| [showDataLabelsRange](./showDataLabelsRange/) | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is ``false``. |
+| [showLeaderLines](./showLeaderLines/) | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is ``false``. |
+| [showLegendKey](./showLegendKey/) | Allows to specify whether legend key is to be displayed for the data labels of the entire series. Default value is ``false``. |
+| [showPercentage](./showPercentage/) | Allows to specify whether percentage value is to be displayed for the data labels of the entire series. Default value is ``false``. Applies only to Pie charts. |
+| [showSeriesName](./showSeriesName/) | Returns or sets a Boolean to indicate the series name display behavior for the data labels of the entire series. ``true`` to show the series name; ``false`` to hide. By default ``false``. |
+| [showValue](./showValue/) | Allows to specify whether values are to be displayed in the data labels of the entire series. Default value is ``false``. |
 | [this[]](./this[]/) |  |
 
 ### Methods

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.acceptStart method. Accepts a visitor for visiting the start of the table."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/table/acceptStart/
+url: /nodejs-net/aspose.words/table/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

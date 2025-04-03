@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HeaderFooter.isHeader property. True if this [HeaderFooter](../) object is a header."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/headerfooter/isHeader/
+url: /nodejs-net/aspose.words/headerfooter/isHeader/
 ---
 
 ## HeaderFooter.isHeader property

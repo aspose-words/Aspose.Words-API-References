@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FontSavingArgs.fontFileName property. Gets or sets the file name (without path) where the font will be saved to."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/fontsavingargs/fontFileName/
+url: /nodejs-net/aspose.words.saving/fontsavingargs/fontFileName/
 ---
 
 ## FontSavingArgs.fontFileName property

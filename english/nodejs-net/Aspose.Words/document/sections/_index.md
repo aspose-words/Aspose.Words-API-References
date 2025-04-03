@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Document.sections property. Returns a collection that represents all sections in the document."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/document/sections/
+url: /nodejs-net/aspose.words/document/sections/
 ---
 
 ## Document.sections property

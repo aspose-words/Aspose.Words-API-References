@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentBase.warningCallback property. Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/documentbase/warningCallback/
+url: /nodejs-net/aspose.words/documentbase/warningCallback/
 ---
 
 ## DocumentBase.warningCallback property

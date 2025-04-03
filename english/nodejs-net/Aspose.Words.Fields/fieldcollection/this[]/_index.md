@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldcollection/this[]/
+url: /nodejs-net/aspose.words.fields/fieldcollection/this[]/
 ---
 
 ## FieldCollection.this[] property

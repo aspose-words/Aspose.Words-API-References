@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Saving.PdfZoomBehavior enumeration. Specifies the type of zoom applied to a PDF document when it is opened in a PDF viewer."
 type: docs
 weight: 740
-url: /nodejs-net/Aspose.Words.Saving/pdfzoombehavior/
+url: /nodejs-net/aspose.words.saving/pdfzoombehavior/
 ---
 
 ## PdfZoomBehavior enumeration

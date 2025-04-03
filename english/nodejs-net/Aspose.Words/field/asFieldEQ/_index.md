@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldEQ method. "
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/field/asFieldEQ/
+url: /nodejs-net/aspose.words/field/asFieldEQ/
 ---
 
 ## asFieldEQ() {#default}

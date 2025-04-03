@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ImageSize.heightPixels property. Gets the height of the image in pixels."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/imagesize/heightPixels/
+url: /nodejs-net/aspose.words.drawing/imagesize/heightPixels/
 ---
 
 ## ImageSize.heightPixels property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListFormat.removeNumbers method. Removes numbers or bullets from the current paragraph and sets list level to zero."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Lists/listformat/removeNumbers/
+url: /nodejs-net/aspose.words.lists/listformat/removeNumbers/
 ---
 
 ## removeNumbers() {#default}
@@ -20,7 +20,7 @@ removeNumbers()
 
 ### Remarks
 
-Calling this method is equivalent to setting the [ListFormat.list](../list/) property to ``None``.
+Calling this method is equivalent to setting the [ListFormat.list](../list/) property to ``null``.
 
 
 

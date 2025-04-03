@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Chart.axes property. Gets a collection of all axes of this chart."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/chart/axes/
+url: /nodejs-net/aspose.words.drawing/chart/axes/
 ---
 
 ## Chart.axes property

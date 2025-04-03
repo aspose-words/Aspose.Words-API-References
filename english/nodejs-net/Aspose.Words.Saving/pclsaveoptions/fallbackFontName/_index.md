@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PclSaveOptions.fallbackFontName property. Name of the font that will be used if no expected font is found in printer and built-in fonts collections."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/pclsaveoptions/fallbackFontName/
+url: /nodejs-net/aspose.words.saving/pclsaveoptions/fallbackFontName/
 ---
 
 ## PclSaveOptions.fallbackFontName property

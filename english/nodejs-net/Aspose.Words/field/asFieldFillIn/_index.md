@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldFillIn method. "
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words/field/asFieldFillIn/
+url: /nodejs-net/aspose.words/field/asFieldFillIn/
 ---
 
 ## asFieldFillIn() {#default}

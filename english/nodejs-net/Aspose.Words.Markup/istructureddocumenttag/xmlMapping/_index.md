@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IStructuredDocumentTag.xmlMapping property. Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/xmlMapping/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/xmlMapping/
 ---
 
 ## IStructuredDocumentTag.xmlMapping property

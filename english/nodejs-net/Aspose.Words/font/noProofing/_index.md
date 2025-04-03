@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.noProofing property. True when the formatted characters are not to be spell checked."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/font/noProofing/
+url: /nodejs-net/aspose.words/font/noProofing/
 ---
 
 ## Font.noProofing property

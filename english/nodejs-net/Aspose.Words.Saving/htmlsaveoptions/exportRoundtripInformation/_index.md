@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.exportRoundtripInformation property. Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB"
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportRoundtripInformation/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportRoundtripInformation/
 ---
 
 ## HtmlSaveOptions.exportRoundtripInformation property
 
 Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB.
-Default value is ``True`` for HTML and ``False`` for MHTML and EPUB.
+Default value is ``true`` for HTML and ``false`` for MHTML and EPUB.
 
 
 
@@ -23,12 +23,12 @@ get exportRoundtripInformation(): boolean
 ### Remarks
 
 Saving of the roundtrip information allows to restore document properties such as tab stops,
-comments, headers and footers during the HTML documents loading back into a [Document](../../../Aspose.Words/document/) object.
+comments, headers and footers during the HTML documents loading back into a [Document](../../../aspose.words/document/) object.
 
-When ``True``, the roundtrip information is exported as -aw-\* CSS properties
+When ``true``, the roundtrip information is exported as -aw-\* CSS properties
 of the corresponding HTML elements.
 
-When ``False``, causes no roundtrip information to be output into produced files.
+When ``false``, causes no roundtrip information to be output into produced files.
 
 
 

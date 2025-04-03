@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FormField.dropDownSelectedIndex property. Gets or sets the index specifying the currently selected item in a dropdown form field."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/formfield/dropDownSelectedIndex/
+url: /nodejs-net/aspose.words.fields/formfield/dropDownSelectedIndex/
 ---
 
 ## FormField.dropDownSelectedIndex property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "XamlFlowSaveOptions.imageSavingCallback property. Allows to control how images are saved when a document is saved to XAML."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/imageSavingCallback/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/imageSavingCallback/
 ---
 
 ## XamlFlowSaveOptions.imageSavingCallback property

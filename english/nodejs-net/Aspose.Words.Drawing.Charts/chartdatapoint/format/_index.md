@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartDataPoint.format property. Provides access to fill and line formatting of this data point."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapoint/format/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatapoint/format/
 ---
 
 ## ChartDataPoint.format property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Run.nodeType property. Returns [NodeType.Run](../../nodetype/#Run)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/run/nodeType/
+url: /nodejs-net/aspose.words/run/nodeType/
 ---
 
 ## Run.nodeType property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldPrintDate.useLunarCalendar property. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldprintdate/useLunarCalendar/
+url: /nodejs-net/aspose.words.fields/fieldprintdate/useLunarCalendar/
 ---
 
 ## FieldPrintDate.useLunarCalendar property

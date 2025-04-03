@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Loading.HtmlControlType enumeration. Type of document nodes that represent <input> and <select> elements imported from HTML."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Loading/htmlcontroltype/
+url: /nodejs-net/aspose.words.loading/htmlcontroltype/
 ---
 
 ## HtmlControlType enumeration

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "MailMergeSettings.checkErrors property. Specifies the type of error reporting which shall be conducted by Microsoft Word when performing a mail merge"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/checkErrors/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/checkErrors/
 ---
 
 ## MailMergeSettings.checkErrors property

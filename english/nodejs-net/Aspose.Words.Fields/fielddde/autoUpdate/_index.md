@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDde.autoUpdate property. Gets or sets whether to update this field automatically."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fielddde/autoUpdate/
+url: /nodejs-net/aspose.words.fields/fielddde/autoUpdate/
 ---
 
 ## FieldDde.autoUpdate property

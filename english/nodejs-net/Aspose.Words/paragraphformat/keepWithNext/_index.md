@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ParagraphFormat.keepWithNext property. True if the paragraph is to remains on the same page as the paragraph that follows it."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/paragraphformat/keepWithNext/
+url: /nodejs-net/aspose.words/paragraphformat/keepWithNext/
 ---
 
 ## ParagraphFormat.keepWithNext property

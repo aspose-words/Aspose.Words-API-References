@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Adjustment class. Represents adjustment values that are applied to the specified shape."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/adjustment/
+url: /nodejs-net/aspose.words.drawing/adjustment/
 ---
 
 ## Adjustment class

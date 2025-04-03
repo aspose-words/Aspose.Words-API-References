@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Node.asBody method. Cast node to [Body](../../body/)."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/node/asBody/
+url: /nodejs-net/aspose.words/node/asBody/
 ---
 
 ## asBody() {#default}

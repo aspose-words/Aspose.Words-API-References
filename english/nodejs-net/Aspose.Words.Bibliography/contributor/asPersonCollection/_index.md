@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Contributor.asPersonCollection method. Casts contributor to Aspose.Words.Bibliography.PersonCollection, otherwise returns null."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Bibliography/contributor/asPersonCollection/
+url: /nodejs-net/aspose.words.bibliography/contributor/asPersonCollection/
 ---
 
 ## asPersonCollection() {#default}

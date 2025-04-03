@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Row.getText method. Gets the text of all cells in this row including the end of row character."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Tables/row/getText/
+url: /nodejs-net/aspose.words.tables/row/getText/
 ---
 
 ## getText() {#default}
@@ -23,7 +23,7 @@ getText()
 Returns concatenated text of all child nodes with the end of row character
 Aspose.Words.ControlChar.Cell appended at the end.
 
-The returned string includes all control and special characters as described in [ControlChar](../../../Aspose.Words/controlchar/).
+The returned string includes all control and special characters as described in [ControlChar](../../../aspose.words/controlchar/).
 
 
 

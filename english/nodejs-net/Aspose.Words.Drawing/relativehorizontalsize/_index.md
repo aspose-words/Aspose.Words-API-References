@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.RelativeHorizontalSize enumeration. Specifies relatively to what the width of a shape or a text frame is calculated horizontally."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words.Drawing/relativehorizontalsize/
+url: /nodejs-net/aspose.words.drawing/relativehorizontalsize/
 ---
 
 ## RelativeHorizontalSize enumeration

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldDocProperty constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fielddocproperty/constructor/
+url: /nodejs-net/aspose.words.fields/fielddocproperty/constructor/
 ---
 
 ## FieldDocProperty() {#default}

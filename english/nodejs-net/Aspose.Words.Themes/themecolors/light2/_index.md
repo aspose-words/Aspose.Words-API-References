@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ThemeColors.light2 property. Specifies color Light 2."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Themes/themecolors/light2/
+url: /nodejs-net/aspose.words.themes/themecolors/light2/
 ---
 
 ## ThemeColors.light2 property

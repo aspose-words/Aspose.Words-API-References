@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.customNumberStyleFormat property. Gets or sets the custom number style format for this list level"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Lists/listlevel/customNumberStyleFormat/
+url: /nodejs-net/aspose.words.lists/listlevel/customNumberStyleFormat/
 ---
 
 ## ListLevel.customNumberStyleFormat property

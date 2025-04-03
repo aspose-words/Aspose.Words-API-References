@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "CompositeNode.getBuildingBlock method. "
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/compositenode/getBuildingBlock/
+url: /nodejs-net/aspose.words/compositenode/getBuildingBlock/
 ---
 
 ## getBuildingBlock(index, isDeep) {#number_boolean}
 
 ```js
-getBuildingBlock(index: numberisDeep: boolean)
+getBuildingBlock(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

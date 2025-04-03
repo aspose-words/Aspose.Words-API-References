@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.joinStyle property. Defines the join style of a polyline."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Drawing/stroke/joinStyle/
+url: /nodejs-net/aspose.words.drawing/stroke/joinStyle/
 ---
 
 ## Stroke.joinStyle property

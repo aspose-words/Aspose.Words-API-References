@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.rightMargin property. Returns or sets the distance (in points) between the right edge of the page and the right boundary of the body text."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/pagesetup/rightMargin/
+url: /nodejs-net/aspose.words/pagesetup/rightMargin/
 ---
 
 ## PageSetup.rightMargin property

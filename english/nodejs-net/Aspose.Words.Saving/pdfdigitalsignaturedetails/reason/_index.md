@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfDigitalSignatureDetails.reason property. Gets or sets the reason for the signing."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/reason/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 ---
 
 ## PdfDigitalSignatureDetails.reason property
@@ -20,7 +20,7 @@ get reason(): string
 
 ### Remarks
 
-The default value is ``None``.
+The default value is ``null``.
 
 
 

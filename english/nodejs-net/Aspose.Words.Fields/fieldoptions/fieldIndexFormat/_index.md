@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldOptions.fieldIndexFormat property. Gets or sets a [FieldOptions.fieldIndexFormat](./) that represents the formatting for the [FieldIndex](../../fieldindex/) fields in the document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/fieldIndexFormat/
+url: /nodejs-net/aspose.words.fields/fieldoptions/fieldIndexFormat/
 ---
 
 ## FieldOptions.fieldIndexFormat property

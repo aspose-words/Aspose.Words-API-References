@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.RunCollection class. Provides typed access to a collection of [Run](../run/) nodes"
 type: docs
 weight: 1140
-url: /nodejs-net/Aspose.Words/runcollection/
+url: /nodejs-net/aspose.words/runcollection/
 ---
 
 ## RunCollection class

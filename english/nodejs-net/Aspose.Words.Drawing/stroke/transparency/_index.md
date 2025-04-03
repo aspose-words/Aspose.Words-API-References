@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Stroke.transparency property. Gets or sets a value between 0.0 (opaque) and 1.0 (clear) representing the degree of transparency of the stroke."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Drawing/stroke/transparency/
+url: /nodejs-net/aspose.words.drawing/stroke/transparency/
 ---
 
 ## Stroke.transparency property

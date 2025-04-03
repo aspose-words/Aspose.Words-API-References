@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldIndex.letterRange property. Gets or sets a range of letters to which limit the index."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Fields/fieldindex/letterRange/
+url: /nodejs-net/aspose.words.fields/fieldindex/letterRange/
 ---
 
 ## FieldIndex.letterRange property

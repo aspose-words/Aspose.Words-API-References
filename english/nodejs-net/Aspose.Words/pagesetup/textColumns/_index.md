@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.textColumns property. Returns a collection that represents the set of text columns."
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words/pagesetup/textColumns/
+url: /nodejs-net/aspose.words/pagesetup/textColumns/
 ---
 
 ## PageSetup.textColumns property

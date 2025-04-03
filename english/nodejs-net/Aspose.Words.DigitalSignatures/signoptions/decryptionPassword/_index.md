@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "SignOptions.decryptionPassword property. The password to decrypt source document"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.DigitalSignatures/signoptions/decryptionPassword/
+url: /nodejs-net/aspose.words.digitalsignatures/signoptions/decryptionPassword/
 ---
 
 ## SignOptions.decryptionPassword property

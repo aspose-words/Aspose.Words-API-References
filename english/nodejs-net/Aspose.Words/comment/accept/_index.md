@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Comment.accept method. Accepts a visitor."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/comment/accept/
+url: /nodejs-net/aspose.words/comment/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

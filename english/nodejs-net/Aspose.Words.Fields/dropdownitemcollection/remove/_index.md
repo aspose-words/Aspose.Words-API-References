@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DropDownItemCollection.remove method. Removes the specified value from the collection."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/remove/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/remove/
 ---
 
 ## remove(name) {#string}

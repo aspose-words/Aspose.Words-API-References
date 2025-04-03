@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.IDocumentConverterPlugin class. Defines an interface for external converter plugin."
 type: docs
 weight: 540
-url: /nodejs-net/Aspose.Words/idocumentconverterplugin/
+url: /nodejs-net/aspose.words/idocumentconverterplugin/
 ---
 
 ## IDocumentConverterPlugin class

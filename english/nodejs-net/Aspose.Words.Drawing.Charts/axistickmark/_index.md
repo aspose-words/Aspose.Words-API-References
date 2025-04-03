@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.AxisTickMark enumeration. Specifies the possible positions for tick marks."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axistickmark/
+url: /nodejs-net/aspose.words.drawing.charts/axistickmark/
 ---
 
 ## AxisTickMark enumeration

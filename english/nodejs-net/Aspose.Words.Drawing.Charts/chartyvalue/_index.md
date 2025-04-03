@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.ChartYValue class. Represents an Y value for a chart series."
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartyvalue/
+url: /nodejs-net/aspose.words.drawing.charts/chartyvalue/
 ---
 
 ## ChartYValue class

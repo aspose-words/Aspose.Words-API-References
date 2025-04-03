@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Shading.backgroundPatternColor property. Gets or sets the color that's applied to the background of the [Shading](../) object."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/shading/backgroundPatternColor/
+url: /nodejs-net/aspose.words/shading/backgroundPatternColor/
 ---
 
 ## Shading.backgroundPatternColor property

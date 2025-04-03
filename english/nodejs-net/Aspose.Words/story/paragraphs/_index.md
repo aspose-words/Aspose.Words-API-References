@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Story.paragraphs property. Gets a collection of paragraphs that are immediate children of the story."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/story/paragraphs/
+url: /nodejs-net/aspose.words/story/paragraphs/
 ---
 
 ## Story.paragraphs property

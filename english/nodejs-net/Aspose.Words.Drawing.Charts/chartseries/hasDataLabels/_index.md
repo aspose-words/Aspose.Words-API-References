@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeries.hasDataLabels property. Gets or sets a flag indicating whether data labels are displayed for the series."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/hasDataLabels/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/hasDataLabels/
 ---
 
 ## ChartSeries.hasDataLabels property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.ImageData class. Defines an image for a shape"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/
+url: /nodejs-net/aspose.words.drawing/imagedata/
 ---
 
 ## ImageData class
@@ -47,12 +47,12 @@ To store an image inside a shape use the [ImageData.setImage()](./setImage/#stri
 | [cropRight](./cropRight/) | Defines the fraction of picture removal from the right side. |
 | [cropTop](./cropTop/) | Defines the fraction of picture removal from the top side. |
 | [grayScale](./grayScale/) | Determines whether a picture will display in grayscale mode. |
-| [hasImage](./hasImage/) | Returns ``True`` if the shape has image bytes or links an image. |
+| [hasImage](./hasImage/) | Returns ``true`` if the shape has image bytes or links an image. |
 | [imageBytes](./imageBytes/) | Gets or sets the raw bytes of the image stored in the shape. |
 | [imageSize](./imageSize/) | Gets the information about image size and resolution. |
 | [imageType](./imageType/) | Gets the type of the image. |
-| [isLink](./isLink/) | Returns ``True`` if the image is linked to the shape (when [ImageData.sourceFullName](./sourceFullName/) is specified). |
-| [isLinkOnly](./isLinkOnly/) | Returns ``True`` if the image is linked and not stored in the document. |
+| [isLink](./isLink/) | Returns ``true`` if the image is linked to the shape (when [ImageData.sourceFullName](./sourceFullName/) is specified). |
+| [isLinkOnly](./isLinkOnly/) | Returns ``true`` if the image is linked and not stored in the document. |
 | [sourceFullName](./sourceFullName/) | Gets or sets the path and name of the source file for the linked image. |
 | [title](./title/) | Defines the title of an image. |
 
@@ -70,33 +70,6 @@ To store an image inside a shape use the [ImageData.setImage()](./setImage/#stri
 |[ toImage2()](./toImage2/#default) |  |
 
 ### Examples
-
-Shows how to extract images from a document, and save them to the local file system as individual files.
-
-```js
-let doc = new aw.Document(base.myDir + "Images.docx");
-
-// Get the collection of shapes from the document,
-// and save the image data of every shape with an image as a file to the local file system.
-let nodes = [...doc.getChildNodes(aw.NodeType.Shape, true)];
-
-expect(nodes.filter(s => s.asShape().hasImage).length).toEqual(9);
-
-let imageIndex = 0;
-for (let node of nodes)
-{
-  let shape = node.asShape();
-  if (shape.hasImage)
-  {
-    // The image data of shapes may contain images of many possible image formats. 
-    // We can determine a file extension for each image automatically, based on its format.
-    let imageFileName =
-      `File.ExtractImages.${imageIndex}${aw.FileFormatUtil.imageTypeToExtension(shape.imageData.imageType)}`;
-    shape.imageData.save(base.artifactsDir + imageFileName);
-    imageIndex++;
-  }
-}
-```
 
 Shows how to insert a linked image into a document.
 
@@ -133,6 +106,33 @@ doc.save(base.artifactsDir + "Image.CreateLinkedImage.linked.docx");
 // However, the document can only display the image correctly while
 // the image file is present at the location that the shape's "SourceFullName" property points to.
 expect(10000 > fs.statSync(base.artifactsDir + "Image.CreateLinkedImage.linked.docx").size).toBeTruthy();
+```
+
+Shows how to extract images from a document, and save them to the local file system as individual files.
+
+```js
+let doc = new aw.Document(base.myDir + "Images.docx");
+
+// Get the collection of shapes from the document,
+// and save the image data of every shape with an image as a file to the local file system.
+let nodes = [...doc.getChildNodes(aw.NodeType.Shape, true)];
+
+expect(nodes.filter(s => s.asShape().hasImage).length).toEqual(9);
+
+let imageIndex = 0;
+for (let node of nodes)
+{
+  let shape = node.asShape();
+  if (shape.hasImage)
+  {
+    // The image data of shapes may contain images of many possible image formats. 
+    // We can determine a file extension for each image automatically, based on its format.
+    let imageFileName =
+      `File.ExtractImages.${imageIndex}${aw.FileFormatUtil.imageTypeToExtension(shape.imageData.imageType)}`;
+    shape.imageData.save(base.artifactsDir + imageFileName);
+    imageIndex++;
+  }
+}
 ```
 
 ### See Also

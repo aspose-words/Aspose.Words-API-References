@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "INodeChangingCallback.nodeRemoving method. Called just before a node belonging to this document is about to be removed from the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/inodechangingcallback/nodeRemoving/
+url: /nodejs-net/aspose.words/inodechangingcallback/nodeRemoving/
 ---
 
 ## nodeRemoving(args) {#nodechangingargs}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CompatibilityOptions.doNotSuppressParagraphBorders property. Do Not Suppress Paragraph Borders Next To Frames."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/doNotSuppressParagraphBorders/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/doNotSuppressParagraphBorders/
 ---
 
 ## CompatibilityOptions.doNotSuppressParagraphBorders property

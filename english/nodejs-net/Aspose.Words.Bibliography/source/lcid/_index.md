@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.lcid property. Gets or sets the locale ID of a source."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Bibliography/source/lcid/
+url: /nodejs-net/aspose.words.bibliography/source/lcid/
 ---
 
 ## Source.lcid property

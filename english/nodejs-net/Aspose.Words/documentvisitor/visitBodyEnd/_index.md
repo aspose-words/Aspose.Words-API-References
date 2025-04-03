@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitBodyEnd method. Called when enumeration of the main text story in a section has ended."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/documentvisitor/visitBodyEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitBodyEnd/
 ---
 
 ## visitBodyEnd(body) {#body}

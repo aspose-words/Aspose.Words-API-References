@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "AxisDisplayUnit.unit property. Gets or sets the scaling value of the display units as one of the predefined values."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisdisplayunit/unit/
+url: /nodejs-net/aspose.words.drawing.charts/axisdisplayunit/unit/
 ---
 
 ## AxisDisplayUnit.unit property

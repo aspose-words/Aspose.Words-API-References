@@ -6,13 +6,13 @@ second_title: Aspose.Words for NodeJs
 description: "RtfSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/rtfsaveoptions/saveFormat/
 ---
 
 ## RtfSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Rtf](../../../Aspose.Words/saveformat/#Rtf).
+Can only be [SaveFormat.Rtf](../../../aspose.words/saveformat/#Rtf).
 
 
 

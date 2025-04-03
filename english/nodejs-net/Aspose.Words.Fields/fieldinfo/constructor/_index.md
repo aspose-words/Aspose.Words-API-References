@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldInfo constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldinfo/constructor/
+url: /nodejs-net/aspose.words.fields/fieldinfo/constructor/
 ---
 
 ## FieldInfo() {#default}

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldArgumentBuilder.addField method. Adds a field represented by a [FieldBuilder](../../fieldbuilder/) to the argument."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldargumentbuilder/addField/
+url: /nodejs-net/aspose.words.fields/fieldargumentbuilder/addField/
 ---
 
 ## addField(fieldBuilder) {#fieldbuilder}

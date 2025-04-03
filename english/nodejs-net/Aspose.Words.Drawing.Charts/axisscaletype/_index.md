@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Drawing.Charts.AxisScaleType enumeration. Specifies the possible scale types for an axis."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisscaletype/
+url: /nodejs-net/aspose.words.drawing.charts/axisscaletype/
 ---
 
 ## AxisScaleType enumeration

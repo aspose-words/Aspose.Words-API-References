@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "IAiModelText.translate method. Translates the provided document into the specified target language"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.AI/iaimodeltext/translate/
+url: /nodejs-net/aspose.words.ai/iaimodeltext/translate/
 ---
 
 ## translate(sourceDocument, targetLanguage) {#document_language}
@@ -16,17 +16,17 @@ This operation leverages the connected AI model for content translating.
 
 
 ```js
-translate(sourceDocument: Aspose.Words.DocumenttargetLanguage: Aspose.Words.AI.Language)
+translate(sourceDocument: Aspose.Words.Document, targetLanguage: Aspose.Words.AI.Language)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDocument | [Document](../../../Aspose.Words/document/) | The document to be translated. |
+| sourceDocument | [Document](../../../aspose.words/document/) | The document to be translated. |
 | targetLanguage | [Language](../../language/) | The language into which the document will be translated. |
 
 ### Returns
 
-A new [Document](../../../Aspose.Words/document/) object containing the translated document.
+A new [Document](../../../aspose.words/document/) object containing the translated document.
 
 
 ### See Also

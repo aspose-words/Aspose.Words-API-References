@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PdfSaveOptions.cacheBackgroundGraphics property. Gets or sets a value determining whether or not to cache graphics placed in document's background."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/cacheBackgroundGraphics/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/cacheBackgroundGraphics/
 ---
 
 ## PdfSaveOptions.cacheBackgroundGraphics property
@@ -20,9 +20,9 @@ get cacheBackgroundGraphics(): boolean
 
 ### Remarks
 
-Default value is ``True`` and background graphics are written to the PDF document as an xObject.
+Default value is ``true`` and background graphics are written to the PDF document as an xObject.
 
-When the value is ``False`` background graphics are not cached.
+When the value is ``false`` background graphics are not cached.
 
 Some shapes are not supported for caching(shapes with fields, bookmarks, HRefs).
 

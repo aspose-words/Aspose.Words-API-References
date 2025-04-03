@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.footerDistance property. Returns or sets the distance (in points) between the footer and the bottom of the page."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/pagesetup/footerDistance/
+url: /nodejs-net/aspose.words/pagesetup/footerDistance/
 ---
 
 ## PageSetup.footerDistance property

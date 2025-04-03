@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldFormat.generalFormats property. Gets a collection of general formats that are applied to a numeric, text or any field result"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldformat/generalFormats/
+url: /nodejs-net/aspose.words.fields/fieldformat/generalFormats/
 ---
 
 ## FieldFormat.generalFormats property

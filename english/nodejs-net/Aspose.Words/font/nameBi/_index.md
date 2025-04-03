@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Font.nameBi property. Returns or sets the name of the font in a right-to-left language document."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words/font/nameBi/
+url: /nodejs-net/aspose.words/font/nameBi/
 ---
 
 ## Font.nameBi property

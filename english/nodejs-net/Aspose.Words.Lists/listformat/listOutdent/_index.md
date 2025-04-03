@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListFormat.listOutdent method. Decreases the list level of the current paragraph by one level."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Lists/listformat/listOutdent/
+url: /nodejs-net/aspose.words.lists/listformat/listOutdent/
 ---
 
 ## listOutdent() {#default}

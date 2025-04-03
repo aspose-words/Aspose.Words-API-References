@@ -3,15 +3,15 @@ title: FieldEnd.hasSeparator property
 linktitle: hasSeparator property
 articleTitle: hasSeparator property
 second_title: Aspose.Words for NodeJs
-description: "FieldEnd.hasSeparator property. Returns ``True`` if this field has a separator."
+description: "FieldEnd.hasSeparator property. Returns ``true`` if this field has a separator."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldend/hasSeparator/
+url: /nodejs-net/aspose.words.fields/fieldend/hasSeparator/
 ---
 
 ## FieldEnd.hasSeparator property
 
-Returns ``True`` if this field has a separator.
+Returns ``true`` if this field has a separator.
 
 
 

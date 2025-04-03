@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Bookmark.name property. Gets or sets the name of the bookmark."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/bookmark/name/
+url: /nodejs-net/aspose.words/bookmark/name/
 ---
 
 ## Bookmark.name property

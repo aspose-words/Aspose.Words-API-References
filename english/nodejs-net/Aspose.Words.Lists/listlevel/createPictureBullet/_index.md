@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ListLevel.createPictureBullet method. Creates picture bullet shape for the current list level."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Lists/listlevel/createPictureBullet/
+url: /nodejs-net/aspose.words.lists/listlevel/createPictureBullet/
 ---
 
 ## createPictureBullet() {#default}
@@ -20,7 +20,7 @@ createPictureBullet()
 
 ### Remarks
 
-Please note, [ListLevel.numberStyle](../numberStyle/) will be set to [NumberStyle.Bullet](../../../Aspose.Words/numberstyle/#Bullet) and
+Please note, [ListLevel.numberStyle](../numberStyle/) will be set to [NumberStyle.Bullet](../../../aspose.words/numberstyle/#Bullet) and
 [ListLevel.numberFormat](../numberFormat/) to "\\xF0B7" to properly display picture bullet.
 Red cross image will be set as picture bullet image upon creating.
 To change it please use [ListLevel.imageData](../imageData/).

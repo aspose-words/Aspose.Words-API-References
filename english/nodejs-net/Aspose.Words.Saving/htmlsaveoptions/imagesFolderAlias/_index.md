@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "HtmlSaveOptions.imagesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an HTML document"
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/imagesFolderAlias/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/imagesFolderAlias/
 ---
 
 ## HtmlSaveOptions.imagesFolderAlias property
@@ -21,7 +21,7 @@ get imagesFolderAlias(): string
 
 ### Remarks
 
-When you save a [Document](../../../Aspose.Words/document/) in HTML format, Aspose.Words needs to save all 
+When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all 
 images embedded in the document as standalone files. [HtmlSaveOptions.imagesFolder](../imagesFolder/) 
 allows you to specify where the images will be saved and [HtmlSaveOptions.imagesFolderAlias](./) 
 allows to specify how the image URIs will be constructed.

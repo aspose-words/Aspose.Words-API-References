@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSetup.sectionStart property. Returns or sets the type of section break for the specified object."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/pagesetup/sectionStart/
+url: /nodejs-net/aspose.words/pagesetup/sectionStart/
 ---
 
 ## PageSetup.sectionStart property

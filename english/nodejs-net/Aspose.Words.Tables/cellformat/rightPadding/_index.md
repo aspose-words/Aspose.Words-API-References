@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "CellFormat.rightPadding property. Returns or sets the amount of space (in points) to add to the right of the contents of cell."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Tables/cellformat/rightPadding/
+url: /nodejs-net/aspose.words.tables/cellformat/rightPadding/
 ---
 
 ## CellFormat.rightPadding property

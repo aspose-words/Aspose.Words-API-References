@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartLegendEntry.isHidden property. Gets or sets a value indicating whether this entry is hidden in the chart legend"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegendentry/isHidden/
+url: /nodejs-net/aspose.words.drawing.charts/chartlegendentry/isHidden/
 ---
 
 ## ChartLegendEntry.isHidden property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "PageSet.odd property. Gets a set with all the odd pages of the document in their original order."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/pageset/odd/
+url: /nodejs-net/aspose.words.saving/pageset/odd/
 ---
 
 ## PageSet.odd property

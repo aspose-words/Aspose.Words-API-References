@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Revision.revisionType property. Gets the type of this revision."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/revision/revisionType/
+url: /nodejs-net/aspose.words/revision/revisionType/
 ---
 
 ## Revision.revisionType property

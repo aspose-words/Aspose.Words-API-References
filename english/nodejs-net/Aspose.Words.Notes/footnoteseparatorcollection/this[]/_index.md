@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FootnoteSeparatorCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Notes/footnoteseparatorcollection/this[]/
+url: /nodejs-net/aspose.words.notes/footnoteseparatorcollection/this[]/
 ---
 
 ## FootnoteSeparatorCollection.this[] property

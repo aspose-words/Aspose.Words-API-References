@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Table.title property. Gets or sets title of this table"
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words/table/title/
+url: /nodejs-net/aspose.words/table/title/
 ---
 
 ## Table.title property
@@ -24,7 +24,7 @@ get title(): string
 The default value is an empty string.
 
 This property is meaningful for ISO/IEC 29500 compliant DOCX documents
-([OoxmlCompliance](../../../Aspose.Words.Saving/ooxmlcompliance/)).
+([OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)).
 When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
 

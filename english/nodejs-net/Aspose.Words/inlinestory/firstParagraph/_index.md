@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "InlineStory.firstParagraph property. Gets the first paragraph in the story."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/inlinestory/firstParagraph/
+url: /nodejs-net/aspose.words/inlinestory/firstParagraph/
 ---
 
 ## InlineStory.firstParagraph property

@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "FieldStyleRef.styleName property. Gets or sets the name of the style by which the text to search for is formatted."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldstyleref/styleName/
+url: /nodejs-net/aspose.words.fields/fieldstyleref/styleName/
 ---
 
 ## FieldStyleRef.styleName property

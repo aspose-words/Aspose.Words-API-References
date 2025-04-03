@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "TaskPaneCollection.this[] property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpanecollection/this[]/
+url: /nodejs-net/aspose.words.webextensions/taskpanecollection/this[]/
 ---
 
 ## TaskPaneCollection.this[] property

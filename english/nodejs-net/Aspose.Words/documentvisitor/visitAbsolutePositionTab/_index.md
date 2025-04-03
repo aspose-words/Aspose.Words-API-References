@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "DocumentVisitor.visitAbsolutePositionTab method. Called when a [AbsolutePositionTab](../../absolutepositiontab/) node is encountered in the document."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/documentvisitor/visitAbsolutePositionTab/
+url: /nodejs-net/aspose.words/documentvisitor/visitAbsolutePositionTab/
 ---
 
 ## visitAbsolutePositionTab(tab) {#absolutepositiontab}

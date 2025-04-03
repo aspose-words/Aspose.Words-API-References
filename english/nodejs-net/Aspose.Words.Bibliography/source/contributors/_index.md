@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Source.contributors property. Gets contributors list (author, editor, writer etc) of a source."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Bibliography/source/contributors/
+url: /nodejs-net/aspose.words.bibliography/source/contributors/
 ---
 
 ## Source.contributors property

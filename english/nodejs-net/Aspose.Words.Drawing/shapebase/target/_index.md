@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ShapeBase.target property. Gets or sets the target frame for the shape hyperlink."
 type: docs
 weight: 500
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/target/
+url: /nodejs-net/aspose.words.drawing/shapebase/target/
 ---
 
 ## ShapeBase.target property

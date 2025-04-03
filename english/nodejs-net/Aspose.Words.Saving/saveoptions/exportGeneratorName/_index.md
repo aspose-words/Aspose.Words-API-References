@@ -3,16 +3,16 @@ title: SaveOptions.exportGeneratorName property
 linktitle: exportGeneratorName property
 articleTitle: exportGeneratorName property
 second_title: Aspose.Words for NodeJs
-description: "SaveOptions.exportGeneratorName property. When ``True``, causes the name and version of Aspose.Words to be embedded into produced files"
+description: "SaveOptions.exportGeneratorName property. When ``true``, causes the name and version of Aspose.Words to be embedded into produced files"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/exportGeneratorName/
+url: /nodejs-net/aspose.words.saving/saveoptions/exportGeneratorName/
 ---
 
 ## SaveOptions.exportGeneratorName property
 
-When ``True``, causes the name and version of Aspose.Words to be embedded into produced files.
-Default value is ``True``.
+When ``true``, causes the name and version of Aspose.Words to be embedded into produced files.
+Default value is ``true``.
 
 
 

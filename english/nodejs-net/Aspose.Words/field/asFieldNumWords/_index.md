@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Field.asFieldNumWords method. "
 type: docs
 weight: 730
-url: /nodejs-net/Aspose.Words/field/asFieldNumWords/
+url: /nodejs-net/aspose.words/field/asFieldNumWords/
 ---
 
 ## asFieldNumWords() {#default}

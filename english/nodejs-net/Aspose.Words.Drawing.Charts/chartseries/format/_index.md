@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "ChartSeries.format property. Provides access to fill and line formatting of the series."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/format/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/format/
 ---
 
 ## ChartSeries.format property

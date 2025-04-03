@@ -6,7 +6,7 @@ second_title: Aspose.Words for NodeJs
 description: "Aspose.Words.Settings.CompatibilityOptions class. Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/
 ---
 
 ## CompatibilityOptions class
@@ -78,7 +78,7 @@ To learn more, visit the [Detect File Format and Check Format Compatibility](htt
 | [swapInsideAndOutsideForMirrorIndentsAndRelativePositioning](./swapInsideAndOutsideForMirrorIndentsAndRelativePositioning/) | Specifies to swap inside and outside for mirror indents and relative positioning. |
 | [transparentMetafiles](./transparentMetafiles/) | Specifies not to blank the area behind metafile pictures. |
 | [truncateFontHeightsLikeWP6](./truncateFontHeightsLikeWP6/) | Emulate WordPerfect 6.x Font Height Calculation. |
-| [uicompat97To2003](./uicompat97To2003/) | True to disable UI functionality which is not compatible with Word97-2003. Default value is ``False``. |
+| [uicompat97To2003](./uicompat97To2003/) | True to disable UI functionality which is not compatible with Word97-2003. Default value is ``false``. |
 | [ulTrailSpace](./ulTrailSpace/) | Underline All Trailing Spaces. |
 | [underlineTabInNumList](./underlineTabInNumList/) | Underline Following Character Following Numbering. |
 | [useAltKinsokuLineBreakRules](./useAltKinsokuLineBreakRules/) | Use Alternate Set of East Asian Line Breaking Rules. |
@@ -101,34 +101,6 @@ To learn more, visit the [Detect File Format and Check Format Compatibility](htt
 |[ optimizeFor(version)](./optimizeFor/#mswordversion) | Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word. |
 
 ### Examples
-
-Shows how to set an OOXML compliance specification for a saved document to adhere to.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// If we configure compatibility options to comply with Microsoft Word 2003,
-// inserting an image will define its shape using VML.
-doc.compatibilityOptions.optimizeFor(aw.Settings.MsWordVersion.Word2003);
-builder.insertImage(base.imageDir + "Transparent background logo.png");
-
-expect(doc.getShape(0, true).markupLanguage).toEqual(aw.Drawing.ShapeMarkupLanguage.Vml);
-
-// The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
-// If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
-// any document we save while passing this object will have to follow that standard. 
-let saveOptions = new aw.Saving.OoxmlSaveOptions();
-saveOptions.compliance = aw.Saving.OoxmlCompliance.Iso29500_2008_Strict;
-saveOptions.saveFormat = aw.SaveFormat.Docx;
-
-doc.save(base.artifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
-
-// Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
-doc = new aw.Document(base.artifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
-
-expect(doc.getShape(0, true).markupLanguage).toEqual(aw.Drawing.ShapeMarkupLanguage.Dml);
-```
 
 Shows how to optimize the document for different versions of Microsoft Word.
 
@@ -252,9 +224,37 @@ function addOptionName(option, optionName, enabledOptions, disabledOptions)
 }
 ```
 
+Shows how to set an OOXML compliance specification for a saved document to adhere to.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// If we configure compatibility options to comply with Microsoft Word 2003,
+// inserting an image will define its shape using VML.
+doc.compatibilityOptions.optimizeFor(aw.Settings.MsWordVersion.Word2003);
+builder.insertImage(base.imageDir + "Transparent background logo.png");
+
+expect(doc.getShape(0, true).markupLanguage).toEqual(aw.Drawing.ShapeMarkupLanguage.Vml);
+
+// The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
+// If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
+// any document we save while passing this object will have to follow that standard. 
+let saveOptions = new aw.Saving.OoxmlSaveOptions();
+saveOptions.compliance = aw.Saving.OoxmlCompliance.Iso29500_2008_Strict;
+saveOptions.saveFormat = aw.SaveFormat.Docx;
+
+doc.save(base.artifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
+
+// Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
+doc = new aw.Document(base.artifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
+
+expect(doc.getShape(0, true).markupLanguage).toEqual(aw.Drawing.ShapeMarkupLanguage.Dml);
+```
+
 ### See Also
 
 * module [Aspose.Words.Settings](../)
-* class [Document](../../Aspose.Words/document/)
-* property [Document.compatibilityOptions](../../Aspose.Words/document/compatibilityOptions/)
+* class [Document](../../aspose.words/document/)
+* property [Document.compatibilityOptions](../../aspose.words/document/compatibilityOptions/)
 
