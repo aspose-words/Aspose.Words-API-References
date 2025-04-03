@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getTable/
 ## getTable(index, isDeep) {#number_boolean}
 
 ```js
-getTable(index: numberisDeep: boolean)
+getTable(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

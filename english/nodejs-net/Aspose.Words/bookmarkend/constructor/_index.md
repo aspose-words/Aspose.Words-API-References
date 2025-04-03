@@ -16,7 +16,7 @@ Initializes a new instance of the [BookmarkEnd](../) class.
 
 
 ```js
-BookmarkEnd(doc: Aspose.Words.DocumentBasename: string)
+BookmarkEnd(doc: Aspose.Words.DocumentBase, name: string)
 ```
 
 | Parameter | Type | Description |

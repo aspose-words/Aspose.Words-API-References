@@ -15,7 +15,7 @@ Converts pages from document from input stream to array of images.
 
 
 ```js
-convertToImages(inputStream: BufferloadOptions: Aspose.Words.Loading.LoadOptionssaveOptions: Aspose.Words.Saving.SaveOptions)
+convertToImages(inputStream: Buffer, loadOptions: Aspose.Words.Loading.LoadOptions, saveOptions: Aspose.Words.Saving.SaveOptions)
 ```
 
 | Parameter | Type | Description |

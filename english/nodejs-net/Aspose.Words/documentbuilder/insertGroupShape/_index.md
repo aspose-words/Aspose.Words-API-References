@@ -37,7 +37,7 @@ Groups the shapes passed as a parameter into a new GroupShape node of the specif
 
 
 ```js
-insertGroupShape(left: numbertop: numberwidth: numberheight: numbershapes: Aspose.Words.Drawing.ShapeBase[])
+insertGroupShape(left: number, top: number, width: number, height: number, shapes: Aspose.Words.Drawing.ShapeBase[])
 ```
 
 | Parameter | Type | Description |

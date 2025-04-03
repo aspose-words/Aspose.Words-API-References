@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getSmartTag/
 ## getSmartTag(index, isDeep) {#number_boolean}
 
 ```js
-getSmartTag(index: numberisDeep: boolean)
+getSmartTag(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

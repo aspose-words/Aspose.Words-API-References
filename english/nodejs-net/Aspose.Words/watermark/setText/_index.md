@@ -42,7 +42,7 @@ Adds Text watermark into the document.
 
 
 ```js
-setText(text: stringoptions: Aspose.Words.TextWatermarkOptions)
+setText(text: string, options: Aspose.Words.TextWatermarkOptions)
 ```
 
 | Parameter | Type | Description |

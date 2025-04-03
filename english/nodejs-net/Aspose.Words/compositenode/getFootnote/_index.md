@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getFootnote/
 ## getFootnote(index, isDeep) {#number_boolean}
 
 ```js
-getFootnote(index: numberisDeep: boolean)
+getFootnote(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

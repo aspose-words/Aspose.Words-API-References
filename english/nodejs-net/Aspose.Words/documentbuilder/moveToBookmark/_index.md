@@ -51,7 +51,7 @@ Moves the cursor to a bookmark with greater precision.
 
 
 ```js
-moveToBookmark(bookmarkName: stringisStart: booleanisAfter: boolean)
+moveToBookmark(bookmarkName: string, isStart: boolean, isAfter: boolean)
 ```
 
 | Parameter | Type | Description |

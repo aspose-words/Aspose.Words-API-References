@@ -15,7 +15,7 @@ Called when Aspose.Words applies a date/time format switch, i.e. \\@ "dd.MM.yyyy
 
 
 ```js
-formatDateTime(value: Dateformat: stringcalendarType: Aspose.Words.CalendarType)
+formatDateTime(value: Date, format: string, calendarType: Aspose.Words.CalendarType)
 ```
 
 | Parameter | Type | Description |

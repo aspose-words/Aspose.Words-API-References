@@ -15,7 +15,7 @@ Deletes a row from a table.
 
 
 ```js
-deleteRow(tableIndex: numberrowIndex: number)
+deleteRow(tableIndex: number, rowIndex: number)
 ```
 
 | Parameter | Type | Description |

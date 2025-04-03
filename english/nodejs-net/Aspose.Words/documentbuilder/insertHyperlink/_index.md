@@ -15,7 +15,7 @@ Inserts a hyperlink into the document.
 
 
 ```js
-insertHyperlink(displayText: stringurlOrBookmark: stringisBookmark: boolean)
+insertHyperlink(displayText: string, urlOrBookmark: string, isBookmark: boolean)
 ```
 
 | Parameter | Type | Description |

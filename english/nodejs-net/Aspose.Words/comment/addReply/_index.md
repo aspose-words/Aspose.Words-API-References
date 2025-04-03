@@ -15,7 +15,7 @@ Adds a reply to this comment.
 
 
 ```js
-addReply(author: stringinitial: stringdateTime: Datetext: string)
+addReply(author: string, initial: string, dateTime: Date, text: string)
 ```
 
 | Parameter | Type | Description |

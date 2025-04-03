@@ -15,7 +15,7 @@ Sets the folders where Aspose.Words looks for TrueType fonts when rendering docu
 
 
 ```js
-setFontsFolders(fontsFolders: string[]recursive: boolean)
+setFontsFolders(fontsFolders: string[], recursive: boolean)
 ```
 
 | Parameter | Type | Description |

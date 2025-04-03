@@ -15,7 +15,7 @@ Sets the symbol used to represent the checked state of a check box content contr
 
 
 ```js
-setCheckedSymbol(characterCode: numberfontName: string)
+setCheckedSymbol(characterCode: number, fontName: string)
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Inserts an embedded OLE object from a stream into the document.
 
 
 ```js
-insertOleObject(stream: BufferprogId: stringasIcon: booleanpresentation: Buffer)
+insertOleObject(stream: Buffer, progId: string, asIcon: boolean, presentation: Buffer)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ Inserts an embedded or linked OLE object from a file into the document. Detects 
 
 
 ```js
-insertOleObject(fileName: stringisLinked: booleanasIcon: booleanpresentation: Buffer)
+insertOleObject(fileName: string, isLinked: boolean, asIcon: boolean, presentation: Buffer)
 ```
 
 | Parameter | Type | Description |
@@ -57,7 +57,7 @@ Inserts an embedded or linked OLE object from a file into the document. Detects 
 
 
 ```js
-insertOleObject(fileName: stringprogId: stringisLinked: booleanasIcon: booleanpresentation: Buffer)
+insertOleObject(fileName: string, progId: string, isLinked: boolean, asIcon: boolean, presentation: Buffer)
 ```
 
 | Parameter | Type | Description |

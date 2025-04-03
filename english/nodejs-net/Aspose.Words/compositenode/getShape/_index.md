@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getShape/
 ## getShape(index, isDeep) {#number_boolean}
 
 ```js
-getShape(index: numberisDeep: boolean)
+getShape(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

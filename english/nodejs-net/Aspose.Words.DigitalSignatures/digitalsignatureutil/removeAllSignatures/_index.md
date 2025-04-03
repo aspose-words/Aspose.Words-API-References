@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/removeAllSi
 ## removeAllSignatures(srcStream, dstStream) {#buffer_unknown}
 
 ```js
-removeAllSignatures(srcStream: BufferdstStream)
+removeAllSignatures(srcStream: Buffer, dstStream)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ The following formats are compatible for digital signature removal:
 
 
 ```js
-removeAllSignatures(srcFileName: stringdstFileName: string)
+removeAllSignatures(srcFileName: string, dstFileName: string)
 ```
 
 | Parameter | Type | Description |

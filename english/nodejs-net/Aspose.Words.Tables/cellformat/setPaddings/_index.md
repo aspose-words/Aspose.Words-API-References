@@ -15,7 +15,7 @@ Sets the amount of space (in points) to add to the left/top/right/bottom of the 
 
 
 ```js
-setPaddings(leftPadding: numbertopPadding: numberrightPadding: numberbottomPadding: number)
+setPaddings(leftPadding: number, topPadding: number, rightPadding: number, bottomPadding: number)
 ```
 
 | Parameter | Type | Description |

@@ -16,7 +16,7 @@ This operation leverages the connected AI model for content translating.
 
 
 ```js
-translate(sourceDocument: Aspose.Words.DocumenttargetLanguage: Aspose.Words.AI.Language)
+translate(sourceDocument: Aspose.Words.Document, targetLanguage: Aspose.Words.AI.Language)
 ```
 
 | Parameter | Type | Description |

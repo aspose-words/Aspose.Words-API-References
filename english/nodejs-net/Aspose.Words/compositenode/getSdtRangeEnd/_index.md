@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getSdtRangeEnd/
 ## getSdtRangeEnd(index, isDeep) {#number_boolean}
 
 ```js
-getSdtRangeEnd(index: numberisDeep: boolean)
+getSdtRangeEnd(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

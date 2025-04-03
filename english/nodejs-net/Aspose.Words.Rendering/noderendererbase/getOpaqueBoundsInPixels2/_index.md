@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words.rendering/noderendererbase/getOpaqueBoundsInPixels
 ## getOpaqueBoundsInPixels2(scale, dpi) {#number_number}
 
 ```js
-getOpaqueBoundsInPixels2(scale: numberdpi: number)
+getOpaqueBoundsInPixels2(scale: number, dpi: number)
 ```
 
 | Parameter | Type | Description |
@@ -23,7 +23,7 @@ getOpaqueBoundsInPixels2(scale: numberdpi: number)
 ## getOpaqueBoundsInPixels2(scale, horizontalDpi, verticalDpi) {#number_number_number}
 
 ```js
-getOpaqueBoundsInPixels2(scale: numberhorizontalDpi: numberverticalDpi: number)
+getOpaqueBoundsInPixels2(scale: number, horizontalDpi: number, verticalDpi: number)
 ```
 
 | Parameter | Type | Description |

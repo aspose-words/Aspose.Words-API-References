@@ -28,7 +28,7 @@ Sets the specified fill to a pattern.
 
 
 ```js
-patterned(patternType: Aspose.Words.Drawing.PatternTypeforeColor: stringbackColor: string)
+patterned(patternType: Aspose.Words.Drawing.PatternType, foreColor: string, backColor: string)
 ```
 
 | Parameter | Type | Description |

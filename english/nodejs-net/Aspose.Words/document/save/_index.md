@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/document/save/
 ## save(stream, saveFormat) {#unknown_saveformat}
 
 ```js
-save(streamsaveFormat: Aspose.Words.SaveFormat)
+save(stream, saveFormat: Aspose.Words.SaveFormat)
 ```
 
 | Parameter | Type | Description |
@@ -23,7 +23,7 @@ save(streamsaveFormat: Aspose.Words.SaveFormat)
 ## save(stream, saveOptions) {#unknown_saveoptions}
 
 ```js
-save(streamsaveOptions: Aspose.Words.Saving.SaveOptions)
+save(stream, saveOptions: Aspose.Words.Saving.SaveOptions)
 ```
 
 | Parameter | Type | Description |
@@ -55,7 +55,7 @@ Saves the document to a file in the specified format.
 
 
 ```js
-save(fileName: stringsaveFormat: Aspose.Words.SaveFormat)
+save(fileName: string, saveFormat: Aspose.Words.SaveFormat)
 ```
 
 | Parameter | Type | Description |
@@ -74,7 +74,7 @@ Saves the document to a file using the specified save options.
 
 
 ```js
-save(fileName: stringsaveOptions: Aspose.Words.Saving.SaveOptions)
+save(fileName: string, saveOptions: Aspose.Words.Saving.SaveOptions)
 ```
 
 | Parameter | Type | Description |
@@ -118,6 +118,27 @@ Shows how to convert from DOCX to HTML format.
 const doc = new aw.Document(base.myDir + "Document.docx");
 
 doc.save(base.artifactsDir + "Document.ConvertToHtml.html", aw.SaveFormat.Html);
+```
+
+Shows how to convert a PDF to a .docx and customize the saving process with a SaveOptions object.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.writeln("Hello world!");
+
+doc.save(base.artifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
+
+// Load the PDF document that we just saved, and convert it to .docx.
+let pdfDoc = new aw.Document(base.artifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
+
+let saveOptions = new aw.Saving.OoxmlSaveOptions(aw.SaveFormat.Docx);
+
+// Set the "Password" property to encrypt the saved document with a password.
+saveOptions.password = "MyPassword";
+
+pdfDoc.save(base.artifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
 ```
 
 Shows how to render one page from a document to a JPEG image.
@@ -195,27 +216,6 @@ doc.save(base.artifactsDir + "ImageSaveOptions.jpegQuality.HighCompression.jpg",
 // This will improve the quality of the image at the cost of an increased file size.
 imageOptions.jpegQuality = 100;
 doc.save(base.artifactsDir + "ImageSaveOptions.jpegQuality.HighQuality.jpg", imageOptions);
-```
-
-Shows how to convert a PDF to a .docx and customize the saving process with a SaveOptions object.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.writeln("Hello world!");
-
-doc.save(base.artifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
-
-// Load the PDF document that we just saved, and convert it to .docx.
-let pdfDoc = new aw.Document(base.artifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
-
-let saveOptions = new aw.Saving.OoxmlSaveOptions(aw.SaveFormat.Docx);
-
-// Set the "Password" property to encrypt the saved document with a password.
-saveOptions.password = "MyPassword";
-
-pdfDoc.save(base.artifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
 ```
 
 Shows how to convert a whole document to PDF with three levels in the document outline.

@@ -33,7 +33,7 @@ Converts points to pixels at the specified pixel resolution.
 
 
 ```js
-pointToPixel(points: numberresolution: number)
+pointToPixel(points: number, resolution: number)
 ```
 
 | Parameter | Type | Description |

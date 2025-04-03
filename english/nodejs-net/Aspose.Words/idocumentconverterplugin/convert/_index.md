@@ -15,7 +15,7 @@ Converts document using specified input output streams and save options.
 
 
 ```js
-convert(inputStream: BufferloadOptions: Aspose.Words.Loading.LoadOptionsoutputStream: BuffersaveOptions: Aspose.Words.Saving.SaveOptions)
+convert(inputStream: Buffer, loadOptions: Aspose.Words.Loading.LoadOptions, outputStream: Buffer, saveOptions: Aspose.Words.Saving.SaveOptions)
 ```
 
 | Parameter | Type | Description |

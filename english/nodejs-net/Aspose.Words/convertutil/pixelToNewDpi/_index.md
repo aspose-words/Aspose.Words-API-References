@@ -15,7 +15,7 @@ Converts pixels from one resolution to another.
 
 
 ```js
-pixelToNewDpi(pixels: numberoldDpi: numbernewDpi: number)
+pixelToNewDpi(pixels: number, oldDpi: number, newDpi: number)
 ```
 
 | Parameter | Type | Description |

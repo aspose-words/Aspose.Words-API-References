@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/jspointf/constructor/
 ## JSPointF(x, y) {#number_number}
 
 ```js
-JSPointF(x: numbery: number)
+JSPointF(x: number, y: number)
 ```
 
 | Parameter | Type | Description |

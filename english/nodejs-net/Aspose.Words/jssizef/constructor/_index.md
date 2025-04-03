@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/jssizef/constructor/
 ## JSSizeF(width, height) {#number_number}
 
 ```js
-JSSizeF(width: numberheight: number)
+JSSizeF(width: number, height: number)
 ```
 
 | Parameter | Type | Description |

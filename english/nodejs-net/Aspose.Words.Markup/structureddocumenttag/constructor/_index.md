@@ -16,7 +16,7 @@ Initializes a new instance of the **Structured document tag** class.
 
 
 ```js
-StructuredDocumentTag(doc: Aspose.Words.DocumentBasetype: Aspose.Words.Markup.SdtTypelevel: Aspose.Words.Markup.MarkupLevel)
+StructuredDocumentTag(doc: Aspose.Words.DocumentBase, type: Aspose.Words.Markup.SdtType, level: Aspose.Words.Markup.MarkupLevel)
 ```
 
 | Parameter | Type | Description |

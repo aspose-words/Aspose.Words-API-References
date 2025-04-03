@@ -15,7 +15,7 @@ Initializes an instance of this class.
 
 
 ```js
-PdfEncryptionDetails(userPassword: stringownerPassword: string)
+PdfEncryptionDetails(userPassword: string, ownerPassword: string)
 ```
 
 | Parameter | Type | Description |
@@ -29,7 +29,7 @@ Initializes an instance of this class.
 
 
 ```js
-PdfEncryptionDetails(userPassword: stringownerPassword: stringpermissions: Aspose.Words.Saving.PdfPermissions)
+PdfEncryptionDetails(userPassword: string, ownerPassword: string, permissions: Aspose.Words.Saving.PdfPermissions)
 ```
 
 | Parameter | Type | Description |

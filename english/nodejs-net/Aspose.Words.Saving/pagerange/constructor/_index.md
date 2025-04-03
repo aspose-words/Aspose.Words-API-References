@@ -15,7 +15,7 @@ Creates a new page range object.
 
 
 ```js
-PageRange(from: numberto: number)
+PageRange(from: number, to: number)
 ```
 
 | Parameter | Type | Description |

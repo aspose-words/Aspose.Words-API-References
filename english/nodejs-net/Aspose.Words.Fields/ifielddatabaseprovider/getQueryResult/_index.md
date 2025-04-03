@@ -15,7 +15,7 @@ Returns query result.
 
 
 ```js
-getQueryResult(fileName: stringconnection: stringquery: stringfield: Aspose.Words.Fields.FieldDatabase)
+getQueryResult(fileName: string, connection: string, query: string, field: Aspose.Words.Fields.FieldDatabase)
 ```
 
 | Parameter | Type | Description |

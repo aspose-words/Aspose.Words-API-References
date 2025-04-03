@@ -15,7 +15,7 @@ Called when Aspose.Words applies a capitalization format switch, i.e. \\\* Upper
 
 
 ```js
-format(value: stringformat: Aspose.Words.Fields.GeneralFormat)
+format(value: string, format: Aspose.Words.Fields.GeneralFormat)
 ```
 
 | Parameter | Type | Description |
@@ -35,7 +35,7 @@ Called when Aspose.Words applies a number format switch, i.e. \\\* Ordinal.
 
 
 ```js
-format(value: numberformat: Aspose.Words.Fields.GeneralFormat)
+format(value: number, format: Aspose.Words.Fields.GeneralFormat)
 ```
 
 | Parameter | Type | Description |

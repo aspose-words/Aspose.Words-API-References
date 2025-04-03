@@ -15,7 +15,7 @@ Moves the cursor to a paragraph in the current section.
 
 
 ```js
-moveToParagraph(paragraphIndex: numbercharacterIndex: number)
+moveToParagraph(paragraphIndex: number, characterIndex: number)
 ```
 
 | Parameter | Type | Description |

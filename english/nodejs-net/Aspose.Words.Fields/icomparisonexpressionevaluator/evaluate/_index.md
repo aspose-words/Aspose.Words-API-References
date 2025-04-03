@@ -15,7 +15,7 @@ Evaluates comparison expression.
 
 
 ```js
-evaluate(field: Aspose.Words.Fields.Fieldexpression: Aspose.Words.Fields.ComparisonExpression)
+evaluate(field: Aspose.Words.Fields.Field, expression: Aspose.Words.Fields.ComparisonExpression)
 ```
 
 | Parameter | Type | Description |

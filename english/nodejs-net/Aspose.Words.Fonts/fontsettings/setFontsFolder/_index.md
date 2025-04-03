@@ -17,7 +17,7 @@ This is a shortcut to [FontSettings.setFontsFolders()](../setFontsFolders/#strin
 
 
 ```js
-setFontsFolder(fontFolder: stringrecursive: boolean)
+setFontsFolder(fontFolder: string, recursive: boolean)
 ```
 
 | Parameter | Type | Description |

@@ -17,7 +17,7 @@ Imports a node from one document into another.
 
 
 ```js
-importNode(srcNode: Aspose.Words.NodeisImportChildren: boolean)
+importNode(srcNode: Aspose.Words.Node, isImportChildren: boolean)
 ```
 
 | Parameter | Type | Description |

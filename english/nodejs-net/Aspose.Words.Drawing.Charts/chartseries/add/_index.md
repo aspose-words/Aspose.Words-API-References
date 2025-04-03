@@ -29,7 +29,7 @@ Adds the specified X and Y values to the chart series.
 
 
 ```js
-add(xValue: Aspose.Words.Drawing.Charts.ChartXValueyValue: Aspose.Words.Drawing.Charts.ChartYValue)
+add(xValue: Aspose.Words.Drawing.Charts.ChartXValue, yValue: Aspose.Words.Drawing.Charts.ChartYValue)
 ```
 
 | Parameter | Type | Description |
@@ -43,7 +43,7 @@ Adds the specified X value, Y value and bubble size to the chart series.
 
 
 ```js
-add(xValue: Aspose.Words.Drawing.Charts.ChartXValueyValue: Aspose.Words.Drawing.Charts.ChartYValuebubbleSize: number)
+add(xValue: Aspose.Words.Drawing.Charts.ChartXValue, yValue: Aspose.Words.Drawing.Charts.ChartYValue, bubbleSize: number)
 ```
 
 | Parameter | Type | Description |

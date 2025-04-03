@@ -15,7 +15,7 @@ Sets the specified table border to the specified line style, width and color.
 
 
 ```js
-setBorder(borderType: Aspose.Words.BorderTypelineStyle: Aspose.Words.LineStylelineWidth: numbercolor: stringisOverrideCellBorders: boolean)
+setBorder(borderType: Aspose.Words.BorderType, lineStyle: Aspose.Words.LineStyle, lineWidth: number, color: string, isOverrideCellBorders: boolean)
 ```
 
 | Parameter | Type | Description |

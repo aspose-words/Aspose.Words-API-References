@@ -15,7 +15,7 @@ Replaces all occurrences of a character pattern specified by a regular expressio
 
 
 ```js
-replaceRegex(pattern: stringreplacement: string)
+replaceRegex(pattern: string, replacement: string)
 ```
 
 | Parameter | Type | Description |
@@ -55,7 +55,7 @@ Replaces all occurrences of a character pattern specified by a regular expressio
 
 
 ```js
-replaceRegex(pattern: stringreplacement: stringoptions: Aspose.Words.Replacing.FindReplaceOptions)
+replaceRegex(pattern: string, replacement: string, options: Aspose.Words.Replacing.FindReplaceOptions)
 ```
 
 | Parameter | Type | Description |

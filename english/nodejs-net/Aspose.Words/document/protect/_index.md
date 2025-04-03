@@ -44,7 +44,7 @@ Protects the document from changes and optionally sets a protection password.
 
 
 ```js
-protect(type: Aspose.Words.ProtectionTypepassword: string)
+protect(type: Aspose.Words.ProtectionType, password: string)
 ```
 
 | Parameter | Type | Description |

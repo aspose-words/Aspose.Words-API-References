@@ -15,7 +15,7 @@ Adds a bookmark to the collection.
 
 
 ```js
-add(name: stringoutlineLevel: number)
+add(name: string, outlineLevel: number)
 ```
 
 | Parameter | Type | Description |

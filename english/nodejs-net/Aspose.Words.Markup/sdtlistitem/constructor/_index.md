@@ -15,7 +15,7 @@ Initializes a new instance of this class.
 
 
 ```js
-SdtListItem(displayText: stringvalue: string)
+SdtListItem(displayText: string, value: string)
 ```
 
 | Parameter | Type | Description |

@@ -28,7 +28,7 @@ Ctor.
 
 
 ```js
-FileFontSource(filePath: stringpriority: number)
+FileFontSource(filePath: string, priority: number)
 ```
 
 | Parameter | Type | Description |
@@ -42,7 +42,7 @@ Ctor.
 
 
 ```js
-FileFontSource(filePath: stringpriority: numbercacheKey: string)
+FileFontSource(filePath: string, priority: number, cacheKey: string)
 ```
 
 | Parameter | Type | Description |

@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getSdt/
 ## getSdt(index, isDeep) {#number_boolean}
 
 ```js
-getSdt(index: numberisDeep: boolean)
+getSdt(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

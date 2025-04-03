@@ -16,7 +16,7 @@ Initializes a new instance of the [GradientStop](../) class.
 
 
 ```js
-GradientStop(color: stringposition: number)
+GradientStop(color: string, position: number)
 ```
 
 | Parameter | Type | Description |
@@ -31,7 +31,7 @@ Initializes a new instance of the [GradientStop](../) class.
 
 
 ```js
-GradientStop(color: stringposition: numbertransparency: number)
+GradientStop(color: string, position: number, transparency: number)
 ```
 
 | Parameter | Type | Description |

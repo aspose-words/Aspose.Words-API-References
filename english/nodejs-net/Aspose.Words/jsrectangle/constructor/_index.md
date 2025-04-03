@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/jsrectangle/constructor/
 ## JSRectangle(x, y, width, height) {#number_number_number_number}
 
 ```js
-JSRectangle(x: numbery: numberwidth: numberheight: number)
+JSRectangle(x: number, y: number, width: number, height: number)
 ```
 
 | Parameter | Type | Description |

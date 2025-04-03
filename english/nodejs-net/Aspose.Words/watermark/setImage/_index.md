@@ -22,7 +22,7 @@ setImage(image: Aspose.Words.JSImage)
 ## setImage(image, options) {#jsimage_imagewatermarkoptions}
 
 ```js
-setImage(image: Aspose.Words.JSImageoptions: Aspose.Words.ImageWatermarkOptions)
+setImage(image: Aspose.Words.JSImage, options: Aspose.Words.ImageWatermarkOptions)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ Adds Image watermark into the document.
 
 
 ```js
-setImage(imagePath: stringoptions: Aspose.Words.ImageWatermarkOptions)
+setImage(imagePath: string, options: Aspose.Words.ImageWatermarkOptions)
 ```
 
 | Parameter | Type | Description |

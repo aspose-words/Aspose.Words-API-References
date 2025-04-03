@@ -15,7 +15,7 @@ Returns an Nth child node that matches the specified type.
 
 
 ```js
-getChild(nodeType: Aspose.Words.NodeTypeindex: numberisDeep: boolean)
+getChild(nodeType: Aspose.Words.NodeType, index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

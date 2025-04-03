@@ -16,7 +16,7 @@ Inserts a [GradientStop](../../gradientstop/) to the collection at a specified i
 
 
 ```js
-insert(index: numbergradientStop: Aspose.Words.Drawing.GradientStop)
+insert(index: number, gradientStop: Aspose.Words.Drawing.GradientStop)
 ```
 
 | Parameter | Type | Description |

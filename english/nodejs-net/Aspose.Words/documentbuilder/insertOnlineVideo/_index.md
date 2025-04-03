@@ -15,7 +15,7 @@ Inserts an online video object into the document and scales it to the specified 
 
 
 ```js
-insertOnlineVideo(videoUrl: stringwidth: numberheight: number)
+insertOnlineVideo(videoUrl: string, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -54,7 +54,7 @@ Inserts an online video object into the document and scales it to the specified 
 
 
 ```js
-insertOnlineVideo(videoUrl: stringhorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertOnlineVideo(videoUrl: string, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
@@ -98,7 +98,7 @@ Inserts an online video object into the document and scales it to the specified 
 
 
 ```js
-insertOnlineVideo(videoUrl: stringvideoEmbedCode: stringthumbnailImageBytes: number[]width: numberheight: number)
+insertOnlineVideo(videoUrl: string, videoEmbedCode: string, thumbnailImageBytes: number[], width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -128,7 +128,7 @@ Inserts an online video object into the document and scales it to the specified 
 
 
 ```js
-insertOnlineVideo(videoUrl: stringvideoEmbedCode: stringthumbnailImageBytes: number[]horzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertOnlineVideo(videoUrl: string, videoEmbedCode: string, thumbnailImageBytes: number[], horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |

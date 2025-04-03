@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getRun/
 ## getRun(index, isDeep) {#number_boolean}
 
 ```js
-getRun(index: numberisDeep: boolean)
+getRun(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

@@ -16,7 +16,7 @@ Allows to specify icon file and caption. Detects OLE object type using file exte
 
 
 ```js
-insertOleObjectAsIcon(fileName: stringisLinked: booleaniconFile: stringiconCaption: string)
+insertOleObjectAsIcon(fileName: string, isLinked: boolean, iconFile: string, iconCaption: string)
 ```
 
 | Parameter | Type | Description |
@@ -38,7 +38,7 @@ Allows to specify icon file and caption. Detects OLE object type using given pro
 
 
 ```js
-insertOleObjectAsIcon(fileName: stringprogId: stringisLinked: booleaniconFile: stringiconCaption: string)
+insertOleObjectAsIcon(fileName: string, progId: string, isLinked: boolean, iconFile: string, iconCaption: string)
 ```
 
 | Parameter | Type | Description |
@@ -61,7 +61,7 @@ Allows to specify icon file and caption. Detects OLE object type using given pro
 
 
 ```js
-insertOleObjectAsIcon(stream: BufferprogId: stringiconFile: stringiconCaption: string)
+insertOleObjectAsIcon(stream: Buffer, progId: string, iconFile: string, iconCaption: string)
 ```
 
 | Parameter | Type | Description |

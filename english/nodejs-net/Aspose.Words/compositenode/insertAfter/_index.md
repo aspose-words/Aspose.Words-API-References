@@ -15,7 +15,7 @@ Inserts the specified node immediately after the specified reference node.
 
 
 ```js
-insertAfter(newChild: Aspose.Words.NoderefChild: Aspose.Words.Node)
+insertAfter(newChild: Aspose.Words.Node, refChild: Aspose.Words.Node)
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Creates web extension custom property with specified name and value.
 
 
 ```js
-WebExtensionProperty(name: stringvalue: string)
+WebExtensionProperty(name: string, value: string)
 ```
 
 | Parameter | Type | Description |

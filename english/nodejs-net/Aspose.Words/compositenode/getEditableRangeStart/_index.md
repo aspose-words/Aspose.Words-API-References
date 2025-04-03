@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getEditableRangeStart/
 ## getEditableRangeStart(index, isDeep) {#number_boolean}
 
 ```js
-getEditableRangeStart(index: numberisDeep: boolean)
+getEditableRangeStart(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

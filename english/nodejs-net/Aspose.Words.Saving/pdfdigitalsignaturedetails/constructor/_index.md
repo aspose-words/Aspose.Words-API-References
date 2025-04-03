@@ -24,7 +24,7 @@ Initializes an instance of this class.
 
 
 ```js
-PdfDigitalSignatureDetails(certificateHolder: Aspose.Words.DigitalSignatures.CertificateHolderreason: stringlocation: stringsignatureDate: Date)
+PdfDigitalSignatureDetails(certificateHolder: Aspose.Words.DigitalSignatures.CertificateHolder, reason: string, location: string, signatureDate: Date)
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Override substitute font names for given original font name.
 
 
 ```js
-setSubstitutes(originalFontName: stringsubstituteFontNames: string[])
+setSubstitutes(originalFontName: string, substituteFontNames: string[])
 ```
 
 | Parameter | Type | Description |

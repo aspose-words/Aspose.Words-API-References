@@ -15,7 +15,7 @@ Gets a specific embedded font file.
 
 
 ```js
-getEmbeddedFont(format: Aspose.Words.Fonts.EmbeddedFontFormatstyle: Aspose.Words.Fonts.EmbeddedFontStyle)
+getEmbeddedFont(format: Aspose.Words.Fonts.EmbeddedFontFormat, style: Aspose.Words.Fonts.EmbeddedFontStyle)
 ```
 
 | Parameter | Type | Description |

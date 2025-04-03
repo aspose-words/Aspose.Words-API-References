@@ -15,7 +15,7 @@ Inserts a combobox form field at the current position.
 
 
 ```js
-insertComboBox(name: stringitems: string[]selectedIndex: number)
+insertComboBox(name: string, items: string[], selectedIndex: number)
 ```
 
 | Parameter | Type | Description |

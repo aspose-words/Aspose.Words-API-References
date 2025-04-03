@@ -22,7 +22,7 @@ insertImage(image: Aspose.Words.JSImage)
 ## insertImage(image, width, height) {#jsimage_number_number}
 
 ```js
-insertImage(image: Aspose.Words.JSImagewidth: numberheight: number)
+insertImage(image: Aspose.Words.JSImage, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -34,7 +34,7 @@ insertImage(image: Aspose.Words.JSImagewidth: numberheight: number)
 ## insertImage(image, horzPos, left, vertPos, top, width, height, wrapType) {#jsimage_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype}
 
 ```js
-insertImage(image: Aspose.Words.JSImagehorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertImage(image: Aspose.Words.JSImage, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
@@ -135,7 +135,7 @@ Inserts an inline image from a file or URL into the document and scales it to th
 
 
 ```js
-insertImage(fileName: stringwidth: numberheight: number)
+insertImage(fileName: string, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -163,7 +163,7 @@ Inserts an inline image from a stream into the document and scales it to the spe
 
 
 ```js
-insertImage(stream: Bufferwidth: numberheight: number)
+insertImage(stream: Buffer, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -191,7 +191,7 @@ Inserts an inline image from a byte array into the document and scales it to the
 
 
 ```js
-insertImage(imageBytes: number[]width: numberheight: number)
+insertImage(imageBytes: number[], width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -219,7 +219,7 @@ Inserts an image from a file or URL at the specified position and size.
 
 
 ```js
-insertImage(fileName: stringhorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertImage(fileName: string, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
@@ -252,7 +252,7 @@ Inserts an image from a stream at the specified position and size.
 
 
 ```js
-insertImage(stream: BufferhorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertImage(stream: Buffer, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
@@ -285,7 +285,7 @@ Inserts an image from a byte array at the specified position and size.
 
 
 ```js
-insertImage(imageBytes: number[]horzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertImage(imageBytes: number[], horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |

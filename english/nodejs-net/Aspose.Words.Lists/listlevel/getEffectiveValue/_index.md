@@ -18,7 +18,7 @@ used when [NumberStyle.Custom](../../../aspose.words/numberstyle/#Custom) is spe
 
 
 ```js
-getEffectiveValue(index: numbernumberStyle: Aspose.Words.NumberStylecustomNumberStyleFormat: string)
+getEffectiveValue(index: number, numberStyle: Aspose.Words.NumberStyle, customNumberStyleFormat: string)
 ```
 
 | Parameter | Type | Description |

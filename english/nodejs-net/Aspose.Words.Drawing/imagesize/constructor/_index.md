@@ -15,7 +15,7 @@ Initializes width and height to the given values in pixels. Initializes resoluti
 
 
 ```js
-ImageSize(widthPixels: numberheightPixels: number)
+ImageSize(widthPixels: number, heightPixels: number)
 ```
 
 | Parameter | Type | Description |
@@ -29,7 +29,7 @@ Initializes width, height and resolution to the given values.
 
 
 ```js
-ImageSize(widthPixels: numberheightPixels: numberhorizontalResolution: numberverticalResolution: number)
+ImageSize(widthPixels: number, heightPixels: number, horizontalResolution: number, verticalResolution: number)
 ```
 
 | Parameter | Type | Description |

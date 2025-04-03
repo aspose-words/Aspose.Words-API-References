@@ -15,7 +15,7 @@ Initializes a new instance of this class.
 
 
 ```js
-CommentRangeEnd(doc: Aspose.Words.DocumentBaseid: number)
+CommentRangeEnd(doc: Aspose.Words.DocumentBase, id: number)
 ```
 
 | Parameter | Type | Description |

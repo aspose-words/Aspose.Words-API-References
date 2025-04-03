@@ -15,7 +15,7 @@ Initializes a new instance of this class that represents a three-level value.
 
 
 ```js
-ChartMultilevelValue(level1: stringlevel2: stringlevel3: string)
+ChartMultilevelValue(level1: string, level2: string, level3: string)
 ```
 
 | Parameter | Type | Description |
@@ -30,7 +30,7 @@ Initializes a new instance of this class that represents a two-level value.
 
 
 ```js
-ChartMultilevelValue(level1: stringlevel2: string)
+ChartMultilevelValue(level1: string, level2: string)
 ```
 
 | Parameter | Type | Description |

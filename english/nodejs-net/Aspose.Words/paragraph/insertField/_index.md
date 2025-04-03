@@ -15,7 +15,7 @@ Inserts a field into this paragraph.
 
 
 ```js
-insertField(fieldType: Aspose.Words.Fields.FieldTypeupdateField: booleanrefNode: Aspose.Words.NodeisAfter: boolean)
+insertField(fieldType: Aspose.Words.Fields.FieldType, updateField: boolean, refNode: Aspose.Words.Node, isAfter: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ Inserts a field into this paragraph.
 
 
 ```js
-insertField(fieldCode: stringrefNode: Aspose.Words.NodeisAfter: boolean)
+insertField(fieldCode: string, refNode: Aspose.Words.Node, isAfter: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -56,7 +56,7 @@ Inserts a field into this paragraph.
 
 
 ```js
-insertField(fieldCode: stringfieldValue: stringrefNode: Aspose.Words.NodeisAfter: boolean)
+insertField(fieldCode: string, fieldValue: string, refNode: Aspose.Words.Node, isAfter: boolean)
 ```
 
 | Parameter | Type | Description |

@@ -33,7 +33,7 @@ Inserts an HTML string into the document.
 
 
 ```js
-insertHtml(html: stringuseBuilderFormatting: boolean)
+insertHtml(html: string, useBuilderFormatting: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -64,7 +64,7 @@ Inserts an HTML string into the document. Allows to specify additional options.
 
 
 ```js
-insertHtml(html: stringoptions: Aspose.Words.HtmlInsertOptions)
+insertHtml(html: string, options: Aspose.Words.HtmlInsertOptions)
 ```
 
 | Parameter | Type | Description |
@@ -78,38 +78,6 @@ You can use this method to insert an HTML fragment or whole HTML document.
 
 
 ## Examples
-
-Shows how to use a document builder to insert html content into a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-const html = "<p align='right'>Paragraph right</p>" + 
-          "<b>Implicit paragraph left</b>" +
-          "<div align='center'>Div center</div>" + 
-          "<h1 align='left'>Heading 1 left.</h1>";
-
-builder.insertHtml(html);
-
-// Inserting HTML code parses the formatting of each element into equivalent document text formatting.
-let paragraphs = doc.firstSection.body.paragraphs;
-
-expect(paragraphs.at(0).getText().trim()).toEqual("Paragraph right");
-expect(paragraphs.at(0).paragraphFormat.alignment).toEqual(aw.ParagraphAlignment.Right);
-
-expect(paragraphs.at(1).getText().trim()).toEqual("Implicit paragraph left");
-expect(paragraphs.at(1).paragraphFormat.alignment).toEqual(aw.ParagraphAlignment.Left);
-expect(paragraphs.at(1).runs.at(0).font.bold).toEqual(true);
-
-expect(paragraphs.at(2).getText().trim()).toEqual("Div center");
-expect(paragraphs.at(2).paragraphFormat.alignment).toEqual(aw.ParagraphAlignment.Center);
-
-expect(paragraphs.at(3).getText().trim()).toEqual("Heading 1 left.");
-expect(paragraphs.at(3).paragraphFormat.style.name).toEqual("Heading 1");
-
-doc.save(base.artifactsDir + "DocumentBuilder.insertHtml.docx");
-```
 
 Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
 
@@ -172,6 +140,38 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
       // Do nothing.
   }
 }
+```
+
+Shows how to use a document builder to insert html content into a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+const html = "<p align='right'>Paragraph right</p>" + 
+          "<b>Implicit paragraph left</b>" +
+          "<div align='center'>Div center</div>" + 
+          "<h1 align='left'>Heading 1 left.</h1>";
+
+builder.insertHtml(html);
+
+// Inserting HTML code parses the formatting of each element into equivalent document text formatting.
+let paragraphs = doc.firstSection.body.paragraphs;
+
+expect(paragraphs.at(0).getText().trim()).toEqual("Paragraph right");
+expect(paragraphs.at(0).paragraphFormat.alignment).toEqual(aw.ParagraphAlignment.Right);
+
+expect(paragraphs.at(1).getText().trim()).toEqual("Implicit paragraph left");
+expect(paragraphs.at(1).paragraphFormat.alignment).toEqual(aw.ParagraphAlignment.Left);
+expect(paragraphs.at(1).runs.at(0).font.bold).toEqual(true);
+
+expect(paragraphs.at(2).getText().trim()).toEqual("Div center");
+expect(paragraphs.at(2).paragraphFormat.alignment).toEqual(aw.ParagraphAlignment.Center);
+
+expect(paragraphs.at(3).getText().trim()).toEqual("Heading 1 left.");
+expect(paragraphs.at(3).paragraphFormat.style.name).toEqual("Heading 1");
+
+doc.save(base.artifactsDir + "DocumentBuilder.insertHtml.docx");
 ```
 
 Shows how to apply a document builder's formatting while inserting HTML content.

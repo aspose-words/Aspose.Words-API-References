@@ -39,7 +39,7 @@ Creates a plain text document from a file. Allows to specify additional options 
 
 
 ```js
-PlainTextDocument(fileName: stringloadOptions: Aspose.Words.Loading.LoadOptions)
+PlainTextDocument(fileName: string, loadOptions: Aspose.Words.Loading.LoadOptions)
 ```
 
 | Parameter | Type | Description |
@@ -102,7 +102,7 @@ Creates a plain text document from a stream. Allows to specify additional option
 
 
 ```js
-PlainTextDocument(stream: BufferloadOptions: Aspose.Words.Loading.LoadOptions)
+PlainTextDocument(stream: Buffer, loadOptions: Aspose.Words.Loading.LoadOptions)
 ```
 
 | Parameter | Type | Description |

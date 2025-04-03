@@ -15,7 +15,7 @@ Sets a mapping between the parent structured document tag and an XML node of a c
 
 
 ```js
-setMapping(customXmlPart: Aspose.Words.Markup.CustomXmlPartxPath: stringprefixMapping: string)
+setMapping(customXmlPart: Aspose.Words.Markup.CustomXmlPart, xPath: string, prefixMapping: string)
 ```
 
 | Parameter | Type | Description |

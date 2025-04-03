@@ -15,7 +15,7 @@ Sets the symbol used to represent the unchecked state of a check box content con
 
 
 ```js
-setUncheckedSymbol(characterCode: numberfontName: string)
+setUncheckedSymbol(characterCode: number, fontName: string)
 ```
 
 | Parameter | Type | Description |

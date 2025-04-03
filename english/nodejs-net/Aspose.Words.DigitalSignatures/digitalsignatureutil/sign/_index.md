@@ -29,7 +29,7 @@ Supported formats are:
 
 
 ```js
-sign(srcStream: BufferdstStream: BuffercertHolder: Aspose.Words.DigitalSignatures.CertificateHoldersignOptions: Aspose.Words.DigitalSignatures.SignOptions)
+sign(srcStream: Buffer, dstStream: Buffer, certHolder: Aspose.Words.DigitalSignatures.CertificateHolder, signOptions: Aspose.Words.DigitalSignatures.SignOptions)
 ```
 
 | Parameter | Type | Description |
@@ -56,7 +56,7 @@ Supported formats are:
 
 
 ```js
-sign(srcFileName: stringdstFileName: stringcertHolder: Aspose.Words.DigitalSignatures.CertificateHoldersignOptions: Aspose.Words.DigitalSignatures.SignOptions)
+sign(srcFileName: string, dstFileName: string, certHolder: Aspose.Words.DigitalSignatures.CertificateHolder, signOptions: Aspose.Words.DigitalSignatures.SignOptions)
 ```
 
 | Parameter | Type | Description |
@@ -86,7 +86,7 @@ Supported formats are:
 
 
 ```js
-sign(srcStream: BufferdstStream: BuffercertHolder: Aspose.Words.DigitalSignatures.CertificateHolder)
+sign(srcStream: Buffer, dstStream: Buffer, certHolder: Aspose.Words.DigitalSignatures.CertificateHolder)
 ```
 
 | Parameter | Type | Description |
@@ -112,7 +112,7 @@ Supported formats are:
 
 
 ```js
-sign(srcFileName: stringdstFileName: stringcertHolder: Aspose.Words.DigitalSignatures.CertificateHolder)
+sign(srcFileName: string, dstFileName: string, certHolder: Aspose.Words.DigitalSignatures.CertificateHolder)
 ```
 
 | Parameter | Type | Description |

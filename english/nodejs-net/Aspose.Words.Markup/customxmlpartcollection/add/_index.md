@@ -28,7 +28,7 @@ Creates a new XML part with the specified XML and adds it to the collection.
 
 
 ```js
-add(id: stringxml: string)
+add(id: string, xml: string)
 ```
 
 | Parameter | Type | Description |

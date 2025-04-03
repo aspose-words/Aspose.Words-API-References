@@ -37,7 +37,7 @@ A shortcut to initialize a new instance of this class with properties set to the
 
 
 ```js
-HtmlLoadOptions(loadFormat: Aspose.Words.LoadFormatpassword: stringbaseUri: string)
+HtmlLoadOptions(loadFormat: Aspose.Words.LoadFormat, password: string, baseUri: string)
 ```
 
 | Parameter | Type | Description |

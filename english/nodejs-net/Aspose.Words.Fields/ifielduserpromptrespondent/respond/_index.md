@@ -18,7 +18,7 @@ Your implementation should return ``null`` to indicate that the user has not res
 
 
 ```js
-respond(promptText: stringdefaultResponse: string)
+respond(promptText: string, defaultResponse: string)
 ```
 
 | Parameter | Type | Description |

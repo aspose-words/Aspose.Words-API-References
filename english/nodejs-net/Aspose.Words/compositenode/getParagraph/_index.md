@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getParagraph/
 ## getParagraph(index, isDeep) {#number_boolean}
 
 ```js
-getParagraph(index: numberisDeep: boolean)
+getParagraph(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

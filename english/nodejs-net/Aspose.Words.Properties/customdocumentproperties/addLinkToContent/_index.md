@@ -15,7 +15,7 @@ Creates a new linked to content custom document property.
 
 
 ```js
-addLinkToContent(name: stringlinkSource: string)
+addLinkToContent(name: string, linkSource: string)
 ```
 
 | Parameter | Type | Description |

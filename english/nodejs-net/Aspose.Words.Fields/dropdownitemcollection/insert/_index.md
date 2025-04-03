@@ -15,7 +15,7 @@ Inserts a string into the collection at the specified index.
 
 
 ```js
-insert(index: numbervalue: string)
+insert(index: number, value: string)
 ```
 
 | Parameter | Type | Description |

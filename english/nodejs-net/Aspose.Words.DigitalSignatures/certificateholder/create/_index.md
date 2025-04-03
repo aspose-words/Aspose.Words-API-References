@@ -16,7 +16,7 @@ Creates [CertificateHolder](../) object using byte array of PKCS12 store and its
 
 
 ```js
-create(certBytes: number[]password)
+create(certBytes: number[], password)
 ```
 
 | Parameter | Type | Description |
@@ -46,7 +46,7 @@ Creates [CertificateHolder](../) object using byte array of PKCS12 store and its
 
 
 ```js
-create(certBytes: number[]password: string)
+create(certBytes: number[], password: string)
 ```
 
 | Parameter | Type | Description |
@@ -76,7 +76,7 @@ Creates [CertificateHolder](../) object using path to PKCS12 store and its passw
 
 
 ```js
-create(fileName: stringpassword: string)
+create(fileName: string, password: string)
 ```
 
 | Parameter | Type | Description |
@@ -106,7 +106,7 @@ Creates [CertificateHolder](../) object using path to PKCS12 store, its password
 
 
 ```js
-create(fileName: stringpassword: stringalias: string)
+create(fileName: string, password: string, alias: string)
 ```
 
 | Parameter | Type | Description |

@@ -24,7 +24,7 @@ Initializes an instance of this class.
 
 
 ```js
-PdfDigitalSignatureTimestampSettings(serverUrl: stringuserName: stringpassword: string)
+PdfDigitalSignatureTimestampSettings(serverUrl: string, userName: string, password: string)
 ```
 
 | Parameter | Type | Description |
@@ -39,7 +39,7 @@ Initializes an instance of this class.
 
 
 ```js
-PdfDigitalSignatureTimestampSettings(serverUrl: stringuserName: stringpassword: stringtimeout)
+PdfDigitalSignatureTimestampSettings(serverUrl: string, userName: string, password: string, timeout)
 ```
 
 | Parameter | Type | Description |

@@ -44,7 +44,7 @@ Initializes a new instance of the [Comment](../) class.
 
 
 ```js
-Comment(doc: Aspose.Words.DocumentBaseauthor: stringinitial: stringdateTime: Date)
+Comment(doc: Aspose.Words.DocumentBase, author: string, initial: string, dateTime: Date)
 ```
 
 | Parameter | Type | Description |

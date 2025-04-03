@@ -16,7 +16,7 @@ Initializes an instance of the [Footnote](../) class.
 
 
 ```js
-Footnote(doc: Aspose.Words.DocumentBasefootnoteType: Aspose.Words.Notes.FootnoteType)
+Footnote(doc: Aspose.Words.DocumentBase, footnoteType: Aspose.Words.Notes.FootnoteType)
 ```
 
 | Parameter | Type | Description |

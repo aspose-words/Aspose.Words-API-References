@@ -15,7 +15,7 @@ Called when Aspose.Words applies a numeric format switch, i.e. \\# "#.##".
 
 
 ```js
-formatNumeric(value: numberformat: string)
+formatNumeric(value: number, format: string)
 ```
 
 | Parameter | Type | Description |

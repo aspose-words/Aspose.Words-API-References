@@ -38,7 +38,7 @@ font search cache.
 
 
 ```js
-setFontsSources(sources: Aspose.Words.Fonts.FontSourceBase[]cacheInputStream: Buffer)
+setFontsSources(sources: Aspose.Words.Fonts.FontSourceBase[], cacheInputStream: Buffer)
 ```
 
 | Parameter | Type | Description |

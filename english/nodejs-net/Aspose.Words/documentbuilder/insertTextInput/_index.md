@@ -15,7 +15,7 @@ Inserts a text form field at the current position.
 
 
 ```js
-insertTextInput(name: stringtype: Aspose.Words.Fields.TextFormFieldTypeformat: stringfieldValue: stringmaxLength: number)
+insertTextInput(name: string, type: Aspose.Words.Fields.TextFormFieldType, format: string, fieldValue: string, maxLength: number)
 ```
 
 | Parameter | Type | Description |

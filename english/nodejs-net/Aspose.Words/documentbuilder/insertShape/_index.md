@@ -15,7 +15,7 @@ Inserts inline shape with specified type and size.
 
 
 ```js
-insertShape(shapeType: Aspose.Words.Drawing.ShapeTypewidth: numberheight: number)
+insertShape(shapeType: Aspose.Words.Drawing.ShapeType, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -35,7 +35,7 @@ Inserts free-floating shape with specified position, size and text wrap type.
 
 
 ```js
-insertShape(shapeType: Aspose.Words.Drawing.ShapeTypehorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertShape(shapeType: Aspose.Words.Drawing.ShapeType, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |

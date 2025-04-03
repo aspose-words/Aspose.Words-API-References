@@ -41,7 +41,7 @@ Initializes a new instance of the **Run** class.
 
 
 ```js
-Run(doc: Aspose.Words.DocumentBasetext: string)
+Run(doc: Aspose.Words.DocumentBase, text: string)
 ```
 
 | Parameter | Type | Description |

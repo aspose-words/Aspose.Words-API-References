@@ -16,7 +16,7 @@ Compares this document with another document producing changes as number of edit
 
 
 ```js
-compare(document: Aspose.Words.Documentauthor: stringdateTime: Date)
+compare(document: Aspose.Words.Document, author: string, dateTime: Date)
 ```
 
 | Parameter | Type | Description |
@@ -42,7 +42,7 @@ Allows to specify comparison options using [CompareOptions](../../../aspose.word
 
 
 ```js
-compare(document: Aspose.Words.Documentauthor: stringdateTime: Dateoptions: Aspose.Words.Comparing.CompareOptions)
+compare(document: Aspose.Words.Document, author: string, dateTime: Date, options: Aspose.Words.Comparing.CompareOptions)
 ```
 
 | Parameter | Type | Description |

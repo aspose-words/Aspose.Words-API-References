@@ -16,7 +16,7 @@ Initializes a new instance of [DigitalSignatureDetails](../) class.
 
 
 ```js
-DigitalSignatureDetails(certificateHolder: Aspose.Words.DigitalSignatures.CertificateHoldersignOptions: Aspose.Words.DigitalSignatures.SignOptions)
+DigitalSignatureDetails(certificateHolder: Aspose.Words.DigitalSignatures.CertificateHolder, signOptions: Aspose.Words.DigitalSignatures.SignOptions)
 ```
 
 | Parameter | Type | Description |

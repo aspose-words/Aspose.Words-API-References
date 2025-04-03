@@ -15,7 +15,7 @@ Inserts an chart object into the document and scales it to the specified size.
 
 
 ```js
-insertChart(chartType: Aspose.Words.Drawing.Charts.ChartTypewidth: numberheight: number)
+insertChart(chartType: Aspose.Words.Drawing.Charts.ChartType, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
@@ -43,7 +43,7 @@ Inserts an chart object into the document and scales it to the specified size.
 
 
 ```js
-insertChart(chartType: Aspose.Words.Drawing.Charts.ChartTypehorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertChart(chartType: Aspose.Words.Drawing.Charts.ChartType, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |

@@ -16,7 +16,7 @@ Initializes a new instance of the [BookmarkStart](../) class.
 
 
 ```js
-BookmarkStart(doc: Aspose.Words.DocumentBasename: string)
+BookmarkStart(doc: Aspose.Words.DocumentBase, name: string)
 ```
 
 | Parameter | Type | Description |

@@ -33,7 +33,7 @@ Adds a field's switch.
 
 
 ```js
-addSwitch(switchName: stringswitchArgument: string)
+addSwitch(switchName: string, switchArgument: string)
 ```
 
 | Parameter | Type | Description |
@@ -47,7 +47,7 @@ Adds a field's switch.
 
 
 ```js
-addSwitch(switchName: stringswitchArgument: number)
+addSwitch(switchName: string, switchArgument: number)
 ```
 
 | Parameter | Type | Description |
@@ -61,7 +61,7 @@ Adds a field's switch.
 
 
 ```js
-addSwitch(switchName: stringswitchArgument: number)
+addSwitch(switchName: string, switchArgument: number)
 ```
 
 | Parameter | Type | Description |

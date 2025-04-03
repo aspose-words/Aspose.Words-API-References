@@ -15,7 +15,7 @@ Moves the cursor to a structured document tag in the current section.
 
 
 ```js
-moveToStructuredDocumentTag(structuredDocumentTagIndex: numbercharacterIndex: number)
+moveToStructuredDocumentTag(structuredDocumentTagIndex: number, characterIndex: number)
 ```
 
 | Parameter | Type | Description |
@@ -42,7 +42,7 @@ Moves the cursor to the structured document tag.
 
 
 ```js
-moveToStructuredDocumentTag(structuredDocumentTag: Aspose.Words.Markup.StructuredDocumentTagcharacterIndex: number)
+moveToStructuredDocumentTag(structuredDocumentTag: Aspose.Words.Markup.StructuredDocumentTag, characterIndex: number)
 ```
 
 | Parameter | Type | Description |

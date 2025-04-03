@@ -15,7 +15,7 @@ Moves the cursor to a table cell in the current section.
 
 
 ```js
-moveToCell(tableIndex: numberrowIndex: numbercolumnIndex: numbercharacterIndex: number)
+moveToCell(tableIndex: number, rowIndex: number, columnIndex: number, characterIndex: number)
 ```
 
 | Parameter | Type | Description |

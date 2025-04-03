@@ -15,7 +15,7 @@ Appends a field to this paragraph.
 
 
 ```js
-appendField(fieldType: Aspose.Words.Fields.FieldTypeupdateField: boolean)
+appendField(fieldType: Aspose.Words.Fields.FieldType, updateField: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -52,7 +52,7 @@ Appends a field to this paragraph.
 
 
 ```js
-appendField(fieldCode: stringfieldValue: string)
+appendField(fieldCode: string, fieldValue: string)
 ```
 
 | Parameter | Type | Description |

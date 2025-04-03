@@ -16,7 +16,7 @@ Reads the data from the specified stream into the [Document](../../document/) in
 
 
 ```js
-read(src: BufferloadOptions: Aspose.Words.Loading.LoadOptionsdocument: Aspose.Words.Document)
+read(src: Buffer, loadOptions: Aspose.Words.Loading.LoadOptions, document: Aspose.Words.Document)
 ```
 
 | Parameter | Type | Description |

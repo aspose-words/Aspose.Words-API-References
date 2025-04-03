@@ -15,7 +15,7 @@ Creates a new shape object.
 
 
 ```js
-Shape(doc: Aspose.Words.DocumentBaseshapeType: Aspose.Words.Drawing.ShapeType)
+Shape(doc: Aspose.Words.DocumentBase, shapeType: Aspose.Words.Drawing.ShapeType)
 ```
 
 | Parameter | Type | Description |

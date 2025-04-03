@@ -34,7 +34,7 @@ Creates an image dimension instance with the given value and the given unit.
 
 
 ```js
-MergeFieldImageDimension(value: numberunit: Aspose.Words.Fields.MergeFieldImageDimensionUnit)
+MergeFieldImageDimension(value: number, unit: Aspose.Words.Fields.MergeFieldImageDimensionUnit)
 ```
 
 | Parameter | Type | Description |

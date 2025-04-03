@@ -15,7 +15,7 @@ Inserts a document inline at the cursor position.
 
 
 ```js
-insertDocumentInline(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatModeimportFormatOptions: Aspose.Words.ImportFormatOptions)
+insertDocumentInline(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode, importFormatOptions: Aspose.Words.ImportFormatOptions)
 ```
 
 | Parameter | Type | Description |

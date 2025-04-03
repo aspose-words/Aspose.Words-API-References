@@ -15,7 +15,7 @@ Inserts a checkbox form field at the current position.
 
 
 ```js
-insertCheckBox(name: stringcheckedValue: booleansize: number)
+insertCheckBox(name: string, checkedValue: boolean, size: number)
 ```
 
 | Parameter | Type | Description |
@@ -42,7 +42,7 @@ Inserts a checkbox form field at the current position.
 
 
 ```js
-insertCheckBox(name: stringdefaultValue: booleancheckedValue: booleansize: number)
+insertCheckBox(name: string, defaultValue: boolean, checkedValue: boolean, size: number)
 ```
 
 | Parameter | Type | Description |

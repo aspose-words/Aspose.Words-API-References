@@ -16,7 +16,7 @@ This operation leverages the connected AI model for checking grammar of document
 
 
 ```js
-checkGrammar(sourceDocument: Aspose.Words.Documentoptions: Aspose.Words.AI.CheckGrammarOptions)
+checkGrammar(sourceDocument: Aspose.Words.Document, options: Aspose.Words.AI.CheckGrammarOptions)
 ```
 
 | Parameter | Type | Description |

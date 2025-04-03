@@ -15,7 +15,7 @@ Sets shading to the specified values on whole table.
 
 
 ```js
-setShading(texture: Aspose.Words.TextureIndexforegroundColor: stringbackgroundColor: string)
+setShading(texture: Aspose.Words.TextureIndex, foregroundColor: string, backgroundColor: string)
 ```
 
 | Parameter | Type | Description |

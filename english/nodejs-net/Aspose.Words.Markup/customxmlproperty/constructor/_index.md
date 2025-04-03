@@ -15,7 +15,7 @@ Initializes a new instance of this class.
 
 
 ```js
-CustomXmlProperty(name: stringuri: stringvalue: string)
+CustomXmlProperty(name: string, uri: string, value: string)
 ```
 
 | Parameter | Type | Description |

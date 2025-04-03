@@ -16,7 +16,7 @@ Initializes a new instance of the **Structured document tag range end** class.
 
 
 ```js
-StructuredDocumentTagRangeEnd(doc: Aspose.Words.DocumentBaseid: number)
+StructuredDocumentTagRangeEnd(doc: Aspose.Words.DocumentBase, id: number)
 ```
 
 | Parameter | Type | Description |

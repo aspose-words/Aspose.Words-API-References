@@ -15,7 +15,7 @@ Inserts a node into the collection at the specified index.
 
 
 ```js
-insert(index: numbernode: Aspose.Words.Node)
+insert(index: number, node: Aspose.Words.Node)
 ```
 
 | Parameter | Type | Description |

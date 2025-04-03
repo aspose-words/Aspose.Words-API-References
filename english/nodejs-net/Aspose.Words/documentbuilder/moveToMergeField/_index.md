@@ -40,7 +40,7 @@ Moves the merge field to the specified merge field.
 
 
 ```js
-moveToMergeField(fieldName: stringisAfter: booleanisDeleteField: boolean)
+moveToMergeField(fieldName: string, isAfter: boolean, isDeleteField: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -55,33 +55,6 @@ moveToMergeField(fieldName: stringisAfter: booleanisDeleteField: boolean)
 
 
 ## Examples
-
-Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert some MERGEFIELDS, which accept data from columns of the same name in a data source during a mail merge,
-// and then fill them manually.
-builder.insertField(" MERGEFIELD Chairman ");
-builder.insertField(" MERGEFIELD ChiefFinancialOfficer ");
-builder.insertField(" MERGEFIELD ChiefTechnologyOfficer ");
-
-builder.moveToMergeField("Chairman");
-builder.bold = true;
-builder.writeln("John Doe");
-
-builder.moveToMergeField("ChiefFinancialOfficer");
-builder.italic = true;
-builder.writeln("Jane Doe");
-
-builder.moveToMergeField("ChiefTechnologyOfficer");
-builder.italic = true;
-builder.writeln("John Bloggs");
-
-doc.save(base.artifactsDir + "DocumentBuilder.FillMergeFields.docx");
-```
 
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 
@@ -162,6 +135,33 @@ private static DataTable GetStudentCourseDataTable()
 
   return dataTable;
 }
+```
+
+Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert some MERGEFIELDS, which accept data from columns of the same name in a data source during a mail merge,
+// and then fill them manually.
+builder.insertField(" MERGEFIELD Chairman ");
+builder.insertField(" MERGEFIELD ChiefFinancialOfficer ");
+builder.insertField(" MERGEFIELD ChiefTechnologyOfficer ");
+
+builder.moveToMergeField("Chairman");
+builder.bold = true;
+builder.writeln("John Doe");
+
+builder.moveToMergeField("ChiefFinancialOfficer");
+builder.italic = true;
+builder.writeln("Jane Doe");
+
+builder.moveToMergeField("ChiefTechnologyOfficer");
+builder.italic = true;
+builder.writeln("John Bloggs");
+
+doc.save(base.artifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
 Shows how to insert fields, and move the document builder's cursor to them.

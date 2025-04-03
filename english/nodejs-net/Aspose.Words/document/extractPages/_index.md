@@ -16,7 +16,7 @@ Returns the [Document](../) object representing specified range of pages.
 
 
 ```js
-extractPages(index: numbercount: number)
+extractPages(index: number, count: number)
 ```
 
 | Parameter | Type | Description |

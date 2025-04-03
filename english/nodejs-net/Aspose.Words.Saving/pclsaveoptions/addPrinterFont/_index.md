@@ -15,7 +15,7 @@ Adds information about font that is uploaded to the printer by manufacturer.
 
 
 ```js
-addPrinterFont(fontFullName: stringfontPclName: string)
+addPrinterFont(fontFullName: string, fontPclName: string)
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Creates a new header or footer of the specified type.
 
 
 ```js
-HeaderFooter(doc: Aspose.Words.DocumentBaseheaderFooterType: Aspose.Words.HeaderFooterType)
+HeaderFooter(doc: Aspose.Words.DocumentBase, headerFooterType: Aspose.Words.HeaderFooterType)
 ```
 
 | Parameter | Type | Description |

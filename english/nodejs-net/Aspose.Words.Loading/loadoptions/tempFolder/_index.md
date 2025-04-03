@@ -31,6 +31,21 @@ Aspose.Words automatically deletes all temporary files when reading is complete.
 
 ### Examples
 
+Shows how to load a document using temporary files.
+
+```js
+// Note that such an approach can reduce memory usage but degrades speed
+const loadOptions = new aw.Loading.LoadOptions();
+loadOptions.tempFolder = "C:\\Temp\\";
+
+// Ensure that the directory exists and load
+if (!fs.existsSync(loadOptions.tempFolder)){
+  fs.mkdirSync(loadOptions.tempFolder);
+}    
+
+const doc = new aw.Document(base.myDir + "Document.docx", loadOptions);
+```
+
 Shows how to use the hard drive instead of memory when loading a document.
 
 ```js
@@ -49,21 +64,6 @@ let doc = new aw.Document(base.myDir + "Document.docx", options);
 
 // The folder will persist with no residual contents from the load operation.
 expect(fs.readdirSync(options.tempFolder).length).toEqual(0);
-```
-
-Shows how to load a document using temporary files.
-
-```js
-// Note that such an approach can reduce memory usage but degrades speed
-const loadOptions = new aw.Loading.LoadOptions();
-loadOptions.tempFolder = "C:\\Temp\\";
-
-// Ensure that the directory exists and load
-if (!fs.existsSync(loadOptions.tempFolder)){
-  fs.mkdirSync(loadOptions.tempFolder);
-}    
-
-const doc = new aw.Document(base.myDir + "Document.docx", loadOptions);
 ```
 
 ### See Also

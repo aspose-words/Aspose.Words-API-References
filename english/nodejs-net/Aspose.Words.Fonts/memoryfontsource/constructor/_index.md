@@ -28,7 +28,7 @@ Ctor.
 
 
 ```js
-MemoryFontSource(fontData: number[]priority: number)
+MemoryFontSource(fontData: number[], priority: number)
 ```
 
 | Parameter | Type | Description |
@@ -42,7 +42,7 @@ Ctor.
 
 
 ```js
-MemoryFontSource(fontData: number[]priority: numbercacheKey: string)
+MemoryFontSource(fontData: number[], priority: number, cacheKey: string)
 ```
 
 | Parameter | Type | Description |

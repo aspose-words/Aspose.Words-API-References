@@ -15,7 +15,7 @@ Renders the shape into an image and saves into a file.
 
 
 ```js
-save(fileName: stringsaveOptions: Aspose.Words.Saving.ImageSaveOptions)
+save(fileName: string, saveOptions: Aspose.Words.Saving.ImageSaveOptions)
 ```
 
 | Parameter | Type | Description |
@@ -29,7 +29,7 @@ Renders the shape into an SVG image and saves into a file.
 
 
 ```js
-save(fileName: stringsaveOptions: Aspose.Words.Saving.SvgSaveOptions)
+save(fileName: string, saveOptions: Aspose.Words.Saving.SvgSaveOptions)
 ```
 
 | Parameter | Type | Description |
@@ -43,7 +43,7 @@ Renders the shape into an image and saves into a stream.
 
 
 ```js
-save(stream: BuffersaveOptions: Aspose.Words.Saving.ImageSaveOptions)
+save(stream: Buffer, saveOptions: Aspose.Words.Saving.ImageSaveOptions)
 ```
 
 | Parameter | Type | Description |
@@ -57,7 +57,7 @@ Renders the shape into an SVG image and saves into a stream.
 
 
 ```js
-save(stream: BuffersaveOptions: Aspose.Words.Saving.SvgSaveOptions)
+save(stream: Buffer, saveOptions: Aspose.Words.Saving.SvgSaveOptions)
 ```
 
 | Parameter | Type | Description |

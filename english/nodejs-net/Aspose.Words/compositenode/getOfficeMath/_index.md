@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getOfficeMath/
 ## getOfficeMath(index, isDeep) {#number_boolean}
 
 ```js
-getOfficeMath(index: numberisDeep: boolean)
+getOfficeMath(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

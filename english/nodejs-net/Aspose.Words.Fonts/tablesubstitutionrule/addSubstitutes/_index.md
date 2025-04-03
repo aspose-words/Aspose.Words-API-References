@@ -15,7 +15,7 @@ Adds substitute font names for given original font name.
 
 
 ```js
-addSubstitutes(originalFontName: stringsubstituteFontNames: string[])
+addSubstitutes(originalFontName: string, substituteFontNames: string[])
 ```
 
 | Parameter | Type | Description |

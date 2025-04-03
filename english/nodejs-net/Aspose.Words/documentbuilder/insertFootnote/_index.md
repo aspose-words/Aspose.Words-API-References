@@ -15,7 +15,7 @@ Inserts a footnote or endnote into the document.
 
 
 ```js
-insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteTypefootnoteText: string)
+insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteType, footnoteText: string)
 ```
 
 | Parameter | Type | Description |
@@ -34,7 +34,7 @@ Inserts a footnote or endnote into the document.
 
 
 ```js
-insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteTypefootnoteText: stringreferenceMark: string)
+insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteType, footnoteText: string, referenceMark: string)
 ```
 
 | Parameter | Type | Description |

@@ -28,7 +28,7 @@ Initializes a new instance of this class.
 
 
 ```js
-TabStop(position: numberalignment: Aspose.Words.TabAlignmentleader: Aspose.Words.TabLeader)
+TabStop(position: number, alignment: Aspose.Words.TabAlignment, leader: Aspose.Words.TabLeader)
 ```
 
 | Parameter | Type | Description |

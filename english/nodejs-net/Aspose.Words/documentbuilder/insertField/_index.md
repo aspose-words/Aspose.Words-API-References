@@ -15,7 +15,7 @@ Inserts a Word field into a document and optionally updates the field result.
 
 
 ```js
-insertField(fieldType: Aspose.Words.Fields.FieldTypeupdateField: boolean)
+insertField(fieldType: Aspose.Words.Fields.FieldType, updateField: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -70,7 +70,7 @@ Inserts a Word field into a document without updating the field result.
 
 
 ```js
-insertField(fieldCode: stringfieldValue: string)
+insertField(fieldCode: string, fieldValue: string)
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Sets the specified fill to a one-color gradient.
 
 
 ```js
-oneColorGradient(style: Aspose.Words.Drawing.GradientStylevariant: Aspose.Words.Drawing.GradientVariantdegree: number)
+oneColorGradient(style: Aspose.Words.Drawing.GradientStyle, variant: Aspose.Words.Drawing.GradientVariant, degree: number)
 ```
 
 | Parameter | Type | Description |
@@ -30,7 +30,7 @@ Sets the specified fill to a one-color gradient using the specified color.
 
 
 ```js
-oneColorGradient(color: stringstyle: Aspose.Words.Drawing.GradientStylevariant: Aspose.Words.Drawing.GradientVariantdegree: number)
+oneColorGradient(color: string, style: Aspose.Words.Drawing.GradientStyle, variant: Aspose.Words.Drawing.GradientVariant, degree: number)
 ```
 
 | Parameter | Type | Description |

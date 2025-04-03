@@ -15,7 +15,7 @@ Adds a document variable to the collection.
 
 
 ```js
-add(name: stringvalue: string)
+add(name: string, value: string)
 ```
 
 | Parameter | Type | Description |

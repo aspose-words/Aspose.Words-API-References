@@ -70,7 +70,7 @@ Initializes a new instance of this class.
 
 
 ```js
-DocumentBuilder(doc: Aspose.Words.Documentoptions: Aspose.Words.DocumentBuilderOptions)
+DocumentBuilder(doc: Aspose.Words.Document, options: Aspose.Words.DocumentBuilderOptions)
 ```
 
 | Parameter | Type | Description |

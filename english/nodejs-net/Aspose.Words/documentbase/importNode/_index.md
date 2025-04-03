@@ -17,7 +17,7 @@ Imports a node from another document to the current document.
 
 
 ```js
-importNode(srcNode: Aspose.Words.NodeisImportChildren: boolean)
+importNode(srcNode: Aspose.Words.Node, isImportChildren: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -57,7 +57,7 @@ Imports a node from another document to the current document with an option to c
 
 
 ```js
-importNode(srcNode: Aspose.Words.NodeisImportChildren: booleanimportFormatMode: Aspose.Words.ImportFormatMode)
+importNode(srcNode: Aspose.Words.Node, isImportChildren: boolean, importFormatMode: Aspose.Words.ImportFormatMode)
 ```
 
 | Parameter | Type | Description |

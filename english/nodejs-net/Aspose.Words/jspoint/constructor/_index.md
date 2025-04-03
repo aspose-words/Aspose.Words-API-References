@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/jspoint/constructor/
 ## JSPoint(x, y) {#number_number}
 
 ```js
-JSPoint(x: numbery: number)
+JSPoint(x: number, y: number)
 ```
 
 | Parameter | Type | Description |

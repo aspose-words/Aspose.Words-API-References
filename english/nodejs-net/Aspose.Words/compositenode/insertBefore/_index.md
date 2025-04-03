@@ -15,7 +15,7 @@ Inserts the specified node immediately before the specified reference node.
 
 
 ```js
-insertBefore(newChild: Aspose.Words.NoderefChild: Aspose.Words.Node)
+insertBefore(newChild: Aspose.Words.Node, refChild: Aspose.Words.Node)
 ```
 
 | Parameter | Type | Description |

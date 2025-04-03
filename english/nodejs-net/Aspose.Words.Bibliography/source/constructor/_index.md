@@ -16,7 +16,7 @@ Initialize a new instance of the [Source](../) class.
 
 
 ```js
-Source(tag: stringsourceType: Aspose.Words.Bibliography.SourceType)
+Source(tag: string, sourceType: Aspose.Words.Bibliography.SourceType)
 ```
 
 | Parameter | Type | Description |

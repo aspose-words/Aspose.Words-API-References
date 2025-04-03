@@ -17,7 +17,7 @@ Use this method to add series to any type of Bar, Column, Line and Surface chart
 
 
 ```js
-add(seriesName: stringcategories: string[]values: number[])
+add(seriesName: string, categories: string[], values: number[])
 ```
 
 | Parameter | Type | Description |
@@ -39,7 +39,7 @@ Use this method to add series to any type of Scatter charts.
 
 
 ```js
-add(seriesName: stringxValues: number[]yValues: number[])
+add(seriesName: string, xValues: number[], yValues: number[])
 ```
 
 | Parameter | Type | Description |
@@ -61,7 +61,7 @@ Use this method to add series to any type of Area, Radar and Stock charts.
 
 
 ```js
-add(seriesName: stringdates: Date[]values: number[])
+add(seriesName: string, dates: Date[], values: number[])
 ```
 
 | Parameter | Type | Description |
@@ -78,7 +78,7 @@ Use this method to add series to any type of Bubble charts.
 
 
 ```js
-add(seriesName: stringxValues: number[]yValues: number[]bubbleSizes: number[])
+add(seriesName: string, xValues: number[], yValues: number[], bubbleSizes: number[])
 ```
 
 | Parameter | Type | Description |
@@ -101,7 +101,7 @@ Use this method to add series that have multi-level data categories.
 
 
 ```js
-add(seriesName: stringcategories: Aspose.Words.Drawing.Charts.ChartMultilevelValue[]values: number[])
+add(seriesName: string, categories: Aspose.Words.Drawing.Charts.ChartMultilevelValue[], values: number[])
 ```
 
 | Parameter | Type | Description |
@@ -123,7 +123,7 @@ Use this method to add series to Histogram charts.
 
 
 ```js
-add(seriesName: stringxValues: number[])
+add(seriesName: string, xValues: number[])
 ```
 
 | Parameter | Type | Description |
@@ -149,7 +149,7 @@ Use this method to add series to Waterfall charts.
 
 
 ```js
-add(seriesName: stringcategories: string[]values: number[]isSubtotal: boolean[])
+add(seriesName: string, categories: string[], values: number[], isSubtotal: boolean[])
 ```
 
 | Parameter | Type | Description |

@@ -33,7 +33,7 @@ Inserts a signature line at the specified position.
 
 
 ```js
-insertSignatureLine(signatureLineOptions: Aspose.Words.SignatureLineOptionshorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertSignatureLine(signatureLineOptions: Aspose.Words.SignatureLineOptions, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Appends the specified document to the end of this document.
 
 
 ```js
-appendDocument(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatMode)
+appendDocument(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode)
 ```
 
 | Parameter | Type | Description |
@@ -29,7 +29,7 @@ Appends the specified document to the end of this document.
 
 
 ```js
-appendDocument(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatModeimportFormatOptions: Aspose.Words.ImportFormatOptions)
+appendDocument(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode, importFormatOptions: Aspose.Words.ImportFormatOptions)
 ```
 
 | Parameter | Type | Description |

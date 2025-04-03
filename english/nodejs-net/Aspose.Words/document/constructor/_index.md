@@ -63,7 +63,7 @@ Opens an existing document from a file. Allows to specify additional options suc
 
 
 ```js
-Document(fileName: stringloadOptions: Aspose.Words.Loading.LoadOptions)
+Document(fileName: string, loadOptions: Aspose.Words.Loading.LoadOptions)
 ```
 
 | Parameter | Type | Description |
@@ -121,7 +121,7 @@ Opens an existing document from a stream. Allows to specify additional options s
 
 
 ```js
-Document(stream: BufferloadOptions: Aspose.Words.Loading.LoadOptions)
+Document(stream: Buffer, loadOptions: Aspose.Words.Loading.LoadOptions)
 ```
 
 | Parameter | Type | Description |

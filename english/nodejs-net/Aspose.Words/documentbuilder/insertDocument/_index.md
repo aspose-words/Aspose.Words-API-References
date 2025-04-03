@@ -15,7 +15,7 @@ Inserts a document at the cursor position.
 
 
 ```js
-insertDocument(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatMode)
+insertDocument(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode)
 ```
 
 | Parameter | Type | Description |
@@ -41,7 +41,7 @@ Inserts a document at the cursor position.
 
 
 ```js
-insertDocument(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatModeimportFormatOptions: Aspose.Words.ImportFormatOptions)
+insertDocument(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode, importFormatOptions: Aspose.Words.ImportFormatOptions)
 ```
 
 | Parameter | Type | Description |

@@ -50,7 +50,7 @@ Initializes a new instance of the FindReplaceOptions class with the specified di
 
 
 ```js
-FindReplaceOptions(direction: Aspose.Words.Replacing.FindReplaceDirectionreplacingCallback: Aspose.Words.Replacing.IReplacingCallback)
+FindReplaceOptions(direction: Aspose.Words.Replacing.FindReplaceDirection, replacingCallback: Aspose.Words.Replacing.IReplacingCallback)
 ```
 
 | Parameter | Type | Description |

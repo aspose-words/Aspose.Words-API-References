@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getGroupShape/
 ## getGroupShape(index, isDeep) {#number_boolean}
 
 ```js
-getGroupShape(index: numberisDeep: boolean)
+getGroupShape(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

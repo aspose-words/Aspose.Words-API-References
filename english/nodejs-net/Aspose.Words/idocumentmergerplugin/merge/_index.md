@@ -15,7 +15,7 @@ Merges the given input PDF documents into a single output PDF document using spe
 
 
 ```js
-merge(outputStream: BufferinputStreams: Buffer[]loadOptions: Aspose.Words.Loading.LoadOptions[])
+merge(outputStream: Buffer, inputStreams: Buffer[], loadOptions: Aspose.Words.Loading.LoadOptions[])
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Returns a live collection of child nodes that match the specified types.
 
 
 ```js
-getChildNodes(nodeType: Aspose.Words.NodeTypeisDeep: boolean)
+getChildNodes(nodeType: Aspose.Words.NodeType, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

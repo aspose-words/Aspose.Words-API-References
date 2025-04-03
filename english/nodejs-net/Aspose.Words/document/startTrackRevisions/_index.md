@@ -15,7 +15,7 @@ Starts automatically marking all further changes you make to the document progra
 
 
 ```js
-startTrackRevisions(author: stringdateTime: Date)
+startTrackRevisions(author: string, dateTime: Date)
 ```
 
 | Parameter | Type | Description |

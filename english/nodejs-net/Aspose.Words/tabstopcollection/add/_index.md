@@ -35,7 +35,7 @@ Adds or replaces a tab stop in the collection.
 
 
 ```js
-add(position: numberalignment: Aspose.Words.TabAlignmentleader: Aspose.Words.TabLeader)
+add(position: number, alignment: Aspose.Words.TabAlignment, leader: Aspose.Words.TabLeader)
 ```
 
 | Parameter | Type | Description |

@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getComment/
 ## getComment(index, isDeep) {#number_boolean}
 
 ```js
-getComment(index: numberisDeep: boolean)
+getComment(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

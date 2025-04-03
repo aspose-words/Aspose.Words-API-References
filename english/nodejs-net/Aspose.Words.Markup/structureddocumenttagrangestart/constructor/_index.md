@@ -16,7 +16,7 @@ Initializes a new instance of the **Structured document tag range start** class.
 
 
 ```js
-StructuredDocumentTagRangeStart(doc: Aspose.Words.DocumentBasetype: Aspose.Words.Markup.SdtType)
+StructuredDocumentTagRangeStart(doc: Aspose.Words.DocumentBase, type: Aspose.Words.Markup.SdtType)
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Moves the cursor to a field in the document.
 
 
 ```js
-moveToField(field: Aspose.Words.Fields.FieldisAfter: boolean)
+moveToField(field: Aspose.Words.Fields.Field, isAfter: boolean)
 ```
 
 | Parameter | Type | Description |

@@ -16,7 +16,7 @@ This operation leverages the connected AI model for content processing.
 
 
 ```js
-summarize(sourceDocument: Aspose.Words.Documentoptions: Aspose.Words.AI.SummarizeOptions)
+summarize(sourceDocument: Aspose.Words.Document, options: Aspose.Words.AI.SummarizeOptions)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ This method utilizes the connected AI model for processing each document in the 
 
 
 ```js
-summarize(sourceDocuments: Aspose.Words.Document[]options: Aspose.Words.AI.SummarizeOptions)
+summarize(sourceDocuments: Aspose.Words.Document[], options: Aspose.Words.AI.SummarizeOptions)
 ```
 
 | Parameter | Type | Description |

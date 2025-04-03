@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words/compositenode/getSdtRangeStart/
 ## getSdtRangeStart(index, isDeep) {#number_boolean}
 
 ```js
-getSdtRangeStart(index: numberisDeep: boolean)
+getSdtRangeStart(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

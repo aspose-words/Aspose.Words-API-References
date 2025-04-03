@@ -15,7 +15,7 @@ Finds a building block using the specified gallery, category and name.
 
 
 ```js
-getBuildingBlock(gallery: Aspose.Words.BuildingBlocks.BuildingBlockGallerycategory: stringname: string)
+getBuildingBlock(gallery: Aspose.Words.BuildingBlocks.BuildingBlockGallery, category: string, name: string)
 ```
 
 | Parameter | Type | Description |

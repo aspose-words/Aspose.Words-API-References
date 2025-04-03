@@ -16,7 +16,7 @@ Initialize a new instance of the [Person](../) class.
 
 
 ```js
-Person(last: stringfirst: stringmiddle: string)
+Person(last: string, first: string, middle: string)
 ```
 
 | Parameter | Type | Description |

@@ -15,7 +15,7 @@ Creates web extension binding with specified parameters.
 
 
 ```js
-WebExtensionBinding(id: stringbindingType: Aspose.Words.WebExtensions.WebExtensionBindingTypeappRef: string)
+WebExtensionBinding(id: string, bindingType: Aspose.Words.WebExtensions.WebExtensionBindingType, appRef: string)
 ```
 
 | Parameter | Type | Description |

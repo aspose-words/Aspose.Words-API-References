@@ -37,7 +37,7 @@ header or footer in the previous section.
 
 
 ```js
-linkToPrevious(headerFooterType: Aspose.Words.HeaderFooterTypeisLinkToPrevious: boolean)
+linkToPrevious(headerFooterType: Aspose.Words.HeaderFooterType, isLinkToPrevious: boolean)
 ```
 
 | Parameter | Type | Description |

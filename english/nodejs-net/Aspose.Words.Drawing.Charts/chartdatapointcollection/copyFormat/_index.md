@@ -15,7 +15,7 @@ Copies format from the source data point to the destination data point.
 
 
 ```js
-copyFormat(sourceIndex: numberdestinationIndex: number)
+copyFormat(sourceIndex: number, destinationIndex: number)
 ```
 
 | Parameter | Type | Description |
