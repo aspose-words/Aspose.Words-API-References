@@ -26,7 +26,7 @@ The text of all child nodes is concatenated and the end of paragraph character i
 * If the paragraph is the last paragraph of [Body](../../body/), then
   Aspose.Words.ControlChar.SectionBreak (\\x000c) is appended.
   
-* If the paragraph is the last paragraph of [Cell](../../../Aspose.Words.Tables/cell/), then
+* If the paragraph is the last paragraph of [Cell](../../../aspose.words.tables/cell/), then
   Aspose.Words.ControlChar.Cell (\\x0007) is appended.
   
 * For all other paragraphs

@@ -3,7 +3,7 @@ title: RevisionOptions.insertCellColor property
 linktitle: insertCellColor property
 articleTitle: insertCellColor property
 second_title: Aspose.Words for NodeJs
-description: "RevisionOptions.insertCellColor property. Allows to specify the color to be used for inserted cells [RevisionType.Insertion](../../../Aspose.Words/revisiontype/#Insertion)"
+description: "RevisionOptions.insertCellColor property. Allows to specify the color to be used for inserted cells [RevisionType.Insertion](../../../aspose.words/revisiontype/#Insertion)"
 type: docs
 weight: 50
 url: /nodejs-net/Aspose.Words.Layout/revisionoptions/insertCellColor/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Layout/revisionoptions/insertCellColor/
 
 ## RevisionOptions.insertCellColor property
 
-Allows to specify the color to be used for inserted cells [RevisionType.Insertion](../../../Aspose.Words/revisiontype/#Insertion).
+Allows to specify the color to be used for inserted cells [RevisionType.Insertion](../../../aspose.words/revisiontype/#Insertion).
 Default value is [RevisionColor.Blue](../../revisioncolor/#Blue).
 
 

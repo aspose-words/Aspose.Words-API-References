@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing/chart/dataTable/
 ## Chart.dataTable property
 
 Provides access to properties of a data table of this chart.
-The data table can be shown using the [ChartDataTable.show](../../../Aspose.Words.Drawing.Charts/chartdatatable/show/) property.
+The data table can be shown using the [ChartDataTable.show](../../../aspose.words.drawing.charts/chartdatatable/show/) property.
 
 
 

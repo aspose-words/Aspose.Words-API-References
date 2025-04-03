@@ -3,7 +3,7 @@ title: MarkdownLoadOptions class
 linktitle: MarkdownLoadOptions class
 articleTitle: MarkdownLoadOptions class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Loading.MarkdownLoadOptions class. Allows to specify additional options when loading [LoadFormat.Markdown](../../Aspose.Words/loadformat/#Markdown) document into a [Document](../../Aspose.Words/document/) object."
+description: "Aspose.Words.Loading.MarkdownLoadOptions class. Allows to specify additional options when loading [LoadFormat.Markdown](../../aspose.words/loadformat/#Markdown) document into a [Document](../../aspose.words/document/) object."
 type: docs
 weight: 120
 url: /nodejs-net/Aspose.Words.Loading/markdownloadoptions/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Loading/markdownloadoptions/
 
 ## MarkdownLoadOptions class
 
-Allows to specify additional options when loading [LoadFormat.Markdown](../../Aspose.Words/loadformat/#Markdown) document into a [Document](../../Aspose.Words/document/) object.
+Allows to specify additional options when loading [LoadFormat.Markdown](../../aspose.words/loadformat/#Markdown) document into a [Document](../../aspose.words/document/) object.
 
 
 
@@ -34,10 +34,10 @@ Allows to specify additional options when loading [LoadFormat.Markdown](../../As
 | [ignoreOleData](../loadoptions/ignoreOleData/) | Specifies whether to ignore the OLE data.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [importUnderlineFormatting](./importUnderlineFormatting/) | Gets or sets a boolean value indicating either to recognize a sequence of two plus characters "++" as underline text formatting. The default value is ``False``. |
 | [languagePreferences](../loadoptions/languagePreferences/) | Gets language preferences that will be used when document is loading.<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [loadFormat](../loadoptions/loadFormat/) | Specifies the format of the document to be loaded. Default is [LoadFormat.Auto](../../Aspose.Words/loadformat/#Auto).<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [mswVersion](../loadoptions/mswVersion/) | Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.Word2019](../../Aspose.Words.Settings/mswordversion/#Word2019)<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [loadFormat](../loadoptions/loadFormat/) | Specifies the format of the document to be loaded. Default is [LoadFormat.Auto](../../aspose.words/loadformat/#Auto).<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [mswVersion](../loadoptions/mswVersion/) | Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.Word2019](../../aspose.words.settings/mswordversion/#Word2019)<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``None`` or empty string. Default is ``None``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [preserveEmptyLines](./preserveEmptyLines/) | Gets or sets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.Markdown](../../Aspose.Words/loadformat/#Markdown) document. The default value is ``False``. Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines. |
+| [preserveEmptyLines](./preserveEmptyLines/) | Gets or sets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.Markdown](../../aspose.words/loadformat/#Markdown) document. The default value is ``False``. Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines. |
 | [preserveIncludePictureField](../loadoptions/preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``False``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [progressCallback](../loadoptions/progressCallback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resourceLoadingCallback](../loadoptions/resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |

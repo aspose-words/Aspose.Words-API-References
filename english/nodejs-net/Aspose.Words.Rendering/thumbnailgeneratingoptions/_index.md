@@ -16,8 +16,8 @@ Can be used to specify additional options when generating thumbnail for a docume
 
 ### Remarks
 
-User can call method [Document.updateThumbnail()](../../Aspose.Words/document/updateThumbnail/#thumbnailgeneratingoptions) to generate 
-[BuiltInDocumentProperties.thumbnail](../../Aspose.Words.Properties/builtindocumentproperties/thumbnail/) for a document.
+User can call method [Document.updateThumbnail()](../../aspose.words/document/updateThumbnail/#thumbnailgeneratingoptions) to generate 
+[BuiltInDocumentProperties.thumbnail](../../aspose.words.properties/builtindocumentproperties/thumbnail/) for a document.
 
 
 

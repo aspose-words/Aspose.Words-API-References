@@ -3,7 +3,7 @@ title: HtmlSaveOptions.resolveFontNames property
 linktitle: resolveFontNames property
 articleTitle: resolveFontNames property
 second_title: Aspose.Words for NodeJs
-description: "HtmlSaveOptions.resolveFontNames property. Specifies whether font family names used in the document are resolved and substituted according to [Document.fontSettings](../../../Aspose.Words/document/fontSettings/) when being written into HTML-based formats."
+description: "HtmlSaveOptions.resolveFontNames property. Specifies whether font family names used in the document are resolved and substituted according to [Document.fontSettings](../../../aspose.words/document/fontSettings/) when being written into HTML-based formats."
 type: docs
 weight: 420
 url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/resolveFontNames/
@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/resolveFontNames/
 ## HtmlSaveOptions.resolveFontNames property
 
 Specifies whether font family names used in the document are resolved and substituted according to
-[Document.fontSettings](../../../Aspose.Words/document/fontSettings/) when being written into HTML-based formats.
+[Document.fontSettings](../../../aspose.words/document/fontSettings/) when being written into HTML-based formats.
 
 
 
@@ -23,10 +23,10 @@ get resolveFontNames(): boolean
 ### Remarks
 
 By default, this option is set to ``False`` and font family names are written to HTML as specified
-in source documents. That is, [Document.fontSettings](../../../Aspose.Words/document/fontSettings/) are ignored and no resolution or substitution
+in source documents. That is, [Document.fontSettings](../../../aspose.words/document/fontSettings/) are ignored and no resolution or substitution
 of font family names is performed.
 
-If this option is set to ``True``, Aspose.Words uses [Document.fontSettings](../../../Aspose.Words/document/fontSettings/) to resolve
+If this option is set to ``True``, Aspose.Words uses [Document.fontSettings](../../../aspose.words/document/fontSettings/) to resolve
 each font family name specified in a source document into the name of an available font family, performing
 font substitution as required.
 

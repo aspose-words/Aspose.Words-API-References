@@ -20,7 +20,7 @@ visitStructuredDocumentTagRangeEnd(sdtRangeEnd: Aspose.Words.Markup.StructuredDo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sdtRangeEnd | [StructuredDocumentTagRangeEnd](../../../Aspose.Words.Markup/structureddocumenttagrangeend/) |  |
+| sdtRangeEnd | [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/) |  |
 
 ### See Also
 

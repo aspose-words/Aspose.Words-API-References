@@ -20,7 +20,7 @@ remove(field: Aspose.Words.Fields.Field)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../../Aspose.Words/field/) | A field to remove. |
+| field | [Field](../../../aspose.words/field/) | A field to remove. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: OdtSaveOptions class
 linktitle: OdtSaveOptions class
 articleTitle: OdtSaveOptions class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Saving.OdtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) or [SaveFormat.Ott](../../Aspose.Words/saveformat/#Ott) format"
+description: "Aspose.Words.Saving.OdtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Odt](../../aspose.words/saveformat/#Odt) or [SaveFormat.Ott](../../aspose.words/saveformat/#Ott) format"
 type: docs
 weight: 510
 url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/
@@ -11,8 +11,8 @@ url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/
 
 ## OdtSaveOptions class
 
-Can be used to specify additional options when saving a document into the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) or
-[SaveFormat.Ott](../../Aspose.Words/saveformat/#Ott) format.
+Can be used to specify additional options when saving a document into the [SaveFormat.Odt](../../aspose.words/saveformat/#Odt) or
+[SaveFormat.Ott](../../aspose.words/saveformat/#Ott) format.
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/nodejs-net/specify-save-options/) documentation article.
 
 
@@ -31,9 +31,9 @@ other options added, such as an encryption password or digital signature setting
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [OdtSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) format. |
-| [OdtSaveOptions(password)](./constructor/#string) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) format encrypted with a password. |
-| [OdtSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) or [SaveFormat.Ott](../../Aspose.Words/saveformat/#Ott) format. |
+| [OdtSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../aspose.words/saveformat/#Odt) format. |
+| [OdtSaveOptions(password)](./constructor/#string) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../aspose.words/saveformat/#Odt) format encrypted with a password. |
+| [OdtSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../aspose.words/saveformat/#Odt) or [SaveFormat.Ott](../../aspose.words/saveformat/#Ott) format. |
 
 ### Properties
 
@@ -53,13 +53,13 @@ other options added, such as an encryption password or digital signature setting
 | [password](./password/) | Gets or sets a password to encrypt document. |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.Odt](../../Aspose.Words/saveformat/#Odt) or [SaveFormat.Ott](../../Aspose.Words/saveformat/#Ott). |
+| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.Odt](../../aspose.words/saveformat/#Odt) or [SaveFormat.Ott](../../aspose.words/saveformat/#Ott). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../Aspose.Words.Properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../Aspose.Words.Properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 

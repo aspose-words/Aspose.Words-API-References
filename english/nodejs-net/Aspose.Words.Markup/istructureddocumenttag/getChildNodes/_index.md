@@ -20,7 +20,7 @@ getChildNodes(nodeType: Aspose.Words.NodeTypeisDeep: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| nodeType | [NodeType](../../../Aspose.Words/nodetype/) |  |
+| nodeType | [NodeType](../../../aspose.words/nodetype/) |  |
 | isDeep | boolean |  |
 
 ### See Also

@@ -20,7 +20,7 @@ addCopy(srcList: Aspose.Words.Lists.List)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| srcList | [List](../../../Aspose.Words/list/) | The source list to copy from. |
+| srcList | [List](../../../aspose.words/list/) | The source list to copy from. |
 
 ### Remarks
 

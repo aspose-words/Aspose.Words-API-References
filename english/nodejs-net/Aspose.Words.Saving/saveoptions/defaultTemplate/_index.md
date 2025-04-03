@@ -22,8 +22,8 @@ get defaultTemplate(): string
 
 ### Remarks
 
-If specified, this path is used to load template when [Document.automaticallyUpdateStyles](../../../Aspose.Words/document/automaticallyUpdateStyles/) is ``True``,
-but [Document.attachedTemplate](../../../Aspose.Words/document/attachedTemplate/) is empty.
+If specified, this path is used to load template when [Document.automaticallyUpdateStyles](../../../aspose.words/document/automaticallyUpdateStyles/) is ``True``,
+but [Document.attachedTemplate](../../../aspose.words/document/attachedTemplate/) is empty.
 
 
 ### See Also

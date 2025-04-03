@@ -20,7 +20,7 @@ GroupShape(doc: Aspose.Words.DocumentBase)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 
 ### Remarks
 

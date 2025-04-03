@@ -20,7 +20,7 @@ Shape(doc: Aspose.Words.DocumentBaseshapeType: Aspose.Words.Drawing.ShapeType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 | shapeType | [ShapeType](../../shapetype/) | The type of the shape to create. |
 
 ### Remarks

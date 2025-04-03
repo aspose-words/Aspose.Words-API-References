@@ -3,7 +3,7 @@ title: OfficeMathRenderer class
 linktitle: OfficeMathRenderer class
 articleTitle: OfficeMathRenderer class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Rendering.OfficeMathRenderer class. Provides methods to render an individual [OfficeMath](../../Aspose.Words.Math/officemath/) to a raster or vector image or to a Graphics object"
+description: "Aspose.Words.Rendering.OfficeMathRenderer class. Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/) to a raster or vector image or to a Graphics object"
 type: docs
 weight: 20
 url: /nodejs-net/Aspose.Words.Rendering/officemathrenderer/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Rendering/officemathrenderer/
 
 ## OfficeMathRenderer class
 
-Provides methods to render an individual [OfficeMath](../../Aspose.Words.Math/officemath/)
+Provides methods to render an individual [OfficeMath](../../aspose.words.math/officemath/)
 to a raster or vector image or to a Graphics object.
 To learn more, visit the [Working with OfficeMath](https://docs.aspose.com/words/nodejs-net/working-with-officemath/) documentation article.
 

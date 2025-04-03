@@ -20,7 +20,7 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 ### Remarks
 
 You do not create instances of this class directly.
-Use the [DocumentBase.fontInfos](../../Aspose.Words/documentbase/fontInfos/) property to access the collection of fonts
+Use the [DocumentBase.fontInfos](../../aspose.words/documentbase/fontInfos/) property to access the collection of fonts
 defined in a document.
 
 
@@ -68,5 +68,5 @@ for (let i = 0; i < allFonts.count; i++) {
 
 * module [Aspose.Words.Fonts](../)
 * class [FontInfoCollection](../fontinfocollection/)
-* property [DocumentBase.fontInfos](../../Aspose.Words/documentbase/fontInfos/)
+* property [DocumentBase.fontInfos](../../aspose.words/documentbase/fontInfos/)
 

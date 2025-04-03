@@ -17,26 +17,26 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/nod
 
 
 
-**Inheritance:** [CellCollection](./) → [NodeCollection](../../Aspose.Words/nodecollection/)
+**Inheritance:** [CellCollection](./) → [NodeCollection](../../aspose.words/nodecollection/)
 
 ### Properties
 
 | Name | Description |
 | --- | --- |
-| [count](../../Aspose.Words/nodecollection/count/) | Gets the number of nodes in the collection.<br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
-| [this[]](../../Aspose.Words/nodecollection/this[]/) | <br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
+| [count](../../aspose.words/nodecollection/count/) | Gets the number of nodes in the collection.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+| [this[]](../../aspose.words/nodecollection/this[]/) | <br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
 
 ### Methods
 
 | Name | Description |
 | --- | --- |
-|[ add(node)](../../Aspose.Words/nodecollection/add/#node) | Adds a node to the end of the collection.<br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
-|[ clear()](../../Aspose.Words/nodecollection/clear/#default) | Removes all nodes from this collection and from the document.<br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
-|[ contains(node)](../../Aspose.Words/nodecollection/contains/#node) | Determines whether a node is in the collection.<br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
-|[ indexOf(node)](../../Aspose.Words/nodecollection/indexOf/#node) | Returns the zero-based index of the specified node.<br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
-|[ insert(index, node)](../../Aspose.Words/nodecollection/insert/#number_node) | Inserts a node into the collection at the specified index.<br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
-|[ remove(node)](../../Aspose.Words/nodecollection/remove/#node) | Removes the node from the collection and from the document.<br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
-|[ removeAt(index)](../../Aspose.Words/nodecollection/removeAt/#number) | Removes the node at the specified index from the collection and from the document.<br>(Inherited from [NodeCollection](../../Aspose.Words/nodecollection/)) |
+|[ add(node)](../../aspose.words/nodecollection/add/#node) | Adds a node to the end of the collection.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ clear()](../../aspose.words/nodecollection/clear/#default) | Removes all nodes from this collection and from the document.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ contains(node)](../../aspose.words/nodecollection/contains/#node) | Determines whether a node is in the collection.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ indexOf(node)](../../aspose.words/nodecollection/indexOf/#node) | Returns the zero-based index of the specified node.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ insert(index, node)](../../aspose.words/nodecollection/insert/#number_node) | Inserts a node into the collection at the specified index.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ remove(node)](../../aspose.words/nodecollection/remove/#node) | Removes the node from the collection and from the document.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
+|[ removeAt(index)](../../aspose.words/nodecollection/removeAt/#number) | Removes the node at the specified index from the collection and from the document.<br>(Inherited from [NodeCollection](../../aspose.words/nodecollection/)) |
 |[ toArray()](./toArray/#default) | Copies all cells from the collection to a new array of cells. |
 
 ### Examples
@@ -77,5 +77,5 @@ for (let i = 0; i < tables.count; i++)
 ### See Also
 
 * module [Aspose.Words.Tables](../)
-* class [NodeCollection](../../Aspose.Words/nodecollection/)
+* class [NodeCollection](../../aspose.words/nodecollection/)
 

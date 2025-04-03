@@ -22,7 +22,7 @@ get compliance(): Aspose.Words.Saving.OoxmlCompliance
 ### Remarks
 
 If you created a new blank document or load non OOXML document
-returns the [OoxmlCompliance.Ecma376_2006](../../../Aspose.Words.Saving/ooxmlcompliance/#Ecma376_2006) value.
+returns the [OoxmlCompliance.Ecma376_2006](../../../aspose.words.saving/ooxmlcompliance/#Ecma376_2006) value.
 
 
 

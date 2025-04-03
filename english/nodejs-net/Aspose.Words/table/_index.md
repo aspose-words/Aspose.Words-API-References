@@ -22,9 +22,9 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/nod
 [Table](./) is a block-level node and can be a child of classes derived from [Story](../story/) or
 [InlineStory](../inlinestory/).
 
-[Table](./) can contain one or more [Row](../../Aspose.Words.Tables/row/) nodes.
+[Table](./) can contain one or more [Row](../../aspose.words.tables/row/) nodes.
 
-A minimal valid table needs to have at least one [Row](../../Aspose.Words.Tables/row/).
+A minimal valid table needs to have at least one [Row](../../aspose.words.tables/row/).
 
 
 
@@ -58,12 +58,12 @@ A minimal valid table needs to have at least one [Row](../../Aspose.Words.Tables
 | [distanceTop](./distanceTop/) | Gets or sets distance between table top and the surrounding text, in points. |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [firstChild](../compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [firstRow](./firstRow/) | Returns the first [Row](../../Aspose.Words.Tables/row/) node in the table. |
+| [firstRow](./firstRow/) | Returns the first [Row](../../aspose.words.tables/row/) node in the table. |
 | [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [horizontalAnchor](./horizontalAnchor/) | Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.Column](../../Aspose.Words.Drawing/relativehorizontalposition/#Column). |
+| [horizontalAnchor](./horizontalAnchor/) | Gets the base object from which the horizontal positioning of floating table should be calculated. Default value is [RelativeHorizontalPosition.Column](../../aspose.words.drawing/relativehorizontalposition/#Column). |
 | [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [lastRow](./lastRow/) | Returns the last [Row](../../Aspose.Words.Tables/row/) node in the table. |
+| [lastRow](./lastRow/) | Returns the last [Row](../../aspose.words.tables/row/) node in the table. |
 | [leftIndent](./leftIndent/) | Gets or sets the value that represents the left indent of the table. |
 | [leftPadding](./leftPadding/) | Gets or sets the amount of space (in points) to add to the left of the contents of cells. |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
@@ -83,7 +83,7 @@ A minimal valid table needs to have at least one [Row](../../Aspose.Words.Tables
 | [textWrapping](./textWrapping/) | Gets or sets [Table.textWrapping](./textWrapping/) for table. |
 | [title](./title/) | Gets or sets title of this table. It provides an alternative text representation of the information contained in the table. |
 | [topPadding](./topPadding/) | Gets or sets the amount of space (in points) to add above the contents of cells. |
-| [verticalAnchor](./verticalAnchor/) | Gets the base object from which the vertical positioning of floating table should be calculated. Default value is [RelativeVerticalPosition.Margin](../../Aspose.Words.Drawing/relativeverticalposition/#Margin). |
+| [verticalAnchor](./verticalAnchor/) | Gets the base object from which the vertical positioning of floating table should be calculated. Default value is [RelativeVerticalPosition.Margin](../../aspose.words.drawing/relativeverticalposition/#Margin). |
 
 ### Methods
 
@@ -97,7 +97,7 @@ A minimal valid table needs to have at least one [Row](../../Aspose.Words.Tables
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkStart()](../node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/).<br>(Inherited from [Node](../node/)) |
 |[ asBuildingBlock()](../node/asBuildingBlock/#default) | Cast node to [BuildingBlock](../buildingblock/).<br>(Inherited from [Node](../node/)) |
-|[ asCell()](../node/asCell/#default) | Cast node to [Cell](../../Aspose.Words.Tables/cell/).<br>(Inherited from [Node](../node/)) |
+|[ asCell()](../node/asCell/#default) | Cast node to [Cell](../../aspose.words.tables/cell/).<br>(Inherited from [Node](../node/)) |
 |[ asComment()](../node/asComment/#default) | Cast node to [Comment](../comment/).<br>(Inherited from [Node](../node/)) |
 |[ asCommentRangeEnd()](../node/asCommentRangeEnd/#default) | Cast node to [CommentRangeEnd](../commentrangeend/).<br>(Inherited from [Node](../node/)) |
 |[ asCommentRangeStart()](../node/asCommentRangeStart/#default) | Cast node to [CommentRangeStart](../commentrangestart/).<br>(Inherited from [Node](../node/)) |
@@ -105,33 +105,33 @@ A minimal valid table needs to have at least one [Row](../../Aspose.Words.Tables
 |[ asDocument()](../node/asDocument/#default) | Cast node to [Node.document](../node/document/).<br>(Inherited from [Node](../node/)) |
 |[ asEditableRangeEnd()](../node/asEditableRangeEnd/#default) | Cast node to [EditableRangeEnd](../editablerangeend/).<br>(Inherited from [Node](../node/)) |
 |[ asEditableRangeStart()](../node/asEditableRangeStart/#default) | Cast node to [EditableRangeStart](../editablerangestart/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldEnd()](../node/asFieldEnd/#default) | Cast node to [FieldEnd](../../Aspose.Words.Fields/fieldend/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldSeparator()](../node/asFieldSeparator/#default) | Cast node to [FieldSeparator](../../Aspose.Words.Fields/fieldseparator/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldStart()](../node/asFieldStart/#default) | Cast node to [FieldStart](../../Aspose.Words.Fields/fieldstart/).<br>(Inherited from [Node](../node/)) |
-|[ asFootnote()](../node/asFootnote/#default) | Cast node to [Footnote](../../Aspose.Words.Notes/footnote/).<br>(Inherited from [Node](../node/)) |
-|[ asFormField()](../node/asFormField/#default) | Cast node to [FormField](../../Aspose.Words.Fields/formfield/).<br>(Inherited from [Node](../node/)) |
-|[ asGlossaryDocument()](../node/asGlossaryDocument/#default) | Cast node to [GlossaryDocument](../../Aspose.Words.BuildingBlocks/glossarydocument/).<br>(Inherited from [Node](../node/)) |
-|[ asGroupShape()](../node/asGroupShape/#default) | Cast node to [GroupShape](../../Aspose.Words.Drawing/groupshape/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldEnd()](../node/asFieldEnd/#default) | Cast node to [FieldEnd](../../aspose.words.fields/fieldend/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldSeparator()](../node/asFieldSeparator/#default) | Cast node to [FieldSeparator](../../aspose.words.fields/fieldseparator/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldStart()](../node/asFieldStart/#default) | Cast node to [FieldStart](../../aspose.words.fields/fieldstart/).<br>(Inherited from [Node](../node/)) |
+|[ asFootnote()](../node/asFootnote/#default) | Cast node to [Footnote](../../aspose.words.notes/footnote/).<br>(Inherited from [Node](../node/)) |
+|[ asFormField()](../node/asFormField/#default) | Cast node to [FormField](../../aspose.words.fields/formfield/).<br>(Inherited from [Node](../node/)) |
+|[ asGlossaryDocument()](../node/asGlossaryDocument/#default) | Cast node to [GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/).<br>(Inherited from [Node](../node/)) |
+|[ asGroupShape()](../node/asGroupShape/#default) | Cast node to [GroupShape](../../aspose.words.drawing/groupshape/).<br>(Inherited from [Node](../node/)) |
 |[ asHeaderFooter()](../node/asHeaderFooter/#default) | Cast node to [HeaderFooter](../headerfooter/).<br>(Inherited from [Node](../node/)) |
-|[ asOfficeMath()](../node/asOfficeMath/#default) | Cast node to [OfficeMath](../../Aspose.Words.Math/officemath/).<br>(Inherited from [Node](../node/)) |
+|[ asOfficeMath()](../node/asOfficeMath/#default) | Cast node to [OfficeMath](../../aspose.words.math/officemath/).<br>(Inherited from [Node](../node/)) |
 |[ asParagraph()](../node/asParagraph/#default) | Cast node to [Paragraph](../paragraph/).<br>(Inherited from [Node](../node/)) |
-|[ asRow()](../node/asRow/#default) | Cast node to [Row](../../Aspose.Words.Tables/row/).<br>(Inherited from [Node](../node/)) |
+|[ asRow()](../node/asRow/#default) | Cast node to [Row](../../aspose.words.tables/row/).<br>(Inherited from [Node](../node/)) |
 |[ asRun()](../node/asRun/#default) | Cast node to [Run](../run/).<br>(Inherited from [Node](../node/)) |
 |[ asSection()](../node/asSection/#default) | Cast node to [Section](../section/).<br>(Inherited from [Node](../node/)) |
-|[ asShape()](../node/asShape/#default) | Cast node to [Shape](../../Aspose.Words.Drawing/shape/).<br>(Inherited from [Node](../node/)) |
-|[ asSmartTag()](../node/asSmartTag/#default) | Cast node to [SmartTag](../../Aspose.Words.Markup/smarttag/).<br>(Inherited from [Node](../node/)) |
+|[ asShape()](../node/asShape/#default) | Cast node to [Shape](../../aspose.words.drawing/shape/).<br>(Inherited from [Node](../node/)) |
+|[ asSmartTag()](../node/asSmartTag/#default) | Cast node to [SmartTag](../../aspose.words.markup/smarttag/).<br>(Inherited from [Node](../node/)) |
 |[ asSpecialChar()](../node/asSpecialChar/#default) | Cast node to [SpecialChar](../specialchar/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTag()](../node/asStructuredDocumentTag/#default) | Cast node to [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTagRangeEnd()](../node/asStructuredDocumentTagRangeEnd/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../Aspose.Words.Markup/structureddocumenttagrangeend/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTagRangeStart()](../node/asStructuredDocumentTagRangeStart/#default) | Cast node to [StructuredDocumentTagRangeStart](../../Aspose.Words.Markup/structureddocumenttagrangestart/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTag()](../node/asStructuredDocumentTag/#default) | Cast node to [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTagRangeEnd()](../node/asStructuredDocumentTagRangeEnd/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTagRangeStart()](../node/asStructuredDocumentTagRangeStart/#default) | Cast node to [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/).<br>(Inherited from [Node](../node/)) |
 |[ asSubDocument()](../node/asSubDocument/#default) | Cast node to [SubDocument](../subdocument/).<br>(Inherited from [Node](../node/)) |
 |[ asTable()](../node/asTable/#default) | Cast node to [Table](./).<br>(Inherited from [Node](../node/)) |
 |[ autoFit(behavior)](./autoFit/#autofitbehavior) | Resizes the table and cells according to the specified auto fit behavior. |
 |[ clearBorders()](./clearBorders/#default) | Removes all table and cell borders on this table. |
 |[ clearShading()](./clearShading/#default) | Removes all shading on the table. |
 |[ clone(isCloneChildren)](../node/clone/#boolean) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
-|[ convertToHorizontallyMergedCells()](./convertToHorizontallyMergedCells/#default) | Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../Aspose.Words.Tables/cellformat/horizontalMerge/). |
-|[ ensureMinimum()](./ensureMinimum/#default) | If the table has no rows, creates and appends one [Row](../../Aspose.Words.Tables/row/). |
+|[ convertToHorizontallyMergedCells()](./convertToHorizontallyMergedCells/#default) | Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../aspose.words.tables/cellformat/horizontalMerge/). |
+|[ ensureMinimum()](./ensureMinimum/#default) | If the table has no rows, creates and appends one [Row](../../aspose.words.tables/row/). |
 |[ getAncestor(ancestorType)](../node/getAncestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
 |[ getBuildingBlock(index, isDeep)](../compositenode/getBuildingBlock/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ getChild(nodeType, index, isDeep)](../compositenode/getChild/#nodetype_number_boolean) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
@@ -161,7 +161,7 @@ A minimal valid table needs to have at least one [Row](../../Aspose.Words.Tables
 |[ remove()](../node/remove/#default) | Removes itself from the parent.<br>(Inherited from [Node](../node/)) |
 |[ removeAllChildren()](../compositenode/removeAllChildren/#default) | Removes all the child nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ removeChild(oldChild)](../compositenode/removeChild/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../Aspose.Words.Markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ selectNodes(xpath)](../compositenode/selectNodes/#string) | Selects a list of nodes matching the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ selectSingleNode(xpath)](../compositenode/selectSingleNode/#string) | Selects the first [Node](../node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ setBorder(borderType, lineStyle, lineWidth, color, isOverrideCellBorders)](./setBorder/#bordertype_linestyle_number_string_boolean) | Sets the specified table border to the specified line style, width and color. |

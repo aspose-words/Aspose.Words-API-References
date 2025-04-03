@@ -39,7 +39,7 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/nodejs
 | [ignoreFootnotes](./ignoreFootnotes/) | Gets or sets a boolean value indicating either to ignore footnotes. The default value is ``False``. |
 | [ignoreInserted](./ignoreInserted/) | Gets or sets a boolean value indicating either to ignore text inside insert revisions. The default value is ``False``. |
 | [ignoreShapes](./ignoreShapes/) | Gets or sets a boolean value indicating either to ignore shapes within a text. |
-| [ignoreStructuredDocumentTags](./ignoreStructuredDocumentTags/) | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/). The default value is ``False``. |
+| [ignoreStructuredDocumentTags](./ignoreStructuredDocumentTags/) | Gets or sets a boolean value indicating either to ignore content of [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/). The default value is ``False``. |
 | [legacyMode](./legacyMode/) | Gets or sets a boolean value indicating that old find/replace algorithm is used. |
 | [matchCase](./matchCase/) | True indicates case-sensitive comparison, false indicates case-insensitive comparison. |
 | [replacementFormat](./replacementFormat/) | Specifies format of the replacement. Default is [ReplacementFormat.Text](../replacementformat/#Text). |

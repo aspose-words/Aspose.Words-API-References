@@ -23,7 +23,7 @@ get exportRoundtripInformation(): boolean
 ### Remarks
 
 Saving of the roundtrip information allows to restore document properties such as tab stops,
-comments, headers and footers during the HTML documents loading back into a [Document](../../../Aspose.Words/document/) object.
+comments, headers and footers during the HTML documents loading back into a [Document](../../../aspose.words/document/) object.
 
 When ``True``, the roundtrip information is exported as -aw-\* CSS properties
 of the corresponding HTML elements.

@@ -20,7 +20,7 @@ visitFieldSeparator(fieldSeparator: Aspose.Words.Fields.FieldSeparator)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldSeparator | [FieldSeparator](../../../Aspose.Words.Fields/fieldseparator/) | The object that is being visited. |
+| fieldSeparator | [FieldSeparator](../../../aspose.words.fields/fieldseparator/) | The object that is being visited. |
 
 ### Remarks
 

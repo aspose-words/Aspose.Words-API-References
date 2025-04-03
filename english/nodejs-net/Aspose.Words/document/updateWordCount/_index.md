@@ -34,7 +34,7 @@ in the word count.
 
 ## updateWordCount(updateLinesCount) {#boolean}
 
-Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.lines](../../../Aspose.Words.Properties/builtindocumentproperties/lines/) property.
+Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.lines](../../../aspose.words.properties/builtindocumentproperties/lines/) property.
 
 
 

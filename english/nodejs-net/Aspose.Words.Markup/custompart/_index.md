@@ -61,5 +61,5 @@ to access Custom XML Data.
 
 * module [Aspose.Words.Markup](../)
 * class [CustomPartCollection](../custompartcollection/)
-* property [Document.packageCustomParts](../../Aspose.Words/document/packageCustomParts/)
+* property [Document.packageCustomParts](../../aspose.words/document/packageCustomParts/)
 

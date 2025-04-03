@@ -21,8 +21,8 @@ convertToImages(inputStream: BufferloadOptions: Aspose.Words.Loading.LoadOptions
 | Parameter | Type | Description |
 | --- | --- | --- |
 | inputStream | Buffer | The input stream. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | The document load options. |
-| saveOptions | [SaveOptions](../../../Aspose.Words.Saving/saveoptions/) | The save options. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | The document load options. |
+| saveOptions | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 
 ### Returns
 

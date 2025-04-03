@@ -67,6 +67,6 @@ doc.save(base.artifactsDir + "ViewOptions.SetZoomType.doc");
 ### See Also
 
 * module [Aspose.Words.Settings](../)
-* class [Document](../../Aspose.Words/document/)
-* property [Document.viewOptions](../../Aspose.Words/document/viewOptions/)
+* class [Document](../../aspose.words/document/)
+* property [Document.viewOptions](../../aspose.words/document/viewOptions/)
 

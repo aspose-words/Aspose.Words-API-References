@@ -20,11 +20,11 @@ accept(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The visitor that will visit the node. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The visitor that will visit the node. |
 
 ### Remarks
 
-Calls [DocumentVisitor.visitFieldEnd()](../../../Aspose.Words/documentvisitor/visitFieldEnd/#fieldend).
+Calls [DocumentVisitor.visitFieldEnd()](../../../aspose.words/documentvisitor/visitFieldEnd/#fieldend).
 
 For more info see the Visitor design pattern.
 

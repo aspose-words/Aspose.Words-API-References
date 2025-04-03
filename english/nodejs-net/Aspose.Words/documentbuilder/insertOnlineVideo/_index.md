@@ -27,7 +27,7 @@ insertOnlineVideo(videoUrl: stringwidth: numberheight: number)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 Insertion of online video from the following resources is supported:
 
@@ -60,18 +60,18 @@ insertOnlineVideo(videoUrl: stringhorzPos: Aspose.Words.Drawing.RelativeHorizont
 | Parameter | Type | Description |
 | --- | --- | --- |
 | videoUrl | string | The URL to the video. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 Insertion of online video from the following resources is supported:
 
@@ -112,7 +112,7 @@ insertOnlineVideo(videoUrl: stringvideoEmbedCode: stringthumbnailImageBytes: num
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -136,18 +136,18 @@ insertOnlineVideo(videoUrl: stringvideoEmbedCode: stringthumbnailImageBytes: num
 | videoUrl | string | The URL to the video. |
 | videoEmbedCode | string | The embed code for the video. |
 | thumbnailImageBytes | number[] | The thumbnail image bytes. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 

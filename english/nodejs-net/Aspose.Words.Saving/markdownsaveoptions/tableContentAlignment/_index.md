@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.tableContentAlignment property
 linktitle: tableContentAlignment property
 articleTitle: tableContentAlignment property
 second_title: Aspose.Words for NodeJs
-description: "MarkdownSaveOptions.tableContentAlignment property. Gets or sets a value that specifies how to align contents in tables when exporting into the [SaveFormat.Markdown](../../../Aspose.Words/saveformat/#Markdown) format"
+description: "MarkdownSaveOptions.tableContentAlignment property. Gets or sets a value that specifies how to align contents in tables when exporting into the [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format"
 type: docs
 weight: 130
 url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/tableContentAlignment/
@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/tableContentAlignment/
 ## MarkdownSaveOptions.tableContentAlignment property
 
 Gets or sets a value that specifies how to align contents in tables
-when exporting into the [SaveFormat.Markdown](../../../Aspose.Words/saveformat/#Markdown) format.
+when exporting into the [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format.
 The default value is [TableContentAlignment.Auto](../../tablecontentalignment/#Auto).
 
 

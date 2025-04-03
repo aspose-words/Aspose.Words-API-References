@@ -20,7 +20,7 @@ get style(): Aspose.Words.Style
 
 ### Remarks
 
-Only [StyleType.Character](../../../Aspose.Words/styletype/#Character) style or [StyleType.Paragraph](../../../Aspose.Words/styletype/#Paragraph) style with linked character style can be set.
+Only [StyleType.Character](../../../aspose.words/styletype/#Character) style or [StyleType.Paragraph](../../../aspose.words/styletype/#Paragraph) style with linked character style can be set.
 
 
 

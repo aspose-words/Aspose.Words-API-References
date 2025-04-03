@@ -20,10 +20,10 @@ Document()
 
 ### Remarks
 
-A blank document is retrieved from resources, and by default, the resulting document looks more like created by [MsWordVersion.Word2007](../../../Aspose.Words.Settings/mswordversion/#Word2007).
+A blank document is retrieved from resources, and by default, the resulting document looks more like created by [MsWordVersion.Word2007](../../../aspose.words.settings/mswordversion/#Word2007).
 This blank document contains a default fonts table, minimal default styles, and latent styles.
 
-[CompatibilityOptions.optimizeFor()](../../../Aspose.Words.Settings/compatibilityoptions/optimizeFor/#mswordversion) method can be used to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
+[CompatibilityOptions.optimizeFor()](../../../aspose.words.settings/compatibilityoptions/optimizeFor/#mswordversion) method can be used to optimize the document contents as well as default Aspose.Words behavior to a particular version of MS Word.
 
 The document paper size is Letter by default. If you want to change page setup, use
 [Section.pageSetup](../../section/pageSetup/).
@@ -69,7 +69,7 @@ Document(fileName: stringloadOptions: Aspose.Words.Loading.LoadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | File name of the document to open. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
 
 ### Exceptions
 
@@ -127,7 +127,7 @@ Document(stream: BufferloadOptions: Aspose.Words.Loading.LoadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream where to load the document from. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
 
 ### Remarks
 

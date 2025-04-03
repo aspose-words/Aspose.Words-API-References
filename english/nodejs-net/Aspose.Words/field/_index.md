@@ -55,7 +55,7 @@ To create a new field use the [DocumentBuilder.insertField()](../documentbuilder
 | --- | --- |
 | [displayResult](./displayResult/) | Gets the text that represents the displayed field result. |
 | [end](./end/) | Gets the node that represents the field end. |
-| [format](./format/) | Gets a [FieldFormat](../../Aspose.Words.Fields/fieldformat/) object that provides typed access to field's formatting. |
+| [format](./format/) | Gets a [FieldFormat](../../aspose.words.fields/fieldformat/) object that provides typed access to field's formatting. |
 | [isDirty](./isDirty/) | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [isLocked](./isLocked/) | Gets or sets whether the field is locked (should not recalculate its result). |
 | [localeId](./localeId/) | Gets or sets the LCID of the field. |

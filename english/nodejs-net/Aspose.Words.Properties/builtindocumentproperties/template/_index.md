@@ -26,7 +26,7 @@ usually contains only the file name of the template without the path.
 Empty string means the document is attached to the Normal template.
 
 To get or set the actual name of the attached template, use the
-[Document.attachedTemplate](../../../Aspose.Words/document/attachedTemplate/) property.
+[Document.attachedTemplate](../../../aspose.words/document/attachedTemplate/) property.
 
 
 
@@ -68,5 +68,5 @@ doc.save(base.artifactsDir + "DocumentProperties.origin.docx");
 
 * module [Aspose.Words.Properties](../../)
 * class [BuiltInDocumentProperties](../)
-* property [Document.attachedTemplate](../../../Aspose.Words/document/attachedTemplate/)
+* property [Document.attachedTemplate](../../../aspose.words/document/attachedTemplate/)
 

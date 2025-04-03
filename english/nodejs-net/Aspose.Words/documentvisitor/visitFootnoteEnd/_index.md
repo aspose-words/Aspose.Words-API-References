@@ -20,7 +20,7 @@ visitFootnoteEnd(footnote: Aspose.Words.Notes.Footnote)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| footnote | [Footnote](../../../Aspose.Words.Notes/footnote/) | The object that is being visited. |
+| footnote | [Footnote](../../../aspose.words.notes/footnote/) | The object that is being visited. |
 
 ### Returns
 

@@ -42,7 +42,7 @@ HtmlLoadOptions(loadFormat: Aspose.Words.LoadFormatpassword: stringbaseUri: stri
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | [LoadFormat](../../../Aspose.Words/loadformat/) | The format of the document to be loaded. |
+| loadFormat | [LoadFormat](../../../aspose.words/loadformat/) | The format of the document to be loaded. |
 | password | string | The password to open an encrypted document. Can be ``None`` or empty string. |
 | baseUri | string | The string that will be used to resolve relative URIs to absolute. Can be ``None`` or empty string. |
 

@@ -20,7 +20,7 @@ insertGroupShape(shapes: Aspose.Words.Drawing.ShapeBase[])
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapes | [ShapeBase](../../../Aspose.Words.Drawing/shapebase/)[] | The list of shapes to be grouped. |
+| shapes | [ShapeBase](../../../aspose.words.drawing/shapebase/)[] | The list of shapes to be grouped. |
 
 ### Remarks
 
@@ -46,7 +46,7 @@ insertGroupShape(left: numbertop: numberwidth: numberheight: numbershapes: Aspos
 | top | number | Distance in points from the origin to the top side of the group shape. |
 | width | number | The width of the group shape in points. A negative value is not allowed. |
 | height | number | The height of the group shape in points. A negative value is not allowed. |
-| shapes | [ShapeBase](../../../Aspose.Words.Drawing/shapebase/)[] | The list of shapes to be grouped. |
+| shapes | [ShapeBase](../../../aspose.words.drawing/shapebase/)[] | The list of shapes to be grouped. |
 
 ### Remarks
 

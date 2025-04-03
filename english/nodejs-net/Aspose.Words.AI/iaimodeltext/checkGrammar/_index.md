@@ -21,12 +21,12 @@ checkGrammar(sourceDocument: Aspose.Words.Documentoptions: Aspose.Words.AI.Check
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDocument | [Document](../../../Aspose.Words/document/) | The document being checked for grammar. |
+| sourceDocument | [Document](../../../aspose.words/document/) | The document being checked for grammar. |
 | options | [CheckGrammarOptions](../../checkgrammaroptions/) | Optional settings to control how grammar will be checked. |
 
 ### Returns
 
-A new [Document](../../../Aspose.Words/document/) with checked grammar.
+A new [Document](../../../aspose.words/document/) with checked grammar.
 
 
 ### See Also

@@ -20,7 +20,7 @@ acceptEnd(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The document visitor. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The document visitor. |
 
 ### Returns
 

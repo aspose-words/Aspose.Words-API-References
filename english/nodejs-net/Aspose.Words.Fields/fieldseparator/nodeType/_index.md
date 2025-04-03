@@ -3,7 +3,7 @@ title: FieldSeparator.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
 second_title: Aspose.Words for NodeJs
-description: "FieldSeparator.nodeType property. Returns [NodeType.FieldSeparator](../../../Aspose.Words/nodetype/#FieldSeparator)."
+description: "FieldSeparator.nodeType property. Returns [NodeType.FieldSeparator](../../../aspose.words/nodetype/#FieldSeparator)."
 type: docs
 weight: 10
 url: /nodejs-net/Aspose.Words.Fields/fieldseparator/nodeType/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Fields/fieldseparator/nodeType/
 
 ## FieldSeparator.nodeType property
 
-Returns [NodeType.FieldSeparator](../../../Aspose.Words/nodetype/#FieldSeparator).
+Returns [NodeType.FieldSeparator](../../../aspose.words/nodetype/#FieldSeparator).
 
 
 

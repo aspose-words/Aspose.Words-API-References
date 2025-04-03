@@ -12,8 +12,8 @@ url: /nodejs-net/Aspose.Words.Saving/ooxmlsaveoptions/saveFormat/
 ## OoxmlSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can be [SaveFormat.Docx](../../../Aspose.Words/saveformat/#Docx), [SaveFormat.Docm](../../../Aspose.Words/saveformat/#Docm),
-[SaveFormat.Dotx](../../../Aspose.Words/saveformat/#Dotx), [SaveFormat.Dotm](../../../Aspose.Words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc).
+Can be [SaveFormat.Docx](../../../aspose.words/saveformat/#Docx), [SaveFormat.Docm](../../../aspose.words/saveformat/#Docm),
+[SaveFormat.Dotx](../../../aspose.words/saveformat/#Dotx), [SaveFormat.Dotm](../../../aspose.words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc).
 
 
 

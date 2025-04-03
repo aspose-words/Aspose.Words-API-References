@@ -24,7 +24,7 @@ get resourcesFolder(): string
 
 Has effect only if [SvgSaveOptions.exportEmbeddedImages](../exportEmbeddedImages/) property is ``False``.
 
-When you save a [Document](../../../Aspose.Words/document/) in SVG format, Aspose.Words needs to save all
+When you save a [Document](../../../aspose.words/document/) in SVG format, Aspose.Words needs to save all
 images embedded in the document as standalone files. [SvgSaveOptions.resourcesFolder](./)
 allows you to specify where the images will be saved and [SvgSaveOptions.resourcesFolderAlias](../resourcesFolderAlias/)
 allows to specify how the image URIs will be constructed.

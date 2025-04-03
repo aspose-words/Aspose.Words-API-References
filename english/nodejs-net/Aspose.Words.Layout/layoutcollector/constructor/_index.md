@@ -20,7 +20,7 @@ LayoutCollector(doc: Aspose.Words.Document)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [Document](../../../Aspose.Words/document/) | The document to which this collector instance will be attached to. |
+| doc | [Document](../../../aspose.words/document/) | The document to which this collector instance will be attached to. |
 
 ### See Also
 

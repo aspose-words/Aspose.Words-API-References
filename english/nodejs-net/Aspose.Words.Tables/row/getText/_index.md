@@ -23,7 +23,7 @@ getText()
 Returns concatenated text of all child nodes with the end of row character
 Aspose.Words.ControlChar.Cell appended at the end.
 
-The returned string includes all control and special characters as described in [ControlChar](../../../Aspose.Words/controlchar/).
+The returned string includes all control and special characters as described in [ControlChar](../../../aspose.words/controlchar/).
 
 
 

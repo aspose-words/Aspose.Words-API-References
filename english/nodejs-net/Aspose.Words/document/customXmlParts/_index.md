@@ -89,5 +89,5 @@ doc.save(base.artifactsDir + "StructuredDocumentTag.customXml.docx");
 
 * module [Aspose.Words](../../)
 * class [Document](../)
-* class [CustomXmlPart](../../../Aspose.Words.Markup/customxmlpart/)
+* class [CustomXmlPart](../../../aspose.words.markup/customxmlpart/)
 

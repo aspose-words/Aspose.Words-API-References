@@ -21,7 +21,7 @@ StructuredDocumentTagRangeStart(doc: Aspose.Words.DocumentBasetype: Aspose.Words
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 | type | [SdtType](../../sdttype/) | Type of SDT node. |
 
 ### Remarks

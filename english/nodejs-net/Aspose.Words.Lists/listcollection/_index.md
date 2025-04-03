@@ -24,7 +24,7 @@ The formatting of the lists is stored in the [ListCollection](./) collection sep
 from the paragraphs of text.
 
 You do not create objects of this class. There is always only one [ListCollection](./)
-object per document and it is accessible via the [DocumentBase.lists](../../Aspose.Words/documentbase/lists/) property.
+object per document and it is accessible via the [DocumentBase.lists](../../aspose.words/documentbase/lists/) property.
 
 To create a new list based on a predefined list template or based on a list style,
 use the [ListCollection.add()](./add/#style) method.
@@ -33,7 +33,7 @@ To create a new list with formatting identical to an existing list,
 use the [ListCollection.addCopy()](./addCopy/#list) method.
 
 To make a paragraph bulleted or numbered, you need to apply list formatting
-to a paragraph by assigning a [List](../../Aspose.Words/list/) object to the
+to a paragraph by assigning a [List](../../aspose.words/list/) object to the
 [ListFormat.list](../listformat/list/) property of [ListFormat](../listformat/).
 
 To remove list formatting from a paragraph, use the [ListFormat.removeNumbers()](../listformat/removeNumbers/#default)
@@ -197,7 +197,7 @@ function addListSample(builder, list) {
 ### See Also
 
 * module [Aspose.Words.Lists](../)
-* class [List](../../Aspose.Words/list/)
+* class [List](../../aspose.words/list/)
 * class [ListLevel](../listlevel/)
 * class [ListFormat](../listformat/)
 

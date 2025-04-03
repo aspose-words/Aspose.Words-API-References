@@ -21,7 +21,7 @@ SmartTag(doc: Aspose.Words.DocumentBase)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 
 ### Remarks
 
@@ -31,8 +31,8 @@ such as lists and styles. Although a node always belongs to a document, a node m
 not be a part of the document tree.
 
 When a node is created, it belongs to a document, but is not yet part of the document tree
-and [Node.parentNode](../../../Aspose.Words/node/parentNode/) is null. To insert a node into the document, use the
-[CompositeNode.insertAfter()](../../../Aspose.Words/compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../../Aspose.Words/compositenode/insertBefore/#node_node)
+and [Node.parentNode](../../../aspose.words/node/parentNode/) is null. To insert a node into the document, use the
+[CompositeNode.insertAfter()](../../../aspose.words/compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../../aspose.words/compositenode/insertBefore/#node_node)
 methods on the parent node.
 
 

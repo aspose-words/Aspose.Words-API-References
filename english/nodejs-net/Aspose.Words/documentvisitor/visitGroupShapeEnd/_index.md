@@ -20,7 +20,7 @@ visitGroupShapeEnd(groupShape: Aspose.Words.Drawing.GroupShape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| groupShape | [GroupShape](../../../Aspose.Words.Drawing/groupshape/) | The object that is being visited. |
+| groupShape | [GroupShape](../../../aspose.words.drawing/groupshape/) | The object that is being visited. |
 
 ### Returns
 

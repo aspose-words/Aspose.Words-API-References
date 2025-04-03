@@ -21,9 +21,9 @@ convert(inputStream: BufferloadOptions: Aspose.Words.Loading.LoadOptionsoutputSt
 | Parameter | Type | Description |
 | --- | --- | --- |
 | inputStream | Buffer | The input stream. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | The document load options. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | The document load options. |
 | outputStream | Buffer | The output stream. |
-| saveOptions | [SaveOptions](../../../Aspose.Words.Saving/saveoptions/) | The save options. |
+| saveOptions | [SaveOptions](../../../aspose.words.saving/saveoptions/) | The save options. |
 
 ### See Also
 

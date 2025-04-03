@@ -21,7 +21,7 @@ MarkdownLoadOptions()
 
 ### Remarks
 
-Automatically sets [LoadFormat](../../../Aspose.Words/loadformat/) to [LoadFormat.Markdown](../../../Aspose.Words/loadformat/#Markdown).
+Automatically sets [LoadFormat](../../../aspose.words/loadformat/) to [LoadFormat.Markdown](../../../aspose.words/loadformat/#Markdown).
 
 
 

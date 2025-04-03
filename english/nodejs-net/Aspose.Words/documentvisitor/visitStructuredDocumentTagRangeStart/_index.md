@@ -20,7 +20,7 @@ visitStructuredDocumentTagRangeStart(sdtRangeStart: Aspose.Words.Markup.Structur
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sdtRangeStart | [StructuredDocumentTagRangeStart](../../../Aspose.Words.Markup/structureddocumenttagrangestart/) |  |
+| sdtRangeStart | [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/) |  |
 
 ### See Also
 

@@ -24,7 +24,7 @@ Use this property for informational purposes only because Microsoft Word does no
 set this property. This property is available in DOC and OOXML documents only.
 
 To protect or unprotect a document use the
-[Document.protect()](../../../Aspose.Words/document/protect/#protectiontype_string) and [Document.unprotect()](../../../Aspose.Words/document/unprotect/#default) methods.
+[Document.protect()](../../../aspose.words/document/protect/#protectiontype_string) and [Document.unprotect()](../../../aspose.words/document/unprotect/#default) methods.
 
 Aspose.Words updates this property to a correct value before saving a document.
 

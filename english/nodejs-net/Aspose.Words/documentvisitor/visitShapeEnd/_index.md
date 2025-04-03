@@ -20,7 +20,7 @@ visitShapeEnd(shape: Aspose.Words.Drawing.Shape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](../../../Aspose.Words.Drawing/shape/) | The object that is being visited. |
+| shape | [Shape](../../../aspose.words.drawing/shape/) | The object that is being visited. |
 
 ### Returns
 

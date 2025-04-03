@@ -20,11 +20,11 @@ buildAndInsert(refNode: Aspose.Words.Inline)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| refNode | [Inline](../../../Aspose.Words/inline/) |  |
+| refNode | [Inline](../../../aspose.words/inline/) |  |
 
 ### Returns
 
-A [Field](../../../Aspose.Words/field/) object that represents the inserted field.
+A [Field](../../../aspose.words/field/) object that represents the inserted field.
 
 
 ## buildAndInsert(refNode) {#paragraph}
@@ -38,11 +38,11 @@ buildAndInsert(refNode: Aspose.Words.Paragraph)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| refNode | [Paragraph](../../../Aspose.Words/paragraph/) |  |
+| refNode | [Paragraph](../../../aspose.words/paragraph/) |  |
 
 ### Returns
 
-A [Field](../../../Aspose.Words/field/) object that represents the inserted field.
+A [Field](../../../aspose.words/field/) object that represents the inserted field.
 
 
 ## Examples

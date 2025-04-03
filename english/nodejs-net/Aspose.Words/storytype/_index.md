@@ -21,10 +21,10 @@ Text of a Word document is stored in stories. [StoryType](./) identifies a story
 | --- | --- |
 | None | Default value. There is no such story in the document. |
 | MainText | Contains the main text of the document, represented by [Body](../body/). |
-| Footnotes | Contains footnote text, represented by [Footnote](../../Aspose.Words.Notes/footnote/). |
-| Endnotes | Contains endnotes text, represented by [Footnote](../../Aspose.Words.Notes/footnote/). |
+| Footnotes | Contains footnote text, represented by [Footnote](../../aspose.words.notes/footnote/). |
+| Endnotes | Contains endnotes text, represented by [Footnote](../../aspose.words.notes/footnote/). |
 | Comments | Contains document comments (annotations), represented by [Comment](../comment/). |
-| Textbox | Contains shape or textbox text, represented by [Shape](../../Aspose.Words.Drawing/shape/). |
+| Textbox | Contains shape or textbox text, represented by [Shape](../../aspose.words.drawing/shape/). |
 | EvenPagesHeader | Contains text of the even pages header, represented by [HeaderFooter](../headerfooter/). |
 | PrimaryHeader | Contains text of the primary header. When header is different for odd and even pages, contains text of the odd pages header. Represented by [HeaderFooter](../headerfooter/). |
 | EvenPagesFooter | Contains text of the even pages footer, represented by [HeaderFooter](../headerfooter/). |

@@ -20,7 +20,7 @@ visitFieldEnd(fieldEnd: Aspose.Words.Fields.FieldEnd)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldEnd | [FieldEnd](../../../Aspose.Words.Fields/fieldend/) | The object that is being visited. |
+| fieldEnd | [FieldEnd](../../../aspose.words.fields/fieldend/) | The object that is being visited. |
 
 ### Remarks
 

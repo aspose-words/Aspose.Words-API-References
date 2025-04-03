@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Layout/revisionoptions/measurementUnit/
 ## RevisionOptions.measurementUnit property
 
 Allows to specify the measurement units for revision comments.
-Default value is [MeasurementUnits.Centimeters](../../../Aspose.Words/measurementunits/#Centimeters)
+Default value is [MeasurementUnits.Centimeters](../../../aspose.words/measurementunits/#Centimeters)
 
 
 

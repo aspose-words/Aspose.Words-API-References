@@ -24,9 +24,9 @@ get id(): number
 
 Id attribute shall follow these rules:
 
-* The document shall retain SDT ids only if the whole document is cloned [Document.clone()](../../../Aspose.Words/document/clone/#default).
+* The document shall retain SDT ids only if the whole document is cloned [Document.clone()](../../../aspose.words/document/clone/#default).
   
-* During [DocumentBase.importNode()](../../../Aspose.Words/documentbase/importNode/#node_boolean)
+* During [DocumentBase.importNode()](../../../aspose.words/documentbase/importNode/#node_boolean)
   Id shall be retained if import does not cause conflicts with other SDT Ids in
   the target document.
   

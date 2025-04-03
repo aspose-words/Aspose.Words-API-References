@@ -33,7 +33,7 @@ If index is out of range, a ``None`` is returned.
 
 Note that markup nodes ([NodeType.StructuredDocumentTag](../../nodetype/#StructuredDocumentTag) and [NodeType.SmartTag](../../nodetype/#SmartTag))
 are traversed even when *isDeep* =``False`` and [CompositeNode.getChild()](./#nodetype_number_boolean) is invoked for non-markup node type. For example if the first run in a para
-is wrapped in a [StructuredDocumentTag](../../../Aspose.Words.Markup/structureddocumenttag/), it will still be returned by [CompositeNode.getChild()](./#nodetype_number_boolean)([NodeType.Run](../../nodetype/#Run), 0, ``False``).
+is wrapped in a [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/), it will still be returned by [CompositeNode.getChild()](./#nodetype_number_boolean)([NodeType.Run](../../nodetype/#Run), 0, ``False``).
 
 
 ### Returns

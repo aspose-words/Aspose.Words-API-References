@@ -62,7 +62,7 @@ replaceRegex(pattern: stringreplacement: stringoptions: Aspose.Words.Replacing.F
 | --- | --- | --- |
 | pattern | string | A regular expression pattern used to find matches. |
 | replacement | string | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../../Aspose.Words.Replacing/findreplaceoptions/) | [FindReplaceOptions](../../../Aspose.Words.Replacing/findreplaceoptions/) object to specify additional options. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
 
 ### Remarks
 

@@ -29,7 +29,7 @@ PdfDigitalSignatureDetails(certificateHolder: Aspose.Words.DigitalSignatures.Cer
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificateHolder | [CertificateHolder](../../../Aspose.Words.DigitalSignatures/certificateholder/) | A certificate holder which contains the certificate itself. |
+| certificateHolder | [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/) | A certificate holder which contains the certificate itself. |
 | reason | string | The reason for signing. |
 | location | string | The location of signing. |
 | signatureDate | Date | The date and time of signing. |

@@ -3,7 +3,7 @@ title: IDocumentPartSavingCallback class
 linktitle: IDocumentPartSavingCallback class
 articleTitle: IDocumentPartSavingCallback class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Saving.IDocumentPartSavingCallback class. Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [SaveFormat.Html](../../Aspose.Words/saveformat/#Html)  or [SaveFormat.Epub](../../Aspose.Words/saveformat/#Epub) format."
+description: "Aspose.Words.Saving.IDocumentPartSavingCallback class. Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [SaveFormat.Html](../../aspose.words/saveformat/#Html)  or [SaveFormat.Epub](../../aspose.words/saveformat/#Epub) format."
 type: docs
 weight: 300
 url: /nodejs-net/Aspose.Words.Saving/idocumentpartsavingcallback/
@@ -12,8 +12,8 @@ url: /nodejs-net/Aspose.Words.Saving/idocumentpartsavingcallback/
 ## IDocumentPartSavingCallback class
 
 Implement this interface if you want to receive notifications and control how
-Aspose.Words saves document parts when exporting a document to [SaveFormat.Html](../../Aspose.Words/saveformat/#Html) 
-or [SaveFormat.Epub](../../Aspose.Words/saveformat/#Epub) format.
+Aspose.Words saves document parts when exporting a document to [SaveFormat.Html](../../aspose.words/saveformat/#Html) 
+or [SaveFormat.Epub](../../aspose.words/saveformat/#Epub) format.
 
 
 

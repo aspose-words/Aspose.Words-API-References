@@ -20,7 +20,7 @@ insertShape(shapeType: Aspose.Words.Drawing.ShapeTypewidth: numberheight: number
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeType | [ShapeType](../../../Aspose.Words.Drawing/shapetype/) | The shape type to insert into the document. |
+| shapeType | [ShapeType](../../../aspose.words.drawing/shapetype/) | The shape type to insert into the document. |
 | width | number | The width of the shape in points. |
 | height | number | The height of the shape in points. |
 
@@ -40,14 +40,14 @@ insertShape(shapeType: Aspose.Words.Drawing.ShapeTypehorzPos: Aspose.Words.Drawi
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapeType | [ShapeType](../../../Aspose.Words.Drawing/shapetype/) | The shape type to insert into the document |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the horizontal distance to the shape is measured from. |
+| shapeType | [ShapeType](../../../aspose.words.drawing/shapetype/) | The shape type to insert into the document |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the horizontal distance to the shape is measured from. |
 | left | number | Distance in points from the origin to the left side of the shape. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the vertical distance to the shape is measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the vertical distance to the shape is measured from. |
 | top | number | Distance in points from the origin to the top side of the shape. |
 | width | number | The width of the shape in points. |
 | height | number | The height of the shape in points. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the shape. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the shape. |
 
 ### Returns
 

@@ -3,7 +3,7 @@ title: TxtSaveOptions class
 linktitle: TxtSaveOptions class
 articleTitle: TxtSaveOptions class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Saving.TxtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Text](../../Aspose.Words/saveformat/#Text) format"
+description: "Aspose.Words.Saving.TxtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Text](../../aspose.words/saveformat/#Text) format"
 type: docs
 weight: 860
 url: /nodejs-net/Aspose.Words.Saving/txtsaveoptions/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Saving/txtsaveoptions/
 
 ## TxtSaveOptions class
 
-Can be used to specify additional options when saving a document into the [SaveFormat.Text](../../Aspose.Words/saveformat/#Text) format.
+Can be used to specify additional options when saving a document into the [SaveFormat.Text](../../aspose.words/saveformat/#Text) format.
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/nodejs-net/specify-save-options/) documentation article.
 
 
@@ -46,14 +46,14 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [preserveTableLayout](./preserveTableLayout/) | Specifies whether the program should attempt to preserve layout of tables when saving in the plain text format. The default value is ``False``. |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Text](../../Aspose.Words/saveformat/#Text). |
+| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Text](../../aspose.words/saveformat/#Text). |
 | [simplifyListLabels](./simplifyListLabels/) | Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text. |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../Aspose.Words.Properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../Aspose.Words.Properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 

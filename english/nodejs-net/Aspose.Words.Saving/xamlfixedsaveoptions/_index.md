@@ -3,7 +3,7 @@ title: XamlFixedSaveOptions class
 linktitle: XamlFixedSaveOptions class
 articleTitle: XamlFixedSaveOptions class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Saving.XamlFixedSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.XamlFixed](../../Aspose.Words/saveformat/#XamlFixed) format"
+description: "Aspose.Words.Saving.XamlFixedSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.XamlFixed](../../aspose.words/saveformat/#XamlFixed) format"
 type: docs
 weight: 890
 url: /nodejs-net/Aspose.Words.Saving/xamlfixedsaveoptions/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Saving/xamlfixedsaveoptions/
 
 ## XamlFixedSaveOptions class
 
-Can be used to specify additional options when saving a document into the [SaveFormat.XamlFixed](../../Aspose.Words/saveformat/#XamlFixed) format.
+Can be used to specify additional options when saving a document into the [SaveFormat.XamlFixed](../../aspose.words/saveformat/#XamlFixed) format.
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/nodejs-net/specify-save-options/) documentation article.
 
 
@@ -48,13 +48,13 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [resourceSavingCallback](./resourceSavingCallback/) | Allows to control how resources (images and fonts) are saved when a document is exported to fixed page Xaml format. |
 | [resourcesFolder](./resourcesFolder/) | Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format. Default is ``None``. |
 | [resourcesFolderAlias](./resourcesFolderAlias/) | Specifies the name of the folder used to construct image URIs written into an fixed page Xaml document. Default is ``None``. |
-| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.XamlFixed](../../Aspose.Words/saveformat/#XamlFixed). |
+| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.XamlFixed](../../aspose.words/saveformat/#XamlFixed). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../Aspose.Words.Properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../Aspose.Words.Properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 

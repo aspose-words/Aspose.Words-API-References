@@ -20,7 +20,7 @@ insertField(fieldType: Aspose.Words.Fields.FieldTypeupdateField: booleanrefNode:
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [FieldType](../../../Aspose.Words.Fields/fieldtype/) | The type of the field to insert. |
+| fieldType | [FieldType](../../../aspose.words.fields/fieldtype/) | The type of the field to insert. |
 | updateField | boolean | Specifies whether to update the field immediately. |
 | refNode | [Node](../../node/) | Reference node inside this paragraph (if *refNode* is``None``, then appends to the end of the paragraph). |
 | isAfter | boolean | Whether to insert the field after or before reference node. |

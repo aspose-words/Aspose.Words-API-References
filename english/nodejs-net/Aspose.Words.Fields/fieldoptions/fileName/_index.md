@@ -20,7 +20,7 @@ get fileName(): string
 
 ### Remarks
 
-This property is used by the [FieldFileName](../../fieldfilename/) field with higher priority than the [Document.originalFileName](../../../Aspose.Words/document/originalFileName/) property.
+This property is used by the [FieldFileName](../../fieldfilename/) field with higher priority than the [Document.originalFileName](../../../aspose.words/document/originalFileName/) property.
 
 
 

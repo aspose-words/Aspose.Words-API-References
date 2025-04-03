@@ -20,7 +20,7 @@ visitStructuredDocumentTagEnd(sdt: Aspose.Words.Markup.StructuredDocumentTag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../../Aspose.Words.Markup/structureddocumenttag/) | The object that is being visited. |
+| sdt | [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) | The object that is being visited. |
 
 ### Returns
 

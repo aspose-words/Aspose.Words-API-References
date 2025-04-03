@@ -20,7 +20,7 @@ getMathRenderer()
 
 ### Remarks
 
-This method just invokes the [OfficeMathRenderer](../../../Aspose.Words.Rendering/officemathrenderer/) constructor and passes
+This method just invokes the [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/) constructor and passes
 this object as a parameter.
 
 

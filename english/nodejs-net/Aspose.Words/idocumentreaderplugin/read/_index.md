@@ -22,7 +22,7 @@ read(src: BufferloadOptions: Aspose.Words.Loading.LoadOptionsdocument: Aspose.Wo
 | Parameter | Type | Description |
 | --- | --- | --- |
 | src | Buffer | The source stream to read the document from. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | An additional load options to load the document. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | An additional load options to load the document. |
 | document | [Document](../../document/) | The instance of the [Document](../../document/) class to read the data to.  If the instance contains some content, it will be overridden by the data from the source stream |
 
 ### See Also

@@ -20,7 +20,7 @@ get orientation(): Aspose.Words.Drawing.ShapeTextOrientation
 
 ### Remarks
 
-The default value is [ShapeTextOrientation.Horizontal](../../../Aspose.Words.Drawing/shapetextorientation/#Horizontal).
+The default value is [ShapeTextOrientation.Horizontal](../../../aspose.words.drawing/shapetextorientation/#Horizontal).
 
 
 

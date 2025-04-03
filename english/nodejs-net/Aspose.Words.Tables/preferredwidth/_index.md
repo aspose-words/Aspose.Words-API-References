@@ -96,6 +96,6 @@ doc.save(base.artifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.doc
 ### See Also
 
 * module [Aspose.Words.Tables](../)
-* property [Table.preferredWidth](../../Aspose.Words/table/preferredWidth/)
+* property [Table.preferredWidth](../../aspose.words/table/preferredWidth/)
 * property [CellFormat.preferredWidth](../cellformat/preferredWidth/)
 

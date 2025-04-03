@@ -20,7 +20,7 @@ get alignment(): Aspose.Words.Tables.TableAlignment
 
 ### Remarks
 
-The default value is [TableAlignment.Left](../../../Aspose.Words.Tables/tablealignment/#Left).
+The default value is [TableAlignment.Left](../../../aspose.words.tables/tablealignment/#Left).
 
 
 

@@ -20,7 +20,7 @@ addNode(node: Aspose.Words.Inline)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Inline](../../../Aspose.Words/inline/) |  |
+| node | [Inline](../../../aspose.words/inline/) |  |
 
 ### Remarks
 

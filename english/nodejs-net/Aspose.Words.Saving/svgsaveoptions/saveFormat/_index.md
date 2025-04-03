@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/saveFormat/
 ## SvgSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Svg](../../../Aspose.Words/saveformat/#Svg).
+Can only be [SaveFormat.Svg](../../../aspose.words/saveformat/#Svg).
 
 
 

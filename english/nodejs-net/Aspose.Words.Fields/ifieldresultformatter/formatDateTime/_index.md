@@ -22,7 +22,7 @@ formatDateTime(value: Dateformat: stringcalendarType: Aspose.Words.CalendarType)
 | --- | --- | --- |
 | value | Date |  |
 | format | string |  |
-| calendarType | [CalendarType](../../../Aspose.Words/calendartype/) |  |
+| calendarType | [CalendarType](../../../aspose.words/calendartype/) |  |
 
 ### Remarks
 

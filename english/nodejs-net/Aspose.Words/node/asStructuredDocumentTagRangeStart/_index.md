@@ -3,7 +3,7 @@ title: Node.asStructuredDocumentTagRangeStart method
 linktitle: asStructuredDocumentTagRangeStart method
 articleTitle: asStructuredDocumentTagRangeStart method
 second_title: Aspose.Words for NodeJs
-description: "Node.asStructuredDocumentTagRangeStart method. Cast node to [StructuredDocumentTagRangeStart](../../../Aspose.Words.Markup/structureddocumenttagrangestart/)."
+description: "Node.asStructuredDocumentTagRangeStart method. Cast node to [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/)."
 type: docs
 weight: 400
 url: /nodejs-net/Aspose.Words/node/asStructuredDocumentTagRangeStart/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/node/asStructuredDocumentTagRangeStart/
 
 ## asStructuredDocumentTagRangeStart() {#default}
 
-Cast node to [StructuredDocumentTagRangeStart](../../../Aspose.Words.Markup/structureddocumenttagrangestart/).
+Cast node to [StructuredDocumentTagRangeStart](../../../aspose.words.markup/structureddocumenttagrangestart/).
 
 
 

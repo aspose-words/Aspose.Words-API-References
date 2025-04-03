@@ -3,7 +3,7 @@ title: FieldEnd.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
 second_title: Aspose.Words for NodeJs
-description: "FieldEnd.nodeType property. Returns [NodeType.FieldEnd](../../../Aspose.Words/nodetype/#FieldEnd)."
+description: "FieldEnd.nodeType property. Returns [NodeType.FieldEnd](../../../aspose.words/nodetype/#FieldEnd)."
 type: docs
 weight: 20
 url: /nodejs-net/Aspose.Words.Fields/fieldend/nodeType/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Fields/fieldend/nodeType/
 
 ## FieldEnd.nodeType property
 
-Returns [NodeType.FieldEnd](../../../Aspose.Words/nodetype/#FieldEnd).
+Returns [NodeType.FieldEnd](../../../aspose.words/nodetype/#FieldEnd).
 
 
 

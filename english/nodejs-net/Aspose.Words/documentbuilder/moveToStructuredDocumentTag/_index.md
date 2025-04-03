@@ -47,7 +47,7 @@ moveToStructuredDocumentTag(structuredDocumentTag: Aspose.Words.Markup.Structure
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| structuredDocumentTag | [StructuredDocumentTag](../../../Aspose.Words.Markup/structureddocumenttag/) | The structured document tag to move to. |
+| structuredDocumentTag | [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) | The structured document tag to move to. |
 | characterIndex | number | The index of the character inside the structured document tag. A negative value allows you to specify a position from the end of the structured document tag. Use -1 to move to the end of the structured document tag. If the structured document tag is at the block level, and you want to move the cursor to the end of its last paragraph, specify -2. |
 
 ## See Also

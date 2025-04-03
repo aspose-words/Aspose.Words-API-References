@@ -21,7 +21,7 @@ save(fileName: stringsaveOptions: Aspose.Words.Saving.ImageSaveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | [ImageSaveOptions](../../../Aspose.Words.Saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
+| saveOptions | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
 
 ## save(fileName, saveOptions) {#string_svgsaveoptions}
 
@@ -35,7 +35,7 @@ save(fileName: stringsaveOptions: Aspose.Words.Saving.SvgSaveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The name for the image file. If a file with the specified name already exists, the existing file is overwritten. |
-| saveOptions | [SvgSaveOptions](../../../Aspose.Words.Saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
+| saveOptions | [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. |
 
 ## save(stream, saveOptions) {#buffer_imagesaveoptions}
 
@@ -49,7 +49,7 @@ save(stream: BuffersaveOptions: Aspose.Words.Saving.ImageSaveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream where to save the image of the shape. |
-| saveOptions | [ImageSaveOptions](../../../Aspose.Words.Saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved in the PNG format. |
+| saveOptions | [ImageSaveOptions](../../../aspose.words.saving/imagesaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved in the PNG format. |
 
 ## save(stream, saveOptions) {#buffer_svgsaveoptions}
 
@@ -63,7 +63,7 @@ save(stream: BuffersaveOptions: Aspose.Words.Saving.SvgSaveOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream where to save the SVG image of the shape. |
-| saveOptions | [SvgSaveOptions](../../../Aspose.Words.Saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved with the default options. |
+| saveOptions | [SvgSaveOptions](../../../aspose.words.saving/svgsaveoptions/) | Specifies the options that control how the shape is rendered and saved. Can be ``None``. If this is ``None``, the image will be saved with the default options. |
 
 ## Examples
 

@@ -20,7 +20,7 @@ visitRowEnd(row: Aspose.Words.Tables.Row)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | [Row](../../../Aspose.Words.Tables/row/) | The object that is being visited. |
+| row | [Row](../../../aspose.words.tables/row/) | The object that is being visited. |
 
 ### Returns
 

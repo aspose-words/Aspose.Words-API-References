@@ -24,7 +24,7 @@ get isRestartAtEachSection(): boolean
 
 This option is supported only in RTF, DOC and DOCX document formats.
 
-This option will be written to DOCX only if [OoxmlCompliance](../../../Aspose.Words.Saving/ooxmlcompliance/) is higher then [OoxmlCompliance.Ecma376_2006](../../../Aspose.Words.Saving/ooxmlcompliance/#Ecma376_2006).
+This option will be written to DOCX only if [OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/) is higher then [OoxmlCompliance.Ecma376_2006](../../../aspose.words.saving/ooxmlcompliance/#Ecma376_2006).
 
 
 

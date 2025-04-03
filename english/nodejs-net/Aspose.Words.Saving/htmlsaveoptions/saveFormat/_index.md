@@ -12,8 +12,8 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/saveFormat/
 ## HtmlSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can be [SaveFormat.Html](../../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../../Aspose.Words/saveformat/#Mhtml), [SaveFormat.Epub](../../../Aspose.Words/saveformat/#Epub),
-[SaveFormat.Azw3](../../../Aspose.Words/saveformat/#Azw3) or [SaveFormat.Mobi](../../../Aspose.Words/saveformat/#Mobi).
+Can be [SaveFormat.Html](../../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../../aspose.words/saveformat/#Epub),
+[SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../../aspose.words/saveformat/#Mobi).
 
 
 

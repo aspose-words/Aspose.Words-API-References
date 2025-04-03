@@ -20,7 +20,7 @@ get labelValue(): number
 
 ### Remarks
 
-Use the [Document.updateListLabels()](../../../Aspose.Words/document/updateListLabels/#default) method to update the value of this property.
+Use the [Document.updateListLabels()](../../../aspose.words/document/updateListLabels/#default) method to update the value of this property.
 
 
 

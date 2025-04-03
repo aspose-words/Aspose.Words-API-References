@@ -20,7 +20,7 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 
 ### Remarks
 
-When you create a [LayoutCollector](./) and specify a [Document](../../Aspose.Words/document/) document object to attach to, 
+When you create a [LayoutCollector](./) and specify a [Document](../../aspose.words/document/) document object to attach to, 
 the collector will record mapping of document nodes to layout objects when the document is formatted into pages.
 
 You will be able to find out on which page a particular document node (e.g. run, paragraph or table cell) is located

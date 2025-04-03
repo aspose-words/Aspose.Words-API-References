@@ -20,7 +20,7 @@ visitFormField(formField: Aspose.Words.Fields.FormField)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formField | [FormField](../../../Aspose.Words.Fields/formfield/) | The object that is being visited. |
+| formField | [FormField](../../../aspose.words.fields/formfield/) | The object that is being visited. |
 
 ### Returns
 

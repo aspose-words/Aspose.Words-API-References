@@ -20,7 +20,7 @@ get templateName(): string
 
 ### Remarks
 
-This property is used by the [FieldTemplate](../../fieldtemplate/) field if the [Document.attachedTemplate](../../../Aspose.Words/document/attachedTemplate/) property is empty.
+This property is used by the [FieldTemplate](../../fieldtemplate/) field if the [Document.attachedTemplate](../../../aspose.words/document/attachedTemplate/) property is empty.
 
 If this property is empty, the default template file name ``Normal.dotm`` is used.
 

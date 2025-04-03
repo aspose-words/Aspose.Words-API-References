@@ -21,7 +21,7 @@ get signatureLine(): Aspose.Words.Drawing.SignatureLine
 
 ### Remarks
 
-You can insert new [SignatureLine](../../signatureline/) into the document using [DocumentBuilder.insertSignatureLine()](../../../Aspose.Words/documentbuilder/insertSignatureLine/#signaturelineoptions) and
+You can insert new [SignatureLine](../../signatureline/) into the document using [DocumentBuilder.insertSignatureLine()](../../../aspose.words/documentbuilder/insertSignatureLine/#signaturelineoptions) and
 
 
 
@@ -29,5 +29,5 @@ You can insert new [SignatureLine](../../signatureline/) into the document using
 
 * module [Aspose.Words.Drawing](../../)
 * class [Shape](../)
-* method [DocumentBuilder.insertSignatureLine()](../../../Aspose.Words/documentbuilder/insertSignatureLine/#signaturelineoptions_relativehorizontalposition_number_relativeverticalposition_number_wraptype)
+* method [DocumentBuilder.insertSignatureLine()](../../../aspose.words/documentbuilder/insertSignatureLine/#signaturelineoptions_relativehorizontalposition_number_relativeverticalposition_number_wraptype)
 

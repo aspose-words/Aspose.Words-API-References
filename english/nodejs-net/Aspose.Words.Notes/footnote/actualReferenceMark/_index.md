@@ -22,8 +22,8 @@ get actualReferenceMark(): string
 
 To initially populate values of this property for all reference marks of the document, or to update
 the values after changes in the document that might affect the reference marks, you must execute the
-[Document.updateActualReferenceMarks()](../../../Aspose.Words/document/updateActualReferenceMarks/#default) method.
-Updating fields ([Document.updateFields()](../../../Aspose.Words/document/updateFields/#default)) may also be necessary to get the correct result.
+[Document.updateActualReferenceMarks()](../../../aspose.words/document/updateActualReferenceMarks/#default) method.
+Updating fields ([Document.updateFields()](../../../aspose.words/document/updateFields/#default)) may also be necessary to get the correct result.
 
 
 

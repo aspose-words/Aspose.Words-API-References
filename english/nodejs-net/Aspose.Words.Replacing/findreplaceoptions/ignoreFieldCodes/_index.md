@@ -23,7 +23,7 @@ get ignoreFieldCodes(): boolean
 ### Remarks
 
 This option affects only field codes (it does not ignore nodes between
-[NodeType.FieldSeparator](../../../Aspose.Words/nodetype/#FieldSeparator) and [NodeType.FieldEnd](../../../Aspose.Words/nodetype/#FieldEnd)).
+[NodeType.FieldSeparator](../../../aspose.words/nodetype/#FieldSeparator) and [NodeType.FieldEnd](../../../aspose.words/nodetype/#FieldEnd)).
 
 To ignore whole field, please use corresponding option [FindReplaceOptions.ignoreFields](../ignoreFields/).
 

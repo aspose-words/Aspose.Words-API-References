@@ -3,7 +3,7 @@ title: HtmlSaveOptions class
 linktitle: HtmlSaveOptions class
 articleTitle: HtmlSaveOptions class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Saving.HtmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Html](../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../Aspose.Words/saveformat/#Mhtml), [SaveFormat.Epub](../../Aspose.Words/saveformat/#Epub), [SaveFormat.Azw3](../../Aspose.Words/saveformat/#Azw3) or [SaveFormat.Mobi](../../Aspose.Words/saveformat/#Mobi) format"
+description: "Aspose.Words.Saving.HtmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub), [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../aspose.words/saveformat/#Mobi) format"
 type: docs
 weight: 270
 url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/
@@ -12,8 +12,8 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/
 ## HtmlSaveOptions class
 
 Can be used to specify additional options when saving a document into the
-[SaveFormat.Html](../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../Aspose.Words/saveformat/#Mhtml), [SaveFormat.Epub](../../Aspose.Words/saveformat/#Epub),
-[SaveFormat.Azw3](../../Aspose.Words/saveformat/#Azw3) or [SaveFormat.Mobi](../../Aspose.Words/saveformat/#Mobi) format.
+[SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub),
+[SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../aspose.words/saveformat/#Mobi) format.
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/nodejs-net/specify-save-options/) documentation article.
 
 
@@ -24,8 +24,8 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [HtmlSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Html](../../Aspose.Words/saveformat/#Html) format. |
-| [HtmlSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Html](../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../Aspose.Words/saveformat/#Mhtml), [SaveFormat.Epub](../../Aspose.Words/saveformat/#Epub), [SaveFormat.Azw3](../../Aspose.Words/saveformat/#Azw3) or [SaveFormat.Mobi](../../Aspose.Words/saveformat/#Mobi) format. |
+| [HtmlSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Html](../../aspose.words/saveformat/#Html) format. |
+| [HtmlSaveOptions(saveFormat)](./constructor/#saveformat) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub), [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../aspose.words/saveformat/#Mobi) format. |
 
 ### Properties
 
@@ -42,7 +42,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [dmlEffectsRenderingMode](../saveoptions/dmlEffectsRenderingMode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlRenderingMode](../saveoptions/dmlRenderingMode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [documentPartSavingCallback](./documentPartSavingCallback/) | Allows to control how document parts are saved when a document is saved to HTML or EPUB. |
-| [documentSplitCriteria](./documentSplitCriteria/) | Specifies how the document should be split when saving to [SaveFormat.Html](../../Aspose.Words/saveformat/#Html), [SaveFormat.Epub](../../Aspose.Words/saveformat/#Epub) or [SaveFormat.Azw3](../../Aspose.Words/saveformat/#Azw3) format.  Default is [DocumentSplitCriteria.None](../documentsplitcriteria/#None) for HTML and  [DocumentSplitCriteria.HeadingParagraph](../documentsplitcriteria/#HeadingParagraph) for EPUB and AZW3. |
+| [documentSplitCriteria](./documentSplitCriteria/) | Specifies how the document should be split when saving to [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) format.  Default is [DocumentSplitCriteria.None](../documentsplitcriteria/#None) for HTML and  [DocumentSplitCriteria.HeadingParagraph](../documentsplitcriteria/#HeadingParagraph) for EPUB and AZW3. |
 | [documentSplitHeadingLevel](./documentSplitHeadingLevel/) | Specifies the maximum level of headings at which to split the document. Default value is ``2``. |
 | [encoding](./encoding/) | Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is ``new UTF8Encoding(false)`` (UTF-8 without BOM). |
 | [exportCidUrlsForMhtmlResources](./exportCidUrlsForMhtmlResources/) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is ``False``. |
@@ -60,7 +60,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [exportPageSetup](./exportPageSetup/) | Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is ``False``. |
 | [exportRelativeFontSize](./exportRelativeFontSize/) | Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB. Default is ``False``. |
 | [exportRoundtripInformation](./exportRoundtripInformation/) | Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB. Default value is ``True`` for HTML and ``False`` for MHTML and EPUB. |
-| [exportShapesAsSvg](./exportShapesAsSvg/) | Controls whether [Shape](../../Aspose.Words.Drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is ``False``. |
+| [exportShapesAsSvg](./exportShapesAsSvg/) | Controls whether [Shape](../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is ``False``. |
 | [exportTextInputFormFieldAsText](./exportTextInputFormFieldAsText/) | Controls how text input form fields are saved to HTML or MHTML. Default value is ``False``. |
 | [exportTocPageNumbers](./exportTocPageNumbers/) | Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is ``False``. |
 | [exportXhtmlTransitional](./exportXhtmlTransitional/) | Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When ``True``, writes a DOCTYPE declaration in the document prior to the root element.  Default value is ``False``. When saving to EPUB or HTML5 ([HtmlVersion.Html5](../htmlversion/#Html5)) the DOCTYPE declaration is always written. |
@@ -81,18 +81,18 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [replaceBackslashWithYenSign](./replaceBackslashWithYenSign/) | Specifies whether backslash characters should be replaced with yen signs. Default value is ``False``. |
-| [resolveFontNames](./resolveFontNames/) | Specifies whether font family names used in the document are resolved and substituted according to [Document.fontSettings](../../Aspose.Words/document/fontSettings/) when being written into HTML-based formats. |
+| [resolveFontNames](./resolveFontNames/) | Specifies whether font family names used in the document are resolved and substituted according to [Document.fontSettings](../../aspose.words/document/fontSettings/) when being written into HTML-based formats. |
 | [resourceFolder](./resourceFolder/) | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |
 | [resourceFolderAlias](./resourceFolderAlias/) | Specifies the name of the folder used to construct URIs of all resources written into an HTML document. Default is an empty string. |
-| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.Html](../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../Aspose.Words/saveformat/#Mhtml), [SaveFormat.Epub](../../Aspose.Words/saveformat/#Epub), [SaveFormat.Azw3](../../Aspose.Words/saveformat/#Azw3) or [SaveFormat.Mobi](../../Aspose.Words/saveformat/#Mobi). |
+| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub), [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../aspose.words/saveformat/#Mobi). |
 | [scaleImageToShapeSize](./scaleImageToShapeSize/) | Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB. Default value is ``True``. |
 | [tableWidthOutputMode](./tableWidthOutputMode/) | Controls how table, row and cell widths are exported to HTML, MHTML or EPUB. Default value is [HtmlElementSizeOutputMode.All](../htmlelementsizeoutputmode/#All). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../Aspose.Words.Properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../Aspose.Words.Properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 

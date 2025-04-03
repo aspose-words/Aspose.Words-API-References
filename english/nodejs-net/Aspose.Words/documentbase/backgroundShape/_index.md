@@ -21,13 +21,13 @@ get backgroundShape(): Aspose.Words.Drawing.Shape
 
 ### Remarks
 
-Microsoft Word allows only a shape that has its [ShapeBase.shapeType](../../../Aspose.Words.Drawing/shapebase/shapeType/) property equal
-to [ShapeType.Rectangle](../../../Aspose.Words.Drawing/shapetype/#Rectangle) to be used as a background shape for a document.
+Microsoft Word allows only a shape that has its [ShapeBase.shapeType](../../../aspose.words.drawing/shapebase/shapeType/) property equal
+to [ShapeType.Rectangle](../../../aspose.words.drawing/shapetype/#Rectangle) to be used as a background shape for a document.
 
 Microsoft Word supports only the fill properties of a background shape. All other properties
 are ignored.
 
-Setting this property to a non-null value will also set the [ViewOptions.displayBackgroundShape](../../../Aspose.Words.Settings/viewoptions/displayBackgroundShape/) to ``True``.
+Setting this property to a non-null value will also set the [ViewOptions.displayBackgroundShape](../../../aspose.words.settings/viewoptions/displayBackgroundShape/) to ``True``.
 
 
 
@@ -75,6 +75,6 @@ doc.save(base.artifactsDir + "DocumentBase.backgroundShape.image.pdf", saveOptio
 
 * module [Aspose.Words](../../)
 * class [DocumentBase](../)
-* property [ViewOptions.displayBackgroundShape](../../../Aspose.Words.Settings/viewoptions/displayBackgroundShape/)
+* property [ViewOptions.displayBackgroundShape](../../../aspose.words.settings/viewoptions/displayBackgroundShape/)
 * property [DocumentBase.pageColor](../pageColor/)
 

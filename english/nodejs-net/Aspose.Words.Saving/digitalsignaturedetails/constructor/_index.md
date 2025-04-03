@@ -21,8 +21,8 @@ DigitalSignatureDetails(certificateHolder: Aspose.Words.DigitalSignatures.Certif
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| certificateHolder | [CertificateHolder](../../../Aspose.Words.DigitalSignatures/certificateholder/) | A certificate holder which contains the certificate itself. |
-| signOptions | [SignOptions](../../../Aspose.Words.DigitalSignatures/signoptions/) | Signature options to use for signing a document. |
+| certificateHolder | [CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/) | A certificate holder which contains the certificate itself. |
+| signOptions | [SignOptions](../../../aspose.words.digitalsignatures/signoptions/) | Signature options to use for signing a document. |
 
 ### See Also
 

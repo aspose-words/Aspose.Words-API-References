@@ -3,7 +3,7 @@ title: RevisionOptions.revisedPropertiesColor property
 linktitle: revisedPropertiesColor property
 articleTitle: revisedPropertiesColor property
 second_title: Aspose.Words for NodeJs
-description: "RevisionOptions.revisedPropertiesColor property. Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FormatChange](../../../Aspose.Words/revisiontype/#FormatChange) Default value is [RevisionColor.NoHighlight](../../revisioncolor/#NoHighlight)."
+description: "RevisionOptions.revisedPropertiesColor property. Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FormatChange](../../../aspose.words/revisiontype/#FormatChange) Default value is [RevisionColor.NoHighlight](../../revisioncolor/#NoHighlight)."
 type: docs
 weight: 130
 url: /nodejs-net/Aspose.Words.Layout/revisionoptions/revisedPropertiesColor/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Layout/revisionoptions/revisedPropertiesColor/
 
 ## RevisionOptions.revisedPropertiesColor property
 
-Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FormatChange](../../../Aspose.Words/revisiontype/#FormatChange)
+Allows to specify the color to be used for content with changes of formatting properties [RevisionType.FormatChange](../../../aspose.words/revisiontype/#FormatChange)
 Default value is [RevisionColor.NoHighlight](../../revisioncolor/#NoHighlight).
 
 

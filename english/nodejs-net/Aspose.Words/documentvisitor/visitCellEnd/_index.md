@@ -20,7 +20,7 @@ visitCellEnd(cell: Aspose.Words.Tables.Cell)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| cell | [Cell](../../../Aspose.Words.Tables/cell/) | The object that is being visited. |
+| cell | [Cell](../../../aspose.words.tables/cell/) | The object that is being visited. |
 
 ### Returns
 

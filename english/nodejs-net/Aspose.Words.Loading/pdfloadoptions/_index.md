@@ -3,7 +3,7 @@ title: PdfLoadOptions class
 linktitle: PdfLoadOptions class
 articleTitle: PdfLoadOptions class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a [Document](../../Aspose.Words/document/) object"
+description: "Aspose.Words.Loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 130
 url: /nodejs-net/Aspose.Words.Loading/pdfloadoptions/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Loading/pdfloadoptions/
 
 ## PdfLoadOptions class
 
-Allows to specify additional options when loading Pdf document into a [Document](../../Aspose.Words/document/) object.
+Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object.
 To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article.
 
 
@@ -35,8 +35,8 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [fontSettings](../loadoptions/fontSettings/) | Allows to specify document font settings.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [ignoreOleData](../loadoptions/ignoreOleData/) | Specifies whether to ignore the OLE data.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [languagePreferences](../loadoptions/languagePreferences/) | Gets language preferences that will be used when document is loading.<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [loadFormat](../loadoptions/loadFormat/) | Specifies the format of the document to be loaded. Default is [LoadFormat.Auto](../../Aspose.Words/loadformat/#Auto).<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [mswVersion](../loadoptions/mswVersion/) | Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.Word2019](../../Aspose.Words.Settings/mswordversion/#Word2019)<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [loadFormat](../loadoptions/loadFormat/) | Specifies the format of the document to be loaded. Default is [LoadFormat.Auto](../../aspose.words/loadformat/#Auto).<br>(Inherited from [LoadOptions](../loadoptions/)) |
+| [mswVersion](../loadoptions/mswVersion/) | Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.Word2019](../../aspose.words.settings/mswordversion/#Word2019)<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [pageCount](./pageCount/) | Gets or sets the number of pages to read. Default is MaxValue which means all pages of the document will be read. |
 | [pageIndex](./pageIndex/) | Gets or sets the 0-based index of the first page to read. Default is 0. |
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``None`` or empty string. Default is ``None``.<br>(Inherited from [LoadOptions](../loadoptions/)) |

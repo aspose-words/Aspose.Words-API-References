@@ -21,7 +21,7 @@ get listId(): number
 ### Remarks
 
 You do not normally need to use this property. But if you use it, you normally do so
-in conjunction with the [ListCollection.getListByListId()](../../../Aspose.Words.Lists/listcollection/getListByListId/#number) method to find a
+in conjunction with the [ListCollection.getListByListId()](../../../aspose.words.lists/listcollection/getListByListId/#number) method to find a
 list by its identifier.
 
 

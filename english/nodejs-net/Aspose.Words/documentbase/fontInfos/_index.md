@@ -64,6 +64,6 @@ doc.save(base.artifactsDir + "Font.FontInfoCollection.docx");
 
 * module [Aspose.Words](../../)
 * class [DocumentBase](../)
-* class [FontInfoCollection](../../../Aspose.Words.Fonts/fontinfocollection/)
-* class [FontInfo](../../../Aspose.Words.Fonts/fontinfo/)
+* class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
+* class [FontInfo](../../../aspose.words.fonts/fontinfo/)
 

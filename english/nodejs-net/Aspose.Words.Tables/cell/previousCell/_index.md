@@ -22,7 +22,7 @@ get previousCell(): Aspose.Words.Tables.Cell
 ### Remarks
 
 The method can be used when you need to have typed access to cells of a [Row](../../row/). If a
-[StructuredDocumentTag](../../../Aspose.Words.Markup/structureddocumenttag/) node is found in a row instead of a cell, it is automatically
+[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) node is found in a row instead of a cell, it is automatically
 traversed to get a cell contained within.
 
 

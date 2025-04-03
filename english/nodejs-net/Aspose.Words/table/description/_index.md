@@ -24,7 +24,7 @@ get description(): string
 The default value is an empty string.
 
 This property is meaningful for ISO/IEC 29500 compliant DOCX documents
-([OoxmlCompliance](../../../Aspose.Words.Saving/ooxmlcompliance/)).
+([OoxmlCompliance](../../../aspose.words.saving/ooxmlcompliance/)).
 When saved to pre-ISO/IEC 29500 formats, the property is ignored.
 
 

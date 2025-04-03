@@ -21,7 +21,7 @@ get imagesFolder(): string
 
 ### Remarks
 
-When you save a [Document](../../../Aspose.Words/document/) in HTML format, Aspose.Words needs to save all 
+When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all 
 images embedded in the document as standalone files. [HtmlSaveOptions.imagesFolder](./) 
 allows you to specify where the images will be saved and [HtmlSaveOptions.imagesFolderAlias](../imagesFolderAlias/) 
 allows to specify how the image URIs will be constructed.

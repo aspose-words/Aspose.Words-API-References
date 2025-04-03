@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/pssaveoptions/saveFormat/
 ## PsSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Ps](../../../Aspose.Words/saveformat/#Ps).
+Can only be [SaveFormat.Ps](../../../aspose.words/saveformat/#Ps).
 
 
 

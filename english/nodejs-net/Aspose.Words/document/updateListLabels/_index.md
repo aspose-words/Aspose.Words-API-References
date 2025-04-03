@@ -20,8 +20,8 @@ updateListLabels()
 
 ### Remarks
 
-This method updates list label properties such as [ListLabel.labelValue](../../../Aspose.Words.Lists/listlabel/labelValue/) and
-[ListLabel.labelString](../../../Aspose.Words.Lists/listlabel/labelString/) for each [Paragraph.listLabel](../../paragraph/listLabel/) object in the document.
+This method updates list label properties such as [ListLabel.labelValue](../../../aspose.words.lists/listlabel/labelValue/) and
+[ListLabel.labelString](../../../aspose.words.lists/listlabel/labelString/) for each [Paragraph.listLabel](../../paragraph/listLabel/) object in the document.
 
 Also, this method is sometimes implicitly called when updating fields in the document. This is required
 because some fields that may reference list numbers (such as TOC or REF) need them be up-to-date.

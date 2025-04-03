@@ -199,6 +199,6 @@ doc.save(base.artifactsDir + "InlineStory.startNumber.docx");
 ### See Also
 
 * module [Aspose.Words.Notes](../)
-* property [Document.endnoteOptions](../../Aspose.Words/document/endnoteOptions/)
-* property [PageSetup.endnoteOptions](../../Aspose.Words/pagesetup/endnoteOptions/)
+* property [Document.endnoteOptions](../../aspose.words/document/endnoteOptions/)
+* property [PageSetup.endnoteOptions](../../aspose.words/pagesetup/endnoteOptions/)
 

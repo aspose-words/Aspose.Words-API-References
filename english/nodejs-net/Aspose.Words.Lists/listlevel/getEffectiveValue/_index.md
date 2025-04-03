@@ -12,8 +12,8 @@ url: /nodejs-net/Aspose.Words.Lists/listlevel/getEffectiveValue/
 ## getEffectiveValue(index, numberStyle, customNumberStyleFormat) {#number_numberstyle_string}
 
 Reports the string representation of the [ListLevel](../) object for the specified index
-of the list item. Parameters specify the [NumberStyle](../../../Aspose.Words/numberstyle/) and an optional format string
-used when [NumberStyle.Custom](../../../Aspose.Words/numberstyle/#Custom) is specified.
+of the list item. Parameters specify the [NumberStyle](../../../aspose.words/numberstyle/) and an optional format string
+used when [NumberStyle.Custom](../../../aspose.words/numberstyle/#Custom) is specified.
 
 
 
@@ -24,8 +24,8 @@ getEffectiveValue(index: numbernumberStyle: Aspose.Words.NumberStylecustomNumber
 | Parameter | Type | Description |
 | --- | --- | --- |
 | index | number | The index of the list item (must be in the range from 1 to 32767). |
-| numberStyle | [NumberStyle](../../../Aspose.Words/numberstyle/) | The [NumberStyle](../../../Aspose.Words/numberstyle/) of the [ListLevel](../) object. |
-| customNumberStyleFormat | string | The optional format string used when [NumberStyle.Custom](../../../Aspose.Words/numberstyle/#Custom) is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be ``None`` or empty. |
+| numberStyle | [NumberStyle](../../../aspose.words/numberstyle/) | The [NumberStyle](../../../aspose.words/numberstyle/) of the [ListLevel](../) object. |
+| customNumberStyleFormat | string | The optional format string used when [NumberStyle.Custom](../../../aspose.words/numberstyle/#Custom) is specified (e.g. "a, ç, ĝ, ..."). In other cases, this parameter must be ``None`` or empty. |
 
 ### Returns
 

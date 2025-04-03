@@ -21,12 +21,12 @@ translate(sourceDocument: Aspose.Words.DocumenttargetLanguage: Aspose.Words.AI.L
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDocument | [Document](../../../Aspose.Words/document/) | The document to be translated. |
+| sourceDocument | [Document](../../../aspose.words/document/) | The document to be translated. |
 | targetLanguage | [Language](../../language/) | The language into which the document will be translated. |
 
 ### Returns
 
-A new [Document](../../../Aspose.Words/document/) object containing the translated document.
+A new [Document](../../../aspose.words/document/) object containing the translated document.
 
 
 ### See Also

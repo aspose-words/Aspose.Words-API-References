@@ -22,7 +22,7 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 Items are [FontInfo](../fontinfo/) objects.
 
 You do not create instances of this class directly. 
-Use the [DocumentBase.fontInfos](../../Aspose.Words/documentbase/fontInfos/) property to access the collection of fonts 
+Use the [DocumentBase.fontInfos](../../aspose.words/documentbase/fontInfos/) property to access the collection of fonts 
 defined in the document.
 
 
@@ -80,5 +80,5 @@ doc.save(base.artifactsDir + "Font.FontInfoCollection.docx");
 
 * module [Aspose.Words.Fonts](../)
 * class [FontInfo](../fontinfo/)
-* property [DocumentBase.fontInfos](../../Aspose.Words/documentbase/fontInfos/)
+* property [DocumentBase.fontInfos](../../aspose.words/documentbase/fontInfos/)
 

@@ -22,7 +22,7 @@ get resourcesFolderAlias(): string
 
 ### Remarks
 
-When you save a [Document](../../../Aspose.Words/document/) in fixed page Xaml format, Aspose.Words needs to save all
+When you save a [Document](../../../aspose.words/document/) in fixed page Xaml format, Aspose.Words needs to save all
 images embedded in the document as standalone files. [XamlFixedSaveOptions.resourcesFolder](../resourcesFolder/)
 allows you to specify where the images will be saved and [XamlFixedSaveOptions.resourcesFolderAlias](./)
 allows to specify how the image URIs will be constructed.

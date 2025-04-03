@@ -198,6 +198,6 @@ doc.save(base.artifactsDir + "InlineStory.startNumber.docx");
 ### See Also
 
 * module [Aspose.Words.Notes](../)
-* property [Document.footnoteOptions](../../Aspose.Words/document/footnoteOptions/)
-* property [PageSetup.footnoteOptions](../../Aspose.Words/pagesetup/footnoteOptions/)
+* property [Document.footnoteOptions](../../aspose.words/document/footnoteOptions/)
+* property [PageSetup.footnoteOptions](../../aspose.words/pagesetup/footnoteOptions/)
 

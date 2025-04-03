@@ -20,7 +20,7 @@ OfficeMathRenderer(math: Aspose.Words.Math.OfficeMath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| math | [OfficeMath](../../../Aspose.Words.Math/officemath/) | The [OfficeMath](../../../Aspose.Words.Math/officemath/) object that you want to render. |
+| math | [OfficeMath](../../../aspose.words.math/officemath/) | The [OfficeMath](../../../aspose.words.math/officemath/) object that you want to render. |
 
 ### See Also
 

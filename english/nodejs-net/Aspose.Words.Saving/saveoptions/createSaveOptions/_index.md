@@ -20,7 +20,7 @@ createSaveOptions(saveFormat: Aspose.Words.SaveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../../../Aspose.Words/saveformat/) | The save format for which to create a save options object. |
+| saveFormat | [SaveFormat](../../../aspose.words/saveformat/) | The save format for which to create a save options object. |
 
 ### Returns
 

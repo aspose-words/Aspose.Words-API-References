@@ -22,7 +22,7 @@ get rotation(): number
 
 The range of acceptable values is from -180 to 180 inclusive. The default value is 0.
 
-If the [ChartDataLabel.orientation](../orientation/) value is [ShapeTextOrientation.Horizontal](../../../Aspose.Words.Drawing/shapetextorientation/#Horizontal), the
+If the [ChartDataLabel.orientation](../orientation/) value is [ShapeTextOrientation.Horizontal](../../../aspose.words.drawing/shapetextorientation/#Horizontal), the
 label shape, if it exists, is rotated along with the label text. Otherwise, only the label text is rotated.
 
 

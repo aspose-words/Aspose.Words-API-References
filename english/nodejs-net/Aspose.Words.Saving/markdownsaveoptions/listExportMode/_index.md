@@ -23,7 +23,7 @@ get listExportMode(): Aspose.Words.Saving.MarkdownListExportMode
 ### Remarks
 
 When this property is set to [MarkdownListExportMode.PlainText](../../markdownlistexportmode/#PlainText) all list labels are
-updated using [Document.updateListLabels()](../../../Aspose.Words/document/updateListLabels/#default) and exported with their actual values. Such lists
+updated using [Document.updateListLabels()](../../../aspose.words/document/updateListLabels/#default) and exported with their actual values. Such lists
 can be non-compatible with Markdown format and will be recognized as plain text upon importing in this case.
 
 When this property is set to [MarkdownListExportMode.MarkdownSyntax](../../markdownlistexportmode/#MarkdownSyntax), writer tries to export

@@ -20,7 +20,7 @@ appendChild(newChild: Aspose.Words.Node)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../../Aspose.Words/node/) | The node to add. |
+| newChild | [Node](../../../aspose.words/node/) | The node to add. |
 
 ### Returns
 

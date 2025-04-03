@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words/document/updateThumbnail/
 
 ## updateThumbnail(options) {#thumbnailgeneratingoptions}
 
-Updates [BuiltInDocumentProperties.thumbnail](../../../Aspose.Words.Properties/builtindocumentproperties/thumbnail/) of the document according to the specified options.
+Updates [BuiltInDocumentProperties.thumbnail](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document according to the specified options.
 
 
 
@@ -21,18 +21,18 @@ updateThumbnail(options: Aspose.Words.Rendering.ThumbnailGeneratingOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| options | [ThumbnailGeneratingOptions](../../../Aspose.Words.Rendering/thumbnailgeneratingoptions/) | The generating options to use. |
+| options | [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/) | The generating options to use. |
 
 ### Remarks
 
-The [ThumbnailGeneratingOptions](../../../Aspose.Words.Rendering/thumbnailgeneratingoptions/) allows you to specify the source of thumbnail, size and other options.
+The [ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/) allows you to specify the source of thumbnail, size and other options.
 If attempt to generate thumbnail fails, doesn't change one.
 
 
 
 ## updateThumbnail() {#default}
 
-Updates [BuiltInDocumentProperties.thumbnail](../../../Aspose.Words.Properties/builtindocumentproperties/thumbnail/) of the document using default options.
+Updates [BuiltInDocumentProperties.thumbnail](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document using default options.
 
 
 

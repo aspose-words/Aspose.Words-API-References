@@ -20,7 +20,7 @@ imageTypeToExtension(imageType: Aspose.Words.Drawing.ImageType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageType | [ImageType](../../../Aspose.Words.Drawing/imagetype/) |  |
+| imageType | [ImageType](../../../aspose.words.drawing/imagetype/) |  |
 
 ### Exceptions
 

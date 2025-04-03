@@ -20,7 +20,7 @@ get verticalAlignment(): Aspose.Words.Tables.CellVerticalAlignment
 
 ### Remarks
 
-The default value is [CellVerticalAlignment.Top](../../../Aspose.Words.Tables/cellverticalalignment/#Top).
+The default value is [CellVerticalAlignment.Top](../../../aspose.words.tables/cellverticalalignment/#Top).
 
 
 

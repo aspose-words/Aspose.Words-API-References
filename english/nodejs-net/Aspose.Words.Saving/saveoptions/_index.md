@@ -21,7 +21,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Remarks
 
 An instance of the [SaveOptions](./) class or any derived class is passed to the stream Aspose.Words.Document.Save(System.IO.Stream,Aspose.Words.Saving.SaveOptions)
-or string [Document.save()](../../Aspose.Words/document/save/#string_saveoptions) overloads for the user to define custom options when saving a document.
+or string [Document.save()](../../aspose.words/document/save/#string_saveoptions) overloads for the user to define custom options when saving a document.
 
 
 
@@ -42,10 +42,10 @@ or string [Document.save()](../../Aspose.Words/document/save/#string_saveoptions
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. |
 | [tempFolder](./tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used. |
 | [updateAmbiguousTextFont](./updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used. |
-| [updateCreatedTimeProperty](./updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../Aspose.Words.Properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``; |
+| [updateCreatedTimeProperty](./updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``; |
 | [updateFields](./updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``. |
-| [updateLastPrintedProperty](./updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving. |
-| [updateLastSavedTimeProperty](./updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../Aspose.Words.Properties/builtindocumentproperties/lastSavedTime/) property is updated before saving. |
+| [updateLastPrintedProperty](./updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving. |
+| [updateLastSavedTimeProperty](./updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving. |
 | [useAntiAliasing](./useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
 | [useHighQualityRendering](./useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms. |
 

@@ -108,7 +108,7 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insertField(fieldCode, fieldValue)](./insertField/#string_string) | Inserts a Word field into a document without updating the field result. |
 |[ insertFootnote(footnoteType, footnoteText)](./insertFootnote/#footnotetype_string) | Inserts a footnote or endnote into the document. |
 |[ insertFootnote(footnoteType, footnoteText, referenceMark)](./insertFootnote/#footnotetype_string_string) | Inserts a footnote or endnote into the document. |
-|[ insertForms2OleControl(forms2OleControl)](./insertForms2OleControl/#forms2olecontrol) | Inserts [Forms2OleControl](../../Aspose.Words.Drawing.Ole/forms2olecontrol/) object into current position. |
+|[ insertForms2OleControl(forms2OleControl)](./insertForms2OleControl/#forms2olecontrol) | Inserts [Forms2OleControl](../../aspose.words.drawing.ole/forms2olecontrol/) object into current position. |
 |[ insertGroupShape(shapes)](./insertGroupShape/#shapebase[]) | Groups the shapes passed as a parameter into a new GroupShape node which is inserted into the current position. |
 |[ insertGroupShape(left, top, width, height, shapes)](./insertGroupShape/#number_number_number_number_shapebase[]) | Groups the shapes passed as a parameter into a new GroupShape node of the specified size which is inserted into the specified position. |
 |[ insertHorizontalRule()](./insertHorizontalRule/#default) | Inserts a horizontal rule shape into the document. |
@@ -144,7 +144,7 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insertShape(shapeType, horzPos, left, vertPos, top, width, height, wrapType)](./insertShape/#shapetype_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype) | Inserts free-floating shape with specified position, size and text wrap type. |
 |[ insertSignatureLine(signatureLineOptions)](./insertSignatureLine/#signaturelineoptions) | Inserts a signature line at the current position. |
 |[ insertSignatureLine(signatureLineOptions, horzPos, left, vertPos, top, wrapType)](./insertSignatureLine/#signaturelineoptions_relativehorizontalposition_number_relativeverticalposition_number_wraptype) | Inserts a signature line at the specified position. |
-|[ insertStructuredDocumentTag(type)](./insertStructuredDocumentTag/#sdttype) | Inserts a [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/) into the document. |
+|[ insertStructuredDocumentTag(type)](./insertStructuredDocumentTag/#sdttype) | Inserts a [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) into the document. |
 |[ insertStyleSeparator()](./insertStyleSeparator/#default) | Inserts style separator into the document. |
 |[ insertTableOfContents(switches)](./insertTableOfContents/#string) | Inserts a TOC (table of contents) field into the document. |
 |[ insertTextInput(name, type, format, fieldValue, maxLength)](./insertTextInput/#string_textformfieldtype_string_string_number) | Inserts a text form field at the current position. |

@@ -22,7 +22,7 @@ get alignment(): Aspose.Words.ParagraphAlignment
 
 This property has effect only for multi-line labels.
 
-The default value is [ParagraphAlignment.Center](../../../Aspose.Words/paragraphalignment/#Center).
+The default value is [ParagraphAlignment.Center](../../../aspose.words/paragraphalignment/#Center).
 
 .
 

@@ -20,7 +20,7 @@ asOfficeMath()
 
 ### Returns
 
-Returns ``None`` if field code is empty or invalid, otherwise an [OfficeMath](../../../Aspose.Words.Math/officemath/) instance.
+Returns ``None`` if field code is empty or invalid, otherwise an [OfficeMath](../../../aspose.words.math/officemath/) instance.
 
 
 

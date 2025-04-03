@@ -20,7 +20,7 @@ visitFieldStart(fieldStart: Aspose.Words.Fields.FieldStart)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldStart | [FieldStart](../../../Aspose.Words.Fields/fieldstart/) | The object that is being visited. |
+| fieldStart | [FieldStart](../../../aspose.words.fields/fieldstart/) | The object that is being visited. |
 
 ### Remarks
 

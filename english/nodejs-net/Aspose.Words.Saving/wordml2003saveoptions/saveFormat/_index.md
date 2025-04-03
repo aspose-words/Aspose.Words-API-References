@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/wordml2003saveoptions/saveFormat/
 ## WordML2003SaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.WordML](../../../Aspose.Words/saveformat/#WordML).
+Can only be [SaveFormat.WordML](../../../aspose.words/saveformat/#WordML).
 
 
 

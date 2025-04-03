@@ -17,7 +17,7 @@ localToParent(value: Aspose.Words.JSPointF)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [JSPointF](../../../Aspose.Words/jspointf/) |  |
+| value | [JSPointF](../../../aspose.words/jspointf/) |  |
 
 ### See Also
 

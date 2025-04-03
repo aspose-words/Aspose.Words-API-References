@@ -20,9 +20,9 @@ get orientation(): Aspose.Words.Drawing.ShapeTextOrientation
 
 ### Remarks
 
-The default value is [ShapeTextOrientation.Horizontal](../../../Aspose.Words.Drawing/shapetextorientation/#Horizontal).
+The default value is [ShapeTextOrientation.Horizontal](../../../aspose.words.drawing/shapetextorientation/#Horizontal).
 
-Note that some [ShapeTextOrientation](../../../Aspose.Words.Drawing/shapetextorientation/) values do not affect the orientation of tick label text
+Note that some [ShapeTextOrientation](../../../aspose.words.drawing/shapetextorientation/) values do not affect the orientation of tick label text
 in value axes.
 
 

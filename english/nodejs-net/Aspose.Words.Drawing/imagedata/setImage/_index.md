@@ -17,7 +17,7 @@ setImage(image: Aspose.Words.JSImage)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image | [JSImage](../../../Aspose.Words/jsimage/) |  |
+| image | [JSImage](../../../aspose.words/jsimage/) |  |
 
 ## setImage(stream) {#buffer}
 

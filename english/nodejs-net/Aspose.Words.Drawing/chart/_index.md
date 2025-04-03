@@ -25,7 +25,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nod
 | [axisX](./axisX/) | Provides access to properties of the primary X axis of the chart. |
 | [axisY](./axisY/) | Provides access to properties of the primary Y axis of the chart. |
 | [axisZ](./axisZ/) | Provides access to properties of the Z axis of the chart. |
-| [dataTable](./dataTable/) | Provides access to properties of a data table of this chart. The data table can be shown using the [ChartDataTable.show](../../Aspose.Words.Drawing.Charts/chartdatatable/show/) property. |
+| [dataTable](./dataTable/) | Provides access to properties of a data table of this chart. The data table can be shown using the [ChartDataTable.show](../../aspose.words.drawing.charts/chartdatatable/show/) property. |
 | [format](./format/) | Provides access to fill and line formatting of the chart. |
 | [legend](./legend/) | Provides access to the chart legend properties. |
 | [series](./series/) | Provides access to series collection. |

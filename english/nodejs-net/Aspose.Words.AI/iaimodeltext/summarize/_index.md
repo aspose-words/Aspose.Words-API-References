@@ -21,7 +21,7 @@ summarize(sourceDocument: Aspose.Words.Documentoptions: Aspose.Words.AI.Summariz
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDocument | [Document](../../../Aspose.Words/document/) | The document to be summarized. |
+| sourceDocument | [Document](../../../aspose.words/document/) | The document to be summarized. |
 | options | [SummarizeOptions](../../summarizeoptions/) | Optional settings to control the summary length and other parameters. |
 
 ### Returns
@@ -41,7 +41,7 @@ summarize(sourceDocuments: Aspose.Words.Document[]options: Aspose.Words.AI.Summa
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDocuments | [Document](../../../Aspose.Words/document/)[] | An array of documents to be summarized. |
+| sourceDocuments | [Document](../../../aspose.words/document/)[] | An array of documents to be summarized. |
 | options | [SummarizeOptions](../../summarizeoptions/) | Optional settings to control the summary length and other parameters |
 
 ### Returns

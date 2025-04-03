@@ -20,7 +20,7 @@ getEndPageIndex(node: Aspose.Words.Node)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../../Aspose.Words/node/) |  |
+| node | [Node](../../../aspose.words/node/) |  |
 
 ### Examples
 

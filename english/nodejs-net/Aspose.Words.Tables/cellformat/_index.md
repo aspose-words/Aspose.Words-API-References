@@ -30,7 +30,7 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/nod
 | [orientation](./orientation/) | Returns or sets the orientation of text in a table cell. |
 | [preferredWidth](./preferredWidth/) | Returns or sets the preferred width of the cell. |
 | [rightPadding](./rightPadding/) | Returns or sets the amount of space (in points) to add to the right of the contents of cell. |
-| [shading](./shading/) | Returns a [Shading](../../Aspose.Words/shading/) object that refers to the shading formatting for the cell. |
+| [shading](./shading/) | Returns a [Shading](../../aspose.words/shading/) object that refers to the shading formatting for the cell. |
 | [topPadding](./topPadding/) | Returns or sets the amount of space (in points) to add above the contents of cell. |
 | [verticalAlignment](./verticalAlignment/) | Returns or sets the vertical alignment of text in the cell. |
 | [verticalMerge](./verticalMerge/) | Specifies how the cell is merged with other cells vertically. |

@@ -20,7 +20,7 @@ visitSmartTagEnd(smartTag: Aspose.Words.Markup.SmartTag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| smartTag | [SmartTag](../../../Aspose.Words.Markup/smarttag/) | The object that is being visited. |
+| smartTag | [SmartTag](../../../aspose.words.markup/smarttag/) | The object that is being visited. |
 
 ### Returns
 

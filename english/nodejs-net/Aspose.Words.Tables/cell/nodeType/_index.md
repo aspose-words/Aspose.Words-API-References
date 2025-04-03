@@ -3,7 +3,7 @@ title: Cell.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
 second_title: Aspose.Words for NodeJs
-description: "Cell.nodeType property. Returns [NodeType.Cell](../../../Aspose.Words/nodetype/#Cell)."
+description: "Cell.nodeType property. Returns [NodeType.Cell](../../../aspose.words/nodetype/#Cell)."
 type: docs
 weight: 80
 url: /nodejs-net/Aspose.Words.Tables/cell/nodeType/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Tables/cell/nodeType/
 
 ## Cell.nodeType property
 
-Returns [NodeType.Cell](../../../Aspose.Words/nodetype/#Cell).
+Returns [NodeType.Cell](../../../aspose.words/nodetype/#Cell).
 
 
 

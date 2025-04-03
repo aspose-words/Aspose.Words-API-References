@@ -23,7 +23,7 @@ get isLayoutInCell(): boolean
 The default value is ``True``.
 
 Has effect only for top level shapes, the property [ShapeBase.wrapType](../wrapType/) of which is set to value
-other than [Inline](../../../Aspose.Words/inline/).
+other than [Inline](../../../aspose.words/inline/).
 
 
 

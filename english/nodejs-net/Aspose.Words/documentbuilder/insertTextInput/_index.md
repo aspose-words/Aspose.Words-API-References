@@ -21,7 +21,7 @@ insertTextInput(name: stringtype: Aspose.Words.Fields.TextFormFieldTypeformat: s
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | The name of the form field. Can be an empty string. |
-| type | [TextFormFieldType](../../../Aspose.Words.Fields/textformfieldtype/) | Specifies the type of the text form field. |
+| type | [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/) | Specifies the type of the text form field. |
 | format | string | Format string used to format the value of the form field. |
 | fieldValue | string | Text that will be shown in the field. |
 | maxLength | number | Maximum length the user can enter into the form field. Set to zero for unlimited length. |

@@ -20,7 +20,7 @@ ShapeRenderer(shape: Aspose.Words.Drawing.ShapeBase)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [ShapeBase](../../../Aspose.Words.Drawing/shapebase/) | The DrawinML shape object that you want to render. |
+| shape | [ShapeBase](../../../aspose.words.drawing/shapebase/) | The DrawinML shape object that you want to render. |
 
 ### See Also
 

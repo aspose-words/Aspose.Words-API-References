@@ -20,7 +20,7 @@ visitOfficeMathEnd(officeMath: Aspose.Words.Math.OfficeMath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| officeMath | [OfficeMath](../../../Aspose.Words.Math/officemath/) | The object that is being visited. |
+| officeMath | [OfficeMath](../../../aspose.words.math/officemath/) | The object that is being visited. |
 
 ### Returns
 

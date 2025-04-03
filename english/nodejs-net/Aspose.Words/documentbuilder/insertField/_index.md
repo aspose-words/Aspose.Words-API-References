@@ -20,7 +20,7 @@ insertField(fieldType: Aspose.Words.Fields.FieldTypeupdateField: boolean)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [FieldType](../../../Aspose.Words.Fields/fieldtype/) | The type of the field to append. |
+| fieldType | [FieldType](../../../aspose.words.fields/fieldtype/) | The type of the field to append. |
 | updateField | boolean | Specifies whether to update the field immediately. |
 
 ### Remarks

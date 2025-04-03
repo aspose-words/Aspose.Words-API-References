@@ -3,7 +3,7 @@ title: PdfSaveOptions class
 linktitle: PdfSaveOptions class
 articleTitle: PdfSaveOptions class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Pdf](../../Aspose.Words/saveformat/#Pdf) format"
+description: "Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Pdf](../../aspose.words/saveformat/#Pdf) format"
 type: docs
 weight: 720
 url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/
 
 ## PdfSaveOptions class
 
-Can be used to specify additional options when saving a document into the [SaveFormat.Pdf](../../Aspose.Words/saveformat/#Pdf) format.
+Can be used to specify additional options when saving a document into the [SaveFormat.Pdf](../../aspose.words/saveformat/#Pdf) format.
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/nodejs-net/specify-save-options/) documentation article.
 
 
@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [PdfSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Pdf](../../Aspose.Words/saveformat/#Pdf) format. |
+| [PdfSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Pdf](../../aspose.words/saveformat/#Pdf) format. |
 
 ### Properties
 
@@ -35,7 +35,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [colorMode](../fixedpagesaveoptions/colorMode/) | Gets or sets a value determining how colors are rendered.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [compliance](./compliance/) | Specifies the PDF standards compliance level for output documents. |
 | [createNoteHyperlinks](./createNoteHyperlinks/) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is ``False``. |
-| [customPropertiesExport](./customPropertiesExport/) | Gets or sets a value determining the way [Document.customDocumentProperties](../../Aspose.Words/document/customDocumentProperties/) are exported to PDF file. |
+| [customPropertiesExport](./customPropertiesExport/) | Gets or sets a value determining the way [Document.customDocumentProperties](../../aspose.words/document/customDocumentProperties/) are exported to PDF file. |
 | [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [digitalSignatureDetails](./digitalSignatureDetails/) | Gets or sets the details for signing the output PDF document. |
 | [displayDocTitle](./displayDocTitle/) | A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary. |
@@ -71,16 +71,16 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [renderChoiceFormFieldBorder](./renderChoiceFormFieldBorder/) | Specifies whether to render PDF choice form field border. |
-| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Pdf](../../Aspose.Words/saveformat/#Pdf). |
+| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Pdf](../../aspose.words/saveformat/#Pdf). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [textCompression](./textCompression/) | Specifies compression type to be used for all textual content in the document. |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../Aspose.Words.Properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../Aspose.Words.Properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [useBookFoldPrintingSettings](./useBookFoldPrintingSettings/) | Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.multiplePages](../../Aspose.Words/pagesetup/multiplePages/). |
+| [useBookFoldPrintingSettings](./useBookFoldPrintingSettings/) | Gets or sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.multiplePages](../../aspose.words/pagesetup/multiplePages/). |
 | [useCoreFonts](./useCoreFonts/) | Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useSdtTagAsFormFieldName](./useSdtTagAsFormFieldName/) | Specifies whether to use SDT control Tag or Id property as a name of form field in PDF. |

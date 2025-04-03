@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/constructor/
 
 ## OdtSaveOptions() {#default}
 
-Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../../Aspose.Words/saveformat/#Odt) format.
+Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../../aspose.words/saveformat/#Odt) format.
 
 
 
@@ -21,7 +21,7 @@ OdtSaveOptions()
 
 ## OdtSaveOptions(password) {#string}
 
-Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../../Aspose.Words/saveformat/#Odt) format
+Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../../aspose.words/saveformat/#Odt) format
 encrypted with a password.
 
 
@@ -36,8 +36,8 @@ OdtSaveOptions(password: string)
 
 ## OdtSaveOptions(saveFormat) {#saveformat}
 
-Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../../Aspose.Words/saveformat/#Odt) or
-[SaveFormat.Ott](../../../Aspose.Words/saveformat/#Ott) format.
+Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Odt](../../../aspose.words/saveformat/#Odt) or
+[SaveFormat.Ott](../../../aspose.words/saveformat/#Ott) format.
 
 
 
@@ -47,7 +47,7 @@ OdtSaveOptions(saveFormat: Aspose.Words.SaveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| saveFormat | [SaveFormat](../../../Aspose.Words/saveformat/) | Can be [SaveFormat.Odt](../../../Aspose.Words/saveformat/#Odt) or [SaveFormat.Ott](../../../Aspose.Words/saveformat/#Ott). |
+| saveFormat | [SaveFormat](../../../aspose.words/saveformat/) | Can be [SaveFormat.Odt](../../../aspose.words/saveformat/#Odt) or [SaveFormat.Ott](../../../aspose.words/saveformat/#Ott). |
 
 ## See Also
 

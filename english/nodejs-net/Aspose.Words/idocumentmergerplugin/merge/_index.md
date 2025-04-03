@@ -22,7 +22,7 @@ merge(outputStream: BufferinputStreams: Buffer[]loadOptions: Aspose.Words.Loadin
 | --- | --- | --- |
 | outputStream | Buffer | The output stream. |
 | inputStreams | Buffer[] | The input streams. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/)[] | Load options for the input files. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/)[] | Load options for the input files. |
 
 ### See Also
 

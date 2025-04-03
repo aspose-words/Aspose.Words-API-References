@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/saveFormat/
 ## OdtSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can be [SaveFormat.Odt](../../../Aspose.Words/saveformat/#Odt) or [SaveFormat.Ott](../../../Aspose.Words/saveformat/#Ott).
+Can be [SaveFormat.Odt](../../../aspose.words/saveformat/#Odt) or [SaveFormat.Ott](../../../aspose.words/saveformat/#Ott).
 
 
 

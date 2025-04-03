@@ -20,14 +20,14 @@ BuildingBlock(glossaryDoc: Aspose.Words.BuildingBlocks.GlossaryDocument)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| glossaryDoc | [GlossaryDocument](../../../Aspose.Words.BuildingBlocks/glossarydocument/) | The owner document. |
+| glossaryDoc | [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) | The owner document. |
 
 ### Remarks
 
 When [BuildingBlock](../) is created, it belongs to the specified glossary document, 
 but is not yet part of the glossary document and [Node.parentNode](../../node/parentNode/) is ``None``.
 
-To append [BuildingBlock](../) to a [GlossaryDocument](../../../Aspose.Words.BuildingBlocks/glossarydocument/) use 
+To append [BuildingBlock](../) to a [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) use 
 [CompositeNode.appendChild()](../../compositenode/appendChild/#node).
 
 

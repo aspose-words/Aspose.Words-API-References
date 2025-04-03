@@ -24,13 +24,13 @@ removeAllSignatures(srcStream: BufferdstStream)
 
 Removes all digital signatures from source file and writes unsigned file to destination file.
 The following formats are compatible for digital signature removal:
-[LoadFormat.Doc](../../../Aspose.Words/loadformat/#Doc),
-[LoadFormat.Dot](../../../Aspose.Words/loadformat/#Dot),
-[LoadFormat.Docx](../../../Aspose.Words/loadformat/#Docx),
-[LoadFormat.Dotx](../../../Aspose.Words/loadformat/#Dotx),
-[LoadFormat.Docm](../../../Aspose.Words/loadformat/#Docm),
-[LoadFormat.Odt](../../../Aspose.Words/loadformat/#Odt),
-[LoadFormat.Ott](../../../Aspose.Words/loadformat/#Ott).
+[LoadFormat.Doc](../../../aspose.words/loadformat/#Doc),
+[LoadFormat.Dot](../../../aspose.words/loadformat/#Dot),
+[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
+[LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
+[LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
+[LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
 
 

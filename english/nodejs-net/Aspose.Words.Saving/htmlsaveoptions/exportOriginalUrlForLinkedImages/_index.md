@@ -23,7 +23,7 @@ get exportOriginalUrlForLinkedImages(): boolean
 ### Remarks
 
 If value is set to ``True``
-[ImageData.sourceFullName](../../../Aspose.Words.Drawing/imagedata/sourceFullName/) value is used
+[ImageData.sourceFullName](../../../aspose.words.drawing/imagedata/sourceFullName/) value is used
 as the URL of linked images and linked images are not loaded into document's folder
 or [HtmlSaveOptions.imagesFolder](../imagesFolder/).
 

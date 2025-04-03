@@ -3,7 +3,7 @@ title: SaveOptions.updateLastPrintedProperty property
 linktitle: updateLastPrintedProperty property
 articleTitle: updateLastPrintedProperty property
 second_title: Aspose.Words for NodeJs
-description: "SaveOptions.updateLastPrintedProperty property. Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving."
+description: "SaveOptions.updateLastPrintedProperty property. Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving."
 type: docs
 weight: 160
 url: /nodejs-net/Aspose.Words.Saving/saveoptions/updateLastPrintedProperty/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Saving/saveoptions/updateLastPrintedProperty/
 
 ## SaveOptions.updateLastPrintedProperty property
 
-Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving.
+Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.
 
 
 

@@ -39,16 +39,16 @@ insertSignatureLine(signatureLineOptions: Aspose.Words.SignatureLineOptionshorzP
 | Parameter | Type | Description |
 | --- | --- | --- |
 | signatureLineOptions | [SignatureLineOptions](../../signaturelineoptions/) | The object that stores parameters of creating signature line. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the signature line is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the signature line is measured from. |
 | left | number | Distance in points from the origin to the left side of the signature line. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the signature line measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the signature line measured from. |
 | top | number | Distance in points from the origin to the top side of the signature line. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the signature line. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the signature line. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 

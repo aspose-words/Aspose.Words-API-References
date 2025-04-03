@@ -25,8 +25,8 @@ get allowEmbeddingPostScriptFonts(): boolean
 
 Note, Word does not embed PostScript fonts, but can open documents with embedded fonts of this type.
 
-This option only works when [FontInfoCollection.embedTrueTypeFonts](../../../Aspose.Words.Fonts/fontinfocollection/embedTrueTypeFonts/) of the
-[DocumentBase.fontInfos](../../../Aspose.Words/documentbase/fontInfos/) property is set to ``True``.
+This option only works when [FontInfoCollection.embedTrueTypeFonts](../../../aspose.words.fonts/fontinfocollection/embedTrueTypeFonts/) of the
+[DocumentBase.fontInfos](../../../aspose.words/documentbase/fontInfos/) property is set to ``True``.
 
 
 

@@ -20,7 +20,7 @@ evaluate(field: Aspose.Words.Fields.Fieldexpression: Aspose.Words.Fields.Compari
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../../Aspose.Words/field/) |  |
+| field | [Field](../../../aspose.words/field/) |  |
 | expression | [ComparisonExpression](../../comparisonexpression/) |  |
 
 ### Remarks

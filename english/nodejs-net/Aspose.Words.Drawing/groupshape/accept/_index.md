@@ -20,25 +20,25 @@ accept(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The visitor that will visit the nodes. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The visitor that will visit the nodes. |
 
 ### Remarks
 
-Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../Aspose.Words/documentvisitor/).
+Enumerates over this node and all of its children. Each node calls a corresponding method on [DocumentVisitor](../../../aspose.words/documentvisitor/).
 
 For more info see the Visitor design pattern.
 
 
 
 
-Calls [DocumentVisitor.visitGroupShapeStart()](../../../Aspose.Words/documentvisitor/visitGroupShapeStart/#groupshape), then calls [Node.accept()](../../../Aspose.Words/node/accept/#documentvisitor) for all 
-child shapes of this group shape and calls [DocumentVisitor.visitGroupShapeEnd()](../../../Aspose.Words/documentvisitor/visitGroupShapeEnd/#groupshape) at the end.
+Calls [DocumentVisitor.visitGroupShapeStart()](../../../aspose.words/documentvisitor/visitGroupShapeStart/#groupshape), then calls [Node.accept()](../../../aspose.words/node/accept/#documentvisitor) for all 
+child shapes of this group shape and calls [DocumentVisitor.visitGroupShapeEnd()](../../../aspose.words/documentvisitor/visitGroupShapeEnd/#groupshape) at the end.
 
 
 
 ### Returns
 
-True if all nodes were visited; false if [DocumentVisitor](../../../Aspose.Words/documentvisitor/) stopped the operation before visiting all nodes.
+True if all nodes were visited; false if [DocumentVisitor](../../../aspose.words/documentvisitor/) stopped the operation before visiting all nodes.
 
 
 ### See Also

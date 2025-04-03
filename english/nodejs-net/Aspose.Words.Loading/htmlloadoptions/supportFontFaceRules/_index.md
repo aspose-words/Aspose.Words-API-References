@@ -23,9 +23,9 @@ get supportFontFaceRules(): boolean
 ### Remarks
 
 If this option is enabled, fonts declared in @font-face rules are loaded and embedded into the resulting document's
-font definitions (see [DocumentBase.fontInfos](../../../Aspose.Words/documentbase/fontInfos/)). This makes the loaded fonts available for rendering but
+font definitions (see [DocumentBase.fontInfos](../../../aspose.words/documentbase/fontInfos/)). This makes the loaded fonts available for rendering but
 doesn't automatically enable embedding of the fonts upon saving. In order to save the document with loaded fonts,
-the [FontInfoCollection.embedTrueTypeFonts](../../../Aspose.Words.Fonts/fontinfocollection/embedTrueTypeFonts/) property of the [DocumentBase.fontInfos](../../../Aspose.Words/documentbase/fontInfos/)
+the [FontInfoCollection.embedTrueTypeFonts](../../../aspose.words.fonts/fontinfocollection/embedTrueTypeFonts/) property of the [DocumentBase.fontInfos](../../../aspose.words/documentbase/fontInfos/)
 collection should be set to ``True``.
 
 

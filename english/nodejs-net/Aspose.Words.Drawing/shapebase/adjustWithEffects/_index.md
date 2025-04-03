@@ -17,7 +17,7 @@ adjustWithEffects(source: Aspose.Words.JSRectangleF)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [JSRectangleF](../../../Aspose.Words/jsrectanglef/) |  |
+| source | [JSRectangleF](../../../aspose.words/jsrectanglef/) |  |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: Shape.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
 second_title: Aspose.Words for NodeJs
-description: "Shape.nodeType property. Returns [NodeType.Shape](../../../Aspose.Words/nodetype/#Shape)."
+description: "Shape.nodeType property. Returns [NodeType.Shape](../../../aspose.words/nodetype/#Shape)."
 type: docs
 weight: 140
 url: /nodejs-net/Aspose.Words.Drawing/shape/nodeType/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Drawing/shape/nodeType/
 
 ## Shape.nodeType property
 
-Returns [NodeType.Shape](../../../Aspose.Words/nodetype/#Shape).
+Returns [NodeType.Shape](../../../aspose.words/nodetype/#Shape).
 
 
 

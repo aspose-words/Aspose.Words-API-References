@@ -20,7 +20,7 @@ fieldUpdated(field: Aspose.Words.Fields.Field)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| field | [Field](../../../Aspose.Words/field/) |  |
+| field | [Field](../../../aspose.words/field/) |  |
 
 ### See Also
 

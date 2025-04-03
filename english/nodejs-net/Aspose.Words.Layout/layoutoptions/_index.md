@@ -19,10 +19,10 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 
 ### Remarks
 
-You do not create instances of this class directly. Use the [Document.layoutOptions](../../Aspose.Words/document/layoutOptions/) property to access layout options for this document.
+You do not create instances of this class directly. Use the [Document.layoutOptions](../../aspose.words/document/layoutOptions/) property to access layout options for this document.
 
 
-Note that after changing any of the options present in this class, [Document.updatePageLayout()](../../Aspose.Words/document/updatePageLayout/#default) method
+Note that after changing any of the options present in this class, [Document.updatePageLayout()](../../aspose.words/document/updatePageLayout/#default) method
 should be called in order for the changed options to be applied to the layout.
 
 

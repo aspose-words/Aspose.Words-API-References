@@ -20,37 +20,12 @@ get paragraphs(): number
 
 ### Remarks
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../../Aspose.Words/document/updateWordCount/#default).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../../aspose.words/document/updateWordCount/#default).
 
 
 
 
 ### Examples
-
-Shows how to update all list labels in a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
-                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-builder.write("Ut enim ad minim veniam, " +
-                "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
-// Aspose.words does not track document metrics like these in real time.
-expect(doc.builtInDocumentProperties.characters).toEqual(0);
-expect(doc.builtInDocumentProperties.words).toEqual(0);
-expect(doc.builtInDocumentProperties.paragraphs).toEqual(1);
-expect(doc.builtInDocumentProperties.lines).toEqual(1);
-// To get accurate values for three of these properties, we will need to update them manually.
-doc.updateWordCount();
-expect(doc.builtInDocumentProperties.characters).toEqual(196);
-expect(doc.builtInDocumentProperties.words).toEqual(36);
-expect(doc.builtInDocumentProperties.paragraphs).toEqual(2);
-// For the line count, we will need to call a specific overload of the updating method.
-expect(doc.builtInDocumentProperties.lines).toEqual(1);
-doc.updateWordCount(true);
-expect(doc.builtInDocumentProperties.lines).toEqual(4);
-```
 
 Shows how to work with document properties in the "Content" category.
 
@@ -111,6 +86,31 @@ test('Content', () => {
 
   doc.save(base.artifactsDir + "DocumentProperties.content.docx");
 });
+```
+
+Shows how to update all list labels in a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+builder.writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
+                "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder.write("Ut enim ad minim veniam, " +
+                "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+// Aspose.words does not track document metrics like these in real time.
+expect(doc.builtInDocumentProperties.characters).toEqual(0);
+expect(doc.builtInDocumentProperties.words).toEqual(0);
+expect(doc.builtInDocumentProperties.paragraphs).toEqual(1);
+expect(doc.builtInDocumentProperties.lines).toEqual(1);
+// To get accurate values for three of these properties, we will need to update them manually.
+doc.updateWordCount();
+expect(doc.builtInDocumentProperties.characters).toEqual(196);
+expect(doc.builtInDocumentProperties.words).toEqual(36);
+expect(doc.builtInDocumentProperties.paragraphs).toEqual(2);
+// For the line count, we will need to call a specific overload of the updating method.
+expect(doc.builtInDocumentProperties.lines).toEqual(1);
+doc.updateWordCount(true);
+expect(doc.builtInDocumentProperties.lines).toEqual(4);
 ```
 
 ### See Also

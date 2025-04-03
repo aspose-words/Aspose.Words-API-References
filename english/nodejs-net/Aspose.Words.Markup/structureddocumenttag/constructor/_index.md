@@ -21,7 +21,7 @@ StructuredDocumentTag(doc: Aspose.Words.DocumentBasetype: Aspose.Words.Markup.Sd
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 | type | [SdtType](../../sdttype/) | Type of SDT node. |
 | level | [MarkupLevel](../../markuplevel/) | Level of SDT node within the document. |
 

@@ -65,5 +65,5 @@ Corresponds to the **ST_DocPartGallery** type in OOXML.
 ### See Also
 
 * module [Aspose.Words.BuildingBlocks](../)
-* property [BuildingBlock.gallery](../../Aspose.Words/buildingblock/gallery/)
+* property [BuildingBlock.gallery](../../aspose.words/buildingblock/gallery/)
 

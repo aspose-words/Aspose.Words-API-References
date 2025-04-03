@@ -24,7 +24,7 @@ Do not confuse these custom parts with Custom XML Data. If you need to access Cu
 use the [Document.customXmlParts](../customXmlParts/) property.
 
 This collection contains OOXML parts whose parent is the OOXML package and they targets are of an "unknown relationship".
-For more information see [CustomPart](../../../Aspose.Words.Markup/custompart/).
+For more information see [CustomPart](../../../aspose.words.markup/custompart/).
 
 Aspose.Words loads and saves custom parts into OOXML documents only.
 
@@ -37,5 +37,5 @@ This property cannot be ``None``.
 
 * module [Aspose.Words](../../)
 * class [Document](../)
-* class [CustomPart](../../../Aspose.Words.Markup/custompart/)
+* class [CustomPart](../../../aspose.words.markup/custompart/)
 

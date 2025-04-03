@@ -19,7 +19,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 
 ### Remarks
 
-[Document.digitalSignatures](../../Aspose.Words/document/digitalSignatures/)
+[Document.digitalSignatures](../../aspose.words/document/digitalSignatures/)
 
 
 

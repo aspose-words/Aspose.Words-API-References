@@ -20,7 +20,7 @@ get defaultInstance(): Aspose.Words.Fonts.FontSettings
 
 ### Remarks
 
-This instance is used by default in a document unless [Document.fontSettings](../../../Aspose.Words/document/fontSettings/) is specified.
+This instance is used by default in a document unless [Document.fontSettings](../../../aspose.words/document/fontSettings/) is specified.
 
 
 

@@ -20,7 +20,7 @@ get pages(): number
 
 ### Remarks
 
-Aspose.Words updates this property when you call [Document.updatePageLayout()](../../../Aspose.Words/document/updatePageLayout/#default).
+Aspose.Words updates this property when you call [Document.updatePageLayout()](../../../aspose.words/document/updatePageLayout/#default).
 
 
 

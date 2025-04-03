@@ -22,5 +22,5 @@ get localeId(): number
 
 * module [Aspose.Words](../../)
 * class [Field](../)
-* enum value [FieldUpdateCultureSource.FieldCode](../../../Aspose.Words.Fields/fieldupdateculturesource/#FieldCode)
+* enum value [FieldUpdateCultureSource.FieldCode](../../../aspose.words.fields/fieldupdateculturesource/#FieldCode)
 

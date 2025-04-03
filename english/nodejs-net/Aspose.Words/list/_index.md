@@ -23,14 +23,14 @@ A list in a Microsoft Word document is a set of list formatting properties.
 Each list can have up to 9 levels and formatting properties, such as number style, start value,
 indent, tab position etc are defined separately for each level.
 
-A [List](./) object always belongs to the [ListCollection](../../Aspose.Words.Lists/listcollection/) collection.
+A [List](./) object always belongs to the [ListCollection](../../aspose.words.lists/listcollection/) collection.
 
-To create a new list, use the Add methods of the [ListCollection](../../Aspose.Words.Lists/listcollection/) collection.
+To create a new list, use the Add methods of the [ListCollection](../../aspose.words.lists/listcollection/) collection.
 
-To modify formatting of a list, use [ListLevel](../../Aspose.Words.Lists/listlevel/) objects found in
+To modify formatting of a list, use [ListLevel](../../aspose.words.lists/listlevel/) objects found in
 the [List.listLevels](./listLevels/) collection.
 
-To apply or remove list formatting from a paragraph, use [ListFormat](../../Aspose.Words.Lists/listformat/).
+To apply or remove list formatting from a paragraph, use [ListFormat](../../aspose.words.lists/listformat/).
 
 
 
@@ -203,7 +203,7 @@ doc.save(base.artifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ### See Also
 
 * module [Aspose.Words](../)
-* class [ListCollection](../../Aspose.Words.Lists/listcollection/)
-* class [ListLevel](../../Aspose.Words.Lists/listlevel/)
-* class [ListFormat](../../Aspose.Words.Lists/listformat/)
+* class [ListCollection](../../aspose.words.lists/listcollection/)
+* class [ListLevel](../../aspose.words.lists/listlevel/)
+* class [ListFormat](../../aspose.words.lists/listformat/)
 

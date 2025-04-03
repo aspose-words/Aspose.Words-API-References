@@ -35,5 +35,5 @@ Empty string means the document is attached to the Normal template.
 
 * module [Aspose.Words](../../)
 * class [Document](../)
-* property [BuiltInDocumentProperties.template](../../../Aspose.Words.Properties/builtindocumentproperties/template/)
+* property [BuiltInDocumentProperties.template](../../../aspose.words.properties/builtindocumentproperties/template/)
 

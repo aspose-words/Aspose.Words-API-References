@@ -3,7 +3,7 @@ title: FramesetCollection class
 linktitle: FramesetCollection class
 articleTitle: FramesetCollection class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Framesets.FramesetCollection class. Represents a collection of instances of the [Frameset](../../Aspose.Words/frameset/) class"
+description: "Aspose.Words.Framesets.FramesetCollection class. Represents a collection of instances of the [Frameset](../../aspose.words/frameset/) class"
 type: docs
 weight: 10
 url: /nodejs-net/Aspose.Words.Framesets/framesetcollection/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Framesets/framesetcollection/
 
 ## FramesetCollection class
 
-Represents a collection of instances of the [Frameset](../../Aspose.Words/frameset/) class.
+Represents a collection of instances of the [Frameset](../../aspose.words/frameset/) class.
 To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/nodejs-net/programming-with-documents/) documentation article.
 
 

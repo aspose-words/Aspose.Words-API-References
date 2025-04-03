@@ -45,7 +45,7 @@ PlainTextDocument(fileName: stringloadOptions: Aspose.Words.Loading.LoadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | Name of the file to extract the text from. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
 
 ### Remarks
 
@@ -108,7 +108,7 @@ PlainTextDocument(stream: BufferloadOptions: Aspose.Words.Loading.LoadOptions)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream where to extract the text from. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
 
 ### Remarks
 

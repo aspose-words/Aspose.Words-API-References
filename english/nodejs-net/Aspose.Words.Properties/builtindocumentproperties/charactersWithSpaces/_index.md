@@ -20,7 +20,7 @@ get charactersWithSpaces(): number
 
 ### Remarks
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../../Aspose.Words/document/updateWordCount/#default).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../../aspose.words/document/updateWordCount/#default).
 
 
 

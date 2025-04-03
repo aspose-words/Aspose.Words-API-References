@@ -85,5 +85,5 @@ for (let i = 0; i < doc.pageCount; i++)
 ### See Also
 
 * module [Aspose.Words.Rendering](../)
-* method [Document.getPageInfo()](../../Aspose.Words/document/getPageInfo/#number)
+* method [Document.getPageInfo()](../../aspose.words/document/getPageInfo/#number)
 

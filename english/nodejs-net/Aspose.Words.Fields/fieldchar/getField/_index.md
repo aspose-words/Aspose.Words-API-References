@@ -20,7 +20,7 @@ getField()
 
 ### Remarks
 
-A new [Field](../../../Aspose.Words/field/) object is created each time the method is called.
+A new [Field](../../../aspose.words/field/) object is created each time the method is called.
 
 
 

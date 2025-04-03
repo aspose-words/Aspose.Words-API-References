@@ -3,7 +3,7 @@ title: HtmlSaveOptions.documentSplitCriteria property
 linktitle: documentSplitCriteria property
 articleTitle: documentSplitCriteria property
 second_title: Aspose.Words for NodeJs
-description: "HtmlSaveOptions.documentSplitCriteria property. Specifies how the document should be split when saving to [SaveFormat.Html](../../../Aspose.Words/saveformat/#Html), [SaveFormat.Epub](../../../Aspose.Words/saveformat/#Epub) or [SaveFormat.Azw3](../../../Aspose.Words/saveformat/#Azw3) format"
+description: "HtmlSaveOptions.documentSplitCriteria property. Specifies how the document should be split when saving to [SaveFormat.Html](../../../aspose.words/saveformat/#Html), [SaveFormat.Epub](../../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3) format"
 type: docs
 weight: 80
 url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/documentSplitCriteria/
@@ -11,8 +11,8 @@ url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/documentSplitCriteria/
 
 ## HtmlSaveOptions.documentSplitCriteria property
 
-Specifies how the document should be split when saving to [SaveFormat.Html](../../../Aspose.Words/saveformat/#Html),
-[SaveFormat.Epub](../../../Aspose.Words/saveformat/#Epub) or [SaveFormat.Azw3](../../../Aspose.Words/saveformat/#Azw3) format. 
+Specifies how the document should be split when saving to [SaveFormat.Html](../../../aspose.words/saveformat/#Html),
+[SaveFormat.Epub](../../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3) format. 
 Default is [DocumentSplitCriteria.None](../../documentsplitcriteria/#None) for HTML and 
 [DocumentSplitCriteria.HeadingParagraph](../../documentsplitcriteria/#HeadingParagraph) for EPUB and AZW3.
 

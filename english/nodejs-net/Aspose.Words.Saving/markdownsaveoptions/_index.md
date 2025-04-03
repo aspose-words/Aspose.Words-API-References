@@ -3,7 +3,7 @@ title: MarkdownSaveOptions class
 linktitle: MarkdownSaveOptions class
 articleTitle: MarkdownSaveOptions class
 second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown) format"
+description: "Aspose.Words.Saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format"
 type: docs
 weight: 460
 url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/
 
 ## MarkdownSaveOptions class
 
-Class to specify additional options when saving a document into the [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown) format.
+Class to specify additional options when saving a document into the [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format.
 To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/nodejs-net/specify-save-options/) documentation article.
 
 
@@ -22,7 +22,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 ### Constructors
 | Name | Description |
 | --- | --- |
-| [MarkdownSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown) format. |
+| [MarkdownSaveOptions()](./constructor/#default) | Initializes a new instance of this class that can be used to save a document in the [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format. |
 
 ### Properties
 
@@ -41,8 +41,8 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [exportUnderlineFormatting](./exportUnderlineFormatting/) | Gets or sets a boolean value indicating either to export underline text formatting as sequence of two plus characters "++". The default value is ``False``. |
 | [forcePageBreaks](../txtsaveoptionsbase/forcePageBreaks/) | Allows to specify whether the page breaks should be preserved during export.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [imageResolution](./imageResolution/) | Specifies the output resolution for images when exporting to Markdown. Default is ``96 dpi``. |
-| [imageSavingCallback](./imageSavingCallback/) | Allows to control how images are saved when a document is saved to [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown) format. |
-| [imagesFolder](./imagesFolder/) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown) format. Default is an empty string. |
+| [imageSavingCallback](./imageSavingCallback/) | Allows to control how images are saved when a document is saved to [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format. |
+| [imagesFolder](./imagesFolder/) | Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format. Default is an empty string. |
 | [imagesFolderAlias](./imagesFolderAlias/) | Specifies the name of the folder used to construct image URIs written into a document. Default is an empty string. |
 | [imlRenderingMode](../saveoptions/imlRenderingMode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [linkExportMode](./linkExportMode/) | Specifies how links will be written to the output file. Default value is [MarkdownLinkExportMode.Auto](../markdownlinkexportmode/#Auto). |
@@ -52,14 +52,14 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [paragraphBreak](../txtsaveoptionsbase/paragraphBreak/) | Specifies the string to use as a paragraph break when exporting in text formats.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``True``, pretty formats output where applicable. Default value is ``False``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown). |
-| [tableContentAlignment](./tableContentAlignment/) | Gets or sets a value that specifies how to align contents in tables when exporting into the [SaveFormat.Markdown](../../Aspose.Words/saveformat/#Markdown) format. The default value is [TableContentAlignment.Auto](../tablecontentalignment/#Auto). |
+| [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown). |
+| [tableContentAlignment](./tableContentAlignment/) | Gets or sets a value that specifies how to align contents in tables when exporting into the [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format. The default value is [TableContentAlignment.Auto](../tablecontentalignment/#Auto). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``None`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../Aspose.Words.Properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateCreatedTimeProperty](../saveoptions/updateCreatedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.createdTime](../../aspose.words.properties/builtindocumentproperties/createdTime/) property is updated before saving. Default value is ``False``;<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateFields](../saveoptions/updateFields/) | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../Aspose.Words.Properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../Aspose.Words.Properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastPrintedProperty](../saveoptions/updateLastPrintedProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastPrinted](../../aspose.words.properties/builtindocumentproperties/lastPrinted/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [updateLastSavedTimeProperty](../saveoptions/updateLastSavedTimeProperty/) | Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useAntiAliasing](../saveoptions/useAntiAliasing/) | Gets or sets a value determining whether or not to use anti-aliasing for rendering.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [useHighQualityRendering](../saveoptions/useHighQualityRendering/) | Gets or sets a value determining whether or not to use high quality (i.e. slow) rendering algorithms.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 

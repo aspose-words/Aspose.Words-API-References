@@ -20,7 +20,7 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 ### Remarks
 
 You do not normally need to create instances of this class. You can access custom XML data
-stored in a document via the [Document.customXmlParts](../../Aspose.Words/document/customXmlParts/) property.
+stored in a document via the [Document.customXmlParts](../../aspose.words/document/customXmlParts/) property.
 
 
 
@@ -110,5 +110,5 @@ doc.save(base.artifactsDir + "StructuredDocumentTag.customXml.docx");
 
 * module [Aspose.Words.Markup](../)
 * class [CustomXmlPart](../customxmlpart/)
-* property [Document.customXmlParts](../../Aspose.Words/document/customXmlParts/)
+* property [Document.customXmlParts](../../aspose.words/document/customXmlParts/)
 

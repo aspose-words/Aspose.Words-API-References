@@ -20,7 +20,7 @@ autoFit(behavior: Aspose.Words.Tables.AutoFitBehavior)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| behavior | [AutoFitBehavior](../../../Aspose.Words.Tables/autofitbehavior/) | Specifies how to auto fit the table. |
+| behavior | [AutoFitBehavior](../../../aspose.words.tables/autofitbehavior/) | Specifies how to auto fit the table. |
 
 ### Remarks
 

@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/saveFormat/
 ## XamlFlowSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.XamlFlow](../../../Aspose.Words/saveformat/#XamlFlow).
+Can only be [SaveFormat.XamlFlow](../../../aspose.words/saveformat/#XamlFlow).
 
 
 

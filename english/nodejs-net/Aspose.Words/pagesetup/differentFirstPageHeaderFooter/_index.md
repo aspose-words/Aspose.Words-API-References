@@ -20,45 +20,6 @@ get differentFirstPageHeaderFooter(): boolean
 
 ### Examples
 
-Shows how to enable or disable primary headers/footers.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Below are two types of header/footers.
-// 1 -  The "First" header/footer, which appears on the first page of the section.
-builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderFirst);
-builder.writeln("First page header.");
-
-builder.moveToHeaderFooter(aw.HeaderFooterType.FooterFirst);
-builder.writeln("First page footer.");
-
-// 2 -  The "Primary" header/footer, which appears on every page in the section.
-// We can override the primary header/footer by a first and an even page header/footer. 
-builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderPrimary);
-builder.writeln("Primary header.");
-
-builder.moveToHeaderFooter(aw.HeaderFooterType.FooterPrimary);
-builder.writeln("Primary footer.");
-
-builder.moveToSection(0);
-builder.writeln("Page 1.");
-builder.insertBreak(aw.BreakType.PageBreak);
-builder.writeln("Page 2.");
-builder.insertBreak(aw.BreakType.PageBreak);
-builder.writeln("Page 3.");
-
-// Each section has a "PageSetup" object that specifies page appearance-related properties
-// such as orientation, size, and borders.
-// Set the "DifferentFirstPageHeaderFooter" property to "true" to apply the first header/footer to the first page.
-// Set the "DifferentFirstPageHeaderFooter" property to "false"
-// to make the first page display the primary header/footer.
-builder.pageSetup.differentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-
-doc.save(base.artifactsDir + "PageSetup.differentFirstPageHeaderFooter.docx");
-```
-
 Shows how to create headers and footers in a document using DocumentBuilder.
 
 ```js
@@ -128,6 +89,45 @@ private class ReplaceLog : IReplacingCallback
 
   private readonly StringBuilder mTextBuilder = new StringBuilder();
 }
+```
+
+Shows how to enable or disable primary headers/footers.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Below are two types of header/footers.
+// 1 -  The "First" header/footer, which appears on the first page of the section.
+builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderFirst);
+builder.writeln("First page header.");
+
+builder.moveToHeaderFooter(aw.HeaderFooterType.FooterFirst);
+builder.writeln("First page footer.");
+
+// 2 -  The "Primary" header/footer, which appears on every page in the section.
+// We can override the primary header/footer by a first and an even page header/footer. 
+builder.moveToHeaderFooter(aw.HeaderFooterType.HeaderPrimary);
+builder.writeln("Primary header.");
+
+builder.moveToHeaderFooter(aw.HeaderFooterType.FooterPrimary);
+builder.writeln("Primary footer.");
+
+builder.moveToSection(0);
+builder.writeln("Page 1.");
+builder.insertBreak(aw.BreakType.PageBreak);
+builder.writeln("Page 2.");
+builder.insertBreak(aw.BreakType.PageBreak);
+builder.writeln("Page 3.");
+
+// Each section has a "PageSetup" object that specifies page appearance-related properties
+// such as orientation, size, and borders.
+// Set the "DifferentFirstPageHeaderFooter" property to "true" to apply the first header/footer to the first page.
+// Set the "DifferentFirstPageHeaderFooter" property to "false"
+// to make the first page display the primary header/footer.
+builder.pageSetup.differentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+
+doc.save(base.artifactsDir + "PageSetup.differentFirstPageHeaderFooter.docx");
 ```
 
 ### See Also

@@ -26,7 +26,7 @@ Write protection is different from document protection. Write protection is spec
 Microsoft Word in the options of the Save As dialog box.
 
 You do not create instances of this class directly. You access document protection settings
-via the [Document.writeProtection](../../Aspose.Words/document/writeProtection/) property.
+via the [Document.writeProtection](../../aspose.words/document/writeProtection/) property.
 
 
 

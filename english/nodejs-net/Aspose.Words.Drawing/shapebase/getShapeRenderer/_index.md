@@ -20,7 +20,7 @@ getShapeRenderer()
 
 ### Remarks
 
-This method just invokes the [ShapeRenderer](../../../Aspose.Words.Rendering/shaperenderer/) constructor and passes
+This method just invokes the [ShapeRenderer](../../../aspose.words.rendering/shaperenderer/) constructor and passes
 this object as a parameter.
 
 

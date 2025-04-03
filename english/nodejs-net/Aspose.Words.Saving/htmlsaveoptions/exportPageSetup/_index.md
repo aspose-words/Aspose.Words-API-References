@@ -22,8 +22,8 @@ get exportPageSetup(): boolean
 
 ### Remarks
 
-Each [Section](../../../Aspose.Words/section/) in Aspose.Words document model provides page setup information
-via [PageSetup](../../../Aspose.Words/pagesetup/) class. When you export a document to HTML format you might need to keep this information
+Each [Section](../../../aspose.words/section/) in Aspose.Words document model provides page setup information
+via [PageSetup](../../../aspose.words/pagesetup/) class. When you export a document to HTML format you might need to keep this information
 for further usage. In particular, page setup might be important for rendering to paged media (printing)
 or subsequent conversion to the native Microsoft Word file formats (DOCX, DOC, RTF, WML).
 

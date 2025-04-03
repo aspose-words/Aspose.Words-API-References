@@ -24,7 +24,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | [allowComments](./allowComments/) | Gets or sets a value indicating that the signer can add comments in the Sign dialog. Default value for this property is ``False``. |
 | [defaultInstructions](./defaultInstructions/) | Gets or sets a value indicating that default instructions is shown in the Sign dialog. Default value for this property is ``True``. |
 | [email](./email/) | Gets or sets suggested signer's e-mail address.  Default value for this property is **empty string** (). |
-| [id](./id/) | Gets or sets identifier for this signature line. This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../Aspose.Words.DigitalSignatures/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid (). |
+| [id](./id/) | Gets or sets identifier for this signature line. This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../aspose.words.digitalsignatures/digitalsignatureutil/). This value must be unique and by default it is randomly generated new Guid (). |
 | [instructions](./instructions/) | Gets or sets instructions to the signer that are displayed on signing the signature line. This property is ignored if [SignatureLine.defaultInstructions](./defaultInstructions/) is set. Default value for this property is **empty string** (). |
 | [isSigned](./isSigned/) | Indicates that signature line is signed by digital signature. |
 | [isValid](./isValid/) | Indicates that signature line is signed by digital signature and this digital signature is valid. |

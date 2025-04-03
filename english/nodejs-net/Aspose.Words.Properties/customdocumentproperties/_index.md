@@ -83,7 +83,7 @@ for (let customDocumentProperty of doc.customDocumentProperties)
 
 * module [Aspose.Words.Properties](../)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
-* class [Document](../../Aspose.Words/document/)
-* property [Document.builtInDocumentProperties](../../Aspose.Words/document/builtInDocumentProperties/)
-* property [Document.customDocumentProperties](../../Aspose.Words/document/customDocumentProperties/)
+* class [Document](../../aspose.words/document/)
+* property [Document.builtInDocumentProperties](../../aspose.words/document/builtInDocumentProperties/)
+* property [Document.customDocumentProperties](../../aspose.words/document/customDocumentProperties/)
 

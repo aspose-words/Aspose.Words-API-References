@@ -31,5 +31,5 @@ Corresponds to the **ST_DocPartBehavior** type in OOXML.
 ### See Also
 
 * module [Aspose.Words.BuildingBlocks](../)
-* property [BuildingBlock.behavior](../../Aspose.Words/buildingblock/behavior/)
+* property [BuildingBlock.behavior](../../aspose.words/buildingblock/behavior/)
 

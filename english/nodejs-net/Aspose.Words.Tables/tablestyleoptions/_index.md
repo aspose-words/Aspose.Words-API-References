@@ -79,5 +79,5 @@ doc.save(base.artifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 ### See Also
 
 * module [Aspose.Words.Tables](../)
-* property [Table.styleOptions](../../Aspose.Words/table/styleOptions/)
+* property [Table.styleOptions](../../aspose.words/table/styleOptions/)
 

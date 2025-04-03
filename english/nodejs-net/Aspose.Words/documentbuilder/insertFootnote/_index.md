@@ -20,7 +20,7 @@ insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteTypefootnoteText: string
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| footnoteType | [FootnoteType](../../../Aspose.Words.Notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
+| footnoteType | [FootnoteType](../../../aspose.words.notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
 | footnoteText | string | Specifies the text of the footnote. |
 
 ### Returns
@@ -39,7 +39,7 @@ insertFootnote(footnoteType: Aspose.Words.Notes.FootnoteTypefootnoteText: string
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| footnoteType | [FootnoteType](../../../Aspose.Words.Notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
+| footnoteType | [FootnoteType](../../../aspose.words.notes/footnotetype/) | Specifies whether to insert a footnote or an endnote. |
 | footnoteText | string | Specifies the text of the footnote. |
 | referenceMark | string | Specifies the custom reference mark of the footnote. |
 

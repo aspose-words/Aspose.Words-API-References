@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Drawing/signatureline/id/
 ## SignatureLine.id property
 
 Gets or sets identifier for this signature line.
-This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../../Aspose.Words.DigitalSignatures/digitalsignatureutil/).
+This identifier can be associated with a digital signature, when signing document using [DigitalSignatureUtil](../../../aspose.words.digitalsignatures/digitalsignatureutil/).
 This value must be unique and by default it is randomly generated new Guid
 ().
 

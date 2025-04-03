@@ -12,7 +12,7 @@ url: /nodejs-net/Aspose.Words.Saving/xlsxsaveoptions/saveFormat/
 ## XlsxSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Xlsx](../../../Aspose.Words/saveformat/#Xlsx).
+Can only be [SaveFormat.Xlsx](../../../aspose.words/saveformat/#Xlsx).
 
 
 

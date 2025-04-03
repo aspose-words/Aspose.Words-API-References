@@ -40,13 +40,13 @@ insertImage(image: Aspose.Words.JSImagehorzPos: Aspose.Words.Drawing.RelativeHor
 | Parameter | Type | Description |
 | --- | --- | --- |
 | image | [JSImage](../../jsimage/) |  |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) |  |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
 | left | number |  |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) |  |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
 | top | number |  |
 | width | number |  |
 | height | number |  |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) |  |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
 
 ## insertImage(fileName) {#string}
 
@@ -67,7 +67,7 @@ This overload will automatically download the image before inserting into the do
 if you specify a remote URI.
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -93,7 +93,7 @@ insertImage(stream: Buffer)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -119,7 +119,7 @@ insertImage(imageBytes: number[])
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -147,7 +147,7 @@ insertImage(fileName: stringwidth: numberheight: number)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -175,7 +175,7 @@ insertImage(stream: Bufferwidth: numberheight: number)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -203,7 +203,7 @@ insertImage(imageBytes: number[]width: numberheight: number)
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -225,18 +225,18 @@ insertImage(fileName: stringhorzPos: Aspose.Words.Drawing.RelativeHorizontalPosi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | The file that contains the image. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -258,18 +258,18 @@ insertImage(stream: BufferhorzPos: Aspose.Words.Drawing.RelativeHorizontalPositi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream that contains the image. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -291,18 +291,18 @@ insertImage(imageBytes: number[]horzPos: Aspose.Words.Drawing.RelativeHorizontal
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageBytes | number[] | The byte array that contains the image. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -313,56 +313,6 @@ The image node that was just inserted.
 
 
 ## Examples
-
-Shows how to insert a shape with an image into a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Below are two locations where the document builder's "InsertShape" method
-// can source the image that the shape will display.
-// 1 -  Pass a local file system filename of an image file:
-builder.write("Image from local file: ");
-builder.insertImage(base.imageDir + "Logo.jpg");
-builder.writeln();
-
-// 2 -  Pass a URL which points to an image.
-builder.write("Image from a URL: ");
-builder.insertImage(base.imageUrl.toString());
-builder.writeln();
-
-doc.save(base.artifactsDir + "Image.FromUrl.docx");
-```
-
-Shows how to insert a floating image to the center of a page.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-let shape = builder.insertImage(base.imageDir + "Logo.jpg");
-shape.wrapType = aw.Drawing.WrapType.None;
-shape.behindText = true;
-shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
-shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
-shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
-shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
-
-doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
-```
-
-Shows how to insert WebP image.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.insertImage(base.imageDir + "WebP image.webp");
-
-doc.save(base.artifactsDir + "Image.InsertWebpImage.docx");
-```
 
 Shows how to insert an image from the local file system into a document.
 
@@ -423,17 +373,54 @@ gifImage = builder.insertImage(fs.readFileSync(base.imageDir + "Graphics Interch
 builder.document.save(base.artifactsDir + "InsertGif.docx");
 ```
 
-Shows how to insert a shape with an image from a stream into a document.
+Shows how to insert a shape with an image into a document.
 
 ```js
 let doc = new aw.Document();
 let builder = new aw.DocumentBuilder(doc);
 
-let stream = fs.createReadStream(base.imageDir + "Logo.jpg")
-builder.write("Image from stream: ");
-builder.insertImage(stream);
+// Below are two locations where the document builder's "InsertShape" method
+// can source the image that the shape will display.
+// 1 -  Pass a local file system filename of an image file:
+builder.write("Image from local file: ");
+builder.insertImage(base.imageDir + "Logo.jpg");
+builder.writeln();
 
-doc.save(base.artifactsDir + "Image.FromStream.docx");
+// 2 -  Pass a URL which points to an image.
+builder.write("Image from a URL: ");
+builder.insertImage(base.imageUrl.toString());
+builder.writeln();
+
+doc.save(base.artifactsDir + "Image.FromUrl.docx");
+```
+
+Shows how to insert a floating image to the center of a page.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+let shape = builder.insertImage(base.imageDir + "Logo.jpg");
+shape.wrapType = aw.Drawing.WrapType.None;
+shape.behindText = true;
+shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
+shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
+shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
+shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
+
+doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
+```
+
+Shows how to insert WebP image.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.insertImage(base.imageDir + "WebP image.webp");
+
+doc.save(base.artifactsDir + "Image.InsertWebpImage.docx");
 ```
 
 Shows how to insert an image from a stream into a document.
@@ -458,6 +445,19 @@ builder.insertBreak(aw.BreakType.PageBreak);
 builder.insertImage(stream, aw.Drawing.RelativeHorizontalPosition.Margin, 100, aw.Drawing.RelativeVerticalPosition.Margin, 100, 200, 100, aw.Drawing.WrapType.Square);
 
 doc.save(base.artifactsDir + "DocumentBuilderImages.InsertImageFromStream.docx");
+```
+
+Shows how to insert a shape with an image from a stream into a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let stream = fs.createReadStream(base.imageDir + "Logo.jpg")
+builder.write("Image from stream: ");
+builder.insertImage(stream);
+
+doc.save(base.artifactsDir + "Image.FromStream.docx");
 ```
 
 Shows how to insert an image.

@@ -37,7 +37,7 @@ compare(document: Aspose.Words.Documentauthor: stringdateTime: Date)
 ## compare(document, author, dateTime, options) {#document_string_date_compareoptions}
 
 Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../revision/).
-Allows to specify comparison options using [CompareOptions](../../../Aspose.Words.Comparing/compareoptions/).
+Allows to specify comparison options using [CompareOptions](../../../aspose.words.comparing/compareoptions/).
 
 
 
@@ -50,7 +50,7 @@ compare(document: Aspose.Words.Documentauthor: stringdateTime: Dateoptions: Aspo
 | document | [Document](../) |  |
 | author | string |  |
 | dateTime | Date |  |
-| options | [CompareOptions](../../../Aspose.Words.Comparing/compareoptions/) |  |
+| options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) |  |
 
 ## Examples
 

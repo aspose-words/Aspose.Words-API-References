@@ -20,7 +20,7 @@ get lists(): Aspose.Words.Lists.ListCollection
 
 ### Remarks
 
-For more information see the description of the [ListCollection](../../../Aspose.Words.Lists/listcollection/) class.
+For more information see the description of the [ListCollection](../../../aspose.words.lists/listcollection/) class.
 
 
 
@@ -79,7 +79,7 @@ doc.save(base.artifactsDir + "Lists.SpecifyListLevel.docx");
 
 * module [Aspose.Words](../../)
 * class [DocumentBase](../)
-* class [ListCollection](../../../Aspose.Words.Lists/listcollection/)
+* class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [List](../../list/)
-* class [ListFormat](../../../Aspose.Words.Lists/listformat/)
+* class [ListFormat](../../../aspose.words.lists/listformat/)
 

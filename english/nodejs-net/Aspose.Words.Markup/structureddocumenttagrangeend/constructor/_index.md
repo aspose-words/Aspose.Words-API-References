@@ -21,7 +21,7 @@ StructuredDocumentTagRangeEnd(doc: Aspose.Words.DocumentBaseid: number)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 | id | number | Identifier of the corresponding structured document tag range start. |
 
 ### See Also

@@ -3,7 +3,7 @@ title: GlossaryDocument.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
 second_title: Aspose.Words for NodeJs
-description: "GlossaryDocument.nodeType property. Returns the [NodeType.GlossaryDocument](../../../Aspose.Words/nodetype/#GlossaryDocument) value."
+description: "GlossaryDocument.nodeType property. Returns the [NodeType.GlossaryDocument](../../../aspose.words/nodetype/#GlossaryDocument) value."
 type: docs
 weight: 50
 url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/nodeType/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/nodeType/
 
 ## GlossaryDocument.nodeType property
 
-Returns the [NodeType.GlossaryDocument](../../../Aspose.Words/nodetype/#GlossaryDocument) value.
+Returns the [NodeType.GlossaryDocument](../../../aspose.words/nodetype/#GlossaryDocument) value.
 
 
 

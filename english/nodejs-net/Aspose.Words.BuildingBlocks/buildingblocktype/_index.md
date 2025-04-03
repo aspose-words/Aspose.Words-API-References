@@ -36,5 +36,5 @@ Corresponds to the **ST_DocPartType** type in OOXML.
 ### See Also
 
 * module [Aspose.Words.BuildingBlocks](../)
-* property [BuildingBlock.type](../../Aspose.Words/buildingblock/type/)
+* property [BuildingBlock.type](../../aspose.words/buildingblock/type/)
 

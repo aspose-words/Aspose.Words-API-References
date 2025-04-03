@@ -22,7 +22,7 @@ get signatureLineId(): uuid
 
 ### Remarks
 
-When set, it associates [SignatureLine](../../../Aspose.Words.Drawing/signatureline/) with corresponding [DigitalSignature](../../../Aspose.Words/digitalsignature/).
+When set, it associates [SignatureLine](../../../aspose.words.drawing/signatureline/) with corresponding [DigitalSignature](../../../aspose.words/digitalsignature/).
 
 
 

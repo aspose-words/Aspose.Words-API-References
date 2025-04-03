@@ -3,7 +3,7 @@ title: GroupShape.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
 second_title: Aspose.Words for NodeJs
-description: "GroupShape.nodeType property. Returns [NodeType.GroupShape](../../../Aspose.Words/nodetype/#GroupShape)."
+description: "GroupShape.nodeType property. Returns [NodeType.GroupShape](../../../aspose.words/nodetype/#GroupShape)."
 type: docs
 weight: 20
 url: /nodejs-net/Aspose.Words.Drawing/groupshape/nodeType/
@@ -11,7 +11,7 @@ url: /nodejs-net/Aspose.Words.Drawing/groupshape/nodeType/
 
 ## GroupShape.nodeType property
 
-Returns [NodeType.GroupShape](../../../Aspose.Words/nodetype/#GroupShape).
+Returns [NodeType.GroupShape](../../../aspose.words/nodetype/#GroupShape).
 
 
 

@@ -19,7 +19,7 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 
 ### Remarks
 
-Use the [ShapeBase.fill](../shapebase/fill/) or [Font.fill](../../Aspose.Words/font/fill/) property to access fill properties of an object.
+Use the [ShapeBase.fill](../shapebase/fill/) or [Font.fill](../../aspose.words/font/fill/) property to access fill properties of an object.
 You do not create instances of the [Fill](./) class directly.
 
 

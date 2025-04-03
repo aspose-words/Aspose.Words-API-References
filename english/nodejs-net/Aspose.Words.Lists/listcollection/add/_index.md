@@ -48,7 +48,7 @@ add(listStyle: Aspose.Words.Style)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| listStyle | [Style](../../../Aspose.Words/style/) | The list style. |
+| listStyle | [Style](../../../aspose.words/style/) | The list style. |
 
 ### Remarks
 
