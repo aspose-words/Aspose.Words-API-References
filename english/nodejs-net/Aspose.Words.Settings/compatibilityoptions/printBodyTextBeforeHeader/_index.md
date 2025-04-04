@@ -2,11 +2,11 @@
 title: CompatibilityOptions.printBodyTextBeforeHeader property
 linktitle: printBodyTextBeforeHeader property
 articleTitle: printBodyTextBeforeHeader property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.printBodyTextBeforeHeader property. Print Body Text before Header/Footer Contents."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/printBodyTextBeforeHeader/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/printBodyTextBeforeHeader/
 ---
 
 ## CompatibilityOptions.printBodyTextBeforeHeader property

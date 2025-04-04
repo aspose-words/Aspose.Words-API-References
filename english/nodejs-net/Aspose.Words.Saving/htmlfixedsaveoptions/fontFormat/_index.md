@@ -2,11 +2,11 @@
 title: HtmlFixedSaveOptions.fontFormat property
 linktitle: fontFormat property
 articleTitle: fontFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.fontFormat property. Gets or sets [ExportFontFormat](../../exportfontformat/) used for font exporting"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/fontFormat/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/fontFormat/
 ---
 
 ## HtmlFixedSaveOptions.fontFormat property

@@ -2,11 +2,11 @@
 title: ImageData.toByteArray method
 linktitle: toByteArray method
 articleTitle: toByteArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.toByteArray method. Returns image bytes for any image regardless whether the image is stored or linked."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/toByteArray/
+url: /nodejs-net/aspose.words.drawing/imagedata/toByteArray/
 ---
 
 ## toByteArray() {#default}

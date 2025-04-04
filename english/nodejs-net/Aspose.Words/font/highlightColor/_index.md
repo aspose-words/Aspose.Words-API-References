@@ -2,11 +2,11 @@
 title: Font.highlightColor property
 linktitle: highlightColor property
 articleTitle: highlightColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.highlightColor property. Gets or sets the highlight (marker) color."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/font/highlightColor/
+url: /nodejs-net/aspose.words/font/highlightColor/
 ---
 
 ## Font.highlightColor property

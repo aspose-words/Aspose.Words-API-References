@@ -2,11 +2,11 @@
 title: HeaderFooter.acceptEnd method
 linktitle: acceptEnd method
 articleTitle: acceptEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HeaderFooter.acceptEnd method. Accepts a visitor for visiting the end of the header."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/headerfooter/acceptEnd/
+url: /nodejs-net/aspose.words/headerfooter/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

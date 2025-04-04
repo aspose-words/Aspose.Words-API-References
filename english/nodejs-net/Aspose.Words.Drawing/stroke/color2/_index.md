@@ -2,11 +2,11 @@
 title: Stroke.color2 property
 linktitle: color2 property
 articleTitle: color2 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.color2 property. Defines a second color for a stroke."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/stroke/color2/
+url: /nodejs-net/aspose.words.drawing/stroke/color2/
 ---
 
 ## Stroke.color2 property

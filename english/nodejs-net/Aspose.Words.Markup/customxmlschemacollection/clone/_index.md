@@ -2,11 +2,11 @@
 title: CustomXmlSchemaCollection.clone method
 linktitle: clone method
 articleTitle: clone method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlSchemaCollection.clone method. Makes a deep clone of this object."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Markup/customxmlschemacollection/clone/
+url: /nodejs-net/aspose.words.markup/customxmlschemacollection/clone/
 ---
 
 ## clone() {#default}

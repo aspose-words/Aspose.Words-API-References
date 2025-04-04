@@ -2,11 +2,11 @@
 title: HyphenationOptions constructor
 linktitle: HyphenationOptions constructor
 articleTitle: HyphenationOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HyphenationOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/hyphenationoptions/constructor/
+url: /nodejs-net/aspose.words.settings/hyphenationoptions/constructor/
 ---
 
 ## HyphenationOptions() {#default}

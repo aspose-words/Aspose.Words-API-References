@@ -2,11 +2,11 @@
 title: FieldChar.isDirty property
 linktitle: isDirty property
 articleTitle: isDirty property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldChar.isDirty property. Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldchar/isDirty/
+url: /nodejs-net/aspose.words.fields/fieldchar/isDirty/
 ---
 
 ## FieldChar.isDirty property

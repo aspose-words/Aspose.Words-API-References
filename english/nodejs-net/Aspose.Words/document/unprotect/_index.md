@@ -2,11 +2,11 @@
 title: Document.unprotect method
 linktitle: unprotect method
 articleTitle: unprotect method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.unprotect method"
 type: docs
 weight: 740
-url: /nodejs-net/Aspose.Words/document/unprotect/
+url: /nodejs-net/aspose.words/document/unprotect/
 ---
 
 ## unprotect() {#default}
@@ -53,7 +53,7 @@ Write protection is specified using the [Document.writeProtection](../writeProte
 
 ### Returns
 
-``True`` if a correct password was specified and the document was unprotected.
+``true`` if a correct password was specified and the document was unprotected.
 
 
 ## Examples

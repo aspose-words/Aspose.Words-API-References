@@ -5,7 +5,7 @@ articleTitle: Watermark
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Watermark class to easily add and customize watermarks in your documents, enhancing professionalism and branding.
 type: docs
-weight: 7370
+weight: 7500
 url: /net/aspose.words/watermark/
 ---
 ## Watermark class
@@ -31,7 +31,8 @@ public sealed class Watermark
 | [Remove](../../aspose.words/watermark/remove/)() | Removes the watermark. |
 | [SetImage](../../aspose.words/watermark/setimage/#setimage)(*Image*) | Adds Image watermark into the document. |
 | [SetImage](../../aspose.words/watermark/setimage/#setimage_1)(*Image, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Adds Image watermark into the document. |
-| [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(*string, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Adds Image watermark into the document. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage_2)(*Stream, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Adds Image watermark into the document. |
+| [SetImage](../../aspose.words/watermark/setimage/#setimage_3)(*string, [ImageWatermarkOptions](../imagewatermarkoptions/)*) | Adds Image watermark into the document. |
 | [SetText](../../aspose.words/watermark/settext/#settext)(*string*) | Adds Text watermark into the document. |
 | [SetText](../../aspose.words/watermark/settext/#settext_1)(*string, [TextWatermarkOptions](../textwatermarkoptions/)*) | Adds Text watermark into the document. |
 

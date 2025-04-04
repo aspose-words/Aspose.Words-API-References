@@ -2,11 +2,11 @@
 title: BorderCollection.left property
 linktitle: left property
 articleTitle: left property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BorderCollection.left property. Gets the left border."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/bordercollection/left/
+url: /nodejs-net/aspose.words/bordercollection/left/
 ---
 
 ## BorderCollection.left property

@@ -2,11 +2,11 @@
 title: Document.compliance property
 linktitle: compliance property
 articleTitle: compliance property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.compliance property. Gets the OOXML compliance version determined from the loaded document content"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/document/compliance/
+url: /nodejs-net/aspose.words/document/compliance/
 ---
 
 ## Document.compliance property
@@ -22,7 +22,7 @@ get compliance(): Aspose.Words.Saving.OoxmlCompliance
 ### Remarks
 
 If you created a new blank document or load non OOXML document
-returns the [OoxmlCompliance.Ecma376_2006](../../../Aspose.Words.Saving/ooxmlcompliance/#Ecma376_2006) value.
+returns the [OoxmlCompliance.Ecma376_2006](../../../aspose.words.saving/ooxmlcompliance/#Ecma376_2006) value.
 
 
 

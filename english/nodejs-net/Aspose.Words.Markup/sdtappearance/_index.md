@@ -2,11 +2,11 @@
 title: SdtAppearance enumeration
 linktitle: SdtAppearance enumeration
 articleTitle: SdtAppearance enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.SdtAppearance enumeration. Specifies the appearance of a structured document tag."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Markup/sdtappearance/
+url: /nodejs-net/aspose.words.markup/sdtappearance/
 ---
 
 ## SdtAppearance enumeration

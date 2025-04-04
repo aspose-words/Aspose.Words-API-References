@@ -2,11 +2,11 @@
 title: SdtType enumeration
 linktitle: SdtType enumeration
 articleTitle: SdtType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.SdtType enumeration. Specifies the type of a structured document tag (SDT) node."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Markup/sdttype/
+url: /nodejs-net/aspose.words.markup/sdttype/
 ---
 
 ## SdtType enumeration

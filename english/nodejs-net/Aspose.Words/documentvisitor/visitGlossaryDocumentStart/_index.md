@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitGlossaryDocumentStart method
 linktitle: visitGlossaryDocumentStart method
 articleTitle: visitGlossaryDocumentStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitGlossaryDocumentStart method. Called when enumeration of a glossary document has started."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words/documentvisitor/visitGlossaryDocumentStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitGlossaryDocumentStart/
 ---
 
 ## visitGlossaryDocumentStart(glossary) {#glossarydocument}
@@ -20,13 +20,13 @@ visitGlossaryDocumentStart(glossary: Aspose.Words.BuildingBlocks.GlossaryDocumen
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| glossary | [GlossaryDocument](../../../Aspose.Words.BuildingBlocks/glossarydocument/) | The object that is being visited. |
+| glossary | [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) | The object that is being visited. |
 
 ### Remarks
 
 Note: A glossary document node and its children are not visited when you execute a
 Visitor over a [Document](../../document/). If you want to execute a Visitor over a
-glossary document, you need to call [GlossaryDocument.accept()](../../../Aspose.Words.BuildingBlocks/glossarydocument/accept/#documentvisitor).
+glossary document, you need to call [GlossaryDocument.accept()](../../../aspose.words.buildingblocks/glossarydocument/accept/#documentvisitor).
 
 
 

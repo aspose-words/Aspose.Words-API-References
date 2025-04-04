@@ -2,11 +2,11 @@
 title: Cell.nextCell property
 linktitle: nextCell property
 articleTitle: nextCell property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Cell.nextCell property. Gets the next [Cell](../) node."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Tables/cell/nextCell/
+url: /nodejs-net/aspose.words.tables/cell/nextCell/
 ---
 
 ## Cell.nextCell property
@@ -22,7 +22,7 @@ get nextCell(): Aspose.Words.Tables.Cell
 ### Remarks
 
 The method can be used when you need to have typed access to cells of a [Row](../../row/). If a
-[StructuredDocumentTag](../../../Aspose.Words.Markup/structureddocumenttag/) node is found in a row instead of a cell, it is automatically
+[StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) node is found in a row instead of a cell, it is automatically
 traversed to get a cell contained within.
 
 

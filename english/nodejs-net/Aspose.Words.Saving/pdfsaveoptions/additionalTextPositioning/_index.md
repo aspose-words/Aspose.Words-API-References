@@ -2,11 +2,11 @@
 title: PdfSaveOptions.additionalTextPositioning property
 linktitle: additionalTextPositioning property
 articleTitle: additionalTextPositioning property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.additionalTextPositioning property. A flag specifying whether to write additional text positioning operators or not."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/additionalTextPositioning/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/additionalTextPositioning/
 ---
 
 ## PdfSaveOptions.additionalTextPositioning property
@@ -20,11 +20,11 @@ get additionalTextPositioning(): boolean
 
 ### Remarks
 
-If ``True``, additional text positioning operators are written to the output PDF. This may help to overcome
+If ``true``, additional text positioning operators are written to the output PDF. This may help to overcome
 issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
 
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

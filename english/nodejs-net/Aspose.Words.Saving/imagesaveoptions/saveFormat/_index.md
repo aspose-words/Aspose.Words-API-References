@@ -2,20 +2,20 @@
 title: ImageSaveOptions.saveFormat property
 linktitle: saveFormat property
 articleTitle: saveFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.saveFormat property. Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/saveFormat/
 ---
 
 ## ImageSaveOptions.saveFormat property
 
 Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used.
 Can be a raster
-[SaveFormat.Tiff](../../../Aspose.Words/saveformat/#Tiff), [SaveFormat.Png](../../../Aspose.Words/saveformat/#Png), [SaveFormat.Bmp](../../../Aspose.Words/saveformat/#Bmp),
-[SaveFormat.Jpeg](../../../Aspose.Words/saveformat/#Jpeg) or vector [SaveFormat.Emf](../../../Aspose.Words/saveformat/#Emf), [SaveFormat.Eps](../../../Aspose.Words/saveformat/#Eps),
-[SaveFormat.WebP](../../../Aspose.Words/saveformat/#WebP), [SaveFormat.Svg](../../../Aspose.Words/saveformat/#Svg).
+[SaveFormat.Tiff](../../../aspose.words/saveformat/#Tiff), [SaveFormat.Png](../../../aspose.words/saveformat/#Png), [SaveFormat.Bmp](../../../aspose.words/saveformat/#Bmp),
+[SaveFormat.Jpeg](../../../aspose.words/saveformat/#Jpeg) or vector [SaveFormat.Emf](../../../aspose.words/saveformat/#Emf), [SaveFormat.Eps](../../../aspose.words/saveformat/#Eps),
+[SaveFormat.WebP](../../../aspose.words/saveformat/#WebP), [SaveFormat.Svg](../../../aspose.words/saveformat/#Svg).
 
 
 

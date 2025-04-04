@@ -2,16 +2,16 @@
 title: ImageSavingArgs.isImageAvailable property
 linktitle: isImageAvailable property
 articleTitle: isImageAvailable property
-second_title: Aspose.Words for NodeJs
-description: "ImageSavingArgs.isImageAvailable property. Returns ``True`` if the current image is available for export."
+second_title: Aspose.Words for Node.js
+description: "ImageSavingArgs.isImageAvailable property. Returns ``true`` if the current image is available for export."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/imagesavingargs/isImageAvailable/
+url: /nodejs-net/aspose.words.saving/imagesavingargs/isImageAvailable/
 ---
 
 ## ImageSavingArgs.isImageAvailable property
 
-Returns ``True`` if the current image is available for export.
+Returns ``true`` if the current image is available for export.
 
 
 
@@ -24,11 +24,11 @@ get isImageAvailable(): boolean
 Some images in the document can be unavailable, for example, because the image
 is linked and the link is inaccessible or does not point to a valid image. 
 In this case Aspose.Words exports an icon with a red cross. This property returns 
-``True`` if the original image is available; returns ``False`` if the original 
+``true`` if the original image is available; returns ``false`` if the original 
 image is not available and a "no image" icon will be offered for save.
 
 When saving a group shape or a shape that doesn't require any image this property 
-is always ``True``.
+is always ``true``.
 
 
 

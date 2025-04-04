@@ -2,11 +2,11 @@
 title: ConditionalStyleCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.count property. Gets the number of conditional styles in the collection."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/count/
+url: /nodejs-net/aspose.words/conditionalstylecollection/count/
 ---
 
 ## ConditionalStyleCollection.count property

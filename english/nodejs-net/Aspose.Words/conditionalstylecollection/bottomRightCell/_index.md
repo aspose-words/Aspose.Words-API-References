@@ -2,11 +2,11 @@
 title: ConditionalStyleCollection.bottomRightCell property
 linktitle: bottomRightCell property
 articleTitle: bottomRightCell property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.bottomRightCell property. Gets the bottom right cell style."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/bottomRightCell/
+url: /nodejs-net/aspose.words/conditionalstylecollection/bottomRightCell/
 ---
 
 ## ConditionalStyleCollection.bottomRightCell property

@@ -2,11 +2,11 @@
 title: ChartAxis.majorUnitScale property
 linktitle: majorUnitScale property
 articleTitle: majorUnitScale property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.majorUnitScale property. Returns or sets the scale value for major tick marks on the time category axis."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/majorUnitScale/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/majorUnitScale/
 ---
 
 ## ChartAxis.majorUnitScale property

@@ -2,11 +2,11 @@
 title: Range.revisions property
 linktitle: revisions property
 articleTitle: revisions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Range.revisions property. Gets a collection of revisions (tracked changes) that exist in this range."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/range/revisions/
+url: /nodejs-net/aspose.words/range/revisions/
 ---
 
 ## Range.revisions property

@@ -2,11 +2,11 @@
 title: PageSetup.lineNumberDistanceFromText property
 linktitle: lineNumberDistanceFromText property
 articleTitle: lineNumberDistanceFromText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.lineNumberDistanceFromText property. Gets or sets distance between the right edge of line numbers and the left edge of the document."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words/pagesetup/lineNumberDistanceFromText/
+url: /nodejs-net/aspose.words/pagesetup/lineNumberDistanceFromText/
 ---
 
 ## PageSetup.lineNumberDistanceFromText property

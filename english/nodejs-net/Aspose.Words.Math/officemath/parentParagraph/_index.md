@@ -2,16 +2,16 @@
 title: OfficeMath.parentParagraph property
 linktitle: parentParagraph property
 articleTitle: parentParagraph property
-second_title: Aspose.Words for NodeJs
-description: "OfficeMath.parentParagraph property. Retrieves the parent [Paragraph](../../../Aspose.Words/paragraph/) of this node."
+second_title: Aspose.Words for Node.js
+description: "OfficeMath.parentParagraph property. Retrieves the parent [Paragraph](../../../aspose.words/paragraph/) of this node."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Math/officemath/parentParagraph/
+url: /nodejs-net/aspose.words.math/officemath/parentParagraph/
 ---
 
 ## OfficeMath.parentParagraph property
 
-Retrieves the parent [Paragraph](../../../Aspose.Words/paragraph/) of this node.
+Retrieves the parent [Paragraph](../../../aspose.words/paragraph/) of this node.
 
 
 

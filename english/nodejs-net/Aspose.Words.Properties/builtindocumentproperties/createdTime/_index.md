@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.createdTime property
 linktitle: createdTime property
 articleTitle: createdTime property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.createdTime property. Gets or sets date of the document creation in UTC."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/createdTime/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/createdTime/
 ---
 
 ## BuiltInDocumentProperties.createdTime property

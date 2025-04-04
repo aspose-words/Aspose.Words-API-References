@@ -2,11 +2,11 @@
 title: ImageBinarizationMethod enumeration
 linktitle: ImageBinarizationMethod enumeration
 articleTitle: ImageBinarizationMethod enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ImageBinarizationMethod enumeration. Specifies the method used to binarize image."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Saving/imagebinarizationmethod/
+url: /nodejs-net/aspose.words.saving/imagebinarizationmethod/
 ---
 
 ## ImageBinarizationMethod enumeration

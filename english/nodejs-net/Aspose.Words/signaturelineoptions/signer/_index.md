@@ -2,11 +2,11 @@
 title: SignatureLineOptions.signer property
 linktitle: signer property
 articleTitle: signer property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignatureLineOptions.signer property. Gets or sets suggested signer of the signature line"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/signaturelineoptions/signer/
+url: /nodejs-net/aspose.words/signaturelineoptions/signer/
 ---
 
 ## SignatureLineOptions.signer property

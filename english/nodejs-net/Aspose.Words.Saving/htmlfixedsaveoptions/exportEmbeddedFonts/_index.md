@@ -2,11 +2,11 @@
 title: HtmlFixedSaveOptions.exportEmbeddedFonts property
 linktitle: exportEmbeddedFonts property
 articleTitle: exportEmbeddedFonts property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.exportEmbeddedFonts property. Specifies whether fonts should be embedded into Html document in Base64 format"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/exportEmbeddedFonts/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/exportEmbeddedFonts/
 ---
 
 ## HtmlFixedSaveOptions.exportEmbeddedFonts property

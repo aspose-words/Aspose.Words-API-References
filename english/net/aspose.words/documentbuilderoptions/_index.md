@@ -27,6 +27,7 @@ public class DocumentBuilderOptions
 | Name | Description |
 | --- | --- |
 | [ContextTableFormatting](../../aspose.words/documentbuilderoptions/contexttableformatting/) { get; set; } | True if the formatting applied to table content does not affect the formatting of the content that follows it. Default value is `true`. |
+| [DesignMode](../../aspose.words/documentbuilderoptions/designmode/) { get; set; } | Corresponds to Design Mode in Microsoft Word. |
 
 ## Examples
 

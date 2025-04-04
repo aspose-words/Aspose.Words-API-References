@@ -2,16 +2,16 @@
 title: RevisionOptions.revisedPropertiesEffect property
 linktitle: revisedPropertiesEffect property
 articleTitle: revisedPropertiesEffect property
-second_title: Aspose.Words for NodeJs
-description: "RevisionOptions.revisedPropertiesEffect property. Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FormatChange](../../../Aspose.Words/revisiontype/#FormatChange) Default value is [RevisionTextEffect.None](../../revisiontexteffect/#None)"
+second_title: Aspose.Words for Node.js
+description: "RevisionOptions.revisedPropertiesEffect property. Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FormatChange](../../../aspose.words/revisiontype/#FormatChange) Default value is [RevisionTextEffect.None](../../revisiontexteffect/#None)"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/revisedPropertiesEffect/
+url: /nodejs-net/aspose.words.layout/revisionoptions/revisedPropertiesEffect/
 ---
 
 ## RevisionOptions.revisedPropertiesEffect property
 
-Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FormatChange](../../../Aspose.Words/revisiontype/#FormatChange)
+Allows to specify the effect for content areas with changes of formatting properties [RevisionType.FormatChange](../../../aspose.words/revisiontype/#FormatChange)
 Default value is [RevisionTextEffect.None](../../revisiontexteffect/#None)
 
 

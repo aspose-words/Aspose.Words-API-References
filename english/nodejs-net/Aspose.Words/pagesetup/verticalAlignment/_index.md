@@ -2,11 +2,11 @@
 title: PageSetup.verticalAlignment property
 linktitle: verticalAlignment property
 articleTitle: verticalAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.verticalAlignment property. Returns or sets the vertical alignment of text on each page in a document or section."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/pagesetup/verticalAlignment/
+url: /nodejs-net/aspose.words/pagesetup/verticalAlignment/
 ---
 
 ## PageSetup.verticalAlignment property

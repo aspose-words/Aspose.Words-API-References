@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitTableStart method
 linktitle: visitTableStart method
 articleTitle: visitTableStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitTableStart method. Called when enumeration of a table has started."
 type: docs
 weight: 500
-url: /nodejs-net/Aspose.Words/documentvisitor/visitTableStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitTableStart/
 ---
 
 ## visitTableStart(table) {#table}

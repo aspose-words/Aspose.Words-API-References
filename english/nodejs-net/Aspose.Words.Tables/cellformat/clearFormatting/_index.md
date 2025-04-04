@@ -2,11 +2,11 @@
 title: CellFormat.clearFormatting method
 linktitle: clearFormatting method
 articleTitle: clearFormatting method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.clearFormatting method. Resets to default cell formatting"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Tables/cellformat/clearFormatting/
+url: /nodejs-net/aspose.words.tables/cellformat/clearFormatting/
 ---
 
 ## clearFormatting() {#default}

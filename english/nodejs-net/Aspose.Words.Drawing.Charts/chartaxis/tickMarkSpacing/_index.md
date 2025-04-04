@@ -2,11 +2,11 @@
 title: ChartAxis.tickMarkSpacing property
 linktitle: tickMarkSpacing property
 articleTitle: tickMarkSpacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.tickMarkSpacing property. Gets or sets the interval, at which tick marks are drawn."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/tickMarkSpacing/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/tickMarkSpacing/
 ---
 
 ## ChartAxis.tickMarkSpacing property

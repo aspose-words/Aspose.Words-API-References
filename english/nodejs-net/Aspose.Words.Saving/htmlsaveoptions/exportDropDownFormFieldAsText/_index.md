@@ -2,17 +2,17 @@
 title: HtmlSaveOptions.exportDropDownFormFieldAsText property
 linktitle: exportDropDownFormFieldAsText property
 articleTitle: exportDropDownFormFieldAsText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportDropDownFormFieldAsText property. Controls how drop-down form fields are saved to HTML or MHTML"
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportDropDownFormFieldAsText/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportDropDownFormFieldAsText/
 ---
 
 ## HtmlSaveOptions.exportDropDownFormFieldAsText property
 
 Controls how drop-down form fields are saved to HTML or MHTML.
-Default value is ``False``.
+Default value is ``false``.
 
 
 
@@ -22,8 +22,8 @@ get exportDropDownFormFieldAsText(): boolean
 
 ### Remarks
 
-When set to ``True``, exports drop-down form fields as normal text.
-When ``False``, exports drop-down form fields as SELECT element in HTML.
+When set to ``true``, exports drop-down form fields as normal text.
+When ``false``, exports drop-down form fields as SELECT element in HTML.
 
 When exporting to EPUB, text drop-down form fields are always saved as text due 
 to requirements of this format.

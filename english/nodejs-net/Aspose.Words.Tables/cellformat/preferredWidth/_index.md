@@ -2,11 +2,11 @@
 title: CellFormat.preferredWidth property
 linktitle: preferredWidth property
 articleTitle: preferredWidth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.preferredWidth property. Returns or sets the preferred width of the cell."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Tables/cellformat/preferredWidth/
+url: /nodejs-net/aspose.words.tables/cellformat/preferredWidth/
 ---
 
 ## CellFormat.preferredWidth property

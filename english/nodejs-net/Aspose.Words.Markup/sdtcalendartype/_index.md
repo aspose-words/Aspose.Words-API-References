@@ -2,11 +2,11 @@
 title: SdtCalendarType enumeration
 linktitle: SdtCalendarType enumeration
 articleTitle: SdtCalendarType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.SdtCalendarType enumeration. Specifies the possible types of calendars which can be used to specify [StructuredDocumentTag.calendarType](../structureddocumenttag/calendarType/) in an Office Open XML document."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Markup/sdtcalendartype/
+url: /nodejs-net/aspose.words.markup/sdtcalendartype/
 ---
 
 ## SdtCalendarType enumeration

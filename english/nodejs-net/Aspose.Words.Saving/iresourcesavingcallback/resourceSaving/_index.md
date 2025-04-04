@@ -2,11 +2,11 @@
 title: IResourceSavingCallback.resourceSaving method
 linktitle: resourceSaving method
 articleTitle: resourceSaving method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IResourceSavingCallback.resourceSaving method. Called when Aspose.Words saves an external resource to fixed page HTML or SVG formats."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/iresourcesavingcallback/resourceSaving/
+url: /nodejs-net/aspose.words.saving/iresourcesavingcallback/resourceSaving/
 ---
 
 ## resourceSaving(args) {#resourcesavingargs}

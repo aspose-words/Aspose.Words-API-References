@@ -2,11 +2,11 @@
 title: MetafileRenderingMode enumeration
 linktitle: MetafileRenderingMode enumeration
 articleTitle: MetafileRenderingMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.MetafileRenderingMode enumeration. Specifies how Aspose.Words should render WMF and EMF metafiles."
 type: docs
 weight: 470
-url: /nodejs-net/Aspose.Words.Saving/metafilerenderingmode/
+url: /nodejs-net/aspose.words.saving/metafilerenderingmode/
 ---
 
 ## MetafileRenderingMode enumeration

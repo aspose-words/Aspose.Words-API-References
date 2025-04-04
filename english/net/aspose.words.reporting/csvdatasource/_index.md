@@ -5,7 +5,7 @@ articleTitle: CsvDataSource
 second_title: Aspose.Words for .NET
 description: Access and utilize CSV data effortlessly with Aspose.Words.Reporting.CsvDataSource. Enhance your reports with seamless data integration!
 type: docs
-weight: 5270
+weight: 5400
 url: /net/aspose.words.reporting/csvdatasource/
 ---
 ## CsvDataSource class

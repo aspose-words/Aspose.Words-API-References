@@ -2,11 +2,11 @@
 title: AxisBuiltInUnit enumeration
 linktitle: AxisBuiltInUnit enumeration
 articleTitle: AxisBuiltInUnit enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisBuiltInUnit enumeration. Specifies the display units for an axis."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisbuiltinunit/
+url: /nodejs-net/aspose.words.drawing.charts/axisbuiltinunit/
 ---
 
 ## AxisBuiltInUnit enumeration

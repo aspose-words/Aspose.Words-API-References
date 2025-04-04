@@ -2,11 +2,11 @@
 title: FontConfigSubstitutionRule.enabled property
 linktitle: enabled property
 articleTitle: enabled property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontConfigSubstitutionRule.enabled property. Specifies whether the rule is enabled or not."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/fontconfigsubstitutionrule/enabled/
+url: /nodejs-net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
 ---
 
 ## FontConfigSubstitutionRule.enabled property

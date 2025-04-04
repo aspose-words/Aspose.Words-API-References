@@ -2,11 +2,11 @@
 title: ShapeBase.top property
 linktitle: top property
 articleTitle: top property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.top property. Gets or sets the position of the top edge of the containing block of the shape."
 type: docs
 weight: 520
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/top/
+url: /nodejs-net/aspose.words.drawing/shapebase/top/
 ---
 
 ## ShapeBase.top property

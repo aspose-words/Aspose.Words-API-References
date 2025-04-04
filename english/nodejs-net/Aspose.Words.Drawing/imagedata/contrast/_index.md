@@ -2,11 +2,11 @@
 title: ImageData.contrast property
 linktitle: contrast property
 articleTitle: contrast property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.contrast property. Gets or sets the contrast for the specified picture"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/contrast/
+url: /nodejs-net/aspose.words.drawing/imagedata/contrast/
 ---
 
 ## ImageData.contrast property

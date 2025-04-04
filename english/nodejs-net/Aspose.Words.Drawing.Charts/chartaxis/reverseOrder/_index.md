@@ -2,11 +2,11 @@
 title: ChartAxis.reverseOrder property
 linktitle: reverseOrder property
 articleTitle: reverseOrder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.reverseOrder property. Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/reverseOrder/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/reverseOrder/
 ---
 
 ## ChartAxis.reverseOrder property
@@ -21,7 +21,7 @@ get reverseOrder(): boolean
 
 ### Remarks
 
-The property is not supported by MS Office 2016 new charts. Default value is ``False``.
+The property is not supported by MS Office 2016 new charts. Default value is ``false``.
 
 
 

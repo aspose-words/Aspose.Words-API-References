@@ -2,11 +2,11 @@
 title: DocumentLoadingArgs class
 linktitle: DocumentLoadingArgs class
 articleTitle: DocumentLoadingArgs class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.DocumentLoadingArgs class. An argument passed into [IDocumentLoadingCallback.notify()](../idocumentloadingcallback/notify/#documentloadingargs)"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Loading/documentloadingargs/
+url: /nodejs-net/aspose.words.loading/documentloadingargs/
 ---
 
 ## DocumentLoadingArgs class

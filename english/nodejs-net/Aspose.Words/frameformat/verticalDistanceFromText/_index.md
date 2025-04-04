@@ -2,11 +2,11 @@
 title: FrameFormat.verticalDistanceFromText property
 linktitle: verticalDistanceFromText property
 articleTitle: verticalDistanceFromText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FrameFormat.verticalDistanceFromText property. Specifies vertical distance (in points) between a frame and the surrounding text."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/frameformat/verticalDistanceFromText/
+url: /nodejs-net/aspose.words/frameformat/verticalDistanceFromText/
 ---
 
 ## FrameFormat.verticalDistanceFromText property

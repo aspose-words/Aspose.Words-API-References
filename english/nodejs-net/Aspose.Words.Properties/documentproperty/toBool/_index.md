@@ -2,11 +2,11 @@
 title: DocumentProperty.toBool method
 linktitle: toBool method
 articleTitle: toBool method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentProperty.toBool method. Returns the property value as bool."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Properties/documentproperty/toBool/
+url: /nodejs-net/aspose.words.properties/documentproperty/toBool/
 ---
 
 ## toBool() {#default}

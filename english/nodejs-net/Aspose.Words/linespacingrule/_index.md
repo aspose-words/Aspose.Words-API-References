@@ -2,11 +2,11 @@
 title: LineSpacingRule enumeration
 linktitle: LineSpacingRule enumeration
 articleTitle: LineSpacingRule enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.LineSpacingRule enumeration. Specifies line spacing values for a paragraph."
 type: docs
 weight: 760
-url: /nodejs-net/Aspose.Words/linespacingrule/
+url: /nodejs-net/aspose.words/linespacingrule/
 ---
 
 ## LineSpacingRule enumeration

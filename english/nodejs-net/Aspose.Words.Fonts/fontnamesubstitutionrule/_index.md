@@ -2,11 +2,11 @@
 title: FontNameSubstitutionRule class
 linktitle: FontNameSubstitutionRule class
 articleTitle: FontNameSubstitutionRule class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontNameSubstitutionRule class. Font substitution rule for processing font name"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Fonts/fontnamesubstitutionrule/
+url: /nodejs-net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 
 ## FontNameSubstitutionRule class

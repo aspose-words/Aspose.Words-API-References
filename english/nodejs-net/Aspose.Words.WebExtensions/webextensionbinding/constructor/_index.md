@@ -2,11 +2,11 @@
 title: WebExtensionBinding constructor
 linktitle: WebExtensionBinding constructor
 articleTitle: WebExtensionBinding constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtensionBinding constructor. Creates web extension binding with specified parameters."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbinding/constructor/
+url: /nodejs-net/aspose.words.webextensions/webextensionbinding/constructor/
 ---
 
 ## WebExtensionBinding(id, bindingType, appRef) {#string_webextensionbindingtype_string}
@@ -15,7 +15,7 @@ Creates web extension binding with specified parameters.
 
 
 ```js
-WebExtensionBinding(id: stringbindingType: Aspose.Words.WebExtensions.WebExtensionBindingTypeappRef: string)
+WebExtensionBinding(id: string, bindingType: Aspose.Words.WebExtensions.WebExtensionBindingType, appRef: string)
 ```
 
 | Parameter | Type | Description |

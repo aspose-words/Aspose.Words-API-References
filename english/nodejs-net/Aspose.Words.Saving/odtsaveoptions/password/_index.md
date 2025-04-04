@@ -2,11 +2,11 @@
 title: OdtSaveOptions.password property
 linktitle: password property
 articleTitle: password property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdtSaveOptions.password property. Gets or sets a password to encrypt document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/password/
+url: /nodejs-net/aspose.words.saving/odtsaveoptions/password/
 ---
 
 ## OdtSaveOptions.password property
@@ -20,7 +20,7 @@ get password(): string
 
 ### Remarks
 
-In order to save document without encryption this property should be ``None`` or empty string.
+In order to save document without encryption this property should be ``null`` or empty string.
 
 
 

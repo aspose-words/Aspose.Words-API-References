@@ -2,17 +2,17 @@
 title: Chart.dataTable property
 linktitle: dataTable property
 articleTitle: dataTable property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Chart.dataTable property. Provides access to properties of a data table of this chart"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/chart/dataTable/
+url: /nodejs-net/aspose.words.drawing/chart/dataTable/
 ---
 
 ## Chart.dataTable property
 
 Provides access to properties of a data table of this chart.
-The data table can be shown using the [ChartDataTable.show](../../../Aspose.Words.Drawing.Charts/chartdatatable/show/) property.
+The data table can be shown using the [ChartDataTable.show](../../../aspose.words.drawing.charts/chartdatatable/show/) property.
 
 
 

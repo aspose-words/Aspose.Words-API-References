@@ -2,11 +2,11 @@
 title: DocumentBuilder.startEditableRange method
 linktitle: startEditableRange method
 articleTitle: startEditableRange method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.startEditableRange method. Marks the current position in the document as an editable range start."
 type: docs
 weight: 670
-url: /nodejs-net/Aspose.Words/documentbuilder/startEditableRange/
+url: /nodejs-net/aspose.words/documentbuilder/startEditableRange/
 ---
 
 ## startEditableRange() {#default}

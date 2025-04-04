@@ -2,11 +2,11 @@
 title: StructuredDocumentTagCollection.getById method
 linktitle: getById method
 articleTitle: getById method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagCollection.getById method. Returns the structured document tag by identifier."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagcollection/getById/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagcollection/getById/
 ---
 
 ## getById(id) {#number}

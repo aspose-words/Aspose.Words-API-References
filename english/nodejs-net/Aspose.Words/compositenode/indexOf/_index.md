@@ -2,11 +2,11 @@
 title: CompositeNode.indexOf method
 linktitle: indexOf method
 articleTitle: indexOf method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.indexOf method. Returns the index of the specified child node in the child node array."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/compositenode/indexOf/
+url: /nodejs-net/aspose.words/compositenode/indexOf/
 ---
 
 ## indexOf(child) {#node}

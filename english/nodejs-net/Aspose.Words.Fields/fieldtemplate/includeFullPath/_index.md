@@ -2,11 +2,11 @@
 title: FieldTemplate.includeFullPath property
 linktitle: includeFullPath property
 articleTitle: includeFullPath property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldTemplate.includeFullPath property. Gets or sets whether to include the full file path name."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldtemplate/includeFullPath/
+url: /nodejs-net/aspose.words.fields/fieldtemplate/includeFullPath/
 ---
 
 ## FieldTemplate.includeFullPath property

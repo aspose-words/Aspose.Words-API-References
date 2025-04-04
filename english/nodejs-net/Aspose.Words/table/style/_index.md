@@ -2,11 +2,11 @@
 title: Table.style property
 linktitle: style property
 articleTitle: style property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.style property. Gets or sets the table style applied to this table."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/table/style/
+url: /nodejs-net/aspose.words/table/style/
 ---
 
 ## Table.style property

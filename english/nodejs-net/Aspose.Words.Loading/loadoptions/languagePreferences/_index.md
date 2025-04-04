@@ -2,11 +2,11 @@
 title: LoadOptions.languagePreferences property
 linktitle: languagePreferences property
 articleTitle: languagePreferences property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.languagePreferences property. Gets language preferences that will be used when document is loading."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/languagePreferences/
+url: /nodejs-net/aspose.words.loading/loadoptions/languagePreferences/
 ---
 
 ## LoadOptions.languagePreferences property

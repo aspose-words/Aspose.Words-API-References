@@ -2,11 +2,11 @@
 title: HorizontalRuleFormat.alignment property
 linktitle: alignment property
 articleTitle: alignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HorizontalRuleFormat.alignment property. Gets or sets the alignment of the horizontal rule."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/horizontalruleformat/alignment/
+url: /nodejs-net/aspose.words.drawing/horizontalruleformat/alignment/
 ---
 
 ## HorizontalRuleFormat.alignment property

@@ -2,11 +2,11 @@
 title: PreferredWidth.value property
 linktitle: value property
 articleTitle: value property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PreferredWidth.value property. Gets the preferred width value"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Tables/preferredwidth/value/
+url: /nodejs-net/aspose.words.tables/preferredwidth/value/
 ---
 
 ## PreferredWidth.value property

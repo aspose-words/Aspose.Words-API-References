@@ -2,11 +2,11 @@
 title: Fill.oneColorGradient method
 linktitle: oneColorGradient method
 articleTitle: oneColorGradient method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Fill.oneColorGradient method"
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing/fill/oneColorGradient/
+url: /nodejs-net/aspose.words.drawing/fill/oneColorGradient/
 ---
 
 ## oneColorGradient(style, variant, degree) {#gradientstyle_gradientvariant_number}
@@ -15,7 +15,7 @@ Sets the specified fill to a one-color gradient.
 
 
 ```js
-oneColorGradient(style: Aspose.Words.Drawing.GradientStylevariant: Aspose.Words.Drawing.GradientVariantdegree: number)
+oneColorGradient(style: Aspose.Words.Drawing.GradientStyle, variant: Aspose.Words.Drawing.GradientVariant, degree: number)
 ```
 
 | Parameter | Type | Description |
@@ -30,7 +30,7 @@ Sets the specified fill to a one-color gradient using the specified color.
 
 
 ```js
-oneColorGradient(color: stringstyle: Aspose.Words.Drawing.GradientStylevariant: Aspose.Words.Drawing.GradientVariantdegree: number)
+oneColorGradient(color: string, style: Aspose.Words.Drawing.GradientStyle, variant: Aspose.Words.Drawing.GradientVariant, degree: number)
 ```
 
 | Parameter | Type | Description |

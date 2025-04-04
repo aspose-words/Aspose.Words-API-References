@@ -2,11 +2,11 @@
 title: IChartDataPoint.invertIfNegative property
 linktitle: invertIfNegative property
 articleTitle: invertIfNegative property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IChartDataPoint.invertIfNegative property. Specifies whether the parent element shall inverts its colors if the value is negative."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/ichartdatapoint/invertIfNegative/
+url: /nodejs-net/aspose.words.drawing.charts/ichartdatapoint/invertIfNegative/
 ---
 
 ## IChartDataPoint.invertIfNegative property

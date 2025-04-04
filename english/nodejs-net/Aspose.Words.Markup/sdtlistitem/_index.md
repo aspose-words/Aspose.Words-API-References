@@ -2,11 +2,11 @@
 title: SdtListItem class
 linktitle: SdtListItem class
 articleTitle: SdtListItem class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.SdtListItem class. This element specifies a single list item within a parent [SdtType.ComboBox](../sdttype/#ComboBox) or [SdtType.DropDownList](../sdttype/#DropDownList) structured document tag"
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Markup/sdtlistitem/
+url: /nodejs-net/aspose.words.markup/sdtlistitem/
 ---
 
 ## SdtListItem class

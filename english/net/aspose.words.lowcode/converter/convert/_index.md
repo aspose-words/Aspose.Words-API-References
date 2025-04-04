@@ -5,7 +5,7 @@ articleTitle: Convert
 second_title: Aspose.Words for .NET
 description: Effortlessly convert your documents with our Converter's Convert method. Transform input files into desired formats with ease and precision.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.lowcode/converter/convert/
 ---
 ## Convert(*string, string*) {#convert_4}
@@ -20,6 +20,12 @@ public static void Convert(string inputFile, string outputFile)
 | --- | --- | --- |
 | inputFile | String | The input file name. |
 | outputFile | String | The output file name. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## Examples
 
@@ -61,6 +67,12 @@ public static void Convert(string inputFile, string outputFile, SaveFormat saveF
 | outputFile | String | The output file name. |
 | saveFormat | SaveFormat | The save format. |
 
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
 ## Examples
 
 Shows how to convert documents with a single line of code.
@@ -101,6 +113,12 @@ public static void Convert(string inputFile, string outputFile, SaveOptions save
 | inputFile | String | The input file name. |
 | outputFile | String | The output file name. |
 | saveOptions | SaveOptions | The save options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## Examples
 
@@ -145,6 +163,12 @@ public static void Convert(string inputFile, LoadOptions loadOptions, string out
 | outputFile | String | The output file name. |
 | saveOptions | SaveOptions | The save options. |
 
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
 ## Examples
 
 Shows how to convert documents with a single line of code.
@@ -186,6 +210,12 @@ public static void Convert(Stream inputStream, Stream outputStream, SaveFormat s
 | inputStream | Stream | The input stream. |
 | outputStream | Stream | The output stream. |
 | saveFormat | SaveFormat | The save format. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## Examples
 
@@ -229,6 +259,12 @@ public static void Convert(Stream inputStream, Stream outputStream, SaveOptions 
 | inputStream | Stream | The input streams. |
 | outputStream | Stream | The output stream. |
 | saveOptions | SaveOptions | The save options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## Examples
 
@@ -274,6 +310,12 @@ public static void Convert(Stream inputStream, LoadOptions loadOptions, Stream o
 | loadOptions | LoadOptions | The input document load options. |
 | outputStream | Stream | The output stream. |
 | saveOptions | SaveOptions | The save options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## Examples
 

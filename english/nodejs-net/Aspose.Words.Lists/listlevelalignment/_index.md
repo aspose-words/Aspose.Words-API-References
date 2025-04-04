@@ -2,11 +2,11 @@
 title: ListLevelAlignment enumeration
 linktitle: ListLevelAlignment enumeration
 articleTitle: ListLevelAlignment enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Lists.ListLevelAlignment enumeration. Specifies alignment for the list number or bullet."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Lists/listlevelalignment/
+url: /nodejs-net/aspose.words.lists/listlevelalignment/
 ---
 
 ## ListLevelAlignment enumeration

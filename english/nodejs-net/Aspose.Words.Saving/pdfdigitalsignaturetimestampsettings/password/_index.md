@@ -2,11 +2,11 @@
 title: PdfDigitalSignatureTimestampSettings.password property
 linktitle: password property
 articleTitle: password property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfDigitalSignatureTimestampSettings.password property. Timestamp server password."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturetimestampsettings/password/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
 ---
 
 ## PdfDigitalSignatureTimestampSettings.password property
@@ -20,7 +20,7 @@ get password(): string
 
 ### Remarks
 
-The default value is ``None``.
+The default value is ``null``.
 
 
 

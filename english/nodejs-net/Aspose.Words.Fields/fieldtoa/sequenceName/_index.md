@@ -2,11 +2,11 @@
 title: FieldToa.sequenceName property
 linktitle: sequenceName property
 articleTitle: sequenceName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToa.sequenceName property. Gets or sets the name of a sequence whose number is included with the page number."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fieldtoa/sequenceName/
+url: /nodejs-net/aspose.words.fields/fieldtoa/sequenceName/
 ---
 
 ## FieldToa.sequenceName property

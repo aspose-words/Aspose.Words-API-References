@@ -2,11 +2,11 @@
 title: LoadOptions.convertMetafilesToPng property
 linktitle: convertMetafilesToPng property
 articleTitle: convertMetafilesToPng property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.convertMetafilesToPng property. Gets or sets whether to convert metafile(Wmf or Emf) images to Png image format."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/convertMetafilesToPng/
+url: /nodejs-net/aspose.words.loading/loadoptions/convertMetafilesToPng/
 ---
 
 ## LoadOptions.convertMetafilesToPng property

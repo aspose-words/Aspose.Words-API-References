@@ -2,16 +2,16 @@
 title: Row.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
-description: "Row.nodeType property. Returns [NodeType.Row](../../../Aspose.Words/nodetype/#Row)."
+second_title: Aspose.Words for Node.js
+description: "Row.nodeType property. Returns [NodeType.Row](../../../aspose.words/nodetype/#Row)."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Tables/row/nodeType/
+url: /nodejs-net/aspose.words.tables/row/nodeType/
 ---
 
 ## Row.nodeType property
 
-Returns [NodeType.Row](../../../Aspose.Words/nodetype/#Row).
+Returns [NodeType.Row](../../../aspose.words/nodetype/#Row).
 
 
 

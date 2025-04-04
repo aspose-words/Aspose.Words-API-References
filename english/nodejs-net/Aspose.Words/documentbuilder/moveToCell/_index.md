@@ -2,11 +2,11 @@
 title: DocumentBuilder.moveToCell method
 linktitle: moveToCell method
 articleTitle: moveToCell method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.moveToCell method. Moves the cursor to a table cell in the current section."
 type: docs
 weight: 540
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToCell/
+url: /nodejs-net/aspose.words/documentbuilder/moveToCell/
 ---
 
 ## moveToCell(tableIndex, rowIndex, columnIndex, characterIndex) {#number_number_number_number}
@@ -15,7 +15,7 @@ Moves the cursor to a table cell in the current section.
 
 
 ```js
-moveToCell(tableIndex: numberrowIndex: numbercolumnIndex: numbercharacterIndex: number)
+moveToCell(tableIndex: number, rowIndex: number, columnIndex: number, characterIndex: number)
 ```
 
 | Parameter | Type | Description |

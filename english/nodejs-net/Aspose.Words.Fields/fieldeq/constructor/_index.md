@@ -2,11 +2,11 @@
 title: FieldEQ constructor
 linktitle: FieldEQ constructor
 articleTitle: FieldEQ constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldEQ constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldeq/constructor/
+url: /nodejs-net/aspose.words.fields/fieldeq/constructor/
 ---
 
 ## FieldEQ() {#default}

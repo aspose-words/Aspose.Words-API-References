@@ -2,11 +2,11 @@
 title: CompatibilityOptions.doNotVertAlignCellWithSp property
 linktitle: doNotVertAlignCellWithSp property
 articleTitle: doNotVertAlignCellWithSp property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.doNotVertAlignCellWithSp property. Don't Vertically Align Cells Containing Floating Objects."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/doNotVertAlignCellWithSp/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/doNotVertAlignCellWithSp/
 ---
 
 ## CompatibilityOptions.doNotVertAlignCellWithSp property

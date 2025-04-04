@@ -2,11 +2,11 @@
 title: FieldFillIn.promptOnceOnMailMerge property
 linktitle: promptOnceOnMailMerge property
 articleTitle: promptOnceOnMailMerge property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFillIn.promptOnceOnMailMerge property. Gets or sets whether the user response should be recieved once per a mail merge operation."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldfillin/promptOnceOnMailMerge/
+url: /nodejs-net/aspose.words.fields/fieldfillin/promptOnceOnMailMerge/
 ---
 
 ## FieldFillIn.promptOnceOnMailMerge property

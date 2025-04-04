@@ -2,11 +2,11 @@
 title: VisitorAction enumeration
 linktitle: VisitorAction enumeration
 articleTitle: VisitorAction enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.VisitorAction enumeration. Allows the visitor to control the enumeration of nodes."
 type: docs
 weight: 1460
-url: /nodejs-net/Aspose.Words/visitoraction/
+url: /nodejs-net/aspose.words/visitoraction/
 ---
 
 ## VisitorAction enumeration

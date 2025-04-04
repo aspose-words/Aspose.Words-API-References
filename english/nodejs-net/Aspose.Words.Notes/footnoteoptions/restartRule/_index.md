@@ -2,11 +2,11 @@
 title: FootnoteOptions.restartRule property
 linktitle: restartRule property
 articleTitle: restartRule property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FootnoteOptions.restartRule property. Determines when automatic numbering restarts."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Notes/footnoteoptions/restartRule/
+url: /nodejs-net/aspose.words.notes/footnoteoptions/restartRule/
 ---
 
 ## FootnoteOptions.restartRule property

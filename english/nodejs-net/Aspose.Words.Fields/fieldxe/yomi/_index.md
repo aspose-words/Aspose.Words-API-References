@@ -2,11 +2,11 @@
 title: FieldXE.yomi property
 linktitle: yomi property
 articleTitle: yomi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldXE.yomi property. Gets or sets the yomi (first phonetic character for sorting indexes) for the index entry"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fieldxe/yomi/
+url: /nodejs-net/aspose.words.fields/fieldxe/yomi/
 ---
 
 ## FieldXE.yomi property

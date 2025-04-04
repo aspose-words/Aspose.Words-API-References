@@ -2,11 +2,11 @@
 title: CustomDocumentProperties.addLinkToContent method
 linktitle: addLinkToContent method
 articleTitle: addLinkToContent method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomDocumentProperties.addLinkToContent method. Creates a new linked to content custom document property."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Properties/customdocumentproperties/addLinkToContent/
+url: /nodejs-net/aspose.words.properties/customdocumentproperties/addLinkToContent/
 ---
 
 ## addLinkToContent(name, linkSource) {#string_string}
@@ -15,7 +15,7 @@ Creates a new linked to content custom document property.
 
 
 ```js
-addLinkToContent(name: stringlinkSource: string)
+addLinkToContent(name: string, linkSource: string)
 ```
 
 | Parameter | Type | Description |
@@ -25,7 +25,7 @@ addLinkToContent(name: stringlinkSource: string)
 
 ### Returns
 
-The newly created property object or ``None`` when the *linkSource* is invalid.
+The newly created property object or ``null`` when the *linkSource* is invalid.
 
 
 ### Examples

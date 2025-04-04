@@ -2,16 +2,16 @@
 title: StructuredDocumentTagRangeStart.wordOpenXML property
 linktitle: wordOpenXML property
 articleTitle: wordOpenXML property
-second_title: Aspose.Words for NodeJs
-description: "StructuredDocumentTagRangeStart.wordOpenXML property. Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc) format."
+second_title: Aspose.Words for Node.js
+description: "StructuredDocumentTagRangeStart.wordOpenXML property. Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc) format."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/wordOpenXML/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/wordOpenXML/
 ---
 
 ## StructuredDocumentTagRangeStart.wordOpenXML property
 
-Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc) format.
+Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc) format.
 
 
 

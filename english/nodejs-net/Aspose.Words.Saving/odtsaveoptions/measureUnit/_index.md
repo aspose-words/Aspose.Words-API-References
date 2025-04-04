@@ -2,11 +2,11 @@
 title: OdtSaveOptions.measureUnit property
 linktitle: measureUnit property
 articleTitle: measureUnit property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdtSaveOptions.measureUnit property. Allows to specify units of measure to apply to document content"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/measureUnit/
+url: /nodejs-net/aspose.words.saving/odtsaveoptions/measureUnit/
 ---
 
 ## OdtSaveOptions.measureUnit property

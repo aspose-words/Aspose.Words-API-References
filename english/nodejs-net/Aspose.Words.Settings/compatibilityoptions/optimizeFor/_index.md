@@ -2,11 +2,11 @@
 title: CompatibilityOptions.optimizeFor method
 linktitle: optimizeFor method
 articleTitle: optimizeFor method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.optimizeFor method. Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word."
 type: docs
 weight: 720
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/optimizeFor/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/optimizeFor/
 ---
 
 ## optimizeFor(version) {#mswordversion}
@@ -14,8 +14,8 @@ url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/optimizeFor/
 Allows to optimize the document contents as well as default Aspose.Words behavior to a particular versions of MS Word.
 
 Use this method to prevent MS Word from displaying "Compatibility mode" ribbon upon document loading.
-(Note that you may also need to set the [OoxmlSaveOptions.compliance](../../../Aspose.Words.Saving/ooxmlsaveoptions/compliance/) property to
-[OoxmlCompliance.Iso29500_2008_Transitional](../../../Aspose.Words.Saving/ooxmlcompliance/#Iso29500_2008_Transitional) or higher.)
+(Note that you may also need to set the [OoxmlSaveOptions.compliance](../../../aspose.words.saving/ooxmlsaveoptions/compliance/) property to
+[OoxmlCompliance.Iso29500_2008_Transitional](../../../aspose.words.saving/ooxmlcompliance/#Iso29500_2008_Transitional) or higher.)
 
 
 

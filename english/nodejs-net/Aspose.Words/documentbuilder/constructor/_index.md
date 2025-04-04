@@ -2,11 +2,11 @@
 title: DocumentBuilder constructor
 linktitle: DocumentBuilder constructor
 articleTitle: DocumentBuilder constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/documentbuilder/constructor/
+url: /nodejs-net/aspose.words/documentbuilder/constructor/
 ---
 
 ## DocumentBuilder() {#default}
@@ -70,7 +70,7 @@ Initializes a new instance of this class.
 
 
 ```js
-DocumentBuilder(doc: Aspose.Words.Documentoptions: Aspose.Words.DocumentBuilderOptions)
+DocumentBuilder(doc: Aspose.Words.Document, options: Aspose.Words.DocumentBuilderOptions)
 ```
 
 | Parameter | Type | Description |

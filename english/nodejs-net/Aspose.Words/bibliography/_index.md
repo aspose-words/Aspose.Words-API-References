@@ -2,11 +2,11 @@
 title: Bibliography class
 linktitle: Bibliography class
 articleTitle: Bibliography class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Bibliography class. Represents the list of bibliography sources available in the document."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/bibliography/
+url: /nodejs-net/aspose.words/bibliography/
 ---
 
 ## Bibliography class

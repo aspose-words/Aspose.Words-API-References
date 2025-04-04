@@ -2,11 +2,11 @@
 title: IStructuredDocumentTag.node property
 linktitle: node property
 articleTitle: node property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IStructuredDocumentTag.node property. Returns Node object that implements this interface."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/node/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/node/
 ---
 
 ## IStructuredDocumentTag.node property

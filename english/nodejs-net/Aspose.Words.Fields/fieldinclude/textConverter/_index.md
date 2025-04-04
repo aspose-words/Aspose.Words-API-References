@@ -2,11 +2,11 @@
 title: FieldInclude.textConverter property
 linktitle: textConverter property
 articleTitle: textConverter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldInclude.textConverter property. Gets or sets the name of the text converter for the format of the included file."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldinclude/textConverter/
+url: /nodejs-net/aspose.words.fields/fieldinclude/textConverter/
 ---
 
 ## FieldInclude.textConverter property

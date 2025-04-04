@@ -2,11 +2,11 @@
 title: FileFormatUtil.imageTypeToExtension method
 linktitle: imageTypeToExtension method
 articleTitle: imageTypeToExtension method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FileFormatUtil.imageTypeToExtension method. Converts an Aspose.Words image type enumerated value into a file extension"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/fileformatutil/imageTypeToExtension/
+url: /nodejs-net/aspose.words/fileformatutil/imageTypeToExtension/
 ---
 
 ## imageTypeToExtension(imageType) {#imagetype}
@@ -20,7 +20,7 @@ imageTypeToExtension(imageType: Aspose.Words.Drawing.ImageType)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageType | [ImageType](../../../Aspose.Words.Drawing/imagetype/) |  |
+| imageType | [ImageType](../../../aspose.words.drawing/imagetype/) |  |
 
 ### Exceptions
 

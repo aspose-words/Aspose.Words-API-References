@@ -2,11 +2,11 @@
 title: Table.distanceRight property
 linktitle: distanceRight property
 articleTitle: distanceRight property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.distanceRight property. Gets or sets distance between table right and the surrounding text, in points."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/table/distanceRight/
+url: /nodejs-net/aspose.words/table/distanceRight/
 ---
 
 ## Table.distanceRight property

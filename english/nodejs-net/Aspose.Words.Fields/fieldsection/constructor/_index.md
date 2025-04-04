@@ -2,11 +2,11 @@
 title: FieldSection constructor
 linktitle: FieldSection constructor
 articleTitle: FieldSection constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSection constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldsection/constructor/
+url: /nodejs-net/aspose.words.fields/fieldsection/constructor/
 ---
 
 ## FieldSection() {#default}

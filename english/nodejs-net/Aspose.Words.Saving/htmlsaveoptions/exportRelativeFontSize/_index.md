@@ -2,17 +2,17 @@
 title: HtmlSaveOptions.exportRelativeFontSize property
 linktitle: exportRelativeFontSize property
 articleTitle: exportRelativeFontSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportRelativeFontSize property. Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB"
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportRelativeFontSize/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportRelativeFontSize/
 ---
 
 ## HtmlSaveOptions.exportRelativeFontSize property
 
 Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB.
-Default is ``False``.
+Default is ``false``.
 
 
 
@@ -25,7 +25,7 @@ get exportRelativeFontSize(): boolean
 In many existing documents (HTML, IDPF EPUB) font sizes are specified in relative units. This allows
 applications to adjust text size when viewing/processing documents. For instance, Microsoft Internet Explorer
 has "View-\>Text Size" submenu, Adobe Digital Editions has two buttons: Increase/Decrease Text Size.
-If you expect this functionality to work then set [HtmlSaveOptions.exportRelativeFontSize](./) property to ``True``.
+If you expect this functionality to work then set [HtmlSaveOptions.exportRelativeFontSize](./) property to ``true``.
 
 
 Aspose Words document model contains and operates only with absolute font size units. Relative units need 
@@ -36,7 +36,7 @@ as **1.5em.** to the HTML.
 When this option is enabled, document elements other than text will still have absolute sizes. Also some 
 text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule 
 might produce unwanted results when scaling text. So the source documents should be properly designed and tested 
-when exporting with [HtmlSaveOptions.exportRelativeFontSize](./) set to ``True``.
+when exporting with [HtmlSaveOptions.exportRelativeFontSize](./) set to ``true``.
 
 
 

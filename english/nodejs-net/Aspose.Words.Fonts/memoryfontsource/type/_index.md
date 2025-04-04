@@ -2,11 +2,11 @@
 title: MemoryFontSource.type property
 linktitle: type property
 articleTitle: type property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MemoryFontSource.type property. Returns the type of the font source."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fonts/memoryfontsource/type/
+url: /nodejs-net/aspose.words.fonts/memoryfontsource/type/
 ---
 
 ## MemoryFontSource.type property

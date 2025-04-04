@@ -2,17 +2,17 @@
 title: ChartDataLabel.showValue property
 linktitle: showValue property
 articleTitle: showValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.showValue property. Allows to specify if values are to be displayed in the data labels"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/showValue/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/showValue/
 ---
 
 ## ChartDataLabel.showValue property
 
 Allows to specify if values are to be displayed in the data labels. 
-Default value is ``False``.
+Default value is ``false``.
 
 
 

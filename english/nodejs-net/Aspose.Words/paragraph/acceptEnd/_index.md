@@ -2,11 +2,11 @@
 title: Paragraph.acceptEnd method
 linktitle: acceptEnd method
 articleTitle: acceptEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.acceptEnd method. Accepts a visitor for visiting the end of the document's paragraph."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/paragraph/acceptEnd/
+url: /nodejs-net/aspose.words/paragraph/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

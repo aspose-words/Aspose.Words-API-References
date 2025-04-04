@@ -2,11 +2,11 @@
 title: CompositeNode.insertBefore method
 linktitle: insertBefore method
 articleTitle: insertBefore method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.insertBefore method. Inserts the specified node immediately before the specified reference node."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/compositenode/insertBefore/
+url: /nodejs-net/aspose.words/compositenode/insertBefore/
 ---
 
 ## insertBefore(newChild, refChild) {#node_node}
@@ -15,7 +15,7 @@ Inserts the specified node immediately before the specified reference node.
 
 
 ```js
-insertBefore(newChild: Aspose.Words.NoderefChild: Aspose.Words.Node)
+insertBefore(newChild: Aspose.Words.Node, refChild: Aspose.Words.Node)
 ```
 
 | Parameter | Type | Description |
@@ -25,7 +25,7 @@ insertBefore(newChild: Aspose.Words.NoderefChild: Aspose.Words.Node)
 
 ### Remarks
 
-If *refChild* is``None``, inserts *newChild* at the end of the list of child nodes.
+If *refChild* is``null``, inserts *newChild* at the end of the list of child nodes.
 
 
 

@@ -2,11 +2,11 @@
 title: Watermark.setImage method
 linktitle: setImage method
 articleTitle: setImage method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Watermark.setImage method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/watermark/setImage/
+url: /nodejs-net/aspose.words/watermark/setImage/
 ---
 
 ## setImage(image) {#jsimage}
@@ -22,7 +22,7 @@ setImage(image: Aspose.Words.JSImage)
 ## setImage(image, options) {#jsimage_imagewatermarkoptions}
 
 ```js
-setImage(image: Aspose.Words.JSImageoptions: Aspose.Words.ImageWatermarkOptions)
+setImage(image: Aspose.Words.JSImage, options: Aspose.Words.ImageWatermarkOptions)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ Adds Image watermark into the document.
 
 
 ```js
-setImage(imagePath: stringoptions: Aspose.Words.ImageWatermarkOptions)
+setImage(imagePath: string, options: Aspose.Words.ImageWatermarkOptions)
 ```
 
 | Parameter | Type | Description |
@@ -46,14 +46,14 @@ setImage(imagePath: stringoptions: Aspose.Words.ImageWatermarkOptions)
 
 ### Remarks
 
-If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``None``, the watermark will be set with default options.
+If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``null``, the watermark will be set with default options.
 
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the path is ``None``. |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the path is ``null``. |
 
 ## See Also
 

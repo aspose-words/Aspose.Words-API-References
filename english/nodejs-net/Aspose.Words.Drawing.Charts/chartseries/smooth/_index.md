@@ -2,11 +2,11 @@
 title: ChartSeries.smooth property
 linktitle: smooth property
 articleTitle: smooth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.smooth property. Allows to specify whether the line connecting the points on the chart shall be smoothed using Catmull-Rom splines."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/smooth/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/smooth/
 ---
 
 ## ChartSeries.smooth property

@@ -13,7 +13,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/get_compliance/
 Specifies the PDF standards compliance level for output documents.
 
 ```cpp
-Aspose::Words::Saving::PdfCompliance Aspose::Words::Saving::PdfSaveOptions::get_Compliance()
+Aspose::Words::Saving::PdfCompliance Aspose::Words::Saving::PdfSaveOptions::get_Compliance() const
 ```
 
 ## Remarks

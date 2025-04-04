@@ -2,11 +2,11 @@
 title: Font.border property
 linktitle: border property
 articleTitle: border property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.border property. Returns a [Border](../../border/) object that specifies border for the font."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/font/border/
+url: /nodejs-net/aspose.words/font/border/
 ---
 
 ## Font.border property

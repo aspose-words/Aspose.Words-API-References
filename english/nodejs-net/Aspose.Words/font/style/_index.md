@@ -2,11 +2,11 @@
 title: Font.style property
 linktitle: style property
 articleTitle: style property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.style property. Gets or sets the character style applied to this formatting."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/font/style/
+url: /nodejs-net/aspose.words/font/style/
 ---
 
 ## Font.style property

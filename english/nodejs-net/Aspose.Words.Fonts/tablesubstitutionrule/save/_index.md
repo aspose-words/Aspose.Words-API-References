@@ -2,11 +2,11 @@
 title: TableSubstitutionRule.save method
 linktitle: save method
 articleTitle: save method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.TableSubstitutionRule.save method"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/save/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 
 ## save(fileName) {#string}

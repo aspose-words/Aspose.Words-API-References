@@ -2,11 +2,11 @@
 title: ChartXValue.dateTimeValue property
 linktitle: dateTimeValue property
 articleTitle: dateTimeValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartXValue.dateTimeValue property. Gets the stored datetime value."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartxvalue/dateTimeValue/
+url: /nodejs-net/aspose.words.drawing.charts/chartxvalue/dateTimeValue/
 ---
 
 ## ChartXValue.dateTimeValue property

@@ -5,7 +5,7 @@ articleTitle: ScaleImageToShapeSize
 second_title: Aspose.Words for .NET
 description: Discover how HtmlSaveOptions' ScaleImageToShapeSize property optimizes image scaling in Aspose.Words for HTML, MHTML, or EPUB exports. Enhance your documents!
 type: docs
-weight: 460
+weight: 470
 url: /net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
 ## HtmlSaveOptions.ScaleImageToShapeSize property

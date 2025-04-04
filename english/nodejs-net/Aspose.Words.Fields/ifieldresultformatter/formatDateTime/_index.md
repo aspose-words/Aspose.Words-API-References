@@ -2,11 +2,11 @@
 title: IFieldResultFormatter.formatDateTime method
 linktitle: formatDateTime method
 articleTitle: formatDateTime method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFieldResultFormatter.formatDateTime method. Called when Aspose.Words applies a date/time format switch, i.e"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/ifieldresultformatter/formatDateTime/
+url: /nodejs-net/aspose.words.fields/ifieldresultformatter/formatDateTime/
 ---
 
 ## formatDateTime(value, format, calendarType) {#date_string_calendartype}
@@ -15,18 +15,18 @@ Called when Aspose.Words applies a date/time format switch, i.e. \\@ "dd.MM.yyyy
 
 
 ```js
-formatDateTime(value: Dateformat: stringcalendarType: Aspose.Words.CalendarType)
+formatDateTime(value: Date, format: string, calendarType: Aspose.Words.CalendarType)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | Date |  |
 | format | string |  |
-| calendarType | [CalendarType](../../../Aspose.Words/calendartype/) |  |
+| calendarType | [CalendarType](../../../aspose.words/calendartype/) |  |
 
 ### Remarks
 
-The implementation should return ``None`` to indicate that the default formatting should be applied.
+The implementation should return ``null`` to indicate that the default formatting should be applied.
 
 
 

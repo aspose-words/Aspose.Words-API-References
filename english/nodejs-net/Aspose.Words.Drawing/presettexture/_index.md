@@ -2,11 +2,11 @@
 title: PresetTexture enumeration
 linktitle: PresetTexture enumeration
 articleTitle: PresetTexture enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.PresetTexture enumeration. Specifies texture to be used to fill a shape."
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words.Drawing/presettexture/
+url: /nodejs-net/aspose.words.drawing/presettexture/
 ---
 
 ## PresetTexture enumeration

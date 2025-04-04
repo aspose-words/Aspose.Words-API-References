@@ -2,11 +2,11 @@
 title: PageRange constructor
 linktitle: PageRange constructor
 articleTitle: PageRange constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageRange constructor. Creates a new page range object."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/pagerange/constructor/
+url: /nodejs-net/aspose.words.saving/pagerange/constructor/
 ---
 
 ## PageRange(from, to) {#number_number}
@@ -15,7 +15,7 @@ Creates a new page range object.
 
 
 ```js
-PageRange(from: numberto: number)
+PageRange(from: number, to: number)
 ```
 
 | Parameter | Type | Description |

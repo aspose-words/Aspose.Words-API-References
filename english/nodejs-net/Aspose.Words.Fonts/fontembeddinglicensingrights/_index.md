@@ -2,11 +2,11 @@
 title: FontEmbeddingLicensingRights class
 linktitle: FontEmbeddingLicensingRights class
 articleTitle: FontEmbeddingLicensingRights class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontEmbeddingLicensingRights class. Represents embedding licensing rights for the font."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fonts/fontembeddinglicensingrights/
+url: /nodejs-net/aspose.words.fonts/fontembeddinglicensingrights/
 ---
 
 ## FontEmbeddingLicensingRights class

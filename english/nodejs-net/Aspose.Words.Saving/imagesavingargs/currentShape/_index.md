@@ -2,16 +2,16 @@
 title: ImageSavingArgs.currentShape property
 linktitle: currentShape property
 articleTitle: currentShape property
-second_title: Aspose.Words for NodeJs
-description: "ImageSavingArgs.currentShape property. Gets the [ShapeBase](../../../Aspose.Words.Drawing/shapebase/) object corresponding to the shape or group shape  that is about to be saved."
+second_title: Aspose.Words for Node.js
+description: "ImageSavingArgs.currentShape property. Gets the [ShapeBase](../../../aspose.words.drawing/shapebase/) object corresponding to the shape or group shape  that is about to be saved."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/imagesavingargs/currentShape/
+url: /nodejs-net/aspose.words.saving/imagesavingargs/currentShape/
 ---
 
 ## ImageSavingArgs.currentShape property
 
-Gets the [ShapeBase](../../../Aspose.Words.Drawing/shapebase/) object corresponding to the shape or group shape 
+Gets the [ShapeBase](../../../aspose.words.drawing/shapebase/) object corresponding to the shape or group shape 
 that is about to be saved.
 
 
@@ -23,15 +23,15 @@ get currentShape(): Aspose.Words.Drawing.ShapeBase
 ### Remarks
 
 [IImageSavingCallback](../../iimagesavingcallback/) can be fired while saving either a shape or a group shape. 
-That's why the property has [ShapeBase](../../../Aspose.Words.Drawing/shapebase/) type. You can check whether it's a group shape comparing 
-[ShapeBase.shapeType](../../../Aspose.Words.Drawing/shapebase/shapeType/) with [ShapeType.Group](../../../Aspose.Words.Drawing/shapetype/#Group) or by casting it to one of derived classes: 
-[Shape](../../../Aspose.Words.Drawing/shape/) or [GroupShape](../../../Aspose.Words.Drawing/groupshape/).
+That's why the property has [ShapeBase](../../../aspose.words.drawing/shapebase/) type. You can check whether it's a group shape comparing 
+[ShapeBase.shapeType](../../../aspose.words.drawing/shapebase/shapeType/) with [ShapeType.Group](../../../aspose.words.drawing/shapetype/#Group) or by casting it to one of derived classes: 
+[Shape](../../../aspose.words.drawing/shape/) or [GroupShape](../../../aspose.words.drawing/groupshape/).
 
 Aspose.Words uses the document file name and a unique number to generate unique file name 
 for each image found in the document. You can use the [ImageSavingArgs.currentShape](./) property to generate 
-a "better" file name by examining shape properties such as [ImageData.title](../../../Aspose.Words.Drawing/imagedata/title/) 
-(Shape only), [ImageData.sourceFullName](../../../Aspose.Words.Drawing/imagedata/sourceFullName/) (Shape only) 
-and [ShapeBase.name](../../../Aspose.Words.Drawing/shapebase/name/). Of course you can build file names using any other properties or criteria 
+a "better" file name by examining shape properties such as [ImageData.title](../../../aspose.words.drawing/imagedata/title/) 
+(Shape only), [ImageData.sourceFullName](../../../aspose.words.drawing/imagedata/sourceFullName/) (Shape only) 
+and [ShapeBase.name](../../../aspose.words.drawing/shapebase/name/). Of course you can build file names using any other properties or criteria 
 but note that subsidiary file names must be unique within the export operation.
 
 Some images in the document can be unavailable. To check image availability 

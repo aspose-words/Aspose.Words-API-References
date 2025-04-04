@@ -2,11 +2,11 @@
 title: BarcodeParameters.postalAddress property
 linktitle: postalAddress property
 articleTitle: postalAddress property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters.postalAddress property. Barcode postal address."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Fields/barcodeparameters/postalAddress/
+url: /nodejs-net/aspose.words.fields/barcodeparameters/postalAddress/
 ---
 
 ## BarcodeParameters.postalAddress property

@@ -2,11 +2,11 @@
 title: DocumentBuilder.endColumnBookmark method
 linktitle: endColumnBookmark method
 articleTitle: endColumnBookmark method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.endColumnBookmark method. Marks the current position in the document as a column bookmark end"
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words/documentbuilder/endColumnBookmark/
+url: /nodejs-net/aspose.words/documentbuilder/endColumnBookmark/
 ---
 
 ## endColumnBookmark(bookmarkName) {#string}

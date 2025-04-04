@@ -2,16 +2,16 @@
 title: Document.hasRevisions property
 linktitle: hasRevisions property
 articleTitle: hasRevisions property
-second_title: Aspose.Words for NodeJs
-description: "Document.hasRevisions property. Returns ``True`` if the document has any tracked changes."
+second_title: Aspose.Words for Node.js
+description: "Document.hasRevisions property. Returns ``true`` if the document has any tracked changes."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words/document/hasRevisions/
+url: /nodejs-net/aspose.words/document/hasRevisions/
 ---
 
 ## Document.hasRevisions property
 
-Returns ``True`` if the document has any tracked changes.
+Returns ``true`` if the document has any tracked changes.
 
 
 

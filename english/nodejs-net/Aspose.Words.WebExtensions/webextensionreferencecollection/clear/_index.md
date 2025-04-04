@@ -2,11 +2,11 @@
 title: WebExtensionReferenceCollection.clear method
 linktitle: clear method
 articleTitle: clear method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtensionReferenceCollection.clear method. "
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreferencecollection/clear/
+url: /nodejs-net/aspose.words.webextensions/webextensionreferencecollection/clear/
 ---
 
 ## clear() {#default}

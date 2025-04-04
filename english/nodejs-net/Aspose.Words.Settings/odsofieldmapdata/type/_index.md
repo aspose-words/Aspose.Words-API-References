@@ -2,11 +2,11 @@
 title: OdsoFieldMapData.type property
 linktitle: type property
 articleTitle: type property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdsoFieldMapData.type property. Specifies if a given mail merge field has been mapped to a column in the given external data source or not"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdata/type/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdata/type/
 ---
 
 ## OdsoFieldMapData.type property

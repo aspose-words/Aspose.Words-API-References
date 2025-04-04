@@ -2,11 +2,11 @@
 title: DocumentBuilder.moveToField method
 linktitle: moveToField method
 articleTitle: moveToField method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.moveToField method. Moves the cursor to a field in the document."
 type: docs
 weight: 570
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToField/
+url: /nodejs-net/aspose.words/documentbuilder/moveToField/
 ---
 
 ## moveToField(field, isAfter) {#field_boolean}
@@ -15,13 +15,13 @@ Moves the cursor to a field in the document.
 
 
 ```js
-moveToField(field: Aspose.Words.Fields.FieldisAfter: boolean)
+moveToField(field: Aspose.Words.Fields.Field, isAfter: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | field | [Field](../../field/) | The field to move the cursor to. |
-| isAfter | boolean | When ``True``, moves the cursor to be after the field end. When ``False``, moves the cursor to be before the field start. |
+| isAfter | boolean | When ``true``, moves the cursor to be after the field end. When ``false``, moves the cursor to be before the field start. |
 
 ### Examples
 

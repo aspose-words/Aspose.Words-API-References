@@ -2,11 +2,11 @@
 title: OdsoFieldMapDataCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdsoFieldMapDataCollection.add method. Adds an object to the end of this collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdatacollection/add/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdatacollection/add/
 ---
 
 ## add(value) {#odsofieldmapdata}
@@ -20,7 +20,7 @@ add(value: Aspose.Words.Settings.OdsoFieldMapData)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [OdsoFieldMapData](../../odsofieldmapdata/) | The object to add. Cannot be ``None``. |
+| value | [OdsoFieldMapData](../../odsofieldmapdata/) | The object to add. Cannot be ``null``. |
 
 ### Examples
 

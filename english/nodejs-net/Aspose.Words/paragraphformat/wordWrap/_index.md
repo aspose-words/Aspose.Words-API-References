@@ -2,16 +2,16 @@
 title: ParagraphFormat.wordWrap property
 linktitle: wordWrap property
 articleTitle: wordWrap property
-second_title: Aspose.Words for NodeJs
-description: "ParagraphFormat.wordWrap property. If this property is ``False``, Latin text in the middle of a word can be wrapped for the current paragraph"
+second_title: Aspose.Words for Node.js
+description: "ParagraphFormat.wordWrap property. If this property is ``false``, Latin text in the middle of a word can be wrapped for the current paragraph"
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words/paragraphformat/wordWrap/
+url: /nodejs-net/aspose.words/paragraphformat/wordWrap/
 ---
 
 ## ParagraphFormat.wordWrap property
 
-If this property is ``False``, Latin text in the middle of a word can be wrapped for
+If this property is ``false``, Latin text in the middle of a word can be wrapped for
 the current paragraph. Otherwise Latin text is wrapped by whole words.
 
 

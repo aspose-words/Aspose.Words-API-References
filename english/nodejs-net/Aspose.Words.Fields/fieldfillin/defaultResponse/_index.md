@@ -2,11 +2,11 @@
 title: FieldFillIn.defaultResponse property
 linktitle: defaultResponse property
 articleTitle: defaultResponse property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFillIn.defaultResponse property. Gets or sets default user response (initial value contained in the prompt window)."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldfillin/defaultResponse/
+url: /nodejs-net/aspose.words.fields/fieldfillin/defaultResponse/
 ---
 
 ## FieldFillIn.defaultResponse property

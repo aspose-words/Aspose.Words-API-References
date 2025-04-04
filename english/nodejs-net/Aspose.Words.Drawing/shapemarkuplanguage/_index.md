@@ -2,11 +2,11 @@
 title: ShapeMarkupLanguage enumeration
 linktitle: ShapeMarkupLanguage enumeration
 articleTitle: ShapeMarkupLanguage enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ShapeMarkupLanguage enumeration. Specifies Markup language used for the shape."
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words.Drawing/shapemarkuplanguage/
+url: /nodejs-net/aspose.words.drawing/shapemarkuplanguage/
 ---
 
 ## ShapeMarkupLanguage enumeration

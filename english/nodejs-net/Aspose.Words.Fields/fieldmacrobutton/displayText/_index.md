@@ -2,11 +2,11 @@
 title: FieldMacroButton.displayText property
 linktitle: displayText property
 articleTitle: displayText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMacroButton.displayText property. Gets or sets the text to appear as the button that is selected to run the macro or command."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldmacrobutton/displayText/
+url: /nodejs-net/aspose.words.fields/fieldmacrobutton/displayText/
 ---
 
 ## FieldMacroButton.displayText property

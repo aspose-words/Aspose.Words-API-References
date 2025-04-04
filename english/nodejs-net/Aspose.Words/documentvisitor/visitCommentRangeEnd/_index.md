@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitCommentRangeEnd method
 linktitle: visitCommentRangeEnd method
 articleTitle: visitCommentRangeEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitCommentRangeEnd method. Called when the end of a commented range of text is encountered."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/documentvisitor/visitCommentRangeEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitCommentRangeEnd/
 ---
 
 ## visitCommentRangeEnd(commentRangeEnd) {#commentrangeend}

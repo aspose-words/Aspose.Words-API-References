@@ -2,11 +2,11 @@
 title: Font.italicBi property
 linktitle: italicBi property
 articleTitle: italicBi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.italicBi property. True if the right-to-left text is formatted as italic."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/font/italicBi/
+url: /nodejs-net/aspose.words/font/italicBi/
 ---
 
 ## Font.italicBi property

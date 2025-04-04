@@ -2,11 +2,11 @@
 title: FontConfigSubstitutionRule class
 linktitle: FontConfigSubstitutionRule class
 articleTitle: FontConfigSubstitutionRule class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontConfigSubstitutionRule class. Font config substitution rule"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fonts/fontconfigsubstitutionrule/
+url: /nodejs-net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 
 ## FontConfigSubstitutionRule class

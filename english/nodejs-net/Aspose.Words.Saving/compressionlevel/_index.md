@@ -2,11 +2,11 @@
 title: CompressionLevel enumeration
 linktitle: CompressionLevel enumeration
 articleTitle: CompressionLevel enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.CompressionLevel enumeration. Compression level for OOXML files"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/compressionlevel/
+url: /nodejs-net/aspose.words.saving/compressionlevel/
 ---
 
 ## CompressionLevel enumeration

@@ -2,11 +2,11 @@
 title: TableStyle.columnStripe property
 linktitle: columnStripe property
 articleTitle: columnStripe property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableStyle.columnStripe property. Gets or sets a number of columns to include in the banding when the style specifies odd/even columns banding."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/tablestyle/columnStripe/
+url: /nodejs-net/aspose.words/tablestyle/columnStripe/
 ---
 
 ## TableStyle.columnStripe property

@@ -2,11 +2,11 @@
 title: FieldNoteRef.insertRelativePosition property
 linktitle: insertRelativePosition property
 articleTitle: insertRelativePosition property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldNoteRef.insertRelativePosition property. Gets or sets whether to insert a relative position of the bookmarked paragraph."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldnoteref/insertRelativePosition/
+url: /nodejs-net/aspose.words.fields/fieldnoteref/insertRelativePosition/
 ---
 
 ## FieldNoteRef.insertRelativePosition property

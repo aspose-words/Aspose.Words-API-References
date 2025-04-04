@@ -5,7 +5,7 @@ articleTitle: MailMergeOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.MailMergeOptions class for seamless low-code mail merge solutions. Enhance your document automation with customizable features!
 type: docs
-weight: 4210
+weight: 4250
 url: /net/aspose.words.lowcode/mailmergeoptions/
 ---
 ## MailMergeOptions class
@@ -55,7 +55,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.1.docx", fieldNames, f
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.2.docx", SaveFormat.Docx, fieldNames, fieldValues);
 MailMergeOptions mailMergeOptions = new MailMergeOptions();
 mailMergeOptions.TrimWhitespaces = true;
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, fieldNames, fieldValues, mailMergeOptions);
 ```
 
 ### See Also

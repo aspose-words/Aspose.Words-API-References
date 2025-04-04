@@ -2,11 +2,11 @@
 title: OdsoFieldMapDataCollection class
 linktitle: OdsoFieldMapDataCollection class
 articleTitle: OdsoFieldMapDataCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.OdsoFieldMapDataCollection class. A typed collection of the [OdsoFieldMapData](../odsofieldmapdata/) objects"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Settings/odsofieldmapdatacollection/
+url: /nodejs-net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 
 ## OdsoFieldMapDataCollection class

@@ -2,11 +2,11 @@
 title: WebExtension class
 linktitle: WebExtension class
 articleTitle: WebExtension class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WebExtension class. Represents a web extension object"
 type: docs
 weight: 1540
-url: /nodejs-net/Aspose.Words/webextension/
+url: /nodejs-net/aspose.words/webextension/
 ---
 
 ## WebExtension class

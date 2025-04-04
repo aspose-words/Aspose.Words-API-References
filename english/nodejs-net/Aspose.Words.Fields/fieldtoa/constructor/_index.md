@@ -2,11 +2,11 @@
 title: FieldToa constructor
 linktitle: FieldToa constructor
 articleTitle: FieldToa constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToa constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldtoa/constructor/
+url: /nodejs-net/aspose.words.fields/fieldtoa/constructor/
 ---
 
 ## FieldToa() {#default}

@@ -2,11 +2,11 @@
 title: FieldTA.isBold property
 linktitle: isBold property
 articleTitle: isBold property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldTA.isBold property. Gets or sets whether to apply bold formatting to the page number for the entry."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldta/isBold/
+url: /nodejs-net/aspose.words.fields/fieldta/isBold/
 ---
 
 ## FieldTA.isBold property

@@ -2,11 +2,11 @@
 title: TabStopCollection.getIndexByPosition method
 linktitle: getIndexByPosition method
 articleTitle: getIndexByPosition method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStopCollection.getIndexByPosition method. Gets the index of a tab stop with the specified position in points."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/tabstopcollection/getIndexByPosition/
+url: /nodejs-net/aspose.words/tabstopcollection/getIndexByPosition/
 ---
 
 ## getIndexByPosition(position) {#number}

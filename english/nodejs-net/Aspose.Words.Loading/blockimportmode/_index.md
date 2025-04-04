@@ -2,11 +2,11 @@
 title: BlockImportMode enumeration
 linktitle: BlockImportMode enumeration
 articleTitle: BlockImportMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.BlockImportMode enumeration. Specifies how properties of block-level elements are imported from HTML-based documents."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Loading/blockimportmode/
+url: /nodejs-net/aspose.words.loading/blockimportmode/
 ---
 
 ## BlockImportMode enumeration

@@ -2,17 +2,17 @@
 title: OleFormat.olePackage property
 linktitle: olePackage property
 articleTitle: olePackage property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.olePackage property. Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Package"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/olePackage/
+url: /nodejs-net/aspose.words.drawing/oleformat/olePackage/
 ---
 
 ## OleFormat.olePackage property
 
 Provide access to [OlePackage](../../olepackage/) if OLE object is an OLE Package.
-Returns ``None`` otherwise.
+Returns ``null`` otherwise.
 
 
 

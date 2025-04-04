@@ -2,11 +2,11 @@
 title: ImageData.setImage method
 linktitle: setImage method
 articleTitle: setImage method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ImageData.setImage method"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/setImage/
+url: /nodejs-net/aspose.words.drawing/imagedata/setImage/
 ---
 
 ## setImage(image) {#jsimage}
@@ -17,7 +17,7 @@ setImage(image: Aspose.Words.JSImage)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image | [JSImage](../../../Aspose.Words/jsimage/) |  |
+| image | [JSImage](../../../aspose.words/jsimage/) |  |
 
 ## setImage(stream) {#buffer}
 

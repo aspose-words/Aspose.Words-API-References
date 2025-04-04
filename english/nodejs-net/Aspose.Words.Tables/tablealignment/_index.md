@@ -2,11 +2,11 @@
 title: TableAlignment enumeration
 linktitle: TableAlignment enumeration
 articleTitle: TableAlignment enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.TableAlignment enumeration. Specifies alignment for an inline table."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Tables/tablealignment/
+url: /nodejs-net/aspose.words.tables/tablealignment/
 ---
 
 ## TableAlignment enumeration

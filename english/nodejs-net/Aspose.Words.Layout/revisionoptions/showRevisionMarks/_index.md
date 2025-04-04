@@ -2,17 +2,17 @@
 title: RevisionOptions.showRevisionMarks property
 linktitle: showRevisionMarks property
 articleTitle: showRevisionMarks property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionOptions.showRevisionMarks property. Allow to specify whether revision text should be marked with special formatting markup"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/showRevisionMarks/
+url: /nodejs-net/aspose.words.layout/revisionoptions/showRevisionMarks/
 ---
 
 ## RevisionOptions.showRevisionMarks property
 
 Allow to specify whether revision text should be marked with special formatting markup.
-Default value is ``True``.
+Default value is ``true``.
 
 
 

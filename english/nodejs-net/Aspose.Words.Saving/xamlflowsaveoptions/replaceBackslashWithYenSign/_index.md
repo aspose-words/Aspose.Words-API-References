@@ -2,17 +2,17 @@
 title: XamlFlowSaveOptions.replaceBackslashWithYenSign property
 linktitle: replaceBackslashWithYenSign property
 articleTitle: replaceBackslashWithYenSign property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XamlFlowSaveOptions.replaceBackslashWithYenSign property. Specifies whether backslash characters should be replaced with yen signs"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/replaceBackslashWithYenSign/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/replaceBackslashWithYenSign/
 ---
 
 ## XamlFlowSaveOptions.replaceBackslashWithYenSign property
 
 Specifies whether backslash characters should be replaced with yen signs.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

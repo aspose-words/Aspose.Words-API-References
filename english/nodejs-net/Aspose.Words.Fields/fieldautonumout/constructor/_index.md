@@ -2,11 +2,11 @@
 title: FieldAutoNumOut constructor
 linktitle: FieldAutoNumOut constructor
 articleTitle: FieldAutoNumOut constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldAutoNumOut constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldautonumout/constructor/
+url: /nodejs-net/aspose.words.fields/fieldautonumout/constructor/
 ---
 
 ## FieldAutoNumOut() {#default}

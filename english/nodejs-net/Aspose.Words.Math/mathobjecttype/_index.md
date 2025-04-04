@@ -2,11 +2,11 @@
 title: MathObjectType enumeration
 linktitle: MathObjectType enumeration
 articleTitle: MathObjectType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Math.MathObjectType enumeration. Specifies type of an Office Math object."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Math/mathobjecttype/
+url: /nodejs-net/aspose.words.math/mathobjecttype/
 ---
 
 ## MathObjectType enumeration

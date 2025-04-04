@@ -2,11 +2,11 @@
 title: HtmlSaveOptions.fontsFolderAlias property
 linktitle: fontsFolderAlias property
 articleTitle: fontsFolderAlias property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.fontsFolderAlias property. Specifies the name of the folder used to construct font URIs written into an HTML document"
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/fontsFolderAlias/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/fontsFolderAlias/
 ---
 
 ## HtmlSaveOptions.fontsFolderAlias property
@@ -21,8 +21,8 @@ get fontsFolderAlias(): string
 
 ### Remarks
 
-When you save a [Document](../../../Aspose.Words/document/) in HTML format and [HtmlSaveOptions.exportFontResources](../exportFontResources/) 
-is set to ``True``, Aspose.Words needs to save fonts used in the document as standalone files. 
+When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.exportFontResources](../exportFontResources/) 
+is set to ``true``, Aspose.Words needs to save fonts used in the document as standalone files. 
 [HtmlSaveOptions.fontsFolder](../fontsFolder/) allows you to specify where the fonts will be saved and 
 [HtmlSaveOptions.fontsFolderAlias](./) allows to specify how the font URIs will be constructed.
 

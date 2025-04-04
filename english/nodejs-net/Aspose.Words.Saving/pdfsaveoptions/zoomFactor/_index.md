@@ -2,11 +2,11 @@
 title: PdfSaveOptions.zoomFactor property
 linktitle: zoomFactor property
 articleTitle: zoomFactor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.zoomFactor property. Gets or sets a value determining zoom factor (in percentages) for a document."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/zoomFactor/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/zoomFactor/
 ---
 
 ## PdfSaveOptions.zoomFactor property

@@ -8,72 +8,6 @@ type: docs
 weight: 470
 url: /net/aspose.words/documentbuilder/insertsignatureline/
 ---
-## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
-
-Inserts a signature line at the specified position.
-
-```csharp
-public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, 
-    RelativeHorizontalPosition horzPos, double left, RelativeVerticalPosition vertPos, double top, 
-    WrapType wrapType)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | The object that stores parameters of creating signature line. |
-| horzPos | RelativeHorizontalPosition | Specifies where the distance to the signature line is measured from. |
-| left | Double | Distance in points from the origin to the left side of the signature line. |
-| vertPos | RelativeVerticalPosition | Specifies where the distance to the signature line measured from. |
-| top | Double | Distance in points from the origin to the top side of the signature line. |
-| wrapType | WrapType | Specifies how to wrap text around the signature line. |
-
-### Return Value
-
-The signature line node that was just inserted.
-
-## Remarks
-
-You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape/) object returned by this method.
-
-## Examples
-
-Shows how to insert an inline signature line into a document.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-SignatureLineOptions options = new SignatureLineOptions
-{
-    Signer = "John Doe",
-    SignerTitle = "Manager",
-    Email = "johndoe@aspose.com",
-    ShowDate = true,
-    DefaultInstructions = false,
-    Instructions = "Please sign here.",
-    AllowComments = true
-};
-
-builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
-    RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
-
-// The signature line can be signed in Microsoft Word by double clicking it.
-doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
-```
-
-### See Also
-
-* class [Shape](../../../aspose.words.drawing/shape/)
-* class [SignatureLineOptions](../../signaturelineoptions/)
-* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
-* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
-* enum [WrapType](../../../aspose.words.drawing/wraptype/)
-* class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../../aspose.words/)
-* assembly [Aspose.Words](../../../)
-
----
-
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
 
 Inserts a signature line at the current position.
@@ -144,6 +78,72 @@ Assert.True(signatureLine.IsValid);
 
 * class [Shape](../../../aspose.words.drawing/shape/)
 * class [SignatureLineOptions](../../signaturelineoptions/)
+* class [DocumentBuilder](../)
+* namespace [Aspose.Words](../../../aspose.words/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
+
+Inserts a signature line at the specified position.
+
+```csharp
+public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, 
+    RelativeHorizontalPosition horzPos, double left, RelativeVerticalPosition vertPos, double top, 
+    WrapType wrapType)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| signatureLineOptions | SignatureLineOptions | The object that stores parameters of creating signature line. |
+| horzPos | RelativeHorizontalPosition | Specifies where the distance to the signature line is measured from. |
+| left | Double | Distance in points from the origin to the left side of the signature line. |
+| vertPos | RelativeVerticalPosition | Specifies where the distance to the signature line measured from. |
+| top | Double | Distance in points from the origin to the top side of the signature line. |
+| wrapType | WrapType | Specifies how to wrap text around the signature line. |
+
+### Return Value
+
+The signature line node that was just inserted.
+
+## Remarks
+
+You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape/) object returned by this method.
+
+## Examples
+
+Shows how to insert an inline signature line into a document.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+SignatureLineOptions options = new SignatureLineOptions
+{
+    Signer = "John Doe",
+    SignerTitle = "Manager",
+    Email = "johndoe@aspose.com",
+    ShowDate = true,
+    DefaultInstructions = false,
+    Instructions = "Please sign here.",
+    AllowComments = true
+};
+
+builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
+    RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
+
+// The signature line can be signed in Microsoft Word by double clicking it.
+doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
+```
+
+### See Also
+
+* class [Shape](../../../aspose.words.drawing/shape/)
+* class [SignatureLineOptions](../../signaturelineoptions/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
 * class [DocumentBuilder](../)
 * namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

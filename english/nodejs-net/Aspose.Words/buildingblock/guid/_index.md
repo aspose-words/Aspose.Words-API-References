@@ -2,11 +2,11 @@
 title: BuildingBlock.guid property
 linktitle: guid property
 articleTitle: guid property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuildingBlock.guid property. Gets or sets an identifier (a 128-bit GUID) that uniquely identifies this building block."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/buildingblock/guid/
+url: /nodejs-net/aspose.words/buildingblock/guid/
 ---
 
 ## BuildingBlock.guid property

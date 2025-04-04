@@ -2,11 +2,11 @@
 title: TxtLoadOptions constructor
 linktitle: TxtLoadOptions constructor
 articleTitle: TxtLoadOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtLoadOptions constructor. Initializes a new instance of this class with default values."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Loading/txtloadoptions/constructor/
+url: /nodejs-net/aspose.words.loading/txtloadoptions/constructor/
 ---
 
 ## TxtLoadOptions() {#default}

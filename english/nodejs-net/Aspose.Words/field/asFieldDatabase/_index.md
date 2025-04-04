@@ -2,11 +2,11 @@
 title: Field.asFieldDatabase method
 linktitle: asFieldDatabase method
 articleTitle: asFieldDatabase method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldDatabase method. "
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/field/asFieldDatabase/
+url: /nodejs-net/aspose.words/field/asFieldDatabase/
 ---
 
 ## asFieldDatabase() {#default}

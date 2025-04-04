@@ -2,11 +2,11 @@
 title: ChartDataLabel.numberFormat property
 linktitle: numberFormat property
 articleTitle: numberFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.numberFormat property. Returns number format of the parent element."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/numberFormat/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/numberFormat/
 ---
 
 ## ChartDataLabel.numberFormat property

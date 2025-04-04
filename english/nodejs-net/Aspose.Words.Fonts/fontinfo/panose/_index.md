@@ -2,11 +2,11 @@
 title: FontInfo.panose property
 linktitle: panose property
 articleTitle: panose property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontInfo.panose property. Gets or sets the PANOSE typeface classification number."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fonts/fontinfo/panose/
+url: /nodejs-net/aspose.words.fonts/fontinfo/panose/
 ---
 
 ## FontInfo.panose property
@@ -24,7 +24,7 @@ PANOSE is a compact 10-byte description of a fonts critical visual characteristi
 such as contrast, weight, and serif style. The digits represent Family Kind, Serif Style,
 Weight, Proportion, Contrast, Stroke Variation, Arm Style, Letterform, Midline, and X-Height.
 
-Can be ``None``.
+Can be ``null``.
 
 
 

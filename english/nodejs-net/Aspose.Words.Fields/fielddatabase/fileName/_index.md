@@ -2,11 +2,11 @@
 title: FieldDatabase.fileName property
 linktitle: fileName property
 articleTitle: fileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDatabase.fileName property. Gets or sets the complete path and file name of the database"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fielddatabase/fileName/
+url: /nodejs-net/aspose.words.fields/fielddatabase/fileName/
 ---
 
 ## FieldDatabase.fileName property

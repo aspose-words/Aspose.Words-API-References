@@ -2,11 +2,11 @@
 title: NodeImporter.importNode method
 linktitle: importNode method
 articleTitle: importNode method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeImporter.importNode method. Imports a node from one document into another."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/nodeimporter/importNode/
+url: /nodejs-net/aspose.words/nodeimporter/importNode/
 ---
 
 ## importNode(srcNode, isImportChildren) {#node_boolean}
@@ -17,13 +17,13 @@ Imports a node from one document into another.
 
 
 ```js
-importNode(srcNode: Aspose.Words.NodeisImportChildren: boolean)
+importNode(srcNode: Aspose.Words.Node, isImportChildren: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | [Node](../../node/) | The node to import. |
-| isImportChildren | boolean | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+| isImportChildren | boolean | ``true`` to import all child nodes recursively; otherwise, ``false``. |
 
 ### Remarks
 

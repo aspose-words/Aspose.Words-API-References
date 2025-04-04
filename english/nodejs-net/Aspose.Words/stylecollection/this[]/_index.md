@@ -2,11 +2,11 @@
 title: StyleCollection.this[] property
 linktitle: this[] property
 articleTitle: this[] property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StyleCollection.this[] property. "
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/stylecollection/this[]/
+url: /nodejs-net/aspose.words/stylecollection/this[]/
 ---
 
 ## StyleCollection.this[] property

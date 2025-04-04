@@ -2,11 +2,11 @@
 title: ShapeBase.anchorLocked property
 linktitle: anchorLocked property
 articleTitle: anchorLocked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.anchorLocked property. Specifies whether the shape's anchor is locked."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/anchorLocked/
+url: /nodejs-net/aspose.words.drawing/shapebase/anchorLocked/
 ---
 
 ## ShapeBase.anchorLocked property
@@ -20,7 +20,7 @@ get anchorLocked(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 Has effect only for top level shapes.
 

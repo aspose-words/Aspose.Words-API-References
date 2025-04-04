@@ -2,11 +2,11 @@
 title: FieldDdeAuto.insertAsText property
 linktitle: insertAsText property
 articleTitle: insertAsText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDdeAuto.insertAsText property. Gets or sets whether to insert the linked object in text-only format."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldddeauto/insertAsText/
+url: /nodejs-net/aspose.words.fields/fieldddeauto/insertAsText/
 ---
 
 ## FieldDdeAuto.insertAsText property

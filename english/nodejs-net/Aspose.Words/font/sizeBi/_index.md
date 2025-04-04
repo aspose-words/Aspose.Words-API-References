@@ -2,11 +2,11 @@
 title: Font.sizeBi property
 linktitle: sizeBi property
 articleTitle: sizeBi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.sizeBi property. Gets or sets the font size in points used in a right-to-left document."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/font/sizeBi/
+url: /nodejs-net/aspose.words/font/sizeBi/
 ---
 
 ## Font.sizeBi property

@@ -2,11 +2,11 @@
 title: FieldOptions.legacyNumberFormat property
 linktitle: legacyNumberFormat property
 articleTitle: legacyNumberFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.legacyNumberFormat property. Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/legacyNumberFormat/
+url: /nodejs-net/aspose.words.fields/fieldoptions/legacyNumberFormat/
 ---
 
 ## FieldOptions.legacyNumberFormat property
@@ -20,14 +20,14 @@ get legacyNumberFormat(): boolean
 
 ### Remarks
 
-When this property is set to ``True``, template symbol "#" worked as in .net:
+When this property is set to ``true``, template symbol "#" worked as in .net:
 Replaces the pound sign with the corresponding digit if one is present; otherwise, no symbols appears in the result string.
 
-When this property is set to ``False``, template symbol "#" works as MS Word:
+When this property is set to ``false``, template symbol "#" works as MS Word:
 This format item specifies the requisite numeric places to display in the result.
 If the result does not include a digit in that place, MS Word displays a space. For example, { = 9 + 6 \\# $### } displays $ 15.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

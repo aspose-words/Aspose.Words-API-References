@@ -2,11 +2,11 @@
 title: SaveOptions.progressCallback property
 linktitle: progressCallback property
 articleTitle: progressCallback property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.progressCallback property. Called during saving a document and accepts data about saving progress."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/progressCallback/
+url: /nodejs-net/aspose.words.saving/saveoptions/progressCallback/
 ---
 
 ## SaveOptions.progressCallback property
@@ -20,11 +20,11 @@ get progressCallback(): Aspose.Words.Saving.IDocumentSavingCallback
 
 ### Remarks
 
-Progress is reported when saving to [SaveFormat.Docx](../../../Aspose.Words/saveformat/#Docx), [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc),
-[SaveFormat.Docm](../../../Aspose.Words/saveformat/#Docm), [SaveFormat.Dotm](../../../Aspose.Words/saveformat/#Dotm), [SaveFormat.Dotx](../../../Aspose.Words/saveformat/#Dotx),
-[SaveFormat.Doc](../../../Aspose.Words/saveformat/#Doc), [SaveFormat.Dot](../../../Aspose.Words/saveformat/#Dot),
-[SaveFormat.Html](../../../Aspose.Words/saveformat/#Html), [SaveFormat.Mhtml](../../../Aspose.Words/saveformat/#Mhtml), [SaveFormat.Epub](../../../Aspose.Words/saveformat/#Epub),
-[SaveFormat.XamlFlow](../../../Aspose.Words/saveformat/#XamlFlow), or [SaveFormat.XamlFlowPack](../../../Aspose.Words/saveformat/#XamlFlowPack).
+Progress is reported when saving to [SaveFormat.Docx](../../../aspose.words/saveformat/#Docx), [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc),
+[SaveFormat.Docm](../../../aspose.words/saveformat/#Docm), [SaveFormat.Dotm](../../../aspose.words/saveformat/#Dotm), [SaveFormat.Dotx](../../../aspose.words/saveformat/#Dotx),
+[SaveFormat.Doc](../../../aspose.words/saveformat/#Doc), [SaveFormat.Dot](../../../aspose.words/saveformat/#Dot),
+[SaveFormat.Html](../../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../../aspose.words/saveformat/#Epub),
+[SaveFormat.XamlFlow](../../../aspose.words/saveformat/#XamlFlow), or [SaveFormat.XamlFlowPack](../../../aspose.words/saveformat/#XamlFlowPack).
 
 
 

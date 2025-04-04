@@ -2,11 +2,11 @@
 title: ChartAxis class
 linktitle: ChartAxis class
 articleTitle: ChartAxis class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartAxis class. Represents the axis options of the chart"
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/
 ---
 
 ## ChartAxis class

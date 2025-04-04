@@ -2,18 +2,18 @@
 title: OoxmlSaveOptions.saveFormat property
 linktitle: saveFormat property
 articleTitle: saveFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OoxmlSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/ooxmlsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/ooxmlsaveoptions/saveFormat/
 ---
 
 ## OoxmlSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can be [SaveFormat.Docx](../../../Aspose.Words/saveformat/#Docx), [SaveFormat.Docm](../../../Aspose.Words/saveformat/#Docm),
-[SaveFormat.Dotx](../../../Aspose.Words/saveformat/#Dotx), [SaveFormat.Dotm](../../../Aspose.Words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../../Aspose.Words/saveformat/#FlatOpc).
+Can be [SaveFormat.Docx](../../../aspose.words/saveformat/#Docx), [SaveFormat.Docm](../../../aspose.words/saveformat/#Docm),
+[SaveFormat.Dotx](../../../aspose.words/saveformat/#Dotx), [SaveFormat.Dotm](../../../aspose.words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../../aspose.words/saveformat/#FlatOpc).
 
 
 

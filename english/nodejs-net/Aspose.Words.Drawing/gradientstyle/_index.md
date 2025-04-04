@@ -2,11 +2,11 @@
 title: GradientStyle enumeration
 linktitle: GradientStyle enumeration
 articleTitle: GradientStyle enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.GradientStyle enumeration. Specifies the style for a gradient fill."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Drawing/gradientstyle/
+url: /nodejs-net/aspose.words.drawing/gradientstyle/
 ---
 
 ## GradientStyle enumeration

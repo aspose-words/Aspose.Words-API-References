@@ -2,11 +2,11 @@
 title: PdfDigitalSignatureTimestampSettings.serverUrl property
 linktitle: serverUrl property
 articleTitle: serverUrl property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfDigitalSignatureTimestampSettings.serverUrl property. Timestamp server URL."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturetimestampsettings/serverUrl/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverUrl/
 ---
 
 ## PdfDigitalSignatureTimestampSettings.serverUrl property
@@ -20,8 +20,8 @@ get serverUrl(): string
 
 ### Remarks
 
-The default value is ``None``.
-If ``None``, then the digital signature will not be time-stamped.
+The default value is ``null``.
+If ``null``, then the digital signature will not be time-stamped.
 
 
 

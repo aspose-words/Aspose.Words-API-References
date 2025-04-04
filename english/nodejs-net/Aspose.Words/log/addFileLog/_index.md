@@ -2,11 +2,11 @@
 title: Log.addFileLog method
 linktitle: addFileLog method
 articleTitle: addFileLog method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Log.addFileLog method. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/log/addFileLog/
+url: /nodejs-net/aspose.words/log/addFileLog/
 ---
 
 ## addFileLog(fileName) {#string}

@@ -2,11 +2,11 @@
 title: FieldChar.isLocked property
 linktitle: isLocked property
 articleTitle: isLocked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldChar.isLocked property. Gets or sets whether the parent field is locked (should not recalculate its result)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldchar/isLocked/
+url: /nodejs-net/aspose.words.fields/fieldchar/isLocked/
 ---
 
 ## FieldChar.isLocked property

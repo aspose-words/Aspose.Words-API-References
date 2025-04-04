@@ -2,11 +2,11 @@
 title: Field.asFieldToa method
 linktitle: asFieldToa method
 articleTitle: asFieldToa method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldToa method. "
 type: docs
 weight: 990
-url: /nodejs-net/Aspose.Words/field/asFieldToa/
+url: /nodejs-net/aspose.words/field/asFieldToa/
 ---
 
 ## asFieldToa() {#default}

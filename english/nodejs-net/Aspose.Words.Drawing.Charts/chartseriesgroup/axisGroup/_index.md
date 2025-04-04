@@ -2,11 +2,11 @@
 title: ChartSeriesGroup.axisGroup property
 linktitle: axisGroup property
 articleTitle: axisGroup property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroup.axisGroup property. Gets or sets the axis group to which this series group belongs."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroup/axisGroup/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroup/axisGroup/
 ---
 
 ## ChartSeriesGroup.axisGroup property

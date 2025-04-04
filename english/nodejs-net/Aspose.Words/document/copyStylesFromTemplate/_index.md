@@ -2,11 +2,11 @@
 title: Document.copyStylesFromTemplate method
 linktitle: copyStylesFromTemplate method
 articleTitle: copyStylesFromTemplate method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.copyStylesFromTemplate method"
 type: docs
 weight: 590
-url: /nodejs-net/Aspose.Words/document/copyStylesFromTemplate/
+url: /nodejs-net/aspose.words/document/copyStylesFromTemplate/
 ---
 
 ## copyStylesFromTemplate(template) {#string}

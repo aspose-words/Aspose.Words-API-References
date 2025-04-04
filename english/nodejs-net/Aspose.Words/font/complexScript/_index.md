@@ -2,11 +2,11 @@
 title: Font.complexScript property
 linktitle: complexScript property
 articleTitle: complexScript property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.complexScript property. Specifies whether the contents of this run shall be treated as complex script text regardless of their Unicode character values when determining the formatting for this run."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/font/complexScript/
+url: /nodejs-net/aspose.words/font/complexScript/
 ---
 
 ## Font.complexScript property

@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.comments property
 linktitle: comments property
 articleTitle: comments property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.comments property. Gets or sets the document comments."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/comments/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/comments/
 ---
 
 ## BuiltInDocumentProperties.comments property

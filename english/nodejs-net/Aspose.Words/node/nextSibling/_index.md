@@ -2,11 +2,11 @@
 title: Node.nextSibling property
 linktitle: nextSibling property
 articleTitle: nextSibling property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.nextSibling property. Gets the node immediately following this node."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/node/nextSibling/
+url: /nodejs-net/aspose.words/node/nextSibling/
 ---
 
 ## Node.nextSibling property
@@ -20,7 +20,7 @@ get nextSibling(): Aspose.Words.Node
 
 ### Remarks
 
-If there is no next node, a ``None`` is returned.
+If there is no next node, a ``null`` is returned.
 
 
 

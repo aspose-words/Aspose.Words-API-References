@@ -2,14 +2,14 @@
 title: Aspose.Words.WebExtensions module
 linktitle: Aspose.Words.WebExtensions module
 articleTitle: Aspose.Words.WebExtensions module
-second_title: Aspose.Words for NodeJs
-description: "The aspose.words.webextensions module provides classes that allow to customize elements and attributes that extend the XML vocabulary for representing Office Add-ins."
+second_title: Aspose.Words for Node.js
+description: "The Aspose.Words.WebExtensions module provides classes that allow to customize elements and attributes that extend the XML vocabulary for representing Office Add-ins."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words.WebExtensions/
+url: /nodejs-net/aspose.words.webextensions/
 ---
 
-The **aspose.words.webextensions** module provides classes that allow to
+The **Aspose.Words.WebExtensions** module provides classes that allow to
 customize elements and attributes that extend the XML vocabulary for representing Office Add-ins.
 
 

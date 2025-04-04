@@ -2,14 +2,14 @@
 title: Aspose.Words.BuildingBlocks module
 linktitle: Aspose.Words.BuildingBlocks module
 articleTitle: Aspose.Words.BuildingBlocks module
-second_title: Aspose.Words for NodeJs
-description: "The aspose.words.buildingblocks module provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document."
+second_title: Aspose.Words for Node.js
+description: "The Aspose.Words.BuildingBlocks module provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.BuildingBlocks/
+url: /nodejs-net/aspose.words.buildingblocks/
 ---
 
-The **aspose.words.buildingblocks** module provides classes that allow to access
+The **Aspose.Words.BuildingBlocks** module provides classes that allow to access
 and use AutoText, AutoCorrect entries and Building Blocks in a document.
 
 
@@ -20,7 +20,7 @@ and use AutoText, AutoCorrect entries and Building Blocks in a document.
 
 | Class | Description |
 | --- | --- |
-| [BuildingBlockCollection](./buildingblockcollection/) | A collection of [BuildingBlock](../Aspose.Words/buildingblock/) objects in the document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
+| [BuildingBlockCollection](./buildingblockcollection/) | A collection of [BuildingBlock](../aspose.words/buildingblock/) objects in the document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
 | [GlossaryDocument](./glossarydocument/) | Represents the root element for a glossary document within a Word document. A glossary document is a storage for AutoText, AutoCorrect entries and Building Blocks. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
 
 ## Enumerations

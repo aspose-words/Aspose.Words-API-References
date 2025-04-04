@@ -2,11 +2,11 @@
 title: Font.underline property
 linktitle: underline property
 articleTitle: underline property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.underline property. Gets or sets the type of underline applied to the font."
 type: docs
 weight: 540
-url: /nodejs-net/Aspose.Words/font/underline/
+url: /nodejs-net/aspose.words/font/underline/
 ---
 
 ## Font.underline property

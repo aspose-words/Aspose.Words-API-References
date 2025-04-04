@@ -2,11 +2,11 @@
 title: RowFormat.borders property
 linktitle: borders property
 articleTitle: borders property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RowFormat.borders property. Gets the collection of default cell borders for the row."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Tables/rowformat/borders/
+url: /nodejs-net/aspose.words.tables/rowformat/borders/
 ---
 
 ## RowFormat.borders property

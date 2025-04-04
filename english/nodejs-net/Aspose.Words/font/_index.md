@@ -2,11 +2,11 @@
 title: Font class
 linktitle: Font class
 articleTitle: Font class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Font class. Contains font attributes (font name, font size, color, and so on) for an object"
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/font/
+url: /nodejs-net/aspose.words/font/
 ---
 
 ## Font class

@@ -2,11 +2,11 @@
 title: StructuredDocumentTag.dateDisplayLocale property
 linktitle: dateDisplayLocale property
 articleTitle: dateDisplayLocale property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.dateDisplayLocale property. Allows to set/get the language format for the date displayed in this SDT."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/dateDisplayLocale/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/dateDisplayLocale/
 ---
 
 ## StructuredDocumentTag.dateDisplayLocale property

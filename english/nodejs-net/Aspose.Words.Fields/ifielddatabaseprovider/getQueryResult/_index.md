@@ -2,11 +2,11 @@
 title: IFieldDatabaseProvider.getQueryResult method
 linktitle: getQueryResult method
 articleTitle: getQueryResult method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFieldDatabaseProvider.getQueryResult method. Returns query result."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/ifielddatabaseprovider/getQueryResult/
+url: /nodejs-net/aspose.words.fields/ifielddatabaseprovider/getQueryResult/
 ---
 
 ## getQueryResult(fileName, connection, query, field) {#string_string_string_fielddatabase}
@@ -15,7 +15,7 @@ Returns query result.
 
 
 ```js
-getQueryResult(fileName: stringconnection: stringquery: stringfield: Aspose.Words.Fields.FieldDatabase)
+getQueryResult(fileName: string, connection: string, query: string, field: Aspose.Words.Fields.FieldDatabase)
 ```
 
 | Parameter | Type | Description |

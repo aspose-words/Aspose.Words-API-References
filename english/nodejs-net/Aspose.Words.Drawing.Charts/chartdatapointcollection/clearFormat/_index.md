@@ -2,11 +2,11 @@
 title: ChartDataPointCollection.clearFormat method
 linktitle: clearFormat method
 articleTitle: clearFormat method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataPointCollection.clearFormat method. Clears format of all [ChartDataPoint](../../chartdatapoint/) in this collection."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapointcollection/clearFormat/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatapointcollection/clearFormat/
 ---
 
 ## clearFormat() {#default}

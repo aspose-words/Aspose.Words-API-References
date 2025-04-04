@@ -2,11 +2,11 @@
 title: IStructuredDocumentTag class
 linktitle: IStructuredDocumentTag class
 articleTitle: IStructuredDocumentTag class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.IStructuredDocumentTag class. Interface to define a common data for [StructuredDocumentTag](../structureddocumenttag/) and [StructuredDocumentTagRangeStart](../structureddocumenttagrangestart/)."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/
 ---
 
 ## IStructuredDocumentTag class
@@ -28,12 +28,12 @@ Interface to define a common data for [StructuredDocumentTag](../structureddocum
 | [lockContentControl](./lockContentControl/) | When set to true, this property will prohibit a user from deleting this **SDT**. |
 | [lockContents](./lockContents/) | When set to true, this property will prohibit a user from editing the contents of this **SDT**. |
 | [node](./node/) | Returns Node object that implements this interface. |
-| [placeholder](./placeholder/) | Gets the [BuildingBlock](../../Aspose.Words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,  the associated mapped XML element is empty as specified via the [IStructuredDocumentTag.xmlMapping](./xmlMapping/) element or the [IStructuredDocumentTag.isShowingPlaceholderText](./isShowingPlaceholderText/) element is true. |
-| [placeholderName](./placeholderName/) | Gets or sets Name of the [BuildingBlock](../../Aspose.Words/buildingblock/) containing placeholder text. |
+| [placeholder](./placeholder/) | Gets the [BuildingBlock](../../aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,  the associated mapped XML element is empty as specified via the [IStructuredDocumentTag.xmlMapping](./xmlMapping/) element or the [IStructuredDocumentTag.isShowingPlaceholderText](./isShowingPlaceholderText/) element is true. |
+| [placeholderName](./placeholderName/) | Gets or sets Name of the [BuildingBlock](../../aspose.words/buildingblock/) containing placeholder text. |
 | [sdtType](./sdtType/) | Gets type of this **Structured document tag**. |
 | [tag](./tag/) | Specifies a tag associated with the current SDT node. Can not be null. |
 | [title](./title/) | Specifies the friendly name associated with this **SDT**. Can not be null. |
-| [wordOpenXML](./wordOpenXML/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../Aspose.Words/saveformat/#FlatOpc) format. |
+| [wordOpenXML](./wordOpenXML/) | Gets a string that represents the XML contained within the node in the [SaveFormat.FlatOpc](../../aspose.words/saveformat/#FlatOpc) format. |
 | [xmlMapping](./xmlMapping/) | Gets an object that represents the mapping of this structured document tag to XML data in a custom XML part of the current document. |
 
 ### Methods

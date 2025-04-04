@@ -2,11 +2,11 @@
 title: AxisCrosses enumeration
 linktitle: AxisCrosses enumeration
 articleTitle: AxisCrosses enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisCrosses enumeration. Specifies the possible crossing points for an axis."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axiscrosses/
+url: /nodejs-net/aspose.words.drawing.charts/axiscrosses/
 ---
 
 ## AxisCrosses enumeration

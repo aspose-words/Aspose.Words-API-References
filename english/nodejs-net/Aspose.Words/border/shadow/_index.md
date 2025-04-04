@@ -2,11 +2,11 @@
 title: Border.shadow property
 linktitle: shadow property
 articleTitle: shadow property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Border.shadow property. Gets or sets a value indicating whether the border has a shadow."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/border/shadow/
+url: /nodejs-net/aspose.words/border/shadow/
 ---
 
 ## Border.shadow property
@@ -22,7 +22,7 @@ get shadow(): boolean
 
 In Microsoft Word, for a border to have a shadow, the borders on all four sides
 (left, top, right and bottom) should be of the same type, width, color and all should have
-the Shadow property set to ``True``.
+the Shadow property set to ``true``.
 
 
 

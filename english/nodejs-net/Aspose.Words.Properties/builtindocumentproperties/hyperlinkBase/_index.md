@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.hyperlinkBase property
 linktitle: hyperlinkBase property
 articleTitle: hyperlinkBase property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.hyperlinkBase property. Specifies the base string used for evaluating relative hyperlinks in this document."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/hyperlinkBase/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/hyperlinkBase/
 ---
 
 ## BuiltInDocumentProperties.hyperlinkBase property

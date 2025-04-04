@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitOfficeMathEnd method
 linktitle: visitOfficeMathEnd method
 articleTitle: visitOfficeMathEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitOfficeMathEnd method. Called when enumeration of a Office Math object has ended."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/documentvisitor/visitOfficeMathEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitOfficeMathEnd/
 ---
 
 ## visitOfficeMathEnd(officeMath) {#officemath}
@@ -20,7 +20,7 @@ visitOfficeMathEnd(officeMath: Aspose.Words.Math.OfficeMath)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| officeMath | [OfficeMath](../../../Aspose.Words.Math/officemath/) | The object that is being visited. |
+| officeMath | [OfficeMath](../../../aspose.words.math/officemath/) | The object that is being visited. |
 
 ### Returns
 

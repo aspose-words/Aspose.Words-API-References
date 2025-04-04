@@ -2,11 +2,11 @@
 title: Hyphenation.registerDictionary method
 linktitle: registerDictionary method
 articleTitle: registerDictionary method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Hyphenation.registerDictionary method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/hyphenation/registerDictionary/
+url: /nodejs-net/aspose.words/hyphenation/registerDictionary/
 ---
 
 ## registerDictionary(language, stream) {#string_buffer}
@@ -15,7 +15,7 @@ Registers and loads a hyphenation dictionary for the specified language from a s
 
 
 ```js
-registerDictionary(language: stringstream: Buffer)
+registerDictionary(language: string, stream: Buffer)
 ```
 
 | Parameter | Type | Description |
@@ -33,7 +33,7 @@ This method can also be used to register Null dictionary to prevent[Hyphenation.
 
 
 ```js
-registerDictionary(language: stringfileName: string)
+registerDictionary(language: string, fileName: string)
 ```
 
 | Parameter | Type | Description |

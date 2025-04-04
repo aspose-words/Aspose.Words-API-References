@@ -2,11 +2,11 @@
 title: TextWatermarkOptions.color property
 linktitle: color property
 articleTitle: color property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextWatermarkOptions.color property. Gets or sets font color"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/textwatermarkoptions/color/
+url: /nodejs-net/aspose.words/textwatermarkoptions/color/
 ---
 
 ## TextWatermarkOptions.color property

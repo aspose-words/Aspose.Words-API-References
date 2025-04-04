@@ -5,7 +5,7 @@ articleTitle: OdtSaveMeasureUnit
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.OdtSaveMeasureUnit enum for precise control over document measurements. Enhance your document formatting with ease!
 type: docs
-weight: 5950
+weight: 6080
 url: /net/aspose.words.saving/odtsavemeasureunit/
 ---
 ## OdtSaveMeasureUnit enumeration

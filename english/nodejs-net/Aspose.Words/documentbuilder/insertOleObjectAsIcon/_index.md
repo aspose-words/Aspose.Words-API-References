@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertOleObjectAsIcon method
 linktitle: insertOleObjectAsIcon method
 articleTitle: insertOleObjectAsIcon method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertOleObjectAsIcon method"
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words/documentbuilder/insertOleObjectAsIcon/
+url: /nodejs-net/aspose.words/documentbuilder/insertOleObjectAsIcon/
 ---
 
 ## insertOleObjectAsIcon(fileName, isLinked, iconFile, iconCaption) {#string_boolean_string_string}
@@ -16,15 +16,15 @@ Allows to specify icon file and caption. Detects OLE object type using file exte
 
 
 ```js
-insertOleObjectAsIcon(fileName: stringisLinked: booleaniconFile: stringiconCaption: string)
+insertOleObjectAsIcon(fileName: string, isLinked: boolean, iconFile: string, iconCaption: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | Full path to the file. |
-| isLinked | boolean | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | string | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
-| iconCaption | string | Icon caption. If the value is ``None``, Aspose.Words will use the file name. |
+| isLinked | boolean | If ``true`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | string | Full path to the ICO file. If the value is ``null``, Aspose.Words will use a predefined image. |
+| iconCaption | string | Icon caption. If the value is ``null``, Aspose.Words will use the file name. |
 
 ### Returns
 
@@ -38,16 +38,16 @@ Allows to specify icon file and caption. Detects OLE object type using given pro
 
 
 ```js
-insertOleObjectAsIcon(fileName: stringprogId: stringisLinked: booleaniconFile: stringiconCaption: string)
+insertOleObjectAsIcon(fileName: string, progId: string, isLinked: boolean, iconFile: string, iconCaption: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | Full path to the file. |
 | progId | string | ProgId of OLE object. |
-| isLinked | boolean | If ``True`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
-| iconFile | string | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
-| iconCaption | string | Icon caption. If the value is ``None``, Aspose.Words will use the file name. |
+| isLinked | boolean | If ``true`` then linked OLE object is inserted otherwise embedded OLE object is inserted. |
+| iconFile | string | Full path to the ICO file. If the value is ``null``, Aspose.Words will use a predefined image. |
+| iconCaption | string | Icon caption. If the value is ``null``, Aspose.Words will use the file name. |
 
 ### Returns
 
@@ -61,15 +61,15 @@ Allows to specify icon file and caption. Detects OLE object type using given pro
 
 
 ```js
-insertOleObjectAsIcon(stream: BufferprogId: stringiconFile: stringiconCaption: string)
+insertOleObjectAsIcon(stream: Buffer, progId: string, iconFile: string, iconCaption: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | Stream containing application data. |
 | progId | string | ProgId of OLE object. |
-| iconFile | string | Full path to the ICO file. If the value is ``None``, Aspose.Words will use a predefined image. |
-| iconCaption | string | Icon caption. If the value is ``None``, Aspose.Words will use the a predefined icon caption. |
+| iconFile | string | Full path to the ICO file. If the value is ``null``, Aspose.Words will use a predefined image. |
+| iconCaption | string | Icon caption. If the value is ``null``, Aspose.Words will use the a predefined icon caption. |
 
 ### Returns
 

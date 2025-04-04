@@ -2,11 +2,11 @@
 title: FieldPage constructor
 linktitle: FieldPage constructor
 articleTitle: FieldPage constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldPage constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldpage/constructor/
+url: /nodejs-net/aspose.words.fields/fieldpage/constructor/
 ---
 
 ## FieldPage() {#default}

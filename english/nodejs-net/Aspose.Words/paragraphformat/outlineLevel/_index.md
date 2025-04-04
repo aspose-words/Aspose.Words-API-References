@@ -2,11 +2,11 @@
 title: ParagraphFormat.outlineLevel property
 linktitle: outlineLevel property
 articleTitle: outlineLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.outlineLevel property. Specifies the outline level of the paragraph in the document."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/paragraphformat/outlineLevel/
+url: /nodejs-net/aspose.words/paragraphformat/outlineLevel/
 ---
 
 ## ParagraphFormat.outlineLevel property

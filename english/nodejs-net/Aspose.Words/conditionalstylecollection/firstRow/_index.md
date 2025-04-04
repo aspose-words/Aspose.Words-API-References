@@ -2,11 +2,11 @@
 title: ConditionalStyleCollection.firstRow property
 linktitle: firstRow property
 articleTitle: firstRow property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.firstRow property. Gets the first row style."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/firstRow/
+url: /nodejs-net/aspose.words/conditionalstylecollection/firstRow/
 ---
 
 ## ConditionalStyleCollection.firstRow property

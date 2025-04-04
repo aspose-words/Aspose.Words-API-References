@@ -2,11 +2,11 @@
 title: ShapeBase.title property
 linktitle: title property
 articleTitle: title property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.title property. Gets or sets the title (caption) of the current shape object."
 type: docs
 weight: 510
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/title/
+url: /nodejs-net/aspose.words.drawing/shapebase/title/
 ---
 
 ## ShapeBase.title property
@@ -22,7 +22,7 @@ get title(): string
 
 Default is empty string.
 
-Cannot be ``None``, but can be an empty string.
+Cannot be ``null``, but can be an empty string.
 
 
 

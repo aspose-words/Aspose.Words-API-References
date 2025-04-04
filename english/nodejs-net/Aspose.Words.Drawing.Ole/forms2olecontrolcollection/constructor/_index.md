@@ -2,11 +2,11 @@
 title: Forms2OleControlCollection constructor
 linktitle: Forms2OleControlCollection constructor
 articleTitle: Forms2OleControlCollection constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Forms2OleControlCollection constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrolcollection/constructor/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrolcollection/constructor/
 ---
 
 ## Forms2OleControlCollection() {#default}

@@ -2,11 +2,11 @@
 title: FieldMacroButton constructor
 linktitle: FieldMacroButton constructor
 articleTitle: FieldMacroButton constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMacroButton constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldmacrobutton/constructor/
+url: /nodejs-net/aspose.words.fields/fieldmacrobutton/constructor/
 ---
 
 ## FieldMacroButton() {#default}

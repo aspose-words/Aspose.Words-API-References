@@ -2,11 +2,11 @@
 title: ParagraphFormat.widowControl property
 linktitle: widowControl property
 articleTitle: widowControl property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.widowControl property. True if the first and last lines in the paragraph are to remain on the same page as the rest of the paragraph."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/paragraphformat/widowControl/
+url: /nodejs-net/aspose.words/paragraphformat/widowControl/
 ---
 
 ## ParagraphFormat.widowControl property

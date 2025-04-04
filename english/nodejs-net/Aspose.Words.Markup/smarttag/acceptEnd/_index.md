@@ -2,11 +2,11 @@
 title: SmartTag.acceptEnd method
 linktitle: acceptEnd method
 articleTitle: acceptEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SmartTag.acceptEnd method. Accepts a visitor for visiting the end of the SmartTag."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/smarttag/acceptEnd/
+url: /nodejs-net/aspose.words.markup/smarttag/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}
@@ -20,7 +20,7 @@ acceptEnd(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The document visitor. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The document visitor. |
 
 ### Returns
 

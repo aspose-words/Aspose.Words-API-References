@@ -2,17 +2,17 @@
 title: HtmlSaveOptions.exportTextInputFormFieldAsText property
 linktitle: exportTextInputFormFieldAsText property
 articleTitle: exportTextInputFormFieldAsText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportTextInputFormFieldAsText property. Controls how text input form fields are saved to HTML or MHTML"
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportTextInputFormFieldAsText/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportTextInputFormFieldAsText/
 ---
 
 ## HtmlSaveOptions.exportTextInputFormFieldAsText property
 
 Controls how text input form fields are saved to HTML or MHTML.
-Default value is ``False``.
+Default value is ``false``.
 
 
 
@@ -22,8 +22,8 @@ get exportTextInputFormFieldAsText(): boolean
 
 ### Remarks
 
-When set to ``True``, exports text input form fields as normal text. 
-When ``False``, exports Word text input form fields as INPUT elements in HTML.
+When set to ``true``, exports text input form fields as normal text. 
+When ``false``, exports Word text input form fields as INPUT elements in HTML.
 
 When exporting to EPUB, text input form fields are always saved as text due 
 to requirements of this format.

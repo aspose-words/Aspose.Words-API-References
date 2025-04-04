@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitSectionEnd method
 linktitle: visitSectionEnd method
 articleTitle: visitSectionEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitSectionEnd method. Called when enumeration of a section has ended."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/documentvisitor/visitSectionEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitSectionEnd/
 ---
 
 ## visitSectionEnd(section) {#section}

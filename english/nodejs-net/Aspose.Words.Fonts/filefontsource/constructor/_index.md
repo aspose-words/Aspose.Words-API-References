@@ -2,11 +2,11 @@
 title: FileFontSource constructor
 linktitle: FileFontSource constructor
 articleTitle: FileFontSource constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FileFontSource constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/filefontsource/constructor/
+url: /nodejs-net/aspose.words.fonts/filefontsource/constructor/
 ---
 
 ## FileFontSource(filePath) {#string}
@@ -28,7 +28,7 @@ Ctor.
 
 
 ```js
-FileFontSource(filePath: stringpriority: number)
+FileFontSource(filePath: string, priority: number)
 ```
 
 | Parameter | Type | Description |
@@ -42,7 +42,7 @@ Ctor.
 
 
 ```js
-FileFontSource(filePath: stringpriority: numbercacheKey: string)
+FileFontSource(filePath: string, priority: number, cacheKey: string)
 ```
 
 | Parameter | Type | Description |

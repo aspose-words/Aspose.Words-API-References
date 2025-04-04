@@ -2,17 +2,17 @@
 title: CompositeNode.getSdt method
 linktitle: getSdt method
 articleTitle: getSdt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getSdt method. "
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words/compositenode/getSdt/
+url: /nodejs-net/aspose.words/compositenode/getSdt/
 ---
 
 ## getSdt(index, isDeep) {#number_boolean}
 
 ```js
-getSdt(index: numberisDeep: boolean)
+getSdt(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

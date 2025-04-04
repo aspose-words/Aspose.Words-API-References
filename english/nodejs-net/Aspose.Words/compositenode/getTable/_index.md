@@ -2,17 +2,17 @@
 title: CompositeNode.getTable method
 linktitle: getTable method
 articleTitle: getTable method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getTable method. "
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words/compositenode/getTable/
+url: /nodejs-net/aspose.words/compositenode/getTable/
 ---
 
 ## getTable(index, isDeep) {#number_boolean}
 
 ```js
-getTable(index: numberisDeep: boolean)
+getTable(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

@@ -2,11 +2,11 @@
 title: FileFormatUtil.detectFileFormat method
 linktitle: detectFileFormat method
 articleTitle: detectFileFormat method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.FileFormatUtil.detectFileFormat method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/fileformatutil/detectFileFormat/
+url: /nodejs-net/aspose.words/fileformatutil/detectFileFormat/
 ---
 
 ## detectFileFormat(fileName) {#string}

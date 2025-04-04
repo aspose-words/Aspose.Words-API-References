@@ -2,11 +2,11 @@
 title: FontSettings class
 linktitle: FontSettings class
 articleTitle: FontSettings class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontSettings class. Specifies font settings for a document"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/
+url: /nodejs-net/aspose.words.fonts/fontsettings/
 ---
 
 ## FontSettings class
@@ -22,7 +22,7 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 Aspose.Words uses font settings to resolve the fonts in the document. Fonts are resolved mostly when building document layout
 or rendering to fixed page formats. But when loading some formats, Aspose.Words also may require to resolve the fonts. For example, when
 loading HTML documents Aspose.Words may resolve the fonts to perform font fallback. So it is recommended that you set the font settings in
-[LoadOptions](../../Aspose.Words.Loading/loadoptions/) when loading the document. Or at least before building the layout or rendering the document to the fixed-page format.
+[LoadOptions](../../aspose.words.loading/loadoptions/) when loading the document. Or at least before building the layout or rendering the document to the fixed-page format.
 
 By default all documents uses single static font settings instance. It could be accessed by
 [FontSettings.defaultInstance](./defaultInstance/) property.

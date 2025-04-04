@@ -2,11 +2,11 @@
 title: FieldMergeBarcode constructor
 linktitle: FieldMergeBarcode constructor
 articleTitle: FieldMergeBarcode constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeBarcode constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/constructor/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/constructor/
 ---
 
 ## FieldMergeBarcode() {#default}

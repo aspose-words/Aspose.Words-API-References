@@ -2,11 +2,11 @@
 title: OleFormat.sourceFullName property
 linktitle: sourceFullName property
 articleTitle: sourceFullName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.sourceFullName property. Gets or sets the path and name of the source file for the linked OLE object."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/sourceFullName/
+url: /nodejs-net/aspose.words.drawing/oleformat/sourceFullName/
 ---
 
 ## OleFormat.sourceFullName property

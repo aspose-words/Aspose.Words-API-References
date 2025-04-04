@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitShapeStart method
 linktitle: visitShapeStart method
 articleTitle: visitShapeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitShapeStart method. Called when enumeration of a shape has started."
 type: docs
 weight: 400
-url: /nodejs-net/Aspose.Words/documentvisitor/visitShapeStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitShapeStart/
 ---
 
 ## visitShapeStart(shape) {#shape}
@@ -20,7 +20,7 @@ visitShapeStart(shape: Aspose.Words.Drawing.Shape)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shape | [Shape](../../../Aspose.Words.Drawing/shape/) | The object that is being visited. |
+| shape | [Shape](../../../aspose.words.drawing/shape/) | The object that is being visited. |
 
 ### Returns
 

@@ -2,11 +2,11 @@
 title: Bookmark.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Bookmark.remove method. Removes the bookmark from the document"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/bookmark/remove/
+url: /nodejs-net/aspose.words/bookmark/remove/
 ---
 
 ## remove() {#default}

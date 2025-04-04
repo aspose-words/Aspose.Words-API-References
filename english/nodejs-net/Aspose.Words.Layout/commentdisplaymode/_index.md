@@ -2,11 +2,11 @@
 title: CommentDisplayMode enumeration
 linktitle: CommentDisplayMode enumeration
 articleTitle: CommentDisplayMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Layout.CommentDisplayMode enumeration. Specifies the rendering mode for document comments."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Layout/commentdisplaymode/
+url: /nodejs-net/aspose.words.layout/commentdisplaymode/
 ---
 
 ## CommentDisplayMode enumeration

@@ -2,11 +2,11 @@
 title: Font.bidi property
 linktitle: bidi property
 articleTitle: bidi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.bidi property. Specifies whether the contents of this run shall have right-to-left characteristics."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/font/bidi/
+url: /nodejs-net/aspose.words/font/bidi/
 ---
 
 ## Font.bidi property

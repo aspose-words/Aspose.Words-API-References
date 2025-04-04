@@ -2,17 +2,17 @@
 title: StructuredDocumentTag.checked property
 linktitle: checked property
 articleTitle: checked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.checked property. Gets/Sets current state of the Checkbox SDT"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/checked/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/checked/
 ---
 
 ## StructuredDocumentTag.checked property
 
 Gets/Sets current state of the Checkbox **SDT**.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
 
 

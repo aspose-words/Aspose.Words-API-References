@@ -2,11 +2,11 @@
 title: ParagraphFormat.alignment property
 linktitle: alignment property
 articleTitle: alignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.alignment property. Gets or sets text alignment for the paragraph."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/paragraphformat/alignment/
+url: /nodejs-net/aspose.words/paragraphformat/alignment/
 ---
 
 ## ParagraphFormat.alignment property
@@ -19,6 +19,33 @@ get alignment(): Aspose.Words.ParagraphAlignment
 ```
 
 ### Examples
+
+Shows how to insert a paragraph into the document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let font = builder.font;
+font.size = 16;
+font.bold = true;
+font.color = "#0000FF";
+font.name = "Arial";
+font.underline = aw.Underline.Dash;
+
+let paragraphFormat = builder.paragraphFormat;
+paragraphFormat.firstLineIndent = 8;
+paragraphFormat.alignment = aw.ParagraphAlignment.Justify;
+paragraphFormat.addSpaceBetweenFarEastAndAlpha = true;
+paragraphFormat.addSpaceBetweenFarEastAndDigit = true;
+paragraphFormat.keepTogether = true;
+
+// The "Writeln" method ends the paragraph after appending text
+// and then starts a new line, adding a new paragraph.
+builder.writeln("Hello world!");
+
+expect(builder.currentParagraph.isEndOfDocument).toEqual(true);
+```
 
 Shows how to construct an Aspose.words document by hand.
 
@@ -63,33 +90,6 @@ para.appendChild(run);
 expect(doc.getText().trim()).toEqual("Hello World!");
 
 doc.save(base.artifactsDir + "Section.CreateManually.docx");
-```
-
-Shows how to insert a paragraph into the document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-let font = builder.font;
-font.size = 16;
-font.bold = true;
-font.color = "#0000FF";
-font.name = "Arial";
-font.underline = aw.Underline.Dash;
-
-let paragraphFormat = builder.paragraphFormat;
-paragraphFormat.firstLineIndent = 8;
-paragraphFormat.alignment = aw.ParagraphAlignment.Justify;
-paragraphFormat.addSpaceBetweenFarEastAndAlpha = true;
-paragraphFormat.addSpaceBetweenFarEastAndDigit = true;
-paragraphFormat.keepTogether = true;
-
-// The "Writeln" method ends the paragraph after appending text
-// and then starts a new line, adding a new paragraph.
-builder.writeln("Hello world!");
-
-expect(builder.currentParagraph.isEndOfDocument).toEqual(true);
 ```
 
 ### See Also

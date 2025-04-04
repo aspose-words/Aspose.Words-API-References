@@ -2,11 +2,11 @@
 title: AxisCategoryType enumeration
 linktitle: AxisCategoryType enumeration
 articleTitle: AxisCategoryType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisCategoryType enumeration. Specifies type of a category axis."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axiscategorytype/
+url: /nodejs-net/aspose.words.drawing.charts/axiscategorytype/
 ---
 
 ## AxisCategoryType enumeration

@@ -2,11 +2,11 @@
 title: BookmarksOutlineLevelCollection.removeAt method
 linktitle: removeAt method
 articleTitle: removeAt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarksOutlineLevelCollection.removeAt method. Removes a bookmark at the specified index."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Saving/bookmarksoutlinelevelcollection/removeAt/
+url: /nodejs-net/aspose.words.saving/bookmarksoutlinelevelcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

@@ -2,11 +2,11 @@
 title: BookmarksOutlineLevelCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarksOutlineLevelCollection.remove method. Removes a bookmark with the specified name from the collection."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Saving/bookmarksoutlinelevelcollection/remove/
+url: /nodejs-net/aspose.words.saving/bookmarksoutlinelevelcollection/remove/
 ---
 
 ## remove(name) {#string}

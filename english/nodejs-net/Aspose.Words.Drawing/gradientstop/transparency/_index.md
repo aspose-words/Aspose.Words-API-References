@@ -2,11 +2,11 @@
 title: GradientStop.transparency property
 linktitle: transparency property
 articleTitle: transparency property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GradientStop.transparency property. Gets or sets a value representing the transparency of the gradient fill expressed as a percent in range 0.0 to 1.0."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing/gradientstop/transparency/
+url: /nodejs-net/aspose.words.drawing/gradientstop/transparency/
 ---
 
 ## GradientStop.transparency property

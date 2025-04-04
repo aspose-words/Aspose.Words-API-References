@@ -2,11 +2,11 @@
 title: Run class
 linktitle: Run class
 articleTitle: Run class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Run class. Represents a run of characters with the same font formatting"
 type: docs
 weight: 1130
-url: /nodejs-net/Aspose.Words/run/
+url: /nodejs-net/aspose.words/run/
 ---
 
 ## Run class
@@ -21,7 +21,7 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 
 All text of the document is stored in runs of text.
 
-[Run](./) can only be a child of [Paragraph](../paragraph/) or inline [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/).
+[Run](./) can only be a child of [Paragraph](../paragraph/) or inline [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/).
 
 
 
@@ -41,12 +41,12 @@ All text of the document is stored in runs of text.
 | [customNodeId](../node/customNodeId/) | Specifies custom node identifier.<br>(Inherited from [Node](../node/)) |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [font](../inline/font/) | Provides access to the font formatting of this object.<br>(Inherited from [Inline](../inline/)) |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [isDeleteRevision](../inline/isDeleteRevision/) | Returns true if this object was deleted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [isFormatRevision](../inline/isFormatRevision/) | Returns true if formatting of the object was changed in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [isInsertRevision](../inline/isInsertRevision/) | Returns true if this object was inserted in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
-| [isMoveFromRevision](../inline/isMoveFromRevision/) | Returns ``True`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
-| [isMoveToRevision](../inline/isMoveToRevision/) | Returns ``True`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
+| [isMoveFromRevision](../inline/isMoveFromRevision/) | Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
+| [isMoveToRevision](../inline/isMoveToRevision/) | Returns ``true`` if this object was moved (inserted) in Microsoft Word while change tracking was enabled.<br>(Inherited from [Inline](../inline/)) |
 | [isPhoneticGuide](./isPhoneticGuide/) | Gets a boolean value indicating either the run is a phonetic guide. |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [nodeType](./nodeType/) | Returns [NodeType.Run](../nodetype/#Run). |
@@ -66,7 +66,7 @@ All text of the document is stored in runs of text.
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkStart()](../node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/).<br>(Inherited from [Node](../node/)) |
 |[ asBuildingBlock()](../node/asBuildingBlock/#default) | Cast node to [BuildingBlock](../buildingblock/).<br>(Inherited from [Node](../node/)) |
-|[ asCell()](../node/asCell/#default) | Cast node to [Cell](../../Aspose.Words.Tables/cell/).<br>(Inherited from [Node](../node/)) |
+|[ asCell()](../node/asCell/#default) | Cast node to [Cell](../../aspose.words.tables/cell/).<br>(Inherited from [Node](../node/)) |
 |[ asComment()](../node/asComment/#default) | Cast node to [Comment](../comment/).<br>(Inherited from [Node](../node/)) |
 |[ asCommentRangeEnd()](../node/asCommentRangeEnd/#default) | Cast node to [CommentRangeEnd](../commentrangeend/).<br>(Inherited from [Node](../node/)) |
 |[ asCommentRangeStart()](../node/asCommentRangeStart/#default) | Cast node to [CommentRangeStart](../commentrangestart/).<br>(Inherited from [Node](../node/)) |
@@ -74,25 +74,25 @@ All text of the document is stored in runs of text.
 |[ asDocument()](../node/asDocument/#default) | Cast node to [Node.document](../node/document/).<br>(Inherited from [Node](../node/)) |
 |[ asEditableRangeEnd()](../node/asEditableRangeEnd/#default) | Cast node to [EditableRangeEnd](../editablerangeend/).<br>(Inherited from [Node](../node/)) |
 |[ asEditableRangeStart()](../node/asEditableRangeStart/#default) | Cast node to [EditableRangeStart](../editablerangestart/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldEnd()](../node/asFieldEnd/#default) | Cast node to [FieldEnd](../../Aspose.Words.Fields/fieldend/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldSeparator()](../node/asFieldSeparator/#default) | Cast node to [FieldSeparator](../../Aspose.Words.Fields/fieldseparator/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldStart()](../node/asFieldStart/#default) | Cast node to [FieldStart](../../Aspose.Words.Fields/fieldstart/).<br>(Inherited from [Node](../node/)) |
-|[ asFootnote()](../node/asFootnote/#default) | Cast node to [Footnote](../../Aspose.Words.Notes/footnote/).<br>(Inherited from [Node](../node/)) |
-|[ asFormField()](../node/asFormField/#default) | Cast node to [FormField](../../Aspose.Words.Fields/formfield/).<br>(Inherited from [Node](../node/)) |
-|[ asGlossaryDocument()](../node/asGlossaryDocument/#default) | Cast node to [GlossaryDocument](../../Aspose.Words.BuildingBlocks/glossarydocument/).<br>(Inherited from [Node](../node/)) |
-|[ asGroupShape()](../node/asGroupShape/#default) | Cast node to [GroupShape](../../Aspose.Words.Drawing/groupshape/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldEnd()](../node/asFieldEnd/#default) | Cast node to [FieldEnd](../../aspose.words.fields/fieldend/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldSeparator()](../node/asFieldSeparator/#default) | Cast node to [FieldSeparator](../../aspose.words.fields/fieldseparator/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldStart()](../node/asFieldStart/#default) | Cast node to [FieldStart](../../aspose.words.fields/fieldstart/).<br>(Inherited from [Node](../node/)) |
+|[ asFootnote()](../node/asFootnote/#default) | Cast node to [Footnote](../../aspose.words.notes/footnote/).<br>(Inherited from [Node](../node/)) |
+|[ asFormField()](../node/asFormField/#default) | Cast node to [FormField](../../aspose.words.fields/formfield/).<br>(Inherited from [Node](../node/)) |
+|[ asGlossaryDocument()](../node/asGlossaryDocument/#default) | Cast node to [GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/).<br>(Inherited from [Node](../node/)) |
+|[ asGroupShape()](../node/asGroupShape/#default) | Cast node to [GroupShape](../../aspose.words.drawing/groupshape/).<br>(Inherited from [Node](../node/)) |
 |[ asHeaderFooter()](../node/asHeaderFooter/#default) | Cast node to [HeaderFooter](../headerfooter/).<br>(Inherited from [Node](../node/)) |
-|[ asOfficeMath()](../node/asOfficeMath/#default) | Cast node to [OfficeMath](../../Aspose.Words.Math/officemath/).<br>(Inherited from [Node](../node/)) |
+|[ asOfficeMath()](../node/asOfficeMath/#default) | Cast node to [OfficeMath](../../aspose.words.math/officemath/).<br>(Inherited from [Node](../node/)) |
 |[ asParagraph()](../node/asParagraph/#default) | Cast node to [Paragraph](../paragraph/).<br>(Inherited from [Node](../node/)) |
-|[ asRow()](../node/asRow/#default) | Cast node to [Row](../../Aspose.Words.Tables/row/).<br>(Inherited from [Node](../node/)) |
+|[ asRow()](../node/asRow/#default) | Cast node to [Row](../../aspose.words.tables/row/).<br>(Inherited from [Node](../node/)) |
 |[ asRun()](../node/asRun/#default) | Cast node to [Run](./).<br>(Inherited from [Node](../node/)) |
 |[ asSection()](../node/asSection/#default) | Cast node to [Section](../section/).<br>(Inherited from [Node](../node/)) |
-|[ asShape()](../node/asShape/#default) | Cast node to [Shape](../../Aspose.Words.Drawing/shape/).<br>(Inherited from [Node](../node/)) |
-|[ asSmartTag()](../node/asSmartTag/#default) | Cast node to [SmartTag](../../Aspose.Words.Markup/smarttag/).<br>(Inherited from [Node](../node/)) |
+|[ asShape()](../node/asShape/#default) | Cast node to [Shape](../../aspose.words.drawing/shape/).<br>(Inherited from [Node](../node/)) |
+|[ asSmartTag()](../node/asSmartTag/#default) | Cast node to [SmartTag](../../aspose.words.markup/smarttag/).<br>(Inherited from [Node](../node/)) |
 |[ asSpecialChar()](../node/asSpecialChar/#default) | Cast node to [SpecialChar](../specialchar/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTag()](../node/asStructuredDocumentTag/#default) | Cast node to [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTagRangeEnd()](../node/asStructuredDocumentTagRangeEnd/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../Aspose.Words.Markup/structureddocumenttagrangeend/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTagRangeStart()](../node/asStructuredDocumentTagRangeStart/#default) | Cast node to [StructuredDocumentTagRangeStart](../../Aspose.Words.Markup/structureddocumenttagrangestart/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTag()](../node/asStructuredDocumentTag/#default) | Cast node to [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTagRangeEnd()](../node/asStructuredDocumentTagRangeEnd/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTagRangeStart()](../node/asStructuredDocumentTagRangeStart/#default) | Cast node to [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/).<br>(Inherited from [Node](../node/)) |
 |[ asSubDocument()](../node/asSubDocument/#default) | Cast node to [SubDocument](../subdocument/).<br>(Inherited from [Node](../node/)) |
 |[ asTable()](../node/asTable/#default) | Cast node to [Table](../table/).<br>(Inherited from [Node](../node/)) |
 |[ clone(isCloneChildren)](../node/clone/#boolean) | Creates a duplicate of the node.<br>(Inherited from [Node](../node/)) |
@@ -107,51 +107,6 @@ All text of the document is stored in runs of text.
 |[ toString(saveOptions)](../node/toString/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../node/)) |
 
 ### Examples
-
-Shows how to construct an Aspose.words document by hand.
-
-```js
-let doc = new aw.Document();
-
-// A blank document contains one section, one body and one paragraph.
-// Call the "RemoveAllChildren" method to remove all those nodes,
-// and end up with a document node with no children.
-doc.removeAllChildren();
-
-// This document now has no composite child nodes that we can add content to.
-// If we wish to edit it, we will need to repopulate its node collection.
-// First, create a new section, and then append it as a child to the root document node.
-let section = new aw.Section(doc);
-doc.appendChild(section);
-
-// Set some page setup properties for the section.
-section.pageSetup.sectionStart = aw.SectionStart.NewPage;
-section.pageSetup.paperSize = aw.PaperSize.Letter;
-
-// A section needs a body, which will contain and display all its contents
-// on the page between the section's header and footer.
-let body = new aw.Body(doc);
-section.appendChild(body);
-
-// Create a paragraph, set some formatting properties, and then append it as a child to the body.
-let para = new aw.Paragraph(doc);
-
-para.paragraphFormat.styleName = "Heading 1";
-para.paragraphFormat.alignment = aw.ParagraphAlignment.Center;
-
-body.appendChild(para);
-
-// Finally, add some content to do the document. Create a run,
-// set its appearance and contents, and then append it as a child to the paragraph.
-let run = new aw.Run(doc);
-run.text = "Hello World!";
-run.font.color = "#FF0000";
-para.appendChild(run);
-
-expect(doc.getText().trim()).toEqual("Hello World!");
-
-doc.save(base.artifactsDir + "Section.CreateManually.docx");
-```
 
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
@@ -216,6 +171,51 @@ font.highlightColor = "#FFFF00";
 
 doc.firstSection.body.firstParagraph.appendChild(run);
 doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
+```
+
+Shows how to construct an Aspose.words document by hand.
+
+```js
+let doc = new aw.Document();
+
+// A blank document contains one section, one body and one paragraph.
+// Call the "RemoveAllChildren" method to remove all those nodes,
+// and end up with a document node with no children.
+doc.removeAllChildren();
+
+// This document now has no composite child nodes that we can add content to.
+// If we wish to edit it, we will need to repopulate its node collection.
+// First, create a new section, and then append it as a child to the root document node.
+let section = new aw.Section(doc);
+doc.appendChild(section);
+
+// Set some page setup properties for the section.
+section.pageSetup.sectionStart = aw.SectionStart.NewPage;
+section.pageSetup.paperSize = aw.PaperSize.Letter;
+
+// A section needs a body, which will contain and display all its contents
+// on the page between the section's header and footer.
+let body = new aw.Body(doc);
+section.appendChild(body);
+
+// Create a paragraph, set some formatting properties, and then append it as a child to the body.
+let para = new aw.Paragraph(doc);
+
+para.paragraphFormat.styleName = "Heading 1";
+para.paragraphFormat.alignment = aw.ParagraphAlignment.Center;
+
+body.appendChild(para);
+
+// Finally, add some content to do the document. Create a run,
+// set its appearance and contents, and then append it as a child to the paragraph.
+let run = new aw.Run(doc);
+run.text = "Hello World!";
+run.font.color = "#FF0000";
+para.appendChild(run);
+
+expect(doc.getText().trim()).toEqual("Hello World!");
+
+doc.save(base.artifactsDir + "Section.CreateManually.docx");
 ```
 
 ### See Also

@@ -2,11 +2,11 @@
 title: ReplaceAction enumeration
 linktitle: ReplaceAction enumeration
 articleTitle: ReplaceAction enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Replacing.ReplaceAction enumeration. Allows the user to specify what happens to the current match during a replace operation."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Replacing/replaceaction/
+url: /nodejs-net/aspose.words.replacing/replaceaction/
 ---
 
 ## ReplaceAction enumeration
@@ -97,6 +97,6 @@ test.skip('InsertDocumentAtReplace - TODO: WORDSNODEJS-106 - Add support of rege
 
 * module [Aspose.Words.Replacing](../)
 * class [IReplacingCallback](../ireplacingcallback/)
-* class [Range](../../Aspose.Words/range/)
-* method [Range.replace()](../../Aspose.Words/range/replace/#string_string_findreplaceoptions)
+* class [Range](../../aspose.words/range/)
+* method [Range.replace()](../../aspose.words/range/replace/#string_string_findreplaceoptions)
 

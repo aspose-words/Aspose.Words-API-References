@@ -2,17 +2,17 @@
 title: SaveOptions.prettyFormat property
 linktitle: prettyFormat property
 articleTitle: prettyFormat property
-second_title: Aspose.Words for NodeJs
-description: "SaveOptions.prettyFormat property. When ``True``, pretty formats output where applicable"
+second_title: Aspose.Words for Node.js
+description: "SaveOptions.prettyFormat property. When ``true``, pretty formats output where applicable"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/prettyFormat/
+url: /nodejs-net/aspose.words.saving/saveoptions/prettyFormat/
 ---
 
 ## SaveOptions.prettyFormat property
 
-When ``True``, pretty formats output where applicable.
-Default value is ``False``.
+When ``true``, pretty formats output where applicable.
+Default value is ``false``.
 
 
 
@@ -22,7 +22,7 @@ get prettyFormat(): boolean
 
 ### Remarks
 
-Set to ``True`` to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable.
+Set to ``true`` to make HTML, MHTML, EPUB, WordML, RTF, DOCX and ODT output human readable.
 Useful for testing or debugging.
 
 

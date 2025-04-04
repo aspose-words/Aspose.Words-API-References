@@ -2,11 +2,11 @@
 title: Inline.parentParagraph property
 linktitle: parentParagraph property
 articleTitle: parentParagraph property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Inline.parentParagraph property. Retrieves the parent [Paragraph](../../paragraph/) of this node."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/inline/parentParagraph/
+url: /nodejs-net/aspose.words/inline/parentParagraph/
 ---
 
 ## Inline.parentParagraph property

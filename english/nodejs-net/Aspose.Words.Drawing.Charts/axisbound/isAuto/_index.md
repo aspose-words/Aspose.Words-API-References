@@ -2,11 +2,11 @@
 title: AxisBound.isAuto property
 linktitle: isAuto property
 articleTitle: isAuto property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisBound.isAuto property. Returns a flag indicating that axis bound should be determined automatically."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisbound/isAuto/
+url: /nodejs-net/aspose.words.drawing.charts/axisbound/isAuto/
 ---
 
 ## AxisBound.isAuto property

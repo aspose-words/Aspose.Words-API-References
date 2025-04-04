@@ -2,17 +2,17 @@
 title: JSPoint constructor
 linktitle: JSPoint constructor
 articleTitle: JSPoint constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSPoint constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/jspoint/constructor/
+url: /nodejs-net/aspose.words/jspoint/constructor/
 ---
 
 ## JSPoint(x, y) {#number_number}
 
 ```js
-JSPoint(x: numbery: number)
+JSPoint(x: number, y: number)
 ```
 
 | Parameter | Type | Description |

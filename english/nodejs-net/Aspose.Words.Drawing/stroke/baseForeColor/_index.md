@@ -2,11 +2,11 @@
 title: Stroke.baseForeColor property
 linktitle: baseForeColor property
 articleTitle: baseForeColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.baseForeColor property. Gets the base foreground color of the stroke without any modifiers."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/stroke/baseForeColor/
+url: /nodejs-net/aspose.words.drawing/stroke/baseForeColor/
 ---
 
 ## Stroke.baseForeColor property

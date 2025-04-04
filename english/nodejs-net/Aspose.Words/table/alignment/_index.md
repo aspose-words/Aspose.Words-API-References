@@ -2,11 +2,11 @@
 title: Table.alignment property
 linktitle: alignment property
 articleTitle: alignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.alignment property. Specifies how an inline table is aligned in the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/table/alignment/
+url: /nodejs-net/aspose.words/table/alignment/
 ---
 
 ## Table.alignment property
@@ -20,7 +20,7 @@ get alignment(): Aspose.Words.Tables.TableAlignment
 
 ### Remarks
 
-The default value is [TableAlignment.Left](../../../Aspose.Words.Tables/tablealignment/#Left).
+The default value is [TableAlignment.Left](../../../aspose.words.tables/tablealignment/#Left).
 
 
 

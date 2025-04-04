@@ -2,11 +2,11 @@
 title: Field.asFieldNext method
 linktitle: asFieldNext method
 articleTitle: asFieldNext method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldNext method. "
 type: docs
 weight: 680
-url: /nodejs-net/Aspose.Words/field/asFieldNext/
+url: /nodejs-net/aspose.words/field/asFieldNext/
 ---
 
 ## asFieldNext() {#default}

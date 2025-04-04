@@ -2,11 +2,11 @@
 title: DownsampleOptions.downsampleImages property
 linktitle: downsampleImages property
 articleTitle: downsampleImages property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DownsampleOptions.downsampleImages property. Specifies whether images should be downsampled."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/downsampleoptions/downsampleImages/
+url: /nodejs-net/aspose.words.saving/downsampleoptions/downsampleImages/
 ---
 
 ## DownsampleOptions.downsampleImages property
@@ -20,7 +20,7 @@ get downsampleImages(): boolean
 
 ### Remarks
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

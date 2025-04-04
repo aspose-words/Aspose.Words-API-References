@@ -2,11 +2,11 @@
 title: OdtSaveOptions.isStrictSchema11 property
 linktitle: isStrictSchema11 property
 articleTitle: isStrictSchema11 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdtSaveOptions.isStrictSchema11 property. Specifies whether export should correspond to ODT specification 1.1 strictly"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/isStrictSchema11/
+url: /nodejs-net/aspose.words.saving/odtsaveoptions/isStrictSchema11/
 ---
 
 ## OdtSaveOptions.isStrictSchema11 property
@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words.Saving/odtsaveoptions/isStrictSchema11/
 Specifies whether export should correspond to ODT specification 1.1 strictly.
 OOo 3.0 displays files correctly when they contain elements and attributes of ODT 1.2.
 Use "false" for this purpose, or "true" for strict conformity of specification 1.1.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

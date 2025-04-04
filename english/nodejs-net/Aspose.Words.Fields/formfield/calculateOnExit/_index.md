@@ -2,11 +2,11 @@
 title: FormField.calculateOnExit property
 linktitle: calculateOnExit property
 articleTitle: calculateOnExit property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.calculateOnExit property. True if references to the specified form field are automatically updated whenever the field is exited."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/formfield/calculateOnExit/
+url: /nodejs-net/aspose.words.fields/formfield/calculateOnExit/
 ---
 
 ## FormField.calculateOnExit property

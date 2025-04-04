@@ -2,11 +2,11 @@
 title: AxisBound.valueAsDate property
 linktitle: valueAsDate property
 articleTitle: valueAsDate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisBound.valueAsDate property. Returns value of axis bound represented as datetime."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisbound/valueAsDate/
+url: /nodejs-net/aspose.words.drawing.charts/axisbound/valueAsDate/
 ---
 
 ## AxisBound.valueAsDate property

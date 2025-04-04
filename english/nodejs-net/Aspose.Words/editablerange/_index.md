@@ -2,11 +2,11 @@
 title: EditableRange class
 linktitle: EditableRange class
 articleTitle: EditableRange class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.EditableRange class. Represents a single editable range"
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/editablerange/
+url: /nodejs-net/aspose.words/editablerange/
 ---
 
 ## EditableRange class

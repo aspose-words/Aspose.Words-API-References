@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.keywords property
 linktitle: keywords property
 articleTitle: keywords property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.keywords property. Gets or sets the document keywords."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/keywords/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/keywords/
 ---
 
 ## BuiltInDocumentProperties.keywords property

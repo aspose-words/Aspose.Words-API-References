@@ -2,11 +2,11 @@
 title: PageSetup.gutter property
 linktitle: gutter property
 articleTitle: gutter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.gutter property. Gets or sets the amount of extra space added to the margin for document binding."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/pagesetup/gutter/
+url: /nodejs-net/aspose.words/pagesetup/gutter/
 ---
 
 ## PageSetup.gutter property

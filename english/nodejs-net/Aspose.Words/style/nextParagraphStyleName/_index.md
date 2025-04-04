@@ -2,11 +2,11 @@
 title: Style.nextParagraphStyleName property
 linktitle: nextParagraphStyleName property
 articleTitle: nextParagraphStyleName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.nextParagraphStyleName property. Gets/sets the name of the style to be applied automatically to a new paragraph inserted after a paragraph formatted with the specified style."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/style/nextParagraphStyleName/
+url: /nodejs-net/aspose.words/style/nextParagraphStyleName/
 ---
 
 ## Style.nextParagraphStyleName property

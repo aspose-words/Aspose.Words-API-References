@@ -2,11 +2,11 @@
 title: FieldFormText constructor
 linktitle: FieldFormText constructor
 articleTitle: FieldFormText constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFormText constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldformtext/constructor/
+url: /nodejs-net/aspose.words.fields/fieldformtext/constructor/
 ---
 
 ## FieldFormText() {#default}

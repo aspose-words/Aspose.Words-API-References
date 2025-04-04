@@ -2,11 +2,11 @@
 title: HtmlSaveOptions.tableWidthOutputMode property
 linktitle: tableWidthOutputMode property
 articleTitle: tableWidthOutputMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.tableWidthOutputMode property. Controls how table, row and cell widths are exported to HTML, MHTML or EPUB"
 type: docs
 weight: 470
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/tableWidthOutputMode/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/tableWidthOutputMode/
 ---
 
 ## HtmlSaveOptions.tableWidthOutputMode property

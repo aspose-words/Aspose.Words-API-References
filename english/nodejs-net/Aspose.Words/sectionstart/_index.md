@@ -2,11 +2,11 @@
 title: SectionStart enumeration
 linktitle: SectionStart enumeration
 articleTitle: SectionStart enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.SectionStart enumeration. The type of break at the beginning of the section."
 type: docs
 weight: 1190
-url: /nodejs-net/Aspose.Words/sectionstart/
+url: /nodejs-net/aspose.words/sectionstart/
 ---
 
 ## SectionStart enumeration

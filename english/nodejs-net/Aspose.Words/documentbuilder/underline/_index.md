@@ -2,11 +2,11 @@
 title: DocumentBuilder.underline property
 linktitle: underline property
 articleTitle: underline property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.underline property. Gets/sets underline type for the current font."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words/documentbuilder/underline/
+url: /nodejs-net/aspose.words/documentbuilder/underline/
 ---
 
 ## DocumentBuilder.underline property

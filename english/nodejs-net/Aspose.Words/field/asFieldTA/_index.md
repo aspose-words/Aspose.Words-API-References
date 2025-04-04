@@ -2,11 +2,11 @@
 title: Field.asFieldTA method
 linktitle: asFieldTA method
 articleTitle: asFieldTA method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldTA method. "
 type: docs
 weight: 940
-url: /nodejs-net/Aspose.Words/field/asFieldTA/
+url: /nodejs-net/aspose.words/field/asFieldTA/
 ---
 
 ## asFieldTA() {#default}

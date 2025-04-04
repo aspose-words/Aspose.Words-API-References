@@ -2,11 +2,11 @@
 title: AxisScaling.maximum property
 linktitle: maximum property
 articleTitle: maximum property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisScaling.maximum property. Gets or sets the maximum value of the axis."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisscaling/maximum/
+url: /nodejs-net/aspose.words.drawing.charts/axisscaling/maximum/
 ---
 
 ## AxisScaling.maximum property

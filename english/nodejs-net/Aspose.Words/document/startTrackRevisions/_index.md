@@ -2,11 +2,11 @@
 title: Document.startTrackRevisions method
 linktitle: startTrackRevisions method
 articleTitle: startTrackRevisions method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.startTrackRevisions method"
 type: docs
 weight: 710
-url: /nodejs-net/Aspose.Words/document/startTrackRevisions/
+url: /nodejs-net/aspose.words/document/startTrackRevisions/
 ---
 
 ## startTrackRevisions(author, dateTime) {#string_date}
@@ -15,7 +15,7 @@ Starts automatically marking all further changes you make to the document progra
 
 
 ```js
-startTrackRevisions(author: stringdateTime: Date)
+startTrackRevisions(author: string, dateTime: Date)
 ```
 
 | Parameter | Type | Description |

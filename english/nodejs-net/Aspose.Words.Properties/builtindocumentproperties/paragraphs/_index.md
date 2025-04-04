@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.paragraphs property
 linktitle: paragraphs property
 articleTitle: paragraphs property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.paragraphs property. Represents an estimate of the number of paragraphs in the document."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/paragraphs/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/paragraphs/
 ---
 
 ## BuiltInDocumentProperties.paragraphs property
@@ -20,7 +20,7 @@ get paragraphs(): number
 
 ### Remarks
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../../Aspose.Words/document/updateWordCount/#default).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../../aspose.words/document/updateWordCount/#default).
 
 
 

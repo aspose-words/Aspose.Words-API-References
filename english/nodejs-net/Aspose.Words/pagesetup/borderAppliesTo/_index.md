@@ -2,11 +2,11 @@
 title: PageSetup.borderAppliesTo property
 linktitle: borderAppliesTo property
 articleTitle: borderAppliesTo property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.borderAppliesTo property. Specifies which pages the page border is printed on."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/pagesetup/borderAppliesTo/
+url: /nodejs-net/aspose.words/pagesetup/borderAppliesTo/
 ---
 
 ## PageSetup.borderAppliesTo property

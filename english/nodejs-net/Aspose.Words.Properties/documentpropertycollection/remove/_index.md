@@ -2,11 +2,11 @@
 title: DocumentPropertyCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentPropertyCollection.remove method. Removes a property with the specified name from the collection."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Properties/documentpropertycollection/remove/
+url: /nodejs-net/aspose.words.properties/documentpropertycollection/remove/
 ---
 
 ## remove(name) {#string}

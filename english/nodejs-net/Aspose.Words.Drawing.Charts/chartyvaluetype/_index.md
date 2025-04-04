@@ -2,11 +2,11 @@
 title: ChartYValueType enumeration
 linktitle: ChartYValueType enumeration
 articleTitle: ChartYValueType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartYValueType enumeration. Allows to specify type of an Y value of a chart series."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartyvaluetype/
+url: /nodejs-net/aspose.words.drawing.charts/chartyvaluetype/
 ---
 
 ## ChartYValueType enumeration

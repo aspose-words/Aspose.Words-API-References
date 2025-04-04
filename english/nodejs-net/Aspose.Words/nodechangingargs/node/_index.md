@@ -2,11 +2,11 @@
 title: NodeChangingArgs.node property
 linktitle: node property
 articleTitle: node property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeChangingArgs.node property. Gets the [NodeChangingArgs.node](./) that is being added or removed."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/nodechangingargs/node/
+url: /nodejs-net/aspose.words/nodechangingargs/node/
 ---
 
 ## NodeChangingArgs.node property

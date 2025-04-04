@@ -2,17 +2,17 @@
 title: HtmlSaveOptions.exportCidUrlsForMhtmlResources property
 linktitle: exportCidUrlsForMhtmlResources property
 articleTitle: exportCidUrlsForMhtmlResources property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportCidUrlsForMhtmlResources property. Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportCidUrlsForMhtmlResources/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportCidUrlsForMhtmlResources/
 ---
 
 ## HtmlSaveOptions.exportCidUrlsForMhtmlResources property
 
 Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML
-documents. Default value is ``False``.
+documents. Default value is ``false``.
 
 
 

@@ -2,17 +2,17 @@
 title: ChartAxisTitle.text property
 linktitle: text property
 articleTitle: text property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxisTitle.text property. Gets or sets the text of the axis title"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxistitle/text/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 
 ## ChartAxisTitle.text property
 
 Gets or sets the text of the axis title.
-If ``None`` or empty value is specified, auto generated title will be shown.
+If ``null`` or empty value is specified, auto generated title will be shown.
 
 
 

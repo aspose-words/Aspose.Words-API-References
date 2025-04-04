@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertChart method
 linktitle: insertChart method
 articleTitle: insertChart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertChart method"
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/documentbuilder/insertChart/
+url: /nodejs-net/aspose.words/documentbuilder/insertChart/
 ---
 
 ## insertChart(chartType, width, height) {#charttype_number_number}
@@ -15,19 +15,19 @@ Inserts an chart object into the document and scales it to the specified size.
 
 
 ```js
-insertChart(chartType: Aspose.Words.Drawing.Charts.ChartTypewidth: numberheight: number)
+insertChart(chartType: Aspose.Words.Drawing.Charts.ChartType, width: number, height: number)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chartType | [ChartType](../../../Aspose.Words.Drawing.Charts/charttype/) | The chart type to insert into the document. |
+| chartType | [ChartType](../../../aspose.words.drawing.charts/charttype/) | The chart type to insert into the document. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 
@@ -43,24 +43,24 @@ Inserts an chart object into the document and scales it to the specified size.
 
 
 ```js
-insertChart(chartType: Aspose.Words.Drawing.Charts.ChartTypehorzPos: Aspose.Words.Drawing.RelativeHorizontalPositionleft: numbervertPos: Aspose.Words.Drawing.RelativeVerticalPositiontop: numberwidth: numberheight: numberwrapType: Aspose.Words.Drawing.WrapType)
+insertChart(chartType: Aspose.Words.Drawing.Charts.ChartType, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosition, left: number, vertPos: Aspose.Words.Drawing.RelativeVerticalPosition, top: number, width: number, height: number, wrapType: Aspose.Words.Drawing.WrapType)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| chartType | [ChartType](../../../Aspose.Words.Drawing.Charts/charttype/) | The chart type to insert into the document. |
-| horzPos | [RelativeHorizontalPosition](../../../Aspose.Words.Drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
+| chartType | [ChartType](../../../aspose.words.drawing.charts/charttype/) | The chart type to insert into the document. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
 | left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../Aspose.Words.Drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
 | top | number | Distance in points from the origin to the top side of the image. |
 | width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
 | height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../Aspose.Words.Drawing/wraptype/) | Specifies how to wrap text around the image. |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
 
 ### Remarks
 
 You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../Aspose.Words.Drawing/shape/) object returned by this method.
+[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
 

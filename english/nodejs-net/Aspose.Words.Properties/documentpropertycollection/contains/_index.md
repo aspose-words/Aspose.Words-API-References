@@ -2,16 +2,16 @@
 title: DocumentPropertyCollection.contains method
 linktitle: contains method
 articleTitle: contains method
-second_title: Aspose.Words for NodeJs
-description: "DocumentPropertyCollection.contains method. Returns ``True`` if a property with the specified name exists in the collection."
+second_title: Aspose.Words for Node.js
+description: "DocumentPropertyCollection.contains method. Returns ``true`` if a property with the specified name exists in the collection."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Properties/documentpropertycollection/contains/
+url: /nodejs-net/aspose.words.properties/documentpropertycollection/contains/
 ---
 
 ## contains(name) {#string}
 
-Returns ``True`` if a property with the specified name exists in the collection.
+Returns ``true`` if a property with the specified name exists in the collection.
 
 
 
@@ -25,7 +25,7 @@ contains(name: string)
 
 ### Returns
 
-``True`` if the property exists in the collection; ``False`` otherwise.
+``true`` if the property exists in the collection; ``false`` otherwise.
 
 
 ### Examples

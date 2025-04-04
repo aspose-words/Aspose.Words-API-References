@@ -2,11 +2,11 @@
 title: FieldGlossary.entryName property
 linktitle: entryName property
 articleTitle: entryName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldGlossary.entryName property. Gets or sets the name of the glossary entry to insert."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldglossary/entryName/
+url: /nodejs-net/aspose.words.fields/fieldglossary/entryName/
 ---
 
 ## FieldGlossary.entryName property

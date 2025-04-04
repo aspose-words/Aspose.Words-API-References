@@ -2,17 +2,17 @@
 title: PdfSaveOptions.saveFormat property
 linktitle: saveFormat property
 articleTitle: saveFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/saveFormat/
 ---
 
 ## PdfSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Pdf](../../../Aspose.Words/saveformat/#Pdf).
+Can only be [SaveFormat.Pdf](../../../aspose.words/saveformat/#Pdf).
 
 
 

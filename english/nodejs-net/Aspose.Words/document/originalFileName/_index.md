@@ -2,11 +2,11 @@
 title: Document.originalFileName property
 linktitle: originalFileName property
 articleTitle: originalFileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.originalFileName property. Gets the original file name of the document."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words/document/originalFileName/
+url: /nodejs-net/aspose.words/document/originalFileName/
 ---
 
 ## Document.originalFileName property
@@ -20,7 +20,7 @@ get originalFileName(): string
 
 ### Remarks
 
-Returns ``None`` if the document was loaded from a stream or created blank.
+Returns ``null`` if the document was loaded from a stream or created blank.
 
 
 

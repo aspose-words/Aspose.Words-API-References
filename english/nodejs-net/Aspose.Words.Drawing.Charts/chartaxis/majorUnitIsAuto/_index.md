@@ -2,11 +2,11 @@
 title: ChartAxis.majorUnitIsAuto property
 linktitle: majorUnitIsAuto property
 articleTitle: majorUnitIsAuto property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.majorUnitIsAuto property. Gets or sets a flag indicating whether default distance between major tick marks shall be used."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/majorUnitIsAuto/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/majorUnitIsAuto/
 ---
 
 ## ChartAxis.majorUnitIsAuto property

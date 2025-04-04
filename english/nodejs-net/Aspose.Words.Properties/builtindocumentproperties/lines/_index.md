@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.lines property
 linktitle: lines property
 articleTitle: lines property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.lines property. Represents an estimate of the number of lines in the document."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/lines/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/lines/
 ---
 
 ## BuiltInDocumentProperties.lines property
@@ -20,7 +20,7 @@ get lines(): number
 
 ### Remarks
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../../Aspose.Words/document/updateWordCount/#boolean).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../../aspose.words/document/updateWordCount/#boolean).
 
 
 

@@ -2,11 +2,11 @@
 title: DocumentBuilder.writeln method
 linktitle: writeln method
 articleTitle: writeln method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.writeln method"
 type: docs
 weight: 700
-url: /nodejs-net/Aspose.Words/documentbuilder/writeln/
+url: /nodejs-net/aspose.words/documentbuilder/writeln/
 ---
 
 ## writeln(text) {#string}

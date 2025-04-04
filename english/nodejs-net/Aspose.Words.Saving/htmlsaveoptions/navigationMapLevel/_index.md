@@ -2,11 +2,11 @@
 title: HtmlSaveOptions.navigationMapLevel property
 linktitle: navigationMapLevel property
 articleTitle: navigationMapLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.navigationMapLevel property. Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats"
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/navigationMapLevel/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/navigationMapLevel/
 ---
 
 ## HtmlSaveOptions.navigationMapLevel property

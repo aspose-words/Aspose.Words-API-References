@@ -2,11 +2,11 @@
 title: OoxmlCompliance enumeration
 linktitle: OoxmlCompliance enumeration
 articleTitle: OoxmlCompliance enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.OoxmlCompliance enumeration. Allows to specify which OOXML specification will be used when saving in the DOCX format."
 type: docs
 weight: 520
-url: /nodejs-net/Aspose.Words.Saving/ooxmlcompliance/
+url: /nodejs-net/aspose.words.saving/ooxmlcompliance/
 ---
 
 ## OoxmlCompliance enumeration

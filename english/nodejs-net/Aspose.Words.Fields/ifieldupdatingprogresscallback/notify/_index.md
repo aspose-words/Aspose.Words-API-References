@@ -2,11 +2,11 @@
 title: IFieldUpdatingProgressCallback.notify method
 linktitle: notify method
 articleTitle: notify method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFieldUpdatingProgressCallback.notify method. A user defined method that is called when updating progress is changed."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/ifieldupdatingprogresscallback/notify/
+url: /nodejs-net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 ---
 
 ## notify(args) {#fieldupdatingprogressargs}

@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitCommentEnd method
 linktitle: visitCommentEnd method
 articleTitle: visitCommentEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitCommentEnd method. Called when enumeration of a comment text has ended."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/documentvisitor/visitCommentEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitCommentEnd/
 ---
 
 ## visitCommentEnd(comment) {#comment}

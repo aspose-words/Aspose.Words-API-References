@@ -2,11 +2,11 @@
 title: ChartSeriesGroupCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroupCollection.add method. Adds a new series group of the specified series type to this collection."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroupcollection/add/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroupcollection/add/
 ---
 
 ## add(seriesType) {#chartseriestype}

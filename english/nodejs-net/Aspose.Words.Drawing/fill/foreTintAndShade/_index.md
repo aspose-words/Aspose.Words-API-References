@@ -2,11 +2,11 @@
 title: Fill.foreTintAndShade property
 linktitle: foreTintAndShade property
 articleTitle: foreTintAndShade property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.foreTintAndShade property. Gets or sets a double value that lightens or darkens the foreground color."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing/fill/foreTintAndShade/
+url: /nodejs-net/aspose.words.drawing/fill/foreTintAndShade/
 ---
 
 ## Fill.foreTintAndShade property

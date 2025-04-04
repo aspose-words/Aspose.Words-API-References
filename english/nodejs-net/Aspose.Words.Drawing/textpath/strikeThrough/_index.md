@@ -2,11 +2,11 @@
 title: TextPath.strikeThrough property
 linktitle: strikeThrough property
 articleTitle: strikeThrough property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.strikeThrough property. True if the font is formatted as strikethrough text."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Drawing/textpath/strikeThrough/
+url: /nodejs-net/aspose.words.drawing/textpath/strikeThrough/
 ---
 
 ## TextPath.strikeThrough property
@@ -20,7 +20,7 @@ get strikeThrough(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

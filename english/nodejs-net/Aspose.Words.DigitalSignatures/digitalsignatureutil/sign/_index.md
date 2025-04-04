@@ -2,11 +2,11 @@
 title: DigitalSignatureUtil.sign method
 linktitle: sign method
 articleTitle: sign method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureUtil.sign method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.DigitalSignatures/digitalsignatureutil/sign/
+url: /nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/sign/
 ---
 
 ## sign(srcStream, dstStream, certHolder, signOptions) {#buffer_buffer_certificateholder_signoptions}
@@ -14,13 +14,13 @@ url: /nodejs-net/Aspose.Words.DigitalSignatures/digitalsignatureutil/sign/
 Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/)
 with digital signature and writes signed document to destination stream.
 Supported formats are:
-[LoadFormat.Doc](../../../Aspose.Words/loadformat/#Doc),
-[LoadFormat.Dot](../../../Aspose.Words/loadformat/#Dot),
-[LoadFormat.Docx](../../../Aspose.Words/loadformat/#Docx),
-[LoadFormat.Dotx](../../../Aspose.Words/loadformat/#Dotx),
-[LoadFormat.Docm](../../../Aspose.Words/loadformat/#Docm),
-[LoadFormat.Odt](../../../Aspose.Words/loadformat/#Odt),
-[LoadFormat.Ott](../../../Aspose.Words/loadformat/#Ott).
+[LoadFormat.Doc](../../../aspose.words/loadformat/#Doc),
+[LoadFormat.Dot](../../../aspose.words/loadformat/#Dot),
+[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
+[LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
+[LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
+[LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
 **Output will be written to the start of stream and stream size will be updated with content length.**
 
@@ -29,7 +29,7 @@ Supported formats are:
 
 
 ```js
-sign(srcStream: BufferdstStream: BuffercertHolder: Aspose.Words.DigitalSignatures.CertificateHoldersignOptions: Aspose.Words.DigitalSignatures.SignOptions)
+sign(srcStream: Buffer, dstStream: Buffer, certHolder: Aspose.Words.DigitalSignatures.CertificateHolder, signOptions: Aspose.Words.DigitalSignatures.SignOptions)
 ```
 
 | Parameter | Type | Description |
@@ -44,19 +44,19 @@ sign(srcStream: BufferdstStream: BuffercertHolder: Aspose.Words.DigitalSignature
 Signs source document using given [CertificateHolder](../../certificateholder/) and [SignOptions](../../signoptions/)
 with digital signature and writes signed document to destination file.
 Supported formats are:
-[LoadFormat.Doc](../../../Aspose.Words/loadformat/#Doc),
-[LoadFormat.Dot](../../../Aspose.Words/loadformat/#Dot),
-[LoadFormat.Docx](../../../Aspose.Words/loadformat/#Docx),
-[LoadFormat.Dotx](../../../Aspose.Words/loadformat/#Dotx),
-[LoadFormat.Docm](../../../Aspose.Words/loadformat/#Docm),
-[LoadFormat.Odt](../../../Aspose.Words/loadformat/#Odt),
-[LoadFormat.Ott](../../../Aspose.Words/loadformat/#Ott).
+[LoadFormat.Doc](../../../aspose.words/loadformat/#Doc),
+[LoadFormat.Dot](../../../aspose.words/loadformat/#Dot),
+[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
+[LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
+[LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
+[LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
 
 
 
 ```js
-sign(srcFileName: stringdstFileName: stringcertHolder: Aspose.Words.DigitalSignatures.CertificateHoldersignOptions: Aspose.Words.DigitalSignatures.SignOptions)
+sign(srcFileName: string, dstFileName: string, certHolder: Aspose.Words.DigitalSignatures.CertificateHolder, signOptions: Aspose.Words.DigitalSignatures.SignOptions)
 ```
 
 | Parameter | Type | Description |
@@ -71,13 +71,13 @@ sign(srcFileName: stringdstFileName: stringcertHolder: Aspose.Words.DigitalSigna
 Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature
 and writes signed document to destination stream.
 Supported formats are:
-[LoadFormat.Doc](../../../Aspose.Words/loadformat/#Doc),
-[LoadFormat.Dot](../../../Aspose.Words/loadformat/#Dot),
-[LoadFormat.Docx](../../../Aspose.Words/loadformat/#Docx),
-[LoadFormat.Dotx](../../../Aspose.Words/loadformat/#Dotx),
-[LoadFormat.Docm](../../../Aspose.Words/loadformat/#Docm),
-[LoadFormat.Odt](../../../Aspose.Words/loadformat/#Odt),
-[LoadFormat.Ott](../../../Aspose.Words/loadformat/#Ott).
+[LoadFormat.Doc](../../../aspose.words/loadformat/#Doc),
+[LoadFormat.Dot](../../../aspose.words/loadformat/#Dot),
+[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
+[LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
+[LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
+[LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
 **Output will be written to the start of stream and stream size will be updated with content length.**
 
@@ -86,7 +86,7 @@ Supported formats are:
 
 
 ```js
-sign(srcStream: BufferdstStream: BuffercertHolder: Aspose.Words.DigitalSignatures.CertificateHolder)
+sign(srcStream: Buffer, dstStream: Buffer, certHolder: Aspose.Words.DigitalSignatures.CertificateHolder)
 ```
 
 | Parameter | Type | Description |
@@ -100,19 +100,19 @@ sign(srcStream: BufferdstStream: BuffercertHolder: Aspose.Words.DigitalSignature
 Signs source document using given [CertificateHolder](../../certificateholder/) with digital signature
 and writes signed document to destination file.
 Supported formats are:
-[LoadFormat.Doc](../../../Aspose.Words/loadformat/#Doc),
-[LoadFormat.Dot](../../../Aspose.Words/loadformat/#Dot),
-[LoadFormat.Docx](../../../Aspose.Words/loadformat/#Docx),
-[LoadFormat.Dotx](../../../Aspose.Words/loadformat/#Dotx),
-[LoadFormat.Docm](../../../Aspose.Words/loadformat/#Docm),
-[LoadFormat.Odt](../../../Aspose.Words/loadformat/#Odt),
-[LoadFormat.Ott](../../../Aspose.Words/loadformat/#Ott).
+[LoadFormat.Doc](../../../aspose.words/loadformat/#Doc),
+[LoadFormat.Dot](../../../aspose.words/loadformat/#Dot),
+[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
+[LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
+[LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
+[LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
 
 
 
 ```js
-sign(srcFileName: stringdstFileName: stringcertHolder: Aspose.Words.DigitalSignatures.CertificateHolder)
+sign(srcFileName: string, dstFileName: string, certHolder: Aspose.Words.DigitalSignatures.CertificateHolder)
 ```
 
 | Parameter | Type | Description |

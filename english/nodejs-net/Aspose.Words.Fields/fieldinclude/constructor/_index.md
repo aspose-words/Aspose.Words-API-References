@@ -2,11 +2,11 @@
 title: FieldInclude constructor
 linktitle: FieldInclude constructor
 articleTitle: FieldInclude constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldInclude constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldinclude/constructor/
+url: /nodejs-net/aspose.words.fields/fieldinclude/constructor/
 ---
 
 ## FieldInclude() {#default}

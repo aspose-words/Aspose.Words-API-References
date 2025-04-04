@@ -2,11 +2,11 @@
 title: FontFallbackSettings.buildAutomatic method
 linktitle: buildAutomatic method
 articleTitle: buildAutomatic method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontFallbackSettings.buildAutomatic method. Automatically builds the fallback settings by scanning available fonts."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/fontfallbacksettings/buildAutomatic/
+url: /nodejs-net/aspose.words.fonts/fontfallbacksettings/buildAutomatic/
 ---
 
 ## buildAutomatic() {#default}

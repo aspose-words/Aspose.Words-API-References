@@ -62,11 +62,22 @@ static void Aspose::Words::LowCode::Comparer::Compare(const System::SharedPtr<Sy
 ## Comparer::Compare(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
 
 
-
+Compares two documents loaded from streams with additional options and saves the differences to the provided output stream in the specified save format, producing changes as a number of edit and format revisions.
 
 ```cpp
 static void Aspose::Words::LowCode::Comparer::Compare(const System::SharedPtr<System::IO::Stream> &v1, const System::SharedPtr<System::IO::Stream> &v2, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &author, System::DateTime dateTime, const System::SharedPtr<Aspose::Words::Comparing::CompareOptions> &compareOptions)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | const System::SharedPtr\<System::IO::Stream\>\& | The original document. |
+| v2 | const System::SharedPtr\<System::IO::Stream\>\& | The modified document. |
+| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The output's save options. |
+| author | const System::String\& | Initials of the author to use for revisions. |
+| dateTime | System::DateTime | The date and time to use for revisions. |
+| compareOptions | const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\& | [Document](../../../aspose.words/document/) comparison options. |
 
 ## See Also
 
@@ -130,11 +141,22 @@ static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, 
 ## Comparer::Compare(const System::String\&, const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, System::DateTime, const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\&) method
 
 
-
+Compares two documents with additional options and saves the differences to the specified output file in the provided save format, producing changes as a number of edit and format revisions.
 
 ```cpp
 static void Aspose::Words::LowCode::Comparer::Compare(const System::String &v1, const System::String &v2, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &author, System::DateTime dateTime, const System::SharedPtr<Aspose::Words::Comparing::CompareOptions> &compareOptions)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| v1 | const System::String\& | The original document. |
+| v2 | const System::String\& | The modified document. |
+| outputFileName | const System::String\& | The output file name. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The output's save options. |
+| author | const System::String\& | Initials of the author to use for revisions. |
+| dateTime | System::DateTime | The date and time to use for revisions. |
+| compareOptions | const System::SharedPtr\<Aspose::Words::Comparing::CompareOptions\>\& | [Document](../../../aspose.words/document/) comparison options. |
 
 ## See Also
 

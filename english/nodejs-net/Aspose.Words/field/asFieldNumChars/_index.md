@@ -2,11 +2,11 @@
 title: Field.asFieldNumChars method
 linktitle: asFieldNumChars method
 articleTitle: asFieldNumChars method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldNumChars method. "
 type: docs
 weight: 710
-url: /nodejs-net/Aspose.Words/field/asFieldNumChars/
+url: /nodejs-net/aspose.words/field/asFieldNumChars/
 ---
 
 ## asFieldNumChars() {#default}

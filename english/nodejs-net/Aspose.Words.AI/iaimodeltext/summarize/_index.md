@@ -2,11 +2,11 @@
 title: IAiModelText.summarize method
 linktitle: summarize method
 articleTitle: summarize method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.IAiModelText.summarize method"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.AI/iaimodeltext/summarize/
+url: /nodejs-net/aspose.words.ai/iaimodeltext/summarize/
 ---
 
 ## summarize(sourceDocument, options) {#document_summarizeoptions}
@@ -16,12 +16,12 @@ This operation leverages the connected AI model for content processing.
 
 
 ```js
-summarize(sourceDocument: Aspose.Words.Documentoptions: Aspose.Words.AI.SummarizeOptions)
+summarize(sourceDocument: Aspose.Words.Document, options: Aspose.Words.AI.SummarizeOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDocument | [Document](../../../Aspose.Words/document/) | The document to be summarized. |
+| sourceDocument | [Document](../../../aspose.words/document/) | The document to be summarized. |
 | options | [SummarizeOptions](../../summarizeoptions/) | Optional settings to control the summary length and other parameters. |
 
 ### Returns
@@ -36,12 +36,12 @@ This method utilizes the connected AI model for processing each document in the 
 
 
 ```js
-summarize(sourceDocuments: Aspose.Words.Document[]options: Aspose.Words.AI.SummarizeOptions)
+summarize(sourceDocuments: Aspose.Words.Document[], options: Aspose.Words.AI.SummarizeOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sourceDocuments | [Document](../../../Aspose.Words/document/)[] | An array of documents to be summarized. |
+| sourceDocuments | [Document](../../../aspose.words/document/)[] | An array of documents to be summarized. |
 | options | [SummarizeOptions](../../summarizeoptions/) | Optional settings to control the summary length and other parameters |
 
 ### Returns

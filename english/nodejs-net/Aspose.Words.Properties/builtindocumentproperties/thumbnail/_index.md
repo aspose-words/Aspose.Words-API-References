@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.thumbnail property
 linktitle: thumbnail property
 articleTitle: thumbnail property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.thumbnail property. Gets or sets the thumbnail of the document."
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/thumbnail/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/thumbnail/
 ---
 
 ## BuiltInDocumentProperties.thumbnail property

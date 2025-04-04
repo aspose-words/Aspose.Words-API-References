@@ -2,11 +2,11 @@
 title: BookmarkEnd.accept method
 linktitle: accept method
 articleTitle: accept method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarkEnd.accept method. Accepts a visitor."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/bookmarkend/accept/
+url: /nodejs-net/aspose.words/bookmarkend/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}
@@ -33,7 +33,7 @@ For more info see the Visitor design pattern.
 
 ### Returns
 
-``False`` if the visitor requested the enumeration to stop.
+``false`` if the visitor requested the enumeration to stop.
 
 
 ### Examples

@@ -2,11 +2,11 @@
 title: DropDownItemCollection.indexOf method
 linktitle: indexOf method
 articleTitle: indexOf method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DropDownItemCollection.indexOf method. Returns the zero-based index of the specified value in the collection."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/indexOf/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/indexOf/
 ---
 
 ## indexOf(value) {#string}

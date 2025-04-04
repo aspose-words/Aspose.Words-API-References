@@ -2,11 +2,11 @@
 title: FieldMergeBarcode.symbolHeight property
 linktitle: symbolHeight property
 articleTitle: symbolHeight property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeBarcode.symbolHeight property. Gets or sets the height of the symbol"
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/symbolHeight/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/symbolHeight/
 ---
 
 ## FieldMergeBarcode.symbolHeight property

@@ -2,11 +2,11 @@
 title: TabStopCollection.after method
 linktitle: after method
 articleTitle: after method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStopCollection.after method. Gets a first tab stop to the right of the specified position."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/tabstopcollection/after/
+url: /nodejs-net/aspose.words/tabstopcollection/after/
 ---
 
 ## after(position) {#number}
@@ -31,7 +31,7 @@ Skips tab stops with [TabStop.alignment](../../tabstop/alignment/) set to [TabAl
 
 ### Returns
 
-A tab stop object or ``None`` if a suitable tab stop was not found.
+A tab stop object or ``null`` if a suitable tab stop was not found.
 
 
 ### Examples

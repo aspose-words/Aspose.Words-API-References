@@ -2,11 +2,11 @@
 title: FootnotePosition enumeration
 linktitle: FootnotePosition enumeration
 articleTitle: FootnotePosition enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.FootnotePosition enumeration. Defines the footnote position."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Notes/footnoteposition/
+url: /nodejs-net/aspose.words.notes/footnoteposition/
 ---
 
 ## FootnotePosition enumeration

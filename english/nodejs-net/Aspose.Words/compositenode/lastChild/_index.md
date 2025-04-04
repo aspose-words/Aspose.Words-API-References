@@ -2,11 +2,11 @@
 title: CompositeNode.lastChild property
 linktitle: lastChild property
 articleTitle: lastChild property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.lastChild property. Gets the last child of the node."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/compositenode/lastChild/
+url: /nodejs-net/aspose.words/compositenode/lastChild/
 ---
 
 ## CompositeNode.lastChild property
@@ -20,7 +20,7 @@ get lastChild(): Aspose.Words.Node
 
 ### Remarks
 
-If there is no last child node, a ``None`` is returned.
+If there is no last child node, a ``null`` is returned.
 
 
 

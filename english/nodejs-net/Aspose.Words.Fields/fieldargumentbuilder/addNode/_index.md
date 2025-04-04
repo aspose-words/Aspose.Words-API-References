@@ -2,11 +2,11 @@
 title: FieldArgumentBuilder.addNode method
 linktitle: addNode method
 articleTitle: addNode method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldArgumentBuilder.addNode method. Adds a node to the argument."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldargumentbuilder/addNode/
+url: /nodejs-net/aspose.words.fields/fieldargumentbuilder/addNode/
 ---
 
 ## addNode(node) {#inline}
@@ -20,7 +20,7 @@ addNode(node: Aspose.Words.Inline)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Inline](../../../Aspose.Words/inline/) |  |
+| node | [Inline](../../../aspose.words/inline/) |  |
 
 ### Remarks
 

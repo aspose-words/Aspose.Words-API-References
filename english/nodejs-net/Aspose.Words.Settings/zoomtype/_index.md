@@ -2,11 +2,11 @@
 title: ZoomType enumeration
 linktitle: ZoomType enumeration
 articleTitle: ZoomType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.ZoomType enumeration. Possible values for how large or small the document appears on the screen in Microsoft Word."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Settings/zoomtype/
+url: /nodejs-net/aspose.words.settings/zoomtype/
 ---
 
 ## ZoomType enumeration

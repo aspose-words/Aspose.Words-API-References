@@ -2,11 +2,11 @@
 title: TextPath.bold property
 linktitle: bold property
 articleTitle: bold property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.bold property. True if the font is formatted as bold."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/textpath/bold/
+url: /nodejs-net/aspose.words.drawing/textpath/bold/
 ---
 
 ## TextPath.bold property
@@ -20,7 +20,7 @@ get bold(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

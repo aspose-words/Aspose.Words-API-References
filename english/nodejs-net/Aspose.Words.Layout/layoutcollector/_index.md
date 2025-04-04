@@ -2,11 +2,11 @@
 title: LayoutCollector class
 linktitle: LayoutCollector class
 articleTitle: LayoutCollector class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Layout.LayoutCollector class. This class allows to compute page numbers of document nodes."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Layout/layoutcollector/
+url: /nodejs-net/aspose.words.layout/layoutcollector/
 ---
 
 ## LayoutCollector class
@@ -20,14 +20,14 @@ To learn more, visit the [Converting to Fixed-page Format](https://docs.aspose.c
 
 ### Remarks
 
-When you create a [LayoutCollector](./) and specify a [Document](../../Aspose.Words/document/) document object to attach to, 
+When you create a [LayoutCollector](./) and specify a [Document](../../aspose.words/document/) document object to attach to, 
 the collector will record mapping of document nodes to layout objects when the document is formatted into pages.
 
 You will be able to find out on which page a particular document node (e.g. run, paragraph or table cell) is located
 by using the [LayoutCollector.getStartPageIndex()](./getStartPageIndex/#node), [LayoutCollector.getEndPageIndex()](./getEndPageIndex/#node) and [LayoutCollector.getNumPagesSpanned()](./getNumPagesSpanned/#node) methods. 
 These methods automatically build page layout model of the document and update fields if required.
 
-When you no longer need to collect layout information, it is best to set the [LayoutCollector.document](./document/) property to ``None``
+When you no longer need to collect layout information, it is best to set the [LayoutCollector.document](./document/) property to ``null``
 to avoid unnecessary collection of more layout mappings.
 
 

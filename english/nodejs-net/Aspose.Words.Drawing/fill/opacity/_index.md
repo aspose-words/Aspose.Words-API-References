@@ -2,11 +2,11 @@
 title: Fill.opacity property
 linktitle: opacity property
 articleTitle: opacity property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.opacity property. Gets or sets the degree of opacity of the specified fill as a value between 0.0 (clear) and 1.0 (opaque)."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Drawing/fill/opacity/
+url: /nodejs-net/aspose.words.drawing/fill/opacity/
 ---
 
 ## Fill.opacity property

@@ -2,11 +2,11 @@
 title: AxisBound constructor
 linktitle: AxisBound constructor
 articleTitle: AxisBound constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisBound constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisbound/constructor/
+url: /nodejs-net/aspose.words.drawing.charts/axisbound/constructor/
 ---
 
 ## AxisBound() {#default}

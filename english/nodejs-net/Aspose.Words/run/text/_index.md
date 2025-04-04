@@ -2,11 +2,11 @@
 title: Run.text property
 linktitle: text property
 articleTitle: text property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Run.text property. Gets or sets the text of the run."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/run/text/
+url: /nodejs-net/aspose.words/run/text/
 ---
 
 ## Run.text property

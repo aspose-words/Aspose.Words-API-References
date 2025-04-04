@@ -2,11 +2,11 @@
 title: FormField.textInputFormat property
 linktitle: textInputFormat property
 articleTitle: textInputFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.textInputFormat property. Returns or sets the text formatting for a text form field."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Fields/formfield/textInputFormat/
+url: /nodejs-net/aspose.words.fields/formfield/textInputFormat/
 ---
 
 ## FormField.textInputFormat property

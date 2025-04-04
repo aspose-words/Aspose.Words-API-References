@@ -2,11 +2,11 @@
 title: LoadOptions.progressCallback property
 linktitle: progressCallback property
 articleTitle: progressCallback property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.progressCallback property. Called during loading a document and accepts data about loading progress."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/progressCallback/
+url: /nodejs-net/aspose.words.loading/loadoptions/progressCallback/
 ---
 
 ## LoadOptions.progressCallback property
@@ -20,7 +20,7 @@ get progressCallback(): Aspose.Words.Loading.IDocumentLoadingCallback
 
 ### Remarks
 
-[LoadFormat.Docx](../../../Aspose.Words/loadformat/#Docx), [LoadFormat.FlatOpc](../../../Aspose.Words/loadformat/#FlatOpc), [LoadFormat.Docm](../../../Aspose.Words/loadformat/#Docm), [LoadFormat.Dotm](../../../Aspose.Words/loadformat/#Dotm), [LoadFormat.Dotx](../../../Aspose.Words/loadformat/#Dotx), [LoadFormat.Markdown](../../../Aspose.Words/loadformat/#Markdown), [LoadFormat.Rtf](../../../Aspose.Words/loadformat/#Rtf), [LoadFormat.WordML](../../../Aspose.Words/loadformat/#WordML), [LoadFormat.Doc](../../../Aspose.Words/loadformat/#Doc), [LoadFormat.Dot](../../../Aspose.Words/loadformat/#Dot), [LoadFormat.Odt](../../../Aspose.Words/loadformat/#Odt), [LoadFormat.Ott](../../../Aspose.Words/loadformat/#Ott) formats supported.
+[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx), [LoadFormat.FlatOpc](../../../aspose.words/loadformat/#FlatOpc), [LoadFormat.Docm](../../../aspose.words/loadformat/#Docm), [LoadFormat.Dotm](../../../aspose.words/loadformat/#Dotm), [LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx), [LoadFormat.Markdown](../../../aspose.words/loadformat/#Markdown), [LoadFormat.Rtf](../../../aspose.words/loadformat/#Rtf), [LoadFormat.WordML](../../../aspose.words/loadformat/#WordML), [LoadFormat.Doc](../../../aspose.words/loadformat/#Doc), [LoadFormat.Dot](../../../aspose.words/loadformat/#Dot), [LoadFormat.Odt](../../../aspose.words/loadformat/#Odt), [LoadFormat.Ott](../../../aspose.words/loadformat/#Ott) formats supported.
 
 
 

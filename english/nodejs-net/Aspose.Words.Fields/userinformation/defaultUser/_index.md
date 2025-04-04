@@ -2,11 +2,11 @@
 title: UserInformation.defaultUser property
 linktitle: defaultUser property
 articleTitle: defaultUser property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "UserInformation.defaultUser property. Default user information."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/userinformation/defaultUser/
+url: /nodejs-net/aspose.words.fields/userinformation/defaultUser/
 ---
 
 ## UserInformation.defaultUser property

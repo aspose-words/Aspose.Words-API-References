@@ -2,11 +2,11 @@
 title: VariableCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VariableCollection.remove method. Removes a document variable with the specified name from the collection."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/variablecollection/remove/
+url: /nodejs-net/aspose.words/variablecollection/remove/
 ---
 
 ## remove(name) {#string}

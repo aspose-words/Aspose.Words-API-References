@@ -2,11 +2,11 @@
 title: Run.phoneticGuide property
 linktitle: phoneticGuide property
 articleTitle: phoneticGuide property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Run.phoneticGuide property. Gets a [Run.phoneticGuide](./) object."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/run/phoneticGuide/
+url: /nodejs-net/aspose.words/run/phoneticGuide/
 ---
 
 ## Run.phoneticGuide property

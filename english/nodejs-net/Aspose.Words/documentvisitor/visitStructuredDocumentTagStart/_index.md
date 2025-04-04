@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitStructuredDocumentTagStart method
 linktitle: visitStructuredDocumentTagStart method
 articleTitle: visitStructuredDocumentTagStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitStructuredDocumentTagStart method. Called when enumeration of a structured document tag has started."
 type: docs
 weight: 470
-url: /nodejs-net/Aspose.Words/documentvisitor/visitStructuredDocumentTagStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitStructuredDocumentTagStart/
 ---
 
 ## visitStructuredDocumentTagStart(sdt) {#structureddocumenttag}
@@ -20,7 +20,7 @@ visitStructuredDocumentTagStart(sdt: Aspose.Words.Markup.StructuredDocumentTag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| sdt | [StructuredDocumentTag](../../../Aspose.Words.Markup/structureddocumenttag/) | The object that is being visited. |
+| sdt | [StructuredDocumentTag](../../../aspose.words.markup/structureddocumenttag/) | The object that is being visited. |
 
 ### Returns
 

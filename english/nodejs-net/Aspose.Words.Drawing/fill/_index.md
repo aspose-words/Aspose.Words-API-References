@@ -2,11 +2,11 @@
 title: Fill class
 linktitle: Fill class
 articleTitle: Fill class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Fill class. Represents fill formatting for an object"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing/fill/
+url: /nodejs-net/aspose.words.drawing/fill/
 ---
 
 ## Fill class
@@ -19,7 +19,7 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 
 ### Remarks
 
-Use the [ShapeBase.fill](../shapebase/fill/) or [Font.fill](../../Aspose.Words/font/fill/) property to access fill properties of an object.
+Use the [ShapeBase.fill](../shapebase/fill/) or [Font.fill](../../aspose.words/font/fill/) property to access fill properties of an object.
 You do not create instances of the [Fill](./) class directly.
 
 
@@ -49,7 +49,7 @@ You do not create instances of the [Fill](./) class directly.
 | [rotateWithObject](./rotateWithObject/) | Gets or sets whether the fill rotates with the specified object. |
 | [textureAlignment](./textureAlignment/) | Gets or sets the alignment for tile texture fill. |
 | [transparency](./transparency/) | Gets or sets the degree of transparency of the specified fill as a value between 0.0 (opaque) and 1.0 (clear). |
-| [visible](./visible/) | Gets or sets value that is ``True`` if the formatting applied to this instance, is visible. |
+| [visible](./visible/) | Gets or sets value that is ``true`` if the formatting applied to this instance, is visible. |
 
 ### Methods
 

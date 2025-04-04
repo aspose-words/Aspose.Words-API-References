@@ -2,11 +2,11 @@
 title: RunCollection.toArray method
 linktitle: toArray method
 articleTitle: toArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RunCollection.toArray method. Copies all runs from the collection to a new array of runs."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/runcollection/toArray/
+url: /nodejs-net/aspose.words/runcollection/toArray/
 ---
 
 ## toArray() {#default}

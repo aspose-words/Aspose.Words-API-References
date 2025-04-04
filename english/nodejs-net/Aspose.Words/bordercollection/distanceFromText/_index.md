@@ -2,11 +2,11 @@
 title: BorderCollection.distanceFromText property
 linktitle: distanceFromText property
 articleTitle: distanceFromText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BorderCollection.distanceFromText property. Gets or sets distance of the border from text in points."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/bordercollection/distanceFromText/
+url: /nodejs-net/aspose.words/bordercollection/distanceFromText/
 ---
 
 ## BorderCollection.distanceFromText property

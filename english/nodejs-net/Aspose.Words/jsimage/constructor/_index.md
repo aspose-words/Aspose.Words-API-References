@@ -2,11 +2,11 @@
 title: JSImage constructor
 linktitle: JSImage constructor
 articleTitle: JSImage constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSImage constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/jsimage/constructor/
+url: /nodejs-net/aspose.words/jsimage/constructor/
 ---
 
 ## JSImage(fileName) {#string}

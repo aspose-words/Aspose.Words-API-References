@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitBodyStart method
 linktitle: visitBodyStart method
 articleTitle: visitBodyStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitBodyStart method. Called when enumeration of the main text story in a section has started."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/documentvisitor/visitBodyStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitBodyStart/
 ---
 
 ## visitBodyStart(body) {#body}

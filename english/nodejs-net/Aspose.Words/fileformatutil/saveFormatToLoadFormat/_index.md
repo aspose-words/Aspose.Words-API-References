@@ -2,11 +2,11 @@
 title: FileFormatUtil.saveFormatToLoadFormat method
 linktitle: saveFormatToLoadFormat method
 articleTitle: saveFormatToLoadFormat method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FileFormatUtil.saveFormatToLoadFormat method. Converts a [SaveFormat](../../saveformat/) value to a [LoadFormat](../../loadformat/) value if possible."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/fileformatutil/saveFormatToLoadFormat/
+url: /nodejs-net/aspose.words/fileformatutil/saveFormatToLoadFormat/
 ---
 
 ## saveFormatToLoadFormat(saveFormat) {#saveformat}

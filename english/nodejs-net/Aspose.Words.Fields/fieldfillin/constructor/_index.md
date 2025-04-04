@@ -2,11 +2,11 @@
 title: FieldFillIn constructor
 linktitle: FieldFillIn constructor
 articleTitle: FieldFillIn constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFillIn constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldfillin/constructor/
+url: /nodejs-net/aspose.words.fields/fieldfillin/constructor/
 ---
 
 ## FieldFillIn() {#default}

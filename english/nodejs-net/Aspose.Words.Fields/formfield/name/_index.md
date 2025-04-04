@@ -2,11 +2,11 @@
 title: FormField.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.name property. Gets or sets the form field name."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Fields/formfield/name/
+url: /nodejs-net/aspose.words.fields/formfield/name/
 ---
 
 ## FormField.name property

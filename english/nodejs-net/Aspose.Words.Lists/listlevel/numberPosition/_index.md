@@ -2,11 +2,11 @@
 title: ListLevel.numberPosition property
 linktitle: numberPosition property
 articleTitle: numberPosition property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.numberPosition property. Returns or sets the position (in points) of the number or bullet for the list level."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Lists/listlevel/numberPosition/
+url: /nodejs-net/aspose.words.lists/listlevel/numberPosition/
 ---
 
 ## ListLevel.numberPosition property

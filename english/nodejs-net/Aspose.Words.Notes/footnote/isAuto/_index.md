@@ -2,11 +2,11 @@
 title: Footnote.isAuto property
 linktitle: isAuto property
 articleTitle: isAuto property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Footnote.isAuto property. Holds a value that specifies whether this is a auto-numbered footnote or  footnote with user defined custom reference mark."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Notes/footnote/isAuto/
+url: /nodejs-net/aspose.words.notes/footnote/isAuto/
 ---
 
 ## Footnote.isAuto property
@@ -21,7 +21,7 @@ get isAuto(): boolean
 
 ### Remarks
 
-[Footnote.referenceMark](../referenceMark/) initialized with empty string if [Footnote.isAuto](./) set to ``False``.
+[Footnote.referenceMark](../referenceMark/) initialized with empty string if [Footnote.isAuto](./) set to ``false``.
 
 
 

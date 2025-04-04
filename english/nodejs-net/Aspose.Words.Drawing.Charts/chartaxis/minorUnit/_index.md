@@ -2,11 +2,11 @@
 title: ChartAxis.minorUnit property
 linktitle: minorUnit property
 articleTitle: minorUnit property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.minorUnit property. Returns or sets the distance between minor tick marks."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/minorUnit/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/minorUnit/
 ---
 
 ## ChartAxis.minorUnit property
@@ -23,7 +23,7 @@ get minorUnit(): number
 Valid range of a value is greater than zero. The property has effect for time category and
 value axes.
 
-Setting this property sets the [ChartAxis.minorUnitIsAuto](../minorUnitIsAuto/) property to ``False``.
+Setting this property sets the [ChartAxis.minorUnitIsAuto](../minorUnitIsAuto/) property to ``false``.
 
 
 

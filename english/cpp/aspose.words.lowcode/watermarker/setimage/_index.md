@@ -58,11 +58,19 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPt
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Drawing::Image\>\&) method
 
 
-
+Adds an image watermark into the document from streams.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<System::Drawing::Image> &watermarkImage)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
+| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| watermarkImage | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
 
 ## See Also
 
@@ -73,11 +81,20 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPt
 ## Watermarker::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<System::Drawing::Image\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
-
+Adds an image watermark into the document from streams with options.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<System::Drawing::Image> &watermarkImage, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
+| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| watermarkImage | const System::SharedPtr\<System::Drawing::Image\>\& | Image that is displayed as a watermark. |
+| options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\& | Defines additional options for the image watermark. |
 
 ## See Also
 
@@ -137,11 +154,19 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &
 ## Watermarker::SetImage(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&) method
 
 
-
+Adds an image watermark into the document with specified save format.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &watermarkImageFileName)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | const System::String\& | The input file name. |
+| outputFileName | const System::String\& | The output file name. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| watermarkImageFileName | const System::String\& | Image that is displayed as a watermark. |
 
 ## See Also
 
@@ -152,11 +177,20 @@ static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &
 ## Watermarker::SetImage(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::String\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 
-
+Adds an image watermark into the document with options and specified save format.
 
 ```cpp
 static void Aspose::Words::LowCode::Watermarker::SetImage(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::String &watermarkImageFileName, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | const System::String\& | The input file name. |
+| outputFileName | const System::String\& | The output file name. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| watermarkImageFileName | const System::String\& | Image that is displayed as a watermark. |
+| options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\& | Defines additional options for the image watermark. |
 
 ## See Also
 

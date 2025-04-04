@@ -2,17 +2,17 @@
 title: LoadOptions.tempFolder property
 linktitle: tempFolder property
 articleTitle: tempFolder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.tempFolder property. Allows to use temporary files when reading document"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/tempFolder/
+url: /nodejs-net/aspose.words.loading/loadoptions/tempFolder/
 ---
 
 ## LoadOptions.tempFolder property
 
 Allows to use temporary files when reading document.
-By default this property is ``None`` and no temporary files are used.
+By default this property is ``null`` and no temporary files are used.
 
 
 

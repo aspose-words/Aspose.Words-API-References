@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.totalEditingTime property
 linktitle: totalEditingTime property
 articleTitle: totalEditingTime property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.totalEditingTime property. Gets or sets the total editing time in minutes."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/totalEditingTime/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/totalEditingTime/
 ---
 
 ## BuiltInDocumentProperties.totalEditingTime property

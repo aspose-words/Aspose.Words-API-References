@@ -2,11 +2,11 @@
 title: SvgSaveOptions.idPrefix property
 linktitle: idPrefix property
 articleTitle: idPrefix property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.idPrefix property. Specifies a prefix that is prepended to all generated element IDs in the output document"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/idPrefix/
+url: /nodejs-net/aspose.words.saving/svgsaveoptions/idPrefix/
 ---
 
 ## SvgSaveOptions.idPrefix property

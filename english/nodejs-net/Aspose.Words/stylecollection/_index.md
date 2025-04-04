@@ -2,11 +2,11 @@
 title: StyleCollection class
 linktitle: StyleCollection class
 articleTitle: StyleCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.StyleCollection class. A collection of [Style](../style/) objects that represent both the built-in and user-defined styles in a document"
 type: docs
 weight: 1260
-url: /nodejs-net/Aspose.Words/stylecollection/
+url: /nodejs-net/aspose.words/stylecollection/
 ---
 
 ## StyleCollection class

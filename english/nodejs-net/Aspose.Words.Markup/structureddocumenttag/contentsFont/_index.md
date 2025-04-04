@@ -2,11 +2,11 @@
 title: StructuredDocumentTag.contentsFont property
 linktitle: contentsFont property
 articleTitle: contentsFont property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.contentsFont property. Font formatting that will be applied to text entered into SDT."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/contentsFont/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/contentsFont/
 ---
 
 ## StructuredDocumentTag.contentsFont property

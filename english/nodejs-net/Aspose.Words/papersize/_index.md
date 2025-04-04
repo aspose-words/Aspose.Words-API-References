@@ -2,11 +2,11 @@
 title: PaperSize enumeration
 linktitle: PaperSize enumeration
 articleTitle: PaperSize enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.PaperSize enumeration. Specifies paper size."
 type: docs
 weight: 980
-url: /nodejs-net/Aspose.Words/papersize/
+url: /nodejs-net/aspose.words/papersize/
 ---
 
 ## PaperSize enumeration

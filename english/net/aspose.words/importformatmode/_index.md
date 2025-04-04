@@ -5,7 +5,7 @@ articleTitle: ImportFormatMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.ImportFormatMode enhances document formatting by seamlessly merging styles from imported content for optimal results.
 type: docs
-weight: 3660
+weight: 3670
 url: /net/aspose.words/importformatmode/
 ---
 ## ImportFormatMode enumeration

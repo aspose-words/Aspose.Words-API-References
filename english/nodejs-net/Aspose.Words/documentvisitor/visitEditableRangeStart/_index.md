@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitEditableRangeStart method
 linktitle: visitEditableRangeStart method
 articleTitle: visitEditableRangeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitEditableRangeStart method. Called when a start of an editable range is encountered in the document."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/documentvisitor/visitEditableRangeStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitEditableRangeStart/
 ---
 
 ## visitEditableRangeStart(editableRangeStart) {#editablerangestart}

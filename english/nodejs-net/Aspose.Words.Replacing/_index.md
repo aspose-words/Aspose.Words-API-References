@@ -2,14 +2,14 @@
 title: Aspose.Words.Replacing module
 linktitle: Aspose.Words.Replacing module
 articleTitle: Aspose.Words.Replacing module
-second_title: Aspose.Words for NodeJs
-description: "The aspose.words.replacing module provides classes to manipulate with find/replace operations over the document tree."
+second_title: Aspose.Words for Node.js
+description: "The Aspose.Words.Replacing module provides classes to manipulate with find/replace operations over the document tree."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Replacing/
+url: /nodejs-net/aspose.words.replacing/
 ---
 
-The **aspose.words.replacing** module provides classes to manipulate
+The **Aspose.Words.Replacing** module provides classes to manipulate
 with find/replace operations over the document tree.
 
 

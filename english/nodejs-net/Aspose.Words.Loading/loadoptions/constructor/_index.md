@@ -2,11 +2,11 @@
 title: LoadOptions constructor
 linktitle: LoadOptions constructor
 articleTitle: LoadOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.LoadOptions constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/constructor/
+url: /nodejs-net/aspose.words.loading/loadoptions/constructor/
 ---
 
 ## LoadOptions() {#default}
@@ -29,7 +29,7 @@ LoadOptions(password: string)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | string | The password to open an encrypted document. Can be ``None`` or empty string. |
+| password | string | The password to open an encrypted document. Can be ``null`` or empty string. |
 
 ## LoadOptions(loadFormat, password, baseUri) {#loadformat_string_string}
 
@@ -37,14 +37,14 @@ A shortcut to initialize a new instance of this class with properties set to the
 
 
 ```js
-LoadOptions(loadFormat: Aspose.Words.LoadFormatpassword: stringbaseUri: string)
+LoadOptions(loadFormat: Aspose.Words.LoadFormat, password: string, baseUri: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| loadFormat | [LoadFormat](../../../Aspose.Words/loadformat/) | The format of the document to be loaded. |
-| password | string | The password to open an encrypted document. Can be ``None`` or empty string. |
-| baseUri | string | The string that will be used to resolve relative URIs to absolute. Can be ``None`` or empty string. |
+| loadFormat | [LoadFormat](../../../aspose.words/loadformat/) | The format of the document to be loaded. |
+| password | string | The password to open an encrypted document. Can be ``null`` or empty string. |
+| baseUri | string | The string that will be used to resolve relative URIs to absolute. Can be ``null`` or empty string. |
 
 ## See Also
 

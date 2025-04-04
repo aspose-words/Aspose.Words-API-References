@@ -2,11 +2,11 @@
 title: ConditionalStyle.clearFormatting method
 linktitle: clearFormatting method
 articleTitle: clearFormatting method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.clearFormatting method. Clears formatting of this conditional style."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/conditionalstyle/clearFormatting/
+url: /nodejs-net/aspose.words/conditionalstyle/clearFormatting/
 ---
 
 ## clearFormatting() {#default}

@@ -2,11 +2,11 @@
 title: ComHelper.open method
 linktitle: open method
 articleTitle: open method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ComHelper.open method"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/comhelper/open/
+url: /nodejs-net/aspose.words/comhelper/open/
 ---
 
 ## open(fileName) {#string}

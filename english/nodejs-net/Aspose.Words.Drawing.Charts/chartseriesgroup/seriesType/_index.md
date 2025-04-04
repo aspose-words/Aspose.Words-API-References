@@ -2,11 +2,11 @@
 title: ChartSeriesGroup.seriesType property
 linktitle: seriesType property
 articleTitle: seriesType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroup.seriesType property. Gets the type of chart series included in this group."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroup/seriesType/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroup/seriesType/
 ---
 
 ## ChartSeriesGroup.seriesType property

@@ -2,11 +2,11 @@
 title: SystemFontSource constructor
 linktitle: SystemFontSource constructor
 articleTitle: SystemFontSource constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.SystemFontSource constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/systemfontsource/constructor/
+url: /nodejs-net/aspose.words.fonts/systemfontsource/constructor/
 ---
 
 ## SystemFontSource() {#default}

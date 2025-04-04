@@ -2,18 +2,18 @@
 title: Table.allowOverlap property
 linktitle: allowOverlap property
 articleTitle: allowOverlap property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.allowOverlap property. Gets whether a floating table shall allow other floating objects in the document to overlap its extents when displayed"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/table/allowOverlap/
+url: /nodejs-net/aspose.words/table/allowOverlap/
 ---
 
 ## Table.allowOverlap property
 
 Gets whether a floating table shall allow other floating objects in the document
 to overlap its extents when displayed.
-Default value is ``True``.
+Default value is ``true``.
 
 
 

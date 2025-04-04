@@ -2,11 +2,11 @@
 title: BuildingBlock.accept method
 linktitle: accept method
 articleTitle: accept method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuildingBlock.accept method. Accepts a visitor."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/buildingblock/accept/
+url: /nodejs-net/aspose.words/buildingblock/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}
@@ -40,7 +40,7 @@ Calls [DocumentVisitor.visitBuildingBlockStart()](../../documentvisitor/visitBui
 
 Note: A building block node and its children are not visited when you execute a
 Visitor over a [Document](../../document/). If you want to execute a Visitor over a
-building block, you need to execute the visitor over [GlossaryDocument](../../../Aspose.Words.BuildingBlocks/glossarydocument/) or
+building block, you need to execute the visitor over [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/) or
 call [BuildingBlock.accept()](./#documentvisitor).
 
 

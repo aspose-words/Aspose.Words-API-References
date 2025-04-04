@@ -2,11 +2,11 @@
 title: Section.headersFooters property
 linktitle: headersFooters property
 articleTitle: headersFooters property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Section.headersFooters property. Provides access to the headers and footers nodes of the section."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/section/headersFooters/
+url: /nodejs-net/aspose.words/section/headersFooters/
 ---
 
 ## Section.headersFooters property

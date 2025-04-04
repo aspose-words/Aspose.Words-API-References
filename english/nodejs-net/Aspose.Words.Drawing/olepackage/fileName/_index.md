@@ -2,11 +2,11 @@
 title: OlePackage.fileName property
 linktitle: fileName property
 articleTitle: fileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OlePackage.fileName property. Gets or sets OLE Package file name."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/olepackage/fileName/
+url: /nodejs-net/aspose.words.drawing/olepackage/fileName/
 ---
 
 ## OlePackage.fileName property

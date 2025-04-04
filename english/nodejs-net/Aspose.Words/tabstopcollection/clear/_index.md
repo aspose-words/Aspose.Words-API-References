@@ -2,11 +2,11 @@
 title: TabStopCollection.clear method
 linktitle: clear method
 articleTitle: clear method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStopCollection.clear method. Deletes all tab stop positions."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/tabstopcollection/clear/
+url: /nodejs-net/aspose.words/tabstopcollection/clear/
 ---
 
 ## clear() {#default}

@@ -2,11 +2,11 @@
 title: DigitalSignatureCollection class
 linktitle: DigitalSignatureCollection class
 articleTitle: DigitalSignatureCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureCollection class. Provides a read-only collection of digital signatures attached to a document"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.DigitalSignatures/digitalsignaturecollection/
+url: /nodejs-net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 
 ## DigitalSignatureCollection class
@@ -19,7 +19,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 
 ### Remarks
 
-[Document.digitalSignatures](../../Aspose.Words/document/digitalSignatures/)
+[Document.digitalSignatures](../../aspose.words/document/digitalSignatures/)
 
 
 
@@ -33,7 +33,7 @@ To learn more, visit the [Work with Digital Signatures](https://docs.aspose.com/
 | Name | Description |
 | --- | --- |
 | [count](./count/) | Gets the number of elements contained in the collection. |
-| [isValid](./isValid/) | Returns ``True`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``True`` if there are no digital signatures. Returns ``False`` if at least one digital signature is invalid. |
+| [isValid](./isValid/) | Returns ``true`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``true`` if there are no digital signatures. Returns ``false`` if at least one digital signature is invalid. |
 | [this[]](./this[]/) |  |
 
 ### Examples

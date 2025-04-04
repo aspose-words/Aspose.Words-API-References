@@ -2,11 +2,11 @@
 title: TableSubstitutionRule class
 linktitle: TableSubstitutionRule class
 articleTitle: TableSubstitutionRule class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.TableSubstitutionRule class. Table font substitution rule"
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/
 ---
 
 ## TableSubstitutionRule class

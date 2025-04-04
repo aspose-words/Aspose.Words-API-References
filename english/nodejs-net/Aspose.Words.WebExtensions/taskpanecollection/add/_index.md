@@ -2,11 +2,11 @@
 title: TaskPaneCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TaskPaneCollection.add method. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.WebExtensions/taskpanecollection/add/
+url: /nodejs-net/aspose.words.webextensions/taskpanecollection/add/
 ---
 
 ## add(item) {#taskpane}

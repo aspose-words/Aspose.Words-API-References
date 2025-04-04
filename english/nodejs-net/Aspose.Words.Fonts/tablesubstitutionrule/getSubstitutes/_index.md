@@ -2,11 +2,11 @@
 title: TableSubstitutionRule.getSubstitutes method
 linktitle: getSubstitutes method
 articleTitle: getSubstitutes method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableSubstitutionRule.getSubstitutes method. Returns array containing substitute font names for the specified original font name."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/getSubstitutes/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/getSubstitutes/
 ---
 
 ## getSubstitutes(originalFontName) {#string}

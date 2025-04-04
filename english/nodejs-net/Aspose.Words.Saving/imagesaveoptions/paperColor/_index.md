@@ -2,11 +2,11 @@
 title: ImageSaveOptions.paperColor property
 linktitle: paperColor property
 articleTitle: paperColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.paperColor property. Gets or sets the background (paper) color for the generated images"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/paperColor/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/paperColor/
 ---
 
 ## ImageSaveOptions.paperColor property

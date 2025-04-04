@@ -5,7 +5,7 @@ articleTitle: Theme
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Theme class to enhance your documents with customizable themes, including MajorFonts, MinorFonts, and vibrant Colors.
 type: docs
-weight: 7160
+weight: 7290
 url: /net/aspose.words.themes/theme/
 ---
 ## Theme class

@@ -2,11 +2,11 @@
 title: MsWordVersion enumeration
 linktitle: MsWordVersion enumeration
 articleTitle: MsWordVersion enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.MsWordVersion enumeration. Allows Aspose.Wods to mimic MS Word version-specific application behavior."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Settings/mswordversion/
+url: /nodejs-net/aspose.words.settings/mswordversion/
 ---
 
 ## MsWordVersion enumeration

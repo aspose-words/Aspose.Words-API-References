@@ -2,11 +2,11 @@
 title: ListLevel.linkedStyle property
 linktitle: linkedStyle property
 articleTitle: linkedStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.linkedStyle property. Gets or sets the paragraph style that is linked to this list level."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Lists/listlevel/linkedStyle/
+url: /nodejs-net/aspose.words.lists/listlevel/linkedStyle/
 ---
 
 ## ListLevel.linkedStyle property
@@ -20,8 +20,8 @@ get linkedStyle(): Aspose.Words.Style
 
 ### Remarks
 
-This property is ``None`` when the list level is not linked to a paragraph style.
-This property can be set to ``None``.
+This property is ``null`` when the list level is not linked to a paragraph style.
+This property can be set to ``null``.
 
 
 

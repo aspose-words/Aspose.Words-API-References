@@ -5,7 +5,7 @@ articleTitle: LoadFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.LoadFormat enum, defining document formats for seamless loading and enhanced compatibility in your applications.
 type: docs
-weight: 3980
+weight: 3990
 url: /net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration

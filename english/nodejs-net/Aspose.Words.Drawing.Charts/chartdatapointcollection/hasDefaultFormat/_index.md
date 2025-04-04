@@ -2,11 +2,11 @@
 title: ChartDataPointCollection.hasDefaultFormat method
 linktitle: hasDefaultFormat method
 articleTitle: hasDefaultFormat method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataPointCollection.hasDefaultFormat method. Gets a flag indicating whether the data point at the specified index has default format."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapointcollection/hasDefaultFormat/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatapointcollection/hasDefaultFormat/
 ---
 
 ## hasDefaultFormat(dataPointIndex) {#number}

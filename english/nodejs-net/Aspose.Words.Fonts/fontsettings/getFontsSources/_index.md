@@ -2,11 +2,11 @@
 title: FontSettings.getFontsSources method
 linktitle: getFontsSources method
 articleTitle: getFontsSources method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSettings.getFontsSources method. Gets a copy of the array that contains the list of sources where Aspose.Words looks for TrueType fonts."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/getFontsSources/
+url: /nodejs-net/aspose.words.fonts/fontsettings/getFontsSources/
 ---
 
 ## getFontsSources() {#default}

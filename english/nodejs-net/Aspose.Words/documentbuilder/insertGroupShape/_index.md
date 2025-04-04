@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertGroupShape method
 linktitle: insertGroupShape method
 articleTitle: insertGroupShape method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertGroupShape method"
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/documentbuilder/insertGroupShape/
+url: /nodejs-net/aspose.words/documentbuilder/insertGroupShape/
 ---
 
 ## insertGroupShape(shapes) {#shapebase[]}
@@ -20,7 +20,7 @@ insertGroupShape(shapes: Aspose.Words.Drawing.ShapeBase[])
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| shapes | [ShapeBase](../../../Aspose.Words.Drawing/shapebase/)[] | The list of shapes to be grouped. |
+| shapes | [ShapeBase](../../../aspose.words.drawing/shapebase/)[] | The list of shapes to be grouped. |
 
 ### Remarks
 
@@ -37,7 +37,7 @@ Groups the shapes passed as a parameter into a new GroupShape node of the specif
 
 
 ```js
-insertGroupShape(left: numbertop: numberwidth: numberheight: numbershapes: Aspose.Words.Drawing.ShapeBase[])
+insertGroupShape(left: number, top: number, width: number, height: number, shapes: Aspose.Words.Drawing.ShapeBase[])
 ```
 
 | Parameter | Type | Description |
@@ -46,7 +46,7 @@ insertGroupShape(left: numbertop: numberwidth: numberheight: numbershapes: Aspos
 | top | number | Distance in points from the origin to the top side of the group shape. |
 | width | number | The width of the group shape in points. A negative value is not allowed. |
 | height | number | The height of the group shape in points. A negative value is not allowed. |
-| shapes | [ShapeBase](../../../Aspose.Words.Drawing/shapebase/)[] | The list of shapes to be grouped. |
+| shapes | [ShapeBase](../../../aspose.words.drawing/shapebase/)[] | The list of shapes to be grouped. |
 
 ### Remarks
 

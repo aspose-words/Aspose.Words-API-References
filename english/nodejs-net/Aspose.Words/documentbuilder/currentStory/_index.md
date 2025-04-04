@@ -2,11 +2,11 @@
 title: DocumentBuilder.currentStory property
 linktitle: currentStory property
 articleTitle: currentStory property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.currentStory property. Gets the story that is currently selected in this [DocumentBuilder](../)."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/documentbuilder/currentStory/
+url: /nodejs-net/aspose.words/documentbuilder/currentStory/
 ---
 
 ## DocumentBuilder.currentStory property

@@ -2,11 +2,11 @@
 title: FieldOptions.customTocStyleSeparator property
 linktitle: customTocStyleSeparator property
 articleTitle: customTocStyleSeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.customTocStyleSeparator property. Gets or sets custom style separator for the \\t switch in [FieldToc](../../fieldtoc/) field."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/customTocStyleSeparator/
+url: /nodejs-net/aspose.words.fields/fieldoptions/customTocStyleSeparator/
 ---
 
 ## FieldOptions.customTocStyleSeparator property

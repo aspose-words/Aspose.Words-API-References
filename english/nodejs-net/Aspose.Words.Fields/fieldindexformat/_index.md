@@ -2,11 +2,11 @@
 title: FieldIndexFormat enumeration
 linktitle: FieldIndexFormat enumeration
 articleTitle: FieldIndexFormat enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldIndexFormat enumeration. Specifies the formatting for the [FieldIndex](../fieldindex/) fields in a document."
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words.Fields/fieldindexformat/
+url: /nodejs-net/aspose.words.fields/fieldindexformat/
 ---
 
 ## FieldIndexFormat enumeration

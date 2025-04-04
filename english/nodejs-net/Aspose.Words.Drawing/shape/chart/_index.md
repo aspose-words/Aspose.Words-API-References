@@ -2,11 +2,11 @@
 title: Shape.chart property
 linktitle: chart property
 articleTitle: chart property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.chart property. Provides access to the chart properties if this shape has a [Chart](../../chart/)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/shape/chart/
+url: /nodejs-net/aspose.words.drawing/shape/chart/
 ---
 
 ## Shape.chart property
@@ -22,7 +22,7 @@ get chart(): Aspose.Words.Drawing.Charts.Chart
 ### Remarks
 
 This property will return the [Chart](../../chart/) object only if [Shape.hasChart](../hasChart/)
-property is ``True`` for this [Shape](../), and will throw an exception otherwise.
+property is ``true`` for this [Shape](../), and will throw an exception otherwise.
 
 
 ### See Also

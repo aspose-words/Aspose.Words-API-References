@@ -2,11 +2,11 @@
 title: GlowFormat.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GlowFormat.remove method. Removes [GlowFormat](../) from the parent object."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/glowformat/remove/
+url: /nodejs-net/aspose.words.drawing/glowformat/remove/
 ---
 
 ## remove() {#default}

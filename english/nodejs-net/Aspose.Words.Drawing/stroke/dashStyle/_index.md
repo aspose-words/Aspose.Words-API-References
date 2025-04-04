@@ -2,11 +2,11 @@
 title: Stroke.dashStyle property
 linktitle: dashStyle property
 articleTitle: dashStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.dashStyle property. Specifies the dot and dash pattern for a stroke."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing/stroke/dashStyle/
+url: /nodejs-net/aspose.words.drawing/stroke/dashStyle/
 ---
 
 ## Stroke.dashStyle property

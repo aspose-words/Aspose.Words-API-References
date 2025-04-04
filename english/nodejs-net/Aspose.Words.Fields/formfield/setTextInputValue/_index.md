@@ -2,11 +2,11 @@
 title: FormField.setTextInputValue method
 linktitle: setTextInputValue method
 articleTitle: setTextInputValue method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.setTextInputValue method. Applies the text format specified in [FormField.textInputFormat](../textInputFormat/) and stores the value in [FormField.result](../result/)."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Fields/formfield/setTextInputValue/
+url: /nodejs-net/aspose.words.fields/formfield/setTextInputValue/
 ---
 
 ## setTextInputValue(newValue) {#object}
@@ -25,7 +25,7 @@ setTextInputValue(newValue: object)
 
 ### Remarks
 
-The [FormField.textInputDefault](../textInputDefault/) value is applied if *newValue* is``None``.
+The [FormField.textInputDefault](../textInputDefault/) value is applied if *newValue* is``null``.
 
 
 ### See Also

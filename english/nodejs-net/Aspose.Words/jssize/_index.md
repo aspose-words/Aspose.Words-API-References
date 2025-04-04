@@ -2,11 +2,11 @@
 title: JSSize class
 linktitle: JSSize class
 articleTitle: JSSize class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSSize class. "
 type: docs
 weight: 720
-url: /nodejs-net/Aspose.Words/jssize/
+url: /nodejs-net/aspose.words/jssize/
 ---
 
 ## JSSize class

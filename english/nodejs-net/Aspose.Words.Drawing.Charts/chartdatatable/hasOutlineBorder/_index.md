@@ -2,18 +2,18 @@
 title: ChartDataTable.hasOutlineBorder property
 linktitle: hasOutlineBorder property
 articleTitle: hasOutlineBorder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataTable.hasOutlineBorder property. Gets or sets a flag indicating whether an outline border, that is, a border around series and category names, is displayed"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatatable/hasOutlineBorder/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatatable/hasOutlineBorder/
 ---
 
 ## ChartDataTable.hasOutlineBorder property
 
 Gets or sets a flag indicating whether an outline border, that is, a border around series and category names,
 is displayed.
-The default value is ``True``.
+The default value is ``true``.
 
 
 

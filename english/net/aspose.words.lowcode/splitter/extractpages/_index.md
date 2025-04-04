@@ -5,7 +5,7 @@ articleTitle: ExtractPages
 second_title: Aspose.Words for .NET
 description: Effortlessly extract specific pages from any document with our Splitter ExtractPages method. Save them in your desired format for easy access!
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.lowcode/splitter/extractpages/
 ---
 ## ExtractPages(*string, string, int, int*) {#extractpages_4}

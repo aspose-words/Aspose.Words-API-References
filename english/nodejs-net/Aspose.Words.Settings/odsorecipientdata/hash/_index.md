@@ -2,11 +2,11 @@
 title: OdsoRecipientData.hash property
 linktitle: hash property
 articleTitle: hash property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdsoRecipientData.hash property. Represents the hash code for this record"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Settings/odsorecipientdata/hash/
+url: /nodejs-net/aspose.words.settings/odsorecipientdata/hash/
 ---
 
 ## OdsoRecipientData.hash property

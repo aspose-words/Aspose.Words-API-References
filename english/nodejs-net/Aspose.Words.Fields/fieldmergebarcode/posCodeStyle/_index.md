@@ -2,11 +2,11 @@
 title: FieldMergeBarcode.posCodeStyle property
 linktitle: posCodeStyle property
 articleTitle: posCodeStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeBarcode.posCodeStyle property. Gets or sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8)"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/posCodeStyle/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/posCodeStyle/
 ---
 
 ## FieldMergeBarcode.posCodeStyle property

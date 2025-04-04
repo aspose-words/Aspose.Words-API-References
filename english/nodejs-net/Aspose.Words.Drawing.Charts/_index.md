@@ -2,14 +2,14 @@
 title: Aspose.Words.Drawing.Charts module
 linktitle: Aspose.Words.Drawing.Charts module
 articleTitle: Aspose.Words.Drawing.Charts module
-second_title: Aspose.Words for NodeJs
-description: "The aspose.words.drawing.charts module provides classes that allow to access charts in Microsoft Word documents."
+second_title: Aspose.Words for Node.js
+description: "The Aspose.Words.Drawing.Charts module provides classes that allow to access charts in Microsoft Word documents."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing.Charts/
+url: /nodejs-net/aspose.words.drawing.charts/
 ---
 
-The **aspose.words.drawing.charts** module provides classes that allow to access charts in Microsoft Word documents.
+The **Aspose.Words.Drawing.Charts** module provides classes that allow to access charts in Microsoft Word documents.
 
 
 The chart supported are Word 2007 (or higher) DrawingML Charts.

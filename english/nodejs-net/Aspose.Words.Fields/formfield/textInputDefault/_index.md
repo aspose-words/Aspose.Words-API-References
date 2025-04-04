@@ -2,11 +2,11 @@
 title: FormField.textInputDefault property
 linktitle: textInputDefault property
 articleTitle: textInputDefault property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.textInputDefault property. Gets or sets the default string or a calculation expression of a text form field."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Fields/formfield/textInputDefault/
+url: /nodejs-net/aspose.words.fields/formfield/textInputDefault/
 ---
 
 ## FormField.textInputDefault property

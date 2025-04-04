@@ -2,11 +2,11 @@
 title: ViewType enumeration
 linktitle: ViewType enumeration
 articleTitle: ViewType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.ViewType enumeration. Possible values for the view mode in Microsoft Word."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Settings/viewtype/
+url: /nodejs-net/aspose.words.settings/viewtype/
 ---
 
 ## ViewType enumeration

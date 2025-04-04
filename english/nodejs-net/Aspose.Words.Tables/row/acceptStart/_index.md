@@ -2,11 +2,11 @@
 title: Row.acceptStart method
 linktitle: acceptStart method
 articleTitle: acceptStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Row.acceptStart method. Accepts a visitor for visiting the start of the row."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Tables/row/acceptStart/
+url: /nodejs-net/aspose.words.tables/row/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}
@@ -20,7 +20,7 @@ acceptStart(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The document visitor. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The document visitor. |
 
 ### Returns
 

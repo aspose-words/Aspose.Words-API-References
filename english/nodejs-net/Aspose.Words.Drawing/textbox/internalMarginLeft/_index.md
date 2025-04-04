@@ -2,11 +2,11 @@
 title: TextBox.internalMarginLeft property
 linktitle: internalMarginLeft property
 articleTitle: internalMarginLeft property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextBox.internalMarginLeft property. Specifies the inner left margin in points for a shape."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/textbox/internalMarginLeft/
+url: /nodejs-net/aspose.words.drawing/textbox/internalMarginLeft/
 ---
 
 ## TextBox.internalMarginLeft property

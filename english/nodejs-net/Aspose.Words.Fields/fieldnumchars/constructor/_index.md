@@ -2,11 +2,11 @@
 title: FieldNumChars constructor
 linktitle: FieldNumChars constructor
 articleTitle: FieldNumChars constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldNumChars constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldnumchars/constructor/
+url: /nodejs-net/aspose.words.fields/fieldnumchars/constructor/
 ---
 
 ## FieldNumChars() {#default}

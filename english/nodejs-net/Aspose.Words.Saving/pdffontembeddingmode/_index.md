@@ -2,11 +2,11 @@
 title: PdfFontEmbeddingMode enumeration
 linktitle: PdfFontEmbeddingMode enumeration
 articleTitle: PdfFontEmbeddingMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfFontEmbeddingMode enumeration. Specifies how Aspose.Words should embed fonts."
 type: docs
 weight: 660
-url: /nodejs-net/Aspose.Words.Saving/pdffontembeddingmode/
+url: /nodejs-net/aspose.words.saving/pdffontembeddingmode/
 ---
 
 ## PdfFontEmbeddingMode enumeration

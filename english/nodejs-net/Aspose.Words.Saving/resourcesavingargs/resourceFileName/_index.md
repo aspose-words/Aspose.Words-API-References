@@ -2,11 +2,11 @@
 title: ResourceSavingArgs.resourceFileName property
 linktitle: resourceFileName property
 articleTitle: resourceFileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ResourceSavingArgs.resourceFileName property. Gets or sets the file name (without path) where the resource will be saved to."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/resourcesavingargs/resourceFileName/
+url: /nodejs-net/aspose.words.saving/resourcesavingargs/resourceFileName/
 ---
 
 ## ResourceSavingArgs.resourceFileName property

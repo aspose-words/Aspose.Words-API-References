@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.revisionNumber property
 linktitle: revisionNumber property
 articleTitle: revisionNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.revisionNumber property. Gets or sets the document revision number."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/revisionNumber/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/revisionNumber/
 ---
 
 ## BuiltInDocumentProperties.revisionNumber property

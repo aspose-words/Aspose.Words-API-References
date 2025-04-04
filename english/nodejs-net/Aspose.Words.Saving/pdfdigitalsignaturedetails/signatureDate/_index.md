@@ -2,11 +2,11 @@
 title: PdfDigitalSignatureDetails.signatureDate property
 linktitle: signatureDate property
 articleTitle: signatureDate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfDigitalSignatureDetails.signatureDate property. Gets or sets the date of the signing."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/signatureDate/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/signatureDate/
 ---
 
 ## PdfDigitalSignatureDetails.signatureDate property

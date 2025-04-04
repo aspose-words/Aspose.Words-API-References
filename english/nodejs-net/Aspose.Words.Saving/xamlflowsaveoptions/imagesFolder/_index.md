@@ -2,11 +2,11 @@
 title: XamlFlowSaveOptions.imagesFolder property
 linktitle: imagesFolder property
 articleTitle: imagesFolder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XamlFlowSaveOptions.imagesFolder property. Specifies the physical folder where images are saved when exporting a document to XAML format"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/xamlflowsaveoptions/imagesFolder/
+url: /nodejs-net/aspose.words.saving/xamlflowsaveoptions/imagesFolder/
 ---
 
 ## XamlFlowSaveOptions.imagesFolder property
@@ -21,7 +21,7 @@ get imagesFolder(): string
 
 ### Remarks
 
-When you save a [Document](../../../Aspose.Words/document/) in XAML format, Aspose.Words needs to save all 
+When you save a [Document](../../../aspose.words/document/) in XAML format, Aspose.Words needs to save all 
 images embedded in the document as standalone files. [XamlFlowSaveOptions.imagesFolder](./) 
 allows you to specify where the images will be saved and [XamlFlowSaveOptions.imagesFolderAlias](../imagesFolderAlias/) 
 allows to specify how the image URIs will be constructed.

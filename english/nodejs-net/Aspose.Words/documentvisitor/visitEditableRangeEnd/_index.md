@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitEditableRangeEnd method
 linktitle: visitEditableRangeEnd method
 articleTitle: visitEditableRangeEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitEditableRangeEnd method. Called when an end of an editable range is encountered in the document."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/documentvisitor/visitEditableRangeEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitEditableRangeEnd/
 ---
 
 ## visitEditableRangeEnd(editableRangeEnd) {#editablerangeend}

@@ -2,17 +2,17 @@
 title: ImageSaveOptions.tiffBinarizationMethod property
 linktitle: tiffBinarizationMethod property
 articleTitle: tiffBinarizationMethod property
-second_title: Aspose.Words for NodeJs
-description: "ImageSaveOptions.tiffBinarizationMethod property. Gets or sets method used while converting images to 1 bpp format when [ImageSaveOptions.saveFormat](../saveFormat/) is [SaveFormat.Tiff](../../../Aspose.Words/saveformat/#Tiff) and [ImageSaveOptions.tiffCompression](../tiffCompression/) is equal to [TiffCompression.Ccitt3](../../tiffcompression/#Ccitt3) or [TiffCompression.Ccitt4](../../tiffcompression/#Ccitt4)."
+second_title: Aspose.Words for Node.js
+description: "ImageSaveOptions.tiffBinarizationMethod property. Gets or sets method used while converting images to 1 bpp format when [ImageSaveOptions.saveFormat](../saveFormat/) is [SaveFormat.Tiff](../../../aspose.words/saveformat/#Tiff) and [ImageSaveOptions.tiffCompression](../tiffCompression/) is equal to [TiffCompression.Ccitt3](../../tiffcompression/#Ccitt3) or [TiffCompression.Ccitt4](../../tiffcompression/#Ccitt4)."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/tiffBinarizationMethod/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/tiffBinarizationMethod/
 ---
 
 ## ImageSaveOptions.tiffBinarizationMethod property
 
 Gets or sets method used while converting images to 1 bpp format
-when [ImageSaveOptions.saveFormat](../saveFormat/) is [SaveFormat.Tiff](../../../Aspose.Words/saveformat/#Tiff) and
+when [ImageSaveOptions.saveFormat](../saveFormat/) is [SaveFormat.Tiff](../../../aspose.words/saveformat/#Tiff) and
 [ImageSaveOptions.tiffCompression](../tiffCompression/) is equal to [TiffCompression.Ccitt3](../../tiffcompression/#Ccitt3) or [TiffCompression.Ccitt4](../../tiffcompression/#Ccitt4).
 
 

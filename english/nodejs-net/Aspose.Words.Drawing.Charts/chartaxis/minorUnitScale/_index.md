@@ -2,11 +2,11 @@
 title: ChartAxis.minorUnitScale property
 linktitle: minorUnitScale property
 articleTitle: minorUnitScale property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.minorUnitScale property. Returns or sets the scale value for minor tick marks on the time category axis."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/minorUnitScale/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/minorUnitScale/
 ---
 
 ## ChartAxis.minorUnitScale property

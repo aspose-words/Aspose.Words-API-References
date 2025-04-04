@@ -2,11 +2,11 @@
 title: NodeCollection.toArray method
 linktitle: toArray method
 articleTitle: toArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeCollection.toArray method. Copies all nodes from the collection to a new array of nodes."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/nodecollection/toArray/
+url: /nodejs-net/aspose.words/nodecollection/toArray/
 ---
 
 ## toArray() {#default}

@@ -2,11 +2,11 @@
 title: TabStopCollection.removeByPosition method
 linktitle: removeByPosition method
 articleTitle: removeByPosition method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStopCollection.removeByPosition method. Removes a tab stop at the specified position from the collection."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/tabstopcollection/removeByPosition/
+url: /nodejs-net/aspose.words/tabstopcollection/removeByPosition/
 ---
 
 ## removeByPosition(position) {#number}

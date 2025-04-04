@@ -5,7 +5,7 @@ articleTitle: SplitOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.LowCode.SplitOptions for seamless document splitting. Customize how your files are divided into parts for enhanced efficiency.
 type: docs
-weight: 4290
+weight: 4400
 url: /net/aspose.words.lowcode/splitoptions/
 ---
 ## SplitOptions class

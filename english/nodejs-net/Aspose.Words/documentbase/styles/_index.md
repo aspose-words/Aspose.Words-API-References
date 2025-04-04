@@ -2,11 +2,11 @@
 title: DocumentBase.styles property
 linktitle: styles property
 articleTitle: styles property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBase.styles property. Returns a collection of styles defined in the document."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/documentbase/styles/
+url: /nodejs-net/aspose.words/documentbase/styles/
 ---
 
 ## DocumentBase.styles property

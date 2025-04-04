@@ -2,17 +2,17 @@
 title: HtmlSaveOptions.exportPageMargins property
 linktitle: exportPageMargins property
 articleTitle: exportPageMargins property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportPageMargins property. Specifies whether page margins is exported to HTML, MHTML or EPUB"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportPageMargins/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportPageMargins/
 ---
 
 ## HtmlSaveOptions.exportPageMargins property
 
 Specifies whether page margins is exported to HTML, MHTML or EPUB.
-Default is ``False``.
+Default is ``false``.
 
 
 

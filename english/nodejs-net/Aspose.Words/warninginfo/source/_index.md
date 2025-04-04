@@ -2,11 +2,11 @@
 title: WarningInfo.source property
 linktitle: source property
 articleTitle: source property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WarningInfo.source property. Returns the source of the warning."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/warninginfo/source/
+url: /nodejs-net/aspose.words/warninginfo/source/
 ---
 
 ## WarningInfo.source property

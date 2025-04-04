@@ -2,11 +2,11 @@
 title: ChartSeriesCollection.removeAt method
 linktitle: removeAt method
 articleTitle: removeAt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesCollection.removeAt method. Removes a [ChartSeries](../../chartseries/) at the specified index."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriescollection/removeAt/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriescollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertDocument method
 linktitle: insertDocument method
 articleTitle: insertDocument method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertDocument method"
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words/documentbuilder/insertDocument/
+url: /nodejs-net/aspose.words/documentbuilder/insertDocument/
 ---
 
 ## insertDocument(srcDoc, importFormatMode) {#document_importformatmode}
@@ -15,7 +15,7 @@ Inserts a document at the cursor position.
 
 
 ```js
-insertDocument(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatMode)
+insertDocument(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode)
 ```
 
 | Parameter | Type | Description |
@@ -41,7 +41,7 @@ Inserts a document at the cursor position.
 
 
 ```js
-insertDocument(srcDoc: Aspose.Words.DocumentimportFormatMode: Aspose.Words.ImportFormatModeimportFormatOptions: Aspose.Words.ImportFormatOptions)
+insertDocument(srcDoc: Aspose.Words.Document, importFormatMode: Aspose.Words.ImportFormatMode, importFormatOptions: Aspose.Words.ImportFormatOptions)
 ```
 
 | Parameter | Type | Description |

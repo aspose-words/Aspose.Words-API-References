@@ -2,16 +2,16 @@
 title: PageInfo.colored property
 linktitle: colored property
 articleTitle: colored property
-second_title: Aspose.Words for NodeJs
-description: "PageInfo.colored property. Returns ``True`` if the page contains colored content."
+second_title: Aspose.Words for Node.js
+description: "PageInfo.colored property. Returns ``true`` if the page contains colored content."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Rendering/pageinfo/colored/
+url: /nodejs-net/aspose.words.rendering/pageinfo/colored/
 ---
 
 ## PageInfo.colored property
 
-Returns ``True`` if the page contains colored content.
+Returns ``true`` if the page contains colored content.
 
 
 

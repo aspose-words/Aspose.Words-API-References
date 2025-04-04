@@ -2,11 +2,11 @@
 title: AxisTickLabels.isAutoSpacing property
 linktitle: isAutoSpacing property
 articleTitle: isAutoSpacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisTickLabels.isAutoSpacing property. Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisticklabels/isAutoSpacing/
+url: /nodejs-net/aspose.words.drawing.charts/axisticklabels/isAutoSpacing/
 ---
 
 ## AxisTickLabels.isAutoSpacing property
@@ -20,7 +20,7 @@ get isAutoSpacing(): boolean
 
 ### Remarks
 
-The default value is ``True``.
+The default value is ``true``.
 
 The property has effect for text category and series axes. It is not supported by MS Office 2016
 new charts.

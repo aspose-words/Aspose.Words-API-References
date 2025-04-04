@@ -2,11 +2,11 @@
 title: PageSetup.bidi property
 linktitle: bidi property
 articleTitle: bidi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.bidi property. Specifies that this section contains bidirectional (complex scripts) text."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/pagesetup/bidi/
+url: /nodejs-net/aspose.words/pagesetup/bidi/
 ---
 
 ## PageSetup.bidi property
@@ -20,7 +20,7 @@ get bidi(): boolean
 
 ### Remarks
 
-When ``True``, the columns in this section are laid out from right to left.
+When ``true``, the columns in this section are laid out from right to left.
 
 
 

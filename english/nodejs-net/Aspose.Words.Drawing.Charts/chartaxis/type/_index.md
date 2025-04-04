@@ -2,11 +2,11 @@
 title: ChartAxis.type property
 linktitle: type property
 articleTitle: type property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.type property. Returns type of the axis."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/type/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/type/
 ---
 
 ## ChartAxis.type property

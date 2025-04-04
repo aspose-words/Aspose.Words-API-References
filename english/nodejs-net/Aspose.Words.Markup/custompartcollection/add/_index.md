@@ -2,11 +2,11 @@
 title: CustomPartCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomPartCollection.add method. Adds an item to the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/custompartcollection/add/
+url: /nodejs-net/aspose.words.markup/custompartcollection/add/
 ---
 
 ## add(part) {#custompart}

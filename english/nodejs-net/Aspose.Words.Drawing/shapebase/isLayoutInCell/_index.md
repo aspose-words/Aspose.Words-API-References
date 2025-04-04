@@ -2,11 +2,11 @@
 title: ShapeBase.isLayoutInCell property
 linktitle: isLayoutInCell property
 articleTitle: isLayoutInCell property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.isLayoutInCell property. Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/isLayoutInCell/
+url: /nodejs-net/aspose.words.drawing/shapebase/isLayoutInCell/
 ---
 
 ## ShapeBase.isLayoutInCell property
@@ -20,10 +20,10 @@ get isLayoutInCell(): boolean
 
 ### Remarks
 
-The default value is ``True``.
+The default value is ``true``.
 
 Has effect only for top level shapes, the property [ShapeBase.wrapType](../wrapType/) of which is set to value
-other than [Inline](../../../Aspose.Words/inline/).
+other than [Inline](../../../aspose.words/inline/).
 
 
 

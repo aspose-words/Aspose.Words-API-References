@@ -2,11 +2,11 @@
 title: FileFormatUtil.loadFormatToExtension method
 linktitle: loadFormatToExtension method
 articleTitle: loadFormatToExtension method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FileFormatUtil.loadFormatToExtension method. Converts a load format enumerated value into a file extension"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/fileformatutil/loadFormatToExtension/
+url: /nodejs-net/aspose.words/fileformatutil/loadFormatToExtension/
 ---
 
 ## loadFormatToExtension(loadFormat) {#loadformat}

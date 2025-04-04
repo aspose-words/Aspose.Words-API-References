@@ -2,11 +2,11 @@
 title: BookmarksOutlineLevelCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarksOutlineLevelCollection.add method. Adds a bookmark to the collection."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/bookmarksoutlinelevelcollection/add/
+url: /nodejs-net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
 ---
 
 ## add(name, outlineLevel) {#string_number}
@@ -15,7 +15,7 @@ Adds a bookmark to the collection.
 
 
 ```js
-add(name: stringoutlineLevel: number)
+add(name: string, outlineLevel: number)
 ```
 
 | Parameter | Type | Description |

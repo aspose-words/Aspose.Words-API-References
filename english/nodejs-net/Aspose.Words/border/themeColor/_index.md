@@ -2,11 +2,11 @@
 title: Border.themeColor property
 linktitle: themeColor property
 articleTitle: themeColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Border.themeColor property. Gets or sets the theme color in the applied color scheme that is associated with this Border object."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/border/themeColor/
+url: /nodejs-net/aspose.words/border/themeColor/
 ---
 
 ## Border.themeColor property

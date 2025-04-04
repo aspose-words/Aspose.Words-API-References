@@ -2,11 +2,11 @@
 title: DropDownItemCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DropDownItemCollection.add method. Adds a string to the end of the collection."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/add/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/add/
 ---
 
 ## add(value) {#string}

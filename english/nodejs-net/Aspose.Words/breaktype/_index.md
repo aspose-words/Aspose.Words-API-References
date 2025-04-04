@@ -2,11 +2,11 @@
 title: BreakType enumeration
 linktitle: BreakType enumeration
 articleTitle: BreakType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BreakType enumeration. Specifies type of a break inside a document."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/breaktype/
+url: /nodejs-net/aspose.words/breaktype/
 ---
 
 ## BreakType enumeration

@@ -2,11 +2,11 @@
 title: FrameFormat.verticalAlignment property
 linktitle: verticalAlignment property
 articleTitle: verticalAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FrameFormat.verticalAlignment property. Gets vertical alignment of the specified frame."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/frameformat/verticalAlignment/
+url: /nodejs-net/aspose.words/frameformat/verticalAlignment/
 ---
 
 ## FrameFormat.verticalAlignment property

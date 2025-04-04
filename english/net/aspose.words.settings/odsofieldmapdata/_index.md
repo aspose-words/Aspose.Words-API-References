@@ -5,7 +5,7 @@ articleTitle: OdsoFieldMapData
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.OdsoFieldMapData class for seamless mapping of external data columns to predefined document merge fields, enhancing your document automation.
 type: docs
-weight: 6580
+weight: 6710
 url: /net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class

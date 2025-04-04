@@ -2,11 +2,11 @@
 title: PageSetup.topMargin property
 linktitle: topMargin property
 articleTitle: topMargin property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.topMargin property. Returns or sets the distance (in points) between the top edge of the page and the top boundary of the body text."
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words/pagesetup/topMargin/
+url: /nodejs-net/aspose.words/pagesetup/topMargin/
 ---
 
 ## PageSetup.topMargin property

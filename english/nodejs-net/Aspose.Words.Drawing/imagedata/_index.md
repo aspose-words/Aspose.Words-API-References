@@ -2,11 +2,11 @@
 title: ImageData class
 linktitle: ImageData class
 articleTitle: ImageData class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ImageData class. Defines an image for a shape"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/
+url: /nodejs-net/aspose.words.drawing/imagedata/
 ---
 
 ## ImageData class
@@ -47,12 +47,12 @@ To store an image inside a shape use the [ImageData.setImage()](./setImage/#stri
 | [cropRight](./cropRight/) | Defines the fraction of picture removal from the right side. |
 | [cropTop](./cropTop/) | Defines the fraction of picture removal from the top side. |
 | [grayScale](./grayScale/) | Determines whether a picture will display in grayscale mode. |
-| [hasImage](./hasImage/) | Returns ``True`` if the shape has image bytes or links an image. |
+| [hasImage](./hasImage/) | Returns ``true`` if the shape has image bytes or links an image. |
 | [imageBytes](./imageBytes/) | Gets or sets the raw bytes of the image stored in the shape. |
 | [imageSize](./imageSize/) | Gets the information about image size and resolution. |
 | [imageType](./imageType/) | Gets the type of the image. |
-| [isLink](./isLink/) | Returns ``True`` if the image is linked to the shape (when [ImageData.sourceFullName](./sourceFullName/) is specified). |
-| [isLinkOnly](./isLinkOnly/) | Returns ``True`` if the image is linked and not stored in the document. |
+| [isLink](./isLink/) | Returns ``true`` if the image is linked to the shape (when [ImageData.sourceFullName](./sourceFullName/) is specified). |
+| [isLinkOnly](./isLinkOnly/) | Returns ``true`` if the image is linked and not stored in the document. |
 | [sourceFullName](./sourceFullName/) | Gets or sets the path and name of the source file for the linked image. |
 | [title](./title/) | Defines the title of an image. |
 

@@ -2,11 +2,11 @@
 title: HyphenationOptions.hyphenationZone property
 linktitle: hyphenationZone property
 articleTitle: hyphenationZone property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HyphenationOptions.hyphenationZone property. Gets or sets the distance in 1/20 of a point from the right margin within which you do not want to hyphenate words"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Settings/hyphenationoptions/hyphenationZone/
+url: /nodejs-net/aspose.words.settings/hyphenationoptions/hyphenationZone/
 ---
 
 ## HyphenationOptions.hyphenationZone property

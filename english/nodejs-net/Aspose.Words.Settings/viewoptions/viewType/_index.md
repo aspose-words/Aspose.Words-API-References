@@ -2,11 +2,11 @@
 title: ViewOptions.viewType property
 linktitle: viewType property
 articleTitle: viewType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ViewOptions.viewType property. Controls the view mode in Microsoft Word."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Settings/viewoptions/viewType/
+url: /nodejs-net/aspose.words.settings/viewoptions/viewType/
 ---
 
 ## ViewOptions.viewType property

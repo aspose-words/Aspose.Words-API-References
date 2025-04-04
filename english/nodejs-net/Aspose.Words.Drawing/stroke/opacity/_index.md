@@ -2,11 +2,11 @@
 title: Stroke.opacity property
 linktitle: opacity property
 articleTitle: opacity property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.opacity property. Defines the amount of transparency of a stroke"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Drawing/stroke/opacity/
+url: /nodejs-net/aspose.words.drawing/stroke/opacity/
 ---
 
 ## Stroke.opacity property

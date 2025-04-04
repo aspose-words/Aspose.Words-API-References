@@ -2,11 +2,11 @@
 title: DefaultFontSubstitutionRule class
 linktitle: DefaultFontSubstitutionRule class
 articleTitle: DefaultFontSubstitutionRule class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.DefaultFontSubstitutionRule class. Default font substitution rule"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/defaultfontsubstitutionrule/
+url: /nodejs-net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 
 ## DefaultFontSubstitutionRule class

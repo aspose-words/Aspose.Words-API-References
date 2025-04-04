@@ -2,11 +2,11 @@
 title: PhysicalFontInfo.version property
 linktitle: version property
 articleTitle: version property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PhysicalFontInfo.version property. Version string of the font."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fonts/physicalfontinfo/version/
+url: /nodejs-net/aspose.words.fonts/physicalfontinfo/version/
 ---
 
 ## PhysicalFontInfo.version property

@@ -2,11 +2,11 @@
 title: Document.customDocumentProperties property
 linktitle: customDocumentProperties property
 articleTitle: customDocumentProperties property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.customDocumentProperties property. Returns a collection that represents all the custom document properties of the document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/document/customDocumentProperties/
+url: /nodejs-net/aspose.words/document/customDocumentProperties/
 ---
 
 ## Document.customDocumentProperties property

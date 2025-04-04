@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitSmartTagStart method
 linktitle: visitSmartTagStart method
 articleTitle: visitSmartTagStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitSmartTagStart method. Called when enumeration of a smart tag has started."
 type: docs
 weight: 420
-url: /nodejs-net/Aspose.Words/documentvisitor/visitSmartTagStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitSmartTagStart/
 ---
 
 ## visitSmartTagStart(smartTag) {#smarttag}
@@ -20,7 +20,7 @@ visitSmartTagStart(smartTag: Aspose.Words.Markup.SmartTag)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| smartTag | [SmartTag](../../../Aspose.Words.Markup/smarttag/) | The object that is being visited. |
+| smartTag | [SmartTag](../../../aspose.words.markup/smarttag/) | The object that is being visited. |
 
 ### Returns
 

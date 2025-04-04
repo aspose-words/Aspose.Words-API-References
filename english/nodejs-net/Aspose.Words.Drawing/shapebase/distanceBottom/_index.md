@@ -2,11 +2,11 @@
 title: ShapeBase.distanceBottom property
 linktitle: distanceBottom property
 articleTitle: distanceBottom property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.distanceBottom property. Returns or sets the distance (in points) between the document text and the bottom edge of the shape."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/distanceBottom/
+url: /nodejs-net/aspose.words.drawing/shapebase/distanceBottom/
 ---
 
 ## ShapeBase.distanceBottom property

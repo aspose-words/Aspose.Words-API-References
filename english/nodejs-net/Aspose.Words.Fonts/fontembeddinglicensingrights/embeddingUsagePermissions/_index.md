@@ -2,11 +2,11 @@
 title: FontEmbeddingLicensingRights.embeddingUsagePermissions property
 linktitle: embeddingUsagePermissions property
 articleTitle: embeddingUsagePermissions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontEmbeddingLicensingRights.embeddingUsagePermissions property. Usage permissions."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/fontembeddinglicensingrights/embeddingUsagePermissions/
+url: /nodejs-net/aspose.words.fonts/fontembeddinglicensingrights/embeddingUsagePermissions/
 ---
 
 ## FontEmbeddingLicensingRights.embeddingUsagePermissions property

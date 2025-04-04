@@ -2,11 +2,11 @@
 title: Table.setBorder method
 linktitle: setBorder method
 articleTitle: setBorder method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.setBorder method. Sets the specified table border to the specified line style, width and color."
 type: docs
 weight: 430
-url: /nodejs-net/Aspose.Words/table/setBorder/
+url: /nodejs-net/aspose.words/table/setBorder/
 ---
 
 ## setBorder(borderType, lineStyle, lineWidth, color, isOverrideCellBorders) {#bordertype_linestyle_number_string_boolean}
@@ -15,7 +15,7 @@ Sets the specified table border to the specified line style, width and color.
 
 
 ```js
-setBorder(borderType: Aspose.Words.BorderTypelineStyle: Aspose.Words.LineStylelineWidth: numbercolor: stringisOverrideCellBorders: boolean)
+setBorder(borderType: Aspose.Words.BorderType, lineStyle: Aspose.Words.LineStyle, lineWidth: number, color: string, isOverrideCellBorders: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -24,7 +24,7 @@ setBorder(borderType: Aspose.Words.BorderTypelineStyle: Aspose.Words.LineStyleli
 | lineStyle | [LineStyle](../../linestyle/) | The line style to apply. |
 | lineWidth | number | The line width to set (in points). |
 | color | string | The color to use for the border. |
-| isOverrideCellBorders | boolean | When ``True``, causes all existing explicit cell borders to be removed. |
+| isOverrideCellBorders | boolean | When ``true``, causes all existing explicit cell borders to be removed. |
 
 ### Examples
 

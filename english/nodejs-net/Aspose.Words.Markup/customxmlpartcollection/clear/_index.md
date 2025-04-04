@@ -2,11 +2,11 @@
 title: CustomXmlPartCollection.clear method
 linktitle: clear method
 articleTitle: clear method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlPartCollection.clear method. Removes all elements from the collection."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Markup/customxmlpartcollection/clear/
+url: /nodejs-net/aspose.words.markup/customxmlpartcollection/clear/
 ---
 
 ## clear() {#default}

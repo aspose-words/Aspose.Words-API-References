@@ -2,11 +2,11 @@
 title: ImageColorMode enumeration
 linktitle: ImageColorMode enumeration
 articleTitle: ImageColorMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ImageColorMode enumeration. Specifies the color mode for the generated images of document pages."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words.Saving/imagecolormode/
+url: /nodejs-net/aspose.words.saving/imagecolormode/
 ---
 
 ## ImageColorMode enumeration

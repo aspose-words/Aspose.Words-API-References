@@ -2,16 +2,16 @@
 title: PageInfo.landscape property
 linktitle: landscape property
 articleTitle: landscape property
-second_title: Aspose.Words for NodeJs
-description: "PageInfo.landscape property. Returns ``True`` if the page orientation specified in the document for this page is landscape."
+second_title: Aspose.Words for Node.js
+description: "PageInfo.landscape property. Returns ``true`` if the page orientation specified in the document for this page is landscape."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Rendering/pageinfo/landscape/
+url: /nodejs-net/aspose.words.rendering/pageinfo/landscape/
 ---
 
 ## PageInfo.landscape property
 
-Returns ``True`` if the page orientation specified in the document for this page is landscape.
+Returns ``true`` if the page orientation specified in the document for this page is landscape.
 
 
 

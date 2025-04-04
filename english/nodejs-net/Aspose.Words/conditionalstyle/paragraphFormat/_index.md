@@ -2,11 +2,11 @@
 title: ConditionalStyle.paragraphFormat property
 linktitle: paragraphFormat property
 articleTitle: paragraphFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.paragraphFormat property. Gets the paragraph formatting of the conditional style."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/conditionalstyle/paragraphFormat/
+url: /nodejs-net/aspose.words/conditionalstyle/paragraphFormat/
 ---
 
 ## ConditionalStyle.paragraphFormat property

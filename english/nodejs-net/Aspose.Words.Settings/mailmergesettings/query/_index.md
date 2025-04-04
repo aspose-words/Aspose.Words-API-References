@@ -2,11 +2,11 @@
 title: MailMergeSettings.query property
 linktitle: query property
 articleTitle: query property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings.query property. Contains the Structured Query Language string that shall be run against the specified external data source to  return the set of records which shall be imported into the document when the mail merge operation is performed"
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Settings/mailmergesettings/query/
+url: /nodejs-net/aspose.words.settings/mailmergesettings/query/
 ---
 
 ## MailMergeSettings.query property

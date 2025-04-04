@@ -2,11 +2,11 @@
 title: FixedPageSaveOptions.pageSet property
 linktitle: pageSet property
 articleTitle: pageSet property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FixedPageSaveOptions.pageSet property. Gets or sets the pages to render"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/fixedpagesaveoptions/pageSet/
+url: /nodejs-net/aspose.words.saving/fixedpagesaveoptions/pageSet/
 ---
 
 ## FixedPageSaveOptions.pageSet property

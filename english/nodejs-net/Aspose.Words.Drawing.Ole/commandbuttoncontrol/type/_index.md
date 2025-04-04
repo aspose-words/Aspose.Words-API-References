@@ -2,11 +2,11 @@
 title: CommandButtonControl.type property
 linktitle: type property
 articleTitle: type property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CommandButtonControl.type property. Gets type of Forms 2.0 control."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Ole/commandbuttoncontrol/type/
+url: /nodejs-net/aspose.words.drawing.ole/commandbuttoncontrol/type/
 ---
 
 ## CommandButtonControl.type property

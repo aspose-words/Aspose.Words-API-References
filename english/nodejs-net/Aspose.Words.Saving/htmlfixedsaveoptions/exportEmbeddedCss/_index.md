@@ -2,11 +2,11 @@
 title: HtmlFixedSaveOptions.exportEmbeddedCss property
 linktitle: exportEmbeddedCss property
 articleTitle: exportEmbeddedCss property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.exportEmbeddedCss property. Specifies whether the CSS (Cascading Style Sheet) should be embedded into Html document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedsaveoptions/exportEmbeddedCss/
+url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/exportEmbeddedCss/
 ---
 
 ## HtmlFixedSaveOptions.exportEmbeddedCss property

@@ -2,11 +2,11 @@
 title: Document.vbaProject property
 linktitle: vbaProject property
 articleTitle: vbaProject property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.vbaProject property. Gets or sets a [Document.vbaProject](./)."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/document/vbaProject/
+url: /nodejs-net/aspose.words/document/vbaProject/
 ---
 
 ## Document.vbaProject property

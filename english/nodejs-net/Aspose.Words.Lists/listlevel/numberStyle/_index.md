@@ -2,11 +2,11 @@
 title: ListLevel.numberStyle property
 linktitle: numberStyle property
 articleTitle: numberStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.numberStyle property. Returns or sets the number style for this list level."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Lists/listlevel/numberStyle/
+url: /nodejs-net/aspose.words.lists/listlevel/numberStyle/
 ---
 
 ## ListLevel.numberStyle property

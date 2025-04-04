@@ -2,11 +2,11 @@
 title: Range.replace method
 linktitle: replace method
 articleTitle: replace method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Range.replace method"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/range/replace/
+url: /nodejs-net/aspose.words/range/replace/
 ---
 
 ## replace(pattern, replacement) {#string_string}
@@ -15,7 +15,7 @@ Replaces all occurrences of a specified character string pattern with a replacem
 
 
 ```js
-replace(pattern: stringreplacement: string)
+replace(pattern: string, replacement: string)
 ```
 
 | Parameter | Type | Description |
@@ -58,14 +58,14 @@ Replaces all occurrences of a specified character string pattern with a replacem
 
 
 ```js
-replace(pattern: stringreplacement: stringoptions: Aspose.Words.Replacing.FindReplaceOptions)
+replace(pattern: string, replacement: string, options: Aspose.Words.Replacing.FindReplaceOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pattern | string | A string to be replaced. |
 | replacement | string | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../../Aspose.Words.Replacing/findreplaceoptions/) | [FindReplaceOptions](../../../Aspose.Words.Replacing/findreplaceoptions/) object to specify additional options. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
 
 ### Remarks
 
@@ -147,38 +147,6 @@ expect(doc.getText().trim()).toEqual("Every paragraph that ends with a full stop
                         "This one also will!");
 ```
 
-Shows how to replace all instances of String of text in a table and cell.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-let table = builder.startTable();
-builder.insertCell();
-builder.write("Carrots");
-builder.insertCell();
-builder.write("50");
-builder.endRow();
-builder.insertCell();
-builder.write("Potatoes");
-builder.insertCell();
-builder.write("50");
-builder.endTable();
-
-let options = new aw.Replacing.FindReplaceOptions();
-options.matchCase = true;
-options.findWholeWordsOnly = true;
-
-// Perform a find-and-replace operation on an entire table.
-table.range.replace("Carrots", "Eggs", options);
-
-// Perform a find-and-replace operation on the last cell of the last row of the table.
-table.lastRow.lastCell.range.replace("50", "20", options);
-
-expect(table.getText().trim()).toEqual("Eggs\u000750\u0007\u0007" +
-                        "Potatoes\u000720\u0007\u0007");
-```
-
 Shows how to toggle case sensitivity when performing a find-and-replace operation.
 
 ```js
@@ -236,6 +204,38 @@ let currentYear = new Date().getYear();
 footer.range.replace("(C) 2006 Aspose Pty Ltd.", `Copyright (C) ${currentYear} by Aspose Pty Ltd.`, options);
 
 doc.save(base.artifactsDir + "HeaderFooter.ReplaceText.docx");
+```
+
+Shows how to replace all instances of String of text in a table and cell.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let table = builder.startTable();
+builder.insertCell();
+builder.write("Carrots");
+builder.insertCell();
+builder.write("50");
+builder.endRow();
+builder.insertCell();
+builder.write("Potatoes");
+builder.insertCell();
+builder.write("50");
+builder.endTable();
+
+let options = new aw.Replacing.FindReplaceOptions();
+options.matchCase = true;
+options.findWholeWordsOnly = true;
+
+// Perform a find-and-replace operation on an entire table.
+table.range.replace("Carrots", "Eggs", options);
+
+// Perform a find-and-replace operation on the last cell of the last row of the table.
+table.lastRow.lastCell.range.replace("50", "20", options);
+
+expect(table.getText().trim()).toEqual("Eggs\u000750\u0007\u0007" +
+                        "Potatoes\u000720\u0007\u0007");
 ```
 
 ## See Also

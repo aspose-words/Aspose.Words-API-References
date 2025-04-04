@@ -2,11 +2,11 @@
 title: PhysicalFontInfo.embeddingLicensingRights property
 linktitle: embeddingLicensingRights property
 articleTitle: embeddingLicensingRights property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PhysicalFontInfo.embeddingLicensingRights property. Embedding licensing rights for the font."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/physicalfontinfo/embeddingLicensingRights/
+url: /nodejs-net/aspose.words.fonts/physicalfontinfo/embeddingLicensingRights/
 ---
 
 ## PhysicalFontInfo.embeddingLicensingRights property

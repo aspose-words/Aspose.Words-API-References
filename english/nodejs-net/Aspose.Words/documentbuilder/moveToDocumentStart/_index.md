@@ -2,11 +2,11 @@
 title: DocumentBuilder.moveToDocumentStart method
 linktitle: moveToDocumentStart method
 articleTitle: moveToDocumentStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.moveToDocumentStart method. Moves the cursor to the beginning of the document."
 type: docs
 weight: 560
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToDocumentStart/
+url: /nodejs-net/aspose.words/documentbuilder/moveToDocumentStart/
 ---
 
 ## moveToDocumentStart() {#default}

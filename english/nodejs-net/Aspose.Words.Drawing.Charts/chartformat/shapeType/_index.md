@@ -2,11 +2,11 @@
 title: ChartFormat.shapeType property
 linktitle: shapeType property
 articleTitle: shapeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartFormat.shapeType property. Gets or sets the shape type of the parent chart element."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartformat/shapeType/
+url: /nodejs-net/aspose.words.drawing.charts/chartformat/shapeType/
 ---
 
 ## ChartFormat.shapeType property

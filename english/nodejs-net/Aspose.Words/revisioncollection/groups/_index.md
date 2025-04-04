@@ -2,11 +2,11 @@
 title: RevisionCollection.groups property
 linktitle: groups property
 articleTitle: groups property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionCollection.groups property. Collection of revision groups."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/revisioncollection/groups/
+url: /nodejs-net/aspose.words/revisioncollection/groups/
 ---
 
 ## RevisionCollection.groups property

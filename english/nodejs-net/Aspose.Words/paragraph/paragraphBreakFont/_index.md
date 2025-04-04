@@ -2,11 +2,11 @@
 title: Paragraph.paragraphBreakFont property
 linktitle: paragraphBreakFont property
 articleTitle: paragraphBreakFont property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.paragraphBreakFont property. Provides access to the font formatting of the paragraph break character."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words/paragraph/paragraphBreakFont/
+url: /nodejs-net/aspose.words/paragraph/paragraphBreakFont/
 ---
 
 ## Paragraph.paragraphBreakFont property

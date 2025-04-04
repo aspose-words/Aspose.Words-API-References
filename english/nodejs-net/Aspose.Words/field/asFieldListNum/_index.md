@@ -2,11 +2,11 @@
 title: Field.asFieldListNum method
 linktitle: asFieldListNum method
 articleTitle: asFieldListNum method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldListNum method. "
 type: docs
 weight: 620
-url: /nodejs-net/Aspose.Words/field/asFieldListNum/
+url: /nodejs-net/aspose.words/field/asFieldListNum/
 ---
 
 ## asFieldListNum() {#default}

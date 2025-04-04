@@ -2,11 +2,11 @@
 title: CompatibilityOptions class
 linktitle: CompatibilityOptions class
 articleTitle: CompatibilityOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.CompatibilityOptions class. Contains compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Microsoft Word)"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/
 ---
 
 ## CompatibilityOptions class
@@ -78,7 +78,7 @@ To learn more, visit the [Detect File Format and Check Format Compatibility](htt
 | [swapInsideAndOutsideForMirrorIndentsAndRelativePositioning](./swapInsideAndOutsideForMirrorIndentsAndRelativePositioning/) | Specifies to swap inside and outside for mirror indents and relative positioning. |
 | [transparentMetafiles](./transparentMetafiles/) | Specifies not to blank the area behind metafile pictures. |
 | [truncateFontHeightsLikeWP6](./truncateFontHeightsLikeWP6/) | Emulate WordPerfect 6.x Font Height Calculation. |
-| [uicompat97To2003](./uicompat97To2003/) | True to disable UI functionality which is not compatible with Word97-2003. Default value is ``False``. |
+| [uicompat97To2003](./uicompat97To2003/) | True to disable UI functionality which is not compatible with Word97-2003. Default value is ``false``. |
 | [ulTrailSpace](./ulTrailSpace/) | Underline All Trailing Spaces. |
 | [underlineTabInNumList](./underlineTabInNumList/) | Underline Following Character Following Numbering. |
 | [useAltKinsokuLineBreakRules](./useAltKinsokuLineBreakRules/) | Use Alternate Set of East Asian Line Breaking Rules. |
@@ -255,6 +255,6 @@ function addOptionName(option, optionName, enabledOptions, disabledOptions)
 ### See Also
 
 * module [Aspose.Words.Settings](../)
-* class [Document](../../Aspose.Words/document/)
-* property [Document.compatibilityOptions](../../Aspose.Words/document/compatibilityOptions/)
+* class [Document](../../aspose.words/document/)
+* property [Document.compatibilityOptions](../../aspose.words/document/compatibilityOptions/)
 

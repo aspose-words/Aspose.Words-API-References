@@ -2,17 +2,17 @@
 title: ChartDataLabelCollection.showDataLabelsRange property
 linktitle: showDataLabelsRange property
 articleTitle: showDataLabelsRange property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.showDataLabelsRange property. Allows to specify whether values from data labels range to be displayed in the data labels of the entire series"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/showDataLabelsRange/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showDataLabelsRange/
 ---
 
 ## ChartDataLabelCollection.showDataLabelsRange property
 
 Allows to specify whether values from data labels range to be displayed in the data labels of the entire series.
-Default value is ``False``.
+Default value is ``false``.
 
 
 

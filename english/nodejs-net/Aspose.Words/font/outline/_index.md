@@ -2,11 +2,11 @@
 title: Font.outline property
 linktitle: outline property
 articleTitle: outline property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.outline property. True if the font is formatted as outline."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/font/outline/
+url: /nodejs-net/aspose.words/font/outline/
 ---
 
 ## Font.outline property

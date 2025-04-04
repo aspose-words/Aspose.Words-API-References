@@ -2,11 +2,11 @@
 title: CustomPart.contentType property
 linktitle: contentType property
 articleTitle: contentType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomPart.contentType property. Specifies the content type of this custom part."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Markup/custompart/contentType/
+url: /nodejs-net/aspose.words.markup/custompart/contentType/
 ---
 
 ## CustomPart.contentType property
@@ -20,7 +20,7 @@ get contentType(): string
 
 ### Remarks
 
-This property is applicable only when [CustomPart.isExternal](../isExternal/) is ``False``.
+This property is applicable only when [CustomPart.isExternal](../isExternal/) is ``false``.
 
 The default value is an empty string. A valid value must be a non-empty string.
 

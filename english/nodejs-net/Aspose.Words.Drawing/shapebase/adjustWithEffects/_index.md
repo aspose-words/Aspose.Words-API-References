@@ -2,11 +2,11 @@
 title: ShapeBase.adjustWithEffects method
 linktitle: adjustWithEffects method
 articleTitle: adjustWithEffects method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.adjustWithEffects method. "
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/adjustWithEffects/
+url: /nodejs-net/aspose.words.drawing/shapebase/adjustWithEffects/
 ---
 
 ## adjustWithEffects(source) {#jsrectanglef}
@@ -17,7 +17,7 @@ adjustWithEffects(source: Aspose.Words.JSRectangleF)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| source | [JSRectangleF](../../../Aspose.Words/jsrectanglef/) |  |
+| source | [JSRectangleF](../../../aspose.words/jsrectanglef/) |  |
 
 ### See Also
 

@@ -2,17 +2,17 @@
 title: MarkdownSaveOptions.imagesFolder property
 linktitle: imagesFolder property
 articleTitle: imagesFolder property
-second_title: Aspose.Words for NodeJs
-description: "MarkdownSaveOptions.imagesFolder property. Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.Markdown](../../../Aspose.Words/saveformat/#Markdown) format"
+second_title: Aspose.Words for Node.js
+description: "MarkdownSaveOptions.imagesFolder property. Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/markdownsaveoptions/imagesFolder/
+url: /nodejs-net/aspose.words.saving/markdownsaveoptions/imagesFolder/
 ---
 
 ## MarkdownSaveOptions.imagesFolder property
 
 Specifies the physical folder where images are saved when exporting a document to
-the [SaveFormat.Markdown](../../../Aspose.Words/saveformat/#Markdown) format. Default is an empty string.
+the [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format. Default is an empty string.
 
 
 
@@ -22,7 +22,7 @@ get imagesFolder(): string
 
 ### Remarks
 
-When you save a [Document](../../../Aspose.Words/document/) in [SaveFormat.Markdown](../../../Aspose.Words/saveformat/#Markdown) format,
+When you save a [Document](../../../aspose.words/document/) in [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format,
 Aspose.Words needs to save all images embedded in the document as standalone files.
 [MarkdownSaveOptions.imagesFolder](./) allows you to specify where the images will be saved.
 

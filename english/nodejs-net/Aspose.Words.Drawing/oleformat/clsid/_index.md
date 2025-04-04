@@ -2,11 +2,11 @@
 title: OleFormat.clsid property
 linktitle: clsid property
 articleTitle: clsid property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.clsid property. Gets the CLSID of the OLE object."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/clsid/
+url: /nodejs-net/aspose.words.drawing/oleformat/clsid/
 ---
 
 ## OleFormat.clsid property

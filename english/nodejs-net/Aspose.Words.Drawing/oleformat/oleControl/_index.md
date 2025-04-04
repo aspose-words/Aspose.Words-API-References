@@ -2,11 +2,11 @@
 title: OleFormat.oleControl property
 linktitle: oleControl property
 articleTitle: oleControl property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.oleControl property. Gets [OleFormat.oleControl](./) objects if this OLE object is an ActiveX control"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/oleControl/
+url: /nodejs-net/aspose.words.drawing/oleformat/oleControl/
 ---
 
 ## OleFormat.oleControl property

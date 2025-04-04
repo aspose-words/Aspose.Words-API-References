@@ -2,11 +2,11 @@
 title: PdfSaveOptions.pageLayout property
 linktitle: pageLayout property
 articleTitle: pageLayout property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.pageLayout property. Specifies the page layout to be used when the document is opened in a PDF reader."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/pageLayout/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/pageLayout/
 ---
 
 ## PdfSaveOptions.pageLayout property

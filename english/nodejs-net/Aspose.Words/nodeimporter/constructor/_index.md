@@ -2,11 +2,11 @@
 title: NodeImporter constructor
 linktitle: NodeImporter constructor
 articleTitle: NodeImporter constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.NodeImporter constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/nodeimporter/constructor/
+url: /nodejs-net/aspose.words/nodeimporter/constructor/
 ---
 
 ## NodeImporter(srcDoc, dstDoc, importFormatMode) {#documentbase_documentbase_importformatmode}
@@ -16,7 +16,7 @@ Initializes a new instance of the [NodeImporter](../) class.
 
 
 ```js
-NodeImporter(srcDoc: Aspose.Words.DocumentBasedstDoc: Aspose.Words.DocumentBaseimportFormatMode: Aspose.Words.ImportFormatMode)
+NodeImporter(srcDoc: Aspose.Words.DocumentBase, dstDoc: Aspose.Words.DocumentBase, importFormatMode: Aspose.Words.ImportFormatMode)
 ```
 
 | Parameter | Type | Description |
@@ -32,7 +32,7 @@ Initializes a new instance of the [NodeImporter](../) class.
 
 
 ```js
-NodeImporter(srcDoc: Aspose.Words.DocumentBasedstDoc: Aspose.Words.DocumentBaseimportFormatMode: Aspose.Words.ImportFormatModeimportFormatOptions: Aspose.Words.ImportFormatOptions)
+NodeImporter(srcDoc: Aspose.Words.DocumentBase, dstDoc: Aspose.Words.DocumentBase, importFormatMode: Aspose.Words.ImportFormatMode, importFormatOptions: Aspose.Words.ImportFormatOptions)
 ```
 
 | Parameter | Type | Description |

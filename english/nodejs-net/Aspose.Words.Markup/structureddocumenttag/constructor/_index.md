@@ -2,11 +2,11 @@
 title: StructuredDocumentTag constructor
 linktitle: StructuredDocumentTag constructor
 articleTitle: StructuredDocumentTag constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag constructor. Initializes a new instance of the Structured document tag class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/constructor/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/constructor/
 ---
 
 ## StructuredDocumentTag(doc, type, level) {#documentbase_sdttype_markuplevel}
@@ -16,12 +16,12 @@ Initializes a new instance of the **Structured document tag** class.
 
 
 ```js
-StructuredDocumentTag(doc: Aspose.Words.DocumentBasetype: Aspose.Words.Markup.SdtTypelevel: Aspose.Words.Markup.MarkupLevel)
+StructuredDocumentTag(doc: Aspose.Words.DocumentBase, type: Aspose.Words.Markup.SdtType, level: Aspose.Words.Markup.MarkupLevel)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 | type | [SdtType](../../sdttype/) | Type of SDT node. |
 | level | [MarkupLevel](../../markuplevel/) | Level of SDT node within the document. |
 

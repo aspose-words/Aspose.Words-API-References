@@ -2,11 +2,11 @@
 title: PageSetup.rtlGutter property
 linktitle: rtlGutter property
 articleTitle: rtlGutter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.rtlGutter property. Gets or sets whether Microsoft Word uses gutters for the section based on a right-to-left language or a left-to-right language."
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words/pagesetup/rtlGutter/
+url: /nodejs-net/aspose.words/pagesetup/rtlGutter/
 ---
 
 ## PageSetup.rtlGutter property

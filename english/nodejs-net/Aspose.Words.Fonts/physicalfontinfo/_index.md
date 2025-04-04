@@ -2,11 +2,11 @@
 title: PhysicalFontInfo class
 linktitle: PhysicalFontInfo class
 articleTitle: PhysicalFontInfo class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.PhysicalFontInfo class. Specifies information about physical font available to Aspose.Words font engine"
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Fonts/physicalfontinfo/
+url: /nodejs-net/aspose.words.fonts/physicalfontinfo/
 ---
 
 ## PhysicalFontInfo class

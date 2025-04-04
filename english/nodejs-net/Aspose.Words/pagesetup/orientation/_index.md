@@ -2,11 +2,11 @@
 title: PageSetup.orientation property
 linktitle: orientation property
 articleTitle: orientation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.orientation property. Returns or sets the orientation of the page."
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words/pagesetup/orientation/
+url: /nodejs-net/aspose.words/pagesetup/orientation/
 ---
 
 ## PageSetup.orientation property

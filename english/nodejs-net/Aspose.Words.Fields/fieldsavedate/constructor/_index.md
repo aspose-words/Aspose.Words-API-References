@@ -2,11 +2,11 @@
 title: FieldSaveDate constructor
 linktitle: FieldSaveDate constructor
 articleTitle: FieldSaveDate constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSaveDate constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldsavedate/constructor/
+url: /nodejs-net/aspose.words.fields/fieldsavedate/constructor/
 ---
 
 ## FieldSaveDate() {#default}

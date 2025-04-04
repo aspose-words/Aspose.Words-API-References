@@ -2,11 +2,11 @@
 title: XmlMapping.delete method
 linktitle: delete method
 articleTitle: delete method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XmlMapping.delete method. Deletes mapping of the parent structured document to XML data."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/xmlmapping/delete/
+url: /nodejs-net/aspose.words.markup/xmlmapping/delete/
 ---
 
 ## delete() {#default}

@@ -2,11 +2,11 @@
 title: TabStopCollection class
 linktitle: TabStopCollection class
 articleTitle: TabStopCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.TabStopCollection class. A collection of [TabStop](../tabstop/) objects that represent custom tabs for a paragraph or a style"
 type: docs
 weight: 1330
-url: /nodejs-net/Aspose.Words/tabstopcollection/
+url: /nodejs-net/aspose.words/tabstopcollection/
 ---
 
 ## TabStopCollection class

@@ -2,11 +2,11 @@
 title: TableStyle.bottomPadding property
 linktitle: bottomPadding property
 articleTitle: bottomPadding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableStyle.bottomPadding property. Gets or sets the amount of space (in points) to add below the contents of table cells."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/tablestyle/bottomPadding/
+url: /nodejs-net/aspose.words/tablestyle/bottomPadding/
 ---
 
 ## TableStyle.bottomPadding property

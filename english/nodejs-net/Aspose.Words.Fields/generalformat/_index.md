@@ -2,11 +2,11 @@
 title: GeneralFormat enumeration
 linktitle: GeneralFormat enumeration
 articleTitle: GeneralFormat enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.GeneralFormat enumeration. Specifies a general format that is applied to a numeric, text, or any field result"
 type: docs
 weight: 1170
-url: /nodejs-net/Aspose.Words.Fields/generalformat/
+url: /nodejs-net/aspose.words.fields/generalformat/
 ---
 
 ## GeneralFormat enumeration

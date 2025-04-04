@@ -2,16 +2,16 @@
 title: Node.asFormField method
 linktitle: asFormField method
 articleTitle: asFormField method
-second_title: Aspose.Words for NodeJs
-description: "Node.asFormField method. Cast node to [FormField](../../../Aspose.Words.Fields/formfield/)."
+second_title: Aspose.Words for Node.js
+description: "Node.asFormField method. Cast node to [FormField](../../../aspose.words.fields/formfield/)."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/node/asFormField/
+url: /nodejs-net/aspose.words/node/asFormField/
 ---
 
 ## asFormField() {#default}
 
-Cast node to [FormField](../../../Aspose.Words.Fields/formfield/).
+Cast node to [FormField](../../../aspose.words.fields/formfield/).
 
 
 

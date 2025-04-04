@@ -2,16 +2,16 @@
 title: ShapeRenderer class
 linktitle: ShapeRenderer class
 articleTitle: ShapeRenderer class
-second_title: Aspose.Words for NodeJs
-description: "Aspose.Words.Rendering.ShapeRenderer class. Provides methods to render an individual [Shape](../../Aspose.Words.Drawing/shape/) or [GroupShape](../../Aspose.Words.Drawing/groupshape/)  to a raster or vector image or to a Graphics object"
+second_title: Aspose.Words for Node.js
+description: "Aspose.Words.Rendering.ShapeRenderer class. Provides methods to render an individual [Shape](../../aspose.words.drawing/shape/) or [GroupShape](../../aspose.words.drawing/groupshape/)  to a raster or vector image or to a Graphics object"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Rendering/shaperenderer/
+url: /nodejs-net/aspose.words.rendering/shaperenderer/
 ---
 
 ## ShapeRenderer class
 
-Provides methods to render an individual [Shape](../../Aspose.Words.Drawing/shape/) or [GroupShape](../../Aspose.Words.Drawing/groupshape/) 
+Provides methods to render an individual [Shape](../../aspose.words.drawing/shape/) or [GroupShape](../../aspose.words.drawing/groupshape/) 
 to a raster or vector image or to a Graphics object.
 To learn more, visit the [Working
             with Shapes](https://docs.aspose.com/words/nodejs-net/working-with-shapes/) documentation article.

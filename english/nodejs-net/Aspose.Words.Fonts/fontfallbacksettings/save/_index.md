@@ -2,11 +2,11 @@
 title: FontFallbackSettings.save method
 linktitle: save method
 articleTitle: save method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontFallbackSettings.save method"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fonts/fontfallbacksettings/save/
+url: /nodejs-net/aspose.words.fonts/fontfallbacksettings/save/
 ---
 
 ## save(outputStream) {#buffer}

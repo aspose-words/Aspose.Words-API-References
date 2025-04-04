@@ -2,11 +2,11 @@
 title: FontSourceBase.warningCallback property
 linktitle: warningCallback property
 articleTitle: warningCallback property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSourceBase.warningCallback property. Called during processing of font source when an issue is detected that might result in formatting fidelity loss."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/fontsourcebase/warningCallback/
+url: /nodejs-net/aspose.words.fonts/fontsourcebase/warningCallback/
 ---
 
 ## FontSourceBase.warningCallback property

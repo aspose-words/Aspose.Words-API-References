@@ -2,11 +2,11 @@
 title: Field.asFieldQuote method
 linktitle: asFieldQuote method
 articleTitle: asFieldQuote method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldQuote method. "
 type: docs
 weight: 800
-url: /nodejs-net/Aspose.Words/field/asFieldQuote/
+url: /nodejs-net/aspose.words/field/asFieldQuote/
 ---
 
 ## asFieldQuote() {#default}

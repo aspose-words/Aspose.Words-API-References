@@ -2,11 +2,11 @@
 title: FieldMergeBarcode.foregroundColor property
 linktitle: foregroundColor property
 articleTitle: foregroundColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeBarcode.foregroundColor property. Gets or sets the foreground color of the barcode symbol"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/foregroundColor/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/foregroundColor/
 ---
 
 ## FieldMergeBarcode.foregroundColor property

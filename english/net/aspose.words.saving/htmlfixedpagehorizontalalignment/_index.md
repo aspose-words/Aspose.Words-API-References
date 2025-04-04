@@ -5,7 +5,7 @@ articleTitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.HtmlFixedPageHorizontalAlignment enum for precise control of page alignment in your HTML documents. Enhance your document formatting today!
 type: docs
-weight: 5680
+weight: 5810
 url: /net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration

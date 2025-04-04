@@ -2,16 +2,16 @@
 title: PdfSaveOptions.customPropertiesExport property
 linktitle: customPropertiesExport property
 articleTitle: customPropertiesExport property
-second_title: Aspose.Words for NodeJs
-description: "PdfSaveOptions.customPropertiesExport property. Gets or sets a value determining the way [Document.customDocumentProperties](../../../Aspose.Words/document/customDocumentProperties/) are exported to PDF file."
+second_title: Aspose.Words for Node.js
+description: "PdfSaveOptions.customPropertiesExport property. Gets or sets a value determining the way [Document.customDocumentProperties](../../../aspose.words/document/customDocumentProperties/) are exported to PDF file."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/customPropertiesExport/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/customPropertiesExport/
 ---
 
 ## PdfSaveOptions.customPropertiesExport property
 
-Gets or sets a value determining the way [Document.customDocumentProperties](../../../Aspose.Words/document/customDocumentProperties/) are exported to PDF file.
+Gets or sets a value determining the way [Document.customDocumentProperties](../../../aspose.words/document/customDocumentProperties/) are exported to PDF file.
 
 
 

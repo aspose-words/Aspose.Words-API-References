@@ -2,11 +2,11 @@
 title: Body.acceptStart method
 linktitle: acceptStart method
 articleTitle: acceptStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Body.acceptStart method. Accepts a visitor for visiting the start of the document's body."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/body/acceptStart/
+url: /nodejs-net/aspose.words/body/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

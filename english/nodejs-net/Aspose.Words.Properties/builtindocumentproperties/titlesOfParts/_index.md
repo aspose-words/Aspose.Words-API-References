@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.titlesOfParts property
 linktitle: titlesOfParts property
 articleTitle: titlesOfParts property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.titlesOfParts property. Each string in the array specifies the name of a part in the document."
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/titlesOfParts/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/titlesOfParts/
 ---
 
 ## BuiltInDocumentProperties.titlesOfParts property

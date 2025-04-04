@@ -2,11 +2,11 @@
 title: ListCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListCollection.count property. Gets the count of numbered and bulleted lists in the document."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Lists/listcollection/count/
+url: /nodejs-net/aspose.words.lists/listcollection/count/
 ---
 
 ## ListCollection.count property

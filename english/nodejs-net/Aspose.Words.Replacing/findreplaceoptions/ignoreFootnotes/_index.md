@@ -2,17 +2,17 @@
 title: FindReplaceOptions.ignoreFootnotes property
 linktitle: ignoreFootnotes property
 articleTitle: ignoreFootnotes property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.ignoreFootnotes property. Gets or sets a boolean value indicating either to ignore footnotes"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreFootnotes/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/ignoreFootnotes/
 ---
 
 ## FindReplaceOptions.ignoreFootnotes property
 
 Gets or sets a boolean value indicating either to ignore footnotes.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

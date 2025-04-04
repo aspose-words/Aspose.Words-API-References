@@ -2,16 +2,16 @@
 title: Node.asRow method
 linktitle: asRow method
 articleTitle: asRow method
-second_title: Aspose.Words for NodeJs
-description: "Node.asRow method. Cast node to [Row](../../../Aspose.Words.Tables/row/)."
+second_title: Aspose.Words for Node.js
+description: "Node.asRow method. Cast node to [Row](../../../aspose.words.tables/row/)."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words/node/asRow/
+url: /nodejs-net/aspose.words/node/asRow/
 ---
 
 ## asRow() {#default}
 
-Cast node to [Row](../../../Aspose.Words.Tables/row/).
+Cast node to [Row](../../../aspose.words.tables/row/).
 
 
 

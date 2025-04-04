@@ -2,11 +2,11 @@
 title: ImageSaveOptions.scale property
 linktitle: scale property
 articleTitle: scale property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.scale property. Gets or sets the zoom factor for the generated images."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/scale/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/scale/
 ---
 
 ## ImageSaveOptions.scale property
@@ -24,23 +24,6 @@ The default value is 1.0. The value must be greater than 0.
 
 
 ### Examples
-
-Shows how to render an Office Math object into an image file in the local file system.
-
-```js
-let doc = new aw.Document(base.myDir + "Office math.docx");
-
-let officeMath = doc.getOfficeMath(0, true);
-
-// Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
-// how it renders the OfficeMath node into an image.
-let saveOptions = new aw.Saving.ImageSaveOptions(aw.SaveFormat.Png);
-
-// Set the "Scale" property to 5 to render the object to five times its original size.
-saveOptions.scale = 5;
-
-officeMath.getMathRenderer().save(base.artifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
-```
 
 Shows how to edit the image while Aspose.words converts a document to one.
 
@@ -73,6 +56,23 @@ let options = new aw.Saving.ImageSaveOptions(aw.SaveFormat.Png)
 };
 
 doc.save(base.artifactsDir + "ImageSaveOptions.EditImage.png", options);
+```
+
+Shows how to render an Office Math object into an image file in the local file system.
+
+```js
+let doc = new aw.Document(base.myDir + "Office math.docx");
+
+let officeMath = doc.getOfficeMath(0, true);
+
+// Create an "ImageSaveOptions" object to pass to the node renderer's "Save" method to modify
+// how it renders the OfficeMath node into an image.
+let saveOptions = new aw.Saving.ImageSaveOptions(aw.SaveFormat.Png);
+
+// Set the "Scale" property to 5 to render the object to five times its original size.
+saveOptions.scale = 5;
+
+officeMath.getMathRenderer().save(base.artifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
 ```
 
 ### See Also

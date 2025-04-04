@@ -2,11 +2,11 @@
 title: PclSaveOptions constructor
 linktitle: PclSaveOptions constructor
 articleTitle: PclSaveOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PclSaveOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/pclsaveoptions/constructor/
+url: /nodejs-net/aspose.words.saving/pclsaveoptions/constructor/
 ---
 
 ## PclSaveOptions() {#default}

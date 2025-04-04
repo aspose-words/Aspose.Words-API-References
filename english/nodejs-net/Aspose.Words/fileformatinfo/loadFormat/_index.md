@@ -2,11 +2,11 @@
 title: FileFormatInfo.loadFormat property
 linktitle: loadFormat property
 articleTitle: loadFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FileFormatInfo.loadFormat property. Gets the detected document format."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/fileformatinfo/loadFormat/
+url: /nodejs-net/aspose.words/fileformatinfo/loadFormat/
 ---
 
 ## FileFormatInfo.loadFormat property

@@ -2,11 +2,11 @@
 title: IFieldResultFormatter.format method
 linktitle: format method
 articleTitle: format method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.IFieldResultFormatter.format method"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/ifieldresultformatter/format/
+url: /nodejs-net/aspose.words.fields/ifieldresultformatter/format/
 ---
 
 ## format(value, format) {#string_generalformat}
@@ -15,7 +15,7 @@ Called when Aspose.Words applies a capitalization format switch, i.e. \\\* Upper
 
 
 ```js
-format(value: stringformat: Aspose.Words.Fields.GeneralFormat)
+format(value: string, format: Aspose.Words.Fields.GeneralFormat)
 ```
 
 | Parameter | Type | Description |
@@ -25,7 +25,7 @@ format(value: stringformat: Aspose.Words.Fields.GeneralFormat)
 
 ### Remarks
 
-The implementation should return ``None`` to indicate that the default formatting should be applied.
+The implementation should return ``null`` to indicate that the default formatting should be applied.
 
 
 
@@ -35,7 +35,7 @@ Called when Aspose.Words applies a number format switch, i.e. \\\* Ordinal.
 
 
 ```js
-format(value: numberformat: Aspose.Words.Fields.GeneralFormat)
+format(value: number, format: Aspose.Words.Fields.GeneralFormat)
 ```
 
 | Parameter | Type | Description |
@@ -45,7 +45,7 @@ format(value: numberformat: Aspose.Words.Fields.GeneralFormat)
 
 ### Remarks
 
-The implementation should return ``None`` to indicate that the default formatting should be applied.
+The implementation should return ``null`` to indicate that the default formatting should be applied.
 
 
 

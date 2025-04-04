@@ -2,11 +2,11 @@
 title: ViewOptions.displayBackgroundShape property
 linktitle: displayBackgroundShape property
 articleTitle: displayBackgroundShape property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ViewOptions.displayBackgroundShape property. Controls display of the background shape in print layout view."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/viewoptions/displayBackgroundShape/
+url: /nodejs-net/aspose.words.settings/viewoptions/displayBackgroundShape/
 ---
 
 ## ViewOptions.displayBackgroundShape property

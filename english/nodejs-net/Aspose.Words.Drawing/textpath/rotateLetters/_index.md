@@ -2,11 +2,11 @@
 title: TextPath.rotateLetters property
 linktitle: rotateLetters property
 articleTitle: rotateLetters property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.rotateLetters property. Determines whether the letters of the text are rotated."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing/textpath/rotateLetters/
+url: /nodejs-net/aspose.words.drawing/textpath/rotateLetters/
 ---
 
 ## TextPath.rotateLetters property
@@ -20,7 +20,7 @@ get rotateLetters(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

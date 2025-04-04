@@ -2,11 +2,11 @@
 title: PageSetup.suppressEndnotes property
 linktitle: suppressEndnotes property
 articleTitle: suppressEndnotes property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.suppressEndnotes property. True if endnotes are printed at the end of the next section that doesn't suppress endnotes"
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words/pagesetup/suppressEndnotes/
+url: /nodejs-net/aspose.words/pagesetup/suppressEndnotes/
 ---
 
 ## PageSetup.suppressEndnotes property

@@ -2,11 +2,11 @@
 title: FormField.accept method
 linktitle: accept method
 articleTitle: accept method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.accept method. Accepts a visitor."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Fields/formfield/accept/
+url: /nodejs-net/aspose.words.fields/formfield/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}
@@ -20,11 +20,11 @@ accept(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The visitor that will visit the node. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The visitor that will visit the node. |
 
 ### Remarks
 
-Calls [DocumentVisitor.visitFormField()](../../../Aspose.Words/documentvisitor/visitFormField/#formfield).
+Calls [DocumentVisitor.visitFormField()](../../../aspose.words/documentvisitor/visitFormField/#formfield).
 
 For more info see the Visitor design pattern.
 
@@ -33,7 +33,7 @@ For more info see the Visitor design pattern.
 
 ### Returns
 
-``False`` if the visitor requested the enumeration to stop.
+``false`` if the visitor requested the enumeration to stop.
 
 
 ### See Also

@@ -2,11 +2,11 @@
 title: BuildingBlockGallery enumeration
 linktitle: BuildingBlockGallery enumeration
 articleTitle: BuildingBlockGallery enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BuildingBlocks.BuildingBlockGallery enumeration. Specifies the predefined gallery into which a building block is classified."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.BuildingBlocks/buildingblockgallery/
+url: /nodejs-net/aspose.words.buildingblocks/buildingblockgallery/
 ---
 
 ## BuildingBlockGallery enumeration
@@ -65,5 +65,5 @@ Corresponds to the **ST_DocPartGallery** type in OOXML.
 ### See Also
 
 * module [Aspose.Words.BuildingBlocks](../)
-* property [BuildingBlock.gallery](../../Aspose.Words/buildingblock/gallery/)
+* property [BuildingBlock.gallery](../../aspose.words/buildingblock/gallery/)
 

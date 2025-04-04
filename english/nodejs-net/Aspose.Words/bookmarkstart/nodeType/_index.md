@@ -2,11 +2,11 @@
 title: BookmarkStart.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarkStart.nodeType property. Returns [NodeType.BookmarkStart](../../nodetype/#BookmarkStart)."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/bookmarkstart/nodeType/
+url: /nodejs-net/aspose.words/bookmarkstart/nodeType/
 ---
 
 ## BookmarkStart.nodeType property

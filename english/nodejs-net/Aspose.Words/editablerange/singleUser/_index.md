@@ -2,11 +2,11 @@
 title: EditableRange.singleUser property
 linktitle: singleUser property
 articleTitle: singleUser property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EditableRange.singleUser property. Returns or sets the single user for editable range."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/editablerange/singleUser/
+url: /nodejs-net/aspose.words/editablerange/singleUser/
 ---
 
 ## EditableRange.singleUser property

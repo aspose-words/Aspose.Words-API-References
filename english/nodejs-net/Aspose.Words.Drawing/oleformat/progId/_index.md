@@ -2,11 +2,11 @@
 title: OleFormat.progId property
 linktitle: progId property
 articleTitle: progId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.progId property. Gets or sets the ProgID of the OLE object."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/progId/
+url: /nodejs-net/aspose.words.drawing/oleformat/progId/
 ---
 
 ## OleFormat.progId property
@@ -22,7 +22,7 @@ get progId(): string
 
 The ProgID property is not always present in Microsoft Word documents and cannot be relied upon.
 
-Cannot be ``None``.
+Cannot be ``null``.
 
 The default value is an empty string.
 

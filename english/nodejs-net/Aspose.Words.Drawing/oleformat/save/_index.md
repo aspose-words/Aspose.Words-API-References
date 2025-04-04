@@ -2,11 +2,11 @@
 title: OleFormat.save method
 linktitle: save method
 articleTitle: save method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.OleFormat.save method"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/save/
+url: /nodejs-net/aspose.words.drawing/oleformat/save/
 ---
 
 ## save(stream) {#buffer}

@@ -2,11 +2,11 @@
 title: WebExtensionBindingCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtensionBindingCollection.add method. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbindingcollection/add/
+url: /nodejs-net/aspose.words.webextensions/webextensionbindingcollection/add/
 ---
 
 ## add(item) {#webextensionbinding}

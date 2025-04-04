@@ -2,11 +2,11 @@
 title: Font.hasDmlEffect method
 linktitle: hasDmlEffect method
 articleTitle: hasDmlEffect method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.hasDmlEffect method. Checks if particular DrawingML text effect is applied."
 type: docs
 weight: 570
-url: /nodejs-net/Aspose.Words/font/hasDmlEffect/
+url: /nodejs-net/aspose.words/font/hasDmlEffect/
 ---
 
 ## hasDmlEffect(dmlEffectType) {#textdmleffect}
@@ -24,7 +24,7 @@ hasDmlEffect(dmlEffectType: Aspose.Words.TextDmlEffect)
 
 ### Returns
 
-``True`` if particular DrawingML text effect is applied.
+``true`` if particular DrawingML text effect is applied.
 
 
 ### See Also

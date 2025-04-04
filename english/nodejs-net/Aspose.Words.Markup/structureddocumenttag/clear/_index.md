@@ -2,11 +2,11 @@
 title: StructuredDocumentTag.clear method
 linktitle: clear method
 articleTitle: clear method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.clear method. Clears contents of this structured document tag and displays a placeholder if it is defined."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/clear/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/clear/
 ---
 
 ## clear() {#default}

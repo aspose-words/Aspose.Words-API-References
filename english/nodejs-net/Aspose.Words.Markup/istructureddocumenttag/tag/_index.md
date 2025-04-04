@@ -2,11 +2,11 @@
 title: IStructuredDocumentTag.tag property
 linktitle: tag property
 articleTitle: tag property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IStructuredDocumentTag.tag property. Specifies a tag associated with the current SDT node"
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/tag/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/tag/
 ---
 
 ## IStructuredDocumentTag.tag property

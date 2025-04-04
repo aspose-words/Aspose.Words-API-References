@@ -2,11 +2,11 @@
 title: NodeChangingArgs.newParent property
 linktitle: newParent property
 articleTitle: newParent property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeChangingArgs.newParent property. Gets the node's parent that will be set after the operation completes."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/nodechangingargs/newParent/
+url: /nodejs-net/aspose.words/nodechangingargs/newParent/
 ---
 
 ## NodeChangingArgs.newParent property

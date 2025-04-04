@@ -2,11 +2,11 @@
 title: VbaProject constructor
 linktitle: VbaProject constructor
 articleTitle: VbaProject constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VbaProject constructor. Creates a blank [VbaProject](../)."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Vba/vbaproject/constructor/
+url: /nodejs-net/aspose.words.vba/vbaproject/constructor/
 ---
 
 ## VbaProject() {#default}

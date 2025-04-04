@@ -2,11 +2,11 @@
 title: ImageSize class
 linktitle: ImageSize class
 articleTitle: ImageSize class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ImageSize class. Contains information about image size and resolution"
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing/imagesize/
+url: /nodejs-net/aspose.words.drawing/imagesize/
 ---
 
 ## ImageSize class

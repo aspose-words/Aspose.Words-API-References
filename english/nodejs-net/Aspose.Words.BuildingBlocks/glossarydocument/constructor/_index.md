@@ -2,11 +2,11 @@
 title: GlossaryDocument constructor
 linktitle: GlossaryDocument constructor
 articleTitle: GlossaryDocument constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GlossaryDocument constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.BuildingBlocks/glossarydocument/constructor/
+url: /nodejs-net/aspose.words.buildingblocks/glossarydocument/constructor/
 ---
 
 ## GlossaryDocument() {#default}
