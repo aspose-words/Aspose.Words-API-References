@@ -2,7 +2,7 @@
 title: CompositeNode.getSmartTag method
 linktitle: getSmartTag method
 articleTitle: getSmartTag method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getSmartTag method. "
 type: docs
 weight: 230

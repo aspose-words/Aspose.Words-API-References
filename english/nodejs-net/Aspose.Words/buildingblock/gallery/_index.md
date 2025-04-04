@@ -2,7 +2,7 @@
 title: BuildingBlock.gallery property
 linktitle: gallery property
 articleTitle: gallery property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuildingBlock.gallery property. Specifies the first-level categorization for the building block for the purposes of  classification or user interface sorting."
 type: docs
 weight: 60

@@ -2,7 +2,7 @@
 title: Shape.filled property
 linktitle: filled property
 articleTitle: filled property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.filled property. Determines whether the closed path of the shape will be filled."
 type: docs
 weight: 60

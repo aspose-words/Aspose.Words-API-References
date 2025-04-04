@@ -2,7 +2,7 @@
 title: Table.ensureMinimum method
 linktitle: ensureMinimum method
 articleTitle: ensureMinimum method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.ensureMinimum method. If the table has no rows, creates and appends one [Row](../../../aspose.words.tables/row/)."
 type: docs
 weight: 420

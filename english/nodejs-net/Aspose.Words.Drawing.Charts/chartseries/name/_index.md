@@ -2,7 +2,7 @@
 title: ChartSeries.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.name property. Gets or sets the name of the series, if name is not set explicitly it is generated using index"
 type: docs
 weight: 110

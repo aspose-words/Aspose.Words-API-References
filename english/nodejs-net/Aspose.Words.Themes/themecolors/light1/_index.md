@@ -2,7 +2,7 @@
 title: ThemeColors.light1 property
 linktitle: light1 property
 articleTitle: light1 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThemeColors.light1 property. Specifies color Light 1."
 type: docs
 weight: 110

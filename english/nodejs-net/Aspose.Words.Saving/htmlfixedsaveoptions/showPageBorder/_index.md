@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.showPageBorder property
 linktitle: showPageBorder property
 articleTitle: showPageBorder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.showPageBorder property. Specifies whether border around pages should be shown"
 type: docs
 weight: 200

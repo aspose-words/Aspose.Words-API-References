@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitCommentRangeStart method
 linktitle: visitCommentRangeStart method
 articleTitle: visitCommentRangeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitCommentRangeStart method. Called when the start of a commented range of text is encountered."
 type: docs
 weight: 120

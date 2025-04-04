@@ -2,7 +2,7 @@
 title: LayoutFlow enumeration
 linktitle: LayoutFlow enumeration
 articleTitle: LayoutFlow enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.LayoutFlow enumeration. Determines the flow of the text layout in a textbox."
 type: docs
 weight: 250

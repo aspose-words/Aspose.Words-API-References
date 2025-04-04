@@ -2,7 +2,7 @@
 title: Source.patentNumber property
 linktitle: patentNumber property
 articleTitle: patentNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.patentNumber property. Gets or sets the patent number of a source."
 type: docs
 weight: 320

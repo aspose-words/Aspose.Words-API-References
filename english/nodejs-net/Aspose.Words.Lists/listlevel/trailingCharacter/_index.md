@@ -2,7 +2,7 @@
 title: ListLevel.trailingCharacter property
 linktitle: trailingCharacter property
 articleTitle: trailingCharacter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.trailingCharacter property. Returns or sets the character inserted after the number for the list level."
 type: docs
 weight: 140

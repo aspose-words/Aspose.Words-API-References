@@ -2,7 +2,7 @@
 title: TextBox.isValidLinkTarget method
 linktitle: isValidLinkTarget method
 articleTitle: isValidLinkTarget method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextBox.isValidLinkTarget method. Determines whether this [TextBox](../) can be linked to the target [TextBox](../)."
 type: docs
 weight: 140

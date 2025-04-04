@@ -2,7 +2,7 @@
 title: ReplacingArgs class
 linktitle: ReplacingArgs class
 articleTitle: ReplacingArgs class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Replacing.ReplacingArgs class. Provides data for a custom replace operation"
 type: docs
 weight: 60

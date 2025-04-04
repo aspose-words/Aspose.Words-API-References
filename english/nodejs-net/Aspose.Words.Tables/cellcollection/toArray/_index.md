@@ -2,7 +2,7 @@
 title: CellCollection.toArray method
 linktitle: toArray method
 articleTitle: toArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellCollection.toArray method. Copies all cells from the collection to a new array of cells."
 type: docs
 weight: 10

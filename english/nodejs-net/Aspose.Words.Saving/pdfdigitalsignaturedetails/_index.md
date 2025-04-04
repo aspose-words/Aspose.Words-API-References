@@ -2,7 +2,7 @@
 title: PdfDigitalSignatureDetails class
 linktitle: PdfDigitalSignatureDetails class
 articleTitle: PdfDigitalSignatureDetails class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfDigitalSignatureDetails class. Contains details for signing a PDF document with a digital signature."
 type: docs
 weight: 620

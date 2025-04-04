@@ -2,7 +2,7 @@
 title: FieldLink class
 linktitle: FieldLink class
 articleTitle: FieldLink class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldLink class. Implements the LINK field"
 type: docs
 weight: 640

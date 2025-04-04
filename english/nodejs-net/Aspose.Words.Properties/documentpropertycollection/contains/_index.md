@@ -2,7 +2,7 @@
 title: DocumentPropertyCollection.contains method
 linktitle: contains method
 articleTitle: contains method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentPropertyCollection.contains method. Returns ``true`` if a property with the specified name exists in the collection."
 type: docs
 weight: 50

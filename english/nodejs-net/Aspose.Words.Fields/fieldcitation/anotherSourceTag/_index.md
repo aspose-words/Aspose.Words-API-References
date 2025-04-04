@@ -2,7 +2,7 @@
 title: FieldCitation.anotherSourceTag property
 linktitle: anotherSourceTag property
 articleTitle: anotherSourceTag property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCitation.anotherSourceTag property. Gets or sets a value that matches the Tag element's value of another source to be included in the citation."
 type: docs
 weight: 20

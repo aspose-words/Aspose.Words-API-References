@@ -2,7 +2,7 @@
 title: IFieldDatabaseProvider.getQueryResult method
 linktitle: getQueryResult method
 articleTitle: getQueryResult method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFieldDatabaseProvider.getQueryResult method. Returns query result."
 type: docs
 weight: 10

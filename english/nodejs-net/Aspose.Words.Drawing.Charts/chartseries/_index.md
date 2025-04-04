@@ -2,7 +2,7 @@
 title: ChartSeries class
 linktitle: ChartSeries class
 articleTitle: ChartSeries class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartSeries class. Represents chart series properties"
 type: docs
 weight: 320

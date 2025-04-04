@@ -2,7 +2,7 @@
 title: ListFormat.applyBulletDefault method
 linktitle: applyBulletDefault method
 articleTitle: applyBulletDefault method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListFormat.applyBulletDefault method. Starts a new default bulleted list and applies it to the paragraph."
 type: docs
 weight: 50

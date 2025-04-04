@@ -2,7 +2,7 @@
 title: FieldStyleRef class
 linktitle: FieldStyleRef class
 articleTitle: FieldStyleRef class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldStyleRef class. Implements the STYLEREF field"
 type: docs
 weight: 970

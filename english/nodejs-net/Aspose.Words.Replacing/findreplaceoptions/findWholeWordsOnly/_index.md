@@ -2,7 +2,7 @@
 title: FindReplaceOptions.findWholeWordsOnly property
 linktitle: findWholeWordsOnly property
 articleTitle: findWholeWordsOnly property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.findWholeWordsOnly property. True indicates the oldValue must be a standalone word."
 type: docs
 weight: 50

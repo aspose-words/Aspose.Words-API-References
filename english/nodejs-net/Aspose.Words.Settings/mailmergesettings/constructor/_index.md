@@ -2,7 +2,7 @@
 title: MailMergeSettings constructor
 linktitle: MailMergeSettings constructor
 articleTitle: MailMergeSettings constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings constructor. "
 type: docs
 weight: 10

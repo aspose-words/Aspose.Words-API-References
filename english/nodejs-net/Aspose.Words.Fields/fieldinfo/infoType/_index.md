@@ -2,7 +2,7 @@
 title: FieldInfo.infoType property
 linktitle: infoType property
 articleTitle: infoType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldInfo.infoType property. Gets or sets the type of the document property to insert."
 type: docs
 weight: 20

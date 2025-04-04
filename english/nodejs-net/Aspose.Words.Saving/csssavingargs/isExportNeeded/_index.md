@@ -2,7 +2,7 @@
 title: CssSavingArgs.isExportNeeded property
 linktitle: isExportNeeded property
 articleTitle: isExportNeeded property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CssSavingArgs.isExportNeeded property. Allows to specify whether the CSS will be exported to file and embedded to HTML document"
 type: docs
 weight: 20

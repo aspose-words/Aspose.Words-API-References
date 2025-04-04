@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.buildingBlockGallery property
 linktitle: buildingBlockGallery property
 articleTitle: buildingBlockGallery property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.buildingBlockGallery property. Specifies type of building block for this SDT"
 type: docs
 weight: 40

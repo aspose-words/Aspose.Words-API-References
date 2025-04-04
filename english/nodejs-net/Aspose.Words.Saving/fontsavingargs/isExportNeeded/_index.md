@@ -2,7 +2,7 @@
 title: FontSavingArgs.isExportNeeded property
 linktitle: isExportNeeded property
 articleTitle: isExportNeeded property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSavingArgs.isExportNeeded property. Allows to specify whether the current font will be exported as a font resource"
 type: docs
 weight: 50

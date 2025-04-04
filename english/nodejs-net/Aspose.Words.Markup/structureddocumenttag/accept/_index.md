@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.accept method
 linktitle: accept method
 articleTitle: accept method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.accept method. Accepts a visitor."
 type: docs
 weight: 330

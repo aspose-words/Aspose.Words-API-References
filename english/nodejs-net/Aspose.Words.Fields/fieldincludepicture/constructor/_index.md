@@ -2,7 +2,7 @@
 title: FieldIncludePicture constructor
 linktitle: FieldIncludePicture constructor
 articleTitle: FieldIncludePicture constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIncludePicture constructor. "
 type: docs
 weight: 10

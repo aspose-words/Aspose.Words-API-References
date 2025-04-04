@@ -2,7 +2,7 @@
 title: ListTrailingCharacter enumeration
 linktitle: ListTrailingCharacter enumeration
 articleTitle: ListTrailingCharacter enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Lists.ListTrailingCharacter enumeration. Specifies the character that separates the list label from the text of the paragraph."
 type: docs
 weight: 80

@@ -2,7 +2,7 @@
 title: FieldDdeAuto constructor
 linktitle: FieldDdeAuto constructor
 articleTitle: FieldDdeAuto constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDdeAuto constructor. "
 type: docs
 weight: 10

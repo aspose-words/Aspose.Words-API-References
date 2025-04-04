@@ -2,7 +2,7 @@
 title: CompatibilityOptions.mwsmallCaps property
 linktitle: mwsmallCaps property
 articleTitle: mwsmallCaps property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.mwsmallCaps property. Emulate Word 5.x for the Macintosh Small Caps Formatting."
 type: docs
 weight: 320

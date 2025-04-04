@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.linksUpToDate property
 linktitle: linksUpToDate property
 articleTitle: linksUpToDate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.linksUpToDate property. Indicates whether hyperlinks in a document are up-to-date."
 type: docs
 weight: 180

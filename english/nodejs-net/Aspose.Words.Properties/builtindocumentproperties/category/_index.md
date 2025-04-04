@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.category property
 linktitle: category property
 articleTitle: category property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.category property. Gets or sets the category of the document."
 type: docs
 weight: 30

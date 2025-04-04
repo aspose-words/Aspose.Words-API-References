@@ -2,7 +2,7 @@
 title: OutlineOptions.defaultBookmarksOutlineLevel property
 linktitle: defaultBookmarksOutlineLevel property
 articleTitle: defaultBookmarksOutlineLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OutlineOptions.defaultBookmarksOutlineLevel property. Specifies the default level in the document outline at which to display Word bookmarks."
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: VariableCollection.clear method
 linktitle: clear method
 articleTitle: clear method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VariableCollection.clear method. Removes all elements from the collection."
 type: docs
 weight: 50

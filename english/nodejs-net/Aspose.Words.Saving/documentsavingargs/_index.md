@@ -2,7 +2,7 @@
 title: DocumentSavingArgs class
 linktitle: DocumentSavingArgs class
 articleTitle: DocumentSavingArgs class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.DocumentSavingArgs class. An argument passed into [IDocumentSavingCallback.notify()](../idocumentsavingcallback/notify/#documentsavingargs)"
 type: docs
 weight: 120

@@ -2,7 +2,7 @@
 title: DocumentProperty.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentProperty.name property. Returns the name of the property."
 type: docs
 weight: 30

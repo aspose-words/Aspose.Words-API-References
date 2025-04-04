@@ -2,7 +2,7 @@
 title: Source.station property
 linktitle: station property
 articleTitle: station property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.station property. Gets or sets the station of a source."
 type: docs
 weight: 440

@@ -2,7 +2,7 @@
 title: AxisTimeUnit enumeration
 linktitle: AxisTimeUnit enumeration
 articleTitle: AxisTimeUnit enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisTimeUnit enumeration. Specifies the unit of time for axes."
 type: docs
 weight: 120

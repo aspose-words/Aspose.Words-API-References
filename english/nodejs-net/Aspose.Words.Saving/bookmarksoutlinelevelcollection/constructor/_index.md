@@ -2,7 +2,7 @@
 title: BookmarksOutlineLevelCollection constructor
 linktitle: BookmarksOutlineLevelCollection constructor
 articleTitle: BookmarksOutlineLevelCollection constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarksOutlineLevelCollection constructor. "
 type: docs
 weight: 10

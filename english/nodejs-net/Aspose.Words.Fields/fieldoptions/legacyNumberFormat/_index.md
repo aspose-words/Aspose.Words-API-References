@@ -2,7 +2,7 @@
 title: FieldOptions.legacyNumberFormat property
 linktitle: legacyNumberFormat property
 articleTitle: legacyNumberFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.legacyNumberFormat property. Gets or sets the value indicating whether legacy (early than AW 13.10) number format for fields is enabled or not."
 type: docs
 weight: 150

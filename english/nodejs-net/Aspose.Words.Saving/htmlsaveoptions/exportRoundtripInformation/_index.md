@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.exportRoundtripInformation property
 linktitle: exportRoundtripInformation property
 articleTitle: exportRoundtripInformation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportRoundtripInformation property. Specifies whether to write the roundtrip information when saving to HTML, MHTML or EPUB"
 type: docs
 weight: 240

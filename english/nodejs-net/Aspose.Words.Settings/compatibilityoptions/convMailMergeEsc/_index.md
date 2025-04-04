@@ -2,7 +2,7 @@
 title: CompatibilityOptions.convMailMergeEsc property
 linktitle: convMailMergeEsc property
 articleTitle: convMailMergeEsc property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.convMailMergeEsc property. Treat Backslash Quotation Delimiter as Two Quotation Marks."
 type: docs
 weight: 90

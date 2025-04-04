@@ -2,7 +2,7 @@
 title: LayoutOptions.callback property
 linktitle: callback property
 articleTitle: callback property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutOptions.callback property. Gets or sets [IPageLayoutCallback](../../ipagelayoutcallback/) implementation used by page layout model."
 type: docs
 weight: 20

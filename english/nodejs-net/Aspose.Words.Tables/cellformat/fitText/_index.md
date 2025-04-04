@@ -2,7 +2,7 @@
 title: CellFormat.fitText property
 linktitle: fitText property
 articleTitle: fitText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.fitText property. If ``true``, fits text in the cell, compressing each paragraph to the width of the cell."
 type: docs
 weight: 30

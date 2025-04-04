@@ -2,7 +2,7 @@
 title: Revision class
 linktitle: Revision class
 articleTitle: Revision class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Revision class. Represents a revision (tracked change) in a document node or style"
 type: docs
 weight: 1070

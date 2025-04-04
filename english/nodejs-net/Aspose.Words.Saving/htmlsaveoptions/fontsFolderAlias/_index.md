@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.fontsFolderAlias property
 linktitle: fontsFolderAlias property
 articleTitle: fontsFolderAlias property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.fontsFolderAlias property. Specifies the name of the folder used to construct font URIs written into an HTML document"
 type: docs
 weight: 320

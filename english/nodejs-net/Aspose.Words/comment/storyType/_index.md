@@ -2,7 +2,7 @@
 title: Comment.storyType property
 linktitle: storyType property
 articleTitle: storyType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Comment.storyType property. Returns [StoryType.Comments](../../storytype/#Comments)."
 type: docs
 weight: 120

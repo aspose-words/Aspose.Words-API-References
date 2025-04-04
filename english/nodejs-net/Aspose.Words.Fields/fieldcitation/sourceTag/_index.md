@@ -2,7 +2,7 @@
 title: FieldCitation.sourceTag property
 linktitle: sourceTag property
 articleTitle: sourceTag property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCitation.sourceTag property. Gets or sets a value that matches the Tag element's value of the source to insert."
 type: docs
 weight: 60

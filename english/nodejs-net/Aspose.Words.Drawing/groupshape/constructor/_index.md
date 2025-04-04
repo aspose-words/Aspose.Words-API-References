@@ -2,7 +2,7 @@
 title: GroupShape constructor
 linktitle: GroupShape constructor
 articleTitle: GroupShape constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GroupShape constructor. Creates a new group shape."
 type: docs
 weight: 10

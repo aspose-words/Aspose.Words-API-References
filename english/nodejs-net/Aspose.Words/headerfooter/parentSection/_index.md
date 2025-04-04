@@ -2,7 +2,7 @@
 title: HeaderFooter.parentSection property
 linktitle: parentSection property
 articleTitle: parentSection property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HeaderFooter.parentSection property. Gets the parent section of this story."
 type: docs
 weight: 60

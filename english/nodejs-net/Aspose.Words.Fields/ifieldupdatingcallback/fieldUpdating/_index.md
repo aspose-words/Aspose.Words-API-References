@@ -2,7 +2,7 @@
 title: IFieldUpdatingCallback.fieldUpdating method
 linktitle: fieldUpdating method
 articleTitle: fieldUpdating method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFieldUpdatingCallback.fieldUpdating method. A user defined method that is called just before a field is updated."
 type: docs
 weight: 20

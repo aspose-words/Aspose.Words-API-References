@@ -2,7 +2,7 @@
 title: Source.chapterNumber property
 linktitle: chapterNumber property
 articleTitle: chapterNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.chapterNumber property. Gets or sets the chapter number of a source."
 type: docs
 weight: 80

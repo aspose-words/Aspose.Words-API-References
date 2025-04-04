@@ -2,7 +2,7 @@
 title: ParagraphFormat.lineSpacingRule property
 linktitle: lineSpacingRule property
 articleTitle: lineSpacingRule property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.lineSpacingRule property. Gets or sets the line spacing for the paragraph."
 type: docs
 weight: 200

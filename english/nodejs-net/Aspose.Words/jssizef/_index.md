@@ -2,7 +2,7 @@
 title: JSSizeF class
 linktitle: JSSizeF class
 articleTitle: JSSizeF class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSSizeF class. "
 type: docs
 weight: 730

@@ -2,7 +2,7 @@
 title: ChartNumberFormat class
 linktitle: ChartNumberFormat class
 articleTitle: ChartNumberFormat class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartNumberFormat class. Represents number formatting of the parent element"
 type: docs
 weight: 310

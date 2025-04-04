@@ -2,7 +2,7 @@
 title: ImportFormatOptions.mergePastedLists property
 linktitle: mergePastedLists property
 articleTitle: mergePastedLists property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImportFormatOptions.mergePastedLists property. Gets or sets a boolean value that specifies whether pasted lists will be merged with surrounding lists"
 type: docs
 weight: 70

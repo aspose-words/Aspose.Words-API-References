@@ -2,7 +2,7 @@
 title: OleControl.asForms2OleControl method
 linktitle: asForms2OleControl method
 articleTitle: asForms2OleControl method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleControl.asForms2OleControl method. "
 type: docs
 weight: 40

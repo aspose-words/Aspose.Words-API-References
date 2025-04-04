@@ -2,7 +2,7 @@
 title: FolderFontSource class
 linktitle: FolderFontSource class
 articleTitle: FolderFontSource class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FolderFontSource class. Represents the folder that contains TrueType font files"
 type: docs
 weight: 50

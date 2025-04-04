@@ -2,7 +2,7 @@
 title: FieldInfo class
 linktitle: FieldInfo class
 articleTitle: FieldInfo class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldInfo class. Implements the INFO field"
 type: docs
 weight: 610

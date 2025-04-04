@@ -2,7 +2,7 @@
 title: OutlineOptions.createMissingOutlineLevels property
 linktitle: createMissingOutlineLevels property
 articleTitle: createMissingOutlineLevels property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OutlineOptions.createMissingOutlineLevels property. Gets or sets a value determining whether or not to create missing outline levels when the document is  exported."
 type: docs
 weight: 30

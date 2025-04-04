@@ -2,7 +2,7 @@
 title: ImageWatermarkOptions.scale property
 linktitle: scale property
 articleTitle: scale property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageWatermarkOptions.scale property. Gets or sets the scale factor expressed as a fraction of the image"
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.removeAllChildren method
 linktitle: removeAllChildren method
 articleTitle: removeAllChildren method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.removeAllChildren method. Removes all the nodes between this range start node and the range end node."
 type: docs
 weight: 230

@@ -2,7 +2,7 @@
 title: Footnote.footnoteType property
 linktitle: footnoteType property
 articleTitle: footnoteType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Footnote.footnoteType property. Returns a value that specifies whether this is a footnote or endnote."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: IDocumentMergerPlugin.merge method
 linktitle: merge method
 articleTitle: merge method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IDocumentMergerPlugin.merge method. Merges the given input PDF documents into a single output PDF document using specified input and output streams."
 type: docs
 weight: 10

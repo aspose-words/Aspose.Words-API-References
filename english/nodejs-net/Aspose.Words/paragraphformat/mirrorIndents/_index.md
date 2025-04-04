@@ -2,7 +2,7 @@
 title: ParagraphFormat.mirrorIndents property
 linktitle: mirrorIndents property
 articleTitle: mirrorIndents property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.mirrorIndents property. Gets or sets a flag indicating whether the left and right indents are of the same width."
 type: docs
 weight: 240

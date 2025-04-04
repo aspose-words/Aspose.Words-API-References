@@ -2,7 +2,7 @@
 title: ImageSavingArgs.imageFileName property
 linktitle: imageFileName property
 articleTitle: imageFileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSavingArgs.imageFileName property. Gets or sets the file name (without path) where the image will be saved to."
 type: docs
 weight: 30

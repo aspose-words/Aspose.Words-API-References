@@ -2,7 +2,7 @@
 title: Shape.horizontalRuleFormat property
 linktitle: horizontalRuleFormat property
 articleTitle: horizontalRuleFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.horizontalRuleFormat property. Provides access to the properties of the horizontal rule shape"
 type: docs
 weight: 110

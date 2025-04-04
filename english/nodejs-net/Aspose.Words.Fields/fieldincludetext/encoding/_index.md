@@ -2,7 +2,7 @@
 title: FieldIncludeText.encoding property
 linktitle: encoding property
 articleTitle: encoding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIncludeText.encoding property. Gets or sets the encoding applied to the data within the referenced file."
 type: docs
 weight: 30

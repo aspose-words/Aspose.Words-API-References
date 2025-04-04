@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.bytes property
 linktitle: bytes property
 articleTitle: bytes property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.bytes property. Represents an estimate of the number of bytes in the document."
 type: docs
 weight: 20

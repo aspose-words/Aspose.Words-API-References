@@ -2,7 +2,7 @@
 title: CustomXmlProperty class
 linktitle: CustomXmlProperty class
 articleTitle: CustomXmlProperty class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.CustomXmlProperty class. Represents a single custom XML attribute or a smart tag property"
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: IStructuredDocumentTag.getChildNodes method
 linktitle: getChildNodes method
 articleTitle: getChildNodes method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IStructuredDocumentTag.getChildNodes method. Returns a live collection of child nodes that match the specified types."
 type: docs
 weight: 170

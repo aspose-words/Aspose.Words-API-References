@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.lastPrinted property
 linktitle: lastPrinted property
 articleTitle: lastPrinted property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.lastPrinted property. Gets or sets the date when the document was last printed in UTC."
 type: docs
 weight: 140

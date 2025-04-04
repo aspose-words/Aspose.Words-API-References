@@ -2,7 +2,7 @@
 title: FieldNext class
 linktitle: FieldNext class
 articleTitle: FieldNext class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldNext class. Implements the NEXT field"
 type: docs
 weight: 710

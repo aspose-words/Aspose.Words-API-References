@@ -2,7 +2,7 @@
 title: LoadOptions constructor
 linktitle: LoadOptions constructor
 articleTitle: LoadOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.LoadOptions constructor"
 type: docs
 weight: 10

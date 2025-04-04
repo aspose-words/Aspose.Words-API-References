@@ -2,7 +2,7 @@
 title: Source class
 linktitle: Source class
 articleTitle: Source class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Bibliography.Source class. Represents an individual source, such as a book, journal article, or interview."
 type: docs
 weight: 40

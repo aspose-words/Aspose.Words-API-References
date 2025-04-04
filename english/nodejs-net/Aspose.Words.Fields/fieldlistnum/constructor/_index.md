@@ -2,7 +2,7 @@
 title: FieldListNum constructor
 linktitle: FieldListNum constructor
 articleTitle: FieldListNum constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldListNum constructor. "
 type: docs
 weight: 10

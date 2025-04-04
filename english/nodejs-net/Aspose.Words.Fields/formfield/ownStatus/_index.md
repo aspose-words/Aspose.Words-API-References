@@ -2,7 +2,7 @@
 title: FormField.ownStatus property
 linktitle: ownStatus property
 articleTitle: ownStatus property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.ownStatus property. Specifies the source of the text that's displayed in the status bar when a form field has the focus."
 type: docs
 weight: 160

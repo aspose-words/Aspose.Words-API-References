@@ -2,7 +2,7 @@
 title: Node.asCommentRangeEnd method
 linktitle: asCommentRangeEnd method
 articleTitle: asCommentRangeEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asCommentRangeEnd method. Cast node to [CommentRangeEnd](../../commentrangeend/)."
 type: docs
 weight: 160

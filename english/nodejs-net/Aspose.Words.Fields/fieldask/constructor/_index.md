@@ -2,7 +2,7 @@
 title: FieldAsk constructor
 linktitle: FieldAsk constructor
 articleTitle: FieldAsk constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldAsk constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: BookmarkStart.bookmark property
 linktitle: bookmark property
 articleTitle: bookmark property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarkStart.bookmark property. Gets the facade object that encapsulates this bookmark start and end."
 type: docs
 weight: 20

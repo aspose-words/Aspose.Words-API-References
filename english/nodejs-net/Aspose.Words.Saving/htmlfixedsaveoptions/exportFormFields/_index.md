@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.exportFormFields property
 linktitle: exportFormFields property
 articleTitle: exportFormFields property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.exportFormFields property. Gets or sets indication of whether form fields are exported as interactive items (as 'input' tag) rather than converted to text or graphics."
 type: docs
 weight: 80

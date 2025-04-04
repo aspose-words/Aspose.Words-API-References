@@ -2,7 +2,7 @@
 title: TxtLoadOptions.documentDirection property
 linktitle: documentDirection property
 articleTitle: documentDirection property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtLoadOptions.documentDirection property. Gets or sets a document direction"
 type: docs
 weight: 50

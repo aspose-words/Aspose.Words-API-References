@@ -2,7 +2,7 @@
 title: ChartDataPoint.marker property
 linktitle: marker property
 articleTitle: marker property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataPoint.marker property. Specifies chart data marker."
 type: docs
 weight: 60

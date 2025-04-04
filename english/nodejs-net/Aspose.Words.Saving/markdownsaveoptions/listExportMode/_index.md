@@ -2,7 +2,7 @@
 title: MarkdownSaveOptions.listExportMode property
 linktitle: listExportMode property
 articleTitle: listExportMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.listExportMode property. Specifies how list items will be written to the output file"
 type: docs
 weight: 100

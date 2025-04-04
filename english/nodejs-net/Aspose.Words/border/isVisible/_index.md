@@ -2,7 +2,7 @@
 title: Border.isVisible property
 linktitle: isVisible property
 articleTitle: isVisible property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Border.isVisible property. Returns ``true`` if the [Border.lineStyle](../lineStyle/) is not [LineStyle.None](../../linestyle/#None)."
 type: docs
 weight: 30

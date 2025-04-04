@@ -2,7 +2,7 @@
 title: ChartSeriesGroup.overlap property
 linktitle: overlap property
 articleTitle: overlap property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroup.overlap property. Gets or sets the percentage of how much the series bars or columns overlap."
 type: docs
 weight: 80

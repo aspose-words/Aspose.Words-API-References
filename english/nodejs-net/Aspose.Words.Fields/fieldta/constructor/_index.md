@@ -2,7 +2,7 @@
 title: FieldTA constructor
 linktitle: FieldTA constructor
 articleTitle: FieldTA constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldTA constructor. "
 type: docs
 weight: 10

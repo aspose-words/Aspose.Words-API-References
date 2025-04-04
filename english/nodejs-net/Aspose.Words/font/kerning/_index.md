@@ -2,7 +2,7 @@
 title: Font.kerning property
 linktitle: kerning property
 articleTitle: kerning property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.kerning property. Gets or sets the font size at which kerning starts."
 type: docs
 weight: 180

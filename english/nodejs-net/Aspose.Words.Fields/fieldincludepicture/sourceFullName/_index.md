@@ -2,7 +2,7 @@
 title: FieldIncludePicture.sourceFullName property
 linktitle: sourceFullName property
 articleTitle: sourceFullName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIncludePicture.sourceFullName property. Gets or sets the location of the picture using an IRI."
 type: docs
 weight: 60

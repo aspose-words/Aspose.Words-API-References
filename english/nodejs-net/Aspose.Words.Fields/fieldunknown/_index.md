@@ -2,7 +2,7 @@
 title: FieldUnknown class
 linktitle: FieldUnknown class
 articleTitle: FieldUnknown class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldUnknown class. Implements an unknown or unrecognized field"
 type: docs
 weight: 1080

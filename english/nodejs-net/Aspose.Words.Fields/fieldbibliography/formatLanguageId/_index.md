@@ -2,7 +2,7 @@
 title: FieldBibliography.formatLanguageId property
 linktitle: formatLanguageId property
 articleTitle: formatLanguageId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldBibliography.formatLanguageId property. Gets or sets the language ID that is used to format the bibliographic sources in the document."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: TextBox.internalMarginBottom property
 linktitle: internalMarginBottom property
 articleTitle: internalMarginBottom property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextBox.internalMarginBottom property. Specifies the inner bottom margin in points for a shape."
 type: docs
 weight: 20

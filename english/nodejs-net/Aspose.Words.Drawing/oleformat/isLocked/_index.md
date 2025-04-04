@@ -2,7 +2,7 @@
 title: OleFormat.isLocked property
 linktitle: isLocked property
 articleTitle: isLocked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.isLocked property. Specifies whether the link to the OLE object is locked from updates."
 type: docs
 weight: 50

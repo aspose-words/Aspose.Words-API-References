@@ -2,7 +2,7 @@
 title: Table.preferredWidth property
 linktitle: preferredWidth property
 articleTitle: preferredWidth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.preferredWidth property. Gets or sets the table preferred width."
 type: docs
 weight: 220

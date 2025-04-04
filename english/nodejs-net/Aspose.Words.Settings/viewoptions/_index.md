@@ -2,7 +2,7 @@
 title: ViewOptions class
 linktitle: ViewOptions class
 articleTitle: ViewOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.ViewOptions class. Provides various options that control how a document is shown in Microsoft Word"
 type: docs
 weight: 190

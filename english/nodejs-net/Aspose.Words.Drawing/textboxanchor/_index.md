@@ -2,7 +2,7 @@
 title: TextBoxAnchor enumeration
 linktitle: TextBoxAnchor enumeration
 articleTitle: TextBoxAnchor enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.TextBoxAnchor enumeration. Specifies values used for shape text vertical alignment."
 type: docs
 weight: 470

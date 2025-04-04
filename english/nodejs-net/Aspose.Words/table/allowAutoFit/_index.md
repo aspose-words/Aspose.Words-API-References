@@ -2,7 +2,7 @@
 title: Table.allowAutoFit property
 linktitle: allowAutoFit property
 articleTitle: allowAutoFit property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.allowAutoFit property. Allows Microsoft Word and Aspose.Words to automatically resize cells in a table to fit their contents."
 type: docs
 weight: 50

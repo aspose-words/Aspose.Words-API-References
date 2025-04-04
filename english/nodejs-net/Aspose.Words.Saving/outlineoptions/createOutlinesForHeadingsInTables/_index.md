@@ -2,7 +2,7 @@
 title: OutlineOptions.createOutlinesForHeadingsInTables property
 linktitle: createOutlinesForHeadingsInTables property
 articleTitle: createOutlinesForHeadingsInTables property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OutlineOptions.createOutlinesForHeadingsInTables property. Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables."
 type: docs
 weight: 40

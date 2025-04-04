@@ -2,7 +2,7 @@
 title: DocumentBuilder.moveToStructuredDocumentTag method
 linktitle: moveToStructuredDocumentTag method
 articleTitle: moveToStructuredDocumentTag method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.moveToStructuredDocumentTag method"
 type: docs
 weight: 620

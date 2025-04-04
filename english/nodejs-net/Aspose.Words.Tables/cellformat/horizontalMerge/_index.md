@@ -2,7 +2,7 @@
 title: CellFormat.horizontalMerge property
 linktitle: horizontalMerge property
 articleTitle: horizontalMerge property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.horizontalMerge property. Specifies how the cell is merged horizontally with other cells in the row."
 type: docs
 weight: 50
@@ -19,36 +19,6 @@ get horizontalMerge(): Aspose.Words.Tables.CellMerge
 ```
 
 ### Examples
-
-Prints the horizontal and vertical merge type of a cell.
-
-```js
-test('CheckCellsMerged', () => {
-  let doc = new aw.Document(base.myDir + "Table with merged cells.docx");
-  let table = doc.firstSection.body.tables.at(0);
-
-  for (let row of table.rows.toArray())
-    for (let cell of row.cells.toArray())
-      console.log(printCellMergeType(cell));
-  expect(printCellMergeType(table.firstRow.firstCell)).toEqual("The cell at R1, C1 is vertically merged");
-});
-
-
-function printCellMergeType(cell)
-{
-  let isHorizontallyMerged = cell.cellFormat.horizontalMerge != aw.Tables.CellMerge.None;
-  let isVerticallyMerged = cell.cellFormat.verticalMerge != aw.Tables.CellMerge.None;
-  let cellLocation =
-    `R${cell.parentRow.parentTable.indexOf(cell.parentRow) + 1}, C${cell.parentRow.indexOf(cell) + 1}`;
-
-  if (isHorizontallyMerged && isVerticallyMerged)
-    return `The cell at ${cellLocation} is both horizontally and vertically merged`;
-  if (isHorizontallyMerged)
-    return `The cell at ${cellLocation} is horizontally merged.`;
-
-  return isVerticallyMerged ? `The cell at ${cellLocation} is vertically merged` : `The cell at ${cellLocation} is not merged`;
-}
-```
 
 Shows how to merge table cells horizontally.
 
@@ -78,6 +48,36 @@ builder.endRow();
 builder.endTable();
 
 doc.save(base.artifactsDir + "CellFormat.horizontalMerge.docx");
+```
+
+Prints the horizontal and vertical merge type of a cell.
+
+```js
+test('CheckCellsMerged', () => {
+  let doc = new aw.Document(base.myDir + "Table with merged cells.docx");
+  let table = doc.firstSection.body.tables.at(0);
+
+  for (let row of table.rows.toArray())
+    for (let cell of row.cells.toArray())
+      console.log(printCellMergeType(cell));
+  expect(printCellMergeType(table.firstRow.firstCell)).toEqual("The cell at R1, C1 is vertically merged");
+});
+
+
+function printCellMergeType(cell)
+{
+  let isHorizontallyMerged = cell.cellFormat.horizontalMerge != aw.Tables.CellMerge.None;
+  let isVerticallyMerged = cell.cellFormat.verticalMerge != aw.Tables.CellMerge.None;
+  let cellLocation =
+    `R${cell.parentRow.parentTable.indexOf(cell.parentRow) + 1}, C${cell.parentRow.indexOf(cell) + 1}`;
+
+  if (isHorizontallyMerged && isVerticallyMerged)
+    return `The cell at ${cellLocation} is both horizontally and vertically merged`;
+  if (isHorizontallyMerged)
+    return `The cell at ${cellLocation} is horizontally merged.`;
+
+  return isVerticallyMerged ? `The cell at ${cellLocation} is vertically merged` : `The cell at ${cellLocation} is not merged`;
+}
 ```
 
 ### See Also

@@ -2,7 +2,7 @@
 title: ChartSeries.dataPoints property
 linktitle: dataPoints property
 articleTitle: dataPoints property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.dataPoints property. Returns a collection of formatting objects for all data points in this series."
 type: docs
 weight: 40

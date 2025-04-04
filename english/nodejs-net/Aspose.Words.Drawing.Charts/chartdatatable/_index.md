@@ -2,7 +2,7 @@
 title: ChartDataTable class
 linktitle: ChartDataTable class
 articleTitle: ChartDataTable class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartDataTable class. Allows to specify properties of a chart data table."
 type: docs
 weight: 240

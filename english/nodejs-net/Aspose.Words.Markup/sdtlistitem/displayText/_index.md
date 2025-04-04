@@ -2,7 +2,7 @@
 title: SdtListItem.displayText property
 linktitle: displayText property
 articleTitle: displayText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SdtListItem.displayText property. Gets the text to display in the run content in place of the [SdtListItem.value](../value/) attribute contents for this list item."
 type: docs
 weight: 20

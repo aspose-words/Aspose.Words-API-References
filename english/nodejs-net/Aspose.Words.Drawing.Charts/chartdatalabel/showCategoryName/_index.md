@@ -2,7 +2,7 @@
 title: ChartDataLabel.showCategoryName property
 linktitle: showCategoryName property
 articleTitle: showCategoryName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.showCategoryName property. Allows to specify if category name is to be displayed for the data labels on a chart"
 type: docs
 weight: 140

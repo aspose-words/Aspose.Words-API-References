@@ -2,7 +2,7 @@
 title: FieldLink.autoUpdate property
 linktitle: autoUpdate property
 articleTitle: autoUpdate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldLink.autoUpdate property. Gets or sets whether to update this field automatically."
 type: docs
 weight: 20

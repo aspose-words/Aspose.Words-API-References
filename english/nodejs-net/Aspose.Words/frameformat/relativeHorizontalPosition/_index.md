@@ -2,7 +2,7 @@
 title: FrameFormat.relativeHorizontalPosition property
 linktitle: relativeHorizontalPosition property
 articleTitle: relativeHorizontalPosition property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FrameFormat.relativeHorizontalPosition property. Gets the relative horizontal position of a frame."
 type: docs
 weight: 70

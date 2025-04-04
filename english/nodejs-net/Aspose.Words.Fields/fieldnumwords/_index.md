@@ -2,7 +2,7 @@
 title: FieldNumWords class
 linktitle: FieldNumWords class
 articleTitle: FieldNumWords class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldNumWords class. Implements the NUMWORDS field"
 type: docs
 weight: 760

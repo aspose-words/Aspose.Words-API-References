@@ -2,7 +2,7 @@
 title: IAiModelText.checkGrammar method
 linktitle: checkGrammar method
 articleTitle: checkGrammar method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IAiModelText.checkGrammar method. Checks grammar of the provided document"
 type: docs
 weight: 10

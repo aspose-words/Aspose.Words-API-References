@@ -2,7 +2,7 @@
 title: FormField.maxLength property
 linktitle: maxLength property
 articleTitle: maxLength property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.maxLength property. Maximum length for the text field"
 type: docs
 weight: 120

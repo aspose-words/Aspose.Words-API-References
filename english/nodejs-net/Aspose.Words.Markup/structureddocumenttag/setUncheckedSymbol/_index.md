@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.setUncheckedSymbol method
 linktitle: setUncheckedSymbol method
 articleTitle: setUncheckedSymbol method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.setUncheckedSymbol method. Sets the symbol used to represent the unchecked state of a check box content control."
 type: docs
 weight: 390

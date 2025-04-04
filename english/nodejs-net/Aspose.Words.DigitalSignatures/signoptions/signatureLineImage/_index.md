@@ -2,7 +2,7 @@
 title: SignOptions.signatureLineImage property
 linktitle: signatureLineImage property
 articleTitle: signatureLineImage property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignOptions.signatureLineImage property. The image that will be shown in associated [SignatureLine](../../../aspose.words.drawing/signatureline/)"
 type: docs
 weight: 70

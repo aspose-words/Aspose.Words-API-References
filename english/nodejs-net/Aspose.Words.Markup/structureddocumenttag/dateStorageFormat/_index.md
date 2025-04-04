@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.dateStorageFormat property
 linktitle: dateStorageFormat property
 articleTitle: dateStorageFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.dateStorageFormat property. Gets/sets format in which the date for a date SDT is stored when the SDT is bound to an XML node in the document's data store"
 type: docs
 weight: 110

@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertDocument method
 linktitle: insertDocument method
 articleTitle: insertDocument method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertDocument method"
 type: docs
 weight: 310

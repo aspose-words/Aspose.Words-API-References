@@ -2,7 +2,7 @@
 title: HeaderFooterCollection.linkToPrevious method
 linktitle: linkToPrevious method
 articleTitle: linkToPrevious method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.HeaderFooterCollection.linkToPrevious method"
 type: docs
 weight: 80

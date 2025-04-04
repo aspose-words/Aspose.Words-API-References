@@ -2,7 +2,7 @@
 title: ChartLegend.position property
 linktitle: position property
 articleTitle: position property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartLegend.position property. Specifies the position of the legend on a chart."
 type: docs
 weight: 50

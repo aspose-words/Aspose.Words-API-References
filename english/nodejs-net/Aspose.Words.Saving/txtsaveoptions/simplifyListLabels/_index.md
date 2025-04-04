@@ -2,7 +2,7 @@
 title: TxtSaveOptions.simplifyListLabels property
 linktitle: simplifyListLabels property
 articleTitle: simplifyListLabels property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtSaveOptions.simplifyListLabels property. Specifies whether the program should simplify list labels in case of complex label formatting not being adequately represented by plain text."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: CompatibilityOptions.wpspaceWidth property
 linktitle: wpspaceWidth property
 articleTitle: wpspaceWidth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.wpspaceWidth property. Specifies whether to set the width of a space as is done in WordPerfect 5.x."
 type: docs
 weight: 700

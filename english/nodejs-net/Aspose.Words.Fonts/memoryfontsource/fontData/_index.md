@@ -2,7 +2,7 @@
 title: MemoryFontSource.fontData property
 linktitle: fontData property
 articleTitle: fontData property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MemoryFontSource.fontData property. Binary font data."
 type: docs
 weight: 30

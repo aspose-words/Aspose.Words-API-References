@@ -2,7 +2,7 @@
 title: TextWatermarkOptions.fontSize property
 linktitle: fontSize property
 articleTitle: fontSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextWatermarkOptions.fontSize property. Gets or sets a font size"
 type: docs
 weight: 40

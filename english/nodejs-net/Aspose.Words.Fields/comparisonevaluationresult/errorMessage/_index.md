@@ -2,7 +2,7 @@
 title: ComparisonEvaluationResult.errorMessage property
 linktitle: errorMessage property
 articleTitle: errorMessage property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ComparisonEvaluationResult.errorMessage property. Gets the failed comparison evaluation result's error message."
 type: docs
 weight: 20

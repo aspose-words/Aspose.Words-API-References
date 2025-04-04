@@ -2,7 +2,7 @@
 title: PageSetup.restartPageNumbering property
 linktitle: restartPageNumbering property
 articleTitle: restartPageNumbering property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.restartPageNumbering property. True if page numbering restarts at the beginning of the section."
 type: docs
 weight: 360

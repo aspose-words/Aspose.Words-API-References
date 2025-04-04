@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.id property
 linktitle: id property
 articleTitle: id property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.id property. Specifies a unique read-only persistent numerical Id for this structured document tag."
 type: docs
 weight: 40

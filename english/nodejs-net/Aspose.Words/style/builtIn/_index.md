@@ -2,7 +2,7 @@
 title: Style.builtIn property
 linktitle: builtIn property
 articleTitle: builtIn property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.builtIn property. True if this style is one of the built-in styles in MS Word."
 type: docs
 weight: 40

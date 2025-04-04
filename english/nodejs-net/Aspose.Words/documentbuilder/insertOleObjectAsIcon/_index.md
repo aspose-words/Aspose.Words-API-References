@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertOleObjectAsIcon method
 linktitle: insertOleObjectAsIcon method
 articleTitle: insertOleObjectAsIcon method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertOleObjectAsIcon method"
 type: docs
 weight: 430

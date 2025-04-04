@@ -2,7 +2,7 @@
 title: FieldCitation.volumeNumber property
 linktitle: volumeNumber property
 articleTitle: volumeNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCitation.volumeNumber property. Gets or sets a volume number associated with the citation."
 type: docs
 weight: 110

@@ -2,7 +2,7 @@
 title: ThemeColors.followedHyperlink property
 linktitle: followedHyperlink property
 articleTitle: followedHyperlink property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThemeColors.followedHyperlink property. Specifies color for a clicked hyperlink."
 type: docs
 weight: 90

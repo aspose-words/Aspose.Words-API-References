@@ -2,7 +2,7 @@
 title: Forms2OleControl.value property
 linktitle: value property
 articleTitle: value property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Forms2OleControl.value property. Gets underlying Value property which often represents control state"
 type: docs
 weight: 90

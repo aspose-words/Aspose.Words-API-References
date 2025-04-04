@@ -2,7 +2,7 @@
 title: Stroke.endArrowLength property
 linktitle: endArrowLength property
 articleTitle: endArrowLength property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.endArrowLength property. Defines the arrowhead length for the end of a stroke."
 type: docs
 weight: 80

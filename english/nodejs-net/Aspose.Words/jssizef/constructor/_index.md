@@ -2,7 +2,7 @@
 title: JSSizeF constructor
 linktitle: JSSizeF constructor
 articleTitle: JSSizeF constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSSizeF constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: ListLabel class
 linktitle: ListLabel class
 articleTitle: ListLabel class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Lists.ListLabel class. Defines properties specific to a list label"
 type: docs
 weight: 30

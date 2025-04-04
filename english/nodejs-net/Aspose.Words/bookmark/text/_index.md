@@ -2,7 +2,7 @@
 title: Bookmark.text property
 linktitle: text property
 articleTitle: text property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Bookmark.text property. Gets or sets the text enclosed in the bookmark."
 type: docs
 weight: 70

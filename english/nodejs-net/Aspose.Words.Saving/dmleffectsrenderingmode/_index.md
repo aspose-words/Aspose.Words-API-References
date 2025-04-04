@@ -2,7 +2,7 @@
 title: DmlEffectsRenderingMode enumeration
 linktitle: DmlEffectsRenderingMode enumeration
 articleTitle: DmlEffectsRenderingMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.DmlEffectsRenderingMode enumeration. Specifies how DrawingML effects are rendered to fixed page formats."
 type: docs
 weight: 80

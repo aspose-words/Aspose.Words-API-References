@@ -2,7 +2,7 @@
 title: RevisionOptions.revisionBarsColor property
 linktitle: revisionBarsColor property
 articleTitle: revisionBarsColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionOptions.revisionBarsColor property. Allows to specify the color to be used for side bars that identify document lines containing revised information"
 type: docs
 weight: 150

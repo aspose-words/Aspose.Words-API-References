@@ -2,7 +2,7 @@
 title: FieldUserAddress.userAddress property
 linktitle: userAddress property
 articleTitle: userAddress property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldUserAddress.userAddress property. Gets or sets the current user's postal address."
 type: docs
 weight: 20

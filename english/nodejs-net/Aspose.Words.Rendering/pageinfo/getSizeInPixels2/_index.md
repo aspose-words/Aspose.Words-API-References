@@ -2,7 +2,7 @@
 title: PageInfo.getSizeInPixels2 method
 linktitle: getSizeInPixels2 method
 articleTitle: getSizeInPixels2 method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Rendering.PageInfo.getSizeInPixels2 method"
 type: docs
 weight: 70

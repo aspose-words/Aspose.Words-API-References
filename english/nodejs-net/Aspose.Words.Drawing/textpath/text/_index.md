@@ -2,7 +2,7 @@
 title: TextPath.text property
 linktitle: text property
 articleTitle: text property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.text property. Defines the text of the text path."
 type: docs
 weight: 160

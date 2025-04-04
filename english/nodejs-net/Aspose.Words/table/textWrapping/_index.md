@@ -2,7 +2,7 @@
 title: Table.textWrapping property
 linktitle: textWrapping property
 articleTitle: textWrapping property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.textWrapping property. Gets or sets [Table.textWrapping](./) for table."
 type: docs
 weight: 310

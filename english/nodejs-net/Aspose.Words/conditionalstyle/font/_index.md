@@ -2,7 +2,7 @@
 title: ConditionalStyle.font property
 linktitle: font property
 articleTitle: font property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.font property. Gets the character formatting of the conditional style."
 type: docs
 weight: 30

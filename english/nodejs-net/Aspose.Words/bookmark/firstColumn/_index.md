@@ -2,7 +2,7 @@
 title: Bookmark.firstColumn property
 linktitle: firstColumn property
 articleTitle: firstColumn property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Bookmark.firstColumn property. Gets the zero-based index of the first column of the table column range associated with the bookmark."
 type: docs
 weight: 30

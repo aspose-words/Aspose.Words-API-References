@@ -2,7 +2,7 @@
 title: FieldIf.evaluateCondition method
 linktitle: evaluateCondition method
 articleTitle: evaluateCondition method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIf.evaluateCondition method. Evaluates the condition."
 type: docs
 weight: 70

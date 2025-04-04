@@ -2,7 +2,7 @@
 title: Font.shadow property
 linktitle: shadow property
 articleTitle: shadow property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.shadow property. True if the font is formatted as shadowed."
 type: docs
 weight: 340

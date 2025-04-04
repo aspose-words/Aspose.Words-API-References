@@ -2,7 +2,7 @@
 title: Font.superscript property
 linktitle: superscript property
 articleTitle: superscript property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.superscript property. True if the font is formatted as superscript."
 type: docs
 weight: 450

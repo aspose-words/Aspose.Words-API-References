@@ -2,7 +2,7 @@
 title: OleFormat.sourceItem property
 linktitle: sourceItem property
 articleTitle: sourceItem property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.sourceItem property. Gets or sets a string that is used to identify the portion of the source file that is being linked."
 type: docs
 weight: 110

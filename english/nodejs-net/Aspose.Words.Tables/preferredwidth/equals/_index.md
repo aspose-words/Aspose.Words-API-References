@@ -2,7 +2,7 @@
 title: PreferredWidth.equals method
 linktitle: equals method
 articleTitle: equals method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PreferredWidth.equals method. Determines whether the specified [PreferredWidth](../) is equal in value to the current [PreferredWidth](../)."
 type: docs
 weight: 30

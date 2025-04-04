@@ -2,7 +2,7 @@
 title: CustomDocumentProperties class
 linktitle: CustomDocumentProperties class
 articleTitle: CustomDocumentProperties class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Properties.CustomDocumentProperties class. A collection of custom document properties"
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: CompareOptions.target property
 linktitle: target property
 articleTitle: target property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompareOptions.target property. Specifies which document shall be used as a target during comparison."
 type: docs
 weight: 130

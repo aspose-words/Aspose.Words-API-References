@@ -2,7 +2,7 @@
 title: BookmarkStart.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarkStart.name property. Gets or sets the bookmark name."
 type: docs
 weight: 30

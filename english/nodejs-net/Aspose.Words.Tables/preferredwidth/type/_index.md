@@ -2,7 +2,7 @@
 title: PreferredWidth.type property
 linktitle: type property
 articleTitle: type property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PreferredWidth.type property. Gets the unit of measure used for this preferred width value."
 type: docs
 weight: 10

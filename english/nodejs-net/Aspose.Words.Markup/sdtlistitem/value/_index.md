@@ -2,7 +2,7 @@
 title: SdtListItem.value property
 linktitle: value property
 articleTitle: value property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SdtListItem.value property. Gets the value of this list item."
 type: docs
 weight: 30

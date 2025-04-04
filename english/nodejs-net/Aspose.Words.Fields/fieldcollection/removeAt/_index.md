@@ -2,7 +2,7 @@
 title: FieldCollection.removeAt method
 linktitle: removeAt method
 articleTitle: removeAt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCollection.removeAt method. Removes a field at the specified index from this collection and from the document."
 type: docs
 weight: 50

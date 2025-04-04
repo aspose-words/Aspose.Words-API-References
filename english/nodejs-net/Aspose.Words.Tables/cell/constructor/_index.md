@@ -2,7 +2,7 @@
 title: Cell constructor
 linktitle: Cell constructor
 articleTitle: Cell constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Cell constructor. Initializes a new instance of the [Cell](../) class."
 type: docs
 weight: 10

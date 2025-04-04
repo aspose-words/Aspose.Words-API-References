@@ -2,7 +2,7 @@
 title: Paragraph.frameFormat property
 linktitle: frameFormat property
 articleTitle: frameFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.frameFormat property. Provides access to the frame formatting properties."
 type: docs
 weight: 30

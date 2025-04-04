@@ -2,7 +2,7 @@
 title: CertificateHolder.create method
 linktitle: create method
 articleTitle: create method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.CertificateHolder.create method"
 type: docs
 weight: 10

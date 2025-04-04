@@ -2,7 +2,7 @@
 title: CompatibilityOptions.overrideTableStyleFontSizeAndJustification property
 linktitle: overrideTableStyleFontSizeAndJustification property
 articleTitle: overrideTableStyleFontSizeAndJustification property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.overrideTableStyleFontSizeAndJustification property. Specifies how the style hierarchy of the document is evaluated."
 type: docs
 weight: 380

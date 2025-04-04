@@ -2,7 +2,7 @@
 title: ChartSeries.dataLabels property
 linktitle: dataLabels property
 articleTitle: dataLabels property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.dataLabels property. Specifies the settings for the data labels for the entire series."
 type: docs
 weight: 30

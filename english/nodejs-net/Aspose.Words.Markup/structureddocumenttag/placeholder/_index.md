@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.placeholder property
 linktitle: placeholder property
 articleTitle: placeholder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.placeholder property. Gets the [BuildingBlock](../../../aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xmlMapping](../xmlMapping/) element or the [StructuredDocumentTag.isShowingPlaceholderText](../isShowingPlaceholderText/) element is ``true``."
 type: docs
 weight: 230

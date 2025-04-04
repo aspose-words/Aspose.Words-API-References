@@ -2,7 +2,7 @@
 title: ListLevel.createPictureBullet method
 linktitle: createPictureBullet method
 articleTitle: createPictureBullet method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.createPictureBullet method. Creates picture bullet shape for the current list level."
 type: docs
 weight: 150

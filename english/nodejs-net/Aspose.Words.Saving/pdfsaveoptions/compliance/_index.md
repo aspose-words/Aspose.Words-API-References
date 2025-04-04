@@ -2,7 +2,7 @@
 title: PdfSaveOptions.compliance property
 linktitle: compliance property
 articleTitle: compliance property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.compliance property. Specifies the PDF standards compliance level for output documents."
 type: docs
 weight: 50

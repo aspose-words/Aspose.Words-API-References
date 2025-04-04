@@ -2,7 +2,7 @@
 title: CompatibilityOptions.noColumnBalance property
 linktitle: noColumnBalance property
 articleTitle: noColumnBalance property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.noColumnBalance property. Do Not Balance Text Columns within a Section."
 type: docs
 weight: 330

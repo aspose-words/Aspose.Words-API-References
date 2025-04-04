@@ -2,7 +2,7 @@
 title: ImageType enumeration
 linktitle: ImageType enumeration
 articleTitle: ImageType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ImageType enumeration. Specifies the type (format) of an image in a Microsoft Word document."
 type: docs
 weight: 230

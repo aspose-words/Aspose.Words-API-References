@@ -2,7 +2,7 @@
 title: PageSetup.borderDistanceFrom property
 linktitle: borderDistanceFrom property
 articleTitle: borderDistanceFrom property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.borderDistanceFrom property. Gets or sets a value that indicates whether the specified page border is measured from the edge of the page or from the text it surrounds."
 type: docs
 weight: 40

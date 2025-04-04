@@ -2,7 +2,7 @@
 title: Forms2OleControlCollection class
 linktitle: Forms2OleControlCollection class
 articleTitle: Forms2OleControlCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Ole.Forms2OleControlCollection class. Represents collection of [Forms2OleControl](../forms2olecontrol/) objects"
 type: docs
 weight: 40

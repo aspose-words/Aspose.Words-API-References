@@ -2,7 +2,7 @@
 title: MetafileRenderingOptions.emulateRenderingToSizeOnPage property
 linktitle: emulateRenderingToSizeOnPage property
 articleTitle: emulateRenderingToSizeOnPage property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MetafileRenderingOptions.emulateRenderingToSizeOnPage property. Gets or sets a value determining whether metafile rendering emulates the display of the metafile according to the size on page or the display of the metafile in its default size."
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: Node.asComment method
 linktitle: asComment method
 articleTitle: asComment method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asComment method. Cast node to [Comment](../../comment/)."
 type: docs
 weight: 150

@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.lastChild property
 linktitle: lastChild property
 articleTitle: lastChild property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.lastChild property. Gets the last child in the stdContent range."
 type: docs
 weight: 60

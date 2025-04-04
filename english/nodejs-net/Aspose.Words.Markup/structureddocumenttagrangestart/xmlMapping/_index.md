@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.xmlMapping property
 linktitle: xmlMapping property
 articleTitle: xmlMapping property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.xmlMapping property. Gets an object that represents the mapping of this structured document tag range to XML data in a custom XML part of the current document."
 type: docs
 weight: 190

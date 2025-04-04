@@ -2,7 +2,7 @@
 title: PdfSaveOptions.exportDocumentStructure property
 linktitle: exportDocumentStructure property
 articleTitle: exportDocumentStructure property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.exportDocumentStructure property. Gets or sets a value determining whether or not to export document structure."
 type: docs
 weight: 140

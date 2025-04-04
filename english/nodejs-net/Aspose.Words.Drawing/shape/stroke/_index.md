@@ -2,7 +2,7 @@
 title: Shape.stroke property
 linktitle: stroke property
 articleTitle: stroke property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.stroke property. Defines a stroke for a shape."
 type: docs
 weight: 190

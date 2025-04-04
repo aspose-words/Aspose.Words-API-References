@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.endCharacterFont property
 linktitle: endCharacterFont property
 articleTitle: endCharacterFont property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.endCharacterFont property. Font formatting that will be applied to the last character of text entered into SDT."
 type: docs
 weight: 120

@@ -2,7 +2,7 @@
 title: MetafileRenderingOptions.emfPlusDualRenderingMode property
 linktitle: emfPlusDualRenderingMode property
 articleTitle: emfPlusDualRenderingMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MetafileRenderingOptions.emfPlusDualRenderingMode property. Gets or sets a value determining how EMF+ Dual metafiles should be rendered."
 type: docs
 weight: 20

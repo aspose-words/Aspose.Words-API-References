@@ -2,7 +2,7 @@
 title: FieldShape constructor
 linktitle: FieldShape constructor
 articleTitle: FieldShape constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldShape constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: FieldSectionPages class
 linktitle: FieldSectionPages class
 articleTitle: FieldSectionPages class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldSectionPages class. Implements the SECTIONPAGES field"
 type: docs
 weight: 900

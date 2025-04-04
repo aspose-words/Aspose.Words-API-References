@@ -2,7 +2,7 @@
 title: PageSetup.clearFormatting method
 linktitle: clearFormatting method
 articleTitle: clearFormatting method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.clearFormatting method. Resets page setup to default paper size, margins and orientation."
 type: docs
 weight: 460

@@ -2,7 +2,7 @@
 title: DefaultFontSubstitutionRule.defaultFontName property
 linktitle: defaultFontName property
 articleTitle: defaultFontName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DefaultFontSubstitutionRule.defaultFontName property. Gets or sets the default font name."
 type: docs
 weight: 10

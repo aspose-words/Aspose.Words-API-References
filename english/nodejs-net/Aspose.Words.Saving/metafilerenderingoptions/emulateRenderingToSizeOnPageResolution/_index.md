@@ -2,7 +2,7 @@
 title: MetafileRenderingOptions.emulateRenderingToSizeOnPageResolution property
 linktitle: emulateRenderingToSizeOnPageResolution property
 articleTitle: emulateRenderingToSizeOnPageResolution property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MetafileRenderingOptions.emulateRenderingToSizeOnPageResolution property. Gets or sets the resolution in pixels per inch for the emulation of metafile rendering to the size on page."
 type: docs
 weight: 50

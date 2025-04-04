@@ -2,7 +2,7 @@
 title: IStructuredDocumentTag.lockContentControl property
 linktitle: lockContentControl property
 articleTitle: lockContentControl property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IStructuredDocumentTag.lockContentControl property. When set to true, this property will prohibit a user from deleting this SDT."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: VbaProject.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VbaProject.name property. Gets or sets VBA project name."
 type: docs
 weight: 60

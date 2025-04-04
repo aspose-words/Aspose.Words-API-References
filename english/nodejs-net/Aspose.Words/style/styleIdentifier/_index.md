@@ -2,7 +2,7 @@
 title: Style.styleIdentifier property
 linktitle: styleIdentifier property
 articleTitle: styleIdentifier property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.styleIdentifier property. Gets the locale independent style identifier for a built-in style."
 type: docs
 weight: 180

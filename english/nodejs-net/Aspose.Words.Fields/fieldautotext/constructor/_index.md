@@ -2,7 +2,7 @@
 title: FieldAutoText constructor
 linktitle: FieldAutoText constructor
 articleTitle: FieldAutoText constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldAutoText constructor. "
 type: docs
 weight: 10

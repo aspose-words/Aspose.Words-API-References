@@ -2,7 +2,7 @@
 title: Field.asFieldSectionPages method
 linktitle: asFieldSectionPages method
 articleTitle: asFieldSectionPages method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldSectionPages method. "
 type: docs
 weight: 860

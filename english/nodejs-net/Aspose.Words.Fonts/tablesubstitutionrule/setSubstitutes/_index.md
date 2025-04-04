@@ -2,7 +2,7 @@
 title: TableSubstitutionRule.setSubstitutes method
 linktitle: setSubstitutes method
 articleTitle: setSubstitutes method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableSubstitutionRule.setSubstitutes method. Override substitute font names for given original font name."
 type: docs
 weight: 80

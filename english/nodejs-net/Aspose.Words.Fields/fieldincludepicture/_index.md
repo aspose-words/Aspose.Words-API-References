@@ -2,7 +2,7 @@
 title: FieldIncludePicture class
 linktitle: FieldIncludePicture class
 articleTitle: FieldIncludePicture class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldIncludePicture class. Implements the INCLUDEPICTURE field"
 type: docs
 weight: 570

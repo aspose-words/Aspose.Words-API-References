@@ -2,7 +2,7 @@
 title: DocumentBuilder.deleteRow method
 linktitle: deleteRow method
 articleTitle: deleteRow method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.deleteRow method. Deletes a row from a table."
 type: docs
 weight: 200

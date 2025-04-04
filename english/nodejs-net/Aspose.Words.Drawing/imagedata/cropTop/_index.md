@@ -2,7 +2,7 @@
 title: ImageData.cropTop property
 linktitle: cropTop property
 articleTitle: cropTop property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.cropTop property. Defines the fraction of picture removal from the top side."
 type: docs
 weight: 90

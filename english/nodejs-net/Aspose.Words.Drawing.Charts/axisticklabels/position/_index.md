@@ -2,7 +2,7 @@
 title: AxisTickLabels.position property
 linktitle: position property
 articleTitle: position property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisTickLabels.position property. Gets or sets the position of the tick labels on the axis."
 type: docs
 weight: 60

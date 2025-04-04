@@ -2,7 +2,7 @@
 title: FontInfo.getEmbeddedFontAsOpenType method
 linktitle: getEmbeddedFontAsOpenType method
 articleTitle: getEmbeddedFontAsOpenType method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontInfo.getEmbeddedFontAsOpenType method. Gets an embedded font file in OpenType format"
 type: docs
 weight: 100

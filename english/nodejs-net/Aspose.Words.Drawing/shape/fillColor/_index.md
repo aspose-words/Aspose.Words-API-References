@@ -2,7 +2,7 @@
 title: Shape.fillColor property
 linktitle: fillColor property
 articleTitle: fillColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.fillColor property. Defines the brush color that fills the closed path of the shape."
 type: docs
 weight: 50

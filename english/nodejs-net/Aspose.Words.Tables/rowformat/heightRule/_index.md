@@ -2,7 +2,7 @@
 title: RowFormat.heightRule property
 linktitle: heightRule property
 articleTitle: heightRule property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RowFormat.heightRule property. Gets or sets the rule for determining the height of the table row."
 type: docs
 weight: 50

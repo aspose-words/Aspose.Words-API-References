@@ -2,7 +2,7 @@
 title: FieldRevNum constructor
 linktitle: FieldRevNum constructor
 articleTitle: FieldRevNum constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldRevNum constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: CellFormat.hideMark property
 linktitle: hideMark property
 articleTitle: hideMark property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.hideMark property. Returns or sets visibility of cell mark."
 type: docs
 weight: 40

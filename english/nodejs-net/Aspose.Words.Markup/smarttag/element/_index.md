@@ -2,7 +2,7 @@
 title: SmartTag.element property
 linktitle: element property
 articleTitle: element property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SmartTag.element property. Specifies the name of the smart tag within the document."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: FieldGoToButton class
 linktitle: FieldGoToButton class
 articleTitle: FieldGoToButton class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldGoToButton class. Implements the GOTOBUTTON field"
 type: docs
 weight: 500

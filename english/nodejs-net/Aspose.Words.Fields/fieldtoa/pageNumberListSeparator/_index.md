@@ -2,7 +2,7 @@
 title: FieldToa.pageNumberListSeparator property
 linktitle: pageNumberListSeparator property
 articleTitle: pageNumberListSeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToa.pageNumberListSeparator property. Gets or sets the character sequence that is used to separate two page numbers in a page number list."
 type: docs
 weight: 50

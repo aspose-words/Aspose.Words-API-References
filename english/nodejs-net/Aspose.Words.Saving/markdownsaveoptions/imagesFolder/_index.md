@@ -2,7 +2,7 @@
 title: MarkdownSaveOptions.imagesFolder property
 linktitle: imagesFolder property
 articleTitle: imagesFolder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.imagesFolder property. Specifies the physical folder where images are saved when exporting a document to the [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format"
 type: docs
 weight: 70

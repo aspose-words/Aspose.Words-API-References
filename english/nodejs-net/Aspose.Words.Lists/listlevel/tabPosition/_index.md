@@ -2,7 +2,7 @@
 title: ListLevel.tabPosition property
 linktitle: tabPosition property
 articleTitle: tabPosition property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.tabPosition property. Returns or sets the tab position (in points) for the list level."
 type: docs
 weight: 120

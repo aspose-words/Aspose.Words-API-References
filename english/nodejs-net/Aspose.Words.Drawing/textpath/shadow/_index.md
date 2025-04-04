@@ -2,7 +2,7 @@
 title: TextPath.shadow property
 linktitle: shadow property
 articleTitle: shadow property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.shadow property. Defines whether a shadow is applied to the text on a text path."
 type: docs
 weight: 110

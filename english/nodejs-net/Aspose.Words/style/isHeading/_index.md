@@ -2,7 +2,7 @@
 title: Style.isHeading property
 linktitle: isHeading property
 articleTitle: isHeading property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.isHeading property. True when the style is one of the built-in Heading styles."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: CellCollection class
 linktitle: CellCollection class
 articleTitle: CellCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.CellCollection class. Provides typed access to a collection of [Cell](../cell/) nodes"
 type: docs
 weight: 30

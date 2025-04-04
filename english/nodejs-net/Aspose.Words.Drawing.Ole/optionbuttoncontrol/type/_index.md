@@ -2,7 +2,7 @@
 title: OptionButtonControl.type property
 linktitle: type property
 articleTitle: type property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OptionButtonControl.type property. Gets type of Forms 2.0 control."
 type: docs
 weight: 20

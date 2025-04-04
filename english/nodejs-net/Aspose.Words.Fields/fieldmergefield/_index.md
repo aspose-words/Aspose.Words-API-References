@@ -2,7 +2,7 @@
 title: FieldMergeField class
 linktitle: FieldMergeField class
 articleTitle: FieldMergeField class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldMergeField class. Implements the MERGEFIELD field"
 type: docs
 weight: 680

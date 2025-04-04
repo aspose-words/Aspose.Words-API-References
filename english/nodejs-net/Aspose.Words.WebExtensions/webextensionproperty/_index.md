@@ -2,7 +2,7 @@
 title: WebExtensionProperty class
 linktitle: WebExtensionProperty class
 articleTitle: WebExtensionProperty class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WebExtensions.WebExtensionProperty class. Specifies a web extension custom property"
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: Field.asFieldAdvance method
 linktitle: asFieldAdvance method
 articleTitle: asFieldAdvance method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldAdvance method. "
 type: docs
 weight: 140

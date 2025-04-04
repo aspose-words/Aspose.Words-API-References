@@ -2,7 +2,7 @@
 title: ParagraphFormat.lineUnitBefore property
 linktitle: lineUnitBefore property
 articleTitle: lineUnitBefore property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.lineUnitBefore property. Gets or sets the amount of spacing (in gridlines) before the paragraphs."
 type: docs
 weight: 220

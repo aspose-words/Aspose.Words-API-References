@@ -2,7 +2,7 @@
 title: SaveOptions.defaultTemplate property
 linktitle: defaultTemplate property
 articleTitle: defaultTemplate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.defaultTemplate property. Gets or sets path to default template (including filename)"
 type: docs
 weight: 20

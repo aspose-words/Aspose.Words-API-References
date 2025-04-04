@@ -2,7 +2,7 @@
 title: Field.asFieldQuote method
 linktitle: asFieldQuote method
 articleTitle: asFieldQuote method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldQuote method. "
 type: docs
 weight: 800

@@ -2,7 +2,7 @@
 title: ImlRenderingMode enumeration
 linktitle: ImlRenderingMode enumeration
 articleTitle: ImlRenderingMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ImlRenderingMode enumeration. Specifies how ink (InkML) objects are rendered to fixed page formats."
 type: docs
 weight: 410

@@ -2,7 +2,7 @@
 title: Footnote.isAuto property
 linktitle: isAuto property
 articleTitle: isAuto property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Footnote.isAuto property. Holds a value that specifies whether this is a auto-numbered footnote or  footnote with user defined custom reference mark."
 type: docs
 weight: 40

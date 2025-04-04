@@ -2,7 +2,7 @@
 title: BorderCollection.shadow property
 linktitle: shadow property
 articleTitle: shadow property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BorderCollection.shadow property. Gets or sets a value indicating whether the border has a shadow."
 type: docs
 weight: 100

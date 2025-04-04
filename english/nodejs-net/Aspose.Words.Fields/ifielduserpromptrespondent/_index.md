@@ -2,7 +2,7 @@
 title: IFieldUserPromptRespondent class
 linktitle: IFieldUserPromptRespondent class
 articleTitle: IFieldUserPromptRespondent class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.IFieldUserPromptRespondent class. Represents the respondent to user prompts during field update."
 type: docs
 weight: 1260

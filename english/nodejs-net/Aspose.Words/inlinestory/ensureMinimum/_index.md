@@ -2,7 +2,7 @@
 title: InlineStory.ensureMinimum method
 linktitle: ensureMinimum method
 articleTitle: ensureMinimum method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "InlineStory.ensureMinimum method. If the last child is not a paragraph, creates and appends one empty paragraph."
 type: docs
 weight: 120

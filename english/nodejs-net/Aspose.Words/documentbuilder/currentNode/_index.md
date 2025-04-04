@@ -2,7 +2,7 @@
 title: DocumentBuilder.currentNode property
 linktitle: currentNode property
 articleTitle: currentNode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.currentNode property. Gets the node that is currently selected in this DocumentBuilder."
 type: docs
 weight: 40

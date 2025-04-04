@@ -2,7 +2,7 @@
 title: ChartSeriesGroup.secondSectionSize property
 linktitle: secondSectionSize property
 articleTitle: secondSectionSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroup.secondSectionSize property. Gets or sets the size of the pie chart secondary section as a percentage."
 type: docs
 weight: 90

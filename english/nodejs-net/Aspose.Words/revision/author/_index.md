@@ -2,7 +2,7 @@
 title: Revision.author property
 linktitle: author property
 articleTitle: author property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Revision.author property. Gets or sets the author of this revision"
 type: docs
 weight: 10

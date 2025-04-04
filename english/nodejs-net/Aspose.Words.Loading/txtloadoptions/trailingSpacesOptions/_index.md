@@ -2,7 +2,7 @@
 title: TxtLoadOptions.trailingSpacesOptions property
 linktitle: trailingSpacesOptions property
 articleTitle: trailingSpacesOptions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtLoadOptions.trailingSpacesOptions property. Gets or sets preferred option of a trailing space handling"
 type: docs
 weight: 70

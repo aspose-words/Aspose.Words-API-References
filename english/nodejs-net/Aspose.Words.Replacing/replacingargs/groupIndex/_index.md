@@ -2,7 +2,7 @@
 title: ReplacingArgs.groupIndex property
 linktitle: groupIndex property
 articleTitle: groupIndex property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ReplacingArgs.groupIndex property. Identifies, by index, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](../replacement/) string."
 type: docs
 weight: 10

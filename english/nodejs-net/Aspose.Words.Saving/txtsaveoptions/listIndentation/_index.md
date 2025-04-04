@@ -2,7 +2,7 @@
 title: TxtSaveOptions.listIndentation property
 linktitle: listIndentation property
 articleTitle: listIndentation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtSaveOptions.listIndentation property. Gets a [TxtListIndentation](../../txtlistindentation/) object that specifies how many and which character to use for indentation of list levels"
 type: docs
 weight: 30

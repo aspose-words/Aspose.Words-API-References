@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitGlossaryDocumentStart method
 linktitle: visitGlossaryDocumentStart method
 articleTitle: visitGlossaryDocumentStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitGlossaryDocumentStart method. Called when enumeration of a glossary document has started."
 type: docs
 weight: 250

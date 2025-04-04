@@ -2,7 +2,7 @@
 title: Stroke.endCap property
 linktitle: endCap property
 articleTitle: endCap property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.endCap property. Defines the cap style for the end of a stroke."
 type: docs
 weight: 110

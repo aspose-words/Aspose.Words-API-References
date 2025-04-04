@@ -2,7 +2,7 @@
 title: FieldCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCollection.remove method. Removes the specified field from this collection and from the document."
 type: docs
 weight: 40

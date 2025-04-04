@@ -2,7 +2,7 @@
 title: RowCollection.toArray method
 linktitle: toArray method
 articleTitle: toArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RowCollection.toArray method. Copies all rows from the collection to a new array of rows."
 type: docs
 weight: 10

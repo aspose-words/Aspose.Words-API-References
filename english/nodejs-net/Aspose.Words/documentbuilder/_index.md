@@ -2,7 +2,7 @@
 title: DocumentBuilder class
 linktitle: DocumentBuilder class
 articleTitle: DocumentBuilder class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder class. Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
 type: docs
 weight: 330

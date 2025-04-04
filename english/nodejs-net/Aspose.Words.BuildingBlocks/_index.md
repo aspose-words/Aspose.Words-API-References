@@ -2,7 +2,7 @@
 title: Aspose.Words.BuildingBlocks module
 linktitle: Aspose.Words.BuildingBlocks module
 articleTitle: Aspose.Words.BuildingBlocks module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.BuildingBlocks module provides classes that allow to access and use AutoText, AutoCorrect entries and Building Blocks in a document."
 type: docs
 weight: 40

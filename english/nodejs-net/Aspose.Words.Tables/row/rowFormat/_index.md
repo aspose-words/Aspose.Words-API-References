@@ -2,7 +2,7 @@
 title: Row.rowFormat property
 linktitle: rowFormat property
 articleTitle: rowFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Row.rowFormat property. Provides access to the formatting properties of the row."
 type: docs
 weight: 110

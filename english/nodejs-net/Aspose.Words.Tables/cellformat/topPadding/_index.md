@@ -2,7 +2,7 @@
 title: CellFormat.topPadding property
 linktitle: topPadding property
 articleTitle: topPadding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.topPadding property. Returns or sets the amount of space (in points) to add above the contents of cell."
 type: docs
 weight: 110

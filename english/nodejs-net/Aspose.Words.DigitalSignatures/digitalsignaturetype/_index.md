@@ -2,7 +2,7 @@
 title: DigitalSignatureType enumeration
 linktitle: DigitalSignatureType enumeration
 articleTitle: DigitalSignatureType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureType enumeration. Specifies the type of a digital signature."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.cssStyleSheetFileName property
 linktitle: cssStyleSheetFileName property
 articleTitle: cssStyleSheetFileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.cssStyleSheetFileName property. Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML"
 type: docs
 weight: 50

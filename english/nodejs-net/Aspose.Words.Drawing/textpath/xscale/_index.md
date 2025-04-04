@@ -2,7 +2,7 @@
 title: TextPath.xscale property
 linktitle: xscale property
 articleTitle: xscale property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.xscale property. Determines whether a straight textpath will be used instead of the shape path."
 type: docs
 weight: 200

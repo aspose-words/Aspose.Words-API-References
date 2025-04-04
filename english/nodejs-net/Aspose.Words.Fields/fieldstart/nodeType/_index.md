@@ -2,7 +2,7 @@
 title: FieldStart.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldStart.nodeType property. Returns [NodeType.FieldStart](../../../aspose.words/nodetype/#FieldStart)."
 type: docs
 weight: 20

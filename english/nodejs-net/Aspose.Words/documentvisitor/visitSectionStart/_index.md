@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitSectionStart method
 linktitle: visitSectionStart method
 articleTitle: visitSectionStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitSectionStart method. Called when enumeration of a section has started."
 type: docs
 weight: 380

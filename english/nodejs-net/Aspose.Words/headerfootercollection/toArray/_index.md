@@ -2,7 +2,7 @@
 title: HeaderFooterCollection.toArray method
 linktitle: toArray method
 articleTitle: toArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HeaderFooterCollection.toArray method. Copies all ``HeaderFooter`` s from the collection to a new array of ``HeaderFooter`` s."
 type: docs
 weight: 90

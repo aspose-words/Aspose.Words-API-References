@@ -2,7 +2,7 @@
 title: TabStopCollection.removeByIndex method
 linktitle: removeByIndex method
 articleTitle: removeByIndex method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStopCollection.removeByIndex method. Removes a tab stop at the specified index from the collection."
 type: docs
 weight: 110

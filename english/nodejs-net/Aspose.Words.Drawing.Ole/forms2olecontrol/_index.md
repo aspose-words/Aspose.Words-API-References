@@ -2,7 +2,7 @@
 title: Forms2OleControl class
 linktitle: Forms2OleControl class
 articleTitle: Forms2OleControl class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Ole.Forms2OleControl class. Represents Microsoft Forms 2.0 OLE control"
 type: docs
 weight: 30

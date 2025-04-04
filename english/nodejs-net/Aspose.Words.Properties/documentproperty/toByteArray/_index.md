@@ -2,7 +2,7 @@
 title: DocumentProperty.toByteArray method
 linktitle: toByteArray method
 articleTitle: toByteArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentProperty.toByteArray method. Returns the property value as byte array."
 type: docs
 weight: 60

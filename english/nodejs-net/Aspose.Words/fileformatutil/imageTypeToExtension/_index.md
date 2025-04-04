@@ -2,7 +2,7 @@
 title: FileFormatUtil.imageTypeToExtension method
 linktitle: imageTypeToExtension method
 articleTitle: imageTypeToExtension method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FileFormatUtil.imageTypeToExtension method. Converts an Aspose.Words image type enumerated value into a file extension"
 type: docs
 weight: 50

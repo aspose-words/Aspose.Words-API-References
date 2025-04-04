@@ -2,7 +2,7 @@
 title: FieldAddIn class
 linktitle: FieldAddIn class
 articleTitle: FieldAddIn class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldAddIn class. Implements the ADDIN field."
 type: docs
 weight: 50

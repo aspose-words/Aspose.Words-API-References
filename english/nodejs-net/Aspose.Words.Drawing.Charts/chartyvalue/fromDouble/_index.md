@@ -2,7 +2,7 @@
 title: ChartYValue.fromDouble method
 linktitle: fromDouble method
 articleTitle: fromDouble method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartYValue.fromDouble method. Creates a [ChartYValue](../) instance of the [ChartYValueType.Double](../../chartyvaluetype/#Double) type."
 type: docs
 weight: 60

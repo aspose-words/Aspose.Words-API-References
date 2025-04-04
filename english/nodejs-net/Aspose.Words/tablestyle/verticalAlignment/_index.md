@@ -2,7 +2,7 @@
 title: TableStyle.verticalAlignment property
 linktitle: verticalAlignment property
 articleTitle: verticalAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableStyle.verticalAlignment property. Specifies the vertical alignment for the cells."
 type: docs
 weight: 150

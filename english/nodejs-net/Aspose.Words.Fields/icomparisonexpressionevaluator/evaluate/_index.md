@@ -2,7 +2,7 @@
 title: IComparisonExpressionEvaluator.evaluate method
 linktitle: evaluate method
 articleTitle: evaluate method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IComparisonExpressionEvaluator.evaluate method. Evaluates comparison expression."
 type: docs
 weight: 10

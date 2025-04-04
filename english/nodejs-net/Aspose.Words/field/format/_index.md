@@ -2,7 +2,7 @@
 title: Field.format property
 linktitle: format property
 articleTitle: format property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.format property. Gets a [FieldFormat](../../../aspose.words.fields/fieldformat/) object that provides typed access to field's formatting."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: Node.asGlossaryDocument method
 linktitle: asGlossaryDocument method
 articleTitle: asGlossaryDocument method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asGlossaryDocument method. Cast node to [GlossaryDocument](../../../aspose.words.buildingblocks/glossarydocument/)."
 type: docs
 weight: 270

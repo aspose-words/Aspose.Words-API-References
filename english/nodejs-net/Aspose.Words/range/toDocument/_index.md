@@ -2,7 +2,7 @@
 title: Range.toDocument method
 linktitle: toDocument method
 articleTitle: toDocument method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Range.toDocument method. Constructs a new fully formed document that contains the range."
 type: docs
 weight: 110

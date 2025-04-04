@@ -2,7 +2,7 @@
 title: IDocumentReaderPlugin class
 linktitle: IDocumentReaderPlugin class
 articleTitle: IDocumentReaderPlugin class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.IDocumentReaderPlugin class. Defines an interface for external reader plugins that can read a file into a document."
 type: docs
 weight: 560

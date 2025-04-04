@@ -2,7 +2,7 @@
 title: ParagraphCollection.toArray method
 linktitle: toArray method
 articleTitle: toArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphCollection.toArray method. Copies all paragraphs from the collection to a new array of paragraphs."
 type: docs
 weight: 10

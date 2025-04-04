@@ -2,7 +2,7 @@
 title: FieldImport constructor
 linktitle: FieldImport constructor
 articleTitle: FieldImport constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldImport constructor. "
 type: docs
 weight: 10

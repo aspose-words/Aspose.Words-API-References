@@ -2,7 +2,7 @@
 title: CompositeNode.prependChild method
 linktitle: prependChild method
 articleTitle: prependChild method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.prependChild method. Adds the specified node to the beginning of the list of child nodes for this node."
 type: docs
 weight: 290

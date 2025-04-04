@@ -2,7 +2,7 @@
 title: SystemFontSource class
 linktitle: SystemFontSource class
 articleTitle: SystemFontSource class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.SystemFontSource class. Represents all TrueType fonts installed to the system"
 type: docs
 weight: 240

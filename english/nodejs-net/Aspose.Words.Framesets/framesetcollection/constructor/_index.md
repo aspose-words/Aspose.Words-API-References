@@ -2,7 +2,7 @@
 title: FramesetCollection constructor
 linktitle: FramesetCollection constructor
 articleTitle: FramesetCollection constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FramesetCollection constructor. "
 type: docs
 weight: 10

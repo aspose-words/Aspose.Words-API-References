@@ -2,7 +2,7 @@
 title: Row.cells property
 linktitle: cells property
 articleTitle: cells property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Row.cells property. Provides typed access to the [Cell](../../cell/) child nodes of the row."
 type: docs
 weight: 20

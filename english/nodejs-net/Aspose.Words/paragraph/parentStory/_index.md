@@ -2,7 +2,7 @@
 title: Paragraph.parentStory property
 linktitle: parentStory property
 articleTitle: parentStory property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.parentStory property. Retrieves the parent section-level story that can be [Body](../../body/) or [HeaderFooter](../../headerfooter/)."
 type: docs
 weight: 210

@@ -2,7 +2,7 @@
 title: BookmarkEnd constructor
 linktitle: BookmarkEnd constructor
 articleTitle: BookmarkEnd constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarkEnd constructor. Initializes a new instance of the [BookmarkEnd](../) class."
 type: docs
 weight: 10

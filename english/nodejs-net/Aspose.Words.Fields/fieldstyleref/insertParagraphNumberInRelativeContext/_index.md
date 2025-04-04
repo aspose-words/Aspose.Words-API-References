@@ -2,7 +2,7 @@
 title: FieldStyleRef.insertParagraphNumberInRelativeContext property
 linktitle: insertParagraphNumberInRelativeContext property
 articleTitle: insertParagraphNumberInRelativeContext property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldStyleRef.insertParagraphNumberInRelativeContext property. Gets or sets whether to insert the paragraph number of the referenced paragraph in relative context."
 type: docs
 weight: 40

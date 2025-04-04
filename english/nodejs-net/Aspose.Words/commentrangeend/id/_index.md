@@ -2,7 +2,7 @@
 title: CommentRangeEnd.id property
 linktitle: id property
 articleTitle: id property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CommentRangeEnd.id property. Specifies the identifier of the comment to which this region is linked to."
 type: docs
 weight: 20

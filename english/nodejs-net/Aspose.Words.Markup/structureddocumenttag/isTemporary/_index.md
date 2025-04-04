@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.isTemporary property
 linktitle: isTemporary property
 articleTitle: isTemporary property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.isTemporary property. Specifies whether this SDT shall be removed from the WordProcessingML document when its contents are modified."
 type: docs
 weight: 160

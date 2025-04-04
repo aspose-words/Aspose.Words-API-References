@@ -2,7 +2,7 @@
 title: TxtSaveOptions class
 linktitle: TxtSaveOptions class
 articleTitle: TxtSaveOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.TxtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Text](../../aspose.words/saveformat/#Text) format"
 type: docs
 weight: 860

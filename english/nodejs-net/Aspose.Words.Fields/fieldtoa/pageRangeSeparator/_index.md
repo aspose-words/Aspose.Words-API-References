@@ -2,7 +2,7 @@
 title: FieldToa.pageRangeSeparator property
 linktitle: pageRangeSeparator property
 articleTitle: pageRangeSeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToa.pageRangeSeparator property. Gets or sets the character sequence that is used to separate the start and end of a page range."
 type: docs
 weight: 60

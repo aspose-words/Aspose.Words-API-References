@@ -2,7 +2,7 @@
 title: FieldToc.insertHyperlinks property
 linktitle: insertHyperlinks property
 articleTitle: insertHyperlinks property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToc.insertHyperlinks property. Gets or sets whether to make the table of contents entries hyperlinks."
 type: docs
 weight: 100

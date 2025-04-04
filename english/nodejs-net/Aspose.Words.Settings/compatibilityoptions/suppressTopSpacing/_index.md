@@ -2,7 +2,7 @@
 title: CompatibilityOptions.suppressTopSpacing property
 linktitle: suppressTopSpacing property
 articleTitle: suppressTopSpacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.suppressTopSpacing property. Ignore Minimum and Exact Line Height for First Line on Page."
 type: docs
 weight: 510

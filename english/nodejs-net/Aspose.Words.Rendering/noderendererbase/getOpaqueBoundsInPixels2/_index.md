@@ -2,7 +2,7 @@
 title: NodeRendererBase.getOpaqueBoundsInPixels2 method
 linktitle: getOpaqueBoundsInPixels2 method
 articleTitle: getOpaqueBoundsInPixels2 method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Rendering.NodeRendererBase.getOpaqueBoundsInPixels2 method"
 type: docs
 weight: 20

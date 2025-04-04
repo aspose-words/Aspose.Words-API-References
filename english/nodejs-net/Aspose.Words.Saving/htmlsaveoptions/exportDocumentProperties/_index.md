@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.exportDocumentProperties property
 linktitle: exportDocumentProperties property
 articleTitle: exportDocumentProperties property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportDocumentProperties property. Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB"
 type: docs
 weight: 120

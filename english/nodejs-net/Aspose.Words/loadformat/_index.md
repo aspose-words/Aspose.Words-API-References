@@ -2,7 +2,7 @@
 title: LoadFormat enumeration
 linktitle: LoadFormat enumeration
 articleTitle: LoadFormat enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.LoadFormat enumeration. Indicates the format of the document that is to be loaded."
 type: docs
 weight: 790

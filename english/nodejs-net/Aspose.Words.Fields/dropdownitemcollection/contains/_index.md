@@ -2,7 +2,7 @@
 title: DropDownItemCollection.contains method
 linktitle: contains method
 articleTitle: contains method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DropDownItemCollection.contains method. Determines whether the collection contains the specified value."
 type: docs
 weight: 50

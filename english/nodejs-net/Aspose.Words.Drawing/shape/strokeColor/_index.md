@@ -2,7 +2,7 @@
 title: Shape.strokeColor property
 linktitle: strokeColor property
 articleTitle: strokeColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.strokeColor property. Defines the color of a stroke."
 type: docs
 weight: 200

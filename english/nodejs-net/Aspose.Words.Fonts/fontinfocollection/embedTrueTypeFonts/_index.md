@@ -2,7 +2,7 @@
 title: FontInfoCollection.embedTrueTypeFonts property
 linktitle: embedTrueTypeFonts property
 articleTitle: embedTrueTypeFonts property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontInfoCollection.embedTrueTypeFonts property. Specifies whether or not to embed TrueType fonts in a document when it is saved"
 type: docs
 weight: 30

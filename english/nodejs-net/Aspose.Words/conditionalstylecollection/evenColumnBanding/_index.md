@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.evenColumnBanding property
 linktitle: evenColumnBanding property
 articleTitle: evenColumnBanding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.evenColumnBanding property. Gets the even column banding style."
 type: docs
 weight: 40

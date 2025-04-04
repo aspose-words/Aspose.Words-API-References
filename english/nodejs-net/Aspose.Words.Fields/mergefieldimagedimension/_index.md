@@ -2,7 +2,7 @@
 title: MergeFieldImageDimension class
 linktitle: MergeFieldImageDimension class
 articleTitle: MergeFieldImageDimension class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.MergeFieldImageDimension class. Represents an image dimension (i.e"
 type: docs
 weight: 1270

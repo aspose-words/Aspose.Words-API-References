@@ -2,7 +2,7 @@
 title: UserInformation constructor
 linktitle: UserInformation constructor
 articleTitle: UserInformation constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "UserInformation constructor. "
 type: docs
 weight: 10

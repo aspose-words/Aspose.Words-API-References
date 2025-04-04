@@ -2,7 +2,7 @@
 title: SpecialChar class
 linktitle: SpecialChar class
 articleTitle: SpecialChar class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.SpecialChar class. Base class for special characters in the document"
 type: docs
 weight: 1220

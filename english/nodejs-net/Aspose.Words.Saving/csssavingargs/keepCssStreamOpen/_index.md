@@ -2,7 +2,7 @@
 title: CssSavingArgs.keepCssStreamOpen property
 linktitle: keepCssStreamOpen property
 articleTitle: keepCssStreamOpen property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CssSavingArgs.keepCssStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information."
 type: docs
 weight: 30

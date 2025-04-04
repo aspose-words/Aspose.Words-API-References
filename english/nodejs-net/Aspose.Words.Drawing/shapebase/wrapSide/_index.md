@@ -2,7 +2,7 @@
 title: ShapeBase.wrapSide property
 linktitle: wrapSide property
 articleTitle: wrapSide property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.wrapSide property. Specifies how the text is wrapped around the shape."
 type: docs
 weight: 570

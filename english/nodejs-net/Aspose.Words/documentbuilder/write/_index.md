@@ -2,7 +2,7 @@
 title: DocumentBuilder.write method
 linktitle: write method
 articleTitle: write method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.write method. Inserts a string into the document at the current insert position."
 type: docs
 weight: 690

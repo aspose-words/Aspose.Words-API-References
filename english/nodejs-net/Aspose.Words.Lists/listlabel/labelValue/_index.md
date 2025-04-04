@@ -2,7 +2,7 @@
 title: ListLabel.labelValue property
 linktitle: labelValue property
 articleTitle: labelValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLabel.labelValue property. Gets a numeric value for this label."
 type: docs
 weight: 30

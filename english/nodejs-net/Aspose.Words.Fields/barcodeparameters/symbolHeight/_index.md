@@ -2,7 +2,7 @@
 title: BarcodeParameters.symbolHeight property
 linktitle: symbolHeight property
 articleTitle: symbolHeight property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters.symbolHeight property. Bar code image height (in twips - 1/1440 inches)"
 type: docs
 weight: 170

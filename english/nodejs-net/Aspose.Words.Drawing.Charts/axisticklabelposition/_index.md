@@ -2,7 +2,7 @@
 title: AxisTickLabelPosition enumeration
 linktitle: AxisTickLabelPosition enumeration
 articleTitle: AxisTickLabelPosition enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisTickLabelPosition enumeration. Specifies the possible positions for tick labels."
 type: docs
 weight: 90

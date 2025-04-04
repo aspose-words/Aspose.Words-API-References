@@ -2,7 +2,7 @@
 title: FieldEmbed class
 linktitle: FieldEmbed class
 articleTitle: FieldEmbed class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldEmbed class. Implements the EMBED field"
 type: docs
 weight: 380

@@ -2,7 +2,7 @@
 title: FieldDatabase.connection property
 linktitle: connection property
 articleTitle: connection property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDatabase.connection property. Gets or sets a connection to the data."
 type: docs
 weight: 20

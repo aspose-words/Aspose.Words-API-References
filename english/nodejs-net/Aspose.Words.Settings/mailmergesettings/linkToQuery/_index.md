@@ -2,7 +2,7 @@
 title: MailMergeSettings.linkToQuery property
 linktitle: linkToQuery property
 articleTitle: linkToQuery property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings.linkToQuery property. Not sure about this one"
 type: docs
 weight: 110

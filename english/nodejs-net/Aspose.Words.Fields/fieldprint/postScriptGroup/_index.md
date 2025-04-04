@@ -2,7 +2,7 @@
 title: FieldPrint.postScriptGroup property
 linktitle: postScriptGroup property
 articleTitle: postScriptGroup property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldPrint.postScriptGroup property. Gets or sets the drawing rectangle that the PostScript instructions operate on."
 type: docs
 weight: 20

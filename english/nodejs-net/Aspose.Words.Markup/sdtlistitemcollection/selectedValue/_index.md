@@ -2,7 +2,7 @@
 title: SdtListItemCollection.selectedValue property
 linktitle: selectedValue property
 articleTitle: selectedValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SdtListItemCollection.selectedValue property. Specifies currently selected value in this list"
 type: docs
 weight: 20

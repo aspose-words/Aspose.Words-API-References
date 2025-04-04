@@ -2,7 +2,7 @@
 title: ChartXValue.fromDateTime method
 linktitle: fromDateTime method
 articleTitle: fromDateTime method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartXValue.fromDateTime method. Creates a [ChartXValue](../) instance of the [ChartXValueType.DateTime](../../chartxvaluetype/#DateTime) type."
 type: docs
 weight: 70

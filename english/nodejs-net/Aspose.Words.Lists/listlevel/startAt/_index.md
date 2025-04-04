@@ -2,7 +2,7 @@
 title: ListLevel.startAt property
 linktitle: startAt property
 articleTitle: startAt property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.startAt property. Returns or sets the starting number for this list level."
 type: docs
 weight: 110

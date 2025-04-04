@@ -2,7 +2,7 @@
 title: FieldFootnoteRef class
 linktitle: FieldFootnoteRef class
 articleTitle: FieldFootnoteRef class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldFootnoteRef class. Implements the FOOTNOTEREF field"
 type: docs
 weight: 430

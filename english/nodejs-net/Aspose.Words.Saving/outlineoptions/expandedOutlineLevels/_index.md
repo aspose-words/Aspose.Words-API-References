@@ -2,7 +2,7 @@
 title: OutlineOptions.expandedOutlineLevels property
 linktitle: expandedOutlineLevels property
 articleTitle: expandedOutlineLevels property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OutlineOptions.expandedOutlineLevels property. Specifies how many levels in the document outline to show expanded when the file is viewed."
 type: docs
 weight: 60

@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertTextInput method
 linktitle: insertTextInput method
 articleTitle: insertTextInput method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.insertTextInput method. Inserts a text form field at the current position."
 type: docs
 weight: 510

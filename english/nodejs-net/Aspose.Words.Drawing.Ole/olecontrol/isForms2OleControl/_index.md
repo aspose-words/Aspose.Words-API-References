@@ -2,7 +2,7 @@
 title: OleControl.isForms2OleControl property
 linktitle: isForms2OleControl property
 articleTitle: isForms2OleControl property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleControl.isForms2OleControl property. Returns ``true`` if the control is a [Forms2OleControl](../../forms2olecontrol/)."
 type: docs
 weight: 10

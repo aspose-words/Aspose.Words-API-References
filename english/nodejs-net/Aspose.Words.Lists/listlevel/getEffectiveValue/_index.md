@@ -2,7 +2,7 @@
 title: ListLevel.getEffectiveValue method
 linktitle: getEffectiveValue method
 articleTitle: getEffectiveValue method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.getEffectiveValue method. Reports the string representation of the [ListLevel](../) object for the specified index of the list item"
 type: docs
 weight: 180

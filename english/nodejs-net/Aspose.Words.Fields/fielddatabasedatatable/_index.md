@@ -2,7 +2,7 @@
 title: FieldDatabaseDataTable class
 linktitle: FieldDatabaseDataTable class
 articleTitle: FieldDatabaseDataTable class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldDatabaseDataTable class. Provides data for the [FieldDatabase](../fielddatabase/) field result"
 type: docs
 weight: 290

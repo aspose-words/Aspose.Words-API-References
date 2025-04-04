@@ -2,7 +2,7 @@
 title: ChartAxis.scaling property
 linktitle: scaling property
 articleTitle: scaling property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.scaling property. Provides access to the scaling options of the axis."
 type: docs
 weight: 220

@@ -2,7 +2,7 @@
 title: ChartDataLabel.orientation property
 linktitle: orientation property
 articleTitle: orientation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.orientation property. Gets or sets the orientation of the label text."
 type: docs
 weight: 90

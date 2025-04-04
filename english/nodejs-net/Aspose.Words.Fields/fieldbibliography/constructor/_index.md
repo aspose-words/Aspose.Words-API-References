@@ -2,7 +2,7 @@
 title: FieldBibliography constructor
 linktitle: FieldBibliography constructor
 articleTitle: FieldBibliography constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldBibliography constructor. "
 type: docs
 weight: 10

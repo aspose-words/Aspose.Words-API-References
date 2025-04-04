@@ -2,7 +2,7 @@
 title: Field.asFieldSection method
 linktitle: asFieldSection method
 articleTitle: asFieldSection method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldSection method. "
 type: docs
 weight: 850

@@ -2,7 +2,7 @@
 title: Table.absoluteHorizontalDistance property
 linktitle: absoluteHorizontalDistance property
 articleTitle: absoluteHorizontalDistance property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.absoluteHorizontalDistance property. Gets or sets absolute horizontal floating table position specified by the table properties, in points"
 type: docs
 weight: 20

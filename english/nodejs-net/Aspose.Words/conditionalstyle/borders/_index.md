@@ -2,7 +2,7 @@
 title: ConditionalStyle.borders property
 linktitle: borders property
 articleTitle: borders property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.borders property. Gets the collection of default cell borders for the conditional style."
 type: docs
 weight: 10

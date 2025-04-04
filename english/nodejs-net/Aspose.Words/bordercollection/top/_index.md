@@ -2,7 +2,7 @@
 title: BorderCollection.top property
 linktitle: top property
 articleTitle: top property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BorderCollection.top property. Gets the top border."
 type: docs
 weight: 130

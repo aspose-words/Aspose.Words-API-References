@@ -2,7 +2,7 @@
 title: ImageData.imageType property
 linktitle: imageType property
 articleTitle: imageType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.imageType property. Gets the type of the image."
 type: docs
 weight: 140

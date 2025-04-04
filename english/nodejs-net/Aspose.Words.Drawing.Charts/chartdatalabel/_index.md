@@ -2,7 +2,7 @@
 title: ChartDataLabel class
 linktitle: ChartDataLabel class
 articleTitle: ChartDataLabel class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartDataLabel class. Represents data label on a chart point or trendline"
 type: docs
 weight: 180

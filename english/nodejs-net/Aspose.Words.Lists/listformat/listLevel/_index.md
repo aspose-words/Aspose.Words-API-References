@@ -2,7 +2,7 @@
 title: ListFormat.listLevel property
 linktitle: listLevel property
 articleTitle: listLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListFormat.listLevel property. Returns the list level formatting plus any formatting overrides applied to the current paragraph."
 type: docs
 weight: 30

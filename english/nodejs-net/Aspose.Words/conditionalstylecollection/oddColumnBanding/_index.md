@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.oddColumnBanding property
 linktitle: oddColumnBanding property
 articleTitle: oddColumnBanding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.oddColumnBanding property. Gets the odd column banding style."
 type: docs
 weight: 100

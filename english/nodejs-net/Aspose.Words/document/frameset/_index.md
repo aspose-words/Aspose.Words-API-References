@@ -2,7 +2,7 @@
 title: Document.frameset property
 linktitle: frameset property
 articleTitle: frameset property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.frameset property. Returns a [Document.frameset](./) instance if this document represents a frames page."
 type: docs
 weight: 170

@@ -2,7 +2,7 @@
 title: AiModel.create method
 linktitle: create method
 articleTitle: create method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AiModel.create method. Creates a new instance of [AiModel](../) class."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: FindReplaceOptions.applyParagraphFormat property
 linktitle: applyParagraphFormat property
 articleTitle: applyParagraphFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.applyParagraphFormat property. Paragraph formatting applied to new content."
 type: docs
 weight: 30

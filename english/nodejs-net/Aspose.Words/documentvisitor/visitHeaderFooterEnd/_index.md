@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitHeaderFooterEnd method
 linktitle: visitHeaderFooterEnd method
 articleTitle: visitHeaderFooterEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitHeaderFooterEnd method. Called when enumeration of a header or footer in a section has ended."
 type: docs
 weight: 280

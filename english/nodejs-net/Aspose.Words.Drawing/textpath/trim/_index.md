@@ -2,7 +2,7 @@
 title: TextPath.trim property
 linktitle: trim property
 articleTitle: trim property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.trim property. Determines whether extra space is removed above and below the text."
 type: docs
 weight: 180

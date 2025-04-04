@@ -2,7 +2,7 @@
 title: ChartSeriesGroup.axisY property
 linktitle: axisY property
 articleTitle: axisY property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroup.axisY property. Provides access to properties of the Y axis of this series group."
 type: docs
 weight: 30

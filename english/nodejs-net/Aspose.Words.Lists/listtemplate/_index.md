@@ -2,7 +2,7 @@
 title: ListTemplate enumeration
 linktitle: ListTemplate enumeration
 articleTitle: ListTemplate enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Lists.ListTemplate enumeration. Specifies one of the predefined list formats available in Microsoft Word."
 type: docs
 weight: 70

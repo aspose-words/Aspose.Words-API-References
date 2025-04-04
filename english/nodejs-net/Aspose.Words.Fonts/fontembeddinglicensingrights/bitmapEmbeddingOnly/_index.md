@@ -2,7 +2,7 @@
 title: FontEmbeddingLicensingRights.bitmapEmbeddingOnly property
 linktitle: bitmapEmbeddingOnly property
 articleTitle: bitmapEmbeddingOnly property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontEmbeddingLicensingRights.bitmapEmbeddingOnly property. Indicates the Bitmap embedding only restriction."
 type: docs
 weight: 10

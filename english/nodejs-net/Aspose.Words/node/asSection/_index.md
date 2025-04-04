@@ -2,7 +2,7 @@
 title: Node.asSection method
 linktitle: asSection method
 articleTitle: asSection method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asSection method. Cast node to [Section](../../section/)."
 type: docs
 weight: 340

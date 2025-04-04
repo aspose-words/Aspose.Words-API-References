@@ -2,7 +2,7 @@
 title: Field.asFieldShape method
 linktitle: asFieldShape method
 articleTitle: asFieldShape method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldShape method. "
 type: docs
 weight: 890

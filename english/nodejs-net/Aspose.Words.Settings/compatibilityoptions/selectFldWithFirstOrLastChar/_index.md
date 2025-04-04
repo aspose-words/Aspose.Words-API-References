@@ -2,7 +2,7 @@
 title: CompatibilityOptions.selectFldWithFirstOrLastChar property
 linktitle: selectFldWithFirstOrLastChar property
 articleTitle: selectFldWithFirstOrLastChar property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.selectFldWithFirstOrLastChar property. Select Field When First or Last Character Is Selected."
 type: docs
 weight: 410

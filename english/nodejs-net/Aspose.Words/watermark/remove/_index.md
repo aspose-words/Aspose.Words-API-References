@@ -2,7 +2,7 @@
 title: Watermark.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Watermark.remove method. Removes the watermark."
 type: docs
 weight: 20

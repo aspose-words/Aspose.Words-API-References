@@ -2,7 +2,7 @@
 title: Revision.accept method
 linktitle: accept method
 articleTitle: accept method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Revision.accept method. Accepts this revision."
 type: docs
 weight: 70

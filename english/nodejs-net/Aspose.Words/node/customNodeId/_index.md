@@ -2,7 +2,7 @@
 title: Node.customNodeId property
 linktitle: customNodeId property
 articleTitle: customNodeId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.customNodeId property. Specifies custom node identifier."
 type: docs
 weight: 10

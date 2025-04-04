@@ -2,7 +2,7 @@
 title: JoinStyle enumeration
 linktitle: JoinStyle enumeration
 articleTitle: JoinStyle enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.JoinStyle enumeration. Line join style."
 type: docs
 weight: 240

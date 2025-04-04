@@ -2,7 +2,7 @@
 title: Source.refOrder property
 linktitle: refOrder property
 articleTitle: refOrder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.refOrder property. Gets or sets the reference order of a source."
 type: docs
 weight: 380

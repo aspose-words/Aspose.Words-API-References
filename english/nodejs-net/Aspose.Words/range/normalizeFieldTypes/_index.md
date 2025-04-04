@@ -2,7 +2,7 @@
 title: Range.normalizeFieldTypes method
 linktitle: normalizeFieldTypes method
 articleTitle: normalizeFieldTypes method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Range.normalizeFieldTypes method. Changes field type values [FieldChar.fieldType](../../../aspose.words.fields/fieldchar/fieldType/) of [FieldStart](../../../aspose.words.fields/fieldstart/), [FieldSeparator](../../../aspose.words.fields/fieldseparator/), [FieldEnd](../../../aspose.words.fields/fieldend/) in this range so that they correspond to the field types contained in the field codes."
 type: docs
 weight: 80

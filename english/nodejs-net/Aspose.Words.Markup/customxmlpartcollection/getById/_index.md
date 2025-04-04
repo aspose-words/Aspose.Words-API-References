@@ -2,7 +2,7 @@
 title: CustomXmlPartCollection.getById method
 linktitle: getById method
 articleTitle: getById method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlPartCollection.getById method. Finds and returns a custom XML part by its identifier."
 type: docs
 weight: 70

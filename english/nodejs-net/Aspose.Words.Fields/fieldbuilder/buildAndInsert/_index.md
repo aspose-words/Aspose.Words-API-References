@@ -2,7 +2,7 @@
 title: FieldBuilder.buildAndInsert method
 linktitle: buildAndInsert method
 articleTitle: buildAndInsert method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldBuilder.buildAndInsert method"
 type: docs
 weight: 40

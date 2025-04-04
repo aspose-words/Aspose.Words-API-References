@@ -2,7 +2,7 @@
 title: Theme.minorFonts property
 linktitle: minorFonts property
 articleTitle: minorFonts property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Theme.minorFonts property. Allows to specify the set of minor fonts for different languages."
 type: docs
 weight: 40

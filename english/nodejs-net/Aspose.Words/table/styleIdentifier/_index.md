@@ -2,7 +2,7 @@
 title: Table.styleIdentifier property
 linktitle: styleIdentifier property
 articleTitle: styleIdentifier property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.styleIdentifier property. Gets or sets the locale independent style identifier of the table style applied to this table."
 type: docs
 weight: 280

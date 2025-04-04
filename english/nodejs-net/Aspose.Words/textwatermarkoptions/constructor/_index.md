@@ -2,7 +2,7 @@
 title: TextWatermarkOptions constructor
 linktitle: TextWatermarkOptions constructor
 articleTitle: TextWatermarkOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextWatermarkOptions constructor. "
 type: docs
 weight: 10

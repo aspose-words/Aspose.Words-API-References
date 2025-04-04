@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.styleName property
 linktitle: styleName property
 articleTitle: styleName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.styleName property. Gets or sets the name of the style applied to the structured document tag."
 type: docs
 weight: 270

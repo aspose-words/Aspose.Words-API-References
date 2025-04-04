@@ -2,7 +2,7 @@
 title: BookmarkEnd.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarkEnd.nodeType property. Returns [NodeType.BookmarkEnd](../../nodetype/#BookmarkEnd)."
 type: docs
 weight: 30

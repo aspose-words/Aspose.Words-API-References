@@ -2,7 +2,7 @@
 title: Comment constructor
 linktitle: Comment constructor
 articleTitle: Comment constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Comment constructor"
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: Bookmark.bookmarkEnd property
 linktitle: bookmarkEnd property
 articleTitle: bookmarkEnd property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Bookmark.bookmarkEnd property. Gets the node that represents the end of the bookmark."
 type: docs
 weight: 10

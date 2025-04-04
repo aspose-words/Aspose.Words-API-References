@@ -2,7 +2,7 @@
 title: LayoutCollector.getEndPageIndex method
 linktitle: getEndPageIndex method
 articleTitle: getEndPageIndex method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutCollector.getEndPageIndex method. Gets 1-based index of the page where node ends"
 type: docs
 weight: 40

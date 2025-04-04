@@ -2,7 +2,7 @@
 title: ColorMode enumeration
 linktitle: ColorMode enumeration
 articleTitle: ColorMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ColorMode enumeration. Specifies how colors are rendered."
 type: docs
 weight: 20

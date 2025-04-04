@@ -2,7 +2,7 @@
 title: AxisTickLabels.rotation property
 linktitle: rotation property
 articleTitle: rotation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisTickLabels.rotation property. Gets or sets the rotation of the tick labels in degrees."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: FieldUserName constructor
 linktitle: FieldUserName constructor
 articleTitle: FieldUserName constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldUserName constructor. "
 type: docs
 weight: 10

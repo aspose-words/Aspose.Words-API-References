@@ -2,7 +2,7 @@
 title: DropDownItemCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DropDownItemCollection.remove method. Removes the specified value from the collection."
 type: docs
 weight: 80

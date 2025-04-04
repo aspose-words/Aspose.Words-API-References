@@ -2,7 +2,7 @@
 title: HtmlOfficeMathOutputMode enumeration
 linktitle: HtmlOfficeMathOutputMode enumeration
 articleTitle: HtmlOfficeMathOutputMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.HtmlOfficeMathOutputMode enumeration. Specifies how Aspose.Words exports OfficeMath to HTML, MHTML and EPUB."
 type: docs
 weight: 260

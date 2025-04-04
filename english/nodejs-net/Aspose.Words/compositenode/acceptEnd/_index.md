@@ -2,7 +2,7 @@
 title: CompositeNode.acceptEnd method
 linktitle: acceptEnd method
 articleTitle: acceptEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.acceptEnd method. When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor."
 type: docs
 weight: 60

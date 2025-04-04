@@ -2,7 +2,7 @@
 title: Field.asFieldSeq method
 linktitle: asFieldSeq method
 articleTitle: asFieldSeq method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldSeq method. "
 type: docs
 weight: 870

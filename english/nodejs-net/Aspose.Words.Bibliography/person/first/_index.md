@@ -2,7 +2,7 @@
 title: Person.first property
 linktitle: first property
 articleTitle: first property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Person.first property. Gets or sets the first name of a person."
 type: docs
 weight: 20

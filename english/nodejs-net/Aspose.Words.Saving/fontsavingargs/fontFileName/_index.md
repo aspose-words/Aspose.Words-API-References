@@ -2,7 +2,7 @@
 title: FontSavingArgs.fontFileName property
 linktitle: fontFileName property
 articleTitle: fontFileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSavingArgs.fontFileName property. Gets or sets the file name (without path) where the font will be saved to."
 type: docs
 weight: 40

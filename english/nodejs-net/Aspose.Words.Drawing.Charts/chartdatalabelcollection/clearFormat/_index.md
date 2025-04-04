@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection.clearFormat method
 linktitle: clearFormat method
 articleTitle: clearFormat method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.clearFormat method. Clears format of all [ChartDataLabel](../../chartdatalabel/) in this collection."
 type: docs
 weight: 180

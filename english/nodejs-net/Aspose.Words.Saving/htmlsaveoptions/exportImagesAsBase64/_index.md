@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.exportImagesAsBase64 property
 linktitle: exportImagesAsBase64 property
 articleTitle: exportImagesAsBase64 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportImagesAsBase64 property. Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB"
 type: docs
 weight: 170

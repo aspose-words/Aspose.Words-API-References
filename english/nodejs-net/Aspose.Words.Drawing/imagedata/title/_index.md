@@ -2,7 +2,7 @@
 title: ImageData.title property
 linktitle: title property
 articleTitle: title property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.title property. Defines the title of an image."
 type: docs
 weight: 180

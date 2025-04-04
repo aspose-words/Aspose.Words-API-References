@@ -2,7 +2,7 @@
 title: PdfDigitalSignatureDetails.location property
 linktitle: location property
 articleTitle: location property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfDigitalSignatureDetails.location property. Gets or sets the location of the signing."
 type: docs
 weight: 40

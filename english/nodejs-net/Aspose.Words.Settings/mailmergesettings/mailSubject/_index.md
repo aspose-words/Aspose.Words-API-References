@@ -2,7 +2,7 @@
 title: MailMergeSettings.mailSubject property
 linktitle: mailSubject property
 articleTitle: mailSubject property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings.mailSubject property. Specifies the text which shall appear in the subject line of the e-mails or faxes produced during mail merge"
 type: docs
 weight: 130

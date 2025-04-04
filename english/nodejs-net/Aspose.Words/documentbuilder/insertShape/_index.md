@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertShape method
 linktitle: insertShape method
 articleTitle: insertShape method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertShape method"
 type: docs
 weight: 460

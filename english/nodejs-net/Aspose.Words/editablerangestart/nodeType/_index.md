@@ -2,7 +2,7 @@
 title: EditableRangeStart.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EditableRangeStart.nodeType property. Returns [NodeType.EditableRangeStart](../../nodetype/#EditableRangeStart)."
 type: docs
 weight: 30

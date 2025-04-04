@@ -2,7 +2,7 @@
 title: ChartYValueCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartYValueCollection.count property. Gets the number of items in this collection."
 type: docs
 weight: 10

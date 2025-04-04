@@ -2,7 +2,7 @@
 title: EndnoteOptions class
 linktitle: EndnoteOptions class
 articleTitle: EndnoteOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.EndnoteOptions class. Represents the endnote numbering options for a document or section"
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: Footnote.acceptEnd method
 linktitle: acceptEnd method
 articleTitle: acceptEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Footnote.acceptEnd method. Accepts a visitor for visiting the end of the footnote."
 type: docs
 weight: 90

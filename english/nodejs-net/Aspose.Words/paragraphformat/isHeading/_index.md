@@ -2,7 +2,7 @@
 title: ParagraphFormat.isHeading property
 linktitle: isHeading property
 articleTitle: isHeading property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.isHeading property. True when the paragraph style is one of the built-in Heading styles."
 type: docs
 weight: 140

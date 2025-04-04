@@ -2,7 +2,7 @@
 title: ShapeBase.adjustWithEffects method
 linktitle: adjustWithEffects method
 articleTitle: adjustWithEffects method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.adjustWithEffects method. "
 type: docs
 weight: 600

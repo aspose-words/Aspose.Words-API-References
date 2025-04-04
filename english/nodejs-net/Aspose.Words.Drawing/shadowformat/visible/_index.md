@@ -2,7 +2,7 @@
 title: ShadowFormat.visible property
 linktitle: visible property
 articleTitle: visible property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShadowFormat.visible property. Returns ``true`` if the formatting applied to this instance is visible."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: AutoFitBehavior enumeration
 linktitle: AutoFitBehavior enumeration
 articleTitle: AutoFitBehavior enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.AutoFitBehavior enumeration. Determines how Aspose.Words resizes the table when you invoke the [Table.autoFit()](../../aspose.words/table/autoFit/#autofitbehavior) method."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: OdtSaveOptions constructor
 linktitle: OdtSaveOptions constructor
 articleTitle: OdtSaveOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.OdtSaveOptions constructor"
 type: docs
 weight: 10

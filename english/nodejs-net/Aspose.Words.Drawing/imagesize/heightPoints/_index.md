@@ -2,7 +2,7 @@
 title: ImageSize.heightPoints property
 linktitle: heightPoints property
 articleTitle: heightPoints property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSize.heightPoints property. Gets the height of the image in points"
 type: docs
 weight: 30

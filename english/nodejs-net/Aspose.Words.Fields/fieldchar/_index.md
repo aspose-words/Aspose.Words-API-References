@@ -2,7 +2,7 @@
 title: FieldChar class
 linktitle: FieldChar class
 articleTitle: FieldChar class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldChar class. Base class for nodes that represent field characters in a document"
 type: docs
 weight: 200

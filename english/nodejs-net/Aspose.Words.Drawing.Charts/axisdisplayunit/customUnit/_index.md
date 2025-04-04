@@ -2,7 +2,7 @@
 title: AxisDisplayUnit.customUnit property
 linktitle: customUnit property
 articleTitle: customUnit property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisDisplayUnit.customUnit property. Gets or sets a user-defined divisor to scale display units on the value axis."
 type: docs
 weight: 20

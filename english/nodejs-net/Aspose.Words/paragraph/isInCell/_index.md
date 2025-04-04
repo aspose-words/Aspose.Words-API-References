@@ -2,7 +2,7 @@
 title: Paragraph.isInCell property
 linktitle: isInCell property
 articleTitle: isInCell property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.isInCell property. True if this paragraph is an immediate child of [Cell](../../../aspose.words.tables/cell/); false otherwise."
 type: docs
 weight: 100

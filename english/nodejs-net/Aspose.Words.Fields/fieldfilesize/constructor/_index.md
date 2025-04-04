@@ -2,7 +2,7 @@
 title: FieldFileSize constructor
 linktitle: FieldFileSize constructor
 articleTitle: FieldFileSize constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFileSize constructor. "
 type: docs
 weight: 10

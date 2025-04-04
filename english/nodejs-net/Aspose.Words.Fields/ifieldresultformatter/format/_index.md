@@ -2,7 +2,7 @@
 title: IFieldResultFormatter.format method
 linktitle: format method
 articleTitle: format method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.IFieldResultFormatter.format method"
 type: docs
 weight: 10

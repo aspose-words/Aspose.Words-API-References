@@ -2,7 +2,7 @@
 title: ThemeColors.hyperlink property
 linktitle: hyperlink property
 articleTitle: hyperlink property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThemeColors.hyperlink property. Specifies color for a hyperlink."
 type: docs
 weight: 100

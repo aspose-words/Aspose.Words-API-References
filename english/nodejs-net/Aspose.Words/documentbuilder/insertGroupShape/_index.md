@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertGroupShape method
 linktitle: insertGroupShape method
 articleTitle: insertGroupShape method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertGroupShape method"
 type: docs
 weight: 360

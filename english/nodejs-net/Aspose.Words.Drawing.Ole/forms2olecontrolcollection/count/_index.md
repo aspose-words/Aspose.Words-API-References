@@ -2,7 +2,7 @@
 title: Forms2OleControlCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Forms2OleControlCollection.count property. Gets count of objects in the collection."
 type: docs
 weight: 20

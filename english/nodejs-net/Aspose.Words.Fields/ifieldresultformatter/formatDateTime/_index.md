@@ -2,7 +2,7 @@
 title: IFieldResultFormatter.formatDateTime method
 linktitle: formatDateTime method
 articleTitle: formatDateTime method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFieldResultFormatter.formatDateTime method. Called when Aspose.Words applies a date/time format switch, i.e"
 type: docs
 weight: 20

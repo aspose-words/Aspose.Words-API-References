@@ -2,7 +2,7 @@
 title: ListLevel.deletePictureBullet method
 linktitle: deletePictureBullet method
 articleTitle: deletePictureBullet method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.deletePictureBullet method. Deletes picture bullet for the current list level."
 type: docs
 weight: 160

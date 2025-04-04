@@ -2,7 +2,7 @@
 title: OutlineLevel enumeration
 linktitle: OutlineLevel enumeration
 articleTitle: OutlineLevel enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.OutlineLevel enumeration. Specifies the outline level of a paragraph in the document."
 type: docs
 weight: 930

@@ -2,7 +2,7 @@
 title: CheckGrammarOptions.makeRevisions property
 linktitle: makeRevisions property
 articleTitle: makeRevisions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CheckGrammarOptions.makeRevisions property. Allows to specify either final or revised document to be returned with proofed text"
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: PdfSaveOptions.attachmentsEmbeddingMode property
 linktitle: attachmentsEmbeddingMode property
 articleTitle: attachmentsEmbeddingMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.attachmentsEmbeddingMode property. Gets or sets a value determining how attachments are embedded to the PDF document."
 type: docs
 weight: 30

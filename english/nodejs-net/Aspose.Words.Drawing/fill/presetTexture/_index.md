@@ -2,7 +2,7 @@
 title: Fill.presetTexture property
 linktitle: presetTexture property
 articleTitle: presetTexture property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.presetTexture property. Gets a [PresetTexture](../../presettexture/) for the fill."
 type: docs
 weight: 170

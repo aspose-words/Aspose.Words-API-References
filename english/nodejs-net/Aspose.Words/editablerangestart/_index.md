@@ -2,7 +2,7 @@
 title: EditableRangeStart class
 linktitle: EditableRangeStart class
 articleTitle: EditableRangeStart class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.EditableRangeStart class. Represents a start of an editable range in a Word document"
 type: docs
 weight: 390

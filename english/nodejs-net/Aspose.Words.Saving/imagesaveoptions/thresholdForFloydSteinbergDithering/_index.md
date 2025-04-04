@@ -2,7 +2,7 @@
 title: ImageSaveOptions.thresholdForFloydSteinbergDithering property
 linktitle: thresholdForFloydSteinbergDithering property
 articleTitle: thresholdForFloydSteinbergDithering property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.thresholdForFloydSteinbergDithering property. Gets or sets the threshold that determines the value of the binarization error in the Floyd-Steinberg method"
 type: docs
 weight: 130

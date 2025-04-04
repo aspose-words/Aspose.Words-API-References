@@ -2,7 +2,7 @@
 title: EditableRangeEnd.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EditableRangeEnd.nodeType property. Returns [NodeType.EditableRangeEnd](../../nodetype/#EditableRangeEnd)."
 type: docs
 weight: 30

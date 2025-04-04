@@ -2,7 +2,7 @@
 title: SmartTag.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SmartTag.nodeType property. Returns [NodeType.SmartTag](../../../aspose.words/nodetype/#SmartTag)."
 type: docs
 weight: 30

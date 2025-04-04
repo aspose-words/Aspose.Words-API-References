@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitSmartTagEnd method
 linktitle: visitSmartTagEnd method
 articleTitle: visitSmartTagEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitSmartTagEnd method. Called when enumeration of a smart tag has ended."
 type: docs
 weight: 410

@@ -2,7 +2,7 @@
 title: VariableCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VariableCollection.add method. Adds a document variable to the collection."
 type: docs
 weight: 40

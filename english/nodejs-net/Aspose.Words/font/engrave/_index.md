@@ -2,7 +2,7 @@
 title: Font.engrave property
 linktitle: engrave property
 articleTitle: engrave property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.engrave property. True if the font is formatted as engraved."
 type: docs
 weight: 120

@@ -2,7 +2,7 @@
 title: HeaderFooterType enumeration
 linktitle: HeaderFooterType enumeration
 articleTitle: HeaderFooterType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.HeaderFooterType enumeration. Identifies the type of header or footer found in a Word file."
 type: docs
 weight: 500

@@ -2,7 +2,7 @@
 title: MarkdownLoadOptions constructor
 linktitle: MarkdownLoadOptions constructor
 articleTitle: MarkdownLoadOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MarkdownLoadOptions constructor. Initializes a new instance of [MarkdownLoadOptions](../) class."
 type: docs
 weight: 10

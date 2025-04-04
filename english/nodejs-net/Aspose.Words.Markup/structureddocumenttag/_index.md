@@ -2,7 +2,7 @@
 title: StructuredDocumentTag class
 linktitle: StructuredDocumentTag class
 articleTitle: StructuredDocumentTag class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.StructuredDocumentTag class. Represents a structured document tag (SDT or content control) in a document"
 type: docs
 weight: 170

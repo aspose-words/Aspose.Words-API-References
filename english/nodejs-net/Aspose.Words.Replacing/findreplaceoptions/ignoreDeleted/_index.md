@@ -2,7 +2,7 @@
 title: FindReplaceOptions.ignoreDeleted property
 linktitle: ignoreDeleted property
 articleTitle: ignoreDeleted property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.ignoreDeleted property. Gets or sets a boolean value indicating either to ignore text inside delete revisions"
 type: docs
 weight: 60

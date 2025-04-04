@@ -2,7 +2,7 @@
 title: ChartDataTable.hasVerticalBorder property
 linktitle: hasVerticalBorder property
 articleTitle: hasVerticalBorder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataTable.hasVerticalBorder property. Gets or sets a flag indicating whether a vertical border of the data table is displayed"
 type: docs
 weight: 60

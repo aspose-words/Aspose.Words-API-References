@@ -2,7 +2,7 @@
 title: Border.color property
 linktitle: color property
 articleTitle: color property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Border.color property. Gets or sets the border color."
 type: docs
 weight: 10

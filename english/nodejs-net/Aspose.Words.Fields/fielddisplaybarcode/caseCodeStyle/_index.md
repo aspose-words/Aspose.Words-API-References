@@ -2,7 +2,7 @@
 title: FieldDisplayBarcode.caseCodeStyle property
 linktitle: caseCodeStyle property
 articleTitle: caseCodeStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDisplayBarcode.caseCodeStyle property. Gets or sets the style of a Case Code for barcode type ITF14"
 type: docs
 weight: 60

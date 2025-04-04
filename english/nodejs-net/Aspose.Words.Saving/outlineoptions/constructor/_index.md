@@ -2,7 +2,7 @@
 title: OutlineOptions constructor
 linktitle: OutlineOptions constructor
 articleTitle: OutlineOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OutlineOptions constructor. "
 type: docs
 weight: 10

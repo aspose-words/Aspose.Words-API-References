@@ -2,7 +2,7 @@
 title: OdsoDataSourceType enumeration
 linktitle: OdsoDataSourceType enumeration
 articleTitle: OdsoDataSourceType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.OdsoDataSourceType enumeration. Specifies the type of the external data source to be connected to as part of the ODSO connection information."
 type: docs
 weight: 130

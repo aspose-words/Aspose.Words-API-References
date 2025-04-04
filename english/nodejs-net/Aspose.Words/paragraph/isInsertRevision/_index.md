@@ -2,7 +2,7 @@
 title: Paragraph.isInsertRevision property
 linktitle: isInsertRevision property
 articleTitle: isInsertRevision property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.isInsertRevision property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 110

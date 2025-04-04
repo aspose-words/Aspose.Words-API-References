@@ -2,7 +2,7 @@
 title: FieldDatabaseDataRow.values property
 linktitle: values property
 articleTitle: values property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDatabaseDataRow.values property. Gets values that belong to this row."
 type: docs
 weight: 20

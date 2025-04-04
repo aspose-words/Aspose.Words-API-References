@@ -2,7 +2,7 @@
 title: MailMergeSettings.clone method
 linktitle: clone method
 articleTitle: clone method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings.clone method. Returns a deep clone of this object."
 type: docs
 weight: 190

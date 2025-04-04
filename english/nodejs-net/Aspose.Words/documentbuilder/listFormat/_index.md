@@ -2,7 +2,7 @@
 title: DocumentBuilder.listFormat property
 linktitle: listFormat property
 articleTitle: listFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.listFormat property. Returns an object that represents current list formatting properties."
 type: docs
 weight: 150

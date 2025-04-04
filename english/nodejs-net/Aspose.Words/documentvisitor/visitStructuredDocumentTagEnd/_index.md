@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitStructuredDocumentTagEnd method
 linktitle: visitStructuredDocumentTagEnd method
 articleTitle: visitStructuredDocumentTagEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitStructuredDocumentTagEnd method. Called when enumeration of a structured document tag has ended."
 type: docs
 weight: 440

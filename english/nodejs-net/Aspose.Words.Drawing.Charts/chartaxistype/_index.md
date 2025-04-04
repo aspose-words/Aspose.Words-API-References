@@ -2,7 +2,7 @@
 title: ChartAxisType enumeration
 linktitle: ChartAxisType enumeration
 articleTitle: ChartAxisType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartAxisType enumeration. Specifies type of chart axis."
 type: docs
 weight: 170

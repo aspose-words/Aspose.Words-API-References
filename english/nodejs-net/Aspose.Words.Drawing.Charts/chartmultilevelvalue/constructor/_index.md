@@ -2,7 +2,7 @@
 title: ChartMultilevelValue constructor
 linktitle: ChartMultilevelValue constructor
 articleTitle: ChartMultilevelValue constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartMultilevelValue constructor"
 type: docs
 weight: 10

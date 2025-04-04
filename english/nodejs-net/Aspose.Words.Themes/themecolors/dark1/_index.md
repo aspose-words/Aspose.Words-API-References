@@ -2,7 +2,7 @@
 title: ThemeColors.dark1 property
 linktitle: dark1 property
 articleTitle: dark1 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThemeColors.dark1 property. Specifies color Dark 1."
 type: docs
 weight: 70

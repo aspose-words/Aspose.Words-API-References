@@ -2,7 +2,7 @@
 title: WriteProtection.readOnlyRecommended property
 linktitle: readOnlyRecommended property
 articleTitle: readOnlyRecommended property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WriteProtection.readOnlyRecommended property. Specifies whether the document author has recommended that the document be opened as read-only."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: CompositeNode.getFootnote method
 linktitle: getFootnote method
 articleTitle: getFootnote method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getFootnote method. "
 type: docs
 weight: 140

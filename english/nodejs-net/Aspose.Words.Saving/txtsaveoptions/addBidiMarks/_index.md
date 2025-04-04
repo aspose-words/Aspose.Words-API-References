@@ -2,7 +2,7 @@
 title: TxtSaveOptions.addBidiMarks property
 linktitle: addBidiMarks property
 articleTitle: addBidiMarks property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtSaveOptions.addBidiMarks property. Specifies whether to add bi-directional marks before each BiDi run when exporting in plain text format."
 type: docs
 weight: 20

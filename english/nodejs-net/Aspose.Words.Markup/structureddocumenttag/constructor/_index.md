@@ -2,7 +2,7 @@
 title: StructuredDocumentTag constructor
 linktitle: StructuredDocumentTag constructor
 articleTitle: StructuredDocumentTag constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag constructor. Initializes a new instance of the Structured document tag class."
 type: docs
 weight: 10

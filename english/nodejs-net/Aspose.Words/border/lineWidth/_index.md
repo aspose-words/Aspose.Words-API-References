@@ -2,7 +2,7 @@
 title: Border.lineWidth property
 linktitle: lineWidth property
 articleTitle: lineWidth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Border.lineWidth property. Gets or sets the border width in points."
 type: docs
 weight: 50

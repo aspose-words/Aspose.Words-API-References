@@ -2,7 +2,7 @@
 title: FieldMergeBarcode.scalingFactor property
 linktitle: scalingFactor property
 articleTitle: scalingFactor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeBarcode.scalingFactor property. Gets or sets a scaling factor for the symbol"
 type: docs
 weight: 120

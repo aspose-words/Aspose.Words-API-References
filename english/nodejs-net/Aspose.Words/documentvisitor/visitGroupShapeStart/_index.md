@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitGroupShapeStart method
 linktitle: visitGroupShapeStart method
 articleTitle: visitGroupShapeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitGroupShapeStart method. Called when enumeration of a group shape has started."
 type: docs
 weight: 270

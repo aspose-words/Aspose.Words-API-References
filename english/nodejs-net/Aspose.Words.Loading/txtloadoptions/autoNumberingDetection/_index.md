@@ -2,7 +2,7 @@
 title: TxtLoadOptions.autoNumberingDetection property
 linktitle: autoNumberingDetection property
 articleTitle: autoNumberingDetection property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtLoadOptions.autoNumberingDetection property. Gets or sets a boolean value indicating either automatic numbering detection will be performed while loading a document"
 type: docs
 weight: 20

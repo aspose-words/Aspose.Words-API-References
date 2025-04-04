@@ -2,7 +2,7 @@
 title: PageRange constructor
 linktitle: PageRange constructor
 articleTitle: PageRange constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageRange constructor. Creates a new page range object."
 type: docs
 weight: 10

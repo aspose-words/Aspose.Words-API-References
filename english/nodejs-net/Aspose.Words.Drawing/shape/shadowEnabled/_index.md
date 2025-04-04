@@ -2,7 +2,7 @@
 title: Shape.shadowEnabled property
 linktitle: shadowEnabled property
 articleTitle: shadowEnabled property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.shadowEnabled property. Returns ``true`` if a shadow effect is enabled."
 type: docs
 weight: 160

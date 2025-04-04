@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.exportRelativeFontSize property
 linktitle: exportRelativeFontSize property
 articleTitle: exportRelativeFontSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportRelativeFontSize property. Specifies whether font sizes should be output in relative units when saving to HTML, MHTML or EPUB"
 type: docs
 weight: 230

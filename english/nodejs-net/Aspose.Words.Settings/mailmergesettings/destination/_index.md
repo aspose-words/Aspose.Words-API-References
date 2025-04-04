@@ -2,7 +2,7 @@
 title: MailMergeSettings.destination property
 linktitle: destination property
 articleTitle: destination property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings.destination property. Specifies how Microsoft Word will output the results of a mail merge"
 type: docs
 weight: 80

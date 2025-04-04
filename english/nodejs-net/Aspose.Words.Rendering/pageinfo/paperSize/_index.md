@@ -2,7 +2,7 @@
 title: PageInfo.paperSize property
 linktitle: paperSize property
 articleTitle: paperSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageInfo.paperSize property. Gets the paper size as enumeration."
 type: docs
 weight: 40

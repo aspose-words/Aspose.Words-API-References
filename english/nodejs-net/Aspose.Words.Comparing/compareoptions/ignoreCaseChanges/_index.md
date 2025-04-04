@@ -2,7 +2,7 @@
 title: CompareOptions.ignoreCaseChanges property
 linktitle: ignoreCaseChanges property
 articleTitle: ignoreCaseChanges property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompareOptions.ignoreCaseChanges property. True indicates that documents comparison is case insensitive."
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: Theme constructor
 linktitle: Theme constructor
 articleTitle: Theme constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Theme constructor. "
 type: docs
 weight: 10

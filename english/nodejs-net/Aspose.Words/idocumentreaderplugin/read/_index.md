@@ -2,7 +2,7 @@
 title: IDocumentReaderPlugin.read method
 linktitle: read method
 articleTitle: read method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IDocumentReaderPlugin.read method. Reads the data from the specified stream into the [Document](../../document/) instance."
 type: docs
 weight: 10

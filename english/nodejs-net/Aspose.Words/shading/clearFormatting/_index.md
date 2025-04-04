@@ -2,7 +2,7 @@
 title: Shading.clearFormatting method
 linktitle: clearFormatting method
 articleTitle: clearFormatting method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shading.clearFormatting method. Removes shading from the object."
 type: docs
 weight: 80

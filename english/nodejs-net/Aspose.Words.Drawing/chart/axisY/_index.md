@@ -2,7 +2,7 @@
 title: Chart.axisY property
 linktitle: axisY property
 articleTitle: axisY property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Chart.axisY property. Provides access to properties of the primary Y axis of the chart."
 type: docs
 weight: 30

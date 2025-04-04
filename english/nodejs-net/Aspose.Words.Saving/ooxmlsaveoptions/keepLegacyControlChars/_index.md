@@ -2,7 +2,7 @@
 title: OoxmlSaveOptions.keepLegacyControlChars property
 linktitle: keepLegacyControlChars property
 articleTitle: keepLegacyControlChars property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OoxmlSaveOptions.keepLegacyControlChars property. Keeps original representation of legacy control characters."
 type: docs
 weight: 50

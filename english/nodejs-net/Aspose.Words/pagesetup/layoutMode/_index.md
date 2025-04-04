@@ -2,7 +2,7 @@
 title: PageSetup.layoutMode property
 linktitle: layoutMode property
 articleTitle: layoutMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.layoutMode property. Gets or sets the layout mode of this section."
 type: docs
 weight: 190

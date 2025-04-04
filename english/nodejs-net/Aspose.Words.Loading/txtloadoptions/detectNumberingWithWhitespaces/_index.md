@@ -2,7 +2,7 @@
 title: TxtLoadOptions.detectNumberingWithWhitespaces property
 linktitle: detectNumberingWithWhitespaces property
 articleTitle: detectNumberingWithWhitespaces property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtLoadOptions.detectNumberingWithWhitespaces property. Allows to specify how numbered list items are recognized when document is imported from plain text format"
 type: docs
 weight: 40

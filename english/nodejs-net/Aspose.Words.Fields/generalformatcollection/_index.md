@@ -2,7 +2,7 @@
 title: GeneralFormatCollection class
 linktitle: GeneralFormatCollection class
 articleTitle: GeneralFormatCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.GeneralFormatCollection class. Represents a typed collection of general formats"
 type: docs
 weight: 1180

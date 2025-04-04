@@ -2,7 +2,7 @@
 title: ShadowType enumeration
 linktitle: ShadowType enumeration
 articleTitle: ShadowType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ShadowType enumeration. Specifies the type of a shape shadow."
 type: docs
 weight: 360

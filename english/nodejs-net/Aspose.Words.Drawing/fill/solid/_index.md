@@ -2,7 +2,7 @@
 title: Fill.solid method
 linktitle: solid method
 articleTitle: solid method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Fill.solid method"
 type: docs
 weight: 260

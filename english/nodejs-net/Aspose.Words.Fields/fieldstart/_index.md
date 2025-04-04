@@ -2,7 +2,7 @@
 title: FieldStart class
 linktitle: FieldStart class
 articleTitle: FieldStart class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldStart class. Represents a start of a Word field in a document"
 type: docs
 weight: 960

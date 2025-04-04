@@ -2,7 +2,7 @@
 title: Shading.foregroundPatternThemeColor property
 linktitle: foregroundPatternThemeColor property
 articleTitle: foregroundPatternThemeColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shading.foregroundPatternThemeColor property. Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../) object."
 type: docs
 weight: 50

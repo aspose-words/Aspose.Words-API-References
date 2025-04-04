@@ -2,7 +2,7 @@
 title: DocSaveOptions.alwaysCompressMetafiles property
 linktitle: alwaysCompressMetafiles property
 articleTitle: alwaysCompressMetafiles property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocSaveOptions.alwaysCompressMetafiles property. When ``false``, small metafiles are not compressed for performance reason"
 type: docs
 weight: 20

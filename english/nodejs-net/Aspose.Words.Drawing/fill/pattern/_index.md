@@ -2,7 +2,7 @@
 title: Fill.pattern property
 linktitle: pattern property
 articleTitle: pattern property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.pattern property. Gets a [PatternType](../../patterntype/) for the fill."
 type: docs
 weight: 160

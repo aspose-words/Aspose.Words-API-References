@@ -2,7 +2,7 @@
 title: TaskPane constructor
 linktitle: TaskPane constructor
 articleTitle: TaskPane constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TaskPane constructor. "
 type: docs
 weight: 10

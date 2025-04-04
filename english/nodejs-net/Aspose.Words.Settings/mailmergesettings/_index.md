@@ -2,7 +2,7 @@
 title: MailMergeSettings class
 linktitle: MailMergeSettings class
 articleTitle: MailMergeSettings class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.MailMergeSettings class. Specifies all of the mail merge information for a document"
 type: docs
 weight: 90

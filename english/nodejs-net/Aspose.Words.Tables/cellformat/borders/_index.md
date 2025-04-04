@@ -2,7 +2,7 @@
 title: CellFormat.borders property
 linktitle: borders property
 articleTitle: borders property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.borders property. Gets collection of borders of the cell."
 type: docs
 weight: 10

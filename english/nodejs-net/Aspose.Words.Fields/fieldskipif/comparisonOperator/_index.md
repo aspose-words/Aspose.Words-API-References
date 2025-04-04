@@ -2,7 +2,7 @@
 title: FieldSkipIf.comparisonOperator property
 linktitle: comparisonOperator property
 articleTitle: comparisonOperator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSkipIf.comparisonOperator property. Gets or sets the comparison operator."
 type: docs
 weight: 20

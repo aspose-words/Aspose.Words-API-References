@@ -2,7 +2,7 @@
 title: FieldData constructor
 linktitle: FieldData constructor
 articleTitle: FieldData constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldData constructor. "
 type: docs
 weight: 10

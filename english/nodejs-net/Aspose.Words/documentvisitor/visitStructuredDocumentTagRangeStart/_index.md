@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitStructuredDocumentTagRangeStart method
 linktitle: visitStructuredDocumentTagRangeStart method
 articleTitle: visitStructuredDocumentTagRangeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitStructuredDocumentTagRangeStart method. Called when a StructuredDocumentTagRangeStart is encountered."
 type: docs
 weight: 460

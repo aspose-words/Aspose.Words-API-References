@@ -2,7 +2,7 @@
 title: Paragraph.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.nodeType property. Returns [NodeType.Paragraph](../../nodetype/#Paragraph)."
 type: docs
 weight: 170

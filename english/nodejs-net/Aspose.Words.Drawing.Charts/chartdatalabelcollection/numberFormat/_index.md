@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection.numberFormat property
 linktitle: numberFormat property
 articleTitle: numberFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.numberFormat property. Gets an [ChartNumberFormat](../../chartnumberformat/) instance allowing to set number format for the data labels of the entire series."
 type: docs
 weight: 40

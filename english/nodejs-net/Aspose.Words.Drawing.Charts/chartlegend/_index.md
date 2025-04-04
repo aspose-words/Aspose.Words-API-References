@@ -2,7 +2,7 @@
 title: ChartLegend class
 linktitle: ChartLegend class
 articleTitle: ChartLegend class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartLegend class. Represents chart legend properties"
 type: docs
 weight: 260

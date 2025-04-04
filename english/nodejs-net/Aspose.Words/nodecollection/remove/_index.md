@@ -2,7 +2,7 @@
 title: NodeCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeCollection.remove method. Removes the node from the collection and from the document."
 type: docs
 weight: 80

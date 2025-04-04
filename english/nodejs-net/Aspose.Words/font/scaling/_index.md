@@ -2,7 +2,7 @@
 title: Font.scaling property
 linktitle: scaling property
 articleTitle: scaling property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.scaling property. Gets or sets character width scaling in percent."
 type: docs
 weight: 320

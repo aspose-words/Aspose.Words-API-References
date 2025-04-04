@@ -2,7 +2,7 @@
 title: FontInfo.altName property
 linktitle: altName property
 articleTitle: altName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontInfo.altName property. Gets or sets the alternate name for the font."
 type: docs
 weight: 10

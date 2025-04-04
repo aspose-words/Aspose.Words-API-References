@@ -2,7 +2,7 @@
 title: TextPath.fitShape property
 linktitle: fitShape property
 articleTitle: fitShape property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.fitShape property. Defines whether the text fits bounding box of a shape."
 type: docs
 weight: 30

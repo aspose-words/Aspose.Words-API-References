@@ -2,7 +2,7 @@
 title: HtmlLoadOptions class
 linktitle: HtmlLoadOptions class
 articleTitle: HtmlLoadOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.HtmlLoadOptions class. Allows to specify additional options when loading HTML document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 70

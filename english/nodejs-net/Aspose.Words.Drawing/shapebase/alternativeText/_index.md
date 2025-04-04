@@ -2,7 +2,7 @@
 title: ShapeBase.alternativeText property
 linktitle: alternativeText property
 articleTitle: alternativeText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.alternativeText property. Defines alternative text to be displayed instead of a graphic."
 type: docs
 weight: 20

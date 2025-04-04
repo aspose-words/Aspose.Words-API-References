@@ -2,7 +2,7 @@
 title: Node.asFootnote method
 linktitle: asFootnote method
 articleTitle: asFootnote method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asFootnote method. Cast node to [Footnote](../../../aspose.words.notes/footnote/)."
 type: docs
 weight: 250

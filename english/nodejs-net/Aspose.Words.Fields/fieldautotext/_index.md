@@ -2,7 +2,7 @@
 title: FieldAutoText class
 linktitle: FieldAutoText class
 articleTitle: FieldAutoText class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldAutoText class. Implements the AUTOTEXT field"
 type: docs
 weight: 140

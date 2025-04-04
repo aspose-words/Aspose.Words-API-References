@@ -2,7 +2,7 @@
 title: ChartSeries.clear method
 linktitle: clear method
 articleTitle: clear method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.clear method. Removes all data values from the chart series"
 type: docs
 weight: 170

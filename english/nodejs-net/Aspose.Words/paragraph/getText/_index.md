@@ -2,7 +2,7 @@
 title: Paragraph.getText method
 linktitle: getText method
 articleTitle: getText method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.getText method. Gets the text of this paragraph including the end of paragraph character."
 type: docs
 weight: 280

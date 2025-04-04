@@ -2,7 +2,7 @@
 title: Row.getText method
 linktitle: getText method
 articleTitle: getText method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Row.getText method. Gets the text of all cells in this row including the end of row character."
 type: docs
 weight: 160

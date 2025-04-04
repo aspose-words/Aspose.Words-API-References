@@ -2,7 +2,7 @@
 title: Aspose.Words.Comparing module
 linktitle: Aspose.Words.Comparing module
 articleTitle: Aspose.Words.Comparing module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Comparing module provides classes and enumerations that allow to specify additional options when comparing documents."
 type: docs
 weight: 50

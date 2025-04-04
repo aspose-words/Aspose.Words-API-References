@@ -2,7 +2,7 @@
 title: Font.hasDmlEffect method
 linktitle: hasDmlEffect method
 articleTitle: hasDmlEffect method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.hasDmlEffect method. Checks if particular DrawingML text effect is applied."
 type: docs
 weight: 570

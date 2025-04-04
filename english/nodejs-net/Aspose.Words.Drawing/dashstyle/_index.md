@@ -2,7 +2,7 @@
 title: DashStyle enumeration
 linktitle: DashStyle enumeration
 articleTitle: DashStyle enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.DashStyle enumeration. Dashed line style."
 type: docs
 weight: 70

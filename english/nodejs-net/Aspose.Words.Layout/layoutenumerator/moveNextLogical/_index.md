@@ -2,7 +2,7 @@
 title: LayoutEnumerator.moveNextLogical method
 linktitle: moveNextLogical method
 articleTitle: moveNextLogical method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutEnumerator.moveNextLogical method. Moves to the next sibling entity in a logical order."
 type: docs
 weight: 110

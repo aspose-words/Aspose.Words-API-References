@@ -2,7 +2,7 @@
 title: FieldOptions.fieldUpdatingCallback property
 linktitle: fieldUpdatingCallback property
 articleTitle: fieldUpdatingCallback property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.fieldUpdatingCallback property. Gets or sets [IFieldUpdatingCallback](../../ifieldupdatingcallback/) implementation"
 type: docs
 weight: 110

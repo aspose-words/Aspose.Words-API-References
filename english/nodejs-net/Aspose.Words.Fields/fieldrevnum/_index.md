@@ -2,7 +2,7 @@
 title: FieldRevNum class
 linktitle: FieldRevNum class
 articleTitle: FieldRevNum class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldRevNum class. Implements the REVNUM field"
 type: docs
 weight: 870

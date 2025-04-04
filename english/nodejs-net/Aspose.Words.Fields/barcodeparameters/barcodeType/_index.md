@@ -2,7 +2,7 @@
 title: BarcodeParameters.barcodeType property
 linktitle: barcodeType property
 articleTitle: barcodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters.barcodeType property. Bar code type."
 type: docs
 weight: 40

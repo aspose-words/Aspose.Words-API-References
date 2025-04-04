@@ -2,7 +2,7 @@
 title: FieldToa.useHeading property
 linktitle: useHeading property
 articleTitle: useHeading property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToa.useHeading property. Gets or sets whether to include the category heading for the entries in a table of authorities."
 type: docs
 weight: 100

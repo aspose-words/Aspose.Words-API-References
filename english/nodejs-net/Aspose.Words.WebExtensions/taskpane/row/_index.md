@@ -2,7 +2,7 @@
 title: TaskPane.row property
 linktitle: row property
 articleTitle: row property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TaskPane.row property. Specifies the index, enumerating from the outside to the inside, of this task pane among other persisted task panes docked in the same default location."
 type: docs
 weight: 50

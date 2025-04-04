@@ -2,7 +2,7 @@
 title: Font.nameFarEast property
 linktitle: nameFarEast property
 articleTitle: nameFarEast property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.nameFarEast property. Returns or sets an East Asian font name."
 type: docs
 weight: 260

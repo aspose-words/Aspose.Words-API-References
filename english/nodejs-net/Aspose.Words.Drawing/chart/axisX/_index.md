@@ -2,7 +2,7 @@
 title: Chart.axisX property
 linktitle: axisX property
 articleTitle: axisX property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Chart.axisX property. Provides access to properties of the primary X axis of the chart."
 type: docs
 weight: 20

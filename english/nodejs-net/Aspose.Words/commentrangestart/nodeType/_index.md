@@ -2,7 +2,7 @@
 title: CommentRangeStart.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CommentRangeStart.nodeType property. Returns [NodeType.CommentRangeStart](../../nodetype/#CommentRangeStart)."
 type: docs
 weight: 30

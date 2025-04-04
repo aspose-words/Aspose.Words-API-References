@@ -2,7 +2,7 @@
 title: Style.semiHidden property
 linktitle: semiHidden property
 articleTitle: semiHidden property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.semiHidden property. Gets/sets whether the style hides from the Styles gallery and from the Styles task pane."
 type: docs
 weight: 170

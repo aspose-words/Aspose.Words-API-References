@@ -2,7 +2,7 @@
 title: FieldInfo constructor
 linktitle: FieldInfo constructor
 articleTitle: FieldInfo constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldInfo constructor. "
 type: docs
 weight: 10

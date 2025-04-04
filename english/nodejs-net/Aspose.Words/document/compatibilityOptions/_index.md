@@ -2,7 +2,7 @@
 title: Document.compatibilityOptions property
 linktitle: compatibilityOptions property
 articleTitle: compatibilityOptions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.compatibilityOptions property. Provides access to document compatibility options (that is, the user preferences entered on the Compatibility tab of the Options dialog in Word)."
 type: docs
 weight: 60

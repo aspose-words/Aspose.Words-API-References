@@ -2,7 +2,7 @@
 title: FieldBuilder.addSwitch method
 linktitle: addSwitch method
 articleTitle: addSwitch method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldBuilder.addSwitch method"
 type: docs
 weight: 30

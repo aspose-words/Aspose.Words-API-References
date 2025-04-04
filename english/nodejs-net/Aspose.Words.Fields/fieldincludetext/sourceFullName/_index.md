@@ -2,7 +2,7 @@
 title: FieldIncludeText.sourceFullName property
 linktitle: sourceFullName property
 articleTitle: sourceFullName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIncludeText.sourceFullName property. Gets or sets the location of the document using an IRI."
 type: docs
 weight: 70

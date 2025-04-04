@@ -2,7 +2,7 @@
 title: Source.caseNumber property
 linktitle: caseNumber property
 articleTitle: caseNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.caseNumber property. Gets or sets the case number of a source."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: PageSetup.pageStartingNumber property
 linktitle: pageStartingNumber property
 articleTitle: pageStartingNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.pageStartingNumber property. Gets or sets the starting page number of the section."
 type: docs
 weight: 330

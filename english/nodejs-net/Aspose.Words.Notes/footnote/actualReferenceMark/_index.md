@@ -2,7 +2,7 @@
 title: Footnote.actualReferenceMark property
 linktitle: actualReferenceMark property
 articleTitle: actualReferenceMark property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Footnote.actualReferenceMark property. Gets the actual text of the reference mark displayed in the document for this footnote."
 type: docs
 weight: 20

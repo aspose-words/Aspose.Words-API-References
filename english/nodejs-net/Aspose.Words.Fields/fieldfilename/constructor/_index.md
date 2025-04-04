@@ -2,7 +2,7 @@
 title: FieldFileName constructor
 linktitle: FieldFileName constructor
 articleTitle: FieldFileName constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFileName constructor. "
 type: docs
 weight: 10

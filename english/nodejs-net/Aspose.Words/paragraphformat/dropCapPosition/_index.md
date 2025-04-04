@@ -2,7 +2,7 @@
 title: ParagraphFormat.dropCapPosition property
 linktitle: dropCapPosition property
 articleTitle: dropCapPosition property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.dropCapPosition property. Gets or sets the position for a drop cap text."
 type: docs
 weight: 100

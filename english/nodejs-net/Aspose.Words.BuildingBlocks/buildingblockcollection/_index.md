@@ -2,7 +2,7 @@
 title: BuildingBlockCollection class
 linktitle: BuildingBlockCollection class
 articleTitle: BuildingBlockCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BuildingBlocks.BuildingBlockCollection class. A collection of [BuildingBlock](../../aspose.words/buildingblock/) objects in the document"
 type: docs
 weight: 20

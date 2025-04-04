@@ -2,7 +2,7 @@
 title: BookmarkEnd class
 linktitle: BookmarkEnd class
 articleTitle: BookmarkEnd class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BookmarkEnd class. Represents an end of a bookmark in a Word document"
 type: docs
 weight: 70

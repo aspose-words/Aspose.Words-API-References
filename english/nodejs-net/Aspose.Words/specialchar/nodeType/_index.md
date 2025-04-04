@@ -2,7 +2,7 @@
 title: SpecialChar.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SpecialChar.nodeType property. Returns [NodeType.SpecialChar](../../nodetype/#SpecialChar)."
 type: docs
 weight: 10

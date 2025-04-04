@@ -2,7 +2,7 @@
 title: Section constructor
 linktitle: Section constructor
 articleTitle: Section constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Section constructor. Initializes a new instance of the Section class."
 type: docs
 weight: 10

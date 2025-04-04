@@ -2,7 +2,7 @@
 title: Paragraph.isEndOfDocument property
 linktitle: isEndOfDocument property
 articleTitle: isEndOfDocument property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.isEndOfDocument property. True if this paragraph is the last paragraph in the last section of the document."
 type: docs
 weight: 60

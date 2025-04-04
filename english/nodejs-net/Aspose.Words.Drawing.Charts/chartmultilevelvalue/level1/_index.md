@@ -2,7 +2,7 @@
 title: ChartMultilevelValue.level1 property
 linktitle: level1 property
 articleTitle: level1 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartMultilevelValue.level1 property. Gets the name of the chart top level that this value refers to."
 type: docs
 weight: 20

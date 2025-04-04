@@ -2,7 +2,7 @@
 title: IResourceLoadingCallback.resourceLoading method
 linktitle: resourceLoading method
 articleTitle: resourceLoading method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IResourceLoadingCallback.resourceLoading method. Called when Aspose.Words loads any external resource."
 type: docs
 weight: 10

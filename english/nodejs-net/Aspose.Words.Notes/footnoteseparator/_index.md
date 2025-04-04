@@ -2,7 +2,7 @@
 title: FootnoteSeparator class
 linktitle: FootnoteSeparator class
 articleTitle: FootnoteSeparator class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.FootnoteSeparator class. Represents a container for the footnote/endnote separator and continuation content of a document."
 type: docs
 weight: 70

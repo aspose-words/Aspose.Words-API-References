@@ -2,7 +2,7 @@
 title: Source.journalName property
 linktitle: journalName property
 articleTitle: journalName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.journalName property. Gets or sets the journal name of a source."
 type: docs
 weight: 250

@@ -2,7 +2,7 @@
 title: MailMergeSettings.odso property
 linktitle: odso property
 articleTitle: odso property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings.odso property. Gets or sets the object that specifies the Office Data Source Object (ODSO) settings."
 type: docs
 weight: 150

@@ -2,7 +2,7 @@
 title: PdfPermissions enumeration
 linktitle: PdfPermissions enumeration
 articleTitle: PdfPermissions enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfPermissions enumeration. Specifies the operations that are allowed to a user on an encrypted PDF document."
 type: docs
 weight: 710

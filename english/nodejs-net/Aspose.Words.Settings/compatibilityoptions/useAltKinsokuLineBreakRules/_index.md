@@ -2,7 +2,7 @@
 title: CompatibilityOptions.useAltKinsokuLineBreakRules property
 linktitle: useAltKinsokuLineBreakRules property
 articleTitle: useAltKinsokuLineBreakRules property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.useAltKinsokuLineBreakRules property. Use Alternate Set of East Asian Line Breaking Rules."
 type: docs
 weight: 600

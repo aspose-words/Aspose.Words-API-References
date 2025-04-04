@@ -2,7 +2,7 @@
 title: SoftEdgeFormat.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SoftEdgeFormat.remove method. Removes [SoftEdgeFormat](../) from the parent object."
 type: docs
 weight: 20

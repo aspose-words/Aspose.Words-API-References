@@ -2,7 +2,7 @@
 title: FormField.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.nodeType property. Returns [NodeType.FormField](../../../aspose.words/nodetype/#FormField)."
 type: docs
 weight: 140

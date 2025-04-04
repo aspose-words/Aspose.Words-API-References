@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.pageHorizontalAlignment property
 linktitle: pageHorizontalAlignment property
 articleTitle: pageHorizontalAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.pageHorizontalAlignment property. Specifies the horizontal alignment of pages in an HTML document"
 type: docs
 weight: 120

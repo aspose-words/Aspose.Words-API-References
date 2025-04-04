@@ -2,7 +2,7 @@
 title: FieldPrintDate class
 linktitle: FieldPrintDate class
 articleTitle: FieldPrintDate class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldPrintDate class. Implements the PRINTDATE field"
 type: docs
 weight: 820

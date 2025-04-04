@@ -2,7 +2,7 @@
 title: XmlMapping.customXmlPart property
 linktitle: customXmlPart property
 articleTitle: customXmlPart property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XmlMapping.customXmlPart property. Returns the custom XML data part to which the parent structured document tag is mapped."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: Field.asFieldPrivate method
 linktitle: asFieldPrivate method
 articleTitle: asFieldPrivate method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldPrivate method. "
 type: docs
 weight: 790

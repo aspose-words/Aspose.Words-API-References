@@ -2,7 +2,7 @@
 title: TextPath.size property
 linktitle: size property
 articleTitle: size property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.size property. Defines the size of the font in points."
 type: docs
 weight: 120

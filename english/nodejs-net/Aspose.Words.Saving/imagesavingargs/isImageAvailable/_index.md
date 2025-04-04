@@ -2,7 +2,7 @@
 title: ImageSavingArgs.isImageAvailable property
 linktitle: isImageAvailable property
 articleTitle: isImageAvailable property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSavingArgs.isImageAvailable property. Returns ``true`` if the current image is available for export."
 type: docs
 weight: 40

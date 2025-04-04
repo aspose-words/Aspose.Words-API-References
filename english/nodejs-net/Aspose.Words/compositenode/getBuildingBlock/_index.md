@@ -2,7 +2,7 @@
 title: CompositeNode.getBuildingBlock method
 linktitle: getBuildingBlock method
 articleTitle: getBuildingBlock method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getBuildingBlock method. "
 type: docs
 weight: 90

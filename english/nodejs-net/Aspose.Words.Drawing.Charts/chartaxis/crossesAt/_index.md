@@ -2,7 +2,7 @@
 title: ChartAxis.crossesAt property
 linktitle: crossesAt property
 articleTitle: crossesAt property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.crossesAt property. Specifies where on the perpendicular axis the axis crosses."
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: ConvertUtil.inchToPoint method
 linktitle: inchToPoint method
 articleTitle: inchToPoint method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConvertUtil.inchToPoint method. Converts inches to points."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: SaveOptions class
 linktitle: SaveOptions class
 articleTitle: SaveOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.SaveOptions class. This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format"
 type: docs
 weight: 780

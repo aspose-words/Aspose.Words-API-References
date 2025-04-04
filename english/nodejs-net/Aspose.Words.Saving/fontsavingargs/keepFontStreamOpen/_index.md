@@ -2,7 +2,7 @@
 title: FontSavingArgs.keepFontStreamOpen property
 linktitle: keepFontStreamOpen property
 articleTitle: keepFontStreamOpen property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSavingArgs.keepFontStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving a font."
 type: docs
 weight: 80

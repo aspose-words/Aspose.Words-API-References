@@ -2,7 +2,7 @@
 title: Field.asFieldSet method
 linktitle: asFieldSet method
 articleTitle: asFieldSet method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldSet method. "
 type: docs
 weight: 880

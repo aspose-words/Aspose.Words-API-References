@@ -2,7 +2,7 @@
 title: HorizontalRuleFormat.widthPercent property
 linktitle: widthPercent property
 articleTitle: widthPercent property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HorizontalRuleFormat.widthPercent property. Gets or sets the length of the specified horizontal rule expressed as a percentage of the window width."
 type: docs
 weight: 50

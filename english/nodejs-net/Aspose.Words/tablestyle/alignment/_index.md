@@ -2,7 +2,7 @@
 title: TableStyle.alignment property
 linktitle: alignment property
 articleTitle: alignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableStyle.alignment property. Specifies the alignment for the table style."
 type: docs
 weight: 10

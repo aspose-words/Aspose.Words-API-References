@@ -2,7 +2,7 @@
 title: TextColumn.spaceAfter property
 linktitle: spaceAfter property
 articleTitle: spaceAfter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextColumn.spaceAfter property. Gets or sets the space between this column and the next column in points"
 type: docs
 weight: 10

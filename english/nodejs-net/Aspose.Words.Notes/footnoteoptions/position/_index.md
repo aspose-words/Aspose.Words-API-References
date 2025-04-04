@@ -2,7 +2,7 @@
 title: FootnoteOptions.position property
 linktitle: position property
 articleTitle: position property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FootnoteOptions.position property. Specifies the footnotes position."
 type: docs
 weight: 30

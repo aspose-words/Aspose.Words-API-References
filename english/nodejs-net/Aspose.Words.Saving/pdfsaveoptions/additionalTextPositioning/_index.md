@@ -2,7 +2,7 @@
 title: PdfSaveOptions.additionalTextPositioning property
 linktitle: additionalTextPositioning property
 articleTitle: additionalTextPositioning property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.additionalTextPositioning property. A flag specifying whether to write additional text positioning operators or not."
 type: docs
 weight: 20

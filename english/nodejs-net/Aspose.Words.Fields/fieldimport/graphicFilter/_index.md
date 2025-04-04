@@ -2,7 +2,7 @@
 title: FieldImport.graphicFilter property
 linktitle: graphicFilter property
 articleTitle: graphicFilter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldImport.graphicFilter property. Gets or sets the name of the filter for the format of the graphic that is to be inserted."
 type: docs
 weight: 20

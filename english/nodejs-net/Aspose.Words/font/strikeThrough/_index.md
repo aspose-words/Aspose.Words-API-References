@@ -2,7 +2,7 @@
 title: Font.strikeThrough property
 linktitle: strikeThrough property
 articleTitle: strikeThrough property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.strikeThrough property. True if the font is formatted as strikethrough text."
 type: docs
 weight: 400

@@ -2,7 +2,7 @@
 title: FieldToc.captionlessTableOfFiguresLabel property
 linktitle: captionlessTableOfFiguresLabel property
 articleTitle: captionlessTableOfFiguresLabel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToc.captionlessTableOfFiguresLabel property. Gets or sets the name of the sequence identifier used when building a table of figures that does not include caption's label and number."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertOleObject method
 linktitle: insertOleObject method
 articleTitle: insertOleObject method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertOleObject method"
 type: docs
 weight: 420

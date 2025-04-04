@@ -2,7 +2,7 @@
 title: ShapeLineStyle enumeration
 linktitle: ShapeLineStyle enumeration
 articleTitle: ShapeLineStyle enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ShapeLineStyle enumeration. Specifies the compound line style of a [Shape](../shape/)."
 type: docs
 weight: 390

@@ -2,7 +2,7 @@
 title: FieldEditTime class
 linktitle: FieldEditTime class
 articleTitle: FieldEditTime class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldEditTime class. Implements the EDITTIME field"
 type: docs
 weight: 370

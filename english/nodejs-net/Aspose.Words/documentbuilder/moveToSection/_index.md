@@ -2,7 +2,7 @@
 title: DocumentBuilder.moveToSection method
 linktitle: moveToSection method
 articleTitle: moveToSection method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.moveToSection method. Moves the cursor to the beginning of the body in a specified section."
 type: docs
 weight: 610

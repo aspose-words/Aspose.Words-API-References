@@ -2,7 +2,7 @@
 title: WebExtension.alternateReferences property
 linktitle: alternateReferences property
 articleTitle: alternateReferences property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtension.alternateReferences property. Specifies alternate references to a web extension."
 type: docs
 weight: 10

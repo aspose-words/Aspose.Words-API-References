@@ -2,7 +2,7 @@
 title: RevisionOptions.insertedTextEffect property
 linktitle: insertedTextEffect property
 articleTitle: insertedTextEffect property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionOptions.insertedTextEffect property. Allows to specify the effect to be applied to the inserted content [RevisionType.Insertion](../../../aspose.words/revisiontype/#Insertion)"
 type: docs
 weight: 70

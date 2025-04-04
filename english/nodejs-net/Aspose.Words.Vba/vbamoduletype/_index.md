@@ -2,7 +2,7 @@
 title: VbaModuleType enumeration
 linktitle: VbaModuleType enumeration
 articleTitle: VbaModuleType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Vba.VbaModuleType enumeration. Specifies the type of a model in a VBA project."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.contentType property
 linktitle: contentType property
 articleTitle: contentType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.contentType property. Gets or sets the content type of the document."
 type: docs
 weight: 90

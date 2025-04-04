@@ -2,7 +2,7 @@
 title: DocumentBuilder.moveToParagraph method
 linktitle: moveToParagraph method
 articleTitle: moveToParagraph method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.moveToParagraph method. Moves the cursor to a paragraph in the current section."
 type: docs
 weight: 600

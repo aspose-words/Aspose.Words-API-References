@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitBookmarkEnd method
 linktitle: visitBookmarkEnd method
 articleTitle: visitBookmarkEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitBookmarkEnd method. Called when an end of a bookmark is encountered in the document."
 type: docs
 weight: 40

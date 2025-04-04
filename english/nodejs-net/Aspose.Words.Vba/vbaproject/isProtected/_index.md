@@ -2,7 +2,7 @@
 title: VbaProject.isProtected property
 linktitle: isProtected property
 articleTitle: isProtected property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VbaProject.isProtected property. Shows whether the [VbaProject](../) is password protected."
 type: docs
 weight: 30

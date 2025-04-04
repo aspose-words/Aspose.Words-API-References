@@ -2,7 +2,7 @@
 title: ShapeBase.target property
 linktitle: target property
 articleTitle: target property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.target property. Gets or sets the target frame for the shape hyperlink."
 type: docs
 weight: 500

@@ -2,7 +2,7 @@
 title: CompareOptions constructor
 linktitle: CompareOptions constructor
 articleTitle: CompareOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompareOptions constructor. "
 type: docs
 weight: 10

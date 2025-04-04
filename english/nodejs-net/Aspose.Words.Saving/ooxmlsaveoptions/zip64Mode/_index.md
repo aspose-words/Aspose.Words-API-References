@@ -2,7 +2,7 @@
 title: OoxmlSaveOptions.zip64Mode property
 linktitle: zip64Mode property
 articleTitle: zip64Mode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OoxmlSaveOptions.zip64Mode property. Specifies whether or not to use ZIP64 format extensions for the output document"
 type: docs
 weight: 80

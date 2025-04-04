@@ -2,7 +2,7 @@
 title: RevisionOptions.deletedTextColor property
 linktitle: deletedTextColor property
 articleTitle: deletedTextColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionOptions.deletedTextColor property. Allows to specify the color to be used for deleted content [RevisionType.Deletion](../../../aspose.words/revisiontype/#Deletion)"
 type: docs
 weight: 30

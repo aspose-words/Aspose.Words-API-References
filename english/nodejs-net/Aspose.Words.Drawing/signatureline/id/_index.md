@@ -2,7 +2,7 @@
 title: SignatureLine.id property
 linktitle: id property
 articleTitle: id property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignatureLine.id property. Gets or sets identifier for this signature line"
 type: docs
 weight: 40

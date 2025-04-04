@@ -2,7 +2,7 @@
 title: FieldCitation class
 linktitle: FieldCitation class
 articleTitle: FieldCitation class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldCitation class. Implements the CITATION field"
 type: docs
 weight: 210

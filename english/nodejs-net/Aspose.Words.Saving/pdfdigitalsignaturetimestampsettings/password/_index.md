@@ -2,7 +2,7 @@
 title: PdfDigitalSignatureTimestampSettings.password property
 linktitle: password property
 articleTitle: password property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfDigitalSignatureTimestampSettings.password property. Timestamp server password."
 type: docs
 weight: 20

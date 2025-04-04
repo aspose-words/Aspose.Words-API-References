@@ -2,7 +2,7 @@
 title: FieldSeparator class
 linktitle: FieldSeparator class
 articleTitle: FieldSeparator class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldSeparator class. Represents a Word field separator that separates the field code from the field result"
 type: docs
 weight: 910

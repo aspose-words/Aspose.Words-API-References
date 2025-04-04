@@ -2,7 +2,7 @@
 title: ImageSize.widthPixels property
 linktitle: widthPixels property
 articleTitle: widthPixels property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSize.widthPixels property. Gets the width of the image in pixels."
 type: docs
 weight: 60

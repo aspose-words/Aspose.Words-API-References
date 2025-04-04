@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertHyperlink method
 linktitle: insertHyperlink method
 articleTitle: insertHyperlink method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.insertHyperlink method. Inserts a hyperlink into the document."
 type: docs
 weight: 390

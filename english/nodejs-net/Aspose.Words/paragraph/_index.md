@@ -2,7 +2,7 @@
 title: Paragraph class
 linktitle: Paragraph class
 articleTitle: Paragraph class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Paragraph class. Represents a paragraph of text"
 type: docs
 weight: 990

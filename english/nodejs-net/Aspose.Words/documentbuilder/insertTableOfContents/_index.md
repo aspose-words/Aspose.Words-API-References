@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertTableOfContents method
 linktitle: insertTableOfContents method
 articleTitle: insertTableOfContents method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.insertTableOfContents method. Inserts a TOC (table of contents) field into the document."
 type: docs
 weight: 500

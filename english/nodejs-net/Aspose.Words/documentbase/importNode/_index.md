@@ -2,7 +2,7 @@
 title: DocumentBase.importNode method
 linktitle: importNode method
 articleTitle: importNode method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBase.importNode method"
 type: docs
 weight: 110

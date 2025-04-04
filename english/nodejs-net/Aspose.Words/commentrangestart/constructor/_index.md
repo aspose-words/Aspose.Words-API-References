@@ -2,7 +2,7 @@
 title: CommentRangeStart constructor
 linktitle: CommentRangeStart constructor
 articleTitle: CommentRangeStart constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CommentRangeStart constructor. Initializes a new instance of this class."
 type: docs
 weight: 10

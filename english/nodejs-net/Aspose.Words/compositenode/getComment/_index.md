@@ -2,7 +2,7 @@
 title: CompositeNode.getComment method
 linktitle: getComment method
 articleTitle: getComment method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getComment method. "
 type: docs
 weight: 120

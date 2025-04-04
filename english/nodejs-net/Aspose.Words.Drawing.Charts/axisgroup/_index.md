@@ -2,7 +2,7 @@
 title: AxisGroup enumeration
 linktitle: AxisGroup enumeration
 articleTitle: AxisGroup enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisGroup enumeration. Represents a type of a chart axis group."
 type: docs
 weight: 60

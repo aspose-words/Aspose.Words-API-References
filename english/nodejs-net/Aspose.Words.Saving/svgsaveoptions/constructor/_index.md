@@ -2,7 +2,7 @@
 title: SvgSaveOptions constructor
 linktitle: SvgSaveOptions constructor
 articleTitle: SvgSaveOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions constructor. "
 type: docs
 weight: 10

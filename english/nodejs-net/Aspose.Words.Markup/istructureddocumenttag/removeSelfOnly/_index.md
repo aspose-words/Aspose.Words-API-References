@@ -2,7 +2,7 @@
 title: IStructuredDocumentTag.removeSelfOnly method
 linktitle: removeSelfOnly method
 articleTitle: removeSelfOnly method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IStructuredDocumentTag.removeSelfOnly method. Removes just this SDT node itself, but keeps the content of it inside the document tree."
 type: docs
 weight: 180

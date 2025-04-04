@@ -2,7 +2,7 @@
 title: Document.appendDocument method
 linktitle: appendDocument method
 articleTitle: appendDocument method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.appendDocument method"
 type: docs
 weight: 550

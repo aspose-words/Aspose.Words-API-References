@@ -2,7 +2,7 @@
 title: DocumentBuilder.insertCheckBox method
 linktitle: insertCheckBox method
 articleTitle: insertCheckBox method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertCheckBox method"
 type: docs
 weight: 290

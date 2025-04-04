@@ -2,7 +2,7 @@
 title: Document.attachedTemplate property
 linktitle: attachedTemplate property
 articleTitle: attachedTemplate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.attachedTemplate property. Gets or sets the full path of the template attached to the document."
 type: docs
 weight: 20

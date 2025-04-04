@@ -2,7 +2,7 @@
 title: DropDownItemCollection class
 linktitle: DropDownItemCollection class
 articleTitle: DropDownItemCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.DropDownItemCollection class. A collection of strings that represent all the items in a drop-down form field"
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: FieldCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCollection.count property. Returns the number of the fields in the collection."
 type: docs
 weight: 10

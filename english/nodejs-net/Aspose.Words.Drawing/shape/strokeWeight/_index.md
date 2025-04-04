@@ -2,7 +2,7 @@
 title: Shape.strokeWeight property
 linktitle: strokeWeight property
 articleTitle: strokeWeight property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.strokeWeight property. Defines the brush thickness that strokes the path of a shape in points."
 type: docs
 weight: 210

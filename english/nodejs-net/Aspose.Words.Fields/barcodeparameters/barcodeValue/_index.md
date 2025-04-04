@@ -2,7 +2,7 @@
 title: BarcodeParameters.barcodeValue property
 linktitle: barcodeValue property
 articleTitle: barcodeValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters.barcodeValue property. Data to be encoded."
 type: docs
 weight: 50

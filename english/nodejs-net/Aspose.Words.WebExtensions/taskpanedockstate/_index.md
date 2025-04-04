@@ -2,7 +2,7 @@
 title: TaskPaneDockState enumeration
 linktitle: TaskPaneDockState enumeration
 articleTitle: TaskPaneDockState enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WebExtensions.TaskPaneDockState enumeration. Enumerates available locations of task pane object."
 type: docs
 weight: 30

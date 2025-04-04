@@ -2,7 +2,7 @@
 title: OdsoRecipientData constructor
 linktitle: OdsoRecipientData constructor
 articleTitle: OdsoRecipientData constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdsoRecipientData constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: FieldSubject constructor
 linktitle: FieldSubject constructor
 articleTitle: FieldSubject constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSubject constructor. "
 type: docs
 weight: 10

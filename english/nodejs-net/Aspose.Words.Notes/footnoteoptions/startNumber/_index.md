@@ -2,7 +2,7 @@
 title: FootnoteOptions.startNumber property
 linktitle: startNumber property
 articleTitle: startNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FootnoteOptions.startNumber property. Specifies the starting number or character for the first automatically numbered footnotes."
 type: docs
 weight: 50

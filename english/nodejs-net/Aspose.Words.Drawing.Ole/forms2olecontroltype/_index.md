@@ -2,7 +2,7 @@
 title: Forms2OleControlType enumeration
 linktitle: Forms2OleControlType enumeration
 articleTitle: Forms2OleControlType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Ole.Forms2OleControlType enumeration. Enumerates types of Forms 2.0 controls."
 type: docs
 weight: 50

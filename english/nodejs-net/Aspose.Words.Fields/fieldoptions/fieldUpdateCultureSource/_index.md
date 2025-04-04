@@ -2,7 +2,7 @@
 title: FieldOptions.fieldUpdateCultureSource property
 linktitle: fieldUpdateCultureSource property
 articleTitle: fieldUpdateCultureSource property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.fieldUpdateCultureSource property. Specifies what culture to use to format the field result."
 type: docs
 weight: 100

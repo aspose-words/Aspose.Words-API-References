@@ -2,7 +2,7 @@
 title: FormField.checked property
 linktitle: checked property
 articleTitle: checked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.checked property. Gets or sets the checked status of the check box form field"
 type: docs
 weight: 30

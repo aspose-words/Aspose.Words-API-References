@@ -2,7 +2,7 @@
 title: FieldComments class
 linktitle: FieldComments class
 articleTitle: FieldComments class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldComments class. Implements the COMMENTS field"
 type: docs
 weight: 230

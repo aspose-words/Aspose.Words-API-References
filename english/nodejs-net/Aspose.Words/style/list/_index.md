@@ -2,7 +2,7 @@
 title: Style.list property
 linktitle: list property
 articleTitle: list property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.list property. Gets the list that defines formatting of this list style."
 type: docs
 weight: 100

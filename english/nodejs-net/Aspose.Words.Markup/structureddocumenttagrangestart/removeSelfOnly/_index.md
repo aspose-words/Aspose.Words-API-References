@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.removeSelfOnly method
 linktitle: removeSelfOnly method
 articleTitle: removeSelfOnly method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.removeSelfOnly method. Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree."
 type: docs
 weight: 240

@@ -2,7 +2,7 @@
 title: AbsolutePositionTab class
 linktitle: AbsolutePositionTab class
 articleTitle: AbsolutePositionTab class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AbsolutePositionTab class. An absolute position tab is a character which is used to advance the position on  the current line of text when displaying this WordprocessingML content"
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: OdtSaveOptions.isStrictSchema11 property
 linktitle: isStrictSchema11 property
 articleTitle: isStrictSchema11 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdtSaveOptions.isStrictSchema11 property. Specifies whether export should correspond to ODT specification 1.1 strictly"
 type: docs
 weight: 30

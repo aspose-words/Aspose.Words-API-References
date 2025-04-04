@@ -2,7 +2,7 @@
 title: AxisTickLabels.orientation property
 linktitle: orientation property
 articleTitle: orientation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisTickLabels.orientation property. Gets or sets the orientation of the tick label text."
 type: docs
 weight: 50

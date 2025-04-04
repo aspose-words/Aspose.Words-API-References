@@ -2,7 +2,7 @@
 title: CompareOptions.ignoreFormatting property
 linktitle: ignoreFormatting property
 articleTitle: ignoreFormatting property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompareOptions.ignoreFormatting property. True indicates that formatting is ignored."
 type: docs
 weight: 90

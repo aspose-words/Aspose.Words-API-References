@@ -2,7 +2,7 @@
 title: FontInfoCollection.contains method
 linktitle: contains method
 articleTitle: contains method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontInfoCollection.contains method. Determines whether the collection contains a font with the given name."
 type: docs
 weight: 70

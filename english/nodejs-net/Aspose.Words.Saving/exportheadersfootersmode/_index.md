@@ -2,7 +2,7 @@
 title: ExportHeadersFootersMode enumeration
 linktitle: ExportHeadersFootersMode enumeration
 articleTitle: ExportHeadersFootersMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ExportHeadersFootersMode enumeration. Specifies how headers and footers are exported to HTML, MHTML or EPUB."
 type: docs
 weight: 170

@@ -2,7 +2,7 @@
 title: Node.nodeTypeToString method
 linktitle: nodeTypeToString method
 articleTitle: nodeTypeToString method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.nodeTypeToString method. A utility method that converts a node type enum value into a user friendly string."
 type: docs
 weight: 470

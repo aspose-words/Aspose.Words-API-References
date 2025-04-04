@@ -2,7 +2,7 @@
 title: TxtLoadOptions class
 linktitle: TxtLoadOptions class
 articleTitle: TxtLoadOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.TxtLoadOptions class. Allows to specify additional options when loading [LoadFormat.Text](../../aspose.words/loadformat/#Text) document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 190

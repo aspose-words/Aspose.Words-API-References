@@ -2,7 +2,7 @@
 title: Cell class
 linktitle: Cell class
 articleTitle: Cell class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.Cell class. Represents a table cell"
 type: docs
 weight: 20

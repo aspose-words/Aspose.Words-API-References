@@ -2,7 +2,7 @@
 title: SignOptions.signTime property
 linktitle: signTime property
 articleTitle: signTime property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignOptions.signTime property. The date of signing"
 type: docs
 weight: 50

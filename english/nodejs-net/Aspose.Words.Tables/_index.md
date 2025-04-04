@@ -2,7 +2,7 @@
 title: Aspose.Words.Tables module
 linktitle: Aspose.Words.Tables module
 articleTitle: Aspose.Words.Tables module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Tables module contains classes that represent tables, rows, cells and their formatting."
 type: docs
 weight: 240

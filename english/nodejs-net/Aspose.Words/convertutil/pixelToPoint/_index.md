@@ -2,7 +2,7 @@
 title: ConvertUtil.pixelToPoint method
 linktitle: pixelToPoint method
 articleTitle: pixelToPoint method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ConvertUtil.pixelToPoint method"
 type: docs
 weight: 40

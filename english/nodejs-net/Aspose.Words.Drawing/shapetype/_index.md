@@ -2,7 +2,7 @@
 title: ShapeType enumeration
 linktitle: ShapeType enumeration
 articleTitle: ShapeType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ShapeType enumeration. Specifies the type of shape in a Microsoft Word document."
 type: docs
 weight: 420

@@ -2,7 +2,7 @@
 title: NodeCollection.removeAt method
 linktitle: removeAt method
 articleTitle: removeAt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeCollection.removeAt method. Removes the node at the specified index from the collection and from the document."
 type: docs
 weight: 90

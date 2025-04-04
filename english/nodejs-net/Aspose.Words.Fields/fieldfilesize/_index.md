@@ -2,7 +2,7 @@
 title: FieldFileSize class
 linktitle: FieldFileSize class
 articleTitle: FieldFileSize class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldFileSize class. Implements the FILESIZE field"
 type: docs
 weight: 410

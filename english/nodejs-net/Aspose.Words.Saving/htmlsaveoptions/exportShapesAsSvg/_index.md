@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.exportShapesAsSvg property
 linktitle: exportShapesAsSvg property
 articleTitle: exportShapesAsSvg property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportShapesAsSvg property. Controls whether [Shape](../../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3"
 type: docs
 weight: 250

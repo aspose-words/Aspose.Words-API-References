@@ -2,7 +2,7 @@
 title: Source.department property
 linktitle: department property
 articleTitle: department property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.department property. Gets or sets the department of a source."
 type: docs
 weight: 170

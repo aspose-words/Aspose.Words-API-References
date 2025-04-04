@@ -2,7 +2,7 @@
 title: FieldAuthor constructor
 linktitle: FieldAuthor constructor
 articleTitle: FieldAuthor constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldAuthor constructor. "
 type: docs
 weight: 10

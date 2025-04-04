@@ -2,7 +2,7 @@
 title: Node.document property
 linktitle: document property
 articleTitle: document property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.document property. Gets the document to which this node belongs."
 type: docs
 weight: 20

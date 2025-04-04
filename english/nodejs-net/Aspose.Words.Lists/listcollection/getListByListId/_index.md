@@ -2,7 +2,7 @@
 title: ListCollection.getListByListId method
 linktitle: getListByListId method
 articleTitle: getListByListId method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListCollection.getListByListId method. Gets a list by a list identifier."
 type: docs
 weight: 70

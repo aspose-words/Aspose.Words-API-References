@@ -2,7 +2,7 @@
 title: FontSavingArgs class
 linktitle: FontSavingArgs class
 articleTitle: FontSavingArgs class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.FontSavingArgs class. Provides data for the [IFontSavingCallback.fontSaving()](../ifontsavingcallback/fontSaving/#fontsavingargs) event"
 type: docs
 weight: 200

@@ -2,7 +2,7 @@
 title: Paragraph.runs property
 linktitle: runs property
 articleTitle: runs property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.runs property. Provides access to the typed collection of pieces of text inside the paragraph."
 type: docs
 weight: 220

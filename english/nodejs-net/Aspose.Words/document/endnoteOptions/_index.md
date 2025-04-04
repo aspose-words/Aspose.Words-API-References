@@ -2,7 +2,7 @@
 title: Document.endnoteOptions property
 linktitle: endnoteOptions property
 articleTitle: endnoteOptions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.endnoteOptions property. Provides options that control numbering and positioning of endnotes in this document."
 type: docs
 weight: 120

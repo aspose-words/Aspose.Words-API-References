@@ -2,7 +2,7 @@
 title: OptionButtonControl.selected property
 linktitle: selected property
 articleTitle: selected property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OptionButtonControl.selected property. Gets or sets a boolean value indicating either this [OptionButtonControl](../) is selected or not."
 type: docs
 weight: 10

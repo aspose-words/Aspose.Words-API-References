@@ -2,7 +2,7 @@
 title: Field.asFieldBarcode method
 linktitle: asFieldBarcode method
 articleTitle: asFieldBarcode method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldBarcode method. "
 type: docs
 weight: 220

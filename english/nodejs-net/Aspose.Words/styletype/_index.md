@@ -2,7 +2,7 @@
 title: StyleType enumeration
 linktitle: StyleType enumeration
 articleTitle: StyleType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.StyleType enumeration. Represents type of the style."
 type: docs
 weight: 1280

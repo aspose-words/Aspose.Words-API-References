@@ -2,7 +2,7 @@
 title: TextBox.parent property
 linktitle: parent property
 articleTitle: parent property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextBox.parent property. Gets a parent shape for the [TextBox](../)."
 type: docs
 weight: 90

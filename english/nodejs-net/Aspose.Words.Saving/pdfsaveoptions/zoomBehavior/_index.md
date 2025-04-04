@@ -2,7 +2,7 @@
 title: PdfSaveOptions.zoomBehavior property
 linktitle: zoomBehavior property
 articleTitle: zoomBehavior property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.zoomBehavior property. Gets or sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer."
 type: docs
 weight: 350

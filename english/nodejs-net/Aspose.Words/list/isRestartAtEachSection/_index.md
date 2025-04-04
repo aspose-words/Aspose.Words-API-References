@@ -2,7 +2,7 @@
 title: List.isRestartAtEachSection property
 linktitle: isRestartAtEachSection property
 articleTitle: isRestartAtEachSection property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "List.isRestartAtEachSection property. Specifies whether list should be restarted at each section"
 type: docs
 weight: 50

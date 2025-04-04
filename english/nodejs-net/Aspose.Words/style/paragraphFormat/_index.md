@@ -2,7 +2,7 @@
 title: Style.paragraphFormat property
 linktitle: paragraphFormat property
 articleTitle: paragraphFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.paragraphFormat property. Gets the paragraph formatting of the style."
 type: docs
 weight: 150

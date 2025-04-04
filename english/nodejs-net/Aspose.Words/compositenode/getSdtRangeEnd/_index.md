@@ -2,7 +2,7 @@
 title: CompositeNode.getSdtRangeEnd method
 linktitle: getSdtRangeEnd method
 articleTitle: getSdtRangeEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getSdtRangeEnd method. "
 type: docs
 weight: 200

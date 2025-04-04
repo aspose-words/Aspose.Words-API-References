@@ -2,7 +2,7 @@
 title: EditableRangeEnd.id property
 linktitle: id property
 articleTitle: id property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EditableRangeEnd.id property. Specifies the identifier of the editable range."
 type: docs
 weight: 20

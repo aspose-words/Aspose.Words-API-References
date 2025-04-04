@@ -2,7 +2,7 @@
 title: FrameFormat.horizontalAlignment property
 linktitle: horizontalAlignment property
 articleTitle: horizontalAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FrameFormat.horizontalAlignment property. Gets horizontal alignment of the specified frame."
 type: docs
 weight: 30

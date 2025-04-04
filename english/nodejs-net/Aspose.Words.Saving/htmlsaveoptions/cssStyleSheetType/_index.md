@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.cssStyleSheetType property
 linktitle: cssStyleSheetType property
 articleTitle: cssStyleSheetType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.cssStyleSheetType property. Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB"
 type: docs
 weight: 60

@@ -2,7 +2,7 @@
 title: Node.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.nodeType property. Gets the type of this node."
 type: docs
 weight: 50

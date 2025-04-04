@@ -2,7 +2,7 @@
 title: Field.asFieldLink method
 linktitle: asFieldLink method
 articleTitle: asFieldLink method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldLink method. "
 type: docs
 weight: 610

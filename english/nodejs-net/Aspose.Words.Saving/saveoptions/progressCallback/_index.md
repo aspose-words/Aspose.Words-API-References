@@ -2,7 +2,7 @@
 title: SaveOptions.progressCallback property
 linktitle: progressCallback property
 articleTitle: progressCallback property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.progressCallback property. Called during saving a document and accepts data about saving progress."
 type: docs
 weight: 100

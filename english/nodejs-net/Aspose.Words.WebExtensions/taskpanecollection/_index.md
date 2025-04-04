@@ -2,7 +2,7 @@
 title: TaskPaneCollection class
 linktitle: TaskPaneCollection class
 articleTitle: TaskPaneCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WebExtensions.TaskPaneCollection class. Specifies a list of persisted task pane objects"
 type: docs
 weight: 20

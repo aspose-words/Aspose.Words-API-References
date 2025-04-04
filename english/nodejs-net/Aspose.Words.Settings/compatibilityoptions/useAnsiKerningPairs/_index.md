@@ -2,7 +2,7 @@
 title: CompatibilityOptions.useAnsiKerningPairs property
 linktitle: useAnsiKerningPairs property
 articleTitle: useAnsiKerningPairs property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.useAnsiKerningPairs property. Use ANSI Kerning Pairs from Fonts."
 type: docs
 weight: 610

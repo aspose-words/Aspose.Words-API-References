@@ -2,7 +2,7 @@
 title: FieldListNum.listName property
 linktitle: listName property
 articleTitle: listName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldListNum.listName property. Gets or sets the name of the abstract numbering definition used for the numbering."
 type: docs
 weight: 40

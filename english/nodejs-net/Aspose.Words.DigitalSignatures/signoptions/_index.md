@@ -2,7 +2,7 @@
 title: SignOptions class
 linktitle: SignOptions class
 articleTitle: SignOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.SignOptions class. Allows to specify options for document signing"
 type: docs
 weight: 50

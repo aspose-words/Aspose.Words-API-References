@@ -2,7 +2,7 @@
 title: FontInfoCollection class
 linktitle: FontInfoCollection class
 articleTitle: FontInfoCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontInfoCollection class. Represents a collection of fonts used in a document"
 type: docs
 weight: 120

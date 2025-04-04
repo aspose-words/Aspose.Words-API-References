@@ -2,7 +2,7 @@
 title: NodeType enumeration
 linktitle: NodeType enumeration
 articleTitle: NodeType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.NodeType enumeration. Specifies the type of a Word document node."
 type: docs
 weight: 890

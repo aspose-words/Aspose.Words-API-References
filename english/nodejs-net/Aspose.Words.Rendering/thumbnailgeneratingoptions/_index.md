@@ -2,7 +2,7 @@
 title: ThumbnailGeneratingOptions class
 linktitle: ThumbnailGeneratingOptions class
 articleTitle: ThumbnailGeneratingOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Rendering.ThumbnailGeneratingOptions class. Can be used to specify additional options when generating thumbnail for a document."
 type: docs
 weight: 50

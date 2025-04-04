@@ -2,7 +2,7 @@
 title: CompatibilityOptions.doNotLeaveBackslashAlone property
 linktitle: doNotLeaveBackslashAlone property
 articleTitle: doNotLeaveBackslashAlone property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.doNotLeaveBackslashAlone property. Convert Backslash To Yen Sign When Entered."
 type: docs
 weight: 160

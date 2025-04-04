@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.company property
 linktitle: company property
 articleTitle: company property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.company property. Gets or sets the company property."
 type: docs
 weight: 70

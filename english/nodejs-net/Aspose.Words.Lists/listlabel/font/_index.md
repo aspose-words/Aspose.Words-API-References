@@ -2,7 +2,7 @@
 title: ListLabel.font property
 linktitle: font property
 articleTitle: font property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLabel.font property. Gets the list label font."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: ParagraphFormat.bidi property
 linktitle: bidi property
 articleTitle: bidi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.bidi property. Gets or sets whether this is a right-to-left paragraph."
 type: docs
 weight: 50

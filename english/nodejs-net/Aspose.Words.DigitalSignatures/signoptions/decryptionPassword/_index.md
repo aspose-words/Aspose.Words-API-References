@@ -2,7 +2,7 @@
 title: SignOptions.decryptionPassword property
 linktitle: decryptionPassword property
 articleTitle: decryptionPassword property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignOptions.decryptionPassword property. The password to decrypt source document"
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: FieldListNum.hasListName property
 linktitle: hasListName property
 articleTitle: hasListName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldListNum.hasListName property. Returns a value indicating whether the name of an abstract numbering definition is provided by the field's code."
 type: docs
 weight: 20

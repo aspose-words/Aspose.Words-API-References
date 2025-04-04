@@ -2,7 +2,7 @@
 title: Paragraph.isEndOfCell property
 linktitle: isEndOfCell property
 articleTitle: isEndOfCell property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.isEndOfCell property. True if this paragraph is the last paragraph in a [Cell](../../../aspose.words.tables/cell/); false otherwise."
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: SvgSaveOptions.fitToViewPort property
 linktitle: fitToViewPort property
 articleTitle: fitToViewPort property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.fitToViewPort property. Specifies if the output SVG should fill the available viewport area (browser window or container)"
 type: docs
 weight: 30

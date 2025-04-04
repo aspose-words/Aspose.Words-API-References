@@ -2,7 +2,7 @@
 title: CommentRangeEnd constructor
 linktitle: CommentRangeEnd constructor
 articleTitle: CommentRangeEnd constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CommentRangeEnd constructor. Initializes a new instance of this class."
 type: docs
 weight: 10

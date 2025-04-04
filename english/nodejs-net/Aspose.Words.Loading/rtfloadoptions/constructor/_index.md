@@ -2,7 +2,7 @@
 title: RtfLoadOptions constructor
 linktitle: RtfLoadOptions constructor
 articleTitle: RtfLoadOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RtfLoadOptions constructor. Initializes a new instance of this class with default values."
 type: docs
 weight: 10

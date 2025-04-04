@@ -2,7 +2,7 @@
 title: FootnoteOptions class
 linktitle: FootnoteOptions class
 articleTitle: FootnoteOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.FootnoteOptions class. Represents the footnote numbering options for a document or section"
 type: docs
 weight: 50

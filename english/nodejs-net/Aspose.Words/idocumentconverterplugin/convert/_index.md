@@ -2,7 +2,7 @@
 title: IDocumentConverterPlugin.convert method
 linktitle: convert method
 articleTitle: convert method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IDocumentConverterPlugin.convert method. Converts document using specified input output streams and save options."
 type: docs
 weight: 10

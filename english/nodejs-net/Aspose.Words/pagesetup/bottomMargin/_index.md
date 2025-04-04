@@ -2,7 +2,7 @@
 title: PageSetup.bottomMargin property
 linktitle: bottomMargin property
 articleTitle: bottomMargin property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.bottomMargin property. Returns or sets the distance (in points) between the bottom edge of the page and the bottom boundary of the body text."
 type: docs
 weight: 80

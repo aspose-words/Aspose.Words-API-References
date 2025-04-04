@@ -2,7 +2,7 @@
 title: WrapSide enumeration
 linktitle: WrapSide enumeration
 articleTitle: WrapSide enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.WrapSide enumeration. Specifies what side(s) of the shape or picture the text wraps around."
 type: docs
 weight: 530

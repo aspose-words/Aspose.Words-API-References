@@ -2,7 +2,7 @@
 title: BubbleSizeCollection.this[] property
 linktitle: this[] property
 articleTitle: this[] property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BubbleSizeCollection.this[] property. "
 type: docs
 weight: 30

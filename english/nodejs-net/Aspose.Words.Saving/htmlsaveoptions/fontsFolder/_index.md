@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.fontsFolder property
 linktitle: fontsFolder property
 articleTitle: fontsFolder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.fontsFolder property. Specifies the physical folder where fonts are saved when exporting a document to HTML"
 type: docs
 weight: 310

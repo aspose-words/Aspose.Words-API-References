@@ -2,7 +2,7 @@
 title: FieldTime constructor
 linktitle: FieldTime constructor
 articleTitle: FieldTime constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldTime constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: FieldEmbed constructor
 linktitle: FieldEmbed constructor
 articleTitle: FieldEmbed constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldEmbed constructor. "
 type: docs
 weight: 10

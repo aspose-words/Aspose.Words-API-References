@@ -2,7 +2,7 @@
 title: CheckBoxControl class
 linktitle: CheckBoxControl class
 articleTitle: CheckBoxControl class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Ole.CheckBoxControl class. The CheckBox control toggles a value."
 type: docs
 weight: 10

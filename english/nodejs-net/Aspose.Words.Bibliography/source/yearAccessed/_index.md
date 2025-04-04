@@ -2,7 +2,7 @@
 title: Source.yearAccessed property
 linktitle: yearAccessed property
 articleTitle: yearAccessed property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.yearAccessed property. Gets or sets the year accessed of a source."
 type: docs
 weight: 540

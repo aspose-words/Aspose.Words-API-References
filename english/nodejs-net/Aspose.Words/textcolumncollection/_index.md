@@ -2,7 +2,7 @@
 title: TextColumnCollection class
 linktitle: TextColumnCollection class
 articleTitle: TextColumnCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.TextColumnCollection class. A collection of [TextColumn](../textcolumn/) objects that represent all the columns of text in a section of a document"
 type: docs
 weight: 1370

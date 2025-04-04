@@ -2,7 +2,7 @@
 title: Comment.addReply method
 linktitle: addReply method
 articleTitle: addReply method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Comment.addReply method. Adds a reply to this comment."
 type: docs
 weight: 160

@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitDocumentStart method
 linktitle: visitDocumentStart method
 articleTitle: visitDocumentStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitDocumentStart method. Called when enumeration of the document has started."
 type: docs
 weight: 150

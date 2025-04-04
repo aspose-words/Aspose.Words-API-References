@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.documentSplitHeadingLevel property
 linktitle: documentSplitHeadingLevel property
 articleTitle: documentSplitHeadingLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.documentSplitHeadingLevel property. Specifies the maximum level of headings at which to split the document"
 type: docs
 weight: 90

@@ -2,7 +2,7 @@
 title: TxtListIndentation.character property
 linktitle: character property
 articleTitle: character property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtListIndentation.character property. Gets or sets which character to use for indenting list levels"
 type: docs
 weight: 20

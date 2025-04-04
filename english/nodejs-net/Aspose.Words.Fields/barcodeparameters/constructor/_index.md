@@ -2,7 +2,7 @@
 title: BarcodeParameters constructor
 linktitle: BarcodeParameters constructor
 articleTitle: BarcodeParameters constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters constructor. "
 type: docs
 weight: 10

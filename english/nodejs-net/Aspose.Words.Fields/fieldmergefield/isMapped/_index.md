@@ -2,7 +2,7 @@
 title: FieldMergeField.isMapped property
 linktitle: isMapped property
 articleTitle: isMapped property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeField.isMapped property. Gets or sets whether this field is a mapped field."
 type: docs
 weight: 30

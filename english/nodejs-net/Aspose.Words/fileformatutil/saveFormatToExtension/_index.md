@@ -2,7 +2,7 @@
 title: FileFormatUtil.saveFormatToExtension method
 linktitle: saveFormatToExtension method
 articleTitle: saveFormatToExtension method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FileFormatUtil.saveFormatToExtension method. Converts a save format enumerated value into a file extension"
 type: docs
 weight: 80

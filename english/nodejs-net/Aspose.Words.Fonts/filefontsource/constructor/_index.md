@@ -2,7 +2,7 @@
 title: FileFontSource constructor
 linktitle: FileFontSource constructor
 articleTitle: FileFontSource constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FileFontSource constructor"
 type: docs
 weight: 10

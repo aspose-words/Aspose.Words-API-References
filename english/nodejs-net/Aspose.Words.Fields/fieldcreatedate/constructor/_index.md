@@ -2,7 +2,7 @@
 title: FieldCreateDate constructor
 linktitle: FieldCreateDate constructor
 articleTitle: FieldCreateDate constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCreateDate constructor. "
 type: docs
 weight: 10

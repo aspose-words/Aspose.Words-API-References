@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitShapeEnd method
 linktitle: visitShapeEnd method
 articleTitle: visitShapeEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitShapeEnd method. Called when enumeration of a shape has ended."
 type: docs
 weight: 390

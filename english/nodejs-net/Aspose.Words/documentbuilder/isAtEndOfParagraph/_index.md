@@ -2,7 +2,7 @@
 title: DocumentBuilder.isAtEndOfParagraph property
 linktitle: isAtEndOfParagraph property
 articleTitle: isAtEndOfParagraph property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.isAtEndOfParagraph property. Returns ``true`` if the cursor is at the end of the current paragraph."
 type: docs
 weight: 110

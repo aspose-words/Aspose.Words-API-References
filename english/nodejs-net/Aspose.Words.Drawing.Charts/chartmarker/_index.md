@@ -2,7 +2,7 @@
 title: ChartMarker class
 linktitle: ChartMarker class
 articleTitle: ChartMarker class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartMarker class. Represents a chart data marker"
 type: docs
 weight: 290

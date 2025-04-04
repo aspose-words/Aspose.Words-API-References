@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties class
 linktitle: BuiltInDocumentProperties class
 articleTitle: BuiltInDocumentProperties class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Properties.BuiltInDocumentProperties class. A collection of built-in document properties"
 type: docs
 weight: 10

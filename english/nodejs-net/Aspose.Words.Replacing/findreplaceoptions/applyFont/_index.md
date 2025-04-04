@@ -2,7 +2,7 @@
 title: FindReplaceOptions.applyFont property
 linktitle: applyFont property
 articleTitle: applyFont property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.applyFont property. Text formatting applied to new content."
 type: docs
 weight: 20

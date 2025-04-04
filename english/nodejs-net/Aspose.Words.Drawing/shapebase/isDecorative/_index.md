@@ -2,7 +2,7 @@
 title: ShapeBase.isDecorative property
 linktitle: isDecorative property
 articleTitle: isDecorative property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.isDecorative property. Gets or sets the flag that specifies whether the shape is decorative in the document."
 type: docs
 weight: 210

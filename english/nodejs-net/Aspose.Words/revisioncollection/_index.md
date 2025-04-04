@@ -2,7 +2,7 @@
 title: RevisionCollection class
 linktitle: RevisionCollection class
 articleTitle: RevisionCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.RevisionCollection class. A collection of [Revision](../revision/) objects that represent revisions in the document"
 type: docs
 weight: 1080

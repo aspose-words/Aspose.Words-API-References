@@ -2,7 +2,7 @@
 title: SdtListItemCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SdtListItemCollection.add method. Adds an item to this collection."
 type: docs
 weight: 40

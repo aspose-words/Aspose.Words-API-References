@@ -2,7 +2,7 @@
 title: Style.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.remove method. Removes the specified style from the document."
 type: docs
 weight: 240

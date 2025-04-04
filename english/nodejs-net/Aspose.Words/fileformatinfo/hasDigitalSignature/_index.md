@@ -2,7 +2,7 @@
 title: FileFormatInfo.hasDigitalSignature property
 linktitle: hasDigitalSignature property
 articleTitle: hasDigitalSignature property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FileFormatInfo.hasDigitalSignature property. Returns ``true`` if this document contains a digital signature"
 type: docs
 weight: 20

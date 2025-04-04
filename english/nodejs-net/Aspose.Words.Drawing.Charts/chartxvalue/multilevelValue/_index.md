@@ -2,7 +2,7 @@
 title: ChartXValue.multilevelValue property
 linktitle: multilevelValue property
 articleTitle: multilevelValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartXValue.multilevelValue property. Gets the stored multilevel value."
 type: docs
 weight: 30

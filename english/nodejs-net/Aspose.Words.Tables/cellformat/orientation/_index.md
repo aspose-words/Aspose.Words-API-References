@@ -2,7 +2,7 @@
 title: CellFormat.orientation property
 linktitle: orientation property
 articleTitle: orientation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.orientation property. Returns or sets the orientation of text in a table cell."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: ParagraphFormat.noSpaceBetweenParagraphsOfSameStyle property
 linktitle: noSpaceBetweenParagraphsOfSameStyle property
 articleTitle: noSpaceBetweenParagraphsOfSameStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.noSpaceBetweenParagraphsOfSameStyle property. When ``true``, [ParagraphFormat.spaceBefore](../spaceBefore/) and [ParagraphFormat.spaceAfter](../spaceAfter/) will be ignored between the paragraphs of the same style."
 type: docs
 weight: 250

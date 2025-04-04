@@ -2,7 +2,7 @@
 title: LayoutOptions.ignorePrinterMetrics property
 linktitle: ignorePrinterMetrics property
 articleTitle: ignorePrinterMetrics property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutOptions.ignorePrinterMetrics property. Gets or sets indication of whether the Use printer metrics to lay out document compatibility option is ignored"
 type: docs
 weight: 50
