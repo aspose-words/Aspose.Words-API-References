@@ -5,7 +5,7 @@ articleTitle: ListLevelAlignment
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Lists.ListLevelAlignment enum for optimal list number and bullet alignment. Enhance document formatting effortlessly!
 type: docs
-weight: 3940
+weight: 3950
 url: /net/aspose.words.lists/listlevelalignment/
 ---
 ## ListLevelAlignment enumeration

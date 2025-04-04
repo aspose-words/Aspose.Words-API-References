@@ -5,7 +5,7 @@ articleTitle: TableStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.TableStyle class for creating and customizing stunning table styles in your documents. Enhance your formatting effortlessly!
 type: docs
-weight: 6920
+weight: 7050
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class

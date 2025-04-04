@@ -5,7 +5,7 @@ articleTitle: INodeChangingCallback
 second_title: Aspose.Words for .NET
 description: Implement the Aspose.Words.INodeChangingCallback interface to get real-time notifications on document node changes, enhancing your document management experience.
 type: docs
-weight: 3620
+weight: 3630
 url: /net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface

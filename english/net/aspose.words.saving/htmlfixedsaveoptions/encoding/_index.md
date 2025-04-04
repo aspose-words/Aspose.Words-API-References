@@ -30,7 +30,7 @@ builder.Writeln("Hello World!");
 // we can use a SaveOptions object to set a specific encoding.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
-    Encoding = Encoding.GetEncoding("ASCII")
+    Encoding = Encoding.ASCII
 };
 
 Assert.AreEqual("US-ASCII", htmlFixedSaveOptions.Encoding.EncodingName);

@@ -5,12 +5,12 @@ articleTitle: Merge
 second_title: Aspose.Words for .NET
 description: Effortlessly combine multiple documents into one with our Merger Merge method. Streamline your workflow with customizable file options today!
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.lowcode/merger/merge/
 ---
 ## Merge(*string, string[]*) {#merge_8}
 
-Merges the given input documents into a single output document using specified input and output file names.
+Merges the given input documents into a single output document using specified input and output file names using KeepSourceFormatting.
 
 ```csharp
 public static void Merge(string outputFile, string[] inputFiles)
@@ -23,7 +23,9 @@ public static void Merge(string outputFile, string[] inputFiles)
 
 ## Remarks
 
-By default KeepSourceFormatting is used.
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## Examples
 
@@ -75,6 +77,12 @@ public static void Merge(string outputFile, string[] inputFiles, SaveFormat save
 | inputFiles | String[] | The input file names. |
 | saveFormat | SaveFormat | The save format. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## Examples
 
@@ -129,6 +137,12 @@ public static void Merge(string outputFile, string[] inputFiles, SaveOptions sav
 | saveOptions | SaveOptions | The save options. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
 
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
 ## Examples
 
 Shows how to merge documents into a single output document.
@@ -182,6 +196,12 @@ public static void Merge(string outputFile, string[] inputFiles, LoadOptions[] l
 | loadOptions | LoadOptions[] | Load options for the input files. |
 | saveOptions | SaveOptions | The save options. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## Examples
 
@@ -378,6 +398,12 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveFormat 
 | inputStreams | Stream[] | The input streams. |
 | saveFormat | SaveFormat | The save format. |
 
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
+
 ## Examples
 
 Shows how to merge documents from stream into a single output document.
@@ -433,6 +459,12 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, SaveOptions
 | inputStreams | Stream[] | The input streams. |
 | saveOptions | SaveOptions | The save options. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## Examples
 
@@ -491,6 +523,12 @@ public static void Merge(Stream outputStream, Stream[] inputStreams, LoadOptions
 | loadOptions | LoadOptions[] | Load options for the input files. |
 | saveOptions | SaveOptions | The save options. |
 | mergeFormatMode | MergeFormatMode | Specifies how to merge formatting that clashes. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## Examples
 

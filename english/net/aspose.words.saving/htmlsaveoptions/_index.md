@@ -5,7 +5,7 @@ articleTitle: HtmlSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.HtmlSaveOptions to enhance document saving in HTML, MHTML, EPUB, AZW3, and MOBI formats with customizable options.
 type: docs
-weight: 5720
+weight: 5850
 url: /net/aspose.words.saving/htmlsaveoptions/
 ---
 ## HtmlSaveOptions class
@@ -79,6 +79,7 @@ public class HtmlSaveOptions : SaveOptions
 | [OfficeMathOutputMode](../../aspose.words.saving/htmlsaveoptions/officemathoutputmode/) { get; set; } | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is Image. |
 | [PrettyFormat](../../aspose.words.saving/saveoptions/prettyformat/) { get; set; } | When `true`, pretty formats output where applicable. Default value is `false`. |
 | [ProgressCallback](../../aspose.words.saving/saveoptions/progresscallback/) { get; set; } | Called during saving a document and accepts data about saving progress. |
+| [RemoveJavaScriptFromLinks](../../aspose.words.saving/htmlsaveoptions/removejavascriptfromlinks/) { get; set; } | Specifies whether JavaScript will be removed from links. Default is `false`. |
 | [ReplaceBackslashWithYenSign](../../aspose.words.saving/htmlsaveoptions/replacebackslashwithyensign/) { get; set; } | Specifies whether backslash characters should be replaced with yen signs. Default value is `false`. |
 | [ResolveFontNames](../../aspose.words.saving/htmlsaveoptions/resolvefontnames/) { get; set; } | Specifies whether font family names used in the document are resolved and substituted according to [`FontSettings`](../../aspose.words/document/fontsettings/) when being written into HTML-based formats. |
 | [ResourceFolder](../../aspose.words.saving/htmlsaveoptions/resourcefolder/) { get; set; } | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |

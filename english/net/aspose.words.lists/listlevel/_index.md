@@ -5,7 +5,7 @@ articleTitle: ListLevel
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Lists.ListLevel class for advanced list formatting. Enhance your document's structure with powerful, customizable options.
 type: docs
-weight: 3930
+weight: 3940
 url: /net/aspose.words.lists/listlevel/
 ---
 ## ListLevel class

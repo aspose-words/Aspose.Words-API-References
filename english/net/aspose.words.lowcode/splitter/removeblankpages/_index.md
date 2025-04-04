@@ -5,7 +5,7 @@ articleTitle: RemoveBlankPages
 second_title: Aspose.Words for .NET
 description: Effortlessly eliminate empty pages from your documents with the Splitter RemoveBlankPages method. Save time and enhance your workflow today!
 type: docs
-weight: 20
+weight: 30
 url: /net/aspose.words.lowcode/splitter/removeblankpages/
 ---
 ## RemoveBlankPages(*string, string*) {#removeblankpages_2}

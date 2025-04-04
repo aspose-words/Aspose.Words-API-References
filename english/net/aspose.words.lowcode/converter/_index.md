@@ -5,7 +5,7 @@ articleTitle: Converter
 second_title: Aspose.Words for .NET
 description: Effortlessly convert various document types with Aspose.Words.LowCode.Converter. Simplify your workflow using just one line of code for seamless integration.
 type: docs
-weight: 4200
+weight: 4220
 url: /net/aspose.words.lowcode/converter/
 ---
 ## Converter class
@@ -13,13 +13,24 @@ url: /net/aspose.words.lowcode/converter/
 Represents a group of methods intended to convert a variety of different types of documents using a single line of code.
 
 ```csharp
-public static class Converter
+public class Converter : Processor
 ```
 
 ## Methods
 
 | Name | Description |
 | --- | --- |
+| static [Create](../../aspose.words.lowcode/converter/create/#create)() | Creates new instance of the converter processor. |
+| static [Create](../../aspose.words.lowcode/converter/create/#create_1)(*[ConverterContext](../convertercontext/)*) | Creates new instance of the converter processor. |
+| [Execute](../../aspose.words.lowcode/processor/execute/)() | Execute the processor action. |
+| [From](../../aspose.words.lowcode/processor/from/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
+| [From](../../aspose.words.lowcode/processor/from/)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/)*) | Specifies input document for processing. |
+| [To](../../aspose.words.lowcode/processor/to/)(*List&amp;lt;Stream&amp;gt;, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output Document streams list. |
+| [To](../../aspose.words.lowcode/processor/to/)(*List&amp;lt;Stream&amp;gt;, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output Document streams list. |
+| [To](../../aspose.words.lowcode/processor/to/)(*Stream, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output stream for the processor. |
+| [To](../../aspose.words.lowcode/processor/to/)(*Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output stream for the processor. |
+| [To](../../aspose.words.lowcode/processor/to/)(*string, [SaveFormat](../../aspose.words/saveformat/)*) | Specifies output file for the processor. |
+| [To](../../aspose.words.lowcode/processor/to/)(*string, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Specifies output file for the processor. |
 | static [Convert](../../aspose.words.lowcode/converter/convert/#convert_4)(*string, string*) | Converts the given input document into the output document using specified input output file names and its extensions. |
 | static [Convert](../../aspose.words.lowcode/converter/convert/#convert_1)(*Stream, Stream, [SaveFormat](../../aspose.words/saveformat/)*) | Converts the given input document into a single output document using specified input and output streams. |
 | static [Convert](../../aspose.words.lowcode/converter/convert/#convert_2)(*Stream, Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Converts the given input document into a single output document using specified input and output streams. |
@@ -33,11 +44,7 @@ public static class Converter
 | static [ConvertToImages](../../aspose.words.lowcode/converter/converttoimages/#converttoimages_3)(*Stream, [SaveFormat](../../aspose.words/saveformat/)*) | Converts the pages of the specified input stream to images in the specified format and returns an array of streams containing the images. |
 | static [ConvertToImages](../../aspose.words.lowcode/converter/converttoimages/#converttoimages_6)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Converts the pages of the specified input file to images using the specified save options and returns an array of streams containing the images. |
 | static [ConvertToImages](../../aspose.words.lowcode/converter/converttoimages/#converttoimages_5)(*string, [SaveFormat](../../aspose.words/saveformat/)*) | Converts the pages of the specified input file to images in the specified format and returns an array of streams containing the images. |
-| static [ConvertToImages](../../aspose.words.lowcode/converter/converttoimages/#converttoimages_8)(*string, string*) | Converts the pages of the specified input file to image files. |
 | static [ConvertToImages](../../aspose.words.lowcode/converter/converttoimages/#converttoimages_2)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Converts the pages of the specified input stream to images using the provided load and save options, and returns an array of streams containing the images. |
-| static [ConvertToImages](../../aspose.words.lowcode/converter/converttoimages/#converttoimages_10)(*string, string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Converts the pages of the specified input file to image files using the specified save options. |
-| static [ConvertToImages](../../aspose.words.lowcode/converter/converttoimages/#converttoimages_9)(*string, string, [SaveFormat](../../aspose.words/saveformat/)*) | Converts the pages of the specified input file to image files in the specified format. |
-| static [ConvertToImages](../../aspose.words.lowcode/converter/converttoimages/#converttoimages_7)(*string, [LoadOptions](../../aspose.words.loading/loadoptions/), string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Converts the pages of the specified input file to image files using the provided load and save options. |
 
 ## Remarks
 
@@ -51,5 +58,6 @@ With [`PageSet`](../../aspose.words.saving/imagesaveoptions/pageset/), you can s
 
 ### See Also
 
+* class [Processor](../processor/)
 * namespace [Aspose.Words.LowCode](../../aspose.words.lowcode/)
 * assembly [Aspose.Words](../../)

@@ -5,7 +5,7 @@ articleTitle: DownsampleOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.DownsampleOptions class to easily customize image downsampling for optimized document quality and performance.
 type: docs
-weight: 5580
+weight: 5710
 url: /net/aspose.words.saving/downsampleoptions/
 ---
 ## DownsampleOptions class

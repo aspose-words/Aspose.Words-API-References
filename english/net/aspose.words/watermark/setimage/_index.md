@@ -126,7 +126,7 @@ Document doc = new Document();
 
 ---
 
-## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_3}
 
 Adds Image watermark into the document.
 
@@ -177,6 +177,56 @@ Document doc = new Document();
 #endif
 
             doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
+```
+
+### See Also
+
+* class [ImageWatermarkOptions](../../imagewatermarkoptions/)
+* class [Watermark](../)
+* namespace [Aspose.Words](../../../aspose.words/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## SetImage(*Stream, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
+
+Adds Image watermark into the document.
+
+```csharp
+public void SetImage(Stream imageStream, ImageWatermarkOptions options)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageStream | Stream | The stream containing the image data that is displayed as a watermark. |
+| options | ImageWatermarkOptions | Defines additional options for the image watermark. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentNullException | Throws when the path is `null`. |
+
+## Remarks
+
+If [`ImageWatermarkOptions`](../../imagewatermarkoptions/) is `null`, the watermark will be set with default options.
+
+## Examples
+
+Shows how to create a watermark from an image stream.
+
+```csharp
+Document doc = new Document();
+
+// Modify the image watermark's appearance with an ImageWatermarkOptions object,
+// then pass it while creating a watermark from an image file.
+ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+imageWatermarkOptions.Scale = 5;
+
+using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
+    doc.Watermark.SetImage(imageStream, imageWatermarkOptions);
+
+doc.Save(ArtifactsDir + "Document.ImageWatermarkStream.docx");
 ```
 
 ### See Also

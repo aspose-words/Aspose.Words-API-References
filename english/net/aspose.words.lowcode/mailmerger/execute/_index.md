@@ -5,10 +5,10 @@ articleTitle: Execute
 second_title: Aspose.Words for .NET
 description: Streamline your workflow with the MailMerger Execute method, effortlessly merging data for single records to enhance efficiency and accuracy.
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose.words.lowcode/mailmerger/execute/
 ---
-## Execute(*string, string, string[], object[]*) {#execute_20}
+## Execute(*string, string, string[], object[]*) {#execute_14}
 
 Performs a mail merge operation for a single record.
 
@@ -24,6 +24,12 @@ public static void Execute(string inputFileName, string outputFileName, string[]
 | fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
 
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
 ## Examples
 
 Shows how to do mail merge operation for a single record.
@@ -39,7 +45,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.1.docx", fieldNames, f
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.2.docx", SaveFormat.Docx, fieldNames, fieldValues);
 MailMergeOptions mailMergeOptions = new MailMergeOptions();
 mailMergeOptions.TrimWhitespaces = true;
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, fieldNames, fieldValues, mailMergeOptions);
 ```
 
 ### See Also
@@ -50,13 +56,13 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Do
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string[], object[]*) {#execute_14}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), string[], object[], [MailMergeOptions](../../mailmergeoptions/)*) {#execute_8}
 
 Performs a mail merge operation for a single record.
 
 ```csharp
 public static void Execute(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    string[] fieldNames, object[] fieldValues)
+    string[] fieldNames, object[] fieldValues, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -66,51 +72,13 @@ public static void Execute(string inputFileName, string outputFileName, SaveForm
 | saveFormat | SaveFormat | The output's save format. |
 | fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
-
-## Examples
-
-Shows how to do mail merge operation for a single record.
-
-```csharp
-// There is a several ways to do mail merge operation:
-string doc = MyDir + "Mail merge.doc";
-
-string[] fieldNames = new string[] { "FirstName", "Location", "SpecialCharsInName()" };
-string[] fieldValues = new string[] { "James Bond", "London", "Classified" };
-
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.1.docx", fieldNames, fieldValues);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.2.docx", SaveFormat.Docx, fieldNames, fieldValues);
-MailMergeOptions mailMergeOptions = new MailMergeOptions();
-mailMergeOptions.TrimWhitespaces = true;
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
-```
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMerger](../)
-* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_11}
-
-Performs a mail merge operation for a single record.
-
-```csharp
-public static void Execute(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    MailMergeOptions mailMergeOptions, string[] fieldNames, object[] fieldValues)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputFileName | String | The input file name. |
-| outputFileName | String | The output file name. |
-| saveFormat | SaveFormat | The output's save format. |
 | mailMergeOptions | MailMergeOptions | Mail merge options. |
-| fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-| fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## Examples
 
@@ -127,7 +95,7 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.1.docx", fieldNames, f
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.2.docx", SaveFormat.Docx, fieldNames, fieldValues);
 MailMergeOptions mailMergeOptions = new MailMergeOptions();
 mailMergeOptions.TrimWhitespaces = true;
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Docx, fieldNames, fieldValues, mailMergeOptions);
 ```
 
 ### See Also
@@ -140,13 +108,13 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMerge.3.docx", SaveFormat.Do
 
 ---
 
-## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_17}
+## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), string[], object[], [MailMergeOptions](../../mailmergeoptions/)*) {#execute_11}
 
 Performs a mail merge operation for a single record.
 
 ```csharp
 public static void Execute(string inputFileName, string outputFileName, SaveOptions saveOptions, 
-    MailMergeOptions mailMergeOptions, string[] fieldNames, object[] fieldValues)
+    string[] fieldNames, object[] fieldValues, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -154,9 +122,15 @@ public static void Execute(string inputFileName, string outputFileName, SaveOpti
 | inputFileName | String | The input file name. |
 | outputFileName | String | The output file name. |
 | saveOptions | SaveOptions | The output's save options. |
-| mailMergeOptions | MailMergeOptions | Mail merge options. |
 | fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ### See Also
 
@@ -168,13 +142,13 @@ public static void Execute(string inputFileName, string outputFileName, SaveOpti
 
 ---
 
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string[], object[]*) {#execute_5}
+## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), string[], object[], [MailMergeOptions](../../mailmergeoptions/)*) {#execute_2}
 
 Performs a mail merge operation for a single record.
 
 ```csharp
 public static void Execute(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    string[] fieldNames, object[] fieldValues)
+    string[] fieldNames, object[] fieldValues, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -184,56 +158,13 @@ public static void Execute(Stream inputStream, Stream outputStream, SaveFormat s
 | saveFormat | SaveFormat | The output's save format. |
 | fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
-
-## Examples
-
-Shows how to do mail merge operation for a single record from the stream.
-
-```csharp
-// There is a several ways to do mail merge operation using documents from the stream:
-string[] fieldNames = new string[] { "FirstName", "Location", "SpecialCharsInName()" };
-string[] fieldValues = new string[] { "James Bond", "London", "Classified" };
-
-using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
-{
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStream.1.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, fieldNames, fieldValues);
-
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
-    {
-        MailMergeOptions mailMergeOptions = new MailMergeOptions();
-        mailMergeOptions.TrimWhitespaces = true;
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
-    }
-}
-```
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMerger](../)
-* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_2}
-
-Performs a mail merge operation for a single record.
-
-```csharp
-public static void Execute(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    MailMergeOptions mailMergeOptions, string[] fieldNames, object[] fieldValues)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | Stream | The input file stream. |
-| outputStream | Stream | The output file stream. |
-| saveFormat | SaveFormat | The output's save format. |
 | mailMergeOptions | MailMergeOptions | Mail merge options. |
-| fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-| fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## Examples
 
@@ -253,7 +184,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
     {
         MailMergeOptions mailMergeOptions = new MailMergeOptions();
         mailMergeOptions.TrimWhitespaces = true;
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, mailMergeOptions, fieldNames, fieldValues);
+        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, fieldNames, fieldValues, mailMergeOptions);
     }
 }
 ```
@@ -268,13 +199,13 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), string[], object[]*) {#execute_8}
+## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), string[], object[], [MailMergeOptions](../../mailmergeoptions/)*) {#execute_5}
 
 Performs a mail merge operation for a single record.
 
 ```csharp
 public static void Execute(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    MailMergeOptions mailMergeOptions, string[] fieldNames, object[] fieldValues)
+    string[] fieldNames, object[] fieldValues, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -282,9 +213,15 @@ public static void Execute(Stream inputStream, Stream outputStream, SaveOptions 
 | inputStream | Stream | The input file stream. |
 | outputStream | Stream | The output file stream. |
 | saveOptions | SaveOptions | The output's save options. |
-| mailMergeOptions | MailMergeOptions | Mail merge options. |
 | fieldNames | String[] | Array of merge field names. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 | fieldValues | Object[] | Array of values to be inserted into the merge fields. Number of elements in this array must be the same as the number of elements in fieldNames. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ### See Also
 
@@ -296,7 +233,7 @@ public static void Execute(Stream inputStream, Stream outputStream, SaveOptions 
 
 ---
 
-## Execute(*string, string, DataRow*) {#execute_18}
+## Execute(*string, string, DataRow*) {#execute_12}
 
 Performs mail merge from a DataRow into the document.
 
@@ -310,6 +247,12 @@ public static void Execute(string inputFileName, string outputFileName, DataRow 
 | outputFileName | String | The output file name. |
 | dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
 ## Examples
 
 Shows how to do mail merge operation from a DataRow.
@@ -327,7 +270,7 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.1.docx", dataRow);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.2.docx", SaveFormat.Docx, dataRow);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataRow);
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, dataRow, new MailMergeOptions() { TrimWhitespaces = true });
 ```
 
 ### See Also
@@ -338,13 +281,13 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFo
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataRow*) {#execute_12}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataRow, [MailMergeOptions](../../mailmergeoptions/)*) {#execute_6}
 
 Performs mail merge from a DataRow into the document.
 
 ```csharp
 public static void Execute(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    DataRow dataRow)
+    DataRow dataRow, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -353,52 +296,13 @@ public static void Execute(string inputFileName, string outputFileName, SaveForm
 | outputFileName | String | The output file name. |
 | saveFormat | SaveFormat | The output's save format. |
 | dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-
-## Examples
-
-Shows how to do mail merge operation from a DataRow.
-
-```csharp
-// There is a several ways to do mail merge operation from a DataRow:
-string doc = MyDir + "Mail merge.doc";
-
-DataTable dataTable = new DataTable();
-dataTable.Columns.Add("FirstName");
-dataTable.Columns.Add("Location");
-dataTable.Columns.Add("SpecialCharsInName()");
-
-DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Classified" });
-
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.1.docx", dataRow);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.2.docx", SaveFormat.Docx, dataRow);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataRow);
-```
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMerger](../)
-* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute_9}
-
-Performs mail merge from a DataRow into the document.
-
-```csharp
-public static void Execute(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    MailMergeOptions mailMergeOptions, DataRow dataRow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputFileName | String | The input file name. |
-| outputFileName | String | The output file name. |
-| saveFormat | SaveFormat | The output's save format. |
 | mailMergeOptions | MailMergeOptions | Mail merge options. |
-| dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## Examples
 
@@ -417,7 +321,7 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.1.docx", dataRow);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.2.docx", SaveFormat.Docx, dataRow);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataRow);
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFormat.Docx, dataRow, new MailMergeOptions() { TrimWhitespaces = true });
 ```
 
 ### See Also
@@ -430,13 +334,13 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataRow.3.docx", SaveFo
 
 ---
 
-## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute_15}
+## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), DataRow, [MailMergeOptions](../../mailmergeoptions/)*) {#execute_9}
 
 Performs mail merge from a DataRow into the document.
 
 ```csharp
 public static void Execute(string inputFileName, string outputFileName, SaveOptions saveOptions, 
-    MailMergeOptions mailMergeOptions, DataRow dataRow)
+    DataRow dataRow, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -444,8 +348,14 @@ public static void Execute(string inputFileName, string outputFileName, SaveOpti
 | inputFileName | String | The input file name. |
 | outputFileName | String | The output file name. |
 | saveOptions | SaveOptions | The output's save options. |
-| mailMergeOptions | MailMergeOptions | Mail merge options. |
 | dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ### See Also
 
@@ -457,13 +367,13 @@ public static void Execute(string inputFileName, string outputFileName, SaveOpti
 
 ---
 
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), DataRow*) {#execute_3}
+## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), DataRow, [MailMergeOptions](../../mailmergeoptions/)*) {#execute}
 
 Performs a mail merge operation for a single record.
 
 ```csharp
 public static void Execute(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    DataRow dataRow)
+    DataRow dataRow, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -472,55 +382,13 @@ public static void Execute(Stream inputStream, Stream outputStream, SaveFormat s
 | outputStream | Stream | The output file stream. |
 | saveFormat | SaveFormat | The output's save format. |
 | dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-
-## Examples
-
-Shows how to do mail merge operation from a DataRow using documents from the stream.
-
-```csharp
-// There is a several ways to do mail merge operation from a DataRow using documents from the stream:
-DataTable dataTable = new DataTable();
-dataTable.Columns.Add("FirstName");
-dataTable.Columns.Add("Location");
-dataTable.Columns.Add("SpecialCharsInName()");
-
-DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Classified" });
-
-using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
-{
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStreamDataRow.1.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataRow);
-
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStreamDataRow.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataRow);
-}
-```
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMerger](../)
-* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute}
-
-Performs a mail merge operation for a single record.
-
-```csharp
-public static void Execute(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    MailMergeOptions mailMergeOptions, DataRow dataRow)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | Stream | The input file stream. |
-| outputStream | Stream | The output file stream. |
-| saveFormat | SaveFormat | The output's save format. |
 | mailMergeOptions | MailMergeOptions | Mail merge options. |
-| dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## Examples
 
@@ -541,7 +409,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
         MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataRow);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeStreamDataRow.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataRow);
+        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataRow, new MailMergeOptions() { TrimWhitespaces = true });
 }
 ```
 
@@ -555,13 +423,13 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataRow*) {#execute_6}
+## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), DataRow, [MailMergeOptions](../../mailmergeoptions/)*) {#execute_3}
 
 Performs a mail merge operation for a single record.
 
 ```csharp
 public static void Execute(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    MailMergeOptions mailMergeOptions, DataRow dataRow)
+    DataRow dataRow, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -569,8 +437,14 @@ public static void Execute(Stream inputStream, Stream outputStream, SaveOptions 
 | inputStream | Stream | The input file stream. |
 | outputStream | Stream | The output file stream. |
 | saveOptions | SaveOptions | The output's save options. |
-| mailMergeOptions | MailMergeOptions | Mail merge options. |
 | dataRow | DataRow | Row that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ### See Also
 
@@ -582,7 +456,7 @@ public static void Execute(Stream inputStream, Stream outputStream, SaveOptions 
 
 ---
 
-## Execute(*string, string, DataTable*) {#execute_19}
+## Execute(*string, string, DataTable*) {#execute_13}
 
 Performs mail merge from a DataTable into the document.
 
@@ -596,6 +470,12 @@ public static void Execute(string inputFileName, string outputFileName, DataTabl
 | outputFileName | String | The output file name. |
 | dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
 
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
+
 ## Examples
 
 Shows how to do mail merge operation from a DataTable.
@@ -613,7 +493,7 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.1.docx", dataTable);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.2.docx", SaveFormat.Docx, dataTable);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataTable);
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
 ```
 
 ### See Also
@@ -624,13 +504,13 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", Save
 
 ---
 
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataTable*) {#execute_13}
+## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), DataTable, [MailMergeOptions](../../mailmergeoptions/)*) {#execute_7}
 
 Performs mail merge from a DataRow into the document.
 
 ```csharp
 public static void Execute(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    DataTable dataTable)
+    DataTable dataTable, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -639,52 +519,13 @@ public static void Execute(string inputFileName, string outputFileName, SaveForm
 | outputFileName | String | The output file name. |
 | saveFormat | SaveFormat | The output's save format. |
 | dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-
-## Examples
-
-Shows how to do mail merge operation from a DataTable.
-
-```csharp
-// There is a several ways to do mail merge operation from a DataTable:
-string doc = MyDir + "Mail merge.doc";
-
-DataTable dataTable = new DataTable();
-dataTable.Columns.Add("FirstName");
-dataTable.Columns.Add("Location");
-dataTable.Columns.Add("SpecialCharsInName()");
-
-DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Classified" });
-
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.1.docx", dataTable);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.2.docx", SaveFormat.Docx, dataTable);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataTable);
-```
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMerger](../)
-* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Execute(*string, string, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_10}
-
-Performs mail merge from a DataRow into the document.
-
-```csharp
-public static void Execute(string inputFileName, string outputFileName, SaveFormat saveFormat, 
-    MailMergeOptions mailMergeOptions, DataTable dataTable)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputFileName | String | The input file name. |
-| outputFileName | String | The output file name. |
-| saveFormat | SaveFormat | The output's save format. |
 | mailMergeOptions | MailMergeOptions | Mail merge options. |
-| dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## Examples
 
@@ -703,7 +544,7 @@ DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Cla
 
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.1.docx", dataTable);
 MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.2.docx", SaveFormat.Docx, dataTable);
-MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataTable);
+MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
 ```
 
 ### See Also
@@ -716,13 +557,13 @@ MailMerger.Execute(doc, ArtifactsDir + "LowCode.MailMergeDataTable.3.docx", Save
 
 ---
 
-## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_16}
+## Execute(*string, string, [SaveOptions](../../../aspose.words.saving/saveoptions/), DataTable, [MailMergeOptions](../../mailmergeoptions/)*) {#execute_10}
 
 Performs mail merge from a DataRow into the document.
 
 ```csharp
 public static void Execute(string inputFileName, string outputFileName, SaveOptions saveOptions, 
-    MailMergeOptions mailMergeOptions, DataTable dataTable)
+    DataTable dataTable, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -730,8 +571,14 @@ public static void Execute(string inputFileName, string outputFileName, SaveOpti
 | inputFileName | String | The input file name. |
 | outputFileName | String | The output file name. |
 | saveOptions | SaveOptions | The output's save options. |
-| mailMergeOptions | MailMergeOptions | Mail merge options. |
 | dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ### See Also
 
@@ -743,13 +590,13 @@ public static void Execute(string inputFileName, string outputFileName, SaveOpti
 
 ---
 
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), DataTable*) {#execute_4}
+## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), DataTable, [MailMergeOptions](../../mailmergeoptions/)*) {#execute_1}
 
 Performs a mail merge operation for a single record.
 
 ```csharp
 public static void Execute(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    DataTable dataTable)
+    DataTable dataTable, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -758,55 +605,13 @@ public static void Execute(Stream inputStream, Stream outputStream, SaveFormat s
 | outputStream | Stream | The output file stream. |
 | saveFormat | SaveFormat | The output's save format. |
 | dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
-
-## Examples
-
-Shows how to do mail merge operation from a DataTable using documents from the stream.
-
-```csharp
-// There is a several ways to do mail merge operation from a DataTable using documents from the stream:
-DataTable dataTable = new DataTable();
-dataTable.Columns.Add("FirstName");
-dataTable.Columns.Add("Location");
-dataTable.Columns.Add("SpecialCharsInName()");
-
-DataRow dataRow = dataTable.Rows.Add(new string[] { "James Bond", "London", "Classified" });
-
-using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.Open, FileAccess.Read))
-{
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeDataTable.1.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataTable);
-
-    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeDataTable.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataTable);
-}
-```
-
-### See Also
-
-* enum [SaveFormat](../../../aspose.words/saveformat/)
-* class [MailMerger](../)
-* namespace [Aspose.Words.LowCode](../../../aspose.words.lowcode/)
-* assembly [Aspose.Words](../../../)
-
----
-
-## Execute(*Stream, Stream, [SaveFormat](../../../aspose.words/saveformat/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_1}
-
-Performs a mail merge operation for a single record.
-
-```csharp
-public static void Execute(Stream inputStream, Stream outputStream, SaveFormat saveFormat, 
-    MailMergeOptions mailMergeOptions, DataTable dataTable)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| inputStream | Stream | The input file stream. |
-| outputStream | Stream | The output file stream. |
-| saveFormat | SaveFormat | The output's save format. |
 | mailMergeOptions | MailMergeOptions | Mail merge options. |
-| dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## Examples
 
@@ -827,7 +632,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
         MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataTable);
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.MailMergeDataTable.2.docx", FileMode.Create, FileAccess.ReadWrite))
-        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, new MailMergeOptions() { TrimWhitespaces = true }, dataTable);
+        MailMerger.Execute(streamIn, streamOut, SaveFormat.Docx, dataTable, new MailMergeOptions() { TrimWhitespaces = true });
 }
 ```
 
@@ -841,13 +646,13 @@ using (FileStream streamIn = new FileStream(MyDir + "Mail merge.doc", FileMode.O
 
 ---
 
-## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), [MailMergeOptions](../../mailmergeoptions/), DataTable*) {#execute_7}
+## Execute(*Stream, Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/), DataTable, [MailMergeOptions](../../mailmergeoptions/)*) {#execute_4}
 
 Performs a mail merge operation for a single record.
 
 ```csharp
 public static void Execute(Stream inputStream, Stream outputStream, SaveOptions saveOptions, 
-    MailMergeOptions mailMergeOptions, DataTable dataTable)
+    DataTable dataTable, MailMergeOptions mailMergeOptions = null)
 ```
 
 | Parameter | Type | Description |
@@ -855,8 +660,14 @@ public static void Execute(Stream inputStream, Stream outputStream, SaveOptions 
 | inputStream | Stream | The input file stream. |
 | outputStream | Stream | The output file stream. |
 | saveOptions | SaveOptions | The output's save options. |
-| mailMergeOptions | MailMergeOptions | Mail merge options. |
 | dataTable | DataTable | Table that contains data to be inserted into mail merge fields. Field names are not case sensitive. If a field name that is not found in the document is encountered, it is ignored. |
+| mailMergeOptions | MailMergeOptions | Mail merge options. |
+
+## Remarks
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ### See Also
 
