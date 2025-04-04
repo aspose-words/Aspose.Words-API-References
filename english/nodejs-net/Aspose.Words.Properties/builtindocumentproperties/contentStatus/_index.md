@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.contentStatus property
 linktitle: contentStatus property
 articleTitle: contentStatus property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.contentStatus property. Gets or sets the content status of the document."
 type: docs
 weight: 80

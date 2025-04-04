@@ -2,7 +2,7 @@
 title: IStructuredDocumentTag.sdtType property
 linktitle: sdtType property
 articleTitle: sdtType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IStructuredDocumentTag.sdtType property. Gets type of this Structured document tag."
 type: docs
 weight: 120

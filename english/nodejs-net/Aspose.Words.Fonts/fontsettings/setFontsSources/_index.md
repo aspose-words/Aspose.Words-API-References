@@ -2,7 +2,7 @@
 title: FontSettings.setFontsSources method
 linktitle: setFontsSources method
 articleTitle: setFontsSources method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontSettings.setFontsSources method"
 type: docs
 weight: 100

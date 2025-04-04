@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.pages property
 linktitle: pages property
 articleTitle: pages property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.pages property. Represents an estimate of the number of pages in the document."
 type: docs
 weight: 210

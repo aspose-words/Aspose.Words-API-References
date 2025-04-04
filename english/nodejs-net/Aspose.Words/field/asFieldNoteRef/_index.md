@@ -2,7 +2,7 @@
 title: Field.asFieldNoteRef method
 linktitle: asFieldNoteRef method
 articleTitle: asFieldNoteRef method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldNoteRef method. "
 type: docs
 weight: 700

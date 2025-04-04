@@ -2,7 +2,7 @@
 title: FieldIncludeText constructor
 linktitle: FieldIncludeText constructor
 articleTitle: FieldIncludeText constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIncludeText constructor. "
 type: docs
 weight: 10

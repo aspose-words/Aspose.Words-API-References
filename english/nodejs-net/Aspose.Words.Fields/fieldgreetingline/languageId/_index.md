@@ -2,7 +2,7 @@
 title: FieldGreetingLine.languageId property
 linktitle: languageId property
 articleTitle: languageId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldGreetingLine.languageId property. Gets or sets the language id used to format the name."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: ChartSeriesGroup.bubbleScale property
 linktitle: bubbleScale property
 articleTitle: bubbleScale property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroup.bubbleScale property. Gets or sets the size of the bubbles as a percentage of their default size."
 type: docs
 weight: 40

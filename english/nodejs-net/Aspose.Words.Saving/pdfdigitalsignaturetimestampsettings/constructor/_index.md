@@ -2,7 +2,7 @@
 title: PdfDigitalSignatureTimestampSettings constructor
 linktitle: PdfDigitalSignatureTimestampSettings constructor
 articleTitle: PdfDigitalSignatureTimestampSettings constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings constructor"
 type: docs
 weight: 10

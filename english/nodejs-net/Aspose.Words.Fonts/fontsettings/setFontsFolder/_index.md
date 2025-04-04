@@ -2,7 +2,7 @@
 title: FontSettings.setFontsFolder method
 linktitle: setFontsFolder method
 articleTitle: setFontsFolder method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSettings.setFontsFolder method. Sets the folder where Aspose.Words looks for TrueType fonts when rendering documents or embedding fonts"
 type: docs
 weight: 80

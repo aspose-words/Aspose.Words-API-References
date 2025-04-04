@@ -2,7 +2,7 @@
 title: FontSavingArgs.isSubsettingNeeded property
 linktitle: isSubsettingNeeded property
 articleTitle: isSubsettingNeeded property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSavingArgs.isSubsettingNeeded property. Allows to specify whether the current font will be subsetted before exporting as a font resource."
 type: docs
 weight: 60

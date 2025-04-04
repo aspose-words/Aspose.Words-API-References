@@ -2,7 +2,7 @@
 title: GradientStopCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GradientStopCollection.remove method. Removes a specified [GradientStop](../../gradientstop/) from the collection."
 type: docs
 weight: 50

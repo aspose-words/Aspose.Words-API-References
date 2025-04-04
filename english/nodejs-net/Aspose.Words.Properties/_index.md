@@ -2,7 +2,7 @@
 title: Aspose.Words.Properties module
 linktitle: Aspose.Words.Properties module
 articleTitle: Aspose.Words.Properties module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Properties module provides classes to work with custom and built-in document properties such as title, keywords, company etc."
 type: docs
 weight: 190

@@ -2,7 +2,7 @@
 title: LayoutEnumerator.movePrevious method
 linktitle: movePrevious method
 articleTitle: movePrevious method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutEnumerator.movePrevious method. Moves to the previous sibling entity."
 type: docs
 weight: 130

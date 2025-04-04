@@ -2,7 +2,7 @@
 title: FieldAutoNumLgl class
 linktitle: FieldAutoNumLgl class
 articleTitle: FieldAutoNumLgl class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldAutoNumLgl class. Implements the AUTONUMLGL field"
 type: docs
 weight: 120

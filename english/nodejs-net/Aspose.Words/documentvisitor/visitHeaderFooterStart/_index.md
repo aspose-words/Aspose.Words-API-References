@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitHeaderFooterStart method
 linktitle: visitHeaderFooterStart method
 articleTitle: visitHeaderFooterStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitHeaderFooterStart method. Called when enumeration of a header or footer in a section has started."
 type: docs
 weight: 290

@@ -2,7 +2,7 @@
 title: Theme.majorFonts property
 linktitle: majorFonts property
 articleTitle: majorFonts property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Theme.majorFonts property. Allows to specify the set of major fonts for different languages."
 type: docs
 weight: 30

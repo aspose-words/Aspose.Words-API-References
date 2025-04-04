@@ -2,7 +2,7 @@
 title: ShapeBase.anchorLocked property
 linktitle: anchorLocked property
 articleTitle: anchorLocked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.anchorLocked property. Specifies whether the shape's anchor is locked."
 type: docs
 weight: 30

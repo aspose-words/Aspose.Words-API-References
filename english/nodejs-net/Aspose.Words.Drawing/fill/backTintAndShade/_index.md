@@ -2,7 +2,7 @@
 title: Fill.backTintAndShade property
 linktitle: backTintAndShade property
 articleTitle: backTintAndShade property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.backTintAndShade property. Gets or sets a double value that lightens or darkens the background color."
 type: docs
 weight: 30

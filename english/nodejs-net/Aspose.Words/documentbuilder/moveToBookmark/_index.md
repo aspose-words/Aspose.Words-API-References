@@ -2,7 +2,7 @@
 title: DocumentBuilder.moveToBookmark method
 linktitle: moveToBookmark method
 articleTitle: moveToBookmark method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.moveToBookmark method"
 type: docs
 weight: 530

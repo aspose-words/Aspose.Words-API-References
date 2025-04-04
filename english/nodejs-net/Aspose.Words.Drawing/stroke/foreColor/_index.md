@@ -2,7 +2,7 @@
 title: Stroke.foreColor property
 linktitle: foreColor property
 articleTitle: foreColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.foreColor property. Gets or sets the foreground color of the stroke."
 type: docs
 weight: 130

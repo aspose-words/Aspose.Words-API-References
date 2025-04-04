@@ -2,7 +2,7 @@
 title: FieldBarcode.postalAddress property
 linktitle: postalAddress property
 articleTitle: postalAddress property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldBarcode.postalAddress property. Gets or sets the postal address used for generating a barcode or the name of the bookmark that refers to it."
 type: docs
 weight: 50

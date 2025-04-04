@@ -2,7 +2,7 @@
 title: HyphenationOptions.autoHyphenation property
 linktitle: autoHyphenation property
 articleTitle: autoHyphenation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HyphenationOptions.autoHyphenation property. Gets or sets value determining whether automatic hyphenation is turned on for the document"
 type: docs
 weight: 20

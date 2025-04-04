@@ -2,7 +2,7 @@
 title: CompatibilityOptions.doNotAutofitConstrainedTables property
 linktitle: doNotAutofitConstrainedTables property
 articleTitle: doNotAutofitConstrainedTables property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.doNotAutofitConstrainedTables property. Do Not AutoFit Tables To Fit Next To Wrapped Objects."
 type: docs
 weight: 120

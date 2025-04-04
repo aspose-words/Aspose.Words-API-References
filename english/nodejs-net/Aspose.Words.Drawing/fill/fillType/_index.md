@@ -2,7 +2,7 @@
 title: Fill.fillType property
 linktitle: fillType property
 articleTitle: fillType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.fillType property. Gets a fill type."
 type: docs
 weight: 60

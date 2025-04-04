@@ -2,7 +2,7 @@
 title: TabStop.alignment property
 linktitle: alignment property
 articleTitle: alignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStop.alignment property. Gets or sets the alignment of text at this tab stop."
 type: docs
 weight: 20

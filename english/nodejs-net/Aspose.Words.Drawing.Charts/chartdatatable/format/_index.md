@@ -2,7 +2,7 @@
 title: ChartDataTable.format property
 linktitle: format property
 articleTitle: format property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataTable.format property. Provides access to fill of text background and border formatting of the data table."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: ListFormat.list property
 linktitle: list property
 articleTitle: list property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListFormat.list property. Gets or sets the list this paragraph is a member of."
 type: docs
 weight: 20

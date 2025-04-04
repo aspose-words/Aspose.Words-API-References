@@ -2,7 +2,7 @@
 title: RevisionOptions.revisionBarsWidth property
 linktitle: revisionBarsWidth property
 articleTitle: revisionBarsWidth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionOptions.revisionBarsWidth property. Gets or sets width of revision bars, points."
 type: docs
 weight: 170

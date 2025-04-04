@@ -2,7 +2,7 @@
 title: TextPath.reverseRows property
 linktitle: reverseRows property
 articleTitle: reverseRows property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.reverseRows property. Determines whether the layout order of rows is reversed."
 type: docs
 weight: 80

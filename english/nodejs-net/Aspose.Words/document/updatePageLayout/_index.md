@@ -2,7 +2,7 @@
 title: Document.updatePageLayout method
 linktitle: updatePageLayout method
 articleTitle: updatePageLayout method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.updatePageLayout method. Rebuilds the page layout of the document."
 type: docs
 weight: 780

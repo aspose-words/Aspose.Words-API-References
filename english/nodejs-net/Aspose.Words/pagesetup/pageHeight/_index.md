@@ -2,7 +2,7 @@
 title: PageSetup.pageHeight property
 linktitle: pageHeight property
 articleTitle: pageHeight property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.pageHeight property. Returns or sets the height of the page in points."
 type: docs
 weight: 310

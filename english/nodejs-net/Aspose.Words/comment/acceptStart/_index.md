@@ -2,7 +2,7 @@
 title: Comment.acceptStart method
 linktitle: acceptStart method
 articleTitle: acceptStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Comment.acceptStart method. Accepts a visitor for visiting the start of the comment."
 type: docs
 weight: 150

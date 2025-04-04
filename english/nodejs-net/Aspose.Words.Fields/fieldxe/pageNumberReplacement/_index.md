@@ -2,7 +2,7 @@
 title: FieldXE.pageNumberReplacement property
 linktitle: pageNumberReplacement property
 articleTitle: pageNumberReplacement property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldXE.pageNumberReplacement property. Gets or sets text used in place of a page number."
 type: docs
 weight: 50

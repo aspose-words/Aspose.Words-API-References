@@ -2,7 +2,7 @@
 title: FieldDatabase.tableFormat property
 linktitle: tableFormat property
 articleTitle: tableFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDatabase.tableFormat property. Gets or sets the format that is to be applied to the result of the database query."
 type: docs
 weight: 100

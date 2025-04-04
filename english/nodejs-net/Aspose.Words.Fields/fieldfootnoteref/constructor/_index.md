@@ -2,7 +2,7 @@
 title: FieldFootnoteRef constructor
 linktitle: FieldFootnoteRef constructor
 articleTitle: FieldFootnoteRef constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFootnoteRef constructor. "
 type: docs
 weight: 10

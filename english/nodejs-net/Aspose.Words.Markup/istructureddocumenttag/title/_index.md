@@ -2,7 +2,7 @@
 title: IStructuredDocumentTag.title property
 linktitle: title property
 articleTitle: title property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IStructuredDocumentTag.title property. Specifies the friendly name associated with this SDT"
 type: docs
 weight: 140

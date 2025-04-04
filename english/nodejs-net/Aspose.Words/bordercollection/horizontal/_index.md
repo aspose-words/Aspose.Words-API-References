@@ -2,7 +2,7 @@
 title: BorderCollection.horizontal property
 linktitle: horizontal property
 articleTitle: horizontal property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BorderCollection.horizontal property. Gets the horizontal border that is used between cells or conforming paragraphs."
 type: docs
 weight: 50

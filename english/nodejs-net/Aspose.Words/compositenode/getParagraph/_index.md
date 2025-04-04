@@ -2,7 +2,7 @@
 title: CompositeNode.getParagraph method
 linktitle: getParagraph method
 articleTitle: getParagraph method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getParagraph method. "
 type: docs
 weight: 170

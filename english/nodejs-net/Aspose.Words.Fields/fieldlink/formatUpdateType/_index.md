@@ -2,7 +2,7 @@
 title: FieldLink.formatUpdateType property
 linktitle: formatUpdateType property
 articleTitle: formatUpdateType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldLink.formatUpdateType property. Gets or sets a way the linked object updates its formatting."
 type: docs
 weight: 30

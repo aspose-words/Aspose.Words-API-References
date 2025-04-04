@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitFootnoteEnd method
 linktitle: visitFootnoteEnd method
 articleTitle: visitFootnoteEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitFootnoteEnd method. Called when enumeration of a footnote or endnote text has ended."
 type: docs
 weight: 210

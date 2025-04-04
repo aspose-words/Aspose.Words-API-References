@@ -2,7 +2,7 @@
 title: OfficeMath.justification property
 linktitle: justification property
 articleTitle: justification property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OfficeMath.justification property. Gets/sets Office Math justification."
 type: docs
 weight: 20

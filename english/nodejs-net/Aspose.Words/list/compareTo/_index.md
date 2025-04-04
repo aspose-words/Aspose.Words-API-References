@@ -2,7 +2,7 @@
 title: List.compareTo method
 linktitle: compareTo method
 articleTitle: compareTo method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Lists.List.compareTo method"
 type: docs
 weight: 90

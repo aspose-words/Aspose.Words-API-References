@@ -2,7 +2,7 @@
 title: OleFormat.suggestedExtension property
 linktitle: suggestedExtension property
 articleTitle: suggestedExtension property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.suggestedExtension property. Gets the file extension suggested for the current embedded object if you want to save it into a file."
 type: docs
 weight: 120

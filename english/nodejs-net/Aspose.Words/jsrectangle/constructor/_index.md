@@ -2,7 +2,7 @@
 title: JSRectangle constructor
 linktitle: JSRectangle constructor
 articleTitle: JSRectangle constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSRectangle constructor. "
 type: docs
 weight: 10

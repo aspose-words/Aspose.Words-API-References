@@ -2,7 +2,7 @@
 title: Row constructor
 linktitle: Row constructor
 articleTitle: Row constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Row constructor. Initializes a new instance of the [Row](../) class."
 type: docs
 weight: 10

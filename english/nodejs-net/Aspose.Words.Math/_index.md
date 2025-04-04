@@ -2,7 +2,7 @@
 title: Aspose.Words.Math module
 linktitle: Aspose.Words.Math module
 articleTitle: Aspose.Words.Math module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Math module contains classes that represent Office Math elements."
 type: docs
 weight: 170

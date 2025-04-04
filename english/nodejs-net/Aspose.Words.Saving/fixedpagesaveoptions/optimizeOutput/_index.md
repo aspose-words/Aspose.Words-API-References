@@ -2,7 +2,7 @@
 title: FixedPageSaveOptions.optimizeOutput property
 linktitle: optimizeOutput property
 articleTitle: optimizeOutput property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FixedPageSaveOptions.optimizeOutput property. Flag indicates whether it is required to optimize output"
 type: docs
 weight: 50

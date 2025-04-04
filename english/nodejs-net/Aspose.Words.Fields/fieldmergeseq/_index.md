@@ -2,7 +2,7 @@
 title: FieldMergeSeq class
 linktitle: FieldMergeSeq class
 articleTitle: FieldMergeSeq class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldMergeSeq class. Implements the MERGESEQ field"
 type: docs
 weight: 700

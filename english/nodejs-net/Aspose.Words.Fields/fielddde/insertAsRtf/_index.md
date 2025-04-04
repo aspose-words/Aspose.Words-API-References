@@ -2,7 +2,7 @@
 title: FieldDde.insertAsRtf property
 linktitle: insertAsRtf property
 articleTitle: insertAsRtf property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDde.insertAsRtf property. Gets or sets whether to insert the linked object in rich-text format (RTF)."
 type: docs
 weight: 60

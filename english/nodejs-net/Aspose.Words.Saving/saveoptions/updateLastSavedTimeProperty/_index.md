@@ -2,7 +2,7 @@
 title: SaveOptions.updateLastSavedTimeProperty property
 linktitle: updateLastSavedTimeProperty property
 articleTitle: updateLastSavedTimeProperty property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.updateLastSavedTimeProperty property. Gets or sets a value determining whether the [BuiltInDocumentProperties.lastSavedTime](../../../aspose.words.properties/builtindocumentproperties/lastSavedTime/) property is updated before saving."
 type: docs
 weight: 170

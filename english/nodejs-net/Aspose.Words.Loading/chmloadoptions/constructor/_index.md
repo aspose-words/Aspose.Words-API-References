@@ -2,7 +2,7 @@
 title: ChmLoadOptions constructor
 linktitle: ChmLoadOptions constructor
 articleTitle: ChmLoadOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChmLoadOptions constructor. Initializes a new instance of this class with default values."
 type: docs
 weight: 10

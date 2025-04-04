@@ -2,7 +2,7 @@
 title: Style.linkedStyleName property
 linktitle: linkedStyleName property
 articleTitle: linkedStyleName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.linkedStyleName property. Gets/sets the name of the [Style](../) linked to this one"
 type: docs
 weight: 90

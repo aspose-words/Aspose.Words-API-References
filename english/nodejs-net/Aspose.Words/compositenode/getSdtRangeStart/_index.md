@@ -2,7 +2,7 @@
 title: CompositeNode.getSdtRangeStart method
 linktitle: getSdtRangeStart method
 articleTitle: getSdtRangeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getSdtRangeStart method. "
 type: docs
 weight: 210

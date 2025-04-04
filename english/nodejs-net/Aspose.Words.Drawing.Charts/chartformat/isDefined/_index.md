@@ -2,7 +2,7 @@
 title: ChartFormat.isDefined property
 linktitle: isDefined property
 articleTitle: isDefined property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartFormat.isDefined property. Gets a flag indicating whether any format is defined."
 type: docs
 weight: 20

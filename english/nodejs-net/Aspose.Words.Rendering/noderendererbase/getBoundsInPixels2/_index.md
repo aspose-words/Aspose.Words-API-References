@@ -2,7 +2,7 @@
 title: NodeRendererBase.getBoundsInPixels2 method
 linktitle: getBoundsInPixels2 method
 articleTitle: getBoundsInPixels2 method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Rendering.NodeRendererBase.getBoundsInPixels2 method"
 type: docs
 weight: 10

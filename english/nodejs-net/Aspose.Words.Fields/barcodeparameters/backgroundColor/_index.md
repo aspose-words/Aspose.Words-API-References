@@ -2,7 +2,7 @@
 title: BarcodeParameters.backgroundColor property
 linktitle: backgroundColor property
 articleTitle: backgroundColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters.backgroundColor property. Bar code background color (0x000000 - 0xFFFFFF)"
 type: docs
 weight: 30

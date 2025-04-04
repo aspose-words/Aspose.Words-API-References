@@ -2,7 +2,7 @@
 title: HtmlLoadOptions.preferredControlType property
 linktitle: preferredControlType property
 articleTitle: preferredControlType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlLoadOptions.preferredControlType property. Gets or sets preferred type of document nodes that will represent imported <input> and <select> elements"
 type: docs
 weight: 50

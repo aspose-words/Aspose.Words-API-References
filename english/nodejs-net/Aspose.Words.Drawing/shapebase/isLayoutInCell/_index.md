@@ -2,7 +2,7 @@
 title: ShapeBase.isLayoutInCell property
 linktitle: isLayoutInCell property
 articleTitle: isLayoutInCell property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.isLayoutInCell property. Gets or sets a flag indicating whether the shape is displayed inside a table or outside of it."
 type: docs
 weight: 280

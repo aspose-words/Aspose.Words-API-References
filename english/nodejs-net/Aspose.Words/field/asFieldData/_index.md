@@ -2,7 +2,7 @@
 title: Field.asFieldData method
 linktitle: asFieldData method
 articleTitle: asFieldData method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldData method. "
 type: docs
 weight: 290

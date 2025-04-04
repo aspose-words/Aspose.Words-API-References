@@ -2,7 +2,7 @@
 title: BookmarkCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BookmarkCollection.remove method"
 type: docs
 weight: 50

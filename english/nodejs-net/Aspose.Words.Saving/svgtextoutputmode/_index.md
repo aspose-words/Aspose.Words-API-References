@@ -2,7 +2,7 @@
 title: SvgTextOutputMode enumeration
 linktitle: SvgTextOutputMode enumeration
 articleTitle: SvgTextOutputMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.SvgTextOutputMode enumeration. Allows to specify how text inside a document should be rendered when saving in SVG format."
 type: docs
 weight: 810

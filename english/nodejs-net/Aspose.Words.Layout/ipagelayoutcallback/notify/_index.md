@@ -2,7 +2,7 @@
 title: IPageLayoutCallback.notify method
 linktitle: notify method
 articleTitle: notify method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IPageLayoutCallback.notify method. This is called to notify of layout build and rendering progress."
 type: docs
 weight: 10

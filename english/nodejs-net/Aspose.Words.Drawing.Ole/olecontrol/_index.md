@@ -2,7 +2,7 @@
 title: OleControl class
 linktitle: OleControl class
 articleTitle: OleControl class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Ole.OleControl class. Represents OLE ActiveX control"
 type: docs
 weight: 70

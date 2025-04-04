@@ -2,7 +2,7 @@
 title: ImageSaveOptions.metafileRenderingOptions property
 linktitle: metafileRenderingOptions property
 articleTitle: metafileRenderingOptions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.metafileRenderingOptions property. Allows to specify how metafiles are treated in the rendered output."
 type: docs
 weight: 70

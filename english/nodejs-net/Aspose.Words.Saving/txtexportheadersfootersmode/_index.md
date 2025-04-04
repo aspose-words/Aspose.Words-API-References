@@ -2,7 +2,7 @@
 title: TxtExportHeadersFootersMode enumeration
 linktitle: TxtExportHeadersFootersMode enumeration
 articleTitle: TxtExportHeadersFootersMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.TxtExportHeadersFootersMode enumeration. Specifies the way headers and footers are exported to plain text format."
 type: docs
 weight: 840

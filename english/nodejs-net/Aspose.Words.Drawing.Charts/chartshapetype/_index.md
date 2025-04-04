@@ -2,7 +2,7 @@
 title: ChartShapeType enumeration
 linktitle: ChartShapeType enumeration
 articleTitle: ChartShapeType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartShapeType enumeration. Specifies the shape type of chart elements."
 type: docs
 weight: 370

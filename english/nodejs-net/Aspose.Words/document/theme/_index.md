@@ -2,7 +2,7 @@
 title: Document.theme property
 linktitle: theme property
 articleTitle: theme property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.theme property. Gets the [Document.theme](./) object for this document."
 type: docs
 weight: 420

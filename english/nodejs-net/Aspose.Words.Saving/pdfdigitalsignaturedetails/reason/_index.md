@@ -2,7 +2,7 @@
 title: PdfDigitalSignatureDetails.reason property
 linktitle: reason property
 articleTitle: reason property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfDigitalSignatureDetails.reason property. Gets or sets the reason for the signing."
 type: docs
 weight: 50

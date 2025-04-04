@@ -2,7 +2,7 @@
 title: ShapeBase.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.name property. Gets or sets the optional shape name."
 type: docs
 weight: 370

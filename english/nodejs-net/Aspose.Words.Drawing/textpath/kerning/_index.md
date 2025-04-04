@@ -2,7 +2,7 @@
 title: TextPath.kerning property
 linktitle: kerning property
 articleTitle: kerning property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.kerning property. Determines whether kerning is turned on."
 type: docs
 weight: 60

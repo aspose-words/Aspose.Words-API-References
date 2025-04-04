@@ -2,7 +2,7 @@
 title: Document.punctuationKerning property
 linktitle: punctuationKerning property
 articleTitle: punctuationKerning property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.punctuationKerning property. Specifies whether kerning applies to both Latin text and punctuation."
 type: docs
 weight: 330

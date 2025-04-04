@@ -2,7 +2,7 @@
 title: Aspose.Words module
 linktitle: Aspose.Words module
 articleTitle: Aspose.Words module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words module provides classes for generating, converting, modifying, rendering and printing Microsoft Word documents without utilizing Microsoft Word."
 type: docs
 weight: 10

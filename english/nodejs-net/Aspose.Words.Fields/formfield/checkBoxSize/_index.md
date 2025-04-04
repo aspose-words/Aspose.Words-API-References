@@ -2,7 +2,7 @@
 title: FormField.checkBoxSize property
 linktitle: checkBoxSize property
 articleTitle: checkBoxSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.checkBoxSize property. Gets or sets the size of the checkbox in points"
 type: docs
 weight: 20

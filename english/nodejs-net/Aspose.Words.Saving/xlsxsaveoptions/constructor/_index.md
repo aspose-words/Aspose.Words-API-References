@@ -2,7 +2,7 @@
 title: XlsxSaveOptions constructor
 linktitle: XlsxSaveOptions constructor
 articleTitle: XlsxSaveOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XlsxSaveOptions constructor. "
 type: docs
 weight: 10

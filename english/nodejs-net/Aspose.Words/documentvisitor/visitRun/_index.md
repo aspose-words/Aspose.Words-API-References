@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitRun method
 linktitle: visitRun method
 articleTitle: visitRun method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitRun method. Called when a run of text in the is encountered."
 type: docs
 weight: 360

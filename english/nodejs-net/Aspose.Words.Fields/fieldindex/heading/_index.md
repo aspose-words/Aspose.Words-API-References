@@ -2,7 +2,7 @@
 title: FieldIndex.heading property
 linktitle: heading property
 articleTitle: heading property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIndex.heading property. Gets or sets a heading that appears at the start of each set of entries for any given letter."
 type: docs
 weight: 70

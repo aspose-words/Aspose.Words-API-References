@@ -2,7 +2,7 @@
 title: Font.localeId property
 linktitle: localeId property
 articleTitle: localeId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.localeId property. Gets or sets the locale identifier (language) of the formatted characters."
 type: docs
 weight: 200

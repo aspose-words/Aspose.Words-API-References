@@ -2,7 +2,7 @@
 title: Table.clearBorders method
 linktitle: clearBorders method
 articleTitle: clearBorders method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.clearBorders method. Removes all table and cell borders on this table."
 type: docs
 weight: 390

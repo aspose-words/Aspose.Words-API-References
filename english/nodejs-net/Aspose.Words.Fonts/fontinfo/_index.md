@@ -2,7 +2,7 @@
 title: FontInfo class
 linktitle: FontInfo class
 articleTitle: FontInfo class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontInfo class. Specifies information about a font used in the document"
 type: docs
 weight: 110

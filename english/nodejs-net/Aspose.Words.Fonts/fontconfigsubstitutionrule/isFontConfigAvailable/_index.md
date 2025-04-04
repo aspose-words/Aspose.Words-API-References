@@ -2,7 +2,7 @@
 title: FontConfigSubstitutionRule.isFontConfigAvailable method
 linktitle: isFontConfigAvailable method
 articleTitle: isFontConfigAvailable method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontConfigSubstitutionRule.isFontConfigAvailable method. Check if fontconfig utility is available or not."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: Fill.oneColorGradient method
 linktitle: oneColorGradient method
 articleTitle: oneColorGradient method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Fill.oneColorGradient method"
 type: docs
 weight: 220

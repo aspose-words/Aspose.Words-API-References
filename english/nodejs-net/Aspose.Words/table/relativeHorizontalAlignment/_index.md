@@ -2,7 +2,7 @@
 title: Table.relativeHorizontalAlignment property
 linktitle: relativeHorizontalAlignment property
 articleTitle: relativeHorizontalAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.relativeHorizontalAlignment property. Gets or sets floating table relative horizontal alignment."
 type: docs
 weight: 230

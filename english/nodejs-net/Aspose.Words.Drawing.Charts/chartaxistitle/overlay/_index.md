@@ -2,7 +2,7 @@
 title: ChartAxisTitle.overlay property
 linktitle: overlay property
 articleTitle: overlay property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxisTitle.overlay property. Determines whether other chart elements shall be allowed to overlap the title"
 type: docs
 weight: 30

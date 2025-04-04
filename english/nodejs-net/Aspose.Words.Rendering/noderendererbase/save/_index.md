@@ -2,7 +2,7 @@
 title: NodeRendererBase.save method
 linktitle: save method
 articleTitle: save method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Rendering.NodeRendererBase.save method"
 type: docs
 weight: 30

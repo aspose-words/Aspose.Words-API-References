@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.pageMargins property
 linktitle: pageMargins property
 articleTitle: pageMargins property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.pageMargins property. Specifies the margins around pages in an HTML document"
 type: docs
 weight: 130

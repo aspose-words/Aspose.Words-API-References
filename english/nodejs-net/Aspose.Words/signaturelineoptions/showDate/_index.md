@@ -2,7 +2,7 @@
 title: SignatureLineOptions.showDate property
 linktitle: showDate property
 articleTitle: showDate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignatureLineOptions.showDate property. Gets or sets a value indicating that sign date is shown in the signature line"
 type: docs
 weight: 60

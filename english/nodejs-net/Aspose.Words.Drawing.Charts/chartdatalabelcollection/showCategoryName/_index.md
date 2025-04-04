@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection.showCategoryName property
 linktitle: showCategoryName property
 articleTitle: showCategoryName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.showCategoryName property. Allows to specify whether category name is to be displayed for the data labels of the entire series"
 type: docs
 weight: 100

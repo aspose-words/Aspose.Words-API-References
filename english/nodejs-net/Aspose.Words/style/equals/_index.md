@@ -2,7 +2,7 @@
 title: Style.equals method
 linktitle: equals method
 articleTitle: equals method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.equals method. Compares with the specified style"
 type: docs
 weight: 230

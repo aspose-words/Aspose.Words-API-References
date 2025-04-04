@@ -2,7 +2,7 @@
 title: EndnotePosition enumeration
 linktitle: EndnotePosition enumeration
 articleTitle: EndnotePosition enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.EndnotePosition enumeration. Defines the endnote position."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: VbaProject class
 linktitle: VbaProject class
 articleTitle: VbaProject class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Vba.VbaProject class. Provides access to VBA project information"
 type: docs
 weight: 30

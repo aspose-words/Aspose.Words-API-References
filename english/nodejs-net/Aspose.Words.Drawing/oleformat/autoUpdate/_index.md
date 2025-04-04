@@ -2,7 +2,7 @@
 title: OleFormat.autoUpdate property
 linktitle: autoUpdate property
 articleTitle: autoUpdate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.autoUpdate property. Specifies whether the link to the OLE object is automatically updated or not in Microsoft Word."
 type: docs
 weight: 10

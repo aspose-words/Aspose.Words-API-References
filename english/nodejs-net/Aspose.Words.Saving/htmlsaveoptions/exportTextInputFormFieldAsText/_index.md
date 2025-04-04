@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.exportTextInputFormFieldAsText property
 linktitle: exportTextInputFormFieldAsText property
 articleTitle: exportTextInputFormFieldAsText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportTextInputFormFieldAsText property. Controls how text input form fields are saved to HTML or MHTML"
 type: docs
 weight: 260

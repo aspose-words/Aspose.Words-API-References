@@ -2,7 +2,7 @@
 title: Border.tintAndShade property
 linktitle: tintAndShade property
 articleTitle: tintAndShade property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Border.tintAndShade property. Gets or sets a double value that lightens or darkens a color."
 type: docs
 weight: 80

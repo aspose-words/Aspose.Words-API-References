@@ -2,7 +2,7 @@
 title: CommentCollection class
 linktitle: CommentCollection class
 articleTitle: CommentCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.CommentCollection class. Provides typed access to a collection of [Comment](../comment/) nodes"
 type: docs
 weight: 200

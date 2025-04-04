@@ -2,7 +2,7 @@
 title: FieldTC.entryLevel property
 linktitle: entryLevel property
 articleTitle: entryLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldTC.entryLevel property. Gets or sets the level of the entry."
 type: docs
 weight: 20

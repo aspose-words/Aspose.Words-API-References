@@ -2,7 +2,7 @@
 title: Revision.dateTime property
 linktitle: dateTime property
 articleTitle: dateTime property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Revision.dateTime property. Gets or sets the date/time of this revision."
 type: docs
 weight: 20

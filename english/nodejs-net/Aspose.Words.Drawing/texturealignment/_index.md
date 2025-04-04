@@ -2,7 +2,7 @@
 title: TextureAlignment enumeration
 linktitle: TextureAlignment enumeration
 articleTitle: TextureAlignment enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.TextureAlignment enumeration. Specifies the alignment for the tiling of the texture fill."
 type: docs
 weight: 510

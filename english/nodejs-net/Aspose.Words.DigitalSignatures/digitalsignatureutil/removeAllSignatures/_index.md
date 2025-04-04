@@ -2,7 +2,7 @@
 title: DigitalSignatureUtil.removeAllSignatures method
 linktitle: removeAllSignatures method
 articleTitle: removeAllSignatures method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureUtil.removeAllSignatures method"
 type: docs
 weight: 20

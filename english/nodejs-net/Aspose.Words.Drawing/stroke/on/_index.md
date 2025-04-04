@@ -2,7 +2,7 @@
 title: Stroke.on property
 linktitle: on property
 articleTitle: on property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.on property. Defines whether the path will be stroked."
 type: docs
 weight: 190

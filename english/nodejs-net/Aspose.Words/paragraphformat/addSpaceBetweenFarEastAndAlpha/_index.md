@@ -2,7 +2,7 @@
 title: ParagraphFormat.addSpaceBetweenFarEastAndAlpha property
 linktitle: addSpaceBetweenFarEastAndAlpha property
 articleTitle: addSpaceBetweenFarEastAndAlpha property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.addSpaceBetweenFarEastAndAlpha property. Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph."
 type: docs
 weight: 10

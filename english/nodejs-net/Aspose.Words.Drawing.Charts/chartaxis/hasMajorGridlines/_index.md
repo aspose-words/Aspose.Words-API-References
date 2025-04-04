@@ -2,7 +2,7 @@
 title: ChartAxis.hasMajorGridlines property
 linktitle: hasMajorGridlines property
 articleTitle: hasMajorGridlines property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.hasMajorGridlines property. Gets or sets a flag indicating whether the axis has major gridlines."
 type: docs
 weight: 90

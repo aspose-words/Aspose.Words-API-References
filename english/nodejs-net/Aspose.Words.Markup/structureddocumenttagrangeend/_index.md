@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeEnd class
 linktitle: StructuredDocumentTagRangeEnd class
 articleTitle: StructuredDocumentTagRangeEnd class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.StructuredDocumentTagRangeEnd class. Represents an end of ranged structured document tag which accepts multi-sections content"
 type: docs
 weight: 190

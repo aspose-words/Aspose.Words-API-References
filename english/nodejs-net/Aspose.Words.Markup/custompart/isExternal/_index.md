@@ -2,7 +2,7 @@
 title: CustomPart.isExternal property
 linktitle: isExternal property
 articleTitle: isExternal property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomPart.isExternal property. False if this custom part is stored inside the OOXML package"
 type: docs
 weight: 40

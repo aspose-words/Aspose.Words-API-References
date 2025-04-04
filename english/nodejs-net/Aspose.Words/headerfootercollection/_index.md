@@ -2,7 +2,7 @@
 title: HeaderFooterCollection class
 linktitle: HeaderFooterCollection class
 articleTitle: HeaderFooterCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.HeaderFooterCollection class. Provides typed access to [HeaderFooter](../headerfooter/) nodes of a [Section](../section/)"
 type: docs
 weight: 490

@@ -2,7 +2,7 @@
 title: Odso class
 linktitle: Odso class
 articleTitle: Odso class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.Odso class. Specifies the Office Data Source Object (ODSO) settings for a mail merge data source"
 type: docs
 weight: 120

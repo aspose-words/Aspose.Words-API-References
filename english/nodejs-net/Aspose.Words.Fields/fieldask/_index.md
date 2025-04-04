@@ -2,7 +2,7 @@
 title: FieldAsk class
 linktitle: FieldAsk class
 articleTitle: FieldAsk class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldAsk class. Implements the ASK field"
 type: docs
 weight: 90

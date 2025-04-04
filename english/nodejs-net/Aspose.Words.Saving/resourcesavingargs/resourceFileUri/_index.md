@@ -2,7 +2,7 @@
 title: ResourceSavingArgs.resourceFileUri property
 linktitle: resourceFileUri property
 articleTitle: resourceFileUri property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ResourceSavingArgs.resourceFileUri property. Gets or sets the uniform resource identifier (URI) used to reference the resource file from the document."
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.exportEmbeddedImages property
 linktitle: exportEmbeddedImages property
 articleTitle: exportEmbeddedImages property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.exportEmbeddedImages property. Specifies whether images should be embedded into Html document in Base64 format"
 type: docs
 weight: 60

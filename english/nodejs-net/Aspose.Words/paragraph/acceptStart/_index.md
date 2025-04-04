@@ -2,7 +2,7 @@
 title: Paragraph.acceptStart method
 linktitle: acceptStart method
 articleTitle: acceptStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.acceptStart method. Accepts a visitor for visiting the start of the document's paragraph."
 type: docs
 weight: 250

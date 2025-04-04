@@ -2,7 +2,7 @@
 title: ReplacingArgs.groupName property
 linktitle: groupName property
 articleTitle: groupName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ReplacingArgs.groupName property. Identifies, by name, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](../replacement/) string."
 type: docs
 weight: 20

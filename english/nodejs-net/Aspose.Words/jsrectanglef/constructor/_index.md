@@ -2,7 +2,7 @@
 title: JSRectangleF constructor
 linktitle: JSRectangleF constructor
 articleTitle: JSRectangleF constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSRectangleF constructor. "
 type: docs
 weight: 10

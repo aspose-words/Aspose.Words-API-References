@@ -2,7 +2,7 @@
 title: Aspose.Words.Vba module
 linktitle: Aspose.Words.Vba module
 articleTitle: Aspose.Words.Vba module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Vba module provides classes to work with VBA projects."
 type: docs
 weight: 260

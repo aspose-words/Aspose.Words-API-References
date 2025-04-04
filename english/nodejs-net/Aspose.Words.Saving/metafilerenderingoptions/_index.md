@@ -2,7 +2,7 @@
 title: MetafileRenderingOptions class
 linktitle: MetafileRenderingOptions class
 articleTitle: MetafileRenderingOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.MetafileRenderingOptions class. Allows to specify additional metafile rendering options"
 type: docs
 weight: 480

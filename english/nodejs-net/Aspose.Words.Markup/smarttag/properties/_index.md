@@ -2,7 +2,7 @@
 title: SmartTag.properties property
 linktitle: properties property
 articleTitle: properties property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SmartTag.properties property. A collection of the smart tag properties."
 type: docs
 weight: 40

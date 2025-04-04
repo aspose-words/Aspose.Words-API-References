@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.tag property
 linktitle: tag property
 articleTitle: tag property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.tag property. Specifies a tag associated with the current structured document tag node"
 type: docs
 weight: 150

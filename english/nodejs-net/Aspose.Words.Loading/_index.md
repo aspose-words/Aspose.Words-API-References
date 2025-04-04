@@ -2,7 +2,7 @@
 title: Aspose.Words.Loading module
 linktitle: Aspose.Words.Loading module
 articleTitle: Aspose.Words.Loading module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The aspose.words.loading module provides classes and enumerations that allow to specify additional options when loading documents."
 type: docs
 weight: 150

@@ -2,7 +2,7 @@
 title: CustomPart.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomPart.name property. Gets or sets this part's absolute name within the OOXML package or the target URL."
 type: docs
 weight: 50

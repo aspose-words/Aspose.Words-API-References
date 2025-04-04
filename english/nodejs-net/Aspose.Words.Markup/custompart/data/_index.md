@@ -2,7 +2,7 @@
 title: CustomPart.data property
 linktitle: data property
 articleTitle: data property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomPart.data property. Contains the data of this custom part."
 type: docs
 weight: 30

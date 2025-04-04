@@ -2,7 +2,7 @@
 title: TableSubstitutionRule.loadWindowsSettings method
 linktitle: loadWindowsSettings method
 articleTitle: loadWindowsSettings method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableSubstitutionRule.loadWindowsSettings method. Loads predefined table substitution settings for Windows platform."
 type: docs
 weight: 60

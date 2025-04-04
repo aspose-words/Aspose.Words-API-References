@@ -2,7 +2,7 @@
 title: Source.numberVolumes property
 linktitle: numberVolumes property
 articleTitle: numberVolumes property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.numberVolumes property. Gets or sets the number of volumes of a source."
 type: docs
 weight: 300

@@ -2,7 +2,7 @@
 title: PdfSaveOptions.preserveFormFields property
 linktitle: preserveFormFields property
 articleTitle: preserveFormFields property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.preserveFormFields property. Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text"
 type: docs
 weight: 280

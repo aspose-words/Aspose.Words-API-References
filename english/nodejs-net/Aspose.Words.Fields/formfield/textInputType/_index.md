@@ -2,7 +2,7 @@
 title: FormField.textInputType property
 linktitle: textInputType property
 articleTitle: textInputType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.textInputType property. Gets or sets the type of a text form field."
 type: docs
 weight: 210

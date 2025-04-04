@@ -2,7 +2,7 @@
 title: CellFormat.wrapText property
 linktitle: wrapText property
 articleTitle: wrapText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.wrapText property. If ``true``, wrap text for the cell."
 type: docs
 weight: 150

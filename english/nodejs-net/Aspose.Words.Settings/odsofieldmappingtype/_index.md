@@ -2,7 +2,7 @@
 title: OdsoFieldMappingType enumeration
 linktitle: OdsoFieldMappingType enumeration
 articleTitle: OdsoFieldMappingType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.OdsoFieldMappingType enumeration. Specifies the possible types used to indicate if a given mail merge field has been mapped to a column in the given external data source."
 type: docs
 weight: 160

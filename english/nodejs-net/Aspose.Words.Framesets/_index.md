@@ -2,7 +2,7 @@
 title: Aspose.Words.Framesets module
 linktitle: Aspose.Words.Framesets module
 articleTitle: Aspose.Words.Framesets module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Framesets module provides classes and enumerations that represents a frames page or a single frame on a frames page."
 type: docs
 weight: 120

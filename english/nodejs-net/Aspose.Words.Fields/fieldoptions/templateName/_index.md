@@ -2,7 +2,7 @@
 title: FieldOptions.templateName property
 linktitle: templateName property
 articleTitle: templateName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.templateName property. Gets or sets the file name of the template used by the document."
 type: docs
 weight: 170

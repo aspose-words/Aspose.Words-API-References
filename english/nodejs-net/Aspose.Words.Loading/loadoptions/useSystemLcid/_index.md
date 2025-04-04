@@ -2,7 +2,7 @@
 title: LoadOptions.useSystemLcid property
 linktitle: useSystemLcid property
 articleTitle: useSystemLcid property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.useSystemLcid property. Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins."
 type: docs
 weight: 170

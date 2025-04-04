@@ -2,7 +2,7 @@
 title: GradientStopCollection class
 linktitle: GradientStopCollection class
 articleTitle: GradientStopCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.GradientStopCollection class. Contains a collection of [GradientStop](../gradientstop/) objects"
 type: docs
 weight: 140

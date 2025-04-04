@@ -2,7 +2,7 @@
 title: CompositeNode.getOfficeMath method
 linktitle: getOfficeMath method
 articleTitle: getOfficeMath method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getOfficeMath method. "
 type: docs
 weight: 160

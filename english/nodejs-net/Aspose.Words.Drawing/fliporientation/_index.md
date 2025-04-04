@@ -2,7 +2,7 @@
 title: FlipOrientation enumeration
 linktitle: FlipOrientation enumeration
 articleTitle: FlipOrientation enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.FlipOrientation enumeration. Possible values for the orientation of a shape."
 type: docs
 weight: 110

@@ -2,7 +2,7 @@
 title: FontSavingArgs.bold property
 linktitle: bold property
 articleTitle: bold property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSavingArgs.bold property. Indicates whether the current font is bold."
 type: docs
 weight: 10

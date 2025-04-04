@@ -2,7 +2,7 @@
 title: BuildingBlockBehavior enumeration
 linktitle: BuildingBlockBehavior enumeration
 articleTitle: BuildingBlockBehavior enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BuildingBlocks.BuildingBlockBehavior enumeration. Specifies the behavior that shall be applied to the contents of the building block when it is inserted into the main document."
 type: docs
 weight: 10

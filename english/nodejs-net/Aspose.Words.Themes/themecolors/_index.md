@@ -2,7 +2,7 @@
 title: ThemeColors class
 linktitle: ThemeColors class
 articleTitle: ThemeColors class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Themes.ThemeColors class. Represents the color scheme of the document theme which contains twelve colors."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: Font.emphasisMark property
 linktitle: emphasisMark property
 articleTitle: emphasisMark property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.emphasisMark property. Gets or sets the emphasis mark applied to this formatting."
 type: docs
 weight: 110

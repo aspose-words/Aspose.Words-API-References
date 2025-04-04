@@ -2,7 +2,7 @@
 title: ChartDataPoint.clearFormat method
 linktitle: clearFormat method
 articleTitle: clearFormat method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataPoint.clearFormat method. Clears format of this data point"
 type: docs
 weight: 70

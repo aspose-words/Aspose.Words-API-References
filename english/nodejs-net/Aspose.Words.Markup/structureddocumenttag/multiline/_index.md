@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.multiline property
 linktitle: multiline property
 articleTitle: multiline property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.multiline property. Specifies whether this SDT allows multiple lines of text."
 type: docs
 weight: 210

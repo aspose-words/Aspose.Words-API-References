@@ -2,7 +2,7 @@
 title: Font.localeIdBi property
 linktitle: localeIdBi property
 articleTitle: localeIdBi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.localeIdBi property. Gets or sets the locale identifier (language) of the formatted right-to-left characters."
 type: docs
 weight: 210

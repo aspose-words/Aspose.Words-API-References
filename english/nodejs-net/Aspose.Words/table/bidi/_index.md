@@ -2,7 +2,7 @@
 title: Table.bidi property
 linktitle: bidi property
 articleTitle: bidi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.bidi property. Gets or sets whether this is a right-to-left table."
 type: docs
 weight: 80

@@ -2,7 +2,7 @@
 title: LoadOptions.ignoreOleData property
 linktitle: ignoreOleData property
 articleTitle: ignoreOleData property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.ignoreOleData property. Specifies whether to ignore the OLE data."
 type: docs
 weight: 70

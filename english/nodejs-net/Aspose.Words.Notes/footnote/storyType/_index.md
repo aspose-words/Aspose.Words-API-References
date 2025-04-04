@@ -2,7 +2,7 @@
 title: Footnote.storyType property
 linktitle: storyType property
 articleTitle: storyType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Footnote.storyType property. Returns [StoryType.Footnotes](../../../aspose.words/storytype/#Footnotes) or [StoryType.Endnotes](../../../aspose.words/storytype/#Endnotes)."
 type: docs
 weight: 70

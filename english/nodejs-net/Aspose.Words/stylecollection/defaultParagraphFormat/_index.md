@@ -2,7 +2,7 @@
 title: StyleCollection.defaultParagraphFormat property
 linktitle: defaultParagraphFormat property
 articleTitle: defaultParagraphFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StyleCollection.defaultParagraphFormat property. Gets document default paragraph formatting."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: Node.asSubDocument method
 linktitle: asSubDocument method
 articleTitle: asSubDocument method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asSubDocument method. Cast node to [SubDocument](../../subdocument/)."
 type: docs
 weight: 410

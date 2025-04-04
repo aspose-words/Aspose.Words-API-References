@@ -2,7 +2,7 @@
 title: ImageData.grayScale property
 linktitle: grayScale property
 articleTitle: grayScale property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.grayScale property. Determines whether a picture will display in grayscale mode."
 type: docs
 weight: 100

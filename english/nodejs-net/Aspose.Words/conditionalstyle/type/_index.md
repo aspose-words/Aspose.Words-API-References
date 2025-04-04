@@ -2,7 +2,7 @@
 title: ConditionalStyle.type property
 linktitle: type property
 articleTitle: type property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.type property. Gets table area to which this conditional style relates."
 type: docs
 weight: 90

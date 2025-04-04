@@ -2,7 +2,7 @@
 title: NodeCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeCollection.add method. Adds a node to the end of the collection."
 type: docs
 weight: 30

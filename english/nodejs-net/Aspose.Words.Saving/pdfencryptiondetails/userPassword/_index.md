@@ -2,7 +2,7 @@
 title: PdfEncryptionDetails.userPassword property
 linktitle: userPassword property
 articleTitle: userPassword property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfEncryptionDetails.userPassword property. Specifies the user password required for opening the encrypted PDF document."
 type: docs
 weight: 40

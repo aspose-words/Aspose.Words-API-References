@@ -2,7 +2,7 @@
 title: Style.automaticallyUpdate property
 linktitle: automaticallyUpdate property
 articleTitle: automaticallyUpdate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.automaticallyUpdate property. Specifies whether this style is automatically redefined based on the appropriate value."
 type: docs
 weight: 20

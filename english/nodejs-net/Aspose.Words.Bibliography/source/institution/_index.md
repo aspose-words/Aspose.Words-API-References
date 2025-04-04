@@ -2,7 +2,7 @@
 title: Source.institution property
 linktitle: institution property
 articleTitle: institution property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.institution property. Gets or sets the institution of a source."
 type: docs
 weight: 220

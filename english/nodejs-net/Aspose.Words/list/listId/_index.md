@@ -2,7 +2,7 @@
 title: List.listId property
 linktitle: listId property
 articleTitle: listId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "List.listId property. Gets the unique identifier of the list."
 type: docs
 weight: 60

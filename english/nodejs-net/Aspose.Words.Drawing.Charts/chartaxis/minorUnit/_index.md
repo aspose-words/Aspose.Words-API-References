@@ -2,7 +2,7 @@
 title: ChartAxis.minorUnit property
 linktitle: minorUnit property
 articleTitle: minorUnit property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.minorUnit property. Returns or sets the distance between minor tick marks."
 type: docs
 weight: 170

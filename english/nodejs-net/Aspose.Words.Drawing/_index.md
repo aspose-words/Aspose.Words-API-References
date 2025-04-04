@@ -2,7 +2,7 @@
 title: Aspose.Words.Drawing module
 linktitle: Aspose.Words.Drawing module
 articleTitle: Aspose.Words.Drawing module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Drawing module provides classes that allow to create and modify drawing objects."
 type: docs
 weight: 70

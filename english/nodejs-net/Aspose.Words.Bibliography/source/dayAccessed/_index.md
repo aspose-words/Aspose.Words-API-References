@@ -2,7 +2,7 @@
 title: Source.dayAccessed property
 linktitle: dayAccessed property
 articleTitle: dayAccessed property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.dayAccessed property. Gets or sets the day accessed of a source."
 type: docs
 weight: 160

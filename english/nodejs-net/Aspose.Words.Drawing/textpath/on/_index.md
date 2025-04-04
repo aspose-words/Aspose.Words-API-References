@@ -2,7 +2,7 @@
 title: TextPath.on property
 linktitle: on property
 articleTitle: on property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.on property. Defines whether the text is displayed."
 type: docs
 weight: 70

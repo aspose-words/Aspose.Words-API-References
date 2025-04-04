@@ -2,7 +2,7 @@
 title: BuildingBlock class
 linktitle: BuildingBlock class
 articleTitle: BuildingBlock class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BuildingBlock class. Represents a glossary document entry such as a Building Block, AutoText or an AutoCorrect entry"
 type: docs
 weight: 140

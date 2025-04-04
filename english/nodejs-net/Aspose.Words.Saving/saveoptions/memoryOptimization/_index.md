@@ -2,7 +2,7 @@
 title: SaveOptions.memoryOptimization property
 linktitle: memoryOptimization property
 articleTitle: memoryOptimization property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.memoryOptimization property. Gets or sets value determining if memory optimization should be performed before saving the document"
 type: docs
 weight: 80

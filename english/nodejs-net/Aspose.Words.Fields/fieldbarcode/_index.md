@@ -2,7 +2,7 @@
 title: FieldBarcode class
 linktitle: FieldBarcode class
 articleTitle: FieldBarcode class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldBarcode class. Implements the BARCODE field"
 type: docs
 weight: 160

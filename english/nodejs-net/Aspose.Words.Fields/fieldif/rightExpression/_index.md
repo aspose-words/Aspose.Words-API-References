@@ -2,7 +2,7 @@
 title: FieldIf.rightExpression property
 linktitle: rightExpression property
 articleTitle: rightExpression property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIf.rightExpression property. Gets or sets the right part of the comparison expression."
 type: docs
 weight: 50

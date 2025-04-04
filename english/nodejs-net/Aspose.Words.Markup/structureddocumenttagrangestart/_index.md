@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart class
 linktitle: StructuredDocumentTagRangeStart class
 articleTitle: StructuredDocumentTagRangeStart class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.StructuredDocumentTagRangeStart class. Represents a start of ranged structured document tag which accepts multi-sections content"
 type: docs
 weight: 200

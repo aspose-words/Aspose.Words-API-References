@@ -2,7 +2,7 @@
 title: ComparisonTargetType enumeration
 linktitle: ComparisonTargetType enumeration
 articleTitle: ComparisonTargetType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Comparing.ComparisonTargetType enumeration. Allows to specify base document which will be used during comparison"
 type: docs
 weight: 30

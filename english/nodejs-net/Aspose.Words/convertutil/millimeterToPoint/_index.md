@@ -2,7 +2,7 @@
 title: ConvertUtil.millimeterToPoint method
 linktitle: millimeterToPoint method
 articleTitle: millimeterToPoint method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConvertUtil.millimeterToPoint method. Converts millimeters to points."
 type: docs
 weight: 20

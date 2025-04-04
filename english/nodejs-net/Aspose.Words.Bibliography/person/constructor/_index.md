@@ -2,7 +2,7 @@
 title: Person constructor
 linktitle: Person constructor
 articleTitle: Person constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Person constructor. Initialize a new instance of the [Person](../) class."
 type: docs
 weight: 10

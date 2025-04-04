@@ -2,7 +2,7 @@
 title: CustomPartCollection.clone method
 linktitle: clone method
 articleTitle: clone method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomPartCollection.clone method. Makes a deep copy of this collection and its items."
 type: docs
 weight: 60

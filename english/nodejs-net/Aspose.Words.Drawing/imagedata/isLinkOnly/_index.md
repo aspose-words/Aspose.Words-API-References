@@ -2,7 +2,7 @@
 title: ImageData.isLinkOnly property
 linktitle: isLinkOnly property
 articleTitle: isLinkOnly property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.isLinkOnly property. Returns ``true`` if the image is linked and not stored in the document."
 type: docs
 weight: 160

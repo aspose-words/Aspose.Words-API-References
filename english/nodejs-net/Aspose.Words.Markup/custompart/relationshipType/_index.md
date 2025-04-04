@@ -2,7 +2,7 @@
 title: CustomPart.relationshipType property
 linktitle: relationshipType property
 articleTitle: relationshipType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomPart.relationshipType property. Gets or sets the relationship type from the parent part to this custom part."
 type: docs
 weight: 60

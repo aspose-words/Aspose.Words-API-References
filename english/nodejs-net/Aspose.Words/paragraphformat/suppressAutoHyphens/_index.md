@@ -2,7 +2,7 @@
 title: ParagraphFormat.suppressAutoHyphens property
 linktitle: suppressAutoHyphens property
 articleTitle: suppressAutoHyphens property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.suppressAutoHyphens property. Specifies whether the current paragraph should be exempted from any hyphenation which is applied in the document settings."
 type: docs
 weight: 380

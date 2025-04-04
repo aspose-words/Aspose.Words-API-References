@@ -2,7 +2,7 @@
 title: ImageData.cropBottom property
 linktitle: cropBottom property
 articleTitle: cropBottom property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.cropBottom property. Defines the fraction of picture removal from the bottom side."
 type: docs
 weight: 60

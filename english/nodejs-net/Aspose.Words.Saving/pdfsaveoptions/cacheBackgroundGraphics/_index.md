@@ -2,7 +2,7 @@
 title: PdfSaveOptions.cacheBackgroundGraphics property
 linktitle: cacheBackgroundGraphics property
 articleTitle: cacheBackgroundGraphics property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.cacheBackgroundGraphics property. Gets or sets a value determining whether or not to cache graphics placed in document's background."
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: LegendPosition enumeration
 linktitle: LegendPosition enumeration
 articleTitle: LegendPosition enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.LegendPosition enumeration. Specifies the possible positions for a chart legend."
 type: docs
 weight: 470

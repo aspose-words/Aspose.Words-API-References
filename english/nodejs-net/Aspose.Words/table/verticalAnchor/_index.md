@@ -2,7 +2,7 @@
 title: Table.verticalAnchor property
 linktitle: verticalAnchor property
 articleTitle: verticalAnchor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.verticalAnchor property. Gets the base object from which the vertical positioning of floating table should be calculated"
 type: docs
 weight: 340

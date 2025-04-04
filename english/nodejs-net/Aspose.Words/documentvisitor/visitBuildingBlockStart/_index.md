@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitBuildingBlockStart method
 linktitle: visitBuildingBlockStart method
 articleTitle: visitBuildingBlockStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitBuildingBlockStart method. Called when enumeration of a building block has started."
 type: docs
 weight: 70

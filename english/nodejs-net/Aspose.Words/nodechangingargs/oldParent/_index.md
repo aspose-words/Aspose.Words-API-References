@@ -2,7 +2,7 @@
 title: NodeChangingArgs.oldParent property
 linktitle: oldParent property
 articleTitle: oldParent property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeChangingArgs.oldParent property. Gets the node's parent before the operation began."
 type: docs
 weight: 40

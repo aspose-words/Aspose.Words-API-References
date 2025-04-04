@@ -2,7 +2,7 @@
 title: CompositeNode.getEditableRangeStart method
 linktitle: getEditableRangeStart method
 articleTitle: getEditableRangeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getEditableRangeStart method. "
 type: docs
 weight: 130

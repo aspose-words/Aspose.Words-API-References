@@ -2,7 +2,7 @@
 title: IFieldResultFormatter class
 linktitle: IFieldResultFormatter class
 articleTitle: IFieldResultFormatter class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.IFieldResultFormatter class. Implement this interface if you want to control how the field result is formatted."
 type: docs
 weight: 1220

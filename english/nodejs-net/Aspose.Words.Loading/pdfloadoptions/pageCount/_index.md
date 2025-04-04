@@ -2,7 +2,7 @@
 title: PdfLoadOptions.pageCount property
 linktitle: pageCount property
 articleTitle: pageCount property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfLoadOptions.pageCount property. Gets or sets the number of pages to read"
 type: docs
 weight: 20

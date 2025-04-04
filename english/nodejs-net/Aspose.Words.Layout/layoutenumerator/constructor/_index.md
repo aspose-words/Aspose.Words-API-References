@@ -2,7 +2,7 @@
 title: LayoutEnumerator constructor
 linktitle: LayoutEnumerator constructor
 articleTitle: LayoutEnumerator constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutEnumerator constructor. Initializes new instance of this class."
 type: docs
 weight: 10

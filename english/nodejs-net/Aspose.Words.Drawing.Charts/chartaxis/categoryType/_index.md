@@ -2,7 +2,7 @@
 title: ChartAxis.categoryType property
 linktitle: categoryType property
 articleTitle: categoryType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.categoryType property. Gets or sets type of the category axis."
 type: docs
 weight: 30

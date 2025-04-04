@@ -2,7 +2,7 @@
 title: ShapeBase.wrapType property
 linktitle: wrapType property
 articleTitle: wrapType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.wrapType property. Defines whether the shape is inline or floating"
 type: docs
 weight: 580
@@ -28,24 +28,6 @@ Has effect only for top level shapes.
 
 
 ### Examples
-
-Shows how to insert a floating image to the center of a page.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-let shape = builder.insertImage(base.imageDir + "Logo.jpg");
-shape.wrapType = aw.Drawing.WrapType.None;
-shape.behindText = true;
-shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
-shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
-shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
-shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
-
-doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
-```
 
 Shows how to create and format a text box.
 
@@ -73,6 +55,24 @@ para.appendChild(run);
 doc.firstSection.body.firstParagraph.appendChild(textBox);
 
 doc.save(base.artifactsDir + "Shape.CreateTextBox.docx");
+```
+
+Shows how to insert a floating image to the center of a page.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert a floating image that will appear behind the overlapping text and align it to the page's center.
+let shape = builder.insertImage(base.imageDir + "Logo.jpg");
+shape.wrapType = aw.Drawing.WrapType.None;
+shape.behindText = true;
+shape.relativeHorizontalPosition = aw.Drawing.RelativeHorizontalPosition.Page;
+shape.relativeVerticalPosition = aw.Drawing.RelativeVerticalPosition.Page;
+shape.horizontalAlignment = aw.Drawing.HorizontalAlignment.Center;
+shape.verticalAlignment = aw.Drawing.VerticalAlignment.Center;
+
+doc.save(base.artifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```
 
 ### See Also

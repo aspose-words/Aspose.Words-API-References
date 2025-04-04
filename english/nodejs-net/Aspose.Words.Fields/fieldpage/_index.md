@@ -2,7 +2,7 @@
 title: FieldPage class
 linktitle: FieldPage class
 articleTitle: FieldPage class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldPage class. Implements the PAGE field"
 type: docs
 weight: 790

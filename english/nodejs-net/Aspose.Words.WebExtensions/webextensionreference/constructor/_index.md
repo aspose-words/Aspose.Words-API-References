@@ -2,7 +2,7 @@
 title: WebExtensionReference constructor
 linktitle: WebExtensionReference constructor
 articleTitle: WebExtensionReference constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtensionReference constructor. "
 type: docs
 weight: 10

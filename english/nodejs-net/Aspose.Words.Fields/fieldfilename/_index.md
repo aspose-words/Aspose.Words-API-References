@@ -2,7 +2,7 @@
 title: FieldFileName class
 linktitle: FieldFileName class
 articleTitle: FieldFileName class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldFileName class. Implements the FILENAME field"
 type: docs
 weight: 400

@@ -2,7 +2,7 @@
 title: ParagraphFormat.spaceAfterAuto property
 linktitle: spaceAfterAuto property
 articleTitle: spaceAfterAuto property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.spaceAfterAuto property. True if the amount of spacing after the paragraph is set automatically."
 type: docs
 weight: 320

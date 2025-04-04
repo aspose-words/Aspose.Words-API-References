@@ -2,7 +2,7 @@
 title: ChartAxis.reverseOrder property
 linktitle: reverseOrder property
 articleTitle: reverseOrder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.reverseOrder property. Returns or sets a flag indicating whether values of axis should be displayed in reverse order, i.e"
 type: docs
 weight: 210

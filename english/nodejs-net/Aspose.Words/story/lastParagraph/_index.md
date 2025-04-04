@@ -2,7 +2,7 @@
 title: Story.lastParagraph property
 linktitle: lastParagraph property
 articleTitle: lastParagraph property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Story.lastParagraph property. Gets the last paragraph in the story."
 type: docs
 weight: 20

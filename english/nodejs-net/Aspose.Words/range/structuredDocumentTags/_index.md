@@ -2,7 +2,7 @@
 title: Range.structuredDocumentTags property
 linktitle: structuredDocumentTags property
 articleTitle: structuredDocumentTags property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Range.structuredDocumentTags property. Returns a [Range.structuredDocumentTags](./) collection that represents all structured document tags in the range."
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: FieldInfo.newValue property
 linktitle: newValue property
 articleTitle: newValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldInfo.newValue property. Gets or sets an optional value that updates the property."
 type: docs
 weight: 30

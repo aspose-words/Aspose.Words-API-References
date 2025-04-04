@@ -2,7 +2,7 @@
 title: RowCollection class
 linktitle: RowCollection class
 articleTitle: RowCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.RowCollection class. Provides typed access to a collection of [Row](../row/) nodes"
 type: docs
 weight: 100

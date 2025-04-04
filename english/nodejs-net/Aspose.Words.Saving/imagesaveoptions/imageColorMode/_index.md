@@ -2,7 +2,7 @@
 title: ImageSaveOptions.imageColorMode property
 linktitle: imageColorMode property
 articleTitle: imageColorMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.imageColorMode property. Gets or sets the color mode for the generated images."
 type: docs
 weight: 40

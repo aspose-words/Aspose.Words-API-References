@@ -2,7 +2,7 @@
 title: FieldDate class
 linktitle: FieldDate class
 articleTitle: FieldDate class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldDate class. Implements the DATE field"
 type: docs
 weight: 300

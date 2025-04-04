@@ -2,7 +2,7 @@
 title: VbaProject.modules property
 linktitle: modules property
 articleTitle: modules property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VbaProject.modules property. Returns collection of VBA project modules."
 type: docs
 weight: 50

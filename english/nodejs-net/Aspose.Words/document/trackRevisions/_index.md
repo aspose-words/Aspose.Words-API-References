@@ -2,7 +2,7 @@
 title: Document.trackRevisions property
 linktitle: trackRevisions property
 articleTitle: trackRevisions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.trackRevisions property. True if changes are tracked when this document is edited in Microsoft Word."
 type: docs
 weight: 430

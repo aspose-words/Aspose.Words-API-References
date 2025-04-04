@@ -2,7 +2,7 @@
 title: NodeCollection.insert method
 linktitle: insert method
 articleTitle: insert method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeCollection.insert method. Inserts a node into the collection at the specified index."
 type: docs
 weight: 70

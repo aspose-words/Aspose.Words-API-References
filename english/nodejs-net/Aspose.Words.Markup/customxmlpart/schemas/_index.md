@@ -2,7 +2,7 @@
 title: CustomXmlPart.schemas property
 linktitle: schemas property
 articleTitle: schemas property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlPart.schemas property. Specifies the set of XML schemas that are associated with this custom XML part."
 type: docs
 weight: 50

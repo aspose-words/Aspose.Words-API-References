@@ -2,7 +2,7 @@
 title: Theme.colors property
 linktitle: colors property
 articleTitle: colors property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Theme.colors property. Allows to specify the set of theme colors for the document."
 type: docs
 weight: 20

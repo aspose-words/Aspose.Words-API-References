@@ -2,7 +2,7 @@
 title: SignatureLine.isValid property
 linktitle: isValid property
 articleTitle: isValid property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignatureLine.isValid property. Indicates that signature line is signed by digital signature and this digital signature is valid."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection.font property
 linktitle: font property
 articleTitle: font property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.font property. Provides access to the font formatting of the data labels of the entire series."
 type: docs
 weight: 20

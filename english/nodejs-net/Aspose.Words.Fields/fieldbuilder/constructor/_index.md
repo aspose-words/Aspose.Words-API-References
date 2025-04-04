@@ -2,7 +2,7 @@
 title: FieldBuilder constructor
 linktitle: FieldBuilder constructor
 articleTitle: FieldBuilder constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldBuilder constructor. Initializes an instance of the [FieldBuilder](../) class."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: Aspose.Words.Fonts module
 linktitle: Aspose.Words.Fonts module
 articleTitle: Aspose.Words.Fonts module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Fonts module provides classes and enumerations to access information about fonts used in a document."
 type: docs
 weight: 110

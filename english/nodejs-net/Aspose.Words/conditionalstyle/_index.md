@@ -2,7 +2,7 @@
 title: ConditionalStyle class
 linktitle: ConditionalStyle class
 articleTitle: ConditionalStyle class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ConditionalStyle class. Represents special formatting applied to some area of a table with assigned table style"
 type: docs
 weight: 240

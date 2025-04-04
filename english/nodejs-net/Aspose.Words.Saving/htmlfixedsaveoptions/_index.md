@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions class
 linktitle: HtmlFixedSaveOptions class
 articleTitle: HtmlFixedSaveOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.HtmlFixedSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.HtmlFixed](../../aspose.words/saveformat/#HtmlFixed) format"
 type: docs
 weight: 240

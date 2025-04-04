@@ -2,7 +2,7 @@
 title: BarcodeParameters.displayText property
 linktitle: displayText property
 articleTitle: displayText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters.displayText property. Whether to display barcode data (text) along with image."
 type: docs
 weight: 70

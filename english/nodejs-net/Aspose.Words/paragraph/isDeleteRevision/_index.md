@@ -2,7 +2,7 @@
 title: Paragraph.isDeleteRevision property
 linktitle: isDeleteRevision property
 articleTitle: isDeleteRevision property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.isDeleteRevision property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 40

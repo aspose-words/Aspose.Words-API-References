@@ -2,7 +2,7 @@
 title: FontSettings.defaultInstance property
 linktitle: defaultInstance property
 articleTitle: defaultInstance property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSettings.defaultInstance property. Static default font settings."
 type: docs
 weight: 20

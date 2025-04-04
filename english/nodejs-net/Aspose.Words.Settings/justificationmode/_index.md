@@ -2,7 +2,7 @@
 title: JustificationMode enumeration
 linktitle: JustificationMode enumeration
 articleTitle: JustificationMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.JustificationMode enumeration. Specifies the character spacing adjustment for a document"
 type: docs
 weight: 40

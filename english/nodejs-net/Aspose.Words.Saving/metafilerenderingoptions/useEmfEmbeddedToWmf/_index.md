@@ -2,7 +2,7 @@
 title: MetafileRenderingOptions.useEmfEmbeddedToWmf property
 linktitle: useEmfEmbeddedToWmf property
 articleTitle: useEmfEmbeddedToWmf property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MetafileRenderingOptions.useEmfEmbeddedToWmf property. Gets or sets a value determining how WMF metafiles with embedded EMF metafiles should be rendered."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: Granularity enumeration
 linktitle: Granularity enumeration
 articleTitle: Granularity enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Comparing.Granularity enumeration. Specifies the granularity of changes to track when comparing two documents."
 type: docs
 weight: 40

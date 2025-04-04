@@ -2,7 +2,7 @@
 title: CompatibilityOptions.truncateFontHeightsLikeWP6 property
 linktitle: truncateFontHeightsLikeWP6 property
 articleTitle: truncateFontHeightsLikeWP6 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.truncateFontHeightsLikeWP6 property. Emulate WordPerfect 6.x Font Height Calculation."
 type: docs
 weight: 560

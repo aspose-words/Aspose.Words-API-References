@@ -2,7 +2,7 @@
 title: WebExtensionStoreType enumeration
 linktitle: WebExtensionStoreType enumeration
 articleTitle: WebExtensionStoreType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WebExtensions.WebExtensionStoreType enumeration. Enumerates available types of a web extension store."
 type: docs
 weight: 110

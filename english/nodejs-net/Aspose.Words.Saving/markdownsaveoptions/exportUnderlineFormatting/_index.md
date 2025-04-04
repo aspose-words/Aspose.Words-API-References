@@ -2,7 +2,7 @@
 title: MarkdownSaveOptions.exportUnderlineFormatting property
 linktitle: exportUnderlineFormatting property
 articleTitle: exportUnderlineFormatting property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.exportUnderlineFormatting property. Gets or sets a boolean value indicating either to export underline text formatting as sequence of two plus characters ++"
 type: docs
 weight: 40

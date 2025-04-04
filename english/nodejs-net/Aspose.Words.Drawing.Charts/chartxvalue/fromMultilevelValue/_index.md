@@ -2,7 +2,7 @@
 title: ChartXValue.fromMultilevelValue method
 linktitle: fromMultilevelValue method
 articleTitle: fromMultilevelValue method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartXValue.fromMultilevelValue method. Creates a [ChartXValue](../) instance of the [ChartXValueType.Multilevel](../../chartxvaluetype/#Multilevel) type."
 type: docs
 weight: 90

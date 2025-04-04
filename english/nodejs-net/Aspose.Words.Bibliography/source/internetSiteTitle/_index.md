@@ -2,7 +2,7 @@
 title: Source.internetSiteTitle property
 linktitle: internetSiteTitle property
 articleTitle: internetSiteTitle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.internetSiteTitle property. Gets or sets the internet site title of a source."
 type: docs
 weight: 230

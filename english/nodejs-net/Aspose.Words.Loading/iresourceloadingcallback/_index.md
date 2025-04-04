@@ -2,7 +2,7 @@
 title: IResourceLoadingCallback class
 linktitle: IResourceLoadingCallback class
 articleTitle: IResourceLoadingCallback class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.IResourceLoadingCallback class. Implement this interface if you want to control how Aspose.Words loads external resource when  importing a document and inserting images using [DocumentBuilder](../../aspose.words/documentbuilder/)."
 type: docs
 weight: 90

@@ -2,7 +2,7 @@
 title: Fill.color property
 linktitle: color property
 articleTitle: color property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.color property. Gets or sets a Color object that represents the foreground color for the fill."
 type: docs
 weight: 50

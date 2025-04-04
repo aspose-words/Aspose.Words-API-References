@@ -2,7 +2,7 @@
 title: GradientStopCollection.insert method
 linktitle: insert method
 articleTitle: insert method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GradientStopCollection.insert method. Inserts a [GradientStop](../../gradientstop/) to the collection at a specified index."
 type: docs
 weight: 40

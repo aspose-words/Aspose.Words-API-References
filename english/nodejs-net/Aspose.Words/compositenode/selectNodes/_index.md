@@ -2,7 +2,7 @@
 title: CompositeNode.selectNodes method
 linktitle: selectNodes method
 articleTitle: selectNodes method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.selectNodes method. Selects a list of nodes matching the XPath expression."
 type: docs
 weight: 330

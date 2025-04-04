@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.exportXhtmlTransitional property
 linktitle: exportXhtmlTransitional property
 articleTitle: exportXhtmlTransitional property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportXhtmlTransitional property. Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML"
 type: docs
 weight: 280

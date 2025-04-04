@@ -2,7 +2,7 @@
 title: NodeCollection.indexOf method
 linktitle: indexOf method
 articleTitle: indexOf method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeCollection.indexOf method. Returns the zero-based index of the specified node."
 type: docs
 weight: 60

@@ -2,7 +2,7 @@
 title: ImageSavingArgs.keepImageStreamOpen property
 linktitle: keepImageStreamOpen property
 articleTitle: keepImageStreamOpen property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSavingArgs.keepImageStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving an image."
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: StreamFontSource.type property
 linktitle: type property
 articleTitle: type property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StreamFontSource.type property. Returns the type of the font source."
 type: docs
 weight: 20

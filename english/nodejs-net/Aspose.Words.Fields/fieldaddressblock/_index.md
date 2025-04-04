@@ -2,7 +2,7 @@
 title: FieldAddressBlock class
 linktitle: FieldAddressBlock class
 articleTitle: FieldAddressBlock class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldAddressBlock class. Implements the ADDRESSBLOCK field"
 type: docs
 weight: 60

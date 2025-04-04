@@ -2,7 +2,7 @@
 title: ParagraphFormat.characterUnitFirstLineIndent property
 linktitle: characterUnitFirstLineIndent property
 articleTitle: characterUnitFirstLineIndent property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.characterUnitFirstLineIndent property. Gets or sets the value (in characters) for the first-line or hanging indent"
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitCommentStart method
 linktitle: visitCommentStart method
 articleTitle: visitCommentStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitCommentStart method. Called when enumeration of a comment text has started."
 type: docs
 weight: 130

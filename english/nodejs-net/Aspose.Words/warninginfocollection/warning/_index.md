@@ -2,7 +2,7 @@
 title: WarningInfoCollection.warning method
 linktitle: warning method
 articleTitle: warning method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WarningInfoCollection.warning method. Implements the [IWarningCallback](../../iwarningcallback/) interface"
 type: docs
 weight: 50

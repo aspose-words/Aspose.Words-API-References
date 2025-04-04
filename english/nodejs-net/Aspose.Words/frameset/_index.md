@@ -2,7 +2,7 @@
 title: Frameset class
 linktitle: Frameset class
 articleTitle: Frameset class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Frameset class. Represents a frames page or a single frame on a frames page"
 type: docs
 weight: 470

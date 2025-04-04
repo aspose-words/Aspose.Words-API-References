@@ -2,7 +2,7 @@
 title: Shape.oleFormat property
 linktitle: oleFormat property
 articleTitle: oleFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.oleFormat property. Provides access to the OLE data of a shape"
 type: docs
 weight: 150

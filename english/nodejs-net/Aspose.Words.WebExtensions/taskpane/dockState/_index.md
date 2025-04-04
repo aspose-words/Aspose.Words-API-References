@@ -2,7 +2,7 @@
 title: TaskPane.dockState property
 linktitle: dockState property
 articleTitle: dockState property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TaskPane.dockState property. Specifies the last-docked location of this task pane object."
 type: docs
 weight: 20

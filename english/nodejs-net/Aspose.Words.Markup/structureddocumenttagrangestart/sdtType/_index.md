@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.sdtType property
 linktitle: sdtType property
 articleTitle: sdtType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.sdtType property. Gets type of this structured document tag."
 type: docs
 weight: 140

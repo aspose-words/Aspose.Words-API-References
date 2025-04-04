@@ -2,7 +2,7 @@
 title: Border class
 linktitle: Border class
 articleTitle: Border class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Border class. Represents a border of an object"
 type: docs
 weight: 90

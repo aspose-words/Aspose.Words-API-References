@@ -2,7 +2,7 @@
 title: StyleCollection.defaultFont property
 linktitle: defaultFont property
 articleTitle: defaultFont property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StyleCollection.defaultFont property. Gets document default text formatting."
 type: docs
 weight: 20

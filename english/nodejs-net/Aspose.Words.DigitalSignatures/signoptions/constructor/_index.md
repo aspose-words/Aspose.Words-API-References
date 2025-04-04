@@ -2,7 +2,7 @@
 title: SignOptions constructor
 linktitle: SignOptions constructor
 articleTitle: SignOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignOptions constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: RevisionTextEffect enumeration
 linktitle: RevisionTextEffect enumeration
 articleTitle: RevisionTextEffect enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Layout.RevisionTextEffect enumeration. Allows to specify decoration effect for revisions of document text."
 type: docs
 weight: 120

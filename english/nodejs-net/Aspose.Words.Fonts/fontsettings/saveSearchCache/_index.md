@@ -2,7 +2,7 @@
 title: FontSettings.saveSearchCache method
 linktitle: saveSearchCache method
 articleTitle: saveSearchCache method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSettings.saveSearchCache method. Saves the font search cache to the stream."
 type: docs
 weight: 70

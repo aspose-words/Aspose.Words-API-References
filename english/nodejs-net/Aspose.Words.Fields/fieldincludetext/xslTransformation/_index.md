@@ -2,7 +2,7 @@
 title: FieldIncludeText.xslTransformation property
 linktitle: xslTransformation property
 articleTitle: xslTransformation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIncludeText.xslTransformation property. Gets or sets the location of XSL Transformation to format XML data."
 type: docs
 weight: 100

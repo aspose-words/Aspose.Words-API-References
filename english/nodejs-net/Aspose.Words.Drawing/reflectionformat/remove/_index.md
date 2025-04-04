@@ -2,7 +2,7 @@
 title: ReflectionFormat.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ReflectionFormat.remove method. Removes [ReflectionFormat](../) from the parent object."
 type: docs
 weight: 50

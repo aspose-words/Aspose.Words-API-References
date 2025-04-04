@@ -2,7 +2,7 @@
 title: Stroke.visible property
 linktitle: visible property
 articleTitle: visible property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.visible property. Gets or sets a flag indicating whether the stroke is visible."
 type: docs
 weight: 250

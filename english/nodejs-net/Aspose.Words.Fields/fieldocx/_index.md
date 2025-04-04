@@ -2,7 +2,7 @@
 title: FieldOcx class
 linktitle: FieldOcx class
 articleTitle: FieldOcx class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldOcx class. Implements the OCX field"
 type: docs
 weight: 770

@@ -2,7 +2,7 @@
 title: FieldImport class
 linktitle: FieldImport class
 articleTitle: FieldImport class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldImport class. Implements the IMPORT field"
 type: docs
 weight: 550

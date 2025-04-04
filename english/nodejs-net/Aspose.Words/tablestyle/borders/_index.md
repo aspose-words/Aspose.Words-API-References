@@ -2,7 +2,7 @@
 title: TableStyle.borders property
 linktitle: borders property
 articleTitle: borders property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableStyle.borders property. Gets the collection of default cell borders for the style."
 type: docs
 weight: 40

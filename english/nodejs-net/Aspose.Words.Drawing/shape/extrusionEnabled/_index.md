@@ -2,7 +2,7 @@
 title: Shape.extrusionEnabled property
 linktitle: extrusionEnabled property
 articleTitle: extrusionEnabled property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.extrusionEnabled property. Returns ``true`` if an extrusion effect is enabled."
 type: docs
 weight: 40

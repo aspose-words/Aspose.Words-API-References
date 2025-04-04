@@ -2,7 +2,7 @@
 title: FieldCitation constructor
 linktitle: FieldCitation constructor
 articleTitle: FieldCitation constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCitation constructor. "
 type: docs
 weight: 10

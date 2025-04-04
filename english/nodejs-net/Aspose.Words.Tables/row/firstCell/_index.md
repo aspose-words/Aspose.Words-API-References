@@ -2,7 +2,7 @@
 title: Row.firstCell property
 linktitle: firstCell property
 articleTitle: firstCell property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Row.firstCell property. Returns the first [Cell](../../cell/) in the row."
 type: docs
 weight: 30

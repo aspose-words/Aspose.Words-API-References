@@ -2,7 +2,7 @@
 title: SignatureLineOptions.instructions property
 linktitle: instructions property
 articleTitle: instructions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignatureLineOptions.instructions property. Gets or sets instructions to the signer that are displayed on signing the signature line"
 type: docs
 weight: 50

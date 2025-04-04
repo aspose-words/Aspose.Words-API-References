@@ -2,7 +2,7 @@
 title: Field.asFieldFileName method
 linktitle: asFieldFileName method
 articleTitle: asFieldFileName method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldFileName method. "
 type: docs
 weight: 400

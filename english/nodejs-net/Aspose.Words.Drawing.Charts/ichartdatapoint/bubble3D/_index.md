@@ -2,7 +2,7 @@
 title: IChartDataPoint.bubble3D property
 linktitle: bubble3D property
 articleTitle: bubble3D property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IChartDataPoint.bubble3D property. Specifies whether the bubbles in Bubble chart should have a 3-D effect applied to them."
 type: docs
 weight: 10

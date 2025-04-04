@@ -2,7 +2,7 @@
 title: IAiModelText.translate method
 linktitle: translate method
 articleTitle: translate method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IAiModelText.translate method. Translates the provided document into the specified target language"
 type: docs
 weight: 30

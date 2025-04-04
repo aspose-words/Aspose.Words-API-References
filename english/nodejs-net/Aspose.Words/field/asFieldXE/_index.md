@@ -2,7 +2,7 @@
 title: Field.asFieldXE method
 linktitle: asFieldXE method
 articleTitle: asFieldXE method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldXE method. "
 type: docs
 weight: 1050

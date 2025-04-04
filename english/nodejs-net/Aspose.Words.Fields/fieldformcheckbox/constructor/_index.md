@@ -2,7 +2,7 @@
 title: FieldFormCheckBox constructor
 linktitle: FieldFormCheckBox constructor
 articleTitle: FieldFormCheckBox constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFormCheckBox constructor. "
 type: docs
 weight: 10

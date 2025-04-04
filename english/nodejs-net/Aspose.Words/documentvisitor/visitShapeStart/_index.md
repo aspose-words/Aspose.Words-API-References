@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitShapeStart method
 linktitle: visitShapeStart method
 articleTitle: visitShapeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitShapeStart method. Called when enumeration of a shape has started."
 type: docs
 weight: 400

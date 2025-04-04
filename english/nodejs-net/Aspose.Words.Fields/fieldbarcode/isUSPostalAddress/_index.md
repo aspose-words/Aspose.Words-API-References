@@ -2,7 +2,7 @@
 title: FieldBarcode.isUSPostalAddress property
 linktitle: isUSPostalAddress property
 articleTitle: isUSPostalAddress property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldBarcode.isUSPostalAddress property. Gets or sets whether [FieldBarcode.postalAddress](../postalAddress/) is a U.S"
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: FieldGreetingLine.getFieldNames method
 linktitle: getFieldNames method
 articleTitle: getFieldNames method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldGreetingLine.getFieldNames method. Returns a collection of mail merge field names used by the field."
 type: docs
 weight: 50

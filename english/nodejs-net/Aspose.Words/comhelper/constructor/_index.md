@@ -2,7 +2,7 @@
 title: ComHelper constructor
 linktitle: ComHelper constructor
 articleTitle: ComHelper constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ComHelper constructor. Initializes a new instance of this class."
 type: docs
 weight: 10

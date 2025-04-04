@@ -2,7 +2,7 @@
 title: FieldMacroButton class
 linktitle: FieldMacroButton class
 articleTitle: FieldMacroButton class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldMacroButton class. Implements the MACROBUTTON field"
 type: docs
 weight: 660

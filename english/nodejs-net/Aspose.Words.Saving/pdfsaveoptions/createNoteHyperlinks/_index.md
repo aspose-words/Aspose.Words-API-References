@@ -2,7 +2,7 @@
 title: PdfSaveOptions.createNoteHyperlinks property
 linktitle: createNoteHyperlinks property
 articleTitle: createNoteHyperlinks property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.createNoteHyperlinks property. Specifies whether to convert footnote/endnote references in main text story into active hyperlinks"
 type: docs
 weight: 60

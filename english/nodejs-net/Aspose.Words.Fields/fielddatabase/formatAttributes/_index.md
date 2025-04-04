@@ -2,7 +2,7 @@
 title: FieldDatabase.formatAttributes property
 linktitle: formatAttributes property
 articleTitle: formatAttributes property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDatabase.formatAttributes property. Gets or sets which attributes of the format are to be applied to the table."
 type: docs
 weight: 50

@@ -2,7 +2,7 @@
 title: Stroke.backTintAndShade property
 linktitle: backTintAndShade property
 articleTitle: backTintAndShade property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.backTintAndShade property. Gets or sets a double value that lightens or darkens the stroke background color."
 type: docs
 weight: 30

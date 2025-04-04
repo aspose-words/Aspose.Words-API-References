@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.imageResolution property
 linktitle: imageResolution property
 articleTitle: imageResolution property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.imageResolution property. Specifies the output resolution for images when exporting to HTML, MHTML or EPUB"
 type: docs
 weight: 340

@@ -2,7 +2,7 @@
 title: ChartAxisCollection.this[] property
 linktitle: this[] property
 articleTitle: this[] property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxisCollection.this[] property. "
 type: docs
 weight: 20

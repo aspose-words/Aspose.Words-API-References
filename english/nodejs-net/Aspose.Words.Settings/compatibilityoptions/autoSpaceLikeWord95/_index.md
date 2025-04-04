@@ -2,7 +2,7 @@
 title: CompatibilityOptions.autoSpaceLikeWord95 property
 linktitle: autoSpaceLikeWord95 property
 articleTitle: autoSpaceLikeWord95 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.autoSpaceLikeWord95 property. Emulate Word 95 Full-Width Character Spacing."
 type: docs
 weight: 50

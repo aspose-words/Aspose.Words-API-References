@@ -2,7 +2,7 @@
 title: FieldIf class
 linktitle: FieldIf class
 articleTitle: FieldIf class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldIf class. Implements the IF field"
 type: docs
 weight: 530

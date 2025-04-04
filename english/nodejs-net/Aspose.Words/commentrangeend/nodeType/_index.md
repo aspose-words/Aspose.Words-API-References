@@ -2,7 +2,7 @@
 title: CommentRangeEnd.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CommentRangeEnd.nodeType property. Returns [NodeType.CommentRangeEnd](../../nodetype/#CommentRangeEnd)."
 type: docs
 weight: 30

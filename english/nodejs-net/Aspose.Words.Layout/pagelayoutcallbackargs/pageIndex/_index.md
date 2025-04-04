@@ -2,7 +2,7 @@
 title: PageLayoutCallbackArgs.pageIndex property
 linktitle: pageIndex property
 articleTitle: pageIndex property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageLayoutCallbackArgs.pageIndex property. Gets 0-based index of the page in the document this event relates to"
 type: docs
 weight: 30

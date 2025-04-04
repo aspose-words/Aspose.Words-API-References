@@ -2,7 +2,7 @@
 title: BarcodeParameters.scalingFactor property
 linktitle: scalingFactor property
 articleTitle: scalingFactor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters.scalingFactor property. Scaling factor for the symbol"
 type: docs
 weight: 160

@@ -2,7 +2,7 @@
 title: FieldInclude class
 linktitle: FieldInclude class
 articleTitle: FieldInclude class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldInclude class. Implements the INCLUDE field"
 type: docs
 weight: 560

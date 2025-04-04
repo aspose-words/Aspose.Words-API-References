@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection class
 linktitle: ChartDataLabelCollection class
 articleTitle: ChartDataLabelCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartDataLabelCollection class. Represents a collection of [ChartDataLabel](../chartdatalabel/)"
 type: docs
 weight: 190

@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitFieldStart method
 linktitle: visitFieldStart method
 articleTitle: visitFieldStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitFieldStart method. Called when a field starts in the document."
 type: docs
 weight: 200

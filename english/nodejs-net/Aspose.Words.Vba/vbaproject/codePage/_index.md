@@ -2,7 +2,7 @@
 title: VbaProject.codePage property
 linktitle: codePage property
 articleTitle: codePage property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VbaProject.codePage property. Gets or sets the VBA project’s code page."
 type: docs
 weight: 20

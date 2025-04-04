@@ -2,7 +2,7 @@
 title: ChartSeriesCollection.clear method
 linktitle: clear method
 articleTitle: clear method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesCollection.clear method. Removes all [ChartSeries](../../chartseries/) from this collection."
 type: docs
 weight: 40

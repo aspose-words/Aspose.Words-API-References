@@ -2,7 +2,7 @@
 title: Source.guid property
 linktitle: guid property
 articleTitle: guid property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.guid property. Gets or sets the guid of a source."
 type: docs
 weight: 210

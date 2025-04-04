@@ -2,7 +2,7 @@
 title: ChartAxis.title property
 linktitle: title property
 articleTitle: title property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.title property. Provides access to the axis title properties."
 type: docs
 weight: 250

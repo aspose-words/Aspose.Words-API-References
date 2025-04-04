@@ -2,7 +2,7 @@
 title: HtmlLoadOptions.ignoreNoscriptElements property
 linktitle: ignoreNoscriptElements property
 articleTitle: ignoreNoscriptElements property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlLoadOptions.ignoreNoscriptElements property. Gets or sets a value indicating whether to ignore <noscript> HTML elements"
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: ReplacementFormat enumeration
 linktitle: ReplacementFormat enumeration
 articleTitle: ReplacementFormat enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Replacing.ReplacementFormat enumeration. Specifies the replacement format."
 type: docs
 weight: 50

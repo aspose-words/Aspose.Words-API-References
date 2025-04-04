@@ -2,7 +2,7 @@
 title: Table.relativeVerticalAlignment property
 linktitle: relativeVerticalAlignment property
 articleTitle: relativeVerticalAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.relativeVerticalAlignment property. Gets or sets floating table relative vertical alignment."
 type: docs
 weight: 240

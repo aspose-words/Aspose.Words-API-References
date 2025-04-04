@@ -2,7 +2,7 @@
 title: FieldTitle class
 linktitle: FieldTitle class
 articleTitle: FieldTitle class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldTitle class. Implements the TITLE field"
 type: docs
 weight: 1040

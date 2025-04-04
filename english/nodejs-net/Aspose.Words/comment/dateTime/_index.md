@@ -2,7 +2,7 @@
 title: Comment.dateTime property
 linktitle: dateTime property
 articleTitle: dateTime property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Comment.dateTime property. Gets the date and time that the comment was made."
 type: docs
 weight: 40

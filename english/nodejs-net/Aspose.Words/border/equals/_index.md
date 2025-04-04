@@ -2,7 +2,7 @@
 title: Border.equals method
 linktitle: equals method
 articleTitle: equals method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Border.equals method. Determines whether the specified border is equal in value to the current border."
 type: docs
 weight: 100

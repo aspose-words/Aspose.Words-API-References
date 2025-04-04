@@ -2,7 +2,7 @@
 title: PageSetup.pageNumberStyle property
 linktitle: pageNumberStyle property
 articleTitle: pageNumberStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.pageNumberStyle property. Gets or sets the page number format."
 type: docs
 weight: 320

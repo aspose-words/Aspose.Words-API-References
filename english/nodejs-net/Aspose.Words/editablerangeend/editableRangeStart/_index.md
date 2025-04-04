@@ -2,7 +2,7 @@
 title: EditableRangeEnd.editableRangeStart property
 linktitle: editableRangeStart property
 articleTitle: editableRangeStart property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EditableRangeEnd.editableRangeStart property. Corresponding [EditableRangeStart](../../editablerangestart/), received by ID."
 type: docs
 weight: 10

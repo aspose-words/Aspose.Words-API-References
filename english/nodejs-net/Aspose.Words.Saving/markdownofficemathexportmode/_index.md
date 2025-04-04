@@ -2,7 +2,7 @@
 title: MarkdownOfficeMathExportMode enumeration
 linktitle: MarkdownOfficeMathExportMode enumeration
 articleTitle: MarkdownOfficeMathExportMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.MarkdownOfficeMathExportMode enumeration. Specifies how Aspose.Words exports OfficeMath to Markdown."
 type: docs
 weight: 450

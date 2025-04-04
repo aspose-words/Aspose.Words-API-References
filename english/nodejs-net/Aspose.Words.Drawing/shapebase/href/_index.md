@@ -2,7 +2,7 @@
 title: ShapeBase.href property
 linktitle: href property
 articleTitle: href property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.href property. Gets or sets the full hyperlink address for a shape."
 type: docs
 weight: 200

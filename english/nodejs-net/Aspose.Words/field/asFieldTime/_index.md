@@ -2,7 +2,7 @@
 title: Field.asFieldTime method
 linktitle: asFieldTime method
 articleTitle: asFieldTime method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldTime method. "
 type: docs
 weight: 970

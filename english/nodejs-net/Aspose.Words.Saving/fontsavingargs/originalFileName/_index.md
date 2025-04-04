@@ -2,7 +2,7 @@
 title: FontSavingArgs.originalFileName property
 linktitle: originalFileName property
 articleTitle: originalFileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSavingArgs.originalFileName property. Gets the original font file name with an extension."
 type: docs
 weight: 90

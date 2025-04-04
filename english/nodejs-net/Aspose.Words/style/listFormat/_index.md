@@ -2,7 +2,7 @@
 title: Style.listFormat property
 linktitle: listFormat property
 articleTitle: listFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.listFormat property. Provides access to the list formatting properties of a paragraph style."
 type: docs
 weight: 110

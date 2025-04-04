@@ -2,7 +2,7 @@
 title: Shape constructor
 linktitle: Shape constructor
 articleTitle: Shape constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape constructor. Creates a new shape object."
 type: docs
 weight: 10

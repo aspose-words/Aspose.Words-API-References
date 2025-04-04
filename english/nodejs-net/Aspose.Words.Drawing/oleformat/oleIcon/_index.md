@@ -2,7 +2,7 @@
 title: OleFormat.oleIcon property
 linktitle: oleIcon property
 articleTitle: oleIcon property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.oleIcon property. Gets the draw aspect of the OLE object"
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: MemoryFontSource constructor
 linktitle: MemoryFontSource constructor
 articleTitle: MemoryFontSource constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.MemoryFontSource constructor"
 type: docs
 weight: 10

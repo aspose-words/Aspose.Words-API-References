@@ -2,7 +2,7 @@
 title: StructuredDocumentTagCollection.removeAt method
 linktitle: removeAt method
 articleTitle: removeAt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagCollection.removeAt method. Removes a structured document tag at the specified index."
 type: docs
 weight: 70

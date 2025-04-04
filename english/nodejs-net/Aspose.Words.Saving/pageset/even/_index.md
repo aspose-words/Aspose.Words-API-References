@@ -2,7 +2,7 @@
 title: PageSet.even property
 linktitle: even property
 articleTitle: even property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSet.even property. Gets a set with all the even pages of the document in their original order."
 type: docs
 weight: 30

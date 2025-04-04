@@ -2,7 +2,7 @@
 title: JSPointF constructor
 linktitle: JSPointF constructor
 articleTitle: JSPointF constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSPointF constructor. "
 type: docs
 weight: 10

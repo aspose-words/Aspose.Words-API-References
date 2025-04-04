@@ -2,7 +2,7 @@
 title: Fill.gradientStops property
 linktitle: gradientStops property
 articleTitle: gradientStops property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.gradientStops property. Gets a collection of [GradientStop](../../gradientstop/) objects for the fill."
 type: docs
 weight: 110

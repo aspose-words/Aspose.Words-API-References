@@ -2,7 +2,7 @@
 title: MailMergeSettings.mainDocumentType property
 linktitle: mainDocumentType property
 articleTitle: mainDocumentType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings.mainDocumentType property. Specifies the mail-merge main document type"
 type: docs
 weight: 140

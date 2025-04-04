@@ -2,7 +2,7 @@
 title: EditingLanguage enumeration
 linktitle: EditingLanguage enumeration
 articleTitle: EditingLanguage enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.EditingLanguage enumeration. Specifies the editing language."
 type: docs
 weight: 50

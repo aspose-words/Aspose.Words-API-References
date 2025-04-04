@@ -2,7 +2,7 @@
 title: ImageData.imageSize property
 linktitle: imageSize property
 articleTitle: imageSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.imageSize property. Gets the information about image size and resolution."
 type: docs
 weight: 130

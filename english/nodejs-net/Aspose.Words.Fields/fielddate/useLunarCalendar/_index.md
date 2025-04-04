@@ -2,7 +2,7 @@
 title: FieldDate.useLunarCalendar property
 linktitle: useLunarCalendar property
 articleTitle: useLunarCalendar property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDate.useLunarCalendar property. Gets or sets whether to use the Hijri Lunar or Hebrew Lunar calendar."
 type: docs
 weight: 30

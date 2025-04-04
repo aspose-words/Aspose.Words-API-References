@@ -2,7 +2,7 @@
 title: ChartSeries.bubbleSizes property
 linktitle: bubbleSizes property
 articleTitle: bubbleSizes property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.bubbleSizes property. Gets a collection of bubble sizes for this chart series."
 type: docs
 weight: 20

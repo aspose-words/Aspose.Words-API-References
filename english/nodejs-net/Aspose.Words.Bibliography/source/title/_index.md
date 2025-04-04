@@ -2,7 +2,7 @@
 title: Source.title property
 linktitle: title property
 articleTitle: title property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.title property. Gets or sets the title of a source."
 type: docs
 weight: 480

@@ -2,7 +2,7 @@
 title: Stroke.lineStyle property
 linktitle: lineStyle property
 articleTitle: lineStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Stroke.lineStyle property. Defines the line style of the stroke."
 type: docs
 weight: 180

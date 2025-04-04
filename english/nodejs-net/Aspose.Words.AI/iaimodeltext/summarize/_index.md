@@ -2,7 +2,7 @@
 title: IAiModelText.summarize method
 linktitle: summarize method
 articleTitle: summarize method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.IAiModelText.summarize method"
 type: docs
 weight: 20

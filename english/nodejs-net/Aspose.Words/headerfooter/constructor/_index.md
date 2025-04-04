@@ -2,7 +2,7 @@
 title: HeaderFooter constructor
 linktitle: HeaderFooter constructor
 articleTitle: HeaderFooter constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HeaderFooter constructor. Creates a new header or footer of the specified type."
 type: docs
 weight: 10

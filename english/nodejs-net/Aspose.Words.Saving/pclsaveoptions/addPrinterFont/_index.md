@@ -2,7 +2,7 @@
 title: PclSaveOptions.addPrinterFont method
 linktitle: addPrinterFont method
 articleTitle: addPrinterFont method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PclSaveOptions.addPrinterFont method. Adds information about font that is uploaded to the printer by manufacturer."
 type: docs
 weight: 50

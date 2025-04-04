@@ -2,7 +2,7 @@
 title: DocSaveOptions.password property
 linktitle: password property
 articleTitle: password property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocSaveOptions.password property. Gets/sets a password to encrypt document using RC4 encryption method."
 type: docs
 weight: 40

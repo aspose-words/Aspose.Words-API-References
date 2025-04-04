@@ -2,7 +2,7 @@
 title: Field.asFieldMergeField method
 linktitle: asFieldMergeField method
 articleTitle: asFieldMergeField method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldMergeField method. "
 type: docs
 weight: 650

@@ -2,7 +2,7 @@
 title: PageSetup.borderSurroundsHeader property
 linktitle: borderSurroundsHeader property
 articleTitle: borderSurroundsHeader property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.borderSurroundsHeader property. Specifies whether the page border includes or excludes the header."
 type: docs
 weight: 60

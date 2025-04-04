@@ -2,7 +2,7 @@
 title: BookmarkStart constructor
 linktitle: BookmarkStart constructor
 articleTitle: BookmarkStart constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarkStart constructor. Initializes a new instance of the [BookmarkStart](../) class."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: TextBox.noTextRotation property
 linktitle: noTextRotation property
 articleTitle: noTextRotation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextBox.noTextRotation property. Gets or sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated."
 type: docs
 weight: 80

@@ -2,7 +2,7 @@
 title: Odso.firstRowContainsColumnNames property
 linktitle: firstRowContainsColumnNames property
 articleTitle: firstRowContainsColumnNames property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Odso.firstRowContainsColumnNames property. Specifies that a hosting application shall treat the first row of data in the specified external data source as a header row containing the names of each column in the data source"
 type: docs
 weight: 60

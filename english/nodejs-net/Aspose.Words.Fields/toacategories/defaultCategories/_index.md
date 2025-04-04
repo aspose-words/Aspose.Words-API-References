@@ -2,7 +2,7 @@
 title: ToaCategories.defaultCategories property
 linktitle: defaultCategories property
 articleTitle: defaultCategories property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ToaCategories.defaultCategories property. Gets the default table of authorities categories."
 type: docs
 weight: 20

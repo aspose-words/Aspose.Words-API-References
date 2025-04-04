@@ -2,7 +2,7 @@
 title: FieldNumWords constructor
 linktitle: FieldNumWords constructor
 articleTitle: FieldNumWords constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldNumWords constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: MarkdownSaveOptions.officeMathExportMode property
 linktitle: officeMathExportMode property
 articleTitle: officeMathExportMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.officeMathExportMode property. Specifies how OfficeMath will be written to the output file"
 type: docs
 weight: 110

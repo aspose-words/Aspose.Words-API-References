@@ -2,7 +2,7 @@
 title: Paragraph constructor
 linktitle: Paragraph constructor
 articleTitle: Paragraph constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph constructor. Initializes a new instance of the [Paragraph](../) class."
 type: docs
 weight: 10

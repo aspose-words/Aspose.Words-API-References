@@ -2,7 +2,7 @@
 title: SvgSaveOptions.removeJavaScriptFromLinks property
 linktitle: removeJavaScriptFromLinks property
 articleTitle: removeJavaScriptFromLinks property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.removeJavaScriptFromLinks property. Specifies whether JavaScript will be removed from links"
 type: docs
 weight: 60

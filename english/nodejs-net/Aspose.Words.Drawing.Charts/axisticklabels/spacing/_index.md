@@ -2,7 +2,7 @@
 title: AxisTickLabels.spacing property
 linktitle: spacing property
 articleTitle: spacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisTickLabels.spacing property. Gets or sets the interval at which the tick labels are drawn."
 type: docs
 weight: 80

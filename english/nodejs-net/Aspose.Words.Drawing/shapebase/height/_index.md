@@ -2,7 +2,7 @@
 title: ShapeBase.height property
 linktitle: height property
 articleTitle: height property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.height property. Gets or sets the height of the containing block of the shape."
 type: docs
 weight: 160

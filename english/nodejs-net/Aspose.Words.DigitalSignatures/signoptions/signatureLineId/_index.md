@@ -2,7 +2,7 @@
 title: SignOptions.signatureLineId property
 linktitle: signatureLineId property
 articleTitle: signatureLineId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignOptions.signatureLineId property. Signature line identifier"
 type: docs
 weight: 60

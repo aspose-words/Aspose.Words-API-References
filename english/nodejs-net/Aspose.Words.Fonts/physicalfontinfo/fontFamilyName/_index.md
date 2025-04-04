@@ -2,7 +2,7 @@
 title: PhysicalFontInfo.fontFamilyName property
 linktitle: fontFamilyName property
 articleTitle: fontFamilyName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PhysicalFontInfo.fontFamilyName property. Family name of the font."
 type: docs
 weight: 30

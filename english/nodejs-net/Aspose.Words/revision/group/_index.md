@@ -2,7 +2,7 @@
 title: Revision.group property
 linktitle: group property
 articleTitle: group property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Revision.group property. Gets the revision group"
 type: docs
 weight: 30

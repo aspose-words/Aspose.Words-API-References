@@ -2,7 +2,7 @@
 title: FieldToc.updatePageNumbers method
 linktitle: updatePageNumbers method
 articleTitle: updatePageNumbers method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToc.updatePageNumbers method. Updates the page numbers for items in this table of contents."
 type: docs
 weight: 180

@@ -2,7 +2,7 @@
 title: Odso.columnDelimiter property
 linktitle: columnDelimiter property
 articleTitle: columnDelimiter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Odso.columnDelimiter property. Specifies the character which shall be interpreted as the column delimiter used to separate columns within external data sources"
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: WebExtensionPropertyCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtensionPropertyCollection.remove method. "
 type: docs
 weight: 50

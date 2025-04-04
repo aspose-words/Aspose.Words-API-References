@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.scaleCrop property
 linktitle: scaleCrop property
 articleTitle: scaleCrop property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.scaleCrop property. Indicates whether document thumbnail is cropped or scaled to fit the display."
 type: docs
 weight: 240

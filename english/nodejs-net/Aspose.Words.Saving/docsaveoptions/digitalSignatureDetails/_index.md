@@ -2,7 +2,7 @@
 title: DocSaveOptions.digitalSignatureDetails property
 linktitle: digitalSignatureDetails property
 articleTitle: digitalSignatureDetails property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocSaveOptions.digitalSignatureDetails property. Gets or sets [DigitalSignatureDetails](../../digitalsignaturedetails/) object used to sign a document."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: License class
 linktitle: License class
 articleTitle: License class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.License class. Provides methods to license the component"
 type: docs
 weight: 740

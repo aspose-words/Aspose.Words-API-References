@@ -2,7 +2,7 @@
 title: Node.nextSibling property
 linktitle: nextSibling property
 articleTitle: nextSibling property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.nextSibling property. Gets the node immediately following this node."
 type: docs
 weight: 40

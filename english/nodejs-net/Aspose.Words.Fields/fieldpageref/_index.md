@@ -2,7 +2,7 @@
 title: FieldPageRef class
 linktitle: FieldPageRef class
 articleTitle: FieldPageRef class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldPageRef class. Implements the PAGEREF field"
 type: docs
 weight: 800

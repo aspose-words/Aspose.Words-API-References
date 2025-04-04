@@ -2,7 +2,7 @@
 title: FixedPageSaveOptions.pageSet property
 linktitle: pageSet property
 articleTitle: pageSet property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FixedPageSaveOptions.pageSet property. Gets or sets the pages to render"
 type: docs
 weight: 70
@@ -20,30 +20,6 @@ get pageSet(): Aspose.Words.Saving.PageSet
 ```
 
 ### Examples
-
-Shows how to extract pages based on exact page indices.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Add five pages to the document.
-for (let i = 1; i < 6; i++)
-{
-  builder.write("Page " + i);
-  builder.insertBreak(aw.BreakType.PageBreak);
-}
-
-// Create an "XpsSaveOptions" object, which we can pass to the document's "Save" method
-// to modify how that method converts the document to .XPS.
-let xpsOptions = new aw.Saving.XpsSaveOptions();
-
-// Use the "PageSet" property to select a set of the document's pages to save to output XPS.
-// In this case, we will choose, via a zero-based index, only three pages: page 1, page 2, and page 4.
-xpsOptions.pageSet = new aw.Saving.PageSet([0, 1, 3]);
-
-doc.save(base.artifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
-```
 
 Shows how to convert only some of the pages in a document to PDF.
 
@@ -103,6 +79,30 @@ doc.save(base.artifactsDir + "PdfSaveOptions.ExportPageSet.odd.pdf", options);
 options.pageSet = aw.Saving.PageSet.all;
 
 doc.save(base.artifactsDir + "PdfSaveOptions.ExportPageSet.all.pdf", options);
+```
+
+Shows how to extract pages based on exact page indices.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Add five pages to the document.
+for (let i = 1; i < 6; i++)
+{
+  builder.write("Page " + i);
+  builder.insertBreak(aw.BreakType.PageBreak);
+}
+
+// Create an "XpsSaveOptions" object, which we can pass to the document's "Save" method
+// to modify how that method converts the document to .XPS.
+let xpsOptions = new aw.Saving.XpsSaveOptions();
+
+// Use the "PageSet" property to select a set of the document's pages to save to output XPS.
+// In this case, we will choose, via a zero-based index, only three pages: page 1, page 2, and page 4.
+xpsOptions.pageSet = new aw.Saving.PageSet([0, 1, 3]);
+
+doc.save(base.artifactsDir + "XpsSaveOptions.ExportExactPages.xps", xpsOptions);
 ```
 
 ### See Also

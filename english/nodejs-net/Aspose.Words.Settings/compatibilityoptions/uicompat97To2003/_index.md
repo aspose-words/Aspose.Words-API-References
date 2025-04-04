@@ -2,7 +2,7 @@
 title: CompatibilityOptions.uicompat97To2003 property
 linktitle: uicompat97To2003 property
 articleTitle: uicompat97To2003 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.uicompat97To2003 property. True to disable UI functionality which is not compatible with Word97-2003"
 type: docs
 weight: 570

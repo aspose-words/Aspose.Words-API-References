@@ -2,7 +2,7 @@
 title: Document.updateListLabels method
 linktitle: updateListLabels method
 articleTitle: updateListLabels method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.updateListLabels method. Updates list labels for all list items in the document."
 type: docs
 weight: 770

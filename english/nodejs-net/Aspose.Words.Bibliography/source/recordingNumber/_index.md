@@ -2,7 +2,7 @@
 title: Source.recordingNumber property
 linktitle: recordingNumber property
 articleTitle: recordingNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.recordingNumber property. Gets or sets the recording number of a source."
 type: docs
 weight: 370

@@ -2,7 +2,7 @@
 title: IFieldUserPromptRespondent.respond method
 linktitle: respond method
 articleTitle: respond method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFieldUserPromptRespondent.respond method. When implemented, returns a response from the user on prompting"
 type: docs
 weight: 10

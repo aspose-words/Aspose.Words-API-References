@@ -2,7 +2,7 @@
 title: PreferredWidth.fromPoints method
 linktitle: fromPoints method
 articleTitle: fromPoints method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PreferredWidth.fromPoints method. A creation method that returns a new instance that represents a preferred width specified using a number of points."
 type: docs
 weight: 50

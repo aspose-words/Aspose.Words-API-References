@@ -2,7 +2,7 @@
 title: SaveOptions.useHighQualityRendering property
 linktitle: useHighQualityRendering property
 articleTitle: useHighQualityRendering property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.useHighQualityRendering property. Gets or sets a value determining whether or not to use high quality (i.e"
 type: docs
 weight: 190

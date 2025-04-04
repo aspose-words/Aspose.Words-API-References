@@ -2,7 +2,7 @@
 title: FontFallbackSettings.loadNotoFallbackSettings method
 linktitle: loadNotoFallbackSettings method
 articleTitle: loadNotoFallbackSettings method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontFallbackSettings.loadNotoFallbackSettings method. Loads predefined fallback settings which uses Google Noto fonts."
 type: docs
 weight: 40

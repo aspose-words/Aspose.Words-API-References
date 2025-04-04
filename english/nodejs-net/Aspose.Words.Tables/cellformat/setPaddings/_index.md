@@ -2,7 +2,7 @@
 title: CellFormat.setPaddings method
 linktitle: setPaddings method
 articleTitle: setPaddings method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.setPaddings method. Sets the amount of space (in points) to add to the left/top/right/bottom of the contents of cell."
 type: docs
 weight: 170

@@ -2,7 +2,7 @@
 title: ImageSaveOptions.verticalResolution property
 linktitle: verticalResolution property
 articleTitle: verticalResolution property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.verticalResolution property. Gets or sets the vertical resolution for the generated images, in dots per inch."
 type: docs
 weight: 170

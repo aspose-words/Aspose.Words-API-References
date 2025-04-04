@@ -2,7 +2,7 @@
 title: FieldSeq class
 linktitle: FieldSeq class
 articleTitle: FieldSeq class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldSeq class. Implements the SEQ field"
 type: docs
 weight: 920

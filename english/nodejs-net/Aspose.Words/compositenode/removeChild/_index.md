@@ -2,7 +2,7 @@
 title: CompositeNode.removeChild method
 linktitle: removeChild method
 articleTitle: removeChild method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.removeChild method. Removes the specified child node."
 type: docs
 weight: 310

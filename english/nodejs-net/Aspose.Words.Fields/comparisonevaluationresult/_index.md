@@ -2,7 +2,7 @@
 title: ComparisonEvaluationResult class
 linktitle: ComparisonEvaluationResult class
 articleTitle: ComparisonEvaluationResult class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.ComparisonEvaluationResult class. The comparison evaluation result"
 type: docs
 weight: 20

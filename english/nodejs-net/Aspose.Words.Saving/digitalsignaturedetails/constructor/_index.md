@@ -2,7 +2,7 @@
 title: DigitalSignatureDetails constructor
 linktitle: DigitalSignatureDetails constructor
 articleTitle: DigitalSignatureDetails constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DigitalSignatureDetails constructor. Initializes a new instance of [DigitalSignatureDetails](../) class."
 type: docs
 weight: 10

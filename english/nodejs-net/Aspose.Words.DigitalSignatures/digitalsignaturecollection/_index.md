@@ -2,7 +2,7 @@
 title: DigitalSignatureCollection class
 linktitle: DigitalSignatureCollection class
 articleTitle: DigitalSignatureCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureCollection class. Provides a read-only collection of digital signatures attached to a document"
 type: docs
 weight: 20

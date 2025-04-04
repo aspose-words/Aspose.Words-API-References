@@ -2,7 +2,7 @@
 title: Node.asFieldStart method
 linktitle: asFieldStart method
 articleTitle: asFieldStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asFieldStart method. Cast node to [FieldStart](../../../aspose.words.fields/fieldstart/)."
 type: docs
 weight: 240

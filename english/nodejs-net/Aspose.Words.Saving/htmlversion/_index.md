@@ -2,7 +2,7 @@
 title: HtmlVersion enumeration
 linktitle: HtmlVersion enumeration
 articleTitle: HtmlVersion enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.HtmlVersion enumeration. Indicates the version of HTML is used when saving the document to [SaveFormat.Html](../../aspose.words/saveformat/#Html) and  [SaveFormat.Mhtml](../../aspose.words/saveformat/#Mhtml) formats."
 type: docs
 weight: 280

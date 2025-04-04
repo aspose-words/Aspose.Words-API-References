@@ -2,7 +2,7 @@
 title: CompositeNode.insertBefore method
 linktitle: insertBefore method
 articleTitle: insertBefore method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.insertBefore method. Inserts the specified node immediately before the specified reference node."
 type: docs
 weight: 280

@@ -2,7 +2,7 @@
 title: Node.getText method
 linktitle: getText method
 articleTitle: getText method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.getText method. Gets the text of this node and of all its children."
 type: docs
 weight: 450

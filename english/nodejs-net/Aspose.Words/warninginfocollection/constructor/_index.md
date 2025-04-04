@@ -2,7 +2,7 @@
 title: WarningInfoCollection constructor
 linktitle: WarningInfoCollection constructor
 articleTitle: WarningInfoCollection constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WarningInfoCollection constructor. "
 type: docs
 weight: 10

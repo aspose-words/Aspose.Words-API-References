@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.listItems property
 linktitle: listItems property
 articleTitle: listItems property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.listItems property. Gets [SdtListItemCollection](../../sdtlistitemcollection/) associated with this SDT."
 type: docs
 weight: 180

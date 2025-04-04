@@ -2,7 +2,7 @@
 title: SaveOptions.prettyFormat property
 linktitle: prettyFormat property
 articleTitle: prettyFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.prettyFormat property. When ``true``, pretty formats output where applicable"
 type: docs
 weight: 90

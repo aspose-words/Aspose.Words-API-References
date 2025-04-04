@@ -2,7 +2,7 @@
 title: Underline enumeration
 linktitle: Underline enumeration
 articleTitle: Underline enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Underline enumeration. Indicates type of the underline applied to a font."
 type: docs
 weight: 1440

@@ -2,7 +2,7 @@
 title: Revision.parentNode property
 linktitle: parentNode property
 articleTitle: parentNode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Revision.parentNode property. Gets the immediate parent node (owner) of this revision"
 type: docs
 weight: 40

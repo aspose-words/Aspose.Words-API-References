@@ -2,7 +2,7 @@
 title: DigitalSignatureDetails.signOptions property
 linktitle: signOptions property
 articleTitle: signOptions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DigitalSignatureDetails.signOptions property. Gets or sets a [DigitalSignatureDetails.signOptions](./) object used to sign a document."
 type: docs
 weight: 30

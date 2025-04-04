@@ -2,7 +2,7 @@
 title: PageInfo.paperTray property
 linktitle: paperTray property
 articleTitle: paperTray property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageInfo.paperTray property. Gets the paper tray (bin) for this page as specified in the document"
 type: docs
 weight: 50

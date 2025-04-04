@@ -2,7 +2,7 @@
 title: SummaryLength enumeration
 linktitle: SummaryLength enumeration
 articleTitle: SummaryLength enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.SummaryLength enumeration. Enumerates possible lengths of summary."
 type: docs
 weight: 100

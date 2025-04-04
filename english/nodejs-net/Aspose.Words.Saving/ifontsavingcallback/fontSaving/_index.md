@@ -2,7 +2,7 @@
 title: IFontSavingCallback.fontSaving method
 linktitle: fontSaving method
 articleTitle: fontSaving method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFontSavingCallback.fontSaving method. Called when Aspose.Words is about to save a font resource."
 type: docs
 weight: 10

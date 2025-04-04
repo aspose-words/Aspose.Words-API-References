@@ -2,7 +2,7 @@
 title: Style.priority property
 linktitle: priority property
 articleTitle: priority property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.priority property. Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane."
 type: docs
 weight: 160

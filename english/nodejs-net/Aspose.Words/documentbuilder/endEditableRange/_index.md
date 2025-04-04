@@ -2,7 +2,7 @@
 title: DocumentBuilder.endEditableRange method
 linktitle: endEditableRange method
 articleTitle: endEditableRange method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.endEditableRange method"
 type: docs
 weight: 230

@@ -2,7 +2,7 @@
 title: FieldChar.getField method
 linktitle: getField method
 articleTitle: getField method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldChar.getField method. Returns a field for the field char."
 type: docs
 weight: 40

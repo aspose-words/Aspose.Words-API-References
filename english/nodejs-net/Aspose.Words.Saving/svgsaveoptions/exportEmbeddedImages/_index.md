@@ -2,7 +2,7 @@
 title: SvgSaveOptions.exportEmbeddedImages property
 linktitle: exportEmbeddedImages property
 articleTitle: exportEmbeddedImages property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.exportEmbeddedImages property. Specifies whether images should be embedded into the SVG document as base64"
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: Field.asFieldFormula method
 linktitle: asFieldFormula method
 articleTitle: asFieldFormula method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldFormula method. "
 type: docs
 weight: 470

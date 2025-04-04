@@ -2,7 +2,7 @@
 title: ChartSeriesCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartSeriesCollection.add method"
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: HyphenationOptions class
 linktitle: HyphenationOptions class
 articleTitle: HyphenationOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.HyphenationOptions class. Allows to configure document hyphenation options"
 type: docs
 weight: 30

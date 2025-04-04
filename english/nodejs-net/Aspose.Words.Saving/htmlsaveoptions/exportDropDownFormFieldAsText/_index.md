@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.exportDropDownFormFieldAsText property
 linktitle: exportDropDownFormFieldAsText property
 articleTitle: exportDropDownFormFieldAsText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportDropDownFormFieldAsText property. Controls how drop-down form fields are saved to HTML or MHTML"
 type: docs
 weight: 130

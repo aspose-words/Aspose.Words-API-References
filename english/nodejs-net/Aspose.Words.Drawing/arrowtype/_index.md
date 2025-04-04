@@ -2,7 +2,7 @@
 title: ArrowType enumeration
 linktitle: ArrowType enumeration
 articleTitle: ArrowType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ArrowType enumeration. Specifies the type of an arrow at a line end."
 type: docs
 weight: 40

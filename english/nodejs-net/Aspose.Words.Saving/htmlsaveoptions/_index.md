@@ -2,7 +2,7 @@
 title: HtmlSaveOptions class
 linktitle: HtmlSaveOptions class
 articleTitle: HtmlSaveOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.HtmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Mhtml](../../aspose.words/saveformat/#Mhtml), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub), [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) or [SaveFormat.Mobi](../../aspose.words/saveformat/#Mobi) format"
 type: docs
 weight: 270

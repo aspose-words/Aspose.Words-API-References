@@ -2,7 +2,7 @@
 title: ThemeColor enumeration
 linktitle: ThemeColor enumeration
 articleTitle: ThemeColor enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Themes.ThemeColor enumeration. Specifies the theme colors for document themes"
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: SmartTag class
 linktitle: SmartTag class
 articleTitle: SmartTag class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.SmartTag class. This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph"
 type: docs
 weight: 160

@@ -2,7 +2,7 @@
 title: VbaProject.references property
 linktitle: references property
 articleTitle: references property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VbaProject.references property. Gets a collection of VBA project references."
 type: docs
 weight: 70

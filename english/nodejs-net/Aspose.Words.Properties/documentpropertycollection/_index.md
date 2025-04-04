@@ -2,7 +2,7 @@
 title: DocumentPropertyCollection class
 linktitle: DocumentPropertyCollection class
 articleTitle: DocumentPropertyCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Properties.DocumentPropertyCollection class. Base class for [BuiltInDocumentProperties](../builtindocumentproperties/) and [CustomDocumentProperties](../customdocumentproperties/) collections"
 type: docs
 weight: 40

@@ -2,7 +2,7 @@
 title: Node.toString method
 linktitle: toString method
 articleTitle: toString method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Node.toString method"
 type: docs
 weight: 510

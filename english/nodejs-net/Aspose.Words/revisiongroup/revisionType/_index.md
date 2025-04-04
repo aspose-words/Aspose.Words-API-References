@@ -2,7 +2,7 @@
 title: RevisionGroup.revisionType property
 linktitle: revisionType property
 articleTitle: revisionType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionGroup.revisionType property. Gets the type of revisions included in this group."
 type: docs
 weight: 20

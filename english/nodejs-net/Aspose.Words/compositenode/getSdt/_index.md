@@ -2,7 +2,7 @@
 title: CompositeNode.getSdt method
 linktitle: getSdt method
 articleTitle: getSdt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getSdt method. "
 type: docs
 weight: 190

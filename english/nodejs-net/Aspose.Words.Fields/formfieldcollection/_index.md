@@ -2,7 +2,7 @@
 title: FormFieldCollection class
 linktitle: FormFieldCollection class
 articleTitle: FormFieldCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FormFieldCollection class. A collection of [FormField](../formfield/) objects that represent all the form fields in a range"
 type: docs
 weight: 1160

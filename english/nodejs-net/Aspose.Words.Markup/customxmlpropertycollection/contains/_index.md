@@ -2,7 +2,7 @@
 title: CustomXmlPropertyCollection.contains method
 linktitle: contains method
 articleTitle: contains method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlPropertyCollection.contains method. Determines whether the collection contains a property with the given name."
 type: docs
 weight: 60

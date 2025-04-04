@@ -2,7 +2,7 @@
 title: BuiltInDocumentProperties.hyperlinksChanged property
 linktitle: hyperlinksChanged property
 articleTitle: hyperlinksChanged property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.hyperlinksChanged property. Indicates whether hyperlinks in a document were changed."
 type: docs
 weight: 120

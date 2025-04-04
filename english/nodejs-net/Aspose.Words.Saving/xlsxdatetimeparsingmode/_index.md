@@ -2,7 +2,7 @@
 title: XlsxDateTimeParsingMode enumeration
 linktitle: XlsxDateTimeParsingMode enumeration
 articleTitle: XlsxDateTimeParsingMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.XlsxDateTimeParsingMode enumeration. Specifies how document text is parsed to identify date and time values."
 type: docs
 weight: 910

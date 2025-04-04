@@ -2,7 +2,7 @@
 title: TextColumnCollection.spacing property
 linktitle: spacing property
 articleTitle: spacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextColumnCollection.spacing property. When columns are evenly spaced, gets or sets the amount of space between each column in points."
 type: docs
 weight: 40

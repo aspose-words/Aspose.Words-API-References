@@ -2,7 +2,7 @@
 title: FieldTA.entryCategory property
 linktitle: entryCategory property
 articleTitle: entryCategory property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldTA.entryCategory property. Gets or sets the integral entry category, which is a number that corresponds to the order of categories."
 type: docs
 weight: 20

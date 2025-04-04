@@ -2,7 +2,7 @@
 title: ChartYValue.dateTimeValue property
 linktitle: dateTimeValue property
 articleTitle: dateTimeValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartYValue.dateTimeValue property. Gets the stored datetime value."
 type: docs
 weight: 10

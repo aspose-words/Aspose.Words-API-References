@@ -2,7 +2,7 @@
 title: Shape.textBox property
 linktitle: textBox property
 articleTitle: textBox property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.textBox property. Defines attributes that specify how text is displayed in a shape."
 type: docs
 weight: 230

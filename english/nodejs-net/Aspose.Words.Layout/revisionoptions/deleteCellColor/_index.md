@@ -2,7 +2,7 @@
 title: RevisionOptions.deleteCellColor property
 linktitle: deleteCellColor property
 articleTitle: deleteCellColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionOptions.deleteCellColor property. Allows to specify the color to be used for deleted cells [RevisionType.Deletion](../../../aspose.words/revisiontype/#Deletion)"
 type: docs
 weight: 20

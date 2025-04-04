@@ -2,7 +2,7 @@
 title: FindReplaceOptions.useLegacyOrder property
 linktitle: useLegacyOrder property
 articleTitle: useLegacyOrder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.useLegacyOrder property. True indicates that a text search is performed sequentially from top to bottom considering the text boxes"
 type: docs
 weight: 180

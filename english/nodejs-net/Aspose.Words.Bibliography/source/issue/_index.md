@@ -2,7 +2,7 @@
 title: Source.issue property
 linktitle: issue property
 articleTitle: issue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.issue property. Gets or sets the issue of a source."
 type: docs
 weight: 240

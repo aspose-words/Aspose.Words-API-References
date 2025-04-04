@@ -2,7 +2,7 @@
 title: FieldRef class
 linktitle: FieldRef class
 articleTitle: FieldRef class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldRef class. Implements the REF field"
 type: docs
 weight: 860

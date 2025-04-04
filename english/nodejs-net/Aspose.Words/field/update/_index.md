@@ -2,7 +2,7 @@
 title: Field.update method
 linktitle: update method
 articleTitle: update method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.Field.update method"
 type: docs
 weight: 1090

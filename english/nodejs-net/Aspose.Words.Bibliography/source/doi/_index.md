@@ -2,7 +2,7 @@
 title: Source.doi property
 linktitle: doi property
 articleTitle: doi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.doi property. Gets or sets the digital object identifier."
 type: docs
 weight: 190

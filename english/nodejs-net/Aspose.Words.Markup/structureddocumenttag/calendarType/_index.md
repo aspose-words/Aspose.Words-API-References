@@ -2,7 +2,7 @@
 title: StructuredDocumentTag.calendarType property
 linktitle: calendarType property
 articleTitle: calendarType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.calendarType property. Specifies the type of calendar for this SDT"
 type: docs
 weight: 50

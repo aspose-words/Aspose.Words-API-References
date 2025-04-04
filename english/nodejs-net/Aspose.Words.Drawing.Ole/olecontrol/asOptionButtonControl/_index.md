@@ -2,7 +2,7 @@
 title: OleControl.asOptionButtonControl method
 linktitle: asOptionButtonControl method
 articleTitle: asOptionButtonControl method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleControl.asOptionButtonControl method. "
 type: docs
 weight: 50

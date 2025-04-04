@@ -2,7 +2,7 @@
 title: CompatibilityOptions.balanceSingleByteDoubleByteWidth property
 linktitle: balanceSingleByteDoubleByteWidth property
 articleTitle: balanceSingleByteDoubleByteWidth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.balanceSingleByteDoubleByteWidth property. Balance Single Byte and Double Byte Characters."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: FieldIndex constructor
 linktitle: FieldIndex constructor
 articleTitle: FieldIndex constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIndex constructor. "
 type: docs
 weight: 10

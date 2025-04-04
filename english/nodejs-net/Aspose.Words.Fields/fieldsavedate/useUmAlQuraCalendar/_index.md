@@ -2,7 +2,7 @@
 title: FieldSaveDate.useUmAlQuraCalendar property
 linktitle: useUmAlQuraCalendar property
 articleTitle: useUmAlQuraCalendar property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSaveDate.useUmAlQuraCalendar property. Gets or sets whether to use the Um-al-Qura calendar."
 type: docs
 weight: 40

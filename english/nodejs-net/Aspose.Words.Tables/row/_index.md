@@ -2,7 +2,7 @@
 title: Row class
 linktitle: Row class
 articleTitle: Row class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.Row class. Represents a table row"
 type: docs
 weight: 90

@@ -2,7 +2,7 @@
 title: FieldNextIf constructor
 linktitle: FieldNextIf constructor
 articleTitle: FieldNextIf constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldNextIf constructor. "
 type: docs
 weight: 10

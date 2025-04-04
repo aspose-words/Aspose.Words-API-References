@@ -2,7 +2,7 @@
 title: List.hasSameTemplate method
 linktitle: hasSameTemplate method
 articleTitle: hasSameTemplate method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "List.hasSameTemplate method. Returns true if the current list and the given list are created from the same template."
 type: docs
 weight: 110

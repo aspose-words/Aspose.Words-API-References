@@ -2,7 +2,7 @@
 title: Paragraph.getEffectiveTabStops method
 linktitle: getEffectiveTabStops method
 articleTitle: getEffectiveTabStops method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.getEffectiveTabStops method. Returns array of all tab stops applied to this paragraph, including applied indirectly by styles or lists."
 type: docs
 weight: 270

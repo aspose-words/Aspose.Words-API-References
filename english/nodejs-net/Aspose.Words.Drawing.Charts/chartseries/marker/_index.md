@@ -2,7 +2,7 @@
 title: ChartSeries.marker property
 linktitle: marker property
 articleTitle: marker property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.marker property. Specifies a data marker"
 type: docs
 weight: 100

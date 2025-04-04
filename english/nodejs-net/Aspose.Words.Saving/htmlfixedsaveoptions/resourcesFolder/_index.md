@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.resourcesFolder property
 linktitle: resourcesFolder property
 articleTitle: resourcesFolder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.resourcesFolder property. Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format"
 type: docs
 weight: 160

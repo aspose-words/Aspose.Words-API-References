@@ -2,7 +2,7 @@
 title: HtmlLoadOptions.convertSvgToEmf property
 linktitle: convertSvgToEmf property
 articleTitle: convertSvgToEmf property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlLoadOptions.convertSvgToEmf property. Gets or sets a value indicating whether to convert loaded SVG images to the EMF format"
 type: docs
 weight: 30

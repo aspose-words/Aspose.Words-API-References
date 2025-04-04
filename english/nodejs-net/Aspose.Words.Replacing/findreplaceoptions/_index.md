@@ -2,7 +2,7 @@
 title: FindReplaceOptions class
 linktitle: FindReplaceOptions class
 articleTitle: FindReplaceOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Replacing.FindReplaceOptions class. Specifies options for find/replace operations"
 type: docs
 weight: 20

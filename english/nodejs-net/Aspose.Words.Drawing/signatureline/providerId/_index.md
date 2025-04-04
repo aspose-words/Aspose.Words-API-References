@@ -2,7 +2,7 @@
 title: SignatureLine.providerId property
 linktitle: providerId property
 articleTitle: providerId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignatureLine.providerId property. Gets or sets signature provider identifier for this signature line"
 type: docs
 weight: 80

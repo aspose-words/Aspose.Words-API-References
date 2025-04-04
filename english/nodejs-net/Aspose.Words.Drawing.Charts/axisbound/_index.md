@@ -2,7 +2,7 @@
 title: AxisBound class
 linktitle: AxisBound class
 articleTitle: AxisBound class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisBound class. Represents minimum or maximum bound of axis values"
 type: docs
 weight: 10

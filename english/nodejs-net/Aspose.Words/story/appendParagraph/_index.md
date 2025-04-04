@@ -2,7 +2,7 @@
 title: Story.appendParagraph method
 linktitle: appendParagraph method
 articleTitle: appendParagraph method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Story.appendParagraph method. A shortcut method that creates a [Paragraph](../../paragraph/) object with optional text and appends it to the end of this object."
 type: docs
 weight: 60

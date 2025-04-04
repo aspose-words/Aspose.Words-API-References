@@ -2,7 +2,7 @@
 title: Source.periodicalTitle property
 linktitle: periodicalTitle property
 articleTitle: periodicalTitle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.periodicalTitle property. Gets or sets the periodical title of a source."
 type: docs
 weight: 330

@@ -2,7 +2,7 @@
 title: Comment class
 linktitle: Comment class
 articleTitle: Comment class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Comment class. Represents a container for text of a comment"
 type: docs
 weight: 190

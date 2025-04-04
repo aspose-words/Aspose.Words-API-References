@@ -2,7 +2,7 @@
 title: FieldSeq.resetHeadingLevel property
 linktitle: resetHeadingLevel property
 articleTitle: resetHeadingLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSeq.resetHeadingLevel property. Gets or sets an integer number representing a heading level to reset the sequence number to"
 type: docs
 weight: 40

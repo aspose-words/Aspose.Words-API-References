@@ -2,7 +2,7 @@
 title: RowFormat.clearFormatting method
 linktitle: clearFormatting method
 articleTitle: clearFormatting method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RowFormat.clearFormatting method. Resets to default row formatting."
 type: docs
 weight: 60

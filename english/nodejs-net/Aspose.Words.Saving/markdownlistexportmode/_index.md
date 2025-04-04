@@ -2,7 +2,7 @@
 title: MarkdownListExportMode enumeration
 linktitle: MarkdownListExportMode enumeration
 articleTitle: MarkdownListExportMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.MarkdownListExportMode enumeration. Specifies how lists are exported into Markdown."
 type: docs
 weight: 440

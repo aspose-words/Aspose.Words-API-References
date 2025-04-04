@@ -2,7 +2,7 @@
 title: ArrowLength enumeration
 linktitle: ArrowLength enumeration
 articleTitle: ArrowLength enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ArrowLength enumeration. Length of the arrow at the end of a line."
 type: docs
 weight: 30

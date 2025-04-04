@@ -2,7 +2,7 @@
 title: Table.distanceBottom property
 linktitle: distanceBottom property
 articleTitle: distanceBottom property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.distanceBottom property. Gets or sets distance between table bottom and the surrounding text, in points."
 type: docs
 weight: 120

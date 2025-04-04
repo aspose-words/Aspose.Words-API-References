@@ -2,7 +2,7 @@
 title: MemoryFontSource class
 linktitle: MemoryFontSource class
 articleTitle: MemoryFontSource class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.MemoryFontSource class. Represents the single TrueType font file stored in memory"
 type: docs
 weight: 210

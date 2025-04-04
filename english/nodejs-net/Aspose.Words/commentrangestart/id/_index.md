@@ -2,7 +2,7 @@
 title: CommentRangeStart.id property
 linktitle: id property
 articleTitle: id property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CommentRangeStart.id property. Specifies the identifier of the comment to which this region is linked."
 type: docs
 weight: 20

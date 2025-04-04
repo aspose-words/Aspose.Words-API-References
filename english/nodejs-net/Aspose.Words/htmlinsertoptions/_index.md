@@ -2,7 +2,7 @@
 title: HtmlInsertOptions enumeration
 linktitle: HtmlInsertOptions enumeration
 articleTitle: HtmlInsertOptions enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.HtmlInsertOptions enumeration. Specifies options for the [DocumentBuilder.insertHtml()](../documentbuilder/insertHtml/#string_htmlinsertoptions) method."
 type: docs
 weight: 520

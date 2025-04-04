@@ -2,7 +2,7 @@
 title: Adjustment.value property
 linktitle: value property
 articleTitle: value property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Adjustment.value property. Gets or sets the raw value of the adjustment."
 type: docs
 weight: 20

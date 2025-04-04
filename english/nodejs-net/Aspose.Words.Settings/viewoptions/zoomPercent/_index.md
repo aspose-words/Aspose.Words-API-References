@@ -2,7 +2,7 @@
 title: ViewOptions.zoomPercent property
 linktitle: zoomPercent property
 articleTitle: zoomPercent property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ViewOptions.zoomPercent property. Gets or sets the percentage (between 10 and 500) at which you want to view your document."
 type: docs
 weight: 50

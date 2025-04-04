@@ -2,7 +2,7 @@
 title: ChartYValue.timeValue property
 linktitle: timeValue property
 articleTitle: timeValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartYValue.timeValue property. Gets the stored time value."
 type: docs
 weight: 30

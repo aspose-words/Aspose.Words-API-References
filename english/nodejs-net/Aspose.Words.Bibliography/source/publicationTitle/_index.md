@@ -2,7 +2,7 @@
 title: Source.publicationTitle property
 linktitle: publicationTitle property
 articleTitle: publicationTitle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.publicationTitle property. Gets or sets the publication title of a source."
 type: docs
 weight: 350

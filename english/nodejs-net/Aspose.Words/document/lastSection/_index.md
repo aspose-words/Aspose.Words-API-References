@@ -2,7 +2,7 @@
 title: Document.lastSection property
 linktitle: lastSection property
 articleTitle: lastSection property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.lastSection property. Gets the last section in the document."
 type: docs
 weight: 250

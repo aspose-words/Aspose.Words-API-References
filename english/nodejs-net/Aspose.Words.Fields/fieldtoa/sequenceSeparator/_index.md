@@ -2,7 +2,7 @@
 title: FieldToa.sequenceSeparator property
 linktitle: sequenceSeparator property
 articleTitle: sequenceSeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToa.sequenceSeparator property. Gets or sets the character sequence that is used to separate sequence numbers and page numbers."
 type: docs
 weight: 90

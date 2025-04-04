@@ -2,7 +2,7 @@
 title: VbaReference.libId property
 linktitle: libId property
 articleTitle: libId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VbaReference.libId property. Gets a string value containing the identifier of an Automation type library."
 type: docs
 weight: 10

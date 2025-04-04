@@ -2,7 +2,7 @@
 title: Range.replace method
 linktitle: replace method
 articleTitle: replace method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Range.replace method"
 type: docs
 weight: 90
@@ -147,24 +147,6 @@ expect(doc.getText().trim()).toEqual("Every paragraph that ends with a full stop
                         "This one also will!");
 ```
 
-Shows how to replace text in a document's footer.
-
-```js
-let doc = new aw.Document(base.myDir + "Footer.docx");
-
-let headersFooters = doc.firstSection.headersFooters;
-let footer = headersFooters.getByHeaderFooterType(aw.HeaderFooterType.FooterPrimary);
-
-let options = new aw.Replacing.FindReplaceOptions();
-options.matchCase = false;
-options.findWholeWordsOnly = false;
-
-let currentYear = new Date().getYear();
-footer.range.replace("(C) 2006 Aspose Pty Ltd.", `Copyright (C) ${currentYear} by Aspose Pty Ltd.`, options);
-
-doc.save(base.artifactsDir + "HeaderFooter.ReplaceText.docx");
-```
-
 Shows how to toggle case sensitivity when performing a find-and-replace operation.
 
 ```js
@@ -204,6 +186,24 @@ doc.range.replace("Jackson", "Louis", options);
 
 expect(doc.getText().trim()).toEqual(
   findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville." );
+```
+
+Shows how to replace text in a document's footer.
+
+```js
+let doc = new aw.Document(base.myDir + "Footer.docx");
+
+let headersFooters = doc.firstSection.headersFooters;
+let footer = headersFooters.getByHeaderFooterType(aw.HeaderFooterType.FooterPrimary);
+
+let options = new aw.Replacing.FindReplaceOptions();
+options.matchCase = false;
+options.findWholeWordsOnly = false;
+
+let currentYear = new Date().getYear();
+footer.range.replace("(C) 2006 Aspose Pty Ltd.", `Copyright (C) ${currentYear} by Aspose Pty Ltd.`, options);
+
+doc.save(base.artifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
 Shows how to replace all instances of String of text in a table and cell.

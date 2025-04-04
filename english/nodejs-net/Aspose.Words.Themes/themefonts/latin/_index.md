@@ -2,7 +2,7 @@
 title: ThemeFonts.latin property
 linktitle: latin property
 articleTitle: latin property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThemeFonts.latin property. Specifies font name for Latin characters."
 type: docs
 weight: 30

@@ -2,7 +2,7 @@
 title: PlainTextDocument.customDocumentProperties property
 linktitle: customDocumentProperties property
 articleTitle: customDocumentProperties property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PlainTextDocument.customDocumentProperties property. Gets [PlainTextDocument.customDocumentProperties](./) of the document."
 type: docs
 weight: 30

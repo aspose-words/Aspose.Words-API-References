@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions constructor
 linktitle: HtmlFixedSaveOptions constructor
 articleTitle: HtmlFixedSaveOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions constructor. "
 type: docs
 weight: 10

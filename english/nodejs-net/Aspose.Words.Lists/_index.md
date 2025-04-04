@@ -2,7 +2,7 @@
 title: Aspose.Words.Lists module
 linktitle: Aspose.Words.Lists module
 articleTitle: Aspose.Words.Lists module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Lists module contains classes for working with bulleted and numbered lists defined in a document."
 type: docs
 weight: 140

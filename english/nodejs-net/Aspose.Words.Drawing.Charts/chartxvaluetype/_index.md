@@ -2,7 +2,7 @@
 title: ChartXValueType enumeration
 linktitle: ChartXValueType enumeration
 articleTitle: ChartXValueType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartXValueType enumeration. Allows to specify type of an X value of a chart series."
 type: docs
 weight: 420

@@ -2,7 +2,7 @@
 title: TableSubstitutionRule.loadLinuxSettings method
 linktitle: loadLinuxSettings method
 articleTitle: loadLinuxSettings method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableSubstitutionRule.loadLinuxSettings method. Loads predefined table substitution settings for Linux platform."
 type: docs
 weight: 50

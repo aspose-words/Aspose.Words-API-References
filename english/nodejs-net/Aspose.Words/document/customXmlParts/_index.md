@@ -2,7 +2,7 @@
 title: Document.customXmlParts property
 linktitle: customXmlParts property
 articleTitle: customXmlParts property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.customXmlParts property. Gets or sets the collection of Custom XML Data Storage Parts."
 type: docs
 weight: 90

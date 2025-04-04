@@ -2,7 +2,7 @@
 title: Node.asStructuredDocumentTagRangeEnd method
 linktitle: asStructuredDocumentTagRangeEnd method
 articleTitle: asStructuredDocumentTagRangeEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asStructuredDocumentTagRangeEnd method. Cast node to [StructuredDocumentTagRangeEnd](../../../aspose.words.markup/structureddocumenttagrangeend/)."
 type: docs
 weight: 390

@@ -2,7 +2,7 @@
 title: FieldNumChars class
 linktitle: FieldNumChars class
 articleTitle: FieldNumChars class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldNumChars class. Implements the NUMCHARS field"
 type: docs
 weight: 740

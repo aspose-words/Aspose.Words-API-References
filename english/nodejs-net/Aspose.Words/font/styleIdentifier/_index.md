@@ -2,7 +2,7 @@
 title: Font.styleIdentifier property
 linktitle: styleIdentifier property
 articleTitle: styleIdentifier property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.styleIdentifier property. Gets or sets the locale independent style identifier of the character style applied to this formatting."
 type: docs
 weight: 420

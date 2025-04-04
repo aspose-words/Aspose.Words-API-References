@@ -2,7 +2,7 @@
 title: FieldSubject class
 linktitle: FieldSubject class
 articleTitle: FieldSubject class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldSubject class. Implements the SUBJECT field"
 type: docs
 weight: 980

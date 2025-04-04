@@ -2,7 +2,7 @@
 title: GeneralFormatCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GeneralFormatCollection.count property. Gets the total number of the items in the collection."
 type: docs
 weight: 10

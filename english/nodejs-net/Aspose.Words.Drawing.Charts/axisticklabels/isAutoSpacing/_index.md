@@ -2,7 +2,7 @@
 title: AxisTickLabels.isAutoSpacing property
 linktitle: isAutoSpacing property
 articleTitle: isAutoSpacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisTickLabels.isAutoSpacing property. Gets or sets a flag indicating whether to use automatic interval for drawing the tick labels."
 type: docs
 weight: 30

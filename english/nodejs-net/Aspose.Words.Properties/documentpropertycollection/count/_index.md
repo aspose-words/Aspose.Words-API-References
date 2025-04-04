@@ -2,7 +2,7 @@
 title: DocumentPropertyCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentPropertyCollection.count property. Gets number of items in the collection."
 type: docs
 weight: 10

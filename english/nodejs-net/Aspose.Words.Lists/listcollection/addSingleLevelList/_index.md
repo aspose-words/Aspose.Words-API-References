@@ -2,7 +2,7 @@
 title: ListCollection.addSingleLevelList method
 linktitle: addSingleLevelList method
 articleTitle: addSingleLevelList method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListCollection.addSingleLevelList method. Creates a new single level list based on the predefined template and adds it to the list collection in the document."
 type: docs
 weight: 60

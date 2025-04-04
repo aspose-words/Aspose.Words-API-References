@@ -2,7 +2,7 @@
 title: TextColumn class
 linktitle: TextColumn class
 articleTitle: TextColumn class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.TextColumn class. Represents a single text column"
 type: docs
 weight: 1360

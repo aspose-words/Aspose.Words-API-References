@@ -2,7 +2,7 @@
 title: DigitalSignature.isValid property
 linktitle: isValid property
 articleTitle: isValid property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DigitalSignature.isValid property. Returns ``true`` if this digital signature is valid and the document has not been tampered with."
 type: docs
 weight: 30

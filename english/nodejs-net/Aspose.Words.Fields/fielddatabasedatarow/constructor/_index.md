@@ -2,7 +2,7 @@
 title: FieldDatabaseDataRow constructor
 linktitle: FieldDatabaseDataRow constructor
 articleTitle: FieldDatabaseDataRow constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDatabaseDataRow constructor. Initializes a new instance of the [FieldDatabaseDataRow](../) class."
 type: docs
 weight: 10

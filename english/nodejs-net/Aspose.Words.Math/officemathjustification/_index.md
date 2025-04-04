@@ -2,7 +2,7 @@
 title: OfficeMathJustification enumeration
 linktitle: OfficeMathJustification enumeration
 articleTitle: OfficeMathJustification enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Math.OfficeMathJustification enumeration. Specifies the justification of the equation."
 type: docs
 weight: 40

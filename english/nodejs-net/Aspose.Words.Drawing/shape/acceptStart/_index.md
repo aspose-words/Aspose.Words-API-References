@@ -2,7 +2,7 @@
 title: Shape.acceptStart method
 linktitle: acceptStart method
 articleTitle: acceptStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.acceptStart method. Accepts a visitor for visiting the start of the shape."
 type: docs
 weight: 270

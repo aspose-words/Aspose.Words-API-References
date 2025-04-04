@@ -2,7 +2,7 @@
 title: ChartAxisTitle.format property
 linktitle: format property
 articleTitle: format property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxisTitle.format property. Provides access to fill and line formatting of the axis title."
 type: docs
 weight: 20

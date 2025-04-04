@@ -2,7 +2,7 @@
 title: CustomDocumentProperties.addLinkToContent method
 linktitle: addLinkToContent method
 articleTitle: addLinkToContent method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomDocumentProperties.addLinkToContent method. Creates a new linked to content custom document property."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: ListLevel.isLegal property
 linktitle: isLegal property
 articleTitle: isLegal property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.isLegal property. True if the level turns all inherited numbers to Arabic, false if it preserves their number style."
 type: docs
 weight: 50

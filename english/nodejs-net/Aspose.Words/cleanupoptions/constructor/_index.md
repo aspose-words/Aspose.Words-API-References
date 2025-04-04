@@ -2,7 +2,7 @@
 title: CleanupOptions constructor
 linktitle: CleanupOptions constructor
 articleTitle: CleanupOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CleanupOptions constructor. "
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: FieldDisplayBarcode constructor
 linktitle: FieldDisplayBarcode constructor
 articleTitle: FieldDisplayBarcode constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDisplayBarcode constructor. "
 type: docs
 weight: 10

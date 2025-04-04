@@ -2,7 +2,7 @@
 title: ShapeBase.localToParent method
 linktitle: localToParent method
 articleTitle: localToParent method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.localToParent method. "
 type: docs
 weight: 620

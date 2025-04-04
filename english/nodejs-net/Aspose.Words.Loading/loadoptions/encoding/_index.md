@@ -2,7 +2,7 @@
 title: LoadOptions.encoding property
 linktitle: encoding property
 articleTitle: encoding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.encoding property. Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document"
 type: docs
 weight: 50

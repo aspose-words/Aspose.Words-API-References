@@ -2,7 +2,7 @@
 title: GradientStop constructor
 linktitle: GradientStop constructor
 articleTitle: GradientStop constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.GradientStop constructor"
 type: docs
 weight: 10

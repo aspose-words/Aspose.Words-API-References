@@ -2,7 +2,7 @@
 title: CustomXmlProperty constructor
 linktitle: CustomXmlProperty constructor
 articleTitle: CustomXmlProperty constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlProperty constructor. Initializes a new instance of this class."
 type: docs
 weight: 10

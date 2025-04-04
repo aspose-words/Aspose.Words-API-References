@@ -2,7 +2,7 @@
 title: Field.asFieldIndex method
 linktitle: asFieldIndex method
 articleTitle: asFieldIndex method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldIndex method. "
 type: docs
 weight: 570

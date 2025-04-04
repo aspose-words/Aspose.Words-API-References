@@ -2,7 +2,7 @@
 title: MemoryFontSource.cacheKey property
 linktitle: cacheKey property
 articleTitle: cacheKey property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MemoryFontSource.cacheKey property. The key of this source in the cache."
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: HeaderFooterBookmarksExportMode enumeration
 linktitle: HeaderFooterBookmarksExportMode enumeration
 articleTitle: HeaderFooterBookmarksExportMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.HeaderFooterBookmarksExportMode enumeration. Specifies how bookmarks in headers/footers are exported."
 type: docs
 weight: 210

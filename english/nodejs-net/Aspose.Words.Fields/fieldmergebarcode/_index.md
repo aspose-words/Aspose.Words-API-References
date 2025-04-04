@@ -2,7 +2,7 @@
 title: FieldMergeBarcode class
 linktitle: FieldMergeBarcode class
 articleTitle: FieldMergeBarcode class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldMergeBarcode class. Implements the MERGEBARCODE field"
 type: docs
 weight: 670

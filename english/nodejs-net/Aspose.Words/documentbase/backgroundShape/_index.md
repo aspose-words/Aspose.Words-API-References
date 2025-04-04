@@ -2,7 +2,7 @@
 title: DocumentBase.backgroundShape property
 linktitle: backgroundShape property
 articleTitle: backgroundShape property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBase.backgroundShape property. Gets or sets the background shape of the document"
 type: docs
 weight: 10

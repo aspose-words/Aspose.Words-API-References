@@ -2,7 +2,7 @@
 title: ChartDataPointCollection class
 linktitle: ChartDataPointCollection class
 articleTitle: ChartDataPointCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartDataPointCollection class. Represents collection of a [ChartDataPoint](../chartdatapoint/)"
 type: docs
 weight: 230

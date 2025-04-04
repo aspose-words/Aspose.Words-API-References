@@ -2,7 +2,7 @@
 title: FontInfo.panose property
 linktitle: panose property
 articleTitle: panose property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontInfo.panose property. Gets or sets the PANOSE typeface classification number."
 type: docs
 weight: 70

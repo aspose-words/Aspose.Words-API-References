@@ -2,7 +2,7 @@
 title: OdsoFieldMapData.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdsoFieldMapData.name property. Specifies the column name within an external data source for the column whose  index is specified by the [OdsoFieldMapData.column](../column/) property"
 type: docs
 weight: 40

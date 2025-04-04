@@ -2,7 +2,7 @@
 title: Section.protectedForForms property
 linktitle: protectedForForms property
 articleTitle: protectedForForms property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Section.protectedForForms property. True if the section is protected for forms"
 type: docs
 weight: 60

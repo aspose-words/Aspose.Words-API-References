@@ -2,7 +2,7 @@
 title: ImageData.sourceFullName property
 linktitle: sourceFullName property
 articleTitle: sourceFullName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.sourceFullName property. Gets or sets the path and name of the source file for the linked image."
 type: docs
 weight: 170

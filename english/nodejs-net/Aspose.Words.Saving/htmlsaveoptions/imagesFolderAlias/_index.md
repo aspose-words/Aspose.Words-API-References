@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.imagesFolderAlias property
 linktitle: imagesFolderAlias property
 articleTitle: imagesFolderAlias property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.imagesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an HTML document"
 type: docs
 weight: 370

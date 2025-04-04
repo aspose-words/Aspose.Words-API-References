@@ -2,7 +2,7 @@
 title: Section.body property
 linktitle: body property
 articleTitle: body property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Section.body property. Returns the [Body](../../body/) child node of the section."
 type: docs
 weight: 20

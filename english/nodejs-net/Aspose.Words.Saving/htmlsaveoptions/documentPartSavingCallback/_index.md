@@ -2,7 +2,7 @@
 title: HtmlSaveOptions.documentPartSavingCallback property
 linktitle: documentPartSavingCallback property
 articleTitle: documentPartSavingCallback property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.documentPartSavingCallback property. Allows to control how document parts are saved when a document is saved to HTML or EPUB."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: WebExtensionProperty constructor
 linktitle: WebExtensionProperty constructor
 articleTitle: WebExtensionProperty constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtensionProperty constructor. Creates web extension custom property with specified name and value."
 type: docs
 weight: 10

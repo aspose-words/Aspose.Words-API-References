@@ -2,7 +2,7 @@
 title: TabStopCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStopCollection.count property. Gets the number of tab stops in the collection."
 type: docs
 weight: 10

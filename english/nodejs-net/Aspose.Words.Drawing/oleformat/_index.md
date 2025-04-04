@@ -2,7 +2,7 @@
 title: OleFormat class
 linktitle: OleFormat class
 articleTitle: OleFormat class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.OleFormat class. Provides access to the data of an OLE object or ActiveX control"
 type: docs
 weight: 260

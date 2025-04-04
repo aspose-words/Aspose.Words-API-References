@@ -2,7 +2,7 @@
 title: Node.asEditableRangeStart method
 linktitle: asEditableRangeStart method
 articleTitle: asEditableRangeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asEditableRangeStart method. Cast node to [EditableRangeStart](../../editablerangestart/)."
 type: docs
 weight: 210

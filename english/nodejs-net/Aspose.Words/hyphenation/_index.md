@@ -2,7 +2,7 @@
 title: Hyphenation class
 linktitle: Hyphenation class
 articleTitle: Hyphenation class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Hyphenation class. Provides methods for working with hyphenation dictionaries"
 type: docs
 weight: 530

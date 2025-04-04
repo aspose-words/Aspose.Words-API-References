@@ -2,7 +2,7 @@
 title: Field.localeId property
 linktitle: localeId property
 articleTitle: localeId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.localeId property. Gets or sets the LCID of the field."
 type: docs
 weight: 60

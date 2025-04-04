@@ -2,7 +2,7 @@
 title: Footnote constructor
 linktitle: Footnote constructor
 articleTitle: Footnote constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Footnote constructor. Initializes an instance of the [Footnote](../) class."
 type: docs
 weight: 10

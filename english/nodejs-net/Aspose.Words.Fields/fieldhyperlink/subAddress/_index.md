@@ -2,7 +2,7 @@
 title: FieldHyperlink.subAddress property
 linktitle: subAddress property
 articleTitle: subAddress property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldHyperlink.subAddress property. Gets or sets a location in the file, such as a bookmark, where this hyperlink jumps."
 type: docs
 weight: 60

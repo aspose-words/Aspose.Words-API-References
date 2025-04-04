@@ -2,7 +2,7 @@
 title: ChartDataLabel.separator property
 linktitle: separator property
 articleTitle: separator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.separator property. Gets or sets string separator used for the data labels on a chart"
 type: docs
 weight: 120

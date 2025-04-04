@@ -2,7 +2,7 @@
 title: OleFormat.progId property
 linktitle: progId property
 articleTitle: progId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.progId property. Gets or sets the ProgID of the OLE object."
 type: docs
 weight: 90

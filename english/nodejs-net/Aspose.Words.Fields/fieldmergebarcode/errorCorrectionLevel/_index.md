@@ -2,7 +2,7 @@
 title: FieldMergeBarcode.errorCorrectionLevel property
 linktitle: errorCorrectionLevel property
 articleTitle: errorCorrectionLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeBarcode.errorCorrectionLevel property. Gets or sets an error correction level of QR Code"
 type: docs
 weight: 80

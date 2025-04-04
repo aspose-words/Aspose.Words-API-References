@@ -2,7 +2,7 @@
 title: Source.tag property
 linktitle: tag property
 articleTitle: tag property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.tag property. Gets or sets the identifying tag name of a source."
 type: docs
 weight: 450

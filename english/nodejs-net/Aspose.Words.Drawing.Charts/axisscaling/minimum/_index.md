@@ -2,7 +2,7 @@
 title: AxisScaling.minimum property
 linktitle: minimum property
 articleTitle: minimum property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisScaling.minimum property. Gets or sets minimum value of the axis."
 type: docs
 weight: 40

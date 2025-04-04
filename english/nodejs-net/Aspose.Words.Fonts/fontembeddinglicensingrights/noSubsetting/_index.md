@@ -2,7 +2,7 @@
 title: FontEmbeddingLicensingRights.noSubsetting property
 linktitle: noSubsetting property
 articleTitle: noSubsetting property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontEmbeddingLicensingRights.noSubsetting property. Indicates the No subsetting restriction."
 type: docs
 weight: 30

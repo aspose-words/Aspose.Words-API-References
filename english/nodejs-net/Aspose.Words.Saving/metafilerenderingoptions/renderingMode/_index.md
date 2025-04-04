@@ -2,7 +2,7 @@
 title: MetafileRenderingOptions.renderingMode property
 linktitle: renderingMode property
 articleTitle: renderingMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MetafileRenderingOptions.renderingMode property. Gets or sets a value determining how metafile images should be rendered."
 type: docs
 weight: 60

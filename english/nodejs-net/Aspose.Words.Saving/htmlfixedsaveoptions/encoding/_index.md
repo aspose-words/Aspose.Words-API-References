@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.encoding property
 linktitle: encoding property
 articleTitle: encoding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.encoding property. Specifies the encoding to use when exporting to HTML"
 type: docs
 weight: 30

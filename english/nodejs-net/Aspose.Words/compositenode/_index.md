@@ -2,7 +2,7 @@
 title: CompositeNode class
 linktitle: CompositeNode class
 articleTitle: CompositeNode class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.CompositeNode class. Base class for nodes that can contain other nodes"
 type: docs
 weight: 230

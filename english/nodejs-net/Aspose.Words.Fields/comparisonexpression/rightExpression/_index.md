@@ -2,7 +2,7 @@
 title: ComparisonExpression.rightExpression property
 linktitle: rightExpression property
 articleTitle: rightExpression property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ComparisonExpression.rightExpression property. Gets the right expression."
 type: docs
 weight: 30

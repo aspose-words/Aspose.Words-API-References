@@ -2,7 +2,7 @@
 title: XamlFixedSaveOptions constructor
 linktitle: XamlFixedSaveOptions constructor
 articleTitle: XamlFixedSaveOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XamlFixedSaveOptions constructor. "
 type: docs
 weight: 10

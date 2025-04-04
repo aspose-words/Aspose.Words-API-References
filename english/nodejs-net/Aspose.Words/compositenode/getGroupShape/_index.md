@@ -2,7 +2,7 @@
 title: CompositeNode.getGroupShape method
 linktitle: getGroupShape method
 articleTitle: getGroupShape method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getGroupShape method. "
 type: docs
 weight: 150

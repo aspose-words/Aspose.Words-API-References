@@ -2,7 +2,7 @@
 title: FontInfo.getEmbeddedFont method
 linktitle: getEmbeddedFont method
 articleTitle: getEmbeddedFont method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontInfo.getEmbeddedFont method. Gets a specific embedded font file."
 type: docs
 weight: 90

@@ -2,7 +2,7 @@
 title: CompatibilityOptions.allowSpaceOfSameStyleInTable property
 linktitle: allowSpaceOfSameStyleInTable property
 articleTitle: allowSpaceOfSameStyleInTable property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.allowSpaceOfSameStyleInTable property. Allow Contextual Spacing of Paragraphs in Tables."
 type: docs
 weight: 30

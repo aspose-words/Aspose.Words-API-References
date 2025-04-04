@@ -2,7 +2,7 @@
 title: WriteProtection.validatePassword method
 linktitle: validatePassword method
 articleTitle: validatePassword method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WriteProtection.validatePassword method. Returns ``true`` if the specified password is the same as the write-protection password the document was protected with"
 type: docs
 weight: 40

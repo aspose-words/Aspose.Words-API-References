@@ -2,7 +2,7 @@
 title: FieldAutoTextList.listStyle property
 linktitle: listStyle property
 articleTitle: listStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldAutoTextList.listStyle property. Gets or sets the name of the style on which the list to contain entries is based."
 type: docs
 weight: 30

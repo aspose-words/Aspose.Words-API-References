@@ -2,7 +2,7 @@
 title: ChartDataLabel.showDataLabelsRange property
 linktitle: showDataLabelsRange property
 articleTitle: showDataLabelsRange property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.showDataLabelsRange property. Allows to specify if values from data labels range to be displayed in the data labels"
 type: docs
 weight: 150

@@ -2,7 +2,7 @@
 title: NodeImporter.importNode method
 linktitle: importNode method
 articleTitle: importNode method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeImporter.importNode method. Imports a node from one document into another."
 type: docs
 weight: 20

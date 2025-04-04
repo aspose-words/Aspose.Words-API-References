@@ -2,7 +2,7 @@
 title: Source.url property
 linktitle: url property
 articleTitle: url property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source.url property. Gets or sets the url of a source."
 type: docs
 weight: 500

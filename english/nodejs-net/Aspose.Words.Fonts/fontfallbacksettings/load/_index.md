@@ -2,7 +2,7 @@
 title: FontFallbackSettings.load method
 linktitle: load method
 articleTitle: load method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontFallbackSettings.load method"
 type: docs
 weight: 20

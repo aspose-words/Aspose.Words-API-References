@@ -2,7 +2,7 @@
 title: Contributor class
 linktitle: Contributor class
 articleTitle: Contributor class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Bibliography.Contributor class. Represents a bibliography source contributor"
 type: docs
 weight: 10

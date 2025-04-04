@@ -2,7 +2,7 @@
 title: FieldUserInitials class
 linktitle: FieldUserInitials class
 articleTitle: FieldUserInitials class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldUserInitials class. Implements the USERINITIALS field"
 type: docs
 weight: 1120

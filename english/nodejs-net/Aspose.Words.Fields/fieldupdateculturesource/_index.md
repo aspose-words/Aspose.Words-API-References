@@ -2,7 +2,7 @@
 title: FieldUpdateCultureSource enumeration
 linktitle: FieldUpdateCultureSource enumeration
 articleTitle: FieldUpdateCultureSource enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldUpdateCultureSource enumeration. Indicates what culture to use during field update."
 type: docs
 weight: 1090

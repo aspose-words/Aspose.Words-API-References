@@ -2,7 +2,7 @@
 title: AxisTickLabels class
 linktitle: AxisTickLabels class
 articleTitle: AxisTickLabels class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisTickLabels class. Represents properties of axis tick mark labels."
 type: docs
 weight: 100

@@ -2,7 +2,7 @@
 title: DigitalSignatureUtil.sign method
 linktitle: sign method
 articleTitle: sign method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureUtil.sign method"
 type: docs
 weight: 30

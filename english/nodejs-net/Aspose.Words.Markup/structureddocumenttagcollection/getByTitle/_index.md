@@ -2,7 +2,7 @@
 title: StructuredDocumentTagCollection.getByTitle method
 linktitle: getByTitle method
 articleTitle: getByTitle method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagCollection.getByTitle method. Returns the first structured document tag encountered in the collection with the specified title."
 type: docs
 weight: 50

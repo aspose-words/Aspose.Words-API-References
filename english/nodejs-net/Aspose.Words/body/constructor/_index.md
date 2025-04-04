@@ -2,7 +2,7 @@
 title: Body constructor
 linktitle: Body constructor
 articleTitle: Body constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Body constructor. Initializes a new instance of the [Body](../) class."
 type: docs
 weight: 10

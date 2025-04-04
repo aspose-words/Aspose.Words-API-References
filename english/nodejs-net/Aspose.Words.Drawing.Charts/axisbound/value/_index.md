@@ -2,7 +2,7 @@
 title: AxisBound.value property
 linktitle: value property
 articleTitle: value property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisBound.value property. Returns numeric value of axis bound."
 type: docs
 weight: 30

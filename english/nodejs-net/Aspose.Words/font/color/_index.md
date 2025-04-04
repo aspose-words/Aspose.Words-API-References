@@ -2,7 +2,7 @@
 title: Font.color property
 linktitle: color property
 articleTitle: color property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.color property. Gets or sets the color of the font."
 type: docs
 weight: 70

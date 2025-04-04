@@ -2,7 +2,7 @@
 title: Node.asFieldSeparator method
 linktitle: asFieldSeparator method
 articleTitle: asFieldSeparator method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asFieldSeparator method. Cast node to [FieldSeparator](../../../aspose.words.fields/fieldseparator/)."
 type: docs
 weight: 230

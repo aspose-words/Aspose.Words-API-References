@@ -2,7 +2,7 @@
 title: ShapeBase.width property
 linktitle: width property
 articleTitle: width property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.width property. Gets or sets the width of the containing block of the shape."
 type: docs
 weight: 550

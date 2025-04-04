@@ -2,7 +2,7 @@
 title: Source constructor
 linktitle: Source constructor
 articleTitle: Source constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Source constructor. Initialize a new instance of the [Source](../) class."
 type: docs
 weight: 10

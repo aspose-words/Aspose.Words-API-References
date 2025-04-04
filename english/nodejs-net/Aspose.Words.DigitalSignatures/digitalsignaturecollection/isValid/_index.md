@@ -2,7 +2,7 @@
 title: DigitalSignatureCollection.isValid property
 linktitle: isValid property
 articleTitle: isValid property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DigitalSignatureCollection.isValid property. Returns ``true`` if all digital signatures in this collection are valid and the document has not been tampered with Also returns ``true`` if there are no digital signatures"
 type: docs
 weight: 30

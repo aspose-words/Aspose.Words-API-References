@@ -2,7 +2,7 @@
 title: BuildingBlock.lastSection property
 linktitle: lastSection property
 articleTitle: lastSection property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuildingBlock.lastSection property. Gets the last section in the building block."
 type: docs
 weight: 80

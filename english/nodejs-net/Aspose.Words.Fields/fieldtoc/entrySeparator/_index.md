@@ -2,7 +2,7 @@
 title: FieldToc.entrySeparator property
 linktitle: entrySeparator property
 articleTitle: entrySeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToc.entrySeparator property. Gets or sets a sequence of characters that separate an entry and its page number."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: ThemeColors.accent2 property
 linktitle: accent2 property
 articleTitle: accent2 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThemeColors.accent2 property. Specifies color Accent 2."
 type: docs
 weight: 20

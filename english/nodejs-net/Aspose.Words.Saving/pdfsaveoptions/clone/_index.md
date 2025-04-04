@@ -2,7 +2,7 @@
 title: PdfSaveOptions.clone method
 linktitle: clone method
 articleTitle: clone method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.clone method. Creates a deep clone of this object."
 type: docs
 weight: 370

@@ -2,7 +2,7 @@
 title: TextPathAlignment enumeration
 linktitle: TextPathAlignment enumeration
 articleTitle: TextPathAlignment enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.TextPathAlignment enumeration. WordArt alignment."
 type: docs
 weight: 500

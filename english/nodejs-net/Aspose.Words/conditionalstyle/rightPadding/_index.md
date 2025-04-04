@@ -2,7 +2,7 @@
 title: ConditionalStyle.rightPadding property
 linktitle: rightPadding property
 articleTitle: rightPadding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.rightPadding property. Gets or sets the amount of space (in points) to add to the right of the contents of table cells."
 type: docs
 weight: 60

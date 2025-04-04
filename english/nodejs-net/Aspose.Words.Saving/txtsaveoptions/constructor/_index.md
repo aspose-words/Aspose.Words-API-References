@@ -2,7 +2,7 @@
 title: TxtSaveOptions constructor
 linktitle: TxtSaveOptions constructor
 articleTitle: TxtSaveOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtSaveOptions constructor. "
 type: docs
 weight: 10

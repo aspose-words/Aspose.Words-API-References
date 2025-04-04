@@ -2,7 +2,7 @@
 title: ConditionalStyle.bottomPadding property
 linktitle: bottomPadding property
 articleTitle: bottomPadding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.bottomPadding property. Gets or sets the amount of space (in points) to add below the contents of table cells."
 type: docs
 weight: 20

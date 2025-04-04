@@ -2,7 +2,7 @@
 title: DocumentBuilder.document property
 linktitle: document property
 articleTitle: document property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.document property. Gets or sets the [DocumentBuilder.document](./) object that this object is attached to."
 type: docs
 weight: 90

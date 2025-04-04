@@ -2,7 +2,7 @@
 title: MailMergeSettings.connectString property
 linktitle: connectString property
 articleTitle: connectString property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MailMergeSettings.connectString property. Specifies the connection string used to connect to an external data source"
 type: docs
 weight: 50

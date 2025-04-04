@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.removeJavaScriptFromLinks property
 linktitle: removeJavaScriptFromLinks property
 articleTitle: removeJavaScriptFromLinks property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.removeJavaScriptFromLinks property. Specifies whether JavaScript will be removed from links"
 type: docs
 weight: 140

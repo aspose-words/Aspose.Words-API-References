@@ -2,7 +2,7 @@
 title: OdsoRecipientData class
 linktitle: OdsoRecipientData class
 articleTitle: OdsoRecipientData class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.OdsoRecipientData class. Represents information about a single record within an external data source that is to be excluded from the mail merge"
 type: docs
 weight: 170

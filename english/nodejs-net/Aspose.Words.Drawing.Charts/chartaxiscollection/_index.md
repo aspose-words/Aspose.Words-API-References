@@ -2,7 +2,7 @@
 title: ChartAxisCollection class
 linktitle: ChartAxisCollection class
 articleTitle: ChartAxisCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartAxisCollection class. Represents a collection of chart axes."
 type: docs
 weight: 150

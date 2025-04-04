@@ -2,7 +2,7 @@
 title: FootnoteSeparatorType enumeration
 linktitle: FootnoteSeparatorType enumeration
 articleTitle: FootnoteSeparatorType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.FootnoteSeparatorType enumeration. Specifies the type of the footnote/endnote separator."
 type: docs
 weight: 90

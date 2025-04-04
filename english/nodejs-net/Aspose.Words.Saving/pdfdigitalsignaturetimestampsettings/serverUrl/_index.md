@@ -2,7 +2,7 @@
 title: PdfDigitalSignatureTimestampSettings.serverUrl property
 linktitle: serverUrl property
 articleTitle: serverUrl property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfDigitalSignatureTimestampSettings.serverUrl property. Timestamp server URL."
 type: docs
 weight: 30

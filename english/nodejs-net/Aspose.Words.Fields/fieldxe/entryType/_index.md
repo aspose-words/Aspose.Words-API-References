@@ -2,7 +2,7 @@
 title: FieldXE.entryType property
 linktitle: entryType property
 articleTitle: entryType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldXE.entryType property. Gets or sets an index entry type."
 type: docs
 weight: 20

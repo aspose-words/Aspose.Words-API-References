@@ -2,7 +2,7 @@
 title: ConvertUtil.pixelToNewDpi method
 linktitle: pixelToNewDpi method
 articleTitle: pixelToNewDpi method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConvertUtil.pixelToNewDpi method. Converts pixels from one resolution to another."
 type: docs
 weight: 30

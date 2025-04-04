@@ -2,7 +2,7 @@
 title: Frameset.childFramesets property
 linktitle: childFramesets property
 articleTitle: childFramesets property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Frameset.childFramesets property. Gets the collection of child frames and frames pages."
 type: docs
 weight: 20

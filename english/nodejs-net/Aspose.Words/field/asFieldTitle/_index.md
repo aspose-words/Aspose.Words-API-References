@@ -2,7 +2,7 @@
 title: Field.asFieldTitle method
 linktitle: asFieldTitle method
 articleTitle: asFieldTitle method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldTitle method. "
 type: docs
 weight: 980

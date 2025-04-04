@@ -2,7 +2,7 @@
 title: Field.asFieldIncludeText method
 linktitle: asFieldIncludeText method
 articleTitle: asFieldIncludeText method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldIncludeText method. "
 type: docs
 weight: 560

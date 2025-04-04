@@ -2,7 +2,7 @@
 title: Field.asFieldFileSize method
 linktitle: asFieldFileSize method
 articleTitle: asFieldFileSize method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldFileSize method. "
 type: docs
 weight: 410

@@ -2,7 +2,7 @@
 title: VbaModule.clone method
 linktitle: clone method
 articleTitle: clone method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VbaModule.clone method. Performs a copy of the [VbaModule](../)."
 type: docs
 weight: 50

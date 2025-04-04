@@ -2,7 +2,7 @@
 title: DropDownItemCollection.insert method
 linktitle: insert method
 articleTitle: insert method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DropDownItemCollection.insert method. Inserts a string into the collection at the specified index."
 type: docs
 weight: 70

@@ -2,7 +2,7 @@
 title: RevisionOptions.revisionBarsPosition property
 linktitle: revisionBarsPosition property
 articleTitle: revisionBarsPosition property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionOptions.revisionBarsPosition property. Gets or sets rendering position of revision bars"
 type: docs
 weight: 160

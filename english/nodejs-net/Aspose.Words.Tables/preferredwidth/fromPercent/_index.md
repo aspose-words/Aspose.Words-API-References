@@ -2,7 +2,7 @@
 title: PreferredWidth.fromPercent method
 linktitle: fromPercent method
 articleTitle: fromPercent method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PreferredWidth.fromPercent method. A creation method that returns a new instance that represents a preferred width specified as a percentage."
 type: docs
 weight: 40

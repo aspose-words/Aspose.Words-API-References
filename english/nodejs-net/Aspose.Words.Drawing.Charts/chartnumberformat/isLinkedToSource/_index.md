@@ -2,7 +2,7 @@
 title: ChartNumberFormat.isLinkedToSource property
 linktitle: isLinkedToSource property
 articleTitle: isLinkedToSource property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartNumberFormat.isLinkedToSource property. Specifies whether the format code is linked to a source cell"
 type: docs
 weight: 20

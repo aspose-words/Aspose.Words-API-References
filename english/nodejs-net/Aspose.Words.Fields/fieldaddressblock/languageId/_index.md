@@ -2,7 +2,7 @@
 title: FieldAddressBlock.languageId property
 linktitle: languageId property
 articleTitle: languageId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldAddressBlock.languageId property. Gets or sets the language ID used to format the address."
 type: docs
 weight: 50

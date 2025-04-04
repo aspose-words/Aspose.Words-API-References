@@ -2,7 +2,7 @@
 title: CompositeNode.getShape method
 linktitle: getShape method
 articleTitle: getShape method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getShape method. "
 type: docs
 weight: 220

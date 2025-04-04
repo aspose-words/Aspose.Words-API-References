@@ -2,7 +2,7 @@
 title: HorizontalRuleFormat.height property
 linktitle: height property
 articleTitle: height property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HorizontalRuleFormat.height property. Gets or sets the height of the horizontal rule."
 type: docs
 weight: 30

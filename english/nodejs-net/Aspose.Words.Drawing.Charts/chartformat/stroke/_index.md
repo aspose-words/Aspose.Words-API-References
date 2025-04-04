@@ -2,7 +2,7 @@
 title: ChartFormat.stroke property
 linktitle: stroke property
 articleTitle: stroke property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartFormat.stroke property. Gets line formatting for the parent chart element."
 type: docs
 weight: 40

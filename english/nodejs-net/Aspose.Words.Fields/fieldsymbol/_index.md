@@ -2,7 +2,7 @@
 title: FieldSymbol class
 linktitle: FieldSymbol class
 articleTitle: FieldSymbol class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldSymbol class. Implements a SYMBOL field"
 type: docs
 weight: 990

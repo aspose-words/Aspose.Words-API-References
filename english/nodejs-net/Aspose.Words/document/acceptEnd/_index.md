@@ -2,7 +2,7 @@
 title: Document.acceptEnd method
 linktitle: acceptEnd method
 articleTitle: acceptEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.acceptEnd method. Accepts a visitor for visiting the end of the document."
 type: docs
 weight: 530

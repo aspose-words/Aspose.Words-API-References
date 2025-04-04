@@ -2,7 +2,7 @@
 title: ChartDataLabel.showBubbleSize property
 linktitle: showBubbleSize property
 articleTitle: showBubbleSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.showBubbleSize property. Allows to specify if bubble size is to be displayed for the data labels on a chart"
 type: docs
 weight: 130

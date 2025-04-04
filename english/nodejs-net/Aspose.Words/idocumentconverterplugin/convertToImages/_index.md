@@ -2,7 +2,7 @@
 title: IDocumentConverterPlugin.convertToImages method
 linktitle: convertToImages method
 articleTitle: convertToImages method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IDocumentConverterPlugin.convertToImages method. Converts pages from document from input stream to array of images."
 type: docs
 weight: 20

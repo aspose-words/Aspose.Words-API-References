@@ -2,7 +2,7 @@
 title: OutlineOptions.bookmarksOutlineLevels property
 linktitle: bookmarksOutlineLevels property
 articleTitle: bookmarksOutlineLevels property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OutlineOptions.bookmarksOutlineLevels property. Allows to specify individual bookmarks outline level."
 type: docs
 weight: 20

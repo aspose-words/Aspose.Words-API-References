@@ -2,7 +2,7 @@
 title: XamlFixedSaveOptions class
 linktitle: XamlFixedSaveOptions class
 articleTitle: XamlFixedSaveOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.XamlFixedSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.XamlFixed](../../aspose.words/saveformat/#XamlFixed) format"
 type: docs
 weight: 890

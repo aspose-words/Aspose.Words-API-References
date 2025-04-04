@@ -2,7 +2,7 @@
 title: TextBox.internalMarginTop property
 linktitle: internalMarginTop property
 articleTitle: internalMarginTop property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextBox.internalMarginTop property. Specifies the inner top margin in points for a shape."
 type: docs
 weight: 50

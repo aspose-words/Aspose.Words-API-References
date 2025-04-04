@@ -2,7 +2,7 @@
 title: Shape.storyType property
 linktitle: storyType property
 articleTitle: storyType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.storyType property. Returns [StoryType.Textbox](../../../aspose.words/storytype/#Textbox)."
 type: docs
 weight: 180

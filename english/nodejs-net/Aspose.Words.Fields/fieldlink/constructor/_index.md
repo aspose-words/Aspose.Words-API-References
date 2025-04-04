@@ -2,7 +2,7 @@
 title: FieldLink constructor
 linktitle: FieldLink constructor
 articleTitle: FieldLink constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldLink constructor. "
 type: docs
 weight: 10

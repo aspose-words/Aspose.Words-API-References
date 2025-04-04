@@ -2,7 +2,7 @@
 title: FieldTA class
 linktitle: FieldTA class
 articleTitle: FieldTA class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldTA class. Implements the TA field"
 type: docs
 weight: 1000

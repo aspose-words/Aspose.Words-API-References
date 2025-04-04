@@ -2,7 +2,7 @@
 title: FontConfigSubstitutionRule.resetCache method
 linktitle: resetCache method
 articleTitle: resetCache method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontConfigSubstitutionRule.resetCache method. Resets the cache of fontconfig calling results."
 type: docs
 weight: 30

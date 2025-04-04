@@ -2,7 +2,7 @@
 title: CheckBoxControl.checked property
 linktitle: checked property
 articleTitle: checked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CheckBoxControl.checked property. Gets or sets a boolean value indicating either this [CheckBoxControl](../) is checked or not"
 type: docs
 weight: 10

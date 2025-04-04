@@ -2,7 +2,7 @@
 title: PageInfo.heightInPoints property
 linktitle: heightInPoints property
 articleTitle: heightInPoints property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageInfo.heightInPoints property. Gets the height of the page in points."
 type: docs
 weight: 20

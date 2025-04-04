@@ -2,7 +2,7 @@
 title: FieldEnd.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldEnd.nodeType property. Returns [NodeType.FieldEnd](../../../aspose.words/nodetype/#FieldEnd)."
 type: docs
 weight: 20

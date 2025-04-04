@@ -2,7 +2,7 @@
 title: AiModelType enumeration
 linktitle: AiModelType enumeration
 articleTitle: AiModelType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.AiModelType enumeration. Represents the types of [AiModel](../aimodel/) that can be integrated into the document processing workflow."
 type: docs
 weight: 20

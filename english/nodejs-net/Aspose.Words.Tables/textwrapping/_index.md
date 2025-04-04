@@ -2,7 +2,7 @@
 title: TextWrapping enumeration
 linktitle: TextWrapping enumeration
 articleTitle: TextWrapping enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.TextWrapping enumeration. Specifies how text is wrapped around the table."
 type: docs
 weight: 150

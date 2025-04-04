@@ -2,7 +2,7 @@
 title: Document.compare method
 linktitle: compare method
 articleTitle: compare method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.compare method"
 type: docs
 weight: 580

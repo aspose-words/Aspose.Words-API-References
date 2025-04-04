@@ -2,7 +2,7 @@
 title: TextPath.smallCaps property
 linktitle: smallCaps property
 articleTitle: smallCaps property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.smallCaps property. True if the font is formatted as small capital letters."
 type: docs
 weight: 130

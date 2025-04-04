@@ -2,7 +2,7 @@
 title: FieldGreetingLine class
 linktitle: FieldGreetingLine class
 articleTitle: FieldGreetingLine class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldGreetingLine class. Implements the GREETINGLINE field"
 type: docs
 weight: 510

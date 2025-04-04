@@ -2,7 +2,7 @@
 title: Field.asFieldKeywords method
 linktitle: asFieldKeywords method
 articleTitle: asFieldKeywords method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldKeywords method. "
 type: docs
 weight: 590

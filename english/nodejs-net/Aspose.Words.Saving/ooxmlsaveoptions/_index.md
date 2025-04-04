@@ -2,7 +2,7 @@
 title: OoxmlSaveOptions class
 linktitle: OoxmlSaveOptions class
 articleTitle: OoxmlSaveOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.OoxmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Docx](../../aspose.words/saveformat/#Docx), [SaveFormat.Docm](../../aspose.words/saveformat/#Docm), [SaveFormat.Dotx](../../aspose.words/saveformat/#Dotx), [SaveFormat.Dotm](../../aspose.words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../aspose.words/saveformat/#FlatOpc) format"
 type: docs
 weight: 530

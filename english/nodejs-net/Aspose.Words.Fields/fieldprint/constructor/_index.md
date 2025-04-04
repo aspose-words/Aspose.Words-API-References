@@ -2,7 +2,7 @@
 title: FieldPrint constructor
 linktitle: FieldPrint constructor
 articleTitle: FieldPrint constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldPrint constructor. "
 type: docs
 weight: 10

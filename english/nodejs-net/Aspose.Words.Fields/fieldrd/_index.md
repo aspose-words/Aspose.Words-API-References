@@ -2,7 +2,7 @@
 title: FieldRD class
 linktitle: FieldRD class
 articleTitle: FieldRD class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldRD class. Implements the RD field"
 type: docs
 weight: 850

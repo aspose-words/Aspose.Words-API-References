@@ -2,7 +2,7 @@
 title: FieldOptions.fieldUpdateCultureProvider property
 linktitle: fieldUpdateCultureProvider property
 articleTitle: fieldUpdateCultureProvider property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.fieldUpdateCultureProvider property. Gets or sets a provider that returns a culture object specific for each particular field."
 type: docs
 weight: 90

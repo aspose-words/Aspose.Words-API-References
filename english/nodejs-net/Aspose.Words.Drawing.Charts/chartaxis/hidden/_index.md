@@ -2,7 +2,7 @@
 title: ChartAxis.hidden property
 linktitle: hidden property
 articleTitle: hidden property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.hidden property. Gets or sets a flag indicating whether this axis is hidden or not."
 type: docs
 weight: 110

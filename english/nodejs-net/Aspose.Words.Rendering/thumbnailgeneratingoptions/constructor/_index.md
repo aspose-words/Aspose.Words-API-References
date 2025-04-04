@@ -2,7 +2,7 @@
 title: ThumbnailGeneratingOptions constructor
 linktitle: ThumbnailGeneratingOptions constructor
 articleTitle: ThumbnailGeneratingOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThumbnailGeneratingOptions constructor. "
 type: docs
 weight: 10

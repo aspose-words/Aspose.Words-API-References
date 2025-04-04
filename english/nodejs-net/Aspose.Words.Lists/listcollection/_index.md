@@ -2,7 +2,7 @@
 title: ListCollection class
 linktitle: ListCollection class
 articleTitle: ListCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Lists.ListCollection class. Stores and manages formatting of bulleted and numbered lists used in a document"
 type: docs
 weight: 10

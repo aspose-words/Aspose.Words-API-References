@@ -2,7 +2,7 @@
 title: CompositeNode.firstChild property
 linktitle: firstChild property
 articleTitle: firstChild property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.firstChild property. Gets the first child of the node."
 type: docs
 weight: 20

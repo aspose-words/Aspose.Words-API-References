@@ -2,7 +2,7 @@
 title: SvgSaveOptions.resourceSavingCallback property
 linktitle: resourceSavingCallback property
 articleTitle: resourceSavingCallback property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.resourceSavingCallback property. Allows to control how resources (images) are saved when a document is exported to SVG format."
 type: docs
 weight: 70

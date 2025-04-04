@@ -2,7 +2,7 @@
 title: ShapeBase.distanceLeft property
 linktitle: distanceLeft property
 articleTitle: distanceLeft property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.distanceLeft property. Returns or sets the distance (in points) between the document text and the left edge of the shape."
 type: docs
 weight: 90

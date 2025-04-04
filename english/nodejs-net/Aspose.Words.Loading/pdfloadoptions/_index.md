@@ -2,7 +2,7 @@
 title: PdfLoadOptions class
 linktitle: PdfLoadOptions class
 articleTitle: PdfLoadOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object"
 type: docs
 weight: 130

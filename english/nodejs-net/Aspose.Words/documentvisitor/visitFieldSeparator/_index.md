@@ -2,7 +2,7 @@
 title: DocumentVisitor.visitFieldSeparator method
 linktitle: visitFieldSeparator method
 articleTitle: visitFieldSeparator method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitFieldSeparator method. Called when a field separator is encountered in the document."
 type: docs
 weight: 190

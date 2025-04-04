@@ -2,7 +2,7 @@
 title: InlineStory.paragraphs property
 linktitle: paragraphs property
 articleTitle: paragraphs property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "InlineStory.paragraphs property. Gets a collection of paragraphs that are immediate children of the story."
 type: docs
 weight: 80

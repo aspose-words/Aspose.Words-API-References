@@ -2,7 +2,7 @@
 title: ChartAxis.axisBetweenCategories property
 linktitle: axisBetweenCategories property
 articleTitle: axisBetweenCategories property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.axisBetweenCategories property. Gets or sets a flag indicating whether the value axis crosses the category axis between categories."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: ShapeBase.shadowFormat property
 linktitle: shadowFormat property
 articleTitle: shadowFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.shadowFormat property. Gets shadow formatting for the shape."
 type: docs
 weight: 470

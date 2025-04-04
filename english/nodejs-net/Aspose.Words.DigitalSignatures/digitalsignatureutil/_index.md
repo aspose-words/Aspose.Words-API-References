@@ -2,7 +2,7 @@
 title: DigitalSignatureUtil class
 linktitle: DigitalSignatureUtil class
 articleTitle: DigitalSignatureUtil class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DigitalSignatures.DigitalSignatureUtil class. Provides methods for signing document"
 type: docs
 weight: 40

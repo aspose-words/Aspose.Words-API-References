@@ -2,7 +2,7 @@
 title: XmlMapping.setMapping method
 linktitle: setMapping method
 articleTitle: setMapping method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XmlMapping.setMapping method. Sets a mapping between the parent structured document tag and an XML node of a custom XML data part."
 type: docs
 weight: 70

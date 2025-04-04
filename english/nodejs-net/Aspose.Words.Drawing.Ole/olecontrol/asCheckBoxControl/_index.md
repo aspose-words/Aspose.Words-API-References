@@ -2,7 +2,7 @@
 title: OleControl.asCheckBoxControl method
 linktitle: asCheckBoxControl method
 articleTitle: asCheckBoxControl method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleControl.asCheckBoxControl method. "
 type: docs
 weight: 30

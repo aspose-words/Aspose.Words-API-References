@@ -2,7 +2,7 @@
 title: CompatibilityOptions.forgetLastTabAlignment property
 linktitle: forgetLastTabAlignment property
 articleTitle: forgetLastTabAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.forgetLastTabAlignment property. Ignore Width of Last Tab Stop When Aligning Paragraph If It Is Not Left Aligned."
 type: docs
 weight: 270

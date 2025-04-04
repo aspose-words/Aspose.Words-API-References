@@ -2,7 +2,7 @@
 title: Person.middle property
 linktitle: middle property
 articleTitle: middle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Person.middle property. Gets or sets the middle name of a person."
 type: docs
 weight: 40

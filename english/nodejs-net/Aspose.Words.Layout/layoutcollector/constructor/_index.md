@@ -2,7 +2,7 @@
 title: LayoutCollector constructor
 linktitle: LayoutCollector constructor
 articleTitle: LayoutCollector constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutCollector constructor. Initializes an instance of this class."
 type: docs
 weight: 10

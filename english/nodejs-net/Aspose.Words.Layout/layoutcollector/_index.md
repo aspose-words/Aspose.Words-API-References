@@ -2,7 +2,7 @@
 title: LayoutCollector class
 linktitle: LayoutCollector class
 articleTitle: LayoutCollector class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Layout.LayoutCollector class. This class allows to compute page numbers of document nodes."
 type: docs
 weight: 40

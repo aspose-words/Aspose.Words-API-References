@@ -2,7 +2,7 @@
 title: GradientStopCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GradientStopCollection.add method. Adds a specified [GradientStop](../../gradientstop/) to a gradient."
 type: docs
 weight: 30

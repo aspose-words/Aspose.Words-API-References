@@ -2,7 +2,7 @@
 title: XlsxSaveOptions.dateTimeParsingMode property
 linktitle: dateTimeParsingMode property
 articleTitle: dateTimeParsingMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XlsxSaveOptions.dateTimeParsingMode property. Gets or sets the mode that specifies how document text is parsed to identify date and time values"
 type: docs
 weight: 30

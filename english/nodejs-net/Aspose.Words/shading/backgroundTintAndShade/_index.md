@@ -2,7 +2,7 @@
 title: Shading.backgroundTintAndShade property
 linktitle: backgroundTintAndShade property
 articleTitle: backgroundTintAndShade property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shading.backgroundTintAndShade property. Gets or sets a double value that lightens or darkens a background theme color."
 type: docs
 weight: 30

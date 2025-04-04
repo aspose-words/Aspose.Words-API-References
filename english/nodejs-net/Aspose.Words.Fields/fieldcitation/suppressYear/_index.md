@@ -2,7 +2,7 @@
 title: FieldCitation.suppressYear property
 linktitle: suppressYear property
 articleTitle: suppressYear property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCitation.suppressYear property. Gets or sets whether the year information is suppressed from the citation."
 type: docs
 weight: 100

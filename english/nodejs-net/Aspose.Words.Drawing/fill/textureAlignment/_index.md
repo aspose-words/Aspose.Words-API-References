@@ -2,7 +2,7 @@
 title: Fill.textureAlignment property
 linktitle: textureAlignment property
 articleTitle: textureAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.textureAlignment property. Gets or sets the alignment for tile texture fill."
 type: docs
 weight: 190

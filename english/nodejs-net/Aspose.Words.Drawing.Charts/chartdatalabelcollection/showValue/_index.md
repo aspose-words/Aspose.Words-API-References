@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection.showValue property
 linktitle: showValue property
 articleTitle: showValue property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.showValue property. Allows to specify whether values are to be displayed in the data labels of the entire series"
 type: docs
 weight: 160

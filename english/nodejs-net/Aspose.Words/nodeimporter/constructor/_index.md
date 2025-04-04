@@ -2,7 +2,7 @@
 title: NodeImporter constructor
 linktitle: NodeImporter constructor
 articleTitle: NodeImporter constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.NodeImporter constructor"
 type: docs
 weight: 10

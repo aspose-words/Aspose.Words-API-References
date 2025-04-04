@@ -2,7 +2,7 @@
 title: FontSettings.substitutionSettings property
 linktitle: substitutionSettings property
 articleTitle: substitutionSettings property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSettings.substitutionSettings property. Settings related to font substitution mechanism."
 type: docs
 weight: 40

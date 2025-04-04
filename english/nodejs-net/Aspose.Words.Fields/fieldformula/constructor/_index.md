@@ -2,7 +2,7 @@
 title: FieldFormula constructor
 linktitle: FieldFormula constructor
 articleTitle: FieldFormula constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldFormula constructor. "
 type: docs
 weight: 10

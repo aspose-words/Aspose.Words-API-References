@@ -2,7 +2,7 @@
 title: TextBox.layoutFlow property
 linktitle: layoutFlow property
 articleTitle: layoutFlow property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextBox.layoutFlow property. Determines the flow of the text layout in a shape."
 type: docs
 weight: 60

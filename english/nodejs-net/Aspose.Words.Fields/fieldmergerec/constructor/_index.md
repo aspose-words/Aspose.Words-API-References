@@ -2,7 +2,7 @@
 title: FieldMergeRec constructor
 linktitle: FieldMergeRec constructor
 articleTitle: FieldMergeRec constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeRec constructor. "
 type: docs
 weight: 10

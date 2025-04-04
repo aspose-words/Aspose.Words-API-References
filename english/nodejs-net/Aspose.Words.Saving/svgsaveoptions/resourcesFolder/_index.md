@@ -2,7 +2,7 @@
 title: SvgSaveOptions.resourcesFolder property
 linktitle: resourcesFolder property
 articleTitle: resourcesFolder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.resourcesFolder property. Specifies the physical folder where resources (images) are saved when exporting a document to Svg format"
 type: docs
 weight: 80

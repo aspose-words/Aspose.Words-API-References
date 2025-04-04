@@ -2,7 +2,7 @@
 title: NodeCollection.contains method
 linktitle: contains method
 articleTitle: contains method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeCollection.contains method. Determines whether a node is in the collection."
 type: docs
 weight: 50

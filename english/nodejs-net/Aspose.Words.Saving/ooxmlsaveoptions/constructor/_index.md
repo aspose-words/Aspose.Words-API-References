@@ -2,7 +2,7 @@
 title: OoxmlSaveOptions constructor
 linktitle: OoxmlSaveOptions constructor
 articleTitle: OoxmlSaveOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.OoxmlSaveOptions constructor"
 type: docs
 weight: 10

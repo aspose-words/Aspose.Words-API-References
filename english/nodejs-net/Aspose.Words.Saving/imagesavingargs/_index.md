@@ -2,7 +2,7 @@
 title: ImageSavingArgs class
 linktitle: ImageSavingArgs class
 articleTitle: ImageSavingArgs class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ImageSavingArgs class. Provides data for the [IImageSavingCallback.imageSaving()](../iimagesavingcallback/imageSaving/#imagesavingargs) event"
 type: docs
 weight: 400

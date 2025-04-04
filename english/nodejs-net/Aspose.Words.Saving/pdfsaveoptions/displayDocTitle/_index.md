@@ -2,7 +2,7 @@
 title: PdfSaveOptions.displayDocTitle property
 linktitle: displayDocTitle property
 articleTitle: displayDocTitle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.displayDocTitle property. A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary."
 type: docs
 weight: 90

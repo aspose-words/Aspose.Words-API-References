@@ -2,7 +2,7 @@
 title: Font.spacing property
 linktitle: spacing property
 articleTitle: spacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.spacing property. Returns or sets the spacing (in points) between characters ."
 type: docs
 weight: 390

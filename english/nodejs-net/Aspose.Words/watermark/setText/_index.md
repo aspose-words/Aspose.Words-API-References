@@ -2,7 +2,7 @@
 title: Watermark.setText method
 linktitle: setText method
 articleTitle: setText method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Watermark.setText method"
 type: docs
 weight: 40

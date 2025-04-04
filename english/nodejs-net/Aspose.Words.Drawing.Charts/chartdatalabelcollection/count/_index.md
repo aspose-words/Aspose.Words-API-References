@@ -2,7 +2,7 @@
 title: ChartDataLabelCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.count property. Returns the number of [ChartDataLabel](../../chartdatalabel/) in this collection."
 type: docs
 weight: 10

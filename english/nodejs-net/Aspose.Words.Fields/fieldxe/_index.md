@@ -2,7 +2,7 @@
 title: FieldXE class
 linktitle: FieldXE class
 articleTitle: FieldXE class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldXE class. Implements the XE field"
 type: docs
 weight: 1140

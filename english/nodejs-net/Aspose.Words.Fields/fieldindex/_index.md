@@ -2,7 +2,7 @@
 title: FieldIndex class
 linktitle: FieldIndex class
 articleTitle: FieldIndex class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldIndex class. Implements the INDEX field"
 type: docs
 weight: 590

@@ -2,7 +2,7 @@
 title: DocumentBuilder.startBookmark method
 linktitle: startBookmark method
 articleTitle: startBookmark method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.startBookmark method. Marks the current position in the document as a bookmark start."
 type: docs
 weight: 650

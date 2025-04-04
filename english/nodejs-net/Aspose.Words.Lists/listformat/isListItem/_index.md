@@ -2,7 +2,7 @@
 title: ListFormat.isListItem property
 linktitle: isListItem property
 articleTitle: isListItem property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListFormat.isListItem property. True when the paragraph has bulleted or numbered formatting applied to it."
 type: docs
 weight: 10

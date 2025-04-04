@@ -2,7 +2,7 @@
 title: CompatibilityOptions.layoutRawTableWidth property
 linktitle: layoutRawTableWidth property
 articleTitle: layoutRawTableWidth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.layoutRawTableWidth property. Ignore Space Before Table When Deciding If Table Should Wrap Floating Object."
 type: docs
 weight: 290

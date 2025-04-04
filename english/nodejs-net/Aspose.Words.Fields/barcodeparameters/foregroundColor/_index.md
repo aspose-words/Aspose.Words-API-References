@@ -2,7 +2,7 @@
 title: BarcodeParameters.foregroundColor property
 linktitle: foregroundColor property
 articleTitle: foregroundColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BarcodeParameters.foregroundColor property. Bar code foreground color (0x000000 - 0xFFFFFF)"
 type: docs
 weight: 110

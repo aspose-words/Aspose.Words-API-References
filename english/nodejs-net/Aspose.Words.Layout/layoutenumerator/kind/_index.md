@@ -2,7 +2,7 @@
 title: LayoutEnumerator.kind property
 linktitle: kind property
 articleTitle: kind property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutEnumerator.kind property. Gets the kind of the current entity"
 type: docs
 weight: 30

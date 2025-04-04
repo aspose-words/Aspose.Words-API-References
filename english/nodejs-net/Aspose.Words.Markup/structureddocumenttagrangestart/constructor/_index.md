@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart constructor
 linktitle: StructuredDocumentTagRangeStart constructor
 articleTitle: StructuredDocumentTagRangeStart constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart constructor. Initializes a new instance of the Structured document tag range start class."
 type: docs
 weight: 10

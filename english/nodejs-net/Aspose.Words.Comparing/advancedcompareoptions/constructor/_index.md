@@ -2,7 +2,7 @@
 title: AdvancedCompareOptions constructor
 linktitle: AdvancedCompareOptions constructor
 articleTitle: AdvancedCompareOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AdvancedCompareOptions constructor. "
 type: docs
 weight: 10

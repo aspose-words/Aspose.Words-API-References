@@ -2,7 +2,7 @@
 title: FieldTA.longCitation property
 linktitle: longCitation property
 articleTitle: longCitation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldTA.longCitation property. Gets or sets the long citation for the entry."
 type: docs
 weight: 50

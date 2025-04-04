@@ -2,7 +2,7 @@
 title: Node.referenceEquals method
 linktitle: referenceEquals method
 articleTitle: referenceEquals method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.referenceEquals method. "
 type: docs
 weight: 490

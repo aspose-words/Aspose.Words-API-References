@@ -2,7 +2,7 @@
 title: ChartSeries.yvalues property
 linktitle: yvalues property
 articleTitle: yvalues property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.yvalues property. Gets a collection of Y values for this chart series."
 type: docs
 weight: 150

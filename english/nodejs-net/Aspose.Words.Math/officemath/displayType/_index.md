@@ -2,7 +2,7 @@
 title: OfficeMath.displayType property
 linktitle: displayType property
 articleTitle: displayType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OfficeMath.displayType property. Gets/sets Office Math display format type which represents whether an equation is displayed inline with the text or displayed on its own line."
 type: docs
 weight: 10

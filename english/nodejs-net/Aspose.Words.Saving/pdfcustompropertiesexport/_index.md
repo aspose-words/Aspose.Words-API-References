@@ -2,7 +2,7 @@
 title: PdfCustomPropertiesExport enumeration
 linktitle: PdfCustomPropertiesExport enumeration
 articleTitle: PdfCustomPropertiesExport enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfCustomPropertiesExport enumeration. Specifies the way [Document.customDocumentProperties](../../aspose.words/document/customDocumentProperties/) are exported to PDF file."
 type: docs
 weight: 610

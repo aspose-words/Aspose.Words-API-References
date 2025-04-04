@@ -2,7 +2,7 @@
 title: LanguagePreferences.defaultEditingLanguage property
 linktitle: defaultEditingLanguage property
 articleTitle: defaultEditingLanguage property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LanguagePreferences.defaultEditingLanguage property. Gets or sets default editing language."
 type: docs
 weight: 20

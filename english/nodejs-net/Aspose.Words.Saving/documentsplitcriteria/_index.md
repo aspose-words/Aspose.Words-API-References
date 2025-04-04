@@ -2,7 +2,7 @@
 title: DocumentSplitCriteria enumeration
 linktitle: DocumentSplitCriteria enumeration
 articleTitle: DocumentSplitCriteria enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.DocumentSplitCriteria enumeration. Specifies how the document is split into parts when saving to [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) format."
 type: docs
 weight: 130

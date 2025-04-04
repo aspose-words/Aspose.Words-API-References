@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.idPrefix property
 linktitle: idPrefix property
 articleTitle: idPrefix property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.idPrefix property. Specifies a prefix that is prepended to all generated element IDs in the output document"
 type: docs
 weight: 100

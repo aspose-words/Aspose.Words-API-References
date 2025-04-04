@@ -2,7 +2,7 @@
 title: ChartAxis.hasMinorGridlines property
 linktitle: hasMinorGridlines property
 articleTitle: hasMinorGridlines property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.hasMinorGridlines property. Gets or sets a flag indicating whether the axis has minor gridlines."
 type: docs
 weight: 100

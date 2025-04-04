@@ -2,7 +2,7 @@
 title: Node.asBookmarkEnd method
 linktitle: asBookmarkEnd method
 articleTitle: asBookmarkEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asBookmarkEnd method. Cast node to [BookmarkEnd](../../bookmarkend/)."
 type: docs
 weight: 110

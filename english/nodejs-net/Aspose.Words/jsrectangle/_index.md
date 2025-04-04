@@ -2,7 +2,7 @@
 title: JSRectangle class
 linktitle: JSRectangle class
 articleTitle: JSRectangle class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSRectangle class. "
 type: docs
 weight: 700

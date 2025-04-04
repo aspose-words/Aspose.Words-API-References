@@ -2,7 +2,7 @@
 title: Field.asFieldAutoText method
 linktitle: asFieldAutoText method
 articleTitle: asFieldAutoText method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldAutoText method. "
 type: docs
 weight: 200

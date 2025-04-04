@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.saveFontFaceCssSeparately property
 linktitle: saveFontFaceCssSeparately property
 articleTitle: saveFontFaceCssSeparately property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.saveFontFaceCssSeparately property. Flag indicates whether @font-face CSS rules should be placed into a separate file fontFaces.css when a document is being saved with external stylesheet (that is, when [HtmlFixedSaveOptions.exportEmbeddedCss](../exportEmbeddedCss/) is ``false``)"
 type: docs
 weight: 180

@@ -2,7 +2,7 @@
 title: PageSetup.firstPageTray property
 linktitle: firstPageTray property
 articleTitle: firstPageTray property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.firstPageTray property. Gets or sets the paper tray (bin) to use for the first page of a section"
 type: docs
 weight: 130

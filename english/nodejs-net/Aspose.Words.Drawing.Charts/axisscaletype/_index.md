@@ -2,7 +2,7 @@
 title: AxisScaleType enumeration
 linktitle: AxisScaleType enumeration
 articleTitle: AxisScaleType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.AxisScaleType enumeration. Specifies the possible scale types for an axis."
 type: docs
 weight: 70

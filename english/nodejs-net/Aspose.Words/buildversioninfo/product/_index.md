@@ -2,7 +2,7 @@
 title: BuildVersionInfo.product property
 linktitle: product property
 articleTitle: product property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuildVersionInfo.product property. Gets the full name of the product."
 type: docs
 weight: 10

@@ -2,7 +2,7 @@
 title: TabStop.leader property
 linktitle: leader property
 articleTitle: leader property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStop.leader property. Gets or sets the type of the leader line displayed under the tab character."
 type: docs
 weight: 40

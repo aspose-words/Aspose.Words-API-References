@@ -2,7 +2,7 @@
 title: ChartAxis.minorTickMark property
 linktitle: minorTickMark property
 articleTitle: minorTickMark property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.minorTickMark property. Returns or sets the minor tick marks for the axis."
 type: docs
 weight: 160

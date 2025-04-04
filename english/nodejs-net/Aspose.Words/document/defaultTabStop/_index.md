@@ -2,7 +2,7 @@
 title: Document.defaultTabStop property
 linktitle: defaultTabStop property
 articleTitle: defaultTabStop property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.defaultTabStop property. Gets or sets the interval (in points) between the default tab stops."
 type: docs
 weight: 100

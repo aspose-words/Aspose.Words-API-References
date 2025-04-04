@@ -2,7 +2,7 @@
 title: GroupShape class
 linktitle: GroupShape class
 articleTitle: GroupShape class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.GroupShape class. Represents a group of shapes in a document"
 type: docs
 weight: 170

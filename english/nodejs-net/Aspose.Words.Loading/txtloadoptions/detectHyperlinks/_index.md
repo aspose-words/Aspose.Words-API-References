@@ -2,7 +2,7 @@
 title: TxtLoadOptions.detectHyperlinks property
 linktitle: detectHyperlinks property
 articleTitle: detectHyperlinks property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtLoadOptions.detectHyperlinks property. Specifies either to detect hyperlinks in text"
 type: docs
 weight: 30

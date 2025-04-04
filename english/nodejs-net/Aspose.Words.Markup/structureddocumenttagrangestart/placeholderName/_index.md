@@ -2,7 +2,7 @@
 title: StructuredDocumentTagRangeStart.placeholderName property
 linktitle: placeholderName property
 articleTitle: placeholderName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.placeholderName property. Gets or sets Name of the [BuildingBlock](../../../aspose.words/buildingblock/) containing placeholder text."
 type: docs
 weight: 120

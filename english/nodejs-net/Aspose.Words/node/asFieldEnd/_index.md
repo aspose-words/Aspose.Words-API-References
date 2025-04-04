@@ -2,7 +2,7 @@
 title: Node.asFieldEnd method
 linktitle: asFieldEnd method
 articleTitle: asFieldEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asFieldEnd method. Cast node to [FieldEnd](../../../aspose.words.fields/fieldend/)."
 type: docs
 weight: 220

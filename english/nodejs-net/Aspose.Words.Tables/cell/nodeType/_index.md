@@ -2,7 +2,7 @@
 title: Cell.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Cell.nodeType property. Returns [NodeType.Cell](../../../aspose.words/nodetype/#Cell)."
 type: docs
 weight: 80

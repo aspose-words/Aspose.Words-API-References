@@ -2,7 +2,7 @@
 title: RevisionOptions class
 linktitle: RevisionOptions class
 articleTitle: RevisionOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Layout.RevisionOptions class. Allows to control how document revisions are handled during layout process"
 type: docs
 weight: 110

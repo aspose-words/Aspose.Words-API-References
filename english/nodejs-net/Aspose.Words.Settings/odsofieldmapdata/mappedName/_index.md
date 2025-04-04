@@ -2,7 +2,7 @@
 title: OdsoFieldMapData.mappedName property
 linktitle: mappedName property
 articleTitle: mappedName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdsoFieldMapData.mappedName property. Specifies the predefined merge field name which shall be mapped to the column number  specified by the [OdsoFieldMapData.column](../column/) property within this field mapping"
 type: docs
 weight: 30

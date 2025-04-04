@@ -2,7 +2,7 @@
 title: MarkdownSaveOptions.exportAsHtml property
 linktitle: exportAsHtml property
 articleTitle: exportAsHtml property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.exportAsHtml property. Allows to specify the elements to be exported to Markdown as raw HTML"
 type: docs
 weight: 20

@@ -2,7 +2,7 @@
 title: FieldAdvance class
 linktitle: FieldAdvance class
 articleTitle: FieldAdvance class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldAdvance class. Implements the ADVANCE field"
 type: docs
 weight: 70

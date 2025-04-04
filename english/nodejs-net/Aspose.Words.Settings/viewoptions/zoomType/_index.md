@@ -2,7 +2,7 @@
 title: ViewOptions.zoomType property
 linktitle: zoomType property
 articleTitle: zoomType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ViewOptions.zoomType property. Gets or sets a zoom value based on the size of the window."
 type: docs
 weight: 60

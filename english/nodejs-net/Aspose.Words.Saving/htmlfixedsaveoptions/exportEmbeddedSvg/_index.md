@@ -2,7 +2,7 @@
 title: HtmlFixedSaveOptions.exportEmbeddedSvg property
 linktitle: exportEmbeddedSvg property
 articleTitle: exportEmbeddedSvg property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.exportEmbeddedSvg property. Specifies whether SVG resources should be embedded into Html document"
 type: docs
 weight: 70

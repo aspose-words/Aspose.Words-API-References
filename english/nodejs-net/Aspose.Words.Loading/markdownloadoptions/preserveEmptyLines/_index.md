@@ -2,7 +2,7 @@
 title: MarkdownLoadOptions.preserveEmptyLines property
 linktitle: preserveEmptyLines property
 articleTitle: preserveEmptyLines property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MarkdownLoadOptions.preserveEmptyLines property. Gets or sets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.Markdown](../../../aspose.words/loadformat/#Markdown) document"
 type: docs
 weight: 30

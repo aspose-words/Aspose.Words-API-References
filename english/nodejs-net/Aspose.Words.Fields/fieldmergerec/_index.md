@@ -2,7 +2,7 @@
 title: FieldMergeRec class
 linktitle: FieldMergeRec class
 articleTitle: FieldMergeRec class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldMergeRec class. Implements the MERGEREC field"
 type: docs
 weight: 690

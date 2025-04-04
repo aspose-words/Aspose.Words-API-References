@@ -2,7 +2,7 @@
 title: FieldMergeSeq constructor
 linktitle: FieldMergeSeq constructor
 articleTitle: FieldMergeSeq constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeSeq constructor. "
 type: docs
 weight: 10

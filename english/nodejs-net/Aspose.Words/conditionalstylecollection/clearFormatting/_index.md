@@ -2,7 +2,7 @@
 title: ConditionalStyleCollection.clearFormatting method
 linktitle: clearFormatting method
 articleTitle: clearFormatting method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.clearFormatting method. Clears all conditional styles of the table style."
 type: docs
 weight: 160

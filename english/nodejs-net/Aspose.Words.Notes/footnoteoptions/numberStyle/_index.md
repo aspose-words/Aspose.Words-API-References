@@ -2,7 +2,7 @@
 title: FootnoteOptions.numberStyle property
 linktitle: numberStyle property
 articleTitle: numberStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FootnoteOptions.numberStyle property. Specifies the number format for automatically numbered footnotes."
 type: docs
 weight: 20

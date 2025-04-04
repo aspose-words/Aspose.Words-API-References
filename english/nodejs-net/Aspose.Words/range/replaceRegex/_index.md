@@ -2,7 +2,7 @@
 title: Range.replaceRegex method
 linktitle: replaceRegex method
 articleTitle: replaceRegex method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Range.replaceRegex method"
 type: docs
 weight: 100

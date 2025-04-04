@@ -2,7 +2,7 @@
 title: Field.asFieldAsk method
 linktitle: asFieldAsk method
 articleTitle: asFieldAsk method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldAsk method. "
 type: docs
 weight: 150

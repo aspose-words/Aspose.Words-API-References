@@ -2,7 +2,7 @@
 title: Font.nameOther property
 linktitle: nameOther property
 articleTitle: nameOther property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.nameOther property. Returns or sets the font used for characters with character codes from 128 through 255."
 type: docs
 weight: 270

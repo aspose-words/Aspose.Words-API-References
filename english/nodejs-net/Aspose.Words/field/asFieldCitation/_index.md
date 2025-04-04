@@ -2,7 +2,7 @@
 title: Field.asFieldCitation method
 linktitle: asFieldCitation method
 articleTitle: asFieldCitation method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldCitation method. "
 type: docs
 weight: 250

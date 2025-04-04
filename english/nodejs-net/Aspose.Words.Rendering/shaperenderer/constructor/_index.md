@@ -2,7 +2,7 @@
 title: ShapeRenderer constructor
 linktitle: ShapeRenderer constructor
 articleTitle: ShapeRenderer constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeRenderer constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
