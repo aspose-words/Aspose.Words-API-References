@@ -5,7 +5,7 @@ articleTitle: CustomXmlPartCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.CustomXmlPartCollection class, your go-to solution for managing Custom XML Parts efficiently and effortlessly.
 type: docs
-weight: 4480
+weight: 4610
 url: /net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class

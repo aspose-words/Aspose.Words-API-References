@@ -5,7 +5,7 @@ articleTitle: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfDigitalSignatureTimestampSettings for seamless digital signature timestamp management. Enhance your PDF security effortlessly!
 type: docs
-weight: 6090
+weight: 6220
 url: /net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class

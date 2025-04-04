@@ -24,7 +24,7 @@ Shows how to get data associated with the field.
 Document doc = new Document(MyDir + "Field sample - Field with data.docx");
 
 Field field = doc.Range.Fields[2];
-Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
+Console.WriteLine(Encoding.UTF8.GetString(field.Start.FieldData));
 ```
 
 ### See Also

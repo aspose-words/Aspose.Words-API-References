@@ -5,7 +5,7 @@ articleTitle: Inline
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Inline class, designed for character formatting in inline nodes. Enhance your document's style without child nodes!
 type: docs
-weight: 3690
+weight: 3700
 url: /net/aspose.words/inline/
 ---
 ## Inline class

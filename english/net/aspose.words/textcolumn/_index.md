@@ -5,7 +5,7 @@ articleTitle: TextColumn
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.TextColumn class for managing text columns in your documents. Easily access and customize each column in your text section.
 type: docs
-weight: 7090
+weight: 7220
 url: /net/aspose.words/textcolumn/
 ---
 ## TextColumn class

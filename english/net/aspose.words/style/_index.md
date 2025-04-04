@@ -5,7 +5,7 @@ articleTitle: Style
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Style class for managing custom and built-in styles effortlessly. Enhance your document formatting with ease and precision.
 type: docs
-weight: 6830
+weight: 6960
 url: /net/aspose.words/style/
 ---
 ## Style class

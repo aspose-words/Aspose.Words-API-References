@@ -5,7 +5,7 @@ articleTitle: WebExtensionPropertyCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.WebExtensions.WebExtensionPropertyCollection for managing custom web extension properties efficiently. Enhance your document automation today!
 type: docs
-weight: 7490
+weight: 7620
 url: /net/aspose.words.webextensions/webextensionpropertycollection/
 ---
 ## WebExtensionPropertyCollection class

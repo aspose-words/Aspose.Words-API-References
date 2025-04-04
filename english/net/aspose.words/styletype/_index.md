@@ -5,7 +5,7 @@ articleTitle: StyleType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.StyleType enum for efficient style management in documents. Enhance your formatting with versatile style types for optimal results!
 type: docs
-weight: 6860
+weight: 6990
 url: /net/aspose.words/styletype/
 ---
 ## StyleType enumeration

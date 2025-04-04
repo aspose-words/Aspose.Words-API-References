@@ -5,7 +5,7 @@ articleTitle: IResourceLoadingCallback
 second_title: Aspose.Words for .NET
 description: Control external resource loading in Aspose.Words with the IResourceLoadingCallback interface. Enhance document imports and image insertion seamlessly.
 type: docs
-weight: 4070
+weight: 4080
 url: /net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface

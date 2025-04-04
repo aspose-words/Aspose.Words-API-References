@@ -5,7 +5,7 @@ articleTitle: Split
 second_title: Aspose.Words for .NET
 description: Effortlessly split documents into multiple sections with our flexible Splitter Split method. Save in your preferred format for easy file management!
 type: docs
-weight: 30
+weight: 40
 url: /net/aspose.words.lowcode/splitter/split/
 ---
 ## Split(*string, string, [SplitOptions](../../splitoptions/)*) {#split_2}

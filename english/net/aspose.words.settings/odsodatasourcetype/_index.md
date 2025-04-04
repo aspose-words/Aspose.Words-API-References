@@ -5,7 +5,7 @@ articleTitle: OdsoDataSourceType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words OdsoDataSourceType enum to easily connect to external data sources, enhancing your document processing capabilities.
 type: docs
-weight: 6570
+weight: 6700
 url: /net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration

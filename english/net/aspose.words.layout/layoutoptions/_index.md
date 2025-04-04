@@ -5,7 +5,7 @@ articleTitle: LayoutOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Layout.LayoutOptions to optimize document layout control, enhancing your Word processing experience with flexible customization options.
 type: docs
-weight: 3780
+weight: 3790
 url: /net/aspose.words.layout/layoutoptions/
 ---
 ## LayoutOptions class
