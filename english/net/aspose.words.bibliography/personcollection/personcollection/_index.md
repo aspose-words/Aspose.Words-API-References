@@ -51,7 +51,7 @@ Assert.AreEqual(0, persons.Count);
 
 ---
 
-## PersonCollection(*IEnumerable&amp;lt;Person&amp;gt;*) {#constructor_2}
+## PersonCollection(*IEnumerable&lt;Person&gt;*) {#constructor_2}
 
 ```csharp
 public PersonCollection(IEnumerable<Person> persons)
