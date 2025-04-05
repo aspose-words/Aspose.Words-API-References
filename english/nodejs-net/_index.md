@@ -1,12 +1,12 @@
 ﻿---
-title: Aspose.Words for NodeJs
-linktitle: Aspose.Words for NodeJs
-articleTitle: Aspose.Words for NodeJs
-description: "Aspose.Words for NodeJs is a class library that can be used by developers for various platforms for a variety of document processing tasks. "
+title: Aspose.Words for Node.js
+linktitle: Aspose.Words for Node.js
+articleTitle: Aspose.Words for Node.js
+description: "Aspose.Words for Node.js is a class library that can be used by developers for various platforms for a variety of document processing tasks. "
 type: docs
 weight: 100
 url: /nodejs-net/
-keywords: Aspose.Words for NodeJs, Aspose Words, Aspose API Reference.
+keywords: Aspose.Words for Node.js, Aspose Words, Aspose API Reference.
 is_root: true
 ---
 

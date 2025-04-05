@@ -47,18 +47,6 @@ The content of the node in the specified format.
 
 ## Examples
 
-Shows the difference between calling the GetText and ToString methods on a node.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-builder.insertField("MERGEFIELD Field");
-// GetText will retrieve the visible text as well as field codes and special characters.
-expect(doc.getText().trim()).toEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015");
-// ToString will give us the document's appearance if saved to a passed save format.
-expect(doc.toString(aw.SaveFormat.Text).trim()).toEqual("«Field»");
-```
-
 Exports the content of a node to String in HTML format.
 
 ```js
@@ -79,6 +67,18 @@ saveOptions.exportRelativeFontSize = true;
 expect(node.toString(saveOptions)).toEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
                         "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                         "</p>");
+```
+
+Shows the difference between calling the GetText and ToString methods on a node.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+builder.insertField("MERGEFIELD Field");
+// GetText will retrieve the visible text as well as field codes and special characters.
+expect(doc.getText().trim()).toEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015");
+// ToString will give us the document's appearance if saved to a passed save format.
+expect(doc.toString(aw.SaveFormat.Text).trim()).toEqual("«Field»");
 ```
 
 Shows how to extract the list labels of all paragraphs that are list items.

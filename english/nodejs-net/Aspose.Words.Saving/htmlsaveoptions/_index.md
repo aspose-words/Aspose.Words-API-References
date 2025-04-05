@@ -105,49 +105,6 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 
 ### Examples
 
-Shows how to use a specific encoding when saving a document to .epub.
-
-```js
-let doc = new aw.Document(base.myDir + "Rendering.docx");
-
-// Use a SaveOptions object to specify the encoding for a document that we will save.
-let saveOptions = new aw.Saving.HtmlSaveOptions();
-saveOptions.saveFormat = aw.SaveFormat.Epub;
-saveOptions.encoding = "utf-8";
-
-// By default, an output .epub document will have all its contents in one HTML part.
-// A split criterion allows us to segment the document into several HTML parts.
-// We will set the criteria to split the document into heading paragraphs.
-// This is useful for readers who cannot read HTML files more significant than a specific size.
-saveOptions.documentSplitCriteria = aw.Saving.DocumentSplitCriteria.HeadingParagraph;
-
-// Specify that we want to export document properties.
-saveOptions.exportDocumentProperties = true;
-
-doc.save(base.artifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
-```
-
-Shows how to specify the folder for storing linked images after saving to .html.
-
-```js
-let doc = new aw.Document(base.myDir + "Rendering.docx");
-
-let imagesDir = path.join(base.artifactsDir, "SaveHtmlWithOptions");
-
-if (fs.existsSync(imagesDir)) {
-  fs.rmSync(imagesDir, { recursive: true, force: true });
-}
-
-fs.mkdirSync(imagesDir, { recursive: true });
-
-// Set an option to export form fields as plain text instead of HTML input elements.
-let options = new aw.Saving.HtmlSaveOptions(aw.SaveFormat.Html);
-options.exportTextInputFormFieldAsText = true;
-options.imagesFolder = imagesDir;
-
-doc.save(base.artifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
-```
-
 Shows how to split a document into parts and save them.
 
 ```js
@@ -258,6 +215,49 @@ public class SavedImageRename : IImageSavingCallback
   private int mCount;
   private readonly string mOutFileName;
 }
+```
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```js
+let doc = new aw.Document(base.myDir + "Rendering.docx");
+
+// Use a SaveOptions object to specify the encoding for a document that we will save.
+let saveOptions = new aw.Saving.HtmlSaveOptions();
+saveOptions.saveFormat = aw.SaveFormat.Epub;
+saveOptions.encoding = "utf-8";
+
+// By default, an output .epub document will have all its contents in one HTML part.
+// A split criterion allows us to segment the document into several HTML parts.
+// We will set the criteria to split the document into heading paragraphs.
+// This is useful for readers who cannot read HTML files more significant than a specific size.
+saveOptions.documentSplitCriteria = aw.Saving.DocumentSplitCriteria.HeadingParagraph;
+
+// Specify that we want to export document properties.
+saveOptions.exportDocumentProperties = true;
+
+doc.save(base.artifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+```
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```js
+let doc = new aw.Document(base.myDir + "Rendering.docx");
+
+let imagesDir = path.join(base.artifactsDir, "SaveHtmlWithOptions");
+
+if (fs.existsSync(imagesDir)) {
+  fs.rmSync(imagesDir, { recursive: true, force: true });
+}
+
+fs.mkdirSync(imagesDir, { recursive: true });
+
+// Set an option to export form fields as plain text instead of HTML input elements.
+let options = new aw.Saving.HtmlSaveOptions(aw.SaveFormat.Html);
+options.exportTextInputFormFieldAsText = true;
+options.imagesFolder = imagesDir;
+
+doc.save(base.artifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ```
 
 ### See Also

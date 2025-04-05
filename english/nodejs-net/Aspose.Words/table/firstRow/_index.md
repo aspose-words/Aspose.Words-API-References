@@ -21,26 +21,6 @@ get firstRow(): Aspose.Words.Tables.Row
 
 ### Examples
 
-Shows how to remove the first and last rows of all tables in a document.
-
-```js
-let doc = new aw.Document(base.myDir + "Tables.docx");
-
-let tables = doc.firstSection.body.tables.toArray();
-
-expect(tables[0].rows.count).toEqual(5);
-expect(tables[1].rows.count).toEqual(4);
-
-for (var table of tables)
-{
-  table.firstRow?.remove();
-  table.lastRow?.remove();
-}
-
-expect(tables[0].rows.count).toEqual(3);
-expect(tables[1].rows.count).toEqual(2);
-```
-
 Shows how to combine the rows from two tables into one.
 
 ```js
@@ -61,6 +41,26 @@ while (secondTable.hasChildNodes)
 secondTable.remove();
 
 doc.save(base.artifactsDir + "Table.CombineTables.docx");
+```
+
+Shows how to remove the first and last rows of all tables in a document.
+
+```js
+let doc = new aw.Document(base.myDir + "Tables.docx");
+
+let tables = doc.firstSection.body.tables.toArray();
+
+expect(tables[0].rows.count).toEqual(5);
+expect(tables[1].rows.count).toEqual(4);
+
+for (var table of tables)
+{
+  table.firstRow?.remove();
+  table.lastRow?.remove();
+}
+
+expect(tables[0].rows.count).toEqual(3);
+expect(tables[1].rows.count).toEqual(2);
 ```
 
 ### See Also
