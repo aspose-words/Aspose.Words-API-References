@@ -5,7 +5,7 @@ articleTitle: IHyphenationCallback class
 second_title: Aspose.Words for Python
 description: "aspose.words.IHyphenationCallback class. Implemented by classes which can register hyphenation dictionaries."
 type: docs
-weight: 540
+weight: 550
 url: /python-net/aspose.words/ihyphenationcallback/
 ---
 

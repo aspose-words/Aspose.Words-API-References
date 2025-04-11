@@ -12,7 +12,7 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_xhtml_transitional/
 ## HtmlSaveOptions.export_xhtml_transitional property
 
 Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML.
-When ``True``, writes a DOCTYPE declaration in the document prior to the root element. 
+When ``True``, writes a DOCTYPE declaration in the document prior to the root element.
 Default value is ``False``.
 When saving to EPUB or HTML5 ([HtmlVersion.HTML5](../../htmlversion/#HTML5)) the DOCTYPE
 declaration is always written.
@@ -39,16 +39,16 @@ When ``True``, the beginning of the HTML output document will look like this:
 ```
 
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<!DOCTYPE html 
+<!DOCTYPE html
       PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 ```
-Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification, 
-but the output will not always validate against the DTD. Some structures inside a Microsoft Word 
-document are hard or impossible to map to a document that will validate against the XHTML schema. 
-For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element), 
+Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specification,
+but the output will not always validate against the DTD. Some structures inside a Microsoft Word
+document are hard or impossible to map to a document that will validate against the XHTML schema.
+For example, XHTML does not allow nested lists (UL cannot be nested inside another UL element),
 but in Microsoft Word document multilevel lists occur quite often.
 
 

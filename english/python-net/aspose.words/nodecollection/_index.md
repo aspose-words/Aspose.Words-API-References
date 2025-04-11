@@ -5,7 +5,7 @@ articleTitle: NodeCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.NodeCollection class. Represents a collection of nodes of a specific type"
 type: docs
-weight: 760
+weight: 770
 url: /python-net/aspose.words/nodecollection/
 ---
 

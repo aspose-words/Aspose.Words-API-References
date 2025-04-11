@@ -5,7 +5,7 @@ articleTitle: scale_image_to_shape_size property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.scale_image_to_shape_size property. Specifies whether images are scaled by Aspose.Words to the bounding shape size when exporting to HTML, MHTML or EPUB"
 type: docs
-weight: 460
+weight: 470
 url: /python-net/aspose.words.saving/htmlsaveoptions/scale_image_to_shape_size/
 ---
 
@@ -31,7 +31,7 @@ def scale_image_to_shape_size(self, value: bool):
 ### Remarks
 
 An image in a Microsoft Word document is a shape. The shape has a size and the image
-has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels, 
+has its own size. The sizes are not directly linked. For example, the image can be 1024x786 pixels,
 but shape that displays this image can be 400x300 points.
 
 In order to display an image in the browser, it must be scaled to the shape size.
@@ -39,11 +39,11 @@ The [HtmlSaveOptions.scale_image_to_shape_size](./) property controls where the 
 takes place: in Aspose.Words during export to HTML or in the browser when displaying the document.
 
 When [HtmlSaveOptions.scale_image_to_shape_size](./) is ``True``, the image is scaled by Aspose.Words
-using high quality scaling during export to HTML. When [HtmlSaveOptions.scale_image_to_shape_size](./) 
+using high quality scaling during export to HTML. When [HtmlSaveOptions.scale_image_to_shape_size](./)
 is ``False``, the image is output with its original size and the browser has to scale it.
 
-In general, browsers do quick and poor quality scaling. As a result, you will normally get better 
-display quality in the browser and smaller file size when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``True``, 
+In general, browsers do quick and poor quality scaling. As a result, you will normally get better
+display quality in the browser and smaller file size when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``True``,
 but better printing quality and faster conversion when [HtmlSaveOptions.scale_image_to_shape_size](./) is ``False``.
 
 In addition to shapes containing individual raster images, this option also affects group shapes consisting

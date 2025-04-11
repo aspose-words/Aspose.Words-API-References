@@ -5,7 +5,7 @@ articleTitle: RevisionCollection class
 second_title: Aspose.Words for Python
 description: "aspose.words.RevisionCollection class. A collection of [Revision](../revision/) objects that represent revisions in the document"
 type: docs
-weight: 980
+weight: 990
 url: /python-net/aspose.words/revisioncollection/
 ---
 

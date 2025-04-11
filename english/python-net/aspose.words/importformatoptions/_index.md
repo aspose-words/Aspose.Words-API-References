@@ -5,7 +5,7 @@ articleTitle: ImportFormatOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.ImportFormatOptions class. Allows to specify various import options to format output"
 type: docs
-weight: 600
+weight: 610
 url: /python-net/aspose.words/importformatoptions/
 ---
 

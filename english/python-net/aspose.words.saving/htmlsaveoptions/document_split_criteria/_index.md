@@ -12,8 +12,8 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/document_split_criteria/
 ## HtmlSaveOptions.document_split_criteria property
 
 Specifies how the document should be split when saving to [SaveFormat.HTML](../../../aspose.words/saveformat/#HTML),
-[SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) format. 
-Default is [DocumentSplitCriteria.NONE](../../documentsplitcriteria/#NONE) for HTML and 
+[SaveFormat.EPUB](../../../aspose.words/saveformat/#EPUB) or [SaveFormat.AZW3](../../../aspose.words/saveformat/#AZW3) format.
+Default is [DocumentSplitCriteria.NONE](../../documentsplitcriteria/#NONE) for HTML and
 [DocumentSplitCriteria.HEADING_PARAGRAPH](../../documentsplitcriteria/#HEADING_PARAGRAPH) for EPUB and AZW3.
 
 
@@ -31,9 +31,9 @@ def document_split_criteria(self, value: aspose.words.saving.DocumentSplitCriter
 
 ### Remarks
 
-Normally you would want a document saved to HTML as a single file. 
-But in some cases it is preferable to split the output into several smaller HTML pages. 
-When saving to HTML format these pages will be output to individual files or streams. 
+Normally you would want a document saved to HTML as a single file.
+But in some cases it is preferable to split the output into several smaller HTML pages.
+When saving to HTML format these pages will be output to individual files or streams.
 When saving to EPUB format they will be incorporated into corresponding packages.
 
 A document cannot be split when saving in the MHTML format.

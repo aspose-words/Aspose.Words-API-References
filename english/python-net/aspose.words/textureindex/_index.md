@@ -5,7 +5,7 @@ articleTitle: TextureIndex enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.TextureIndex enumeration. Specifies shading texture."
 type: docs
-weight: 1310
+weight: 1320
 url: /python-net/aspose.words/textureindex/
 ---
 

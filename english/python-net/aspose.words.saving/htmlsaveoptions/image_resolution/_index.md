@@ -29,7 +29,7 @@ def image_resolution(self, value: int):
 
 ### Remarks
 
-This property effects raster images when [HtmlSaveOptions.scale_image_to_shape_size](../scale_image_to_shape_size/) 
+This property effects raster images when [HtmlSaveOptions.scale_image_to_shape_size](../scale_image_to_shape_size/)
 is ``True`` and effects metafiles exported as raster images. Some image properties such as cropping
 or rotation require saving transformed images and in this case transformed images are created in the given
 resolution.

@@ -5,7 +5,7 @@ articleTitle: resource_folder_alias property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.resource_folder_alias property. Specifies the name of the folder used to construct URIs of all resources written into an HTML document"
 type: docs
-weight: 440
+weight: 450
 url: /python-net/aspose.words.saving/htmlsaveoptions/resource_folder_alias/
 ---
 

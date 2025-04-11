@@ -5,7 +5,7 @@ articleTitle: NumSpacing enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.NumSpacing enumeration. Specifies possible values in which numeral spacing can be displayed."
 type: docs
-weight: 800
+weight: 810
 url: /python-net/aspose.words/numspacing/
 ---
 

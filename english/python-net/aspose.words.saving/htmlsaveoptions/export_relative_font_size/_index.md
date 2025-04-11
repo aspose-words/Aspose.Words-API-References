@@ -35,14 +35,14 @@ has "View-\>Text Size" submenu, Adobe Digital Editions has two buttons: Increase
 If you expect this functionality to work then set [HtmlSaveOptions.export_relative_font_size](./) property to ``True``.
 
 
-Aspose Words document model contains and operates only with absolute font size units. Relative units need 
-additional logic to be recalculated from some initial (standard) size. Font size of **Normal** document style 
-is taken as standard. For instance, if **Normal** has 12pt font and some text is 18pt then it will be output 
+Aspose Words document model contains and operates only with absolute font size units. Relative units need
+additional logic to be recalculated from some initial (standard) size. Font size of **Normal** document style
+is taken as standard. For instance, if **Normal** has 12pt font and some text is 18pt then it will be output
 as **1.5em.** to the HTML.
 
-When this option is enabled, document elements other than text will still have absolute sizes. Also some 
-text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule 
-might produce unwanted results when scaling text. So the source documents should be properly designed and tested 
+When this option is enabled, document elements other than text will still have absolute sizes. Also some
+text-related attributes might be expressed absolutely. In particular, line spacing specified with "exactly" rule
+might produce unwanted results when scaling text. So the source documents should be properly designed and tested
 when exporting with [HtmlSaveOptions.export_relative_font_size](./) set to ``True``.
 
 
