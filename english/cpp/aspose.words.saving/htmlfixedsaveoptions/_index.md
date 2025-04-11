@@ -52,7 +52,7 @@ class HtmlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [get_PageSet](../fixedpagesaveoptions/get_pageset/)() const | Gets or sets the pages to render. Default is all the pages in the document. |
 | [get_PrettyFormat](../saveoptions/get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](../saveoptions/get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
-| [get_RemoveJavaScriptFromLinks](./get_removejavascriptfromlinks/)() const | Specifies whether JavaScript will be removed from links. Default is **false**. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)". |
+| [get_RemoveJavaScriptFromLinks](./get_removejavascriptfromlinks/)() const | Specifies whether JavaScript will be removed from links. Default is **false**. |
 | [get_ResourceSavingCallback](./get_resourcesavingcallback/)() const | Allows to control how resources (images, fonts and css) are saved when a document is exported to fixed page Html format. |
 | [get_ResourcesFolder](./get_resourcesfolder/)() const | Specifies the physical folder where resources (images, fonts, css) are saved when exporting a document to Html format. Default is **null**. |
 | [get_ResourcesFolderAlias](./get_resourcesfolderalias/)() const | Specifies the name of the folder used to construct image URIs written into an Html document. Default is **null**. |
@@ -100,7 +100,7 @@ class HtmlFixedSaveOptions : public Aspose::Words::Saving::FixedPageSaveOptions
 | [set_PageSet](../fixedpagesaveoptions/set_pageset/)(const System::SharedPtr\<Aspose::Words::Saving::PageSet\>\&) | Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_PageSet](../fixedpagesaveoptions/get_pageset/). |
 | [set_PrettyFormat](../saveoptions/set_prettyformat/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_PrettyFormat](../saveoptions/get_prettyformat/). |
 | [set_ProgressCallback](../saveoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Saving::IDocumentSavingCallback\>\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_ProgressCallback](../saveoptions/get_progresscallback/). |
-| [set_RemoveJavaScriptFromLinks](./set_removejavascriptfromlinks/)(bool) | Specifies whether JavaScript will be removed from links. Default is **false**. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)". |
+| [set_RemoveJavaScriptFromLinks](./set_removejavascriptfromlinks/)(bool) | Specifies whether JavaScript will be removed from links. Default is **false**. |
 | [set_ResourceSavingCallback](./set_resourcesavingcallback/)(const System::SharedPtr\<Aspose::Words::Saving::IResourceSavingCallback\>\&) | Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourceSavingCallback](./get_resourcesavingcallback/). |
 | [set_ResourcesFolder](./set_resourcesfolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourcesFolder](./get_resourcesfolder/). |
 | [set_ResourcesFolderAlias](./set_resourcesfolderalias/)(const System::String\&) | Setter for [Aspose::Words::Saving::HtmlFixedSaveOptions::get_ResourcesFolderAlias](./get_resourcesfolderalias/). |

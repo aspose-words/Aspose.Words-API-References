@@ -136,6 +136,12 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::SharedPtr<System
 | outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
 | inputStreams | const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>\& | The input streams. |
 | saveFormat | Aspose::Words::SaveFormat | The save format. |
+## Remarks
+
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## See Also
 
@@ -160,6 +166,12 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::SharedPtr<System
 | loadOptions | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\& | Load options for the input files. |
 | saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+## Remarks
+
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## See Also
 
@@ -185,6 +197,12 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::SharedPtr<System
 | inputStreams | const System::ArrayPtr\<System::SharedPtr\<System::IO::Stream\>\>\& | The input streams. |
 | saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+## Remarks
+
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), only the first page of the output will be saved to the specified stream.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF to the specified stream.
 
 ## See Also
 
@@ -196,7 +214,7 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::SharedPtr<System
 ## Merger::Merge(const System::String\&, const System::ArrayPtr\<System::String\>\&) method
 
 
-Merges the given input documents into a single output document using specified input and output file names.
+Merges the given input documents into a single output document using specified input and output file names using [KeepSourceFormatting](../../mergeformatmode/).
 
 ```cpp
 static void Aspose::Words::LowCode::Merger::Merge(const System::String &outputFile, const System::ArrayPtr<System::String> &inputFiles)
@@ -210,7 +228,9 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::String &outputFi
 ## Remarks
 
 
-By default [KeepSourceFormatting](../../mergeformatmode/) is used.
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## See Also
 
@@ -233,6 +253,12 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::String &outputFi
 | inputFiles | const System::ArrayPtr\<System::String\>\& | The input file names. |
 | saveFormat | Aspose::Words::SaveFormat | The save format. |
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+## Remarks
+
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## See Also
 
@@ -258,6 +284,12 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::String &outputFi
 | loadOptions | const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Loading::LoadOptions\>\>\& | Load options for the input files. |
 | saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+## Remarks
+
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## See Also
 
@@ -283,6 +315,12 @@ static void Aspose::Words::LowCode::Merger::Merge(const System::String &outputFi
 | inputFiles | const System::ArrayPtr\<System::String\>\& | The input file names. |
 | saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
 | mergeFormatMode | Aspose::Words::LowCode::MergeFormatMode | Specifies how to merge formatting that clashes. |
+## Remarks
+
+
+If the output format is an image (BMP, EMF, EPS, GIF, JPEG, PNG, or WebP), each page of the output will be saved as a separate file. The specified output file name will be used to generate file names for each part following the rule: outputFile_partIndex.extension.
+
+If the output format is TIFF, the output will be saved as a single multi-frame TIFF file.
 
 ## See Also
 
