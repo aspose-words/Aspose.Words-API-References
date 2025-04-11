@@ -32,7 +32,7 @@ def export_drop_down_form_field_as_text(self, value: bool):
 When set to ``True``, exports drop-down form fields as normal text.
 When ``False``, exports drop-down form fields as SELECT element in HTML.
 
-When exporting to EPUB, text drop-down form fields are always saved as text due 
+When exporting to EPUB, text drop-down form fields are always saved as text due
 to requirements of this format.
 
 

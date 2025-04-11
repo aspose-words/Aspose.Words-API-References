@@ -5,7 +5,7 @@ articleTitle: Watermark class
 second_title: Aspose.Words for Python
 description: "aspose.words.Watermark class. Represents class to work with document watermark"
 type: docs
-weight: 1400
+weight: 1410
 url: /python-net/aspose.words/watermark/
 ---
 
@@ -29,6 +29,7 @@ To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/
 | --- | --- |
 |[ remove()](./remove/#default) | Removes the watermark. |
 |[ set_image(image_path, options)](./set_image/#str_imagewatermarkoptions) | Adds Image watermark into the document. |
+|[ set_image(image_stream, options)](./set_image/#bytesio_imagewatermarkoptions) | Adds Image watermark into the document. |
 |[ set_text(text)](./set_text/#str) | Adds Text watermark into the document. |
 |[ set_text(text, options)](./set_text/#str_textwatermarkoptions) | Adds Text watermark into the document. |
 

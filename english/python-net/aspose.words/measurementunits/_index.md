@@ -5,7 +5,7 @@ articleTitle: MeasurementUnits enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.MeasurementUnits enumeration. Specifies the unit of measurement."
 type: docs
-weight: 710
+weight: 720
 url: /python-net/aspose.words/measurementunits/
 ---
 

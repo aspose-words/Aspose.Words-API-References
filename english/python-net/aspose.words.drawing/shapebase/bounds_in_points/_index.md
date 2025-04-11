@@ -21,6 +21,11 @@ def bounds_in_points(self) -> aspose.pydrawing.RectangleF:
 
 ```
 
+### Remarks
+
+The returned bounds do not include the rotation of this shape or the rotation of the parent group shape, if any.
+
+
 ### Examples
 
 Shows how to verify shape containing block boundaries.
