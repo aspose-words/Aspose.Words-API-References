@@ -29,10 +29,10 @@ def export_text_input_form_field_as_text(self, value: bool):
 
 ### Remarks
 
-When set to ``True``, exports text input form fields as normal text. 
+When set to ``True``, exports text input form fields as normal text.
 When ``False``, exports Word text input form fields as INPUT elements in HTML.
 
-When exporting to EPUB, text input form fields are always saved as text due 
+When exporting to EPUB, text input form fields are always saved as text due
 to requirements of this format.
 
 

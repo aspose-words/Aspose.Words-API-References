@@ -11,8 +11,8 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/export_headers_footers_mode
 
 ## HtmlSaveOptions.export_headers_footers_mode property
 
-Specifies how headers and footers are output to HTML, MHTML or EPUB. 
-Default value is [ExportHeadersFootersMode.PER_SECTION](../../exportheadersfootersmode/#PER_SECTION) for HTML/MHTML 
+Specifies how headers and footers are output to HTML, MHTML or EPUB.
+Default value is [ExportHeadersFootersMode.PER_SECTION](../../exportheadersfootersmode/#PER_SECTION) for HTML/MHTML
 and [ExportHeadersFootersMode.NONE](../../exportheadersfootersmode/#NONE) for EPUB.
 
 
@@ -35,7 +35,7 @@ It is hard to meaningfully output headers and footers to HTML because HTML is no
 When this property is [ExportHeadersFootersMode.PER_SECTION](../../exportheadersfootersmode/#PER_SECTION), Aspose.Words exports
 only primary headers and footers at the beginning and the end of each section.
 
-When it is [ExportHeadersFootersMode.FIRST_SECTION_HEADER_LAST_SECTION_FOOTER](../../exportheadersfootersmode/#FIRST_SECTION_HEADER_LAST_SECTION_FOOTER) 
+When it is [ExportHeadersFootersMode.FIRST_SECTION_HEADER_LAST_SECTION_FOOTER](../../exportheadersfootersmode/#FIRST_SECTION_HEADER_LAST_SECTION_FOOTER)
 only first primary header and the last primary footer (including linked to previous) are exported.
 
 You can disable export of headers and footers altogether by setting this property

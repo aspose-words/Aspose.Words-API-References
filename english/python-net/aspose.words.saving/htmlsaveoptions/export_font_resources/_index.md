@@ -32,8 +32,8 @@ def export_font_resources(self, value: bool):
 Exporting font resources allows for consistent document rendering independent of the fonts available
 in a given user's environment.
 
-If [HtmlSaveOptions.export_font_resources](./) is set to ``True``, main HTML document will refer to every font via 
-the CSS 3 **@font-face** at-rule and fonts will be output as separate files. When exporting to IDPF EPUB or MHTML 
+If [HtmlSaveOptions.export_font_resources](./) is set to ``True``, main HTML document will refer to every font via
+the CSS 3 **@font-face** at-rule and fonts will be output as separate files. When exporting to IDPF EPUB or MHTML
 formats, fonts will be embedded into the corresponding package along with other subsidiary files.
 
 If [HtmlSaveOptions.export_fonts_as_base64](../export_fonts_as_base64/) is set to ``True``, fonts will not be saved to separate files.

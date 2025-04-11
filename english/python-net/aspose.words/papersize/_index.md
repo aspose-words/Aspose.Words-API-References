@@ -5,7 +5,7 @@ articleTitle: PaperSize enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.PaperSize enumeration. Specifies paper size."
 type: docs
-weight: 880
+weight: 890
 url: /python-net/aspose.words/papersize/
 ---
 
@@ -35,6 +35,8 @@ Specifies paper size.
 | PAPER_10X14 | 10 x 14 inches. |
 | PAPER_11X17 | 11 x 17 inches. |
 | NUMBER_10_ENVELOPE | 4.125 x 9.5 inches. |
+| JIS_B4 | 257 x 364 mm. |
+| JIS_B5 | 182 x 257 mm. |
 | CUSTOM | Custom paper size. |
 
 ### Examples

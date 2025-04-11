@@ -89,6 +89,7 @@ The main classes in this module are:
 | [Hyphenation](./hyphenation/) | Provides methods for working with hyphenation dictionaries. These dictionaries prescribe where words of a specific language can be hyphenated. To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/words/python-net/working-with-hyphenation/) documentation article. |
 | [IDocumentConverterPlugin](./idocumentconverterplugin/) | Defines an interface for external converter plugin. |
 | [IDocumentMergerPlugin](./idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |
+| [IDocumentProcessorPlugin](./idocumentprocessorplugin/) | Defines an interface for external document processor plugin. |
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |
 | [INodeChangingCallback](./inodechangingcallback/) | Implement this interface if you want to receive notifications when nodes are inserted or removed in the document. |

@@ -28,18 +28,18 @@ def images_folder(self, value: str):
 
 ### Remarks
 
-When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all 
-images embedded in the document as standalone files. [HtmlSaveOptions.images_folder](./) 
-allows you to specify where the images will be saved and [HtmlSaveOptions.images_folder_alias](../images_folder_alias/) 
+When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all
+images embedded in the document as standalone files. [HtmlSaveOptions.images_folder](./)
+allows you to specify where the images will be saved and [HtmlSaveOptions.images_folder_alias](../images_folder_alias/)
 allows to specify how the image URIs will be constructed.
 
-If you save a document into a file and provide a file name, Aspose.Words, by default, saves the 
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the
 images in the same folder where the document file is saved. Use [HtmlSaveOptions.images_folder](./)
 to override this behavior.
 
-If you save a document into a stream, Aspose.Words does not have a folder where to save the images, 
-but still needs to save the images somewhere. In this case, you need to specify an accessible folder 
-in the [HtmlSaveOptions.images_folder](./) property or provide custom streams via 
+If you save a document into a stream, Aspose.Words does not have a folder where to save the images,
+but still needs to save the images somewhere. In this case, you need to specify an accessible folder
+in the [HtmlSaveOptions.images_folder](./) property or provide custom streams via
 the [HtmlSaveOptions.image_saving_callback](../image_saving_callback/) event handler.
 
 If the folder specified by [HtmlSaveOptions.images_folder](./) doesn't exist, it will be created automatically.

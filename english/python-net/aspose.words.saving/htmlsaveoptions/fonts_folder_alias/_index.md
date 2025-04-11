@@ -28,18 +28,18 @@ def fonts_folder_alias(self, value: str):
 
 ### Remarks
 
-When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.export_font_resources](../export_font_resources/) 
-is set to ``True``, Aspose.Words needs to save fonts used in the document as standalone files. 
-[HtmlSaveOptions.fonts_folder](../fonts_folder/) allows you to specify where the fonts will be saved and 
+When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.export_font_resources](../export_font_resources/)
+is set to ``True``, Aspose.Words needs to save fonts used in the document as standalone files.
+[HtmlSaveOptions.fonts_folder](../fonts_folder/) allows you to specify where the fonts will be saved and
 [HtmlSaveOptions.fonts_folder_alias](./) allows to specify how the font URIs will be constructed.
 
 If [HtmlSaveOptions.fonts_folder_alias](./) is not an empty string, then the font URI written
 to HTML will be *FontsFolderAlias + \<font file name\>*.
 
-If [HtmlSaveOptions.fonts_folder_alias](./) is an empty string, then the font URI written 
+If [HtmlSaveOptions.fonts_folder_alias](./) is an empty string, then the font URI written
 to HTML will be *FontsFolder + \<font file name\>*.
 
-If [HtmlSaveOptions.fonts_folder_alias](./) is set to '.' (dot), then the font file name 
+If [HtmlSaveOptions.fonts_folder_alias](./) is set to '.' (dot), then the font file name
 will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct font URIs

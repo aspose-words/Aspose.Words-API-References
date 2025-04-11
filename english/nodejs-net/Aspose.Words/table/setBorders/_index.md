@@ -26,6 +26,21 @@ setBorders(lineStyle: Aspose.Words.LineStyle, lineWidth: number, color: string)
 
 ### Examples
 
+Shows how to format of all of a table's borders at once.
+
+```js
+let doc = new aw.Document(base.myDir + "Tables.docx");
+let table = doc.firstSection.body.tables.at(0);
+
+// Clear all existing borders from the table.
+table.clearBorders();
+
+// Set a single green line to serve as every outer and inner border of this table.
+table.setBorders(aw.LineStyle.Single, 1.5, "#008000");
+
+doc.save(base.artifactsDir + "Table.setBorders.docx");
+```
+
 Shows how to apply border and shading color while building a table.
 
 ```js
@@ -60,21 +75,6 @@ builder.insertCell();
 builder.writeln("Row 2, Cell 2.");
 
 doc.save(base.artifactsDir + "DocumentBuilder.TableBordersAndShading.docx");
-```
-
-Shows how to format of all of a table's borders at once.
-
-```js
-let doc = new aw.Document(base.myDir + "Tables.docx");
-let table = doc.firstSection.body.tables.at(0);
-
-// Clear all existing borders from the table.
-table.clearBorders();
-
-// Set a single green line to serve as every outer and inner border of this table.
-table.setBorders(aw.LineStyle.Single, 1.5, "#008000");
-
-doc.save(base.artifactsDir + "Table.setBorders.docx");
 ```
 
 ### See Also

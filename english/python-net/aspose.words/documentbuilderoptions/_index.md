@@ -24,6 +24,7 @@ Allows to specify additional options for the document building process.
 | Name | Description |
 | --- | --- |
 | [context_table_formatting](./context_table_formatting/) | True if the formatting applied to table content does not affect the formatting of the content that follows it. Default value is ``True``. |
+| [design_mode](./design_mode/) | Corresponds to Design Mode in Microsoft Word. |
 
 ### Examples
 
