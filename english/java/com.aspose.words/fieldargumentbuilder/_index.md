@@ -4,7 +4,7 @@ linktitle: FieldArgumentBuilder
 second_title: Aspose.Words for Java
 description: Builds a complex field argument consisting of fields nodes and plain text in Java.
 type: docs
-weight: 193
+weight: 195
 url: /java/com.aspose.words/fieldargumentbuilder/
 ---
 

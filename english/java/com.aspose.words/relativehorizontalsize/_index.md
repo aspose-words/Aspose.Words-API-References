@@ -4,7 +4,7 @@ linktitle: RelativeHorizontalSize
 second_title: Aspose.Words for Java
 description: Specifies relatively to what the width of a shape or a text frame is calculated horizontally in Java.
 type: docs
-weight: 544
+weight: 551
 url: /java/com.aspose.words/relativehorizontalsize/
 ---
 

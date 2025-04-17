@@ -4,7 +4,7 @@ linktitle: ConditionalStyleCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of ConditionalStyle objects in Java.
 type: docs
-weight: 122
+weight: 123
 url: /java/com.aspose.words/conditionalstylecollection/
 ---
 

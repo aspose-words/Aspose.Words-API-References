@@ -4,7 +4,7 @@ linktitle: Document
 second_title: Aspose.Words for Java
 description: Represents a Word document in Java.
 type: docs
-weight: 157
+weight: 159
 url: /java/com.aspose.words/document/
 ---
 
@@ -122,6 +122,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [extractPages(int index, int count)](#extractPages-int-int) | Returns the [Document](../../com.aspose.words/document/) object representing specified range of pages. |
 | [fetchInheritedSectionAttr(int key)](#fetchInheritedSectionAttr-int) |  |
 | [fetchSectionAttr(int key)](#fetchSectionAttr-int) |  |
+| [fetchSectionAttr(int key, int revisionsView)](#fetchSectionAttr-int-int) |  |
 | [get()](#get) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
@@ -143,6 +144,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [getDefaultTabStop()](#getDefaultTabStop) | Gets the interval (in points) between the default tab stops. |
 | [getDigitalSignatures()](#getDigitalSignatures) | Gets the collection of digital signatures for this document and their validation results. |
 | [getDirectSectionAttr(int key)](#getDirectSectionAttr-int) |  |
+| [getDirectSectionAttr(int key, int revisionsView)](#getDirectSectionAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets this instance. |
 | [getEndnoteOptions()](#getEndnoteOptions) | Provides options that control numbering and positioning of endnotes in this document. |
 | [getFieldOptions()](#getFieldOptions) | Gets a [FieldOptions](../../com.aspose.words/fieldoptions/) object that represents options to control field handling in the document. |
@@ -258,6 +260,7 @@ Shows how to execute a mail merge with data from a DataTable.
 | [setResourceLoadingCallback(IResourceLoadingCallback value)](#setResourceLoadingCallback-com.aspose.words.IResourceLoadingCallback) | Allows to control how external resources are loaded. |
 | [setRevisionsView(int value)](#setRevisionsView-int) | Sets a value indicating whether to work with the original or revised version of a document. |
 | [setSectionAttr(int key, Object value)](#setSectionAttr-int-java.lang.Object) |  |
+| [setSectionAttr(int key, Object value, int revisionsView)](#setSectionAttr-int-java.lang.Object-int) |  |
 | [setShadeFormData(boolean value)](#setShadeFormData-boolean) | Specifies whether to turn on the gray shading on form fields. |
 | [setShowGrammaticalErrors(boolean value)](#setShowGrammaticalErrors-boolean) | Specifies whether to display grammar errors in this document. |
 | [setShowSpellingErrors(boolean value)](#setShowSpellingErrors-boolean) | Specifies whether to display spelling errors in this document. |
@@ -1785,6 +1788,22 @@ public Object fetchSectionAttr(int key)
 
 **Returns:**
 java.lang.Object
+### fetchSectionAttr(int key, int revisionsView) {#fetchSectionAttr-int-int}
+```
+public Object fetchSectionAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
+
+**Returns:**
+java.lang.Object
 ### get() {#get}
 ```
 public Shape get()
@@ -2693,6 +2712,22 @@ public Object getDirectSectionAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectSectionAttr(int key, int revisionsView) {#getDirectSectionAttr-int-int}
+```
+public Object getDirectSectionAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object
@@ -8649,6 +8684,21 @@ public void setSectionAttr(int key, Object value)
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
+
+### setSectionAttr(int key, Object value, int revisionsView) {#setSectionAttr-int-java.lang.Object-int}
+```
+public void setSectionAttr(int key, Object value, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+| revisionsView | int |  |
 
 ### setShadeFormData(boolean value) {#setShadeFormData-boolean}
 ```

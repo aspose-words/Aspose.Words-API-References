@@ -4,7 +4,7 @@ linktitle: MarkdownOfficeMathExportMode
 second_title: Aspose.Words for Java
 description: Specifies how Aspose.Words exports OfficeMath to Markdown in Java.
 type: docs
-weight: 443
+weight: 447
 url: /java/com.aspose.words/markdownofficemathexportmode/
 ---
 

@@ -4,7 +4,7 @@ linktitle: MailMergeOptions
 second_title: Aspose.Words for Java
 description: Represents options for the mail merge functionality in Java.
 type: docs
-weight: 433
+weight: 436
 url: /java/com.aspose.words/mailmergeoptions/
 ---
 
@@ -32,7 +32,7 @@ Shows how to do mail merge operation for a single record.
  MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.2.docx", SaveFormat.DOCX, fieldNames, fieldValues);
  MailMergeOptions options = new MailMergeOptions();
  options.setTrimWhitespaces(true);
- MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, options, fieldNames, fieldValues);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, fieldNames, fieldValues, options);
  
 ```
 ## Constructors
@@ -231,7 +231,7 @@ Shows how to do mail merge operation for a single record.
  MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.2.docx", SaveFormat.DOCX, fieldNames, fieldValues);
  MailMergeOptions options = new MailMergeOptions();
  options.setTrimWhitespaces(true);
- MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, options, fieldNames, fieldValues);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, fieldNames, fieldValues, options);
  
 ```
 
@@ -469,7 +469,7 @@ Shows how to do mail merge operation for a single record.
  MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.2.docx", SaveFormat.DOCX, fieldNames, fieldValues);
  MailMergeOptions options = new MailMergeOptions();
  options.setTrimWhitespaces(true);
- MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, options, fieldNames, fieldValues);
+ MailMerger.execute(doc, getArtifactsDir() + "LowCode.MailMerge.3.docx", SaveFormat.DOCX, fieldNames, fieldValues, options);
  
 ```
 

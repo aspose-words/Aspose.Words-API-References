@@ -4,7 +4,7 @@ linktitle: ViewOptions
 second_title: Aspose.Words for Java
 description: Provides various options that control how a document is shown in Microsoft Word in Java.
 type: docs
-weight: 689
+weight: 700
 url: /java/com.aspose.words/viewoptions/
 ---
 
@@ -71,13 +71,13 @@ Shows how to set a custom zoom type, which older versions of Microsoft Word will
 | [getDoNotDisplayPageBoundaries()](#getDoNotDisplayPageBoundaries) | Turns off display of the space between the top of the text and the top edge of the page. |
 | [getFormsDesign()](#getFormsDesign) | Specifies whether the document is in forms design mode. |
 | [getViewType()](#getViewType) | Controls the view mode in Microsoft Word. |
-| [getZoomPercent()](#getZoomPercent) | Gets the percentage (between 10 and 500) at which you want to view your document. |
+| [getZoomPercent()](#getZoomPercent) | Gets the percentage at which you want to view your document. |
 | [getZoomType()](#getZoomType) | Gets a zoom value based on the size of the window. |
 | [setDisplayBackgroundShape(boolean value)](#setDisplayBackgroundShape-boolean) | Controls display of the background shape in print layout view. |
 | [setDoNotDisplayPageBoundaries(boolean value)](#setDoNotDisplayPageBoundaries-boolean) | Turns off display of the space between the top of the text and the top edge of the page. |
 | [setFormsDesign(boolean value)](#setFormsDesign-boolean) | Specifies whether the document is in forms design mode. |
 | [setViewType(int value)](#setViewType-int) | Controls the view mode in Microsoft Word. |
-| [setZoomPercent(int value)](#setZoomPercent-int) | Sets the percentage (between 10 and 500) at which you want to view your document. |
+| [setZoomPercent(int value)](#setZoomPercent-int) | Sets the percentage at which you want to view your document. |
 | [setZoomType(int value)](#setZoomType-int) | Sets a zoom value based on the size of the window. |
 ### getDisplayBackgroundShape() {#getDisplayBackgroundShape}
 ```
@@ -229,11 +229,9 @@ public int getZoomPercent()
 ```
 
 
-Gets the percentage (between 10 and 500) at which you want to view your document.
+Gets the percentage at which you want to view your document.
 
  **Remarks:** 
-
-If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.
 
 Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
@@ -258,7 +256,7 @@ Shows how to set a custom zoom factor, which older versions of Microsoft Word wi
 ```
 
 **Returns:**
-int - The percentage (between 10 and 500) at which you want to view your document.
+int - The percentage at which you want to view your document.
 ### getZoomType() {#getZoomType}
 ```
 public int getZoomType()
@@ -471,11 +469,9 @@ public void setZoomPercent(int value)
 ```
 
 
-Sets the percentage (between 10 and 500) at which you want to view your document.
+Sets the percentage at which you want to view your document.
 
  **Remarks:** 
-
-If value is 0 then this property uses 100 instead, else if value is less than 10 or greater than 500 this property throws.
 
 Although Aspose.Words is able to read and write this option, its usage is application-specific. For example MS Word 2013 does not respect the value of this option.
 
@@ -502,7 +498,7 @@ Shows how to set a custom zoom factor, which older versions of Microsoft Word wi
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The percentage (between 10 and 500) at which you want to view your document. |
+| value | int | The percentage at which you want to view your document. |
 
 ### setZoomType(int value) {#setZoomType-int}
 ```
