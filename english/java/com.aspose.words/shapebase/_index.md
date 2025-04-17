@@ -4,7 +4,7 @@ linktitle: ShapeBase
 second_title: Aspose.Words for Java
 description: Base class for objects in the drawing layer such as an AutoShape freeform OLE object ActiveX control or picture in Java.
 type: docs
-weight: 593
+weight: 602
 url: /java/com.aspose.words/shapebase/
 ---
 
@@ -1711,6 +1711,10 @@ public Rectangle2D.Float getBoundsInPoints()
 
 
 Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
+
+ **Remarks:** 
+
+The returned bounds do not include the rotation of this shape or the rotation of the parent group shape, if any.
 
  **Examples:** 
 

@@ -4,7 +4,7 @@ linktitle: DigitalSignatureUtil
 second_title: Aspose.Words for Java
 description: Provides methods for signing document in Java.
 type: docs
-weight: 151
+weight: 153
 url: /java/com.aspose.words/digitalsignatureutil/
 ---
 
@@ -22,7 +22,7 @@ To learn more, visit the [ Work with Digital Signatures ][Work with Digital Sign
 
 Since digital signature works with file content rather than Document Object Model these methods are put into a separate class.
 
-Supported formats are: [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT).
+Supported formats are: [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat/\#DOTM), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT).
 
  **Examples:** 
 
@@ -198,7 +198,7 @@ public static void removeAllSignatures(String srcFileName, String dstFileName)
 
 Removes all digital signatures from source file and writes unsigned file to destination file.
 
-The following formats are compatible for digital signature removal: [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT).
+The following formats are compatible for digital signature removal: [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat/\#DOTM), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT).
 
  **Examples:** 
 
@@ -276,7 +276,7 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 
 Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) with digital signature and writes signed document to destination file.
 
-Supported formats are: [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT).
+Supported formats are: [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat/\#DOTM), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT).
 
  **Examples:** 
 
@@ -342,7 +342,7 @@ public static void sign(String srcFileName, String dstFileName, CertificateHolde
 
 Signs source document using given [CertificateHolder](../../com.aspose.words/certificateholder/) and [SignOptions](../../com.aspose.words/signoptions/) with digital signature and writes signed document to destination file.
 
-Supported formats are: [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT).
+Supported formats are: [LoadFormat.DOC](../../com.aspose.words/loadformat/\#DOC), [LoadFormat.DOT](../../com.aspose.words/loadformat/\#DOT), [LoadFormat.DOCX](../../com.aspose.words/loadformat/\#DOCX), [LoadFormat.DOTX](../../com.aspose.words/loadformat/\#DOTX), [LoadFormat.DOCM](../../com.aspose.words/loadformat/\#DOCM), [LoadFormat.DOTM](../../com.aspose.words/loadformat/\#DOTM), [LoadFormat.ODT](../../com.aspose.words/loadformat/\#ODT), [LoadFormat.OTT](../../com.aspose.words/loadformat/\#OTT).
 
  **Examples:** 
 

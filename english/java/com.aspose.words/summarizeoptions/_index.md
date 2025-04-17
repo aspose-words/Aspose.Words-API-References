@@ -4,7 +4,7 @@ linktitle: SummarizeOptions
 second_title: Aspose.Words for Java
 description: Allows to specify various options for summarizing document content in Java.
 type: docs
-weight: 624
+weight: 635
 url: /java/com.aspose.words/summarizeoptions/
 ---
 

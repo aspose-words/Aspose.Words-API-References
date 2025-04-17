@@ -4,7 +4,7 @@ linktitle: FieldIf
 second_title: Aspose.Words for Java
 description: Implements the IF field in Java.
 type: docs
-weight: 238
+weight: 240
 url: /java/com.aspose.words/fieldif/
 ---
 

@@ -4,7 +4,7 @@ linktitle: IDocumentConverterPlugin
 second_title: Aspose.Words for Java
 description: Defines an interface for external converter plugin in Java.
 type: docs
-weight: 732
+weight: 744
 url: /java/com.aspose.words/idocumentconverterplugin/
 ---
 ```
@@ -36,7 +36,7 @@ public abstract void convert(InputStream inputStream, LoadOptions loadOptions, O
 
 ### convertToImages(InputStream inputStream, LoadOptions loadOptions, SaveOptions saveOptions) {#convertToImages-java.io.InputStream-com.aspose.words.LoadOptions-com.aspose.words.SaveOptions}
 ```
-public abstract InputStream[] convertToImages(InputStream inputStream, LoadOptions loadOptions, SaveOptions saveOptions)
+public abstract OutputStream[] convertToImages(InputStream inputStream, LoadOptions loadOptions, SaveOptions saveOptions)
 ```
 
 
@@ -50,4 +50,4 @@ Converts pages from document from input stream to array of images.
 | saveOptions | [SaveOptions](../../com.aspose.words/saveoptions/) | The save options. |
 
 **Returns:**
-java.io.InputStream[] - Array of page images streams.
+java.io.OutputStream[] - Array of page images streams.

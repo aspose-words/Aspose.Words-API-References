@@ -4,7 +4,7 @@ linktitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.HTML_FIXED format in Java.
 type: docs
-weight: 372
+weight: 374
 url: /java/com.aspose.words/htmlfixedsaveoptions/
 ---
 
@@ -1668,11 +1668,28 @@ public boolean getRemoveJavaScriptFromLinks()
 ```
 
 
-Specifies whether JavaScript will be removed from links. Default is  false . If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
+Specifies whether JavaScript will be removed from links. Default is  false .
+
+ **Remarks:** 
+
+If this option is enabled, all links containing JavaScript (e.g., links with "javascript:" in the href attribute) will be replaced with "javascript:void(0)". This can help prevent potential security risks, such as XSS attacks.
 
  **Examples:** 
 
 Shows how to remove JavaScript from the links.
+
+```
+
+ Document doc = new Document(getMyDir() + "JavaScript in HREF.docx");
+
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setRemoveJavaScriptFromLinks(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.RemoveJavaScriptFromLinks.html", saveOptions);
+ 
+```
+
+Shows how to remove JavaScript from the links for html fixed documents.
 
 ```
 
@@ -3962,11 +3979,28 @@ public void setRemoveJavaScriptFromLinks(boolean value)
 ```
 
 
-Specifies whether JavaScript will be removed from links. Default is  false . If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
+Specifies whether JavaScript will be removed from links. Default is  false .
+
+ **Remarks:** 
+
+If this option is enabled, all links containing JavaScript (e.g., links with "javascript:" in the href attribute) will be replaced with "javascript:void(0)". This can help prevent potential security risks, such as XSS attacks.
 
  **Examples:** 
 
 Shows how to remove JavaScript from the links.
+
+```
+
+ Document doc = new Document(getMyDir() + "JavaScript in HREF.docx");
+
+ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
+ saveOptions.setRemoveJavaScriptFromLinks(true);
+
+ doc.save(getArtifactsDir() + "HtmlSaveOptions.RemoveJavaScriptFromLinks.html", saveOptions);
+ 
+```
+
+Shows how to remove JavaScript from the links for html fixed documents.
 
 ```
 

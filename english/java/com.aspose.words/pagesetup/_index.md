@@ -4,7 +4,7 @@ linktitle: PageSetup
 second_title: Aspose.Words for Java
 description: Represents the page setup properties of a section in Java.
 type: docs
-weight: 504
+weight: 509
 url: /java/com.aspose.words/pagesetup/
 ---
 
@@ -1892,6 +1892,20 @@ Gets the paper size.
 Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup/\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup/\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup/\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup/\#setPageHeight-double) values. Setting this value to [PaperSize.CUSTOM](../../com.aspose.words/papersize/\#CUSTOM) does not change existing values.
 
  **Examples:** 
+
+Shows how to set the paper size of JisB4 or JisB5.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ PageSetup pageSetup = doc.getFirstSection().getPageSetup();
+ // Set the paper size to JisB4 (257x364mm).
+ pageSetup.setPaperSize(PaperSize.JIS_B_4);
+ // Alternatively, set the paper size to JisB5. (182x257mm).
+ pageSetup.setPaperSize(PaperSize.JIS_B_5);
+ 
+```
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
@@ -4172,6 +4186,20 @@ Sets the paper size.
 Setting this property updates [getPageWidth()](../../com.aspose.words/pagesetup/\#getPageWidth) / [setPageWidth(double)](../../com.aspose.words/pagesetup/\#setPageWidth-double) and [getPageHeight()](../../com.aspose.words/pagesetup/\#getPageHeight) / [setPageHeight(double)](../../com.aspose.words/pagesetup/\#setPageHeight-double) values. Setting this value to [PaperSize.CUSTOM](../../com.aspose.words/papersize/\#CUSTOM) does not change existing values.
 
  **Examples:** 
+
+Shows how to set the paper size of JisB4 or JisB5.
+
+```
+
+ Document doc = new Document(getMyDir() + "Big document.docx");
+
+ PageSetup pageSetup = doc.getFirstSection().getPageSetup();
+ // Set the paper size to JisB4 (257x364mm).
+ pageSetup.setPaperSize(PaperSize.JIS_B_4);
+ // Alternatively, set the paper size to JisB5. (182x257mm).
+ pageSetup.setPaperSize(PaperSize.JIS_B_5);
+ 
+```
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 

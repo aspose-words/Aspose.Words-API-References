@@ -4,7 +4,7 @@ linktitle: Contributor
 second_title: Aspose.Words for Java
 description: Represents a bibliography source contributor in Java.
 type: docs
-weight: 126
+weight: 127
 url: /java/com.aspose.words/contributor/
 ---
 

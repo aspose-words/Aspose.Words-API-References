@@ -4,7 +4,7 @@ linktitle: StructuredDocumentTagCollection
 second_title: Aspose.Words for Java
 description: A collection of IStructuredDocumentTag instances that represent the structured document tags in the specified range in Java.
 type: docs
-weight: 616
+weight: 627
 url: /java/com.aspose.words/structureddocumenttagcollection/
 ---
 

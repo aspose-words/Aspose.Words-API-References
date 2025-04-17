@@ -4,7 +4,7 @@ linktitle: DocumentSavingArgs
 second_title: Aspose.Words for Java
 description: An argument passed into IDocumentSavingCallback.notifycom.aspose.words.DocumentSavingArgs in Java.
 type: docs
-weight: 167
+weight: 169
 url: /java/com.aspose.words/documentsavingargs/
 ---
 

@@ -4,7 +4,7 @@ linktitle: MarkdownExportAsHtml
 second_title: Aspose.Words for Java
 description: Allows to specify the elements to be exported to Markdown as raw HTML in Java.
 type: docs
-weight: 439
+weight: 443
 url: /java/com.aspose.words/markdownexportashtml/
 ---
 

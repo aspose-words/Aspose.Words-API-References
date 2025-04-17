@@ -4,7 +4,7 @@ linktitle: DocumentBuilderOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options for the document building process in Java.
 type: docs
-weight: 160
+weight: 162
 url: /java/com.aspose.words/documentbuilderoptions/
 ---
 
@@ -52,7 +52,9 @@ Shows how to ignore table formatting for content after.
 | Method | Description |
 | --- | --- |
 | [getContextTableFormatting()](#getContextTableFormatting) | True if the formatting applied to table content does not affect the formatting of the content that follows it. |
+| [getDesignMode()](#getDesignMode) | Corresponds to Design Mode in Microsoft Word. |
 | [setContextTableFormatting(boolean value)](#setContextTableFormatting-boolean) | True if the formatting applied to table content does not affect the formatting of the content that follows it. |
+| [setDesignMode(boolean value)](#setDesignMode-boolean) | Corresponds to Design Mode in Microsoft Word. |
 ### getContextTableFormatting() {#getContextTableFormatting}
 ```
 public boolean getContextTableFormatting()
@@ -95,6 +97,16 @@ Shows how to ignore table formatting for content after.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getDesignMode() {#getDesignMode}
+```
+public boolean getDesignMode()
+```
+
+
+Corresponds to Design Mode in Microsoft Word.
+
+**Returns:**
+boolean - The corresponding  boolean  value.
 ### setContextTableFormatting(boolean value) {#setContextTableFormatting-boolean}
 ```
 public void setContextTableFormatting(boolean value)
@@ -134,6 +146,19 @@ Shows how to ignore table formatting for content after.
  doc.save(getArtifactsDir() + "Table.ContextTableFormatting.docx");
  
 ```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | The corresponding  boolean  value. |
+
+### setDesignMode(boolean value) {#setDesignMode-boolean}
+```
+public void setDesignMode(boolean value)
+```
+
+
+Corresponds to Design Mode in Microsoft Word.
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -135,6 +135,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [CommentRangeStart](../com.aspose.words/commentrangestart/) | Denotes the start of a region of text that has a comment associated with it. |
 | [CompareOptions](../com.aspose.words/compareoptions/) | Allows to choose additional options for document comparison operation. |
 | [Comparer](../com.aspose.words/comparer/) | Provides methods intended to compare documents. |
+| [ComparerContext](../com.aspose.words/comparercontext/) | Document comparer context |
 | [ComparisonEvaluationResult](../com.aspose.words/comparisonevaluationresult/) | The comparison evaluation result. |
 | [ComparisonExpression](../com.aspose.words/comparisonexpression/) | The comparison expression. |
 | [ComparisonTargetType](../com.aspose.words/comparisontargettype/) | Allows to specify base document which will be used during comparison. |
@@ -152,6 +153,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ControlChar](../com.aspose.words/controlchar/) | Control characters often encountered in documents. |
 | [ConvertUtil](../com.aspose.words/convertutil/) | Provides helper functions to convert between various measurement units. |
 | [Converter](../com.aspose.words/converter/) | Represents a group of methods intended to convert a variety of different types of documents using a single line of code. |
+| [ConverterContext](../com.aspose.words/convertercontext/) | Document converter context |
 | [Corporate](../com.aspose.words/corporate/) | Represents a corporate (an organization) bibliography source contributor. |
 | [CssSavingArgs](../com.aspose.words/csssavingargs/) | Provides data for the [ICssSavingCallback.\#cssSaving(com.aspose.words.CssSavingArgs)](../com.aspose.words/icsssavingcallback/\#cssSaving-com.aspose.words.CssSavingArgs) event. |
 | [CssStyleSheetType](../com.aspose.words/cssstylesheettype/) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML. |
@@ -451,6 +453,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MailMerge](../com.aspose.words/mailmerge/) | Represents the mail merge functionality. |
 | [MailMergeCheckErrors](../com.aspose.words/mailmergecheckerrors/) | Specifies how Microsoft Word will report errors detected during mail merge. |
 | [MailMergeCleanupOptions](../com.aspose.words/mailmergecleanupoptions/) | Specifies options that determine what items are removed during mail merge. |
+| [MailMergeDataSource](../com.aspose.words/mailmergedatasource/) | Mail merge data source used for using in [MailMergerContext](../com.aspose.words/mailmergercontext/). |
 | [MailMergeDataType](../com.aspose.words/mailmergedatatype/) | Specifies the type of an external mail merge data source. |
 | [MailMergeDestination](../com.aspose.words/mailmergedestination/) | Specifies the possible results which may be generated when a mail merge is carried out on a document. |
 | [MailMergeMainDocumentType](../com.aspose.words/mailmergemaindocumenttype/) | Specifies the possible types for a mail merge source document. |
@@ -458,6 +461,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MailMergeRegionInfo](../com.aspose.words/mailmergeregioninfo/) | Contains information about a mail merge region. |
 | [MailMergeSettings](../com.aspose.words/mailmergesettings/) | Specifies all of the mail merge information for a document. |
 | [MailMerger](../com.aspose.words/mailmerger/) | Provides methods intended to fill template with data using simple mail merge and mail merge with regions operations. |
+| [MailMergerContext](../com.aspose.words/mailmergercontext/) | Mail merge context. |
 | [MappedDataFieldCollection](../com.aspose.words/mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
 | [Margins](../com.aspose.words/margins/) | Specifies preset margins. |
 | [MarkdownExportAsHtml](../com.aspose.words/markdownexportashtml/) | Allows to specify the elements to be exported to Markdown as raw HTML. |
@@ -475,6 +479,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MergeFieldImageDimensionUnit](../com.aspose.words/mergefieldimagedimensionunit/) | Specifies an unit of an image dimension (i.e. |
 | [MergeFormatMode](../com.aspose.words/mergeformatmode/) | Specifies how formatting is merged when combining multiple documents. |
 | [Merger](../com.aspose.words/merger/) | Represents a group of methods intended to merge a variety of different types of documents into a single output document. |
+| [MergerContext](../com.aspose.words/mergercontext/) | Document merger context. |
 | [MetafileRenderingMode](../com.aspose.words/metafilerenderingmode/) | Specifies how Aspose.Words should render WMF and EMF metafiles. |
 | [MetafileRenderingOptions](../com.aspose.words/metafilerenderingoptions/) | Allows to specify additional metafile rendering options. |
 | [Metered](../com.aspose.words/metered/) | Provides methods to set metered key. |
@@ -559,6 +564,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [PreferredWidth](../com.aspose.words/preferredwidth/) | Represents a value and its unit of measure that is used to specify the preferred width of a table or a cell. |
 | [PreferredWidthType](../com.aspose.words/preferredwidthtype/) | Specifies the unit of measurement for the preferred width of a table or cell. |
 | [PresetTexture](../com.aspose.words/presettexture/) | Specifies texture to be used to fill a shape. |
+| [Processor](../com.aspose.words/processor/) | Processor class for performing different document processing actions. |
+| [ProcessorContext](../com.aspose.words/processorcontext/) | Base class for processor contexts. |
 | [PropertyType](../com.aspose.words/propertytype/) | Specifies data type of a document property. |
 | [ProtectionType](../com.aspose.words/protectiontype/) | Protection type for a document. |
 | [PsSaveOptions](../com.aspose.words/pssaveoptions/) | Can be used to specify additional options when saving a document into the [SaveFormat.\#PS](../com.aspose.words/saveformat/\#PS) format. |
@@ -571,9 +578,11 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ReplaceAction](../com.aspose.words/replaceaction/) | Allows the user to specify what happens to the current match during a replace operation. |
 | [ReplacementFormat](../com.aspose.words/replacementformat/) | Specifies the replacement format. |
 | [Replacer](../com.aspose.words/replacer/) | Provides methods intended to find and replace text in the document. |
+| [ReplacerContext](../com.aspose.words/replacercontext/) | Find/replace operation context. |
 | [ReplacingArgs](../com.aspose.words/replacingargs/) | Provides data for a custom replace operation. |
 | [ReportBuildOptions](../com.aspose.words/reportbuildoptions/) | Specifies options controlling behavior of [ReportingEngine](../com.aspose.words/reportingengine/) while building a report. |
 | [ReportBuilder](../com.aspose.words/reportbuilder/) | Provides methods intended to fill template with data using LINQ Reporting Engine. |
+| [ReportBuilderContext](../com.aspose.words/reportbuildercontext/) | LINQ Reporting Engine context. |
 | [ReportBuilderOptions](../com.aspose.words/reportbuilderoptions/) | Represents options for the LINQ Reporting Engine functionality. |
 | [ReportingEngine](../com.aspose.words/reportingengine/) | Provides routines to populate template documents with data and a set of settings to control these routines. |
 | [ResourceLoadingAction](../com.aspose.words/resourceloadingaction/) | Specifies the mode of resource loading. |
@@ -624,6 +633,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [SignOptions](../com.aspose.words/signoptions/) | Allows to specify options for document signing. |
 | [SignatureLine](../com.aspose.words/signatureline/) | Provides access to signature line properties. |
 | [SignatureLineOptions](../com.aspose.words/signaturelineoptions/) | Allows to specify options for signature line being inserted. |
+| [SignerContext](../com.aspose.words/signercontext/) | Document signer context |
 | [SmartTag](../com.aspose.words/smarttag/) | This element specifies the presence of a smart tag around one or more inline structures (runs, images, fields,etc.) within a paragraph. |
 | [SoftEdgeFormat](../com.aspose.words/softedgeformat/) | Represents the soft edge formatting for an object. |
 | [Source](../com.aspose.words/source/) | Represents an individual source, such as a book, journal article, or interview. |
@@ -632,6 +642,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [SplitCriteria](../com.aspose.words/splitcriteria/) | Specifies how the document is split into parts. |
 | [SplitOptions](../com.aspose.words/splitoptions/) | Specifies options how the document is split into parts. |
 | [Splitter](../com.aspose.words/splitter/) | Provides methods intended to split the documents into parts using different criteria. |
+| [SplitterContext](../com.aspose.words/splittercontext/) | Document splitter context. |
 | [Story](../com.aspose.words/story/) | Base class for elements that contain block-level nodes [Paragraph](../com.aspose.words/paragraph/) and [Table](../com.aspose.words/table/). |
 | [StoryType](../com.aspose.words/storytype/) | Text of a Word document is stored in stories. |
 | [StreamFontSource](../com.aspose.words/streamfontsource/) | Base class for user-defined stream font source. |
@@ -721,6 +732,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [WatermarkLayout](../com.aspose.words/watermarklayout/) | Defines layout of the watermark relative to the watermark center. |
 | [WatermarkType](../com.aspose.words/watermarktype/) | Specifies the watermark type. |
 | [Watermarker](../com.aspose.words/watermarker/) | Provides methods intended to insert watermarks into the documents. |
+| [WatermarkerContext](../com.aspose.words/watermarkercontext/) | Document watermarker context. |
 | [WebExtension](../com.aspose.words/webextension/) | Represents a web extension object. |
 | [WebExtensionBinding](../com.aspose.words/webextensionbinding/) | Specifies a binding relationship between a web extension and the data in the document. |
 | [WebExtensionBindingCollection](../com.aspose.words/webextensionbindingcollection/) | Specifies a list of web extension bindings. |
@@ -762,6 +774,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [IDocumentLoadingCallback](../com.aspose.words/idocumentloadingcallback/) | Implement this interface if you want to have your own custom method called during loading a document. |
 | [IDocumentMergerPlugin](../com.aspose.words/idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |
 | [IDocumentPartSavingCallback](../com.aspose.words/idocumentpartsavingcallback/) | Implement this interface if you want to receive notifications and control how Aspose.Words saves document parts when exporting a document to [SaveFormat.\#HTML](../com.aspose.words/saveformat/\#HTML) or [SaveFormat.\#EPUB](../com.aspose.words/saveformat/\#EPUB) format. |
+| [IDocumentProcessorPlugin](../com.aspose.words/idocumentprocessorplugin/) | Defines an interface for external document processor plugin. |
 | [IDocumentReaderPlugin](../com.aspose.words/idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IDocumentSavingCallback](../com.aspose.words/idocumentsavingcallback/) | Implement this interface if you want to have your own custom method called during saving a document. |
 | [IFieldDatabaseProvider](../com.aspose.words/ifielddatabaseprovider/) | Implement this interface to provide data for the [FieldDatabase](../com.aspose.words/fielddatabase/) field when it's updated. |

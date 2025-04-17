@@ -4,7 +4,7 @@ linktitle: FieldRevNum
 second_title: Aspose.Words for Java
 description: Implements the REVNUM field in Java.
 type: docs
-weight: 274
+weight: 276
 url: /java/com.aspose.words/fieldrevnum/
 ---
 

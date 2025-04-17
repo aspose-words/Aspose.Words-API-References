@@ -4,7 +4,7 @@ linktitle: WebExtensionBinding
 second_title: Aspose.Words for Java
 description: Specifies a binding relationship between a web extension and the data in the document in Java.
 type: docs
-weight: 701
+weight: 713
 url: /java/com.aspose.words/webextensionbinding/
 ---
 

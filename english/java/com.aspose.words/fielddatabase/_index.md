@@ -4,7 +4,7 @@ linktitle: FieldDatabase
 second_title: Aspose.Words for Java
 description: Implements the DATABASE field in Java.
 type: docs
-weight: 212
+weight: 214
 url: /java/com.aspose.words/fielddatabase/
 ---
 

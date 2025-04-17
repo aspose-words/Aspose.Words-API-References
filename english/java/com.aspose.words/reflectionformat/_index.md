@@ -4,7 +4,7 @@ linktitle: ReflectionFormat
 second_title: Aspose.Words for Java
 description: Represents the reflection formatting for an object in Java.
 type: docs
-weight: 542
+weight: 549
 url: /java/com.aspose.words/reflectionformat/
 ---
 

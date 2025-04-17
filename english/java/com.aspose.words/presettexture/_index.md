@@ -4,7 +4,7 @@ linktitle: PresetTexture
 second_title: Aspose.Words for Java
 description: Specifies texture to be used to fill a shape in Java.
 type: docs
-weight: 537
+weight: 542
 url: /java/com.aspose.words/presettexture/
 ---
 

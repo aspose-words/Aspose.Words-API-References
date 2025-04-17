@@ -4,7 +4,7 @@ linktitle: HorizontalRuleAlignment
 second_title: Aspose.Words for Java
 description: Represents the alignment for the specified horizontal rule in Java.
 type: docs
-weight: 367
+weight: 369
 url: /java/com.aspose.words/horizontalrulealignment/
 ---
 
