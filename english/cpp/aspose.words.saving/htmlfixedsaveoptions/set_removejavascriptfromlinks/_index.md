@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlFixedSaveOptions::set_RemoveJavaScriptFromLinks method
 linktitle: set_RemoveJavaScriptFromLinks
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_RemoveJavaScriptFromLinks method. Specifies whether JavaScript will be removed from links. Default is false. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)" in C++.'
+description: 'Aspose::Words::Saving::HtmlFixedSaveOptions::set_RemoveJavaScriptFromLinks method. Specifies whether JavaScript will be removed from links. Default is false in C++.'
 type: docs
 weight: 33500
 url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_removejavascriptfromlinks/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/htmlfixedsaveoptions/set_removejavascriptfromlinks
 ## HtmlFixedSaveOptions::set_RemoveJavaScriptFromLinks method
 
 
-Specifies whether JavaScript will be removed from links. Default is **false**. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
+Specifies whether JavaScript will be removed from links. Default is **false**.
 
 ```cpp
 void Aspose::Words::Saving::HtmlFixedSaveOptions::set_RemoveJavaScriptFromLinks(bool value)
