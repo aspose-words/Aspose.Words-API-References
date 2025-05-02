@@ -3,7 +3,7 @@ title: ChartStyle Enum
 linktitle: ChartStyle
 articleTitle: ChartStyle
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartStyle enum. Specifies predefined styles of a chart.
+description: Apply predefined chart styles in Aspose.Words. Enhance visuals with ChartStyle enum for professional document formatting.
 type: docs
 weight: 1130
 url: /net/aspose.words.drawing.charts/chartstyle/

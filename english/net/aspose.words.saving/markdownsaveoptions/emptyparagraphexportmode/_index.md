@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.EmptyParagraphExportMode
 linktitle: EmptyParagraphExportMode
 articleTitle: EmptyParagraphExportMode
 second_title: Aspose.Words for .NET
-description: MarkdownSaveOptions EmptyParagraphExportMode property. Specifies how to export empty paragraphs to Markdown. Default value is EmptyLine.
+description: Configure empty paragraph export in Markdown with Aspose.Words. Set EmptyParagraphExportMode for optimal document conversion.
 type: docs
 weight: 20
 url: /net/aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/

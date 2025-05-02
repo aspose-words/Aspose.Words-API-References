@@ -3,7 +3,7 @@ title: MarkdownEmptyParagraphExportMode Enum
 linktitle: MarkdownEmptyParagraphExportMode
 articleTitle: MarkdownEmptyParagraphExportMode
 second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.MarkdownEmptyParagraphExportMode enum. Specifies how Aspose.Words exports empty paragraphs to Markdown.
+description: Learn how Aspose.Words handles empty paragraphs in Markdown export. Control formatting with MarkdownEmptyParagraphExportMode enum.
 type: docs
 weight: 6010
 url: /net/aspose.words.saving/markdownemptyparagraphexportmode/
