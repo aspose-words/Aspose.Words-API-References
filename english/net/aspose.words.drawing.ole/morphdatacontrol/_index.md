@@ -5,7 +5,7 @@ articleTitle: MorphDataControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.MorphDataControl class, featuring versatile controls like CheckBox, ComboBox, and more for enhanced document interactivity.
 type: docs
-weight: 1480
+weight: 1490
 url: /net/aspose.words.drawing.ole/morphdatacontrol/
 ---
 ## MorphDataControl class

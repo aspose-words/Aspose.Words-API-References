@@ -5,7 +5,7 @@ articleTitle: SectionLayoutMode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.SectionLayoutMode enum to optimize section layouts and enhance document grid behavior for improved formatting control.
 type: docs
-weight: 6560
+weight: 6580
 url: /net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration

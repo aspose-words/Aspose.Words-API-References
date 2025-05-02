@@ -32,6 +32,7 @@ public class Chart
 | [Series](../../aspose.words.drawing.charts/chart/series/) { get; } | Provides access to series collection. |
 | [SeriesGroups](../../aspose.words.drawing.charts/chart/seriesgroups/) { get; } | Provides access to a series group collection of this chart. |
 | [SourceFullName](../../aspose.words.drawing.charts/chart/sourcefullname/) { get; set; } | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [Style](../../aspose.words.drawing.charts/chart/style/) { get; set; } | Gets or sets the style of the chart. |
 | [Title](../../aspose.words.drawing.charts/chart/title/) { get; } | Provides access to the chart title properties. |
 
 ## Examples

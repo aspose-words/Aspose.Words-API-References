@@ -5,7 +5,7 @@ articleTitle: FieldRevNum
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldRevNum class for seamless REVNUM field implementation. Enhance document automation and streamline workflow efficiency!
 type: docs
-weight: 2740
+weight: 2750
 url: /net/aspose.words.fields/fieldrevnum/
 ---
 ## FieldRevNum class

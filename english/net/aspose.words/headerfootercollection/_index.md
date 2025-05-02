@@ -5,7 +5,7 @@ articleTitle: HeaderFooterCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.HeaderFooterCollection for easy, typed access to Section HeaderFooter nodes, streamlining document management and enhancing your workflow.
 type: docs
-weight: 3530
+weight: 3540
 url: /net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class

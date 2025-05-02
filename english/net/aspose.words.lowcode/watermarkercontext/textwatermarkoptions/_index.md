@@ -13,7 +13,7 @@ url: /net/aspose.words.lowcode/watermarkercontext/textwatermarkoptions/
 Options for the image watermark.
 
 ```csharp
-public TextWatermarkOptions TextWatermarkOptions { get; set; }
+public TextWatermarkOptions TextWatermarkOptions { get; }
 ```
 
 ## Examples

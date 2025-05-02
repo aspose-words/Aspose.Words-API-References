@@ -5,7 +5,7 @@ articleTitle: WatermarkerContext
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.LowCode.WatermarkerContext class for seamless document watermarking. Enhance your documents with ease and efficiency.
 type: docs
-weight: 4440
+weight: 4450
 url: /net/aspose.words.lowcode/watermarkercontext/
 ---
 ## WatermarkerContext class
@@ -28,10 +28,10 @@ public class WatermarkerContext : ProcessorContext
 | --- | --- |
 | [FontSettings](../../aspose.words.lowcode/processorcontext/fontsettings/) { get; set; } | Font settings used by the processor. |
 | [ImageWatermark](../../aspose.words.lowcode/watermarkercontext/imagewatermark/) { get; set; } | Image bytes to be used as a watermark. |
-| [ImageWatermarkOptions](../../aspose.words.lowcode/watermarkercontext/imagewatermarkoptions/) { get; set; } | Options for the text watermark. |
+| [ImageWatermarkOptions](../../aspose.words.lowcode/watermarkercontext/imagewatermarkoptions/) { get; } | Options for the text watermark. |
 | [LayoutOptions](../../aspose.words.lowcode/processorcontext/layoutoptions/) { get; } | Document layout options used by the processor. |
 | [TextWatermark](../../aspose.words.lowcode/watermarkercontext/textwatermark/) { get; set; } | Text to be used as a watermark. |
-| [TextWatermarkOptions](../../aspose.words.lowcode/watermarkercontext/textwatermarkoptions/) { get; set; } | Options for the image watermark. |
+| [TextWatermarkOptions](../../aspose.words.lowcode/watermarkercontext/textwatermarkoptions/) { get; } | Options for the image watermark. |
 | [WarningCallback](../../aspose.words.lowcode/processorcontext/warningcallback/) { get; set; } | Warning callback used by the processor. |
 
 ## Examples

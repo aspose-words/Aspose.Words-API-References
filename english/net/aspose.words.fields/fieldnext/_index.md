@@ -5,7 +5,7 @@ articleTitle: FieldNext
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldNext class to efficiently manage NEXT fields in your documents. Enhance your document automation today!
 type: docs
-weight: 2580
+weight: 2590
 url: /net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class

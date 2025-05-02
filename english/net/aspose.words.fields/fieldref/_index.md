@@ -5,7 +5,7 @@ articleTitle: FieldRef
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldRef class for seamless REF field implementation. Enhance document automation and streamline your workflow today!
 type: docs
-weight: 2730
+weight: 2740
 url: /net/aspose.words.fields/fieldref/
 ---
 ## FieldRef class

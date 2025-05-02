@@ -5,7 +5,7 @@ articleTitle: FieldCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.FieldCollection, a powerful class for managing Field objects within specified document ranges, enhancing your document automation.
 type: docs
-weight: 2090
+weight: 2100
 url: /net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class

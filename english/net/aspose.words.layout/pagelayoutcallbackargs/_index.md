@@ -5,7 +5,7 @@ articleTitle: PageLayoutCallbackArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Layout.PageLayoutCallbackArgs class for efficient document layout management. Enhance your workflow with powerful notification features.
 type: docs
-weight: 3800
+weight: 3810
 url: /net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class

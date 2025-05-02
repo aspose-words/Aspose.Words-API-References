@@ -5,7 +5,7 @@ articleTitle: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words PdfDigitalSignatureHashAlgorithm enum, defining digital hash algorithms for secure digital signatures in your documents.
 type: docs
-weight: 6210
+weight: 6230
 url: /net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enumeration

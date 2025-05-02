@@ -5,7 +5,7 @@ articleTitle: FileCorruptedException
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.FileCorruptedException class, designed to handle corrupted documents effortlessly during loading. Ensure seamless document management!
 type: docs
-weight: 3200
+weight: 3210
 url: /net/aspose.words/filecorruptedexception/
 ---
 ## FileCorruptedException class

@@ -5,7 +5,7 @@ articleTitle: InlineStory
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.InlineStory class, the essential base for inline nodes, enabling seamless integration of paragraphs and tables in your documents.
 type: docs
-weight: 3710
+weight: 3720
 url: /net/aspose.words/inlinestory/
 ---
 ## InlineStory class

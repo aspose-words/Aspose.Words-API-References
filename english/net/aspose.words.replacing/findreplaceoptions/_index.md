@@ -5,7 +5,7 @@ articleTitle: FindReplaceOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.FindReplaceOptions class for advanced find and replace features, enhancing document editing with precision and flexibility.
 type: docs
-weight: 5340
+weight: 5350
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class

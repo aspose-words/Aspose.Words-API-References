@@ -58,7 +58,7 @@ Adds a text watermark into the document with options.
 
 ```csharp
 public static void SetText(string inputFileName, string outputFileName, string watermarkText, 
-    TextWatermarkOptions options = null)
+    TextWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |

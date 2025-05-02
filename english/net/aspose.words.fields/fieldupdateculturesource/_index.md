@@ -5,7 +5,7 @@ articleTitle: FieldUpdateCultureSource
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fields.FieldUpdateCultureSource. Control field updates with customizable culture settings for enhanced document accuracy.
 type: docs
-weight: 2960
+weight: 2970
 url: /net/aspose.words.fields/fieldupdateculturesource/
 ---
 ## FieldUpdateCultureSource enumeration
