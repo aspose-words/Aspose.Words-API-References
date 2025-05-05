@@ -5,7 +5,7 @@ articleTitle: UnsupportedFileFormatException
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.UnsupportedFileFormatException class, essential for handling unsupported document formats in Aspose.Words. Ensure seamless document processing!
 type: docs
-weight: 7350
+weight: 7370
 url: /net/aspose.words/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class

@@ -5,7 +5,7 @@ articleTitle: Metered
 second_title: Aspose.Words for .NET
 description: Unlock the power of Aspose.Words.Metered class! Easily manage your metered key with efficient methods for seamless document processing.
 type: docs
-weight: 4840
+weight: 4850
 url: /net/aspose.words/metered/
 ---
 ## Metered class

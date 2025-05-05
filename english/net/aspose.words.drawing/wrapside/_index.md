@@ -5,7 +5,7 @@ articleTitle: WrapSide
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.WrapSide enum to control text wrapping around shapes and images, enhancing document layout and readability.
 type: docs
-weight: 1790
+weight: 1800
 url: /net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration

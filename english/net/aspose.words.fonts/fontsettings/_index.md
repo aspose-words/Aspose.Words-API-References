@@ -5,7 +5,7 @@ articleTitle: FontSettings
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.FontSettings class to effortlessly customize document font settings for enhanced readability and professional presentation.
 type: docs
-weight: 3390
+weight: 3400
 url: /net/aspose.words.fonts/fontsettings/
 ---
 ## FontSettings class

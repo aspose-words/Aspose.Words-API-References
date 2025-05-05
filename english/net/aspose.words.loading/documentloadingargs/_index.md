@@ -5,7 +5,7 @@ articleTitle: DocumentLoadingArgs
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Loading.DocumentLoadingArgs class for efficient document loading. Enhance your workflow with powerful notification arguments.
 type: docs
-weight: 4030
+weight: 4040
 url: /net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class

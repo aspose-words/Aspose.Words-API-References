@@ -5,7 +5,7 @@ articleTitle: ExportUnderlineFormatting
 second_title: Aspose.Words for .NET
 description: Discover how the MarkdownSaveOptions ExportUnderlineFormatting property enhances your text export. Control underline formatting easily with this boolean setting.
 type: docs
-weight: 40
+weight: 50
 url: /net/aspose.words.saving/markdownsaveoptions/exportunderlineformatting/
 ---
 ## MarkdownSaveOptions.ExportUnderlineFormatting property

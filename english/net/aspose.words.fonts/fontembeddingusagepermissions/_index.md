@@ -5,7 +5,7 @@ articleTitle: FontEmbeddingUsagePermissions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.FontEmbeddingUsagePermissions enum, enabling precise control over font embedding permissions for enhanced document management.
 type: docs
-weight: 3310
+weight: 3320
 url: /net/aspose.words.fonts/fontembeddingusagepermissions/
 ---
 ## FontEmbeddingUsagePermissions enumeration

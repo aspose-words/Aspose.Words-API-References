@@ -5,7 +5,7 @@ articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.RelativeVerticalPosition enum to define vertical positioning for shapes and text frames effectively and enhance document layouts.
 type: docs
-weight: 1590
+weight: 1600
 url: /net/aspose.words.drawing/relativeverticalposition/
 ---
 ## RelativeVerticalPosition enumeration

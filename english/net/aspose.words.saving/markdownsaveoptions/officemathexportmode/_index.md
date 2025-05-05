@@ -5,7 +5,7 @@ articleTitle: OfficeMathExportMode
 second_title: Aspose.Words for .NET
 description: Discover the MarkdownSaveOptions OfficeMathExportMode property to customize OfficeMath output. Optimize your files with flexible export settings!
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words.saving/markdownsaveoptions/officemathexportmode/
 ---
 ## MarkdownSaveOptions.OfficeMathExportMode property

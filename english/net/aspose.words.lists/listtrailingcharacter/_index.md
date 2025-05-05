@@ -5,7 +5,7 @@ articleTitle: ListTrailingCharacter
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Lists.ListTrailingCharacter enum to customize list labels and enhance paragraph formatting for a polished document presentation.
 type: docs
-weight: 3980
+weight: 3990
 url: /net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration

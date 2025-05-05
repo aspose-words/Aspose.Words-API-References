@@ -5,7 +5,7 @@ articleTitle: FieldSet
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSet class, designed to efficiently implement the SET field for enhanced document processing and automation.
 type: docs
-weight: 2800
+weight: 2810
 url: /net/aspose.words.fields/fieldset/
 ---
 ## FieldSet class

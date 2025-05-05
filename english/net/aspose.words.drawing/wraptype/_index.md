@@ -5,7 +5,7 @@ articleTitle: WrapType
 second_title: Aspose.Words for .NET
 description: Discover how the Aspose.Words.Drawing.WrapType enum enhances text wrapping around shapes and images for professional document formatting.
 type: docs
-weight: 1800
+weight: 1810
 url: /net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration

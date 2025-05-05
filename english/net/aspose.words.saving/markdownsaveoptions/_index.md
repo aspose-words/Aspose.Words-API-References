@@ -5,7 +5,7 @@ articleTitle: MarkdownSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.MarkdownSaveOptions for enhanced document saving in Markdown format. Customize your output with advanced options today!
 type: docs
-weight: 6040
+weight: 6060
 url: /net/aspose.words.saving/markdownsaveoptions/
 ---
 ## MarkdownSaveOptions class
@@ -34,6 +34,7 @@ public class MarkdownSaveOptions : TxtSaveOptionsBase
 | [Dml3DEffectsRenderingMode](../../aspose.words.saving/saveoptions/dml3deffectsrenderingmode/) { get; set; } | Gets or sets a value determining how 3D effects are rendered. |
 | virtual [DmlEffectsRenderingMode](../../aspose.words.saving/saveoptions/dmleffectsrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML effects are rendered. |
 | [DmlRenderingMode](../../aspose.words.saving/saveoptions/dmlrenderingmode/) { get; set; } | Gets or sets a value determining how DrawingML shapes are rendered. |
+| [EmptyParagraphExportMode](../../aspose.words.saving/markdownsaveoptions/emptyparagraphexportmode/) { get; set; } | Specifies how to export empty paragraphs to Markdown. Default value is EmptyLine. |
 | [Encoding](../../aspose.words.saving/txtsaveoptionsbase/encoding/) { get; set; } | Specifies the encoding to use when exporting in text formats. Default value is **Encoding.UTF8**. |
 | [ExportAsHtml](../../aspose.words.saving/markdownsaveoptions/exportashtml/) { get; set; } | Allows to specify the elements to be exported to Markdown as raw HTML. Default value is None. |
 | [ExportGeneratorName](../../aspose.words.saving/saveoptions/exportgeneratorname/) { get; set; } | When `true`, causes the name and version of Aspose.Words to be embedded into produced files. Default value is `true`. |

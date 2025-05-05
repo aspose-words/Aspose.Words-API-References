@@ -5,7 +5,7 @@ articleTitle: WarningSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WarningSource enum, identifying warning sources during document loading and saving for enhanced document management.
 type: docs
-weight: 7480
+weight: 7500
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration

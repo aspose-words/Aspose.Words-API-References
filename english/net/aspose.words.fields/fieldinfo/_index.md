@@ -5,7 +5,7 @@ articleTitle: FieldInfo
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldInfo class, your go-to solution for implementing the INFO field efficiently in document processing. Unlock powerful features today!
 type: docs
-weight: 2480
+weight: 2490
 url: /net/aspose.words.fields/fieldinfo/
 ---
 ## FieldInfo class

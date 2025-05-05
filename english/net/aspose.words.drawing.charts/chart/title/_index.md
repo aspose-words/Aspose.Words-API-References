@@ -5,7 +5,7 @@ articleTitle: Title
 second_title: Aspose.Words for .NET
 description: Discover the Chart Title property for easy customization and enhanced visuals. Unlock your charts' full potential with user-friendly features!
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words.drawing.charts/chart/title/
 ---
 ## Chart.Title property

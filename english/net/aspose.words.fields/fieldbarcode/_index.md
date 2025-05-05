@@ -5,7 +5,7 @@ articleTitle: FieldBarcode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldBarcode class for easy barcode generation in documents. Enhance your workflow with seamless integration and powerful features.
 type: docs
-weight: 2030
+weight: 2040
 url: /net/aspose.words.fields/fieldbarcode/
 ---
 ## FieldBarcode class

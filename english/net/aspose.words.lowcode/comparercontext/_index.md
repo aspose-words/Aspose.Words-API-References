@@ -5,7 +5,7 @@ articleTitle: ComparerContext
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words LowCode ComparerContext class for efficient document comparison, enhancing your workflow with seamless integration and powerful features.
 type: docs
-weight: 4210
+weight: 4220
 url: /net/aspose.words.lowcode/comparercontext/
 ---
 ## ComparerContext class

@@ -8,60 +8,6 @@ type: docs
 weight: 440
 url: /net/aspose.words/documentbuilder/insertonlinevideo/
 ---
-## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
-
-Inserts an online video object into the document and scales it to the specified size.
-
-```csharp
-public Shape InsertOnlineVideo(string videoUrl, double width, double height)
-```
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| videoUrl | String | The URL to the video. |
-| width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-
-### Return Value
-
-The image node that was just inserted.
-
-## Remarks
-
-You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape/) object returned by this method.
-
-Insertion of online video from the following resources is supported:
-
-* https://www.youtube.com/
-* https://vimeo.com/
-
-If your online video is not displaying correctly, use `InsertOnlineVideo`, which accepts custom embedded html code.
-
-The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
-
-## Examples
-
-Shows how to insert an online video into a document using a URL.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-builder.InsertOnlineVideo("https://youtu.be/g1N9ke8Prmk", 360, 270);
-
-// We can watch the video from Microsoft Word by clicking on the shape.
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
-```
-
-### See Also
-
-* class [Shape](../../../aspose.words.drawing/shape/)
-* class [DocumentBuilder](../)
-* namespace [Aspose.Words](../../../aspose.words/)
-* assembly [Aspose.Words](../../../)
-
----
-
 ## InsertOnlineVideo(*string, [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertonlinevideo}
 
 Inserts an online video object into the document and scales it to the specified size.
@@ -280,6 +226,60 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx")
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namespace [Aspose.Words](../../../aspose.words/)
+* assembly [Aspose.Words](../../../)
+
+---
+
+## InsertOnlineVideo(*string, double, double*) {#insertonlinevideo_1}
+
+Inserts an online video object into the document and scales it to the specified size.
+
+```csharp
+public Shape InsertOnlineVideo(string videoUrl, double width, double height)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| videoUrl | String | The URL to the video. |
+| width | Double | The width of the image in points. Can be a negative or zero value to request 100% scale. |
+| height | Double | The height of the image in points. Can be a negative or zero value to request 100% scale. |
+
+### Return Value
+
+The image node that was just inserted.
+
+## Remarks
+
+You can change the image size, location, positioning method and other settings using the [`Shape`](../../../aspose.words.drawing/shape/) object returned by this method.
+
+Insertion of online video from the following resources is supported:
+
+* https://www.youtube.com/
+* https://vimeo.com/
+
+If your online video is not displaying correctly, use `InsertOnlineVideo`, which accepts custom embedded html code.
+
+The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
+
+## Examples
+
+Shows how to insert an online video into a document using a URL.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+builder.InsertOnlineVideo("https://youtu.be/g1N9ke8Prmk", 360, 270);
+
+// We can watch the video from Microsoft Word by clicking on the shape.
+doc.Save(ArtifactsDir + "DocumentBuilder.InsertVideoWithUrl.docx");
+```
+
+### See Also
+
+* class [Shape](../../../aspose.words.drawing/shape/)
 * class [DocumentBuilder](../)
 * namespace [Aspose.Words](../../../aspose.words/)
 * assembly [Aspose.Words](../../../)

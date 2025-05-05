@@ -5,7 +5,7 @@ articleTitle: FieldNoteRef
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldNoteRef class for seamless integration of NOTEREF fields, enhancing document referencing and management.
 type: docs
-weight: 2600
+weight: 2610
 url: /net/aspose.words.fields/fieldnoteref/
 ---
 ## FieldNoteRef class

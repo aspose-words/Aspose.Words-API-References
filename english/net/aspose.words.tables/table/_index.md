@@ -5,7 +5,7 @@ articleTitle: Table
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.Table class to easily create and manage tables in Word documents, enhancing your document's layout and functionality.
 type: docs
-weight: 7170
+weight: 7190
 url: /net/aspose.words.tables/table/
 ---
 ## Table class

@@ -5,7 +5,7 @@ articleTitle: SplitterContext
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.LowCode.SplitterContext class for efficient document splitting, enhancing your workflow with seamless integration and powerful functionality.
 type: docs
-weight: 4420
+weight: 4430
 url: /net/aspose.words.lowcode/splittercontext/
 ---
 ## SplitterContext class

@@ -5,7 +5,7 @@ articleTitle: SectionStart
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.SectionStart enum to understand section breaks and enhance document formatting for better control and presentation.
 type: docs
-weight: 6570
+weight: 6590
 url: /net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration

@@ -5,7 +5,7 @@ articleTitle: TableContentAlignment
 second_title: Aspose.Words for .NET
 description: Discover the MarkdownSaveOptions TableContentAlignment property to customize table content alignment for seamless Markdown exports. Default is Auto.
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.saving/markdownsaveoptions/tablecontentalignment/
 ---
 ## MarkdownSaveOptions.TableContentAlignment property

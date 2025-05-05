@@ -5,7 +5,7 @@ articleTitle: Comparer
 second_title: Aspose.Words for .NET
 description: Effortlessly compare documents with the Aspose.Words LowCode Comparer class. Unlock powerful methods for seamless document analysis and collaboration.
 type: docs
-weight: 4200
+weight: 4210
 url: /net/aspose.words.lowcode/comparer/
 ---
 ## Comparer class

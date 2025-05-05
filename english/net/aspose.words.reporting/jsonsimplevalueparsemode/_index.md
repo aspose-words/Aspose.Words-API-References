@@ -5,7 +5,7 @@ articleTitle: JsonSimpleValueParseMode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Reporting.JsonSimpleValueParseMode enum for efficient JSON parsing. Easily handle nulls, booleans, numbers, and strings seamlessly!
 type: docs
-weight: 5430
+weight: 5440
 url: /net/aspose.words.reporting/jsonsimplevalueparsemode/
 ---
 ## JsonSimpleValueParseMode enumeration
