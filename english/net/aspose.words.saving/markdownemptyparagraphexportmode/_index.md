@@ -24,6 +24,38 @@ public enum MarkdownEmptyParagraphExportMode
 | MarkdownHardLineBreak | `1` | Export as Markdown HardLineBreak character '\'. |
 | None | `2` | Don't export empty paragraphs. |
 
+## Examples
+
+Shows how to export empty paragraphs.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("First");
+builder.Writeln("\r\n\r\n\r\n");
+builder.Writeln("Last");
+
+MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+saveOptions.EmptyParagraphExportMode = exportMode;
+
+doc.Save(ArtifactsDir + "MarkdownSaveOptions.EmptyParagraphExportMode.md", saveOptions);
+
+string result = File.ReadAllText(ArtifactsDir + "MarkdownSaveOptions.EmptyParagraphExportMode.md");
+
+switch (exportMode)
+{
+    case MarkdownEmptyParagraphExportMode.None:
+        Assert.AreEqual("First\r\n\r\nLast\r\n", result);
+        break;
+    case MarkdownEmptyParagraphExportMode.EmptyLine:
+        Assert.AreEqual("First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n", result);
+        break;
+    case MarkdownEmptyParagraphExportMode.MarkdownHardLineBreak:
+        Assert.AreEqual("First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n", result);
+        break;
+}
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Saving](../../aspose.words.saving/)

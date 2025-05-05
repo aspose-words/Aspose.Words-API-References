@@ -37,6 +37,29 @@ public enum ChartStyle
 | Blue | `14` | A style with blue chart background. |
 | ShadedPlot | `15` | A style, in which the plot area is shaded. |
 
+## Examples
+
+Shows how to set and get chart style.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Insert a chart in the Black style.
+builder.InsertChart(ChartType.Column, 400, 250, ChartStyle.Black);
+
+doc.Save(ArtifactsDir + "Charts.SetChartStyle.docx");
+
+doc = new Document(ArtifactsDir + "Charts.SetChartStyle.docx");
+
+// Get a chart to update.
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Chart chart = shape.Chart;
+
+// Get the chart style.
+Assert.AreEqual(ChartStyle.Black, chart.Style);
+```
+
 ### See Also
 
 * namespace [Aspose.Words.Drawing.Charts](../../aspose.words.drawing.charts/)
