@@ -5,7 +5,7 @@ articleTitle: ImagesFolder
 second_title: Aspose.Words for .NET
 description: Discover how the MarkdownSaveOptions ImagesFolder property enhances your document exports by specifying the ideal folder for saving images in Markdown format.
 type: docs
-weight: 70
+weight: 80
 url: /net/aspose.words.saving/markdownsaveoptions/imagesfolder/
 ---
 ## MarkdownSaveOptions.ImagesFolder property

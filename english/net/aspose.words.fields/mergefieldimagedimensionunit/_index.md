@@ -5,7 +5,7 @@ articleTitle: MergeFieldImageDimensionUnit
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fields.MergeFieldImageDimensionUnit enum for precise image dimension control in mail merges. Enhance your document automation today!
 type: docs
-weight: 3160
+weight: 3170
 url: /net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration

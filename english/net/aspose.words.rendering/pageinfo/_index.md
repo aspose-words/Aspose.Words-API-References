@@ -5,7 +5,7 @@ articleTitle: PageInfo
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Rendering.PageInfo class, which provides essential details about each document page, enhancing your document rendering experience.
 type: docs
-weight: 5290
+weight: 5300
 url: /net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class

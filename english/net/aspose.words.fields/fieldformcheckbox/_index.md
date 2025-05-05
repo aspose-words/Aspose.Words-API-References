@@ -5,7 +5,7 @@ articleTitle: FieldFormCheckBox
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldFormCheckBox class, designed to easily implement FORMCHECKBOX fields for enhanced document interactivity and functionality.
 type: docs
-weight: 2310
+weight: 2320
 url: /net/aspose.words.fields/fieldformcheckbox/
 ---
 ## FieldFormCheckBox class

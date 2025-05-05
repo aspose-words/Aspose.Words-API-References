@@ -13,7 +13,7 @@ url: /net/aspose.words.lowcode/watermarkercontext/imagewatermarkoptions/
 Options for the text watermark.
 
 ```csharp
-public ImageWatermarkOptions ImageWatermarkOptions { get; set; }
+public ImageWatermarkOptions ImageWatermarkOptions { get; }
 ```
 
 ## Examples
@@ -27,9 +27,7 @@ string watermarkImage = ImageDir + "Logo.jpg";
 WatermarkerContext watermarkerContext = new WatermarkerContext();
 watermarkerContext.ImageWatermark = File.ReadAllBytes(watermarkImage);
 
-ImageWatermarkOptions imageWatermarkOptions  = new ImageWatermarkOptions();
-imageWatermarkOptions.Scale = 50;
-watermarkerContext.ImageWatermarkOptions = imageWatermarkOptions;
+watermarkerContext.ImageWatermarkOptions.Scale = 50;
 
 Watermarker.Create(watermarkerContext)
     .From(doc)
@@ -47,9 +45,7 @@ using (FileStream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Op
     WatermarkerContext watermarkerContext = new WatermarkerContext();
     watermarkerContext.ImageWatermark = File.ReadAllBytes(watermarkImage);
 
-    ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
-    imageWatermarkOptions.Scale = 50;
-    watermarkerContext.ImageWatermarkOptions = imageWatermarkOptions;
+    watermarkerContext.ImageWatermarkOptions.Scale = 50;
 
     using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.WatermarkContextImageStream.docx", FileMode.Create, FileAccess.ReadWrite))
         Watermarker.Create(watermarkerContext)

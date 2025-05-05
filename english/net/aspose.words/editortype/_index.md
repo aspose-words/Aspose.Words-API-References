@@ -5,7 +5,7 @@ articleTitle: EditorType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.EditorType enum, which defines editing groups to control user permissions for document range editing. Enhance your document management today!
 type: docs
-weight: 1850
+weight: 1860
 url: /net/aspose.words/editortype/
 ---
 ## EditorType enumeration

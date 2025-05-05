@@ -60,7 +60,7 @@ Adds an image watermark into the document with options.
 
 ```csharp
 public static void SetImage(string inputFileName, string outputFileName, 
-    string watermarkImageFileName, ImageWatermarkOptions options = null)
+    string watermarkImageFileName, ImageWatermarkOptions options)
 ```
 
 | Parameter | Type | Description |

@@ -5,7 +5,7 @@ articleTitle: UserInformation
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.UserInformation class to manage user details effectively and enhance document processing in your applications.
 type: docs
-weight: 3190
+weight: 3200
 url: /net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class

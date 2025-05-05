@@ -5,7 +5,7 @@ articleTitle: LinkExportMode
 second_title: Aspose.Words for .NET
 description: Discover the MarkdownSaveOptions LinkExportMode property to control link formatting in output files. Optimize your document exports effortlessly!
 type: docs
-weight: 90
+weight: 100
 url: /net/aspose.words.saving/markdownsaveoptions/linkexportmode/
 ---
 ## MarkdownSaveOptions.LinkExportMode property

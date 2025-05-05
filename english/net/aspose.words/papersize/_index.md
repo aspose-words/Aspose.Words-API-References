@@ -5,7 +5,7 @@ articleTitle: PaperSize
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PaperSize enum for defining custom paper sizes in your documents. Enhance your document formatting with ease!
 type: docs
-weight: 5100
+weight: 5110
 url: /net/aspose.words/papersize/
 ---
 ## PaperSize enumeration

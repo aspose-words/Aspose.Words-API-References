@@ -21,7 +21,7 @@ public sealed class PersonCollection : Contributor, IEnumerable<Person>
 | Name | Description |
 | --- | --- |
 | [PersonCollection](personcollection/#constructor)() | Initialize a new instance of the `PersonCollection` class. |
-| [PersonCollection](personcollection/#constructor_2)(*IEnumerable&amp;lt;Person&amp;gt;*) |  |
+| [PersonCollection](personcollection/#constructor_2)(*IEnumerable&lt;Person&gt;*) |  |
 | [PersonCollection](personcollection/#constructor_1)(*params Person[]*) | Initialize a new instance of the `PersonCollection` class. |
 
 ## Properties

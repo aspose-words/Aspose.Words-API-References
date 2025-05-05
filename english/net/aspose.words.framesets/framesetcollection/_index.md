@@ -5,7 +5,7 @@ articleTitle: FramesetCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words FramesetCollection class, your go-to solution for managing multiple Frameset instances effortlessly in document processing.
 type: docs
-weight: 3510
+weight: 3520
 url: /net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class

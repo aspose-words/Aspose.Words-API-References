@@ -5,7 +5,7 @@ articleTitle: FootnoteNumberingRule
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words FootnoteNumberingRule enum to control automatic footnote and endnote numbering. Optimize your document formatting effortlessly!
 type: docs
-weight: 4950
+weight: 4960
 url: /net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration

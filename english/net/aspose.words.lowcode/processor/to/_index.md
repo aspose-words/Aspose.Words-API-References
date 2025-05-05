@@ -340,7 +340,7 @@ using (FileStream firstStreamIn = new FileStream(MyDir + "Big document.docx", Fi
 
 ---
 
-## To(*List&amp;lt;Stream&amp;gt;, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#to_1}
+## To(*List&lt;Stream&gt;, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#to_1}
 
 Specifies output Document streams list.
 
@@ -370,7 +370,7 @@ If the output consists of multiple files (such as images or split document parts
 
 ---
 
-## To(*List&amp;lt;Stream&amp;gt;, [SaveFormat](../../../aspose.words/saveformat/)*) {#to}
+## To(*List&lt;Stream&gt;, [SaveFormat](../../../aspose.words/saveformat/)*) {#to}
 
 Specifies output Document streams list.
 

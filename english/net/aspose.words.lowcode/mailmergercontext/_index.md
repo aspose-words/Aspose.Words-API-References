@@ -5,7 +5,7 @@ articleTitle: MailMergerContext
 second_title: Aspose.Words for .NET
 description: Discover the powerful Aspose.Words.LowCode.MailMergerContext class for seamless mail merging, enhancing your document automation with ease and efficiency.
 type: docs
-weight: 4270
+weight: 4280
 url: /net/aspose.words.lowcode/mailmergercontext/
 ---
 ## MailMergerContext class

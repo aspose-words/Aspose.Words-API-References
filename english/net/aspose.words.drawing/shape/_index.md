@@ -5,7 +5,7 @@ articleTitle: Shape
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Shape class for creating versatile drawing objects like AutoShapes, text boxes, and images effortlessly in your projects.
 type: docs
-weight: 1630
+weight: 1640
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class

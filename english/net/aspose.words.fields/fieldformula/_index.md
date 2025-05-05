@@ -5,7 +5,7 @@ articleTitle: FieldFormula
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldFormula class to effortlessly implement and manage formula fields in your documents for enhanced functionality.
 type: docs
-weight: 2350
+weight: 2360
 url: /net/aspose.words.fields/fieldformula/
 ---
 ## FieldFormula class

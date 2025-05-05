@@ -5,7 +5,7 @@ articleTitle: FieldNumWords
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldNumWords class for easy word count management in documents. Enhance your text processing with this powerful feature!
 type: docs
-weight: 2630
+weight: 2640
 url: /net/aspose.words.fields/fieldnumwords/
 ---
 ## FieldNumWords class

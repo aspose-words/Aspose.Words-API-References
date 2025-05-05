@@ -5,7 +5,7 @@ articleTitle: ListExportMode
 second_title: Aspose.Words for .NET
 description: Discover the ListExportMode property of MarkdownSaveOptions, which controls how list items are output. Optimize your files with flexible MarkdownSyntax!
 type: docs
-weight: 100
+weight: 110
 url: /net/aspose.words.saving/markdownsaveoptions/listexportmode/
 ---
 ## MarkdownSaveOptions.ListExportMode property

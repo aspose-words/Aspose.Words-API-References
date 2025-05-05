@@ -5,7 +5,7 @@ articleTitle: IBarcodeGenerator
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.IBarcodeGenerator interface for custom barcode generation. Empower your projects with user-defined implementations and enhance functionality!
 type: docs
-weight: 3060
+weight: 3070
 url: /net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface

@@ -5,7 +5,7 @@ articleTitle: MergeFieldImageDimension
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.MergeFieldImageDimension class for precise image sizing in mail merges. Enhance your document automation today!
 type: docs
-weight: 3150
+weight: 3160
 url: /net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
