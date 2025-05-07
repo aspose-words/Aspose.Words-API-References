@@ -11,7 +11,7 @@ url: /nodejs-net/aspose.words/textwatermarkoptions/color/
 
 ## TextWatermarkOptions.color property
 
-Gets or sets font color. The default value is aspose.pydrawing.Color.silver.
+Gets or sets font color. The default value is silver.
 
 
 

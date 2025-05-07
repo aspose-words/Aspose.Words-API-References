@@ -5,7 +5,7 @@ articleTitle: getChild method
 second_title: Aspose.Words for Node.js
 description: "CompositeNode.getChild method. Returns an Nth child node that matches the specified type."
 type: docs
-weight: 100
+weight: 80
 url: /nodejs-net/aspose.words/compositenode/getChild/
 ---
 

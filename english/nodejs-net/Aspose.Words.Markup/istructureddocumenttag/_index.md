@@ -43,6 +43,28 @@ Interface to define a common data for [StructuredDocumentTag](../structureddocum
 |[ getChildNodes(nodeType, isDeep)](./getChildNodes/#nodetype_boolean) | Returns a live collection of child nodes that match the specified types. |
 |[ removeSelfOnly()](./removeSelfOnly/#default) | Removes just this SDT node itself, but keeps the content of it inside the document tree. |
 
+### Examples
+
+Shows how to remove structured document tag, but keeps content inside.
+
+```js
+let doc = new aw.Document(base.myDir + "Structured document tags.docx");
+
+// This collection provides a unified interface for accessing ranged and non-ranged structured tags. 
+let sdts = doc.range.structuredDocumentTags;
+expect(sdts.count).toEqual(5);
+
+// Here we can get child nodes from the common interface of ranged and non-ranged structured tags.
+for (let sdt of sdts)
+{
+  if (sdt.getChildNodes(aw.NodeType.Any, false).count > 0)
+    sdt.removeSelfOnly();
+}
+
+sdts = doc.range.structuredDocumentTags;
+expect(sdts.count).toEqual(0);
+```
+
 ### See Also
 
 * module [Aspose.Words.Markup](../)

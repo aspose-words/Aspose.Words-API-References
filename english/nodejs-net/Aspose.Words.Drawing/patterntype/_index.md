@@ -74,6 +74,28 @@ Specifies the fill pattern to be used to fill a shape.
 | WideUpwardDiagonal | Wide upward diagonal. |
 | ZigZag | Zig zag. |
 
+### Examples
+
+Shows how to set pattern for a shape.
+
+```js
+let doc = new aw.Document(base.myDir + "Shape stroke pattern border.docx");
+
+let shape = doc.getShape(0, true);
+let fill = shape.fill;
+
+console.log(`Pattern value is: ${fill.pattern}`);
+
+// There are several ways specified fill to a pattern.
+// 1 -  Apply pattern to the shape fill:
+fill.patterned(aw.Drawing.PatternType.DiagonalBrick);
+
+// 2 -  Apply pattern with foreground and background colors to the shape fill:
+fill.patterned(aw.Drawing.PatternType.DiagonalBrick, "#00FFFF", "#FFE4C4");
+
+doc.save(base.artifactsDir + "Shape.FillPattern.docx");
+```
+
 ### See Also
 
 * module [Aspose.Words.Drawing](../)

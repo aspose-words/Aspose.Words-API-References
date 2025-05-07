@@ -5,7 +5,7 @@ articleTitle: MarkdownSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format"
 type: docs
-weight: 460
+weight: 450
 url: /nodejs-net/aspose.words.saving/markdownsaveoptions/
 ---
 
@@ -29,11 +29,12 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | Name | Description |
 | --- | --- |
 | [allowEmbeddingPostScriptFonts](../saveoptions/allowEmbeddingPostScriptFonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** .<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml3DEffectsRenderingMode](../saveoptions/dml3DEffectsRenderingMode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlEffectsRenderingMode](../saveoptions/dmlEffectsRenderingMode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlRenderingMode](../saveoptions/dmlRenderingMode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [encoding](../txtsaveoptionsbase/encoding/) | Specifies the encoding to use when exporting in text formats.  Default value is **Encoding.UTF8**.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
+| [emptyParagraphExportMode](./emptyParagraphExportMode/) | Specifies how to export empty paragraphs to Markdown. Default value is [MarkdownEmptyParagraphExportMode.EmptyLine](../markdownemptyparagraphexportmode/#EmptyLine). |
+| [encoding](../txtsaveoptionsbase/encoding/) | Specifies the encoding to use when exporting in text formats.  Default value is .<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [exportAsHtml](./exportAsHtml/) | Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [MarkdownExportAsHtml.None](../markdownexportashtml/#None). |
 | [exportGeneratorName](../saveoptions/exportGeneratorName/) | When ``true``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``true``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [exportHeadersFootersMode](../txtsaveoptionsbase/exportHeadersFootersMode/) | Specifies the way headers and footers are exported to the text formats. Default value is [TxtExportHeadersFootersMode.PrimaryOnly](../txtexportheadersfootersmode/#PrimaryOnly).<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
@@ -51,7 +52,6 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [officeMathExportMode](./officeMathExportMode/) | Specifies how OfficeMath will be written to the output file. Default value is [MarkdownOfficeMathExportMode.Text](../markdownofficemathexportmode/#Text). |
 | [paragraphBreak](../txtsaveoptionsbase/paragraphBreak/) | Specifies the string to use as a paragraph break when exporting in text formats.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown). |
 | [tableContentAlignment](./tableContentAlignment/) | Gets or sets a value that specifies how to align contents in tables when exporting into the [SaveFormat.Markdown](../../aspose.words/saveformat/#Markdown) format. The default value is [TableContentAlignment.Auto](../tablecontentalignment/#Auto). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -69,6 +69,56 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | --- | --- |
 |[ createSaveOptions(saveFormat)](../saveoptions/createSaveOptions/#saveformat) | Creates a save options object of a class suitable for the specified save format.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 |[ createSaveOptions(fileName)](../saveoptions/createSaveOptions/#string) | Creates a save options object of a class suitable for the file extension specified in the given file name.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+
+### Examples
+
+Shows how to rename the image name during saving into Markdown document.
+
+```js
+test('RenameImages', () => {
+  let doc = new aw.Document(base.myDir + "Rendering.docx");
+
+  let saveOptions = new aw.Saving.MarkdownSaveOptions();
+  // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
+  // Each image will be in the form of a file in the local file system.
+  // There is also a callback that can customize the name and file system location of each image.
+  saveOptions.imageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+  saveOptions.saveFormat = aw.SaveFormat.Markdown;
+
+  // The ImageSaving() method of our callback will be run at this time.
+  doc.save(base.artifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
+
+  expect(Directory.GetFiles(base.artifactsDir) .Where(s => s.StartsWith(base.artifactsDir + "MarkdownSaveOptions.HandleDocument.md shape")) .Count(f => f.EndsWith(".jpeg"))).toEqual(1);
+  expect(Directory.GetFiles(base.artifactsDir) .Where(s => s.StartsWith(base.artifactsDir + "MarkdownSaveOptions.HandleDocument.md shape")) .Count(f => f.EndsWith(".png"))).toEqual(8);
+});
+
+
+  /// <summary>
+  /// Renames saved images that are produced when an Markdown document is saved.
+  /// </summary>
+public class SavedImageRename : IImageSavingCallback
+{
+  public SavedImageRename(string outFileName)
+  {
+    mOutFileName = outFileName;
+  }
+
+  void aw.Saving.IImageSavingCallback.imageSaving(ImageSavingArgs args)
+  {
+    string imageFileName = `${mOutFileName} shape ${++mCount}, of type ${args.currentShape.shapeType}${Path.GetExtension(args.imageFileName)}`;
+
+    args.imageFileName = imageFileName;
+    args.imageStream = new FileStream(base.artifactsDir + imageFileName, FileMode.create);
+
+    expect(args.imageStream.CanWrite).toEqual(true);
+    expect(args.isImageAvailable).toEqual(true);
+    expect(args.keepImageStreamOpen).toEqual(false);
+  }
+
+  private int mCount;
+  private readonly string mOutFileName;
+}
+```
 
 ### See Also
 

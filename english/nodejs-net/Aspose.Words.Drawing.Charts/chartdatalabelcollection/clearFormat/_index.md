@@ -51,8 +51,11 @@ test('DataLabels', () => {
       label.separator = " & ";
   }
 
+  let dataLabel = chart.series.at(1).dataLabels.at(2);
+  dataLabel.format.fill.color = "#FF0000";
+
   // For a cleaner looking graph, we can remove data labels individually.
-  chart.series.at(1).dataLabels.at(2).clearFormat();
+  dataLabel.clearFormat();
 
   // We can also strip an entire series of its data labels at once.
   chart.series.at(2).dataLabels.clearFormat();

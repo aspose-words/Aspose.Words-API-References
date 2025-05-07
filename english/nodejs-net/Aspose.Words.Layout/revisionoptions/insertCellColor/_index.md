@@ -20,6 +20,19 @@ Default value is [RevisionColor.Blue](../../revisioncolor/#Blue).
 get insertCellColor(): Aspose.Words.Layout.RevisionColor
 ```
 
+### Examples
+
+Shows how to work with insert/delete cell revision color.
+
+```js
+let doc = new aw.Document(base.myDir + "Cell revisions.docx");
+
+doc.layoutOptions.revisionOptions.insertCellColor = aw.Layout.RevisionColor.LightBlue;
+doc.layoutOptions.revisionOptions.deleteCellColor = aw.Layout.RevisionColor.DarkRed;
+
+doc.save(base.artifactsDir + "Revision.RevisionCellColor.pdf");
+```
+
 ### See Also
 
 * module [Aspose.Words.Layout](../../)

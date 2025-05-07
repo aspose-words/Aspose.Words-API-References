@@ -5,7 +5,7 @@ articleTitle: SubDocument class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.SubDocument class. Represents a SubDocument - which is a reference to an externally stored document"
 type: docs
-weight: 1290
+weight: 1280
 url: /nodejs-net/aspose.words/subdocument/
 ---
 
@@ -47,7 +47,6 @@ and properties to create or modify a subdocument. In this version you are not ab
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ asBody()](../node/asBody/#default) | Cast node to [Body](../body/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkStart()](../node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/).<br>(Inherited from [Node](../node/)) |

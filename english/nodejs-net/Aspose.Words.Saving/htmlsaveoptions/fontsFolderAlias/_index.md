@@ -21,18 +21,18 @@ get fontsFolderAlias(): string
 
 ### Remarks
 
-When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.exportFontResources](../exportFontResources/) 
-is set to ``true``, Aspose.Words needs to save fonts used in the document as standalone files. 
-[HtmlSaveOptions.fontsFolder](../fontsFolder/) allows you to specify where the fonts will be saved and 
+When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.exportFontResources](../exportFontResources/)
+is set to ``true``, Aspose.Words needs to save fonts used in the document as standalone files.
+[HtmlSaveOptions.fontsFolder](../fontsFolder/) allows you to specify where the fonts will be saved and
 [HtmlSaveOptions.fontsFolderAlias](./) allows to specify how the font URIs will be constructed.
 
 If [HtmlSaveOptions.fontsFolderAlias](./) is not an empty string, then the font URI written
 to HTML will be *FontsFolderAlias + \<font file name\>*.
 
-If [HtmlSaveOptions.fontsFolderAlias](./) is an empty string, then the font URI written 
+If [HtmlSaveOptions.fontsFolderAlias](./) is an empty string, then the font URI written
 to HTML will be *FontsFolder + \<font file name\>*.
 
-If [HtmlSaveOptions.fontsFolderAlias](./) is set to '.' (dot), then the font file name 
+If [HtmlSaveOptions.fontsFolderAlias](./) is set to '.' (dot), then the font file name
 will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct font URIs

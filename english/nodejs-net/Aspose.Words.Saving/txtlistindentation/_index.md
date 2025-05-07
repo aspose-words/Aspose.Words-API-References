@@ -5,7 +5,7 @@ articleTitle: TxtListIndentation class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.TxtListIndentation class. Specifies how list levels are indented when document is exporting to [SaveFormat.Text](../../aspose.words/saveformat/#Text) format"
 type: docs
-weight: 850
+weight: 840
 url: /nodejs-net/aspose.words.saving/txtlistindentation/
 ---
 
@@ -60,10 +60,11 @@ txtSaveOptions.listIndentation.count = 3;
 doc.save(base.artifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 let docText = readTextFile(base.artifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+const newLine = "\r\n";
 
-expect(docText).toEqual("1. Item 1\r\n" +
-                        "   a. Item 2\r\n" +
-                        "      i. Item 3\r\n");
+expect(docText).toEqual(`1. Item 1${newLine}` +
+                        `   a. Item 2${newLine}` +
+                        `      i. Item 3${newLine}`);
 ```
 
 ### See Also

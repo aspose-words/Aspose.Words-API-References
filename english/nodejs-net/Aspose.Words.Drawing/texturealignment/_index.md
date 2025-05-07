@@ -49,6 +49,13 @@ let saveOptions = new aw.Saving.OoxmlSaveOptions();
 saveOptions.compliance = aw.Saving.OoxmlCompliance.Iso29500_2008_Strict;
 
 doc.save(base.artifactsDir + "Shape.TextureFill.docx", saveOptions);
+
+doc = new aw.Document(base.artifactsDir + "Shape.TextureFill.docx");
+
+shape = doc.getShape(0, true);
+
+expect(shape.fill.textureAlignment).toEqual(aw.Drawing.TextureAlignment.TopRight);
+expect(shape.fill.presetTexture).toEqual(aw.Drawing.PresetTexture.Canvas);
 ```
 
 ### See Also

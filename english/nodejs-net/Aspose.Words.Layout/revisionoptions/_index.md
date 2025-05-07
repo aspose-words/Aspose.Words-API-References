@@ -63,8 +63,9 @@ builder.writeln("This is not a revision.");
 // Remove the bar that appears to the left of every revised line.
 doc.layoutOptions.revisionOptions.insertedTextColor = aw.Layout.RevisionColor.BrightGreen;
 doc.layoutOptions.revisionOptions.showRevisionBars = false;
+doc.layoutOptions.revisionOptions.revisionBarsPosition = aw.Drawing.HorizontalAlignment.Right;
 
-doc.save(base.artifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.save(base.artifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### See Also

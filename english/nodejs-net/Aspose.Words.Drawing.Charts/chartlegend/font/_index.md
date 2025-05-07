@@ -34,6 +34,8 @@ chartLegend.font.size = 14;
 // Change font for specific legend entry.
 chartLegend.legendEntries.at(1).font.italic = true;
 chartLegend.legendEntries.at(1).font.size = 12;
+// Get legend entry for chart series.
+let legendEntry = chart.series.at(0).legendEntry;
 
 doc.save(base.artifactsDir + "Charts.LegendFont.docx");
 ```

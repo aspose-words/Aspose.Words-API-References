@@ -25,8 +25,7 @@ PageRange(from: number, to: number)
 
 ### Remarks
 
-int.MaxValue C# constant means the last page in the document.
-
+ means the last page in the document.
 
 
 ### See Also

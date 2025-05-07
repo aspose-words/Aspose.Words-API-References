@@ -20,7 +20,7 @@ get color(): string
 
 ### Remarks
 
-This property preserves the alpha component of the aspose.pydrawing.Color,
+This property preserves the alpha component of the string,
 unlike the [Fill.foreColor](../foreColor/) property, which resets it to fully opaque color.
 
 

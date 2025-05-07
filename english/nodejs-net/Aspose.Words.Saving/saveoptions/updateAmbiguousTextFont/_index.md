@@ -5,7 +5,7 @@ articleTitle: updateAmbiguousTextFont property
 second_title: Aspose.Words for Node.js
 description: "SaveOptions.updateAmbiguousTextFont property. Determines whether the font attributes will be changed according to the character code being used."
 type: docs
-weight: 130
+weight: 120
 url: /nodejs-net/aspose.words.saving/saveoptions/updateAmbiguousTextFont/
 ---
 

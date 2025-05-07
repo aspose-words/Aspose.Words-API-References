@@ -5,7 +5,7 @@ articleTitle: XlsxSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.XlsxSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Xlsx](../../aspose.words/saveformat/#Xlsx) format"
 type: docs
-weight: 920
+weight: 910
 url: /nodejs-net/aspose.words.saving/xlsxsaveoptions/
 ---
 
@@ -33,7 +33,7 @@ To learn more, visit the [Specify
 | [allowEmbeddingPostScriptFonts](../saveoptions/allowEmbeddingPostScriptFonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [compressionLevel](./compressionLevel/) | Specifies the compression level used to save document. The default value is [CompressionLevel.Normal](../compressionlevel/#Normal). |
 | [dateTimeParsingMode](./dateTimeParsingMode/) | Gets or sets the mode that specifies how document text is parsed to identify date and time values. The default value is [XlsxDateTimeParsingMode.UseCurrentLocale](../xlsxdatetimeparsingmode/#UseCurrentLocale). |
-| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** .<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml3DEffectsRenderingMode](../saveoptions/dml3DEffectsRenderingMode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlEffectsRenderingMode](../saveoptions/dmlEffectsRenderingMode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlRenderingMode](../saveoptions/dmlRenderingMode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -41,7 +41,6 @@ To learn more, visit the [Specify
 | [imlRenderingMode](../saveoptions/imlRenderingMode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [memoryOptimization](../saveoptions/memoryOptimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Xlsx](../../aspose.words/saveformat/#Xlsx). |
 | [sectionMode](./sectionMode/) | Gets or sets the way how sections are handled when saving to the output XLSX document. The default value is [XlsxSectionMode.MultipleWorksheets](../xlsxsectionmode/#MultipleWorksheets). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -59,6 +58,20 @@ To learn more, visit the [Specify
 | --- | --- |
 |[ createSaveOptions(saveFormat)](../saveoptions/createSaveOptions/#saveformat) | Creates a save options object of a class suitable for the specified save format.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 |[ createSaveOptions(fileName)](../saveoptions/createSaveOptions/#string) | Creates a save options object of a class suitable for the file extension specified in the given file name.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+
+### Examples
+
+Shows how to compress XLSX document.
+
+```js
+let doc = new aw.Document(base.myDir + "Shape with linked chart.docx");
+
+let xlsxSaveOptions = new aw.Saving.XlsxSaveOptions();
+xlsxSaveOptions.compressionLevel = aw.Saving.CompressionLevel.Maximum;
+xlsxSaveOptions.saveFormat = aw.SaveFormat.Xlsx;
+
+doc.save(base.artifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
+```
 
 ### See Also
 

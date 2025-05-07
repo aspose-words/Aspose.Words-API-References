@@ -20,7 +20,7 @@ get viewType(): Aspose.Words.Settings.ViewType
 
 ### Remarks
 
-Although Aspose.Words is able to read and write this option, its usage is application-specific. 
+Although Aspose.Words is able to read and write this option, its usage is application-specific.
 For example MS Word 2013 does not respect the value of this option.
 
 

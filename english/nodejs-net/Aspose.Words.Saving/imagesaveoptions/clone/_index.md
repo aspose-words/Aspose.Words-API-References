@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.clone method. Creates a deep clone of this object."
 type: docs
-weight: 180
+weight: 190
 url: /nodejs-net/aspose.words.saving/imagesaveoptions/clone/
 ---
 

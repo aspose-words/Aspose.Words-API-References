@@ -21,7 +21,6 @@ get dateTimeUtc(): Date
 ### Remarks
 
 The default value is
-datetime.datetime.min
 
 
 

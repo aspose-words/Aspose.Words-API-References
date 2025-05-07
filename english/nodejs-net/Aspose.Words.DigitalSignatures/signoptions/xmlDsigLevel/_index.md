@@ -25,6 +25,20 @@ get xmlDsigLevel(): Aspose.Words.DigitalSignatures.XmlDsigLevel
 Different levels of XAdES signatures can be created starting from Office 2010.
 
 
+### Examples
+
+Shows how to sign document based on XML-DSig standard.
+
+```js
+let certificateHolder = aw.DigitalSignatures.CertificateHolder.create(base.myDir + "morzal.pfx", "aw");
+let signOptions = new aw.DigitalSignatures.SignOptions();
+signOptions.xmlDsigLevel = aw.DigitalSignatures.XmlDsigLevel.XAdEsEpes;
+
+let inputFileName = base.myDir + "Document.docx";
+let outputFileName = base.artifactsDir + "DigitalSignatureUtil.xmlDsig.docx";
+aw.DigitalSignatures.DigitalSignatureUtil.sign(inputFileName, outputFileName, certificateHolder, signOptions);
+```
+
 ### See Also
 
 * module [Aspose.Words.DigitalSignatures](../../)

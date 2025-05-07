@@ -21,7 +21,7 @@ get color2(): string
 ### Remarks
 
 The default value for a [Shape](../../shape/) is
-aspose.pydrawing.Color.white.
+white.
 
 
 

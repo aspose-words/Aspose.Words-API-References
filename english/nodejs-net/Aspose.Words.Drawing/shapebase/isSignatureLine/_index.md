@@ -5,7 +5,7 @@ articleTitle: isSignatureLine property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.isSignatureLine property. Indicates that shape is a [SignatureLine](../../signatureline/)."
 type: docs
-weight: 310
+weight: 360
 url: /nodejs-net/aspose.words.drawing/shapebase/isSignatureLine/
 ---
 

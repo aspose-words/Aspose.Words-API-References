@@ -5,7 +5,7 @@ articleTitle: hidden property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.hidden property. Gets or sets a boolean value indicating whether the shape is visible."
 type: docs
-weight: 180
+weight: 230
 url: /nodejs-net/aspose.words.drawing/shapebase/hidden/
 ---
 

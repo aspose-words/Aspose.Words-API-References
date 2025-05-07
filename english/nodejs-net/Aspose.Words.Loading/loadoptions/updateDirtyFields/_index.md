@@ -5,7 +5,7 @@ articleTitle: updateDirtyFields property
 second_title: Aspose.Words for Node.js
 description: "LoadOptions.updateDirtyFields property. Specifies whether to update the fields with the ``dirty`` attribute."
 type: docs
-weight: 160
+weight: 150
 url: /nodejs-net/aspose.words.loading/loadoptions/updateDirtyFields/
 ---
 

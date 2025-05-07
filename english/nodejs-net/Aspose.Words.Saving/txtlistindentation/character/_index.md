@@ -50,10 +50,11 @@ txtSaveOptions.listIndentation.count = 3;
 doc.save(base.artifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 let docText = readTextFile(base.artifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+const newLine = "\r\n";
 
-expect(docText).toEqual("1. Item 1\r\n" +
-                        "   a. Item 2\r\n" +
-                        "      i. Item 3\r\n");
+expect(docText).toEqual(`1. Item 1${newLine}` +
+                        `   a. Item 2${newLine}` +
+                        `      i. Item 3${newLine}`);
 ```
 
 ### See Also

@@ -26,6 +26,18 @@ Provides typed access to [FootnoteSeparator](../footnoteseparator/) nodes of a d
 | --- | --- |
 | [this[]](./this[]/) |  |
 
+### Examples
+
+Shows how to manage footnote separator format.
+
+```js
+let doc = new aw.Document(base.myDir + "Footnotes and endnotes.docx");
+
+let footnoteSeparator = doc.footnoteSeparators.at(aw.Notes.FootnoteSeparatorType.FootnoteSeparator);
+// Align footnote separator.
+footnoteSeparator.firstParagraph.paragraphFormat.alignment = aw.ParagraphAlignment.Center;
+```
+
 ### See Also
 
 * module [Aspose.Words.Notes](../)

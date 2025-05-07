@@ -5,7 +5,7 @@ articleTitle: Node class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Node class. Base class for all nodes of a Word document"
 type: docs
-weight: 830
+weight: 820
 url: /nodejs-net/aspose.words/node/
 ---
 
@@ -56,7 +56,6 @@ The [Node](./) class:
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ asBody()](./asBody/#default) | Cast node to [Body](../body/). |
 |[ asBookmarkEnd()](./asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/). |
 |[ asBookmarkStart()](./asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/). |

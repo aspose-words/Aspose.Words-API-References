@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words.saving/saveoptions/defaultTemplate/
 ## SaveOptions.defaultTemplate property
 
 Gets or sets path to default template (including filename).
-Default value for this property is **empty string** ().
-
+Default value for this property is **empty string**
+.
 
 
 ```js

@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words.saving/htmlsaveoptions/documentSplitCriteria/
 ## HtmlSaveOptions.documentSplitCriteria property
 
 Specifies how the document should be split when saving to [SaveFormat.Html](../../../aspose.words/saveformat/#Html),
-[SaveFormat.Epub](../../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3) format. 
-Default is [DocumentSplitCriteria.None](../../documentsplitcriteria/#None) for HTML and 
+[SaveFormat.Epub](../../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../../aspose.words/saveformat/#Azw3) format.
+Default is [DocumentSplitCriteria.None](../../documentsplitcriteria/#None) for HTML and
 [DocumentSplitCriteria.HeadingParagraph](../../documentsplitcriteria/#HeadingParagraph) for EPUB and AZW3.
 
 
@@ -24,9 +24,9 @@ get documentSplitCriteria(): Aspose.Words.Saving.DocumentSplitCriteria
 
 ### Remarks
 
-Normally you would want a document saved to HTML as a single file. 
-But in some cases it is preferable to split the output into several smaller HTML pages. 
-When saving to HTML format these pages will be output to individual files or streams. 
+Normally you would want a document saved to HTML as a single file.
+But in some cases it is preferable to split the output into several smaller HTML pages.
+When saving to HTML format these pages will be output to individual files or streams.
 When saving to EPUB format they will be incorporated into corresponding packages.
 
 A document cannot be split when saving in the MHTML format.

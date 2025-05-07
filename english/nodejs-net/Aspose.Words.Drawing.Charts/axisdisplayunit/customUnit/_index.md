@@ -22,7 +22,7 @@ get customUnit(): number
 
 The property is not supported by MS Office 2016 new charts. Default value is 1.
 
-Setting this property sets the [AxisDisplayUnit.unit](../unit/) property to 
+Setting this property sets the [AxisDisplayUnit.unit](../unit/) property to
 [AxisBuiltInUnit.Custom](../../axisbuiltinunit/#Custom).
 
 
@@ -73,6 +73,7 @@ axis.scaling.maximum = new aw.Drawing.Charts.AxisBound(30);
 axis.tickLabels.alignment = aw.ParagraphAlignment.Right;
 
 expect(axis.tickLabels.spacing).toEqual(1);
+expect(axis.displayUnit.document.referenceEquals(doc)).toEqual(true);
 
 // Set the tick labels to display their value in millions.
 axis.displayUnit.unit = aw.Drawing.Charts.AxisBuiltInUnit.Millions;

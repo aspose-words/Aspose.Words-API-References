@@ -36,25 +36,25 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [cssClassNamePrefix](./cssClassNamePrefix/) | Specifies a prefix which is added to all CSS class names. Default value is an empty string and generated CSS class names have no common prefix. |
 | [cssSavingCallback](./cssSavingCallback/) | Allows to control how CSS styles are saved when a document is saved to HTML, MHTML or EPUB. |
 | [cssStyleSheetFileName](./cssStyleSheetFileName/) | Specifies the path and the name of the Cascading Style Sheet (CSS) file written when a document is exported to HTML. Default is an empty string. |
-| [cssStyleSheetType](./cssStyleSheetType/) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. Default value is [CssStyleSheetType.Inline](../cssstylesheettype/#Inline) for HTML/MHTML and  [CssStyleSheetType.External](../cssstylesheettype/#External) for EPUB. |
-| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [cssStyleSheetType](./cssStyleSheetType/) | Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB. Default value is [CssStyleSheetType.Inline](../cssstylesheettype/#Inline) for HTML/MHTML and [CssStyleSheetType.External](../cssstylesheettype/#External) for EPUB. |
+| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** .<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml3DEffectsRenderingMode](../saveoptions/dml3DEffectsRenderingMode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlEffectsRenderingMode](../saveoptions/dmlEffectsRenderingMode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlRenderingMode](../saveoptions/dmlRenderingMode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [documentPartSavingCallback](./documentPartSavingCallback/) | Allows to control how document parts are saved when a document is saved to HTML or EPUB. |
-| [documentSplitCriteria](./documentSplitCriteria/) | Specifies how the document should be split when saving to [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) format.  Default is [DocumentSplitCriteria.None](../documentsplitcriteria/#None) for HTML and  [DocumentSplitCriteria.HeadingParagraph](../documentsplitcriteria/#HeadingParagraph) for EPUB and AZW3. |
+| [documentSplitCriteria](./documentSplitCriteria/) | Specifies how the document should be split when saving to [SaveFormat.Html](../../aspose.words/saveformat/#Html), [SaveFormat.Epub](../../aspose.words/saveformat/#Epub) or [SaveFormat.Azw3](../../aspose.words/saveformat/#Azw3) format. Default is [DocumentSplitCriteria.None](../documentsplitcriteria/#None) for HTML and [DocumentSplitCriteria.HeadingParagraph](../documentsplitcriteria/#HeadingParagraph) for EPUB and AZW3. |
 | [documentSplitHeadingLevel](./documentSplitHeadingLevel/) | Specifies the maximum level of headings at which to split the document. Default value is ``2``. |
-| [encoding](./encoding/) | Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is ``new UTF8Encoding(false)`` (UTF-8 without BOM). |
+| [encoding](./encoding/) | Specifies the encoding to use when exporting to HTML, MHTML or EPUB. Default value is . |
 | [exportCidUrlsForMhtmlResources](./exportCidUrlsForMhtmlResources/) | Specifies whether to use CID (Content-ID) URLs to reference resources (images, fonts, CSS) included in MHTML documents. Default value is ``false``. |
 | [exportDocumentProperties](./exportDocumentProperties/) | Specifies whether to export built-in and custom document properties to HTML, MHTML or EPUB. Default value is ``false``. |
 | [exportDropDownFormFieldAsText](./exportDropDownFormFieldAsText/) | Controls how drop-down form fields are saved to HTML or MHTML. Default value is ``false``. |
 | [exportFontResources](./exportFontResources/) | Specifies whether font resources should be exported to HTML, MHTML or EPUB. Default is ``false``. |
 | [exportFontsAsBase64](./exportFontsAsBase64/) | Specifies whether fonts resources should be embedded to HTML in Base64 encoding. Default is ``false``. |
 | [exportGeneratorName](../saveoptions/exportGeneratorName/) | When ``true``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``true``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [exportHeadersFootersMode](./exportHeadersFootersMode/) | Specifies how headers and footers are output to HTML, MHTML or EPUB.  Default value is [ExportHeadersFootersMode.PerSection](../exportheadersfootersmode/#PerSection) for HTML/MHTML  and [ExportHeadersFootersMode.None](../exportheadersfootersmode/#None) for EPUB. |
+| [exportHeadersFootersMode](./exportHeadersFootersMode/) | Specifies how headers and footers are output to HTML, MHTML or EPUB. Default value is [ExportHeadersFootersMode.PerSection](../exportheadersfootersmode/#PerSection) for HTML/MHTML and [ExportHeadersFootersMode.None](../exportheadersfootersmode/#None) for EPUB. |
 | [exportImagesAsBase64](./exportImagesAsBase64/) | Specifies whether images are saved in Base64 format to the output HTML, MHTML or EPUB. Default is ``false``. |
 | [exportLanguageInformation](./exportLanguageInformation/) | Specifies whether language information is exported to HTML, MHTML or EPUB. Default is ``false``. |
-| [exportListLabels](./exportListLabels/) | Controls how list labels are output to HTML, MHTML or EPUB.  Default value is [ExportListLabels.Auto](../exportlistlabels/#Auto). |
+| [exportListLabels](./exportListLabels/) | Controls how list labels are output to HTML, MHTML or EPUB. Default value is [ExportListLabels.Auto](../exportlistlabels/#Auto). |
 | [exportOriginalUrlForLinkedImages](./exportOriginalUrlForLinkedImages/) | Specifies whether original URL should be used as the URL of the linked images. Default value is ``false``. |
 | [exportPageMargins](./exportPageMargins/) | Specifies whether page margins is exported to HTML, MHTML or EPUB. Default is ``false``. |
 | [exportPageSetup](./exportPageSetup/) | Specifies whether page setup is exported to HTML, MHTML or EPUB. Default is ``false``. |
@@ -63,7 +63,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [exportShapesAsSvg](./exportShapesAsSvg/) | Controls whether [Shape](../../aspose.words.drawing/shape/) nodes are converted to SVG images when saving to HTML, MHTML, EPUB or AZW3. Default value is ``false``. |
 | [exportTextInputFormFieldAsText](./exportTextInputFormFieldAsText/) | Controls how text input form fields are saved to HTML or MHTML. Default value is ``false``. |
 | [exportTocPageNumbers](./exportTocPageNumbers/) | Specifies whether to write page numbers to table of contents when saving HTML, MHTML and EPUB. Default value is ``false``. |
-| [exportXhtmlTransitional](./exportXhtmlTransitional/) | Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When ``true``, writes a DOCTYPE declaration in the document prior to the root element.  Default value is ``false``. When saving to EPUB or HTML5 ([HtmlVersion.Html5](../htmlversion/#Html5)) the DOCTYPE declaration is always written. |
+| [exportXhtmlTransitional](./exportXhtmlTransitional/) | Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML. When ``true``, writes a DOCTYPE declaration in the document prior to the root element. Default value is ``false``. When saving to EPUB or HTML5 ([HtmlVersion.Html5](../htmlversion/#Html5)) the DOCTYPE declaration is always written. |
 | [fontResourcesSubsettingSizeThreshold](./fontResourcesSubsettingSizeThreshold/) | Controls which font resources need subsetting when saving to HTML, MHTML or EPUB. Default is ``0``. |
 | [fontSavingCallback](./fontSavingCallback/) | Allows to control how fonts are saved when a document is saved to HTML, MHTML or EPUB. |
 | [fontsFolder](./fontsFolder/) | Specifies the physical folder where fonts are saved when exporting a document to HTML. Default is an empty string. |
@@ -79,7 +79,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [navigationMapLevel](./navigationMapLevel/) | Specifies the maximum level of headings populated to the navigation map when exporting to EPUB, MOBI, or AZW3 formats. Default value is ``3``. |
 | [officeMathOutputMode](./officeMathOutputMode/) | Controls how OfficeMath objects are exported to HTML, MHTML or EPUB. Default value is [HtmlOfficeMathOutputMode.Image](../htmlofficemathoutputmode/#Image). |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [removeJavaScriptFromLinks](./removeJavaScriptFromLinks/) | Specifies whether JavaScript will be removed from links. Default is ``false``. |
 | [replaceBackslashWithYenSign](./replaceBackslashWithYenSign/) | Specifies whether backslash characters should be replaced with yen signs. Default value is ``false``. |
 | [resolveFontNames](./resolveFontNames/) | Specifies whether font family names used in the document are resolved and substituted according to [Document.fontSettings](../../aspose.words/document/fontSettings/) when being written into HTML-based formats. |
 | [resourceFolder](./resourceFolder/) | Specifies a physical folder where all resources like images, fonts, and external CSS are saved when a document is exported to HTML. Default is an empty string. |
@@ -104,6 +104,49 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 |[ createSaveOptions(fileName)](../saveoptions/createSaveOptions/#string) | Creates a save options object of a class suitable for the file extension specified in the given file name.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 
 ### Examples
+
+Shows how to use a specific encoding when saving a document to .epub.
+
+```js
+let doc = new aw.Document(base.myDir + "Rendering.docx");
+
+// Use a SaveOptions object to specify the encoding for a document that we will save.
+let saveOptions = new aw.Saving.HtmlSaveOptions();
+saveOptions.saveFormat = aw.SaveFormat.Epub;
+saveOptions.encoding = "utf-8";
+
+// By default, an output .epub document will have all its contents in one HTML part.
+// A split criterion allows us to segment the document into several HTML parts.
+// We will set the criteria to split the document into heading paragraphs.
+// This is useful for readers who cannot read HTML files more significant than a specific size.
+saveOptions.documentSplitCriteria = aw.Saving.DocumentSplitCriteria.HeadingParagraph;
+
+// Specify that we want to export document properties.
+saveOptions.exportDocumentProperties = true;
+
+doc.save(base.artifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+```
+
+Shows how to specify the folder for storing linked images after saving to .html.
+
+```js
+let doc = new aw.Document(base.myDir + "Rendering.docx");
+
+let imagesDir = path.join(base.artifactsDir, "SaveHtmlWithOptions");
+
+if (fs.existsSync(imagesDir)) {
+  fs.rmSync(imagesDir, { recursive: true, force: true });
+}
+
+fs.mkdirSync(imagesDir, { recursive: true });
+
+// Set an option to export form fields as plain text instead of HTML input elements.
+let options = new aw.Saving.HtmlSaveOptions(aw.SaveFormat.Html);
+options.exportTextInputFormFieldAsText = true;
+options.imagesFolder = imagesDir;
+
+doc.save(base.artifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+```
 
 Shows how to split a document into parts and save them.
 
@@ -215,49 +258,6 @@ public class SavedImageRename : IImageSavingCallback
   private int mCount;
   private readonly string mOutFileName;
 }
-```
-
-Shows how to use a specific encoding when saving a document to .epub.
-
-```js
-let doc = new aw.Document(base.myDir + "Rendering.docx");
-
-// Use a SaveOptions object to specify the encoding for a document that we will save.
-let saveOptions = new aw.Saving.HtmlSaveOptions();
-saveOptions.saveFormat = aw.SaveFormat.Epub;
-saveOptions.encoding = "utf-8";
-
-// By default, an output .epub document will have all its contents in one HTML part.
-// A split criterion allows us to segment the document into several HTML parts.
-// We will set the criteria to split the document into heading paragraphs.
-// This is useful for readers who cannot read HTML files more significant than a specific size.
-saveOptions.documentSplitCriteria = aw.Saving.DocumentSplitCriteria.HeadingParagraph;
-
-// Specify that we want to export document properties.
-saveOptions.exportDocumentProperties = true;
-
-doc.save(base.artifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
-```
-
-Shows how to specify the folder for storing linked images after saving to .html.
-
-```js
-let doc = new aw.Document(base.myDir + "Rendering.docx");
-
-let imagesDir = path.join(base.artifactsDir, "SaveHtmlWithOptions");
-
-if (fs.existsSync(imagesDir)) {
-  fs.rmSync(imagesDir, { recursive: true, force: true });
-}
-
-fs.mkdirSync(imagesDir, { recursive: true });
-
-// Set an option to export form fields as plain text instead of HTML input elements.
-let options = new aw.Saving.HtmlSaveOptions(aw.SaveFormat.Html);
-options.exportTextInputFormFieldAsText = true;
-options.imagesFolder = imagesDir;
-
-doc.save(base.artifactsDir + "HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ```
 
 ### See Also

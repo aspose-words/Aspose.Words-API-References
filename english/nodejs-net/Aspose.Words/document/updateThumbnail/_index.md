@@ -5,7 +5,7 @@ articleTitle: updateThumbnail method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.updateThumbnail method"
 type: docs
-weight: 790
+weight: 770
 url: /nodejs-net/aspose.words/document/updateThumbnail/
 ---
 

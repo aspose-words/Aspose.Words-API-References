@@ -5,7 +5,7 @@ articleTitle: deleteHeaderFooterShapes method
 second_title: Aspose.Words for Node.js
 description: "Section.deleteHeaderFooterShapes method. Deletes all shapes (drawing objects) from the headers and footers of this section."
 type: docs
-weight: 120
+weight: 110
 url: /nodejs-net/aspose.words/section/deleteHeaderFooterShapes/
 ---
 
@@ -32,7 +32,7 @@ builder.insertShape(aw.Drawing.ShapeType.Rectangle, 100, 100);
 
 // Create a primary footer with an image.
 builder.moveToHeaderFooter(aw.HeaderFooterType.FooterPrimary);
-builder.insertImage(base.imageDir + "Logo Icon.ico");
+builder.insertImage(base.imageDir + "Logo icon.ico");
 
 expect(doc.firstSection.headersFooters.getByHeaderFooterType(aw.HeaderFooterType.HeaderPrimary).getChildNodes(aw.NodeType.Shape, true).count).toEqual(1);
 expect(doc.firstSection.headersFooters.getByHeaderFooterType(aw.HeaderFooterType.FooterPrimary).getChildNodes(aw.NodeType.Shape, true).count).toEqual(1);

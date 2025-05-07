@@ -22,7 +22,7 @@ get exportPageMargins(): boolean
 
 ### Remarks
 
-Aspose.Words does not show area of page margins by default. 
+Aspose.Words does not show area of page margins by default.
 If any elements are completely or partially clipped by the document edge the displayed area can be extended with
 this option.
 

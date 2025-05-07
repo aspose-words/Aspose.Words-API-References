@@ -13,8 +13,8 @@ url: /nodejs-net/aspose.words.drawing/signatureline/instructions/
 
 Gets or sets instructions to the signer that are displayed on signing the signature line.
 This property is ignored if [SignatureLine.defaultInstructions](../defaultInstructions/) is set.
-Default value for this property is **empty string** ().
-
+Default value for this property is **empty string**
+.
 
 
 ```js

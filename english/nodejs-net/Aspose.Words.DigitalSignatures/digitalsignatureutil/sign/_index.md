@@ -19,6 +19,7 @@ Supported formats are:
 [LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
 [LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
 [LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Dotm](../../../aspose.words/loadformat/#Dotm),
 [LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
 [LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
@@ -36,7 +37,7 @@ sign(srcStream: Buffer, dstStream: Buffer, certHolder: Aspose.Words.DigitalSigna
 | --- | --- | --- |
 | srcStream | Buffer | The stream which contains the document to sign. |
 | dstStream | Buffer | The stream that signed document will be written to. |
-| certHolder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| certHolder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. |
 | signOptions | [SignOptions](../../signoptions/) | [SignOptions](../../signoptions/) object with various signing options. |
 
 ## sign(srcFileName, dstFileName, certHolder, signOptions) {#string_string_certificateholder_signoptions}
@@ -49,6 +50,7 @@ Supported formats are:
 [LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
 [LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
 [LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Dotm](../../../aspose.words/loadformat/#Dotm),
 [LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
 [LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
@@ -63,7 +65,7 @@ sign(srcFileName: string, dstFileName: string, certHolder: Aspose.Words.DigitalS
 | --- | --- | --- |
 | srcFileName | string | The file name of the document to sign. |
 | dstFileName | string | The file name of the signed document output. |
-| certHolder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| certHolder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. |
 | signOptions | [SignOptions](../../signoptions/) | [SignOptions](../../signoptions/) object with various signing options. |
 
 ## sign(srcStream, dstStream, certHolder) {#buffer_buffer_certificateholder}
@@ -76,6 +78,7 @@ Supported formats are:
 [LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
 [LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
 [LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Dotm](../../../aspose.words/loadformat/#Dotm),
 [LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
 [LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
@@ -93,7 +96,7 @@ sign(srcStream: Buffer, dstStream: Buffer, certHolder: Aspose.Words.DigitalSigna
 | --- | --- | --- |
 | srcStream | Buffer | The stream which contains the document to sign. |
 | dstStream | Buffer | The stream that signed document will be written to. |
-| certHolder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| certHolder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. |
 
 ## sign(srcFileName, dstFileName, certHolder) {#string_string_certificateholder}
 
@@ -105,6 +108,7 @@ Supported formats are:
 [LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
 [LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
 [LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Dotm](../../../aspose.words/loadformat/#Dotm),
 [LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
 [LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 
@@ -119,7 +123,7 @@ sign(srcFileName: string, dstFileName: string, certHolder: Aspose.Words.DigitalS
 | --- | --- | --- |
 | srcFileName | string | The file name of the document to sign. |
 | dstFileName | string | The file name of the signed document output. |
-| certHolder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. The certificate in holder MUST contain private keys and have the X509KeyStorageFlags.Exportable flag set. |
+| certHolder | [CertificateHolder](../../certificateholder/) | [CertificateHolder](../../certificateholder/) object with certificate that used to sign file. |
 
 ## Examples
 

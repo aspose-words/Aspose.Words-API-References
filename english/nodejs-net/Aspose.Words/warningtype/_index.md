@@ -5,7 +5,7 @@ articleTitle: WarningType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WarningType enumeration. Specifies the type of a warning that is issued by Aspose.Words during document loading or saving."
 type: docs
-weight: 1500
+weight: 1490
 url: /nodejs-net/aspose.words/warningtype/
 ---
 

@@ -43,7 +43,7 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 |[ asCheckBoxControl()](../olecontrol/asCheckBoxControl/#default) | <br>(Inherited from [OleControl](../olecontrol/)) |
 |[ asForms2OleControl()](../olecontrol/asForms2OleControl/#default) | <br>(Inherited from [OleControl](../olecontrol/)) |
 |[ asOptionButtonControl()](../olecontrol/asOptionButtonControl/#default) | <br>(Inherited from [OleControl](../olecontrol/)) |
-|[ asTextBoxControl()](./asTextBoxControl/#default) | Casts Forms2OleControl to [TextBoxControl](../textboxcontrol/), otherwise returns null. |
+|[ asTextBoxControl()](../olecontrol/asTextBoxControl/#default) | <br>(Inherited from [OleControl](../olecontrol/)) |
 
 ### Examples
 

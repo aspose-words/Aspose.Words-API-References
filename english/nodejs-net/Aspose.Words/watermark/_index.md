@@ -3,17 +3,15 @@ title: Watermark class
 linktitle: Watermark class
 articleTitle: Watermark class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.Watermark class. Represents class to work with document watermark"
+description: "Aspose.Words.Watermark class. Adapts [Watermark](./) class public API for Node.js porting."
 type: docs
-weight: 1510
+weight: 1500
 url: /nodejs-net/aspose.words/watermark/
 ---
 
 ## Watermark class
 
-Represents class to work with document watermark.
-To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/nodejs-net/working-with-watermark/) documentation article.
-
+Adapts [Watermark](./) class public API for Node.js porting.
 
 
 
@@ -31,6 +29,7 @@ To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/
 |[ setImage(image)](./setImage/#jsimage) |  |
 |[ setImage(image, options)](./setImage/#jsimage_imagewatermarkoptions) |  |
 |[ setImage(imagePath, options)](./setImage/#string_imagewatermarkoptions) | Adds Image watermark into the document. |
+|[ setImage(imageStream, options)](./setImage/#buffer_imagewatermarkoptions) | Adds Image watermark into the document. |
 |[ setText(text)](./setText/#string) | Adds Text watermark into the document. |
 |[ setText(text, options)](./setText/#string_textwatermarkoptions) | Adds Text watermark into the document. |
 

@@ -5,7 +5,7 @@ articleTitle: TxtTrailingSpacesOptions enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.TxtTrailingSpacesOptions enumeration. Specifies available options for trailing spaces handling during import from [LoadFormat.Text](../../aspose.words/loadformat/#Text) file."
 type: docs
-weight: 200
+weight: 190
 url: /nodejs-net/aspose.words.loading/txttrailingspacesoptions/
 ---
 

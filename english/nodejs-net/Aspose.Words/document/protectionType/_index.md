@@ -5,7 +5,7 @@ articleTitle: protectionType property
 second_title: Aspose.Words for Node.js
 description: "Document.protectionType property. Gets the currently active document protection type."
 type: docs
-weight: 320
+weight: 330
 url: /nodejs-net/aspose.words/document/protectionType/
 ---
 

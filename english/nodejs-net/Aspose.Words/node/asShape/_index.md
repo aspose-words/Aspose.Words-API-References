@@ -5,7 +5,7 @@ articleTitle: asShape method
 second_title: Aspose.Words for Node.js
 description: "Node.asShape method. Cast node to [Shape](../../../aspose.words.drawing/shape/)."
 type: docs
-weight: 350
+weight: 340
 url: /nodejs-net/aspose.words/node/asShape/
 ---
 
@@ -18,6 +18,12 @@ Cast node to [Shape](../../../aspose.words.drawing/shape/).
 ```js
 asShape()
 ```
+
+### Remarks
+
+If a method returns a base class object, you should explicitly cast it to the derived class
+for access to the derived class members. Otherwise, you will only be able to access the members of the base class.
+
 
 ### See Also
 

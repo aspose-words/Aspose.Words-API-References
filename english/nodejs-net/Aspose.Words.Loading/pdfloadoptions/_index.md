@@ -5,7 +5,7 @@ articleTitle: PdfLoadOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.PdfLoadOptions class. Allows to specify additional options when loading Pdf document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 130
+weight: 120
 url: /nodejs-net/aspose.words.loading/pdfloadoptions/
 ---
 
@@ -41,12 +41,30 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [pageIndex](./pageIndex/) | Gets or sets the 0-based index of the first page to read. Default is 0. |
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``null`` or empty string. Default is ``null``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [preserveIncludePictureField](../loadoptions/preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``false``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [progressCallback](../loadoptions/progressCallback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resourceLoadingCallback](../loadoptions/resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [skipPdfImages](./skipPdfImages/) | Gets or sets the flag indicating whether images must be skipped while loading PDF document. Default is ``false``. |
 | [tempFolder](../loadoptions/tempFolder/) | Allows to use temporary files when reading document. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [updateDirtyFields](../loadoptions/updateDirtyFields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [useSystemLcid](../loadoptions/useSystemLcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+
+### Examples
+
+Shows how to skip images during loading PDF files.
+
+```js
+let options = new aw.Loading.PdfLoadOptions();
+options.skipPdfImages = isSkipPdfImages;
+options.pageIndex = 0;
+options.pageCount = 1;
+
+let doc = new aw.Document(base.myDir + "Images.pdf", options);
+let shapeCollection = doc.getChildNodes(aw.NodeType.Shape, true);
+
+if (isSkipPdfImages)
+  expect(shapeCollection.count).toEqual(0);
+else
+  expect(shapeCollection.count).not.toEqual(0);
+```
 
 ### See Also
 

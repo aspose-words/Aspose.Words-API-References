@@ -11,7 +11,7 @@ url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportListLabels/
 
 ## HtmlSaveOptions.exportListLabels property
 
-Controls how list labels are output to HTML, MHTML or EPUB. 
+Controls how list labels are output to HTML, MHTML or EPUB.
 Default value is [ExportListLabels.Auto](../../exportlistlabels/#Auto).
 
 

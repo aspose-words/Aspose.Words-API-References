@@ -57,8 +57,6 @@ detectFileFormat(stream: Buffer)
 
 The stream must be positioned at the beginning of the document.
 
-When this method returns, the position in the stream is restored to the original position.
-
 Even if this method detects the document format, it does not guarantee
 that the specified document is valid. This method only detects the document format by
 reading data that is sufficient for detection. To fully verify that a document is valid

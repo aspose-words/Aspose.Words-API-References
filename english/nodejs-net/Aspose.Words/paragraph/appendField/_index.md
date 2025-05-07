@@ -5,7 +5,7 @@ articleTitle: appendField method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Paragraph.appendField method"
 type: docs
-weight: 260
+weight: 230
 url: /nodejs-net/aspose.words/paragraph/appendField/
 ---
 

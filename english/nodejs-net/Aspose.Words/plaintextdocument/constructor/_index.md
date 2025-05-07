@@ -78,7 +78,7 @@ PlainTextDocument(stream: Buffer)
 
 ### Remarks
 
-The document must be stored at the beginning of the stream. The stream must support random positioning.
+The document must be stored at the beginning of the stream. 
 
 
 
@@ -112,7 +112,7 @@ PlainTextDocument(stream: Buffer, loadOptions: Aspose.Words.Loading.LoadOptions)
 
 ### Remarks
 
-The document must be stored at the beginning of the stream. The stream must support random positioning.
+The document must be stored at the beginning of the stream. 
 
 
 

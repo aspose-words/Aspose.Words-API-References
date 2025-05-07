@@ -5,7 +5,7 @@ articleTitle: SaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.SaveOptions class. This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format"
 type: docs
-weight: 780
+weight: 770
 url: /nodejs-net/aspose.words.saving/saveoptions/
 ---
 
@@ -30,7 +30,7 @@ or string [Document.save()](../../aspose.words/document/save/#string_saveoptions
 | Name | Description |
 | --- | --- |
 | [allowEmbeddingPostScriptFonts](./allowEmbeddingPostScriptFonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``false``. |
-| [defaultTemplate](./defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** (). |
+| [defaultTemplate](./defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** . |
 | [dml3DEffectsRenderingMode](./dml3DEffectsRenderingMode/) | Gets or sets a value determining how 3D effects are rendered. |
 | [dmlEffectsRenderingMode](./dmlEffectsRenderingMode/) | Gets or sets a value determining how DrawingML effects are rendered. |
 | [dmlRenderingMode](./dmlRenderingMode/) | Gets or sets a value determining how DrawingML shapes are rendered. |
@@ -38,7 +38,6 @@ or string [Document.save()](../../aspose.words/document/save/#string_saveoptions
 | [imlRenderingMode](./imlRenderingMode/) | Gets or sets a value determining how ink (InkML) objects are rendered. |
 | [memoryOptimization](./memoryOptimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``false``. |
 | [prettyFormat](./prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``. |
-| [progressCallback](./progressCallback/) | Called during saving a document and accepts data about saving progress. |
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. |
 | [tempFolder](./tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used. |
 | [updateAmbiguousTextFont](./updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used. |

@@ -5,7 +5,7 @@ articleTitle: compare method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.compare method"
 type: docs
-weight: 580
+weight: 560
 url: /nodejs-net/aspose.words/document/compare/
 ---
 
@@ -138,19 +138,22 @@ docEdited.firstSection.headersFooters.getByHeaderFooterType(aw.HeaderFooterType.
 // Comparing documents creates a revision for every edit in the edited document.
 // A CompareOptions object has a series of flags that can suppress revisions
 // on each respective type of element, effectively ignoring their change.
-Aspose.words.Comparing.CompareOptions compareOptions = new Aspose.words.Comparing.CompareOptions();
-compareOptions.ignoreFormatting = false;
-compareOptions.ignoreCaseChanges = false;
-compareOptions.ignoreComments = false;
-compareOptions.ignoreTables = false;
-compareOptions.ignoreFields = false;
-compareOptions.ignoreFootnotes = false;
-compareOptions.ignoreTextboxes = false;
-compareOptions.ignoreHeadersAndFooters = false;
-compareOptions.target = aw.Comparing.ComparisonTargetType.New;
+let compareOptions = new aw.Comparing.CompareOptions
+{
+  CompareMoves = false,
+  IgnoreFormatting = false,
+  IgnoreCaseChanges = false,
+  IgnoreComments = false,
+  IgnoreTables = false,
+  IgnoreFields = false,
+  IgnoreFootnotes = false,
+  IgnoreTextboxes = false,
+  IgnoreHeadersAndFooters = false,
+  Target = aw.Comparing.ComparisonTargetType.New
+};
 
 docOriginal.compare(docEdited, "John Doe", Date.now(), compareOptions);
-docOriginal.save(base.artifactsDir + "Document.CompareOptions.docx");
+docOriginal.save(base.artifactsDir + "Revision.compareOptions.docx");
 ```
 
 ## See Also

@@ -3,7 +3,7 @@ title: DocumentBuilder class
 linktitle: DocumentBuilder class
 articleTitle: DocumentBuilder class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.DocumentBuilder class. Provides methods to insert text, images and other content, specify font, paragraph and section formatting"
+description: "Aspose.Words.DocumentBuilder class. Adapts [DocumentBuilder](./) class public API for Node.js porting."
 type: docs
 weight: 330
 url: /nodejs-net/aspose.words/documentbuilder/
@@ -11,9 +11,7 @@ url: /nodejs-net/aspose.words/documentbuilder/
 
 ## DocumentBuilder class
 
-Provides methods to insert text, images and other content, specify font, paragraph and section formatting.
-To learn more, visit the [Document Builder Overview](https://docs.aspose.com/words/nodejs-net/document-builder-overview/) documentation article.
-
+Adapts [DocumentBuilder](./) class public API for Node.js porting.
 
 
 
@@ -96,7 +94,9 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insertBreak(breakType)](./insertBreak/#breaktype) | Inserts a break of the specified type into the document. |
 |[ insertCell()](./insertCell/#default) | Inserts a table cell into the document. |
 |[ insertChart(chartType, width, height)](./insertChart/#charttype_number_number) | Inserts an chart object into the document and scales it to the specified size. |
+|[ insertChart(chartType, width, height, chartStyle)](./insertChart/#charttype_number_number_chartstyle) | Inserts an chart object into the document and scales it to the specified size. |
 |[ insertChart(chartType, horzPos, left, vertPos, top, width, height, wrapType)](./insertChart/#charttype_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype) | Inserts an chart object into the document and scales it to the specified size. |
+|[ insertChart(chartType, horzPos, left, vertPos, top, width, height, wrapType, chartStyle)](./insertChart/#charttype_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype_chartstyle) | Inserts an chart object into the document and scales it to the specified size. |
 |[ insertCheckBox(name, checkedValue, size)](./insertCheckBox/#string_boolean_number) | Inserts a checkbox form field at the current position. |
 |[ insertCheckBox(name, defaultValue, checkedValue, size)](./insertCheckBox/#string_boolean_boolean_number) | Inserts a checkbox form field at the current position. |
 |[ insertComboBox(name, items, selectedIndex)](./insertComboBox/#string_string[]_number) | Inserts a combobox form field at the current position. |

@@ -5,7 +5,7 @@ articleTitle: left property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.left property. Gets or sets the position of the left edge of the containing block of the shape."
 type: docs
-weight: 340
+weight: 390
 url: /nodejs-net/aspose.words.drawing/shapebase/left/
 ---
 

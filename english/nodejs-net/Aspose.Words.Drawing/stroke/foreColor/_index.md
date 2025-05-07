@@ -21,7 +21,7 @@ get foreColor(): string
 ### Remarks
 
 The default value for a [Shape](../../shape/) is
-aspose.pydrawing.Color.black.
+black.
 
 
 

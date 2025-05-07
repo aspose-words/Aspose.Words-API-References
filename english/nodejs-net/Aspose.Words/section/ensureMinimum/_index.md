@@ -5,7 +5,7 @@ articleTitle: ensureMinimum method
 second_title: Aspose.Words for Node.js
 description: "Section.ensureMinimum method. Ensures that the section has [Section.body](../body/) with one [Paragraph](../../paragraph/)."
 type: docs
-weight: 130
+weight: 120
 url: /nodejs-net/aspose.words/section/ensureMinimum/
 ---
 

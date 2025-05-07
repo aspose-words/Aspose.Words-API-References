@@ -55,6 +55,31 @@ If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``null``, the waterm
 | --- | --- |
 | RuntimeError (Proxy error(ArgumentNullException)) | Throws when the path is ``null``. |
 
+## setImage(imageStream, options) {#buffer_imagewatermarkoptions}
+
+Adds Image watermark into the document.
+
+
+```js
+setImage(imageStream: Buffer, options: Aspose.Words.ImageWatermarkOptions)
+```
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageStream | Buffer | The stream containing the image data that is displayed as a watermark. |
+| options | [ImageWatermarkOptions](../../imagewatermarkoptions/) | Defines additional options for the image watermark. |
+
+### Remarks
+
+If [ImageWatermarkOptions](../../imagewatermarkoptions/) is ``null``, the watermark will be set with default options.
+
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| RuntimeError (Proxy error(ArgumentNullException)) | Throws when the path is ``null``. |
+
 ## See Also
 
 * module [Aspose.Words](../../)

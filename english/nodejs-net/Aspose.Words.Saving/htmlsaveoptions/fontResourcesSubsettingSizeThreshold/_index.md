@@ -32,10 +32,10 @@ Font subsetting works as follows:
 
 * By default, all exported fonts are subsetted.
   
-* Setting [HtmlSaveOptions.fontResourcesSubsettingSizeThreshold](./) to a positive value 
+* Setting [HtmlSaveOptions.fontResourcesSubsettingSizeThreshold](./) to a positive value
   instructs Aspose.Words to subset fonts which file size is larger than the specified value.
   
-* Setting the property to int.MaxValue C# constant
+* Setting the property to 
   suppresses font subsetting.
   
 **Important!** When exporting font resources, font licensing issues should be considered. Authors who want to use specific fonts via a downloadable

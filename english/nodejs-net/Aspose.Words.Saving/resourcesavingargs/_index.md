@@ -3,15 +3,15 @@ title: ResourceSavingArgs class
 linktitle: ResourceSavingArgs class
 articleTitle: ResourceSavingArgs class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.Saving.ResourceSavingArgs class. Provides data for the [IResourceSavingCallback.resourceSaving()](../iresourcesavingcallback/resourceSaving/#resourcesavingargs) event"
+description: "Aspose.Words.Saving.ResourceSavingArgs class. Provides data for the Aspose.Words.Saving.IResourceSavingCallback.ResourceSaving(Aspose.Words.Saving.ResourceSavingArgs) event"
 type: docs
-weight: 760
+weight: 750
 url: /nodejs-net/aspose.words.saving/resourcesavingargs/
 ---
 
 ## ResourceSavingArgs class
 
-Provides data for the [IResourceSavingCallback.resourceSaving()](../iresourcesavingcallback/resourceSaving/#resourcesavingargs) event.
+Provides data for the Aspose.Words.Saving.IResourceSavingCallback.ResourceSaving(Aspose.Words.Saving.ResourceSavingArgs) event.
 To learn more, visit the [Save a Document](https://docs.aspose.com/words/nodejs-net/save-a-document/) documentation article.
 
 

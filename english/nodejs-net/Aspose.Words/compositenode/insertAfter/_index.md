@@ -5,7 +5,7 @@ articleTitle: insertAfter method
 second_title: Aspose.Words for Node.js
 description: "CompositeNode.insertAfter method. Inserts the specified node immediately after the specified reference node."
 type: docs
-weight: 270
+weight: 250
 url: /nodejs-net/aspose.words/compositenode/insertAfter/
 ---
 

@@ -36,7 +36,7 @@ builderB.writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit"
 
 // Specify whether changes are tracking
 // by character ('Granularity.CharLevel'), or by word ('Granularity.WordLevel').
-Aspose.words.Comparing.CompareOptions compareOptions = new Aspose.words.Comparing.CompareOptions();
+let compareOptions = new aw.Comparing.CompareOptions();
 compareOptions.granularity = granularity;
 
 docA.compare(docB, "author", Date.now(), compareOptions);

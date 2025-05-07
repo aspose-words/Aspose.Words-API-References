@@ -29,6 +29,22 @@ PDF/A-1, PDF/A-2 and regular PDF/A-4 (not PDF/A-4f) standards do not allow embed
 
 
 
+### Examples
+
+Shows how to add embed attachments to the PDF document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.insertOleObject(base.myDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
+
+let saveOptions = new aw.Saving.PdfSaveOptions();
+saveOptions.attachmentsEmbeddingMode = aw.Saving.PdfAttachmentsEmbeddingMode.Annotations;
+
+doc.save(base.artifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", saveOptions);
+```
+
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

@@ -12,8 +12,7 @@ url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 ## HtmlFixedSaveOptions.encoding property
 
 Specifies the encoding to use when exporting to HTML.
-Default value is ``new UTF8Encoding(true)`` (UTF-8 with BOM).
-
+Default value is .
 
 
 ```js

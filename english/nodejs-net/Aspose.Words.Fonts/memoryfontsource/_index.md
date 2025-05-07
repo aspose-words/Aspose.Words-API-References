@@ -34,7 +34,16 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 | [fontData](./fontData/) | Binary font data. |
 | [priority](../fontsourcebase/priority/) | Returns the font source priority.<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
 | [type](./type/) | Returns the type of the font source. |
-| [warningCallback](../fontsourcebase/warningCallback/) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss.<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ asFileFontSource()](../fontsourcebase/asFileFontSource/#default) | Cast [FontSourceBase](../fontsourcebase/) object to [FileFontSource](../filefontsource/).<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
+|[ asFolderFontSource()](../fontsourcebase/asFolderFontSource/#default) | Cast [FontSourceBase](../fontsourcebase/) object to [FolderFontSource](../folderfontsource/).<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
+|[ asMemoryFontSource()](../fontsourcebase/asMemoryFontSource/#default) | Cast [FontSourceBase](../fontsourcebase/) object to [MemoryFontSource](./).<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
+|[ asStreamFontSource()](../fontsourcebase/asStreamFontSource/#default) | Cast [FontSourceBase](../fontsourcebase/) object to [StreamFontSource](../streamfontsource/).<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
+|[ asSystemFontSource()](../fontsourcebase/asSystemFontSource/#default) | Cast [FontSourceBase](../fontsourcebase/) object to [SystemFontSource](../systemfontsource/).<br>(Inherited from [FontSourceBase](../fontsourcebase/)) |
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: WarningInfoCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WarningInfoCollection class. Represents a typed collection of [WarningInfo](../warninginfo/) objects"
 type: docs
-weight: 1480
+weight: 1470
 url: /nodejs-net/aspose.words/warninginfocollection/
 ---
 
@@ -19,9 +19,9 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 
 ### Remarks
 
-You can use this collection object as the simplest form of [IWarningCallback](../iwarningcallback/) implementation to gather 
+You can use this collection object as the simplest form of Aspose.Words.IWarningCallback implementation to gather 
 all warnings that Aspose.Words generates during a load or save operation. Create an instance of this class and assign it 
-to the Aspose.Words.Loading.LoadOptions.WarningCallback or [DocumentBase.warningCallback](../documentbase/warningCallback/) property.
+to the Aspose.Words.Loading.LoadOptions.WarningCallback or Aspose.Words.DocumentBase.WarningCallback property.
 
 
 
@@ -43,11 +43,10 @@ to the Aspose.Words.Loading.LoadOptions.WarningCallback or [DocumentBase.warning
 | Name | Description |
 | --- | --- |
 |[ clear()](./clear/#default) | Removes all elements from the collection. |
-|[ warning(info)](./warning/#warninginfo) | Implements the [IWarningCallback](../iwarningcallback/) interface. Adds a warning to this collection. |
+|[ warning(info)](./warning/#warninginfo) | Implements the Aspose.Words.IWarningCallback interface. Adds a warning to this collection. |
 
 ### See Also
 
 * module [Aspose.Words](../)
 * class [WarningInfo](../warninginfo/)
-* class [IWarningCallback](../iwarningcallback/)
 

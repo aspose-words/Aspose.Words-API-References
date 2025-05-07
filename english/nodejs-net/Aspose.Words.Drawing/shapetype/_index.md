@@ -279,7 +279,7 @@ let doc = new aw.Document();
 // The "Shape" class's public constructor will create a shape with "ShapeMarkupLanguage.Vml" markup type.
 // If you need to create a shape of a non-primitive type, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
-// please use aw.DocumentBuilder.insertShape.
+// please use DocumentBuilder.insertShape.
 let shape = new aw.Drawing.Shape(doc, aw.Drawing.ShapeType.Image);
 shape.imageData.setImage(base.imageDir + "Windows MetaFile.wmf");
 shape.width = 100;

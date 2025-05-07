@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words/signaturelineoptions/signer/
 ## SignatureLineOptions.signer property
 
 Gets or sets suggested signer of the signature line.
-Default value for this property is **empty string** ().
-
+Default value for this property is **empty string**
+.
 
 
 ```js

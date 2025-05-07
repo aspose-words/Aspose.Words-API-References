@@ -5,7 +5,7 @@ articleTitle: verticalAlignment property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.verticalAlignment property. Specifies how the shape is positioned vertically."
 type: docs
-weight: 540
+weight: 600
 url: /nodejs-net/aspose.words.drawing/shapebase/verticalAlignment/
 ---
 

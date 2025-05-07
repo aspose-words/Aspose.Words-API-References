@@ -59,6 +59,9 @@ expect(variables.indexOfKey("Bedrooms")).toEqual(0);
 expect(variables.indexOfKey("City")).toEqual(1);
 expect(variables.indexOfKey("Home address")).toEqual(2);
 
+expect(variables.at(0)).toEqual("3");
+expect(variables.at("City")).toEqual("London");
+
 // Enumerate over the collection of variables.
 for (var i = 0; i < variables.count; i++) {
   console.log(`Index: ${i}, Value: ${variables.at(i)}`);

@@ -5,7 +5,7 @@ articleTitle: RtfLoadOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.RtfLoadOptions class. Allows to specify additional options when loading [LoadFormat.Rtf](../../aspose.words/loadformat/#Rtf) document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 170
+weight: 160
 url: /nodejs-net/aspose.words.loading/rtfloadoptions/
 ---
 
@@ -39,7 +39,6 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [mswVersion](../loadoptions/mswVersion/) | Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.Word2019](../../aspose.words.settings/mswordversion/#Word2019)<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``null`` or empty string. Default is ``null``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [preserveIncludePictureField](../loadoptions/preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``false``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [progressCallback](../loadoptions/progressCallback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [recognizeUtf8Text](./recognizeUtf8Text/) | When set to ``true``,  will try to detect UTF8 characters,  they will be preserved during import. |
 | [resourceLoadingCallback](../loadoptions/resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [tempFolder](../loadoptions/tempFolder/) | Allows to use temporary files when reading document. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |

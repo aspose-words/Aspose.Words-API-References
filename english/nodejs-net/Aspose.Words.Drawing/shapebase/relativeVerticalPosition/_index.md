@@ -5,7 +5,7 @@ articleTitle: relativeVerticalPosition property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.relativeVerticalPosition property. Specifies relative to what the shape is positioned vertically."
 type: docs
-weight: 420
+weight: 470
 url: /nodejs-net/aspose.words.drawing/shapebase/relativeVerticalPosition/
 ---
 

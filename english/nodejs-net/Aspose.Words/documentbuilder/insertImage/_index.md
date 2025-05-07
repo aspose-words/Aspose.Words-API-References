@@ -258,13 +258,13 @@ insertImage(stream: Buffer, horzPos: Aspose.Words.Drawing.RelativeHorizontalPosi
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream that contains the image. |
-| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
-| left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
-| top | number | Distance in points from the origin to the top side of the image. |
-| width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
+| left | number |  |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
+| top | number |  |
+| width | number |  |
+| height | number |  |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
 
 ### Remarks
 
@@ -272,11 +272,6 @@ You can change the image size, location, positioning method and other settings u
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
-
-
-### Returns
-
-The image node that was just inserted.
 
 
 ## insertImage(imageBytes, horzPos, left, vertPos, top, width, height, wrapType) {#number[]_relativehorizontalposition_number_relativeverticalposition_number_number_number_wraptype}
@@ -291,13 +286,13 @@ insertImage(imageBytes: number[], horzPos: Aspose.Words.Drawing.RelativeHorizont
 | Parameter | Type | Description |
 | --- | --- | --- |
 | imageBytes | number[] | The byte array that contains the image. |
-| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
-| left | number | Distance in points from the origin to the left side of the image. |
-| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
-| top | number | Distance in points from the origin to the top side of the image. |
-| width | number | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | number | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
+| horzPos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
+| left | number |  |
+| vertPos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
+| top | number |  |
+| width | number |  |
+| height | number |  |
+| wrapType | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
 
 ### Remarks
 
@@ -305,11 +300,6 @@ You can change the image size, location, positioning method and other settings u
 [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
 
-
-
-### Returns
-
-The image node that was just inserted.
 
 
 ## Examples

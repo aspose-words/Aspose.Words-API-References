@@ -19,7 +19,7 @@ Represents a collection of bubble sizes for a chart series.
 The collection allows only changing bubble sizes. To add or insert new values to a chart series, or remove
 values, the appropriate methods of the [ChartSeries](../chartseries/) class can be used.
 
-Empty bubble size values are represented as None.
+Empty bubble size values are represented as null.
 
 
 

@@ -5,7 +5,7 @@ articleTitle: updateFields method
 second_title: Aspose.Words for Node.js
 description: "Document.updateFields method. Updates the values of fields in the whole document."
 type: docs
-weight: 760
+weight: 740
 url: /nodejs-net/aspose.words/document/updateFields/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Hyphenation class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Hyphenation class. Provides methods for working with hyphenation dictionaries"
 type: docs
-weight: 530
+weight: 520
 url: /nodejs-net/aspose.words/hyphenation/
 ---
 
@@ -22,7 +22,6 @@ To learn more, visit the [Working with Hyphenation](https://docs.aspose.com/word
 | Name | Description |
 | --- | --- |
 | [callback](./callback/) | Gets or sets callback interface used to request dictionaries when page layout of the document is built. This allows delay loading of dictionaries which may be useful when processing documents in many languages. |
-| [warningCallback](./warningCallback/) | Called during a load hyphenation patterns, when an issue is detected that might result in formatting fidelity loss. |
 
 ### Methods
 

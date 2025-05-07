@@ -5,7 +5,7 @@ articleTitle: SpecialChar class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.SpecialChar class. Base class for special characters in the document"
 type: docs
-weight: 1220
+weight: 1210
 url: /nodejs-net/aspose.words/specialchar/
 ---
 
@@ -59,7 +59,6 @@ Aspose.Words does not provide detailed programmatic access.
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ asBody()](../node/asBody/#default) | Cast node to [Body](../body/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkStart()](../node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/).<br>(Inherited from [Node](../node/)) |

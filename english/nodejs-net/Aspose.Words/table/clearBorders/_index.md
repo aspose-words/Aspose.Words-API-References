@@ -5,7 +5,7 @@ articleTitle: clearBorders method
 second_title: Aspose.Words for Node.js
 description: "Table.clearBorders method. Removes all table and cell borders on this table."
 type: docs
-weight: 390
+weight: 360
 url: /nodejs-net/aspose.words/table/clearBorders/
 ---
 
@@ -66,6 +66,7 @@ expect(topBorder.lineStyle).toEqual(aw.LineStyle.Double);
 
 // Clear the borders of all cells in the table, and then save the document.
 table.clearBorders();
+expect(topBorder.color).not.toEqual("");
 doc.save(base.artifactsDir + "Table.clearBorders.docx");
 
 // Verify the values of the table's properties after re-opening the document.

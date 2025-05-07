@@ -5,7 +5,7 @@ articleTitle: theme property
 second_title: Aspose.Words for Node.js
 description: "Document.theme property. Gets the [Document.theme](./) object for this document."
 type: docs
-weight: 420
+weight: 430
 url: /nodejs-net/aspose.words/document/theme/
 ---
 

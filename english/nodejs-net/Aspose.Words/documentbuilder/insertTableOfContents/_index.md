@@ -37,8 +37,8 @@ then switch display of field codes on to see the switches. You can press Alt+F9 
 Microsoft Word to toggle display of field codes on or off.
 
 For example, after creating a table of contents, the following field is inserted
-into the document: **{ TOC \\o "1-3" \\h \\z \\u }**.
-You can copy **\\o "1-3" \\h \\z \\u** and use it as the switches parameter.
+into the document: ****.
+You can copy **** and use it as the switches parameter.
 
 Note that [DocumentBuilder.insertTableOfContents()](./#string) will only insert a TOC field, but
 will not actually build the table of contents. The table of contents is built by

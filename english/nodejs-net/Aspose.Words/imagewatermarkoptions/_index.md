@@ -5,7 +5,7 @@ articleTitle: ImageWatermarkOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ImageWatermarkOptions class. Contains options that can be specified when adding a watermark with image"
 type: docs
-weight: 610
+weight: 600
 url: /nodejs-net/aspose.words/imagewatermarkoptions/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: registerDictionary method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Hyphenation.registerDictionary method"
 type: docs
-weight: 40
+weight: 30
 url: /nodejs-net/aspose.words/hyphenation/registerDictionary/
 ---
 

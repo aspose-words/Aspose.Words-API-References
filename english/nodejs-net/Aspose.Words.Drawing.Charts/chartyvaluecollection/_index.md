@@ -5,7 +5,7 @@ articleTitle: ChartYValueCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartYValueCollection class. Represents a collection of Y values for a chart series."
 type: docs
-weight: 440
+weight: 450
 url: /nodejs-net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 

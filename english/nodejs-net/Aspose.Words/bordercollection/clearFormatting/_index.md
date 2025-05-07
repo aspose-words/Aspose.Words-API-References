@@ -36,7 +36,8 @@ expect(firstParagraphBorders.lineWidth).toEqual(3.0);
 for (let paragraph of doc.firstSection.body.paragraphs.toArray()) {
   paragraph.paragraphFormat.borders.clearFormatting();
 
-  for (let border of paragraph.paragraphFormat.borders) {
+  for (let border of paragraph.paragraphFormat.borders)
+  {
     expect(border.color).toEqual(base.emptyColor);
     expect(border.lineStyle).toEqual(aw.LineStyle.None);
     expect(border.lineWidth).toEqual(0.0);

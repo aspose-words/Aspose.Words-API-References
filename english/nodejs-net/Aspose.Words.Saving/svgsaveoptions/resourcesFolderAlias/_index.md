@@ -5,7 +5,7 @@ articleTitle: resourcesFolderAlias property
 second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.resourcesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an SVG document"
 type: docs
-weight: 90
+weight: 80
 url: /nodejs-net/aspose.words.saving/svgsaveoptions/resourcesFolderAlias/
 ---
 
