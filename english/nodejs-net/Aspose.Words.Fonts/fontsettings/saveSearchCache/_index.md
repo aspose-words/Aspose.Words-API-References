@@ -24,8 +24,7 @@ saveSearchCache(outputStream: Buffer)
 
 ### Remarks
 
-See [FontSettings.setFontsSources()](../setFontsSources/#fontsourcebase[]_buffer) method description for more info.
-
+ method description for more info.
 
 
 ### See Also

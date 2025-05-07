@@ -5,7 +5,7 @@ articleTitle: stopTrackRevisions method
 second_title: Aspose.Words for Node.js
 description: "Document.stopTrackRevisions method. Stops automatic marking of document changes as revisions."
 type: docs
-weight: 720
+weight: 700
 url: /nodejs-net/aspose.words/document/stopTrackRevisions/
 ---
 
@@ -58,9 +58,9 @@ expect(doc.revisions.at(1).author).toEqual("John Doe");
 expect(doc.revisions.at(1).dateTime).toEqual(DateTime.minValue);
 
 // We can accept/reject these revisions programmatically
-// by calling methods such as aw.Document.acceptAllRevisions, or each revision's Accept method.
+// by calling methods such as Document.acceptAllRevisions, or each revision's Accept method.
 // In Microsoft Word, we can process them manually via "Review" -> "Changes".
-doc.save(base.artifactsDir + "Document.startTrackRevisions.docx");
+doc.save(base.artifactsDir + "Revision.startTrackRevisions.docx");
 ```
 
 ### See Also

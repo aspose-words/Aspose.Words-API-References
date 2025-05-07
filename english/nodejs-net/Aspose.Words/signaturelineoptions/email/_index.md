@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words/signaturelineoptions/email/
 ## SignatureLineOptions.email property
 
 Gets or sets suggested signer's e-mail address.
-Default value for this property is **empty string** ().
-
+Default value for this property is **empty string**
+.
 
 
 ```js

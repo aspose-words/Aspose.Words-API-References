@@ -20,7 +20,7 @@ get foreColor(): string
 
 ### Remarks
 
-This property resets the alpha component of the aspose.pydrawing.Color
+This property resets the alpha component of the string
 to fully opaque color unlike the [Fill.color](../color/) property, which preserves it.
 
 

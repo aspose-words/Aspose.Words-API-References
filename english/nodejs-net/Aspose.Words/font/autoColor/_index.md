@@ -39,7 +39,7 @@ let builder = new aw.DocumentBuilder(doc);
 
 // If a run's Font object does not specify text color, it will automatically
 // select either black or white depending on the background color's color.
-expect(builder.font.color).toEqual("#000000");
+expect(builder.font.color).toEqual(base.emptyColor);
 
 // The default color for text is black. If the color of the background is dark, black text will be difficult to see.
 // To solve this problem, the AutoColor property will display this text in white.

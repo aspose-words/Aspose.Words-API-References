@@ -5,7 +5,7 @@ articleTitle: pageSet property
 second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.pageSet property. Gets or sets the pages to render"
 type: docs
-weight: 80
+weight: 90
 url: /nodejs-net/aspose.words.saving/imagesaveoptions/pageSet/
 ---
 

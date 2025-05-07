@@ -5,7 +5,7 @@ articleTitle: autoFit method
 second_title: Aspose.Words for Node.js
 description: "Table.autoFit method. Resizes the table and cells according to the specified auto fit behavior."
 type: docs
-weight: 380
+weight: 350
 url: /nodejs-net/aspose.words/table/autoFit/
 ---
 

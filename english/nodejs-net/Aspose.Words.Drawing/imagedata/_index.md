@@ -3,7 +3,7 @@ title: ImageData class
 linktitle: ImageData class
 articleTitle: ImageData class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.Drawing.ImageData class. Defines an image for a shape"
+description: "Aspose.Words.Drawing.ImageData class. Adapts [ImageData](./) class public API for Node.js porting."
 type: docs
 weight: 210
 url: /nodejs-net/aspose.words.drawing/imagedata/
@@ -11,9 +11,7 @@ url: /nodejs-net/aspose.words.drawing/imagedata/
 
 ## ImageData class
 
-Defines an image for a shape.
-To learn more, visit the [Working with Images](https://docs.aspose.com/words/nodejs-net/working-with-images/) documentation article.
-
+Adapts [ImageData](./) class public API for Node.js porting.
 
 
 
@@ -25,7 +23,7 @@ You do not create instances of the [ImageData](./) class directly.
 An image can be stored inside a shape, linked to external file or both (linked and stored in the document).
 
 Regardless of whether the image is stored inside the shape or linked, you can always access the actual
-image using the [ImageData.toByteArray()](./toByteArray/#default), Aspose.Words.Drawing.ImageData.ToStream or [ImageData.save()](./save/#string) methods.
+image using the [ImageData.toByteArray()](./toByteArray/#default),  or[ImageData.save()](./save/#string) methods.
 If the image is stored inside the shape, you can also directly access it using the [ImageData.imageBytes](./imageBytes/) property.
 
 To store an image inside a shape use the [ImageData.setImage()](./setImage/#string) method. To link an image to a shape, set the [ImageData.sourceFullName](./sourceFullName/) property.
@@ -61,7 +59,7 @@ To store an image inside a shape use the [ImageData.setImage()](./setImage/#stri
 | Name | Description |
 | --- | --- |
 |[ fitImageToShape()](./fitImageToShape/#default) | Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame. |
-|[ save(stream)](./save/#unknown) |  |
+|[ save(stream)](./save/#unknown) | Saves the image into the specified stream. |
 |[ save(fileName)](./save/#string) | Saves the image into a file. |
 |[ setImage(image)](./setImage/#jsimage) |  |
 |[ setImage(stream)](./setImage/#buffer) | Sets the image that the shape displays. |

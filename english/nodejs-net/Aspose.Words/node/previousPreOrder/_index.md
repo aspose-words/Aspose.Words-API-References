@@ -5,7 +5,7 @@ articleTitle: previousPreOrder method
 second_title: Aspose.Words for Node.js
 description: "Node.previousPreOrder method. Gets the previous node according to the pre-order tree traversal algorithm."
 type: docs
-weight: 480
+weight: 470
 url: /nodejs-net/aspose.words/node/previousPreOrder/
 ---
 

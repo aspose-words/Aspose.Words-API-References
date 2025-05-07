@@ -25,7 +25,7 @@ This property provides a simple way to specify a solid page color for the docume
 Setting this property creates and sets an appropriate [DocumentBase.backgroundShape](../backgroundShape/).
 
 If the page color is not set (e.g. there is no background shape in the document) returns
-aspose.pydrawing.Color.empty.
+.
 
 
 

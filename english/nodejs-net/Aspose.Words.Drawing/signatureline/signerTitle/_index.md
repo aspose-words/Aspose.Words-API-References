@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words.drawing/signatureline/signerTitle/
 ## SignatureLine.signerTitle property
 
 Gets or sets suggested signer's title (for example, Manager).
-Default value for this property is **empty string** ().
-
+Default value for this property is **empty string**
+.
 
 
 ```js

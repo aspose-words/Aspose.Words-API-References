@@ -5,7 +5,7 @@ articleTitle: WarningInfo class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WarningInfo class. Contains information about a warning that Aspose.Words issued during document loading or saving"
 type: docs
-weight: 1470
+weight: 1460
 url: /nodejs-net/aspose.words/warninginfo/
 ---
 
@@ -20,7 +20,7 @@ To learn more, visit the [Programming with Documents](https://docs.aspose.com/wo
 ### Remarks
 
 You do not create instances of this class. Objects of this class are created
-and passed by Aspose.Words to the [IWarningCallback.warning()](../iwarningcallback/warning/#warninginfo) method.
+and passed by Aspose.Words to the Aspose.Words.IWarningCallback.Warning(Aspose.Words.WarningInfo) method.
 
 
 
@@ -36,5 +36,4 @@ and passed by Aspose.Words to the [IWarningCallback.warning()](../iwarningcallba
 ### See Also
 
 * module [Aspose.Words](../)
-* class [IWarningCallback](../iwarningcallback/)
 

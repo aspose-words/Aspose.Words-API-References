@@ -37,7 +37,8 @@ saveOptions.optimizeOutput = optimizeOutput;
 doc.save(base.artifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
 
 // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
-expect(Math.abs(fs.statSync(base.artifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").size - (optimizeOutput ? 61889 : 191000))).toBeLessThanOrEqual(200);
+expect(Math.abs(fs.statSync(base.artifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").size))
+  .toBe(optimizeOutput ? 60397 : 190939);
 ```
 
 ### See Also

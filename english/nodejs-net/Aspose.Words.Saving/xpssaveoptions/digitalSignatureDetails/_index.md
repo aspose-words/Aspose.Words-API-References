@@ -19,6 +19,29 @@ Gets or sets [DigitalSignatureDetails](../../digitalsignaturedetails/) object us
 get digitalSignatureDetails(): Aspose.Words.Saving.DigitalSignatureDetails
 ```
 
+### Examples
+
+Shows how to sign XPS document.
+
+```js
+let doc = new aw.Document(base.myDir + "Document.docx");
+
+let certificateHolder = aw.DigitalSignatures.CertificateHolder.create(base.myDir + "morzal.pfx", "aw");
+let options = new aw.DigitalSignatures.SignOptions();
+options.signTime = Date.now();
+options.comments = "Some comments";
+
+let digitalSignatureDetails = new aw.Saving.DigitalSignatureDetails(certificateHolder, options);
+
+let saveOptions = new aw.Saving.XpsSaveOptions();
+saveOptions.digitalSignatureDetails = digitalSignatureDetails;
+
+expect(digitalSignatureDetails.certificateHolder).toEqual(certificateHolder);
+expect(digitalSignatureDetails.signOptions.comments).toEqual("Some comments");
+
+doc.save(base.artifactsDir + "XpsSaveOptions.XpsDigitalSignature.docx", saveOptions);
+```
+
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

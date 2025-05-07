@@ -12,7 +12,8 @@ url: /nodejs-net/aspose.words.digitalsignatures/signoptions/signTime/
 ## SignOptions.signTime property
 
 The date of signing.
-Default value is **current time** (datetime.datetime.now)
+Default value is **current time**
+
 
 
 ```js

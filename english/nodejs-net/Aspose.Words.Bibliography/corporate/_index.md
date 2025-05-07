@@ -5,7 +5,7 @@ articleTitle: Corporate class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Bibliography.Corporate class. Represents a corporate (an organization) bibliography source contributor."
 type: docs
-weight: 20
+weight: 30
 url: /nodejs-net/aspose.words.bibliography/corporate/
 ---
 
@@ -32,7 +32,7 @@ Represents a corporate (an organization) bibliography source contributor.
 | Name | Description |
 | --- | --- |
 |[ asCorporate()](../contributor/asCorporate/#default) | Casts contributor to [Corporate](./), otherwise returns null.<br>(Inherited from [Contributor](../contributor/)) |
-|[ asPersonCollection()](../contributor/asPersonCollection/#default) | Casts contributor to Aspose.Words.Bibliography.PersonCollection, otherwise returns null.<br>(Inherited from [Contributor](../contributor/)) |
+|[ asPersonCollection()](../contributor/asPersonCollection/#default) | Casts contributor to [PersonCollection](../personcollection/), otherwise returns null.<br>(Inherited from [Contributor](../contributor/)) |
 
 ### See Also
 

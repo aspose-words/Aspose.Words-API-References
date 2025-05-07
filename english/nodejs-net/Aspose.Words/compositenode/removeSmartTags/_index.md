@@ -5,7 +5,7 @@ articleTitle: removeSmartTags method
 second_title: Aspose.Words for Node.js
 description: "CompositeNode.removeSmartTags method. Removes all [SmartTag](../../../aspose.words.markup/smarttag/) descendant nodes of the current node."
 type: docs
-weight: 320
+weight: 300
 url: /nodejs-net/aspose.words/compositenode/removeSmartTags/
 ---
 

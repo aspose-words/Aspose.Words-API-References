@@ -5,7 +5,7 @@ articleTitle: Table class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Table class. Represents a table in a Word document"
 type: docs
-weight: 1340
+weight: 1330
 url: /nodejs-net/aspose.words/table/
 ---
 
@@ -89,9 +89,6 @@ A minimal valid table needs to have at least one [Row](../../aspose.words.tables
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
-|[ acceptEnd(visitor)](./acceptEnd/#documentvisitor) | Accepts a visitor for visiting the end of the table. |
-|[ acceptStart(visitor)](./acceptStart/#documentvisitor) | Accepts a visitor for visiting the start of the table. |
 |[ appendChild(newChild)](../compositenode/appendChild/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ asBody()](../node/asBody/#default) | Cast node to [Body](../body/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
@@ -133,22 +130,22 @@ A minimal valid table needs to have at least one [Row](../../aspose.words.tables
 |[ convertToHorizontallyMergedCells()](./convertToHorizontallyMergedCells/#default) | Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../aspose.words.tables/cellformat/horizontalMerge/). |
 |[ ensureMinimum()](./ensureMinimum/#default) | If the table has no rows, creates and appends one [Row](../../aspose.words.tables/row/). |
 |[ getAncestor(ancestorType)](../node/getAncestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
-|[ getBuildingBlock(index, isDeep)](../compositenode/getBuildingBlock/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getBuildingBlock(index, isDeep)](../compositenode/getBuildingBlock/#number_boolean) | Returns an Nth child [BuildingBlock](../buildingblock/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ getChild(nodeType, index, isDeep)](../compositenode/getChild/#nodetype_number_boolean) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ getChildNodes(nodeType, isDeep)](../compositenode/getChildNodes/#nodetype_boolean) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getComment(index, isDeep)](../compositenode/getComment/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getEditableRangeStart(index, isDeep)](../compositenode/getEditableRangeStart/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getFootnote(index, isDeep)](../compositenode/getFootnote/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getGroupShape(index, isDeep)](../compositenode/getGroupShape/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getOfficeMath(index, isDeep)](../compositenode/getOfficeMath/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getParagraph(index, isDeep)](../compositenode/getParagraph/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getRun(index, isDeep)](../compositenode/getRun/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getSdt(index, isDeep)](../compositenode/getSdt/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getSdtRangeEnd(index, isDeep)](../compositenode/getSdtRangeEnd/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getSdtRangeStart(index, isDeep)](../compositenode/getSdtRangeStart/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getShape(index, isDeep)](../compositenode/getShape/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getSmartTag(index, isDeep)](../compositenode/getSmartTag/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getTable(index, isDeep)](../compositenode/getTable/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getComment(index, isDeep)](../compositenode/getComment/#number_boolean) | Returns an Nth child [Comment](../comment/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getEditableRangeStart(index, isDeep)](../compositenode/getEditableRangeStart/#number_boolean) | Returns an Nth child [EditableRangeStart](../editablerangestart/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getFootnote(index, isDeep)](../compositenode/getFootnote/#number_boolean) | Returns an Nth child [Footnote](../../aspose.words.notes/footnote/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getGroupShape(index, isDeep)](../compositenode/getGroupShape/#number_boolean) | Returns an Nth child [GroupShape](../../aspose.words.drawing/groupshape/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getOfficeMath(index, isDeep)](../compositenode/getOfficeMath/#number_boolean) | Returns an Nth child [OfficeMath](../../aspose.words.math/officemath/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getParagraph(index, isDeep)](../compositenode/getParagraph/#number_boolean) | Returns an Nth child [Paragraph](../paragraph/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getRun(index, isDeep)](../compositenode/getRun/#number_boolean) | Returns an Nth child [Run](../run/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getSdt(index, isDeep)](../compositenode/getSdt/#number_boolean) | Returns an Nth child [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getSdtRangeEnd(index, isDeep)](../compositenode/getSdtRangeEnd/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getSdtRangeStart(index, isDeep)](../compositenode/getSdtRangeStart/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getShape(index, isDeep)](../compositenode/getShape/#number_boolean) | Returns an Nth child [Shape](../../aspose.words.drawing/shape/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getSmartTag(index, isDeep)](../compositenode/getSmartTag/#number_boolean) | Returns an Nth child [SmartTag](../../aspose.words.markup/smarttag/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getTable(index, isDeep)](../compositenode/getTable/#number_boolean) | Returns an Nth child [Table](./) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ getText()](../node/getText/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../node/)) |
 |[ indexOf(child)](../compositenode/indexOf/#node) | Returns the index of the specified child node in the child node array.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ insertAfter(newChild, refChild)](../compositenode/insertAfter/#node_node) | Inserts the specified node immediately after the specified reference node.<br>(Inherited from [CompositeNode](../compositenode/)) |
@@ -171,6 +168,47 @@ A minimal valid table needs to have at least one [Row](../../aspose.words.tables
 |[ toString(saveOptions)](../node/toString/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../node/)) |
 
 ### Examples
+
+Shows how to build a formatted 2x2 table.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let table = builder.startTable();
+builder.insertCell();
+builder.cellFormat.verticalAlignment = aw.Tables.CellVerticalAlignment.Center;
+builder.write("Row 1, cell 1.");
+builder.insertCell();
+builder.write("Row 1, cell 2.");
+builder.endRow();
+
+// While building the table, the document builder will apply its current RowFormat/CellFormat property values
+// to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+expect(table.rows.at(0).cells.at(0).cellFormat.verticalAlignment).toEqual(aw.Tables.CellVerticalAlignment.Center);
+expect(table.rows.at(0).cells.at(1).cellFormat.verticalAlignment).toEqual(aw.Tables.CellVerticalAlignment.Center);
+
+builder.insertCell();
+builder.rowFormat.height = 100;
+builder.rowFormat.heightRule = aw.HeightRule.Exactly;
+builder.cellFormat.orientation = aw.TextOrientation.Upward;
+builder.write("Row 2, cell 1.");
+builder.insertCell();
+builder.cellFormat.orientation = aw.TextOrientation.Downward;
+builder.write("Row 2, cell 2.");
+builder.endRow();
+builder.endTable();
+
+// Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+expect(table.rows.at(0).rowFormat.height).toEqual(0);
+expect(table.rows.at(0).rowFormat.heightRule).toEqual(aw.HeightRule.Auto);
+expect(table.rows.at(1).rowFormat.height).toEqual(100);
+expect(table.rows.at(1).rowFormat.heightRule).toEqual(aw.HeightRule.Exactly);
+expect(table.rows.at(1).cells.at(0).cellFormat.orientation).toEqual(aw.TextOrientation.Upward);
+expect(table.rows.at(1).cells.at(1).cellFormat.orientation).toEqual(aw.TextOrientation.Downward);
+
+doc.save(base.artifactsDir + "DocumentBuilder.BuildTable.docx");
+```
 
 Shows how to create a table.
 
@@ -281,47 +319,6 @@ function createTable(doc, rowCount, cellCount, cellText)
 
   return table;
 }
-```
-
-Shows how to build a formatted 2x2 table.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-let table = builder.startTable();
-builder.insertCell();
-builder.cellFormat.verticalAlignment = aw.Tables.CellVerticalAlignment.Center;
-builder.write("Row 1, cell 1.");
-builder.insertCell();
-builder.write("Row 1, cell 2.");
-builder.endRow();
-
-// While building the table, the document builder will apply its current RowFormat/CellFormat property values
-// to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-expect(table.rows.at(0).cells.at(0).cellFormat.verticalAlignment).toEqual(aw.Tables.CellVerticalAlignment.Center);
-expect(table.rows.at(0).cells.at(1).cellFormat.verticalAlignment).toEqual(aw.Tables.CellVerticalAlignment.Center);
-
-builder.insertCell();
-builder.rowFormat.height = 100;
-builder.rowFormat.heightRule = aw.HeightRule.Exactly;
-builder.cellFormat.orientation = aw.TextOrientation.Upward;
-builder.write("Row 2, cell 1.");
-builder.insertCell();
-builder.cellFormat.orientation = aw.TextOrientation.Downward;
-builder.write("Row 2, cell 2.");
-builder.endRow();
-builder.endTable();
-
-// Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-expect(table.rows.at(0).rowFormat.height).toEqual(0);
-expect(table.rows.at(0).rowFormat.heightRule).toEqual(aw.HeightRule.Auto);
-expect(table.rows.at(1).rowFormat.height).toEqual(100);
-expect(table.rows.at(1).rowFormat.heightRule).toEqual(aw.HeightRule.Exactly);
-expect(table.rows.at(1).cells.at(0).cellFormat.orientation).toEqual(aw.TextOrientation.Upward);
-expect(table.rows.at(1).cells.at(1).cellFormat.orientation).toEqual(aw.TextOrientation.Downward);
-
-doc.save(base.artifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
 ### See Also

@@ -40,11 +40,26 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [originalFileName](./originalFileName/) | The name of the CHM file. Default value is ``null``. |
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``null`` or empty string. Default is ``null``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [preserveIncludePictureField](../loadoptions/preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``false``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [progressCallback](../loadoptions/progressCallback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resourceLoadingCallback](../loadoptions/resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [tempFolder](../loadoptions/tempFolder/) | Allows to use temporary files when reading document. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [updateDirtyFields](../loadoptions/updateDirtyFields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [useSystemLcid](../loadoptions/useSystemLcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
+
+### Examples
+
+Shows how to resolve URLs like "ms-its:myfile.chm::/index.htm".
+
+```js
+// Our document contains URLs like "ms-its:amhelp.chm::....htm", but it has a different name,
+// so file links don't work after saving it to HTML.
+// We need to define the original filename in 'ChmLoadOptions' to avoid this behavior.
+let loadOptions = new aw.Loading.ChmLoadOptions();
+loadOptions.originalFileName = "amhelp.chm";
+
+let doc = new aw.Document(base.myDir + "Document with ms-its links.chm", loadOptions);
+
+doc.save(base.artifactsDir + "ExChmLoadOptions.originalFileName.html");
+```
 
 ### See Also
 

@@ -21,7 +21,7 @@ allow to specify additional options when loading documents.
 | Class | Description |
 | --- | --- |
 | [ChmLoadOptions](./chmloadoptions/) | Allows to specify additional options when loading CHM document into a [Document](../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article. |
-| [DocumentLoadingArgs](./documentloadingargs/) | An argument passed into [IDocumentLoadingCallback.notify()](./idocumentloadingcallback/notify/#documentloadingargs). To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article. |
+| [DocumentLoadingArgs](./documentloadingargs/) | An argument passed into Aspose.Words.Loading.IDocumentLoadingCallback.Notify(Aspose.Words.Loading.DocumentLoadingArgs). To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article. |
 | [HtmlLoadOptions](./htmlloadoptions/) | Allows to specify additional options when loading HTML document into a [Document](../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article. |
 | [LanguagePreferences](./languagepreferences/) | Allows to set up language preferences. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article. |
 | [LoadOptions](./loadoptions/) | Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article. |
@@ -30,7 +30,6 @@ allow to specify additional options when loading documents.
 | [ResourceLoadingArgs](./resourceloadingargs/) | Provides data for the [IResourceLoadingCallback.resourceLoading()](./iresourceloadingcallback/resourceLoading/#resourceloadingargs) method. |
 | [RtfLoadOptions](./rtfloadoptions/) | Allows to specify additional options when loading [LoadFormat.Rtf](../aspose.words/loadformat/#Rtf) document into a [Document](../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article. |
 | [TxtLoadOptions](./txtloadoptions/) | Allows to specify additional options when loading [LoadFormat.Text](../aspose.words/loadformat/#Text) document into a [Document](../aspose.words/document/) object. To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/nodejs-net/specify-load-options/) documentation article. |
-| [IDocumentLoadingCallback](./idocumentloadingcallback/) | Implement this interface if you want to have your own custom method called during loading a document. |
 | [IResourceLoadingCallback](./iresourceloadingcallback/) | Implement this interface if you want to control how Aspose.Words loads external resource when  importing a document and inserting images using [DocumentBuilder](../aspose.words/documentbuilder/). |
 
 ## Enumerations

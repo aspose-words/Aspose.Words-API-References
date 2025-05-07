@@ -5,7 +5,7 @@ articleTitle: unlinkFields method
 second_title: Aspose.Words for Node.js
 description: "Document.unlinkFields method. Unlinks fields in the whole document."
 type: docs
-weight: 730
+weight: 710
 url: /nodejs-net/aspose.words/document/unlinkFields/
 ---
 

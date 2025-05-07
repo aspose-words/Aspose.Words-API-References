@@ -13,13 +13,18 @@ url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/removeJavaScriptFromLi
 
 Specifies whether JavaScript will be removed from links.
 Default is ``false``.
-If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
 
 
 
 ```js
 get removeJavaScriptFromLinks(): boolean
 ```
+
+### Remarks
+
+If this option is enabled, all links containing JavaScript (e.g., links with "javascript:" in the href attribute)
+will be replaced with "javascript:void(0)". This can help prevent potential security risks, such as XSS attacks.
+
 
 ### See Also
 

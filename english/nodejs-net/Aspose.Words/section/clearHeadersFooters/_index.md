@@ -5,7 +5,7 @@ articleTitle: clearHeadersFooters method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Section.clearHeadersFooters method"
 type: docs
-weight: 100
+weight: 90
 url: /nodejs-net/aspose.words/section/clearHeadersFooters/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: jpegQuality property
 second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.jpegQuality property. Gets or sets a value determining the quality of the generated JPEG images."
 type: docs
-weight: 60
+weight: 70
 url: /nodejs-net/aspose.words.saving/imagesaveoptions/jpegQuality/
 ---
 

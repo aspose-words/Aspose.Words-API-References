@@ -5,14 +5,14 @@ articleTitle: paperColor property
 second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.paperColor property. Gets or sets the background (paper) color for the generated images"
 type: docs
-weight: 90
+weight: 100
 url: /nodejs-net/aspose.words.saving/imagesaveoptions/paperColor/
 ---
 
 ## ImageSaveOptions.paperColor property
 
 Gets or sets the background (paper) color for the generated images.
-The default value is aspose.pydrawing.Color.white.
+The default value is white.
 
 
 

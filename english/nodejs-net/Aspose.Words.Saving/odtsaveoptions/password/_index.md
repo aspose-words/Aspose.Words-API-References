@@ -34,7 +34,7 @@ let doc = new aw.Document();
 let builder = new aw.DocumentBuilder(doc);
 builder.writeln("Hello world!");
 
-// Create a new aw.Saving.OdtSaveOptions, and pass either "SaveFormat.Odt",
+// Create a new OdtSaveOptions, and pass either "SaveFormat.Odt",
 // or "SaveFormat.Ott" as the format to save the document in. 
 let saveOptions = new aw.Saving.OdtSaveOptions(saveFormat);
 saveOptions.password = "@sposeEncrypted_1145";

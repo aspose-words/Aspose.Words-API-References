@@ -5,7 +5,7 @@ articleTitle: ChartType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartType enumeration. Specifies type of a chart."
 type: docs
-weight: 390
+weight: 400
 url: /nodejs-net/aspose.words.drawing.charts/charttype/
 ---
 

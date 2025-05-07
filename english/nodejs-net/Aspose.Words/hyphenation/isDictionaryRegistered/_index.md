@@ -5,7 +5,7 @@ articleTitle: isDictionaryRegistered method
 second_title: Aspose.Words for Node.js
 description: "Hyphenation.isDictionaryRegistered method. Returns ``false`` if for the specified language there is no dictionary registered or if registered is Null dictionary, ``true`` otherwise."
 type: docs
-weight: 30
+weight: 20
 url: /nodejs-net/aspose.words/hyphenation/isDictionaryRegistered/
 ---
 

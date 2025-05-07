@@ -5,7 +5,7 @@ articleTitle: exportImagesAsBase64 property
 second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.exportImagesAsBase64 property. Specifies whether images are saved in Base64 format to the output file"
 type: docs
-weight: 30
+weight: 40
 url: /nodejs-net/aspose.words.saving/markdownsaveoptions/exportImagesAsBase64/
 ---
 

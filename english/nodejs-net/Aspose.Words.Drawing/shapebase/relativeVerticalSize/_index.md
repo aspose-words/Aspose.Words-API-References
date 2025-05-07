@@ -5,7 +5,7 @@ articleTitle: relativeVerticalSize property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.relativeVerticalSize property. Gets or sets the value of shape's relative size in vertical direction."
 type: docs
-weight: 430
+weight: 480
 url: /nodejs-net/aspose.words.drawing/shapebase/relativeVerticalSize/
 ---
 

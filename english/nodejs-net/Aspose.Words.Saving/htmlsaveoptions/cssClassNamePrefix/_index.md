@@ -56,8 +56,8 @@ expect(outDocContents.includes("<p class=\"myprefix-Footer\">")).toEqual(true);
 
 outDocContents = fs.readFileSync(base.artifactsDir + "HtmlSaveOptions.cssClassNamePrefix.css").toString();
 
-expect(outDocContents.includes(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }\r\n" +
-  ".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }\r\n")).toBe(true);
+expect(outDocContents.includes(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }")).toEqual(true);
+expect(outDocContents.includes(".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }")).toEqual(true);
 ```
 
 ### See Also

@@ -11,6 +11,22 @@ url: /nodejs-net/aspose.words.digitalsignatures/digitalsignatureutil/removeAllSi
 
 ## removeAllSignatures(srcStream, dstStream) {#buffer_unknown}
 
+Removes all digital signatures from document in source stream and writes unsigned document to destination stream.
+**Output will be written to the start of stream and stream size will be updated with content length.**
+
+
+The following formats are compatible for digital signature removal:
+[LoadFormat.Doc](../../../aspose.words/loadformat/#Doc),
+[LoadFormat.Dot](../../../aspose.words/loadformat/#Dot),
+[LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
+[LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
+[LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
+[LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
+
+
+
+
 ```js
 removeAllSignatures(srcStream: Buffer, dstStream)
 ```
@@ -29,6 +45,7 @@ The following formats are compatible for digital signature removal:
 [LoadFormat.Docx](../../../aspose.words/loadformat/#Docx),
 [LoadFormat.Dotx](../../../aspose.words/loadformat/#Dotx),
 [LoadFormat.Docm](../../../aspose.words/loadformat/#Docm),
+[LoadFormat.Dotm](../../../aspose.words/loadformat/#Dotm),
 [LoadFormat.Odt](../../../aspose.words/loadformat/#Odt),
 [LoadFormat.Ott](../../../aspose.words/loadformat/#Ott).
 

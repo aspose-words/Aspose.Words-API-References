@@ -5,7 +5,7 @@ articleTitle: resourcesFolder property
 second_title: Aspose.Words for Node.js
 description: "XamlFixedSaveOptions.resourcesFolder property. Specifies the physical folder where resources (images and fonts) are saved when exporting a document to fixed page Xaml format"
 type: docs
-weight: 30
+weight: 20
 url: /nodejs-net/aspose.words.saving/xamlfixedsaveoptions/resourcesFolder/
 ---
 

@@ -22,7 +22,7 @@ get metafileFormat(): Aspose.Words.Saving.HtmlMetafileFormat
 
 ### Remarks
 
-Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF 
+Metafiles are not natively displayed by HTML browsers. By default, Aspose.Words converts WMF and EMF
 images into PNG files when exporting to HTML. Other options are to convert metafiles to SVG images or to export
 them as is without conversion.
 

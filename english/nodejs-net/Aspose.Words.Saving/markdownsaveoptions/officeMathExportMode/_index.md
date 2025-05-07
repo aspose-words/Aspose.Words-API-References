@@ -5,7 +5,7 @@ articleTitle: officeMathExportMode property
 second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.officeMathExportMode property. Specifies how OfficeMath will be written to the output file"
 type: docs
-weight: 110
+weight: 120
 url: /nodejs-net/aspose.words.saving/markdownsaveoptions/officeMathExportMode/
 ---
 
@@ -18,6 +18,19 @@ Default value is [MarkdownOfficeMathExportMode.Text](../../markdownofficemathexp
 
 ```js
 get officeMathExportMode(): Aspose.Words.Saving.MarkdownOfficeMathExportMode
+```
+
+### Examples
+
+Shows how OfficeMath will be written to the document.
+
+```js
+let doc = new aw.Document(base.myDir + "Office math.docx");
+
+let saveOptions = new aw.Saving.MarkdownSaveOptions();
+saveOptions.officeMathExportMode = aw.Saving.MarkdownOfficeMathExportMode.Image;
+
+doc.save(base.artifactsDir + "MarkdownSaveOptions.officeMathExportMode.md", saveOptions);
 ```
 
 ### See Also

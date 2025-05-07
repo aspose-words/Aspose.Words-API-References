@@ -5,7 +5,7 @@ articleTitle: isGroup property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.isGroup property. Returns ``true`` if this is a group shape."
 type: docs
-weight: 230
+weight: 280
 url: /nodejs-net/aspose.words.drawing/shapebase/isGroup/
 ---
 

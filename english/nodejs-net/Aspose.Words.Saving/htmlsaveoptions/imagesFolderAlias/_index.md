@@ -21,18 +21,18 @@ get imagesFolderAlias(): string
 
 ### Remarks
 
-When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all 
-images embedded in the document as standalone files. [HtmlSaveOptions.imagesFolder](../imagesFolder/) 
-allows you to specify where the images will be saved and [HtmlSaveOptions.imagesFolderAlias](./) 
+When you save a [Document](../../../aspose.words/document/) in HTML format, Aspose.Words needs to save all
+images embedded in the document as standalone files. [HtmlSaveOptions.imagesFolder](../imagesFolder/)
+allows you to specify where the images will be saved and [HtmlSaveOptions.imagesFolderAlias](./)
 allows to specify how the image URIs will be constructed.
 
 If [HtmlSaveOptions.imagesFolderAlias](./) is not an empty string, then the image URI written
 to HTML will be *ImagesFolderAlias + \<image file name\>*.
 
-If [HtmlSaveOptions.imagesFolderAlias](./) is an empty string, then the image URI written 
+If [HtmlSaveOptions.imagesFolderAlias](./) is an empty string, then the image URI written
 to HTML will be *ImagesFolder + \<image file name\>*.
 
-If [HtmlSaveOptions.imagesFolderAlias](./) is set to '.' (dot), then the image file name 
+If [HtmlSaveOptions.imagesFolderAlias](./) is set to '.' (dot), then the image file name
 will be written to HTML without path regardless of other options.
 
 Alternative way to specify the name of the folder to construct image URIs

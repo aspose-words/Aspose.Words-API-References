@@ -5,7 +5,7 @@ articleTitle: removeReply method
 second_title: Aspose.Words for Node.js
 description: "Comment.removeReply method. Removes the specified reply to this comment."
 type: docs
-weight: 180
+weight: 150
 url: /nodejs-net/aspose.words/comment/removeReply/
 ---
 

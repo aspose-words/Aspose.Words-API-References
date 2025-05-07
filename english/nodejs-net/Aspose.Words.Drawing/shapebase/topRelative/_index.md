@@ -5,7 +5,7 @@ articleTitle: topRelative property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.topRelative property. Gets or sets the value that represents shape's relative top position in percent."
 type: docs
-weight: 530
+weight: 590
 url: /nodejs-net/aspose.words.drawing/shapebase/topRelative/
 ---
 

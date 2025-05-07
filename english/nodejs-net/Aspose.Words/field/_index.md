@@ -5,14 +5,14 @@ articleTitle: Field class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Field class. Represents a Microsoft Word document field"
 type: docs
-weight: 420
+weight: 410
 url: /nodejs-net/aspose.words/field/
 ---
 
 ## Field class
 
 Represents a Microsoft Word document field.
-To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article.
+To learn more, visit the  documentation article.
 
 
 
@@ -69,100 +69,100 @@ To create a new field use the [DocumentBuilder.insertField()](../documentbuilder
 | Name | Description |
 | --- | --- |
 |[ asField()](./asField/#default) |  |
-|[ asFieldAddIn()](./asFieldAddIn/#default) |  |
-|[ asFieldAddressBlock()](./asFieldAddressBlock/#default) |  |
-|[ asFieldAdvance()](./asFieldAdvance/#default) |  |
-|[ asFieldAsk()](./asFieldAsk/#default) |  |
-|[ asFieldAuthor()](./asFieldAuthor/#default) |  |
-|[ asFieldAutoNum()](./asFieldAutoNum/#default) |  |
-|[ asFieldAutoNumLgl()](./asFieldAutoNumLgl/#default) |  |
-|[ asFieldAutoNumOut()](./asFieldAutoNumOut/#default) |  |
-|[ asFieldAutoText()](./asFieldAutoText/#default) |  |
-|[ asFieldAutoTextList()](./asFieldAutoTextList/#default) |  |
-|[ asFieldBarcode()](./asFieldBarcode/#default) |  |
-|[ asFieldBibliography()](./asFieldBibliography/#default) |  |
-|[ asFieldBidiOutline()](./asFieldBidiOutline/#default) |  |
-|[ asFieldCitation()](./asFieldCitation/#default) |  |
-|[ asFieldComments()](./asFieldComments/#default) |  |
-|[ asFieldCompare()](./asFieldCompare/#default) |  |
-|[ asFieldCreateDate()](./asFieldCreateDate/#default) |  |
-|[ asFieldData()](./asFieldData/#default) |  |
-|[ asFieldDatabase()](./asFieldDatabase/#default) |  |
-|[ asFieldDate()](./asFieldDate/#default) |  |
-|[ asFieldDde()](./asFieldDde/#default) |  |
-|[ asFieldDdeAuto()](./asFieldDdeAuto/#default) |  |
-|[ asFieldDisplayBarcode()](./asFieldDisplayBarcode/#default) |  |
-|[ asFieldDocProperty()](./asFieldDocProperty/#default) |  |
-|[ asFieldDocVariable()](./asFieldDocVariable/#default) |  |
-|[ asFieldEQ()](./asFieldEQ/#default) |  |
-|[ asFieldEditTime()](./asFieldEditTime/#default) |  |
-|[ asFieldEmbed()](./asFieldEmbed/#default) |  |
-|[ asFieldFileName()](./asFieldFileName/#default) |  |
-|[ asFieldFileSize()](./asFieldFileSize/#default) |  |
-|[ asFieldFillIn()](./asFieldFillIn/#default) |  |
-|[ asFieldFootnoteRef()](./asFieldFootnoteRef/#default) |  |
-|[ asFieldFormCheckBox()](./asFieldFormCheckBox/#default) |  |
-|[ asFieldFormDropDown()](./asFieldFormDropDown/#default) |  |
-|[ asFieldFormText()](./asFieldFormText/#default) |  |
-|[ asFieldFormula()](./asFieldFormula/#default) |  |
-|[ asFieldGlossary()](./asFieldGlossary/#default) |  |
-|[ asFieldGoToButton()](./asFieldGoToButton/#default) |  |
-|[ asFieldGreetingLine()](./asFieldGreetingLine/#default) |  |
-|[ asFieldHyperlink()](./asFieldHyperlink/#default) |  |
-|[ asFieldIf()](./asFieldIf/#default) |  |
-|[ asFieldImport()](./asFieldImport/#default) |  |
-|[ asFieldInclude()](./asFieldInclude/#default) |  |
-|[ asFieldIncludePicture()](./asFieldIncludePicture/#default) |  |
-|[ asFieldIncludeText()](./asFieldIncludeText/#default) |  |
-|[ asFieldIndex()](./asFieldIndex/#default) |  |
-|[ asFieldInfo()](./asFieldInfo/#default) |  |
-|[ asFieldKeywords()](./asFieldKeywords/#default) |  |
-|[ asFieldLastSavedBy()](./asFieldLastSavedBy/#default) |  |
-|[ asFieldLink()](./asFieldLink/#default) |  |
-|[ asFieldListNum()](./asFieldListNum/#default) |  |
-|[ asFieldMacroButton()](./asFieldMacroButton/#default) |  |
-|[ asFieldMergeBarcode()](./asFieldMergeBarcode/#default) |  |
-|[ asFieldMergeField()](./asFieldMergeField/#default) |  |
-|[ asFieldMergeRec()](./asFieldMergeRec/#default) |  |
-|[ asFieldMergeSeq()](./asFieldMergeSeq/#default) |  |
-|[ asFieldNext()](./asFieldNext/#default) |  |
-|[ asFieldNextIf()](./asFieldNextIf/#default) |  |
-|[ asFieldNoteRef()](./asFieldNoteRef/#default) |  |
-|[ asFieldNumChars()](./asFieldNumChars/#default) |  |
-|[ asFieldNumPages()](./asFieldNumPages/#default) |  |
-|[ asFieldNumWords()](./asFieldNumWords/#default) |  |
-|[ asFieldOcx()](./asFieldOcx/#default) |  |
-|[ asFieldPage()](./asFieldPage/#default) |  |
-|[ asFieldPageRef()](./asFieldPageRef/#default) |  |
-|[ asFieldPrint()](./asFieldPrint/#default) |  |
-|[ asFieldPrintDate()](./asFieldPrintDate/#default) |  |
-|[ asFieldPrivate()](./asFieldPrivate/#default) |  |
-|[ asFieldQuote()](./asFieldQuote/#default) |  |
-|[ asFieldRD()](./asFieldRD/#default) |  |
-|[ asFieldRef()](./asFieldRef/#default) |  |
-|[ asFieldRevNum()](./asFieldRevNum/#default) |  |
-|[ asFieldSaveDate()](./asFieldSaveDate/#default) |  |
-|[ asFieldSection()](./asFieldSection/#default) |  |
-|[ asFieldSectionPages()](./asFieldSectionPages/#default) |  |
-|[ asFieldSeq()](./asFieldSeq/#default) |  |
-|[ asFieldSet()](./asFieldSet/#default) |  |
-|[ asFieldShape()](./asFieldShape/#default) |  |
-|[ asFieldSkipIf()](./asFieldSkipIf/#default) |  |
-|[ asFieldStyleRef()](./asFieldStyleRef/#default) |  |
-|[ asFieldSubject()](./asFieldSubject/#default) |  |
-|[ asFieldSymbol()](./asFieldSymbol/#default) |  |
-|[ asFieldTA()](./asFieldTA/#default) |  |
-|[ asFieldTC()](./asFieldTC/#default) |  |
-|[ asFieldTemplate()](./asFieldTemplate/#default) |  |
-|[ asFieldTime()](./asFieldTime/#default) |  |
-|[ asFieldTitle()](./asFieldTitle/#default) |  |
-|[ asFieldToa()](./asFieldToa/#default) |  |
-|[ asFieldToc()](./asFieldToc/#default) |  |
-|[ asFieldUnknown()](./asFieldUnknown/#default) |  |
-|[ asFieldUserAddress()](./asFieldUserAddress/#default) |  |
-|[ asFieldUserInitials()](./asFieldUserInitials/#default) |  |
-|[ asFieldUserName()](./asFieldUserName/#default) |  |
-|[ asFieldXE()](./asFieldXE/#default) |  |
+|[ asFieldAddIn()](./asFieldAddIn/#default) | Cast field to [FieldAddIn](../../aspose.words.fields/fieldaddin/). |
+|[ asFieldAddressBlock()](./asFieldAddressBlock/#default) | Cast field to [FieldAddressBlock](../../aspose.words.fields/fieldaddressblock/). |
+|[ asFieldAdvance()](./asFieldAdvance/#default) | Cast field to [FieldAdvance](../../aspose.words.fields/fieldadvance/). |
+|[ asFieldAsk()](./asFieldAsk/#default) | Cast field to [FieldAsk](../../aspose.words.fields/fieldask/). |
+|[ asFieldAuthor()](./asFieldAuthor/#default) | Cast field to [FieldAuthor](../../aspose.words.fields/fieldauthor/). |
+|[ asFieldAutoNum()](./asFieldAutoNum/#default) | Cast field to [FieldAutoNum](../../aspose.words.fields/fieldautonum/). |
+|[ asFieldAutoNumLgl()](./asFieldAutoNumLgl/#default) | Cast field to [FieldAutoNumLgl](../../aspose.words.fields/fieldautonumlgl/). |
+|[ asFieldAutoNumOut()](./asFieldAutoNumOut/#default) | Cast field to [FieldAutoNumOut](../../aspose.words.fields/fieldautonumout/). |
+|[ asFieldAutoText()](./asFieldAutoText/#default) | Cast field to [FieldAutoText](../../aspose.words.fields/fieldautotext/). |
+|[ asFieldAutoTextList()](./asFieldAutoTextList/#default) | Cast field to [FieldAutoTextList](../../aspose.words.fields/fieldautotextlist/). |
+|[ asFieldBarcode()](./asFieldBarcode/#default) | Cast field to [FieldBarcode](../../aspose.words.fields/fieldbarcode/). |
+|[ asFieldBibliography()](./asFieldBibliography/#default) | Cast field to [FieldBibliography](../../aspose.words.fields/fieldbibliography/). |
+|[ asFieldBidiOutline()](./asFieldBidiOutline/#default) | Cast field to [FieldBidiOutline](../../aspose.words.fields/fieldbidioutline/). |
+|[ asFieldCitation()](./asFieldCitation/#default) | Cast field to [FieldCitation](../../aspose.words.fields/fieldcitation/). |
+|[ asFieldComments()](./asFieldComments/#default) | Cast field to [FieldComments](../../aspose.words.fields/fieldcomments/). |
+|[ asFieldCompare()](./asFieldCompare/#default) | Cast field to [FieldCompare](../../aspose.words.fields/fieldcompare/). |
+|[ asFieldCreateDate()](./asFieldCreateDate/#default) | Cast field to [FieldCreateDate](../../aspose.words.fields/fieldcreatedate/). |
+|[ asFieldData()](./asFieldData/#default) | Cast field to [FieldData](../../aspose.words.fields/fielddata/). |
+|[ asFieldDatabase()](./asFieldDatabase/#default) | Cast field to [FieldDatabase](../../aspose.words.fields/fielddatabase/). |
+|[ asFieldDate()](./asFieldDate/#default) | Cast field to [FieldDate](../../aspose.words.fields/fielddate/). |
+|[ asFieldDde()](./asFieldDde/#default) | Cast field to [FieldDde](../../aspose.words.fields/fielddde/). |
+|[ asFieldDdeAuto()](./asFieldDdeAuto/#default) | Cast field to [FieldDdeAuto](../../aspose.words.fields/fieldddeauto/). |
+|[ asFieldDisplayBarcode()](./asFieldDisplayBarcode/#default) | Cast field to [FieldDisplayBarcode](../../aspose.words.fields/fielddisplaybarcode/). |
+|[ asFieldDocProperty()](./asFieldDocProperty/#default) | Cast field to [FieldDocProperty](../../aspose.words.fields/fielddocproperty/). |
+|[ asFieldDocVariable()](./asFieldDocVariable/#default) | Cast field to [FieldDocVariable](../../aspose.words.fields/fielddocvariable/). |
+|[ asFieldEQ()](./asFieldEQ/#default) | Cast field to [FieldEQ](../../aspose.words.fields/fieldeq/). |
+|[ asFieldEditTime()](./asFieldEditTime/#default) | Cast field to [FieldEditTime](../../aspose.words.fields/fieldedittime/). |
+|[ asFieldEmbed()](./asFieldEmbed/#default) | Cast field to [FieldEmbed](../../aspose.words.fields/fieldembed/). |
+|[ asFieldFileName()](./asFieldFileName/#default) | Cast field to [FieldFileName](../../aspose.words.fields/fieldfilename/). |
+|[ asFieldFileSize()](./asFieldFileSize/#default) | Cast field to [FieldFileSize](../../aspose.words.fields/fieldfilesize/). |
+|[ asFieldFillIn()](./asFieldFillIn/#default) | Cast field to [FieldFillIn](../../aspose.words.fields/fieldfillin/). |
+|[ asFieldFootnoteRef()](./asFieldFootnoteRef/#default) | Cast field to [FieldFootnoteRef](../../aspose.words.fields/fieldfootnoteref/). |
+|[ asFieldFormCheckBox()](./asFieldFormCheckBox/#default) | Cast field to [FieldFormCheckBox](../../aspose.words.fields/fieldformcheckbox/). |
+|[ asFieldFormDropDown()](./asFieldFormDropDown/#default) | Cast field to [FieldFormDropDown](../../aspose.words.fields/fieldformdropdown/). |
+|[ asFieldFormText()](./asFieldFormText/#default) | Cast field to [FieldFormText](../../aspose.words.fields/fieldformtext/). |
+|[ asFieldFormula()](./asFieldFormula/#default) | Cast field to [FieldFormula](../../aspose.words.fields/fieldformula/). |
+|[ asFieldGlossary()](./asFieldGlossary/#default) | Cast field to [FieldGlossary](../../aspose.words.fields/fieldglossary/). |
+|[ asFieldGoToButton()](./asFieldGoToButton/#default) | Cast field to [FieldGoToButton](../../aspose.words.fields/fieldgotobutton/). |
+|[ asFieldGreetingLine()](./asFieldGreetingLine/#default) | Cast field to [FieldGreetingLine](../../aspose.words.fields/fieldgreetingline/). |
+|[ asFieldHyperlink()](./asFieldHyperlink/#default) | Cast field to [FieldHyperlink](../../aspose.words.fields/fieldhyperlink/). |
+|[ asFieldIf()](./asFieldIf/#default) | Cast field to [FieldIf](../../aspose.words.fields/fieldif/). |
+|[ asFieldImport()](./asFieldImport/#default) | Cast field to [FieldImport](../../aspose.words.fields/fieldimport/). |
+|[ asFieldInclude()](./asFieldInclude/#default) | Cast field to [FieldInclude](../../aspose.words.fields/fieldinclude/). |
+|[ asFieldIncludePicture()](./asFieldIncludePicture/#default) | Cast field to [FieldIncludePicture](../../aspose.words.fields/fieldincludepicture/). |
+|[ asFieldIncludeText()](./asFieldIncludeText/#default) | Cast field to [FieldIncludeText](../../aspose.words.fields/fieldincludetext/). |
+|[ asFieldIndex()](./asFieldIndex/#default) | Cast field to [FieldIndex](../../aspose.words.fields/fieldindex/). |
+|[ asFieldInfo()](./asFieldInfo/#default) | Cast field to [FieldInfo](../../aspose.words.fields/fieldinfo/). |
+|[ asFieldKeywords()](./asFieldKeywords/#default) | Cast field to [FieldKeywords](../../aspose.words.fields/fieldkeywords/). |
+|[ asFieldLastSavedBy()](./asFieldLastSavedBy/#default) | Cast field to [FieldLastSavedBy](../../aspose.words.fields/fieldlastsavedby/). |
+|[ asFieldLink()](./asFieldLink/#default) | Cast field to [FieldLink](../../aspose.words.fields/fieldlink/). |
+|[ asFieldListNum()](./asFieldListNum/#default) | Cast field to [FieldListNum](../../aspose.words.fields/fieldlistnum/). |
+|[ asFieldMacroButton()](./asFieldMacroButton/#default) | Cast field to [FieldMacroButton](../../aspose.words.fields/fieldmacrobutton/). |
+|[ asFieldMergeBarcode()](./asFieldMergeBarcode/#default) | Cast field to [FieldMergeBarcode](../../aspose.words.fields/fieldmergebarcode/). |
+|[ asFieldMergeField()](./asFieldMergeField/#default) | Cast field to [FieldMergeField](../../aspose.words.fields/fieldmergefield/). |
+|[ asFieldMergeRec()](./asFieldMergeRec/#default) | Cast field to [FieldMergeRec](../../aspose.words.fields/fieldmergerec/). |
+|[ asFieldMergeSeq()](./asFieldMergeSeq/#default) | Cast field to [FieldMergeSeq](../../aspose.words.fields/fieldmergeseq/). |
+|[ asFieldNext()](./asFieldNext/#default) | Cast field to [FieldNext](../../aspose.words.fields/fieldnext/). |
+|[ asFieldNextIf()](./asFieldNextIf/#default) | Cast field to [FieldNextIf](../../aspose.words.fields/fieldnextif/). |
+|[ asFieldNoteRef()](./asFieldNoteRef/#default) | Cast field to [FieldNoteRef](../../aspose.words.fields/fieldnoteref/). |
+|[ asFieldNumChars()](./asFieldNumChars/#default) | Cast field to [FieldNumChars](../../aspose.words.fields/fieldnumchars/). |
+|[ asFieldNumPages()](./asFieldNumPages/#default) | Cast field to [FieldNumPages](../../aspose.words.fields/fieldnumpages/). |
+|[ asFieldNumWords()](./asFieldNumWords/#default) | Cast field to [FieldNumWords](../../aspose.words.fields/fieldnumwords/). |
+|[ asFieldOcx()](./asFieldOcx/#default) | Cast field to [FieldOcx](../../aspose.words.fields/fieldocx/). |
+|[ asFieldPage()](./asFieldPage/#default) | Cast field to [FieldPage](../../aspose.words.fields/fieldpage/). |
+|[ asFieldPageRef()](./asFieldPageRef/#default) | Cast field to [FieldPageRef](../../aspose.words.fields/fieldpageref/). |
+|[ asFieldPrint()](./asFieldPrint/#default) | Cast field to [FieldPrint](../../aspose.words.fields/fieldprint/). |
+|[ asFieldPrintDate()](./asFieldPrintDate/#default) | Cast field to [FieldPrintDate](../../aspose.words.fields/fieldprintdate/). |
+|[ asFieldPrivate()](./asFieldPrivate/#default) | Cast field to [FieldPrivate](../../aspose.words.fields/fieldprivate/). |
+|[ asFieldQuote()](./asFieldQuote/#default) | Cast field to [FieldQuote](../../aspose.words.fields/fieldquote/). |
+|[ asFieldRD()](./asFieldRD/#default) | Cast field to [FieldRD](../../aspose.words.fields/fieldrd/). |
+|[ asFieldRef()](./asFieldRef/#default) | Cast field to [FieldRef](../../aspose.words.fields/fieldref/). |
+|[ asFieldRevNum()](./asFieldRevNum/#default) | Cast field to [FieldRevNum](../../aspose.words.fields/fieldrevnum/). |
+|[ asFieldSaveDate()](./asFieldSaveDate/#default) | Cast field to [FieldSaveDate](../../aspose.words.fields/fieldsavedate/). |
+|[ asFieldSection()](./asFieldSection/#default) | Cast field to [FieldSection](../../aspose.words.fields/fieldsection/). |
+|[ asFieldSectionPages()](./asFieldSectionPages/#default) | Cast field to [FieldSectionPages](../../aspose.words.fields/fieldsectionpages/). |
+|[ asFieldSeq()](./asFieldSeq/#default) | Cast field to [FieldSeq](../../aspose.words.fields/fieldseq/). |
+|[ asFieldSet()](./asFieldSet/#default) | Cast field to [FieldSet](../../aspose.words.fields/fieldset/). |
+|[ asFieldShape()](./asFieldShape/#default) | Cast field to [FieldShape](../../aspose.words.fields/fieldshape/). |
+|[ asFieldSkipIf()](./asFieldSkipIf/#default) | Cast field to [FieldSkipIf](../../aspose.words.fields/fieldskipif/). |
+|[ asFieldStyleRef()](./asFieldStyleRef/#default) | Cast field to [FieldStyleRef](../../aspose.words.fields/fieldstyleref/). |
+|[ asFieldSubject()](./asFieldSubject/#default) | Cast field to [FieldSubject](../../aspose.words.fields/fieldsubject/). |
+|[ asFieldSymbol()](./asFieldSymbol/#default) | Cast field to [FieldSymbol](../../aspose.words.fields/fieldsymbol/). |
+|[ asFieldTA()](./asFieldTA/#default) | Cast field to [FieldTA](../../aspose.words.fields/fieldta/). |
+|[ asFieldTC()](./asFieldTC/#default) | Cast field to [FieldTC](../../aspose.words.fields/fieldtc/). |
+|[ asFieldTemplate()](./asFieldTemplate/#default) | Cast field to [FieldTemplate](../../aspose.words.fields/fieldtemplate/). |
+|[ asFieldTime()](./asFieldTime/#default) | Cast field to [FieldTime](../../aspose.words.fields/fieldtime/). |
+|[ asFieldTitle()](./asFieldTitle/#default) | Cast field to [FieldTitle](../../aspose.words.fields/fieldtitle/). |
+|[ asFieldToa()](./asFieldToa/#default) | Cast field to [FieldToa](../../aspose.words.fields/fieldtoa/). |
+|[ asFieldToc()](./asFieldToc/#default) | Cast field to [FieldToc](../../aspose.words.fields/fieldtoc/). |
+|[ asFieldUnknown()](./asFieldUnknown/#default) | Cast field to [FieldUnknown](../../aspose.words.fields/fieldunknown/). |
+|[ asFieldUserAddress()](./asFieldUserAddress/#default) | Cast field to [FieldUserAddress](../../aspose.words.fields/fielduseraddress/). |
+|[ asFieldUserInitials()](./asFieldUserInitials/#default) | Cast field to [FieldUserInitials](../../aspose.words.fields/fielduserinitials/). |
+|[ asFieldUserName()](./asFieldUserName/#default) | Cast field to [FieldUserName](../../aspose.words.fields/fieldusername/). |
+|[ asFieldXE()](./asFieldXE/#default) | Cast field to [FieldXE](../../aspose.words.fields/fieldxe/). |
 |[ getFieldCode()](./getFieldCode/#default) | Returns text between field start and field separator (or field end if there is no separator). Both field code and field result of child fields are included. |
 |[ getFieldCode(includeChildFieldCodes)](./getFieldCode/#boolean) | Returns text between field start and field separator (or field end if there is no separator). |
 |[ remove()](./remove/#default) | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns ``null``. |

@@ -5,7 +5,7 @@ articleTitle: appendDocument method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.appendDocument method"
 type: docs
-weight: 550
+weight: 530
 url: /nodejs-net/aspose.words/document/appendDocument/
 ---
 

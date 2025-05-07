@@ -29,7 +29,7 @@ or [HtmlSaveOptions.imagesFolder](../imagesFolder/).
 
 If value is set to ``false`` linked images are loaded into document's folder
 or [HtmlSaveOptions.imagesFolder](../imagesFolder/) and URL of each linked image is constructed depending
-on document's folder, [HtmlSaveOptions.imagesFolder](../imagesFolder/) 
+on document's folder, [HtmlSaveOptions.imagesFolder](../imagesFolder/)
 and [HtmlSaveOptions.imagesFolderAlias](../imagesFolderAlias/) properties.
 
 

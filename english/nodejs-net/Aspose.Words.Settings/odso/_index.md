@@ -24,7 +24,7 @@ types of data sources for a mail merge document. ODSO probably first appeared in
 
 The use of ODSO is poorly documented and the best way to learn how to use the properties of this object 
 is to create a document with a desired data source manually in Microsoft Word and then open that document using 
-Aspose.Words and examine the properties of the Aspose.Words.Document.MailMergeSettings and 
+Aspose.Words and examine the properties of the [Document.mailMergeSettings](../../aspose.words/document/mailMergeSettings/) and 
 [MailMergeSettings.odso](../mailmergesettings/odso/) objects. This is a good approach to take if you want to learn how to 
 programmatically configure a data source, for example.
 

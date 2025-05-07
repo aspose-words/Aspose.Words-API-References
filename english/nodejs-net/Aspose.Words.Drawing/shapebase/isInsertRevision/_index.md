@@ -5,7 +5,7 @@ articleTitle: isInsertRevision property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.isInsertRevision property. Returns true if this object was inserted in Microsoft Word while change tracking was enabled."
 type: docs
-weight: 270
+weight: 320
 url: /nodejs-net/aspose.words.drawing/shapebase/isInsertRevision/
 ---
 

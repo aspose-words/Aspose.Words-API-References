@@ -5,7 +5,7 @@ articleTitle: LoadOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.LoadOptions class. Allows to specify additional options (such as password or base URI) when loading a document into a [Document](../../aspose.words/document/) object"
 type: docs
-weight: 110
+weight: 100
 url: /nodejs-net/aspose.words.loading/loadoptions/
 ---
 
@@ -40,7 +40,6 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [mswVersion](./mswVersion/) | Allows to specify that the document loading process should match a specific MS Word version. Default value is [MsWordVersion.Word2019](../../aspose.words.settings/mswordversion/#Word2019) |
 | [password](./password/) | Gets or sets the password for opening an encrypted document. Can be ``null`` or empty string. Default is ``null``. |
 | [preserveIncludePictureField](./preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``false``. |
-| [progressCallback](./progressCallback/) | Called during loading a document and accepts data about loading progress. |
 | [resourceLoadingCallback](./resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [tempFolder](./tempFolder/) | Allows to use temporary files when reading document. By default this property is ``null`` and no temporary files are used. |
 | [updateDirtyFields](./updateDirtyFields/) | Specifies whether to update the fields with the ``dirty`` attribute. |

@@ -3,13 +3,16 @@ title: JSSizeF class
 linktitle: JSSizeF class
 articleTitle: JSSizeF class
 second_title: Aspose.Words for Node.js
-description: "Aspose.Words.JSSizeF class. "
+description: "Aspose.Words.JSSizeF class. Stores an ordered pair of floating-point numbers, which specify a Height and Width."
 type: docs
-weight: 730
+weight: 720
 url: /nodejs-net/aspose.words/jssizef/
 ---
 
 ## JSSizeF class
+
+Stores an ordered pair of floating-point numbers, which specify a Height and Width.
+
 
 ### Constructors
 | Name | Description |
@@ -20,8 +23,8 @@ url: /nodejs-net/aspose.words/jssizef/
 
 | Name | Description |
 | --- | --- |
-| [height](./height/) |  |
-| [width](./width/) |  |
+| [height](./height/) | Represents the vertical component. |
+| [width](./width/) | Represents the horizontal component. |
 
 ### See Also
 

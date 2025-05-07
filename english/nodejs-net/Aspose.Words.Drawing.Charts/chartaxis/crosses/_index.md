@@ -61,6 +61,8 @@ xAxis.tickLabels.position = aw.Drawing.Charts.AxisTickLabelPosition.Low;
 xAxis.tickLabels.isAutoSpacing = false;
 xAxis.tickMarkSpacing = 1;
 
+expect(xAxis.document.referenceEquals(doc)).toEqual(true);
+
 let yAxis = chart.axisY;
 yAxis.categoryType = aw.Drawing.Charts.AxisCategoryType.Automatic;
 yAxis.crosses = aw.Drawing.Charts.AxisCrosses.Maximum;
@@ -70,6 +72,9 @@ yAxis.minorTickMark = aw.Drawing.Charts.AxisTickMark.Cross;
 yAxis.majorUnit = 100.0;
 yAxis.minorUnit = 20.0;
 yAxis.tickLabels.position = aw.Drawing.Charts.AxisTickLabelPosition.NextToAxis;
+yAxis.tickLabels.alignment = aw.ParagraphAlignment.Center;
+yAxis.tickLabels.font.color = "#FF0000";
+yAxis.tickLabels.spacing = 1;
 
 // Column charts do not have a Z-axis.
 expect(chart.axisZ).toBe(null);

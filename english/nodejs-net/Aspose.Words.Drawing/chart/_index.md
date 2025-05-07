@@ -31,6 +31,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nod
 | [series](./series/) | Provides access to series collection. |
 | [seriesGroups](./seriesGroups/) | Provides access to a series group collection of this chart. |
 | [sourceFullName](./sourceFullName/) | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [style](./style/) | Gets or sets the style of the chart. |
 | [title](./title/) | Provides access to the chart title properties. |
 
 ### Examples

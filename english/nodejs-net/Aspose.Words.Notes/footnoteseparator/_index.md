@@ -52,9 +52,6 @@ There can only be one [FootnoteSeparator](./) of each [FootnoteSeparatorType](..
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](../../aspose.words/node/accept/#documentvisitor) | Accepts a visitor.<br>(Inherited from [Node](../../aspose.words/node/)) |
-|[ acceptEnd(visitor)](../../aspose.words/compositenode/acceptEnd/#documentvisitor) | When implemented in a derived class, calls the VisitXXXEnd method of the specified document visitor.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ acceptStart(visitor)](../../aspose.words/compositenode/acceptStart/#documentvisitor) | When implemented in a derived class, calls the VisitXXXStart method of the specified document visitor.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ appendChild(newChild)](../../aspose.words/compositenode/appendChild/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ appendParagraph(text)](../../aspose.words/story/appendParagraph/#string) | A shortcut method that creates a [Paragraph](../../aspose.words/paragraph/) object with optional text and appends it to the end of this object.<br>(Inherited from [Story](../../aspose.words/story/)) |
 |[ asBody()](../../aspose.words/node/asBody/#default) | Cast node to [Body](../../aspose.words/body/).<br>(Inherited from [Node](../../aspose.words/node/)) |
@@ -93,22 +90,22 @@ There can only be one [FootnoteSeparator](./) of each [FootnoteSeparatorType](..
 |[ clone(isCloneChildren)](../../aspose.words/node/clone/#boolean) | Creates a duplicate of the node.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ deleteShapes()](../../aspose.words/story/deleteShapes/#default) | Deletes all shapes from the text of this story.<br>(Inherited from [Story](../../aspose.words/story/)) |
 |[ getAncestor(ancestorType)](../../aspose.words/node/getAncestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/).<br>(Inherited from [Node](../../aspose.words/node/)) |
-|[ getBuildingBlock(index, isDeep)](../../aspose.words/compositenode/getBuildingBlock/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getBuildingBlock(index, isDeep)](../../aspose.words/compositenode/getBuildingBlock/#number_boolean) | Returns an Nth child [BuildingBlock](../../aspose.words/buildingblock/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ getChild(nodeType, index, isDeep)](../../aspose.words/compositenode/getChild/#nodetype_number_boolean) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ getChildNodes(nodeType, isDeep)](../../aspose.words/compositenode/getChildNodes/#nodetype_boolean) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getComment(index, isDeep)](../../aspose.words/compositenode/getComment/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getEditableRangeStart(index, isDeep)](../../aspose.words/compositenode/getEditableRangeStart/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getFootnote(index, isDeep)](../../aspose.words/compositenode/getFootnote/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getGroupShape(index, isDeep)](../../aspose.words/compositenode/getGroupShape/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getOfficeMath(index, isDeep)](../../aspose.words/compositenode/getOfficeMath/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getParagraph(index, isDeep)](../../aspose.words/compositenode/getParagraph/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getRun(index, isDeep)](../../aspose.words/compositenode/getRun/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getSdt(index, isDeep)](../../aspose.words/compositenode/getSdt/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getSdtRangeEnd(index, isDeep)](../../aspose.words/compositenode/getSdtRangeEnd/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getSdtRangeStart(index, isDeep)](../../aspose.words/compositenode/getSdtRangeStart/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getShape(index, isDeep)](../../aspose.words/compositenode/getShape/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getSmartTag(index, isDeep)](../../aspose.words/compositenode/getSmartTag/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
-|[ getTable(index, isDeep)](../../aspose.words/compositenode/getTable/#number_boolean) | <br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getComment(index, isDeep)](../../aspose.words/compositenode/getComment/#number_boolean) | Returns an Nth child [Comment](../../aspose.words/comment/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getEditableRangeStart(index, isDeep)](../../aspose.words/compositenode/getEditableRangeStart/#number_boolean) | Returns an Nth child [EditableRangeStart](../../aspose.words/editablerangestart/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getFootnote(index, isDeep)](../../aspose.words/compositenode/getFootnote/#number_boolean) | Returns an Nth child [Footnote](../footnote/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getGroupShape(index, isDeep)](../../aspose.words/compositenode/getGroupShape/#number_boolean) | Returns an Nth child [GroupShape](../../aspose.words.drawing/groupshape/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getOfficeMath(index, isDeep)](../../aspose.words/compositenode/getOfficeMath/#number_boolean) | Returns an Nth child [OfficeMath](../../aspose.words.math/officemath/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getParagraph(index, isDeep)](../../aspose.words/compositenode/getParagraph/#number_boolean) | Returns an Nth child [Paragraph](../../aspose.words/paragraph/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getRun(index, isDeep)](../../aspose.words/compositenode/getRun/#number_boolean) | Returns an Nth child [Run](../../aspose.words/run/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getSdt(index, isDeep)](../../aspose.words/compositenode/getSdt/#number_boolean) | Returns an Nth child [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getSdtRangeEnd(index, isDeep)](../../aspose.words/compositenode/getSdtRangeEnd/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getSdtRangeStart(index, isDeep)](../../aspose.words/compositenode/getSdtRangeStart/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getShape(index, isDeep)](../../aspose.words/compositenode/getShape/#number_boolean) | Returns an Nth child [Shape](../../aspose.words.drawing/shape/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getSmartTag(index, isDeep)](../../aspose.words/compositenode/getSmartTag/#number_boolean) | Returns an Nth child [SmartTag](../../aspose.words.markup/smarttag/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+|[ getTable(index, isDeep)](../../aspose.words/compositenode/getTable/#number_boolean) | Returns an Nth child [Table](../../aspose.words/table/) node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ getText()](../../aspose.words/node/getText/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ indexOf(child)](../../aspose.words/compositenode/indexOf/#node) | Returns the index of the specified child node in the child node array.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ insertAfter(newChild, refChild)](../../aspose.words/compositenode/insertAfter/#node_node) | Inserts the specified node immediately after the specified reference node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
@@ -126,6 +123,18 @@ There can only be one [FootnoteSeparator](./) of each [FootnoteSeparatorType](..
 |[ selectSingleNode(xpath)](../../aspose.words/compositenode/selectSingleNode/#string) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 |[ toString(saveFormat)](../../aspose.words/node/toString/#saveformat) | Exports the content of the node into a string in the specified format.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ toString(saveOptions)](../../aspose.words/node/toString/#saveoptions) | Exports the content of the node into a string using the specified save options.<br>(Inherited from [Node](../../aspose.words/node/)) |
+
+### Examples
+
+Shows how to manage footnote separator format.
+
+```js
+let doc = new aw.Document(base.myDir + "Footnotes and endnotes.docx");
+
+let footnoteSeparator = doc.footnoteSeparators.at(aw.Notes.FootnoteSeparatorType.FootnoteSeparator);
+// Align footnote separator.
+footnoteSeparator.firstParagraph.paragraphFormat.alignment = aw.ParagraphAlignment.Center;
+```
 
 ### See Also
 

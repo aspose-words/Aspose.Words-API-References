@@ -5,7 +5,7 @@ articleTitle: resolveFontNames property
 second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.resolveFontNames property. Specifies whether font family names used in the document are resolved and substituted according to [Document.fontSettings](../../../aspose.words/document/fontSettings/) when being written into HTML-based formats."
 type: docs
-weight: 420
+weight: 430
 url: /nodejs-net/aspose.words.saving/htmlsaveoptions/resolveFontNames/
 ---
 

@@ -11,8 +11,8 @@ url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportHeadersFootersMode/
 
 ## HtmlSaveOptions.exportHeadersFootersMode property
 
-Specifies how headers and footers are output to HTML, MHTML or EPUB. 
-Default value is [ExportHeadersFootersMode.PerSection](../../exportheadersfootersmode/#PerSection) for HTML/MHTML 
+Specifies how headers and footers are output to HTML, MHTML or EPUB.
+Default value is [ExportHeadersFootersMode.PerSection](../../exportheadersfootersmode/#PerSection) for HTML/MHTML
 and [ExportHeadersFootersMode.None](../../exportheadersfootersmode/#None) for EPUB.
 
 
@@ -28,7 +28,7 @@ It is hard to meaningfully output headers and footers to HTML because HTML is no
 When this property is [ExportHeadersFootersMode.PerSection](../../exportheadersfootersmode/#PerSection), Aspose.Words exports
 only primary headers and footers at the beginning and the end of each section.
 
-When it is [ExportHeadersFootersMode.FirstSectionHeaderLastSectionFooter](../../exportheadersfootersmode/#FirstSectionHeaderLastSectionFooter) 
+When it is [ExportHeadersFootersMode.FirstSectionHeaderLastSectionFooter](../../exportheadersfootersmode/#FirstSectionHeaderLastSectionFooter)
 only first primary header and the last primary footer (including linked to previous) are exported.
 
 You can disable export of headers and footers altogether by setting this property

@@ -5,7 +5,7 @@ articleTitle: DropCapPosition enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DropCapPosition enumeration. Specifies the position for a drop cap text."
 type: docs
-weight: 360
+weight: 350
 url: /nodejs-net/aspose.words/dropcapposition/
 ---
 

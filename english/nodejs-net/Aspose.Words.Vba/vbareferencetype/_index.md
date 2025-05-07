@@ -5,7 +5,7 @@ articleTitle: VbaReferenceType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Vba.VbaReferenceType enumeration. Allows to specify the type of a [VbaReference](../vbareference/) object."
 type: docs
-weight: 50
+weight: 70
 url: /nodejs-net/aspose.words.vba/vbareferencetype/
 ---
 

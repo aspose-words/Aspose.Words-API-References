@@ -15,7 +15,7 @@ Gets contributors list (author, editor, writer etc) of a source.
 
 
 ```js
-get contributors(): None
+get contributors(): Aspose.Words.Bibliography.ContributorCollection
 ```
 
 ### See Also

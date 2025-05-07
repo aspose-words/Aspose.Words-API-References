@@ -5,7 +5,7 @@ articleTitle: asBody method
 second_title: Aspose.Words for Node.js
 description: "Node.asBody method. Cast node to [Body](../../body/)."
 type: docs
-weight: 100
+weight: 90
 url: /nodejs-net/aspose.words/node/asBody/
 ---
 
@@ -18,6 +18,12 @@ Cast node to [Body](../../body/).
 ```js
 asBody()
 ```
+
+### Remarks
+
+If a method returns a base class object, you should explicitly cast it to the derived class
+for access to the derived class members. Otherwise, you will only be able to access the members of the base class.
+
 
 ### See Also
 

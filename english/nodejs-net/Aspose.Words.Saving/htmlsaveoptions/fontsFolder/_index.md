@@ -21,18 +21,18 @@ get fontsFolder(): string
 
 ### Remarks
 
-When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.exportFontResources](../exportFontResources/) 
-is set to ``true``, Aspose.Words needs to save fonts used in the document as standalone files. 
-[HtmlSaveOptions.fontsFolder](./) allows you to specify where the fonts will be saved and 
+When you save a [Document](../../../aspose.words/document/) in HTML format and [HtmlSaveOptions.exportFontResources](../exportFontResources/)
+is set to ``true``, Aspose.Words needs to save fonts used in the document as standalone files.
+[HtmlSaveOptions.fontsFolder](./) allows you to specify where the fonts will be saved and
 [HtmlSaveOptions.fontsFolderAlias](../fontsFolderAlias/) allows to specify how the font URIs will be constructed.
 
-If you save a document into a file and provide a file name, Aspose.Words, by default, saves the 
+If you save a document into a file and provide a file name, Aspose.Words, by default, saves the
 fonts in the same folder where the document file is saved. Use [HtmlSaveOptions.fontsFolder](./)
 to override this behavior.
 
-If you save a document into a stream, Aspose.Words does not have a folder where to save the fonts, 
-but still needs to save the fonts somewhere. In this case, you need to specify an accessible folder 
-in the [HtmlSaveOptions.fontsFolder](./) property or provide custom streams via 
+If you save a document into a stream, Aspose.Words does not have a folder where to save the fonts,
+but still needs to save the fonts somewhere. In this case, you need to specify an accessible folder
+in the [HtmlSaveOptions.fontsFolder](./) property or provide custom streams via
 the [HtmlSaveOptions.fontSavingCallback](../fontSavingCallback/) event handler.
 
 If the folder specified by [HtmlSaveOptions.fontsFolder](./) doesn't exist, it will be created automatically.

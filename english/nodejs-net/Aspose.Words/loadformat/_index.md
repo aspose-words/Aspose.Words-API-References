@@ -5,7 +5,7 @@ articleTitle: LoadFormat enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.LoadFormat enumeration. Indicates the format of the document that is to be loaded."
 type: docs
-weight: 790
+weight: 780
 url: /nodejs-net/aspose.words/loadformat/
 ---
 
@@ -73,20 +73,16 @@ Shows how save a web page as a .docx file.
 
 ```js
 const url = "https://products.aspose.com/words/";
-const download = require('download');
-await download(url, base.artifactsDir).then(() => {
-  const buffer = base.loadFileToBuffer(base.artifactsDir + "words");
-  // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-  const options = new aw.Loading.LoadOptions();
-  options.loadOptions = aw.LoadFormat;
-  options.baseUri = url;
-  // Load the HTML document from stream and pass the LoadOptions object.
-  const doc = new aw.Document(buffer, options);
+const response = await fetch(url);
+const blob = await response.blob();
+const arrayBuffer = await blob.arrayBuffer();
+const dataBytes = Buffer.from(arrayBuffer);    
 
-  // At this stage, we can read and edit the document's contents and then save it to the local file system.
+let doc = new aw.Document(dataBytes);
 
-  doc.save(base.artifactsDir + "Document.InsertHtmlFromWebPage.docx");
-}, 10000);
+// At this stage, we can read and edit the document's contents and then save it to the local file system.
+
+doc.save(base.artifactsDir + "Document.LoadFromWeb.docx");
 ```
 
 ### See Also

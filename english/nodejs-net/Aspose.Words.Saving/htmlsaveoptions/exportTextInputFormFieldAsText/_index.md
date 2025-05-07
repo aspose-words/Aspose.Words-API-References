@@ -22,10 +22,10 @@ get exportTextInputFormFieldAsText(): boolean
 
 ### Remarks
 
-When set to ``true``, exports text input form fields as normal text. 
+When set to ``true``, exports text input form fields as normal text.
 When ``false``, exports Word text input form fields as INPUT elements in HTML.
 
-When exporting to EPUB, text input form fields are always saved as text due 
+When exporting to EPUB, text input form fields are always saved as text due
 to requirements of this format.
 
 

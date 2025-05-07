@@ -5,7 +5,7 @@ articleTitle: ResourceLoadingAction enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.ResourceLoadingAction enumeration. Specifies the mode of resource loading"
 type: docs
-weight: 140
+weight: 130
 url: /nodejs-net/aspose.words.loading/resourceloadingaction/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: packageCustomParts property
 second_title: Aspose.Words for Node.js
 description: "Document.packageCustomParts property. Gets or sets the collection of custom parts (arbitrary content) that are linked to the OOXML package using unknown relationships."
 type: docs
-weight: 300
+weight: 310
 url: /nodejs-net/aspose.words/document/packageCustomParts/
 ---
 

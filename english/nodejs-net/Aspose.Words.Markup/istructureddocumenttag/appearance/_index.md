@@ -18,6 +18,18 @@ Gets or sets the appearance of the structured document tag.
 get appearance(): Aspose.Words.Markup.SdtAppearance
 ```
 
+### Examples
+
+Shows how to show tag around content.
+
+```js
+let doc = new aw.Document(base.myDir + "Multi-section structured document tags.docx");
+let tag = doc.getChild(aw.NodeType.StructuredDocumentTagRangeStart, 0, true).asStructuredDocumentTagRangeStart();
+
+if (tag.appearance == aw.Markup.SdtAppearance.Hidden)
+  tag.appearance = aw.Markup.SdtAppearance.Tags;
+```
+
 ### See Also
 
 * module [Aspose.Words.Markup](../../)

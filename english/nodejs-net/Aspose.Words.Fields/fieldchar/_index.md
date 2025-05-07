@@ -58,7 +58,6 @@ method.
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](../../aspose.words/node/accept/#documentvisitor) | Accepts a visitor.<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ asBody()](../../aspose.words/node/asBody/#default) | Cast node to [Body](../../aspose.words/body/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ asBookmarkEnd()](../../aspose.words/node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../../aspose.words/bookmarkend/).<br>(Inherited from [Node](../../aspose.words/node/)) |
 |[ asBookmarkStart()](../../aspose.words/node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../../aspose.words/bookmarkstart/).<br>(Inherited from [Node](../../aspose.words/node/)) |

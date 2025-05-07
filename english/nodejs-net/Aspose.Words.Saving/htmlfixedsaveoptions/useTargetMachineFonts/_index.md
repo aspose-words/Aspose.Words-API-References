@@ -5,7 +5,7 @@ articleTitle: useTargetMachineFonts property
 second_title: Aspose.Words for Node.js
 description: "HtmlFixedSaveOptions.useTargetMachineFonts property. Flag indicates whether fonts from target machine must be used to display the document"
 type: docs
-weight: 210
+weight: 200
 url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/useTargetMachineFonts/
 ---
 
@@ -13,7 +13,7 @@ url: /nodejs-net/aspose.words.saving/htmlfixedsaveoptions/useTargetMachineFonts/
 
 Flag indicates whether fonts from target machine must be used to display the document.
 If this flag is set to ``true``, [HtmlFixedSaveOptions.fontFormat](../fontFormat/) and [HtmlFixedSaveOptions.exportEmbeddedFonts](../exportEmbeddedFonts/) properties do not have effect,
-also [HtmlFixedSaveOptions.resourceSavingCallback](../resourceSavingCallback/) is not fired for fonts.
+also Aspose.Words.Saving.HtmlFixedSaveOptions.ResourceSavingCallback is not fired for fonts.
 Default is ``false``.
 
 

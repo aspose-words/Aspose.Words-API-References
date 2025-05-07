@@ -5,7 +5,7 @@ articleTitle: ImageSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ImageSaveOptions class. Allows to specify additional options when rendering document pages or shapes to images"
 type: docs
-weight: 390
+weight: 370
 url: /nodejs-net/aspose.words.saving/imagesaveoptions/
 ---
 
@@ -30,7 +30,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | --- | --- |
 | [allowEmbeddingPostScriptFonts](../saveoptions/allowEmbeddingPostScriptFonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [colorMode](../fixedpagesaveoptions/colorMode/) | Gets or sets a value determining how colors are rendered.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
-| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** .<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml3DEffectsRenderingMode](../saveoptions/dml3DEffectsRenderingMode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlEffectsRenderingMode](../saveoptions/dmlEffectsRenderingMode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlRenderingMode](../saveoptions/dmlRenderingMode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -39,6 +39,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [imageBrightness](./imageBrightness/) | Gets or sets the brightness for the generated images. |
 | [imageColorMode](./imageColorMode/) | Gets or sets the color mode for the generated images. |
 | [imageContrast](./imageContrast/) | Gets or sets the contrast for the generated images. |
+| [imageSize2](./imageSize2/) | Gets or sets the size of a generated image in pixels. |
 | [imlRenderingMode](../saveoptions/imlRenderingMode/) | Gets or sets a value determining how ink (InkML) objects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [jpegQuality](./jpegQuality/) | Gets or sets a value determining the quality of the generated JPEG images. |
 | [memoryOptimization](../saveoptions/memoryOptimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -47,10 +48,9 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [optimizeOutput](../fixedpagesaveoptions/optimizeOutput/) | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to ``true``.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [pageSavingCallback](../fixedpagesaveoptions/pageSavingCallback/) | Allows to control how separate pages are saved when a document is exported to fixed page format.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [pageSet](./pageSet/) | Gets or sets the pages to render. Default is all the pages in the document. |
-| [paperColor](./paperColor/) | Gets or sets the background (paper) color for the generated images. The default value is aspose.pydrawing.Color.white. |
+| [paperColor](./paperColor/) | Gets or sets the background (paper) color for the generated images. The default value is white. |
 | [pixelFormat](./pixelFormat/) | Gets or sets the pixel format for the generated images. |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [saveFormat](./saveFormat/) | Specifies the format in which the rendered document pages or shapes will be saved if this save options object is used. Can be a raster [SaveFormat.Tiff](../../aspose.words/saveformat/#Tiff), [SaveFormat.Png](../../aspose.words/saveformat/#Png), [SaveFormat.Bmp](../../aspose.words/saveformat/#Bmp), [SaveFormat.Jpeg](../../aspose.words/saveformat/#Jpeg) or vector [SaveFormat.Emf](../../aspose.words/saveformat/#Emf), [SaveFormat.Eps](../../aspose.words/saveformat/#Eps), [SaveFormat.WebP](../../aspose.words/saveformat/#WebP), [SaveFormat.Svg](../../aspose.words/saveformat/#Svg). |
 | [scale](./scale/) | Gets or sets the zoom factor for the generated images. |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |

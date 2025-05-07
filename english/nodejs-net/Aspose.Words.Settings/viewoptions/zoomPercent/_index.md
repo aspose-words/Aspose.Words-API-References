@@ -3,7 +3,7 @@ title: ViewOptions.zoomPercent property
 linktitle: zoomPercent property
 articleTitle: zoomPercent property
 second_title: Aspose.Words for Node.js
-description: "ViewOptions.zoomPercent property. Gets or sets the percentage (between 10 and 500) at which you want to view your document."
+description: "ViewOptions.zoomPercent property. Gets or sets the percentage at which you want to view your document."
 type: docs
 weight: 50
 url: /nodejs-net/aspose.words.settings/viewoptions/zoomPercent/
@@ -11,7 +11,7 @@ url: /nodejs-net/aspose.words.settings/viewoptions/zoomPercent/
 
 ## ViewOptions.zoomPercent property
 
-Gets or sets the percentage (between 10 and 500) at which you want to view your document.
+Gets or sets the percentage at which you want to view your document.
 
 
 ```js
@@ -20,10 +20,7 @@ get zoomPercent(): number
 
 ### Remarks
 
-If value is 0 then this property uses 100 instead, else if value is less than 10 or greater 
-than 500 this property throws.
-
-Although Aspose.Words is able to read and write this option, its usage is application-specific. 
+Although Aspose.Words is able to read and write this option, its usage is application-specific.
 For example MS Word 2013 does not respect the value of this option.
 
 

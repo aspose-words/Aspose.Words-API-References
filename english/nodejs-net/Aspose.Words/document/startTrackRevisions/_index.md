@@ -5,7 +5,7 @@ articleTitle: startTrackRevisions method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.startTrackRevisions method"
 type: docs
-weight: 710
+weight: 690
 url: /nodejs-net/aspose.words/document/startTrackRevisions/
 ---
 
@@ -112,9 +112,9 @@ expect(doc.revisions.at(1).author).toEqual("John Doe");
 expect(doc.revisions.at(1).dateTime).toEqual(DateTime.minValue);
 
 // We can accept/reject these revisions programmatically
-// by calling methods such as aw.Document.acceptAllRevisions, or each revision's Accept method.
+// by calling methods such as Document.acceptAllRevisions, or each revision's Accept method.
 // In Microsoft Word, we can process them manually via "Review" -> "Changes".
-doc.save(base.artifactsDir + "Document.startTrackRevisions.docx");
+doc.save(base.artifactsDir + "Revision.startTrackRevisions.docx");
 ```
 
 ## See Also

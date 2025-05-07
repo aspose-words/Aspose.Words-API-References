@@ -5,7 +5,7 @@ articleTitle: tempFolder property
 second_title: Aspose.Words for Node.js
 description: "SaveOptions.tempFolder property. Specifies the folder for temporary files used when saving to a DOC or DOCX file"
 type: docs
-weight: 120
+weight: 110
 url: /nodejs-net/aspose.words.saving/saveoptions/tempFolder/
 ---
 

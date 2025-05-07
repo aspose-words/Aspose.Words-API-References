@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words.digitalsignatures/signoptions/comments/
 ## SignOptions.comments property
 
 Specifies comments on the digital signature.
-Default value is **empty string**().
-
+Default value is **empty string**
+.
 
 
 ```js

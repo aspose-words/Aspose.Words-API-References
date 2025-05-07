@@ -45,7 +45,6 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``null`` or empty string. Default is ``null``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [preferredControlType](./preferredControlType/) | Gets or sets preferred type of document nodes that will represent imported \<input\> and \<select\> elements. Default value is [HtmlControlType.FormField](../htmlcontroltype/#FormField). |
 | [preserveIncludePictureField](../loadoptions/preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``false``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [progressCallback](../loadoptions/progressCallback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resourceLoadingCallback](../loadoptions/resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [supportFontFaceRules](./supportFontFaceRules/) | Gets or sets a value indicating whether to support @font-face rules and whether to load declared fonts. Default value is ``false``. |
 | [supportVml](./supportVml/) | Gets or sets a value indicating whether to support VML images. |
@@ -53,6 +52,28 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [updateDirtyFields](../loadoptions/updateDirtyFields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [useSystemLcid](../loadoptions/useSystemLcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [webRequestTimeout](./webRequestTimeout/) | The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). |
+
+### Examples
+
+Shows how to support conditional comments while loading an HTML document.
+
+```js
+let loadOptions = new aw.Loading.HtmlLoadOptions();
+
+// If the value is true, then we take VML code into account while parsing the loaded document.
+loadOptions.supportVml = supportVml;
+
+// This document contains a JPEG image within "<!--[if gte vml 1]>" tags,
+// and a different PNG image within "<![if !vml]>" tags.
+// If we set the "SupportVml" flag to "true", then Aspose.words will load the JPEG.
+// If we set this flag to "false", then Aspose.words will only load the PNG.
+let doc = new aw.Document(base.myDir + "VML conditional.htm", loadOptions);
+
+if (supportVml)
+  expect(doc.getShape(0, true).imageData.imageType).toEqual(aw.Drawing.ImageType.Jpeg);
+else
+  expect(doc.getShape(0, true).imageData.imageType).toEqual(aw.Drawing.ImageType.Png);
+```
 
 ### See Also
 

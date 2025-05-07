@@ -5,7 +5,7 @@ articleTitle: VariableCollection class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.VariableCollection class. A collection of document variables"
 type: docs
-weight: 1450
+weight: 1440
 url: /nodejs-net/aspose.words/variablecollection/
 ---
 
@@ -85,6 +85,9 @@ expect(variables.contains("City")).toEqual(true);
 expect(variables.indexOfKey("Bedrooms")).toEqual(0);
 expect(variables.indexOfKey("City")).toEqual(1);
 expect(variables.indexOfKey("Home address")).toEqual(2);
+
+expect(variables.at(0)).toEqual("3");
+expect(variables.at("City")).toEqual("London");
 
 // Enumerate over the collection of variables.
 for (var i = 0; i < variables.count; i++) {

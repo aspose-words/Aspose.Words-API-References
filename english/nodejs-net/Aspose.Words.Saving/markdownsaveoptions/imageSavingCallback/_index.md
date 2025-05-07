@@ -5,7 +5,7 @@ articleTitle: imageSavingCallback property
 second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.imageSavingCallback property. Allows to control how images are saved when a document is saved to [SaveFormat.Markdown](../../../aspose.words/saveformat/#Markdown) format."
 type: docs
-weight: 60
+weight: 70
 url: /nodejs-net/aspose.words.saving/markdownsaveoptions/imageSavingCallback/
 ---
 
@@ -29,11 +29,11 @@ test('RenameImages', () => {
   let doc = new aw.Document(base.myDir + "Rendering.docx");
 
   let saveOptions = new aw.Saving.MarkdownSaveOptions();
-
   // If we convert a document that contains images into Markdown, we will end up with one Markdown file which links to several images.
   // Each image will be in the form of a file in the local file system.
   // There is also a callback that can customize the name and file system location of each image.
   saveOptions.imageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+  saveOptions.saveFormat = aw.SaveFormat.Markdown;
 
   // The ImageSaving() method of our callback will be run at this time.
   doc.save(base.artifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);

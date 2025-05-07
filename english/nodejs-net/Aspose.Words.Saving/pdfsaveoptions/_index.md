@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Pdf](../../aspose.words/saveformat/#Pdf) format"
 type: docs
-weight: 720
+weight: 710
 url: /nodejs-net/aspose.words.saving/pdfsaveoptions/
 ---
 
@@ -36,7 +36,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [compliance](./compliance/) | Specifies the PDF standards compliance level for output documents. |
 | [createNoteHyperlinks](./createNoteHyperlinks/) | Specifies whether to convert footnote/endnote references in main text story into active hyperlinks. When clicked the hyperlink will lead to the corresponding footnote/endnote. Default is ``false``. |
 | [customPropertiesExport](./customPropertiesExport/) | Gets or sets a value determining the way [Document.customDocumentProperties](../../aspose.words/document/customDocumentProperties/) are exported to PDF file. |
-| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** .<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [digitalSignatureDetails](./digitalSignatureDetails/) | Gets or sets the details for signing the output PDF document. |
 | [displayDocTitle](./displayDocTitle/) | A flag specifying whether the window’s title bar should display the document title taken from the Title entry of the document information dictionary. |
 | [dml3DEffectsRenderingMode](../saveoptions/dml3DEffectsRenderingMode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -69,7 +69,6 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [preblendImages](./preblendImages/) | Gets or sets a value determining whether or not to preblend transparent images with black background color. |
 | [preserveFormFields](./preserveFormFields/) | Specifies whether to preserve Microsoft Word form fields as form fields in PDF or convert them to text. Default is ``false``. |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [renderChoiceFormFieldBorder](./renderChoiceFormFieldBorder/) | Specifies whether to render PDF choice form field border. |
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Pdf](../../aspose.words/saveformat/#Pdf). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |

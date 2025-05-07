@@ -29,6 +29,30 @@ checkGrammar(sourceDocument: Aspose.Words.Document, options: Aspose.Words.AI.Che
 A new [Document](../../../aspose.words/document/) with checked grammar.
 
 
+### Examples
+
+Shows how to check the grammar of a document.
+
+```js
+let doc = new aw.Document(base.myDir + "Big document.docx");
+
+const apiKey = process.env.API_KEY;
+if (!apiKey) {
+  console.warn("API_KEY environment variable is not set.");
+  return;
+}
+
+// Use OpenAI generative language models.
+let model = aw.AI.AiModel.createGpt4OMini();
+model.setApiKey(apiKey);
+
+let grammarOptions = new aw.AI.CheckGrammarOptions();
+grammarOptions.improveStylistics = true;
+
+let proofedDoc = model.checkGrammar(doc, grammarOptions);
+proofedDoc.save(base.artifactsDir + "AI.AiGrammar.docx");
+```
+
 ### See Also
 
 * module [Aspose.Words.AI](../../)

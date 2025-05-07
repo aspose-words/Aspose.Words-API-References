@@ -12,7 +12,7 @@ url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/showBubble
 ## ChartDataLabelCollection.showBubbleSize property
 
 Allows to specify whether bubble size is to be displayed for the data labels of the entire series.
-Applies only to Bubble charts. 
+Applies only to Bubble charts.
 Default value is ``false``.
 
 
