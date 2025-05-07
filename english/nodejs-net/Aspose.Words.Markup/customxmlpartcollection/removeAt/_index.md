@@ -2,11 +2,11 @@
 title: CustomXmlPartCollection.removeAt method
 linktitle: removeAt method
 articleTitle: removeAt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlPartCollection.removeAt method. Removes an item at the specified index."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Markup/customxmlpartcollection/removeAt/
+url: /nodejs-net/aspose.words.markup/customxmlpartcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

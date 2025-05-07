@@ -2,11 +2,11 @@
 title: FieldUserInitials constructor
 linktitle: FieldUserInitials constructor
 articleTitle: FieldUserInitials constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldUserInitials constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fielduserinitials/constructor/
+url: /nodejs-net/aspose.words.fields/fielduserinitials/constructor/
 ---
 
 ## FieldUserInitials() {#default}

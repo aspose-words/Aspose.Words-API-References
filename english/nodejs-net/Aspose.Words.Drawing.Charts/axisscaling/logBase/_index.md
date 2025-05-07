@@ -2,11 +2,11 @@
 title: AxisScaling.logBase property
 linktitle: logBase property
 articleTitle: logBase property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisScaling.logBase property. Gets or sets the logarithmic base for a logarithmic axis."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisscaling/logBase/
+url: /nodejs-net/aspose.words.drawing.charts/axisscaling/logBase/
 ---
 
 ## AxisScaling.logBase property

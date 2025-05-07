@@ -2,11 +2,11 @@
 title: SdtListItem constructor
 linktitle: SdtListItem constructor
 articleTitle: SdtListItem constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.SdtListItem constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/sdtlistitem/constructor/
+url: /nodejs-net/aspose.words.markup/sdtlistitem/constructor/
 ---
 
 ## SdtListItem(displayText, value) {#string_string}
@@ -15,7 +15,7 @@ Initializes a new instance of this class.
 
 
 ```js
-SdtListItem(displayText: stringvalue: string)
+SdtListItem(displayText: string, value: string)
 ```
 
 | Parameter | Type | Description |

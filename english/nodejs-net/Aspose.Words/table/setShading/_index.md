@@ -2,11 +2,11 @@
 title: Table.setShading method
 linktitle: setShading method
 articleTitle: setShading method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.setShading method. Sets shading to the specified values on whole table."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/table/setShading/
+url: /nodejs-net/aspose.words/table/setShading/
 ---
 
 ## setShading(texture, foregroundColor, backgroundColor) {#textureindex_string_string}
@@ -15,7 +15,7 @@ Sets shading to the specified values on whole table.
 
 
 ```js
-setShading(texture: Aspose.Words.TextureIndexforegroundColor: stringbackgroundColor: string)
+setShading(texture: Aspose.Words.TextureIndex, foregroundColor: string, backgroundColor: string)
 ```
 
 | Parameter | Type | Description |

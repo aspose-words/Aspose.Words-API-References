@@ -2,11 +2,11 @@
 title: AxisTickLabels.alignment property
 linktitle: alignment property
 articleTitle: alignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "AxisTickLabels.alignment property. Gets or sets text alignment of the axis tick labels."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/axisticklabels/alignment/
+url: /nodejs-net/aspose.words.drawing.charts/axisticklabels/alignment/
 ---
 
 ## AxisTickLabels.alignment property
@@ -22,7 +22,7 @@ get alignment(): Aspose.Words.ParagraphAlignment
 
 This property has effect only for multi-line labels.
 
-The default value is [ParagraphAlignment.Center](../../../Aspose.Words/paragraphalignment/#Center).
+The default value is [ParagraphAlignment.Center](../../../aspose.words/paragraphalignment/#Center).
 
 .
 

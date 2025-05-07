@@ -22,6 +22,18 @@ Setting this property updates [`PageWidth`](../pagewidth/) and [`PageHeight`](..
 
 ## Examples
 
+Shows how to set the paper size of JisB4 or JisB5.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+// Set the paper size to JisB4 (257x364mm).
+pageSetup.PaperSize = PaperSize.JisB4;
+// Alternatively, set the paper size to JisB5. (182x257mm).
+pageSetup.PaperSize = PaperSize.JisB5;
+```
+
 Shows how to adjust paper size, orientation, margins, along with other settings for a section.
 
 ```csharp

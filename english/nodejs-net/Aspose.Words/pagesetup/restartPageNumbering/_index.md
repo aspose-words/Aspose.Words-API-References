@@ -2,11 +2,11 @@
 title: PageSetup.restartPageNumbering property
 linktitle: restartPageNumbering property
 articleTitle: restartPageNumbering property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.restartPageNumbering property. True if page numbering restarts at the beginning of the section."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/pagesetup/restartPageNumbering/
+url: /nodejs-net/aspose.words/pagesetup/restartPageNumbering/
 ---
 
 ## PageSetup.restartPageNumbering property
@@ -20,7 +20,7 @@ get restartPageNumbering(): boolean
 
 ### Remarks
 
-If set to ``False``, the [PageSetup.restartPageNumbering](./) property will override the
+If set to ``false``, the [PageSetup.restartPageNumbering](./) property will override the
 [PageSetup.pageStartingNumber](../pageStartingNumber/) property so that page numbering can continue from the previous section.
 
 

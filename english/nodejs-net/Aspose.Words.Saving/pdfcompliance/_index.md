@@ -2,11 +2,11 @@
 title: PdfCompliance enumeration
 linktitle: PdfCompliance enumeration
 articleTitle: PdfCompliance enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfCompliance enumeration. Specifies the PDF standards compliance level."
 type: docs
 weight: 600
-url: /nodejs-net/Aspose.Words.Saving/pdfcompliance/
+url: /nodejs-net/aspose.words.saving/pdfcompliance/
 ---
 
 ## PdfCompliance enumeration

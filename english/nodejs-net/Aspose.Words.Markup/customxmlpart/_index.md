@@ -2,11 +2,11 @@
 title: CustomXmlPart class
 linktitle: CustomXmlPart class
 articleTitle: CustomXmlPart class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.CustomXmlPart class. Represents a Custom XML Data Storage Part (custom XML data within a package)"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/customxmlpart/
+url: /nodejs-net/aspose.words.markup/customxmlpart/
 ---
 
 ## CustomXmlPart class
@@ -20,7 +20,7 @@ To learn more, visit the [Structured Document Tags or Content Control](https://d
 ### Remarks
 
 A DOCX or DOC document can contain one or more Custom XML Data Storage parts. Aspose.Words preserves and 
-allows to create and extract Custom XML Data via the [Document.customXmlParts](../../Aspose.Words/document/customXmlParts/) collection.
+allows to create and extract Custom XML Data via the [Document.customXmlParts](../../aspose.words/document/customXmlParts/) collection.
 
 
 
@@ -106,6 +106,6 @@ doc.save(base.artifactsDir + "StructuredDocumentTag.customXml.docx");
 ### See Also
 
 * module [Aspose.Words.Markup](../)
-* property [Document.customXmlParts](../../Aspose.Words/document/customXmlParts/)
+* property [Document.customXmlParts](../../aspose.words/document/customXmlParts/)
 * class [CustomXmlPartCollection](../customxmlpartcollection/)
 

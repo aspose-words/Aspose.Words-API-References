@@ -2,11 +2,11 @@
 title: FieldKeywords constructor
 linktitle: FieldKeywords constructor
 articleTitle: FieldKeywords constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldKeywords constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldkeywords/constructor/
+url: /nodejs-net/aspose.words.fields/fieldkeywords/constructor/
 ---
 
 ## FieldKeywords() {#default}

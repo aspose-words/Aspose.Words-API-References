@@ -2,11 +2,11 @@
 title: NodeList.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeList.count property. Gets the number of nodes in the list."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/nodelist/count/
+url: /nodejs-net/aspose.words/nodelist/count/
 ---
 
 ## NodeList.count property

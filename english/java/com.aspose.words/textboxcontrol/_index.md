@@ -4,7 +4,7 @@ linktitle: TextBoxControl
 second_title: Aspose.Words for Java
 description: The TextBox control displays text from an organized set of data or user input in Java.
 type: docs
-weight: 645
+weight: 656
 url: /java/com.aspose.words/textboxcontrol/
 ---
 

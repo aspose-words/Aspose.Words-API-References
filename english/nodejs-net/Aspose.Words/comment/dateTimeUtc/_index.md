@@ -2,11 +2,11 @@
 title: Comment.dateTimeUtc property
 linktitle: dateTimeUtc property
 articleTitle: dateTimeUtc property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Comment.dateTimeUtc property. Gets the UTC date and time that the comment was made."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/comment/dateTimeUtc/
+url: /nodejs-net/aspose.words/comment/dateTimeUtc/
 ---
 
 ## Comment.dateTimeUtc property

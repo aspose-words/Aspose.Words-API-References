@@ -2,11 +2,11 @@
 title: Body.ensureMinimum method
 linktitle: ensureMinimum method
 articleTitle: ensureMinimum method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Body.ensureMinimum method. If the last child is not a paragraph, creates and appends one empty paragraph."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/body/ensureMinimum/
+url: /nodejs-net/aspose.words/body/ensureMinimum/
 ---
 
 ## ensureMinimum() {#default}

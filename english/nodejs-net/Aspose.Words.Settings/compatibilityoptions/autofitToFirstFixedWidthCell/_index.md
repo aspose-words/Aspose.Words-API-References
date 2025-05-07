@@ -2,11 +2,11 @@
 title: CompatibilityOptions.autofitToFirstFixedWidthCell property
 linktitle: autofitToFirstFixedWidthCell property
 articleTitle: autofitToFirstFixedWidthCell property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.autofitToFirstFixedWidthCell property. Allow Table Columns To Exceed Preferred Widths of Constituent Cells."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/autofitToFirstFixedWidthCell/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/autofitToFirstFixedWidthCell/
 ---
 
 ## CompatibilityOptions.autofitToFirstFixedWidthCell property

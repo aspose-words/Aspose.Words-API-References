@@ -2,11 +2,11 @@
 title: ChartDataLabelCollection.orientation property
 linktitle: orientation property
 articleTitle: orientation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.orientation property. Gets or sets the text orientation of the data labels of the entire series."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/orientation/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/orientation/
 ---
 
 ## ChartDataLabelCollection.orientation property
@@ -20,7 +20,7 @@ get orientation(): Aspose.Words.Drawing.ShapeTextOrientation
 
 ### Remarks
 
-The default value is [ShapeTextOrientation.Horizontal](../../../Aspose.Words.Drawing/shapetextorientation/#Horizontal).
+The default value is [ShapeTextOrientation.Horizontal](../../../aspose.words.drawing/shapetextorientation/#Horizontal).
 
 
 

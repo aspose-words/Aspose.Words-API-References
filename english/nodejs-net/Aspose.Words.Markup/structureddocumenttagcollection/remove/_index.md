@@ -2,11 +2,11 @@
 title: StructuredDocumentTagCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagCollection.remove method. Removes the structured document tag with the specified identifier."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagcollection/remove/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagcollection/remove/
 ---
 
 ## remove(id) {#number}

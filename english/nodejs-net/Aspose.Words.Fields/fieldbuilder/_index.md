@@ -2,11 +2,11 @@
 title: FieldBuilder class
 linktitle: FieldBuilder class
 articleTitle: FieldBuilder class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldBuilder class. Builds a field from field code tokens (arguments and switches)"
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Fields/fieldbuilder/
+url: /nodejs-net/aspose.words.fields/fieldbuilder/
 ---
 
 ## FieldBuilder class

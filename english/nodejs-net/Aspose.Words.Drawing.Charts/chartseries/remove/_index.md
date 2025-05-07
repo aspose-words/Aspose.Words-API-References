@@ -2,11 +2,11 @@
 title: ChartSeries.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.remove method. Removes the X value, Y value, and bubble size, if supported, from the chart series at the specified index"
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/remove/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/remove/
 ---
 
 ## remove(index) {#number}

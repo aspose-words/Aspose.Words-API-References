@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertField method
 linktitle: insertField method
 articleTitle: insertField method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.insertField method"
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/documentbuilder/insertField/
+url: /nodejs-net/aspose.words/documentbuilder/insertField/
 ---
 
 ## insertField(fieldType, updateField) {#fieldtype_boolean}
@@ -15,12 +15,12 @@ Inserts a Word field into a document and optionally updates the field result.
 
 
 ```js
-insertField(fieldType: Aspose.Words.Fields.FieldTypeupdateField: boolean)
+insertField(fieldType: Aspose.Words.Fields.FieldType, updateField: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [FieldType](../../../Aspose.Words.Fields/fieldtype/) | The type of the field to append. |
+| fieldType | [FieldType](../../../aspose.words.fields/fieldtype/) | The type of the field to append. |
 | updateField | boolean | Specifies whether to update the field immediately. |
 
 ### Remarks
@@ -70,13 +70,13 @@ Inserts a Word field into a document without updating the field result.
 
 
 ```js
-insertField(fieldCode: stringfieldValue: string)
+insertField(fieldCode: string, fieldValue: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | string | The field code to insert (without curly braces). |
-| fieldValue | string | The field value to insert. Pass ``None`` for fields that do not have a value. |
+| fieldValue | string | The field value to insert. Pass ``null`` for fields that do not have a value. |
 
 ### Remarks
 

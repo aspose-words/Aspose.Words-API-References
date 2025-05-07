@@ -2,11 +2,11 @@
 title: PageInfo class
 linktitle: PageInfo class
 articleTitle: PageInfo class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Rendering.PageInfo class. Represents information about a particular document page"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Rendering/pageinfo/
+url: /nodejs-net/aspose.words.rendering/pageinfo/
 ---
 
 ## PageInfo class
@@ -29,9 +29,9 @@ already rotated to the correct orientation.
 
 | Name | Description |
 | --- | --- |
-| [colored](./colored/) | Returns ``True`` if the page contains colored content. |
+| [colored](./colored/) | Returns ``true`` if the page contains colored content. |
 | [heightInPoints](./heightInPoints/) | Gets the height of the page in points. |
-| [landscape](./landscape/) | Returns ``True`` if the page orientation specified in the document for this page is landscape. |
+| [landscape](./landscape/) | Returns ``true`` if the page orientation specified in the document for this page is landscape. |
 | [paperSize](./paperSize/) | Gets the paper size as enumeration. |
 | [paperTray](./paperTray/) | Gets the paper tray (bin) for this page as specified in the document. The value is implementation (printer) specific. |
 | [widthInPoints](./widthInPoints/) | Gets the width of the page in points. |
@@ -85,5 +85,5 @@ for (let i = 0; i < doc.pageCount; i++)
 ### See Also
 
 * module [Aspose.Words.Rendering](../)
-* method [Document.getPageInfo()](../../Aspose.Words/document/getPageInfo/#number)
+* method [Document.getPageInfo()](../../aspose.words/document/getPageInfo/#number)
 

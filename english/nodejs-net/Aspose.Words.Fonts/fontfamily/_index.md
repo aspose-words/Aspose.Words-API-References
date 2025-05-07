@@ -2,11 +2,11 @@
 title: FontFamily enumeration
 linktitle: FontFamily enumeration
 articleTitle: FontFamily enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontFamily enumeration. Represents the font family."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fonts/fontfamily/
+url: /nodejs-net/aspose.words.fonts/fontfamily/
 ---
 
 ## FontFamily enumeration

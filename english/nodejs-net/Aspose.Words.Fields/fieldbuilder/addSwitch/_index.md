@@ -2,11 +2,11 @@
 title: FieldBuilder.addSwitch method
 linktitle: addSwitch method
 articleTitle: addSwitch method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.FieldBuilder.addSwitch method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/fieldbuilder/addSwitch/
+url: /nodejs-net/aspose.words.fields/fieldbuilder/addSwitch/
 ---
 
 ## addSwitch(switchName) {#string}
@@ -33,7 +33,7 @@ Adds a field's switch.
 
 
 ```js
-addSwitch(switchName: stringswitchArgument: string)
+addSwitch(switchName: string, switchArgument: string)
 ```
 
 | Parameter | Type | Description |
@@ -47,7 +47,7 @@ Adds a field's switch.
 
 
 ```js
-addSwitch(switchName: stringswitchArgument: number)
+addSwitch(switchName: string, switchArgument: number)
 ```
 
 | Parameter | Type | Description |
@@ -61,7 +61,7 @@ Adds a field's switch.
 
 
 ```js
-addSwitch(switchName: stringswitchArgument: number)
+addSwitch(switchName: string, switchArgument: number)
 ```
 
 | Parameter | Type | Description |

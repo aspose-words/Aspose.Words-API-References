@@ -2,11 +2,11 @@
 title: ConditionalStyleCollection.evenRowBanding property
 linktitle: evenRowBanding property
 articleTitle: evenRowBanding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.evenRowBanding property. Gets the even row banding style."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/evenRowBanding/
+url: /nodejs-net/aspose.words/conditionalstylecollection/evenRowBanding/
 ---
 
 ## ConditionalStyleCollection.evenRowBanding property

@@ -2,11 +2,11 @@
 title: EndnoteOptions.position property
 linktitle: position property
 articleTitle: position property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EndnoteOptions.position property. Specifies the endnotes position."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Notes/endnoteoptions/position/
+url: /nodejs-net/aspose.words.notes/endnoteoptions/position/
 ---
 
 ## EndnoteOptions.position property

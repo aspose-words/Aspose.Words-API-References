@@ -2,11 +2,11 @@
 title: DigitalSignatureCollection constructor
 linktitle: DigitalSignatureCollection constructor
 articleTitle: DigitalSignatureCollection constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DigitalSignatureCollection constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.DigitalSignatures/digitalsignaturecollection/constructor/
+url: /nodejs-net/aspose.words.digitalsignatures/digitalsignaturecollection/constructor/
 ---
 
 ## DigitalSignatureCollection() {#default}

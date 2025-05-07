@@ -2,11 +2,11 @@
 title: FootnoteType enumeration
 linktitle: FootnoteType enumeration
 articleTitle: FootnoteType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.FootnoteType enumeration. Specifies whether this is a footnote or an endnote."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Notes/footnotetype/
+url: /nodejs-net/aspose.words.notes/footnotetype/
 ---
 
 ## FootnoteType enumeration
@@ -28,6 +28,32 @@ and endnotes.
 | Endnote | The object is an endnote. |
 
 ### Examples
+
+Shows how to reference text with a footnote and an endnote.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert some text and mark it with a footnote with the IsAuto property set to "true" by default,
+// so the marker seen in the body text will be auto-numbered at "1",
+// and the footnote will appear at the bottom of the page.
+builder.write("This text will be referenced by a footnote.");
+builder.insertFootnote(aw.Notes.FootnoteType.Footnote, "Footnote comment regarding referenced text.");
+
+// Insert more text and mark it with an endnote with a custom reference mark,
+// which will be used in place of the number "2" and set "IsAuto" to false.
+builder.write("This text will be referenced by an endnote.");
+builder.insertFootnote(aw.Notes.FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
+
+// Footnotes always appear at the bottom of their referenced text,
+// so this page break will not affect the footnote.
+// On the other hand, endnotes are always at the end of the document
+// so that this page break will push the endnote down to the next page.
+builder.insertBreak(aw.BreakType.PageBreak);
+
+doc.save(base.artifactsDir + "DocumentBuilder.insertFootnote.docx");
+```
 
 Shows how to insert and customize footnotes.
 
@@ -70,32 +96,6 @@ footnote = builder.insertFootnote(aw.Notes.FootnoteType.Footnote, "Footnote text
 expect(footnote.isAuto).toEqual(true);
 
 doc.save(base.artifactsDir + "InlineStory.AddFootnote.docx");
-```
-
-Shows how to reference text with a footnote and an endnote.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert some text and mark it with a footnote with the IsAuto property set to "true" by default,
-// so the marker seen in the body text will be auto-numbered at "1",
-// and the footnote will appear at the bottom of the page.
-builder.write("This text will be referenced by a footnote.");
-builder.insertFootnote(aw.Notes.FootnoteType.Footnote, "Footnote comment regarding referenced text.");
-
-// Insert more text and mark it with an endnote with a custom reference mark,
-// which will be used in place of the number "2" and set "IsAuto" to false.
-builder.write("This text will be referenced by an endnote.");
-builder.insertFootnote(aw.Notes.FootnoteType.Endnote, "Endnote comment regarding referenced text.", "CustomMark");
-
-// Footnotes always appear at the bottom of their referenced text,
-// so this page break will not affect the footnote.
-// On the other hand, endnotes are always at the end of the document
-// so that this page break will push the endnote down to the next page.
-builder.insertBreak(aw.BreakType.PageBreak);
-
-doc.save(base.artifactsDir + "DocumentBuilder.insertFootnote.docx");
 ```
 
 ### See Also

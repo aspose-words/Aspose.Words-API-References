@@ -2,16 +2,16 @@
 title: StructuredDocumentTag.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
-description: "StructuredDocumentTag.nodeType property. Returns [NodeType.StructuredDocumentTag](../../../Aspose.Words/nodetype/#StructuredDocumentTag)."
+second_title: Aspose.Words for Node.js
+description: "StructuredDocumentTag.nodeType property. Returns [NodeType.StructuredDocumentTag](../../../aspose.words/nodetype/#StructuredDocumentTag)."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/nodeType/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/nodeType/
 ---
 
 ## StructuredDocumentTag.nodeType property
 
-Returns [NodeType.StructuredDocumentTag](../../../Aspose.Words/nodetype/#StructuredDocumentTag).
+Returns [NodeType.StructuredDocumentTag](../../../aspose.words/nodetype/#StructuredDocumentTag).
 
 
 

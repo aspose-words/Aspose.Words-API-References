@@ -2,11 +2,11 @@
 title: Corporate class
 linktitle: Corporate class
 articleTitle: Corporate class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Bibliography.Corporate class. Represents a corporate (an organization) bibliography source contributor."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Bibliography/corporate/
+url: /nodejs-net/aspose.words.bibliography/corporate/
 ---
 
 ## Corporate class

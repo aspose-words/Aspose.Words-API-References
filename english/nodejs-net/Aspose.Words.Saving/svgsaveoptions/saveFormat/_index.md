@@ -2,17 +2,17 @@
 title: SvgSaveOptions.saveFormat property
 linktitle: saveFormat property
 articleTitle: saveFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/svgsaveoptions/saveFormat/
 ---
 
 ## SvgSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Svg](../../../Aspose.Words/saveformat/#Svg).
+Can only be [SaveFormat.Svg](../../../aspose.words/saveformat/#Svg).
 
 
 

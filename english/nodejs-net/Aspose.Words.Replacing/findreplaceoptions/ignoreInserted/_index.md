@@ -2,17 +2,17 @@
 title: FindReplaceOptions.ignoreInserted property
 linktitle: ignoreInserted property
 articleTitle: ignoreInserted property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.ignoreInserted property. Gets or sets a boolean value indicating either to ignore text inside insert revisions"
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/ignoreInserted/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/ignoreInserted/
 ---
 
 ## FindReplaceOptions.ignoreInserted property
 
 Gets or sets a boolean value indicating either to ignore text inside insert revisions.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

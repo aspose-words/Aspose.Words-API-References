@@ -2,11 +2,11 @@
 title: Font.clearFormatting method
 linktitle: clearFormatting method
 articleTitle: clearFormatting method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.clearFormatting method. Resets to default font formatting."
 type: docs
 weight: 560
-url: /nodejs-net/Aspose.Words/font/clearFormatting/
+url: /nodejs-net/aspose.words/font/clearFormatting/
 ---
 
 ## clearFormatting() {#default}

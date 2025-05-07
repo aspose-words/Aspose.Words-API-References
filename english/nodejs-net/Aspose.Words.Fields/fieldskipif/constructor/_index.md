@@ -2,11 +2,11 @@
 title: FieldSkipIf constructor
 linktitle: FieldSkipIf constructor
 articleTitle: FieldSkipIf constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSkipIf constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldskipif/constructor/
+url: /nodejs-net/aspose.words.fields/fieldskipif/constructor/
 ---
 
 ## FieldSkipIf() {#default}

@@ -12,7 +12,7 @@ url: /python-net/aspose.words.saving/htmlsaveoptions/css_style_sheet_type/
 ## HtmlSaveOptions.css_style_sheet_type property
 
 Specifies how CSS (Cascading Style Sheet) styles are exported to HTML, MHTML or EPUB.
-Default value is [CssStyleSheetType.INLINE](../../cssstylesheettype/#INLINE) for HTML/MHTML and 
+Default value is [CssStyleSheetType.INLINE](../../cssstylesheettype/#INLINE) for HTML/MHTML and
 [CssStyleSheetType.EXTERNAL](../../cssstylesheettype/#EXTERNAL) for EPUB.
 
 
@@ -30,9 +30,9 @@ def css_style_sheet_type(self, value: aspose.words.saving.CssStyleSheetType):
 
 ### Remarks
 
-Saving CSS style sheet into an external file is only supported when saving to HTML. 
-When you are exporting to one of the container formats (EPUB or MHTML) and specifying 
-[CssStyleSheetType.EXTERNAL](../../cssstylesheettype/#EXTERNAL), CSS file will be encapsulated 
+Saving CSS style sheet into an external file is only supported when saving to HTML.
+When you are exporting to one of the container formats (EPUB or MHTML) and specifying
+[CssStyleSheetType.EXTERNAL](../../cssstylesheettype/#EXTERNAL), CSS file will be encapsulated
 into the output package.
 
 

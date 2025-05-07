@@ -2,11 +2,11 @@
 title: TextBoxWrapMode enumeration
 linktitle: TextBoxWrapMode enumeration
 articleTitle: TextBoxWrapMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.TextBoxWrapMode enumeration. Specifies how text wraps inside a shape."
 type: docs
 weight: 480
-url: /nodejs-net/Aspose.Words.Drawing/textboxwrapmode/
+url: /nodejs-net/aspose.words.drawing/textboxwrapmode/
 ---
 
 ## TextBoxWrapMode enumeration

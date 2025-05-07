@@ -2,11 +2,11 @@
 title: CellFormat class
 linktitle: CellFormat class
 articleTitle: CellFormat class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.CellFormat class. Represents all formatting for a table cell"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Tables/cellformat/
+url: /nodejs-net/aspose.words.tables/cellformat/
 ---
 
 ## CellFormat class
@@ -23,19 +23,19 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/nod
 | --- | --- |
 | [borders](./borders/) | Gets collection of borders of the cell. |
 | [bottomPadding](./bottomPadding/) | Returns or sets the amount of space (in points) to add below the contents of cell. |
-| [fitText](./fitText/) | If ``True``, fits text in the cell, compressing each paragraph to the width of the cell. |
+| [fitText](./fitText/) | If ``true``, fits text in the cell, compressing each paragraph to the width of the cell. |
 | [hideMark](./hideMark/) | Returns or sets visibility of cell mark. |
 | [horizontalMerge](./horizontalMerge/) | Specifies how the cell is merged horizontally with other cells in the row. |
 | [leftPadding](./leftPadding/) | Returns or sets the amount of space (in points) to add to the left of the contents of cell. |
 | [orientation](./orientation/) | Returns or sets the orientation of text in a table cell. |
 | [preferredWidth](./preferredWidth/) | Returns or sets the preferred width of the cell. |
 | [rightPadding](./rightPadding/) | Returns or sets the amount of space (in points) to add to the right of the contents of cell. |
-| [shading](./shading/) | Returns a [Shading](../../Aspose.Words/shading/) object that refers to the shading formatting for the cell. |
+| [shading](./shading/) | Returns a [Shading](../../aspose.words/shading/) object that refers to the shading formatting for the cell. |
 | [topPadding](./topPadding/) | Returns or sets the amount of space (in points) to add above the contents of cell. |
 | [verticalAlignment](./verticalAlignment/) | Returns or sets the vertical alignment of text in the cell. |
 | [verticalMerge](./verticalMerge/) | Specifies how the cell is merged with other cells vertically. |
 | [width](./width/) | Gets the width of the cell in points. |
-| [wrapText](./wrapText/) | If ``True``, wrap text for the cell. |
+| [wrapText](./wrapText/) | If ``true``, wrap text for the cell. |
 
 ### Methods
 

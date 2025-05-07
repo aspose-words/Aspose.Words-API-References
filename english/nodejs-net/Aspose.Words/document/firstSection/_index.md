@@ -2,11 +2,11 @@
 title: Document.firstSection property
 linktitle: firstSection property
 articleTitle: firstSection property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.firstSection property. Gets the first section in the document."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/document/firstSection/
+url: /nodejs-net/aspose.words/document/firstSection/
 ---
 
 ## Document.firstSection property
@@ -20,7 +20,7 @@ get firstSection(): Aspose.Words.Section
 
 ### Remarks
 
-Returns ``None`` if there are no sections.
+Returns ``null`` if there are no sections.
 
 
 

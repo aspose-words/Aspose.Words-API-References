@@ -2,17 +2,17 @@
 title: LayoutOptions.showHiddenText property
 linktitle: showHiddenText property
 articleTitle: showHiddenText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutOptions.showHiddenText property. Gets or sets indication of whether hidden text in the document is rendered"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Layout/layoutoptions/showHiddenText/
+url: /nodejs-net/aspose.words.layout/layoutoptions/showHiddenText/
 ---
 
 ## LayoutOptions.showHiddenText property
 
 Gets or sets indication of whether hidden text in the document is rendered.
-Default is ``False``.
+Default is ``false``.
 
 
 

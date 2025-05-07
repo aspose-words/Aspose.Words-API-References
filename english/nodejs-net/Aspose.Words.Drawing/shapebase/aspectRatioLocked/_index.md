@@ -2,11 +2,11 @@
 title: ShapeBase.aspectRatioLocked property
 linktitle: aspectRatioLocked property
 articleTitle: aspectRatioLocked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.aspectRatioLocked property. Specifies whether the shape's aspect ratio is locked."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/aspectRatioLocked/
+url: /nodejs-net/aspose.words.drawing/shapebase/aspectRatioLocked/
 ---
 
 ## ShapeBase.aspectRatioLocked property
@@ -20,8 +20,8 @@ get aspectRatioLocked(): boolean
 
 ### Remarks
 
-The default value depends on the [ShapeType](../../shapetype/), for the [ShapeType.Image](../../shapetype/#Image) it is ``True``
-but for the other shape types it is ``False``.
+The default value depends on the [ShapeType](../../shapetype/), for the [ShapeType.Image](../../shapetype/#Image) it is ``true``
+but for the other shape types it is ``false``.
 
 Has effect for top level shapes only.
 

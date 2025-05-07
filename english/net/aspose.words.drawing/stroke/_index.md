@@ -5,7 +5,7 @@ articleTitle: Stroke
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Stroke class to enhance your shapes with customizable strokes, adding professional flair to your documents effortlessly.
 type: docs
-weight: 1710
+weight: 1720
 url: /net/aspose.words.drawing/stroke/
 ---
 ## Stroke class

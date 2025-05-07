@@ -2,17 +2,17 @@
 title: ChartDataLabel.showLegendKey property
 linktitle: showLegendKey property
 articleTitle: showLegendKey property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.showLegendKey property. Allows to specify if legend key is to be displayed for the data labels on a chart"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/showLegendKey/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/showLegendKey/
 ---
 
 ## ChartDataLabel.showLegendKey property
 
 Allows to specify if legend key is to be displayed for the data labels on a chart. 
-Default value is ``False``.
+Default value is ``false``.
 
 
 

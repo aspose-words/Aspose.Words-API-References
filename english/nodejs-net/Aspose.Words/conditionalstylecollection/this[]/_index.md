@@ -2,11 +2,11 @@
 title: ConditionalStyleCollection.this[] property
 linktitle: this[] property
 articleTitle: this[] property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.this[] property. "
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/this[]/
+url: /nodejs-net/aspose.words/conditionalstylecollection/this[]/
 ---
 
 ## ConditionalStyleCollection.this[] property

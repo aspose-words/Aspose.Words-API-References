@@ -2,11 +2,11 @@
 title: WebExtensionProperty.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtensionProperty.name property. Specifies a custom property name"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionproperty/name/
+url: /nodejs-net/aspose.words.webextensions/webextensionproperty/name/
 ---
 
 ## WebExtensionProperty.name property

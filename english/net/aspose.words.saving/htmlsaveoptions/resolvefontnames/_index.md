@@ -5,7 +5,7 @@ articleTitle: ResolveFontNames
 second_title: Aspose.Words for .NET
 description: Discover how the HtmlSaveOptions ResolveFontNames property enhances document formatting by ensuring accurate font substitutions in HTML outputs.
 type: docs
-weight: 420
+weight: 430
 url: /net/aspose.words.saving/htmlsaveoptions/resolvefontnames/
 ---
 ## HtmlSaveOptions.ResolveFontNames property

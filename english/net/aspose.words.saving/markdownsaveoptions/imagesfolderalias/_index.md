@@ -5,7 +5,7 @@ articleTitle: ImagesFolderAlias
 second_title: Aspose.Words for .NET
 description: Discover the MarkdownSaveOptions ImagesFolderAlias property to easily manage image URIs in your documents. Streamline your workflow with this essential feature!
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
 ---
 ## MarkdownSaveOptions.ImagesFolderAlias property

@@ -2,11 +2,11 @@
 title: TabStop.equals method
 linktitle: equals method
 articleTitle: equals method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TabStop.equals method. Compares with the specified [TabStop](../)."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/tabstop/equals/
+url: /nodejs-net/aspose.words/tabstop/equals/
 ---
 
 ## equals(rhs) {#tabstop}

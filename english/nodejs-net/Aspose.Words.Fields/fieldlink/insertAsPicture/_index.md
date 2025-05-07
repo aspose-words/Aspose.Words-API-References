@@ -2,11 +2,11 @@
 title: FieldLink.insertAsPicture property
 linktitle: insertAsPicture property
 articleTitle: insertAsPicture property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldLink.insertAsPicture property. Gets or sets whether to insert the linked object as a picture."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldlink/insertAsPicture/
+url: /nodejs-net/aspose.words.fields/fieldlink/insertAsPicture/
 ---
 
 ## FieldLink.insertAsPicture property

@@ -2,11 +2,11 @@
 title: DigitalSignatureDetails.certificateHolder property
 linktitle: certificateHolder property
 articleTitle: certificateHolder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DigitalSignatureDetails.certificateHolder property. Gets or sets a [DigitalSignatureDetails.certificateHolder](./) object that contains the certificate used to sign a document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/digitalsignaturedetails/certificateHolder/
+url: /nodejs-net/aspose.words.saving/digitalsignaturedetails/certificateHolder/
 ---
 
 ## DigitalSignatureDetails.certificateHolder property

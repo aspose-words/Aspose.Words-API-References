@@ -2,11 +2,11 @@
 title: GradientStop constructor
 linktitle: GradientStop constructor
 articleTitle: GradientStop constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.GradientStop constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/gradientstop/constructor/
+url: /nodejs-net/aspose.words.drawing/gradientstop/constructor/
 ---
 
 ## GradientStop(color, position) {#string_number}
@@ -16,7 +16,7 @@ Initializes a new instance of the [GradientStop](../) class.
 
 
 ```js
-GradientStop(color: stringposition: number)
+GradientStop(color: string, position: number)
 ```
 
 | Parameter | Type | Description |
@@ -31,7 +31,7 @@ Initializes a new instance of the [GradientStop](../) class.
 
 
 ```js
-GradientStop(color: stringposition: numbertransparency: number)
+GradientStop(color: string, position: number, transparency: number)
 ```
 
 | Parameter | Type | Description |

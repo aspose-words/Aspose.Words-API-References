@@ -2,11 +2,11 @@
 title: SaveOptions.imlRenderingMode property
 linktitle: imlRenderingMode property
 articleTitle: imlRenderingMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.imlRenderingMode property. Gets or sets a value determining how ink (InkML) objects are rendered."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/imlRenderingMode/
+url: /nodejs-net/aspose.words.saving/saveoptions/imlRenderingMode/
 ---
 
 ## SaveOptions.imlRenderingMode property

@@ -2,11 +2,11 @@
 title: FindReplaceOptions.direction property
 linktitle: direction property
 articleTitle: direction property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.direction property. Selects direction for replace"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/direction/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/direction/
 ---
 
 ## FindReplaceOptions.direction property

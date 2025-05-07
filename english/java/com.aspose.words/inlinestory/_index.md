@@ -4,7 +4,7 @@ linktitle: InlineStory
 second_title: Aspose.Words for Java
 description: Base class for inline-level nodes that can contain paragraphs and tables in Java.
 type: docs
-weight: 396
+weight: 398
 url: /java/com.aspose.words/inlinestory/
 ---
 

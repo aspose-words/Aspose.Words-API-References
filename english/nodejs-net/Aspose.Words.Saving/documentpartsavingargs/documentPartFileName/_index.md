@@ -2,11 +2,11 @@
 title: DocumentPartSavingArgs.documentPartFileName property
 linktitle: documentPartFileName property
 articleTitle: documentPartFileName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentPartSavingArgs.documentPartFileName property. Gets or sets the file name (without path) where the document part will be saved to."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/documentpartsavingargs/documentPartFileName/
+url: /nodejs-net/aspose.words.saving/documentpartsavingargs/documentPartFileName/
 ---
 
 ## DocumentPartSavingArgs.documentPartFileName property

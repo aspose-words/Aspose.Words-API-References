@@ -34,11 +34,20 @@ static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::SharedP
 ## Splitter::ExtractPages(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, int32_t, int32_t) method
 
 
-
+Extracts a specified range of pages from a document stream and saves the extracted pages to an output stream using the specified save format.
 
 ```cpp
 static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<System::IO::Stream> &outputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, int32_t startPageIndex, int32_t pageCount)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
+| outputStream | const System::SharedPtr\<System::IO::Stream\>\& | The output stream. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| startPageIndex | int32_t | The zero-based index of the first page to extract. |
+| pageCount | int32_t | Number of pages to be extracted. |
 
 ## See Also
 
@@ -73,11 +82,20 @@ static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::String 
 ## Splitter::ExtractPages(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, int32_t, int32_t) method
 
 
-
+Extracts a specified range of pages from a document file and saves the extracted pages to a new file using the specified save format.
 
 ```cpp
 static void Aspose::Words::LowCode::Splitter::ExtractPages(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, int32_t startPageIndex, int32_t pageCount)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | const System::String\& | The input file name. |
+| outputFileName | const System::String\& | The output file name. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| startPageIndex | int32_t | The zero-based index of the first page to extract. |
+| pageCount | int32_t | Number of pages to be extracted. |
 
 ## See Also
 

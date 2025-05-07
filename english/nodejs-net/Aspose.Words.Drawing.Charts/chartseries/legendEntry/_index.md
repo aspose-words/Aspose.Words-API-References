@@ -2,11 +2,11 @@
 title: ChartSeries.legendEntry property
 linktitle: legendEntry property
 articleTitle: legendEntry property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeries.legendEntry property. Gets a legend entry for this chart series."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/legendEntry/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/legendEntry/
 ---
 
 ## ChartSeries.legendEntry property

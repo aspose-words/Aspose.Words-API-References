@@ -2,17 +2,17 @@
 title: ImportFormatOptions.adjustSentenceAndWordSpacing property
 linktitle: adjustSentenceAndWordSpacing property
 articleTitle: adjustSentenceAndWordSpacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImportFormatOptions.adjustSentenceAndWordSpacing property. Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/importformatoptions/adjustSentenceAndWordSpacing/
+url: /nodejs-net/aspose.words/importformatoptions/adjustSentenceAndWordSpacing/
 ---
 
 ## ImportFormatOptions.adjustSentenceAndWordSpacing property
 
 Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

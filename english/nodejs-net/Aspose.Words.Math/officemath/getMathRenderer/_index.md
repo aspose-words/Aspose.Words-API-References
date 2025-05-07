@@ -2,11 +2,11 @@
 title: OfficeMath.getMathRenderer method
 linktitle: getMathRenderer method
 articleTitle: getMathRenderer method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OfficeMath.getMathRenderer method. Creates and returns an object that can be used to render this equation into an image."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Math/officemath/getMathRenderer/
+url: /nodejs-net/aspose.words.math/officemath/getMathRenderer/
 ---
 
 ## getMathRenderer() {#default}
@@ -20,7 +20,7 @@ getMathRenderer()
 
 ### Remarks
 
-This method just invokes the [OfficeMathRenderer](../../../Aspose.Words.Rendering/officemathrenderer/) constructor and passes
+This method just invokes the [OfficeMathRenderer](../../../aspose.words.rendering/officemathrenderer/) constructor and passes
 this object as a parameter.
 
 

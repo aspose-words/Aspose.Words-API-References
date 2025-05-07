@@ -2,11 +2,11 @@
 title: CustomXmlPropertyCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlPropertyCollection.add method. Adds a property to the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Markup/customxmlpropertycollection/add/
+url: /nodejs-net/aspose.words.markup/customxmlpropertycollection/add/
 ---
 
 ## add(property) {#customxmlproperty}

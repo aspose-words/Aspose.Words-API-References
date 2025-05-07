@@ -2,11 +2,11 @@
 title: ChartSeriesCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesCollection.count property. Returns the number of [ChartSeries](../../chartseries/) in this collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriescollection/count/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriescollection/count/
 ---
 
 ## ChartSeriesCollection.count property

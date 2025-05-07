@@ -2,11 +2,11 @@
 title: TableStyleOptions enumeration
 linktitle: TableStyleOptions enumeration
 articleTitle: TableStyleOptions enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Tables.TableStyleOptions enumeration. Specifies how table style is applied to a table."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Tables/tablestyleoptions/
+url: /nodejs-net/aspose.words.tables/tablestyleoptions/
 ---
 
 ## TableStyleOptions enumeration
@@ -79,5 +79,5 @@ doc.save(base.artifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 ### See Also
 
 * module [Aspose.Words.Tables](../)
-* property [Table.styleOptions](../../Aspose.Words/table/styleOptions/)
+* property [Table.styleOptions](../../aspose.words/table/styleOptions/)
 

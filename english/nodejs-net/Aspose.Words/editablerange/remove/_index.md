@@ -2,11 +2,11 @@
 title: EditableRange.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EditableRange.remove method. Removes the editable range from the document"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/editablerange/remove/
+url: /nodejs-net/aspose.words/editablerange/remove/
 ---
 
 ## remove() {#default}

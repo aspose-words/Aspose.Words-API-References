@@ -2,11 +2,11 @@
 title: ThemeColors.accent6 property
 linktitle: accent6 property
 articleTitle: accent6 property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThemeColors.accent6 property. Specifies color Accent 6."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Themes/themecolors/accent6/
+url: /nodejs-net/aspose.words.themes/themecolors/accent6/
 ---
 
 ## ThemeColors.accent6 property

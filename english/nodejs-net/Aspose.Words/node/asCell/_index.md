@@ -2,16 +2,16 @@
 title: Node.asCell method
 linktitle: asCell method
 articleTitle: asCell method
-second_title: Aspose.Words for NodeJs
-description: "Node.asCell method. Cast node to [Cell](../../../Aspose.Words.Tables/cell/)."
+second_title: Aspose.Words for Node.js
+description: "Node.asCell method. Cast node to [Cell](../../../aspose.words.tables/cell/)."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/node/asCell/
+url: /nodejs-net/aspose.words/node/asCell/
 ---
 
 ## asCell() {#default}
 
-Cast node to [Cell](../../../Aspose.Words.Tables/cell/).
+Cast node to [Cell](../../../aspose.words.tables/cell/).
 
 
 

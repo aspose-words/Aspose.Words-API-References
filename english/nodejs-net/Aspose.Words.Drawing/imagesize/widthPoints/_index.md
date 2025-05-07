@@ -2,11 +2,11 @@
 title: ImageSize.widthPoints property
 linktitle: widthPoints property
 articleTitle: widthPoints property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSize.widthPoints property. Gets the width of the image in points"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing/imagesize/widthPoints/
+url: /nodejs-net/aspose.words.drawing/imagesize/widthPoints/
 ---
 
 ## ImageSize.widthPoints property

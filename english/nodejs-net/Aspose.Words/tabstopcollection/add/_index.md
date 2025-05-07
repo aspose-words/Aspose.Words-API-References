@@ -2,11 +2,11 @@
 title: TabStopCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.TabStopCollection.add method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/tabstopcollection/add/
+url: /nodejs-net/aspose.words/tabstopcollection/add/
 ---
 
 ## add(tabStop) {#tabstop}
@@ -35,7 +35,7 @@ Adds or replaces a tab stop in the collection.
 
 
 ```js
-add(position: numberalignment: Aspose.Words.TabAlignmentleader: Aspose.Words.TabLeader)
+add(position: number, alignment: Aspose.Words.TabAlignment, leader: Aspose.Words.TabLeader)
 ```
 
 | Parameter | Type | Description |

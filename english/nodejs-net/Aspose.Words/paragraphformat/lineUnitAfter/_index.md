@@ -2,11 +2,11 @@
 title: ParagraphFormat.lineUnitAfter property
 linktitle: lineUnitAfter property
 articleTitle: lineUnitAfter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.lineUnitAfter property. Gets or sets the amount of spacing (in gridlines) after the paragraphs."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words/paragraphformat/lineUnitAfter/
+url: /nodejs-net/aspose.words/paragraphformat/lineUnitAfter/
 ---
 
 ## ParagraphFormat.lineUnitAfter property

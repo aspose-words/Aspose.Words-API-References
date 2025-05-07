@@ -2,11 +2,11 @@
 title: Table.rows property
 linktitle: rows property
 articleTitle: rows property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.rows property. Provides typed access to the rows of the table."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/table/rows/
+url: /nodejs-net/aspose.words/table/rows/
 ---
 
 ## Table.rows property

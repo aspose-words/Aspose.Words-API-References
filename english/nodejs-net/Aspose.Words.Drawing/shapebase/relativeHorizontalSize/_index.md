@@ -2,11 +2,11 @@
 title: ShapeBase.relativeHorizontalSize property
 linktitle: relativeHorizontalSize property
 articleTitle: relativeHorizontalSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.relativeHorizontalSize property. Gets or sets the value of shape's relative size in horizontal direction."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/relativeHorizontalSize/
+url: /nodejs-net/aspose.words.drawing/shapebase/relativeHorizontalSize/
 ---
 
 ## ShapeBase.relativeHorizontalSize property

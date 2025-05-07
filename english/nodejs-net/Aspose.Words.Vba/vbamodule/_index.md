@@ -2,11 +2,11 @@
 title: VbaModule class
 linktitle: VbaModule class
 articleTitle: VbaModule class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Vba.VbaModule class. Provides access to VBA project module"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Vba/vbamodule/
+url: /nodejs-net/aspose.words.vba/vbamodule/
 ---
 
 ## VbaModule class

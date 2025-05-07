@@ -2,11 +2,11 @@
 title: Font.hidden property
 linktitle: hidden property
 articleTitle: hidden property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.hidden property. True if the font is formatted as hidden text."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/font/hidden/
+url: /nodejs-net/aspose.words/font/hidden/
 ---
 
 ## Font.hidden property

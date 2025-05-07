@@ -2,11 +2,11 @@
 title: ShapeBase.shapeType property
 linktitle: shapeType property
 articleTitle: shapeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.shapeType property. Gets the shape type."
 type: docs
 weight: 480
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/shapeType/
+url: /nodejs-net/aspose.words.drawing/shapebase/shapeType/
 ---
 
 ## ShapeBase.shapeType property

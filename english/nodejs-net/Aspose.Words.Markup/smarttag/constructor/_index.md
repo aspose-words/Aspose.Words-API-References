@@ -2,11 +2,11 @@
 title: SmartTag constructor
 linktitle: SmartTag constructor
 articleTitle: SmartTag constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SmartTag constructor. Initializes a new instance of the [SmartTag](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Markup/smarttag/constructor/
+url: /nodejs-net/aspose.words.markup/smarttag/constructor/
 ---
 
 ## SmartTag(doc) {#documentbase}
@@ -21,7 +21,7 @@ SmartTag(doc: Aspose.Words.DocumentBase)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 
 ### Remarks
 
@@ -31,8 +31,8 @@ such as lists and styles. Although a node always belongs to a document, a node m
 not be a part of the document tree.
 
 When a node is created, it belongs to a document, but is not yet part of the document tree
-and [Node.parentNode](../../../Aspose.Words/node/parentNode/) is null. To insert a node into the document, use the
-[CompositeNode.insertAfter()](../../../Aspose.Words/compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../../Aspose.Words/compositenode/insertBefore/#node_node)
+and [Node.parentNode](../../../aspose.words/node/parentNode/) is null. To insert a node into the document, use the
+[CompositeNode.insertAfter()](../../../aspose.words/compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../../aspose.words/compositenode/insertBefore/#node_node)
 methods on the parent node.
 
 

@@ -2,18 +2,18 @@
 title: LoadOptions.encoding property
 linktitle: encoding property
 articleTitle: encoding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.encoding property. Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/encoding/
+url: /nodejs-net/aspose.words.loading/loadoptions/encoding/
 ---
 
 ## LoadOptions.encoding property
 
 Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified
 inside the document.
-Can be ``None``. Default is ``None``.
+Can be ``null``. Default is ``null``.
 
 
 
@@ -25,7 +25,7 @@ get encoding(): string
 
 This property is used only when loading HTML, TXT, or CHM documents.
 
-If encoding is not specified inside the document and this property is ``None``, then the system will try to
+If encoding is not specified inside the document and this property is ``null``, then the system will try to
 automatically detect the encoding.
 
 

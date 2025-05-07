@@ -2,11 +2,11 @@
 title: SpecialChar.getText method
 linktitle: getText method
 articleTitle: getText method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SpecialChar.getText method. Gets the special character that this node represents."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/specialchar/getText/
+url: /nodejs-net/aspose.words/specialchar/getText/
 ---
 
 ## getText() {#default}

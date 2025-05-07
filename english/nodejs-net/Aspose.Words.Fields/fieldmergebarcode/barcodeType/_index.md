@@ -2,11 +2,11 @@
 title: FieldMergeBarcode.barcodeType property
 linktitle: barcodeType property
 articleTitle: barcodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeBarcode.barcodeType property. Gets or sets the barcode type (QR, etc.)"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldmergebarcode/barcodeType/
+url: /nodejs-net/aspose.words.fields/fieldmergebarcode/barcodeType/
 ---
 
 ## FieldMergeBarcode.barcodeType property

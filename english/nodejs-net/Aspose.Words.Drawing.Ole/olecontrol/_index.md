@@ -2,11 +2,11 @@
 title: OleControl class
 linktitle: OleControl class
 articleTitle: OleControl class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Ole.OleControl class. Represents OLE ActiveX control"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Ole/olecontrol/
+url: /nodejs-net/aspose.words.drawing.ole/olecontrol/
 ---
 
 ## OleControl class
@@ -21,7 +21,7 @@ To learn more, visit the [Working with Ole Objects](https://docs.aspose.com/word
 
 | Name | Description |
 | --- | --- |
-| [isForms2OleControl](./isForms2OleControl/) | Returns ``True`` if the control is a [Forms2OleControl](../forms2olecontrol/). |
+| [isForms2OleControl](./isForms2OleControl/) | Returns ``true`` if the control is a [Forms2OleControl](../forms2olecontrol/). |
 | [name](./name/) | Gets or sets name of the ActiveX control. |
 
 ### Methods

@@ -2,11 +2,11 @@
 title: RtfSaveOptions.exportCompactSize property
 linktitle: exportCompactSize property
 articleTitle: exportCompactSize property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RtfSaveOptions.exportCompactSize property. Allows to make output RTF documents smaller in size, but if they contain  RTL (right-to-left) text, it will not be displayed correctly."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/exportCompactSize/
+url: /nodejs-net/aspose.words.saving/rtfsaveoptions/exportCompactSize/
 ---
 
 ## RtfSaveOptions.exportCompactSize property
@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/exportCompactSize/
 Allows to make output RTF documents smaller in size, but if they contain 
 RTL (right-to-left) text, it will not be displayed correctly.
 
-Default value is ``False``.
+Default value is ``false``.
 
 
 
@@ -25,7 +25,7 @@ get exportCompactSize(): boolean
 ### Remarks
 
 If the document that you want to convert to RTF using Aspose.Words does not contain
-right-to-left text in languages like Arabic, then you can set this option to ``True``
+right-to-left text in languages like Arabic, then you can set this option to ``true``
 to reduce the size of the resulting RTF.
 
 

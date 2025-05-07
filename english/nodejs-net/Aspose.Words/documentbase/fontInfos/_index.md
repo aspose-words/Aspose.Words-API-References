@@ -2,11 +2,11 @@
 title: DocumentBase.fontInfos property
 linktitle: fontInfos property
 articleTitle: fontInfos property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBase.fontInfos property. Provides access to properties of fonts used in this document."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/documentbase/fontInfos/
+url: /nodejs-net/aspose.words/documentbase/fontInfos/
 ---
 
 ## DocumentBase.fontInfos property
@@ -64,6 +64,6 @@ doc.save(base.artifactsDir + "Font.FontInfoCollection.docx");
 
 * module [Aspose.Words](../../)
 * class [DocumentBase](../)
-* class [FontInfoCollection](../../../Aspose.Words.Fonts/fontinfocollection/)
-* class [FontInfo](../../../Aspose.Words.Fonts/fontinfo/)
+* class [FontInfoCollection](../../../aspose.words.fonts/fontinfocollection/)
+* class [FontInfo](../../../aspose.words.fonts/fontinfo/)
 

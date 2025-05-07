@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitDocumentEnd method
 linktitle: visitDocumentEnd method
 articleTitle: visitDocumentEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitDocumentEnd method. Called when enumeration of the document has finished."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/documentvisitor/visitDocumentEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitDocumentEnd/
 ---
 
 ## visitDocumentEnd(doc) {#document}

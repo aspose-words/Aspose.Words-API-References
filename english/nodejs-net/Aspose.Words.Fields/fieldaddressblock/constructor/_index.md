@@ -2,11 +2,11 @@
 title: FieldAddressBlock constructor
 linktitle: FieldAddressBlock constructor
 articleTitle: FieldAddressBlock constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldAddressBlock constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldaddressblock/constructor/
+url: /nodejs-net/aspose.words.fields/fieldaddressblock/constructor/
 ---
 
 ## FieldAddressBlock() {#default}

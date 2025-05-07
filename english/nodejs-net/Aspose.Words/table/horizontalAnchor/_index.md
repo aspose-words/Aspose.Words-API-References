@@ -2,17 +2,17 @@
 title: Table.horizontalAnchor property
 linktitle: horizontalAnchor property
 articleTitle: horizontalAnchor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.horizontalAnchor property. Gets the base object from which the horizontal positioning of floating table should be calculated"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/table/horizontalAnchor/
+url: /nodejs-net/aspose.words/table/horizontalAnchor/
 ---
 
 ## Table.horizontalAnchor property
 
 Gets the base object from which the horizontal positioning of floating table should be calculated.
-Default value is [RelativeHorizontalPosition.Column](../../../Aspose.Words.Drawing/relativehorizontalposition/#Column).
+Default value is [RelativeHorizontalPosition.Column](../../../aspose.words.drawing/relativehorizontalposition/#Column).
 
 
 

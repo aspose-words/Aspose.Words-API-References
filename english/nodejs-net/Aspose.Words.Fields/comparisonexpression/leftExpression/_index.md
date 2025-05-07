@@ -2,11 +2,11 @@
 title: ComparisonExpression.leftExpression property
 linktitle: leftExpression property
 articleTitle: leftExpression property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ComparisonExpression.leftExpression property. Gets the left expression."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/comparisonexpression/leftExpression/
+url: /nodejs-net/aspose.words.fields/comparisonexpression/leftExpression/
 ---
 
 ## ComparisonExpression.leftExpression property

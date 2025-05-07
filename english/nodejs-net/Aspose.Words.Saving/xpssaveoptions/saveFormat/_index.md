@@ -2,17 +2,17 @@
 title: XpsSaveOptions.saveFormat property
 linktitle: saveFormat property
 articleTitle: saveFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XpsSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/xpssaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/xpssaveoptions/saveFormat/
 ---
 
 ## XpsSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Xps](../../../Aspose.Words/saveformat/#Xps).
+Can only be [SaveFormat.Xps](../../../aspose.words/saveformat/#Xps).
 
 
 

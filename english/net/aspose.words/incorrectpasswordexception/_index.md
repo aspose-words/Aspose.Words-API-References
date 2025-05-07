@@ -5,7 +5,7 @@ articleTitle: IncorrectPasswordException
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.IncorrectPasswordException class, which handles password errors for encrypted documents, ensuring secure and seamless access.
 type: docs
-weight: 3680
+weight: 3700
 url: /net/aspose.words/incorrectpasswordexception/
 ---
 ## IncorrectPasswordException class

@@ -2,11 +2,11 @@
 title: SignOptions.comments property
 linktitle: comments property
 articleTitle: comments property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignOptions.comments property. Specifies comments on the digital signature"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.DigitalSignatures/signoptions/comments/
+url: /nodejs-net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 
 ## SignOptions.comments property

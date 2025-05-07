@@ -4,7 +4,7 @@ linktitle: Section
 second_title: Aspose.Words for Java
 description: Represents a single section in a document in Java.
 type: docs
-weight: 585
+weight: 594
 url: /java/com.aspose.words/section/
 ---
 
@@ -107,6 +107,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [ensureMinimum()](#ensureMinimum) | Ensures that the section has [getBody()](../../com.aspose.words/section/\#getBody) with one [Paragraph](../../com.aspose.words/paragraph/). |
 | [fetchInheritedSectionAttr(int key)](#fetchInheritedSectionAttr-int) |  |
 | [fetchSectionAttr(int key)](#fetchSectionAttr-int) |  |
+| [fetchSectionAttr(int key, int revisionsView)](#fetchSectionAttr-int-int) |  |
 | [getAncestor(int ancestorType)](#getAncestor-int) |  |
 | [getAncestor(Class ancestorType)](#getAncestor-java.lang.Class) | Gets the first ancestor of the specified object type. |
 | [getBody()](#getBody) | Returns the [Body](../../com.aspose.words/body/) child node of the section. |
@@ -117,6 +118,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [getCurrentNode()](#getCurrentNode) |  |
 | [getCustomNodeId()](#getCustomNodeId) | Specifies custom node identifier. |
 | [getDirectSectionAttr(int key)](#getDirectSectionAttr-int) |  |
+| [getDirectSectionAttr(int key, int revisionsView)](#getDirectSectionAttr-int-int) |  |
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
 | [getHeadersFooters()](#getHeadersFooters) | Provides access to the headers and footers nodes of the section. |
@@ -150,6 +152,7 @@ Shows how to construct an Aspose.Words document by hand.
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
 | [setProtectedForForms(boolean value)](#setProtectedForForms-boolean) | True if the section is protected for forms. |
 | [setSectionAttr(int key, Object value)](#setSectionAttr-int-java.lang.Object) |  |
+| [setSectionAttr(int key, Object value, int revisionsView)](#setSectionAttr-int-java.lang.Object-int) |  |
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
 | [toString(int saveFormat)](#toString-int) |  |
@@ -1264,6 +1267,22 @@ public Object fetchSectionAttr(int key)
 
 **Returns:**
 java.lang.Object
+### fetchSectionAttr(int key, int revisionsView) {#fetchSectionAttr-int-int}
+```
+public Object fetchSectionAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
+
+**Returns:**
+java.lang.Object
 ### getAncestor(int ancestorType) {#getAncestor-int}
 ```
 public CompositeNode getAncestor(int ancestorType)
@@ -1604,6 +1623,22 @@ public Object getDirectSectionAttr(int key)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | key | int |  |
+
+**Returns:**
+java.lang.Object
+### getDirectSectionAttr(int key, int revisionsView) {#getDirectSectionAttr-int-int}
+```
+public Object getDirectSectionAttr(int key, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| revisionsView | int |  |
 
 **Returns:**
 java.lang.Object
@@ -3416,6 +3451,21 @@ public void setSectionAttr(int key, Object value)
 | --- | --- | --- |
 | key | int |  |
 | value | java.lang.Object |  |
+
+### setSectionAttr(int key, Object value, int revisionsView) {#setSectionAttr-int-java.lang.Object-int}
+```
+public void setSectionAttr(int key, Object value, int revisionsView)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| key | int |  |
+| value | java.lang.Object |  |
+| revisionsView | int |  |
 
 ### toString() {#toString}
 ```

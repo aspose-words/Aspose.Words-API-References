@@ -2,11 +2,11 @@
 title: Table.accept method
 linktitle: accept method
 articleTitle: accept method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.accept method. Accepts a visitor."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/table/accept/
+url: /nodejs-net/aspose.words/table/accept/
 ---
 
 ## accept(visitor) {#documentvisitor}

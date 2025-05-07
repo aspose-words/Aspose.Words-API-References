@@ -2,11 +2,11 @@
 title: FieldTC.typeIdentifier property
 linktitle: typeIdentifier property
 articleTitle: typeIdentifier property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldTC.typeIdentifier property. Gets or sets a type identifier for this field (which is typically a letter)."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldtc/typeIdentifier/
+url: /nodejs-net/aspose.words.fields/fieldtc/typeIdentifier/
 ---
 
 ## FieldTC.typeIdentifier property

@@ -2,11 +2,11 @@
 title: FieldToc constructor
 linktitle: FieldToc constructor
 articleTitle: FieldToc constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToc constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/constructor/
+url: /nodejs-net/aspose.words.fields/fieldtoc/constructor/
 ---
 
 ## FieldToc() {#default}

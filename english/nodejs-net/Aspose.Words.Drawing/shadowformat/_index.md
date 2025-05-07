@@ -2,11 +2,11 @@
 title: ShadowFormat class
 linktitle: ShadowFormat class
 articleTitle: ShadowFormat class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ShadowFormat class. Represents shadow formatting for an object"
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words.Drawing/shadowformat/
+url: /nodejs-net/aspose.words.drawing/shadowformat/
 ---
 
 ## ShadowFormat class
@@ -23,7 +23,7 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 | --- | --- |
 | [color](./color/) | Gets a aspose.pydrawing.Color object that represents the color for the shadow. The default value is aspose.pydrawing.Color.black. |
 | [type](./type/) | Gets or sets the specified [ShadowType](../shadowtype/) for ShadowFormat. |
-| [visible](./visible/) | Returns ``True`` if the formatting applied to this instance is visible. |
+| [visible](./visible/) | Returns ``true`` if the formatting applied to this instance is visible. |
 
 ### Methods
 

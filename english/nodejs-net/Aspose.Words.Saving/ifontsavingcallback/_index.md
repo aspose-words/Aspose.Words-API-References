@@ -2,11 +2,11 @@
 title: IFontSavingCallback class
 linktitle: IFontSavingCallback class
 articleTitle: IFontSavingCallback class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.IFontSavingCallback class. Implement this interface if you want to receive notifications and control how Aspose.Words saves fonts when exporting a document to HTML format."
 type: docs
 weight: 320
-url: /nodejs-net/Aspose.Words.Saving/ifontsavingcallback/
+url: /nodejs-net/aspose.words.saving/ifontsavingcallback/
 ---
 
 ## IFontSavingCallback class

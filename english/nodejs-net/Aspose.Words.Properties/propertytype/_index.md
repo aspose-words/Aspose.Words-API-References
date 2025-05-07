@@ -2,11 +2,11 @@
 title: PropertyType enumeration
 linktitle: PropertyType enumeration
 articleTitle: PropertyType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Properties.PropertyType enumeration. Specifies data type of a document property."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Properties/propertytype/
+url: /nodejs-net/aspose.words.properties/propertytype/
 ---
 
 ## PropertyType enumeration

@@ -5,7 +5,7 @@ articleTitle: FootnoteSeparatorCollection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Notes.FootnoteSeparatorCollection for easy access to footnote separators in your documents. Enhance your document formatting today!
 type: docs
-weight: 4860
+weight: 5000
 url: /net/aspose.words.notes/footnoteseparatorcollection/
 ---
 ## FootnoteSeparatorCollection class

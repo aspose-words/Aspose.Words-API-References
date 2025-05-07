@@ -2,7 +2,7 @@
 title: Aspose::Words::DigitalSignatures::DigitalSignatureUtil::RemoveAllSignatures method
 linktitle: RemoveAllSignatures
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::RemoveAllSignatures method. Removes all digital signatures from document in source stream and writes unsigned document to destination stream. Output will be written to the start of stream and stream size will be updated with content length.The following formats are compatible for digital signature removal: Doc, Dot, Docx, Dotx, Docm, Odt, Ott in C++.'
+description: 'Aspose::Words::DigitalSignatures::DigitalSignatureUtil::RemoveAllSignatures method. Removes all digital signatures from document in source stream and writes unsigned document to destination stream. Output will be written to the start of stream and stream size will be updated with content length.The following formats are compatible for digital signature removal: Doc, Dot, Docx, Dotx, Docm, Dotm, Odt, Ott in C++.'
 type: docs
 weight: 2000
 url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignature
 ## DigitalSignatureUtil::RemoveAllSignatures(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<System::IO::Stream\>\&) method
 
 
-Removes all digital signatures from document in source stream and writes unsigned document to destination stream. **Output will be written to the start of stream and stream size will be updated with content length.**The following formats are compatible for digital signature removal: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
+Removes all digital signatures from document in source stream and writes unsigned document to destination stream. **Output will be written to the start of stream and stream size will be updated with content length.**The following formats are compatible for digital signature removal: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
 
 ```cpp
 static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::RemoveAllSignatures(const System::SharedPtr<System::IO::Stream> &srcStream, const System::SharedPtr<System::IO::Stream> &dstStream)
@@ -51,7 +51,7 @@ ASSERT_EQ(0, DigitalSignatureUtil::LoadSignatures(ArtifactsDir + u"DigitalSignat
 ## DigitalSignatureUtil::RemoveAllSignatures(const System::String\&, const System::String\&) method
 
 
-Removes all digital signatures from source file and writes unsigned file to destination file. The following formats are compatible for digital signature removal: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
+Removes all digital signatures from source file and writes unsigned file to destination file. The following formats are compatible for digital signature removal: [Doc](../../../aspose.words/loadformat/), [Dot](../../../aspose.words/loadformat/), [Docx](../../../aspose.words/loadformat/), [Dotx](../../../aspose.words/loadformat/), [Docm](../../../aspose.words/loadformat/), [Dotm](../../../aspose.words/loadformat/), [Odt](../../../aspose.words/loadformat/), [Ott](../../../aspose.words/loadformat/).
 
 ```cpp
 static void Aspose::Words::DigitalSignatures::DigitalSignatureUtil::RemoveAllSignatures(const System::String &srcFileName, const System::String &dstFileName)

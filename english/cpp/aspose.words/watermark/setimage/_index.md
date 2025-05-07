@@ -66,6 +66,27 @@ doc->Save(ArtifactsDir + u"Document.ImageWatermark.docx");
 * Class [Watermark](../)
 * Namespace [Aspose::Words](../../)
 * Library [Aspose.Words for C++](../../../)
+## Watermark::SetImage(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
+
+
+Adds Image watermark into the document.
+
+```cpp
+void Aspose::Words::Watermark::SetImage(const System::SharedPtr<System::IO::Stream> &imageStream, const System::SharedPtr<Aspose::Words::ImageWatermarkOptions> &options)
+```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageStream | const System::SharedPtr\<System::IO::Stream\>\& | The stream containing the image data that is displayed as a watermark. |
+| options | const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\& | Defines additional options for the image watermark. |
+
+## See Also
+
+* Class [ImageWatermarkOptions](../../imagewatermarkoptions/)
+* Class [Watermark](../)
+* Namespace [Aspose::Words](../../)
+* Library [Aspose.Words for C++](../../../)
 ## Watermark::SetImage(const System::String\&, const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) method
 
 

@@ -2,11 +2,11 @@
 title: OutlineOptions.createOutlinesForHeadingsInTables property
 linktitle: createOutlinesForHeadingsInTables property
 articleTitle: createOutlinesForHeadingsInTables property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OutlineOptions.createOutlinesForHeadingsInTables property. Specifies whether or not to create outlines for headings (paragraphs formatted with the Heading styles) inside tables."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/outlineoptions/createOutlinesForHeadingsInTables/
+url: /nodejs-net/aspose.words.saving/outlineoptions/createOutlinesForHeadingsInTables/
 ---
 
 ## OutlineOptions.createOutlinesForHeadingsInTables property
@@ -20,7 +20,7 @@ get createOutlinesForHeadingsInTables(): boolean
 
 ### Remarks
 
-Default value is ``False``.
+Default value is ``false``.
 
 
 

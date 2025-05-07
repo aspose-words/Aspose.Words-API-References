@@ -2,11 +2,11 @@
 title: NodeCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "NodeCollection.count property. Gets the number of nodes in the collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/nodecollection/count/
+url: /nodejs-net/aspose.words/nodecollection/count/
 ---
 
 ## NodeCollection.count property

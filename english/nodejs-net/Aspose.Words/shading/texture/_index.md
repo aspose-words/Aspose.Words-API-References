@@ -2,11 +2,11 @@
 title: Shading.texture property
 linktitle: texture property
 articleTitle: texture property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shading.texture property. Gets or sets the shading texture."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/shading/texture/
+url: /nodejs-net/aspose.words/shading/texture/
 ---
 
 ## Shading.texture property

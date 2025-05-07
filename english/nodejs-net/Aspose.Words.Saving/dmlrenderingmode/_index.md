@@ -2,11 +2,11 @@
 title: DmlRenderingMode enumeration
 linktitle: DmlRenderingMode enumeration
 articleTitle: DmlRenderingMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.DmlRenderingMode enumeration. Specifies how DrawingML shapes are rendered to fixed page formats."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Saving/dmlrenderingmode/
+url: /nodejs-net/aspose.words.saving/dmlrenderingmode/
 ---
 
 ## DmlRenderingMode enumeration

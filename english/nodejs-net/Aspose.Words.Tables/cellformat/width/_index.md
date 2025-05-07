@@ -2,11 +2,11 @@
 title: CellFormat.width property
 linktitle: width property
 articleTitle: width property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.width property. Gets the width of the cell in points."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Tables/cellformat/width/
+url: /nodejs-net/aspose.words.tables/cellformat/width/
 ---
 
 ## CellFormat.width property

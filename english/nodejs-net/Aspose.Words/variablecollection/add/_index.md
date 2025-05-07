@@ -2,11 +2,11 @@
 title: VariableCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "VariableCollection.add method. Adds a document variable to the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/variablecollection/add/
+url: /nodejs-net/aspose.words/variablecollection/add/
 ---
 
 ## add(name, value) {#string_string}
@@ -15,13 +15,13 @@ Adds a document variable to the collection.
 
 
 ```js
-add(name: stringvalue: string)
+add(name: string, value: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | The case-insensitive name of the variable to add. |
-| value | string | The value of the variable. The value cannot be ``None``, if value is null empty string will be used instead. |
+| value | string | The value of the variable. The value cannot be ``null``, if value is null empty string will be used instead. |
 
 ### Examples
 

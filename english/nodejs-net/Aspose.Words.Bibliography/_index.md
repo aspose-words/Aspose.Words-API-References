@@ -2,11 +2,11 @@
 title: Aspose.Words.Bibliography module
 linktitle: Aspose.Words.Bibliography module
 articleTitle: Aspose.Words.Bibliography module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Bibliography namespace provides classes that allow to access  a list of bibliography sources available in a document."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Bibliography/
+url: /nodejs-net/aspose.words.bibliography/
 ---
 
 The **Aspose.Words.Bibliography** namespace provides classes that allow to access 

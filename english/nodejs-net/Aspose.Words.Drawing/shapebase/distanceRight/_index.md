@@ -2,11 +2,11 @@
 title: ShapeBase.distanceRight property
 linktitle: distanceRight property
 articleTitle: distanceRight property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.distanceRight property. Returns or sets the distance (in points) between the document text and the right edge of the shape."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/distanceRight/
+url: /nodejs-net/aspose.words.drawing/shapebase/distanceRight/
 ---
 
 ## ShapeBase.distanceRight property

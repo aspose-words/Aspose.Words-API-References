@@ -2,11 +2,11 @@
 title: FieldRef.insertHyperlink property
 linktitle: insertHyperlink property
 articleTitle: insertHyperlink property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldRef.insertHyperlink property. Gets or sets whether to create a hyperlink to the bookmarked paragraph."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldref/insertHyperlink/
+url: /nodejs-net/aspose.words.fields/fieldref/insertHyperlink/
 ---
 
 ## FieldRef.insertHyperlink property

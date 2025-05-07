@@ -2,16 +2,16 @@
 title: Revision.group property
 linktitle: group property
 articleTitle: group property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Revision.group property. Gets the revision group"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/revision/group/
+url: /nodejs-net/aspose.words/revision/group/
 ---
 
 ## Revision.group property
 
-Gets the revision group. Returns ``None`` if the revision does not belong to any group.
+Gets the revision group. Returns ``null`` if the revision does not belong to any group.
 
 
 

@@ -2,16 +2,16 @@
 title: DocumentBase.backgroundShape property
 linktitle: backgroundShape property
 articleTitle: backgroundShape property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBase.backgroundShape property. Gets or sets the background shape of the document"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/documentbase/backgroundShape/
+url: /nodejs-net/aspose.words/documentbase/backgroundShape/
 ---
 
 ## DocumentBase.backgroundShape property
 
-Gets or sets the background shape of the document. Can be ``None``.
+Gets or sets the background shape of the document. Can be ``null``.
 
 
 
@@ -21,13 +21,13 @@ get backgroundShape(): Aspose.Words.Drawing.Shape
 
 ### Remarks
 
-Microsoft Word allows only a shape that has its [ShapeBase.shapeType](../../../Aspose.Words.Drawing/shapebase/shapeType/) property equal
-to [ShapeType.Rectangle](../../../Aspose.Words.Drawing/shapetype/#Rectangle) to be used as a background shape for a document.
+Microsoft Word allows only a shape that has its [ShapeBase.shapeType](../../../aspose.words.drawing/shapebase/shapeType/) property equal
+to [ShapeType.Rectangle](../../../aspose.words.drawing/shapetype/#Rectangle) to be used as a background shape for a document.
 
 Microsoft Word supports only the fill properties of a background shape. All other properties
 are ignored.
 
-Setting this property to a non-null value will also set the [ViewOptions.displayBackgroundShape](../../../Aspose.Words.Settings/viewoptions/displayBackgroundShape/) to ``True``.
+Setting this property to a non-null value will also set the [ViewOptions.displayBackgroundShape](../../../aspose.words.settings/viewoptions/displayBackgroundShape/) to ``true``.
 
 
 
@@ -75,6 +75,6 @@ doc.save(base.artifactsDir + "DocumentBase.backgroundShape.image.pdf", saveOptio
 
 * module [Aspose.Words](../../)
 * class [DocumentBase](../)
-* property [ViewOptions.displayBackgroundShape](../../../Aspose.Words.Settings/viewoptions/displayBackgroundShape/)
+* property [ViewOptions.displayBackgroundShape](../../../aspose.words.settings/viewoptions/displayBackgroundShape/)
 * property [DocumentBase.pageColor](../pageColor/)
 

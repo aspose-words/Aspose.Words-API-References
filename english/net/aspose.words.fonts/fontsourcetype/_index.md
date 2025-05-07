@@ -5,7 +5,7 @@ articleTitle: FontSourceType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fonts.FontSourceType enum for efficient font source management. Optimize your document processing with flexible font options.
 type: docs
-weight: 3410
+weight: 3420
 url: /net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration

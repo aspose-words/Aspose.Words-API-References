@@ -2,11 +2,11 @@
 title: ShapeBase.flipOrientation property
 linktitle: flipOrientation property
 articleTitle: flipOrientation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.flipOrientation property. Switches the orientation of a shape."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/flipOrientation/
+url: /nodejs-net/aspose.words.drawing/shapebase/flipOrientation/
 ---
 
 ## ShapeBase.flipOrientation property

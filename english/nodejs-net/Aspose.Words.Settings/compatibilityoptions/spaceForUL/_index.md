@@ -2,11 +2,11 @@
 title: CompatibilityOptions.spaceForUL property
 linktitle: spaceForUL property
 articleTitle: spaceForUL property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.spaceForUL property. Add Additional Space Below Baseline For Underlined East Asian Text."
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/spaceForUL/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/spaceForUL/
 ---
 
 ## CompatibilityOptions.spaceForUL property

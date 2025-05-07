@@ -2,11 +2,11 @@
 title: PageSetup.pageStartingNumber property
 linktitle: pageStartingNumber property
 articleTitle: pageStartingNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.pageStartingNumber property. Gets or sets the starting page number of the section."
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/pagesetup/pageStartingNumber/
+url: /nodejs-net/aspose.words/pagesetup/pageStartingNumber/
 ---
 
 ## PageSetup.pageStartingNumber property
@@ -20,7 +20,7 @@ get pageStartingNumber(): number
 
 ### Remarks
 
-The [PageSetup.restartPageNumbering](../restartPageNumbering/) property, if set to ``False``, will override the
+The [PageSetup.restartPageNumbering](../restartPageNumbering/) property, if set to ``false``, will override the
 [PageSetup.pageStartingNumber](./) property so that page numbering can continue from the previous section.
 
 

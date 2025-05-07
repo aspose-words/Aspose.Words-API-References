@@ -2,11 +2,11 @@
 title: ChartDataLabelCollection.format property
 linktitle: format property
 articleTitle: format property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.format property. Provides access to fill and line formatting of the data labels."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/format/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/format/
 ---
 
 ## ChartDataLabelCollection.format property

@@ -2,17 +2,17 @@
 title: FormField.default property
 linktitle: default property
 articleTitle: default property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.default property. Gets or sets the default value of the check box form field"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/formfield/default/
+url: /nodejs-net/aspose.words.fields/formfield/default/
 ---
 
 ## FormField.default property
 
 Gets or sets the default value of the check box form field.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
 
 

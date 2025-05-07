@@ -2,11 +2,11 @@
 title: Story.storyType property
 linktitle: storyType property
 articleTitle: storyType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Story.storyType property. Gets the type of this story."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/story/storyType/
+url: /nodejs-net/aspose.words/story/storyType/
 ---
 
 ## Story.storyType property

@@ -2,18 +2,18 @@
 title: StructuredDocumentTag.placeholder property
 linktitle: placeholder property
 articleTitle: placeholder property
-second_title: Aspose.Words for NodeJs
-description: "StructuredDocumentTag.placeholder property. Gets the [BuildingBlock](../../../Aspose.Words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xmlMapping](../xmlMapping/) element or the [StructuredDocumentTag.isShowingPlaceholderText](../isShowingPlaceholderText/) element is ``True``."
+second_title: Aspose.Words for Node.js
+description: "StructuredDocumentTag.placeholder property. Gets the [BuildingBlock](../../../aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty, the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xmlMapping](../xmlMapping/) element or the [StructuredDocumentTag.isShowingPlaceholderText](../isShowingPlaceholderText/) element is ``true``."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/placeholder/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/placeholder/
 ---
 
 ## StructuredDocumentTag.placeholder property
 
-Gets the [BuildingBlock](../../../Aspose.Words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,
+Gets the [BuildingBlock](../../../aspose.words/buildingblock/) containing placeholder text which should be displayed when this SDT run contents are empty,
 the associated mapped XML element is empty as specified via the [StructuredDocumentTag.xmlMapping](../xmlMapping/) element
-or the [StructuredDocumentTag.isShowingPlaceholderText](../isShowingPlaceholderText/) element is ``True``.
+or the [StructuredDocumentTag.isShowingPlaceholderText](../isShowingPlaceholderText/) element is ``true``.
 
 
 
@@ -23,7 +23,7 @@ get placeholder(): Aspose.Words.BuildingBlocks.BuildingBlock
 
 ### Remarks
 
-Can be ``None``, meaning that the placeholder is not applicable for this Sdt.
+Can be ``null``, meaning that the placeholder is not applicable for this Sdt.
 
 
 ### Examples

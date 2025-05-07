@@ -2,16 +2,16 @@
 title: StructuredDocumentTagRangeStart.lockContents property
 linktitle: lockContents property
 articleTitle: lockContents property
-second_title: Aspose.Words for NodeJs
-description: "StructuredDocumentTagRangeStart.lockContents property. When set to ``True``, this property will prohibit a user from editing the contents of this structured document tag."
+second_title: Aspose.Words for Node.js
+description: "StructuredDocumentTagRangeStart.lockContents property. When set to ``true``, this property will prohibit a user from editing the contents of this structured document tag."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/lockContents/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/lockContents/
 ---
 
 ## StructuredDocumentTagRangeStart.lockContents property
 
-When set to ``True``, this property will prohibit a user from editing the contents of this structured document tag.
+When set to ``true``, this property will prohibit a user from editing the contents of this structured document tag.
 
 
 

@@ -2,11 +2,11 @@
 title: ParagraphFormat.hangingPunctuation property
 linktitle: hangingPunctuation property
 articleTitle: hangingPunctuation property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.hangingPunctuation property. Gets or sets a flag indicating whether hanging punctuation is enabled for the current paragraph."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/paragraphformat/hangingPunctuation/
+url: /nodejs-net/aspose.words/paragraphformat/hangingPunctuation/
 ---
 
 ## ParagraphFormat.hangingPunctuation property

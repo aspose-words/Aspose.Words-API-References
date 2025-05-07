@@ -97,6 +97,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | --- | --- |
 | [IDocumentConverterPlugin](./idocumentconverterplugin/) | Defines an interface for external converter plugin. |
 | [IDocumentMergerPlugin](./idocumentmergerplugin/) | Defines an interface for external merger plugin that can merge Pdf documents. |
+| [IDocumentProcessorPlugin](./idocumentprocessorplugin/) | Defines an interface for external document processor plugin. |
 | [IDocumentReaderPlugin](./idocumentreaderplugin/) | Defines an interface for external reader plugins that can read a file into a document. |
 | [IHyphenationCallback](./ihyphenationcallback/) | Implemented by classes which can register hyphenation dictionaries. |
 | [INodeChangingCallback](./inodechangingcallback/) | Implement this interface if you want to receive notifications when nodes are inserted or removed in the document. |
@@ -130,7 +131,7 @@ The **Aspose.Words** namespace provides classes for generating, converting, modi
 | [NodeChangingAction](./nodechangingaction/) | Specifies the type of node change. |
 | [NodeType](./nodetype/) | Specifies the type of a Word document node. |
 | [NumberStyle](./numberstyle/) | Specifies the number style for a list, footnotes and endnotes, page numbers. |
-| [NumSpacing](./numspacing/) | NumSpacing enumeration. |
+| [NumSpacing](./numspacing/) | Specifies possible values in which numeral spacing can be displayed. |
 | [Orientation](./orientation/) | Specifies page orientation. |
 | [OutlineLevel](./outlinelevel/) | Specifies the outline level of a paragraph in the document. |
 | [PageBorderAppliesTo](./pageborderappliesto/) | Specifies which pages the page border is printed on. |

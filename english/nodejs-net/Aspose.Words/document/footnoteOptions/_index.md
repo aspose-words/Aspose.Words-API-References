@@ -2,11 +2,11 @@
 title: Document.footnoteOptions property
 linktitle: footnoteOptions property
 articleTitle: footnoteOptions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.footnoteOptions property. Provides options that control numbering and positioning of footnotes in this document."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/document/footnoteOptions/
+url: /nodejs-net/aspose.words/document/footnoteOptions/
 ---
 
 ## Document.footnoteOptions property

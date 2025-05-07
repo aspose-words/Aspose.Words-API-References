@@ -2,11 +2,11 @@
 title: FontSourceBase class
 linktitle: FontSourceBase class
 articleTitle: FontSourceBase class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.FontSourceBase class. This is an abstract base class for the classes that allow the user to specify various font sources"
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Fonts/fontsourcebase/
+url: /nodejs-net/aspose.words.fonts/fontsourcebase/
 ---
 
 ## FontSourceBase class

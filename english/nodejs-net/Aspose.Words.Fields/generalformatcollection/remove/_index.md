@@ -2,11 +2,11 @@
 title: GeneralFormatCollection.remove method
 linktitle: remove method
 articleTitle: remove method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GeneralFormatCollection.remove method. Removes all occurrences of the specified general format from the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/generalformatcollection/remove/
+url: /nodejs-net/aspose.words.fields/generalformatcollection/remove/
 ---
 
 ## remove(item) {#generalformat}

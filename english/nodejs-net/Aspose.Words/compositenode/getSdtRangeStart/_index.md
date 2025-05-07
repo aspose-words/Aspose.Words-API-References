@@ -2,17 +2,17 @@
 title: CompositeNode.getSdtRangeStart method
 linktitle: getSdtRangeStart method
 articleTitle: getSdtRangeStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getSdtRangeStart method. "
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words/compositenode/getSdtRangeStart/
+url: /nodejs-net/aspose.words/compositenode/getSdtRangeStart/
 ---
 
 ## getSdtRangeStart(index, isDeep) {#number_boolean}
 
 ```js
-getSdtRangeStart(index: numberisDeep: boolean)
+getSdtRangeStart(index: number, isDeep: boolean)
 ```
 
 | Parameter | Type | Description |

@@ -2,14 +2,14 @@
 title: Aspose.Words.Fields module
 linktitle: Aspose.Words.Fields module
 articleTitle: Aspose.Words.Fields module
-second_title: Aspose.Words for NodeJs
-description: "The aspose.words.fields module contains classes that represent Microsoft Word fields in a document."
+second_title: Aspose.Words for Node.js
+description: "The Aspose.Words.Fields module contains classes that represent Microsoft Word fields in a document."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/
+url: /nodejs-net/aspose.words.fields/
 ---
 
-The **aspose.words.fields** module contains classes that
+The **Aspose.Words.Fields** module contains classes that
 represent Microsoft Word fields in a document.
 
 
@@ -41,7 +41,7 @@ represent Microsoft Word fields in a document.
 | [FieldBuilder](./fieldbuilder/) | Builds a field from field code tokens (arguments and switches). To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article. |
 | [FieldChar](./fieldchar/) | Base class for nodes that represent field characters in a document. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article. |
 | [FieldCitation](./fieldcitation/) | Implements the CITATION field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article. |
-| [FieldCollection](./fieldcollection/) | A collection of [Field](../Aspose.Words/field/) objects that represents the fields in the specified range. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article. |
+| [FieldCollection](./fieldcollection/) | A collection of [Field](../aspose.words/field/) objects that represents the fields in the specified range. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article. |
 | [FieldComments](./fieldcomments/) | Implements the COMMENTS field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article. |
 | [FieldCompare](./fieldcompare/) | Implements the COMPARE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article. |
 | [FieldCreateDate](./fieldcreatedate/) | Implements the CREATEDATE field. To learn more, visit the [Working with Fields](https://docs.aspose.com/words/nodejs-net/working-with-fields/) documentation article. |

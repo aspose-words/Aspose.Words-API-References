@@ -2,11 +2,11 @@
 title: Style.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.name property. Gets or sets the name of the style."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/style/name/
+url: /nodejs-net/aspose.words/style/name/
 ---
 
 ## Style.name property

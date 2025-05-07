@@ -2,11 +2,11 @@
 title: IFieldDatabaseProvider class
 linktitle: IFieldDatabaseProvider class
 articleTitle: IFieldDatabaseProvider class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.IFieldDatabaseProvider class. Implement this interface to provide data for the [FieldDatabase](../fielddatabase/) field when it's updated."
 type: docs
 weight: 1210
-url: /nodejs-net/Aspose.Words.Fields/ifielddatabaseprovider/
+url: /nodejs-net/aspose.words.fields/ifielddatabaseprovider/
 ---
 
 ## IFieldDatabaseProvider class

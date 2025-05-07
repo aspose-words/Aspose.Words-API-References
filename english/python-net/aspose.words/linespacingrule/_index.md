@@ -5,7 +5,7 @@ articleTitle: LineSpacingRule enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.LineSpacingRule enumeration. Specifies line spacing values for a paragraph."
 type: docs
-weight: 670
+weight: 680
 url: /python-net/aspose.words/linespacingrule/
 ---
 

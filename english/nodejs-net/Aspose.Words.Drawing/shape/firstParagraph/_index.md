@@ -2,11 +2,11 @@
 title: Shape.firstParagraph property
 linktitle: firstParagraph property
 articleTitle: firstParagraph property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.firstParagraph property. Gets the first paragraph in the shape."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing/shape/firstParagraph/
+url: /nodejs-net/aspose.words.drawing/shape/firstParagraph/
 ---
 
 ## Shape.firstParagraph property

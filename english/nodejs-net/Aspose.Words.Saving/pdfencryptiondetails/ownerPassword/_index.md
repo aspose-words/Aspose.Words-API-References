@@ -2,11 +2,11 @@
 title: PdfEncryptionDetails.ownerPassword property
 linktitle: ownerPassword property
 articleTitle: ownerPassword property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfEncryptionDetails.ownerPassword property. Specifies the owner password for the encrypted PDF document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/pdfencryptiondetails/ownerPassword/
+url: /nodejs-net/aspose.words.saving/pdfencryptiondetails/ownerPassword/
 ---
 
 ## PdfEncryptionDetails.ownerPassword property

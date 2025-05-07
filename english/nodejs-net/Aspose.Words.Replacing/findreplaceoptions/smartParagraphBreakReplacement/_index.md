@@ -2,11 +2,11 @@
 title: FindReplaceOptions.smartParagraphBreakReplacement property
 linktitle: smartParagraphBreakReplacement property
 articleTitle: smartParagraphBreakReplacement property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.smartParagraphBreakReplacement property. Gets or sets a boolean value indicating either it is allowed to replace paragraph break when there is no next sibling paragraph."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/smartParagraphBreakReplacement/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/smartParagraphBreakReplacement/
 ---
 
 ## FindReplaceOptions.smartParagraphBreakReplacement property
@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/smartParagraphBreakRe
 Gets or sets a boolean value indicating either it is allowed to replace paragraph break
 when there is no next sibling paragraph.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

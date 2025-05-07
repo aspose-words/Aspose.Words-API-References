@@ -2,17 +2,17 @@
 title: LoadOptions.password property
 linktitle: password property
 articleTitle: password property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.password property. Gets or sets the password for opening an encrypted document"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/password/
+url: /nodejs-net/aspose.words.loading/loadoptions/password/
 ---
 
 ## LoadOptions.password property
 
 Gets or sets the password for opening an encrypted document.
-Can be ``None`` or empty string. Default is ``None``.
+Can be ``null`` or empty string. Default is ``null``.
 
 
 
@@ -22,7 +22,7 @@ get password(): string
 
 ### Remarks
 
-You need to know the password to open an encrypted document. If the document is not encrypted, set this to ``None`` or empty string.
+You need to know the password to open an encrypted document. If the document is not encrypted, set this to ``null`` or empty string.
 
 
 

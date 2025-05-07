@@ -2,11 +2,11 @@
 title: ShowInBalloons enumeration
 linktitle: ShowInBalloons enumeration
 articleTitle: ShowInBalloons enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Layout.ShowInBalloons enumeration. Specifies which revisions are rendered in balloons."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Layout/showinballoons/
+url: /nodejs-net/aspose.words.layout/showinballoons/
 ---
 
 ## ShowInBalloons enumeration

@@ -2,11 +2,11 @@
 title: ParagraphFormat.firstLineIndent property
 linktitle: firstLineIndent property
 articleTitle: firstLineIndent property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.firstLineIndent property. Gets or sets the value (in points) for a first line or hanging indent"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/paragraphformat/firstLineIndent/
+url: /nodejs-net/aspose.words/paragraphformat/firstLineIndent/
 ---
 
 ## ParagraphFormat.firstLineIndent property

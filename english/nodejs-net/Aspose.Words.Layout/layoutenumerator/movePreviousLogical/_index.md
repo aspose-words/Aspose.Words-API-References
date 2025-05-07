@@ -2,11 +2,11 @@
 title: LayoutEnumerator.movePreviousLogical method
 linktitle: movePreviousLogical method
 articleTitle: movePreviousLogical method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutEnumerator.movePreviousLogical method. Moves to the previous sibling entity in a logical order."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/movePreviousLogical/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/movePreviousLogical/
 ---
 
 ## movePreviousLogical() {#default}

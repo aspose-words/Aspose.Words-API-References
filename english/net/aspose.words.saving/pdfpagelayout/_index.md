@@ -5,7 +5,7 @@ articleTitle: PdfPageLayout
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.PdfPageLayout enum for optimal PDF viewing. Customize page layouts for enhanced readability in any PDF reader.
 type: docs
-weight: 6140
+weight: 6290
 url: /net/aspose.words.saving/pdfpagelayout/
 ---
 ## PdfPageLayout enumeration

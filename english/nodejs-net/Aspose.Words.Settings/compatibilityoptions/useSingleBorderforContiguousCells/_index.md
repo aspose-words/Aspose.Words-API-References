@@ -2,11 +2,11 @@
 title: CompatibilityOptions.useSingleBorderforContiguousCells property
 linktitle: useSingleBorderforContiguousCells property
 articleTitle: useSingleBorderforContiguousCells property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.useSingleBorderforContiguousCells property. Use Simplified Rules For Table Border Conflicts."
 type: docs
 weight: 650
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/useSingleBorderforContiguousCells/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/useSingleBorderforContiguousCells/
 ---
 
 ## CompatibilityOptions.useSingleBorderforContiguousCells property

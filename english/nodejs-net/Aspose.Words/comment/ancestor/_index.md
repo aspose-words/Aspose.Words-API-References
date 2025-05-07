@@ -2,16 +2,16 @@
 title: Comment.ancestor property
 linktitle: ancestor property
 articleTitle: ancestor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Comment.ancestor property. Returns the parent [Comment](../) object"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/comment/ancestor/
+url: /nodejs-net/aspose.words/comment/ancestor/
 ---
 
 ## Comment.ancestor property
 
-Returns the parent [Comment](../) object. Returns ``None`` for top-level comments.
+Returns the parent [Comment](../) object. Returns ``null`` for top-level comments.
 
 
 

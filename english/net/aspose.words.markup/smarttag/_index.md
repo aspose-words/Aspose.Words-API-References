@@ -5,7 +5,7 @@ articleTitle: SmartTag
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.SmartTag class, which enhances document editing by identifying smart tags around inline elements like images and fields.
 type: docs
-weight: 4600
+weight: 4740
 url: /net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class

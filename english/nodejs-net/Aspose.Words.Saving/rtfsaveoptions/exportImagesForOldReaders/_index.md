@@ -2,11 +2,11 @@
 title: RtfSaveOptions.exportImagesForOldReaders property
 linktitle: exportImagesForOldReaders property
 articleTitle: exportImagesForOldReaders property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RtfSaveOptions.exportImagesForOldReaders property. Specifies whether the keywords for old readers are written to RTF or not"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/exportImagesForOldReaders/
+url: /nodejs-net/aspose.words.saving/rtfsaveoptions/exportImagesForOldReaders/
 ---
 
 ## RtfSaveOptions.exportImagesForOldReaders property
@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words.Saving/rtfsaveoptions/exportImagesForOldReaders/
 Specifies whether the keywords for "old readers" are written to RTF or not.
 This can significantly affect the size of the RTF document.
 
-Default value is ``True``.
+Default value is ``true``.
 
 
 
@@ -25,11 +25,11 @@ get exportImagesForOldReaders(): boolean
 ### Remarks
 
 "Old readers" are pre-Microsoft Word 97 applications and also WordPad.
-When this option is ``True`` Aspose.Words writes additional RTF keywords.
+When this option is ``true`` Aspose.Words writes additional RTF keywords.
 These keywords allow the document to be displayed correctly when opened in an 
 "old reader" application, but can significantly increase the size of the document.
 
-If you set this option to ``False``, then only images in WMF, EMF and BMP formats
+If you set this option to ``false``, then only images in WMF, EMF and BMP formats
 will be displayed in "old readers".
 
 

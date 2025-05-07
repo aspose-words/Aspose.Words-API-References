@@ -5,7 +5,7 @@ articleTitle: replace_backslash_with_yen_sign property
 second_title: Aspose.Words for Python
 description: "HtmlSaveOptions.replace_backslash_with_yen_sign property. Specifies whether backslash characters should be replaced with yen signs"
 type: docs
-weight: 410
+weight: 420
 url: /python-net/aspose.words.saving/htmlsaveoptions/replace_backslash_with_yen_sign/
 ---
 

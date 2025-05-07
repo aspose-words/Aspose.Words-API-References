@@ -2,11 +2,11 @@
 title: ParagraphFormat.styleName property
 linktitle: styleName property
 articleTitle: styleName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.styleName property. Gets or sets the name of the paragraph style applied to this formatting."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/paragraphformat/styleName/
+url: /nodejs-net/aspose.words/paragraphformat/styleName/
 ---
 
 ## ParagraphFormat.styleName property

@@ -2,11 +2,11 @@
 title: FindReplaceOptions.replacementFormat property
 linktitle: replacementFormat property
 articleTitle: replacementFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FindReplaceOptions.replacementFormat property. Specifies format of the replacement"
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words.Replacing/findreplaceoptions/replacementFormat/
+url: /nodejs-net/aspose.words.replacing/findreplaceoptions/replacementFormat/
 ---
 
 ## FindReplaceOptions.replacementFormat property

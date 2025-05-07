@@ -2,11 +2,11 @@
 title: LoadFormat enumeration
 linktitle: LoadFormat enumeration
 articleTitle: LoadFormat enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.LoadFormat enumeration. Indicates the format of the document that is to be loaded."
 type: docs
 weight: 790
-url: /nodejs-net/Aspose.Words/loadformat/
+url: /nodejs-net/aspose.words/loadformat/
 ---
 
 ## LoadFormat enumeration
@@ -49,26 +49,6 @@ Indicates the format of the document that is to be loaded.
 
 ### Examples
 
-Shows how save a web page as a .docx file.
-
-```js
-const url = "https://products.aspose.com/words/";
-const download = require('download');
-await download(url, base.artifactsDir).then(() => {
-  const buffer = base.loadFileToBuffer(base.artifactsDir + "words");
-  // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-  const options = new aw.Loading.LoadOptions();
-  options.loadOptions = aw.LoadFormat;
-  options.baseUri = url;
-  // Load the HTML document from stream and pass the LoadOptions object.
-  const doc = new aw.Document(buffer, options);
-
-  // At this stage, we can read and edit the document's contents and then save it to the local file system.
-
-  doc.save(base.artifactsDir + "Document.InsertHtmlFromWebPage.docx");
-}, 10000);
-```
-
 Shows how to use the FileFormatUtil methods to detect the format of a document.
 
 ```js
@@ -87,6 +67,26 @@ saveFormat = aw.FileFormatUtil.loadFormatToSaveFormat(loadFormat);
 let doc = new aw.Document(docStream);
 expect(aw.FileFormatUtil.saveFormatToExtension(saveFormat)).toEqual(".doc");
 doc.save(base.artifactsDir + "File.SaveToDetectedFileFormat" + aw.FileFormatUtil.saveFormatToExtension(saveFormat));
+```
+
+Shows how save a web page as a .docx file.
+
+```js
+const url = "https://products.aspose.com/words/";
+const download = require('download');
+await download(url, base.artifactsDir).then(() => {
+  const buffer = base.loadFileToBuffer(base.artifactsDir + "words");
+  // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
+  const options = new aw.Loading.LoadOptions();
+  options.loadOptions = aw.LoadFormat;
+  options.baseUri = url;
+  // Load the HTML document from stream and pass the LoadOptions object.
+  const doc = new aw.Document(buffer, options);
+
+  // At this stage, we can read and edit the document's contents and then save it to the local file system.
+
+  doc.save(base.artifactsDir + "Document.InsertHtmlFromWebPage.docx");
+}, 10000);
 ```
 
 ### See Also

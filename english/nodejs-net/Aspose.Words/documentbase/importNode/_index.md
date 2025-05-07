@@ -2,11 +2,11 @@
 title: DocumentBase.importNode method
 linktitle: importNode method
 articleTitle: importNode method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBase.importNode method"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/documentbase/importNode/
+url: /nodejs-net/aspose.words/documentbase/importNode/
 ---
 
 ## importNode(srcNode, isImportChildren) {#node_boolean}
@@ -17,13 +17,13 @@ Imports a node from another document to the current document.
 
 
 ```js
-importNode(srcNode: Aspose.Words.NodeisImportChildren: boolean)
+importNode(srcNode: Aspose.Words.Node, isImportChildren: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | [Node](../../node/) | The node being imported. |
-| isImportChildren | boolean | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+| isImportChildren | boolean | ``true`` to import all child nodes recursively; otherwise, ``false``. |
 
 ### Remarks
 
@@ -57,13 +57,13 @@ Imports a node from another document to the current document with an option to c
 
 
 ```js
-importNode(srcNode: Aspose.Words.NodeisImportChildren: booleanimportFormatMode: Aspose.Words.ImportFormatMode)
+importNode(srcNode: Aspose.Words.Node, isImportChildren: boolean, importFormatMode: Aspose.Words.ImportFormatMode)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | srcNode | [Node](../../node/) | The node to imported. |
-| isImportChildren | boolean | ``True`` to import all child nodes recursively; otherwise, ``False``. |
+| isImportChildren | boolean | ``true`` to import all child nodes recursively; otherwise, ``false``. |
 | importFormatMode | [ImportFormatMode](../../importformatmode/) | Specifies how to merge style formatting that clashes. |
 
 ### Remarks

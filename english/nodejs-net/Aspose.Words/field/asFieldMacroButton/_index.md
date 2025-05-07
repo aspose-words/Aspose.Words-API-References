@@ -2,11 +2,11 @@
 title: Field.asFieldMacroButton method
 linktitle: asFieldMacroButton method
 articleTitle: asFieldMacroButton method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldMacroButton method. "
 type: docs
 weight: 630
-url: /nodejs-net/Aspose.Words/field/asFieldMacroButton/
+url: /nodejs-net/aspose.words/field/asFieldMacroButton/
 ---
 
 ## asFieldMacroButton() {#default}

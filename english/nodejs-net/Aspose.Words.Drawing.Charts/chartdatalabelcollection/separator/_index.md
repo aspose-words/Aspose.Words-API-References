@@ -2,11 +2,11 @@
 title: ChartDataLabelCollection.separator property
 linktitle: separator property
 articleTitle: separator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.separator property. Gets or sets string separator used for the data labels of the entire series"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/separator/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 ---
 
 ## ChartDataLabelCollection.separator property

@@ -2,11 +2,11 @@
 title: SdtListItemCollection.removeAt method
 linktitle: removeAt method
 articleTitle: removeAt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SdtListItemCollection.removeAt method. Removes a list item at the specified index."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Markup/sdtlistitemcollection/removeAt/
+url: /nodejs-net/aspose.words.markup/sdtlistitemcollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

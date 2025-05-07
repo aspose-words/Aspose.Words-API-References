@@ -2,11 +2,11 @@
 title: Odso.udlConnectString property
 linktitle: udlConnectString property
 articleTitle: udlConnectString property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Odso.udlConnectString property. Specifies the Universal Data Link (UDL) connection string used to connect to an external data source"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Settings/odso/udlConnectString/
+url: /nodejs-net/aspose.words.settings/odso/udlConnectString/
 ---
 
 ## Odso.udlConnectString property

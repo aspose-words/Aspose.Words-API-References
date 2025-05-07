@@ -2,11 +2,11 @@
 title: BuildingBlock.acceptStart method
 linktitle: acceptStart method
 articleTitle: acceptStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuildingBlock.acceptStart method. Accepts a visitor for visiting the start of the BuildingBlock."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/buildingblock/acceptStart/
+url: /nodejs-net/aspose.words/buildingblock/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}

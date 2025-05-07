@@ -2,11 +2,11 @@
 title: FootnoteOptions class
 linktitle: FootnoteOptions class
 articleTitle: FootnoteOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.FootnoteOptions class. Represents the footnote numbering options for a document or section"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Notes/footnoteoptions/
+url: /nodejs-net/aspose.words.notes/footnoteoptions/
 ---
 
 ## FootnoteOptions class
@@ -198,6 +198,6 @@ doc.save(base.artifactsDir + "InlineStory.startNumber.docx");
 ### See Also
 
 * module [Aspose.Words.Notes](../)
-* property [Document.footnoteOptions](../../Aspose.Words/document/footnoteOptions/)
-* property [PageSetup.footnoteOptions](../../Aspose.Words/pagesetup/footnoteOptions/)
+* property [Document.footnoteOptions](../../aspose.words/document/footnoteOptions/)
+* property [PageSetup.footnoteOptions](../../aspose.words/pagesetup/footnoteOptions/)
 

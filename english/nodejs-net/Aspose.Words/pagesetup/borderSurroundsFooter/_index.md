@@ -2,11 +2,11 @@
 title: PageSetup.borderSurroundsFooter property
 linktitle: borderSurroundsFooter property
 articleTitle: borderSurroundsFooter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.borderSurroundsFooter property. Specifies whether the page border includes or excludes the footer."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/pagesetup/borderSurroundsFooter/
+url: /nodejs-net/aspose.words/pagesetup/borderSurroundsFooter/
 ---
 
 ## PageSetup.borderSurroundsFooter property

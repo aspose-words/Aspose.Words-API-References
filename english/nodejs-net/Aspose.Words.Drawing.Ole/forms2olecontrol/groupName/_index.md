@@ -2,11 +2,11 @@
 title: Forms2OleControl.groupName property
 linktitle: groupName property
 articleTitle: groupName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Forms2OleControl.groupName property. Gets or sets a string that specifies a group of mutually exclusive controls"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrol/groupName/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrol/groupName/
 ---
 
 ## Forms2OleControl.groupName property

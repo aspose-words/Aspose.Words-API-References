@@ -2,11 +2,11 @@
 title: JSRectangleF.height property
 linktitle: height property
 articleTitle: height property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSRectangleF.height property. "
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/jsrectanglef/height/
+url: /nodejs-net/aspose.words/jsrectanglef/height/
 ---
 
 ## JSRectangleF.height property

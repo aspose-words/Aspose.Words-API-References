@@ -2,18 +2,18 @@
 title: ImportFormatOptions.keepSourceNumbering property
 linktitle: keepSourceNumbering property
 articleTitle: keepSourceNumbering property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImportFormatOptions.keepSourceNumbering property. Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and destination documents"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/importformatoptions/keepSourceNumbering/
+url: /nodejs-net/aspose.words/importformatoptions/keepSourceNumbering/
 ---
 
 ## ImportFormatOptions.keepSourceNumbering property
 
 Gets or sets a boolean value that specifies how the numbering will be imported when it clashes in source and
 destination documents.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

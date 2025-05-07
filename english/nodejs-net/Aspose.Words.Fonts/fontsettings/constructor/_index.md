@@ -2,11 +2,11 @@
 title: FontSettings constructor
 linktitle: FontSettings constructor
 articleTitle: FontSettings constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSettings constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fonts/fontsettings/constructor/
+url: /nodejs-net/aspose.words.fonts/fontsettings/constructor/
 ---
 
 ## FontSettings() {#default}

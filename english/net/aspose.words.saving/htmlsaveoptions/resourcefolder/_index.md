@@ -5,7 +5,7 @@ articleTitle: ResourceFolder
 second_title: Aspose.Words for .NET
 description: Discover the HtmlSaveOptions ResourceFolder property for optimal document export. Easily manage images, fonts, and CSS in a designated folder.
 type: docs
-weight: 430
+weight: 440
 url: /net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 ---
 ## HtmlSaveOptions.ResourceFolder property

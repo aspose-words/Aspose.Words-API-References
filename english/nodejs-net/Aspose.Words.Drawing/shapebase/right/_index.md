@@ -2,11 +2,11 @@
 title: ShapeBase.right property
 linktitle: right property
 articleTitle: right property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.right property. Gets the position of the right edge of the containing block of the shape."
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/right/
+url: /nodejs-net/aspose.words.drawing/shapebase/right/
 ---
 
 ## ShapeBase.right property

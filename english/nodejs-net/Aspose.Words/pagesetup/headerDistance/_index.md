@@ -2,11 +2,11 @@
 title: PageSetup.headerDistance property
 linktitle: headerDistance property
 articleTitle: headerDistance property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.headerDistance property. Returns or sets the distance (in points) between the header and the top of the page."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/pagesetup/headerDistance/
+url: /nodejs-net/aspose.words/pagesetup/headerDistance/
 ---
 
 ## PageSetup.headerDistance property

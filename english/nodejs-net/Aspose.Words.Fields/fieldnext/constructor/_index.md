@@ -2,11 +2,11 @@
 title: FieldNext constructor
 linktitle: FieldNext constructor
 articleTitle: FieldNext constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldNext constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldnext/constructor/
+url: /nodejs-net/aspose.words.fields/fieldnext/constructor/
 ---
 
 ## FieldNext() {#default}

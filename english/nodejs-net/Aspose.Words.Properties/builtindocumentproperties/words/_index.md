@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.words property
 linktitle: words property
 articleTitle: words property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.words property. Represents an estimate of the number of words in the document."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/words/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/words/
 ---
 
 ## BuiltInDocumentProperties.words property
@@ -20,7 +20,7 @@ get words(): number
 
 ### Remarks
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../../Aspose.Words/document/updateWordCount/#default).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../../aspose.words/document/updateWordCount/#default).
 
 
 

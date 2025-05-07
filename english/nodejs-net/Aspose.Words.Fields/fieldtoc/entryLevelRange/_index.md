@@ -2,11 +2,11 @@
 title: FieldToc.entryLevelRange property
 linktitle: entryLevelRange property
 articleTitle: entryLevelRange property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToc.entryLevelRange property. Gets or sets a range of levels of the table of contents entries to be included."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldtoc/entryLevelRange/
+url: /nodejs-net/aspose.words.fields/fieldtoc/entryLevelRange/
 ---
 
 ## FieldToc.entryLevelRange property

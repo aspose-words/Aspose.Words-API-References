@@ -2,11 +2,11 @@
 title: ExportFontFormat enumeration
 linktitle: ExportFontFormat enumeration
 articleTitle: ExportFontFormat enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ExportFontFormat enumeration. Indicates the format that is used to export fonts while rendering to HTML fixed format."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Saving/exportfontformat/
+url: /nodejs-net/aspose.words.saving/exportfontformat/
 ---
 
 ## ExportFontFormat enumeration

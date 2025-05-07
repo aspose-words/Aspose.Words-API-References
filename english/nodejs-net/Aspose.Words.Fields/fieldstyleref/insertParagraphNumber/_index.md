@@ -2,11 +2,11 @@
 title: FieldStyleRef.insertParagraphNumber property
 linktitle: insertParagraphNumber property
 articleTitle: insertParagraphNumber property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldStyleRef.insertParagraphNumber property. Gets or sets whether to insert the paragraph number of the referenced paragraph exactly as it appears in the document."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldstyleref/insertParagraphNumber/
+url: /nodejs-net/aspose.words.fields/fieldstyleref/insertParagraphNumber/
 ---
 
 ## FieldStyleRef.insertParagraphNumber property

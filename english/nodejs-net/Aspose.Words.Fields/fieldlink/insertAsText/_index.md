@@ -2,11 +2,11 @@
 title: FieldLink.insertAsText property
 linktitle: insertAsText property
 articleTitle: insertAsText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldLink.insertAsText property. Gets or sets whether to insert the linked object in text-only format."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fieldlink/insertAsText/
+url: /nodejs-net/aspose.words.fields/fieldlink/insertAsText/
 ---
 
 ## FieldLink.insertAsText property

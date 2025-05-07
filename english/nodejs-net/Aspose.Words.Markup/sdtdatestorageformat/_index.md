@@ -2,11 +2,11 @@
 title: SdtDateStorageFormat enumeration
 linktitle: SdtDateStorageFormat enumeration
 articleTitle: SdtDateStorageFormat enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Markup.SdtDateStorageFormat enumeration. Specifies how the date for a date SDT is stored/retrieved when the SDT is bound to an XML node in the document's data store."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Markup/sdtdatestorageformat/
+url: /nodejs-net/aspose.words.markup/sdtdatestorageformat/
 ---
 
 ## SdtDateStorageFormat enumeration

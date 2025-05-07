@@ -5,7 +5,7 @@ articleTitle: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PdfDigitalSignatureDetails class for seamless PDF digital signing. Enhance document security with easy integration and robust features.
 type: docs
-weight: 6070
+weight: 6220
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class

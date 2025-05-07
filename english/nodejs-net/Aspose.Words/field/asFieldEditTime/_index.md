@@ -2,11 +2,11 @@
 title: Field.asFieldEditTime method
 linktitle: asFieldEditTime method
 articleTitle: asFieldEditTime method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldEditTime method. "
 type: docs
 weight: 380
-url: /nodejs-net/Aspose.Words/field/asFieldEditTime/
+url: /nodejs-net/aspose.words/field/asFieldEditTime/
 ---
 
 ## asFieldEditTime() {#default}

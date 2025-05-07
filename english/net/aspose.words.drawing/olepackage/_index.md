@@ -5,7 +5,7 @@ articleTitle: OlePackage
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Drawing.OlePackage class to easily manage OLE Package properties and enhance your document processing capabilities.
 type: docs
-weight: 1530
+weight: 1540
 url: /net/aspose.words.drawing/olepackage/
 ---
 ## OlePackage class

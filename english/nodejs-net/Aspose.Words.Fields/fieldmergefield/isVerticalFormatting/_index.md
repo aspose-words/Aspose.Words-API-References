@@ -2,11 +2,11 @@
 title: FieldMergeField.isVerticalFormatting property
 linktitle: isVerticalFormatting property
 articleTitle: isVerticalFormatting property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldMergeField.isVerticalFormatting property. Gets or sets whether to enable character conversion for vertical formatting."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldmergefield/isVerticalFormatting/
+url: /nodejs-net/aspose.words.fields/fieldmergefield/isVerticalFormatting/
 ---
 
 ## FieldMergeField.isVerticalFormatting property

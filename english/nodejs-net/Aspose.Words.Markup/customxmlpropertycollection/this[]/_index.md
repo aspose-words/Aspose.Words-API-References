@@ -2,11 +2,11 @@
 title: CustomXmlPropertyCollection.this[] property
 linktitle: this[] property
 articleTitle: this[] property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlPropertyCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/customxmlpropertycollection/this[]/
+url: /nodejs-net/aspose.words.markup/customxmlpropertycollection/this[]/
 ---
 
 ## CustomXmlPropertyCollection.this[] property

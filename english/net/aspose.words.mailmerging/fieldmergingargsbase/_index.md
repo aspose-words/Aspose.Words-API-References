@@ -5,7 +5,7 @@ articleTitle: FieldMergingArgsBase
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.MailMerging.FieldMergingArgsBase class, the foundation for efficient field merging and image handling in document automation.
 type: docs
-weight: 4330
+weight: 4470
 url: /net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class

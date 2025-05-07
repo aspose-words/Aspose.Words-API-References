@@ -2,11 +2,11 @@
 title: BorderCollection.equals method
 linktitle: equals method
 articleTitle: equals method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BorderCollection.equals method. Compares collections of borders."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words/bordercollection/equals/
+url: /nodejs-net/aspose.words/bordercollection/equals/
 ---
 
 ## equals(brColl) {#bordercollection}

@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.sharedDocument property
 linktitle: sharedDocument property
 articleTitle: sharedDocument property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.sharedDocument property. Indicates whether the document is a shared document."
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/sharedDocument/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/sharedDocument/
 ---
 
 ## BuiltInDocumentProperties.sharedDocument property

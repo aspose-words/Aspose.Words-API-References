@@ -2,11 +2,11 @@
 title: Comment.acceptEnd method
 linktitle: acceptEnd method
 articleTitle: acceptEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Comment.acceptEnd method. Accepts a visitor for visiting the end of the comment."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/comment/acceptEnd/
+url: /nodejs-net/aspose.words/comment/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}

@@ -2,11 +2,11 @@
 title: FieldSymbol.isShiftJis property
 linktitle: isShiftJis property
 articleTitle: isShiftJis property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSymbol.isShiftJis property. Gets or sets whether the character code is interpreted as the value of a SHIFT-JIS character."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Fields/fieldsymbol/isShiftJis/
+url: /nodejs-net/aspose.words.fields/fieldsymbol/isShiftJis/
 ---
 
 ## FieldSymbol.isShiftJis property

@@ -2,11 +2,11 @@
 title: PdfSaveOptions.exportParagraphGraphicsToArtifact property
 linktitle: exportParagraphGraphicsToArtifact property
 articleTitle: exportParagraphGraphicsToArtifact property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.exportParagraphGraphicsToArtifact property. Gets or sets a value determining whether a paragraph graphic should be marked as an artifact."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/exportParagraphGraphicsToArtifact/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/exportParagraphGraphicsToArtifact/
 ---
 
 ## PdfSaveOptions.exportParagraphGraphicsToArtifact property
@@ -20,12 +20,12 @@ get exportParagraphGraphicsToArtifact(): boolean
 
 ### Remarks
 
-Default value is ``False`` and paragraph graphics (underlines, text emphasis, etc.)
+Default value is ``false`` and paragraph graphics (underlines, text emphasis, etc.)
 will be marked as "Span" in the logical structure of the document.
 
-When the value is ``True`` the paragraph graphics will be marked as "Artifact".
+When the value is ``true`` the paragraph graphics will be marked as "Artifact".
 
-This value is ignored when [PdfSaveOptions.exportDocumentStructure](../exportDocumentStructure/) is ``False``. 
+This value is ignored when [PdfSaveOptions.exportDocumentStructure](../exportDocumentStructure/) is ``false``. 
 
 
 

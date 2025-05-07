@@ -2,11 +2,11 @@
 title: ChartLegend.format property
 linktitle: format property
 articleTitle: format property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartLegend.format property. Provides access to fill and line formatting of the legend."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegend/format/
+url: /nodejs-net/aspose.words.drawing.charts/chartlegend/format/
 ---
 
 ## ChartLegend.format property

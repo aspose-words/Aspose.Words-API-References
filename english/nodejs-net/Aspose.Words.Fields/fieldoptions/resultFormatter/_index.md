@@ -2,11 +2,11 @@
 title: FieldOptions.resultFormatter property
 linktitle: resultFormatter property
 articleTitle: resultFormatter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.resultFormatter property. Allows to control how the field result is formatted."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/resultFormatter/
+url: /nodejs-net/aspose.words.fields/fieldoptions/resultFormatter/
 ---
 
 ## FieldOptions.resultFormatter property

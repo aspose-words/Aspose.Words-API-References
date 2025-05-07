@@ -2,11 +2,11 @@
 title: DocumentBuilder.currentParagraph property
 linktitle: currentParagraph property
 articleTitle: currentParagraph property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.currentParagraph property. Gets the paragraph that is currently selected in this [DocumentBuilder](../)."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/documentbuilder/currentParagraph/
+url: /nodejs-net/aspose.words/documentbuilder/currentParagraph/
 ---
 
 ## DocumentBuilder.currentParagraph property

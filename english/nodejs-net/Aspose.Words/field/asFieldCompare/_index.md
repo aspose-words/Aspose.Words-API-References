@@ -2,11 +2,11 @@
 title: Field.asFieldCompare method
 linktitle: asFieldCompare method
 articleTitle: asFieldCompare method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldCompare method. "
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words/field/asFieldCompare/
+url: /nodejs-net/aspose.words/field/asFieldCompare/
 ---
 
 ## asFieldCompare() {#default}

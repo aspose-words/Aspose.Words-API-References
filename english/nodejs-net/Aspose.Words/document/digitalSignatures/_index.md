@@ -2,11 +2,11 @@
 title: Document.digitalSignatures property
 linktitle: digitalSignatures property
 articleTitle: digitalSignatures property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.digitalSignatures property. Gets the collection of digital signatures for this document and their validation results."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words/document/digitalSignatures/
+url: /nodejs-net/aspose.words/document/digitalSignatures/
 ---
 
 ## Document.digitalSignatures property
@@ -25,7 +25,7 @@ These digital signatures will not be saved when you save this [Document](../) ob
 into a file or stream because saving or converting will produce a document that is different from the
 original and the original digital signatures will no longer be valid.
 
-This collection is never ``None``. If the document is not signed, it will contain zero elements.
+This collection is never ``null``. If the document is not signed, it will contain zero elements.
 
 
 

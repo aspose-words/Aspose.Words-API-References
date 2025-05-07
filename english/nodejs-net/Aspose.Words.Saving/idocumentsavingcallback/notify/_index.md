@@ -2,11 +2,11 @@
 title: IDocumentSavingCallback.notify method
 linktitle: notify method
 articleTitle: notify method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IDocumentSavingCallback.notify method. This is called to notify of document saving progress."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/idocumentsavingcallback/notify/
+url: /nodejs-net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 
 ## notify(args) {#documentsavingargs}

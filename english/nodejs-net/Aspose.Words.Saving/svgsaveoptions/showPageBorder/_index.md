@@ -2,17 +2,17 @@
 title: SvgSaveOptions.showPageBorder property
 linktitle: showPageBorder property
 articleTitle: showPageBorder property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SvgSaveOptions.showPageBorder property. Controls whether a border is added to the outline of the page"
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Saving/svgsaveoptions/showPageBorder/
+url: /nodejs-net/aspose.words.saving/svgsaveoptions/showPageBorder/
 ---
 
 ## SvgSaveOptions.showPageBorder property
 
 Controls whether a border is added to the outline of the page.
-Default is ``True``.
+Default is ``true``.
 
 
 

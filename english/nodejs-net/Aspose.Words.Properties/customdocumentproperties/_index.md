@@ -2,11 +2,11 @@
 title: CustomDocumentProperties class
 linktitle: CustomDocumentProperties class
 articleTitle: CustomDocumentProperties class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Properties.CustomDocumentProperties class. A collection of custom document properties"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Properties/customdocumentproperties/
+url: /nodejs-net/aspose.words.properties/customdocumentproperties/
 ---
 
 ## CustomDocumentProperties class
@@ -52,7 +52,7 @@ The properties in the collection are sorted alphabetically by name.
 |[ add(name, value)](./add/#string_number) | Creates a new custom document property of the [PropertyType.Double](../propertytype/#Double) data type. |
 |[ addLinkToContent(name, linkSource)](./addLinkToContent/#string_string) | Creates a new linked to content custom document property. |
 |[ clear()](../documentpropertycollection/clear/#default) | Removes all properties from the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
-|[ contains(name)](../documentpropertycollection/contains/#string) | Returns ``True`` if a property with the specified name exists in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
+|[ contains(name)](../documentpropertycollection/contains/#string) | Returns ``true`` if a property with the specified name exists in the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ indexOf(name)](../documentpropertycollection/indexOf/#string) | Gets the index of a property by name.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ remove(name)](../documentpropertycollection/remove/#string) | Removes a property with the specified name from the collection.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
 |[ removeAt(index)](../documentpropertycollection/removeAt/#number) | Removes a property at the specified index.<br>(Inherited from [DocumentPropertyCollection](../documentpropertycollection/)) |
@@ -83,7 +83,7 @@ for (let customDocumentProperty of doc.customDocumentProperties)
 
 * module [Aspose.Words.Properties](../)
 * class [DocumentPropertyCollection](../documentpropertycollection/)
-* class [Document](../../Aspose.Words/document/)
-* property [Document.builtInDocumentProperties](../../Aspose.Words/document/builtInDocumentProperties/)
-* property [Document.customDocumentProperties](../../Aspose.Words/document/customDocumentProperties/)
+* class [Document](../../aspose.words/document/)
+* property [Document.builtInDocumentProperties](../../aspose.words/document/builtInDocumentProperties/)
+* property [Document.customDocumentProperties](../../aspose.words/document/customDocumentProperties/)
 

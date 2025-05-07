@@ -2,11 +2,11 @@
 title: VerticalAlignment enumeration
 linktitle: VerticalAlignment enumeration
 articleTitle: VerticalAlignment enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.VerticalAlignment enumeration. Specifies vertical alignment of a floating shape, text frame or a floating table."
 type: docs
 weight: 520
-url: /nodejs-net/Aspose.Words.Drawing/verticalalignment/
+url: /nodejs-net/aspose.words.drawing/verticalalignment/
 ---
 
 ## VerticalAlignment enumeration

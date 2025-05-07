@@ -2,17 +2,17 @@
 title: XlsxSaveOptions.saveFormat property
 linktitle: saveFormat property
 articleTitle: saveFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XlsxSaveOptions.saveFormat property. Specifies the format in which the document will be saved if this save options object is used"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Saving/xlsxsaveoptions/saveFormat/
+url: /nodejs-net/aspose.words.saving/xlsxsaveoptions/saveFormat/
 ---
 
 ## XlsxSaveOptions.saveFormat property
 
 Specifies the format in which the document will be saved if this save options object is used.
-Can only be [SaveFormat.Xlsx](../../../Aspose.Words/saveformat/#Xlsx).
+Can only be [SaveFormat.Xlsx](../../../aspose.words/saveformat/#Xlsx).
 
 
 

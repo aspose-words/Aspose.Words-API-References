@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.author property
 linktitle: author property
 articleTitle: author property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.author property. Gets or sets the name of the document's author."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/author/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/author/
 ---
 
 ## BuiltInDocumentProperties.author property

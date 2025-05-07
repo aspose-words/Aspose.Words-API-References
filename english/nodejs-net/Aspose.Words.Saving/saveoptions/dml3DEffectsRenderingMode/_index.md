@@ -2,11 +2,11 @@
 title: SaveOptions.dml3DEffectsRenderingMode property
 linktitle: dml3DEffectsRenderingMode property
 articleTitle: dml3DEffectsRenderingMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.dml3DEffectsRenderingMode property. Gets or sets a value determining how 3D effects are rendered."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/dml3DEffectsRenderingMode/
+url: /nodejs-net/aspose.words.saving/saveoptions/dml3DEffectsRenderingMode/
 ---
 
 ## SaveOptions.dml3DEffectsRenderingMode property

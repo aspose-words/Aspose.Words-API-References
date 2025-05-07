@@ -2,11 +2,11 @@
 title: Paragraph.breakIsStyleSeparator property
 linktitle: breakIsStyleSeparator property
 articleTitle: breakIsStyleSeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Paragraph.breakIsStyleSeparator property. True if this paragraph break is a Style Separator"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/paragraph/breakIsStyleSeparator/
+url: /nodejs-net/aspose.words/paragraph/breakIsStyleSeparator/
 ---
 
 ## Paragraph.breakIsStyleSeparator property

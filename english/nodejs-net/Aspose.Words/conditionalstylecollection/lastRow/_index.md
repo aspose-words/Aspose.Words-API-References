@@ -2,11 +2,11 @@
 title: ConditionalStyleCollection.lastRow property
 linktitle: lastRow property
 articleTitle: lastRow property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyleCollection.lastRow property. Gets the last row style."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/conditionalstylecollection/lastRow/
+url: /nodejs-net/aspose.words/conditionalstylecollection/lastRow/
 ---
 
 ## ConditionalStyleCollection.lastRow property

@@ -2,11 +2,11 @@
 title: ShapeBase.wrapType property
 linktitle: wrapType property
 articleTitle: wrapType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.wrapType property. Defines whether the shape is inline or floating"
 type: docs
 weight: 580
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/wrapType/
+url: /nodejs-net/aspose.words.drawing/shapebase/wrapType/
 ---
 
 ## ShapeBase.wrapType property

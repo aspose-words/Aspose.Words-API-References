@@ -5,7 +5,7 @@ articleTitle: ReplaceAction
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ReplaceAction enum to control match outcomes in your replace operations, enhancing document editing efficiency and precision.
 type: docs
-weight: 5230
+weight: 5370
 url: /net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration

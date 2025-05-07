@@ -2,11 +2,11 @@
 title: LayoutCollector.getStartPageIndex method
 linktitle: getStartPageIndex method
 articleTitle: getStartPageIndex method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutCollector.getStartPageIndex method. Gets 1-based index of the page where node begins"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Layout/layoutcollector/getStartPageIndex/
+url: /nodejs-net/aspose.words.layout/layoutcollector/getStartPageIndex/
 ---
 
 ## getStartPageIndex(node) {#node}
@@ -20,7 +20,7 @@ getStartPageIndex(node: Aspose.Words.Node)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| node | [Node](../../../Aspose.Words/node/) |  |
+| node | [Node](../../../aspose.words/node/) |  |
 
 ### Examples
 

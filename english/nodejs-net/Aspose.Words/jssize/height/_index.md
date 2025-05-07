@@ -2,11 +2,11 @@
 title: JSSize.height property
 linktitle: height property
 articleTitle: height property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSSize.height property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/jssize/height/
+url: /nodejs-net/aspose.words/jssize/height/
 ---
 
 ## JSSize.height property

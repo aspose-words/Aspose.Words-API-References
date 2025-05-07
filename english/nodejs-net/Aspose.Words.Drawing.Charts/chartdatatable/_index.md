@@ -2,11 +2,11 @@
 title: ChartDataTable class
 linktitle: ChartDataTable class
 articleTitle: ChartDataTable class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartDataTable class. Allows to specify properties of a chart data table."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatatable/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatatable/
 ---
 
 ## ChartDataTable class
@@ -20,11 +20,11 @@ Allows to specify properties of a chart data table.
 | --- | --- |
 | [font](./font/) | Provides access to font formatting of the data table. |
 | [format](./format/) | Provides access to fill of text background and border formatting of the data table. |
-| [hasHorizontalBorder](./hasHorizontalBorder/) | Gets or sets a flag indicating whether a horizontal border of the data table is displayed. The default value is ``True``. |
-| [hasLegendKeys](./hasLegendKeys/) | Gets or sets a flag indicating whether legend keys are displayed in the data table. The default value is ``True``. |
-| [hasOutlineBorder](./hasOutlineBorder/) | Gets or sets a flag indicating whether an outline border, that is, a border around series and category names, is displayed. The default value is ``True``. |
-| [hasVerticalBorder](./hasVerticalBorder/) | Gets or sets a flag indicating whether a vertical border of the data table is displayed. The default value is ``True``. |
-| [show](./show/) | Gets or sets a flag indicating whether the data table will be shown for the chart. Default value is ``False``. |
+| [hasHorizontalBorder](./hasHorizontalBorder/) | Gets or sets a flag indicating whether a horizontal border of the data table is displayed. The default value is ``true``. |
+| [hasLegendKeys](./hasLegendKeys/) | Gets or sets a flag indicating whether legend keys are displayed in the data table. The default value is ``true``. |
+| [hasOutlineBorder](./hasOutlineBorder/) | Gets or sets a flag indicating whether an outline border, that is, a border around series and category names, is displayed. The default value is ``true``. |
+| [hasVerticalBorder](./hasVerticalBorder/) | Gets or sets a flag indicating whether a vertical border of the data table is displayed. The default value is ``true``. |
+| [show](./show/) | Gets or sets a flag indicating whether the data table will be shown for the chart. Default value is ``false``. |
 
 ### Examples
 

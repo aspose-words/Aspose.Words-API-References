@@ -2,11 +2,11 @@
 title: ImageData.chromaKey property
 linktitle: chromaKey property
 articleTitle: chromaKey property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.chromaKey property. Defines the color value of the image that will be treated as transparent."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/chromaKey/
+url: /nodejs-net/aspose.words.drawing/imagedata/chromaKey/
 ---
 
 ## ImageData.chromaKey property

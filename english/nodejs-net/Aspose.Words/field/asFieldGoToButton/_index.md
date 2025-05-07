@@ -2,11 +2,11 @@
 title: Field.asFieldGoToButton method
 linktitle: asFieldGoToButton method
 articleTitle: asFieldGoToButton method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldGoToButton method. "
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words/field/asFieldGoToButton/
+url: /nodejs-net/aspose.words/field/asFieldGoToButton/
 ---
 
 ## asFieldGoToButton() {#default}

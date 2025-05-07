@@ -2,11 +2,11 @@
 title: DocumentBuilder.startTable method
 linktitle: startTable method
 articleTitle: startTable method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.startTable method. Starts a table in the document."
 type: docs
 weight: 680
-url: /nodejs-net/Aspose.Words/documentbuilder/startTable/
+url: /nodejs-net/aspose.words/documentbuilder/startTable/
 ---
 
 ## startTable() {#default}

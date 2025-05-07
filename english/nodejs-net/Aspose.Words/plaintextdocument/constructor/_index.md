@@ -2,11 +2,11 @@
 title: PlainTextDocument constructor
 linktitle: PlainTextDocument constructor
 articleTitle: PlainTextDocument constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.PlainTextDocument constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/plaintextdocument/constructor/
+url: /nodejs-net/aspose.words/plaintextdocument/constructor/
 ---
 
 ## PlainTextDocument(fileName) {#string}
@@ -39,13 +39,13 @@ Creates a plain text document from a file. Allows to specify additional options 
 
 
 ```js
-PlainTextDocument(fileName: stringloadOptions: Aspose.Words.Loading.LoadOptions)
+PlainTextDocument(fileName: string, loadOptions: Aspose.Words.Loading.LoadOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fileName | string | Name of the file to extract the text from. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``null``. |
 
 ### Remarks
 
@@ -102,13 +102,13 @@ Creates a plain text document from a stream. Allows to specify additional option
 
 
 ```js
-PlainTextDocument(stream: BufferloadOptions: Aspose.Words.Loading.LoadOptions)
+PlainTextDocument(stream: Buffer, loadOptions: Aspose.Words.Loading.LoadOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | stream | Buffer | The stream where to extract the text from. |
-| loadOptions | [LoadOptions](../../../Aspose.Words.Loading/loadoptions/) | Additional options to use when loading a document. Can be ``None``. |
+| loadOptions | [LoadOptions](../../../aspose.words.loading/loadoptions/) | Additional options to use when loading a document. Can be ``null``. |
 
 ### Remarks
 

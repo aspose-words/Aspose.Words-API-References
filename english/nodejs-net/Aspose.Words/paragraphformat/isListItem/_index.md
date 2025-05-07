@@ -2,11 +2,11 @@
 title: ParagraphFormat.isListItem property
 linktitle: isListItem property
 articleTitle: isListItem property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.isListItem property. True when the paragraph is an item in a bulleted or numbered list."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/paragraphformat/isListItem/
+url: /nodejs-net/aspose.words/paragraphformat/isListItem/
 ---
 
 ## ParagraphFormat.isListItem property

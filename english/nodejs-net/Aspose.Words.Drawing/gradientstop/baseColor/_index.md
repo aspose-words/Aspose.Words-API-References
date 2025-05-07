@@ -2,11 +2,11 @@
 title: GradientStop.baseColor property
 linktitle: baseColor property
 articleTitle: baseColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GradientStop.baseColor property. Gets a value representing the color of the gradient stop without any modifiers."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/gradientstop/baseColor/
+url: /nodejs-net/aspose.words.drawing/gradientstop/baseColor/
 ---
 
 ## GradientStop.baseColor property

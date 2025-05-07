@@ -2,11 +2,11 @@
 title: ListCollection.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Lists.ListCollection.add method"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Lists/listcollection/add/
+url: /nodejs-net/aspose.words.lists/listcollection/add/
 ---
 
 ## add(listTemplate) {#listtemplate}
@@ -48,7 +48,7 @@ add(listStyle: Aspose.Words.Style)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| listStyle | [Style](../../../Aspose.Words/style/) | The list style. |
+| listStyle | [Style](../../../aspose.words/style/) | The list style. |
 
 ### Remarks
 

@@ -2,11 +2,11 @@
 title: DocumentVisitor class
 linktitle: DocumentVisitor class
 articleTitle: DocumentVisitor class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentVisitor class. Base class for custom document visitors"
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/documentvisitor/
+url: /nodejs-net/aspose.words/documentvisitor/
 ---
 
 ## DocumentVisitor class

@@ -2,11 +2,11 @@
 title: FieldOptions.currentUser property
 linktitle: currentUser property
 articleTitle: currentUser property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.currentUser property. Gets or sets the current user information."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/currentUser/
+url: /nodejs-net/aspose.words.fields/fieldoptions/currentUser/
 ---
 
 ## FieldOptions.currentUser property

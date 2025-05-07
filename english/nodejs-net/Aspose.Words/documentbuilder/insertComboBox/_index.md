@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertComboBox method
 linktitle: insertComboBox method
 articleTitle: insertComboBox method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.insertComboBox method. Inserts a combobox form field at the current position."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words/documentbuilder/insertComboBox/
+url: /nodejs-net/aspose.words/documentbuilder/insertComboBox/
 ---
 
 ## insertComboBox(name, items, selectedIndex) {#string_string[]_number}
@@ -15,7 +15,7 @@ Inserts a combobox form field at the current position.
 
 
 ```js
-insertComboBox(name: stringitems: string[]selectedIndex: number)
+insertComboBox(name: string, items: string[], selectedIndex: number)
 ```
 
 | Parameter | Type | Description |

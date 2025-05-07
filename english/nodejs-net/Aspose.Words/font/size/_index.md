@@ -2,11 +2,11 @@
 title: Font.size property
 linktitle: size property
 articleTitle: size property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.size property. Gets or sets the font size in points."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/font/size/
+url: /nodejs-net/aspose.words/font/size/
 ---
 
 ## Font.size property

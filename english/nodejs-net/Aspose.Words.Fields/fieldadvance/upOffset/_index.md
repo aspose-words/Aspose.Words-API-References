@@ -2,11 +2,11 @@
 title: FieldAdvance.upOffset property
 linktitle: upOffset property
 articleTitle: upOffset property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldAdvance.upOffset property. Gets or sets the number of points by which the text that follows the field should be moved up."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldadvance/upOffset/
+url: /nodejs-net/aspose.words.fields/fieldadvance/upOffset/
 ---
 
 ## FieldAdvance.upOffset property

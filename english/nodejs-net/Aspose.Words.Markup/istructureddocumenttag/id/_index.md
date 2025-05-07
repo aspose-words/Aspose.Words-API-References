@@ -2,11 +2,11 @@
 title: IStructuredDocumentTag.id property
 linktitle: id property
 articleTitle: id property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IStructuredDocumentTag.id property. Specifies a unique read-only persistent numerical Id for this SDT."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Markup/istructureddocumenttag/id/
+url: /nodejs-net/aspose.words.markup/istructureddocumenttag/id/
 ---
 
 ## IStructuredDocumentTag.id property

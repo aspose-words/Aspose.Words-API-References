@@ -2,11 +2,11 @@
 title: ChartLegendEntry.font property
 linktitle: font property
 articleTitle: font property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartLegendEntry.font property. Provides access to the font formatting of this legend entry."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegendentry/font/
+url: /nodejs-net/aspose.words.drawing.charts/chartlegendentry/font/
 ---
 
 ## ChartLegendEntry.font property

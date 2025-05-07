@@ -2,11 +2,11 @@
 title: MergeFieldImageDimension.unit property
 linktitle: unit property
 articleTitle: unit property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "MergeFieldImageDimension.unit property. The unit."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/mergefieldimagedimension/unit/
+url: /nodejs-net/aspose.words.fields/mergefieldimagedimension/unit/
 ---
 
 ## MergeFieldImageDimension.unit property

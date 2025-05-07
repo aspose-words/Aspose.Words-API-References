@@ -2,11 +2,11 @@
 title: CustomXmlSchemaCollection.removeAt method
 linktitle: removeAt method
 articleTitle: removeAt method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CustomXmlSchemaCollection.removeAt method. Removes a value at the specified index."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Markup/customxmlschemacollection/removeAt/
+url: /nodejs-net/aspose.words.markup/customxmlschemacollection/removeAt/
 ---
 
 ## removeAt(index) {#number}

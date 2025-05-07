@@ -2,11 +2,11 @@
 title: HorizontalRuleFormat.color property
 linktitle: color property
 articleTitle: color property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HorizontalRuleFormat.color property. Gets or sets the brush color that fills the horizontal rule."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/horizontalruleformat/color/
+url: /nodejs-net/aspose.words.drawing/horizontalruleformat/color/
 ---
 
 ## HorizontalRuleFormat.color property

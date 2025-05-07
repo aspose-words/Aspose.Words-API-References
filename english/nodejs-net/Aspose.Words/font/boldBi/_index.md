@@ -2,11 +2,11 @@
 title: Font.boldBi property
 linktitle: boldBi property
 articleTitle: boldBi property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.boldBi property. True if the right-to-left text is formatted as bold."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/font/boldBi/
+url: /nodejs-net/aspose.words/font/boldBi/
 ---
 
 ## Font.boldBi property

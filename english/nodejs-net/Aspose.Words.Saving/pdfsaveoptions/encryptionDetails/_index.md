@@ -2,11 +2,11 @@
 title: PdfSaveOptions.encryptionDetails property
 linktitle: encryptionDetails property
 articleTitle: encryptionDetails property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfSaveOptions.encryptionDetails property. Gets or sets the details for encrypting the output PDF document."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Saving/pdfsaveoptions/encryptionDetails/
+url: /nodejs-net/aspose.words.saving/pdfsaveoptions/encryptionDetails/
 ---
 
 ## PdfSaveOptions.encryptionDetails property
@@ -20,7 +20,7 @@ get encryptionDetails(): Aspose.Words.Saving.PdfEncryptionDetails
 
 ### Remarks
 
-The default value is ``None`` and the output document will not be encrypted.
+The default value is ``null`` and the output document will not be encrypted.
 When this property is set to a valid [PdfEncryptionDetails](../../pdfencryptiondetails/) object,
 then the output PDF document will be encrypted.
 

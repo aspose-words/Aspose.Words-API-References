@@ -5,7 +5,7 @@ articleTitle: HeaderFooter
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.HeaderFooter class, your solution for managing section headers and footers effortlessly. Enhance document formatting today!
 type: docs
-weight: 3520
+weight: 3530
 url: /net/aspose.words/headerfooter/
 ---
 ## HeaderFooter class

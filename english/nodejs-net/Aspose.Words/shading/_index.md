@@ -2,11 +2,11 @@
 title: Shading class
 linktitle: Shading class
 articleTitle: Shading class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Shading class. Contains shading attributes for an object"
 type: docs
 weight: 1200
-url: /nodejs-net/Aspose.Words/shading/
+url: /nodejs-net/aspose.words/shading/
 ---
 
 ## Shading class

@@ -5,7 +5,7 @@ articleTitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Rendering.ThumbnailGeneratingOptions class to enhance your document thumbnail generation with customizable features and improved quality.
 type: docs
-weight: 5190
+weight: 5330
 url: /net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class

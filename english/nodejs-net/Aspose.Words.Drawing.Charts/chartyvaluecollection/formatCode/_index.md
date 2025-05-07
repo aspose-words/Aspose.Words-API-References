@@ -2,11 +2,11 @@
 title: ChartYValueCollection.formatCode property
 linktitle: formatCode property
 articleTitle: formatCode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartYValueCollection.formatCode property. Gets or sets the format code applied to the Y values."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartyvaluecollection/formatCode/
+url: /nodejs-net/aspose.words.drawing.charts/chartyvaluecollection/formatCode/
 ---
 
 ## ChartYValueCollection.formatCode property

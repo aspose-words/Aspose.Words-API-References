@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertParagraph method
 linktitle: insertParagraph method
 articleTitle: insertParagraph method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.insertParagraph method. Inserts a paragraph break into the document."
 type: docs
 weight: 450
-url: /nodejs-net/Aspose.Words/documentbuilder/insertParagraph/
+url: /nodejs-net/aspose.words/documentbuilder/insertParagraph/
 ---
 
 ## insertParagraph() {#default}

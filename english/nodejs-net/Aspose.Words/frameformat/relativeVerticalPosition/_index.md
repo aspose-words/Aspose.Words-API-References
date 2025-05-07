@@ -2,11 +2,11 @@
 title: FrameFormat.relativeVerticalPosition property
 linktitle: relativeVerticalPosition property
 articleTitle: relativeVerticalPosition property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FrameFormat.relativeVerticalPosition property. Gets the relative vertical position of a frame."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/frameformat/relativeVerticalPosition/
+url: /nodejs-net/aspose.words/frameformat/relativeVerticalPosition/
 ---
 
 ## FrameFormat.relativeVerticalPosition property

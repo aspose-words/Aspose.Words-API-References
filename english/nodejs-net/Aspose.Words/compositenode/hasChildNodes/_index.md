@@ -2,16 +2,16 @@
 title: CompositeNode.hasChildNodes property
 linktitle: hasChildNodes property
 articleTitle: hasChildNodes property
-second_title: Aspose.Words for NodeJs
-description: "CompositeNode.hasChildNodes property. Returns ``True`` if this node has any child nodes."
+second_title: Aspose.Words for Node.js
+description: "CompositeNode.hasChildNodes property. Returns ``true`` if this node has any child nodes."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/compositenode/hasChildNodes/
+url: /nodejs-net/aspose.words/compositenode/hasChildNodes/
 ---
 
 ## CompositeNode.hasChildNodes property
 
-Returns ``True`` if this node has any child nodes.
+Returns ``true`` if this node has any child nodes.
 
 
 

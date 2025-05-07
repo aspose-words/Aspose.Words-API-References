@@ -2,11 +2,11 @@
 title: PageSetup.lineNumberCountBy property
 linktitle: lineNumberCountBy property
 articleTitle: lineNumberCountBy property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.lineNumberCountBy property. Returns or sets the numeric increment for line numbers."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words/pagesetup/lineNumberCountBy/
+url: /nodejs-net/aspose.words/pagesetup/lineNumberCountBy/
 ---
 
 ## PageSetup.lineNumberCountBy property

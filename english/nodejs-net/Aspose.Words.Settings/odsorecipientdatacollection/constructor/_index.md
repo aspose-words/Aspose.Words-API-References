@@ -2,11 +2,11 @@
 title: OdsoRecipientDataCollection constructor
 linktitle: OdsoRecipientDataCollection constructor
 articleTitle: OdsoRecipientDataCollection constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdsoRecipientDataCollection constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Settings/odsorecipientdatacollection/constructor/
+url: /nodejs-net/aspose.words.settings/odsorecipientdatacollection/constructor/
 ---
 
 ## OdsoRecipientDataCollection() {#default}

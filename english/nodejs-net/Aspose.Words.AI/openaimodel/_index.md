@@ -2,11 +2,11 @@
 title: OpenAiModel class
 linktitle: OpenAiModel class
 articleTitle: OpenAiModel class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.OpenAiModel class. An abstract class representing the integration with OpenAI's large language models within the Aspose.Words."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.AI/openaimodel/
+url: /nodejs-net/aspose.words.ai/openaimodel/
 ---
 
 ## OpenAiModel class

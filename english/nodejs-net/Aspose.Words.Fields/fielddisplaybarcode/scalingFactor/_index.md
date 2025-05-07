@@ -2,11 +2,11 @@
 title: FieldDisplayBarcode.scalingFactor property
 linktitle: scalingFactor property
 articleTitle: scalingFactor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDisplayBarcode.scalingFactor property. Gets or sets a scaling factor for the symbol"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Fields/fielddisplaybarcode/scalingFactor/
+url: /nodejs-net/aspose.words.fields/fielddisplaybarcode/scalingFactor/
 ---
 
 ## FieldDisplayBarcode.scalingFactor property

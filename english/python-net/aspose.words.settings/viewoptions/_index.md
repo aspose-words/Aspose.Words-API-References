@@ -25,7 +25,7 @@ To learn more, visit the [Work with Options and Appearance of Word Documents](ht
 | [do_not_display_page_boundaries](./do_not_display_page_boundaries/) | Turns off display of the space between the top of the text and the top edge of the page. |
 | [forms_design](./forms_design/) | Specifies whether the document is in forms design mode. |
 | [view_type](./view_type/) | Controls the view mode in Microsoft Word. |
-| [zoom_percent](./zoom_percent/) | Gets or sets the percentage (between 10 and 500) at which you want to view your document. |
+| [zoom_percent](./zoom_percent/) | Gets or sets the percentage at which you want to view your document. |
 | [zoom_type](./zoom_type/) | Gets or sets a zoom value based on the size of the window. |
 
 ### Examples

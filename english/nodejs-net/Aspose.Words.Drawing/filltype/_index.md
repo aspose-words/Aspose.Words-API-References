@@ -2,11 +2,11 @@
 title: FillType enumeration
 linktitle: FillType enumeration
 articleTitle: FillType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.FillType enumeration. Specifies fill type for a fillable object."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing/filltype/
+url: /nodejs-net/aspose.words.drawing/filltype/
 ---
 
 ## FillType enumeration

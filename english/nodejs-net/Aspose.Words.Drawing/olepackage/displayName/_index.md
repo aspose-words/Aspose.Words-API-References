@@ -2,11 +2,11 @@
 title: OlePackage.displayName property
 linktitle: displayName property
 articleTitle: displayName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OlePackage.displayName property. Gets or sets OLE Package display name."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/olepackage/displayName/
+url: /nodejs-net/aspose.words.drawing/olepackage/displayName/
 ---
 
 ## OlePackage.displayName property

@@ -2,11 +2,11 @@
 title: GlowFormat class
 linktitle: GlowFormat class
 articleTitle: GlowFormat class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.GlowFormat class. Represents the glow formatting for an object."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Drawing/glowformat/
+url: /nodejs-net/aspose.words.drawing/glowformat/
 ---
 
 ## GlowFormat class

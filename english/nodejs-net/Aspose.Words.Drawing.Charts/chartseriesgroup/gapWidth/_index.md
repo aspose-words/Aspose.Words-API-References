@@ -2,11 +2,11 @@
 title: ChartSeriesGroup.gapWidth property
 linktitle: gapWidth property
 articleTitle: gapWidth property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroup.gapWidth property. Gets or sets the percentage of gap width between chart elements."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroup/gapWidth/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroup/gapWidth/
 ---
 
 ## ChartSeriesGroup.gapWidth property

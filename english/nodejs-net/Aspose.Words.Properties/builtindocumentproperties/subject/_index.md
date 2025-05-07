@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.subject property
 linktitle: subject property
 articleTitle: subject property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.subject property. Gets or sets the subject of the document."
 type: docs
 weight: 270
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/subject/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/subject/
 ---
 
 ## BuiltInDocumentProperties.subject property

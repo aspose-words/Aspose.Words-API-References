@@ -2,11 +2,11 @@
 title: FieldOptions.userPromptRespondent property
 linktitle: userPromptRespondent property
 articleTitle: userPromptRespondent property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.userPromptRespondent property. Gets or sets the respondent to user prompts during field update."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/userPromptRespondent/
+url: /nodejs-net/aspose.words.fields/fieldoptions/userPromptRespondent/
 ---
 
 ## FieldOptions.userPromptRespondent property
@@ -20,10 +20,10 @@ get userPromptRespondent(): Aspose.Words.Fields.IFieldUserPromptRespondent
 
 ### Remarks
 
-If the value of this property is set to ``None``, the fields that require user response on prompting
+If the value of this property is set to ``null``, the fields that require user response on prompting
 (such as [FieldAsk](../../fieldask/) or [FieldFillIn](../../fieldfillin/)) are not updated.
 
-The default value is ``None``.
+The default value is ``null``.
 
 
 

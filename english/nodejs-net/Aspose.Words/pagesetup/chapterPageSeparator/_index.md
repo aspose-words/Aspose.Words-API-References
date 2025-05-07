@@ -2,11 +2,11 @@
 title: PageSetup.chapterPageSeparator property
 linktitle: chapterPageSeparator property
 articleTitle: chapterPageSeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.chapterPageSeparator property. Gets or sets the separator character that appears between the chapter number and the page number."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/pagesetup/chapterPageSeparator/
+url: /nodejs-net/aspose.words/pagesetup/chapterPageSeparator/
 ---
 
 ## PageSetup.chapterPageSeparator property

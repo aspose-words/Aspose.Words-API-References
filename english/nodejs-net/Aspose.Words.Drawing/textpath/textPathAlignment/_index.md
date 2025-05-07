@@ -2,11 +2,11 @@
 title: TextPath.textPathAlignment property
 linktitle: textPathAlignment property
 articleTitle: textPathAlignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextPath.textPathAlignment property. Defines the alignment of text."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Drawing/textpath/textPathAlignment/
+url: /nodejs-net/aspose.words.drawing/textpath/textPathAlignment/
 ---
 
 ## TextPath.textPathAlignment property

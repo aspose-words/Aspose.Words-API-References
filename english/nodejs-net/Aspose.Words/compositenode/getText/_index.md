@@ -2,11 +2,11 @@
 title: CompositeNode.getText method
 linktitle: getText method
 articleTitle: getText method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.getText method. Gets the text of this node and of all its children."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words/compositenode/getText/
+url: /nodejs-net/aspose.words/compositenode/getText/
 ---
 
 ## getText() {#default}

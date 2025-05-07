@@ -2,11 +2,11 @@
 title: EndnoteOptions.numberStyle property
 linktitle: numberStyle property
 articleTitle: numberStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EndnoteOptions.numberStyle property. Specifies the number format for automatically numbered endnotes."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Notes/endnoteoptions/numberStyle/
+url: /nodejs-net/aspose.words.notes/endnoteoptions/numberStyle/
 ---
 
 ## EndnoteOptions.numberStyle property

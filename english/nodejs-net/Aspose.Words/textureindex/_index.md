@@ -2,11 +2,11 @@
 title: TextureIndex enumeration
 linktitle: TextureIndex enumeration
 articleTitle: TextureIndex enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.TextureIndex enumeration. Specifies shading texture."
 type: docs
 weight: 1420
-url: /nodejs-net/Aspose.Words/textureindex/
+url: /nodejs-net/aspose.words/textureindex/
 ---
 
 ## TextureIndex enumeration

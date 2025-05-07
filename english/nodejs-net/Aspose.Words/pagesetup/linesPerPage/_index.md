@@ -2,11 +2,11 @@
 title: PageSetup.linesPerPage property
 linktitle: linesPerPage property
 articleTitle: linesPerPage property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.linesPerPage property. Gets or sets the number of lines per page in the document grid."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words/pagesetup/linesPerPage/
+url: /nodejs-net/aspose.words/pagesetup/linesPerPage/
 ---
 
 ## PageSetup.linesPerPage property

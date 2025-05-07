@@ -35,6 +35,7 @@ class SaveOptions : public System::Object
 | [get_ProgressCallback](./get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
 | virtual [get_SaveFormat](./get_saveformat/)() | Specifies the format in which the document will be saved if this save options object is used. |
 | [get_TempFolder](./get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
+| [get_UpdateAmbiguousTextFont](./get_updateambiguoustextfont/)() const | Determines whether the font attributes will be changed according to the character code being used. |
 | [get_UpdateCreatedTimeProperty](./get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
 | [get_UpdateFields](./get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
 | [get_UpdateLastPrintedProperty](./get_updatelastprintedproperty/)() const | Gets or sets a value determining whether the [LastPrinted](../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving. |
@@ -56,6 +57,7 @@ class SaveOptions : public System::Object
 | [set_ProgressCallback](./set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Saving::IDocumentSavingCallback\>\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_ProgressCallback](./get_progresscallback/). |
 | virtual [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) | Setter for [Aspose::Words::Saving::SaveOptions::get_SaveFormat](./get_saveformat/). |
 | [set_TempFolder](./set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_TempFolder](./get_tempfolder/). |
+| [set_UpdateAmbiguousTextFont](./set_updateambiguoustextfont/)(bool) | Determines whether the font attributes will be changed according to the character code being used. |
 | [set_UpdateCreatedTimeProperty](./set_updatecreatedtimeproperty/)(bool) | Sets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
 | [set_UpdateFields](./set_updatefields/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateFields](./get_updatefields/). |
 | [set_UpdateLastPrintedProperty](./set_updatelastprintedproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty](./get_updatelastprintedproperty/). |

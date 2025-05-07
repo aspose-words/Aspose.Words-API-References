@@ -2,11 +2,11 @@
 title: StructuredDocumentTagRangeStart.appearance property
 linktitle: appearance property
 articleTitle: appearance property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.appearance property. Gets or sets the appearance of the structured document tag."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/appearance/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/appearance/
 ---
 
 ## StructuredDocumentTagRangeStart.appearance property

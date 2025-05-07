@@ -2,11 +2,11 @@
 title: GroupShape constructor
 linktitle: GroupShape constructor
 articleTitle: GroupShape constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GroupShape constructor. Creates a new group shape."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing/groupshape/constructor/
+url: /nodejs-net/aspose.words.drawing/groupshape/constructor/
 ---
 
 ## GroupShape(doc) {#documentbase}
@@ -20,7 +20,7 @@ GroupShape(doc: Aspose.Words.DocumentBase)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 
 ### Remarks
 

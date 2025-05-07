@@ -2,11 +2,11 @@
 title: Font.name property
 linktitle: name property
 articleTitle: name property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.name property. Gets or sets the name of the font."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/font/name/
+url: /nodejs-net/aspose.words/font/name/
 ---
 
 ## Font.name property

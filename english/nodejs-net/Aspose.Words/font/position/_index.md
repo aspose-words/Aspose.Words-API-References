@@ -2,11 +2,11 @@
 title: Font.position property
 linktitle: position property
 articleTitle: position property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.position property. Gets or sets the position of text (in points) relative to the base line"
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words/font/position/
+url: /nodejs-net/aspose.words/font/position/
 ---
 
 ## Font.position property

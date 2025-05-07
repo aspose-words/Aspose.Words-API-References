@@ -2,16 +2,16 @@
 title: Document.fieldOptions property
 linktitle: fieldOptions property
 articleTitle: fieldOptions property
-second_title: Aspose.Words for NodeJs
-description: "Document.fieldOptions property. Gets a [FieldOptions](../../../Aspose.Words.Fields/fieldoptions/) object that represents options to control field handling in the document."
+second_title: Aspose.Words for Node.js
+description: "Document.fieldOptions property. Gets a [FieldOptions](../../../aspose.words.fields/fieldoptions/) object that represents options to control field handling in the document."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/document/fieldOptions/
+url: /nodejs-net/aspose.words/document/fieldOptions/
 ---
 
 ## Document.fieldOptions property
 
-Gets a [FieldOptions](../../../Aspose.Words.Fields/fieldoptions/) object that represents options to control field handling in the document.
+Gets a [FieldOptions](../../../aspose.words.fields/fieldoptions/) object that represents options to control field handling in the document.
 
 
 

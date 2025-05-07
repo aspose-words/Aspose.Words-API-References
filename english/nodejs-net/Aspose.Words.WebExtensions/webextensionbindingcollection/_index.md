@@ -2,11 +2,11 @@
 title: WebExtensionBindingCollection class
 linktitle: WebExtensionBindingCollection class
 articleTitle: WebExtensionBindingCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WebExtensions.WebExtensionBindingCollection class. Specifies a list of web extension bindings"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionbindingcollection/
+url: /nodejs-net/aspose.words.webextensions/webextensionbindingcollection/
 ---
 
 ## WebExtensionBindingCollection class

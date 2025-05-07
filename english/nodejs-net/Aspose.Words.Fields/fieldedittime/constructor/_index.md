@@ -2,11 +2,11 @@
 title: FieldEditTime constructor
 linktitle: FieldEditTime constructor
 articleTitle: FieldEditTime constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldEditTime constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldedittime/constructor/
+url: /nodejs-net/aspose.words.fields/fieldedittime/constructor/
 ---
 
 ## FieldEditTime() {#default}

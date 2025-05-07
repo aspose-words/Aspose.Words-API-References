@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertHyperlink method
 linktitle: insertHyperlink method
 articleTitle: insertHyperlink method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.insertHyperlink method. Inserts a hyperlink into the document."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/documentbuilder/insertHyperlink/
+url: /nodejs-net/aspose.words/documentbuilder/insertHyperlink/
 ---
 
 ## insertHyperlink(displayText, urlOrBookmark, isBookmark) {#string_string_boolean}
@@ -15,14 +15,14 @@ Inserts a hyperlink into the document.
 
 
 ```js
-insertHyperlink(displayText: stringurlOrBookmark: stringisBookmark: boolean)
+insertHyperlink(displayText: string, urlOrBookmark: string, isBookmark: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | displayText | string | Text of the link to be displayed in the document. |
 | urlOrBookmark | string | Link destination. Can be a url or a name of a bookmark inside the document. This method always adds apostrophes at the beginning and end of the url. |
-| isBookmark | boolean | ``True`` if the previous parameter is a name of a bookmark inside the document; ``False`` is the previous parameter is a URL. |
+| isBookmark | boolean | ``true`` if the previous parameter is a name of a bookmark inside the document; ``false`` is the previous parameter is a URL. |
 
 ### Remarks
 

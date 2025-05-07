@@ -2,11 +2,11 @@
 title: CheckGrammarOptions constructor
 linktitle: CheckGrammarOptions constructor
 articleTitle: CheckGrammarOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CheckGrammarOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.AI/checkgrammaroptions/constructor/
+url: /nodejs-net/aspose.words.ai/checkgrammaroptions/constructor/
 ---
 
 ## CheckGrammarOptions() {#default}

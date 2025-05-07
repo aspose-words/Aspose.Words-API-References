@@ -2,11 +2,11 @@
 title: Hyphenation.unregisterDictionary method
 linktitle: unregisterDictionary method
 articleTitle: unregisterDictionary method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Hyphenation.unregisterDictionary method. Unregisters a hyphenation dictionary for the specified language."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/hyphenation/unregisterDictionary/
+url: /nodejs-net/aspose.words/hyphenation/unregisterDictionary/
 ---
 
 ## unregisterDictionary(language) {#string}

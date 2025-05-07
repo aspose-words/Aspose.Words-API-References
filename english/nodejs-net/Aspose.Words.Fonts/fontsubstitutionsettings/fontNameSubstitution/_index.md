@@ -2,11 +2,11 @@
 title: FontSubstitutionSettings.fontNameSubstitution property
 linktitle: fontNameSubstitution property
 articleTitle: fontNameSubstitution property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSubstitutionSettings.fontNameSubstitution property. Settings related to font name substitution rule."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fonts/fontsubstitutionsettings/fontNameSubstitution/
+url: /nodejs-net/aspose.words.fonts/fontsubstitutionsettings/fontNameSubstitution/
 ---
 
 ## FontSubstitutionSettings.fontNameSubstitution property

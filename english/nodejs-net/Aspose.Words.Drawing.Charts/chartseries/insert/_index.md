@@ -2,11 +2,11 @@
 title: ChartSeries.insert method
 linktitle: insert method
 articleTitle: insert method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartSeries.insert method"
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseries/insert/
+url: /nodejs-net/aspose.words.drawing.charts/chartseries/insert/
 ---
 
 ## insert(index, xValue) {#number_chartxvalue}
@@ -16,7 +16,7 @@ and bubble sizes, they will be empty for the X value.
 
 
 ```js
-insert(index: numberxValue: Aspose.Words.Drawing.Charts.ChartXValue)
+insert(index: number, xValue: Aspose.Words.Drawing.Charts.ChartXValue)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ Inserts the specified X and Y values into the chart series at the specified inde
 
 
 ```js
-insert(index: numberxValue: Aspose.Words.Drawing.Charts.ChartXValueyValue: Aspose.Words.Drawing.Charts.ChartYValue)
+insert(index: number, xValue: Aspose.Words.Drawing.Charts.ChartXValue, yValue: Aspose.Words.Drawing.Charts.ChartYValue)
 ```
 
 | Parameter | Type | Description |
@@ -57,7 +57,7 @@ Inserts the specified X value, Y value and bubble size into the chart series at 
 
 
 ```js
-insert(index: numberxValue: Aspose.Words.Drawing.Charts.ChartXValueyValue: Aspose.Words.Drawing.Charts.ChartYValuebubbleSize: number)
+insert(index: number, xValue: Aspose.Words.Drawing.Charts.ChartXValue, yValue: Aspose.Words.Drawing.Charts.ChartYValue, bubbleSize: number)
 ```
 
 | Parameter | Type | Description |

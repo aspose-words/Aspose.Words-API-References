@@ -2,11 +2,11 @@
 title: TxtSaveOptionsBase.exportHeadersFootersMode property
 linktitle: exportHeadersFootersMode property
 articleTitle: exportHeadersFootersMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtSaveOptionsBase.exportHeadersFootersMode property. Specifies the way headers and footers are exported to the text formats"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/txtsaveoptionsbase/exportHeadersFootersMode/
+url: /nodejs-net/aspose.words.saving/txtsaveoptionsbase/exportHeadersFootersMode/
 ---
 
 ## TxtSaveOptionsBase.exportHeadersFootersMode property

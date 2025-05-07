@@ -2,11 +2,11 @@
 title: ConvertUtil.pixelToNewDpi method
 linktitle: pixelToNewDpi method
 articleTitle: pixelToNewDpi method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConvertUtil.pixelToNewDpi method. Converts pixels from one resolution to another."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words/convertutil/pixelToNewDpi/
+url: /nodejs-net/aspose.words/convertutil/pixelToNewDpi/
 ---
 
 ## pixelToNewDpi(pixels, oldDpi, newDpi) {#number_number_number}
@@ -15,7 +15,7 @@ Converts pixels from one resolution to another.
 
 
 ```js
-pixelToNewDpi(pixels: numberoldDpi: numbernewDpi: number)
+pixelToNewDpi(pixels: number, oldDpi: number, newDpi: number)
 ```
 
 | Parameter | Type | Description |

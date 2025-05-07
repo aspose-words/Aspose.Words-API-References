@@ -2,11 +2,11 @@
 title: OleFormat.getRawData method
 linktitle: getRawData method
 articleTitle: getRawData method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OleFormat.getRawData method. Gets OLE object raw data."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Drawing/oleformat/getRawData/
+url: /nodejs-net/aspose.words.drawing/oleformat/getRawData/
 ---
 
 ## getRawData() {#default}

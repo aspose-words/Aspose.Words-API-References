@@ -2,11 +2,11 @@
 title: TableSubstitutionRule.load method
 linktitle: load method
 articleTitle: load method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fonts.TableSubstitutionRule.load method"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fonts/tablesubstitutionrule/load/
+url: /nodejs-net/aspose.words.fonts/tablesubstitutionrule/load/
 ---
 
 ## load(fileName) {#string}

@@ -2,11 +2,11 @@
 title: TableCollection.toArray method
 linktitle: toArray method
 articleTitle: toArray method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableCollection.toArray method. Copies all tables from the collection to a new array of tables."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Tables/tablecollection/toArray/
+url: /nodejs-net/aspose.words.tables/tablecollection/toArray/
 ---
 
 ## toArray() {#default}

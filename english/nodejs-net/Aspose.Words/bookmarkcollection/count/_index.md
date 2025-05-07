@@ -2,11 +2,11 @@
 title: BookmarkCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BookmarkCollection.count property. Returns the number of bookmarks in the collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/bookmarkcollection/count/
+url: /nodejs-net/aspose.words/bookmarkcollection/count/
 ---
 
 ## BookmarkCollection.count property

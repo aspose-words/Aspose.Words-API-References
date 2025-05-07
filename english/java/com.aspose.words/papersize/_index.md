@@ -4,7 +4,7 @@ linktitle: PaperSize
 second_title: Aspose.Words for Java
 description: Specifies paper size in Java.
 type: docs
-weight: 506
+weight: 511
 url: /java/com.aspose.words/papersize/
 ---
 
@@ -141,6 +141,8 @@ Shows how to set page sizes.
 | [ENVELOPE_DL](#ENVELOPE-DL) | 110 x 220 mm. |
 | [EXECUTIVE](#EXECUTIVE) | 7.25 x 10.5 inches. |
 | [FOLIO](#FOLIO) | 8.5 x 13 inches. |
+| [JIS_B_4](#JIS-B-4) | 257 x 364 mm. |
+| [JIS_B_5](#JIS-B-5) | 182 x 257 mm. |
 | [LEDGER](#LEDGER) | 17 x 11 inches. |
 | [LEGAL](#LEGAL) | 8.5 x 14 inches. |
 | [LETTER](#LETTER) | 8.5 x 11 inches. |
@@ -230,6 +232,22 @@ public static int FOLIO
 
 
 8.5 x 13 inches.
+
+### JIS_B_4 {#JIS-B-4}
+```
+public static int JIS_B_4
+```
+
+
+257 x 364 mm.
+
+### JIS_B_5 {#JIS-B-5}
+```
+public static int JIS_B_5
+```
+
+
+182 x 257 mm.
 
 ### LEDGER {#LEDGER}
 ```

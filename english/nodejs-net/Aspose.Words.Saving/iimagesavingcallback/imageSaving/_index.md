@@ -2,11 +2,11 @@
 title: IImageSavingCallback.imageSaving method
 linktitle: imageSaving method
 articleTitle: imageSaving method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IImageSavingCallback.imageSaving method. Called when Aspose.Words saves an image to HTML."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/iimagesavingcallback/imageSaving/
+url: /nodejs-net/aspose.words.saving/iimagesavingcallback/imageSaving/
 ---
 
 ## imageSaving(args) {#imagesavingargs}

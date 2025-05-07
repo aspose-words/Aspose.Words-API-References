@@ -2,11 +2,11 @@
 title: MergeFieldImageDimension constructor
 linktitle: MergeFieldImageDimension constructor
 articleTitle: MergeFieldImageDimension constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.MergeFieldImageDimension constructor"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/mergefieldimagedimension/constructor/
+url: /nodejs-net/aspose.words.fields/mergefieldimagedimension/constructor/
 ---
 
 ## MergeFieldImageDimension(value) {#number}
@@ -34,7 +34,7 @@ Creates an image dimension instance with the given value and the given unit.
 
 
 ```js
-MergeFieldImageDimension(value: numberunit: Aspose.Words.Fields.MergeFieldImageDimensionUnit)
+MergeFieldImageDimension(value: number, unit: Aspose.Words.Fields.MergeFieldImageDimensionUnit)
 ```
 
 | Parameter | Type | Description |

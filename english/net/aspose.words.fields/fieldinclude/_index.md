@@ -5,7 +5,7 @@ articleTitle: FieldInclude
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldInclude class to seamlessly implement INCLUDE fields in your documents, enhancing automation and efficiency.
 type: docs
-weight: 2430
+weight: 2440
 url: /net/aspose.words.fields/fieldinclude/
 ---
 ## FieldInclude class

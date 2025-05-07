@@ -2,11 +2,11 @@
 title: Field.asFieldTemplate method
 linktitle: asFieldTemplate method
 articleTitle: asFieldTemplate method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldTemplate method. "
 type: docs
 weight: 960
-url: /nodejs-net/Aspose.Words/field/asFieldTemplate/
+url: /nodejs-net/aspose.words/field/asFieldTemplate/
 ---
 
 ## asFieldTemplate() {#default}

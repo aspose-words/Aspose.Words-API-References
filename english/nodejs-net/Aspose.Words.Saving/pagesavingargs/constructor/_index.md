@@ -2,11 +2,11 @@
 title: PageSavingArgs constructor
 linktitle: PageSavingArgs constructor
 articleTitle: PageSavingArgs constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSavingArgs constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/pagesavingargs/constructor/
+url: /nodejs-net/aspose.words.saving/pagesavingargs/constructor/
 ---
 
 ## PageSavingArgs() {#default}

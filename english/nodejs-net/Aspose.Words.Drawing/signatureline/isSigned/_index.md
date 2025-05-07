@@ -2,11 +2,11 @@
 title: SignatureLine.isSigned property
 linktitle: isSigned property
 articleTitle: isSigned property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignatureLine.isSigned property. Indicates that signature line is signed by digital signature."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing/signatureline/isSigned/
+url: /nodejs-net/aspose.words.drawing/signatureline/isSigned/
 ---
 
 ## SignatureLine.isSigned property

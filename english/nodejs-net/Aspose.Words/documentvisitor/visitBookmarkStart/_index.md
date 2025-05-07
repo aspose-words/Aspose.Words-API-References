@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitBookmarkStart method
 linktitle: visitBookmarkStart method
 articleTitle: visitBookmarkStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitBookmarkStart method. Called when a start of a bookmark is encountered in the document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/documentvisitor/visitBookmarkStart/
+url: /nodejs-net/aspose.words/documentvisitor/visitBookmarkStart/
 ---
 
 ## visitBookmarkStart(bookmarkStart) {#bookmarkstart}

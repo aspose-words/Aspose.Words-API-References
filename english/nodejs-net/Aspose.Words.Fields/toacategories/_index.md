@@ -2,11 +2,11 @@
 title: ToaCategories class
 linktitle: ToaCategories class
 articleTitle: ToaCategories class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.ToaCategories class. Represents a table of authorities categories"
 type: docs
 weight: 1300
-url: /nodejs-net/Aspose.Words.Fields/toacategories/
+url: /nodejs-net/aspose.words.fields/toacategories/
 ---
 
 ## ToaCategories class

@@ -2,11 +2,11 @@
 title: Inline.font property
 linktitle: font property
 articleTitle: font property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Inline.font property. Provides access to the font formatting of this object."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/inline/font/
+url: /nodejs-net/aspose.words/inline/font/
 ---
 
 ## Inline.font property

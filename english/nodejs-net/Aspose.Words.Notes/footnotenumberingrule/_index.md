@@ -2,11 +2,11 @@
 title: FootnoteNumberingRule enumeration
 linktitle: FootnoteNumberingRule enumeration
 articleTitle: FootnoteNumberingRule enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.FootnoteNumberingRule enumeration. Determines when automatic footnote or endnote numbering restarts."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Notes/footnotenumberingrule/
+url: /nodejs-net/aspose.words.notes/footnotenumberingrule/
 ---
 
 ## FootnoteNumberingRule enumeration

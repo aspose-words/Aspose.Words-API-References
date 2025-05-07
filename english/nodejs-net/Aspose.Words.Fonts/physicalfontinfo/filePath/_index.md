@@ -2,11 +2,11 @@
 title: PhysicalFontInfo.filePath property
 linktitle: filePath property
 articleTitle: filePath property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PhysicalFontInfo.filePath property. Path to the font file if any."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fonts/physicalfontinfo/filePath/
+url: /nodejs-net/aspose.words.fonts/physicalfontinfo/filePath/
 ---
 
 ## PhysicalFontInfo.filePath property

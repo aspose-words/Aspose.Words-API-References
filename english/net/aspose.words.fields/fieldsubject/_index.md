@@ -5,7 +5,7 @@ articleTitle: FieldSubject
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSubject class for easy implementation of the SUBJECT field, enhancing document automation and formatting efficiency.
 type: docs
-weight: 2850
+weight: 2860
 url: /net/aspose.words.fields/fieldsubject/
 ---
 ## FieldSubject class

@@ -2,11 +2,11 @@
 title: Inline.isDeleteRevision property
 linktitle: isDeleteRevision property
 articleTitle: isDeleteRevision property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Inline.isDeleteRevision property. Returns true if this object was deleted in Microsoft Word while change tracking was enabled."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/inline/isDeleteRevision/
+url: /nodejs-net/aspose.words/inline/isDeleteRevision/
 ---
 
 ## Inline.isDeleteRevision property

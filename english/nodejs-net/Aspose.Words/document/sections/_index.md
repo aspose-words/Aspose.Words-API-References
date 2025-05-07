@@ -2,11 +2,11 @@
 title: Document.sections property
 linktitle: sections property
 articleTitle: sections property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.sections property. Returns a collection that represents all sections in the document."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/document/sections/
+url: /nodejs-net/aspose.words/document/sections/
 ---
 
 ## Document.sections property
@@ -19,6 +19,31 @@ get sections(): Aspose.Words.SectionCollection
 ```
 
 ### Examples
+
+Shows how to add and remove sections in a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.write("Section 1");
+builder.insertBreak(aw.BreakType.SectionBreakNewPage);
+builder.write("Section 2");
+
+expect(doc.getText().trim()).toEqual("Section 1\u000cSection 2");
+
+// Delete the first section from the document.
+doc.sections.removeAt(0);
+
+expect(doc.getText().trim()).toEqual("Section 2");
+
+// Append a copy of what is now the first section to the end of the document.
+let lastSectionIdx = doc.sections.count - 1;
+let newSection = doc.sections.at(lastSectionIdx).clone();
+doc.sections.add(newSection);
+
+expect(doc.getText().trim()).toEqual("Section 2\u000cSection 2");
+```
 
 Shows how to specify how a new section separates itself from the previous.
 
@@ -63,31 +88,6 @@ builder.writeln("This text is in section 6.");
 expect(doc.sections.at(5).pageSetup.sectionStart).toEqual(aw.SectionStart.NewColumn);
 
 doc.save(base.artifactsDir + "PageSetup.SetSectionStart.docx");
-```
-
-Shows how to add and remove sections in a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.write("Section 1");
-builder.insertBreak(aw.BreakType.SectionBreakNewPage);
-builder.write("Section 2");
-
-expect(doc.getText().trim()).toEqual("Section 1\u000cSection 2");
-
-// Delete the first section from the document.
-doc.sections.removeAt(0);
-
-expect(doc.getText().trim()).toEqual("Section 2");
-
-// Append a copy of what is now the first section to the end of the document.
-let lastSectionIdx = doc.sections.count - 1;
-let newSection = doc.sections.at(lastSectionIdx).clone();
-doc.sections.add(newSection);
-
-expect(doc.getText().trim()).toEqual("Section 2\u000cSection 2");
 ```
 
 ### See Also

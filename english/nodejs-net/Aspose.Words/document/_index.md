@@ -2,11 +2,11 @@
 title: Document class
 linktitle: Document class
 articleTitle: Document class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document class. Represents a Word document"
 type: docs
 weight: 310
-url: /nodejs-net/Aspose.Words/document/
+url: /nodejs-net/aspose.words/document/
 ---
 
 ## Document class
@@ -81,7 +81,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | --- | --- |
 | [attachedTemplate](./attachedTemplate/) | Gets or sets the full path of the template attached to the document. |
 | [automaticallyUpdateStyles](./automaticallyUpdateStyles/) | Gets or sets a flag indicating whether the styles in the document are updated to match the styles in the attached template each time the document is opened in MS Word. |
-| [backgroundShape](../documentbase/backgroundShape/) | Gets or sets the background shape of the document. Can be ``None``.<br>(Inherited from [DocumentBase](../documentbase/)) |
+| [backgroundShape](../documentbase/backgroundShape/) | Gets or sets the background shape of the document. Can be ``null``.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [bibliography](./bibliography/) | Gets the [Document.bibliography](./bibliography/) object that represents the list of sources available in the document. |
 | [builtInDocumentProperties](./builtInDocumentProperties/) | Returns a collection that represents all the built-in document properties of the document. |
 | [compatibilityOptions](./compatibilityOptions/) | Provides access to document compatibility options (that is, the user preferences entered on the **Compatibility** tab of the **Options** dialog in Word). |
@@ -94,7 +94,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [digitalSignatures](./digitalSignatures/) | Gets the collection of digital signatures for this document and their validation results. |
 | [document](../node/document/) | Gets the document to which this node belongs.<br>(Inherited from [Node](../node/)) |
 | [endnoteOptions](./endnoteOptions/) | Provides options that control numbering and positioning of endnotes in this document. |
-| [fieldOptions](./fieldOptions/) | Gets a [FieldOptions](../../Aspose.Words.Fields/fieldoptions/) object that represents options to control field handling in the document. |
+| [fieldOptions](./fieldOptions/) | Gets a [FieldOptions](../../aspose.words.fields/fieldoptions/) object that represents options to control field handling in the document. |
 | [firstChild](../compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [firstSection](./firstSection/) | Gets the first section in the document. |
 | [fontInfos](../documentbase/fontInfos/) | Provides access to properties of fonts used in this document.<br>(Inherited from [DocumentBase](../documentbase/)) |
@@ -103,17 +103,17 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [footnoteSeparators](../documentbase/footnoteSeparators/) | Provides access to the footnote/endnote separators defined in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [frameset](./frameset/) | Returns a [Document.frameset](./frameset/) instance if this document represents a frames page. |
 | [glossaryDocument](./glossaryDocument/) | Gets or sets the glossary document within this document or template. A glossary document is a storage for AutoText, AutoCorrect and Building Block entries defined in a document. |
-| [grammarChecked](./grammarChecked/) | Returns ``True`` if the document has been checked for grammar. |
-| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``True`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
-| [hasMacros](./hasMacros/) | Returns ``True`` if the document has a VBA project (macros). |
-| [hasRevisions](./hasRevisions/) | Returns ``True`` if the document has any tracked changes. |
+| [grammarChecked](./grammarChecked/) | Returns ``true`` if the document has been checked for grammar. |
+| [hasChildNodes](../compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../compositenode/)) |
+| [hasMacros](./hasMacros/) | Returns ``true`` if the document has a VBA project (macros). |
+| [hasRevisions](./hasRevisions/) | Returns ``true`` if the document has any tracked changes. |
 | [hyphenationOptions](./hyphenationOptions/) | Provides access to document hyphenation options. |
 | [includeTextboxesFootnotesEndnotesInStat](./includeTextboxesFootnotesEndnotesInStat/) | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
-| [isComposite](../node/isComposite/) | Returns ``True`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
+| [isComposite](../node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../node/)) |
 | [justificationMode](./justificationMode/) | Gets or sets the character spacing adjustment of a document. |
 | [lastChild](../compositenode/lastChild/) | Gets the last child of the node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 | [lastSection](./lastSection/) | Gets the last section in the document. |
-| [layoutOptions](./layoutOptions/) | Gets a [LayoutOptions](../../Aspose.Words.Layout/layoutoptions/) object that represents options to control the layout process of this document. |
+| [layoutOptions](./layoutOptions/) | Gets a [LayoutOptions](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |
 | [lists](../documentbase/lists/) | Provides access to the list formatting used in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [nodeChangingCallback](../documentbase/nodeChangingCallback/) | Called when a node is inserted or removed in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
@@ -136,7 +136,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [shadeFormData](./shadeFormData/) | Specifies whether to turn on the gray shading on form fields. |
 | [showGrammaticalErrors](./showGrammaticalErrors/) | Specifies whether to display grammar errors in this document. |
 | [showSpellingErrors](./showSpellingErrors/) | Specifies whether to display spelling errors in this document. |
-| [spellingChecked](./spellingChecked/) | Returns ``True`` if the document has been checked for spelling. |
+| [spellingChecked](./spellingChecked/) | Returns ``true`` if the document has been checked for spelling. |
 | [styles](../documentbase/styles/) | Returns a collection of styles defined in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [theme](./theme/) | Gets the [Document.theme](./theme/) object for this document. |
 | [trackRevisions](./trackRevisions/) | True if changes are tracked when this document is edited in Microsoft Word. |
@@ -164,7 +164,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkStart()](../node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/).<br>(Inherited from [Node](../node/)) |
 |[ asBuildingBlock()](../node/asBuildingBlock/#default) | Cast node to [BuildingBlock](../buildingblock/).<br>(Inherited from [Node](../node/)) |
-|[ asCell()](../node/asCell/#default) | Cast node to [Cell](../../Aspose.Words.Tables/cell/).<br>(Inherited from [Node](../node/)) |
+|[ asCell()](../node/asCell/#default) | Cast node to [Cell](../../aspose.words.tables/cell/).<br>(Inherited from [Node](../node/)) |
 |[ asComment()](../node/asComment/#default) | Cast node to [Comment](../comment/).<br>(Inherited from [Node](../node/)) |
 |[ asCommentRangeEnd()](../node/asCommentRangeEnd/#default) | Cast node to [CommentRangeEnd](../commentrangeend/).<br>(Inherited from [Node](../node/)) |
 |[ asCommentRangeStart()](../node/asCommentRangeStart/#default) | Cast node to [CommentRangeStart](../commentrangestart/).<br>(Inherited from [Node](../node/)) |
@@ -172,32 +172,32 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ asDocument()](../node/asDocument/#default) | Cast node to [Node.document](../node/document/).<br>(Inherited from [Node](../node/)) |
 |[ asEditableRangeEnd()](../node/asEditableRangeEnd/#default) | Cast node to [EditableRangeEnd](../editablerangeend/).<br>(Inherited from [Node](../node/)) |
 |[ asEditableRangeStart()](../node/asEditableRangeStart/#default) | Cast node to [EditableRangeStart](../editablerangestart/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldEnd()](../node/asFieldEnd/#default) | Cast node to [FieldEnd](../../Aspose.Words.Fields/fieldend/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldSeparator()](../node/asFieldSeparator/#default) | Cast node to [FieldSeparator](../../Aspose.Words.Fields/fieldseparator/).<br>(Inherited from [Node](../node/)) |
-|[ asFieldStart()](../node/asFieldStart/#default) | Cast node to [FieldStart](../../Aspose.Words.Fields/fieldstart/).<br>(Inherited from [Node](../node/)) |
-|[ asFootnote()](../node/asFootnote/#default) | Cast node to [Footnote](../../Aspose.Words.Notes/footnote/).<br>(Inherited from [Node](../node/)) |
-|[ asFormField()](../node/asFormField/#default) | Cast node to [FormField](../../Aspose.Words.Fields/formfield/).<br>(Inherited from [Node](../node/)) |
-|[ asGlossaryDocument()](../node/asGlossaryDocument/#default) | Cast node to [GlossaryDocument](../../Aspose.Words.BuildingBlocks/glossarydocument/).<br>(Inherited from [Node](../node/)) |
-|[ asGroupShape()](../node/asGroupShape/#default) | Cast node to [GroupShape](../../Aspose.Words.Drawing/groupshape/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldEnd()](../node/asFieldEnd/#default) | Cast node to [FieldEnd](../../aspose.words.fields/fieldend/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldSeparator()](../node/asFieldSeparator/#default) | Cast node to [FieldSeparator](../../aspose.words.fields/fieldseparator/).<br>(Inherited from [Node](../node/)) |
+|[ asFieldStart()](../node/asFieldStart/#default) | Cast node to [FieldStart](../../aspose.words.fields/fieldstart/).<br>(Inherited from [Node](../node/)) |
+|[ asFootnote()](../node/asFootnote/#default) | Cast node to [Footnote](../../aspose.words.notes/footnote/).<br>(Inherited from [Node](../node/)) |
+|[ asFormField()](../node/asFormField/#default) | Cast node to [FormField](../../aspose.words.fields/formfield/).<br>(Inherited from [Node](../node/)) |
+|[ asGlossaryDocument()](../node/asGlossaryDocument/#default) | Cast node to [GlossaryDocument](../../aspose.words.buildingblocks/glossarydocument/).<br>(Inherited from [Node](../node/)) |
+|[ asGroupShape()](../node/asGroupShape/#default) | Cast node to [GroupShape](../../aspose.words.drawing/groupshape/).<br>(Inherited from [Node](../node/)) |
 |[ asHeaderFooter()](../node/asHeaderFooter/#default) | Cast node to [HeaderFooter](../headerfooter/).<br>(Inherited from [Node](../node/)) |
-|[ asOfficeMath()](../node/asOfficeMath/#default) | Cast node to [OfficeMath](../../Aspose.Words.Math/officemath/).<br>(Inherited from [Node](../node/)) |
+|[ asOfficeMath()](../node/asOfficeMath/#default) | Cast node to [OfficeMath](../../aspose.words.math/officemath/).<br>(Inherited from [Node](../node/)) |
 |[ asParagraph()](../node/asParagraph/#default) | Cast node to [Paragraph](../paragraph/).<br>(Inherited from [Node](../node/)) |
-|[ asRow()](../node/asRow/#default) | Cast node to [Row](../../Aspose.Words.Tables/row/).<br>(Inherited from [Node](../node/)) |
+|[ asRow()](../node/asRow/#default) | Cast node to [Row](../../aspose.words.tables/row/).<br>(Inherited from [Node](../node/)) |
 |[ asRun()](../node/asRun/#default) | Cast node to [Run](../run/).<br>(Inherited from [Node](../node/)) |
 |[ asSection()](../node/asSection/#default) | Cast node to [Section](../section/).<br>(Inherited from [Node](../node/)) |
-|[ asShape()](../node/asShape/#default) | Cast node to [Shape](../../Aspose.Words.Drawing/shape/).<br>(Inherited from [Node](../node/)) |
-|[ asSmartTag()](../node/asSmartTag/#default) | Cast node to [SmartTag](../../Aspose.Words.Markup/smarttag/).<br>(Inherited from [Node](../node/)) |
+|[ asShape()](../node/asShape/#default) | Cast node to [Shape](../../aspose.words.drawing/shape/).<br>(Inherited from [Node](../node/)) |
+|[ asSmartTag()](../node/asSmartTag/#default) | Cast node to [SmartTag](../../aspose.words.markup/smarttag/).<br>(Inherited from [Node](../node/)) |
 |[ asSpecialChar()](../node/asSpecialChar/#default) | Cast node to [SpecialChar](../specialchar/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTag()](../node/asStructuredDocumentTag/#default) | Cast node to [StructuredDocumentTag](../../Aspose.Words.Markup/structureddocumenttag/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTagRangeEnd()](../node/asStructuredDocumentTagRangeEnd/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../Aspose.Words.Markup/structureddocumenttagrangeend/).<br>(Inherited from [Node](../node/)) |
-|[ asStructuredDocumentTagRangeStart()](../node/asStructuredDocumentTagRangeStart/#default) | Cast node to [StructuredDocumentTagRangeStart](../../Aspose.Words.Markup/structureddocumenttagrangestart/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTag()](../node/asStructuredDocumentTag/#default) | Cast node to [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTagRangeEnd()](../node/asStructuredDocumentTagRangeEnd/#default) | Cast node to [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/).<br>(Inherited from [Node](../node/)) |
+|[ asStructuredDocumentTagRangeStart()](../node/asStructuredDocumentTagRangeStart/#default) | Cast node to [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/).<br>(Inherited from [Node](../node/)) |
 |[ asSubDocument()](../node/asSubDocument/#default) | Cast node to [SubDocument](../subdocument/).<br>(Inherited from [Node](../node/)) |
 |[ asTable()](../node/asTable/#default) | Cast node to [Table](../table/).<br>(Inherited from [Node](../node/)) |
 |[ cleanup()](./cleanup/#default) | Cleans unused styles and lists from the document. |
 |[ cleanup(options)](./cleanup/#cleanupoptions) | Cleans unused styles and lists from the document depending on given [CleanupOptions](../cleanupoptions/). |
 |[ clone()](./clone/#default) | Performs a deep copy of the [Document](./). |
 |[ compare(document, author, dateTime)](./compare/#document_string_date) | Compares this document with another document producing changes as number of edit and format revisions [Revision](../revision/). |
-|[ compare(document, author, dateTime, options)](./compare/#document_string_date_compareoptions) | Compares this document with another document producing changes as a number of edit and format revisions [Revision](../revision/). Allows to specify comparison options using [CompareOptions](../../Aspose.Words.Comparing/compareoptions/). |
+|[ compare(document, author, dateTime, options)](./compare/#document_string_date_compareoptions) | Compares this document with another document producing changes as a number of edit and format revisions [Revision](../revision/). Allows to specify comparison options using [CompareOptions](../../aspose.words.comparing/compareoptions/). |
 |[ copyStylesFromTemplate(template)](./copyStylesFromTemplate/#string) | Copies styles from the specified template to a document. |
 |[ copyStylesFromTemplate(template)](./copyStylesFromTemplate/#document) | Copies styles from the specified template to a document. |
 |[ ensureMinimum()](./ensureMinimum/#default) | If the document contains no sections, creates one section with one paragraph. |
@@ -230,7 +230,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ joinRunsWithSameFormatting()](./joinRunsWithSameFormatting/#default) | Joins runs with same formatting in all paragraphs of the document. |
 |[ nextPreOrder(rootNode)](../node/nextPreOrder/#node) | Gets next node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../node/)) |
 |[ nodeTypeToString(nodeType)](../node/nodeTypeToString/#nodetype) | A utility method that converts a node type enum value into a user friendly string.<br>(Inherited from [Node](../node/)) |
-|[ normalizeFieldTypes()](./normalizeFieldTypes/#default) | Changes field type values [FieldChar.fieldType](../../Aspose.Words.Fields/fieldchar/fieldType/) of [FieldStart](../../Aspose.Words.Fields/fieldstart/), [FieldSeparator](../../Aspose.Words.Fields/fieldseparator/), [FieldEnd](../../Aspose.Words.Fields/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
+|[ normalizeFieldTypes()](./normalizeFieldTypes/#default) | Changes field type values [FieldChar.fieldType](../../aspose.words.fields/fieldchar/fieldType/) of [FieldStart](../../aspose.words.fields/fieldstart/), [FieldSeparator](../../aspose.words.fields/fieldseparator/), [FieldEnd](../../aspose.words.fields/fieldend/) in the whole document so that they correspond to the field types contained in the field codes. |
 |[ prependChild(newChild)](../compositenode/prependChild/#node) | Adds the specified node to the beginning of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ previousPreOrder(rootNode)](../node/previousPreOrder/#node) | Gets the previous node according to the pre-order tree traversal algorithm.<br>(Inherited from [Node](../node/)) |
 |[ protect(type)](./protect/#protectiontype) | Protects the document from changes without changing the existing password or assigns a random password. |
@@ -242,7 +242,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ removeChild(oldChild)](../compositenode/removeChild/#node) | Removes the specified child node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ removeExternalSchemaReferences()](./removeExternalSchemaReferences/#default) | Removes external XML schema references from this document. |
 |[ removeMacros()](./removeMacros/#default) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
-|[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../Aspose.Words.Markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ save(stream, saveFormat)](./save/#unknown_saveformat) |  |
 |[ save(stream, saveOptions)](./save/#unknown_saveoptions) |  |
 |[ save(fileName)](./save/#string) | Saves the document to a file. Automatically determines the save format from the extension. |
@@ -258,14 +258,14 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ unlinkFields()](./unlinkFields/#default) | Unlinks fields in the whole document. |
 |[ unprotect()](./unprotect/#default) | Removes protection from the document regardless of the password. |
 |[ unprotect(password)](./unprotect/#string) | Removes protection from the document if a correct password is specified. |
-|[ updateActualReferenceMarks()](./updateActualReferenceMarks/#default) | Updates the [Footnote.actualReferenceMark](../../Aspose.Words.Notes/footnote/actualReferenceMark/) property of all footnotes and endnotes in the document. |
+|[ updateActualReferenceMarks()](./updateActualReferenceMarks/#default) | Updates the [Footnote.actualReferenceMark](../../aspose.words.notes/footnote/actualReferenceMark/) property of all footnotes and endnotes in the document. |
 |[ updateFields()](./updateFields/#default) | Updates the values of fields in the whole document. |
 |[ updateListLabels()](./updateListLabels/#default) | Updates list labels for all list items in the document. |
 |[ updatePageLayout()](./updatePageLayout/#default) | Rebuilds the page layout of the document. |
-|[ updateThumbnail(options)](./updateThumbnail/#thumbnailgeneratingoptions) | Updates [BuiltInDocumentProperties.thumbnail](../../Aspose.Words.Properties/builtindocumentproperties/thumbnail/) of the document according to the specified options. |
-|[ updateThumbnail()](./updateThumbnail/#default) | Updates [BuiltInDocumentProperties.thumbnail](../../Aspose.Words.Properties/builtindocumentproperties/thumbnail/) of the document using default options. |
+|[ updateThumbnail(options)](./updateThumbnail/#thumbnailgeneratingoptions) | Updates [BuiltInDocumentProperties.thumbnail](../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document according to the specified options. |
+|[ updateThumbnail()](./updateThumbnail/#default) | Updates [BuiltInDocumentProperties.thumbnail](../../aspose.words.properties/builtindocumentproperties/thumbnail/) of the document using default options. |
 |[ updateWordCount()](./updateWordCount/#default) | Updates word count properties of the document. |
-|[ updateWordCount(updateLinesCount)](./updateWordCount/#boolean) | Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.lines](../../Aspose.Words.Properties/builtindocumentproperties/lines/) property. |
+|[ updateWordCount(updateLinesCount)](./updateWordCount/#boolean) | Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.lines](../../aspose.words.properties/builtindocumentproperties/lines/) property. |
 
 ### Examples
 

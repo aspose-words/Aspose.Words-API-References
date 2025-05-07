@@ -2,11 +2,11 @@
 title: ChartLegend.legendEntries property
 linktitle: legendEntries property
 articleTitle: legendEntries property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartLegend.legendEntries property. Returns a collection of legend entries for all series and trendlines of the parent chart."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegend/legendEntries/
+url: /nodejs-net/aspose.words.drawing.charts/chartlegend/legendEntries/
 ---
 
 ## ChartLegend.legendEntries property

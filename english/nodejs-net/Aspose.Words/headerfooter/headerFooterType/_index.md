@@ -2,11 +2,11 @@
 title: HeaderFooter.headerFooterType property
 linktitle: headerFooterType property
 articleTitle: headerFooterType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HeaderFooter.headerFooterType property. Gets the type of this header/footer."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/headerfooter/headerFooterType/
+url: /nodejs-net/aspose.words/headerfooter/headerFooterType/
 ---
 
 ## HeaderFooter.headerFooterType property

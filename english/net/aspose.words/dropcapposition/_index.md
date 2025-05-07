@@ -5,7 +5,7 @@ articleTitle: DropCapPosition
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.DropCapPosition enum to enhance your document design by defining unique drop cap text positions for impactful visual appeal.
 type: docs
-weight: 1810
+weight: 1820
 url: /net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration

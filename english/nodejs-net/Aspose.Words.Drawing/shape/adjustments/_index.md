@@ -2,11 +2,11 @@
 title: Shape.adjustments property
 linktitle: adjustments property
 articleTitle: adjustments property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.adjustments property. Provides access to the adjustment raw values of a shape"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/shape/adjustments/
+url: /nodejs-net/aspose.words.drawing/shape/adjustments/
 ---
 
 ## Shape.adjustments property

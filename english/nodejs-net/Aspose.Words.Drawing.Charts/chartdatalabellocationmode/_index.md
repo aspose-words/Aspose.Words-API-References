@@ -2,11 +2,11 @@
 title: ChartDataLabelLocationMode enumeration
 linktitle: ChartDataLabelLocationMode enumeration
 articleTitle: ChartDataLabelLocationMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartDataLabelLocationMode enumeration. Specifies how the values ​​that specify the location of a data label - the [ChartDataLabel.left](../chartdatalabel/left/) and [ChartDataLabel.top](../chartdatalabel/top/) properties - are interpreted."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabellocationmode/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabellocationmode/
 ---
 
 ## ChartDataLabelLocationMode enumeration

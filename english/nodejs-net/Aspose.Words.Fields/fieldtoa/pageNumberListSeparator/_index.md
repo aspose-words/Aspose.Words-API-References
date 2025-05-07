@@ -2,11 +2,11 @@
 title: FieldToa.pageNumberListSeparator property
 linktitle: pageNumberListSeparator property
 articleTitle: pageNumberListSeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldToa.pageNumberListSeparator property. Gets or sets the character sequence that is used to separate two page numbers in a page number list."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/fieldtoa/pageNumberListSeparator/
+url: /nodejs-net/aspose.words.fields/fieldtoa/pageNumberListSeparator/
 ---
 
 ## FieldToa.pageNumberListSeparator property

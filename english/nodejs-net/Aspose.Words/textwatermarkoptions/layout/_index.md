@@ -2,11 +2,11 @@
 title: TextWatermarkOptions.layout property
 linktitle: layout property
 articleTitle: layout property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextWatermarkOptions.layout property. Gets or sets layout of the watermark"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words/textwatermarkoptions/layout/
+url: /nodejs-net/aspose.words/textwatermarkoptions/layout/
 ---
 
 ## TextWatermarkOptions.layout property

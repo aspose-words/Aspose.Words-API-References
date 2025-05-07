@@ -2,11 +2,11 @@
 title: DocumentBase.lists property
 linktitle: lists property
 articleTitle: lists property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBase.lists property. Provides access to the list formatting used in the document."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/documentbase/lists/
+url: /nodejs-net/aspose.words/documentbase/lists/
 ---
 
 ## DocumentBase.lists property
@@ -20,7 +20,7 @@ get lists(): Aspose.Words.Lists.ListCollection
 
 ### Remarks
 
-For more information see the description of the [ListCollection](../../../Aspose.Words.Lists/listcollection/) class.
+For more information see the description of the [ListCollection](../../../aspose.words.lists/listcollection/) class.
 
 
 
@@ -79,7 +79,7 @@ doc.save(base.artifactsDir + "Lists.SpecifyListLevel.docx");
 
 * module [Aspose.Words](../../)
 * class [DocumentBase](../)
-* class [ListCollection](../../../Aspose.Words.Lists/listcollection/)
+* class [ListCollection](../../../aspose.words.lists/listcollection/)
 * class [List](../../list/)
-* class [ListFormat](../../../Aspose.Words.Lists/listformat/)
+* class [ListFormat](../../../aspose.words.lists/listformat/)
 

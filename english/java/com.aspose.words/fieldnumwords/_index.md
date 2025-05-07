@@ -4,7 +4,7 @@ linktitle: FieldNumWords
 second_title: Aspose.Words for Java
 description: Implements the NUMWORDS field in Java.
 type: docs
-weight: 263
+weight: 265
 url: /java/com.aspose.words/fieldnumwords/
 ---
 

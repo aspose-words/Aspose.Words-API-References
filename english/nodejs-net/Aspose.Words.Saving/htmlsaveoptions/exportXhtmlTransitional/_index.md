@@ -2,18 +2,18 @@
 title: HtmlSaveOptions.exportXhtmlTransitional property
 linktitle: exportXhtmlTransitional property
 articleTitle: exportXhtmlTransitional property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.exportXhtmlTransitional property. Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML"
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/exportXhtmlTransitional/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/exportXhtmlTransitional/
 ---
 
 ## HtmlSaveOptions.exportXhtmlTransitional property
 
 Specifies whether to write the DOCTYPE declaration when saving to HTML or MHTML.
-When ``True``, writes a DOCTYPE declaration in the document prior to the root element. 
-Default value is ``False``.
+When ``true``, writes a DOCTYPE declaration in the document prior to the root element. 
+Default value is ``false``.
 When saving to EPUB or HTML5 ([HtmlVersion.Html5](../../htmlversion/#Html5)) the DOCTYPE
 declaration is always written.
 
@@ -27,7 +27,7 @@ get exportXhtmlTransitional(): boolean
 
 Aspose.Words always writes well formed HTML regardless of this setting.
 
-When ``True``, the beginning of the HTML output document will look like this:
+When ``true``, the beginning of the HTML output document will look like this:
 
 ```
 

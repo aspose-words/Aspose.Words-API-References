@@ -2,11 +2,11 @@
 title: HtmlFixedPageHorizontalAlignment enumeration
 linktitle: HtmlFixedPageHorizontalAlignment enumeration
 articleTitle: HtmlFixedPageHorizontalAlignment enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment enumeration. Specifies the horizontal alignment for pages in output HTML document."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words.Saving/htmlfixedpagehorizontalalignment/
+url: /nodejs-net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 
 ## HtmlFixedPageHorizontalAlignment enumeration

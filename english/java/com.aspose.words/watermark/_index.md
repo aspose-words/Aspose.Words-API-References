@@ -4,7 +4,7 @@ linktitle: Watermark
 second_title: Aspose.Words for Java
 description: Represents class to work with document watermark in Java.
 type: docs
-weight: 696
+weight: 707
 url: /java/com.aspose.words/watermark/
 ---
 
@@ -58,6 +58,7 @@ Shows how to create a text watermark.
 | [remove()](#remove) | Removes the watermark. |
 | [setImage(BufferedImage image)](#setImage-java.awt.image.BufferedImage) | Adds Image watermark into the document. |
 | [setImage(BufferedImage image, ImageWatermarkOptions options)](#setImage-java.awt.image.BufferedImage-com.aspose.words.ImageWatermarkOptions) | Adds Image watermark into the document. |
+| [setImage(InputStream imageStream, ImageWatermarkOptions options)](#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions) | Adds Image watermark into the document. |
 | [setImage(String imagePath, ImageWatermarkOptions options)](#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions) | Adds Image watermark into the document. |
 | [setText(String text)](#setText-java.lang.String) | Adds Text watermark into the document. |
 | [setText(String text, TextWatermarkOptions options)](#setText-java.lang.String-com.aspose.words.TextWatermarkOptions) | Adds Text watermark into the document. |
@@ -164,6 +165,20 @@ Adds Image watermark into the document.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | image | java.awt.image.BufferedImage | Image that is displayed as a watermark. |
+| options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) | Defines additional options for the image watermark. |
+
+### setImage(InputStream imageStream, ImageWatermarkOptions options) {#setImage-java.io.InputStream-com.aspose.words.ImageWatermarkOptions}
+```
+public void setImage(InputStream imageStream, ImageWatermarkOptions options)
+```
+
+
+Adds Image watermark into the document.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| imageStream | java.io.InputStream | The stream containing the image data that is displayed as a watermark. |
 | options | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) | Defines additional options for the image watermark. |
 
 ### setImage(String imagePath, ImageWatermarkOptions options) {#setImage-java.lang.String-com.aspose.words.ImageWatermarkOptions}

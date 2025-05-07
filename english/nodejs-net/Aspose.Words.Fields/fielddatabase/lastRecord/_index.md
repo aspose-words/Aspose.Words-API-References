@@ -2,11 +2,11 @@
 title: FieldDatabase.lastRecord property
 linktitle: lastRecord property
 articleTitle: lastRecord property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldDatabase.lastRecord property. Gets or sets the integral record number of the last data record to insert."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fielddatabase/lastRecord/
+url: /nodejs-net/aspose.words.fields/fielddatabase/lastRecord/
 ---
 
 ## FieldDatabase.lastRecord property

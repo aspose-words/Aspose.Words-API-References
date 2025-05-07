@@ -2,11 +2,11 @@
 title: Revision.reject method
 linktitle: reject method
 articleTitle: reject method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Revision.reject method. Reject this revision."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/revision/reject/
+url: /nodejs-net/aspose.words/revision/reject/
 ---
 
 ## reject() {#default}

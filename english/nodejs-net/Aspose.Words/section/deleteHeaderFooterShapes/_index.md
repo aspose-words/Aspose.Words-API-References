@@ -2,11 +2,11 @@
 title: Section.deleteHeaderFooterShapes method
 linktitle: deleteHeaderFooterShapes method
 articleTitle: deleteHeaderFooterShapes method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Section.deleteHeaderFooterShapes method. Deletes all shapes (drawing objects) from the headers and footers of this section."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/section/deleteHeaderFooterShapes/
+url: /nodejs-net/aspose.words/section/deleteHeaderFooterShapes/
 ---
 
 ## deleteHeaderFooterShapes() {#default}

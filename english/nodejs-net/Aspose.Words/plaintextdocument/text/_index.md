@@ -2,11 +2,11 @@
 title: PlainTextDocument.text property
 linktitle: text property
 articleTitle: text property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PlainTextDocument.text property. Gets textual content of the document concatenated as a string."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/plaintextdocument/text/
+url: /nodejs-net/aspose.words/plaintextdocument/text/
 ---
 
 ## PlainTextDocument.text property

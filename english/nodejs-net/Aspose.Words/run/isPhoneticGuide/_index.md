@@ -2,11 +2,11 @@
 title: Run.isPhoneticGuide property
 linktitle: isPhoneticGuide property
 articleTitle: isPhoneticGuide property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Run.isPhoneticGuide property. Gets a boolean value indicating either the run is a phonetic guide."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/run/isPhoneticGuide/
+url: /nodejs-net/aspose.words/run/isPhoneticGuide/
 ---
 
 ## Run.isPhoneticGuide property

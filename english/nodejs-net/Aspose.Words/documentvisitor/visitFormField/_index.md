@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitFormField method
 linktitle: visitFormField method
 articleTitle: visitFormField method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitFormField method. Called when a form field is encountered in the document."
 type: docs
 weight: 230
-url: /nodejs-net/Aspose.Words/documentvisitor/visitFormField/
+url: /nodejs-net/aspose.words/documentvisitor/visitFormField/
 ---
 
 ## visitFormField(formField) {#formfield}
@@ -20,7 +20,7 @@ visitFormField(formField: Aspose.Words.Fields.FormField)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| formField | [FormField](../../../Aspose.Words.Fields/formfield/) | The object that is being visited. |
+| formField | [FormField](../../../aspose.words.fields/formfield/) | The object that is being visited. |
 
 ### Returns
 

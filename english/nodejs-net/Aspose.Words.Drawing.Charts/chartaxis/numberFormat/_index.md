@@ -2,11 +2,11 @@
 title: ChartAxis.numberFormat property
 linktitle: numberFormat property
 articleTitle: numberFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.numberFormat property. Returns a [ChartNumberFormat](../../chartnumberformat/) object that allows defining number formats for the axis."
 type: docs
 weight: 200
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/numberFormat/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/numberFormat/
 ---
 
 ## ChartAxis.numberFormat property

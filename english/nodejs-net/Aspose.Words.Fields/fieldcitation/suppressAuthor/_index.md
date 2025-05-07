@@ -2,11 +2,11 @@
 title: FieldCitation.suppressAuthor property
 linktitle: suppressAuthor property
 articleTitle: suppressAuthor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldCitation.suppressAuthor property. Gets or sets whether the author information is suppressed from the citation."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/fieldcitation/suppressAuthor/
+url: /nodejs-net/aspose.words.fields/fieldcitation/suppressAuthor/
 ---
 
 ## FieldCitation.suppressAuthor property

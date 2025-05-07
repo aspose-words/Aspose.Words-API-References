@@ -2,11 +2,11 @@
 title: ShapeBase.font property
 linktitle: font property
 articleTitle: font property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ShapeBase.font property. Provides access to the font formatting of this object."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words.Drawing/shapebase/font/
+url: /nodejs-net/aspose.words.drawing/shapebase/font/
 ---
 
 ## ShapeBase.font property

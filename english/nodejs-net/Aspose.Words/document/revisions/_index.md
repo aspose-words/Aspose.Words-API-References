@@ -2,11 +2,11 @@
 title: Document.revisions property
 linktitle: revisions property
 articleTitle: revisions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.revisions property. Gets a collection of revisions (tracked changes) that exist in this document."
 type: docs
 weight: 350
-url: /nodejs-net/Aspose.Words/document/revisions/
+url: /nodejs-net/aspose.words/document/revisions/
 ---
 
 ## Document.revisions property

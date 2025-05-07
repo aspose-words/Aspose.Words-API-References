@@ -29,7 +29,7 @@ def css_style_sheet_file_name(self, value: str):
 
 ### Remarks
 
-This property has effect only when saving a document to HTML format 
+This property has effect only when saving a document to HTML format
 and external CSS style sheet is requested using [HtmlSaveOptions.css_style_sheet_type](../css_style_sheet_type/).
 
 If this property is empty, the CSS file will be saved into the same folder and with the same name as the HTML

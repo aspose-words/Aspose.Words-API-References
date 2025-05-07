@@ -2,11 +2,11 @@
 title: Field.asFieldImport method
 linktitle: asFieldImport method
 articleTitle: asFieldImport method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Field.asFieldImport method. "
 type: docs
 weight: 530
-url: /nodejs-net/Aspose.Words/field/asFieldImport/
+url: /nodejs-net/aspose.words/field/asFieldImport/
 ---
 
 ## asFieldImport() {#default}

@@ -2,11 +2,11 @@
 title: Table.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.nodeType property. Returns [NodeType.Table](../../nodetype/#Table)."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words/table/nodeType/
+url: /nodejs-net/aspose.words/table/nodeType/
 ---
 
 ## Table.nodeType property

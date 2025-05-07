@@ -2,11 +2,11 @@
 title: TxtListIndentation constructor
 linktitle: TxtListIndentation constructor
 articleTitle: TxtListIndentation constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtListIndentation constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/txtlistindentation/constructor/
+url: /nodejs-net/aspose.words.saving/txtlistindentation/constructor/
 ---
 
 ## TxtListIndentation() {#default}

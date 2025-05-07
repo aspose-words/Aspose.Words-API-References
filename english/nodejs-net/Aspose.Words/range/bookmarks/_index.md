@@ -2,11 +2,11 @@
 title: Range.bookmarks property
 linktitle: bookmarks property
 articleTitle: bookmarks property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Range.bookmarks property. Returns a [Range.bookmarks](./) collection that represents all bookmarks in the range."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/range/bookmarks/
+url: /nodejs-net/aspose.words/range/bookmarks/
 ---
 
 ## Range.bookmarks property

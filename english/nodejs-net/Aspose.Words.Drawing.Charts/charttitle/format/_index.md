@@ -2,11 +2,11 @@
 title: ChartTitle.format property
 linktitle: format property
 articleTitle: format property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartTitle.format property. Provides access to fill and line formatting of the chart title."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/charttitle/format/
+url: /nodejs-net/aspose.words.drawing.charts/charttitle/format/
 ---
 
 ## ChartTitle.format property

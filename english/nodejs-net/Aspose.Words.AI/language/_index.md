@@ -2,11 +2,11 @@
 title: Language enumeration
 linktitle: Language enumeration
 articleTitle: Language enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.Language enumeration. Specifies the language into which the text will be translated using AI"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.AI/language/
+url: /nodejs-net/aspose.words.ai/language/
 ---
 
 ## Language enumeration

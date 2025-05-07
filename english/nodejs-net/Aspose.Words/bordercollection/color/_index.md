@@ -2,11 +2,11 @@
 title: BorderCollection.color property
 linktitle: color property
 articleTitle: color property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BorderCollection.color property. Gets or sets the border color."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/bordercollection/color/
+url: /nodejs-net/aspose.words/bordercollection/color/
 ---
 
 ## BorderCollection.color property

@@ -2,11 +2,11 @@
 title: FormField.entryMacro property
 linktitle: entryMacro property
 articleTitle: entryMacro property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.entryMacro property. Returns or sets an entry macro name for the form field."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Fields/formfield/entryMacro/
+url: /nodejs-net/aspose.words.fields/formfield/entryMacro/
 ---
 
 ## FormField.entryMacro property

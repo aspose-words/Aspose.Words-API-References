@@ -2,11 +2,11 @@
 title: CommentRangeStart constructor
 linktitle: CommentRangeStart constructor
 articleTitle: CommentRangeStart constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CommentRangeStart constructor. Initializes a new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/commentrangestart/constructor/
+url: /nodejs-net/aspose.words/commentrangestart/constructor/
 ---
 
 ## CommentRangeStart(doc, id) {#documentbase_number}
@@ -15,7 +15,7 @@ Initializes a new instance of this class.
 
 
 ```js
-CommentRangeStart(doc: Aspose.Words.DocumentBaseid: number)
+CommentRangeStart(doc: Aspose.Words.DocumentBase, id: number)
 ```
 
 | Parameter | Type | Description |
@@ -26,7 +26,7 @@ CommentRangeStart(doc: Aspose.Words.DocumentBaseid: number)
 ### Remarks
 
 When [CommentRangeStart](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../node/parentNode/) is ``null``.
 
 To append a [CommentRangeStart](../) to the document use InsertAfter or InsertBefore
 on the paragraph where you want the comment inserted.

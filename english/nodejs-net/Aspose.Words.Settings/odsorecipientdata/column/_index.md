@@ -2,11 +2,11 @@
 title: OdsoRecipientData.column property
 linktitle: column property
 articleTitle: column property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OdsoRecipientData.column property. Specifies the column within the data source that contains unique data for the current record"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Settings/odsorecipientdata/column/
+url: /nodejs-net/aspose.words.settings/odsorecipientdata/column/
 ---
 
 ## OdsoRecipientData.column property

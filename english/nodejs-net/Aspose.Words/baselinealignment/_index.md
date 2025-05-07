@@ -2,11 +2,11 @@
 title: BaselineAlignment enumeration
 linktitle: BaselineAlignment enumeration
 articleTitle: BaselineAlignment enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.BaselineAlignment enumeration. Specifies fonts vertical position on a line."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/baselinealignment/
+url: /nodejs-net/aspose.words/baselinealignment/
 ---
 
 ## BaselineAlignment enumeration

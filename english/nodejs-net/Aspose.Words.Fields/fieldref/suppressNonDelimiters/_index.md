@@ -2,11 +2,11 @@
 title: FieldRef.suppressNonDelimiters property
 linktitle: suppressNonDelimiters property
 articleTitle: suppressNonDelimiters property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldRef.suppressNonDelimiters property. Gets or sets whether to suppress non-delimiter characters."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Fields/fieldref/suppressNonDelimiters/
+url: /nodejs-net/aspose.words.fields/fieldref/suppressNonDelimiters/
 ---
 
 ## FieldRef.suppressNonDelimiters property

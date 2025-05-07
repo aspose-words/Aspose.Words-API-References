@@ -2,11 +2,11 @@
 title: CssSavingArgs.keepCssStreamOpen property
 linktitle: keepCssStreamOpen property
 articleTitle: keepCssStreamOpen property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CssSavingArgs.keepCssStreamOpen property. Specifies whether Aspose.Words should keep the stream open or close it after saving an CSS information."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/csssavingargs/keepCssStreamOpen/
+url: /nodejs-net/aspose.words.saving/csssavingargs/keepCssStreamOpen/
 ---
 
 ## CssSavingArgs.keepCssStreamOpen property
@@ -20,9 +20,9 @@ get keepCssStreamOpen(): boolean
 
 ### Remarks
 
-Default is ``False`` and Aspose.Words will close the stream you provided
+Default is ``false`` and Aspose.Words will close the stream you provided
 in the Aspose.Words.Saving.CssSavingArgs.CssStream property after writing an CSS information into it.
-Specify ``True`` to keep the stream open.
+Specify ``true`` to keep the stream open.
 
 
 

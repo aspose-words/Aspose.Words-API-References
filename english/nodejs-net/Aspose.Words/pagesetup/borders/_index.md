@@ -2,11 +2,11 @@
 title: PageSetup.borders property
 linktitle: borders property
 articleTitle: borders property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.borders property. Gets a collection of the page borders."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/pagesetup/borders/
+url: /nodejs-net/aspose.words/pagesetup/borders/
 ---
 
 ## PageSetup.borders property

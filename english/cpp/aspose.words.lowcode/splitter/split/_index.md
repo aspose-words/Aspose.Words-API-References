@@ -33,11 +33,18 @@ static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::Lo
 ## Splitter::Split(const System::SharedPtr\<System::IO::Stream\>\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\>\&) method
 
 
-
+Splits a document from an input stream into multiple parts based on the specified split options and returns the resulting parts as an array of streams in the specified save format.
 
 ```cpp
 static System::ArrayPtr<System::SharedPtr<System::IO::Stream>> Aspose::Words::LowCode::Splitter::Split(const System::SharedPtr<System::IO::Stream> &inputStream, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<Aspose::Words::LowCode::SplitOptions> &options)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputStream | const System::SharedPtr\<System::IO::Stream\>\& | The input stream. |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| options | const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\>\& | [Document](../../../aspose.words/document/) split options. |
 
 ## See Also
 
@@ -95,11 +102,19 @@ static void Aspose::Words::LowCode::Splitter::Split(const System::String &inputF
 ## Splitter::Split(const System::String\&, const System::String\&, const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&, const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\>\&) method
 
 
-
+Splits a document into multiple parts based on the specified split options and saves the resulting parts to files in the specified save format.
 
 ```cpp
 static void Aspose::Words::LowCode::Splitter::Split(const System::String &inputFileName, const System::String &outputFileName, const System::SharedPtr<Aspose::Words::Saving::SaveOptions> &saveOptions, const System::SharedPtr<Aspose::Words::LowCode::SplitOptions> &options)
 ```
+
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| inputFileName | const System::String\& | The input file name. |
+| outputFileName | const System::String\& | The output file name used to generate file name for document parts using rule "outputFile_partIndex.extension" |
+| saveOptions | const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\& | The save options. |
+| options | const System::SharedPtr\<Aspose::Words::LowCode::SplitOptions\>\& | [Document](../../../aspose.words/document/) split options. |
 
 ## See Also
 

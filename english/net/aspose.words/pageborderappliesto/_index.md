@@ -5,7 +5,7 @@ articleTitle: PageBorderAppliesTo
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PageBorderAppliesTo enum to control page border printing across specific pages for enhanced document formatting.
 type: docs
-weight: 4930
+weight: 5070
 url: /net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration

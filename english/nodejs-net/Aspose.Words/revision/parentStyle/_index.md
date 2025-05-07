@@ -2,11 +2,11 @@
 title: Revision.parentStyle property
 linktitle: parentStyle property
 articleTitle: parentStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Revision.parentStyle property. Gets the immediate parent style (owner) of this revision"
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/revision/parentStyle/
+url: /nodejs-net/aspose.words/revision/parentStyle/
 ---
 
 ## Revision.parentStyle property

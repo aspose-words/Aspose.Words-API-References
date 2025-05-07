@@ -2,11 +2,11 @@
 title: FieldSymbol constructor
 linktitle: FieldSymbol constructor
 articleTitle: FieldSymbol constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSymbol constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldsymbol/constructor/
+url: /nodejs-net/aspose.words.fields/fieldsymbol/constructor/
 ---
 
 ## FieldSymbol() {#default}

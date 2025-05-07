@@ -2,11 +2,11 @@
 title: Range.updateFields method
 linktitle: updateFields method
 articleTitle: updateFields method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Range.updateFields method. Updates the values of document fields in this range."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/range/updateFields/
+url: /nodejs-net/aspose.words/range/updateFields/
 ---
 
 ## updateFields() {#default}

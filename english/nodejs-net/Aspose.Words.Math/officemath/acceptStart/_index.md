@@ -2,11 +2,11 @@
 title: OfficeMath.acceptStart method
 linktitle: acceptStart method
 articleTitle: acceptStart method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OfficeMath.acceptStart method. Accepts a visitor for visiting the start of the office math."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Math/officemath/acceptStart/
+url: /nodejs-net/aspose.words.math/officemath/acceptStart/
 ---
 
 ## acceptStart(visitor) {#documentvisitor}
@@ -20,7 +20,7 @@ acceptStart(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The document visitor. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The document visitor. |
 
 ### Returns
 

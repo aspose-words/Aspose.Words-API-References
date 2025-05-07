@@ -2,11 +2,11 @@
 title: ResourceLoadingArgs.uri property
 linktitle: uri property
 articleTitle: uri property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ResourceLoadingArgs.uri property. URI of the resource which is used for downloading if [IResourceLoadingCallback.resourceLoading()](../../iresourceloadingcallback/resourceLoading/#resourceloadingargs) returns [ResourceLoadingAction.Default](../../resourceloadingaction/#Default)."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Loading/resourceloadingargs/uri/
+url: /nodejs-net/aspose.words.loading/resourceloadingargs/uri/
 ---
 
 ## ResourceLoadingArgs.uri property

@@ -2,14 +2,14 @@
 title: Aspose.Words.Drawing module
 linktitle: Aspose.Words.Drawing module
 articleTitle: Aspose.Words.Drawing module
-second_title: Aspose.Words for NodeJs
-description: "The aspose.words.drawing module provides classes that allow to create and modify drawing objects."
+second_title: Aspose.Words for Node.js
+description: "The Aspose.Words.Drawing module provides classes that allow to create and modify drawing objects."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Drawing/
+url: /nodejs-net/aspose.words.drawing/
 ---
 
-The **aspose.words.drawing** module provides classes that allow to create and modify drawing objects.
+The **Aspose.Words.Drawing** module provides classes that allow to create and modify drawing objects.
 
 
 All drawing objects in Microsoft Word documents are represented by instances of the [Shape](./shape/) and [GroupShape](./groupshape/) classes.

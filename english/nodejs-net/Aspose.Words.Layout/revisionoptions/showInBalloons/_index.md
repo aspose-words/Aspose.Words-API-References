@@ -2,11 +2,11 @@
 title: RevisionOptions.showInBalloons property
 linktitle: showInBalloons property
 articleTitle: showInBalloons property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RevisionOptions.showInBalloons property. Allows to specify whether the revisions are rendered in the balloons"
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Layout/revisionoptions/showInBalloons/
+url: /nodejs-net/aspose.words.layout/revisionoptions/showInBalloons/
 ---
 
 ## RevisionOptions.showInBalloons property

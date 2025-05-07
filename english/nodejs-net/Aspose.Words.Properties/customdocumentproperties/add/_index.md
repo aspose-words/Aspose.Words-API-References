@@ -2,11 +2,11 @@
 title: CustomDocumentProperties.add method
 linktitle: add method
 articleTitle: add method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Properties.CustomDocumentProperties.add method"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Properties/customdocumentproperties/add/
+url: /nodejs-net/aspose.words.properties/customdocumentproperties/add/
 ---
 
 ## add(name, value) {#string_string}
@@ -16,7 +16,7 @@ Creates a new custom document property of the [PropertyType.String](../../proper
 
 
 ```js
-add(name: stringvalue: string)
+add(name: string, value: string)
 ```
 
 | Parameter | Type | Description |
@@ -36,7 +36,7 @@ Creates a new custom document property of the [PropertyType.Number](../../proper
 
 
 ```js
-add(name: stringvalue: number)
+add(name: string, value: number)
 ```
 
 | Parameter | Type | Description |
@@ -56,7 +56,7 @@ Creates a new custom document property of the [PropertyType.DateTime](../../prop
 
 
 ```js
-add(name: stringvalue: Date)
+add(name: string, value: Date)
 ```
 
 | Parameter | Type | Description |
@@ -76,7 +76,7 @@ Creates a new custom document property of the [PropertyType.Boolean](../../prope
 
 
 ```js
-add(name: stringvalue: boolean)
+add(name: string, value: boolean)
 ```
 
 | Parameter | Type | Description |
@@ -96,7 +96,7 @@ Creates a new custom document property of the [PropertyType.Double](../../proper
 
 
 ```js
-add(name: stringvalue: number)
+add(name: string, value: number)
 ```
 
 | Parameter | Type | Description |

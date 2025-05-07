@@ -2,11 +2,11 @@
 title: ChartDataLabel.top property
 linktitle: top property
 articleTitle: top property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.top property. Gets or sets the distance of the data label in points from the top edge of the chart or from the position specified by its [ChartDataLabel.position](../position/) property, depending on the value of the [ChartDataLabel.topMode](../topMode/) property."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/top/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/top/
 ---
 
 ## ChartDataLabel.top property

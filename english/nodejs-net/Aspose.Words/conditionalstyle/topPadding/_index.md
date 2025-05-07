@@ -2,11 +2,11 @@
 title: ConditionalStyle.topPadding property
 linktitle: topPadding property
 articleTitle: topPadding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.topPadding property. Gets or sets the amount of space (in points) to add above the contents of table cells."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/conditionalstyle/topPadding/
+url: /nodejs-net/aspose.words/conditionalstyle/topPadding/
 ---
 
 ## ConditionalStyle.topPadding property

@@ -2,11 +2,11 @@
 title: FieldChar.getField method
 linktitle: getField method
 articleTitle: getField method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldChar.getField method. Returns a field for the field char."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fields/fieldchar/getField/
+url: /nodejs-net/aspose.words.fields/fieldchar/getField/
 ---
 
 ## getField() {#default}
@@ -20,7 +20,7 @@ getField()
 
 ### Remarks
 
-A new [Field](../../../Aspose.Words/field/) object is created each time the method is called.
+A new [Field](../../../aspose.words/field/) object is created each time the method is called.
 
 
 

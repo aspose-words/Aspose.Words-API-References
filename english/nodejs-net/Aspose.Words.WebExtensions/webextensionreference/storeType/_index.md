@@ -2,11 +2,11 @@
 title: WebExtensionReference.storeType property
 linktitle: storeType property
 articleTitle: storeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtensionReference.storeType property. Specifies the type of marketplace."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.WebExtensions/webextensionreference/storeType/
+url: /nodejs-net/aspose.words.webextensions/webextensionreference/storeType/
 ---
 
 ## WebExtensionReference.storeType property

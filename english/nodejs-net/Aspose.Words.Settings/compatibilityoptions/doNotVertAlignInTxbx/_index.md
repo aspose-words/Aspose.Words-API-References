@@ -2,11 +2,11 @@
 title: CompatibilityOptions.doNotVertAlignInTxbx property
 linktitle: doNotVertAlignInTxbx property
 articleTitle: doNotVertAlignInTxbx property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.doNotVertAlignInTxbx property. Ignore Vertical Alignment in Textboxes."
 type: docs
 weight: 240
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/doNotVertAlignInTxbx/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/doNotVertAlignInTxbx/
 ---
 
 ## CompatibilityOptions.doNotVertAlignInTxbx property

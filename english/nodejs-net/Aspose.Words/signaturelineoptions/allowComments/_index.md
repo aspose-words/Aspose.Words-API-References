@@ -2,17 +2,17 @@
 title: SignatureLineOptions.allowComments property
 linktitle: allowComments property
 articleTitle: allowComments property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignatureLineOptions.allowComments property. Gets or sets a value indicating that the signer can add comments in the Sign dialog"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/signaturelineoptions/allowComments/
+url: /nodejs-net/aspose.words/signaturelineoptions/allowComments/
 ---
 
 ## SignatureLineOptions.allowComments property
 
 Gets or sets a value indicating that the signer can add comments in the Sign dialog.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
 
 

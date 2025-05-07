@@ -2,11 +2,11 @@
 title: JSImage class
 linktitle: JSImage class
 articleTitle: JSImage class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.JSImage class. "
 type: docs
 weight: 670
-url: /nodejs-net/Aspose.Words/jsimage/
+url: /nodejs-net/aspose.words/jsimage/
 ---
 
 ## JSImage class

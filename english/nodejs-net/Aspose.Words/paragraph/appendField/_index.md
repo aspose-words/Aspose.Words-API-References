@@ -2,11 +2,11 @@
 title: Paragraph.appendField method
 linktitle: appendField method
 articleTitle: appendField method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Paragraph.appendField method"
 type: docs
 weight: 260
-url: /nodejs-net/Aspose.Words/paragraph/appendField/
+url: /nodejs-net/aspose.words/paragraph/appendField/
 ---
 
 ## appendField(fieldType, updateField) {#fieldtype_boolean}
@@ -15,12 +15,12 @@ Appends a field to this paragraph.
 
 
 ```js
-appendField(fieldType: Aspose.Words.Fields.FieldTypeupdateField: boolean)
+appendField(fieldType: Aspose.Words.Fields.FieldType, updateField: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fieldType | [FieldType](../../../Aspose.Words.Fields/fieldtype/) | The type of the field to append. |
+| fieldType | [FieldType](../../../aspose.words.fields/fieldtype/) | The type of the field to append. |
 | updateField | boolean | Specifies whether to update the field immediately. |
 
 ### Returns
@@ -52,13 +52,13 @@ Appends a field to this paragraph.
 
 
 ```js
-appendField(fieldCode: stringfieldValue: string)
+appendField(fieldCode: string, fieldValue: string)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldCode | string | The field code to append (without curly braces). |
-| fieldValue | string | The field value to append. Pass ``None`` for fields that do not have a value. |
+| fieldValue | string | The field value to append. Pass ``null`` for fields that do not have a value. |
 
 ### Returns
 

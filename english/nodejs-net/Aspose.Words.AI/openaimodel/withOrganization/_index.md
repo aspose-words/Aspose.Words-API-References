@@ -2,11 +2,11 @@
 title: OpenAiModel.withOrganization method
 linktitle: withOrganization method
 articleTitle: withOrganization method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "OpenAiModel.withOrganization method. Sets a specified Organization to the model."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.AI/openaimodel/withOrganization/
+url: /nodejs-net/aspose.words.ai/openaimodel/withOrganization/
 ---
 
 ## withOrganization(organizationId) {#string}

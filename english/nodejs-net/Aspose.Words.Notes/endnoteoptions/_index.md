@@ -2,11 +2,11 @@
 title: EndnoteOptions class
 linktitle: EndnoteOptions class
 articleTitle: EndnoteOptions class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Notes.EndnoteOptions class. Represents the endnote numbering options for a document or section"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Notes/endnoteoptions/
+url: /nodejs-net/aspose.words.notes/endnoteoptions/
 ---
 
 ## EndnoteOptions class
@@ -199,6 +199,6 @@ doc.save(base.artifactsDir + "InlineStory.startNumber.docx");
 ### See Also
 
 * module [Aspose.Words.Notes](../)
-* property [Document.endnoteOptions](../../Aspose.Words/document/endnoteOptions/)
-* property [PageSetup.endnoteOptions](../../Aspose.Words/pagesetup/endnoteOptions/)
+* property [Document.endnoteOptions](../../aspose.words/document/endnoteOptions/)
+* property [PageSetup.endnoteOptions](../../aspose.words/pagesetup/endnoteOptions/)
 

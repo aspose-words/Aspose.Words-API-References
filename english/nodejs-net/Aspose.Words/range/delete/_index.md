@@ -2,11 +2,11 @@
 title: Range.delete method
 linktitle: delete method
 articleTitle: delete method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Range.delete method. Deletes all characters of the range."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/range/delete/
+url: /nodejs-net/aspose.words/range/delete/
 ---
 
 ## delete() {#default}

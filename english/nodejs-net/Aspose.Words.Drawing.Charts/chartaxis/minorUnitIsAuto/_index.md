@@ -2,11 +2,11 @@
 title: ChartAxis.minorUnitIsAuto property
 linktitle: minorUnitIsAuto property
 articleTitle: minorUnitIsAuto property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartAxis.minorUnitIsAuto property. Gets or sets a flag indicating whether default distance between minor tick marks shall be used."
 type: docs
 weight: 180
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartaxis/minorUnitIsAuto/
+url: /nodejs-net/aspose.words.drawing.charts/chartaxis/minorUnitIsAuto/
 ---
 
 ## ChartAxis.minorUnitIsAuto property

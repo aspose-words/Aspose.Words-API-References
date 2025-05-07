@@ -5,7 +5,7 @@ articleTitle: FieldSection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSection class, your solution for efficiently implementing SECTION fields in document processing. Enhance your workflow today!
 type: docs
-weight: 2760
+weight: 2770
 url: /net/aspose.words.fields/fieldsection/
 ---
 ## FieldSection class

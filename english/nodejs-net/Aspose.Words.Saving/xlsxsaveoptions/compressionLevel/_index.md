@@ -2,11 +2,11 @@
 title: XlsxSaveOptions.compressionLevel property
 linktitle: compressionLevel property
 articleTitle: compressionLevel property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "XlsxSaveOptions.compressionLevel property. Specifies the compression level used to save document"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Saving/xlsxsaveoptions/compressionLevel/
+url: /nodejs-net/aspose.words.saving/xlsxsaveoptions/compressionLevel/
 ---
 
 ## XlsxSaveOptions.compressionLevel property

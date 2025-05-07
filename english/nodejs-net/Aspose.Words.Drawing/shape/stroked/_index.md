@@ -2,11 +2,11 @@
 title: Shape.stroked property
 linktitle: stroked property
 articleTitle: stroked property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Shape.stroked property. Defines whether the path will be stroked."
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing/shape/stroked/
+url: /nodejs-net/aspose.words.drawing/shape/stroked/
 ---
 
 ## Shape.stroked property
@@ -22,7 +22,7 @@ get stroked(): boolean
 
 This is a shortcut to the [Stroke.on](../../stroke/on/) property.
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

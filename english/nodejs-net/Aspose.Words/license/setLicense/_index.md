@@ -2,11 +2,11 @@
 title: License.setLicense method
 linktitle: setLicense method
 articleTitle: setLicense method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.License.setLicense method"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/license/setLicense/
+url: /nodejs-net/aspose.words/license/setLicense/
 ---
 
 ## setLicense(licenseName) {#string}

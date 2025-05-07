@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.manager property
 linktitle: manager property
 articleTitle: manager property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.manager property. Gets or sets the manager property."
 type: docs
 weight: 190
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/manager/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/manager/
 ---
 
 ## BuiltInDocumentProperties.manager property

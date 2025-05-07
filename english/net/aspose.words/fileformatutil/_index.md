@@ -5,7 +5,7 @@ articleTitle: FileFormatUtil
 second_title: Aspose.Words for .NET
 description: Effortlessly manage file formats with Aspose.Words.FileFormatUtil. Detect formats and convert extensions seamlessly for enhanced productivity.
 type: docs
-weight: 3220
+weight: 3230
 url: /net/aspose.words/fileformatutil/
 ---
 ## FileFormatUtil class

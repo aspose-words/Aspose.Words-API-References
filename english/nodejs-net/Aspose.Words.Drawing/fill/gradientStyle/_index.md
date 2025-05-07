@@ -2,11 +2,11 @@
 title: Fill.gradientStyle property
 linktitle: gradientStyle property
 articleTitle: gradientStyle property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.gradientStyle property. Gets the gradient style [GradientStyle](../../gradientstyle/) for the fill."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Drawing/fill/gradientStyle/
+url: /nodejs-net/aspose.words.drawing/fill/gradientStyle/
 ---
 
 ## Fill.gradientStyle property

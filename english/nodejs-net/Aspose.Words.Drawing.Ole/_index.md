@@ -2,11 +2,11 @@
 title: Aspose.Words.Drawing.Ole module
 linktitle: Aspose.Words.Drawing.Ole module
 articleTitle: Aspose.Words.Drawing.Ole module
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "The Aspose.Words.Drawing.Ole namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words.Drawing.Ole/
+url: /nodejs-net/aspose.words.drawing.ole/
 ---
 
 The **Aspose.Words.Drawing.Ole** namespace contains classes to work with OLE / ActiveX controls and forms in Microsoft Word documents.

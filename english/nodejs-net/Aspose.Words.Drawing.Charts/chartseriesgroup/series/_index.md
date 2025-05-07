@@ -2,11 +2,11 @@
 title: ChartSeriesGroup.series property
 linktitle: series property
 articleTitle: series property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartSeriesGroup.series property. Gets a collection of series that belong to this series group."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartseriesgroup/series/
+url: /nodejs-net/aspose.words.drawing.charts/chartseriesgroup/series/
 ---
 
 ## ChartSeriesGroup.series property

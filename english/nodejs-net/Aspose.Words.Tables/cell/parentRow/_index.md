@@ -2,11 +2,11 @@
 title: Cell.parentRow property
 linktitle: parentRow property
 articleTitle: parentRow property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Cell.parentRow property. Returns the parent row of the cell."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Tables/cell/parentRow/
+url: /nodejs-net/aspose.words.tables/cell/parentRow/
 ---
 
 ## Cell.parentRow property

@@ -2,11 +2,11 @@
 title: DocumentBuilder.moveToMergeField method
 linktitle: moveToMergeField method
 articleTitle: moveToMergeField method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBuilder.moveToMergeField method"
 type: docs
 weight: 590
-url: /nodejs-net/Aspose.Words/documentbuilder/moveToMergeField/
+url: /nodejs-net/aspose.words/documentbuilder/moveToMergeField/
 ---
 
 ## moveToMergeField(fieldName) {#string}
@@ -31,7 +31,7 @@ Note that this method deletes the merge field from the document after moving the
 
 ### Returns
 
-``True`` if the merge field was found and the cursor was moved; ``False`` otherwise.
+``true`` if the merge field was found and the cursor was moved; ``false`` otherwise.
 
 
 ## moveToMergeField(fieldName, isAfter, isDeleteField) {#string_boolean_boolean}
@@ -40,21 +40,48 @@ Moves the merge field to the specified merge field.
 
 
 ```js
-moveToMergeField(fieldName: stringisAfter: booleanisDeleteField: boolean)
+moveToMergeField(fieldName: string, isAfter: boolean, isDeleteField: boolean)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | fieldName | string | The case-insensitive name of the mail merge field. |
-| isAfter | boolean | When ``True``, moves the cursor to be after the field end. When ``False``, moves the cursor to be before the field start.  |
-| isDeleteField | boolean | When ``True``, deletes the merge field. |
+| isAfter | boolean | When ``true``, moves the cursor to be after the field end. When ``false``, moves the cursor to be before the field start.  |
+| isDeleteField | boolean | When ``true``, deletes the merge field. |
 
 ### Returns
 
-``True`` if the merge field was found and the cursor was moved; ``False`` otherwise.
+``true`` if the merge field was found and the cursor was moved; ``false`` otherwise.
 
 
 ## Examples
+
+Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert some MERGEFIELDS, which accept data from columns of the same name in a data source during a mail merge,
+// and then fill them manually.
+builder.insertField(" MERGEFIELD Chairman ");
+builder.insertField(" MERGEFIELD ChiefFinancialOfficer ");
+builder.insertField(" MERGEFIELD ChiefTechnologyOfficer ");
+
+builder.moveToMergeField("Chairman");
+builder.bold = true;
+builder.writeln("John Doe");
+
+builder.moveToMergeField("ChiefFinancialOfficer");
+builder.italic = true;
+builder.writeln("Jane Doe");
+
+builder.moveToMergeField("ChiefTechnologyOfficer");
+builder.italic = true;
+builder.writeln("John Bloggs");
+
+doc.save(base.artifactsDir + "DocumentBuilder.FillMergeFields.docx");
+```
 
 Shows how to insert checkbox form fields into MERGEFIELDs as merge data during mail merge.
 
@@ -135,33 +162,6 @@ private static DataTable GetStudentCourseDataTable()
 
   return dataTable;
 }
-```
-
-Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert some MERGEFIELDS, which accept data from columns of the same name in a data source during a mail merge,
-// and then fill them manually.
-builder.insertField(" MERGEFIELD Chairman ");
-builder.insertField(" MERGEFIELD ChiefFinancialOfficer ");
-builder.insertField(" MERGEFIELD ChiefTechnologyOfficer ");
-
-builder.moveToMergeField("Chairman");
-builder.bold = true;
-builder.writeln("John Doe");
-
-builder.moveToMergeField("ChiefFinancialOfficer");
-builder.italic = true;
-builder.writeln("Jane Doe");
-
-builder.moveToMergeField("ChiefTechnologyOfficer");
-builder.italic = true;
-builder.writeln("John Bloggs");
-
-doc.save(base.artifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
 Shows how to insert fields, and move the document builder's cursor to them.

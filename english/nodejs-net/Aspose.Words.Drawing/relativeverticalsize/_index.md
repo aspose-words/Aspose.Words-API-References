@@ -2,11 +2,11 @@
 title: RelativeVerticalSize enumeration
 linktitle: RelativeVerticalSize enumeration
 articleTitle: RelativeVerticalSize enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.RelativeVerticalSize enumeration. Specifies relatively to what the height of a shape or a text frame is calculated vertically."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words.Drawing/relativeverticalsize/
+url: /nodejs-net/aspose.words.drawing/relativeverticalsize/
 ---
 
 ## RelativeVerticalSize enumeration

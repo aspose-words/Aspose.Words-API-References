@@ -2,11 +2,11 @@
 title: Section.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Section.nodeType property. Returns [NodeType.Section](../../nodetype/#Section)."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words/section/nodeType/
+url: /nodejs-net/aspose.words/section/nodeType/
 ---
 
 ## Section.nodeType property

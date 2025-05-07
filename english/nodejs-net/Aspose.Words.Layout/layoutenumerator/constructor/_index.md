@@ -2,11 +2,11 @@
 title: LayoutEnumerator constructor
 linktitle: LayoutEnumerator constructor
 articleTitle: LayoutEnumerator constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LayoutEnumerator constructor. Initializes new instance of this class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Layout/layoutenumerator/constructor/
+url: /nodejs-net/aspose.words.layout/layoutenumerator/constructor/
 ---
 
 ## LayoutEnumerator(document) {#document}
@@ -20,11 +20,11 @@ LayoutEnumerator(document: Aspose.Words.Document)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| document | [Document](../../../Aspose.Words/document/) | A document whose page layout model to enumerate. |
+| document | [Document](../../../aspose.words/document/) | A document whose page layout model to enumerate. |
 
 ### Remarks
 
-If page layout model of the document hasn't been built the enumerator calls [Document.updatePageLayout()](../../../Aspose.Words/document/updatePageLayout/#default) to build it.
+If page layout model of the document hasn't been built the enumerator calls [Document.updatePageLayout()](../../../aspose.words/document/updatePageLayout/#default) to build it.
 
 Whenever document is updated and new page layout model is created, a new enumerator must be used to access it.
 

@@ -2,11 +2,11 @@
 title: PdfEncryptionDetails.permissions property
 linktitle: permissions property
 articleTitle: permissions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfEncryptionDetails.permissions property. Specifies the operations that are allowed to a user on an encrypted PDF document"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/pdfencryptiondetails/permissions/
+url: /nodejs-net/aspose.words.saving/pdfencryptiondetails/permissions/
 ---
 
 ## PdfEncryptionDetails.permissions property

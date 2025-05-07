@@ -2,11 +2,11 @@
 title: PageSetup.sectionStart property
 linktitle: sectionStart property
 articleTitle: sectionStart property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.sectionStart property. Returns or sets the type of section break for the specified object."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/pagesetup/sectionStart/
+url: /nodejs-net/aspose.words/pagesetup/sectionStart/
 ---
 
 ## PageSetup.sectionStart property
@@ -19,51 +19,6 @@ get sectionStart(): Aspose.Words.SectionStart
 ```
 
 ### Examples
-
-Shows how to specify how a new section separates itself from the previous.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-builder.writeln("This text is in section 1.");
-
-// Section break types determine how a new section separates itself from the previous section.
-// Below are five types of section breaks.
-// 1 -  Starts the next section on a new page:
-builder.insertBreak(aw.BreakType.SectionBreakNewPage);
-builder.writeln("This text is in section 2.");
-
-expect(doc.sections.at(1).pageSetup.sectionStart).toEqual(aw.SectionStart.NewPage);
-
-// 2 -  Starts the next section on the current page:
-builder.insertBreak(aw.BreakType.SectionBreakContinuous);
-builder.writeln("This text is in section 3.");
-
-expect(doc.sections.at(2).pageSetup.sectionStart).toEqual(aw.SectionStart.Continuous);
-
-// 3 -  Starts the next section on a new even page:
-builder.insertBreak(aw.BreakType.SectionBreakEvenPage);
-builder.writeln("This text is in section 4.");
-
-expect(doc.sections.at(3).pageSetup.sectionStart).toEqual(aw.SectionStart.EvenPage);
-
-// 4 -  Starts the next section on a new odd page:
-builder.insertBreak(aw.BreakType.SectionBreakOddPage);
-builder.writeln("This text is in section 5.");
-
-expect(doc.sections.at(4).pageSetup.sectionStart).toEqual(aw.SectionStart.OddPage);
-
-// 5 -  Starts the next section on a new column:
-let columns = builder.pageSetup.textColumns;
-columns.setCount(2);
-
-builder.insertBreak(aw.BreakType.SectionBreakNewColumn);
-builder.writeln("This text is in section 6.");
-
-expect(doc.sections.at(5).pageSetup.sectionStart).toEqual(aw.SectionStart.NewColumn);
-
-doc.save(base.artifactsDir + "PageSetup.SetSectionStart.docx");
-```
 
 Shows how to construct an Aspose.words document by hand.
 
@@ -108,6 +63,51 @@ para.appendChild(run);
 expect(doc.getText().trim()).toEqual("Hello World!");
 
 doc.save(base.artifactsDir + "Section.CreateManually.docx");
+```
+
+Shows how to specify how a new section separates itself from the previous.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+builder.writeln("This text is in section 1.");
+
+// Section break types determine how a new section separates itself from the previous section.
+// Below are five types of section breaks.
+// 1 -  Starts the next section on a new page:
+builder.insertBreak(aw.BreakType.SectionBreakNewPage);
+builder.writeln("This text is in section 2.");
+
+expect(doc.sections.at(1).pageSetup.sectionStart).toEqual(aw.SectionStart.NewPage);
+
+// 2 -  Starts the next section on the current page:
+builder.insertBreak(aw.BreakType.SectionBreakContinuous);
+builder.writeln("This text is in section 3.");
+
+expect(doc.sections.at(2).pageSetup.sectionStart).toEqual(aw.SectionStart.Continuous);
+
+// 3 -  Starts the next section on a new even page:
+builder.insertBreak(aw.BreakType.SectionBreakEvenPage);
+builder.writeln("This text is in section 4.");
+
+expect(doc.sections.at(3).pageSetup.sectionStart).toEqual(aw.SectionStart.EvenPage);
+
+// 4 -  Starts the next section on a new odd page:
+builder.insertBreak(aw.BreakType.SectionBreakOddPage);
+builder.writeln("This text is in section 5.");
+
+expect(doc.sections.at(4).pageSetup.sectionStart).toEqual(aw.SectionStart.OddPage);
+
+// 5 -  Starts the next section on a new column:
+let columns = builder.pageSetup.textColumns;
+columns.setCount(2);
+
+builder.insertBreak(aw.BreakType.SectionBreakNewColumn);
+builder.writeln("This text is in section 6.");
+
+expect(doc.sections.at(5).pageSetup.sectionStart).toEqual(aw.SectionStart.NewColumn);
+
+doc.save(base.artifactsDir + "PageSetup.SetSectionStart.docx");
 ```
 
 ### See Also

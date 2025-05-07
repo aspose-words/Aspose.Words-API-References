@@ -2,11 +2,11 @@
 title: BorderCollection.right property
 linktitle: right property
 articleTitle: right property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BorderCollection.right property. Gets the right border."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/bordercollection/right/
+url: /nodejs-net/aspose.words/bordercollection/right/
 ---
 
 ## BorderCollection.right property

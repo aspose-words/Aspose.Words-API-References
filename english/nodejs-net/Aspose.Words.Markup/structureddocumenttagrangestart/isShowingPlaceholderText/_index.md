@@ -2,11 +2,11 @@
 title: StructuredDocumentTagRangeStart.isShowingPlaceholderText property
 linktitle: isShowingPlaceholderText property
 articleTitle: isShowingPlaceholderText property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.isShowingPlaceholderText property. Specifies whether the content of this structured document tag shall be interpreted to contain placeholder text (as opposed to regular text contents within the structured document tag)."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/isShowingPlaceholderText/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/isShowingPlaceholderText/
 ---
 
 ## StructuredDocumentTagRangeStart.isShowingPlaceholderText property
@@ -14,7 +14,7 @@ url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/isShowingPl
 Specifies whether the content of this structured document tag shall be interpreted to contain
 placeholder text (as opposed to regular text contents within the structured document tag).
 
-if set to ``True``, this state shall be resumed (showing placeholder text) upon opening this document.
+if set to ``true``, this state shall be resumed (showing placeholder text) upon opening this document.
 
 
 

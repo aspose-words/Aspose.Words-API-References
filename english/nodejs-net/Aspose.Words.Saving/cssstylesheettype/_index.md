@@ -2,11 +2,11 @@
 title: CssStyleSheetType enumeration
 linktitle: CssStyleSheetType enumeration
 articleTitle: CssStyleSheetType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.CssStyleSheetType enumeration. Specifies how CSS (Cascading Style Sheet) styles are exported to HTML."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/cssstylesheettype/
+url: /nodejs-net/aspose.words.saving/cssstylesheettype/
 ---
 
 ## CssStyleSheetType enumeration

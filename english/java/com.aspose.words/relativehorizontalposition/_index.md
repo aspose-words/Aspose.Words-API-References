@@ -4,7 +4,7 @@ linktitle: RelativeHorizontalPosition
 second_title: Aspose.Words for Java
 description: Specifies to what the horizontal position of a shape or text frame is relative in Java.
 type: docs
-weight: 543
+weight: 550
 url: /java/com.aspose.words/relativehorizontalposition/
 ---
 

@@ -2,11 +2,11 @@
 title: DownsampleOptions constructor
 linktitle: DownsampleOptions constructor
 articleTitle: DownsampleOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DownsampleOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/downsampleoptions/constructor/
+url: /nodejs-net/aspose.words.saving/downsampleoptions/constructor/
 ---
 
 ## DownsampleOptions() {#default}

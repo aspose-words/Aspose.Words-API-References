@@ -2,11 +2,11 @@
 title: Font.doubleStrikeThrough property
 linktitle: doubleStrikeThrough property
 articleTitle: doubleStrikeThrough property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.doubleStrikeThrough property. True if the font is formatted as double strikethrough text."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/font/doubleStrikeThrough/
+url: /nodejs-net/aspose.words/font/doubleStrikeThrough/
 ---
 
 ## Font.doubleStrikeThrough property

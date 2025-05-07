@@ -2,11 +2,11 @@
 title: DocumentPropertyCollection.clear method
 linktitle: clear method
 articleTitle: clear method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentPropertyCollection.clear method. Removes all properties from the collection."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Properties/documentpropertycollection/clear/
+url: /nodejs-net/aspose.words.properties/documentpropertycollection/clear/
 ---
 
 ## clear() {#default}

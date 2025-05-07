@@ -2,11 +2,11 @@
 title: TxtSaveOptionsBase.encoding property
 linktitle: encoding property
 articleTitle: encoding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtSaveOptionsBase.encoding property. Specifies the encoding to use when exporting in text formats"
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Saving/txtsaveoptionsbase/encoding/
+url: /nodejs-net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 
 ## TxtSaveOptionsBase.encoding property

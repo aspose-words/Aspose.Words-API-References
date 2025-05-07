@@ -2,11 +2,11 @@
 title: ComparisonExpression.comparisonOperator property
 linktitle: comparisonOperator property
 articleTitle: comparisonOperator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ComparisonExpression.comparisonOperator property. Gets the comparison operator."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/comparisonexpression/comparisonOperator/
+url: /nodejs-net/aspose.words.fields/comparisonexpression/comparisonOperator/
 ---
 
 ## ComparisonExpression.comparisonOperator property

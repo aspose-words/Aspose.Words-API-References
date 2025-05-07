@@ -2,11 +2,11 @@
 title: LineNumberRestartMode enumeration
 linktitle: LineNumberRestartMode enumeration
 articleTitle: LineNumberRestartMode enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.LineNumberRestartMode enumeration. Determines when automatic line numbering restarts."
 type: docs
 weight: 750
-url: /nodejs-net/Aspose.Words/linenumberrestartmode/
+url: /nodejs-net/aspose.words/linenumberrestartmode/
 ---
 
 ## LineNumberRestartMode enumeration

@@ -2,11 +2,11 @@
 title: CellFormat.verticalMerge property
 linktitle: verticalMerge property
 articleTitle: verticalMerge property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CellFormat.verticalMerge property. Specifies how the cell is merged with other cells vertically."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Tables/cellformat/verticalMerge/
+url: /nodejs-net/aspose.words.tables/cellformat/verticalMerge/
 ---
 
 ## CellFormat.verticalMerge property

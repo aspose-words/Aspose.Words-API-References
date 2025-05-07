@@ -2,11 +2,11 @@
 title: ICssSavingCallback class
 linktitle: ICssSavingCallback class
 articleTitle: ICssSavingCallback class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.ICssSavingCallback class. Implement this interface if you want to control how Aspose.Words saves CSS (Cascading Style Sheet) when  saving a document to HTML."
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words.Saving/icsssavingcallback/
+url: /nodejs-net/aspose.words.saving/icsssavingcallback/
 ---
 
 ## ICssSavingCallback class

@@ -2,11 +2,11 @@
 title: IFieldUpdatingCallback class
 linktitle: IFieldUpdatingCallback class
 articleTitle: IFieldUpdatingCallback class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Fields.IFieldUpdatingCallback class. Implement this interface if you want to have your own custom methods called during a field update."
 type: docs
 weight: 1240
-url: /nodejs-net/Aspose.Words.Fields/ifieldupdatingcallback/
+url: /nodejs-net/aspose.words.fields/ifieldupdatingcallback/
 ---
 
 ## IFieldUpdatingCallback class

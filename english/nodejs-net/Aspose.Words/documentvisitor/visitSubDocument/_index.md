@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitSubDocument method
 linktitle: visitSubDocument method
 articleTitle: visitSubDocument method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitSubDocument method. Called when a sub-document is encountered."
 type: docs
 weight: 480
-url: /nodejs-net/Aspose.Words/documentvisitor/visitSubDocument/
+url: /nodejs-net/aspose.words/documentvisitor/visitSubDocument/
 ---
 
 ## visitSubDocument(subDocument) {#subdocument}

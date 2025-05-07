@@ -2,11 +2,11 @@
 title: ImageSaveOptions.useGdiEmfRenderer property
 linktitle: useGdiEmfRenderer property
 articleTitle: useGdiEmfRenderer property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.useGdiEmfRenderer property. Gets or sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF."
 type: docs
 weight: 160
-url: /nodejs-net/Aspose.Words.Saving/imagesaveoptions/useGdiEmfRenderer/
+url: /nodejs-net/aspose.words.saving/imagesaveoptions/useGdiEmfRenderer/
 ---
 
 ## ImageSaveOptions.useGdiEmfRenderer property
@@ -20,17 +20,17 @@ get useGdiEmfRenderer(): boolean
 
 ### Remarks
 
-If set to ``True`` GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics
+If set to ``true`` GDI+ metafile renderer is used. I.e. content is written to GDI+ graphics
 object and saved to metafile.
 
-If set to ``False`` Aspose.Words metafile renderer is used. I.e. content is written directly
+If set to ``false`` Aspose.Words metafile renderer is used. I.e. content is written directly
 to the metafile format with Aspose.Words.
 
 Has effect only when saving to EMF.
 
 GDI+ saving works only on .NET.
 
-The default value is ``True``.
+The default value is ``true``.
 
 
 

@@ -2,11 +2,11 @@
 title: Range.replace method
 linktitle: replace method
 articleTitle: replace method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Range.replace method"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/range/replace/
+url: /nodejs-net/aspose.words/range/replace/
 ---
 
 ## replace(pattern, replacement) {#string_string}
@@ -15,7 +15,7 @@ Replaces all occurrences of a specified character string pattern with a replacem
 
 
 ```js
-replace(pattern: stringreplacement: string)
+replace(pattern: string, replacement: string)
 ```
 
 | Parameter | Type | Description |
@@ -58,14 +58,14 @@ Replaces all occurrences of a specified character string pattern with a replacem
 
 
 ```js
-replace(pattern: stringreplacement: stringoptions: Aspose.Words.Replacing.FindReplaceOptions)
+replace(pattern: string, replacement: string, options: Aspose.Words.Replacing.FindReplaceOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | pattern | string | A string to be replaced. |
 | replacement | string | A string to replace all occurrences of pattern. |
-| options | [FindReplaceOptions](../../../Aspose.Words.Replacing/findreplaceoptions/) | [FindReplaceOptions](../../../Aspose.Words.Replacing/findreplaceoptions/) object to specify additional options. |
+| options | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) | [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/) object to specify additional options. |
 
 ### Remarks
 

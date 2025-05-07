@@ -2,14 +2,14 @@
 title: Aspose.Words.Framesets module
 linktitle: Aspose.Words.Framesets module
 articleTitle: Aspose.Words.Framesets module
-second_title: Aspose.Words for NodeJs
-description: "The aspose.words.framesets module provides classes and enumerations that represents a frames page or a single frame on a frames page."
+second_title: Aspose.Words for Node.js
+description: "The Aspose.Words.Framesets module provides classes and enumerations that represents a frames page or a single frame on a frames page."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Framesets/
+url: /nodejs-net/aspose.words.framesets/
 ---
 
-The **aspose.words.framesets** module provides classes and enumerations that
+The **Aspose.Words.Framesets** module provides classes and enumerations that
 represents a frames page or a single frame on a frames page.
 
 
@@ -20,5 +20,5 @@ represents a frames page or a single frame on a frames page.
 
 | Class | Description |
 | --- | --- |
-| [FramesetCollection](./framesetcollection/) | Represents a collection of instances of the [Frameset](../Aspose.Words/frameset/) class. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/nodejs-net/programming-with-documents/) documentation article. |
+| [FramesetCollection](./framesetcollection/) | Represents a collection of instances of the [Frameset](../aspose.words/frameset/) class. To learn more, visit the [Programming with Documents](https://docs.aspose.com/words/nodejs-net/programming-with-documents/) documentation article. |
 

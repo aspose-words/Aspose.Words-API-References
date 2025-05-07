@@ -2,11 +2,11 @@
 title: Border class
 linktitle: Border class
 articleTitle: Border class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Border class. Represents a border of an object"
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/border/
+url: /nodejs-net/aspose.words/border/
 ---
 
 ## Border class
@@ -33,7 +33,7 @@ run of text inside a paragraph or a table cell.
 | --- | --- |
 | [color](./color/) | Gets or sets the border color. |
 | [distanceFromText](./distanceFromText/) | Gets or sets distance of the border from text or from the page edge in points. |
-| [isVisible](./isVisible/) | Returns ``True`` if the [Border.lineStyle](./lineStyle/) is not [LineStyle.None](../linestyle/#None). |
+| [isVisible](./isVisible/) | Returns ``true`` if the [Border.lineStyle](./lineStyle/) is not [LineStyle.None](../linestyle/#None). |
 | [lineStyle](./lineStyle/) | Gets or sets the border style. |
 | [lineWidth](./lineWidth/) | Gets or sets the border width in points. |
 | [shadow](./shadow/) | Gets or sets a value indicating whether the border has a shadow. |

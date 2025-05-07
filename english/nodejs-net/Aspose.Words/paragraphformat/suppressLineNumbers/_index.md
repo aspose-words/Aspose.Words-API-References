@@ -2,11 +2,11 @@
 title: ParagraphFormat.suppressLineNumbers property
 linktitle: suppressLineNumbers property
 articleTitle: suppressLineNumbers property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.suppressLineNumbers property. Specifies whether the current paragraph's lines should be exempted from line numbering which is applied in the parent section."
 type: docs
 weight: 390
-url: /nodejs-net/Aspose.Words/paragraphformat/suppressLineNumbers/
+url: /nodejs-net/aspose.words/paragraphformat/suppressLineNumbers/
 ---
 
 ## ParagraphFormat.suppressLineNumbers property

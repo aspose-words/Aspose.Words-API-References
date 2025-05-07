@@ -2,11 +2,11 @@
 title: TiffCompression enumeration
 linktitle: TiffCompression enumeration
 articleTitle: TiffCompression enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.TiffCompression enumeration. Specifies what type of compression to apply when saving page images into a TIFF file."
 type: docs
 weight: 830
-url: /nodejs-net/Aspose.Words.Saving/tiffcompression/
+url: /nodejs-net/aspose.words.saving/tiffcompression/
 ---
 
 ## TiffCompression enumeration

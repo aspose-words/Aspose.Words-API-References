@@ -2,11 +2,11 @@
 title: CompatibilityOptions.noExtraLineSpacing property
 linktitle: noExtraLineSpacing property
 articleTitle: noExtraLineSpacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.noExtraLineSpacing property. Do Not Center Content on Lines With Exact Line Height."
 type: docs
 weight: 340
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/noExtraLineSpacing/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/noExtraLineSpacing/
 ---
 
 ## CompatibilityOptions.noExtraLineSpacing property

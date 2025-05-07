@@ -2,11 +2,11 @@
 title: DocumentBuilder.currentStructuredDocumentTag property
 linktitle: currentStructuredDocumentTag property
 articleTitle: currentStructuredDocumentTag property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.currentStructuredDocumentTag property. Gets the structured document tag that is currently selected in this [DocumentBuilder](../)."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/documentbuilder/currentStructuredDocumentTag/
+url: /nodejs-net/aspose.words/documentbuilder/currentStructuredDocumentTag/
 ---
 
 ## DocumentBuilder.currentStructuredDocumentTag property

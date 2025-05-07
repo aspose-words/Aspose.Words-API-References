@@ -2,11 +2,11 @@
 title: Style.automaticallyUpdate property
 linktitle: automaticallyUpdate property
 articleTitle: automaticallyUpdate property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.automaticallyUpdate property. Specifies whether this style is automatically redefined based on the appropriate value."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/style/automaticallyUpdate/
+url: /nodejs-net/aspose.words/style/automaticallyUpdate/
 ---
 
 ## Style.automaticallyUpdate property
@@ -25,7 +25,7 @@ the appropriate paragraph formatting has been changed.
 
 AutomaticallyUpdate property is applicable to paragraph styles only.
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

@@ -2,11 +2,11 @@
 title: ChartLegendEntryCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartLegendEntryCollection.count property. Returns the number of [ChartLegendEntry](../../chartlegendentry/) in this collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartlegendentrycollection/count/
+url: /nodejs-net/aspose.words.drawing.charts/chartlegendentrycollection/count/
 ---
 
 ## ChartLegendEntryCollection.count property

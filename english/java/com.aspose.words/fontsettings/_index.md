@@ -4,7 +4,7 @@ linktitle: FontSettings
 second_title: Aspose.Words for Java
 description: Specifies font settings for a document in Java.
 type: docs
-weight: 327
+weight: 329
 url: /java/com.aspose.words/fontsettings/
 ---
 

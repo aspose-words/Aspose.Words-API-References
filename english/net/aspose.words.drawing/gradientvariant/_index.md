@@ -5,7 +5,7 @@ articleTitle: GradientVariant
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.GradientVariant enum for customizable gradient fills, enhancing your document designs with vibrant styles.
 type: docs
-weight: 1330
+weight: 1340
 url: /net/aspose.words.drawing/gradientvariant/
 ---
 ## GradientVariant enumeration

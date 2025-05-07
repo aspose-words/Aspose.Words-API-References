@@ -2,17 +2,17 @@
 title: LoadOptions.preserveIncludePictureField property
 linktitle: preserveIncludePictureField property
 articleTitle: preserveIncludePictureField property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "LoadOptions.preserveIncludePictureField property. Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats"
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words.Loading/loadoptions/preserveIncludePictureField/
+url: /nodejs-net/aspose.words.loading/loadoptions/preserveIncludePictureField/
 ---
 
 ## LoadOptions.preserveIncludePictureField property
 
 Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats.
-The default value is ``False``.
+The default value is ``false``.
 
 
 

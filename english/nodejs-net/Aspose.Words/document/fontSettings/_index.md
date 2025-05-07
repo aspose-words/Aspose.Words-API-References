@@ -2,11 +2,11 @@
 title: Document.fontSettings property
 linktitle: fontSettings property
 articleTitle: fontSettings property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Document.fontSettings property. Gets or sets document font settings."
 type: docs
 weight: 150
-url: /nodejs-net/Aspose.Words/document/fontSettings/
+url: /nodejs-net/aspose.words/document/fontSettings/
 ---
 
 ## Document.fontSettings property
@@ -20,10 +20,10 @@ get fontSettings(): Aspose.Words.Fonts.FontSettings
 
 ### Remarks
 
-This property allows to specify font settings per document. If set to ``None``, default static font settings
-[FontSettings.defaultInstance](../../../Aspose.Words.Fonts/fontsettings/defaultInstance/) will be used.
+This property allows to specify font settings per document. If set to ``null``, default static font settings
+[FontSettings.defaultInstance](../../../aspose.words.fonts/fontsettings/defaultInstance/) will be used.
 
-The default value is ``None``.
+The default value is ``null``.
 
 
 

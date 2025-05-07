@@ -4,7 +4,7 @@ linktitle: Corporate
 second_title: Aspose.Words for Java
 description: Represents a corporate an organization bibliography source contributor in Java.
 type: docs
-weight: 131
+weight: 133
 url: /java/com.aspose.words/corporate/
 ---
 

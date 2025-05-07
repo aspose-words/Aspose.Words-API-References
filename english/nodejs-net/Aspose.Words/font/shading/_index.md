@@ -2,11 +2,11 @@
 title: Font.shading property
 linktitle: shading property
 articleTitle: shading property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Font.shading property. Returns a [Shading](../../shading/) object that refers to the shading formatting for the font."
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/font/shading/
+url: /nodejs-net/aspose.words/font/shading/
 ---
 
 ## Font.shading property

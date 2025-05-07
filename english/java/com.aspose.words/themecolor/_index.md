@@ -4,7 +4,7 @@ linktitle: ThemeColor
 second_title: Aspose.Words for Java
 description: Specifies the theme colors for document themes in Java.
 type: docs
-weight: 660
+weight: 671
 url: /java/com.aspose.words/themecolor/
 ---
 

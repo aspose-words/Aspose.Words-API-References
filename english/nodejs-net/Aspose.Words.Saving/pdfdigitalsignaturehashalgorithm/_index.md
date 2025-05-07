@@ -2,11 +2,11 @@
 title: PdfDigitalSignatureHashAlgorithm enumeration
 linktitle: PdfDigitalSignatureHashAlgorithm enumeration
 articleTitle: PdfDigitalSignatureHashAlgorithm enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm enumeration. Specifies a digital hash algorithm used by a digital signature."
 type: docs
 weight: 630
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturehashalgorithm/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 
 ## PdfDigitalSignatureHashAlgorithm enumeration

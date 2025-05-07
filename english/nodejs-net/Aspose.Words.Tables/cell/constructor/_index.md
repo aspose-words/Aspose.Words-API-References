@@ -2,11 +2,11 @@
 title: Cell constructor
 linktitle: Cell constructor
 articleTitle: Cell constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Cell constructor. Initializes a new instance of the [Cell](../) class."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Tables/cell/constructor/
+url: /nodejs-net/aspose.words.tables/cell/constructor/
 ---
 
 ## Cell(doc) {#documentbase}
@@ -21,14 +21,14 @@ Cell(doc: Aspose.Words.DocumentBase)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [DocumentBase](../../../Aspose.Words/documentbase/) | The owner document. |
+| doc | [DocumentBase](../../../aspose.words/documentbase/) | The owner document. |
 
 ### Remarks
 
 When [Cell](../) is created, it belongs to the specified document, but is not
-yet part of the document and [Node.parentNode](../../../Aspose.Words/node/parentNode/) is ``None``.
+yet part of the document and [Node.parentNode](../../../aspose.words/node/parentNode/) is ``null``.
 
-To append [Cell](../) to the document use [CompositeNode.insertAfter()](../../../Aspose.Words/compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../../Aspose.Words/compositenode/insertBefore/#node_node)
+To append [Cell](../) to the document use [CompositeNode.insertAfter()](../../../aspose.words/compositenode/insertAfter/#node_node) or [CompositeNode.insertBefore()](../../../aspose.words/compositenode/insertBefore/#node_node)
 on the row where you want the cell inserted.
 
 

@@ -2,11 +2,11 @@
 title: ThemeFonts.complexScript property
 linktitle: complexScript property
 articleTitle: complexScript property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ThemeFonts.complexScript property. Specifies font name for ComplexScript characters."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Themes/themefonts/complexScript/
+url: /nodejs-net/aspose.words.themes/themefonts/complexScript/
 ---
 
 ## ThemeFonts.complexScript property

@@ -2,11 +2,11 @@
 title: RowFormat.height property
 linktitle: height property
 articleTitle: height property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "RowFormat.height property. Gets or sets the height of the table row in points."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Tables/rowformat/height/
+url: /nodejs-net/aspose.words.tables/rowformat/height/
 ---
 
 ## RowFormat.height property

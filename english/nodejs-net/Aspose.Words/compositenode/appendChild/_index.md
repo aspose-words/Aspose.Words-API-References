@@ -2,11 +2,11 @@
 title: CompositeNode.appendChild method
 linktitle: appendChild method
 articleTitle: appendChild method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompositeNode.appendChild method. Adds the specified node to the end of the list of child nodes for this node."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words/compositenode/appendChild/
+url: /nodejs-net/aspose.words/compositenode/appendChild/
 ---
 
 ## appendChild(newChild) {#node}

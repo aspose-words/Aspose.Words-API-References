@@ -2,17 +2,17 @@
 title: HorizontalRuleFormat.noShade property
 linktitle: noShade property
 articleTitle: noShade property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HorizontalRuleFormat.noShade property. Indicates the presence of 3D shading for the horizontal rule"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/horizontalruleformat/noShade/
+url: /nodejs-net/aspose.words.drawing/horizontalruleformat/noShade/
 ---
 
 ## HorizontalRuleFormat.noShade property
 
 Indicates the presence of 3D shading for the horizontal rule.
-If ``True``, then the horizontal rule is without 3D shading and solid color is used.
+If ``true``, then the horizontal rule is without 3D shading and solid color is used.
 
 
 
@@ -22,7 +22,7 @@ get noShade(): boolean
 
 ### Remarks
 
-The default value is ``False``.
+The default value is ``false``.
 
 
 

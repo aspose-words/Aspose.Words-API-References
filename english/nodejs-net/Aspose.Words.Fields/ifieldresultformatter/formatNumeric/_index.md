@@ -2,11 +2,11 @@
 title: IFieldResultFormatter.formatNumeric method
 linktitle: formatNumeric method
 articleTitle: formatNumeric method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IFieldResultFormatter.formatNumeric method. Called when Aspose.Words applies a numeric format switch, i.e"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Fields/ifieldresultformatter/formatNumeric/
+url: /nodejs-net/aspose.words.fields/ifieldresultformatter/formatNumeric/
 ---
 
 ## formatNumeric(value, format) {#number_string}
@@ -15,7 +15,7 @@ Called when Aspose.Words applies a numeric format switch, i.e. \\# "#.##".
 
 
 ```js
-formatNumeric(value: numberformat: string)
+formatNumeric(value: number, format: string)
 ```
 
 | Parameter | Type | Description |
@@ -25,7 +25,7 @@ formatNumeric(value: numberformat: string)
 
 ### Remarks
 
-The implementation should return ``None`` to indicate that the default formatting should be applied.
+The implementation should return ``null`` to indicate that the default formatting should be applied.
 
 
 

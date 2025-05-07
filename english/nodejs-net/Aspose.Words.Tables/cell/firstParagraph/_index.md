@@ -2,11 +2,11 @@
 title: Cell.firstParagraph property
 linktitle: firstParagraph property
 articleTitle: firstParagraph property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Cell.firstParagraph property. Gets the first paragraph among the immediate children."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Tables/cell/firstParagraph/
+url: /nodejs-net/aspose.words.tables/cell/firstParagraph/
 ---
 
 ## Cell.firstParagraph property

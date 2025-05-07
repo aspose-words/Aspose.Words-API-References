@@ -2,11 +2,11 @@
 title: IChartDataPoint.explosion property
 linktitle: explosion property
 articleTitle: explosion property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IChartDataPoint.explosion property. Specifies the amount the data point shall be moved from the center of the pie"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/ichartdatapoint/explosion/
+url: /nodejs-net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 ---
 
 ## IChartDataPoint.explosion property

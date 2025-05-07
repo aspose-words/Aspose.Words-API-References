@@ -2,11 +2,11 @@
 title: IRevisionCriteria.isMatch method
 linktitle: isMatch method
 articleTitle: isMatch method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "IRevisionCriteria.isMatch method. Checks whether or not specified *revision* matches criteria."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/irevisioncriteria/isMatch/
+url: /nodejs-net/aspose.words/irevisioncriteria/isMatch/
 ---
 
 ## isMatch(revision) {#revision}

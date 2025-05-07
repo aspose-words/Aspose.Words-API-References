@@ -2,11 +2,11 @@
 title: ChartDataLabelCollection.position property
 linktitle: position property
 articleTitle: position property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.position property. Gets or sets the position of the data labels."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/position/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/position/
 ---
 
 ## ChartDataLabelCollection.position property

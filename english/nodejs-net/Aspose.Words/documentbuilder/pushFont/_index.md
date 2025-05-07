@@ -2,11 +2,11 @@
 title: DocumentBuilder.pushFont method
 linktitle: pushFont method
 articleTitle: pushFont method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.pushFont method. Saves current character formatting onto the stack."
 type: docs
 weight: 640
-url: /nodejs-net/Aspose.Words/documentbuilder/pushFont/
+url: /nodejs-net/aspose.words/documentbuilder/pushFont/
 ---
 
 ## pushFont() {#default}

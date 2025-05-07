@@ -2,11 +2,11 @@
 title: Fill.backThemeColor property
 linktitle: backThemeColor property
 articleTitle: backThemeColor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Fill.backThemeColor property. Gets or sets a ThemeColor object that represents the background color for the fill."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing/fill/backThemeColor/
+url: /nodejs-net/aspose.words.drawing/fill/backThemeColor/
 ---
 
 ## Fill.backThemeColor property

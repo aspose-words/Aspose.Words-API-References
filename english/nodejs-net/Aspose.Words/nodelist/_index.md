@@ -2,11 +2,11 @@
 title: NodeList class
 linktitle: NodeList class
 articleTitle: NodeList class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.NodeList class. Represents a collection of nodes matching an XPath query executed using the [CompositeNode.selectNodes()](../compositenode/selectNodes/#string) method"
 type: docs
 weight: 880
-url: /nodejs-net/Aspose.Words/nodelist/
+url: /nodejs-net/aspose.words/nodelist/
 ---
 
 ## NodeList class

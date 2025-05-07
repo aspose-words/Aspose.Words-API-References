@@ -2,11 +2,11 @@
 title: FieldIndex.pageNumberListSeparator property
 linktitle: pageNumberListSeparator property
 articleTitle: pageNumberListSeparator property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIndex.pageNumberListSeparator property. Gets or sets the character sequence that is used to separate two page numbers in a page number list."
 type: docs
 weight: 110
-url: /nodejs-net/Aspose.Words.Fields/fieldindex/pageNumberListSeparator/
+url: /nodejs-net/aspose.words.fields/fieldindex/pageNumberListSeparator/
 ---
 
 ## FieldIndex.pageNumberListSeparator property

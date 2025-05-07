@@ -18,6 +18,7 @@ The following formats are compatible for digital signature removal:
 [LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX),
 [LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX),
 [LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM),
+[LoadFormat.DOTM](../../../aspose.words/loadformat/#DOTM),
 [LoadFormat.ODT](../../../aspose.words/loadformat/#ODT),
 [LoadFormat.OTT](../../../aspose.words/loadformat/#OTT).
 
@@ -46,6 +47,7 @@ The following formats are compatible for digital signature removal:
 [LoadFormat.DOCX](../../../aspose.words/loadformat/#DOCX),
 [LoadFormat.DOTX](../../../aspose.words/loadformat/#DOTX),
 [LoadFormat.DOCM](../../../aspose.words/loadformat/#DOCM),
+[LoadFormat.DOTM](../../../aspose.words/loadformat/#DOTM),
 [LoadFormat.ODT](../../../aspose.words/loadformat/#ODT),
 [LoadFormat.OTT](../../../aspose.words/loadformat/#OTT).
 

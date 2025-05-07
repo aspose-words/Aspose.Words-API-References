@@ -5,7 +5,7 @@ articleTitle: DocumentProperty
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Properties.DocumentProperty class for managing custom and built-in document properties efficiently. Enhance your document handling today!
 type: docs
-weight: 5060
+weight: 5200
 url: /net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class

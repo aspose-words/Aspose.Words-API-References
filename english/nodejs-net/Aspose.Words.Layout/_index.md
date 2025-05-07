@@ -2,14 +2,14 @@
 title: Aspose.Words.Layout module
 linktitle: Aspose.Words.Layout module
 articleTitle: Aspose.Words.Layout module
-second_title: Aspose.Words for NodeJs
-description: "The aspose.words.layout module provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages."
+second_title: Aspose.Words for Node.js
+description: "The Aspose.Words.Layout module provides classes that allow to access information such as on what page and where on a page particular document elements are positioned, when the document is formatted into pages."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words.Layout/
+url: /nodejs-net/aspose.words.layout/
 ---
 
-The **aspose.words.layout** module provides classes that allow to access
+The **Aspose.Words.Layout** module provides classes that allow to access
 information such as on what page and where on a page particular document elements
 are positioned, when the document is formatted into pages.
 

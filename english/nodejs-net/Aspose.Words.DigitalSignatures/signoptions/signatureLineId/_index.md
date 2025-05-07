@@ -2,11 +2,11 @@
 title: SignOptions.signatureLineId property
 linktitle: signatureLineId property
 articleTitle: signatureLineId property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SignOptions.signatureLineId property. Signature line identifier"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.DigitalSignatures/signoptions/signatureLineId/
+url: /nodejs-net/aspose.words.digitalsignatures/signoptions/signatureLineId/
 ---
 
 ## SignOptions.signatureLineId property
@@ -22,7 +22,7 @@ get signatureLineId(): uuid
 
 ### Remarks
 
-When set, it associates [SignatureLine](../../../Aspose.Words.Drawing/signatureline/) with corresponding [DigitalSignature](../../../Aspose.Words/digitalsignature/).
+When set, it associates [SignatureLine](../../../aspose.words.drawing/signatureline/) with corresponding [DigitalSignature](../../../aspose.words/digitalsignature/).
 
 
 

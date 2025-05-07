@@ -2,11 +2,11 @@
 title: FieldOptions.defaultDocumentAuthor property
 linktitle: defaultDocumentAuthor property
 articleTitle: defaultDocumentAuthor property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldOptions.defaultDocumentAuthor property. Gets or sets default document author's name"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Fields/fieldoptions/defaultDocumentAuthor/
+url: /nodejs-net/aspose.words.fields/fieldoptions/defaultDocumentAuthor/
 ---
 
 ## FieldOptions.defaultDocumentAuthor property

@@ -4,7 +4,7 @@ linktitle: GroupShape
 second_title: Aspose.Words for Java
 description: Represents a group of shapes in a document in Java.
 type: docs
-weight: 360
+weight: 362
 url: /java/com.aspose.words/groupshape/
 ---
 
@@ -1561,6 +1561,10 @@ public Rectangle2D.Float getBoundsInPoints()
 
 
 Gets the location and size of the containing block of the shape in points, relative to the anchor of the topmost shape.
+
+ **Remarks:** 
+
+The returned bounds do not include the rotation of this shape or the rotation of the parent group shape, if any.
 
  **Examples:** 
 

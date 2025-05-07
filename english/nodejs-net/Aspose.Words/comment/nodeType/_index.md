@@ -2,11 +2,11 @@
 title: Comment.nodeType property
 linktitle: nodeType property
 articleTitle: nodeType property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Comment.nodeType property. Returns [NodeType.Comment](../../nodetype/#Comment)."
 type: docs
 weight: 90
-url: /nodejs-net/Aspose.Words/comment/nodeType/
+url: /nodejs-net/aspose.words/comment/nodeType/
 ---
 
 ## Comment.nodeType property

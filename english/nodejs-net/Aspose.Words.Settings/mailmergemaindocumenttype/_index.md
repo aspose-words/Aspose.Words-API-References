@@ -2,11 +2,11 @@
 title: MailMergeMainDocumentType enumeration
 linktitle: MailMergeMainDocumentType enumeration
 articleTitle: MailMergeMainDocumentType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Settings.MailMergeMainDocumentType enumeration. Specifies the possible types for a mail merge source document."
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Settings/mailmergemaindocumenttype/
+url: /nodejs-net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 
 ## MailMergeMainDocumentType enumeration

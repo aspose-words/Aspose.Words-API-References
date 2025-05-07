@@ -2,11 +2,11 @@
 title: PageSetup.endnoteOptions property
 linktitle: endnoteOptions property
 articleTitle: endnoteOptions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PageSetup.endnoteOptions property. Provides options that control numbering and positioning of endnotes in this section."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/pagesetup/endnoteOptions/
+url: /nodejs-net/aspose.words/pagesetup/endnoteOptions/
 ---
 
 ## PageSetup.endnoteOptions property

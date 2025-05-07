@@ -2,11 +2,11 @@
 title: FieldSubject constructor
 linktitle: FieldSubject constructor
 articleTitle: FieldSubject constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldSubject constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldsubject/constructor/
+url: /nodejs-net/aspose.words.fields/fieldsubject/constructor/
 ---
 
 ## FieldSubject() {#default}

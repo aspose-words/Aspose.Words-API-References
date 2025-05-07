@@ -2,11 +2,11 @@
 title: StructuredDocumentTagRangeStart.appendChild method
 linktitle: appendChild method
 articleTitle: appendChild method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.appendChild method. Adds the specified node to the end of the stdContent range."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttagrangestart/appendChild/
+url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/appendChild/
 ---
 
 ## appendChild(newChild) {#node}
@@ -20,7 +20,7 @@ appendChild(newChild: Aspose.Words.Node)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| newChild | [Node](../../../Aspose.Words/node/) | The node to add. |
+| newChild | [Node](../../../aspose.words/node/) | The node to add. |
 
 ### Returns
 

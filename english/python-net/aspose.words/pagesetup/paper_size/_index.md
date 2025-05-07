@@ -80,6 +80,17 @@ builder.writeln(f'This page is {builder.page_setup.page_width}x{builder.page_set
 doc.save(file_name=ARTIFACTS_DIR + 'PageSetup.PaperSizes.docx')
 ```
 
+Shows how to set the paper size of JisB4 or JisB5.
+
+```python
+doc = aw.Document(file_name=MY_DIR + 'Big document.docx')
+page_setup = doc.first_section.page_setup
+# Set the paper size to JisB4 (257x364mm).
+page_setup.paper_size = aw.PaperSize.JIS_B4
+# Alternatively, set the paper size to JisB5. (182x257mm).
+page_setup.paper_size = aw.PaperSize.JIS_B5
+```
+
 Shows how to construct an Aspose.Words document by hand.
 
 ```python

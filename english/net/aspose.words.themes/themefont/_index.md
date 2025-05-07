@@ -5,7 +5,7 @@ articleTitle: ThemeFont
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words ThemeFont enum to easily manage document theme fonts and enhance your documents' visual appeal with tailored styles.
 type: docs
-weight: 7190
+weight: 7340
 url: /net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration

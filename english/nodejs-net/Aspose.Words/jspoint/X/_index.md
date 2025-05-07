@@ -2,11 +2,11 @@
 title: JSPoint.X property
 linktitle: X property
 articleTitle: X property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "JSPoint.X property. "
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/jspoint/X/
+url: /nodejs-net/aspose.words/jspoint/X/
 ---
 
 ## JSPoint.X property

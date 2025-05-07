@@ -2,11 +2,11 @@
 title: FieldIncludePicture.graphicFilter property
 linktitle: graphicFilter property
 articleTitle: graphicFilter property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldIncludePicture.graphicFilter property. Gets or sets the name of the filter for the format of the graphic that is to be inserted."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Fields/fieldincludepicture/graphicFilter/
+url: /nodejs-net/aspose.words.fields/fieldincludepicture/graphicFilter/
 ---
 
 ## FieldIncludePicture.graphicFilter property

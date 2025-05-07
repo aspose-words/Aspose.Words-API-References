@@ -2,11 +2,11 @@
 title: FontSavingArgs.fontFamilyName property
 linktitle: fontFamilyName property
 articleTitle: fontFamilyName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontSavingArgs.fontFamilyName property. Indicates the current font family name."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/fontsavingargs/fontFamilyName/
+url: /nodejs-net/aspose.words.saving/fontsavingargs/fontFamilyName/
 ---
 
 ## FontSavingArgs.fontFamilyName property

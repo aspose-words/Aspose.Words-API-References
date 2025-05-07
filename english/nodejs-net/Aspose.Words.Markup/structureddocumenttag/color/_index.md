@@ -2,11 +2,11 @@
 title: StructuredDocumentTag.color property
 linktitle: color property
 articleTitle: color property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTag.color property. Gets or sets the color of the structured document tag."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Markup/structureddocumenttag/color/
+url: /nodejs-net/aspose.words.markup/structureddocumenttag/color/
 ---
 
 ## StructuredDocumentTag.color property

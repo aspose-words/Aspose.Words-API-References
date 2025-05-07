@@ -2,11 +2,11 @@
 title: Table.setBorders method
 linktitle: setBorders method
 articleTitle: setBorders method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.setBorders method. Sets all table borders to the specified line style, width and color."
 type: docs
 weight: 440
-url: /nodejs-net/Aspose.Words/table/setBorders/
+url: /nodejs-net/aspose.words/table/setBorders/
 ---
 
 ## setBorders(lineStyle, lineWidth, color) {#linestyle_number_string}
@@ -15,7 +15,7 @@ Sets all table borders to the specified line style, width and color.
 
 
 ```js
-setBorders(lineStyle: Aspose.Words.LineStylelineWidth: numbercolor: string)
+setBorders(lineStyle: Aspose.Words.LineStyle, lineWidth: number, color: string)
 ```
 
 | Parameter | Type | Description |

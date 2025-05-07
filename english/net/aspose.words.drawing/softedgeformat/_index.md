@@ -5,7 +5,7 @@ articleTitle: SoftEdgeFormat
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.SoftEdgeFormat class to enhance your documents with stunning soft edge effects for a professional look.
 type: docs
-weight: 1700
+weight: 1710
 url: /net/aspose.words.drawing/softedgeformat/
 ---
 ## SoftEdgeFormat class

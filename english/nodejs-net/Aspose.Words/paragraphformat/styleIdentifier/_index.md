@@ -2,11 +2,11 @@
 title: ParagraphFormat.styleIdentifier property
 linktitle: styleIdentifier property
 articleTitle: styleIdentifier property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ParagraphFormat.styleIdentifier property. Gets or sets the locale independent style identifier of the paragraph style applied to this formatting."
 type: docs
 weight: 360
-url: /nodejs-net/Aspose.Words/paragraphformat/styleIdentifier/
+url: /nodejs-net/aspose.words/paragraphformat/styleIdentifier/
 ---
 
 ## ParagraphFormat.styleIdentifier property

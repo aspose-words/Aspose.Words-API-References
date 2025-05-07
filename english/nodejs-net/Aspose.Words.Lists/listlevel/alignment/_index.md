@@ -2,11 +2,11 @@
 title: ListLevel.alignment property
 linktitle: alignment property
 articleTitle: alignment property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ListLevel.alignment property. Gets or sets the justification of the actual number of the list item."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Lists/listlevel/alignment/
+url: /nodejs-net/aspose.words.lists/listlevel/alignment/
 ---
 
 ## ListLevel.alignment property

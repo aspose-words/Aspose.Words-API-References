@@ -2,19 +2,19 @@
 title: FontInfoCollection.saveSubsetFonts property
 linktitle: saveSubsetFonts property
 articleTitle: saveSubsetFonts property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FontInfoCollection.saveSubsetFonts property. Specifies whether or not to save a subset of the embedded TrueType fonts with the document"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Fonts/fontinfocollection/saveSubsetFonts/
+url: /nodejs-net/aspose.words.fonts/fontinfocollection/saveSubsetFonts/
 ---
 
 ## FontInfoCollection.saveSubsetFonts property
 
 Specifies whether or not to save a subset of the embedded TrueType fonts with the document.
-Default value for this property is ``False``.
+Default value for this property is ``false``.
 
-This option works only when [FontInfoCollection.embedTrueTypeFonts](../embedTrueTypeFonts/) property is set to ``True``.
+This option works only when [FontInfoCollection.embedTrueTypeFonts](../embedTrueTypeFonts/) property is set to ``true``.
 
 
 

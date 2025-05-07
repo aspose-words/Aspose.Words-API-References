@@ -2,11 +2,11 @@
 title: TableStyle.leftPadding property
 linktitle: leftPadding property
 articleTitle: leftPadding property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableStyle.leftPadding property. Gets or sets the amount of space (in points) to add to the left of the contents of table cells."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/tablestyle/leftPadding/
+url: /nodejs-net/aspose.words/tablestyle/leftPadding/
 ---
 
 ## TableStyle.leftPadding property

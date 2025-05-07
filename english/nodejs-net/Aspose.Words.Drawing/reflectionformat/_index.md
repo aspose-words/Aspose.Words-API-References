@@ -2,11 +2,11 @@
 title: ReflectionFormat class
 linktitle: ReflectionFormat class
 articleTitle: ReflectionFormat class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ReflectionFormat class. Represents the reflection formatting for an object."
 type: docs
 weight: 300
-url: /nodejs-net/Aspose.Words.Drawing/reflectionformat/
+url: /nodejs-net/aspose.words.drawing/reflectionformat/
 ---
 
 ## ReflectionFormat class

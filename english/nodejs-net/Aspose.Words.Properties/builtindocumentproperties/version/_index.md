@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.version property
 linktitle: version property
 articleTitle: version property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.version property. Represents the version number of the application that created the document."
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/version/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/version/
 ---
 
 ## BuiltInDocumentProperties.version property

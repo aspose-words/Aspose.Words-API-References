@@ -5,7 +5,7 @@ articleTitle: MarkdownOfficeMathExportMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Saving.MarkdownOfficeMathExportMode enhances OfficeMath export to Markdown, ensuring accurate and efficient document conversion.
 type: docs
-weight: 5900
+weight: 6050
 url: /net/aspose.words.saving/markdownofficemathexportmode/
 ---
 ## MarkdownOfficeMathExportMode enumeration

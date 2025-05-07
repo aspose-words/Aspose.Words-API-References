@@ -2,11 +2,11 @@
 title: Document.compare method
 linktitle: compare method
 articleTitle: compare method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.compare method"
 type: docs
 weight: 580
-url: /nodejs-net/Aspose.Words/document/compare/
+url: /nodejs-net/aspose.words/document/compare/
 ---
 
 ## compare(document, author, dateTime) {#document_string_date}
@@ -16,7 +16,7 @@ Compares this document with another document producing changes as number of edit
 
 
 ```js
-compare(document: Aspose.Words.Documentauthor: stringdateTime: Date)
+compare(document: Aspose.Words.Document, author: string, dateTime: Date)
 ```
 
 | Parameter | Type | Description |
@@ -37,12 +37,12 @@ compare(document: Aspose.Words.Documentauthor: stringdateTime: Date)
 ## compare(document, author, dateTime, options) {#document_string_date_compareoptions}
 
 Compares this document with another document producing changes as a number of edit and format revisions [Revision](../../revision/).
-Allows to specify comparison options using [CompareOptions](../../../Aspose.Words.Comparing/compareoptions/).
+Allows to specify comparison options using [CompareOptions](../../../aspose.words.comparing/compareoptions/).
 
 
 
 ```js
-compare(document: Aspose.Words.Documentauthor: stringdateTime: Dateoptions: Aspose.Words.Comparing.CompareOptions)
+compare(document: Aspose.Words.Document, author: string, dateTime: Date, options: Aspose.Words.Comparing.CompareOptions)
 ```
 
 | Parameter | Type | Description |
@@ -50,7 +50,7 @@ compare(document: Aspose.Words.Documentauthor: stringdateTime: Dateoptions: Aspo
 | document | [Document](../) |  |
 | author | string |  |
 | dateTime | Date |  |
-| options | [CompareOptions](../../../Aspose.Words.Comparing/compareoptions/) |  |
+| options | [CompareOptions](../../../aspose.words.comparing/compareoptions/) |  |
 
 ## Examples
 

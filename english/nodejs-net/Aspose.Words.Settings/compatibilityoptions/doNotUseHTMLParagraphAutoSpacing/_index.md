@@ -2,11 +2,11 @@
 title: CompatibilityOptions.doNotUseHTMLParagraphAutoSpacing property
 linktitle: doNotUseHTMLParagraphAutoSpacing property
 articleTitle: doNotUseHTMLParagraphAutoSpacing property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.doNotUseHTMLParagraphAutoSpacing property. Use Fixed Paragraph Spacing for HTML Auto Setting."
 type: docs
 weight: 210
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/doNotUseHTMLParagraphAutoSpacing/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/doNotUseHTMLParagraphAutoSpacing/
 ---
 
 ## CompatibilityOptions.doNotUseHTMLParagraphAutoSpacing property

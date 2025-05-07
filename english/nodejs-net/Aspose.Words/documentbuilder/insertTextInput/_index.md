@@ -2,11 +2,11 @@
 title: DocumentBuilder.insertTextInput method
 linktitle: insertTextInput method
 articleTitle: insertTextInput method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.insertTextInput method. Inserts a text form field at the current position."
 type: docs
 weight: 510
-url: /nodejs-net/Aspose.Words/documentbuilder/insertTextInput/
+url: /nodejs-net/aspose.words/documentbuilder/insertTextInput/
 ---
 
 ## insertTextInput(name, type, format, fieldValue, maxLength) {#string_textformfieldtype_string_string_number}
@@ -15,13 +15,13 @@ Inserts a text form field at the current position.
 
 
 ```js
-insertTextInput(name: stringtype: Aspose.Words.Fields.TextFormFieldTypeformat: stringfieldValue: stringmaxLength: number)
+insertTextInput(name: string, type: Aspose.Words.Fields.TextFormFieldType, format: string, fieldValue: string, maxLength: number)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | name | string | The name of the form field. Can be an empty string. |
-| type | [TextFormFieldType](../../../Aspose.Words.Fields/textformfieldtype/) | Specifies the type of the text form field. |
+| type | [TextFormFieldType](../../../aspose.words.fields/textformfieldtype/) | Specifies the type of the text form field. |
 | format | string | Format string used to format the value of the form field. |
 | fieldValue | string | Text that will be shown in the field. |
 | maxLength | number | Maximum length the user can enter into the form field. Set to zero for unlimited length. |

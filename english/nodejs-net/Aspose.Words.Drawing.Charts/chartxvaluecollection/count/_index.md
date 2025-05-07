@@ -2,11 +2,11 @@
 title: ChartXValueCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartXValueCollection.count property. Gets the number of items in this collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartxvaluecollection/count/
+url: /nodejs-net/aspose.words.drawing.charts/chartxvaluecollection/count/
 ---
 
 ## ChartXValueCollection.count property

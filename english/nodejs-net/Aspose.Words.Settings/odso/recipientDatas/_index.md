@@ -2,17 +2,17 @@
 title: Odso.recipientDatas property
 linktitle: recipientDatas property
 articleTitle: recipientDatas property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Odso.recipientDatas property. Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge"
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words.Settings/odso/recipientDatas/
+url: /nodejs-net/aspose.words.settings/odso/recipientDatas/
 ---
 
 ## Odso.recipientDatas property
 
 Gets or sets a collection of objects that specify inclusion/exclusion of individual records in the mail merge.
-This object is never ``None``.
+This object is never ``null``.
 
 
 

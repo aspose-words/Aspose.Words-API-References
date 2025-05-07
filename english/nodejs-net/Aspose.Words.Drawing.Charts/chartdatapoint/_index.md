@@ -2,11 +2,11 @@
 title: ChartDataPoint class
 linktitle: ChartDataPoint class
 articleTitle: ChartDataPoint class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartDataPoint class. Allows to specify formatting of a single data point on the chart"
 type: docs
 weight: 220
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatapoint/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatapoint/
 ---
 
 ## ChartDataPoint class

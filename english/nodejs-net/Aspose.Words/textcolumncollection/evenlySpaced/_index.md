@@ -2,11 +2,11 @@
 title: TextColumnCollection.evenlySpaced property
 linktitle: evenlySpaced property
 articleTitle: evenlySpaced property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextColumnCollection.evenlySpaced property. True if text columns are of equal width and evenly spaced."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/textcolumncollection/evenlySpaced/
+url: /nodejs-net/aspose.words/textcolumncollection/evenlySpaced/
 ---
 
 ## TextColumnCollection.evenlySpaced property

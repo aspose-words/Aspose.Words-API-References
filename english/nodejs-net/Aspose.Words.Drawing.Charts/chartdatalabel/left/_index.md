@@ -2,11 +2,11 @@
 title: ChartDataLabel.left property
 linktitle: left property
 articleTitle: left property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabel.left property. Gets or sets the distance of the data label in points from the left edge of the chart or from the position specified by its [ChartDataLabel.position](../position/) property, depending on the value of the [ChartDataLabel.leftMode](../leftMode/) property."
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabel/left/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabel/left/
 ---
 
 ## ChartDataLabel.left property

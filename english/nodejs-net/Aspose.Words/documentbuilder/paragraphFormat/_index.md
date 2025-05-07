@@ -2,11 +2,11 @@
 title: DocumentBuilder.paragraphFormat property
 linktitle: paragraphFormat property
 articleTitle: paragraphFormat property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilder.paragraphFormat property. Returns an object that represents current paragraph formatting properties."
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words/documentbuilder/paragraphFormat/
+url: /nodejs-net/aspose.words/documentbuilder/paragraphFormat/
 ---
 
 ## DocumentBuilder.paragraphFormat property

@@ -2,11 +2,11 @@
 title: Section.prependContent method
 linktitle: prependContent method
 articleTitle: prependContent method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Section.prependContent method. Inserts a copy of content of the source section at the beginning of this section."
 type: docs
 weight: 140
-url: /nodejs-net/Aspose.Words/section/prependContent/
+url: /nodejs-net/aspose.words/section/prependContent/
 ---
 
 ## prependContent(sourceSection) {#section}

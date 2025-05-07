@@ -2,11 +2,11 @@
 title: FormField.dropDownItems property
 linktitle: dropDownItems property
 articleTitle: dropDownItems property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FormField.dropDownItems property. Provides access to the items of a dropdown form field."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Fields/formfield/dropDownItems/
+url: /nodejs-net/aspose.words.fields/formfield/dropDownItems/
 ---
 
 ## FormField.dropDownItems property

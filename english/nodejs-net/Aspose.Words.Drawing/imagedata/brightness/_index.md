@@ -2,11 +2,11 @@
 title: ImageData.brightness property
 linktitle: brightness property
 articleTitle: brightness property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ImageData.brightness property. Gets or sets the brightness of the picture"
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing/imagedata/brightness/
+url: /nodejs-net/aspose.words.drawing/imagedata/brightness/
 ---
 
 ## ImageData.brightness property

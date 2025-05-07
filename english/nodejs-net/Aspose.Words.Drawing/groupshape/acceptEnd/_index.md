@@ -2,11 +2,11 @@
 title: GroupShape.acceptEnd method
 linktitle: acceptEnd method
 articleTitle: acceptEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "GroupShape.acceptEnd method. Accepts a visitor for visiting the end of the GroupShape."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Drawing/groupshape/acceptEnd/
+url: /nodejs-net/aspose.words.drawing/groupshape/acceptEnd/
 ---
 
 ## acceptEnd(visitor) {#documentvisitor}
@@ -20,7 +20,7 @@ acceptEnd(visitor: Aspose.Words.DocumentVisitor)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | [DocumentVisitor](../../../Aspose.Words/documentvisitor/) | The document visitor. |
+| visitor | [DocumentVisitor](../../../aspose.words/documentvisitor/) | The document visitor. |
 
 ### Returns
 

@@ -2,11 +2,11 @@
 title: PatternType enumeration
 linktitle: PatternType enumeration
 articleTitle: PatternType enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.PatternType enumeration. Specifies the fill pattern to be used to fill a shape."
 type: docs
 weight: 280
-url: /nodejs-net/Aspose.Words.Drawing/patterntype/
+url: /nodejs-net/aspose.words.drawing/patterntype/
 ---
 
 ## PatternType enumeration

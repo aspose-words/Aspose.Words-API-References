@@ -4,7 +4,7 @@ linktitle: DashStyle
 second_title: Aspose.Words for Java
 description: Dashed line style in Java.
 type: docs
-weight: 145
+weight: 147
 url: /java/com.aspose.words/dashstyle/
 ---
 

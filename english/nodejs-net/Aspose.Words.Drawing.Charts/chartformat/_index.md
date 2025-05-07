@@ -2,11 +2,11 @@
 title: ChartFormat class
 linktitle: ChartFormat class
 articleTitle: ChartFormat class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.Charts.ChartFormat class. Represents the formatting of a chart element"
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartformat/
+url: /nodejs-net/aspose.words.drawing.charts/chartformat/
 ---
 
 ## ChartFormat class

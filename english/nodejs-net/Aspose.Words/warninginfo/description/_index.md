@@ -2,11 +2,11 @@
 title: WarningInfo.description property
 linktitle: description property
 articleTitle: description property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WarningInfo.description property. Returns the description of the warning."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/warninginfo/description/
+url: /nodejs-net/aspose.words/warninginfo/description/
 ---
 
 ## WarningInfo.description property

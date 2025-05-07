@@ -2,11 +2,11 @@
 title: EditableRangeStart.id property
 linktitle: id property
 articleTitle: id property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "EditableRangeStart.id property. Specifies the identifier of the editable range."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/editablerangestart/id/
+url: /nodejs-net/aspose.words/editablerangestart/id/
 ---
 
 ## EditableRangeStart.id property

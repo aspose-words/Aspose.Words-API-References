@@ -2,11 +2,11 @@
 title: ThemeFonts class
 linktitle: ThemeFonts class
 articleTitle: ThemeFonts class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Themes.ThemeFonts class. Represents a collection of fonts in the font scheme, allowing to specify different fonts for different languages [ThemeFonts.latin](./latin/), [ThemeFonts.eastAsian](./eastAsian/) and [ThemeFonts.complexScript](./complexScript/)"
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Themes/themefonts/
+url: /nodejs-net/aspose.words.themes/themefonts/
 ---
 
 ## ThemeFonts class

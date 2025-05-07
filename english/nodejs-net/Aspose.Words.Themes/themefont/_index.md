@@ -2,11 +2,11 @@
 title: ThemeFont enumeration
 linktitle: ThemeFont enumeration
 articleTitle: ThemeFont enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Themes.ThemeFont enumeration. Specifies the types of theme font names for document themes."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Themes/themefont/
+url: /nodejs-net/aspose.words.themes/themefont/
 ---
 
 ## ThemeFont enumeration

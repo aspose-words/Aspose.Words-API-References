@@ -2,11 +2,11 @@
 title: HtmlSaveOptions.fontResourcesSubsettingSizeThreshold property
 linktitle: fontResourcesSubsettingSizeThreshold property
 articleTitle: fontResourcesSubsettingSizeThreshold property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.fontResourcesSubsettingSizeThreshold property. Controls which font resources need subsetting when saving to HTML, MHTML or EPUB"
 type: docs
 weight: 290
-url: /nodejs-net/Aspose.Words.Saving/htmlsaveoptions/fontResourcesSubsettingSizeThreshold/
+url: /nodejs-net/aspose.words.saving/htmlsaveoptions/fontResourcesSubsettingSizeThreshold/
 ---
 
 ## HtmlSaveOptions.fontResourcesSubsettingSizeThreshold property

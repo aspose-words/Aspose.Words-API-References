@@ -2,11 +2,11 @@
 title: Node.asSpecialChar method
 linktitle: asSpecialChar method
 articleTitle: asSpecialChar method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asSpecialChar method. Cast node to [SpecialChar](../../specialchar/)."
 type: docs
 weight: 370
-url: /nodejs-net/Aspose.Words/node/asSpecialChar/
+url: /nodejs-net/aspose.words/node/asSpecialChar/
 ---
 
 ## asSpecialChar() {#default}

@@ -2,11 +2,11 @@
 title: Forms2OleControlCollection.this[] property
 linktitle: this[] property
 articleTitle: this[] property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Forms2OleControlCollection.this[] property. "
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Ole/forms2olecontrolcollection/this[]/
+url: /nodejs-net/aspose.words.drawing.ole/forms2olecontrolcollection/this[]/
 ---
 
 ## Forms2OleControlCollection.this[] property

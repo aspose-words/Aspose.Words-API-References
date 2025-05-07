@@ -2,11 +2,11 @@
 title: Node.asRun method
 linktitle: asRun method
 articleTitle: asRun method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Node.asRun method. Cast node to [Run](../../run/)."
 type: docs
 weight: 330
-url: /nodejs-net/Aspose.Words/node/asRun/
+url: /nodejs-net/aspose.words/node/asRun/
 ---
 
 ## asRun() {#default}

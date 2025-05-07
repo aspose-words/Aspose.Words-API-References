@@ -5,7 +5,7 @@ articleTitle: PaperSize
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PaperSize enum for defining custom paper sizes in your documents. Enhance your document formatting with ease!
 type: docs
-weight: 4970
+weight: 5110
 url: /net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
@@ -37,7 +37,9 @@ public enum PaperSize
 | Paper10x14 | `14` | 10 x 14 inches. |
 | Paper11x17 | `15` | 11 x 17 inches. |
 | Number10Envelope | `16` | 4.125 x 9.5 inches. |
-| Custom | `17` | Custom paper size. |
+| JisB4 | `17` | 257 x 364 mm. |
+| JisB5 | `18` | 182 x 257 mm. |
+| Custom | `19` | Custom paper size. |
 
 ## Examples
 

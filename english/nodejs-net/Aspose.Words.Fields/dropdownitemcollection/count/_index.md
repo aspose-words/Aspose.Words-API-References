@@ -2,11 +2,11 @@
 title: DropDownItemCollection.count property
 linktitle: count property
 articleTitle: count property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DropDownItemCollection.count property. Gets the number of elements contained in the collection."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/dropdownitemcollection/count/
+url: /nodejs-net/aspose.words.fields/dropdownitemcollection/count/
 ---
 
 ## DropDownItemCollection.count property

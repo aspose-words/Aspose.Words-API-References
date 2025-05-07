@@ -2,11 +2,11 @@
 title: TxtLoadOptions.leadingSpacesOptions property
 linktitle: leadingSpacesOptions property
 articleTitle: leadingSpacesOptions property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TxtLoadOptions.leadingSpacesOptions property. Gets or sets preferred option of a leading space handling"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Loading/txtloadoptions/leadingSpacesOptions/
+url: /nodejs-net/aspose.words.loading/txtloadoptions/leadingSpacesOptions/
 ---
 
 ## TxtLoadOptions.leadingSpacesOptions property

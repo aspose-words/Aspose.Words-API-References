@@ -2,11 +2,11 @@
 title: Style.list property
 linktitle: list property
 articleTitle: list property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Style.list property. Gets the list that defines formatting of this list style."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words/style/list/
+url: /nodejs-net/aspose.words/style/list/
 ---
 
 ## Style.list property
@@ -21,7 +21,7 @@ get list(): Aspose.Words.Lists.List
 ### Remarks
 
 This property is only valid for list styles.
-For other style types this property returns ``None``.
+For other style types this property returns ``null``.
 
 
 

@@ -2,11 +2,11 @@
 title: ShapeTextOrientation enumeration
 linktitle: ShapeTextOrientation enumeration
 articleTitle: ShapeTextOrientation enumeration
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Drawing.ShapeTextOrientation enumeration. Specifies orientation of text in shapes."
 type: docs
 weight: 410
-url: /nodejs-net/Aspose.Words.Drawing/shapetextorientation/
+url: /nodejs-net/aspose.words.drawing/shapetextorientation/
 ---
 
 ## ShapeTextOrientation enumeration

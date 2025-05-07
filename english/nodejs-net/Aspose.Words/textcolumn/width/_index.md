@@ -2,11 +2,11 @@
 title: TextColumn.width property
 linktitle: width property
 articleTitle: width property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TextColumn.width property. Gets or sets the width of the text column in points."
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words/textcolumn/width/
+url: /nodejs-net/aspose.words/textcolumn/width/
 ---
 
 ## TextColumn.width property

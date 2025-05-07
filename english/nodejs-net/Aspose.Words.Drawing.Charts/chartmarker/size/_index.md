@@ -2,11 +2,11 @@
 title: ChartMarker.size property
 linktitle: size property
 articleTitle: size property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartMarker.size property. Gets or sets chart marker size"
 type: docs
 weight: 20
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartmarker/size/
+url: /nodejs-net/aspose.words.drawing.charts/chartmarker/size/
 ---
 
 ## ChartMarker.size property

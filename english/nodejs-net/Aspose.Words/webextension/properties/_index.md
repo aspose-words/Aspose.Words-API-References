@@ -2,11 +2,11 @@
 title: WebExtension.properties property
 linktitle: properties property
 articleTitle: properties property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "WebExtension.properties property. Represents a set of web extension custom properties."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words/webextension/properties/
+url: /nodejs-net/aspose.words/webextension/properties/
 ---
 
 ## WebExtension.properties property

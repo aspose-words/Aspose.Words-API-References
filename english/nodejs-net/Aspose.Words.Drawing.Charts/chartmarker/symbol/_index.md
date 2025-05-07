@@ -2,11 +2,11 @@
 title: ChartMarker.symbol property
 linktitle: symbol property
 articleTitle: symbol property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartMarker.symbol property. Gets or sets chart marker symbol."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartmarker/symbol/
+url: /nodejs-net/aspose.words.drawing.charts/chartmarker/symbol/
 ---
 
 ## ChartMarker.symbol property

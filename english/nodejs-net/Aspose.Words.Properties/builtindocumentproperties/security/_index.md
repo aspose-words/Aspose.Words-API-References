@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.security property
 linktitle: security property
 articleTitle: security property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.security property. Specifies the security level of a document as a numeric value."
 type: docs
 weight: 250
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/security/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/security/
 ---
 
 ## BuiltInDocumentProperties.security property
@@ -24,7 +24,7 @@ Use this property for informational purposes only because Microsoft Word does no
 set this property. This property is available in DOC and OOXML documents only.
 
 To protect or unprotect a document use the
-[Document.protect()](../../../Aspose.Words/document/protect/#protectiontype_string) and [Document.unprotect()](../../../Aspose.Words/document/unprotect/#default) methods.
+[Document.protect()](../../../aspose.words/document/protect/#protectiontype_string) and [Document.unprotect()](../../../aspose.words/document/unprotect/#default) methods.
 
 Aspose.Words updates this property to a correct value before saving a document.
 

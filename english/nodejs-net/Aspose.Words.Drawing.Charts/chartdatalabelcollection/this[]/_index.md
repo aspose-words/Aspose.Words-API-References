@@ -2,11 +2,11 @@
 title: ChartDataLabelCollection.this[] property
 linktitle: this[] property
 articleTitle: this[] property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ChartDataLabelCollection.this[] property. "
 type: docs
 weight: 170
-url: /nodejs-net/Aspose.Words.Drawing.Charts/chartdatalabelcollection/this[]/
+url: /nodejs-net/aspose.words.drawing.charts/chartdatalabelcollection/this[]/
 ---
 
 ## ChartDataLabelCollection.this[] property

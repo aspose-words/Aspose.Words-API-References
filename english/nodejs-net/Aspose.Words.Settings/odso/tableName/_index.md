@@ -2,11 +2,11 @@
 title: Odso.tableName property
 linktitle: tableName property
 articleTitle: tableName property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Odso.tableName property. Specifies the particular set of data that a source shall be connected to within an external data source"
 type: docs
 weight: 80
-url: /nodejs-net/Aspose.Words.Settings/odso/tableName/
+url: /nodejs-net/aspose.words.settings/odso/tableName/
 ---
 
 ## Odso.tableName property

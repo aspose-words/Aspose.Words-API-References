@@ -2,11 +2,11 @@
 title: PdfDigitalSignatureDetails.hashAlgorithm property
 linktitle: hashAlgorithm property
 articleTitle: hashAlgorithm property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "PdfDigitalSignatureDetails.hashAlgorithm property. Gets or sets the hash algorithm."
 type: docs
 weight: 30
-url: /nodejs-net/Aspose.Words.Saving/pdfdigitalsignaturedetails/hashAlgorithm/
+url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturedetails/hashAlgorithm/
 ---
 
 ## PdfDigitalSignatureDetails.hashAlgorithm property

@@ -2,11 +2,11 @@
 title: ConditionalStyle.shading property
 linktitle: shading property
 articleTitle: shading property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "ConditionalStyle.shading property. Gets a [Shading](../../shading/) object that refers to the shading formatting for this conditional style."
 type: docs
 weight: 70
-url: /nodejs-net/Aspose.Words/conditionalstyle/shading/
+url: /nodejs-net/aspose.words/conditionalstyle/shading/
 ---
 
 ## ConditionalStyle.shading property

@@ -2,11 +2,11 @@
 title: FieldStart.fieldData property
 linktitle: fieldData property
 articleTitle: fieldData property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "FieldStart.fieldData property. Gets custom field data which is associated with the field."
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words.Fields/fieldstart/fieldData/
+url: /nodejs-net/aspose.words.fields/fieldstart/fieldData/
 ---
 
 ## FieldStart.fieldData property

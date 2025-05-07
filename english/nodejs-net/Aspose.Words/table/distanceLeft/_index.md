@@ -2,11 +2,11 @@
 title: Table.distanceLeft property
 linktitle: distanceLeft property
 articleTitle: distanceLeft property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Table.distanceLeft property. Gets or sets distance between table left and the surrounding text, in points."
 type: docs
 weight: 130
-url: /nodejs-net/Aspose.Words/table/distanceLeft/
+url: /nodejs-net/aspose.words/table/distanceLeft/
 ---
 
 ## Table.distanceLeft property

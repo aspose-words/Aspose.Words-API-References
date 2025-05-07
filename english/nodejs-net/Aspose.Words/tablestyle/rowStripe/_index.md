@@ -2,11 +2,11 @@
 title: TableStyle.rowStripe property
 linktitle: rowStripe property
 articleTitle: rowStripe property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "TableStyle.rowStripe property. Gets or sets a number of rows to include in the banding when the style specifies odd/even row banding."
 type: docs
 weight: 120
-url: /nodejs-net/Aspose.Words/tablestyle/rowStripe/
+url: /nodejs-net/aspose.words/tablestyle/rowStripe/
 ---
 
 ## TableStyle.rowStripe property

@@ -2,11 +2,11 @@
 title: BuiltInDocumentProperties.characters property
 linktitle: characters property
 articleTitle: characters property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "BuiltInDocumentProperties.characters property. Represents an estimate of the number of characters in the document."
 type: docs
 weight: 40
-url: /nodejs-net/Aspose.Words.Properties/builtindocumentproperties/characters/
+url: /nodejs-net/aspose.words.properties/builtindocumentproperties/characters/
 ---
 
 ## BuiltInDocumentProperties.characters property
@@ -20,7 +20,7 @@ get characters(): number
 
 ### Remarks
 
-Aspose.Words updates this property when you call [Document.updateWordCount()](../../../Aspose.Words/document/updateWordCount/#default).
+Aspose.Words updates this property when you call [Document.updateWordCount()](../../../aspose.words/document/updateWordCount/#default).
 
 
 

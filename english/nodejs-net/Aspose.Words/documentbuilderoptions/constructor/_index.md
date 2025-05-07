@@ -2,11 +2,11 @@
 title: DocumentBuilderOptions constructor
 linktitle: DocumentBuilderOptions constructor
 articleTitle: DocumentBuilderOptions constructor
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentBuilderOptions constructor. "
 type: docs
 weight: 10
-url: /nodejs-net/Aspose.Words/documentbuilderoptions/constructor/
+url: /nodejs-net/aspose.words/documentbuilderoptions/constructor/
 ---
 
 ## DocumentBuilderOptions() {#default}

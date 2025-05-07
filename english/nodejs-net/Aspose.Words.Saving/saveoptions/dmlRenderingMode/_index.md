@@ -2,11 +2,11 @@
 title: SaveOptions.dmlRenderingMode property
 linktitle: dmlRenderingMode property
 articleTitle: dmlRenderingMode property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "SaveOptions.dmlRenderingMode property. Gets or sets a value determining how DrawingML shapes are rendered."
 type: docs
 weight: 50
-url: /nodejs-net/Aspose.Words.Saving/saveoptions/dmlRenderingMode/
+url: /nodejs-net/aspose.words.saving/saveoptions/dmlRenderingMode/
 ---
 
 ## SaveOptions.dmlRenderingMode property

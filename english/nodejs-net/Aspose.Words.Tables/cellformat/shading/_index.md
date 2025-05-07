@@ -2,16 +2,16 @@
 title: CellFormat.shading property
 linktitle: shading property
 articleTitle: shading property
-second_title: Aspose.Words for NodeJs
-description: "CellFormat.shading property. Returns a [Shading](../../../Aspose.Words/shading/) object that refers to the shading formatting for the cell."
+second_title: Aspose.Words for Node.js
+description: "CellFormat.shading property. Returns a [Shading](../../../aspose.words/shading/) object that refers to the shading formatting for the cell."
 type: docs
 weight: 100
-url: /nodejs-net/Aspose.Words.Tables/cellformat/shading/
+url: /nodejs-net/aspose.words.tables/cellformat/shading/
 ---
 
 ## CellFormat.shading property
 
-Returns a [Shading](../../../Aspose.Words/shading/) object that refers to the shading formatting for the cell.
+Returns a [Shading](../../../aspose.words/shading/) object that refers to the shading formatting for the cell.
 
 
 

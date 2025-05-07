@@ -2,11 +2,11 @@
 title: ListLevelCollection class
 linktitle: ListLevelCollection class
 articleTitle: ListLevelCollection class
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Lists.ListLevelCollection class. A collection of list formatting for each level in a list"
 type: docs
 weight: 60
-url: /nodejs-net/Aspose.Words.Lists/listlevelcollection/
+url: /nodejs-net/aspose.words.lists/listlevelcollection/
 ---
 
 ## ListLevelCollection class

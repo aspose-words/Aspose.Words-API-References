@@ -2,11 +2,11 @@
 title: DocumentVisitor.visitTableEnd method
 linktitle: visitTableEnd method
 articleTitle: visitTableEnd method
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "DocumentVisitor.visitTableEnd method. Called when enumeration of a table has ended."
 type: docs
 weight: 490
-url: /nodejs-net/Aspose.Words/documentvisitor/visitTableEnd/
+url: /nodejs-net/aspose.words/documentvisitor/visitTableEnd/
 ---
 
 ## visitTableEnd(table) {#table}

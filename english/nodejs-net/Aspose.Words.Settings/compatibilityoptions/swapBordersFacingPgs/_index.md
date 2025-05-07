@@ -2,11 +2,11 @@
 title: CompatibilityOptions.swapBordersFacingPgs property
 linktitle: swapBordersFacingPgs property
 articleTitle: swapBordersFacingPgs property
-second_title: Aspose.Words for NodeJs
+second_title: Aspose.Words for Node.js
 description: "CompatibilityOptions.swapBordersFacingPgs property. Swap Paragraph Borders on Odd Numbered Pages."
 type: docs
 weight: 530
-url: /nodejs-net/Aspose.Words.Settings/compatibilityoptions/swapBordersFacingPgs/
+url: /nodejs-net/aspose.words.settings/compatibilityoptions/swapBordersFacingPgs/
 ---
 
 ## CompatibilityOptions.swapBordersFacingPgs property
