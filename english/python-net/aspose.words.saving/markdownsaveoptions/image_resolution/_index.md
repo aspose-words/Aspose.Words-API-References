@@ -5,7 +5,7 @@ articleTitle: image_resolution property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.image_resolution property. Specifies the output resolution for images when exporting to Markdown"
 type: docs
-weight: 50
+weight: 60
 url: /python-net/aspose.words.saving/markdownsaveoptions/image_resolution/
 ---
 

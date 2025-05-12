@@ -5,7 +5,7 @@ articleTitle: link_export_mode property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.link_export_mode property. Specifies how links will be written to the output file"
 type: docs
-weight: 90
+weight: 100
 url: /python-net/aspose.words.saving/markdownsaveoptions/link_export_mode/
 ---
 

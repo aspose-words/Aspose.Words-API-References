@@ -29,7 +29,7 @@ def show_leader_lines(self, value: bool):
 
 ### Remarks
 
-Applies to Pie charts only. 
+Applies to Pie charts only.
 Leader lines create a visual connection between a data label and its corresponding data point.
 
 Value defined for this property can be overridden for an individual data label with using the

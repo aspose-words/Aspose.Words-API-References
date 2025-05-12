@@ -34,8 +34,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [orientation](./orientation/) | Gets or sets the text orientation of the data labels of the entire series. |
 | [position](./position/) | Gets or sets the position of the data labels. |
 | [rotation](./rotation/) | Gets or sets the rotation of the data labels of the entire series in degrees. |
-| [separator](./separator/) | Gets or sets string separator used for the data labels of the entire series.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
-| [show_bubble_size](./show_bubble_size/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts.  Default value is ``False``. |
+| [separator](./separator/) | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
+| [show_bubble_size](./show_bubble_size/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is ``False``. |
 | [show_category_name](./show_category_name/) | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is ``False``. |
 | [show_data_labels_range](./show_data_labels_range/) | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is ``False``. |
 | [show_leader_lines](./show_leader_lines/) | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is ``False``. |

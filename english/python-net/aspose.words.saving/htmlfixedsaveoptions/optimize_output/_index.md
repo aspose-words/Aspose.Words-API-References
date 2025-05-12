@@ -42,7 +42,7 @@ save_options.optimize_output = optimize_output
 doc.save(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.optimize_graphics_output.html', save_options)
 # The size of the optimized version of the document is almost a third of the size of the unoptimized document.
 if optimize_output:
-    self.assertAlmostEqual(61860, os.path.getsize(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.optimize_graphics_output.html'), delta=200)
+    self.assertAlmostEqual(60385, os.path.getsize(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.optimize_graphics_output.html'), delta=200)
 else:
     self.assertAlmostEqual(191000, os.path.getsize(ARTIFACTS_DIR + 'HtmlFixedSaveOptions.optimize_graphics_output.html'), delta=200)
 ```

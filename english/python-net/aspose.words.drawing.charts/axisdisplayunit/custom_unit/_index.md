@@ -29,7 +29,7 @@ def custom_unit(self, value: float):
 
 The property is not supported by MS Office 2016 new charts. Default value is 1.
 
-Setting this property sets the [AxisDisplayUnit.unit](../unit/) property to 
+Setting this property sets the [AxisDisplayUnit.unit](../unit/) property to
 [AxisBuiltInUnit.CUSTOM](../../axisbuiltinunit/#CUSTOM).
 
 

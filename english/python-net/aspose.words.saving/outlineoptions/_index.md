@@ -5,7 +5,7 @@ articleTitle: OutlineOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.OutlineOptions class. Allows to specify outline options"
 type: docs
-weight: 540
+weight: 550
 url: /python-net/aspose.words.saving/outlineoptions/
 ---
 

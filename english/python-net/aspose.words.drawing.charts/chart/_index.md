@@ -31,6 +31,7 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/pyt
 | [series](./series/) | Provides access to series collection. |
 | [series_groups](./series_groups/) | Provides access to a series group collection of this chart. |
 | [source_full_name](./source_full_name/) | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [style](./style/) | Gets or sets the style of the chart. |
 | [title](./title/) | Provides access to the chart title properties. |
 
 ### Examples
