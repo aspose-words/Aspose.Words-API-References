@@ -27,7 +27,7 @@ def major_unit(self, value: float):
 
 ### Remarks
 
-Valid range of a value is greater than zero. The property has effect for time category and 
+Valid range of a value is greater than zero. The property has effect for time category and
 value axes.
 
 Setting this property sets the [ChartAxis.major_unit_is_auto](../major_unit_is_auto/) property to ``False``.

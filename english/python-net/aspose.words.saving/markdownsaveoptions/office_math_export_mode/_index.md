@@ -5,7 +5,7 @@ articleTitle: office_math_export_mode property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.office_math_export_mode property. Specifies how OfficeMath will be written to the output file"
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.saving/markdownsaveoptions/office_math_export_mode/
 ---
 

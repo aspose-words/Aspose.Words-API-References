@@ -5,7 +5,7 @@ articleTitle: MarkdownSaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MarkdownSaveOptions class. Class to specify additional options when saving a document into the [SaveFormat.MARKDOWN](../../aspose.words/saveformat/#MARKDOWN) format"
 type: docs
-weight: 460
+weight: 470
 url: /python-net/aspose.words.saving/markdownsaveoptions/
 ---
 
@@ -33,6 +33,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [dml_3d_effects_rendering_mode](../saveoptions/dml_3d_effects_rendering_mode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_effects_rendering_mode](../saveoptions/dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml_rendering_mode](../saveoptions/dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [empty_paragraph_export_mode](./empty_paragraph_export_mode/) | Specifies how to export empty paragraphs to Markdown. Default value is [MarkdownEmptyParagraphExportMode.EMPTY_LINE](../markdownemptyparagraphexportmode/#EMPTY_LINE). |
 | [encoding](../txtsaveoptionsbase/encoding/) | Specifies the encoding to use when exporting in text formats.  Default value is **Encoding.UTF8**.<br>(Inherited from [TxtSaveOptionsBase](../txtsaveoptionsbase/)) |
 | [export_as_html](./export_as_html/) | Allows to specify the elements to be exported to Markdown as raw HTML. Default value is [MarkdownExportAsHtml.NONE](../markdownexportashtml/#NONE). |
 | [export_generator_name](../saveoptions/export_generator_name/) | When ``True``, causes the name and version of Aspose.Words to be embedded into produced files. Default value is ``True``.<br>(Inherited from [SaveOptions](../saveoptions/)) |

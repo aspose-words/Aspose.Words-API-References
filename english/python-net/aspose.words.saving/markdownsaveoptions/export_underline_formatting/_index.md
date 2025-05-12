@@ -5,7 +5,7 @@ articleTitle: export_underline_formatting property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.export_underline_formatting property. Gets or sets a boolean value indicating either to export underline text formatting as sequence of two plus characters ++"
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.saving/markdownsaveoptions/export_underline_formatting/
 ---
 

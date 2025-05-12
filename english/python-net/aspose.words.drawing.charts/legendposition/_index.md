@@ -5,7 +5,7 @@ articleTitle: LegendPosition enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.LegendPosition enumeration. Specifies the possible positions for a chart legend."
 type: docs
-weight: 480
+weight: 490
 url: /python-net/aspose.words.drawing.charts/legendposition/
 ---
 

@@ -12,7 +12,7 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/show_bubbl
 ## ChartDataLabelCollection.show_bubble_size property
 
 Allows to specify whether bubble size is to be displayed for the data labels of the entire series.
-Applies only to Bubble charts. 
+Applies only to Bubble charts.
 Default value is ``False``.
 
 

@@ -5,7 +5,7 @@ articleTitle: ChartYValueType enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.drawing.charts.ChartYValueType enumeration. Allows to specify type of an Y value of a chart series."
 type: docs
-weight: 460
+weight: 470
 url: /python-net/aspose.words.drawing.charts/chartyvaluetype/
 ---
 

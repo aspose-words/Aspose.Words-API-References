@@ -70,6 +70,7 @@ The chart supported are Word 2007 (or higher) DrawingML Charts.
 | [ChartDataLabelPosition](./chartdatalabelposition/) | Specifies the position for a chart data label. |
 | [ChartSeriesType](./chartseriestype/) | Specifies a type of a chart series. |
 | [ChartShapeType](./chartshapetype/) | Specifies the shape type of chart elements. |
+| [ChartStyle](./chartstyle/) | Specifies predefined styles of a chart. |
 | [ChartType](./charttype/) | Specifies type of a chart. |
 | [ChartXValueType](./chartxvaluetype/) | Allows to specify type of an X value of a chart series. |
 | [ChartYValueType](./chartyvaluetype/) | Allows to specify type of an Y value of a chart series. |
