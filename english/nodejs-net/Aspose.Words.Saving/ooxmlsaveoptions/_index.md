@@ -5,7 +5,7 @@ articleTitle: OoxmlSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.OoxmlSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Docx](../../aspose.words/saveformat/#Docx), [SaveFormat.Docm](../../aspose.words/saveformat/#Docm), [SaveFormat.Dotx](../../aspose.words/saveformat/#Dotx), [SaveFormat.Dotm](../../aspose.words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../aspose.words/saveformat/#FlatOpc) format"
 type: docs
-weight: 530
+weight: 520
 url: /nodejs-net/aspose.words.saving/ooxmlsaveoptions/
 ---
 
@@ -34,7 +34,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [allowEmbeddingPostScriptFonts](../saveoptions/allowEmbeddingPostScriptFonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [compliance](./compliance/) | Specifies the OOXML version for the output document. The default value is [OoxmlCompliance.Ecma376_2006](../ooxmlcompliance/#Ecma376_2006). |
 | [compressionLevel](./compressionLevel/) | Specifies the compression level used to save document. The default value is [CompressionLevel.Normal](../compressionlevel/#Normal). |
-| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** .<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [digitalSignatureDetails](./digitalSignatureDetails/) | Gets or sets [DigitalSignatureDetails](../digitalsignaturedetails/) object used to sign a document. |
 | [dml3DEffectsRenderingMode](../saveoptions/dml3DEffectsRenderingMode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlEffectsRenderingMode](../saveoptions/dmlEffectsRenderingMode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -45,7 +45,6 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [memoryOptimization](../saveoptions/memoryOptimization/) | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [password](./password/) | Gets/sets a password to encrypt document using ECMA376 Standard encryption algorithm. |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can be [SaveFormat.Docx](../../aspose.words/saveformat/#Docx), [SaveFormat.Docm](../../aspose.words/saveformat/#Docm), [SaveFormat.Dotx](../../aspose.words/saveformat/#Dotx), [SaveFormat.Dotm](../../aspose.words/saveformat/#Dotm) or [SaveFormat.FlatOpc](../../aspose.words/saveformat/#FlatOpc). |
 | [tempFolder](../saveoptions/tempFolder/) | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [updateAmbiguousTextFont](../saveoptions/updateAmbiguousTextFont/) | Determines whether the font attributes will be changed according to the character code being used.<br>(Inherited from [SaveOptions](../saveoptions/)) |

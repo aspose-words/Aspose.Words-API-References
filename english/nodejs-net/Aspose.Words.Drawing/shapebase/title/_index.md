@@ -5,7 +5,7 @@ articleTitle: title property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.title property. Gets or sets the title (caption) of the current shape object."
 type: docs
-weight: 510
+weight: 570
 url: /nodejs-net/aspose.words.drawing/shapebase/title/
 ---
 

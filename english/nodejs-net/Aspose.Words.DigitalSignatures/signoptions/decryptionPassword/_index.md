@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words.digitalsignatures/signoptions/decryptionPassword/
 ## SignOptions.decryptionPassword property
 
 The password to decrypt source document.
-Default value is **empty string** ().
-
+Default value is **empty string**
+.
 
 
 ```js

@@ -5,7 +5,7 @@ articleTitle: nextPreOrder method
 second_title: Aspose.Words for Node.js
 description: "Node.nextPreOrder method. Gets next node according to the pre-order tree traversal algorithm."
 type: docs
-weight: 460
+weight: 450
 url: /nodejs-net/aspose.words/node/nextPreOrder/
 ---
 

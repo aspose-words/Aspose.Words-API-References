@@ -22,11 +22,11 @@ get documentSplitHeadingLevel(): number
 
 ### Remarks
 
-When [HtmlSaveOptions.documentSplitCriteria](../documentSplitCriteria/) includes [DocumentSplitCriteria.HeadingParagraph](../../documentsplitcriteria/#HeadingParagraph) 
-and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using 
+When [HtmlSaveOptions.documentSplitCriteria](../documentSplitCriteria/) includes [DocumentSplitCriteria.HeadingParagraph](../../documentsplitcriteria/#HeadingParagraph)
+and this property is set to a value from 1 to 9, the document will be split at paragraphs formatted using
 **Heading 1**, **Heading 2** , **Heading 3** etc. styles up to the specified heading level.
 
-By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split. 
+By default, only **Heading 1** and **Heading 2** paragraphs cause the document to be split.
 Setting this property to zero will cause the document not to be split at heading paragraphs at all.
 
 

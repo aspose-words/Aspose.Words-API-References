@@ -5,7 +5,7 @@ articleTitle: shadowFormat property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.shadowFormat property. Gets shadow formatting for the shape."
 type: docs
-weight: 470
+weight: 520
 url: /nodejs-net/aspose.words.drawing/shapebase/shadowFormat/
 ---
 

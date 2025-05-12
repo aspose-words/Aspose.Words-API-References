@@ -5,7 +5,7 @@ articleTitle: linkExportMode property
 second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.linkExportMode property. Specifies how links will be written to the output file"
 type: docs
-weight: 90
+weight: 100
 url: /nodejs-net/aspose.words.saving/markdownsaveoptions/linkExportMode/
 ---
 

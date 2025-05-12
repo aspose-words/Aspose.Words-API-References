@@ -53,7 +53,6 @@ to the same [Comment.id](../comment/id/) value.
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ asBody()](../node/asBody/#default) | Cast node to [Body](../body/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkStart()](../node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/).<br>(Inherited from [Node](../node/)) |
@@ -136,7 +135,7 @@ function printAllCommentInfo(comments)
   let commentVisitor = new CommentInfoPrinter();
 
     // Iterate over all top-level comments. Unlike reply-type comments, top-level comments have no ancestor.
-  foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+  foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
   {
       // First, visit the start of the comment range.
     let commentRangeStart = (CommentRangeStart)comment.previousSibling.previousSibling.previousSibling;
@@ -144,6 +143,10 @@ function printAllCommentInfo(comments)
 
       // Then, visit the comment, and any replies that it may have.
     comment.accept(commentVisitor);
+      // Visit only start of the comment.
+    comment.acceptStart(commentVisitor);
+      // Visit only end of the comment.
+    comment.acceptEnd(commentVisitor);
 
     for (let reply of comment.replies)
       reply.accept(commentVisitor);

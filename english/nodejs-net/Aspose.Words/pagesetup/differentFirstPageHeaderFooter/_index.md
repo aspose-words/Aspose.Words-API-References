@@ -97,8 +97,7 @@ test.each([false,
   let firstPageSection = doc.firstSection;
 
   let logger = new ReplaceLog();
-  let options = new aw.Replacing.FindReplaceOptions();
-  options.replacingCallback = logger;
+  let options = new aw.Replacing.FindReplaceOptions(logger);
 
   // Using a different header/footer for the first page will affect the search order.
   firstPageSection.pageSetup.differentFirstPageHeaderFooter = differentFirstPageHeaderFooter;

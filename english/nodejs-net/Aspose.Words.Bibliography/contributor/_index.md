@@ -19,7 +19,7 @@ Represents a bibliography source contributor. Can be either an corporate (an org
 | Name | Description |
 | --- | --- |
 |[ asCorporate()](./asCorporate/#default) | Casts contributor to [Corporate](../corporate/), otherwise returns null. |
-|[ asPersonCollection()](./asPersonCollection/#default) | Casts contributor to Aspose.Words.Bibliography.PersonCollection, otherwise returns null. |
+|[ asPersonCollection()](./asPersonCollection/#default) | Casts contributor to [PersonCollection](../personcollection/), otherwise returns null. |
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: VbaProject class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Vba.VbaProject class. Provides access to VBA project information"
 type: docs
-weight: 30
+weight: 40
 url: /nodejs-net/aspose.words.vba/vbaproject/
 ---
 

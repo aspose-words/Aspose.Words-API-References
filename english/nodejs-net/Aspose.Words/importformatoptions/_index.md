@@ -5,7 +5,7 @@ articleTitle: ImportFormatOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ImportFormatOptions class. Allows to specify various import options to format output"
 type: docs
-weight: 630
+weight: 620
 url: /nodejs-net/aspose.words/importformatoptions/
 ---
 
@@ -52,7 +52,7 @@ builder.writeln("Hello world!");
 
 // Clone the document and edit the clone's "MyStyle" style, so it is a different color than that of the original.
 // If we insert the clone into the original document, the two styles with the same name will cause a clash.
-let srcDoc = dstDoc.clone(); // TODO cast to Document
+let srcDoc = dstDoc.clone().asDocument();
 srcDoc.styles.at("MyStyle").font.color = "#FF0000";
 
 // When we enable SmartStyleBehavior and use the KeepSourceFormatting import format mode,

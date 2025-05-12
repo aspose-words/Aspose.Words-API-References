@@ -25,7 +25,7 @@ get exportDropDownFormFieldAsText(): boolean
 When set to ``true``, exports drop-down form fields as normal text.
 When ``false``, exports drop-down form fields as SELECT element in HTML.
 
-When exporting to EPUB, text drop-down form fields are always saved as text due 
+When exporting to EPUB, text drop-down form fields are always saved as text due
 to requirements of this format.
 
 

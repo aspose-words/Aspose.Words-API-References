@@ -5,7 +5,7 @@ articleTitle: extractPages method
 second_title: Aspose.Words for Node.js
 description: "Document.extractPages method. Returns the [Document](../) object representing specified range of pages."
 type: docs
-weight: 620
+weight: 600
 url: /nodejs-net/aspose.words/document/extractPages/
 ---
 

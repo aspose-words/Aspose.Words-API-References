@@ -25,8 +25,7 @@ PageSet(page: number)
 ### Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering.
-int.MaxValue C# constant means the last page in the document.
-
+ means the last page in the document.
 
 
 ## PageSet(pages) {#number[]}
@@ -45,8 +44,7 @@ PageSet(pages: number[])
 ### Remarks
 
 If a page is encountered that is not in the document, an exception will be thrown during rendering.
-int.MaxValue C# constant means the last page in the document.
-
+ means the last page in the document.
 
 
 ## PageSet(ranges) {#pagerange[]}

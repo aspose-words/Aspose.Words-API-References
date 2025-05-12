@@ -5,7 +5,7 @@ articleTitle: Inline class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Inline class. Base class for inline-level nodes that can have character formatting associated with them, but cannot have child nodes of their own"
 type: docs
-weight: 640
+weight: 630
 url: /nodejs-net/aspose.words/inline/
 ---
 
@@ -50,7 +50,6 @@ A class derived from [Inline](./) can be a child of [Paragraph](../paragraph/).
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](../node/accept/#documentvisitor) | Accepts a visitor.<br>(Inherited from [Node](../node/)) |
 |[ asBody()](../node/asBody/#default) | Cast node to [Body](../body/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkEnd()](../node/asBookmarkEnd/#default) | Cast node to [BookmarkEnd](../bookmarkend/).<br>(Inherited from [Node](../node/)) |
 |[ asBookmarkStart()](../node/asBookmarkStart/#default) | Cast node to [BookmarkStart](../bookmarkstart/).<br>(Inherited from [Node](../node/)) |

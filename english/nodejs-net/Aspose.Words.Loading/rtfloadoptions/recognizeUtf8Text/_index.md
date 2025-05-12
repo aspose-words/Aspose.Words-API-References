@@ -17,7 +17,6 @@ they will be preserved during import.
 
 
 
-
 ```js
 get recognizeUtf8Text(): boolean
 ```

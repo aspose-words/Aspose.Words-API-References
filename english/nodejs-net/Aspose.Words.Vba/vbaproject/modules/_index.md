@@ -15,7 +15,7 @@ Returns collection of VBA project modules.
 
 
 ```js
-get modules(): None
+get modules(): Aspose.Words.Vba.VbaModuleCollection
 ```
 
 ### See Also

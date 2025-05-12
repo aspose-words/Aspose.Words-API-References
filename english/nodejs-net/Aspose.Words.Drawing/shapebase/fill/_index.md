@@ -5,7 +5,7 @@ articleTitle: fill property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.fill property. Gets fill formatting for the shape."
 type: docs
-weight: 120
+weight: 170
 url: /nodejs-net/aspose.words.drawing/shapebase/fill/
 ---
 

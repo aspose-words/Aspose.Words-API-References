@@ -5,7 +5,7 @@ articleTitle: tableWidthOutputMode property
 second_title: Aspose.Words for Node.js
 description: "HtmlSaveOptions.tableWidthOutputMode property. Controls how table, row and cell widths are exported to HTML, MHTML or EPUB"
 type: docs
-weight: 470
+weight: 480
 url: /nodejs-net/aspose.words.saving/htmlsaveoptions/tableWidthOutputMode/
 ---
 
@@ -22,19 +22,19 @@ get tableWidthOutputMode(): Aspose.Words.Saving.HtmlElementSizeOutputMode
 
 ### Remarks
 
-In the HTML format, table, row and cell elements 
+In the HTML format, table, row and cell elements
 (**\<table\>**, **\<tr\>**, **\<th\>**, **\<td\>**)
 can have their widths specified either in relative (percentage) or in absolute units.
-In a document in Aspose.Words, tables, rows and cells can have their widths specified 
+In a document in Aspose.Words, tables, rows and cells can have their widths specified
 using either relative or absolute units too.
 
 When you convert a document to HTML using Aspose.Words, you might want to control how
-table, row and cell widths are exported to affect how the resulting document is displayed 
+table, row and cell widths are exported to affect how the resulting document is displayed
 in the visual agent (e.g. a browser or viewer).
 
 Use this property as a filter to specify what table widths values are exported into the destination document.
 For example, if you are converting a document to EPUB and intend to view the document on a mobile reading device,
-then you probably want to avoid exporting absolute width values. To do this you need to specify 
+then you probably want to avoid exporting absolute width values. To do this you need to specify
 the output mode [HtmlElementSizeOutputMode.RelativeOnly](../../htmlelementsizeoutputmode/#RelativeOnly) or [HtmlElementSizeOutputMode.None](../../htmlelementsizeoutputmode/#None)
 so the viewer on the mobile device can layout the table to fit the width of the screen as best as it can.
 

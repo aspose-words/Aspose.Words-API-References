@@ -5,7 +5,7 @@ articleTitle: importNode method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.DocumentBase.importNode method"
 type: docs
-weight: 110
+weight: 100
 url: /nodejs-net/aspose.words/documentbase/importNode/
 ---
 
@@ -148,7 +148,7 @@ expect(dstDoc.styles.at("My style_0")).toBe(null);
 expect(importedSection.body.firstParagraph.runs.at(0).font.name).toEqual(dstStyle.font.name);
 expect(importedSection.body.firstParagraph.runs.at(0).font.styleName).toEqual(dstStyle.name);
 
-// If we use aw.ImportFormatMode.KeepDifferentStyles, the source style is preserved,
+// If we use ImportFormatMode.KeepDifferentStyles, the source style is preserved,
 // and the naming clash resolves by adding a suffix.
 dstDoc.importNode(srcDoc.firstSection, true, aw.ImportFormatMode.KeepDifferentStyles);
 expect(dstDoc.styles.at("My style").font.name).toEqual(dstStyle.font.name);

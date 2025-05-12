@@ -27,6 +27,30 @@ The range of acceptable values is from 0 to 90 inclusive. The default value is 7
 
 
 
+### Examples
+
+Shows how to create and format Doughnut chart.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let shape = builder.insertChart(aw.Drawing.Charts.ChartType.Doughnut, 400, 400);
+let chart = shape.chart;
+// Delete the default generated series.
+chart.series.clear();
+
+let categories = [ "Category 1", "Category 2", "Category 3" ];
+chart.series.add("Series 1", categories, [ 4, 2, 5 ]);
+
+// Format the Doughnut chart.
+let seriesGroup = chart.seriesGroups.at(0);
+seriesGroup.doughnutHoleSize = 10;
+seriesGroup.firstSliceAngle = 270;
+
+doc.save(base.artifactsDir + "Charts.doughnutChart.docx");
+```
+
 ### See Also
 
 * module [Aspose.Words.Drawing.Charts](../../)

@@ -21,8 +21,7 @@ get cacheKey(): string
 ### Remarks
 
 This key is used to identify cache item when saving/loading font search cache with
-[FontSettings.saveSearchCache()](../../fontsettings/saveSearchCache/#buffer) and
-[FontSettings.setFontsSources()](../../fontsettings/setFontsSources/#fontsourcebase[]_buffer) methods.
+ methods.
 
 If key is not specified then [FileFontSource.filePath](../filePath/) will be used as a key instead.
 

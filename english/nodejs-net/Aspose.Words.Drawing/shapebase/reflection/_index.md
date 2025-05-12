@@ -5,7 +5,7 @@ articleTitle: reflection property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.reflection property. Gets reflection formatting for the shape."
 type: docs
-weight: 390
+weight: 440
 url: /nodejs-net/aspose.words.drawing/shapebase/reflection/
 ---
 

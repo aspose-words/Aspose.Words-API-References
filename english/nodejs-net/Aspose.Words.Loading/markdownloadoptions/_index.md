@@ -5,7 +5,7 @@ articleTitle: MarkdownLoadOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Loading.MarkdownLoadOptions class. Allows to specify additional options when loading [LoadFormat.Markdown](../../aspose.words/loadformat/#Markdown) document into a [Document](../../aspose.words/document/) object."
 type: docs
-weight: 120
+weight: 110
 url: /nodejs-net/aspose.words.loading/markdownloadoptions/
 ---
 
@@ -39,7 +39,6 @@ Allows to specify additional options when loading [LoadFormat.Markdown](../../as
 | [password](../loadoptions/password/) | Gets or sets the password for opening an encrypted document. Can be ``null`` or empty string. Default is ``null``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [preserveEmptyLines](./preserveEmptyLines/) | Gets or sets a boolean value indicating whether to preserve empty lines while load a [LoadFormat.Markdown](../../aspose.words/loadformat/#Markdown) document. The default value is ``false``. Normally, empty lines between block-level elements in Markdown are ignored. Empty lines at the beginning and end of the document are also ignored. This option allows to import such empty lines. |
 | [preserveIncludePictureField](../loadoptions/preserveIncludePictureField/) | Gets or sets whether to preserve the INCLUDEPICTURE field when reading Microsoft Word formats. The default value is ``false``.<br>(Inherited from [LoadOptions](../loadoptions/)) |
-| [progressCallback](../loadoptions/progressCallback/) | Called during loading a document and accepts data about loading progress.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [resourceLoadingCallback](../loadoptions/resourceLoadingCallback/) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [tempFolder](../loadoptions/tempFolder/) | Allows to use temporary files when reading document. By default this property is ``null`` and no temporary files are used.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [updateDirtyFields](../loadoptions/updateDirtyFields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |

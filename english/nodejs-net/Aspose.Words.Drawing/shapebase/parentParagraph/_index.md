@@ -5,7 +5,7 @@ articleTitle: parentParagraph property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.parentParagraph property. Returns the immediate parent paragraph."
 type: docs
-weight: 380
+weight: 430
 url: /nodejs-net/aspose.words.drawing/shapebase/parentParagraph/
 ---
 

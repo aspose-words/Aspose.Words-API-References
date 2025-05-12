@@ -115,6 +115,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [lastSection](./lastSection/) | Gets the last section in the document. |
 | [layoutOptions](./layoutOptions/) | Gets a [LayoutOptions](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |
 | [lists](../documentbase/lists/) | Provides access to the list formatting used in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
+| [mailMergeSettings](./mailMergeSettings/) | Gets or sets the object that contains all of the mail merge information for a document. |
 | [nextSibling](../node/nextSibling/) | Gets the node immediately following this node.<br>(Inherited from [Node](../node/)) |
 | [nodeChangingCallback](../documentbase/nodeChangingCallback/) | Called when a node is inserted or removed in the document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [nodeType](./nodeType/) | Returns [NodeType.Document](../nodetype/#Document). |
@@ -144,7 +145,6 @@ In Microsoft Word, a valid document needs to have at least one section.
 | [vbaProject](./vbaProject/) | Gets or sets a [Document.vbaProject](./vbaProject/). |
 | [versionsCount](./versionsCount/) | Gets the number of document versions that was stored in the DOC document. |
 | [viewOptions](./viewOptions/) | Provides options to control how the document is displayed in Microsoft Word. |
-| [warningCallback](../documentbase/warningCallback/) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss.<br>(Inherited from [DocumentBase](../documentbase/)) |
 | [watermark](./watermark/) | Provides access to the document watermark. |
 | [webExtensionTaskPanes](./webExtensionTaskPanes/) | Returns a collection that represents a list of task pane add-ins. |
 | [writeProtection](./writeProtection/) | Provides access to the document write protection options. |
@@ -153,10 +153,7 @@ In Microsoft Word, a valid document needs to have at least one section.
 
 | Name | Description |
 | --- | --- |
-|[ accept(visitor)](./accept/#documentvisitor) | Accepts a visitor. |
 |[ acceptAllRevisions()](./acceptAllRevisions/#default) | Accepts all tracked changes in the document. |
-|[ acceptEnd(visitor)](./acceptEnd/#documentvisitor) | Accepts a visitor for visiting the end of the document. |
-|[ acceptStart(visitor)](./acceptStart/#documentvisitor) | Accepts a visitor for visiting the start of the document. |
 |[ appendChild(newChild)](../compositenode/appendChild/#node) | Adds the specified node to the end of the list of child nodes for this node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ appendDocument(srcDoc, importFormatMode)](./appendDocument/#document_importformatmode) | Appends the specified document to the end of this document. |
 |[ appendDocument(srcDoc, importFormatMode, importFormatOptions)](./appendDocument/#document_importformatmode_importformatoptions) | Appends the specified document to the end of this document. |
@@ -204,23 +201,23 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ expandTableStylesToDirectFormatting()](./expandTableStylesToDirectFormatting/#default) | Converts formatting specified in table styles into direct formatting on tables in the document. |
 |[ extractPages(index, count)](./extractPages/#number_number) | Returns the [Document](./) object representing specified range of pages. |
 |[ getAncestor(ancestorType)](../node/getAncestor/#nodetype) | Gets the first ancestor of the specified [NodeType](../nodetype/).<br>(Inherited from [Node](../node/)) |
-|[ getBuildingBlock(index, isDeep)](../compositenode/getBuildingBlock/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getBuildingBlock(index, isDeep)](../compositenode/getBuildingBlock/#number_boolean) | Returns an Nth child [BuildingBlock](../buildingblock/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ getChild(nodeType, index, isDeep)](../compositenode/getChild/#nodetype_number_boolean) | Returns an Nth child node that matches the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ getChildNodes(nodeType, isDeep)](../compositenode/getChildNodes/#nodetype_boolean) | Returns a live collection of child nodes that match the specified type.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getComment(index, isDeep)](../compositenode/getComment/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getEditableRangeStart(index, isDeep)](../compositenode/getEditableRangeStart/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getFootnote(index, isDeep)](../compositenode/getFootnote/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getGroupShape(index, isDeep)](../compositenode/getGroupShape/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getOfficeMath(index, isDeep)](../compositenode/getOfficeMath/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getComment(index, isDeep)](../compositenode/getComment/#number_boolean) | Returns an Nth child [Comment](../comment/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getEditableRangeStart(index, isDeep)](../compositenode/getEditableRangeStart/#number_boolean) | Returns an Nth child [EditableRangeStart](../editablerangestart/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getFootnote(index, isDeep)](../compositenode/getFootnote/#number_boolean) | Returns an Nth child [Footnote](../../aspose.words.notes/footnote/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getGroupShape(index, isDeep)](../compositenode/getGroupShape/#number_boolean) | Returns an Nth child [GroupShape](../../aspose.words.drawing/groupshape/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getOfficeMath(index, isDeep)](../compositenode/getOfficeMath/#number_boolean) | Returns an Nth child [OfficeMath](../../aspose.words.math/officemath/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ getPageInfo(pageIndex)](./getPageInfo/#number) | Gets the page size, orientation and other information about a page that might be useful for printing or rendering. |
-|[ getParagraph(index, isDeep)](../compositenode/getParagraph/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getRun(index, isDeep)](../compositenode/getRun/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getSdt(index, isDeep)](../compositenode/getSdt/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getSdtRangeEnd(index, isDeep)](../compositenode/getSdtRangeEnd/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getSdtRangeStart(index, isDeep)](../compositenode/getSdtRangeStart/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getShape(index, isDeep)](../compositenode/getShape/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getSmartTag(index, isDeep)](../compositenode/getSmartTag/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ getTable(index, isDeep)](../compositenode/getTable/#number_boolean) | <br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getParagraph(index, isDeep)](../compositenode/getParagraph/#number_boolean) | Returns an Nth child [Paragraph](../paragraph/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getRun(index, isDeep)](../compositenode/getRun/#number_boolean) | Returns an Nth child [Run](../run/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getSdt(index, isDeep)](../compositenode/getSdt/#number_boolean) | Returns an Nth child [StructuredDocumentTag](../../aspose.words.markup/structureddocumenttag/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getSdtRangeEnd(index, isDeep)](../compositenode/getSdtRangeEnd/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeEnd](../../aspose.words.markup/structureddocumenttagrangeend/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getSdtRangeStart(index, isDeep)](../compositenode/getSdtRangeStart/#number_boolean) | Returns an Nth child [StructuredDocumentTagRangeStart](../../aspose.words.markup/structureddocumenttagrangestart/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getShape(index, isDeep)](../compositenode/getShape/#number_boolean) | Returns an Nth child [Shape](../../aspose.words.drawing/shape/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getSmartTag(index, isDeep)](../compositenode/getSmartTag/#number_boolean) | Returns an Nth child [SmartTag](../../aspose.words.markup/smarttag/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
+|[ getTable(index, isDeep)](../compositenode/getTable/#number_boolean) | Returns an Nth child [Table](../table/) node.<br>(Inherited from [CompositeNode](../compositenode/)) |
 |[ getText()](../node/getText/#default) | Gets the text of this node and of all its children.<br>(Inherited from [Node](../node/)) |
 |[ importNode(srcNode, isImportChildren)](../documentbase/importNode/#node_boolean) | Imports a node from another document to the current document.<br>(Inherited from [DocumentBase](../documentbase/)) |
 |[ importNode(srcNode, isImportChildren, importFormatMode)](../documentbase/importNode/#node_boolean_importformatmode) | Imports a node from another document to the current document with an option to control formatting.<br>(Inherited from [DocumentBase](../documentbase/)) |
@@ -243,8 +240,8 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ removeExternalSchemaReferences()](./removeExternalSchemaReferences/#default) | Removes external XML schema references from this document. |
 |[ removeMacros()](./removeMacros/#default) | Removes all macros (the VBA project) as well as toolbars and command customizations from the document. |
 |[ removeSmartTags()](../compositenode/removeSmartTags/#default) | Removes all [SmartTag](../../aspose.words.markup/smarttag/) descendant nodes of the current node.<br>(Inherited from [CompositeNode](../compositenode/)) |
-|[ save(stream, saveFormat)](./save/#unknown_saveformat) |  |
-|[ save(stream, saveOptions)](./save/#unknown_saveoptions) |  |
+|[ save(stream, saveFormat)](./save/#unknown_saveformat) | Saves the document to a stream using the specified format. |
+|[ save(stream, saveOptions)](./save/#unknown_saveoptions) | Saves the document to a stream using the specified save options. |
 |[ save(fileName)](./save/#string) | Saves the document to a file. Automatically determines the save format from the extension. |
 |[ save(fileName, saveFormat)](./save/#string_saveformat) | Saves the document to a file in the specified format. |
 |[ save(fileName, saveOptions)](./save/#string_saveoptions) | Saves the document to a file using the specified save options. |

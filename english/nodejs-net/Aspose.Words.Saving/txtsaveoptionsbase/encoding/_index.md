@@ -12,8 +12,7 @@ url: /nodejs-net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ## TxtSaveOptionsBase.encoding property
 
 Specifies the encoding to use when exporting in text formats. 
-Default value is **Encoding.UTF8**.
-
+Default value is .
 
 
 ```js

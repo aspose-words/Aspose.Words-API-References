@@ -5,7 +5,7 @@ articleTitle: glow property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.glow property. Gets glow formatting for the shape."
 type: docs
-weight: 150
+weight: 200
 url: /nodejs-net/aspose.words.drawing/shapebase/glow/
 ---
 

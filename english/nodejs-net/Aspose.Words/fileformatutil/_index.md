@@ -5,7 +5,7 @@ articleTitle: FileFormatUtil class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.FileFormatUtil class. Provides utility methods for working with file formats, such as detecting file format or converting file extensions to/from file format enums"
 type: docs
-weight: 440
+weight: 430
 url: /nodejs-net/aspose.words/fileformatutil/
 ---
 

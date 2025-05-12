@@ -5,7 +5,7 @@ articleTitle: setText method
 second_title: Aspose.Words for Node.js
 description: "Comment.setText method. This is a convenience method that allows to easily set text of the comment."
 type: docs
-weight: 190
+weight: 160
 url: /nodejs-net/aspose.words/comment/setText/
 ---
 

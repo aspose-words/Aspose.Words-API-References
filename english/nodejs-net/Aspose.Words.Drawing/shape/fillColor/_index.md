@@ -23,7 +23,7 @@ get fillColor(): string
 This is a shortcut to the [Fill.color](../../fill/color/) property.
 
 The default value is
-aspose.pydrawing.Color.white.
+white.
 
 
 

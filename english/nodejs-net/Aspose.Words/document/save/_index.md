@@ -5,11 +5,14 @@ articleTitle: save method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.save method"
 type: docs
-weight: 700
+weight: 680
 url: /nodejs-net/aspose.words/document/save/
 ---
 
 ## save(stream, saveFormat) {#unknown_saveformat}
+
+Saves the document to a stream using the specified format.
+
 
 ```js
 save(stream, saveFormat: Aspose.Words.SaveFormat)
@@ -17,10 +20,18 @@ save(stream, saveFormat: Aspose.Words.SaveFormat)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream |  |  |
-| saveFormat | [SaveFormat](../../saveformat/) |  |
+| stream |  | Stream where to save the document. |
+| saveFormat | [SaveFormat](../../saveformat/) | The format in which to save the document. |
+
+### Returns
+
+Additional information that you can optionally use.
+
 
 ## save(stream, saveOptions) {#unknown_saveoptions}
+
+Saves the document to a stream using the specified save options.
+
 
 ```js
 save(stream, saveOptions: Aspose.Words.Saving.SaveOptions)
@@ -28,8 +39,13 @@ save(stream, saveOptions: Aspose.Words.Saving.SaveOptions)
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream |  |  |
-| saveOptions | [SaveOptions](../../../aspose.words.saving/saveoptions/) |  |
+| stream |  | Stream where to save the document. |
+| saveOptions | [SaveOptions](../../../aspose.words.saving/saveoptions/) | Specifies the options that control how the document is saved. Can be ``null``. If this is ``null``, the document will be saved in the binary DOC format. |
+
+### Returns
+
+Additional information that you can optionally use.
+
 
 ## save(fileName) {#string}
 

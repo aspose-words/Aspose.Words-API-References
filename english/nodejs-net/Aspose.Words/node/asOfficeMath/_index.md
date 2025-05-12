@@ -5,7 +5,7 @@ articleTitle: asOfficeMath method
 second_title: Aspose.Words for Node.js
 description: "Node.asOfficeMath method. Cast node to [OfficeMath](../../../aspose.words.math/officemath/)."
 type: docs
-weight: 300
+weight: 290
 url: /nodejs-net/aspose.words/node/asOfficeMath/
 ---
 
@@ -18,6 +18,12 @@ Cast node to [OfficeMath](../../../aspose.words.math/officemath/).
 ```js
 asOfficeMath()
 ```
+
+### Remarks
+
+If a method returns a base class object, you should explicitly cast it to the derived class
+for access to the derived class members. Otherwise, you will only be able to access the members of the base class.
+
 
 ### See Also
 

@@ -29,6 +29,10 @@ Shows how to specifies ignoring or not source formatting of headers/footers cont
 let dstDoc = new aw.Document(base.myDir + "Document.docx");
 let srcDoc = new aw.Document(base.myDir + "Header and footer types.docx");
 
+// If 'IgnoreHeaderFooter' is false then the original formatting for header/footer content
+// from "Header and footer types.docx" will be used.
+// If 'IgnoreHeaderFooter' is true then the formatting for header/footer content
+// from "Document.docx" will be used.
 let importFormatOptions = new aw.ImportFormatOptions();
 importFormatOptions.ignoreHeaderFooter = false;
 

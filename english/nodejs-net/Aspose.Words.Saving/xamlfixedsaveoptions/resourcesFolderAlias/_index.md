@@ -5,7 +5,7 @@ articleTitle: resourcesFolderAlias property
 second_title: Aspose.Words for Node.js
 description: "XamlFixedSaveOptions.resourcesFolderAlias property. Specifies the name of the folder used to construct image URIs written into an fixed page Xaml document"
 type: docs
-weight: 40
+weight: 30
 url: /nodejs-net/aspose.words.saving/xamlfixedsaveoptions/resourcesFolderAlias/
 ---
 

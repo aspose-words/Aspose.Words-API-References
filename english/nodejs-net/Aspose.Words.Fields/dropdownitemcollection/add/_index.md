@@ -24,7 +24,7 @@ add(value: string)
 
 ### Returns
 
-The zero-based index at which the new element is inserted.
+
 
 
 ### See Also

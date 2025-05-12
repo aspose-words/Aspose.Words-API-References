@@ -25,8 +25,8 @@ get adjustSentenceAndWordSpacing(): boolean
 Shows how to adjust sentence and word spacing automatically.
 
 ```js
-const srcDoc = new aw.Document();
-const dstDoc = new aw.Document();
+let srcDoc = new aw.Document();
+let dstDoc = new aw.Document();
 
 var builder = new aw.DocumentBuilder(srcDoc);
 builder.write("Dolor sit amet.");

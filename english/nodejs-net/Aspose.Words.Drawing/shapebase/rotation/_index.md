@@ -5,7 +5,7 @@ articleTitle: rotation property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.rotation property. Defines the angle (in degrees) that a shape is rotated"
 type: docs
-weight: 450
+weight: 500
 url: /nodejs-net/aspose.words.drawing/shapebase/rotation/
 ---
 

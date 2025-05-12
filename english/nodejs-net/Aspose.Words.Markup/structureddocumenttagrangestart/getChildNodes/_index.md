@@ -5,7 +5,7 @@ articleTitle: getChildNodes method
 second_title: Aspose.Words for Node.js
 description: "StructuredDocumentTagRangeStart.getChildNodes method. Returns a live collection of child nodes that match the specified types."
 type: docs
-weight: 220
+weight: 210
 url: /nodejs-net/aspose.words.markup/structureddocumenttagrangestart/getChildNodes/
 ---
 

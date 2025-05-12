@@ -5,7 +5,7 @@ articleTitle: getAncestor method
 second_title: Aspose.Words for Node.js
 description: "Node.getAncestor method. Gets the first ancestor of the specified [NodeType](../../nodetype/)."
 type: docs
-weight: 440
+weight: 430
 url: /nodejs-net/aspose.words/node/getAncestor/
 ---
 

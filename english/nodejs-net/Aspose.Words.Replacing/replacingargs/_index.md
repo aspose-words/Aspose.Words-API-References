@@ -23,6 +23,8 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/nodejs
 | --- | --- |
 | [groupIndex](./groupIndex/) | Identifies, by index, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](./replacement/) string. |
 | [groupName](./groupName/) | Identifies, by name, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](./replacement/) string. |
+| [matchNode](./matchNode/) | Gets the node that contains the beginning of the match. |
+| [matchOffset](./matchOffset/) | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
 | [replacement](./replacement/) | Gets or sets the replacement string. |
 
 ### Examples

@@ -5,7 +5,7 @@ articleTitle: variables property
 second_title: Aspose.Words for Node.js
 description: "Document.variables property. Returns the collection of variables added to a document or template."
 type: docs
-weight: 440
+weight: 450
 url: /nodejs-net/aspose.words/document/variables/
 ---
 
@@ -58,6 +58,9 @@ expect(variables.contains("City")).toEqual(true);
 expect(variables.indexOfKey("Bedrooms")).toEqual(0);
 expect(variables.indexOfKey("City")).toEqual(1);
 expect(variables.indexOfKey("Home address")).toEqual(2);
+
+expect(variables.at(0)).toEqual("3");
+expect(variables.at("City")).toEqual("London");
 
 // Enumerate over the collection of variables.
 for (var i = 0; i < variables.count; i++) {

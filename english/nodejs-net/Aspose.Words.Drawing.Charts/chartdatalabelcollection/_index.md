@@ -28,8 +28,8 @@ To learn more, visit the [Working with Charts](https://docs.aspose.com/words/nod
 | [orientation](./orientation/) | Gets or sets the text orientation of the data labels of the entire series. |
 | [position](./position/) | Gets or sets the position of the data labels. |
 | [rotation](./rotation/) | Gets or sets the rotation of the data labels of the entire series in degrees. |
-| [separator](./separator/) | Gets or sets string separator used for the data labels of the entire series.  The default is a comma, except for pie charts showing only category name and percentage, when a line break  shall be used instead. |
-| [showBubbleSize](./showBubbleSize/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts.  Default value is ``false``. |
+| [separator](./separator/) | Gets or sets string separator used for the data labels of the entire series. The default is a comma, except for pie charts showing only category name and percentage, when a line break shall be used instead. |
+| [showBubbleSize](./showBubbleSize/) | Allows to specify whether bubble size is to be displayed for the data labels of the entire series. Applies only to Bubble charts. Default value is ``false``. |
 | [showCategoryName](./showCategoryName/) | Allows to specify whether category name is to be displayed for the data labels of the entire series. Default value is ``false``. |
 | [showDataLabelsRange](./showDataLabelsRange/) | Allows to specify whether values from data labels range to be displayed in the data labels of the entire series. Default value is ``false``. |
 | [showLeaderLines](./showLeaderLines/) | Allows to specify whether data label leader lines need be shown for the data labels of the entire series. Default value is ``false``. |
@@ -77,8 +77,11 @@ test('DataLabels', () => {
       label.separator = " & ";
   }
 
+  let dataLabel = chart.series.at(1).dataLabels.at(2);
+  dataLabel.format.fill.color = "#FF0000";
+
   // For a cleaner looking graph, we can remove data labels individually.
-  chart.series.at(1).dataLabels.at(2).clearFormat();
+  dataLabel.clearFormat();
 
   // We can also strip an entire series of its data labels at once.
   chart.series.at(2).dataLabels.clearFormat();

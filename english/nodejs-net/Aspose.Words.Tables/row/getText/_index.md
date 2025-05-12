@@ -5,7 +5,7 @@ articleTitle: getText method
 second_title: Aspose.Words for Node.js
 description: "Row.getText method. Gets the text of all cells in this row including the end of row character."
 type: docs
-weight: 160
+weight: 130
 url: /nodejs-net/aspose.words.tables/row/getText/
 ---
 

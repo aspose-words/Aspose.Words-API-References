@@ -5,7 +5,7 @@ articleTitle: isMoveFromRevision property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.isMoveFromRevision property. Returns ``true`` if this object was moved (deleted) in Microsoft Word while change tracking was enabled."
 type: docs
-weight: 290
+weight: 340
 url: /nodejs-net/aspose.words.drawing/shapebase/isMoveFromRevision/
 ---
 

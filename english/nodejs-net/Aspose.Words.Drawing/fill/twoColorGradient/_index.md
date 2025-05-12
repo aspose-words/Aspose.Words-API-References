@@ -61,7 +61,7 @@ shape = builder.insertShape(aw.Drawing.ShapeType.Rectangle, 80, 80);
 shape.fill.twoColorGradient(aw.Drawing.GradientStyle.FromCorner, aw.Drawing.GradientVariant.Variant4);
 // Change BackColor of gradient fill.
 shape.fill.backColor = "#FFFF00";
-// Note that changes "GradientAngle" for "GradientStyle.FromCorner/aw.Drawing.GradientStyle.FromCenter"
+// Note that changes "GradientAngle" for "GradientStyle.FromCorner/GradientStyle.FromCenter"
 // gradient fill don't get any effect, it will work only for linear gradient.
 shape.fill.gradientAngle = 15;
 

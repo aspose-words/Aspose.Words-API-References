@@ -5,7 +5,7 @@ articleTitle: getBuildingBlock method
 second_title: Aspose.Words for Node.js
 description: "GlossaryDocument.getBuildingBlock method. Finds a building block using the specified gallery, category and name."
 type: docs
-weight: 90
+weight: 60
 url: /nodejs-net/aspose.words.buildingblocks/glossarydocument/getBuildingBlock/
 ---
 

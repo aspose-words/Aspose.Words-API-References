@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words.notes/footnote/referenceMark/
 ## Footnote.referenceMark property
 
 Gets/sets custom reference mark to be used for this footnote.
-Default value is **empty string** (), meaning auto-numbered footnotes are used.
-
+Default value is **empty string**
+, meaning auto-numbered footnotes are used.
 
 
 ```js
@@ -22,7 +22,8 @@ get referenceMark(): string
 
 ### Remarks
 
-If this property is set to **empty string** () or ``null``, then [Footnote.isAuto](../isAuto/) property will automatically be set to ``true``, 
+If this property is set to **empty string**
+ or``null``, then [Footnote.isAuto](../isAuto/) property will automatically be set to ``true``, 
 if set to anything else then [Footnote.isAuto](../isAuto/) will be set to ``false``.
 
 

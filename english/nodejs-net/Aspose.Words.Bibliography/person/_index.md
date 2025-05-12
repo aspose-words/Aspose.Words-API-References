@@ -5,7 +5,7 @@ articleTitle: Person class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Bibliography.Person class. Represents individual (a person) bibliography source contributor."
 type: docs
-weight: 30
+weight: 40
 url: /nodejs-net/aspose.words.bibliography/person/
 ---
 

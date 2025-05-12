@@ -5,7 +5,7 @@ articleTitle: updateSmartArtDrawing method
 second_title: Aspose.Words for Node.js
 description: "Shape.updateSmartArtDrawing method. Updates SmartArt pre-rendered drawing by using Aspose.Words's SmartArt cold rendering engine."
 type: docs
-weight: 280
+weight: 250
 url: /nodejs-net/aspose.words.drawing/shape/updateSmartArtDrawing/
 ---
 

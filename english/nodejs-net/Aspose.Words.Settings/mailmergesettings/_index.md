@@ -25,7 +25,7 @@ Or you can use this object to query mail merge settings that the user has specif
 for this document.
 
 You do not normally need to create objects of this class directly because Mail merge settings 
-of a document are always available via the Aspose.Words.Document.MailMergeSettings property.
+of a document are always available via the [Document.mailMergeSettings](../../aspose.words/document/mailMergeSettings/) property.
 
 To detect whether this document is a mail merge main document, check the value of the 
 [MailMergeSettings.mainDocumentType](./mainDocumentType/) property.
@@ -37,7 +37,7 @@ or the [MailMergeSettings.dataType](./dataType/) property is set to [MailMergeDa
 
 The best way to learn how to use the properties of this object is to create a document with a desired 
 data source manually in Microsoft Word and then open that document using Aspose.Words and examine the properties 
-of the Aspose.Words.Document.MailMergeSettings and [MailMergeSettings.odso](./odso/) objects. This is 
+of the [Document.mailMergeSettings](../../aspose.words/document/mailMergeSettings/) and [MailMergeSettings.odso](./odso/) objects. This is 
 a good approach to take if you want to learn how to programmatically configure a data source, for example.
 
 Aspose.Words preserves mail merge information when loading, saving and converting documents
@@ -132,4 +132,5 @@ doc.save(base.artifactsDir + "MailMerge.mailMergeSettings.docx");
 ### See Also
 
 * module [Aspose.Words.Settings](../)
+* property [Document.mailMergeSettings](../../aspose.words/document/mailMergeSettings/)
 

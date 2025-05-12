@@ -34,6 +34,22 @@ unique PDF form field names.
 
 
 
+### Examples
+
+Shows how to use SDT control Tag or Id property as a name of form field in PDF.
+
+```js
+let doc = new aw.Document(base.myDir + "Form fields.docx");
+
+let saveOptions = new aw.Saving.PdfSaveOptions();
+saveOptions.preserveFormFields = true;
+// When set to 'false', SDT control Id property is used as a name of form field in PDF.
+// When set to 'true', SDT control Tag property is used as a name of form field in PDF.
+saveOptions.useSdtTagAsFormFieldName = true;
+
+doc.save(base.artifactsDir + "PdfSaveOptions.SdtTagAsFormFieldName.pdf", saveOptions);
+```
+
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

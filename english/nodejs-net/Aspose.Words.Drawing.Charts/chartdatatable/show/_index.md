@@ -53,6 +53,7 @@ dataTable.show = true;
 dataTable.hasLegendKeys = false;
 dataTable.hasHorizontalBorder = false;
 dataTable.hasVerticalBorder = false;
+dataTable.hasOutlineBorder = false;
 
 dataTable.font.italic = true;
 dataTable.format.stroke.weight = 1;

@@ -28,6 +28,19 @@ If the value of this property is zero, all raster images are exported without re
 
 
 
+### Examples
+
+Shows how to set limit for image resolution.
+
+```js
+let doc = new aw.Document(base.myDir + "Rendering.docx");
+
+let saveOptions = new aw.Saving.SvgSaveOptions();
+saveOptions.maxImageResolution = 72;
+
+doc.save(base.artifactsDir + "SvgSaveOptions.maxImageResolution.svg", saveOptions);
+```
+
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

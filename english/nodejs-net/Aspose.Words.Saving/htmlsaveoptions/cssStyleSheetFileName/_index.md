@@ -22,7 +22,7 @@ get cssStyleSheetFileName(): string
 
 ### Remarks
 
-This property has effect only when saving a document to HTML format 
+This property has effect only when saving a document to HTML format
 and external CSS style sheet is requested using [HtmlSaveOptions.cssStyleSheetType](../cssStyleSheetType/).
 
 If this property is empty, the CSS file will be saved into the same folder and with the same name as the HTML

@@ -36,6 +36,40 @@ in an Office Open XML document.
 | Taiwan | Specifies that the Taiwanese calendar, as defined by the Chinese National Standard CNS 7648, shall be used. |
 | Thai | Specifies that the Thai calendar, as defined by the Royal Decree of H.M. King Vajiravudh (Rama VI) in  Royal Gazette B. E. 2456 (1913 A.D.) and by the decree of Prime Minister Phibunsongkhram (1941 A.D.) to  start the year on the Gregorian January 1 and to map year zero to Gregorian year 543 B.C., shall be used. |
 
+### Examples
+
+Shows how to prompt the user to enter a date with a structured document tag.
+
+```js
+let doc = new aw.Document();
+
+// Insert a structured document tag that prompts the user to enter a date.
+// In Microsoft Word, this element is known as a "Date picker content control".
+// When we click on the arrow on the right end of this tag in Microsoft Word,
+// we will see a pop up in the form of a clickable calendar.
+// We can use that popup to select a date that the tag will display.
+let sdtDate = new aw.Markup.StructuredDocumentTag(doc, aw.Markup.SdtType.Date, aw.Markup.MarkupLevel.Inline);
+
+// Display the date, according to the Saudi Arabian Arabic locale.
+sdtDate.dateDisplayLocale = 1025;//CultureInfo.GetCultureInfo("ar-SA").LCID;
+
+// Set the format with which to display the date.
+sdtDate.dateDisplayFormat = "dd MMMM, yyyy";
+sdtDate.dateStorageFormat = aw.Markup.SdtDateStorageFormat.DateTime;
+
+// Display the date according to the Hijri calendar.
+sdtDate.calendarType = aw.Markup.SdtCalendarType.Hijri;
+
+// Before the user chooses a date in Microsoft Word, the tag will display the text "Click here to enter a date.".
+// According to the tag's calendar, set the "FullDate" property to get the tag to display a default date.
+sdtDate.fullDate = new Date(1440, 9, 20);
+
+let builder = new aw.DocumentBuilder(doc);
+builder.insertNode(sdtDate);
+
+doc.save(base.artifactsDir + "StructuredDocumentTag.date.docx");
+```
+
 ### See Also
 
 * module [Aspose.Words.Markup](../)

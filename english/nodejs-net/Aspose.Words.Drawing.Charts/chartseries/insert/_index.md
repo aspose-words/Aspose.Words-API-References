@@ -73,6 +73,29 @@ The corresponding data point with default formatting will be inserted into the d
 if data labels are displayed, the corresponding data label with default formatting will be inserted too.
 
 
+## Examples
+
+Shows how to insert data into a chart series.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+let shape = builder.insertChart(aw.Drawing.Charts.ChartType.Line, 432, 252);
+let chart = shape.chart;
+let series1 = chart.series.at(0);
+
+// Clear X and Y values of the first series.
+series1.clearValues();
+// Populate the series with data.
+series1.insert(0, aw.Drawing.Charts.ChartXValue.fromDouble(3));
+series1.insert(1, aw.Drawing.Charts.ChartXValue.fromDouble(3), aw.Drawing.Charts.ChartYValue.fromDouble(10));
+series1.insert(2, aw.Drawing.Charts.ChartXValue.fromDouble(3), aw.Drawing.Charts.ChartYValue.fromDouble(10));
+series1.insert(3, aw.Drawing.Charts.ChartXValue.fromDouble(3), aw.Drawing.Charts.ChartYValue.fromDouble(10), 10);
+
+doc.save(base.artifactsDir + "Charts.PopulateChartWithData.docx");
+```
+
 ## See Also
 
 * module [Aspose.Words.Drawing.Charts](../../)

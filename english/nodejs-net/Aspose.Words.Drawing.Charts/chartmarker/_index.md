@@ -55,8 +55,11 @@ test('ChartDataPoint', () => {
     expect(p.invertIfNegative).toEqual(false);
   }
 
+  let dataPoint = chart.series.at(1).dataPoints.at(2);
+  dataPoint.format.fill.color = "#FF0000";
+
   // For a cleaner looking graph, we can clear format individually.
-  chart.series.at(1).dataPoints.at(2).clearFormat();
+  dataPoint.clearFormat();
 
   // We can also strip an entire series of data points at once.
   chart.series.at(2).dataPoints.clearFormat();

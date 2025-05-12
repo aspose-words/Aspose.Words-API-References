@@ -21,7 +21,7 @@ To learn more, visit the [Working with Graphic Elements](https://docs.aspose.com
 
 | Name | Description |
 | --- | --- |
-| [color](./color/) | Gets a aspose.pydrawing.Color object that represents the color for the shadow. The default value is aspose.pydrawing.Color.black. |
+| [color](./color/) | Gets a string object that represents the color for the shadow. The default value is black. |
 | [type](./type/) | Gets or sets the specified [ShadowType](../shadowtype/) for ShadowFormat. |
 | [visible](./visible/) | Returns ``true`` if the formatting applied to this instance is visible. |
 

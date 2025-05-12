@@ -57,6 +57,8 @@ newSeriesGroup.axisX.hidden = true;
 newSeriesGroup.axisY.title.show = true;
 newSeriesGroup.axisY.title.text = "Secondary Y axis";
 
+expect(newSeriesGroup.seriesType).toEqual(aw.Drawing.Charts.ChartSeriesType.Line);
+
 // Add a series to the new series group.
 let series3 =
   newSeriesGroup.series.add("Series of secondary series group", categories, [ 13, 11, 16 ]);

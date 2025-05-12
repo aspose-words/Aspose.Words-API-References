@@ -5,7 +5,7 @@ articleTitle: horizontalAlignment property
 second_title: Aspose.Words for Node.js
 description: "ShapeBase.horizontalAlignment property. Specifies how the shape is positioned horizontally."
 type: docs
-weight: 190
+weight: 240
 url: /nodejs-net/aspose.words.drawing/shapebase/horizontalAlignment/
 ---
 

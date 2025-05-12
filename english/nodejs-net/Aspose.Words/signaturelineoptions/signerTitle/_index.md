@@ -12,8 +12,8 @@ url: /nodejs-net/aspose.words/signaturelineoptions/signerTitle/
 ## SignatureLineOptions.signerTitle property
 
 Gets or sets suggested signer's title.
-Default value for this property is **empty string** ().
-
+Default value for this property is **empty string**
+.
 
 
 ```js

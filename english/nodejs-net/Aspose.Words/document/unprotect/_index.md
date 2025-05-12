@@ -5,7 +5,7 @@ articleTitle: unprotect method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Document.unprotect method"
 type: docs
-weight: 740
+weight: 720
 url: /nodejs-net/aspose.words/document/unprotect/
 ---
 

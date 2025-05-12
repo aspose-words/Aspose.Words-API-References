@@ -30,6 +30,42 @@ Not all series types allow you to specify label positions. And those that do, do
 | OutsideEnd | Specifies that a data label should be displayed outside the end of a data marker. |
 | BestFit | Specifies that a data label should be displayed in the most appropriate position. |
 
+### Examples
+
+Shows how to set the position of the data label.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Insert column chart.
+let shape = builder.insertChart(aw.Drawing.Charts.ChartType.Column, 432, 252);
+let chart = shape.chart;
+let seriesColl = chart.series;
+
+// Delete default generated series.
+seriesColl.clear();
+
+// Add series.
+let series = seriesColl.add(
+  "Series 1",
+  [ "Category 1", "Category 2", "Category 3" ],
+  [ 4, 5, 6 ]);
+
+// Show data labels and set font color.
+series.hasDataLabels = true;
+let dataLabels = series.dataLabels;
+dataLabels.showValue = true;
+dataLabels.font.color = "#FFFFFF";
+
+// Set data label position.
+dataLabels.position = aw.Drawing.Charts.ChartDataLabelPosition.InsideBase;
+dataLabels.at(0).position = aw.Drawing.Charts.ChartDataLabelPosition.OutsideEnd;
+dataLabels.at(0).font.color = "#8B0000";
+
+doc.save(base.artifactsDir + "Charts.labelPosition.docx");
+```
+
 ### See Also
 
 * module [Aspose.Words.Drawing.Charts](../)

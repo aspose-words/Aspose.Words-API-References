@@ -5,7 +5,7 @@ articleTitle: SvgSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.SvgSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Svg](../../aspose.words/saveformat/#Svg) format"
 type: docs
-weight: 800
+weight: 790
 url: /nodejs-net/aspose.words.saving/svgsaveoptions/
 ---
 
@@ -30,7 +30,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | --- | --- |
 | [allowEmbeddingPostScriptFonts](../saveoptions/allowEmbeddingPostScriptFonts/) | Gets or sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. The default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [colorMode](../fixedpagesaveoptions/colorMode/) | Gets or sets a value determining how colors are rendered.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
-| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** ().<br>(Inherited from [SaveOptions](../saveoptions/)) |
+| [defaultTemplate](../saveoptions/defaultTemplate/) | Gets or sets path to default template (including filename). Default value for this property is **empty string** .<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dml3DEffectsRenderingMode](../saveoptions/dml3DEffectsRenderingMode/) | Gets or sets a value determining how 3D effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlEffectsRenderingMode](../saveoptions/dmlEffectsRenderingMode/) | Gets or sets a value determining how DrawingML effects are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [dmlRenderingMode](../saveoptions/dmlRenderingMode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
@@ -48,9 +48,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [pageSavingCallback](../fixedpagesaveoptions/pageSavingCallback/) | Allows to control how separate pages are saved when a document is exported to fixed page format.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [pageSet](../fixedpagesaveoptions/pageSet/) | Gets or sets the pages to render. Default is all the pages in the document.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [prettyFormat](../saveoptions/prettyFormat/) | When ``true``, pretty formats output where applicable. Default value is ``false``.<br>(Inherited from [SaveOptions](../saveoptions/)) |
-| [progressCallback](../saveoptions/progressCallback/) | Called during saving a document and accepts data about saving progress.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [removeJavaScriptFromLinks](./removeJavaScriptFromLinks/) | Specifies whether JavaScript will be removed from links. Default is ``false``. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)". |
-| [resourceSavingCallback](./resourceSavingCallback/) | Allows to control how resources (images) are saved when a document is exported to SVG format. |
 | [resourcesFolder](./resourcesFolder/) | Specifies the physical folder where resources (images) are saved when exporting a document to Svg format. Default is ``null``. |
 | [resourcesFolderAlias](./resourcesFolderAlias/) | Specifies the name of the folder used to construct image URIs written into an SVG document. Default is ``null``. |
 | [saveFormat](./saveFormat/) | Specifies the format in which the document will be saved if this save options object is used. Can only be [SaveFormat.Svg](../../aspose.words/saveformat/#Svg). |

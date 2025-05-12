@@ -5,7 +5,7 @@ articleTitle: Log class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Log class. "
 type: docs
-weight: 800
+weight: 790
 url: /nodejs-net/aspose.words/log/
 ---
 

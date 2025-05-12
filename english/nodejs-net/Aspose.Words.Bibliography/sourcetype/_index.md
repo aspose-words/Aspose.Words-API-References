@@ -5,7 +5,7 @@ articleTitle: SourceType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Bibliography.SourceType enumeration. Represents bibliography source types."
 type: docs
-weight: 50
+weight: 70
 url: /nodejs-net/aspose.words.bibliography/sourcetype/
 ---
 

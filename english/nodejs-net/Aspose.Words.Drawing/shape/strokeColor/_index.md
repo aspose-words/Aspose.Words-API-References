@@ -23,7 +23,7 @@ get strokeColor(): string
 This is a shortcut to the [Stroke.color](../../stroke/color/) property.
 
 The default value is
-aspose.pydrawing.Color.black.
+black.
 
 
 

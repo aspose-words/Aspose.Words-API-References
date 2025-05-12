@@ -21,6 +21,19 @@ If this option is enabled, all links containing JavaScript will be replaced with
 get removeJavaScriptFromLinks(): boolean
 ```
 
+### Examples
+
+Shows how to remove JavaScript from the links (svg).
+
+```js
+let doc = new aw.Document(base.myDir + "JavaScript in HREF.docx");
+
+let saveOptions = new aw.Saving.SvgSaveOptions();
+saveOptions.removeJavaScriptFromLinks = true;
+
+doc.save(base.artifactsDir + "SvgSaveOptions.RemoveJavaScriptFromLinksSvg.html", saveOptions);
+```
+
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

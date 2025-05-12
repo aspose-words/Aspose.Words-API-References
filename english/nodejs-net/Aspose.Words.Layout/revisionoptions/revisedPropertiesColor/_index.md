@@ -45,7 +45,7 @@ revisionOptions.deletedTextEffect = aw.Layout.RevisionTextEffect.Bold;
 revisionOptions.movedFromTextColor = aw.Layout.RevisionColor.Yellow;
 revisionOptions.movedFromTextEffect = aw.Layout.RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.movedToTextColor = aw.Layout.RevisionColor.ClassicBlue;
-revisionOptions.movedFromTextEffect = aw.Layout.RevisionTextEffect.DoubleUnderline;
+revisionOptions.movedToTextEffect = aw.Layout.RevisionTextEffect.DoubleUnderline;
 
 // Render format revisions in dark red and bold.
 revisionOptions.revisedPropertiesColor = aw.Layout.RevisionColor.DarkRed;

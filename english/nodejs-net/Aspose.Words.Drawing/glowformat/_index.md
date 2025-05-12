@@ -26,7 +26,7 @@ You do not create instances of the [GlowFormat](./) class directly.
 
 | Name | Description |
 | --- | --- |
-| [color](./color/) | Gets or sets a aspose.pydrawing.Color object that represents the color for a glow effect. The default value is aspose.pydrawing.Color.black. |
+| [color](./color/) | Gets or sets a string object that represents the color for a glow effect. The default value is black. |
 | [radius](./radius/) | Gets or sets a double value that represents the length of the radius for a glow effect in points (pt). The default value is 0.0. |
 | [transparency](./transparency/) | Gets or sets the degree of transparency for the glow effect as a value between 0.0 (opaque) and 1.0 (clear). The default value is 0.0. |
 

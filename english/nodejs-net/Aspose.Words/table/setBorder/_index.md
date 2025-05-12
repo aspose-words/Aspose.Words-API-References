@@ -5,7 +5,7 @@ articleTitle: setBorder method
 second_title: Aspose.Words for Node.js
 description: "Table.setBorder method. Sets the specified table border to the specified line style, width and color."
 type: docs
-weight: 430
+weight: 400
 url: /nodejs-net/aspose.words/table/setBorder/
 ---
 

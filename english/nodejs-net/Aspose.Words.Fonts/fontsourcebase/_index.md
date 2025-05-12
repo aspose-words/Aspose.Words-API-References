@@ -23,7 +23,16 @@ To learn more, visit the [Working with Fonts](https://docs.aspose.com/words/node
 | --- | --- |
 | [priority](./priority/) | Returns the font source priority. |
 | [type](./type/) | Returns the type of the font source. |
-| [warningCallback](./warningCallback/) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
+
+### Methods
+
+| Name | Description |
+| --- | --- |
+|[ asFileFontSource()](./asFileFontSource/#default) | Cast [FontSourceBase](./) object to [FileFontSource](../filefontsource/). |
+|[ asFolderFontSource()](./asFolderFontSource/#default) | Cast [FontSourceBase](./) object to [FolderFontSource](../folderfontsource/). |
+|[ asMemoryFontSource()](./asMemoryFontSource/#default) | Cast [FontSourceBase](./) object to [MemoryFontSource](../memoryfontsource/). |
+|[ asStreamFontSource()](./asStreamFontSource/#default) | Cast [FontSourceBase](./) object to [StreamFontSource](../streamfontsource/). |
+|[ asSystemFontSource()](./asSystemFontSource/#default) | Cast [FontSourceBase](./) object to [SystemFontSource](../systemfontsource/). |
 
 ### See Also
 

@@ -5,7 +5,7 @@ articleTitle: originalFileName property
 second_title: Aspose.Words for Node.js
 description: "Document.originalFileName property. Gets the original file name of the document."
 type: docs
-weight: 280
+weight: 290
 url: /nodejs-net/aspose.words/document/originalFileName/
 ---
 

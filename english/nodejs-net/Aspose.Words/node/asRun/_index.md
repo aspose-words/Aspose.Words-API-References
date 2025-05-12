@@ -5,7 +5,7 @@ articleTitle: asRun method
 second_title: Aspose.Words for Node.js
 description: "Node.asRun method. Cast node to [Run](../../run/)."
 type: docs
-weight: 330
+weight: 320
 url: /nodejs-net/aspose.words/node/asRun/
 ---
 
@@ -18,6 +18,12 @@ Cast node to [Run](../../run/).
 ```js
 asRun()
 ```
+
+### Remarks
+
+If a method returns a base class object, you should explicitly cast it to the derived class
+for access to the derived class members. Otherwise, you will only be able to access the members of the base class.
+
 
 ### See Also
 

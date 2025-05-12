@@ -5,7 +5,7 @@ articleTitle: getText method
 second_title: Aspose.Words for Node.js
 description: "Run.getText method. Gets the text of the run."
 type: docs
-weight: 70
+weight: 60
 url: /nodejs-net/aspose.words/run/getText/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: clearShading method
 second_title: Aspose.Words for Node.js
 description: "Table.clearShading method. Removes all shading on the table."
 type: docs
-weight: 400
+weight: 370
 url: /nodejs-net/aspose.words/table/clearShading/
 ---
 

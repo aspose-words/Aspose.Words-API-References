@@ -5,7 +5,7 @@ articleTitle: setShading method
 second_title: Aspose.Words for Node.js
 description: "Table.setShading method. Sets shading to the specified values on whole table."
 type: docs
-weight: 450
+weight: 420
 url: /nodejs-net/aspose.words/table/setShading/
 ---
 

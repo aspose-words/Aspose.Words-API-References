@@ -5,7 +5,7 @@ articleTitle: originalLoadFormat property
 second_title: Aspose.Words for Node.js
 description: "Document.originalLoadFormat property. Gets the format of the original document that was loaded into this object."
 type: docs
-weight: 290
+weight: 300
 url: /nodejs-net/aspose.words/document/originalLoadFormat/
 ---
 

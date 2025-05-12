@@ -28,7 +28,8 @@ Shows how to compress XLSX document.
 let doc = new aw.Document(base.myDir + "Shape with linked chart.docx");
 
 let xlsxSaveOptions = new aw.Saving.XlsxSaveOptions();
-xlsxSaveOptions.compressionLevel = aw.Saving.CompressionLevel.Maximum; 
+xlsxSaveOptions.compressionLevel = aw.Saving.CompressionLevel.Maximum;
+xlsxSaveOptions.saveFormat = aw.SaveFormat.Xlsx;
 
 doc.save(base.artifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 ```

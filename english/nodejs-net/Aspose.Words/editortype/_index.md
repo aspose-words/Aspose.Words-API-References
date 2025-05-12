@@ -5,7 +5,7 @@ articleTitle: EditorType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.EditorType enumeration. Specifies the set of possible aliases (or editing groups) which can be used as aliases to determine if the current user shall be allowed to edit a single range  defined by an editable range within a document."
 type: docs
-weight: 400
+weight: 390
 url: /nodejs-net/aspose.words/editortype/
 ---
 

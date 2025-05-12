@@ -58,7 +58,7 @@ Shows how to populate chart series with data.
 
 ```js
 let doc = new aw.Document();
-let builder = new aw.DocumentBuilder();
+let builder = new aw.DocumentBuilder(doc);
 
 let shape = builder.insertChart(aw.Drawing.Charts.ChartType.Column, 432, 252);
 let chart = shape.chart;
@@ -68,15 +68,14 @@ let series1 = chart.series.at(0);
 series1.clearValues();
 
 // Populate the series with data.
-series1.add(aw.Drawing.Charts.ChartXValue.fromDouble(3), aw.Drawing.Charts.ChartYValue.fromDouble(10));
+series1.add(aw.Drawing.Charts.ChartXValue.fromDouble(3), aw.Drawing.Charts.ChartYValue.fromDouble(10), 10);
 series1.add(aw.Drawing.Charts.ChartXValue.fromDouble(5), aw.Drawing.Charts.ChartYValue.fromDouble(5));
 series1.add(aw.Drawing.Charts.ChartXValue.fromDouble(7), aw.Drawing.Charts.ChartYValue.fromDouble(11));
-series1.add(aw.Drawing.Charts.ChartXValue.fromDouble(9), aw.Drawing.Charts.ChartYValue.fromDouble(17));
+series1.add(aw.Drawing.Charts.ChartXValue.fromDouble(9));
 
 let series2 = chart.series.at(1);
-
 // Clear X and Y values of the second series.
-series2.clearValues();
+series2.clear();
 
 // Populate the series with data.
 series2.add(aw.Drawing.Charts.ChartXValue.fromDouble(2), aw.Drawing.Charts.ChartYValue.fromDouble(4));

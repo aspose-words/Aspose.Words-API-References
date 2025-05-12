@@ -5,7 +5,7 @@ articleTitle: convertToHorizontallyMergedCells method
 second_title: Aspose.Words for Node.js
 description: "Table.convertToHorizontallyMergedCells method. Converts cells horizontally merged by width to cells merged by [CellFormat.horizontalMerge](../../../aspose.words.tables/cellformat/horizontalMerge/)."
 type: docs
-weight: 410
+weight: 380
 url: /nodejs-net/aspose.words/table/convertToHorizontallyMergedCells/
 ---
 
@@ -32,7 +32,7 @@ Use this method to transforms table cells horizontally merged by width to cells 
 
 ### Examples
 
-Shows how to convert cells horizontally merged by width to cells merged by aw.Tables.CellFormat.horizontalMerge.
+Shows how to convert cells horizontally merged by width to cells merged by CellFormat.horizontalMerge.
 
 ```js
 let doc = new aw.Document(base.myDir + "Table with merged cells.docx");

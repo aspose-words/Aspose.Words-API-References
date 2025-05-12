@@ -5,7 +5,7 @@ articleTitle: listExportMode property
 second_title: Aspose.Words for Node.js
 description: "MarkdownSaveOptions.listExportMode property. Specifies how list items will be written to the output file"
 type: docs
-weight: 100
+weight: 110
 url: /nodejs-net/aspose.words.saving/markdownsaveoptions/listExportMode/
 ---
 
@@ -39,7 +39,7 @@ Shows how to list items will be written to the markdown document.
 ```js
 let doc = new aw.Document(base.myDir + "List item.docx");
 
-// Use aw.Saving.MarkdownListExportMode.PlainText or aw.Saving.MarkdownListExportMode.MarkdownSyntax to export list.
+// Use MarkdownListExportMode.PlainText or MarkdownListExportMode.MarkdownSyntax to export list.
 let options = new aw.Saving.MarkdownSaveOptions { ListExportMode = markdownListExportMode };
 doc.save(base.artifactsDir + "MarkdownSaveOptions.listExportMode.md", options);
 ```
