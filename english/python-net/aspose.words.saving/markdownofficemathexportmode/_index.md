@@ -5,7 +5,7 @@ articleTitle: MarkdownOfficeMathExportMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.MarkdownOfficeMathExportMode enumeration. Specifies how Aspose.Words exports OfficeMath to Markdown."
 type: docs
-weight: 450
+weight: 460
 url: /python-net/aspose.words.saving/markdownofficemathexportmode/
 ---
 

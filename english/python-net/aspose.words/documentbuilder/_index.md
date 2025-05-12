@@ -96,7 +96,9 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insert_break(break_type)](./insert_break/#breaktype) | Inserts a break of the specified type into the document. |
 |[ insert_cell()](./insert_cell/#default) | Inserts a table cell into the document. |
 |[ insert_chart(chart_type, width, height)](./insert_chart/#charttype_float_float) | Inserts an chart object into the document and scales it to the specified size. |
+|[ insert_chart(chart_type, width, height, chart_style)](./insert_chart/#charttype_float_float_chartstyle) | Inserts an chart object into the document and scales it to the specified size. |
 |[ insert_chart(chart_type, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_chart/#charttype_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) | Inserts an chart object into the document and scales it to the specified size. |
+|[ insert_chart(chart_type, horz_pos, left, vert_pos, top, width, height, wrap_type, chart_style)](./insert_chart/#charttype_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype_chartstyle) | Inserts an chart object into the document and scales it to the specified size. |
 |[ insert_check_box(name, checked_value, size)](./insert_check_box/#str_bool_int) | Inserts a checkbox form field at the current position. |
 |[ insert_check_box(name, default_value, checked_value, size)](./insert_check_box/#str_bool_bool_int) | Inserts a checkbox form field at the current position. |
 |[ insert_combo_box(name, items, selected_index)](./insert_combo_box/#str_strlist_int) | Inserts a combobox form field at the current position. |

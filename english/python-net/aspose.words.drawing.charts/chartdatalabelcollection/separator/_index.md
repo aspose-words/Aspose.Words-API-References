@@ -11,8 +11,8 @@ url: /python-net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 
 ## ChartDataLabelCollection.separator property
 
-Gets or sets string separator used for the data labels of the entire series. 
-The default is a comma, except for pie charts showing only category name and percentage, when a line break 
+Gets or sets string separator used for the data labels of the entire series.
+The default is a comma, except for pie charts showing only category name and percentage, when a line break
 shall be used instead.
 
 

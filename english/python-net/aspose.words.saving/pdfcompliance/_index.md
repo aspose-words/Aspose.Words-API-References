@@ -5,7 +5,7 @@ articleTitle: PdfCompliance enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfCompliance enumeration. Specifies the PDF standards compliance level."
 type: docs
-weight: 600
+weight: 610
 url: /python-net/aspose.words.saving/pdfcompliance/
 ---
 

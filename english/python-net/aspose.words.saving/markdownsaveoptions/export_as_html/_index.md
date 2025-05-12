@@ -5,7 +5,7 @@ articleTitle: export_as_html property
 second_title: Aspose.Words for Python
 description: "MarkdownSaveOptions.export_as_html property. Allows to specify the elements to be exported to Markdown as raw HTML"
 type: docs
-weight: 20
+weight: 30
 url: /python-net/aspose.words.saving/markdownsaveoptions/export_as_html/
 ---
 
