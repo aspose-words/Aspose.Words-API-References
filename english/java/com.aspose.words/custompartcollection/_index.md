@@ -4,7 +4,7 @@ linktitle: CustomPartCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of CustomPart objects in Java.
 type: docs
-weight: 141
+weight: 142
 url: /java/com.aspose.words/custompartcollection/
 ---
 

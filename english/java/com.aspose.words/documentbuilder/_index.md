@@ -4,7 +4,7 @@ linktitle: DocumentBuilder
 second_title: Aspose.Words for Java
 description: Provides methods to insert text images and other content specify font paragraph and section formatting in Java.
 type: docs
-weight: 161
+weight: 162
 url: /java/com.aspose.words/documentbuilder/
 ---
 
@@ -213,7 +213,9 @@ Shows how to build a table with custom borders.
 | [insertBreak(int breakType)](#insertBreak-int) |  |
 | [insertCell()](#insertCell) | Inserts a table cell into the document. |
 | [insertChart(int chartType, double width, double height)](#insertChart-int-double-double) |  |
+| [insertChart(int chartType, double width, double height, int chartStyle)](#insertChart-int-double-double-int) |  |
 | [insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)](#insertChart-int-int-double-int-double-double-double-int) |  |
+| [insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType, int chartStyle)](#insertChart-int-int-double-int-double-double-double-int-int) |  |
 | [insertCheckBox(String name, boolean defaultValue, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-boolean-int) | Inserts a checkbox form field at the current position. |
 | [insertCheckBox(String name, boolean checkedValue, int size)](#insertCheckBox-java.lang.String-boolean-int) | Inserts a checkbox form field at the current position. |
 | [insertComboBox(String name, String[] items, int selectedIndex)](#insertComboBox-java.lang.String-java.lang.String---int) | Inserts a combobox form field at the current position. |
@@ -2574,6 +2576,24 @@ public Shape insertChart(int chartType, double width, double height)
 
 **Returns:**
 [Shape](../../com.aspose.words/shape/)
+### insertChart(int chartType, double width, double height, int chartStyle) {#insertChart-int-double-double-int}
+```
+public Shape insertChart(int chartType, double width, double height, int chartStyle)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chartType | int |  |
+| width | double |  |
+| height | double |  |
+| chartStyle | int |  |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/)
 ### insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType) {#insertChart-int-int-double-int-double-double-double-int}
 ```
 public Shape insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType)
@@ -2593,6 +2613,29 @@ public Shape insertChart(int chartType, int horzPos, double left, int vertPos, d
 | width | double |  |
 | height | double |  |
 | wrapType | int |  |
+
+**Returns:**
+[Shape](../../com.aspose.words/shape/)
+### insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType, int chartStyle) {#insertChart-int-int-double-int-double-double-double-int-int}
+```
+public Shape insertChart(int chartType, int horzPos, double left, int vertPos, double top, double width, double height, int wrapType, int chartStyle)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| chartType | int |  |
+| horzPos | int |  |
+| left | double |  |
+| vertPos | int |  |
+| top | double |  |
+| width | double |  |
+| height | double |  |
+| wrapType | int |  |
+| chartStyle | int |  |
 
 **Returns:**
 [Shape](../../com.aspose.words/shape/)

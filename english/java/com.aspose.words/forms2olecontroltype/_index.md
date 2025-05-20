@@ -4,7 +4,7 @@ linktitle: Forms2OleControlType
 second_title: Aspose.Words for Java
 description: Enumerates types of Forms 2.0 controls in Java.
 type: docs
-weight: 346
+weight: 347
 url: /java/com.aspose.words/forms2olecontroltype/
 ---
 

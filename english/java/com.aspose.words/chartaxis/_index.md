@@ -109,6 +109,7 @@ Shows how to insert a chart and modify the appearance of its axes.
 | [getReverseOrder()](#getReverseOrder) | Gets a flag indicating whether values of axis should be displayed in reverse order, i.e. |
 | [getScaling()](#getScaling) | Provides access to the scaling options of the axis. |
 | [getShapeType()](#getShapeType) |  |
+| [getStyleItem()](#getStyleItem) |  |
 | [getTickLabels()](#getTickLabels) | Provides access to the properties of the axis tick mark labels. |
 | [getTickMarkSpacing()](#getTickMarkSpacing) | Gets the interval, at which tick marks are drawn. |
 | [getTitle()](#getTitle) | Provides access to the axis title properties. |
@@ -1488,6 +1489,16 @@ Shows how to insert chart with date/time values.
 ### getShapeType() {#getShapeType}
 ```
 public int getShapeType()
+```
+
+
+
+
+**Returns:**
+int
+### getStyleItem() {#getStyleItem}
+```
+public int getStyleItem()
 ```
 
 

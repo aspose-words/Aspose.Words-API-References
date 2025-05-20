@@ -4,7 +4,7 @@ linktitle: WatermarkerContext
 second_title: Aspose.Words for Java
 description: Document watermarker context in Java.
 type: docs
-weight: 711
+weight: 713
 url: /java/com.aspose.words/watermarkercontext/
 ---
 
@@ -28,9 +28,7 @@ Shows how to insert watermark text to the document using context.
  WatermarkerContext watermarkerContext = new WatermarkerContext();
  watermarkerContext.setTextWatermark(watermarkText);
 
- TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
- textWatermarkOptions.setColor(Color.RED);
- watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
+ watermarkerContext.getTextWatermarkOptions().setColor(Color.RED);
 
  Watermarker.create(watermarkerContext)
          .from(doc)
@@ -49,9 +47,7 @@ Shows how to insert watermark image to the document using context.
  WatermarkerContext watermarkerContext = new WatermarkerContext();
  watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
 
- ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
- imageWatermarkOptions.setScale(50.0);
- watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
+ watermarkerContext.getImageWatermarkOptions().setScale(50.0);
 
  Watermarker.create(watermarkerContext)
          .from(doc)
@@ -70,9 +66,7 @@ Shows how to insert watermark text to the document from the stream using context
      WatermarkerContext watermarkerContext = new WatermarkerContext();
      watermarkerContext.setTextWatermark(watermarkText);
 
-     TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
-     textWatermarkOptions.setColor(Color.RED);
-     watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
+     watermarkerContext.getTextWatermarkOptions().setColor(Color.RED);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextTextStream.docx")) {
          Watermarker.create(watermarkerContext)
@@ -94,9 +88,7 @@ Shows how to insert watermark image to the document from a stream using context.
      WatermarkerContext watermarkerContext = new WatermarkerContext();
      watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
 
-     ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
-     imageWatermarkOptions.setScale(50.0);
-     watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
+     watermarkerContext.getImageWatermarkOptions().setScale(50.0);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextImageStream.docx")) {
          Watermarker.create(watermarkerContext)
@@ -107,6 +99,11 @@ Shows how to insert watermark image to the document from a stream using context.
  }
  
 ```
+## Constructors
+
+| Constructor | Description |
+| --- | --- |
+| [WatermarkerContext()](#WatermarkerContext) | Initializes a new instance of this class. |
 ## Methods
 
 | Method | Description |
@@ -120,10 +117,16 @@ Shows how to insert watermark image to the document from a stream using context.
 | [getWarningCallback()](#getWarningCallback) | Warning callback used by the processor. |
 | [setFontSettings(FontSettings value)](#setFontSettings-com.aspose.words.FontSettings) | Font settings used by the processor. |
 | [setImageWatermark(byte[] value)](#setImageWatermark-byte) | Image bytes to be used as a watermark. |
-| [setImageWatermarkOptions(ImageWatermarkOptions value)](#setImageWatermarkOptions-com.aspose.words.ImageWatermarkOptions) | Options for the text watermark. |
 | [setTextWatermark(String value)](#setTextWatermark-java.lang.String) | Text to be used as a watermark. |
-| [setTextWatermarkOptions(TextWatermarkOptions value)](#setTextWatermarkOptions-com.aspose.words.TextWatermarkOptions) | Options for the image watermark. |
 | [setWarningCallback(IWarningCallback value)](#setWarningCallback-com.aspose.words.IWarningCallback) | Warning callback used by the processor. |
+### WatermarkerContext() {#WatermarkerContext}
+```
+public WatermarkerContext()
+```
+
+
+Initializes a new instance of this class.
+
 ### getFontSettings() {#getFontSettings}
 ```
 public FontSettings getFontSettings()
@@ -158,9 +161,7 @@ Shows how to insert watermark image to the document using context.
  WatermarkerContext watermarkerContext = new WatermarkerContext();
  watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
 
- ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
- imageWatermarkOptions.setScale(50.0);
- watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
+ watermarkerContext.getImageWatermarkOptions().setScale(50.0);
 
  Watermarker.create(watermarkerContext)
          .from(doc)
@@ -179,9 +180,7 @@ Shows how to insert watermark image to the document from a stream using context.
      WatermarkerContext watermarkerContext = new WatermarkerContext();
      watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
 
-     ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
-     imageWatermarkOptions.setScale(50.0);
-     watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
+     watermarkerContext.getImageWatermarkOptions().setScale(50.0);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextImageStream.docx")) {
          Watermarker.create(watermarkerContext)
@@ -215,9 +214,7 @@ Shows how to insert watermark image to the document using context.
  WatermarkerContext watermarkerContext = new WatermarkerContext();
  watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
 
- ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
- imageWatermarkOptions.setScale(50.0);
- watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
+ watermarkerContext.getImageWatermarkOptions().setScale(50.0);
 
  Watermarker.create(watermarkerContext)
          .from(doc)
@@ -236,9 +233,7 @@ Shows how to insert watermark image to the document from a stream using context.
      WatermarkerContext watermarkerContext = new WatermarkerContext();
      watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
 
-     ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
-     imageWatermarkOptions.setScale(50.0);
-     watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
+     watermarkerContext.getImageWatermarkOptions().setScale(50.0);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextImageStream.docx")) {
          Watermarker.create(watermarkerContext)
@@ -286,9 +281,7 @@ Shows how to insert watermark text to the document using context.
  WatermarkerContext watermarkerContext = new WatermarkerContext();
  watermarkerContext.setTextWatermark(watermarkText);
 
- TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
- textWatermarkOptions.setColor(Color.RED);
- watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
+ watermarkerContext.getTextWatermarkOptions().setColor(Color.RED);
 
  Watermarker.create(watermarkerContext)
          .from(doc)
@@ -307,9 +300,7 @@ Shows how to insert watermark text to the document from the stream using context
      WatermarkerContext watermarkerContext = new WatermarkerContext();
      watermarkerContext.setTextWatermark(watermarkText);
 
-     TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
-     textWatermarkOptions.setColor(Color.RED);
-     watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
+     watermarkerContext.getTextWatermarkOptions().setColor(Color.RED);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextTextStream.docx")) {
          Watermarker.create(watermarkerContext)
@@ -343,9 +334,7 @@ Shows how to insert watermark text to the document using context.
  WatermarkerContext watermarkerContext = new WatermarkerContext();
  watermarkerContext.setTextWatermark(watermarkText);
 
- TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
- textWatermarkOptions.setColor(Color.RED);
- watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
+ watermarkerContext.getTextWatermarkOptions().setColor(Color.RED);
 
  Watermarker.create(watermarkerContext)
          .from(doc)
@@ -364,9 +353,7 @@ Shows how to insert watermark text to the document from the stream using context
      WatermarkerContext watermarkerContext = new WatermarkerContext();
      watermarkerContext.setTextWatermark(watermarkText);
 
-     TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
-     textWatermarkOptions.setColor(Color.RED);
-     watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
+     watermarkerContext.getTextWatermarkOptions().setColor(Color.RED);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextTextStream.docx")) {
          Watermarker.create(watermarkerContext)
@@ -427,9 +414,7 @@ Shows how to insert watermark image to the document using context.
  WatermarkerContext watermarkerContext = new WatermarkerContext();
  watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
 
- ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
- imageWatermarkOptions.setScale(50.0);
- watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
+ watermarkerContext.getImageWatermarkOptions().setScale(50.0);
 
  Watermarker.create(watermarkerContext)
          .from(doc)
@@ -448,9 +433,7 @@ Shows how to insert watermark image to the document from a stream using context.
      WatermarkerContext watermarkerContext = new WatermarkerContext();
      watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
 
-     ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
-     imageWatermarkOptions.setScale(50.0);
-     watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
+     watermarkerContext.getImageWatermarkOptions().setScale(50.0);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextImageStream.docx")) {
          Watermarker.create(watermarkerContext)
@@ -466,66 +449,6 @@ Shows how to insert watermark image to the document from a stream using context.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte[] | The corresponding byte[] value. |
-
-### setImageWatermarkOptions(ImageWatermarkOptions value) {#setImageWatermarkOptions-com.aspose.words.ImageWatermarkOptions}
-```
-public void setImageWatermarkOptions(ImageWatermarkOptions value)
-```
-
-
-Options for the text watermark.
-
- **Examples:** 
-
-Shows how to insert watermark image to the document using context.
-
-```
-
- String doc = getMyDir() + "Document.docx";
- String watermarkImage = getImageDir() + "Logo.jpg";
-
- WatermarkerContext watermarkerContext = new WatermarkerContext();
- watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
-
- ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
- imageWatermarkOptions.setScale(50.0);
- watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
-
- Watermarker.create(watermarkerContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.WatermarkContextImage.docx")
-         .execute();
- 
-```
-
-Shows how to insert watermark image to the document from a stream using context.
-
-```
-
- String watermarkImage = getImageDir() + "Logo.jpg";
-
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Document.docx")) {
-     WatermarkerContext watermarkerContext = new WatermarkerContext();
-     watermarkerContext.setImageWatermark(Files.readAllBytes(Paths.get(watermarkImage)));
-
-     ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
-     imageWatermarkOptions.setScale(50.0);
-     watermarkerContext.setImageWatermarkOptions(imageWatermarkOptions);
-
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextImageStream.docx")) {
-         Watermarker.create(watermarkerContext)
-                 .from(streamIn)
-                 .to(streamOut, SaveFormat.DOCX)
-                 .execute();
-     }
- }
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) | The corresponding [ImageWatermarkOptions](../../com.aspose.words/imagewatermarkoptions/) value. |
 
 ### setTextWatermark(String value) {#setTextWatermark-java.lang.String}
 ```
@@ -551,9 +474,7 @@ Shows how to insert watermark text to the document using context.
  WatermarkerContext watermarkerContext = new WatermarkerContext();
  watermarkerContext.setTextWatermark(watermarkText);
 
- TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
- textWatermarkOptions.setColor(Color.RED);
- watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
+ watermarkerContext.getTextWatermarkOptions().setColor(Color.RED);
 
  Watermarker.create(watermarkerContext)
          .from(doc)
@@ -572,9 +493,7 @@ Shows how to insert watermark text to the document from the stream using context
      WatermarkerContext watermarkerContext = new WatermarkerContext();
      watermarkerContext.setTextWatermark(watermarkText);
 
-     TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
-     textWatermarkOptions.setColor(Color.RED);
-     watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
+     watermarkerContext.getTextWatermarkOptions().setColor(Color.RED);
 
      try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextTextStream.docx")) {
          Watermarker.create(watermarkerContext)
@@ -590,66 +509,6 @@ Shows how to insert watermark text to the document from the stream using context
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The corresponding java.lang.String value. |
-
-### setTextWatermarkOptions(TextWatermarkOptions value) {#setTextWatermarkOptions-com.aspose.words.TextWatermarkOptions}
-```
-public void setTextWatermarkOptions(TextWatermarkOptions value)
-```
-
-
-Options for the image watermark.
-
- **Examples:** 
-
-Shows how to insert watermark text to the document using context.
-
-```
-
- String doc = getMyDir() + "Big document.docx";
- String watermarkText = "This is a watermark";
-
- WatermarkerContext watermarkerContext = new WatermarkerContext();
- watermarkerContext.setTextWatermark(watermarkText);
-
- TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
- textWatermarkOptions.setColor(Color.RED);
- watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
-
- Watermarker.create(watermarkerContext)
-         .from(doc)
-         .to(getArtifactsDir() + "LowCode.WatermarkContextText.docx")
-         .execute();
- 
-```
-
-Shows how to insert watermark text to the document from the stream using context.
-
-```
-
- String watermarkText = "This is a watermark";
-
- try (FileInputStream streamIn = new FileInputStream(getMyDir() + "Document.docx")) {
-     WatermarkerContext watermarkerContext = new WatermarkerContext();
-     watermarkerContext.setTextWatermark(watermarkText);
-
-     TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
-     textWatermarkOptions.setColor(Color.RED);
-     watermarkerContext.setTextWatermarkOptions(textWatermarkOptions);
-
-     try (FileOutputStream streamOut = new FileOutputStream(getArtifactsDir() + "LowCode.WatermarkContextTextStream.docx")) {
-         Watermarker.create(watermarkerContext)
-                 .from(streamIn)
-                 .to(streamOut, SaveFormat.DOCX)
-                 .execute();
-     }
- }
- 
-```
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions/) | The corresponding [TextWatermarkOptions](../../com.aspose.words/textwatermarkoptions/) value. |
 
 ### setWarningCallback(IWarningCallback value) {#setWarningCallback-com.aspose.words.IWarningCallback}
 ```

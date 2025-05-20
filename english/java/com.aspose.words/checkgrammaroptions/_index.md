@@ -4,7 +4,7 @@ linktitle: CheckGrammarOptions
 second_title: Aspose.Words for Java
 description: Allows to specify various options while checking grammar of a document using AI in Java.
 type: docs
-weight: 100
+weight: 101
 url: /java/com.aspose.words/checkgrammaroptions/
 ---
 

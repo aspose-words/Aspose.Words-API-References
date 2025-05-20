@@ -4,7 +4,7 @@ linktitle: FieldType
 second_title: Aspose.Words for Java
 description: Specifies Microsoft Word field types in Java.
 type: docs
-weight: 296
+weight: 297
 url: /java/com.aspose.words/fieldtype/
 ---
 

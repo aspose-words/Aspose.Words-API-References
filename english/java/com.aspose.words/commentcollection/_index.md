@@ -4,7 +4,7 @@ linktitle: CommentCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to a collection of Comment nodes in Java.
 type: docs
-weight: 108
+weight: 109
 url: /java/com.aspose.words/commentcollection/
 ---
 

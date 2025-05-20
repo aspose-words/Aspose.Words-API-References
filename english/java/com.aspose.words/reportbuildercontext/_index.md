@@ -4,7 +4,7 @@ linktitle: ReportBuilderContext
 second_title: Aspose.Words for Java
 description: LINQ Reporting Engine context in Java.
 type: docs
-weight: 561
+weight: 563
 url: /java/com.aspose.words/reportbuildercontext/
 ---
 

@@ -112,6 +112,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [ChartSeriesGroupCollection](../com.aspose.words/chartseriesgroupcollection/) | Represents a collection of [ChartSeriesGroup](../com.aspose.words/chartseriesgroup/) objects. |
 | [ChartSeriesType](../com.aspose.words/chartseriestype/) | Specifies a type of a chart series. |
 | [ChartShapeType](../com.aspose.words/chartshapetype/) | Specifies the shape type of chart elements. |
+| [ChartStyle](../com.aspose.words/chartstyle/) | Specifies predefined styles of a chart. |
 | [ChartTitle](../com.aspose.words/charttitle/) | Provides access to the chart title properties. |
 | [ChartType](../com.aspose.words/charttype/) | Specifies type of a chart. |
 | [ChartXValue](../com.aspose.words/chartxvalue/) | Represents an X value for a chart series. |
@@ -464,6 +465,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [MailMergerContext](../com.aspose.words/mailmergercontext/) | Mail merge context. |
 | [MappedDataFieldCollection](../com.aspose.words/mappeddatafieldcollection/) | Allows to automatically map between names of fields in your data source and names of mail merge fields in the document. |
 | [Margins](../com.aspose.words/margins/) | Specifies preset margins. |
+| [MarkdownEmptyParagraphExportMode](../com.aspose.words/markdownemptyparagraphexportmode/) | Specifies how Aspose.Words exports empty paragraphs to Markdown. |
 | [MarkdownExportAsHtml](../com.aspose.words/markdownexportashtml/) | Allows to specify the elements to be exported to Markdown as raw HTML. |
 | [MarkdownLinkExportMode](../com.aspose.words/markdownlinkexportmode/) | Specifies how links are exported into Markdown. |
 | [MarkdownListExportMode](../com.aspose.words/markdownlistexportmode/) | Specifies how lists are exported into Markdown. |

@@ -4,7 +4,7 @@ linktitle: CompositeNode
 second_title: Aspose.Words for Java
 description: Base class for nodes that can contain other nodes in Java.
 type: docs
-weight: 120
+weight: 121
 url: /java/com.aspose.words/compositenode/
 ---
 

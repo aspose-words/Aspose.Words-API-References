@@ -4,7 +4,7 @@ linktitle: MailMergeDataSource
 second_title: Aspose.Words for Java
 description: Mail merge data source used for using in MailMergerContext in Java.
 type: docs
-weight: 432
+weight: 433
 url: /java/com.aspose.words/mailmergedatasource/
 ---
 

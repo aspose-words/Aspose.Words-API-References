@@ -4,7 +4,7 @@ linktitle: OdtSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.ODT or SaveFormat.OTT format in Java.
 type: docs
-weight: 486
+weight: 488
 url: /java/com.aspose.words/odtsaveoptions/
 ---
 
@@ -97,6 +97,7 @@ Shows how to use different measurement units to define style parameters of a sav
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
+| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [isStrictSchema11()](#isStrictSchema11) | Specifies whether export should correspond to ODT specification 1.1 strictly. |
 | [isStrictSchema11(boolean value)](#isStrictSchema11-boolean) | Specifies whether export should correspond to ODT specification 1.1 strictly. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
@@ -121,6 +122,7 @@ Shows how to use different measurement units to define style parameters of a sav
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
+| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 ### OdtSaveOptions() {#OdtSaveOptions}
 ```
 public OdtSaveOptions()
@@ -1243,6 +1245,22 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
+### getUseJAIImageRendering() {#getUseJAIImageRendering}
+```
+public boolean getUseJAIImageRendering()
+```
+
+
+Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Returns:**
+boolean
 ### isStrictSchema11() {#isStrictSchema11}
 ```
 public boolean isStrictSchema11()
@@ -2384,4 +2402,23 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
+
+### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
+```
+public void setUseJAIImageRendering(boolean value)
+```
+
+
+Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

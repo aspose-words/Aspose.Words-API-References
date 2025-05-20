@@ -4,7 +4,7 @@ linktitle: MarkdownSaveOptions
 second_title: Aspose.Words for Java
 description: Class to specify additional options when saving a document into the SaveFormat.MARKDOWN format in Java.
 type: docs
-weight: 448
+weight: 450
 url: /java/com.aspose.words/markdownsaveoptions/
 ---
 
@@ -92,6 +92,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [getDml3DEffectsRenderingMode()](#getDml3DEffectsRenderingMode) | Gets a value determining how 3D effects are rendered. |
 | [getDmlEffectsRenderingMode()](#getDmlEffectsRenderingMode) | Gets a value determining how DrawingML effects are rendered. |
 | [getDmlRenderingMode()](#getDmlRenderingMode) | Gets a value determining how DrawingML shapes are rendered. |
+| [getEmptyParagraphExportMode()](#getEmptyParagraphExportMode) | Specifies how to export empty paragraphs to Markdown. |
 | [getEncoding()](#getEncoding) |  |
 | [getExportAsHtml()](#getExportAsHtml) | Allows to specify the elements to be exported to Markdown as raw HTML. |
 | [getExportGeneratorName()](#getExportGeneratorName) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
@@ -121,11 +122,13 @@ Shows how to rename the image name during saving into Markdown document.
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
+| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
 | [setDml3DEffectsRenderingMode(int value)](#setDml3DEffectsRenderingMode-int) | Sets a value determining how 3D effects are rendered. |
 | [setDmlEffectsRenderingMode(int value)](#setDmlEffectsRenderingMode-int) | Sets a value determining how DrawingML effects are rendered. |
 | [setDmlRenderingMode(int value)](#setDmlRenderingMode-int) | Sets a value determining how DrawingML shapes are rendered. |
+| [setEmptyParagraphExportMode(int value)](#setEmptyParagraphExportMode-int) | Specifies how to export empty paragraphs to Markdown. |
 | [setEncoding(Charset value)](#setEncoding-java.nio.charset.Charset) |  |
 | [setExportAsHtml(int value)](#setExportAsHtml-int) | Allows to specify the elements to be exported to Markdown as raw HTML. |
 | [setExportGeneratorName(boolean value)](#setExportGeneratorName-boolean) | When  true , causes the name and version of Aspose.Words to be embedded into produced files. |
@@ -155,6 +158,7 @@ Shows how to rename the image name during saving into Markdown document.
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
+| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 ### MarkdownSaveOptions() {#MarkdownSaveOptions}
 ```
 public MarkdownSaveOptions()
@@ -488,6 +492,51 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
 
 **Returns:**
 int - A value determining how DrawingML shapes are rendered. The returned value is one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) constants.
+### getEmptyParagraphExportMode() {#getEmptyParagraphExportMode}
+```
+public int getEmptyParagraphExportMode()
+```
+
+
+Specifies how to export empty paragraphs to Markdown. Default value is [MarkdownEmptyParagraphExportMode.EMPTY\_LINE](../../com.aspose.words/markdownemptyparagraphexportmode/\#EMPTY-LINE).
+
+ **Examples:** 
+
+Shows how to export empty paragraphs.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("First");
+ builder.writeln("\r\n\r\n\r\n");
+ builder.writeln("Last");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setEmptyParagraphExportMode(exportMode);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.EmptyParagraphExportMode.md", saveOptions);
+
+ String result = FileUtils.readFileToString( new File(getArtifactsDir() + "MarkdownSaveOptions.EmptyParagraphExportMode.md"), StandardCharsets.UTF_8);
+
+ switch (exportMode)
+ {
+     case MarkdownEmptyParagraphExportMode.NONE:
+         Assert.assertEquals("\ufeffFirst\r\n\r\nLast\r\n", result);
+         break;
+     case MarkdownEmptyParagraphExportMode.EMPTY_LINE:
+         Assert.assertEquals("\ufeffFirst\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n", result);
+         break;
+     case MarkdownEmptyParagraphExportMode.MARKDOWN_HARD_LINE_BREAK:
+         Assert.assertEquals("\ufeffFirst\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n
+\r\n", result);
+         break;
+ }
+ 
+```
+
+**Returns:**
+int - The corresponding  int  value. The returned value is one of [MarkdownEmptyParagraphExportMode](../../com.aspose.words/markdownemptyparagraphexportmode/) constants.
 ### getEncoding() {#getEncoding}
 ```
 public Charset getEncoding()
@@ -1836,6 +1885,22 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
+### getUseJAIImageRendering() {#getUseJAIImageRendering}
+```
+public boolean getUseJAIImageRendering()
+```
+
+
+Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Returns:**
+boolean
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -2066,6 +2131,54 @@ Shows how to configure the rendering quality of DrawingML effects in a document 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | A value determining how DrawingML shapes are rendered. The value must be one of [DmlRenderingMode](../../com.aspose.words/dmlrenderingmode/) constants. |
+
+### setEmptyParagraphExportMode(int value) {#setEmptyParagraphExportMode-int}
+```
+public void setEmptyParagraphExportMode(int value)
+```
+
+
+Specifies how to export empty paragraphs to Markdown. Default value is [MarkdownEmptyParagraphExportMode.EMPTY\_LINE](../../com.aspose.words/markdownemptyparagraphexportmode/\#EMPTY-LINE).
+
+ **Examples:** 
+
+Shows how to export empty paragraphs.
+
+```
+
+ Document doc = new Document();
+ DocumentBuilder builder = new DocumentBuilder(doc);
+ builder.writeln("First");
+ builder.writeln("\r\n\r\n\r\n");
+ builder.writeln("Last");
+
+ MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
+ saveOptions.setEmptyParagraphExportMode(exportMode);
+
+ doc.save(getArtifactsDir() + "MarkdownSaveOptions.EmptyParagraphExportMode.md", saveOptions);
+
+ String result = FileUtils.readFileToString( new File(getArtifactsDir() + "MarkdownSaveOptions.EmptyParagraphExportMode.md"), StandardCharsets.UTF_8);
+
+ switch (exportMode)
+ {
+     case MarkdownEmptyParagraphExportMode.NONE:
+         Assert.assertEquals("\ufeffFirst\r\n\r\nLast\r\n", result);
+         break;
+     case MarkdownEmptyParagraphExportMode.EMPTY_LINE:
+         Assert.assertEquals("\ufeffFirst\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n", result);
+         break;
+     case MarkdownEmptyParagraphExportMode.MARKDOWN_HARD_LINE_BREAK:
+         Assert.assertEquals("\ufeffFirst\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n
+\r\n", result);
+         break;
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The corresponding  int  value. The value must be one of [MarkdownEmptyParagraphExportMode](../../com.aspose.words/markdownemptyparagraphexportmode/) constants. |
 
 ### setEncoding(Charset value) {#setEncoding-java.nio.charset.Charset}
 ```
@@ -3501,4 +3614,23 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
+
+### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
+```
+public void setUseJAIImageRendering(boolean value)
+```
+
+
+Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

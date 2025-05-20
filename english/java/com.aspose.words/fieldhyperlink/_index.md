@@ -4,7 +4,7 @@ linktitle: FieldHyperlink
 second_title: Aspose.Words for Java
 description: Implements the HYPERLINK field in Java.
 type: docs
-weight: 239
+weight: 240
 url: /java/com.aspose.words/fieldhyperlink/
 ---
 

@@ -4,7 +4,7 @@ linktitle: MergeFieldImageDimension
 second_title: Aspose.Words for Java
 description: Represents an image dimension i.e in Java.
 type: docs
-weight: 454
+weight: 456
 url: /java/com.aspose.words/mergefieldimagedimension/
 ---
 

@@ -4,7 +4,7 @@ linktitle: FontInfoSubstitutionRule
 second_title: Aspose.Words for Java
 description: Font info substitution rule in Java.
 type: docs
-weight: 325
+weight: 326
 url: /java/com.aspose.words/fontinfosubstitutionrule/
 ---
 

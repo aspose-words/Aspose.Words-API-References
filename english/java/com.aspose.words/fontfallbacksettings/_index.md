@@ -4,7 +4,7 @@ linktitle: FontFallbackSettings
 second_title: Aspose.Words for Java
 description: Specifies font fallback mechanism settings in Java.
 type: docs
-weight: 320
+weight: 321
 url: /java/com.aspose.words/fontfallbacksettings/
 ---
 

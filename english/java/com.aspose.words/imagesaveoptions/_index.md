@@ -4,7 +4,7 @@ linktitle: ImageSaveOptions
 second_title: Aspose.Words for Java
 description: Allows to specify additional options when rendering document pages or shapes to images in Java.
 type: docs
-weight: 388
+weight: 389
 url: /java/com.aspose.words/imagesaveoptions/
 ---
 
@@ -165,6 +165,7 @@ Shows how to configure compression while saving a document as a JPEG.
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseGdiEmfRenderer()](#getUseGdiEmfRenderer) | Gets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
+| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [getVerticalResolution()](#getVerticalResolution) | Gets the vertical resolution for the generated images, in dots per inch. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
@@ -206,6 +207,7 @@ Shows how to configure compression while saving a document as a JPEG.
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseGdiEmfRenderer(boolean value)](#setUseGdiEmfRenderer-boolean) | Sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
+| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 | [setVerticalResolution(float value)](#setVerticalResolution-float) | Sets the vertical resolution for the generated images, in dots per inch. |
 ### ImageSaveOptions(int saveFormat) {#ImageSaveOptions-int}
 ```
@@ -1131,7 +1133,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(61889.0,
+     Assert.assertEquals(60385.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191000.0,
@@ -2302,6 +2304,22 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
+### getUseJAIImageRendering() {#getUseJAIImageRendering}
+```
+public boolean getUseJAIImageRendering()
+```
+
+
+Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Returns:**
+boolean
 ### getVerticalResolution() {#getVerticalResolution}
 ```
 public float getVerticalResolution()
@@ -3229,7 +3247,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(61889.0,
+     Assert.assertEquals(60385.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191000.0,
@@ -4508,6 +4526,25 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
+
+### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
+```
+public void setUseJAIImageRendering(boolean value)
+```
+
+
+Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setVerticalResolution(float value) {#setVerticalResolution-float}
 ```

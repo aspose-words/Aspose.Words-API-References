@@ -4,7 +4,7 @@ linktitle: OoxmlSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.DOCX SaveFormat.DOCM SaveFormat.DOTX SaveFormat.DOTM or SaveFormat.FLAT_OPC format in Java.
 type: docs
-weight: 495
+weight: 497
 url: /java/com.aspose.words/ooxmlsaveoptions/
 ---
 
@@ -88,6 +88,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
+| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [getZip64Mode()](#getZip64Mode) | Specifies whether or not to use ZIP64 format extensions for the output document. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setCompliance(int value)](#setCompliance-int) | Specifies the OOXML version for the output document. |
@@ -113,6 +114,7 @@ Shows how to set an OOXML compliance specification for a saved document to adher
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
+| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 | [setZip64Mode(int value)](#setZip64Mode-int) | Specifies whether or not to use ZIP64 format extensions for the output document. |
 ### OoxmlSaveOptions() {#OoxmlSaveOptions}
 ```
@@ -1395,6 +1397,22 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
+### getUseJAIImageRendering() {#getUseJAIImageRendering}
+```
+public boolean getUseJAIImageRendering()
+```
+
+
+Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Returns:**
+boolean
 ### getZip64Mode() {#getZip64Mode}
 ```
 public int getZip64Mode()
@@ -2677,6 +2695,25 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
+
+### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
+```
+public void setUseJAIImageRendering(boolean value)
+```
+
+
+Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setZip64Mode(int value) {#setZip64Mode-int}
 ```

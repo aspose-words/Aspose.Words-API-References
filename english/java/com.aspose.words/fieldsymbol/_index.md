@@ -4,7 +4,7 @@ linktitle: FieldSymbol
 second_title: Aspose.Words for Java
 description: Implements a SYMBOL field in Java.
 type: docs
-weight: 288
+weight: 289
 url: /java/com.aspose.words/fieldsymbol/
 ---
 

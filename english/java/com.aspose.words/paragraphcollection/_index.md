@@ -4,7 +4,7 @@ linktitle: ParagraphCollection
 second_title: Aspose.Words for Java
 description: Provides typed access to a collection of Paragraph nodes in Java.
 type: docs
-weight: 514
+weight: 516
 url: /java/com.aspose.words/paragraphcollection/
 ---
 

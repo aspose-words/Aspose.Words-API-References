@@ -4,7 +4,7 @@ linktitle: PageInfo
 second_title: Aspose.Words for Java
 description: Represents information about a particular document page in Java.
 type: docs
-weight: 503
+weight: 505
 url: /java/com.aspose.words/pageinfo/
 ---
 
