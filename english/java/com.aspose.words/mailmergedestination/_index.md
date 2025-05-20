@@ -4,7 +4,7 @@ linktitle: MailMergeDestination
 second_title: Aspose.Words for Java
 description: Specifies the possible results which may be generated when a mail merge is carried out on a document in Java.
 type: docs
-weight: 434
+weight: 435
 url: /java/com.aspose.words/mailmergedestination/
 ---
 

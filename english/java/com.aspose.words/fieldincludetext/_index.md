@@ -4,7 +4,7 @@ linktitle: FieldIncludeText
 second_title: Aspose.Words for Java
 description: Implements the INCLUDETEXT field in Java.
 type: docs
-weight: 245
+weight: 246
 url: /java/com.aspose.words/fieldincludetext/
 ---
 

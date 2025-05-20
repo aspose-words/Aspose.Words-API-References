@@ -4,7 +4,7 @@ linktitle: SoftEdgeFormat
 second_title: Aspose.Words for Java
 description: Represents the soft edge formatting for an object in Java.
 type: docs
-weight: 614
+weight: 616
 url: /java/com.aspose.words/softedgeformat/
 ---
 

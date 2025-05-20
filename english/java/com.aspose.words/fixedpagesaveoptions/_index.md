@@ -4,7 +4,7 @@ linktitle: FixedPageSaveOptions
 second_title: Aspose.Words for Java
 description: Contains common options that can be specified when saving a document into fixed page formats PDF XPS images etc in Java.
 type: docs
-weight: 313
+weight: 314
 url: /java/com.aspose.words/fixedpagesaveoptions/
 ---
 
@@ -114,6 +114,7 @@ Shows how to render every page of a document to a separate TIFF image.
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
+| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
@@ -140,6 +141,7 @@ Shows how to render every page of a document to a separate TIFF image.
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
+| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 ### createSaveOptions(int saveFormat) {#createSaveOptions-int}
 ```
 public static SaveOptions createSaveOptions(int saveFormat)
@@ -735,7 +737,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(61889.0,
+     Assert.assertEquals(60385.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191000.0,
@@ -1530,6 +1532,22 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
+### getUseJAIImageRendering() {#getUseJAIImageRendering}
+```
+public boolean getUseJAIImageRendering()
+```
+
+
+Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Returns:**
+boolean
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -2093,7 +2111,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(61889.0,
+     Assert.assertEquals(60385.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191000.0,
@@ -2929,4 +2947,23 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
+
+### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
+```
+public void setUseJAIImageRendering(boolean value)
+```
+
+
+Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 

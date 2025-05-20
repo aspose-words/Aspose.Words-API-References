@@ -4,7 +4,7 @@ linktitle: DocumentPartSavingArgs
 second_title: Aspose.Words for Java
 description: Provides data for the IDocumentPartSavingCallback.documentPartSavingcom.aspose.words.DocumentPartSavingArgs callback in Java.
 type: docs
-weight: 165
+weight: 166
 url: /java/com.aspose.words/documentpartsavingargs/
 ---
 

@@ -4,7 +4,7 @@ linktitle: FieldListNum
 second_title: Aspose.Words for Java
 description: Implements the LISTNUM field in Java.
 type: docs
-weight: 252
+weight: 253
 url: /java/com.aspose.words/fieldlistnum/
 ---
 

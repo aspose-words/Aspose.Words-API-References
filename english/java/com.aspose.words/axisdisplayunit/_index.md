@@ -91,6 +91,7 @@ Shows how to manipulate the tick marks and displayed values of a chart axis.
 | [getDefaultTitleText()](#getDefaultTitleText) |  |
 | [getDocument()](#getDocument) | Returns the document containing the parent chart. |
 | [getRelativeFontSize(int chartFontSize)](#getRelativeFontSize-int) |  |
+| [getStyleItem()](#getStyleItem) |  |
 | [getTitleDeleted()](#getTitleDeleted) |  |
 | [getTitlePosition()](#getTitlePosition) |  |
 | [getUnit()](#getUnit) | Gets the scaling value of the display units as one of the predefined values. |
@@ -282,6 +283,16 @@ public int getRelativeFontSize(int chartFontSize)
 | Parameter | Type | Description |
 | --- | --- | --- |
 | chartFontSize | int |  |
+
+**Returns:**
+int
+### getStyleItem() {#getStyleItem}
+```
+public int getStyleItem()
+```
+
+
+
 
 **Returns:**
 int

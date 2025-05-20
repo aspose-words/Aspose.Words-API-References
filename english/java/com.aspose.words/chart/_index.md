@@ -64,12 +64,14 @@ Shows how to insert a chart and set a title.
 | [getSeriesGroups()](#getSeriesGroups) | Provides access to a series group collection of this chart. |
 | [getShapeType()](#getShapeType) |  |
 | [getSourceFullName()](#getSourceFullName) | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [getStyle()](#getStyle) | Gets the style of the chart. |
 | [getTitle()](#getTitle) | Provides access to the chart title properties. |
 | [isFillSupported()](#isFillSupported) |  |
 | [isFormatDefined()](#isFormatDefined) |  |
 | [materializeSpPr()](#materializeSpPr) |  |
 | [setShapeType(int value)](#setShapeType-int) |  |
 | [setSourceFullName(String value)](#setSourceFullName-java.lang.String) | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [setStyle(int value)](#setStyle-int) | Sets the style of the chart. |
 ### getAxes() {#getAxes}
 ```
 public ChartAxisCollection getAxes()
@@ -600,6 +602,16 @@ Shows how to get/set the full name of the external xls/xlsx document if the char
 
 **Returns:**
 java.lang.String - The path and name of an xls/xlsx file this chart is linked to.
+### getStyle() {#getStyle}
+```
+public int getStyle()
+```
+
+
+Gets the style of the chart.
+
+**Returns:**
+int - The style of the chart. The returned value is one of [ChartStyle](../../com.aspose.words/chartstyle/) constants.
 ### getTitle() {#getTitle}
 ```
 public ChartTitle getTitle()
@@ -707,4 +719,17 @@ Shows how to get/set the full name of the external xls/xlsx document if the char
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The path and name of an xls/xlsx file this chart is linked to. |
+
+### setStyle(int value) {#setStyle-int}
+```
+public void setStyle(int value)
+```
+
+
+Sets the style of the chart.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | int | The style of the chart. The value must be one of [ChartStyle](../../com.aspose.words/chartstyle/) constants. |
 

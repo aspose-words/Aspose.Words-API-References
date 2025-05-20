@@ -4,7 +4,7 @@ linktitle: Frameset
 second_title: Aspose.Words for Java
 description: Represents a frames page or a single frame on a frames page in Java.
 type: docs
-weight: 348
+weight: 349
 url: /java/com.aspose.words/frameset/
 ---
 

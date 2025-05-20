@@ -4,7 +4,7 @@ linktitle: FieldFormText
 second_title: Aspose.Words for Java
 description: Implements the FORMTEXT field in Java.
 type: docs
-weight: 233
+weight: 234
 url: /java/com.aspose.words/fieldformtext/
 ---
 

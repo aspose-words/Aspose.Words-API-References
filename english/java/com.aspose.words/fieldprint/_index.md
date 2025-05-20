@@ -4,7 +4,7 @@ linktitle: FieldPrint
 second_title: Aspose.Words for Java
 description: Implements the PRINT field in Java.
 type: docs
-weight: 270
+weight: 271
 url: /java/com.aspose.words/fieldprint/
 ---
 

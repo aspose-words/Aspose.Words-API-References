@@ -4,7 +4,7 @@ linktitle: SourceType
 second_title: Aspose.Words for Java
 description: Represents bibliography source types in Java.
 type: docs
-weight: 616
+weight: 618
 url: /java/com.aspose.words/sourcetype/
 ---
 

@@ -4,7 +4,7 @@ linktitle: MailMergerContext
 second_title: Aspose.Words for Java
 description: Mail merge context in Java.
 type: docs
-weight: 440
+weight: 441
 url: /java/com.aspose.words/mailmergercontext/
 ---
 

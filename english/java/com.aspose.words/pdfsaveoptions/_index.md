@@ -4,7 +4,7 @@ linktitle: PdfSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.PDF format in Java.
 type: docs
-weight: 532
+weight: 534
 url: /java/com.aspose.words/pdfsaveoptions/
 ---
 
@@ -211,6 +211,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [getUseBookFoldPrintingSettings()](#getUseBookFoldPrintingSettings) | Gets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int). |
 | [getUseCoreFonts()](#getUseCoreFonts) | Gets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
+| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [getUseSdtTagAsFormFieldName()](#getUseSdtTagAsFormFieldName) | Specifies whether to use SDT control Tag or Id property as a name of form field in PDF. |
 | [getZoomBehavior()](#getZoomBehavior) | Gets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [getZoomFactor()](#getZoomFactor) | Gets a value determining zoom factor (in percentages) for a document. |
@@ -269,6 +270,7 @@ Shows how to convert a whole document to PDF with three levels in the document o
 | [setUseBookFoldPrintingSettings(boolean value)](#setUseBookFoldPrintingSettings-boolean) | Sets a boolean value indicating whether the document should be saved using a booklet printing layout, if it is specified via [PageSetup.getMultiplePages()](../../com.aspose.words/pagesetup/\#getMultiplePages) / [PageSetup.setMultiplePages(int)](../../com.aspose.words/pagesetup/\#setMultiplePages-int). |
 | [setUseCoreFonts(boolean value)](#setUseCoreFonts-boolean) | Sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
+| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 | [setUseSdtTagAsFormFieldName(boolean value)](#setUseSdtTagAsFormFieldName-boolean) | Specifies whether to use SDT control Tag or Id property as a name of form field in PDF. |
 | [setZoomBehavior(int value)](#setZoomBehavior-int) | Sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer. |
 | [setZoomFactor(int value)](#setZoomFactor-int) | Sets a value determining zoom factor (in percentages) for a document. |
@@ -1884,7 +1886,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(61889.0,
+     Assert.assertEquals(60385.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191000.0,
@@ -3168,6 +3170,22 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
+### getUseJAIImageRendering() {#getUseJAIImageRendering}
+```
+public boolean getUseJAIImageRendering()
+```
+
+
+Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Returns:**
+boolean
 ### getUseSdtTagAsFormFieldName() {#getUseSdtTagAsFormFieldName}
 ```
 public boolean getUseSdtTagAsFormFieldName()
@@ -4833,7 +4851,7 @@ Shows how to simplify a document when saving it to HTML by removing various redu
 
  // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
  if (optimizeOutput)
-     Assert.assertEquals(61889.0,
+     Assert.assertEquals(60385.0,
          new File(getArtifactsDir() + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").length(), 200.0);
  else
      Assert.assertEquals(191000.0,
@@ -6079,6 +6097,25 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
+
+### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
+```
+public void setUseJAIImageRendering(boolean value)
+```
+
+
+Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
+
+ **Remarks:** 
+
+The default value is  true .
+
+JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean |  |
 
 ### setUseSdtTagAsFormFieldName(boolean value) {#setUseSdtTagAsFormFieldName-boolean}
 ```

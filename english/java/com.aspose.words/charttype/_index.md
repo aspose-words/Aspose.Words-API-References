@@ -4,7 +4,7 @@ linktitle: ChartType
 second_title: Aspose.Words for Java
 description: Specifies type of a chart in Java.
 type: docs
-weight: 92
+weight: 93
 url: /java/com.aspose.words/charttype/
 ---
 

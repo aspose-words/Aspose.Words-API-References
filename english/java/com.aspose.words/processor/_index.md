@@ -4,7 +4,7 @@ linktitle: Processor
 second_title: Aspose.Words for Java
 description: Processor class for performing different document processing actions in Java.
 type: docs
-weight: 543
+weight: 545
 url: /java/com.aspose.words/processor/
 ---
 

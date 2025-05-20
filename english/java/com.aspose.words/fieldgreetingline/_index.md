@@ -4,7 +4,7 @@ linktitle: FieldGreetingLine
 second_title: Aspose.Words for Java
 description: Implements the GREETINGLINE field in Java.
 type: docs
-weight: 238
+weight: 239
 url: /java/com.aspose.words/fieldgreetingline/
 ---
 

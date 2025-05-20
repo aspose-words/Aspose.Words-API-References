@@ -4,7 +4,7 @@ linktitle: NumSpacing
 second_title: Aspose.Words for Java
 description: Specifies possible values in which numeral spacing can be displayed in Java.
 type: docs
-weight: 475
+weight: 477
 url: /java/com.aspose.words/numspacing/
 ---
 
