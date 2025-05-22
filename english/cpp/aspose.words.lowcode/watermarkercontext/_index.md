@@ -32,11 +32,10 @@ class WatermarkerContext : public Aspose::Words::LowCode::ProcessorContext
 | [ProcessorContext](../processorcontext/processorcontext/)() |  |
 | [set_FontSettings](../processorcontext/set_fontsettings/)(const System::SharedPtr\<Aspose::Words::Fonts::FontSettings\>\&) | [Font](../../aspose.words/font/) settings used by the processor. |
 | [set_ImageWatermark](./set_imagewatermark/)(const System::ArrayPtr\<uint8_t\>\&) | Image bytes to be used as a watermark. |
-| [set_ImageWatermarkOptions](./set_imagewatermarkoptions/)(const System::SharedPtr\<Aspose::Words::ImageWatermarkOptions\>\&) | Options for the text watermark. |
 | [set_TextWatermark](./set_textwatermark/)(const System::String\&) | Text to be used as a watermark. |
-| [set_TextWatermarkOptions](./set_textwatermarkoptions/)(const System::SharedPtr\<Aspose::Words::TextWatermarkOptions\>\&) | Options for the image watermark. |
 | [set_WarningCallback](../processorcontext/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Warning callback used by the processor. |
 | static [Type](./type/)() |  |
+| [WatermarkerContext](./watermarkercontext/)() |  |
 ## See Also
 
 * Class [ProcessorContext](../processorcontext/)
