@@ -30,10 +30,12 @@ class Chart : public Aspose::Words::Drawing::Charts::Core::IChartFormatSource
 | [get_Series](./get_series/)() | Provides access to series collection. |
 | [get_SeriesGroups](./get_seriesgroups/)() | Provides access to a series group collection of this chart. |
 | [get_SourceFullName](./get_sourcefullname/)() | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [get_Style](./get_style/)() | Gets the style of the chart. |
 | [get_Title](./get_title/)() | Provides access to the chart title properties. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_SourceFullName](./set_sourcefullname/)(const System::String\&) | Gets the path and name of an xls/xlsx file this chart is linked to. |
+| [set_Style](./set_style/)(Aspose::Words::Drawing::Charts::ChartStyle) | Sets the style of the chart. |
 | static [Type](./type/)() |  |
 
 ## Examples

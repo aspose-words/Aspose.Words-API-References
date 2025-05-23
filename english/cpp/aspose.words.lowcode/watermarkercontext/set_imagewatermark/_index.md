@@ -4,7 +4,7 @@ linktitle: set_ImageWatermark
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::WatermarkerContext::set_ImageWatermark method. Image bytes to be used as a watermark in C++.'
 type: docs
-weight: 8000
+weight: 9000
 url: /cpp/aspose.words.lowcode/watermarkercontext/set_imagewatermark/
 ---
 ## WatermarkerContext::set_ImageWatermark method

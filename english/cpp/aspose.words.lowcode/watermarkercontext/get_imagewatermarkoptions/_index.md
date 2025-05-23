@@ -4,7 +4,7 @@ linktitle: get_ImageWatermarkOptions
 second_title: Aspose.Words for C++ API Reference
 description: 'Aspose::Words::LowCode::WatermarkerContext::get_ImageWatermarkOptions method. Options for the text watermark in C++.'
 type: docs
-weight: 3000
+weight: 4000
 url: /cpp/aspose.words.lowcode/watermarkercontext/get_imagewatermarkoptions/
 ---
 ## WatermarkerContext::get_ImageWatermarkOptions method

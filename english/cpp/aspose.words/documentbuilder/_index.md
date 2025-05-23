@@ -56,7 +56,9 @@ class DocumentBuilder : public Aspose::Words::IRunAttrSource,
 | [InsertBreak](./insertbreak/)(Aspose::Words::BreakType) | Inserts a break of the specified type into the document. |
 | [InsertCell](./insertcell/)() | Inserts a table cell into the document. |
 | [InsertChart](./insertchart/)(Aspose::Words::Drawing::Charts::ChartType, double, double) | Inserts an chart object into the document and scales it to the specified size. |
+| [InsertChart](./insertchart/)(Aspose::Words::Drawing::Charts::ChartType, double, double, Aspose::Words::Drawing::Charts::ChartStyle) | Inserts an chart object into the document and scales it to the specified size. |
 | [InsertChart](./insertchart/)(Aspose::Words::Drawing::Charts::ChartType, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType) | Inserts an chart object into the document and scales it to the specified size. |
+| [InsertChart](./insertchart/)(Aspose::Words::Drawing::Charts::ChartType, Aspose::Words::Drawing::RelativeHorizontalPosition, double, Aspose::Words::Drawing::RelativeVerticalPosition, double, double, double, Aspose::Words::Drawing::WrapType, Aspose::Words::Drawing::Charts::ChartStyle) | Inserts an chart object into the document and scales it to the specified size. |
 | [InsertCheckBox](./insertcheckbox/)(const System::String\&, bool, int32_t) | Inserts a checkbox form field at the current position. |
 | [InsertCheckBox](./insertcheckbox/)(const System::String\&, bool, bool, int32_t) | Inserts a checkbox form field at the current position. |
 | [InsertComboBox](./insertcombobox/)(const System::String\&, const System::ArrayPtr\<System::String\>\&, int32_t) | Inserts a combobox form field at the current position. |

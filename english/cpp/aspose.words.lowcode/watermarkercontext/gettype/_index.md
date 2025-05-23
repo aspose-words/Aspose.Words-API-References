@@ -4,7 +4,7 @@ linktitle: GetType
 second_title: Aspose.Words for C++ API Reference
 description: 'How to use GetType method of Aspose::Words::LowCode::WatermarkerContext class in C++.'
 type: docs
-weight: 6000
+weight: 7000
 url: /cpp/aspose.words.lowcode/watermarkercontext/gettype/
 ---
 ## WatermarkerContext::GetType method
