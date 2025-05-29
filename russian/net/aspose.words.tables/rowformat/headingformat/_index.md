@@ -3,14 +3,14 @@ title: RowFormat.HeadingFormat
 linktitle: HeadingFormat
 articleTitle: HeadingFormat
 second_title: Aspose.Words для .NET
-description: RowFormat HeadingFormat свойство. Истинно если строка повторяется как заголовок таблицы на каждой странице если таблица занимает более одной страницы на С#.
+description: Откройте для себя свойство RowFormat HeadingFormat, гарантируйте, что заголовки таблиц повторяются на каждой странице для ясности и улучшения читаемости многостраничных документов.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/rowformat/headingformat/
 ---
 ## RowFormat.HeadingFormat property
 
-Истинно, если строка повторяется как заголовок таблицы на каждой странице, если таблица занимает более одной страницы.
+Истина, если строка повторяется как заголовок таблицы на каждой странице, когда таблица занимает более одной страницы.
 
 ```csharp
 public bool HeadingFormat { get; set; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// Любые строки, вставленные, когда для флага «HeadingFormat» установлено значение «true».
-// будет отображаться вверху таблицы на каждой странице, которую она занимает.
+// Любые строки, вставленные, когда флаг "HeadingFormat" установлен в значение "true"
+// будет отображаться в верхней части таблицы на каждой странице, которую он занимает.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 builder.CellFormat.Width = 100;
@@ -42,7 +42,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// Добавьте достаточно строк, чтобы таблица могла занять две страницы.
+// Добавьте достаточно строк, чтобы таблица заняла две страницы.
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

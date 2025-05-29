@@ -3,14 +3,14 @@ title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words для .NET
-description: Document MailMergeSettings свойство. Получает или задает объект содержащий всю информацию о слиянии почты для документа на С#.
+description: Узнайте, как использовать свойство MailMergeSettings для эффективного управления всеми данными слияния вашего документа и улучшения рабочего процесса.
 type: docs
-weight: 270
+weight: 280
 url: /ru/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
 
-Получает или задает объект, содержащий всю информацию о слиянии почты для документа.
+Возвращает или задает объект, содержащий всю информацию о слиянии почты для документа.
 
 ```csharp
 public MailMergeSettings MailMergeSettings { get; set; }
@@ -18,7 +18,7 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## Примечания
 
-Вы можете использовать этот объект, чтобы указать источник данных слияния почты для документа, и эта информация (вместе с доступными полями данных) появится в Microsoft Word, когда пользователь откроет этот документ. Или вы можете использовать этот объект для запроса настроек слияния почты который пользователь указал в Microsoft Word для этого документа.
+Вы можете использовать этот объект для указания источника данных слияния почты для документа, и эта информация (вместе с доступными полями данных) появится в Microsoft Word, когда пользователь откроет этот документ. Или вы можете использовать этот объект для запроса настроек слияния почты, которые пользователь указал в Microsoft Word для этого документа.
 
 Этот объект никогда не`нулевой`.
 
@@ -37,9 +37,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
-// и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|"
+// действует как разделитель, который разделяет столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка — это строка с соответствующими им значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -67,7 +67,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
+ // При открытии этого документа в Microsoft Word будет выполнено слияние почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

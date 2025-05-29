@@ -3,14 +3,14 @@ title: SdtAppearance Enum
 linktitle: SdtAppearance
 articleTitle: SdtAppearance
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Markup.SdtAppearance перечисление. Определяет внешний вид тега структурированного документа на С#.
+description: Откройте для себя перечисление Aspose.Words.Markup.SdtAppearance для настройки внешнего вида структурированных тегов документов. Улучшите форматирование документов без усилий!
 type: docs
-weight: 3990
+weight: 4680
 url: /ru/net/aspose.words.markup/sdtappearance/
 ---
 ## SdtAppearance enumeration
 
-Определяет внешний вид тега структурированного документа.
+Задает внешний вид структурированного тега документа.
 
 ```csharp
 public enum SdtAppearance
@@ -20,10 +20,23 @@ public enum SdtAppearance
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| BoundingBox | `0` | Представляет структурированный тег документа, показанный в виде заштрихованного прямоугольника или ограничительной рамки. |
-| Tags | `1` | Представляет структурированный тег документа, отображаемый в виде начального и конечного маркеров. |
-| Hidden | `2` | Представляет тег структурированного документа, который не отображается. |
+| BoundingBox | `0` | Представляет структурированный тег документа, отображаемый в виде затененного прямоугольника или ограничивающей рамки. |
+| Tags | `1` | Представляет структурированный тег документа, отображаемый как начальный и конечный маркеры. |
+| Hidden | `2` | Представляет структурированный тег документа, который не отображается. |
 | Default | `0` | По умолчаниюBoundingBox . |
+
+## Примеры
+
+Показывает, как отображать теги вокруг контента.
+
+```csharp
+Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
+StructuredDocumentTagRangeStart tag =
+    doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true) as StructuredDocumentTagRangeStart;
+
+if (tag.Appearance == SdtAppearance.Hidden)
+    tag.Appearance = SdtAppearance.Tags;
+```
 
 ### Смотрите также
 

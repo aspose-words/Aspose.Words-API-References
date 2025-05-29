@@ -3,7 +3,7 @@ title: CellFormat.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words для .NET
-description: CellFormat Borders свойство. Получает коллекцию границ ячейки на С#.
+description: Откройте для себя свойство CellFormat Borders, чтобы получить доступ к коллекциям границ ячеек и настроить их для улучшения дизайна и функциональности электронных таблиц.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.tables/cellformat/borders/
@@ -24,13 +24,13 @@ public BorderCollection Borders { get; }
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Ниже приведены два способа получения таблицы из документа.
-// 1 — Из коллекции «Таблицы» узла Body:
+// 1 - Из коллекции "Таблицы" узла Body:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Использование метода "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Добавляем все строки из текущей таблицы в следующую.
+// Добавить все строки из текущей таблицы в следующую.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

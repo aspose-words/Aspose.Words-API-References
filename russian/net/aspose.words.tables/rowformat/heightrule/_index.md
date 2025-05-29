@@ -3,14 +3,14 @@ title: RowFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words для .NET
-description: RowFormat HeightRule свойство. Получает или задает правило определения высоты строки таблицы на С#.
+description: Откройте для себя свойство RowFormat HeightRule, чтобы легко настраивать высоту строк таблицы для оптимальной компоновки и дизайна в ваших приложениях.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/rowformat/heightrule/
 ---
 ## RowFormat.HeightRule property
 
-Получает или задает правило определения высоты строки таблицы.
+Возвращает или задает правило определения высоты строки таблицы.
 
 ```csharp
 public HeightRule HeightRule { get; set; }
@@ -18,7 +18,7 @@ public HeightRule HeightRule { get; set; }
 
 ## Примеры
 
-Показывает, как форматировать строки с помощью построителя документов.
+Показывает, как форматировать строки с помощью конструктора документов.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Начинаем вторую строку, а затем настраиваем ее высоту. Разработчик применит эти настройки к
+// Начните вторую строку, а затем настройте ее высоту. Строитель применит эти настройки к
 // его текущая строка, а также любые новые строки, которые он создаст впоследствии.
 builder.EndRow();
 
@@ -60,7 +60,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Установите некоторые параметры форматирования текста и внешнего вида таблицы.
+// Задайте некоторые параметры форматирования для внешнего вида текста и таблицы.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -72,7 +72,7 @@ builder.Font.Bold = true;
 
 // Настройка параметров форматирования в конструкторе документов применит их
 // к текущей ячейке/строке, в которой находится курсор,
-// а также любые новые ячейки и строки, созданные с помощью этого построителя.
+// а также любые новые ячейки и строки, созданные с помощью этого конструктора.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -80,8 +80,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Переконфигурируем объекты форматирования построителя для новых строк и ячеек, которые мы собираемся создать.
-// Построитель не будет применять их к уже созданной первой строке, чтобы она выделялась как строка заголовка.
+// Перенастраиваем объекты форматирования конструктора для новых строк и ячеек, которые мы собираемся создать.
+// Конструктор не будет применять их к первой уже созданной строке, поэтому она будет выделяться как строка заголовка.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

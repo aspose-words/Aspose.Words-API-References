@@ -3,14 +3,14 @@ title: FieldIf.FalseText
 linktitle: FalseText
 articleTitle: FalseText
 second_title: Aspose.Words для .NET
-description: FieldIf FalseText свойство. Получает или задает текст отображаемый если выражение сравненияЛОЖЬ  на С#.
+description: Откройте для себя свойство FieldIf FalseText, легко управляйте отображаемым текстом для ложных сравнений, улучшая пользовательский опыт и функциональность ваших приложений.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-Получает или задает текст, отображаемый, если выражение сравнения`ЛОЖЬ` .
+Возвращает или задает текст, отображаемый, если выражение сравнения равно`ЛОЖЬ` .
 
 ```csharp
 public string FalseText { get; set; }
@@ -18,7 +18,7 @@ public string FalseText { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле ЕСЛИ.
+Показывает, как вставить поле IF.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Поле ЕСЛИ будет отображать строку из любого свойства "TrueText",
-// или его свойство «FalseText», в зависимости от истинности построенного нами утверждения.
+// Поле IF отобразит строку либо из своего свойства "TrueText",
+// или его свойство "FalseText", в зависимости от истинности построенного нами утверждения.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();

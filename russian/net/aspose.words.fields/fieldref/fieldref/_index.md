@@ -3,7 +3,7 @@ title: FieldRef
 linktitle: FieldRef
 articleTitle: FieldRef
 second_title: Aspose.Words для .NET
-description: FieldRef строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldRef, необходимый конструктор по умолчанию для эффективной обработки данных в ваших приложениях. Упростите кодирование сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldref/fieldref/

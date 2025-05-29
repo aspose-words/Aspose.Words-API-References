@@ -3,14 +3,14 @@ title: CompositeNode.RemoveSmartTags
 linktitle: RemoveSmartTags
 articleTitle: RemoveSmartTags
 second_title: Aspose.Words для .NET
-description: CompositeNode RemoveSmartTags метод. Удаляет всеSmartTagузлыпотомки текущего узла на С#.
+description: С легкостью очищайте CompositeNode с помощью метода RemoveSmartTags, удаляя все потомки SmartTag для упрощения управления данными.
 type: docs
-weight: 180
+weight: 200
 url: /ru/net/aspose.words/compositenode/removesmarttags/
 ---
 ## CompositeNode.RemoveSmartTags method
 
-Удаляет все[`SmartTag`](../../../aspose.words.markup/smarttag/)узлы-потомки текущего узла.
+Удаляет все[`SmartTag`](../../../aspose.words.markup/smarttag/) узлы-потомки текущего узла.
 
 ```csharp
 public void RemoveSmartTags()
@@ -22,7 +22,7 @@ public void RemoveSmartTags()
 
 ## Примеры
 
-Удаляет все смарт-теги из узлов-потомков составного узла.
+Удаляет все смарт-теги из дочерних узлов составного узла.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
@@ -41,24 +41,24 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Смарт-тег появляется в документе, когда Microsoft Word распознает часть его текста как некоторую форму данных,
-    // например, имя, дата или адрес, и преобразует его в гиперссылку, подчеркнутую фиолетовым пунктиром.
+    // Смарт-тег появляется в документе, в котором Microsoft Word распознает часть текста как некоторую форму данных,
+    // например имя, дату или адрес, и преобразует его в гиперссылку, которая отображается подчеркиванием из фиолетовых точек.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Смарт-теги — это составные узлы, которые полностью содержат распознанный текст.
+    // Смарт-теги — это составные узлы, содержащие распознанный текст целиком.
     // Добавьте содержимое в этот смарт-тег вручную.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word может распознать приведенное выше содержимое как дату.
-    // Смарт-теги используют свойство «Элемент», чтобы отразить тип содержащихся в них данных.
+    // Microsoft Word может распознать указанное выше содержимое как дату.
+    // Смарт-теги используют свойство «Элемент» для отражения типа содержащихся в них данных.
     smartTag.Element = "date";
 
-    // Некоторые типы смарт-тегов преобразуют свое содержимое в пользовательские свойства XML.
+    // Некоторые типы смарт-тегов дополнительно обрабатывают свое содержимое в пользовательские свойства XML.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Установите для URI смарт-тега значение по умолчанию.
+    // Установите URI смарт-тега на значение по умолчанию.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
@@ -74,13 +74,13 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Распечатываем все смарт-теги в нашем документе с помощью посетителя документа.
+    // Распечатаем все смарт-теги в нашем документе с помощью посетителя документа.
     doc.Accept(new SmartTagPrinter());
 
     // Старые версии Microsoft Word поддерживают смарт-теги.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Используйте метод «RemoveSmartTags», чтобы удалить все смарт-теги из документа.
+    // Используйте метод «RemoveSmartTags» для удаления всех смарт-тегов из документа.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -89,7 +89,7 @@ public void Create()
 }
 
 /// <summary>
-/// Распечатывает посещенные смарт-теги и их содержимое.
+/// Печатает посещённые смарт-теги и их содержимое.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
@@ -103,7 +103,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла SmartTag.
+    /// Вызывается, когда посещение узла SmartTag завершено.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

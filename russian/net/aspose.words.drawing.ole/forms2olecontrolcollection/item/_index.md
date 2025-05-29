@@ -3,7 +3,7 @@ title: Forms2OleControlCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: Forms2OleControlCollection Item свойство. ПолучаетForms2OleControl объект по указанному индексу на С#.
+description: Получите доступ к объекту Forms2OleControl без усилий с помощью свойства Item. Упростите управление элементами управления, легко извлекая элементы по любому индексу.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -30,7 +30,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Некоторые элементы управления OLE могут содержать дочерние элементы управления, например, в этом документе с тремя кнопками параметров.
+// Некоторые элементы управления OLE могут содержать дочерние элементы управления, например, тот, что в этом документе с тремя кнопками выбора.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

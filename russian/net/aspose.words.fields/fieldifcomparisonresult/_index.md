@@ -3,9 +3,9 @@ title: FieldIfComparisonResult Enum
 linktitle: FieldIfComparisonResult
 articleTitle: FieldIfComparisonResult
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldIfComparisonResult перечисление. Указывает результат оценки условия поля IF на С#.
+description: Откройте для себя перечисление Aspose.Words.Fields.FieldIfComparisonResult, которое определяет результаты оценок полей IF, расширяя ваши возможности автоматизации документов.
 type: docs
-weight: 2010
+weight: 2420
 url: /ru/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
@@ -20,13 +20,13 @@ public enum FieldIfComparisonResult
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Error | `0` | В условии ошибка. |
-| True | `1` | Условие`истинный` . |
-| False | `2` | Условие`ЛОЖЬ` . |
+| Error | `0` | В условии есть ошибка. |
+| True | `1` | Условие такое`истинный` . |
+| False | `2` | Условие такое`ЛОЖЬ` . |
 
 ## Примеры
 
-Показывает, как вставить поле ЕСЛИ.
+Показывает, как вставить поле IF.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Поле ЕСЛИ будет отображать строку из любого свойства "TrueText",
-// или его свойство «FalseText», в зависимости от истинности построенного нами утверждения.
+// Поле IF отобразит строку либо из своего свойства "TrueText",
+// или его свойство "FalseText", в зависимости от истинности построенного нами утверждения.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();

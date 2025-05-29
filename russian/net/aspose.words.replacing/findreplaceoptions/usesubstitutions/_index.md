@@ -3,14 +3,14 @@ title: FindReplaceOptions.UseSubstitutions
 linktitle: UseSubstitutions
 articleTitle: UseSubstitutions
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions UseSubstitutions свойство. Получает или задает логическое значение указывающее следует ли распознавать и использовать замены в шаблонах замены. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство UseSubstitutions в FindReplaceOptions. Легко включайте замены в шаблонах замены для повышения гибкости редактирования текста.
 type: docs
-weight: 180
+weight: 190
 url: /ru/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
 
-Получает или задает логическое значение, указывающее, следует ли распознавать и использовать замены в шаблонах замены. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее, следует ли распознавать и использовать замены в шаблонах замены. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool UseSubstitutions { get; set; }
@@ -18,7 +18,7 @@ public bool UseSubstitutions { get; set; }
 
 ## Примечания
 
-Подробную информацию об элементах замены см. по адресу: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+Подробную информацию об элементах подстановки см. по адресу: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
 ## Примеры
 
@@ -35,7 +35,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// Использование устаревшего режима не поддерживает многие расширенные функции, поэтому нам нужно установить для него значение «false».
+// Использование устаревшего режима не поддерживает многие расширенные функции, поэтому нам нужно установить его в значение «false».
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -43,7 +43,7 @@ doc.Range.Replace(regex, @"$2 took money from $1", options);
 Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ```
 
-Показывает, как заменить текст подстановками.
+Показывает, как заменить текст с помощью подстановок.
 
 ```csharp
 Document doc = new Document();
@@ -55,9 +55,9 @@ builder.Writeln("Jane sold a house to Joe.");
 // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите для свойства UseSubstitutions значение true, чтобы получить
+// Установите свойство "UseSubstitutions" в значение "true", чтобы получить
 // операция поиска и замены для распознавания элементов замены.
-// Установите для свойства UseSubstitutions значение false, чтобы игнорировать элементы подстановки.
+// Установите свойство «UseSubstitutions» в значение «false», чтобы игнорировать элементы подстановки.
 options.UseSubstitutions = useSubstitutions;
 
 Regex regex = new Regex(@"([A-z]+) sold a ([A-z]+) to ([A-z]+)");

@@ -3,7 +3,7 @@ title: Style.IsQuickStyle
 linktitle: IsQuickStyle
 articleTitle: IsQuickStyle
 second_title: Aspose.Words для .NET
-description: Style IsQuickStyle свойство. Указывает отображается ли этот стиль в галерее быстрых стилей в пользовательском интерфейсе MS Word на С#.
+description: Узнайте, как свойство IsQuickStyle расширяет возможности MS Word, отображая стили в галерее быстрых стилей для легкого доступа и улучшения рабочего процесса.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/style/isquickstyle/
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

@@ -3,14 +3,14 @@ title: RtfSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words для .NET
-description: RtfSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоRtf  на С#.
+description: Откройте для себя свойство RtfSaveOptions SaveFormat, чтобы легко сохранять документы в формате RTF, обеспечивая совместимость и простой обмен.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/rtfsaveoptions/saveformat/
 ---
 ## RtfSaveOptions.SaveFormat property
 
-Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения. Может быть толькоRtf .
+Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может быть толькоRtf .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,24 +18,24 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Примеры
 
-Показывает, как сохранить документ в формате .rtf с настраиваемыми параметрами.
+Показывает, как сохранить документ в формате .rtf с пользовательскими параметрами.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Создайте объект «RtfSaveOptions», чтобы передать его методу «Save» документа, чтобы изменить способ его сохранения в RTF.
+// Создаем объект «RtfSaveOptions» для передачи методу «Save» документа, чтобы изменить способ сохранения в формате RTF.
 RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 
-// Установите для свойства «ExportCompactSize» значение «true», чтобы
-// уменьшаем размер сохраненного документа за счет совместимости текста справа налево.
+// Установите свойство "ExportCompactSize" в значение "true" для
+// уменьшить размер сохраненного документа за счет совместимости с текстом, написанным справа налево.
 options.ExportCompactSize = true;
 
-// Установите для свойства «ExportImagesFotOldReaders» значение «true», чтобы использовать дополнительные ключевые слова, гарантирующие, что наш документ
+// Установите свойство "ExportImagesFotOldReaders" в значение "true", чтобы использовать дополнительные ключевые слова и гарантировать, что наш документ
 // совместимо с программами чтения до Microsoft Word 97 и WordPad.
-// Установите для свойства «ExportImagesFotOldReaders» значение «false», чтобы уменьшить размер документа,
-// но не позволяем старым программам чтения читать любые неметафайлы или изображения BMP, которые может содержать документ.
+// Установите свойство "ExportImagesFotOldReaders" в значение "false", чтобы уменьшить размер документа,
+// но не позволяйте старым читателям читать любые неметафайловые или BMP-изображения, которые может содержать документ.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);

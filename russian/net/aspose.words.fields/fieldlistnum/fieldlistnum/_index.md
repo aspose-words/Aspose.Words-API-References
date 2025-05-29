@@ -3,7 +3,7 @@ title: FieldListNum
 linktitle: FieldListNum
 articleTitle: FieldListNum
 second_title: Aspose.Words для .NET
-description: FieldListNum строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldListNum — ваше решение для эффективного управления списками в программировании. Упростите свой код с помощью нашего конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldlistnum/fieldlistnum/

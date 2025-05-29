@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenationZone
 linktitle: HyphenationZone
 articleTitle: HyphenationZone
 second_title: Aspose.Words для .NET
-description: HyphenationOptions HyphenationZone свойство. Получает или задает расстояние в 1/20 точки от правого поля в пределах которого вы не хотите чтобы переносил слова. Значение по умолчанию для этого свойства  360 025 дюйма на С#.
+description: Оптимизируйте макет текста с помощью свойства HyphenationZone. Управляйте расстоянием переноса от правого поля для более чистых, профессиональных документов.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
 ---
 ## HyphenationOptions.HyphenationZone property
 
-Получает или задает расстояние в 1/20 точки от правого поля, в пределах которого вы не хотите, чтобы переносил слова. Значение по умолчанию для этого свойства — 360 (0,25 дюйма).
+Возвращает или задает расстояние в 1/20 пункта от правого поля, в пределах которого не требуется переносить слова. Значение по умолчанию для этого свойства — 360 (0,25 дюйма).
 
 ```csharp
 public int HyphenationZone { get; set; }

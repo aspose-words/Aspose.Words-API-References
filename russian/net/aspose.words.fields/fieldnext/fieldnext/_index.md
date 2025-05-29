@@ -3,7 +3,7 @@ title: FieldNext
 linktitle: FieldNext
 articleTitle: FieldNext
 second_title: Aspose.Words для .NET
-description: FieldNext строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя мощный конструктор FieldNext по умолчанию, разработанный для бесшовной интеграции и повышения производительности в ваших проектах. Повысьте свой опыт кодирования!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldnext/fieldnext/

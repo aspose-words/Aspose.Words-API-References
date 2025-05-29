@@ -3,14 +3,14 @@ title: PageSetup.BorderSurroundsHeader
 linktitle: BorderSurroundsHeader
 articleTitle: BorderSurroundsHeader
 second_title: Aspose.Words для .NET
-description: PageSetup BorderSurroundsHeader свойство. Указывает включает ли граница страницы заголовок или исключает его на С#.
+description: Откройте для себя свойство PageSetup BorderSurroundsHeader для настройки границ страницы. Управляйте включением заголовка для создания безупречного макета документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/pagesetup/bordersurroundsheader/
 ---
 ## PageSetup.BorderSurroundsHeader property
 
-Указывает, включает ли граница страницы заголовок или исключает его.
+Указывает, включает ли граница страницы заголовок или нет.
 
 ```csharp
 public bool BorderSurroundsHeader { get; set; }
@@ -18,11 +18,11 @@ public bool BorderSurroundsHeader { get; set; }
 
 ## Примечания
 
-Обратите внимание: изменение этого свойства влияет на все разделы документа.
+Обратите внимание, что изменение этого свойства влияет на все разделы документа.
 
 ## Примеры
 
-Показывает, как применить рамку к странице и верхнему/нижнему колонтитулу.
+Показывает, как применить границу к странице и верхнему/нижнему колонтитулу.
 
 ```csharp
 Document doc = new Document();
@@ -35,15 +35,15 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer.");
 builder.MoveToDocumentEnd();
 
-// Вставляем синюю рамку в две линии.
+// Вставьте синюю двойную линию границы.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// Объект PageSetup раздела имеет флаги «BorderSurroundsHeader» и «BorderSurroundsFooter», которые определяют
-// окружает ли граница страницы основной текст, также включает верхний или нижний колонтитул соответственно.
-// Установите для флага «BorderSurroundsHeader» значение «true», чтобы окружить заголовок нашей рамкой,
-// а затем установите флаг «BorderSurroundsFooter», чтобы нижний колонтитул остался за пределами границы.
+// Объект PageSetup раздела имеет флаги "BorderSurroundsHeader" и "BorderSurroundsFooter", которые определяют
+// независимо от того, окружает ли рамка страницы основной текст, также включает верхний или нижний колонтитул соответственно.
+// Установите флаг "BorderSurroundsHeader" в значение "true", чтобы окружить заголовок нашей рамкой,
+// а затем установите флаг «BorderSurroundsFooter», чтобы оставить нижний колонтитул за пределами границы.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

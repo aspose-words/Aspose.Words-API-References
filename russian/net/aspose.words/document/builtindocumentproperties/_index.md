@@ -3,14 +3,14 @@ title: Document.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words для .NET
-description: Document BuiltInDocumentProperties свойство. Возвращает коллекцию которая представляет все встроенные свойства документа document.  на С#.
+description: Изучите свойство BuiltInDocumentProperties, чтобы получить доступ к основным свойствам документа, что улучшит управление документами и повысит эффективность.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words/document/builtindocumentproperties/
 ---
 ## Document.BuiltInDocumentProperties property
 
-Возвращает коллекцию, которая представляет все встроенные свойства документа document. .
+Возвращает коллекцию, которая представляет все встроенные свойства документа.
 
 ```csharp
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
@@ -23,10 +23,10 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Объект «Документ» содержит в своих членах некоторые метаданные.
+// Объект «Документ» содержит некоторые метаданные в своих членах.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Документ также хранит метаданные в своих встроенных свойствах.
+// Документ также хранит метаданные во встроенных свойствах.
 // Каждое встроенное свойство является членом объекта «BuiltInDocumentProperties» документа.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)

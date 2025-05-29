@@ -3,14 +3,14 @@ title: HtmlInsertOptions Enum
 linktitle: HtmlInsertOptions
 articleTitle: HtmlInsertOptions
 second_title: Aspose.Words для .NET
-description: Aspose.Words.HtmlInsertOptions перечисление. Определяет параметры дляInsertHtml метод на С#.
+description: Изучите перечисление Aspose.Words.HtmlInsertOptions, чтобы настроить вставку HTML с помощью метода InsertHtml, повышая эффективность обработки документов.
 type: docs
-weight: 3140
+weight: 3570
 url: /ru/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
 
-Определяет параметры для[`InsertHtml`](../documentbuilder/inserthtml/) метод.
+Указывает параметры для[`InsertHtml`](../documentbuilder/inserthtml/) метод.
 
 ```csharp
 [Flags]
@@ -21,10 +21,10 @@ public enum HtmlInsertOptions
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `0` | Используйте параметры по умолчанию при вставке HTML. |
-| UseBuilderFormatting | `1` | Использовать шрифт и форматирование абзацев, указанное в[`DocumentBuilder`](../documentbuilder/) в качестве базового форматирования для text , вставленного из HTML. |
-| RemoveLastEmptyParagraph | `2` | Удалить пустой абзац, который обычно вставляется после HTML-кода, заканчивающегося элементом уровня блока. |
-| PreserveBlocks | `4` | Сохранять свойства элементов уровня блока. |
+| None | `0` | Использовать параметры по умолчанию при вставке HTML. |
+| UseBuilderFormatting | `1` | Использовать шрифт и форматирование абзацев, указанные в[`DocumentBuilder`](../documentbuilder/) как базовое форматирование для text , вставленного из HTML. |
+| RemoveLastEmptyParagraph | `2` | Удалить пустой абзац, который обычно вставляется после HTML, заканчивающегося блочным элементом. |
+| PreserveBlocks | `4` | Сохранение свойств элементов блочного уровня. |
 
 ## Примеры
 

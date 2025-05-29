@@ -3,14 +3,14 @@ title: OdsoFieldMapData.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapData Type свойство. Указывает сопоставлено ли данное поле слияния почты со столбцом в данном внешнем источнике данных или нет. Значение по умолчаниюDefault  на С#.
+description: Откройте для себя свойство OdsoFieldMapData Type, легко проверьте, ссылается ли ваше поле слияния на внешний столбец источника данных. Оптимизируйте интеграцию данных!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsofieldmapdata/type/
 ---
 ## OdsoFieldMapData.Type property
 
-Указывает, сопоставлено ли данное поле слияния почты со столбцом в данном внешнем источнике данных или нет. Значение по умолчанию:Default .
+Указывает, сопоставлено ли заданное поле слияния со столбцом в заданном внешнем источнике данных. Значение по умолчанию:Default .
 
 ```csharp
 public OdsoFieldMappingType Type { get; set; }
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

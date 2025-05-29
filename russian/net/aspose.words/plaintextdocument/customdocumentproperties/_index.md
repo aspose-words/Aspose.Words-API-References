@@ -3,7 +3,7 @@ title: PlainTextDocument.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words для .NET
-description: PlainTextDocument CustomDocumentProperties свойство. ПолучаетCustomDocumentProperties документа на С#.
+description: Узнайте, как получить доступ к CustomDocumentProperties в PlainTextDocument для улучшенного управления документами и их настройки. Раскройте потенциал вашего документа!
 type: docs
 weight: 30
 url: /ru/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -18,7 +18,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 
 ## Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста, а затем получить доступ к пользовательским свойствам исходного документа.
+Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста, а затем получить доступ к пользовательским свойствам исходного документа.
 
 ```csharp
 Document doc = new Document();

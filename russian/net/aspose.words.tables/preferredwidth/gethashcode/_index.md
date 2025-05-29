@@ -3,14 +3,14 @@ title: PreferredWidth.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words для .NET
-description: PreferredWidth GetHashCode метод. Служит хешфункцией для этого типа на С#.
+description: Откройте для себя метод PreferredWidth GetHashCode — важную хэш-функцию для эффективной обработки данных и генерации уникальных значений в ваших приложениях.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.tables/preferredwidth/gethashcode/
 ---
 ## PreferredWidth.GetHashCode method
 
-Служит хеш-функцией для этого типа.
+Служит хэш-функцией для этого типа.
 
 ```csharp
 public override int GetHashCode()
@@ -25,14 +25,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Существует два способа применения класса PreferredWidth к ячейкам таблицы.
-// 1 - Установить абсолютную предпочтительную ширину на основе точек:
+// Существует два способа применения класса «PreferredWidth» к ячейкам таблицы.
+// 1 — Установить абсолютную предпочтительную ширину на основе точек:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Установить относительную предпочтительную ширину в процентах от ширины таблицы:
+// 2 - Установить относительную предпочтительную ширину на основе процента от ширины таблицы:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -40,10 +40,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Ячейка, для которой не указана предпочтительная ширина, займет оставшуюся часть доступного пространства.
+// Ячейка, для которой не указана предпочтительная ширина, займет оставшееся доступное пространство.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// Каждая конфигурация свойства PreferredWidth создает новый объект.
+// Каждая конфигурация свойства «PreferredWidth» создает новый объект.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

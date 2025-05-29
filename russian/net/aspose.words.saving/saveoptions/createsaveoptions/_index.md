@@ -3,7 +3,7 @@ title: SaveOptions.CreateSaveOptions
 linktitle: CreateSaveOptions
 articleTitle: CreateSaveOptions
 second_title: Aspose.Words для .NET
-description: SaveOptions CreateSaveOptions метод. Создает объект параметров сохранения класса подходящего для указанного формата сохранения на С#.
+description: Откройте для себя метод CreateSaveOptions, который позволяет легко создавать параметры сохранения, соответствующие вашему предпочтительному формату, повышая эффективность управления документами.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/saveoptions/createsaveoptions/
@@ -22,22 +22,22 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 ### Возвращаемое значение
 
-Объект класса, производного от[`SaveOptions`](../).
+Объект класса, который является производным от[`SaveOptions`](../).
 
 ## Примеры
 
-Показывает возможность оптимизировать потребление памяти при рендеринге больших документов в PDF.
+Показывает возможность оптимизации потребления памяти при преобразовании больших документов в PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Установите для свойства «MemoryOptimization» значение «true», чтобы уменьшить объем памяти, занимаемый операциями сохранения больших документов.
-// ценой увеличения продолжительности операции.
-// Установите для свойства «MemoryOptimization» значение «false», чтобы обычно сохранить документ в формате PDF.
+// Установите свойство "MemoryOptimization" в значение "true", чтобы уменьшить объем памяти, используемый операциями сохранения больших документов
+// за счет увеличения продолжительности операции.
+// Установите свойство «MemoryOptimization» в значение «false», чтобы сохранить документ как PDF обычным образом.
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);
 
 ## CreateSaveOptions(*string*) {#createsaveoptions_1}
 
-Создает объект параметров сохранения класса, соответствующего расширению файла, указанному в данном имени файла.
+Создает объект параметров сохранения класса, подходящего для расширения файла, указанного в заданном имени файла.
 
 ```csharp
 public static SaveOptions CreateSaveOptions(string fileName)
@@ -66,7 +66,7 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 ### Возвращаемое значение
 
-Объект класса, производного от[`SaveOptions`](../).
+Объект класса, который является производным от[`SaveOptions`](../).
 
 ## Примеры
 
@@ -75,14 +75,14 @@ public static SaveOptions CreateSaveOptions(string fileName)
 ```csharp
 Document doc = new Document();
 
-// Включаем автоматическое обновление стилей, но не прикрепляем документ-шаблон.
+// Включить автоматическое обновление стилей, но не прикреплять шаблон документа.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Поскольку документа-шаблона нет, в документе негде было отслеживать изменения стиля.
+// Поскольку шаблон документа отсутствует, документу негде отслеживать изменения стиля.
 // Используйте объект SaveOptions для автоматической установки шаблона
-// если в документе, который мы сохраняем, его нет.
+// если документ, который мы сохраняем, не имеет такового.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

@@ -3,14 +3,14 @@ title: StructuredDocumentTag
 linktitle: StructuredDocumentTag
 articleTitle: StructuredDocumentTag
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag строитель. Инициализирует новый экземплярТег структурированного документа класс на С#.
+description: Создавайте мощные структурированные документы без усилий с помощью конструктора StructuredDocumentTag. Инициализируйте новые экземпляры для улучшенной организации и ясности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Инициализирует новый экземпляр**Тег структурированного документа** класс.
+Инициализирует новый экземпляр**Структурированный тег документа** класс.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -45,9 +45,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Мы можем установить символы, используемые для представления отмеченного/неотмеченного состояния элемента управления содержимым флажка.
+// Мы можем задать символы, используемые для представления отмеченного/неотмеченного состояния элемента управления содержимым флажка.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

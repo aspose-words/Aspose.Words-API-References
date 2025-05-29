@@ -1,22 +1,54 @@
 ---
 title: ChartAxisTitle.Font
-second_title: Справочник по API Aspose.Words для .NET
-description: ChartAxisTitle свойство. 
+linktitle: Font
+articleTitle: Font
+second_title: Aspose.Words для .NET
+description: Настройте ChartAxisTitle с помощью универсальных вариантов шрифта. Улучшите визуализацию данных с помощью уникального форматирования заголовка оси для более четкого понимания.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartaxistitle/font/
 ---
 ## ChartAxisTitle.Font property
 
+Предоставляет доступ к форматированию шрифта заголовка оси.
+
 ```csharp
 public Font Font { get; }
+```
+
+## Примеры
+
+Показывает, как задать заголовок оси диаграммы.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+
+Chart chart = shape.Chart;
+ChartSeriesCollection seriesColl = chart.Series;
+// Удалить сгенерированную по умолчанию серию.
+seriesColl.Clear();
+
+seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
+
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
+
+doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```
 
 ### Смотрите также
 
 * class [Font](../../../aspose.words/font/)
 * class [ChartAxisTitle](../)
-* пространство имен [Aspose.Words.Drawing.Charts](../../chartaxistitle/)
+* пространство имен [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * сборка [Aspose.Words](../../../)
-
-

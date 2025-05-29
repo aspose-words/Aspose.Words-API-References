@@ -3,14 +3,14 @@ title: Document.LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
 second_title: Aspose.Words для .NET
-description: Document LayoutOptions свойство. ПолучаетLayoutOptions объект представляющий параметры управления процессом макетирования этого документа на С#.
+description: Изучите свойство Document LayoutOptions, чтобы эффективно управлять макетом документа. Разблокируйте гибкие параметры дизайна для оптимальной презентации.
 type: docs
-weight: 250
+weight: 260
 url: /ru/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-Получает[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) объект, представляющий параметры управления процессом макетирования этого документа.
+Получает[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) объект, представляющий параметры управления процессом макета этого документа.
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }
@@ -33,13 +33,13 @@ doc.LayoutOptions.ShowHiddenText = showHiddenText;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ```
 
-Показывает, как отображать знаки абзаца в готовом к просмотру выходном документе.
+Показывает, как отображать знаки абзацев в визуализированном выходном документе.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Добавляем несколько абзацев, затем включаем знаки абзацев, чтобы показывать концы абзацев
-// с символом подставки (¶) при рендеринге документа.
+// Добавьте несколько абзацев, затем включите знаки абзацев, чтобы отображать концы абзацев
+// с символом "¶" при рендеринге документа.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
@@ -48,13 +48,13 @@ doc.LayoutOptions.ShowParagraphMarks = showParagraphMarks;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
-Показывает, как изменить внешний вид редакций в готовом к просмотру выходном документе.
+Показывает, как изменить внешний вид изменений в визуализированном выходном документе.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем ревизию, затем меняем цвет всех ревизий на зеленый.
+// Вставьте ревизию, затем измените цвет всех ревизий на зеленый.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
@@ -64,8 +64,9 @@ builder.Writeln("This is not a revision.");
 // Удалить полосу, которая появляется слева от каждой измененной строки.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Смотрите также

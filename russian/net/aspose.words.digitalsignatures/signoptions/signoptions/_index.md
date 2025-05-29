@@ -3,7 +3,7 @@ title: SignOptions
 linktitle: SignOptions
 articleTitle: SignOptions
 second_title: Aspose.Words для .NET
-description: SignOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя SignOptions, универсальный конструктор, разработанный для легкой настройки и бесшовной интеграции. Откройте уникальные функции для своих проектов сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.digitalsignatures/signoptions/signoptions/

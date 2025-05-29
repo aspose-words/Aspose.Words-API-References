@@ -3,9 +3,9 @@ title: Comment.RemoveAllReplies
 linktitle: RemoveAllReplies
 articleTitle: RemoveAllReplies
 second_title: Aspose.Words для .NET
-description: Comment RemoveAllReplies метод. Удаляет все ответы на этот комментарий на С#.
+description: С легкостью удаляйте все ответы на свои комментарии с помощью метода RemoveAllReplies, обеспечивая бесперебойное обсуждение и улучшенный пользовательский опыт.
 type: docs
-weight: 130
+weight: 170
 url: /ru/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -22,7 +22,7 @@ public void RemoveAllReplies()
 
 ## Примеры
 
-Показывает, как удалить ответы на комментарии.
+Показывает, как удалять ответы на комментарии.
 
 ```csharp
 Document doc = new Document();
@@ -35,18 +35,18 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
-Assert.AreEqual(2, comment.Replies.Count()); 
+Assert.AreEqual(2, comment.Replies.Count); 
 
-// Ниже приведены два способа удаления ответов на комментарий.
-// 1 - Используйте метод "RemoveReply", чтобы удалить ответы на комментарий по отдельности:
+// Ниже приведены два способа удаления ответов из комментария.
+// 1 - Используйте метод "RemoveReply" для удаления ответов из комментария по отдельности:
 comment.RemoveReply(comment.Replies[0]);
 
-Assert.AreEqual(1, comment.Replies.Count());
+Assert.AreEqual(1, comment.Replies.Count);
 
-// 2 - Используйте метод "RemoveAllReplies", чтобы удалить сразу все ответы из комментария:
+// 2 - Используйте метод "RemoveAllReplies", чтобы удалить все ответы из комментария одновременно:
 comment.RemoveAllReplies();
 
-Assert.AreEqual(0, comment.Replies.Count());
+Assert.AreEqual(0, comment.Replies.Count);
 ```
 
 ### Смотрите также

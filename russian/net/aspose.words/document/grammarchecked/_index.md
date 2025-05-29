@@ -3,14 +3,14 @@ title: Document.GrammarChecked
 linktitle: GrammarChecked
 articleTitle: GrammarChecked
 second_title: Aspose.Words для .NET
-description: Document GrammarChecked свойство. Возвращаетистинный если документ проверен на грамматику на С#.
+description: Обеспечьте качество вашего документа с помощью свойства GrammarChecked. Узнайте, проверен ли ваш текст на грамматику для получения отточенных профессиональных результатов.
 type: docs
-weight: 180
+weight: 190
 url: /ru/net/aspose.words/document/grammarchecked/
 ---
 ## Document.GrammarChecked property
 
-Возвращает`истинный` если документ проверен на грамматику.
+Возврат`истинный` если документ был проверен на грамматику.
 
 ```csharp
 public bool GrammarChecked { get; set; }
@@ -18,11 +18,11 @@ public bool GrammarChecked { get; set; }
 
 ## Примечания
 
-Чтобы перепроверить грамматику в документе, установите для этого свойства значение`ЛОЖЬ` .
+Чтобы перепроверить грамматику в документе, установите это свойство на`ЛОЖЬ` .
 
 ## Примеры
 
-Показывает, как настроить проверку орфографии или грамматики.
+Показывает, как настроить проверку орфографии и грамматики.
 
 ```csharp
 Document doc = new Document();
@@ -30,9 +30,9 @@ Document doc = new Document();
 // Строка с орфографическими ошибками.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
- // Проверка орфографии/грамматики начинается, если мы установили для свойств значение false.
-// Мы можем увидеть все ошибки в Microsoft Word через Обзор -> -> Правописание и усиление; Грамматика.
-// Обратите внимание, что Microsoft Word не запускает автоматически проверку грамматики/орфографии для форматов документов DOC и RTF.
+// Проверка орфографии/грамматики начнется, если мы установим свойства на false.
+// Мы можем увидеть все ошибки в Microsoft Word через Обзор -> Правописание и грамматика.
+// Обратите внимание, что Microsoft Word не запускает автоматическую проверку грамматики/орфографии для документов формата DOC и RTF.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

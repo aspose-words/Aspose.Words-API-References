@@ -3,14 +3,14 @@ title: Font.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words для .NET
-description: Font Style свойство. Получает или задает стиль символов применяемый к этому форматированию на С#.
+description: Узнайте, как использовать свойство «Стиль шрифта» для настройки стилей символов в форматировании, чтобы повысить привлекательность и читабельность текста.
 type: docs
-weight: 400
+weight: 410
 url: /ru/net/aspose.words/font/style/
 ---
 ## Font.Style property
 
-Получает или задает стиль символов, применяемый к этому форматированию.
+Возвращает или задает стиль символов, применяемый к данному форматированию.
 
 ```csharp
 public Style Style { get; set; }
@@ -24,7 +24,7 @@ public Style Style { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем собственный стиль и применяем его к тексту, созданному с помощью конструктора документов.
+// Вставьте пользовательский стиль и примените его к тексту, созданному с помощью конструктора документов.
 Style style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Red;
 style.Font.Name = "Courier New";
@@ -32,8 +32,8 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Перебираем каждый запуск и добавляем двойное подчеркивание к каждому пользовательскому стилю.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Повторяем каждый запуск и добавляем двойное подчеркивание к каждому пользовательскому стилю.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     Style charStyle = run.Font.Style;
 

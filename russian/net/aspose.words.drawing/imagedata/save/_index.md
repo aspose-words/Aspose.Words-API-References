@@ -3,9 +3,9 @@ title: ImageData.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words для .NET
-description: ImageData Save метод. Сохраняет изображение в указанный поток на С#.
+description: Сохраняйте изображения без усилий с помощью метода ImageData Save. Оптимизируйте свой рабочий процесс, легко сохраняя изображения непосредственно в выбранном вами потоке.
 type: docs
-weight: 190
+weight: 200
 url: /ru/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(*Stream*) {#save}
@@ -18,39 +18,29 @@ public void Save(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Поток, в который сохраняется изображение. |
+| stream | Stream | Поток, в который следует сохранить изображение. |
 
 ## Примечания
 
-Ответственность за удаление объекта потока лежит на вызывающей стороне.
+Является ли утилизация потокового объекта обязанностью вызывающей стороны?
 
 ## Примеры
 
-Показывает, как сохранить все изображения из документа в файловую систему.
+Показывает, как сохранить все изображения из документа в файловой системе.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Фигуры с установленным флагом HasImage хранят и отображают все изображения документа.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+// Фигуры с установленным флагом «HasImage» хранят и отображают все изображения документа.
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
-// Проходим каждую фигуру и сохраняем ее изображение.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+// Пройдитесь по каждой фигуре и сохраните ее изображение.
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 
@@ -72,17 +62,17 @@ public void Save(string fileName)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fileName | String | Имя файла, в котором нужно сохранить изображение. |
+| fileName | String | Имя файла, в котором будет сохранено изображение. |
 
 ## Примеры
 
-Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
+Показывает, как извлекать изображения из документа и сохранять их в локальной файловой системе в виде отдельных файлов.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Получаем коллекцию фигур из документа,
-// и сохраняем данные изображения каждой формы с изображением в виде файла в локальной файловой системе.
+// Получить коллекцию фигур из документа,
+// и сохранить данные изображения каждой фигуры с изображением в виде файла в локальной файловой системе.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -93,7 +83,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage)
     {
          // Данные изображений фигур могут содержать изображения многих возможных форматов изображений.
-        // Мы можем автоматически определить расширение файла для каждого изображения в зависимости от его формата.
+        // Мы можем автоматически определить расширение файла для каждого изображения на основе его формата.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

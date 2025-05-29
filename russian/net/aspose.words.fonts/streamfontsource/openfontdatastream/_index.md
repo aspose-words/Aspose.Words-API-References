@@ -3,14 +3,14 @@ title: StreamFontSource.OpenFontDataStream
 linktitle: OpenFontDataStream
 articleTitle: OpenFontDataStream
 second_title: Aspose.Words для .NET
-description: StreamFontSource OpenFontDataStream метод. Этот метод должен открывать поток с данными шрифта по запросу на С#.
+description: Откройте для себя метод StreamFontSource OpenFontDataStream для эффективного доступа к потокам данных шрифтов по требованию, что улучшит ваш рабочий процесс проектирования.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/streamfontsource/openfontdatastream/
 ---
 ## StreamFontSource.OpenFontDataStream method
 
-Этот метод должен открывать поток с данными шрифта по запросу.
+Этот метод должен открывать поток с данными шрифта по требованию.
 
 ```csharp
 public abstract Stream OpenFontDataStream()
@@ -43,8 +43,8 @@ public void StreamFontSourceFileRendering()
 }
 
 /// <summary>
-/// Загружаем данные шрифта только при необходимости, а не сохраняем их в памяти
-/// на все время существования объекта FontSettings.
+/// Загружать данные шрифта только при необходимости, а не сохранять их в памяти
+/// на все время существования объекта "FontSettings".
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

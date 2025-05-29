@@ -3,16 +3,16 @@ title: CustomXmlPartCollection Class
 linktitle: CustomXmlPartCollection
 articleTitle: CustomXmlPartCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlPartCollection сорт. Представляет коллекцию пользовательских частей XML. ПредметыCustomXmlPart объекты на С#.
+description: Откройте для себя класс Aspose.Words.Markup.CustomXmlPartCollection — ваше идеальное решение для эффективного и легкого управления пользовательскими частями XML.
 type: docs
-weight: 3930
+weight: 4620
 url: /ru/net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
 
-Представляет коллекцию пользовательских частей XML. Предметы[`CustomXmlPart`](../customxmlpart/) объекты.
+Представляет коллекцию пользовательских XML-частей. Элементы[`CustomXmlPart`](../customxmlpart/) объекты.
 
-Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
+Чтобы узнать больше, посетите[Структурированные теги документов или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) документальная статья.
 
 ```csharp
 public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
@@ -40,23 +40,23 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | Удаляет все элементы из коллекции. |
 | [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Создает глубокую копию этой коллекции и ее элементов. |
 | [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | Находит и возвращает пользовательскую часть XML по ее идентификатору. |
-| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | Удаляет элемент по указанному индексу. |
 
 ## Примечания
 
-Обычно вам не нужно создавать экземпляры этого класса. Вы можете получить доступ к пользовательским XML-данным , хранящимся в документе, через[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) свойство.
+Обычно вам не нужно создавать экземпляры этого класса. Вы можете получить доступ к пользовательским XML data , хранящимся в документе, через[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) свойство.
 
 ## Примеры
 
-Показывает, как создать тег структурированного документа с пользовательскими данными XML.
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
 
 ```csharp
 Document doc = new Document();
 
 // Создаем часть XML, содержащую данные, и добавляем ее в коллекцию документа.
 // Если мы включим вкладку «Разработчик» в Microsoft Word,
-// мы можем найти элементы из этой коллекции в «Панели сопоставления XML» вместе с несколькими элементами по умолчанию.
+// мы можем найти элементы из этой коллекции в «Панели сопоставления XML», а также несколько элементов по умолчанию.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -64,24 +64,24 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Ниже приведены два способа обращения к частям XML.
-// 1 - По индексу в пользовательской коллекции частей XML:
+// Ниже приведены два способа ссылки на части XML.
+// 1 — По индексу в коллекции пользовательских частей XML:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - По GUID:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Добавляем ассоциацию схемы XML.
+// Добавить ассоциацию схемы XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонируем часть и затем вставляем ее в коллекцию.
+// Клонируем часть, а затем вставляем ее в коллекцию.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
 
 Assert.AreEqual(2, doc.CustomXmlParts.Count);
 
-// Перебираем коллекцию и печатаем содержимое каждой части.
+// Проходим по коллекции и выводим содержимое каждой части.
 using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator())
 {
     int index = 0;
@@ -93,12 +93,12 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Используйте метод «RemoveAt», чтобы удалить клонированную часть по индексу.
+// Используйте метод «RemoveAt» для удаления клонированной части по индексу.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Клонировать коллекцию частей XML, а затем использовать метод «Очистить», чтобы удалить сразу все ее элементы.
+// Клонируем коллекцию частей XML, а затем используем метод «Очистить», чтобы удалить все ее элементы одновременно.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 

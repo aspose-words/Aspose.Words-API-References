@@ -3,7 +3,7 @@ title: FieldHyperlink.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words для .NET
-description: FieldHyperlink ScreenTip свойство. Получает или задает текст всплывающей подсказки для гиперссылки на С#.
+description: Откройте для себя свойство FieldHyperlink ScreenTip, чтобы настроить текст гиперссылки, улучшить пользовательский опыт и вовлеченность. Оптимизируйте свои ссылки сегодня!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -18,7 +18,7 @@ public string ScreenTip { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поля HYPERLINK для создания ссылок на документы в локальной файловой системе.
+Показывает, как использовать поля HYPERLINK для ссылки на документы в локальной файловой системе.
 
 ```csharp
 Document doc = new Document();
@@ -26,16 +26,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// Когда мы щелкаем это поле ГИПЕРССЫЛКИ в Microsoft Word,
-// он откроет связанный документ, а затем поместит курсор на указанную закладку.
+// Когда мы нажимаем на это поле ГИПЕРССЫЛКА в Microsoft Word,
+// откроется связанный документ, а затем курсор будет установлен на указанной закладке.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";
 
 builder.Writeln();
 
-// Когда мы щелкаем это поле ГИПЕРССЫЛКИ в Microsoft Word,
-// он откроет связанный документ и автоматически прокрутит вниз до указанного iframe.
+// Когда мы нажимаем на это поле ГИПЕРССЫЛКА в Microsoft Word,
+// откроется связанный документ и автоматически прокрутится вниз до указанного iframe.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";
 field.ScreenTip = "Open " + field.Address;

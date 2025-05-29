@@ -3,14 +3,14 @@ title: FontFallbackSettings.LoadNotoFallbackSettings
 linktitle: LoadNotoFallbackSettings
 articleTitle: LoadNotoFallbackSettings
 second_title: Aspose.Words для .NET
-description: FontFallbackSettings LoadNotoFallbackSettings метод. Загружает предопределенные резервные настройки в которых используются шрифты Google Noto на С#.
+description: Узнайте, как улучшить типографику с помощью метода FontFallbackSettings LoadNotoFallbackSettings, используя шрифты Google Noto для бесшовного отображения текста.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontfallbacksettings/loadnotofallbacksettings/
 ---
 ## FontFallbackSettings.LoadNotoFallbackSettings method
 
-Загружает предопределенные резервные настройки, в которых используются шрифты Google Noto.
+Загружает предопределенные резервные настройки, которые используют шрифты Google Noto.
 
 ```csharp
 public void LoadNotoFallbackSettings()
@@ -28,9 +28,9 @@ FontSettings fontSettings = new FontSettings();
 // https://www.google.com/get/noto/#sans-lgc
 fontSettings.SetFontsFolder(FontsDir + "Noto", false);
 
- // Обратите внимание, что в предопределенных настройках используются только шрифты Noto в стиле Sans с обычной толщиной.
-// Некоторые шрифты Noto используют расширенные функции типографики.
-// Шрифты с расширенной типографикой могут отображаться неправильно, поскольку Aspose.Words в настоящее время их не поддерживает.
+ // Обратите внимание, что предустановленные настройки используют только шрифты Noto в стиле Sans с обычной толщиной.
+// Некоторые шрифты Noto используют расширенные возможности типографики.
+// Шрифты с расширенной типографикой могут отображаться некорректно, поскольку Aspose.Words в настоящее время их не поддерживает.
 fontSettings.FallbackSettings.LoadNotoFallbackSettings();
 fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = false;
 fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Noto Sans";
@@ -39,7 +39,7 @@ Document doc = new Document();
 doc.FontSettings = fontSettings;
 ```
 
-Показывает, как загрузить предварительно определенные настройки резервного шрифта.
+Показывает, как загрузить предопределенные резервные настройки шрифта.
 
 ```csharp
 Document doc = new Document();
@@ -48,18 +48,18 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Сохраняем схему резервного шрифта по умолчанию в XML-документ.
+// Сохраните резервную схему шрифтов по умолчанию в XML-документе.
 // Например, один из элементов имеет значение «0C00-0C7F» для Range и соответствующее значение «Vani» для FallbackFonts.
-// Это означает, что если шрифт, используемый в каком-либо тексте, не содержит символов для блока Юникода 0x0C00-0x0C7F,
-// в резервной схеме будут использоваться символы из заменителя шрифта "Vani".
+// Это означает, что если шрифт, используемый в тексте, не имеет символов для блока Unicode 0x0C00-0x0C7F,
+// резервная схема будет использовать символы из заменителя шрифта "Vani".
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.Default.xml");
 
-// Ниже приведены две предопределенные схемы резервного шрифта, которые мы можем выбрать.
-// 1 — использовать схему Microsoft Office по умолчанию, аналогичную схеме по умолчанию:
+// Ниже приведены две предопределенные схемы резервного шрифта, из которых мы можем выбирать.
+// 1 — Использовать схему Microsoft Office по умолчанию, которая совпадает со схемой по умолчанию:
 fontFallbackSettings.LoadMsOfficeFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadMsOfficeFallbackSettings.xml");
 
-// 2 — Использовать схему, построенную на основе шрифтов Google Noto:
+// 2 - Использовать схему, созданную на основе шрифтов Google Noto:
 fontFallbackSettings.LoadNotoFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadNotoFallbackSettings.xml");
 ```

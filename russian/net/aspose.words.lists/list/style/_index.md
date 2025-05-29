@@ -3,14 +3,14 @@ title: List.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words для .NET
-description: List Style свойство. Получает стиль списка на который ссылается или определяет этот список на С#.
+description: Откройте для себя свойство List Style, чтобы эффективно определять и настраивать ваши списки. Улучшите свой веб-дизайн с помощью уникальных вариантов стилей!
 type: docs
 weight: 80
 url: /ru/net/aspose.words.lists/list/style/
 ---
 ## List.Style property
 
-Получает стиль списка, на который ссылается или определяет этот список.
+Получает стиль списка, на который ссылается или который определяет этот список.
 
 ```csharp
 public Style Style { get; }
@@ -20,9 +20,9 @@ public Style Style { get; }
 
 Если этот список не связан со стилем списка, свойство вернет`нулевой`.
 
-В данном случае список может быть ссылкой на стиль списка.[`IsListStyleReference`](../isliststylereference/) будет`истинный`.
+Список может быть ссылкой на стиль списка, в данном случае[`IsListStyleReference`](../isliststylereference/) будет`истинный`.
 
-В данном случае список может быть определением стиля списка.[`IsListStyleDefinition`](../isliststyledefinition/) будет`истинный`. Такой список нельзя применить непосредственно к абзацам документа.
+Список может быть определением стиля списка, в данном случае[`IsListStyleDefinition`](../isliststyledefinition/) будет`истинный`. Такой список нельзя применить к абзацам документа напрямую.
 
 ## Примеры
 
@@ -31,11 +31,11 @@ public Style Style { get; }
 ```csharp
 Document doc = new Document();
 
-// Список позволяет нам организовывать и украшать наборы абзацев префиксными символами и отступами.
+// Список позволяет нам организовывать и украшать наборы абзацев с помощью префиксных символов и отступов.
  // Мы можем создавать вложенные списки, увеличивая уровень отступа.
- // Мы можем начать и закончить список, используя свойство ListFormat конструктора документов.
-// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
-// Мы можем содержать целый объект List внутри стиля.
+ // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов.
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом в списке.
+// Мы можем поместить целый объект List в стиль.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -45,7 +45,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Изменяем внешний вид всех уровней списка в нашем списке.
+// Изменить внешний вид всех уровней списка в нашем списке.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -64,7 +64,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Добавляем несколько элементов списка, которые наш список будет форматировать.
+// Добавьте несколько элементов списка, которые будут форматировать наш список.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
@@ -72,7 +72,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Создать и применить другой список на основе стиля списка.
+// Создаем и применяем другой список на основе стиля списка.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

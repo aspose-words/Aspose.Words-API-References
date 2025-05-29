@@ -3,14 +3,14 @@ title: FontSettings.FallbackSettings
 linktitle: FallbackSettings
 articleTitle: FallbackSettings
 second_title: Aspose.Words для .NET
-description: FontSettings FallbackSettings свойство. Настройки связанные с механизмом возврата шрифтов на С#.
+description: Откройте для себя свойство FontSettings FallbackSettings для оптимизированных механизмов возврата шрифтов. Улучшите свой дизайн с помощью бесшовной визуализации текста!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontsettings/fallbacksettings/
 ---
 ## FontSettings.FallbackSettings property
 
-Настройки, связанные с механизмом возврата шрифтов.
+Настройки, связанные с механизмом резервного копирования шрифтов.
 
 ```csharp
 public FontFallbackSettings FallbackSettings { get; }
@@ -18,7 +18,7 @@ public FontFallbackSettings FallbackSettings { get; }
 
 ## Примеры
 
-Показывает, как распределять резервные шрифты по диапазонам кодов символов Юникода.
+Показывает, как распределить резервные шрифты по диапазонам кодов символов Unicode.
 
 ```csharp
 Document doc = new Document();
@@ -27,19 +27,19 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Настройте наши настройки шрифтов так, чтобы исходные шрифты были только из папки «MyFonts».
+// Настраиваем параметры шрифтов так, чтобы они брались только из папки «MyFonts».
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
 // Вызов метода "BuildAutomatic" сгенерирует резервную схему, которая
-// распределяет доступные шрифты по как можно большему количеству кодов символов Юникода.
-// В нашем случае у него есть доступ только к небольшому количеству шрифтов в папке «MyFonts».
+// распределяет доступные шрифты по максимально возможному количеству кодов символов Unicode.
+// В нашем случае он имеет доступ только к нескольким шрифтам внутри папки «MyFonts».
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
-// Мы также можем загрузить собственную схему замены из такого файла.
-// Эта схема применяет шрифт «AllegroOpen» к блокам Юникода «0000-00ff», шрифт «AllegroOpen» к блокам «0100-024f»,
-// и шрифт «M+ 2m» во всех остальных диапазонах, которые не охватываются другими шрифтами в схеме.
+// Мы также можем загрузить пользовательскую схему замены из файла, подобного этому.
+// Эта схема применяет шрифт "AllegroOpen" к блокам Unicode "0000-00ff", шрифт "AllegroOpen" к блокам "0100-024f",
+// и шрифт "M+ 2m" во всех других диапазонах, которые не покрываются другими шрифтами в схеме.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
 // Создаем конструктор документов и устанавливаем для него шрифт, которого нет ни в одном из наших источников.
@@ -47,8 +47,8 @@ fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Используйте конструктор для печати каждого символа Юникода от 0x0021 до 0x052F,
-// с описательными линиями, разделяющими блоки Юникода, которые мы определили в нашей резервной схеме пользовательского шрифта.
+// Используйте конструктор для печати каждого символа Unicode от 0x0021 до 0x052F,
+// с описательными линиями, разделяющими блоки Unicode, которые мы определили в нашей пользовательской схеме резервного шрифта.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

@@ -3,14 +3,14 @@ title: OdsoFieldMapDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapDataCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
+description: Откройте для себя метод GetEnumerator OdsoFieldMapDataCollection для легкой итерации по всем элементам коллекции. Улучшите обработку данных сегодня!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
 ---
 ## OdsoFieldMapDataCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

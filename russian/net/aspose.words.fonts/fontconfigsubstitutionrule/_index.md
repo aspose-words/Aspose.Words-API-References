@@ -3,16 +3,16 @@ title: FontConfigSubstitutionRule Class
 linktitle: FontConfigSubstitutionRule
 articleTitle: FontConfigSubstitutionRule
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule сорт. Правило подстановки конфигурации шрифта на С#.
+description: Откройте для себя класс Aspose.Words.Fonts.FontConfigSubstitutionRule для бесшовного управления шрифтами и настройки в ваших документах. Улучшите свой стиль текста сегодня!
 type: docs
-weight: 2890
+weight: 3300
 url: /ru/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
 Правило подстановки конфигурации шрифта.
 
-Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) документальная статья.
 
 ```csharp
 public class FontConfigSubstitutionRule : FontSubstitutionRule
@@ -29,17 +29,17 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | Имя | Описание |
 | --- | --- |
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Проверьте, доступна ли утилита fontconfig. |
-| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Сбрасывает кеш результатов вызова Fontconfig. |
+| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Сбрасывает кэш результатов вызова fontconfig. |
 
 ## Примечания
 
-Это правило использует утилиту fontconfig на платформах Linux (и других Unix-подобных платформах) для получения замены , если исходный шрифт недоступен.
+Это правило использует утилиту fontconfig на Linux (и других Unix-подобных) платформах для получения подстановки , если исходный шрифт недоступен.
 
-Если утилита fontconfig недоступна, это правило будет игнорироваться.
+Если утилита fontconfig недоступна, то это правило будет проигнорировано.
 
 ## Примеры
 
-Показывает замену конфигурации шрифтов в зависимости от операционной системы.
+Показывает замену конфигурации шрифтов, зависящую от операционной системы.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -49,8 +49,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// Объект FontConfigSubstitutionRule работает по-разному на платформах Windows и не-Windows.
-// В Windows он недоступен.
+// Объект FontConfigSubstitutionRule работает по-разному на платформах Windows и других платформах.
+// В Windows это недоступно.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -60,7 +60,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// В Linux/Mac мы будем иметь к нему доступ и сможем выполнять операции.
+// На Linux/Mac у нас будет к нему доступ, и мы сможем выполнять операции.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

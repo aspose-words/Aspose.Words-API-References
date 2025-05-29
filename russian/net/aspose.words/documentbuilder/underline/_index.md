@@ -3,7 +3,7 @@ title: DocumentBuilder.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words для .NET
-description: DocumentBuilder Underline свойство. Получает/устанавливает тип подчеркивания для текущего шрифта на С#.
+description: Откройте для себя свойство DocumentBuilder Underline, чтобы легко настраивать стили шрифтов. Улучшите свои документы с помощью универсальных вариантов подчеркивания для профессионального вида.
 type: docs
 weight: 190
 url: /ru/net/aspose.words/documentbuilder/underline/
@@ -18,7 +18,7 @@ public Underline Underline { get; set; }
 
 ## Примеры
 
-Показывает, как форматировать текст, вставленный построителем документов.
+Показывает, как форматировать текст, вставленный с помощью конструктора документов.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Underline = Underline.Dash;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 32;
 
-// Построитель применяет форматирование к текущему абзацу и любому новому тексту, добавленному им впоследствии.
+// Конструктор применяет форматирование к текущему абзацу и любому новому тексту, добавленному им впоследствии.
 builder.Writeln("Large, blue, and underlined text.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");

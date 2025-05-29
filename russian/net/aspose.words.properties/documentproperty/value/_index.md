@@ -3,7 +3,7 @@ title: DocumentProperty.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words для .NET
-description: DocumentProperty Value свойство. Получает или задает значение свойства на С#.
+description: Узнайте, как эффективно управлять значениями DocumentProperty — легко извлекайте и обновляйте значения свойств для улучшенного контроля над документами и повышения производительности.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.properties/documentproperty/value/
@@ -27,10 +27,10 @@ public object Value { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Объект «Документ» содержит в своих членах некоторые метаданные.
+// Объект «Документ» содержит некоторые метаданные в своих членах.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Документ также хранит метаданные в своих встроенных свойствах.
+// Документ также хранит метаданные во встроенных свойствах.
 // Каждое встроенное свойство является членом объекта «BuiltInDocumentProperties» документа.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)

@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: OdsoRecipientDataCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
+description: Откройте для себя свойство OdsoRecipientDataCollection Count, чтобы легко получить общее количество элементов и повысить эффективность управления данными.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

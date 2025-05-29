@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RangeEnd
 linktitle: RangeEnd
 articleTitle: RangeEnd
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart RangeEnd свойство. Указывает конец диапазона еслиStructuredDocumentTag  это структурированный тег документа с ранжированием. В противном случае возвращаетсянулевой  на С#.
+description: Изучите свойства StructuredDocumentTagRangeStart и RangeEnd, чтобы определить границы тегов документа и улучшить структурированное управление документами.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-Указывает конец диапазона, если[`StructuredDocumentTag`](../../structureddocumenttag/) — это структурированный тег документа с ранжированием. В противном случае возвращается`нулевой` .
+Указывает конец диапазона, если[`StructuredDocumentTag`](../../structureddocumenttag/) является тегом структурированного документа с диапазоном. В противном случае возвращает`нулевой` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }

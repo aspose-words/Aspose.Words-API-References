@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.SmoothingMode
 linktitle: SmoothingMode
 articleTitle: SmoothingMode
 second_title: Aspose.Words для .NET
-description: GraphicsQualityOptions SmoothingMode свойство. Получает или задает качество рендеринга для этой графики на С#.
+description: Откройте для себя свойство GraphicsQualityOptions SmoothingMode, чтобы без труда улучшить качество рендеринга и повысить производительность графики.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
 ---
 ## GraphicsQualityOptions.SmoothingMode property
 
-Получает или задает качество рендеринга для этой графики.
+Получает или задает качество рендеринга для этого Graphics.
 
 ```csharp
 public SmoothingMode? SmoothingMode { get; set; }
@@ -18,7 +18,7 @@ public SmoothingMode? SmoothingMode { get; set; }
 
 ## Примеры
 
-Показывает, как настроить параметры качества рендеринга при преобразовании документов в форматы изображений.
+Показывает, как задать параметры качества рендеринга при преобразовании документов в форматы изображений.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -3,7 +3,7 @@ title: FieldCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: FieldCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
+description: Откройте для себя метод FieldCollection GetEnumerator — эффективно возвращайте объект перечислителя и расширяйте возможности обработки данных.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldcollection/getenumerator/
@@ -18,7 +18,7 @@ public IEnumerator<Field> GetEnumerator()
 
 ## Примеры
 
-Показывает, как работать с коллекцией полей.
+Показывает, как работать с набором полей.
 
 ```csharp
 public void FieldCollection()
@@ -38,7 +38,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей, выводим содержимое и печатаем
+    // Проходим по коллекции полей и выводим содержимое и тип
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Реализация посетителя документа, который печатает информацию о поле.
+/// Реализация посетителя документа, который выводит информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

@@ -3,7 +3,7 @@ title: Frameset
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words для .NET
-description: Frameset строитель. Конструктор по умолчанию на С#.
+description: Создавайте потрясающие рамки без усилий с помощью нашего универсального конструктора рамок. Наслаждайтесь бесшовной настройкой и выведите свой веб-дизайн на новый уровень уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.framesets/frameset/frameset/

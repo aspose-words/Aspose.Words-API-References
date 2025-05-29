@@ -3,7 +3,7 @@ title: ConvertUtil.PixelToNewDpi
 linktitle: PixelToNewDpi
 articleTitle: PixelToNewDpi
 second_title: Aspose.Words для .NET
-description: ConvertUtil PixelToNewDpi метод. Преобразует пиксели из одного разрешения в другое на С#.
+description: Трансформируйте разрешения пикселей без усилий с помощью метода PixelToNewDpi от ConvertUtil. Достигните оптимального качества изображения и точности для своих проектов.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/convertutil/pixeltonewdpi/
@@ -30,7 +30,7 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Определите размер верхнего поля этого раздела в пикселях в соответствии с пользовательским разрешением.
+// Определите размер верхнего поля этого раздела в пикселях в соответствии с пользовательским DPI.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -38,7 +38,7 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// При разрешении по умолчанию, равном 96, пиксель составляет 0,75 пункта.
+// При значении DPI по умолчанию 96 пиксель равен 0,75 пункта.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +

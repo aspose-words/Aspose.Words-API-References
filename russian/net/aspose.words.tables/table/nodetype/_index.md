@@ -3,14 +3,14 @@ title: Table.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words для .NET
-description: Table NodeType свойство. ВозвращаетTable  на С#.
+description: Откройте для себя свойство Table NodeType, которое эффективно возвращает табличные данные, улучшая управление данными и их организацию для бесшовной интеграции.
 type: docs
 weight: 210
 url: /ru/net/aspose.words.tables/table/nodetype/
 ---
 ## Table.NodeType property
 
-ВозвращаетTable .
+ВозвратTable .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Примеры
 
-Показывает, как перемещаться по дереву дочерних узлов составного узла.
+Показывает, как обойти дерево дочерних узлов составного узла.
 
 ```csharp
 public void RecurseChildren()
@@ -28,13 +28,13 @@ public void RecurseChildren()
     // Любой узел, который может содержать дочерние узлы, например сам документ, является составным.
     Assert.True(doc.IsComposite);
 
-    // Вызов рекурсивной функции, которая пройдёт и распечатает все дочерние узлы составного узла.
+    // Вызываем рекурсивную функцию, которая пройдет и выведет все дочерние узлы составного узла.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Рекурсивно обходит дерево узлов, печатая тип каждого узла
-/// с отступом в зависимости от глубины, а также содержимого всех строчных узлов.
+/// Рекурсивно обходит дерево узлов, выводя тип каждого узла
+/// с отступом, зависящим от глубины, а также от содержимого всех встроенных узлов.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Рекурсия к узлу, если это составной узел. В противном случае выведите его содержимое, если это встроенный узел.
+        // Рекурсия в узел, если это составной узел. В противном случае, выводим его содержимое, если это встроенный узел.
         if (childNode.IsComposite)
         {
             Console.WriteLine();
@@ -60,7 +60,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
 }
 ```
 
-Показывает, как узнать, являются ли таблицы вложенными.
+Показывает, как определить, являются ли таблицы вложенными.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -71,7 +71,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Выясняем, есть ли в каких-либо ячейках таблицы дочерние другие таблицы.
+        // Выясняем, есть ли у ячеек таблицы другие дочерние таблицы.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -107,20 +107,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Определяет, содержит ли таблица в своих ячейках какую-либо непосредственную дочернюю таблицу.
-/// Не просматривайте эти таблицы рекурсивно, чтобы проверить наличие дополнительных таблиц.
+/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
+/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия дополнительных таблиц.
 /// </summary>
 /// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
-/// Возвращает false, если ни одна из ячеек таблицы не содержит таблицу.
+/// Возвращает false, если ни одна ячейка в таблице не содержит таблицу.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

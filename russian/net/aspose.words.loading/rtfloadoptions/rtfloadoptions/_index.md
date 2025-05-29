@@ -3,7 +3,7 @@ title: RtfLoadOptions
 linktitle: RtfLoadOptions
 articleTitle: RtfLoadOptions
 second_title: Aspose.Words для .NET
-description: RtfLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию на С#.
+description: Откройте для себя конструктор RtfLoadOptions, который легко инициализирует ваш класс значениями по умолчанию, повышая эффективность и производительность кодирования.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
@@ -21,12 +21,12 @@ public RtfLoadOptions()
 Показывает, как обнаружить символы UTF-8 при загрузке документа RTF.
 
 ```csharp
-// Создайте объект «RtfLoadOptions», чтобы изменить способ загрузки документа RTF.
+// Создаем объект «RtfLoadOptions» для изменения способа загрузки документа RTF.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Установите для свойства RecounceeUtf8Text значение «false», чтобы предположить, что в документе используется кодировка ISO 8859-1.
+// Установите свойство "RecognizeUtf8Text" в значение "false", чтобы предположить, что документ использует кодировку ISO 8859-1
 // и загружает каждый символ в документе.
-// Установите для свойства RecounceeUtf8Text значение «true», чтобы проанализировать любые символы переменной длины, которые могут встретиться в тексте.
+// Установите свойство «RecognizeUtf8Text» в значение «true», чтобы анализировать любые символы переменной длины, которые могут встречаться в тексте.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

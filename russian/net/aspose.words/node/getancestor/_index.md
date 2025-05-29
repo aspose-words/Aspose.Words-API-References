@@ -3,7 +3,7 @@ title: Node.GetAncestor
 linktitle: GetAncestor
 articleTitle: GetAncestor
 second_title: Aspose.Words для .NET
-description: Node GetAncestor метод. Получает первого предка указанного типа объекта на С#.
+description: Откройте для себя метод Node GetAncestor, позволяющий легко получить первого предка указанного типа объекта, что повышает эффективность и точность кодирования.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/node/getancestor/
@@ -18,19 +18,19 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ancestorType | Type | Тип объекта предка, который требуется получить. |
+| ancestorType | Type | Тип объекта предка, который необходимо извлечь. |
 
 ### Возвращаемое значение
 
-Предок указанного типа или`нулевой` если предок этого типа не был найден.
+Предок указанного типа или`нулевой` если предок данного типа не найден.
 
 ## Примечания
 
-Тип предка соответствует, если он равен*ancestorType* или получено из*ancestorType*.
+Тип предка совпадает, если он равен*ancestorType* или полученный из*ancestorType*.
 
 ## Примеры
 
-Показывает, как узнать, являются ли таблицы вложенными.
+Показывает, как определить, являются ли таблицы вложенными.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -41,7 +41,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Выясняем, есть ли в каких-либо ячейках таблицы дочерние другие таблицы.
+        // Выясняем, есть ли у ячеек таблицы другие дочерние таблицы.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -77,20 +77,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Определяет, содержит ли таблица в своих ячейках какую-либо непосредственную дочернюю таблицу.
-/// Не просматривайте эти таблицы рекурсивно, чтобы проверить наличие дополнительных таблиц.
+/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
+/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия дополнительных таблиц.
 /// </summary>
 /// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
-/// Возвращает false, если ни одна из ячеек таблицы не содержит таблицу.
+/// Возвращает false, если ни одна ячейка в таблице не содержит таблицу.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 
@@ -122,15 +122,15 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ancestorType | NodeType | Тип узла предка, который требуется получить. |
+| ancestorType | NodeType | Тип узла предка, который необходимо извлечь. |
 
 ### Возвращаемое значение
 
-Предок указанного типа или`нулевой` если предок этого типа не был найден.
+Предок указанного типа или`нулевой` если предок данного типа не найден.
 
 ## Примеры
 
-Показывает, как узнать, являются ли таблицы вложенными.
+Показывает, как определить, являются ли таблицы вложенными.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -141,7 +141,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Выясняем, есть ли в каких-либо ячейках таблицы дочерние другие таблицы.
+        // Выясняем, есть ли у ячеек таблицы другие дочерние таблицы.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -177,20 +177,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Определяет, содержит ли таблица в своих ячейках какую-либо непосредственную дочернюю таблицу.
-/// Не просматривайте эти таблицы рекурсивно, чтобы проверить наличие дополнительных таблиц.
+/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
+/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия дополнительных таблиц.
 /// </summary>
 /// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
-/// Возвращает false, если ни одна из ячеек таблицы не содержит таблицу.
+/// Возвращает false, если ни одна ячейка в таблице не содержит таблицу.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

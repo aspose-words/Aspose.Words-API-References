@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words для .NET
-description: NodeRendererBase RenderToScale метод. Преобразует фигуру вGraphics объект в указанном масштабе на С#.
+description: Откройте для себя метод NodeRendererBase RenderToScale — эффективно визуализируйте фигуры в графических объектах любого масштаба для улучшения визуального вывода.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-Преобразует фигуру вGraphics объект в указанном масштабе.
+Отображает форму вGraphics объект в указанном масштабе.
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -18,18 +18,18 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| graphics | Graphics | Объект, в который выполняется рендеринг. |
-| x | Single | Координата X (в мировых единицах измерения) верхнего левого угла визуализированной фигуры. |
-| y | Single | Координата Y (в мировых единицах измерения) верхнего левого угла визуализированной фигуры. |
-| scale | Single | Масштаб отрисовки формы (1,0 — 100%). |
+| graphics | Graphics | Объект, куда будет осуществляться рендеринг. |
+| x | Single | Координата X (в мировых единицах) верхнего левого угла визуализированной фигуры. |
+| y | Single | Координата Y (в мировых единицах) верхнего левого угла визуализированной фигуры. |
+| scale | Single | Масштаб отображения формы (1,0 = 100%). |
 
 ### Возвращаемое значение
 
-Ширина и высота (в мировых единицах) отображаемой фигуры.
+Ширина и высота (в мировых единицах) визуализированной фигуры.
 
 ## Примеры
 
-Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью формы Windows.
+Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью Windows Form.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -39,8 +39,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Ниже приведены два способа использования класса «ShapeRenderer» для визуализации фигуры в графическом объекте.
-    // 1 — Создайте фигуру с диаграммой и отобразите ее в определенном масштабе.
+    // Ниже приведены два способа использования класса «ShapeRenderer» для визуализации фигуры в объекте Graphics.
+    // 1 — Создать фигуру с диаграммой и отобразить ее в определенном масштабе.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -51,7 +51,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 — Создайте группу фигур и отрендерите ее до определенного размера.
+    // 2 — Создать группу фигур и отрисовать ее до определенного размера.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -81,7 +81,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Отрисовывает и отображает список фигур.
+/// Визуализирует и отображает список фигур.
 /// </summary>
 private class ShapeForm : Form
 {

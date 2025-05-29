@@ -3,7 +3,7 @@ title: Comment.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words для .NET
-description: Comment Author свойство. Возвращает или задает имя автора комментария на С#.
+description: Легко управляйте авторами комментариев с помощью свойства Comment Author. Легко возвращайте или устанавливайте имена авторов для повышения вовлеченности пользователей и ясности контента.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/comment/author/
@@ -30,9 +30,9 @@ public string Author { get; set; }
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Если комментарий не имеет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
-// Распечатываем все комментарии верхнего уровня вместе со всеми ответами, которые они могут иметь.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Если у комментария нет предка, то это комментарий «верхнего уровня», а не комментарий типа ответа.
+// Вывести все комментарии верхнего уровня вместе с возможными ответами на них.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

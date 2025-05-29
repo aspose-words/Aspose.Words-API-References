@@ -3,14 +3,14 @@ title: PdfSaveOptions.PreblendImages
 linktitle: PreblendImages
 articleTitle: PreblendImages
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions PreblendImages свойство. Получает или задает значение определяющее следует ли предварительно смешивать прозрачные изображения с черным цветом фона на С#.
+description: Откройте для себя свойство PreblendImages в PdfSaveOptions. Легко управляйте прозрачным смешиванием изображений для улучшения качества документа и визуальной привлекательности.
 type: docs
-weight: 260
+weight: 270
 url: /ru/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
 ## PdfSaveOptions.PreblendImages property
 
-Получает или задает значение, определяющее, следует ли предварительно смешивать прозрачные изображения с черным цветом фона.
+Возвращает или задает значение, определяющее, следует ли предварительно смешивать прозрачные изображения с черным фоновым цветом.
 
 ```csharp
 public bool PreblendImages { get; set; }
@@ -20,52 +20,29 @@ public bool PreblendImages { get; set; }
 
 Предварительное смешивание изображений может улучшить внешний вид PDF-документа в Adobe Reader и удалить артефакты сглаживания.
 
-Чтобы правильно отображать предварительно смешанные изображения, приложение просмотра PDF должно поддерживать запись /Matte в словаре изображений с мягкой маской. Кроме того, предварительное смешивание изображений может снизить производительность рендеринга PDF.
+Для правильного отображения предварительно смешанных изображений приложение для просмотра PDF-файлов должно поддерживать запись /Matte в словаре изображений с мягкой маской. Кроме того, предварительно смешанные изображения могут снизить производительность рендеринга PDF-файлов.
 
 Значение по умолчанию:`ЛОЖЬ`.
 
 ## Примеры
 
-Показывает, как предварительно смешать изображения с прозрачным фоном при сохранении документа в формате PDF.
+Показывает, как предварительно смешивать изображения с прозрачным фоном при сохранении документа в формате PDF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image img = Image.FromFile(ImageDir + "Transparent background logo.png");
-builder.InsertImage(img);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
-
-// Установите для свойства PreblendImages значение true, чтобы предварительно смешать прозрачные изображения.
-// с фоном, который может уменьшить количество артефактов.
-// Установите для свойства «PreblendImages» значение «false», чтобы нормально отображать прозрачные изображения.
+// Установите свойство "PreblendImages" в значение "true" для предварительного смешивания прозрачных изображений
+// с фоном, что может уменьшить артефакты.
+// Установите свойство «PreblendImages» в значение «false» для обычной визуализации прозрачных изображений.
 options.PreblendImages = preblendImages;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImages.pdf", options);
-```
-
-Показывает, как предварительно смешивать изображения с прозрачным фоном (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
-    builder.InsertImage(image);
-
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
-PdfSaveOptions options = new PdfSaveOptions();
-
-// Установите для свойства PreblendImages значение true, чтобы предварительно смешать прозрачные изображения.
-// с фоном, который может уменьшить количество артефактов.
-// Установите для свойства «PreblendImages» значение «false», чтобы нормально отображать прозрачные изображения.
-options.PreblendImages = preblendImages;
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options);
 ```
 
 ### Смотрите также

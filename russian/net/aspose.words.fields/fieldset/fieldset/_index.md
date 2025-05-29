@@ -3,7 +3,7 @@ title: FieldSet
 linktitle: FieldSet
 articleTitle: FieldSet
 second_title: Aspose.Words для .NET
-description: FieldSet строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldSet, необходимый инструмент для создания динамических форм без усилий. Откройте для себя безупречный пользовательский опыт сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldset/fieldset/

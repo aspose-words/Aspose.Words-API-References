@@ -3,7 +3,7 @@ title: ListLevel.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words для .NET
-description: ListLevel Equals метод. Сравнивает с указанным ListLevel на С#.
+description: Откройте для себя метод ListLevel Equals для эффективного сравнения ListLevels, повышая эффективность кодирования и точность управления данными.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.lists/listlevel/equals/

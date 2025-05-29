@@ -3,14 +3,14 @@ title: EndnoteOptions.RestartRule
 linktitle: RestartRule
 articleTitle: RestartRule
 second_title: Aspose.Words для .NET
-description: EndnoteOptions RestartRule свойство. Определяет когда перезапускается автоматическая нумерация на С#.
+description: Узнайте, как свойство EndnoteOptions RestartRule улучшает ваш документ, управляя автоматической нумерацией и придавая ему изысканный профессиональный вид.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.notes/endnoteoptions/restartrule/
 ---
 ## EndnoteOptions.RestartRule property
 
-Определяет, когда перезапускается автоматическая нумерация.
+Определяет, когда автоматическая нумерация перезапускается.
 
 ```csharp
 public FootnoteNumberingRule RestartRule { get; set; }
@@ -18,7 +18,7 @@ public FootnoteNumberingRule RestartRule { get; set; }
 
 ## Примечания
 
-Не все значения применимы к сноскам. Чтобы узнать, какие значения применимы, см.[`FootnoteNumberingRule`](../../footnotenumberingrule/).
+Не все значения применимы к концевым сноскам. Чтобы узнать, какие значения применимы, см.[`FootnoteNumberingRule`](../../footnotenumberingrule/).
 
 ## Примеры
 
@@ -28,14 +28,14 @@ public FootnoteNumberingRule RestartRule { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Сноски и концевые сноски – это способ прикрепить к тексту ссылку или комментарий.
+// Сноски и концевые сноски — это способ прикрепить ссылку или боковой комментарий к тексту.
  // это не мешает потоку основного текста.
 // Вставка сноски/концевой сноски добавляет небольшой надстрочный символ ссылки
-// в основном тексте, куда мы вставляем сноску/заключительную сноску.
-// Каждая сноска/концевая сноска также создает запись, состоящую из символа, соответствующего ссылке
-// символ в основном тексте. Справочный текст, который мы передаем методу компоновщика документов «InsertEndnote».
-// Записи сносок по умолчанию отображаются внизу каждой страницы, содержащей
-// их ссылочные символы и сноски отображаются в конце документа.
+// в основном тексте, где мы вставляем сноску/концевую сноску.
+// Каждая сноска/концевая сноска также создает запись, которая состоит из символа, соответствующего ссылке
+// символ в основном тексте. Ссылочный текст, который мы передаем в метод "InsertEndnote" конструктора документа.
+// Сноски по умолчанию отображаются внизу каждой страницы, содержащей
+// их справочные символы и концевые сноски отображаются в конце документа.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -58,14 +58,14 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 builder.Write("Text 4. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 
-// По умолчанию ссылочным символом для каждой сноски и концевой сноски является их индекс
-// среди всех сносок/концевых сносок документа. В каждом документе ведется отдельный учет.
-// для сносок и концевых сносок и не перезапускает эти подсчеты в любой момент.
+// По умолчанию символом ссылки для каждой сноски и концевой сноски является ее индекс
+// среди всех сносок/концевых сносок документа. Каждый документ ведет отдельный подсчет
+// для обычных и концевых сносок и не перезапускает эти подсчеты ни в какой точке.
 Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
 Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
 
-// Мы можем использовать свойство RestartRule, чтобы перезапустить документ
-// сноска/концевая сноска учитывается на новой странице или разделе.
+// Мы можем использовать свойство "RestartRule", чтобы перезапустить документ
+// сноска/концевая сноска считается новой страницей или разделом.
 doc.FootnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
 doc.EndnoteOptions.RestartRule = FootnoteNumberingRule.RestartSection;
 

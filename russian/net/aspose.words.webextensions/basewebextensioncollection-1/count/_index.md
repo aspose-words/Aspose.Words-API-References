@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: BaseWebExtensionCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
+description: Откройте для себя свойство BaseWebExtensionCollection Count, чтобы легко получить общее количество элементов, повышая эффективность веб-разработки.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Распечатываем все свойства веб-расширения документа.
+// Распечатать все свойства веб-расширения документа.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -36,7 +36,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Удаляем веб-расширение.
+// Удалить веб-расширение.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

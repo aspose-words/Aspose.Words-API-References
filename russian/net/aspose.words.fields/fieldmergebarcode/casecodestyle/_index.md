@@ -3,14 +3,14 @@ title: FieldMergeBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words для .NET
-description: FieldMergeBarcode CaseCodeStyle свойство. Получает или задает стиль Caseкода для типа штрихкода ITF14. Допустимые значения STDEXTADD  на С#.
+description: Откройте для себя свойство FieldMergeBarcode CaseCodeStyle для штрихкодов ITF14. Легко настройте свой стиль Case Code с допустимыми параметрами, такими как STDEXTADD.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-Получает или задает стиль Case-кода для типа штрих-кода ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD] .
+Получает или задает стиль Case Code для типа штрихкода ITF14. Допустимые значения: [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -18,14 +18,14 @@ public string CaseCodeStyle { get; set; }
 
 ## Примеры
 
-Показывает, как выполнить слияние почты со штрих-кодами ITF14.
+Показывает, как выполнить слияние почты со штрихкодами ITF14.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
-// Это поле преобразует все значения в столбце «MyITF14Barcode» источника данных слияния в штрих-коды ITF14.
+// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
+// Это поле преобразует все значения в столбце «MyITF14Barcode» источника объединенных данных в штрихкоды ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -34,8 +34,8 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// Создайте DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
-// Слияние почты создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
+// Создаем DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
+// Слияние создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
 // который отобразит штрих-код ITF14 со значением из объединенной строки.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");

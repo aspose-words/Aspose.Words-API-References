@@ -3,7 +3,7 @@ title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: ListCollection Document свойство. Получает документ владельца на С#.
+description: Откройте для себя свойство ListCollection Document, чтобы легко получить доступ к документу владельца и оптимизировать управление данными. Откройте для себя эффективность сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.lists/listcollection/document/
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## Примеры
 
-Показывает, как проверить свойства документов владельцев списков.
+Показывает, как проверить свойства документа владельца списков.
 
 ```csharp
 Document doc = new Document();

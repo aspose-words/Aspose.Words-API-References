@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreFieldCodes
 linktitle: IgnoreFieldCodes
 articleTitle: IgnoreFieldCodes
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions IgnoreFieldCodes свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри кодов полей. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство FindReplaceOptions IgnoreFieldCodes для простого управления текстом в кодах полей. Управляйте видимостью с помощью простой логической настройки!
 type: docs
 weight: 70
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
 ---
 ## FindReplaceOptions.IgnoreFieldCodes property
 
-Получает или задает логическое значение, указывающее, следует ли игнорировать текст внутри кодов полей. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее, следует ли игнорировать текст внутри кодов полей. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IgnoreFieldCodes { get; set; }
@@ -18,9 +18,9 @@ public bool IgnoreFieldCodes { get; set; }
 
 ## Примечания
 
-Эта опция влияет только на коды полей (она не игнорирует узлы между FieldSeparator иFieldEnd).
+Эта опция влияет только на коды полей (она не игнорирует узлы between FieldSeparator иFieldEnd).
 
-Чтобы игнорировать все поле, используйте соответствующую опцию[`IgnoreFields`](../ignorefields/).
+Чтобы проигнорировать все поле, используйте соответствующую опцию.[`IgnoreFields`](../ignorefields/).
 
 ## Примеры
 
@@ -34,7 +34,7 @@ builder.InsertField("INCLUDETEXT", "Test IT!");
 
 FindReplaceOptions options = new FindReplaceOptions {IgnoreFieldCodes = ignoreFieldCodes};
 
-// Заменить 'T' в документе, игнорируя текст внутри кода поля или нет.
+// Заменить «T» в документе, игнорируя текст внутри кода поля или нет.
 doc.Range.Replace(new Regex("T"), "*", options);
 Console.WriteLine(doc.GetText());
 

@@ -3,14 +3,14 @@ title: Document.SpellingChecked
 linktitle: SpellingChecked
 articleTitle: SpellingChecked
 second_title: Aspose.Words для .NET
-description: Document SpellingChecked свойство. Возвращаетистинный если документ проверен на орфографию на С#.
+description: Убедитесь, что ваш документ не содержит ошибок, используя свойство SpellingChecked. Узнайте, был ли ваш контент тщательно проверен на профессиональность.
 type: docs
-weight: 410
+weight: 430
 url: /ru/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-Возвращает`истинный` если документ проверен на орфографию.
+Возврат`истинный` если документ был проверен на орфографию.
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -22,7 +22,7 @@ public bool SpellingChecked { get; set; }
 
 ## Примеры
 
-Показывает, как настроить проверку орфографии или грамматики.
+Показывает, как настроить проверку орфографии и грамматики.
 
 ```csharp
 Document doc = new Document();
@@ -30,9 +30,9 @@ Document doc = new Document();
 // Строка с орфографическими ошибками.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
- // Проверка орфографии/грамматики начинается, если мы установили для свойств значение false.
-// Мы можем увидеть все ошибки в Microsoft Word через Обзор -> -> Правописание и усиление; Грамматика.
-// Обратите внимание, что Microsoft Word не запускает автоматически проверку грамматики/орфографии для форматов документов DOC и RTF.
+// Проверка орфографии/грамматики начнется, если мы установим свойства на false.
+// Мы можем увидеть все ошибки в Microsoft Word через Обзор -> Правописание и грамматика.
+// Обратите внимание, что Microsoft Word не запускает автоматическую проверку грамматики/орфографии для документов формата DOC и RTF.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

@@ -3,9 +3,9 @@ title: OoxmlSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words для .NET
-description: OoxmlSaveOptions Password свойство. Получает/устанавливает пароль для шифрования документа с использованием стандартного алгоритма шифрования ECMA376 на С#.
+description: Защитите свои документы с помощью OoxmlSaveOptions! Легко установите пароль для шифрования с использованием стандарта ECMA376 для улучшенной защиты данных.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/password/
 ---
 ## OoxmlSaveOptions.Password property
@@ -18,11 +18,11 @@ public string Password { get; set; }
 
 ## Примечания
 
-Чтобы сохранить документ без шифрования, это свойство должно быть`нулевой` или пустая строка.
+Для сохранения документа без шифрования это свойство должно быть`нулевой` или пустая строка.
 
 ## Примеры
 
-Показывает, как создать документ Office Open XML, зашифрованный паролем.
+Показывает, как создать зашифрованный паролем документ Office Open XML.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Password.docx", saveOptions);
 
-// Мы не сможем открыть этот документ с помощью Microsoft Word или
+// Мы не сможем открыть этот документ в Microsoft Word или
 // Aspose.Words без указания правильного пароля.
 Assert.Throws<IncorrectPasswordException>(() =>
     doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx"));

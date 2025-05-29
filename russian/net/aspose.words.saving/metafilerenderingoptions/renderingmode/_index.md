@@ -3,14 +3,14 @@ title: MetafileRenderingOptions.RenderingMode
 linktitle: RenderingMode
 articleTitle: RenderingMode
 second_title: Aspose.Words для .NET
-description: MetafileRenderingOptions RenderingMode свойство. Получает или задает значение определяющее способ отображения изображений метафайлов на С#.
+description: Откройте для себя свойство RenderingMode MetafileRenderingOptions, чтобы управлять рендерингом изображений метафайлов, повышая качество графики и производительность.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
 ## MetafileRenderingOptions.RenderingMode property
 
-Получает или задает значение, определяющее способ отображения изображений метафайлов.
+Возвращает или задает значение, определяющее, как должны отображаться изображения метафайлов.
 
 ```csharp
 public MetafileRenderingMode RenderingMode { get; set; }
@@ -22,7 +22,7 @@ public MetafileRenderingMode RenderingMode { get; set; }
 
 ## Примеры
 
-Показывает добавлен запасной вариант рендеринга растровых изображений и изменение типа предупреждений о неподдерживаемых записях метафайлов.
+В шоу добавлена возможность отката к растровому рендерингу и изменен тип предупреждений о неподдерживаемых записях метафайлов.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -31,15 +31,15 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Установите для свойства «EmulateRasterOperations» значение «false», чтобы вернуться к растровому изображению при
+    // Установите свойство "EmulateRasterOperations" в значение "false", чтобы вернуться к растровому изображению, когда
     // он обнаруживает метафайл, для рендеринга которого в выходном PDF-файле потребуются растровые операции.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Установите для свойства «RenderingMode» значение «VectorWithFallback», чтобы попытаться отобразить каждый метафайл с использованием векторной графики.
+    // Установите свойство «RenderingMode» на «VectorWithFallback», чтобы попытаться визуализировать каждый метафайл с использованием векторной графики.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-    // чтобы изменить способ преобразования этого метода в .PDF и применения конфигурации
+    // Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+    // чтобы изменить способ преобразования этим методом документа в .PDF и применения конфигурации
     // в нашем объекте MetafileRenderingOptions для операции сохранения.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -55,7 +55,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Печатает и собирает предупреждения, связанные с потерей форматирования, возникающие при сохранении документа.
+/// Печатает и собирает предупреждения, связанные с потерей форматирования, которые возникают при сохранении документа.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

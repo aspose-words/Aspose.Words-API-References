@@ -3,16 +3,16 @@ title: SdtListItemCollection Class
 linktitle: SdtListItemCollection
 articleTitle: SdtListItemCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Markup.SdtListItemCollection сорт. Обеспечивает доступ кSdtListItem элементы тега структурированного документа на С#.
+description: Изучите класс Aspose.Words.Markup.SdtListItemCollection для беспрепятственного доступа к элементам SdtListItem, что упрощает управление структурированными документами.
 type: docs
-weight: 4030
+weight: 4720
 url: /ru/net/aspose.words.markup/sdtlistitemcollection/
 ---
 ## SdtListItemCollection class
 
-Обеспечивает доступ к[`SdtListItem`](../sdtlistitem/) элементы тега структурированного документа.
+Предоставляет доступ к[`SdtListItem`](../sdtlistitem/) элементы структурированного документа тег.
 
-Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
+Чтобы узнать больше, посетите[Структурированные теги документов или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) документальная статья.
 
 ```csharp
 public class SdtListItemCollection : IEnumerable<SdtListItem>
@@ -23,8 +23,8 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.markup/sdtlistitemcollection/count/) { get; } | Получает количество элементов в коллекции. |
-| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | Возвращает[`SdtListItem`](../sdtlistitem/) объекту с учетом его нулевого индекса в коллекции. |
-| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | Указывает текущее выбранное значение в этом списке. Допустимо нулевое значение, что означает, что ни одна выбранная в данный момент запись не связана с этой коллекцией элементов списка. |
+| [Item](../../aspose.words.markup/sdtlistitemcollection/item/) { get; } | Возвращает[`SdtListItem`](../sdtlistitem/) объект, учитывая его индекс в коллекции, начинающийся с нуля. |
+| [SelectedValue](../../aspose.words.markup/sdtlistitemcollection/selectedvalue/) { get; set; } | Указывает текущее выбранное значение в этом списке. Допускается пустое значение, означающее, что ни одна текущая выбранная запись не связана с этой коллекцией элементов списка. |
 
 ## Методы
 
@@ -32,40 +32,40 @@ public class SdtListItemCollection : IEnumerable<SdtListItem>
 | --- | --- |
 | [Add](../../aspose.words.markup/sdtlistitemcollection/add/)(*[SdtListItem](../sdtlistitem/)*) | Добавляет элемент в эту коллекцию. |
 | [Clear](../../aspose.words.markup/sdtlistitemcollection/clear/)() | Удаляет все элементы из этой коллекции. |
-| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.markup/sdtlistitemcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.markup/sdtlistitemcollection/removeat/)(*int*) | Удаляет элемент списка по указанному индексу. |
 
 ## Примеры
 
-Показывает, как работать с тегами структурированных документов с раскрывающимся списком.
+Показывает, как работать с тегами документа, структурированными в виде раскрывающегося списка.
 
 ```csharp
 Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Тег структурированного документа с раскрывающимся списком — это форма, которая позволяет пользователю
-// выбираем вариант из списка, щелкнув левой кнопкой мыши и открыв форму в Microsoft Word.
-// Свойство «ListItems» содержит все элементы списка, и каждый элемент списка является «SdtListItem».
+// Тег документа со структурой раскрывающегося списка — это форма, которая позволяет пользователю
+// выберите вариант из списка, щелкнув левой кнопкой мыши и открыв форму в Microsoft Word.
+// Свойство "ListItems" содержит все элементы списка, а каждый элемент списка является "SdtListItem".
 SdtListItemCollection listItems = tag.ListItems;
 listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// Добавляем еще 3 элемента списка. Инициализируйте эти элементы, используя конструктор, отличный от первого элемента.
-// для отображения строк, отличных от их значений.
+// Добавить еще 3 элемента списка. Инициализируем эти элементы, используя другой конструктор для первого элемента
+// для отображения строк, которые отличаются от своих значений.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
 listItems.Add(new SdtListItem("Item 4", "Value 4"));
 
 Assert.AreEqual(4, listItems.Count);
 
-// В раскрывающемся списке отображается первый элемент. Назначьте другой элемент списка «SelectedValue», чтобы отобразить его.
+// Раскрывающийся список отображает первый элемент. Назначьте другой элемент списка "SelectedValue", чтобы отобразить его.
 listItems.SelectedValue = listItems[3];
 
 Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
 
-// Перебираем коллекцию и печатаем каждый элемент.
+// Перечислить коллекцию и вывести каждый элемент.
 using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -78,12 +78,12 @@ listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// Поскольку наш раскрывающийся список по умолчанию настроен на отображение удаленного элемента, дайте ему отображаемый элемент, который существует.
+// Поскольку наш раскрывающийся список по умолчанию настроен на отображение удаленного элемента, укажите для него существующий элемент для отображения.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// Используйте метод «Очистить», чтобы сразу очистить всю коллекцию раскрывающихся элементов.
+// Используйте метод «Очистить», чтобы очистить всю коллекцию раскрывающихся элементов одновременно.
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

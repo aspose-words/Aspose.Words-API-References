@@ -3,7 +3,7 @@ title: CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words для .NET
-description: CleanupOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор CleanupOptions для эффективного управления данными. Оптимизируйте свои процессы с помощью нашего конструктора по умолчанию для оптимальной производительности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/cleanupoptions/cleanupoptions/

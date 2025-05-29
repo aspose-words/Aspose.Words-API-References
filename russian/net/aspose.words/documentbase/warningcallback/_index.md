@@ -3,14 +3,14 @@ title: DocumentBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words для .NET
-description: DocumentBase WarningCallback свойство. Вызывается во время различных процедур обработки документов при обнаружении проблемы которая может привести к потере данных или точности форматирования на С#.
+description: Откройте для себя свойство DocumentBase WarningCallback, которое имеет решающее значение для обеспечения целостности данных во время обработки документов путем обнаружения потенциальных проблем форматирования.
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property
 
-Вызывается во время различных процедур обработки документов при обнаружении проблемы, которая может привести к потере данных или точности форматирования.
+Вызывается во время различных процедур обработки документов при обнаружении проблемы, которая может привести к потере точности данных или форматирования.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,11 +18,11 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Примечания
 
-Документ может генерировать предупреждения на любом этапе своего существования, поэтому важно настроить обратный вызов с предупреждением как как можно раньше, чтобы избежать потери предупреждений. Например, такие свойства, как[`PageCount`](../../document/pagecount/) фактически создает макет документа, который позже используется для рендеринга, и предупреждения о макете могут быть потеряны, если обратный вызов предупреждения указан только для вызовов рендеринга позже.
+Документ может генерировать предупреждения на любом этапе своего существования, поэтому важно настроить обратный вызов предупреждения as как можно раньше, чтобы избежать потери предупреждений. Например, такие свойства, как[`PageCount`](../../document/pagecount/) фактически создает макет документа, который позже используется для рендеринга, и предупреждения о макете могут быть потеряны, если обратный вызов предупреждения указан только для вызовов рендеринга позже.
 
 ## Примеры
 
-Показывает, как использовать интерфейс IWarningCallback для отслеживания предупреждений о подмене шрифтов.
+Показывает, как использовать интерфейс IWarningCallback для мониторинга предупреждений о замене шрифтов.
 
 ```csharp
 public void SubstitutionWarning()
@@ -40,10 +40,10 @@ public void SubstitutionWarning()
     // для которого мы не указываем другой источник шрифта.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // В целях тестирования мы настроим Aspose.Words искать шрифты только в несуществующей папке.
+    // В целях тестирования мы настроим Aspose.Words на поиск шрифтов только в несуществующей папке.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // При рендеринге документа шрифт Times New Roman найти будет негде.
+    // При отображении документа шрифт «Times New Roman» будет негде найти.
     // Это вызовет предупреждение о замене шрифта, которое обнаружит наш обратный вызов.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
@@ -52,7 +52,7 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -70,25 +70,25 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска наиболее близкого соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
+    // Открываем документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Назначаем обратный вызов для обработки предупреждений о замене шрифта.
+    // Назначаем обратный вызов для обработки предупреждений о замене шрифтов.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
+    // Задаем имя шрифта по умолчанию и включаем замену шрифта.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    // После замены шрифта следует использовать метрики исходного шрифта.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
@@ -107,7 +107,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

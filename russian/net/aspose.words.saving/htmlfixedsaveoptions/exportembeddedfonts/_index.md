@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedFonts
 linktitle: ExportEmbeddedFonts
 articleTitle: ExportEmbeddedFonts
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions ExportEmbeddedFonts свойство. Указывает должны ли шрифты быть встроены в HTMLдокумент в формате Base64. Обратите внимание что установка этого флага может значительно увеличить размер выходного HTMLфайла на С#.
+description: Управляйте внедрением шрифтов в HTML с помощью свойства ExportEmbeddedFonts. Улучшайте качество документа, эффективно управляя размером файла.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedFonts property
 
-Указывает, должны ли шрифты быть встроены в HTML-документ в формате Base64. Обратите внимание, что установка этого флага может значительно увеличить размер выходного HTML-файла.
+Указывает, следует ли встраивать шрифты в HTML-документ в формате Base64. Обратите внимание, что установка этого флага может значительно увеличить размер выходного HTML-файла.
 
 ```csharp
 public bool ExportEmbeddedFonts { get; set; }
@@ -18,7 +18,7 @@ public bool ExportEmbeddedFonts { get; set; }
 
 ## Примеры
 
-Показывает, как определить, где хранить встроенные шрифты при экспорте документа в Html.
+Показывает, как определить, где хранить встроенные шрифты при экспорте документа в HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -26,8 +26,8 @@ Document doc = new Document(MyDir + "Embedded font.docx");
 // Когда мы экспортируем документ со встроенными шрифтами в .html,
 // Aspose.Words может размещать шрифты в двух возможных местах.
 // Установка флага «ExportEmbeddedFonts» в значение «true» сохранит необработанные данные для встроенных шрифтов в таблице стилей CSS,
-// в свойстве "url" правила "@font-face". Это может создать огромный файл таблицы стилей CSS.
-// и уменьшите количество внешних файлов, которые создаст это преобразование HTML.
+// в свойстве "url" правила "@font-face". Это может создать огромный файл таблицы стилей CSS
+// и уменьшим количество внешних файлов, которые создаст это преобразование HTML.
 // Установка этого флага в значение «false» создаст файл для каждого шрифта.
 // Таблица стилей CSS будет ссылаться на каждый файл шрифта, используя свойство «url» правила «@font-face».
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions

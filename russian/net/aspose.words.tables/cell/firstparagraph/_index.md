@@ -3,14 +3,14 @@ title: Cell.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words для .NET
-description: Cell FirstParagraph свойство. Получает первый абзац среди ближайших дочерних элементов на С#.
+description: Откройте для себя свойство Cell FirstParagraph, которое позволяет легко получить доступ к первому абзацу из дочерних элементов, улучшая управление контентом.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.tables/cell/firstparagraph/
 ---
 ## Cell.FirstParagraph property
 
-Получает первый абзац среди ближайших дочерних элементов.
+Получает первый абзац среди непосредственных дочерних элементов.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## Примеры
 
-Показывает, как создать вложенную таблицу с помощью построителя документов.
+Показывает, как создать вложенную таблицу с помощью конструктора документов.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 builder.EndTable();
 
-// Переход к первой ячейке внешней таблицы, построение еще одной таблицы внутри ячейки.
+// Перейти к первой ячейке внешней таблицы, построить еще одну таблицу внутри ячейки.
 builder.MoveTo(cell.FirstParagraph);
 builder.InsertCell();
 builder.Writeln("Inner Table Cell 1");
@@ -42,7 +42,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertNestedTable.docx");
 ```
 
-Показывает, как построить вложенную таблицу без использования построителя документов.
+Показывает, как построить вложенную таблицу без использования конструктора документов.
 
 ```csharp
 public void CreateNestedTable()
@@ -53,7 +53,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Создайте еще одну таблицу с двумя строками и двумя столбцами, а затем вставьте ее в первую ячейку первой таблицы.
+    // Создаем еще одну таблицу с двумя строками и двумя столбцами, а затем вставляем ее в первую ячейку первой таблицы.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -61,7 +61,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Создает в документе новую таблицу с заданными размерами и текстом в каждой ячейке.
+/// Создает новую таблицу в документе с заданными размерами и текстом в каждой ячейке.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -82,10 +82,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Вы можете использовать свойства «Название» и «Описание», чтобы добавить в таблицу заголовок и описание соответственно.
-    // В таблице должна быть хотя бы одна строка, прежде чем мы сможем использовать эти свойства.
-    // Эти свойства имеют смысл для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
-    // Если мы сохраним документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
+    // Вы можете использовать свойства «Заголовок» и «Описание», чтобы добавить заголовок и описание к вашей таблице соответственно.
+    // Таблица должна иметь хотя бы одну строку, прежде чем мы сможем использовать эти свойства.
+    // Эти свойства имеют значение для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
+    // Если мы сохраняем документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.CssStyleSheetFileName
 linktitle: CssStyleSheetFileName
 articleTitle: CssStyleSheetFileName
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions CssStyleSheetFileName свойство. Указывает путь и имя файла каскадной таблицы стилей CSS записываемого при экспорте документа в HTML. По умолчанию  пустая строка на С#.
+description: Узнайте, как свойство HtmlSaveOptions CssStyleSheetFileName настраивает экспорт HTML с указанным путем к файлу CSS, улучшая стиль вашего документа.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 ---
 ## HtmlSaveOptions.CssStyleSheetFileName property
 
-Указывает путь и имя файла каскадной таблицы стилей (CSS), записываемого при экспорте документа в HTML. По умолчанию — пустая строка.
+Указывает путь и имя файла каскадной таблицы стилей (CSS), записанного при экспорте документа в HTML. По умолчанию — пустая строка.
 
 ```csharp
 public string CssStyleSheetFileName { get; set; }
@@ -18,38 +18,38 @@ public string CssStyleSheetFileName { get; set; }
 
 ## Примечания
 
-Это свойство действует только при сохранении документа в формате HTML и внешней таблице стилей CSS, запрашиваемой с помощью[`CssStyleSheetType`](../cssstylesheettype/).
+Это свойство действует только при сохранении документа в формате HTML и запросе внешней таблицы стилей CSS с использованием[`CssStyleSheetType`](../cssstylesheettype/).
 
-Если это свойство пусто, файл CSS будет сохранен в той же папке и с тем же именем, что и документ HTML , но с расширением «.css».
+Если это свойство пустое, CSS-файл будет сохранен в той же папке и с тем же именем, что и документ HTML , но с расширением «.css».
 
-Если в этом свойстве указан только путь, но не имя файла, файл CSS будет сохранен в папке указанной и будет иметь то же имя, что и документ HTML, но с расширением «.css».
+Если в этом свойстве указан только путь, но не указано имя файла, CSS-файл будет сохранен в папке selected и будет иметь то же имя, что и HTML-документ, но с расширением «.css».
 
-Если папка, указанная этим свойством, не существует, она будет создана автоматически перед сохранением файла CSS file .
+Если папка, указанная этим свойством, не существует, она будет создана автоматически перед сохранением CSS-файла .
 
-Другой способ указать папку, в которой сохраняется внешний файл CSS, — использовать[`ResourceFolder`](../resourcefolder/) .
+Другой способ указать папку, в которой сохраняется внешний CSS-файл, — использовать[`ResourceFolder`](../resourcefolder/) .
 
 ## Примеры
 
-Показывает, как работать с таблицами стилей CSS, создаваемыми преобразованием HTML.
+Показывает, как работать с таблицами стилей CSS, создаваемыми при преобразовании HTML.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Создаем объект HtmlFixedSaveOptions, который мы можем передать методу Save документа.
+    // Создаем объект "HtmlFixedSaveOptions", который можно передать методу "Save" документа
     // чтобы изменить способ преобразования документа в HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Установите для свойства «CssStylesheetType» значение «CssStyleSheetType.External», чтобы
-    // сопровождаем сохраненный HTML-документ внешним файлом таблицы стилей CSS.
+    // Установите свойство "CssStylesheetType" на "CssStyleSheetType.External" для
+    // сопроводить сохраненный HTML-документ внешним файлом таблицы стилей CSS.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Ниже приведены два способа указания каталогов и имен файлов для выходных таблиц стилей CSS.
-    // 1 — используйте свойство «CssStyleSheetFileName», чтобы присвоить имя файла нашей таблице стилей:
+    // 1 - Используйте свойство "CssStyleSheetFileName", чтобы назначить имя файла нашей таблице стилей:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 — Используйте собственный обратный вызов для присвоения имени нашей таблице стилей:
+    // 2 - Используйте пользовательский обратный вызов для присвоения имени нашей таблице стилей:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -57,7 +57,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Устанавливает собственное имя файла вместе с другими параметрами для внешней таблицы стилей CSS.
+/// Задает пользовательское имя файла, а также другие параметры для внешней таблицы стилей CSS.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {

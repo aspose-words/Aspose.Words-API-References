@@ -3,7 +3,7 @@ title: FieldPageRef
 linktitle: FieldPageRef
 articleTitle: FieldPageRef
 second_title: Aspose.Words для .NET
-description: FieldPageRef строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldPageRef — ваше решение для эффективного обращения к полям в кодировании. Упростите свой процесс разработки сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldpageref/fieldpageref/

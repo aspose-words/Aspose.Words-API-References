@@ -3,9 +3,9 @@ title: Paragraph.AppendField
 linktitle: AppendField
 articleTitle: AppendField
 second_title: Aspose.Words для .NET
-description: Paragraph AppendField метод. Добавляет поле к этому абзацу на С#.
+description: Улучшите свой документ с помощью метода Paragraph AppendField, легко добавляя пользовательские поля в абзацы для лучшей организации и ясности.
 type: docs
-weight: 240
+weight: 260
 url: /ru/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
@@ -18,7 +18,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| fieldType | FieldType | Тип добавляемого поля. |
+| fieldType | FieldType | Тип поля для добавления. |
 | updateField | Boolean | Указывает, следует ли немедленно обновить поле. |
 
 ### Возвращаемое значение
@@ -27,25 +27,25 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 ## Примеры
 
-Показывает различные способы добавления полей в абзац.
+Показаны различные способы добавления полей в абзац.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // Ниже приведены три способа добавления поля в конец абзаца.
-// 1 — добавить поле ДАТА, используя тип поля, а затем обновить его:
+// 1 — Добавить поле ДАТА, используя тип поля, а затем обновить его:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 — добавить поле ВРЕМЯ, используя код поля:
+ // 2 - Добавить поле ВРЕМЯ, используя код поля:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 — Добавьте поле ЦИТАТЫ, используя код поля, и заставьте его отображать значение заполнителя:
+// 3 - Добавьте поле QUOTE, используя код поля, и заставьте его отображать значение-заполнитель:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// В этом поле будет отображаться значение заполнителя, пока мы его не обновим.
+// Это поле будет отображать свое значение-заполнитель, пока мы его не обновим.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -81,25 +81,25 @@ public Field AppendField(string fieldCode)
 
 ## Примеры
 
-Показывает различные способы добавления полей в абзац.
+Показаны различные способы добавления полей в абзац.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // Ниже приведены три способа добавления поля в конец абзаца.
-// 1 — добавить поле ДАТА, используя тип поля, а затем обновить его:
+// 1 — Добавить поле ДАТА, используя тип поля, а затем обновить его:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 — добавить поле ВРЕМЯ, используя код поля:
+ // 2 - Добавить поле ВРЕМЯ, используя код поля:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 — Добавьте поле ЦИТАТЫ, используя код поля, и заставьте его отображать значение заполнителя:
+// 3 - Добавьте поле QUOTE, используя код поля, и заставьте его отображать значение-заполнитель:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// В этом поле будет отображаться значение заполнителя, пока мы его не обновим.
+// Это поле будет отображать свое значение-заполнитель, пока мы его не обновим.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -127,7 +127,7 @@ public Field AppendField(string fieldCode, string fieldValue)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fieldCode | String | Код поля для добавления (без фигурных скобок). |
-| fieldValue | String | Значение поля для добавления. Проходить`нулевой` для полей, которые не имеют значения. |
+| fieldValue | String | Значение поля для добавления. Пройти`нулевой` для полей, не имеющих значения. |
 
 ### Возвращаемое значение
 
@@ -135,25 +135,25 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 ## Примеры
 
-Показывает различные способы добавления полей в абзац.
+Показаны различные способы добавления полей в абзац.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // Ниже приведены три способа добавления поля в конец абзаца.
-// 1 — добавить поле ДАТА, используя тип поля, а затем обновить его:
+// 1 — Добавить поле ДАТА, используя тип поля, а затем обновить его:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 — добавить поле ВРЕМЯ, используя код поля:
+ // 2 - Добавить поле ВРЕМЯ, используя код поля:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 — Добавьте поле ЦИТАТЫ, используя код поля, и заставьте его отображать значение заполнителя:
+// 3 - Добавьте поле QUOTE, используя код поля, и заставьте его отображать значение-заполнитель:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// В этом поле будет отображаться значение заполнителя, пока мы его не обновим.
+// Это поле будет отображать свое значение-заполнитель, пока мы его не обновим.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);

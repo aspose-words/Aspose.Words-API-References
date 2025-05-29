@@ -3,14 +3,14 @@ title: PdfSaveOptions.ImageColorSpaceExportMode
 linktitle: ImageColorSpaceExportMode
 articleTitle: ImageColorSpaceExportMode
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions ImageColorSpaceExportMode свойство. Указывает как цветовое пространство будет выбрано для изображений в PDFдокументе на С#.
+description: Откройте для себя свойство PdfSaveOptions ImageColorSpaceExportMode, позволяющее оптимизировать выбор цвета изображения в ваших PDF-файлах для достижения потрясающего визуального качества и согласованности.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions.ImageColorSpaceExportMode property
 
-Указывает, как цветовое пространство будет выбрано для изображений в PDF-документе.
+Указывает, как будет выбрано цветовое пространство для изображений в документе PDF.
 
 ```csharp
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
@@ -20,13 +20,13 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 Значение по умолчанию:Auto .
 
-ЕслиSimpleCmyk указано значение, [`ImageCompression`](../imagecompression/) опция игнорируется и Flate-сжатие используется для всех изображений в документе.
+ЕслиSimpleCmyk значение указано, [`ImageCompression`](../imagecompression/) опция игнорируется и Для всех изображений в документе используется сжатие Flate.
 
-SimpleCmyk значение не поддерживается при сохранении в PDF/A. Auto Вместо этого будет использоваться значение.
+SimpleCmyk значение не поддерживается при сохранении в PDF/A. Auto Вместо этого будет использовано значение .
 
 ## Примеры
 
-Показывает, как установить другое цветовое пространство для изображений в документе при его экспорте в PDF.
+Показывает, как установить другое цветовое пространство для изображений в документе при экспорте его в PDF.
 
 ```csharp
 Document doc = new Document();
@@ -38,16 +38,16 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// Установите для свойства «ImageColorSpaceExportMode» значение «PdfImageColorSpaceExportMode.Auto», чтобы получить Aspose.Words для
+// Установите свойство "ImageColorSpaceExportMode" на "PdfImageColorSpaceExportMode.Auto", чтобы Aspose.Words
 // автоматически выбирает цветовое пространство для изображений в документе, который преобразуется в PDF.
 // В большинстве случаев цветовое пространство будет RGB.
-// Установите для свойства «ImageColorSpaceExportMode» значение «PdfImageColorSpaceExportMode.SimpleCmyk»
-// чтобы использовать цветовое пространство CMYK для всех изображений в сохраненном PDF-файле.
-// Aspose.Words также будет применять сжатие Flate ко всем изображениям и игнорировать значение свойства «ImageCompression».
+// Установите свойство "ImageColorSpaceExportMode" на "PdfImageColorSpaceExportMode.SimpleCmyk"
+// для использования цветового пространства CMYK для всех изображений в сохраненном PDF-файле.
+// Aspose.Words также применит сжатие Flate ко всем изображениям и проигнорирует значение свойства «ImageCompression».
 pdfSaveOptions.ImageColorSpaceExportMode = pdfImageColorSpaceExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveOptions);

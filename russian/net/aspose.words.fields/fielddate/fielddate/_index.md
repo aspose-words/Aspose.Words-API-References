@@ -3,7 +3,7 @@ title: FieldDate
 linktitle: FieldDate
 articleTitle: FieldDate
 second_title: Aspose.Words для .NET
-description: FieldDate строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldDate — ваше решение для эффективной обработки дат в программировании. Упростите свой код с помощью нашего интуитивно понятного конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddate/fielddate/

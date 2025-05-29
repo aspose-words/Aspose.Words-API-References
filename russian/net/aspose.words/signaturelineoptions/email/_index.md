@@ -3,14 +3,14 @@ title: SignatureLineOptions.Email
 linktitle: Email
 articleTitle: Email
 second_title: Aspose.Words для .NET
-description: SignatureLineOptions Email свойство. Получает или задает предполагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойствапустая строка Empty на С#.
+description: Управляйте предлагаемыми адресами электронной почты подписчиков без усилий с помощью SignatureLineOptions. Улучшите свой рабочий процесс электронной почты с помощью настраиваемых параметров для бесперебойной коммуникации.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Получает или задает предполагаемый адрес электронной почты подписывающего лица. Значение по умолчанию для этого свойства:**пустая строка** (Empty).
+Возвращает или задает адрес электронной почты предполагаемого подписчика. Значение по умолчанию для этого свойства:**пустая строка** (Empty ).
 
 ```csharp
 public string Email { get; set; }
@@ -18,7 +18,7 @@ public string Email { get; set; }
 
 ## Примеры
 
-Показывает, как подписать документ личным удостоверением и строкой подписи.
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
 
 ```csharp
 Document doc = new Document();
@@ -56,8 +56,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Снова открываем сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
-// указываем, что строка подписи содержит подпись.
+// Повторно откройте наш сохраненный документ и убедитесь, что свойства «IsSigned» и «IsValid» равны «true»,
+// указывая, что строка подписи содержит подпись.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

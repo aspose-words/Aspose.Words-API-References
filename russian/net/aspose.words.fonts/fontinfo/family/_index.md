@@ -3,14 +3,14 @@ title: FontInfo.Family
 linktitle: Family
 articleTitle: Family
 second_title: Aspose.Words для .NET
-description: FontInfo Family свойство. Получает или задает семейство шрифтов к которому принадлежит этот шрифт на С#.
+description: Откройте для себя свойство FontInfo Family, позволяющее легко управлять параметрами семейства шрифтов и настраивать их для повышения гибкости и стиля дизайна.
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
 
-Получает или задает семейство шрифтов, к которому принадлежит этот шрифт.
+Возвращает или задает семейство шрифтов, к которому принадлежит этот шрифт.
 
 ```csharp
 public FontFamily Family { get; set; }
@@ -18,7 +18,7 @@ public FontFamily Family { get; set; }
 
 ## Примеры
 
-Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
+Показывает, как получить доступ к сведениям о каждом шрифте в документе и распечатать их.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Альтернативные имена обычно пусты.
+        // Альтернативные имена обычно пустые.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

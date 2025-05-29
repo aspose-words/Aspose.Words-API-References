@@ -3,7 +3,7 @@ title: FontInfoCollection.EmbedSystemFonts
 linktitle: EmbedSystemFonts
 articleTitle: EmbedSystemFonts
 second_title: Aspose.Words для .NET
-description: FontInfoCollection EmbedSystemFonts свойство. Указывает следует ли встраивать системные шрифты в документ. Значение по умолчанию для этого свойстваЛОЖЬ на С#.
+description: Узнайте, как свойство FontInfoCollection EmbedSystemFonts улучшает ваши документы путем внедрения системных шрифтов. Узнайте его значение по умолчанию и преимущества!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
@@ -20,7 +20,7 @@ public bool EmbedSystemFonts { get; set; }
 
 ## Примечания
 
-Установка этого свойства в`истинный`полезно, если пользователь находится в восточноазиатской системе и хочет создать документ, который будет доступен для чтения другим пользователям, у которых нет шрифтов для этого языка в их системе. Например, пользователь японской системы может выбрать встраивание шрифтов the в документ, чтобы японский документ можно было читать во всех системах.
+Установка этого свойства в`истинный` полезно, если пользователь находится в восточноазиатской системе и хочет создать документ, который будет доступен для чтения другим пользователям, у которых нет шрифтов для этого языка в их системе. Например, пользователь японской системы может выбрать встраивание шрифтов в документ, чтобы японский документ можно было прочитать во всех системах.
 
 Эта опция работает только для форматов DOC, DOCX и RTF.
 
@@ -37,11 +37,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Смотрите также

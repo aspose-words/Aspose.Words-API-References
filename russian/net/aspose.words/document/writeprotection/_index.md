@@ -3,9 +3,9 @@ title: Document.WriteProtection
 linktitle: WriteProtection
 articleTitle: WriteProtection
 second_title: Aspose.Words для .NET
-description: Document WriteProtection свойство. Предоставляет доступ к параметрам защиты документа от записи на С#.
+description: Изучите свойство Document WriteProtection, чтобы легко управлять параметрами защиты документа от записи и повысить безопасность.
 type: docs
-weight: 500
+weight: 520
 url: /ru/net/aspose.words/document/writeprotection/
 ---
 ## Document.WriteProtection property
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Защита не предотвращает программное редактирование документа и не шифрует его содержимое.
+// Защита не препятствует программному редактированию документа и не шифрует его содержимое.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

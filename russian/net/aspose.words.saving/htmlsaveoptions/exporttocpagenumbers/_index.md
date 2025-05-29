@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportTocPageNumbers
 linktitle: ExportTocPageNumbers
 articleTitle: ExportTocPageNumbers
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportTocPageNumbers свойство. Указывает записывать ли номера страниц в оглавление при сохранении HTML MHTML и EPUB. Значение по умолчаниюЛОЖЬ  на С#.
+description: Управляйте номерами страниц TOC в экспортах HTML, MHTML и EPUB с помощью HtmlSaveOptions. Улучшайте навигацию и пользовательский опыт без усилий!
 type: docs
 weight: 270
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property
 
-Указывает, записывать ли номера страниц в оглавление при сохранении HTML, MHTML и EPUB. Значение по умолчанию:`ЛОЖЬ` .
+Указывает, следует ли записывать номера страниц в оглавление при сохранении HTML, MHTML и EPUB. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ExportTocPageNumbers { get; set; }
@@ -24,8 +24,8 @@ public bool ExportTocPageNumbers { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем оглавление, а затем заполняем документ абзацами, отформатированными с использованием «Заголовка»
-// стиль, который оглавление будет воспринимать как записи. Для каждой записи слева будет отображаться абзац заголовка.
+// Вставьте оглавление, а затем заполните документ абзацами, отформатированными с помощью «Заголовка»
+// стиль, который оглавление подберет как записи. Каждая запись будет отображать заголовок абзаца слева,
 // и номер страницы, содержащей заголовок справа.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
@@ -41,12 +41,12 @@ fieldToc.UpdatePageNumbers();
 doc.UpdateFields();
 
 // HTML-документы не имеют страниц. Если мы сохраним этот документ в HTML,
-// номера страниц, отображаемые нашим оглавлением, не будут иметь значения.
-// Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions, чтобы исключить эти номера страниц из оглавления.
-// Если мы установим флаг «ExportTocPageNumbers» в значение «true»,
-// каждая запись оглавления будет отображать заголовок, разделитель и номер страницы, сохраняя свой внешний вид в Microsoft Word.
-// Если мы установим флаг «ExportTocPageNumbers» в значение «false»,
-// операция сохранения пропустит разделитель и номер страницы и оставит заголовок для каждой записи нетронутым.
+// номера страниц, отображаемые в нашем оглавлении, не будут иметь никакого значения.
+// При сохранении документа в формате HTML мы можем передать объект SaveOptions, чтобы исключить эти номера страниц из оглавления.
+// Если мы установим флаг "ExportTocPageNumbers" на "true",
+// каждая запись оглавления будет отображать заголовок, разделитель и номер страницы, сохраняя ее внешний вид в Microsoft Word.
+// Если мы установим флаг "ExportTocPageNumbers" на "false",
+// операция сохранения исключит и разделитель, и номер страницы, а заголовок каждой записи останется нетронутым.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportTocPageNumbers = exportTocPageNumbers };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportTocPageNumbers.html", options);

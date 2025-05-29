@@ -3,7 +3,7 @@ title: BorderCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words для .NET
-description: BorderCollection ClearFormatting метод. Удаляет все границы объекта на С#.
+description: Узнайте, как метод BorderCollection ClearFormatting без труда удаляет все границы объектов, улучшая ваш дизайн с помощью чистых и четких визуальных эффектов.
 type: docs
 weight: 140
 url: /ru/net/aspose.words/bordercollection/clearformatting/

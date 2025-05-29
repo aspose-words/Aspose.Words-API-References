@@ -3,7 +3,7 @@ title: ParagraphFormat.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words для .NET
-description: ParagraphFormat Borders свойство. Получает коллекцию границ абзаца на С#.
+description: Откройте для себя свойство ParagraphFormat Borders, которое позволяет легко управлять границами абзацев и настраивать их, улучшая эстетику и читабельность документа.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/paragraphformat/borders/
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Устанавливаем ThemeColor только в том случае, если установлены LineWidth или LineStyle.
+// Устанавливайте ThemeColor только при установке LineWidth или LineStyle.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

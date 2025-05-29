@@ -3,14 +3,14 @@ title: FieldIncludePicture.ResizeVertically
 linktitle: ResizeVertically
 articleTitle: ResizeVertically
 second_title: Aspose.Words для .NET
-description: FieldIncludePicture ResizeVertically свойство. Получает или задает необходимость изменения размера изображения по вертикали из источника на С#.
+description: Узнайте, как свойство ResizeVertically объекта FieldIncludePicture улучшает управление изображениями, позволяя изменять размер по вертикали для оптимального отображения.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Получает или задает необходимость изменения размера изображения по вертикали из источника.
+Возвращает или задает, следует ли изменять размер изображения по вертикали от источника.
 
 ```csharp
 public bool ResizeVertically { get; set; }

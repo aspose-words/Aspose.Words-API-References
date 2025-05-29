@@ -3,14 +3,14 @@ title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
 second_title: Aspose.Words для .NET
-description: DocumentBuilder Writeln метод. Вставляет в документ строку и разрыв абзаца на С#.
+description: Улучшайте свои документы без особых усилий с помощью метода Writeln в DocumentBuilder — вставляйте текст и разрывы абзацев без проблем для улучшения читабельности.
 type: docs
-weight: 660
+weight: 700
 url: /ru/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}
 
-Вставляет в документ строку и разрыв абзаца.
+Вставляет строку и разрыв абзаца в документ.
 
 ```csharp
 public void Writeln(string text)
@@ -18,15 +18,15 @@ public void Writeln(string text)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Строка, которую нужно вставить в документ. |
+| text | String | Строка для вставки в документ. |
 
 ## Примечания
 
-Текущий шрифт и форматирование абзацев, заданное[`Font`](../font/) и[`ParagraphFormat`](../paragraphformat/) используются свойства.
+Текущий шрифт и форматирование абзаца, заданные[`Font`](../font/) и[`ParagraphFormat`](../paragraphformat/) используются свойства.
 
 ## Примеры
 
-Показывает, как построить форматированную таблицу 2x2.
+Показывает, как построить отформатированную таблицу 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// При построении таблицы построитель документов будет применять текущие значения свойств RowFormat/CellFormat
-// к текущей строке/ячейке, в которой находится курсор, и к любым новым строкам/ячейкам по мере их создания.
+// При построении таблицы конструктор документов применит текущие значения свойств RowFormat/CellFormat
+// к текущей строке/ячейке, в которой находится курсор, и ко всем новым строкам/ячейкам по мере их создания.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Ранее добавленные строки и ячейки не имеют обратной силы при изменении форматирования построителя.
+// Изменения в форматировании конструктора не влияют на ранее добавленные строки и ячейки.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -77,7 +77,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 ## Writeln() {#writeln}
 
-Вставляет в документ разрыв абзаца.
+Вставляет разрыв абзаца в документ.
 
 ```csharp
 public void Writeln()
@@ -95,11 +95,11 @@ public void Writeln()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Указываем, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
+// Укажите, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
+// Создаем заголовки, затем добавляем в документ три страницы для отображения каждого типа заголовков.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

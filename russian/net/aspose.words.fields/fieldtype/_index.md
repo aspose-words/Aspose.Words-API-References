@@ -3,9 +3,9 @@ title: FieldType Enum
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldType перечисление. Указывает типы полей Microsoft Word на С#.
+description: Откройте для себя перечисление Aspose.Words.Fields.FieldType для эффективного управления типами полей Microsoft Word и улучшения автоматизации документов.
 type: docs
-weight: 2540
+weight: 2950
 url: /ru/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -32,16 +32,16 @@ public enum FieldType
 | FieldAutoNumOutline | `52` | Указывает поле AUTONUMOUT. |
 | FieldAutoText | `79` | Указывает поле АВТОТЕКСТ. |
 | FieldAutoTextList | `89` | Указывает поле AUTOTEXTLIST. |
-| FieldBarcode | `63` | Указывает поле Штрих-кода. |
+| FieldBarcode | `63` | Указывает поле BARCODE. |
 | FieldBibliography | `100500` | Указывает поле БИБЛИОГРАФИЯ. |
 | FieldBidiOutline | `92` | Указывает поле BIDIOUTLINE. |
-| FieldCitation | `1980` | Указывает поле CITATION. |
-| FieldComments | `19` | Определяет поле КОММЕНТАРИЙ. |
-| FieldCompare | `80` | Указывает поле СРАВНЕНИЕ. |
+| FieldCitation | `1980` | Указывает поле ЦИТАТА. |
+| FieldComments | `19` | Указывает поле КОММЕНТАРИИ. |
+| FieldCompare | `80` | Указывает поле СРАВНИТЬ. |
 | FieldCreateDate | `21` | Указывает поле CREATEDATE. |
-| FieldData | `40` | Указывает поле ДАННЫХ. |
-| FieldDatabase | `78` | Указывает поле БАЗЫ ДАННЫХ. |
-| FieldDate | `31` | Указывает поле ДАТЫ. |
+| FieldData | `40` | Указывает поле ДАННЫЕ. |
+| FieldDatabase | `78` | Указывает поле БАЗА ДАННЫХ. |
+| FieldDate | `31` | Указывает поле ДАТА. |
 | FieldDDE | `45` | Указывает поле DDE. |
 | FieldDisplayBarcode | `6301` | Указывает поле DISPLAYBARCODE. |
 | FieldMergeBarcode | `6302` | Указывает поле MERGEBARCODE. |
@@ -50,7 +50,7 @@ public enum FieldType
 | FieldDocVariable | `64` | Указывает поле DOCVARIABLE. |
 | FieldEditTime | `25` | Указывает поле EDITTIME. |
 | FieldEmbed | `58` | Указывает поле EMBED. |
-| FieldEquation | `49` | Определяет поле эквалайзера. |
+| FieldEquation | `49` | Указывает поле эквалайзера. |
 | FieldFileName | `29` | Указывает поле FILENAME. |
 | FieldFileSize | `69` | Указывает поле FILESIZE. |
 | FieldFillIn | `39` | Указывает поле FILLIN. |
@@ -63,7 +63,7 @@ public enum FieldType
 | FieldGlossary | `47` | Указывает поле ГЛОССАРИЙ. |
 | FieldGoToButton | `50` | Указывает поле GOTOBUTTON. |
 | FieldHtmlActiveX | `91` | Указывает поле, представляющее элемент управления HTML. |
-| FieldHyperlink | `88` | Указывает поле ГИПЕРССЫЛКИ. |
+| FieldHyperlink | `88` | Указывает поле ГИПЕРССЫЛКА. |
 | FieldIf | `7` | Указывает поле IF. |
 | FieldInclude | `36` | Указывает поле INCLUDE. |
 | FieldIncludePicture | `67` | Указывает поле INCLUDEPICTURE. |
@@ -74,42 +74,42 @@ public enum FieldType
 | FieldImport | `55` | Указывает поле ИМПОРТ. |
 | FieldKeyword | `18` | Указывает поле КЛЮЧЕВЫЕ СЛОВА. |
 | FieldLastSavedBy | `20` | Указывает поле LASTSAVEDBY. |
-| FieldLink | `56` | Указывает поле LINK. |
+| FieldLink | `56` | Указывает поле ССЫЛКА. |
 | FieldListNum | `90` | Указывает поле LISTNUM. |
 | FieldMacroButton | `51` | Указывает поле MACROBUTTON. |
 | FieldMergeField | `59` | Указывает поле MERGEFIELD. |
 | FieldMergeRec | `44` | Указывает поле MERGEREC. |
 | FieldMergeSeq | `75` | Указывает поле MERGESEQ. |
-| FieldNext | `41` | Указывает СЛЕДУЮЩЕЕ поле. |
+| FieldNext | `41` | Указывает следующее поле. |
 | FieldNextIf | `42` | Указывает поле NEXTIF. |
-| FieldNoteRef | `72` | Указывает поле ПРИМЕЧАНИЕ. |
+| FieldNoteRef | `72` | Указывает поле NOTEREF. |
 | FieldNumChars | `28` | Указывает поле NUMCHARS. |
 | FieldNumPages | `26` | Указывает поле NUMPAGES. |
 | FieldNumWords | `27` | Указывает поле NUMWORDS. |
 | FieldOcx | `87` | Указывает поле OCX. |
 | FieldPage | `33` | Указывает поле СТРАНИЦА. |
 | FieldPageRef | `37` | Указывает поле PAGEREF. |
-| FieldPrint | `48` | Определяет поле ПЕЧАТИ. |
+| FieldPrint | `48` | Указывает поле ПЕЧАТЬ. |
 | FieldPrintDate | `23` | Указывает поле PRINTDATE. |
-| FieldPrivate | `77` | Указывает ЧАСТНОЕ поле. |
-| FieldQuote | `35` | Указывает поле ЦИТАТЫ. |
+| FieldPrivate | `77` | Указывает поле PRIVATE. |
+| FieldQuote | `35` | Указывает поле ЦИТАТА. |
 | FieldRef | `3` | Указывает поле REF. |
-| FieldRefNoKeyword | `2` | Указывает, что поле представляет собой поле REF, в котором ключевое слово опущено. |
+| FieldRefNoKeyword | `2` | Указывает, что поле представляет собой поле REF, в котором ключевое слово было пропущено. |
 | FieldRefDoc | `11` | Указывает поле RD. |
 | FieldRevisionNum | `24` | Указывает поле REVNUM. |
-| FieldSaveDate | `22` | Указывает поле SAVEDATE. |
-| FieldSection | `65` | Указывает поле РАЗДЕЛА. |
+| FieldSaveDate | `22` | Указывает поле СОХРАНЕННАЯ ДАТА. |
+| FieldSection | `65` | Указывает поле РАЗДЕЛ. |
 | FieldSectionPages | `66` | Указывает поле SECTIONPAGES. |
 | FieldSequence | `12` | Указывает поле SEQ. |
 | FieldSet | `6` | Указывает поле SET. |
 | FieldShape | `95` | Указывает поле SHAPE. |
 | FieldSkipIf | `43` | Указывает поле SKIPIF. |
 | FieldStyleRef | `10` | Указывает поле STYLEREF. |
-| FieldSubject | `16` | Указывает поле ТЕМА. |
+| FieldSubject | `16` | Указывает поле SUBJECT. |
 | FieldSymbol | `57` | Указывает поле СИМВОЛ. |
 | FieldTemplate | `30` | Указывает поле ШАБЛОН. |
 | FieldTime | `32` | Указывает поле ВРЕМЯ. |
-| FieldTitle | `15` | Указывает поле TITLE. |
+| FieldTitle | `15` | Указывает поле НАЗВАНИЕ. |
 | FieldTOA | `73` | Указывает поле TOA. |
 | FieldTOAEntry | `74` | Указывает поле TA. |
 | FieldTOC | `13` | Указывает поле TOC. |
@@ -120,7 +120,7 @@ public enum FieldType
 
 ## Примеры
 
-Показывает, как вставить поле в документ с помощью кода поля.
+Показывает, как вставить поле в документ, используя код поля.
 
 ```csharp
 Document doc = new Document();
@@ -132,7 +132,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // Эта перегрузка метода InsertField автоматически обновляет вставленные поля.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 Показывает, как работать с узлом FieldStart.
@@ -151,13 +151,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Получаем фасадный объект, который представляет поле в документе.
+// Извлекаем объект фасада, представляющий поле в документе.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Обновляем поле, чтобы оно отображало текущую дату.
+// Обновите поле, чтобы отобразить текущую дату.
 field.Update();
 ```
 

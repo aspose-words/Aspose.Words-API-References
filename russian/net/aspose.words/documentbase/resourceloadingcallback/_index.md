@@ -3,9 +3,9 @@ title: DocumentBase.ResourceLoadingCallback
 linktitle: ResourceLoadingCallback
 articleTitle: ResourceLoadingCallback
 second_title: Aspose.Words для .NET
-description: DocumentBase ResourceLoadingCallback свойство. Позволяет контролировать загрузку внешних ресурсов на С#.
+description: Оптимизируйте DocumentBase с помощью свойства ResourceLoadingCallback для эффективного управления загрузкой внешних ресурсов. Повысьте производительность сегодня!
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words/documentbase/resourceloadingcallback/
 ---
 ## DocumentBase.ResourceLoadingCallback property
@@ -28,7 +28,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Изображения обычно вставляются с использованием URI или массива байтов.
+    // Изображения обычно вставляются с помощью URI или байтового массива.
     // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -40,8 +40,8 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
+/// Позволяет загружать изображения в документ, используя предопределенные сокращения, а не URI.
+/// Это отделит логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

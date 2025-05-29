@@ -3,7 +3,7 @@ title: FontSettings.GetFontsSources
 linktitle: GetFontsSources
 articleTitle: GetFontsSources
 second_title: Aspose.Words для .NET
-description: FontSettings GetFontsSources метод. Получает копию массива содержащего список источников в которых Aspose.Words ищет шрифты TrueType на С#.
+description: Откройте для себя метод FontSettings GetFontsSources для легкого доступа к массиву источников для шрифтов TrueType в Aspose.Words. Оптимизируйте управление шрифтами сегодня!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fonts/fontsettings/getfontssources/
@@ -18,15 +18,15 @@ public FontSourceBase[] GetFontsSources()
 
 ### Возвращаемое значение
 
-Копия текущих источников шрифтов.
+Копия текущих исходных шрифтов.
 
 ## Примечания
 
-Возвращаемое значение является копией данных, которые использует Aspose.Words. Если вы измените elements в возвращаемом массиве, это не повлияет на рендеринг документа. Чтобы указать новый шрифт source , используйте команду[`SetFontsSources`](../setfontssources/) метод.
+Возвращаемое значение является копией данных, которые использует Aspose.Words. Если вы измените entry в возвращаемом массиве, это не повлияет на рендеринг документа. Чтобы указать новый шрифт sources , используйте[`SetFontsSources`](../setfontssources/) метод.
 
 ## Примеры
 
-Показывает, как добавить источник шрифта к существующим источникам шрифтов.
+Показывает, как добавить источник шрифтов к существующим источникам шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
 // В источнике шрифтов по умолчанию отсутствуют два шрифта, которые мы используем в нашем документе.
-// Когда мы сохраним этот документ, Aspose.Words применит резервные шрифты ко всему тексту, отформатированному с использованием недоступных шрифтов.
+// При сохранении этого документа Aspose.Words применит резервные шрифты ко всему тексту, отформатированному недоступными шрифтами.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
@@ -57,7 +57,7 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// Убедитесь, что Aspose.Words имеет доступ ко всем необходимым шрифтам, прежде чем мы преобразуем документ в PDF.
+// Убедитесь, что Aspose.Words имеет доступ ко всем необходимым шрифтам, прежде чем преобразовывать документ в PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -66,7 +66,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// Восстанавливаем исходные источники шрифтов.
+// Восстановить исходные источники шрифтов.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

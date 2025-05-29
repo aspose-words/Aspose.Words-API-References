@@ -3,9 +3,9 @@ title: Document.ShowGrammaticalErrors
 linktitle: ShowGrammaticalErrors
 articleTitle: ShowGrammaticalErrors
 second_title: Aspose.Words для .NET
-description: Document ShowGrammaticalErrors свойство. Указывает отображать ли грамматические ошибки в этом документе на С#.
+description: Контролируйте видимость грамматических ошибок в документе с помощью свойства ShowGrammaticalErrors. Улучшайте ясность и профессионализм письма без усилий.
 type: docs
-weight: 390
+weight: 410
 url: /ru/net/aspose.words/document/showgrammaticalerrors/
 ---
 ## Document.ShowGrammaticalErrors property
@@ -24,13 +24,13 @@ public bool ShowGrammaticalErrors { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем два предложения с ошибками, которые будут обнаружены
+// Вставьте два предложения с ошибками, которые будут учтены
 // средствами проверки орфографии и грамматики в Microsoft Word.
 builder.Writeln("There is a speling error in this sentence.");
 builder.Writeln("Their is a grammatical error in this sentence.");
 
-// Если эти опции включены, то орфографические ошибки будут подчеркнуты
-// в выходном документе зубчатой красной линией, а двойная синяя линия будет выделять грамматические ошибки.
+// Если эти параметры включены, то орфографические ошибки будут подчеркнуты
+// в выходном документе неровной красной линией, а двойная синяя линия будет выделять грамматические ошибки.
 doc.ShowGrammaticalErrors = showErrors;
 doc.ShowSpellingErrors = showErrors;
 

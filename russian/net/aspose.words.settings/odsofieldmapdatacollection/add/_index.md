@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapDataCollection Add метод. Добавляет объект в конец этой коллекции на С#.
+description: Легко улучшите управление данными с помощью метода OdsoFieldMapDataCollection Add, разработанного для беспрепятственного добавления объектов в вашу коллекцию.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +18,7 @@ public int Add(OdsoFieldMapData value)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| value | OdsoFieldMapData | Объект, который нужно добавить. Не может быть`нулевой`. |
+| value | OdsoFieldMapData | Объект для добавления. Не может быть`нулевой`. |
 
 ## Примеры
 
@@ -49,7 +49,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

@@ -3,14 +3,14 @@ title: Stroke.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words для .NET
-description: Stroke LineStyle свойство. Определяет стиль линии обводки на С#.
+description: Откройте для себя свойство Stroke LineStyle, чтобы настроить свой дизайн с помощью уникальных стилей линий для обводки, повышающих визуальную привлекательность вашего проекта.
 type: docs
-weight: 130
+weight: 180
 url: /ru/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
 
-Определяет стиль линии обводки.
+Определяет стиль линии штриха.
 
 ```csharp
 public ShapeLineStyle LineStyle { get; set; }
@@ -22,7 +22,7 @@ public ShapeLineStyle LineStyle { get; set; }
 
 ## Примеры
 
-Показывает, как изменить свойства обводки.
+Показывает, как изменить свойства штриха.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Базовые фигуры, такие как прямоугольник, состоят из двух видимых частей.
-// 1 - Заливка, которая применяется к области внутри контура фигуры:
+// 1 — Заливка, которая применяется к области внутри контура фигуры:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Обводка, обозначающая контур фигуры:
+// 2 - Штрих, обозначающий контур фигуры:
 // Измените различные свойства обводки этой фигуры.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

@@ -3,14 +3,14 @@ title: Table.StyleOptions
 linktitle: StyleOptions
 articleTitle: StyleOptions
 second_title: Aspose.Words для .NET
-description: Table StyleOptions свойство. Получает или устанавливает битовые флаги определяющие как стиль таблицы применяется к этой таблице на С#.
+description: Откройте для себя свойство Table StyleOptions, чтобы настроить внешний вид вашей таблицы с помощью гибких битовых флагов. Улучшите стиль вашей таблицы без усилий!
 type: docs
 weight: 300
 url: /ru/net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property
 
-Получает или устанавливает битовые флаги, определяющие, как стиль таблицы применяется к этой таблице.
+Возвращает или задает битовые флаги, которые определяют, как стиль таблицы применяется к этой таблице.
 
 ```csharp
 public TableStyleOptions StyleOptions { get; set; }
@@ -18,21 +18,21 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ## Примеры
 
-Показывает, как построить новую таблицу с применением стиля.
+Показывает, как создать новую таблицу, применяя стиль.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Мы должны вставить хотя бы одну строку, прежде чем устанавливать какое-либо форматирование таблицы.
+// Перед настройкой форматирования таблицы необходимо вставить хотя бы одну строку.
 builder.InsertCell();
 
-// Установите используемый стиль таблицы на основе идентификатора стиля.
+// Устанавливаем используемый стиль таблицы на основе идентификатора стиля.
 // Обратите внимание, что не все стили таблиц доступны при сохранении в формате .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Частично применить стиль к функциям таблицы на основе предикатов, затем построить таблицу.
+// Частично применяем стиль к признакам таблицы на основе предикатов, затем создаем таблицу.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

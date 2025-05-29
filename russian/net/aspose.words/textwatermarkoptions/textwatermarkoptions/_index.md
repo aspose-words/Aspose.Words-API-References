@@ -3,7 +3,7 @@ title: TextWatermarkOptions
 linktitle: TextWatermarkOptions
 articleTitle: TextWatermarkOptions
 second_title: Aspose.Words для .NET
-description: TextWatermarkOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор TextWatermarkOptions для бесшовной настройки водяных знаков. Разблокируйте настройки по умолчанию для повышения гибкости дизайна и креативности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/textwatermarkoptions/textwatermarkoptions/

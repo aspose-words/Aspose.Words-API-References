@@ -3,9 +3,9 @@ title: Font.Size
 linktitle: Size
 articleTitle: Size
 second_title: Aspose.Words для .NET
-description: Font Size свойство. Получает или задает размер шрифта в пунктах на С#.
+description: Легко настройте размер шрифта с помощью свойства Font Size. Настройте текст в пунктах для улучшения читаемости и привлекательности дизайна.
 type: docs
-weight: 340
+weight: 350
 url: /ru/net/aspose.words/font/size/
 ---
 ## Font.Size property
@@ -18,7 +18,7 @@ public double Size { get; set; }
 
 ## Примеры
 
-Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
+Показывает, как отформатировать фрагмент текста, используя его свойство шрифта.
 
 ```csharp
 Document doc = new Document();

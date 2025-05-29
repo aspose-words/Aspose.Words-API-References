@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.UseTargetMachineFonts
 linktitle: UseTargetMachineFonts
 articleTitle: UseTargetMachineFonts
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions UseTargetMachineFonts свойство. Флаг указывает необходимо ли использовать шрифты с целевого компьютера для отображения документа. Если этот флаг установлен в значениеистинный FontFormat иExportEmbeddedFonts свойства не имеют эффекта такжеResourceSavingCallback не запускается для шрифтов. По умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство UseTargetMachineFonts в HtmlFixedSaveOptions улучшает отображение документа, используя шрифты целевой машины. Оптимизируйте управление шрифтами сегодня!
 type: docs
-weight: 190
+weight: 210
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Флаг указывает, необходимо ли использовать шрифты с целевого компьютера для отображения документа. Если этот флаг установлен в значение`истинный` ,[`FontFormat`](../fontformat/) и[`ExportEmbeddedFonts`](../exportembeddedfonts/) свойства не имеют эффекта, также[`ResourceSavingCallback`](../resourcesavingcallback/) не запускается для шрифтов. По умолчанию`ЛОЖЬ` .
+Флаг указывает, должны ли использоваться шрифты с целевой машины для отображения документа. Если этот флаг установлен в`истинный` ,[`FontFormat`](../fontformat/) и[`ExportEmbeddedFonts`](../exportembeddedfonts/) свойства не имеют эффекта, также[`ResourceSavingCallback`](../resourcesavingcallback/) не запускается для шрифтов. По умолчанию`ЛОЖЬ` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -18,7 +18,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ## Примеры
 
-Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в HTML.
+Показывает, как использовать шрифты только с целевого компьютера при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

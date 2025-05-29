@@ -3,14 +3,14 @@ title: RevisionGroup.RevisionType
 linktitle: RevisionType
 articleTitle: RevisionType
 second_title: Aspose.Words для .NET
-description: RevisionGroup RevisionType свойство. Получает тип редакций включенных в эту группу на С#.
+description: Откройте для себя свойство RevisionGroup RevisionType, чтобы легко определять и управлять типами ревизий в вашем проекте. Оптимизируйте свой рабочий процесс сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words/revisiongroup/revisiontype/
 ---
 ## RevisionGroup.RevisionType property
 
-Получает тип редакций, включенных в эту группу.
+Получает тип ревизий, включенных в эту группу.
 
 ```csharp
 public RevisionType RevisionType { get; }
@@ -18,7 +18,7 @@ public RevisionType RevisionType { get; }
 
 ## Примеры
 
-Показывает, как распечатать информацию о группе редакций в документе.
+Показывает, как распечатать информацию о группе ревизий в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

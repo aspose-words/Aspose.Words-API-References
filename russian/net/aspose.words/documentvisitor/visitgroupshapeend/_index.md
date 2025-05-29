@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitGroupShapeEnd
 linktitle: VisitGroupShapeEnd
 articleTitle: VisitGroupShapeEnd
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitGroupShapeEnd метод. Вызывается когда перечисление формы группы завершено на С#.
+description: Откройте для себя метод DocumentVisitor VisitGroupShapeEnd, который эффективно сигнализирует об окончании перечисления групповых фигур для бесперебойной обработки документов.
 type: docs
 weight: 260
 url: /ru/net/aspose.words/documentvisitor/visitgroupshapeend/
 ---
 ## DocumentVisitor.VisitGroupShapeEnd method
 
-Вызывается, когда перечисление формы группы завершено.
+Вызывается, когда перечисление групповой фигуры завершено.
 
 ```csharp
 public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| groupShape | GroupShape | Объект, который посещается. |
+| groupShape | GroupShape | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Если вам нужно создать «NonPrimitive» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // используйте методы DocumentBuilder.InsertShape.
+    // Если вам нужно создать «непримитивные» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // ВерхниеУглыОдинЗакругленныйОдинОбрезанный, ОдинЗакругленныйУгол, ВерхниеУглыЗакругленные, ДиагональныеУглыЗакругленные
+    // пожалуйста, используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Выводит на консоль содержимое посещенной группы фигур.
+/// Выводит содержимое посещенной группы фигур на консоль.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

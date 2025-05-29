@@ -3,14 +3,14 @@ title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
 second_title: Aspose.Words для .NET
-description: HyphenationOptions AutoHyphenation свойство. Получает или задает значение определяющее включена ли автоматическая расстановка переносов для документа. Значение по умолчанию для этого свойстваЛОЖЬ  на С#.
+description: Управляйте автоматическими переносами с помощью свойства HyphenationOptions. Легко повышайте читабельность документа, включая или отключая эту функцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Получает или задает значение, определяющее, включена ли автоматическая расстановка переносов для документа. Значение по умолчанию для этого свойства:`ЛОЖЬ` .
+Возвращает или задает значение, определяющее, включена ли автоматическая расстановка переносов для документа. Значение по умолчанию для этого свойства:`ЛОЖЬ` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }

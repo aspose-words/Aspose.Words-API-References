@@ -3,14 +3,14 @@ title: FieldImport.GraphicFilter
 linktitle: GraphicFilter
 articleTitle: GraphicFilter
 second_title: Aspose.Words для .NET
-description: FieldImport GraphicFilter свойство. Получает или задает имя фильтра для формата вставляемого изображения на С#.
+description: Откройте для себя свойство FieldImport GraphicFilter, позволяющее легко устанавливать или извлекать фильтры графического формата, улучшая процесс вставки контента.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldimport/graphicfilter/
 ---
 ## FieldImport.GraphicFilter property
 
-Получает или задает имя фильтра для формата вставляемого изображения.
+Возвращает или задает имя фильтра для формата вставляемого графического объекта.
 
 ```csharp
 public string GraphicFilter { get; set; }

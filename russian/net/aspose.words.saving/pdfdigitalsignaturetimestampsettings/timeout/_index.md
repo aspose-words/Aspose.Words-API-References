@@ -3,14 +3,14 @@ title: PdfDigitalSignatureTimestampSettings.Timeout
 linktitle: Timeout
 articleTitle: Timeout
 second_title: Aspose.Words для .NET
-description: PdfDigitalSignatureTimestampSettings Timeout свойство. Значение таймаута для доступа к серверу меток времени на С#.
+description: Оптимизируйте свой PdfDigitalSignature с помощью настраиваемых параметров тайм-аута для бесперебойного доступа к серверам временных меток. Повысьте безопасность и эффективность сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
 ---
 ## PdfDigitalSignatureTimestampSettings.Timeout property
 
-Значение тайм-аута для доступа к серверу меток времени.
+Значение тайм-аута для доступа к серверу временных меток.
 
 ```csharp
 public TimeSpan Timeout { get; set; }
@@ -22,26 +22,26 @@ public TimeSpan Timeout { get; set; }
 
 ## Примеры
 
-Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем метку времени.
+Показывает, как подписать сохраненный PDF-документ цифровой подписью и поставить на нем временную метку.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Создайте цифровую подпись и назначьте ее нашему объекту SaveOptions, чтобы подписывать документ при сохранении его в PDF.
+// Создаем цифровую подпись и назначаем ее нашему объекту SaveOptions для подписи документа при сохранении его в формате PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Создаем временную метку, проверенную авторитетным органом.
+// Создать временную метку, проверенную органом власти.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
-// Срок действия метки времени по умолчанию составляет 100 секунд.
+// Срок действия временной метки по умолчанию составляет 100 секунд.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
 // Мы можем установить период ожидания через конструктор.
@@ -53,7 +53,7 @@ Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.Times
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// В это время метод «Сохранить» применит нашу подпись к выходному документу.
+// Метод «Сохранить» в этот раз применит нашу подпись к выходному документу.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

@@ -3,14 +3,14 @@ title: FieldIncludePicture.ResizeHorizontally
 linktitle: ResizeHorizontally
 articleTitle: ResizeHorizontally
 second_title: Aspose.Words для .NET
-description: FieldIncludePicture ResizeHorizontally свойство. Получает или задает необходимость изменения размера изображения по горизонтали из источника на С#.
+description: Откройте для себя свойство FieldIncludePicture ResizeHorizontally, чтобы легко настроить размеры изображения для оптимального отображения. Улучшайте визуальные эффекты без усилий!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldincludepicture/resizehorizontally/
 ---
 ## FieldIncludePicture.ResizeHorizontally property
 
-Получает или задает необходимость изменения размера изображения по горизонтали из источника.
+Возвращает или задает, следует ли изменять размер изображения по горизонтали от источника.
 
 ```csharp
 public bool ResizeHorizontally { get; set; }

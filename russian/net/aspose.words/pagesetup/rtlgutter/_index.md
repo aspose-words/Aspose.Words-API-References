@@ -3,14 +3,14 @@ title: PageSetup.RtlGutter
 linktitle: RtlGutter
 articleTitle: RtlGutter
 second_title: Aspose.Words для .NET
-description: PageSetup RtlGutter свойство. Получает или задает использует ли Microsoft Word поля для раздела на основе языка с письмом справа налево или языка с письмом слева направо на С#.
+description: Узнайте, как свойство PageSetup RtlGutter в Microsoft Word оптимизирует макеты разделов для языков с письмом справа налево и слева направо. Улучшите дизайн вашего документа!
 type: docs
 weight: 380
 url: /ru/net/aspose.words/pagesetup/rtlgutter/
 ---
 ## PageSetup.RtlGutter property
 
-Получает или задает, использует ли Microsoft Word поля для раздела на основе языка с письмом справа налево или языка с письмом слева направо.
+Возвращает или задает, использует ли Microsoft Word отступы для раздела на основе языка с письмом справа налево или языка с письмом слева направо.
 
 ```csharp
 public bool RtlGutter { get; set; }
@@ -18,12 +18,12 @@ public bool RtlGutter { get; set; }
 
 ## Примеры
 
-Показывает, как установить поля переплета.
+Показывает, как устанавливать поля переплета.
 
 ```csharp
 Document doc = new Document();
 
-// Вставляем текст, занимающий несколько страниц.
+// Вставьте текст, охватывающий несколько страниц.
 DocumentBuilder builder = new DocumentBuilder(doc);
 for (int i = 0; i < 6; i++)
 {
@@ -32,19 +32,19 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Переплет добавляет пробелы либо к левому, либо к правому краю страницы,
-// что компенсирует центральное сгибание страниц в книге, вторгающееся в макет страницы.
+// Промежуток добавляет пробелы к левому или правому полю страницы,
+// что компенсирует сгиб страниц в центре книги, нарушающий ее структуру.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
-// Определите, сколько места на наших страницах отведено для текста внутри полей, а затем добавьте количество, чтобы заполнить поля.
+ // Определите, сколько места отведено для текста на полях наших страниц, а затем добавьте величину для заполнения полей.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
 
-// Установите для свойства «RtlGutter» значение «true», чтобы разместить переплет в более подходящем положении для текста с письмом справа налево.
+// Установите свойство "RtlGutter" в значение "true", чтобы разместить переплет в более подходящем положении для текста, читаемого справа налево.
 pageSetup.RtlGutter = true;
 
-// Установите для свойства «MultiplePages» значение «MultiplePagesType.MirrorMargins», чтобы чередовать
+// Установите свойство "MultiplePages" на "MultiplePagesType.MirrorMargins" для чередования
 // положение полей слева/справа на каждой странице.
 pageSetup.MultiplePages = MultiplePagesType.MirrorMargins;
 

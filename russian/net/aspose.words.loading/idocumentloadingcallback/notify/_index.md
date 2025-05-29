@@ -3,7 +3,7 @@ title: IDocumentLoadingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words для .NET
-description: IDocumentLoadingCallback Notify метод. Вызывается для уведомления о ходе загрузки документа на С#.
+description: Отслеживайте ход загрузки документа без усилий с помощью метода IDocumentLoadingCallback Notify. Улучшите пользовательский опыт с помощью обновлений в реальном времени!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/idocumentloadingcallback/notify/
@@ -22,9 +22,9 @@ public void Notify(DocumentLoadingArgs args)
 
 ## Примечания
 
-Основное использование этого интерфейса — предоставить коду приложения возможность получить статус выполнения и прервать процесс загрузки.
+Основное применение этого интерфейса — позволить коду приложения получать статус выполнения и прерывать процесс загрузки.
 
-Должно быть выдано исключение из обратного вызова прогресса для прерывания, и оно должно быть перехвачено в потребительском коде.
+Исключение должно быть выдано из обратного вызова прогресса для аборта и перехвачено в коде потребителя.
 
 ## Примеры
 
@@ -45,17 +45,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Обработка проблемы с продолжительностью загрузки.
+        // Решить проблему длительности загрузки.
     }
 }
 
 /// <summary>
-/// Отменить загрузку документа по истечении секунд "MaxDuration".
+/// Отменить загрузку документа по истечении "MaxDuration" секунд.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Центр.
+    /// Ктр.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -63,7 +63,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Метод обратного вызова, который вызывается во время загрузки документа.
+    /// Метод обратного вызова, вызванный во время загрузки документа.
     /// </summary>
     /// <param name="args">Загрузка аргументов.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -81,7 +81,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в секундах.
+    /// Максимально допустимая длительность в сек.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

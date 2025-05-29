@@ -3,14 +3,14 @@ title: LayoutOptions.RevisionOptions
 linktitle: RevisionOptions
 articleTitle: RevisionOptions
 second_title: Aspose.Words для .NET
-description: LayoutOptions RevisionOptions свойство. Получает параметры версии на С#.
+description: Изучите свойство LayoutOptions RevisionOptions, чтобы легко получить доступ к параметрам редакции и настроить их для улучшенного управления документом и гибкости.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property
 
-Получает параметры версии.
+Получает параметры ревизии.
 
 ```csharp
 public RevisionOptions RevisionOptions { get; }
@@ -18,13 +18,13 @@ public RevisionOptions RevisionOptions { get; }
 
 ## Примеры
 
-Показывает, как изменить внешний вид редакций в готовом к просмотру выходном документе.
+Показывает, как изменить внешний вид изменений в визуализированном выходном документе.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем ревизию, затем меняем цвет всех ревизий на зеленый.
+// Вставьте ревизию, затем измените цвет всех ревизий на зеленый.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
@@ -34,8 +34,9 @@ builder.Writeln("This is not a revision.");
 // Удалить полосу, которая появляется слева от каждой измененной строки.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Смотрите также

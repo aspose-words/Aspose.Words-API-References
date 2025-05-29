@@ -3,14 +3,14 @@ title: Fill.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words для .NET
-description: Fill SetImage метод. Изменяет тип заливки на одно изображение на С#.
+description: Улучшите свой дизайн с помощью метода SetImage. Легко переключайтесь на один тип заливки изображения для потрясающих визуальных эффектов и бесшовной интеграции.
 type: docs
-weight: 240
+weight: 250
 url: /ru/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(*string*) {#setimage_2}
 
-Изменяет тип заливки на одно изображение.
+Изменяет тип заливки на одиночное изображение.
 
 ```csharp
 public void SetImage(string fileName)
@@ -22,19 +22,19 @@ public void SetImage(string fileName)
 
 ## Примеры
 
-Показывает, как установить тип заливки фигуры как изображение.
+Показывает, как задать тип заливки фигуры в виде изображения.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Существует несколько способов установки изображения.
+// Существует несколько способов настройки изображения.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// 1 - Использование локального системного имени файла:
+// 1 - Использование имени файла локальной системы:
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
 doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 
-// 2 - Загрузить файл в байтовый массив:
+// 2 - Загрузить файл в массив байтов:
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 
@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 
 ## SetImage(*Stream*) {#setimage_1}
 
-Изменяет тип заливки на одно изображение.
+Изменяет тип заливки на одиночное изображение.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -63,6 +63,30 @@ public void SetImage(Stream stream)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | stream | Stream | Поток, содержащий байты изображения. |
+
+## Примеры
+
+Показывает, как задать тип заливки фигуры в виде изображения.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Существует несколько способов настройки изображения.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 - Использование имени файла локальной системы:
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 - Загрузить файл в массив байтов:
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 - Из потока:
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
 
 ### Смотрите также
 
@@ -74,7 +98,7 @@ public void SetImage(Stream stream)
 
 ## SetImage(*byte[]*) {#setimage}
 
-Изменяет тип заливки на одно изображение.
+Изменяет тип заливки на одиночное изображение.
 
 ```csharp
 public void SetImage(byte[] imageBytes)
@@ -83,6 +107,30 @@ public void SetImage(byte[] imageBytes)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | imageBytes | Byte[] | Массив байтов изображения. |
+
+## Примеры
+
+Показывает, как задать тип заливки фигуры в виде изображения.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Существует несколько способов настройки изображения.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 - Использование имени файла локальной системы:
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 - Загрузить файл в массив байтов:
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 - Из потока:
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
 
 ### Смотрите также
 

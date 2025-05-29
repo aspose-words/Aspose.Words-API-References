@@ -3,32 +3,34 @@ title: RtfLoadOptions.RecognizeUtf8Text
 linktitle: RecognizeUtf8Text
 articleTitle: RecognizeUtf8Text
 second_title: Aspose.Words для .NET
-description: RtfLoadOptions RecognizeUtf8Text свойство. Если установлено значениеистинный CharsetDetector попытается обнаружить символы UTF8 они сохранятся во время импорта на С#.
+description: Узнайте, как свойство RtfLoadOptions RecognizeUtf8Text сохраняет символы UTF-8 во время импорта, обеспечивая точное представление текста и бесшовную интеграцию.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 ---
 ## RtfLoadOptions.RecognizeUtf8Text property
 
-Если установлено значение`истинный` ,CharsetDetector попытается обнаружить символы UTF8, они сохранятся во время импорта.
-
-Значение по умолчанию:`ЛОЖЬ` .
+При установке на`истинный` , попытается обнаружить символы UTF8, они будут сохранены во время импорта.
 
 ```csharp
 public bool RecognizeUtf8Text { get; set; }
 ```
+
+## Примечания
+
+Значение по умолчанию:`ЛОЖЬ`.
 
 ## Примеры
 
 Показывает, как обнаружить символы UTF-8 при загрузке документа RTF.
 
 ```csharp
-// Создайте объект «RtfLoadOptions», чтобы изменить способ загрузки документа RTF.
+// Создаем объект «RtfLoadOptions» для изменения способа загрузки документа RTF.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Установите для свойства RecounceeUtf8Text значение «false», чтобы предположить, что в документе используется кодировка ISO 8859-1.
+// Установите свойство "RecognizeUtf8Text" в значение "false", чтобы предположить, что документ использует кодировку ISO 8859-1
 // и загружает каждый символ в документе.
-// Установите для свойства RecounceeUtf8Text значение «true», чтобы проанализировать любые символы переменной длины, которые могут встретиться в тексте.
+// Установите свойство «RecognizeUtf8Text» в значение «true», чтобы анализировать любые символы переменной длины, которые могут встречаться в тексте.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

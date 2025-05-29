@@ -3,7 +3,7 @@ title: NodeChangingArgs.OldParent
 linktitle: OldParent
 articleTitle: OldParent
 second_title: Aspose.Words для .NET
-description: NodeChangingArgs OldParent свойство. Получает родительский узел до начала операции на С#.
+description: Откройте для себя свойство NodeChangingArgs OldParent, которое извлекает родительский узел до внесения изменений, обеспечивая бесперебойную работу и улучшенное управление данными.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/nodechangingargs/oldparent/
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Печатает каждую вставку/удаление узла, как это происходит в документе.
+/// Печатает каждую вставку/удаление узла по мере их возникновения в документе.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

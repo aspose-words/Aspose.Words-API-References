@@ -3,14 +3,14 @@ title: Font.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words для .NET
-description: Font Shading свойство. ВозвращаетShading объект который относится к форматированию затенения для шрифта на С#.
+description: Откройте для себя свойство Font Shading, которое предоставляет объект Shading для настраиваемого форматирования шрифта, улучшая визуальную привлекательность вашего текста.
 type: docs
-weight: 320
+weight: 330
 url: /ru/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Возвращает[`Shading`](../../shading/) объект, который относится к форматированию затенения для шрифта.
+Возвращает[`Shading`](../../shading/) объект, который ссылается на форматирование штриховки для шрифта.
 
 ```csharp
 public Shading Shading { get; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Color = Color.White;
 
-// Один из способов сделать текст, созданный с использованием белого цвета шрифта, видимым
-// заключается в применении эффекта затенения фона.
+// Один из способов сделать текст, созданный с использованием нашего белого цвета шрифта, видимым
+// — применить эффект затенения фона.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;
 shading.BackgroundPatternColor = Color.OrangeRed;

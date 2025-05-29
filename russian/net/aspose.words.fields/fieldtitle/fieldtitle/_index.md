@@ -3,7 +3,7 @@ title: FieldTitle
 linktitle: FieldTitle
 articleTitle: FieldTitle
 second_title: Aspose.Words для .NET
-description: FieldTitle строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldTitle, необходимый инструмент для бесшовной интеграции и настройки. Раскройте потенциал вашего проекта сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldtitle/fieldtitle/

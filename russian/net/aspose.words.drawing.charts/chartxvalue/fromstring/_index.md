@@ -3,14 +3,14 @@ title: ChartXValue.FromString
 linktitle: FromString
 articleTitle: FromString
 second_title: Aspose.Words для .NET
-description: ChartXValue FromString метод. СоздаетChartXValue экземплярString тип на С#.
+description: Откройте для себя метод ChartXValue FromString для легкого создания экземпляров ChartXValue типа String. Улучшите визуализацию данных сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/fromstring/
 ---
 ## ChartXValue.FromString method
 
-Создает[`ChartXValue`](../) экземплярString тип.
+Создает[`ChartXValue`](../) примерString тип.
 
 ```csharp
 public static ChartXValue FromString(string value)
@@ -29,7 +29,7 @@ Chart chart = shape.Chart;
 ChartSeries department1Series = chart.Series[0];
 ChartSeries department2Series = chart.Series[1];
 
-// Удаляем первое значение в обеих сериях.
+// Удалить первое значение в обеих сериях.
 department1Series.Remove(0);
 department2Series.Remove(0);
 

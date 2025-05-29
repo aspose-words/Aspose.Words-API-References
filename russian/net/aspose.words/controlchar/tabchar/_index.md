@@ -3,7 +3,7 @@ title: ControlChar.TabChar
 linktitle: TabChar
 articleTitle: TabChar
 second_title: Aspose.Words для .NET
-description: ControlChar TabChar поле. Символ табуляции char9 или t на С#.
+description: Мастер полей TabChar с ControlChar для бесшовного управления данными. Раскройте эффективность с помощью универсального символа табуляции (char9 или t) сегодня!
 type: docs
 weight: 280
 url: /ru/net/aspose.words/controlchar/tabchar/
@@ -18,16 +18,16 @@ public const char TabChar;
 
 ## Примеры
 
-Показывает, как установить собственный интервал для позиций табуляции.
+Показывает, как задать пользовательский интервал для позиций табуляции.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите позиции табуляции так, чтобы они появлялись каждые 72 пункта (1 дюйм).
+// Установите позиции табуляции так, чтобы они отображались каждые 72 пункта (1 дюйм).
 builder.Document.DefaultTabStop = 72;
 
-// Каждый символ табуляции привязывает текст после него к следующей ближайшей позиции табуляции.
+// Каждый символ табуляции привязывает текст после себя к следующей ближайшей позиции табуляции.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

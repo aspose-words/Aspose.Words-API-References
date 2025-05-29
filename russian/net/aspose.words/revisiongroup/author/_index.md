@@ -3,14 +3,14 @@ title: RevisionGroup.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words для .NET
-description: RevisionGroup Author свойство. Получает автора этой группы редакций на С#.
+description: Откройте для себя свойство RevisionGroup Author, чтобы легко определить автора каждой группы ревизий, повысив эффективность управления документами.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/revisiongroup/author/
 ---
 ## RevisionGroup.Author property
 
-Получает автора этой группы редакций.
+Получает автора этой группы ревизий.
 
 ```csharp
 public string Author { get; }
@@ -18,7 +18,7 @@ public string Author { get; }
 
 ## Примеры
 
-Показывает, как распечатать информацию о группе редакций в документе.
+Показывает, как распечатать информацию о группе ревизий в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

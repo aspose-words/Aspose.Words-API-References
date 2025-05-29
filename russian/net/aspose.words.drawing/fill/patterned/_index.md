@@ -3,14 +3,14 @@ title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
 second_title: Aspose.Words для .NET
-description: Fill Patterned метод. Устанавливает указанную заливку в шаблон на С#.
+description: Откройте для себя метод Fill Patterned, позволяющий с легкостью применять уникальные узоры к вашим проектам, повышая их креативность и визуальную привлекательность.
 type: docs
-weight: 220
+weight: 230
 url: /ru/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
-Устанавливает указанную заливку в шаблон.
+Устанавливает указанную заливку в соответствии с шаблоном.
 
 ```csharp
 public void Patterned(PatternType patternType)
@@ -22,7 +22,7 @@ public void Patterned(PatternType patternType)
 
 ## Примеры
 
-Показывает, как задать шаблон для фигуры.
+Показывает, как задать узор для фигуры.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -32,11 +32,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Существует несколько способов заполнения шаблона.
+// Существует несколько способов задания заливки по шаблону.
 // 1 - Применить узор к заливке фигуры:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Применить к заливке фигуры узор с цветами переднего плана и фона:
+// 2 - Применить узор с цветами переднего плана и фона к заливке фигуры:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 ## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
-Устанавливает указанную заливку в шаблон.
+Устанавливает указанную заливку в соответствии с шаблоном.
 
 ```csharp
 public void Patterned(PatternType patternType, Color foreColor, Color backColor)
@@ -63,11 +63,11 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
 | foreColor | Color | Цвет заливки переднего плана. |
-| backColor | Color | Цвет заливки фона. |
+| backColor | Color | Цвет фоновой заливки. |
 
 ## Примеры
 
-Показывает, как задать шаблон для фигуры.
+Показывает, как задать узор для фигуры.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
@@ -77,11 +77,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Существует несколько способов заполнения шаблона.
+// Существует несколько способов задания заливки по шаблону.
 // 1 - Применить узор к заливке фигуры:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 - Применить к заливке фигуры узор с цветами переднего плана и фона:
+// 2 - Применить узор с цветами переднего плана и фона к заливке фигуры:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

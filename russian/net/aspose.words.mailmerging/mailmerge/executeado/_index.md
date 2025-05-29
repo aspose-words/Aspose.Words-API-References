@@ -3,14 +3,14 @@ title: MailMerge.ExecuteADO
 linktitle: ExecuteADO
 articleTitle: ExecuteADO
 second_title: Aspose.Words для .NET
-description: MailMerge ExecuteADO метод. Выполняет слияние почты из объекта набора записей ADO в документ на С#.
+description: Оптимизируйте создание документов с помощью метода MailMerge ExecuteADO. Легко объединяйте данные ADO Recordset для эффективного персонализированного вывода.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.mailmerging/mailmerge/executeado/
 ---
 ## MailMerge.ExecuteADO method
 
-Выполняет слияние почты из объекта набора записей ADO в документ.
+Выполняет слияние почты из объекта ADO Recordset в документ.
 
 ```csharp
 public void ExecuteADO(object recordset)
@@ -22,11 +22,11 @@ public void ExecuteADO(object recordset)
 
 ## Примечания
 
-Этот метод полезен, если вы собираетесь использовать классы Aspose.Words как COM-объекты из неуправляемого кода, например приложения, созданного с использованием ASP или Visual Basic 6.0.
+Этот метод полезен, когда вы собираетесь использовать классы Aspose.Words как объекты COM из неуправляемого кода, например приложения, созданного с использованием ASP или Visual Basic 6.0.
 
 Этот метод игнорируетRemoveUnusedRegions вариант.
 
-Более подробную информацию смотрите в описании[`Execute`](../execute/).
+Для получения дополнительной информации см. описание[`Execute`](../execute/).
 
 ## Примеры
 
@@ -52,23 +52,23 @@ Doc.MailMerge.ExecuteADO RS
 Doc.Save "C:\MyPath\CustomerLabels Out VBScript.doc"
 ```
 
-Показывает, как запустить слияние почты с данными из набора данных ADO.
+Показывает, как выполнить слияние почты с данными из набора данных ADO.
 
 ```csharp
 public void ExecuteADO()
 {
     Document doc = CreateSourceDocADOMailMerge();
 
-    // Для работы с наборами данных ADO нам нужно будет добавить ссылку на библиотеку объектов данных Microsoft ActiveX,
+    // Для работы с ADO DataSets нам потребуется добавить ссылку на библиотеку Microsoft ActiveX Data Objects,
     // который включен в дистрибутив .NET и хранится в "adodb.dll".
     ADODB.Connection connection = new ADODB.Connection();
 
-    // Создаем строку подключения, указывающую на файл базы данных "Борей"
+    // Создаем строку подключения, указывающую на файл базы данных «Northwind»
     // в нашей локальной файловой системе и открываем соединение.
     string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Заполните наш набор данных, выполнив команду SQL в нашей базе данных.
+    // Заполняем наш DataSet, выполнив команду SQL в нашей базе данных.
     // Имена столбцов в таблице результатов должны соответствовать
     // к значениям MERGEFIELDS, которые будут содержать наши данные.
     const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
@@ -76,13 +76,13 @@ public void ExecuteADO()
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Выполняем слияние почты и сохраняем документ.
+    // Выполнить слияние и сохранить документ.
     doc.MailMerge.ExecuteADO(recordset);
     doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
 }
 
 /// <summary>
-/// Создайте пустой документ и заполните его MERGEFIELDS, который будет принимать данные при выполнении слияния почты.
+/// Создайте пустой документ и заполните его полями MERGEFIELDS, которые будут принимать данные при выполнении слияния почты.
 /// </summary>
 private static Document CreateSourceDocADOMailMerge()
 {

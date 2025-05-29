@@ -3,7 +3,7 @@ title: PageSetup.PageHeight
 linktitle: PageHeight
 articleTitle: PageHeight
 second_title: Aspose.Words для .NET
-description: PageSetup PageHeight свойство. Возвращает или задает высоту страницы в пунктах на С#.
+description: Откройте для себя свойство PageSetup PageHeight, позволяющее эффективно управлять высотой документа в пунктах, улучшая его макет и презентацию.
 type: docs
 weight: 310
 url: /ru/net/aspose.words/pagesetup/pageheight/
@@ -24,46 +24,19 @@ public double PageHeight { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем изображение в заголовок, чтобы оно было видно на каждой странице.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+// Вставьте изображение в заголовок, чтобы оно было видно на каждой странице.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
-// Размещаем изображение в центре страницы.
+// Разместите изображение в центре страницы.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
 shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
-Показывает, как вставить изображение и использовать его в качестве водяного знака (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Вставляем изображение в заголовок, чтобы оно было видно на каждой странице.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Размещаем изображение в центре страницы.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
 ### Смотрите также

@@ -3,14 +3,14 @@ title: LayoutOptions.KeepOriginalFontMetrics
 linktitle: KeepOriginalFontMetrics
 articleTitle: KeepOriginalFontMetrics
 second_title: Aspose.Words для .NET
-description: LayoutOptions KeepOriginalFontMetrics свойство. Получает или задает указание того следует ли использовать исходные метрики шрифта после замены шрифта. Значение по умолчаниюистинный  на С#.
+description: Откройте для себя свойство LayoutOptions KeepOriginalFontMetrics, управляйте метриками шрифта во время замены для единообразного дизайна. Значение по умолчанию — true.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
 ---
 ## LayoutOptions.KeepOriginalFontMetrics property
 
-Получает или задает указание того, следует ли использовать исходные метрики шрифта после замены шрифта. Значение по умолчанию:`истинный` .
+Возвращает или задает указание того, следует ли использовать исходные метрики шрифта после замены шрифта. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool KeepOriginalFontMetrics { get; set; }
@@ -18,25 +18,25 @@ public bool KeepOriginalFontMetrics { get; set; }
 
 ## Примеры
 
-Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска наиболее близкого соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
+    // Открываем документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Назначаем обратный вызов для обработки предупреждений о замене шрифта.
+    // Назначаем обратный вызов для обработки предупреждений о замене шрифтов.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
+    // Задаем имя шрифта по умолчанию и включаем замену шрифта.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    // После замены шрифта следует использовать метрики исходного шрифта.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
@@ -55,7 +55,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

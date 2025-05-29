@@ -3,9 +3,9 @@ title: HtmlOfficeMathOutputMode Enum
 linktitle: HtmlOfficeMathOutputMode
 articleTitle: HtmlOfficeMathOutputMode
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Saving.HtmlOfficeMathOutputMode перечисление. Указывает как Aspose.Words экспортирует OfficeMath в HTML MHTML и EPUB на С#.
+description: Узнайте, как Aspose.Words.Saving.HtmlOfficeMathOutputMode улучшает экспорт OfficeMath в HTML, MHTML и EPUB для бесшовного преобразования документов.
 type: docs
-weight: 5100
+weight: 5850
 url: /ru/net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
@@ -22,7 +22,7 @@ public enum HtmlOfficeMathOutputMode
 | --- | --- | --- |
 | Image | `0` | OfficeMath преобразуется в HTML как изображение, указанное тегом &lt;img&gt;. |
 | MathML | `1` | OfficeMath преобразуется в HTML с помощью MathML. |
-| Text | `2` | OfficeMath преобразуется в HTML как последовательность запусков, заданная тегами &lt;span&gt;. |
+| Text | `2` | OfficeMath преобразуется в HTML как последовательность запусков, указанных тегами &lt;span&gt;. |
 
 ## Примеры
 
@@ -33,12 +33,12 @@ Document doc = new Document(MyDir + "Office math.docx");
 
 // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions
 // чтобы определить, как операция сохранения обрабатывает объекты OfficeMath.
-// Установка свойства OfficeMathOutputMode в значение «HtmlOfficeMathOutputMode.Image»
+// Устанавливаем свойство "OfficeMathOutputMode" на "HtmlOfficeMathOutputMode.Image"
 // преобразует каждый объект OfficeMath в изображение.
-// Установка свойства OfficeMathOutputMode в значение «HtmlOfficeMathOutputMode.MathML»
+// Устанавливаем свойство "OfficeMathOutputMode" в "HtmlOfficeMathOutputMode.MathML"
 // преобразует каждый объект OfficeMath в MathML.
-// Установка свойства OfficeMathOutputMode в значение «HtmlOfficeMathOutputMode.Text»
-// будет представлять каждую формулу OfficeMath, используя простой текст HTML.
+// Устанавливаем свойство "OfficeMathOutputMode" в значение "HtmlOfficeMathOutputMode.Text"
+// будет представлять каждую формулу OfficeMath с помощью обычного HTML-текста.
 HtmlSaveOptions options = new HtmlSaveOptions { OfficeMathOutputMode = htmlOfficeMathOutputMode };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.OfficeMathOutputMode.html", options);
@@ -47,9 +47,9 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.OfficeM
 switch (htmlOfficeMathOutputMode)
 {
     case HtmlOfficeMathOutputMode.Image:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt\">" +
-                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"159\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
+                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"163\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
                 "-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
             "</p>").Success);
         break;

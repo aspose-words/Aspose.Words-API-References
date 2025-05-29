@@ -3,14 +3,14 @@ title: FieldIndex.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words для .NET
-description: FieldIndex BookmarkName свойство. Получает или задает имя закладки которая отмечает часть документа используемую для построения индекса на С#.
+description: Откройте для себя свойство FieldIndex BookmarkName, чтобы легко управлять закладками, которые улучшают индексацию документов. Повысьте свою эффективность с помощью бесшовной навигации!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldindex/bookmarkname/
 ---
 ## FieldIndex.BookmarkName property
 
-Получает или задает имя закладки, которая отмечает часть документа, используемую для построения индекса.
+Возвращает или задает имя закладки, которая отмечает часть документа, используемую для построения индекса.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -24,43 +24,43 @@ public string BookmarkName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создайте поле INDEX, в котором будет отображаться запись для каждого поля XE, найденного в документе.
-// Каждая запись будет отображать значение свойства Text поля XE слева.
+// Создайте поле INDEX, которое будет отображать запись для каждого поля XE, найденного в документе.
+// Каждая запись будет отображать значение свойства Text поля XE слева
 // и страница, содержащая поле XE справа.
-// Если поля XE имеют одинаковое значение в свойстве «Текст»,
+// Если поля XE имеют одинаковое значение в свойстве "Текст",
 // поле ИНДЕКС сгруппирует их в одну запись.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Настройте поле INDEX только для отображения полей XE, находящихся в пределах границ
-// закладки с именем "MainBookmark", свойства которой "EntryType" имеют значение "A".
+// Настройте поле INDEX только для отображения полей XE, которые находятся в пределах границ
+// закладки с именем "MainBookmark", свойства "EntryType" которой имеют значение "A".
 // Для полей INDEX и XE свойство «EntryType» использует только первый символ своего строкового значения.
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// На новой странице начинаем закладку с именем, соответствующим значению
-// свойства BookmarkName поля INDEX.
+// На новой странице создайте закладку с именем, соответствующим значению
+// свойства "BookmarkName" поля INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
 
-// Поле ИНДЕКС выберет эту запись, поскольку она находится внутри закладки,
-// и его тип записи также соответствует типу записи поля ИНДЕКС.
+// Поле INDEX выберет эту запись, поскольку она находится внутри закладки,
+// и его тип записи также соответствует типу записи поля INDEX.
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 1";
 indexEntry.EntryType = "A";
 
 Assert.AreEqual(" XE  \"Index entry 1\" \\f A", indexEntry.GetFieldCode());
 
-// Вставляем поле XE, которое не появится в INDEX, поскольку типы записей не совпадают.
+// Вставьте поле XE, которое не будет отображаться в ИНДЕКСЕ, поскольку типы записей не совпадают.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 2";
 indexEntry.EntryType = "B";
 
-// Завершаем закладку и вставляем после нее поле XE.
-// Оно того же типа, что и поле ИНДЕКС, но не появится
-// так как оно находится за пределами закладки.
+// Завершить закладку и вставить поле XE после нее.
+// Он того же типа, что и поле INDEX, но не будет отображаться
+// так как он находится за пределами границ закладки.
 builder.EndBookmark("MainBookmark");
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

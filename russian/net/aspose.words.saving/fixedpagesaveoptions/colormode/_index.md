@@ -3,14 +3,14 @@ title: FixedPageSaveOptions.ColorMode
 linktitle: ColorMode
 articleTitle: ColorMode
 second_title: Aspose.Words для .NET
-description: FixedPageSaveOptions ColorMode свойство. Получает или задает значение определяющее способ отображения цветов на С#.
+description: Откройте для себя свойство FixedPageSaveOptions ColorMode для настройки цветопередачи для повышения качества документа и визуальной привлекательности. Оптимизируйте свой вывод сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/fixedpagesaveoptions/colormode/
 ---
 ## FixedPageSaveOptions.ColorMode property
 
-Получает или задает значение, определяющее способ отображения цветов.
+Возвращает или задает значение, определяющее способ отображения цветов.
 
 ```csharp
 public ColorMode ColorMode { get; set; }
@@ -22,16 +22,16 @@ public ColorMode ColorMode { get; set; }
 
 ## Примеры
 
-Показывает, как изменить цвет изображения с сохранением свойства параметров.
+Показывает, как изменить цвет изображения с сохранением свойств параметров.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
-// Установите для свойства «ColorMode» значение «Оттенки серого», чтобы отобразить все изображения из документа в черно-белом режиме.
-// Размер выходного документа может быть больше с этой настройкой.
-// Установите для свойства ColorMode значение «Normal», чтобы отобразить все изображения в цвете.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
+// Установите свойство «ColorMode» на «Grayscale», чтобы отрисовать все изображения в документе в черно-белом цвете.
+// При использовании этой настройки размер выходного документа может быть больше.
+// Установите свойство «ColorMode» на «Normal», чтобы отображать все изображения в цвете.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);

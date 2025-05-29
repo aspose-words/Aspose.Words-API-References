@@ -3,14 +3,14 @@ title: WriteProtection.IsWriteProtected
 linktitle: IsWriteProtected
 articleTitle: IsWriteProtected
 second_title: Aspose.Words для .NET
-description: WriteProtection IsWriteProtected свойство. Возвращаетистинный когда установлен пароль защиты от записи на С#.
+description: Откройте для себя свойство WriteProtection IsWriteProtected, легко проверьте, активен ли пароль защиты от записи, для повышения безопасности и целостности данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property
 
-Возвращает`истинный` когда установлен пароль защиты от записи.
+Возврат`истинный` когда установлен пароль защиты от записи.
 
 ```csharp
 public bool IsWriteProtected { get; }
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Защита не предотвращает программное редактирование документа и не шифрует его содержимое.
+// Защита не препятствует программному редактированию документа и не шифрует его содержимое.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

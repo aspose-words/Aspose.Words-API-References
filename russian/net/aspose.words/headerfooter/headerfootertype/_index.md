@@ -3,14 +3,14 @@ title: HeaderFooter.HeaderFooterType
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words для .NET
-description: HeaderFooter HeaderFooterType свойство. Получает тип верхнего/нижнего колонтитула на С#.
+description: Откройте для себя свойство HeaderFooterType, чтобы легко получать доступ к типам верхнего и нижнего колонтитула документа и управлять ими для улучшенного управления форматированием.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/headerfooter/headerfootertype/
 ---
 ## HeaderFooter.HeaderFooterType property
 
-Получает тип верхнего/нижнего колонтитула.
+Получает тип этого верхнего/нижнего колонтитула.
 
 ```csharp
 public HeaderFooterType HeaderFooterType { get; }
@@ -18,13 +18,13 @@ public HeaderFooterType HeaderFooterType { get; }
 
 ## Примеры
 
-Показывает, как создать верхний и нижний колонтитулы.
+Показывает, как создать верхний и нижний колонтитул.
 
 ```csharp
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится вверху каждой страницы этого раздела, над основным текстом.
+// будет отображаться в верхней части каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -34,7 +34,7 @@ Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
 // Создаем нижний колонтитул и добавляем к нему абзац. Текст в этом абзаце
-// появится внизу каждой страницы этого раздела, под основным текстом.
+// будет отображаться внизу каждой страницы этого раздела, под основным текстом.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

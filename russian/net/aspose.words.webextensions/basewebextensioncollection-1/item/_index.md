@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: BaseWebExtensionCollection Item свойство. Получает или задает элемент по указанному индексу на С#.
+description: Откройте для себя свойство BaseWebExtensionCollection Item для простого управления элементами по индексу. Упростите свою разработку с помощью эффективной обработки данных уже сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +18,7 @@ public T this[int index] { get; set; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс элемента, начинающийся с нуля. |
+| index | Индекс элемента, отсчитываемый от нуля. |
 
 ## Примеры
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Распечатываем все свойства веб-расширения документа.
+// Распечатать все свойства веб-расширения документа.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Удаляем веб-расширение.
+// Удалить веб-расширение.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

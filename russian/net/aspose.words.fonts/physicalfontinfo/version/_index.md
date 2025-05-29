@@ -3,9 +3,9 @@ title: PhysicalFontInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words для .NET
-description: PhysicalFontInfo Version свойство. Строка версии шрифта на С#.
+description: Откройте для себя свойство PhysicalFontInfo Version, легко получите доступ к строке версии шрифта для повышения согласованности дизайна и улучшения типографики.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words.fonts/physicalfontinfo/version/
 ---
 ## PhysicalFontInfo.Version property

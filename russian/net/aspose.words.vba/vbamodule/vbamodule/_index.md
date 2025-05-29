@@ -3,7 +3,7 @@ title: VbaModule
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words для .NET
-description: VbaModule строитель. Создает пустой модуль на С#.
+description: Создавайте пустые модули VBA без усилий с помощью нашего конструктора VbaModule. Оптимизируйте процесс кодирования и улучшите рабочий процесс разработки уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.vba/vbamodule/vbamodule/
@@ -18,12 +18,12 @@ public VbaModule()
 
 ## Примеры
 
-Показывает, как создать проект VBA с помощью макросов.
+Показывает, как создать проект VBA с использованием макросов.
 
 ```csharp
 Document doc = new Document();
 
-// Создаем новый проект VBA.
+// Создать новый проект VBA.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;

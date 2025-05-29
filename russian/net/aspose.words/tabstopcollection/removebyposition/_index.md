@@ -3,14 +3,14 @@ title: TabStopCollection.RemoveByPosition
 linktitle: RemoveByPosition
 articleTitle: RemoveByPosition
 second_title: Aspose.Words для .NET
-description: TabStopCollection RemoveByPosition метод. Удаляет позицию табуляции в указанной позиции из коллекции на С#.
+description: Легко удаляйте позиции табуляции из вашей коллекции с помощью метода RemoveByPosition. Оптимизируйте форматирование для улучшенного контроля над документами!
 type: docs
 weight: 120
 url: /ru/net/aspose.words/tabstopcollection/removebyposition/
 ---
 ## TabStopCollection.RemoveByPosition method
 
-Удаляет позицию табуляции в указанной позиции из коллекции.
+Удаляет табуляцию в указанной позиции из коллекции.
 
 ```csharp
 public void RemoveByPosition(double position)
@@ -18,24 +18,24 @@ public void RemoveByPosition(double position)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Double | Позиция (в пунктах) табуляции, которую нужно удалить. |
+| position | Double | Положение (в пунктах) позиции табуляции, которую необходимо удалить. |
 
 ## Примеры
 
-Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
+Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с оглавлением.
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Перебираем все абзацы со стилями на основе результатов оглавления; это любой стиль между TOC и TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Пройти по всем абзацам со стилями, основанными на результате TOC; это любой стиль между TOC и TOC9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Получаем первую вкладку, используемую в этом абзаце. Это должна быть вкладка, используемая для выравнивания номеров страниц.
+        // Получаем первую табуляцию, используемую в этом абзаце. Это должна быть табуляция, используемая для выравнивания номеров страниц.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // Заменяем первую табуляцию по умолчанию, остановку на пользовательскую позицию табуляции.
+        // Заменить первую остановку табуляции по умолчанию на пользовательскую остановку табуляции.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

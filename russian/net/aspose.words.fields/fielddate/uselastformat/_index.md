@@ -3,14 +3,14 @@ title: FieldDate.UseLastFormat
 linktitle: UseLastFormat
 articleTitle: UseLastFormat
 second_title: Aspose.Words для .NET
-description: FieldDate UseLastFormat свойство. Получает или задает следует ли использовать формат который последний раз использовался ведущим приложением при вставке нового поля ДАТЫ на С#.
+description: Узнайте, как свойство FieldDate UseLastFormat улучшает ваш рабочий процесс, сохраняя последний использованный формат даты для бесшовной интеграции в ваши приложения.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddate/uselastformat/
 ---
 ## FieldDate.UseLastFormat property
 
-Получает или задает, следует ли использовать формат, который последний раз использовался ведущим приложением при вставке нового поля ДАТЫ.
+Возвращает или задает, следует ли использовать последний формат, использованный приложением хостинга при вставке нового поля ДАТА.
 
 ```csharp
 public bool UseLastFormat { get; set; }
@@ -18,7 +18,7 @@ public bool UseLastFormat { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
+Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными видами календарей.
 
 ```csharp
 Document doc = new Document();
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Вставляем поле ДАТА и устанавливаем для него тип календаря тот, который последний раз использовался ведущим приложением.
-// В Microsoft Word тип будет последним использованным во вкладке «Вставка» -> gt; Текст -> Диалоговое окно «Дата и время».
+// Вставьте поле ДАТА и установите его тип календаря на последний, использовавшийся хост-приложением.
+// В Microsoft Word тип будет последним использованным в диалоговом окне Вставка -> Текст -> Дата и время.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

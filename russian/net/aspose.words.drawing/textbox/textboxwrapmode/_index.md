@@ -3,14 +3,14 @@ title: TextBox.TextBoxWrapMode
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
 second_title: Aspose.Words для .NET
-description: TextBox TextBoxWrapMode свойство. Определяет как текст переносится внутри фигуры на С#.
+description: Откройте для себя свойство TextBox WrapMode, которое позволяет улучшить обтекание текстом фигур, повышая ясность и визуальную привлекательность вашего дизайна.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.drawing/textbox/textboxwrapmode/
 ---
 ## TextBox.TextBoxWrapMode property
 
-Определяет, как текст переносится внутри фигуры.
+Определяет, как текст обтекает фигуру.
 
 ```csharp
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
@@ -22,7 +22,7 @@ public TextBoxWrapMode TextBoxWrapMode { get; set; }
 
 ## Примеры
 
-Показывает, как установить режим переноса содержимого текстового поля.
+Показывает, как установить режим обтекания для содержимого текстового поля.
 
 ```csharp
 Document doc = new Document();
@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
-// Установите для свойства TextBoxWrapMode значение TextBoxWrapMode.None, чтобы увеличить ширину текстового поля.
+// Установите свойство "TextBoxWrapMode" на "TextBoxWrapMode.None", чтобы увеличить ширину текстового поля
 // для размещения текста, если он достаточно большой.
-// Установите для свойства TextBoxWrapMode значение TextBoxWrapMode.Square, чтобы
-// переносим весь текст внутрь текстового поля, сохраняя его размеры.
+// Установите свойство "TextBoxWrapMode" на "TextBoxWrapMode.Square" для
+// обернуть весь текст внутри текстового поля, сохранив его размеры.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

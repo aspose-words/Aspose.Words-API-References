@@ -3,14 +3,14 @@ title: MailMergeSettings.ActiveRecord
 linktitle: ActiveRecord
 articleTitle: ActiveRecord
 second_title: Aspose.Words для .NET
-description: MailMergeSettings ActiveRecord свойство. Указывает индекс записи из источника данных отсчитываемый от единицы который будет отображаться в Microsoft Word. Значение по умолчанию  1.  на С#.
+description: Откройте для себя MailMergeSettings. Настройте свои документы Microsoft Word, выбрав нужный индекс записи из вашего источника данных. Начните с простоты!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-Указывает индекс записи из источника данных, отсчитываемый от единицы, который будет отображаться в Microsoft Word. Значение по умолчанию — 1. .
+Указывает индекс записи из источника данных, который будет отображаться в Microsoft Word. Значение по умолчанию — 1.
 
 ```csharp
 public int ActiveRecord { get; set; }

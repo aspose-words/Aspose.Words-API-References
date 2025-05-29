@@ -3,14 +3,14 @@ title: PdfSaveOptions.CustomPropertiesExport
 linktitle: CustomPropertiesExport
 articleTitle: CustomPropertiesExport
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions CustomPropertiesExport свойство. Получает или устанавливает значение определяющее способCustomDocumentProperties экспортируются в файл PDF на С#.
+description: Узнайте, как свойство PdfSaveOptions CustomPropertiesExport улучшает экспорт PDF-файлов, управляя CustomDocumentProperties для достижения оптимальных результатов.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
 
-Получает или устанавливает значение, определяющее способ[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties/) экспортируются в файл PDF.
+Возвращает или задает значение, определяющее способ[`CustomDocumentProperties`](../../../aspose.words/document/customdocumentproperties/) экспортируются в файл PDF.
 
 ```csharp
 public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
@@ -20,29 +20,29 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 Значение по умолчанию:None.
 
-Metadata значение не поддерживается при сохранении в PDF/A. Standard вместо этого будет использоваться для PDF/A-1 и PDF/A-2 and None для PDF/A-4.
+Metadata значение не поддерживается при сохранении в PDF/A. Standard будет использоваться вместо PDF/A-1 и PDF/A-2 and None для PDF/A-4.
 
-Standard значение не поддерживается при сохранении в PDF 2.0. Metadata вместо этого будет использоваться.
+Standard значение не поддерживается при сохранении в PDF 2.0. Metadata Вместо этого будет использоваться .
 
 ## Примеры
 
-Показывает, как экспортировать пользовательские свойства при преобразовании документа в PDF.
+Показывает, как экспортировать пользовательские свойства при конвертации документа в PDF.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("Company", "My value");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства «CustomPropertiesExport» значение «PdfCustomPropertiesExport.None», чтобы отбросить
+// Установите свойство "CustomPropertiesExport" на "PdfCustomPropertiesExport.None", чтобы отменить
 // пользовательские свойства документа при сохранении документа в формате .PDF.
-// Установите для свойства «CustomPropertiesExport» значение «PdfCustomPropertiesExport.Standard»
-// чтобы сохранить пользовательские свойства в выходном PDF-документе.
-// Установите для свойства «CustomPropertiesExport» значение «PdfCustomPropertiesExport.Metadata»
-// чтобы сохранить пользовательские свойства в пакете XMP.
+// Установите свойство "CustomPropertiesExport" на "PdfCustomPropertiesExport.Standard"
+// для сохранения пользовательских свойств в выходном PDF-документе.
+// Установите свойство "CustomPropertiesExport" на "PdfCustomPropertiesExport.Metadata"
+// для сохранения пользовательских свойств в пакете XMP.
 options.CustomPropertiesExport = pdfCustomPropertiesExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);

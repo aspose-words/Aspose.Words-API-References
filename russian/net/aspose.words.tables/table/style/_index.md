@@ -3,14 +3,14 @@ title: Table.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words для .NET
-description: Table Style свойство. Получает или задает стиль таблицы примененный к этой таблице на С#.
+description: Узнайте, как легко настроить внешний вид вашей таблицы с помощью свойства «Стиль таблицы» — улучшите свой дизайн с помощью уникальных стилей без особых усилий!
 type: docs
 weight: 270
 url: /ru/net/aspose.words.tables/table/style/
 ---
 ## Table.Style property
 
-Получает или задает стиль таблицы, примененный к этой таблице.
+Возвращает или задает стиль таблицы, примененный к этой таблице.
 
 ```csharp
 public Style Style { get; set; }

@@ -3,14 +3,14 @@ title: ComparisonEvaluationResult
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words для .NET
-description: ComparisonEvaluationResult строитель. Создает результат сравнения на С#.
+description: Откройте для себя конструктор ComparisonEvaluationResult, позволяющий эффективно генерировать и анализировать результаты сравнительной оценки для принятия более обоснованных решений.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult(*bool*) {#constructor}
 
-Создает результат сравнения.
+Создает результат сравнительной оценки.
 
 ```csharp
 public ComparisonEvaluationResult(bool result)
@@ -31,11 +31,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Коды полей, которые мы используем в этом примере:
-    // 1. " ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
-    // 2. " СРАВНИТЬ {0} {1} {2} ".
+    // 1. "ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
+    // 2. "СРАВНИТЬ {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Если «comparisonResult» не определен, мы создаем «ComparisonEvaluationResult» со строкой вместо bool.
+    // Если "comparisonResult" не определен, мы создаем "ComparisonEvaluationResult" со строкой, а не с логическим значением.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -57,6 +57,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)
@@ -107,7 +112,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 ## ComparisonEvaluationResult(*string*) {#constructor_1}
 
-Создает неудавшийся результат сравнения с соответствующим сообщением об ошибке.
+Создает результат оценки неудачного сравнения с соответствующим сообщением об ошибке.
 
 ```csharp
 public ComparisonEvaluationResult(string errorMessage)
@@ -128,11 +133,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // Коды полей, которые мы используем в этом примере:
-    // 1. " ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
-    // 2. " СРАВНИТЬ {0} {1} {2} ".
+    // 1. "ЕСЛИ {0} {1} {2} \"истинный аргумент\" \"ложный аргумент\" ".
+    // 2. "СРАВНИТЬ {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Если «comparisonResult» не определен, мы создаем «ComparisonEvaluationResult» со строкой вместо bool.
+    // Если "comparisonResult" не определен, мы создаем "ComparisonEvaluationResult" со строкой, а не с логическим значением.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -154,6 +159,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

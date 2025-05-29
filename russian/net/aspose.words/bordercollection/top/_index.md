@@ -3,7 +3,7 @@ title: BorderCollection.Top
 linktitle: Top
 articleTitle: Top
 second_title: Aspose.Words для .NET
-description: BorderCollection Top свойство. Получает верхнюю границу на С#.
+description: Откройте для себя BorderCollection, наилучшую собственность для потрясающих верхних бордюров, которые возвышают ваш дизайн. Улучшите свои проекты с помощью наших уникальных предложений!
 type: docs
 weight: 120
 url: /ru/net/aspose.words/bordercollection/top/
@@ -18,13 +18,13 @@ public Border Top { get; }
 
 ## Примеры
 
-Показывает, как применять цвет границы и заливки при построении таблицы.
+Показывает, как применять цвет границ и заливки при построении таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Запускаем таблицу и устанавливаем цвет/толщину ее границ по умолчанию.
+// Создаем таблицу и устанавливаем цвет/толщину по умолчанию для ее границ.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -37,9 +37,9 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Сбрасываем форматирование ячейки, чтобы отключить цвета фона
-// устанавливаем собственную толщину границы для всех новых ячеек, созданных построителем,
-// затем создаем вторую строку.
+// Сбросить форматирование ячеек, чтобы отключить цвета фона
+// задаем пользовательскую толщину границы для всех новых ячеек, созданных конструктором,
+// затем построим второй ряд.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

@@ -3,7 +3,7 @@ title: FieldFormText
 linktitle: FieldFormText
 articleTitle: FieldFormText
 second_title: Aspose.Words для .NET
-description: FieldFormText строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldFormText — ваше решение для бесперебойного управления текстом в формах. Упростите процесс разработки уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldformtext/fieldformtext/

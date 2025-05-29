@@ -3,14 +3,14 @@ title: PatternType Enum
 linktitle: PatternType
 articleTitle: PatternType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.PatternType перечисление. Указывает образец заливки который будет использоваться для заливки фигуры на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.PatternType, чтобы улучшить ваши фигуры с помощью настраиваемых шаблонов заливки. Улучшите дизайн вашего документа без усилий!
 type: docs
-weight: 1170
+weight: 1550
 url: /ru/net/aspose.words.drawing/patterntype/
 ---
 ## PatternType enumeration
 
-Указывает образец заливки, который будет использоваться для заливки фигуры.
+Указывает узор заливки, который будет использоваться для заливки фигуры.
 
 ```csharp
 public enum PatternType
@@ -20,7 +20,7 @@ public enum PatternType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `-1` | Нет рисунка. |
+| None | `-1` | Нет шаблона. |
 | Percent10 | `1` | 10% цвета переднего плана. |
 | Percent20 | `2` | 20% цвета переднего плана. |
 | Percent25 | `3` | 25% цвета переднего плана. |
@@ -34,47 +34,69 @@ public enum PatternType
 | Percent80 | `11` | 80% цвета переднего плана. |
 | Percent90 | `12` | 90% цвета переднего плана. |
 | Cross | `13` | Крест. |
-| DarkDownwardDiagonal | `14` | Темная нисходящая диагональ. |
-| DarkHorizontal | `15` | Темная горизонталь. |
-| DarkUpwardDiagonal | `16` | Темная диагональ вверх. |
+| DarkDownwardDiagonal | `14` | Темная диагональ вниз. |
+| DarkHorizontal | `15` | Темный горизонтальный. |
+| DarkUpwardDiagonal | `16` | Темная восходящая диагональ. |
 | DarkVertical | `17` | Темная вертикаль. |
-| DashedDownwardDiagonal | `18` | Пунктирная нисходящая диагональ. |
-| DashedHorizontal | `19` | Пунктирная горизонталь. |
-| DashedUpwardDiagonal | `20` | Пунктирная диагональ вверх. |
-| DashedVertical | `21` | Пунктирная вертикаль. |
+| DashedDownwardDiagonal | `18` | Пунктирная диагональ вниз. |
+| DashedHorizontal | `19` | Горизонтальная пунктирная линия. |
+| DashedUpwardDiagonal | `20` | Пунктирная восходящая диагональ. |
+| DashedVertical | `21` | Вертикальная пунктирная линия. |
 | DiagonalBrick | `22` | Диагональный кирпич. |
 | DiagonalCross | `23` | Диагональный крест. |
 | Divot | `24` | Узор divot. |
 | DottedDiamond | `25` | Точечный ромб. |
-| DottedGrid | `26` | Пунктирная сетка. |
-| DownwardDiagonal | `27` | Нижняя диагональ. |
+| DottedGrid | `26` | Точечная сетка. |
+| DownwardDiagonal | `27` | Нисходящая диагональ. |
 | Horizontal | `28` | Горизонтально. |
 | HorizontalBrick | `29` | Горизонтальный кирпич. |
 | LargeCheckerBoard | `30` | Большая шахматная доска. |
 | LargeConfetti | `31` | Большое конфетти. |
 | LargeGrid | `32` | Большая сетка. |
-| LightDownwardDiagonal | `33` | Светлая нисходящая диагональ. |
+| LightDownwardDiagonal | `33` | Светлая диагональ вниз. |
 | LightHorizontal | `34` | Светлый горизонтальный. |
-| LightUpwardDiagonal | `36` | Свет по диагонали вверх. |
-| LightVertical | `37` | Светлая вертикаль. |
-| NarrowHorizontal | `38` | Узкая горизонталь. |
-| NarrowVertical | `39` | Узкая вертикаль. |
+| LightUpwardDiagonal | `36` | Светлая восходящая диагональ. |
+| LightVertical | `37` | Свет вертикальный. |
+| NarrowHorizontal | `38` | Узкий горизонтальный. |
+| NarrowVertical | `39` | Узкий вертикальный. |
 | OutlinedDiamond | `40` | Очерченный ромб. |
 | Plaid | `41` | Плед. |
-| Shingle | `42` | Гонт. |
+| Shingle | `42` | Дранка. |
 | SmallCheckerBoard | `43` | Маленькая шахматная доска. |
 | SmallConfetti | `44` | Маленькое конфетти. |
-| SmallGrid | `45` | Мелкая сетка. |
-| SolidDiamond | `46` | Сплошной ромб. |
+| SmallGrid | `45` | Маленькая сетка. |
+| SolidDiamond | `46` | Сплошной алмаз. |
 | Sphere | `47` | Сфера. |
 | Trellis | `48` | Решетка. |
-| UpwardDiagonal | `49` | Диагональ вверх. |
-| Vertical | `50` | Вертикально. |
+| UpwardDiagonal | `49` | Восходящая диагональ. |
+| Vertical | `50` | Вертикальный. |
 | Wave | `51` | Волна. |
-| Weave | `52` | Переплетение. |
-| WideDownwardDiagonal | `53` | Широкая нисходящая диагональ. |
-| WideUpwardDiagonal | `54` | Широкая диагональ вверх. |
+| Weave | `52` | Плетение. |
+| WideDownwardDiagonal | `53` | Широкая диагональ вниз. |
+| WideUpwardDiagonal | `54` | Широкая восходящая диагональ. |
 | ZigZag | `55` | Зигзаг. |
+
+## Примеры
+
+Показывает, как задать узор для фигуры.
+
+```csharp
+Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Fill fill = shape.Fill;
+
+Console.WriteLine("Pattern value is: {0}", fill.Pattern);
+
+// Существует несколько способов задания заливки по шаблону.
+// 1 - Применить узор к заливке фигуры:
+fill.Patterned(PatternType.DiagonalBrick);
+
+// 2 - Применить узор с цветами переднего плана и фона к заливке фигуры:
+fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
+
+doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
+```
 
 ### Смотрите также
 

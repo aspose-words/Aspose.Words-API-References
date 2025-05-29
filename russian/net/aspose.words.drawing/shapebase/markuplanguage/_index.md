@@ -3,14 +3,14 @@ title: ShapeBase.MarkupLanguage
 linktitle: MarkupLanguage
 articleTitle: MarkupLanguage
 second_title: Aspose.Words для .NET
-description: ShapeBase MarkupLanguage свойство. Получает язык разметки используемый для этого графического объекта на С#.
+description: Откройте для себя свойство ShapeBase MarkupLanguage для улучшенного управления графическими объектами. Откройте для себя бесшовную интеграцию и улучшенную эффективность дизайна уже сегодня!
 type: docs
-weight: 390
+weight: 410
 url: /ru/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property
 
-Получает язык разметки, используемый для этого графического объекта.
+Получает MarkupLanguage, используемый для этого графического объекта.
 
 ```csharp
 public ShapeMarkupLanguage MarkupLanguage { get; }

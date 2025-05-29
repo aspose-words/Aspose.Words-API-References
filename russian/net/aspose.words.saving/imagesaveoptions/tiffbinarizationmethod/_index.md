@@ -3,14 +3,14 @@ title: ImageSaveOptions.TiffBinarizationMethod
 linktitle: TiffBinarizationMethod
 articleTitle: TiffBinarizationMethod
 second_title: Aspose.Words для .NET
-description: ImageSaveOptions TiffBinarizationMethod свойство. Получает или задает метод используемый при преобразовании изображений в формат 1 бит/пиксель  когдаSaveFormat являетсяTiff and TiffCompression равноCcitt3 илиCcitt4  на С#.
+description: Откройте для себя свойство TiffBinarizationMethod для ImageSaveOptions. Легко конвертируйте изображения в формат 1 bpp со сжатием Ccitt3 или Ccitt4.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-Получает или задает метод, используемый при преобразовании изображений в формат 1 бит/пиксель , когда[`SaveFormat`](../saveformat/) являетсяTiff and [`TiffCompression`](../tiffcompression/) равноCcitt3 илиCcitt4 .
+Возвращает или задает метод, используемый при преобразовании изображений в формат 1 bpp , когда[`SaveFormat`](../saveformat/) являетсяTiff и [`TiffCompression`](../tiffcompression/) равноCcitt3 илиCcitt4 .
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -32,10 +32,10 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Когда мы сохраняем документ в формате TIFF, мы можем передать объект SaveOptions в
-// корректируем сглаживание, которое Aspose.Words будет применять при рендеринге этого изображения.
-// Значение по умолчанию свойства ThresholdForFloydSteinbergDithering — 128.
-// Более высокие значения приводят к более темным изображениям.
+// Когда мы сохраняем документ как TIFF, мы можем передать объект SaveOptions
+// настройте сглаживание, которое Aspose.Words будет применять при рендеринге этого изображения.
+// Значение свойства "ThresholdForFloydSteinbergDithering" по умолчанию равно 128.
+// Более высокие значения, как правило, приводят к получению более темных изображений.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

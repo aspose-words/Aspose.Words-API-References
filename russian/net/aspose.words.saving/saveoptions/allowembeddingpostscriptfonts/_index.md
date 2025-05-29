@@ -3,14 +3,14 @@ title: SaveOptions.AllowEmbeddingPostScriptFonts
 linktitle: AllowEmbeddingPostScriptFonts
 articleTitle: AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words для .NET
-description: SaveOptions AllowEmbeddingPostScriptFonts свойство. Получает или задает логическое значение указывающее разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчаниюЛОЖЬ  на С#.
+description: Управляйте внедрением шрифтов в ваши документы с помощью SaveOptions' AllowEmbeddingPostScriptFonts. Легко управляйте параметрами шрифтов TrueType для повышения качества документов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-Получает или задает логическое значение, указывающее, разрешено ли встраивание шрифтов PostScript в контуры PostScript при встраивании шрифтов TrueType в документ после его сохранения. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее, разрешать ли встраивание шрифтов с контурами PostScript при встраивании шрифтов TrueType в документ при его сохранении. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
@@ -20,7 +20,7 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 Обратите внимание: Word не встраивает шрифты PostScript, но может открывать документы со встроенными шрифтами этого типа.
 
-Этот вариант работает только тогда, когда[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) из [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) свойство установлено на`истинный`.
+Эта опция работает только тогда, когда[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) из x000d_[`FontInfos`](../../../aspose.words/documentbase/fontinfos/) свойство установлено на`истинный`.
 
 ## Примеры
 
@@ -33,12 +33,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "PostScriptFont";
 builder.Writeln("Some text with PostScript font.");
 
-// Загрузите шрифт PostScript для использования в документе.
+// Загружаем шрифт PostScript для использования в документе.
 MemoryFontSource otf = new MemoryFontSource(File.ReadAllBytes(FontsDir + "AllegroOpen.otf"));
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
 
-// Встраивание шрифтов TrueType.
+// Внедрение шрифтов TrueType.
 doc.FontInfos.EmbedTrueTypeFonts = true;
 
 // Разрешить встраивание шрифтов PostScript при встраивании шрифтов TrueType.

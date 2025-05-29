@@ -3,14 +3,14 @@ title: Field.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words для .NET
-description: Field Separator свойство. Получает узел представляющий разделитель полей. Возможнонулевой  на С#.
+description: Откройте для себя свойство Field Separator для легкого доступа к узлу, представляющему разделитель полей, что повышает эффективность управления данными. Узнайте больше!
 type: docs
 weight: 80
 url: /ru/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-Получает узел, представляющий разделитель полей. Возможно`нулевой` .
+Получает узел, представляющий разделитель полей. Может быть`нулевой` .
 
 ```csharp
 public FieldSeparator Separator { get; }
@@ -18,7 +18,7 @@ public FieldSeparator Separator { get; }
 
 ## Примеры
 
-Показывает, как работать с коллекцией полей.
+Показывает, как работать с набором полей.
 
 ```csharp
 public void FieldCollection()
@@ -38,7 +38,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей, выводим содержимое и печатаем
+    // Проходим по коллекции полей и выводим содержимое и тип
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Реализация посетителя документа, который печатает информацию о поле.
+/// Реализация посетителя документа, который выводит информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

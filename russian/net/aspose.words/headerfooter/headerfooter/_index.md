@@ -3,7 +3,7 @@ title: HeaderFooter
 linktitle: HeaderFooter
 articleTitle: HeaderFooter
 second_title: Aspose.Words для .NET
-description: HeaderFooter строитель. Создает новый верхний или нижний колонтитул указанного типа на С#.
+description: Создавайте потрясающие заголовки и нижние колонтитулы без усилий с помощью нашего интуитивно понятного конструктора. Настройте внешний вид вашего веб-сайта для уникального, профессионального штриха!
 type: docs
 weight: 10
 url: /ru/net/aspose.words/headerfooter/headerfooter/
@@ -19,7 +19,7 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
-| headerFooterType | HeaderFooterType | А[`HeaderFooterType`](../headerfootertype/) value , указывающее тип верхнего или нижнего колонтитула. |
+| headerFooterType | HeaderFooterType | А[`HeaderFooterType`](../headerfootertype/)value , указывающее тип верхнего или нижнего колонтитула. |
 
 ## Примечания
 
@@ -29,13 +29,13 @@ public HeaderFooter(DocumentBase doc, HeaderFooterType headerFooterType)
 
 ## Примеры
 
-Показывает, как создать верхний и нижний колонтитулы.
+Показывает, как создать верхний и нижний колонтитул.
 
 ```csharp
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится вверху каждой страницы этого раздела, над основным текстом.
+// будет отображаться в верхней части каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -45,7 +45,7 @@ Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
 // Создаем нижний колонтитул и добавляем к нему абзац. Текст в этом абзаце
-// появится внизу каждой страницы этого раздела, под основным текстом.
+// будет отображаться внизу каждой страницы этого раздела, под основным текстом.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

@@ -3,7 +3,7 @@ title: Table.Description
 linktitle: Description
 articleTitle: Description
 second_title: Aspose.Words для .NET
-description: Table Description свойство. Получает или задает описание этой таблицы. Предоставляет альтернативное текстовое представление информации содержащейся в таблице на С#.
+description: Улучшите свои таблицы с помощью описательных свойств для лучшей доступности. Легко устанавливайте и извлекайте альтернативный текст для улучшения пользовательского опыта.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.tables/table/description/
@@ -20,11 +20,11 @@ public string Description { get; set; }
 
 Значение по умолчанию — пустая строка.
 
-Это свойство имеет смысл для документов DOCX , соответствующих стандарту ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). При сохранении в форматах, предшествующих ISO/IEC 29500, это свойство игнорируется.
+Это свойство имеет значение для документов DOCX, соответствующих стандарту ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). При сохранении в форматах, предшествующих ISO/IEC 29500, свойство игнорируется.
 
 ## Примеры
 
-Показывает, как построить вложенную таблицу без использования построителя документов.
+Показывает, как построить вложенную таблицу без использования конструктора документов.
 
 ```csharp
 public void CreateNestedTable()
@@ -35,7 +35,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Создайте еще одну таблицу с двумя строками и двумя столбцами, а затем вставьте ее в первую ячейку первой таблицы.
+    // Создаем еще одну таблицу с двумя строками и двумя столбцами, а затем вставляем ее в первую ячейку первой таблицы.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -43,7 +43,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Создает в документе новую таблицу с заданными размерами и текстом в каждой ячейке.
+/// Создает новую таблицу в документе с заданными размерами и текстом в каждой ячейке.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -64,10 +64,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Вы можете использовать свойства «Название» и «Описание», чтобы добавить в таблицу заголовок и описание соответственно.
-    // В таблице должна быть хотя бы одна строка, прежде чем мы сможем использовать эти свойства.
-    // Эти свойства имеют смысл для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
-    // Если мы сохраним документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
+    // Вы можете использовать свойства «Заголовок» и «Описание», чтобы добавить заголовок и описание к вашей таблице соответственно.
+    // Таблица должна иметь хотя бы одну строку, прежде чем мы сможем использовать эти свойства.
+    // Эти свойства имеют значение для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
+    // Если мы сохраняем документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

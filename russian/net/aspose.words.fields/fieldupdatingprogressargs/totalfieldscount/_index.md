@@ -3,14 +3,14 @@ title: FieldUpdatingProgressArgs.TotalFieldsCount
 linktitle: TotalFieldsCount
 articleTitle: TotalFieldsCount
 second_title: Aspose.Words для .NET
-description: FieldUpdatingProgressArgs TotalFieldsCount свойство. Получает общее количество обновляемых полей на С#.
+description: Откройте для себя свойство TotalFieldsCount в FieldUpdatingProgressArgs для эффективного отслеживания и управления обновлениями полей для повышения производительности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
 ---
 ## FieldUpdatingProgressArgs.TotalFieldsCount property
 
-Получает общее количество обновляемых полей.
+Получает общее количество полей для обновления.
 
 ```csharp
 public int TotalFieldsCount { get; }
@@ -46,7 +46,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Реализуйте этот интерфейс, если вы хотите, чтобы во время обновления поля вызывались ваши собственные методы.
+/// Реализуйте этот интерфейс, если вы хотите, чтобы ваши собственные методы вызывались во время обновления поля.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -56,7 +56,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается непосредственно перед обновлением поля.
+    /// Пользовательский метод, который вызывается непосредственно перед обновлением поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -68,7 +68,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается сразу после обновления поля.
+    /// Пользовательский метод, который вызывается сразу после обновления поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

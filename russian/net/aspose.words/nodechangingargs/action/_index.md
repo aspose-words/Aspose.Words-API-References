@@ -3,7 +3,7 @@ title: NodeChangingArgs.Action
 linktitle: Action
 articleTitle: Action
 second_title: Aspose.Words для .NET
-description: NodeChangingArgs Action свойство. Получает значение указывающее какой тип события изменения узла происходит на С#.
+description: Откройте для себя свойство NodeChangingArgs Action, чтобы без труда идентифицировать события изменения узла. Повысьте эффективность кодирования с помощью этой важной функции!
 type: docs
 weight: 10
 url: /ru/net/aspose.words/nodechangingargs/action/
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Печатает каждую вставку/удаление узла, как это происходит в документе.
+/// Печатает каждую вставку/удаление узла по мере их возникновения в документе.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

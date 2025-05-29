@@ -3,9 +3,9 @@ title: Document.OriginalLoadFormat
 linktitle: OriginalLoadFormat
 articleTitle: OriginalLoadFormat
 second_title: Aspose.Words для .NET
-description: Document OriginalLoadFormat свойство. Получает формат исходного документа который был загружен в этот объект на С#.
+description: Откройте для себя свойство OriginalLoadFormat, чтобы легко получить доступ к формату исходного документа, загруженного в ваш объект, что улучшает управление документами.
 type: docs
-weight: 300
+weight: 310
 url: /ru/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property

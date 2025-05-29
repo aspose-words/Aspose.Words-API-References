@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.Image
 linktitle: Image
 articleTitle: Image
 second_title: Aspose.Words для .NET
-description: ImageFieldMergingArgs Image свойство. Указывает изображение которое механизм слияния почты должен вставить в документ на С#.
+description: Узнайте, как использовать ImageFieldMergingArgs для бесшовной вставки изображений в документы и создания безупречного процесса слияния писем.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -18,22 +18,22 @@ public Image Image { get; set; }
 
 ## Примеры
 
-Показывает, как использовать обратный вызов для настройки логики слияния изображений.
+Показывает, как использовать обратный вызов для настройки логики объединения изображений.
 
 ```csharp
 public void MergeFieldImages()
 {
     Document doc = new Document();
 
-    // Вставляем MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
-    // столбец в источнике данных, содержащий имена локальных системных файлов изображений, которые мы хотим использовать при слиянии писем.
+    // Вставьте MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
+    // столбец в источнике данных, содержащий локальные системные имена файлов изображений, которые мы хотим использовать при слиянии.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // В этом случае поле ожидает, что источник данных будет иметь такой столбец с именем «ImageColumn».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Имена файлов могут быть длинными, и если мы найдем способ избежать их хранения в источнике данных,
+    // Имена файлов могут быть длинными, и если мы сможем найти способ избежать их хранения в источнике данных,
     // мы можем значительно уменьшить его размер.
     // Создайте источник данных, который ссылается на изображения, используя короткие имена.
     DataTable dataTable = new DataTable("Images");
@@ -41,7 +41,7 @@ public void MergeFieldImages()
     dataTable.Rows.Add("Dark logo");
     dataTable.Rows.Add("Transparent logo");
 
-    // Назначаем обратный вызов слияния, который содержит всю логику, обрабатывающую эти имена,
+    // Назначаем объединяющий обратный вызов, содержащий всю логику, обрабатывающую эти имена,
      // а затем выполнить слияние почты.
     doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
     doc.MailMerge.Execute(dataTable);
@@ -50,9 +50,9 @@ public void MergeFieldImages()
 }
 
 /// <summary>
-/// Содержит словарь, который сопоставляет имена изображений с именами локальных системных файлов, содержащих эти изображения.
+/// Содержит словарь, который сопоставляет имена изображений с именами файлов локальной системы, содержащих эти изображения.
 /// Если источник данных слияния почты использует одно из имен словаря для ссылки на изображение,
-/// этот обратный вызов передаст соответствующее имя файла в пункт назначения слияния.
+/// этот обратный вызов передаст соответствующее имя файла в место назначения слияния.
 /// </summary>
 private class ImageFilenameCallback : IFieldMergingCallback
 {
@@ -72,7 +72,7 @@ private class ImageFilenameCallback : IFieldMergingCallback
     {
         if (mImageFilenames.ContainsKey(args.FieldValue.ToString()))
         {
-            #if NET48 || JAVA
+            #if NET461_OR_GREATER || JAVA
             args.Image = Image.FromFile(mImageFilenames[args.FieldValue.ToString()]);
             #elif NET5_0_OR_GREATER
             args.Image = SKBitmap.Decode(mImageFilenames[args.FieldValue.ToString()]);

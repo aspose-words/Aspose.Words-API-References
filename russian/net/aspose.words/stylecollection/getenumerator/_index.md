@@ -3,7 +3,7 @@ title: StyleCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: StyleCollection GetEnumerator метод. Получает объект перечислителя который будет перечислять стили в алфавитном порядке их имен на С#.
+description: Откройте для себя метод StyleCollection GetEnumerator для легкого перечисления стилей в алфавитном порядке по имени. Повысьте эффективность кодирования сегодня!
 type: docs
 weight: 90
 url: /ru/net/aspose.words/stylecollection/getenumerator/
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

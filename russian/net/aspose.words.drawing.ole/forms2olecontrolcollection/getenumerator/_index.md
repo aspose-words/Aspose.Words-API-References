@@ -3,7 +3,7 @@ title: Forms2OleControlCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: Forms2OleControlCollection GetEnumerator метод. Получает перечислитель на С#.
+description: Откройте для себя метод Forms2OleControlCollection GetEnumerator, позволяющий легко извлекать перечислители для эффективной обработки данных в ваших приложениях.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/

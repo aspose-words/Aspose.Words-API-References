@@ -3,14 +3,14 @@ title: PageSavingArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words для .NET
-description: PageSavingArgs PageIndex свойство. Индекс текущей страницы на С#.
+description: Откройте для себя свойство PageIndex PageSavingArgs для эффективного управления страницами. Оптимизируйте навигацию с точным отслеживанием текущей страницы.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pagesavingargs/pageindex/
 ---
 ## PageSavingArgs.PageIndex property
 
-Индекс текущей страницы.
+Текущая страница index.
 
 ```csharp
 public int PageIndex { get; }
@@ -18,7 +18,7 @@ public int PageIndex { get; }
 
 ## Примеры
 
-Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
+Показывает, как использовать обратный вызов для постраничного сохранения документа в формате HTML.
 
 ```csharp
 public void PageFileNames()
@@ -33,7 +33,7 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Создаем объект HtmlFixedSaveOptions, который мы можем передать методу Save документа.
+    // Создаем объект "HtmlFixedSaveOptions", который можно передать методу "Save" документа
     // чтобы изменить способ преобразования документа в HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
@@ -50,7 +50,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// Сохраняет все страницы в файл и каталог, указанные внутри.
+/// Сохраняет все страницы в указанном файле и каталоге.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -59,10 +59,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую страницу документа.
-        // 1 - Установить имя файла выходной страницы:
+        // 1 — Задайте имя файла для выходного файла страницы:
         args.PageFileName = outFileName;
 
-        // 2 — Создать собственный поток для выходного файла страницы:
+        // 2 — Создать пользовательский поток для выходного файла страницы:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

@@ -3,14 +3,14 @@ title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
 second_title: Aspose.Words для .NET
-description: List HasSameTemplate метод. Возвращает true если текущий список и данный список созданы на основе одного и того же шаблона на С#.
+description: Откройте для себя метод HasSameTemplate, который позволяет легко проверить, используют ли два списка один и тот же шаблон, обеспечивая согласованность и эффективность управления данными.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.lists/list/hassametemplate/
 ---
 ## List.HasSameTemplate method
 
-Возвращает true, если текущий список и данный список созданы на основе одного и того же шаблона.
+Возвращает true, если текущий список и заданный список созданы из одного и того же шаблона.
 
 ```csharp
 public bool HasSameTemplate(List other)

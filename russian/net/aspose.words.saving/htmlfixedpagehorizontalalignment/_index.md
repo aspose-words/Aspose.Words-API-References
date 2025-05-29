@@ -3,14 +3,14 @@ title: HtmlFixedPageHorizontalAlignment Enum
 linktitle: HtmlFixedPageHorizontalAlignment
 articleTitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment перечисление. Определяет горизонтальное выравнивание страниц в выходном HTMLдокументе на С#.
+description: Откройте для себя перечисление Aspose.Words.HtmlFixedPageHorizontalAlignment для точного управления выравниванием страниц в ваших HTML-документах. Улучшите форматирование ваших документов сегодня!
 type: docs
-weight: 5070
+weight: 5820
 url: /ru/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
 
-Определяет горизонтальное выравнивание страниц в выходном HTML-документе.
+Задает горизонтальное выравнивание страниц в выходном HTML-документе.
 
 ```csharp
 public enum HtmlFixedPageHorizontalAlignment
@@ -21,7 +21,7 @@ public enum HtmlFixedPageHorizontalAlignment
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Left | `0` | Выровнять страницы по левому краю. |
-| Center | `1` | Центральные страницы. Это значение по умолчанию. |
+| Center | `1` | Центрировать страницы. Это значение по умолчанию. |
 | Right | `2` | Выровнять страницы по правому краю. |
 
 ## Примеры
@@ -47,11 +47,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

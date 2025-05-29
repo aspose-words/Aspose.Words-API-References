@@ -3,7 +3,7 @@ title: FieldAuthor
 linktitle: FieldAuthor
 articleTitle: FieldAuthor
 second_title: Aspose.Words для .NET
-description: FieldAuthor строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldAuthor — ваш инструмент для бесперебойного создания и настройки контента. Откройте новые возможности сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldauthor/fieldauthor/

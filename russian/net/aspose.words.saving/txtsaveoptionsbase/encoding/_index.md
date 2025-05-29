@@ -3,14 +3,14 @@ title: TxtSaveOptionsBase.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words для .NET
-description: TxtSaveOptionsBase Encoding свойство. Указывает кодировку которая будет использоваться при экспорте в текстовые форматы. Значение по умолчаниюКодировка.UTF8  на С#.
+description: Узнайте, как оптимизировать экспорт текста с помощью свойства кодировки TxtSaveOptionsBase. Легко устанавливайте параметры кодировки для бесшовного форматирования текста UTF-8.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Указывает кодировку, которая будет использоваться при экспорте в текстовые форматы. Значение по умолчанию:**Кодировка.UTF8** .
+Указывает кодировку, используемую при экспорте в текстовые форматы. Значение по умолчанию:**Кодировка.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,20 +18,20 @@ public Encoding Encoding { get; set; }
 
 ## Примеры
 
-Показывает, как установить кодировку для выходного документа .txt.
+Показывает, как задать кодировку для выходного документа .txt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Добавляем текст с символами вне набора символов ASCII.
+// Добавьте текст с символами, не входящими в набор символов ASCII.
 builder.Write("À È Ì Ò Ù.");
 
-// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ сохранения документа в виде обычного текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Убедитесь, что свойство «Кодировка» содержит подходящую кодировку для содержимого нашего документа.
+// Проверяем, что свойство «Кодировка» содержит соответствующую кодировку для содержимого нашего документа.
 Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);

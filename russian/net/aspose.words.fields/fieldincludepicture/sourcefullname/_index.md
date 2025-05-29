@@ -3,7 +3,7 @@ title: FieldIncludePicture.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words для .NET
-description: FieldIncludePicture SourceFullName свойство. Получает или задает местоположение изображения с помощью IRI на С#.
+description: Откройте для себя свойство FieldIncludePicture SourceFullName. Легко управляйте местоположениями изображений с помощью IRI для улучшенной интеграции мультимедиа и бесперебойного пользовательского опыта.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldincludepicture/sourcefullname/

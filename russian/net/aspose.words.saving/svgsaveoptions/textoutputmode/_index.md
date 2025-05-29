@@ -3,14 +3,14 @@ title: SvgSaveOptions.TextOutputMode
 linktitle: TextOutputMode
 articleTitle: TextOutputMode
 second_title: Aspose.Words для .NET
-description: SvgSaveOptions TextOutputMode свойство. Получает или задает значение определяющее способ отображения текста в SVG на С#.
+description: Откройте для себя свойство SvgSaveOptions TextOutputMode, которое управляет рендерингом текста в SVG для улучшения визуального качества и настройки. Оптимизируйте свою графику сегодня!
 type: docs
-weight: 90
+weight: 120
 url: /ru/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
 
-Получает или задает значение, определяющее способ отображения текста в SVG.
+Возвращает или задает значение, определяющее, как текст должен отображаться в SVG.
 
 ```csharp
 public SvgTextOutputMode TextOutputMode { get; set; }
@@ -18,18 +18,18 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ## Примечания
 
-Используйте это свойство, чтобы получить или установить режим отображения текста внутри документа при сохранении в формате SVG.
+Используйте это свойство, чтобы получить или задать режим отображения текста внутри документа при сохранении в формате SVG.
 
 Значение по умолчанию:UseTargetMachineFonts.
 
 ## Примеры
 
-Показывает, как имитировать свойства изображений при преобразовании документа .docx в .svg.
+Показывает, как имитировать свойства изображений при конвертации документа .docx в .svg.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Настройте объект SvgSaveOptions для сохранения без границ страницы и выбираемого текста.
+// Настройте объект SvgSaveOptions для сохранения без границ страницы или выбираемого текста.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

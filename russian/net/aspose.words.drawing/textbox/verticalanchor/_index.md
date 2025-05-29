@@ -3,14 +3,14 @@ title: TextBox.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
 second_title: Aspose.Words для .NET
-description: TextBox VerticalAnchor свойство. Определяет вертикальное выравнивание текста внутри фигуры на С#.
+description: Узнайте, как свойство TextBox VerticalAnchor улучшает выравнивание текста внутри фигур, улучшая дизайн и читаемость ваших проектов.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.drawing/textbox/verticalanchor/
 ---
 ## TextBox.VerticalAnchor property
 
-Определяет вертикальное выравнивание текста внутри фигуры.
+Задает вертикальное выравнивание текста внутри фигуры.
 
 ```csharp
 public TextBoxAnchor VerticalAnchor { get; set; }
@@ -30,12 +30,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
-// Установите для свойства "VerticalAnchor" значение "TextBoxAnchor.Top", чтобы
-// выравниваем текст в этом текстовом поле по верхней стороне фигуры.
-// Установите для свойства "VerticalAnchor" значение "TextBoxAnchor.Middle", чтобы
-// выравниваем текст в этом текстовом поле по центру фигуры.
-// Установите для свойства "VerticalAnchor" значение "TextBoxAnchor.Bottom", чтобы
-// выравниваем текст в этом текстовом поле по низу фигуры.
+// Установите свойство "VerticalAnchor" на "TextBoxAnchor.Top" для
+// выровнять текст в этом текстовом поле по верхней стороне фигуры.
+// Установите свойство "VerticalAnchor" на "TextBoxAnchor.Middle" для
+// выровнять текст в этом текстовом поле по центру фигуры.
+// Установите свойство "VerticalAnchor" на "TextBoxAnchor.Bottom" для
+// выровнять текст в этом текстовом поле по нижнему краю фигуры.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);

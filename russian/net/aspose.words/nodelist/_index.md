@@ -3,16 +3,16 @@ title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
 second_title: Aspose.Words для .NET
-description: Aspose.Words.NodeList сорт. Представляет коллекцию узлов соответствующих запросу XPath выполненному с использованиемSelectNodes метод на С#.
+description: Изучите класс Aspose.Words.NodeList — ваше идеальное решение для эффективного управления результатами запросов XPath и расширения возможностей обработки документов.
 type: docs
-weight: 4220
+weight: 4910
 url: /ru/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
 Представляет коллекцию узлов, соответствующих запросу XPath, выполненному с использованием[`SelectNodes`](../compositenode/selectnodes/) метод.
 
-Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) документальная статья.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -23,13 +23,13 @@ public class NodeList : IEnumerable<Node>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/nodelist/count/) { get; } | Получает количество узлов в списке. |
-| [Item](../../aspose.words/nodelist/item/) { get; } | Извлекает узел по заданному индексу. |
+| [Item](../../aspose.words/nodelist/item/) { get; } | Извлекает узел по указанному индексу. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Обеспечивает простую итерацию в стиле «foreach» по коллекции узлов. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Копирует все узлы из коллекции в новый массив узлов. |
 
 ## Примечания
@@ -38,7 +38,7 @@ public class NodeList : IEnumerable<Node>
 
 `NodeList` поддерживает индексированный доступ и итерацию.
 
-относиться к`NodeList` Коллекция как коллекция «снимков».`NodeList`начинается как «живая» коллекция, поскольку узлы фактически не извлекаются при выполнении запроса XPath. Узлы извлекаются только при доступе, и в это время узел и все узлы, которые предшествуют ему, кэшируются, образуя коллекцию «снимков».
+Лечить`NodeList` коллекция как коллекция «моментальных снимков».`NodeList` starts как «живая» коллекция, поскольку узлы фактически не извлекаются при запуске запроса XPath. Узлы извлекаются только при доступе, и в это время узел и все предшествующие ему узлы кэшируются, образуя коллекцию «моментального снимка».
 
 ## Примеры
 
@@ -61,8 +61,8 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Гиперссылки в документах Word — это поля. Чтобы начать поиск гиперссылок, мы должны сначала найти все поля.
-            // Используйте метод SelectNodes, чтобы найти все поля в документе через XPath.
+            // Гиперссылки в документах Word — это поля. Чтобы начать искать гиперссылки, мы должны сначала найти все поля.
+            // Используйте метод «SelectNodes» для поиска всех полей в документе с помощью XPath.
             NodeList fieldStarts = doc.SelectNodes("//FieldStart");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
@@ -75,7 +75,7 @@ namespace ApiExamples
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Даем каждой URL-гиперссылке новый URL-адрес и имя.
+                    // Дайте каждой гиперссылке URL новый URL и имя.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -91,7 +91,7 @@ namespace ApiExamples
      ///<summary>
       ///Поля HYPERLINK содержат и отображают гиперссылки в теле документа. Поле в Aspose.Words
       ///состоит из нескольких узлов, и может быть сложно работать со всеми этими узлами напрямую.
-     ///Эта реализация будет работать, только если код и имя гиперссылки состоят только из одного узла Run.
+     ///Эта реализация будет работать только в том случае, если код и имя гиперссылки состоят только из одного узла Run.
     ///
      ///Структура узла для полей следующая:
      ///
@@ -114,18 +114,18 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // Находим узел разделителя полей.
+            // Найти узел разделителя полей.
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // Обычно мы всегда можем найти конечный узел поля, но пример документа
-             // содержит разрыв абзаца внутри гиперссылки, что ставит конец поля
-            // в следующем абзаце. Гораздо сложнее будет обрабатывать поля, охватывающие несколько
-            // абзацы правильно. В этом случае достаточно разрешить, чтобы конец поля был нулевым.
+             // Обычно мы всегда можем найти конечный узел поля, но в примере документа
+             // содержит разрыв абзаца внутри гиперссылки, что переводит поле в конец
+             // в следующем абзаце. Будет гораздо сложнее обрабатывать поля, которые охватывают несколько
+            // абзацы правильно. В этом случае достаточно разрешить полю end быть null.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // Код поля выглядит примерно так: «ГИПЕРССЫЛКА «http:\\www.myurl.com»», но может состоять из нескольких прогонов.
+            // Код поля выглядит примерно так: «HYPERLINK "http:\\www.myurl.com"», но может состоять из нескольких строк.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
@@ -139,10 +139,13 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // Отображаемое имя гиперссылки сохраняется в поле результата, которое представляет собой строку «Выполнить».
+                 // Отображаемое имя гиперссылки сохраняется в поле result, которое является Run
                 // узел между разделителем полей и концом поля.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
@@ -157,7 +160,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -180,7 +189,7 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // Код поля поля находится в узле Run между начальным узлом поля и разделителем полей.
+            // Код поля находится в узле Run между начальным узлом поля и разделителем полей.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
@@ -242,12 +251,12 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Одно или несколько ГИПЕРССЫЛОК без пробелов или другое слово на других языках.
+            "\\S+" + // Одна или несколько ГИПЕРССЫЛОК без пробелов или других слов на других языках.
             "\\s+" + // Один или несколько пробелов.
-            "(?:\"\"\\s+)?" + // Незахватывающий необязательный "" и один или несколько пробелов.
+            "(?:\"\"\\s+)?" + // Необязательный незахватывающий символ "" и один или несколько пробелов.
             "(\\\\l\\s+)?" + // Необязательный флаг \l, за которым следует один или несколько пробелов.
             "\"" +  // Один апостроф.
-            "([^\"]+)" + // Один или несколько символов, исключая апостроф (цель гиперссылки).
+            "([^\"]+)" + // Один или несколько символов, за исключением апострофа (цель гиперссылки).
             "\"" // Один закрывающий апостроф.
         );
     }

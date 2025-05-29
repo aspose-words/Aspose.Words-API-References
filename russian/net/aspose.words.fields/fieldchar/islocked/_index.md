@@ -3,14 +3,14 @@ title: FieldChar.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words для .NET
-description: FieldChar IsLocked свойство. Получает или задает заблокировано ли родительское поле не следует пересчитывать его результат на С#.
+description: Откройте для себя свойство FieldChar IsLocked, легко управляйте пересчетом полей. Повысьте точность и эффективность вашего документа сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldchar/islocked/
 ---
 ## FieldChar.IsLocked property
 
-Получает или задает, заблокировано ли родительское поле (не следует пересчитывать его результат).
+Возвращает или задает, заблокировано ли родительское поле (не следует пересчитывать его результат).
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Получаем фасадный объект, который представляет поле в документе.
+// Извлекаем объект фасада, представляющий поле в документе.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Обновляем поле, чтобы оно отображало текущую дату.
+// Обновите поле, чтобы отобразить текущую дату.
 field.Update();
 ```
 

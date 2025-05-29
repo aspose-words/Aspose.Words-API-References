@@ -3,14 +3,14 @@ title: ScriptShapingLevel Enum
 linktitle: ScriptShapingLevel
 articleTitle: ScriptShapingLevel
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Shaping.ScriptShapingLevel перечисление. Описывает уровни формирования необходимые для сценария на С#.
+description: Изучите перечисление Aspose.Words.Shaping.ScriptShapingLevel, чтобы понять уровни формирования скрипта, улучшить форматирование документа и представление текста.
 type: docs
-weight: 6070
+weight: 6900
 url: /ru/net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration
 
-Описывает уровни формирования, необходимые для сценария.
+Описывает уровни формирования, требуемые сценарием.
 
 ```csharp
 public enum ScriptShapingLevel
@@ -21,7 +21,7 @@ public enum ScriptShapingLevel
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | None | `0` | Скрипт не требует формирования. |
-| Unknown | `1` | Используется, когда уровень сценария не указан. |
+| Unknown | `1` | Используется, когда уровень для скрипта не указан. |
 | Minimum | `2` | Скрипт требует минимальной поддержки формирования. |
 | Full | `3` | Скрипт требует полной поддержки формирования. |
 

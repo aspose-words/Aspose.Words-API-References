@@ -3,7 +3,7 @@ title: FieldKeywords.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: FieldKeywords Text свойство. Получает или задает текст ключевых слов на С#.
+description: Управляйте своими FieldKeywords с легкостью! Получайте доступ и настраивайте текст ключевых слов для оптимальной производительности SEO и улучшения видимости.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldkeywords/text/
@@ -18,23 +18,23 @@ public string Text { get; set; }
 
 ## Примеры
 
-Показывает, что нужно вставить поле КЛЮЧЕВЫЕ СЛОВА.
+Показывает, как вставить поле КЛЮЧЕВЫЕ СЛОВА.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Добавьте несколько ключевых слов, также называемых «тегами» в проводнике.
+// Добавьте несколько ключевых слов, также называемых «тегами» в Проводнике.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
-// Поле KEYWORDS отображает значение этого свойства.
+// Поле КЛЮЧЕВЫЕ СЛОВА отображает значение этого свойства.
 FieldKeywords field = (FieldKeywords)builder.InsertField(FieldType.FieldKeyword, true);
 field.Update();
 
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// Установка значения свойства Text поля,
+// Установка значения для свойства Text поля,
 // а затем обновление поля также перезапишет соответствующее встроенное свойство новым значением.
 field.Text = "OverridingKeyword";
 field.Update();

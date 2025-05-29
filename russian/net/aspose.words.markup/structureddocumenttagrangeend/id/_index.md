@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeEnd.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeEnd Id свойство. Указывает для этого уникальный постоянный числовой идентификатор доступный только для чтения.Структурированный документTagRange node. СоответствующийStructuredDocumentTagRangeStart узел имеет то же самоеId  на С#.
+description: Откройте для себя свойство StructuredDocumentTagRangeEnd Id, уникальный идентификатор только для чтения для бесшовной маркировки документов. Улучшите управление документами сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-Указывает для этого уникальный постоянный числовой идентификатор, доступный только для чтения.**Структурированный документTagRange** node. Соответствующий[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) узел имеет то же самое[`Id`](../../structureddocumenttagrangestart/id/) .
+Указывает уникальный постоянный числовой идентификатор, доступный только для чтения, для этого**StructuredDocumentTagRange** node. Соответствующий[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) узел имеет тот же[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }

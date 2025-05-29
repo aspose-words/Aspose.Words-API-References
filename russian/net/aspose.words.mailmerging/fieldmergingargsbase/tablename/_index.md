@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words для .NET
-description: FieldMergingArgsBase TableName свойство. Получает имя таблицы данных для текущей операции слияния или пустую строку если имя недоступно на С#.
+description: Откройте для себя свойство FieldMergingArgsBase TableName, легко получайте доступ к имени таблицы данных для операций слияния или узнавайте, когда оно недоступно.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -18,7 +18,7 @@ public string TableName { get; }
 
 ## Примеры
 
-Показывает, как вставлять поля формы флажка в поля MERGEFIELD в качестве данных слияния во время слияния почты.
+Показывает, как вставлять поля формы с флажками в MERGEFIELD в качестве данных слияния во время слияния почты.
 
 ```csharp
 public void InsertCheckBox()
@@ -26,8 +26,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Используйте поля MERGEFIELD с тегами "TableStart"/"TableEnd" для определения региона слияния почты.
-    // который принадлежит источнику данных с именем «StudentCourse» и имеет поле MERGEFIELD, которое принимает данные из столбца с именем «CourseName».
+    // Используйте MERGEFIELD с тегами "TableStart"/"TableEnd" для определения области слияния почты
+    // который принадлежит источнику данных с именем «StudentCourse» и имеет MERGEFIELD, который принимает данные из столбца с именем «CourseName».
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -65,7 +65,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // В этом случае для каждого индекса записи «n» соответствующее значение поля — «Курс n».
+            // В этом случае для каждого индекса записи 'n' соответствующее значение поля — «Курс n».
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -82,7 +82,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 }
 
 /// <summary>
-/// Создает источник данных слияния почты.
+/// Создает источник данных для слияния почты.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

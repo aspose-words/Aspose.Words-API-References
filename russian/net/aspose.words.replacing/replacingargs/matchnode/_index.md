@@ -3,7 +3,7 @@ title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
 second_title: Aspose.Words для .NET
-description: ReplacingArgs MatchNode свойство. Получает узел содержащий начало совпадения на С#.
+description: Откройте для себя свойство ReplacingArgs MatchNode, чтобы легко получить доступ к узлу, в котором начинается сопоставление, что повысит эффективность и точность кодирования.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.replacing/replacingargs/matchnode/
@@ -40,11 +40,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставляем документ после абзаца, содержащего совпадающий текст.
+        // Вставить документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Удаляем абзац с совпадающим текстом.
+        // Удалить абзац с совпадающим текстом.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -66,7 +66,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропускаем узел, если это последний пустой абзац в разделе.
+                // Пропустить узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

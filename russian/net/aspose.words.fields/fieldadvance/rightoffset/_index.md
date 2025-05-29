@@ -3,14 +3,14 @@ title: FieldAdvance.RightOffset
 linktitle: RightOffset
 articleTitle: RightOffset
 second_title: Aspose.Words для .NET
-description: FieldAdvance RightOffset свойство. Получает или задает количество пунктов на которое текст следующий за полем должен быть перемещен вправо на С#.
+description: Откройте для себя свойство FieldAdvance RightOffset, легко настраивайте положение текста с помощью точного управления точками для улучшенного форматирования и ясности документа.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldadvance/rightoffset/
 ---
 ## FieldAdvance.RightOffset property
 
-Получает или задает количество пунктов, на которое текст, следующий за полем, должен быть перемещен вправо.
+Возвращает или задает количество точек, на которое текст, следующий за полем, должен быть перемещен вправо.
 
 ```csharp
 public string RightOffset { get; set; }
@@ -18,7 +18,7 @@ public string RightOffset { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле ADVANCE и отредактировать его свойства.
+Показывает, как вставить поле ADVANCE и редактировать его свойства.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Ниже приведены два способа использования поля ADVANCE для настройки положения следующего за ним текста.
+// Ниже приведены два способа использования поля ADVANCE для настройки положения текста, следующего за ним.
 // Эффекты поля ADVANCE продолжают применяться до тех пор, пока не закончится абзац,
-// или другое поле ADVANCE обновляет значения смещения/координаты.
-// 1 - Укажите смещение по направлению:
+// или другое поле ADVANCE обновляет значения смещения/координат.
+// 1 - Укажите смещение направления:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

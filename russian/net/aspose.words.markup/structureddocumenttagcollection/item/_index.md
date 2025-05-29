@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagCollection Item свойство. Возвращает тег структурированного документа по указанному индексу на С#.
+description: Получите доступ к структурированным тегам документов без усилий с помощью свойства Item. Извлеките любой тег по индексу для бесперебойного управления документами и улучшенной организации.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/item/
 ---
 ## StructuredDocumentTagCollection indexer
 
-Возвращает тег структурированного документа по указанному индексу.
+Возвращает структурированный тег документа по указанному индексу.
 
 ```csharp
 public IStructuredDocumentTag this[int index] { get; }
@@ -18,7 +18,7 @@ public IStructuredDocumentTag this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс в коллекции. |
+| index | Указатель коллекции. |
 
 ### Смотрите также
 

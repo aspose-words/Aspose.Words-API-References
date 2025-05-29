@@ -3,9 +3,9 @@ title: Chart.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words для .NET
-description: Chart SourceFullName свойство. Получает путь и имя файла xls/xlsx с которым связана эта диаграмма на С#.
+description: Откройте для себя свойство Chart SourceFullName, чтобы легко получить доступ к пути и имени связанных файлов XLS/XLSX для улучшенной визуализации данных.
 type: docs
-weight: 70
+weight: 100
 url: /ru/net/aspose.words.drawing.charts/chart/sourcefullname/
 ---
 ## Chart.SourceFullName property
@@ -27,9 +27,6 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 var sourceFullName = shape.Chart.SourceFullName;
 Assert.True(sourceFullName.Contains("Examples\\Data\\Spreadsheet.xlsx"));
-
-sourceFullName = "D:\\Documents\\ChartData.xlsx";
-Assert.True(sourceFullName.Equals("D:\\Documents\\ChartData.xlsx", StringComparison.Ordinal));
 ```
 
 ### Смотрите также

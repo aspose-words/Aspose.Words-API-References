@@ -3,7 +3,7 @@ title: ChartXValue.DateTimeValue
 linktitle: DateTimeValue
 articleTitle: DateTimeValue
 second_title: Aspose.Words для .NET
-description: ChartXValue DateTimeValue свойство. Получает сохраненное значение даты и времени на С#.
+description: Откройте для себя свойство ChartXValue DateTimeValue, позволяющее легко извлекать и управлять сохраненными значениями даты и времени для улучшенной визуализации данных.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/datetimevalue/

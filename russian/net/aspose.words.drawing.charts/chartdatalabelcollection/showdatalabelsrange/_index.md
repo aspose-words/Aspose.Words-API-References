@@ -3,9 +3,9 @@ title: ChartDataLabelCollection.ShowDataLabelsRange
 linktitle: ShowDataLabelsRange
 articleTitle: ShowDataLabelsRange
 second_title: Aspose.Words для .NET
-description: ChartDataLabelCollection ShowDataLabelsRange свойство. Позволяет указать будут ли значения из диапазона меток данных отображаться в метках данных всей серии. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство ShowDataLabelsRange в ChartDataLabelCollection. Управляйте видимостью меток данных для ваших серий и улучшайте представление данных без усилий!
 type: docs
-weight: 90
+weight: 120
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/
 ---
 ## ChartDataLabelCollection.ShowDataLabelsRange property
@@ -18,7 +18,86 @@ public bool ShowDataLabelsRange { get; set; }
 
 ## Примечания
 
-Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange/) свойство.
+Значение, определенное для этого свойства, может быть переопределено для отдельной метки данных с помощью [`ShowDataLabelsRange`](../../chartdatalabel/showdatalabelsrange/) свойство.
+
+## Примеры
+
+Показывает, как применять метки к точкам данных на линейной диаграмме.
+
+```csharp
+public void DataLabels()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+
+    Shape chartShape = builder.InsertChart(ChartType.Line, 400, 300);
+    Chart chart = chartShape.Chart;
+
+    Assert.AreEqual(3, chart.Series.Count);
+    Assert.AreEqual("Series 1", chart.Series[0].Name);
+    Assert.AreEqual("Series 2", chart.Series[1].Name);
+    Assert.AreEqual("Series 3", chart.Series[2].Name);
+
+    // Применить метки данных к каждой серии на диаграмме.
+    // Эти метки будут отображаться рядом с каждой точкой данных на графике и отображать ее значение.
+    foreach (ChartSeries series in chart.Series)
+    {
+        ApplyDataLabels(series, 4, "000.0", ", ");
+        Assert.AreEqual(4, series.DataLabels.Count);
+    }
+
+    // Измените строку разделителя для каждой метки данных в серии.
+    using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
+    {
+        while (enumerator.MoveNext())
+        {
+            Assert.AreEqual(", ", enumerator.Current.Separator);
+            enumerator.Current.Separator = " & ";
+        }
+    }
+
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
+
+    // Для более четкого вида графика мы можем удалить метки данных по отдельности.
+    dataLabel.ClearFormat();
+
+    // Мы также можем удалить целую серию меток данных за один раз.
+    chart.Series[2].DataLabels.ClearFormat();
+
+    doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
+}
+
+/// <summary>
+/// Применить метки данных с пользовательским числовым форматом и разделителем к нескольким точкам данных в серии.
+/// </summary>
+private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
+{
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
+    for (int i = 0; i < labelsCount; i++)
+    {
+        Assert.False(series.DataLabels[i].IsVisible);
+
+        series.DataLabels[i].ShowCategoryName = true;
+        series.DataLabels[i].ShowSeriesName = true;
+        series.DataLabels[i].ShowValue = true;
+        series.DataLabels[i].ShowLeaderLines = true;
+        series.DataLabels[i].ShowLegendKey = true;
+        series.DataLabels[i].ShowPercentage = false;
+        Assert.False(series.DataLabels[i].IsHidden);
+        Assert.False(series.DataLabels[i].ShowDataLabelsRange);
+
+        series.DataLabels[i].NumberFormat.FormatCode = numberFormat;
+        series.DataLabels[i].Separator = separator;
+
+        Assert.False(series.DataLabels[i].ShowDataLabelsRange);
+        Assert.True(series.DataLabels[i].IsVisible);
+        Assert.False(series.DataLabels[i].IsHidden);
+    }
+}
+```
 
 ### Смотрите также
 

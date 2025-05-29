@@ -3,14 +3,14 @@ title: CellFormat.SetPaddings
 linktitle: SetPaddings
 articleTitle: SetPaddings
 second_title: Aspose.Words для .NET
-description: CellFormat SetPaddings метод. Устанавливает количество места в пунктах добавляемое слева/сверху/справа/снизу содержимого ячейки на С#.
+description: Откройте для себя метод CellFormat SetPaddings, позволяющий настраивать интервалы между ячейками в пунктах, улучшая макет для улучшения читаемости и дизайна.
 type: docs
-weight: 160
+weight: 170
 url: /ru/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
 
-Устанавливает количество места (в пунктах), добавляемое слева/сверху/справа/снизу содержимого ячейки.
+Устанавливает размер пространства (в пунктах), добавляемого слева/сверху/справа/снизу содержимого ячейки.
 
 ```csharp
 public void SetPaddings(double leftPadding, double topPadding, double rightPadding, 
@@ -19,17 +19,17 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
 
 ## Примеры
 
-Показывает, как заполнить содержимое ячейки пробелами.
+Показывает, как дополнить содержимое ячейки пробелами.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Устанавливаем расстояние отступа (в пунктах) между границей и текстовым содержимым
- // каждой ячейки таблицы, которую мы создаем с помощью построителя документов.
+ // каждой ячейки таблицы, которую мы создаем с помощью конструктора документов.
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
-// Создаем таблицу с одной ячейкой, содержимое которой будет заполнено пробелами.
+// Создаем таблицу с одной ячейкой, содержимое которой будет иметь пробельные отступы.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +

@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertHorizontalRule
 linktitle: InsertHorizontalRule
 articleTitle: InsertHorizontalRule
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertHorizontalRule метод. Вставляет в документ фигуру горизонтальной линейки на С#.
+description: Улучшите свои документы с помощью метода InsertHorizontalRule в DocumentBuilder, легко добавляя стильные горизонтальные линии для лучшей организации и визуальной привлекательности.
 type: docs
-weight: 340
+weight: 370
 url: /ru/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
 
-Вставляет в документ фигуру горизонтальной линейки.
+Вставляет в документ горизонтальную линейку.
 
 ```csharp
 public Shape InsertHorizontalRule()
@@ -18,11 +18,11 @@ public Shape InsertHorizontalRule()
 
 ### Возвращаемое значение
 
-Форма, представляющая собой горизонтальное правило.
+Форма, представляющая собой горизонтальную линейку.
 
 ## Примеры
 
-Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
+Показывает, как вставить горизонтальную линейку и настроить ее форматирование.
 
 ```csharp
 Document doc = new Document();

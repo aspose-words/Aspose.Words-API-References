@@ -3,14 +3,14 @@ title: FieldTemplate.IncludeFullPath
 linktitle: IncludeFullPath
 articleTitle: IncludeFullPath
 second_title: Aspose.Words для .NET
-description: FieldTemplate IncludeFullPath свойство. Получает или задает необходимость включения полного пути к файлу на С#.
+description: Откройте для себя свойство FieldTemplate IncludeFullPath, которое позволяет легко управлять включением полного пути к файлу, повышая эффективность и организованность вашего проекта.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldtemplate/includefullpath/
 ---
 ## FieldTemplate.IncludeFullPath property
 
-Получает или задает необходимость включения полного пути к файлу.
+Возвращает или задает, следует ли включать полное имя пути к файлу.
 
 ```csharp
 public bool IncludeFullPath { get; set; }
@@ -24,8 +24,8 @@ public bool IncludeFullPath { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Мы можем установить имя шаблона, используя поля. Это свойство используется, когда «doc.AttachedTemplate» пуст.
-// Если это свойство пусто, используется имя файла шаблона по умолчанию «Normal.dotm».
+// Мы можем задать имя шаблона, используя поля. Это свойство используется, когда "doc.AttachedTemplate" пуст.
+// Если это свойство пустое, используется имя файла шаблона по умолчанию «Normal.dotm».
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);

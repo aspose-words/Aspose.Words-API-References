@@ -3,14 +3,14 @@ title: Field.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words для .NET
-description: Field Format свойство. ПолучаетFieldFormat объект обеспечивающий типизированный доступ к форматированию поля на С#.
+description: Откройте для себя свойство «Формат поля» для беспрепятственного доступа к объектам FieldFormat, повышая точность и простоту форматирования полей.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/field/format/
 ---
 ## Field.Format property
 
-Получает[`FieldFormat`](../../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля.
+Получает[`FieldFormat`](../../fieldformat/)объект, который обеспечивает типизированный доступ к форматированию поля.
 
 ```csharp
 public FieldFormat Format { get; }
@@ -24,7 +24,7 @@ public FieldFormat Format { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения формата.
+// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения форматирования.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Мы можем удалить наши форматы, чтобы вернуть результат поля в исходную форму.
+// Мы можем удалить наши форматы, чтобы вернуть результат поля к исходному виду.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

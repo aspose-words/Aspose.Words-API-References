@@ -3,7 +3,7 @@ title: FieldFileName
 linktitle: FieldFileName
 articleTitle: FieldFileName
 second_title: Aspose.Words для .NET
-description: FieldFileName строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldFileName — ваше решение для бесперебойной обработки файлов. Раскройте эффективность с помощью нашего конструктора по умолчанию сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldfilename/fieldfilename/

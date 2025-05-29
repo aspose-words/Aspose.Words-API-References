@@ -3,7 +3,7 @@ title: FieldGoToButton
 linktitle: FieldGoToButton
 articleTitle: FieldGoToButton
 second_title: Aspose.Words для .NET
-description: FieldGoToButton строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldGoToButton для бесшовной навигации. Упростите кодирование с помощью нашего конструктора по умолчанию и улучшите пользовательский опыт уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldgotobutton/fieldgotobutton/

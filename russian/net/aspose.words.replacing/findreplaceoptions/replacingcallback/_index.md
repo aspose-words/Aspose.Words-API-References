@@ -3,9 +3,9 @@ title: FindReplaceOptions.ReplacingCallback
 linktitle: ReplacingCallback
 articleTitle: ReplacingCallback
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions ReplacingCallback свойство. Пользовательский метод который вызывается перед каждой заменой на С#.
+description: Откройте для себя свойство FindReplaceOptions ReplacingCallback — настраиваемый метод, который расширяет функциональность замены за счет точности и контроля.
 type: docs
-weight: 150
+weight: 160
 url: /ru/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
@@ -32,7 +32,7 @@ public void ReplaceWithCallback()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
+    // Устанавливаем обратный вызов, который отслеживает любые замены, которые будет выполнять метод «Replace».
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,7 +46,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -69,7 +69,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
+Показывает, как применить другой шрифт к новому контенту с помощью FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -84,7 +84,7 @@ public void ConvertNumbersToHexadecimal()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
+    // Задайте свойству "HighlightColor" цвет фона, который мы хотим применить к результирующему тексту операции.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -102,8 +102,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведёт журнал каждой замены.
+/// Заменяет числовые совпадения поиска и замены на их шестнадцатеричные эквиваленты.
+/// Ведет журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

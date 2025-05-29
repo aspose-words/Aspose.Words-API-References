@@ -3,16 +3,16 @@ title: RevisionGroupCollection Class
 linktitle: RevisionGroupCollection
 articleTitle: RevisionGroupCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.RevisionGroupCollection сорт. КоллекцияRevisionGroup объекты которые представляют группы редакций в документе на С#.
+description: Откройте для себя класс Aspose.Words.RevisionGroupCollection, обеспечивающий эффективное управление группами редакций документов для расширенного редактирования и совместной работы.
 type: docs
-weight: 4790
+weight: 5530
 url: /ru/net/aspose.words/revisiongroupcollection/
 ---
 ## RevisionGroupCollection class
 
-Коллекция[`RevisionGroup`](../revisiongroup/) объекты, которые представляют группы редакций в документе.
+Коллекция[`RevisionGroup`](../revisiongroup/)объекты, представляющие группы ревизий в документе.
 
-Чтобы узнать больше, посетите[Отслеживать изменения в документе](https://docs.aspose.com/words/net/track-changes-in-a-document/) статья документации.
+Чтобы узнать больше, посетите[Отслеживание изменений в документе](https://docs.aspose.com/words/net/track-changes-in-a-document/) документальная статья.
 
 ```csharp
 public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
@@ -22,8 +22,8 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 | Имя | Описание |
 | --- | --- |
-| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Возвращает количество групп редакций в коллекции. |
-| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Возвращает группу редакций по указанному индексу. |
+| [Count](../../aspose.words/revisiongroupcollection/count/) { get; } | Возвращает количество групп ревизий в коллекции. |
+| [Item](../../aspose.words/revisiongroupcollection/item/) { get; } | Возвращает группу ревизий по указанному индексу. |
 
 ## Методы
 
@@ -33,11 +33,11 @@ public sealed class RevisionGroupCollection : IEnumerable<RevisionGroup>
 
 ## Примечания
 
-Вы не создаете экземпляры этого класса напрямую. Использовать[`Groups`](../revisioncollection/groups/) Свойство для получения групп редакций, присутствующих в документе.
+Вы не создаете экземпляры этого класса напрямую. Используйте[`Groups`](../revisioncollection/groups/) Свойство для получения групп ревизий, присутствующих в документе.
 
 ## Примеры
 
-Показывает, как получить группу редакций в документе.
+Показывает, как получить группу правок в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
@@ -45,7 +45,7 @@ Document doc = new Document(MyDir + "Revisions.docx");
 RevisionGroup revisionGroup = doc.Revisions.Groups[0];
 ```
 
-Показывает, как распечатать информацию о группе редакций в документе.
+Показывает, как распечатать информацию о группе ревизий в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

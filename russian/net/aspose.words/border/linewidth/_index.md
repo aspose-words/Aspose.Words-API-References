@@ -3,7 +3,7 @@ title: Border.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words для .NET
-description: Border LineWidth свойство. Получает или задает ширину границы в пунктах на С#.
+description: Отрегулируйте свойство Border LineWidth, чтобы задать толщину границы в пунктах, повысив точность и визуальную привлекательность вашего дизайна.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/border/linewidth/
@@ -18,7 +18,7 @@ public double LineWidth { get; set; }
 
 ## Примечания
 
-Если вы установите ширину линии больше нуля, когда стиль линии равен «Нет», стиль линии is автоматически изменится на одинарную.
+Если задать толщину линии больше нуля, а стиль линии отсутствует, стиль линии is автоматически изменится на одинарную линию.
 
 ## Примеры
 

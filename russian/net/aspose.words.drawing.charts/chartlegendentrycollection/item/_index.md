@@ -3,14 +3,14 @@ title: ChartLegendEntryCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: ChartLegendEntryCollection Item свойство. ВозвращаетChartLegendEntry для указанного индекса на С#.
+description: Получите доступ к ChartLegendEntry для любого индекса с помощью свойства ChartLegendEntryCollection Item. Улучшите визуализацию данных без усилий!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartlegendentrycollection/item/
 ---
 ## ChartLegendEntryCollection indexer
 
-Возвращает[`ChartLegendEntry`](../../chartlegendentry/) для указанного индекса.
+Возврат[`ChartLegendEntry`](../../chartlegendentry/) для указанного индекса.
 
 ```csharp
 public ChartLegendEntry this[int index] { get; }

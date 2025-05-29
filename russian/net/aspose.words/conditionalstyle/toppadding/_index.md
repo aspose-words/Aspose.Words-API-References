@@ -3,14 +3,14 @@ title: ConditionalStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words для .NET
-description: ConditionalStyle TopPadding свойство. Получает или задает объем пространства в пунктах добавляемого над содержимым ячеек таблицы на С#.
+description: Откройте для себя свойство ConditionalStyle TopPadding, которое позволяет легко регулировать пространство над содержимым ячеек таблицы, улучшая компоновку и читабельность для лучшего дизайна.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/conditionalstyle/toppadding/
 ---
 ## ConditionalStyle.TopPadding property
 
-Получает или задает объем пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
+Возвращает или задает размер пространства (в пунктах), добавляемого над содержимым ячеек таблицы.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -36,12 +36,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Создаем собственный стиль таблицы.
+// Создать собственный стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы
-// на основе предиката, например, ячеек в последней строке.
-// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
+// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы.
+// на основе предиката, например, нахождения ячеек в последней строке.
+// Ниже приведены три способа доступа к условным стилям стиля таблицы из коллекции «ConditionalStyles».
 // 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -53,7 +53,7 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Применяем отступы и форматирование текста к условным стилям.
+// Применить отступы и форматирование текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
@@ -73,11 +73,11 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Применяем к таблице пользовательский стиль, содержащий все условные стили.
 table.Style = tableStyle;
 
-// Наш стиль по умолчанию применяет некоторые условные стили.
+// Наш стиль применяет некоторые условные стили по умолчанию.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Нам нужно будет самостоятельно включить все остальные стили через свойство StyleOptions.
+// Все остальные стили нам нужно будет включить самостоятельно через свойство «StyleOptions».
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

@@ -3,14 +3,14 @@ title: ChartYValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words для .NET
-description: ChartYValue FromTimeSpan метод. СоздаетChartYValue экземплярTime тип на С#.
+description: Откройте для себя метод ChartYValue FromTimeSpan, чтобы без усилий создавать экземпляры типа Time для ваших диаграмм. Повысьте визуализацию данных сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/
 ---
 ## ChartYValue.FromTimeSpan method
 
-Создает[`ChartYValue`](../) экземплярTime тип.
+Создает[`ChartYValue`](../) примерTime тип.
 
 ```csharp
 public static ChartYValue FromTimeSpan(TimeSpan value)

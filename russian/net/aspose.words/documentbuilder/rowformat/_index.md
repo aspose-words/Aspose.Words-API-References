@@ -3,14 +3,14 @@ title: DocumentBuilder.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words для .NET
-description: DocumentBuilder RowFormat свойство. Возвращает объект который представляет свойства форматирования текущей строки таблицы на С#.
+description: Изучите свойство DocumentBuilder RowFormat, чтобы легко получить доступ и настроить форматирование строк таблицы для улучшенного дизайна и представления документа.
 type: docs
 weight: 180
 url: /ru/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property
 
-Возвращает объект, который представляет свойства форматирования текущей строки таблицы.
+Возвращает объект, представляющий текущие свойства форматирования строки таблицы.
 
 ```csharp
 public RowFormat RowFormat { get; }
@@ -18,7 +18,7 @@ public RowFormat RowFormat { get; }
 
 ## Примеры
 
-Показывает, как форматировать строки с помощью построителя документов.
+Показывает, как форматировать строки с помощью конструктора документов.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Начинаем вторую строку, а затем настраиваем ее высоту. Разработчик применит эти настройки к
+// Начните вторую строку, а затем настройте ее высоту. Строитель применит эти настройки к
 // его текущая строка, а также любые новые строки, которые он создаст впоследствии.
 builder.EndRow();
 
@@ -50,7 +50,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Показывает, как построить форматированную таблицу 2x2.
+Показывает, как построить отформатированную таблицу 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -64,8 +64,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// При построении таблицы построитель документов будет применять текущие значения свойств RowFormat/CellFormat
-// к текущей строке/ячейке, в которой находится курсор, и к любым новым строкам/ячейкам по мере их создания.
+// При построении таблицы конструктор документов применит текущие значения свойств RowFormat/CellFormat
+// к текущей строке/ячейке, в которой находится курсор, и ко всем новым строкам/ячейкам по мере их создания.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -80,7 +80,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Ранее добавленные строки и ячейки не имеют обратной силы при изменении форматирования построителя.
+// Изменения в форматировании конструктора не влияют на ранее добавленные строки и ячейки.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -91,7 +91,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Показывает, как создать таблицу с настраиваемыми границами.
+Показывает, как создать таблицу с пользовательскими границами.
 
 ```csharp
 Document doc = new Document();
@@ -99,8 +99,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для построителя документов
-// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
+// Настройка параметров форматирования таблиц для конструктора документов
+// применит их к каждой строке и ячейке, которые мы добавим вместе с ним.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -123,8 +123,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// При изменении форматирования оно будет применено к текущей ячейке,
-// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
+// Изменение форматирования применится к текущей ячейке,
+// и любые новые ячейки, которые мы создадим с помощью конструктора впоследствии.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -136,7 +136,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Увеличиваем высоту строки, чтобы она соответствовала вертикальному тексту.
+// Увеличиваем высоту строки, чтобы вместить вертикальный текст.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

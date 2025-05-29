@@ -3,14 +3,14 @@ title: FrameFormat.VerticalDistanceFromText
 linktitle: VerticalDistanceFromText
 articleTitle: VerticalDistanceFromText
 second_title: Aspose.Words для .NET
-description: FrameFormat VerticalDistanceFromText свойство. Определяет расстояние по вертикали в пунктах между рамкой и окружающим текстом на С#.
+description: Откройте для себя свойство FrameFormat VerticalDistanceFromText, которое позволяет легко настроить вертикальное расстояние в пунктах между рамкой и окружающим текстом для улучшенного управления макетом.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/frameformat/verticaldistancefromtext/
 ---
 ## FrameFormat.VerticalDistanceFromText property
 
-Определяет расстояние по вертикали (в пунктах) между рамкой и окружающим текстом.
+Указывает вертикальное расстояние (в пунктах) между рамкой и окружающим текстом.
 
 ```csharp
 public double VerticalDistanceFromText { get; }

@@ -3,16 +3,16 @@ title: OleControl Class
 linktitle: OleControl
 articleTitle: OleControl
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Ole.OleControl сорт. Представляет элемент управления OLE ActiveX на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.Ole.OleControl, который позволяет легко интегрировать элементы управления OLE ActiveX в ваши приложения для улучшения функциональности.
 type: docs
-weight: 1140
+weight: 1500
 url: /ru/net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
 
 Представляет элемент управления OLE ActiveX.
 
-Чтобы узнать больше, посетите[Работа с объектами Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) статья документации.
+Чтобы узнать больше, посетите[Работа с Ole-объектами](https://docs.aspose.com/words/net/working-with-ole-objects/) документальная статья.
 
 ```csharp
 public class OleControl
@@ -22,8 +22,8 @@ public class OleControl
 
 | Имя | Описание |
 | --- | --- |
-| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | Возвращает`истинный` если контроль представляет собой[`Forms2OleControl`](../forms2olecontrol/) . |
-| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | Получает или задает имя элемента управления ActiveX. |
+| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | Возврат`истинный` если контроль - это[`Forms2OleControl`](../forms2olecontrol/) . |
+| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | Возвращает или задает имя элемента управления ActiveX. |
 
 ## Примеры
 
@@ -32,22 +32,22 @@ public class OleControl
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
     Assert.AreEqual(string.Empty, checkBox.GroupName);
 
-    // Обратите внимание, что вы не можете установить GroupName для кадра.
+    // Обратите внимание, что вы не можете задать GroupName для фрейма.
     checkBox.GroupName = "Aspose group name";
 }
 ```

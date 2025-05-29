@@ -3,7 +3,7 @@ title: Table.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words для .NET
-description: Table AllowOverlap свойство. Определяет должна ли плавающая таблица позволять другим плавающим объектам в документе перекрывать ее экстенты при отображении. Значение по умолчаниюистинный  на С#.
+description: Откройте для себя свойство Table AllowOverlap, которое контролирует, могут ли плавающие объекты перекрывать вашу таблицу. Улучшите гибкость макета для лучшего представления документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.tables/table/allowoverlap/
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // В RelativeHorizontalPosition для установки HorizontalAnchor доступны только поля, страницы и столбцы.
-    // Для любых других значений будет выброшено исключение ArgumentException.
+    // Для установщика HorizontalAnchor в RelativeHorizontalPosition доступны только Margin, Page, Column.
+    // Для любых других значений будет выдано исключение ArgumentException.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Только поле, страница и абзац доступны в RelativeVerticalPosition для средства установки вертикальной привязки.
-    // Для любых других значений будет выброшено исключение ArgumentException.
+    // Для установщика VerticalAnchor в RelativeVerticalPosition доступны только Margin, Page, Paragraph.
+    // Для любых других значений будет выдано исключение ArgumentException.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

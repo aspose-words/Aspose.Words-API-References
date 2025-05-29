@@ -3,7 +3,7 @@ title: FrameFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words для .NET
-description: FrameFormat HeightRule свойство. Получает правило определения высоты указанного кадра на С#.
+description: Откройте для себя свойство FrameFormat HeightRule, чтобы легко определить высоту кадра. Оптимизируйте свои проекты с точным контролем и улучшенной эффективностью макета.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/frameformat/heightrule/

@@ -3,14 +3,14 @@ title: Shape.UpdateSmartArtDrawing
 linktitle: UpdateSmartArtDrawing
 articleTitle: UpdateSmartArtDrawing
 second_title: Aspose.Words для .NET
-description: Shape UpdateSmartArtDrawing метод. Обновляет предварительно обработанный рисунок SmartArt с помощью механизма холодного рендеринга SmartArt Aspose.Words на С#.
+description: Улучшите свои документы с помощью метода Shape UpdateSmartArtDrawing, используя расширенную визуализацию SmartArt от Aspose.Words для создания потрясающих визуальных эффектов.
 type: docs
-weight: 250
+weight: 280
 url: /ru/net/aspose.words.drawing/shape/updatesmartartdrawing/
 ---
 ## Shape.UpdateSmartArtDrawing method
 
-Обновляет предварительно обработанный рисунок SmartArt с помощью механизма холодного рендеринга SmartArt Aspose.Words.
+Обновляет предварительно отрисованный рисунок SmartArt с помощью движка холодного рендеринга SmartArt от Aspose.Words.
 
 ```csharp
 public void UpdateSmartArtDrawing()
@@ -18,7 +18,7 @@ public void UpdateSmartArtDrawing()
 
 ## Примечания
 
-Microsoft Word создает и сохраняет предварительно обработанный рисунок вместе с объектом SmartArt. Однако, если документ сохранен другими приложениями, предварительно обработанный рисунок SmartArt может отсутствовать или быть неправильным. Если предварительно обработанный рисунок доступен, Aspose.Words использует его для визуализации объекта SmartArt. Если предварительно обработанный рисунок отсутствует, то Aspose.Words использует собственный механизм холодного рендеринга SmartArt для рендеринга объекта SmartArt. Если предварительно визуализированный рисунок неверен, необходимо вызвать этот метод для вызова механизма рендеринга SmartArt cold .
+Microsoft Word генерирует и сохраняет предварительно отрендеренный рисунок вместе с объектом SmartArt. Однако, если документ сохраняется другими приложениями, предварительно отрендеренный рисунок SmartArt может отсутствовать или быть неверным. Если предварительно отрендеренный рисунок доступен, то Aspose.Words использует его для отрисовки объекта SmartArt. Если предварительно отрендеренный рисунок отсутствует, то Aspose.Words использует свой собственный механизм холодного отрисовки SmartArt для отрисовки объекта SmartArt. Если предварительно отрендеренный рисунок неверен, то необходимо вызвать этот метод для вызова механизма холодного отрисовки SmartArt.
 
 ### Смотрите также
 

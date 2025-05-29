@@ -3,7 +3,7 @@ title: CustomDocumentProperties.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words для .NET
-description: CustomDocumentProperties Add метод. Создает новое пользовательское свойство документаString тип данных на С#.
+description: Создавайте уникальные пользовательские свойства документа без усилий с помощью метода Add. Улучшайте свои документы с помощью специализированных типов данных String для оптимальной производительности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.properties/customdocumentproperties/add/
@@ -19,7 +19,7 @@ public DocumentProperty Add(string name, string value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Название объекта недвижимости. |
-| value | String | Стоимость недвижимости. |
+| value | String | Стоимость имущества. |
 
 ### Возвращаемое значение
 
@@ -27,7 +27,7 @@ public DocumentProperty Add(string name, string value)
 
 ## Примеры
 
-Показывает, как работать с настраиваемыми свойствами документа.
+Показывает, как работать с пользовательскими свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -46,21 +46,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатываем все пользовательские свойства в документе.
+// Распечатать все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
+// Эти пользовательские свойства можно найти в Microsoft Word через «Файл» -> «Свойства» -> «Дополнительные свойства» -> «Пользовательские».
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.
@@ -102,7 +102,7 @@ public DocumentProperty Add(string name, int value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Название объекта недвижимости. |
-| value | Int32 | Стоимость недвижимости. |
+| value | Int32 | Стоимость имущества. |
 
 ### Возвращаемое значение
 
@@ -110,7 +110,7 @@ public DocumentProperty Add(string name, int value)
 
 ## Примеры
 
-Показывает, как работать с настраиваемыми свойствами документа.
+Показывает, как работать с пользовательскими свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -129,21 +129,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатываем все пользовательские свойства в документе.
+// Распечатать все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
+// Эти пользовательские свойства можно найти в Microsoft Word через «Файл» -> «Свойства» -> «Дополнительные свойства» -> «Пользовательские».
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.
@@ -185,7 +185,7 @@ public DocumentProperty Add(string name, DateTime value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Название объекта недвижимости. |
-| value | DateTime | Стоимость недвижимости. |
+| value | DateTime | Стоимость имущества. |
 
 ### Возвращаемое значение
 
@@ -193,17 +193,17 @@ public DocumentProperty Add(string name, DateTime value)
 
 ## Примеры
 
-Показывает, как создать настраиваемое свойство документа, содержащее дату и время.
+Показывает, как создать пользовательское свойство документа, содержащее дату и время.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
-Показывает, как работать с настраиваемыми свойствами документа.
+Показывает, как работать с пользовательскими свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -222,21 +222,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатываем все пользовательские свойства в документе.
+// Распечатать все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
+// Эти пользовательские свойства можно найти в Microsoft Word через «Файл» -> «Свойства» -> «Дополнительные свойства» -> «Пользовательские».
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.
@@ -278,7 +278,7 @@ public DocumentProperty Add(string name, bool value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Название объекта недвижимости. |
-| value | Boolean | Стоимость недвижимости. |
+| value | Boolean | Стоимость имущества. |
 
 ### Возвращаемое значение
 
@@ -286,7 +286,7 @@ public DocumentProperty Add(string name, bool value)
 
 ## Примеры
 
-Показывает, как работать с настраиваемыми свойствами документа.
+Показывает, как работать с пользовательскими свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -305,21 +305,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатываем все пользовательские свойства в документе.
+// Распечатать все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
+// Эти пользовательские свойства можно найти в Microsoft Word через «Файл» -> «Свойства» -> «Дополнительные свойства» -> «Пользовательские».
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.
@@ -361,7 +361,7 @@ public DocumentProperty Add(string name, double value)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | name | String | Название объекта недвижимости. |
-| value | Double | Стоимость недвижимости. |
+| value | Double | Стоимость имущества. |
 
 ### Возвращаемое значение
 
@@ -369,7 +369,7 @@ public DocumentProperty Add(string name, double value)
 
 ## Примеры
 
-Показывает, как работать с настраиваемыми свойствами документа.
+Показывает, как работать с пользовательскими свойствами документа.
 
 ```csharp
 Document doc = new Document();
@@ -388,21 +388,21 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Распечатываем все пользовательские свойства в документе.
+// Распечатать все пользовательские свойства в документе.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Отображение значения пользовательского свойства с помощью поля DOCPROPERTY.
+// Отображение значения пользовательского свойства с использованием поля DOCPROPERTY.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Мы можем найти эти пользовательские свойства в Microsoft Word через «Файл» -> gt; «Свойства» > «Дополнительные свойства» > "Обычай".
+// Эти пользовательские свойства можно найти в Microsoft Word через «Файл» -> «Свойства» -> «Дополнительные свойства» -> «Пользовательские».
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Ниже приведены три способа удаления пользовательских свойств из документа.

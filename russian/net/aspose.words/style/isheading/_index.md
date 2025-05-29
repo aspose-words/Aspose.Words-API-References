@@ -3,14 +3,14 @@ title: Style.IsHeading
 linktitle: IsHeading
 articleTitle: IsHeading
 second_title: Aspose.Words для .NET
-description: Style IsHeading свойство. Истинно если стиль является одним из встроенных стилей заголовков на С#.
+description: Откройте для себя свойство IsHeading. Легко определите, является ли стиль встроенным стилем заголовка, что улучшит структуру и читабельность вашего документа.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
 
-Истинно, если стиль является одним из встроенных стилей заголовков.
+Истинно, когда стиль является одним из встроенных стилей заголовков.
 
 ```csharp
 public bool IsHeading { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

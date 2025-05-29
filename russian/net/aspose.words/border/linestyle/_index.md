@@ -3,7 +3,7 @@ title: Border.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words для .NET
-description: Border LineStyle свойство. Получает или задает стиль границы на С#.
+description: Настройте свой дизайн с помощью свойства Border LineStyle, позволяющего легко получать или задавать уникальные стили границ для повышения визуальной привлекательности.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/border/linestyle/
@@ -18,7 +18,7 @@ public LineStyle LineStyle { get; set; }
 
 ## Примечания
 
-Если для стиля линии установлено значение «Нет», ширина линии автоматически изменится на нулевую.
+Если вы установите стиль линии на «Нет», то ширина линии автоматически изменится на ноль.
 
 ## Примеры
 

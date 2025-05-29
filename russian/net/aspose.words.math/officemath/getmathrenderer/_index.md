@@ -3,9 +3,9 @@ title: OfficeMath.GetMathRenderer
 linktitle: GetMathRenderer
 articleTitle: GetMathRenderer
 second_title: Aspose.Words для .NET
-description: OfficeMath GetMathRenderer метод. Создает и возвращает объект который можно использовать для преобразования этого уравнения в изображение на С#.
+description: Откройте для себя метод GetMathRenderer от OfficeMath, позволяющий легко преобразовывать уравнения в изображения, улучшая ваши документы с помощью четких профессиональных визуальных эффектов.
 type: docs
-weight: 70
+weight: 90
 url: /ru/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
@@ -18,7 +18,7 @@ public OfficeMathRenderer GetMathRenderer()
 
 ### Возвращаемое значение
 
-Объект средства визуализации для этого уравнения.
+Объект рендеринга для этого уравнения.
 
 ## Примечания
 
@@ -33,11 +33,11 @@ Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Создаем объект ImageSaveOptions для передачи методу Save средства рендеринга узла для изменения
+// Создаем объект "ImageSaveOptions" для передачи в метод "Save" рендерера узла для изменения
 // как он преобразует узел OfficeMath в изображение.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Установите для свойства Scale значение 5, чтобы отобразить объект в пять раз больше его исходного размера.
+// Установите свойство «Масштаб» на 5, чтобы отрисовать объект в пять раз больше его исходного размера.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);

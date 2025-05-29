@@ -3,14 +3,14 @@ title: ShapeBase.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words для .NET
-description: ShapeBase ScreenTip свойство. Определяет текст отображаемый при наведении указателя мыши на фигуру на С#.
+description: Откройте для себя свойство ShapeBase ScreenTip, улучшите пользовательский интерфейс, настроив текст подсказки, появляющейся при наведении мыши на фигуры.
 type: docs
-weight: 480
+weight: 510
 url: /ru/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
 
-Определяет текст, отображаемый при наведении указателя мыши на фигуру.
+Определяет текст, отображаемый при перемещении указателя мыши по фигуре.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -22,7 +22,7 @@ public string ScreenTip { get; set; }
 
 ## Примеры
 
-Показывает, как вставить фигуру, содержащую изображение, а также гиперссылку.
+Показывает, как вставить фигуру, содержащую изображение, а также являющуюся гиперссылкой.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + щелчок левой кнопкой мыши по фигуре в Microsoft Word откроет новое окно веб-браузера
-// и приведет нас к гиперссылке в свойстве "HRef".
+// и перенаправляем нас к гиперссылке в свойстве "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

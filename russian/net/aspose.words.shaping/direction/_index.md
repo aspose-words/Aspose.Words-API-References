@@ -3,9 +3,9 @@ title: Direction Enum
 linktitle: Direction
 articleTitle: Direction
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Shaping.Direction перечисление. Направление текста на С#.
+description: Исследуйте перечисление Aspose.Words.Shaping.Direction для гибкого управления направлением текста в ваших документах. Улучшайте читаемость и дизайн с легкостью!
 type: docs
-weight: 6020
+weight: 6850
 url: /ru/net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration
@@ -20,7 +20,7 @@ public enum Direction
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Default | `0` | Значение по умолчанию, такое же, какLTR . |
+| Default | `0` | Значение по умолчанию, то же самое, что иLTR . |
 | LTR | `0` | Направление письма слева направо. |
 | RTL | `1` | Направление письма справа налево. |
 | TTB | `2` | Направление письма сверху вниз. |

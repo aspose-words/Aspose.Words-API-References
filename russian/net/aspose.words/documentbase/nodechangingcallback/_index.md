@@ -3,14 +3,14 @@ title: DocumentBase.NodeChangingCallback
 linktitle: NodeChangingCallback
 articleTitle: NodeChangingCallback
 second_title: Aspose.Words для .NET
-description: DocumentBase NodeChangingCallback свойство. Вызывается когда узел вставляется или удаляется в документе на С#.
+description: Откройте для себя свойство DocumentBase NodeChangingCallback, которое срабатывает при вставке или удалении узлов, улучшая управление документами и эффективность рабочего процесса.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words/documentbase/nodechangingcallback/
 ---
 ## DocumentBase.NodeChangingCallback property
 
-Вызывается, когда узел вставляется или удаляется в документе.
+Вызывается при вставке или удалении узла в документе.
 
 ```csharp
 public INodeChangingCallback NodeChangingCallback { get; set; }
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Установите обратный вызов изменения узла в пользовательскую реализацию,
-    // затем добавляем/удаляем узлы, чтобы создать журнал.
+    // Устанавливаем обратный вызов изменения узла для пользовательской реализации,
+    // затем добавьте/удалите узлы, чтобы сгенерировать журнал.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Регистрирует дату и время добавления и удаления каждого узла.
-/// Устанавливает имя/размер пользовательского шрифта для текстового содержимого узлов запуска.
+/// Регистрирует дату и время вставки и удаления каждого узла.
+/// Устанавливает пользовательское имя/размер шрифта для текстового содержимого узлов Run.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

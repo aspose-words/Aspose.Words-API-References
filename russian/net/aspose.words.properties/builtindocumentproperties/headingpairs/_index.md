@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.HeadingPairs
 linktitle: HeadingPairs
 articleTitle: HeadingPairs
 second_title: Aspose.Words для .NET
-description: BuiltInDocumentProperties HeadingPairs свойство. Указывает заголовки документов и их имена на С#.
+description: Изучите свойство HeadingPairs в BuiltInDocumentProperties, чтобы легко управлять заголовками документов и улучшить их организацию.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 ---
 ## BuiltInDocumentProperties.HeadingPairs property
 
-Указывает заголовки документов и их имена.
+Указывает заголовки документов и их названия.
 
 ```csharp
 public object[] HeadingPairs { get; set; }
@@ -22,24 +22,24 @@ public object[] HeadingPairs { get; set; }
 
 Первый элемент пары — этоString и указывает имя заголовка. Второй элемент пары — этоInt32 и указывает количество частей document для этого заголовка в[`TitlesOfParts`](../titlesofparts/) свойство.
 
-Общая сумма счетчиков для всех пар заголовков в этом свойстве должна быть равна количеству элементов в[`TitlesOfParts`](../titlesofparts/) свойство.
+Общая сумма подсчетов для всех пар заголовков в этом свойстве должна быть равна количеству элементов в x000d[`TitlesOfParts`](../titlesofparts/) свойство.
 
 Aspose.Words не обновляет это свойство.
 
 ## Примеры
 
-Показывает связь между свойствами "HeadingPairs" и "TitlesOfParts".
+Показывает связь между свойствами «HeadingPairs» и «TitlesOfParts».
 
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
 // Мы можем найти объединенные значения этих коллекций через
-// "Файл" -> «Свойства» -> «Дополнительные свойства» -> Вкладка «Содержание».
-// Свойство HeadingPairs представляет собой коллекцию <string, int> пары, которые
+// «Файл» -> «Свойства» -> «Дополнительные свойства» -> вкладка «Содержимое».
+// Свойство HeadingPairs — это коллекция пар <string, int>, которые
 // определяет, сколько частей документа охватывает заголовок.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// Свойство TitlesOfParts содержит названия частей, принадлежащих к указанным выше заголовкам.
+// Свойство TitlesOfParts содержит названия частей, которые относятся к вышеуказанным заголовкам.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

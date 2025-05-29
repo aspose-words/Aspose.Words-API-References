@@ -3,14 +3,14 @@ title: HeaderFooterCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words для .NET
-description: HeaderFooterCollection ToArray метод. Копирует всеЗаголовокФоортер s из коллекции в новый массивЗаголовокФоортер s на С#.
+description: Легко преобразуйте вашу коллекцию HeaderFooter в новый массив с помощью метода ToArray. Оптимизируйте управление данными сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words/headerfootercollection/toarray/
 ---
 ## HeaderFooterCollection.ToArray method
 
-Копирует все`ЗаголовокФоортер` s из коллекции в новый массив`ЗаголовокФоортер` s.
+Копирует все`ЗаголовокНижний колонтитул` s из коллекции в новый массив`ЗаголовокНижний колонтитул` с.
 
 ```csharp
 public HeaderFooter[] ToArray()
@@ -18,7 +18,7 @@ public HeaderFooter[] ToArray()
 
 ### Возвращаемое значение
 
-Массив`ЗаголовокФоортер`с.
+Массив`ЗаголовокНижний колонтитул`с.
 
 ## Примеры
 
@@ -30,14 +30,14 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Альтернативный способ доступа к верхнему и нижнему колонтитулу документа по разделам — обращение к коллекции.
+    // Альтернативный способ доступа к верхним и нижним колонтитулам документа по разделам — доступ к коллекции.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
@@ -94,7 +94,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

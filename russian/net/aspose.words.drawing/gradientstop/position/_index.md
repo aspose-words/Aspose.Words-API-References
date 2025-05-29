@@ -3,14 +3,14 @@ title: GradientStop.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words для .NET
-description: GradientStop Position свойство. Получает или задает значение представляющее положение остановки в градиенте  выраженное в процентах в диапазоне от 00 до 10.  на С#.
+description: Откройте для себя свойство GradientStop Position, легко устанавливайте и настраивайте положения точек остановки градиента от 0% до 100% для создания потрясающих визуальных эффектов в ваших проектах.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/gradientstop/position/
 ---
 ## GradientStop.Position property
 
-Получает или задает значение, представляющее положение остановки в градиенте , выраженное в процентах в диапазоне от 0,0 до 1,0. .
+Возвращает или задает значение, представляющее положение остановки в пределах градиента , выраженное в процентах в диапазоне от 0,0 до 1,0.
 
 ```csharp
 public double Position { get; set; }
@@ -18,7 +18,7 @@ public double Position { get; set; }
 
 ## Примеры
 
-Показывает, как добавить остановки градиента к градиентной заливке.
+Показывает, как добавлять точки градиента к градиентной заливке.
 
 ```csharp
 Document doc = new Document();
@@ -27,24 +27,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Получаем коллекцию остановок градиента.
+// Получить коллекцию остановок градиента.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Изменить первую остановку градиента.            
-gradientStops[0].Color = Color.Aqua;            
+// Изменить первую точку остановки градиента.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Добавляем новую остановку градиента в конец коллекции.
+// Добавляем новую точку остановки градиента в конец коллекции.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
 // Удалить остановку градиента по индексу 1.
 gradientStops.RemoveAt(1);
-// И вставляем новую точку градиента с тем же индексом 1.
+// И вставляем новую точку остановки градиента с тем же индексом 1.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
-// Удалить последнюю остановку градиента в коллекции.
+// Удалить последнюю точку градиента в коллекции.
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 
@@ -59,8 +59,8 @@ Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
 Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
 Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
 
-// Используйте опцию соответствия, чтобы определить форму с помощью DML
-// если вы хотите получить свойство «GradientStops» после сохранения документа.
+// Используйте параметр соответствия для определения формы с помощью DML
+// если вы хотите получить свойство "GradientStops" после сохранения документа.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);

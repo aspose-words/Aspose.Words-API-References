@@ -3,14 +3,14 @@ title: TxtSaveOptions.PreserveTableLayout
 linktitle: PreserveTableLayout
 articleTitle: PreserveTableLayout
 second_title: Aspose.Words для .NET
-description: TxtSaveOptions PreserveTableLayout свойство. Указывает должна ли программа пытаться сохранить макет таблиц при сохранении в текстовом формате. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя функцию PreserveTableLayout TxtSaveOptions, которая гарантирует сохранение макета таблиц при сохранении в виде обычного текста. Улучшите читаемость документа!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 ---
 ## TxtSaveOptions.PreserveTableLayout property
 
-Указывает, должна ли программа пытаться сохранить макет таблиц при сохранении в текстовом формате. Значение по умолчанию:`ЛОЖЬ` .
+Указывает, должна ли программа пытаться сохранить расположение таблиц при сохранении в формате простого текста. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool PreserveTableLayout { get; set; }
@@ -18,7 +18,7 @@ public bool PreserveTableLayout { get; set; }
 
 ## Примеры
 
-Показывает, как сохранить макет таблиц при преобразовании в открытый текст.
+Показывает, как сохранить структуру таблиц при преобразовании в обычный текст.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ builder.InsertCell();
 builder.Write("Row 2, cell 2");
 builder.EndTable();
 
-// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ сохранения документа в виде обычного текста.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Установите для свойства PreserveTableLayout значение «true», чтобы применить к содержимому заполнение пробелами
-// выходного открытого текстового документа, чтобы сохранить как можно большую часть макета таблицы.
-// Установите для свойства PreserveTableLayout значение «false», чтобы сохранить содержимое всех таблиц
-// как непрерывный текст, только с новой строкой для каждой строки.
+// Установите свойство "PreserveTableLayout" в значение "true", чтобы применить пробельные отступы к содержимому
+// выходного текстового документа, чтобы сохранить как можно больше макета таблицы.
+// Установите свойство "PreserveTableLayout" в значение "false", чтобы сохранить содержимое всех таблиц
+// как непрерывный текст, с новой строкой для каждой строки.
 txtSaveOptions.PreserveTableLayout = preserveTableLayout;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.PreserveTableLayout.txt", txtSaveOptions);

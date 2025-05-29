@@ -3,7 +3,7 @@ title: PlainTextDocument.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words для .NET
-description: PlainTextDocument BuiltInDocumentProperties свойство. ПолучаетBuiltInDocumentProperties документа на С#.
+description: Откройте для себя свойство BuiltInDocumentProperties класса PlainTextDocument, чтобы легко получать доступ к основным метаданным документа и управлять ими для улучшенной организации документа.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/plaintextdocument/builtindocumentproperties/
@@ -18,7 +18,7 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ## Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста, а затем получить доступ к встроенным свойствам исходного документа.
+Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста, а затем получить доступ к встроенным свойствам исходного документа.
 
 ```csharp
 Document doc = new Document();

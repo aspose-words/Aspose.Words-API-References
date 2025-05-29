@@ -3,9 +3,9 @@ title: Document.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words для .NET
-description: Document UnlinkFields метод. Отменяет связь полей во всем документе на С#.
+description: Узнайте, как использовать метод UnlinkFields для эффективного удаления связей полей во всем документе, что улучшит процесс редактирования.
 type: docs
-weight: 730
+weight: 780
 url: /ru/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
@@ -18,7 +18,7 @@ public void UnlinkFields()
 
 ## Примечания
 
-Заменяет все поля во всем документе их самыми последними результатами.
+Заменяет все поля во всем документе самыми последними результатами.
 
 Чтобы отменить связь полей в определенной части документа, используйте[`UnlinkFields`](../../range/unlinkfields/).
 

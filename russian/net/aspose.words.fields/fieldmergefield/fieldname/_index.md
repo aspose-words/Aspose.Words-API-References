@@ -3,7 +3,7 @@ title: FieldMergeField.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words для .NET
-description: FieldMergeField FieldName свойство. Получает или задает имя поля данных на С#.
+description: Откройте для себя свойство FieldMergeField FieldName, которое позволит легко управлять полями данных и настраивать их для улучшения интеграции и эффективности данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldmergefield/fieldname/
@@ -32,19 +32,20 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// Вставляем MERGEFIELD со свойством FieldName, равным имени столбца в источнике данных.
+// Вставьте MERGEFIELD со свойством FieldName, равным имени столбца в источнике данных.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Мы можем применить текст до и после значения, которое принимает это поле, когда происходит слияние.
+// Мы можем применить текст до и после значения, которое это поле принимает при слиянии.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
-// Вставляем еще одно MERGEFIELD для другого столбца в источнике данных.
+// Вставьте еще один MERGEFIELD для другого столбца в источнике данных.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

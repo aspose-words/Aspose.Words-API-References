@@ -3,7 +3,7 @@ title: ConditionalStyle.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words для .NET
-description: ConditionalStyle Equals метод. Сравнивает этот условный стиль с указанным объектом на С#.
+description: Узнайте, как метод ConditionalStyle Equals эффективно сравнивает стили, обеспечивая точное условное форматирование для ваших проектов. Повысьте эффективность кодирования!
 type: docs
 weight: 110
 url: /ru/net/aspose.words/conditionalstyle/equals/

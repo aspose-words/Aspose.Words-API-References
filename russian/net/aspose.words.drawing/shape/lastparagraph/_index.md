@@ -3,14 +3,14 @@ title: Shape.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words для .NET
-description: Shape LastParagraph свойство. Получает последний абзац фигуры на С#.
+description: Воспользуйтесь свойством LastParagraph, чтобы легко извлечь последний абзац в форме, улучшив макет и читабельность документа.
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.words.drawing/shape/lastparagraph/
 ---
 ## Shape.LastParagraph property
 
-Получает последний абзац фигуры.
+Получает последний абзац в форме.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -32,7 +32,7 @@ builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Установите свойство LayoutFlow, чтобы задать ориентацию текстового содержимого этого текстового поля.
+// Установите свойство "LayoutFlow", чтобы задать ориентацию текстового содержимого этого текстового поля.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

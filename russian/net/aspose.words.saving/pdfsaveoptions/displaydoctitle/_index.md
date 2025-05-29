@@ -3,14 +3,14 @@ title: PdfSaveOptions.DisplayDocTitle
 linktitle: DisplayDocTitle
 articleTitle: DisplayDocTitle
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions DisplayDocTitle свойство. Флаг указывающий должен ли заголовок окна отображать заголовок документа взятый из записи заголовка словаря информации о документе на С#.
+description: Узнайте, как свойство PdfSaveOptions DisplayDocTitle улучшает работу с PDF-файлами, отображая заголовки документов в строке заголовка Windows для легкой идентификации.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words.saving/pdfsaveoptions/displaydoctitle/
 ---
 ## PdfSaveOptions.DisplayDocTitle property
 
-Флаг, указывающий, должен ли заголовок окна отображать заголовок документа, взятый из записи заголовка словаря информации о документе.
+Флаг, указывающий, должно ли в строке заголовка окна отображаться название документа, взятое из записи «Название» словаря информации о документе.
 
 ```csharp
 public bool DisplayDocTitle { get; set; }
@@ -20,7 +20,7 @@ public bool DisplayDocTitle { get; set; }
 
 Если`ЛОЖЬ`, в строке заголовка вместо этого должно отображаться имя PDF-файла, содержащего документ.
 
-Этот флаг требуется для соответствия PDF/UA.`истинный` значение будет использоваться автоматически при сохранении в PDF/UA.
+Этот флаг необходим для соответствия требованиям PDF/UA.`истинный` значение будет использовано автоматически при сохранении в PDF/UA.
 
 Значение по умолчанию:`ЛОЖЬ`.
 
@@ -35,11 +35,11 @@ builder.Writeln("Hello world!");
 
 doc.BuiltInDocumentProperties.Title = "Windows bar pdf title";
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
-// Установите для параметра «DisplayDocTitle» значение «true», чтобы получить доступ к некоторым программам для чтения PDF-файлов, например Adobe Acrobat Pro,
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
+// Установите "DisplayDocTitle" на "true", чтобы получить доступ к некоторым программам для чтения PDF-файлов, таким как Adobe Acrobat Pro,
 // для отображения значения встроенного свойства документа «Заголовок» на вкладке, принадлежащей этому документу.
-// Установите для параметра «DisplayDocTitle» значение «false», чтобы такие программы чтения могли отображать имя файла документа.
+// Установите "DisplayDocTitle" на "false", чтобы заставить такие считыватели отображать имя файла документа.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { DisplayDocTitle = displayDocTitle };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DocTitle.pdf", pdfSaveOptions);

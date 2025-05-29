@@ -3,16 +3,16 @@ title: CustomPart Class
 linktitle: CustomPart
 articleTitle: CustomPart
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomPart сорт. Представляет пользовательскую часть произвольное содержимое которая не определена стандартом ISO/IEC 29500 на С#.
+description: Откройте для себя класс Aspose.Words.Markup.CustomPart для гибкого управления контентом. Создавайте уникальные, нестандартные части за пределами ISO/IEC 29500 с легкостью!
 type: docs
-weight: 3900
+weight: 4590
 url: /ru/net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
 
-Представляет пользовательскую часть (произвольное содержимое), которая не определена стандартом ISO/IEC 29500.
+Представляет собой пользовательскую часть (произвольное содержимое), которая не определена стандартом ISO/IEC 29500.
 
-Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
+Чтобы узнать больше, посетите[Структурированные теги документов или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) документальная статья.
 
 ```csharp
 public class CustomPart
@@ -30,29 +30,29 @@ public class CustomPart
 | --- | --- |
 | [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | Указывает тип содержимого этой пользовательской части. |
 | [Data](../../aspose.words.markup/custompart/data/) { get; set; } | Содержит данные этой пользовательской детали. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | False, если эта пользовательская часть хранится внутри пакета OOXML. Истинно, если эта пользовательская часть является внешней целью. |
-| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Получает или задает абсолютное имя этой части в пакете OOXML или целевой URL-адрес. |
-| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Получает или задает тип связи родительской части с этой пользовательской частью. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | Ложь, если эта пользовательская часть хранится внутри пакета OOXML. Истина, если эта пользовательская часть является внешней целью. |
+| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Возвращает или задает абсолютное имя этой части в пакете OOXML или целевом URL. |
+| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Получает или задает тип связи от родительской части к этой пользовательской части. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.markup/custompart/clone/)() | Делает «достаточно глубокую» копию объекта. Не дублирует байты[`Data`](./data/) значение. |
+| [Clone](../../aspose.words.markup/custompart/clone/)() | Создает «достаточно глубокую» копию объекта. Не дублирует байты[`Data`](./data/) значение. |
 
 ## Примечания
 
-Этот класс представляет часть OOXML, которая является целью «неизвестной связи». Все связи, не определенные в ISO/IEC 29500, считаются «неизвестными связями». Неизвестные связи разрешены в документе Office Open XML при условии, что они соответствуют рекомендациям по разметке отношений.
+Этот класс представляет часть OOXML, которая является целью «неизвестной связи». Все связи, не определенные в ISO/IEC 29500, считаются «неизвестными связями». Неизвестные связи разрешены в документе Office Open XML при условии, что они соответствуют рекомендациям по разметке связей.
 
-Microsoft Word сохраняет пользовательские части во время циклов открытия/сохранения. Некоторую дополнительную информацию можно найти здесь http://blogs.msdn.com/dmahugh/archive/2006/11/25/promptary-content-in-an-opc-package.aspx.
+Microsoft Word сохраняет пользовательские части во время циклов открытия/сохранения. Некоторую дополнительную информацию можно найти здесь http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words также обрабатывает пользовательские части и, кроме того, позволяет программно получать доступ к таким частям через`CustomPart` и[`CustomPartCollection`](../custompartcollection/) объекты.
+Aspose.Words также выполняет циклические передачи пользовательских частей и, кроме того, позволяет программно получать доступ к таким частям через`CustomPart` и[`CustomPartCollection`](../custompartcollection/) объекты.
 
-Не путайте пользовательские части с пользовательскими XML-данными. Использовать[`CustomXmlPart`](../customxmlpart/) если вам нужен для доступа к пользовательским данным XML.
+Не путайте пользовательские части с пользовательскими данными XML. Используйте[`CustomXmlPart`](../customxmlpart/) если вам нужен для доступа к пользовательским XML-данным.
 
 ## Примеры
 
-Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+Показывает, как получить доступ к коллекции произвольных пользовательских частей документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -64,7 +64,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Перебираем коллекцию и печатаем каждую часть.
+// Перечислить коллекцию и вывести каждую часть.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -81,7 +81,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Мы можем удалять элементы из этой коллекции по отдельности или все сразу.
+// Мы можем удалить элементы из этой коллекции по отдельности или все сразу.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

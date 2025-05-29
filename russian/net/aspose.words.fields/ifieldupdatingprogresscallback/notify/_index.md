@@ -3,14 +3,14 @@ title: IFieldUpdatingProgressCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words для .NET
-description: IFieldUpdatingProgressCallback Notify метод. Определенный пользователем метод который вызывается при изменении хода обновления на С#.
+description: Повысьте производительность своего приложения с помощью метода уведомления IFieldUpdatingProgressCallback, предназначенного для эффективного отслеживания и реагирования на обновления хода выполнения.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 ---
 ## IFieldUpdatingProgressCallback.Notify method
 
-Определенный пользователем метод, который вызывается при изменении хода обновления.
+Изменен определенный пользователем метод, который вызывается при обновлении прогресса.
 
 ```csharp
 public void Notify(FieldUpdatingProgressArgs args)
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Реализуйте этот интерфейс, если вы хотите, чтобы во время обновления поля вызывались ваши собственные методы.
+/// Реализуйте этот интерфейс, если вы хотите, чтобы ваши собственные методы вызывались во время обновления поля.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается непосредственно перед обновлением поля.
+    /// Пользовательский метод, который вызывается непосредственно перед обновлением поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается сразу после обновления поля.
+    /// Пользовательский метод, который вызывается сразу после обновления поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

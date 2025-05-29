@@ -3,14 +3,14 @@ title: PhysicalFontInfo.FontFamilyName
 linktitle: FontFamilyName
 articleTitle: FontFamilyName
 second_title: Aspose.Words для .NET
-description: PhysicalFontInfo FontFamilyName свойство. Фамилия шрифта на С#.
+description: Откройте для себя свойство PhysicalFontInfo FontFamilyName — ваш ключ к эффективному определению и использованию семейств шрифтов в ваших проектах.
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
 
-Фамилия шрифта.
+Название семейства шрифта.
 
 ```csharp
 public string FontFamilyName { get; }

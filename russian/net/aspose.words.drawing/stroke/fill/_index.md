@@ -3,14 +3,14 @@ title: Stroke.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words для .NET
-description: Stroke Fill свойство. Получает форматирование заливки дляStroke  на С#.
+description: Откройте для себя свойство Stroke Fill для улучшенного форматирования заливки в ваших проектах. Поднимите свои проекты на новый уровень с помощью точной настройки штриха уже сегодня!
 type: docs
-weight: 90
+weight: 120
 url: /ru/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
 
-Получает форматирование заливки для[`Stroke`](../) .
+Получает форматирование заполнения для[`Stroke`](../) .
 
 ```csharp
 public Fill Fill { get; }
@@ -18,7 +18,7 @@ public Fill Fill { get; }
 
 ## Примеры
 
-Показывает, как изменить свойства обводки.
+Показывает, как изменить свойства штриха.
 
 ```csharp
 Document doc = new Document();
@@ -28,10 +28,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Базовые фигуры, такие как прямоугольник, состоят из двух видимых частей.
-// 1 - Заливка, которая применяется к области внутри контура фигуры:
+// 1 — Заливка, которая применяется к области внутри контура фигуры:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Обводка, обозначающая контур фигуры:
+// 2 - Штрих, обозначающий контур фигуры:
 // Измените различные свойства обводки этой фигуры.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

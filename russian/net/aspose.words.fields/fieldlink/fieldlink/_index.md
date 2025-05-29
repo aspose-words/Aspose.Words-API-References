@@ -3,7 +3,7 @@ title: FieldLink
 linktitle: FieldLink
 articleTitle: FieldLink
 second_title: Aspose.Words для .NET
-description: FieldLink строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldLink — ваше решение для бесшовной настройки проекта и эффективного управления рабочим процессом. Раскройте потенциал вашего проекта сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldlink/fieldlink/

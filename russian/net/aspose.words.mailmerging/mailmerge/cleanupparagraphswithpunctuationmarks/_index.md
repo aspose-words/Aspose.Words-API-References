@@ -3,14 +3,14 @@ title: MailMerge.CleanupParagraphsWithPunctuationMarks
 linktitle: CleanupParagraphsWithPunctuationMarks
 articleTitle: CleanupParagraphsWithPunctuationMarks
 second_title: Aspose.Words для .NET
-description: MailMerge CleanupParagraphsWithPunctuationMarks свойство. Получает или задает значение указывающее считаются ли абзацы со знаками препинания пустыми и должны ли они быть удалены еслиRemoveEmptyParagraphs указана опция на С#.
+description: Оптимизируйте MailMerge с помощью свойства CleanupParagraphsWithPunctuationMarks. Управляйте удалением пустых абзацев для более чистых, профессиональных документов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/
 ---
 ## MailMerge.CleanupParagraphsWithPunctuationMarks property
 
-Получает или задает значение, указывающее, считаются ли абзацы со знаками препинания пустыми и должны ли они быть удалены, еслиRemoveEmptyParagraphs указана опция.
+Возвращает или задает значение, указывающее, считаются ли абзацы со знаками препинания пустыми и должны ли они быть удалены, еслиRemoveEmptyParagraphs опция указана.
 
 ```csharp
 public bool CleanupParagraphsWithPunctuationMarks { get; set; }
@@ -20,7 +20,7 @@ public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 
 Значение по умолчанию:`истинный` .
 
-Вот полный список очищаемых знаков препинания:
+Вот полный список удаляемых знаков препинания:
 
 * !
 * ,
@@ -33,7 +33,7 @@ public bool CleanupParagraphsWithPunctuationMarks { get; set; }
 
 ## Примеры
 
-Показывает, как удалить абзацы со знаками препинания после операции слияния писем.
+Показывает, как удалить абзацы со знаками препинания после операции слияния почты.
 
 ```csharp
 Document doc = new Document();
@@ -47,13 +47,13 @@ builder.Write(punctuationMark);
 FieldMergeField mergeFieldOption2 = (FieldMergeField) builder.InsertField("MERGEFIELD", "Option_2");
 mergeFieldOption2.FieldName = "Option_2";
 
-// Настройте свойство «CleanupOptions», чтобы удалить все пустые абзацы, которые создаст это слияние писем.
+// Настройте свойство «CleanupOptions», чтобы удалить все пустые абзацы, которые могут возникнуть при слиянии почты.
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyParagraphs;
 
-// Установка свойства «CleanupParagraphsWithPunctuationMarks» в значение «true» также будет учитывать абзацы
-// со знаками препинания пустыми, и операция слияния почты также удалит их.
-// Установка свойства «CleanupParagraphsWithPunctuationMarks» в значение «false»
-// удалит пустые абзацы, кроме абзацев со знаками препинания.
+// Установка свойства "CleanupParagraphsWithPunctuationMarks" в значение "true" также будет учитывать абзацы
+// со знаками препинания как пустыми и заставит операцию слияния почты удалить их также.
+// Установка свойства "CleanupParagraphsWithPunctuationMarks" в значение "false"
+// удалит пустые абзацы, но не абзацы со знаками препинания.
 // Это список знаков препинания, к которым относится это свойство: "!", ",", ".", ":", ";", "?", "¡", "¿".
 doc.MailMerge.CleanupParagraphsWithPunctuationMarks = cleanupParagraphsWithPunctuationMarks;
 

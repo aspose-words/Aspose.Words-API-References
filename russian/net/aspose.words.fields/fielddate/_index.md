@@ -3,16 +3,16 @@ title: FieldDate Class
 linktitle: FieldDate
 articleTitle: FieldDate
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldDate сорт. Реализует поле ДАТА на С#.
+description: Откройте для себя класс Aspose.Words.Fields.FieldDate, разработанный для простой реализации полей DATE, улучшая автоматизацию и форматирование документов.
 type: docs
-weight: 1770
+weight: 2180
 url: /ru/net/aspose.words.fields/fielddate/
 ---
 ## FieldDate class
 
 Реализует поле ДАТА.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public class FieldDate : Field
@@ -28,31 +28,31 @@ public class FieldDate : Field
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий отображаемый результат поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/)объект, который обеспечивает типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Возвращает или задает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Возвращает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Возвращает или задает текст, который находится между разделителем полей и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
-| [UseLastFormat](../../aspose.words.fields/fielddate/uselastformat/) { get; set; } | Получает или задает, следует ли использовать формат, который последний раз использовался ведущим приложением при вставке нового поля ДАТЫ. |
-| [UseLunarCalendar](../../aspose.words.fields/fielddate/uselunarcalendar/) { get; set; } | Получает или задает, следует ли использовать лунный календарь Хиджры или еврейский лунный календарь. |
-| [UseSakaEraCalendar](../../aspose.words.fields/fielddate/usesakaeracalendar/) { get; set; } | Получает или задает, следует ли использовать календарь эпохи Сака. |
-| [UseUmAlQuraCalendar](../../aspose.words.fields/fielddate/useumalquracalendar/) { get; set; } | Получает или задает необходимость использования календаря Ум-аль-Кура. |
+| [UseLastFormat](../../aspose.words.fields/fielddate/uselastformat/) { get; set; } | Возвращает или задает, следует ли использовать последний формат, использованный приложением хостинга при вставке нового поля ДАТА. |
+| [UseLunarCalendar](../../aspose.words.fields/fielddate/uselunarcalendar/) { get; set; } | Возвращает или задает, использовать ли лунный календарь Хиджры или еврейский лунный календарь. |
+| [UseSakaEraCalendar](../../aspose.words.fields/fielddate/usesakaeracalendar/) { get; set; } | Возвращает или задает, использовать ли календарь эпохи Сака. |
+| [UseUmAlQuraCalendar](../../aspose.words.fields/fielddate/useumalquracalendar/) { get; set; } | Возвращает или задает, использовать ли календарь Ум-аль-Кура. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
-| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). Включаются как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля — последний child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отмену связи поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
 
 ## Примечания
 
@@ -60,7 +60,7 @@ public class FieldDate : Field
 
 ## Примеры
 
-Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными типами календарей.
+Показывает, как использовать поля ДАТА для отображения дат в соответствии с различными видами календарей.
 
 ```csharp
 Document doc = new Document();
@@ -86,8 +86,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Вставляем поле ДАТА и устанавливаем для него тип календаря тот, который последний раз использовался ведущим приложением.
-// В Microsoft Word тип будет последним использованным во вкладке «Вставка» -> gt; Текст -> Диалоговое окно «Дата и время».
+// Вставьте поле ДАТА и установите его тип календаря на последний, использовавшийся хост-приложением.
+// В Microsoft Word тип будет последним использованным в диалоговом окне Вставка -> Текст -> Дата и время.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

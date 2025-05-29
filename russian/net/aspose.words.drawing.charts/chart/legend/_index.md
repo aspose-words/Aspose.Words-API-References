@@ -3,14 +3,14 @@ title: Chart.Legend
 linktitle: Legend
 articleTitle: Legend
 second_title: Aspose.Words для .NET
-description: Chart Legend свойство. Обеспечивает доступ к свойствам легенды диаграммы на С#.
+description: Откройте для себя свойство Chart Legend, чтобы легко настраивать ваши диаграммы. Улучшите визуализацию данных с помощью индивидуальных вариантов легенды для лучшего понимания!
 type: docs
-weight: 50
+weight: 70
 url: /ru/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property
 
-Обеспечивает доступ к свойствам легенды диаграммы.
+Предоставляет доступ к свойствам легенды диаграммы.
 
 ```csharp
 public ChartLegend Legend { get; }
@@ -18,7 +18,7 @@ public ChartLegend Legend { get; }
 
 ## Примеры
 
-Показывает, как изменить внешний вид легенды диаграммы.
+Показывает, как редактировать внешний вид легенды диаграммы.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Перемещаем легенду диаграммы в правый верхний угол.
+// Переместить легенду диаграммы в верхний правый угол.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Дайте другим элементам диаграммы, таким как графику, больше места, разрешив им перекрывать легенду.
+// Дайте другим элементам диаграммы, таким как график, больше места, разрешив им перекрывать легенду.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

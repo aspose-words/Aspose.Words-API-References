@@ -3,9 +3,9 @@ title: ShapeBase.HRef
 linktitle: HRef
 articleTitle: HRef
 second_title: Aspose.Words для .NET
-description: ShapeBase HRef свойство. Получает или задает полный адрес гиперссылки для фигуры на С#.
+description: Откройте для себя свойство ShapeBase HRef, которое позволяет легко управлять полными адресами гиперссылок для ваших фигур, повышая интерактивность и функциональность вашего дизайна.
 type: docs
-weight: 230
+weight: 250
 url: /ru/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
@@ -24,19 +24,19 @@ public string HRef { get; set; }
 
 Полный URI:`https://www.aspose.com/`.
 
-Полное имя файла:`C:\\Мои документы\\SalesReport.doc`.
+Полное имя файла:`C:\\Мои документы\\Отчет о продажах.doc`.
 
-Относительный URI:`../../../resource.txt`
+Относительный URI:`../../../ресурс.txt`
 
-Относительное имя файла:`..\\Мои документы\\SalesReport.doc`.
+Относительное имя файла:`..\\Мои документы\\Отчет о продажах.doc`.
 
-Добавить закладку в другой документ:`https://www.aspose.com/Products/Default.aspx#Suites`
+Закладка в другом документе:`https://www.aspose.com/Products/Default.aspx#Suites`
 
 Закладка в этом документе:`#BookmakName`.
 
 ## Примеры
 
-Показывает, как вставить фигуру, содержащую изображение, а также гиперссылку.
+Показывает, как вставить фигуру, содержащую изображение, а также являющуюся гиперссылкой.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + щелчок левой кнопкой мыши по фигуре в Microsoft Word откроет новое окно веб-браузера
-// и приведет нас к гиперссылке в свойстве "HRef".
+// и перенаправляем нас к гиперссылке в свойстве "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

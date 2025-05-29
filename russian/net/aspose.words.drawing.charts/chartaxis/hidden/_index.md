@@ -3,14 +3,14 @@ title: ChartAxis.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words для .NET
-description: ChartAxis Hidden свойство. Получает или устанавливает флаг указывающий скрыта эта ось или нет на С#.
+description: Откройте для себя свойство ChartAxis Hidden, чтобы легко управлять видимостью осей в ваших диаграммах. Улучшите представление данных с помощью этой простой функции переключения!
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
 
-Получает или устанавливает флаг, указывающий, скрыта эта ось или нет.
+Возвращает или задает флаг, указывающий, скрыта ли эта ось или нет.
 
 ```csharp
 public bool Hidden { get; set; }
@@ -34,12 +34,12 @@ Chart chart = shape.Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавляем пользовательскую серию с категориями для оси X и соответствующими десятичными значениями для оси Y.
+// Добавьте пользовательскую серию с категориями для оси X и соответствующими десятичными значениями для оси Y.
 chart.Series.Add("AW Series 1",
     new[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
- // Скрываем оси диаграммы, чтобы упростить ее внешний вид.
+ // Скройте оси диаграммы, чтобы упростить ее внешний вид.
 chart.AxisX.Hidden = true;
 chart.AxisY.Hidden = true;
 

@@ -3,14 +3,14 @@ title: ViewOptions.ZoomType
 linktitle: ZoomType
 articleTitle: ZoomType
 second_title: Aspose.Words для .NET
-description: ViewOptions ZoomType свойство. Получает или задает значение масштабирования в зависимости от размера окна на С#.
+description: Откройте для себя свойство ViewOptions ZoomType, позволяющее легко настраивать уровни масштабирования в зависимости от размера окна, что повышает удобство использования и гибкость интерфейса.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/viewoptions/zoomtype/
 ---
 ## ViewOptions.ZoomType property
 
-Получает или задает значение масштабирования в зависимости от размера окна.
+Получает или задает значение масштабирования на основе размера окна.
 
 ```csharp
 public ZoomType ZoomType { get; set; }
@@ -18,7 +18,7 @@ public ZoomType ZoomType { get; set; }
 
 ## Примеры
 
-Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
+Показывает, как задать пользовательский коэффициент масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
 
 ```csharp
 Document doc = new Document();
@@ -34,19 +34,19 @@ Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
-Показывает, как установить пользовательский тип масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
+Показывает, как задать пользовательский тип масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Установите для свойства «ZoomType» значение «ZoomType.PageWidth», чтобы получить Microsoft Word
+// Установите свойство "ZoomType" на "ZoomType.PageWidth", чтобы получить Microsoft Word
 // для автоматического масштабирования документа по ширине страницы.
-// Установите для свойства «ZoomType» значение «ZoomType.FullPage», чтобы получить Microsoft Word
+// Установите свойство "ZoomType" на "ZoomType.FullPage", чтобы получить Microsoft Word
 // для автоматического масштабирования документа, чтобы сделать видимой всю первую страницу.
-// Установите для свойства «ZoomType» значение «ZoomType.TextFit», чтобы получить Microsoft Word
-// для автоматического масштабирования документа по размеру внутренних полей текста первой страницы.
+// Установите свойство "ZoomType" на "ZoomType.TextFit", чтобы получить Microsoft Word
+// для автоматического масштабирования документа в соответствии с внутренними текстовыми полями первой страницы.
 doc.ViewOptions.ZoomType = zoomType;
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomType.doc");

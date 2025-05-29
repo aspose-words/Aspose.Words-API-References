@@ -3,7 +3,7 @@ title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: NodeCollection Count свойство. Получает количество узлов в коллекции на С#.
+description: Откройте для себя свойство NodeCollection Count, чтобы легко получить доступ к общему количеству узлов в вашей коллекции, улучшая управление данными и эффективность.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/nodecollection/count/
@@ -18,27 +18,27 @@ public int Count { get; }
 
 ## Примеры
 
-Показывает, как перемещаться по коллекции дочерних узлов составного узла.
+Показывает, как проходить по коллекции дочерних узлов составного узла.
 
 ```csharp
 Document doc = new Document();
 
-// Добавьте два прогона и одну фигуру в качестве дочерних узлов в первый абзац этого документа.
+// Добавьте две трассы и одну форму в качестве дочерних узлов в первый абзац этого документа.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Обратите внимание, что CustomNodeId не сохраняется в выходном файле и существует только во время существования узла.
+// Обратите внимание, что «CustomNodeId» не сохраняется в выходном файле и существует только в течение срока службы узла.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Перебираем коллекцию непосредственных дочерних элементов абзаца,
-// и распечатываем любые фрагменты или фигуры, которые мы находим внутри.
+// Проходим по коллекции непосредственных дочерних элементов абзаца,
+// и распечатать любые найденные нами фрагменты или формы.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -58,7 +58,7 @@ foreach (Node child in children)
     }
 ```
 
-Показывает, как узнать, являются ли таблицы вложенными.
+Показывает, как определить, являются ли таблицы вложенными.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -69,7 +69,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Выясняем, есть ли в каких-либо ячейках таблицы дочерние другие таблицы.
+        // Выясняем, есть ли у ячеек таблицы другие дочерние таблицы.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -105,20 +105,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Определяет, содержит ли таблица в своих ячейках какую-либо непосредственную дочернюю таблицу.
-/// Не просматривайте эти таблицы рекурсивно, чтобы проверить наличие дополнительных таблиц.
+/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
+/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия дополнительных таблиц.
 /// </summary>
 /// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
-/// Возвращает false, если ни одна из ячеек таблицы не содержит таблицу.
+/// Возвращает false, если ни одна ячейка в таблице не содержит таблицу.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

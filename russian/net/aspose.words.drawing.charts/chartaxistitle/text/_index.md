@@ -3,14 +3,14 @@ title: ChartAxisTitle.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: ChartAxisTitle Text свойство. Получает или задает текст заголовка оси. Еслинулевой или указано пустое значение будет показан автоматически сгенерированный заголовок на С#.
+description: Откройте для себя свойство ChartAxisTitle Text для легкой настройки названий осей. Задайте или получите динамические названия для улучшенной визуализации данных.
 type: docs
-weight: 30
+weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
 
-Получает или задает текст заголовка оси. Если`нулевой` или указано пустое значение, будет показан автоматически сгенерированный заголовок.
+Возвращает или задает текст заголовка оси. Если`нулевой` или указано пустое значение, будет показан автоматически сгенерированный заголовок.
 
 ```csharp
 public string Text { get; set; }
@@ -18,11 +18,11 @@ public string Text { get; set; }
 
 ## Примечания
 
-Использовать[`Show`](../show/) вариант, если вам нужно показать заголовок.
+Использовать[`Show`](../show/)опция, если вам нужно показать заголовок.
 
 ## Примеры
 
-Показывает, как установить заголовок оси диаграммы.
+Показывает, как задать заголовок оси диаграммы.
 
 ```csharp
 Document doc = new Document();
@@ -32,17 +32,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// Удалить созданную по умолчанию серию.
+// Удалить сгенерированную по умолчанию серию.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Установить заголовок оси.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

@@ -3,14 +3,14 @@ title: TabStopCollection.Before
 linktitle: Before
 articleTitle: Before
 second_title: Aspose.Words для .NET
-description: TabStopCollection Before метод. Получает первую позицию табуляции слева от указанной позиции на С#.
+description: Откройте для себя метод TabStopCollection Before, эффективно извлекайте ближайшую левую позицию табуляции для бесперебойной навигации в вашем приложении.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/tabstopcollection/before/
 ---
 ## TabStopCollection.Before method
 
-Получает первую позицию табуляции слева от указанной позиции.
+Устанавливает первую позицию табуляции слева от указанной позиции.
 
 ```csharp
 public TabStop Before(double position)
@@ -18,19 +18,19 @@ public TabStop Before(double position)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| position | Double | Исходное положение (в пунктах). |
+| position | Double | Исходное положение (в точках). |
 
 ### Возвращаемое значение
 
-Объект табуляции или`нулевой` если подходящая позиция табуляции не найдена.
+Объект табуляции или`нулевой` если подходящая табуляция не найдена.
 
 ## Примечания
 
-Пропускает позиции табуляции с помощью[`Alignment`](../../tabstop/alignment/) установлен вBar.
+Пропускает табуляции с[`Alignment`](../../tabstop/alignment/) установлен наBar.
 
 ## Примеры
 
-Показывает, как работать с коллекцией табуляции документа.
+Показывает, как работать с набором позиций табуляции в документе.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// Каждый символ табуляции переносит курсор компоновщика в место следующей позиции табуляции.
+// Каждый символ «табуляции» перемещает курсор конструктора в положение следующей позиции табуляции.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
@@ -57,11 +57,11 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Коллекция табуляции может указывать нам на TabStops до и после определенных позиций.
+// Коллекция позиций табуляции может указать нам на позиции TabStop до и после определенных позиций.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// Мы можем очистить коллекцию табуляции абзаца, чтобы вернуться к поведению табуляции по умолчанию.
+// Мы можем очистить коллекцию позиций табуляции абзаца, чтобы вернуться к поведению табуляции по умолчанию.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

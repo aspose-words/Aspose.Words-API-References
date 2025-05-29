@@ -3,14 +3,14 @@ title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontPitch перечисление. Обозначает шаг шрифта на С#.
+description: Откройте для себя перечисление Aspose.Words.Fonts.FontPitch — мощный инструмент для управления стилями шрифтов и улучшения форматирования документов в ваших приложениях.
 type: docs
-weight: 2960
+weight: 3390
 url: /ru/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Обозначает шаг шрифта.
+Представляет шаг шрифта.
 
 ```csharp
 public enum FontPitch
@@ -20,17 +20,17 @@ public enum FontPitch
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Default | `0` | Указывает, что информация о шаге шрифта отсутствует. |
+| Default | `0` | Указывает, что информация о высоте шрифта отсутствует. |
 | Fixed | `1` | Указывает, что это шрифт фиксированной ширины. |
 | Variable | `2` | Указывает, что это шрифт пропорциональной ширины. |
 
 ## Примечания
 
-Шаг указывает, является ли шрифт фиксированным, пропорциональным или основан на настройке по умолчанию.
+Шаг указывает, имеет ли шрифт фиксированный шаг, пропорциональный интервал или использует настройки по умолчанию.
 
 ## Примеры
 
-Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
+Показывает, как получить доступ к сведениям о каждом шрифте в документе и распечатать их.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -43,7 +43,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Альтернативные имена обычно пусты.
+        // Альтернативные имена обычно пустые.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

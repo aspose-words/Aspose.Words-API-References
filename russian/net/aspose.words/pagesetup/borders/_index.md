@@ -3,7 +3,7 @@ title: PageSetup.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words для .NET
-description: PageSetup Borders свойство. Получает коллекцию границ страницы на С#.
+description: Откройте для себя свойство PageSetup Borders, чтобы легко получать доступ к границам страниц и настраивать их, придавая вашим документам изысканный и профессиональный вид.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/pagesetup/borders/

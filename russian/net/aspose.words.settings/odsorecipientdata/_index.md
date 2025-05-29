@@ -3,16 +3,16 @@ title: OdsoRecipientData Class
 linktitle: OdsoRecipientData
 articleTitle: OdsoRecipientData
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoRecipientData сорт. Представляет информацию об одной записи во внешнем источнике данных которая должна быть исключена из слияния почты на С#.
+description: Откройте для себя класс Aspose.Words.Settings.OdsoRecipientData, предназначенный для управления и исключения определенных записей в почтовых рассылках для эффективной обработки документов.
 type: docs
-weight: 5930
+weight: 6760
 url: /ru/net/aspose.words.settings/odsorecipientdata/
 ---
 ## OdsoRecipientData class
 
 Представляет информацию об одной записи во внешнем источнике данных, которая должна быть исключена из слияния почты.
 
-Чтобы узнать больше, посетите[Слияние почты и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) статья документации.
+Чтобы узнать больше, посетите[Слияние писем и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) документальная статья.
 
 ```csharp
 public class OdsoRecipientData
@@ -28,24 +28,24 @@ public class OdsoRecipientData
 
 | Имя | Описание |
 | --- | --- |
-| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Указывает, должна ли запись из источника данных быть импортирована в документ при выполнении слияния почты. Значение по умолчанию:`истинный` . |
-| [Column](../../aspose.words.settings/odsorecipientdata/column/) { get; set; } | Указывает столбец в источнике данных, который содержит уникальные данные для текущей записи. Значение по умолчанию: 0. |
-| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Представляет хэш-код этой записи. Иногда Microsoft Word использует[`Hash`](./hash/) всей записи вместо[`UniqueTag`](./uniquetag/) value. Значение по умолчанию — 0. . |
-| [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag/) { get; set; } | Указывает содержимое данной записи в столбце, содержащем уникальные данные. Значение по умолчанию:`нулевой` . |
+| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Указывает, будет ли запись из источника данных импортирована в документ при выполнении слияния почты. Значение по умолчанию:`истинный` . |
+| [Column](../../aspose.words.settings/odsorecipientdata/column/) { get; set; } | Указывает столбец в источнике данных, содержащий уникальные данные для текущей записи. Значение по умолчанию — 0. |
+| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Представляет хэш-код для этой записи. Иногда Microsoft Word использует[`Hash`](./hash/) целой записи вместо[`UniqueTag`](./uniquetag/) значение. Значение по умолчанию — 0. |
+| [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag/) { get; set; } | Указывает содержимое заданной записи в столбце, содержащем уникальные данные. Значение по умолчанию:`нулевой` . |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Возвращает глубокую копию этого объекта. |
+| [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Возвращает глубокий клон этого объекта. |
 
 ## Примечания
 
-Если запись должна быть объединена в объединенный документ, то никакой информации об этой записи не требуется. Однако, если данная запись не должна быть объединена в объединенный документ, то значение уникального ключа для этой записи должно храниться в[`UniqueTag`](./uniquetag/)свойство этого объекта, чтобы указать это исключение.
+Если запись должна быть объединена в объединенный документ, то никакая информация об этой записи не требуется. Однако, если данная запись не должна быть объединена в объединенный документ, то значение уникального ключа для этой записи должно быть сохранено в[`UniqueTag`](./uniquetag/)свойство этого объекта, указывающее на это исключение.
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

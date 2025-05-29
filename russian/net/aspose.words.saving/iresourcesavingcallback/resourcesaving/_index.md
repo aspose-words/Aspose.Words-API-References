@@ -3,14 +3,14 @@ title: IResourceSavingCallback.ResourceSaving
 linktitle: ResourceSaving
 articleTitle: ResourceSaving
 second_title: Aspose.Words для .NET
-description: IResourceSavingCallback ResourceSaving метод. Вызывается когда Aspose.Words сохраняет внешний ресурс в формате фиксированной страницы HTML или SVG на С#.
+description: Оптимизируйте обработку документов с помощью метода ResourceSaving в Aspose.Words, улучшающего управление внешними ресурсами для форматов HTML и SVG.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
 ---
 ## IResourceSavingCallback.ResourceSaving method
 
-Вызывается, когда Aspose.Words сохраняет внешний ресурс в формате фиксированной страницы HTML или SVG.
+Вызывается, когда Aspose.Words сохраняет внешний ресурс в форматах HTML или SVG с фиксированной страницей.
 
 ```csharp
 public void ResourceSaving(ResourceSavingArgs args)
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Вызывается, когда Aspose.Words сохраняет внешний ресурс в HTML или SVG фиксированной страницы.
+    /// Вызывается, когда Aspose.Words сохраняет внешний ресурс в формате HTML или SVG фиксированной страницы.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -92,13 +92,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает URI ресурсов, содержащихся в них, при их преобразовании в фиксированный HTML.
+/// Подсчитывает и выводит URI ресурсов, содержащихся в, по мере их преобразования в фиксированный HTML.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Если мы установим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
+        // Если мы зададим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -107,7 +107,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // По умолчанию ResourceFileUri использует системную папку для шрифтов.
+                // По умолчанию «ResourceFileUri» использует системную папку для шрифтов.
                 // Чтобы избежать проблем на других платформах, необходимо явно указать путь к шрифтам.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
@@ -116,8 +116,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // Если мы указали папку в свойстве ResourcesFolderAlias,
-        // нам также нужно будет перенаправить каждый поток, чтобы поместить его ресурс в эту папку.
+        // Если мы указали папку в свойстве "ResourcesFolderAlias",
+        // нам также потребуется перенаправить каждый поток, чтобы поместить его ресурс в эту папку.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

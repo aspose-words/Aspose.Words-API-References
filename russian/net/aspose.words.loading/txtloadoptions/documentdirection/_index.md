@@ -3,14 +3,14 @@ title: TxtLoadOptions.DocumentDirection
 linktitle: DocumentDirection
 articleTitle: DocumentDirection
 second_title: Aspose.Words для .NET
-description: TxtLoadOptions DocumentDirection свойство. Получает или задает направление документа. Значение по умолчаниюLeftToRight  на С#.
+description: Откройте для себя свойство TxtLoadOptions DocumentDirection, чтобы легко задать направление документа. Оптимизируйте свой макет с помощью настройки LeftToRight по умолчанию!
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
 
-Получает или задает направление документа. Значение по умолчанию:LeftToRight .
+Возвращает или задает направление документа. Значение по умолчанию:LeftToRight .
 
 ```csharp
 public DocumentDirection DocumentDirection { get; set; }
@@ -18,24 +18,24 @@ public DocumentDirection DocumentDirection { get; set; }
 
 ## Примеры
 
-Показывает, как определить направление текста документа в виде открытого текста.
+Показывает, как определить направление текста в текстовом документе.
 
 ```csharp
-// Создаем объект «TxtLoadOptions», который мы можем передать конструктору документа
-// чтобы изменить способ загрузки открытого текстового документа.
+// Создаем объект "TxtLoadOptions", который можно передать конструктору документа
+// чтобы изменить способ загрузки текстового документа.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Установите для свойства «DocumentDirection» значение «DocumentDirection.Auto», автоматически обнаруживает
+// Установите свойство "DocumentDirection" на "DocumentDirection.Auto", чтобы автоматически определить
 // направление каждого абзаца текста, который Aspose.Words загружает из открытого текста.
-// Свойство Bidi каждого абзаца сохранит направление.
+// Свойство «Bidi» каждого абзаца будет хранить его направление.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
-// Обнаружить текст на иврите как написанный справа налево.
+// Определить, что текст на иврите написан справа налево.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// Обнаружение текста на английском языке как справа налево.
+// Определить английский текст как написанный справа налево.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);

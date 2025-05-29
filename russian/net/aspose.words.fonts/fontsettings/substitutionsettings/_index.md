@@ -3,14 +3,14 @@ title: FontSettings.SubstitutionSettings
 linktitle: SubstitutionSettings
 articleTitle: SubstitutionSettings
 second_title: Aspose.Words для .NET
-description: FontSettings SubstitutionSettings свойство. Настройки связанные с механизмом подстановки шрифтов на С#.
+description: Изучите свойство FontSettings SubstitutionSettings, чтобы оптимизировать процесс замены шрифтов и без труда улучшить качество отображения текста.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontsettings/substitutionsettings/
 ---
 ## FontSettings.SubstitutionSettings property
 
-Настройки, связанные с механизмом подстановки шрифтов.
+Настройки, связанные с механизмом замены шрифтов.
 
 ```csharp
 public FontSubstitutionSettings SubstitutionSettings { get; }
@@ -18,7 +18,7 @@ public FontSubstitutionSettings SubstitutionSettings { get; }
 
 ## Примеры
 
-Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
+// Установить шрифт, который существует в каталоге шрифтов Windows, в качестве замены отсутствующему.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -67,6 +67,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Смотрите также

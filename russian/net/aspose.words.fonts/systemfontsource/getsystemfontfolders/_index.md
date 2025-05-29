@@ -3,14 +3,14 @@ title: SystemFontSource.GetSystemFontFolders
 linktitle: GetSystemFontFolders
 articleTitle: GetSystemFontFolders
 second_title: Aspose.Words для .NET
-description: SystemFontSource GetSystemFontFolders метод. Возвращает папки системных шрифтов или пустой массив если папки недоступны на С#.
+description: Откройте для себя метод GetSystemFontFolders в SystemFontSource. Легко получайте доступ к папкам системных шрифтов или получайте пустой массив, если он недоступен.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 ---
 ## SystemFontSource.GetSystemFontFolders method
 
-Возвращает папки системных шрифтов или пустой массив, если папки недоступны.
+Возвращает системные папки шрифтов или пустой массив, если папки недоступны.
 
 ```csharp
 public static string[] GetSystemFontFolders()
@@ -18,11 +18,11 @@ public static string[] GetSystemFontFolders()
 
 ## Примечания
 
-На некоторых платформах Aspose.Words мог искать системные шрифты не только в папках, но и в других источниках. Например, на платформе Windows Aspose.Words ищет шрифты также в реестре.
+На некоторых платформах Aspose.Words может искать системные шрифты не только в папках, но и в других источниках. Например, на платформе Windows Aspose.Words ищет шрифты также в реестре.
 
 ## Примеры
 
-Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -50,7 +50,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
+// Установить шрифт, который существует в каталоге шрифтов Windows, в качестве замены отсутствующему.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -71,6 +71,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Смотрите также

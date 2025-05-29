@@ -3,14 +3,14 @@ title: FieldCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words для .NET
-description: FieldCollection RemoveAt метод. Удаляет поле по указанному индексу из этой коллекции и из документа на С#.
+description: Легко удаляйте поля из документа с помощью метода FieldCollection RemoveAt. Оптимизируйте управление данными уже сегодня!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldcollection/removeat/
 ---
 ## FieldCollection.RemoveAt method
 
-Удаляет поле по указанному индексу из этой коллекции и из документа.
+Удаляет поле с указанным индексом из данной коллекции и из документа.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| index | Int32 | Индекс в коллекции. |
+| index | Int32 | Указатель коллекции. |
 
 ## Примеры
 
-Показывает, как удалить поля из коллекции полей.
+Показывает, как удалять поля из коллекции полей.
 
 ```csharp
 Document doc = new Document();
@@ -41,16 +41,16 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Ниже приведены четыре способа удаления полей из коллекции полей.
-// 1 - Получить поле для удаления самого себя:
+// 1 - Получить поле для удаления:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 — Получение коллекции для удаления поля, которое мы передаем методу удаления:
+// 2 - Получаем коллекцию для удаления поля, которое передаем ее методу удаления:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 — Удалить поле из коллекции по индексу:
+// 3 - Удалить поле из коллекции по индексу:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 

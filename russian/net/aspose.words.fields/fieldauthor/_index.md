@@ -3,16 +3,16 @@ title: FieldAuthor Class
 linktitle: FieldAuthor
 articleTitle: FieldAuthor
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldAuthor сорт. Реализует поле AUTHOR на С#.
+description: Откройте для себя класс Aspose.Words.Fields.FieldAuthor, разработанный для простой реализации поля AUTHOR для улучшенного управления документами и автоматизации.
 type: docs
-weight: 1570
+weight: 1980
 url: /ru/net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class
 
 Реализует поле AUTHOR.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public class FieldAuthor : Field
@@ -28,15 +28,15 @@ public class FieldAuthor : Field
 
 | Имя | Описание |
 | --- | --- |
-| [AuthorName](../../aspose.words.fields/fieldauthor/authorname/) { get; set; } | Получает или задает имя автора документа. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [AuthorName](../../aspose.words.fields/fieldauthor/authorname/) { get; set; } | Возвращает или задает имя автора документа. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий отображаемый результат поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/)объект, который обеспечивает типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Возвращает или задает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Возвращает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Возвращает или задает текст, который находится между разделителем полей и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
@@ -44,34 +44,34 @@ public class FieldAuthor : Field
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
-| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). Включаются как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля — последний child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отмену связи поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
 
 ## Примечания
 
-Извлекает и (необязательно) устанавливает имя автора документа, записанное в**Автор** свойство встроенных свойств документа the .
+Извлекает и, при необходимости, задает имя автора документа, как записано в**Автор** свойство встроенных свойств документа the .
 
 ## Примеры
 
-Показывает, как использовать поле АВТОР для отображения имени создателя документа.
+Показывает, как использовать поле AUTHOR для отображения имени создателя документа.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Поля AUTHOR получают результаты из встроенного свойства документа под названием «Автор».
+// Поля AUTHOR берут свои результаты из встроенного свойства документа под названием «Автор».
 // Если мы создадим и сохраним документ в Microsoft Word,
 // в этом свойстве будет наше имя пользователя.
 // Однако, если мы создадим документ программно с помощью Aspose.Words,
-// свойство "Автор" по умолчанию будет пустой строкой.
+// свойство «Автор» по умолчанию будет пустой строкой.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
-// Установите резервное имя автора для полей AUTHOR, которые будут использоваться
-// если свойство "Автор" содержит пустую строку.
+// Задайте резервное имя автора для полей AUTHOR для использования
+// если свойство «Автор» содержит пустую строку.
 doc.FieldOptions.DefaultDocumentAuthor = "Joe Bloggs";
 
 builder.Write("This document was created by ");
@@ -82,11 +82,11 @@ Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
 // Обновление поля AUTHOR, содержащего значение
-// применит это значение ко встроенному свойству «Автор».
+// применит это значение к встроенному свойству «Автор».
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
-// Изменение этого свойства, а затем обновление поля AUTHOR применит это значение к полю.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+// Изменение этого свойства и последующее обновление поля AUTHOR применит это значение к полю.
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());

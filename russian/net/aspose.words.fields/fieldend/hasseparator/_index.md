@@ -3,14 +3,14 @@ title: FieldEnd.HasSeparator
 linktitle: HasSeparator
 articleTitle: HasSeparator
 second_title: Aspose.Words для .NET
-description: FieldEnd HasSeparator свойство. Возвращаетистинныйесли в этом поле есть разделитель на С#.
+description: Откройте для себя свойство FieldEnd HasSeparator, легко проверьте, содержит ли ваше поле разделитель для улучшенной организации данных и ясности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-Возвращает`истинный`если в этом поле есть разделитель.
+Возврат`истинный` если в этом поле есть разделитель.
 
 ```csharp
 public bool HasSeparator { get; }
@@ -18,7 +18,7 @@ public bool HasSeparator { get; }
 
 ## Примеры
 
-Показывает, как работать с коллекцией полей.
+Показывает, как работать с набором полей.
 
 ```csharp
 public void FieldCollection()
@@ -38,7 +38,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей, выводим содержимое и печатаем
+    // Проходим по коллекции полей и выводим содержимое и тип
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Реализация посетителя документа, который печатает информацию о поле.
+/// Реализация посетителя документа, который выводит информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

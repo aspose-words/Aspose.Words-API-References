@@ -3,14 +3,14 @@ title: FieldCitation.VolumeNumber
 linktitle: VolumeNumber
 articleTitle: VolumeNumber
 second_title: Aspose.Words для .NET
-description: FieldCitation VolumeNumber свойство. Получает или задает номер тома связанного с цитатой на С#.
+description: Управляйте цитатами без особых усилий с помощью свойства FieldCitation VolumeNumber, позволяющего легко устанавливать или извлекать соответствующие номера томов.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.fields/fieldcitation/volumenumber/
 ---
 ## FieldCitation.VolumeNumber property
 
-Получает или задает номер тома, связанного с цитатой.
+Возвращает или задает номер тома, связанный с цитатой.
 
 ```csharp
 public string VolumeNumber { get; set; }
@@ -22,12 +22,12 @@ public string VolumeNumber { get; set; }
 
 ```csharp
 // Открываем документ, содержащий библиографические источники, которые мы можем найти в
-// Microsoft Word через ссылки -> Цитаты и Библиография -> Управление источниками.
+// Microsoft Word через Ссылки -> Цитаты и библиография -> Управление источниками.
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
 
-// Создайте цитату, указав только номер страницы и автора книги, на которую ссылаетесь.
+// Создайте ссылку, указав только номер страницы и автора указанной книги.
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
 // Мы ссылаемся на источники, используя их имена тегов.
@@ -39,7 +39,7 @@ fieldCitation.SuppressYear = true;
 
 Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
 
-// Создайте более подробную цитату, в которой цитируются два источника.
+// Создайте более подробную цитату, ссылающуюся на два источника.
 builder.InsertParagraph();
 builder.Write("Text to be cited with two sources.");
 fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
@@ -60,8 +60,10 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
 fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FilterLanguageId = "5129";
+fieldBibliography.SourceTag = "Book2";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

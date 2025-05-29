@@ -3,14 +3,14 @@ title: Shape.HorizontalRuleFormat
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words для .NET
-description: Shape HorizontalRuleFormat свойство. Предоставляет доступ к свойствам фигуры горизонтальной линейки. Для фигуры не являющейся горизонтальной линейкой возвращаетсянулевой  на С#.
+description: Доступ и настройка свойств HorizontalRuleFormat для повышения гибкости дизайна. Оптимизируйте свои формы с помощью индивидуальных настроек для уникальных результатов.
 type: docs
-weight: 100
+weight: 110
 url: /ru/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Предоставляет доступ к свойствам фигуры горизонтальной линейки. Для фигуры, не являющейся горизонтальной линейкой, возвращается`нулевой` .
+Предоставляет доступ к свойствам формы горизонтальной линейки. Для формы, которая не является горизонтальной линейкой, возвращает`нулевой` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
@@ -18,7 +18,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ## Примеры
 
-Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
+Показывает, как вставить горизонтальную линейку и настроить ее форматирование.
 
 ```csharp
 Document doc = new Document();

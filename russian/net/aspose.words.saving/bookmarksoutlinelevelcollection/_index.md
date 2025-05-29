@@ -3,16 +3,16 @@ title: BookmarksOutlineLevelCollection Class
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection сорт. Коллекция отдельных уровней структуры закладок на С#.
+description: Откройте для себя класс Aspose.Words.Saving.BookmarksOutlineLevelCollection — мощный инструмент для управления закладками и улучшения навигации по документу без особых усилий.
 type: docs
-weight: 4850
+weight: 5590
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
 
-Коллекция отдельных уровней структуры закладок.
+Коллекция отдельных закладок уровня структуры.
 
-Чтобы узнать больше, посетите[Работа с закладками](https://docs.aspose.com/words/net/working-with-bookmarks/) статья документации.
+Чтобы узнать больше, посетите[Работа с закладками](https://docs.aspose.com/words/net/working-with-bookmarks/) документальная статья.
 
 ```csharp
 public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, int>>
@@ -37,27 +37,27 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 | --- | --- |
 | [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Добавляет закладку в коллекцию. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Удаляет все элементы из коллекции. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Определяет, содержит ли коллекция закладку с заданным именем. |
-| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Возвращает отсчитываемый от нуля индекс указанной закладки в коллекции. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Определяет, содержит ли коллекция закладку с указанным именем. |
+| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Возвращает индекс указанной закладки в коллекции (начиная с нуля). |
 | [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Удаляет закладку с указанным именем из коллекции. |
 | [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Удаляет закладку по указанному индексу. |
 
 ## Примечания
 
-Ключ — это строковое имя закладки, не учитывающее регистр. Значение — это уровень структуры закладки int.
+Ключ — это нечувствительное к регистру строковое имя закладки. Значение — это уровень структуры закладки int.
 
-Уровень структуры закладки может иметь значение от 0 до 9. Укажите 0, и закладка Word не будет отображаться в структуре документа. Укажите 1, и закладка Word будет отображаться в структуре документа на уровне 1; 2 для уровня 2 и так далее.
+Уровень структуры закладки может иметь значение от 0 до 9. Укажите 0, и закладка Word не будет отображаться в структуре документа. Укажите 1, и закладка Word будет отображаться в структуре документа на уровне 1; 2 для уровня 2 и т. д.
 
 ## Примеры
 
-Показывает, как установить уровни структуры для закладок.
+Показывает, как устанавливать уровни структуры для закладок.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем закладку, внутри которой находится другая закладка.
+// Вставить закладку с другой вложенной в нее закладкой.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -68,14 +68,14 @@ builder.EndBookmark("Bookmark 2");
 builder.Writeln("Text inside Bookmark 1.");
 builder.EndBookmark("Bookmark 1");
 
-// Вставляем еще одну закладку.
+// Вставить еще одну закладку.
 builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// При сохранении в формате .pdf доступ к закладкам можно получить через раскрывающееся меню, и большинство читателей могут использовать их в качестве привязок.
+// При сохранении в формате .pdf закладки доступны через раскрывающееся меню и используются в качестве якорей большинством читателей.
 // Закладки также могут иметь числовые значения для уровней структуры,
-// включение записей структуры нижнего уровня для скрытия дочерних записей более высокого уровня при свертывании в программе чтения.
+// включение записей структуры более низкого уровня для скрытия дочерних записей более высокого уровня при свертывании в программе чтения.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -93,7 +93,7 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Существует девять уровней структуры. Их нумерация будет оптимизирована во время операции сохранения.
+// Всего девять уровней структуры. Их нумерация будет оптимизирована во время операции сохранения.
 // В этом случае уровни «5» и «9» станут «2» и «3».
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);

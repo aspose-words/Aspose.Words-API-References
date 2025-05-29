@@ -3,7 +3,7 @@ title: ViewOptions.FormsDesign
 linktitle: FormsDesign
 articleTitle: FormsDesign
 second_title: Aspose.Words для .NET
-description: ViewOptions FormsDesign свойство. Указывает находится ли документ в режиме разработки форм на С#.
+description: Узнайте, как ViewOptions FormsDesign улучшает работу с документами, переключая режим разработки форм для удобного редактирования и настройки.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/viewoptions/formsdesign/
@@ -18,7 +18,7 @@ public bool FormsDesign { get; set; }
 
 ## Примечания
 
-На данный момент работает только для документов в формате WordML.
+В настоящее время работает только для документов в формате WordML.
 
 ## Примеры
 
@@ -29,8 +29,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Установите для свойства «FormsDesign» значение «false», чтобы режим дизайна форм был отключен.
-// Установите для свойства FormsDesign значение true, чтобы включить режим разработки форм.
+// Установите свойство "FormsDesign" в значение "false", чтобы режим разработки форм оставался отключенным.
+// Установите свойство «FormsDesign» в значение «true», чтобы включить режим разработки форм.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

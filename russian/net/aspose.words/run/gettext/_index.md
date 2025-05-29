@@ -3,14 +3,14 @@ title: Run.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words для .NET
-description: Run GetText метод. Получает текст выполнения на С#.
+description: Легко извлекайте текст с помощью метода GetText. Упростите кодирование с помощью этого необходимого инструмента для эффективного управления текстом.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/run/gettext/
 ---
 ## Run.GetText method
 
-Получает текст выполнения.
+Получает текст запуска.
 
 ```csharp
 public override string GetText()
@@ -18,7 +18,7 @@ public override string GetText()
 
 ### Возвращаемое значение
 
-Текст пробега.
+Текст тиража.
 
 ## Примеры
 
@@ -30,14 +30,14 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Альтернативный способ доступа к верхнему и нижнему колонтитулу документа по разделам — обращение к коллекции.
+    // Альтернативный способ доступа к верхним и нижним колонтитулам документа по разделам — доступ к коллекции.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
@@ -94,7 +94,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,9 +3,9 @@ title: Compatibility Enum
 linktitle: Compatibility
 articleTitle: Compatibility
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.Compatibility перечисление. Указывает имена параметров совместимости на С#.
+description: Изучите перечисление Aspose.Words.Settings.Compatibility, чтобы открыть мощные параметры совместимости для бесперебойной обработки документов и повышения производительности.
 type: docs
-weight: 5770
+weight: 6600
 url: /ru/net/aspose.words.settings/compatibility/
 ---
 ## Compatibility enumeration
@@ -20,77 +20,77 @@ public enum Compatibility
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| NoTabHangInd | `0` |  |
-| NoSpaceRaiseLower | `1` |  |
-| SuppressSpBfAfterPgBrk | `2` |  |
-| WrapTrailSpaces | `3` |  |
-| PrintColBlack | `4` |  |
-| NoColumnBalance | `5` |  |
-| ConvMailMergeEsc | `6` |  |
-| SuppressTopSpacing | `7` |  |
-| UseSingleBorderforContiguousCells | `8` |  |
-| TransparentMetafiles | `9` |  |
-| ShowBreaksInFrames | `10` |  |
-| SwapBordersOddFacingPgs | `11` |  |
-| DoNotLeaveBackslashAlone | `12` |  |
-| DoNotExpandOnShiftReturn | `13` |  |
-| UlTrailSpace | `14` |  |
-| BalanceSingleByteDoubleByteWidth | `15` |  |
-| SuppressTopSpacingAtTopOfPage | `16` |  |
-| SpacingInWholePoints | `17` |  |
-| PrintBodyTextBeforeHeader | `18` |  |
-| NoLeading | `19` |  |
-| SpaceForUL | `20` |  |
-| MWSmallCaps | `21` |  |
-| SuppressTopLineSpacingWP | `22` |  |
-| TruncateFontHeightLikeWP6 | `23` |  |
-| SubFontBySize | `24` |  |
-| LineWrapLikeWord6 | `25` |  |
-| DoNotSuppressParagraphBorder | `26` |  |
-| NoExtraLineSpacing | `27` |  |
-| SuppressBottomSpacing | `28` |  |
-| WPSpaceWidth | `29` |  |
-| WPJustification | `30` |  |
-| UsePrinterMetrics | `31` |  |
-| ShapeLayoutLikeWW8 | `32` |  |
-| FootnoteLayoutLikeWW8 | `33` |  |
-| DoNotUseHtmlParagraphAutoSpacing | `34` |  |
-| AdjustLineHeightInTable | `35` |  |
-| ForgetLastTabAlignment | `36` |  |
-| AutoSpaceLikeWord95 | `37` |  |
-| AlignTableRowByRow | `38` |  |
-| LayoutRawTableWidth | `39` |  |
-| LayoutTableRowsApart | `40` |  |
-| UseWord97LineBreakRules | `41` |  |
-| DoNotBreakWrappedTables | `42` |  |
-| doNotSnapToGridInCell | `43` |  |
-| SelectFldWithFirstOrLastChar | `44` |  |
-| ApplyBreakingRules | `45` |  |
-| DoNotWrapTextWithPunct | `46` |  |
-| DoNotUseEastAsianBreakRules | `47` |  |
-| UseWord2002TableStyleRules | `48` |  |
-| GrowAutofit | `49` |  |
-| UseNormalStyleForList | `50` |  |
-| DoNotUseIndentAsNumberingTabStop | `51` |  |
-| UseAltKinsokuLineBreakRules | `52` |  |
-| AllowSpaceOfSameStyleInTable | `53` |  |
-| DoNotSuppressIndentation | `54` |  |
-| DoNotAutofitConstrainedTables | `55` |  |
-| AutofitToFirstFixedWidthCell | `56` |  |
-| UnderlineTabInNumList | `57` |  |
-| DisplayHangulFixedWidth | `58` |  |
-| SplitPgBreakAndParaMark | `59` |  |
-| DoNotVertAlignCellWithSp | `60` |  |
-| DoNotBreakConstrainedForcedTable | `61` |  |
-| DoNotVertAlignInTxbx | `62` |  |
-| UseAnsiKerningPairs | `63` |  |
-| CachedColBalance | `64` |  |
-| UseFELayout | `65` |  |
-| UICompat97To2003 | `66` |  |
-| OverrideTableStyleFontSizeAndJustification | `67` |  |
-| DisableOpenTypeFontFormattingFeatures | `68` |  |
-| SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` |  |
-| UseWord2010TableStyleRules | `70` |  |
+| NoTabHangInd | `0` | Без отступа для подвешивания табуляции |
+| NoSpaceRaiseLower | `1` | Нет пробела Поднять Опустить |
+| SuppressSpBfAfterPgBrk | `2` | Подавить пробел перед разрывом абзаца |
+| WrapTrailSpaces | `3` | Перенести конечные пробелы |
+| PrintColBlack | `4` | Фон столбца печати |
+| NoColumnBalance | `5` | Нет балансировки столбцов |
+| ConvMailMergeEsc | `6` | Преобразование экранов слияния почты |
+| SuppressTopSpacing | `7` | Подавить верхний интервал |
+| UseSingleBorderforContiguousCells | `8` | Использовать одинарную границу для смежных ячеек |
+| TransparentMetafiles | `9` | Прозрачные метафайлы |
+| ShowBreaksInFrames | `10` | Показывать разрывы в кадрах |
+| SwapBordersOddFacingPgs | `11` | Поменять местами границы на нечетных страницах |
+| DoNotLeaveBackslashAlone | `12` | Не оставляйте обратную косую черту в покое |
+| DoNotExpandOnShiftReturn | `13` | Не расширять при нажатии клавиши Shift Return |
+| UlTrailSpace | `14` | Подчеркивание конечного пробела |
+| BalanceSingleByteDoubleByteWidth | `15` | Баланс однобайтовой и двухбайтовой ширины |
+| SuppressTopSpacingAtTopOfPage | `16` | Подавить межстрочный интервал в WordPerfect |
+| SpacingInWholePoints | `17` | Интервал в целых точках |
+| PrintBodyTextBeforeHeader | `18` | Печатать основной текст перед заголовком |
+| NoLeading | `19` | Нет Ведущего |
+| SpaceForUL | `20` | Место для подчеркивания |
+| MWSmallCaps | `21` | MW Малые Капители |
+| SuppressTopLineSpacingWP | `22` | Подавить межстрочный интервал в WordPerfect |
+| TruncateFontHeightLikeWP6 | `23` | Усечение высоты шрифта, как у WordPerfect 6 |
+| SubFontBySize | `24` | Заменить шрифт по размеру |
+| LineWrapLikeWord6 | `25` | Перенос строки, как в слове 6 |
+| DoNotSuppressParagraphBorder | `26` | Не подавлять границу абзаца |
+| NoExtraLineSpacing | `27` | Без дополнительного межстрочного интервала |
+| SuppressBottomSpacing | `28` | Подавить нижний интервал |
+| WPSpaceWidth | `29` | Ширина пробела WordPerfect |
+| WPJustification | `30` | WordPerfect Выравнивание |
+| UsePrinterMetrics | `31` | Использовать метрики принтера |
+| ShapeLayoutLikeWW8 | `32` | Форма макета как Word 2000 |
+| FootnoteLayoutLikeWW8 | `33` | Макет сноски как в Word 2000 |
+| DoNotUseHtmlParagraphAutoSpacing | `34` | Не использовать автоматический интервал между абзацами HTML |
+| AdjustLineHeightInTable | `35` | Настроить высоту строки в таблице |
+| ForgetLastTabAlignment | `36` | Забыть последнее выравнивание табуляции |
+| AutoSpaceLikeWord95 | `37` | Автоматический пробел, как в слове 95 |
+| AlignTableRowByRow | `38` | Выровнять строки таблицы по правилу |
+| LayoutRawTableWidth | `39` | Ширина необработанной таблицы макета |
+| LayoutTableRowsApart | `40` | Макет таблицы Строки врозь |
+| UseWord97LineBreakRules | `41` | Используйте правила переноса строк Word 97 |
+| DoNotBreakWrappedTables | `42` | Не разбивайте упакованные таблицы |
+| doNotSnapToGridInCell | `43` | Не привязываться к сетке в ячейках |
+| SelectFldWithFirstOrLastChar | `44` | Выберите поле с первым или последним символом |
+| ApplyBreakingRules | `45` | Применить правила нарушения |
+| DoNotWrapTextWithPunct | `46` | Не переносить текст знаками пунктуации |
+| DoNotUseEastAsianBreakRules | `47` | Не используйте правила перерыва в Восточной Азии |
+| UseWord2002TableStyleRules | `48` | Использовать правила стиля таблиц Word 2002 |
+| GrowAutofit | `49` | Вырасти AutoFit |
+| UseNormalStyleForList | `50` | Использовать обычный стиль для списка |
+| DoNotUseIndentAsNumberingTabStop | `51` | Не использовать отступ в качестве нумерации Табуляция |
+| UseAltKinsokuLineBreakRules | `52` | Использовать правила разрыва строки Alt Kinsoku |
+| AllowSpaceOfSameStyleInTable | `53` | Разрешить пробелы того же стиля в таблице |
+| DoNotSuppressIndentation | `54` | Не подавлять отступы |
+| DoNotAutofitConstrainedTables | `55` | Не применять автоподбор для таблиц с ограничениями |
+| AutofitToFirstFixedWidthCell | `56` | Автоподбор по первой ячейке фиксированной ширины |
+| UnderlineTabInNumList | `57` | Подчеркивание табуляции в нумерованном списке |
+| DisplayHangulFixedWidth | `58` | Отображение фиксированной ширины хангыля |
+| SplitPgBreakAndParaMark | `59` | Разделить разрыв страницы и знак абзаца |
+| DoNotVertAlignCellWithSp | `60` | Не выравнивать ячейку по вертикали с интервалом |
+| DoNotBreakConstrainedForcedTable | `61` | Не разрушать ограниченные принудительные таблицы |
+| DoNotVertAlignInTxbx | `62` | Не выравнивать по вертикали в текстовых полях |
+| UseAnsiKerningPairs | `63` | Использовать пары кернинга ANSI |
+| CachedColBalance | `64` | Балансировка кэшированных столбцов |
+| UseFELayout | `65` | Использовать макет Дальнего Востока |
+| UICompat97To2003 | `66` | Режим совместимости пользовательского интерфейса от Word 97 до Word 2003 |
+| OverrideTableStyleFontSizeAndJustification | `67` | Переопределить размер шрифта и выравнивание стиля таблицы |
+| DisableOpenTypeFontFormattingFeatures | `68` | Отключить функции форматирования шрифтов OpenType |
+| SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning | `69` | Поменять местами внутреннюю и внешнюю стороны для зеркальных отступов и относительного позиционирования |
+| UseWord2010TableStyleRules | `70` | Использовать правила стиля таблиц Word 2010 |
 
 ## Примеры
 
@@ -105,14 +105,14 @@ public void OptimizeFor()
     // которые позволяют нам обеспечить обратную совместимость со старыми версиями Microsoft Word.
     CompatibilityOptions options = doc.CompatibilityOptions;
 
-    // Распечатываем настройки по умолчанию для пустого документа.
+    // Распечатать настройки по умолчанию для пустого документа.
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // Мы можем получить доступ к этим настройкам в Microsoft Word через «Файл» -> gt; «Параметры» -> «Дополнительно» -> «Параметры совместимости для...».
+    // Доступ к этим настройкам в Microsoft Word можно получить через «Файл» -> «Параметры» -> «Дополнительно» -> «Параметры совместимости для...».
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
-    // Мы можем использовать метод OptimizeFor, чтобы обеспечить оптимальную совместимость с конкретной версией Microsoft Word.
+    // Мы можем использовать метод OptimizeFor для обеспечения оптимальной совместимости с конкретной версией Microsoft Word.
     doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2010);
     Console.WriteLine("\nOptimized for Word 2010:");
     PrintCompatibilityOptions(options);
@@ -123,28 +123,97 @@ public void OptimizeFor()
 }
 
 /// <summary>
-/// Группирует все флаги в объекте параметров совместимости документа по состоянию, а затем печатает каждую группу.
+/// Группирует все флаги в объекте параметров совместимости документа по состоянию, затем печатает каждую группу.
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {
-    for (int i = 1; i >= 0; i--)
-    {
-        Console.WriteLine(Convert.ToBoolean(i) ? "\tEnabled options:" : "\tDisabled options:");
-        SortedSet<string> optionNames = new SortedSet<string>();
+    IList<string> enabledOptions = new List<string>();
+    IList<string> disabledOptions = new List<string>();
+    AddOptionName(options.AdjustLineHeightInTable, "AdjustLineHeightInTable", enabledOptions, disabledOptions);
+    AddOptionName(options.AlignTablesRowByRow, "AlignTablesRowByRow", enabledOptions, disabledOptions);
+    AddOptionName(options.AllowSpaceOfSameStyleInTable, "AllowSpaceOfSameStyleInTable", enabledOptions, disabledOptions);
+    AddOptionName(options.ApplyBreakingRules, "ApplyBreakingRules", enabledOptions, disabledOptions);
+    AddOptionName(options.AutoSpaceLikeWord95, "AutoSpaceLikeWord95", enabledOptions, disabledOptions);
+    AddOptionName(options.AutofitToFirstFixedWidthCell, "AutofitToFirstFixedWidthCell", enabledOptions, disabledOptions);
+    AddOptionName(options.BalanceSingleByteDoubleByteWidth, "BalanceSingleByteDoubleByteWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.CachedColBalance, "CachedColBalance", enabledOptions, disabledOptions);
+    AddOptionName(options.ConvMailMergeEsc, "ConvMailMergeEsc", enabledOptions, disabledOptions);
+    AddOptionName(options.DisableOpenTypeFontFormattingFeatures, "DisableOpenTypeFontFormattingFeatures", enabledOptions, disabledOptions);
+    AddOptionName(options.DisplayHangulFixedWidth, "DisplayHangulFixedWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotAutofitConstrainedTables, "DoNotAutofitConstrainedTables", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotBreakConstrainedForcedTable, "DoNotBreakConstrainedForcedTable", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotBreakWrappedTables, "DoNotBreakWrappedTables", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotExpandShiftReturn, "DoNotExpandShiftReturn", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotLeaveBackslashAlone, "DoNotLeaveBackslashAlone", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSnapToGridInCell, "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSuppressIndentation, "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSuppressParagraphBorders, "DoNotSuppressParagraphBorders", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseEastAsianBreakRules, "DoNotUseEastAsianBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseHTMLParagraphAutoSpacing, "DoNotUseHTMLParagraphAutoSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseIndentAsNumberingTabStop, "DoNotUseIndentAsNumberingTabStop", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotVertAlignCellWithSp, "DoNotVertAlignCellWithSp", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotVertAlignInTxbx, "DoNotVertAlignInTxbx", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotWrapTextWithPunct, "DoNotWrapTextWithPunct", enabledOptions, disabledOptions);
+    AddOptionName(options.FootnoteLayoutLikeWW8, "FootnoteLayoutLikeWW8", enabledOptions, disabledOptions);
+    AddOptionName(options.ForgetLastTabAlignment, "ForgetLastTabAlignment", enabledOptions, disabledOptions);
+    AddOptionName(options.GrowAutofit, "GrowAutofit", enabledOptions, disabledOptions);
+    AddOptionName(options.LayoutRawTableWidth, "LayoutRawTableWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.LayoutTableRowsApart, "LayoutTableRowsApart", enabledOptions, disabledOptions);
+    AddOptionName(options.LineWrapLikeWord6, "LineWrapLikeWord6", enabledOptions, disabledOptions);
+    AddOptionName(options.MWSmallCaps, "MWSmallCaps", enabledOptions, disabledOptions);
+    AddOptionName(options.NoColumnBalance, "NoColumnBalance", enabledOptions, disabledOptions);
+    AddOptionName(options.NoExtraLineSpacing, "NoExtraLineSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.NoLeading, "NoLeading", enabledOptions, disabledOptions);
+    AddOptionName(options.NoSpaceRaiseLower, "NoSpaceRaiseLower", enabledOptions, disabledOptions);
+    AddOptionName(options.NoTabHangInd, "NoTabHangInd", enabledOptions, disabledOptions);
+    AddOptionName(options.OverrideTableStyleFontSizeAndJustification, "OverrideTableStyleFontSizeAndJustification", enabledOptions, disabledOptions);
+    AddOptionName(options.PrintBodyTextBeforeHeader, "PrintBodyTextBeforeHeader", enabledOptions, disabledOptions);
+    AddOptionName(options.PrintColBlack, "PrintColBlack", enabledOptions, disabledOptions);
+    AddOptionName(options.SelectFldWithFirstOrLastChar, "SelectFldWithFirstOrLastChar", enabledOptions, disabledOptions);
+    AddOptionName(options.ShapeLayoutLikeWW8, "ShapeLayoutLikeWW8", enabledOptions, disabledOptions);
+    AddOptionName(options.ShowBreaksInFrames, "ShowBreaksInFrames", enabledOptions, disabledOptions);
+    AddOptionName(options.SpaceForUL, "SpaceForUL", enabledOptions, disabledOptions);
+    AddOptionName(options.SpacingInWholePoints, "SpacingInWholePoints", enabledOptions, disabledOptions);
+    AddOptionName(options.SplitPgBreakAndParaMark, "SplitPgBreakAndParaMark", enabledOptions, disabledOptions);
+    AddOptionName(options.SubFontBySize, "SubFontBySize", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressBottomSpacing, "SuppressBottomSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressSpBfAfterPgBrk, "SuppressSpBfAfterPgBrk", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressSpacingAtTopOfPage, "SuppressSpacingAtTopOfPage", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressTopSpacing, "SuppressTopSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressTopSpacingWP, "SuppressTopSpacingWP", enabledOptions, disabledOptions);
+    AddOptionName(options.SwapBordersFacingPgs, "SwapBordersFacingPgs", enabledOptions, disabledOptions);
+    AddOptionName(options.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning, "SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning", enabledOptions, disabledOptions);
+    AddOptionName(options.TransparentMetafiles, "TransparentMetafiles", enabledOptions, disabledOptions);
+    AddOptionName(options.TruncateFontHeightsLikeWP6, "TruncateFontHeightsLikeWP6", enabledOptions, disabledOptions);
+    AddOptionName(options.UICompat97To2003, "UICompat97To2003", enabledOptions, disabledOptions);
+    AddOptionName(options.UlTrailSpace, "UlTrailSpace", enabledOptions, disabledOptions);
+    AddOptionName(options.UnderlineTabInNumList, "UnderlineTabInNumList", enabledOptions, disabledOptions);
+    AddOptionName(options.UseAltKinsokuLineBreakRules, "UseAltKinsokuLineBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseAnsiKerningPairs, "UseAnsiKerningPairs", enabledOptions, disabledOptions);
+    AddOptionName(options.UseFELayout, "UseFELayout", enabledOptions, disabledOptions);
+    AddOptionName(options.UseNormalStyleForList, "UseNormalStyleForList", enabledOptions, disabledOptions);
+    AddOptionName(options.UsePrinterMetrics, "UsePrinterMetrics", enabledOptions, disabledOptions);
+    AddOptionName(options.UseSingleBorderforContiguousCells, "UseSingleBorderforContiguousCells", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord2002TableStyleRules, "UseWord2002TableStyleRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord2010TableStyleRules, "UseWord2010TableStyleRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord97LineBreakRules, "UseWord97LineBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.WPJustification, "WPJustification", enabledOptions, disabledOptions);
+    AddOptionName(options.WPSpaceWidth, "WPSpaceWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.WrapTrailSpaces, "WrapTrailSpaces", enabledOptions, disabledOptions);
+    Console.WriteLine("\tEnabled options:");
+    foreach (string optionName in enabledOptions)
+        Console.WriteLine($"\t\t{optionName}");
+    Console.WriteLine("\tDisabled options:");
+    foreach (string optionName in disabledOptions)
+        Console.WriteLine($"\t\t{optionName}");
+}
 
-        foreach (System.ComponentModel.PropertyDescriptor descriptor in System.ComponentModel.TypeDescriptor.GetProperties(options))
-        {
-            if (descriptor.PropertyType == Type.GetType("System.Boolean") && i == Convert.ToInt32(descriptor.GetValue(options)))
-            {
-                optionNames.Add(descriptor.Name);
-            }
-        }
-
-        foreach (string s in optionNames)
-        {
-            Console.WriteLine($"\t\t{s}");
-        }
-    }
+private static void AddOptionName(Boolean option, String optionName, IList<string> enabledOptions, IList<string> disabledOptions)
+{
+    if (option)
+        enabledOptions.Add(optionName);
+    else
+        disabledOptions.Add(optionName);
 }
 ```
 

@@ -3,7 +3,7 @@ title: NodeCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words для .NET
-description: NodeCollection Clear метод. Удаляет все узлы из этой коллекции и из документа на С#.
+description: С легкостью очистите NodeCollection с помощью нашего метода Clear, удалив все узлы как из коллекции, так и из документа для оптимальной производительности.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/nodecollection/clear/
@@ -28,7 +28,7 @@ Assert.AreEqual(1, doc.Sections.Count);
 Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// Очистка коллекции разделов, при этом будут удалены все дочерние элементы документа.
+// Очищаем коллекцию разделов, что приведет к удалению всех дочерних элементов документа.
 doc.Sections.Clear();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);

@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowValue
 linktitle: ShowValue
 articleTitle: ShowValue
 second_title: Aspose.Words для .NET
-description: ChartDataLabelCollection ShowValue свойство. Позволяет указать должны ли значения отображаться в метках данных всей серии. Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство ShowValue в ChartDataLabelCollection улучшает визуализацию данных, отображая значения серий. Оптимизируйте свои диаграммы сегодня!
 type: docs
-weight: 140
+weight: 170
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
 ## ChartDataLabelCollection.ShowValue property
 
-Позволяет указать, должны ли значения отображаться в метках данных всей серии. Значение по умолчанию:`ЛОЖЬ` .
+Позволяет указать, будут ли значения отображаться в метках данных всей серии. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -18,11 +18,11 @@ public bool ShowValue { get; set; }
 
 ## Примечания
 
-Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowValue`](../../chartdatalabel/showvalue/) свойство.
+Значение, определенное для этого свойства, может быть переопределено для отдельной метки данных с помощью [`ShowValue`](../../chartdatalabel/showvalue/) свойство.
 
 ## Примеры
 
-Показывает, как работать с метками данных на круговой диаграмме.
+Показывает, как работать с метками данных круговой диаграммы.
 
 ```csharp
 Document doc = new Document();
@@ -33,12 +33,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставляем пользовательскую серию диаграмм с именем категории для каждого сектора и их таблицей частот.
+// Вставьте пользовательскую серию диаграмм с названием категории для каждого из секторов и их таблицей частот.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Включите метки данных, которые будут отображать процент и частоту каждого сектора, и измените их внешний вид.
+// Включить метки данных, которые будут отображать как процент, так и частоту каждого сектора, и изменить их внешний вид.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

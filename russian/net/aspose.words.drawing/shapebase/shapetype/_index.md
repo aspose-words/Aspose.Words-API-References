@@ -3,9 +3,9 @@ title: ShapeBase.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words для .NET
-description: ShapeBase ShapeType свойство. Получает тип фигуры на С#.
+description: Откройте для себя свойство ShapeBase ShapeType, чтобы легко получать доступ к типам фигур и определять их, расширяя возможности проектирования и повышая эффективность проекта.
 type: docs
-weight: 500
+weight: 530
 url: /ru/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Если вам нужно создать «NonPrimitive» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // используйте методы DocumentBuilder.InsertShape.
+    // Если вам нужно создать «непримитивные» фигуры, такие как SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // ВерхниеУглыОдинЗакругленныйОдинОбрезанный, ОдинЗакругленныйУгол, ВерхниеУглыЗакругленные, ДиагональныеУглыЗакругленные
+    // пожалуйста, используйте методы DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -58,7 +58,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Выводит на консоль содержимое посещенной группы фигур.
+/// Выводит содержимое посещенной группы фигур на консоль.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

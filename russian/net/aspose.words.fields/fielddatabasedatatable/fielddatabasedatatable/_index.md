@@ -3,7 +3,7 @@ title: FieldDatabaseDataTable
 linktitle: FieldDatabaseDataTable
 articleTitle: FieldDatabaseDataTable
 second_title: Aspose.Words для .NET
-description: FieldDatabaseDataTable строитель. Инициализирует новый экземплярFieldDatabaseDataTable класс на С#.
+description: Откройте для себя конструктор FieldDatabaseDataTable — ваш ключ к эффективной инициализации таблиц данных для бесперебойного управления базами данных и повышения производительности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddatabasedatatable/fielddatabasedatatable/

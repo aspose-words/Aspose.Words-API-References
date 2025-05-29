@@ -3,14 +3,14 @@ title: ShapeBase.IsSignatureLine
 linktitle: IsSignatureLine
 articleTitle: IsSignatureLine
 second_title: Aspose.Words для .NET
-description: ShapeBase IsSignatureLine свойство. Указывает что фигура являетсяSignatureLine  на С#.
+description: Откройте для себя свойство IsSignatureLine ShapeBase, которое определяет фигуры как SignatureLines, повышая целостность документа и его профессиональное представление.
 type: docs
-weight: 340
+weight: 360
 url: /ru/net/aspose.words.drawing/shapebase/issignatureline/
 ---
 ## ShapeBase.IsSignatureLine property
 
-Указывает, что фигура является[`SignatureLine`](../../signatureline/) .
+Указывает, что форма является[`SignatureLine`](../../signatureline/) .
 
 ```csharp
 public bool IsSignatureLine { get; }
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Вставляем фигуру, которая будет содержать линию подписи, внешний вид которой мы будем
-// настраиваем с помощью объекта SignatureLineOptions, который мы создали выше.
-// Если мы вставим фигуру, координаты которой находятся в правом нижнем углу страницы,
-// нам нужно будет указать отрицательные координаты x и y, чтобы фигура была видна.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Вставляем фигуру, которая будет содержать строку подписи, внешний вид которой мы
+// настраиваем с помощью объекта «SignatureLineOptions», который мы создали выше.
+// Если мы вставим фигуру, координаты которой начинаются в правом нижнем углу страницы,
+// нам нужно будет указать отрицательные координаты x и y, чтобы сделать фигуру видимой.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Проверяем свойства нашей линии подписи через ее объект Shape.
+// Проверяем свойства нашей линии подписи с помощью ее объекта Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

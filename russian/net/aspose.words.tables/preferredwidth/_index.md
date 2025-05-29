@@ -3,16 +3,16 @@ title: PreferredWidth Class
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Tables.PreferredWidth сорт. Представляет значение и его единицу измерения которая используется для указания предпочтительной ширины таблицы или ячейки на С#.
+description: Откройте для себя класс Aspose.Words.Tables.PreferredWidth, ваше решение для определения оптимальной ширины таблиц и ячеек с точностью и гибкостью. Улучшите макеты своих документов сегодня!
 type: docs
-weight: 6290
+weight: 7140
 url: /ru/net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class
 
-Представляет значение и его единицу измерения, которая используется для указания предпочтительной ширины таблицы или ячейки.
+Представляет значение и его единицу измерения, которые используются для указания предпочтительной ширины таблицы или ячейки.
 
-Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) статья документации.
+Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) документальная статья.
 
 ```csharp
 public sealed class PreferredWidth
@@ -23,17 +23,17 @@ public sealed class PreferredWidth
 | Имя | Описание |
 | --- | --- |
 | [Type](../../aspose.words.tables/preferredwidth/type/) { get; } | Получает единицу измерения, используемую для этого предпочтительного значения ширины. |
-| [Value](../../aspose.words.tables/preferredwidth/value/) { get; } | Получает предпочтительное значение ширины. Единица измерения указана в п.[`Type`](./type/) свойство. |
+| [Value](../../aspose.words.tables/preferredwidth/value/) { get; } | Получает предпочтительное значение ширины. Единица измерения указана в[`Type`](./type/) свойство. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную в процентах. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную с использованием количества точек. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | Метод создания, который возвращает новый экземпляр, представляющий предпочтительную ширину, указанную с использованием ряда точек. |
 | override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Определяет, задано ли указанное`PreferredWidth` по значению равен текущему`PreferredWidth` . |
-| override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Служит хеш-функцией для этого типа. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Определяет, является ли указанный`PreferredWidth` равен по значению текущему`PreferredWidth` . |
+| override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Служит хэш-функцией для этого типа. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Возвращает удобную для пользователя строку, отображающую значение этого объекта. |
 
 ## Поля
@@ -44,13 +44,13 @@ public sealed class PreferredWidth
 
 ## Примечания
 
-Предпочтительную ширину можно указать в процентах, количестве пунктов или в специальном значении «нет/авто».
+Предпочтительную ширину можно указать в процентах, количестве точек или в виде специального значения «нет/авто».
 
 Экземпляры этого класса неизменяемы.
 
 ## Примеры
 
-Показывает, как настроить автоматическое размещение таблицы на 50 % ширины страницы.
+Показывает, как настроить автоматическое подгонку таблицы под ширину страницы (50%).
 
 ```csharp
 Document doc = new Document();
@@ -76,14 +76,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Существует два способа применения класса PreferredWidth к ячейкам таблицы.
-// 1 - Установить абсолютную предпочтительную ширину на основе точек:
+// Существует два способа применения класса «PreferredWidth» к ячейкам таблицы.
+// 1 — Установить абсолютную предпочтительную ширину на основе точек:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Установить относительную предпочтительную ширину в процентах от ширины таблицы:
+// 2 - Установить относительную предпочтительную ширину на основе процента от ширины таблицы:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -91,10 +91,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Ячейка, для которой не указана предпочтительная ширина, займет оставшуюся часть доступного пространства.
+// Ячейка, для которой не указана предпочтительная ширина, займет оставшееся доступное пространство.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// Каждая конфигурация свойства PreferredWidth создает новый объект.
+// Каждая конфигурация свойства «PreferredWidth» создает новый объект.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

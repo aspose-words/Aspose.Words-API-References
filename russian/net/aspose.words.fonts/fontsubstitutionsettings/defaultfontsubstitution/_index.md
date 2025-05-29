@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.DefaultFontSubstitution
 linktitle: DefaultFontSubstitution
 articleTitle: DefaultFontSubstitution
 second_title: Aspose.Words для .NET
-description: FontSubstitutionSettings DefaultFontSubstitution свойство. Настройки относящиеся к правилу замены шрифтов по умолчанию на С#.
+description: Узнайте, как свойство DefaultFontSubstitution оптимизирует настройки шрифтов для бесшовной типографики. Улучшите свой дизайн с помощью эффективных правил замены шрифтов.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property
 
-Настройки, относящиеся к правилу замены шрифтов по умолчанию.
+Настройки, связанные с правилом замены шрифта по умолчанию.
 
 ```csharp
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
@@ -18,14 +18,14 @@ public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 
 ## Примеры
 
-Показывает, как установить правило замены шрифтов по умолчанию.
+Показывает, как установить правило замены шрифта по умолчанию.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Получаем правило замены по умолчанию в FontSettings.
+// Получить правило замены по умолчанию в FontSettings.
 // Это правило заменит все отсутствующие шрифты на «Times New Roman».
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
@@ -35,8 +35,8 @@ Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 // Установите замену шрифта по умолчанию на «Courier New».
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Используя конструктор документов, добавьте текст шрифтом, который нам не нужен, чтобы произошла замена,
-// и затем визуализируем результат в PDF.
+// Используя конструктор документов, добавляем текст шрифтом, который нам не нужен, чтобы увидеть, как происходит замена,
+// а затем визуализируем результат в формате PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

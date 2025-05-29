@@ -3,7 +3,7 @@ title: LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
 second_title: Aspose.Words для .NET
-description: LayoutOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор LayoutOptions для настраиваемых макетов. Разблокируйте настройки по умолчанию, чтобы повысить гибкость дизайна и оптимизировать пользовательский опыт.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.layout/layoutoptions/layoutoptions/

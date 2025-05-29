@@ -3,14 +3,14 @@ title: CustomDocumentProperties.AddLinkToContent
 linktitle: AddLinkToContent
 articleTitle: AddLinkToContent
 second_title: Aspose.Words для .NET
-description: CustomDocumentProperties AddLinkToContent метод. Создает новое свойство пользовательского документа связанное с содержимым на С#.
+description: Откройте для себя метод CustomDocumentProperties AddLinkToContent, позволяющий легко создавать связанные пользовательские свойства документа для улучшенного управления документами.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
 ## CustomDocumentProperties.AddLinkToContent method
 
-Создает новое свойство пользовательского документа, связанное с содержимым.
+Создает новое связанное с содержимым пользовательское свойство документа.
 
 ```csharp
 public DocumentProperty AddLinkToContent(string name, string linkSource)
@@ -23,11 +23,11 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 ### Возвращаемое значение
 
-Вновь созданный объект свойства или`нулевой` когда*linkSource* является недействительным.
+Вновь созданный объект недвижимости или`нулевой` когда*linkSource* недействительно.
 
 ## Примеры
 
-Показывает, как связать настраиваемое свойство документа с закладкой.
+Показывает, как связать пользовательское свойство документа с закладкой.
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Связываем новое пользовательское свойство с закладкой. Стоимость этого объекта недвижимости
-// будет содержимым закладки, на которую он ссылается в элементе «LinkSource».
+// Связать новое пользовательское свойство с закладкой. Значение этого свойства
+// будет содержимым закладки, на которую она ссылается в элементе "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

@@ -3,9 +3,9 @@ title: Font.Outline
 linktitle: Outline
 articleTitle: Outline
 second_title: Aspose.Words для .NET
-description: Font Outline свойство. True если шрифт отформатирован как контурный на С#.
+description: Откройте для себя свойство Font Outline. Легко форматируйте шрифты как контуры для уникального дизайнерского штриха. Улучшите свою типографику с помощью этой простой функции!
 type: docs
-weight: 290
+weight: 300
 url: /ru/net/aspose.words/font/outline/
 ---
 ## Font.Outline property
@@ -18,14 +18,14 @@ public bool Outline { get; set; }
 
 ## Примеры
 
-Показывает, как создать текст, отформатированный в виде контура.
+Показывает, как создать фрагмент текста, отформатированный в виде структуры.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Установите флаг Outline, чтобы изменить цвет заливки текста на белый и
- // оставляем тонкий контур вокруг каждого символа исходного цвета текста.
+ // оставьте тонкий контур вокруг каждого символа в исходном цвете текста.
 builder.Font.Outline = true;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 36;

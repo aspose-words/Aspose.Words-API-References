@@ -3,14 +3,14 @@ title: Shading.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words для .NET
-description: Shading Equals метод. Определяет задано ли указанноеShading по значению равен текущемуShading  на С#.
+description: Откройте для себя метод Shading Equals, чтобы легко сравнивать значения Shading, гарантируя точные результаты в ваших проектах. Оптимизируйте свой код сегодня!
 type: docs
 weight: 90
 url: /ru/net/aspose.words/shading/equals/
 ---
 ## Equals(*[Shading](../)*) {#equals}
 
-Определяет, задано ли указанное[`Shading`](../) по значению равен текущему[`Shading`](../) .
+Определяет, является ли указанный[`Shading`](../) равен по значению текущему[`Shading`](../) .
 
 ```csharp
 public bool Equals(Shading rhs)

@@ -3,14 +3,14 @@ title: CellFormat.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words для .NET
-description: CellFormat PreferredWidth свойство. Возвращает или устанавливает предпочтительную ширину ячейки на С#.
+description: Откройте для себя свойство CellFormat PreferredWidth, чтобы легко настраивать ширину ячеек для оптимального макета и дизайна в ваших электронных таблицах. Улучшите представление данных!
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
 
-Возвращает или устанавливает предпочтительную ширину ячейки.
+Возвращает или задает предпочтительную ширину ячейки.
 
 ```csharp
 public PreferredWidth PreferredWidth { get; set; }
@@ -18,9 +18,9 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## Примечания
 
-Предпочтительная ширина (вместе с параметром «Автоподбор» таблицы) определяет, как фактическая ширина ячейки рассчитывается алгоритмом макета таблицы. Макет таблицы может быть выполнен с помощью Aspose.Words при сохранении документа или с помощью Microsoft Word при отображении документа.
+Предпочтительная ширина (вместе с опцией таблицы Auto Fit) определяет, как фактическая ширина ячейки рассчитывается алгоритмом макета таблицы. Макет таблицы может быть выполнен Aspose.Words при сохранении документа или Microsoft Word при отображении документа.
 
-Предпочтительная ширина может быть указана в пунктах или процентах. Предпочтительная ширина также может быть указана как «авто», что означает, что предпочтительная ширина не указана.
+Предпочтительная ширина может быть указана в пунктах или процентах. Предпочтительная ширина также может быть указана как «auto», что означает, что предпочтительная ширина не указана.
 
 Значение по умолчанию:[`Auto`](../../preferredwidth/auto/).
 
@@ -33,14 +33,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Существует два способа применения класса PreferredWidth к ячейкам таблицы.
-// 1 - Установить абсолютную предпочтительную ширину на основе точек:
+// Существует два способа применения класса «PreferredWidth» к ячейкам таблицы.
+// 1 — Установить абсолютную предпочтительную ширину на основе точек:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Установить относительную предпочтительную ширину в процентах от ширины таблицы:
+// 2 - Установить относительную предпочтительную ширину на основе процента от ширины таблицы:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -48,10 +48,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Ячейка, для которой не указана предпочтительная ширина, займет оставшуюся часть доступного пространства.
+// Ячейка, для которой не указана предпочтительная ширина, займет оставшееся доступное пространство.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// Каждая конфигурация свойства PreferredWidth создает новый объект.
+// Каждая конфигурация свойства «PreferredWidth» создает новый объект.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

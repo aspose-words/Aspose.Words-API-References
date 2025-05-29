@@ -3,14 +3,14 @@ title: Font.ThemeFontBi
 linktitle: ThemeFontBi
 articleTitle: ThemeFontBi
 second_title: Aspose.Words для .NET
-description: Font ThemeFontBi свойство. Получает или задает шрифт темы в применяемой схеме шрифтов связанной с этимFont object в языковом документе с письмом справа налево на С#.
+description: Узнайте, как легко управлять шрифтами темы в документах с письмом справа налево с помощью свойства FontBi, улучшая дизайн и удобочитаемость без особых усилий.
 type: docs
-weight: 490
+weight: 500
 url: /ru/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Получает или задает шрифт темы в применяемой схеме шрифтов, связанной с этим[`Font`](../) object в языковом документе с письмом справа налево.
+Возвращает или задает шрифт темы в примененной схеме шрифтов, которая связана с этим[`Font`](../) object в документе с письмом справа налево.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -53,8 +53,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов сбросить шрифт и цвет.
-// 1 — установив ThemeFont.None/ThemeColor.None:
+// Существует несколько способов сбросить шрифт и цвет.
+// 1 - Устанавливая ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
+// 2 - Задавая не относящиеся к теме названия шрифтов/цветов:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

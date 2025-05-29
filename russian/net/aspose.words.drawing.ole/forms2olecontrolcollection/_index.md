@@ -3,16 +3,16 @@ title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection сорт. Представляет коллекциюForms2OleControl объекты на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.Ole.Forms2OleControlCollection — решение для эффективного управления объектами Forms2OleControl при обработке документов.
 type: docs
-weight: 1120
+weight: 1470
 url: /ru/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-Представляет коллекцию[`Forms2OleControl`](../forms2olecontrol/) объекты.
+Представляет собой коллекцию[`Forms2OleControl`](../forms2olecontrol/) объекты.
 
-Чтобы узнать больше, посетите[Работа с объектами Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) статья документации.
+Чтобы узнать больше, посетите[Работа с Ole-объектами](https://docs.aspose.com/words/net/working-with-ole-objects/) документальная статья.
 
 ```csharp
 public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
@@ -51,7 +51,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Некоторые элементы управления OLE могут содержать дочерние элементы управления, например, в этом документе с тремя кнопками параметров.
+// Некоторые элементы управления OLE могут содержать дочерние элементы управления, например, тот, что в этом документе с тремя кнопками выбора.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

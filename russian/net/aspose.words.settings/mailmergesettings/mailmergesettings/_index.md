@@ -3,7 +3,7 @@ title: MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words для .NET
-description: MailMergeSettings строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор MailMergeSettings для бесшовной автоматизации документов. Раскройте эффективность с помощью нашего конструктора по умолчанию для легкой настройки!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/mailmergesettings/mailmergesettings/

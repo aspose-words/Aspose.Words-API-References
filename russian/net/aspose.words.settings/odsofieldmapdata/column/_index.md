@@ -3,14 +3,14 @@ title: OdsoFieldMapData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapData Column свойство. Указывает отсчитываемый от нуля индекс столбца во внешнем источнике данных который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию  0 на С#.
+description: Узнайте, как использовать свойство столбца OdsoFieldMapData для сопоставления внешних источников данных с полями MERGEFIELD без усилий. Оптимизируйте интеграцию данных сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/odsofieldmapdata/column/
 ---
 ## OdsoFieldMapData.Column property
 
-Указывает отсчитываемый от нуля индекс столбца во внешнем источнике данных, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию — 0.
+Указывает индекс столбца во внешнем источнике данных, начинающийся с нуля, который должен быть сопоставлен с локальным именем определенного поля MERGEFIELD. Значение по умолчанию — 0.
 
 ```csharp
 public int Column { get; set; }
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

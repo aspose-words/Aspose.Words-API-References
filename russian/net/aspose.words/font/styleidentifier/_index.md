@@ -3,14 +3,14 @@ title: Font.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words для .NET
-description: Font StyleIdentifier свойство. Получает или задает независимый от локали идентификатор стиля символов примененного к этому форматированию на С#.
+description: Откройте для себя свойство Font StyleIdentifier, чтобы легко управлять стилями символов в вашем форматировании. Улучшите свой дизайн с помощью решений, не зависящих от локали!
 type: docs
-weight: 410
+weight: 420
 url: /ru/net/aspose.words/font/styleidentifier/
 ---
 ## Font.StyleIdentifier property
 
-Получает или задает независимый от локали идентификатор стиля символов, примененного к этому форматированию.
+Возвращает или задает независимый от локали идентификатор стиля символа, примененного к данному форматированию.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -33,9 +33,9 @@ builder.Writeln("Text originally in \"Emphasis\" style");
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// Преобразуем все варианты использования одного стиля в другой,
-// использование вышеуказанных методов для ссылки на старые и новые стили.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Преобразовать все использования одного стиля в другой,
+// используем вышеуказанные методы для ссылки на старые и новые стили.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

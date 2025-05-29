@@ -3,9 +3,9 @@ title: PhysicalFontInfo.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words для .NET
-description: PhysicalFontInfo FilePath свойство. Путь к файлу шрифта если есть на С#.
+description: Откройте для себя свойство PhysicalFontInfo FilePath, легко находите файлы шрифтов для бесшовной интеграции дизайна и улучшенной типографики в ваших проектах.
 type: docs
-weight: 10
+weight: 20
 url: /ru/net/aspose.words.fonts/physicalfontinfo/filepath/
 ---
 ## PhysicalFontInfo.FilePath property

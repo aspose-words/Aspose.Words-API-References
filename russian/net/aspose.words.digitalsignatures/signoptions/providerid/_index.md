@@ -3,14 +3,14 @@ title: SignOptions.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
 second_title: Aspose.Words для .NET
-description: SignOptions ProviderId свойство. Указывает идентификатор класса поставщика подписи. Значение по умолчаниюПустой все нули Guid  на С#.
+description: Откройте для себя свойство SignOptions ProviderId, определяющее идентификатор класса вашего поставщика подписи. Легко настраивайте с помощью уникального GUID для оптимальной производительности.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Указывает идентификатор класса поставщика подписи. Значение по умолчанию:**Пустой (все нули) Guid** .
+Указывает идентификатор класса поставщика подписи. Значение по умолчанию:**Пусто (все нули) Guid** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -18,15 +18,15 @@ public Guid ProviderId { get; set; }
 
 ## Примечания
 
-Поставщик криптографических услуг (CSP) — это независимый программный модуль, который фактически выполняет криптографические алгоритмы для аутентификации, кодирования и шифрования. MS Office резервирует значение value {00000000-0000-0000-0000-000000000000} для своего поставщика подписей по умолчанию.
+Поставщик криптографических услуг (CSP) — это независимый программный модуль, который фактически выполняет алгоритмы криптографии для аутентификации, кодирования и шифрования. MS Office резервирует значение {00000000-0000-0000-0000-0000000000000} для своего поставщика подписей по умолчанию.
 
-GUID дополнительно установленного провайдера следует получить из документации, поставляемой вместе с провайдером.
+GUID дополнительно установленного поставщика следует получить из документации, поставляемой вместе с поставщиком.
 
-Кроме того, все установленные поставщики шифрования перечислены в реестре Windows. Его можно найти по следующему пути: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Существует имя ключа «UUID службы CP», которое соответствует GUID поставщика подписи.
+Кроме того, все установленные поставщики криптографии перечислены в реестре Windows. Его можно найти по следующему пути: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Существует ключевое имя «CP Service UUID», которое соответствует GUID поставщика подписей.
 
 ## Примеры
 
-Показывает, как подписать документ личным удостоверением и строкой подписи.
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
 
 ```csharp
 Document doc = new Document();
@@ -64,8 +64,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Снова открываем сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
-// указываем, что строка подписи содержит подпись.
+// Повторно откройте наш сохраненный документ и убедитесь, что свойства «IsSigned» и «IsValid» равны «true»,
+// указывая, что строка подписи содержит подпись.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

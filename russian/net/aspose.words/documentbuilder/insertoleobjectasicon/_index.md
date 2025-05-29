@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertOleObjectAsIcon
 linktitle: InsertOleObjectAsIcon
 articleTitle: InsertOleObjectAsIcon
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertOleObjectAsIcon метод. Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE по расширению файла на С#.
+description: Легко вставляйте объекты OLE в виде значков в свои документы с помощью DocumentBuilder. Настраивайте значки и подписи, обеспечивая при этом бесшовную интеграцию.
 type: docs
-weight: 400
+weight: 430
 url: /ru/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
-Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE по расширению файла.
+Вставляет встроенный или связанный объект OLE как значок в документ. Позволяет указать файл значка и подпись. Определяет тип объекта OLE по расширению файла.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFile, 
@@ -21,8 +21,8 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 | --- | --- | --- |
 | fileName | String | Полный путь к файлу. |
 | isLinked | Boolean | Если`истинный` затем вставляется связанный объект OLE, в противном случае вставляется встроенный объект OLE. |
-| iconFile | String | Полный путь к файлу ICO. Если значение`нулевой` , Aspose.Words будет использовать предопределенное изображение. |
-| iconCaption | String | Надпись на значке. Если значение`нулевой` , Aspose.Words будет использовать имя файла. |
+| iconFile | String | Полный путь к файлу ICO. Если значение равно`нулевой` , Aspose.Words будет использовать предопределенное изображение. |
+| iconCaption | String | Подпись к иконке. Если значение равно`нулевой` , Aspose.Words будет использовать имя файла . |
 
 ### Возвращаемое значение
 
@@ -37,24 +37,24 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Объекты OLE — это ссылки на файлы в нашей локальной файловой системе, которые могут быть открыты другими установленными приложениями.
-// Двойной щелчок по этим фигурам запустит приложение, а затем с его помощью откроет связанный объект.
+// Двойной щелчок по этим фигурам запустит приложение, а затем воспользуйтесь им для открытия связанного объекта.
 // Существует три способа использования метода InsertOleObject для вставки этих фигур и настройки их внешнего вида.
 // 1 - Изображение взято из локальной файловой системы:
 using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
 {
-    // Если 'presentation' опущено и установлено 'asIcon', этот перегруженный метод выбирает
-    // значок в соответствии с расширением файла и использует имя файла в качестве заголовка значка.
+    // Если 'presentation' пропущено и установлено 'asIcon', этот перегруженный метод выбирает
+    // значок в соответствии с расширением файла и использует имя файла для подписи значка.
     builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
-// Если 'presentation' опущено и установлено 'asIcon', этот перегруженный метод выбирает
-// значок в соответствии с 'progId' и использует имя файла для заголовка значка.
-// 2 - Иконка на основе приложения, которое откроет объект:
+// Если 'presentation' пропущено и установлено 'asIcon', этот перегруженный метод выбирает
+// значок в соответствии с 'progId' и использует имя файла для подписи значка.
+// 2 — Значок на основе приложения, которое откроет объект:
 builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
 
 // Если 'iconFile' и 'iconCaption' опущены, этот перегруженный метод выбирает
 // значок в соответствии с 'progId' и использует предопределенную подпись значка.
-// 3 – значок изображения размером 32 x 32 пикселя или меньше из локальной файловой системы с настраиваемой подписью:
+// 3 — Значок изображения размером 32 x 32 пикселя или меньше из локальной файловой системы с пользовательской подписью:
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", false, ImageDir + "Logo icon.ico",
     "Double click to view presentation!");
 
@@ -72,7 +72,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
-Вставляет встроенный или связанный объект OLE в качестве значка в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE, используя заданный параметр progID.
+Вставляет встроенный или связанный объект OLE как значок в документ. Позволяет указать файл значка и подпись. Определяет тип объекта OLE с использованием заданного параметра progID.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked, string iconFile, 
@@ -84,8 +84,8 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 | fileName | String | Полный путь к файлу. |
 | progId | String | ProgId объекта OLE. |
 | isLinked | Boolean | Если`истинный` затем вставляется связанный объект OLE, в противном случае вставляется встроенный объект OLE. |
-| iconFile | String | Полный путь к файлу ICO. Если значение`нулевой` , Aspose.Words будет использовать предопределенное изображение. |
-| iconCaption | String | Надпись на значке. Если значение`нулевой` , Aspose.Words будет использовать имя файла. |
+| iconFile | String | Полный путь к файлу ICO. Если значение равно`нулевой` , Aspose.Words будет использовать предопределенное изображение. |
+| iconCaption | String | Подпись к иконке. Если значение равно`нулевой` , Aspose.Words будет использовать имя файла . |
 
 ### Возвращаемое значение
 
@@ -93,14 +93,14 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 ## Примеры
 
-Показывает, как вставить в документ внедренный или связанный объект OLE в виде значка.
+Показывает, как вставить встроенный или связанный объект OLE в качестве значка в документ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Если 'iconFile' и 'iconCaption' опущены, этот перегруженный метод выбирает
-// значок в соответствии с 'progId' и использует имя файла для заголовка значка.
+// значок в соответствии с 'progId' и использует имя файла для подписи значка.
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", "Package", false, ImageDir + "Logo icon.ico", "My embedded file");
 
 builder.InsertBreak(BreakType.LineBreak);
@@ -108,7 +108,7 @@ builder.InsertBreak(BreakType.LineBreak);
 using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
 {
     // Если 'iconFile' и 'iconCaption' опущены, этот перегруженный метод выбирает
-    // значок в соответствии с расширением файла и использует имя файла в качестве заголовка значка.
+    // значок в соответствии с расширением файла и использует имя файла для подписи значка.
     Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
         "My embedded file stream");
 
@@ -131,7 +131,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 ## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
-Вставляет внедренный объект OLE в виде значка из потока в документ. Позволяет указать файл значка и заголовок. Обнаруживает тип объекта OLE, используя заданный параметр progID.
+Вставляет встроенный объект OLE как значок из потока в документ. Позволяет указать файл значка и подпись. Определяет тип объекта OLE с использованием заданного параметра progID.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile, 
@@ -142,8 +142,8 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 | --- | --- | --- |
 | stream | Stream | Поток, содержащий данные приложения. |
 | progId | String | ProgId объекта OLE. |
-| iconFile | String | Полный путь к файлу ICO. Если значение`нулевой` , Aspose.Words будет использовать предопределенное изображение. |
-| iconCaption | String | Надпись на значке. Если значение`нулевой` , Aspose.Words будет использовать предопределенную подпись к значку. |
+| iconFile | String | Полный путь к файлу ICO. Если значение равно`нулевой` , Aspose.Words будет использовать предопределенное изображение. |
+| iconCaption | String | Подпись к иконке. Если значение равно`нулевой` , Aspose.Words будет использовать предопределенную подпись значка. |
 
 ### Возвращаемое значение
 
@@ -151,14 +151,14 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 
 ## Примеры
 
-Показывает, как вставить в документ внедренный или связанный объект OLE в виде значка.
+Показывает, как вставить встроенный или связанный объект OLE в качестве значка в документ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Если 'iconFile' и 'iconCaption' опущены, этот перегруженный метод выбирает
-// значок в соответствии с 'progId' и использует имя файла для заголовка значка.
+// значок в соответствии с 'progId' и использует имя файла для подписи значка.
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", "Package", false, ImageDir + "Logo icon.ico", "My embedded file");
 
 builder.InsertBreak(BreakType.LineBreak);
@@ -166,7 +166,7 @@ builder.InsertBreak(BreakType.LineBreak);
 using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
 {
     // Если 'iconFile' и 'iconCaption' опущены, этот перегруженный метод выбирает
-    // значок в соответствии с расширением файла и использует имя файла в качестве заголовка значка.
+    // значок в соответствии с расширением файла и использует имя файла для подписи значка.
     Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
         "My embedded file stream");
 

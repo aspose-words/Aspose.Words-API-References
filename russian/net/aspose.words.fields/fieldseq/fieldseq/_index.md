@@ -3,7 +3,7 @@ title: FieldSeq
 linktitle: FieldSeq
 articleTitle: FieldSeq
 second_title: Aspose.Words для .NET
-description: FieldSeq строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldSeq — ваше решение для эффективного управления последовательностями. Откройте для себя бесшовную интеграцию и улучшенную производительность сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldseq/fieldseq/

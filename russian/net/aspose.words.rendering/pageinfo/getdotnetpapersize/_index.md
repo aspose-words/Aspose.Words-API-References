@@ -3,14 +3,14 @@ title: PageInfo.GetDotNetPaperSize
 linktitle: GetDotNetPaperSize
 articleTitle: GetDotNetPaperSize
 second_title: Aspose.Words для .NET
-description: PageInfo GetDotNetPaperSize метод. ПолучаетPaperSize объект подходящий для печати страницы представленной этимPageInfo  на С#.
+description: Откройте для себя метод GetDotNetPaperSize в PageInfo, предназначенный для легкого получения идеального объекта PaperSize для бесперебойной печати страницы.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
 
-ПолучаетPaperSize объект, подходящий для печати страницы, представленной этим[`PageInfo`](../) .
+ПолучаетPaperSize объект, подходящий для печати страница, представленная этим[`PageInfo`](../) .
 
 ```csharp
 public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
@@ -79,38 +79,38 @@ public class MyPrintDocument : PrintDocument
         base.OnQueryPageSettings(e);
 
          // Один документ Microsoft Word может иметь несколько разделов, в которых указаны страницы разных размеров,
-         // ориентации и лотки для бумаги. Платформа печати .NET вызывает этот код перед
+         // ориентации и лотки для бумаги. Фреймворк печати .NET вызывает этот код перед
         // каждая страница печатается, что дает нам возможность указать, как печатать текущую страницу.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
         // Microsoft Word сохраняет источник бумаги (лоток принтера) для каждого раздела как значение, специфичное для принтера.
-        // Чтобы получить правильное значение лотка, вам нужно будет использовать свойство «RawKind», которое должен вернуть ваш принтер.
+        // Чтобы получить правильное значение лотка, вам нужно будет использовать свойство «RawKind», которое должен возвращать ваш принтер.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// Вызывается для каждой страницы, чтобы отобразить ее для печати.
+     /// Вызывается для каждой страницы для подготовки ее к печати.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Механизм рендеринга Aspose.Words создает страницу, нарисованную из начала координат (x = 0, y = 0) бумаги.
-        // В принтере будет жесткое поле, которое будет отображать каждую страницу. Нам нужно компенсировать эту жесткую разницу.
+        // Механизм рендеринга Aspose.Words создает страницу, нарисованную из исходной точки (x = 0, y = 0) документа.
+        // В принтере будет жесткое поле, которое будет отображать каждую страницу. Нам нужно сделать смещение на это жесткое поле.
         float hardOffsetX, hardOffsetY;
 
-        // Ниже приведены два способа установки жесткого поля.
+        // Ниже приведены два способа установки жесткого отступа.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
-            // 1 — через свойство «PageSettings».
+            // 1 — Через свойство «PageSettings».
             hardOffsetX = e.PageSettings.HardMarginX;
             hardOffsetY = e.PageSettings.HardMarginY;
         }
         else
         {
-            // 2 - Использование собственных значений, если свойство "PageSettings" недоступно.
+            // 2 - Используем собственные значения, если свойство "PageSettings" недоступно.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

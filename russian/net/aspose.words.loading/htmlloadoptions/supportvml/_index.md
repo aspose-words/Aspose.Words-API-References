@@ -3,14 +3,14 @@ title: HtmlLoadOptions.SupportVml
 linktitle: SupportVml
 articleTitle: SupportVml
 second_title: Aspose.Words для .NET
-description: HtmlLoadOptions SupportVml свойство. Получает или задает значение указывающее поддерживаются ли изображения VML на С#.
+description: Узнайте, как свойство HtmlLoadOptions SupportVml улучшает работу с веб-сайтами, включая поддержку изображений VML для улучшения качества графики.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words.loading/htmlloadoptions/supportvml/
 ---
 ## HtmlLoadOptions.SupportVml property
 
-Получает или задает значение, указывающее, поддерживаются ли изображения VML.
+Возвращает или задает значение, указывающее, следует ли поддерживать изображения VML.
 
 ```csharp
 public bool SupportVml { get; set; }
@@ -23,13 +23,13 @@ public bool SupportVml { get; set; }
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Если значение истинно, то мы учитываем код VML при разборе загруженного документа.
+// Если значение равно true, то мы учитываем код VML при анализе загруженного документа.
 loadOptions.SupportVml = supportVml;
 
-// Этот документ содержит изображение JPEG внутри "<!--[if gte vml 1]>" теги,
-// и другое изображение PNG внутри "<![if !vml]>" теги.
-// Если мы установим для флага «SupportVml» значение «true», тогда Aspose.Words загрузит JPEG.
-// Если мы установим для этого флага значение «false», то Aspose.Words будет загружать только PNG.
+// Этот документ содержит изображение JPEG в тегах "<!--[if gte vml 1]>",
+// и другое изображение PNG в тегах "<![if !vml]>".
+// Если установить флаг «SupportVml» на «true», то Aspose.Words загрузит JPEG.
+// Если мы установим этот флаг на «false», то Aspose.Words загрузит только PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)

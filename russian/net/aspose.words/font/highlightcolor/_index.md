@@ -3,7 +3,7 @@ title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
 second_title: Aspose.Words для .NET
-description: Font HighlightColor свойство. Получает или задает цвет выделения маркера на С#.
+description: Откройте для себя свойство Font HighlightColor — легко настройте цвет подсветки текста для улучшения читаемости и визуальной привлекательности. Поднимите свой дизайн на новый уровень!
 type: docs
 weight: 150
 url: /ru/net/aspose.words/font/highlightcolor/
@@ -18,7 +18,7 @@ public Color HighlightColor { get; set; }
 
 ## Примеры
 
-Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
+Показывает, как отформатировать фрагмент текста, используя его свойство шрифта.
 
 ```csharp
 Document doc = new Document();

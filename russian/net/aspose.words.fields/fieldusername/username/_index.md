@@ -3,14 +3,14 @@ title: FieldUserName.UserName
 linktitle: UserName
 articleTitle: UserName
 second_title: Aspose.Words для .NET
-description: FieldUserName UserName свойство. Присвоение или установка имени текущего пользователя на С#.
+description: Управляйте именем текущего пользователя без усилий с помощью свойства FieldUserName. Улучшайте пользовательский опыт и персонализируйте взаимодействия без проблем.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldusername/username/
 ---
 ## FieldUserName.UserName property
 
-Присвоение или установка имени текущего пользователя.
+Указывает или устанавливает имя текущего пользователя.
 
 ```csharp
 public string UserName { get; set; }
@@ -23,7 +23,7 @@ public string UserName { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Создайте объект UserInformation и установите его в качестве источника информации о пользователе для любых полей, которые мы создаем.
+// Создаем объект UserInformation и устанавливаем его как источник информации о пользователе для любых полей, которые мы создаем.
 UserInformation userInformation = new UserInformation();
 userInformation.Name = "John Doe";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -38,14 +38,14 @@ Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
- // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в данный момент в объекте UserInformation.
+ // Мы можем задать это свойство, чтобы наше поле переопределяло значение, которое в данный момент хранится в объекте UserInformation.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 
 Assert.AreEqual(" USERNAME  \"Jane Doe\"", fieldUserName.GetFieldCode());
 Assert.AreEqual("Jane Doe", fieldUserName.Result);
 
-// Это не влияет на значение объекта UserInformation.
+// Это не влияет на значение в объекте UserInformation.
 Assert.AreEqual("John Doe", doc.FieldOptions.CurrentUser.Name);
 
 doc.UpdateFields();

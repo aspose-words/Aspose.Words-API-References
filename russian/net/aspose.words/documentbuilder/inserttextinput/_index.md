@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertTextInput
 linktitle: InsertTextInput
 articleTitle: InsertTextInput
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertTextInput метод. Вставляет поле текстовой формы в текущую позицию на С#.
+description: Легко добавляйте текстовые поля формы с помощью метода DocumentBuilder InsertTextInput. Повысьте интерактивность и удобство использования вашего документа уже сегодня!
 type: docs
-weight: 470
+weight: 510
 url: /ru/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -31,7 +31,7 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 ## Примечания
 
-Если вы укажете имя для поля формы, то автоматически создастся закладка с таким же именем.
+Если указать имя поля формы, то автоматически будет создана закладка с таким же именем.
 
 ## Примеры
 
@@ -41,7 +41,7 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем форму, предлагающую пользователю ввести текст.
+// Вставьте форму, предлагающую пользователю ввести текст.
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Enter your text here", 0);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTextInput.docx");
@@ -55,12 +55,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please enter text here: ");
 
-// Вставляем поле ввода текста, которое позволит пользователю щелкнуть его и ввести текст.
-// Назначаем некоторый текст-заполнитель, который пользователь может перезаписать и передать
-// максимальная длина текста равна 0, чтобы не налагать ограничений на содержимое поля формы.
+// Вставьте поле ввода текста, которое позволит пользователю щелкнуть и ввести текст.
+// Назначьте некоторый текст-заполнитель, который пользователь может перезаписать и передать
+// максимальная длина текста 0, чтобы не накладывать ограничений на содержимое поля формы.
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Поле формы появится в виде «входного» html-тега с типом «текст».
+// Поле формы будет отображаться в виде HTML-тега «input» с типом «text».
 doc.Save(ArtifactsDir + "FormFields.TextInput.html");
 ```
 
@@ -69,8 +69,8 @@ doc.Save(ArtifactsDir + "FormFields.TextInput.html");
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Поля формы — это объекты в документе, с которыми пользователь может взаимодействовать, получая запрос на ввод значений.
-// Мы можем создать их с помощью построителя документов, и ниже приведены два способа сделать это.
+// Поля формы — это объекты в документе, с которыми пользователь может взаимодействовать, получая запросы на ввод значений.
+// Мы можем создать их с помощью конструктора документов, и ниже приведены два способа сделать это.
 // 1 - Основной ввод текста:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);

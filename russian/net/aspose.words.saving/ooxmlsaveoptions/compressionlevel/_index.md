@@ -3,7 +3,7 @@ title: OoxmlSaveOptions.CompressionLevel
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
 second_title: Aspose.Words для .NET
-description: OoxmlSaveOptions CompressionLevel свойство. Указывает уровень сжатия используемый для сохранения документа. Значение по умолчаниюNormal  на С#.
+description: Откройте для себя свойство OoxmlSaveOptions CompressionLevel, чтобы оптимизировать сохранение документов с помощью настраиваемых уровней сжатия для повышения производительности.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
@@ -18,19 +18,19 @@ public CompressionLevel CompressionLevel { get; set; }
 
 ## Примеры
 
-Показывает, как указать уровень сжатия, который будет использоваться при сохранении документа OOXML.
+Показывает, как указать уровень сжатия, используемый при сохранении документа OOXML.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
 
 // Когда мы сохраняем документ в формате OOXML, мы можем создать объект OoxmlSaveOptions
-// а затем передаем его методу сохранения документа, чтобы изменить способ сохранения документа.
-// Установите для свойства CompressionLevel значение CompressionLevel.Maximum, чтобы применить самое сильное и самое медленное сжатие.
-// Установите для свойства CompressionLevel значение CompressionLevel.Normal, чтобы применить его.
+// а затем передаем его в метод сохранения документа, чтобы изменить способ сохранения документа.
+// Установите свойство "CompressionLevel" на "CompressionLevel.Maximum", чтобы применить самое сильное и самое медленное сжатие.
+// Установите свойство "CompressionLevel" на "CompressionLevel.Normal" для применения
 // сжатие по умолчанию, которое Aspose.Words использует при сохранении документов OOXML.
-// Установите для свойства CompressionLevel значение CompressionLevel.Fast, чтобы применить более быстрое и более слабое сжатие.
-// Установите для свойства CompressionLevel значение CompressionLevel.SuperFast, чтобы применить его.
-// сжатие по умолчанию, которое использует Microsoft Word.
+// Установите свойство "CompressionLevel" на "CompressionLevel.Fast", чтобы применить более быстрое и слабое сжатие.
+// Установите свойство "CompressionLevel" на "CompressionLevel.SuperFast" для применения
+// сжатие по умолчанию, используемое Microsoft Word.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;
 

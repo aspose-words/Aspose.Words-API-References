@@ -3,14 +3,14 @@ title: ConditionalStyle.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words для .NET
-description: ConditionalStyle GetHashCode метод. Вычисляет хешкод для этого объекта на С#.
+description: Узнайте, как метод ConditionalStyle GetHashCode эффективно вычисляет уникальные хэш-коды для ваших объектов, повышая производительность и целостность данных.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/conditionalstyle/gethashcode/
 ---
 ## ConditionalStyle.GetHashCode method
 
-Вычисляет хеш-код для этого объекта.
+Вычисляет хэш-код для этого объекта.
 
 ```csharp
 public override int GetHashCode()

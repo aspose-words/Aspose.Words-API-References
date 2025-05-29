@@ -3,9 +3,9 @@ title: Row.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words для .NET
-description: Row EnsureMinimum метод. ЕслиRow не имеет ячеек создает и добавляет однуCell  на С#.
+description: Откройте для себя метод Row EnsureMinimum, с легкостью создавайте и добавляйте ячейки, если их нет, улучшая управление структурой данных.
 type: docs
-weight: 130
+weight: 150
 url: /ru/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -18,7 +18,7 @@ public void EnsureMinimum()
 
 ## Примеры
 
-Показывает, как убедиться, что узел строки содержит узлы, которые нам нужны, чтобы начать добавлять к нему содержимое.
+Показывает, как обеспечить, чтобы узел строки содержал узлы, необходимые для начала добавления в него контента.
 
 ```csharp
 Document doc = new Document();
@@ -27,11 +27,11 @@ doc.FirstSection.Body.AppendChild(table);
 Row row = new Row(doc);
 table.AppendChild(row);
 
-// Строки содержат ячейки, содержащие абзацы с типичными элементами, такими как прогоны, фигуры и даже другие таблицы.
-// В нашей новой строке нет ни одного из этих узлов, и мы не можем добавлять в нее содержимое, пока он не появится.
+// Строки содержат ячейки, содержащие абзацы с типичными элементами, такими как строки, фигуры и даже другие таблицы.
+// В нашей новой строке нет ни одного из этих узлов, и мы не можем добавлять в нее содержимое, пока они не появятся.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
-// Вызов метода EnsureMinimum для таблицы гарантирует, что
+// Вызов метода "EnsureMinimum" для таблицы гарантирует, что
 // в таблице есть хотя бы одна ячейка с пустым абзацем.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));

@@ -3,9 +3,9 @@ title: Section.PrependContent
 linktitle: PrependContent
 articleTitle: PrependContent
 second_title: Aspose.Words для .NET
-description: Section PrependContent метод. Вставляет копию содержимого исходного раздела в начало этого раздела на С#.
+description: Улучшите свой контент с помощью метода Section PrependContent, легко вставляя текст исходного раздела в начало для лучшей организации и ясности.
 type: docs
-weight: 140
+weight: 160
 url: /ru/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
@@ -18,11 +18,11 @@ public void PrependContent(Section sourceSection)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| sourceSection | Section | Раздел, из которого копируется контент. |
+| sourceSection | Section | Раздел, из которого копируется содержимое. |
 
 ## Примечания
 
-Только содержание[`Body`](../body/) исходного раздела копируется, настройка страницы, верхние и нижние колонтитулы не копируются.
+Только содержание[`Body`](../body/) исходного раздела копируется, параметры страницы, верхние и нижние колонтитулы не копируются.
 
 Узлы автоматически импортируются, если исходный раздел принадлежит другому документу.
 
@@ -50,11 +50,11 @@ Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
-// Вставляем содержимое второго раздела в конец третьего раздела.
+// Вставьте содержимое второго раздела в конец третьего раздела.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
-// Методы «PrependContent» и «AppendContent» не создали новых разделов.
+// Методы «PrependContent» и «AppendContent» не создали никаких новых разделов.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

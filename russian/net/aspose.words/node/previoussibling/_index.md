@@ -3,14 +3,14 @@ title: Node.PreviousSibling
 linktitle: PreviousSibling
 articleTitle: PreviousSibling
 second_title: Aspose.Words для .NET
-description: Node PreviousSibling свойство. Получает узел непосредственно предшествующий этому узлу на С#.
+description: Откройте для себя свойство Node PreviousSibling, чтобы легко получить доступ к узлу, который предшествует текущему узлу, расширяя свои навыки манипулирования DOM.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/node/previoussibling/
 ---
 ## Node.PreviousSibling property
 
-Получает узел, непосредственно предшествующий этому узлу.
+Получает узел, непосредственно предшествующий данному узлу.
 
 ```csharp
 public Node PreviousSibling { get; }
@@ -18,7 +18,7 @@ public Node PreviousSibling { get; }
 
 ## Примечания
 
-Если предыдущего узла нет,`нулевой` возвращается.
+Если предшествующего узла нет,`нулевой` возвращается.
 
 ## Примеры
 
@@ -32,11 +32,11 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Обе секции являются родственными друг другу.
+// Оба раздела являются родственными друг другу.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Удаление раздела на основе его родственных отношений с другим разделом.
+// Удалить раздел на основе его родственных связей с другим разделом.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

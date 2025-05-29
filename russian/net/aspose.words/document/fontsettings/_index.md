@@ -3,14 +3,14 @@ title: Document.FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words для .NET
-description: Document FontSettings свойство. Получает или задает настройки шрифта документа на С#.
+description: Узнайте, как легко настроить параметры шрифта документа. Улучшите свои документы с помощью индивидуальных параметров шрифта для улучшения читаемости и стиля.
 type: docs
-weight: 140
+weight: 150
 url: /ru/net/aspose.words/document/fontsettings/
 ---
 ## Document.FontSettings property
 
-Получает или задает настройки шрифта документа.
+Получает или задает параметры шрифта документа.
 
 ```csharp
 public FontSettings FontSettings { get; set; }
@@ -18,13 +18,13 @@ public FontSettings FontSettings { get; set; }
 
 ## Примечания
 
-Это свойство позволяет указать настройки шрифта для каждого документа. Если установлено значение`нулевой` , настройки статического шрифта по умолчанию [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) будет использован.
+Это свойство позволяет указать настройки шрифта для каждого документа. Если установлено значение`нулевой` , настройки статического шрифта по умолчанию [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) будет использоваться.
 
 Значение по умолчанию:`нулевой`.
 
 ## Примеры
 
-Показывает, как настроить правила замены шрифтов.
+Показывает, как задать правила замены шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -41,24 +41,24 @@ FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Второй шрифт «Аметиста» недоступен.
+// Второй шрифт, «Amethysta», недоступен.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Мы можем настроить таблицу подстановки шрифтов, которая определяет
+// Мы можем настроить таблицу замены шрифтов, которая определяет
 // какие шрифты Aspose.Words будет использовать в качестве замены недоступным шрифтам.
-// Установите два шрифта-замены для «Аметисты»: «Арво» и «Курьер Новый».
-// Если первая замена недоступна, Aspose.Words пытается использовать вторую замену и т.д.
+// Установите два шрифта для замены для «Amethysta»: «Arvo» и «Courier New».
+// Если первая замена недоступна, Aspose.Words пытается использовать вторую замену и т. д.
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
- // «Аметиста» недоступна, и правило замены гласит, что первым шрифтом, который будет использоваться в качестве замены, является «Арво».
+ // «Amethysta» недоступен, а правило замены гласит, что первым шрифтом для замены является «Arvo».
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
- // «Арво» тоже нет, а «Курьер Новый» есть.
+ // «Arvo» также недоступен, но «Courier New» доступен.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Выходной документ отобразит текст, использующий шрифт «Amethysta», отформатированный с помощью «Courier New».
+// Выходной документ будет отображать текст, использующий шрифт «Amethysta», отформатированный с помощью «Courier New».
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 ```
 

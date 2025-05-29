@@ -3,7 +3,7 @@ title: MustacheTag.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: MustacheTag Text свойство. Получает текст тега на С#.
+description: Откройте для себя свойство MustacheTag Text, чтобы легко извлекать и использовать текст тега для улучшенной обработки данных и бесшовной интеграции.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/mustachetag/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Примеры
 
-Показывает, как работать с тегами усов.
+Показывает, как работать с бирками-усами.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

@@ -3,14 +3,14 @@ title: Table.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words для .NET
-description: Table RightPadding свойство. Получает или задает объем места в пунктах добавляемый справа от содержимого ячеек на С#.
+description: Откройте для себя свойство Table RightPadding для настройки интервала ячеек. Легко настройте правое поле для улучшения макета и читаемости в ваших проектах.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.tables/table/rightpadding/
 ---
 ## Table.RightPadding property
 
-Получает или задает объем места (в пунктах), добавляемый справа от содержимого ячеек.
+Возвращает или задает размер пространства (в пунктах), добавляемого справа от содержимого ячеек.
 
 ```csharp
 public double RightPadding { get; set; }
@@ -18,7 +18,7 @@ public double RightPadding { get; set; }
 
 ## Примеры
 
-Показывает, как настроить заполнение содержимого в таблице.
+Показывает, как настроить отступы для содержимого в таблице.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Для каждой ячейки таблицы задаем расстояние между ее содержимым и каждой из ее границ.
-// Эта таблица будет поддерживать минимальное расстояние заполнения путем переноса текста.
+ // Для каждой ячейки таблицы задайте расстояние между ее содержимым и каждой из ее границ.
+// Эта таблица будет поддерживать минимальное расстояние отступа путем переноса текста.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

@@ -3,14 +3,14 @@ title: Style.BaseStyleName
 linktitle: BaseStyleName
 articleTitle: BaseStyleName
 second_title: Aspose.Words для .NET
-description: Style BaseStyleName свойство. Получает/устанавливает имя стиля на котором основан этот стиль на С#.
+description: Узнайте, как настроить свойство BaseStyleName для улучшения вашего дизайна. Легко получите или задайте имя стиля для улучшения визуальной привлекательности!
 type: docs
 weight: 30
 url: /ru/net/aspose.words/style/basestylename/
 ---
 ## Style.BaseStyleName property
 
-Получает/устанавливает имя стиля, на котором основан этот стиль.
+Получает/задает имя стиля, на котором основан этот стиль.
 
 ```csharp
 public string BaseStyleName { get; set; }
@@ -18,7 +18,7 @@ public string BaseStyleName { get; set; }
 
 ## Примечания
 
-Это будет пустая строка, если стиль не основан на каком-либо другом стиле и для него можно установить пустую строку.
+Это будет пустая строка, если стиль не основан ни на каком другом стиле, и его можно установить в пустую строку.
 
 ## Примеры
 
@@ -27,8 +27,8 @@ public string BaseStyleName { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// Этот документ содержит стиль с именем «MyStyle, MyStyle Alias 1, MyStyle Alias 2».
-// Если имя стиля имеет несколько значений, разделенных запятыми, каждое предложение представляет собой отдельный псевдоним.
+// Этот документ содержит стиль с именем "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+// Если имя стиля имеет несколько значений, разделенных запятыми, каждое предложение является отдельным псевдонимом.
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);

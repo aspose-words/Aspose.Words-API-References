@@ -3,7 +3,7 @@ title: ChartDataLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words для .NET
-description: ChartDataLabel Font свойство. Предоставляет доступ к форматированию шрифта этой метки данных на С#.
+description: Откройте для себя свойство шрифта ChartDataLabel, чтобы легко настроить форматирование шрифта метки данных для повышения визуальной привлекательности и ясности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Применяем метку данных к каждому пузырьку, отображающую его диаметр.
+// Применить метку данных к каждому пузырьку, отображающую его диаметр.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

@@ -3,14 +3,14 @@ title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
 second_title: Aspose.Words для .NET
-description: Aspose.Words.TextureIndex перечисление. Определяет текстуру затенения на С#.
+description: Откройте для себя перечисление Aspose.Words.TextureIndex для расширенных текстур затенения. Улучшите дизайн вашего документа с помощью настраиваемых высококачественных текстур.
 type: docs
-weight: 6450
+weight: 7300
 url: /ru/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-Определяет текстуру затенения.
+Задает текстуру затенения.
 
 ```csharp
 public enum TextureIndex
@@ -73,11 +73,11 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Указывает, что в текущей затененной области не должен использоваться узор (т. е. узор должен представлять собой полную заливку цветом фона). |
+| TextureNil | `65535` | Указывает, что в текущей затененной области не будет использоваться узор (т.е. узор должен быть полностью заполнен фоновым цветом). |
 
 ## Примеры
 
-Показывает, как украшать текст границами и заливкой.
+Показывает, как оформить текст с помощью границ и заливки.
 
 ```csharp
 Document doc = new Document();
@@ -105,20 +105,20 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Выравниваем таблицу по центру страницы.
+// Выровняйте таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
-// Очистим все существующие границы и затенение таблицы.
+// Удалим все существующие границы и заливку из таблицы.
 table.ClearBorders();
 table.ClearShading();
 
-// Добавляем зеленые рамки к контуру таблицы.
+// Добавляем зеленые границы к контуру таблицы.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Заполняем ячейки светло-зеленым сплошным цветом.
+// Заполните ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

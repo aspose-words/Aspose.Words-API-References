@@ -3,16 +3,16 @@ title: HorizontalRuleFormat Class
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.HorizontalRuleFormat сорт. Представляет горизонтальное форматирование правил на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.HorizontalRuleFormat для расширенного форматирования горизонтальных линий. Улучшите дизайн вашего документа без усилий!
 type: docs
-weight: 1050
+weight: 1380
 url: /ru/net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
 
-Представляет горизонтальное форматирование правил.
+Представляет форматирование горизонтальной линии.
 
-Чтобы узнать больше, посетите[Работа с фигурами](https://docs.aspose.com/words/net/working-with-shapes/) статья документации.
+Чтобы узнать больше, посетите[Работа с фигурами](https://docs.aspose.com/words/net/working-with-shapes/) документальная статья.
 
 ```csharp
 public class HorizontalRuleFormat
@@ -22,15 +22,15 @@ public class HorizontalRuleFormat
 
 | Имя | Описание |
 | --- | --- |
-| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Получает или задает выравнивание горизонтальной линейки. |
-| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Получает или задает цвет кисти, заполняющий горизонтальное правило. |
-| [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Получает или задает высоту горизонтальной линейки. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Указывает наличие 3D-затенения для горизонтальной линейки. Если`истинный` то горизонтальная линейка без 3D-затенения и используется сплошной цвет. |
-| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Получает или задает длину указанной горизонтальной линейки, выраженную в процентах от ширины окна. |
+| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Получает или задает выравнивание горизонтальной линии. |
+| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Получает или задает цвет кисти, заполняющей горизонтальную линейку. |
+| [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Возвращает или задает высоту горизонтальной линейки. |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Указывает на наличие 3D-затенения для горизонтальной линии. Если`истинный` , то горизонтальная линия не имеет 3D-затенения и используется сплошной цвет. |
+| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Возвращает или задает длину указанной горизонтальной линии, выраженную в процентах от ширины окна. |
 
 ## Примеры
 
-Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
+Показывает, как вставить горизонтальную линейку и настроить ее форматирование.
 
 ```csharp
 Document doc = new Document();

@@ -3,9 +3,9 @@ title: DocumentBase.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words для .NET
-description: DocumentBase Styles свойство. Возвращает коллекцию стилей определенных в документе на С#.
+description: Изучите свойство DocumentBase Styles, чтобы получить доступ к богатой коллекции настраиваемых стилей, повышающих визуальную привлекательность и согласованность вашего документа.
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -51,7 +51,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем собственный стиль абзаца.
+// Создать пользовательский стиль абзаца.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
@@ -61,11 +61,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Примените стиль абзаца к текущему абзацу конструктора документов, а затем добавьте текст.
+// Применяем стиль абзаца к текущему абзацу конструктора документа, а затем добавляем текст.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Измените стиль компоновщика документов на стиль без форматирования списка и напишите еще один абзац.
+// Измените стиль конструктора документов на такой, который не имеет форматирования списка, и напишите еще один абзац.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

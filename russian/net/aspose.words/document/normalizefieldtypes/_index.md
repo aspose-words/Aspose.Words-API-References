@@ -3,14 +3,14 @@ title: Document.NormalizeFieldTypes
 linktitle: NormalizeFieldTypes
 articleTitle: NormalizeFieldTypes
 second_title: Aspose.Words для .NET
-description: Document NormalizeFieldTypes метод. Изменяет значения типов полей.FieldType изFieldStart FieldSeparator FieldEnd во всем документе чтобы они соответствовали типам полей содержащимся в кодах полей на С#.
+description: Оптимизируйте свой документ с помощью метода NormalizeFieldTypes, гарантируя, что все значения типов полей будут соответствовать кодам полей, что обеспечит повышенную согласованность и точность.
 type: docs
-weight: 630
+weight: 670
 url: /ru/net/aspose.words/document/normalizefieldtypes/
 ---
 ## Document.NormalizeFieldTypes method
 
-Изменяет значения типов полей.[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) из[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) во всем документе, чтобы они соответствовали типам полей, содержащимся в кодах полей.
+Изменяет значения типа поля[`FieldType`](../../../aspose.words.fields/fieldchar/fieldtype/) из[`FieldStart`](../../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../../aspose.words.fields/fieldend/) во всем документе, чтобы они соответствовали типам полей, содержащимся в кодах полей.
 
 ```csharp
 public void NormalizeFieldTypes()
@@ -18,13 +18,13 @@ public void NormalizeFieldTypes()
 
 ## Примечания
 
-Используйте этот метод после изменений документа, которые влияют на типы полей.
+Используйте этот метод после внесения изменений в документ, влияющих на типы полей.
 
 Чтобы изменить значения типа поля в определенной части документа, используйте[`NormalizeFieldTypes`](../../range/normalizefieldtypes/).
 
 ## Примеры
 
-Показывает, как обеспечить актуальность типа поля с помощью его кода поля.
+Показывает, как поддерживать тип поля в актуальном состоянии с помощью его кода поля.
 
 ```csharp
 Document doc = new Document();
@@ -35,11 +35,11 @@ Field field = builder.InsertField("DATE", null);
 // Aspose.Words автоматически определяет типы полей на основе кодов полей.
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 
-// Вручную изменяем необработанный текст поля, определяющий код поля.
+// Вручную измените необработанный текст поля, который определяет код поля.
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
 fieldText.Text = "PAGE";
 
-// Изменение кода поля привело к изменению этого поля на поле другого типа,
+// Изменение кода поля изменило тип этого поля на другой,
 // но свойства типа поля по-прежнему отображают старый тип.
 Assert.AreEqual("PAGE", field.GetFieldCode());
 Assert.AreEqual(FieldType.FieldDate, field.Type);
@@ -47,12 +47,12 @@ Assert.AreEqual(FieldType.FieldDate, field.Start.FieldType);
 Assert.AreEqual(FieldType.FieldDate, field.Separator.FieldType);
 Assert.AreEqual(FieldType.FieldDate, field.End.FieldType);
 
-// Обновляем эти свойства с помощью этого метода, чтобы отобразить текущее значение.
+// Обновите эти свойства с помощью этого метода, чтобы отобразить текущее значение.
 doc.NormalizeFieldTypes();
 
 Assert.AreEqual(FieldType.FieldPage, field.Type);
 Assert.AreEqual(FieldType.FieldPage, field.Start.FieldType);
-Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType); 
+Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType);
 Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
 ```
 

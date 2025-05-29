@@ -3,7 +3,7 @@ title: FieldStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: FieldStart Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод FieldStart Accept для повышения вовлеченности посетителей и оптимизации взаимодействия на вашем сайте. Увеличьте конверсию без усилий!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldstart/accept/
@@ -22,17 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-**ЛОЖЬ** если посетитель запросил остановку перечисления.
+**ЛОЖЬ** если посетитель попросил остановить перечисление.
 
 ## Примечания
 
 Звонки[`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
 ## Примеры
 
-Показывает, как работать с коллекцией полей.
+Показывает, как работать с набором полей.
 
 ```csharp
 public void FieldCollection()
@@ -52,7 +52,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей, выводим содержимое и печатаем
+    // Проходим по коллекции полей и выводим содержимое и тип
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -77,7 +77,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Реализация посетителя документа, который печатает информацию о поле.
+/// Реализация посетителя документа, который выводит информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -87,7 +87,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

@@ -3,14 +3,14 @@ title: ComHelper.Open
 linktitle: Open
 articleTitle: Open
 second_title: Aspose.Words для .NET
-description: ComHelper Open метод. Позволяет COMприложению загружатьDocument из файла на С#.
+description: Откройте для себя бесшовную интеграцию с помощью метода Open ComHelper, обеспечивающего легкую загрузку документов из файлов для ваших COM-приложений.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/comhelper/open/
 ---
 ## Open(*string*) {#open_1}
 
-Позволяет COM-приложению загружать[`Document`](../../document/) из файла.
+Позволяет приложению COM загружать[`Document`](../../document/) из файла .
 
 ```csharp
 public Document Open(string fileName)
@@ -22,7 +22,7 @@ public Document Open(string fileName)
 
 ### Возвращаемое значение
 
-А[`Document`](../../document/)объект, представляющий документ Word.
+А[`Document`](../../document/) объект, представляющий документ Word.
 
 ## Примечания
 
@@ -43,10 +43,10 @@ Set doc = helper.Open(fileName)
 Показывает, как открывать документы с помощью класса ComHelper.
 
 ```csharp
-// Класс ComHelper позволяет нам загружать документы из COM-клиентов.
+// Класс ComHelper позволяет нам загружать документы из клиентов COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Использование локального системного имени файла:
+// 1 - Использование имени файла локальной системы:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
@@ -71,7 +71,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(*Stream*) {#open}
 
-Разрешает загрузку COM-приложения.[`Document`](../../document/) из потока.
+Позволяет загружать COM-приложение[`Document`](../../document/) из потока.
 
 ```csharp
 public Document Open(Stream stream)
@@ -79,11 +79,11 @@ public Document Open(Stream stream)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| stream | Stream | Объект потока .NET, содержащий загружаемый документ. |
+| stream | Stream | Объект потока .NET, содержащий документ для загрузки. |
 
 ### Возвращаемое значение
 
-А[`Document`](../../document/)объект, представляющий документ Word.
+А[`Document`](../../document/) объект, представляющий документ Word.
 
 ## Примечания
 
@@ -94,10 +94,10 @@ public Document Open(Stream stream)
 Показывает, как открывать документы с помощью класса ComHelper.
 
 ```csharp
-// Класс ComHelper позволяет нам загружать документы из COM-клиентов.
+// Класс ComHelper позволяет нам загружать документы из клиентов COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Использование локального системного имени файла:
+// 1 - Использование имени файла локальной системы:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

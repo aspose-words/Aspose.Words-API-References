@@ -3,14 +3,14 @@ title: IChartDataPoint.Marker
 linktitle: Marker
 articleTitle: Marker
 second_title: Aspose.Words для .NET
-description: IChartDataPoint Marker свойство. Указывает маркер данных. Маркер создается автоматически по запросу на С#.
+description: Откройте для себя свойство маркера IChartDataPoint, которое автоматически создает маркеры данных для улучшенной визуализации и анализа. Повысьте свой опыт построения диаграмм!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/marker/
 ---
 ## IChartDataPoint.Marker property
 
-Указывает маркер данных. Маркер создается автоматически по запросу.
+Указывает маркер данных. Маркер создается автоматически при запросе.
 
 ```csharp
 public ChartMarker Marker { get; }
@@ -18,7 +18,7 @@ public ChartMarker Marker { get; }
 
 ## Примеры
 
-Показывает, как работать с точками данных на линейной диаграмме.
+Показывает, как работать с точками данных на линейном графике.
 
 ```csharp
 public void ChartDataPoint()
@@ -34,8 +34,8 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Выделите точки данных диаграммы, придав им вид ромба.
-    foreach (ChartSeries series in chart.Series) 
+    // Выделите точки данных на диаграмме, придав им форму ромбов.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Сглаживаем линию, представляющую первый ряд данных.
@@ -50,17 +50,20 @@ public void ChartDataPoint()
         }
     }
 
-    // Чтобы график выглядел чище, мы можем очистить формат индивидуально.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Мы также можем удалить сразу всю серию точек данных.
+    // Для более четкого вида графика мы можем очистить формат по отдельности.
+    dataPoint.ClearFormat();
+
+    // Мы также можем удалить целую серию точек данных за один раз.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");
 }
 
 /// <summary>
-/// Применяет к ряду несколько точек данных.
+/// Применяет ряд точек данных к ряду.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

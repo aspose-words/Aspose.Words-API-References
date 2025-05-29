@@ -3,14 +3,14 @@ title: Font.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
 second_title: Aspose.Words для .NET
-description: Font SnapToGrid свойство. Указывает должен ли текущий шрифт использовать символы сетки документа в каждой строке settings при макете на С#.
+description: Узнайте, как свойство Font SnapToGrid повышает точность макета, выравнивая шрифты с настройками сетки документа для оптимальной читаемости и дизайна.
 type: docs
-weight: 370
+weight: 380
 url: /ru/net/aspose.words/font/snaptogrid/
 ---
 ## Font.SnapToGrid property
 
-Указывает, должен ли текущий шрифт использовать символы сетки документа в каждой строке settings при макете.
+Указывает, должен ли текущий шрифт использовать настройки сетки документа для символов в строке при компоновке.
 
 ```csharp
 public bool SnapToGrid { get; set; }

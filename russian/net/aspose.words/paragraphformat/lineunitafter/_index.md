@@ -3,14 +3,14 @@ title: ParagraphFormat.LineUnitAfter
 linktitle: LineUnitAfter
 articleTitle: LineUnitAfter
 second_title: Aspose.Words для .NET
-description: ParagraphFormat LineUnitAfter свойство. Получает или задает величину интервала в линиях сетки после абзацев на С#.
+description: Откройте для себя свойство ParagraphFormat LineUnitAfter — управляйте интервалами в линиях сетки для улучшения компоновки абзацев и повышения читабельности документа.
 type: docs
 weight: 220
 url: /ru/net/aspose.words/paragraphformat/lineunitafter/
 ---
 ## ParagraphFormat.LineUnitAfter property
 
-Получает или задает величину интервала (в линиях сетки) после абзацев.
+Возвращает или задает величину интервала (в линиях сетки) после абзацев.
 
 ```csharp
 public double LineUnitAfter { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Ниже приведены пять различных вариантов интервалов, а также свойства, на которые косвенно влияет их конфигурация.
+// Ниже приведены пять различных вариантов интервалов, а также свойства, на которые их конфигурация косвенно влияет.
 // 1 - Отступ слева:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -40,7 +40,7 @@ format.CharacterUnitRightIndent = -5.5;
 
 Assert.AreEqual(format.RightIndent, -66.0d);
 
-// 3 - Висячий отступ:
+// 3 - Отступ:
 Assert.AreEqual(format.FirstLineIndent, 0.0d);
 
 format.CharacterUnitFirstLineIndent = 20.3;

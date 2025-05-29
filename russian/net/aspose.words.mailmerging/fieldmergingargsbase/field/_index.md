@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.Field
 linktitle: Field
 articleTitle: Field
 second_title: Aspose.Words для .NET
-description: FieldMergingArgsBase Field свойство. Получает объект представляющий текущее поле слияния на С#.
+description: Откройте для себя свойство FieldMergingArgsBase Field для доступа к текущему объекту поля слияния без усилий. Повысьте эффективность слияния данных сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -18,7 +18,7 @@ public FieldMergeField Field { get; }
 
 ## Примеры
 
-Показывает, как выполнить слияние почты с помощью пользовательского обратного вызова, который обрабатывает данные слияния в форме документов HTML.
+Показывает, как выполнить слияние почты с помощью настраиваемого обратного вызова, который обрабатывает данные слияния в форме HTML-документов.
 
 ```csharp
 public void MergeHtml()
@@ -51,7 +51,7 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Если при слиянии почты встречается MERGEFIELD, имя которого начинается с префикса "html_",
+/// Если при слиянии почты обнаруживается MERGEFIELD, имя которого начинается с префикса "html_",
 /// этот обратный вызов анализирует свои данные слияния как содержимое HTML и добавляет результат в местоположение документа MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
@@ -63,13 +63,13 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Добавляем проанализированные данные HTML в тело документа.
+            // Добавить проанализированные HTML-данные в тело документа.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Поскольку мы уже вставили объединенный контент вручную,
-             // нам не нужно будет реагировать на это событие, возвращая контент через свойство «Текст».
+            // нам не нужно будет реагировать на это событие, возвращая содержимое через свойство "Текст".
             args.Text = string.Empty;
         }
     }

@@ -3,14 +3,14 @@ title: ChartXValue.FromDateTime
 linktitle: FromDateTime
 articleTitle: FromDateTime
 second_title: Aspose.Words для .NET
-description: ChartXValue FromDateTime метод. СоздаетChartXValue экземплярDateTime тип на С#.
+description: Откройте для себя метод ChartXValue FromDateTime, который позволяет легко создавать экземпляры диаграмм DateTime, повышая простоту и точность визуализации данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/fromdatetime/
 ---
 ## ChartXValue.FromDateTime method
 
-Создает[`ChartXValue`](../) экземплярDateTime тип.
+Создает[`ChartXValue`](../) примерDateTime тип.
 
 ```csharp
 public static ChartXValue FromDateTime(DateTime value)

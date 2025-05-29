@@ -3,14 +3,14 @@ title: GlossaryDocument.GetBuildingBlock
 linktitle: GetBuildingBlock
 articleTitle: GetBuildingBlock
 second_title: Aspose.Words для .NET
-description: GlossaryDocument GetBuildingBlock метод. Находит стандартный блок используя указанную галерею категорию и имя на С#.
+description: Откройте для себя метод GlossaryDocument GetBuildingBlock для эффективного поиска строительных блоков по категории галереи и имени. Улучшите управление документами сегодня!
 type: docs
-weight: 70
+weight: 90
 url: /ru/net/aspose.words.buildingblocks/glossarydocument/getbuildingblock/
 ---
 ## GlossaryDocument.GetBuildingBlock method
 
-Находит стандартный блок, используя указанную галерею, категорию и имя.
+Находит строительный блок, используя указанную галерею, категорию и имя.
 
 ```csharp
 public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string category, string name)
@@ -19,8 +19,8 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | gallery | BuildingBlockGallery | Критерии галереи. |
-| category | String | Критерии категории. Возможно`нулевой`, и в этом случае он не будет использоваться для сравнения. |
-| name | String | Критерии имени строительного блока. |
+| category | String | Критерии категории. Может быть`нулевой`, в этом случае он не будет использоваться для сравнения. |
+| name | String | Критерии наименования строительных блоков. |
 
 ### Возвращаемое значение
 
@@ -28,9 +28,9 @@ public BuildingBlock GetBuildingBlock(BuildingBlockGallery gallery, string categ
 
 ## Примечания
 
-Это удобный метод, который перебирает все стандартные блоки в этой коллекции и возвращает первый стандартный блок, который соответствует указанной галерее, категории и имени.
+Это удобный метод, который перебирает все строительные блоки в этой коллекции и возвращает первый строительный блок, который соответствует указанной галерее, категории и имени.
 
-Microsoft Word объединяет стандартные блоки в галереи. Galleries предопределены с использованием[`BuildingBlockGallery`](../../buildingblockgallery/) enum. В каждой галерее стандартные блоки могут быть организованы в одну или несколько категорий. Имя категории представляет собой строку. Каждый строительный блок имеет имя. Уникальность имени строительного блока не гарантируется.
+Microsoft Word организует строительные блоки в галереи. Галереи предопределены с помощью[`BuildingBlockGallery`](../../buildingblockgallery/)enum. В каждой галерее строительные блоки могут быть организованы в одну или несколько категорий. Имя категории — это строка. Каждый строительный блок имеет имя. Имя building block не гарантируется уникальным.
 
 ## Примеры
 
@@ -42,42 +42,52 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
     // Существуют различные способы доступа к строительным блокам.
-    // 1 — Получить первый/последний стандартный блок в коллекции:
+    // 1 — Получить первый/последний строительный блок в коллекции:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 — Получить строительный блок по индексу:
+    // 2 - Получить строительный блок по индексу:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 — Получить первый строительный блок, соответствующий галерее, имени и категории:
+    // 3 — Получить первый строительный блок, соответствующий галерее, названию и категории:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Мы сделаем это с помощью специального посетителя,
-    // который придаст каждому BuildingBlock в GlossaryDocument уникальный GUID
+    // Мы сделаем это с помощью пользовательского посетителя,
+    // который присвоит каждому BuildingBlock в GlossaryDocument уникальный GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Перейти к началу/концу документа Глоссария.
     glossaryDoc.Accept(visitor);
+    // Посетить только начало документа Глоссарий.
+    glossaryDoc.AcceptStart(visitor);
+    // Посетите только конец документа Глоссарий.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставка» -> «Быстрые детали» -> «Организатор строительных блоков».
+    // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставка» -> «Быстрые элементы» -> «Организатор строительных блоков».
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Дает каждому строительному блоку в посещенном документе глоссария уникальный GUID.
-/// Сохраняет пары блоков построения GUID в словаре.
+/// Присваивает каждому строительному блоку в посещенном документе глоссария уникальный GUID.
+/// Сохраняет пары GUID-строительный блок в словаре.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

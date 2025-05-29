@@ -3,14 +3,14 @@ title: FieldMergeBarcode.ForegroundColor
 linktitle: ForegroundColor
 articleTitle: ForegroundColor
 second_title: Aspose.Words для .NET
-description: FieldMergeBarcode ForegroundColor свойство. Получает или задает цвет переднего плана символа штрихкода. Допустимые значения находятся в диапазоне 0 0xFFFFFF  на С#.
+description: Откройте для себя свойство FieldMergeBarcode ForegroundColor для настройки внешнего вида вашего штрихкода. Легко устанавливайте цвета со значениями от 0 до 0xFFFFFF!
 type: docs
 weight: 100
 url: /ru/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
 ---
 ## FieldMergeBarcode.ForegroundColor property
 
-Получает или задает цвет переднего плана символа штрих-кода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF] .
+Возвращает или задает цвет переднего плана символа штрихкода. Допустимые значения находятся в диапазоне [0, 0xFFFFFF]
 
 ```csharp
 public string ForegroundColor { get; set; }
@@ -18,19 +18,19 @@ public string ForegroundColor { get; set; }
 
 ## Примеры
 
-Показывает, как выполнить объединение почты по QR-штрих-кодам.
+Показывает, как выполнить слияние писем с QR-штрихкодами.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
-// Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
+// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
+// Это поле преобразует все значения в столбце «MyQRCode» источника объединенных данных в QR-коды.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Применяем собственные цвета и масштабирование.
+// Применить пользовательские цвета и масштабирование.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -43,8 +43,8 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Создайте DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
-// Слияние почты создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
+// Создаем DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
+// Слияние создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
 // который отобразит QR-код со значением из объединенной строки.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");

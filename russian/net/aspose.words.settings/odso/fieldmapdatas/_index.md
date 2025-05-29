@@ -3,14 +3,14 @@ title: Odso.FieldMapDatas
 linktitle: FieldMapDatas
 articleTitle: FieldMapDatas
 second_title: Aspose.Words для .NET
-description: Odso FieldMapDatas свойство. Получает или задает коллекцию объектов определяющих как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда ненулевой  на С#.
+description: Откройте для себя Odso FieldMapDatas, легко сопоставляйте внешние столбцы данных с предопределенными полями слияния, обеспечивая бесперебойную интеграцию документов и повышенную точность данных.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odso/fieldmapdatas/
 ---
 ## Odso.FieldMapDatas property
 
-Получает или задает коллекцию объектов, определяющих, как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда не`нулевой` .
+Возвращает или задает коллекцию объектов, которые определяют, как столбцы из внешнего источника данных сопоставляются с предопределенными именами полей слияния в документе. Этот объект никогда не`нулевой` .
 
 ```csharp
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

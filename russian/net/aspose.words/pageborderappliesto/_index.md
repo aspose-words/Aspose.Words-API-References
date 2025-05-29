@@ -3,9 +3,9 @@ title: PageBorderAppliesTo Enum
 linktitle: PageBorderAppliesTo
 articleTitle: PageBorderAppliesTo
 second_title: Aspose.Words для .NET
-description: Aspose.Words.PageBorderAppliesTo перечисление. Указывает на каких страницах печатается граница страницы на С#.
+description: Откройте для себя перечисление Aspose.Words.PageBorderAppliesTo для управления печатью границ страниц на определенных страницах для улучшенного форматирования документа.
 type: docs
-weight: 4340
+weight: 5070
 url: /ru/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
@@ -26,7 +26,7 @@ public enum PageBorderAppliesTo
 
 ## Примеры
 
-Показывает, как создать широкую синюю рамку в верхней части первой страницы.
+Показывает, как создать широкую синюю полосу в верхней части первой страницы.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: ReportingEngine
 linktitle: ReportingEngine
 articleTitle: ReportingEngine
 second_title: Aspose.Words для .NET
-description: ReportingEngine строитель. Инициализирует новый экземпляр этого класса на С#.
+description: Создавайте эффективные отчеты без усилий с ReportingEngine. Инициализируйте свои решения по отчетности без проблем для улучшенного понимания данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.reporting/reportingengine/reportingengine/

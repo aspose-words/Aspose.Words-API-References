@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: BuiltInDocumentProperties Item свойство. ВозвращаетDocumentProperty объект по имени свойства на С#.
+description: Доступ к объектам DocumentProperty без усилий с помощью свойства BuiltInDocumentProperties Item. Оптимизируйте управление документами уже сегодня!
 type: docs
-weight: 130
+weight: 140
 url: /ru/net/aspose.words.properties/builtindocumentproperties/item/
 ---
 ## BuiltInDocumentProperties indexer
@@ -18,7 +18,7 @@ public override DocumentProperty this[string name] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| name | Имя извлекаемого свойства без учета регистра. |
+| name | Нечувствительное к регистру имя извлекаемого свойства. |
 
 ## Примечания
 
@@ -30,13 +30,13 @@ public override DocumentProperty this[string name] { get; }
 
 ## Примеры
 
-Показывает, как работать с настраиваемыми свойствами документа.
+Показывает, как работать с пользовательскими свойствами документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Каждый документ содержит коллекцию пользовательских свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
- // Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства.
+// Каждый документ содержит набор пользовательских свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
+ // Документ имеет фиксированный список встроенных свойств. Пользователь создает все пользовательские свойства.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

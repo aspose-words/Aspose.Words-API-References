@@ -3,14 +3,14 @@ title: FieldOptions.TemplateName
 linktitle: TemplateName
 articleTitle: TemplateName
 second_title: Aspose.Words для .NET
-description: FieldOptions TemplateName свойство. Получает или задает имя файла шаблона используемого документом на С#.
+description: Откройте для себя свойство FieldOptions TemplateName, которое позволит легко управлять именем файла шаблона документа для лучшей организации и эффективности.
 type: docs
 weight: 190
 url: /ru/net/aspose.words.fields/fieldoptions/templatename/
 ---
 ## FieldOptions.TemplateName property
 
-Получает или задает имя файла шаблона, используемого документом.
+Возвращает или задает имя файла шаблона, используемого документом.
 
 ```csharp
 public string TemplateName { get; set; }
@@ -18,9 +18,9 @@ public string TemplateName { get; set; }
 
 ## Примечания
 
-Это свойство используется[`FieldTemplate`](../../fieldtemplate/) поле, если[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) недвижимость пуста.
+Это свойство используется[`FieldTemplate`](../../fieldtemplate/) поле, если[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) недвижимость пустует.
 
-Если это свойство пусто, имя файла шаблона по умолчанию`Нормальный.dotm` используется.
+Если это свойство пустое, имя файла шаблона по умолчанию`Нормальный.dotm` используется.
 
 ## Примеры
 
@@ -30,8 +30,8 @@ public string TemplateName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Мы можем установить имя шаблона, используя поля. Это свойство используется, когда «doc.AttachedTemplate» пуст.
-// Если это свойство пусто, используется имя файла шаблона по умолчанию «Normal.dotm».
+// Мы можем задать имя шаблона, используя поля. Это свойство используется, когда "doc.AttachedTemplate" пуст.
+// Если это свойство пустое, используется имя файла шаблона по умолчанию «Normal.dotm».
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);

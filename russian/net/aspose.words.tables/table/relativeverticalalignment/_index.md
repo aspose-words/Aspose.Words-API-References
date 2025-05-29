@@ -3,14 +3,14 @@ title: Table.RelativeVerticalAlignment
 linktitle: RelativeVerticalAlignment
 articleTitle: RelativeVerticalAlignment
 second_title: Aspose.Words для .NET
-description: Table RelativeVerticalAlignment свойство. Получает или задает относительное вертикальное выравнивание плавающей таблицы на С#.
+description: Откройте для себя свойство Table RelativeVerticalAlignment, которое позволяет легко управлять вертикальным выравниванием плавающих таблиц, повышая точность и дизайн вашего макета.
 type: docs
 weight: 240
 url: /ru/net/aspose.words.tables/table/relativeverticalalignment/
 ---
 ## Table.RelativeVerticalAlignment property
 
-Получает или задает относительное вертикальное выравнивание плавающей таблицы.
+Возвращает или задает относительное вертикальное выравнивание плавающей таблицы.
 
 ```csharp
 public VerticalAlignment RelativeVerticalAlignment { get; set; }
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Установите местоположение таблицы в нужном месте на странице, например, в данном случае в правом нижнем углу.
+// Задайте местоположение таблицы на странице, например, в данном случае в правом нижнем углу.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Мы также можем установить горизонтальное и вертикальное смещение в пунктах от места абзаца, куда мы вставили таблицу.
+ // Мы также можем задать горизонтальное и вертикальное смещение в пунктах от местоположения абзаца, куда мы вставили таблицу.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

@@ -3,16 +3,16 @@ title: OleFormat Class
 linktitle: OleFormat
 articleTitle: OleFormat
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.OleFormat сорт. Обеспечивает доступ к данным объекта OLE или элемента управления ActiveX на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.OleFormat для беспрепятственного доступа к объектам OLE и элементам управления ActiveX, расширяя возможности обработки документов.
 type: docs
-weight: 1150
+weight: 1530
 url: /ru/net/aspose.words.drawing/oleformat/
 ---
 ## OleFormat class
 
-Обеспечивает доступ к данным объекта OLE или элемента управления ActiveX.
+Предоставляет доступ к данным объекта OLE или элемента управления ActiveX.
 
-Чтобы узнать больше, посетите[Работа с объектами Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) статья документации.
+Чтобы узнать больше, посетите[Работа с Ole-объектами](https://docs.aspose.com/words/net/working-with-ole-objects/) документальная статья.
 
 ```csharp
 public class OleFormat
@@ -22,17 +22,17 @@ public class OleFormat
 
 | Имя | Описание |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate/) { get; set; } | Указывает, обновляется ли ссылка на объект OLE автоматически или нет в Microsoft Word. |
+| [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate/) { get; set; } | Указывает, будет ли автоматически обновляться ссылка на объект OLE в Microsoft Word. |
 | [Clsid](../../aspose.words.drawing/oleformat/clsid/) { get; } | Получает CLSID объекта OLE. |
 | [IconCaption](../../aspose.words.drawing/oleformat/iconcaption/) { get; } | Получает заголовок значка объекта OLE. |
-| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Возвращает`истинный` если объект OLE связан (когда[`SourceFullName`](./sourcefullname/) указан). |
+| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Возврат`истинный` если объект OLE связан (когда[`SourceFullName`](./sourcefullname/) указано). |
 | [IsLocked](../../aspose.words.drawing/oleformat/islocked/) { get; set; } | Указывает, заблокирована ли ссылка на объект OLE от обновлений. |
-| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | Получает[`OleControl`](./olecontrol/) объекты, если этот объект OLE является элементом управления ActiveX. В противном случае это свойство имеет значение null. |
-| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Получает аспект рисования объекта OLE. Когда`истинный` , объект OLE отображается в виде значка. Когда`ЛОЖЬ` , объект OLE отображается как контент. |
-| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Предоставить доступ к[`OlePackage`](../olepackage/) если объект OLE является пакетом OLE. Возвращает`нулевой` иначе. |
+| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | Получает[`OleControl`](./olecontrol/) объекты, если этот объект OLE является элементом управления ActiveX. В противном случае это свойство равно null. |
+| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Получает аспект рисования объекта OLE. Когда`истинный` объект OLE отображается как значок. Когда`ЛОЖЬ` , объект OLE отображается как content. |
+| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Предоставить доступ к[`OlePackage`](../olepackage/) если объект OLE является пакетом OLE. Возвращает`нулевой` в противном случае. |
 | [ProgId](../../aspose.words.drawing/oleformat/progid/) { get; set; } | Получает или задает ProgID объекта OLE. |
-| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname/) { get; set; } | Получает или задает путь и имя исходного файла для связанного объекта OLE. |
-| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem/) { get; set; } | Получает или задает строку, которая используется для идентификации части исходного файла, на которую осуществляется ссылка. |
+| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname/) { get; set; } | Возвращает или задает путь и имя исходного файла для связанного объекта OLE. |
+| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem/) { get; set; } | Возвращает или задает строку, которая используется для идентификации части исходного файла, которая связывается. |
 | [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension/) { get; } | Получает расширение файла, предложенное для текущего внедренного объекта, если вы хотите сохранить его в файл. |
 | [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename/) { get; } | Получает имя файла, предложенное для текущего внедренного объекта, если вы хотите сохранить его в файл. |
 
@@ -47,37 +47,37 @@ public class OleFormat
 
 ## Примечания
 
-Использовать[`OleFormat`](../shape/oleformat/)свойство для доступа к данным объекта OLE. Вы не создаете экземпляры`OleFormat` класс напрямую.
+Используйте[`OleFormat`](../shape/oleformat/) свойство для доступа к данным объекта OLE. Вы не создаете экземпляры`OleFormat` класс напрямую.
 
 ## Примеры
 
-Показывает, как извлечь внедренные объекты OLE в файлы.
+Показывает, как извлекать встроенные OLE-объекты в файлы.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// Объект OLE в первой фигуре — это электронная таблица Microsoft Excel.
+// Объект OLE в первой форме — это электронная таблица Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Наш объект не является ни автоматически обновляемым, ни заблокированным от обновлений.
+// Наш объект не обновляется автоматически и не заблокирован от обновлений.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Если мы планируем сохранить объект OLE в файл в локальной файловой системе,
-// мы можем использовать свойство «SuggestedExtension», чтобы определить, какое расширение файла применить к файлу.
+// мы можем использовать свойство "SuggestedExtension", чтобы определить, какое расширение файла применить к файлу.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Ниже приведены два способа сохранения объекта OLE в файл локальной файловой системы.
+// Ниже приведены два способа сохранения объекта OLE в файл в локальной файловой системе.
 // 1 - Сохранить через поток:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
 }
 
-// 2 - Сохраняем непосредственно в файл:
+// 2 - Сохранить его непосредственно в файле:
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

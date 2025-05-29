@@ -3,7 +3,7 @@ title: IFieldMergingCallback.ImageFieldMerging
 linktitle: ImageFieldMerging
 articleTitle: ImageFieldMerging
 second_title: Aspose.Words для .NET
-description: IFieldMergingCallback ImageFieldMerging метод. Вызывается когда механизм слияния почты Aspose.Words собирается вставить изображение в поле слияния на С#.
+description: Откройте для себя метод ImageFieldMerging в IFieldMergingCallback, разработанный для бесшовной вставки изображений в слияние почты Aspose.Words. Улучшите автоматизацию документов!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
@@ -34,7 +34,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Открытие устройства чтения данных, которое должно находиться в режиме одновременного чтения всех записей.
+        // Откройте средство чтения данных, которое должно находиться в режиме, позволяющем считывать все записи одновременно.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -52,7 +52,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Это вызывается, когда слияние почты обнаруживает в документе MERGEFIELD с тегом «Image:» в его имени.
+    /// Вызывается, когда при слиянии почты в документе обнаруживается MERGEFIELD с тегом «Image:» в имени.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

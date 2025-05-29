@@ -3,14 +3,14 @@ title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words для .NET
-description: Style Styles свойство. Получает коллекцию стилей которым принадлежит этот стиль на С#.
+description: Откройте для себя раздел Style Styles, чтобы получить доступ к тщательно отобранной коллекции стилей, которые дополнят ваш дизайн уникальной, целостной эстетикой.
 type: docs
-weight: 160
+weight: 190
 url: /ru/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
 
-Получает коллекцию стилей, которым принадлежит этот стиль.
+Получает коллекцию стилей, к которой принадлежит этот стиль.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

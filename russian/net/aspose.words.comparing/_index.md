@@ -3,17 +3,18 @@ title: Aspose.Words.Comparing
 linktitle: Aspose.Words.Comparing
 articleTitle: Aspose.Words.Comparing
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Comparing пространство имен предоставляет классы и перечисления которые позволяют указывать дополнительные параметры при сравнении документов на С#.
+description: Откройте для себя Aspose.Words.Comparing для эффективного сравнения документов. Легко настраивайте параметры, чтобы повысить точность и оптимизировать рабочий процесс.
 type: docs
-weight: 30
+weight: 50
 url: /ru/net/aspose.words.comparing/
 ---
-**Aspose.Words.Comparing** пространство имен предоставляет классы и перечисления, которые позволяют указывать дополнительные параметры при сравнении документов.
+The**Aspose.Words.Сравнение** Пространство имен предоставляет классы и перечисления, которые позволяют указывать дополнительные параметры при сравнении документов.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
+| [AdvancedCompareOptions](./advancedcompareoptions/) | Позволяет задать расширенные параметры сравнения. |
 | [CompareOptions](./compareoptions/) | Позволяет выбрать дополнительные параметры для операции сравнения документов. |
 ## перечисление
 

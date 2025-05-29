@@ -3,7 +3,7 @@ title: FieldSkipIf
 linktitle: FieldSkipIf
 articleTitle: FieldSkipIf
 second_title: Aspose.Words для .NET
-description: FieldSkipIf строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldSkipIf — ваш основной инструмент для эффективной обработки данных. Откройте для себя бесшовную интеграцию и оптимизируйте свой опыт кодирования сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldskipif/fieldskipif/

@@ -3,14 +3,14 @@ title: FieldStyleRef.InsertParagraphNumber
 linktitle: InsertParagraphNumber
 articleTitle: InsertParagraphNumber
 second_title: Aspose.Words для .NET
-description: FieldStyleRef InsertParagraphNumber свойство. Получает или задает следует ли вставлять номер абзаца на который указана ссылка точно так как он отображается в документе на С#.
+description: Откройте для себя свойство FieldStyleRef InsertParagraphNumber, которое позволит легко управлять нумерацией абзацев в документах, обеспечивая точные ссылки и улучшенное форматирование.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldstyleref/insertparagraphnumber/
 ---
 ## FieldStyleRef.InsertParagraphNumber property
 
-Получает или задает, следует ли вставлять номер абзаца, на который указана ссылка, точно так, как он отображается в документе.
+Возвращает или задает, следует ли вставлять номер абзаца, на который указывает ссылка, точно так же, как он отображается в документе.
 
 ```csharp
 public bool InsertParagraphNumber { get; set; }
@@ -24,15 +24,15 @@ public bool InsertParagraphNumber { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создание списка на основе шаблона списка Microsoft Word.
+// Создайте список на основе шаблона списка Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// В этом сгенерированном списке будет отображаться «1.a )».
- // Пробел перед скобкой — это символ, не являющийся разделителем, который мы можем подавить.
+// Этот сгенерированный список будет отображать «1.a )».
+ // Пробел перед скобкой — это не разделительный символ, который мы можем подавить.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Добавляем текст и применяем стили абзацев, на которые будут ссылаться поля STYLEREF.
+// Добавьте текст и примените стили абзацев, на которые будут ссылаться поля STYLEREF.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -44,12 +44,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Размещаем поле STYLEREF в заголовке и отображаем первый текст в документе в стиле «Абзац списка».
+// Размещаем поле STYLEREF в заголовке и отображаем первый текст в стиле «Абзац списка» в документе.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Поместите поле STYLEREF в нижний колонтитул и отобразите последний текст.
+// Поместите поле STYLEREF в нижний колонтитул и отобразите в нем последний текст.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";

@@ -3,7 +3,7 @@ title: FieldDdeAuto
 linktitle: FieldDdeAuto
 articleTitle: FieldDdeAuto
 second_title: Aspose.Words для .NET
-description: FieldDdeAuto строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldDdeAuto по умолчанию для бесшовной интеграции и оптимизированной производительности. Повысьте эффективность кодирования сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldddeauto/fieldddeauto/

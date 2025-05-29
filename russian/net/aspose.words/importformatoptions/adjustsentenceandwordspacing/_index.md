@@ -3,14 +3,14 @@ title: ImportFormatOptions.AdjustSentenceAndWordSpacing
 linktitle: AdjustSentenceAndWordSpacing
 articleTitle: AdjustSentenceAndWordSpacing
 second_title: Aspose.Words для .NET
-description: ImportFormatOptions AdjustSentenceAndWordSpacing свойство. Получает или задает логическое значение указывающее следует ли автоматически регулировать интервал между предложениями и словами. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство ImportFormatOptions AdjustSentenceAndWordSpacing. Легко управляйте автоматическим интервалом между предложениями и словами для улучшения ясности текста.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
 ---
 ## ImportFormatOptions.AdjustSentenceAndWordSpacing property
 
-Получает или задает логическое значение, указывающее, следует ли автоматически регулировать интервал между предложениями и словами. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее, следует ли автоматически корректировать интервалы между предложениями и словами. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool AdjustSentenceAndWordSpacing { get; set; }
@@ -18,7 +18,7 @@ public bool AdjustSentenceAndWordSpacing { get; set; }
 
 ## Примеры
 
-Показывает, как автоматически регулировать интервал между предложениями и словами.
+Показывает, как автоматически корректировать интервалы между предложениями и словами.
 
 ```csharp
 Document srcDoc = new Document();

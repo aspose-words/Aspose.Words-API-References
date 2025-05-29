@@ -3,7 +3,7 @@ title: FieldXE.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: FieldXE Text свойство. Получает или задает текст записи на С#.
+description: Управляйте своим текстовым свойством FieldXE без усилий. Легко получайте или устанавливайте текст ввода для бесперебойной обработки данных и улучшения пользовательского опыта.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldxe/text/
@@ -24,43 +24,43 @@ public string Text { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создайте поле INDEX, в котором будет отображаться запись для каждого поля XE, найденного в документе.
-// Каждая запись будет отображать значение свойства Text поля XE слева.
+// Создайте поле INDEX, которое будет отображать запись для каждого поля XE, найденного в документе.
+// Каждая запись будет отображать значение свойства Text поля XE слева
 // и страница, содержащая поле XE справа.
-// Если поля XE имеют одинаковое значение в свойстве «Текст»,
+// Если поля XE имеют одинаковое значение в свойстве "Текст",
 // поле ИНДЕКС сгруппирует их в одну запись.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Настройте поле INDEX только для отображения полей XE, находящихся в пределах границ
-// закладки с именем "MainBookmark", свойства которой "EntryType" имеют значение "A".
+// Настройте поле INDEX только для отображения полей XE, которые находятся в пределах границ
+// закладки с именем "MainBookmark", свойства "EntryType" которой имеют значение "A".
 // Для полей INDEX и XE свойство «EntryType» использует только первый символ своего строкового значения.
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// На новой странице начинаем закладку с именем, соответствующим значению
-// свойства BookmarkName поля INDEX.
+// На новой странице создайте закладку с именем, соответствующим значению
+// свойства "BookmarkName" поля INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
 
-// Поле ИНДЕКС выберет эту запись, поскольку она находится внутри закладки,
-// и его тип записи также соответствует типу записи поля ИНДЕКС.
+// Поле INDEX выберет эту запись, поскольку она находится внутри закладки,
+// и его тип записи также соответствует типу записи поля INDEX.
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 1";
 indexEntry.EntryType = "A";
 
 Assert.AreEqual(" XE  \"Index entry 1\" \\f A", indexEntry.GetFieldCode());
 
-// Вставляем поле XE, которое не появится в INDEX, поскольку типы записей не совпадают.
+// Вставьте поле XE, которое не будет отображаться в ИНДЕКСЕ, поскольку типы записей не совпадают.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 2";
 indexEntry.EntryType = "B";
 
-// Завершаем закладку и вставляем после нее поле XE.
-// Оно того же типа, что и поле ИНДЕКС, но не появится
-// так как оно находится за пределами закладки.
+// Завершить закладку и вставить поле XE после нее.
+// Он того же типа, что и поле INDEX, но не будет отображаться
+// так как он находится за пределами границ закладки.
 builder.EndBookmark("MainBookmark");
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
@@ -78,10 +78,10 @@ doc.Save(ArtifactsDir + "Field.INDEX.XE.Filtering.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создайте поле INDEX, в котором будет отображаться запись для каждого поля XE, найденного в документе.
+// Создайте поле INDEX, которое будет отображать запись для каждого поля XE, найденного в документе.
 // Каждая запись будет отображать значение свойства Text поля XE слева,
 // и номер страницы, содержащей поле XE справа.
-// Если поля XE имеют одинаковое значение в свойстве «Текст»,
+// Если поля XE имеют одинаковое значение в свойстве "Текст",
 // поле ИНДЕКС сгруппирует их в одну запись.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
@@ -90,16 +90,16 @@ index.LanguageId = "1033";
 // и поместите эту букву в верхнем регистре над каждой группой.
 index.Heading = "A";
 
-// Установите таблицу, созданную полем ИНДЕКС, на два столбца.
+// Задаем таблицу, созданную по полю INDEX, так, чтобы она охватывала 2 столбца.
 index.NumberOfColumns = "2";
 
-// Установить любые записи с начальными буквами за пределами диапазона символов «ac», которые будут опущены.
+// Устанавливает, что все записи, начинающиеся с букв, выходящих за пределы диапазона символов «ac», должны быть пропущены.
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
 
 // Следующие два поля XE будут отображаться под заголовком «A»,
-// с соответствующими стилями текста, которые также применяются к номерам страниц.
+// с соответствующими стилями текста, также примененными к номерам страниц.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";
@@ -114,7 +114,7 @@ indexEntry.IsBold = true;
 
 Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
 
-// Оба следующих двух поля XE будут находиться под заголовками «B» и «C» в таблице содержания полей INDEX.
+// Следующие два поля XE будут находиться под заголовками «B» и «C» в таблице содержания полей INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -128,8 +128,8 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
-// Эта запись не появится, поскольку она начинается с буквы «D»,
-// который находится за пределами диапазона символов "ac", который определяет свойство LetterRange поля INDEX.
+// Эта запись не будет отображаться, так как она начинается с буквы «D»,
+// который находится за пределами диапазона символов «ac», определяемого свойством LetterRange поля INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";

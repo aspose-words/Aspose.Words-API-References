@@ -3,14 +3,14 @@ title: ListLevel.DeletePictureBullet
 linktitle: DeletePictureBullet
 articleTitle: DeletePictureBullet
 second_title: Aspose.Words для .NET
-description: ListLevel DeletePictureBullet метод. Удаляет графический маркер для текущего уровня списка на С#.
+description: Легко удаляйте маркеры изображений из текущего уровня списка с помощью метода ListLevel DeletePictureBullet. Упростите форматирование документов сегодня!
 type: docs
 weight: 160
 url: /ru/net/aspose.words.lists/listlevel/deletepicturebullet/
 ---
 ## ListLevel.DeletePictureBullet method
 
-Удаляет графический маркер для текущего уровня списка.
+Удаляет маркер изображения для текущего уровня списка.
 
 ```csharp
 public void DeletePictureBullet()
@@ -22,14 +22,14 @@ public void DeletePictureBullet()
 
 ## Примеры
 
-Показывает, как установить собственный значок изображения для меток элементов списка.
+Показывает, как установить пользовательский значок изображения для меток элементов списка.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// Создаем графический маркер для текущего уровня списка и устанавливаем изображение из локальной файловой системы
+// Создаем маркер-картинку для текущего уровня списка и устанавливаем изображение из локальной файловой системы
 // как значок, который будут отображать маркеры для этого уровня списка.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");

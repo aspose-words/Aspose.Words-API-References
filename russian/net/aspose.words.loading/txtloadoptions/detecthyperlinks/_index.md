@@ -1,21 +1,49 @@
 ---
 title: TxtLoadOptions.DetectHyperlinks
-second_title: Справочник по API Aspose.Words для .NET
-description: TxtLoadOptions свойство. 
+linktitle: DetectHyperlinks
+articleTitle: DetectHyperlinks
+second_title: Aspose.Words для .NET
+description: Узнайте, как свойство DetectHyperlinks TxtLoadOptions улучшает обработку текста, обнаруживая гиперссылки и повышая точность данных. Значение по умолчанию — false.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.loading/txtloadoptions/detecthyperlinks/
 ---
 ## TxtLoadOptions.DetectHyperlinks property
 
+Указывает, следует ли обнаруживать гиперссылки в тексте. Значение по умолчанию:`ЛОЖЬ` .
+
 ```csharp
 public bool DetectHyperlinks { get; set; }
+```
+
+## Примеры
+
+Показывает, как читать и отображать гиперссылки.
+
+```csharp
+const string inputText = "Some links in TXT:\n" +
+        "https://www.aspose.com/\n" +
+        "https://docs.aspose.com/words/net/\n";
+
+using (Stream stream = new MemoryStream())
+{
+    byte[] buf = Encoding.ASCII.GetBytes(inputText);
+    stream.Write(buf, 0, buf.Length);
+
+    // Загрузить документ с гиперссылками.
+    Document doc = new Document(stream, new TxtLoadOptions() { DetectHyperlinks = true });
+
+    // Печать текста гиперссылки.
+    foreach (Field field in doc.Range.Fields)
+        Console.WriteLine(field.Result);
+
+    Assert.AreEqual(doc.Range.Fields[0].Result.Trim(), "https://www.aspose.com/");
+    Assert.AreEqual(doc.Range.Fields[1].Result.Trim(), "https://docs.aspose.com/words/net/");
+}
 ```
 
 ### Смотрите также
 
 * class [TxtLoadOptions](../)
-* пространство имен [Aspose.Words.Loading](../../txtloadoptions/)
+* пространство имен [Aspose.Words.Loading](../../../aspose.words.loading/)
 * сборка [Aspose.Words](../../../)
-
-

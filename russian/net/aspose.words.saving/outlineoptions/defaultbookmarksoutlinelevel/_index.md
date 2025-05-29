@@ -3,14 +3,14 @@ title: OutlineOptions.DefaultBookmarksOutlineLevel
 linktitle: DefaultBookmarksOutlineLevel
 articleTitle: DefaultBookmarksOutlineLevel
 second_title: Aspose.Words для .NET
-description: OutlineOptions DefaultBookmarksOutlineLevel свойство. Указывает уровень по умолчанию в структуре документа на котором отображаются закладки Word на С#.
+description: Узнайте, как свойство DefaultBookmarksOutlineLevel улучшает ваши документы Word, оптимизируя видимость закладок в структуре. Повысьте производительность сегодня!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/
 ---
 ## OutlineOptions.DefaultBookmarksOutlineLevel property
 
-Указывает уровень по умолчанию в структуре документа, на котором отображаются закладки Word.
+Указывает уровень по умолчанию в структуре документа, на котором следует отображать закладки Word.
 
 ```csharp
 public int DefaultBookmarksOutlineLevel { get; set; }
@@ -18,36 +18,36 @@ public int DefaultBookmarksOutlineLevel { get; set; }
 
 ## Примечания
 
-Уровень отдельных закладок можно указать с помощью[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) свойство.
+Индивидуальный уровень закладок можно указать с помощью[`BookmarksOutlineLevels`](../bookmarksoutlinelevels/) свойство.
 
-Укажите 0, и закладки Word не будут отображаться в структуре документа. Укажите 1, и закладки Word будут отображаться в структуре документа на уровне 1; 2 для уровня 2 и так далее.
+Укажите 0, и закладки Word не будут отображаться в структуре документа. Укажите 1, и закладки Word будут отображаться в структуре документа на уровне 1; 2 для уровня 2 и т. д.
 
 По умолчанию — 0. Допустимый диапазон — от 0 до 9.
 
 ## Примеры
 
-Показывает обработку закладок в верхних и нижних колонтитулах документа, который мы преобразуем в PDF.
+Показывает, как обрабатывать закладки в верхних/нижних колонтитулах документа, который мы преобразуем в PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Установите для свойства «PageMode» значение «PdfPageMode.UseOutlines», чтобы отобразить контурную панель навигации в выходном PDF-файле.
+// Установите свойство «PageMode» на «PdfPageMode.UseOutlines», чтобы отобразить панель навигации структуры в выходном PDF-файле.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
-// Установите для свойства «DefaultBookmarksOutlineLevel» значение «1», чтобы отобразить все
-// закладки на первом уровне структуры в выходном PDF.
+// Установите свойство "DefaultBookmarksOutlineLevel" на "1", чтобы отобразить все
+// закладки на первом уровне структуры в выходном PDF-файле.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
-// Установите для свойства «HeaderFooterBookmarksExportMode» значение «HeaderFooterBookmarksExportMode.None», чтобы
+// Установите свойство "HeaderFooterBookmarksExportMode" в значение "HeaderFooterBookmarksExportMode.None" для
 // не экспортировать закладки, находящиеся внутри верхних/нижних колонтитулов.
-// Установите для свойства "HeaderFooterBookmarksExportMode" значение "HeaderFooterBookmarksExportMode.First", чтобы
-// экспортируем только закладки в верхнем/нижнем колонтитуле первого раздела.
-// Установите для свойства «HeaderFooterBookmarksExportMode» значение «HeaderFooterBookmarksExportMode.All», чтобы
-// экспортируем закладки, которые есть во всех верхних/нижних колонтитулах.
+// Установите свойство "HeaderFooterBookmarksExportMode" в значение "HeaderFooterBookmarksExportMode.First" для
+// экспортировать закладки только в верхних/нижних колонтитулах первого раздела.
+// Установите свойство "HeaderFooterBookmarksExportMode" в значение "HeaderFooterBookmarksExportMode.All" для
+// экспортировать закладки, находящиеся во всех верхних/нижних колонтитулах.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

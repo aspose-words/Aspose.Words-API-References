@@ -3,14 +3,14 @@ title: Stroke.ForeColor
 linktitle: ForeColor
 articleTitle: ForeColor
 second_title: Aspose.Words для .NET
-description: Stroke ForeColor свойство. Получает или задает цвет переднего плана обводки на С#.
+description: Откройте для себя свойство Stroke ForeColor, позволяющее легко настраивать цвет переднего плана обводки для повышения гибкости дизайна и визуальной привлекательности.
 type: docs
-weight: 100
+weight: 130
 url: /ru/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
 
-Получает или задает цвет переднего плана обводки.
+Получает или задает цвет переднего плана штриха.
 
 ```csharp
 public Color ForeColor { get; set; }
@@ -18,11 +18,11 @@ public Color ForeColor { get; set; }
 
 ## Примечания
 
-Значение по умолчанию для[`Shape`](../../shape/) is Black.
+Значение по умолчанию для[`Shape`](../../shape/) is Black .
 
 ## Примеры
 
-Покажите, как установить форматирование маркера.
+Покажите, как настроить форматирование маркера.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Удалить созданную по умолчанию серию.
+// Удалить сгенерированную по умолчанию серию.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Устанавливаем форматирование маркера.
+// Установить форматирование маркера.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

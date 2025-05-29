@@ -3,14 +3,14 @@ title: VbaProject.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words для .NET
-description: VbaProject IsSigned свойство. ПоказываетVbaProject подписан или нет на С#.
+description: Откройте для себя свойство VbaProject IsSigned, чтобы легко проверять подписи проектов и повышать безопасность кода. Убедитесь, что ваши проекты VBA надежны!
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words.vba/vbaproject/issigned/
 ---
 ## VbaProject.IsSigned property
 
-Показывает,[`VbaProject`](../) подписан или нет.
+Показывает, является ли[`VbaProject`](../) подписан или нет.
 
 ```csharp
 public bool IsSigned { get; }
@@ -29,14 +29,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Устанавливаем новый исходный код для модуля VBA. Доступ к модулям VBA в коллекции можно получить либо по индексу, либо по имени.
+// Установить новый исходный код для модуля VBA. Вы можете получить доступ к модулям VBA в коллекции либо по индексу, либо по имени.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

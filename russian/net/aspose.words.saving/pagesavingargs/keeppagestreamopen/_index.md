@@ -3,14 +3,14 @@ title: PageSavingArgs.KeepPageStreamOpen
 linktitle: KeepPageStreamOpen
 articleTitle: KeepPageStreamOpen
 second_title: Aspose.Words для .NET
-description: PageSavingArgs KeepPageStreamOpen свойство. Указывает должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения страницы документа на С#.
+description: Узнайте, как свойство KeepPageStreamOpen в PageSavingArgs улучшает управление документами с помощью Aspose.Words, контролируя поведение потока для оптимальной производительности.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pagesavingargs/keeppagestreamopen/
 ---
 ## PageSavingArgs.KeepPageStreamOpen property
 
-Указывает, должен ли Aspose.Words сохранять поток открытым или закрывать его после сохранения страницы документа.
+Указывает, должен ли Aspose.Words держать поток открытым или закрыть его после сохранения страницы документа.
 
 ```csharp
 public bool KeepPageStreamOpen { get; set; }
@@ -18,11 +18,11 @@ public bool KeepPageStreamOpen { get; set; }
 
 ## Примечания
 
-По умолчанию`ЛОЖЬ` и Aspose.Words закроет поток, который вы предоставили в[`PageStream`](../pagestream/) свойство после записи в него страницы документа. Укажите`истинный` чтобы поток оставался открытым.
+По умолчанию`ЛОЖЬ` и Aspose.Words закроет предоставленный вами поток в[`PageStream`](../pagestream/) свойство после записи в него страницы документа. Укажите`истинный` чтобы поток оставался открытым.
 
 ## Примеры
 
-Показывает, как использовать обратный вызов для сохранения документа в формате HTML постранично.
+Показывает, как использовать обратный вызов для постраничного сохранения документа в формате HTML.
 
 ```csharp
 public void PageFileNames()
@@ -37,7 +37,7 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Создаем объект HtmlFixedSaveOptions, который мы можем передать методу Save документа.
+    // Создаем объект "HtmlFixedSaveOptions", который можно передать методу "Save" документа
     // чтобы изменить способ преобразования документа в HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
@@ -54,7 +54,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// Сохраняет все страницы в файл и каталог, указанные внутри.
+/// Сохраняет все страницы в указанном файле и каталоге.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -63,10 +63,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // Ниже приведены два способа указать, где Aspose.Words будет сохранять каждую страницу документа.
-        // 1 - Установить имя файла выходной страницы:
+        // 1 — Задайте имя файла для выходного файла страницы:
         args.PageFileName = outFileName;
 
-        // 2 — Создать собственный поток для выходного файла страницы:
+        // 2 — Создать пользовательский поток для выходного файла страницы:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

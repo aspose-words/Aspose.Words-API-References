@@ -3,7 +3,7 @@ title: ChartAxisCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: ChartAxisCollection Count свойство. Получает количество осей в этой коллекции на С#.
+description: Откройте для себя свойство ChartAxisCollection Count, чтобы легко получить доступ к общему количеству осей и улучшить визуализацию данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartaxiscollection/count/

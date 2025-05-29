@@ -3,14 +3,14 @@ title: BuildingBlock.Behavior
 linktitle: Behavior
 articleTitle: Behavior
 second_title: Aspose.Words для .NET
-description: BuildingBlock Behavior свойство. Определяет поведение которое должно применяться когда содержимое стандартного блока вставляется в основной документ на С#.
+description: Узнайте, как BuildingBlock Behavior улучшает ваш документ, определяя методы вставки контента для бесшовной интеграции и улучшения рабочего процесса.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.buildingblocks/buildingblock/behavior/
 ---
 ## BuildingBlock.Behavior property
 
-Определяет поведение, которое должно применяться, когда содержимое стандартного блока вставляется в основной документ.
+Указывает поведение, которое должно применяться при вставке содержимого строительного блока в основной документ.
 
 ```csharp
 public BuildingBlockBehavior Behavior { get; set; }
@@ -18,17 +18,17 @@ public BuildingBlockBehavior Behavior { get; set; }
 
 ## Примеры
 
-Показывает, как добавить в документ пользовательский стандартный блок.
+Показывает, как добавить в документ пользовательский строительный блок.
 
 ```csharp
 public void CreateAndInsert()
 {
-    // Глоссарий документа. В документе хранятся строительные блоки.
+    // Документ глоссария документа хранит строительные блоки.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Создайте строительный блок, назовите его, а затем добавьте в документ глоссария.
+    // Создайте строительный блок, дайте ему имя, а затем добавьте его в документ глоссария.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -36,24 +36,25 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Все новые GUID строительных блоков по умолчанию имеют одинаковое нулевое значение, и мы можем присвоить им новое уникальное значение.
+    // Все новые GUID-ы строительных блоков по умолчанию имеют одинаковое нулевое значение, и мы можем присвоить им новое уникальное значение.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-    // Следующие свойства классифицируют стандартные блоки
-    // в меню, к которому мы можем получить доступ в Microsoft Word через «Вставка» -> «Быстрые детали» -> «Организатор строительных блоков».
+    // Следующие свойства классифицируют строительные блоки
+    // в меню Microsoft Word мы можем получить доступ через «Вставка» -> «Быстрые элементы» -> «Организатор строительных блоков».
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Прежде чем мы сможем добавить этот строительный блок в наш документ, нам нужно будет добавить в него некоторое содержимое,
-    // что мы будем делать с помощью посетителя документа. Этот посетитель также установит категорию, галерею и поведение.
+    // Прежде чем мы сможем добавить этот строительный блок в наш документ, нам нужно будет придать ему некоторое содержимое,
+    // что мы сделаем с помощью посетителя документа. Этот посетитель также установит категорию, галерею и поведение.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Перейти к началу/концу BuildingBlock.
     block.Accept(visitor);
 
-    // Мы можем получить доступ к только что созданному блоку из документа глоссария.
+    // Мы можем получить доступ к блоку, который мы только что создали из документа глоссария.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
@@ -68,7 +69,7 @@ public void CreateAndInsert()
 }
 
 /// <summary>
-/// Устанавливает посещенный строительный блок для вставки в документ как быструю часть и добавляет текст к его содержимому.
+/// Настраивает посещенный строительный блок для вставки в документ в качестве быстрой части и добавляет текст к его содержимому.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -87,8 +88,8 @@ public class BuildingBlockVisitor : DocumentVisitor
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // Добавляем раздел с текстом.
-        // Вставка блока в документ добавит этот раздел с его дочерними узлами в указанном месте.
+        // Добавить раздел с текстом.
+        // Вставка блока в документ добавит этот раздел с его дочерними узлами в указанное место.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

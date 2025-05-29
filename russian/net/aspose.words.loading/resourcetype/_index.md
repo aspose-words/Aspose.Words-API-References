@@ -3,14 +3,14 @@ title: ResourceType Enum
 linktitle: ResourceType
 articleTitle: ResourceType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Loading.ResourceType перечисление. Тип загружаемого ресурса на С#.
+description: Исследуйте перечисление Aspose.Words.ResourceType для эффективного управления ресурсами. Улучшите обработку документов с помощью универсальных вариантов загрузки.
 type: docs
-weight: 3700
+weight: 4160
 url: /ru/net/aspose.words.loading/resourcetype/
 ---
 ## ResourceType enumeration
 
-Тип загружаемого ресурса.
+Тип загруженного ресурса.
 
 ```csharp
 public enum ResourceType
@@ -21,8 +21,9 @@ public enum ResourceType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Image | `0` | Изображение. |
-| CssStyleSheet | `1` | Таблица стилей CSS. |
-| Document | `2` | Документ. |
+| Font | `1` | Шрифт. |
+| CssStyleSheet | `2` | Таблица стилей CSS. |
+| Document | `3` | Документ. |
 
 ## Примеры
 
@@ -36,7 +37,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Изображения обычно вставляются с использованием URI или массива байтов.
+    // Изображения обычно вставляются с помощью URI или байтового массива.
     // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -48,8 +49,8 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
+/// Позволяет загружать изображения в документ, используя предопределенные сокращения, а не URI.
+/// Это отделит логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

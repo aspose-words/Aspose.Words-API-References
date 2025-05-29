@@ -3,7 +3,7 @@ title: FieldComments
 linktitle: FieldComments
 articleTitle: FieldComments
 second_title: Aspose.Words для .NET
-description: FieldComments строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldComments — ваше решение для бесшовной интеграции и расширенной функциональности в ваших проектах. Упростите разработку сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldcomments/fieldcomments/

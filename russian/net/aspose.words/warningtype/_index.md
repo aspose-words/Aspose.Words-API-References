@@ -3,9 +3,9 @@ title: WarningType Enum
 linktitle: WarningType
 articleTitle: WarningType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.WarningType перечисление. Указывает тип предупреждения выдаваемого Aspose.Words во время загрузки или сохранения документа на С#.
+description: Откройте для себя перечисление Aspose.Words.WarningType, которое классифицирует предупреждения во время загрузки или сохранения документа, улучшая ваш опыт управления документами.
 type: docs
-weight: 6660
+weight: 7510
 url: /ru/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -21,39 +21,39 @@ public enum WarningType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| DataLossCategory | `FF` | Некоторый текст/символ/изображение или другие данные будут отсутствовать либо в дереве документа после загрузки, , либо в созданном документе после сохранения. |
+| DataLossCategory | `FF` | Некоторые тексты/символы/изображения или другие данные будут отсутствовать либо в дереве документа после загрузки, , либо в созданном документе после сохранения. |
 | DataLoss | `1` | Общая потеря данных, без конкретного кода. |
-| MajorFormattingLossCategory | `FF00` | Полученный документ или определенное место в нем могут существенно отличаться по сравнению с исходным документом. |
-| MajorFormattingLoss | `100` | Общая основная потеря форматирования, без конкретного кода. |
-| MinorFormattingLossCategory | `FF0000` | Результирующий документ или определенное место в нем могут выглядеть несколько иначе по сравнению с исходным документом. |
-| MinorFormattingLoss | `10000` | Общая незначительная потеря форматирования, без специального кода. |
-| FontSubstitution | `20000` | Шрифт заменен. |
-| FontEmbedding | `40000` | Потеря информации о встроенном шрифте во время сохранения документа. |
-| UnexpectedContentCategory | `F000000` | Некоторое содержимое исходного документа не может быть распознано (т.е. не поддерживается), это может или не может вызвать проблемы или привести к потере данных/форматирования. |
-| UnexpectedContent | `1000000` | Общий непредвиденный контент, без конкретного кода. |
+| MajorFormattingLossCategory | `FF00` | Полученный документ или определенное место в нем могут выглядеть существенно иначе по сравнению с исходным документом. |
+| MajorFormattingLoss | `100` | Общая серьезная потеря форматирования, без конкретного кода. |
+| MinorFormattingLossCategory | `FF0000` | Полученный документ или определенное место в нем могут выглядеть несколько иначе по сравнению с исходным документом. |
+| MinorFormattingLoss | `10000` | Общая незначительная потеря форматирования, без конкретного кода. |
+| FontSubstitution | `20000` | Шрифт был заменен. |
+| FontEmbedding | `40000` | Потеря информации о встроенном шрифте при сохранении документа. |
+| UnexpectedContentCategory | `F000000` | Некоторое содержимое исходного документа не может быть распознано (т. е. не поддерживается), это может вызвать проблемы или привести к потере данных/форматирования. |
+| UnexpectedContent | `1000000` | Неожиданное общее содержимое, без конкретного кода. |
 | Hint | `10000000` | Сообщает о потенциальной проблеме или предлагает улучшение. |
 
 ## Примеры
 
-Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска наиболее близкого соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
+    // Открываем документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Назначаем обратный вызов для обработки предупреждений о замене шрифта.
+    // Назначаем обратный вызов для обработки предупреждений о замене шрифтов.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
+    // Задаем имя шрифта по умолчанию и включаем замену шрифта.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    // После замены шрифта следует использовать метрики исходного шрифта.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
@@ -72,7 +72,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

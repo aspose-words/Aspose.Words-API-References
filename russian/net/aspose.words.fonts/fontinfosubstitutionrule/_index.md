@@ -3,16 +3,16 @@ title: FontInfoSubstitutionRule Class
 linktitle: FontInfoSubstitutionRule
 articleTitle: FontInfoSubstitutionRule
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule сорт. Правило замены информации о шрифте на С#.
+description: Откройте для себя класс Aspose.Words.Fonts.FontInfoSubstitutionRule, чтобы оптимизировать управление шрифтами в ваших документах с помощью возможностей бесшовной замены.
 type: docs
-weight: 2940
+weight: 3370
 url: /ru/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
 
-Правило замены информации о шрифте.
+Правило подстановки информации о шрифте.
 
-Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) документальная статья.
 
 ```csharp
 public class FontInfoSubstitutionRule : FontSubstitutionRule
@@ -26,29 +26,29 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 ## Примечания
 
-Согласно этому правилу Aspose.Words оценивает все связанные поля в[`FontInfo`](../fontinfo/) (Panose, Sig и т. д.) for недостающий шрифт и находит наиболее близкое совпадение среди доступных источников шрифтов. Если[`FontInfo`](../fontinfo/)отсутствует для отсутствующего шрифта, то ничего не будет сделано.
+Согласно этому правилу Aspose.Words оценивает все связанные поля в[`FontInfo`](../fontinfo/) (Panose, Sig и т. д.) for отсутствующий шрифт и находит ближайшее соответствие среди доступных источников шрифтов. Если[`FontInfo`](../fontinfo/) не доступен для отсутствующего шрифта, то ничего не будет сделано.
 
 ## Примеры
 
-Показывает, как настроить свойство для поиска ближайшего соответствия отсутствующему шрифту из доступных источников шрифтов.
+Показывает, как задать свойство для поиска наиболее близкого соответствия отсутствующему шрифту из доступных источников шрифтов.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Откройте документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
+    // Открываем документ, содержащий текст, отформатированный шрифтом, которого нет ни в одном из наших источников шрифтов.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Назначаем обратный вызов для обработки предупреждений о замене шрифта.
+    // Назначаем обратный вызов для обработки предупреждений о замене шрифтов.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Установить имя шрифта по умолчанию и включить подстановку шрифтов.
+    // Задаем имя шрифта по умолчанию и включаем замену шрифта.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // После замены шрифта следует использовать оригинальные метрики шрифта.
+    // После замены шрифта следует использовать метрики исходного шрифта.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Мы получим предупреждение о замене шрифта, если сохраним документ с отсутствующим шрифтом.
@@ -67,7 +67,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

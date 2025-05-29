@@ -3,14 +3,14 @@ title: TableStyle.AllowBreakAcrossPages
 linktitle: AllowBreakAcrossPages
 articleTitle: AllowBreakAcrossPages
 second_title: Aspose.Words для .NET
-description: TableStyle AllowBreakAcrossPages свойство. Получает или задает флаг указывающий разрешено ли разделение текста в строке таблицы по разрыву страницы на С#.
+description: Откройте для себя свойство TableStyle AllowBreakAcrossPages, управляйте потоком текста в таблицах и улучшайте читаемость документа на разных страницах.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/tablestyle/allowbreakacrosspages/
 ---
 ## TableStyle.AllowBreakAcrossPages property
 
-Получает или задает флаг, указывающий, разрешено ли разделение текста в строке таблицы по разрыву страницы.
+Возвращает или задает флаг, указывающий, разрешено ли разделять текст в строке таблицы через разрыв страницы.
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }

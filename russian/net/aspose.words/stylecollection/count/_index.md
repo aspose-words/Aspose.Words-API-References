@@ -3,7 +3,7 @@ title: StyleCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: StyleCollection Count свойство. Получает количество стилей в коллекции на С#.
+description: Откройте для себя свойство StyleCollection Count, чтобы легко получить общее количество стилей в вашей коллекции для улучшенной организации и управления.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/stylecollection/count/
@@ -24,12 +24,12 @@ public int Count { get; }
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// Устанавливаем параметры по умолчанию для новых стилей, которые мы можем позже добавить в эту коллекцию.
+// Устанавливаем параметры по умолчанию для новых стилей, которые мы позже можем добавить в эту коллекцию.
 styles.DefaultFont.Name = "Courier New";
-// Если мы добавим стиль StyleType.Paragraph, коллекция применит значения
-// его свойство "DefaultParagraphFormat" к свойству стиля "ParagraphFormat".
+// Если мы добавим стиль "StyleType.Paragraph", коллекция применит значения
+// его свойство "DefaultParagraphFormat" к свойству "ParagraphFormat" стиля.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// Добавляем стиль и проверяем, что для него заданы настройки по умолчанию.
+// Добавьте стиль, а затем проверьте, что у него настройки по умолчанию.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

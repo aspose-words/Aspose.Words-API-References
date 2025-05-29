@@ -3,7 +3,7 @@ title: Table.LastRow
 linktitle: LastRow
 articleTitle: LastRow
 second_title: Aspose.Words для .NET
-description: Table LastRow свойство. Возвращает последнийRow узел в таблице на С#.
+description: Откройте для себя свойство Table LastRow, чтобы легко получить доступ к последнему узлу строки в таблице, что улучшает управление данными и эффективность.
 type: docs
 weight: 180
 url: /ru/net/aspose.words.tables/table/lastrow/

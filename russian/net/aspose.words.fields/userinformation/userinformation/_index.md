@@ -3,7 +3,7 @@ title: UserInformation
 linktitle: UserInformation
 articleTitle: UserInformation
 second_title: Aspose.Words для .NET
-description: UserInformation строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор UserInformation — ваш основной инструмент для легкого создания профилей пользователей с настройками по умолчанию для бесшовной интеграции.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/userinformation/userinformation/

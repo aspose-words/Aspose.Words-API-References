@@ -3,7 +3,7 @@ title: ChartAxisCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: ChartAxisCollection GetEnumerator метод. Возвращает объект перечислителя на С#.
+description: Откройте для себя метод GetEnumerator ChartAxisCollection, с легкостью извлекайте объекты перечислителя, чтобы улучшить визуализацию данных и оптимизировать кодирование!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartaxiscollection/getenumerator/

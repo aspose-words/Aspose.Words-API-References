@@ -3,14 +3,14 @@ title: Stroke.Weight
 linktitle: Weight
 articleTitle: Weight
 second_title: Aspose.Words для .NET
-description: Stroke Weight свойство. Определяет толщину кисти обводящей контур фигуры в точках на С#.
+description: Откройте для себя свойство Stroke Weight, чтобы настроить толщину кисти для фигур. Улучшите свои дизайны с помощью точных контурных штрихов в точках!
 type: docs
-weight: 210
+weight: 260
 url: /ru/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
 
-Определяет толщину кисти, обводящей контур фигуры в точках.
+Определяет толщину кисти, обводящей контур фигуры, в точках.
 
 ```csharp
 public double Weight { get; set; }
@@ -22,7 +22,7 @@ public double Weight { get; set; }
 
 ## Примеры
 
-Показывает, как изменить свойства обводки.
+Показывает, как изменить свойства штриха.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Базовые фигуры, такие как прямоугольник, состоят из двух видимых частей.
-// 1 - Заливка, которая применяется к области внутри контура фигуры:
+// 1 — Заливка, которая применяется к области внутри контура фигуры:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Обводка, обозначающая контур фигуры:
+// 2 - Штрих, обозначающий контур фигуры:
 // Измените различные свойства обводки этой фигуры.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

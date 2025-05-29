@@ -3,14 +3,14 @@ title: Table.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words для .NET
-description: Table StyleName свойство. Получает или задает имя стиля таблицы примененного к этой таблице на С#.
+description: Откройте для себя свойство Table StyleName, чтобы легко настроить внешний вид вашей таблицы. Улучшите свой дизайн с помощью уникальных вариантов стиля таблицы сегодня!
 type: docs
 weight: 290
 url: /ru/net/aspose.words.tables/table/stylename/
 ---
 ## Table.StyleName property
 
-Получает или задает имя стиля таблицы, примененного к этой таблице.
+Возвращает или задает имя стиля таблицы, примененного к этой таблице.
 
 ```csharp
 public string StyleName { get; set; }

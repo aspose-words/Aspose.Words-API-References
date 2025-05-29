@@ -3,14 +3,14 @@ title: ListLevel.NumberPosition
 linktitle: NumberPosition
 articleTitle: NumberPosition
 second_title: Aspose.Words для .NET
-description: ListLevel NumberPosition свойство. Возвращает или задает позицию в пунктах номера или маркера для уровня списка на С#.
+description: Откройте для себя свойство ListLevel NumberPosition, позволяющее легко настраивать положение маркеров или номеров в пунктах для улучшенного форматирования и ясности списка.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.lists/listlevel/numberposition/
 ---
 ## ListLevel.NumberPosition property
 
-Возвращает или задает позицию (в пунктах) номера или маркера для уровня списка.
+Возвращает или задает позицию (в пунктах) числа или маркера для уровня списка.
 
 ```csharp
 public double NumberPosition { get; set; }
@@ -22,16 +22,16 @@ public double NumberPosition { get; set; }
 
 ## Примеры
 
-Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
+Показывает, как применять пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Список позволяет нам организовывать и украшать наборы абзацев префиксными символами и отступами.
+// Список позволяет нам организовывать и украшать наборы абзацев с помощью префиксных символов и отступов.
  // Мы можем создавать вложенные списки, увеличивая уровень отступа.
- // Мы можем начать и закончить список, используя свойство ListFormat конструктора документов.
-// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
-// Создайте список из шаблона Microsoft Word и настройте первые два уровня его списка.
+ // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов.
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом в списке.
+// Создайте список из шаблона Microsoft Word и настройте первые два уровня списка.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -57,7 +57,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования списка.
+// Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

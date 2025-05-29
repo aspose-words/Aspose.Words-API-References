@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenateCaps
 linktitle: HyphenateCaps
 articleTitle: HyphenateCaps
 second_title: Aspose.Words для .NET
-description: HyphenationOptions HyphenateCaps свойство. Получает или задает значение определяющее будут ли слова написанные заглавными буквами переноситься через дефис. Значение по умолчанию для этого свойстваистинный  на С#.
+description: Откройте для себя свойство HyphenateCaps в HyphenationOptions. Легко управляйте переносами для слов, написанных заглавными буквами — по умолчанию установлено значение true. Оптимизируйте свой текст сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Получает или задает значение, определяющее, будут ли слова, написанные заглавными буквами, переноситься через дефис. Значение по умолчанию для этого свойства:`истинный` .
+Возвращает или задает значение, определяющее, переносятся ли слова, написанные заглавными буквами. Значение по умолчанию для этого свойства:`истинный` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }

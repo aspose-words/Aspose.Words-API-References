@@ -3,14 +3,14 @@ title: ShapeBase.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words для .NET
-description: ShapeBase Title свойство. Получает или задает заголовок подпись текущего объекта формы на С#.
+description: Управляйте свойством заголовка ShapeBase без усилий. Задайте или извлеките заголовок для любого объекта формы, чтобы улучшить ясность и привлекательность вашего дизайна.
 type: docs
-weight: 530
+weight: 570
 url: /ru/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
 
-Получает или задает заголовок (подпись) текущего объекта формы.
+Возвращает или задает заголовок (подпись) текущего объекта фигуры.
 
 ```csharp
 public string Title { get; set; }
@@ -30,7 +30,7 @@ public string Title { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создайте фигуру, дайте ей название и затем добавьте ее в документ.
+// Создайте фигуру, дайте ей название, а затем добавьте ее в документ.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.Width = 200;
 shape.Height = 200;
@@ -38,8 +38,8 @@ shape.Title = "My cube";
 
 builder.InsertNode(shape);
 
-// Когда мы сохраняем документ с фигурой, имеющей заголовок,
-// Aspose.Words сохранит этот заголовок в замещающем тексте фигуры.
+// Когда мы сохраняем документ с формой, имеющей заголовок,
+// Aspose.Words сохранит этот заголовок в альтернативном тексте фигуры.
 doc.Save(ArtifactsDir + "Shape.Title.docx");
 
 doc = new Document(ArtifactsDir + "Shape.Title.docx");

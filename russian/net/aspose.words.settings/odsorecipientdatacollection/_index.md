@@ -3,16 +3,16 @@ title: OdsoRecipientDataCollection Class
 linktitle: OdsoRecipientDataCollection
 articleTitle: OdsoRecipientDataCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection сорт. Типизированная коллекцияOdsoRecipientData на С#.
+description: Откройте для себя Aspose.Words.Settings.OdsoRecipientDataCollection — мощную типизированную коллекцию для эффективного управления OdsoRecipientData в ваших приложениях.
 type: docs
-weight: 5940
+weight: 6770
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
 Типизированная коллекция[`OdsoRecipientData`](../odsorecipientdata/)
 
-Чтобы узнать больше, посетите[Слияние почты и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) статья документации.
+Чтобы узнать больше, посетите[Слияние писем и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) документальная статья.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -37,12 +37,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | Добавляет объект в конец этой коллекции. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Удаляет все элементы из этой коллекции. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | Удаляет элемент по указанному индексу. |
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

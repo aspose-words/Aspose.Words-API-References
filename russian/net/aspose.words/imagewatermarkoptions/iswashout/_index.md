@@ -3,14 +3,14 @@ title: ImageWatermarkOptions.IsWashout
 linktitle: IsWashout
 articleTitle: IsWashout
 second_title: Aspose.Words для .NET
-description: ImageWatermarkOptions IsWashout свойство. Получает или задает логическое значение отвечающее за эффект размытия водяного знака. Значение по умолчаниюистинный  на С#.
+description: Откройте для себя свойство IsWashout в ImageWatermarkOptions. Управляйте эффектом размытия вашего водяного знака без усилий с помощью этой простой логической настройки.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-Получает или задает логическое значение, отвечающее за эффект размытия водяного знака. Значение по умолчанию:`истинный` .
+Возвращает или задает логическое значение, которое отвечает за эффект размытия водяного знака. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -29,9 +29,14 @@ Document doc = new Document();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // У нас есть разные варианты вставки изображения:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

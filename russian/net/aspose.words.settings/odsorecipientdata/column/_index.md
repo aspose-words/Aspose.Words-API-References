@@ -3,14 +3,14 @@ title: OdsoRecipientData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words для .NET
-description: OdsoRecipientData Column свойство. Указывает столбец в источнике данных который содержит уникальные данные для текущей записи. Значение по умолчанию 0 на С#.
+description: Откройте для себя свойство OdsoRecipientData Column, легко идентифицируйте уникальные столбцы данных для записей, улучшая управление данными. Значение по умолчанию — 0.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odsorecipientdata/column/
 ---
 ## OdsoRecipientData.Column property
 
-Указывает столбец в источнике данных, который содержит уникальные данные для текущей записи. Значение по умолчанию: 0.
+Указывает столбец в источнике данных, содержащий уникальные данные для текущей записи. Значение по умолчанию — 0.
 
 ```csharp
 public int Column { get; set; }
@@ -18,7 +18,7 @@ public int Column { get; set; }
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

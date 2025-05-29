@@ -3,7 +3,7 @@ title: FieldNumWords
 linktitle: FieldNumWords
 articleTitle: FieldNumWords
 second_title: Aspose.Words для .NET
-description: FieldNumWords строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldNumWords, необходимый инструмент для эффективного подсчета слов в ваших проектах. Упростите кодирование с помощью нашей настройки по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldnumwords/fieldnumwords/

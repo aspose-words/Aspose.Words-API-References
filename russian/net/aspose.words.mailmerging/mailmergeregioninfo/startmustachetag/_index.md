@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.StartMustacheTag
 linktitle: StartMustacheTag
 articleTitle: StartMustacheTag
 second_title: Aspose.Words для .NET
-description: MailMergeRegionInfo StartMustacheTag свойство. Возвращает начальный тег усы для региона на С#.
+description: Откройте для себя свойство MailMergeRegionInfo StartMustacheTag, которое обеспечивает важный начальный тег для бесшовных областей документа в ваших проектах.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
@@ -18,7 +18,7 @@ public MustacheTag StartMustacheTag { get; }
 
 ## Примеры
 
-Показывает, как работать с тегами усов.
+Показывает, как работать с бирками-усами.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

@@ -3,14 +3,14 @@ title: Document.AutomaticallyUpdateStyles
 linktitle: AutomaticallyUpdateStyles
 articleTitle: AutomaticallyUpdateStyles
 second_title: Aspose.Words для .NET
-description: Document AutomaticallyUpdateStyles свойство. Получает или задает флаг указывающий обновляются ли стили в документе в соответствии со стилями в прикрепленном шаблоне каждый раз когда документ открывается в MS Word на С#.
+description: Узнайте, как свойство AutomaticallyUpdateStyles в MS Word обеспечивает синхронизацию стилей документа с шаблоном каждый раз при его открытии, повышая согласованность.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/document/automaticallyupdatestyles/
 ---
 ## Document.AutomaticallyUpdateStyles property
 
-Получает или задает флаг, указывающий, обновляются ли стили в документе в соответствии со стилями в прикрепленном шаблоне каждый раз, когда документ открывается в MS Word.
+Возвращает или задает флаг, указывающий, обновляются ли стили в документе в соответствии со стилями в прикрепленном шаблоне каждый раз при открытии документа в MS Word.
 
 ```csharp
 public bool AutomaticallyUpdateStyles { get; set; }
@@ -24,10 +24,10 @@ public bool AutomaticallyUpdateStyles { get; set; }
 Document doc = new Document();
 
 // Документы Microsoft Word по умолчанию поставляются с прикрепленным шаблоном под названием «Normal.dotm».
-// Для пустых документов Aspose.Words не существует шаблона по умолчанию.
+// Для пустых документов Aspose.Words шаблона по умолчанию нет.
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Прикрепляем шаблон, затем устанавливаем флаг для применения изменений стиля
+// Прикрепите шаблон, затем установите флаг для применения изменений стиля
 // внутри шаблона для стилей в нашем документе.
 doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 doc.AutomaticallyUpdateStyles = true;
@@ -40,14 +40,14 @@ doc.Save(ArtifactsDir + "Document.AutomaticallyUpdateStyles.docx");
 ```csharp
 Document doc = new Document();
 
-// Включаем автоматическое обновление стилей, но не прикрепляем документ-шаблон.
+// Включить автоматическое обновление стилей, но не прикреплять шаблон документа.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Поскольку документа-шаблона нет, в документе негде было отслеживать изменения стиля.
+// Поскольку шаблон документа отсутствует, документу негде отслеживать изменения стиля.
 // Используйте объект SaveOptions для автоматической установки шаблона
-// если в документе, который мы сохраняем, его нет.
+// если документ, который мы сохраняем, не имеет такового.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

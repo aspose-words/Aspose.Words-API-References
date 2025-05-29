@@ -3,7 +3,7 @@ title: FieldAdvance
 linktitle: FieldAdvance
 articleTitle: FieldAdvance
 second_title: Aspose.Words для .NET
-description: FieldAdvance строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldAdvance — ваше решение для бесперебойного управления проектами и эффективных строительных рабочих процессов. Повысьте производительность сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldadvance/fieldadvance/

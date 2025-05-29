@@ -3,7 +3,7 @@ title: StyleCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: StyleCollection Item свойство. Получает стиль по имени или псевдониму на С#.
+description: Откройте для себя мощное свойство StyleCollection Item, позволяющее легко извлекать стили по имени или псевдониму, что значительно упростит процесс проектирования!
 type: docs
 weight: 50
 url: /ru/net/aspose.words/stylecollection/item/
@@ -18,29 +18,29 @@ public Style this[string name] { get; }
 
 ## Примечания
 
-С учетом регистра, возвращает`нулевой` если стиль с данным именем не найден.
+Чувствителен к регистру, возвращает`нулевой` если стиль с указанным именем не найден.
 
-Если это английское название встроенного стиля, которого еще не существует, он автоматически создается.
+Если это английское название встроенного стиля, который еще не существует, он автоматически создается.
 
 ## Примеры
 
-Показывает, когда следует пересчитать макет страницы документа.
+Показывает, когда следует пересчитывать макет страницы документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Сохранение документа в формате PDF, в изображение или первая печать автоматически
+// Сохранение документа в формате PDF, в виде изображения или печать в первый раз автоматически
 // кэшируем макет документа на его страницах.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
-// Изменить каким-либо образом документ.
+// Измените документ каким-либо образом.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
 doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
- // В текущей версии Aspose.Words изменение документа не приводит к автоматической перестройке
+// В текущей версии Aspose.Words изменение документа не приводит к его автоматической перестройке
 // кэшированный макет страницы. Если мы хотим кэшированный макет
-// чтобы оставаться в курсе событий, нам нужно будет обновлять его вручную.
+// чтобы оставаться в курсе событий, нам придется обновлять его вручную.
 doc.UpdatePageLayout();
 
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
@@ -57,7 +57,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 ## StyleCollection indexer (2 of 3)
 
-Получает встроенный стиль по независимому от локали идентификатору.
+Получает встроенный стиль по его независимому от локали идентификатору.
 
 ```csharp
 public Style this[StyleIdentifier sti] { get; }
@@ -65,11 +65,11 @@ public Style this[StyleIdentifier sti] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| sti | А[`StyleIdentifier`](../../styleidentifier/) значение, указывающее встроенный стиль для получения. |
+| sti | А[`StyleIdentifier`](../../styleidentifier/) значение, указывающее встроенный стиль для извлечения. |
 
 ## Примечания
 
-При обращении к стилю, которого еще нет, автоматически создает его.
+При обращении к стилю, который еще не существует, автоматически создает его.
 
 ## Примеры
 
@@ -79,12 +79,12 @@ public Style this[StyleIdentifier sti] { get; }
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// Устанавливаем параметры по умолчанию для новых стилей, которые мы можем позже добавить в эту коллекцию.
+// Устанавливаем параметры по умолчанию для новых стилей, которые мы позже можем добавить в эту коллекцию.
 styles.DefaultFont.Name = "Courier New";
-// Если мы добавим стиль StyleType.Paragraph, коллекция применит значения
-// его свойство "DefaultParagraphFormat" к свойству стиля "ParagraphFormat".
+// Если мы добавим стиль "StyleType.Paragraph", коллекция применит значения
+// его свойство "DefaultParagraphFormat" к свойству "ParagraphFormat" стиля.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// Добавляем стиль и проверяем, что для него заданы настройки по умолчанию.
+// Добавьте стиль, а затем проверьте, что у него настройки по умолчанию.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);
@@ -117,12 +117,12 @@ public Style this[int index] { get; }
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// Устанавливаем параметры по умолчанию для новых стилей, которые мы можем позже добавить в эту коллекцию.
+// Устанавливаем параметры по умолчанию для новых стилей, которые мы позже можем добавить в эту коллекцию.
 styles.DefaultFont.Name = "Courier New";
-// Если мы добавим стиль StyleType.Paragraph, коллекция применит значения
-// его свойство "DefaultParagraphFormat" к свойству стиля "ParagraphFormat".
+// Если мы добавим стиль "StyleType.Paragraph", коллекция применит значения
+// его свойство "DefaultParagraphFormat" к свойству "ParagraphFormat" стиля.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// Добавляем стиль и проверяем, что для него заданы настройки по умолчанию.
+// Добавьте стиль, а затем проверьте, что у него настройки по умолчанию.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

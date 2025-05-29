@@ -3,9 +3,9 @@ title: ShapeBase.WrapSide
 linktitle: WrapSide
 articleTitle: WrapSide
 second_title: Aspose.Words для .NET
-description: ShapeBase WrapSide свойство. Указывает как текст обтекает фигуру на С#.
+description: Откройте для себя свойство ShapeBase WrapSide, позволяющее управлять обтеканием текстом фигур, улучшая визуальную привлекательность и читабельность вашего дизайна.
 type: docs
-weight: 590
+weight: 630
 url: /ru/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
@@ -20,7 +20,7 @@ public WrapSide WrapSide { get; set; }
 
 Значение по умолчанию:Both.
 
-Имеет эффект только для фигур верхнего уровня.
+Действует только для фигур верхнего уровня.
 
 ## Примеры
 

@@ -3,7 +3,7 @@ title: FieldUnknown
 linktitle: FieldUnknown
 articleTitle: FieldUnknown
 second_title: Aspose.Words для .NET
-description: FieldUnknown строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldUnknown — мощный конструктор по умолчанию для бесшовной интеграции и повышения производительности ваших проектов по кодированию.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldunknown/fieldunknown/

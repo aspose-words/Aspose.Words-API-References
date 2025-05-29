@@ -3,7 +3,7 @@ title: FieldIf.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words для .NET
-description: FieldIf ComparisonOperator свойство. Получает или задает оператор сравнения на С#.
+description: Откройте для себя свойство FieldIf ComparisonOperator, легко управляйте и настраивайте операторы сравнения для улучшенной обработки и анализа данных.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldif/comparisonoperator/
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле ЕСЛИ.
+Показывает, как вставить поле IF.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Поле ЕСЛИ будет отображать строку из любого свойства "TrueText",
-// или его свойство «FalseText», в зависимости от истинности построенного нами утверждения.
+// Поле IF отобразит строку либо из своего свойства "TrueText",
+// или его свойство "FalseText", в зависимости от истинности построенного нами утверждения.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();

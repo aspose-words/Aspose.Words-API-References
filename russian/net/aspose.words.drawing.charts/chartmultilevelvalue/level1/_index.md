@@ -3,7 +3,7 @@ title: ChartMultilevelValue.Level1
 linktitle: Level1
 articleTitle: Level1
 second_title: Aspose.Words для .NET
-description: ChartMultilevelValue Level1 свойство. Получает имя верхнего уровня диаграммы к которому относится это значение на С#.
+description: Откройте для себя ChartMultilevelValue Level1. Легко определите имя диаграммы верхнего уровня для повышения ясности данных и понимания. Раскройте потенциал своих данных!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartmultilevelvalue/level1/

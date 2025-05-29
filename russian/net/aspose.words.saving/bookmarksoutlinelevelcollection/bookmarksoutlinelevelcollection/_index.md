@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор BookmarksOutlineLevelCollection — ваш ключ к созданию организованных закладок без усилий. Улучшите свой код с помощью этого решения по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/bookmarksoutlinelevelcollection/

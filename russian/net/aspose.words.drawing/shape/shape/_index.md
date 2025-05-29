@@ -3,7 +3,7 @@ title: Shape
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words для .NET
-description: Shape строитель. Создает новый объект формы на С#.
+description: Создавайте уникальные объекты формы без усилий с помощью нашего конструктора форм. Создавайте собственные формы и улучшайте свои проекты с легкостью и точностью!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/shape/shape/
@@ -19,11 +19,11 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | doc | DocumentBase | Документ владельца. |
-| shapeType | ShapeType | Тип создаваемой фигуры. |
+| shapeType | ShapeType | Тип создаваемой формы. |
 
 ## Примечания
 
-Вам следует указать желаемые свойства фигуры после ее создания.
+После создания фигуры необходимо указать ее желаемые свойства.
 
 ## Примеры
 
@@ -32,8 +32,8 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 ```csharp
 Document doc = new Document();
 
-// Открытый конструктор класса «Shape» создаст фигуру с типом разметки «ShapeMarkupLanguage.Vml».
-// Если вам нужно создать фигуру непримитивного типа, например SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// Открытый конструктор класса "Shape" создаст фигуру с типом разметки "ShapeMarkupLanguage.Vml".
+// Если вам нужно создать фигуру не примитивного типа, например SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded или DiagonalCornersRounded,
 // пожалуйста, используйте DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
@@ -51,7 +51,7 @@ doc.Save(ArtifactsDir + "Image.FromFile.docx");
 ```csharp
 Document doc = new Document();
 
-// Создаём плавающее текстовое поле.
+// Создаем плавающее текстовое поле.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
@@ -61,7 +61,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Добавляем абзац в текстовое поле и добавляем текст, который будет отображаться в текстовом поле.
+// Добавьте абзац в текстовое поле и добавьте фрагмент текста, который будет отображаться в текстовом поле.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

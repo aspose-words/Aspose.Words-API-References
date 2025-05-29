@@ -3,14 +3,14 @@ title: Font.ThemeFontAscii
 linktitle: ThemeFontAscii
 articleTitle: ThemeFontAscii
 second_title: Aspose.Words для .NET
-description: Font ThemeFontAscii свойство. Получает или задает шрифт темы используемый для латинского текста символы с кодами символов от 0 нуля до 127 в применяемой схеме шрифтов связанной с этимFont объект на С#.
+description: Откройте для себя свойство Font ThemeFontAscii, позволяющее легко настраивать шрифты темы для латинского текста (коды 0–127) в вашем дизайне, повышая его визуальную привлекательность.
 type: docs
-weight: 480
+weight: 490
 url: /ru/net/aspose.words/font/themefontascii/
 ---
 ## Font.ThemeFontAscii property
 
-Получает или задает шрифт темы, используемый для латинского текста (символы с кодами символов от 0 (нуля) до 127) в применяемой схеме шрифтов, связанной с этим[`Font`](../) объект.
+Возвращает или задает шрифт темы, используемый для латинского текста (символы с кодами символов от 0 (нуля) до 127) в примененной схеме шрифтов, которая связана с этим[`Font`](../) объект.
 
 ```csharp
 public ThemeFont ThemeFontAscii { get; set; }
@@ -53,8 +53,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов сбросить шрифт и цвет.
-// 1 — установив ThemeFont.None/ThemeColor.None:
+// Существует несколько способов сбросить шрифт и цвет.
+// 1 - Устанавливая ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
+// 2 - Задавая не относящиеся к теме названия шрифтов/цветов:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

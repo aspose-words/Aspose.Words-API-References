@@ -3,7 +3,7 @@ title: FieldTA
 linktitle: FieldTA
 articleTitle: FieldTA
 second_title: Aspose.Words для .NET
-description: FieldTA строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя мощный конструктор FieldTA для бесшовной интеграции. Создавайте индивидуальные решения без усилий и повышайте эффективность своего проекта уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldta/fieldta/

@@ -3,16 +3,16 @@ title: HeaderFooterCollection Class
 linktitle: HeaderFooterCollection
 articleTitle: HeaderFooterCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.HeaderFooterCollection сорт. Обеспечивает типизированный доступ кHeaderFooter узлы аSection  на С#.
+description: Откройте для себя Aspose.Words.HeaderFooterCollection для простого типизированного доступа к узлам Section HeaderFooter, оптимизируя управление документами и улучшая рабочий процесс.
 type: docs
-weight: 3110
+weight: 3540
 url: /ru/net/aspose.words/headerfootercollection/
 ---
 ## HeaderFooterCollection class
 
-Обеспечивает типизированный доступ к[`HeaderFooter`](../headerfooter/) узлы а[`Section`](../section/) .
+Предоставляет типизированный доступ к[`HeaderFooter`](../headerfooter/) узлы[`Section`](../section/) .
 
-Чтобы узнать больше, посетите[Работа с верхними и нижними колонтитулами](https://docs.aspose.com/words/net/working-with-headers-and-footers/) статья документации.
+Чтобы узнать больше, посетите[Работа с верхними и нижними колонтитулами](https://docs.aspose.com/words/net/working-with-headers-and-footers/) документальная статья.
 
 ```csharp
 public class HeaderFooterCollection : NodeCollection
@@ -23,7 +23,7 @@ public class HeaderFooterCollection : NodeCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Получает количество узлов в коллекции. |
-| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Получает[`HeaderFooter`](../headerfooter/) по данному индексу. (3 indexers) |
+| [Item](../../aspose.words/headerfootercollection/item/) { get; } | Извлекает[`HeaderFooter`](../headerfooter/) по данному индексу. (3 indexers) |
 
 ## Методы
 
@@ -32,22 +32,22 @@ public class HeaderFooterCollection : NodeCollection
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Определяет, находится ли узел в коллекции. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию в стиле «foreach» по коллекции узлов. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Возвращает индекс указанного узла, отсчитываемый от нуля. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Вставляет узел в коллекцию по указанному индексу. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | Связывает или отключает все верхние и нижние колонтитулы с соответствующими верхними и нижними колонтитулами в предыдущем разделе. |
-| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Связывает или отменяет связь указанного верхнего или нижнего колонтитула с соответствующим заголовком или нижним колонтитулом в предыдущем разделе. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious_1)(*bool*) | Связывает или отменяет связь всех верхних и нижних колонтитулов с соответствующими верхними и нижними колонтитулами в предыдущем разделе. |
+| [LinkToPrevious](../../aspose.words/headerfootercollection/linktoprevious/#linktoprevious)(*[HeaderFooterType](../headerfootertype/), bool*) | Связывает или отменяет связь указанного верхнего или нижнего колонтитула с соответствующим верхним или нижним колонтитулом в предыдущем разделе. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
-| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Копирует все`ЗаголовокФоортер` s из коллекции в новый массив`ЗаголовокФоортер` s. (2 methods) |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел с указанным индексом из коллекции и из документа. |
+| [ToArray](../../aspose.words/headerfootercollection/toarray/#toarray)() | Копирует все`ЗаголовокНижний колонтитул` s из коллекции в новый массив`ЗаголовокНижний колонтитул` с. (2 methods) |
 
 ## Примечания
 
-Максимум может быть один[`HeaderFooter`](../headerfooter/)
+Может быть максимум один[`HeaderFooter`](../headerfooter/)
 
 каждого[`HeaderFooterType`](../headerfootertype/) per [`Section`](../section/) .
 
-[`HeaderFooter`](../headerfooter/) объекты могут встречаться в коллекции в любом порядке.
+[`HeaderFooter`](../headerfooter/) Объекты могут располагаться в коллекции в любом порядке.
 
 ## Примеры
 
@@ -56,19 +56,19 @@ public class HeaderFooterCollection : NodeCollection
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Перебираем каждый раздел и удаляем все виды нижних колонтитулов.
+// Проходим по каждому разделу и удаляем нижние колонтитулы всех видов.
 foreach (Section section in doc.OfType<Section>())
 {
-    // Существует три типа нижнего колонтитула и заголовка.
+    // Существует три типа нижних и верхних колонтитулов.
     // 1 — «Первый» верхний/нижний колонтитул, который отображается только на первой странице раздела.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
-    // 2 — «Основной» верхний/нижний колонтитул, который появляется на нечетных страницах.
+    // 2 — «Основной» верхний/нижний колонтитул, который отображается на нечетных страницах.
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 — «Четный» верхний/нижний колонтитул, который появляется на четных страницах.
+     // 3 - «Четный» верхний/нижний колонтитул, который отображается на четных страницах.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 
@@ -78,13 +78,13 @@ foreach (Section section in doc.OfType<Section>())
 doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
 ```
 
-Показывает, как создать верхний и нижний колонтитулы.
+Показывает, как создать верхний и нижний колонтитул.
 
 ```csharp
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится вверху каждой страницы этого раздела, над основным текстом.
+// будет отображаться в верхней части каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -94,7 +94,7 @@ Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
 // Создаем нижний колонтитул и добавляем к нему абзац. Текст в этом абзаце
-// появится внизу каждой страницы этого раздела, под основным текстом.
+// будет отображаться внизу каждой страницы этого раздела, под основным текстом.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

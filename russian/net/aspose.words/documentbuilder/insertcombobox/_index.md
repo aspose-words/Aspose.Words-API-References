@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertComboBox
 linktitle: InsertComboBox
 articleTitle: InsertComboBox
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertComboBox метод. Вставляет поле формы со списком в текущую позицию на С#.
+description: Улучшите свои документы с помощью метода DocumentBuilder InsertComboBox. Легко добавляйте интерактивные поля формы со списком для улучшения пользовательского опыта.
 type: docs
 weight: 300
 url: /ru/net/aspose.words/documentbuilder/insertcombobox/
@@ -18,8 +18,8 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя поля формы. Может быть пустой строкой. Значение длиной более 20 символов будет обрезано. |
-| items | String[] | Элементы ComboBox. Максимум — 25 предметов. |
+| name | String | Имя поля формы. Может быть пустой строкой. Значение длиннее 20 символов будет усечено. |
+| items | String[] | Элементы ComboBox. Максимум 25 элементов. |
 | selectedIndex | Int32 | Индекс выбранного элемента в ComboBox. |
 
 ### Возвращаемое значение
@@ -28,7 +28,7 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 
 ## Примечания
 
-Если вы укажете имя для поля формы, то автоматически создастся закладка с таким же именем.
+Если указать имя поля формы, то автоматически будет создана закладка с таким же именем.
 
 ## Примеры
 
@@ -38,7 +38,7 @@ public FormField InsertComboBox(string name, string[] items, int selectedIndex)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем форму, предлагающую пользователю выбрать один из пунктов меню.
+// Вставьте форму, предлагающую пользователю выбрать один из пунктов меню.
 builder.Write("Pick a fruit: ");
 string[] items = { "Apple", "Banana", "Cherry" };
 builder.InsertComboBox("DropDown", items, 0);
@@ -51,8 +51,8 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertComboBox.docx");
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Поля формы — это объекты в документе, с которыми пользователь может взаимодействовать, получая запрос на ввод значений.
-// Мы можем создать их с помощью построителя документов, и ниже приведены два способа сделать это.
+// Поля формы — это объекты в документе, с которыми пользователь может взаимодействовать, получая запросы на ввод значений.
+// Мы можем создать их с помощью конструктора документов, и ниже приведены два способа сделать это.
 // 1 - Основной ввод текста:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);

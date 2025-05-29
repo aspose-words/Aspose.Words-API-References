@@ -3,7 +3,7 @@ title: UserInformation.Address
 linktitle: Address
 articleTitle: Address
 second_title: Aspose.Words для .NET
-description: UserInformation Address свойство. Получает или задает почтовый адрес пользователя на С#.
+description: Управляйте почтовыми адресами пользователей без усилий с помощью свойства UserInformation Address. Оптимизируйте обработку данных для улучшения пользовательского опыта.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/userinformation/address/
@@ -18,7 +18,7 @@ public string Address { get; set; }
 
 ## Примеры
 
-Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
+Показывает, как задать данные пользователя и отобразить их с помощью полей.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
+// Вставьте поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
  // соответствующие свойства объекта UserInformation, который мы создали выше.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);

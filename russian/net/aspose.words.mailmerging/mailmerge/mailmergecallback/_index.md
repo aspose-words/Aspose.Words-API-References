@@ -3,7 +3,7 @@ title: MailMerge.MailMergeCallback
 linktitle: MailMergeCallback
 articleTitle: MailMergeCallback
 second_title: Aspose.Words для .NET
-description: MailMerge MailMergeCallback свойство. Позволяет обрабатывать определенные события во время слияния почты на С#.
+description: Оптимизируйте слияние почты с помощью свойства MailMergeCallback. Легко управляйте событиями для бесперебойной автоматизации документов и повышения эффективности.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -26,7 +26,7 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Вставляем два тега слияния почты, ссылающиеся на два столбца в источнике данных.
+    // Вставьте два тега слияния почты, ссылающихся на два столбца в источнике данных.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
@@ -36,10 +36,10 @@ public void Callback()
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // Настройте наше слияние почты на использование альтернативных тегов слияния почты.
+    // Настройте наше слияние почты для использования альтернативных тегов слияния почты.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // Затем убедитесь, что слияние почты преобразует теги, такие как наш тег «Фамилия»,
+    // Затем убедитесь, что слияние преобразует теги, такие как наш тег «LastName»,
     // в поля MERGEFIELD в документах слияния.
     doc.MailMerge.PreserveUnusedTags = false;
 
@@ -51,7 +51,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Подсчитывает количество раз, когда слияние почты заменяет теги слияния почты, которые не удалось заполнить данными с помощью MERGEFIELD.
+/// Подсчитывает количество раз, когда слияние почты заменяет теги слияния почты, которые оно не смогло заполнить данными с помощью MERGEFIELD.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

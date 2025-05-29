@@ -3,14 +3,14 @@ title: SaveOptions.UseHighQualityRendering
 linktitle: UseHighQualityRendering
 articleTitle: UseHighQualityRendering
 second_title: Aspose.Words для .NET
-description: SaveOptions UseHighQualityRendering свойство. Получает или задает значение определяющее следует ли использовать алгоритмы высококачественного т. е. медленного рендеринга на С#.
+description: Оптимизируйте SaveOptions с помощью свойства UseHighQualityRendering для превосходного вывода. Управляйте скоростью и качеством рендеринга для идеальных результатов.
 type: docs
-weight: 200
+weight: 210
 url: /ru/net/aspose.words.saving/saveoptions/usehighqualityrendering/
 ---
 ## SaveOptions.UseHighQualityRendering property
 
-Получает или задает значение, определяющее, следует ли использовать алгоритмы высококачественного (т. е. медленного) рендеринга.
+Возвращает или задает значение, определяющее, следует ли использовать высококачественные (т. е. медленные) алгоритмы рендеринга.
 
 ```csharp
 public bool UseHighQualityRendering { get; set; }
@@ -20,7 +20,7 @@ public bool UseHighQualityRendering { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ` .
 
-Это свойство используется при экспорте документа в форматы изображений: .Tiff ,Png ,Bmp , Jpeg ,Emf.
+Это свойство используется при экспорте документа в форматы изображений: Tiff ,Png ,Bmp , Jpeg ,Emf.
 
 ## Примеры
 

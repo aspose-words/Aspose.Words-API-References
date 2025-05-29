@@ -3,9 +3,9 @@ title: Forms2OleControlType Enum
 linktitle: Forms2OleControlType
 articleTitle: Forms2OleControlType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlType перечисление. Перечисляет типы элементов управления Forms 2.0 на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.Ole.Forms2OleControlType, включающее ряд типов элементов управления Forms 2.0 для улучшенной автоматизации документов.
 type: docs
-weight: 1130
+weight: 1480
 url: /ru/net/aspose.words.drawing.ole/forms2olecontroltype/
 ---
 ## Forms2OleControlType enumeration
@@ -20,21 +20,36 @@ public enum Forms2OleControlType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| OptionButton | `0` |  |
-| Label | `1` |  |
-| Textbox | `2` |  |
-| CheckBox | `3` |  |
-| ToggleButton | `4` |  |
-| SpinButton | `5` |  |
-| ComboBox | `6` |  |
-| Frame | `7` |  |
-| MultiPage | `8` |  |
-| TabStrip | `9` |  |
-| CommandButton | `10` |  |
-| Image | `11` |  |
-| ScrollBar | `12` |  |
-| Form | `13` |  |
-| ListBox | `14` |  |
+| OptionButton | `0` | Элемент управления радиокнопкой. |
+| Label | `1` | Элемент управления, отображающий текст. |
+| Textbox | `2` | Элемент управления, позволяющий пользователю вводить текст. |
+| CheckBox | `3` | Элемент управления, позволяющий пользователю выбрать или отменить выбор параметра. |
+| ToggleButton | `4` | Элемент управления, позволяющий пользователю переключаться между двумя состояниями. |
+| SpinButton | `5` | Элемент управления, позволяющий пользователю увеличивать или уменьшать значение. |
+| ComboBox | `6` | Элемент управления, позволяющий пользователю выбрать элемент из списка. |
+| Frame | `7` | Элемент управления, который группирует другие элементы управления. |
+| MultiPage | `8` | Элемент управления, отображающий несколько страниц контента. |
+| TabStrip | `9` | Элемент управления, позволяющий пользователю переключаться между несколькими страницами контента. |
+| CommandButton | `10` | Кнопка, при нажатии на которую выполняется действие. |
+| Image | `11` | Элемент управления, отображающий изображение. |
+| ScrollBar | `12` | Элемент управления, позволяющий пользователю прокручивать содержимое. |
+| Form | `13` | Контейнер для других элементов управления. |
+| ListBox | `14` | Элемент управления, отображающий список элементов. |
+
+## Примеры
+
+Показывает, как изменить состояние элемента управления CheckBox.
+
+```csharp
+Document doc = new Document(MyDir + "ActiveX controls.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+CheckBoxControl checkBoxControl = (CheckBoxControl)shape.OleFormat.OleControl;
+checkBoxControl.Checked = true;
+
+Assert.AreEqual(true, checkBoxControl.Checked);
+Assert.AreEqual(Forms2OleControlType.CheckBox, checkBoxControl.Type);
+```
 
 ### Смотрите также
 

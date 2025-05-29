@@ -3,7 +3,7 @@ title: UserInformation.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words для .NET
-description: UserInformation Name свойство. Получает или задает имя пользователя на С#.
+description: Легко управляйте профилями пользователей с помощью свойства UserInformation Name. Легко извлекайте или обновляйте имена пользователей для улучшенной персонализации.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/userinformation/name/
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ## Примеры
 
-Показывает, как задать сведения о пользователе и отобразить их с помощью полей.
+Показывает, как задать данные пользователя и отобразить их с помощью полей.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Вставляем поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
+// Вставьте поля USERNAME, USERINITIALS и USERADDRESS, которые отображают значения
  // соответствующие свойства объекта UserInformation, который мы создали выше.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);

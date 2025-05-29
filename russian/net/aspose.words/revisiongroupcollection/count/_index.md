@@ -3,14 +3,14 @@ title: RevisionGroupCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: RevisionGroupCollection Count свойство. Возвращает количество групп редакций в коллекции на С#.
+description: Откройте для себя свойство Count RevisionGroupCollection. Легко извлекайте общее количество групп ревизий, повышая эффективность управления данными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/revisiongroupcollection/count/
 ---
 ## RevisionGroupCollection.Count property
 
-Возвращает количество групп редакций в коллекции.
+Возвращает количество групп ревизий в коллекции.
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Примеры
 
-Показывает, как распечатать информацию о группе редакций в документе.
+Показывает, как распечатать информацию о группе ревизий в документе.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

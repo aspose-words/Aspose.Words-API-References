@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapDataCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
+description: Откройте для себя свойство OdsoFieldMapDataCollection Count для эффективного получения общего количества элементов в вашей коллекции. Оптимизируйте управление данными сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/count/
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

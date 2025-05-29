@@ -3,14 +3,14 @@ title: Table.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words для .NET
-description: Table BottomPadding свойство. Получает или задает объем пространства в пунктах добавляемого под содержимым ячеек на С#.
+description: Откройте для себя свойство Table BottomPadding, с легкостью настраивайте интервал под содержимым ячеек для улучшенного управления макетом и улучшения визуальной привлекательности.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.tables/table/bottompadding/
 ---
 ## Table.BottomPadding property
 
-Получает или задает объем пространства (в пунктах), добавляемого под содержимым ячеек.
+Возвращает или задает размер пространства (в пунктах), добавляемого под содержимым ячеек.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -18,7 +18,7 @@ public double BottomPadding { get; set; }
 
 ## Примеры
 
-Показывает, как настроить заполнение содержимого в таблице.
+Показывает, как настроить отступы для содержимого в таблице.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Для каждой ячейки таблицы задаем расстояние между ее содержимым и каждой из ее границ.
-// Эта таблица будет поддерживать минимальное расстояние заполнения путем переноса текста.
+ // Для каждой ячейки таблицы задайте расстояние между ее содержимым и каждой из ее границ.
+// Эта таблица будет поддерживать минимальное расстояние отступа путем переноса текста.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

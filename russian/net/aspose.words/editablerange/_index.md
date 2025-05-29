@@ -3,16 +3,16 @@ title: EditableRange Class
 linktitle: EditableRange
 articleTitle: EditableRange
 second_title: Aspose.Words для .NET
-description: Aspose.Words.EditableRange сорт. Представляет один редактируемый диапазон на С#.
+description: Откройте для себя класс Aspose.Words.EditableRange, ваше решение для управления редактируемыми текстовыми областями без усилий. Улучшите редактирование документов с легкостью!
 type: docs
-weight: 1420
+weight: 1830
 url: /ru/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
 Представляет один редактируемый диапазон.
 
-Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) документальная статья.
 
 ```csharp
 public class EditableRange
@@ -24,9 +24,9 @@ public class EditableRange
 | --- | --- |
 | [EditableRangeEnd](../../aspose.words/editablerange/editablerangeend/) { get; } | Получает узел, представляющий конец редактируемого диапазона. |
 | [EditableRangeStart](../../aspose.words/editablerange/editablerangestart/) { get; } | Получает узел, представляющий начало редактируемого диапазона. |
-| [EditorGroup](../../aspose.words/editablerange/editorgroup/) { get; set; } | Возвращает или устанавливает псевдоним (или группу редактирования), который будет использоваться для определения, разрешено ли текущему пользователю редактировать этот редактируемый диапазон. |
-| [Id](../../aspose.words/editablerange/id/) { get; } | Получает редактируемый идентификатор диапазона. |
-| [SingleUser](../../aspose.words/editablerange/singleuser/) { get; set; } | Возвращает или устанавливает отдельного пользователя для редактируемого диапазона. |
+| [EditorGroup](../../aspose.words/editablerange/editorgroup/) { get; set; } | Возвращает или задает псевдоним (или группу редактирования), который будет использоваться для определения того, разрешено ли текущему пользователю редактировать этот редактируемый диапазон. |
+| [Id](../../aspose.words/editablerange/id/) { get; } | Получает идентификатор редактируемого диапазона. |
+| [SingleUser](../../aspose.words/editablerange/singleuser/) { get; set; } | Возвращает или задает одного пользователя для редактируемого диапазона. |
 
 ## Методы
 
@@ -36,7 +36,7 @@ public class EditableRange
 
 ## Примечания
 
-`EditableRange` это объект «фасада», который инкапсулирует два узла[`EditableRangeStart`](./editablerangestart/) и[`EditableRangeEnd`](./editablerangeend/) в дереве документа и позволяет работать с редактируемым диапазоном как с единым объектом.
+`EditableRange` является объектом «фасада», который инкапсулирует два узла[`EditableRangeStart`](./editablerangestart/) и[`EditableRangeEnd`](./editablerangeend/) в дереве документа и позволяет работать с редактируемым диапазоном как с единым объектом.
 
 ## Примеры
 
@@ -55,8 +55,8 @@ EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
-// Правильно сформированный редактируемый диапазон имеет начальный и конечный узлы.
-// Эти узлы имеют совпадающие идентификаторы и включают в себя редактируемые узлы.
+// Правильно сформированный редактируемый диапазон имеет начальный узел и конечный узел.
+// Эти узлы имеют совпадающие идентификаторы и включают редактируемые узлы.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
@@ -68,8 +68,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Мы можем получить доступ к типам узлов каждой части следующим образом. Редактируемый диапазон сам по себе не является узлом.
-// но сущность, состоящая из начала, конца и их содержимого.
+// Мы можем получить доступ к типам узлов каждой части следующим образом. Редактируемый диапазон сам по себе не является узлом,
+// а сущность, состоящая из начала, конца и их вложенного содержимого.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -77,7 +77,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Удалить редактируемый диапазон. Все узлы, находившиеся внутри диапазона, останутся нетронутыми.
+// Удалить редактируемый диапазон. Все узлы, которые были внутри диапазона, останутся нетронутыми.
 editableRange.Remove();
 ```
 
@@ -94,8 +94,8 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые пользователи могут редактировать.
-    // Есть два взаимоисключающих способа сузить список разрешенных редакторов.
-    // 1 - Указываем пользователя:
+    // Существует два взаимоисключающих способа сузить список разрешенных редакторов.
+    // 1 - Укажите пользователя:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -113,7 +113,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Распечатываем детали и содержимое каждого редактируемого диапазона в документе.
+    // Распечатать сведения и содержимое каждого редактируемого диапазона в документе.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -122,7 +122,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Собирает свойства и содержимое посещенных редактируемых диапазонов в строку.
+/// Собирает свойства и содержимое посещённых редактируемых диапазонов в строку.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -173,7 +173,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только прогоны, находящиеся в пределах редактируемых диапазонов.
+    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только запуски, которые находятся внутри редактируемых диапазонов.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

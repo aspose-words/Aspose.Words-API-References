@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowPercentage
 linktitle: ShowPercentage
 articleTitle: ShowPercentage
 second_title: Aspose.Words для .NET
-description: ChartDataLabelCollection ShowPercentage свойство. Позволяет указать должно ли отображаться процентное значение для меток данных всей серии. Значение по умолчаниюЛОЖЬ . Применяется только к круговым диаграммам на С#.
+description: Откройте для себя свойство ShowPercentage в ChartDataLabelCollection, чтобы улучшить круговые диаграммы, отображая процентные значения для меток данных. Повысьте ясность и понимание!
 type: docs
-weight: 120
+weight: 150
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-Позволяет указать, должно ли отображаться процентное значение для меток данных всей серии. Значение по умолчанию:`ЛОЖЬ` . Применяется только к круговым диаграммам.
+Позволяет указать, следует ли отображать процентное значение для меток данных всей серии. Значение по умолчанию:`ЛОЖЬ` . Применимо только к круговым диаграммам.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -18,11 +18,11 @@ public bool ShowPercentage { get; set; }
 
 ## Примечания
 
-Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowPercentage`](../../chartdatalabel/showpercentage/) свойство.
+Значение, определенное для этого свойства, может быть переопределено для отдельной метки данных с помощью [`ShowPercentage`](../../chartdatalabel/showpercentage/) свойство.
 
 ## Примеры
 
-Показывает, как работать с метками данных на круговой диаграмме.
+Показывает, как работать с метками данных круговой диаграммы.
 
 ```csharp
 Document doc = new Document();
@@ -33,12 +33,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставляем пользовательскую серию диаграмм с именем категории для каждого сектора и их таблицей частот.
+// Вставьте пользовательскую серию диаграмм с названием категории для каждого из секторов и их таблицей частот.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Включите метки данных, которые будут отображать процент и частоту каждого сектора, и измените их внешний вид.
+// Включить метки данных, которые будут отображать как процент, так и частоту каждого сектора, и изменить их внешний вид.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

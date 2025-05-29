@@ -3,14 +3,14 @@ title: Glyph.AscenderOffset
 linktitle: AscenderOffset
 articleTitle: AscenderOffset
 second_title: Aspose.Words для .NET
-description: Glyph AscenderOffset свойство. Смещение по вертикали y относительно положения глифа. Чаще всего используется для прикрепления знаков например диакритических знаков к базовым символам на С#.
+description: Откройте для себя свойство Glyph AscenderOffset для точного вертикального позиционирования диакритических знаков на символах. Улучшите свою типографику с экспертной точностью!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.shaping/glyph/ascenderoffset/
 ---
 ## Glyph.AscenderOffset property
 
-Смещение по вертикали (y) относительно положения глифа. Чаще всего используется для прикрепления знаков (например, диакритических знаков) к базовым символам.
+Вертикальное (y) смещение относительно положения глифа. В основном используется для присоединения знаков (например, диакритических) к базовым символам.
 
 ```csharp
 public short AscenderOffset { get; }

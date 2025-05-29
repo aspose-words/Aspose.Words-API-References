@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowCategoryName
 linktitle: ShowCategoryName
 articleTitle: ShowCategoryName
 second_title: Aspose.Words для .NET
-description: ChartDataLabelCollection ShowCategoryName свойство. Позволяет указать должно ли имя категории отображаться для меток данных всей серии. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство ShowCategoryName в ChartDataLabelCollection. Управляйте видимостью меток данных для ваших серий и повышайте ясность вашей диаграммы!
 type: docs
-weight: 80
+weight: 110
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/
 ---
 ## ChartDataLabelCollection.ShowCategoryName property
 
-Позволяет указать, должно ли имя категории отображаться для меток данных всей серии. Значение по умолчанию:`ЛОЖЬ` .
+Позволяет указать, будет ли отображаться имя категории для меток данных всей серии. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ShowCategoryName { get; set; }
@@ -18,7 +18,7 @@ public bool ShowCategoryName { get; set; }
 
 ## Примечания
 
-Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowCategoryName`](../../chartdatalabel/showcategoryname/) свойство.
+Значение, определенное для этого свойства, может быть переопределено для отдельной метки данных с помощью [`ShowCategoryName`](../../chartdatalabel/showcategoryname/) свойство.
 
 ## Примеры
 
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавляем пользовательскую серию с координатами X/Y и диаметром каждого пузырька.
+ // Добавьте пользовательскую серию с координатами X/Y и диаметром каждого из пузырьков.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

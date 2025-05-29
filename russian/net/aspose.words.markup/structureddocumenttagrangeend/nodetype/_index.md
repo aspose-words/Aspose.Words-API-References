@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeEnd.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeEnd NodeType свойство. ВозвращаетStructuredDocumentTagRangeEnd  на С#.
+description: Откройте для себя свойство StructuredDocumentTagRangeEnd NodeType, которое эффективно возвращает StructuredDocumentTagRangeEnd для бесперебойного управления документами.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/structureddocumenttagrangeend/nodetype/
 ---
 ## StructuredDocumentTagRangeEnd.NodeType property
 
-ВозвращаетStructuredDocumentTagRangeEnd .
+ВозвратStructuredDocumentTagRangeEnd .
 
 ```csharp
 public override NodeType NodeType { get; }

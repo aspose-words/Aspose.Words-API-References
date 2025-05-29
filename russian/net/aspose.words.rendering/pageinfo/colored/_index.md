@@ -3,14 +3,14 @@ title: PageInfo.Colored
 linktitle: Colored
 articleTitle: Colored
 second_title: Aspose.Words для .NET
-description: PageInfo Colored свойство. Возвращаетистинный если страница содержит цветной контент на С#.
+description: Узнайте, содержит ли ваша страница яркий цветной контент с помощью свойства PageInfo Colored. Повысьте вовлеченность пользователей и улучшите визуальную привлекательность!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/pageinfo/colored/
 ---
 ## PageInfo.Colored property
 
-Возвращает`истинный` если страница содержит цветной контент.
+Возврат`истинный` если страница содержит цветной контент.
 
 ```csharp
 public bool Colored { get; }
@@ -18,12 +18,12 @@ public bool Colored { get; }
 
 ## Примеры
 
-Показывает, как проверить, цветная страница или нет.
+Показывает, как проверить, цветная ли страница.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Проверяем, что первая страница документа не окрашена.
+// Убедитесь, что первая страница документа не цветная.
 Assert.IsFalse(doc.GetPageInfo(0).Colored);
 ```
 

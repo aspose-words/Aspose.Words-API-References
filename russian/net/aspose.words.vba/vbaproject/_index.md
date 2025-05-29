@@ -3,16 +3,16 @@ title: VbaProject Class
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaProject сорт. Обеспечивает доступ к информации о проекте VBA. Проект VBA внутри документа определяется как набор модулей VBA на С#.
+description: Откройте для себя мощь класса Aspose.Words.Vba.VbaProject, чтобы без усилий управлять информацией и модулями проекта VBA в ваших документах. Улучшите свою автоматизацию сегодня!
 type: docs
-weight: 6580
+weight: 7430
 url: /ru/net/aspose.words.vba/vbaproject/
 ---
 ## VbaProject class
 
-Обеспечивает доступ к информации о проекте VBA. Проект VBA внутри документа определяется как набор модулей VBA.
+Предоставляет доступ к информации о проекте VBA. Проект VBA внутри документа определяется как набор модулей VBA.
 
-Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) статья документации.
+Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) документальная статья.
 
 ```csharp
 public class VbaProject
@@ -22,23 +22,24 @@ public class VbaProject
 
 | Имя | Описание |
 | --- | --- |
-| [VbaProject](vbaproject/)() | Создает пробел`VbaProject` . |
+| [VbaProject](vbaproject/)() | Создает пустое место`VbaProject` . |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | Получает или задает кодовую страницу проекта VBA. |
-| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | Показывает,`VbaProject` подписан или нет. |
+| [CodePage](../../aspose.words.vba/vbaproject/codepage/) { get; set; } | Возвращает или задает кодовую страницу проекта VBA. |
+| [IsProtected](../../aspose.words.vba/vbaproject/isprotected/) { get; } | Показывает, является ли`VbaProject` защищен паролем. |
+| [IsSigned](../../aspose.words.vba/vbaproject/issigned/) { get; } | Показывает, является ли`VbaProject` подписан или нет. |
 | [Modules](../../aspose.words.vba/vbaproject/modules/) { get; } | Возвращает коллекцию модулей проекта VBA. |
-| [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | Получает или задает имя проекта VBA. |
+| [Name](../../aspose.words.vba/vbaproject/name/) { get; set; } | Возвращает или задает имя проекта VBA. |
 | [References](../../aspose.words.vba/vbaproject/references/) { get; } | Получает коллекцию ссылок на проекты VBA. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Выполняет копию`VbaProject` . |
+| [Clone](../../aspose.words.vba/vbaproject/clone/)() | Выполняет копирование`VbaProject` . |
 
 ## Примеры
 
@@ -53,14 +54,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Устанавливаем новый исходный код для модуля VBA. Доступ к модулям VBA в коллекции можно получить либо по индексу, либо по имени.
+// Установить новый исходный код для модуля VBA. Вы можете получить доступ к модулям VBA в коллекции либо по индексу, либо по имени.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

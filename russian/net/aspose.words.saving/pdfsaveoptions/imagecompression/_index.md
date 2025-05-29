@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageCompression
 linktitle: ImageCompression
 articleTitle: ImageCompression
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions ImageCompression свойство. Указывает тип сжатия который будет использоваться для всех изображений в документе на С#.
+description: Оптимизируйте свой PDF-файл с помощью свойства ImageCompression в PdfSaveOptions, позволяющего выбрать наилучший тип сжатия для получения ярких, высококачественных изображений.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.saving/pdfsaveoptions/imagecompression/
@@ -22,9 +22,9 @@ public PdfImageCompression ImageCompression { get; set; }
 
 С использованиемJpeg позволяет контролировать качество изображений в выходном документе с помощью[`JpegQuality`](../jpegquality/) свойство.
 
-С использованиемJpeg обеспечивает самую высокую скорость преобразования по сравнению с другими типами сжатия, , но в этом случае происходит сжатие JPEG с потерями.
+С использованиемJpeg обеспечивает самую высокую скорость преобразования по сравнению с производительностью других типов сжатия, , но в этом случае происходит сжатие JPEG с потерями.
 
-С использованиемAuto позволяет контролировать качество Jpeg в выходном документе через[`JpegQuality`](../jpegquality/)property, , но для других форматов необработанные пиксельные данные извлекаются и сохраняются со сжатием Flate. Этот случай медленнее, чем преобразование Jpeg, но без потерь.
+С использованиемAuto позволяет контролировать качество JPEG в выходном документе через[`JpegQuality`](../jpegquality/)свойство, но для других форматов необработанные пиксельные данные извлекаются и сохраняются со сжатием Flate. Этот случай медленнее, чем преобразование в JPEG, но без потерь.
 
 ## Примеры
 
@@ -40,17 +40,15 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-// Установите для свойства ImageCompression значение «PdfImageCompression.Auto», чтобы использовать
-// Свойство «ImageCompression» для управления качеством изображений Jpeg, которые попадают в выходной PDF-файл.
-// Установите для свойства «ImageCompression» значение «PdfImageCompression.Jpeg», чтобы использовать
-// Свойство «ImageCompression» для управления качеством всех изображений, попадающих в выходной PDF-файл.
+// Установите свойство "ImageCompression" на "PdfImageCompression.Auto", чтобы использовать
+// Свойство «ImageCompression» для управления качеством изображений JPEG, которые попадают в выходной PDF-файл.
+// Установите свойство "ImageCompression" на "PdfImageCompression.Jpeg", чтобы использовать
+// Свойство «ImageCompression» для управления качеством всех изображений, которые попадают в выходной PDF-файл.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
-
-// Установите для свойства «JpegQuality» значение «10», чтобы усилить сжатие за счет качества изображения.
+// Установите свойство «JpegQuality» на «10», чтобы усилить сжатие за счет качества изображения.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

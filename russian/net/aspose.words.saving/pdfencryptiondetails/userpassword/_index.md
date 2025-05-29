@@ -3,7 +3,7 @@ title: PdfEncryptionDetails.UserPassword
 linktitle: UserPassword
 articleTitle: UserPassword
 second_title: Aspose.Words для .NET
-description: PdfEncryptionDetails UserPassword свойство. Указывает пароль пользователя необходимый для открытия зашифрованного PDFдокумента на С#.
+description: Узнайте, как свойство UserPassword повышает безопасность PDF-файлов, требуя пароль для доступа, гарантируя защиту и конфиденциальность ваших документов.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/userpassword/
@@ -18,9 +18,9 @@ public string UserPassword { get; set; }
 
 ## Примечания
 
-Пароль пользователя потребуется для открытия зашифрованного PDF-документа для просмотра. Разрешения, указанные в [`Permissions`](../permissions/) будет обеспечиваться программным обеспечением считывателя.
+Для открытия зашифрованного PDF-документа для просмотра потребуется пароль пользователя. Разрешения, указанные в [`Permissions`](../permissions/) будет выполняться программным обеспечением считывателя.
 
-Пароль пользователя может быть`нулевой` или пустая строка, в этом случае пароль от пользователя при открытии PDF-документа не потребуется. Пароль пользователя не может совпадать с паролем владельца.
+Пароль пользователя может быть`нулевой` или пустая строка, в этом случае пароль не будет запрашиваться от пользователя при открытии документа PDF . Пароль пользователя не может совпадать с паролем владельца.
 
 ## Примеры
 
@@ -32,17 +32,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Расширяем разрешения, чтобы разрешить редактирование аннотаций.
+// Расширить разрешения, чтобы разрешить редактирование аннотаций.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-// Включаем шифрование через свойство EncryptionDetails.
+// Включить шифрование через свойство «EncryptionDetails».
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Когда мы откроем этот документ, нам нужно будет ввести пароль, прежде чем получить доступ к его содержимому.
+// Когда мы откроем этот документ, нам нужно будет указать пароль, прежде чем получить доступ к его содержимому.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

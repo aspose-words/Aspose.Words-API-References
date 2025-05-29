@@ -3,14 +3,14 @@ title: OdsoFieldMapData.MappedName
 linktitle: MappedName
 articleTitle: MappedName
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapData MappedName свойство. Указывает предопределенное имя поля слияния которое должно быть сопоставлено с номером столбца  указаннымColumn свойство в этом сопоставлении полей. Значение по умолчанию  пустая строка на С#.
+description: Откройте для себя свойство OdsoFieldMapData MappedName, которое связывает имена полей слияния с указанными столбцами, повышая эффективность и точность сопоставления данных.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
 ## OdsoFieldMapData.MappedName property
 
-Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца , указанным[`Column`](../column/) свойство в этом сопоставлении полей. Значение по умолчанию — пустая строка.
+Указывает предопределенное имя поля слияния, которое должно быть сопоставлено с номером столбца , указанным[`Column`](../column/) свойство в этом отображении поля. Значение по умолчанию — пустая строка.
 
 ```csharp
 public string MappedName { get; set; }
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

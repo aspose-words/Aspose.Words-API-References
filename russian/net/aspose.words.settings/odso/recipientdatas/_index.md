@@ -3,14 +3,14 @@ title: Odso.RecipientDatas
 linktitle: RecipientDatas
 articleTitle: RecipientDatas
 second_title: Aspose.Words для .NET
-description: Odso RecipientDatas свойство. Получает или задает коллекцию объектов определяющих включение/исключение отдельных записей в слиянии почты. Этот объект никогда ненулевой  на С#.
+description: Управляйте слиянием почты без усилий с помощью Odso RecipientDatas. Контролируйте включение/исключение записей с помощью надежной, всегда доступной коллекции.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Получает или задает коллекцию объектов, определяющих включение/исключение отдельных записей в слиянии почты. Этот объект никогда не`нулевой` .
+Возвращает или задает коллекцию объектов, которые определяют включение/исключение отдельных записей в слияние. Этот объект никогда не`нулевой` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -18,7 +18,7 @@ public OdsoRecipientDataCollection RecipientDatas { get; set; }
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

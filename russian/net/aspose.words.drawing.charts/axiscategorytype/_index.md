@@ -3,14 +3,14 @@ title: AxisCategoryType Enum
 linktitle: AxisCategoryType
 articleTitle: AxisCategoryType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisCategoryType перечисление. Указывает тип оси категорий на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.Charts.AxisCategoryType, определяющее типы осей категорий для улучшенной визуализации данных в ваших проектах.
 type: docs
-weight: 530
+weight: 770
 url: /ru/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration
 
-Указывает тип оси категорий.
+Указывает тип оси категории.
 
 ```csharp
 public enum AxisCategoryType
@@ -38,13 +38,13 @@ Chart chart = shape.Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставляем серию диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
+// Вставьте ряд диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Оси диаграммы имеют различные параметры, которые могут изменить их внешний вид,
-// такие как их направление, такты основных/второстепенных единиц и деления.
+// например, их направление, основные/дополнительные деления и отметки делений.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -53,10 +53,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -66,7 +68,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Столбчатые диаграммы не имеют оси Z.
 Assert.Null(chart.AxisZ);

@@ -3,14 +3,14 @@ title: Fill.ForeColor
 linktitle: ForeColor
 articleTitle: ForeColor
 second_title: Aspose.Words для .NET
-description: Fill ForeColor свойство. Получает или задает объект Color который представляет цвет переднего плана для заливки на С#.
+description: Установите свойство ForeColor, чтобы настроить цвет переднего плана заливки с помощью объекта Color, что повысит визуальную привлекательность и гибкость дизайна.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
 
-Получает или задает объект Color, который представляет цвет переднего плана для заливки.
+Возвращает или задает объект Color, представляющий цвет переднего плана для заливки.
 
 ```csharp
 public Color ForeColor { get; set; }
@@ -18,18 +18,18 @@ public Color ForeColor { get; set; }
 
 ## Примечания
 
-Это свойство сбрасывает альфа-компонентColor до полностью непрозрачного цвета в отличие от[`Color`](../color/) имущество, которое его сохраняет.
+Это свойство сбрасывает альфа-компонентуColor до полностью непрозрачного цвета в отличие от[`Color`](../color/) свойство, которое его сохраняет.
 
 ## Примеры
 
-Показывает создание разнообразных фигур.
+Демонстрирует создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная горизонтальная полупрозрачная красная линия
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
-    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы устранить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

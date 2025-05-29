@@ -3,14 +3,14 @@ title: ShapeLineStyle Enum
 linktitle: ShapeLineStyle
 articleTitle: ShapeLineStyle
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.ShapeLineStyle перечисление. Определяет стиль составной линииShape  на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.ShapeLineStyle, чтобы улучшить дизайн документа с помощью настраиваемых составных стилей линий для фигур.
 type: docs
-weight: 1270
+weight: 1660
 url: /ru/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-Определяет стиль составной линии[`Shape`](../shape/) .
+Задает стиль составной линии[`Shape`](../shape/) .
 
 ```csharp
 public enum ShapeLineStyle
@@ -22,14 +22,14 @@ public enum ShapeLineStyle
 | --- | --- | --- |
 | Single | `0` | Одна строка. |
 | Double | `1` | Двойные линии одинаковой ширины. |
-| ThickThin | `2` | Двойные линии, одна толстая, другая тонкая. |
-| ThinThick | `3` | Двойные линии, одна тонкая, другая толстая. |
+| ThickThin | `2` | Двойные линии, одна толстая, одна тонкая. |
+| ThinThick | `3` | Двойные линии, одна тонкая, одна толстая. |
 | Triple | `4` | Три линии, тонкие, толстые, тонкие. |
 | Default | `0` | Значение по умолчанию:Single . |
 
 ## Примеры
 
-Показывает, как изменить свойства обводки.
+Показывает, как изменить свойства штриха.
 
 ```csharp
 Document doc = new Document();
@@ -39,10 +39,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Базовые фигуры, такие как прямоугольник, состоят из двух видимых частей.
-// 1 - Заливка, которая применяется к области внутри контура фигуры:
+// 1 — Заливка, которая применяется к области внутри контура фигуры:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Обводка, обозначающая контур фигуры:
+// 2 - Штрих, обозначающий контур фигуры:
 // Измените различные свойства обводки этой фигуры.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

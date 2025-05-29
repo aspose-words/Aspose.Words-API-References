@@ -3,14 +3,14 @@ title: Comment.Initial
 linktitle: Initial
 articleTitle: Initial
 second_title: Aspose.Words для .NET
-description: Comment Initial свойство. Возвращает или устанавливает инициалы пользователя связанного с определенным комментарием на С#.
+description: Узнайте, как легко управлять инициалами пользователей в комментариях. Улучшайте вовлеченность и персонализируйте взаимодействия с помощью нашей простой в использовании функции свойств.
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words/comment/initial/
 ---
 ## Comment.Initial property
 
-Возвращает или устанавливает инициалы пользователя, связанного с определенным комментарием.
+Возвращает или задает инициалы пользователя, связанного с определенным комментарием.
 
 ```csharp
 public string Initial { get; set; }
@@ -24,7 +24,7 @@ public string Initial { get; set; }
 
 ## Примеры
 
-Показывает, как распечатать содержимое всех комментариев и их диапазоны комментариев с помощью посетителя документов.
+Показывает, как распечатать содержимое всех комментариев и их диапазоны с помощью посетителя документа.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -40,14 +40,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Добавьте текст в документ, деформируйте его в диапазоне комментариев, а затем добавьте свой комментарий.
+    // Добавьте текст в документ, поместите его в диапазон комментариев, а затем добавьте свой комментарий.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Добавляем два ответа на комментарий.
+    // Добавить два ответа к комментарию.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -55,26 +55,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Проходит по каждому комментарию верхнего уровня и печатает его диапазон комментариев, содержимое и ответы.
+/// Просматривает каждый комментарий верхнего уровня и выводит диапазон комментариев, содержимое и ответы.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Перебираем все комментарии верхнего уровня. В отличие от комментариев типа ответа, комментарии верхнего уровня не имеют предка.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Перебрать все комментарии верхнего уровня. В отличие от комментариев типа «ответ», комментарии верхнего уровня не имеют предка.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Сначала посещаем начало диапазона комментариев.
+        // Сначала посетите начало диапазона комментариев.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Затем просмотрите комментарий и все ответы, которые он может иметь.
+        // Затем просмотрите комментарий и все возможные ответы на него.
         comment.Accept(commentVisitor);
+        // Посетить только начало комментария.
+        comment.AcceptStart(commentVisitor);
+        // Посетите только конец комментария.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Наконец, переходим к концу диапазона комментариев и затем печатаем текстовое содержимое посетителя.
+        // Наконец, перейдите к концу диапазона комментариев, а затем выведите текстовое содержимое посетителя.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -83,7 +87,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Печатает информацию и содержимое всех комментариев и диапазонов комментариев, встречающихся в документе.
+/// Выводит информацию и содержимое всех комментариев и диапазонов комментариев, обнаруженных в документе.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -94,7 +98,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -149,7 +153,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе заканчивается посещение узла комментариев.
+    /// Вызывается, когда посещение узла комментария в документе завершено.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -161,7 +165,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

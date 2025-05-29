@@ -3,14 +3,14 @@ title: IChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words для .NET
-description: IChartDataPoint Bubble3D свойство. Указывает должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект на С#.
+description: Откройте для себя свойство IChartDataPoint Bubble3D, которое позволит улучшить пузырьковые диаграммы с помощью потрясающих 3D-эффектов для более захватывающей визуализации данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
 ---
 ## IChartDataPoint.Bubble3D property
 
-Указывает, должен ли к пузырькам на пузырьковой диаграмме применяться трехмерный эффект.
+Указывает, следует ли применять к пузырькам на пузырьковой диаграмме 3-D-эффект.
 
 ```csharp
 public bool Bubble3D { get; set; }
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Применяем метку данных к каждому пузырьку, отображающую его диаметр.
+// Применить метку данных к каждому пузырьку, отображающую его диаметр.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

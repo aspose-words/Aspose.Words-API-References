@@ -3,7 +3,7 @@ title: List.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words для .NET
-description: List Equals метод. Сравнивает с указанным списком на С#.
+description: Узнайте, как метод List Equals эффективно сравнивает списки на точность. Улучшите свои навыки кодирования с помощью этой важной техники программирования!
 type: docs
 weight: 100
 url: /ru/net/aspose.words.lists/list/equals/

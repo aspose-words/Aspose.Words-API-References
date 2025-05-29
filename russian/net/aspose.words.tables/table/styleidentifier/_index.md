@@ -3,14 +3,14 @@ title: Table.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words для .NET
-description: Table StyleIdentifier свойство. Получает или задает независимый от локали идентификатор стиля таблицы примененный к этой таблице на С#.
+description: Откройте для себя свойство Table StyleIdentifier, которое позволяет легко управлять стилями таблиц, не зависящими от локали, и без труда улучшить представление данных.
 type: docs
 weight: 280
 url: /ru/net/aspose.words.tables/table/styleidentifier/
 ---
 ## Table.StyleIdentifier property
 
-Получает или задает независимый от локали идентификатор стиля таблицы, примененный к этой таблице.
+Возвращает или задает независимый от локали идентификатор стиля таблицы, примененный к этой таблице.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -18,21 +18,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## Примеры
 
-Показывает, как построить новую таблицу с применением стиля.
+Показывает, как создать новую таблицу, применяя стиль.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Мы должны вставить хотя бы одну строку, прежде чем устанавливать какое-либо форматирование таблицы.
+// Перед настройкой форматирования таблицы необходимо вставить хотя бы одну строку.
 builder.InsertCell();
 
-// Установите используемый стиль таблицы на основе идентификатора стиля.
+// Устанавливаем используемый стиль таблицы на основе идентификатора стиля.
 // Обратите внимание, что не все стили таблиц доступны при сохранении в формате .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Частично применить стиль к функциям таблицы на основе предикатов, затем построить таблицу.
+// Частично применяем стиль к признакам таблицы на основе предикатов, затем создаем таблицу.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

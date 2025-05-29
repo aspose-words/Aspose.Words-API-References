@@ -3,7 +3,7 @@ title: Watermark.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words для .NET
-description: Watermark Remove метод. Удаляет водяной знак на С#.
+description: Легко удаляйте водяные знаки с помощью нашего эффективного метода. Верните вашим изображениям их первоначальную красоту и улучшите свои творческие проекты уже сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words/watermark/remove/
@@ -23,10 +23,10 @@ public void Remove()
 ```csharp
 Document doc = new Document();
 
-// Добавляем простой текстовый водяной знак.
+// Добавить простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
+// Если мы хотим изменить форматирование текста, используя его как водяной знак,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из документа вот так.
+// Мы можем удалить водяной знак из документа следующим образом.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

@@ -3,7 +3,7 @@ title: NodeChangingArgs.NewParent
 linktitle: NewParent
 articleTitle: NewParent
 second_title: Aspose.Words для .NET
-description: NodeChangingArgs NewParent свойство. Получает родительский узел который будет установлен после завершения операции на С#.
+description: Откройте для себя свойство NodeChangingArgs NewParent для эффективного доступа к будущему родителю узла после завершения операций. Улучшите свой код с легкостью!
 type: docs
 weight: 20
 url: /ru/net/aspose.words/nodechangingargs/newparent/
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Печатает каждую вставку/удаление узла, как это происходит в документе.
+/// Печатает каждую вставку/удаление узла по мере их возникновения в документе.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

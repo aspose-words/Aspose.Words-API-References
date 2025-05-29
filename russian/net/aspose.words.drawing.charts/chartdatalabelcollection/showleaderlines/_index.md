@@ -3,9 +3,9 @@ title: ChartDataLabelCollection.ShowLeaderLines
 linktitle: ShowLeaderLines
 articleTitle: ShowLeaderLines
 second_title: Aspose.Words для .NET
-description: ChartDataLabelCollection ShowLeaderLines свойство. Позволяет указать нужно ли отображать выносные линии меток данных для меток данных всей серии. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство ChartDataLabelCollection ShowLeaderLines для улучшения визуализации данных. Легко управляйте линиями указателей для более четкого понимания!
 type: docs
-weight: 100
+weight: 130
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/
 ---
 ## ChartDataLabelCollection.ShowLeaderLines property
@@ -18,13 +18,13 @@ public bool ShowLeaderLines { get; set; }
 
 ## Примечания
 
-Применяется только к круговым диаграммам. Линии-выноски создают визуальную связь между меткой данных и соответствующей точкой данных.
+Применимо только к круговым диаграммам. Линии выноски создают визуальную связь между меткой данных и соответствующей ей точкой данных.
 
-Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the .[`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) свойство.
+Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowLeaderLines`](../../chartdatalabel/showleaderlines/) свойство.
 
 ## Примеры
 
-Показывает, как работать с метками данных на круговой диаграмме.
+Показывает, как работать с метками данных круговой диаграммы.
 
 ```csharp
 Document doc = new Document();
@@ -35,12 +35,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставляем пользовательскую серию диаграмм с именем категории для каждого сектора и их таблицей частот.
+// Вставьте пользовательскую серию диаграмм с названием категории для каждого из секторов и их таблицей частот.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Включите метки данных, которые будут отображать процент и частоту каждого сектора, и измените их внешний вид.
+// Включить метки данных, которые будут отображать как процент, так и частоту каждого сектора, и изменить их внешний вид.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

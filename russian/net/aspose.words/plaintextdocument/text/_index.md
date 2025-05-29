@@ -3,7 +3,7 @@ title: PlainTextDocument.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: PlainTextDocument Text свойство. Получает текстовое содержимое документа объединенное в строку на С#.
+description: Получите доступ к свойству текста объекта PlainTextDocument, чтобы извлечь содержимое документа в виде одной строки, что улучшит обработку и анализ данных.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/plaintextdocument/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Примеры
 
-Показывает, как загрузить содержимое документа Microsoft Word в виде открытого текста.
+Показывает, как загрузить содержимое документа Microsoft Word в виде обычного текста.
 
 ```csharp
 Document doc = new Document(); 

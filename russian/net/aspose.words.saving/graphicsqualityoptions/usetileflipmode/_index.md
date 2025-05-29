@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.UseTileFlipMode
 linktitle: UseTileFlipMode
 articleTitle: UseTileFlipMode
 second_title: Aspose.Words для .NET
-description: GraphicsQualityOptions UseTileFlipMode свойство. Получает или задает флаг указывающий является ли WrapMode значением TileFlipXY на С#.
+description: Откройте для себя свойство GraphicsQualityOptions UseTileFlipMode для управления настройками WrapMode с целью повышения визуального качества ваших приложений.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 ---
 ## GraphicsQualityOptions.UseTileFlipMode property
 
-Получает или задает флаг, указывающий, является ли WrapMode значением TileFlipXY.
+Возвращает или задает флаг, указывающий, является ли WrapMode TileFlipXY.
 
 ```csharp
 public bool UseTileFlipMode { get; set; }
@@ -18,11 +18,11 @@ public bool UseTileFlipMode { get; set; }
 
 ## Примечания
 
-WrapMode определяет, как текстура или градиент будет располагаться плиткой, если она меньше , чем заполняемая область.
+TheWrapMode определяет, как будет накладываться текстура или градиент, если он меньше заполняемой области на x000d.
 
-По умолчанию используетTile (указывает мозаику без переворачивания). Это приводит к неточной визуализации масштабированного изображения (с высоким разрешением).
+По умолчанию используетсяTile (задает мозаичное размещение без отражения). Это приводит к неточной визуализации масштабированного изображения (с высоким разрешением).
 
-Это свойство позволяет переключить WrapMode наTileFlipXY (указывает, что плитки переворачиваются на по горизонтали при перемещении по строке и переворачиваются по вертикали при перемещении по столбцу).
+Это свойство позволяет переключить WrapMode наTileFlipXY (указывает, что плитки переворачиваются по горизонтали при перемещении по строке и переворачиваются по вертикали при перемещении по столбцу).
 
 ## Примеры
 

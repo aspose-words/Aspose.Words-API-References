@@ -3,16 +3,16 @@ title: MemoryFontSource Class
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.MemoryFontSource сорт. Представляет один файл шрифта TrueType хранящийся в памяти на С#.
+description: Откройте для себя класс Aspose.Words.Fonts.MemoryFontSource, обеспечивающий бесперебойный доступ к шрифтам TrueType, хранящимся в памяти, для улучшенной обработки документов.
 type: docs
-weight: 3020
+weight: 3450
 url: /ru/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
 Представляет один файл шрифта TrueType, хранящийся в памяти.
 
-Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) документальная статья.
 
 ```csharp
 public class MemoryFontSource : FontSourceBase
@@ -22,15 +22,15 @@ public class MemoryFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Cтор. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Cтор. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Cтор. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | Ctor. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | Ctor. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | Ключ этого источника в кеше. |
+| [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | Ключ этого источника в кэше. |
 | [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Двоичные данные шрифта. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Возвращает приоритет источника шрифта. |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Возвращает тип источника шрифта. |
@@ -44,7 +44,7 @@ public class MemoryFontSource : FontSourceBase
 
 ## Примеры
 
-Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
+Показывает, как использовать байтовый массив с данными из файла шрифта в качестве источника шрифта.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

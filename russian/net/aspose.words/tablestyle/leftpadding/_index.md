@@ -3,14 +3,14 @@ title: TableStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words для .NET
-description: TableStyle LeftPadding свойство. Получает или задает объем места в пунктах добавляемый слева от содержимого ячеек таблицы на С#.
+description: Откройте для себя свойство TableStyle LeftPadding, чтобы настроить макет ячейки таблицы. Легко настройте левый интервал для изысканного, профессионального вида.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/tablestyle/leftpadding/
 ---
 ## TableStyle.LeftPadding property
 
-Получает или задает объем места (в пунктах), добавляемый слева от содержимого ячеек таблицы.
+Возвращает или задает размер пространства (в пунктах), добавляемого слева от содержимого ячеек таблицы.
 
 ```csharp
 public double LeftPadding { get; set; }

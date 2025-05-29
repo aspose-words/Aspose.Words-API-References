@@ -3,14 +3,14 @@ title: PageSetup.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words для .NET
-description: PageSetup ClearFormatting метод. Сбрасывает настройки страницы на размер бумаги поля и ориентацию по умолчанию на С#.
+description: Сбросьте настройки страницы документа без усилий с помощью метода ClearFormatting. Восстановите поля, размер бумаги и ориентацию по умолчанию для придания изысканного вида.
 type: docs
 weight: 460
 url: /ru/net/aspose.words/pagesetup/clearformatting/
 ---
 ## PageSetup.ClearFormatting method
 
-Сбрасывает настройки страницы на размер бумаги, поля и ориентацию по умолчанию.
+Сбрасывает настройки страницы до размера бумаги, полей и ориентации по умолчанию.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Примеры
 
-Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
+Показывает, как применять и отменять настройки страницы для разделов документа.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начнем новый раздел с помощью построителя документов,
+// Если мы начнем новый раздел с помощью конструктора документов,
 // он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 

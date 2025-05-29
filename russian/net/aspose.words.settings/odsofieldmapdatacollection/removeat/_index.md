@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapDataCollection RemoveAt метод. Удаляет элемент по указанному индексу на С#.
+description: Легко используйте метод RemoveAt в OdsoFieldMapDataCollection для удаления элементов по индексу, оптимизируя задачи по управлению данными.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/removeat/
@@ -49,7 +49,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

@@ -3,14 +3,14 @@ title: LoadOptions.PreserveIncludePictureField
 linktitle: PreserveIncludePictureField
 articleTitle: PreserveIncludePictureField
 second_title: Aspose.Words для .NET
-description: LoadOptions PreserveIncludePictureField свойство. Получает или задает следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию ЛОЖЬ  на С#.
+description: Управляйте полем INCLUDEPICTURE в форматах Microsoft Word с помощью LoadOptions PreserveIncludePictureField. Легко управляйте форматированием документа для достижения оптимальных результатов.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
 ## LoadOptions.PreserveIncludePictureField property
 
-Получает или задает, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию —`ЛОЖЬ` .
+Возвращает или задает, следует ли сохранять поле INCLUDEPICTURE при чтении форматов Microsoft Word. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool PreserveIncludePictureField { get; set; }
@@ -18,9 +18,9 @@ public bool PreserveIncludePictureField { get; set; }
 
 ## Примечания
 
-По умолчанию поле INCLUDEPICTURE преобразуется в объект формы. Вы можете переопределить это, если вам нужно поле, которое нужно сохранить, например, если вы хотите обновить его программно. Однако обратите внимание, что подход this не является общим для Aspose.Words. Используйте его на свой страх и риск.
+По умолчанию поле INCLUDEPICTURE преобразуется в объект формы. Вы можете переопределить это, если вам нужно сохранить поле, например, если вы хотите обновить его программно. Однако обратите внимание, что этот подход не является общепринятым для Aspose.Words. Используйте его на свой страх и риск.
 
-Одним из возможных вариантов использования может быть использование MERGEFIELD в качестве дочернего поля для динамического изменения исходного path изображения. В этом случае вам необходимо, чтобы ВКЛЮЧЕННАЯ ИЗОБРАЖЕНИЕ сохранилось в модели.
+Одним из возможных вариантов использования может быть использование MERGEFIELD в качестве дочернего поля для динамического изменения исходного path изображения. В этом случае вам необходимо сохранить INCLUDEPICTURE в модели.
 
 ## Примеры
 
@@ -38,7 +38,7 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Мы можем установить флаг в объекте LoadOptions, чтобы решить, следует ли конвертировать все поля INCLUDEPICTURE
+    // Мы можем установить флаг в объекте LoadOptions, чтобы решить, следует ли преобразовывать все поля INCLUDEPICTURE
     // в фигуры изображений при загрузке документа, который их содержит.
     LoadOptions loadOptions = new LoadOptions
     {

@@ -3,14 +3,14 @@ title: HtmlLoadOptions.IgnoreNoscriptElements
 linktitle: IgnoreNoscriptElements
 articleTitle: IgnoreNoscriptElements
 second_title: Aspose.Words для .NET
-description: HtmlLoadOptions IgnoreNoscriptElements свойство. Получает или задает значение указывающее следует ли игнорировать HTMLэлементы noscript. Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство HtmlLoadOptions IgnoreNoscriptElements улучшает ваш HTML-анализ, управляя элементами noscript. Улучшите производительность вашего веб-сайта сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
 ## HtmlLoadOptions.IgnoreNoscriptElements property
 
-Получает или задает значение, указывающее, следует ли игнорировать HTML-элементы &lt;noscript&gt;. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает значение, указывающее, следует ли игнорировать элементы HTML &lt;noscript&gt;. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IgnoreNoscriptElements { get; set; }
@@ -18,11 +18,11 @@ public bool IgnoreNoscriptElements { get; set; }
 
 ## Примечания
 
-Как и MS Word, Aspose.Words не поддерживает скрипты и по умолчанию загружает содержимое &lt;noscript&gt; elements в результирующий документ. Однако в большинстве браузеров поддерживаются сценарии, и содержимое &lt;noscript&gt; не отображается. Установка этого свойства в`истинный` заставляет Aspose.Words игнорировать все элементы &lt;noscript&gt; elements и помогает создавать документы, которые выглядят ближе к тому, что видно в браузерах.
+Как и MS Word, Aspose.Words не поддерживает скрипты и по умолчанию загружает содержимое &lt;noscript&gt; elements в результирующий документ. Однако в большинстве браузеров скрипты поддерживаются, а содержимое из &lt;noscript&gt; не отображается. Установка этого свойства в`истинный` заставляет Aspose.Words игнорировать все элементы &lt;noscript&gt; и помогает создавать документы, которые выглядят ближе к тому, что видят в браузерах.
 
 ## Примеры
 
-Показывает, как игнорировать элементы HTML &lt;noscript&gt;.
+Показывает, как игнорировать HTML-элементы &lt;noscript&gt;.
 
 ```csharp
 const string html = @"

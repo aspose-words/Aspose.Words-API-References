@@ -3,14 +3,14 @@ title: FixedPageSaveOptions.PageSet
 linktitle: PageSet
 articleTitle: PageSet
 second_title: Aspose.Words для .NET
-description: FixedPageSaveOptions PageSet свойство. Получает или задает страницы для рендеринга. По умолчанию  все страницы в документе на С#.
+description: Управляйте рендерингом документа с помощью FixedPageSaveOptions PageSet. Легко выбирайте определенные страницы или все для бесшовного вывода. Оптимизируйте свой рабочий процесс!
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/fixedpagesaveoptions/pageset/
 ---
 ## FixedPageSaveOptions.PageSet property
 
-Получает или задает страницы для рендеринга. По умолчанию — все страницы в документе.
+Получает или задает страницы для отображения. По умолчанию — все страницы в документе.
 
 ```csharp
 public PageSet PageSet { get; set; }
@@ -24,18 +24,18 @@ public PageSet PageSet { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Добавляем пять страниц в документ.
+// Добавить пять страниц в документ.
 for (int i = 1; i < 6; i++)
 {
     builder.Write("Page " + i);
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Создаем объект «XpsSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в документ .XPS.
+// Создаем объект "XpsSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .XPS.
 XpsSaveOptions xpsOptions = new XpsSaveOptions();
 
-// Используйте свойство «PageSet», чтобы выбрать набор страниц документа для сохранения в формате XPS.
+// Используйте свойство «PageSet», чтобы выбрать набор страниц документа для сохранения в выходном XPS-файле.
 // В этом случае мы выберем с помощью индекса, начинающегося с нуля, только три страницы: страницу 1, страницу 2 и страницу 4.
 xpsOptions.PageSet = new PageSet(0, 1, 3);
 
@@ -56,14 +56,14 @@ builder.Writeln("Page 3.");
 
 using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
 {
-    // Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-    // чтобы изменить способ преобразования этого метода в .PDF.
+    // Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+    // чтобы изменить способ преобразования этим методом документа в .PDF.
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // Установите для «PageIndex» значение «1», чтобы отобразить часть документа, начиная со второй страницы.
+    // Установите «PageIndex» на «1», чтобы отобразить часть документа, начиная со второй страницы.
     options.PageSet = new PageSet(1);
 
-    // Этот документ будет содержать одну страницу, начиная со второй страницы, которая будет содержать только вторую страницу.
+    // Этот документ будет содержать одну страницу, начиная со страницы два, которая будет содержать только вторую страницу.
     doc.Save(stream, options);
 }
 ```
@@ -81,23 +81,23 @@ for (int i = 0; i < 5; i++)
         builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Ниже приведены три свойства PageSet, которые мы можем использовать для фильтрации набора страниц из
 // наш документ для сохранения в выходном PDF-документе на основе четности номеров страниц.
-// 1 - Сохраняем только четные страницы:
+// 1 — Сохранить только четные страницы:
 options.PageSet = PageSet.Even;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.Even.pdf", options);
 
-// 2 - Сохраняем только нечетные страницы:
+// 2 - Сохранить только нечетные страницы:
 options.PageSet = PageSet.Odd;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.Odd.pdf", options);
 
-// 3 - Сохраняем каждую страницу:
+// 3 - Сохранить каждую страницу:
 options.PageSet = PageSet.All;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportPageSet.All.pdf", options);

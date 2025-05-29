@@ -3,7 +3,7 @@ title: Style.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: Style Document свойство. Получает документ владельца на С#.
+description: Откройте для себя свойство Style Document, чтобы легко получать доступ к документам владельца и управлять ими для улучшения организации и эффективности.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/style/document/
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

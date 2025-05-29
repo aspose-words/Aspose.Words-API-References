@@ -3,14 +3,14 @@ title: Document.LastSection
 linktitle: LastSection
 articleTitle: LastSection
 second_title: Aspose.Words для .NET
-description: Document LastSection свойство. Получает последний раздел документа на С#.
+description: Откройте для себя свойство LastSection, которое позволяет легко получить доступ к последнему разделу документа, повышая эффективность навигации и управления контентом.
 type: docs
-weight: 240
+weight: 250
 url: /ru/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
 
-Получает последний раздел документа.
+Получает последний раздел в документе.
 
 ```csharp
 public Section LastSection { get; }
@@ -18,7 +18,7 @@ public Section LastSection { get; }
 
 ## Примечания
 
-Возвращает`нулевой` если разделов нет.
+Возврат`нулевой`если нет разделов.
 
 ## Примеры
 
@@ -40,7 +40,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Каждый раздел имеет свои настройки настройки страницы.
+// Каждый раздел имеет свои собственные настройки страницы.
 // Мы можем разделить текст во втором разделе на два столбца.
 // Это не повлияет на текст в первом разделе.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);

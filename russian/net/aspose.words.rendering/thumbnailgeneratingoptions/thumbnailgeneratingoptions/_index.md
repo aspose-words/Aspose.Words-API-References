@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words для .NET
-description: ThumbnailGeneratingOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор ThumbnailGeneratingOptions для простого создания миниатюр. Разблокируйте настройки по умолчанию для бесперебойного управления изображениями и их настройки.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailgeneratingoptions/

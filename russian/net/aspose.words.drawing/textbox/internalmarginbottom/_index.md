@@ -3,14 +3,14 @@ title: TextBox.InternalMarginBottom
 linktitle: InternalMarginBottom
 articleTitle: InternalMarginBottom
 second_title: Aspose.Words для .NET
-description: TextBox InternalMarginBottom свойство. Определяет внутреннее нижнее поле фигуры в пунктах на С#.
+description: Откройте для себя свойство TextBox InternalMarginBottom, позволяющее настроить внутреннее нижнее поле фигуры в пунктах для повышения точности дизайна.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/textbox/internalmarginbottom/
 ---
 ## TextBox.InternalMarginBottom property
 
-Определяет внутреннее нижнее поле фигуры в пунктах.
+Указывает внутреннее нижнее поле в пунктах для фигуры.
 
 ```csharp
 public double InternalMarginBottom { get; set; }
@@ -28,7 +28,7 @@ public double InternalMarginBottom { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем еще одно текстовое поле с определенными полями.
+// Вставьте еще одно текстовое поле с определенными полями.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

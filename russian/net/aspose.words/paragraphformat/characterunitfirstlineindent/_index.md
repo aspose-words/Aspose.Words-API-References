@@ -3,16 +3,16 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent
 linktitle: CharacterUnitFirstLineIndent
 articleTitle: CharacterUnitFirstLineIndent
 second_title: Aspose.Words для .NET
-description: ParagraphFormat CharacterUnitFirstLineIndent свойство. Получает или задает значение в символах для первой строки или выступающего отступа на С#.
+description: Откройте для себя свойство ParagraphFormat CharacterUnitFirstLineIndent, которое позволит легко настроить первую строку документа или отступ для придания ему изысканного вида.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
-Получает или задает значение (в символах) для первой строки или выступающего отступа.
+Возвращает или задает значение (в символах) для отступа первой строки или выступа.
 
-Используйте положительные значения, чтобы установить отступ первой строки, и отрицательные значения, чтобы установить выступающий отступ.
+Используйте положительные значения для установки отступа первой строки и отрицательные значения для установки отступа выступа.
 
 ```csharp
 public double CharacterUnitFirstLineIndent { get; set; }
@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Ниже приведены пять различных вариантов интервалов, а также свойства, на которые косвенно влияет их конфигурация.
+// Ниже приведены пять различных вариантов интервалов, а также свойства, на которые их конфигурация косвенно влияет.
 // 1 - Отступ слева:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -42,7 +42,7 @@ format.CharacterUnitRightIndent = -5.5;
 
 Assert.AreEqual(format.RightIndent, -66.0d);
 
-// 3 - Висячий отступ:
+// 3 - Отступ:
 Assert.AreEqual(format.FirstLineIndent, 0.0d);
 
 format.CharacterUnitFirstLineIndent = 20.3;

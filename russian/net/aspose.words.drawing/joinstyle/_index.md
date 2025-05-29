@@ -3,9 +3,9 @@ title: JoinStyle Enum
 linktitle: JoinStyle
 articleTitle: JoinStyle
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.JoinStyle перечисление. Стиль соединения линий на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.JoinStyle для универсальных стилей соединения линий. Улучшите графику вашего документа с помощью профессионального качества и гибкости.
 type: docs
-weight: 1090
+weight: 1420
 url: /ru/net/aspose.words.drawing/joinstyle/
 ---
 ## JoinStyle enumeration
@@ -20,20 +20,20 @@ public enum JoinStyle
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Bevel | `0` | Соединить края прямой линией. |
-| Miter | `1` | Удлинить края до тех пор, пока они не соединятся. |
+| Bevel | `0` | Соедините края прямой линией. |
+| Miter | `1` | Расширяйте края до тех пор, пока они не соединятся. |
 | Round | `2` | Нарисуйте дугу между двумя краями. |
 
 ## Примеры
 
-Показывает создание разнообразных фигур.
+Демонстрирует создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная горизонтальная полупрозрачная красная линия
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -83,8 +83,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
-    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы устранить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

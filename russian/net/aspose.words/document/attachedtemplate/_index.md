@@ -3,14 +3,14 @@ title: Document.AttachedTemplate
 linktitle: AttachedTemplate
 articleTitle: AttachedTemplate
 second_title: Aspose.Words для .NET
-description: Document AttachedTemplate свойство. Получает или задает полный путь к шаблону прикрепленному к документу на С#.
+description: Узнайте, как эффективно управлять свойством Document AttachedTemplate. Легко задайте или получите полный путь к шаблону вашего документа для бесшовной интеграции.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/document/attachedtemplate/
 ---
 ## Document.AttachedTemplate property
 
-Получает или задает полный путь к шаблону, прикрепленному к документу.
+Получает или задает полный путь шаблона, прикрепленного к документу.
 
 ```csharp
 public string AttachedTemplate { get; set; }
@@ -20,11 +20,11 @@ public string AttachedTemplate { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentNullException | Выдает, если вы пытаетесь установить`нулевой` ценить. |
+| ArgumentNullException | Выбрасывает, если вы пытаетесь установить`нулевой` ценить. |
 
 ## Примечания
 
-Пустая строка означает, что документ прикреплен к обычному шаблону.
+Пустая строка означает, что документ прикреплен к шаблону Normal.
 
 ## Примеры
 
@@ -33,14 +33,14 @@ public string AttachedTemplate { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Включаем автоматическое обновление стилей, но не прикрепляем документ-шаблон.
+// Включить автоматическое обновление стилей, но не прикреплять шаблон документа.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Поскольку документа-шаблона нет, в документе негде было отслеживать изменения стиля.
+// Поскольку шаблон документа отсутствует, документу негде отслеживать изменения стиля.
 // Используйте объект SaveOptions для автоматической установки шаблона
-// если в документе, который мы сохраняем, его нет.
+// если документ, который мы сохраняем, не имеет такового.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

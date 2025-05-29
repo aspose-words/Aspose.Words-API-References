@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.XmlMapping
 linktitle: XmlMapping
 articleTitle: XmlMapping
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart XmlMapping свойство. Получает объект который представляет сопоставление диапазона тегов структурированного документа с XMLданными в пользовательской XMLчасти текущего документа на С#.
+description: Узнайте, как свойство StructuredDocumentTagRangeStart XmlMapping связывает диапазон тегов вашего документа с пользовательскими XML-данными, улучшая интеграцию документов.
 type: docs
-weight: 180
+weight: 190
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
 ---
 ## StructuredDocumentTagRangeStart.XmlMapping property
 
-Получает объект, который представляет сопоставление диапазона тегов структурированного документа с XML-данными в пользовательской XML-части текущего документа.
+Возвращает объект, представляющий сопоставление этого структурированного диапазона тегов документа с XML-данными в пользовательской части XML текущего документа.
 
 ```csharp
 public XmlMapping XmlMapping { get; }
@@ -18,16 +18,16 @@ public XmlMapping XmlMapping { get; }
 
 ## Примечания
 
-Вы можете использовать[`SetMapping`](../../xmlmapping/setmapping/) метод объекта this для сопоставления диапазона тегов структурированного документа с данными XML.
+Вы можете использовать[`SetMapping`](../../xmlmapping/setmapping/) Метод объекта this для сопоставления структурированного диапазона тегов документа с данными XML.
 
 ## Примеры
 
-Показывает, как настроить сопоставления XML для начала диапазона тега структурированного документа.
+Показывает, как задать сопоставления XML для начала диапазона структурированного тега документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
 
-// Создайте часть XML, содержащую текст, и добавьте ее в коллекцию CustomXmlPart документа.
+// Создаем часть XML, содержащую текст, и добавляем ее в коллекцию CustomXmlPart документа.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -35,12 +35,12 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>",
     Encoding.UTF8.GetString(xmlPart.Data));
 
-// Создаем структурированный тег документа, который будет отображать содержимое нашей CustomXmlPart в документе.
+// Создаем структурированный тег документа, который будет отображать содержимое нашего CustomXmlPart в документе.
 StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true);
 
-// Если мы установим сопоставление для нашего тега структурированного документа,
-// будет отображаться только часть CustomXmlPart, на которую указывает XPath.
-// Этот XPath будет указывать на второй "<text>" содержимого. элемент первого "<root>" элемент нашего CustomXmlPart.
+// Если мы установим сопоставление для нашего структурированного тега документа,
+// он отобразит только ту часть CustomXmlPart, на которую указывает XPath.
+// Этот XPath будет указывать на содержимое второго элемента "<text>" первого элемента "<root>" нашего CustomXmlPart.
 sdtRangeStart.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", null);
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXmlMapping.docx");

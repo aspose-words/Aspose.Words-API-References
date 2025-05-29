@@ -3,14 +3,14 @@ title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions ApplyFont свойство. Форматирование текста примененное к новому содержимому на С#.
+description: Откройте для себя свойство ApplyFont в FindReplaceOptions для бесшовного форматирования текста. Улучшите свой контент с помощью индивидуальных стилей без усилий!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
 ## FindReplaceOptions.ApplyFont property
 
-Форматирование текста, примененное к новому содержимому.
+Форматирование текста применено к новому контенту.
 
 ```csharp
 public Font ApplyFont { get; }
@@ -18,7 +18,7 @@ public Font ApplyFont { get; }
 
 ## Примеры
 
-Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
+Показывает, как применить другой шрифт к новому контенту с помощью FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -33,7 +33,7 @@ public void ConvertNumbersToHexadecimal()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
+    // Задайте свойству "HighlightColor" цвет фона, который мы хотим применить к результирующему тексту операции.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,8 +51,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведёт журнал каждой замены.
+/// Заменяет числовые совпадения поиска и замены на их шестнадцатеричные эквиваленты.
+/// Ведет журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

@@ -3,14 +3,14 @@ title: BorderCollection.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
 second_title: Aspose.Words для .NET
-description: BorderCollection DistanceFromText свойство. Получает или задает расстояние границы от текста в пунктах на С#.
+description: Откройте для себя свойство BorderCollection DistanceFromText, чтобы легко настроить интервал между границами текста в ваших дизайнах. Оптимизируйте свой макет без усилий!
 type: docs
 weight: 40
 url: /ru/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-Получает или задает расстояние границы от текста в пунктах.
+Возвращает или задает расстояние границы от текста в пунктах.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -18,11 +18,11 @@ public double DistanceFromText { get; set; }
 
 ## Примечания
 
-Получает расстояние от текста для первой границы.
+Получает расстояние от текста до первой границы.
 
 Устанавливает расстояние от текста для всех границ в коллекции, за исключением диагональных границ.
 
-Не имеет никакого эффекта и будет автоматически сбрасываться до нуля для границ ячеек таблицы.
+Не оказывает никакого эффекта и будет автоматически сброшено до нуля для границ ячеек таблицы.
 
 ## Примеры
 

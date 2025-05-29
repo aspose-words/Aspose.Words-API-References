@@ -3,14 +3,14 @@ title: ListTrailingCharacter Enum
 linktitle: ListTrailingCharacter
 articleTitle: ListTrailingCharacter
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Lists.ListTrailingCharacter перечисление. Указывает символ отделяющий метку списка от текста абзаца на С#.
+description: Откройте для себя перечисление Aspose.Words.Lists.ListTrailingCharacter, чтобы настраивать метки списков и улучшать форматирование абзацев для безупречного представления документа.
 type: docs
-weight: 3540
+weight: 3990
 url: /ru/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
 
-Указывает символ, отделяющий метку списка от текста абзаца.
+Указывает символ, который отделяет метку списка от текста абзаца.
 
 ```csharp
 public enum ListTrailingCharacter
@@ -21,25 +21,25 @@ public enum ListTrailingCharacter
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Tab | `0` | Символ табуляции помещается между меткой списка и текстом абзаца. |
-| Space | `1` | Между меткой списка и текстом абзаца помещается пробел. |
-| Nothing | `2` | Между меткой списка и текстом абзаца нет символа-разделителя. |
+| Space | `1` | Между меткой списка и текстом абзаца ставится пробел. |
+| Nothing | `2` | Между меткой списка и текстом абзаца нет разделительного символа. |
 
 ## Примечания
 
-Используется в качестве значения для[`TrailingCharacter`](../listlevel/trailingcharacter/) свойство.
+Используется как значение для[`TrailingCharacter`](../listlevel/trailingcharacter/) свойство.
 
 ## Примеры
 
-Показывает, как применить пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
+Показывает, как применять пользовательское форматирование списка к абзацам при использовании DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Список позволяет нам организовывать и украшать наборы абзацев префиксными символами и отступами.
+// Список позволяет нам организовывать и украшать наборы абзацев с помощью префиксных символов и отступов.
  // Мы можем создавать вложенные списки, увеличивая уровень отступа.
- // Мы можем начать и закончить список, используя свойство ListFormat конструктора документов.
-// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом списка.
-// Создайте список из шаблона Microsoft Word и настройте первые два уровня его списка.
+ // Мы можем начать и закончить список, используя свойство "ListFormat" конструктора документов.
+// Каждый абзац, который мы добавляем между началом и концом списка, станет элементом в списке.
+// Создайте список из шаблона Microsoft Word и настройте первые два уровня списка.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -65,7 +65,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования списка.
+// Создаем абзацы и применяем к ним оба уровня списка нашего пользовательского форматирования.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

@@ -3,7 +3,7 @@ title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
 articleTitle: ExportGeneratorName
 second_title: Aspose.Words для .NET
-description: SaveOptions ExportGeneratorName свойство. Когдаистинный  приводит к внедрению имени и версии Aspose.Words в создаваемые файлы. Значение по умолчаниюистинный  на С#.
+description: Улучшите свои документы с помощью свойства SaveOptions ExportGeneratorName. Вставьте имя и версию Aspose.Words для лучшей прослеживаемости. По умолчанию — true.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/saveoptions/exportgeneratorname/

@@ -3,14 +3,14 @@ title: TextBox.Next
 linktitle: Next
 articleTitle: Next
 second_title: Aspose.Words для .NET
-description: TextBox Next свойство. Возвращает или устанавливаетTextBox который представляет собой следующийTextBox в последовательности фигур на С#.
+description: Узнайте, как свойство TextBox Next улучшает ваш рабочий процесс проектирования, легко связывая текстовые поля в ваших проектах для лучшей организации.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Возвращает или устанавливает[`TextBox`](../) который представляет собой следующий[`TextBox`](../) в последовательности фигур.
+Возвращает или устанавливает[`TextBox`](../) который представляет собой следующий[`TextBox`](../)в последовательности фигур.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -18,7 +18,7 @@ public TextBox Next { get; set; }
 
 ## Примеры
 
-Показывает, как связать текстовые поля.
+Показывает, как связывать текстовые поля.
 
 ```csharp
 Document doc = new Document();
@@ -39,14 +39,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Создаем ссылки между некоторыми текстовыми полями.
+// Создайте связи между некоторыми текстовыми полями.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Только пустое текстовое поле может иметь ссылку.
+// Ссылку можно разместить только в пустом текстовом поле.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Разрыв прямой ссылки между textBox2 и textBox3, а затем проверяем, что они больше не связаны.
+    // Разорвать прямую ссылку между textBox2 и textBox3, а затем убедиться, что они больше не связаны.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

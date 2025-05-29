@@ -3,7 +3,7 @@ title: List.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: List Document свойство. Получает документ владельца на С#.
+description: Узнайте, как составить список свойств документа и получить доступ к сведениям о владельце без усилий. Раскройте свой потенциал управления документами сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lists/list/document/
@@ -22,7 +22,7 @@ public DocumentBase Document { get; }
 
 ## Примеры
 
-Показывает, как проверить свойства документов владельцев списков.
+Показывает, как проверить свойства документа владельца списков.
 
 ```csharp
 Document doc = new Document();

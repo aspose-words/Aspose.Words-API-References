@@ -3,14 +3,14 @@ title: FieldToc.EntryIdentifier
 linktitle: EntryIdentifier
 articleTitle: EntryIdentifier
 second_title: Aspose.Words для .NET
-description: FieldToc EntryIdentifier свойство. Получает или задает строку которая должна соответствовать идентификаторам типов включаемых полей TC на С#.
+description: Узнайте, как свойство FieldToc EntryIdentifier оптимизирует управление полями TC, легко сопоставляя идентификаторы типов для эффективной организации данных.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldtoc/entryidentifier/
 ---
 ## FieldToc.EntryIdentifier property
 
-Получает или задает строку, которая должна соответствовать идентификаторам типов включаемых полей TC.
+Возвращает или задает строку, которая должна соответствовать идентификаторам типов включаемых полей TC.
 
 ```csharp
 public string EntryIdentifier { get; set; }
@@ -18,7 +18,7 @@ public string EntryIdentifier { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле TOC и отфильтровать поля TC, которые в конечном итоге станут записями.
+Показывает, как вставить поле TOC и отфильтровать, какие поля TC в конечном итоге станут записями.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Вставьте поле TOC, которое скомпилирует все поля TC в оглавление.
+    // Вставьте поле TOC, которое объединит все поля TC в таблицу содержания.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Настройте поле только для получения записей TC типа «A» и уровня записи от 1 до 3.
+    // Настройте поле только для выбора записей TC типа «A» и уровня записи от 1 до 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -42,10 +42,10 @@ public void FieldTocEntryIdentifier()
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Эта запись будет опущена в таблице, поскольку ее тип отличается от «A».
+    // Эта запись будет исключена из таблицы, поскольку ее тип отличается от «A».
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
-    // Эта запись будет исключена из таблицы, поскольку ее уровень записи находится за пределами диапазона 1-3.
+    // Эта запись будет исключена из таблицы, поскольку ее уровень входа находится за пределами диапазона 1-3.
     InsertTocEntry(builder, "TC field 4", "A", "5");
 
     doc.UpdateFields();
@@ -53,7 +53,7 @@ public void FieldTocEntryIdentifier()
 }
 
 /// <summary>
-/// Используйте конструктор документов, чтобы вставить поле TC.
+/// Используйте конструктор документов для вставки поля TC.
 /// </summary>
 public void InsertTocEntry(DocumentBuilder builder, string text, string typeIdentifier, string entryLevel)
 {

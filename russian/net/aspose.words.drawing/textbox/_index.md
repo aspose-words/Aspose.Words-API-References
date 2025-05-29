@@ -3,16 +3,16 @@ title: TextBox Class
 linktitle: TextBox
 articleTitle: TextBox
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.TextBox сорт. Определяет атрибуты которые определяют как текст отображается внутри фигуры на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.TextBox, который позволяет легко настраивать отображение текста внутри фигур, улучшая визуальную привлекательность и функциональность вашего документа.
 type: docs
-weight: 1320
+weight: 1730
 url: /ru/net/aspose.words.drawing/textbox/
 ---
 ## TextBox class
 
-Определяет атрибуты, которые определяют, как текст отображается внутри фигуры.
+Определяет атрибуты, которые указывают, как текст отображается внутри фигуры.
 
-Чтобы узнать больше, посетите[Работа с фигурами](https://docs.aspose.com/words/net/working-with-shapes/) статья документации.
+Чтобы узнать больше, посетите[Работа с фигурами](https://docs.aspose.com/words/net/working-with-shapes/) документальная статья.
 
 ```csharp
 public class TextBox
@@ -22,29 +22,29 @@ public class TextBox
 
 | Имя | Описание |
 | --- | --- |
-| [FitShapeToText](../../aspose.words.drawing/textbox/fitshapetotext/) { get; set; } | Определяет, будет ли Microsoft Word увеличивать форму до размера текста. |
-| [InternalMarginBottom](../../aspose.words.drawing/textbox/internalmarginbottom/) { get; set; } | Определяет внутреннее нижнее поле фигуры в пунктах. |
-| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft/) { get; set; } | Определяет внутреннее левое поле фигуры в пунктах. |
-| [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | Определяет внутреннее правое поле фигуры в пунктах. |
-| [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | Определяет внутреннее верхнее поле фигуры в пунктах. |
-| [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | Определяет расположение текста в фигуре. |
-| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Возвращает или устанавливает`TextBox` который представляет собой следующий`TextBox` в последовательности фигур. |
-| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | Получает или задает логическое значение, указывающее, что текст TextBox не должен вращаться при повороте фигуры. |
-| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Получает родительскую фигуру для`TextBox` . |
-| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Возвращает`TextBox` который представляет собой предыдущий`TextBox` в последовательности фигур. |
-| [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Определяет, как текст переносится внутри фигуры. |
-| [VerticalAnchor](../../aspose.words.drawing/textbox/verticalanchor/) { get; set; } | Определяет вертикальное выравнивание текста внутри фигуры. |
+| [FitShapeToText](../../aspose.words.drawing/textbox/fitshapetotext/) { get; set; } | Определяет, будет ли Microsoft Word увеличивать фигуру, чтобы вместить текст. |
+| [InternalMarginBottom](../../aspose.words.drawing/textbox/internalmarginbottom/) { get; set; } | Указывает внутреннее нижнее поле в пунктах для фигуры. |
+| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft/) { get; set; } | Указывает внутреннее левое поле в пунктах для фигуры. |
+| [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | Указывает внутреннее правое поле в пунктах для фигуры. |
+| [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | Указывает внутреннее верхнее поле в пунктах для фигуры. |
+| [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | Определяет поток текста в макете фигуры. |
+| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Возвращает или устанавливает`TextBox` который представляет собой следующий`TextBox`в последовательности фигур. |
+| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | Возвращает или задает логическое значение, указывающее, что текст TextBox не должен вращаться при повороте фигуры. |
+| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Получает родительскую форму для`TextBox` . |
+| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Возвращает`TextBox` который представляет предыдущий`TextBox`в последовательности фигур. |
+| [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Определяет, как текст обтекает фигуру. |
+| [VerticalAnchor](../../aspose.words.drawing/textbox/verticalanchor/) { get; set; } | Задает вертикальное выравнивание текста внутри фигуры. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Разрывает ссылку на следующий`TextBox` . |
-| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Определяет, является ли это`TextBox` может быть привязан к цели`TextBox` . |
+| [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Определяет, является ли это`TextBox` может быть связан с целью`TextBox` . |
 
 ## Примечания
 
-Использовать[`TextBox`](../shape/textbox/) свойство для доступа к текстовым свойствам фигуры. Вы не создаете экземпляры`TextBox` класс напрямую.
+Используйте[`TextBox`](../shape/textbox/) свойство для доступа к текстовым свойствам фигуры. Вы не создаете экземпляры`TextBox` класс напрямую.
 
 ## Примеры
 
@@ -54,7 +54,7 @@ public class TextBox
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем еще одно текстовое поле с определенными полями.
+// Вставьте еще одно текстовое поле с определенными полями.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;
@@ -82,13 +82,13 @@ builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Установите свойство LayoutFlow, чтобы задать ориентацию текстового содержимого этого текстового поля.
+// Установите свойство "LayoutFlow", чтобы задать ориентацию текстового содержимого этого текстового поля.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 ```
 
-Показывает, как изменить размер текстового поля, чтобы оно плотно вписывалось в его содержимое.
+Показывает, как изменить размер текстового поля, чтобы оно полностью вмещало его содержимое.
 
 ```csharp
 Document doc = new Document();
@@ -97,8 +97,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Применяем эти значения к обоим элементам, чтобы родительская фигура соответствовала размеру
-// плотно окружает текстовое содержимое, игнорируя установленные нами размеры.
+// Применяем эти значения к обоим членам, чтобы подогнать родительскую форму
+// плотно обхватывает текстовое содержимое, игнорируя заданные нами размеры.
 textBox.FitShapeToText = true;
 textBox.TextBoxWrapMode = TextBoxWrapMode.None;
 

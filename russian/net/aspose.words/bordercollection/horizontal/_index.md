@@ -3,7 +3,7 @@ title: BorderCollection.Horizontal
 linktitle: Horizontal
 articleTitle: Horizontal
 second_title: Aspose.Words для .NET
-description: BorderCollection Horizontal свойство. Получает горизонтальную границу которая используется между ячейками или соответствующими абзацами на С#.
+description: Откройте для себя свойство BorderCollection Horizontal для бесшовных границ ячеек и абзацев. Улучшите свой макет с помощью идеального выравнивания и стиля!
 type: docs
 weight: 50
 url: /ru/net/aspose.words/bordercollection/horizontal/
@@ -18,20 +18,20 @@ public Border Horizontal { get; }
 
 ## Примеры
 
-Показывает, как применить настройки к горизонтальным границам формата абзаца.
+Показывает, как применить настройки горизонтальных границ к формату абзаца.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем красную горизонтальную рамку для абзаца. Любые абзацы, созданные впоследствии, унаследуют эти настройки границ.
+// Создаем красную горизонтальную границу для абзаца. Все абзацы, созданные позже, унаследуют эти настройки границ.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
-// Запись текста в документ без последующего создания нового абзаца.
-// Поскольку внизу нет абзаца, горизонтальная граница не будет видна.
+// Записываем текст в документ, не создавая после этого новый абзац.
+// Поскольку абзаца внизу нет, горизонтальная граница не будет видна.
 builder.Write("Paragraph above horizontal border.");
 
 // Как только мы добавим второй абзац, граница первого абзаца станет видимой.
@@ -41,13 +41,13 @@ builder.Write("Paragraph below horizontal border.");
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-Показывает, как применить настройки к вертикальным границам формата строки таблицы.
+Показывает, как применить настройки вертикальных границ к формату строки таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаём таблицу с красной и синей внутренней рамкой.
+// Создаем таблицу с красными и синими внутренними границами.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -60,12 +60,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Настраиваем внешний вид границ между строками.
+    // Настройте внешний вид границ, которые будут отображаться между строками.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Настраиваем внешний вид границ между ячейками.
+    // Настройте внешний вид границ, которые будут отображаться между ячейками.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
