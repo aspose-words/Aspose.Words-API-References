@@ -3,7 +3,7 @@ title: BorderCollection.Left
 linktitle: Left
 articleTitle: Left
 second_title: Aspose.Words per .NET
-description: BorderCollection Left proprietà. Ottiene il bordo sinistro in C#.
+description: Scopri la proprietà BorderCollection Left, accedi e personalizza senza sforzo il bordo sinistro per una maggiore flessibilità di progettazione e un impatto visivo più gradevole.
 type: docs
 weight: 70
 url: /it/net/aspose.words/bordercollection/left/
@@ -18,7 +18,7 @@ public Border Left { get; }
 
 ## Esempi
 
-Mostra come applicare il colore del bordo e dell'ombreggiatura durante la creazione di una tabella.
+Mostra come applicare i colori dei bordi e delle ombreggiature durante la creazione di una tabella.
 
 ```csharp
 Document doc = new Document();

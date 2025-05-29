@@ -3,9 +3,9 @@ title: Document.AppendDocument
 linktitle: AppendDocument
 articleTitle: AppendDocument
 second_title: Aspose.Words per .NET
-description: Document AppendDocument metodo. Aggiunge il documento specificato alla fine di questo documento in C#.
+description: Aggiungi documenti senza sforzo con il nostro metodo "Document Append". Migliora il tuo flusso di lavoro integrando perfettamente i contenuti nei file esistenti.
 type: docs
-weight: 530
+weight: 570
 url: /it/net/aspose.words/document/appenddocument/
 ---
 ## AppendDocument(*[Document](../), [ImportFormatMode](../../importformatmode/)*) {#appenddocument}
@@ -19,7 +19,7 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | srcDoc | Document | Il documento da allegare. |
-| importFormatMode | ImportFormatMode | Specifica come unire la formattazione dello stile in conflitto. |
+| importFormatMode | ImportFormatMode | Specifica come unire la formattazione di stile in conflitto. |
 
 ## Esempi
 
@@ -32,8 +32,8 @@ srcDoc.FirstSection.Body.AppendParagraph("Source document text. ");
 Document dstDoc = new Document();
 dstDoc.FirstSection.Body.AppendParagraph("Destination document text. ");
 
-// Aggiunge il documento di origine al documento di destinazione preservandone la formattazione,
-// quindi salva il documento di origine nel file system locale.
+// Aggiungi il documento sorgente al documento di destinazione preservandone la formattazione,
+// quindi salva il documento sorgente nel file system locale.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting);
 dstDoc.Save(ArtifactsDir + "Document.AppendDocument.docx");
 ```
@@ -48,8 +48,8 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Template Document");
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Some content here");
-// Aggiungi tutti i documenti non crittografati con l'estensione .doc
-// dalla directory del nostro file system locale al documento di base.
+// Aggiungi tutti i documenti non crittografati con estensione .doc
+// dalla directory del nostro file system locale al documento base.
 List<string> docFiles = Directory.GetFiles(MyDir, "*.doc").Where(item => item.EndsWith(".doc")).ToList();
 foreach (string fileName in docFiles)
 {
@@ -85,21 +85,21 @@ public void AppendDocument(Document srcDoc, ImportFormatMode importFormatMode,
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | srcDoc | Document | Il documento da allegare. |
-| importFormatMode | ImportFormatMode | Specifica come unire la formattazione dello stile in conflitto. |
-| importFormatOptions | ImportFormatOptions | Consente di specificare le opzioni che influiscono sulla formattazione di un documento risultato. |
+| importFormatMode | ImportFormatMode | Specifica come unire la formattazione di stile in conflitto. |
+| importFormatOptions | ImportFormatOptions | Consente di specificare le opzioni che influiscono sulla formattazione di un documento risultante. |
 
 ## Esempi
 
-Mostra come gestire le interferenze tra gli stili di elenco mentre si aggiunge un clone di un documento a se stesso.
+Mostra come gestire i conflitti di stile degli elenchi durante l'aggiunta di un clone di un documento a se stesso.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List item.docx");
 Document dstDoc = new Document(MyDir + "List item.docx");
 
-// Se c'è un conflitto di stili di elenco, applica il formato elenco del documento di origine.
-// Imposta la proprietà "KeepSourceNumbering" su "false" per non importare alcun numero di elenco nel documento di destinazione.
+// In caso di conflitto di stili di elenco, applicare il formato di elenco del documento di origine.
+// Impostare la proprietà "KeepSourceNumbering" su "false" per non importare alcun numero di elenco nel documento di destinazione.
 // Imposta la proprietà "KeepSourceNumbering" su "true" per importare tutti i conflitti
-// numerazione dello stile dell'elenco con lo stesso aspetto che aveva nel documento di origine.
+// elenca la numerazione in stile con lo stesso aspetto che aveva nel documento sorgente.
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 builder.MoveToDocumentEnd();
 builder.InsertBreak(BreakType.SectionBreakNewPage);
@@ -111,7 +111,7 @@ builder.InsertDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
 dstDoc.UpdateListLabels();
 ```
 
-Mostra come gestire le interferenze tra stili di elenco durante l'inserimento di un documento.
+Mostra come gestire i conflitti di stile degli elenchi durante l'inserimento di un documento.
 
 ```csharp
 Document dstDoc = new Document();
@@ -128,10 +128,10 @@ for (int i = 1; i <= 15; i++)
 
 Document attachDoc = (Document)dstDoc.Clone(true);
 
-// Se c'è un conflitto di stili di elenco, applica il formato elenco del documento di origine.
-// Imposta la proprietà "KeepSourceNumbering" su "false" per non importare alcun numero di elenco nel documento di destinazione.
+// In caso di conflitto di stili di elenco, applicare il formato di elenco del documento di origine.
+// Impostare la proprietà "KeepSourceNumbering" su "false" per non importare alcun numero di elenco nel documento di destinazione.
 // Imposta la proprietà "KeepSourceNumbering" su "true" per importare tutti i conflitti
-// numerazione dello stile dell'elenco con lo stesso aspetto che aveva nel documento di origine.
+// elenca la numerazione in stile con lo stesso aspetto che aveva nel documento sorgente.
 ImportFormatOptions importOptions = new ImportFormatOptions();
 importOptions.KeepSourceNumbering = keepSourceNumbering;
 
@@ -141,7 +141,7 @@ builder.InsertDocument(attachDoc, ImportFormatMode.KeepSourceFormatting, importO
 dstDoc.Save(ArtifactsDir + "DocumentBuilder.InsertDocumentAndResolveStyles.docx");
 ```
 
-Mostra come gestire le interferenze tra stili di elenco durante l'aggiunta di un documento.
+Mostra come gestire i conflitti di stile degli elenchi durante l'aggiunta di un documento.
 
 ```csharp
 // Carica un documento con testo in uno stile personalizzato e clonalo.
@@ -149,13 +149,13 @@ Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
 // Ora abbiamo due documenti, ciascuno con uno stile identico denominato "CustomStyle".
-// Cambia il colore del testo per uno degli stili per distinguerlo dall'altro.
+// Cambia il colore del testo di uno degli stili per distinguerlo dall'altro.
 dstDoc.Styles["CustomStyle"].Font.Color = Color.DarkRed;
 
-// Se c'è un conflitto di stili di elenco, applica il formato elenco del documento di origine.
-// Imposta la proprietà "KeepSourceNumbering" su "false" per non importare alcun numero di elenco nel documento di destinazione.
+// In caso di conflitto di stili di elenco, applicare il formato di elenco del documento di origine.
+// Impostare la proprietà "KeepSourceNumbering" su "false" per non importare alcun numero di elenco nel documento di destinazione.
 // Imposta la proprietà "KeepSourceNumbering" su "true" per importare tutti i conflitti
-// numerazione dello stile dell'elenco con lo stesso aspetto che aveva nel documento di origine.
+// elenca la numerazione in stile con lo stesso aspetto che aveva nel documento sorgente.
 ImportFormatOptions options = new ImportFormatOptions();
 options.KeepSourceNumbering = keepSourceNumbering;
 

@@ -3,7 +3,7 @@ title: VbaModule
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words per .NET
-description: VbaModule costruttore. Crea un modulo vuoto in C#.
+description: Crea senza sforzo moduli VBA vuoti con il nostro costruttore VbaModule. Semplifica il tuo processo di codifica e migliora il tuo flusso di lavoro di sviluppo oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.vba/vbamodule/vbamodule/
@@ -34,7 +34,7 @@ module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Aggiunge il modulo al progetto VBA.
+// Aggiungere il modulo al progetto VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

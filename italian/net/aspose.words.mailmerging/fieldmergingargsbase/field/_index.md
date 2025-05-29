@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.Field
 linktitle: Field
 articleTitle: Field
 second_title: Aspose.Words per .NET
-description: FieldMergingArgsBase Field proprietà. Ottiene loggetto che rappresenta il campo di unione corrente in C#.
+description: Scopri la proprietà FieldMergingArgsBase per accedere facilmente all'oggetto campo di unione corrente. Migliora l'efficienza della tua unione dati oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/field/
@@ -52,7 +52,7 @@ public void MergeHtml()
 
 /// <summary>
 /// Se la stampa unione incontra un MERGEFIELD il cui nome inizia con il prefisso "html_",
-/// questo callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento di MERGEFIELD.
+/// questa callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento del MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -63,20 +63,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Aggiunge dati HTML analizzati al corpo del documento.
+            // Aggiungere dati HTML analizzati al corpo del documento.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
+            // non sarà necessario rispondere a questo evento restituendo contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 }
 ```

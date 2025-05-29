@@ -3,9 +3,9 @@ title: WarningType Enum
 linktitle: WarningType
 articleTitle: WarningType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.WarningType enum. Specifica il tipo di avviso emesso da Aspose.Words durante il caricamento o il salvataggio del documento in C#.
+description: Scopri l'enum Aspose.Words.WarningType, che categorizza gli avvisi durante il caricamento o il salvataggio dei documenti, migliorando l'esperienza di gestione dei documenti.
 type: docs
-weight: 6660
+weight: 7510
 url: /it/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -21,42 +21,42 @@ public enum WarningType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| DataLossCategory | `FF` | Parte del testo/carattere/immagine o altri dati mancheranno dall'albero del documento dopo il caricamento, o dal documento creato dopo il salvataggio. |
+| DataLossCategory | `FF` | Alcuni testi/caratteri/immagini o altri dati mancheranno nell'albero del documento dopo il caricamento, o nel documento creato dopo il salvataggio. |
 | DataLoss | `1` | Perdita di dati generica, nessun codice specifico. |
 | MajorFormattingLossCategory | `FF00` | Il documento risultante o una posizione particolare in esso potrebbe apparire sostanzialmente diverso rispetto al documento originale. |
-| MajorFormattingLoss | `100` | Grossa perdita di formattazione generica, nessun codice specifico. |
-| MinorFormattingLossCategory | `FF0000` | Il documento risultante o una posizione particolare in esso potrebbe apparire leggermente diversa rispetto al documento originale. |
-| MinorFormattingLoss | `10000` | Lieve perdita di formattazione generica, nessun codice specifico. |
-| FontSubstitution | `20000` | Il carattere è stato sostituito. |
-| FontEmbedding | `40000` | Perdita delle informazioni sui caratteri incorporati durante il salvataggio del documento. |
-| UnexpectedContentCategory | `F000000` | Alcuni contenuti del documento di origine non possono essere riconosciuti (ovvero non sono supportati), ciò potrebbe o meno causare problemi o provocare perdite di dati/formattazione. |
-| UnexpectedContent | `1000000` | Contenuto generico imprevisto, nessun codice specifico. |
-| Hint | `10000000` | Avverte di un potenziale problema o suggerisce un miglioramento. |
+| MajorFormattingLoss | `100` | Perdita di formattazione importante generica, nessun codice specifico. |
+| MinorFormattingLossCategory | `FF0000` | Il documento risultante o una posizione particolare in esso potrebbe apparire leggermente diverso rispetto al documento originale. |
+| MinorFormattingLoss | `10000` | Perdita di formattazione minore generica, nessun codice specifico. |
+| FontSubstitution | `20000` | Il font è stato sostituito. |
+| FontEmbedding | `40000` | Perdita di informazioni sui font incorporati durante il salvataggio del documento. |
+| UnexpectedContentCategory | `F000000` | Alcuni contenuti nel documento di origine non sono stati riconosciuti (ovvero non sono supportati); ciò potrebbe causare problemi o causare perdite di dati/formattazione. |
+| UnexpectedContent | `1000000` | Contenuto generico inaspettato, nessun codice specifico. |
+| Hint | `10000000` | Segnala un potenziale problema o suggerisce un miglioramento. |
 
 ## Esempi
 
-Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un carattere mancante tra le origini dei caratteri disponibili.
+Mostra come impostare la proprietà per trovare la corrispondenza più vicina per un font mancante tra le sorgenti di font disponibili.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Apre un documento che contiene testo formattato con un carattere che non esiste in nessuna delle nostre fonti di caratteri.
+    // Apre un documento contenente testo formattato con un font che non esiste in nessuna delle nostre fonti di font.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Assegna una richiamata per gestire gli avvisi di sostituzione dei caratteri.
+    // Assegna un callback per gestire gli avvisi di sostituzione dei font.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Imposta un nome di carattere predefinito e abilita la sostituzione del carattere.
+    // Imposta un nome di font predefinito e abilita la sostituzione dei font.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Le metriche dei caratteri originali devono essere utilizzate dopo la sostituzione dei caratteri.
+    // Dopo la sostituzione del font, è necessario utilizzare le metriche originali.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Riceveremo un avviso di sostituzione del carattere se salviamo un documento con un carattere mancante.
+    // Se salviamo un documento con un font mancante, riceveremo un avviso di sostituzione del font.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -72,7 +72,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

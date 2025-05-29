@@ -3,14 +3,14 @@ title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words per .NET
-description: ListLabel Font proprietà. Ottiene il carattere delletichetta dellelenco in C#.
+description: Scopri la proprietà Font ListLabel per personalizzare lo stile del font dell'etichetta dell'elenco e migliorare il design con un tocco professionale.
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/listlabel/font/
 ---
 ## ListLabel.Font property
 
-Ottiene il carattere dell'etichetta dell'elenco.
+Ottiene il font dell'etichetta dell'elenco.
 
 ```csharp
 public Font Font { get; }

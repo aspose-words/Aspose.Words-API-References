@@ -3,9 +3,9 @@ title: ShapeBase.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words per .NET
-description: ShapeBase ScreenTip proprietà. Definisce il testo visualizzato quando il puntatore del mouse si sposta sulla forma in C#.
+description: Scopri la proprietà ShapeBase ScreenTip e migliora l'esperienza utente personalizzando il testo della descrizione comandi che appare quando si passa il mouse sulle forme.
 type: docs
-weight: 480
+weight: 510
 url: /it/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
@@ -22,7 +22,7 @@ Il valore predefinito è una stringa vuota.
 
 ## Esempi
 
-Mostra come inserire una forma che contiene un'immagine ed è anche un collegamento ipertestuale.
+Mostra come inserire una forma che contiene un'immagine e che è anche un collegamento ipertestuale.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + facendo clic con il pulsante sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
-// e portaci al collegamento ipertestuale nella proprietà "HRef".
+// Facendo clic con il tasto sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
+// e ci porta al collegamento ipertestuale nella proprietà "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

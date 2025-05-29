@@ -3,14 +3,14 @@ title: FrameFormat.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
 second_title: Aspose.Words per .NET
-description: FrameFormat VerticalPosition proprietà. Ottiene la distanza verticale tra il bordo del frame e lelemento specificato daRelativeVerticalPosition proprietà in C#.
+description: Scopri la proprietà FrameFormat VerticalPosition, che misura la distanza verticale tra il bordo della cornice e l'elemento specificato, migliorando la precisione del layout.
 type: docs
 weight: 110
 url: /it/net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property
 
-Ottiene la distanza verticale tra il bordo del frame e l'elemento specificato da[`RelativeVerticalPosition`](../relativeverticalposition/) proprietà.
+Ottiene la distanza verticale tra il bordo della cornice e l'elemento specificato da[`RelativeVerticalPosition`](../relativeverticalposition/) proprietà.
 
 ```csharp
 public double VerticalPosition { get; }

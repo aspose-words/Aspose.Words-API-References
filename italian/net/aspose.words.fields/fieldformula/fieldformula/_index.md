@@ -3,7 +3,7 @@ title: FieldFormula
 linktitle: FieldFormula
 articleTitle: FieldFormula
 second_title: Aspose.Words per .NET
-description: FieldFormula costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore FieldFormula, la soluzione ideale per creare formule robuste senza sforzo. Sblocca potenti funzionalità con il nostro costruttore predefinito!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldformula/fieldformula/

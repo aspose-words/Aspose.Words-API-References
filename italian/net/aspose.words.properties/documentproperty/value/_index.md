@@ -3,7 +3,7 @@ title: DocumentProperty.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words per .NET
-description: DocumentProperty Value proprietà. Ottiene o imposta il valore della proprietà in C#.
+description: Scopri come gestire in modo efficiente i valori DocumentProperty: recupera o aggiorna facilmente i valori delle proprietà per un maggiore controllo dei documenti e una maggiore produttività.
 type: docs
 weight: 50
 url: /it/net/aspose.words.properties/documentproperty/value/
@@ -18,11 +18,11 @@ public object Value { get; set; }
 
 ## Osservazioni
 
-Non può essere`nullo`.
+Non può essere`null`.
 
 ## Esempi
 
-Mostra come lavorare con le proprietà del documento integrate.
+Mostra come lavorare con le proprietà integrate del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");

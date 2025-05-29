@@ -3,9 +3,9 @@ title: DocSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words per .NET
-description: DocSaveOptions Password proprietà. Ottiene/imposta una password per crittografare il documento utilizzando il metodo di crittografia RC4 in C#.
+description: Proteggi i tuoi documenti con DocSaveOptions! Imposta o recupera facilmente una password per la crittografia RC4 per proteggere le tue informazioni sensibili.
 type: docs
-weight: 30
+weight: 40
 url: /it/net/aspose.words.saving/docsaveoptions/password/
 ---
 ## DocSaveOptions.Password property
@@ -18,11 +18,11 @@ public string Password { get; set; }
 
 ## Osservazioni
 
-Per salvare il documento senza crittografia, questa proprietà dovrebbe essere`nullo` o stringa vuota.
+Per salvare il documento senza crittografia questa proprietà dovrebbe essere`null` o stringa vuota.
 
 ## Esempi
 
-Mostra come impostare le opzioni di salvataggio per i formati Microsoft Word precedenti.
+Mostra come impostare le opzioni di salvataggio per i vecchi formati di Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -31,11 +31,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Imposta una password che proteggerà il caricamento del documento da Microsoft Word o Aspose.Words.
+// Imposta una password che proteggerà il caricamento del documento da parte di Microsoft Word o Aspose.Words.
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una bolla di accompagnamento, possiamo conservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

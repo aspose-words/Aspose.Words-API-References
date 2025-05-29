@@ -3,7 +3,7 @@ title: OutlineOptions
 linktitle: OutlineOptions
 articleTitle: OutlineOptions
 second_title: Aspose.Words per .NET
-description: OutlineOptions costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore OutlineOptions, un potente strumento predefinito per una gestione efficiente degli outline nelle tue applicazioni. Migliora la tua esperienza di programmazione oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/outlineoptions/outlineoptions/

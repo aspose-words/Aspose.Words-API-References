@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words per .NET
-description: NodeRendererBase RenderToScale metodo. Rende la forma in aGraphics oggetto su una scala specificata in C#.
+description: Scopri il metodo RenderToScale di NodeRendererBase: trasforma in modo efficiente le forme in oggetti grafici a qualsiasi scala per un output visivo migliorato.
 type: docs
 weight: 70
 url: /it/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-Rende la forma in aGraphics oggetto su una scala specificata.
+Rende la forma in unGraphics oggetto a una scala specificata.
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -18,14 +18,14 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| graphics | Graphics | L'oggetto su cui eseguire il rendering. |
-| x | Single | La coordinata X (in unità globali) dell'angolo superiore sinistro della forma renderizzata. |
-| y | Single | La coordinata Y (in unità globali) dell'angolo superiore sinistro della forma renderizzata. |
-| scale | Single | La scala per il rendering della forma (1.0 è 100%). |
+| graphics | Graphics | L'oggetto su cui effettuare il rendering. |
+| x | Single | Coordinata X (in unità mondiali) dell'angolo in alto a sinistra della forma renderizzata. |
+| y | Single | Coordinata Y (in unità mondiali) dell'angolo in alto a sinistra della forma renderizzata. |
+| scale | Single | Scala per il rendering della forma (1,0 è 100%). |
 
 ### Valore di ritorno
 
-La larghezza e l'altezza (in unità globali) della forma renderizzata.
+Larghezza e altezza (in unità mondiali) della forma renderizzata.
 
 ## Esempi
 
@@ -39,8 +39,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma su un oggetto Graphics.
-    // 1 - Crea una forma con un grafico e renderla su una scala specifica.
+    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma in un oggetto Graphics.
+    // 1 - Crea una forma con un grafico e visualizzala in una scala specifica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -51,7 +51,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Crea un gruppo di forme e rendilo a una dimensione specifica.
+    // 2 - Crea un gruppo di forme e rendilo di una dimensione specifica.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -81,7 +81,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Renderizza e visualizza un elenco di forme.
+/// Esegue il rendering e visualizza un elenco di forme.
 /// </summary>
 private class ShapeForm : Form
 {

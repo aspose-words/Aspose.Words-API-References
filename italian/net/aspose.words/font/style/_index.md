@@ -3,14 +3,14 @@ title: Font.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words per .NET
-description: Font Style proprietà. Ottiene o imposta lo stile di carattere applicato a questa formattazione in C#.
+description: Scopri come utilizzare la proprietà Stile carattere per personalizzare gli stili dei caratteri nella formattazione, migliorando l'aspetto e la leggibilità del testo.
 type: docs
-weight: 400
+weight: 410
 url: /it/net/aspose.words/font/style/
 ---
 ## Font.Style property
 
-Ottiene o imposta lo stile di carattere applicato a questa formattazione.
+Ottiene o imposta lo stile del carattere applicato a questa formattazione.
 
 ```csharp
 public Style Style { get; set; }
@@ -18,7 +18,7 @@ public Style Style { get; set; }
 
 ## Esempi
 
-Applica una doppia sottolineatura a tutte le sequenze in un documento formattato con stili di carattere personalizzati.
+Applica una doppia sottolineatura a tutti i caratteri di un documento formattati con stili di carattere personalizzati.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ style.Font.Name = "Courier New";
 builder.Font.StyleName = "MyStyle";
 builder.Write("This text is in a custom style.");
 
-// Itera su ogni esecuzione e aggiunge una doppia sottolineatura a ogni stile personalizzato.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Esegui l'iterazione su ogni esecuzione e aggiungi una doppia sottolineatura a ogni stile personalizzato.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     Style charStyle = run.Font.Style;
 

@@ -3,14 +3,14 @@ title: ListLevel.DeletePictureBullet
 linktitle: DeletePictureBullet
 articleTitle: DeletePictureBullet
 second_title: Aspose.Words per .NET
-description: ListLevel DeletePictureBullet metodo. Elimina limmagine puntata per il livello di elenco corrente in C#.
+description: Rimuovi facilmente i punti elenco immagine dal tuo livello di elenco attuale con il metodo ListLevel DeletePictureBullet. Semplifica la formattazione dei tuoi documenti oggi stesso!
 type: docs
 weight: 160
 url: /it/net/aspose.words.lists/listlevel/deletepicturebullet/
 ---
 ## ListLevel.DeletePictureBullet method
 
-Elimina l'immagine puntata per il livello di elenco corrente.
+Elimina il punto elenco dell'immagine per il livello di elenco corrente.
 
 ```csharp
 public void DeletePictureBullet()
@@ -18,11 +18,11 @@ public void DeletePictureBullet()
 
 ## Osservazioni
 
-Il punto elenco predefinito verrà visualizzato dopo l'eliminazione.
+Dopo l'eliminazione verrà visualizzato il punto elenco predefinito.
 
 ## Esempi
 
-Mostra come impostare un'icona immagine personalizzata per le etichette degli elementi dell'elenco.
+Mostra come impostare un'icona immagine personalizzata per le etichette delle voci di elenco.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Document doc = new Document();
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
 // Crea un punto elenco immagine per il livello di elenco corrente e imposta un'immagine da un file system locale
-// come icona che verrà visualizzata dai punti elenco per questo livello di elenco.
+// come l'icona che verrà visualizzata dai punti elenco per questo livello di elenco.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

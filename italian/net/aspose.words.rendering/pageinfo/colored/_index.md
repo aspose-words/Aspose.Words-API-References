@@ -3,7 +3,7 @@ title: PageInfo.Colored
 linktitle: Colored
 articleTitle: Colored
 second_title: Aspose.Words per .NET
-description: PageInfo Colored proprietà. RestituisceVERO se la pagina contiene contenuti colorati in C#.
+description: Scopri se la tua pagina presenta contenuti dai colori vivaci con la proprietà PageInfo Colored. Aumenta il coinvolgimento degli utenti e migliora l'aspetto visivo!
 type: docs
 weight: 10
 url: /it/net/aspose.words.rendering/pageinfo/colored/
@@ -18,7 +18,7 @@ public bool Colored { get; }
 
 ## Esempi
 
-Mostra come verificare se la pagina è a colori o meno.
+Mostra come verificare se la pagina è a colori oppure no.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

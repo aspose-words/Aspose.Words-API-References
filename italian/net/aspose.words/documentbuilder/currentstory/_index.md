@@ -3,7 +3,7 @@ title: DocumentBuilder.CurrentStory
 linktitle: CurrentStory
 articleTitle: CurrentStory
 second_title: Aspose.Words per .NET
-description: DocumentBuilder CurrentStory proprietà. Ottiene la storia attualmente selezionata in questoDocumentBuilder  in C#.
+description: Scopri la proprietà CurrentStory di DocumentBuilder per accedere e gestire in modo efficiente la storia selezionata, migliorando così l'esperienza di modifica dei documenti.
 type: docs
 weight: 70
 url: /it/net/aspose.words/documentbuilder/currentstory/
@@ -18,20 +18,20 @@ public Story CurrentStory { get; }
 
 ## Esempi
 
-Mostra come lavorare con la storia attuale di un generatore di documenti.
+Mostra come lavorare con la storia corrente di un generatore di documenti.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Una Storia è un tipo di nodo che ha nodi Paragrafo secondari, come un Corpo.
+// Una storia è un tipo di nodo che ha nodi Paragrafo figlio, come un corpo.
 Assert.AreEqual(builder.CurrentStory, doc.FirstSection.Body);
 Assert.AreEqual(builder.CurrentStory, builder.CurrentParagraph.ParentNode);
 Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);
 
 builder.CurrentStory.AppendParagraph("Text added to current Story.");
 
-// Una Storia può contenere anche tabelle.
+// Una storia può contenere anche tabelle.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1");

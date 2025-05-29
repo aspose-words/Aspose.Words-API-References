@@ -3,14 +3,14 @@ title: IFieldMergingCallback.FieldMerging
 linktitle: FieldMerging
 articleTitle: FieldMerging
 second_title: Aspose.Words per .NET
-description: IFieldMergingCallback FieldMerging metodo. Chiamato quando il motore di stampa unione Aspose.Words sta per inserire i dati in un campo di unione nel documento in C#.
+description: Ottimizza i flussi di lavoro dei tuoi documenti con il metodo iFieldMergingCallback. Integra perfettamente i dati nei campi di stampa unione di Aspose.Words per una maggiore efficienza.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/
 ---
 ## IFieldMergingCallback.FieldMerging method
 
-Chiamato quando il motore di stampa unione Aspose.Words sta per inserire i dati in un campo di unione nel documento.
+Chiamato quando il motore di stampa unione Aspose.Words sta per inserire dati in un campo di unione nel documento.
 
 ```csharp
 public void FieldMerging(FieldMergingArgs args)
@@ -18,7 +18,7 @@ public void FieldMerging(FieldMergingArgs args)
 
 ## Esempi
 
-Mostra come inserire in un report le immagini archiviate in un campo BLOB del database.
+Mostra come inserire in un report le immagini memorizzate in un campo BLOB del database.
 
 ```csharp
 public void ImageFromBlob()
@@ -34,7 +34,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Apre il lettore dati, che deve essere in una modalità che legga tutti i record contemporaneamente.
+        // Aprire il lettore dati, che deve essere in una modalità che legge tutti i record contemporaneamente.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -48,11 +48,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 
     /// <summary>
-    /// Viene chiamato quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Immagine:" nel suo nome.
+    /// Questa funzione viene chiamata quando una stampa unione incontra un MERGEFIELD nel documento con un tag "Image:" nel nome.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -96,7 +96,7 @@ public void MergeHtml()
 
 /// <summary>
 /// Se la stampa unione incontra un MERGEFIELD il cui nome inizia con il prefisso "html_",
-/// questo callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento di MERGEFIELD.
+/// questa callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento del MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -107,20 +107,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Aggiunge dati HTML analizzati al corpo del documento.
+            // Aggiungere dati HTML analizzati al corpo del documento.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
+            // non sarà necessario rispondere a questo evento restituendo contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 }
 ```

@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
 second_title: Aspose.Words per .NET
-description: DocumentBuilder InsertSignatureLine metodo. Inserisce una riga per la firma nella posizione corrente in C#.
+description: Aggiungi facilmente righe di firma professionali ai tuoi documenti con il metodo InsertSignatureLine di DocumentBuilder. Migliora il tuo flusso di lavoro oggi stesso!
 type: docs
-weight: 440
+weight: 470
 url: /it/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
 
-Inserisce una riga per la firma nella posizione corrente.
+Inserisce una riga di firma nella posizione corrente.
 
 ```csharp
 public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
@@ -18,7 +18,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | L'oggetto che memorizza i parametri per la creazione della riga della firma. |
+| signatureLineOptions | SignatureLineOptions | Oggetto che memorizza i parametri per la creazione della riga della firma. |
 
 ### Valore di ritorno
 
@@ -86,7 +86,7 @@ Assert.True(signatureLine.IsValid);
 
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
 
-Inserisce una riga della firma nella posizione specificata.
+Inserisce una riga di firma nella posizione specificata.
 
 ```csharp
 public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, 
@@ -96,7 +96,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | L'oggetto che memorizza i parametri per la creazione della riga della firma. |
+| signatureLineOptions | SignatureLineOptions | Oggetto che memorizza i parametri per la creazione della riga della firma. |
 | horzPos | RelativeHorizontalPosition | Specifica da dove viene misurata la distanza dalla linea della firma. |
 | left | Double | Distanza in punti dall'origine al lato sinistro della linea della firma. |
 | vertPos | RelativeVerticalPosition | Specifica da dove viene misurata la distanza dalla linea della firma. |
@@ -109,11 +109,11 @@ Il nodo della riga della firma appena inserito.
 
 ## Osservazioni
 
-Puoi modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
+È possibile modificare le dimensioni dell'immagine, la posizione, il metodo di posizionamento e altre impostazioni utilizzando [`Shape`](../../../aspose.words.drawing/shape/) oggetto restituito da questo metodo.
 
 ## Esempi
 
-Mostra come inserire una riga della firma in linea in un documento.
+Mostra come inserire una riga di firma in linea in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -133,7 +133,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// La riga della firma può essere firmata in Microsoft Word facendo doppio clic su di essa.
+// È possibile firmare la riga della firma in Microsoft Word facendo doppio clic su di essa.
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

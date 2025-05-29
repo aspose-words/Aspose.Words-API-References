@@ -3,16 +3,16 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent
 linktitle: CharacterUnitFirstLineIndent
 articleTitle: CharacterUnitFirstLineIndent
 second_title: Aspose.Words per .NET
-description: ParagraphFormat CharacterUnitFirstLineIndent proprietà. Ottiene o imposta il valore in caratteri per il rientro sporgente o della prima riga in C#.
+description: Scopri la proprietà ParagraphFormat CharacterUnitFirstLineIndent per personalizzare facilmente la prima riga o il rientro sporgente del tuo documento, per un aspetto più curato.
 type: docs
 weight: 70
 url: /it/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
-Ottiene o imposta il valore (in caratteri) per il rientro sporgente o della prima riga.
+Ottiene o imposta il valore (in caratteri) per il rientro della prima riga o sporgente.
 
-Utilizza valori positivi per impostare il rientro della prima riga e valori negativi per impostare il rientro sporgente.
+Utilizzare valori positivi per impostare il rientro della prima riga e valori negativi per impostare il rientro sporgente.
 
 ```csharp
 public double CharacterUnitFirstLineIndent { get; set; }
@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Di seguito sono riportate cinque diverse opzioni di spaziatura, insieme alle proprietà che la loro configurazione influenza indirettamente.
+// Di seguito sono riportate cinque diverse opzioni di spaziatura, insieme alle proprietà sulle quali la loro configurazione influisce indirettamente.
 // 1 - Rientro sinistro:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -35,7 +35,7 @@ format.CharacterUnitLeftIndent = 10.0;
 
 Assert.AreEqual(format.LeftIndent, 120.0d);
 
-// 2 - Rientro destro:
+// 2 - Rientro a destra:
 Assert.AreEqual(format.RightIndent, 0.0d); 
 
 format.CharacterUnitRightIndent = -5.5;

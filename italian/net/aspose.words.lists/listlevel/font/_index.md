@@ -3,7 +3,7 @@ title: ListLevel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words per .NET
-description: ListLevel Font proprietà. Specifica la formattazione dei caratteri utilizzata per letichetta dellelenco in C#.
+description: Scopri la proprietà Font ListLevel per migliorare le etichette dei tuoi elenchi con una formattazione dei caratteri personalizzabile, per un aspetto curato e professionale.
 type: docs
 weight: 30
 url: /it/net/aspose.words.lists/listlevel/font/
@@ -18,16 +18,16 @@ public Font Font { get; }
 
 ## Esempi
 
-Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
+Mostra come applicare la formattazione personalizzata degli elenchi ai paragrafi quando si utilizza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza i primi due livelli dell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizza i primi due livelli dell'elenco.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

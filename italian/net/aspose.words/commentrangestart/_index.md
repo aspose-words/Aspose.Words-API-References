@@ -3,14 +3,14 @@ title: CommentRangeStart Class
 linktitle: CommentRangeStart
 articleTitle: CommentRangeStart
 second_title: Aspose.Words per .NET
-description: Aspose.Words.CommentRangeStart classe. Indica linizio di unarea di testo a cui è associato un commento in C#.
+description: Scopri la classe Aspose.Words.CommentRangeStart, che contrassegna le aree di testo associate ai commenti per una migliore gestione dei documenti e una migliore efficienza di modifica.
 type: docs
-weight: 260
+weight: 450
 url: /it/net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class
 
-Indica l'inizio di un'area di testo a cui è associato un commento.
+Indica l'inizio di una regione di testo a cui è associato un commento.
 
 Per saperne di più, visita il[Lavorare con i commenti](https://docs.aspose.com/words/net/working-with-comments/) articolo di documentazione.
 
@@ -36,7 +36,7 @@ public sealed class CommentRangeStart : Node
 | override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | RestituisceCommentRangeStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 
 ## Metodi
 
@@ -47,21 +47,21 @@ public sealed class CommentRangeStart : Node
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
 ## Osservazioni
 
-Per creare un commento ancorato ad una regione di testo, è necessario creare un file[`Comment`](../comment/) and quindi crea`CommentRangeStart` E[`CommentRangeEnd`](../commentrangeend/) imposta i loro identificatori sullo stesso[`Id`](../comment/id/) valore.
+Per creare un commento ancorato a una regione di testo, è necessario creare un[`Comment`](../comment/) and quindi crea`CommentRangeStart` E[`CommentRangeEnd`](../commentrangeend/) e impostare i loro identificatori allo stesso modo[`Id`](../comment/id/) valore.
 
-`CommentRangeStart` è un nodo a livello inline e può essere solo figlio di[`Paragraph`](../paragraph/).
+`CommentRangeStart` è un nodo di livello inline e può essere solo un figlio di[`Paragraph`](../paragraph/).
 
 ## Esempi
 
-Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli di commenti utilizzando un visitatore del documento.
+Mostra come stampare il contenuto di tutti i commenti e i relativi intervalli utilizzando un visitatore di documenti.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -77,14 +77,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Aggiungi testo al documento, deformalo in un intervallo di commenti, quindi aggiungi il tuo commento.
+    // Aggiungi del testo al documento, inseriscilo in un intervallo di commenti e poi aggiungi il tuo commento.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Aggiunge due risposte al commento.
+    // Aggiungi due risposte al commento.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -92,26 +92,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Itera su ogni commento di livello superiore e stampa l'intervallo di commenti, i contenuti e le risposte.
+/// Esegue l'iterazione su ogni commento di primo livello e ne stampa l'intervallo, il contenuto e le risposte.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Itera su tutti i commenti di livello superiore. A differenza dei commenti di tipo risposta, i commenti di livello superiore non hanno antenati.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itera su tutti i commenti di primo livello. A differenza dei commenti di tipo risposta, i commenti di primo livello non hanno antenati.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Innanzitutto, visita l'inizio dell'intervallo di commenti.
+        // Per prima cosa, visita l'inizio dell'intervallo dei commenti.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Quindi, visita il commento e le eventuali risposte che potrebbe contenere.
+        // Quindi, visita il commento e le eventuali risposte.
         comment.Accept(commentVisitor);
+        // Visita solo l'inizio del commento.
+        comment.AcceptStart(commentVisitor);
+        // Visita solo la fine del commento.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Infine, visita la fine dell'intervallo di commenti, quindi stampa il contenuto del testo del visitatore.
+        // Infine, visita la fine dell'intervallo di commenti e quindi stampa il contenuto del testo del visitatore.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -120,7 +124,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Stampa le informazioni e il contenuto di tutti i commenti e gli intervalli di commenti incontrati nel documento.
+/// Stampa informazioni e contenuti di tutti i commenti e intervalli di commenti presenti nel documento.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -131,7 +135,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -139,7 +143,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -161,7 +165,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo CommentRangeEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo CommentRangeEnd.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -173,7 +177,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Commento.
+    /// Chiamato quando nel documento viene rilevato un nodo Commento.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -186,7 +190,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Commento è terminata nel documento.
+    /// Chiamato quando la visita di un nodo Commento nel documento è terminata.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -198,7 +202,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

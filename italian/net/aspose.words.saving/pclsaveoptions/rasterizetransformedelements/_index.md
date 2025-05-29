@@ -3,14 +3,14 @@ title: PclSaveOptions.RasterizeTransformedElements
 linktitle: RasterizeTransformedElements
 articleTitle: RasterizeTransformedElements
 second_title: Aspose.Words per .NET
-description: PclSaveOptions RasterizeTransformedElements proprietà. Ottiene o imposta un valore che determina se gli elementi trasformati complessi devono essere rasterizzati o meno prima di essere salvati nel documento PCL. Limpostazione predefinita èVERO  in C#.
+description: Controlla la rasterizzazione di elementi complessi nei documenti PCL con PclSaveOptions. Gestisci facilmente la qualità delle immagini e le dimensioni dei file per risultati ottimali.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 ---
 ## PclSaveOptions.RasterizeTransformedElements property
 
-Ottiene o imposta un valore che determina se gli elementi trasformati complessi devono essere rasterizzati o meno prima di essere salvati nel documento PCL. L'impostazione predefinita è`VERO` .
+Ottiene o imposta un valore che determina se gli elementi complessi trasformati devono essere rasterizzati prima di essere salvati nel documento PCL. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool RasterizeTransformedElements { get; set; }
@@ -18,11 +18,11 @@ public bool RasterizeTransformedElements { get; set; }
 
 ## Osservazioni
 
-PCL non supporta alcuni tipi di trasformazioni utilizzate da Aspose Words. Ad esempio immagini ruotate e inclinate e pennelli texture. Per visualizzare correttamente tali elementi viene utilizzato il processo di rasterizzazione, ovvero il salvataggio nell'immagine e il ritaglio. Questo processo può richiedere tempo e memoria aggiuntivi. Se il flag è impostato su`falso` , alcuni contenuti nell'output potrebbero essere diversi rispetto al documento di origine.
+PCL non supporta alcuni tipi di trasformazioni utilizzate da Aspose Words. Ad esempio, immagini ruotate, inclinate e pennelli texture. Per il rendering corretto di tali elementi viene utilizzato un processo di rasterizzazione, ovvero il salvataggio dell'immagine e il ritaglio. Questo processo può richiedere tempo e memoria aggiuntivi. Se il flag è impostato su`falso` , alcuni contenuti nell'output potrebbero essere diversi rispetto al documento sorgente.
 
 ## Esempi
 
-Mostra come rasterizzare elementi complessi durante il salvataggio di un documento su PCL.
+Mostra come rasterizzare elementi complessi durante il salvataggio di un documento in PCL.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -3,7 +3,7 @@ title: SmartTag
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words per .NET
-description: SmartTag costruttore. Inizializza una nuova istanza diSmartTag classe in C#.
+description: Crea SmartTag dinamici senza sforzo con il nostro costruttore. Arricchisci i tuoi progetti con funzionalità personalizzabili e un'integrazione perfetta per prestazioni ottimali.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/smarttag/smarttag/
@@ -22,32 +22,32 @@ public SmartTag(DocumentBase doc)
 
 ## Osservazioni
 
-Quando crei un nuovo nodo, devi specificare un documento a cui appartiene il nodo. Un nodo non può esistere senza un documento perché dipende dalle strutture dell'intero documento come elenchi e stili. Sebbene un nodo appartenga sempre a un documento, un nodo potrebbe o potrebbe non far parte dell'albero del documento.
+Quando si crea un nuovo nodo, è necessario specificare un documento a cui appartiene. Un nodo non può esistere senza un documento perché dipende dalle strutture che lo compongono, come elenchi e stili. Sebbene un nodo appartenga sempre a un documento, potrebbe o meno far parte dell'albero del documento.
 
-Quando viene creato un nodo, appartiene a un documento, ma non fa ancora parte dell'albero dei documenti e[`ParentNode`](../../../aspose.words/node/parentnode/) È`nullo` . Per inserire un nodo nel documento, utilizzare the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) O[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) metodi sul nodo padre.
+Quando un nodo viene creato, appartiene a un documento, ma non fa ancora parte dell'albero del documento e[`ParentNode`](../../../aspose.words/node/parentnode/) è nullo. Per inserire un nodo nel documento, usa [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) O[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/)Metodi sul nodo padre.
 
 ## Esempi
 
-Mostra come creare smart tag.
+Mostra come creare tag intelligenti.
 
 ```csharp
 public void Create()
 {
     Document doc = new Document();
 
-    // Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una qualche forma di dati,
-    // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che visualizza una sottolineatura tratteggiata viola.
+    // Un tag intelligente appare in un documento con Microsoft Word che riconosce una parte del suo testo come una qualche forma di dati,
+    // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che presenta una sottolineatura tratteggiata viola.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Gli smart tag sono nodi compositi che contengono il testo riconosciuto nella sua interezza.
-    // Aggiunge manualmente i contenuti a questo smart tag.
+    // I tag intelligenti sono nodi compositi che contengono il testo riconosciuto nella sua interezza.
+    // Aggiungere manualmente i contenuti a questo smart tag.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word potrebbe riconoscere i contenuti di cui sopra come una data.
-    // Gli smart tag utilizzano la proprietà "Elemento" per riflettere il tipo di dati che contengono.
+    // Microsoft Word potrebbe riconoscere il contenuto sopra riportato come una data.
+    // I tag intelligenti utilizzano la proprietà "Element" per riflettere il tipo di dati che contengono.
     smartTag.Element = "date";
 
-    // Alcuni tipi di smart tag elaborano ulteriormente i propri contenuti in proprietà XML personalizzate.
+    // Alcuni tipi di smart tag elaborano ulteriormente il loro contenuto trasformandolo in proprietà XML personalizzate.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -58,7 +58,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Crea un altro smart tag per un titolo azionario.
+    // Crea un altro tag intelligente per un ticker azionario.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -71,10 +71,10 @@ public void Create()
     // Stampa tutti gli smart tag nel nostro documento utilizzando un visitatore del documento.
     doc.Accept(new SmartTagPrinter());
 
-    // Le versioni precedenti di Microsoft Word supportano gli smart tag.
+    // Le versioni precedenti di Microsoft Word supportano i tag intelligenti.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Utilizza il metodo "RemoveSmartTags" per rimuovere tutti gli smart tag da un documento.
+    // Utilizzare il metodo "RemoveSmartTags" per rimuovere tutti i tag intelligenti da un documento.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -83,7 +83,7 @@ public void Create()
 }
 
 /// <summary>
-/// Stampa gli smart tag visitati e i relativi contenuti.
+/// Stampa gli smart tag visitati e il loro contenuto.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
@@ -97,7 +97,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato al termine della visita di un nodo SmartTag.
+    /// Chiamato quando termina la visita a un nodo SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

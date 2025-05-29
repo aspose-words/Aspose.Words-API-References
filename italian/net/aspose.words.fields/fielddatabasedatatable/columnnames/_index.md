@@ -3,7 +3,7 @@ title: FieldDatabaseDataTable.ColumnNames
 linktitle: ColumnNames
 articleTitle: ColumnNames
 second_title: Aspose.Words per .NET
-description: FieldDatabaseDataTable ColumnNames proprietà. Ottiene le colonne che appartengono a questa tabella in C#.
+description: Scopri la proprietà ColumnNames di FieldDatabaseDataTable per accedere e gestire facilmente le colonne della tabella, migliorando l'organizzazione e l'analisi dei dati.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fielddatabasedatatable/columnnames/

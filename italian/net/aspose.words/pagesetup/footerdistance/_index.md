@@ -3,7 +3,7 @@ title: PageSetup.FooterDistance
 linktitle: FooterDistance
 articleTitle: FooterDistance
 second_title: Aspose.Words per .NET
-description: PageSetup FooterDistance proprietà. Restituisce o imposta la distanza in punti tra il piè di pagina e il fondo della pagina in C#.
+description: Regola la proprietà FooterDistance per controllare lo spazio tra il piè di pagina e il fondo della pagina. Migliora il layout del tuo documento senza sforzo!
 type: docs
 weight: 140
 url: /it/net/aspose.words/pagesetup/footerdistance/

@@ -3,14 +3,14 @@ title: VbaModuleCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: VbaModuleCollection Item proprietà. Recupera aVbaModule oggetto per indice in C#.
+description: Accedi facilmente agli oggetti VbaModule con la proprietà Item di VbaModuleCollection. Migliora i tuoi progetti VBA con una facile indicizzazione e una gestione migliorata.
 type: docs
 weight: 20
 url: /it/net/aspose.words.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-Recupera a[`VbaModule`](../../vbamodule/) oggetto per indice.
+Recupera un[`VbaModule`](../../vbamodule/) oggetto per indice.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -18,11 +18,11 @@ public VbaModule this[int index] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Indice in base zero del modulo da recuperare. |
+| index | Indice basato su zero del modulo da recuperare. |
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -33,7 +33,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -59,7 +59,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-Recupera a[`VbaModule`](../../vbamodule/) oggetto per nome o Null se non trovato.
+Recupera un[`VbaModule`](../../vbamodule/) oggetto per nome o Null se non trovato.
 
 ```csharp
 public VbaModule this[string name] { get; }
@@ -67,7 +67,7 @@ public VbaModule this[string name] { get; }
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -78,7 +78,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

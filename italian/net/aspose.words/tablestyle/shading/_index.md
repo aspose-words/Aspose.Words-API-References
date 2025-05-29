@@ -3,14 +3,14 @@ title: TableStyle.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words per .NET
-description: TableStyle Shading proprietà. Ottiene aShading oggetto che fa riferimento alla formattazione dellombreggiatura per le celle della tabella in C#.
+description: Scopri la proprietà Ombreggiatura TableStyle per migliorare le celle della tua tabella con una formattazione di ombreggiatura personalizzabile, per un aspetto curato e professionale.
 type: docs
 weight: 130
 url: /it/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-Ottiene a[`Shading`](../../shading/) oggetto che fa riferimento alla formattazione dell'ombreggiatura per le celle della tabella.
+Ottiene un[`Shading`](../../shading/) oggetto che fa riferimento alla formattazione dell'ombreggiatura per le celle della tabella.
 
 ```csharp
 public Shading Shading { get; }

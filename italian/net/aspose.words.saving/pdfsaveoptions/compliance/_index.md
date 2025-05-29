@@ -3,9 +3,9 @@ title: PdfSaveOptions.Compliance
 linktitle: Compliance
 articleTitle: Compliance
 second_title: Aspose.Words per .NET
-description: PdfSaveOptions Compliance proprietà. Specifica il livello di conformità agli standard PDF per i documenti di output in C#.
+description: Scopri la proprietà di conformità PdfSaveOptions per garantire che i tuoi documenti PDF soddisfino gli standard di settore in termini di qualità e compatibilità.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words.saving/pdfsaveoptions/compliance/
 ---
 ## PdfSaveOptions.Compliance property
@@ -18,7 +18,7 @@ public PdfCompliance Compliance { get; set; }
 
 ## Osservazioni
 
-L'impostazione predefinita èPdf17.
+Il valore predefinito èPdf17.
 
 ## Esempi
 
@@ -27,23 +27,26 @@ Mostra come impostare il livello di conformità agli standard PDF dei documenti 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
-// Tieni presente che alcune PdfSaveOptions sono vietate durante il salvataggio in uno degli standard e vengono riparate automaticamente.
-// Utilizza IWarningCallback per sapere quali opzioni vengono corrette automaticamente.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// Nota che alcune PdfSaveOptions sono proibite quando si salva in uno degli standard e vengono corrette automaticamente.
+// Utilizzare IWarningCallback per sapere quali opzioni vengono corrette automaticamente.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Imposta la proprietà "Compliance" su "PdfCompliance.PdfA1b" per conformarsi allo standard "PDF/A-1b",
+// Impostare la proprietà "Compliance" su "PdfCompliance.PdfA1b" per conformarsi allo standard "PDF/A-1b",
 // che mira a preservare l'aspetto visivo del documento mentre Aspose.Words lo converte in PDF.
-// Imposta la proprietà "Compliance" su "PdfCompliance.Pdf17" per conformarsi allo standard "1.7".
-// Imposta la proprietà "Conformità" su "PdfCompliance.PdfA1a" per conformarsi allo standard "PDF/A-1a",
-// che è conforme a "PDF/A-1b" e preserva la struttura del documento originale.
-// Imposta la proprietà "Compliance" su "PdfCompliance.PdfUa1" per conformarsi allo standard "PDF/UA-1" (ISO 14289-1),
-// che mira a definire i documenti elettronici in PDF che consentono l'accesso al file.
-// Imposta la proprietà "Conformità" su "PdfCompliance.Pdf20" per conformarsi allo standard "PDF 2.0" (ISO 32000-2).
-// Imposta la proprietà "Conformità" su "PdfCompliance.PdfA4" per conformarsi allo standard "PDF/A-4" (ISO 19004:2020),
-// che preservano l'aspetto visivo statico del documento nel tempo.
-// Ciò aiuta a rendere i documenti ricercabili ma può aumentare significativamente la dimensione di documenti già di grandi dimensioni.
+// Impostare la proprietà "Compliance" su "PdfCompliance.Pdf17" per conformarsi allo standard "1.7".
+// Impostare la proprietà "Compliance" su "PdfCompliance.PdfA1a" per conformarsi allo standard "PDF/A-1a",
+// che è conforme allo standard "PDF/A-1b" e allo stesso tempo preserva la struttura del documento originale.
+// Impostare la proprietà "Compliance" su "PdfCompliance.PdfUa1" per conformarsi allo standard "PDF/UA-1" (ISO 14289-1),
+// che mira a definire la rappresentazione dei documenti elettronici in formato PDF che consentono l'accesso al file.
+// Impostare la proprietà "Compliance" su "PdfCompliance.Pdf20" per conformarsi allo standard "PDF 2.0" (ISO 32000-2).
+// Impostare la proprietà "Compliance" su "PdfCompliance.PdfA4" per conformarsi allo standard "PDF/A-4" (ISO 19004:2020),
+// che preserva l'aspetto visivo statico del documento nel tempo.
+// Impostare la proprietà "Compliance" su "PdfCompliance.PdfA4Ua2" per essere conforme a PDF/A-4 (ISO 19005-4:2020)
+// e standard PDF/UA-2 (ISO 14289-2:2024).
+// Impostare la proprietà "Compliance" su "PdfCompliance.PdfUa2" per conformarsi allo standard PDF/UA-2 (ISO 14289-2:2024).
+// Ciò aiuta a rendere i documenti ricercabili, ma potrebbe aumentare significativamente le dimensioni di documenti già di grandi dimensioni.
 saveOptions.Compliance = pdfCompliance;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.Compliance.pdf", saveOptions);

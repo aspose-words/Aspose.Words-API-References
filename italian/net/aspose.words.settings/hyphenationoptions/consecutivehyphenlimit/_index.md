@@ -3,7 +3,7 @@ title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
 second_title: Aspose.Words per .NET
-description: HyphenationOptions ConsecutiveHyphenLimit proprietà. Ottiene o imposta il numero massimo di righe consecutive che possono terminare con trattini. Il valore predefinito per questa proprietà è 0 in C#.
+description: Scopri la proprietà ConsecutiveHyphenLimit in HyphenationOptions. Controlla l'uso del trattino nel testo per migliorare la leggibilità e la formattazione. Valore predefinito: 0.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
@@ -18,7 +18,7 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 ## Osservazioni
 
-Se il valore di questa proprietà è impostato su 0, qualsiasi numero di righe consecutive può terminare con trattini.
+Se il valore di questa proprietà è impostato su 0, un qualsiasi numero di righe consecutive può terminare con dei trattini.
 
 La proprietà non ha effetto quando si salva in formati di pagina fissi, ad esempio PDF.
 

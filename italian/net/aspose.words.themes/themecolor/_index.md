@@ -3,14 +3,14 @@ title: ThemeColor Enum
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Themes.ThemeColor enum. Specifica i colori del tema per i temi dei documenti in C#.
+description: Scopri l'enum Aspose.Words ThemeColor per personalizzare i temi dei documenti con colori vivaci, migliorando l'aspetto visivo e la professionalità dei tuoi documenti.
 type: docs
-weight: 6470
+weight: 7320
 url: /it/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
-Specifica i colori del tema per i temi dei documenti.
+Specifica i colori del tema per i temi del documento.
 
 Per saperne di più, visita il[Lavorare con stili e temi](https://docs.aspose.com/words/net/working-with-styles-and-themes/) articolo di documentazione.
 
@@ -24,29 +24,29 @@ public enum ThemeColor
 | --- | --- | --- |
 | None | `-1` | Nessun colore. |
 | Dark1 | `0` | Colore principale scuro 1. |
-| Light1 | `1` | Colore principale luce 1. |
+| Light1 | `1` | Colore principale chiaro 1. |
 | Dark2 | `2` | Colore principale scuro 2. |
-| Light2 | `3` | Colore principale luce 2. |
-| Accent1 | `4` | Colore in risalto 1. |
-| Accent2 | `5` | Colore in risalto 2. |
-| Accent3 | `6` | Colore in risalto 3. |
-| Accent4 | `7` | Colore in risalto 4. |
-| Accent5 | `8` | Colore in risalto 5. |
-| Accent6 | `9` | Colore in risalto 6. |
-| Hyperlink | `10` | Colore collegamento ipertestuale. |
-| FollowedHyperlink | `11` | Colore collegamento ipertestuale seguito. |
-| Text1 | `12` | Colore testo 1. |
-| Text2 | `13` | Colore testo 2. |
-| Background1 | `14` | Colore sfondo 1. |
+| Light2 | `3` | Colore principale chiaro 2. |
+| Accent1 | `4` | Colore accento 1. |
+| Accent2 | `5` | Colore accento 2. |
+| Accent3 | `6` | Colore accento 3. |
+| Accent4 | `7` | Colore accento 4. |
+| Accent5 | `8` | Colore accento 5. |
+| Accent6 | `9` | Colore accento 6. |
+| Hyperlink | `10` | Colore del collegamento ipertestuale. |
+| FollowedHyperlink | `11` | Colore del collegamento ipertestuale seguito. |
+| Text1 | `12` | Colore del testo 1. |
+| Text2 | `13` | Colore del testo 2. |
+| Background1 | `14` | Colore di sfondo 1. |
 | Background2 | `15` | Colore di sfondo 2. |
 
 ## Osservazioni
 
-Il colore del tema specificato è un riferimento a uno dei colori del tema predefiniti, situato nella parte Tema del documento , che consente di impostare centralmente le informazioni sul colore nel documento.
+Il colore del tema specificato è un riferimento a uno dei colori del tema predefiniti, situato nella parte Tema del documento , che consente di impostare le informazioni sul colore centralmente nel documento.
 
 ## Esempi
 
-Mostra come creare e utilizzare lo stile a tema.
+Mostra come creare e utilizzare uno stile a tema.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Crea uno stile con le proprietà dei caratteri del tema.
+// Crea uno stile con le proprietà del font del tema.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -64,12 +64,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Mostra come lavorare con i caratteri e i colori del tema.
+Mostra come lavorare con i font e i colori del tema.
 
 ```csharp
 Document doc = new Document();
 
-// Definisce i caratteri per le lingue utilizzate per impostazione predefinita.
+// Definisci i font per le lingue utilizzate di default.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -77,7 +77,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Possiamo usare il carattere e il colore del tema invece dei valori predefiniti.
+// Possiamo usare il font e il colore del tema invece dei valori predefiniti.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -99,7 +99,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Esistono diversi modi per reimpostarne il carattere e il colore.
+// Esistono diversi modi per reimpostare il font e il colore.
 // 1 - Impostando ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
@@ -122,7 +122,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Impostando nomi di font/colori non legati al tema:
+// 2 - Impostando nomi di font/colori non tematici:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

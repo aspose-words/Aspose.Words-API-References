@@ -3,7 +3,7 @@ title: List.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words per .NET
-description: List Document proprietà. Ottiene il documento del proprietario in C#.
+description: Scopri come elencare le proprietà dei documenti e accedere ai dettagli di proprietà senza sforzo. Sfrutta subito il tuo potenziale di gestione documentale!
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/list/document/
@@ -18,11 +18,11 @@ public DocumentBase Document { get; }
 
 ## Osservazioni
 
-Un elenco ha sempre un documento principale ed è valido solo nel contesto di quel documento.
+Un elenco ha sempre un documento padre ed è valido solo nel contesto di quel documento.
 
 ## Esempi
 
-Mostra come verificare le proprietà del documento proprietario degli elenchi.
+Mostra come verificare le proprietà dei documenti proprietari degli elenchi.
 
 ```csharp
 Document doc = new Document();

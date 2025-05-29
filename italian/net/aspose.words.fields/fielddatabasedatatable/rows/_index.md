@@ -3,7 +3,7 @@ title: FieldDatabaseDataTable.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words per .NET
-description: FieldDatabaseDataTable Rows proprietà. Ottiene le righe che appartengono a questa tabella in C#.
+description: Scopri la proprietà FieldDatabaseDataTable Rows per accedere e gestire facilmente tutte le righe all'interno della tua tabella, per una gestione efficiente dei dati.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fielddatabasedatatable/rows/

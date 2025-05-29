@@ -3,14 +3,14 @@ title: FontSavingArgs.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words per .NET
-description: FontSavingArgs OriginalFileName proprietà. Ottiene il nome del file del carattere originale con unestensione in C#.
+description: Scopri la proprietà FontSavingArgs OriginalFileName per recuperare facilmente il nome originale del file del font e migliorare l'efficienza della gestione dei font.
 type: docs
 weight: 100
 url: /it/net/aspose.words.saving/fontsavingargs/originalfilename/
 ---
 ## FontSavingArgs.OriginalFileName property
 
-Ottiene il nome del file del carattere originale con un'estensione.
+Ottiene il nome del file del font originale con estensione .
 
 ```csharp
 public string OriginalFileName { get; }
@@ -18,26 +18,26 @@ public string OriginalFileName { get; }
 
 ## Osservazioni
 
-Questa proprietà contiene il nome del file originale del carattere corrente, se noto. Altrimenti può essere una stringa vuota.
+Questa proprietà contiene il nome del file originale del font corrente, se noto. In caso contrario, può essere una stringa vuota.
 
 ## Esempi
 
-Mostra come definire la logica personalizzata per l'esportazione dei caratteri durante il salvataggio in HTML.
+Mostra come definire una logica personalizzata per l'esportazione dei font durante il salvataggio in HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configura un oggetto SaveOptions per esportare i caratteri in file separati.
-    // Imposta un callback che gestirà il salvataggio dei caratteri in modo personalizzato.
+    // Configura un oggetto SaveOptions per esportare i font in file separati.
+    // Imposta un callback che gestirà il salvataggio dei font in modo personalizzato.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // La richiamata esporterà i file .ttf e li salverà insieme al documento di output.
+    // Il callback esporterà i file .ttf e li salverà insieme al documento di output.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -48,7 +48,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Stampa le informazioni sui caratteri esportati e le salva nella stessa cartella di sistema locale del file .html di output.
+/// Stampa informazioni sui font esportati e li salva nella stessa cartella di sistema locale del loro output .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -59,13 +59,13 @@ public class HandleFontSaving : IFontSavingCallback
         if (args.Italic) Console.Write(", italic");
         Console.WriteLine($"\nSource:\t{args.OriginalFileName}, {args.OriginalFileSize} bytes\n");
 
-        // Possiamo anche accedere al documento sorgente da qui.
+        // Da qui possiamo anche accedere al documento sorgente.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Esistono due modi per salvare un carattere esportato.
+        // Esistono due modi per salvare un font esportato.
         // 1 - Salvalo in una posizione del file system locale:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

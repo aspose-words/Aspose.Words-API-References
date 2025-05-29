@@ -3,7 +3,7 @@ title: LanguagePreferences.DefaultEditingLanguage
 linktitle: DefaultEditingLanguage
 articleTitle: DefaultEditingLanguage
 second_title: Aspose.Words per .NET
-description: LanguagePreferences DefaultEditingLanguage proprietà. Ottiene o imposta la lingua di modifica predefinita in C#.
+description: Gestisci la tua esperienza di editing con la proprietà DefaultEditingLanguage di LanguagePreferences. Imposta e personalizza facilmente la tua lingua di editing predefinita.
 type: docs
 weight: 20
 url: /it/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
@@ -20,7 +20,7 @@ public EditingLanguage DefaultEditingLanguage { get; set; }
 
 ## Esempi
 
-Mostra come impostare una lingua predefinita durante il caricamento di un documento.
+Mostra come impostare una lingua predefinita quando si carica un documento.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

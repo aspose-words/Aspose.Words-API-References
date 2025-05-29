@@ -3,14 +3,14 @@ title: TableStyleOptions Enum
 linktitle: TableStyleOptions
 articleTitle: TableStyleOptions
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Tables.TableStyleOptions enum. Specifica la modalità di applicazione dello stile tabella a una tabella in C#.
+description: Scopri l'enum Aspose.Words.Tables.TableStyleOptions per uno stile di tabella flessibile. Migliora il design dei tuoi documenti con stili di tabella personalizzabili oggi stesso!
 type: docs
-weight: 6370
+weight: 7220
 url: /it/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
 
-Specifica la modalità di applicazione dello stile tabella a una tabella.
+Specifica come viene applicato lo stile della tabella a una tabella.
 
 ```csharp
 [Flags]
@@ -24,16 +24,16 @@ public enum TableStyleOptions
 | None | `0` | Non viene applicata alcuna formattazione dello stile tabella. |
 | FirstRow | `20` | Applica la formattazione condizionale della prima riga. |
 | LastRow | `40` | Applica la formattazione condizionale dell'ultima riga. |
-| FirstColumn | `80` | Applica 1 formattazione condizionale alla prima colonna. |
+| FirstColumn | `80` | Applica la formattazione condizionale alla prima colonna. |
 | LastColumn | `100` | Applica la formattazione condizionale dell'ultima colonna. |
-| RowBands | `200` | Applica la formattazione condizionale per la suddivisione delle righe. |
-| ColumnBands | `400` | Applica la formattazione condizionale per la suddivisione delle colonne. |
-| Default2003 | `600` | Viene applicata la suddivisione di righe e colonne. Questa è l'impostazione predefinita di Microsoft Word per i vecchi formati come DOC, WML e RTF. |
+| RowBands | `200` | Applica la formattazione condizionale delle bande di riga. |
+| ColumnBands | `400` | Applica la formattazione condizionale delle bande di colonna. |
+| Default2003 | `600` | Viene applicata la suddivisione in righe e colonne. Questa è l'impostazione predefinita di Microsoft Word per i vecchi formati come DOC, WML e RTF. |
 | Default | `2A0` | Queste sono le impostazioni predefinite di Microsoft Word. |
 
 ## Esempi
 
-Mostra come creare una nuova tabella durante l'applicazione di uno stile.
+Mostra come creare una nuova tabella applicando uno stile.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,11 @@ Table table = builder.StartTable();
 // Dobbiamo inserire almeno una riga prima di impostare qualsiasi formattazione della tabella.
 builder.InsertCell();
 
-// Imposta lo stile della tabella utilizzato in base all'identificatore dello stile.
-// Tieni presente che non tutti gli stili di tabella sono disponibili quando si salva nel formato .doc.
+// Imposta lo stile della tabella utilizzato in base all'identificatore di stile.
+// Nota che non tutti gli stili di tabella sono disponibili quando si salva in formato .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Applica parzialmente lo stile alle funzionalità della tabella in base ai predicati, quindi crea la tabella.
+// Applica parzialmente lo stile alle caratteristiche della tabella in base ai predicati, quindi crea la tabella.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

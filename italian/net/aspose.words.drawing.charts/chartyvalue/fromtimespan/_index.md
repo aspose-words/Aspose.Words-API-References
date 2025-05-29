@@ -3,7 +3,7 @@ title: ChartYValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words per .NET
-description: ChartYValue FromTimeSpan metodo. Crea unChartYValue istanza delTime tipo in C#.
+description: Scopri il metodo ChartYValue FromTimeSpan per creare facilmente istanze di tipo Tempo per i tuoi grafici. Migliora la visualizzazione dei tuoi dati oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/

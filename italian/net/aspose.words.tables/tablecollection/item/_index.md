@@ -3,14 +3,14 @@ title: TableCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: TableCollection Item proprietà. Recupera aTable allindice indicato in C#.
+description: Accedi facilmente agli elementi di TableCollection recuperando le tabelle in base a indici specifici. Semplifica la gestione dei dati con la nostra intuitiva funzionalità di gestione delle proprietà!
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-Recupera a[`Table`](../../table/) all'indice indicato.
+Recupera un[`Table`](../../table/) all'indice dato.
 
 ```csharp
 public Table this[int index] { get; }
@@ -18,21 +18,21 @@ public Table this[int index] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Un indice nella raccolta. |
+| index | Un indice della collezione. |
 
 ## Osservazioni
 
-L'indice è a base zero.
+L'indice è basato sullo zero.
 
-Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 significa l'ultimo elemento, -2 significa il penultimo e così via.
+Sono consentiti indici negativi che indicano l'accesso dalla parte posteriore della raccolta. Ad esempio -1 indica l'ultimo elemento, -2 indica il penultimo e così via.
 
-Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento null.
+Se l'indice è maggiore o uguale al numero di elementi nell'elenco, viene restituito un riferimento null.
 
-Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
+Se l'indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, viene restituito un riferimento null.
 
 ## Esempi
 
-Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ogni cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -56,7 +56,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

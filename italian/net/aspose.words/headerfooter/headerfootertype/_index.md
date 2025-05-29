@@ -3,7 +3,7 @@ title: HeaderFooter.HeaderFooterType
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words per .NET
-description: HeaderFooter HeaderFooterType proprietà. Ottiene il tipo di questa intestazione/piè di pagina in C#.
+description: Scopri la proprietà HeaderFooterType per accedere e gestire facilmente i tipi di intestazione e piè di pagina del tuo documento, per un controllo avanzato della formattazione.
 type: docs
 weight: 20
 url: /it/net/aspose.words/headerfooter/headerfootertype/
@@ -23,8 +23,8 @@ Mostra come creare un'intestazione e un piè di pagina.
 ```csharp
 Document doc = new Document();
 
-// Crea un'intestazione e aggiungici un paragrafo. Il testo in quel paragrafo
-// apparirà nella parte superiore di ogni pagina di questa sezione, sopra il corpo del testo principale.
+// Crea un'intestazione e aggiungi un paragrafo. Il testo in quel paragrafo
+// apparirà in cima a ogni pagina di questa sezione, sopra il testo principale.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Crea un piè di pagina e aggiungivi un paragrafo. Il testo in quel paragrafo
-// apparirà in fondo a ogni pagina di questa sezione, sotto il corpo del testo principale.
+// Crea un piè di pagina e aggiungi un paragrafo. Il testo in quel paragrafo
+// apparirà in fondo a ogni pagina di questa sezione, sotto il testo principale.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

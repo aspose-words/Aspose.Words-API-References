@@ -3,14 +3,14 @@ title: TxtSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words per .NET
-description: TxtSaveOptions SaveFormat proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereText  in C#.
+description: Scopri come la proprietà SaveFormat di TxtSaveOptions definisce i formati di salvataggio dei documenti, garantendo che i file siano sempre nel formato di testo preferito.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/txtsaveoptions/saveformat/
 ---
 ## TxtSaveOptions.SaveFormat property
 
-Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereText .
+Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto di opzioni di salvataggio. Può essere soloText .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -28,7 +28,7 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
+// Creiamo un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
 // per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 

@@ -3,7 +3,7 @@ title: PageSetup.TextOrientation
 linktitle: TextOrientation
 articleTitle: TextOrientation
 second_title: Aspose.Words per .NET
-description: PageSetup TextOrientation proprietà. Permette di specificareTextOrientation per lintera pagina. Il valore predefinito èHorizontal in C#.
+description: Scopri la proprietà TextOrientation di PageSetup per impostare facilmente l'orientamento del testo sulla pagina. Personalizza il tuo layout con opzioni che vanno oltre l'impostazione predefinita "Orizzontale".
 type: docs
 weight: 430
 url: /it/net/aspose.words/pagesetup/textorientation/
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Imposta la proprietà "TextOrientation" su "TextOrientation.Upward" per ruotare tutto il testo di 90 gradi
-// a destra in modo che tutto il testo da sinistra a destra ora vada dall'alto verso il basso.
+// verso destra in modo che tutto il testo da sinistra a destra vada dall'alto verso il basso.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.TextOrientation = TextOrientation.Upward;
 

@@ -3,7 +3,7 @@ title: DigitalSignatureUtil.LoadSignatures
 linktitle: LoadSignatures
 articleTitle: LoadSignatures
 second_title: Aspose.Words per .NET
-description: DigitalSignatureUtil LoadSignatures metodo. Carica le firme digitali dal documento in C#.
+description: Carica facilmente le firme digitali dai tuoi documenti con il metodo DigitalSignatureUtil LoadSignatures. Migliora il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
@@ -18,11 +18,11 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | String | Percorso del documento. |
+| fileName | String | Percorso al documento. |
 
 ### Valore di ritorno
 
-Raccolta delle firme digitali. Restituisce una raccolta vuota se il file non è firmato.
+Raccolta di firme digitali. Restituisce una raccolta vuota se il file non è firmato.
 
 ## Esempi
 
@@ -30,7 +30,7 @@ Mostra come caricare le firme da un documento firmato digitalmente.
 
 ```csharp
 // Esistono due modi per caricare la raccolta di firme digitali di un documento firmato utilizzando la classe DigitalSignatureUtil.
-// 1 - Carica da un documento da un nome file di file system locale:
+// 1 - Carica un documento da un file system locale nome file:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
@@ -49,12 +49,12 @@ Mostra come rimuovere le firme digitali da un documento firmato digitalmente.
 
 ```csharp
 // Esistono due modi per utilizzare la classe DigitalSignatureUtil per rimuovere le firme digitali
-// da un documento firmato salvandone una copia non firmata da qualche altra parte nel file system locale.
-// 1 - Determina le posizioni sia del documento firmato che della copia non firmata in base alle stringhe del nome file:
+// da un documento firmato salvandone una copia non firmata in un'altra posizione nel file system locale.
+// 1 - Determina le posizioni sia del documento firmato che della copia non firmata tramite stringhe di nomi file:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - Determina le posizioni sia del documento firmato che della copia non firmata tramite flussi di file:
+// 2 - Determinare le posizioni sia del documento firmato che della copia non firmata tramite flussi di file:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -63,9 +63,9 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// Verifica che entrambi i nostri documenti di output non abbiano firme digitali.
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
+// Verifichiamo che entrambi i documenti di output non abbiano firme digitali.
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx").Count);
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").Count);
 ```
 
 ### Guarda anche
@@ -79,7 +79,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## LoadSignatures(*Stream*) {#loadsignatures}
 
-Carica le firme digitali dal documento utilizzando stream.
+Carica le firme digitali dal documento utilizzando il flusso.
 
 ```csharp
 public static DigitalSignatureCollection LoadSignatures(Stream stream)
@@ -91,7 +91,7 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 ### Valore di ritorno
 
-Raccolta delle firme digitali. Restituisce una raccolta vuota se il file non è firmato.
+Raccolta di firme digitali. Restituisce una raccolta vuota se il file non è firmato.
 
 ## Esempi
 
@@ -99,7 +99,7 @@ Mostra come caricare le firme da un documento firmato digitalmente.
 
 ```csharp
 // Esistono due modi per caricare la raccolta di firme digitali di un documento firmato utilizzando la classe DigitalSignatureUtil.
-// 1 - Carica da un documento da un nome file di file system locale:
+// 1 - Carica un documento da un file system locale nome file:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 

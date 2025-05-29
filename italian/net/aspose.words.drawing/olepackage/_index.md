@@ -3,14 +3,14 @@ title: OlePackage Class
 linktitle: OlePackage
 articleTitle: OlePackage
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.OlePackage classe. Permette di accedere alle proprietà del pacchetto OLE in C#.
+description: Esplora la classe Aspose.Words.Drawing.OlePackage per gestire facilmente le proprietà del pacchetto OLE e migliorare le capacità di elaborazione dei documenti.
 type: docs
-weight: 1160
+weight: 1540
 url: /it/net/aspose.words.drawing/olepackage/
 ---
 ## OlePackage class
 
-Permette di accedere alle proprietà del pacchetto OLE.
+Consente di accedere alle proprietà del pacchetto OLE.
 
 Per saperne di più, visita il[Lavorare con oggetti Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) articolo di documentazione.
 
@@ -27,7 +27,7 @@ public class OlePackage
 
 ## Osservazioni
 
-Il pacchetto OLE è un modo legacy e "non documentato" per archiviare oggetti incorporati se il gestore OLE è sconosciuto. Le prime versioni di Windows come Windows 3.1, 95 e 98 avevano l'applicazione Packager.exe che poteva essere utilizzata per incorporare qualsiasi tipo di dati nel documento . Ora questa applicazione è esclusa da Windows ma MS Word e altre applicazioni la utilizzano ancora per incorporare dati se il gestore OLE è mancante o sconosciuto.
+Il pacchetto OLE è un metodo obsoleto e "non documentato" per archiviare oggetti incorporati se il gestore OLE è sconosciuto. Le prime versioni di Windows, come Windows 3.1, 95 e 98, avevano l'applicazione Packager.exe che poteva essere utilizzata per incorporare qualsiasi tipo di dati in un documento. Ora questa applicazione è esclusa da Windows, ma MS Word e altre applicazioni la usano ancora per incorporare dati se il gestore OLE è mancante o sconosciuto.
 
 ## Esempi
 

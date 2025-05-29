@@ -3,9 +3,9 @@ title: ShapeBase.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words per .NET
-description: ShapeBase Target proprietà. Ottiene o imposta il frame di destinazione per il collegamento ipertestuale della forma in C#.
+description: Scopri la proprietà ShapeBase Target per impostare o recuperare facilmente i frame di destinazione dei collegamenti ipertestuali per le tue forme, migliorando la navigazione e l'esperienza dell'utente.
 type: docs
-weight: 520
+weight: 560
 url: /it/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
@@ -22,7 +22,7 @@ Il valore predefinito è una stringa vuota.
 
 ## Esempi
 
-Mostra come inserire una forma che contiene un'immagine ed è anche un collegamento ipertestuale.
+Mostra come inserire una forma che contiene un'immagine e che è anche un collegamento ipertestuale.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + facendo clic con il pulsante sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
-// e portaci al collegamento ipertestuale nella proprietà "HRef".
+// Facendo clic con il tasto sinistro del mouse sulla forma in Microsoft Word si aprirà una nuova finestra del browser Web
+// e ci porta al collegamento ipertestuale nella proprietà "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

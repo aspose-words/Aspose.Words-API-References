@@ -3,16 +3,16 @@ title: PdfEncryptionDetails Class
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.PdfEncryptionDetails classe. Contiene i dettagli per la crittografia e le autorizzazioni di accesso per un documento PDF in C#.
+description: Scopri Aspose.Words.PdfEncryptionDetails per la crittografia PDF sicura e autorizzazioni di accesso personalizzabili, garantendo la protezione dei tuoi documenti.
 type: docs
-weight: 5460
+weight: 6250
 url: /it/net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
 
-Contiene i dettagli per la crittografia e le autorizzazioni di accesso per un documento PDF.
+Contiene dettagli per la crittografia e le autorizzazioni di accesso per un documento PDF.
 
-Per saperne di più, visita il[Proteggi o crittografa un documento](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) articolo di documentazione.
+Per saperne di più, visita il[Proteggere o crittografare un documento](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) articolo di documentazione.
 
 ```csharp
 public class PdfEncryptionDetails
@@ -43,17 +43,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Estende i permessi per consentire la modifica delle annotazioni.
+// Estendi i permessi per consentire la modifica delle annotazioni.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Abilita la crittografia tramite la proprietà "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Quando apriremo questo documento, dovremo fornire la password prima di accedere al suo contenuto.
+// Quando apriamo questo documento, dovremo fornire la password prima di accedere al suo contenuto.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

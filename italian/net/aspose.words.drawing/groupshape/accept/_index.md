@@ -3,7 +3,7 @@ title: GroupShape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: GroupShape Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo GroupShape Accept per coinvolgere i visitatori in modo fluido e migliorare l'esperienza utente sul tuo sito web. Aumenta l'interazione oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/groupshape/accept/
@@ -26,15 +26,15 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../a
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiamate[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutte le forme figlio di questa forma e chiamata di gruppo[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) alla fine.
+Chiamate[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , quindi chiama[`Accept`](../../../aspose.words/node/accept/) per tutte le forme figlio di questo gruppo forma e chiama[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) alla fine.
 
 ## Esempi
 
-Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un visitatore del documento.
+Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un documento visitatore.
 
 ```csharp
 public void GroupOfShapes()
@@ -42,19 +42,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Se è necessario creare forme "Non Primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // utilizzare i metodi DocumentBuilder.InsertShape.
+    // Se è necessario creare forme "NonPrimitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // AngoliSuperioriUnoArrotondatoUnoTagliato, AngoloSingoloArrotondato, AngoliSuperioriArrotondati, AngoliDiagonaliArrotondati
+    // si prega di utilizzare i metodi DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

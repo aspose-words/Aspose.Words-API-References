@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToSection
 linktitle: MoveToSection
 articleTitle: MoveToSection
 second_title: Aspose.Words per .NET
-description: DocumentBuilder MoveToSection metodo. Sposta il cursore allinizio del corpo in una sezione specificata in C#.
+description: Scopri il metodo MoveToSection di DocumentBuilder per passare facilmente all'inizio del corpo di qualsiasi sezione, migliorando l'efficienza di modifica dei tuoi documenti.
 type: docs
-weight: 570
+weight: 610
 url: /it/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -18,13 +18,13 @@ public void MoveToSection(int sectionIndex)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| sectionIndex | Int32 | L'indice della sezione in cui spostarsi. |
+| sectionIndex | Int32 | Indice della sezione a cui spostarsi. |
 
 ## Osservazioni
 
-Quando*sectionIndex* è maggiore o uguale a 0, specifica un indice da all'inizio del documento dove 0 è la prima sezione. Quando*sectionIndex* è inferiore a 0, ha specificato un indice dalla fine del documento dove -1 è l'ultima sezione.
+Quando*sectionIndex*è maggiore o uguale a 0, specifica un indice da l'inizio del documento con 0 come prima sezione. Quando*sectionIndex* è minore di 0, ha specificato un indice dalla fine del documento con -1 come ultima sezione.
 
-Il cursore viene spostato sul primo paragrafo del[`Body`](../../body/) della sezione specificata.
+Il cursore viene spostato al primo paragrafo del[`Body`](../../body/) della sezione specificata.
 
 ## Esempi
 
@@ -34,7 +34,7 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
+// Specificare che si vogliono intestazioni e piè di pagina diversi per la prima pagina, le pagine pari e quelle dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

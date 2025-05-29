@@ -3,14 +3,14 @@ title: ColorMode Enum
 linktitle: ColorMode
 articleTitle: ColorMode
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.ColorMode enum. Specifica la modalità di rendering dei colori in C#.
+description: Scopri l'enum Aspose.Words.Saving.ColorMode per una resa cromatica ottimizzata. Migliora l'aspetto visivo del tuo documento con impostazioni colore precise.
 type: docs
-weight: 4860
+weight: 5600
 url: /it/net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration
 
-Specifica la modalità di rendering dei colori.
+Specifica come vengono resi i colori.
 
 ```csharp
 public enum ColorMode
@@ -21,7 +21,7 @@ public enum ColorMode
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Normal | `0` | Rendering con colori non modificati. |
-| Grayscale | `1` | Rendering con colori in una gamma di sfumature di grigio dal bianco al nero. |
+| Grayscale | `1` | Rendering con colori in una gamma di tonalità di grigio dal bianco al nero. |
 
 ## Esempi
 
@@ -30,11 +30,11 @@ Mostra come modificare il colore dell'immagine con la proprietà delle opzioni d
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
-// Imposta la proprietà "ColorMode" su "Grayscale" per visualizzare tutte le immagini del documento in bianco e nero.
-// La dimensione del documento di output potrebbe essere maggiore con questa impostazione.
-// Imposta la proprietà "ColorMode" su "Normale" per visualizzare tutte le immagini a colori.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
+// Impostare la proprietà "ColorMode" su "Grayscale" per visualizzare tutte le immagini del documento in bianco e nero.
+// Con questa impostazione la dimensione del documento di output potrebbe essere maggiore.
+// Impostare la proprietà "ColorMode" su "Normale" per visualizzare tutte le immagini a colori.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);

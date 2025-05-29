@@ -3,9 +3,9 @@ title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldCollection classe. Una raccolta diField oggetti che rappresentano i campi nellintervallo specificato in C#.
+description: Scopri Aspose.Words.FieldCollection, una potente classe per la gestione di oggetti Field all'interno di intervalli di documenti specificati, migliorando l'automazione dei tuoi documenti.
 type: docs
-weight: 1690
+weight: 2100
 url: /it/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
@@ -22,29 +22,29 @@ public class FieldCollection : IEnumerable<Field>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | Restituisce il numero dei campi nella collection. |
+| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | Restituisce il numero di campi nella raccolta. |
 | [Item](../../aspose.words.fields/fieldcollection/item/) { get; } | Restituisce un campo all'indice specificato. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Rimuove tutti i campi di questa raccolta dal documento e da questa raccolta stessa. |
+| [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Rimuove tutti i campi di questa raccolta dal documento e dalla raccolta stessa. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
 | [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Rimuove il campo specificato da questa raccolta e dal documento. |
 | [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Rimuove un campo all'indice specificato da questa raccolta e dal documento. |
 
 ## Osservazioni
 
-Un'istanza di questa raccolta ripete i campi che iniziano a rientrare nell'intervallo specificato.
+Un'istanza di questa raccolta esegue l'iterazione dei campi che iniziano a rientrare nell'intervallo specificato.
 
-IL`FieldCollection` collection non possiede i campi che contiene, ma è solo una selezione di campi.
+IL`FieldCollection` la raccolta non possiede i campi che contiene, ma è semplicemente una selezione di campi.
 
-IL`FieldCollection` la raccolta è "live", ovvero le modifiche ai figli del nodo object da cui è stata creata si riflettono immediatamente nei campi restituiti dalla`FieldCollection` Proprietà e metodi .
+IL`FieldCollection` la raccolta è "live", ovvero le modifiche ai figli del nodo object da cui è stata creata vengono immediatamente riflesse nei campi restituiti da`FieldCollection` Proprietà e metodi .
 
 ## Esempi
 
-Mostra come rimuovere i campi da una raccolta di campi.
+Mostra come rimuovere campi da una raccolta di campi.
 
 ```csharp
 Document doc = new Document();
@@ -62,21 +62,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Di seguito sono riportati quattro modi per rimuovere i campi da una raccolta di campi.
-// 1 - Ottieni un campo per rimuoversi:
+// Di seguito sono riportati quattro modi per rimuovere campi da una raccolta di campi.
+// 1 - Ottenere che un campo si rimuova da solo:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Ottieni la raccolta per rimuovere un campo che passiamo al suo metodo di rimozione:
+// 2 - Ottenere dalla raccolta la rimozione di un campo che passiamo al suo metodo di rimozione:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Rimuove un campo da una raccolta in un indice:
+// 3 - Rimuovi un campo da una raccolta in corrispondenza di un indice:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Rimuovi tutti i campi dalla raccolta contemporaneamente:
+// 4 - Rimuovi tutti i campi dalla raccolta in una volta sola:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -101,7 +101,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Itera sulla raccolta di campi e stampa contenuto e tipo
+    // Esegui l'iterazione sulla raccolta dei campi e stampa il contenuto e il tipo
     // di ogni campo utilizzando un'implementazione personalizzata del visitatore.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -126,7 +126,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Documenta l'implementazione del visitatore che stampa le informazioni sul campo.
+/// Implementazione del visitatore del documento che stampa le informazioni sui campi.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -136,7 +136,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -144,7 +144,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -156,7 +156,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -166,7 +166,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

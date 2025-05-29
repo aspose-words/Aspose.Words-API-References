@@ -3,14 +3,14 @@ title: Odso.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words per .NET
-description: Odso TableName proprietà. Specifica il particolare set di dati a cui deve essere connessa unorigine allinterno di unorigine dati esterna. Il valore predefinito è una stringa vuota in C#.
+description: Scopri la proprietà Odso TableName, connettiti senza sforzo a set di dati specifici in fonti esterne, migliorando facilmente l'integrazione dei dati.
 type: docs
 weight: 80
 url: /it/net/aspose.words.settings/odso/tablename/
 ---
 ## Odso.TableName property
 
-Specifica il particolare set di dati a cui deve essere connessa un'origine all'interno di un'origine dati esterna. Il valore predefinito è una stringa vuota.
+Specifica il set di dati specifico a cui un'origine deve essere connessa all'interno di un'origine dati esterna. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string TableName { get; set; }
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto ciò e salvato il documento,
+// Possiamo ripristinare queste impostazioni cancellandole. Una volta fatto questo e salvato il documento,
 // Microsoft Word non eseguirà più una stampa unione quando lo utilizziamo per caricare il documento.
 settings.Clear();
 

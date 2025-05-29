@@ -3,14 +3,14 @@ title: Forms2OleControl.GroupName
 linktitle: GroupName
 articleTitle: GroupName
 second_title: Aspose.Words per .NET
-description: Forms2OleControl GroupName proprietà. Ottiene o imposta una stringa che specifica un gruppo di controlli mutuamente esclusivi. Il valore predefinito è una stringa vuota in C#.
+description: Scopri come la proprietà GroupName di Forms2OleControl migliora l'esperienza utente gestendo senza problemi controlli mutuamente esclusivi. Scopri di più!
 type: docs
-weight: 40
+weight: 60
 url: /it/net/aspose.words.drawing.ole/forms2olecontrol/groupname/
 ---
 ## Forms2OleControl.GroupName property
 
-Ottiene o imposta una stringa che specifica un gruppo di controlli mutuamente esclusivi. Il valore predefinito è una stringa vuota.
+Ottiene o imposta una stringa che specifica un gruppo di controlli reciprocamente esclusivi. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string GroupName { get; set; }
@@ -23,15 +23,15 @@ Mostra come verificare le proprietà di un controllo ActiveX.
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);

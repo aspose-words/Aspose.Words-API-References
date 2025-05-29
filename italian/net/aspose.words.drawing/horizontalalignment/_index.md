@@ -3,14 +3,14 @@ title: HorizontalAlignment Enum
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.HorizontalAlignment enum. Specifica lallineamento orizzontale di una forma mobile cornice di testo o tabella mobile in C#.
+description: Scopri l'enumerazione Aspose.Words.Drawing.HorizontalAlignment per un controllo preciso dell'allineamento orizzontale in cornici di testo e tabelle mobili. Migliora il layout del tuo documento!
 type: docs
-weight: 1030
+weight: 1360
 url: /it/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
 
-Specifica l'allineamento orizzontale di una forma mobile, cornice di testo o tabella mobile.
+Specifica l'allineamento orizzontale di una forma mobile, di una cornice di testo o di una tabella mobile.
 
 ```csharp
 public enum HorizontalAlignment
@@ -20,13 +20,13 @@ public enum HorizontalAlignment
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | L'oggetto viene posizionato esplicitamente, solitamente utilizzando its**Sinistra** proprietà. |
-| Default | `0` | Uguale aNone . |
-| Left | `1` | Specifica che l'oggetto deve essere allineato a sinistra alla base dell'allineamento orizzontale. |
-| Center | `2` | Specifica che l'oggetto dovrà essere centrato rispetto alla base di allineamento orizzontale. |
+| None | `0` | L'oggetto è posizionato in modo esplicito, solitamente utilizzando il suo**Sinistra** proprietà. |
+| Default | `0` | Lo stesso diNone . |
+| Left | `1` | Specifica che l'oggetto deve essere allineato a sinistra rispetto alla base di allineamento orizzontale. |
+| Center | `2` | Specifica che l'oggetto deve essere centrato rispetto alla base di allineamento orizzontale. |
 | Right | `3` | Specifica che l'oggetto deve essere allineato a destra rispetto alla base di allineamento orizzontale. |
-| Inside | `4` | Specifica che l'oggetto deve trovarsi all'interno della base di allineamento orizzontale. |
-| Outside | `5` | Specifica che l'oggetto deve trovarsi all'esterno della base dell'allineamento orizzontale. |
+| Inside | `4` | Specifica che l'oggetto deve essere all'interno della base di allineamento orizzontale. |
+| Outside | `5` | Specifica che l'oggetto deve essere al di fuori della base di allineamento orizzontale. |
 
 ## Esempi
 

@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.TotalFieldsCount
 linktitle: TotalFieldsCount
 articleTitle: TotalFieldsCount
 second_title: Aspose.Words per .NET
-description: FieldUpdatingProgressArgs TotalFieldsCount proprietà. Ottiene il conteggio totale dei campi da aggiornare in C#.
+description: Scopri la proprietà TotalFieldsCount in FieldUpdatingProgressArgs per monitorare e gestire in modo efficiente gli aggiornamenti dei campi e ottenere prestazioni migliori.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
@@ -18,11 +18,11 @@ public int TotalFieldsCount { get; }
 
 ## Osservazioni
 
-Il valore non è costante e può essere aumentato durante il processo di aggiornamento.
+Il valore non è costante e potrebbe essere aumentato durante il processo di aggiornamento.
 
 ## Esempi
 
-Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
+Mostra come utilizzare i metodi di callback durante l'aggiornamento di un campo.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -46,7 +46,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo.
+/// Implementa questa interfaccia se vuoi che vengano chiamati metodi personalizzati durante un aggiornamento di campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -56,7 +56,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -68,7 +68,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

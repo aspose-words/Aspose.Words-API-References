@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.DocumentFieldName
 linktitle: DocumentFieldName
 articleTitle: DocumentFieldName
 second_title: Aspose.Words per .NET
-description: FieldMergingArgsBase DocumentFieldName proprietà. Ottiene il nome del campo di unione come specificato nel documento in C#.
+description: Scopri la proprietà DocumentFieldName di FieldMergingArgsBase. Accedi e gestisci facilmente i nomi dei campi unione per un'elaborazione efficiente dei documenti.
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -18,9 +18,9 @@ public string DocumentFieldName { get; }
 
 ## Osservazioni
 
-Se disponi di una mappatura da un nome di campo di un documento a un nome di campo di origine dati diverso, , questo è il nome di campo originale come specificato nel documento.
+Se si dispone di una mappatura dal nome di un campo di un documento al nome di un campo di un'origine dati diversa, , allora questo è il nome del campo originale specificato nel documento.
 
-Se hai specificato un prefisso per il nome del campo, ad esempio "Immagine:MyFieldName" nel documento, allora`DocumentFieldName` restituisce il nome del campo senza prefisso, ovvero "MyFieldName".
+Se hai specificato un prefisso del nome del campo, ad esempio "Immagine:NomeCampo" nel documento, allora`DocumentFieldName` restituisce il nome del campo senza prefisso, ovvero "MyFieldName".
 
 ## Esempi
 
@@ -58,7 +58,7 @@ public void MergeHtml()
 
 /// <summary>
 /// Se la stampa unione incontra un MERGEFIELD il cui nome inizia con il prefisso "html_",
-/// questo callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento di MERGEFIELD.
+/// questa callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento del MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -69,20 +69,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Aggiunge dati HTML analizzati al corpo del documento.
+            // Aggiungere dati HTML analizzati al corpo del documento.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
+            // non sarà necessario rispondere a questo evento restituendo contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 }
 ```

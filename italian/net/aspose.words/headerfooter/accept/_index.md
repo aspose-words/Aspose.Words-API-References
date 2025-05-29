@@ -3,7 +3,7 @@ title: HeaderFooter.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: HeaderFooter Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo HeaderFooter Accept per migliorare il coinvolgimento dei visitatori e semplificare le interazioni sul tuo sito web senza sforzo.
 type: docs
 weight: 70
 url: /it/net/aspose.words/headerfooter/accept/
@@ -26,11 +26,11 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../docu
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiamate[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) , poi chiama[`Accept`](../../node/accept/) per tutti i nodi figlio della sezione e chiamate[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) alla fine.
+Chiamate[`VisitHeaderFooterStart`](../../documentvisitor/visitheaderfooterstart/) , quindi chiama[`Accept`](../../node/accept/) per tutti i nodi figlio della sezione e chiamate[`VisitHeaderFooterEnd`](../../documentvisitor/visitheaderfooterend/) alla fine.
 
 ## Esempi
 
@@ -42,21 +42,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Un modo alternativo per accedere all'intestazione/piè di pagina di un documento sezione per sezione è accedere alla raccolta.
+    // Un modo alternativo per accedere alle intestazioni e ai piè di pagina di un documento sezione per sezione è accedere alla raccolta.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi HeaderFooter incontrati e dei relativi figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi HeaderFooter rilevati e dei loro elementi figlio.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -72,7 +72,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -82,7 +82,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo HeaderFooter.
+    /// Chiamato quando nel documento viene rilevato un nodo HeaderFooter.
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -94,7 +94,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo HeaderFooter sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo HeaderFooter.
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -106,7 +106,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga a StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,9 +3,9 @@ title: ShapeBase.WrapSide
 linktitle: WrapSide
 articleTitle: WrapSide
 second_title: Aspose.Words per .NET
-description: ShapeBase WrapSide proprietà. Specifica come il testo viene disposto attorno alla forma in C#.
+description: Scopri la proprietà ShapeBase WrapSide per controllare l'avvolgimento del testo attorno alle forme, migliorando l'aspetto visivo e la leggibilità del tuo progetto.
 type: docs
-weight: 590
+weight: 630
 url: /it/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
@@ -20,11 +20,11 @@ public WrapSide WrapSide { get; set; }
 
 Il valore predefinito èBoth.
 
-Ha effetto solo per le forme di livello superiore.
+Ha effetto solo sulle forme di livello superiore.
 
 ## Esempi
 
-Mostra come sostituire tutte le forme delle caselle di testo con forme di immagine.
+Mostra come sostituire tutte le forme delle caselle di testo con forme di immagini.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

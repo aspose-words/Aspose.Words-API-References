@@ -3,7 +3,7 @@ title: ParagraphFormat.HangingPunctuation
 linktitle: HangingPunctuation
 articleTitle: HangingPunctuation
 second_title: Aspose.Words per .NET
-description: ParagraphFormat HangingPunctuation proprietà. Ottiene o imposta un flag che indica se la punteggiatura sporgente è abilitata per il paragrafo corrente in C#.
+description: Scopri come migliorare il layout del tuo testo con la proprietà "Punteggiatura esterna" in ParagraphFormat. Ottimizza la leggibilità e lo stile senza sforzo!
 type: docs
 weight: 130
 url: /it/net/aspose.words/paragraphformat/hangingpunctuation/

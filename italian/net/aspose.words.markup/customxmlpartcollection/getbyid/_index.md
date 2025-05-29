@@ -3,14 +3,14 @@ title: CustomXmlPartCollection.GetById
 linktitle: GetById
 articleTitle: GetById
 second_title: Aspose.Words per .NET
-description: CustomXmlPartCollection GetById metodo. Trova e restituisce una parte XML personalizzata in base al relativo identificatore in C#.
+description: Scopri il metodo GetById di CustomXmlPartCollection per recuperare senza sforzo parti XML personalizzate tramite i loro identificatori univoci per una migliore gestione dei dati.
 type: docs
 weight: 70
 url: /it/net/aspose.words.markup/customxmlpartcollection/getbyid/
 ---
 ## CustomXmlPartCollection.GetById method
 
-Trova e restituisce una parte XML personalizzata in base al relativo identificatore.
+Trova e restituisce una parte XML personalizzata tramite il suo identificatore.
 
 ```csharp
 public CustomXmlPart GetById(string id)
@@ -22,7 +22,7 @@ public CustomXmlPart GetById(string id)
 
 ### Valore di ritorno
 
-ritorna`nullo` se non viene trovata una parte XML personalizzata con l'identificatore specificato.
+Resi`null` se non viene trovata una parte XML personalizzata con l'identificatore specificato.
 
 ## Esempi
 
@@ -31,9 +31,9 @@ Mostra come creare un tag di documento strutturato con dati XML personalizzati.
 ```csharp
 Document doc = new Document();
 
-// Costruisce una parte XML che contiene dati e la aggiunge alla raccolta del documento.
+// Costruisci una parte XML che contiene dati e aggiungila alla raccolta del documento.
 // Se abilitiamo la scheda "Sviluppatore" in Microsoft Word,
-// possiamo trovare gli elementi di questa raccolta nel "riquadro di mappatura XML", insieme ad alcuni elementi predefiniti.
+// possiamo trovare gli elementi di questa raccolta nel "XML Mapping Pane", insieme ad alcuni elementi predefiniti.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -48,17 +48,17 @@ Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 // 2 - Per GUID:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Aggiunge un'associazione allo schema XML.
+// Aggiungere un'associazione di schema XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clona una parte, quindi inseriscila nella raccolta.
+// Clona una parte e poi inseriscila nella raccolta.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
 
 Assert.AreEqual(2, doc.CustomXmlParts.Count);
 
-// Scorrere la raccolta e stampare il contenuto di ciascuna parte.
+// Esegue l'iterazione nella raccolta e stampa il contenuto di ogni parte.
 using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator())
 {
     int index = 0;
@@ -70,16 +70,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Utilizza il metodo "RemoveAt" per rimuovere la parte clonata per indice.
+// Utilizzare il metodo "RemoveAt" per rimuovere la parte clonata in base all'indice.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Clona la raccolta di parti XML, quindi utilizza il metodo "Clear" per rimuovere tutti i suoi elementi contemporaneamente.
+// Clonare la raccolta di parti XML, quindi utilizzare il metodo "Clear" per rimuovere tutti i suoi elementi in una volta.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Crea un tag di documento strutturato che visualizzerà il contenuto della nostra parte e lo inserirà nel corpo del documento.
+// Creiamo un tag di documento strutturato che visualizzerà il contenuto della nostra parte e lo inserirà nel corpo del documento.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

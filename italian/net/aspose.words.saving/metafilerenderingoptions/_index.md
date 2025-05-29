@@ -3,14 +3,14 @@ title: MetafileRenderingOptions Class
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.MetafileRenderingOptions classe. Permette di specificare opzioni aggiuntive di rendering del metafile in C#.
+description: Scopri Aspose.Words.Saving.MetafileRenderingOptions per un controllo avanzato del rendering dei metafile e una personalizzazione ottimale nei tuoi documenti. Ottimizza il tuo flusso di lavoro oggi stesso!
 type: docs
-weight: 5300
+weight: 6080
 url: /it/net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
 
-Permette di specificare opzioni aggiuntive di rendering del metafile.
+Consente di specificare opzioni aggiuntive di rendering dei metafile.
 
 Per saperne di più, visita il[Gestione dei metafile di Windows](https://docs.aspose.com/words/net/handling-windows-metafiles/) articolo di documentazione.
 
@@ -28,17 +28,17 @@ public class MetafileRenderingOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering dei metafile EMF+ Dual. |
+| [EmfPlusDualRenderingMode](../../aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/) { get; set; } | Ottiene o imposta un valore che determina come devono essere renderizzati i metafile EMF+ Dual. |
 | [EmulateRasterOperations](../../aspose.words.saving/metafilerenderingoptions/emulaterasteroperations/) { get; set; } | Ottiene o imposta un valore che determina se le operazioni raster devono essere emulate o meno. |
-| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Ottiene o imposta un valore che determina se il rendering del metafile emula la visualizzazione del metafile in base alla dimensione su page o la visualizzazione del metafile nella sua dimensione predefinita. |
-| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Ottiene o imposta la risoluzione in pixel per pollice per l'emulazione del rendering del metafile sulla dimensione della pagina. |
-| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering delle immagini metafile. |
-| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Ottiene o imposta un valore che determina la modalità di rendering dei metafile WMF con metafile EMF incorporati. |
+| [EmulateRenderingToSizeOnPage](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpage/) { get; set; } | Ottiene o imposta un valore che determina se il rendering del metafile emula la visualizzazione del metafile in base alle dimensioni sulla pagina o la visualizzazione del metafile nella sua dimensione predefinita. |
+| [EmulateRenderingToSizeOnPageResolution](../../aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/) { get; set; } | Ottiene o imposta la risoluzione in pixel per pollice per l'emulazione del rendering dei metafile in base alle dimensioni della pagina. |
+| [RenderingMode](../../aspose.words.saving/metafilerenderingoptions/renderingmode/) { get; set; } | Ottiene o imposta un valore che determina come devono essere renderizzate le immagini metafile. |
+| [UseEmfEmbeddedToWmf](../../aspose.words.saving/metafilerenderingoptions/useemfembeddedtowmf/) { get; set; } | Ottiene o imposta un valore che determina come devono essere renderizzati i metafile WMF con metafile EMF incorporati. |
 | [UseGdiRasterOperationsEmulation](../../aspose.words.saving/metafilerenderingoptions/usegdirasteroperationsemulation/) { get; set; } | Ottiene o imposta un valore che determina se utilizzare o meno GDI+ per l'emulazione delle operazioni raster. |
 
 ## Esempi
 
-Mostra aggiunto un fallback al rendering bitmap e modificando il tipo di avvisi sui record di metafile non supportati.
+Mostra l'aggiunta di un fallback al rendering bitmap e la modifica del tipo di avviso sui record di metafile non supportati.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -48,15 +48,15 @@ public void HandleBinaryRasterWarnings()
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
     // Imposta la proprietà "EmulateRasterOperations" su "false" per tornare alla bitmap quando
-    // incontra un metafile, che richiederà operazioni raster per il rendering nel PDF di output.
+    // incontra un metafile che richiederà operazioni raster per essere renderizzato nel PDF di output.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Imposta la proprietà "RenderingMode" su "VectorWithFallback" per provare a eseguire il rendering di ogni metafile utilizzando la grafica vettoriale.
+    // Impostare la proprietà "RenderingMode" su "VectorWithFallback" per provare a eseguire il rendering di ogni metafile utilizzando la grafica vettoriale.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-    // per modificare il modo in cui il metodo converte il documento in .PDF e applica la configurazione
-    // nel nostro oggetto MetafileRenderingOptions all'operazione di salvataggio.
+    // Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+    // per modificare il modo in cui quel metodo converte il documento in .PDF e applica la configurazione
+    // nel nostro oggetto MetafileRenderingOptions per l'operazione di salvataggio.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 

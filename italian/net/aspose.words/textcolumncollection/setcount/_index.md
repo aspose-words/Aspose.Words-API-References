@@ -3,7 +3,7 @@ title: TextColumnCollection.SetCount
 linktitle: SetCount
 articleTitle: SetCount
 second_title: Aspose.Words per .NET
-description: TextColumnCollection SetCount metodo. Dispone il testo nel numero specificato di colonne di testo in C#.
+description: Ottimizza il tuo layout con il metodo TextColumnCollection SetCount, disponendo senza sforzo il testo nel numero di colonne desiderato per una migliore leggibilità.
 type: docs
 weight: 70
 url: /it/net/aspose.words/textcolumncollection/setcount/
@@ -18,11 +18,11 @@ public void SetCount(int newCount)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| newCount | Int32 | Il numero di colonne in cui deve essere organizzato il testo. |
+| newCount | Int32 | Numero di colonne in cui deve essere disposto il testo. |
 
 ## Osservazioni
 
-Quando[`EvenlySpaced`](../evenlyspaced/) È`falso` e aumenti il numero di colonne, new[`TextColumn`](../../textcolumn/) gli oggetti vengono creati con larghezza e spaziatura pari a zero. È necessario impostare larghezza e spaziatura per le nuove colonne.
+Quando[`EvenlySpaced`](../evenlyspaced/) È`falso` e aumenti il numero di colonne, nuovo[`TextColumn`](../../textcolumn/) gli oggetti vengono creati con larghezza e spaziatura zero. È necessario impostare larghezza e spaziatura per le nuove colonne.
 
 ## Esempi
 

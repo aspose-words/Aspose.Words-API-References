@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportPageSetup
 linktitle: ExportPageSetup
 articleTitle: ExportPageSetup
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportPageSetup proprietà. Specifica se limpostazione della pagina viene esportata in HTML MHTML o EPUB. Limpostazione predefinita èfalso  in C#.
+description: Scopri come la proprietà ExportPageSetup di HtmlSaveOptions migliora le tue esportazioni HTML, MHTML o EPUB consentendo impostazioni di pagina personalizzabili per un output migliore.
 type: docs
 weight: 220
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-Specifica se l'impostazione della pagina viene esportata in HTML, MHTML o EPUB. L'impostazione predefinita è`falso` .
+Specifica se l'impostazione di pagina viene esportata in HTML, MHTML o EPUB. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -18,13 +18,13 @@ public bool ExportPageSetup { get; set; }
 
 ## Osservazioni
 
-Ogni[`Section`](../../../aspose.words/section/) nel modello di documento Aspose.Words fornisce informazioni sull'impostazione della pagina tramite[`PageSetup`](../../../aspose.words/pagesetup/) classe. Quando esporti un documento in formato HTML potresti dover conservare queste informazioni per un ulteriore utilizzo. In particolare, l'impostazione della pagina potrebbe essere importante per il rendering su supporti paginati (stampa) o la successiva conversione nei formati di file nativi di Microsoft Word (DOCX, DOC, RTF, WML).
+Ogni[`Section`](../../../aspose.words/section/) nel modello di documento Aspose.Words fornisce informazioni sull'impostazione della pagina tramite[`PageSetup`](../../../aspose.words/pagesetup/) classe. Quando si esporta un documento in formato HTML, potrebbe essere necessario conservare queste informazioni per un utilizzo futuro. In particolare, l'impostazione della pagina potrebbe essere importante per il rendering su supporti impaginati (stampa) o la successiva conversione nei formati di file nativi di Microsoft Word (DOCX, DOC, RTF, WML).
 
-Nella maggior parte dei casi l'HTML è destinato alla visualizzazione nei browser in cui non viene eseguita l'impaginazione. Quindi questa feature è inattiva per impostazione predefinita.
+Nella maggior parte dei casi, l'HTML è destinato alla visualizzazione in browser in cui l'impaginazione non viene eseguita. Pertanto, questa feature è disattivata per impostazione predefinita.
 
 ## Esempi
 
-Mostra come decidere se preservare la struttura della sezione/le informazioni sull'impostazione della pagina durante il salvataggio in HTML.
+Mostra come decidere se conservare le informazioni sulla struttura della sezione/impostazione della pagina durante il salvataggio in HTML.
 
 ```csharp
 Document doc = new Document();
@@ -39,11 +39,11 @@ pageSetup.TopMargin = 36.0;
 pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
-// Quando si salva il documento in HTML, possiamo passare un oggetto SaveOptions
-// per decidere se conservare o eliminare le impostazioni di impostazione della pagina.
-// Se impostiamo il flag "ExportPageSetup" su "true", il documento HTML di output conterrà la nostra configurazione di impostazione della pagina.
-// Se impostiamo il flag "ExportPageSetup" su "false", l'operazione di salvataggio scarterà le nostre impostazioni di impostazione della pagina
-// per la prima sezione ed entrambe le sezioni appariranno identiche.
+// Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions
+// per decidere se conservare o ignorare le impostazioni di impostazione della pagina.
+// Se impostiamo il flag "ExportPageSetup" su "true", il documento HTML di output conterrà la configurazione della nostra pagina.
+// Se impostiamo il flag "ExportPageSetup" su "false", l'operazione di salvataggio eliminerà le impostazioni di configurazione della pagina
+// per la prima sezione, ed entrambe le sezioni saranno identiche.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageSetup.html", options);

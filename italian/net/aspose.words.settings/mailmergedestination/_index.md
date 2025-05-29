@@ -3,14 +3,14 @@ title: MailMergeDestination Enum
 linktitle: MailMergeDestination
 articleTitle: MailMergeDestination
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Settings.MailMergeDestination enum. Specifica i possibili risultati che possono essere generati quando viene eseguita una stampa unione su un documento in C#.
+description: Scopri l'enum Aspose.Words.MailMergeDestination, che definisce i risultati per una perfetta unione di documenti. Ottimizza l'elaborazione dei tuoi documenti oggi stesso!
 type: docs
-weight: 5830
+weight: 6660
 url: /it/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
 
-Specifica i possibili risultati che possono essere generati quando viene eseguita una stampa unione su un documento.
+Specifica i possibili risultati che possono essere generati quando si esegue una stampa unione su un documento.
 
 ```csharp
 public enum MailMergeDestination
@@ -20,15 +20,15 @@ public enum MailMergeDestination
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| NewDocument | `0` | Specifica che le applicazioni hosting conformi genereranno nuovi documenti popolando i campi all'interno di un dato documento con i dati provenienti dall'origine dati esterna specificata. |
-| Printer | `1` | Specifica che le applicazioni hosting conformi stamperanno i documenti risultanti dal popolamento dei campi all'interno di un dato documento con dati esterni dall'origine dati esterna specificata. |
-| Email | `2` | Specifica che le applicazioni hosting conformi genereranno email utilizzando i documenti risultanti dal compilando i campi all'interno di un determinato documento con i dati provenienti dall'origine dati esterna specificata. |
-| Fax | `4` | Specifica che le applicazioni hosting conformi genereranno fax utilizzando i documenti risultanti dal compilando i campi all'interno di un determinato documento con i dati provenienti dall'origine dati esterna specificata. |
+| NewDocument | `0` | Specifica che le applicazioni di hosting conformi devono generare nuovi documenti popolando i campi all'interno di un dato documento con dati provenienti dalla fonte dati esterna specificata. |
+| Printer | `1` | Specifica che le applicazioni di hosting conformi devono stampare i documenti risultanti dal popolamento dei campi all'interno di un dato documento con dati esterni dalla sorgente dati esterna specificata. |
+| Email | `2` | Specifica che le applicazioni di hosting conformi devono generare e-mail utilizzando i documenti risultanti dal popolamento dei campi all'interno di un dato documento con dati provenienti dalla fonte dati esterna specificata. |
+| Fax | `4` | Specifica che le applicazioni di hosting conformi devono generare fax utilizzando i documenti risultanti dal popolamento dei campi all'interno di un dato documento con dati provenienti dalla fonte dati esterna specificata. |
 | Default | `0` | Uguale aNewDocument valore. |
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

@@ -3,44 +3,45 @@ title: CompositeNode.PrependChild
 linktitle: PrependChild
 articleTitle: PrependChild
 second_title: Aspose.Words per .NET
-description: CompositeNode PrependChild metodo. Aggiunge il nodo specificato allinizio dellelenco dei nodi secondari per questo nodo in C#.
+description: Scopri come il metodo CompositeNode PrependChild migliora la struttura dei tuoi dati aggiungendo in modo efficiente nodi all'inizio dell'elenco dei nodi figlio.
 type: docs
-weight: 150
+weight: 170
 url: /it/net/aspose.words/compositenode/prependchild/
 ---
-## CompositeNode.PrependChild method
+## CompositeNode.PrependChild&lt;T&gt; method
 
-Aggiunge il nodo specificato all'inizio dell'elenco dei nodi secondari per questo nodo.
+Aggiunge il nodo specificato all'inizio dell'elenco dei nodi figlio per questo nodo.
 
 ```csharp
-public Node PrependChild(Node newChild)
+public T PrependChild<T>(T newChild)
+    where T : Node
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| newChild | Node | Il nodo da aggiungere. |
+| newChild | T | Il nodo da aggiungere. |
 
 ### Valore di ritorno
 
-Il nodo ha aggiunto.
+Il nodo è stato aggiunto.
 
 ## Osservazioni
 
-Se la*newChild* è già nell'albero, viene prima rimosso.
+Se il*newChild* è già presente nell'albero, prima viene rimosso.
 
-Se il nodo da inserire è stato creato da un altro documento, dovresti usare [`ImportNode`](../../documentbase/importnode/) per importare il nodo nel documento corrente. Il nodo importato può quindi essere inserito nel documento corrente.
+Se il nodo inserito è stato creato da un altro documento, dovresti usare [`ImportNode`](../../documentbase/importnode/) per importare il nodo nel documento corrente. Il nodo importato può quindi essere inserito nel documento corrente.
 
 ## Esempi
 
-Mostra come aggiungere, aggiornare ed eliminare i nodi figlio nella raccolta di figli di un CompositeNode.
+Mostra come aggiungere, aggiornare ed eliminare nodi figlio nella raccolta di nodi figlio di un CompositeNode.
 
 ```csharp
 Document doc = new Document();
 
-// Un documento vuoto, per impostazione predefinita, ha un paragrafo.
+// Per impostazione predefinita, un documento vuoto contiene un paragrafo.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// I nodi compositi come il nostro paragrafo possono contenere altri nodi compositi e in linea come figli.
+// I nodi compositi come il nostro paragrafo possono contenere altri nodi compositi e inline come figli.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
@@ -50,23 +51,23 @@ Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// Il corpo del documento non mostrerà queste esecuzioni finché non le inseriremo in un nodo composito
-// quello stesso è una parte dell'albero dei nodi del documento, come abbiamo fatto con la prima esecuzione.
-// Possiamo determinare dove si trova il contenuto del testo dei nodi che inseriamo
-// appare nel documento specificando una posizione di inserimento relativa a un altro nodo del paragrafo.
+// Il corpo del documento non visualizzerà queste esecuzioni finché non le inseriremo in un nodo composito
+// che a sua volta fa parte dell'albero dei nodi del documento, come abbiamo fatto con la prima esecuzione.
+// Possiamo determinare dove si trova il contenuto di testo dei nodi che inseriamo
+// appare nel documento specificando una posizione di inserimento relativa a un altro nodo nel paragrafo.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Inserisci la seconda sequenza nel paragrafo prima della sequenza iniziale.
+// Inserire la seconda esecuzione nel paragrafo che precede quella iniziale.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// Inserisce la terza esecuzione dopo l'esecuzione iniziale.
+// Inserisce la terza esecuzione dopo quella iniziale.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Inserisci la prima esecuzione all'inizio della raccolta dei nodi secondari del paragrafo.
+// Inserisce la prima esecuzione all'inizio della raccolta di nodi figlio del paragrafo.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());

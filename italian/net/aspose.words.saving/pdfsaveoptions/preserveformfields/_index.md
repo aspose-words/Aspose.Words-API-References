@@ -3,14 +3,14 @@ title: PdfSaveOptions.PreserveFormFields
 linktitle: PreserveFormFields
 articleTitle: PreserveFormFields
 second_title: Aspose.Words per .NET
-description: PdfSaveOptions PreserveFormFields proprietà. Specifica se conservare i campi modulo di Microsoft Word come campi modulo in PDF o convertirli in testo. Limpostazione predefinita èfalso  in C#.
+description: Scopri come la proprietà PreserveFormFields di PdfSaveOptions conserva i campi modulo di Microsoft Word nei PDF o li converte in testo. Migliora la qualità dei tuoi documenti!
 type: docs
-weight: 270
+weight: 280
 url: /it/net/aspose.words.saving/pdfsaveoptions/preserveformfields/
 ---
 ## PdfSaveOptions.PreserveFormFields property
 
-Specifica se conservare i campi modulo di Microsoft Word come campi modulo in PDF o convertirli in testo. L'impostazione predefinita è`falso` .
+Specifica se conservare i campi del modulo di Microsoft Word come campi del modulo in PDF o convertirli in testo. Il valore predefinito è`falso` .
 
 ```csharp
 public bool PreserveFormFields { get; set; }
@@ -18,17 +18,17 @@ public bool PreserveFormFields { get; set; }
 
 ## Osservazioni
 
-I campi del modulo di Microsoft Word includono controlli di input di testo, menu a discesa e caselle di controllo.
+I campi del modulo di Microsoft Word includono controlli di immissione testo, menu a discesa e caselle di controllo.
 
-Quando impostato su`falso` , questi campi verranno esportati come testo in PDF. Quando impostato su`VERO`, questi campi verranno esportati come campi modulo PDF.
+Quando impostato su`falso` , questi campi verranno esportati come testo in PDF. Se impostato su`VERO`, questi campi verranno esportati come campi modulo PDF.
 
-Quando si esportano campi modulo in PDF come campi modulo, potrebbe verificarsi una perdita di formattazione poiché i campi modulo PDF non supportano tutte le funzionalità dei campi modulo di Microsoft Word.
+Quando si esportano i campi modulo in PDF come campi modulo, potrebbe verificarsi una perdita di formattazione perché i campi PDF form non supportano tutte le funzionalità dei campi modulo di Microsoft Word.
 
-Inoltre, la dimensione dell'output dipende dalla dimensione del contenuto perché i moduli modificabili in Microsoft Word sono oggetti in linea.
+Inoltre, la dimensione dell'output dipende dalla dimensione del contenuto, poiché i moduli modificabili in Microsoft Word sono oggetti in linea.
 
-I moduli modificabili sono vietati dalla conformità PDF/A.`falso` il valore verrà utilizzato automaticamente durante il salvataggio in PDF/A.
+I moduli modificabili sono vietati dalla conformità PDF/A.`falso` il valore verrà utilizzato automaticamente quando si salva in PDF/A.
 
-I campi modulo non sono supportati durante il salvataggio in PDF/UA.`falso` il valore verrà utilizzato automaticamente.
+I campi modulo non sono supportati durante il salvataggio in formato PDF/UA.`falso` il valore verrà utilizzato automaticamente.
 
 ## Esempi
 
@@ -43,13 +43,13 @@ builder.Write("Please select a fruit: ");
 // Inserisce una casella combinata che consentirà all'utente di scegliere un'opzione da una raccolta di stringhe.
 builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions pdfOptions = new PdfSaveOptions();
 
-// Imposta la proprietà "PreserveFormFields" su "true" per salvare i campi modulo come oggetti interattivi nel PDF di output.
-// Imposta la proprietà "PreserveFormFields" su "false" per bloccare tutti i campi del modulo nel documento in
-// i loro valori correnti e li visualizza come testo normale nel PDF di output.
+// Impostare la proprietà "PreserveFormFields" su "true" per salvare i campi del modulo come oggetti interattivi nel PDF di output.
+// Imposta la proprietà "PreserveFormFields" su "false" per bloccare tutti i campi del modulo nel documento
+// i loro valori correnti e visualizzarli come testo normale nel PDF di output.
 pdfOptions.PreserveFormFields = preserveFormFields;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreserveFormFields.pdf", pdfOptions);

@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitShapeEnd
 linktitle: VisitShapeEnd
 articleTitle: VisitShapeEnd
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitShapeEnd metodo. Chiamato al termine dellenumerazione di una forma in C#.
+description: Esplora il metodo VisitShapeEnd di DocumentVisitor, essenziale per gestire l'enumerazione delle forme nelle tue applicazioni. Migliora l'efficienza della tua programmazione oggi stesso!
 type: docs
 weight: 390
 url: /it/net/aspose.words/documentvisitor/visitshapeend/
 ---
 ## DocumentVisitor.VisitShapeEnd method
 
-Chiamato al termine dell'enumerazione di una forma.
+Chiamato quando l'enumerazione di una forma è terminata.
 
 ```csharp
 public virtual VisitorAction VisitShapeEnd(Shape shape)
@@ -26,7 +26,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ## Esempi
 
-Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un visitatore del documento.
+Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un documento visitatore.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Se è necessario creare forme "Non Primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // utilizzare i metodi DocumentBuilder.InsertShape.
+    // Se è necessario creare forme "NonPrimitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // AngoliSuperioriUnoArrotondatoUnoTagliato, AngoloSingoloArrotondato, AngoliSuperioriArrotondati, AngoliDiagonaliArrotondati
+    // si prega di utilizzare i metodi DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

@@ -3,14 +3,14 @@ title: RevisionOptions.ShowRevisionBars
 linktitle: ShowRevisionBars
 articleTitle: ShowRevisionBars
 second_title: Aspose.Words per .NET
-description: RevisionOptions ShowRevisionBars proprietà. Permette di specificare se le barre di revisione devono essere visualizzate vicino alle righe contenenti contenuto rivisto. Il valore predefinito èVERO  in C#.
+description: Scopri come la proprietà ShowRevisionBars in RevisionOptions migliora la chiarezza del documento visualizzando le barre di revisione per il contenuto modificato. Valore predefinito: true.
 type: docs
-weight: 180
+weight: 200
 url: /it/net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property
 
-Permette di specificare se le barre di revisione devono essere visualizzate vicino alle righe contenenti contenuto rivisto. Il valore predefinito è`VERO` .
+Consente di specificare se le barre di revisione devono essere visualizzate vicino alle linee contenenti contenuto rivisto. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool ShowRevisionBars { get; set; }
@@ -18,7 +18,7 @@ public bool ShowRevisionBars { get; set; }
 
 ## Esempi
 
-Mostra come modificare l'aspetto delle revisioni in un documento di output sottoposto a rendering.
+Mostra come modificare l'aspetto delle revisioni in un documento di output renderizzato.
 
 ```csharp
 Document doc = new Document();
@@ -31,11 +31,12 @@ builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Rimuove la barra che appare a sinistra di ogni riga modificata.
+// Rimuovi la barra che appare a sinistra di ogni riga rivista.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Guarda anche

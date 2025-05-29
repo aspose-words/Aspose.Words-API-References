@@ -3,9 +3,9 @@ title: FieldSectionPages Class
 linktitle: FieldSectionPages
 articleTitle: FieldSectionPages
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldSectionPages classe. Implementa il campo SECTIONPAGES in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldSectionPages per implementare in modo efficiente il campo SECTIONPAGES e migliorare le capacità di elaborazione dei documenti.
 type: docs
-weight: 2370
+weight: 2780
 url: /it/net/aspose.words.fields/fieldsectionpages/
 ---
 ## FieldSectionPages class
@@ -30,25 +30,25 @@ public class FieldSectionPages : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce accesso digitato alla formattazione del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene un[`FieldFormat`](../fieldformat/)oggetto che fornisce accesso tipizzato alla formattazione del campo. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolare il suo risultato). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`nullo` . |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi figlio. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo nodo figlio del suo nodo padre, restituisce il paragrafo padre. Se il campo è già stato rimosso, restituisce`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento di campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
 
 ## Osservazioni
 
@@ -56,7 +56,7 @@ Recupera il numero della pagina corrente all'interno della sezione corrente.
 
 ## Esempi
 
-Mostra come utilizzare i campi SECTION e SECTIONPAGES per numerare le pagine in sezioni.
+Mostra come utilizzare i campi SECTION e SECTIONPAGES per numerare le pagine in base alle sezioni.
 
 ```csharp
 Document doc = new Document();
@@ -65,7 +65,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Un campo SEZIONE visualizza il numero della sezione in cui si trova.
+// Un campo SEZIONE visualizza il numero della sezione a cui appartiene.
 builder.Write("Section ");
 FieldSection fieldSection = (FieldSection)builder.InsertField(FieldType.FieldSection, true);
 
@@ -77,25 +77,25 @@ FieldPage fieldPage = (FieldPage)builder.InsertField(FieldType.FieldPage, true);
 
 Assert.AreEqual(" PAGE ", fieldPage.GetFieldCode());
 
-// Un campo SECTIONPAGES visualizza il numero di pagine su cui si estende la sezione in cui si trova.
+// Un campo SECTIONPAGES mostra il numero di pagine su cui si estende la sezione a cui appartiene.
 builder.Write(" of ");
 FieldSectionPages fieldSectionPages = (FieldSectionPages)builder.InsertField(FieldType.FieldSectionPages, true);
 
 Assert.AreEqual(" SECTIONPAGES ", fieldSectionPages.GetFieldCode());
 
-// Esci dall'intestazione e torna nel documento principale e inserisce due pagine.
-// Tutte queste pagine saranno nella prima sezione. I nostri campi, che compaiono una volta in ogni intestazione,
+// Esci dall'intestazione e torna al documento principale, inserendo due pagine.
+// Tutte queste pagine saranno nella prima sezione. I nostri campi, che compaiono una volta per ogni intestazione,
 // numererà le pagine correnti/totali di questa sezione.
 builder.MoveToDocumentEnd();
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
 // Possiamo inserire una nuova sezione con il generatore di documenti in questo modo.
-// Ciò influenzerà i valori visualizzati nei campi SECTION e SECTIONPAGES in tutte le intestazioni successive.
+// Ciò inciderà sui valori visualizzati nei campi SECTION e SECTIONPAGES in tutte le intestazioni future.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
-// Il campo PAGINA continuerà a contare le pagine dell'intero documento.
-// Possiamo reimpostarne manualmente il conteggio in ciascuna sezione per tenere traccia delle pagine sezione per sezione.
+// Il campo PAGE continuerà a contare le pagine dell'intero documento.
+// Possiamo reimpostare manualmente il conteggio per ogni sezione per tenere traccia delle pagine sezione per sezione.
 builder.CurrentSection.PageSetup.RestartPageNumbering = true;
 builder.InsertBreak(BreakType.PageBreak);
 

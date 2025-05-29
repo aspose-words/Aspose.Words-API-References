@@ -3,14 +3,14 @@ title: FontFallbackSettings.Load
 linktitle: Load
 articleTitle: Load
 second_title: Aspose.Words per .NET
-description: FontFallbackSettings Load metodo. Carica le impostazioni di fallback dei caratteri dal file XML in C#.
+description: Carica e gestisci senza sforzo le impostazioni di fallback dei font dai file XML con il metodo FontFallbackSettings Load per un'integrazione tipografica perfetta.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
 ## Load(*string*) {#load_1}
 
-Carica le impostazioni di fallback dei caratteri dal file XML.
+Carica le impostazioni di fallback del font dal file XML.
 
 ```csharp
 public void Load(string fileName)
@@ -18,23 +18,23 @@ public void Load(string fileName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fileName | String | Inserisci il nome del file. |
+| fileName | String | Nome del file di input. |
 
 ## Esempi
 
-Mostra come caricare e salvare le impostazioni di fallback dei caratteri in/da un documento XML nel file system locale.
+Mostra come caricare e salvare le impostazioni di fallback dei font da/verso un documento XML nel file system locale.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Carica un documento XML che definisce una serie di impostazioni di fallback dei caratteri.
+// Carica un documento XML che definisce un set di impostazioni di fallback dei font.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Salva le attuali impostazioni di fallback dei caratteri del nostro documento come documento XML.
+// Salva le impostazioni di fallback dei font correnti del nostro documento come documento XML.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 
@@ -60,12 +60,12 @@ public void Load(Stream stream)
 
 ## Esempi
 
-Mostra come caricare e salvare le impostazioni di fallback dei caratteri in/da un flusso.
+Mostra come caricare e salvare le impostazioni di fallback dei font da/verso un flusso.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Carica un documento XML che definisce una serie di impostazioni di fallback dei caratteri.
+// Carica un documento XML che definisce un set di impostazioni di fallback dei font.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -76,7 +76,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Utilizza uno stream per salvare le impostazioni di fallback dei caratteri correnti del nostro documento come documento XML.
+// Utilizziamo un flusso per salvare le impostazioni di fallback dei font correnti del nostro documento come documento XML.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {

@@ -3,7 +3,7 @@ title: ChartAxis.AxisBetweenCategories
 linktitle: AxisBetweenCategories
 articleTitle: AxisBetweenCategories
 second_title: Aspose.Words per .NET
-description: ChartAxis AxisBetweenCategories proprietà. Ottiene o imposta un flag che indica se lasse dei valori attraversa lasse delle categorie tra le categorie in C#.
+description: Scopri la proprietà ChartAxis AxisBetweenCategories: controlla il posizionamento dell'asse dei valori per una migliore visualizzazione delle categorie nei tuoi grafici. Ottimizza la presentazione dei tuoi dati!
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -18,11 +18,11 @@ public bool AxisBetweenCategories { get; set; }
 
 ## Osservazioni
 
-La proprietà ha effetto solo per gli assi dei valori. Non è supportato dai nuovi grafici di MS Office 2016.
+La proprietà ha effetto solo sugli assi dei valori. Non è supportata dai nuovi grafici di MS Office 2016.
 
 ## Esempi
 
-Mostra come fare in modo che un asse del grafico si intersechi in una posizione personalizzata.
+Mostra come far sì che un asse del grafico si intersechi in una posizione personalizzata.
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
 // Per i grafici a colonne, l'asse Y incrocia lo zero per impostazione predefinita,
-// il che significa che le colonne per tutti i valori inferiori allo zero puntano verso il basso per rappresentare i valori negativi.
-// Possiamo impostare un valore diverso per l'incrocio dell'asse Y. In questo caso lo imposteremo su 3.
+// che significa che le colonne per tutti i valori inferiori a zero puntano verso il basso per rappresentare i valori negativi.
+// Possiamo impostare un valore diverso per l'incrocio dell'asse Y. In questo caso, lo imposteremo a 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

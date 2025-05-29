@@ -3,14 +3,14 @@ title: LineStyle Enum
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words per .NET
-description: Aspose.Words.LineStyle enum. Specifica lo stile della linea di aBorder  in C#.
+description: Scopri l'enumerazione Aspose.Words.LineStyle per stili di bordo personalizzabili, migliorando la progettazione dei tuoi documenti con flessibilità e precisione.
 type: docs
-weight: 3450
+weight: 3900
 url: /it/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
 
-Specifica lo stile della linea di a[`Border`](../border/) .
+Specifica lo stile della linea di un[`Border`](../border/) .
 
 ```csharp
 public enum LineStyle

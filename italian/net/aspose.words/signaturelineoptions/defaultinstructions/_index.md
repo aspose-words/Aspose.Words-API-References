@@ -3,14 +3,14 @@ title: SignatureLineOptions.DefaultInstructions
 linktitle: DefaultInstructions
 articleTitle: DefaultInstructions
 second_title: Aspose.Words per .NET
-description: SignatureLineOptions DefaultInstructions proprietà. Ottiene o imposta un valore che indica che le istruzioni predefinite vengono visualizzate nella finestra di dialogo Firma. Il valore predefinito per questa proprietà èVERO  in C#.
+description: Scopri come la proprietà DefaultInstructions di SignatureLineOptions migliora la finestra di dialogo Firma con istruzioni predefinite personalizzabili per un'esperienza utente fluida.
 type: docs
 weight: 30
 url: /it/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-Ottiene o imposta un valore che indica che le istruzioni predefinite vengono visualizzate nella finestra di dialogo Firma. Il valore predefinito per questa proprietà è`VERO` .
+Ottiene o imposta un valore che indica che le istruzioni predefinite vengono visualizzate nella finestra di dialogo Segno. Il valore predefinito per questa proprietà è`VERO` .
 
 ```csharp
 public bool DefaultInstructions { get; set; }

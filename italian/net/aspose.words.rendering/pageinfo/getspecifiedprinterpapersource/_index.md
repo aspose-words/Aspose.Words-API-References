@@ -3,14 +3,14 @@ title: PageInfo.GetSpecifiedPrinterPaperSource
 linktitle: GetSpecifiedPrinterPaperSource
 articleTitle: GetSpecifiedPrinterPaperSource
 second_title: Aspose.Words per .NET
-description: PageInfo GetSpecifiedPrinterPaperSource metodo. Ottiene il filePaperSource oggetto adatto a stampare la pagina rappresentata da questoPageInfo  in C#.
+description: Scopri il metodo GetSpecifiedPrinterPaperSource in PageInfo. Recupera in modo efficiente il PaperSource ideale per una stampa impeccabile.
 type: docs
 weight: 100
 url: /it/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method
 
-Ottiene il filePaperSource oggetto adatto a stampare la pagina rappresentata da questo[`PageInfo`](../) .
+Ottiene ilPaperSource oggetto adatto per stampare la pagina rappresentata da questo[`PageInfo`](../) .
 
 ```csharp
 public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSources, 
@@ -24,7 +24,7 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 
 ### Valore di ritorno
 
-Oggetto che è possibile utilizzare nel framework di stampa .NET per specificare l'origine della carta.
+Un oggetto che è possibile utilizzare nel framework di stampa .NET per specificare l'origine della carta.
 
 ## Osservazioni
 
@@ -32,13 +32,13 @@ Questo metodo richiede .NET Framework 2.0 o versione successiva.
 
 ## Esempi
 
-Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
+Mostra come stampare le informazioni relative alle dimensioni e all'orientamento della pagina per ogni pagina di un documento Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta diverso per la stampante,
-// il cui numero corrisponderà a un tipo di origine cartacea. Queste fonti e i loro tipi varieranno
+// La prima sezione è composta da 2 pagine. Assegneremo a ciascuna un vassoio carta diverso,
+// il cui numero corrisponderà a un tipo di fonte cartacea. Queste fonti e i loro tipi varieranno
 // a seconda del driver della stampante installato.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

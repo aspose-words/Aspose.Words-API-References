@@ -3,14 +3,14 @@ title: ThumbnailGeneratingOptions Class
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions classe. Può essere utilizzato per specificare opzioni aggiuntive durante la generazione della miniatura per un documento in C#.
+description: Scopri la classe Aspose.Words.Rendering.ThumbnailGeneratingOptions per migliorare la generazione delle miniature dei tuoi documenti con funzionalità personalizzabili e qualità migliorata.
 type: docs
-weight: 4600
+weight: 5330
 url: /it/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
 
-Può essere utilizzato per specificare opzioni aggiuntive durante la generazione della miniatura per un documento.
+Può essere utilizzato per specificare opzioni aggiuntive durante la generazione di miniature per un documento.
 
 ```csharp
 public class ThumbnailGeneratingOptions
@@ -27,7 +27,7 @@ public class ThumbnailGeneratingOptions
 | Nome | Descrizione |
 | --- | --- |
 | [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Specifica se generare la miniatura dalla prima pagina del documento o dalla prima immagine. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Dimensione della miniatura generata in pixel. L'impostazione predefinita è 600x900. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Dimensione della miniatura generata in pixel. Il valore predefinito è 600x900. |
 
 ## Osservazioni
 
@@ -44,7 +44,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in .epub.
+// Esistono due modi per impostare un'immagine in miniatura quando si salva un documento in formato .epub.
 // 1 - Utilizza la prima pagina del documento:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

@@ -3,14 +3,14 @@ title: VbaReferenceType Enum
 linktitle: VbaReferenceType
 articleTitle: VbaReferenceType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Vba.VbaReferenceType enum. Permette di specificare il tipo di aVbaReference oggetto in C#.
+description: Scopri l'enum Aspose.Words.Vba.VbaReferenceType per definire facilmente i tipi di oggetti VbaReference, migliorando così l'automazione e la gestione dei documenti.
 type: docs
-weight: 6610
+weight: 7460
 url: /it/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-Permette di specificare il tipo di a[`VbaReference`](../vbareference/) oggetto.
+Consente di specificare il tipo di a[`VbaReference`](../vbareference/) oggetto.
 
 ```csharp
 public enum VbaReferenceType
@@ -20,10 +20,10 @@ public enum VbaReferenceType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Registered | `13` | Specifica un tipo di riferimento della libreria dei tipi di automazione. |
-| Project | `14` | Specificato un tipo di riferimento del progetto VBA esterno. |
-| Original | `51` | Specifica un tipo di riferimento della libreria dei tipi di automazione originale. |
-| Control | `47` | Specifica un tipo di riferimento della libreria dei tipi twiddled. |
+| Registered | `13` | Specifica un tipo di riferimento alla libreria di tipo Automation. |
+| Project | `14` | Specificato un tipo di riferimento al progetto VBA esterno. |
+| Original | `51` | Specifica un tipo di riferimento alla libreria di tipo Automation originale. |
+| Control | `47` | Specifica un tipo di riferimento alla libreria di tipi modificati. |
 
 ## Esempi
 
@@ -55,7 +55,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
+ /// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -73,7 +73,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -88,7 +88,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

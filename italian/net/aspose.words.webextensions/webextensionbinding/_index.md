@@ -3,16 +3,16 @@ title: WebExtensionBinding Class
 linktitle: WebExtensionBinding
 articleTitle: WebExtensionBinding
 second_title: Aspose.Words per .NET
-description: Aspose.Words.WebExtensions.WebExtensionBinding classe. Specifica una relazione vincolante tra unestensione Web e i dati nel documento in C#.
+description: Scopri la classe Aspose.Words.WebExtensionBinding per una perfetta integrazione delle estensioni web con i dati dei tuoi documenti. Migliora le funzionalità senza sforzo!
 type: docs
-weight: 6750
+weight: 7600
 url: /it/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-Specifica una relazione vincolante tra un'estensione Web e i dati nel documento.
+Specifica una relazione di associazione tra un'estensione web e i dati nel documento.
 
-Per saperne di più, visita il[Lavora con i componenti aggiuntivi di Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) articolo di documentazione.
+Per saperne di più, visita il[Lavorare con i componenti aggiuntivi di Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) articolo di documentazione.
 
 ```csharp
 public class WebExtensionBinding
@@ -22,13 +22,13 @@ public class WebExtensionBinding
 
 | Nome | Descrizione |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | Crea l'associazione dell'estensione web con i parametri specificati. |
+| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | Crea un'associazione all'estensione web con i parametri specificati. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Specifica la chiave di associazione utilizzata per associare la voce di associazione in questo elenco con i dati associati nel documento. |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Specifica la chiave di associazione utilizzata per mappare la voce di associazione in questo elenco con i dati associati nel documento. |
 | [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | Specifica il tipo di associazione. |
 | [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | Specifica l'identificatore di associazione. |
 

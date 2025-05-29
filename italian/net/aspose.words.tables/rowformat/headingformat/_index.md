@@ -3,7 +3,7 @@ title: RowFormat.HeadingFormat
 linktitle: HeadingFormat
 articleTitle: HeadingFormat
 second_title: Aspose.Words per .NET
-description: RowFormat HeadingFormat proprietà. Vero se la riga viene ripetuta come intestazione di tabella su ogni pagina quando la tabella si estende su più di una pagina in C#.
+description: Scopri la proprietà RowFormat HeadingFormat e assicurati che le intestazioni delle tabelle vengano ripetute in ogni pagina per maggiore chiarezza e leggibilità nei documenti multipagina.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/rowformat/headingformat/
@@ -18,7 +18,7 @@ public bool HeadingFormat { get; set; }
 
 ## Esempi
 
-Mostra come creare una tabella con righe che si ripetono su ogni pagina.
+Mostra come creare una tabella con righe che si ripetono in ogni pagina.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// Qualsiasi riga inserita mentre il flag "HeadingFormat" è impostato su "true"
-// verrà visualizzato nella parte superiore della tabella su ogni pagina su cui si estende.
+// Tutte le righe inserite mentre il flag "HeadingFormat" è impostato su "true"
+// verrà visualizzato in cima alla tabella in ogni pagina in cui si estende.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 builder.CellFormat.Width = 100;
@@ -42,7 +42,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// Aggiungi abbastanza righe affinché la tabella si estenda su due pagine.
+// Aggiungere righe sufficienti affinché la tabella si estenda su due pagine.
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

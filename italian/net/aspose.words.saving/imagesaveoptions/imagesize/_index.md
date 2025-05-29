@@ -3,7 +3,7 @@ title: ImageSaveOptions.ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words per .NET
-description: ImageSaveOptions ImageSize proprietà. Ottiene o imposta la dimensione di unimmagine generata in pixel in C#.
+description: Scopri la proprietà ImageSize di ImageSaveOptions per gestire e personalizzare facilmente le dimensioni delle immagini in pixel per risultati ottimali.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/imagesaveoptions/imagesize/
@@ -18,13 +18,13 @@ public Size ImageSize { get; set; }
 
 ## Osservazioni
 
-Questa proprietà ha effetto solo quando si salva in formati di immagine raster.
+Questa proprietà ha effetto solo quando si salva in formati di immagini raster.
 
 Il valore predefinito è (0 x 0), il che significa che la dimensione dell'immagine generata verrà calcolata in base alla dimensione dell'immagine in punti, alla risoluzione e alla scala specificate.
 
 ## Esempi
 
-Mostra come eseguire il rendering di ogni pagina di un documento in un'immagine TIFF separata.
+Mostra come convertire ogni pagina di un documento in un'immagine TIFF separata.
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Crea un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo trasforma il documento in un'immagine.
+// Creiamo un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo trasforma il documento in un'immagine.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)

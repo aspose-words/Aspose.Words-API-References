@@ -3,14 +3,14 @@ title: ScriptShapingLevel Enum
 linktitle: ScriptShapingLevel
 articleTitle: ScriptShapingLevel
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Shaping.ScriptShapingLevel enum. Descrive i livelli di shaping richiesti da uno script in C#.
+description: Esplora l'enum Aspose.Words.Shaping.ScriptShapingLevel per comprendere i livelli di modellazione degli script, migliorando la formattazione dei documenti e la presentazione del testo.
 type: docs
-weight: 6070
+weight: 6900
 url: /it/net/aspose.words.shaping/scriptshapinglevel/
 ---
 ## ScriptShapingLevel enumeration
 
-Descrive i livelli di shaping richiesti da uno script.
+Descrive i livelli di modellazione richiesti da uno script.
 
 ```csharp
 public enum ScriptShapingLevel
@@ -20,9 +20,9 @@ public enum ScriptShapingLevel
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `0` | Lo script non richiede modellazione. |
-| Unknown | `1` | Viene utilizzato quando il livello per lo script non è specificato. |
-| Minimum | `2` | Lo script richiede un supporto minimo di shaping. |
+| None | `0` | Lo script non necessita di modellazione. |
+| Unknown | `1` | Questo viene utilizzato quando il livello per lo script non è specificato. |
+| Minimum | `2` | Lo script richiede un supporto minimo per la modellazione. |
 | Full | `3` | Lo script richiede il supporto completo per la modellazione. |
 
 ### Guarda anche

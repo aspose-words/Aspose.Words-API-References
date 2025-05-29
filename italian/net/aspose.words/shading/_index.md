@@ -3,9 +3,9 @@ title: Shading Class
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Shading classe. Contiene gli attributi di ombreggiatura per un oggetto in C#.
+description: Scopri la classe Aspose.Words.Shading, progettata per migliorare i tuoi documenti con attributi di ombreggiatura personalizzabili, per un aspetto professionale.
 type: docs
-weight: 5990
+weight: 6820
 url: /it/net/aspose.words/shading/
 ---
 ## Shading class
@@ -22,13 +22,13 @@ public class Shading : InternableComplexAttr
 
 | Nome | Descrizione |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Ottiene o imposta il colore applicato allo sfondo del file`Shading` oggetto. |
-| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Ottiene o imposta il colore del tema del motivo di sfondo nella combinazione di colori applicata associata a questo`Shading` oggetto. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Ottiene o imposta il colore applicato allo sfondo del`Shading` oggetto. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Ottiene o imposta il colore del tema del pattern di sfondo nello schema di colori applicato associato a questo`Shading` oggetto. |
 | [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Ottiene o imposta un valore double che schiarisce o scurisce il colore del tema di sfondo. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Ottiene o imposta il colore applicato al primo piano del file`Shading` oggetto. |
-| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Ottiene o imposta il colore del tema del motivo in primo piano nella combinazione di colori applicata associata a questo`Shading` oggetto. |
-| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Ottiene o imposta un valore double che schiarisce o scurisce il colore del tema di primo piano. |
-| [Texture](../../aspose.words/shading/texture/) { get; set; } | Ottiene o imposta la texture dell'ombreggiatura. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Ottiene o imposta il colore applicato al primo piano dell'`Shading` oggetto. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Ottiene o imposta il colore del tema del motivo in primo piano nello schema di colori applicato associato a questo`Shading` oggetto. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Ottiene o imposta un valore double che schiarisce o scurisce un colore del tema in primo piano. |
+| [Texture](../../aspose.words/shading/texture/) { get; set; } | Ottiene o imposta la trama dell'ombreggiatura. |
 
 ## Metodi
 
@@ -36,7 +36,7 @@ public class Shading : InternableComplexAttr
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Rimuove l'ombreggiatura dall'oggetto. |
 | override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
-| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Determina se specificato`Shading` ha lo stesso valore della corrente`Shading` . |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Determina se il valore specificato`Shading` ha un valore uguale a quello attuale`Shading` . |
 | override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Serve come funzione hash per questo tipo. |
 
 ## Esempi
@@ -63,7 +63,7 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Mostra come applicare il colore del bordo e dell'ombreggiatura durante la creazione di una tabella.
+Mostra come applicare i colori dei bordi e delle ombreggiature durante la creazione di una tabella.
 
 ```csharp
 Document doc = new Document();

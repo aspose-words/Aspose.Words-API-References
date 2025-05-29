@@ -3,14 +3,14 @@ title: SaveOptions.UseAntiAliasing
 linktitle: UseAntiAliasing
 articleTitle: UseAntiAliasing
 second_title: Aspose.Words per .NET
-description: SaveOptions UseAntiAliasing proprietà. Ottiene o imposta un valore che determina se utilizzare o meno lantialiasing per il rendering in C#.
+description: Scopri la proprietà UseAntiAliasing di SaveOptions per migliorare la qualità del rendering. Controlla l'antialiasing per immagini più fluide e prestazioni migliori.
 type: docs
-weight: 190
+weight: 200
 url: /it/net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property
 
-Ottiene o imposta un valore che determina se utilizzare o meno l'antialiasing per il rendering.
+Ottiene o imposta un valore che determina se utilizzare o meno l'anti-aliasing per il rendering.
 
 ```csharp
 public bool UseAntiAliasing { get; set; }
@@ -18,13 +18,13 @@ public bool UseAntiAliasing { get; set; }
 
 ## Osservazioni
 
-Il valore predefinito è`falso` . Quando questo valore è impostato su`VERO` l'antialiasing is utilizzato per il rendering.
+Il valore predefinito è`falso` Quando questo valore è impostato su`VERO` l'anti-aliasing è utilizzato per il rendering.
 
-Questa proprietà viene utilizzata quando il documento viene esportato nei seguenti formati: Tiff ,Png ,Bmp , Jpeg ,Emf . Quando il documento viene esportato in Html ,Mhtml , Epub ,Azw3 oMobi formati questa opzione viene utilizzata per le immagini raster.
+Questa proprietà viene utilizzata quando il documento viene esportato nei seguenti formati: Tiff ,Png ,Bmp , Jpeg ,Emf Quando il documento viene esportato in Html ,Mhtml , Epub ,Azw3 oMobiformati questa opzione è utilizzata per le immagini raster.
 
 ## Esempi
 
-Mostra come migliorare la qualità di un documento sottoposto a rendering con SaveOptions.
+Mostra come migliorare la qualità di un documento renderizzato con SaveOptions.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -3,14 +3,14 @@ title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words per .NET
-description: Document HyphenationOptions proprietà. Fornisce laccesso alle opzioni di sillabazione del documento in C#.
+description: Esplora la proprietà Document HyphenationOptions per personalizzare le impostazioni di sillabazione, migliorando così la leggibilità e la presentazione del documento.
 type: docs
-weight: 210
+weight: 220
 url: /it/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-Fornisce l'accesso alle opzioni di sillabazione del documento.
+Fornisce accesso alle opzioni di sillabazione del documento.
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }

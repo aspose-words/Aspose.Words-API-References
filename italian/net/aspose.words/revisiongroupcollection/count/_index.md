@@ -3,7 +3,7 @@ title: RevisionGroupCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words per .NET
-description: RevisionGroupCollection Count proprietà. Restituisce il numero di gruppi di revisione nella raccolta in C#.
+description: Scopri la proprietà Count di RevisionGroupCollection. Recupera facilmente il numero totale di gruppi di revisione, migliorando l'efficienza della gestione dei dati.
 type: docs
 weight: 10
 url: /it/net/aspose.words/revisiongroupcollection/count/

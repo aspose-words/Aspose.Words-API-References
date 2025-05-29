@@ -3,7 +3,7 @@ title: FrameFormat.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words per .NET
-description: FrameFormat Width proprietà. Ottiene la larghezza del frame specificato in punti in C#.
+description: Scopri la proprietà FrameFormat Width per recuperare facilmente la larghezza della cornice in punti, migliorando così la precisione e l'efficienza della progettazione.
 type: docs
 weight: 120
 url: /it/net/aspose.words/frameformat/width/

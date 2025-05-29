@@ -3,16 +3,16 @@ title: EditableRangeStart Class
 linktitle: EditableRangeStart
 articleTitle: EditableRangeStart
 second_title: Aspose.Words per .NET
-description: Aspose.Words.EditableRangeStart classe. Rappresenta linizio di un intervallo modificabile in un documento Word in C#.
+description: Scopri la classe Aspose.Words.EditableRangeStart, la chiave per gestire gli intervalli modificabili nei documenti Word, per un maggiore controllo e flessibilità dei documenti.
 type: docs
-weight: 1440
+weight: 1850
 url: /it/net/aspose.words/editablerangestart/
 ---
 ## EditableRangeStart class
 
 Rappresenta l'inizio di un intervallo modificabile in un documento Word.
 
-Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
+Per saperne di più, visita il[Modello a oggetti del documento (DOM) di Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public sealed class EditableRangeStart : Node
@@ -24,14 +24,14 @@ public sealed class EditableRangeStart : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
-| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Ottiene l'oggetto facciata che incapsula questo intervallo modificabile di inizio e fine. |
+| [EditableRange](../../aspose.words/editablerangestart/editablerange/) { get; } | Ottiene l'oggetto facciata che incapsula l'inizio e la fine di questo intervallo modificabile. |
 | [Id](../../aspose.words/editablerangestart/id/) { get; set; } | Specifica l'identificatore dell'intervallo modificabile. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Restituisce`VERO` se questo nodo può contenere altri nodi. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
 | override [NodeType](../../aspose.words/editablerangestart/nodetype/) { get; } | RestituisceEditableRangeStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 
 ## Metodi
 
@@ -42,21 +42,21 @@ public sealed class EditableRangeStart : Node
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
 ## Osservazioni
 
-Un intervallo modificabile completo in un documento Word è costituito da a`EditableRangeStart` e una corrispondenza[`EditableRangeEnd`](../editablerangeend/) con lo stesso identificativo.
+Un intervallo modificabile completo in un documento Word è costituito da un`EditableRangeStart` e un corrispondente[`EditableRangeEnd`](../editablerangeend/) con lo stesso ID.
 
-`EditableRangeStart` E[`EditableRangeEnd`](../editablerangeend/) sono solo indicatori all'interno di un document che specificano dove inizia e finisce l'intervallo modificabile.
+`EditableRangeStart` E[`EditableRangeEnd`](../editablerangeend/) sono semplicemente dei marcatori all'interno di un document che specificano dove inizia e finisce l'intervallo modificabile.
 
-Usa il[`EditableRange`](./editablerange/) class come "facciata" per lavorare con un range modificabile come un singolo oggetto.
+Utilizzare il[`EditableRange`](./editablerange/) classe come "facciata" per lavorare con un range modificabile come un singolo oggetto.
 
-Gli intervalli attualmente modificabili sono supportati solo a livello in linea, ovvero all'interno[`Paragraph`](../paragraph/), ma l'inizio dell'intervallo modificabile e la fine dell'intervallo modificabile possono trovarsi in paragrafi diversi.
+Gli intervalli attualmente modificabili sono supportati solo a livello inline, ovvero all'interno[`Paragraph`](../paragraph/), ma l'inizio e la fine dell'intervallo modificabile possono trovarsi in paragrafi diversi.
 
 ## Esempi
 
@@ -72,9 +72,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Quando proteggiamo i documenti dalla scrittura, gli intervalli modificabili ci consentono di scegliere aree specifiche che gli utenti possono modificare.
-    // Esistono due modi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
-    // 1 - Specifica un utente:
+    // Quando proteggiamo i documenti da scrittura, gli intervalli modificabili ci consentono di selezionare aree specifiche che gli utenti possono modificare.
+    // Esistono due metodi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
+    // 1 - Specificare un utente:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -82,7 +82,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Specificare un gruppo a cui sono associati gli utenti autorizzati:
+    // 2 - Specifica un gruppo a cui sono associati gli utenti autorizzati:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -101,7 +101,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Raccoglie le proprietà e il contenuto degli intervalli modificabili visitati in una stringa.
+/// Raccoglie le proprietà e i contenuti degli intervalli modificabili visitati in una stringa.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -152,7 +152,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui. Questo visitatore registra solo le esecuzioni che rientrano negli intervalli modificabili.
+    /// Chiamato quando viene rilevato un nodo Esegui nel documento. Questo visitatore registra solo le esecuzioni che rientrano in intervalli modificabili.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

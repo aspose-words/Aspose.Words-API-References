@@ -3,7 +3,7 @@ title: ChartLegendEntry.IsHidden
 linktitle: IsHidden
 articleTitle: IsHidden
 second_title: Aspose.Words per .NET
-description: ChartLegendEntry IsHidden proprietà. Ottiene o imposta un valore che indica se questa voce è nascosta nella legenda del grafico. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà ChartLegendEntry IsHidden, controlla la visibilità della legenda del grafico senza sforzo. Migliora la presentazione dei tuoi dati con questa semplice funzione di attivazione/disattivazione!
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
@@ -18,11 +18,11 @@ public bool IsHidden { get; set; }
 
 ## Osservazioni
 
-Quando una voce della legenda del grafico è nascosta, non influisce sulla serie di grafici o sulla linea di tendenza corrispondente che è ancora visualizzata sul grafico.
+Quando una voce della legenda di un grafico è nascosta, ciò non influisce sulla serie di grafici o sulla linea di tendenza corrispondente che è ancora visualizzata sul grafico.
 
 ## Esempi
 
-Mostra come utilizzare una voce di legenda per le serie di grafici.
+Mostra come lavorare con una voce di legenda per le serie di grafici.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

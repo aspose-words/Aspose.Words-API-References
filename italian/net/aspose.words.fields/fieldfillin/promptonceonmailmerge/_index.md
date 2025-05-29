@@ -3,14 +3,14 @@ title: FieldFillIn.PromptOnceOnMailMerge
 linktitle: PromptOnceOnMailMerge
 articleTitle: PromptOnceOnMailMerge
 second_title: Aspose.Words per .NET
-description: FieldFillIn PromptOnceOnMailMerge proprietà. Ottiene o imposta se la risposta dellutente deve essere ricevuta una volta per unoperazione di stampa unione in C#.
+description: Ottimizza la tua stampa unione con la proprietà PromptOnceOnMailMerge. Controlla le risposte degli utenti per una raccolta dati efficiente nei tuoi documenti.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
 ---
 ## FieldFillIn.PromptOnceOnMailMerge property
 
-Ottiene o imposta se la risposta dell'utente deve essere ricevuta una volta per un'operazione di stampa unione.
+Ottiene o imposta se la risposta dell'utente deve essere ricevuta una volta per ogni operazione di unione di posta.
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }
@@ -18,7 +18,7 @@ public bool PromptOnceOnMailMerge { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare il campo FILLIN per richiedere una risposta all'utente.
+Mostra come utilizzare il campo FILLIN per chiedere all'utente una risposta.
 
 ```csharp
 public void FieldFillIn()
@@ -33,7 +33,7 @@ public void FieldFillIn()
     field.DefaultResponse = "A default response.";
 
     // Possiamo anche utilizzare questi campi per chiedere all'utente una risposta univoca per ogni pagina
-    // creato durante una stampa unione eseguita utilizzando Microsoft Word.
+    // creato durante una stampa unione effettuata tramite Microsoft Word.
     field.PromptOnceOnMailMerge = true;
 
     Assert.AreEqual(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o", field.GetFieldCode());
@@ -41,8 +41,8 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Se eseguiamo una stampa unione a livello di codice, possiamo utilizzare un risponditore prompt personalizzato
-    // per modificare automaticamente le risposte per i campi FILLIN incontrati dalla stampa unione.
+    // Se eseguiamo una stampa unione a livello di programmazione, possiamo utilizzare un prompt responder personalizzato
+    // per modificare automaticamente le risposte per i campi FILLIN rilevati dalla stampa unione.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
@@ -51,7 +51,7 @@ public void FieldFillIn()
 }
 
 /// <summary>
-/// Antepone una riga alla risposta predefinita di ogni campo FILLIN durante una stampa unione.
+/// Aggiunge una riga all'inizio della risposta predefinita di ogni campo FILLIN durante una stampa unione.
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

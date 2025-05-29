@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitSmartTagEnd
 linktitle: VisitSmartTagEnd
 articleTitle: VisitSmartTagEnd
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitSmartTagEnd metodo. Chiamato al termine dellenumerazione di uno smart tag in C#.
+description: Scopri il metodo VisitSmartTagEnd di DocumentVisitor, essenziale per un'enumerazione efficiente degli smart tag. Migliora il tuo codice con questa funzionalità chiave!
 type: docs
 weight: 410
 url: /it/net/aspose.words/documentvisitor/visitsmarttagend/
 ---
 ## DocumentVisitor.VisitSmartTagEnd method
 
-Chiamato al termine dell'enumerazione di uno smart tag.
+Chiamato quando l'enumerazione di uno smart tag è terminata.
 
 ```csharp
 public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
@@ -34,8 +34,8 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void SmartTagToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi SmartTag incontrati e dei loro figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi SmartTag rilevati e dei relativi elementi figlio.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -63,7 +63,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -85,7 +85,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figlio di un nodo SmartTag sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {
@@ -97,7 +97,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,7 +3,7 @@ title: DocumentProperty.ToInt
 linktitle: ToInt
 articleTitle: ToInt
 second_title: Aspose.Words per .NET
-description: DocumentProperty ToInt metodo. Restituisce il valore della proprietà come intero in C#.
+description: Converti facilmente i valori di DocumentProperty in interi con il metodo ToInt. Sblocca una gestione dati impeccabile per le tue applicazioni!
 type: docs
 weight: 100
 url: /it/net/aspose.words.properties/documentproperty/toint/
@@ -18,11 +18,11 @@ public int ToInt()
 
 ## Osservazioni
 
-Genera un'eccezione se il tipo di proprietà non lo èNumber .
+Genera un'eccezione se il tipo di proprietà non èNumber .
 
 ## Esempi
 
-Mostra vari metodi di conversione del tipo delle proprietà personalizzate del documento.
+Mostra vari metodi di conversione del tipo di proprietà di documenti personalizzati.
 
 ```csharp
 Document doc = new Document();

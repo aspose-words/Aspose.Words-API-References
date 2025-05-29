@@ -3,14 +3,14 @@ title: ParagraphFormat.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words per .NET
-description: ParagraphFormat LeftIndent proprietà. Ottiene o imposta il valore in punti che rappresenta il rientro sinistro del paragrafo in C#.
+description: Regola facilmente il rientro sinistro dei tuoi paragrafi con la proprietà ParagraphFormat LeftIndent. Personalizza il layout del testo per una migliore leggibilità!
 type: docs
 weight: 180
 url: /it/net/aspose.words/paragraphformat/leftindent/
 ---
 ## ParagraphFormat.LeftIndent property
 
-Ottiene o imposta il valore (in punti) che rappresenta il rientro sinistro del paragrafo.
+Ottiene o imposta il valore (in punti) che rappresenta il rientro sinistro per il paragrafo.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -25,8 +25,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Centra tutto il testo scritto dal generatore di documenti e imposta i rientri.
-// La configurazione del rientro seguente creerà un corpo di testo che si posizionerà asimmetricamente sulla pagina.
-// Il "centro" a cui allineiamo il testo sarà il centro del corpo del testo, non il centro della pagina.
+// La configurazione di rientro riportata di seguito creerà un corpo di testo che verrà posizionato in modo asimmetrico sulla pagina.
+// Il "centro" rispetto al quale allineiamo il testo sarà la parte centrale del corpo del testo, non la parte centrale della pagina.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

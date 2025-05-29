@@ -3,7 +3,7 @@ title: DocumentBuilder.ParagraphFormat
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
 second_title: Aspose.Words per .NET
-description: DocumentBuilder ParagraphFormat proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del paragrafo corrente in C#.
+description: Esplora la proprietà ParagraphFormat di DocumentBuilder per accedere e personalizzare le funzionalità essenziali di formattazione dei paragrafi, per uno stile del documento migliorato.
 type: docs
 weight: 170
 url: /it/net/aspose.words/documentbuilder/paragraphformat/
@@ -40,7 +40,7 @@ builder.Font.Bold = true;
 
 // La configurazione delle opzioni di formattazione in un generatore di documenti le applicherà
 // alla cella/riga corrente in cui si trova il cursore,
-// così come qualsiasi nuova cella e riga creata utilizzando quel builder.
+// nonché tutte le nuove celle e righe create utilizzando quel generatore.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Riconfigura gli oggetti di formattazione del builder per le nuove righe e celle che stiamo per creare.
-// Il builder non li applicherà alla prima riga già creata in modo che risalti come riga di intestazione.
+// Riconfiguriamo gli oggetti di formattazione del builder per le nuove righe e celle che stiamo per creare.
+// Il builder non applicherà queste modifiche alla prima riga già creata, in modo che questa risalti come riga di intestazione.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

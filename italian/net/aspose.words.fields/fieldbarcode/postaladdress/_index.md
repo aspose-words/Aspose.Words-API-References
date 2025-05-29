@@ -3,14 +3,14 @@ title: FieldBarcode.PostalAddress
 linktitle: PostalAddress
 articleTitle: PostalAddress
 second_title: Aspose.Words per .NET
-description: FieldBarcode PostalAddress proprietà. Ottiene o imposta lindirizzo postale utilizzato per generare un codice a barre o il nome del segnalibro che fa riferimento ad esso in C#.
+description: Scopri la proprietà PostalAddress di FieldBarcode per gestire facilmente gli indirizzi postali per la generazione di codici a barre e l'inserimento di segnalibri. Semplifica il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldbarcode/postaladdress/
 ---
 ## FieldBarcode.PostalAddress property
 
-Ottiene o imposta l'indirizzo postale utilizzato per generare un codice a barre o il nome del segnalibro che fa riferimento ad esso.
+Ottiene o imposta l'indirizzo postale utilizzato per generare un codice a barre o il nome del segnalibro che vi fa riferimento.
 
 ```csharp
 public string PostalAddress { get; set; }
@@ -18,7 +18,7 @@ public string PostalAddress { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare il campo BARCODE per visualizzare i codici postali statunitensi sotto forma di codice a barre.
+Mostra come utilizzare il campo CODICE A BARRE per visualizzare i codici postali degli Stati Uniti sotto forma di codice a barre.
 
 ```csharp
 Document doc = new Document();
@@ -39,15 +39,15 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - Fa riferimento a un segnalibro che memorizza il valore che verrà visualizzato da questo codice a barre:
+// 2 - Riferimento a un segnalibro che memorizza il valore che verrà visualizzato da questo codice a barre:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
-// Il segnalibro a cui fa riferimento il campo BARCODE nella relativa proprietà PostalAddress
-// non deve contenere nulla oltre al codice postale valido.
+// Il segnalibro a cui fa riferimento il campo BARCODE nella sua proprietà PostalAddress
+// non deve contenere altro oltre al codice postale valido.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

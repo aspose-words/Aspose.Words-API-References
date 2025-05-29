@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode ScalingFactor proprietà. Ottiene o imposta un fattore di scala per il simbolo. Il valore è espresso in punti percentuali interi e i valori validi sono 10 1000 in C#.
+description: Scopri la proprietà FieldDisplayBarcode ScalingFactor per regolare facilmente le dimensioni dei simboli in percentuali intere dal 10% al 1000%. Ottimizza la visualizzazione dei tuoi codici a barre!
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/

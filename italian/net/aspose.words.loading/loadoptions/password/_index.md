@@ -3,14 +3,14 @@ title: LoadOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words per .NET
-description: LoadOptions Password proprietà. Ottiene o imposta la password per lapertura di un documento crittografato. Può esserenullo o stringa vuota. Limpostazione predefinita ènullo  in C#.
+description: Gestisci i tuoi documenti crittografati senza sforzo con la proprietà Password di LoadOptions. Imposta o recupera la tua password in modo sicuro per un accesso senza interruzioni.
 type: docs
 weight: 110
 url: /it/net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-Ottiene o imposta la password per l'apertura di un documento crittografato. Può essere`nullo` o stringa vuota. L'impostazione predefinita è`nullo` .
+Ottiene o imposta la password per l'apertura di un documento crittografato. Può essere`null` o stringa vuota. Il valore predefinito è`null` .
 
 ```csharp
 public string Password { get; set; }
@@ -18,14 +18,14 @@ public string Password { get; set; }
 
 ## Osservazioni
 
-È necessario conoscere la password per aprire un documento crittografato. Se il documento non è crittografato, impostalo su`nullo` o stringa vuota.
+È necessario conoscere la password per aprire un documento crittografato. Se il documento non è crittografato, impostarla su`null` o stringa vuota.
 
 ## Esempi
 
 Mostra come firmare un file di documento crittografato.
 
 ```csharp
-// Crea un certificato X.509 da un archivio PKCS#12, che dovrebbe contenere una chiave privata.
+// Creare un certificato X.509 da un archivio PKCS#12, che dovrebbe contenere una chiave privata.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 // Crea un commento, una data e una password di decrittazione che verranno applicati con la nostra nuova firma digitale.

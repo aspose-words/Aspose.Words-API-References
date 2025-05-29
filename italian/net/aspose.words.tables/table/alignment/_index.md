@@ -3,14 +3,14 @@ title: Table.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words per .NET
-description: Table Alignment proprietà. Specifica come viene allineata una tabella in linea nel documento in C#.
+description: Scopri la proprietà Allineamento tabella per controllare senza sforzo il posizionamento delle tabelle in linea nei tuoi documenti, ottenendo un aspetto curato e professionale.
 type: docs
 weight: 40
 url: /it/net/aspose.words.tables/table/alignment/
 ---
 ## Table.Alignment property
 
-Specifica come viene allineata una tabella in linea nel documento.
+Specifica come una tabella in linea viene allineata nel documento.
 
 ```csharp
 public TableAlignment Alignment { get; set; }
@@ -31,17 +31,17 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Allinea la tabella al centro della pagina.
 table.Alignment = TableAlignment.Center;
 
-// Cancella eventuali bordi e ombreggiature esistenti dalla tabella.
+// Cancella tutti i bordi e le ombreggiature esistenti dalla tabella.
 table.ClearBorders();
 table.ClearShading();
 
-// Aggiunge bordi verdi al contorno della tabella.
+// Aggiungere bordi verdi al contorno della tabella.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Riempie le celle con un colore solido verde chiaro.
+// Riempi le celle con un colore verde chiaro uniforme.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

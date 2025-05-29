@@ -3,14 +3,14 @@ title: CertificateHolder.Create
 linktitle: Create
 articleTitle: Create
 second_title: Aspose.Words per .NET
-description: CertificateHolder Create metodo. CreaCertificateHolder oggetto che utilizza larray di byte dellarchivio PKCS12 e la relativa password in C#.
+description: Crea senza sforzo un oggetto CertificateHolder da un array di byte PKCS12 e una password. Semplifica la gestione dei certificati con il nostro metodo intuitivo.
 type: docs
 weight: 10
 url: /it/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
 ## Create(*byte[], SecureString*) {#create}
 
-Crea[`CertificateHolder`](../) oggetto che utilizza l'array di byte dell'archivio PKCS12 e la relativa password.
+Crea[`CertificateHolder`](../) oggetto che utilizza l'array di byte dell'archivio PKCS12 e la sua password.
 
 ```csharp
 public static CertificateHolder Create(byte[] certBytes, SecureString password)
@@ -18,21 +18,21 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| certBytes | Byte[] | Una matrice di byte che contiene i dati di un certificato X.509. |
-| password | SecureString | La password richiesta per accedere ai dati del certificato X.509. |
+| certBytes | Byte[] | Un array di byte che contiene dati da un certificato X.509. |
+| password | SecureString | Password richiesta per accedere ai dati del certificato X.509. |
 
 ### Valore di ritorno
 
-Un'istanza di[`CertificateHolder`](../)
+Un esempio di[`CertificateHolder`](../)
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidParameterException | Gettato se*certBytes* È`nullo` |
-| InvalidParameterException | Gettato se*password* È`nullo` |
-| SecurityException | Emesso se l'archivio PKCS12 non contiene alias |
-| IOException | Emesso se è presente una password errata o un file danneggiato. |
+| InvalidParameterException | Lanciato se*certBytes* È`null` |
+| InvalidParameterException | Lanciato se*password* È`null` |
+| SecurityException | Generato se l'archivio PKCS12 non contiene alias |
+| IOException | Viene generato se la password è errata o il file è danneggiato. |
 
 ## Esempi
 
@@ -48,31 +48,27 @@ CertificateHolder.Create(certBytes, "aw");
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
-// Se il certificato ha chiavi private corrispondenti ad alias,
-// possiamo usare gli alias per recuperare le rispettive chiavi. Innanzitutto, controlleremo gli alias validi.
+// Se il certificato ha chiavi private corrispondenti agli alias,
+// possiamo usare gli alias per recuperare le rispettive chiavi. Per prima cosa, verificheremo la validità degli alias.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }
 
-// 3 - Utilizza un alias valido:
+// 3 - Utilizzare un alias valido:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Passa "null" come alias per utilizzare il primo alias disponibile che restituisce una chiave privata:
+// 4 - Passare "null" come alias per utilizzare il primo alias disponibile che restituisce una chiave privata:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 
@@ -86,7 +82,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ## Create(*byte[], string*) {#create_1}
 
-Crea[`CertificateHolder`](../) oggetto che utilizza l'array di byte dell'archivio PKCS12 e la relativa password.
+Crea[`CertificateHolder`](../) oggetto che utilizza l'array di byte dell'archivio PKCS12 e la sua password.
 
 ```csharp
 public static CertificateHolder Create(byte[] certBytes, string password)
@@ -94,21 +90,21 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| certBytes | Byte[] | Una matrice di byte che contiene i dati di un certificato X.509. |
-| password | String | La password richiesta per accedere ai dati del certificato X.509. |
+| certBytes | Byte[] | Un array di byte che contiene dati da un certificato X.509. |
+| password | String | Password richiesta per accedere ai dati del certificato X.509. |
 
 ### Valore di ritorno
 
-Un'istanza di[`CertificateHolder`](../)
+Un esempio di[`CertificateHolder`](../)
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidParameterException | Gettato se*certBytes* È`nullo` |
-| InvalidParameterException | Gettato se*password* È`nullo` |
-| SecurityException | Emesso se l'archivio PKCS12 non contiene alias |
-| IOException | Emesso se è presente una password errata o un file danneggiato. |
+| InvalidParameterException | Lanciato se*certBytes* È`null` |
+| InvalidParameterException | Lanciato se*password* È`null` |
+| SecurityException | Generato se l'archivio PKCS12 non contiene alias |
+| IOException | Viene generato se la password è errata o il file è danneggiato. |
 
 ## Esempi
 
@@ -124,31 +120,27 @@ CertificateHolder.Create(certBytes, "aw");
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
-// Se il certificato ha chiavi private corrispondenti ad alias,
-// possiamo usare gli alias per recuperare le rispettive chiavi. Innanzitutto, controlleremo gli alias validi.
+// Se il certificato ha chiavi private corrispondenti agli alias,
+// possiamo usare gli alias per recuperare le rispettive chiavi. Per prima cosa, verificheremo la validità degli alias.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }
 
-// 3 - Utilizza un alias valido:
+// 3 - Utilizzare un alias valido:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Passa "null" come alias per utilizzare il primo alias disponibile che restituisce una chiave privata:
+// 4 - Passare "null" come alias per utilizzare il primo alias disponibile che restituisce una chiave privata:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 
@@ -162,7 +154,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ## Create(*string, string*) {#create_2}
 
-Crea[`CertificateHolder`](../) oggetto utilizzando il percorso dell'archivio PKCS12 e la relativa password.
+Crea[`CertificateHolder`](../)oggetto che utilizza il percorso per l'archivio PKCS12 e la sua password.
 
 ```csharp
 public static CertificateHolder Create(string fileName, string password)
@@ -171,27 +163,27 @@ public static CertificateHolder Create(string fileName, string password)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileName | String | Il nome di un file di certificato. |
-| password | String | La password richiesta per accedere ai dati del certificato X.509. |
+| password | String | Password richiesta per accedere ai dati del certificato X.509. |
 
 ### Valore di ritorno
 
-Un'istanza di[`CertificateHolder`](../)
+Un esempio di[`CertificateHolder`](../)
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidParameterException | Gettato se*fileName* È`nullo` |
-| InvalidParameterException | Gettato se*password* È`nullo` |
-| SecurityException | Emesso se l'archivio PKCS12 non contiene alias |
-| IOException | Emesso se è presente una password errata o un file danneggiato. |
+| InvalidParameterException | Lanciato se*fileName* È`null` |
+| InvalidParameterException | Lanciato se*password* È`null` |
+| SecurityException | Generato se l'archivio PKCS12 non contiene alias |
+| IOException | Viene generato se la password è errata o il file è danneggiato. |
 
 ## Esempi
 
 Mostra come firmare digitalmente i documenti.
 
 ```csharp
-// Crea un certificato X.509 da un archivio PKCS#12, che dovrebbe contenere una chiave privata.
+// Creare un certificato X.509 da un archivio PKCS#12, che dovrebbe contenere una chiave privata.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 // Crea un commento e una data che verranno applicati con la nostra nuova firma digitale.
@@ -201,7 +193,7 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Preleva un documento non firmato dal file system locale tramite un flusso di file,
+// Prendi un documento non firmato dal file system locale tramite un flusso di file,
 // quindi crea una copia firmata determinata dal nome file del flusso di file di output.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
@@ -222,7 +214,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Create(*string, string, string*) {#create_3}
 
-Crea[`CertificateHolder`](../) oggetto utilizzando il percorso dell'archivio PKCS12, la relativa password e l'alias utilizzando la chiave privata e il certificato che verranno trovati.
+Crea[`CertificateHolder`](../) oggetto che utilizza il percorso per l'archivio PKCS12, la sua password e l'alias utilizzando quale chiave privata e certificato verranno trovati.
 
 ```csharp
 public static CertificateHolder Create(string fileName, string password, string alias)
@@ -231,22 +223,22 @@ public static CertificateHolder Create(string fileName, string password, string 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | fileName | String | Il nome di un file di certificato. |
-| password | String | La password richiesta per accedere ai dati del certificato X.509. |
-| alias | String | L'alias associato a un certificato e alla relativa chiave privata |
+| password | String | Password richiesta per accedere ai dati del certificato X.509. |
+| alias | String | L'alias associato per un certificato e la sua chiave privata |
 
 ### Valore di ritorno
 
-Un'istanza di[`CertificateHolder`](../)
+Un esempio di[`CertificateHolder`](../)
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| InvalidParameterException | Gettato se*fileName* È`nullo` |
-| InvalidParameterException | Gettato se*password* È`nullo` |
-| SecurityException | Emesso se l'archivio PKCS12 non contiene alias |
-| IOException | Emesso se è presente una password errata o un file danneggiato. |
-| SecurityException | Emesso se non è presente una chiave privata con l'alias specificato |
+| InvalidParameterException | Lanciato se*fileName* È`null` |
+| InvalidParameterException | Lanciato se*password* È`null` |
+| SecurityException | Generato se l'archivio PKCS12 non contiene alias |
+| IOException | Viene generato se la password è errata o il file è danneggiato. |
+| SecurityException | Generato se non esiste una chiave privata con l'alias specificato |
 
 ## Esempi
 
@@ -262,31 +254,27 @@ CertificateHolder.Create(certBytes, "aw");
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
-// Se il certificato ha chiavi private corrispondenti ad alias,
-// possiamo usare gli alias per recuperare le rispettive chiavi. Innanzitutto, controlleremo gli alias validi.
+// Se il certificato ha chiavi private corrispondenti agli alias,
+// possiamo usare gli alias per recuperare le rispettive chiavi. Per prima cosa, verificheremo la validità degli alias.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }
 
-// 3 - Utilizza un alias valido:
+// 3 - Utilizzare un alias valido:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Passa "null" come alias per utilizzare il primo alias disponibile che restituisce una chiave privata:
+// 4 - Passare "null" come alias per utilizzare il primo alias disponibile che restituisce una chiave privata:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 

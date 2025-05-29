@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.XmlMapping
 linktitle: XmlMapping
 articleTitle: XmlMapping
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagRangeStart XmlMapping proprietà. Ottiene un oggetto che rappresenta la mappatura di questo intervallo di tag del documento strutturato su dati XML in una parte XML personalizzata del documento corrente in C#.
+description: Scopri come la proprietà StructuredDocumentTagRangeStart XmlMapping collega l'intervallo di tag del tuo documento ai dati XML personalizzati, migliorando l'integrazione dei documenti.
 type: docs
-weight: 180
+weight: 190
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
 ---
 ## StructuredDocumentTagRangeStart.XmlMapping property
 
-Ottiene un oggetto che rappresenta la mappatura di questo intervallo di tag del documento strutturato su dati XML in una parte XML personalizzata del documento corrente.
+Ottiene un oggetto che rappresenta la mappatura di questo intervallo di tag di documenti strutturati ai dati XML in una parte XML personalizzata del documento corrente.
 
 ```csharp
 public XmlMapping XmlMapping { get; }
@@ -18,16 +18,16 @@ public XmlMapping XmlMapping { get; }
 
 ## Osservazioni
 
-Puoi usare il[`SetMapping`](../../xmlmapping/setmapping/) metodo di this oggetto per mappare un intervallo di tag di documento strutturato su dati XML.
+Puoi usare il[`SetMapping`](../../xmlmapping/setmapping/) metodo dell'oggetto this per mappare un intervallo di tag di documento strutturato ai dati XML.
 
 ## Esempi
 
-Mostra come impostare le mappature XML per l'inizio dell'intervallo di un tag di documento strutturato.
+Mostra come impostare i mapping XML per l'inizio dell'intervallo di un tag di documento strutturato.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
 
-// Costruisce una parte XML che contiene testo e la aggiunge alla raccolta CustomXmlPart del documento.
+// Crea una parte XML che contiene testo e aggiungila alla raccolta CustomXmlPart del documento.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Text element #1</text><text>Text element #2</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -35,12 +35,12 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text></root>",
     Encoding.UTF8.GetString(xmlPart.Data));
 
-// Crea un tag di documento strutturato che visualizzerà il contenuto della nostra CustomXmlPart nel documento.
+// Crea un tag di documento strutturato che visualizzerà il contenuto del nostro CustomXmlPart nel documento.
 StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true);
 
 // Se impostiamo una mappatura per il nostro tag di documento strutturato,
 // verrà visualizzata solo una parte di CustomXmlPart a cui punta XPath.
-// Questo XPath punterà al contenuto secondo "<text>" elemento del primo "<root>" elemento del nostro CustomXmlPart.
+// Questo XPath punterà al contenuto del secondo elemento "<text>" del primo elemento "<root>" del nostro CustomXmlPart.
 sdtRangeStart.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", null);
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXmlMapping.docx");

@@ -3,7 +3,7 @@ title: Chart.Axes
 linktitle: Axes
 articleTitle: Axes
 second_title: Aspose.Words per .NET
-description: Chart Axes proprietà. Ottiene una raccolta di tutti gli assi di questo grafico in C#.
+description: Scopri la proprietà "Assi grafico" per accedere facilmente a tutti gli assi del grafico. Migliora la visualizzazione dei dati con una gestione completa degli assi.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chart/axes/
@@ -18,14 +18,14 @@ public ChartAxisCollection Axes { get; }
 
 ## Esempi
 
-Mostra come lavorare con la raccolta degli assi.
+Mostra come lavorare con la raccolta di assi.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
 // Nasconde le linee principali della griglia sugli assi Y primario e secondario.
 foreach (ChartAxis axis in chart.Axes)

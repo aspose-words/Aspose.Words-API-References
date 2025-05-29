@@ -3,9 +3,9 @@ title: CommentDisplayMode Enum
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Layout.CommentDisplayMode enum. Specifica la modalità di rendering per i commenti del documento in C#.
+description: Scopri l'enum Aspose.Words.Layout.CommentDisplayMode per un rendering ottimizzato dei commenti nei documenti. Migliora la chiarezza e la presentazione del tuo documento oggi stesso!
 type: docs
-weight: 3290
+weight: 3740
 url: /it/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
@@ -20,13 +20,13 @@ public enum CommentDisplayMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Hide | `0` | Nessun commento al documento viene visualizzato. |
-| ShowInBalloons | `1` | Rende i commenti del documento in fumetti a margine. Questo è il valore predefinito. |
-| ShowInAnnotations | `2` | Rende i commenti del documento nelle annotazioni. Disponibile solo per il formato PDF. |
+| Hide | `0` | Non vengono visualizzati commenti sul documento. |
+| ShowInBalloons | `1` | Visualizza i commenti del documento in fumetti a margine. Questo è il valore predefinito. |
+| ShowInAnnotations | `2` | Visualizza i commenti del documento nelle annotazioni. Disponibile solo per il formato PDF. |
 
 ## Esempi
 
-Mostra come mostrare i commenti quando si salva un documento in un formato sottoposto a rendering.
+Mostra come visualizzare i commenti quando si salva un documento in un formato renderizzato.
 
 ```csharp
 Document doc = new Document();

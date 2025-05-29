@@ -3,14 +3,14 @@ title: Shape.HorizontalRuleFormat
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words per .NET
-description: Shape HorizontalRuleFormat proprietà. Fornisce laccesso alle proprietà della forma del filetto orizzontale. Per una forma che non è un filetto orizzontale restituiscenullo  in C#.
+description: Accedi e personalizza le proprietà di HorizontalRuleFormat per una maggiore flessibilità di progettazione. Ottimizza le tue forme con impostazioni personalizzate per risultati unici.
 type: docs
-weight: 100
+weight: 110
 url: /it/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Fornisce l'accesso alle proprietà della forma del filetto orizzontale. Per una forma che non è un filetto orizzontale, restituisce`nullo` .
+Fornisce l'accesso alle proprietà della forma della regola orizzontale. Per una forma che non è una regola orizzontale, restituisce`null` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
@@ -18,7 +18,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ## Esempi
 
-Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
+Mostra come inserire una forma di regola orizzontale e personalizzarne la formattazione.
 
 ```csharp
 Document doc = new Document();

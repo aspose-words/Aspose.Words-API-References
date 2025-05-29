@@ -3,7 +3,7 @@ title: FieldNextIf.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words per .NET
-description: FieldNextIf ComparisonOperator proprietà. Ottiene o imposta loperatore di confronto in C#.
+description: Scopri la proprietà FieldNextIf ComparisonOperator per gestire e personalizzare facilmente gli operatori di confronto per ottenere funzionalità migliorate.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldnextif/comparisonoperator/
@@ -26,8 +26,8 @@ public void FieldNext()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Crea un'origine dati per la nostra stampa unione con 3 righe.
-    // Una stampa unione che utilizza questa tabella creerebbe normalmente un documento di 3 pagine.
+    // Creiamo un'origine dati per la nostra stampa unione con 3 righe.
+    // Una stampa unione che utilizza questa tabella normalmente creerebbe un documento di 3 pagine.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -39,16 +39,16 @@ public void FieldNext()
     InsertMergeFields(builder, "First row: ");
 
     // Se abbiamo più campi di unione con lo stesso FieldName,
-    // riceveranno i dati dalla stessa riga dell'origine dati e visualizzeranno lo stesso valore dopo l'unione.
-    // Un campo NEXT indica immediatamente alla stampa unione di spostarsi di una riga verso il basso,
+    // riceveranno i dati dalla stessa riga della sorgente dati e visualizzeranno lo stesso valore dopo l'unione.
+    // Un campo NEXT indica alla stampa unione di spostarsi immediatamente verso il basso di una riga,
     // il che significa che tutti i MERGEFIELD che seguono il campo NEXT riceveranno i dati dalla riga successiva.
-    // Assicurati di non provare mai a saltare alla riga successiva mentre sei già sull'ultima riga.
+    // Assicurati di non provare mai a passare alla riga successiva mentre sei già all'ultima riga.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
     // Dopo l'unione, i valori dell'origine dati accettati da questi MERGEFIELD
-     // finirà sulla stessa pagina dei MERGEFIELD sopra.
+     // finirà sulla stessa pagina dei MERGEFIELD precedenti.
     InsertMergeFields(builder, "Second row: ");
 
     // Un campo NEXTIF ha la stessa funzione di un campo NEXT,
@@ -60,14 +60,14 @@ public void FieldNext()
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // Se il confronto affermato dal campo precedente è corretto,
+    // Se il confronto affermato dal campo sopra è corretto,
     // i seguenti 3 campi di unione prenderanno i dati dalla terza riga.
-    // Altrimenti, questi campi prenderanno nuovamente i dati dalla riga 2.
+    // In caso contrario, questi campi prenderanno nuovamente i dati dalla riga 2.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
 
-     // La nostra origine dati ha 3 righe e le abbiamo saltate due volte.
+     // La nostra sorgente dati ha 3 righe e abbiamo saltato due volte alcune righe.
     // Il nostro documento di output avrà 1 pagina con i dati di tutte e 3 le righe.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }

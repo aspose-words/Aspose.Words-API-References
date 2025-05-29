@@ -3,14 +3,14 @@ title: Font.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words per .NET
-description: Font Shadow proprietà. Vero se il carattere è formattato come ombreggiato in C#.
+description: Scopri la proprietà Font Shadow e arricchisci il tuo testo con eleganti effetti ombra per conferire un impatto visivo sorprendente ai tuoi progetti.
 type: docs
-weight: 330
+weight: 340
 url: /it/net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property
 
-Vero se il carattere è formattato come ombreggiato.
+Vero se il font è formattato come ombreggiato.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -24,8 +24,8 @@ Mostra come creare una sequenza di testo formattata con un'ombra.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta il flag Shadow per applicare un effetto ombra offset,
-// facendo sembrare che le lettere fluttuano sopra la pagina.
+// Imposta il flag Ombra per applicare un effetto ombra offset,
+// facendo sembrare che le lettere fluttuino sopra la pagina.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;
 

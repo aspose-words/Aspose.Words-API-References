@@ -3,9 +3,9 @@ title: Shape.StrokeColor
 linktitle: StrokeColor
 articleTitle: StrokeColor
 second_title: Aspose.Words per .NET
-description: Shape StrokeColor proprietà. Definisce il colore di un tratto in C#.
+description: Personalizza il tuo design con la proprietà Shape StrokeColor, che ti consente di definire colori di tratto vivaci per un impatto visivo sorprendente.
 type: docs
-weight: 190
+weight: 200
 url: /it/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
@@ -20,11 +20,11 @@ public Color StrokeColor { get; set; }
 
 Questa è una scorciatoia per[`Color`](../../stroke/color/) proprietà.
 
-Il valore predefinito è Black.
+Il valore predefinito è Black .
 
 ## Esempi
 
-Mostra come riempire una forma con un colore a tinta unita.
+Mostra come riempire una forma con un colore pieno.
 
 ```csharp
 Document doc = new Document();
@@ -37,18 +37,18 @@ builder.Writeln("Hello world!");
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Utilizza la proprietà "StrokeColor" per impostare il colore del contorno della forma.
+// Utilizzare la proprietà "StrokeColor" per impostare il colore del contorno della forma.
 shape.StrokeColor = Color.CadetBlue;
 
-// Utilizza la proprietà "FillColor" per impostare il colore dell'area interna della forma.
+// Utilizzare la proprietà "FillColor" per impostare il colore dell'area interna della forma.
 shape.FillColor = Color.LightBlue;
 
-// La proprietà "Opacità" determina quanto trasparente è il colore su una scala 0-1,
+// La proprietà "Opacità" determina quanto è trasparente il colore su una scala da 0 a 1,
 // dove 1 è completamente opaco e 0 è invisibile.
-// Il riempimento della forma per impostazione predefinita è completamente opaco, quindi non possiamo vedere il testo su cui si trova questa forma.
+// Per impostazione predefinita, il riempimento della forma è completamente opaco, quindi non possiamo vedere il testo su cui si trova questa forma.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Imposta l'opacità del colore di riempimento della forma su un valore inferiore in modo da poter vedere il testo sottostante.
+// Imposta l'opacità del colore di riempimento della forma su un valore più basso, in modo da poter vedere il testo sottostante.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
@@ -67,7 +67,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Registra le informazioni relative all'aspetto delle forme visitate.
+/// Registra informazioni relative all'aspetto delle forme visitate.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -79,7 +79,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder con un carattere di tabulazione anteposto per ogni livello di rientro.
+    /// Aggiunge una riga allo StringBuilder con un carattere di tabulazione anteposto per ogni livello di rientro.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -117,7 +117,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -133,7 +132,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando questo visitatore visita la fine di un nodo Shape.
+    /// Chiamato quando questo visitatore raggiunge la fine di un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -156,7 +155,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando questo visitatore visita la fine di un nodo GroupShape.
+    /// Chiamato quando questo visitatore raggiunge la fine di un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

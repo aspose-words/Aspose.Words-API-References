@@ -3,7 +3,7 @@ title: FieldOptions.ToaCategories
 linktitle: ToaCategories
 articleTitle: ToaCategories
 second_title: Aspose.Words per .NET
-description: FieldOptions ToaCategories proprietà. Ottiene o imposta la tabella delle categorie delle autorità in C#.
+description: Scopri FieldOptions ToaCategories. Gestisci e personalizza facilmente le categorie dell'indice delle fonti per una migliore organizzazione ed efficienza.
 type: docs
 weight: 200
 url: /it/net/aspose.words.fields/fieldoptions/toacategories/
@@ -18,17 +18,17 @@ public ToaCategories ToaCategories { get; set; }
 
 ## Esempi
 
-Mostra come specificare un insieme di categorie per i campi TOA.
+Mostra come specificare un set di categorie per i campi TOA.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// I campi TOA possono filtrare le proprie voci in base alle categorie definite in questa raccolta.
+// I campi TOA possono filtrare le voci in base alle categorie definite in questa raccolta.
 ToaCategories toaCategories = new ToaCategories();
 doc.FieldOptions.ToaCategories = toaCategories;
 
-// Questa raccolta di categorie viene fornita con valori predefiniti, che possiamo sovrascrivere con valori personalizzati.
+// Questa raccolta di categorie è dotata di valori predefiniti, che possiamo sovrascrivere con valori personalizzati.
 Assert.AreEqual("Cases", toaCategories[1]);
 Assert.AreEqual("Statutes", toaCategories[2]);
 
@@ -39,18 +39,18 @@ toaCategories[2] = "My Category 2";
 Assert.AreEqual("Cases", ToaCategories.DefaultCategories[1]);
 Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
 
-// Inserisci 2 campi TOA. I campi TOA creano una voce per ciascun campo TA nel documento.
-// Usa lo switch "\c" per selezionare l'indice di una categoria dalla nostra collezione.
+// Inserisci 2 campi TOA. I campi TOA creano una voce per ogni campo TA nel documento.
+// Utilizzare l'opzione "\c" per selezionare l'indice di una categoria dalla nostra raccolta.
 // Con questa opzione, un campo TOA raccoglierà solo le voci dai campi TA che
-// avere anche un'opzione "\c" con un indice di categoria corrispondente. Verrà visualizzato anche ciascun campo TOA
+// hanno anche un'opzione "\c" con un indice di categoria corrispondente. Ogni campo TOA visualizzerà anche
 // il nome della categoria a cui punta l'opzione "\c".
 builder.InsertField("TOA \\c 1 \\h", null);
 builder.InsertField("TOA \\c 2 \\h", null);
 builder.InsertBreak(BreakType.PageBreak);
 
 // Inserisci voci TOA in 2 categorie. Il nostro primo campo TOA riceverà una voce,
-// dal secondo campo TA il cui interruttore "\c" punta anch'esso alla prima categoria.
-// Il secondo campo TOA avrà due voci dagli altri due campi TA.
+// dal secondo campo TA il cui parametro "\c" punta anche alla prima categoria.
+// Il secondo campo TOA conterrà due voci dagli altri due campi TA.
 builder.InsertField("TA \\c 2 \\l \"entry 1\"");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertField("TA \\c 1 \\l \"entry 2\"");

@@ -3,9 +3,9 @@ title: Shape.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: Aspose.Words per .NET
-description: Shape HasImage proprietà. RestituisceVERO se la forma ha byte di immagine o collega unimmagine in C#.
+description: Scopri se una forma contiene dati immagine o collegamenti a un'immagine con la proprietà HasImage. Migliora i tuoi progetti senza sforzo!
 type: docs
-weight: 80
+weight: 90
 url: /it/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
@@ -33,7 +33,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-Mostra come estrarre immagini da un documento e salvarle nel file system locale come singoli file.
+Mostra come estrarre immagini da un documento e salvarle nel file system locale come file singoli.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -49,8 +49,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine.
-        // Possiamo determinare automaticamente un'estensione di file per ciascuna immagine, in base al suo formato.
+         // I dati immagine delle forme possono contenere immagini di molti possibili formati.
+        // Possiamo determinare automaticamente un'estensione di file per ogni immagine, in base al suo formato.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

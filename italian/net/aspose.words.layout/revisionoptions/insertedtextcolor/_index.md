@@ -3,9 +3,9 @@ title: RevisionOptions.InsertedTextColor
 linktitle: InsertedTextColor
 articleTitle: InsertedTextColor
 second_title: Aspose.Words per .NET
-description: RevisionOptions InsertedTextColor proprietà. Permette di specificare il colore da utilizzare per il contenuto inseritoInsertion . Il valore predefinito èByAuthor  in C#.
+description: Personalizza la tua esperienza di modifica con la proprietà InsertedTextColor di RevisionOptions, impostando colori univoci per il contenuto inserito. Impostazione predefinita: ByAuthor.
 type: docs
-weight: 40
+weight: 60
 url: /it/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 ---
 ## RevisionOptions.InsertedTextColor property
@@ -18,7 +18,7 @@ public RevisionColor InsertedTextColor { get; set; }
 
 ## Esempi
 
-Mostra come modificare l'aspetto delle revisioni in un documento di output sottoposto a rendering.
+Mostra come modificare l'aspetto delle revisioni in un documento di output renderizzato.
 
 ```csharp
 Document doc = new Document();
@@ -31,11 +31,12 @@ builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Rimuove la barra che appare a sinistra di ogni riga modificata.
+// Rimuovi la barra che appare a sinistra di ogni riga rivista.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Guarda anche

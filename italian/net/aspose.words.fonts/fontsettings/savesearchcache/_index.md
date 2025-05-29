@@ -3,14 +3,14 @@ title: FontSettings.SaveSearchCache
 linktitle: SaveSearchCache
 articleTitle: SaveSearchCache
 second_title: Aspose.Words per .NET
-description: FontSettings SaveSearchCache metodo. Salva la cache di ricerca dei caratteri nello stream in C#.
+description: Scopri come il metodo SaveSearchCache di FontSettings salva in modo efficiente la cache di ricerca dei font in un flusso, migliorando le prestazioni e l'esperienza utente.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fonts/fontsettings/savesearchcache/
 ---
 ## FontSettings.SaveSearchCache method
 
-Salva la cache di ricerca dei caratteri nello stream.
+Salva la cache di ricerca dei font nel flusso.
 
 ```csharp
 public void SaveSearchCache(Stream outputStream)
@@ -18,15 +18,15 @@ public void SaveSearchCache(Stream outputStream)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| outputStream | Stream | Flusso di uscita. |
+| outputStream | Stream | Flusso di output. |
 
 ## Osservazioni
 
-Vedere[`SetFontsSources`](../setfontssources/) descrizione del metodo per ulteriori informazioni.
+Vedere[`SetFontsSources`](../setfontssources/) descrizione del metodo per maggiori informazioni.
 
 ## Esempi
 
-Mostra come velocizzare il processo di inizializzazione della cache dei caratteri.
+Mostra come velocizzare il processo di inizializzazione della cache dei font.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -47,7 +47,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -56,7 +56,7 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Carica i dati dei caratteri solo quando richiesto invece di archiviarli nella memoria
+/// Carica i dati del font solo quando necessario invece di memorizzarli nella memoria
 /// per l'intera durata dell'oggetto "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource

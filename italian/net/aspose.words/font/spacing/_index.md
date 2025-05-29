@@ -3,9 +3,9 @@ title: Font.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words per .NET
-description: Font Spacing proprietà. Restituisce o imposta la spaziatura in punti tra i caratteri  in C#.
+description: Scopri la proprietà "Spaziatura caratteri" per regolare facilmente la spaziatura dei caratteri in punti. Migliora la leggibilità e il design con un controllo tipografico preciso.
 type: docs
-weight: 380
+weight: 390
 url: /it/net/aspose.words/font/spacing/
 ---
 ## Font.Spacing property
@@ -18,21 +18,21 @@ public double Spacing { get; set; }
 
 ## Esempi
 
-Mostra come impostare il ridimensionamento e la spaziatura orizzontale per i caratteri.
+Mostra come impostare il ridimensionamento orizzontale e la spaziatura per i caratteri.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiunge una sequenza di testo e aumenta la larghezza del carattere al 150%.
+// Aggiungere una sequenza di testo e aumentare la larghezza del carattere al 150%.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// Aggiunge una sequenza di testo e aggiunge 1 punto di spaziatura orizzontale extra tra ogni carattere.
+// Aggiungere una sequenza di testo e aggiungere 1 pt di spaziatura orizzontale extra tra ogni carattere.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// Aggiungi sequenza di testo e avvicina i caratteri di 1 pt.
+// Aggiunge una sequenza di testo e avvicina i caratteri di 1 pt.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

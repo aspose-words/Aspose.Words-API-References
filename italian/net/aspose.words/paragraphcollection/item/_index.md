@@ -3,14 +3,14 @@ title: ParagraphCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: ParagraphCollection Item proprietà. Recupera aParagraph allindice indicato in C#.
+description: Accedi facilmente a paragrafi specifici con la proprietà ParagraphCollection Item. Recupera qualsiasi paragrafo tramite indice per una gestione fluida del testo.
 type: docs
 weight: 10
 url: /it/net/aspose.words/paragraphcollection/item/
 ---
 ## ParagraphCollection indexer
 
-Recupera a[`Paragraph`](../../paragraph/) all'indice indicato.
+Recupera un[`Paragraph`](../../paragraph/) all'indice dato.
 
 ```csharp
 public Paragraph this[int index] { get; }
@@ -18,17 +18,17 @@ public Paragraph this[int index] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Un indice nella raccolta. |
+| index | Un indice della collezione. |
 
 ## Osservazioni
 
-L'indice è a base zero.
+L'indice è basato sullo zero.
 
-Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 significa l'ultimo elemento, -2 significa il penultimo e così via.
+Sono consentiti indici negativi che indicano l'accesso dalla parte posteriore della raccolta. Ad esempio -1 indica l'ultimo elemento, -2 indica il penultimo e così via.
 
-Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento null.
+Se l'indice è maggiore o uguale al numero di elementi nell'elenco, viene restituito un riferimento null.
 
-Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
+Se l'indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, viene restituito un riferimento null.
 
 ## Esempi
 
@@ -38,17 +38,17 @@ Mostra come verificare se un paragrafo è una revisione di spostamento.
 Document doc = new Document(MyDir + "Revisions.docx");
 
 // Questo documento contiene revisioni "Sposta", che appaiono quando evidenziamo il testo con il cursore,
-// quindi trascinalo per spostarlo in un'altra posizione
-// durante il monitoraggio delle revisioni in Microsoft Word tramite "Revisione" -> "Tenere traccia delle modifiche".
+// e quindi trascinalo per spostarlo in un'altra posizione
+// durante il monitoraggio delle revisioni in Microsoft Word tramite "Revisione" -> "Traccia modifiche".
 Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving));
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
- // Le revisioni di spostamento sono costituite da coppie di revisioni "Sposta da" e "Sposta in".
+ // Le revisioni di spostamento sono costituite da coppie di revisioni "Sposta da" e "Sposta a".
 // Queste revisioni sono potenziali modifiche al documento che possiamo accettare o rifiutare.
-// Prima di accettare/rifiutare una revisione di spostamento, il file document
+// Prima di accettare/rifiutare una revisione di spostamento, il documento
 // deve tenere traccia sia della destinazione di partenza che di quella di arrivo del testo.
-// Il secondo e il quarto paragrafo definiscono una di queste revisioni e quindi entrambi hanno gli stessi contenuti.
+// Il secondo e il quarto paragrafo definiscono una di tali revisioni e pertanto hanno entrambi lo stesso contenuto.
 Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 
 // La revisione "Sposta da" è il paragrafo da cui abbiamo trascinato il testo.
@@ -57,7 +57,7 @@ Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 Assert.True(paragraphs[1].IsMoveFromRevision);
 
 // La revisione "Sposta in" è il paragrafo in cui abbiamo trascinato il testo.
-// Se rifiutiamo la revisione, questo paragrafo invece scomparirà, e l'altro rimarrà.
+// Se rifiutiamo la revisione, questo paragrafo scomparirà e l'altro rimarrà.
 Assert.True(paragraphs[3].IsMoveToRevision);
 ```
 

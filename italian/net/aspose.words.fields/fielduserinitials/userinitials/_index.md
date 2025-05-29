@@ -3,7 +3,7 @@ title: FieldUserInitials.UserInitials
 linktitle: UserInitials
 articleTitle: UserInitials
 second_title: Aspose.Words per .NET
-description: FieldUserInitials UserInitials proprietà. Ottiene o imposta le iniziali dellutente corrente in C#.
+description: Accedi e personalizza la proprietà FieldUserInitials per gestire senza sforzo le iniziali degli utenti, migliorando la personalizzazione e l'esperienza utente.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -23,13 +23,13 @@ Mostra come utilizzare il campo USERINITIALS.
 ```csharp
 Document doc = new Document();
 
-// Crea un oggetto UserInformation e impostalo come origine delle informazioni sull'utente per tutti i campi che creiamo.
+// Creiamo un oggetto UserInformation e lo impostiamo come origine delle informazioni utente per tutti i campi che creiamo.
 UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
 
 // Crea un campo USERINITIALS per visualizzare le iniziali dell'utente corrente,
-// tratto dall'oggetto UserInformation che abbiamo creato sopra.
+// tratto dall'oggetto UserInformation creato sopra.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserInitials fieldUserInitials = (FieldUserInitials)builder.InsertField(FieldType.FieldUserInitials, true);
 Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
@@ -37,7 +37,7 @@ Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
 Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. D.", fieldUserInitials.Result);
 
- // Possiamo impostare questa proprietà per fare in modo che il nostro campo sovrascriva il valore attualmente memorizzato nell'oggetto UserInformation.
+ // Possiamo impostare questa proprietà per far sì che il nostro campo sovrascriva il valore attualmente memorizzato nell'oggetto UserInformation.
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 

@@ -3,7 +3,7 @@ title: AsposeWordsPrintDocument.CachePrinterSettings
 linktitle: CachePrinterSettings
 articleTitle: CachePrinterSettings
 second_title: Aspose.Words per .NET
-description: AsposeWordsPrintDocument CachePrinterSettings metodo. Legge e memorizza nella cache alcuni campi diPrinterSettings per ridurre i tempi di stampa in C#.
+description: Migliora l'efficienza di stampa con il metodo CachePrinterSettings di Aspose.Words, che ottimizza PrinterSettings per ridurre al minimo i ritardi di stampa e migliorare le prestazioni.
 type: docs
 weight: 40
 url: /it/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
@@ -18,21 +18,21 @@ public void CachePrinterSettings()
 
 ## Osservazioni
 
-Questo metodo viene chiamato prima dell'avvio della stampa se non è stato eseguito in precedenza.
+Questo metodo viene chiamato prima dell'inizio della stampa se non è stato eseguito in precedenza.
 
 ## Esempi
 
-Mostra come selezionare un intervallo di pagine e una stampante con cui stampare il documento e quindi visualizzare un'anteprima di stampa.
+Mostra come selezionare un intervallo di pagine e una stampante con cui stampare il documento, per poi visualizzare un'anteprima di stampa.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// Chiama il metodo "Mostra" per visualizzare in alto il modulo di anteprima di stampa.
+// Chiama il metodo "Show" per visualizzare in primo piano il modulo di anteprima di stampa.
 previewDlg.Show();
 
-// Inizializza la finestra di dialogo di stampa con il numero di pagine nel documento.
+// Inizializza la finestra di dialogo Stampa con il numero di pagine del documento.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -51,18 +51,18 @@ awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 // Specifica la nuova modalità di stampa a colori.
 awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
 
-// Utilizza il metodo "CachePrinterSettings" per ridurre i tempi della prima chiamata del metodo "Print".
+// Utilizzare il metodo "CachePrinterSettings" per ridurre il tempo della prima chiamata del metodo "Print".
 awPrintDoc.CachePrinterSettings();
 
-// Chiama il metodo "Hide", quindi il metodo "InvalidatePreview" per visualizzare l'anteprima di stampa in alto.
+// Chiamare il metodo "Hide" e poi il metodo "InvalidatePreview" per visualizzare l'anteprima di stampa in primo piano.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Passa il documento di stampa "Aspose.Words" alla finestra di dialogo Anteprima di stampa .NET.
+// Passare il documento di stampa "Aspose.Words" alla finestra di dialogo Anteprima di stampa .NET.
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

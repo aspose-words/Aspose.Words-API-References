@@ -3,7 +3,7 @@ title: WriteProtection.IsWriteProtected
 linktitle: IsWriteProtected
 articleTitle: IsWriteProtected
 second_title: Aspose.Words per .NET
-description: WriteProtection IsWriteProtected proprietà. RestituisceVERO quando è impostata una password di protezione da scrittura in C#.
+description: Scopri la proprietà WriteProtection IsWriteProtected e controlla facilmente se è attiva una password di protezione da scrittura per una maggiore sicurezza e integrità dei dati.
 type: docs
 weight: 10
 url: /it/net/aspose.words.settings/writeprotection/iswriteprotected/
@@ -24,14 +24,14 @@ Mostra come proteggere un documento con una password.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// Immettere una password lunga fino a 15 caratteri, quindi verificare lo stato di protezione del documento.
+// Inserisci una password lunga fino a 15 caratteri, quindi verifica lo stato di protezione del documento.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// La protezione non impedisce la modifica del documento a livello di codice, né ne crittografa il contenuto.
+// La protezione non impedisce che il documento venga modificato a livello di programmazione, né ne crittografa il contenuto.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

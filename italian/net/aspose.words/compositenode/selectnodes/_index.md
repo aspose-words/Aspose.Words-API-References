@@ -3,9 +3,9 @@ title: CompositeNode.SelectNodes
 linktitle: SelectNodes
 articleTitle: SelectNodes
 second_title: Aspose.Words per .NET
-description: CompositeNode SelectNodes metodo. Seleziona un elenco di nodi che corrispondono allespressione XPath in C#.
+description: Recupera senza sforzo i nodi con il metodo CompositeNode SelectNodes utilizzando espressioni XPath per una manipolazione avanzata dei dati e una codifica semplificata.
 type: docs
-weight: 190
+weight: 210
 url: /it/net/aspose.words/compositenode/selectnodes/
 ---
 ## CompositeNode.SelectNodes method
@@ -35,13 +35,13 @@ Mostra come utilizzare un'espressione XPath per verificare se un nodo si trova a
 ```csharp
 Document doc = new Document(MyDir + "Mail merge destination - Northwind employees.docx");
 
-// La NodeList risultante da questa espressione XPath conterrà tutti i nodi che troviamo all'interno di un campo.
-// Tuttavia, i nodi FieldStart e FieldEnd possono essere presenti nell'elenco se sono presenti campi nidificati nel percorso.
-// Attualmente non trova i campi rari in cui FieldCode o FieldResult si estendono su più paragrafi.
+// Il NodeList risultante da questa espressione XPath conterrà tutti i nodi che troviamo all'interno di un campo.
+// Tuttavia, i nodi FieldStart e FieldEnd possono essere presenti nell'elenco se nel percorso sono presenti campi annidati.
+// Attualmente non trova campi rari in cui FieldCode o FieldResult si estendono su più paragrafi.
 NodeList resultList =
     doc.SelectNodes("//FieldStart/following-sibling::node()[following-sibling::FieldEnd]");
 
-// Controlla se l'esecuzione specificata è uno dei nodi all'interno del campo.
+// Controlla se l'esecuzione specificata è uno dei nodi che si trovano all'interno del campo.
 Console.WriteLine($"Contents of the first Run node that's part of a field: {resultList.First(n => n.NodeType == NodeType.Run).GetText().Trim()}");
 ```
 
@@ -54,20 +54,20 @@ Document doc = new Document(MyDir + "Tables.docx");
 // che sono discendenti di qualsiasi nodo della tabella nel documento.
 NodeList nodeList = doc.SelectNodes("//Tabella//Paragrafo");
 
-// Scorre l'elenco con un enumeratore e stampa il contenuto di ogni paragrafo in ogni cella della tabella.
+// Scorrere l'elenco con un enumeratore e stampare il contenuto di ogni paragrafo in ogni cella della tabella.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Body nel documento.
+// Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Corpo nel documento.
 nodeList = doc.SelectNodes("//Corpo/Paragrafo");
 
-// Possiamo trattare la lista come un array.
+// Possiamo trattare l'elenco come un array.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// Utilizza SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
+// Utilizzare SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
 Node node = doc.SelectSingleNode("//Corpo/Paragrafo");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());

@@ -3,7 +3,7 @@ title: ListCollection.AddCopy
 linktitle: AddCopy
 articleTitle: AddCopy
 second_title: Aspose.Words per .NET
-description: ListCollection AddCopy metodo. Crea un nuovo elenco copiando lelenco specificato e aggiungendolo alla raccolta di elenchi nel documento in C#.
+description: Scopri il metodo AddCopy di ListCollection per duplicare senza sforzo un elenco e arricchire la raccolta dei tuoi documenti con facilità ed efficienza.
 type: docs
 weight: 50
 url: /it/net/aspose.words.lists/listcollection/addcopy/
@@ -18,7 +18,7 @@ public List AddCopy(List srcList)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| srcList | List | L'elenco delle origini da cui copiare. |
+| srcList | List | Elenco di origine da cui copiare. |
 
 ### Valore di ritorno
 
@@ -26,7 +26,7 @@ L'elenco appena creato.
 
 ## Osservazioni
 
-L'elenco delle origini può provenire da qualsiasi documento. Se l'elenco di origine appartiene a un documento diverso, viene creata una copia dell'elenco e aggiunta al documento corrente.
+L'elenco sorgente può provenire da qualsiasi documento. Se l'elenco sorgente appartiene a un documento diverso, viene creata una copia dell'elenco e aggiunta al documento corrente.
 
 Se l'elenco di origine è un riferimento o una definizione di uno stile di elenco, l'elenco appena creato non è correlato allo stile di elenco originale.
 
@@ -66,21 +66,21 @@ private static void AddListSample(DocumentBuilder builder, List list)
 }
 ```
 
-Mostra come riavviare la numerazione in un elenco copiando un elenco.
+Mostra come riavviare la numerazione in un elenco copiando l'elenco stesso.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza il primo livello di elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizzane il primo livello.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Applica la nostra lista ad alcuni paragrafi.
+// Applichiamo il nostro elenco ad alcuni paragrafi.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");

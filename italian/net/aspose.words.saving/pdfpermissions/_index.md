@@ -3,9 +3,9 @@ title: PdfPermissions Enum
 linktitle: PdfPermissions
 articleTitle: PdfPermissions
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.PdfPermissions enum. Specifica le operazioni consentite a un utente su un documento PDF crittografato in C#.
+description: Scopri l'enum Aspose.Words.PdfPermissions per controllare l'accesso degli utenti ai PDF crittografati. Migliora la sicurezza e gestisci le operazioni sui documenti in modo efficace.
 type: docs
-weight: 5510
+weight: 6310
 url: /it/net/aspose.words.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration
@@ -23,14 +23,14 @@ public enum PdfPermissions
 | --- | --- | --- |
 | DisallowAll | `0` | Non consente tutte le operazioni sul documento PDF. Questo è il valore predefinito. |
 | AllowAll | `FFFF` | Consente tutte le operazioni sul documento PDF. |
-| ContentCopy | `10` | Copia o altrimenti estrae testo e grafica dal documento con operazioni diverse da quelle controllate daContentCopyForAccessibility . |
-| ContentCopyForAccessibility | `200` | Estrai testo e grafica (a supporto dell'accessibilità per utenti con disabilità o per altri scopi). |
-| ModifyContents | `8` | Modifica il contenuto del documento con operazioni diverse da quelle controllate da ModifyAnnotations ,FillIn , EDocumentAssembly . |
-| ModifyAnnotations | `20` | Aggiungi o modifica annotazioni di testo, compila campi modulo interattivi e, seModifyContents is inoltre imposta, crea o modifica i campi del modulo interattivo (compresi i campi della firma). |
-| FillIn | `100` | Compila i campi del modulo interattivo esistente (compresi i campi della firma), anche seModifyContents è chiaro. |
-| DocumentAssembly | `400` | Assembla il documento (inserisci, ruota o elimina pagine e crea elementi della struttura del documento o immagini miniature ), anche seModifyContents è chiaro. |
-| Printing | `4` | Stampa il documento (possibilmente non al massimo livello di qualità, a seconda se HighResolutionPrinting è impostato). |
-| HighResolutionPrinting | `804` | Stampa il documento in una rappresentazione da cui è possibile generare una copia digitale fedele del contenuto PDF, in base a un algoritmo dipendente dall'implementazione. Quando questo flag è cancellato (e Printing è impostato), la stampa sarà limitata a una rappresentazione di basso livello dell'aspetto, possibilmente di qualità scadente. |
+| ContentCopy | `10` | Copiare o altrimenti estrarre testo e grafica dal documento tramite operazioni diverse da quelle controllate daContentCopyForAccessibility . |
+| ContentCopyForAccessibility | `200` | Estrarre testo e grafica (a supporto dell'accessibilità per gli utenti con disabilità o per altri scopi). |
+| ModifyContents | `8` | Modificare il contenuto del documento tramite operazioni diverse da quelle controllate da ModifyAnnotations ,FillIn , EDocumentAssembly . |
+| ModifyAnnotations | `20` | Aggiungere o modificare annotazioni di testo, compilare campi di moduli interattivi e, seModifyContents is imposta, crea o modifica anche i campi del modulo interattivo (inclusi i campi della firma). |
+| FillIn | `100` | Compila i campi del modulo interattivo esistente (inclusi i campi della firma), anche seModifyContents è chiaro. |
+| DocumentAssembly | `400` | Assemblare il documento (inserire, ruotare o eliminare pagine e creare elementi di struttura del documento o immagini in miniatura ), anche seModifyContents è chiaro. |
+| Printing | `4` | Stampa il documento (eventualmente non al massimo livello di qualità, a seconda che HighResolutionPrinting è anche impostato). |
+| HighResolutionPrinting | `804` | Stampa il documento in una rappresentazione da cui potrebbe essere generata una copia digitale fedele del contenuto del PDF, in base a un algoritmo dipendente dall'implementazione. Quando questo flag è deselezionato (e Printing è impostato), la stampa deve essere limitata a una rappresentazione di basso livello dell'aspetto, eventualmente di qualità degradata. |
 
 ## Esempi
 
@@ -42,17 +42,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Estende i permessi per consentire la modifica delle annotazioni.
+// Estendi i permessi per consentire la modifica delle annotazioni.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Abilita la crittografia tramite la proprietà "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Quando apriremo questo documento, dovremo fornire la password prima di accedere al suo contenuto.
+// Quando apriamo questo documento, dovremo fornire la password prima di accedere al suo contenuto.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

@@ -3,14 +3,14 @@ title: FontSourceBase.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words per .NET
-description: FontSourceBase Type proprietà. Restituisce il tipo di fonte del carattere in C#.
+description: Scopri la proprietà FontSourceBase Type, recupera facilmente i tipi di origine dei font per migliorare il tuo web design e ottimizzare l'esperienza utente.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontsourcebase/type/
 ---
 ## FontSourceBase.Type property
 
-Restituisce il tipo di fonte del carattere.
+Restituisce il tipo di origine del font.
 
 ```csharp
 public abstract FontSourceType Type { get; }
@@ -18,7 +18,7 @@ public abstract FontSourceType Type { get; }
 
 ## Esempi
 
-Mostra come utilizzare un file di font nel file system locale come origine di font.
+Mostra come utilizzare un file di font nel file system locale come origine del font.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

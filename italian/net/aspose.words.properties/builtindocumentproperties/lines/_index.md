@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.Lines
 linktitle: Lines
 articleTitle: Lines
 second_title: Aspose.Words per .NET
-description: BuiltInDocumentProperties Lines proprietà. Rappresenta una stima del numero di righe del documento in C#.
+description: Scopri la proprietà Lines di BuiltInDocumentProperties, la chiave per stimare in modo efficiente il numero di righe dei documenti, per una migliore gestione dei contenuti.
 type: docs
-weight: 180
+weight: 190
 url: /it/net/aspose.words.properties/builtindocumentproperties/lines/
 ---
 ## BuiltInDocumentProperties.Lines property
 
-Rappresenta una stima del numero di righe del documento.
+Rappresenta una stima del numero di righe nel documento.
 
 ```csharp
 public int Lines { get; set; }
@@ -18,11 +18,11 @@ public int Lines { get; set; }
 
 ## Osservazioni
 
-Aspose.Words aggiorna questa proprietà quando chiami[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
+Aspose.Words aggiorna questa proprietà quando si chiama[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
 ## Esempi
 
-Mostra come aggiornare tutte le etichette dell'elenco in un documento.
+Mostra come aggiornare tutte le etichette degli elenchi in un documento.
 
 ```csharp
 Document doc = new Document();
@@ -33,20 +33,20 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words non tiene traccia delle metriche del documento come queste in tempo reale.
+// Aspose.Words non tiene traccia delle metriche dei documenti come queste in tempo reale.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
-// Per ottenere valori accurati per tre di queste proprietà, dovremo aggiornarle manualmente.
+// Per ottenere valori accurati per tre di queste proprietà, dovremo aggiornarli manualmente.
 doc.UpdateWordCount();
 
 Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// Per il conteggio delle righe, dovremo chiamare un sovraccarico specifico del metodo di aggiornamento.
+// Per il conteggio delle righe, dovremo chiamare un overload specifico del metodo di aggiornamento.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);
@@ -63,30 +63,30 @@ public void Content()
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
     // Utilizzando le proprietà integrate,
-    // possiamo trattare le statistiche del documento come il conteggio di parole/pagine/caratteri come metadati che possono essere visualizzati senza aprire il documento
+    // possiamo trattare le statistiche del documento come il numero di parole/pagine/caratteri come metadati che possono essere consultati senza aprire il documento
     // È possibile accedere a queste proprietà facendo clic con il pulsante destro del mouse sul file in Esplora risorse e selezionando Proprietà > Dettagli > Contenuto
     // Se vogliamo visualizzare questi dati all'interno del documento, possiamo utilizzare campi come NUMPAGES, NUMWORDS, NUMCHARS ecc.
-    // Inoltre, questi valori possono essere visualizzati anche in Microsoft Word navigando in File > Proprietà > Proprietà avanzate > Statistiche
-    // Conteggio pagine: la proprietà PageCount mostra il conteggio delle pagine in tempo reale e il suo valore può essere assegnato alla proprietà Pages
+    // Inoltre, questi valori possono essere visualizzati anche in Microsoft Word andando su File > Proprietà > Proprietà avanzate > Statistiche
+    // Conteggio delle pagine: la proprietà PageCount mostra il conteggio delle pagine in tempo reale e il suo valore può essere assegnato alla proprietà Pages
 
-     // La proprietà "Pagine" memorizza il conteggio delle pagine del documento.
+     // La proprietà "Pagine" memorizza il numero di pagine del documento.
     Assert.AreEqual(6, properties.Pages);
 
-    // Le proprietà integrate "Words", "Characters" e "CharactersWithSpaces" visualizzano anche varie statistiche del documento,
-    // ma dobbiamo chiamare il metodo "UpdateWordCount" sull'intero documento prima di poter aspettarci che contenga valori accurati.
+    // Le proprietà integrate "Parole", "Caratteri" e "CaratteriConSpazi" mostrano anche varie statistiche del documento,
+    // ma dobbiamo chiamare il metodo "UpdateWordCount" sull'intero documento prima di poterci aspettare che contenga valori accurati.
     doc.UpdateWordCount();
 
     Assert.AreEqual(1035, properties.Words);
     Assert.AreEqual(6026, properties.Characters);
     Assert.AreEqual(7041, properties.CharactersWithSpaces);
 
-    // Conta il numero di righe nel documento, quindi assegna il risultato alla proprietà integrata "Lines".
+    // Conta il numero di righe nel documento, quindi assegna il risultato alla proprietà incorporata "Lines".
     LineCounter lineCounter = new LineCounter(doc);
     properties.Lines = lineCounter.GetLineCount();
 
     Assert.AreEqual(142, properties.Lines);
 
-    // Assegna il numero di nodi Paragrafo nel documento alla proprietà integrata "Paragrafi".
+    // Assegna il numero di nodi Paragrafo nel documento alla proprietà incorporata "Paragrafi".
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
@@ -96,17 +96,17 @@ public void Content()
     // Imposta un modello diverso per il nostro documento, quindi aggiorna manualmente la proprietà integrata "Template" per riflettere questa modifica.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 
-    // "ContentStatus" è una proprietà incorporata descrittiva.
+    // "ContentStatus" è una proprietà descrittiva incorporata.
     properties.ContentStatus = "Draft";
 
     // Al momento del salvataggio, la proprietà integrata "ContentType" conterrà il tipo MIME del formato di salvataggio dell'output.
     Assert.AreEqual(string.Empty, properties.ContentType);
 
-    // Se il documento contiene collegamenti e sono tutti aggiornati, possiamo impostare la proprietà "LinksUpToDate" su "true".
+    // Se il documento contiene dei link e sono tutti aggiornati, possiamo impostare la proprietà "LinksUpToDate" su "true".
     Assert.False(properties.LinksUpToDate);
 
     doc.Save(ArtifactsDir + "DocumentProperties.Content.docx");
@@ -115,7 +115,7 @@ public void Content()
 /// <summary>
 /// Conta le righe in un documento.
 /// Attraversa l'albero delle entità di layout del documento durante la costruzione,
-/// conteggio delle entità del tipo "Line" che contengono anche testo reale.
+/// conteggio delle entità di tipo "Linea" che contengono anche testo reale.
 /// </summary>
 private class LineCounter
 {

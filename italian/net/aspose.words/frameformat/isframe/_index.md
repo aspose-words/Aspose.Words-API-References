@@ -3,7 +3,7 @@ title: FrameFormat.IsFrame
 linktitle: IsFrame
 articleTitle: IsFrame
 second_title: Aspose.Words per .NET
-description: FrameFormat IsFrame proprietà. RestituisceVERO se il paragrafo è una cornice in C#.
+description: Scopri la proprietà IsFrame di FrameFormat. Determina facilmente se il tuo paragrafo è una cornice, migliorando il layout e il design del tuo documento.
 type: docs
 weight: 60
 url: /it/net/aspose.words/frameformat/isframe/

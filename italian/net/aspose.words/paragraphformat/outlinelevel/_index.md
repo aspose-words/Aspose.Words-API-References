@@ -3,9 +3,9 @@ title: ParagraphFormat.OutlineLevel
 linktitle: OutlineLevel
 articleTitle: OutlineLevel
 second_title: Aspose.Words per .NET
-description: ParagraphFormat OutlineLevel proprietà. Specifica il livello di struttura del paragrafo nel documento in C#.
+description: Scopri la proprietà OutlineLevel di ParagraphFormat per definire facilmente la gerarchia dei paragrafi nei tuoi documenti, migliorando l'organizzazione e la leggibilità.
 type: docs
-weight: 250
+weight: 260
 url: /it/net/aspose.words/paragraphformat/outlinelevel/
 ---
 ## ParagraphFormat.OutlineLevel property
@@ -18,24 +18,24 @@ public OutlineLevel OutlineLevel { get; set; }
 
 ## Esempi
 
-Mostra come configurare i livelli della struttura del paragrafo per creare testo comprimibile.
+Mostra come configurare i livelli di struttura del paragrafo per creare testo comprimibile.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ogni paragrafo ha un OutlineLevel, che può essere un numero qualsiasi da 1 a 9 o il valore predefinito "BodyText".
-// Impostando la proprietà su uno dei valori numerati verrà mostrata una freccia a sinistra
+// Ogni paragrafo ha un OutlineLevel, che può essere un numero compreso tra 1 e 9 oppure il valore predefinito "BodyText".
+// Impostando la proprietà su uno dei valori numerati verrà visualizzata una freccia a sinistra
 // dell'inizio del paragrafo.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level1;
 builder.Writeln("Paragraph outline level 1.");
 
-// Il livello 1 è il livello più alto. Se c'è un paragrafo con un livello inferiore sotto un paragrafo con un livello superiore,
-// comprimendo il paragrafo di livello superiore si comprimerà il paragrafo di livello inferiore.
+// Il livello 1 è il livello più alto. Se c'è un paragrafo con un livello inferiore al di sotto di un paragrafo con un livello superiore,
+// la compressione del paragrafo di livello superiore comporterà la compressione del paragrafo di livello inferiore.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level2;
 builder.Writeln("Paragraph outline level 2.");
 
-// Due paragrafi dello stesso livello non si comprimeranno a vicenda,
+// Due paragrafi dello stesso livello non si contrarranno a vicenda,
 // e le frecce non comprimono i paragrafi a cui puntano.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level3;
 builder.Writeln("Paragraph outline level 3.");

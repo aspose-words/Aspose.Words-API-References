@@ -3,7 +3,7 @@ title: StyleCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words per .NET
-description: StyleCollection Count proprietà. Ottiene il numero di stili nella raccolta in C#.
+description: Scopri la proprietà StyleCollection Count per recuperare facilmente il numero totale di stili nella tua collezione, per una migliore organizzazione e gestione.
 type: docs
 weight: 10
 url: /it/net/aspose.words/stylecollection/count/
@@ -27,9 +27,9 @@ StyleCollection styles = doc.Styles;
 // Imposta i parametri predefiniti per i nuovi stili che potremmo aggiungere in seguito a questa raccolta.
 styles.DefaultFont.Name = "Courier New";
 // Se aggiungiamo uno stile di "StyleType.Paragraph", la raccolta applicherà i valori di
-// la sua proprietà "DefaultParagraphFormat" nella proprietà "ParagraphFormat" dello stile.
+// la sua proprietà "DefaultParagraphFormat" alla proprietà "ParagraphFormat" dello stile.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// Aggiungi uno stile, quindi verifica che abbia le impostazioni predefinite.
+// Aggiungi uno stile e verifica che abbia le impostazioni predefinite.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

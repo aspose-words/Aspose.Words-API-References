@@ -3,9 +3,9 @@ title: MarkdownSaveOptions.ExportImagesAsBase64
 linktitle: ExportImagesAsBase64
 articleTitle: ExportImagesAsBase64
 second_title: Aspose.Words per .NET
-description: MarkdownSaveOptions ExportImagesAsBase64 proprietà. Specifica se le immagini vengono salvate in formato Base64 nel file di output. Il valore predefinito èfalso  in C#.
+description: Scopri come la proprietà ExportImagesAsBase64 di MarkdownSaveOptions migliora i tuoi file di output consentendo il salvataggio delle immagini in formato Base64. Il valore predefinito è false.
 type: docs
-weight: 20
+weight: 40
 url: /it/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/
 ---
 ## MarkdownSaveOptions.ExportImagesAsBase64 property
@@ -18,7 +18,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ## Osservazioni
 
-Quando questa proprietà è impostata su`VERO` i dati delle immagini vengono esportati direttamente nel file**img** non vengono creati elementi e file separati.
+Quando questa proprietà è impostata su`VERO` i dati delle immagini vengono esportati direttamente nel**immagine** non vengono creati elementi e file separati.
 
 ## Esempi
 

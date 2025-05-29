@@ -3,9 +3,9 @@ title: OfficeMathDisplayType Enum
 linktitle: OfficeMathDisplayType
 articleTitle: OfficeMathDisplayType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Math.OfficeMathDisplayType enum. Specifica il tipo di formato di visualizzazione dellequazione in C#.
+description: Scopri l'enum Aspose.Words.Math.OfficeMathDisplayType per personalizzare facilmente i formati di visualizzazione delle equazioni, migliorando la chiarezza e la presentazione dei documenti.
 type: docs
-weight: 4130
+weight: 4820
 url: /it/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
@@ -25,15 +25,15 @@ public enum OfficeMathDisplayType
 
 ## Esempi
 
-Mostra come impostare la formattazione della visualizzazione della matematica di Office.
+Mostra come impostare la formattazione della visualizzazione di Office Math.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // I nodi OfficeMath che sono figli di altri nodi OfficeMath sono sempre in linea.
-// Il nodo con cui stiamo lavorando è il nodo base per modificarne la posizione e il tipo di visualizzazione.
+// Il nodo con cui stiamo lavorando è il nodo base per modificare la sua posizione e il tipo di visualizzazione.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);

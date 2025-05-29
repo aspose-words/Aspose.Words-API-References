@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreDeleted
 linktitle: IgnoreDeleted
 articleTitle: IgnoreDeleted
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions IgnoreDeleted proprietà. Ottiene o imposta un valore booleano che indica di ignorare il testo allinterno delle revisioni di eliminazione. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà FindReplaceOptions IgnoreDeleted e controlla la visibilità del testo nelle revisioni eliminate con un semplice comando booleano. Migliora la tua esperienza di editing!
 type: docs
 weight: 60
 url: /it/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Inizia a tenere traccia delle revisioni e rimuove il secondo paragrafo, che creerà una revisione di eliminazione.
-// Quel paragrafo persisterà nel documento finché non accetteremo la revisione di eliminazione.
+// Inizia a monitorare le revisioni e rimuovi il secondo paragrafo, il che creerà una revisione eliminata.
+// Quel paragrafo rimarrà nel documento finché non accetteremo la revisione eliminata.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 doc.FirstSection.Body.Paragraphs[1].Remove();
 doc.StopTrackRevisions();
@@ -38,10 +38,10 @@ Assert.True(doc.FirstSection.Body.Paragraphs[1].IsDeleteRevision);
 // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Imposta il flag "IgnoreDeleted" su "true" per ottenere la ricerca e sostituzione
-// operazione per ignorare i paragrafi che eliminano le revisioni.
-// Imposta il flag "IgnoreDeleted" su "false" per ottenere la ricerca e sostituzione
-// operazione per cercare anche il testo all'interno delle revisioni di eliminazione.
+// Imposta il flag "IgnoreDeleted" su "true" per ottenere la funzione di ricerca e sostituzione
+// operazione per ignorare i paragrafi che sono revisioni eliminate.
+// Imposta il flag "IgnoreDeleted" su "false" per ottenere la funzione di ricerca e sostituzione
+// operazione per cercare anche il testo all'interno delle revisioni eliminate.
 options.IgnoreDeleted = ignoreTextInsideDeleteRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);

@@ -3,16 +3,14 @@ title: Metered Class
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Metered classe. Fornisce metodi per impostare la chiave a consumo in C#.
+description: Sfrutta la potenza della classe Aspose.Words.Metered! Gestisci facilmente la tua chiave metered con metodi efficienti per un'elaborazione dei documenti impeccabile.
 type: docs
-weight: 4160
+weight: 4850
 url: /it/net/aspose.words/metered/
 ---
 ## Metered class
 
-Fornisce metodi per impostare la chiave a consumo.
-
-Per saperne di più, visita il[Licenza e abbonamento](https://docs.aspose.com/words/net/licensing/) articolo di documentazione.
+Fornisce metodi per impostare la chiave misurata.
 
 ```csharp
 public class Metered
@@ -28,13 +26,15 @@ public class Metered
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Imposta la chiave pubblica e privata misurata. Se acquisti una licenza misurata, quando avvii l'applicazione, questa API dovrebbe essere chiamata, normalmente, questo è sufficiente. Tuttavia, se non si riesce sempre a caricare i dati sul consumo e si superano le 24 ore, la licenza verrà impostata sullo stato di valutazione, per evitare tale caso, è necessario controllare regolarmente lo stato della licenza, se è lo stato di valutazione, richiamare nuovamente questa API. |
+| [GetProductName](../../aspose.words/metered/getproductname/)() | Restituisce Nome prodotto |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Imposta la chiave pubblica e privata a consumo. Se acquisti una licenza a consumo, all'avvio dell'applicazione dovrebbe essere richiamata questa API; normalmente, questo è sufficiente. Tuttavia, se non si riesce a caricare i dati di consumo per più di 24 ore, la licenza verrà impostata sullo stato di valutazione. Per evitare questo caso, dovresti controllare regolarmente lo stato della licenza. Se è in stato di valutazione, richiama nuovamente questa API. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Ottiene credito di consumo |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Ottiene la dimensione del file di consumo |
+| static [IsMeteredLicensed](../../aspose.words/metered/ismeteredlicensed/)() | Controlla se il consumo è concesso in licenza |
 
 ## Esempi
 
-In questo esempio, verrà effettuato un tentativo di impostare la chiave pubblica e privata a consumo
+In questo esempio, verrà effettuato un tentativo di impostare la chiave pubblica e privata misurata
 
 ```csharp
 [C#]
@@ -49,22 +49,24 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-Mostra come attivare una licenza a consumo e tenere traccia del credito/consumo.
+Mostra come attivare una licenza a consumo e monitorare credito/consumo.
 
 ```csharp
-// Crea una nuova licenza a consumo, quindi stampa le relative statistiche di utilizzo.
+// Crea una nuova licenza a consumo e quindi stampa le statistiche di utilizzo.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Opera utilizzando Aspose.Words, quindi stampa nuovamente le nostre statistiche misurate per vedere quanto abbiamo speso.
+// Operiamo utilizzando Aspose.Words, quindi stampiamo di nuovo le nostre statistiche misurate per vedere quanto abbiamo speso.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// Il meccanismo di licenza Aspose Metered non invia ogni volta i dati di utilizzo al server acquistato,
-// devi usare wait.
+// Il meccanismo di licenza a consumo di Aspose non invia ogni volta i dati di utilizzo al server di acquisto,
+// devi usare l'attesa.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

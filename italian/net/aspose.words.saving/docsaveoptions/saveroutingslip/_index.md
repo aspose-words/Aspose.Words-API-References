@@ -3,9 +3,9 @@ title: DocSaveOptions.SaveRoutingSlip
 linktitle: SaveRoutingSlip
 articleTitle: SaveRoutingSlip
 second_title: Aspose.Words per .NET
-description: DocSaveOptions SaveRoutingSlip proprietà. Quandofalso  i dati RoutingSlip non vengono salvati nel documento di output. Il valore predefinito èVERO  in C#.
+description: Scopri la proprietà SaveRoutingSlip di DocSaveOptions. Controlla il salvataggio dei dati RoutingSlip per i tuoi documenti. Migliora facilmente la personalizzazione dell'output!
 type: docs
-weight: 60
+weight: 70
 url: /it/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
@@ -18,7 +18,7 @@ public bool SaveRoutingSlip { get; set; }
 
 ## Esempi
 
-Mostra come impostare le opzioni di salvataggio per i formati Microsoft Word precedenti.
+Mostra come impostare le opzioni di salvataggio per i vecchi formati di Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -27,11 +27,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Imposta una password che proteggerà il caricamento del documento da Microsoft Word o Aspose.Words.
+// Imposta una password che proteggerà il caricamento del documento da parte di Microsoft Word o Aspose.Words.
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una bolla di accompagnamento, possiamo conservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

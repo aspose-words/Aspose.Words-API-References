@@ -3,16 +3,16 @@ title: OdsoFieldMapData Class
 linktitle: OdsoFieldMapData
 articleTitle: OdsoFieldMapData
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Settings.OdsoFieldMapData classe. Specifica come una colonna nellorigine dati esterna deve essere mappata ai campi di unione predefiniti allinterno del documento in C#.
+description: Scopri la classe Aspose.Words.OdsoFieldMapData per una mappatura fluida delle colonne di dati esterni sui campi di unione dei documenti predefiniti, migliorando l'automazione dei tuoi documenti.
 type: docs
-weight: 5900
+weight: 6730
 url: /it/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
 
 Specifica come una colonna nell'origine dati esterna deve essere mappata ai campi di unione predefiniti all'interno del documento.
 
-Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
+Per saperne di più, visita il[Unione di posta e creazione di report](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class OdsoFieldMapData
@@ -28,10 +28,10 @@ public class OdsoFieldMapData
 
 | Nome | Descrizione |
 | --- | --- |
-| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Specifica l'indice in base zero della colonna all'interno di un'origine dati esterna che deve essere mappata al nome locale di un campo MERGEFIELD specifico. Il valore predefinito è 0. |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Specifica il nome del campo di unione predefinito che verrà mappato al numero di colonna specificato dal[`Column`](./column/) proprietà all'interno di questo campo mapping. Il valore predefinito è una stringa vuota. |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Specifica il nome della colonna all'interno di un'origine dati esterna per la colonna il cui indice è specificato dal[`Column`](./column/)property. Il valore predefinito è una stringa vuota. |
-| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Specifica se un determinato campo di stampa unione è stato mappato o meno a una colonna nell'origine dati esterna specificata. Il valore predefinito èDefault . |
+| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Specifica l'indice basato su zero della colonna all'interno di un'origine dati esterna che deve essere mappato al nome locale di un campo MERGEFIELD specifico. Il valore predefinito è 0. |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Specifica il nome del campo di unione predefinito che deve essere mappato al numero di colonna specificato da[`Column`](./column/) proprietà all'interno di questo campo mapping. Il valore predefinito è una stringa vuota. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Specifica il nome della colonna all'interno di un'origine dati esterna per la colonna il cui indice è specificato da[`Column`](./column/)proprietà. Il valore predefinito è una stringa vuota. |
+| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Specifica se un dato campo di unione di posta è stato mappato a una colonna nella data source esterna indicata o meno. Il valore predefinito èDefault . |
 
 ## Metodi
 
@@ -41,17 +41,17 @@ public class OdsoFieldMapData
 
 ## Osservazioni
 
-Microsoft Word fornisce alcuni nomi di campi di unione predefiniti che consente di inserire in un documento come MERGEFIELD o utilizzare nei campi ADDRESSBLOCK o GREETINGLINE. Le informazioni specificate n`OdsoFieldMapData` consente di mappare una colonna nell'origine dati esterna a un singolo campo di unione predefinito.
+Microsoft Word fornisce alcuni nomi predefiniti per i campi unione che possono essere inseriti in un documento come MERGEFIELD o nei campi ADDRESSBLOCK o GREETINGLINE. Le informazioni specificate in`OdsoFieldMapData` consente di mappare una colonna nell'origine dati esterna a un singolo campo di unione predefinito.
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
+Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati ai campi di unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Questa raccolta definisce il modo in cui una stampa unione mapperà le colonne da un'origine dati
-// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE predefiniti.
+// Questa raccolta definisce come una stampa unione mapperà le colonne da un'origine dati
+// ai campi predefiniti MERGEFIELD, ADDRESSBLOCK e GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -72,12 +72,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilizza gli elementi del metodo "RemoveAt" singolarmente per indice.
+// Utilizzare gli elementi del metodo "RemoveAt" singolarmente in base all'indice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilizza il metodo "Cancella" per cancellare l'intera raccolta in una volta.
+// Utilizzare il metodo "Clear" per cancellare l'intera raccolta in una sola volta.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

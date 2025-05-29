@@ -3,14 +3,14 @@ title: Font.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words per .NET
-description: Font ClearFormatting metodo. Ripristina la formattazione predefinita dei caratteri in C#.
+description: Ripristina il testo al suo stile originale con il metodo Font ClearFormatting. Goditi una formattazione pulita e coerente per un aspetto impeccabile!
 type: docs
-weight: 550
+weight: 560
 url: /it/net/aspose.words/font/clearformatting/
 ---
 ## Font.ClearFormatting method
 
-Ripristina la formattazione predefinita dei caratteri.
+Ripristina la formattazione predefinita del carattere.
 
 ```csharp
 public void ClearFormatting()
@@ -18,11 +18,11 @@ public void ClearFormatting()
 
 ## Osservazioni
 
-Rimuove tutta la formattazione dei caratteri specificata esplicitamente sull'oggetto da cui [`Font`](../) è stato ottenuto in modo che la formattazione del carattere venga ereditata da il genitore appropriato.
+Rimuove tutta la formattazione del carattere specificata esplicitamente sull'oggetto da which [`Font`](../) è stato ottenuto in modo che la formattazione del carattere venga ereditata dal genitore appropriato .
 
 ## Esempi
 
-Mostra come inserire un campo di collegamento ipertestuale.
+Mostra come inserire un campo collegamento ipertestuale.
 
 ```csharp
 Document doc = new Document();
@@ -30,15 +30,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserisci un collegamento ipertestuale ed enfatizzalo con una formattazione personalizzata.
+// Inserisci un collegamento ipertestuale ed evidenzialo con una formattazione personalizzata.
 // Il collegamento ipertestuale sarà un pezzo di testo cliccabile che ci porterà alla posizione specificata nell'URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", falso);
+builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + clic con il pulsante sinistro del mouse sul collegamento nel testo in Microsoft Word ci porterà all'URL tramite una nuova finestra del browser web.
+// Facendo clic con il tasto sinistro del mouse sul collegamento nel testo in Microsoft Word verremo indirizzati all'URL tramite una nuova finestra del browser Web.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

@@ -3,14 +3,14 @@ title: IFieldUserPromptRespondent.Respond
 linktitle: Respond
 articleTitle: Respond
 second_title: Aspose.Words per .NET
-description: IFieldUserPromptRespondent Respond metodo. Una volta implementato restituisce una risposta dallutente al prompt. La tua implementazione dovrebbe restituirenullo per indicare che lutente non ha risposto al prompt ovvero lutente ha premuto il pulsante Annulla nella finestra del prompt in C#.
+description: Scopri il metodo IFieldUserPromptRespondent Respond per acquisire efficacemente le risposte degli utenti. Scopri come gestire le cancellazioni senza problemi!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-Una volta implementato, restituisce una risposta dall'utente al prompt. La tua implementazione dovrebbe restituire`nullo` per indicare che l'utente non ha risposto al prompt (ovvero l'utente ha premuto il pulsante Annulla nella finestra del prompt).
+Quando implementato, restituisce una risposta dall'utente su richiesta. L'implementazione dovrebbe restituire`null` per indicare che l'utente non ha risposto al prompt (ovvero l'utente ha premuto il pulsante Annulla nella finestra del prompt).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -18,12 +18,12 @@ public string Respond(string promptText, string defaultResponse)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| promptText | String | Testo del prompt (ovvero il titolo della finestra del prompt). |
-| defaultResponse | String | Risposta utente predefinita (ovvero il valore iniziale contenuto nella finestra del prompt). |
+| promptText | String | Testo del prompt (ad esempio titolo della finestra del prompt). |
+| defaultResponse | String | Risposta predefinita dell'utente (vale a dire il valore iniziale contenuto nella finestra del prompt). |
 
 ### Valore di ritorno
 
-Risposta dell'utente (vale a dire il valore confermato contenuto nella finestra del prompt).
+Risposta dell'utente (vale a dire valore confermato contenuto nella finestra del prompt).
 
 ## Esempi
 
@@ -35,7 +35,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -63,7 +63,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore personalizzato,
+    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore di richiesta personalizzato,
     // che si verificherà durante una stampa unione.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -73,7 +73,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.
+/// Aggiunge del testo all'inizio della risposta predefinita di un campo ASK durante una stampa unione.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

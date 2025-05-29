@@ -3,9 +3,9 @@ title: FindReplaceOptions Class
 linktitle: FindReplaceOptions
 articleTitle: FindReplaceOptions
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Replacing.FindReplaceOptions classe. Specifica le opzioni per le operazioni di ricerca/sostituzione in C#.
+description: Scopri la classe Aspose.Words.FindReplaceOptions per funzionalità avanzate di ricerca e sostituzione, migliorando la modifica dei documenti con precisione e flessibilità.
 type: docs
-weight: 4620
+weight: 5350
 url: /it/net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
@@ -22,10 +22,10 @@ public class FindReplaceOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [FindReplaceOptions](findreplaceoptions/#constructor)() | Default_Costruttore |
-| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) |  |
-| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) |  |
+| [FindReplaceOptions](findreplaceoptions/#constructor)() | Inizializza una nuova istanza della classe FindReplaceOptions con impostazioni predefinite. |
+| [FindReplaceOptions](findreplaceoptions/#constructor_1)(*[FindReplaceDirection](../findreplacedirection/)*) | Inizializza una nuova istanza della classe FindReplaceOptions con la direzione specificata. |
+| [FindReplaceOptions](findreplaceoptions/#constructor_3)(*[IReplacingCallback](../ireplacingcallback/)*) | Inizializza una nuova istanza della classe FindReplaceOptions con il callback di sostituzione specificato. |
+| [FindReplaceOptions](findreplaceoptions/#constructor_2)(*[FindReplaceDirection](../findreplacedirection/), [IReplacingCallback](../ireplacingcallback/)*) | Inizializza una nuova istanza della classe FindReplaceOptions con la direzione specificata e il callback di sostituzione. |
 
 ## Proprietà
 
@@ -44,14 +44,15 @@ public class FindReplaceOptions
 | [IgnoreStructuredDocumentTags](../../aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/) { get; set; } | Ottiene o imposta un valore booleano che indica di ignorare il contenuto di[`StructuredDocumentTag`](../../aspose.words.markup/structureddocumenttag/) . Il valore predefinito è`falso` . |
 | [LegacyMode](../../aspose.words.replacing/findreplaceoptions/legacymode/) { get; set; } | Ottiene o imposta un valore booleano che indica che viene utilizzato il vecchio algoritmo di ricerca/sostituzione. |
 | [MatchCase](../../aspose.words.replacing/findreplaceoptions/matchcase/) { get; set; } | Vero indica un confronto con distinzione tra maiuscole e minuscole, falso indica un confronto senza distinzione tra maiuscole e minuscole. |
-| [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | Il metodo definito dall'utente che viene chiamato prima di ogni occorrenza di sostituzione. |
-| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | Ottiene o imposta un valore booleano che indica che è consentito sostituire il paragrafo break quando non è presente alcun paragrafo di pari livello successivo. |
-| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | True indica che una ricerca di testo viene eseguita in sequenza dall'alto verso il basso considerando le caselle di testo. Il valore predefinito è`falso` . |
+| [ReplacementFormat](../../aspose.words.replacing/findreplaceoptions/replacementformat/) { get; set; } | Specifica il formato della sostituzione. Il valore predefinito èText . |
+| [ReplacingCallback](../../aspose.words.replacing/findreplaceoptions/replacingcallback/) { get; set; } | Metodo definito dall'utente che viene chiamato prima di ogni occorrenza di sostituzione. |
+| [SmartParagraphBreakReplacement](../../aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/) { get; set; } | Ottiene o imposta un valore booleano che indica se è consentito sostituire il paragrafo break quando non esiste un paragrafo gemello successivo. |
+| [UseLegacyOrder](../../aspose.words.replacing/findreplaceoptions/uselegacyorder/) { get; set; } | Vero indica che una ricerca di testo viene eseguita in sequenza dall'alto verso il basso considerando le caselle di testo. Il valore predefinito è`falso` . |
 | [UseSubstitutions](../../aspose.words.replacing/findreplaceoptions/usesubstitutions/) { get; set; } | Ottiene o imposta un valore booleano che indica se riconoscere e utilizzare le sostituzioni all'interno dei modelli di sostituzione. Il valore predefinito è`falso` . |
 
 ## Esempi
 
-Mostra come attivare la distinzione tra maiuscole e minuscole durante l'esecuzione di un'operazione di ricerca e sostituzione.
+Mostra come attivare o disattivare la distinzione tra maiuscole e minuscole quando si esegue un'operazione di ricerca e sostituzione.
 
 ```csharp
 Document doc = new Document();
@@ -63,7 +64,7 @@ builder.Writeln("Ruby bought a ruby necklace.");
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Imposta il flag "MatchCase" su "true" per applicare la distinzione tra maiuscole e minuscole durante la ricerca delle stringhe da sostituire.
-// Imposta il flag "MatchCase" su "false" per ignorare le maiuscole e minuscole durante la ricerca del testo da sostituire.
+// Impostare il flag "MatchCase" su "false" per ignorare la distinzione tra maiuscole e minuscole durante la ricerca del testo da sostituire.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
@@ -72,7 +73,7 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
     doc.GetText().Trim());
 ```
 
-Mostra come attivare o disattivare le operazioni di ricerca e sostituzione di sole parole autonome.
+Mostra come attivare o disattivare operazioni di ricerca e sostituzione autonome di sole parole.
 
 ```csharp
 Document doc = new Document();
@@ -84,7 +85,7 @@ builder.Writeln("Jackson will meet you in Jacksonville.");
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Imposta il flag "FindWholeWordsOnly" su "true" per sostituire il testo trovato se non fa parte di un'altra parola.
-// Imposta il flag "FindWholeWordsOnly" su "false" per sostituire tutto il testo indipendentemente da ciò che lo circonda.
+// Imposta il flag "FindWholeWordsOnly" su "false" per sostituire tutto il testo, indipendentemente da ciò che lo circonda.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);

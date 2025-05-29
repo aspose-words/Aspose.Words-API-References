@@ -3,9 +3,9 @@ title: ChartAxis.MajorUnit
 linktitle: MajorUnit
 articleTitle: MajorUnit
 second_title: Aspose.Words per .NET
-description: ChartAxis MajorUnit proprietà. Restituisce o imposta la distanza tra i segni di graduazione principali in C#.
+description: Scopri la proprietà ChartAxis MajorUnit per regolare facilmente la spaziatura dei segni di spunta principali, migliorando la visualizzazione dei dati e la chiarezza del grafico.
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
 ## ChartAxis.MajorUnit property
@@ -18,9 +18,9 @@ public double MajorUnit { get; set; }
 
 ## Osservazioni
 
-L'intervallo valido di un valore è maggiore di zero. La proprietà ha effetto per la categoria temporale e gli assi dei valori .
+L'intervallo valido di un valore è maggiore di zero. La proprietà ha effetto sugli assi della categoria temporale e del valore .
 
-L'impostazione di questa proprietà imposta il file[`MajorUnitIsAuto`](../majorunitisauto/) proprietà a`falso`.
+L'impostazione di questa proprietà imposta il[`MajorUnitIsAuto`](../majorunitisauto/) proprietà a`falso`.
 
 ## Esempi
 
@@ -33,16 +33,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
+// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Inserisci una serie di grafici con categorie per l'asse X e rispettivi valori numerici per l'asse Y.
+// Inserire una serie di grafici con categorie per l'asse X e rispettivi valori numerici per l'asse Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Gli assi del grafico hanno varie opzioni che possono cambiarne l'aspetto,
-// come la direzione, i segni di graduazione delle unità maggiori/minori e i segni di graduazione.
+// Gli assi del grafico hanno varie opzioni che possono modificarne l'aspetto,
+// come la loro direzione, le tacche delle unità maggiori/minori e i segni di graduazione.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -51,10 +51,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -64,9 +66,12 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
-// I grafici a colonne non hanno un asse Z.
+// I grafici a colonne non hanno l'asse Z.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

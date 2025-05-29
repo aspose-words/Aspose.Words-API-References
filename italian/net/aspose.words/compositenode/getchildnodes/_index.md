@@ -3,14 +3,14 @@ title: CompositeNode.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words per .NET
-description: CompositeNode GetChildNodes metodo. Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato in C#.
+description: Scopri il metodo CompositeNode GetChildNodes: recupera senza sforzo una raccolta live di nodi figlio personalizzati in base al tipo specificato per prestazioni migliorate.
 type: docs
-weight: 90
+weight: 110
 url: /it/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
 
-Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato.
+Restituisce una raccolta live di nodi figlio che corrispondono al tipo specificato.
 
 ```csharp
 public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
@@ -19,17 +19,17 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | nodeType | NodeType | Specifica il tipo di nodi da selezionare. |
-| isDeep | Boolean | `VERO` per selezionare ricorsivamente da tutti i nodi figlio; `falso`selezionare solo tra i figli immediati. |
+| isDeep | Boolean | `VERO` per selezionare ricorsivamente da tutti i nodi figlio; `falso` per selezionare solo tra i figli più prossimi. |
 
 ### Valore di ritorno
 
-Una raccolta attiva di nodi figlio del tipo specificato.
+Una raccolta live di nodi figlio del tipo specificato.
 
 ## Osservazioni
 
-La raccolta di nodi restituiti da questo metodo è sempre attiva.
+La raccolta di nodi restituita da questo metodo è sempre attiva.
 
-Una raccolta live è sempre sincronizzata con il documento. Ad esempio, se hai selezionato tutte le sezioni in un documento ed enumerate la raccolta eliminando le sezioni, la sezione viene rimossa dalla raccolta immediatamente quando viene rimossa dal documento.
+Una raccolta live è sempre sincronizzata con il documento. Ad esempio, se selezioni tutte le sezioni di un documento e le enumeri nella raccolta eliminandole, la sezione verrà rimossa immediatamente dalla raccolta quando verrà rimossa dal documento.
 
 ## Esempi
 
@@ -39,9 +39,9 @@ Mostra come stampare tutti i commenti di un documento e le relative risposte.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Se un commento non ha un antenato, è un commento di "livello superiore" invece di un commento di tipo risposta.
-// Stampa tutti i commenti di livello superiore insieme alle eventuali risposte.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Se un commento non ha antenati, si tratta di un commento di "livello superiore" e non di un commento di tipo risposta.
+// Stampa tutti i commenti di primo livello insieme alle eventuali risposte.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
@@ -54,7 +54,7 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 }
 ```
 
-Mostra come estrarre immagini da un documento e salvarle nel file system locale come singoli file.
+Mostra come estrarre immagini da un documento e salvarle nel file system locale come file singoli.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -70,8 +70,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // I dati immagine delle forme possono contenere immagini di molti possibili formati immagine.
-        // Possiamo determinare automaticamente un'estensione di file per ciascuna immagine, in base al suo formato.
+         // I dati immagine delle forme possono contenere immagini di molti possibili formati.
+        // Possiamo determinare automaticamente un'estensione di file per ogni immagine, in base al suo formato.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -85,22 +85,22 @@ Mostra come attraversare la raccolta di nodi figlio di un nodo composito.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi due sequenze e una forma come nodi secondari al primo paragrafo di questo documento.
+// Aggiungere due sequenze e una forma come nodi figlio al primo paragrafo di questo documento.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Tieni presente che "CustomNodeId" non viene salvato in un file di output ed esiste solo durante la durata del nodo.
+// Nota che 'CustomNodeId' non viene salvato in un file di output ed esiste solo per la durata del nodo.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Scorrere la raccolta dei figli immediati del paragrafo,
-// e stampa tutte le sequenze o le forme che troviamo all'interno.
+// Scorrere la raccolta di elementi figlio immediati del paragrafo,
+// e stampare tutte le sequenze o le forme che troviamo al suo interno.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -120,15 +120,15 @@ foreach (Node child in children)
     }
 ```
 
-Mostra come aggiungere, aggiornare ed eliminare i nodi figlio nella raccolta di figli di un CompositeNode.
+Mostra come aggiungere, aggiornare ed eliminare nodi figlio nella raccolta di nodi figlio di un CompositeNode.
 
 ```csharp
 Document doc = new Document();
 
-// Un documento vuoto, per impostazione predefinita, ha un paragrafo.
+// Per impostazione predefinita, un documento vuoto contiene un paragrafo.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// I nodi compositi come il nostro paragrafo possono contenere altri nodi compositi e in linea come figli.
+// I nodi compositi come il nostro paragrafo possono contenere altri nodi compositi e inline come figli.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
@@ -138,23 +138,23 @@ Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// Il corpo del documento non mostrerà queste esecuzioni finché non le inseriremo in un nodo composito
-// quello stesso è una parte dell'albero dei nodi del documento, come abbiamo fatto con la prima esecuzione.
-// Possiamo determinare dove si trova il contenuto del testo dei nodi che inseriamo
-// appare nel documento specificando una posizione di inserimento relativa a un altro nodo del paragrafo.
+// Il corpo del documento non visualizzerà queste esecuzioni finché non le inseriremo in un nodo composito
+// che a sua volta fa parte dell'albero dei nodi del documento, come abbiamo fatto con la prima esecuzione.
+// Possiamo determinare dove si trova il contenuto di testo dei nodi che inseriamo
+// appare nel documento specificando una posizione di inserimento relativa a un altro nodo nel paragrafo.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Inserisci la seconda sequenza nel paragrafo prima della sequenza iniziale.
+// Inserire la seconda esecuzione nel paragrafo che precede quella iniziale.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// Inserisce la terza esecuzione dopo l'esecuzione iniziale.
+// Inserisce la terza esecuzione dopo quella iniziale.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Inserisci la prima esecuzione all'inizio della raccolta dei nodi secondari del paragrafo.
+// Inserisce la prima esecuzione all'inizio della raccolta di nodi figlio del paragrafo.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());

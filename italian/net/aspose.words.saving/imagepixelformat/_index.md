@@ -3,14 +3,14 @@ title: ImagePixelFormat Enum
 linktitle: ImagePixelFormat
 articleTitle: ImagePixelFormat
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.ImagePixelFormat enum. Specifica il formato in pixel per le immagini generate delle pagine del documento in C#.
+description: Scopri l'enum Aspose.Words.Saving.ImagePixelFormat per formati pixel ottimali nelle immagini delle pagine dei documenti. Migliora l'aspetto visivo dei tuoi documenti senza sforzo!
 type: docs
-weight: 5220
+weight: 5970
 url: /it/net/aspose.words.saving/imagepixelformat/
 ---
 ## ImagePixelFormat enumeration
 
-Specifica il formato in pixel per le immagini generate delle pagine del documento.
+Specifica il formato pixel per le immagini generate delle pagine del documento.
 
 ```csharp
 public enum ImagePixelFormat
@@ -30,68 +30,30 @@ public enum ImagePixelFormat
 | Format48BppRgb | `7` | 48 bit per pixel, RGB. |
 | Format64BppArgb | `8` | 64 bit per pixel, ARGB. |
 | Format64BppPArgb | `9` | 64 bit per pixel, ARGB, alfa premoltiplicato. |
-| Format1bppIndexed | `10` | 1 bit per pixel, Indicizzato. |
+| Format1bppIndexed | `10` | 1 bit per pixel, indicizzato. |
 
 ## Esempi
 
-Mostra come selezionare una velocità in bit per pixel con cui eseguire il rendering di un documento in un'immagine.
+Mostra come selezionare una velocità bit per pixel con cui trasformare un documento in un'immagine.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
-            builder.Writeln("Hello world!");
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
+builder.Writeln("Hello world!");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
+// Quando salviamo il documento come immagine, possiamo passare un oggetto SaveOptions a
+// seleziona un formato pixel per l'immagine che verrà generata dall'operazione di salvataggio.
+// Diverse velocità di bit per pixel influiranno sulla qualità e sulle dimensioni del file dell'immagine generata.
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PixelFormat = imagePixelFormat;
 
-            // Quando salviamo il documento come immagine, possiamo passare un oggetto SaveOptions a
-            // seleziona un formato pixel per l'immagine che verrà generata dall'operazione di salvataggio.
-            // Diverse velocità bit per pixel influenzeranno la qualità e la dimensione del file dell'immagine generata.
-            ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
-            imageSaveOptions.PixelFormat = imagePixelFormat;
+// Possiamo clonare le istanze di ImageSaveOptions.
+Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
 
-            // Possiamo clonare le istanze ImageSaveOptions.
-            Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
-
-#if NET48 || JAVA
-            switch (imagePixelFormat)
-            {
-                case ImagePixelFormat.Format1bppIndexed:
-                    Assert.That(10000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format16BppRgb555:
-                    Assert.That(80000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format24BppRgb:
-                    Assert.That(125000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format32BppRgb:
-                    Assert.That(150000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format48BppRgb:
-                    Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-            }
-#elif NET5_0_OR_GREATER
-            switch (imagePixelFormat)
-            {
-                case ImagePixelFormat.Format1bppIndexed:
-                    Assert.That(10000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format24BppRgb:
-                    Assert.That(70000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format16BppRgb555:
-                case ImagePixelFormat.Format32BppRgb:
-                case ImagePixelFormat.Format48BppRgb:
-                    Assert.That(125000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-            }
-#endif
+doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
 ```
 
 ### Guarda anche

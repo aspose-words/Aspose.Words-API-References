@@ -3,14 +3,14 @@ title: SignatureLine.IsValid
 linktitle: IsValid
 articleTitle: IsValid
 second_title: Aspose.Words per .NET
-description: SignatureLine IsValid proprietà. Indica che la riga della firma è firmata tramite firma digitale e questa firma digitale è valida in C#.
+description: Garantisci la sicurezza dei tuoi documenti con la proprietà IsValid di SignatureLine, che conferma la validità delle firme digitali per garantirne autenticità e affidabilità.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/signatureline/isvalid/
 ---
 ## SignatureLine.IsValid property
 
-Indica che la riga della firma è firmata tramite firma digitale e questa firma digitale è valida.
+Indica che la riga della firma è firmata con firma digitale e che questa firma digitale è valida.
 
 ```csharp
 public bool IsValid { get; }

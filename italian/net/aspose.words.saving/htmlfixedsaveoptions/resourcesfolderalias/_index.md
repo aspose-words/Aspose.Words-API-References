@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ResourcesFolderAlias
 linktitle: ResourcesFolderAlias
 articleTitle: ResourcesFolderAlias
 second_title: Aspose.Words per .NET
-description: HtmlFixedSaveOptions ResourcesFolderAlias proprietà. Specifica il nome della cartella utilizzata per costruire gli URI di immagine scritti in un documento Html. Il valore predefinito ènullo  in C#.
+description: Scopri la proprietà ResourcesFolderAlias di HtmlFixedSaveOptions per personalizzare gli URI delle immagini nei tuoi documenti HTML. Migliora i tuoi contenuti web senza sforzo!
 type: docs
-weight: 150
+weight: 170
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/
 ---
 ## HtmlFixedSaveOptions.ResourcesFolderAlias property
 
-Specifica il nome della cartella utilizzata per costruire gli URI di immagine scritti in un documento Html. Il valore predefinito è`nullo` .
+Specifica il nome della cartella utilizzata per costruire gli URI delle immagini scritti in un documento HTML. Il valore predefinito è`null` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -18,7 +18,7 @@ public string ResourcesFolderAlias { get; set; }
 
 ## Osservazioni
 
-Quando salvi un file[`Document`](../../../aspose.words/document/) in formato Html, Aspose.Words deve salvare tutte le immagini incorporate nel documento come file autonomi.[`ResourcesFolder`](../resourcesfolder/) ti consente di specificare dove verranno salvate le immagini e`ResourcesFolderAlias` consente di specificare come verranno costruiti gli URI dell'immagine.
+Quando salvi un[`Document`](../../../aspose.words/document/) nel formato Html, Aspose.Words deve salvare tutte le immagini x000d incorporate nel documento come file autonomi.[`ResourcesFolder`](../resourcesfolder/) consente di specificare dove verranno salvate le immagini e`ResourcesFolderAlias` consente di specificare come verranno costruiti gli URI delle immagini.
 
 ## Esempi
 
@@ -42,7 +42,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una cartella specificata da ResourcesFolderAlias conterrà le risorse anziché ResourcesFolder.
-    // Dobbiamo garantire che la cartella esista prima che i flussi possano inserirvi le proprie risorse.
+    // Dobbiamo assicurarci che la cartella esista prima che i flussi possano inserirvi le loro risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -71,8 +71,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Per impostazione predefinita, "ResourceFileUri" utilizza la cartella di sistema per i caratteri.
-                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso dei caratteri.
+                // Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i font.
+                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso per i font.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -81,7 +81,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
-        // dovremo anche reindirizzare ogni flusso per inserire la relativa risorsa in quella cartella.
+        // dovremo anche reindirizzare ogni flusso per mettere la sua risorsa in quella cartella.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

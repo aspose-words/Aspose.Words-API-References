@@ -3,14 +3,14 @@ title: Node.PreviousPreOrder
 linktitle: PreviousPreOrder
 articleTitle: PreviousPreOrder
 second_title: Aspose.Words per .NET
-description: Node PreviousPreOrder metodo. Ottiene il nodo precedente in base allalgoritmo di attraversamento dellalbero di preordine in C#.
+description: Scopri il metodo Node PreviousPreOrder per recuperare in modo efficiente il nodo precedente utilizzando l'algoritmo di attraversamento dell'albero di preordine per un'elaborazione dati ottimizzata.
 type: docs
 weight: 140
 url: /it/net/aspose.words/node/previouspreorder/
 ---
 ## Node.PreviousPreOrder method
 
-Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine.
+Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato.
 
 ```csharp
 public Node PreviousPreOrder(Node rootNode)
@@ -18,7 +18,7 @@ public Node PreviousPreOrder(Node rootNode)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| rootNode | Node | Il nodo superiore (limite) di attraversamento. |
+| rootNode | Node | Il nodo superiore (limite) dell'attraversamento. |
 
 ### Valore di ritorno
 
@@ -26,7 +26,7 @@ Nodo precedente nell'ordine di preordine. Null se raggiunto il*rootNode*.
 
 ## Esempi
 
-Mostra come attraversare l'albero dei nodi del documento utilizzando l'algoritmo di attraversamento del preordine ed eliminare qualsiasi forma incontrata con un'immagine.
+Mostra come attraversare l'albero dei nodi del documento utilizzando l'algoritmo di attraversamento pre-ordine ed eliminare qualsiasi forma incontrata con un'immagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

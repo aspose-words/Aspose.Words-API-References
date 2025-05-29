@@ -3,14 +3,14 @@ title: StructuredDocumentTag.DateStorageFormat
 linktitle: DateStorageFormat
 articleTitle: DateStorageFormat
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTag DateStorageFormat proprietà. Ottiene/imposta il formato in cui viene archiviata la data per un SDT di data quandoSDTè associato a un nodo XML nellarchivio dati del documento. Il valore predefinito èDateTime in C#.
+description: Scopri la proprietà StructuredDocumentTag DateStorageFormat per gestire facilmente i formati di data negli SDT associati a XML, migliorando l'organizzazione dei dati del tuo documento.
 type: docs
 weight: 110
 url: /it/net/aspose.words.markup/structureddocumenttag/datestorageformat/
 ---
 ## StructuredDocumentTag.DateStorageFormat property
 
-Ottiene/imposta il formato in cui viene archiviata la data per un SDT di data quando**SDT**è associato a un nodo XML nell'archivio dati del documento. Il valore predefinito èDateTime
+Ottiene/imposta il formato in cui viene memorizzata la data per una data SDT quando**SDT** è legato a un nodo XML nell'archivio dati del documento. Il valore predefinito èDateTime
 
 ```csharp
 public SdtDateStorageFormat DateStorageFormat { get; set; }
@@ -20,23 +20,23 @@ public SdtDateStorageFormat DateStorageFormat { get; set; }
 
 L'accesso a questa proprietà funzionerà solo perDate Tipo SDT.
 
-Per tutti gli altri tipi di SDT si verificherà un'eccezione.
+Per tutti gli altri tipi di SDT si verificheranno delle eccezioni.
 
 ## Esempi
 
-Mostra come richiedere all'utente di inserire una data con un tag di documento strutturato.
+Mostra come richiedere all'utente di immettere una data con un tag di documento strutturato.
 
 ```csharp
 Document doc = new Document();
 
-// Inserisci un tag di documento strutturato che richiede all'utente di inserire una data.
-// In Microsoft Word, questo elemento è noto come "controllo contenuto selezione data".
-// Quando si fa clic sulla freccia all'estremità destra di questo tag in Microsoft Word,
-// vedremo un popup sotto forma di calendario cliccabile.
+// Inserire un tag di documento strutturato che richieda all'utente di immettere una data.
+// In Microsoft Word, questo elemento è noto come "controllo contenuto selettore data".
+// Quando clicchiamo sulla freccia all'estremità destra di questo tag in Microsoft Word,
+// vedremo apparire un pop-up sotto forma di calendario cliccabile.
 // Possiamo usare quel popup per selezionare una data che verrà visualizzata dal tag.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// Visualizza la data, secondo la locale araba dell'Arabia Saudita.
+// Visualizza la data in base alle impostazioni locali dell'Arabia Saudita.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
 // Imposta il formato con cui visualizzare la data.
@@ -46,8 +46,8 @@ sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 // Visualizza la data secondo il calendario Hijri.
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
-// Prima che l'utente scelga una data in Microsoft Word, il tag visualizzerà il testo "Fare clic qui per inserire una data.".
-// In base al calendario del tag, imposta la proprietà "FullDate" per fare in modo che il tag visualizzi una data predefinita.
+// Prima che l'utente scelga una data in Microsoft Word, il tag visualizzerà il testo "Fai clic qui per immettere una data".
+// In base al calendario del tag, imposta la proprietà "FullDate" per far sì che il tag visualizzi una data predefinita.
 sdtDate.FullDate = new DateTime(1440, 10, 20);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

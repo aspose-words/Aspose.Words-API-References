@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.EndMustacheTag
 linktitle: EndMustacheTag
 articleTitle: EndMustacheTag
 second_title: Aspose.Words per .NET
-description: MailMergeRegionInfo EndMustacheTag proprietà. Restituisce un tag finale baffi per la regione in C#.
+description: Scopri la proprietà EndMustacheTag di MailMergeRegionInfo, che restituisce in modo efficiente il tag finale "mustache" per le aree del tuo documento. Ottimizza il tuo flusso di lavoro!
 type: docs
 weight: 20
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
 ---
 ## MailMergeRegionInfo.EndMustacheTag property
 
-Restituisce un tag finale "baffi" per la regione.
+Restituisce un tag "baffi" finale per la regione.
 
 ```csharp
 public MustacheTag EndMustacheTag { get; }

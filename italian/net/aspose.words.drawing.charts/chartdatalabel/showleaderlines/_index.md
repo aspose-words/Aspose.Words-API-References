@@ -3,14 +3,14 @@ title: ChartDataLabel.ShowLeaderLines
 linktitle: ShowLeaderLines
 articleTitle: ShowLeaderLines
 second_title: Aspose.Words per .NET
-description: ChartDataLabel ShowLeaderLines proprietà. Permette di specificare se è necessario mostrare le linee guida delletichetta dati. Il valore predefinito èfalso  in C#.
+description: Migliora i tuoi grafici con la proprietà ShowLeaderLines in ChartDataLabel. Visualizza facilmente le linee guida delle etichette dati per una visualizzazione più chiara dei dati.
 type: docs
-weight: 110
+weight: 160
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/showleaderlines/
 ---
 ## ChartDataLabel.ShowLeaderLines property
 
-Permette di specificare se è necessario mostrare le linee guida dell'etichetta dati. Il valore predefinito è`falso` .
+Consente di specificare se è necessario visualizzare le linee guida dell'etichetta dati. Il valore predefinito è `falso` .
 
 ```csharp
 public bool ShowLeaderLines { get; set; }
@@ -18,7 +18,7 @@ public bool ShowLeaderLines { get; set; }
 
 ## Osservazioni
 
-Si applica solo ai grafici a torta. Le linee direttrici creano una connessione visiva tra un'etichetta dati e il punto dati corrispondente.
+Si applica solo ai grafici a torta. Le linee guida creano una connessione visiva tra un'etichetta dati e il punto dati corrispondente.
 
 ## Esempi
 
@@ -39,7 +39,7 @@ public void DataLabels()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Applica etichette dati a ogni serie nel grafico.
-    // Queste etichette appariranno accanto a ciascun punto dati nel grafico e ne visualizzeranno il valore.
+    // Queste etichette appariranno accanto a ciascun punto dati nel grafico e ne mostreranno il valore.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -56,24 +56,28 @@ public void DataLabels()
         }
     }
 
-    // Per un grafico dall'aspetto più pulito, possiamo rimuovere le etichette dei dati individualmente.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Possiamo anche rimuovere un'intera serie di etichette dati contemporaneamente.
+    // Per ottenere un grafico più pulito, possiamo rimuovere le etichette dei dati singolarmente.
+    dataLabel.ClearFormat();
+
+    // Possiamo anche rimuovere contemporaneamente un'intera serie di etichette dati.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Applica etichette dati con formato numerico personalizzato e separatore a diversi punti dati in una serie.
+/// Applica etichette dati con formato numerico personalizzato e separatore a più punti dati in una serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -82,7 +86,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

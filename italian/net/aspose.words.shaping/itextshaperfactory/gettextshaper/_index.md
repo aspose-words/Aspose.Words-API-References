@@ -3,14 +3,14 @@ title: ITextShaperFactory.GetTextShaper
 linktitle: GetTextShaper
 articleTitle: GetTextShaper
 second_title: Aspose.Words per .NET
-description: ITextShaperFactory GetTextShaper metodo. Restituisce una nuova istanza di un modellatore di testo per il carattere specificato dafontPath EfaceIndex  in C#.
+description: Scopri il metodo GetTextShaper di ITextShaperFactory per creare uno shaper di testo personalizzato per le tue specifiche esigenze di font, migliorando la tua esperienza di rendering del testo.
 type: docs
 weight: 10
 url: /it/net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
 ## GetTextShaper(*string, int*) {#gettextshaper_1}
 
-Restituisce una nuova istanza di un modellatore di testo per il carattere specificato da*fontPath* E*faceIndex* .
+Restituisce una nuova istanza di un text shaper per il font specificato da*fontPath* E*faceIndex* .
 
 ```csharp
 public ITextShaper GetTextShaper(string fontPath, int faceIndex)
@@ -18,8 +18,8 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fontPath | String | Un percorso assoluto al file del carattere. |
-| faceIndex | Int32 | Un indice del tipo di carattere nella raccolta di caratteri TrueType, o 0 se il file di caratteri specificato non è una raccolta di caratteri TrueType. |
+| fontPath | String | Percorso assoluto al file del font. |
+| faceIndex | Int32 | Un indice del tipo di carattere nella raccolta di caratteri TrueType, o 0 se il file di carattere specificato non è una raccolta di caratteri TrueType. |
 
 ### Guarda anche
 
@@ -32,7 +32,7 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 ## GetTextShaper(*string, byte[], int*) {#gettextshaper}
 
-Restituisce una nuova istanza di un modellatore di testo per il carattere rappresentato da*fontBlob* E*faceIndex* .
+Restituisce una nuova istanza di un text shaper per il font rappresentato da*fontBlob* E*faceIndex* .
 
 ```csharp
 public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
@@ -40,9 +40,9 @@ public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fontId | String | Un identificatore univoco che può essere associato in modo univoco al carattere fornito*fontBlob* . |
-| fontBlob | Byte[] | Array di byte con i dati del carattere. |
-| faceIndex | Int32 | Un indice del tipo di carattere nella raccolta di caratteri TrueType, o 0 se*fontBlob* non è una raccolta di caratteri TrueType. |
+| fontId | String | Un identificatore univoco che può essere associato in modo univoco al font fornito*fontBlob* . |
+| fontBlob | Byte[] | Matrice di byte con i dati del font. |
+| faceIndex | Int32 | Un indice del tipo di carattere nella raccolta di caratteri TrueType, o 0 se*fontBlob* non è una raccolta di font TrueType. |
 
 ### Guarda anche
 

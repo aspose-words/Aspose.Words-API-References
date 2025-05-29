@@ -3,7 +3,7 @@ title: PlainTextDocument.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words per .NET
-description: PlainTextDocument CustomDocumentProperties proprietà. OttieneCustomDocumentProperties del documento in C#.
+description: Scopri come accedere a CustomDocumentProperties in PlainTextDocument per una gestione e una personalizzazione ottimizzate dei documenti. Sfrutta il potenziale del tuo documento!
 type: docs
 weight: 30
 url: /it/net/aspose.words/plaintextdocument/customdocumentproperties/

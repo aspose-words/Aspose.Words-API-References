@@ -3,7 +3,7 @@ title: Section.ProtectedForForms
 linktitle: ProtectedForForms
 articleTitle: ProtectedForForms
 second_title: Aspose.Words per .NET
-description: Section ProtectedForForms proprietà. Vero se la sezione è protetta per i moduli. Quando una sezione è protetta per i moduli gli utenti possono selezionare e modificare il testo solo nei campi modulo in Microsoft Word in C#.
+description: Scopri come la proprietà ProtectedForForms in Microsoft Word migliora la sicurezza dei documenti, consentendo agli utenti di modificare facilmente solo i campi modulo designati.
 type: docs
 weight: 60
 url: /it/net/aspose.words/section/protectedforforms/
@@ -38,7 +38,7 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 doc.Sections[0].ProtectedForForms = false;
 
 // In questo documento di output, potremo modificare liberamente la prima sezione,
-// e potremo modificare solo il contenuto del campo del modulo nella seconda sezione.
+// e potremo modificare il contenuto del campo del modulo solo nella seconda sezione.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

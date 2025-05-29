@@ -3,9 +3,9 @@ title: Stroke.Weight
 linktitle: Weight
 articleTitle: Weight
 second_title: Aspose.Words per .NET
-description: Stroke Weight proprietà. Definisce lo spessore del pennello che traccia il percorso di una forma in punti in C#.
+description: Scopri la proprietà Spessore tratto per personalizzare lo spessore del pennello per le forme. Migliora i tuoi disegni con tratti precisi in punti!
 type: docs
-weight: 210
+weight: 260
 url: /it/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property

@@ -3,9 +3,9 @@ title: ShapeBase.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words per .NET
-description: ShapeBase Title proprietà. Ottiene o imposta il titolo didascalia delloggetto forma corrente in C#.
+description: Gestisci con semplicità la proprietà del titolo di ShapeBase. Imposta o recupera la didascalia del titolo per qualsiasi oggetto forma per migliorare la chiarezza e l'attrattiva del tuo design.
 type: docs
-weight: 530
+weight: 570
 url: /it/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
@@ -18,9 +18,9 @@ public string Title { get; set; }
 
 ## Osservazioni
 
-L'impostazione predefinita è una stringa vuota.
+Il valore predefinito è una stringa vuota.
 
-Non può essere`nullo`, ma può essere una stringa vuota.
+Non può essere`null`, ma può essere una stringa vuota.
 
 ## Esempi
 
@@ -30,7 +30,7 @@ Mostra come impostare il titolo di una forma.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea una forma, assegnale un titolo e quindi aggiungila al documento.
+// Crea una forma, assegnale un titolo e aggiungila al documento.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.Width = 200;
 shape.Height = 200;

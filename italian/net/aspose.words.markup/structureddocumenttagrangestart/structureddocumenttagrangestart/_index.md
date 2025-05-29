@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart
 linktitle: StructuredDocumentTagRangeStart
 articleTitle: StructuredDocumentTagRangeStart
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagRangeStart costruttore. Inizializza una nuova istanza diInizio dellintervallo di tag del documento strutturato classe in C#.
+description: Crea una nuova istanza di StructuredDocumentTagRangeStart senza sforzo. Migliora la gestione dei tuoi documenti con questo potente costruttore per tag strutturati.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/structureddocumenttagrangestart/
 ---
 ## StructuredDocumentTagRangeStart constructor
 
-Inizializza una nuova istanza di**Inizio dell'intervallo di tag del documento strutturato** classe.
+Inizializza una nuova istanza di**Inizio intervallo tag documento strutturato** classe.
 
 ```csharp
 public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
@@ -37,7 +37,7 @@ public StructuredDocumentTagRangeStart(DocumentBase doc, SdtType type)
 
 ## Esempi
 
-Mostra come creare/rimuovere il tag del documento strutturato e il suo contenuto.
+Mostra come creare/rimuovere il tag di un documento strutturato e il suo contenuto.
 
 ```csharp
 public void SdtRangeExtendedMethods()
@@ -47,9 +47,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Rimuove il tag del documento strutturato con intervalli, ma mantiene il contenuto all'interno.
+    // Rimuove il tag del documento strutturato con intervallo, ma mantiene il contenuto al suo interno.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -62,25 +62,27 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Rimuove il tag del documento strutturato con intervalli e il contenuto all'interno.
+    // Rimuove il tag del documento strutturato con intervallo e il contenuto al suo interno.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

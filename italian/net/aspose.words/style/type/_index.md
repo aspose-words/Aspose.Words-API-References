@@ -3,9 +3,9 @@ title: Style.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words per .NET
-description: Style Type proprietà. Ottiene il tipo di stile paragrafo o carattere in C#.
+description: Scopri la proprietà Tipo di stile per accedere e personalizzare senza sforzo gli stili di paragrafo o di carattere, migliorando l'aspetto visivo del tuo documento.
 type: docs
-weight: 170
+weight: 200
 url: /it/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumera ed elenca tutti gli stili che un documento creato utilizzando Aspose.Words contiene per impostazione predefinita.
+// Enumera ed elenca tutti gli stili contenuti per impostazione predefinita in un documento creato utilizzando Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

@@ -3,14 +3,14 @@ title: ZoomType Enum
 linktitle: ZoomType
 articleTitle: ZoomType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Settings.ZoomType enum. Valori possibili per quanto grande o piccolo appare il documento sullo schermo in Microsoft Word in C#.
+description: Scopri l'enum Aspose.Words.Settings.ZoomType per personalizzare le dimensioni di visualizzazione dei documenti in Microsoft Word per una visualizzazione e una produttività ottimali.
 type: docs
-weight: 5980
+weight: 6810
 url: /it/net/aspose.words.settings/zoomtype/
 ---
 ## ZoomType enumeration
 
-Valori possibili per quanto grande o piccolo appare il documento sullo schermo in Microsoft Word.
+Valori possibili per la dimensione del documento visualizzato sullo schermo in Microsoft Word.
 
 ```csharp
 public enum ZoomType
@@ -20,11 +20,29 @@ public enum ZoomType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Custom | `0` | La percentuale di zoom è impostata esplicitamente. Non viene ricalcolato automaticamente quando cambia la dimensione del controllo. |
-| None | `0` | Indica di utilizzare la percentuale di zoom esplicita. Uguale aCustom . |
-| FullPage | `1` | La percentuale di zoom viene ricalcolata automaticamente per adattarsi a una pagina intera. |
+| Custom | `0` | La percentuale di zoom è impostata esplicitamente. Non viene ricalcolata automaticamente quando le dimensioni del controllo cambiano. |
+| None | `0` | Indica di utilizzare la percentuale di zoom esplicita. ComeCustom . |
+| FullPage | `1` | La percentuale di zoom viene ricalcolata automaticamente per adattarla a un'intera pagina. |
 | PageWidth | `2` | La percentuale di zoom viene ricalcolata automaticamente per adattarsi alla larghezza della pagina. |
-| TextFit | `3` | La percentuale di zoom viene ricalcolata automaticamente per adattarla al testo. |
+| TextFit | `3` | La percentuale di zoom viene ricalcolata automaticamente per adattare il testo. |
+
+## Esempi
+
+Mostra come impostare un fattore di zoom personalizzato che le vecchie versioni di Microsoft Word applicheranno a un documento al momento del caricamento.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+doc.ViewOptions.ViewType = ViewType.PageLayout;
+doc.ViewOptions.ZoomPercent = 50;
+
+Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
+Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+
+doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
+```
 
 ### Guarda anche
 

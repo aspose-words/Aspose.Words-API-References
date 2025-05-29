@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words per .NET
-description: HtmlFixedSaveOptions SaveFormat proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereHtmlFixed  in C#.
+description: Scopri la proprietà SaveFormat di HtmlFixedSaveOptions per garantire che i tuoi documenti vengano salvati nell'esclusivo formato HtmlFixed per una qualità ottimale.
 type: docs
-weight: 170
+weight: 190
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/saveformat/
 ---
 ## HtmlFixedSaveOptions.SaveFormat property
 
-Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereHtmlFixed .
+Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto di opzioni di salvataggio. Può essere soloHtmlFixed .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -38,7 +38,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una cartella specificata da ResourcesFolderAlias conterrà le risorse anziché ResourcesFolder.
-    // Dobbiamo garantire che la cartella esista prima che i flussi possano inserirvi le proprie risorse.
+    // Dobbiamo assicurarci che la cartella esista prima che i flussi possano inserirvi le loro risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -67,8 +67,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Per impostazione predefinita, "ResourceFileUri" utilizza la cartella di sistema per i caratteri.
-                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso dei caratteri.
+                // Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i font.
+                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso per i font.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -77,7 +77,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
-        // dovremo anche reindirizzare ogni flusso per inserire la relativa risorsa in quella cartella.
+        // dovremo anche reindirizzare ogni flusso per mettere la sua risorsa in quella cartella.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

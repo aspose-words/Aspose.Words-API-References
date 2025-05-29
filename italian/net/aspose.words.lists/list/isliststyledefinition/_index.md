@@ -3,7 +3,7 @@ title: List.IsListStyleDefinition
 linktitle: IsListStyleDefinition
 articleTitle: IsListStyleDefinition
 second_title: Aspose.Words per .NET
-description: List IsListStyleDefinition proprietà. RestituisceVERO se questo elenco è una definizione di uno stile di elenco in C#.
+description: Scopri se la proprietà List IsListStyleDefinition definisce uno stile di elenco. Sblocca subito opzioni di stile avanzate per i tuoi elenchi!
 type: docs
 weight: 20
 url: /it/net/aspose.words.lists/list/isliststyledefinition/
@@ -18,11 +18,11 @@ public bool IsListStyleDefinition { get; }
 
 ## Osservazioni
 
-Quando questa proprietà è`VERO` , IL[`Style`](../style/) la proprietà restituisce lo stile di elenco che definisce questo elenco.
+Quando questa proprietà è`VERO` , IL[`Style`](../style/) La proprietà restituisce lo stile di elenco definito da questo elenco.
 
 Modificando le proprietà di un elenco che definisce uno stile di elenco, si modificano le proprietà dello stile di elenco.
 
-Un elenco che definisce uno stile di elenco non può essere applicato direttamente ai paragrafi per numerarli.
+Un elenco che è una definizione di uno stile di elenco non può essere applicato direttamente ai paragrafi per renderli numerati.
 
 ## Esempi
 
@@ -31,10 +31,10 @@ Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
 // Possiamo contenere un intero oggetto List all'interno di uno stile.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -45,7 +45,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Modifica l'aspetto di tutti i livelli dell'elenco nel nostro elenco.
+// Modifica l'aspetto di tutti i livelli dell'elenco.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -64,7 +64,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Aggiungi alcuni elementi dell'elenco che verrà formattato dal nostro elenco.
+// Aggiungi alcuni elementi dell'elenco che verranno formattati dal nostro elenco.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

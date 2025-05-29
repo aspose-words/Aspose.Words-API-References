@@ -3,7 +3,7 @@ title: ImportFormatOptions.SmartStyleBehavior
 linktitle: SmartStyleBehavior
 articleTitle: SmartStyleBehavior
 second_title: Aspose.Words per .NET
-description: ImportFormatOptions SmartStyleBehavior proprietà. Ottiene o imposta un valore booleano che specifica come verranno importati gli stili quando hanno nomi uguali nei documenti di origine e di destinazione. Il valore predefinito èfalso  in C#.
+description: Scopri come la proprietà SmartStyleBehavior di ImportFormatOptions ottimizza l'importazione di stili con nomi uguali nei documenti. Personalizza il tuo processo di importazione senza sforzo!
 type: docs
 weight: 80
 url: /it/net/aspose.words/importformatoptions/smartstylebehavior/
@@ -18,9 +18,9 @@ public bool SmartStyleBehavior { get; set; }
 
 ## Osservazioni
 
-Quando questa opzione è**abilitato** , lo stile di origine verrà espanso in attributi diretti all'interno di un documento di destinazione a , seKeepSourceFormatting viene utilizzata la modalità di importazione.
+Quando questa opzione è**abilitato** , lo stile sorgente verrà espanso in attributi diretti all'interno del documento di destinazione a , seKeepSourceFormatting viene utilizzata la modalità di importazione.
 
-Quando questa opzione è**Disabilitato**, lo stile di origine verrà espanso solo se è numerato. Gli attributi di destinazione esistenti non verranno sovrascritti, inclusi gli elenchi.
+Quando questa opzione è**disabile**, lo stile sorgente verrà espanso solo se numerato. Gli attributi di destinazione Exist non verranno sovrascritti, inclusi gli elenchi.
 
 ## Esempi
 
@@ -38,14 +38,14 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Clona il documento e modifica lo stile "MyStyle" del clone, quindi ha un colore diverso da quello dell'originale.
-// Se inseriamo il clone nel documento originale, i due stili con lo stesso nome causeranno uno scontro.
+// Clona il documento e modifica lo stile "MyStyle" del clone, in modo che abbia un colore diverso da quello dell'originale.
+// Se inseriamo il clone nel documento originale, i due stili con lo stesso nome causeranno un conflitto.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// Quando abilitiamo SmartStyleBehavior e utilizziamo la modalità formato di importazione KeepSourceFormatting,
+// Quando abilitiamo SmartStyleBehavior e utilizziamo la modalità di formato di importazione KeepSourceFormatting,
 // Aspose.Words risolverà i conflitti di stile convertendo gli stili del documento sorgente.
-// con gli stessi nomi degli stili di destinazione negli attributi di paragrafo diretti.
+// con gli stessi nomi degli stili di destinazione in attributi di paragrafo diretti.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;
 

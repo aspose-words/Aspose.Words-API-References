@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreFieldCodes
 linktitle: IgnoreFieldCodes
 articleTitle: IgnoreFieldCodes
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions IgnoreFieldCodes proprietà. Ottiene o imposta un valore booleano che indica di ignorare il testo allinterno dei codici di campo. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà IgnoreFieldCodes di FindReplaceOptions per gestire facilmente il testo nei codici di campo. Controlla la visibilità con una semplice impostazione booleana!
 type: docs
 weight: 70
 url: /it/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
@@ -18,7 +18,7 @@ public bool IgnoreFieldCodes { get; set; }
 
 ## Osservazioni
 
-Questa opzione influisce solo sui codici di campo (non ignora i nodi tra FieldSeparator EFieldEnd).
+Questa opzione riguarda solo i codici di campo (non ignora i nodi tra FieldSeparator EFieldEnd).
 
 Per ignorare l'intero campo, utilizzare l'opzione corrispondente[`IgnoreFields`](../ignorefields/).
 

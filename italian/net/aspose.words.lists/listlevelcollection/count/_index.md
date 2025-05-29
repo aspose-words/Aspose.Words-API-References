@@ -3,7 +3,7 @@ title: ListLevelCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words per .NET
-description: ListLevelCollection Count proprietà. Ottiene il numero di livelli in questo elenco in C#.
+description: Scopri la proprietà ListLevelCollection Count per accedere facilmente al numero totale di livelli nel tuo elenco, migliorando la gestione e l'organizzazione dei dati.
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/listlevelcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Osservazioni
 
-Potrebbero esserci 1 o 9 livelli in un elenco.
+Un elenco potrebbe contenere da 1 a 9 livelli.
 
 ## Esempi
 
@@ -27,10 +27,10 @@ Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
 // Possiamo contenere un intero oggetto List all'interno di uno stile.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -41,7 +41,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Modifica l'aspetto di tutti i livelli dell'elenco nel nostro elenco.
+// Modifica l'aspetto di tutti i livelli dell'elenco.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -60,7 +60,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Aggiungi alcuni elementi dell'elenco che verrà formattato dal nostro elenco.
+// Aggiungi alcuni elementi dell'elenco che verranno formattati dal nostro elenco.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

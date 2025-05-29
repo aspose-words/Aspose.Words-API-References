@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportImagesAsBase64
 linktitle: ExportImagesAsBase64
 articleTitle: ExportImagesAsBase64
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportImagesAsBase64 proprietà. Specifica se le immagini vengono salvate in formato Base64 nelloutput HTML MHTML o EPUB. Limpostazione predefinita èfalso  in C#.
+description: Scopri la proprietà ExportImagesAsBase64 di HtmlSaveOptions per salvare le immagini in formato Base64 per un output ottimizzato in HTML, MHTML o EPUB. Migliora la qualità dei tuoi documenti!
 type: docs
 weight: 170
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
 
-Specifica se le immagini vengono salvate in formato Base64 nell'output HTML, MHTML o EPUB. L'impostazione predefinita è`falso` .
+Specifica se le immagini vengono salvate in formato Base64 nell'output HTML, MHTML o EPUB. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -18,11 +18,11 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ## Osservazioni
 
-Quando questa proprietà è impostata su`VERO` i dati delle immagini vengono esportati direttamente nel file**img** non vengono creati elementi e file separati.
+Quando questa proprietà è impostata su`VERO` i dati delle immagini vengono esportati direttamente nel**immagine** non vengono creati elementi e file separati.
 
 ## Esempi
 
-Mostra come incorporare i caratteri all'interno di un documento HTML salvato.
+Mostra come incorporare i font all'interno di un documento HTML salvato.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -3,14 +3,14 @@ title: Font.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words per .NET
-description: Font Underline proprietà. Ottiene o imposta il tipo di sottolineatura applicata al carattere in C#.
+description: Scopri la proprietà "Carattere Sottolineato" per personalizzare gli stili di testo. Imposta e modifica facilmente i tipi di sottolineatura per una tipografia migliorata nei tuoi progetti.
 type: docs
-weight: 530
+weight: 540
 url: /it/net/aspose.words/font/underline/
 ---
 ## Font.Underline property
 
-Ottiene o imposta il tipo di sottolineatura applicata al carattere.
+Ottiene o imposta il tipo di sottolineatura applicato al font.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -38,7 +38,7 @@ Mostra come inserire testo formattato utilizzando DocumentBuilder.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica la formattazione del carattere, quindi aggiunge il testo.
+// Specificare la formattazione del carattere, quindi aggiungere il testo.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;
@@ -49,7 +49,7 @@ font.Underline = Underline.Dash;
 builder.Write("Hello world!");
 ```
 
-Mostra come inserire un campo di collegamento ipertestuale.
+Mostra come inserire un campo collegamento ipertestuale.
 
 ```csharp
 Document doc = new Document();
@@ -57,15 +57,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserisci un collegamento ipertestuale ed enfatizzalo con una formattazione personalizzata.
+// Inserisci un collegamento ipertestuale ed evidenzialo con una formattazione personalizzata.
 // Il collegamento ipertestuale sarà un pezzo di testo cliccabile che ci porterà alla posizione specificata nell'URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", falso);
+builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + clic con il pulsante sinistro del mouse sul collegamento nel testo in Microsoft Word ci porterà all'URL tramite una nuova finestra del browser web.
+// Facendo clic con il tasto sinistro del mouse sul collegamento nel testo in Microsoft Word verremo indirizzati all'URL tramite una nuova finestra del browser Web.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

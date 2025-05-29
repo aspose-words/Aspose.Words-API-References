@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words per .NET
-description: ChartDataLabelCollection Font proprietà. Fornisce laccesso alla formattazione dei caratteri delle etichette dati dellintera serie in C#.
+description: Accedi e personalizza la formattazione del carattere delle etichette dati dell'intera serie con la proprietà Font di ChartDataLabelCollection per una visualizzazione avanzata dei dati.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartdatalabelcollection/font/
 ---
 ## ChartDataLabelCollection.Font property
 
-Fornisce l'accesso alla formattazione dei caratteri delle etichette dati dell'intera serie.
+Fornisce accesso alla formattazione del carattere delle etichette dati dell'intera serie.
 
 ```csharp
 public Font Font { get; }
@@ -28,7 +28,7 @@ Mostra come abilitare e configurare le etichette dati per una serie di grafici.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiungi un grafico a linee, quindi cancella le serie di dati dimostrativi per iniziare con un grafico pulito,
+// Aggiungi un grafico a linee, quindi cancella la serie di dati demo per iniziare con un grafico pulito,
 // e quindi imposta un titolo.
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
@@ -37,8 +37,8 @@ chart.Title.Text = "Monthly sales report";
 
 // Inserisci una serie di grafici personalizzati con i mesi come categorie per l'asse X,
 // e rispettivi importi decimali per l'asse Y.
-ChartSeries series = chart.Series.Add("Revenue", 
-    new[] { "January", "February", "March" }, 
+ChartSeries series = chart.Series.Add("Revenue",
+    new[] { "January", "February", "March" },
     new[] { 25.611d, 21.439d, 33.750d });
 
 // Abilita le etichette dati, quindi applica un formato numerico personalizzato per i valori visualizzati nelle etichette dati.
@@ -47,7 +47,7 @@ series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
-dataLabels.Font.Size = 12;            
+dataLabels.Font.Size = 12;
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

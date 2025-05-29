@@ -3,14 +3,14 @@ title: Style.BaseStyleName
 linktitle: BaseStyleName
 articleTitle: BaseStyleName
 second_title: Aspose.Words per .NET
-description: Style BaseStyleName proprietà. Ottiene/imposta il nome dello stile su cui è basato questo stile in C#.
+description: Scopri come personalizzare la proprietà BaseStyleName per migliorare il tuo design. Ottieni o imposta facilmente il nome dello stile per un impatto visivo migliore!
 type: docs
 weight: 30
 url: /it/net/aspose.words/style/basestylename/
 ---
 ## Style.BaseStyleName property
 
-Ottiene/imposta il nome dello stile su cui è basato questo stile.
+Ottiene/imposta il nome dello stile su cui si basa questo stile.
 
 ```csharp
 public string BaseStyleName { get; set; }
@@ -34,7 +34,7 @@ Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Possiamo fare riferimento a uno stile utilizzando il suo alias e il suo nome.
+// Possiamo fare riferimento a uno stile utilizzando il suo alias e anche il suo nome.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

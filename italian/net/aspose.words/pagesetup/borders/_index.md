@@ -3,7 +3,7 @@ title: PageSetup.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words per .NET
-description: PageSetup Borders proprietà. Ottiene una raccolta dei bordi della pagina in C#.
+description: Scopri la proprietà PageSetup Borders per accedere facilmente ai bordi della pagina e personalizzarli, conferendo loro un aspetto professionale e raffinato.
 type: docs
 weight: 50
 url: /it/net/aspose.words/pagesetup/borders/
@@ -18,7 +18,7 @@ public BorderCollection Borders { get; }
 
 ## Esempi
 
-Mostra come creare un bordo verde ondulato della pagina con un'ombra.
+Mostra come creare un bordo di pagina ondulato verde con un'ombra.
 
 ```csharp
 Document doc = new Document();

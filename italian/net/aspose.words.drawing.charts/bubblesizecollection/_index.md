@@ -3,9 +3,9 @@ title: BubbleSizeCollection Class
 linktitle: BubbleSizeCollection
 articleTitle: BubbleSizeCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection classe. Rappresenta una raccolta di dimensioni delle bolle per una serie di grafici in C#.
+description: Scopri la classe Aspose.Words.Drawing.Charts.BubbleSizeCollection, la soluzione ideale per gestire in modo efficace le dimensioni delle bolle nelle serie di grafici.
 type: docs
-weight: 610
+weight: 870
 url: /it/net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 ## BubbleSizeCollection class
@@ -21,7 +21,8 @@ public class BubbleSizeCollection : IEnumerable<double>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Ottiene il numero di elementi in questa raccolta. |
-| [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Ottiene o imposta il valore della dimensione della bolla nell'indice specificato. |
+| [FormatCode](../../aspose.words.drawing.charts/bubblesizecollection/formatcode/) { get; set; } | Ottiene o imposta il codice di formato applicato alle dimensioni delle bolle. |
+| [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Ottiene o imposta il valore della dimensione della bolla all'indice specificato. |
 
 ## Metodi
 
@@ -31,7 +32,7 @@ public class BubbleSizeCollection : IEnumerable<double>
 
 ## Osservazioni
 
-La raccolta consente solo di modificare le dimensioni delle bolle. Per aggiungere o inserire nuovi valori in una serie di grafici o rimuovere valori, i metodi appropriati di[`ChartSeries`](../chartseries/) è possibile utilizzare la classe.
+La raccolta consente solo di modificare le dimensioni delle bolle. Per aggiungere o inserire nuovi valori a una serie di grafici, o rimuovere valori x000d, utilizzare i metodi appropriati di[`ChartSeries`](../chartseries/) è possibile utilizzare la classe.
 
 I valori delle dimensioni delle bolle vuote sono rappresentati comeNaN.
 

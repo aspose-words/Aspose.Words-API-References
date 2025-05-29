@@ -3,14 +3,14 @@ title: IFieldUpdateCultureProvider Interface
 linktitle: IFieldUpdateCultureProvider
 articleTitle: IFieldUpdateCultureProvider
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.IFieldUpdateCultureProvider interfaccia. Quando implementato fornisce aCultureInfo oggetto che dovrebbe essere utilizzato durante laggiornamento di un particolare campo in C#.
+description: Scopri l'interfaccia Aspose.Words.Fields.IFieldUpdateCultureProvider. Migliora gli aggiornamenti dei campi con un oggetto CultureInfo personalizzabile per una localizzazione precisa.
 type: docs
-weight: 2710
+weight: 3120
 url: /it/net/aspose.words.fields/ifieldupdatecultureprovider/
 ---
 ## IFieldUpdateCultureProvider interface
 
-Quando implementato, fornisce aCultureInfo oggetto che dovrebbe essere utilizzato durante l'aggiornamento di un particolare campo.
+Quando implementato, fornisce unCultureInfo oggetto che dovrebbe essere utilizzato durante l'aggiornamento di un campo particolare.
 
 ```csharp
 public interface IFieldUpdateCultureProvider
@@ -20,11 +20,11 @@ public interface IFieldUpdateCultureProvider
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | Restituisce aCultureInfooggetto da utilizzare durante l'aggiornamento del campo. |
+| [GetCulture](../../aspose.words.fields/ifieldupdatecultureprovider/getculture/)(*string, [Field](../field/)*) | Restituisce unCultureInfo oggetto da utilizzare durante l'aggiornamento del campo. |
 
 ## Esempi
 
-Mostra come specificare una lingua che analizza la formattazione di data/ora per ogni campo.
+Mostra come specificare una cultura che analizza la formattazione di data/ora per ogni campo.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -47,7 +47,7 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// Fornisce un oggetto CultureInfo che deve essere utilizzato durante l'aggiornamento di un campo.
+/// Fornisce un oggetto CultureInfo che dovrebbe essere utilizzato durante l'aggiornamento di un campo.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {

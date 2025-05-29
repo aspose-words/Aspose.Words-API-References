@@ -3,7 +3,7 @@ title: NodeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: NodeCollection Item proprietà. Recupera un nodo allindice specificato in C#.
+description: Accedi a qualsiasi nodo senza problemi con la proprietà NodeCollection Item. Recupera rapidamente i nodi in base all'indice per una gestione dei dati fluida e prestazioni migliorate.
 type: docs
 weight: 20
 url: /it/net/aspose.words/nodecollection/item/
@@ -22,13 +22,13 @@ public Node this[int index] { get; }
 
 ## Osservazioni
 
-L'indice è a base zero.
+L'indice è basato sullo zero.
 
-Gli indici negativi sono consentiti e indicano l'accesso dal retro della raccolta. Ad esempio -1 significa l'ultimo elemento, -2 significa il penultimo e così via.
+Sono consentiti indici negativi che indicano l'accesso dalla parte posteriore della raccolta. Ad esempio -1 indica l'ultimo elemento, -2 indica il penultimo e così via.
 
-Se indice è maggiore o uguale al numero di elementi nell'elenco, restituisce un riferimento null.
+Se l'indice è maggiore o uguale al numero di elementi nell'elenco, viene restituito un riferimento null.
 
-Se indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, restituisce un riferimento null.
+Se l'indice è negativo e il suo valore assoluto è maggiore del numero di elementi nell'elenco, viene restituito un riferimento null.
 
 ## Esempi
 
@@ -37,22 +37,22 @@ Mostra come attraversare la raccolta di nodi figlio di un nodo composito.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi due sequenze e una forma come nodi secondari al primo paragrafo di questo documento.
+// Aggiungere due sequenze e una forma come nodi figlio al primo paragrafo di questo documento.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Tieni presente che "CustomNodeId" non viene salvato in un file di output ed esiste solo durante la durata del nodo.
+// Nota che 'CustomNodeId' non viene salvato in un file di output ed esiste solo per la durata del nodo.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Scorrere la raccolta dei figli immediati del paragrafo,
-// e stampa tutte le sequenze o le forme che troviamo all'interno.
+// Scorrere la raccolta di elementi figlio immediati del paragrafo,
+// e stampare tutte le sequenze o le forme che troviamo al suo interno.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

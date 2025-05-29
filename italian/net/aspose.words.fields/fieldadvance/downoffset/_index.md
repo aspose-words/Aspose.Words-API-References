@@ -3,14 +3,14 @@ title: FieldAdvance.DownOffset
 linktitle: DownOffset
 articleTitle: DownOffset
 second_title: Aspose.Words per .NET
-description: FieldAdvance DownOffset proprietà. Ottiene o imposta il numero di punti di cui deve essere spostato verso il basso il testo che segue il campo in C#.
+description: Scopri la proprietà FieldAdvance DownOffset, regola facilmente il posizionamento del testo con un controllo preciso sulla spaziatura verticale per una formattazione avanzata del documento.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldadvance/downoffset/
 ---
 ## FieldAdvance.DownOffset property
 
-Ottiene o imposta il numero di punti di cui deve essere spostato verso il basso il testo che segue il campo.
+Ottiene o imposta il numero di punti di cui il testo che segue il campo deve essere spostato verso il basso.
 
 ```csharp
 public string DownOffset { get; set; }
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Di seguito sono riportati due modi di utilizzare il campo ADVANCE per regolare la posizione del testo che lo segue.
+// Di seguito sono riportati due modi per utilizzare il campo ADVANCE per regolare la posizione del testo che lo segue.
 // Gli effetti di un campo ADVANCE continuano ad essere applicati fino alla fine del paragrafo,
-// o un altro campo ADVANCE aggiorna i valori di offset/coordinate.
-// 1 - Specifica un offset direzionale:
+// oppure un altro campo ADVANCE aggiorna i valori di offset/coordinate.
+// 1 - Specificare uno scostamento direzionale:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

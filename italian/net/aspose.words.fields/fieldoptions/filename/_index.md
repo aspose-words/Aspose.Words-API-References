@@ -3,7 +3,7 @@ title: FieldOptions.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words per .NET
-description: FieldOptions FileName proprietà. Ottiene o imposta il nome del file del documento in C#.
+description: Scopri la proprietà FileName di FieldOptions per gestire e personalizzare facilmente il nome file del tuo documento, migliorando l'organizzazione e l'efficienza.
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/fieldoptions/filename/
@@ -18,7 +18,7 @@ public string FileName { get; set; }
 
 ## Osservazioni
 
-Questa proprietà è utilizzata da[`FieldFileName`](../../fieldfilename/) campo con priorità più alta di[`OriginalFileName`](../../../aspose.words/document/originalfilename/) proprietà.
+Questa proprietà è utilizzata da[`FieldFileName`](../../fieldfilename/) campo con priorità più alta del[`OriginalFileName`](../../../aspose.words/document/originalfilename/) proprietà.
 
 ## Esempi
 
@@ -41,14 +41,14 @@ Assert.AreEqual("Document.docx", field.Result);
 builder.Writeln();
 
 // Per impostazione predefinita, il campo FILENAME mostra il nome del file, ma non il percorso completo del file system locale.
-// Possiamo impostare un flag per mostrare il percorso completo del file.
+// Possiamo impostare un flag per far sì che venga visualizzato il percorso completo del file.
 field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
 field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// Possiamo anche impostare un valore per questa proprietà
+// Possiamo anche impostare un valore per questa proprietà su
 // sovrascrive il valore visualizzato nel campo FILENAME.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();

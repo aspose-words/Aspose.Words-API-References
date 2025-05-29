@@ -3,14 +3,14 @@ title: Table.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words per .NET
-description: Table Bidi proprietà. Ottiene o imposta se si tratta di una tabella da destra a sinistra in C#.
+description: Scopri le proprietà Bidi di Table per una formattazione impeccabile delle tabelle da destra a sinistra. Migliora il tuo web design con semplici opzioni di personalizzazione!
 type: docs
 weight: 80
 url: /it/net/aspose.words.tables/table/bidi/
 ---
 ## Table.Bidi property
 
-Ottiene o imposta se si tratta di una tabella da destra a sinistra.
+Ottiene o imposta se questa è una tabella da destra a sinistra.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Osservazioni
 
-Quando`VERO`, le celle di questa riga sono disposte da destra a sinistra.
+Quando`VERO`, le celle in questa riga sono disposte da destra a sinistra.
 
 Il valore predefinito è`falso`.
 

@@ -3,14 +3,14 @@ title: Stroke.Opacity
 linktitle: Opacity
 articleTitle: Opacity
 second_title: Aspose.Words per .NET
-description: Stroke Opacity proprietà. Definisce la quantità di trasparenza di un tratto. Lintervallo valido è compreso tra 0 e 1 in C#.
+description: Scopri la proprietà Opacità del tratto, controlla la trasparenza del tratto da 0 a 1 per effetti visivi sorprendenti nei tuoi progetti. Esprimi la tua creatività oggi stesso!
 type: docs
-weight: 150
+weight: 200
 url: /it/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
 
-Definisce la quantità di trasparenza di un tratto. L'intervallo valido è compreso tra 0 e 1.
+Definisce il grado di trasparenza di un tratto. L'intervallo valido è compreso tra 0 e 1.
 
 ```csharp
 public double Opacity { get; set; }
@@ -22,7 +22,7 @@ Il valore predefinito è 1.
 
 ## Esempi
 
-Mostra per creare una varietà di forme.
+Mostra come creare forme diverse.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Spessa linea diagonale nera con estremità arrotondate:
+// 2 - Linea diagonale nera spessa con estremità arrotondate:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Freccia con orientamento invertito riempito con il logo Aspose:
+// 4 - Freccia con orientamento capovolto riempita con il logo Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Quando invertiamo l'orientamento della nostra freccia, invertiamo anche l'immagine che la freccia contiene.
-    // Capovolgi l'immagine nell'altro modo per annullarla prima di ottenere la forma per visualizzarla.
+    // Quando invertiamo l'orientamento della freccia, invertiamo anche l'immagine che la freccia contiene.
+    // Capovolgi l'immagine nell'altro senso per annullare questo effetto prima di ottenere la forma per visualizzarlo.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

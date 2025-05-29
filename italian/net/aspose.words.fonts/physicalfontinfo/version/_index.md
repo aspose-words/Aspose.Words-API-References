@@ -3,14 +3,14 @@ title: PhysicalFontInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words per .NET
-description: PhysicalFontInfo Version proprietà. Stringa della versione del carattere in C#.
+description: Scopri la proprietà Versione di PhysicalFontInfo, accedi facilmente alla stringa della versione del font per una maggiore coerenza di design e una tipografia migliorata.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words.fonts/physicalfontinfo/version/
 ---
 ## PhysicalFontInfo.Version property
 
-Stringa della versione del carattere.
+Stringa della versione del font.
 
 ```csharp
 public string Version { get; }
@@ -18,10 +18,10 @@ public string Version { get; }
 
 ## Esempi
 
-Mostra come elencare i caratteri disponibili.
+Mostra come elencare i font disponibili.
 
 ```csharp
-// Configura Aspose.Words per ottenere i caratteri da una cartella personalizzata, quindi stampa tutti i caratteri disponibili.
+// Configurare Aspose.Words per ottenere i font da una cartella personalizzata e quindi stampare tutti i font disponibili.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

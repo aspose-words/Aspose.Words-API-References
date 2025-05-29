@@ -3,14 +3,14 @@ title: NodeChangingArgs.Action
 linktitle: Action
 articleTitle: Action
 second_title: Aspose.Words per .NET
-description: NodeChangingArgs Action proprietà. Ottiene un valore che indica il tipo di evento di modifica del nodo che si sta verificando in C#.
+description: Scopri la proprietà Action di NodeChangingArgs per identificare facilmente gli eventi di modifica dei nodi. Migliora l'efficienza del tuo codice con questa funzionalità essenziale!
 type: docs
 weight: 10
 url: /it/net/aspose.words/nodechangingargs/action/
 ---
 ## NodeChangingArgs.Action property
 
-Ottiene un valore che indica il tipo di evento di modifica del nodo che si sta verificando.
+Ottiene un valore che indica quale tipo di evento di modifica del nodo si sta verificando.
 
 ```csharp
 public NodeChangingAction Action { get; }
@@ -18,7 +18,7 @@ public NodeChangingAction Action { get; }
 
 ## Esempi
 
-Mostra come utilizzare un NodeChangingCallback per monitorare le modifiche all'albero del documento in tempo reale mentre lo modifichiamo.
+Mostra come utilizzare un NodeChangingCallback per monitorare in tempo reale le modifiche apportate all'albero del documento durante la modifica.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Stampa ogni inserimento/rimozione di nodi così come avviene nel documento.
+/// Stampa ogni inserimento/rimozione di nodo non appena avviene nel documento.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

@@ -3,14 +3,14 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words per .NET
-description: Story Tables proprietà. Ottiene una raccolta di tabelle che sono figli immediati della storia in C#.
+description: Scopri Story Tables, una raccolta curata di tabelle direttamente collegate alla tua storia, che migliorano l'organizzazione e il coinvolgimento senza sforzo.
 type: docs
 weight: 50
 url: /it/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-Ottiene una raccolta di tabelle che sono figli immediati della storia.
+Ottiene una raccolta di tabelle che sono figlie immediate della storia.
 
 ```csharp
 public TableCollection Tables { get; }

@@ -3,7 +3,7 @@ title: FieldBarcode.IsUSPostalAddress
 linktitle: IsUSPostalAddress
 articleTitle: IsUSPostalAddress
 second_title: Aspose.Words per .NET
-description: FieldBarcode IsUSPostalAddress proprietà. Ottiene o imposta sePostalAddress è un indirizzo postale degli Stati Uniti in C#.
+description: Scopri la proprietà IsUSPostalAddress di FieldBarcode. Gestisci facilmente la convalida degli indirizzi postali statunitensi per una gestione accurata dei dati e una maggiore efficienza.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
@@ -18,7 +18,7 @@ public bool IsUSPostalAddress { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare il campo BARCODE per visualizzare i codici postali statunitensi sotto forma di codice a barre.
+Mostra come utilizzare il campo CODICE A BARRE per visualizzare i codici postali degli Stati Uniti sotto forma di codice a barre.
 
 ```csharp
 Document doc = new Document();
@@ -39,15 +39,15 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - Fa riferimento a un segnalibro che memorizza il valore che verrà visualizzato da questo codice a barre:
+// 2 - Riferimento a un segnalibro che memorizza il valore che verrà visualizzato da questo codice a barre:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
-// Il segnalibro a cui fa riferimento il campo BARCODE nella relativa proprietà PostalAddress
-// non deve contenere nulla oltre al codice postale valido.
+// Il segnalibro a cui fa riferimento il campo BARCODE nella sua proprietà PostalAddress
+// non deve contenere altro oltre al codice postale valido.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

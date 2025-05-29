@@ -3,14 +3,14 @@ title: IMailMergeCallback Interface
 linktitle: IMailMergeCallback
 articleTitle: IMailMergeCallback
 second_title: Aspose.Words per .NET
-description: Aspose.Words.MailMerging.IMailMergeCallback interfaccia. Implementa questa interfaccia se desideri ricevere notifiche durante lesecuzione della stampa unione in C#.
+description: Ottimizza il tuo processo di stampa unione con Aspose.Words.MailMerging.IMailMergeCallback. Ricevi notifiche in tempo reale e migliora l'efficienza dell'automazione dei tuoi documenti.
 type: docs
-weight: 3800
+weight: 4490
 url: /it/net/aspose.words.mailmerging/imailmergecallback/
 ---
 ## IMailMergeCallback interface
 
-Implementa questa interfaccia se desideri ricevere notifiche durante l'esecuzione della stampa unione.
+Implementa questa interfaccia se vuoi ricevere notifiche mentre viene eseguita la stampa unione.
 
 ```csharp
 public interface IMailMergeCallback
@@ -24,7 +24,7 @@ public interface IMailMergeCallback
 
 ## Esempi
 
-Mostra come definire la logica personalizzata per la gestione degli eventi durante la stampa unione.
+Mostra come definire una logica personalizzata per la gestione degli eventi durante la stampa unione.
 
 ```csharp
 public void Callback()
@@ -32,7 +32,7 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisci due tag di stampa unione che fanno riferimento a due colonne in un'origine dati.
+    // Inserire due tag di unione di posta che fanno riferimento a due colonne in un'origine dati.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
@@ -45,7 +45,7 @@ public void Callback()
     // Configura la nostra stampa unione per utilizzare tag di stampa unione alternativi.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // Quindi, assicurati che la stampa unione converta i tag, come il nostro tag "LastName",
+    // Quindi, assicurati che la stampa unione converta i tag, come il nostro tag "Cognome",
     // nei MERGEFIELD nei documenti di unione.
     doc.MailMerge.PreserveUnusedTags = false;
 
@@ -57,7 +57,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Conta il numero di volte in cui una stampa unione sostituisce i tag di stampa unione che non è riuscita a riempire con dati con MERGEFIELD.
+/// Conta il numero di volte in cui una stampa unione sostituisce i tag di stampa unione che non è riuscita a riempire con i dati tramite MERGEFIELD.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

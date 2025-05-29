@@ -3,14 +3,14 @@ title: Paragraph.IsDeleteRevision
 linktitle: IsDeleteRevision
 articleTitle: IsDeleteRevision
 second_title: Aspose.Words per .NET
-description: Paragraph IsDeleteRevision proprietà. Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre era abilitato il rilevamento delle modifiche in C#.
+description: Scopri la proprietà IsDeleteRevision in Microsoft Word. Scopri come indica le eliminazioni durante il monitoraggio delle modifiche per una gestione efficiente dei documenti.
 type: docs
 weight: 40
 url: /it/net/aspose.words/paragraph/isdeleterevision/
 ---
 ## Paragraph.IsDeleteRevision property
 
-Restituisce vero se questo oggetto è stato eliminato in Microsoft Word mentre era abilitato il rilevamento delle modifiche.
+Restituisce true se questo oggetto è stato eliminato in Microsoft Word mentre il monitoraggio delle modifiche era abilitato.
 
 ```csharp
 public bool IsDeleteRevision { get; }
@@ -45,17 +45,17 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Tali paragrafi rimarranno finché non accetteremo o rifiuteremo la revisione di eliminazione.
-// Accettare la revisione rimuoverà definitivamente il paragrafo,
-// e rifiutando la revisione la lasceremo nel documento come se non l'avessimo mai cancellata.
+// Tali paragrafi rimarranno finché non accetteremo o rifiuteremo la revisione eliminata.
+// L'accettazione della revisione rimuoverà definitivamente il paragrafo,
+// e rifiutando la revisione questa rimarrà nel documento come se non l'avessimo mai eliminata.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
-// Accetta la revisione, quindi verifica che il paragrafo sia scomparso.
+// Accetta la revisione e verifica che il paragrafo sia stato eliminato.
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);
-Assert.That(para, Is.Empty);
+Assert.AreEqual(0, para.Count);
 Assert.AreEqual(
     "Paragraph 1. \r" +
     "Paragraph 2. \r" +

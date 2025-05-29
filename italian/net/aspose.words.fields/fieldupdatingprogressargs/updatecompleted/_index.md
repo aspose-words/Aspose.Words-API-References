@@ -3,14 +3,14 @@ title: FieldUpdatingProgressArgs.UpdateCompleted
 linktitle: UpdateCompleted
 articleTitle: UpdateCompleted
 second_title: Aspose.Words per .NET
-description: FieldUpdatingProgressArgs UpdateCompleted proprietà. Ottiene un valore che indica se laggiornamento del campo è stato completato in C#.
+description: Scopri la proprietà UpdateCompleted di FieldUpdatingProgressArgs, che indica in modo efficiente se gli aggiornamenti dei campi sono terminati, migliorando il processo di gestione dei dati.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
 ---
 ## FieldUpdatingProgressArgs.UpdateCompleted property
 
-Ottiene un valore che indica se l'aggiornamento del campo è stato completato.
+Ottiene un valore che indica se l'aggiornamento del campo è completato.
 
 ```csharp
 public bool UpdateCompleted { get; }
@@ -18,7 +18,7 @@ public bool UpdateCompleted { get; }
 
 ## Esempi
 
-Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
+Mostra come utilizzare i metodi di callback durante l'aggiornamento di un campo.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo.
+/// Implementa questa interfaccia se vuoi che vengano chiamati metodi personalizzati durante un aggiornamento di campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

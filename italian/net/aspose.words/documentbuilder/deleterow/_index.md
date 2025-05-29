@@ -3,7 +3,7 @@ title: DocumentBuilder.DeleteRow
 linktitle: DeleteRow
 articleTitle: DeleteRow
 second_title: Aspose.Words per .NET
-description: DocumentBuilder DeleteRow metodo. Elimina una riga da una tabella in C#.
+description: Rimuovi facilmente righe dalle tabelle con il metodo DeleteRow di DocumentBuilder. Semplifica la modifica dei documenti e migliora il flusso di lavoro!
 type: docs
 weight: 200
 url: /it/net/aspose.words/documentbuilder/deleterow/
@@ -23,15 +23,15 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 ### Valore di ritorno
 
-Il nodo della riga appena rimosso.
+Il nodo della riga che è stato appena rimosso.
 
 ## Osservazioni
 
-Se il cursore si trova all'interno della riga che viene eliminata, il cursore viene spostato sulla riga successiva o sul paragrafo successivo dopo la tabella.
+Se il cursore si trova all'interno della riga che viene eliminata, il cursore viene spostato alla riga successiva o al paragrafo successivo dopo la tabella.
 
-Se elimini una riga da una tabella che contiene solo una riga, viene eliminata l'intera tabella .
+Se si elimina una riga da una tabella che contiene una sola riga, verrà eliminata l'intera tabella x000d_.
 
-Per i parametri dell'indice, quando indice è maggiore o uguale a 0, specifica un indice da l'inizio con 0 come primo elemento. Quando l'indice è inferiore a 0, viene specificato un indice da alla fine con -1 come ultimo elemento.
+Per i parametri indice, quando indice è maggiore o uguale a 0, specifica un indice da all'inizio, con 0 come primo elemento. Quando indice è minore di 0, specifica un indice da alla fine, con -1 come ultimo elemento.
 
 ## Esempi
 

@@ -3,14 +3,14 @@ title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: BaseWebExtensionCollection Item proprietà. Ottiene o imposta un elemento nellindice specificato in C#.
+description: Scopri la proprietà BaseWebExtensionCollection Item per gestire facilmente gli elementi in base all'indice. Semplifica il tuo sviluppo con una gestione efficiente dei dati oggi stesso!
 type: docs
 weight: 20
 url: /it/net/aspose.words.webextensions/basewebextensioncollection-1/item/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; indexer
 
-Ottiene o imposta un elemento nell'indice specificato.
+Ottiene o imposta un elemento all'indice specificato.
 
 ```csharp
 public T this[int index] { get; set; }
@@ -18,7 +18,7 @@ public T this[int index] { get; set; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Indice in base zero dell'elemento. |
+| index | Indice basato su zero dell'elemento. |
 
 ## Esempi
 
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Rimuove l'estensione web.
+// Rimuovere l'estensione web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

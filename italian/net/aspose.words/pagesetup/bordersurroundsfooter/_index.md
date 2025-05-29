@@ -3,7 +3,7 @@ title: PageSetup.BorderSurroundsFooter
 linktitle: BorderSurroundsFooter
 articleTitle: BorderSurroundsFooter
 second_title: Aspose.Words per .NET
-description: PageSetup BorderSurroundsFooter proprietà. Specifica se il bordo della pagina include o esclude il piè di pagina in C#.
+description: Scopri come la proprietà BorderSurroundsFooter di PageSetup può migliorare il layout del tuo documento controllando l'inclusione del piè di pagina nei bordi della pagina.
 type: docs
 weight: 60
 url: /it/net/aspose.words/pagesetup/bordersurroundsfooter/
@@ -35,15 +35,15 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer.");
 builder.MoveToDocumentEnd();
 
-// Inserisce un bordo blu a doppia linea.
+// Inserisci un bordo blu a doppia linea.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
 // L'oggetto PageSetup di una sezione ha i flag "BorderSurroundsHeader" e "BorderSurroundsFooter" che determinano
-// se il bordo di una pagina circonda il corpo principale del testo, include rispettivamente anche l'intestazione o il piè di pagina.
+// se un bordo di pagina circonda il testo principale, includendo rispettivamente anche l'intestazione o il piè di pagina.
 // Imposta il flag "BorderSurroundsHeader" su "true" per circondare l'intestazione con il nostro bordo,
-// quindi imposta il flag "BorderSurroundsFooter" per lasciare il piè di pagina fuori dal bordo.
+// e quindi imposta il flag "BorderSurroundsFooter" per lasciare il piè di pagina all'esterno del bordo.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

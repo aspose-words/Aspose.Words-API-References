@@ -3,14 +3,14 @@ title: OdsoRecipientData.Hash
 linktitle: Hash
 articleTitle: Hash
 second_title: Aspose.Words per .NET
-description: OdsoRecipientData Hash proprietà. Rappresenta il codice hash per questo record. A volte utilizza Microsoft WordHash di un intero record invece di aUniqueTag valore. Il valore predefinito è 0 in C#.
+description: Scopri la proprietà Hash di OdsoRecipientData, che fornisce un codice hash univoco per i record, migliorando l'integrità dei dati in Microsoft Word. Valore predefinito: 0.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-Rappresenta il codice hash per questo record. A volte utilizza Microsoft Word`Hash` di un intero record invece di a[`UniqueTag`](../uniquetag/) valore. Il valore predefinito è 0.
+Rappresenta il codice hash per questo record. A volte Microsoft Word utilizza`Hash` di un intero record invece di un[`UniqueTag`](../uniquetag/) valore. Il valore predefinito è 0.
 
 ```csharp
 public int Hash { get; set; }
@@ -18,7 +18,7 @@ public int Hash { get; set; }
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
+Mostra come accedere alla raccolta di dati che designa quali record di origine dati di unione verranno esclusi dalla stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere gli elementi singolarmente o cancellare l'intera raccolta in una volta sola.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

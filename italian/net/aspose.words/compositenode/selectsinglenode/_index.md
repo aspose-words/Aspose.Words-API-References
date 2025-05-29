@@ -3,9 +3,9 @@ title: CompositeNode.SelectSingleNode
 linktitle: SelectSingleNode
 articleTitle: SelectSingleNode
 second_title: Aspose.Words per .NET
-description: CompositeNode SelectSingleNode metodo. Seleziona il primoNode che corrisponde allespressione XPath in C#.
+description: Scopri come il metodo SelectSingleNode di CompositeNode recupera in modo efficiente il primo nodo che corrisponde alla tua espressione XPath per una gestione semplificata dei dati.
 type: docs
-weight: 200
+weight: 220
 url: /it/net/aspose.words/compositenode/selectsinglenode/
 ---
 ## CompositeNode.SelectSingleNode method
@@ -22,7 +22,7 @@ public Node SelectSingleNode(string xpath)
 
 ### Valore di ritorno
 
-Il primo[`Node`](../../node/) che corrisponde alla query XPath o`nullo` se non viene trovato alcun nodo corrispondente.
+Il primo[`Node`](../../node/) che corrisponde alla query XPath o`null` se non viene trovato alcun nodo corrispondente.
 
 ## Osservazioni
 
@@ -39,20 +39,20 @@ Document doc = new Document(MyDir + "Tables.docx");
 // che sono discendenti di qualsiasi nodo della tabella nel documento.
 NodeList nodeList = doc.SelectNodes("//Tabella//Paragrafo");
 
-// Scorre l'elenco con un enumeratore e stampa il contenuto di ogni paragrafo in ogni cella della tabella.
+// Scorrere l'elenco con un enumeratore e stampare il contenuto di ogni paragrafo in ogni cella della tabella.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Body nel documento.
+// Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Corpo nel documento.
 nodeList = doc.SelectNodes("//Corpo/Paragrafo");
 
-// Possiamo trattare la lista come un array.
+// Possiamo trattare l'elenco come un array.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// Utilizza SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
+// Utilizzare SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
 Node node = doc.SelectSingleNode("//Corpo/Paragrafo");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());

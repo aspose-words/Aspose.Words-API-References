@@ -3,16 +3,16 @@ title: SmartTag Class
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Markup.SmartTag classe. Questo elemento specifica la presenza di uno smart tag attorno a una o più strutture inline sequenze immagini campi ecc. allinterno di un paragrafo in C#.
+description: Scopri la classe Aspose.Words.Markup.SmartTag, che migliora la modifica dei documenti identificando i tag intelligenti attorno agli elementi in linea come immagini e campi.
 type: docs
-weight: 4050
+weight: 4740
 url: /it/net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
 
-Questo elemento specifica la presenza di uno smart tag attorno a una o più strutture inline (sequenze, immagini, campi, ecc.) all'interno di un paragrafo.
+Questo elemento specifica la presenza di uno smart tag attorno a una o più strutture inline (esercitazioni, immagini, campi, ecc.) all'interno di un paragrafo.
 
-Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
+Per saperne di più, visita il[Tag di documenti strutturati o controllo dei contenuti](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class SmartTag : CompositeNode
@@ -33,15 +33,15 @@ public class SmartTag : CompositeNode
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
 | [Element](../../aspose.words.markup/smarttag/element/) { get; set; } | Specifica il nome dello smart tag all'interno del documento. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Ottiene il primo figlio del nodo. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Restituisce`VERO` se questo nodo ha nodi figli. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Restituisce`VERO` poiché questo nodo può avere nodi figli. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Restituisce`VERO` se questo nodo ha nodi figlio. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Restituisce`VERO` poiché questo nodo può avere nodi figlio. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Ottiene l'ultimo figlio del nodo. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
 | override [NodeType](../../aspose.words.markup/smarttag/nodetype/) { get; } | RestituisceSmartTag . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | Una raccolta delle proprietà dello smart tag. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../../aspose.words/range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Properties](../../aspose.words.markup/smarttag/properties/) { get; } | Una raccolta delle proprietà degli smart tag. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../../aspose.words/range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 | [Uri](../../aspose.words.markup/smarttag/uri/) { get; set; } | Specifica l'URI dello spazio dei nomi dello smart tag. |
 
 ## Metodi
@@ -49,25 +49,27 @@ public class SmartTag : CompositeNode
 | Nome | Descrizione |
 | --- | --- |
 | override [Accept](../../aspose.words.markup/smarttag/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Aggiunge il nodo specificato alla fine dell'elenco dei nodi secondari per questo nodo. |
+| override [AcceptEnd](../../aspose.words.markup/smarttag/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore per aver visitato la fine dello SmartTag. |
+| override [AcceptStart](../../aspose.words.markup/smarttag/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore per aver visitato l'inizio dello SmartTag. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Aggiunge il nodo specificato alla fine dell'elenco dei nodi figlio per questo nodo. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navigatore che può essere utilizzato per attraversare e leggere i nodi. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fornisce il supporto per l'iterazione di ogni stile sui nodi figlio di questo nodo. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Restituisce un N-esimo nodo figlio che corrisponde al tipo specificato. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Restituisce una raccolta live di nodi figlio che corrispondono al tipo specificato. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fornisce supporto per ogni iterazione di stile sui nodi figlio di questo nodo. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice del nodo figlio specificato nell'array di nodi figlio. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente dopo il nodo di riferimento specificato. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente prima del nodo di riferimento specificato. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Aggiunge il nodo specificato all'inizio dell'elenco dei nodi secondari per questo nodo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice del nodo figlio specificato nell'array dei nodi figlio. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato subito dopo il nodo di riferimento specificato. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente prima del nodo di riferimento specificato. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Aggiunge il nodo specificato all'inizio dell'elenco dei nodi figlio per questo nodo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Rimuove tutti i nodi figlio del nodo corrente. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Rimuove il nodo figlio specificato. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto`SmartTag`nodi discendenti del nodo corrente. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Rimuove il nodo figlio specificato. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto`SmartTag` nodi discendenti del nodo corrente. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Seleziona un elenco di nodi che corrispondono all'espressione XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Seleziona il primo[`Node`](../../aspose.words/node/) che corrisponde all'espressione XPath. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
@@ -75,34 +77,34 @@ public class SmartTag : CompositeNode
 
 ## Osservazioni
 
-Gli smart tag sono una sorta di markup XML personalizzato. Gli smart tag forniscono una funzionalità per incorporare la semantica definita dal cliente nel documento tramite la possibilità di fornire uno spazio dei nomi/nome di base per un'esecuzione o una serie di esecuzioni all'interno di un documento.
+Gli smart tag sono un tipo di markup XML personalizzato. Gli smart tag offrono la possibilità di incorporare semantiche definite dal cliente nel documento tramite la possibilità di fornire un namespace/nome di base per un'esecuzione o un insieme di esecuzioni all'interno di un documento.
 
-`SmartTag` può essere figlio di a[`Paragraph`](../../aspose.words/paragraph/) o un altro`SmartTag` nodo.
+`SmartTag` può essere figlio di un[`Paragraph`](../../aspose.words/paragraph/) o un altro`SmartTag` nodo.
 
-L'elenco completo dei nodi secondari che possono verificarsi all'interno di uno smart tag è costituito da [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
+L'elenco completo dei nodi figlio che possono verificarsi all'interno di uno smart tag è costituito da [`BookmarkStart`](../../aspose.words/bookmarkstart/) ,[`BookmarkEnd`](../../aspose.words/bookmarkend/) , [`FieldStart`](../../aspose.words.fields/fieldstart/) ,[`FieldSeparator`](../../aspose.words.fields/fieldseparator/) ,[`FieldEnd`](../../aspose.words.fields/fieldend/) ,[`FormField`](../../aspose.words.fields/formfield/) , [`Comment`](../../aspose.words/comment/) ,[`Footnote`](../../aspose.words.notes/footnote/) , [`Run`](../../aspose.words/run/) ,[`SpecialChar`](../../aspose.words/specialchar/) , [`Shape`](../../aspose.words.drawing/shape/) ,[`GroupShape`](../../aspose.words.drawing/groupshape/) , [`CommentRangeStart`](../../aspose.words/commentrangestart/) , [`CommentRangeEnd`](../../aspose.words/commentrangeend/) , `SmartTag`.
 
 ## Esempi
 
-Mostra come creare smart tag.
+Mostra come creare tag intelligenti.
 
 ```csharp
 public void Create()
 {
     Document doc = new Document();
 
-    // Uno smart tag appare in un documento con Microsoft Word riconosce una parte del suo testo come una qualche forma di dati,
-    // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che visualizza una sottolineatura tratteggiata viola.
+    // Un tag intelligente appare in un documento con Microsoft Word che riconosce una parte del suo testo come una qualche forma di dati,
+    // come un nome, una data o un indirizzo e lo converte in un collegamento ipertestuale che presenta una sottolineatura tratteggiata viola.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Gli smart tag sono nodi compositi che contengono il testo riconosciuto nella sua interezza.
-    // Aggiunge manualmente i contenuti a questo smart tag.
+    // I tag intelligenti sono nodi compositi che contengono il testo riconosciuto nella sua interezza.
+    // Aggiungere manualmente i contenuti a questo smart tag.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word potrebbe riconoscere i contenuti di cui sopra come una data.
-    // Gli smart tag utilizzano la proprietà "Elemento" per riflettere il tipo di dati che contengono.
+    // Microsoft Word potrebbe riconoscere il contenuto sopra riportato come una data.
+    // I tag intelligenti utilizzano la proprietà "Element" per riflettere il tipo di dati che contengono.
     smartTag.Element = "date";
 
-    // Alcuni tipi di smart tag elaborano ulteriormente i propri contenuti in proprietà XML personalizzate.
+    // Alcuni tipi di smart tag elaborano ulteriormente il loro contenuto trasformandolo in proprietà XML personalizzate.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -113,7 +115,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Crea un altro smart tag per un titolo azionario.
+    // Crea un altro tag intelligente per un ticker azionario.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -126,10 +128,10 @@ public void Create()
     // Stampa tutti gli smart tag nel nostro documento utilizzando un visitatore del documento.
     doc.Accept(new SmartTagPrinter());
 
-    // Le versioni precedenti di Microsoft Word supportano gli smart tag.
+    // Le versioni precedenti di Microsoft Word supportano i tag intelligenti.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Utilizza il metodo "RemoveSmartTags" per rimuovere tutti gli smart tag da un documento.
+    // Utilizzare il metodo "RemoveSmartTags" per rimuovere tutti i tag intelligenti da un documento.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -138,7 +140,7 @@ public void Create()
 }
 
 /// <summary>
-/// Stampa gli smart tag visitati e i relativi contenuti.
+/// Stampa gli smart tag visitati e il loro contenuto.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
@@ -152,7 +154,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato al termine della visita di un nodo SmartTag.
+    /// Chiamato quando termina la visita a un nodo SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

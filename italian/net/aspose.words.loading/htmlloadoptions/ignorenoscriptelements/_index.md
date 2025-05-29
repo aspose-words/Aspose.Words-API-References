@@ -3,14 +3,14 @@ title: HtmlLoadOptions.IgnoreNoscriptElements
 linktitle: IgnoreNoscriptElements
 articleTitle: IgnoreNoscriptElements
 second_title: Aspose.Words per .NET
-description: HtmlLoadOptions IgnoreNoscriptElements proprietà. Ottiene o imposta un valore che indica se ignorare gli elementi HTML noscript. Il valore predefinito èfalso  in C#.
+description: Scopri come la proprietà IgnoreNoscriptElements di HtmlLoadOptions migliora l'analisi HTML controllando gli elementi noscript. Migliora le prestazioni del tuo sito web oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.loading/htmlloadoptions/ignorenoscriptelements/
 ---
 ## HtmlLoadOptions.IgnoreNoscriptElements property
 
-Ottiene o imposta un valore che indica se ignorare gli elementi HTML &lt;noscript&gt;. Il valore predefinito è`falso` .
+Ottiene o imposta un valore che indica se ignorare gli elementi HTML &lt;noscript&gt;. Il valore predefinito è `falso` .
 
 ```csharp
 public bool IgnoreNoscriptElements { get; set; }
@@ -18,7 +18,7 @@ public bool IgnoreNoscriptElements { get; set; }
 
 ## Osservazioni
 
-Come MS Word, Aspose.Words non supporta gli script e per impostazione predefinita carica il contenuto di &lt;noscript&gt; elements nel documento risultante. Nella maggior parte dei browser, tuttavia, gli script sono supportati e il contenuto di &lt;noscript&gt; non è visibile. Impostando questa proprietà su`VERO` forza Aspose.Words a ignorare tutti gli elementi &lt;noscript&gt; e aiuta a produrre documenti che sembrano più vicini a ciò che viene visto nei browser.
+Come MS Word, Aspose.Words non supporta gli script e, per impostazione predefinita, carica il contenuto degli elementi &lt;noscript&gt; nel documento risultante. Nella maggior parte dei browser, tuttavia, gli script sono supportati e il contenuto di &lt;noscript&gt; non è visibile. Impostando questa proprietà su`VERO` forza Aspose.Words a ignorare tutti gli elementi &lt;noscript&gt; e aiuta a produrre documenti che sembrano più simili a ciò che viene visualizzato nei browser.
 
 ## Esempi
 

@@ -3,14 +3,14 @@ title: TableStyle.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words per .NET
-description: TableStyle Bidi proprietà. Ottiene o imposta se si tratta di uno stile per una tabella da destra a sinistra in C#.
+description: Scopri la proprietà TableStyle Bidi per gestire facilmente gli stili di tabella da destra a sinistra, ottimizzando il layout per una migliore leggibilità e un'esperienza utente migliore.
 type: docs
 weight: 30
 url: /it/net/aspose.words/tablestyle/bidi/
 ---
 ## TableStyle.Bidi property
 
-Ottiene o imposta se si tratta di uno stile per una tabella da destra a sinistra.
+Ottiene o imposta se questo è uno stile per una tabella da destra a sinistra.
 
 ```csharp
 public bool Bidi { get; set; }

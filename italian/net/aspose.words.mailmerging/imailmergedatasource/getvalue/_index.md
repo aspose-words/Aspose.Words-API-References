@@ -3,7 +3,7 @@ title: IMailMergeDataSource.GetValue
 linktitle: GetValue
 articleTitle: GetValue
 second_title: Aspose.Words per .NET
-description: IMailMergeDataSource GetValue metodo. Restituisce un valore per il nome del campo specificato ofalso se il campo non viene trovato in C#.
+description: Scopri il metodo GetValue di IMailMergeDataSource, recupera facilmente i valori dei campi o restituisci "false" se non li trovi. Semplifica la gestione dei tuoi dati oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/getvalue/
@@ -23,7 +23,7 @@ public bool GetValue(string fieldName, out object fieldValue)
 
 ### Valore di ritorno
 
-`VERO` se il valore è stato trovato.
+`VERO` se è stato trovato un valore.
 
 ## Esempi
 
@@ -68,8 +68,8 @@ public class Customer
 }
 
 /// <summary>
- /// Un'origine dati di stampa unione personalizzata implementata per consentire Aspose.Words
-/// per inviare tramite posta unione i dati dagli oggetti Cliente ai documenti Microsoft Word.
+ /// Un'origine dati di unione di posta personalizzata che puoi implementare per consentire Aspose.Words
+/// per unire tramite posta i dati degli oggetti Cliente nei documenti Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -77,12 +77,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Quando inizializziamo l'origine dati, la sua posizione deve essere prima del primo record.
+        // Quando inizializziamo la sorgente dati, la sua posizione deve essere precedente al primo record.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo quando si esegue la stampa unione con aree ripetibili.
     /// </summary>
     public string TableName
     {

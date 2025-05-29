@@ -3,14 +3,14 @@ title: Table.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words per .NET
-description: Table Rows proprietà. Fornisce laccesso digitato alle righe della tabella in C#.
+description: Accedi senza sforzo alle righe della tabella con la nostra proprietà tipizzata, assicurando una gestione dei dati fluida e un'organizzazione migliorata per i tuoi progetti.
 type: docs
 weight: 260
 url: /it/net/aspose.words.tables/table/rows/
 ---
 ## Table.Rows property
 
-Fornisce l'accesso digitato alle righe della tabella.
+Fornisce accesso tipizzato alle righe della tabella.
 
 ```csharp
 public RowCollection Rows { get; }
@@ -24,13 +24,13 @@ Mostra come combinare le righe di due tabelle in una.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Di seguito sono riportati due modi per ottenere una tabella da un documento.
-// 1 - Dalla raccolta "Tables" di un nodo Body:
+// 1 - Dalla raccolta "Tabelle" di un nodo Corpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Utilizzando il metodo "GetChild":
+// 2 - Utilizzo del metodo "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Aggiunge tutte le righe della tabella corrente a quella successiva.
+// Aggiunge tutte le righe dalla tabella corrente a quella successiva.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
@@ -40,7 +40,7 @@ secondTable.Remove();
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ogni cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -64,7 +64,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

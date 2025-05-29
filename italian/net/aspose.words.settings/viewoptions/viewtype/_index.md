@@ -3,7 +3,7 @@ title: ViewOptions.ViewType
 linktitle: ViewType
 articleTitle: ViewType
 second_title: Aspose.Words per .NET
-description: ViewOptions ViewType proprietà. Controlla la modalità di visualizzazione in Microsoft Word in C#.
+description: Scopri la proprietà ViewType di ViewOptions per personalizzare facilmente la modalità di visualizzazione di Microsoft Word, per una maggiore produttività e un'esperienza di modifica su misura.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/viewoptions/viewtype/
@@ -18,11 +18,11 @@ public ViewType ViewType { get; set; }
 
 ## Osservazioni
 
-Sebbene Aspose.Words sia in grado di leggere e scrivere questa opzione, il suo utilizzo è specifico dell'applicazione. Ad esempio MS Word 2013 non rispetta il valore di questa opzione.
+Sebbene Aspose.Words sia in grado di leggere e scrivere questa opzione, il suo utilizzo è specifico dell'applicazione. Ad esempio, MS Word 2013 non rispetta il valore di questa opzione.
 
 ## Esempi
 
-Mostra come impostare un fattore di zoom personalizzato, che le versioni precedenti di Microsoft Word applicheranno a un documento al momento del caricamento.
+Mostra come impostare un fattore di zoom personalizzato che le vecchie versioni di Microsoft Word applicheranno a un documento al momento del caricamento.
 
 ```csharp
 Document doc = new Document();

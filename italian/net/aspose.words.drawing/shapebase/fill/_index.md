@@ -3,7 +3,7 @@ title: ShapeBase.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words per .NET
-description: ShapeBase Fill proprietà. Ottiene la formattazione di riempimento per la forma in C#.
+description: Scopri la proprietà Riempimento ShapeBase per migliorare i tuoi progetti con una formattazione di riempimento personalizzabile per le forme. Migliora i tuoi effetti visivi senza sforzo!
 type: docs
 weight: 170
 url: /it/net/aspose.words.drawing/shapebase/fill/
@@ -18,7 +18,7 @@ public Fill Fill { get; }
 
 ## Esempi
 
-Mostra come riempire una forma con un colore a tinta unita.
+Mostra come riempire una forma con un colore pieno.
 
 ```csharp
 Document doc = new Document();
@@ -31,18 +31,18 @@ builder.Writeln("Hello world!");
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Utilizza la proprietà "StrokeColor" per impostare il colore del contorno della forma.
+// Utilizzare la proprietà "StrokeColor" per impostare il colore del contorno della forma.
 shape.StrokeColor = Color.CadetBlue;
 
-// Utilizza la proprietà "FillColor" per impostare il colore dell'area interna della forma.
+// Utilizzare la proprietà "FillColor" per impostare il colore dell'area interna della forma.
 shape.FillColor = Color.LightBlue;
 
-// La proprietà "Opacità" determina quanto trasparente è il colore su una scala 0-1,
+// La proprietà "Opacità" determina quanto è trasparente il colore su una scala da 0 a 1,
 // dove 1 è completamente opaco e 0 è invisibile.
-// Il riempimento della forma per impostazione predefinita è completamente opaco, quindi non possiamo vedere il testo su cui si trova questa forma.
+// Per impostazione predefinita, il riempimento della forma è completamente opaco, quindi non possiamo vedere il testo su cui si trova questa forma.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Imposta l'opacità del colore di riempimento della forma su un valore inferiore in modo da poter vedere il testo sottostante.
+// Imposta l'opacità del colore di riempimento della forma su un valore più basso, in modo da poter vedere il testo sottostante.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");

@@ -3,7 +3,7 @@ title: BuildingBlock.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: BuildingBlock Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo Accept di BuildingBlock per coinvolgere i visitatori in modo fluido e migliorare l'esperienza utente. Sfrutta appieno il potenziale del tuo sito web oggi stesso!
 type: docs
 weight: 130
 url: /it/net/aspose.words.buildingblocks/buildingblock/accept/
@@ -26,27 +26,27 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../a
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiamate[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbuildingblockstart/) , quindi chiama [`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio di questo building block, quindi chiama [`VisitBuildingBlockEnd`](../../../aspose.words/documentvisitor/visitbuildingblockend/).
+chiamate[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbuildingblockstart/) , quindi chiama [`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio di questo blocco di costruzione, quindi chiama [`VisitBuildingBlockEnd`](../../../aspose.words/documentvisitor/visitbuildingblockend/).
 
-Nota: un nodo di blocchi predefiniti e i relativi figli non vengono visitati quando si esegue a Visitor su un[`Document`](../../../aspose.words/document/) . Se vuoi eseguire un Visitor su un blocco predefinito , devi eseguire il Visitor over[`GlossaryDocument`](../../glossarydocument/) oppure chiama`Accept` .
+Nota: un nodo di blocco di costruzione e i suoi figli non vengono visitati quando si esegue un Visitatore su un[`Document`](../../../aspose.words/document/) Se si desidera eseguire un visitatore su un blocco di costruzione , è necessario eseguire il visitatore su[`GlossaryDocument`](../../glossarydocument/) o chiamata`Accept` .
 
 ## Esempi
 
-Mostra come aggiungere un blocco predefinito personalizzato a un documento.
+Mostra come aggiungere un blocco di costruzione personalizzato a un documento.
 
 ```csharp
 public void CreateAndInsert()
 {
-    // Il documento del glossario di un documento memorizza gli elementi costitutivi.
+    // Il glossario di un documento memorizza i componenti fondamentali.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Crea un blocco predefinito, assegnagli un nome e quindi aggiungilo al documento del glossario.
+    // Crea un blocco di costruzione, assegnagli un nome e aggiungilo al documento del glossario.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -54,39 +54,40 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Tutti i nuovi GUID dei blocchi predefiniti hanno lo stesso valore zero per impostazione predefinita e possiamo assegnare loro un nuovo valore univoco.
+    // Per impostazione predefinita, tutti i nuovi GUID dei blocchi costitutivi hanno lo stesso valore zero, a cui possiamo assegnare un nuovo valore univoco.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
-    // Le seguenti proprietà classificano i blocchi predefiniti
-    // nel menu a cui possiamo accedere in Microsoft Word tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione" .
+    // Le seguenti proprietà categorizzano i blocchi di costruzione
+    // nel menu a cui possiamo accedere in Microsoft Word tramite "Inserisci" -> "Parti rapide" -> "Organizzatore di blocchi di costruzione".
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Prima di poter aggiungere questo elemento costitutivo al nostro documento, dovremo dargli alcuni contenuti,
-    // cosa che faremo utilizzando un visitatore del documento. Questo visitatore imposterà anche una categoria, una galleria e un comportamento.
+    // Prima di poter aggiungere questo elemento costitutivo al nostro documento, dovremo fornirgli dei contenuti,
+    // che faremo utilizzando un visitatore del documento. Questo visitatore imposterà anche una categoria, una galleria e un comportamento.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Visita l'inizio/la fine del BuildingBlock.
     block.Accept(visitor);
 
-    // Possiamo accedere al blocco che abbiamo appena creato dal documento glossario.
+    // Possiamo accedere al blocco appena creato dal documento del glossario.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
     // Il blocco stesso è una sezione che contiene il testo.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
-    // Ora possiamo inserirlo nel documento come una nuova sezione.
+    // Ora possiamo inserirlo nel documento come nuova sezione.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // Possiamo anche trovarlo nell'Organizzatore dei blocchi di costruzione di Microsoft Word e posizionarlo manualmente.
+    // Possiamo anche trovarlo nell'Organizzatore dei blocchi di Microsoft Word e posizionarlo manualmente.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Imposta un blocco predefinito visitato da inserire nel documento come parte rapida e aggiunge testo al suo contenuto.
+/// Imposta un blocco di costruzione visitato da inserire nel documento come parte rapida e aggiunge testo al suo contenuto.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -98,15 +99,15 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Configura il building block come parte rapida e aggiunge le proprietà utilizzate da Building Blocks Organizer.
+        // Configura il blocco di costruzione come parte rapida e aggiungi le proprietà utilizzate da Building Blocks Organizer.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // Aggiunge una sezione con testo.
-        // L'inserimento del blocco nel documento aggiungerà questa sezione con i suoi nodi secondari nella posizione.
+        // Aggiungi una sezione con testo.
+        // L'inserimento del blocco nel documento aggiungerà questa sezione con i suoi nodi figlio nella posizione.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

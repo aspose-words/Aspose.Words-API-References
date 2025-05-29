@@ -3,14 +3,14 @@ title: Document.Protect
 linktitle: Protect
 articleTitle: Protect
 second_title: Aspose.Words per .NET
-description: Document Protect metodo. Protegge il documento da modifiche senza cambiare la password esistente o assegna una password casuale in C#.
+description: Proteggi i tuoi documenti senza sforzo con Document Protect. Impedisci modifiche non autorizzate mantenendo intatta la password esistente o utilizzandone una casuale.
 type: docs
-weight: 650
+weight: 690
 url: /it/net/aspose.words/document/protect/
 ---
 ## Protect(*[ProtectionType](../../protectiontype/)*) {#protect}
 
-Protegge il documento da modifiche senza cambiare la password esistente o assegna una password casuale.
+Protegge il documento dalle modifiche senza modificare la password esistente o assegna una password casuale.
 
 ```csharp
 public void Protect(ProtectionType type)
@@ -22,11 +22,11 @@ public void Protect(ProtectionType type)
 
 ## Osservazioni
 
-Quando un documento è protetto, l'utente può apportare solo modifiche limitate, come aggiungere annotazioni, apportare revisioni o completare un modulo.
+Quando un documento è protetto, l'utente può apportare solo modifiche limitate, come aggiungere annotazioni, effettuare revisioni o compilare un modulo.
 
-Quando proteggi un documento e il documento ha già una password di protezione, la password di protezione esistente non viene modificata.
+Quando si protegge un documento e il documento ha già una password di protezione, la password di protezione esistente non viene modificata.
 
-Quando proteggi un documento e il documento non ha una password di protezione, questo metodo assegna una password casuale che rende impossibile rimuovere la protezione del documento in Microsoft Word, ma puoi comunque rimuovere la protezione del documento in Aspose.Words poiché non richiedere una password quando si rimuove la protezione.
+Quando si protegge un documento e il documento non ha una password di protezione, questo metodo assegna una password casuale che rende impossibile rimuovere la protezione del documento in Microsoft Word, ma è comunque possibile rimuovere la protezione del documento in Aspose.Words poiché non richiede una password per rimuovere la protezione.
 
 ## Esempi
 
@@ -50,7 +50,7 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 doc.Sections[0].ProtectedForForms = false;
 
 // In questo documento di output, potremo modificare liberamente la prima sezione,
-// e potremo modificare solo il contenuto del campo del modulo nella seconda sezione.
+// e potremo modificare il contenuto del campo del modulo solo nella seconda sezione.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "Section.Protect.docx");
 
 ## Protect(*[ProtectionType](../../protectiontype/), string*) {#protect_1}
 
-Protegge il documento dalle modifiche e facoltativamente imposta una password di protezione.
+Protegge il documento dalle modifiche e, facoltativamente, imposta una password di protezione.
 
 ```csharp
 public void Protect(ProtectionType type, string password)
@@ -74,17 +74,17 @@ public void Protect(ProtectionType type, string password)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | type | ProtectionType | Specifica il tipo di protezione per il documento. |
-| password | String | La password con cui proteggere il documento. Specificare`nullo`oppure una stringa vuota se si desidera proteggere il documento senza password. |
+| password | String | La password per proteggere il documento con. Specificare`null` oppure una stringa vuota se si desidera proteggere il documento senza password. |
 
 ## Osservazioni
 
-Quando un documento è protetto, l'utente può apportare solo modifiche limitate, come aggiungere annotazioni, apportare revisioni o completare un modulo.
+Quando un documento è protetto, l'utente può apportare solo modifiche limitate, come aggiungere annotazioni, effettuare revisioni o compilare un modulo.
 
-Tieni presente che la protezione del documento è diversa dalla protezione da scrittura. La protezione da scrittura viene specificata utilizzando il file[`WriteProtection`](../writeprotection/).
+Si noti che la protezione del documento è diversa dalla protezione in scrittura. La protezione in scrittura viene specificata utilizzando[`WriteProtection`](../writeprotection/).
 
 ## Esempi
 
-Mostra come proteggere e rimuovere la protezione di un documento.
+Mostra come proteggere e rimuovere la protezione da un documento.
 
 ```csharp
 Document doc = new Document();
@@ -96,8 +96,8 @@ Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 // dovremo applicare la password per superare la protezione.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// Tieni presente che la protezione si applica solo agli utenti di Microsoft Word che aprono il nostro documento.
-// Non abbiamo crittografato il documento in alcun modo e non abbiamo bisogno della password per aprirlo e modificarlo a livello di codice.
+// Si noti che la protezione si applica solo agli utenti di Microsoft Word che aprono il nostro documento.
+// Non abbiamo crittografato il documento in alcun modo e non abbiamo bisogno della password per aprirlo e modificarlo a livello di programmazione.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);

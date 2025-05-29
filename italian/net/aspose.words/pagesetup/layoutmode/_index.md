@@ -3,7 +3,7 @@ title: PageSetup.LayoutMode
 linktitle: LayoutMode
 articleTitle: LayoutMode
 second_title: Aspose.Words per .NET
-description: PageSetup LayoutMode proprietà. Ottiene o imposta la modalità di layout di questa sezione in C#.
+description: Scopri la proprietà LayoutMode di PageSetup per personalizzare facilmente il layout del tuo documento. Migliora il tuo design con opzioni di sezione flessibili!
 type: docs
 weight: 190
 url: /it/net/aspose.words/pagesetup/layoutmode/
@@ -18,17 +18,17 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ## Esempi
 
-Mostra come specificare a per il numero di caratteri che ciascuna riga può contenere.
+Mostra come specificare il numero di caratteri che ogni riga può contenere.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Abilita il pitching, quindi utilizzalo per impostare il numero di caratteri per riga in questa sezione.
+// Abilita il pitching e poi usalo per impostare il numero di caratteri per riga in questa sezione.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Il numero di caratteri dipende anche dalla dimensione del carattere.
+// Il numero di caratteri dipende anche dalla dimensione del font.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
@@ -38,14 +38,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Mostra come specificare un limite per il numero di righe che ogni pagina può avere.
+Mostra come specificare un limite per il numero di righe che ogni pagina può contenere.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Abilita il pitching, quindi utilizzalo per impostare il numero di righe per pagina in questa sezione.
-// Una dimensione del carattere sufficientemente grande spingerà alcune righe verso il basso nella pagina successiva per evitare la sovrapposizione dei caratteri.
+// Abilita il pitching e poi usalo per impostare il numero di righe per pagina in questa sezione.
+// Una dimensione del carattere sufficientemente grande sposterà alcune righe sulla pagina successiva per evitare la sovrapposizione di caratteri.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

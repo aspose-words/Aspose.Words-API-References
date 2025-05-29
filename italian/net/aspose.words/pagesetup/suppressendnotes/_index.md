@@ -3,14 +3,14 @@ title: PageSetup.SuppressEndnotes
 linktitle: SuppressEndnotes
 articleTitle: SuppressEndnotes
 second_title: Aspose.Words per .NET
-description: PageSetup SuppressEndnotes proprietà. Vero se le note di chiusura vengono stampate alla fine della sezione successiva che non elimina le note di chiusura. Le note di chiusura soppresse vengono stampate prima delle note di chiusura in quella sezione in C#.
+description: Scopri come la proprietà PageSetup SuppressEndnotes migliora il layout del tuo documento controllando il posizionamento delle note di chiusura per sezioni più chiare e organizzate.
 type: docs
 weight: 410
 url: /it/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-Vero se le note di chiusura vengono stampate alla fine della sezione successiva che non elimina le note di chiusura. Le note di chiusura soppresse vengono stampate prima delle note di chiusura in quella sezione.
+Vero se le note di chiusura vengono stampate alla fine della sezione successiva che non le sopprime. Le note di chiusura soppresse vengono stampate prima delle note di chiusura in quella sezione.
 
 ```csharp
 public bool SuppressEndnotes { get; set; }
@@ -18,7 +18,7 @@ public bool SuppressEndnotes { get; set; }
 
 ## Esempi
 
-Mostra come memorizzare le note di chiusura alla fine di ogni sezione e modificare le loro posizioni.
+Mostra come memorizzare le note di chiusura alla fine di ogni sezione e modificarne la posizione.
 
 ```csharp
 public void SuppressEndnotes()
@@ -37,9 +37,9 @@ public void SuppressEndnotes()
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Mentre facciamo in modo che le sezioni visualizzino le rispettive note di chiusura, possiamo impostare il flag "SuppressEndnotes".
-    // dell'oggetto "PageSetup" di una sezione su "true" per ripristinare il comportamento predefinito e passare le relative note di chiusura
-    // alla sezione successiva.
+    // Mentre otteniamo che le sezioni visualizzino le rispettive note di chiusura, possiamo impostare il flag "SuppressEndnotes"
+    // dell'oggetto "PageSetup" di una sezione su "true" per ripristinare il comportamento predefinito e passare le sue note di chiusura
+    // passiamo alla sezione successiva.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
@@ -47,7 +47,7 @@ public void SuppressEndnotes()
 }
 
 /// <summary>
-/// Aggiunge una sezione con testo e una nota di chiusura a un documento.
+/// Aggiungere una sezione con testo e una nota di chiusura a un documento.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

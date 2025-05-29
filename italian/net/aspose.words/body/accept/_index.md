@@ -3,7 +3,7 @@ title: Body.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: Body Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo Body Accept per un coinvolgimento fluido dei visitatori. Migliora l'esperienza utente e aumenta le conversioni con il nostro approccio unico!
 type: docs
 weight: 40
 url: /it/net/aspose.words/body/accept/
@@ -26,175 +26,87 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../docu
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiamate[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , poi chiama[`Accept`](../../node/accept/) per tutti i nodi figlio della sezione e chiamate[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) alla fine.
+Chiamate[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , quindi chiama[`Accept`](../../node/accept/) per tutti i nodi figlio della sezione e chiamate[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) alla fine.
 
 ## Esempi
 
-Mostra come utilizzare un visitatore di documento per stampare la struttura del nodo di un documento.
+Mostra come elaborare i caratteri di tabulazione in posizione assoluta con un visitatore del documento.
 
 ```csharp
-public void DocStructureToText()
+public void DocumentToTxt()
 {
-    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
-    DocStructurePrinter visitor = new DocStructurePrinter();
+    Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
-    // Il visitatore può leggere e modificare ogni nodo visitato.
-    doc.Accept(visitor);
+    // Estrarre il contenuto di testo del nostro documento accettando questo visitatore del documento personalizzato.
+    DocTextExtractor myDocTextExtractor = new DocTextExtractor();
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Visita solo l'inizio del corpo del documento.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Visita solo la fine del corpo del documento.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    Console.WriteLine(visitor.GetText());
+    // La posizione assoluta tab, che non ha equivalenti in formato stringa, è stata convertita esplicitamente in un carattere di tabulazione.
+    Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
+
+    // Anche un AbsolutePositionTab può accettare autonomamente un DocumentVisitor.
+    AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
+
+    myDocTextExtractor = new DocTextExtractor();
+    absPositionTab.Accept(myDocTextExtractor);
+
+    Assert.AreEqual("\t", myDocTextExtractor.GetText());
 }
 
 /// <summary>
-/// Attraversa l'albero dei nodi figli di un nodo.
-/// Crea una mappa di questo albero sotto forma di stringa.
+/// Raccoglie il contenuto testuale di tutte le esecuzioni nel documento visitato. Sostituisce tutti i caratteri di tabulazione assoluti con tabulazioni normali.
 /// </summary>
-public class DocStructurePrinter : DocumentVisitor
+public class DocTextExtractor : DocumentVisitor
 {
-    public DocStructurePrinter()
+    public DocTextExtractor()
     {
-        mAcceptingNodeChildTree = new StringBuilder();
-    }
-
-    public string GetText()
-    {
-        return mAcceptingNodeChildTree.ToString();
+        mBuilder = new StringBuilder();
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un nodo Documento.
-    /// </summary>
-    public override VisitorAction VisitDocumentStart(Document doc)
-    {
-        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
-
-        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
-        mDocTraversalDepth++;
-
-        // Consenti al visitatore di continuare a visitare altri nodi.
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Documento sono stati visitati.
-    /// </summary>
-    public override VisitorAction VisitDocumentEnd(Document doc)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Document end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Sezione.
-    /// </summary>
-    public override VisitorAction VisitSectionStart(Section section)
-    {
-        // Ottieni l'indice della nostra sezione all'interno del documento.
-        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
-        int sectionIndex = docSections.IndexOf(section);
-
-        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Sezione sono stati visitati.
-    /// </summary>
-    public override VisitorAction VisitSectionEnd(Section section)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Section end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Body.
-    /// </summary>
-    public override VisitorAction VisitBodyStart(Body body)
-    {
-        int paragraphCount = body.Paragraphs.Count;
-        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Body sono stati visitati.
-    /// </summary>
-    public override VisitorAction VisitBodyEnd(Body body)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Body end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Paragrafo.
-    /// </summary>
-    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
-    {
-        IndentAndAppendLine("[Paragraph start]");
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Paragrafo sono stati visitati.
-    /// </summary>
-    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Paragraph end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
-
+        AppendText(run.Text);
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Sottodocumento.
+    /// Chiamato quando nel documento viene rilevato un nodo AbsolutePositionTab.
     /// </summary>
-    public override VisitorAction VisitSubDocument(SubDocument subDocument)
+    public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
-        IndentAndAppendLine("[SubDocument]");
-
+        mBuilder.Append("\t");
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiunge testo all'output corrente. Rispetta il flag di output abilitato/disabilitato.
     /// </summary>
-    /// <param name="text"></param>
-    private void IndentAndAppendLine(string text)
+    private void AppendText(string text)
     {
-        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
-
-        mAcceptingNodeChildTree.AppendLine(text);
+        mBuilder.Append(text);
     }
 
-    private int mDocTraversalDepth;
-    private readonly StringBuilder mAcceptingNodeChildTree;
+    /// <summary>
+    /// Testo normale del documento accumulato dal visitatore.
+    /// </summary>
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    private readonly StringBuilder mBuilder;
 }
 ```
 

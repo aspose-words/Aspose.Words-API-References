@@ -3,14 +3,14 @@ title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
 second_title: Aspose.Words per .NET
-description: Font HighlightColor proprietà. Ottiene o imposta il colore dellevidenziazione marcatore in C#.
+description: Scopri la proprietà Font HighlightColor: personalizza facilmente il colore di evidenziazione del testo per una migliore leggibilità e un impatto visivo migliore. Migliora il tuo design!
 type: docs
 weight: 150
 url: /it/net/aspose.words/font/highlightcolor/
 ---
 ## Font.HighlightColor property
 
-Ottiene o imposta il colore dell'evidenziazione (marcatore).
+Ottiene o imposta il colore di evidenziazione (marcatore).
 
 ```csharp
 public Color HighlightColor { get; set; }
@@ -18,7 +18,7 @@ public Color HighlightColor { get; set; }
 
 ## Esempi
 
-Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
+Mostra come formattare una sequenza di testo utilizzando la proprietà font.
 
 ```csharp
 Document doc = new Document();

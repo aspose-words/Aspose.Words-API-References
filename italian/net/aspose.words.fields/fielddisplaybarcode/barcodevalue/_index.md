@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.BarcodeValue
 linktitle: BarcodeValue
 articleTitle: BarcodeValue
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode BarcodeValue proprietà. Ottiene o imposta il valore del codice a barre in C#.
+description: Scopri la proprietà BarcodeValue di FieldDisplayBarcode per gestire e personalizzare facilmente i valori dei codici a barre, per una maggiore accuratezza ed efficienza dei dati.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fielddisplaybarcode/barcodevalue/

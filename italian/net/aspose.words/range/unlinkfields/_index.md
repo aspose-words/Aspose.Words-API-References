@@ -3,9 +3,9 @@ title: Range.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words per .NET
-description: Range UnlinkFields metodo. Scollega i campi in questo intervallo in C#.
+description: Scopri il metodo Range UnlinkFields per scollegare senza sforzo i campi nel tuo intervallo di documenti, migliorando il flusso di lavoro e la gestione dei documenti.
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
@@ -18,7 +18,7 @@ public void UnlinkFields()
 
 ## Osservazioni
 
-Sostituisce tutti i campi di questo intervallo con i risultati più recenti.
+Sostituisce tutti i campi in questo intervallo con i risultati più recenti.
 
 Per scollegare i campi nell'intero documento utilizzare`UnlinkFields`.
 

@@ -3,7 +3,7 @@ title: FieldChar.GetField
 linktitle: GetField
 articleTitle: GetField
 second_title: Aspose.Words per .NET
-description: FieldChar GetField metodo. Restituisce un campo per il campo char in C#.
+description: Scopri il metodo GetField in FieldChar, recupera senza sforzo i campi per una gestione ottimale dei dati e prestazioni migliorate nelle tue applicazioni.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldchar/getfield/
@@ -22,7 +22,7 @@ Un campo per il campo char.
 
 ## Osservazioni
 
-Una novità[`Field`](../../field/) l'oggetto viene creato ogni volta che viene chiamato il metodo.
+Un nuovo[`Field`](../../field/) l'oggetto viene creato ogni volta che viene chiamato il metodo.
 
 ## Esempi
 

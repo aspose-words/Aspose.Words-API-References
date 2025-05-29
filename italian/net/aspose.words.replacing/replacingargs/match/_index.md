@@ -3,14 +3,14 @@ title: ReplacingArgs.Match
 linktitle: Match
 articleTitle: Match
 second_title: Aspose.Words per .NET
-description: ReplacingArgs Match proprietà. IlMatch risultante da una singola corrispondenza di espressione regolari durante aSostituire  in C#.
+description: Scopri la proprietà Match di ReplacingArgs per sostituzioni di espressioni regolari senza interruzioni. Migliora l'efficienza della tua programmazione con risultati di corrispondenza precisi!
 type: docs
 weight: 30
 url: /it/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-IlMatch risultante da una singola corrispondenza di espressione regolari durante a**Sostituire** .
+IlMatch risultante da una singola corrispondenza di espressione regular durante un**Sostituire** .
 
 ```csharp
 public Match Match { get; }
@@ -18,11 +18,11 @@ public Match Match { get; }
 
 ## Osservazioni
 
-**Corrispondenza.Indice"** ottiene la posizione Starting in base zero della corrispondenza dall'inizio dell'intervallo di ricerca e sostituzione.
+**Match.Index"** ottiene la posizione starting basata su zero della corrispondenza dall'inizio dell'intervallo di ricerca e sostituzione.
 
 ## Esempi
 
-Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplaceOptions.
+Mostra come applicare un font diverso al nuovo contenuto tramite FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -37,7 +37,7 @@ public void ConvertNumbersToHexadecimal()
     // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta la proprietà "HighlightColor" su un colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
+    // Imposta la proprietà "HighlightColor" sul colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -55,8 +55,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Sostituisce le corrispondenze numeriche di ricerca e sostituzione con i loro equivalenti esadecimali.
-/// Mantiene un registro di ogni sostituzione.
+/// Sostituisce le corrispondenze numeriche tramite ricerca e sostituzione con i loro equivalenti esadecimali.
+/// Tiene un registro di ogni sostituzione.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

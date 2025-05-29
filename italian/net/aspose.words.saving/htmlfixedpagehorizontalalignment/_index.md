@@ -3,9 +3,9 @@ title: HtmlFixedPageHorizontalAlignment Enum
 linktitle: HtmlFixedPageHorizontalAlignment
 articleTitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment enum. Specifica lallineamento orizzontale per le pagine nel documento HTML di output in C#.
+description: Scopri l'enum Aspose.Words.HtmlFixedPageHorizontalAlignment per un controllo preciso dell'allineamento delle pagine nei tuoi documenti HTML. Migliora la formattazione dei tuoi documenti oggi stesso!
 type: docs
-weight: 5070
+weight: 5820
 url: /it/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
@@ -26,7 +26,7 @@ public enum HtmlFixedPageHorizontalAlignment
 
 ## Esempi
 
-Mostra come impostare l'allineamento orizzontale delle pagine durante il salvataggio di un documento in HTML.
+Mostra come impostare l'allineamento orizzontale delle pagine quando si salva un documento in formato HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -47,11 +47,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

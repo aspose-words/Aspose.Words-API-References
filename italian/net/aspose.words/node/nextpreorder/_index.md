@@ -3,14 +3,14 @@ title: Node.NextPreOrder
 linktitle: NextPreOrder
 articleTitle: NextPreOrder
 second_title: Aspose.Words per .NET
-description: Node NextPreOrder metodo. Ottiene il nodo successivo in base allalgoritmo di attraversamento dellalbero di preordine in C#.
+description: Scopri il metodo Node NextPreOrder per un attraversamento efficiente degli alberi. Impara come recuperare il nodo successivo utilizzando efficacemente l'algoritmo di preordine!
 type: docs
 weight: 130
 url: /it/net/aspose.words/node/nextpreorder/
 ---
 ## Node.NextPreOrder method
 
-Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine.
+Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato.
 
 ```csharp
 public Node NextPreOrder(Node rootNode)
@@ -18,15 +18,15 @@ public Node NextPreOrder(Node rootNode)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| rootNode | Node | Il nodo superiore (limite) di attraversamento. |
+| rootNode | Node | Il nodo superiore (limite) dell'attraversamento. |
 
 ### Valore di ritorno
 
-Nodo successivo nell'ordine di preordine. Null se raggiunto il*rootNode*.
+Nodo successivo in ordine di preordine. Null se raggiunto*rootNode*.
 
 ## Esempi
 
-Mostra come attraversare l'albero dei nodi del documento utilizzando l'algoritmo di attraversamento del preordine ed eliminare qualsiasi forma incontrata con un'immagine.
+Mostra come attraversare l'albero dei nodi del documento utilizzando l'algoritmo di attraversamento pre-ordine ed eliminare qualsiasi forma incontrata con un'immagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

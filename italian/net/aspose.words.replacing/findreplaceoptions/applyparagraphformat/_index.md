@@ -3,7 +3,7 @@ title: FindReplaceOptions.ApplyParagraphFormat
 linktitle: ApplyParagraphFormat
 articleTitle: ApplyParagraphFormat
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions ApplyParagraphFormat proprietà. Formattazione del paragrafo applicata al nuovo contenuto in C#.
+description: Scopri la proprietà ApplyParagraphFormat in FindReplaceOptions per una formattazione impeccabile dei paragrafi nei tuoi documenti. Migliora i tuoi contenuti senza sforzo!
 type: docs
 weight: 30
 url: /it/net/aspose.words.replacing/findreplaceoptions/applyparagraphformat/
@@ -37,11 +37,11 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment
 // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Imposta la proprietà "Alignment" su "ParagraphAlignment.Right" per allineare a destra ogni paragrafo
+// Imposta la proprietà "Allineamento" su "ParagraphAlignment.Right" per allineare a destra ogni paragrafo
 // che contiene una corrispondenza trovata dall'operazione di ricerca e sostituzione.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Sostituisci ogni punto che precede l'interruzione di paragrafo con un punto esclamativo.
+// Sostituisci ogni punto che precede un'interruzione di paragrafo con un punto esclamativo.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);

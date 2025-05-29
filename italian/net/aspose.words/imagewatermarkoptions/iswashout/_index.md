@@ -3,14 +3,14 @@ title: ImageWatermarkOptions.IsWashout
 linktitle: IsWashout
 articleTitle: IsWashout
 second_title: Aspose.Words per .NET
-description: ImageWatermarkOptions IsWashout proprietà. Ottiene o imposta un valore booleano responsabile delleffetto sbiadito della filigrana. Il valore predefinito èVERO  in C#.
+description: Scopri la proprietà IsWashout di ImageWatermarkOptions. Controlla facilmente l'effetto di sbiadimento della tua filigrana con questa semplice impostazione booleana.
 type: docs
 weight: 20
 url: /it/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-Ottiene o imposta un valore booleano responsabile dell'effetto sbiadito della filigrana. Il valore predefinito è`VERO` .
+Ottiene o imposta un valore booleano che è responsabile dell'effetto di sbiadimento della filigrana. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -24,14 +24,19 @@ Mostra come creare una filigrana da un'immagine nel file system locale.
 Document doc = new Document();
 
             // Modifica l'aspetto della filigrana dell'immagine con un oggetto ImageWatermarkOptions,
-            // quindi lo passa durante la creazione di una filigrana da un file immagine.
+            // quindi passarlo durante la creazione di una filigrana da un file immagine.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // Abbiamo diverse opzioni per inserire l'immagine:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

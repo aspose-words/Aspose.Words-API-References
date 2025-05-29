@@ -3,14 +3,14 @@ title: CellFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words per .NET
-description: CellFormat Shading proprietà. Restituisce aShading oggetto che fa riferimento alla formattazione dellombreggiatura per la cella in C#.
+description: Scopri la proprietà Ombreggiatura CellFormat per migliorare l'aspetto visivo del tuo foglio di calcolo con opzioni di ombreggiatura personalizzabili per le celle.
 type: docs
-weight: 90
+weight: 100
 url: /it/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-Restituisce a[`Shading`](../../../aspose.words/shading/) oggetto che fa riferimento alla formattazione dell'ombreggiatura per la cella.
+Restituisce un[`Shading`](../../../aspose.words/shading/) oggetto che fa riferimento alla formattazione dell'ombreggiatura per la cella.
 
 ```csharp
 public Shading Shading { get; }
@@ -36,13 +36,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Utilizza la proprietà "RowFormat" della prima riga per modificare la formattazione
-// del contenuto di tutte le celle di questa riga.
+// Utilizzare la proprietà "RowFormat" della prima riga per modificare la formattazione
+// del contenuto di tutte le celle in questa riga.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Utilizza la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
+// Utilizzare la proprietà "CellFormat" della prima cella nell'ultima riga per modificare la formattazione del contenuto di quella cella.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -59,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Impostazione delle opzioni di formattazione della tabella per un generatore di documenti
-// li applicherà a ogni riga e cella che aggiungiamo con esso.
+// li applicheremo a ogni riga e cella che aggiungeremo.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -82,9 +82,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creeremo successivamente con il builder.
-// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
+// La modifica della formattazione verrà applicata alla cella corrente,
+// e tutte le nuove celle che creeremo in seguito con il builder.
+// Ciò non influirà sulle celle aggiunte in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

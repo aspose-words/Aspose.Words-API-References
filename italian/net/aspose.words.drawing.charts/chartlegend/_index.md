@@ -3,9 +3,9 @@ title: ChartLegend Class
 linktitle: ChartLegend
 articleTitle: ChartLegend
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.ChartLegend classe. Rappresenta le proprietà della legenda del grafico in C#.
+description: Scopri la classe Aspose.Words.Drawing.Charts.ChartLegend per migliorare i tuoi grafici con proprietà di legenda personalizzabili per una migliore visualizzazione dei dati.
 type: docs
-weight: 720
+weight: 1010
 url: /it/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
@@ -22,9 +22,11 @@ public class ChartLegend
 
 | Nome | Descrizione |
 | --- | --- |
-| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Restituisce una raccolta di voci della legenda per tutte le serie e linee di tendenza del grafico principale. |
+| [Font](../../aspose.words.drawing.charts/chartlegend/font/) { get; } | Fornisce l'accesso alla formattazione predefinita del carattere per le voci della legenda. Per sovrascrivere la formattazione del carattere per una specifica voce della legenda, utilizzare[`Font`](../chartlegendentry/font/) proprietà. |
+| [Format](../../aspose.words.drawing.charts/chartlegend/format/) { get; } | Fornisce accesso al riempimento e alla formattazione delle linee della legenda. |
+| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Restituisce una raccolta di voci della legenda per tutte le serie e le linee di tendenza del grafico padre. |
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Determina se altri elementi del grafico possono sovrapporsi alla legenda. Il valore predefinito è`falso` . |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Specifica la posizione della legenda su un grafico. Il valore predefinito èRight . |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Specifica la posizione della legenda su un grafico. |
 
 ## Esempi
 
@@ -46,7 +48,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Concede più spazio agli altri elementi del grafico, come il grafico, consentendo loro di sovrapporsi alla legenda.
+// Lascia più spazio agli altri elementi del grafico, come il grafico stesso, sovrapponendoli alla legenda.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

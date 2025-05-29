@@ -3,16 +3,16 @@ title: RevisionGroup Class
 linktitle: RevisionGroup
 articleTitle: RevisionGroup
 second_title: Aspose.Words per .NET
-description: Aspose.Words.RevisionGroup classe. Rappresenta un gruppo di sequenzialiRevision oggetti in C#.
+description: Scopri la classe Aspose.Words.RevisionGroup, progettata per gestire e organizzare in modo efficiente gli oggetti Revision sequenziali per una modifica semplificata dei documenti.
 type: docs
-weight: 4780
+weight: 5520
 url: /it/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-Rappresenta un gruppo di sequenziali[`Revision`](../revision/) oggetti.
+Rappresenta un gruppo di elementi sequenziali[`Revision`](../revision/) oggetti.
 
-Per saperne di più, visita il[Tieni traccia delle modifiche in un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) articolo di documentazione.
+Per saperne di più, visita il[Traccia le modifiche in un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) articolo di documentazione.
 
 ```csharp
 public class RevisionGroup
@@ -24,7 +24,7 @@ public class RevisionGroup
 | --- | --- |
 | [Author](../../aspose.words/revisiongroup/author/) { get; } | Ottiene l'autore di questo gruppo di revisione. |
 | [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Ottiene il tipo di revisioni incluse in questo gruppo. |
-| [Text](../../aspose.words/revisiongroup/text/) { get; } | Restituisce il testo inserito/eliminato/spostato o la descrizione del cambio formato. |
+| [Text](../../aspose.words/revisiongroup/text/) { get; } | Restituisce il testo inserito/eliminato/spostato o la descrizione della modifica del formato. |
 
 ## Esempi
 

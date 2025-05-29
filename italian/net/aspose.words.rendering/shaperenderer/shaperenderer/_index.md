@@ -3,7 +3,7 @@ title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words per .NET
-description: ShapeRenderer costruttore. Inizializza una nuova istanza di questa classe in C#.
+description: Scopri il costruttore ShapeRenderer per creare e personalizzare facilmente le forme nei tuoi progetti, migliorandone l'aspetto visivo e la funzionalità.
 type: docs
 weight: 10
 url: /it/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,7 +18,7 @@ public ShapeRenderer(ShapeBase shape)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| shape | ShapeBase | L'oggetto forma DrawinML di cui vuoi eseguire il rendering. |
+| shape | ShapeBase | L'oggetto forma DrawinML che vuoi rendere. |
 
 ## Esempi
 
@@ -32,8 +32,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma su un oggetto Graphics.
-    // 1 - Crea una forma con un grafico e renderla su una scala specifica.
+    // Di seguito sono riportati due modi per utilizzare la classe "ShapeRenderer" per eseguire il rendering di una forma in un oggetto Graphics.
+    // 1 - Crea una forma con un grafico e visualizzala in una scala specifica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -44,7 +44,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Crea un gruppo di forme e rendilo a una dimensione specifica.
+    // 2 - Crea un gruppo di forme e rendilo di una dimensione specifica.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -74,7 +74,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Renderizza e visualizza un elenco di forme.
+/// Esegue il rendering e visualizza un elenco di forme.
 /// </summary>
 private class ShapeForm : Form
 {

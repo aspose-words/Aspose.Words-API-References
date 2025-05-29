@@ -3,9 +3,9 @@ title: ChartLegendEntryCollection Class
 linktitle: ChartLegendEntryCollection
 articleTitle: ChartLegendEntryCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection classe. Rappresenta una raccolta di voci della legenda del grafico in C#.
+description: Esplora Aspose.Words.ChartLegendEntryCollection per gestire in modo efficiente le voci della legenda dei grafici e migliorare facilmente l'aspetto visivo dei tuoi documenti.
 type: docs
-weight: 740
+weight: 1030
 url: /it/net/aspose.words.drawing.charts/chartlegendentrycollection/
 ---
 ## ChartLegendEntryCollection class
@@ -33,7 +33,7 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 
 ## Esempi
 
-Mostra come utilizzare una voce di legenda per le serie di grafici.
+Mostra come lavorare con una voce di legenda per le serie di grafici.
 
 ```csharp
 Document doc = new Document();
@@ -54,11 +54,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

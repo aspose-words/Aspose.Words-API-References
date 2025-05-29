@@ -3,7 +3,7 @@ title: GradientStop
 linktitle: GradientStop
 articleTitle: GradientStop
 second_title: Aspose.Words per .NET
-description: GradientStop costruttore. Inizializza una nuova istanza diGradientStop classe in C#.
+description: Crea sfumature straordinarie senza sforzo con il costruttore GradientStop. Inizializza e personalizza i tuoi progetti con facilità per un impatto visivo vibrante!
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/gradientstop/gradientstop/
@@ -18,12 +18,12 @@ public GradientStop(Color color, double position)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| color | Color | Rappresenta il colore dell'interruzione del gradiente. |
-| position | Double | Rappresenta la posizione di una fermata all'interno del gradiente espresso come percentuale nell'intervallo da 0,0 a 1,0. |
+| color | Color | Rappresenta il colore del punto di sfumatura. |
+| position | Double | Rappresenta la posizione di una fermata entro la pendenza espressa in percentuale nell'intervallo da 0,0 a 1,0. |
 
 ## Esempi
 
-Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
+Mostra come aggiungere interruzioni di sfumatura al riempimento sfumato.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Ottieni la raccolta delle interruzioni del gradiente.
+// Ottieni la raccolta di interruzioni del gradiente.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Modifica la prima interruzione del gradiente.            
-gradientStops[0].Color = Color.Aqua;            
+// Modifica la prima interruzione del gradiente.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -44,9 +44,9 @@ gradientStops[0].Transparency = 0.25;
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
-// Rimuove l'interruzione del gradiente all'indice 1.
+// Rimuovi l'interruzione del gradiente all'indice 1.
 gradientStops.RemoveAt(1);
-// E inserisce una nuova interruzione del gradiente allo stesso indice 1.
+// E inserisci un nuovo punto di interruzione del gradiente allo stesso indice 1.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
 // Rimuove l'ultima interruzione del gradiente nella raccolta.
@@ -64,8 +64,8 @@ Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
 Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
 Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
 
-// Utilizza l'opzione di conformità per definire la forma utilizzando DML
-// se vuoi ottenere la proprietà "GradientStops" dopo il salvataggio del documento.
+// Utilizzare l'opzione di conformità per definire la forma utilizzando DML
+// se si desidera ottenere la proprietà "GradientStops" dopo il salvataggio del documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
@@ -89,13 +89,13 @@ public GradientStop(Color color, double position, double transparency)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| color | Color | Rappresenta il colore dell'interruzione del gradiente. |
-| position | Double | Rappresenta la posizione di una fermata all'interno del gradiente espresso come percentuale nell'intervallo da 0,0 a 1,0. |
+| color | Color | Rappresenta il colore del punto di sfumatura. |
+| position | Double | Rappresenta la posizione di una fermata entro la pendenza espressa in percentuale nell'intervallo da 0,0 a 1,0. |
 | transparency | Double | Rappresenta la trasparenza di una fermata entro il gradiente espresso come percentuale nell'intervallo da 0,0 a 1,0. |
 
 ## Esempi
 
-Mostra come aggiungere interruzioni sfumatura al riempimento sfumatura.
+Mostra come aggiungere interruzioni di sfumatura al riempimento sfumato.
 
 ```csharp
 Document doc = new Document();
@@ -104,11 +104,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Ottieni la raccolta delle interruzioni del gradiente.
+// Ottieni la raccolta di interruzioni del gradiente.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Modifica la prima interruzione del gradiente.            
-gradientStops[0].Color = Color.Aqua;            
+// Modifica la prima interruzione del gradiente.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
@@ -116,9 +116,9 @@ gradientStops[0].Transparency = 0.25;
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
-// Rimuove l'interruzione del gradiente all'indice 1.
+// Rimuovi l'interruzione del gradiente all'indice 1.
 gradientStops.RemoveAt(1);
-// E inserisce una nuova interruzione del gradiente allo stesso indice 1.
+// E inserisci un nuovo punto di interruzione del gradiente allo stesso indice 1.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
 // Rimuove l'ultima interruzione del gradiente nella raccolta.
@@ -136,8 +136,8 @@ Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
 Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
 Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
 
-// Utilizza l'opzione di conformità per definire la forma utilizzando DML
-// se vuoi ottenere la proprietà "GradientStops" dopo il salvataggio del documento.
+// Utilizzare l'opzione di conformità per definire la forma utilizzando DML
+// se si desidera ottenere la proprietà "GradientStops" dopo il salvataggio del documento.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);

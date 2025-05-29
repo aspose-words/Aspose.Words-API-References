@@ -3,14 +3,14 @@ title: BarcodeParameters.BackgroundColor
 linktitle: BackgroundColor
 articleTitle: BackgroundColor
 second_title: Aspose.Words per .NET
-description: BarcodeParameters BackgroundColor proprietà. Colore sfondo codice a barre 0x000000  0xFFFFFF in C#.
+description: Scopri la proprietà BackgroundColor di BarcodeParameters per creare codici a barre personalizzati. Imposta facilmente i colori di sfondo da 0x000000 a 0xFFFFFF per una visibilità ottimale!
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/barcodeparameters/backgroundcolor/
 ---
 ## BarcodeParameters.BackgroundColor property
 
-Colore sfondo codice a barre (0x000000 - 0xFFFFFF)
+Colore di sfondo del codice a barre (0x000000 - 0xFFFFFF)
 
 ```csharp
 public string BackgroundColor { get; set; }
@@ -23,13 +23,13 @@ Mostra come utilizzare un generatore di codici a barre.
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Possiamo utilizzare un'implementazione IBarcodeGenerator personalizzata per generare codici a barre,
+// Possiamo utilizzare un'implementazione personalizzata di IBarcodeGenerator per generare codici a barre,
 // e poi inserirli nel documento come immagini.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Di seguito sono riportati quattro esempi di diversi tipi di codici a barre che possiamo creare utilizzando il nostro generatore.
-// Per ciascun codice a barre, specifichiamo un nuovo set di parametri del codice a barre, quindi generiamo l'immagine.
-// Successivamente possiamo inserire l'immagine nel documento o salvarla nel file system locale.
+// Per ogni codice a barre, specifichiamo un nuovo set di parametri del codice a barre e poi generiamo l'immagine.
+// Successivamente possiamo inserire l'immagine nel documento oppure salvarla nel file system locale.
 // 1 - Codice QR:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
@@ -44,8 +44,14 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 2 - Codice a barre EAN13:
@@ -59,7 +65,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - Codice a barre CODE39:
@@ -71,7 +84,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 4 - Codice a barre ITF14:
@@ -83,7 +103,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

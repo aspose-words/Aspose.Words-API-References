@@ -3,14 +3,14 @@ title: TxtListIndentation.Character
 linktitle: Character
 articleTitle: Character
 second_title: Aspose.Words per .NET
-description: TxtListIndentation Character proprietà. Ottiene o imposta il carattere da utilizzare per il rientro dei livelli dellelenco. Il valore predefinito è 0 ciò significa che non cè rientro in C#.
+description: Scopri la proprietà TxtListIndentation per personalizzare l'indentazione degli elenchi con il tuo carattere preferito. Migliora la leggibilità e l'aspetto visivo senza sforzo!
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/txtlistindentation/character/
 ---
 ## TxtListIndentation.Character property
 
-Ottiene o imposta il carattere da utilizzare per il rientro dei livelli dell'elenco. Il valore predefinito è '\0', ciò significa che non c'è rientro.
+Ottiene o imposta il carattere da utilizzare per l'indentazione dei livelli di elenco. Il valore predefinito è '\0', che significa che non c'è indentazione.
 
 ```csharp
 public char Character { get; set; }
@@ -32,25 +32,26 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
+// Creiamo un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
 // per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // Imposta la proprietà "Carattere" per assegnare un carattere da utilizzare
-// per il riempimento che simula il rientro dell'elenco nel testo normale.
+// per il padding che simula l'indentazione dell'elenco nel testo normale.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Imposta la proprietà "Count" per specificare il numero di volte
-// per posizionare il carattere di riempimento per ciascun livello di rientro dell'elenco.
+// Imposta la proprietà "Conteggio" per specificare il numero di volte
+// per posizionare il carattere di riempimento per ogni livello di rientro dell'elenco.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### Guarda anche

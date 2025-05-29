@@ -3,7 +3,7 @@ title: BorderCollection.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words per .NET
-description: BorderCollection Shadow proprietà. Ottiene o imposta un valore che indica se il bordo ha unombra in C#.
+description: Scopri la proprietà BorderCollection Shadow per migliorare i tuoi progetti. Gestisci facilmente le ombre dei bordi per un look moderno ed elegante!
 type: docs
 weight: 110
 url: /it/net/aspose.words/bordercollection/shadow/
@@ -18,13 +18,13 @@ public bool Shadow { get; set; }
 
 ## Osservazioni
 
-Ottiene il valore dal primo bordo nella raccolta.
+Ottiene il valore dal primo bordo della raccolta.
 
-Imposta il valore per tutti i bordi nella raccolta esclusi i bordi diagonali.
+Imposta il valore per tutti i bordi della raccolta, esclusi i bordi diagonali.
 
 ## Esempi
 
-Mostra come creare un bordo verde ondulato della pagina con un'ombra.
+Mostra come creare un bordo di pagina ondulato verde con un'ombra.
 
 ```csharp
 Document doc = new Document();

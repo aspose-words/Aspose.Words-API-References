@@ -3,9 +3,9 @@ title: Paragraph.AppendField
 linktitle: AppendField
 articleTitle: AppendField
 second_title: Aspose.Words per .NET
-description: Paragraph AppendField metodo. Aggiunge un campo a questo paragrafo in C#.
+description: Arricchisci il tuo documento con il metodo Paragraph AppendField, aggiungendo senza problemi campi personalizzati ai paragrafi per una migliore organizzazione e chiarezza.
 type: docs
-weight: 240
+weight: 260
 url: /it/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
@@ -18,7 +18,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldType | FieldType | Il tipo di campo da aggiungere. |
+| fieldType | FieldType | Tipo di campo da aggiungere. |
 | updateField | Boolean | Specifica se aggiornare immediatamente il campo. |
 
 ### Valore di ritorno
@@ -34,10 +34,10 @@ Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // Di seguito sono riportati tre modi per aggiungere un campo alla fine di un paragrafo.
-// 1 - Aggiungi un campo DATA utilizzando un tipo di campo, quindi aggiornalo:
+// 1 - Aggiungi un campo DATA utilizzando un tipo di campo e quindi aggiornalo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Aggiungi un campo TIME utilizzando un codice di campo:
+ // 2 - Aggiungere un campo TIME utilizzando un codice campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
 // 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e fai in modo che visualizzi un valore segnaposto:
@@ -45,7 +45,7 @@ paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
+// Questo campo visualizzerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -73,7 +73,7 @@ public Field AppendField(string fieldCode)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldCode | String | Il codice di campo da aggiungere (senza parentesi graffe). |
+| fieldCode | String | Codice di campo da aggiungere (senza parentesi graffe). |
 
 ### Valore di ritorno
 
@@ -88,10 +88,10 @@ Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // Di seguito sono riportati tre modi per aggiungere un campo alla fine di un paragrafo.
-// 1 - Aggiungi un campo DATA utilizzando un tipo di campo, quindi aggiornalo:
+// 1 - Aggiungi un campo DATA utilizzando un tipo di campo e quindi aggiornalo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Aggiungi un campo TIME utilizzando un codice di campo:
+ // 2 - Aggiungere un campo TIME utilizzando un codice campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
 // 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e fai in modo che visualizzi un valore segnaposto:
@@ -99,7 +99,7 @@ paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
+// Questo campo visualizzerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -126,8 +126,8 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| fieldCode | String | Il codice di campo da aggiungere (senza parentesi graffe). |
-| fieldValue | String | Il valore del campo da aggiungere. Passaggio`nullo` per i campi che non hanno un valore. |
+| fieldCode | String | Codice di campo da aggiungere (senza parentesi graffe). |
+| fieldValue | String | Il valore del campo da aggiungere. Passa`null` per i campi che non hanno un valore. |
 
 ### Valore di ritorno
 
@@ -142,10 +142,10 @@ Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
 // Di seguito sono riportati tre modi per aggiungere un campo alla fine di un paragrafo.
-// 1 - Aggiungi un campo DATA utilizzando un tipo di campo, quindi aggiornalo:
+// 1 - Aggiungi un campo DATA utilizzando un tipo di campo e quindi aggiornalo:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Aggiungi un campo TIME utilizzando un codice di campo:
+ // 2 - Aggiungere un campo TIME utilizzando un codice campo:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
 // 3 - Aggiungi un campo QUOTE utilizzando un codice di campo e fai in modo che visualizzi un valore segnaposto:
@@ -153,7 +153,7 @@ paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Questo campo mostrerà il suo valore segnaposto finché non lo aggiorneremo.
+// Questo campo visualizzerà il suo valore segnaposto finché non lo aggiorneremo.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);

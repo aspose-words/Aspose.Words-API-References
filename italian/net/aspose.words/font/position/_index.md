@@ -3,14 +3,14 @@ title: Font.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words per .NET
-description: Font Position proprietà. Ottiene o imposta la posizione del testo in punti rispetto alla linea di base. Un numero positivo solleva il testo e un numero negativo lo abbassa in C#.
+description: Scopri la proprietà Posizione Font, regola facilmente l'allineamento del testo in punti per un controllo preciso sulla tipografia. Migliora il tuo design con un posizionamento flessibile!
 type: docs
-weight: 300
+weight: 310
 url: /it/net/aspose.words/font/position/
 ---
 ## Font.Position property
 
-Ottiene o imposta la posizione del testo (in punti) rispetto alla linea di base. Un numero positivo solleva il testo e un numero negativo lo abbassa.
+Ottiene o imposta la posizione del testo (in punti) rispetto alla linea di base. Un numero positivo alza il testo, mentre un numero negativo lo abbassa.
 
 ```csharp
 public double Position { get; set; }
@@ -24,12 +24,12 @@ Mostra come formattare il testo per spostarne la posizione.
 Document doc = new Document();
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Alza questa sequenza di testo 5 punti sopra la linea di base.
+// Solleva questa sequenza di testo di 5 punti rispetto alla linea di base.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// Abbassa questa sequenza di testo di 10 punti sotto la linea di base.
+// Abbassa questa sequenza di testo di 10 punti rispetto alla linea di base.
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);

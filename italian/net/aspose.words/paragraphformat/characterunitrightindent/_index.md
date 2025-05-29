@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitRightIndent
 linktitle: CharacterUnitRightIndent
 articleTitle: CharacterUnitRightIndent
 second_title: Aspose.Words per .NET
-description: ParagraphFormat CharacterUnitRightIndent proprietà. Ottiene o imposta il valore del rientro destro in caratteri per i paragrafi specificati in C#.
+description: Scopri la proprietà ParagraphFormat CharacterUnitRightIndent per regolare facilmente i valori di rientro a destra nei caratteri dei tuoi paragrafi, migliorando così il layout del tuo documento.
 type: docs
 weight: 90
 url: /it/net/aspose.words/paragraphformat/characterunitrightindent/
 ---
 ## ParagraphFormat.CharacterUnitRightIndent property
 
-Ottiene o imposta il valore del rientro destro (in caratteri) per i paragrafi specificati.
+Ottiene o imposta il valore di rientro corretto (in caratteri) per i paragrafi specificati.
 
 ```csharp
 public double CharacterUnitRightIndent { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Di seguito sono riportate cinque diverse opzioni di spaziatura, insieme alle proprietà che la loro configurazione influenza indirettamente.
+// Di seguito sono riportate cinque diverse opzioni di spaziatura, insieme alle proprietà sulle quali la loro configurazione influisce indirettamente.
 // 1 - Rientro sinistro:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -33,7 +33,7 @@ format.CharacterUnitLeftIndent = 10.0;
 
 Assert.AreEqual(format.LeftIndent, 120.0d);
 
-// 2 - Rientro destro:
+// 2 - Rientro a destra:
 Assert.AreEqual(format.RightIndent, 0.0d); 
 
 format.CharacterUnitRightIndent = -5.5;

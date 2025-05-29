@@ -3,16 +3,16 @@ title: ResourceLoadingArgs.Uri
 linktitle: Uri
 articleTitle: Uri
 second_title: Aspose.Words per .NET
-description: ResourceLoadingArgs Uri proprietà. URI della risorsa utilizzata per downloading ifResourceLoading ritornaDefault in C#.
+description: Scopri la proprietà ResourceLoadingArgs Uri per un download efficiente delle risorse. Semplifica il tuo flusso di lavoro con una gestione ottimale degli URI per un'integrazione perfetta.
 type: docs
 weight: 30
 url: /it/net/aspose.words.loading/resourceloadingargs/uri/
 ---
 ## ResourceLoadingArgs.Uri property
 
-URI della risorsa utilizzata per downloading if[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) ritornaDefault.
+URI della risorsa utilizzata per il download se[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) ritornaDefault.
 
-Inizialmente è impostato sull'URI assoluto della risorsa, ma l'utente può ridefinirlo su qualsiasi valore.
+Inizialmente è impostato sull'URI assoluto della risorsa, , ma l'utente può ridefinirlo con qualsiasi valore.
 
 ```csharp
 public string Uri { get; set; }

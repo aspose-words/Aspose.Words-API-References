@@ -3,14 +3,14 @@ title: IMailMergeDataSource Interface
 linktitle: IMailMergeDataSource
 articleTitle: IMailMergeDataSource
 second_title: Aspose.Words per .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource interfaccia. Implementa questa interfaccia per consentire la stampa unione da unorigine dati personalizzata ad esempio un elenco di oggetti. Sono supportati anche i dati anagrafici in C#.
+description: Sblocca un potente sistema di unione di posta con Aspose.Words.MailMerging.IMailMergeDataSource. Collega facilmente fonti dati personalizzate per un'automazione impeccabile dei documenti.
 type: docs
-weight: 3810
+weight: 4500
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-Implementa questa interfaccia per consentire la stampa unione da un'origine dati personalizzata, ad esempio un elenco di oggetti. Sono supportati anche i dati anagrafici.
+Implementa questa interfaccia per consentire la stampa unione da una fonte dati personalizzata, come un elenco di oggetti. Sono supportati anche i dati master-detail.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -26,13 +26,13 @@ public interface IMailMergeDataSource
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra l'inizio di una regione di stampa unione nidificata. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Il motore di stampa unione Aspose.Words richiama questo metodo quando incontra l'inizio di un'area di stampa unione annidata. |
 | [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Restituisce un valore per il nome del campo specificato o`falso` se il campo non viene trovato. |
-| [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Avanza al record successivo nell'origine dati. |
+| [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Passa al record successivo nell'origine dati. |
 
 ## Osservazioni
 
-Quando viene creata un'origine dati, deve essere inizializzata in modo che punti a BOF (prima del primo record). Il motore di stampa unione Aspose.Words invocherà[`MoveNext`](./movenext/) per avanzare al record successivo e quindi invocare[`GetValue`](./getvalue/) per ogni campo di unione che incontra nel documento o nell'area di stampa unione corrente.
+Quando viene creata un'origine dati, dovrebbe essere inizializzata per puntare a BOF (prima del primo record). Il motore di stampa unione Aspose.Words invocherà[`MoveNext`](./movenext/) per avanzare al record successivo and quindi richiamare[`GetValue`](./getvalue/) per ogni campo unione incontrato nel documento o nell'area di stampa unione corrente.
 
 ## Esempi
 
@@ -77,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
- /// Un'origine dati di stampa unione personalizzata implementata per consentire Aspose.Words
-/// per inviare tramite posta unione i dati dagli oggetti Cliente ai documenti Microsoft Word.
+ /// Un'origine dati di unione di posta personalizzata che puoi implementare per consentire Aspose.Words
+/// per unire tramite posta i dati degli oggetti Cliente nei documenti Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -86,12 +86,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Quando inizializziamo l'origine dati, la sua posizione deve essere prima del primo record.
+        // Quando inizializziamo la sorgente dati, la sua posizione deve essere precedente al primo record.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo quando si esegue la stampa unione con aree ripetibili.
     /// </summary>
     public string TableName
     {

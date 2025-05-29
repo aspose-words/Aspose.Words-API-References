@@ -3,9 +3,9 @@ title: RevisionCollection.AcceptAll
 linktitle: AcceptAll
 articleTitle: AcceptAll
 second_title: Aspose.Words per .NET
-description: RevisionCollection AcceptAll metodo. Accetta tutte le revisioni in questa raccolta in C#.
+description: Scopri il metodo AcceptAll di RevisionCollection per integrare perfettamente tutte le revisioni, migliorando l'efficienza del flusso di lavoro e la collaborazione.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection.AcceptAll method
@@ -29,11 +29,11 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// Il confronto dei documenti con le revisioni genererà un'eccezione.
+// Il confronto tra documenti e revisioni genererà un'eccezione.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// Dopo il confronto, il documento originale riceverà una nuova revisione
+// Dopo il confronto, il documento originale otterrà una nuova revisione
 // per ogni elemento diverso nel documento modificato.
 foreach (Revision r in docOriginal.Revisions)
 {
@@ -41,7 +41,7 @@ foreach (Revision r in docOriginal.Revisions)
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// Accettare queste revisioni trasformerà il documento originale nel documento modificato.
+// L'accettazione di queste revisioni trasformerà il documento originale nel documento modificato.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());

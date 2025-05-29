@@ -3,14 +3,14 @@ title: IDocumentLoadingCallback Interface
 linktitle: IDocumentLoadingCallback
 articleTitle: IDocumentLoadingCallback
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Loading.IDocumentLoadingCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante il caricamento di un documento in C#.
+description: Personalizza il caricamento dei documenti con Aspose.Words.IDocumentLoadingCallback. Implementa il tuo metodo per un maggiore controllo e flessibilità nella gestione dei documenti.
 type: docs
-weight: 3630
+weight: 4080
 url: /it/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
 
-Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante il caricamento di un documento.
+Implementa questa interfaccia se vuoi che venga chiamato il tuo metodo personalizzato durante il caricamento di un documento.
 
 ```csharp
 public interface IDocumentLoadingCallback
@@ -20,7 +20,7 @@ public interface IDocumentLoadingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | Viene richiamato per notificare l'avanzamento del caricamento del documento. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | Viene chiamato per notificare l'avanzamento del caricamento del documento. |
 
 ## Esempi
 
@@ -41,7 +41,7 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Gestisce il problema relativo alla durata del caricamento.
+        // Gestisci il problema della durata del caricamento.
     }
 }
 
@@ -51,7 +51,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centro
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -61,7 +61,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     /// <summary>
     /// Metodo di callback chiamato durante il caricamento del documento.
     /// </summary>
-    /// <param name="args">Caricamento degli argomenti.</param>
+    /// <param name="args">Caricamento argomenti.</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -72,7 +72,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Data e ora in cui viene avviato il caricamento del documento.
+    /// Data e ora di inizio del caricamento del documento.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

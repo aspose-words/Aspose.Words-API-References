@@ -3,7 +3,7 @@ title: ShapeBase.AnchorLocked
 linktitle: AnchorLocked
 articleTitle: AnchorLocked
 second_title: Aspose.Words per .NET
-description: ShapeBase AnchorLocked proprietà. Specifica se lancoraggio della forma è bloccato in C#.
+description: Scopri la proprietà ShapeBase AnchorLocked per controllare il blocco dell'ancoraggio per le forme, migliorando la stabilità del design e la flessibilità nei tuoi progetti.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -20,9 +20,9 @@ public bool AnchorLocked { get; set; }
 
 Il valore predefinito è`falso`.
 
-Ha effetto solo per le forme di livello superiore.
+Ha effetto solo sulle forme di livello superiore.
 
-Questa proprietà influisce sul comportamento dell'ancora della forma in Microsoft Word. Quando l'ancora non è bloccata, lo spostamento della forma in Microsoft Word può spostare anche l'ancora della forma.
+Questa proprietà influenza il comportamento dell'ancoraggio della forma in Microsoft Word. Quando l'ancoraggio non è bloccato, spostando la forma in Microsoft Word è possibile spostare anche l'ancoraggio della forma.
 
 ## Esempi
 
@@ -42,13 +42,13 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 builder.Writeln("Hello again!");
 
 // Imposta la proprietà "AnchorLocked" su "true" per impedire l'ancoraggio della forma
-// dallo spostamento quando si sposta la forma in Microsoft Word.
+// si sposti quando si sposta la forma in Microsoft Word.
 // Imposta la proprietà "AnchorLocked" su "false" per consentire qualsiasi movimento della forma
-// per spostare l'ancoraggio anche su qualsiasi altro paragrafo a cui la forma finisce vicino.
+// per spostare anche il suo ancoraggio su qualsiasi altro paragrafo vicino al quale la forma finisce.
 shape.AnchorLocked = anchorLocked;
 
 // Se la forma non ha un simbolo di ancoraggio visibile alla sua sinistra,
-// dovremo abilitare gli ancoraggi visibili tramite "Opzioni" -> "Visualizza" -> "Ancore di oggetti".
+// dovremo abilitare le ancore visibili tramite "Opzioni" -> "Visualizzazione" -> "Ancore oggetto".
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.BackgroundColor
 linktitle: BackgroundColor
 articleTitle: BackgroundColor
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode BackgroundColor proprietà. Ottiene o imposta il colore di sfondo del simbolo del codice a barre. I valori validi sono nellintervallo 0 0xFFFFFF in C#.
+description: Personalizza l'aspetto del tuo codice a barre con la proprietà FieldDisplayBarcode BackgroundColor. Imposta colori vivaci per una maggiore visibilità e un migliore branding.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
 ---
 ## FieldDisplayBarcode.BackgroundColor property
 
-Ottiene o imposta il colore di sfondo del simbolo del codice a barre. I valori validi sono nell'intervallo [0, 0xFFFFFF]
+Ottiene o imposta il colore di sfondo del simbolo del codice a barre. I valori validi sono compresi nell'intervallo [0, 0xFFFFFF]
 
 ```csharp
 public string BackgroundColor { get; set; }

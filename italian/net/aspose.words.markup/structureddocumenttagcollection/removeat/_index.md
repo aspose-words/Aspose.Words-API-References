@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagCollection RemoveAt metodo. Rimuove un tag di documento strutturato nellindice specificato in C#.
+description: Gestisci senza sforzo i tag dei tuoi documenti strutturati con il metodo RemoveAt. Rimuovi rapidamente i tag per indice per una modifica semplificata dei documenti.
 type: docs
 weight: 80
 url: /it/net/aspose.words.markup/structureddocumenttagcollection/removeat/
 ---
 ## StructuredDocumentTagCollection.RemoveAt method
 
-Rimuove un tag di documento strutturato nell'indice specificato.
+Rimuove un tag di documento strutturato all'indice specificato.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | Un indice nella raccolta. |
+| index | Int32 | Un indice della collezione. |
 
 ## Esempi
 
@@ -39,9 +39,9 @@ sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
 Assert.AreEqual(5, structuredDocumentTags.Count);
-// Rimuove il tag del documento strutturato per ID.
+// Rimuovi il tag del documento strutturato tramite Id.
 structuredDocumentTags.Remove(1691867797);
-// Rimuove il tag del documento strutturato nella posizione 0.
+// Rimuovi il tag del documento strutturato dalla posizione 0.
 structuredDocumentTags.RemoveAt(0);
 Assert.AreEqual(3, structuredDocumentTags.Count);
 ```

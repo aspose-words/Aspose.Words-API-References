@@ -3,7 +3,7 @@ title: NodeList.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words per .NET
-description: NodeList ToArray metodo. Copia tutti i nodi dalla raccolta in un nuovo array di nodi in C#.
+description: Converti senza sforzo NodeList in un array con il metodo ToArray, semplificando la manipolazione dei nodi e migliorando il flusso di lavoro di sviluppo web.
 type: docs
 weight: 40
 url: /it/net/aspose.words/nodelist/toarray/
@@ -18,13 +18,13 @@ public Node[] ToArray()
 
 ### Valore di ritorno
 
-Una matrice di nodi.
+Una serie di nodi.
 
 ## Osservazioni
 
-Non dovresti aggiungere/rimuovere nodi durante l'iterazione su una raccolta di nodi perché invalida l'iteratore e richiede aggiornamenti per le raccolte attive.
+Non dovresti aggiungere/rimuovere nodi durante l'iterazione su una raccolta di nodi perché ciò invalida l'iteratore e richiede aggiornamenti per le raccolte attive.
 
-Per poter aggiungere/rimuovere nodi durante l'iterazione, utilizzare questo metodo per copiare i nodi in un array di dimensioni fisse e quindi scorrere l'array.
+Per poter aggiungere/rimuovere nodi durante l'iterazione, utilizzare questo metodo per copiare nodi in un array di dimensione fissa e quindi iterare sull'array.
 
 ## Esempi
 
@@ -37,20 +37,20 @@ Document doc = new Document(MyDir + "Tables.docx");
 // che sono discendenti di qualsiasi nodo della tabella nel documento.
 NodeList nodeList = doc.SelectNodes("//Tabella//Paragrafo");
 
-// Scorre l'elenco con un enumeratore e stampa il contenuto di ogni paragrafo in ogni cella della tabella.
+// Scorrere l'elenco con un enumeratore e stampare il contenuto di ogni paragrafo in ogni cella della tabella.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Body nel documento.
+// Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Corpo nel documento.
 nodeList = doc.SelectNodes("//Corpo/Paragrafo");
 
-// Possiamo trattare la lista come un array.
+// Possiamo trattare l'elenco come un array.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// Utilizza SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
+// Utilizzare SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
 Node node = doc.SelectSingleNode("//Corpo/Paragrafo");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());

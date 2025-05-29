@@ -3,7 +3,7 @@ title: FieldDocVariable.VariableName
 linktitle: VariableName
 articleTitle: VariableName
 second_title: Aspose.Words per .NET
-description: FieldDocVariable VariableName proprietà. Ottiene o imposta il nome della variabile del documento da recuperare in C#.
+description: Scopri la proprietà FieldDocVariable VariableName per gestire facilmente le variabili dei documenti. Semplifica il recupero e migliora la gestione dei tuoi documenti oggi stesso!
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fielddocvariable/variablename/
@@ -24,9 +24,9 @@ Mostra come utilizzare i campi DOCPROPERTY per visualizzare le proprietà e le v
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportati due modi di utilizzare i campi DOCPROPERTY.
-// 1 - Visualizza una proprietà integrata:
-// Imposta un valore personalizzato per la proprietà incorporata "Categoria", quindi inserisci un campo DOCPROPERTY che faccia riferimento ad essa.
+// Di seguito sono riportati due modi per utilizzare i campi DOCPROPERTY.
+// 1 - Visualizza una proprietà incorporata:
+// Imposta un valore personalizzato per la proprietà integrata "Categoria", quindi inserisci un campo DOCPROPERTY che vi faccia riferimento.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -38,8 +38,8 @@ Assert.AreEqual("My category", fieldDocProperty.Result);
 builder.InsertParagraph();
 
 // 2 - Visualizza una variabile di documento personalizzata:
-// Definisce una variabile personalizzata, quindi fa riferimento a tale variabile con un campo DOCPROPERTY.
-Assert.That(doc.Variables, Is.Empty);
+// Definisci una variabile personalizzata, quindi fai riferimento a tale variabile con un campo DOCPROPERTY.
+Assert.AreEqual(0, doc.Variables.Count);
 doc.Variables.Add("My variable", "My variable's value");
 
 FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);

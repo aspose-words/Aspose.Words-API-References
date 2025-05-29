@@ -3,14 +3,14 @@ title: TextBox.Next
 linktitle: Next
 articleTitle: Next
 second_title: Aspose.Words per .NET
-description: TextBox Next proprietà. Restituisce o imposta aTextBox che rappresenta il successivoTextBox in una sequenza di forme in C#.
+description: Scopri come la proprietà TextBox Next ottimizza il flusso di lavoro di progettazione collegando in modo fluido le caselle di testo nei progetti per una migliore organizzazione.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Restituisce o imposta a[`TextBox`](../) che rappresenta il successivo[`TextBox`](../) in una sequenza di forme.
+Restituisce o imposta un[`TextBox`](../) che rappresenta il prossimo[`TextBox`](../)in una sequenza di forme.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Solo una casella di testo vuota può avere un collegamento.
+// Solo una casella di testo vuota può contenere un collegamento.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Interrompe il collegamento in avanti tra textBox2 e textBox3, quindi verifica che non siano più collegati.
+    // Interrompere il collegamento in avanti tra textBox2 e textBox3, quindi verificare che non siano più collegati.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

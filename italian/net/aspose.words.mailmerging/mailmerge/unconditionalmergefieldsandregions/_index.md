@@ -3,14 +3,14 @@ title: MailMerge.UnconditionalMergeFieldsAndRegions
 linktitle: UnconditionalMergeFieldsAndRegions
 articleTitle: UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words per .NET
-description: MailMerge UnconditionalMergeFieldsAndRegions proprietà. Ottiene o imposta un valore che indica se i campi e le aree di unione vengono uniti indipendentemente dalla condizione del campo IF padre in C#.
+description: Scopri come la proprietà UnconditionalMergeFieldsAndRegions di MailMerge migliora l'automazione dei documenti unendo campi e regioni senza limiti condizionali.
 type: docs
 weight: 140
 url: /it/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
 ---
 ## MailMerge.UnconditionalMergeFieldsAndRegions property
 
-Ottiene o imposta un valore che indica se i campi e le aree di unione vengono uniti indipendentemente dalla condizione del campo IF padre.
+Ottiene o imposta un valore che indica se i campi di unione e le regioni di unione vengono uniti indipendentemente dalla condizione del campo IF padre.
 
 ```csharp
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
@@ -22,13 +22,13 @@ Il valore predefinito è`falso` .
 
 ## Esempi
 
-Mostra come unire campi o regioni indipendentemente dalla condizione del campo IF principale.
+Mostra come unire campi o regioni indipendentemente dalla condizione del campo IF padre.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce un MERGEFIELD nidificato all'interno di un campo IF.
+// Inserisce un MERGEFIELD annidato all'interno di un campo IF.
 // Poiché l'istruzione del campo IF è falsa, non verrà visualizzato il risultato di MERGEFIELD.
 // Anche il MERGEFIELD non riceverà alcun dato durante una stampa unione.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
@@ -36,9 +36,9 @@ builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
 // Se impostiamo il flag "UnconditionalMergeFieldsAndRegions" su "true",
-// la nostra stampa unione inserirà i dati nei campi non visualizzati come il nostro MERGEFIELD e tutti gli altri.
+// la nostra stampa unione inserirà i dati nei campi non visualizzati, come MERGEFIELD e tutti gli altri.
 // Se impostiamo il flag "UnconditionalMergeFieldsAndRegions" su "false",
-// la nostra stampa unione non inserirà i dati nei MERGEFIELD nascosti dai campi IF con false dichiarazioni.
+// la nostra stampa unione non inserirà dati nei MERGEFIELD nascosti dai campi IF con istruzioni false.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

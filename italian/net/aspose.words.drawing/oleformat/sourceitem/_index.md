@@ -3,14 +3,14 @@ title: OleFormat.SourceItem
 linktitle: SourceItem
 articleTitle: SourceItem
 second_title: Aspose.Words per .NET
-description: OleFormat SourceItem proprietà. Ottiene o imposta una stringa utilizzata per identificare la parte del file di origine collegata in C#.
+description: Scopri la proprietà SourceItem di OleFormat, identifica e gestisci facilmente le parti collegate del tuo file sorgente con questa funzionalità essenziale delle stringhe.
 type: docs
 weight: 110
 url: /it/net/aspose.words.drawing/oleformat/sourceitem/
 ---
 ## OleFormat.SourceItem property
 
-Ottiene o imposta una stringa utilizzata per identificare la parte del file di origine collegata.
+Ottiene o imposta una stringa utilizzata per identificare la parte del file sorgente che viene collegata.
 
 ```csharp
 public string SourceItem { get; set; }
@@ -20,11 +20,11 @@ public string SourceItem { get; set; }
 
 Il valore predefinito è una stringa vuota.
 
-Ad esempio, se il file di origine è una cartella di lavoro di Microsoft Excel, il file`SourceItem` La proprietà potrebbe restituire "Workbook1!R3C1:R4C2" se l'oggetto OLE contiene solo poche celle da nel foglio di lavoro.
+Ad esempio, se il file di origine è una cartella di lavoro di Microsoft Excel,`SourceItem` La proprietà potrebbe restituire "Workbook1!R3C1:R4C2" se l'oggetto OLE contiene solo alcune celle del foglio di lavoro.
 
 ## Esempi
 
-Mostra come inserire oggetti OLE collegati e scollegati.
+Mostra come inserire oggetti OLE collegati e non collegati.
 
 ```csharp
 Document doc = new Document();
@@ -33,10 +33,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Incorpora un disegno di Microsoft Visio nel documento come oggetto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Inserisci un collegamento al file nel file system locale e visualizzalo come un'icona.
+// Inserisce un collegamento al file nel file system locale e lo visualizza come icona.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// L'inserimento di oggetti OLE crea forme che memorizzano questi oggetti.
+// L'inserimento di oggetti OLE crea forme che memorizzano tali oggetti.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Se l'oggetto contiene dati OLE, possiamo accedervi utilizzando uno stream.
+// Se l'oggetto contiene dati OLE, possiamo accedervi tramite un flusso.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

@@ -3,7 +3,7 @@ title: BorderCollection.Vertical
 linktitle: Vertical
 articleTitle: Vertical
 second_title: Aspose.Words per .NET
-description: BorderCollection Vertical proprietà. Ottiene il bordo verticale utilizzato tra le celle in C#.
+description: Scopri la proprietà BorderCollection Vertical per bordi di celle senza soluzione di continuità. Migliora il tuo design con bordi verticali personalizzabili per un look raffinato!
 type: docs
 weight: 130
 url: /it/net/aspose.words/bordercollection/vertical/
@@ -18,7 +18,7 @@ public Border Vertical { get; }
 
 ## Esempi
 
-Mostra come applicare le impostazioni ai bordi verticali al formato di una riga di tabella.
+Mostra come applicare le impostazioni ai bordi verticali nel formato di una riga di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Il formato di una riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
+// Un formato di riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

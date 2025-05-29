@@ -3,14 +3,14 @@ title: PlainTextDocument.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words per .NET
-description: PlainTextDocument Text proprietà. Ottiene il contenuto testuale del documento concatenato come una stringa in C#.
+description: Accedi alla proprietà text di PlainTextDocument per recuperare il contenuto del documento come un'unica stringa, migliorando la gestione e l'analisi dei dati.
 type: docs
 weight: 40
 url: /it/net/aspose.words/plaintextdocument/text/
 ---
 ## PlainTextDocument.Text property
 
-Ottiene il contenuto testuale del documento concatenato come una stringa.
+Ottiene il contenuto testuale del documento concatenato come stringa.
 
 ```csharp
 public string Text { get; }

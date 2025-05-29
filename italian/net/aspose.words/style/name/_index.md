@@ -3,9 +3,9 @@ title: Style.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words per .NET
-description: Style Name proprietà. Ottiene o imposta il nome dello stile in C#.
+description: Scopri la proprietà Nome stile, gestisci e personalizza facilmente i tuoi stili per una maggiore flessibilità di progettazione e un'esperienza utente migliore.
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -20,7 +20,7 @@ public string Name { get; set; }
 
 Non può essere una stringa vuota.
 
-Se nella raccolta è già presente uno stile con questo nome, questo stile lo sovrascriverà. Tutti i nodi interessati faranno riferimento al nuovo stile.
+Se nella collezione esiste già uno stile con questo nome, questo stile lo sovrascriverà. Tutti i nodi interessati faranno riferimento al nuovo stile.
 
 ## Esempi
 
@@ -31,7 +31,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumera ed elenca tutti gli stili che un documento creato utilizzando Aspose.Words contiene per impostazione predefinita.
+// Enumera ed elenca tutti gli stili contenuti per impostazione predefinita in un documento creato utilizzando Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -53,14 +53,14 @@ Mostra come clonare lo stile di un documento.
 Document doc = new Document();
 
 // Il metodo AddCopy crea una copia dello stile specificato e
-// genera automaticamente un nuovo nome per lo stile, ad esempio "Intestazione 1_0".
+// genera automaticamente un nuovo nome per lo stile, ad esempio "Titolo 1_0".
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// Utilizza la proprietà "Nome" dello stile per modificare il nome identificativo dello stile.
+// Utilizzare la proprietà "Nome" dello stile per modificare il nome identificativo dello stile.
 newStyle.Name = "My Heading 1";
 
-// Il nostro documento ora ha due stili identici con nomi diversi.
-// La modifica delle impostazioni di uno degli stili non influisce sull'altro.
+// Il nostro documento ora ha due stili identici ma con nomi diversi.
+// La modifica delle impostazioni di uno stile non influisce sull'altro.
 newStyle.Font.Color = Color.Red;
 
 Assert.AreEqual("My Heading 1", newStyle.Name);

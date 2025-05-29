@@ -3,9 +3,9 @@ title: Section.DeleteHeaderFooterShapes
 linktitle: DeleteHeaderFooterShapes
 articleTitle: DeleteHeaderFooterShapes
 second_title: Aspose.Words per .NET
-description: Section DeleteHeaderFooterShapes metodo. Elimina tutte le forme oggetti di disegno dalle intestazioni e dai piè di pagina di questa sezione in C#.
+description: Rimuovi senza sforzo tutte le forme di disegno dalle intestazioni e dai piè di pagina delle sezioni con il metodo DeleteHeaderFooterShapes, per una presentazione più pulita del documento.
 type: docs
-weight: 120
+weight: 140
 url: /it/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
@@ -18,7 +18,7 @@ public void DeleteHeaderFooterShapes()
 
 ## Esempi
 
-Mostra come rimuovere tutte le forme da tutti i piè di pagina delle intestazioni in una sezione.
+Mostra come rimuovere tutte le forme da tutte le intestazioni e i piè di pagina di una sezione.
 
 ```csharp
 Document doc = new Document();
@@ -30,12 +30,12 @@ builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
 // Crea un piè di pagina principale con un'immagine.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.InsertImage(ImageDir + "Logo Icon.ico");
+builder.InsertImage(ImageDir + "Logo icon.ico");
 
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
 
-// Rimuove tutte le forme dalle intestazioni e dai piè di pagina nella prima sezione.
+// Rimuovere tutte le forme dalle intestazioni e dai piè di pagina nella prima sezione.
 doc.FirstSection.DeleteHeaderFooterShapes();
 
 Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);

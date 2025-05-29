@@ -3,9 +3,9 @@ title: ChartAxis.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words per .NET
-description: ChartAxis Type proprietà. Restituisce il tipo dellasse in C#.
+description: Scopri la proprietà Tipo ChartAxis per identificare facilmente i tipi di asse e migliorare la visualizzazione dei dati per ottenere informazioni più chiare e analisi migliori.
 type: docs
-weight: 290
+weight: 260
 url: /it/net/aspose.words.drawing.charts/chartaxis/type/
 ---
 ## ChartAxis.Type property
@@ -27,16 +27,16 @@ public void ChartSeriesCollection()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Esistono diversi modi per popolare la raccolta di serie di un grafico.
-    // Schemi di serie diversi sono destinati a tipi di grafici diversi.
-    // 1 - Istogramma con colonne raggruppate e fasciate lungo l'asse X per categoria:
+    // Diversi schemi di serie sono pensati per diversi tipi di grafici.
+    // 1 - Grafico a colonne con colonne raggruppate e disposte lungo l'asse X per categoria:
     Chart chart = AppendChart(builder, ChartType.Column, 500, 300);
 
     string[] categories = { "Category 1", "Category 2", "Category 3" };
 
-    // Inserisci due serie di valori decimali contenenti un valore per ciascuna rispettiva categoria.
-    // Questo istogramma avrà tre gruppi, ciascuno con due colonne.
-    chart.Series.Add("Series 1", categories, new [] { 76.6, 82.1, 91.6 });
-    chart.Series.Add("Series 2", categories, new [] { 64.2, 79.5, 94.0 });
+    // Inserire due serie di valori decimali contenenti un valore per ciascuna rispettiva categoria.
+    // Questo grafico a colonne avrà tre gruppi, ciascuno con due colonne.
+    chart.Series.Add("Series 1", categories, new[] { 76.6, 82.1, 91.6 });
+    chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Le categorie sono distribuite lungo l'asse X e i valori sono distribuiti lungo l'asse Y.
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
@@ -52,25 +52,25 @@ public void ChartSeriesCollection()
         new DateTime(2020, 9, 7)
     };
 
-    // Inserisce una serie con un valore decimale per ciascuna data rispettiva.
-    // Le date verranno distribuite lungo un asse X lineare,
+    // Inserire una serie con un valore decimale per ogni rispettiva data.
+    // Le date saranno distribuite lungo un asse X lineare,
     // e i valori aggiunti a questa serie creeranno punti dati.
-    chart.Series.Add("Series 1", dates, new [] { 15.8, 21.5, 22.9, 28.7, 33.1 });
+    chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
     Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
     Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
 
-    // 3 - Grafico a dispersione 2D:
+    // 3 - Diagramma di dispersione 2D:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
 
-    // Ogni serie avrà bisogno di due array decimali di uguale lunghezza.
-    // Il primo array contiene valori X e il secondo contiene valori Y corrispondenti
-    // di punti dati sul grafico del grafico.
-    chart.Series.Add("Series 1", 
-        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 }, 
+    // Ogni serie necessiterà di due array decimali di uguale lunghezza.
+    // Il primo array contiene i valori X e il secondo contiene i corrispondenti valori Y
+    // dei punti dati sul grafico del grafico.
+    chart.Series.Add("Series 1",
+        new[] { 3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6 },
         new[] { 3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9 });
-    chart.Series.Add("Series 2", 
-        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 }, 
+    chart.Series.Add("Series 2",
+        new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
     Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
@@ -79,19 +79,19 @@ public void ChartSeriesCollection()
     // 4 - Grafico a bolle:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
 
-    // Ogni serie avrà bisogno di tre array decimali di uguale lunghezza.
-    // Il primo array contiene valori X, il secondo contiene valori Y corrispondenti,
+    // Ogni serie necessiterà di tre array decimali di uguale lunghezza.
+    // Il primo array contiene i valori X, il secondo contiene i corrispondenti valori Y,
     // e il terzo contiene i diametri per ciascuno dei punti dati del grafico.
-    chart.Series.Add("Series 1", 
-        new [] { 1.1, 5.0, 9.8 }, 
-        new [] { 1.2, 4.9, 9.9 }, 
-        new [] { 2.0, 4.0, 8.0 });
+    chart.Series.Add("Series 1",
+        new[] { 1.1, 5.0, 9.8 },
+        new[] { 1.2, 4.9, 9.9 },
+        new[] { 2.0, 4.0, 8.0 });
 
     doc.Save(ArtifactsDir + "Charts.ChartSeriesCollection.docx");
 }
 
 /// <summary>
-/// Inserisci un grafico utilizzando un generatore di documenti con un ChartType, una larghezza e un'altezza specificati e rimuovi i relativi dati demo.
+/// Inserire un grafico utilizzando un generatore di documenti con un ChartType, larghezza e altezza specificati e rimuovere i relativi dati demo.
 /// </summary>
 private static Chart AppendChart(DocumentBuilder builder, ChartType chartType, double width, double height)
 {

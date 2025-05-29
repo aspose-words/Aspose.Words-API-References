@@ -3,9 +3,9 @@ title: HtmlFixedSaveOptions.PageHorizontalAlignment
 linktitle: PageHorizontalAlignment
 articleTitle: PageHorizontalAlignment
 second_title: Aspose.Words per .NET
-description: HtmlFixedSaveOptions PageHorizontalAlignment proprietà. Specifica lallineamento orizzontale delle pagine in un documento HTML. Il valore predefinito èCenter  in C#.
+description: Scopri la proprietà PageHorizontalAlignment di HtmlFixedSaveOptions per controllare facilmente l'allineamento delle pagine nei documenti HTML. L'impostazione predefinita è Center per una presentazione ottimale.
 type: docs
-weight: 110
+weight: 120
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
@@ -18,7 +18,7 @@ public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 
 ## Esempi
 
-Mostra come impostare l'allineamento orizzontale delle pagine durante il salvataggio di un documento in HTML.
+Mostra come impostare l'allineamento orizzontale delle pagine quando si salva un documento in formato HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -39,11 +39,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

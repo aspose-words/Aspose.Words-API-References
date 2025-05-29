@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.FontConfigSubstitution
 linktitle: FontConfigSubstitution
 articleTitle: FontConfigSubstitution
 second_title: Aspose.Words per .NET
-description: FontSubstitutionSettings FontConfigSubstitution proprietà. Impostazioni relative alla regola di sostituzione della configurazione dei caratteri in C#.
+description: Esplora FontSubstitutionSettings per una configurazione ottimizzata dei font. Scopri come migliorare la tipografia con efficaci regole di sostituzione per un design migliore.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 ---
 ## FontSubstitutionSettings.FontConfigSubstitution property
 
-Impostazioni relative alla regola di sostituzione della configurazione dei caratteri.
+Impostazioni relative alla regola di sostituzione della configurazione del font.
 
 ```csharp
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
@@ -18,7 +18,7 @@ public FontConfigSubstitutionRule FontConfigSubstitution { get; }
 
 ## Esempi
 
-Mostra la sostituzione della configurazione dei caratteri dipendente dal sistema operativo.
+Mostra la sostituzione della configurazione dei font in base al sistema operativo.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// L'oggetto FontConfigSubstitutionRule funziona in modo diverso su piattaforme Windows/non Windows.
+// L'oggetto FontConfigSubstitutionRule funziona in modo diverso sulle piattaforme Windows e non Windows.
 // Su Windows non è disponibile.
 if (isWindows)
 {
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Su Linux/Mac avremo accesso ad esso e saremo in grado di eseguire operazioni.
+// Su Linux/Mac avremo accesso ad esso e potremo eseguire operazioni.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

@@ -3,14 +3,14 @@ title: PageSetup.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words per .NET
-description: PageSetup ClearFormatting metodo. Ripristina limpostazione della pagina sul formato carta sui margini e sullorientamento predefiniti in C#.
+description: Ripristina facilmente l'impostazione di pagina del tuo documento con il metodo ClearFormatting. Ripristina margini, formato carta e orientamento predefiniti per un aspetto impeccabile.
 type: docs
 weight: 460
 url: /it/net/aspose.words/pagesetup/clearformatting/
 ---
 ## PageSetup.ClearFormatting method
 
-Ripristina l'impostazione della pagina sul formato carta, sui margini e sull'orientamento predefiniti.
+Ripristina le impostazioni di pagina predefinite per formato carta, margini e orientamento.
 
 ```csharp
 public void ClearFormatting()
@@ -18,13 +18,13 @@ public void ClearFormatting()
 
 ## Esempi
 
-Mostra come applicare e ripristinare le impostazioni di impostazione della pagina nelle sezioni di un documento.
+Mostra come applicare e ripristinare le impostazioni di impostazione della pagina alle sezioni di un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifica le proprietà di impostazione della pagina per la sezione corrente del builder e aggiunge testo.
+// Modifica le proprietà di impostazione della pagina per la sezione corrente del builder e aggiungi del testo.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
@@ -36,7 +36,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Possiamo ripristinare le proprietà di impostazione della pagina ai valori predefiniti utilizzando il metodo "ClearFormatting".
+// Possiamo ripristinare i valori predefiniti delle proprietà di impostazione della pagina utilizzando il metodo "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

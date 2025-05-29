@@ -3,14 +3,14 @@ title: DigitalSignature.IssuerName
 linktitle: IssuerName
 articleTitle: IssuerName
 second_title: Aspose.Words per .NET
-description: DigitalSignature IssuerName proprietà. Restituisce il nome distinto del soggetto del certificato emesso in C#.
+description: Scopri la proprietà DigitalSignature IssuerName, che fornisce il nome distintivo dell'emittente per una maggiore sicurezza e affidabilità nei tuoi certificati digitali.
 type: docs
 weight: 30
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/issuername/
 ---
 ## DigitalSignature.IssuerName property
 
-Restituisce il nome distinto del soggetto del certificato emesso.
+Restituisce il nome distinto del soggetto del certificato isuuer.
 
 ```csharp
 public string IssuerName { get; }
@@ -28,13 +28,14 @@ Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigital
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Esistono due modi per salvare una copia firmata di un documento nel file system locale:
-// 1 - Designa un documento con un nome file di sistema locale e salva una copia firmata in una posizione specificata da un altro nome file.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 - Designa un documento tramite un nome file di sistema locale e salva una copia firmata in una posizione specificata da un altro nome file.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Prendi un documento da uno stream e salva una copia firmata in un altro stream.
+// 2 - Prendi un documento da un flusso e salva una copia firmata in un altro flusso.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -45,7 +46,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// Verifica che tutte le firme digitali del documento siano valide e controllane i dettagli.
+// Si prega di verificare che tutte le firme digitali del documento siano valide e di controllarne i dettagli.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

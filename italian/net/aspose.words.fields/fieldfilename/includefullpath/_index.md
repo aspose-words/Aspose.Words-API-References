@@ -3,7 +3,7 @@ title: FieldFileName.IncludeFullPath
 linktitle: IncludeFullPath
 articleTitle: IncludeFullPath
 second_title: Aspose.Words per .NET
-description: FieldFileName IncludeFullPath proprietà. Ottiene o imposta se includere il nome completo del percorso del file in C#.
+description: Scopri la proprietà FieldFileName IncludeFullPath e gestisci facilmente i percorsi dei file con impostazioni personalizzabili per una migliore gestione e organizzazione dei file.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldfilename/includefullpath/
@@ -37,14 +37,14 @@ Assert.AreEqual("Document.docx", field.Result);
 builder.Writeln();
 
 // Per impostazione predefinita, il campo FILENAME mostra il nome del file, ma non il percorso completo del file system locale.
-// Possiamo impostare un flag per mostrare il percorso completo del file.
+// Possiamo impostare un flag per far sì che venga visualizzato il percorso completo del file.
 field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
 field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// Possiamo anche impostare un valore per questa proprietà
+// Possiamo anche impostare un valore per questa proprietà su
 // sovrascrive il valore visualizzato nel campo FILENAME.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();

@@ -3,7 +3,7 @@ title: PageSetup.FootnoteOptions
 linktitle: FootnoteOptions
 articleTitle: FootnoteOptions
 second_title: Aspose.Words per .NET
-description: PageSetup FootnoteOptions proprietà. Fornisce opzioni che controllano la numerazione e il posizionamento delle note a piè di pagina in questa sezione in C#.
+description: Scopri PageSetup FootnoteOptions per personalizzare facilmente la numerazione e il posizionamento delle note a piè di pagina, per una maggiore chiarezza e professionalità dei documenti.
 type: docs
 weight: 150
 url: /it/net/aspose.words/pagesetup/footnoteoptions/
@@ -18,7 +18,7 @@ public FootnoteOptions FootnoteOptions { get; }
 
 ## Esempi
 
-Mostra come configurare le opzioni che influenzano le note a piè di pagina/note di chiusura in una sezione.
+Mostra come configurare le opzioni che influiscono sulle note a piè di pagina/note di chiusura in una sezione.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote reference text.");
 
 // Configura tutte le note a piè di pagina nella prima sezione per riavviare la numerazione da 1
-// ad ogni nuova pagina e vengono visualizzati direttamente sotto il testo su ogni pagina.
+// in ogni nuova pagina e si visualizzano direttamente sotto il testo in ogni pagina.
 FootnoteOptions footnoteOptions = doc.Sections[0].PageSetup.FootnoteOptions;
 footnoteOptions.Position = FootnotePosition.BeneathText;
 footnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;

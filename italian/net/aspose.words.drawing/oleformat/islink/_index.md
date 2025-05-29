@@ -3,14 +3,14 @@ title: OleFormat.IsLink
 linktitle: IsLink
 articleTitle: IsLink
 second_title: Aspose.Words per .NET
-description: OleFormat IsLink proprietà. RestituisceVERO se loggetto OLE è collegato whenSourceFullName è specificato in C#.
+description: Scopri la proprietà IsLink di OleFormat. Verifica facilmente se il tuo oggetto OLE è collegato a SourceFullName per una perfetta integrazione e gestione dei dati.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-Restituisce`VERO` se l'oggetto OLE è collegato (when[`SourceFullName`](../sourcefullname/) è specificato).
+Restituisce`VERO` se l'oggetto OLE è collegato (quando[`SourceFullName`](../sourcefullname/) è specificato).
 
 ```csharp
 public bool IsLink { get; }
@@ -18,7 +18,7 @@ public bool IsLink { get; }
 
 ## Esempi
 
-Mostra come inserire oggetti OLE collegati e scollegati.
+Mostra come inserire oggetti OLE collegati e non collegati.
 
 ```csharp
 Document doc = new Document();
@@ -27,10 +27,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Incorpora un disegno di Microsoft Visio nel documento come oggetto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Inserisci un collegamento al file nel file system locale e visualizzalo come un'icona.
+// Inserisce un collegamento al file nel file system locale e lo visualizza come icona.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// L'inserimento di oggetti OLE crea forme che memorizzano questi oggetti.
+// L'inserimento di oggetti OLE crea forme che memorizzano tali oggetti.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
@@ -55,7 +55,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Se l'oggetto contiene dati OLE, possiamo accedervi utilizzando uno stream.
+// Se l'oggetto contiene dati OLE, possiamo accedervi tramite un flusso.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

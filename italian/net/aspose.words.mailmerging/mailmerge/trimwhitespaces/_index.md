@@ -3,14 +3,14 @@ title: MailMerge.TrimWhitespaces
 linktitle: TrimWhitespaces
 articleTitle: TrimWhitespaces
 second_title: Aspose.Words per .NET
-description: MailMerge TrimWhitespaces proprietà. Ottiene o imposta un valore che indica se gli spazi finali e iniziali vengono eliminati dai valori di stampa unione in C#.
+description: Ottimizza il processo di unione dei dati con la proprietà TrimWhitespaces, che garantisce dati puliti rimuovendo gli spazi iniziali e finali per risultati accurati.
 type: docs
 weight: 130
 url: /it/net/aspose.words.mailmerging/mailmerge/trimwhitespaces/
 ---
 ## MailMerge.TrimWhitespaces property
 
-Ottiene o imposta un valore che indica se gli spazi finali e iniziali vengono eliminati dai valori di stampa unione.
+Ottiene o imposta un valore che indica se gli spazi vuoti iniziali e finali vengono tagliati dai valori di unione di posta.
 
 ```csharp
 public bool TrimWhitespaces { get; set; }
@@ -22,7 +22,7 @@ Il valore predefinito è`VERO` .
 
 ## Esempi
 
-Mostra come eliminare gli spazi dai valori di un'origine dati durante l'esecuzione di una stampa unione.
+Mostra come eliminare gli spazi vuoti dai valori di un'origine dati durante l'esecuzione di una stampa unione.
 
 ```csharp
 Document doc = new Document();

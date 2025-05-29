@@ -3,7 +3,7 @@ title: PageInfo.SizeInPoints
 linktitle: SizeInPoints
 articleTitle: SizeInPoints
 second_title: Aspose.Words per .NET
-description: PageInfo SizeInPoints proprietà. Ottiene la dimensione della pagina in punti in C#.
+description: Scopri la proprietà SizeInPoints di PageInfo per accedere facilmente alle dimensioni della tua pagina in punti, per un controllo preciso del layout e una maggiore efficienza di progettazione.
 type: docs
 weight: 60
 url: /it/net/aspose.words.rendering/pageinfo/sizeinpoints/
@@ -18,13 +18,13 @@ public SizeF SizeInPoints { get; }
 
 ## Esempi
 
-Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
+Mostra come stampare le informazioni relative alle dimensioni e all'orientamento della pagina per ogni pagina di un documento Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta diverso per la stampante,
-// il cui numero corrisponderà a un tipo di origine cartacea. Queste fonti e i loro tipi varieranno
+// La prima sezione è composta da 2 pagine. Assegneremo a ciascuna un vassoio carta diverso,
+// il cui numero corrisponderà a un tipo di fonte cartacea. Queste fonti e i loro tipi varieranno
 // a seconda del driver della stampante installato.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

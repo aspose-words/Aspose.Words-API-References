@@ -3,14 +3,14 @@ title: TabStopCollection.RemoveByIndex
 linktitle: RemoveByIndex
 articleTitle: RemoveByIndex
 second_title: Aspose.Words per .NET
-description: TabStopCollection RemoveByIndex metodo. Rimuove dalla raccolta un punto di tabulazione in corrispondenza dellindice specificato in C#.
+description: Gestisci senza sforzo le tue tabulazioni con il metodo RemoveByIndex. Rimuovi rapidamente qualsiasi tabulazione dalla tua raccolta per un design più snello.
 type: docs
 weight: 110
 url: /it/net/aspose.words/tabstopcollection/removebyindex/
 ---
 ## TabStopCollection.RemoveByIndex method
 
-Rimuove dalla raccolta un punto di tabulazione in corrispondenza dell'indice specificato.
+Rimuove una tabulazione all'indice specificato dalla raccolta.
 
 ```csharp
 public void RemoveByIndex(int index)
@@ -18,7 +18,7 @@ public void RemoveByIndex(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | Un indice nella raccolta di tabulazioni. |
+| index | Int32 | Un indice nella raccolta delle tabulazioni. |
 
 ## Esempi
 
@@ -33,7 +33,7 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Das
 
 Assert.AreEqual(2, tabStops.Count);
 
-// Rimuove la prima tabulazione.
+// Rimuovere la prima tabulazione.
 tabStops.RemoveByIndex(0);
 
 Assert.AreEqual(1, tabStops.Count);

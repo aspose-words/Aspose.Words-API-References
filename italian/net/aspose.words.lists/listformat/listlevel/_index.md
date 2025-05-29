@@ -3,14 +3,14 @@ title: ListFormat.ListLevel
 linktitle: ListLevel
 articleTitle: ListLevel
 second_title: Aspose.Words per .NET
-description: ListFormat ListLevel proprietà. Restituisce la formattazione a livello di elenco più eventuali sostituzioni di formattazione applicate al paragrafo corrente in C#.
+description: Scopri la proprietà ListFormat ListLevel per migliorare la struttura del tuo documento con formattazione degli elenchi personalizzabile e sovrascritture dei paragrafi per una maggiore chiarezza.
 type: docs
 weight: 30
 url: /it/net/aspose.words.lists/listformat/listlevel/
 ---
 ## ListFormat.ListLevel property
 
-Restituisce la formattazione a livello di elenco più eventuali sostituzioni di formattazione applicate al paragrafo corrente.
+Restituisce la formattazione a livello di elenco più eventuali sovrascritture di formattazione applicate al paragrafo corrente.
 
 ```csharp
 public ListLevel ListLevel { get; }
@@ -18,16 +18,16 @@ public ListLevel ListLevel { get; }
 
 ## Esempi
 
-Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
+Mostra come applicare la formattazione personalizzata degli elenchi ai paragrafi quando si utilizza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza i primi due livelli dell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizza i primi due livelli dell'elenco.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

@@ -3,14 +3,14 @@ title: PhoneticGuide.BaseText
 linktitle: BaseText
 articleTitle: BaseText
 second_title: Aspose.Words per .NET
-description: PhoneticGuide BaseText proprietà. Ottiene il testo di base della guida fonetica in C#.
+description: Scopri la proprietà PhoneticGuide BaseText per accedere facilmente al testo base della guida fonetica e migliorarlo per una maggiore chiarezza e comunicazione.
 type: docs
 weight: 10
 url: /it/net/aspose.words/phoneticguide/basetext/
 ---
 ## PhoneticGuide.BaseText property
 
-Ottiene il testo di base della guida fonetica.
+Ottiene il testo base della guida fonetica.
 
 ```csharp
 public string BaseText { get; }
@@ -21,13 +21,15 @@ public string BaseText { get; }
 Mostra come ottenere le proprietà della guida fonetica.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
-// Utilizza la guida fonetica nel testo asiatico.
+// Utilizzare la guida fonetica nel testo asiatico.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### Guarda anche

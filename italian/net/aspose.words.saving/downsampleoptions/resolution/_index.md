@@ -3,14 +3,14 @@ title: DownsampleOptions.Resolution
 linktitle: Resolution
 articleTitle: Resolution
 second_title: Aspose.Words per .NET
-description: DownsampleOptions Resolution proprietà. Specifica la risoluzione in pixel per pollice a cui eseguire il downsampling delle immagini in C#.
+description: Ottimizza la qualità dell'immagine con la proprietà Risoluzione DownsampleOptions, definendo i pixel per pollice ideali per risultati di downsampling superiori.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/downsampleoptions/resolution/
 ---
 ## DownsampleOptions.Resolution property
 
-Specifica la risoluzione in pixel per pollice a cui eseguire il downsampling delle immagini.
+Specifica la risoluzione in pixel per pollice a cui le immagini devono essere sottocampionate.
 
 ```csharp
 public int Resolution { get; set; }
@@ -27,25 +27,25 @@ Mostra come modificare la risoluzione delle immagini nel documento PDF.
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Per impostazione predefinita, Aspose.Words esegue il downsampling di tutte le immagini in un documento che salviamo in PDF a 220 ppi.
+// Per impostazione predefinita, Aspose.Words riduce a 220 ppi tutte le immagini in un documento che salviamo in PDF.
 Assert.True(options.DownsampleOptions.DownsampleImages);
 Assert.AreEqual(220, options.DownsampleOptions.Resolution);
 Assert.AreEqual(0, options.DownsampleOptions.ResolutionThreshold);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
 
-// Imposta la proprietà "Risoluzione" su "36" per eseguire il downsampling di tutte le immagini a 36 ppi.
+// Impostare la proprietà "Risoluzione" su "36" per ridurre il campionamento di tutte le immagini a 36 ppi.
 options.DownsampleOptions.Resolution = 36;
 
-// Imposta la proprietà "ResolutionThreshold" per applicare solo il downsampling
+// Imposta la proprietà "ResolutionThreshold" per applicare il downsampling solo a
 // immagini con una risoluzione superiore a 128 ppi.
 options.DownsampleOptions.ResolutionThreshold = 128;
 
-// In questa fase verrà eseguito il downsampling solo delle prime due immagini del documento.
+// In questa fase, solo le prime due immagini del documento verranno sottocampionate.
 doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.LowerResolution.pdf", options);
 ```
 

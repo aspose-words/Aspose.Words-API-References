@@ -1,15 +1,222 @@
 ---
 title: Paragraph.AcceptEnd
-second_title: Aspose.Words per .NET API Reference
-description: Paragraph metodo. 
+linktitle: AcceptEnd
+articleTitle: AcceptEnd
+second_title: Aspose.Words per .NET
+description: Scopri il metodo Paragraph AcceptEnd, progettato per migliorare la navigazione nei documenti accettando in modo efficiente i visitatori alla fine dei paragrafi.
 type: docs
 weight: 240
 url: /it/net/aspose.words/paragraph/acceptend/
 ---
 ## Paragraph.AcceptEnd method
 
+Accetta un visitatore per aver visitato la fine del paragrafo del documento.
+
 ```csharp
 public override VisitorAction AcceptEnd(DocumentVisitor visitor)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| visitor | DocumentVisitor | Il visitatore del documento. |
+
+### Valore di ritorno
+
+L'azione che il visitatore deve intraprendere.
+
+## Esempi
+
+Mostra come utilizzare un'implementazione di DocumentVisitor per rimuovere tutto il contenuto nascosto da un documento.
+
+```csharp
+public void RemoveHiddenContentFromDocument()
+{
+    Document doc = new Document(MyDir + "Hidden content.docx");
+    RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
+
+    // Di seguito sono riportati tre tipi di campi che possono accettare un visitatore del documento,
+    // che gli consentirà di visitare il nodo accettante e quindi attraversare i suoi nodi figlio in modalità depth-first.
+    // 1 - Nodo paragrafo:
+    Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
+    para.Accept(hiddenContentRemover);
+
+    // 2 - Nodo tabella:
+    Table table = doc.FirstSection.Body.Tables[0];
+    table.Accept(hiddenContentRemover);
+
+    // 3 - Nodo documento:
+    doc.Accept(hiddenContentRemover);
+
+    doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
+}
+
+/// <summary>
+/// Rimuove tutti i nodi visitati contrassegnati come "contenuto nascosto".
+/// </summary>
+public class RemoveHiddenContentVisitor : DocumentVisitor
+{
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
+    /// </summary>
+    public override VisitorAction VisitFieldStart(FieldStart fieldStart)
+    {
+        if (fieldStart.Font.Hidden)
+            fieldStart.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
+    /// </summary>
+    public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
+    {
+        if (fieldEnd.Font.Hidden)
+            fieldEnd.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
+    /// </summary>
+    public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
+    {
+        if (fieldSeparator.Font.Hidden)
+            fieldSeparator.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
+    /// </summary>
+    public override VisitorAction VisitRun(Run run)
+    {
+        if (run.Font.Hidden)
+            run.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un nodo Paragrafo.
+    /// </summary>
+    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
+    {
+        if (paragraph.ParagraphBreakFont.Hidden)
+            paragraph.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un FormField.
+    /// </summary>
+    public override VisitorAction VisitFormField(FormField formField)
+    {
+        if (formField.Font.Hidden)
+            formField.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un GroupShape.
+    /// </summary>
+    public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
+    {
+        if (groupShape.Font.Hidden)
+            groupShape.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevata una forma.
+    /// </summary>
+    public override VisitorAction VisitShapeStart(Shape shape)
+    {
+        if (shape.Font.Hidden)
+            shape.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un commento.
+    /// </summary>
+    public override VisitorAction VisitCommentStart(Comment comment)
+    {
+        if (comment.Font.Hidden)
+            comment.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevata una nota a piè di pagina.
+    /// </summary>
+    public override VisitorAction VisitFootnoteStart(Footnote footnote)
+    {
+        if (footnote.Font.Hidden)
+            footnote.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato uno SpecialCharacter.
+    /// </summary>
+    public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
+    {
+        Console.WriteLine(specialChar.GetText());
+
+        if (specialChar.Font.Hidden)
+            specialChar.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando la visita di un nodo Tabella nel documento è terminata.
+    /// </summary>
+    public override VisitorAction VisitTableEnd(Table table)
+    {
+        // Il contenuto all'interno delle celle della tabella potrebbe avere il flag di contenuto nascosto, ma le tabelle stesse no.
+        // Se questa tabella non avesse altro che contenuti nascosti, questo visitatore li avrebbe rimossi tutti,
+        // e non rimarrebbero nodi figlio.
+        // Pertanto, possiamo anche trattare la tabella stessa come contenuto nascosto e rimuoverla.
+        // Le tabelle vuote ma senza contenuto nascosto avranno celle con paragrafi vuoti all'interno,
+        // che questo visitatore non rimuoverà.
+        if (!table.HasChildNodes)
+            table.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando la visita di un nodo Cella è terminata nel documento.
+    /// </summary>
+    public override VisitorAction VisitCellEnd(Cell cell)
+    {
+        if (!cell.HasChildNodes && cell.ParentNode != null)
+            cell.Remove();
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando la visita di un nodo Riga nel documento è terminata.
+    /// </summary>
+    public override VisitorAction VisitRowEnd(Row row)
+    {
+        if (!row.HasChildNodes && row.ParentNode != null)
+            row.Remove();
+
+        return VisitorAction.Continue;
+    }
+}
 ```
 
 ### Guarda anche
@@ -17,7 +224,5 @@ public override VisitorAction AcceptEnd(DocumentVisitor visitor)
 * enum [VisitorAction](../../visitoraction/)
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Paragraph](../)
-* spazio dei nomi [Aspose.Words](../../paragraph/)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
 * assemblea [Aspose.Words](../../../)
-
-

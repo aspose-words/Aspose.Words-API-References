@@ -3,7 +3,7 @@ title: Cell.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words per .NET
-description: Cell FirstParagraph proprietà. Ottiene il primo paragrafo tra i figli immediati in C#.
+description: Scopri la proprietà Cell FirstParagraph per accedere senza sforzo al primo paragrafo dei sottotitoli immediati, migliorando così la gestione dei contenuti.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/cell/firstparagraph/
@@ -24,7 +24,7 @@ Mostra come creare una tabella nidificata utilizzando un generatore di documenti
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Costruisci la tabella esterna.
+// Crea la tabella esterna.
 Cell cell = builder.InsertCell();
 builder.Writeln("Outer Table Cell 1");
 builder.InsertCell();
@@ -53,7 +53,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crea un'altra tabella con due righe e due colonne e quindi inseriscila nella prima cella della prima tabella.
+    // Crea un'altra tabella con due righe e due colonne e inseriscila nella prima cella della prima tabella.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -61,7 +61,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Crea una nuova tabella nel documento con le dimensioni e il testo specificati in ogni cella.
+/// Crea una nuova tabella nel documento con le dimensioni specificate e il testo in ogni cella.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -84,7 +84,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
     // Puoi utilizzare le proprietà "Titolo" e "Descrizione" per aggiungere rispettivamente un titolo e una descrizione alla tua tabella.
     // La tabella deve avere almeno una riga prima di poter utilizzare queste proprietà.
-    // Queste proprietà sono significative per i documenti .docx conformi a ISO / IEC 29500 (vedere la classe OoxmlCompliance).
+    // Queste proprietà sono significative per i documenti .docx conformi allo standard ISO/IEC 29500 (vedere la classe OoxmlCompliance).
     // Se salviamo il documento in formati precedenti a ISO/IEC 29500, Microsoft Word ignora queste proprietà.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

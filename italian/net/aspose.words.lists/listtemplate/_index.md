@@ -3,9 +3,9 @@ title: ListTemplate Enum
 linktitle: ListTemplate
 articleTitle: ListTemplate
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Lists.ListTemplate enum. Specifica uno dei formati di elenco predefiniti disponibili in Microsoft Word in C#.
+description: Scopri l'enum Aspose.Words.Lists.ListTemplate, che include formati di elenco predefiniti di Microsoft Word per migliorare senza sforzo la presentazione del tuo documento.
 type: docs
-weight: 3530
+weight: 3980
 url: /it/net/aspose.words.lists/listtemplate/
 ---
 ## ListTemplate enumeration
@@ -20,38 +20,38 @@ public enum ListTemplate
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| BulletDefault | `0` | Elenco puntato predefinito con 9 livelli. Il punto elenco del primo livello è un disco, il punto elenco del secondo livello è un cerchio, il punto elenco del terzo livello è un quadrato. Quindi la formattazione si ripete per i livelli rimanenti. |
-| BulletDisk | `0` | Uguale aBulletDefault. |
-| BulletCircle | `1` | Il punto elenco del primo livello è un cerchio. I restanti livelli sono gli stessi diBulletDefault. |
-| BulletSquare | `2` | Il punto elenco del primo livello è un quadrato. I restanti livelli sono gli stessi diBulletDefault. |
-| BulletDiamonds | `3` | Il proiettile del primo livello è un personaggio Wingding a 4 diamanti. I restanti livelli sono gli stessi diBulletDefault. |
-| BulletArrowHead | `4` | Il proiettile del primo livello è un personaggio alato con la punta di una freccia. I restanti livelli sono gli stessi diBulletDefault. |
-| BulletTick | `5` | Il proiettile del primo livello è un segno di spunta del personaggio Wingding. I restanti livelli sono gli stessi diBulletDefault. |
-| NumberDefault | `6` | Elenco numerato predefinito con 9 livelli. Numerazione araba (1., 2., 3., ...) per il primo livello, numerazione minuscola (a., b., c., ...) per il secondo livello, numerazione minuscola romana (i ., ii., iii., ...) per il terzo livello. Quindi la formattazione si ripete per i livelli rimanenti. |
-| NumberArabicDot | `6` | Uguale aNumberDefault. |
-| NumberArabicParenthesis | `7` | Il numero del primo livello è "1)". I restanti livelli sono gli stessi diNumberDefault. |
-| NumberUppercaseRomanDot | `8` | Il numero del primo livello è "I.". I restanti livelli sono gli stessi diNumberDefault. |
-| NumberUppercaseLetterDot | `9` | Il numero del primo livello è "A.". I restanti livelli sono gli stessi diNumberDefault. |
-| NumberLowercaseLetterParenthesis | `10` | Il numero del primo livello è "a)". I restanti livelli sono gli stessi diNumberDefault. |
-| NumberLowercaseLetterDot | `11` | Il numero del primo livello è "a.". I restanti livelli sono gli stessi diNumberDefault. |
-| NumberLowercaseRomanDot | `12` | Il numero del primo livello è "i.". I restanti livelli sono gli stessi diNumberDefault. |
-| OutlineNumbers | `13` | Un elenco schematico con i livelli numerati "1), a), i), (1), (a), (i), 1., a., i.". |
-| OutlineLegal | `14` | Un elenco schematico con livelli è numerato "1., 1.1., 1.1.1, ...". |
-| OutlineBullets | `15` | Uno schema elenca con vari punti elenco per diversi livelli. |
-| OutlineHeadingsArticleSection | `16` | Un elenco struttura con livelli collegati agli stili di intestazione. |
-| OutlineHeadingsLegal | `17` | Un elenco struttura con livelli collegati agli stili di intestazione. |
-| OutlineHeadingsNumbers | `18` | Un elenco struttura con livelli collegati agli stili di intestazione. |
-| OutlineHeadingsChapter | `19` | Un elenco struttura con livelli collegati agli stili di intestazione. |
+| BulletDefault | `0` | Elenco puntato predefinito con 9 livelli. Il punto del primo livello è un disco, il punto del secondo livello è un cerchio, il punto del terzo livello è un quadrato. La formattazione si ripete per i livelli rimanenti. |
+| BulletDisk | `0` | Lo stesso diBulletDefault. |
+| BulletCircle | `1` | Il punto del primo livello è un cerchio. I livelli rimanenti sono gli stessi diBulletDefault. |
+| BulletSquare | `2` | Il punto del primo livello è un quadrato. I livelli rimanenti sono gli stessi diBulletDefault. |
+| BulletDiamonds | `3` | Il proiettile del primo livello è un personaggio Wingding a 4 diamanti. I livelli rimanenti sono gli stessi diBulletDefault. |
+| BulletArrowHead | `4` | Il proiettile del primo livello è una punta di freccia raffigurante un personaggio Wingding. I livelli rimanenti sono gli stessi diBulletDefault. |
+| BulletTick | `5` | Il proiettile del primo livello è un personaggio Wingding a forma di tick. I livelli rimanenti sono gli stessi diBulletDefault. |
+| NumberDefault | `6` | Elenco numerato predefinito con 9 livelli. Numerazione araba (1., 2., 3., ...) per il primo livello, numerazione in lettere minuscole (a., b., c., ...) per il secondo livello, numerazione romana minuscola (i., ii., iii., ...) per il terzo livello. La formattazione si ripete quindi per i livelli rimanenti. |
+| NumberArabicDot | `6` | Lo stesso diNumberDefault. |
+| NumberArabicParenthesis | `7` | Il numero del primo livello è "1)". I livelli rimanenti sono gli stessi diNumberDefault. |
+| NumberUppercaseRomanDot | `8` | Il numero del primo livello è "I". I livelli rimanenti sono gli stessi diNumberDefault. |
+| NumberUppercaseLetterDot | `9` | Il numero del primo livello è "A". I livelli rimanenti sono gli stessi diNumberDefault. |
+| NumberLowercaseLetterParenthesis | `10` | Il numero del primo livello è "a)". I livelli rimanenti sono gli stessi diNumberDefault. |
+| NumberLowercaseLetterDot | `11` | Il numero del primo livello è "a". I livelli rimanenti sono gli stessi diNumberDefault. |
+| NumberLowercaseRomanDot | `12` | Il numero del primo livello è "i". I livelli rimanenti sono gli stessi diNumberDefault. |
+| OutlineNumbers | `13` | Un elenco schematico con livelli numerati "1), a), i), (1), (a), (i), 1., a., i.". |
+| OutlineLegal | `14` | Un elenco schematico con livelli numerati "1., 1.1., 1.1.1, ...". |
+| OutlineBullets | `15` | Uno schema con vari punti elenco per diversi livelli. |
+| OutlineHeadingsArticleSection | `16` | Un elenco strutturato con livelli collegati agli stili di intestazione. |
+| OutlineHeadingsLegal | `17` | Un elenco strutturato con livelli collegati agli stili di intestazione. |
+| OutlineHeadingsNumbers | `18` | Un elenco strutturato con livelli collegati agli stili di intestazione. |
+| OutlineHeadingsChapter | `19` | Un elenco strutturato con livelli collegati agli stili di intestazione. |
 
 ## Osservazioni
 
-Un valore del modello di elenco viene utilizzato come parametro in the [`Add`](../listcollection/add/) metodo.
+Un valore di modello di elenco viene utilizzato come parametro in [`Add`](../listcollection/add/) metodo.
 
 I modelli di elenco Aspose.Words corrispondono ai 21 modelli di elenco disponibili nella finestra di dialogo Elenchi puntati e numerati in Microsoft Word 2003.
 
 ## Esempi
 
-Mostra come creare un documento che contenga tutti i modelli di elenco di intestazioni di struttura.
+Mostra come creare un documento contenente tutti i modelli di elenco delle intestazioni.
 
 ```csharp
 public void OutlineHeadingTemplates()
@@ -95,21 +95,21 @@ private static void AddOutlineHeadingParagraphs(DocumentBuilder builder, List li
 }
 ```
 
-Mostra come riavviare la numerazione in un elenco copiando un elenco.
+Mostra come riavviare la numerazione in un elenco copiando l'elenco stesso.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza il primo livello di elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizzane il primo livello.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Applica la nostra lista ad alcuni paragrafi.
+// Applichiamo il nostro elenco ad alcuni paragrafi.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -134,7 +134,7 @@ builder.ListFormat.RemoveNumbers();
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
-Mostra come lavorare con i livelli di elenco.
+Mostra come lavorare con i livelli degli elenchi.
 
 ```csharp
 Document doc = new Document();
@@ -142,21 +142,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
 // Di seguito sono riportati due tipi di elenchi che possiamo creare utilizzando un generatore di documenti.
 // 1 - Un elenco numerato:
-// Gli elenchi numerati creano un ordine logico per i paragrafi numerando ciascun elemento.
+// Gli elenchi numerati creano un ordine logico per i paragrafi numerando ogni elemento.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// Impostando la proprietà "ListLevelNumber", possiamo aumentare il livello della lista
-// per iniziare un sottoelenco autonomo dall'elemento dell'elenco corrente.
+// Impostando la proprietà "ListLevelNumber", possiamo aumentare il livello dell'elenco
+// per iniziare un sottoelenco autonomo a partire dall'elemento corrente dell'elenco.
 // Il modello di elenco di Microsoft Word denominato "NumberDefault" utilizza i numeri per creare livelli di elenco per il primo livello di elenco.
- // I livelli di elenco più profondi utilizzano lettere e numeri romani minuscoli.
+ // I livelli più profondi dell'elenco utilizzano lettere e numeri romani minuscoli.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -165,7 +165,7 @@ for (int i = 0; i < 9; i++)
 
 // 2 - Un elenco puntato:
 // Questo elenco applicherà un rientro e un simbolo di punto elenco ("•") prima di ogni paragrafo.
-// I livelli più profondi di questo elenco utilizzeranno simboli diversi, come "***" e "○".
+// I livelli più profondi di questo elenco utilizzeranno simboli diversi, come "■" e "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)

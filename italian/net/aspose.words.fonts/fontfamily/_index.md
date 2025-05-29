@@ -3,9 +3,9 @@ title: FontFamily Enum
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fonts.FontFamily enum. Rappresenta la famiglia di caratteri in C#.
+description: Scopri l'enum Aspose.Words.Fonts.FontFamily, la chiave per gestire senza sforzo diverse famiglie di font, migliorando lo stile e la formattazione dei documenti.
 type: docs
-weight: 2910
+weight: 3340
 url: /it/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -20,20 +20,20 @@ public enum FontFamily
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Auto | `0` | Specifica un nome di famiglia generico. Questo nome viene utilizzato quando le informazioni su un carattere non esistono o non sono importanti. Viene utilizzato il carattere predefinito. |
-| Roman | `1` | Specifica un carattere proporzionale con grazie. Un esempio è Times New Roman. |
-| Swiss | `2` | Specifica un carattere proporzionale senza grazie. Un esempio è Arial. |
-| Modern | `3` | Specifica un carattere a spaziatura fissa con o senza serif. I caratteri a spaziatura fissa sono solitamente moderni; gli esempi includono Pica, Elite e Courier New. |
-| Script | `4` | Specifica un carattere progettato per assomigliare alla scrittura a mano; gli esempi includono Script e Corsivo. |
-| Decorative | `5` | Specifica un carattere nuovo. Un esempio è l'inglese antico. |
+| Auto | `0` | Specifica un nome di famiglia generico. Questo nome viene utilizzato quando le informazioni su un font non esistono o non sono rilevanti. Viene utilizzato il font predefinito. |
+| Roman | `1` | Specifica un font proporzionale con grazie. Un esempio è Times New Roman. |
+| Swiss | `2` | Specifica un font proporzionale senza grazie. Un esempio è Arial. |
+| Modern | `3` | Specifica un font a spaziatura fissa con o senza grazie. I font a spaziatura fissa sono solitamente moderni; alcuni esempi includono Pica, Elite e Courier New. |
+| Script | `4` | Specifica un font progettato per assomigliare alla scrittura a mano; alcuni esempi includono Script e Cursive. |
+| Decorative | `5` | Specifica un font originale. Un esempio è l'inglese antico. |
 
 ## Osservazioni
 
-Una famiglia di caratteri è un insieme di caratteri con caratteristiche comuni di larghezza del tratto e serif.
+Una famiglia di font è un insieme di font che hanno in comune la larghezza del tratto e le caratteristiche serif.
 
 ## Esempi
 
-Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
+Mostra come accedere e stampare i dettagli di ciascun font in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -46,7 +46,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi sono generalmente vuoti.
+        // I nomi alt sono solitamente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

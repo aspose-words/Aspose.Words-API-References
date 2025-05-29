@@ -3,14 +3,14 @@ title: FieldDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words per .NET
-description: FieldDate UseLunarCalendar proprietà. Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico in C#.
+description: Ottimizza la gestione delle date con la proprietà UseLunarCalendar di FieldDate. Passa facilmente dal calendario lunare Hijri a quello ebraico per funzionalità avanzate.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fielddate/uselunarcalendar/
 ---
 ## FieldDate.UseLunarCalendar property
 
-Ottiene o imposta se utilizzare il calendario lunare Hijri o quello lunare ebraico.
+Ottiene o imposta se utilizzare il calendario lunare Hijri o quello ebraico.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -24,8 +24,8 @@ Mostra come utilizzare i campi DATA per visualizzare le date in base a diversi t
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se vogliamo che il testo nel documento visualizzi sempre la data corretta, possiamo utilizzare un campo DATE.
-// Di seguito sono riportati tre tipi di calendari culturali che un campo DATE può utilizzare per visualizzare una data.
+// Se vogliamo che il testo del documento visualizzi sempre la data corretta, possiamo utilizzare un campo DATA.
+// Di seguito sono riportati tre tipi di calendari culturali che un campo DATA può utilizzare per visualizzare una data.
 // 1 - Calendario lunare islamico:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Inserisci un campo DATA e imposta il tipo di calendario su quello utilizzato per ultimo dall'applicazione host.
-// In Microsoft Word, il tipo sarà quello utilizzato più di recente nel comando Inserisci -> Testo -> Finestra di dialogo Data e ora.
+// Inserire un campo DATA e impostare il suo tipo di calendario su quello utilizzato per ultimo dall'applicazione host.
+// In Microsoft Word, il tipo sarà quello utilizzato più di recente nella finestra di dialogo Inserisci -> Testo -> Data e ora.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

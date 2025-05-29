@@ -3,14 +3,14 @@ title: ReplaceAction Enum
 linktitle: ReplaceAction
 articleTitle: ReplaceAction
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Replacing.ReplaceAction enum. Consente allutente di specificare cosa succede alla corrispondenza corrente durante unoperazione di sostituzione in C#.
+description: Scopri l'enum Aspose.Words.ReplaceAction per controllare i risultati delle corrispondenze nelle operazioni di sostituzione, migliorando l'efficienza e la precisione della modifica dei documenti.
 type: docs
-weight: 4640
+weight: 5370
 url: /it/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
 
-Consente all'utente di specificare cosa succede alla corrispondenza corrente durante un'operazione di sostituzione.
+Consente all'utente di specificare cosa accade alla corrispondenza corrente durante un'operazione di sostituzione.
 
 ```csharp
 public enum ReplaceAction
@@ -52,7 +52,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Rimuove il paragrafo con il testo corrispondente.
+        // Rimuovi il paragrafo con il testo corrispondente.
         para.Remove();
 
         return ReplaceAction.Skip;

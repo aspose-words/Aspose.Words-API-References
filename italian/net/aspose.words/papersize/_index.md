@@ -3,14 +3,14 @@ title: PaperSize Enum
 linktitle: PaperSize
 articleTitle: PaperSize
 second_title: Aspose.Words per .NET
-description: Aspose.Words.PaperSize enum. Specifica il formato carta in C#.
+description: Scopri l'enum Aspose.Words.PaperSize per definire formati di carta personalizzati nei tuoi documenti. Migliora la formattazione dei tuoi documenti con facilità!
 type: docs
-weight: 4380
+weight: 5110
 url: /it/net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
 
-Specifica il formato carta.
+Specifica il formato della carta.
 
 ```csharp
 public enum PaperSize
@@ -37,7 +37,9 @@ public enum PaperSize
 | Paper10x14 | `14` | 10 x 14 pollici. |
 | Paper11x17 | `15` | 11 x 17 pollici. |
 | Number10Envelope | `16` | 4,125 x 9,5 pollici. |
-| Custom | `17` | Formato carta personalizzato. |
+| JisB4 | `17` | 257 x 364 mm. |
+| JisB5 | `18` | 182 x 257 mm. |
+| Custom | `19` | Formato carta personalizzato. |
 
 ## Esempi
 
@@ -76,7 +78,7 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Ogni sezione ha il proprio oggetto PageSetup. Quando utilizziamo un generatore di documenti per creare una nuova sezione,
+// Ogni sezione ha il suo oggetto PageSetup. Quando utilizziamo un generatore di documenti per creare una nuova sezione,
 // l'oggetto PageSetup di quella sezione eredita tutti i valori dell'oggetto PageSetup della sezione precedente.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
@@ -101,19 +103,19 @@ builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.
 doc.Save(ArtifactsDir + "PageSetup.PaperSizes.docx");
 ```
 
-Mostra come costruire manualmente un documento Aspose.Words.
+Mostra come creare manualmente un documento Aspose.Words.
 
 ```csharp
 Document doc = new Document();
 
 // Un documento vuoto contiene una sezione, un corpo e un paragrafo.
-// Chiama il metodo "RemoveAllChildren" per rimuovere tutti questi nodi,
-// e finiamo con un nodo documento senza figli.
+// Chiama il metodo "RemoveAllChildren" per rimuovere tutti quei nodi,
+// e si finisce con un nodo documento senza elementi figlio.
 doc.RemoveAllChildren();
 
-// Questo documento ora non ha nodi secondari compositi a cui possiamo aggiungere contenuto.
-// Se desideriamo modificarlo, dovremo ripopolare la sua raccolta di nodi.
-// Innanzitutto, crea una nuova sezione, quindi aggiungila come figlia al nodo del documento root.
+// Questo documento non ha più nodi figlio compositi a cui aggiungere contenuto.
+// Se volessimo modificarlo, dovremo ripopolare la sua raccolta di nodi.
+// Per prima cosa, crea una nuova sezione, quindi aggiungila come figlia al nodo radice del documento.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -121,12 +123,12 @@ doc.AppendChild(section);
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Una sezione necessita di un corpo, che conterrà e visualizzerà tutto il suo contenuto
+// Una sezione ha bisogno di un corpo, che conterrà e visualizzerà tutto il suo contenuto
 // nella pagina tra l'intestazione e il piè di pagina della sezione.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Crea un paragrafo, imposta alcune proprietà di formattazione e quindi lo aggiunge come figlio al corpo.
+// Crea un paragrafo, imposta alcune proprietà di formattazione e poi aggiungilo come elemento secondario al corpo.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -134,8 +136,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Infine, aggiungi del contenuto per realizzare il documento. Crea una corsa,
-// ne imposta l'aspetto e il contenuto, quindi lo aggiunge come figlio al paragrafo.
+// Infine, aggiungi del contenuto per completare il documento. Crea una run,
+// impostane l'aspetto e il contenuto, quindi aggiungilo come elemento figlio al paragrafo.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

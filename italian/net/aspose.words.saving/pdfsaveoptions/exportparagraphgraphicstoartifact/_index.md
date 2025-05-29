@@ -3,14 +3,14 @@ title: PdfSaveOptions.ExportParagraphGraphicsToArtifact
 linktitle: ExportParagraphGraphicsToArtifact
 articleTitle: ExportParagraphGraphicsToArtifact
 second_title: Aspose.Words per .NET
-description: PdfSaveOptions ExportParagraphGraphicsToArtifact proprietà. Ottiene o imposta un valore che determina se un elemento grafico di paragrafo deve essere contrassegnato come artefatto in C#.
+description: Scopri la proprietà ExportParagraphGraphicsToArtifact di PdfSaveOptions per controllare la grafica dei paragrafi come artefatti, migliorando la chiarezza visiva del tuo documento.
 type: docs
 weight: 160
 url: /it/net/aspose.words.saving/pdfsaveoptions/exportparagraphgraphicstoartifact/
 ---
 ## PdfSaveOptions.ExportParagraphGraphicsToArtifact property
 
-Ottiene o imposta un valore che determina se un elemento grafico di paragrafo deve essere contrassegnato come artefatto.
+Ottiene o imposta un valore che determina se un'immagine di paragrafo deve essere contrassegnata come artefatto.
 
 ```csharp
 public bool ExportParagraphGraphicsToArtifact { get; set; }
@@ -18,7 +18,7 @@ public bool ExportParagraphGraphicsToArtifact { get; set; }
 
 ## Osservazioni
 
-Il valore predefinito è`falso` e la grafica dei paragrafi (sottolineature, enfasi del testo, ecc.) verranno contrassegnati come "Span" nella struttura logica del documento.
+Il valore predefinito è`falso` e la grafica dei paragrafi (sottolineature, enfasi del testo, ecc.) saranno contrassegnati come "Span" nella struttura logica del documento.
 
 Quando il valore è`VERO` la grafica del paragrafo verrà contrassegnata come "Artefatto".
 
@@ -26,7 +26,7 @@ Questo valore viene ignorato quando[`ExportDocumentStructure`](../exportdocument
 
 ## Esempi
 
-Mostra come esportare la grafica del paragrafo come artefatto (sottolineatura, enfasi del testo, ecc.).
+Mostra come esportare la grafica dei paragrafi come artefatti (sottolineature, enfasi del testo, ecc.).
 
 ```csharp
 Document doc = new Document(MyDir + "PDF artifacts.docx");

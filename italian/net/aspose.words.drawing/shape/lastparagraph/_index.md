@@ -3,9 +3,9 @@ title: Shape.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words per .NET
-description: Shape LastParagraph proprietà. Ottiene lultimo paragrafo nella forma in C#.
+description: Accedi alla proprietà LastParagraph per recuperare facilmente il paragrafo finale nel tuo formato, migliorando il layout e la leggibilità del tuo documento.
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.words.drawing/shape/lastparagraph/
 ---
 ## Shape.LastParagraph property
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Sposta il generatore di documenti all'interno del TextBox e aggiungi testo.
+// Sposta il generatore di documenti all'interno della TextBox e aggiungi il testo.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");

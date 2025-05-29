@@ -3,9 +3,9 @@ title: Table.ConvertToHorizontallyMergedCells
 linktitle: ConvertToHorizontallyMergedCells
 articleTitle: ConvertToHorizontallyMergedCells
 second_title: Aspose.Words per .NET
-description: Table ConvertToHorizontallyMergedCells metodo. Converte le celle unite orizzontalmente per larghezza in celle unite perHorizontalMerge  in C#.
+description: Scopri come il metodo ConvertToHorizontallyMergedCells trasforma le celle unite in orizzontale, migliorando l'organizzazione dei tuoi dati.
 type: docs
-weight: 390
+weight: 410
 url: /it/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
@@ -20,19 +20,19 @@ public void ConvertToHorizontallyMergedCells()
 
 Le celle della tabella possono essere unite orizzontalmente utilizzando i flag di unione[`HorizontalMerge`](../../cellformat/horizontalmerge/) o utilizzando la larghezza della cella[`Width`](../../cellformat/width/).
 
-Quando la cella della tabella viene unita dalla proprietà larghezza[`HorizontalMerge`](../../cellformat/horizontalmerge/) non ha senso, ma a volte avere flag di unione è il modo più conveniente.
+Quando la cella della tabella viene unita dalla proprietà larghezza[`HorizontalMerge`](../../cellformat/horizontalmerge/) non ha senso, ma a volte avere dei flag di unione è una soluzione più comoda.
 
-Utilizza questo metodo per trasformare le celle della tabella unite orizzontalmente per larghezza in celle unite tramite flag di unione.
+Utilizzare questo metodo per trasformare le celle della tabella unite orizzontalmente in base alla larghezza in celle unite tramite flag di unione.
 
 ## Esempi
 
-Mostra come convertire le celle unite orizzontalmente per larghezza in celle unite da CellFormat.HorizontalMerge.
+Mostra come convertire le celle unite orizzontalmente in base alla larghezza in celle unite tramite CellFormat.HorizontalMerge.
 
 ```csharp
 Document doc = new Document(MyDir + "Table with merged cells.docx");
 
 // Microsoft Word non scrive più i flag di unione, definendo invece le celle unite in base alla larghezza.
-// Aspose.Words per impostazione predefinita definisce solo 5 celle di fila e nessuna di esse ha il flag di unione orizzontale,
+// Per impostazione predefinita, Aspose.Words definisce solo 5 celle in una riga e nessuna di esse ha il flag di unione orizzontale,
 // anche se c'erano 7 celle nella riga prima che avvenisse la fusione orizzontale.
 Table table = doc.FirstSection.Body.Tables[0];
 Row row = table.Rows[0];
@@ -40,8 +40,8 @@ Row row = table.Rows[0];
 Assert.AreEqual(5, row.Cells.Count);
 Assert.True(row.Cells.All(c => ((Cell)c).CellFormat.HorizontalMerge == CellMerge.None));
 
-// Utilizza il metodo "ConvertToHorizontallyMergedCells" per convertire le celle unite orizzontalmente
-// per la sua larghezza alla cella unita orizzontalmente dalle bandiere.
+// Utilizzare il metodo "ConvertToHorizontallyMergedCells" per convertire le celle unite orizzontalmente
+// per la sua larghezza alla cella unita orizzontalmente dai flag.
 // Ora abbiamo 7 celle e alcune di esse hanno valori di unione orizzontale.
 table.ConvertToHorizontallyMergedCells();
 row = table.Rows[0];

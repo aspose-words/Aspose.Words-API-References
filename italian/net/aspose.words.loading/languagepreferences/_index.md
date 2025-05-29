@@ -3,16 +3,16 @@ title: LanguagePreferences Class
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Loading.LanguagePreferences classe. Permette di impostare le preferenze della lingua in C#.
+description: Scopri la classe Aspose.Words.LanguagePreferences per personalizzare e gestire senza sforzo le impostazioni della lingua per un'elaborazione avanzata dei documenti.
 type: docs
-weight: 3650
+weight: 4100
 url: /it/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
-Permette di impostare le preferenze della lingua.
+Consente di impostare le preferenze della lingua.
 
-Per saperne di più, visita il[Specificare le opzioni di caricamento](https://docs.aspose.com/words/net/specify-load-options/) articolo di documentazione.
+Per saperne di più, visita il[Specificare le opzioni di carico](https://docs.aspose.com/words/net/specify-load-options/) articolo di documentazione.
 
 ```csharp
 public class LanguagePreferences
@@ -34,16 +34,16 @@ public class LanguagePreferences
 
 | Nome | Descrizione |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | Aggiunge ulteriore lingua di modifica. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | Aggiunge un linguaggio di modifica aggiuntivo. |
 | [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | Aggiunge ulteriori lingue di modifica. |
 
 ## Osservazioni
 
-Implementa la finestra di dialogo "Imposta le preferenze della lingua di Office" in Word.
+Implementa la finestra di dialogo "Imposta le preferenze di lingua di Office" in Word.
 
 ## Esempi
 
-Mostra come applicare le preferenze della lingua durante il caricamento di un documento.
+Mostra come applicare le preferenze di lingua durante il caricamento di un documento.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

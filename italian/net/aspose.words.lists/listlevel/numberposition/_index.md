@@ -3,7 +3,7 @@ title: ListLevel.NumberPosition
 linktitle: NumberPosition
 articleTitle: NumberPosition
 second_title: Aspose.Words per .NET
-description: ListLevel NumberPosition proprietà. Restituisce o imposta la posizione in punti del numero o del punto elenco per il livello dellelenco in C#.
+description: Scopri la proprietà NumberPosition di ListLevel per regolare facilmente il posizionamento di punti elenco o numeri in punti, per una formattazione e una chiarezza migliorate degli elenchi.
 type: docs
 weight: 80
 url: /it/net/aspose.words.lists/listlevel/numberposition/
@@ -22,16 +22,16 @@ public double NumberPosition { get; set; }
 
 ## Esempi
 
-Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
+Mostra come applicare la formattazione personalizzata degli elenchi ai paragrafi quando si utilizza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza i primi due livelli dell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizza i primi due livelli dell'elenco.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

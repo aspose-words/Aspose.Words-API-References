@@ -3,14 +3,14 @@ title: OdsoFieldMapData.MappedName
 linktitle: MappedName
 articleTitle: MappedName
 second_title: Aspose.Words per .NET
-description: OdsoFieldMapData MappedName proprietà. Specifica il nome del campo di unione predefinito che verrà mappato al numero di colonna specificato dalColumn proprietà allinterno di questo campo mapping. Il valore predefinito è una stringa vuota in C#.
+description: Scopri la proprietà OdsoFieldMapData MappedName, che collega i nomi dei campi di unione alle colonne specificate, migliorando l'efficienza e la precisione della mappatura dei dati.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
 ## OdsoFieldMapData.MappedName property
 
-Specifica il nome del campo di unione predefinito che verrà mappato al numero di colonna specificato dal[`Column`](../column/) proprietà all'interno di questo campo mapping. Il valore predefinito è una stringa vuota.
+Specifica il nome del campo di unione predefinito che deve essere mappato al numero di colonna specificato da[`Column`](../column/) proprietà all'interno di questo campo mapping. Il valore predefinito è una stringa vuota.
 
 ```csharp
 public string MappedName { get; set; }
@@ -18,13 +18,13 @@ public string MappedName { get; set; }
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
+Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati ai campi di unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Questa raccolta definisce il modo in cui una stampa unione mapperà le colonne da un'origine dati
-// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE predefiniti.
+// Questa raccolta definisce come una stampa unione mapperà le colonne da un'origine dati
+// ai campi predefiniti MERGEFIELD, ADDRESSBLOCK e GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -45,12 +45,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilizza gli elementi del metodo "RemoveAt" singolarmente per indice.
+// Utilizzare gli elementi del metodo "RemoveAt" singolarmente in base all'indice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilizza il metodo "Cancella" per cancellare l'intera raccolta in una volta.
+// Utilizzare il metodo "Clear" per cancellare l'intera raccolta in una sola volta.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

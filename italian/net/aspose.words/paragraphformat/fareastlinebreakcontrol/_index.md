@@ -3,14 +3,14 @@ title: ParagraphFormat.FarEastLineBreakControl
 linktitle: FarEastLineBreakControl
 articleTitle: FarEastLineBreakControl
 second_title: Aspose.Words per .NET
-description: ParagraphFormat FarEastLineBreakControl proprietà. Ottiene o imposta un flag che indica se le regole di interruzione riga dellAsia orientale vengono applicate al paragrafo corrente in C#.
+description: Scopri la proprietà ParagraphFormat FarEastLineBreakControl, che abilita le regole di interruzione di riga dell'Asia orientale per una formattazione precisa del testo nei tuoi documenti.
 type: docs
 weight: 110
 url: /it/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property
 
-Ottiene o imposta un flag che indica se le regole di interruzione riga dell'Asia orientale vengono applicate al paragrafo corrente.
+Ottiene o imposta un flag che indica se le regole di interruzione di riga dell'Asia orientale vengono applicate al paragrafo corrente.
 
 ```csharp
 public bool FarEastLineBreakControl { get; set; }

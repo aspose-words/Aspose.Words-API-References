@@ -3,14 +3,14 @@ title: IFieldUserPromptRespondent Interface
 linktitle: IFieldUserPromptRespondent
 articleTitle: IFieldUserPromptRespondent
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.IFieldUserPromptRespondent interfaccia. Rappresenta lintervistato alle richieste dellutente durante laggiornamento del campo in C#.
+description: Scopri l'interfaccia Aspose.Words.Fields.IFieldUserPromptRespondent, progettata per migliorare l'interazione dell'utente e semplificare gli aggiornamenti dei campi.
 type: docs
-weight: 2740
+weight: 3150
 url: /it/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
 
-Rappresenta l'intervistato alle richieste dell'utente durante l'aggiornamento del campo.
+Rappresenta il rispondente alle richieste dell'utente durante l'aggiornamento del campo.
 
 ```csharp
 public interface IFieldUserPromptRespondent
@@ -20,7 +20,7 @@ public interface IFieldUserPromptRespondent
 
 | Nome | Descrizione |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Una volta implementato, restituisce una risposta dall'utente al prompt. La tua implementazione dovrebbe restituire`nullo` per indicare che l'utente non ha risposto al prompt (ovvero l'utente ha premuto il pulsante Annulla nella finestra del prompt). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Quando implementato, restituisce una risposta dall'utente su richiesta. L'implementazione dovrebbe restituire`null` per indicare che l'utente non ha risposto al prompt (ovvero l'utente ha premuto il pulsante Annulla nella finestra del prompt). |
 
 ## Osservazioni
 
@@ -36,7 +36,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -64,7 +64,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore personalizzato,
+    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore di richiesta personalizzato,
     // che si verificherà durante una stampa unione.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -74,7 +74,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.
+/// Aggiunge del testo all'inizio della risposta predefinita di un campo ASK durante una stampa unione.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

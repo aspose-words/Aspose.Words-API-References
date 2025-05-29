@@ -3,14 +3,14 @@ title: Font.Superscript
 linktitle: Superscript
 articleTitle: Superscript
 second_title: Aspose.Words per .NET
-description: Font Superscript proprietà. Vero se il carattere è formattato come apice in C#.
+description: Scopri la proprietà Font Apice e formatta facilmente il testo in apice per migliorare la leggibilità e lo stile dei tuoi documenti. Migliora il tuo design oggi stesso!
 type: docs
-weight: 440
+weight: 450
 url: /it/net/aspose.words/font/superscript/
 ---
 ## Font.Superscript property
 
-Vero se il carattere è formattato come apice.
+Vero se il font è formattato come apice.
 
 ```csharp
 public bool Superscript { get; set; }
@@ -24,12 +24,12 @@ Mostra come formattare il testo per spostarne la posizione.
 Document doc = new Document();
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Alza questa sequenza di testo 5 punti sopra la linea di base.
+// Solleva questa sequenza di testo di 5 punti rispetto alla linea di base.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// Abbassa questa sequenza di testo di 10 punti sotto la linea di base.
+// Abbassa questa sequenza di testo di 10 punti rispetto alla linea di base.
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);

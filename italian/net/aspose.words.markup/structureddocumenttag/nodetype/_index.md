@@ -3,7 +3,7 @@ title: StructuredDocumentTag.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTag NodeType proprietà. RestituisceStructuredDocumentTag  in C#.
+description: Esplora la proprietà StructuredDocumentTag NodeType per una gestione efficiente dei documenti. Ottieni un accesso senza interruzioni ai dati strutturati nei tuoi progetti.
 type: docs
 weight: 220
 url: /it/net/aspose.words.markup/structureddocumenttag/nodetype/
@@ -18,19 +18,19 @@ public override NodeType NodeType { get; }
 
 ## Esempi
 
-Mostra come utilizzare gli stili per gli elementi di controllo del contenuto.
+Mostra come lavorare con gli stili per gli elementi di controllo del contenuto.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Di seguito sono riportati due modi per applicare uno stile dal documento a un tag di documento strutturato.
-// 1 - Applica un oggetto di stile dalla raccolta di stili del documento:
+// 1 - Applica un oggetto stile dalla raccolta stili del documento:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Fa riferimento a uno stile nel documento per nome:
+// 2 - Riferimento a uno stile nel documento tramite il nome:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

@@ -3,7 +3,7 @@ title: FieldComments.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words per .NET
-description: FieldComments Text proprietà. Ottiene o imposta il testo dei commenti in C#.
+description: Gestisci i tuoi commenti senza sforzo con la proprietà Testo FieldComments: ottieni o imposta facilmente il testo del commento per una migliore interazione da parte dell'utente.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldcomments/text/
@@ -24,7 +24,7 @@ Mostra come utilizzare il campo COMMENTI.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta un valore per la proprietà incorporata "Commenti" del documento.
+// Imposta un valore per la proprietà integrata "Commenti" del documento.
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
 // Crea un campo COMMENTI per visualizzare il valore di quella proprietà incorporata.
@@ -34,8 +34,8 @@ field.Update();
 Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
-// Se diamo il valore della proprietà Text del campo COMMENTI e lo aggiorniamo, il campo lo farà
-// sovrascrive il valore corrente della proprietà integrata "Commenti" con il valore della sua proprietà Text,
+// Se diamo il valore della proprietà Text del campo COMMENTS e lo aggiorniamo, il campo sarà
+// sovrascrive il valore corrente della proprietà incorporata "Commenti" con il valore della sua proprietà Testo,
 // e quindi visualizza il nuovo valore.
 field.Text = "My overriding comment.";
 field.Update();

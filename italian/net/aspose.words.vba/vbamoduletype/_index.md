@@ -3,14 +3,14 @@ title: VbaModuleType Enum
 linktitle: VbaModuleType
 articleTitle: VbaModuleType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Vba.VbaModuleType enum. Specifica il tipo di modello in un progetto VBA in C#.
+description: Scopri l'enum Aspose.Words.Vba.VbaModuleType, che definisce i tipi di modello nei progetti VBA per un'automazione avanzata e una gestione semplificata dei documenti.
 type: docs
-weight: 6570
+weight: 7420
 url: /it/net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration
 
-Specifica il tipo di modello in un progetto VBA.
+Specifica il tipo di un modello in un progetto VBA.
 
 ```csharp
 public enum VbaModuleType
@@ -43,7 +43,7 @@ module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Aggiunge il modulo al progetto VBA.
+// Aggiungere il modulo al progetto VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

@@ -3,9 +3,9 @@ title: ChartXValueCollection Class
 linktitle: ChartXValueCollection
 articleTitle: ChartXValueCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection classe. Rappresenta una raccolta di valori X per una serie di grafici in C#.
+description: Scopri la classe Aspose.Words.Drawing.Charts.ChartXValueCollection, la soluzione per gestire in modo efficace le raccolte di valori X nelle serie di grafici.
 type: docs
-weight: 850
+weight: 1170
 url: /it/net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class
@@ -21,7 +21,8 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | Ottiene il numero di elementi in questa raccolta. |
-| [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Ottiene o imposta il valore X nell'indice specificato. |
+| [FormatCode](../../aspose.words.drawing.charts/chartxvaluecollection/formatcode/) { get; set; } | Ottiene o imposta il codice di formato applicato ai valori X. |
+| [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Ottiene o imposta il valore X all'indice specificato. |
 
 ## Metodi
 
@@ -31,13 +32,13 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 
 ## Osservazioni
 
-Tutti gli articoli della collezione diversi da**nullo** deve avere lo stesso[`ValueType`](../chartxvalue/valuetype/).
+Tutti gli articoli della collezione tranne**null** deve avere lo stesso[`ValueType`](../chartxvalue/valuetype/).
 
-La raccolta consente solo di modificare i valori X. Per aggiungere o inserire nuovi valori in una serie di grafici o rimuovere valori, i metodi appropriati di[`ChartSeries`](../chartseries/) è possibile utilizzare la classe.
+La raccolta consente solo la modifica dei valori X. Per aggiungere o inserire nuovi valori a una serie di grafici, o rimuovere valori, i metodi appropriati del[`ChartSeries`](../chartseries/) è possibile utilizzare la classe.
 
 ## Esempi
 
-Mostra come ottenere i dati delle serie di grafici.
+Mostra come ottenere dati di serie di grafici.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +56,7 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // Cancella il formato individuale di tutti i punti dati.
-    // I punti dati e i valori dei dati sono uno a uno nei grafici a colonne.
+    // Nei grafici a colonne, i punti dati e i valori dei dati sono uno a uno.
     series.DataPoints[i].ClearFormat();
 
     // Ottieni il valore Y.

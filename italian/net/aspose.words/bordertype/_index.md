@@ -3,9 +3,9 @@ title: BorderType Enum
 linktitle: BorderType
 articleTitle: BorderType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.BorderType enum. Specifica i lati di un bordo in C#.
+description: Scopri l'enum Aspose.Words.BorderType per opzioni di bordo personalizzabili. Migliora i tuoi documenti con un controllo preciso dei bordi e uno stile impeccabile!
 type: docs
-weight: 100
+weight: 290
 url: /it/net/aspose.words/bordertype/
 ---
 ## BorderType enumeration

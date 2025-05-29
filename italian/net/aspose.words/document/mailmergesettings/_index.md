@@ -3,14 +3,14 @@ title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words per .NET
-description: Document MailMergeSettings proprietà. Ottiene o imposta loggetto che contiene tutte le informazioni sulla stampa unione per un documento in C#.
+description: Scopri come utilizzare la proprietà MailMergeSettings per gestire in modo efficiente tutti i dati di stampa unione del tuo documento e migliorare il flusso di lavoro.
 type: docs
-weight: 270
+weight: 280
 url: /it/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
 
-Ottiene o imposta l'oggetto che contiene tutte le informazioni sulla stampa unione per un documento.
+Ottiene o imposta l'oggetto che contiene tutte le informazioni di unione di stampa per un documento.
 
 ```csharp
 public MailMergeSettings MailMergeSettings { get; set; }
@@ -18,13 +18,13 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## Osservazioni
 
-È possibile utilizzare questo oggetto per specificare un'origine dati di stampa unione per un documento e queste informazioni (insieme ai campi dati disponibili) verranno visualizzate in Microsoft Word quando l'utente apre questo documento. Oppure è possibile utilizzare questo oggetto per eseguire query sulle impostazioni di stampa unione che l'utente ha specificato in Microsoft Word per questo documento.
+È possibile utilizzare questo oggetto per specificare un'origine dati per la stampa unione per un documento e queste informazioni (insieme ai campi dati disponibili) verranno visualizzate in Microsoft Word quando l'utente apre il documento. In alternativa, è possibile utilizzare questo oggetto per interrogare le impostazioni per la stampa unione specificate dall'utente in Microsoft Word per questo documento.
 
-Questo oggetto non lo è mai`nullo`.
+Questo oggetto non è mai`null`.
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

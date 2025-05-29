@@ -3,14 +3,14 @@ title: FieldNext Class
 linktitle: FieldNext
 articleTitle: FieldNext
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldNext classe. Implementa il campo SUCCESSIVO in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldNext per gestire in modo efficiente i campi NEXT nei tuoi documenti. Migliora l'automazione dei tuoi documenti oggi stesso!
 type: docs
-weight: 2180
+weight: 2590
 url: /it/net/aspose.words.fields/fieldnext/
 ---
 ## FieldNext class
 
-Implementa il campo SUCCESSIVO.
+Implementa il campo NEXT.
 
 Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
@@ -30,29 +30,29 @@ public class FieldNext : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce accesso digitato alla formattazione del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene un[`FieldFormat`](../fieldformat/)oggetto che fornisce accesso tipizzato alla formattazione del campo. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolare il suo risultato). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`nullo` . |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi figlio. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo nodo figlio del suo nodo padre, restituisce il paragrafo padre. Se il campo è già stato rimosso, restituisce`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento di campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
 
 ## Osservazioni
 
-Unisce il record di dati successivo nel documento unito risultante corrente, anziché iniziare un nuovo documento unito.
+Unisce il record di dati successivo al documento unito risultante corrente, anziché avviare un nuovo documento unito.
 
 ## Esempi
 
@@ -64,8 +64,8 @@ public void FieldNext()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Crea un'origine dati per la nostra stampa unione con 3 righe.
-    // Una stampa unione che utilizza questa tabella creerebbe normalmente un documento di 3 pagine.
+    // Creiamo un'origine dati per la nostra stampa unione con 3 righe.
+    // Una stampa unione che utilizza questa tabella normalmente creerebbe un documento di 3 pagine.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -77,16 +77,16 @@ public void FieldNext()
     InsertMergeFields(builder, "First row: ");
 
     // Se abbiamo più campi di unione con lo stesso FieldName,
-    // riceveranno i dati dalla stessa riga dell'origine dati e visualizzeranno lo stesso valore dopo l'unione.
-    // Un campo NEXT indica immediatamente alla stampa unione di spostarsi di una riga verso il basso,
+    // riceveranno i dati dalla stessa riga della sorgente dati e visualizzeranno lo stesso valore dopo l'unione.
+    // Un campo NEXT indica alla stampa unione di spostarsi immediatamente verso il basso di una riga,
     // il che significa che tutti i MERGEFIELD che seguono il campo NEXT riceveranno i dati dalla riga successiva.
-    // Assicurati di non provare mai a saltare alla riga successiva mentre sei già sull'ultima riga.
+    // Assicurati di non provare mai a passare alla riga successiva mentre sei già all'ultima riga.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
     // Dopo l'unione, i valori dell'origine dati accettati da questi MERGEFIELD
-     // finirà sulla stessa pagina dei MERGEFIELD sopra.
+     // finirà sulla stessa pagina dei MERGEFIELD precedenti.
     InsertMergeFields(builder, "Second row: ");
 
     // Un campo NEXTIF ha la stessa funzione di un campo NEXT,
@@ -98,14 +98,14 @@ public void FieldNext()
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // Se il confronto affermato dal campo precedente è corretto,
+    // Se il confronto affermato dal campo sopra è corretto,
     // i seguenti 3 campi di unione prenderanno i dati dalla terza riga.
-    // Altrimenti, questi campi prenderanno nuovamente i dati dalla riga 2.
+    // In caso contrario, questi campi prenderanno nuovamente i dati dalla riga 2.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
 
-     // La nostra origine dati ha 3 righe e le abbiamo saltate due volte.
+     // La nostra sorgente dati ha 3 righe e abbiamo saltato due volte alcune righe.
     // Il nostro documento di output avrà 1 pagina con i dati di tutte e 3 le righe.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }

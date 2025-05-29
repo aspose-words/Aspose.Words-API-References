@@ -3,7 +3,7 @@ title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words per .NET
-description: TableStyle BottomPadding proprietà. Ottiene o imposta la quantità di spazio in punti da aggiungere sotto il contenuto delle celle della tabella in C#.
+description: Scopri la proprietà TableStyle BottomPadding e personalizza la spaziatura delle celle della tua tabella per migliorare il layout e la leggibilità. Ottimizza il tuo design senza sforzo!
 type: docs
 weight: 50
 url: /it/net/aspose.words/tablestyle/bottompadding/

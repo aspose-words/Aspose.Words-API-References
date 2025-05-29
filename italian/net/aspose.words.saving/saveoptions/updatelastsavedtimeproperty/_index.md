@@ -3,9 +3,9 @@ title: SaveOptions.UpdateLastSavedTimeProperty
 linktitle: UpdateLastSavedTimeProperty
 articleTitle: UpdateLastSavedTimeProperty
 second_title: Aspose.Words per .NET
-description: SaveOptions UpdateLastSavedTimeProperty proprietà. Ottiene o imposta un valore che determina se ilLastSavedTime la proprietà viene aggiornata prima del salvataggio in C#.
+description: Ottimizza le tue SaveOptions con la proprietà UpdateLastSavedTime. Controlla gli aggiornamenti di LastSavedTime per una gestione efficiente dei dati e prestazioni migliori.
 type: docs
-weight: 180
+weight: 190
 url: /it/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
@@ -18,7 +18,7 @@ public bool UpdateLastSavedTimeProperty { get; set; }
 
 ## Esempi
 
-Mostra come determinare se conservare la proprietà "Ultimo salvataggio" del documento durante il salvataggio.
+Mostra come stabilire se conservare la proprietà "Ultimo salvataggio" del documento durante il salvataggio.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -27,11 +27,11 @@ Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0),
     doc.BuiltInDocumentProperties.LastSavedTime);
 
 // Quando salviamo il documento in un formato OOXML, possiamo creare un oggetto OoxmlSaveOptions
-// e poi passarlo al metodo di salvataggio del documento per modificare il modo in cui salviamo il documento.
-// Imposta la proprietà "UpdateLastSavedTimeProperty" su "true" su
-// imposta la proprietà integrata "Ultima ora salvata" del documento di output sulla data/ora corrente.
-// Imposta la proprietà "UpdateLastSavedTimeProperty" su "false" su
-// preserva il valore originale della proprietà integrata "Ultima ora salvata" del documento di input.
+// e quindi passarlo al metodo di salvataggio del documento per modificare il modo in cui salviamo il documento.
+// Imposta la proprietà "UpdateLastSavedTimeProperty" su "true" per
+// imposta la proprietà incorporata "Ultimo salvataggio" del documento di output sulla data/ora corrente.
+// Imposta la proprietà "UpdateLastSavedTimeProperty" su "false" per
+// conserva il valore originale della proprietà incorporata "Ultimo salvataggio" del documento di input.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.UpdateLastSavedTimeProperty = updateLastSavedTimeProperty;
 
@@ -41,7 +41,7 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.LastSavedTime.docx");
 DateTime lastSavedTimeNew = doc.BuiltInDocumentProperties.LastSavedTime;
 
 if (updateLastSavedTimeProperty)
-    Assert.That(DateTime.Now, Is.EqualTo(lastSavedTimeNew).Within(1).Days);
+    Assert.IsTrue((DateTime.Now - lastSavedTimeNew).Days < 1);
 else
     Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
         lastSavedTimeNew);

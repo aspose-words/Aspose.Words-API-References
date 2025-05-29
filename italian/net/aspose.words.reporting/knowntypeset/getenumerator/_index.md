@@ -3,14 +3,14 @@ title: KnownTypeSet.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words per .NET
-description: KnownTypeSet GetEnumerator metodo. Restituisce AnIEnumerator oggetto per scorrere gli elementi del set in C#.
+description: Scopri il metodo GetEnumerator di KnownTypeSet per iterare facilmente sugli elementi del set con un efficiente oggetto IEnumerator. Migliora la tua esperienza di programmazione oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.reporting/knowntypeset/getenumerator/
 ---
 ## KnownTypeSet.GetEnumerator method
 
-Restituisce AnIEnumerator oggetto per scorrere gli elementi del set.
+Restituisce unIEnumerator oggetto per scorrere gli elementi dell'insieme.
 
 ```csharp
 public IEnumerator<Type> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<Type> GetEnumerator()
 
 ### Valore di ritorno
 
-UNIEnumerator oggetto per scorrere gli elementi del set.
+UNIEnumerator oggetto per scorrere gli elementi dell'insieme.
 
 ### Guarda anche
 

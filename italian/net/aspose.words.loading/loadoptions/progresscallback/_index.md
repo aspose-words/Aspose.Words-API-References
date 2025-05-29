@@ -3,14 +3,14 @@ title: LoadOptions.ProgressCallback
 linktitle: ProgressCallback
 articleTitle: ProgressCallback
 second_title: Aspose.Words per .NET
-description: LoadOptions ProgressCallback proprietà. Chiamato durante il caricamento di un documento e accetta i dati sullavanzamento del caricamento in C#.
+description: Scopri la proprietà ProgressCallback di LoadOptions per monitorare in modo efficiente l'avanzamento del caricamento dei documenti. Migliora le prestazioni e l'esperienza utente della tua app!
 type: docs
 weight: 130
 url: /it/net/aspose.words.loading/loadoptions/progresscallback/
 ---
 ## LoadOptions.ProgressCallback property
 
-Chiamato durante il caricamento di un documento e accetta i dati sull'avanzamento del caricamento.
+Viene chiamato durante il caricamento di un documento e accetta dati sullo stato di avanzamento del caricamento.
 
 ```csharp
 public IDocumentLoadingCallback ProgressCallback { get; set; }
@@ -39,7 +39,7 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Gestisce il problema relativo alla durata del caricamento.
+        // Gestisci il problema della durata del caricamento.
     }
 }
 
@@ -49,7 +49,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centro
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -59,7 +59,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     /// <summary>
     /// Metodo di callback chiamato durante il caricamento del documento.
     /// </summary>
-    /// <param name="args">Caricamento degli argomenti.</param>
+    /// <param name="args">Caricamento argomenti.</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -70,7 +70,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Data e ora in cui viene avviato il caricamento del documento.
+    /// Data e ora di inizio del caricamento del documento.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

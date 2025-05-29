@@ -3,7 +3,7 @@ title: List.IsRestartAtEachSection
 linktitle: IsRestartAtEachSection
 articleTitle: IsRestartAtEachSection
 second_title: Aspose.Words per .NET
-description: List IsRestartAtEachSection proprietà. Specifica se lelenco deve essere riavviato a ogni sezione. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà IsRestartAtEachSection per controllare la numerazione degli elenchi nelle sezioni. Migliora l'organizzazione dei documenti con questa funzionalità facile da usare!
 type: docs
 weight: 50
 url: /it/net/aspose.words.lists/list/isrestartateachsection/
@@ -18,13 +18,13 @@ public bool IsRestartAtEachSection { get; set; }
 
 ## Osservazioni
 
-Questa opzione è supportata solo nei formati di documenti RTF, DOC e DOCX.
+Questa opzione è supportata solo nei formati di documento RTF, DOC e DOCX.
 
-Questa opzione verrà scritta in DOCX solo se[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) è più alto quindiEcma376_2006.
+Questa opzione verrà scritta in DOCX solo se[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) è più alto diEcma376_2006.
 
 ## Esempi
 
-Mostra come configurare un elenco per riavviare la numerazione in ciascuna sezione.
+Mostra come configurare un elenco per riavviare la numerazione a ogni sezione.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
 // La proprietà "IsRestartAtEachSection" sarà applicabile solo quando
-// il livello di conformità OOXML del documento corrisponde a uno standard più recente di "OoxmlComplianceCore.Ecma376".
+// il livello di conformità OOXML del documento è conforme a uno standard più recente di "OoxmlComplianceCore.Ecma376".
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional

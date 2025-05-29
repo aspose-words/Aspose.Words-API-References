@@ -3,9 +3,9 @@ title: Document.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: Document Accept metodo. Accetta un visitatore in C#.
+description: Semplifica la gestione dei visitatori con il nostro metodo di accettazione dei documenti. Migliora sicurezza ed efficienza per un'esperienza impeccabile.
 type: docs
-weight: 510
+weight: 530
 url: /it/net/aspose.words/document/accept/
 ---
 ## Document.Accept method
@@ -26,15 +26,15 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../docu
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiamate[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , poi chiama[`Accept`](../../node/accept/) per tutti i nodi figlio di document e chiamate[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) alla fine.
+Chiamate[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , quindi chiama[`Accept`](../../node/accept/) per tutti i nodi figlio del documento e chiamate[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) alla fine.
 
 ## Esempi
 
-Mostra come utilizzare un visitatore di documento per stampare la struttura del nodo di un documento.
+Mostra come utilizzare un visitatore di documenti per stampare la struttura dei nodi di un documento.
 
 ```csharp
 public void DocStructureToText()
@@ -42,8 +42,8 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -51,7 +51,7 @@ public void DocStructureToText()
 }
 
 /// <summary>
-/// Attraversa l'albero dei nodi figli di un nodo.
+/// Attraversa l'albero dei nodi figlio di un nodo.
 /// Crea una mappa di questo albero sotto forma di stringa.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
@@ -67,7 +67,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un nodo Documento.
+    /// Chiamato quando viene rilevato un nodo Documento.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -81,7 +81,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Documento sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Documento.
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -92,7 +92,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Sezione.
+    /// Chiamato quando nel documento viene rilevato un nodo Sezione.
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
@@ -107,7 +107,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Sezione sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Sezione.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -118,7 +118,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Body.
+    /// Chiamato quando nel documento viene rilevato un nodo Body.
     /// </summary>
     public override VisitorAction VisitBodyStart(Body body)
     {
@@ -130,7 +130,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Body sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Body.
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -141,7 +141,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Paragrafo.
+    /// Chiamato quando nel documento viene rilevato un nodo Paragrafo.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -152,7 +152,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Paragrafo sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Paragrafo.
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -163,7 +163,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -173,7 +173,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Sottodocumento.
+    /// Chiamato quando nel documento viene rilevato un nodo SubDocument.
     /// </summary>
     public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
@@ -183,7 +183,27 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Chiamato quando nel documento viene rilevato un nodo SubDocument.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Chiamato quando nel documento viene rilevato un nodo SubDocument.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,16 +3,16 @@ title: TxtSaveOptions.SimplifyListLabels
 linktitle: SimplifyListLabels
 articleTitle: SimplifyListLabels
 second_title: Aspose.Words per .NET
-description: TxtSaveOptions SimplifyListLabels proprietà. Specifica se il programma deve semplificare le etichette dellelenco nel caso in cui la formattazione complessa delle etichette non sia adeguatamente rappresentata da testo semplice in C#.
+description: Scopri come la funzionalità SimplifyListLabels di TxtSaveOptions migliora la chiarezza semplificando le etichette di elenchi complessi per una migliore rappresentazione del testo.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/txtsaveoptions/simplifylistlabels/
 ---
 ## TxtSaveOptions.SimplifyListLabels property
 
-Specifica se il programma deve semplificare le etichette dell'elenco nel caso in cui la formattazione complessa delle etichette non sia adeguatamente rappresentata da testo semplice.
+Specifica se il programma deve semplificare le etichette degli elenchi nel caso in cui la formattazione complessa delle etichette non venga rappresentata adeguatamente dal testo normale.
 
-Se impostato su`VERO` , le etichette degli elenchi numerati sono scritte in formato numerico semplice e le etichette degli elenchi dettagliati come semplici caratteri ASCII. Il valore predefinito è`falso`.
+Se impostato su`VERO` , le etichette degli elenchi numerati sono scritte nel semplice formato numerico e le etichette degli elenchi dettagliati come semplici caratteri ASCII. Il valore predefinito è`falso`.
 
 ```csharp
 public bool SimplifyListLabels { get; set; }
@@ -38,31 +38,33 @@ builder.Writeln("Item 4");
 builder.ListFormat.ListIndent();
 builder.Write("Item 5");
 
-// Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
+// Creiamo un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
 // per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Imposta la proprietà "SimplifyListLabels" su "true" per convertire alcuni elenchi
+// Imposta la proprietà "SimplifyListLabels" su "true" per convertire un elenco
 // simboli in caratteri ASCII più semplici, come '*', 'o', '+', '>', ecc.
-// Imposta la proprietà "SimplifyListLabels" su "false" per preservare il maggior numero possibile di simboli dell'elenco originale.
+// Impostare la proprietà "SimplifyListLabels" su "false" per preservare quanti più simboli di elenco originali possibili.
 txtSaveOptions.SimplifyListLabels = simplifyListLabels;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt");
 
+string newLine = Environment.NewLine;
+
 if (simplifyListLabels)
-    Assert.AreEqual("* Item 1\r\n" +
-                    "  > Item 2\r\n" +
-                    "    + Item 3\r\n" +
-                    "      - Item 4\r\n" +
-                    "        o Item 5\r\n", docText);
+    Assert.AreEqual($"* Item 1{newLine}" +
+                    $"  > Item 2{newLine}" +
+                    $"    + Item 3{newLine}" +
+                    $"      - Item 4{newLine}" +
+                    $"        o Item 5{newLine}", docText);
 else
-    Assert.AreEqual("· Item 1\r\n" +
-                    "o Item 2\r\n" +
-                    "§ Item 3\r\n" +
-                    "· Item 4\r\n" +
-                    "o Item 5\r\n", docText);
+    Assert.AreEqual($"· Item 1{newLine}" +
+                    $"o Item 2{newLine}" +
+                    $"§ Item 3{newLine}" +
+                    $"· Item 4{newLine}" +
+                    $"o Item 5{newLine}", docText);
 ```
 
 ### Guarda anche

@@ -3,14 +3,14 @@ title: Style.ListFormat
 linktitle: ListFormat
 articleTitle: ListFormat
 second_title: Aspose.Words per .NET
-description: Style ListFormat proprietà. Fornisce laccesso alle proprietà di formattazione dellelenco di uno stile di paragrafo in C#.
+description: Scopri come personalizzare la proprietà ListFormat per gli stili di paragrafo, migliorando l'organizzazione e l'aspetto visivo del tuo documento.
 type: docs
 weight: 110
 url: /it/net/aspose.words/style/listformat/
 ---
 ## Style.ListFormat property
 
-Fornisce l'accesso alle proprietà di formattazione dell'elenco di uno stile di paragrafo.
+Fornisce accesso alle proprietà di formattazione dell'elenco di uno stile di paragrafo.
 
 ```csharp
 public ListFormat ListFormat { get; }
@@ -18,7 +18,7 @@ public ListFormat ListFormat { get; }
 
 ## Osservazioni
 
-Questa proprietà è valida solo per gli stili di paragrafo. Per altri tipi di stile questa proprietà restituisce`nullo`.
+Questa proprietà è valida solo per gli stili di paragrafo. Per altri tipi di stile questa proprietà restituisce`null`.
 
 ## Esempi
 
@@ -34,15 +34,15 @@ style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Crea un elenco e assicurati che i paragrafi che utilizzano questo stile utilizzino questo elenco.
+// Crea un elenco e assicurati che i paragrafi che utilizzano questo stile utilizzeranno questo elenco.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Applica lo stile di paragrafo al paragrafo corrente del generatore di documenti, quindi aggiunge del testo.
+// Applica lo stile paragrafo al paragrafo corrente del generatore di documenti, quindi aggiungi del testo.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Cambia lo stile del generatore di documenti in uno che non abbia formattazione di elenco e scrivi un altro paragrafo.
+// Modificare lo stile del generatore di documenti scegliendone uno che non abbia formattazione di elenco e scrivere un altro paragrafo.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

@@ -3,14 +3,14 @@ title: IFieldUpdatingProgressCallback Interface
 linktitle: IFieldUpdatingProgressCallback
 articleTitle: IFieldUpdatingProgressCallback
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback interfaccia. Implementa questa interfaccia se desideri monitorare lavanzamento dellaggiornamento sul campo in C#.
+description: Monitora l'avanzamento dell'aggiornamento dei campi senza interruzioni con l'interfaccia Aspose.Words.Fields.IFieldUpdatingProgressCallback. Migliora la tua gestione documentale oggi stesso!
 type: docs
-weight: 2730
+weight: 3140
 url: /it/net/aspose.words.fields/ifieldupdatingprogresscallback/
 ---
 ## IFieldUpdatingProgressCallback interface
 
-Implementa questa interfaccia se desideri monitorare l'avanzamento dell'aggiornamento sul campo.
+Implementa questa interfaccia se vuoi monitorare l'avanzamento dell'aggiornamento dei campi.
 
 ```csharp
 public interface IFieldUpdatingProgressCallback
@@ -20,11 +20,11 @@ public interface IFieldUpdatingProgressCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Un metodo definito dall'utente che viene chiamato quando viene modificato l'avanzamento dell'aggiornamento. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Metodo definito dall'utente che viene chiamato quando viene modificato l'avanzamento dell'aggiornamento. |
 
 ## Esempi
 
-Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
+Mostra come utilizzare i metodi di callback durante l'aggiornamento di un campo.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -48,7 +48,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo.
+/// Implementa questa interfaccia se vuoi che vengano chiamati metodi personalizzati durante un aggiornamento di campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -58,7 +58,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -70,7 +70,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

@@ -3,14 +3,14 @@ title: MarkdownSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words per .NET
-description: MarkdownSaveOptions ImageSavingCallback proprietà. Permette di controllare come vengono salvate le immagini quando un documento viene salvato in Markdown formato in C#.
+description: Controlla il salvataggio delle immagini in Markdown con ImageSavingCallback di MarkdownSaveOptions. Migliora la formattazione dei documenti e semplifica il tuo flusso di lavoro senza sforzo!
 type: docs
-weight: 30
+weight: 70
 url: /it/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-Permette di controllare come vengono salvate le immagini quando un documento viene salvato in Markdown formato.
+Consente di controllare come vengono salvate le immagini quando un documento viene salvato su Markdown formato.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## Esempi
 
-Mostra come rinominare il nome dell'immagine durante il salvataggio nel documento Markdown.
+Mostra come rinominare l'immagine durante il salvataggio nel documento Markdown.
 
 ```csharp
 public void RenameImages()
@@ -26,13 +26,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
-    // Se convertiamo un documento che contiene immagini in Markdown, ci ritroveremo con un file Markdown che si collega a diverse immagini.
-    // Ogni immagine avrà la forma di un file nel file system locale.
-    // Esiste anche un callback che può personalizzare il nome e la posizione del file system di ciascuna immagine.
+    // Se convertiamo in Markdown un documento contenente immagini, otterremo un file Markdown che rimanda a più immagini.
+    // Ogni immagine sarà sotto forma di file nel file system locale.
+    // Esiste anche una callback che può personalizzare il nome e la posizione del file system di ciascuna immagine.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // Il metodo ImageSaving() del nostro callback verrà eseguito in questo momento.
+    // In questo momento verrà eseguito il metodo ImageSaving() del nostro callback.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -46,7 +46,7 @@ public void RenameImages()
 }
 
 /// <summary>
-/// Rinomina le immagini salvate prodotte quando viene salvato un documento Markdown.
+/// Rinomina le immagini salvate prodotte quando si salva un documento Markdown.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

@@ -3,14 +3,14 @@ title: CustomPart.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words per .NET
-description: CustomPart Name proprietà. Ottiene o imposta il nome assoluto di questa parte allinterno del pacchetto OOXML o lURL di destinazione in C#.
+description: Scopri come gestire i nomi CustomPart nei pacchetti OOXML. Imposta o recupera facilmente nomi assoluti per un'integrazione perfetta e funzionalità avanzate.
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/custompart/name/
 ---
 ## CustomPart.Name property
 
-Ottiene o imposta il nome assoluto di questa parte all'interno del pacchetto OOXML o l'URL di destinazione.
+Ottiene o imposta il nome assoluto di questa parte all'interno del pacchetto OOXML o dell'URL di destinazione.
 
 ```csharp
 public string Name { get; set; }
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ## Osservazioni
 
-Se la destinazione della relazione è interna, questa proprietà è il nome della parte assoluta all'interno del pacchetto. Se la destinazione della relazione è esterna, questa proprietà è l'URL di destinazione.
+Se la destinazione della relazione è interna, questa proprietà è il nome assoluto della parte all'interno del pacchetto. Se la destinazione della relazione è esterna, questa proprietà è l'URL di destinazione.
 
 Il valore predefinito è una stringa vuota. Un valore valido deve essere una stringa non vuota.
 
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -3,7 +3,7 @@ title: FieldPrint.PrinterInstructions
 linktitle: PrinterInstructions
 articleTitle: PrinterInstructions
 second_title: Aspose.Words per .NET
-description: FieldPrint PrinterInstructions proprietà. Ottiene o imposta i caratteri del codice di controllo specifici della stampante o le istruzioni PostScript in C#.
+description: Scopri come gestire i codici di controllo specifici della stampante e le istruzioni PostScript con FieldPrint PrinterInstructions per soluzioni di stampa ottimizzate.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -18,7 +18,7 @@ public string PrinterInstructions { get; set; }
 
 ## Esempi
 
-Mostra per inserire un campo PRINT.
+Mostra come inserire un campo STAMPA.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ builder.Write("My paragraph");
 // Il campo PRINT può inviare istruzioni alla stampante.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// Imposta l'area su cui la stampante esegue le istruzioni.
-// In questo caso, sarà il paragrafo che contiene il nostro campo PRINT.
+// Imposta l'area su cui la stampante dovrà eseguire le istruzioni.
+// In questo caso, sarà il paragrafo a contenere il nostro campo PRINT.
 field.PostScriptGroup = "para";
 
 // Quando utilizziamo una stampante che supporta PostScript per stampare il nostro documento,

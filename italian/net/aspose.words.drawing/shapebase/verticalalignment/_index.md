@@ -3,14 +3,14 @@ title: ShapeBase.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words per .NET
-description: ShapeBase VerticalAlignment proprietà. Specifica come viene posizionata la forma verticalmente in C#.
+description: Scopri la proprietà ShapeBase VerticalAlignment per ottimizzare il posizionamento verticale della tua forma, per una maggiore precisione di progettazione e un impatto visivo più gradevole.
 type: docs
-weight: 560
+weight: 600
 url: /it/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
 
-Specifica come viene posizionata la forma verticalmente.
+Specifica come la forma è posizionata verticalmente.
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; set; }
@@ -20,7 +20,7 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 Il valore predefinito èNone.
 
-Ha effetto solo per le forme fluttuanti di livello superiore.
+Ha effetto solo sulle forme mobili di livello superiore.
 
 ## Esempi
 

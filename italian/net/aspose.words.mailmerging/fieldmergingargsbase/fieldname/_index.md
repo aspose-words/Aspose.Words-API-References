@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words per .NET
-description: FieldMergingArgsBase FieldName proprietà. Ottiene il nome del campo di unione nellorigine dati in C#.
+description: Scopri la proprietà FieldName di FieldMergingArgsBase, che recupera il nome del campo di unione dalla tua origine dati per un'integrazione perfetta.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -18,13 +18,13 @@ public string FieldName { get; }
 
 ## Osservazioni
 
-Se disponi di una mappatura da un nome di campo del documento a un nome di campo di origine dati diverso, , questo è il nome del campo mappato.
+Se si dispone di una mappatura dal nome di un campo di un documento a un nome di campo di un'origine dati diversa, , questo è il nome del campo mappato.
 
-Se hai specificato un prefisso per il nome del campo, ad esempio "Immagine:MyFieldName" nel documento, allora`FieldName` restituisce il nome del campo senza prefisso, ovvero "MyFieldName".
+Se hai specificato un prefisso del nome del campo, ad esempio "Immagine:NomeCampo" nel documento, allora`FieldName` restituisce il nome del campo senza prefisso, ovvero "MyFieldName".
 
 ## Esempi
 
-Mostra come inserire i campi modulo delle caselle di controllo nei MERGEFIELD come dati di unione durante la stampa unione.
+Mostra come inserire campi modulo casella di controllo in MERGEFIELD come dati di unione durante la stampa unione.
 
 ```csharp
 public void InsertCheckBox()
@@ -32,8 +32,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utilizza MERGEFIELD con i tag "TableStart"/"TableEnd" per definire un'area di stampa unione
-    // che appartiene a un'origine dati denominata "StudentCourse" e dispone di un MERGEFIELD che accetta dati da una colonna denominata "CourseName".
+    // Utilizzare i MERGEFIELD con i tag "TableStart"/"TableEnd" per definire un'area di unione di stampa
+    // che appartiene a una sorgente dati denominata "StudentCourse" e ha un MERGEFIELD che accetta dati da una colonna denominata "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -52,7 +52,7 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// Quando incontra un MERGEFIELD con un nome specifico, inserisce un campo modulo con casella di controllo invece del testo dei dati di unione.
+/// Quando incontra un MERGEFIELD con un nome specifico, inserisce un campo modulo con casella di controllo anziché il testo dei dati di unione.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
@@ -81,14 +81,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
-/// Crea un'origine dati di stampa unione.
+/// Crea un'origine dati per la stampa unione.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

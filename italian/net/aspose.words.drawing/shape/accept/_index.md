@@ -3,9 +3,9 @@ title: Shape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: Shape Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo Shape Accept, progettato per migliorare il coinvolgimento dei visitatori e semplificare il processo di accettazione per ottenere risultati migliori.
 type: docs
-weight: 240
+weight: 250
 url: /it/net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method
@@ -26,11 +26,11 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../a
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiamate[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio della forma e delle chiamate[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) alla fine.
+Chiamate[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , quindi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio della forma e delle chiamate[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) alla fine.
 
 ## Esempi
 
@@ -47,7 +47,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Registra le informazioni relative all'aspetto delle forme visitate.
+/// Registra informazioni relative all'aspetto delle forme visitate.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder con un carattere di tabulazione anteposto per ogni livello di rientro.
+    /// Aggiunge una riga allo StringBuilder con un carattere di tabulazione anteposto per ogni livello di rientro.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -97,7 +97,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -113,7 +112,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando questo visitatore visita la fine di un nodo Shape.
+    /// Chiamato quando questo visitatore raggiunge la fine di un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -136,7 +135,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando questo visitatore visita la fine di un nodo GroupShape.
+    /// Chiamato quando questo visitatore raggiunge la fine di un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

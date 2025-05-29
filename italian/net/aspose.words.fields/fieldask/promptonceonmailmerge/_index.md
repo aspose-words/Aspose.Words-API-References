@@ -3,14 +3,14 @@ title: FieldAsk.PromptOnceOnMailMerge
 linktitle: PromptOnceOnMailMerge
 articleTitle: PromptOnceOnMailMerge
 second_title: Aspose.Words per .NET
-description: FieldAsk PromptOnceOnMailMerge proprietà. Ottiene o imposta se la risposta dellutente deve essere ricevuta una volta per unoperazione di stampa unione in C#.
+description: Ottimizza le tue operazioni di stampa unione con FieldAsk PromptOnceOnMailMerge. Controlla le risposte degli utenti in modo efficiente, migliorando l'accuratezza dei dati e semplificando il processo.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldask/promptonceonmailmerge/
 ---
 ## FieldAsk.PromptOnceOnMailMerge property
 
-Ottiene o imposta se la risposta dell'utente deve essere ricevuta una volta per un'operazione di stampa unione.
+Ottiene o imposta se la risposta dell'utente deve essere ricevuta una volta per ogni operazione di unione di posta.
 
 ```csharp
 public bool PromptOnceOnMailMerge { get; set; }
@@ -26,7 +26,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore personalizzato,
+    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore di richiesta personalizzato,
     // che si verificherà durante una stampa unione.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.
+/// Aggiunge del testo all'inizio della risposta predefinita di un campo ASK durante una stampa unione.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

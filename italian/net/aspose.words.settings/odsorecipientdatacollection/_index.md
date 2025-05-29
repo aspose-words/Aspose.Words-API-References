@@ -3,16 +3,16 @@ title: OdsoRecipientDataCollection Class
 linktitle: OdsoRecipientDataCollection
 articleTitle: OdsoRecipientDataCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection classe. Una raccolta digitata diOdsoRecipientData in C#.
+description: Scopri Aspose.Words.Settings.OdsoRecipientDataCollection, una potente raccolta tipizzata per gestire in modo efficiente OdsoRecipientData nelle tue applicazioni.
 type: docs
-weight: 5940
+weight: 6770
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
-Una raccolta digitata di[`OdsoRecipientData`](../odsorecipientdata/)
+Una raccolta tipizzata di[`OdsoRecipientData`](../odsorecipientdata/)
 
-Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
+Per saperne di più, visita il[Unione di posta e creazione di report](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -37,12 +37,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | Aggiunge un oggetto alla fine di questa raccolta. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Rimuove tutti gli elementi da questa raccolta. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi nella raccolta. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | Rimuove l'elemento all'indice specificato. |
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
+Mostra come accedere alla raccolta di dati che designa quali record di origine dati di unione verranno esclusi dalla stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -67,7 +67,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere gli elementi singolarmente o cancellare l'intera raccolta in una volta sola.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

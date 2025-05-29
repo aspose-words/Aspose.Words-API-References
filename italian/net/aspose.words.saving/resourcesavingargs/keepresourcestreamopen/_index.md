@@ -3,7 +3,7 @@ title: ResourceSavingArgs.KeepResourceStreamOpen
 linktitle: KeepResourceStreamOpen
 articleTitle: KeepResourceStreamOpen
 second_title: Aspose.Words per .NET
-description: ResourceSavingArgs KeepResourceStreamOpen proprietà. Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato una risorsa in C#.
+description: Scopri come la proprietà KeepResourceStreamOpen in ResourceSavingArgs migliora Aspose.Words gestendo l'efficienza del flusso durante il risparmio delle risorse.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
@@ -18,7 +18,7 @@ public bool KeepResourceStreamOpen { get; set; }
 
 ## Osservazioni
 
-L'impostazione predefinita è`falso` e Aspose.Words chiuderà lo stream che hai fornito nel file[`ResourceStream`](../resourcestream/) proprietà dopo aver scritto una risorsa al suo interno. Specifica`VERO` per mantenere aperto il flusso.
+Il valore predefinito è`falso` e Aspose.Words chiuderà il flusso fornito nel[`ResourceStream`](../resourcestream/) proprietà dopo aver scritto una risorsa in essa. Specificare`VERO` per mantenere aperto il flusso.
 
 ## Esempi
 
@@ -42,7 +42,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una cartella specificata da ResourcesFolderAlias conterrà le risorse anziché ResourcesFolder.
-    // Dobbiamo garantire che la cartella esista prima che i flussi possano inserirvi le proprie risorse.
+    // Dobbiamo assicurarci che la cartella esista prima che i flussi possano inserirvi le loro risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -71,8 +71,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Per impostazione predefinita, "ResourceFileUri" utilizza la cartella di sistema per i caratteri.
-                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso dei caratteri.
+                // Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i font.
+                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso per i font.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -81,7 +81,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
-        // dovremo anche reindirizzare ogni flusso per inserire la relativa risorsa in quella cartella.
+        // dovremo anche reindirizzare ogni flusso per mettere la sua risorsa in quella cartella.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

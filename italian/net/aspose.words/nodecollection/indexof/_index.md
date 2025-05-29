@@ -3,14 +3,14 @@ title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words per .NET
-description: NodeCollection IndexOf metodo. Restituisce lindice in base zero del nodo specificato in C#.
+description: Scopri il metodo IndexOf di NodeCollection per trovare in modo efficiente l'indice a partire da zero di qualsiasi nodo specificato nelle tue raccolte.
 type: docs
 weight: 70
 url: /it/net/aspose.words/nodecollection/indexof/
 ---
 ## NodeCollection.IndexOf method
 
-Restituisce l'indice in base zero del nodo specificato.
+Restituisce l'indice basato su zero del nodo specificato.
 
 ```csharp
 public int IndexOf(Node node)
@@ -18,11 +18,11 @@ public int IndexOf(Node node)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| node | Node | Il nodo da individuare. |
+| node | Node | Il nodo da localizzare. |
 
 ### Valore di ritorno
 
-L'indice in base zero del nodo all'interno della raccolta, se trovato; altrimenti, -1.
+Indice a partire da zero del nodo all'interno della raccolta, se trovato; in caso contrario, -1.
 
 ## Osservazioni
 

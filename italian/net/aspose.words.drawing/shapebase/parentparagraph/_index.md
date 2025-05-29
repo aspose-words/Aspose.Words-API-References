@@ -3,14 +3,14 @@ title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words per .NET
-description: ShapeBase ParentParagraph proprietà. Restituisce il paragrafo principale immediato in C#.
+description: Scopri la proprietà ShapeBase ParentParagraph: accedi in modo efficiente al paragrafo padre immediato per una gestione semplificata dei contenuti e un'organizzazione migliorata.
 type: docs
-weight: 410
+weight: 430
 url: /it/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
 
-Restituisce il paragrafo principale immediato.
+Restituisce il paragrafo padre immediato.
 
 ```csharp
 public Paragraph ParentParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph ParentParagraph { get; }
 
 ## Osservazioni
 
-Per le forme secondarie di una forma di gruppo e le forme secondarie di un oggetto Office Math restituisce sempre`nullo`.
+Per le forme figlio di un gruppo, la forma e le forme figlio di un oggetto Office Math restituiscono sempre`null`.
 
 ## Esempi
 
@@ -34,9 +34,9 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Imposta la proprietà "Hidden" dell'oggetto "Font" della forma su "true" per nascondere la casella di testo alla vista
-// e comprime lo spazio che normalmente occuperebbe.
-// Imposta la proprietà "Nascosto" dell'oggetto "Font" della forma su "false" per lasciare visibile la casella di testo.
+// Imposta la proprietà "Nascosto" dell'oggetto "Font" della forma su "true" per nascondere la casella di testo alla vista
+// e comprimere lo spazio che normalmente occuperebbe.
+// Imposta la proprietà "Nascosto" dell'oggetto "Carattere" della forma su "false" per lasciare visibile la casella di testo.
 shape.Font.Hidden = hideShape;
 
 // Se la forma è visibile, ne modificheremo l'aspetto tramite l'oggetto font.

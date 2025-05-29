@@ -3,14 +3,14 @@ title: FieldToc.UpdatePageNumbers
 linktitle: UpdatePageNumbers
 articleTitle: UpdatePageNumbers
 second_title: Aspose.Words per .NET
-description: FieldToc UpdatePageNumbers metodo. Aggiorna i numeri di pagina per gli elementi in questo sommario in C#.
+description: Aggiorna senza sforzo il tuo indice con il metodo UpdatePageNumbers di FieldToc, assicurando una navigazione accurata e una migliore fruibilità del documento.
 type: docs
 weight: 180
 url: /it/net/aspose.words.fields/fieldtoc/updatepagenumbers/
 ---
 ## FieldToc.UpdatePageNumbers method
 
-Aggiorna i numeri di pagina per gli elementi in questo sommario.
+Aggiorna i numeri di pagina per gli elementi di questo indice.
 
 ```csharp
 public bool UpdatePageNumbers()
@@ -18,11 +18,11 @@ public bool UpdatePageNumbers()
 
 ### Valore di ritorno
 
-`VERO` se l'operazione è andata a buon fine. Se uno qualsiasi dei segnalibri del sommario correlato è stato rimosso,`falso` verrà restituito.
+`VERO` se l'operazione ha esito positivo. Se uno qualsiasi dei segnalibri TOC correlati è stato rimosso,`falso` verrà restituito.
 
 ## Esempi
 
-Mostra come inserire un sommario e popolarlo con voci basate sugli stili di intestazione.
+Mostra come inserire un indice e popolarlo con voci in base agli stili di intestazione.
 
 ```csharp
 public void FieldToc()
@@ -32,27 +32,27 @@ public void FieldToc()
 
     builder.StartBookmark("MyBookmark");
 
-    // Inserisci un campo TOC, che compilerà tutte le intestazioni in un sommario.
-    // Per ogni intestazione, questo campo creerà una riga con il testo in quello stile di intestazione a sinistra,
-    // e la pagina in cui appare l'intestazione a destra.
+    // Inserire un campo TOC, che compilerà tutte le intestazioni in un indice.
+    // Per ogni titolo, questo campo creerà una riga con il testo in quello stile di titolo a sinistra,
+    // e la pagina in cui appare l'intestazione sulla destra.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Utilizza la proprietà BookmarkName per elencare solo le intestazioni
-    // che appaiono all'interno dei limiti di un segnalibro con il nome "MyBookmark".
+    // Utilizzare la proprietà BookmarkName per elencare solo le intestazioni
+    // che compaiono all'interno dei limiti di un segnalibro con il nome "MyBookmark".
     field.BookmarkName = "MyBookmark";
 
-    // Il testo con uno stile di titolo integrato, ad esempio "Titolo 1", applicato ad esso verrà conteggiato come titolo.
-    // Possiamo nominare stili aggiuntivi da raccogliere come intestazioni dal TOC in questa proprietà e i relativi livelli TOC.
+    // Il testo a cui è applicato uno stile di intestazione incorporato, ad esempio "Intestazione 1", verrà conteggiato come intestazione.
+    // In questa proprietà possiamo nominare stili aggiuntivi da selezionare come titoli dall'indice e i relativi livelli di indice.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
     // Per impostazione predefinita, i livelli Stili/TOC sono separati nella proprietà CustomStyles da una virgola,
     // ma possiamo impostare un delimitatore personalizzato in questa proprietà.
     doc.FieldOptions.CustomTocStyleSeparator = ";";
 
-    // Configura il campo per escludere eventuali intestazioni con livelli di sommario esterni a questo intervallo.
+    // Configurare il campo per escludere tutte le intestazioni con livelli di indice al di fuori di questo intervallo.
     field.HeadingLevelRange = "1-3";
 
-    // Il sommario non visualizzerà i numeri di pagina delle intestazioni i cui livelli di sommario rientrano in questo intervallo.
+    // L'indice non visualizzerà i numeri di pagina dei titoli i cui livelli rientrano in questo intervallo.
     field.PageNumberOmittingLevelRange = "2-5";
 
      // Imposta una stringa personalizzata che separerà ogni intestazione dal suo numero di pagina.
@@ -69,17 +69,17 @@ public void FieldToc()
     InsertNewPageWithHeading(builder, "Third entry", "Quote");
     InsertNewPageWithHeading(builder, "Fourth entry", "Intense Quote");
 
-    // Queste due intestazioni avranno i numeri di pagina omessi perché rientrano nell'intervallo "2-5".
+    // I numeri di pagina di queste due intestazioni saranno omessi perché rientrano nell'intervallo "2-5".
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
-    // Questa voce non viene visualizzata perché "Intestazione 4" non rientra nell'intervallo "1-3" impostato in precedenza.
+    // Questa voce non viene visualizzata perché "Titolo 4" è al di fuori dell'intervallo "1-3" impostato in precedenza.
     InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
 
     builder.EndBookmark("MyBookmark");
     builder.Writeln("Paragraph text.");
 
-    // Questa voce non viene visualizzata perché è esterna al segnalibro specificato dal sommario.
+    // Questa voce non viene visualizzata perché è esterna al segnalibro specificato dall'indice.
     InsertNewPageWithHeading(builder, "Eighth entry", "Heading 1");
 
     Assert.AreEqual(" TOC  \\b MyBookmark \\t \"Quote; 6; Intense Quote; 7\" \\o 1-3 \\n 2-5 \\p - \\h \\x \\w", field.GetFieldCode());
@@ -90,7 +90,7 @@ public void FieldToc()
 }
 
 /// <summary>
-/// Inizia una nuova pagina e inserisce un paragrafo con lo stile specificato.
+/// Inizia una nuova pagina e inserisci un paragrafo con uno stile specificato.
 /// </summary>
 public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText, string styleName)
 {

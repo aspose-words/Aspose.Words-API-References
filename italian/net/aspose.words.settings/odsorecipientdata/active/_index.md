@@ -3,14 +3,14 @@ title: OdsoRecipientData.Active
 linktitle: Active
 articleTitle: Active
 second_title: Aspose.Words per .NET
-description: OdsoRecipientData Active proprietà. Specifica se il record dellorigine dati deve essere importato in un documento quando viene eseguita la stampa unione. Il valore predefinito èVERO  in C#.
+description: Controlla le importazioni di unione dati con la proprietà OdsoRecipientData Active. Gestisci facilmente i record di dati per una creazione di documenti fluida. Il valore predefinito è "true".
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-Specifica se il record dell'origine dati deve essere importato in un documento quando viene eseguita la stampa unione. Il valore predefinito è`VERO` .
+Specifica se il record dall'origine dati deve essere importato in un documento quando viene eseguita la stampa unione. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool Active { get; set; }
@@ -18,7 +18,7 @@ public bool Active { get; set; }
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
+Mostra come accedere alla raccolta di dati che designa quali record di origine dati di unione verranno esclusi dalla stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere gli elementi singolarmente o cancellare l'intera raccolta in una volta sola.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

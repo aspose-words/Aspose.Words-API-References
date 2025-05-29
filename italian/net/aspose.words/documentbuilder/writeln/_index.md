@@ -3,9 +3,9 @@ title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
 second_title: Aspose.Words per .NET
-description: DocumentBuilder Writeln metodo. Inserisce una stringa e uninterruzione di paragrafo nel documento in C#.
+description: Migliora i tuoi documenti senza sforzo con il metodo Writeln di DocumentBuilder: inserisci testo e interruzioni di paragrafo senza problemi per una migliore leggibilità.
 type: docs
-weight: 660
+weight: 700
 url: /it/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}
@@ -18,15 +18,15 @@ public void Writeln(string text)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| text | String | La stringa da inserire nel documento. |
+| text | String | Stringa da inserire nel documento. |
 
 ## Osservazioni
 
-Carattere corrente e formattazione del paragrafo specificati dal[`Font`](../font/) E[`ParagraphFormat`](../paragraphformat/) vengono utilizzate le proprietà.
+Formato del carattere e del paragrafo corrente specificato da[`Font`](../font/) E[`ParagraphFormat`](../paragraphformat/) vengono utilizzate le proprietà.
 
 ## Esempi
 
-Mostra come creare una tabella 2x2 formattata.
+Mostra come creare una tabella formattata 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
-// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti delle proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che vengono create.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono retroattivamente influenzate dalle modifiche apportate alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -85,7 +85,7 @@ public void Writeln()
 
 ## Osservazioni
 
-Chiamate[`InsertParagraph`](../insertparagraph/).
+chiamate[`InsertParagraph`](../insertparagraph/).
 
 ## Esempi
 
@@ -95,7 +95,7 @@ Mostra come creare intestazioni e piè di pagina in un documento utilizzando Doc
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica che vogliamo intestazioni e piè di pagina diversi per le prime pagine, pari e dispari.
+// Specificare che si vogliono intestazioni e piè di pagina diversi per la prima pagina, le pagine pari e quelle dispari.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

@@ -3,14 +3,14 @@ title: DocumentBase.FontInfos
 linktitle: FontInfos
 articleTitle: FontInfos
 second_title: Aspose.Words per .NET
-description: DocumentBase FontInfos proprietà. Fornisce laccesso alle proprietà dei caratteri utilizzati in questo documento in C#.
+description: Accedi alle proprietà dettagliate dei font con la funzionalità FontInfos di DocumentBase, migliorando senza sforzo il design e la leggibilità del tuo documento.
 type: docs
 weight: 30
 url: /it/net/aspose.words/documentbase/fontinfos/
 ---
 ## DocumentBase.FontInfos property
 
-Fornisce l'accesso alle proprietà dei caratteri utilizzati in questo documento.
+Fornisce l'accesso alle proprietà dei font utilizzati in questo documento.
 
 ```csharp
 public FontInfoCollection FontInfos { get; }
@@ -18,28 +18,13 @@ public FontInfoCollection FontInfos { get; }
 
 ## Osservazioni
 
-Questa raccolta di definizioni di caratteri viene caricata così com'è dal documento. Le definizioni di caratteri potrebbero essere facoltative, mancanti o incomplete in alcuni documenti.
+Questa raccolta di definizioni di font viene caricata così com'è dal documento. In alcuni documenti le definizioni di font potrebbero essere facoltative, mancanti o incomplete.
 
-Non fare affidamento su questa raccolta per accertarti che un particolare carattere sia utilizzato nel documento. Dovresti utilizzare questa raccolta solo per ottenere informazioni sui caratteri che potrebbero essere utilizzati nel documento.
+Non fare affidamento su questa raccolta per accertare che nel documento sia utilizzato un particolare font. Dovresti usare questa raccolta solo per ottenere informazioni sui font che potrebbero essere utilizzati nel documento.
 
 ## Esempi
 
-Mostra come stampare i dettagli di quali caratteri sono presenti in un documento.
-
-```csharp
-Document doc = new Document(MyDir + "Embedded font.docx");
-
-FontInfoCollection allFonts = doc.FontInfos;
-// Stampa tutti i font usati e non utilizzati nel documento.
-for (int i = 0; i < allFonts.Count; i++)
-{
-    Console.WriteLine($"Font index #{i}");
-    Console.WriteLine($"\tName: {allFonts[i].Name}");
-    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
-}
-```
-
-Mostra come salvare un documento con caratteri TrueType incorporati.
+Mostra come salvare un documento con i font TrueType incorporati.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -50,11 +35,21 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
+```
 
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
+Mostra come stampare i dettagli dei font presenti in un documento.
+
+```csharp
+Document doc = new Document(MyDir + "Embedded font.docx");
+
+FontInfoCollection allFonts = doc.FontInfos;
+// Stampa tutti i font utilizzati e non utilizzati nel documento.
+for (int i = 0; i < allFonts.Count; i++)
+{
+    Console.WriteLine($"Font index #{i}");
+    Console.WriteLine($"\tName: {allFonts[i].Name}");
+    Console.WriteLine($"\tIs {(allFonts[i].IsTrueType ? "" : "not ")}a trueType font");
+}
 ```
 
 ### Guarda anche

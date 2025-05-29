@@ -3,7 +3,7 @@ title: Table.RelativeHorizontalAlignment
 linktitle: RelativeHorizontalAlignment
 articleTitle: RelativeHorizontalAlignment
 second_title: Aspose.Words per .NET
-description: Table RelativeHorizontalAlignment proprietà. Ottiene o imposta lallineamento orizzontale relativo della tabella mobile in C#.
+description: Scopri la proprietà Table RelativeHorizontalAlignment per regolare facilmente l'allineamento orizzontale della tabella, per un controllo migliore del layout e un impatto visivo migliore.
 type: docs
 weight: 230
 url: /it/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Imposta la posizione della tabella su un punto della pagina, come, in questo caso, l'angolo in basso a destra.
+// Imposta la posizione della tabella in un punto della pagina, ad esempio, in questo caso, l'angolo in basso a destra.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Possiamo anche impostare uno spostamento orizzontale e verticale in punti dalla posizione del paragrafo in cui abbiamo inserito la tabella.
+ // Possiamo anche impostare uno scostamento orizzontale e verticale in punti dalla posizione del paragrafo in cui abbiamo inserito la tabella.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

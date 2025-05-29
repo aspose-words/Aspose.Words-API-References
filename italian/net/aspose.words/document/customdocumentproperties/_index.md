@@ -3,14 +3,14 @@ title: Document.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words per .NET
-description: Document CustomDocumentProperties proprietà. Restituisce una raccolta che rappresenta tutte le proprietà del documento personalizzato del documento in C#.
+description: Esplora la proprietà CustomDocumentProperties per accedere e gestire in modo efficiente tutte le proprietà personalizzate del documento, migliorando così la funzionalità del tuo documento.
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words/document/customdocumentproperties/
 ---
 ## Document.CustomDocumentProperties property
 
-Restituisce una raccolta che rappresenta tutte le proprietà del documento personalizzato del documento.
+Restituisce una raccolta che rappresenta tutte le proprietà personalizzate del documento.
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }
@@ -18,7 +18,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 
 ## Esempi
 
-Mostra come lavorare con le proprietà del documento integrate.
+Mostra come lavorare con le proprietà integrate del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");

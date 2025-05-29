@@ -3,14 +3,14 @@ title: Border Class
 linktitle: Border
 articleTitle: Border
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Border classe. Rappresenta un bordo di un oggetto in C#.
+description: Scopri la classe Aspose.Words.Border, la soluzione ideale per personalizzare i bordi degli oggetti nei documenti. Migliora i tuoi progetti con precisione e stile!
 type: docs
-weight: 80
+weight: 270
 url: /it/net/aspose.words/border/
 ---
 ## Border class
 
-Rappresenta un bordo di un oggetto.
+Rappresenta il bordo di un oggetto.
 
 Per saperne di più, visita il[Programmazione con documenti](https://docs.aspose.com/words/net/programming-with-documents/) articolo di documentazione.
 
@@ -24,11 +24,11 @@ public class Border : InternableComplexAttr
 | --- | --- |
 | [Color](../../aspose.words/border/color/) { get; set; } | Ottiene o imposta il colore del bordo. |
 | [DistanceFromText](../../aspose.words/border/distancefromtext/) { get; set; } | Ottiene o imposta la distanza del bordo dal testo o dal bordo della pagina in punti. |
-| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Restituisce`VERO` se la[`LineStyle`](./linestyle/) non èNone . |
+| [IsVisible](../../aspose.words/border/isvisible/) { get; } | Restituisce`VERO` se il[`LineStyle`](./linestyle/) non èNone . |
 | [LineStyle](../../aspose.words/border/linestyle/) { get; set; } | Ottiene o imposta lo stile del bordo. |
 | [LineWidth](../../aspose.words/border/linewidth/) { get; set; } | Ottiene o imposta la larghezza del bordo in punti. |
 | [Shadow](../../aspose.words/border/shadow/) { get; set; } | Ottiene o imposta un valore che indica se il bordo ha un'ombra. |
-| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | Ottiene o imposta il colore del tema nella combinazione di colori applicata associata a questo oggetto Border. |
+| [ThemeColor](../../aspose.words/border/themecolor/) { get; set; } | Ottiene o imposta il colore del tema nello schema di colori applicato associato a questo oggetto Border. |
 | [TintAndShade](../../aspose.words/border/tintandshade/) { get; set; } | Ottiene o imposta un valore double che schiarisce o scurisce un colore. |
 
 ## Metodi
@@ -36,13 +36,13 @@ public class Border : InternableComplexAttr
 | Nome | Descrizione |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/border/clearformatting/)() | Ripristina le proprietà del bordo ai valori predefiniti. |
-| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Determina se il bordo specificato ha un valore uguale al bordo corrente. |
+| [Equals](../../aspose.words/border/equals/#equals)(*Border*) | Determina se il valore del bordo specificato è uguale al valore del bordo corrente. |
 | override [Equals](../../aspose.words/border/equals/#equals_1)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
 | override [GetHashCode](../../aspose.words/border/gethashcode/)() | Serve come funzione hash per questo tipo. |
 
 ## Osservazioni
 
-I bordi possono essere applicati a vari elementi del documento, inclusi paragrafi, sequenze di testo all'interno di un paragrafo o di una cella di tabella.
+I bordi possono essere applicati a vari elementi del documento, tra cui paragrafi, sequenze di testo all'interno di un paragrafo o celle di una tabella.
 
 ## Esempi
 

@@ -3,9 +3,9 @@ title: ShadowFormat.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words per .NET
-description: ShadowFormat Clear metodo. Cancella il formato ombra in C#.
+description: Ripristina senza sforzo il formato delle tue ombre con il metodo ShadowFormat Clear. Migliora il tuo design con una tabula rasa oggi stesso!
 type: docs
-weight: 30
+weight: 40
 url: /it/net/aspose.words.drawing/shadowformat/clear/
 ---
 ## ShadowFormat.Clear method
@@ -18,16 +18,16 @@ public void Clear()
 
 ## Esempi
 
-Mostra come utilizzare la formattazione dell'ombra per la forma.
+Mostra come lavorare con una formattazione ombra per la forma.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

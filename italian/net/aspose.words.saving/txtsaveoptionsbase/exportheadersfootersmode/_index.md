@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words per .NET
-description: TxtSaveOptionsBase ExportHeadersFootersMode proprietà. Specifica il modo in cui le intestazioni e i piè di pagina vengono esportati nei formati di testo. Il valore predefinito èPrimaryOnly  in C#.
+description: Scopri come la proprietà ExportHeadersFootersMode di TxtSaveOptionsBase ottimizza l'esportazione di intestazioni e piè di pagina in formati di testo. Impostazione predefinita: PrimaryOnly.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
@@ -23,8 +23,8 @@ Mostra come specificare come esportare intestazioni e piè di pagina in formato 
 ```csharp
 Document doc = new Document();
 
-// Inserisce intestazioni/piè di pagina pari e primari nel documento.
-// L'intestazione/i piè di pagina primari sovrascriveranno le intestazioni/i piè di pagina pari.
+// Inserisce intestazioni/piè di pagina pari e principali nel documento.
+// Le intestazioni e i piè di pagina primari sovrascriveranno le intestazioni e i piè di pagina pari.
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterEven));
@@ -34,7 +34,7 @@ doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].AppendParagraph(
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterPrimary));
 doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].AppendParagraph("Primary footer");
 
-// Inserisci pagine per visualizzare queste intestazioni e piè di pagina.
+// Inserire pagine per visualizzare queste intestazioni e piè di pagina.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Page 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -42,7 +42,7 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
+// Creiamo un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
 // per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
@@ -51,35 +51,36 @@ TxtSaveOptions saveOptions = new TxtSaveOptions();
 // Imposta la proprietà "ExportHeadersFootersMode" su "TxtExportHeadersFootersMode.PrimaryOnly"
 // per esportare solo intestazioni/piè di pagina primari.
 // Imposta la proprietà "ExportHeadersFootersMode" su "TxtExportHeadersFootersMode.AllAtEnd"
-// per posizionare tutte le intestazioni e i piè di pagina per tutti i corpi delle sezioni alla fine del documento.
+// per posizionare tutte le intestazioni e i piè di pagina di tutte le sezioni alla fine del documento.
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt");
 
+string newLine = Environment.NewLine;
 switch (txtExportHeadersFootersMode)
 {
     case TxtExportHeadersFootersMode.AllAtEnd:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Even header\r\n\r\n" +
-                        "Primary header\r\n\r\n" +
-                        "Even footer\r\n\r\n" +
-                        "Primary footer\r\n\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Even header{newLine}{newLine}" +
+                        $"Primary header{newLine}{newLine}" +
+                        $"Even footer{newLine}{newLine}" +
+                        $"Primary footer{newLine}{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.PrimaryOnly:
-        Assert.AreEqual("Primary header\r\n" +
-                        "Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Primary footer\r\n", docText);
+        Assert.AreEqual($"Primary header{newLine}" +
+                        $"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Primary footer{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.None:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}", docText);
         break;
 }
 ```

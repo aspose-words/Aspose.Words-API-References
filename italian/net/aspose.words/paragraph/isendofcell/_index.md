@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfCell
 linktitle: IsEndOfCell
 articleTitle: IsEndOfCell
 second_title: Aspose.Words per .NET
-description: Paragraph IsEndOfCell proprietà. Vero se questo paragrafo è lultimo paragrafo in aCell  falso altrimenti in C#.
+description: Scopri la proprietà IsEndOfCell per i paragrafi. Scopri come identificare se un paragrafo è l'ultimo di una cella, migliorando la struttura del tuo documento.
 type: docs
 weight: 50
 url: /it/net/aspose.words/paragraph/isendofcell/
 ---
 ## Paragraph.IsEndOfCell property
 
-Vero se questo paragrafo è l'ultimo paragrafo in a[`Cell`](../../../aspose.words.tables/cell/) ; falso altrimenti.
+Vero se questo paragrafo è l'ultimo paragrafo di un[`Cell`](../../../aspose.words.tables/cell/) ; falso altrimenti.
 
 ```csharp
 public bool IsEndOfCell { get; }
@@ -18,16 +18,16 @@ public bool IsEndOfCell { get; }
 
 ## Esempi
 
-Mostra come apparecchiare una tavola per stare insieme sulla stessa pagina.
+Mostra come apparecchiare la tavola in modo che tutti siano sulla stessa lunghezza d'onda.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Abilita KeepWithNext per ogni paragrafo nella tabella ad eccezione di
-// gli ultimi nell'ultima riga impediranno alla tabella di dividersi su più pagine.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Abilitazione di KeepWithNext per ogni paragrafo nella tabella eccetto per
+// gli ultimi nell'ultima riga impediranno che la tabella venga suddivisa su più pagine.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

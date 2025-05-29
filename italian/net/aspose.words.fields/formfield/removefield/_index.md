@@ -3,7 +3,7 @@ title: FormField.RemoveField
 linktitle: RemoveField
 articleTitle: RemoveField
 second_title: Aspose.Words per .NET
-description: FormField RemoveField metodo. Rimuove il campo modulo completo non solo il carattere speciale del campo modulo in C#.
+description: Rimuovi senza sforzo interi campi del modulo con il metodo RemoveField di FormField, migliorando la chiarezza e l'organizzazione del tuo documento.
 type: docs
 weight: 240
 url: /it/net/aspose.words.fields/formfield/removefield/
@@ -18,11 +18,11 @@ public void RemoveField()
 
 ## Osservazioni
 
-Se è presente un segnalibro associato al campo del modulo, il segnalibro non verrà rimosso.
+Se al campo del modulo è associato un segnalibro, il segnalibro non viene rimosso.
 
 ## Esempi
 
-Mostra come eliminare un campo modulo.
+Mostra come eliminare un campo del modulo.
 
 ```csharp
 Document doc = new Document(MyDir + "Form fields.docx");

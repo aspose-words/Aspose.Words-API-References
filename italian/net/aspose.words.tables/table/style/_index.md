@@ -3,14 +3,14 @@ title: Table.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words per .NET
-description: Table Style proprietà. Ottiene o imposta lo stile di tabella applicato a questa tabella in C#.
+description: Scopri come personalizzare facilmente l'aspetto della tua tabella con la proprietà Stile tabella: arricchisci i tuoi progetti con stili unici senza sforzo!
 type: docs
 weight: 270
 url: /it/net/aspose.words.tables/table/style/
 ---
 ## Table.Style property
 
-Ottiene o imposta lo stile di tabella applicato a questa tabella.
+Ottiene o imposta lo stile tabella applicato a questa tabella.
 
 ```csharp
 public Style Style { get; set; }

@@ -3,9 +3,9 @@ title: Stroke.JoinStyle
 linktitle: JoinStyle
 articleTitle: JoinStyle
 second_title: Aspose.Words per .NET
-description: Stroke JoinStyle proprietà. Definisce lo stile di unione di una polilinea in C#.
+description: Scopri la proprietà Stroke JoinStyle per migliorare le tue polilinee con stili di unione personalizzabili, per una grafica più fluida e una maggiore flessibilità di progettazione.
 type: docs
-weight: 120
+weight: 170
 url: /it/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property

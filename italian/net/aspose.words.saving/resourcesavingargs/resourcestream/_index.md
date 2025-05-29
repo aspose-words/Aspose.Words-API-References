@@ -3,14 +3,14 @@ title: ResourceSavingArgs.ResourceStream
 linktitle: ResourceStream
 articleTitle: ResourceStream
 second_title: Aspose.Words per .NET
-description: ResourceSavingArgs ResourceStream proprietà. Permette di specificare lo stream in cui verrà salvata la risorsa in C#.
+description: Scopri la proprietà ResourceStream di ResourceSavingArgs per definire facilmente dove vengono salvate le tue risorse, migliorando l'efficienza e il controllo nei tuoi progetti.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/resourcesavingargs/resourcestream/
 ---
 ## ResourceSavingArgs.ResourceStream property
 
-Permette di specificare lo stream in cui verrà salvata la risorsa.
+Consente di specificare il flusso in cui verrà salvata la risorsa.
 
 ```csharp
 public Stream ResourceStream { get; set; }
@@ -20,9 +20,9 @@ public Stream ResourceStream { get; set; }
 
 Questa proprietà consente di salvare le risorse nei flussi anziché nei file.
 
-Il valore predefinito è`nullo` . Quando questa proprietà è`nullo` , la risorsa verrà salvata in un file specificato nel file[`ResourceFileName`](../resourcefilename/) proprietà.
+Il valore predefinito è`null` Quando questa proprietà è`null` , la risorsa verrà salvata in un file specificato in[`ResourceFileName`](../resourcefilename/) proprietà.
 
-Utilizzando[`IResourceSavingCallback`](../../iresourcesavingcallback/) non puoi sostituire una risorsa con un'altra. È inteso solo per il controllo sulla posizione in cui risparmiare risorse.
+Utilizzo[`IResourceSavingCallback`](../../iresourcesavingcallback/) Non è possibile sostituire una risorsa con un'altra. Serve solo per controllare la posizione in cui salvare le risorse.
 
 ## Esempi
 
@@ -46,7 +46,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una cartella specificata da ResourcesFolderAlias conterrà le risorse anziché ResourcesFolder.
-    // Dobbiamo garantire che la cartella esista prima che i flussi possano inserirvi le proprie risorse.
+    // Dobbiamo assicurarci che la cartella esista prima che i flussi possano inserirvi le loro risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -75,8 +75,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Per impostazione predefinita, "ResourceFileUri" utilizza la cartella di sistema per i caratteri.
-                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso dei caratteri.
+                // Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i font.
+                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso per i font.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -85,7 +85,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
-        // dovremo anche reindirizzare ogni flusso per inserire la relativa risorsa in quella cartella.
+        // dovremo anche reindirizzare ogni flusso per mettere la sua risorsa in quella cartella.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

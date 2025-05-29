@@ -3,16 +3,16 @@ title: Node Class
 linktitle: Node
 articleTitle: Node
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Node classe. Classe base per tutti i nodi di un documento Word in C#.
+description: Scopri la classe Aspose.Words.Node, la base essenziale per tutti i nodi dei documenti Word, che consente la manipolazione e la personalizzazione fluide dei documenti.
 type: docs
-weight: 4170
+weight: 4860
 url: /it/net/aspose.words/node/
 ---
 ## Node class
 
 Classe base per tutti i nodi di un documento Word.
 
-Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
+Per saperne di più, visita il[Modello a oggetti del documento (DOM) di Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public abstract class Node
@@ -29,7 +29,7 @@ public abstract class Node
 | abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Ottiene il tipo di questo nodo. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 
 ## Metodi
 
@@ -40,24 +40,24 @@ public abstract class Node
 | [GetAncestor](../../aspose.words/node/getancestor/#getancestor)(*[NodeType](../nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/#getancestor_1)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*Node*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*Node*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [ToString](../../aspose.words/node/tostring/#tostring_1)(*[SaveFormat](../saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
 | [ToString](../../aspose.words/node/tostring/#tostring_2)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
-| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | Un metodo di utilità che converte un valore enum di tipo nodo in una stringa intuitiva. |
+| static [NodeTypeToString](../../aspose.words/node/nodetypetostring/)(*[NodeType](../nodetype/)*) | Un metodo di utilità che converte un valore enum di tipo nodo in una stringa di facile utilizzo. |
 
 ## Osservazioni
 
 Un documento è rappresentato come un albero di nodi, simile a DOM o XmlDocument.
 
-Per maggiori informazioni vedere il modello di progettazione composito.
+Per maggiori informazioni, vedere il modello di progettazione Composite.
 
 IL`Node` classe:
 
 * Definisce l'interfaccia del nodo figlio.
 * Definisce l'interfaccia per visitare i nodi.
-* Fornisce funzionalità di clonazione predefinita.
+* Fornisce la funzionalità di clonazione predefinita.
 * Implementa i meccanismi del nodo padre e del documento proprietario.
 * Implementa l'accesso ai nodi fratelli.
 
@@ -74,11 +74,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Salva il nodo fratello successivo come variabile nel caso in cui vogliamo spostarci su di esso dopo aver eliminato questo nodo.
+    // Salva il nodo fratello successivo come variabile nel caso in cui volessimo spostarci su di esso dopo aver eliminato questo nodo.
     Node nextNode = curNode.NextSibling;
 
     // Il corpo di una sezione può contenere nodi Paragrafo e Tabella.
-    // Se il nodo è una tabella, rimuoverlo dal genitore.
+    // Se il nodo è una tabella, rimuoverla dal padre.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 
@@ -95,14 +95,14 @@ Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Di seguito sono riportati due modi per clonare un nodo composito.
-// 1 - Crea un clone di un nodo e crea anche un clone di ciascuno dei suoi nodi figli.
+// Di seguito sono riportati due metodi per clonare un nodo composito.
+// 1 - Crea un clone di un nodo e crea anche un clone di ciascuno dei suoi nodi figlio.
 Node cloneWithChildren = para.Clone(true);
 
 Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
 Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
 
-// 2 - Crea un clone di un nodo da solo senza figli.
+// 2 - Crea un clone di un nodo senza alcun elemento figlio.
 Node cloneWithoutChildren = para.Clone(false);
 
 Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);
@@ -114,22 +114,22 @@ Mostra come attraversare la raccolta di nodi figlio di un nodo composito.
 ```csharp
 Document doc = new Document();
 
-// Aggiungi due sequenze e una forma come nodi secondari al primo paragrafo di questo documento.
+// Aggiungere due sequenze e una forma come nodi figlio al primo paragrafo di questo documento.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Tieni presente che "CustomNodeId" non viene salvato in un file di output ed esiste solo durante la durata del nodo.
+// Nota che 'CustomNodeId' non viene salvato in un file di output ed esiste solo per la durata del nodo.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Scorrere la raccolta dei figli immediati del paragrafo,
-// e stampa tutte le sequenze o le forme che troviamo all'interno.
+// Scorrere la raccolta di elementi figlio immediati del paragrafo,
+// e stampare tutte le sequenze o le forme che troviamo al suo interno.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

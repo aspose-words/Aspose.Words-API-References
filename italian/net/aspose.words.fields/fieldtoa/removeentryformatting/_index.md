@@ -3,14 +3,14 @@ title: FieldToa.RemoveEntryFormatting
 linktitle: RemoveEntryFormatting
 articleTitle: RemoveEntryFormatting
 second_title: Aspose.Words per .NET
-description: FieldToa RemoveEntryFormatting proprietà. Ottiene o imposta se rimuovere la formattazione del testo della voce nel documento dalla voce nella tabella delle autorità in C#.
+description: Controlla la formattazione del testo nel tuo documento con la proprietà RemoveEntryFormatting di FieldToa. Migliora il tuo indice delle fonti senza sforzo!
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldtoa/removeentryformatting/
 ---
 ## FieldToa.RemoveEntryFormatting property
 
-Ottiene o imposta se rimuovere la formattazione del testo della voce nel documento dalla voce nella tabella delle autorità.
+Ottiene o imposta se rimuovere la formattazione del testo della voce nel documento dalla voce nella tabella delle fonti.
 
 ```csharp
 public bool RemoveEntryFormatting { get; set; }
@@ -18,7 +18,7 @@ public bool RemoveEntryFormatting { get; set; }
 
 ## Esempi
 
-Mostra come creare e personalizzare una tabella di autorità utilizzando i campi TOA e TA.
+Mostra come creare e personalizzare una tabella delle autorità utilizzando i campi TOA e TA.
 
 ```csharp
 public void FieldTOA()
@@ -26,23 +26,23 @@ public void FieldTOA()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisci un campo TOA, che creerà una voce per ciascun campo TA nel documento,
-    // visualizza citazioni lunghe e numeri di pagina per ciascuna voce.
+    // Inserisci un campo TOA, che creerà una voce per ogni campo TA nel documento,
+    // visualizzazione delle citazioni lunghe e dei numeri di pagina per ogni voce.
     FieldToa fieldToa = (FieldToa)builder.InsertField(FieldType.FieldTOA, false);
 
-    // Imposta la categoria di voce per la nostra tabella. Questo TOA ora includerà solo i campi TA
-    // che hanno un valore corrispondente nella proprietà EntryCategory.
+    // Imposta la categoria di ingresso per la nostra tabella. Questa TOA ora includerà solo i campi TA
+    // che hanno un valore corrispondente nella loro proprietà EntryCategory.
     fieldToa.EntryCategory = "1";
 
-    // Inoltre, la categoria della Tabella delle autorità nell'indice 1 è "Casi",
-    // che apparirà come titolo della nostra tabella se impostiamo questa variabile su true.
+    // Inoltre, la categoria della Tabella delle Autorità all'indice 1 è "Casi",
+    // che verrà visualizzato come titolo della nostra tabella se impostiamo questa variabile su true.
     fieldToa.UseHeading = true;
 
-    // Possiamo filtrare ulteriormente i campi TA nominando un segnalibro che dovrà rientrare nei limiti del TOA.
+    // Possiamo filtrare ulteriormente i campi TA assegnando un segnalibro in modo che siano compresi nei limiti TOA.
     fieldToa.BookmarkName = "MyBookmark";
 
-    // Per impostazione predefinita, tra la citazione del campo TA viene visualizzata una scheda con linea tratteggiata a livello di pagina
-    // e il suo numero di pagina. Possiamo sostituirlo con qualsiasi testo inserito in questa proprietà.
+    // Per impostazione predefinita, viene visualizzata una tabulazione tratteggiata a tutta pagina tra la citazione del campo TA
+    // e il suo numero di pagina. Possiamo sostituirlo con qualsiasi testo inseriamo in questa proprietà.
     // L'inserimento di un carattere di tabulazione manterrà la tabulazione originale.
     fieldToa.EntrySeparator = " \t p.";
 
@@ -51,16 +51,16 @@ public void FieldTOA()
     // Possiamo usare questa proprietà per specificare una stringa che separerà i numeri di pagina.
     fieldToa.PageNumberListSeparator = " & p. ";
 
-    // Possiamo impostarlo su true per fare in modo che la nostra tabella visualizzi la parola "passim"
+    // Possiamo impostarlo su true per far sì che la nostra tabella visualizzi la parola "passim"
     // se ci sono cinque o più numeri di pagina in una riga.
     fieldToa.UsePassim = true;
 
     // Un campo TA può fare riferimento a un intervallo di pagine.
-    // Possiamo specificare qui una stringa da visualizzare tra i numeri di pagina iniziale e finale per tali intervalli.
+    // Possiamo specificare una stringa da visualizzare tra il numero di pagina iniziale e quello finale per tali intervalli.
     fieldToa.PageRangeSeparator = " to ";
 
     // Il formato dei campi TA verrà trasferito nella nostra tabella.
-    // Possiamo disabilitarlo impostando il flag RemoveEntryFormatting.
+    // Possiamo disattivarlo impostando il flag RemoveEntryFormatting.
     fieldToa.RemoveEntryFormatting = true;
     builder.Font.Color = Color.Green;
     builder.Font.Name = "Arial Black";
@@ -75,7 +75,7 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 1\"", fieldTA.GetFieldCode());
 
-    // Questo campo TA è all'interno del segnalibro,
+    // Questo campo TA si trova all'interno del segnalibro,
     // ma la categoria della voce non corrisponde a quella della tabella, quindi il campo TA non la includerà.
     builder.StartBookmark("MyBookmark");
     fieldTA = InsertToaEntry(builder, "2", "Source 2");
@@ -83,24 +83,24 @@ public void FieldTOA()
     // Questa voce apparirà nella tabella.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
 
-    // Una tabella TOA non mostra citazioni brevi,
-    // ma possiamo usarli come abbreviazione per fare riferimento a nomi di fonti voluminosi a cui fanno riferimento più campi TA.
+    // Una tabella TOA non visualizza citazioni brevi,
+    // ma possiamo usarli come scorciatoia per fare riferimento a nomi sorgente voluminosi a cui fanno riferimento più campi TA.
     fieldTA.ShortCitation = "S.3";
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\s S.3", fieldTA.GetFieldCode());
 
-    // Possiamo formattare il numero di pagina in grassetto/corsivo utilizzando le seguenti proprietà.
-    // Vedremo comunque questi effetti se impostiamo la nostra tabella in modo che ignori la formattazione.
+    // Possiamo formattare il numero di pagina per renderlo grassetto/corsivo utilizzando le seguenti proprietà.
+    // Continueremo a vedere questi effetti se impostiamo la tabella in modo che ignori la formattazione.
     fieldTA = InsertToaEntry(builder, "1", "Source 2");
     fieldTA.IsBold = true;
     fieldTA.IsItalic = true;
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 2\" \\b \\i", fieldTA.GetFieldCode());
 
-    // Possiamo configurare i campi TA per fare in modo che le loro voci TOA facciano riferimento a un intervallo di pagine su cui si estende un segnalibro.
-    // Nota che questa voce si riferisce alla stessa fonte di quella sopra per condividere una riga nella nostra tabella.
-    // Questa riga avrà il numero di pagina della voce sopra e l'intervallo di pagine di questa voce,
-    // con l'elenco delle pagine della tabella e i separatori dell'intervallo dei numeri di pagina tra i numeri di pagina.
+    // Possiamo configurare i campi TA in modo che le voci TOA facciano riferimento a un intervallo di pagine su cui si estende un segnalibro.
+    // Nota che questa voce fa riferimento alla stessa fonte di quella precedente per condividere una riga nella nostra tabella.
+    // Questa riga conterrà il numero di pagina della voce sopra e l'intervallo di pagine di questa voce,
+    // con l'elenco delle pagine della tabella e i separatori degli intervalli dei numeri di pagina tra i numeri di pagina.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
     fieldTA.PageRangeBookmarkName = "MyMultiPageBookmark";
 
@@ -112,7 +112,7 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\r MyMultiPageBookmark", fieldTA.GetFieldCode());
 
-    // Se abbiamo abilitato la funzione "Passim" della nostra tabella, la presenza di 5 o più voci TA con la stessa origine la invocherà.
+    // Se abbiamo abilitato la funzionalità "Passim" della nostra tabella, questa verrà attivata se ci saranno 5 o più voci TA con la stessa origine.
     for (int i = 0; i < 5; i++)
     {
         InsertToaEntry(builder, "1", "Source 4");

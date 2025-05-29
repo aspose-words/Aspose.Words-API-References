@@ -3,7 +3,7 @@ title: GraphicsQualityOptions.TextRenderingHint
 linktitle: TextRenderingHint
 articleTitle: TextRenderingHint
 second_title: Aspose.Words per .NET
-description: GraphicsQualityOptions TextRenderingHint proprietà. Ottiene o imposta la modalità di rendering per il testo associato a questa grafica in C#.
+description: Scopri la proprietà TextRenderingHint di GraphicsQualityOptions per un rendering ottimale del testo nella tua grafica. Migliora la qualità visiva e le prestazioni oggi stesso!
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
@@ -18,7 +18,7 @@ public TextRenderingHint? TextRenderingHint { get; set; }
 
 ## Esempi
 
-Mostra come impostare le opzioni di qualità di rendering durante la conversione di documenti in formati immagine.
+Mostra come impostare le opzioni di qualità del rendering durante la conversione di documenti in formati immagine.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

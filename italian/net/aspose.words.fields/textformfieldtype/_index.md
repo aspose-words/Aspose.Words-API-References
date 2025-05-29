@@ -3,14 +3,14 @@ title: TextFormFieldType Enum
 linktitle: TextFormFieldType
 articleTitle: TextFormFieldType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.TextFormFieldType enum. Specifica il tipo di un campo modulo di testo in C#.
+description: Scopri l'enum Aspose.Words.Fields.TextFormFieldType, che definisce vari tipi di campi di modulo di testo per una migliore automazione e personalizzazione dei documenti.
 type: docs
-weight: 2770
+weight: 3180
 url: /it/net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
 
-Specifica il tipo di un campo modulo di testo.
+Specifica il tipo di un campo di modulo di testo.
 
 ```csharp
 public enum TextFormFieldType
@@ -20,12 +20,12 @@ public enum TextFormFieldType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Regular | `0` | Il campo del modulo di testo può contenere qualsiasi testo. |
-| Number | `1` | Il campo del modulo di testo può contenere solo numeri. |
+| Regular | `0` | Il campo modulo testo può contenere qualsiasi testo. |
+| Number | `1` | Il campo modulo testo può contenere solo numeri. |
 | Date | `2` | Il campo del modulo di testo può contenere solo un valore di data valido. |
-| CurrentDate | `3` | Il valore del campo modulo di testo è la data corrente in cui il campo viene aggiornato. |
+| CurrentDate | `3` | Il valore del campo del modulo di testo è la data corrente in cui il campo viene aggiornato. |
 | CurrentTime | `4` | Il valore del campo del modulo di testo è l'ora corrente in cui il campo viene aggiornato. |
-| Calculated | `5` | Il valore del campo del modulo di testo viene calcolato dall'espressione specificata in il[`TextInputDefault`](../formfield/textinputdefault/) proprietà. |
+| Calculated | `5` | Il valore del campo del modulo di testo viene calcolato dall'espressione specificata in [`TextInputDefault`](../formfield/textinputdefault/) proprietà. |
 
 ## Esempi
 
@@ -34,9 +34,9 @@ Mostra come creare campi modulo.
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// I campi del modulo sono oggetti nel documento con cui l'utente può interagire chiedendogli di inserire valori.
-// Possiamo crearli utilizzando un generatore di documenti e di seguito sono riportati due modi per farlo.
-// 1 - Inserimento di testo di base:
+// I campi modulo sono oggetti nel documento con cui l'utente può interagire, chiedendogli di immettere valori.
+// Possiamo crearli utilizzando un generatore di documenti. Di seguito sono riportati due metodi per farlo.
+// 1 - Input di testo di base:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 

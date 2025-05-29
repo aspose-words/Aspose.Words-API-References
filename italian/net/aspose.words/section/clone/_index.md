@@ -3,9 +3,9 @@ title: Section.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words per .NET
-description: Section Clone metodo. Crea un duplicato di questa sezione in C#.
+description: Duplica le sezioni senza sforzo con il nostro metodo "Section Clone". Semplifica il tuo flusso di lavoro e aumenta la produttività con questo potente strumento!
 type: docs
-weight: 110
+weight: 130
 url: /it/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -35,7 +35,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Aggiunge una copia di quella che ora è la prima sezione alla fine del documento.
+// Aggiungere una copia di quella che ora è la prima sezione alla fine del documento.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

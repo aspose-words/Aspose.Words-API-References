@@ -3,7 +3,7 @@ title: FieldInfo.NewValue
 linktitle: NewValue
 articleTitle: NewValue
 second_title: Aspose.Words per .NET
-description: FieldInfo NewValue proprietà. Ottiene o imposta un valore facoltativo che aggiorna la proprietà in C#.
+description: Scopri la proprietà FieldInfo NewValue, gestisci facilmente i valori opzionali per migliorare gli aggiornamenti dei dati e semplificare la tua esperienza di codifica.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldinfo/newvalue/
@@ -24,7 +24,7 @@ Mostra come lavorare con i campi INFO.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Imposta un valore per la proprietà incorporata "Commenti" e quindi inserisce un campo INFO per visualizzare il valore di quella proprietà.
+// Imposta un valore per la proprietà incorporata "Commenti", quindi inserisci un campo INFO per visualizzare il valore di quella proprietà.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

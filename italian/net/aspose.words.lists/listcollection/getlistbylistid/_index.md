@@ -3,9 +3,9 @@ title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
 second_title: Aspose.Words per .NET
-description: ListCollection GetListByListId metodo. Ottiene un elenco tramite un identificatore di elenco in C#.
+description: Recupera l'elenco desiderato senza sforzo con il metodo GetListByListId. Accedi rapidamente ai dati utilizzando un semplice identificatore di elenco per una maggiore efficienza.
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
@@ -18,19 +18,19 @@ public List GetListByListId(int listId)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| listId | Int32 | L'identificatore dell'elenco. |
+| listId | Int32 | Identificatore dell'elenco. |
 
 ### Valore di ritorno
 
-Restituisce l'oggetto elenco. ritorna`nullo` se non è stato trovato un elenco con l'identificatore specificato.
+Restituisce l'oggetto elenco. Restituisce`null` se non è stato trovato un elenco con l'identificatore specificato.
 
 ## Osservazioni
 
-Normalmente non è necessario utilizzare questo metodo. La maggior parte delle volte applichi la formattazione dell'elenco ai paragrafi semplicemente impostando il file[`List`](../../listformat/list/) proprietà del[`ListFormat`](../../listformat/) oggetto.
+Normalmente non è necessario utilizzare questo metodo. Il più delle volte si applica la formattazione dell'elenco ai paragrafi semplicemente impostando[`List`](../../listformat/list/) proprietà del[`ListFormat`](../../listformat/) oggetto.
 
 ## Esempi
 
-Mostra come verificare le proprietà del documento proprietario degli elenchi.
+Mostra come verificare le proprietà dei documenti proprietari degli elenchi.
 
 ```csharp
 Document doc = new Document();

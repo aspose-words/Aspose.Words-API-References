@@ -3,14 +3,14 @@ title: TableSubstitutionRule.GetSubstitutes
 linktitle: GetSubstitutes
 articleTitle: GetSubstitutes
 second_title: Aspose.Words per .NET
-description: TableSubstitutionRule GetSubstitutes metodo. Restituisce larray contenente i nomi dei font sostitutivi per il nome del font originale specificato in C#.
+description: Scopri il metodo GetSubstitutes in TableSubstitutionRule. Recupera facilmente i nomi dei font sostitutivi per il tuo font originale, migliorando la flessibilità di progettazione.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/tablesubstitutionrule/getsubstitutes/
 ---
 ## TableSubstitutionRule.GetSubstitutes method
 
-Restituisce l'array contenente i nomi dei font sostitutivi per il nome del font originale specificato.
+Restituisce un array contenente i nomi dei font sostitutivi per il nome del font originale specificato.
 
 ```csharp
 public IEnumerable<string> GetSubstitutes(string originalFontName)
@@ -18,21 +18,21 @@ public IEnumerable<string> GetSubstitutes(string originalFontName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| originalFontName | String | Nome del carattere originale. |
+| originalFontName | String | Nome del font originale. |
 
 ### Valore di ritorno
 
-Elenco di nomi di caratteri alternativi.
+Elenco di nomi di font alternativi.
 
 ## Esempi
 
-Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
+Mostra come accedere alla sorgente dei font di sistema di un documento e impostare i font sostitutivi.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Per impostazione predefinita, un documento vuoto contiene sempre un'origine carattere di sistema.
+// Per impostazione predefinita, un documento vuoto contiene sempre una sorgente font di sistema.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -54,7 +54,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Imposta un carattere esistente nella directory Fonts di Windows come sostituto di uno che non esiste.
+// Imposta un font presente nella directory Fonts di Windows come sostituto di uno che non esiste.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -63,37 +63,38 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// In alternativa, potremmo aggiungere una cartella di origine del carattere in cui la cartella corrispondente contiene il carattere.
+// In alternativa, potremmo aggiungere una cartella font source in cui la cartella corrispondente contiene il font.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Il ripristino delle fonti dei caratteri ci lascia ancora con la fonte dei caratteri di sistema e i nostri sostituti.
+// Reimpostando le sorgenti dei font rimarranno comunque le sorgenti dei font di sistema e i nostri sostituti.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
-Mostra come lavorare con le tabelle di sostituzione dei caratteri personalizzate.
+Mostra come lavorare con tabelle di sostituzione dei font personalizzate.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Crea una nuova regola di sostituzione della tabella e carica la tabella di sostituzione dei caratteri Windows predefinita.
+// Crea una nuova regola di sostituzione tabella e carica la tabella di sostituzione dei font predefinita di Windows.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
-// Se selezioniamo i caratteri esclusivamente dalla nostra cartella, avremo bisogno di una tabella di sostituzione personalizzata.
+// Se selezioniamo i font esclusivamente dalla nostra cartella, avremo bisogno di una tabella di sostituzione personalizzata.
 // Non avremo più accesso ai font di Microsoft Windows,
-// come "Arial" o "Times New Roman" poiché non esistono nella nostra nuova cartella di caratteri.
+// come "Arial" o "Times New Roman" poiché non sono presenti nella nostra nuova cartella dei font.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Di seguito sono riportati due modi per caricare una tabella di sostituzione da un file nel file system locale.
+// Di seguito sono riportati due metodi per caricare una tabella di sostituzione da un file nel file system locale.
 // 1 - Da un flusso:
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
@@ -103,26 +104,26 @@ using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.x
 // 2 - Direttamente da un file:
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
-// Poiché non abbiamo più accesso ad "Arial", la nostra tabella dei caratteri proverà prima a sostituirlo con "Font non esistente".
-// Non abbiamo questo carattere quindi verrà spostato nel successivo sostituto, "Kreon", trovato nella cartella "MyFonts".
+// Poiché non abbiamo più accesso ad "Arial", la nostra tabella dei font proverà prima a sostituirlo con "Nonexistent Font".
+// Non disponiamo di questo font, quindi verrà spostato sul successivo sostituto, "Kreon", che si trova nella cartella "MyFonts".
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// Possiamo espandere questa tabella a livello di codice. Aggiungeremo una voce che sostituirà "Times New Roman" con "Arvo"
+// Possiamo espandere questa tabella programmaticamente. Aggiungeremo una voce che sostituisce "Times New Roman" con "Arvo"
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Possiamo aggiungere un sostituto secondario di fallback per una voce di carattere esistente con AddSubstitutes().
+// Possiamo aggiungere un sostituto secondario di fallback per una voce di font esistente con AddSubstitutes().
 // Nel caso in cui "Arvo" non sia disponibile, la nostra tabella cercherà "M+ 2m" come seconda opzione sostitutiva.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// SetSubstitutes() può impostare un nuovo elenco di caratteri sostitutivi per un carattere.
-tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT", "M+ 2m"});
+// SetSubstitutes() può impostare un nuovo elenco di font sostitutivi per un font.
+tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Scrivere testo in caratteri a cui non abbiamo accesso invocherà le nostre regole di sostituzione.
+// La scrittura di testo in font a cui non abbiamo accesso invocherà le nostre regole di sostituzione.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");

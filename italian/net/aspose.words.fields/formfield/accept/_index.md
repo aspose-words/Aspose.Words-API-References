@@ -3,7 +3,7 @@ title: FormField.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: FormField Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo FormField Accept che migliora l'esperienza utente accettando senza problemi gli input dei visitatori. Aumenta il coinvolgimento senza sforzo!
 type: docs
 weight: 230
 url: /it/net/aspose.words.fields/formfield/accept/
@@ -18,7 +18,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Il visitatore che visiterà il node. |
+| visitor | DocumentVisitor | Il visitatore che visiterà il nodo. |
 
 ### Valore di ritorno
 
@@ -26,9 +26,9 @@ public override bool Accept(DocumentVisitor visitor)
 
 ## Osservazioni
 
-Chiamate[`VisitFormField`](../../../aspose.words/documentvisitor/visitformfield/).
+chiamate[`VisitFormField`](../../../aspose.words/documentvisitor/visitformfield/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
 ## Esempi
 
@@ -40,7 +40,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utilizza un generatore di documenti per inserire una casella combinata.
+    // Utilizzare un generatore di documenti per inserire una casella combinata.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Utilizza un generatore di documenti per inserire il campo del modulo di input del testo.
+    // Utilizzare un generatore di documenti per inserire un campo di input di testo nel modulo.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -75,13 +75,13 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Questa raccolta contiene tutti i nostri campi del modulo.
+    // Questa raccolta contiene tutti i campi del nostro modulo.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // I campi mostrano i campi del modulo. Possiamo vedere i loro codici di campo aprendo questo documento
-    // in Microsoft e premendo Alt + F9. Questi campi non hanno interruttori,
-    // e i membri dell'oggetto FormField governano completamente il contenuto dei campi del modulo.
+    // I campi mostrano i campi del nostro modulo. Possiamo vedere i loro codici aprendo questo documento.
+    // in Microsoft e premendo Alt + F9. Questi campi non hanno switch,
+    // e i membri dell'oggetto FormField gestiscono completamente il contenuto dei loro campi modulo.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -101,7 +101,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Implementazione del visitatore che stampa i dettagli dei campi del modulo visitati.
+ /// Implementazione del visitatore che stampa i dettagli dei campi del modulo che visita.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -111,7 +111,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FormField.
+    /// Chiamato quando nel documento viene rilevato un nodo FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -142,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge testo di nuova riga con terminazione di caratteri all'output corrente.
+    /// Aggiunge un testo terminato da un carattere di nuova riga all'output corrente.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -150,7 +150,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {

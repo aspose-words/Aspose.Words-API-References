@@ -3,7 +3,7 @@ title: PreferredWidth.FromPercent
 linktitle: FromPercent
 articleTitle: FromPercent
 second_title: Aspose.Words per .NET
-description: PreferredWidth FromPercent metodo. Un metodo di creazione che restituisce una nuova istanza che rappresenta una larghezza preferita specificata come percentuale in C#.
+description: Scopri il metodo PreferredWidth FromPercent, che crea una nuova istanza per definire le larghezze preferite in percentuale. Migliora la precisione del tuo design!
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/preferredwidth/frompercent/
@@ -41,7 +41,7 @@ table.PreferredWidth = PreferredWidth.FromPercent(50);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```
 
-Mostra come impostare la larghezza preferita per le celle della tabella.
+Mostra come impostare una larghezza preferita per le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -63,7 +63,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Una cella senza larghezza preferita specificata occuperà il resto dello spazio disponibile.
+// Una cella per la quale non è stata specificata una larghezza preferita occuperà il resto dello spazio disponibile.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Ogni configurazione della proprietà "PreferredWidth" crea un nuovo oggetto.

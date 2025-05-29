@@ -3,9 +3,9 @@ title: Fill.PresetTextured
 linktitle: PresetTextured
 articleTitle: PresetTextured
 second_title: Aspose.Words per .NET
-description: Fill PresetTextured metodo. Imposta il riempimento su una texture preimpostata in C#.
+description: Scopri il metodo Fill PresetTextured per applicare senza sforzo splendide texture preimpostate, valorizzando i tuoi progetti con un impatto visivo unico.
 type: docs
-weight: 230
+weight: 240
 url: /it/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
@@ -22,7 +22,7 @@ public void PresetTextured(PresetTexture presetTexture)
 
 ## Esempi
 
-Mostra come impostare la formattazione del marcatore.
+Mostra come impostare la formattazione dei marcatori.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Elimina le serie generate predefinite.
+// Elimina la serie generata di default.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

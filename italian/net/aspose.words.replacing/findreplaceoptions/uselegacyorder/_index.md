@@ -3,14 +3,14 @@ title: FindReplaceOptions.UseLegacyOrder
 linktitle: UseLegacyOrder
 articleTitle: UseLegacyOrder
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions UseLegacyOrder proprietà. True indica che una ricerca di testo viene eseguita in sequenza dallalto verso il basso considerando le caselle di testo. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà UseLegacyOrder in FindReplaceOptions. Abilita le ricerche di testo sequenziali per una maggiore precisione. Il valore predefinito è false. Ottimizza l'elaborazione del testo!
 type: docs
-weight: 170
+weight: 180
 url: /it/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True indica che una ricerca di testo viene eseguita in sequenza dall'alto verso il basso considerando le caselle di testo. Il valore predefinito è`falso` .
+Vero indica che una ricerca di testo viene eseguita in sequenza dall'alto verso il basso considerando le caselle di testo. Il valore predefinito è`falso` .
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -18,7 +18,7 @@ public bool UseLegacyOrder { get; set; }
 
 ## Esempi
 
-Mostra come modificare l'ordine di ricerca dei nodi durante l'esecuzione di un'operazione di ricerca e sostituzione del testo.
+Mostra come modificare l'ordine di ricerca dei nodi quando si esegue un'operazione di ricerca e sostituzione di testo.
 
 ```csharp
 public void UseLegacyOrder(bool useLegacyOrder)
@@ -26,8 +26,8 @@ public void UseLegacyOrder(bool useLegacyOrder)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserisci tre esecuzioni che possiamo cercare utilizzando un modello regex.
-    // Posiziona una di queste esecuzioni all'interno di una casella di testo.
+    // Inseriamo tre esecuzioni che possiamo ricercare utilizzando uno schema regex.
+    // Inserisci una di queste esecuzioni all'interno di una casella di testo.
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
     builder.Writeln("[tag 2]");
@@ -37,14 +37,14 @@ public void UseLegacyOrder(bool useLegacyOrder)
     // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Assegna una richiamata personalizzata alla proprietà "ReplacingCallback".
+    // Assegna un callback personalizzato alla proprietà "ReplacingCallback".
     TextReplacementTracker callback = new TextReplacementTracker();
     options.ReplacingCallback = callback;
 
-    // Se impostiamo la proprietà "UseLegacyOrder" su "true", il
-    // l'operazione di ricerca e sostituzione eseguirà tutte le esecuzioni al di fuori di una casella di testo
-    // prima di esaminare quelli all'interno di una casella di testo.
-    // Se impostiamo la proprietà "UseLegacyOrder" su "false", il
+    // Se impostiamo la proprietà "UseLegacyOrder" su "true",
+    // l'operazione di ricerca e sostituzione esaminerà tutte le esecuzioni al di fuori di una casella di testo
+    // prima di passare in rassegna quelli all'interno di una casella di testo.
+    // Se impostiamo la proprietà "UseLegacyOrder" su "false",
     // l'operazione di ricerca e sostituzione esaminerà tutte le esecuzioni in un intervallo in ordine sequenziale.
     options.UseLegacyOrder = useLegacyOrder;
 

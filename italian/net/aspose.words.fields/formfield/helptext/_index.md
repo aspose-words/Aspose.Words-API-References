@@ -3,7 +3,7 @@ title: FormField.HelpText
 linktitle: HelpText
 articleTitle: HelpText
 second_title: Aspose.Words per .NET
-description: FormField HelpText proprietà. Restituisce o imposta il testo visualizzato in una finestra di messaggio quando il campo del modulo è attivo e lutente preme F1 in C#.
+description: Scopri la proprietà FormField HelpText e migliora l'esperienza utente con messaggi informativi visualizzati quando si preme F1 sui campi evidenziati.
 type: docs
 weight: 100
 url: /it/net/aspose.words.fields/formfield/helptext/
@@ -18,9 +18,9 @@ public string HelpText { get; set; }
 
 ## Osservazioni
 
-Se la[`OwnHelp`](../ownhelp/) la proprietà è impostata su`VERO` ,`HelpText` specifica il valore della stringa di testo. Se[`OwnHelp`](../ownhelp/) è impostato per`falso` ,`HelpText`specifica il nome di una voce di glossario che contiene testo help per il campo modulo.
+Se il[`OwnHelp`](../ownhelp/) la proprietà è impostata su`VERO` ,`HelpText` specifica il valore della stringa di testo. Se[`OwnHelp`](../ownhelp/) è impostato su`falso` ,`HelpText` specifica il nome di una voce di testo automatico che contiene il testo help per il campo del modulo.
 
-Microsoft Word consente stringhe con un massimo di 255 caratteri.
+Microsoft Word consente stringhe composte da un massimo di 255 caratteri.
 
 ## Esempi
 
@@ -32,7 +32,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utilizza un generatore di documenti per inserire una casella combinata.
+    // Utilizzare un generatore di documenti per inserire una casella combinata.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -56,7 +56,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Utilizza un generatore di documenti per inserire il campo del modulo di input del testo.
+    // Utilizzare un generatore di documenti per inserire un campo di input di testo nel modulo.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -67,13 +67,13 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Questa raccolta contiene tutti i nostri campi del modulo.
+    // Questa raccolta contiene tutti i campi del nostro modulo.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // I campi mostrano i campi del modulo. Possiamo vedere i loro codici di campo aprendo questo documento
-    // in Microsoft e premendo Alt + F9. Questi campi non hanno interruttori,
-    // e i membri dell'oggetto FormField governano completamente il contenuto dei campi del modulo.
+    // I campi mostrano i campi del nostro modulo. Possiamo vedere i loro codici aprendo questo documento.
+    // in Microsoft e premendo Alt + F9. Questi campi non hanno switch,
+    // e i membri dell'oggetto FormField gestiscono completamente il contenuto dei loro campi modulo.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -93,7 +93,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Implementazione del visitatore che stampa i dettagli dei campi del modulo visitati.
+ /// Implementazione del visitatore che stampa i dettagli dei campi del modulo che visita.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -103,7 +103,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FormField.
+    /// Chiamato quando nel documento viene rilevato un nodo FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -134,7 +134,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge testo di nuova riga con terminazione di caratteri all'output corrente.
+    /// Aggiunge un testo terminato da un carattere di nuova riga all'output corrente.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -142,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {

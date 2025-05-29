@@ -3,14 +3,14 @@ title: EditableRange.EditorGroup
 linktitle: EditorGroup
 articleTitle: EditorGroup
 second_title: Aspose.Words per .NET
-description: EditableRange EditorGroup proprietà. Restituisce o imposta un alias o gruppo di modifica che verrà utilizzato per determinare se lutente corrente potrà modificare questo intervallo modificabile in C#.
+description: Gestisci senza sforzo le autorizzazioni utente con la proprietà EditableRange EditorGroup, che consente il controllo sull'accesso alle modifiche per una collaborazione migliorata.
 type: docs
 weight: 30
 url: /it/net/aspose.words/editablerange/editorgroup/
 ---
 ## EditableRange.EditorGroup property
 
-Restituisce o imposta un alias (o gruppo di modifica) che verrà utilizzato per determinare se l'utente corrente potrà modificare questo intervallo modificabile.
+Restituisce o imposta un alias (o gruppo di modifica) che verrà utilizzato per determinare se all'utente corrente sarà consentito modificare questo intervallo modificabile.
 
 ```csharp
 public EditorType EditorGroup { get; set; }
@@ -18,7 +18,7 @@ public EditorType EditorGroup { get; set; }
 
 ## Osservazioni
 
-Non è possibile impostare contemporaneamente un singolo utente e un gruppo di editor per l'intervallo modificabile specifico, se uno è impostato, l'altro sarà cancellato.
+Non è possibile impostare contemporaneamente un singolo utente e un gruppo di editor per l'intervallo modificabile specifico; se uno è impostato, l'altro sarà cancellato.
 
 ## Esempi
 
@@ -32,7 +32,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only, " +
                 "we cannot edit this paragraph without the password.");
 
-// Crea due intervalli modificabili nidificati.
+// Crea due intervalli modificabili annidati.
 EditableRangeStart outerEditableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
 
@@ -41,7 +41,7 @@ builder.Writeln("This paragraph inside both the outer and inner editable ranges 
 
 // Attualmente, il cursore di inserimento del nodo del generatore di documenti si trova in più di un intervallo modificabile in corso.
 // Quando vogliamo terminare un intervallo modificabile in questa situazione,
-// dobbiamo specificare quale degli intervalli desideriamo terminare passando il relativo nodo EditableRangeStart.
+// dobbiamo specificare quale intervallo vogliamo che termini passando il relativo nodo EditableRangeStart.
 builder.EndEditableRange(innerEditableRangeStart);
 
 builder.Writeln("This paragraph inside the outer editable range and can be edited.");
@@ -50,8 +50,8 @@ builder.EndEditableRange(outerEditableRangeStart);
 
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
-// Se un'area di testo ha due intervalli modificabili sovrapposti con gruppi specificati,
-// al gruppo combinato di utenti esclusi da entrambi i gruppi non è consentito modificarlo.
+// Se una regione di testo ha due intervalli modificabili sovrapposti con gruppi specificati,
+// al gruppo combinato di utenti esclusi da entrambi i gruppi è impedito di modificarlo.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
 
@@ -70,9 +70,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Quando proteggiamo i documenti dalla scrittura, gli intervalli modificabili ci consentono di scegliere aree specifiche che gli utenti possono modificare.
-    // Esistono due modi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
-    // 1 - Specifica un utente:
+    // Quando proteggiamo i documenti da scrittura, gli intervalli modificabili ci consentono di selezionare aree specifiche che gli utenti possono modificare.
+    // Esistono due metodi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
+    // 1 - Specificare un utente:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -80,7 +80,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Specificare un gruppo a cui sono associati gli utenti autorizzati:
+    // 2 - Specifica un gruppo a cui sono associati gli utenti autorizzati:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -99,7 +99,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Raccoglie le proprietà e il contenuto degli intervalli modificabili visitati in una stringa.
+/// Raccoglie le proprietà e i contenuti degli intervalli modificabili visitati in una stringa.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -150,7 +150,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui. Questo visitatore registra solo le esecuzioni che rientrano negli intervalli modificabili.
+    /// Chiamato quando viene rilevato un nodo Esegui nel documento. Questo visitatore registra solo le esecuzioni che rientrano in intervalli modificabili.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
