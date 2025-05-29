@@ -3,14 +3,14 @@ title: FieldAddressBlock.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
 second_title: Aspose.Words för .NET
-description: FieldAddressBlock LanguageId fast egendom. Hämtar eller ställer in språkID som används för att formatera adressen i C#.
+description: Hantera adressformatering enkelt med FieldAddressBlock LanguageId-egenskapen. Ställ in eller hämta språk-ID för sömlös lokalisering.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldaddressblock/languageid/
 ---
 ## FieldAddressBlock.LanguageId property
 
-Hämtar eller ställer in språk-ID som används för att formatera adressen.
+Hämtar eller anger språk-ID:t som används för att formatera adressen.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -18,7 +18,7 @@ public string LanguageId { get; set; }
 
 ## Exempel
 
-Visar hur man infogar ett ADDRESSBLOCK-fält.
+Visar hur man infogar ett ADRESSBLOCK-fält.
 
 ```csharp
 Document doc = new Document();
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Om du ställer in detta till "2" kommer alla länder och regioner att inkluderas,
+// Om du ställer in detta på "2" inkluderas alla länder och regioner,
 // om det inte är den som anges i egenskapen ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// Som standard kommer den här egenskapen att innehålla språk-ID:t för det första tecknet i dokumentet.
-// Vi kan ställa in en annan kultur för fältet att formatera resultatet med så här.
+// Som standard innehåller den här egenskapen språk-ID:t för det första tecknet i dokumentet.
+// Vi kan ställa in en annan kultur för fältet för att formatera resultatet så här.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

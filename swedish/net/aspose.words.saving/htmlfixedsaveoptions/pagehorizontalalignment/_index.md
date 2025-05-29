@@ -3,9 +3,9 @@ title: HtmlFixedSaveOptions.PageHorizontalAlignment
 linktitle: PageHorizontalAlignment
 articleTitle: PageHorizontalAlignment
 second_title: Aspose.Words för .NET
-description: HtmlFixedSaveOptions PageHorizontalAlignment fast egendom. Anger den horisontella justeringen av sidor i ett HTMLdokument. Standardvärdet ärCenter  i C#.
+description: Upptäck egenskapen HtmlFixedSaveOptions PageHorizontalAlignment för att enkelt kontrollera sidjustering i HTML-dokument. Standardinställningen är Centrerad för optimal presentation.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
@@ -18,7 +18,7 @@ public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in den horisontella justeringen av sidor när du sparar ett dokument till HTML.
+Visar hur man ställer in den horisontella justeringen av sidor när man sparar ett dokument som HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -39,11 +39,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

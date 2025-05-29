@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitAbsolutePositionTab
 linktitle: VisitAbsolutePositionTab
 articleTitle: VisitAbsolutePositionTab
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitAbsolutePositionTab metod. Ringde när enAbsolutePositionTab nod påträffas i dokumentet i C#.
+description: Upptäck DocumentVisitor VisitAbsolutePositionTab-metoden, utformad för att förbättra dokumentbehandling genom att effektivt hantera AbsolutePositionTab-noder.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/documentvisitor/visitabsolutepositiontab/
 ---
 ## DocumentVisitor.VisitAbsolutePositionTab method
 
-Ringde när en[`AbsolutePositionTab`](../../absolutepositiontab/) nod påträffas i dokumentet.
+Anropades när en[`AbsolutePositionTab`](../../absolutepositiontab/) nod påträffas i dokumentet.
 
 ```csharp
 public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
-Visar hur man bearbetar absoluta positionstecken med en dokumentbesökare.
+Visar hur man bearbetar tabbtecken för absolut position med en dokumentbesökare.
 
 ```csharp
 public void DocumentToTxt()
@@ -35,12 +35,17 @@ public void DocumentToTxt()
 
     // Extrahera textinnehållet i vårt dokument genom att acceptera denna anpassade dokumentbesökare.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    doc.FirstSection.Body.Accept(myDocTextExtractor);
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Besök endast början av dokumentets brödtext.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Besök endast slutet av dokumentets brödtext.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    // Den absoluta positionsfliken, som inte har någon motsvarighet i strängform, har explicit konverterats till ett tabbtecken.
+    // Den absoluta positionstabben, som inte har någon motsvarighet i strängform, har explicit konverterats till ett tabbtecken.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // En AbsolutePositionTab kan också acceptera en DocumentVisitor ensam.
+    // En AbsolutePositionTab kan också acceptera en DocumentVisitor i sig själv.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -50,7 +55,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// Samlar in textinnehållet för alla körningar i det besökta dokumentet. Ersätter alla absoluta tabbtecken med vanliga tabbar.
+/// Samlar in textinnehållet från alla körningar i det besökta dokumentet. Ersätter alla absoluta tabbtecken med vanliga tabbtecken.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -60,7 +65,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -78,7 +83,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägger till text till den aktuella utgången. Respekterar den aktiverade/avaktiverade utgångsflaggan.
+    /// Lägger till text i den aktuella utdatan. Respekterar flaggan för aktiverad/inaktiverad utdata.
     /// </summary>
     private void AppendText(string text)
     {
@@ -86,7 +91,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Oformaterad text av dokumentet som samlades av besökaren.
+    /// Klartext för dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

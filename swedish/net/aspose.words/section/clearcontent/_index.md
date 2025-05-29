@@ -3,14 +3,14 @@ title: Section.ClearContent
 linktitle: ClearContent
 articleTitle: ClearContent
 second_title: Aspose.Words för .NET
-description: Section ClearContent metod. Rensar avsnittet i C#.
+description: Rensa enkelt sektioner med ClearContent-metoden. Förbättra ditt arbetsflöde och effektivisera innehållshanteringen idag!
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
 
-Rensar avsnittet.
+Rensar sektionen.
 
 ```csharp
 public void ClearContent()
@@ -18,9 +18,9 @@ public void ClearContent()
 
 ## Anmärkningar
 
-Texten till[`Body`](../body/) rensas, finns bara ett tomt stycke kvar som representerar avsnittsbrytningen.
+Texten till[`Body`](../body/) rensas, återstår bara ett tomt stycke som representerar avsnittsbrytningen.
 
-Texten i alla sidhuvuden och sidfötter rensas, men[`HeaderFooter`](../../headerfooter/) själva föremålen tas inte bort.
+Texten i alla sidhuvuden och sidfot rensas, men[`HeaderFooter`](../../headerfooter/) själva föremålen tas inte bort.
 
 ## Exempel
 
@@ -35,7 +35,7 @@ builder.Write("Hello world!");
 Assert.AreEqual("Hello world!", doc.GetText().Trim());
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Att köra "ClearContent"-metoden tar bort allt avsnittsinnehåll
+// Att köra metoden "ClearContent" tar bort allt innehåll i avsnittet
 // men lämna ett tomt stycke för att lägga till innehåll igen.
 doc.FirstSection.ClearContent();
 

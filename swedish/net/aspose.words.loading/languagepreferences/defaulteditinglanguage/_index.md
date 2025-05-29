@@ -3,14 +3,14 @@ title: LanguagePreferences.DefaultEditingLanguage
 linktitle: DefaultEditingLanguage
 articleTitle: DefaultEditingLanguage
 second_title: Aspose.Words för .NET
-description: LanguagePreferences DefaultEditingLanguage fast egendom. Hämtar eller ställer in standardspråk för redigering i C#.
+description: Hantera din redigeringsupplevelse med egenskapen LanguagePreferences DefaultEditingLanguage. Ställ enkelt in och anpassa ditt standardredigeringsspråk.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 ---
 ## LanguagePreferences.DefaultEditingLanguage property
 
-Hämtar eller ställer in standardspråk för redigering.
+Hämtar eller ställer in standardredigeringsspråk.
 
 Standardvärdet ärEnglishUS.
 
@@ -20,7 +20,7 @@ public EditingLanguage DefaultEditingLanguage { get; set; }
 
 ## Exempel
 
-Visar hur man ställer in ett standardspråk när ett dokument laddas.
+Visar hur man ställer in ett standardspråk när man laddar ett dokument.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

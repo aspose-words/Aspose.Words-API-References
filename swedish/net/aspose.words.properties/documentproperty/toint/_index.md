@@ -3,14 +3,14 @@ title: DocumentProperty.ToInt
 linktitle: ToInt
 articleTitle: ToInt
 second_title: Aspose.Words för .NET
-description: DocumentProperty ToInt metod. Returnerar egenskapsvärdet som heltal i C#.
+description: Konvertera DocumentProperty-värden till heltal utan ansträngning med ToInt-metoden. Lås upp sömlös datahantering för dina applikationer!
 type: docs
 weight: 100
 url: /sv/net/aspose.words.properties/documentproperty/toint/
 ---
 ## DocumentProperty.ToInt method
 
-Returnerar egenskapsvärdet som heltal.
+Returnerar egenskapsvärdet som ett heltal.
 
 ```csharp
 public int ToInt()
@@ -18,11 +18,11 @@ public int ToInt()
 
 ## Anmärkningar
 
-Kastar ett undantag om egenskapstypen inte är detNumber .
+Utlöser ett undantag om egenskapstypen inte ärNumber .
 
 ## Exempel
 
-Visar olika typer av konverteringsmetoder för anpassade dokumentegenskaper.
+Visar olika typkonverteringsmetoder för anpassade dokumentegenskaper.
 
 ```csharp
 Document doc = new Document();

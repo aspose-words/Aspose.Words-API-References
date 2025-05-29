@@ -3,14 +3,14 @@ title: Table.RelativeHorizontalAlignment
 linktitle: RelativeHorizontalAlignment
 articleTitle: RelativeHorizontalAlignment
 second_title: Aspose.Words för .NET
-description: Table RelativeHorizontalAlignment fast egendom. Hämtar eller ställer in flytande tabell relativ horisontell justering i C#.
+description: Upptäck egenskapen Table RelativeHorizontalAlignment för att enkelt justera tabellens horisontella justering för förbättrad layoutkontroll och visuellt tilltalande.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.tables/table/relativehorizontalalignment/
 ---
 ## Table.RelativeHorizontalAlignment property
 
-Hämtar eller ställer in flytande tabell relativ horisontell justering.
+Hämtar eller ställer in den flytande tabellens relativa horisontella justering.
 
 ```csharp
 public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
@@ -18,7 +18,7 @@ public HorizontalAlignment RelativeHorizontalAlignment { get; set; }
 
 ## Exempel
 
-Visar hur man ställer in placeringen av flytande bord.
+Visar hur man ställer in placeringen av flytande tabeller.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Ställ in tabellens plats till en plats på sidan, som i det här fallet det nedre högra hörnet.
+// Ange tabellens plats på sidan, till exempel i det här fallet det nedre högra hörnet.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Vi kan också ställa in en horisontell och vertikal förskjutning i punkter från styckets plats där vi infogade tabellen.
+ // Vi kan också ange en horisontell och vertikal förskjutning i punkter från styckets plats där vi infogade tabellen.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

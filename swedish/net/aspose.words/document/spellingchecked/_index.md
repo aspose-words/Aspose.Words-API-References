@@ -3,14 +3,14 @@ title: Document.SpellingChecked
 linktitle: SpellingChecked
 articleTitle: SpellingChecked
 second_title: Aspose.Words för .NET
-description: Document SpellingChecked fast egendom. ReturnerarSann om dokumentet har stavningskontrollerats i C#.
+description: Se till att ditt dokument är felfritt med egenskapen Stavningskontrollerad. Ta reda på om ditt innehåll har stavningskontrollerats noggrant för att säkerställa professionalism.
 type: docs
-weight: 410
+weight: 430
 url: /sv/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-Returnerar`Sann` om dokumentet har stavningskontrollerats.
+Returer`sann` om dokumentet har stavningskontrollerats.
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -18,11 +18,11 @@ public bool SpellingChecked { get; set; }
 
 ## Anmärkningar
 
-För att kontrollera stavningen i dokumentet igen, ställ in den här egenskapen till`falsk` .
+För att kontrollera stavningen i dokumentet igen, sätt den här egenskapen till`falsk` .
 
 ## Exempel
 
-Visar hur du ställer in stavning eller grammatikverifiering.
+Visar hur man ställer in stavnings- eller grammatikverifiering.
 
 ```csharp
 Document doc = new Document();
@@ -30,9 +30,9 @@ Document doc = new Document();
 // Strängen med stavfel.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
- // Stavnings-/Grammatikkontroll startar om vi ställer in egenskaper på false.
-// Vi kan se alla fel i Microsoft Word via Granska -> Stavning & Grammatik.
-// Observera att Microsoft Word inte startar grammatik/stavningskontroll automatiskt för DOC- och RTF-dokumentformat.
+// Stavnings-/grammatikkontroll startar om vi ställer in egenskaperna på falskt.
+// Vi kan se alla fel i Microsoft Word via Granska -> Stavning och grammatik.
+// Observera att Microsoft Word inte startar grammatik-/stavningskontroll automatiskt för DOC- och RTF-dokumentformat.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitFieldSeparator
 linktitle: VisitFieldSeparator
 articleTitle: VisitFieldSeparator
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitFieldSeparator metod. Anropas när en fältavgränsare påträffas i dokumentet i C#.
+description: Upptäck VisitFieldSeparator-metoden i DocumentVisitor. Hantera fältseparatorer effektivt i dina dokument för en effektivare bearbetning.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/documentvisitor/visitfieldseparator/
 ---
 ## DocumentVisitor.VisitFieldSeparator method
 
-Anropas när en fältavgränsare påträffas i dokumentet.
+Anropas när en fältseparator påträffas i dokumentet.
 
 ```csharp
 public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
@@ -22,13 +22,13 @@ public virtual VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Anmärkningar
 
-Fältavgränsaren separerar fältkoden från fältvärdet i dokumentet. Observera att vissa -fält endast har fältkod och inte har fältavgränsare och fältvärde.
+Fältavgränsaren separerar fältkod från fältvärde i dokumentet. Observera att vissa -fält endast har fältkod och inte har fältavgränsare och fältvärde.
 
-För mer info se[`VisitFieldStart`](../visitfieldstart/)
+För mer information se[`VisitFieldStart`](../visitfieldstart/)
 
 ## Exempel
 
@@ -41,7 +41,7 @@ public void FieldToText()
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -49,8 +49,8 @@ public void FieldToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade fältnoder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade fältnoder och deras undernoder.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -66,7 +66,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -110,10 +110,10 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djup besökaren är
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig
     /// in i fältets träd av underordnade noder.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

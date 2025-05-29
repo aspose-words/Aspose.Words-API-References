@@ -3,14 +3,14 @@ title: MailMergeSettings.Destination
 linktitle: Destination
 articleTitle: Destination
 second_title: Aspose.Words för .NET
-description: MailMergeSettings Destination fast egendom. Anger hur Microsoft Word kommer att mata ut resultaten av en epostsammanfogning. Standardvärdet ärDefault  i C#.
+description: Upptäck hur du anpassar egenskapen MailMergeSettings Destination i Microsoft Word för skräddarsydda dokumentkopplingsresultat. Maximera din dokumenteffektivitet idag!
 type: docs
 weight: 80
 url: /sv/net/aspose.words.settings/mailmergesettings/destination/
 ---
 ## MailMergeSettings.Destination property
 
-Anger hur Microsoft Word kommer att mata ut resultaten av en e-postsammanfogning. Standardvärdet ärDefault .
+Anger hur Microsoft Word ska skriva ut resultatet av en dokumentkoppling. Standardvärdet ärDefault .
 
 ```csharp
 public MailMergeDestination Destination { get; set; }
@@ -18,7 +18,7 @@ public MailMergeDestination Destination { get; set; }
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

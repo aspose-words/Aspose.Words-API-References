@@ -3,7 +3,7 @@ title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: NodeCollection Count fast egendom. Hämtar antalet noder i samlingen i C#.
+description: Upptäck egenskapen NodeCollection Count för att enkelt komma åt det totala antalet noder i din samling, vilket förbättrar datahantering och effektivitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/nodecollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Exempel
 
-Visar hur man går igenom en sammansatt nods samling av undernoder.
+Visar hur man navigerar genom en sammansatt nods samling av underordnade noder.
 
 ```csharp
 Document doc = new Document();
@@ -30,15 +30,15 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Observera att 'CustomNodeId' inte sparas i en utdatafil och endast existerar under nodens livstid.
+// Observera att 'CustomNodeId' inte sparas i en utdatafil och endast finns under nodens livstid.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Iterera genom styckets samling av närmaste barn,
-// och skriv ut alla körningar eller former som vi hittar inom.
+// Iterera genom styckets samling av omedelbara underordnade,
+// och skriv ut alla körningar eller former som vi hittar inuti.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -73,7 +73,7 @@ public void CalculateDepthOfNestedTables()
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Ta reda på om tabellen är kapslad i en annan tabell, och i så fall på vilket djup.
+        // Ta reda på om tabellen är kapslad inuti en annan tabell, och i så fall på vilket djup.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -85,10 +85,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Beräknar vilken nivå en tabell är kapslad i andra tabeller.
+/// Beräknar vilken nivå en tabell är kapslad inuti andra tabeller.
 /// </summary>
 /// <returns>
-/// Ett heltal som anger tabellens kapsningsdjup (antal överordnade tabellnoder).
+/// Ett heltal som anger tabellens kapslingsdjup (antal noder i överordnade tabeller).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -105,20 +105,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestämmer om en tabell innehåller någon omedelbar underordnad tabell i sina celler.
-/// Gå inte rekursivt genom dessa tabeller för att leta efter ytterligare tabeller.
+/// Avgör om en tabell innehåller någon direkt underordnad tabell i sina celler.
+/// Gå inte rekursivt igenom dessa tabeller för att söka efter ytterligare tabeller.
 /// </summary>
 /// <returns>
-/// Returnerar sant om minst en underordnad cell innehåller en tabell.
-/// Returnerar false om inga celler i tabellen innehåller en tabell.
+/// Returnerar sant om minst en undercell innehåller en tabell.
+/// Returnerar falskt om inga celler i tabellen innehåller en tabell.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

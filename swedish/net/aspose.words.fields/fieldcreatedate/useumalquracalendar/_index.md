@@ -3,14 +3,14 @@ title: FieldCreateDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words för .NET
-description: FieldCreateDate UseUmAlQuraCalendar fast egendom. Hämtar eller ställer in om UmalQurakalendern ska användas i C#.
+description: Hantera datumformat enkelt med egenskapen FieldCreateDate UseUmAlQuraCalendar. Växla till UmalQura-kalendern för exakt datumhantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
 ---
 ## FieldCreateDate.UseUmAlQuraCalendar property
 
-Hämtar eller ställer in om Um-al-Qura-kalendern ska användas.
+Hämtar eller anger om Um-al-Qura-kalendern ska användas.
 
 ```csharp
 public bool UseUmAlQuraCalendar { get; set; }
@@ -18,7 +18,7 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ## Exempel
 
-Visar hur du använder fältet CREATEDATE för att visa datum/tid för dokumentet.
+Visar hur man använder fältet SKAPADATUM för att visa dokumentets skapandedatum/-tid.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// Vi kan använda fältet CREATEDATE för att visa datum och tid då dokumentet skapades.
-// Nedan finns tre olika kalendertyper enligt vilka fältet CREATEDATE kan visa datum/tid.
+// Vi kan använda fältet CREATEDATE för att visa datum och tid för skapandet av dokumentet.
+// Nedan visas tre olika kalendertyper enligt vilka fältet CREATEDATE kan visa datum/tid.
 // 1 - Islamisk månkalender:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
@@ -35,14 +35,14 @@ field.UseLunarCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
 
-// 2 - Umm al-Qura kalender:
+// 2 - Umm al-Qura-kalendern:
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\u", field.GetFieldCode());
 
-// 3 - Indian National Calendar:
+// 3 - Indisk nationalkalender:
 builder.Write("\nAccording to the Indian National Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseSakaEraCalendar = true;

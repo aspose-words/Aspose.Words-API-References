@@ -3,7 +3,7 @@ title: VbaExecutableAttribute
 linktitle: VbaExecutableAttribute
 articleTitle: VbaExecutableAttribute
 second_title: Aspose.Words för .NET
-description: VbaExecutableAttribute byggare. Default_Constructor i C#.
+description: Upptäck VbaExecutableAttribute-konstruktorn! Lås upp sömlös exekvering i dina VBA-projekt med denna viktiga standardkonstruktor.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbaexecutableattribute/vbaexecutableattribute/

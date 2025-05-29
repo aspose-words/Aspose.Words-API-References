@@ -3,9 +3,9 @@ title: Document.PackageCustomParts
 linktitle: PackageCustomParts
 articleTitle: PackageCustomParts
 second_title: Aspose.Words för .NET
-description: Document PackageCustomParts fast egendom. Hämtar eller ställer in samlingen av anpassade delar godtyckligt innehåll som är länkade till OOXMLpaketet med hjälp av okända relationer i C#.
+description: Hantera anpassade delar i ditt OOXML-paket utan ansträngning. Få enkel åtkomst till och modifiera länkat innehåll för förbättrad dokumentflexibilitet och funktionalitet.
 type: docs
-weight: 310
+weight: 320
 url: /sv/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
@@ -18,17 +18,17 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ## Anmärkningar
 
-Blanda inte ihop dessa anpassade delar med anpassade XML-data. Om du behöver komma åt anpassade XML-delar, använd[`CustomXmlParts`](../customxmlparts/) fast egendom.
+Förväxla inte dessa anpassade delar med anpassade XML-data. Om du behöver komma åt anpassade XML-delar, använd[`CustomXmlParts`](../customxmlparts/) egendom.
 
-Den här samlingen innehåller OOXML-delar vars överordnade är OOXML-paketet och deras mål har ett "okänt förhållande". För mer information se[`CustomPart`](../../../aspose.words.markup/custompart/).
+Denna samling innehåller OOXML-delar vars förälder är OOXML-paketet och deras mål är av en "okänd relation". För mer information, se[`CustomPart`](../../../aspose.words.markup/custompart/).
 
 Aspose.Words laddar och sparar endast anpassade delar i OOXML-dokument.
 
-Den här egenskapen kan inte vara det`null`.
+Den här egenskapen kan inte vara`null`.
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -57,7 +57,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

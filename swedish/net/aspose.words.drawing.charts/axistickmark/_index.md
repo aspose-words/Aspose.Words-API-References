@@ -3,14 +3,14 @@ title: AxisTickMark Enum
 linktitle: AxisTickMark
 articleTitle: AxisTickMark
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.AxisTickMark uppräkning. Anger möjliga positioner för bockmarkeringar i C#.
+description: Upptäck Aspose.Words.Drawing.Charts.AxisTickMark-uppräkningen för anpassningsbara skalmarkeringspositioner, vilket förbättrar diagrammets tydlighet och visuella attraktionskraft.
 type: docs
-weight: 590
+weight: 850
 url: /sv/net/aspose.words.drawing.charts/axistickmark/
 ---
 ## AxisTickMark enumeration
 
-Anger möjliga positioner för bockmarkeringar.
+Anger möjliga positioner för skalstreck.
 
 ```csharp
 public enum AxisTickMark
@@ -20,14 +20,14 @@ public enum AxisTickMark
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Cross | `0` | Anger att bockmarkeringarna ska korsa axeln. |
-| Inside | `1` | Anger att bockmarkeringarna ska vara innanför tomtområdet. |
-| Outside | `2` | Anger att bockmarkeringarna ska vara utanför tomtområdet. |
-| None | `3` | Anger att det inte ska finnas några bockmarkeringar. |
+| Cross | `0` | Anger att skalmräcken ska korsa axeln. |
+| Inside | `1` | Anger att skalmarkeringarna ska vara inom plottområdet. |
+| Outside | `2` | Anger att skalmarkeringarna ska vara utanför ritningsområdet. |
+| None | `3` | Anger att det inte ska finnas några skalmarkeringar. |
 
 ## Exempel
 
-Visar hur man infogar diagram med datum/tidsvärden.
+Visar hur man infogar ett diagram med datum-/tidsvärden.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ Chart chart = shape.Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en anpassad serie som innehåller datum/tid-värden för X-axeln och respektive decimalvärden för Y-axeln.
+// Lägg till en anpassad serie som innehåller datum-/tidsvärden för X-axeln och respektive decimalvärden för Y-axeln.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -48,12 +48,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Sätt nedre och övre gränser för X-axeln.
+// Ange nedre och övre gränser för X-axeln.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Ställ in X-axelns huvudenheter till en vecka och de mindre enheterna till en dag.
+// Ställ in de större enheterna på X-axeln till en vecka och de mindre enheterna till en dag.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -64,7 +64,7 @@ xAxis.HasMinorGridlines = true;
 
 // Definiera Y-axelegenskaper för decimalvärden.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

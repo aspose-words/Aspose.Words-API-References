@@ -3,14 +3,14 @@ title: ShapeBase.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words för .NET
-description: ShapeBase Font fast egendom. Ger tillgång till teckensnittsformateringen för detta objekt i C#.
+description: Upptäck ShapeBase Font-egenskapen för enkel åtkomst till teckensnittsformatering. Förbättra dina designer med anpassningsbara textstilar och unika typografiska alternativ.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.drawing/shapebase/font/
 ---
 ## ShapeBase.Font property
 
-Ger tillgång till teckensnittsformateringen för detta objekt.
+Ger åtkomst till teckensnittsformateringen för detta objekt.
 
 ```csharp
 public Font Font { get; }
@@ -18,7 +18,7 @@ public Font Font { get; }
 
 ## Exempel
 
-Visar hur man infogar en textruta och ställer in teckensnittet för dess innehåll.
+Visar hur man infogar en textruta och anger teckensnittet för dess innehåll.
 
 ```csharp
 Document doc = new Document();
@@ -30,12 +30,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Ställ in egenskapen "Hidden" för formens "Font"-objekt till "true" för att dölja textrutan.
-// och kollapsa utrymmet som det normalt skulle uppta.
-// Ställ in egenskapen "Hidden" för formens "Font"-objekt till "false" för att lämna textrutan synlig.
+// Sätt egenskapen "Hidden" för formens "Font"-objekt till "true" för att dölja textrutan
+// och komprimera det utrymme som den normalt skulle uppta.
+// Sätt egenskapen "Hidden" för formens "Font"-objekt till "false" för att lämna textrutan synlig.
 shape.Font.Hidden = hideShape;
 
-// Om formen är synlig kommer vi att ändra dess utseende via teckensnittsobjektet.
+// Om formen är synlig kommer vi att ändra dess utseende via font-objektet.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -43,7 +43,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// Flytta byggaren från textrutan tillbaka till huvuddokumentet.
+// Flytta verktyget ut ur textrutan tillbaka till huvuddokumentet.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

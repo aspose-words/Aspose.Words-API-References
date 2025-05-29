@@ -3,9 +3,9 @@ title: FontConfigSubstitutionRule Class
 linktitle: FontConfigSubstitutionRule
 articleTitle: FontConfigSubstitutionRule
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule klass. Regel för ersättning av teckensnittskonfiguration i C#.
+description: Upptäck klassen Aspose.Words.Fonts.FontConfigSubstitutionRule för sömlös typsnittshantering och anpassning i dina dokument. Förbättra din textstil idag!
 type: docs
-weight: 2890
+weight: 3300
 url: /sv/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
@@ -33,9 +33,9 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 
 ## Anmärkningar
 
-Den här regeln använder verktyget fontconfig på Linux (och andra Unix-liknande) plattformar för att få substitution om det ursprungliga teckensnittet inte är tillgängligt.
+Den här regeln använder verktyget fontconfig på Linux (och andra Unix-liknande) plattformar för att hämta substitutionen om det ursprungliga teckensnittet inte är tillgängligt.
 
-Om fontconfig-verktyget inte är tillgängligt kommer denna regel att ignoreras.
+Om fontconfig-verktyget inte är tillgängligt kommer den här regeln att ignoreras.
 
 ## Exempel
 
@@ -49,8 +49,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule-objektet fungerar annorlunda på Windows/icke-Windows-plattformar.
-// På Windows är det inte tillgängligt.
+// FontConfigSubstitutionRule-objektet fungerar olika på Windows- och icke-Windows-plattformar.
+// På Windows är den inte tillgänglig.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -60,7 +60,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// På Linux/Mac kommer vi att ha tillgång till det och kommer att kunna utföra operationer.
+// På Linux/Mac kommer vi att ha tillgång till det och kunna utföra operationer.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

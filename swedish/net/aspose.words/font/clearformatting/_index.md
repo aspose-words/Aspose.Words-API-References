@@ -3,9 +3,9 @@ title: Font.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words för .NET
-description: Font ClearFormatting metod. Återställer till standardtypsnittsformatering i C#.
+description: Återställ din text till dess ursprungliga stil med Font ClearFormatting-metoden. Njut av ren och konsekvent formatering för ett polerat utseende!
 type: docs
-weight: 550
+weight: 560
 url: /sv/net/aspose.words/font/clearformatting/
 ---
 ## Font.ClearFormatting method
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Anmärkningar
 
-Tar bort all typsnittsformatering som uttryckligen anges på objektet från which [`Font`](../) erhölls så att teckensnittsformateringen kommer att ärvas från lämplig förälder.
+Tar bort all teckensnittsformatering som explicit anges på objektet från vilket [`Font`](../) erhölls så teckensnittsformateringen kommer att ärvas från , lämplig förälder.
 
 ## Exempel
 
@@ -30,11 +30,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Infoga en hyperlänk och framhäva den med anpassad formatering.
-// Hyperlänken kommer att vara ett klickbart stycke text som tar oss till den plats som anges i URL:en.
+// Infoga en hyperlänk och framhäv den med anpassad formatering.
+// Hyperlänken kommer att vara en klickbar textbit som tar oss till den plats som anges i URL:en.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", falskt);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 

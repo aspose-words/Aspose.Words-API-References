@@ -3,14 +3,14 @@ title: BubbleSizeCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: BubbleSizeCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
+description: Upptäck BubbleSizeCollection GetEnumerator-metoden. Hämta effektivt uppräknarobjekt för effektiv datahantering och förbättrad prestanda.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
 ---
 ## BubbleSizeCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt.
+Returnerar ett uppräknarobjekt.
 
 ```csharp
 public IEnumerator<double> GetEnumerator()

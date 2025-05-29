@@ -3,7 +3,7 @@ title: RevisionGroupCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: RevisionGroupCollection Count fast egendom. Returnerar antalet revisionsgrupper i samlingen i C#.
+description: Upptäck egenskapen Count i RevisionGroupCollection. Hämta enkelt det totala antalet revisionsgrupper och förbättra effektiviteten i din datahantering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/revisiongroupcollection/count/

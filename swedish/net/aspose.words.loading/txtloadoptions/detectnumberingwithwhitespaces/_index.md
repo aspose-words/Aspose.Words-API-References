@@ -3,14 +3,14 @@ title: TxtLoadOptions.DetectNumberingWithWhitespaces
 linktitle: DetectNumberingWithWhitespaces
 articleTitle: DetectNumberingWithWhitespaces
 second_title: Aspose.Words för .NET
-description: TxtLoadOptions DetectNumberingWithWhitespaces fast egendom. Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från vanligt textformat. Standardvärdet ärSann i C#.
+description: Optimera dina dokumentimporter med TxtLoadOptions funktion DetectNumberingWithWhitespaces, vilket säkerställer korrekt igenkänning av numrerade listor från vanlig text.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
 
-Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från vanligt textformat. Standardvärdet är`Sann`.
+Gör det möjligt att ange hur numrerade listobjekt ska kännas igen när dokument importeras från oformaterat textformat. Standardvärdet är`sann`.
 
 ```csharp
 public bool DetectNumberingWithWhitespaces { get; set; }
@@ -18,18 +18,18 @@ public bool DetectNumberingWithWhitespaces { get; set; }
 
 ## Anmärkningar
 
-Om det här alternativet är inställt på`falsk`, listigenkänningsalgoritm upptäcker liststycken, när listnummer slutar med antingen punkt-, högerparentes eller punktsymboler (som "•", "*", "-" eller "o").
+Om det här alternativet är inställt på`falsk`, listigenkänningsalgoritmen detekterar liststycken när listnummer slutar med antingen punkt, högerparentes eller punktsymboler (t.ex. "•", "*", "-" eller "o").
 
-Om det här alternativet är inställt på`Sann`blanksteg används också som listnummeravgränsare: listigenkänningsalgoritm för numrering i arabisk stil (1., 1.1.2.) använder både blanksteg och punktsymboler (".").
+Om det här alternativet är inställt på`sann`, mellanslag används också som avgränsare för listnummer: listigenkänningsalgoritm för numrering i arabisk stil (1., 1.1.2.) använder både mellanslag och punktsymboler (".").
 
 ## Exempel
 
-Visar hur man upptäcker listor vid inläsning av klartextdokument.
+Visar hur man identifierar listor när man laddar dokument i klartext.
 
 ```csharp
 // Skapa ett klartextdokument i en sträng med fyra separata delar som vi kan tolka som listor,
-// med olika avgränsare. När du laddar klartextdokumentet i ett "Dokument"-objekt,
-// Aspose.Words kommer alltid att upptäcka de tre första listorna och lägger till ett "List"-objekt
+// med olika avgränsare. Vid laddning av klartextdokumentet till ett "Dokument"-objekt,
+// Aspose.Words kommer alltid att identifiera de tre första listorna och lägga till ett "List"-objekt
 // för varje till dokumentets "Lists"-egenskap.
 const string textDoc = "Full stop delimiters:\n" +
                        "1. First list item 1\n" +
@@ -49,14 +49,14 @@ const string textDoc = "Full stop delimiters:\n" +
                        "3 Fourth list item 3";
 
 // Skapa ett "TxtLoadOptions"-objekt, som vi kan skicka till ett dokuments konstruktor
-// för att ändra hur vi laddar ett dokument i klartext.
+// för att ändra hur vi laddar ett klartextdokument.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Ställ in egenskapen "DetectNumberingWithWhitespaces" till "true" för att upptäcka numrerade objekt
-// med blankstegsavgränsare, som den fjärde listan i vårt dokument, som listor.
+// Sätt egenskapen "DetectNumberingWithWhitespaces" till "true" för att detektera numrerade objekt
+// med blankstegsavgränsare, såsom den fjärde listan i vårt dokument, som listor.
 // Detta kan också felaktigt upptäcka stycken som börjar med siffror som listor.
-// Ställ in egenskapen "DetectNumberingWithWhitespaces" till "false"
-// för att inte skapa listor från numrerade objekt med blankstegsavgränsare.
+// Sätt egenskapen "DetectNumberingWithWhitespaces" till "false"
+// att inte skapa listor från numrerade objekt med blankstegsavgränsare.
 loadOptions.DetectNumberingWithWhitespaces = detectNumberingWithWhitespaces;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

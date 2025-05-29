@@ -3,14 +3,14 @@ title: VbaReference Class
 linktitle: VbaReference
 articleTitle: VbaReference
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Vba.VbaReference klass. Implementerar en referens till ett bibliotek av automationstyp eller VBAprojekt i C#.
+description: Upptäck klassen Aspose.Words.Vba.VbaReference för sömlös integration med automationstypbibliotek och VBA-projekt. Förbättra din dokumentautomation idag!
 type: docs
-weight: 6590
+weight: 7440
 url: /sv/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
-Implementerar en referens till ett bibliotek av automationstyp eller VBA-projekt.
+Implementerar en referens till ett automationstypbibliotek eller ett VBA-projekt.
 
 För att lära dig mer, besök[Arbeta med VBA-makron](https://docs.aspose.com/words/net/working-with-vba-macros/) dokumentationsartikel.
 
@@ -22,8 +22,8 @@ public abstract class VbaReference
 
 | namn | Beskrivning |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Hämtar ett strängvärde som innehåller identifieraren för ett bibliotek av automationstyp. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Blir[`VbaReferenceType`](../vbareferencetype/) objekt som anger vilken typ av referens som a`VbaReference` objekt representerar. |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Hämtar ett strängvärde som innehåller identifieraren för ett automationstypbibliotek. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Får[`VbaReferenceType`](../vbareferencetype/) objekt som anger vilken typ av referens som en`VbaReference` objektet representerar. |
 
 ## Exempel
 
@@ -55,7 +55,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens.
+ /// Returnerar strängen som representerar LibId-sökvägen för en specificerad referens.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -73,7 +73,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Returnerar sökväg från en specificerad identifierare för ett bibliotek av automationstyp.
+/// Returnerar sökvägen från en specificerad identifierare för ett bibliotek med automationstyper.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -88,7 +88,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Returnerar sökväg från en specificerad identifierare för ett bibliotek av automationstyp.
+/// Returnerar sökvägen från en specificerad identifierare för ett bibliotek med automationstyper.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

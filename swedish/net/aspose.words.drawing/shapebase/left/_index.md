@@ -3,14 +3,14 @@ title: ShapeBase.Left
 linktitle: Left
 articleTitle: Left
 second_title: Aspose.Words för .NET
-description: ShapeBase Left fast egendom. Hämtar eller ställer in positionen för den vänstra kanten av formens innehållsblock i C#.
+description: Upptäck egenskapen ShapeBase Left för att enkelt justera din forms vänstra kantposition i dess behållare. Förbättra din designprecision idag!
 type: docs
-weight: 370
+weight: 390
 url: /sv/net/aspose.words.drawing/shapebase/left/
 ---
 ## ShapeBase.Left property
 
-Hämtar eller ställer in positionen för den vänstra kanten av formens innehållsblock.
+Hämtar eller anger positionen för den vänstra kanten av det block som formen innehåller.
 
 ```csharp
 public double Left { get; set; }
@@ -18,13 +18,13 @@ public double Left { get; set; }
 
 ## Anmärkningar
 
-För en form på toppnivå är värdet i punkter och i förhållande till formankaret.
+För en form på översta nivån är värdet i punkter och relativt till formankaret.
 
-För former i en grupp finns värdet i koordinatutrymmet och enheterna för den överordnade gruppen.
+För former i en grupp finns värdet i koordinatrummet och enheterna för den överordnade gruppen.
 
 Standardvärdet är 0.
 
-Har effekt endast för flytande former.
+Har endast effekt för flytande former.
 
 ## Exempel
 
@@ -37,23 +37,23 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
-// Konfigurera formens "RelativeHorizontalPosition"-egenskap för att behandla värdet på egenskapen "Left"
+// Konfigurera formens egenskap "RelativeHorizontalPosition" för att behandla värdet för egenskapen "Left"
  // som formens horisontella avstånd, i punkter, från sidans vänstra sida.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
 // Ställ in formens horisontella avstånd från sidans vänstra sida till 100.
 shape.Left = 100;
 
-// Använd egenskapen "RelativeVerticalPosition" på liknande sätt för att placera formen 80 pkt under toppen av sidan.
+// Använd egenskapen "RelativeVerticalPosition" på ett liknande sätt för att placera formen 80 pt under sidans överkant.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Ställ in formens höjd, vilket automatiskt skalar bredden för att bevara dimensionerna.
+// Ställ in formens höjd, vilket automatiskt skalar bredden för att bevara måtten.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Egenskaperna "Bottom" och "Right" innehåller bildens nedre och högra kanter.
+// Egenskaperna "Nedre" och "Höger" innehåller bildens nedre och högra kanter.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

@@ -3,14 +3,14 @@ title: Footnote.IsAuto
 linktitle: IsAuto
 articleTitle: IsAuto
 second_title: Aspose.Words för .NET
-description: Footnote IsAuto fast egendom. Innehåller ett värde som anger om detta är en automatiskt numrerad fotnot eller fotnot med användardefinierat anpassat referensmärke i C#.
+description: Upptäck IsAuto-egenskapen för fotnoter, vilket möjliggör sömlös autonumrering eller anpassade referensmarkeringar för förbättrad dokumenttydlighet och organisation.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.notes/footnote/isauto/
 ---
 ## Footnote.IsAuto property
 
-Innehåller ett värde som anger om detta är en automatiskt numrerad fotnot eller fotnot med användardefinierat anpassat referensmärke.
+Innehåller ett värde som anger om detta är en automatiskt numrerad fotnot eller en fotnot med användardefinierat anpassat referensmärke.
 
 ```csharp
 public bool IsAuto { get; set; }
@@ -18,7 +18,7 @@ public bool IsAuto { get; set; }
 
 ## Anmärkningar
 
-[`ReferenceMark`](../referencemark/)initieras med tom sträng if`IsAuto` satt till`falsk` .
+[`ReferenceMark`](../referencemark/) initierad med tom sträng om`IsAuto` inställd på`falsk` .
 
 ## Exempel
 
@@ -28,16 +28,16 @@ Visar hur man infogar och anpassar fotnoter.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägg till text och referera till den med en fotnot. Denna fotnot kommer att placera en liten upphöjd referens
+// Lägg till text och referera till den med en fotnot. Denna fotnot placerar en liten upphöjd referens
 // markera efter texten som den refererar till och skapa en post under huvudtexten längst ner på sidan.
 // Denna post kommer att innehålla fotnotens referensmärke och referenstexten,
-// som vi kommer att skicka till dokumentbyggarens "InsertFootnote"-metod.
+// som vi skickar till dokumentbyggarens "InsertFootnote"-metod.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Om den här egenskapen är inställd på "true", är vår fotnots referensmärke
+// Om den här egenskapen är satt till "sant", så är vår fotnots referensmarkering
 // kommer att vara dess index bland alla avsnittets fotnoter.
-// Detta är den första fotnoten, så referensmärket blir "1".
+// Detta är den första fotnoten, så referenstecknet blir "1".
 Assert.True(footnote.IsAuto);
 
  // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
@@ -50,13 +50,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Vi kan ställa in ett anpassat referensmärke som fotnoten kommer att använda istället för dess indexnummer.
+// Vi kan ange ett anpassat referensmärke som fotnoten kommer att använda istället för sitt indexnummer.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Ett bokmärke med flaggan "IsAuto" inställd på sant kommer fortfarande att visa sitt verkliga index
-// även om tidigare bokmärken visar anpassade referensmärken, så kommer detta bokmärkes referensmärke att vara en "3".
+// Ett bokmärke med flaggan "IsAuto" satt till sant kommer fortfarande att visa sitt verkliga index
+// även om tidigare bokmärken visar anpassade referensmarkeringar, så kommer detta bokmärkes referensmarkering att vara en "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

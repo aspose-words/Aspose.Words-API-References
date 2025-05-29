@@ -3,9 +3,9 @@ title: DigitalSignatureType Enum
 linktitle: DigitalSignatureType
 articleTitle: DigitalSignatureType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignatureType uppräkning. Anger typen av digital signatur i C#.
+description: Upptäck enumerationen Aspose.Words.DigitalSignatures.DigitalSignatureType för att förbättra din dokumentsäkerhet med mångsidiga alternativ för digitala signaturer.
 type: docs
-weight: 400
+weight: 600
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration
@@ -29,20 +29,21 @@ public enum DigitalSignatureType
 Visar hur man signerar dokument med X.509-certifikat.
 
 ```csharp
-// Kontrollera att ett dokument inte är signerat.
+// Verifiera att ett dokument inte är signerat.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
 // Skapa ett CertificateHolder-objekt från en PKCS12-fil, som vi kommer att använda för att signera dokumentet.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Det finns två sätt att spara en signerad kopia av ett dokument till det lokala filsystemet:
+// Det finns två sätt att spara en signerad kopia av ett dokument i det lokala filsystemet:
 // 1 - Ange ett dokument med ett lokalt systemfilnamn och spara en signerad kopia på en plats som anges med ett annat filnamn.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Ta ett dokument från en stream och spara en signerad kopia till en annan stream.
+// 2 - Ta ett dokument från en ström och spara en signerad kopia till en annan ström.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

@@ -3,14 +3,14 @@ title: ReplaceAction Enum
 linktitle: ReplaceAction
 articleTitle: ReplaceAction
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Replacing.ReplaceAction uppräkning. Tillåter användaren att ange vad som händer med den aktuella matchningen under en ersättningsoperation i C#.
+description: Upptäck Aspose.Words.ReplaceAction-enum för att kontrollera matchningsresultat i dina ersättningsåtgärder, vilket förbättrar effektiviteten och precisionen vid dokumentredigering.
 type: docs
-weight: 4640
+weight: 5370
 url: /sv/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
 
-Tillåter användaren att ange vad som händer med den aktuella matchningen under en ersättningsoperation.
+Låter användaren ange vad som händer med den aktuella matchningen under en ersättningsåtgärd.
 
 ```csharp
 public enum ReplaceAction
@@ -20,20 +20,20 @@ public enum ReplaceAction
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Replace | `0` | Ersätt den nuvarande matchningen. |
+| Replace | `0` | Ersätt den aktuella matchningen. |
 | Skip | `1` | Hoppa över den aktuella matchningen. |
-| Stop | `2` | Avsluta ersättningsoperationen. |
+| Stop | `2` | Avsluta ersättningsåtgärden. |
 
 ## Exempel
 
-Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
+Visar hur man infogar ett helt dokuments innehåll som en ersättning för en matchning i en sök-och-ersätt-åtgärd.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -48,11 +48,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Infoga ett dokument efter stycket som innehåller den matchade texten.
+        // Infoga ett dokument efter stycket som innehåller den matchande texten.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Ta bort stycket med den matchade texten.
+        // Ta bort stycket med den matchande texten.
         para.Remove();
 
         return ReplaceAction.Skip;

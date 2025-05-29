@@ -3,7 +3,7 @@ title: Border.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words för .NET
-description: Border ThemeColor fast egendom. Hämtar eller ställer in temafärgen i det tillämpade färgschemat som är associerat med detta Borderobjekt i C#.
+description: Upptäck hur du använder egenskapen Border ThemeColor för att anpassa ditt färgschema och förbättra din design med livfulla, skräddarsydda teman.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/border/themecolor/
@@ -18,7 +18,7 @@ public ThemeColor ThemeColor { get; set; }
 
 ## Exempel
 
-Visar hur man infogar ett stycke med en övre kant.
+Visar hur man infogar ett stycke med en övre kantlinje.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Ställ in ThemeColor endast när LineWidth eller LineStyle är inställda.
+// Ställ endast in ThemeColor när LineWidth eller LineStyle är inställda.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

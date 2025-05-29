@@ -3,14 +3,14 @@ title: PreferredWidth.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words för .NET
-description: PreferredWidth Equals metod. Bestämmer om den angivnaPreferredWidth är lika i värde med strömmenPreferredWidth  i C#.
+description: Upptäck hur metoden PreferredWidth Equals kontrollerar om din angivna bredd matchar det aktuella värdet, vilket säkerställer precision i din layoutdesign.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.tables/preferredwidth/equals/
 ---
 ## Equals(*[PreferredWidth](../)*) {#equals}
 
-Bestämmer om den angivna[`PreferredWidth`](../) är lika i värde med strömmen[`PreferredWidth`](../) .
+Avgör om den angivna[`PreferredWidth`](../) är lika värdefullt som den nuvarande[`PreferredWidth`](../) .
 
 ```csharp
 public bool Equals(PreferredWidth other)
@@ -18,7 +18,7 @@ public bool Equals(PreferredWidth other)
 
 ## Exempel
 
-Visar hur man ställer in en föredragen bredd för tabellceller.
+Visar hur man anger en önskad bredd för tabellceller.
 
 ```csharp
 Document doc = new Document();
@@ -26,13 +26,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Det finns två sätt att tillämpa klassen "PreferredWidth" på tabellceller.
-// 1 - Ställ in en absolut föredragen bredd baserat på punkter:
+// 1 - Ange en absolut önskad bredd baserat på punkter:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Ställ in en relativ föredragen bredd baserat på procent av tabellens bredd:
+// 2 - Ange en relativ önskad bredd baserat på procentandel av tabellens bredd:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -40,7 +40,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// En cell utan angiven önskad bredd kommer att ta upp resten av det tillgängliga utrymmet.
+// En cell utan specificerad önskad bredd kommer att ta upp resten av det tillgängliga utrymmet.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Varje konfiguration av egenskapen "PreferredWidth" skapar ett nytt objekt.
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 ## Equals(*object*) {#equals_1}
 
-Bestämmer om det angivna objektet har samma värde som det aktuella objektet.
+Avgör om det angivna objektet har samma värde som det aktuella objektet.
 
 ```csharp
 public override bool Equals(object obj)
@@ -71,7 +71,7 @@ public override bool Equals(object obj)
 
 ## Exempel
 
-Visar hur man ställer in en föredragen bredd för tabellceller.
+Visar hur man anger en önskad bredd för tabellceller.
 
 ```csharp
 Document doc = new Document();
@@ -79,13 +79,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Det finns två sätt att tillämpa klassen "PreferredWidth" på tabellceller.
-// 1 - Ställ in en absolut föredragen bredd baserat på punkter:
+// 1 - Ange en absolut önskad bredd baserat på punkter:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Ställ in en relativ föredragen bredd baserat på procent av tabellens bredd:
+// 2 - Ange en relativ önskad bredd baserat på procentandel av tabellens bredd:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -93,7 +93,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// En cell utan angiven önskad bredd kommer att ta upp resten av det tillgängliga utrymmet.
+// En cell utan specificerad önskad bredd kommer att ta upp resten av det tillgängliga utrymmet.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Varje konfiguration av egenskapen "PreferredWidth" skapar ett nytt objekt.

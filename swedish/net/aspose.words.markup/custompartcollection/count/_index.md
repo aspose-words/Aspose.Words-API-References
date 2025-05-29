@@ -3,7 +3,7 @@ title: CustomPartCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: CustomPartCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
+description: Upptäck egenskapen CustomPartCollection Count för att enkelt hämta det totala antalet element i din samling för effektiv datahantering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/custompartcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

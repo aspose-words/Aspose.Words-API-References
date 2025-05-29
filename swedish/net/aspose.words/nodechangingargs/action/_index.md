@@ -3,14 +3,14 @@ title: NodeChangingArgs.Action
 linktitle: Action
 articleTitle: Action
 second_title: Aspose.Words för .NET
-description: NodeChangingArgs Action fast egendom. Får ett värde som indikerar vilken typ av nodändringshändelse som inträffar i C#.
+description: Upptäck NodeChangingArgs Action-egenskapen för att enkelt identifiera nodändringshändelser. Öka din kodningseffektivitet med denna viktiga funktion!
 type: docs
 weight: 10
 url: /sv/net/aspose.words/nodechangingargs/action/
 ---
 ## NodeChangingArgs.Action property
 
-Får ett värde som indikerar vilken typ av nodändringshändelse som inträffar.
+Hämtar ett värde som anger vilken typ av nodändringshändelse som inträffar.
 
 ```csharp
 public NodeChangingAction Action { get; }
@@ -18,7 +18,7 @@ public NodeChangingAction Action { get; }
 
 ## Exempel
 
-Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid när vi redigerar det.
+Visar hur man använder en NodeChangingCallback för att övervaka ändringar i dokumentträdet i realtid medan vi redigerar det.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Skriver ut varje insättning/borttagning av nod som sker i dokumentet.
+/// Skriver ut varje nodinsättning/borttagning allt eftersom den sker i dokumentet.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

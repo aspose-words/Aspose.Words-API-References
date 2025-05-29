@@ -3,14 +3,14 @@ title: SectionCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words för .NET
-description: SectionCollection ToArray metod. Kopierar alla avsnitt från samlingen till en ny uppsättning sektioner i C#.
+description: Upptäck SectionCollection ToArray-metoden, kopiera enkelt alla sektioner till en ny array, vilket förbättrar din datahantering och kodningseffektivitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/sectioncollection/toarray/
 ---
 ## SectionCollection.ToArray method
 
-Kopierar alla avsnitt från samlingen till en ny uppsättning sektioner.
+Kopierar alla avsnitt från samlingen till en ny array med avsnitt.
 
 ```csharp
 public Section[] ToArray()
@@ -18,7 +18,7 @@ public Section[] ToArray()
 
 ### Returvärde
 
-En rad sektioner.
+En uppsättning sektioner.
 
 ### Se även
 

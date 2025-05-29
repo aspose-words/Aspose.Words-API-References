@@ -3,7 +3,7 @@ title: Table.DistanceTop
 linktitle: DistanceTop
 articleTitle: DistanceTop
 second_title: Aspose.Words för .NET
-description: Table DistanceTop fast egendom. Hämtar eller ställer in avståndet mellan bordsskivan och den omgivande texten i punkter i C#.
+description: Justera avståndet mellan bordsskivan och omgivande text enkelt. Förbättra din layout för ett elegant och professionellt utseende med DistanceTop!
 type: docs
 weight: 150
 url: /sv/net/aspose.words.tables/table/distancetop/
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Ställ in avståndet mellan tabell och omgivande text.
+// Ange avstånd mellan tabell och omgivande text.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

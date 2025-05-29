@@ -3,14 +3,14 @@ title: Hyphenation.IsDictionaryRegistered
 linktitle: IsDictionaryRegistered
 articleTitle: IsDictionaryRegistered
 second_title: Aspose.Words för .NET
-description: Hyphenation IsDictionaryRegistered metod. Returnerarfalsk om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är NullordbokSann annars i C#.
+description: Upptäck metoden Hyphenation IsDictionaryRegistered, som kontrollerar om en ordbok är registrerad för ditt språk och säkerställer korrekt bindestreck i dina applikationer.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation.IsDictionaryRegistered method
 
-Returnerar`falsk` om det för det angivna språket inte finns någon ordbok registrerad eller om den är registrerad är Null-ordbok,`Sann` annars.
+Returer`falsk` om det inte finns någon registrerad ordbok för det angivna språket, eller om det är en nullordbok registrerad,`sann` annars.
 
 ```csharp
 public static bool IsDictionaryRegistered(string language)
@@ -18,21 +18,21 @@ public static bool IsDictionaryRegistered(string language)
 
 ## Exempel
 
-Visar hur man registrerar en avstavningsordbok.
+Visar hur man registrerar en bindestreckslexikon.
 
 ```csharp
-// En avstavningsordbok innehåller en lista med strängar som definierar avstavningsregler för ordbokens språk.
+// En bindestreckslexikon innehåller en lista med strängar som definierar bindestrecksregler för ordbokens språk.
 // När ett dokument innehåller textrader där ett ord kan delas upp och fortsätta på nästa rad,
-// Avstavning kommer att titta igenom ordbokens lista med strängar för det ordets delsträngar.
-// Om ordboken innehåller en delsträng, kommer avstavning att dela ordet över två rader
-// av delsträngen och lägg till ett bindestreck till den första halvan.
-// Registrera en ordboksfil från det lokala filsystemet till "de-CH"-lokalen.
+// bindestreck söker igenom ordbokens lista med strängar efter det ordets delsträngar.
+// Om ordboken innehåller en delsträng, så kommer bindestreck att dela ordet över två rader
+// av delsträngen och lägg till ett bindestreck i den första halvan.
+// Registrera en ordboksfil från det lokala filsystemet till språkinställningen "de-CH".
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
-// Öppna ett dokument som innehåller text med ett språk som matchar vår ordbok,
-// och spara den i ett sparat format med fast sida. Texten i det dokumentet kommer att avstavas.
+// Öppna ett dokument som innehåller text med en språkinställning som matchar vår ordlista,
+// och spara det i ett fast sidformat. Texten i det dokumentet kommer att vara avstreckad.
 Document doc = new Document(MyDir + "German text.docx");
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
@@ -40,8 +40,8 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
 
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
-// Ladda om dokumentet efter avregistrering av ordboken,
-// och spara den till en annan PDF, som inte kommer att ha avstavad text.
+// Ladda om dokumentet efter att ordboken avregistrerats,
+// och spara den i en annan PDF-fil, som inte kommer att ha bindestreckstext.
 Hyphenation.UnregisterDictionary("de-CH");
 
 Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));

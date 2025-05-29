@@ -3,14 +3,14 @@ title: FormField.OwnHelp
 linktitle: OwnHelp
 articleTitle: OwnHelp
 second_title: Aspose.Words för .NET
-description: FormField OwnHelp fast egendom. Anger källan till texten som visas i en meddelanderuta när ett formulärfält har fokus och användaren trycker på F1 i C#.
+description: Upptäck egenskapen FormField OwnHelp. Enkel användarupplevelse genom att anpassa hjälpmeddelanden när användare trycker på F1 i fokuserade formulärfält.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.fields/formfield/ownhelp/
 ---
 ## FormField.OwnHelp property
 
-Anger källan till texten som visas i en meddelanderuta när ett formulärfält har fokus och användaren trycker på F1.
+Anger källan för texten som visas i en meddelanderuta när ett formulärfält har fokus och användaren trycker på F1.
 
 ```csharp
 public bool OwnHelp { get; set; }
@@ -18,7 +18,7 @@ public bool OwnHelp { get; set; }
 
 ## Anmärkningar
 
-Om`Sann` , texten som anges av[`HelpText`](../helptext/) egenskapen visas. If`falsk` , texten i AutoText-posten som anges av[`HelpText`](../helptext/) egenskapen visas.
+Om`sann` , texten som anges av[`HelpText`](../helptext/) egenskapen visas. Om`falsk` , texten i AutoText-posten som anges av[`HelpText`](../helptext/) egenskapen visas.
 
 ## Exempel
 
@@ -54,7 +54,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Använd en dokumentbyggare för att infoga textinmatningsformulärfält.
+    // Använd en dokumentbyggare för att infoga textinmatningsfält i formuläret.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -65,19 +65,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Den här samlingen innehåller alla våra formulärfält.
+    // Denna samling innehåller alla våra formulärfält.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Fält visar våra formulärfält. Vi kan se deras fältkoder genom att öppna detta dokument
-    // i Microsoft och tryck på Alt + F9. Dessa fält har inga omkopplare,
-    // och medlemmar av FormField-objektet styr helt deras formulärfälts innehåll.
+    // Fält visar våra formulärfält. Vi kan se deras fältkoder genom att öppna det här dokumentet
+    // i Microsoft och trycker på Alt + F9. Dessa fält har inga växlar,
+    // och medlemmar i FormField-objektet styr helt innehållet i deras formulärfält.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Tillåt varje formulärfält att acceptera en dokumentbesökare.
+    // Tillåt att varje formulärfält accepterar en dokumentbesökare.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -91,7 +91,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Besöksimplementering som skriver ut detaljer om formulärfält som den besöker.
+ /// Besökarimplementering som skriver ut information om formulärfält som besöks.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -127,12 +127,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Låt besökaren fortsätta att besöka andra noder.
+        // Låt besökaren fortsätta besöka andra noder.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Lägger till nyrads teckenavslutad text till den aktuella utgången.
+    /// Lägger till nyradsavslutad text till aktuell utdata.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -140,7 +140,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

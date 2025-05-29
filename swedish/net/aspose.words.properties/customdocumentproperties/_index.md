@@ -3,9 +3,9 @@ title: CustomDocumentProperties Class
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Properties.CustomDocumentProperties klass. En samling anpassade dokumentegenskaper i C#.
+description: Upptäck Aspose.Words.Properties.CustomDocumentProperties för att enkelt hantera anpassade dokumentegenskaper. Förbättra din dokumenthantering idag!
 type: docs
-weight: 4460
+weight: 5190
 url: /sv/net/aspose.words.properties/customdocumentproperties/
 ---
 ## CustomDocumentProperties class
@@ -22,9 +22,9 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Får antal föremål i samlingen. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt efter index. |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt efter egenskapens namn. |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Hämtar antalet objekt i samlingen. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt av index. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt med egenskapens namn. |
 
 ## Metoder
 
@@ -35,21 +35,21 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 | [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(*string, double*) | Skapar en ny anpassad dokumentegenskap förDouble datatyp. |
 | [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(*string, int*) | Skapar en ny anpassad dokumentegenskap förNumber datatyp. |
 | [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(*string, string*) | Skapar en ny anpassad dokumentegenskap förString datatyp. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | Skapar en ny länkad till innehåll anpassad dokumentegenskap. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | Skapar en ny anpassad dokumentegenskap för länkat innehåll. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Tar bort alla egenskaper från samlingen. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Returnerar`Sann` om en egenskap med det angivna namnet finns i samlingen. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Returer`sann` om en egenskap med det angivna namnet finns i samlingen. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Hämtar indexet för en egenskap efter namn. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Tar bort en egenskap med det angivna namnet från samlingen. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Tar bort en egenskap vid det angivna indexet. |
 
 ## Anmärkningar
 
-Varje[`DocumentProperty`](../documentproperty/) objekt representerar en anpassad egenskap för ett containerdokument.
+Varje[`DocumentProperty`](../documentproperty/) objektet representerar en anpassad egenskap för ett containerdokument.
 
-Namnen på egenskaperna är skiftlägesokänsliga.
+Namnen på egenskaperna är inte skiftlägeskänsliga.
 
-Fastigheterna i samlingen är sorterade alfabetiskt efter namn.
+Egenskaperna i samlingen är sorterade alfabetiskt efter namn.
 
 ## Exempel
 
@@ -58,7 +58,7 @@ Visar hur man arbetar med anpassade dokumentegenskaper.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Varje dokument innehåller en samling anpassade egenskaper, som, liksom de inbyggda egenskaperna, är nyckel-värdepar.
+// Varje dokument innehåller en samling anpassade egenskaper, vilka, liksom de inbyggda egenskaperna, är nyckel-värde-par.
  // Dokumentet har en fast lista med inbyggda egenskaper. Användaren skapar alla anpassade egenskaper.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 

@@ -3,14 +3,14 @@ title: TextWrapping Enum
 linktitle: TextWrapping
 articleTitle: TextWrapping
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Tables.TextWrapping uppräkning. Anger hur text lindas runt tabellen i C#.
+description: Upptäck Aspose.Words.Tables.TextWrapping-enum för effektiv textbrytning runt tabeller. Förbättra din dokumentformatering med lätthet!
 type: docs
-weight: 6380
+weight: 7230
 url: /sv/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
 
-Anger hur text lindas runt tabellen.
+Anger hur text radbryts runt tabellen.
 
 ```csharp
 public enum TextWrapping
@@ -21,7 +21,7 @@ public enum TextWrapping
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | None | `0` | Text och tabell visas i den ordning de visas i dokumentet. |
-| Around | `1` | Text lindas runt bordet och upptar tillgängligt sidoutrymme. |
+| Around | `1` | Texten radbryts runt tabellen och upptar tillgängligt sidoutrymme. |
 | Default | `0` | Standardvärde. |
 
 ## Exempel
@@ -43,8 +43,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Ställ in egenskapen "TextWrapping" till "TextWrapping.Around" för att få tabellen att linda text runt den,
-// och tryck ner den i stycket nedan genom att ställa in positionen.
+// Sätt egenskapen "TextWrapping" till "TextWrapping.Around" för att få tabellen att radbryta text runt den,
+// och tryck ner den i stycket nedan genom att ange positionen.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

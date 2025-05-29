@@ -3,9 +3,9 @@ title: Document.RemoveMacros
 linktitle: RemoveMacros
 articleTitle: RemoveMacros
 second_title: Aspose.Words för .NET
-description: Document RemoveMacros metod. Tar bort alla makron VBAprojektet samt verktygsfält och kommandoanpassningar från dokumentet i C#.
+description: Ta enkelt bort alla makron, verktygsfält och anpassade kommandoinställningar från ditt VBA-projekt med metoden Document RemoveMacros för ett renare dokument.
 type: docs
-weight: 670
+weight: 720
 url: /sv/net/aspose.words/document/removemacros/
 ---
 ## Document.RemoveMacros method

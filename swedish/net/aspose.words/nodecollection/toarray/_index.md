@@ -3,14 +3,14 @@ title: NodeCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words för .NET
-description: NodeCollection ToArray metod. Kopierar alla noder från samlingen till en ny array av noder i C#.
+description: Upptäck NodeCollection ToArray-metoden, konvertera enkelt din nodsamling till en ny array, vilket förbättrar datahantering och tillgänglighet.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/nodecollection/toarray/
 ---
 ## NodeCollection.ToArray method
 
-Kopierar alla noder från samlingen till en ny array av noder.
+Kopierar alla noder från samlingen till en ny array med noder.
 
 ```csharp
 public Node[] ToArray()
@@ -18,13 +18,13 @@ public Node[] ToArray()
 
 ### Returvärde
 
-En rad noder.
+En matris med noder.
 
 ## Anmärkningar
 
-Du bör inte lägga till/ta bort noder medan du itererar över en samling av noder eftersom det ogiltigförklarar iteratorn och kräver uppdateringar för livesamlingar.
+Du bör inte lägga till/ta bort noder medan du itererar över en samling av noder eftersom det ogiltigförklarar iteratorn och kräver uppdateringar för live-samlingar.
 
-För att kunna lägga till/ta bort noder under iteration, använd den här metoden för att kopiera noder till en array med fast storlek och sedan iterera över arrayen.
+För att kunna lägga till/ta bort noder under iteration, använd den här metoden för att kopiera -noder till en array med fast storlek och sedan iterera över arrayen.
 
 ## Exempel
 

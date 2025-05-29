@@ -3,14 +3,14 @@ title: FontSavingArgs.IsSubsettingNeeded
 linktitle: IsSubsettingNeeded
 articleTitle: IsSubsettingNeeded
 second_title: Aspose.Words för .NET
-description: FontSavingArgs IsSubsettingNeeded fast egendom. Tillåter att ange om det aktuella teckensnittet kommer att underordnas innan det exporteras som en teckensnittsresurs i C#.
+description: Upptäck egenskapen FontSavingArgs IsSubsettingNeeded för att styra teckensnittsdelinställningar för optimerad export av teckensnittsresurser. Förbättra ditt designarbetsflöde idag!
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 ---
 ## FontSavingArgs.IsSubsettingNeeded property
 
-Tillåter att ange om det aktuella teckensnittet kommer att underordnas innan det exporteras som en teckensnittsresurs.
+Gör det möjligt att ange om det aktuella teckensnittet ska delmängderas innan export som en teckensnittsresurs.
 
 ```csharp
 public bool IsSubsettingNeeded { get; set; }
@@ -18,13 +18,13 @@ public bool IsSubsettingNeeded { get; set; }
 
 ## Anmärkningar
 
-Teckensnitt kan exporteras som kompletta originalteckensnittsfiler eller underuppsättning för att endast inkludera de tecken som används i dokumentet. Delinställning gör det möjligt att minska den resulterande teckensnittsresursstorleken.
+Typsnitt kan exporteras som kompletta originaltypsnittsfiler eller delas in i delmängder för att endast inkludera de tecken som används i dokumentet. Delmängder gör det möjligt att minska den resulterande storleken på typsnittsresursen.
 
-Som standard bestämmer Aspose.Words om det ska utföras delinställning eller inte genom att jämföra den ursprungliga teckensnittsfilstorleken med den som anges i[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Du kan åsidosätta detta beteende för enskilda teckensnitt genom att ställa in`IsSubsettingNeeded` fast egendom.
+Som standard avgör Aspose.Words om delmängder ska utföras eller inte genom att jämföra den ursprungliga teckensnittsfilstorleken med den som anges i[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Du kan åsidosätta detta beteende för enskilda teckensnitt genom att ställa in`IsSubsettingNeeded` egendom.
 
 ## Exempel
 
-Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
+Visar hur man definierar anpassad logik för export av teckensnitt när man sparar till HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -32,14 +32,14 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurera ett SaveOptions-objekt för att exportera teckensnitt till separata filer.
-    // Ställ in en återuppringning som kommer att hantera teckensnittssparande på ett anpassat sätt.
+    // Ställ in en återanropning som hanterar teckensnittssparning på ett anpassat sätt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // Återuppringningen kommer att exportera .ttf-filer och spara dem tillsammans med utdatadokumentet.
+    // Återanropet exporterar .ttf-filer och sparar dem tillsammans med utdatadokumentet.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -50,7 +50,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata .html.
+/// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata-.html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -68,10 +68,10 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsSubsettingNeeded);
 
         // Det finns två sätt att spara ett exporterat teckensnitt.
-        // 1 - Spara den på en lokal filsystemsplats:
+        // 1 - Spara det till en lokal filsystemplats:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Spara det i en stream:
+        // 2 - Spara det till en ström:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

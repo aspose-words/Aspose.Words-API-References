@@ -3,14 +3,14 @@ title: Document.FootnoteOptions
 linktitle: FootnoteOptions
 articleTitle: FootnoteOptions
 second_title: Aspose.Words för .NET
-description: Document FootnoteOptions fast egendom. Ger alternativ som styr numrering och placering av fotnoter i detta dokument i C#.
+description: Utforska egenskapen Dokumentfotnotsalternativ för att anpassa fotnotsnumrering och placering, vilket förbättrar dokumentets tydlighet och professionalism.
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/aspose.words/document/footnoteoptions/
 ---
 ## Document.FootnoteOptions property
 
-Ger alternativ som styr numrering och placering av fotnoter i detta dokument.
+Ger alternativ som styr numrering och placering av fotnoter i det här dokumentet.
 
 ```csharp
 public FootnoteOptions FootnoteOptions { get; }
@@ -18,46 +18,46 @@ public FootnoteOptions FootnoteOptions { get; }
 
 ## Exempel
 
-Visar hur du väljer en annan plats där dokumentet samlas in och visar dess fotnoter.
+Visar hur man väljer en annan plats där dokumentet samlas och visar sina fotnoter.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// En fotnot är ett sätt att bifoga en referens eller en sidokommentar till text
- // som inte stör flödet i huvudtexten.
-// Att infoga en fotnot lägger till en liten upphöjd referenssymbol
+// En fotnot är ett sätt att lägga till en referens eller en sidokommentar till text
+ // som inte stör huvudtextens flöde.
+// Om du infogar en fotnot läggs en liten upphöjd referenssymbol till
 // vid huvudtexten där vi infogar fotnoten.
 // Varje fotnot skapar också en post längst ner på sidan, bestående av en symbol
 // som matchar referenssymbolen i huvudtexten.
-// Referenstexten som vi skickar till dokumentbyggarens "InsertFootnote"-metod.
+// Referenstexten som vi skickar till dokumentbyggarens metod "InsertFootnote".
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote contents.");
 
-// Vi kan använda egenskapen "Position" för att bestämma var dokumentet ska placera alla dess fotnoter.
+// Vi kan använda egenskapen "Position" för att avgöra var dokumentet ska placera alla sina fotnoter.
 // Om vi ställer in värdet för egenskapen "Position" till "FootnotePosition.BottomOfPage",
-// varje fotnot kommer att dyka upp längst ner på sidan som innehåller dess referensmärke. Detta är standardvärdet.
-// Om vi ställer in värdet på egenskapen "Position" till "FootnotePosition.BeneathText",
-// varje fotnot kommer att dyka upp i slutet av sidans text som innehåller dess referensmärke.
+// varje fotnot visas längst ner på sidan som innehåller dess referensmarkering. Detta är standardvärdet.
+// Om vi ställer in värdet för egenskapen "Position" till "FootnotePosition.BeneathText",
+// varje fotnot kommer att visas i slutet av sidans text som innehåller dess referensmarkering.
 doc.FootnoteOptions.Position = footnotePosition;
 
 doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 ```
 
-Visar hur man ställer in ett nummer vid vilket dokumentet börjar räkna fotnot/slutnot.
+Visar hur man anger ett nummer där dokumentet börjar fotnots-/slutnoträkningen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
- // som inte stör flödet i huvudtexten.
-// Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
-// vid huvudtexten där vi infogar fotnoten/slutnoten.
+// Fotnoter och slutnoter är ett sätt att lägga till en referens eller en sidokommentar till text
+ // som inte stör huvudtextens flöde.
+// Om du infogar en fotnot/slutnot läggs en liten upphöjd referenssymbol till
+// i huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol
 // som matchar referenssymbolen i huvudtexten.
 // Referenstexten som vi skickar till dokumentbyggarens "InsertEndnote"-metod.
-// Fotnotsposter visas som standard längst ner på varje sida som innehåller
+// Fotnoter visas som standard längst ner på varje sida som innehåller
 // deras referenssymboler och slutnoter visas i slutet av dokumentet.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
@@ -77,31 +77,31 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 
 // Som standard är referenssymbolen för varje fotnot och slutnot dess index
 // bland alla dokumentets fotnoter/slutnoter. Varje dokument har separata räkningar
-// för fotnoter och för slutnoter, som båda börjar på 1.
+// för fotnoter och slutnoter, som båda börjar på 1.
 Assert.AreEqual(1, doc.FootnoteOptions.StartNumber);
 Assert.AreEqual(1, doc.EndnoteOptions.StartNumber);
 
-// Vi kan använda egenskapen "StartNumber" för att få dokumentet till
-// börjar räkna en fotnot eller slutnot med ett annat nummer.
+// Vi kan använda egenskapen "StartNumber" för att få dokumentet att
+// börjar en fotnots- eller slutnoträkning vid ett annat nummer.
 doc.EndnoteOptions.NumberStyle = NumberStyle.Arabic;
 doc.EndnoteOptions.StartNumber = 50;
 
 doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ```
 
-Visar hur man ändrar nummerstilen för fotnots-/slutnotsreferensmärken.
+Visar hur man ändrar numreringsstilen för referensmarkeringar i fotnoter/slutnoter.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
- // som inte stör flödet i huvudtexten.
-// Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
-// vid huvudtexten där vi infogar fotnoten/slutnoten.
+// Fotnoter och slutnoter är ett sätt att lägga till en referens eller en sidokommentar till text
+ // som inte stör huvudtextens flöde.
+// Om du infogar en fotnot/slutnot läggs en liten upphöjd referenssymbol till
+// i huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol som matchar referensen
 // symbol i huvudtexten. Referenstexten som vi skickar till dokumentbyggarens "InsertEndnote"-metod.
-// Fotnotsposter visas som standard längst ner på varje sida som innehåller
+// Fotnoter visas som standard längst ner på varje sida som innehåller
 // deras referenssymboler och slutnoter visas i slutet av dokumentet.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
@@ -121,32 +121,32 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote refer
 
 // Som standard är referenssymbolen för varje fotnot och slutnot dess index
 // bland alla dokumentets fotnoter/slutnoter. Varje dokument har separata räkningar
-// för fotnoter och för slutnoter. Som standard visar fotnoter deras nummer med arabiska siffror,
-// och slutnoter visar sina nummer med gemener romerska siffror.
+// för fotnoter och slutnoter. Som standard visas fotnoters nummer med arabiska siffror,
+// och slutnoter visar sina nummer med gemena romerska siffror.
 Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
 Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
 
 // Vi kan använda egenskapen "NumberStyle" för att tillämpa anpassade numreringsstilar på fotnoter och slutnoter.
-// Detta kommer inte att påverka fotnoter/slutnoter med anpassade referensmärken.
+// Detta påverkar inte fotnoter/slutnoter med anpassade referensmarkeringar.
 doc.FootnoteOptions.NumberStyle = NumberStyle.UppercaseRoman;
 doc.EndnoteOptions.NumberStyle = NumberStyle.UppercaseLetter;
 
 doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 ```
 
-Visar hur man startar om fotnots-/slutnotsnumrering på vissa ställen i dokumentet.
+Visar hur man börjar om fotnots-/slutnotsnumrering på vissa ställen i dokumentet.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fotnoter och slutnoter är ett sätt att bifoga en referens eller en sidokommentar till text
- // som inte stör flödet i huvudtexten.
-// Att infoga en fotnot/slutnot lägger till en liten upphöjd referenssymbol
-// vid huvudtexten där vi infogar fotnoten/slutnoten.
+// Fotnoter och slutnoter är ett sätt att lägga till en referens eller en sidokommentar till text
+ // som inte stör huvudtextens flöde.
+// Om du infogar en fotnot/slutnot läggs en liten upphöjd referenssymbol till
+// i huvudtexten där vi infogar fotnoten/slutnoten.
 // Varje fotnot/slutnot skapar också en post, som består av en symbol som matchar referensen
 // symbol i huvudtexten. Referenstexten som vi skickar till dokumentbyggarens "InsertEndnote"-metod.
-// Fotnotsposter visas som standard längst ner på varje sida som innehåller
+// Fotnoter visas som standard längst ner på varje sida som innehåller
 // deras referenssymboler och slutnoter visas i slutet av dokumentet.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
@@ -172,12 +172,12 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 
 // Som standard är referenssymbolen för varje fotnot och slutnot dess index
 // bland alla dokumentets fotnoter/slutnoter. Varje dokument har separata räkningar
-// för fotnoter och slutnoter och startar inte om dessa räkningar vid något tillfälle.
+// för fotnoter och slutnoter och startar inte om dessa räkningar någon gång.
 Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
 Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
 
 // Vi kan använda egenskapen "RestartRule" för att få dokumentet att starta om
-// fotnoten/slutnoten räknas på en ny sida eller sektion.
+// fotnoten/slutnoten räknas vid en ny sida eller ett nytt avsnitt.
 doc.FootnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
 doc.EndnoteOptions.RestartRule = FootnoteNumberingRule.RestartSection;
 

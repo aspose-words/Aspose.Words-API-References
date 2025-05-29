@@ -3,9 +3,9 @@ title: ParagraphFormat.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words för .NET
-description: ParagraphFormat Style fast egendom. Hämtar eller ställer in styckeformatet som tillämpas på denna formatering i C#.
+description: Upptäck egenskapen ParagraphFormat Style för att enkelt anpassa och förbättra dokumentets styckeformatering för förbättrad läsbarhet och presentation.
 type: docs
-weight: 340
+weight: 350
 url: /sv/net/aspose.words/paragraphformat/style/
 ---
 ## ParagraphFormat.Style property
@@ -18,27 +18,27 @@ public Style Style { get; set; }
 
 ## Exempel
 
-Visar hur du skapar och använder ett styckeformat med listformatering.
+Visar hur man skapar och använder ett styckeformat med listformatering.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa en anpassad styckestil.
+// Skapa ett anpassat styckeformat.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Skapa en lista och se till att styckena som använder den här stilen kommer att använda den här listan.
+// Skapa en lista och se till att stycken som använder den här stilen kommer att använda den här listan.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Använd styckeformatet på dokumentbyggarens nuvarande stycke och lägg sedan till lite text.
+// Använd styckeformatet på dokumentbyggarens aktuella stycke och lägg sedan till lite text.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändra dokumentbyggarens stil till en som inte har någon listformatering och skriv ett stycke till.
+// Ändra dokumentbyggarens stil till en som inte har någon listformatering och skriv ett annat stycke.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

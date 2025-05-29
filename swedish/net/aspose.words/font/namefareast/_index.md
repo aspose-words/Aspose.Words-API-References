@@ -3,14 +3,14 @@ title: Font.NameFarEast
 linktitle: NameFarEast
 articleTitle: NameFarEast
 second_title: Aspose.Words för .NET
-description: Font NameFarEast fast egendom. Returnerar eller ställer in ett östasiatiskt teckensnittsnamn i C#.
+description: Upptäck egenskapen Font NameFarEast för att enkelt anpassa och ställa in östasiatiska teckensnitt för förbättrad typografi i dina projekt.
 type: docs
 weight: 260
 url: /sv/net/aspose.words/font/namefareast/
 ---
 ## Font.NameFarEast property
 
-Returnerar eller ställer in ett östasiatiskt teckensnittsnamn.
+Returnerar eller anger ett östasiatiskt teckensnittsnamn.
 
 ```csharp
 public string NameFarEast { get; set; }
@@ -18,27 +18,27 @@ public string NameFarEast { get; set; }
 
 ## Exempel
 
-Visar hur man infogar och formaterar text på ett språk i Fjärran Östern.
+Visar hur man infogar och formaterar text på ett språk från Fjärran Östen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ange teckensnittsinställningar som dokumentbyggaren kommer att tillämpa på all text som den infogar.
+// Ange teckensnittsinställningar som dokumentbyggaren ska tillämpa på all text som infogas.
 builder.Font.Name = "Courier New";
 builder.Font.LocaleId = new CultureInfo("en-US", false).LCID;
 
-// Namnge "FarEast"-motsvarigheter för vårt teckensnitt och språk.
-// Om byggaren infogar asiatiska tecken med den här teckensnittskonfigurationen, så kommer varje körning som innehåller
-// dessa tecken kommer att visa dem med "FarEast" font/locale istället för standard.
-// Detta kan vara användbart när ett västerländskt teckensnitt inte har idealiska representationer för asiatiska tecken.
+// Namnge motsvarigheter till "Fjärran Östen" för vårt teckensnitt och vår språkinställning.
+// Om byggaren infogar asiatiska tecken med denna teckensnittskonfiguration, så kommer varje körning som innehåller
+// dessa tecken kommer att visas med teckensnittet/språket "FarEast" istället för standardinställningen.
+// Detta kan vara användbart när ett västerländskt typsnitt inte har idealiska representationer för asiatiska tecken.
 builder.Font.NameFarEast = "SimSun";
 builder.Font.LocaleIdFarEast = new CultureInfo("zh-CN", false).LCID;
 
-// Den här texten kommer att visas i standardfont/locale.
+// Den här texten kommer att visas med standardteckensnittet/språket.
 builder.Writeln("Hello world!");
 
-// Eftersom dessa är asiatiska tecken, kommer denna körning att tillämpa våra "Far East" teckensnitt/lokala motsvarigheter.
+// Eftersom dessa är asiatiska tecken kommer den här körningen att använda våra motsvarigheter för teckensnitt/språk "Fjärran Östen".
 builder.Writeln("你好世界");
 
 doc.Save(ArtifactsDir + "Font.FarEast.docx");

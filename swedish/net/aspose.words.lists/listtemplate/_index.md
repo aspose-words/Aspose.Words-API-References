@@ -3,14 +3,14 @@ title: ListTemplate Enum
 linktitle: ListTemplate
 articleTitle: ListTemplate
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Lists.ListTemplate uppräkning. Anger ett av de fördefinierade listformaten som är tillgängliga i Microsoft Word i C#.
+description: Upptäck enumerationen Aspose.Words.Lists.ListTemplate, med fördefinierade listformat i Microsoft Word som enkelt förbättrar presentationen av ditt dokument.
 type: docs
-weight: 3530
+weight: 3980
 url: /sv/net/aspose.words.lists/listtemplate/
 ---
 ## ListTemplate enumeration
 
-Anger ett av de fördefinierade listformaten som är tillgängliga i Microsoft Word.
+Anger ett av de fördefinierade listformaten som finns tillgängliga i Microsoft Word.
 
 ```csharp
 public enum ListTemplate
@@ -20,38 +20,38 @@ public enum ListTemplate
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| BulletDefault | `0` | Standard punktlista med 9 nivåer. Kulan på den första nivån är en skiva, kulan på den andra nivån är en cirkel, kulan på den tredje nivån är en kvadrat. Sedan upprepas formateringen för de återstående nivåerna. |
+| BulletDefault | `0` | Standardpunktlista med 9 nivåer. Punkten för den första nivån är en skiva, punkten för den andra nivån är en cirkel, punkten för den tredje nivån är en kvadrat. Formateringen upprepas sedan för de återstående nivåerna. |
 | BulletDisk | `0` | Samma somBulletDefault. |
-| BulletCircle | `1` | Kulan på den första nivån är en cirkel. De återstående nivåerna är desamma som iBulletDefault. |
-| BulletSquare | `2` | Kulan på den första nivån är en fyrkant. De återstående nivåerna är desamma som iBulletDefault. |
+| BulletCircle | `1` | Punkten på den första nivån är en cirkel. De återstående nivåerna är desamma som iBulletDefault. |
+| BulletSquare | `2` | Punkten på den första nivån är en fyrkant. De återstående nivåerna är desamma som iBulletDefault. |
 | BulletDiamonds | `3` | Kulan på den första nivån är en Wingding-karaktär med fyra diamanter. De återstående nivåerna är desamma som iBulletDefault. |
-| BulletArrowHead | `4` | Kulan på den första nivån är en pilhuvud Wingding-karaktär. De återstående nivåerna är samma som iBulletDefault. |
-| BulletTick | `5` | Kulan på den första nivån är en tick Wingding-karaktär. De återstående nivåerna är samma som iBulletDefault. |
-| NumberDefault | `6` | Standard numrerad lista med 9 nivåer. Arabisk numrering (1., 2., 3., ...) för den första nivån, numrering av små bokstäver (a., b., c., ...) för den andra nivån, romersk numrering med små bokstäver (i) ., ii., iii., ...) för den tredje nivån. Sedan upprepas formateringen för de återstående nivåerna. |
+| BulletArrowHead | `4` | Punkten på den första nivån är en pilspets Wingding-karaktär. De återstående nivåerna är desamma som iBulletDefault. |
+| BulletTick | `5` | Punkten på den första nivån är en tick Wingding-karaktär. De återstående nivåerna är desamma som iBulletDefault. |
+| NumberDefault | `6` | Standardnumrerad lista med 9 nivåer. Arabisk numrering (1., 2., 3., ...) för den första nivån, numrering med gemener (a., b., c., ...) för den andra nivån, romersk numrering med gemener (i., ii., iii., ...) för den tredje nivån. Formateringen upprepas sedan för de återstående nivåerna. |
 | NumberArabicDot | `6` | Samma somNumberDefault. |
 | NumberArabicParenthesis | `7` | Numret på den första nivån är "1)". De återstående nivåerna är samma som iNumberDefault. |
-| NumberUppercaseRomanDot | `8` | Numret på den första nivån är "I." De återstående nivåerna är samma som iNumberDefault. |
-| NumberUppercaseLetterDot | `9` | Numret på den första nivån är "A.". De återstående nivåerna är samma som iNumberDefault. |
-| NumberLowercaseLetterParenthesis | `10` | Numret på den första nivån är "a)". De återstående nivåerna är samma som iNumberDefault. |
-| NumberLowercaseLetterDot | `11` | Numret på den första nivån är "a.". De återstående nivåerna är samma som iNumberDefault. |
-| NumberLowercaseRomanDot | `12` | Numret på den första nivån är "i.". De återstående nivåerna är samma som iNumberDefault. |
+| NumberUppercaseRomanDot | `8` | Numret på den första nivån är "I". De återstående nivåerna är desamma som iNumberDefault. |
+| NumberUppercaseLetterDot | `9` | Numret på den första nivån är "A". De återstående nivåerna är desamma som iNumberDefault. |
+| NumberLowercaseLetterParenthesis | `10` | Numret på den första nivån är "a)". De återstående nivåerna är desamma som iNumberDefault. |
+| NumberLowercaseLetterDot | `11` | Numret på den första nivån är "a". De återstående nivåerna är desamma som iNumberDefault. |
+| NumberLowercaseRomanDot | `12` | Numret på den första nivån är "i". De återstående nivåerna är desamma som iNumberDefault. |
 | OutlineNumbers | `13` | En översiktslista med nivåerna numrerade "1), a), i), (1), (a), (i), 1., a., i.". |
-| OutlineLegal | `14` | En dispositionslista med nivåer är numrerade "1., 1.1., 1.1.1, ...". |
-| OutlineBullets | `15` | En disposition listar med olika kulor för olika nivåer. |
-| OutlineHeadingsArticleSection | `16` | En dispositionslista med nivåer kopplade till rubrikstilar. |
-| OutlineHeadingsLegal | `17` | En dispositionslista med nivåer kopplade till rubrikstilar. |
-| OutlineHeadingsNumbers | `18` | En dispositionslista med nivåer kopplade till rubrikstilar. |
-| OutlineHeadingsChapter | `19` | En dispositionslista med nivåer kopplade till rubrikstilar. |
+| OutlineLegal | `14` | En översiktslista med nivåer är numrerade "1., 1.1., 1.1.1, ...". |
+| OutlineBullets | `15` | En översiktlig lista med olika punkter för olika nivåer. |
+| OutlineHeadingsArticleSection | `16` | En översiktslista med nivåer kopplade till rubrikformat. |
+| OutlineHeadingsLegal | `17` | En översiktslista med nivåer kopplade till rubrikformat. |
+| OutlineHeadingsNumbers | `18` | En översiktslista med nivåer kopplade till rubrikformat. |
+| OutlineHeadingsChapter | `19` | En översiktslista med nivåer kopplade till rubrikformat. |
 
 ## Anmärkningar
 
 Ett listmallvärde används som en parameter i the [`Add`](../listcollection/add/) metod.
 
-Aspose.Words listmallar motsvarar de 21 listmallarna available i dialogrutan Bullets and Numbering i Microsoft Word 2003.
+Aspose.Words-listmallarna motsvarar de 21 listmallarna som finns tillgängliga i dialogrutan Punkter och numrering i Microsoft Word 2003.
 
 ## Exempel
 
-Visar hur man skapar ett dokument som innehåller alla listmallar för dispositionsrubriker.
+Visar hur man skapar ett dokument som innehåller alla mallar för dispositionsrubriker.
 
 ```csharp
 public void OutlineHeadingTemplates()
@@ -95,21 +95,21 @@ private static void AddOutlineHeadingParagraphs(DocumentBuilder builder, List li
 }
 ```
 
-Visar hur man startar om numrering i en lista genom att kopiera en lista.
+Visar hur man startar om numreringen i en lista genom att kopiera en lista.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa dess första listnivå.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Tillämpa vår lista på några stycken.
+// Tillämpa vår lista på vissa stycken.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -118,7 +118,7 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// Vi kan lägga till en kopia av en befintlig lista till dokumentets listsamling
+// Vi kan lägga till en kopia av en befintlig lista i dokumentets listsamling
 // för att skapa en liknande lista utan att göra ändringar i originalet.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
@@ -144,18 +144,18 @@ Assert.False(builder.ListFormat.IsListItem);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Nedan följer två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
 // 1 - En numrerad lista:
-// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje objekt.
+// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje element.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
 // Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
-// för att starta en fristående underlista vid det aktuella listobjektet.
-// Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
+// för att börja en fristående underlista vid det aktuella listobjektet.
+// Listmallen i Microsoft Word som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
  // Djupare listnivåer använder bokstäver och gemener romerska siffror.
 for (int i = 0; i < 9; i++)
 {
@@ -164,8 +164,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - En punktlista:
-// Denna lista kommer att tillämpa ett indrag och en punktsymbol ("•") före varje stycke.
-// Djupare nivåer i den här listan kommer att använda olika symboler, som "■" och "○".
+// Den här listan kommer att lägga till ett indrag och en punktsymbol ("•") före varje stycke.
+// Djupare nivåer i den här listan kommer att använda andra symboler, såsom "■" och "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -174,7 +174,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera "List"-flaggan.
+// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera flaggan "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

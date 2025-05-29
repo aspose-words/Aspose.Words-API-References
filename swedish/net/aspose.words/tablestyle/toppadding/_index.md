@@ -3,14 +3,14 @@ title: TableStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words för .NET
-description: TableStyle TopPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till ovanför innehållet i tabellceller i C#.
+description: Upptäck egenskapen TableStyle TopPadding för att enkelt justera avståndet ovanför tabellcellernas innehåll, vilket förbättrar tabellens läsbarhet och design.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/tablestyle/toppadding/
 ---
 ## TableStyle.TopPadding property
 
-Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till ovanför innehållet i tabellceller.
+Hämtar eller anger mängden utrymme (i punkter) som ska läggas till ovanför innehållet i tabellceller.
 
 ```csharp
 public double TopPadding { get; set; }

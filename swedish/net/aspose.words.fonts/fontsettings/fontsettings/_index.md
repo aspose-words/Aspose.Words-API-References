@@ -3,7 +3,7 @@ title: FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words för .NET
-description: FontSettings byggare. Default_Constructor i C#.
+description: Upptäck FontSettings-konstruktorn för enkel anpassning av teckensnittsegenskaper. Förbättra din applikations textvisning med vår standardinställning!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontsettings/fontsettings/

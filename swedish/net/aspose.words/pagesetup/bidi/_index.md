@@ -3,14 +3,14 @@ title: PageSetup.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words för .NET
-description: PageSetup Bidi fast egendom. Anger att det här avsnittet innehåller dubbelriktad komplexa skript text i C#.
+description: Upptäck PageSetup Bidi-egenskapen för sömlös dubbelriktad textformatering. Förbättra dina dokument med stöd för komplexa skript för bättre läsbarhet!
 type: docs
 weight: 10
 url: /sv/net/aspose.words/pagesetup/bidi/
 ---
 ## PageSetup.Bidi property
 
-Anger att det här avsnittet innehåller dubbelriktad (komplexa skript) text.
+Anger att det här avsnittet innehåller dubbelriktad text (komplexa skript).
 
 ```csharp
 public bool Bidi { get; set; }
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Anmärkningar
 
-När`Sann`är kolumnerna i detta avsnitt upplagda från höger till vänster.
+När`sann`, kolumnerna i det här avsnittet är upplagda från höger till vänster.
 
 ## Exempel
 
@@ -37,10 +37,10 @@ builder.Write("Column 2.");
 builder.InsertBreak(BreakType.ColumnBreak);
 builder.Write("Column 3.");
 
-// Ställ in egenskapen "Bidi" på "true" för att ordna kolumnerna med början från sidans högra sida.
-// Kolumnernas ordning kommer att matcha riktningen för texten från höger till vänster.
-// Ställ in egenskapen "Bidi" på "false" för att ordna kolumnerna med början från sidans vänstra sida.
-// Kolumnernas ordning kommer att matcha riktningen för texten från vänster till höger.
+// Sätt egenskapen "Bidi" till "true" för att ordna kolumnerna med början från sidans högra sida.
+// Kolumnernas ordning kommer att matcha riktningen på texten från höger till vänster.
+// Sätt egenskapen "Bidi" till "false" för att ordna kolumnerna med början från sidans vänstra sida.
+// Kolumnernas ordning matchar riktningen på texten från vänster till höger.
 pageSetup.Bidi = reverseColumns;
 
 doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");

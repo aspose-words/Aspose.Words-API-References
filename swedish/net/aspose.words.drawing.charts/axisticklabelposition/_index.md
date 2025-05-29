@@ -3,14 +3,14 @@ title: AxisTickLabelPosition Enum
 linktitle: AxisTickLabelPosition
 articleTitle: AxisTickLabelPosition
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition uppräkning. Anger möjliga positioner för bocketiketter i C#.
+description: Upptäck Aspose.Words.Drawing.Charts.AxisTickLabelPosition-uppräkningen, som definierar optimala placeringar av tick-etiketter för förbättrad tydlighet och presentation av diagram.
 type: docs
-weight: 580
+weight: 830
 url: /sv/net/aspose.words.drawing.charts/axisticklabelposition/
 ---
 ## AxisTickLabelPosition enumeration
 
-Anger möjliga positioner för bocketiketter.
+Anger möjliga positioner för skalstämpeletiketter.
 
 ```csharp
 public enum AxisTickLabelPosition
@@ -20,15 +20,15 @@ public enum AxisTickLabelPosition
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| High | `0` | Anger att axeletiketterna ska vara i den övre änden av den vinkelräta axeln. |
-| Low | `1` | Anger att axeletiketterna ska vara i den nedre änden av den vinkelräta axeln. |
-| NextToAxis | `2` | Anger att axeletiketterna ska vara bredvid axeln. |
-| None | `3` | Anger att axeletiketterna inte är ritade. |
-| Default | `2` | Anger standardvärdet för bocketiketternas position. |
+| High | `0` | Anger att axeletiketterna ska vara vid den övre änden av den vinkelräta axeln. |
+| Low | `1` | Anger att axeletiketterna ska vara vid den nedre änden av den vinkelräta axeln. |
+| NextToAxis | `2` | Anger att axeletiketterna ska finnas bredvid axeln. |
+| None | `3` | Anger att axeletiketterna inte ritas. |
+| Default | `2` | Anger standardvärdet för placeringen av skalmarkeringsetiketter. |
 
 ## Exempel
 
-Visar hur man infogar diagram med datum/tidsvärden.
+Visar hur man infogar ett diagram med datum-/tidsvärden.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ Chart chart = shape.Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en anpassad serie som innehåller datum/tid-värden för X-axeln och respektive decimalvärden för Y-axeln.
+// Lägg till en anpassad serie som innehåller datum-/tidsvärden för X-axeln och respektive decimalvärden för Y-axeln.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -49,12 +49,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Sätt nedre och övre gränser för X-axeln.
+// Ange nedre och övre gränser för X-axeln.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Ställ in X-axelns huvudenheter till en vecka och de mindre enheterna till en dag.
+// Ställ in de större enheterna på X-axeln till en vecka och de mindre enheterna till en dag.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -65,7 +65,7 @@ xAxis.HasMinorGridlines = true;
 
 // Definiera Y-axelegenskaper för decimalvärden.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

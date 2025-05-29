@@ -3,7 +3,7 @@ title: CustomPartCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words för .NET
-description: CustomPartCollection Clear metod. Tar bort alla element från samlingen i C#.
+description: Rensa enkelt din CustomPartCollection med vår effektiva Clear-metod, som tar bort alla element för sömlös hantering och förbättrad prestanda.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/custompartcollection/clear/
@@ -18,7 +18,7 @@ public void Clear()
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

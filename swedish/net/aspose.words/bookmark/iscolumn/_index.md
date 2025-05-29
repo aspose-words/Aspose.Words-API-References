@@ -3,14 +3,14 @@ title: Bookmark.IsColumn
 linktitle: IsColumn
 articleTitle: IsColumn
 second_title: Aspose.Words för .NET
-description: Bookmark IsColumn fast egendom. ReturnerarSann om detta bokmärke är ett tabellkolumnbokmärke i C#.
+description: Upptäck egenskapen IsColumn. Identifiera enkelt om ett bokmärke representerar en tabellkolumn, vilket förbättrar din dokumentnavigering och organisation.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/bookmark/iscolumn/
 ---
 ## Bookmark.IsColumn property
 
-Returnerar`Sann` om detta bokmärke är ett tabellkolumnbokmärke.
+Returer`sann` om detta bokmärke är ett bokmärke för tabellkolumner.
 
 ```csharp
 public bool IsColumn { get; }
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-    // Om ett bokmärke omsluter kolumner i en tabell, är det ett tabellkolumnbokmärke, och dess IsColumn-flagga är satt till true.
+    // Om ett bokmärke omsluter kolumner i en tabell är det ett bokmärke för tabellkolumner och dess IsColumn-flagga är satt till sant.
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {

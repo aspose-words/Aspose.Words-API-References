@@ -3,9 +3,9 @@ title: MeasurementUnits Enum
 linktitle: MeasurementUnits
 articleTitle: MeasurementUnits
 second_title: Aspose.Words för .NET
-description: Aspose.Words.MeasurementUnits uppräkning. Anger måttenheten i C#.
+description: Upptäck Aspose.Words.MeasurementUnits-uppräkning för exakt enhetsval i dokumentbehandling. Förbättra ditt arbetsflöde med exakta mätalternativ!
 type: docs
-weight: 4150
+weight: 4840
 url: /sv/net/aspose.words/measurementunits/
 ---
 ## MeasurementUnits enumeration
@@ -20,11 +20,27 @@ public enum MeasurementUnits
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Inches | `0` | Inches. |
+| Inches | `0` | Tum. |
 | Centimeters | `1` | Centimeter. |
 | Millimeters | `2` | Millimeter. |
 | Points | `3` | Poäng. |
-| Picas | `4` | Picas (används vanligtvis i traditionella teckensnittsavstånd för skrivmaskiner). |
+| Picas | `4` | Pica (vanligtvis används i traditionella skrivmaskiners teckensnittsavstånd). |
+
+## Exempel
+
+Visar hur man får ett sparat dokument att överensstämma med ett äldre ODT-schema.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+OdtSaveOptions saveOptions = new OdtSaveOptions
+{
+    MeasureUnit = OdtSaveMeasureUnit.Centimeters,
+    IsStrictSchema11 = exportToOdt11Specs
+};
+
+doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
+```
 
 ### Se även
 

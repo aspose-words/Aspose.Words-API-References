@@ -3,14 +3,14 @@ title: FieldMergeField.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words för .NET
-description: FieldMergeField FieldName fast egendom. Hämtar eller ställer in namnet på ett datafält i C#.
+description: Upptäck egenskapen FieldMergeField FieldName för att enkelt hantera och anpassa dina datafält för förbättrad dataintegration och effektivitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldmergefield/fieldname/
 ---
 ## FieldMergeField.FieldName property
 
-Hämtar eller ställer in namnet på ett datafält.
+Hämtar eller anger namnet på ett datafält.
 
 ```csharp
 public string FieldName { get; set; }
@@ -18,13 +18,13 @@ public string FieldName { get; set; }
 
 ## Exempel
 
-Visar hur man använder MERGEFIELD-fält för att utföra en e-postkoppling.
+Visar hur man använder MERGEFIELD-fält för att utföra en dokumentkoppling.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa en datatabell som ska användas som en kopplingsdatakälla.
+// Skapa en datatabell som ska användas som datakälla för dokumentkoppling.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -38,13 +38,14 @@ fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Vi kan använda text före och efter värdet som detta fält accepterar när sammanslagningen sker.
+// Vi kan lägga till text före och efter värdet som detta fält accepterar när sammanslagningen sker.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
-// Infoga ytterligare ett MERGEFIELD för en annan kolumn i datakällan.
+// Infoga ett annat MERGEFIELD-värde för en annan kolumn i datakällan.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

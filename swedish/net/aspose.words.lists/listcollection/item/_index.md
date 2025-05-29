@@ -3,7 +3,7 @@ title: ListCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: ListCollection Item fast egendom. Hämtar en lista efter index i C#.
+description: Få enkel åtkomst till ListCollection-objekt via index. Förenkla din datahantering och förbättra din kodningseffektivitet med den här kraftfulla egenskapen!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.lists/listcollection/item/
@@ -18,7 +18,7 @@ public List this[int index] { get; }
 
 ## Exempel
 
-Visar hur man verifierar ägardokumentegenskaper för listor.
+Visar hur man verifierar egenskaper för ägardokument för listor.
 
 ```csharp
 Document doc = new Document();
@@ -47,18 +47,18 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
 doc.Lists.Add(ListTemplate.NumberDefault);
-List list = doc.Lists[0];
+List docList = doc.Lists[0];
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 2;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
 ### Se även

@@ -3,14 +3,14 @@ title: SignOptions.Comments
 linktitle: Comments
 articleTitle: Comments
 second_title: Aspose.Words för .NET
-description: SignOptions Comments fast egendom. Anger kommentarer om den digitala signaturen. Standardvärdet ärtom sträng Empty i C#.
+description: Upptäck egenskapen SignOptions Comments för att förbättra din digitala signatur med anpassade anteckningar. Förbättra tydlighet och kommunikation utan ansträngning!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.digitalsignatures/signoptions/comments/
 ---
 ## SignOptions.Comments property
 
-Anger kommentarer om den digitala signaturen. Standardvärdet är**tom sträng** (Empty).
+Anger kommentarer om den digitala signaturen. Standardvärdet är**tom sträng**(Empty ).
 
 ```csharp
 public string Comments { get; set; }
@@ -18,10 +18,10 @@ public string Comments { get; set; }
 
 ## Exempel
 
-Visar hur man digitalt signerar dokument.
+Visar hur man signerar dokument digitalt.
 
 ```csharp
-// Skapa ett X.509-certifikat från en PKCS#12-butik, som bör innehålla en privat nyckel.
+// Skapa ett X.509-certifikat från ett PKCS#12-arkiv, vilket ska innehålla en privat nyckel.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 // Skapa en kommentar och ett datum som kommer att tillämpas med vår nya digitala signatur.
@@ -31,7 +31,7 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Ta ett osignerat dokument från det lokala filsystemet via en filström,
+// Hämta ett osignerat dokument från det lokala filsystemet via en filström,
 // skapa sedan en signerad kopia av den som bestäms av filnamnet på utdatafilströmmen.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {

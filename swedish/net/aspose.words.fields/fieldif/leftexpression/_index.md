@@ -3,14 +3,14 @@ title: FieldIf.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words för .NET
-description: FieldIf LeftExpression fast egendom. Hämtar eller ställer in den vänstra delen av jämförelseuttrycket i C#.
+description: Upptäck egenskapen LeftExpression i FieldIf och hantera enkelt vänster sida av ditt jämförelseuttryck för förbättrad datahantering och analys.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldif/leftexpression/
 ---
 ## FieldIf.LeftExpression property
 
-Hämtar eller ställer in den vänstra delen av jämförelseuttrycket.
+Hämtar eller anger den vänstra delen av jämförelseuttrycket.
 
 ```csharp
 public string LeftExpression { get; set; }
@@ -18,7 +18,7 @@ public string LeftExpression { get; set; }
 
 ## Exempel
 
-Visar hur man infogar ett IF-fält.
+Visar hur man infogar ett OM-fält.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// IF-fältet kommer att visa en sträng från antingen dess "TrueText"-egenskap,
-// eller dess "FalseText"-egenskap, beroende på sanningen i påståendet som vi har konstruerat.
+// OM-fältet visar en sträng från antingen dess "TrueText"-egenskap,
+// eller dess "FalseText"-egenskap, beroende på sanningshalten i det påstående vi har konstruerat.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// I det här fallet är "0 = 1" felaktigt, så det visade resultatet blir "False".
+// I det här fallet är "0 = 1" felaktigt, så det visade resultatet blir "Falskt".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -50,7 +50,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Den här gången är påståendet korrekt, så det visade resultatet blir "True".
+// Den här gången är påståendet korrekt, så det visade resultatet blir "Sant".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

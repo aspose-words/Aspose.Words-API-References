@@ -3,14 +3,14 @@ title: CompositeNode.CreateNavigator
 linktitle: CreateNavigator
 articleTitle: CreateNavigator
 second_title: Aspose.Words för .NET
-description: CompositeNode CreateNavigator metod. Skapar navigator som kan användas för att korsa och läsa noder i C#.
+description: Upptäck CompositeNode CreateNavigator-metoden för att enkelt navigera och läsa noder, vilket förbättrar din datanavigeringsupplevelse.
 type: docs
-weight: 70
+weight: 90
 url: /sv/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
 
-Skapar navigator som kan användas för att korsa och läsa noder.
+Skapar en navigator som kan användas för att korsa och läsa noder.
 
 ```csharp
 [EditorBrowsable(EditorBrowsableState.Never)]
@@ -19,7 +19,7 @@ public XPathNavigator CreateNavigator()
 
 ## Exempel
 
-Visar hur man skapar en XPathNavigator och sedan använder den för att korsa och läsa noder.
+Visar hur man skapar en XPathNavigator och sedan använder den för att navigera och läsa noder.
 
 ```csharp
 public void NodeXPathNavigator()
@@ -34,8 +34,8 @@ public void NodeXPathNavigator()
         Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
 
         // Dokumentträdet har dokumentet, första avsnittet,
-        // body, och första stycket som noder, där var och en är en enda underordnad av den föregående.
-        // Vi kan lägga till några fler för att ge trädet några grenar som navigatorn kan korsa.
+        // brödtext och första stycket som noder, där var och en är ett enda underordnat stycke till det föregående.
+        // Vi kan lägga till några fler för att ge trädet några grenar som navigatören kan korsa.
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -52,9 +52,9 @@ public void NodeXPathNavigator()
 }
 
 /// <summary>
-/// Går igenom alla barn i en sammansatt nod och mappar strukturen i stil med ett katalogträd.
-/// Mängden rymdfördjupning anger djup i förhållande till den initiala noden.
-/// Skriver ut textinnehållet i den aktuella noden endast om det är en körning.
+/// Går igenom alla barn till en sammansatt nod och mappar strukturen i stil med ett katalogträd.
+/// Mängden indragning anger djup i förhållande till den initiala noden.
+/// Skriver ut textinnehållet i den aktuella noden endast om det är en Run.
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

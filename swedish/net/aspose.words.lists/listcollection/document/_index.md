@@ -3,7 +3,7 @@ title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: ListCollection Document fast egendom. Hämtar ägardokumentet i C#.
+description: Upptäck egenskapen ListCollection Document för att enkelt komma åt ägardokumentet och effektivisera din datahantering. Lås upp effektiviteten idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.lists/listcollection/document/
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## Exempel
 
-Visar hur man verifierar ägardokumentegenskaper för listor.
+Visar hur man verifierar egenskaper för ägardokument för listor.
 
 ```csharp
 Document doc = new Document();

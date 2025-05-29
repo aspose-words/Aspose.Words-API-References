@@ -3,16 +3,16 @@ title: EditableRangeEnd Class
 linktitle: EditableRangeEnd
 articleTitle: EditableRangeEnd
 second_title: Aspose.Words för .NET
-description: Aspose.Words.EditableRangeEnd klass. Representerar slutet av ett redigerbart område i ett Worddokument i C#.
+description: Upptäck klassen Aspose.Words.EditableRangeEnd, utformad för att effektivt hantera redigerbara områden i Word-dokument för smidig dokumentredigering.
 type: docs
-weight: 1430
+weight: 1840
 url: /sv/net/aspose.words/editablerangeend/
 ---
 ## EditableRangeEnd class
 
 Representerar slutet av ett redigerbart område i ett Word-dokument.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public sealed class EditableRangeEnd : Node
@@ -25,42 +25,42 @@ public sealed class EditableRangeEnd : Node
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
 | [EditableRangeStart](../../aspose.words/editablerangeend/editablerangestart/) { get; } | Motsvarande[`EditableRangeStart`](../editablerangestart/) , mottagen av ID. |
-| [Id](../../aspose.words/editablerangeend/id/) { get; set; } | Anger identifieraren för det redigerbara intervallet. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | ReturnerarEditableRangeEnd . |
+| [Id](../../aspose.words/editablerangeend/id/) { get; set; } | Anger identifieraren för det redigerbara området. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returer`sann` om denna nod kan innehålla andra noder. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden som följer direkt efter denna nod. |
+| override [NodeType](../../aspose.words/editablerangeend/nodetype/) { get; } | ReturerEditableRangeEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden som omedelbart föregår denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/)objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/editablerangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| override [Accept](../../aspose.words/editablerangeend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Tar emot en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en duplikat av noden. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade noder. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdtraversering. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar nodens innehåll till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar nodens innehåll till en sträng med de angivna sparalternativen. |
 
 ## Anmärkningar
 
 Ett komplett redigerbart område i ett Word-dokument består av en[`EditableRangeStart`](./editablerangestart/) och en matchande`EditableRangeEnd` med samma id.
 
-[`EditableRangeStart`](./editablerangestart/) och`EditableRangeEnd` är bara markörer inuti en document som anger var det redigerbara intervallet börjar och slutar.
+[`EditableRangeStart`](./editablerangestart/) och`EditableRangeEnd` är bara markörer inuti ett document som anger var det redigerbara området börjar och slutar.
 
-Använd[`EditableRange`](../editablerange/)klass som en "fasad" för att arbeta med ett redigerbart område som ett enda objekt.
+Använd[`EditableRange`](../editablerange/)klassen som en "fasad" för att arbeta med ett redigerbart område som ett enda objekt.
 
-För närvarande stöds redigerbara intervall endast på inline-nivå, det vill säga inuti[`Paragraph`](../paragraph/), men redigerbart intervallstart och redigerbart intervallslut kan vara i olika stycken.
+För närvarande stöds redigerbara intervall endast på inline-nivå, det vill säga inuti[`Paragraph`](../paragraph/), men det redigerbara intervallets början och slut kan vara i olika stycken.
 
 ## Exempel
 
-Visar hur man begränsar redigeringsrättigheterna för redigerbara intervall till en specifik grupp/användare.
+Visar hur man begränsar redigeringsrättigheterna för redigerbara områden till en specifik grupp/användare.
 
 ```csharp
 public void Visitor()
@@ -72,7 +72,7 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // När vi skrivskyddar dokument tillåter redigerbara intervall oss att välja specifika områden som användare kan redigera.
+    // När vi skrivskyddar dokument tillåter redigerbara områden oss att välja specifika områden som användare kan redigera.
     // Det finns två ömsesidigt uteslutande sätt att begränsa listan över tillåtna redigerare.
     // 1 - Ange en användare:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
@@ -92,7 +92,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Skriv ut detaljer och innehåll för varje redigerbart område i dokumentet.
+    // Skriv ut detaljer och innehåll för alla redigerbara områden i dokumentet.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -101,7 +101,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Samlar egenskaper och innehåll för besökta redigerbara intervall i en sträng.
+/// Samlar in egenskaper och innehåll från besökta redigerbara områden i en sträng.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -152,7 +152,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet. Den här besökaren registrerar bara körningar som ligger inom redigerbara intervall.
+    /// Anropas när en Run-nod påträffas i dokumentet. Den här besökaren registrerar endast körningar som ligger inom redigerbara intervall.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

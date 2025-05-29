@@ -3,14 +3,14 @@ title: IWarningCallback Interface
 linktitle: IWarningCallback
 articleTitle: IWarningCallback
 second_title: Aspose.Words för .NET
-description: Aspose.Words.IWarningCallback gränssnitt. Implementera det här gränssnittet om du vill ha en egen anpassad metod som kallas för att fånga upp varningar för förlust av trohet som kan inträffa under dokumentladdning eller sparande i C#.
+description: Implementera gränssnittet Aspose.Words.IWarningCallback för att anpassa metoder för att fånga upp varningar om tillförlitlighet vid inläsning och sparning av dokument. Förbättra dokumentintegriteten!
 type: docs
-weight: 3210
+weight: 3660
 url: /sv/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-Implementera det här gränssnittet om du vill ha en egen anpassad metod som kallas för att fånga upp varningar för förlust av trohet som kan inträffa under dokumentladdning eller sparande.
+Implementera det här gränssnittet om du vill att din egen anpassade metod ska anropas för att fånga upp varningar om förlust av återgivning som kan uppstå vid inläsning eller sparning av dokument.
 
 ```csharp
 public interface IWarningCallback
@@ -20,11 +20,11 @@ public interface IWarningCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words åberopar den här metoden när det stöter på något problem under dokumentladdning eller lagring som kan resultera i förlust av formatering eller datatillförlitlighet. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words anropar den här metoden när den stöter på problem under inläsning eller sparning av dokument, vilket kan leda till förlust av formatering eller dataåtergivning. |
 
 ## Exempel
 
-Visar hur man använder IWarningCallback-gränssnittet för att övervaka varningar för teckensnittsersättning.
+Visar hur man använder IWarningCallback-gränssnittet för att övervaka varningar om teckensnittsersättning.
 
 ```csharp
 public void SubstitutionWarning()
@@ -38,15 +38,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Lagra den aktuella samlingen av teckensnittskällor, som kommer att vara standardfontkällan för varje dokument
-    // som vi inte anger en annan typsnittskälla för.
+    // Lagra den aktuella samlingen av teckensnittskällor, som kommer att vara standardteckensnittskällan för varje dokument
+    // för vilka vi inte anger en annan teckensnittskälla.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // För teständamål kommer vi att ställa in Aspose.Words att leta efter typsnitt endast i en mapp som inte finns.
+    // För teständamål kommer vi att ställa in Aspose.Words så att den bara letar efter teckensnitt i en mapp som inte finns.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // När du renderar dokumentet finns det ingen plats att hitta typsnittet "Times New Roman".
-    // Detta kommer att orsaka en varning för teckensnittsersättning, som vår återuppringning kommer att upptäcka.
+    // När dokumentet renderas kommer det inte att finnas någonstans att hitta teckensnittet "Times New Roman".
+    // Detta kommer att orsaka en varning om teckensnittsersättning, vilket vår återanropsfunktion kommer att upptäcka.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -54,13 +54,13 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Anropas varje gång en varning inträffar under laddning/sparning.
+    /// Anropas varje gång en varning uppstår under inläsning/sparning.
     /// </summary>
     public void Warning(WarningInfo info)
     {
@@ -72,7 +72,7 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
+Program har lagt till en reservfunktion för bitmappsrendering och ändrat typen av varningar om metafilposter som inte stöds.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -81,16 +81,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Ställ in egenskapen "EmulateRasterOperations" till "false" för att falla tillbaka till bitmapp när
-    // den stöter på en metafil, som kräver rasteroperationer för att rendera i utdata-PDF.
+    // Sätt egenskapen "EmulateRasterOperations" till "false" för att återgå till bitmapp när
+    // den stöter på en metafil, vilket kräver rasteroperationer för att renderas i utdata-PDF:en.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Ställ in egenskapen "RenderingMode" till "VectorWithFallback" för att försöka rendera varje metafil med vektorgrafik.
+    // Sätt egenskapen "RenderingMode" till "VectorWithFallback" för att försöka rendera varje metafil med vektorgrafik.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur den metoden konverterar dokumentet till .PDF och tillämpar konfigurationen
-    // i vårt MetafileRenderingOptions-objekt mot sparoperationen.
+    // i vårt MetafileRenderingOptions-objekt till sparoperationen.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -105,7 +105,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Skriver ut och samlar in formateringsförlustrelaterade varningar som uppstår när ett dokument sparas.
+/// Skriver ut och samlar in varningar om formateringsförlust som uppstår när ett dokument sparas.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {
@@ -122,7 +122,7 @@ public class HandleDocumentWarnings : IWarningCallback
 }
 ```
 
-Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
+Visar hur man ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från de tillgängliga teckensnittskällorna.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -130,20 +130,20 @@ public void EnableFontSubstitution()
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Tilldela en återuppringning för hantering av varningar för teckensnittsersättning.
+    // Tilldela en återanropning för att hantera varningar om teckensnittsersättning.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Ange ett standardtypsnittsnamn och aktivera teckensnittsersättning.
+    // Ange ett standardnamn för teckensnitt och aktivera teckensnittsersättning.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    // Ursprungliga teckensnittsmått bör användas efter teckensnittsersättning.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
+    // Vi får en varning om teckensnittsersättning om vi sparar ett dokument med ett saknat teckensnitt.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -159,13 +159,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Anropas varje gång en varning inträffar under laddning/sparning.
+    /// Anropas varje gång en varning uppstår under inläsning/sparning.
     /// </summary>
     public void Warning(WarningInfo info)
     {

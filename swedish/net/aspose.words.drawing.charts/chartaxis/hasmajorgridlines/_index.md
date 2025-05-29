@@ -3,14 +3,14 @@ title: ChartAxis.HasMajorGridlines
 linktitle: HasMajorGridlines
 articleTitle: HasMajorGridlines
 second_title: Aspose.Words för .NET
-description: ChartAxis HasMajorGridlines fast egendom. Hämtar eller sätter en flagga som indikerar om axeln har större rutnät i C#.
+description: Upptäck egenskapen ChartAxis HasMajorGridlines för att enkelt hantera större stödlinjer i dina diagram, vilket förbättrar datavisualisering och tydlighet.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
 ---
 ## ChartAxis.HasMajorGridlines property
 
-Hämtar eller sätter en flagga som indikerar om axeln har större rutnät.
+Hämtar eller ställer in en flagga som anger om axeln har större rutnät.
 
 ```csharp
 public bool HasMajorGridlines { get; set; }
@@ -18,7 +18,7 @@ public bool HasMajorGridlines { get; set; }
 
 ## Exempel
 
-Visar hur man infogar diagram med datum/tidsvärden.
+Visar hur man infogar ett diagram med datum-/tidsvärden.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Chart chart = shape.Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en anpassad serie som innehåller datum/tid-värden för X-axeln och respektive decimalvärden för Y-axeln.
+// Lägg till en anpassad serie som innehåller datum-/tidsvärden för X-axeln och respektive decimalvärden för Y-axeln.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -39,12 +39,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Sätt nedre och övre gränser för X-axeln.
+// Ange nedre och övre gränser för X-axeln.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Ställ in X-axelns huvudenheter till en vecka och de mindre enheterna till en dag.
+// Ställ in de större enheterna på X-axeln till en vecka och de mindre enheterna till en dag.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -55,7 +55,7 @@ xAxis.HasMinorGridlines = true;
 
 // Definiera Y-axelegenskaper för decimalvärden.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

@@ -3,14 +3,14 @@ title: LayoutEnumerator.MoveNextLogical
 linktitle: MoveNextLogical
 articleTitle: MoveNextLogical
 second_title: Aspose.Words för .NET
-description: LayoutEnumerator MoveNextLogical metod. Flyttar till nästa syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till nästa rad även om den finns på en annan sida i C#.
+description: Upptäck hur LayoutEnumerator MoveNextLogical-metoden sömlöst navigerar bland syskonenheter, vilket säkerställer smidig iteration av styckerader över sidor.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.layout/layoutenumerator/movenextlogical/
 ---
 ## LayoutEnumerator.MoveNextLogical method
 
-Flyttar till nästa syskonentitet i en logisk ordning. När rader i ett stycke uppdelat över sidorna upprepas kommer denna metod att flyttas till nästa rad även om den finns på en annan sida.
+Flyttar till nästa syskonenhet i en logisk ordning. När rader i ett stycke itereras som är uppdelade över sidor kommer den här metoden att flyttas till nästa rad även om den finns på en annan sida.
 
 ```csharp
 public bool MoveNextLogical()
@@ -18,21 +18,21 @@ public bool MoveNextLogical()
 
 ## Anmärkningar
 
-Observera att allaSpan enheter är sammanlänkade alltså om[`Current`](../current/) entitet är span upprepade anrop av denna metod kommer att upprepa hela historien om dokumentet.
+Observera att allaSpan enheter är sammankopplade, så om[`Current`](../current/) entiteten är span upprepade anrop av denna metod som itererar hela dokumentets berättelse.
 
 ## Exempel
 
-Visar sätt att gå igenom ett dokuments layoutenheter.
+Visar sätt att navigera genom ett dokuments layoutenheter.
 
 ```csharp
 public void LayoutEnumerator()
 {
     // Öppna ett dokument som innehåller en mängd olika layoutenheter.
-    // Layoutentiteter är sidor, celler, rader, linjer och andra objekt som ingår i LayoutEntityType enum.
-    // Varje layoutenhet har ett rektangulärt utrymme som det upptar i dokumentets brödtext.
+    // Layoutentiteter är sidor, celler, rader, linjer och andra objekt som ingår i LayoutEntityType-enum.
+    // Varje layoutenhet har ett rektangulärt utrymme som den upptar i dokumentets brödtext.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Skapa en enumerator som kan passera dessa enheter som ett träd.
+    // Skapa en uppräknare som kan tvärförflytta sig mellan dessa entiteter som ett träd.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -42,24 +42,24 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // Vi kan anropa den här metoden för att säkerställa att enumeratorn kommer att vara på den första layoutentiteten.
+    // Vi kan anropa den här metoden för att säkerställa att uppräknaren kommer att finnas vid den första layout-entiteten.
     layoutEnumerator.Reset();
 
-    // Det finns två order som bestämmer hur layoutuppräknaren fortsätter att korsa layoutentiteter
-    // när den stöter på enheter som sträcker sig över flera sidor.
+    // Det finns två ordningar som avgör hur layoutuppräknaren fortsätter att gå igenom layoutenheter
+    // när den stöter på entiteter som sträcker sig över flera sidor.
     // 1 - I visuell ordning:
-    // När du går igenom en enhets underordnade som sträcker sig över flera sidor,
+    // När man bläddrar igenom en entitets underordnade objekt som sträcker sig över flera sidor,
     // sidlayout har företräde, och vi flyttar till andra underordnade element på den här sidan och undviker de på nästa.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Vår enumerator är nu i slutet av samlingen. Vi kan korsa layoutentiteterna bakåt för att gå tillbaka till början.
+    // Vår uppräknare är nu i slutet av samlingen. Vi kan bläddra bakåt i layout-entiteterna för att gå tillbaka till början.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - I logisk ordning:
-    // När du går igenom en enhets underordnade som sträcker sig över flera sidor,
-    // uppräknaren kommer att flytta mellan sidor för att gå igenom alla underordnade enheter.
+    // När man bläddrar igenom en entitets underordnade objekt som sträcker sig över flera sidor,
+    // uppräknaren kommer att flytta mellan sidor för att täcka alla underordnade enheter.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
 
@@ -68,8 +68,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// Räkna upp genom layoutEnumerators layoutentitetssamling framifrån till baksida,
-/// på ett djupt-först sätt, och i "Visuell" ordning.
+/// Räkna upp genom layoutEnumerators layout-entitetssamling framifrån och bakifrån,
+/// på ett djupgående sätt och i den "visuella" ordningen.
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -86,8 +86,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// Räkna upp genom layoutEnumerators layoutentitetssamling bakifrån,
-/// på ett djupt-först sätt, och i "Visuell" ordning.
+/// Räkna upp genom layoutEnumerators layout-entitetssamling bakifrån och fram,
+/// på ett djupgående sätt och i den "visuella" ordningen.
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -104,8 +104,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// Räkna upp genom layoutEnumerators layoutentitetssamling framifrån till baksida,
-/// på ett djupt-först sätt, och i den "logiska" ordningen.
+/// Räkna upp genom layoutEnumerators layout-entitetssamling framifrån och bakifrån,
+/// på ett djupgående sätt och i den "logiska" ordningen.
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -122,8 +122,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// Räkna upp genom layoutEnumerators layoutentitetssamling bakifrån,
-/// på ett djupt-först sätt, och i den "logiska" ordningen.
+/// Räkna upp genom layoutEnumerators layout-entitetssamling bakifrån och fram,
+/// på ett djupgående sätt och i den "logiska" ordningen.
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -140,9 +140,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Skriv ut information om layoutEnumerators nuvarande enhet till konsolen, samtidigt som texten indrages med tabbtecken
-/// baserat på dess djup i förhållande till rotnoden som vi angav i konstruktorn LayoutEnumerator-instansen.
-/// Rektangeln som vi bearbetar i slutet representerar området och platsen som enheten tar upp i dokumentet.
+/// Skriv ut information om layoutEnumerators aktuella entitet till konsolen, medan texten indenteras med tabbtecken
+/// baserat på dess djup i förhållande till rotnoden som vi angav i konstruktorns LayoutEnumerator-instans.
+/// Rektangeln som vi bearbetar i slutet representerar det område och den plats som entiteten upptar i dokumentet.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {

@@ -3,14 +3,14 @@ title: DropCapPosition Enum
 linktitle: DropCapPosition
 articleTitle: DropCapPosition
 second_title: Aspose.Words för .NET
-description: Aspose.Words.DropCapPosition uppräkning. Anger positionen för en drop captext i C#.
+description: Upptäck Aspose.Words.DropCapPosition-enum för att förbättra din dokumentdesign genom att definiera unika positioner för anfangstext för ett effektfullt visuellt tilltal.
 type: docs
-weight: 1410
+weight: 1820
 url: /sv/net/aspose.words/dropcapposition/
 ---
 ## DropCapPosition enumeration
 
-Anger positionen för en drop cap-text.
+Anger positionen för en anfangstext.
 
 ```csharp
 public enum DropCapPosition
@@ -20,19 +20,19 @@ public enum DropCapPosition
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Stycket har inte ett drop cap. |
-| Normal | `1` | Locket är placerat innanför textmarginalen på ankarstycket. |
-| Margin | `2` | Drop cap är placerad utanför textmarginalen på ankarstycket. |
+| None | `0` | Stycket saknar anfang. |
+| Normal | `1` | Anfangen placeras innanför textmarginalen på ankarstycket. |
+| Margin | `2` | Anfangen placeras utanför textmarginalen på ankarstycket. |
 
 ## Exempel
 
-Visar hur man skapar en drop cap.
+Visar hur man skapar en anfang.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett stycke med en stor bokstav som texten i andra och tredje stycket börjar med.
+// Infoga ett stycke med en stor bokstav som texten i andra och tredje styckena börjar med.
 builder.Font.Size = 54;
 builder.Writeln("L");
 
@@ -43,12 +43,12 @@ builder.Writeln("Ut enim ad minim veniam, quis nostrud exercitation " +
                 "ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
 // För närvarande kommer det andra och tredje stycket att visas under det första.
-// Vi kan konvertera det första stycket som ett drop cap för de andra styckena via dess "ParagraphFormat"-objekt.
-// Ställ in egenskapen "DropCapPosition" till "DropCapPosition.Margin" för att placera drop cap
-// utanför den vänstra sidmarginalen om vår text är från vänster till höger.
-// Ställ in egenskapen "DropCapPosition" till "DropCapPosition.Normal" för att placera drop cap inom sidmarginalerna
-// och linda resten av texten runt den.
-// "DropCapPosition.None" är standardtillståndet för alla stycken.
+// Vi kan konvertera det första stycket till en anfang för de andra styckena via dess "ParagraphFormat"-objekt.
+// Sätt egenskapen "DropCapPosition" till "DropCapPosition.Margin" för att placera anfangen
+// utanför vänster sidmarginal om vår text är från vänster till höger.
+// Ställ in egenskapen "DropCapPosition" till "DropCapPosition.Normal" för att placera anfangen inom sidmarginalerna
+// och för att linda resten av texten runt den.
+// "DropCapPosition.None" är standardläget för alla stycken.
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 format.DropCapPosition = dropCapPosition;
 

@@ -3,14 +3,14 @@ title: FieldIncludeText.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
 second_title: Aspose.Words för .NET
-description: FieldIncludeText TextConverter fast egendom. Hämtar eller ställer in namnet på textkonverteraren för formatet på den inkluderade filen i C#.
+description: Upptäck egenskapen FieldIncludeText TextConverter för att enkelt hantera textkonverterarnamn för dina inkluderade filformat. Förbättra ditt arbetsflöde idag!
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/fieldincludetext/textconverter/
 ---
 ## FieldIncludeText.TextConverter property
 
-Hämtar eller ställer in namnet på textkonverteraren för formatet på den inkluderade filen.
+Hämtar eller anger namnet på textkonverteraren för formatet för den inkluderade filen.
 
 ```csharp
 public string TextConverter { get; set; }
@@ -18,7 +18,7 @@ public string TextConverter { get; set; }
 
 ## Exempel
 
-Visar hur man skapar ett INCLUDETEXT-fält och ställer in dess egenskaper.
+Visar hur man skapar ett INCLUDETEXT-fält och anger dess egenskaper.
 
 ```csharp
 public void FieldIncludeText()
@@ -26,14 +26,14 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Nedan finns två sätt att använda INCLUDETEXT-fält för att visa innehållet i en XML-fil i det lokala filsystemet.
+    // Nedan följer två sätt att använda INCLUDETEXT-fält för att visa innehållet i en XML-fil i det lokala filsystemet.
     // 1 - Utför en XSL-transformation på ett XML-dokument:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Använd en XPath för att ta specifika element från ett XML-dokument:
+    // 2 - Använd en XPath för att hämta specifika element från ett XML-dokument:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

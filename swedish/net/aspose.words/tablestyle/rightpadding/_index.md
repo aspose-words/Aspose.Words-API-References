@@ -3,14 +3,14 @@ title: TableStyle.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words för .NET
-description: TableStyle RightPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till till höger om innehållet i tabellceller i C#.
+description: Upptäck egenskapen TableStyle RightPadding och anpassa din tabellcellslayout med exakt högeravstånd för förbättrad läsbarhet och presentation.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/tablestyle/rightpadding/
 ---
 ## TableStyle.RightPadding property
 
-Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till till höger om innehållet i tabellceller.
+Hämtar eller anger mängden utrymme (i punkter) som ska läggas till till höger om innehållet i tabellceller.
 
 ```csharp
 public double RightPadding { get; set; }

@@ -3,14 +3,14 @@ title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 linktitle: FormatAddressOnCountryOrRegion
 articleTitle: FormatAddressOnCountryOrRegion
 second_title: Aspose.Words för .NET
-description: FieldAddressBlock FormatAddressOnCountryOrRegion fast egendom. Hämtar eller ställer in om adressen ska formateras enligt mottagarens land/region enligt definitionen av POSTCODE Universal Postal Union 2006 i C#.
+description: Optimera adressformateringen med egenskapen FieldAddressBlock FormatAddressOnCountryOrRegion, vilket säkerställer att globala poststandarder för korrekt leverans följs.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-Hämtar eller ställer in om adressen ska formateras enligt mottagarens land/region enligt definitionen av POST*CODE (Universal Postal Union 2006).
+Hämtar eller anger om adressen ska formateras enligt mottagarens land/region enligt definitionen i POST*CODE (Universal Postal Union 2006).
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }
@@ -18,7 +18,7 @@ public bool FormatAddressOnCountryOrRegion { get; set; }
 
 ## Exempel
 
-Visar hur man infogar ett ADDRESSBLOCK-fält.
+Visar hur man infogar ett ADRESSBLOCK-fält.
 
 ```csharp
 Document doc = new Document();
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Om du ställer in detta till "2" kommer alla länder och regioner att inkluderas,
+// Om du ställer in detta på "2" inkluderas alla länder och regioner,
 // om det inte är den som anges i egenskapen ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// Som standard kommer den här egenskapen att innehålla språk-ID:t för det första tecknet i dokumentet.
-// Vi kan ställa in en annan kultur för fältet att formatera resultatet med så här.
+// Som standard innehåller den här egenskapen språk-ID:t för det första tecknet i dokumentet.
+// Vi kan ställa in en annan kultur för fältet för att formatera resultatet så här.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

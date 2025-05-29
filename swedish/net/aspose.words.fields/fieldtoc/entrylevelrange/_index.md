@@ -3,14 +3,14 @@ title: FieldToc.EntryLevelRange
 linktitle: EntryLevelRange
 articleTitle: EntryLevelRange
 second_title: Aspose.Words för .NET
-description: FieldToc EntryLevelRange fast egendom. Hämtar eller ställer in ett intervall av nivåer i innehållsförteckningen som ska inkluderas i C#.
+description: Upptäck egenskapen FieldToc EntryLevelRange för att enkelt anpassa nivåerna i innehållsförteckningen för förbättrad navigering och användarupplevelse.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldtoc/entrylevelrange/
 ---
 ## FieldToc.EntryLevelRange property
 
-Hämtar eller ställer in ett intervall av nivåer i innehållsförteckningen som ska inkluderas.
+Hämtar eller anger ett intervall av nivåer för innehållsförteckningsposter som ska inkluderas.
 
 ```csharp
 public string EntryLevelRange { get; set; }
@@ -18,7 +18,7 @@ public string EntryLevelRange { get; set; }
 
 ## Exempel
 
-Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
+Visar hur man infogar ett innehållsförteckningsfält och filtrerar vilka innehållsförteckningsfält som slutar som poster.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Infoga ett TOC-fält, som kommer att kompilera alla TC-fält till en innehållsförteckning.
+    // Infoga ett innehållsförteckningsfält, vilket sammanställer alla TC-fält till en innehållsförteckning.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Konfigurera fältet endast för att ta upp TC-poster av typen "A" och en ingångsnivå mellan 1 och 3.
+    // Konfigurera fältet för att endast hämta TC-poster av typen "A" och en ingångsnivå mellan 1 och 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 

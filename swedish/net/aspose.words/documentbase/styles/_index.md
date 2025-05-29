@@ -3,9 +3,9 @@ title: DocumentBase.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words för .NET
-description: DocumentBase Styles fast egendom. Returnerar en samling stilar definierade i dokumentet i C#.
+description: Utforska egenskapen DocumentBase Styles för att få tillgång till en omfattande samling anpassningsbara stilar som förbättrar dokumentets visuella attraktionskraft och konsekvens.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
@@ -22,7 +22,7 @@ För mer information se beskrivningen av[`StyleCollection`](../../stylecollectio
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();
@@ -45,27 +45,27 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 }
 ```
 
-Visar hur du skapar och använder ett styckeformat med listformatering.
+Visar hur man skapar och använder ett styckeformat med listformatering.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa en anpassad styckestil.
+// Skapa ett anpassat styckeformat.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Skapa en lista och se till att styckena som använder den här stilen kommer att använda den här listan.
+// Skapa en lista och se till att stycken som använder den här stilen kommer att använda den här listan.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Använd styckeformatet på dokumentbyggarens nuvarande stycke och lägg sedan till lite text.
+// Använd styckeformatet på dokumentbyggarens aktuella stycke och lägg sedan till lite text.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändra dokumentbyggarens stil till en som inte har någon listformatering och skriv ett stycke till.
+// Ändra dokumentbyggarens stil till en som inte har någon listformatering och skriv ett annat stycke.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

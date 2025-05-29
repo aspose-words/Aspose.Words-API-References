@@ -3,14 +3,14 @@ title: PhysicalFontInfo.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words för .NET
-description: PhysicalFontInfo FilePath fast egendom. Sökväg till teckensnittsfilen om någon i C#.
+description: Upptäck egenskapen PhysicalFontInfo FilePath, hitta enkelt dina typsnittsfiler för sömlös designintegration och förbättrad typografi i dina projekt.
 type: docs
-weight: 10
+weight: 20
 url: /sv/net/aspose.words.fonts/physicalfontinfo/filepath/
 ---
 ## PhysicalFontInfo.FilePath property
 
-Sökväg till teckensnittsfilen om någon.
+Sökväg till typsnittsfilen om sådan finns.
 
 ```csharp
 public string FilePath { get; }
@@ -21,7 +21,7 @@ public string FilePath { get; }
 Visar hur man listar tillgängliga teckensnitt.
 
 ```csharp
-// Konfigurera Aspose.Words för att hämta teckensnitt från en anpassad mapp och skriv sedan ut alla tillgängliga teckensnitt.
+// Konfigurera Aspose.Words för att hämta teckensnitt från en anpassad mapp och sedan skriva ut alla tillgängliga teckensnitt.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

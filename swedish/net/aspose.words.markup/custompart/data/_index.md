@@ -3,7 +3,7 @@ title: CustomPart.Data
 linktitle: Data
 articleTitle: Data
 second_title: Aspose.Words för .NET
-description: CustomPart Data fast egendom. Innehåller data för denna anpassade del i C#.
+description: Utforska CustomPart-data. Få tillgång till detaljerad information om dina specialdetaljer för ökad precision och effektivitet i dina projekt.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/custompart/data/
@@ -18,13 +18,13 @@ public byte[] Data { get; set; }
 
 ## Anmärkningar
 
-Denna egenskap är endast tillämplig när[`IsExternal`](../isexternal/) är`falsk`.
+Denna egenskap gäller endast när[`IsExternal`](../isexternal/) är`falsk`.
 
-Standardvärdet är en tom byte-array. Värdet kan inte vara`null`.
+Standardvärdet är en tom byte-matris. Värdet kan inte vara`null`.
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

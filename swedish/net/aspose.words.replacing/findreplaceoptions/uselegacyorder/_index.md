@@ -3,14 +3,14 @@ title: FindReplaceOptions.UseLegacyOrder
 linktitle: UseLegacyOrder
 articleTitle: UseLegacyOrder
 second_title: Aspose.Words för .NET
-description: FindReplaceOptions UseLegacyOrder fast egendom. True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet ärfalsk  i C#.
+description: Upptäck egenskapen UseLegacyOrder i FindReplaceOptions. Aktivera sekventiella textsökningar för bättre noggrannhet. Standardvärdet är falskt. Optimera din textbehandling!
 type: docs
-weight: 170
+weight: 180
 url: /sv/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True indikerar att en textsökning utförs sekventiellt uppifrån och ned med tanke på textrutorna. Standardvärdet är`falsk` .
+True indikerar att en textsökning utförs sekventiellt uppifrån och ned med hänsyn till textrutorna. Standardvärdet är`falsk` .
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -18,7 +18,7 @@ public bool UseLegacyOrder { get; set; }
 
 ## Exempel
 
-Visar hur du ändrar sökordningen för noder när du utför en sök-och-ersätt textoperation.
+Visar hur man ändrar sökordningen för noder när man utför en sök-och-ersätt-textåtgärd.
 
 ```csharp
 public void UseLegacyOrder(bool useLegacyOrder)
@@ -26,7 +26,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Infoga tre körningar som vi kan söka efter med hjälp av ett regexmönster.
+    // Infoga tre körningar som vi kan söka efter med hjälp av ett regex-mönster.
     // Placera en av dessa körningar i en textruta.
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
@@ -34,18 +34,18 @@ public void UseLegacyOrder(bool useLegacyOrder)
     builder.MoveTo(textBox.FirstParagraph);
     builder.Write("[tag 3]");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Tilldela en anpassad återuppringning till egenskapen "ReplacingCallback".
+    // Tilldela en anpassad återanropning till egenskapen "ReplacingCallback".
     TextReplacementTracker callback = new TextReplacementTracker();
     options.ReplacingCallback = callback;
 
-    // Om vi ställer in egenskapen "UseLegacyOrder" till "true",
-    // hitta-och-ersätt operation kommer att gå igenom alla körningar utanför en textruta
-    // innan du går igenom dem i en textruta.
-    // Om vi ställer in egenskapen "UseLegacyOrder" till "false", kan
-    // hitta-och-ersätt operation kommer att gå över alla körningar i ett intervall i sekventiell ordning.
+    // Om vi ställer in egenskapen "UseLegacyOrder" till "true", så
+    // sök-och-ersätt-operationen går igenom alla körningar utanför en textruta
+    // innan man går igenom de som finns i en textruta.
+    // Om vi ställer in egenskapen "UseLegacyOrder" till "false", så
+    // sök-och-ersätt-operationen går igenom alla körningar i ett intervall i sekventiell ordning.
     options.UseLegacyOrder = useLegacyOrder;
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
@@ -56,7 +56,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
 }
 
 /// <summary>
-/// Registrerar ordningen för alla matchningar som inträffar under en sök-och-ersätt-operation.
+/// Registrerar ordningen på alla träffar som inträffar under en sök-och-ersätt-operation.
 /// </summary>
 private class TextReplacementTracker : IReplacingCallback
 {

@@ -3,7 +3,7 @@ title: IMailMergeDataSource.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words för .NET
-description: IMailMergeDataSource TableName fast egendom. Returnerar namnet på datakällan i C#.
+description: Upptäck egenskapen IMailMergeDataSource TableName för att enkelt komma åt ditt datakällanamn och förbättra din dokumentautomatiseringsprocess.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -22,13 +22,13 @@ Namnet på datakällan. Tom sträng om datakällan inte har något namn.
 
 ## Anmärkningar
 
-Om du implementerar[`IMailMergeDataSource`](../), returnera namnet på data -källan från den här egenskapen.
+Om du implementerar[`IMailMergeDataSource`](../), returnerar namnet på data -källan från den här egenskapen.
 
-Aspose.Words använder detta namn för att matcha mot kopplingsområdets namn specificerat i malldokumentet. Jämförelsen mellan datakällans namn och namnet på kopplingsregionens namn är inte skiftlägeskänslig.
+Aspose.Words använder det här namnet för att matcha namnet på den region för dokumentkoppling som anges i malldokumentet. Jämförelsen mellan datakällnamnet och namnet på den region för dokumentkoppling som anges i är inte skiftlägeskänslig.
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med en datakälla i form av ett anpassat objekt.
+Visar hur man utför en dokumentkoppling med en datakälla i form av ett anpassat objekt.
 
 ```csharp
 public void CustomDataSource()
@@ -45,7 +45,7 @@ public void CustomDataSource()
         new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
     };
 
-     // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet.
+     // För att använda ett anpassat objekt som datakälla måste det implementera IMailMergeDataSource-gränssnittet.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -69,8 +69,8 @@ public class Customer
 }
 
 /// <summary>
- /// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words
-/// för att sammanfoga data från dina kundobjekt till Microsoft Word-dokument.
+ /// En anpassad datakälla för dokumentkoppling som du implementerar för att tillåta Aspose.Words
+/// för att koppla data från dina kundobjekt till Microsoft Word-dokument.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -83,7 +83,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Namnet på datakällan. Används endast av Aspose.Words när e-postsammanslagning med repeterbara regioner körs.
+    /// Namnet på datakällan. Används endast av Aspose.Words vid dokumentkoppling med repeterbara regioner.
     /// </summary>
     public string TableName
     {
@@ -91,7 +91,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words anropar denna metod för att få ett värde för varje datafält.
+    /// Aspose.Words anropar den här metoden för att hämta ett värde för varje datafält.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -104,7 +104,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Returnera "false" till Aspose.Words kopplingsmotor för att beteckna
+                // Returnera "false" till Aspose.Words-kopplingsmotorn för att beteckna
                 // att vi inte kunde hitta ett fält med detta namn.
                 fieldValue = null;
                 return false;
@@ -112,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// En standardimplementation för att flytta till nästa post i en samling.
+    /// En standardimplementering för att gå till nästa post i en samling.
     /// </summary>
     public bool MoveNext()
     {

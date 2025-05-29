@@ -3,7 +3,7 @@ title: MailMergeSettings.ConnectString
 linktitle: ConnectString
 articleTitle: ConnectString
 second_title: Aspose.Words för .NET
-description: MailMergeSettings ConnectString fast egendom. Anger anslutningssträngen som används för att ansluta till en extern datakälla. Standardvärdet är en tom sträng i C#.
+description: Upptäck hur MailMergeSettings ConnectString-egenskapen länkar till externa datakällor. Anpassa enkelt din anslutning för sömlös dataintegration!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -18,7 +18,7 @@ public string ConnectString { get; set; }
 
 ## Exempel
 
-Visar hur man kör en sammankoppling av brev samtidigt som man ansluter till en extern datakälla.
+Visar hur man utför en dokumentkoppling när man ansluter till en extern datakälla.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -39,7 +39,7 @@ Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
 // Vi kan återställa dessa inställningar genom att rensa dem. När vi har gjort det och sparat dokumentet,
-// Microsoft Word kommer inte längre att köra en e-postsammanfogning när vi använder den för att ladda dokumentet.
+// Microsoft Word kommer inte längre att köra en dokumentkoppling när vi använder det för att läsa in dokumentet.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

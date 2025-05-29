@@ -3,14 +3,14 @@ title: Font.Scaling
 linktitle: Scaling
 articleTitle: Scaling
 second_title: Aspose.Words för .NET
-description: Font Scaling fast egendom. Hämtar eller ställer in teckenbreddsskalning i procent i C#.
+description: Upptäck egenskapen Teckensnittsskalning för att justera teckenbredden i procent, vilket förbättrar textläsbarheten och designflexibiliteten för dina projekt.
 type: docs
-weight: 310
+weight: 320
 url: /sv/net/aspose.words/font/scaling/
 ---
 ## Font.Scaling property
 
-Hämtar eller ställer in teckenbreddsskalning i procent.
+Hämtar eller ställer in skalning av teckenbredd i procent.
 
 ```csharp
 public int Scaling { get; set; }
@@ -24,15 +24,15 @@ Visar hur man ställer in horisontell skalning och avstånd för tecken.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägg till en serie text och öka teckenbredden till 150 %.
+// Lägg till textlängd och öka teckenbredden till 150 %.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// Lägg till en serie text och lägg till 1 pkt extra horisontellt mellanrum mellan varje tecken.
+// Lägg till textlängd och lägg till 1 pt extra horisontellt avstånd mellan varje tecken.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// Lägg till en rad text och för tecknen närmare varandra med 1 pkt.
+// Lägg till textlängd och för tecknen närmare varandra med 1 pt.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

@@ -3,14 +3,14 @@ title: ImageSavingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words för .NET
-description: ImageSavingArgs ImageStream fast egendom. Tillåter att ange strömmen där bilden ska sparas i C#.
+description: Upptäck ImageStream-egenskapen i ImageSavingArgs för att enkelt ange var dina bilder ska sparas, vilket förbättrar ditt arbetsflöde och din effektivitet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/imagesavingargs/imagestream/
 ---
 ## ImageSavingArgs.ImageStream property
 
-Tillåter att ange strömmen där bilden ska sparas.
+Gör det möjligt att ange strömmen där bilden ska sparas.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -18,22 +18,22 @@ public Stream ImageStream { get; set; }
 
 ## Anmärkningar
 
-Den här egenskapen låter dig spara bilder i strömmar istället för filer under HTML.
+Den här egenskapen låter dig spara bilder till strömmar istället för filer under HTML.
 
-Standardvärdet är`null` . När denna fastighet är`null` , kommer bilden att sparas i en fil som anges i[`ImageFileName`](../imagefilename/) fast egendom.
+Standardvärdet är`null` När den här egenskapen är`null` , kommer bilden att sparas till en fil som anges i[`ImageFileName`](../imagefilename/) egendom.
 
-Använder sig av[`IImageSavingCallback`](../../iimagesavingcallback/) du kan inte ersätta en bild med en annan. Den är endast avsedd för kontroll över var bilderna ska sparas.
+Användning[`IImageSavingCallback`](../../iimagesavingcallback/) Du kan inte ersätta en bild med en annan . Den är endast avsedd för att kontrollera var bilder ska sparas.
 
 ## Exempel
 
-Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
+Visar hur man inkluderar en återanropsfunktion för att spara bilder i en HTML-konverteringsprocess.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att ange en återuppringning
+    // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att ange en återanropning
     // för att anpassa processen för att spara bilder.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -42,8 +42,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Skriver ut egenskaperna för varje bild när sparprocessen sparar den i en bildfil i det lokala filsystemet
-/// under exporten av ett dokument till HTML.
+/// Skriver ut egenskaperna för varje bild medan sparprocessen sparar den till en bildfil i det lokala filsystemet
+/// under export av ett dokument till HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

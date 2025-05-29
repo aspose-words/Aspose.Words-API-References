@@ -3,14 +3,14 @@ title: AxisBound.IsAuto
 linktitle: IsAuto
 articleTitle: IsAuto
 second_title: Aspose.Words för .NET
-description: AxisBound IsAuto fast egendom. Returnerar en flagga som indikerar att axelgränsen ska bestämmas automatiskt i C#.
+description: Upptäck AxisBound IsAuto. Bestäm automatiskt axelgränser för förbättrad datavisualisering och effektiv analys. Optimera dina diagram utan ansträngning!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/axisbound/isauto/
 ---
 ## AxisBound.IsAuto property
 
-Returnerar en flagga som indikerar att axelgränsen ska bestämmas automatiskt.
+Returnerar en flagga som anger att axelgränsen ska bestämmas automatiskt.
 
 ```csharp
 public bool IsAuto { get; }
@@ -30,10 +30,10 @@ Chart chart = chartShape.Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en serie med två decimaler. Den första matrisen innehåller X-värdena,
+// Lägg till en serie med två decimalmatriser. Den första matrisen innehåller X-värdena,
 // och den andra innehåller motsvarande Y-värden för punkter i punktdiagrammet.
-chart.Series.Add("Series 1", 
-    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 },
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
 // Som standard tillämpas standardskalning på grafens X- och Y-axlar,
@@ -41,7 +41,7 @@ chart.Series.Add("Series 1",
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
 // Vi kan definiera våra egna axelgränser.
-// I det här fallet kommer vi att få både X- och Y-axellinjalerna att visa ett intervall på 0 till 10.
+// I det här fallet kommer vi att visa ett intervall från 0 till 10 på både X- och Y-axelns linjaler.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
@@ -65,7 +65,7 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
 // Vi kan också sätta axelgränser i form av datum, vilket begränsar diagrammet till en period.
-// Om du ställer in intervallet till 1980-1990 utelämnas de två av serievärdena
+// Om intervallet sätts till 1980-1990 utelämnas de två serievärdena
 // som ligger utanför intervallet från grafen.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));
 chart.AxisX.Scaling.Maximum = new AxisBound(new DateTime(1990, 1, 1));

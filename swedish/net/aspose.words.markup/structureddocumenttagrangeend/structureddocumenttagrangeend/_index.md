@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeEnd
 linktitle: StructuredDocumentTagRangeEnd
 articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeEnd byggare. Initierar en ny instans avSlut på intervall för strukturerade dokumenttaggar class i C#.
+description: Upptäck konstruktorn StructuredDocumentTagRangeEnd – initiera effektivt dokumenttaggintervall för förbättrad innehållshantering och sömlös integration.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd constructor
 
-Initierar en ny instans av**Slut på intervall för strukturerade dokumenttaggar** class.
+Initierar en ny instans av**Slut på intervallet för taggar för strukturerat dokument** klass.
 
 ```csharp
 public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
@@ -19,11 +19,11 @@ public StructuredDocumentTagRangeEnd(DocumentBase doc, int id)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
-| id | Int32 | Identifierare för motsvarande strukturerade dokumenttaggintervallstart. |
+| id | Int32 | Identifierare för motsvarande taggintervall för strukturerat dokument som startar. |
 
 ## Exempel
 
-Visar hur man skapar/tar bort strukturerad dokumenttagg och dess innehåll.
+Visar hur man skapar/tar bort en strukturerad dokumenttagg och dess innehåll.
 
 ```csharp
 public void SdtRangeExtendedMethods()
@@ -33,9 +33,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Tar bort strukturerad dokumenttagg med intervall, men håller innehållet inne.
+    // Tar bort taggen för strukturerat dokument med varierande intervall, men behåller innehållet inuti.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -48,25 +48,27 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Tar bort strukturerad dokumenttagg och innehåll i intervallet.
+    // Tar bort tagg och innehåll för strukturerat dokument med varierande intervall.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToHeaderFooter
 linktitle: MoveToHeaderFooter
 articleTitle: MoveToHeaderFooter
 second_title: Aspose.Words för .NET
-description: DocumentBuilder MoveToHeaderFooter metod. Flyttar markören till början av en sidhuvud eller sidfot i det aktuella avsnittet i C#.
+description: Navigera enkelt till sidhuvuden och sidfot med DocumentBuilder MoveToHeaderFooter-metoden, vilket förbättrar din dokumentredigeringseffektivitet.
 type: docs
-weight: 540
+weight: 580
 url: /sv/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
 
-Flyttar markören till början av en sidhuvud eller sidfot i det aktuella avsnittet.
+Flyttar markören till början av ett sidhuvud eller en sidfot i det aktuella avsnittet.
 
 ```csharp
 public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
@@ -18,17 +18,17 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| headerFooterType | HeaderFooterType | Anger sidhuvudet eller sidfoten att flytta till. |
+| headerFooterType | HeaderFooterType | Anger vilket sidhuvud eller sidfot som ska flyttas till. |
 
 ## Anmärkningar
 
-När du har flyttat markören till en sidhuvud eller sidfot kan du använda resten av[`DocumentBuilder`](../) metoder för att ändra innehållet i sidhuvudet eller sidfoten.
+När du har flyttat markören till ett sidhuvud eller en sidfot kan du använda resten av[`DocumentBuilder`](../) metoder för att ändra innehållet i sidhuvudet eller sidfoten.
 
-Om du vill skapa olika sidhuvuden och sidfötter för den första sidan måste du ställa in[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+Om du vill skapa olika sidhuvuden och sidfot för första sidan behöver du för att ställa in[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-Om du vill skapa sidhuvuden och sidfötter olika för jämna och udda sidor behöver du ställa in[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+Om du vill skapa olika sidhuvuden och sidfot för jämna och udda sidor behöver du för att ställa in[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
-Använda sig av[`MoveToSection`](../movetosection/) för att flytta ut från rubriken till huvudtexten.
+Använda[`MoveToSection`](../movetosection/) för att flytta ut ur rubriken till huvudtexten.
 
 ## Exempel
 
@@ -38,10 +38,9 @@ Visar hur man infogar en bild och använder den som vattenstämpel.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga bilden i rubriken så att den syns på varje sida.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+// Infoga bilden i sidhuvudet så att den syns på varje sida.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -54,39 +53,13 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Visar hur man infogar en bild och använder den som vattenstämpel (.NetStandard 2.0).
+Visar hur man skapar sidhuvuden och sidfot i ett dokument med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga bilden i rubriken så att den syns på varje sida.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Placera bilden i mitten av sidan.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
-```
-
-Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Ange att vi vill ha olika sidhuvuden och sidfötter för första, jämna och udda sidor.
+// Ange att vi vill ha olika sidhuvuden och sidfot för första, jämna och udda sidor.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

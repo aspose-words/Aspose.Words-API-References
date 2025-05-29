@@ -3,14 +3,14 @@ title: Paragraph.ParentStory
 linktitle: ParentStory
 articleTitle: ParentStory
 second_title: Aspose.Words för .NET
-description: Paragraph ParentStory fast egendom. Hämtar den överordnade berättelsen på sektionsnivå som kan varaBody ellerHeaderFooter  i C#.
+description: Upptäck egenskapen Paragraph ParentStory för att enkelt komma åt artiklar på överordnad sektionsnivå och förbättra dokumentets struktur med alternativ för brödtext eller sidhuvud.
 type: docs
 weight: 210
 url: /sv/net/aspose.words/paragraph/parentstory/
 ---
 ## Paragraph.ParentStory property
 
-Hämtar den överordnade berättelsen på sektionsnivå som kan vara[`Body`](../../body/) eller[`HeaderFooter`](../../headerfooter/) .
+Hämtar den överordnade artikeln på sektionsnivå som kan vara[`Body`](../../body/) eller[`HeaderFooter`](../../headerfooter/) .
 
 ```csharp
 public Story ParentStory { get; }
@@ -23,8 +23,8 @@ Visar hur man skapar ett sidhuvud och en sidfot.
 ```csharp
 Document doc = new Document();
 
-// Skapa en rubrik och lägg till ett stycke till den. Texten i det stycket
-// kommer att visas överst på varje sida i det här avsnittet, ovanför huvudtexten.
+// Skapa en rubrik och lägg till ett stycke i den. Texten i det stycket
+// kommer att visas högst upp på varje sida i det här avsnittet, ovanför huvudtexten.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Skapa en sidfot och lägg till ett stycke till den. Texten i det stycket
-// kommer att visas längst ned på varje sida i det här avsnittet, under huvudtexten.
+// Skapa en sidfot och lägg till ett stycke i den. Texten i det stycket
+// kommer att visas längst ner på varje sida i det här avsnittet, under huvudtexten.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

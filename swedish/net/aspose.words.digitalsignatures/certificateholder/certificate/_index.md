@@ -3,14 +3,14 @@ title: CertificateHolder.Certificate
 linktitle: Certificate
 articleTitle: Certificate
 second_title: Aspose.Words för .NET
-description: CertificateHolder Certificate fast egendom. Returnerar instansen avX509Certifikat2 som har privata offentliga nycklar och certifikatkedja i C#.
+description: Få åtkomst till X509Certificate2-instansen med privata nycklar och certifikatkedja. Förenkla din säkerhetshantering med vår CertificateHolder-egenskap.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.digitalsignatures/certificateholder/certificate/
 ---
 ## CertificateHolder.Certificate property
 
-Returnerar instansen av**X509Certifikat2** som har privata, offentliga nycklar och certifikatkedja.
+Returnerar instansen av**X509Certifikat2** som innehåller privata, publika nycklar och certifikatkedja.
 
 ```csharp
 public X509Certificate2 Certificate { get; }
@@ -30,7 +30,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

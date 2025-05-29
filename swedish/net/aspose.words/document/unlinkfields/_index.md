@@ -3,14 +3,14 @@ title: Document.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words för .NET
-description: Document UnlinkFields metod. Tar bort länkar till fält i hela dokumentet i C#.
+description: Upptäck hur du använder metoden UnlinkFields för att effektivt koppla bort länkar från fält i hela dokumentet, vilket förbättrar ditt redigeringsarbetsflöde.
 type: docs
-weight: 730
+weight: 780
 url: /sv/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
 
-Tar bort länkar till fält i hela dokumentet.
+Avlänkar fält i hela dokumentet.
 
 ```csharp
 public void UnlinkFields()
@@ -20,11 +20,11 @@ public void UnlinkFields()
 
 Ersätter alla fält i hela dokumentet med deras senaste resultat.
 
-För att ta bort länkar till fält i en specifik del av dokumentet använd[`UnlinkFields`](../../range/unlinkfields/).
+För att koppla bort länkar från fält i en specifik del av dokumentet, använd[`UnlinkFields`](../../range/unlinkfields/).
 
 ## Exempel
 
-Visar hur man tar bort länken till alla fält i dokumentet.
+Visar hur man tar bort länkar från alla fält i dokumentet.
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

@@ -3,14 +3,14 @@ title: Document.OriginalLoadFormat
 linktitle: OriginalLoadFormat
 articleTitle: OriginalLoadFormat
 second_title: Aspose.Words för .NET
-description: Document OriginalLoadFormat fast egendom. Hämtar formatet för originaldokumentet som laddades in i detta objekt i C#.
+description: Upptäck egenskapen OriginalLoadFormat för att enkelt komma åt formatet på originaldokumentet som laddats in i ditt objekt, vilket förbättrar dokumenthanteringen.
 type: docs
-weight: 300
+weight: 310
 url: /sv/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
 
-Hämtar formatet för originaldokumentet som laddades in i detta objekt.
+Hämtar formatet för originaldokumentet som laddades in i det här objektet.
 
 ```csharp
 public LoadFormat OriginalLoadFormat { get; }
@@ -22,7 +22,7 @@ Om du skapade ett nytt tomt dokument returnerasDoc värde.
 
 ## Exempel
 
-Visar hur man hämtar information om ett dokuments laddningsoperation.
+Visar hur man hämtar information om ett dokuments inläsningsoperation.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

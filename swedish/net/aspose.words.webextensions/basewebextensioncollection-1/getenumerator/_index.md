@@ -3,14 +3,14 @@ title: BaseWebExtensionCollection1.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: BaseWebExtensionCollection GetEnumerator metod. Returnerar en uppräkning som kan iterera genom en samling i C#.
+description: Upptäck BaseWebExtensionCollection GetEnumerator-metoden för att enkelt iterera genom samlingar, vilket förbättrar din utvecklingseffektivitet och kodhantering.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.GetEnumerator method
 
-Returnerar en uppräkning som kan iterera genom en samling.
+Returnerar en uppräknare som kan iterera genom en samling.
 
 ```csharp
 public IEnumerator<T> GetEnumerator()

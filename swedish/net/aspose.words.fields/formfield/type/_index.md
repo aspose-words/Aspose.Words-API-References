@@ -3,7 +3,7 @@ title: FormField.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: FormField Type fast egendom. Returnerar formulärfältstypen i C#.
+description: Upptäck egenskapen FormField Type för att enkelt identifiera och använda olika formulärfälttyper, vilket förbättrar dina webbformulärs funktionalitet och användarupplevelse.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.fields/formfield/type/

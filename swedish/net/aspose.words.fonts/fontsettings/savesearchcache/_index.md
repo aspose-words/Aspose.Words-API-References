@@ -3,14 +3,14 @@ title: FontSettings.SaveSearchCache
 linktitle: SaveSearchCache
 articleTitle: SaveSearchCache
 second_title: Aspose.Words för .NET
-description: FontSettings SaveSearchCache metod. Sparar typsnittssökningscachen i strömmen i C#.
+description: Upptäck hur metoden FontSettings SaveSearchCache effektivt sparar din cache för teckensnittssökning till en ström, vilket förbättrar prestanda och användarupplevelse.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.fonts/fontsettings/savesearchcache/
 ---
 ## FontSettings.SaveSearchCache method
 
-Sparar typsnittssökningscachen i strömmen.
+Sparar cachen för teckensnittssökning i strömmen.
 
 ```csharp
 public void SaveSearchCache(Stream outputStream)
@@ -22,11 +22,11 @@ public void SaveSearchCache(Stream outputStream)
 
 ## Anmärkningar
 
-Ser[`SetFontsSources`](../setfontssources/) metodbeskrivning för mer info.
+Se[`SetFontsSources`](../setfontssources/) metodbeskrivning för mer information.
 
 ## Exempel
 
-Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
+Visar hur man påskyndar initialiseringsprocessen för teckensnittscachen.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -47,7 +47,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -56,8 +56,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Ladda teckensnittsdata endast när det behövs istället för att lagra det i minnet
-/// under hela livslängden för objektet "FontSettings".
+/// Ladda endast teckensnittsdata när det behövs istället för att lagra dem i minnet
+/// för hela livslängden för "FontSettings"-objektet.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

@@ -3,16 +3,16 @@ title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
 second_title: Aspose.Words för .NET
-description: Aspose.Words.NodeList klass. Representerar en samling noder som matchar en XPathfråga som körs medSelectNodes metod i C#.
+description: Utforska klassen Aspose.Words.NodeList, din lösning för att effektivt hantera XPath-frågeresultat och förbättra dokumentbehandlingsfunktionerna.
 type: docs
-weight: 4220
+weight: 4910
 url: /sv/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
-Representerar en samling noder som matchar en XPath-fråga som körs med[`SelectNodes`](../compositenode/selectnodes/) metod.
+Representerar en samling noder som matchar en XPath-fråga som körs med hjälp av[`SelectNodes`](../compositenode/selectnodes/) metod.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -23,26 +23,26 @@ public class NodeList : IEnumerable<Node>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodelist/count/) { get; } | Hämtar antalet noder i listan. |
-| [Item](../../aspose.words/nodelist/item/) { get; } | Hämtar en nod vid det givna indexet. |
+| [Item](../../aspose.words/nodelist/item/) { get; } | Hämtar en nod vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
-| [ToArray](../../aspose.words/nodelist/toarray/)() | Kopierar alla noder från samlingen till en ny array av noder. |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Ger en enkel iteration i "foreach"-stil över samlingen av noder. |
+| [ToArray](../../aspose.words/nodelist/toarray/)() | Kopierar alla noder från samlingen till en ny array med noder. |
 
 ## Anmärkningar
 
-`NodeList` returneras av[`SelectNodes`](../compositenode/selectnodes/) och innehåller en samling av noder som matchar XPath-frågan.
+`NodeList` returneras av[`SelectNodes`](../compositenode/selectnodes/) och innehåller en collection med noder som matchar XPath-frågan.
 
 `NodeList` stöder indexerad åtkomst och iteration.
 
-Behandla`NodeList` samling som en "snapshot"-samling.`NodeList`starts som en "live"-samling eftersom noderna faktiskt inte hämtas när XPath-frågan körs. Noderna hämtas först vid åtkomst och vid denna tidpunkt cachelagras noden och alla noder som föregår den och bildar en "snapshot"-samling.
+Behandla`NodeList` samlingen som en "ögonblicksbildssamling".`NodeList` starts som en "live"-samling eftersom noderna inte hämtas när XPath-frågan körs. Noderna hämtas endast vid åtkomst och vid denna tidpunkt cachas noden och alla noder som föregår den och bildar en "snapshot"-samling.
 
 ## Exempel
 
-Visar hur du hittar alla hyperlänkar i ett Word-dokument och sedan ändrar deras webbadresser och visningsnamn.
+Visar hur man hittar alla hyperlänkar i ett Word-dokument och sedan ändrar deras URL:er och visningsnamn.
 
 ```csharp
 using System;
@@ -61,9 +61,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Hyperlänkar i ett Word-dokument är fält. För att börja leta efter hyperlänkar måste vi först hitta alla fält.
+            // Hyperlänkar i Word-dokument är fält. För att börja leta efter hyperlänkar måste vi först hitta alla fält.
             // Använd metoden "SelectNodes" för att hitta alla fält i dokumentet via en XPath.
-            NodeList fieldStarts = doc.SelectNodes("//FieldStart");
+            NodeList fieldStarts = doc.SelectNodes("//Fältstart");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -71,7 +71,7 @@ namespace ApiExamples
                 {
                     Hyperlink hyperlink = new Hyperlink(fieldStart);
 
-                    // Hyperlänkar som länkar till bokmärken har inga webbadresser.
+                    // Hyperlänkar som länkar till bokmärken har inga URL:er.
                     if (hyperlink.IsLocal)
                         continue;
 
@@ -89,11 +89,11 @@ namespace ApiExamples
     }
 
      ///<summary>
-      ///HYPERLINK-fält innehåller och visar hyperlänkar i dokumentets brödtext. Ett fält i Aspose.Words
+      ///HYPERLÄNK-fält innehåller och visar hyperlänkar i dokumentets brödtext. Ett fält i Aspose.Words
       ///består av flera noder, och det kan vara svårt att arbeta med alla dessa noder direkt.
-     ///Den här implementeringen fungerar endast om hyperlänkskoden och namnet består av endast en körnod.
+     ///Den här implementeringen fungerar bara om hyperlänkkoden och namnet vardera består av endast en Run-nod.
     ///
-     ///Nodstrukturen för fält är som följer:
+     ///Nodstrukturen för fält är följande:
      ///
      ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
      ///
@@ -119,10 +119,10 @@ namespace ApiExamples
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // Normalt kan vi alltid hitta fältets slutnod, men exempeldokumentet
-             // innehåller en styckebrytning inuti en hyperlänk, vilket gör att fältet slutar
-            // i nästa stycke. Det blir mycket mer komplicerat att hantera fält som spänner över flera
-            // stycken korrekt. I det här fallet räcker det att tillåta fältänden att vara null.
+             // Normalt sett kan vi alltid hitta fältets slutnod, men exempeldokumentet
+             // innehåller en styckebrytning inuti en hyperlänk, vilket sätter fältet i slutet
+             // i nästa stycke. Det kommer att bli mycket mer komplicerat att hantera fält som sträcker sig över flera
+            // stycken korrekt. I det här fallet räcker det med att fältslutet är null.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
             // Fältkoden ser ut ungefär som "HYPERLINK "http:\\www.myurl.com"", men den kan bestå av flera körningar.
@@ -139,15 +139,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
                  // Hyperlänkens visningsnamn lagras i fältresultatet, vilket är en körning
-                // nod mellan fältavgränsare och fältslut.
+                // nod mellan fältseparator och fältslut.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // Om fältresultatet består av mer än en körning, ta bort dessa körningar.
+                // Om fältresultatet består av mer än en körning, radera dessa körningar.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -157,7 +160,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -184,7 +193,7 @@ namespace ApiExamples
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // Om fältkoden består av mer än en körning, ta bort dessa körningar.
+            // Om fältkoden består av mer än en körning, radera dessa körningar.
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
@@ -242,12 +251,12 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Ett eller flera icke-mellanslag HYPERLINK eller annat ord på andra språk.
+            "\\S+" + // Ett eller flera icke-mellanslag HYPERLÄNK eller andra ord på andra språk.
             "\\s+" + // Ett eller flera mellanslag.
             "(?:\"\"\\s+)?" + // Icke-fångande valfritt "" och ett eller flera mellanslag.
-            "(\\\\l\\s+)?" + // Valfri \l flagga följt av ett eller flera mellanslag.
+            "(\\\\l\\s+)?" + // Valfri \l-flagga följt av ett eller flera mellanslag.
             "\"" +  // En apostrof.
-            "([^\"]+)" + // Ett eller flera tecken, exklusive apostrof (hyperlänksmål).
+            "([^\"]+)" + // Ett eller flera tecken, exklusive apostrofen (hyperlänkmålet).
             "\"" // En avslutande apostrof.
         );
     }

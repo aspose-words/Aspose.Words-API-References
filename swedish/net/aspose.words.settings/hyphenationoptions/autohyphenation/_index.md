@@ -3,14 +3,14 @@ title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
 second_title: Aspose.Words för .NET
-description: HyphenationOptions AutoHyphenation fast egendom. Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen ärfalsk  i C#.
+description: Styr automatisk avstavning med egenskapen HyphenationOptions. Förbättra enkelt dokumentets läsbarhet genom att aktivera eller inaktivera den här funktionen.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Hämtar eller ställer in värde som avgör om automatisk avstavning är aktiverad för dokumentet. Standardvärdet för den här egenskapen är`falsk` .
+Hämtar eller anger värde som avgör om automatisk bindestreck är aktiverat för dokumentet. Standardvärde för den här egenskapen är`falsk` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }
@@ -18,7 +18,7 @@ public bool AutoHyphenation { get; set; }
 
 ## Exempel
 
-Visar hur du konfigurerar automatisk avstavning.
+Visar hur man konfigurerar automatisk bindestreck.
 
 ```csharp
 Document doc = new Document();

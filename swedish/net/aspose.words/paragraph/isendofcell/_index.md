@@ -3,7 +3,7 @@ title: Paragraph.IsEndOfCell
 linktitle: IsEndOfCell
 articleTitle: IsEndOfCell
 second_title: Aspose.Words för .NET
-description: Paragraph IsEndOfCell fast egendom. Sant om detta stycke är det sista stycket i enCell  falskt annars i C#.
+description: Upptäck egenskapen IsEndOfCell för stycken. Lär dig hur du identifierar om ett stycke är det sista i en cell, vilket förbättrar din dokumentstruktur.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/paragraph/isendofcell/
@@ -18,16 +18,16 @@ public bool IsEndOfCell { get; }
 
 ## Exempel
 
-Visar hur man ställer in ett bord för att hålla ihop på samma sida.
+Visar hur man dukar ett bord så att det står ihop på samma sida.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Aktivera KeepWithNext för varje stycke i tabellen utom för
-// de sista i den sista raden kommer att förhindra att tabellen delas upp på flera sidor.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Aktiverar KeepWithNext för varje stycke i tabellen förutom
+// de sista på den sista raden förhindrar att tabellen delas upp över flera sidor.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

@@ -3,14 +3,14 @@ title: FieldMergeBarcode.SymbolRotation
 linktitle: SymbolRotation
 articleTitle: SymbolRotation
 second_title: Aspose.Words för .NET
-description: FieldMergeBarcode SymbolRotation fast egendom. Hämtar eller ställer in streckkodssymbolens rotation. Giltiga värden är 0 3 i C#.
+description: Upptäck egenskapen FieldMergeBarcode SymbolRotation för att enkelt anpassa rotationen av streckkodssymboler. Förbättra din datapresentation med giltiga värden som 0 och 3.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/fieldmergebarcode/symbolrotation/
 ---
 ## FieldMergeBarcode.SymbolRotation property
 
-Hämtar eller ställer in streckkodssymbolens rotation. Giltiga värden är [0, 3]
+Hämtar eller ställer in rotationen för streckkodssymbolen. Giltiga värden är [0, 3]
 
 ```csharp
 public string SymbolRotation { get; set; }
@@ -18,14 +18,14 @@ public string SymbolRotation { get; set; }
 
 ## Exempel
 
-Visar hur man utför en sammanfogning på QR-streckkoder.
+Visar hur man utför en dokumentkoppling på QR-streckkoder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett MERGEBARCODE-fält, som kommer att acceptera värden från en datakälla under en e-postkoppling.
-// Detta fält kommer att konvertera alla värden i en sammanslagningsdatakällas "MyQRCode"-kolumn till QR-koder.
+// Infoga ett fält för MERGEBARCODE, som accepterar värden från en datakälla under en dokumentkoppling.
+// Det här fältet konverterar alla värden i kolumnen "MyQRCode" i en sammanfogad datakälla till QR-koder.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -43,9 +43,9 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Skapa en DataTable med en kolumn med samma namn som vårt MERGEBARCODE-fälts BarcodeValue.
-// Brevkopplingen skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
-// som kommer att visa en QR-kod med värdet från den sammanslagna raden.
+// Skapa en datatabell med en kolumn med samma namn som vårt MERGEBARCODE-fälts streckkodsvärde.
+// Kopplad utskrifter skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
+// vilket visar en QR-kod med värdet från den sammanslagna raden.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

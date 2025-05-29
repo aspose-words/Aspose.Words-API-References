@@ -3,14 +3,14 @@ title: Run.IsPhoneticGuide
 linktitle: IsPhoneticGuide
 articleTitle: IsPhoneticGuide
 second_title: Aspose.Words för .NET
-description: Run IsPhoneticGuide fast egendom. Får ett booleskt värde som anger att antingen körningen är en fonetisk guide i C#.
+description: Upptäck IsPhoneticGuide, ett kraftfullt verktyg som avgör om en sändning fungerar som en fonetisk guide, vilket förbättrar din texts tydlighet och läsbarhet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/run/isphoneticguide/
 ---
 ## Run.IsPhoneticGuide property
 
-Får ett booleskt värde som anger att antingen körningen är en fonetisk guide.
+Hämtar ett booleskt värde som indikerar att körningen antingen är en fonetisk guide.
 
 ```csharp
 public bool IsPhoneticGuide { get; }
@@ -18,16 +18,18 @@ public bool IsPhoneticGuide { get; }
 
 ## Exempel
 
-Visar hur man får egenskaper för den fonetiska guiden.
+Visar hur man hämtar egenskaper för den fonetiska guiden.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 // Använd fonetisk guide i den asiatiska texten.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### Se även

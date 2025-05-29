@@ -3,14 +3,14 @@ title: ParagraphFormat.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
 second_title: Aspose.Words för .NET
-description: ParagraphFormat SnapToGrid fast egendom. Anger om det aktuella stycket ska använda dokumentrutnätslinjerna per sida settings när man lägger ut innehållet i stycket i C#.
+description: Upptäck hur egenskapen ParagraphFormat SnapToGrid förbättrar layoutprecisionen genom att justera dina stycken med dokumentets rutnät för ett elegant utseende.
 type: docs
-weight: 290
+weight: 300
 url: /sv/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-Anger om det aktuella stycket ska använda dokumentrutnätslinjerna per sida settings när man lägger ut innehållet i stycket.
+Anger om det aktuella stycket ska använda dokumentets rutnät per sida-inställningar vid layout av innehållet i stycket.
 
 ```csharp
 public bool SnapToGrid { get; set; }
@@ -18,7 +18,7 @@ public bool SnapToGrid { get; set; }
 
 ## Exempel
 
-Visar hur man anger en gräns för antalet rader som varje sida kan ha.
+Visar hur man anger en gräns för antalet rader som varje sida får ha.
 
 ```csharp
 Document doc = new Document();

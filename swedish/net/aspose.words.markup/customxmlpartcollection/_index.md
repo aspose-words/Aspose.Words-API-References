@@ -3,9 +3,9 @@ title: CustomXmlPartCollection Class
 linktitle: CustomXmlPartCollection
 articleTitle: CustomXmlPartCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Markup.CustomXmlPartCollection klass. Representerar en samling anpassade XMLdelar. Objekten ärCustomXmlPart objekt i C#.
+description: Upptäck klassen Aspose.Words.Markup.CustomXmlPartCollection, din lösning för att hantera anpassade XML-delar effektivt och enkelt.
 type: docs
-weight: 3930
+weight: 4620
 url: /sv/net/aspose.words.markup/customxmlpartcollection/
 ---
 ## CustomXmlPartCollection class
@@ -29,34 +29,34 @@ public class CustomXmlPartCollection : IEnumerable<CustomXmlPart>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.markup/customxmlpartcollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [Item](../../aspose.words.markup/customxmlpartcollection/item/) { get; set; } | Hämtar eller ställer in ett objekt på angivet index. |
+| [Item](../../aspose.words.markup/customxmlpartcollection/item/) { get; set; } | Hämtar eller ställer in ett objekt vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | Lägger till ett föremål i samlingen. |
-| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | Skapar en ny XML-del med angiven XML och lägger till den i samlingen. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add_1)(*[CustomXmlPart](../customxmlpart/)*) | Lägger till ett objekt i samlingen. |
+| [Add](../../aspose.words.markup/customxmlpartcollection/add/#add)(*string, string*) | Skapar en ny XML-del med den angivna XML-filen och lägger till den i samlingen. |
 | [Clear](../../aspose.words.markup/customxmlpartcollection/clear/)() | Tar bort alla element från samlingen. |
-| [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Gör en djup kopia av den här samlingen och dess föremål. |
-| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | Hittar och returnerar en anpassad XML-del med dess identifierare. |
-| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | Tar bort ett objekt vid angivet index. |
+| [Clone](../../aspose.words.markup/customxmlpartcollection/clone/)() | Skapar en djup kopia av den här samlingen och dess objekt. |
+| [GetById](../../aspose.words.markup/customxmlpartcollection/getbyid/)(*string*) | Hittar och returnerar en anpassad XML-del med hjälp av dess identifierare. |
+| [GetEnumerator](../../aspose.words.markup/customxmlpartcollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [RemoveAt](../../aspose.words.markup/customxmlpartcollection/removeat/)(*int*) | Tar bort ett objekt vid det angivna indexet. |
 
 ## Anmärkningar
 
-Du behöver normalt inte skapa instanser av den här klassen. Du kan komma åt anpassade XML-data lagrade i ett dokument via[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) fast egendom.
+Normalt sett behöver du inte skapa instanser av den här klassen. Du kan komma åt anpassade XML-filer som lagras i ett dokument via[`CustomXmlParts`](../../aspose.words/document/customxmlparts/) egendom.
 
 ## Exempel
 
-Visar hur man skapar en strukturerad dokumenttagg med anpassade XML-data.
+Visar hur man skapar en strukturerad dokumenttagg med anpassad XML-data.
 
 ```csharp
 Document doc = new Document();
 
 // Konstruera en XML-del som innehåller data och lägg till den i dokumentets samling.
 // Om vi aktiverar fliken "Utvecklare" i Microsoft Word,
-// vi kan hitta element från denna samling i "XML Mapping Pane", tillsammans med några standardelement.
+// vi kan hitta element från den här samlingen i "XML-mappningsrutan", tillsammans med några standardelement.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -64,8 +64,8 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Nedan finns två sätt att referera till XML-delar.
-// 1 - Genom ett index i den anpassade XML-delsamlingen:
+// Nedan följer två sätt att referera till XML-delar.
+// 1 - Av ett index i den anpassade XML-delsamlingen:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - Av GUID:
@@ -93,16 +93,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Använd metoden "RemoveAt" för att ta bort den klonade delen efter index.
+// Använd metoden "RemoveAt" för att ta bort den klonade delen via index.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Klona XML-delsamlingen och använd sedan metoden "Rensa" för att ta bort alla dess element på en gång.
+// Klona XML-delsamlingen och använd sedan "Rensa"-metoden för att ta bort alla dess element på en gång.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Skapa en strukturerad dokumenttagg som visar vår dels innehåll och infoga den i dokumentets brödtext.
+// Skapa en strukturerad dokumenttagg som visar innehållet i vår del och infogar den i dokumentets brödtext.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

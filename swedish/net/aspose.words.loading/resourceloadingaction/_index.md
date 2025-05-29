@@ -3,14 +3,14 @@ title: ResourceLoadingAction Enum
 linktitle: ResourceLoadingAction
 articleTitle: ResourceLoadingAction
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Loading.ResourceLoadingAction uppräkning. Anger läget för resursladdning i C#.
+description: Upptäck Aspose.Words.ResourceLoadingAction-enum för effektiva resursinläsningslägen. Förbättra din dokumentbehandling med optimerad prestanda!
 type: docs
-weight: 3680
+weight: 4140
 url: /sv/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
 
-Anger läget för resursladdning.
+Anger resursinläsningsläget.
 
 För att lära dig mer, besök[Ange laddningsalternativ](https://docs.aspose.com/words/net/specify-load-options/) dokumentationsartikel.
 
@@ -22,9 +22,9 @@ public enum ResourceLoadingAction
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Default | `0` | Aspose.Words laddar den här resursen som vanligt. |
-| Skip | `1` | Aspose.Words hoppar över laddningen av denna resurs. Endast länk utan data kommer att lagras för en bild, CSS-formatmall kommer att ignoreras för HTML-format. |
-| UserProvided | `2` | Aspose.Words kommer att använda byte-array som tillhandahålls av användaren i[`SetData`](../resourceloadingargs/setdata/) som resursdata. |
+| Default | `0` | Aspose.Words kommer att ladda den här resursen som vanligt. |
+| Skip | `1` | Aspose.Words kommer att hoppa över inläsning av denna resurs. Endast länk utan data kommer att lagras för en bild, CSS-stilmall kommer att ignoreras för HTML-format. |
+| UserProvided | `2` | Aspose.Words kommer att använda en byte-array som tillhandahålls av användaren i[`SetData`](../resourceloadingargs/setdata/) som resursdata. |
 
 ## Exempel
 
@@ -38,8 +38,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bilder infogas vanligtvis med en URI eller en byte-array.
-    // Varje instans av en resursladdning kommer att anropa vår callbacks ResourceLoading-metod.
+    // Bilder infogas vanligtvis med hjälp av en URI, eller en byte-array.
+    // Varje instans av en resursbelastning anropar vår återanropsmetod ResourceLoading.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -50,15 +50,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Låter oss läsa in bilder i ett dokument med fördefinierade förkortningar, till skillnad från URI:er.
-/// Detta kommer att separera logik för bildladdning från resten av dokumentkonstruktionen.
+/// Låter oss ladda bilder i ett dokument med hjälp av fördefinierade förkortningar, till skillnad från URI:er.
+/// Detta kommer att separera bildinläsningslogiken från resten av dokumentkonstruktionen.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Om denna återuppringning stöter på en av bildens förkortningar när en bild laddas,
-        // det kommer att tillämpa unik logik för varje definierad stenografi istället för att behandla den som en URI.
+        // Om denna återanropning stöter på en av bildförkortningarna när en bild laddas,
+        // den kommer att tillämpa unik logik för varje definierad förkortning istället för att behandla den som en URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

@@ -3,14 +3,14 @@ title: ConvertUtil.PointToPixel
 linktitle: PointToPixel
 articleTitle: PointToPixel
 second_title: Aspose.Words för .NET
-description: ConvertUtil PointToPixel metod. Konverterar punkter till pixlar vid 96 dpi i C#.
+description: Konvertera enkelt punkter till pixlar med ConvertUtils PointToPixel-metod, optimerad för 96 dpi. Förbättra din designprecision idag!
 type: docs
 weight: 60
 url: /sv/net/aspose.words/convertutil/pointtopixel/
 ---
 ## PointToPixel(*double*) {#pointtopixel}
 
-Konverterar punkter till pixlar vid 96 dpi.
+Konverterar punkter till pixlar med 96 dpi.
 
 ```csharp
 public static double PointToPixel(double points)
@@ -18,11 +18,11 @@ public static double PointToPixel(double points)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| points | Double | Värdet att konvertera. |
+| points | Double | Värdet som ska konverteras. |
 
 ## Anmärkningar
 
-1 tum är lika med 72 poäng.
+1 tum är lika med 72 punkter.
 
 ## Exempel
 
@@ -32,23 +32,23 @@ Visar hur man anger sidegenskaper i pixlar.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// En sektions "Sidinställningar" definierar storleken på sidmarginalerna i poäng.
+// En sektions "Sidinställningar" definierar storleken på sidmarginalerna i punkter.
 // Vi kan också använda klassen "ConvertUtil" för att använda en annan måttenhet,
-// som pixlar när man definierar gränser.
+// såsom pixlar när man definierar gränser.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
 pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
 pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
-// En pixel är 0,75 poäng.
+// En pixel är 0,75 punkter.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 
-// Standardvärdet för DPI som används är 96.
+// Standard-DPI-värdet som används är 96.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
-// Lägg till innehåll för att visa de nya marginalerna.
+// Lägg till innehåll för att demonstrera de nya marginalerna.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -67,7 +67,7 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 
 ## PointToPixel(*double, double*) {#pointtopixel_1}
 
-Konverterar punkter till pixlar vid den angivna pixelupplösningen.
+Konverterar punkter till pixlar med den angivna pixelupplösningen.
 
 ```csharp
 public static double PointToPixel(double points, double resolution)
@@ -75,16 +75,16 @@ public static double PointToPixel(double points, double resolution)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| points | Double | Värdet att konvertera. |
-| resolution | Double | Upplösningen dpi (dots per inch). |
+| points | Double | Värdet som ska konverteras. |
+| resolution | Double | dpi-upplösningen (punkter per tum). |
 
 ## Anmärkningar
 
-1 tum är lika med 72 poäng.
+1 tum är lika med 72 punkter.
 
 ## Exempel
 
-Visar hur man använder konvertera punkter till pixlar med standard och anpassad upplösning.
+Visar hur man använder konvertera punkter till pixlar med standard- och anpassad upplösning.
 
 ```csharp
 Document doc = new Document();
@@ -98,13 +98,13 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// Vid standard DPI på 96 är en pixel 0,75 poäng.
+// Vid standard-DPI på 96 är en pixel 0,75 punkter.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
-// Ställ in en ny DPI och justera toppmarginalvärdet därefter.
+// Ställ in en ny DPI och justera värdet för den övre marginalen därefter.
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

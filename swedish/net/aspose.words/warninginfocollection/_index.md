@@ -3,14 +3,14 @@ title: WarningInfoCollection Class
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.WarningInfoCollection klass. Representerar en maskinskriven samling avWarningInfo objekt i C#.
+description: Upptäck Aspose.Words.WarningInfoCollection, en kraftfull klass för att hantera WarningInfo-objekt, förbättra dokumentbehandling och felhantering.
 type: docs
-weight: 6640
+weight: 7490
 url: /sv/net/aspose.words/warninginfocollection/
 ---
 ## WarningInfoCollection class
 
-Representerar en maskinskriven samling av[`WarningInfo`](../warninginfo/) objekt.
+Representerar en typad samling av[`WarningInfo`](../warninginfo/) objekt.
 
 För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 
@@ -29,23 +29,23 @@ public class WarningInfoCollection : IEnumerable<WarningInfo>, IWarningCallback
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/warninginfocollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [Item](../../aspose.words/warninginfocollection/item/) { get; } | Hämtar ett objekt vid angivet index. |
+| [Item](../../aspose.words/warninginfocollection/item/) { get; } | Hämtar ett objekt vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
 | [Clear](../../aspose.words/warninginfocollection/clear/)() | Tar bort alla element från samlingen. |
-| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
-| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Implementerar[`IWarningCallback`](../iwarningcallback/) gränssnitt. Lägger till en varning för den här samlingen. |
+| [GetEnumerator](../../aspose.words/warninginfocollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [Warning](../../aspose.words/warninginfocollection/warning/)(*[WarningInfo](../warninginfo/)*) | Implementerar[`IWarningCallback`](../iwarningcallback/) gränssnitt. Lägger till en varning i den här samlingen. |
 
 ## Anmärkningar
 
-Du kan använda detta samlingsobjekt som den enklaste formen av[`IWarningCallback`](../iwarningcallback/) implementering för att samla in alla varningar som Aspose.Words genererar under en laddnings- eller sparoperation. Skapa en instans av den här klassen och tilldela den till[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) eller[`WarningCallback`](../documentbase/warningcallback/) fast egendom.
+Du kan använda detta samlingsobjekt som den enklaste formen av[`IWarningCallback`](../iwarningcallback/) implementation för att samla alla varningar som Aspose.Words genererar under en laddnings- eller sparoperation. Skapa en instans av denna klass och tilldela den till[`WarningCallback`](../../aspose.words.loading/loadoptions/warningcallback/) eller[`WarningCallback`](../documentbase/warningcallback/) egendom.
 
 ## Exempel
 
-Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
+Visar hur man ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från de tillgängliga teckensnittskällorna.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -53,20 +53,20 @@ public void EnableFontSubstitution()
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Tilldela en återuppringning för hantering av varningar för teckensnittsersättning.
+    // Tilldela en återanropning för att hantera varningar om teckensnittsersättning.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Ange ett standardtypsnittsnamn och aktivera teckensnittsersättning.
+    // Ange ett standardnamn för teckensnitt och aktivera teckensnittsersättning.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    // Ursprungliga teckensnittsmått bör användas efter teckensnittsersättning.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
+    // Vi får en varning om teckensnittsersättning om vi sparar ett dokument med ett saknat teckensnitt.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -82,13 +82,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Anropas varje gång en varning inträffar under laddning/sparning.
+    /// Anropas varje gång en varning uppstår under inläsning/sparning.
     /// </summary>
     public void Warning(WarningInfo info)
     {

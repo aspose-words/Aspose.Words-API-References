@@ -3,14 +3,14 @@ title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words för .NET
-description: Document MailMergeSettings fast egendom. Hämtar eller ställer in objektet som innehåller all kopplingsinformation för ett dokument i C#.
+description: Upptäck hur du använder egenskapen MailMergeSettings för att hantera alla dina dokuments kopplingsdata effektivt och förbättra ditt arbetsflöde.
 type: docs
-weight: 270
+weight: 280
 url: /sv/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
 
-Hämtar eller ställer in objektet som innehåller all kopplingsinformation för ett dokument.
+Hämtar eller anger objektet som innehåller all information om dokumentkoppling för ett dokument.
 
 ```csharp
 public MailMergeSettings MailMergeSettings { get; set; }
@@ -18,13 +18,13 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## Anmärkningar
 
-Du kan använda det här objektet för att ange en kopplingsdatakälla för ett dokument och denna information (tillsammans med de tillgängliga datafälten) kommer att visas i Microsoft Word när användaren öppnar det här dokumentet. Eller så kan du använda det här objektet för att fråga inställningar för koppling av brev som användaren har angett i Microsoft Word för detta dokument.
+Du kan använda det här objektet för att ange en datakälla för kopplad dokument för ett dokument och denna information (tillsammans med tillgängliga datafält) visas i Microsoft Word när användaren öppnar dokumentet. Eller så kan du använda det här objektet för att fråga efter inställningar för kopplad dokument som användaren har angett i Microsoft Word för det här dokumentet.
 
 Detta objekt är aldrig`null`.
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -37,9 +37,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -67,7 +67,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

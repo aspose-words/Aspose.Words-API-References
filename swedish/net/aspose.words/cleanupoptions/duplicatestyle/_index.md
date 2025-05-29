@@ -3,14 +3,14 @@ title: CleanupOptions.DuplicateStyle
 linktitle: DuplicateStyle
 articleTitle: DuplicateStyle
 second_title: Aspose.Words för .NET
-description: CleanupOptions DuplicateStyle fast egendom. Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet ärfalsk  i C#.
+description: Optimera dina dokument med CleanupOptions DuplicateStyle-egenskap – ta enkelt bort dubbletter av formatering för en renare och effektivare formatering. Standardvärdet är falskt.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/cleanupoptions/duplicatestyle/
 ---
 ## CleanupOptions.DuplicateStyle property
 
-Hämtar/ställer in en flagga som indikerar om dubblettstilar ska tas bort från dokumentet. Standardvärdet är`falsk` .
+Hämtar/ställer in en flagga som anger om dubbletter av stilar ska tas bort från dokumentet. Standardvärdet är`falsk` .
 
 ```csharp
 public bool DuplicateStyle { get; set; }
@@ -18,13 +18,13 @@ public bool DuplicateStyle { get; set; }
 
 ## Exempel
 
-Visar hur du tar bort dubblerade stilar från dokumentet.
+Visar hur man tar bort duplicerade stilar från dokumentet.
 
 ```csharp
 Document doc = new Document();
 
-// Lägg till två stilar till dokumentet med identiska egenskaper,
-// men andra namn. Den andra stilen anses vara en dubblett av den första.
+// Lägg till två stilar i dokumentet med identiska egenskaper,
+// men olika namn. Den andra stilen anses vara en kopia av den första.
 Style myStyle = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 myStyle.Font.Size = 14;
 myStyle.Font.Name = "Courier New";
@@ -37,7 +37,7 @@ duplicateStyle.Font.Color = Color.Blue;
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// Tillämpa båda stilarna på olika stycken i dokumentet.
+// Använd båda stilarna på olika stycken i dokumentet.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
@@ -50,7 +50,7 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
 Assert.AreEqual(duplicateStyle, paragraphs[1].ParagraphFormat.Style);
 
-// Konfigurera ett CleanOptions-objekt och anrop sedan Cleanup-metoden för att ersätta alla dubbletter av stilar
+// Konfigurera ett CleanOptions-objekt och anropa sedan Cleanup-metoden för att ersätta alla dubbletter av format
 // med originalet och ta bort dubbletterna från dokumentet.
 CleanupOptions cleanupOptions = new CleanupOptions { DuplicateStyle = true };
 

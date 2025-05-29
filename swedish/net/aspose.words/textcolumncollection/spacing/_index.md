@@ -3,14 +3,14 @@ title: TextColumnCollection.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words för .NET
-description: TextColumnCollection Spacing fast egendom. När kolumner är jämnt fördelade hämtas eller ställer in mängden utrymme mellan varje kolumn i poäng i C#.
+description: Upptäck egenskapen TextColumnCollection Spacing, hantera enkelt kolumnavstånd i punkter för en elegant och professionell layout. Förbättra din design idag!
 type: docs
 weight: 50
 url: /sv/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-När kolumner är jämnt fördelade, hämtas eller ställer in mängden utrymme mellan varje kolumn i poäng.
+När kolumnerna är jämnt fördelade, hämtar eller ställer in mängden avstånd mellan varje kolumn i punkter.
 
 ```csharp
 public double Spacing { get; set; }
@@ -18,7 +18,7 @@ public double Spacing { get; set; }
 
 ## Anmärkningar
 
-Har effekt endast när[`EvenlySpaced`](../evenlyspaced/) är satt till`Sann` .
+Gäller endast när[`EvenlySpaced`](../evenlyspaced/) är inställd på`sann` .
 
 ## Exempel
 

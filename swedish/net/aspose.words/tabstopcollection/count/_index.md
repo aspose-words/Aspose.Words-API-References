@@ -3,7 +3,7 @@ title: TabStopCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: TabStopCollection Count fast egendom. Hämtar antalet tabbstopp i samlingen i C#.
+description: Upptäck egenskapen TabStopCollection Count för att enkelt komma åt det totala antalet tabbstopp, vilket förbättrar din UI-design och användarupplevelse.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/tabstopcollection/count/
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -45,7 +45,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

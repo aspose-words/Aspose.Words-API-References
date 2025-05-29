@@ -3,14 +3,14 @@ title: FrameFormat.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words för .NET
-description: FrameFormat HorizontalAlignment fast egendom. Får horisontell justering av den angivna ramen i C#.
+description: Upptäck egenskapen FrameFormat HorizontalAlignment för att enkelt justera och optimera din rams horisontella justering för bättre designkontroll.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/frameformat/horizontalalignment/
 ---
 ## FrameFormat.HorizontalAlignment property
 
-Får horisontell justering av den angivna ramen.
+Hämtar horisontell justering av den angivna ramen.
 
 ```csharp
 public HorizontalAlignment HorizontalAlignment { get; }

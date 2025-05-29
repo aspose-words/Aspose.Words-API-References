@@ -3,16 +3,16 @@ title: GeneralFormatCollection Class
 linktitle: GeneralFormatCollection
 articleTitle: GeneralFormatCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.GeneralFormatCollection klass. Representerar en maskinskriven samling allmänna format i C#.
+description: Upptäck klassen Aspose.Words.Fields.GeneralFormatCollection – en kraftfull samling av typfiler för att enkelt hantera allmänna format i dina dokument.
 type: docs
-weight: 2650
+weight: 3060
 url: /sv/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
-Representerar en maskinskriven samling allmänna format.
+Representerar en typad samling av allmänna format.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -22,17 +22,17 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | Får det totala antalet föremål i samlingen. |
-| [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | Får ett allmänt format vid angivet index. |
+| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | Hämtar det totala antalet objekt i samlingen. |
+| [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | Hämtar ett generellt format vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Lägger till ett allmänt format till samlingen. |
-| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Lägger till ett generellt format till samlingen. |
+| [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
 | [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Tar bort alla förekomster av det angivna allmänna formatet från samlingen. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Tar bort en allmän formatförekomst vid det angivna indexet. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Tar bort en generell formatförekomst vid det angivna indexet. |
 
 ## Exempel
 
@@ -42,14 +42,14 @@ Visar hur man formaterar fältresultat.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan format.
+// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan formatering.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // Vi kan tillämpa ett format på ett fälts resultat med hjälp av fältets egenskaper.
-// Nedan finns tre typer av format som vi kan tillämpa på ett fälts resultat.
+// Nedan följer tre typer av format som vi kan tillämpa på ett fälts resultat.
 // 1 - Numeriskt format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -58,7 +58,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datum/tid format:
+// 2 - Datum-/tidsformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";

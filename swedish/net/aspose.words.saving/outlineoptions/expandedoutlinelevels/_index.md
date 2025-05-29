@@ -3,14 +3,14 @@ title: OutlineOptions.ExpandedOutlineLevels
 linktitle: ExpandedOutlineLevels
 articleTitle: ExpandedOutlineLevels
 second_title: Aspose.Words för .NET
-description: OutlineOptions ExpandedOutlineLevels fast egendom. Anger hur många nivåer i dokumentkonturen som ska visas utökad när filen visas i C#.
+description: Upptäck egenskapen ExpandedOutlineLevels i OutlineOptions, som låter dig anpassa dokumentdispositionernas synlighet för förbättrad navigering och användarupplevelse.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/outlineoptions/expandedoutlinelevels/
 ---
 ## OutlineOptions.ExpandedOutlineLevels property
 
-Anger hur många nivåer i dokumentkonturen som ska visas utökad när filen visas.
+Anger hur många nivåer i dokumentdispositionen som ska visas expanderad när filen visas.
 
 ```csharp
 public int ExpandedOutlineLevels { get; set; }
@@ -18,21 +18,21 @@ public int ExpandedOutlineLevels { get; set; }
 
 ## Anmärkningar
 
-Observera att detta alternativ inte fungerar när du sparar till XPS.
+Observera att dessa alternativ inte fungerar när du sparar till XPS.
 
-Ange 0 och dokumentkonturen kommer att komprimeras; specificera 1 och den första nivån items i dispositionen kommer att utökas och så vidare.
+Ange 0 så hopfälls dokumentets disposition; ange 1 så expanderas de första nivåerna items i dispositionen och så vidare.
 
-Standard är 0. Giltigt intervall är 0 till 9.
+Standardvärdet är 0. Giltigt intervall är 0 till 9.
 
 ## Exempel
 
-Visar hur man konverterar ett helt dokument till PDF med tre nivåer i dokumentöversikten.
+Visar hur man konverterar ett helt dokument till PDF med tre nivåer i dokumentdispositionen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga rubriker för nivåerna 1 till 5.
+// Infoga rubriker för nivå 1 till 5.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -59,22 +59,22 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.2.2.2.1");
 builder.Writeln("Heading 1.2.2.2.2");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Det utgående PDF-dokumentet kommer att innehålla en disposition, som är en innehållsförteckning som listar rubriker i dokumentets brödtext.
-// Genom att klicka på en post i denna disposition kommer vi till platsen för dess respektive rubrik.
-// Ställ in egenskapen "HeadingsOutlineLevels" till "4" för att utesluta alla rubriker vars nivåer är över 4 från dispositionen.
+// Det utgående PDF-dokumentet kommer att innehålla en disposition, vilket är en innehållsförteckning som listar rubriker i dokumentets brödtext.
+// Om du klickar på en post i den här dispositionen kommer vi till platsen för respektive rubrik.
+// Sätt egenskapen "HeadingsOutlineLevels" till "4" för att exkludera alla rubriker vars nivåer är över 4 från dispositionen.
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// Om en konturpost har efterföljande poster på en högre nivå mellan sig och nästa post på samma eller lägre nivå,
+// Om en dispositionspost har efterföljande poster på en högre nivå mellan sig själv och nästa post på samma eller lägre nivå,
 // en pil visas till vänster om posten. Denna post är "ägare" till flera sådana "underposter".
-// I vårt dokument är dispositionsposterna från den 5:e rubriknivån underposter till den andra 4:e nivåns dispositionspost,
-// posterna på 4:e och 5:e rubriknivån är underposter till den andra 3:e nivåposten, och så vidare.
-// I dispositionen kan vi klicka på pilen för "ägare"-posten för att komprimera/expandera alla dess underposter.
-// Ställ in egenskapen "ExpandedOutlineLevels" till "2" för att automatiskt utöka alla rubriknivå 2 och lägre dispositionsposter
-// och kollapsa alla nivåer och 3 och högre poster när vi öppnar dokumentet.
+// I vårt dokument är dispositionsposterna från den 5:e rubriknivån underposter till den andra dispositionsposten på den 4:e nivån,
+// posterna på rubriknivå 4 och 5 är underposter till den andra posten på nivå 3, och så vidare.
+// I dispositionen kan vi klicka på pilen för posten "ägare" för att minimera/expandera alla dess underposter.
+// Sätt egenskapen "ExpandedOutlineLevels" till "2" för att automatiskt expandera alla rubriknivå 2 och lägre dispositionsposter
+// och komprimerar alla poster på nivå 3 och högre när vi öppnar dokumentet.
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);

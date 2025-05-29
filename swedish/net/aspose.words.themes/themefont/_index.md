@@ -3,14 +3,14 @@ title: ThemeFont Enum
 linktitle: ThemeFont
 articleTitle: ThemeFont
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Themes.ThemeFont uppräkning. Anger typer av temateckensnittsnamn för dokumentteman i C#.
+description: Upptäck Aspose.Words ThemeFont enum för att enkelt hantera dokumenttemafonter och förbättra dina dokuments visuella attraktionskraft med skräddarsydda stilar.
 type: docs
-weight: 6490
+weight: 7340
 url: /sv/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
 
-Anger typer av temateckensnittsnamn för dokumentteman.
+Anger typerna av tematypsnitt för dokumentteman.
 
 ```csharp
 public enum ThemeFont
@@ -21,16 +21,16 @@ public enum ThemeFont
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | None | `0` | Inget tematypsnitt. |
-| Major | `1` | Typsnitt med huvudtema. |
-| Minor | `2` | Teckensnitt med mindre tema. |
+| Major | `1` | Huvudtematypsnitt. |
+| Minor | `2` | Tema för mindre tema. |
 
 ## Anmärkningar
 
-Anger en temateckensnittstyp som kan refereras till som ett temateckensnitt inom de överordnade objektets egenskaper. Detta temateckensnitt är en referens till ett av de fördefinierade temateckensnitten, som finns i dokumentets Tema-del, vilket möjliggör teckensnittsinformation för att ställas in centralt i dokumentet.
+Anger en tematypsnittstyp som kan refereras till som ett tematypsnitt i egenskaperna för det överordnade objektet. Detta tematypsnitt är en referens till ett av de fördefinierade tematypsnitten, som finns i dokumentets temadel, vilket gör att teckensnittsinformation kan ställas in centralt i dokumentet.
 
 ## Exempel
 
-Visar hur man skapar och använder stil med teman.
+Visar hur man skapar och använder temainriktad stil.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Skapa lite stil med egenskaper för tematypsnitt.
+// Skapa lite stil med temats teckensnittsegenskaper.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -48,12 +48,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Visar hur man arbetar med tematypsnitt och färger.
+Visar hur man arbetar med temateckensnitt och färger.
 
 ```csharp
 Document doc = new Document();
 
-// Definiera typsnitt för språk som används som standard.
+// Definiera teckensnitt för språk som används som standard.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -106,7 +106,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Genom att ställa in teckensnitt/färgnamn som inte är tema:
+// 2 - Genom att ange namn på teckensnitt/färger som inte är temarelaterade:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

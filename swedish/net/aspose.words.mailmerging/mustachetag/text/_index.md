@@ -3,7 +3,7 @@ title: MustacheTag.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words för .NET
-description: MustacheTag Text fast egendom. Hämtar taggens text i C#.
+description: Upptäck egenskapen MustacheTag Text för att enkelt hämta och använda taggtext för förbättrad datahantering och sömlös integration.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.mailmerging/mustachetag/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Exempel
 
-Visar hur man arbetar med mustaschtaggarna.
+Visar hur man arbetar med mustaschtaggar.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

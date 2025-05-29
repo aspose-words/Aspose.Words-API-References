@@ -3,27 +3,27 @@ title: Aspose.Words.Lists
 linktitle: Aspose.Words.Lists
 articleTitle: Aspose.Words.Lists
 second_title: Aspose.Words för .NET
-description: DeAspose.Words.Lists namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument i C#.
+description: Upptäck namnrymden Aspose.Words.Lists för enkel hantering av punktlistor och numrerade listor i dina dokument, vilket förbättrar organisationen och tydligheten.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words.lists/
 ---
-De**Aspose.Words.Lists** namnområdet innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
+De**Aspose.Words.Lists** Namnrymden innehåller klasser för working med punktlistor och numrerade listor definierade i ett dokument.
 
 ## Klasser
 
 | Klass | Beskrivning |
 | --- | --- |
-| [List](./list/) | Representerar formatering av en lista. |
+| [List](./list/) | Representerar formateringen av en lista. |
 | [ListCollection](./listcollection/) | Lagrar och hanterar formatering av punktlistor och numrerade listor som används i ett dokument. |
-| [ListFormat](./listformat/) | Tillåter att styra vilken listformatering som tillämpas på ett stycke. |
+| [ListFormat](./listformat/) | Gör det möjligt att styra vilken listformatering som tillämpas på ett stycke. |
 | [ListLabel](./listlabel/) | Definierar egenskaper som är specifika för en listetikett. |
 | [ListLevel](./listlevel/) | Definierar formatering för en listnivå. |
-| [ListLevelCollection](./listlevelcollection/) | En samling listformatering för varje nivå i en lista. |
+| [ListLevelCollection](./listlevelcollection/) | En samling listformateringar för varje nivå i en lista. |
 ## Uppräkning
 
 | Uppräkning | Beskrivning |
 | --- | --- |
 | [ListLevelAlignment](./listlevelalignment/) | Anger justering för listnumret eller punkten. |
-| [ListTemplate](./listtemplate/) | Anger ett av de fördefinierade listformaten som är tillgängliga i Microsoft Word. |
-| [ListTrailingCharacter](./listtrailingcharacter/) | Anger tecknet som skiljer listetiketten från texten i stycket. |
+| [ListTemplate](./listtemplate/) | Anger ett av de fördefinierade listformaten som finns tillgängliga i Microsoft Word. |
+| [ListTrailingCharacter](./listtrailingcharacter/) | Anger tecknet som separerar listetiketten från styckets text. |

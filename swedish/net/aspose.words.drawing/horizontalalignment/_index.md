@@ -3,9 +3,9 @@ title: HorizontalAlignment Enum
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.HorizontalAlignment uppräkning. Anger horisontell justering av en flytande form textram eller flytande tabell i C#.
+description: Upptäck Aspose.Words.Drawing.HorizontalAlignment-uppräkningen för exakt kontroll över horisontell justering i flytande textramar och tabeller. Förbättra din dokumentlayout!
 type: docs
-weight: 1030
+weight: 1360
 url: /sv/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
@@ -20,13 +20,13 @@ public enum HorizontalAlignment
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Objektet är explicit positionerat, vanligtvis med hjälp av dess**Vänster** egenskap. |
+| None | `0` | Objektet positioneras explicit, vanligtvis med hjälp av dess**Vänster** egendom. |
 | Default | `0` | Samma somNone . |
-| Left | `1` | Anger att objektet ska lämnas justerat till den horisontella inriktningsbasen. |
-| Center | `2` | Anger att objektet ska centreras med avseende på den horisontella inriktningsbasen. |
-| Right | `3` | Anger att objektet ska vara högerjusterat mot den horisontella inriktningsbasen. |
-| Inside | `4` | Anger att objektet ska vara inuti den horisontella inriktningsbasen. |
-| Outside | `5` | Anger att objektet ska vara utanför den horisontella inriktningsbasen. |
+| Left | `1` | Anger att objektet ska vänsterjusteras mot den horisontella justeringsbasen. |
+| Center | `2` | Anger att objektet ska centreras i förhållande till den horisontella justeringsbasen. |
+| Right | `3` | Anger att objektet ska högerjusteras i förhållande till den horisontella justeringsbasen. |
+| Inside | `4` | Anger att objektet ska vara innanför den horisontella justeringsbasen. |
+| Outside | `5` | Anger att objektet ska vara utanför den horisontella justeringsbasen. |
 
 ## Exempel
 
@@ -36,7 +36,7 @@ Visar hur man infogar en flytande bild i mitten av en sida.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en flytande bild som kommer att visas bakom den överlappande texten och justera den mot sidans mitt.
+// Infoga en flytande bild som visas bakom den överlappande texten och justera den mot sidans mitt.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

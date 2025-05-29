@@ -3,14 +3,14 @@ title: MailMerge.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words för .NET
-description: MailMerge GetFieldNames metod. Returnerar en samling av kopplingsfältnamn som är tillgängliga i dokumentet i C#.
+description: Upptäck MailMerge GetFieldNames-metoden för att enkelt komma åt och använda alla fältnamn för kopplingar i ditt dokument för effektiv dokumentautomation.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 ---
 ## MailMerge.GetFieldNames method
 
-Returnerar en samling av kopplingsfältnamn som är tillgängliga i dokumentet.
+Returnerar en samling namn på fält för kopplingsmeddelanden som finns tillgängliga i dokumentet.
 
 ```csharp
 public string[] GetFieldNames()
@@ -18,15 +18,15 @@ public string[] GetFieldNames()
 
 ## Anmärkningar
 
-Returnerar fullständiga sammanslagningsfältsnamn inklusive valfritt prefix. Eliminerar inte dubbletter av fältnamn.
+Returnerar fullständiga kopplingsfältnamn inklusive valfritt prefix. Tar inte bort dubbletter av fältnamn.
 
-En ny strängmatris skapas vid varje samtal.
+En ny strängmatris skapas vid varje anrop.
 
-Inkluderar "mustasch" fältnamn if[`UseNonMergeFields`](../usenonmergefields/) är`Sann`.
+Inkluderar fältnamn för "mustasch" om[`UseNonMergeFields`](../usenonmergefields/) är`sann`.
 
 ## Exempel
 
-Visar hur man får namn på alla sammanslagningsfält i ett dokument.
+Visar hur man hämtar namnen på alla kopplingsfält i ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
 // För varje MERGEFIELD-namn i dokumentet, se till att datatabellen innehåller en kolumn
- // med samma namn, och kör sedan sammanslagningen.
+ // med samma namn och sedan köra dokumentkopplingen.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

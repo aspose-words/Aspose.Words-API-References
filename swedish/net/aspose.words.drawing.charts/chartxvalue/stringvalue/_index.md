@@ -3,7 +3,7 @@ title: ChartXValue.StringValue
 linktitle: StringValue
 articleTitle: StringValue
 second_title: Aspose.Words för .NET
-description: ChartXValue StringValue fast egendom. Hämtar det lagrade strängvärdet i C#.
+description: Upptäck egenskapen ChartXValue StringValue som hämtar och hanterar lagrade strängvärden effektivt för förbättrad datavisualisering.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/stringvalue/

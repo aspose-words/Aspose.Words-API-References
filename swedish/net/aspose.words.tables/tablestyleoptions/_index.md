@@ -3,14 +3,14 @@ title: TableStyleOptions Enum
 linktitle: TableStyleOptions
 articleTitle: TableStyleOptions
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Tables.TableStyleOptions uppräkning. Anger hur tabellstil tillämpas på en tabell i C#.
+description: Upptäck Aspose.Words.Tables.TableStyleOptions-enumet för flexibel tabellformatering. Förbättra din dokumentdesign med anpassningsbara tabellformat idag!
 type: docs
-weight: 6370
+weight: 7220
 url: /sv/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
 
-Anger hur tabellstil tillämpas på en tabell.
+Anger hur tabellformatet tillämpas på en tabell.
 
 ```csharp
 [Flags]
@@ -22,32 +22,32 @@ public enum TableStyleOptions
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | None | `0` | Ingen tabellformatering tillämpas. |
-| FirstRow | `20` | Använd villkorlig formatering på första raden. |
-| LastRow | `40` | Använd villkorlig formatering på sista raden. |
-| FirstColumn | `80` | Använd villkorlig formatering för en första kolumn. |
-| LastColumn | `100` | Använd villkorlig formatering för sista kolumnen. |
-| RowBands | `200` | Använd villkorlig formatering av radband. |
-| ColumnBands | `400` | Använd villkorlig formatering för kolumnband. |
-| Default2003 | `600` | Rad- och kolumnband tillämpas. Detta är Microsoft Word standard för gamla format som DOC, WML och RTF. |
-| Default | `2A0` | Detta är Microsoft Words standardinställningar. |
+| FirstRow | `20` | Använd villkorsstyrd formatering på första raden. |
+| LastRow | `40` | Använd villkorsstyrd formatering för sista raden. |
+| FirstColumn | `80` | Använd villkorsstyrd formatering för 1 första kolumn. |
+| LastColumn | `100` | Använd villkorsstyrd formatering för sista kolumnen. |
+| RowBands | `200` | Använd villkorsstyrd formatering för radband. |
+| ColumnBands | `400` | Använd villkorsstyrd formatering för kolumnränder. |
+| Default2003 | `600` | Rad- och kolumnbandering tillämpas. Detta är standard i Microsoft Word för gamla format som DOC, WML och RTF. |
+| Default | `2A0` | Detta är standardinställningarna för Microsoft Word. |
 
 ## Exempel
 
-Visar hur man bygger en ny tabell samtidigt som man använder en stil.
+Visar hur man skapar en ny tabell samtidigt som man tillämpar en stil.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Vi måste infoga minst en rad innan vi ställer in någon tabellformatering.
+// Vi måste infoga minst en rad innan vi anger någon tabellformatering.
 builder.InsertCell();
 
-// Ställ in tabellstilen som används baserat på stilidentifieraren.
-// Observera att inte alla tabellstilar är tillgängliga när du sparar i .doc-format.
+// Ange tabellstilen som används baserat på stilidentifieraren.
+// Observera att inte alla tabellformat är tillgängliga när man sparar i .doc-format.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tillämpa stilen delvis på funktioner i tabellen baserat på predikat, bygg sedan tabellen.
+// Tillämpa delvis stilen på tabellens funktioner baserat på predikat, och bygg sedan tabellen.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.CssClassNamePrefix
 linktitle: CssClassNamePrefix
 articleTitle: CssClassNamePrefix
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions CssClassNamePrefix fast egendom. Anger ett prefix som läggs till i alla CSSklassnamn. Standardvärdet är en tom sträng och genererade CSSklassnamn har inget gemensamt prefix i C#.
+description: Upptäck egenskapen HtmlSaveOptions CssClassNamePrefix för att enkelt anpassa CSS-klassnamn med ett unikt prefix, vilket förbättrar din webbdesigns konsekvens.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
 ---
 ## HtmlSaveOptions.CssClassNamePrefix property
 
-Anger ett prefix som läggs till i alla CSS-klassnamn. Standardvärdet är en tom sträng och genererade CSS-klassnamn har inget gemensamt prefix.
+Anger ett prefix som läggs till alla CSS-klassnamn. Standardvärdet är en tom sträng och genererade CSS-klassnamn har inget gemensamt prefix.
 
 ```csharp
 public string CssClassNamePrefix { get; set; }
@@ -24,13 +24,13 @@ public string CssClassNamePrefix { get; set; }
 
 ## Anmärkningar
 
-Om detta värde inte är tomt kommer alla CSS-klasser som genereras av Aspose.Words att börja med det angivna prefixet. Detta kan vara användbart, till exempel om du lägger till anpassad CSS i genererade dokument och vill förhindra klass namnkonflikter.
+Om detta värde inte är tomt kommer alla CSS-klasser som genereras av Aspose.Words att börja med det angivna prefixet. . Detta kan vara användbart om du till exempel lägger till anpassad CSS i genererade dokument och vill förhindra namnkonflikter i class .
 
-Om värdet inte är det`null` eller tomt måste det vara en giltig CSS-identifierare.
+Om värdet inte är`null` eller tom, måste det vara en giltig CSS-identifierare.
 
 ## Exempel
 
-Visar hur man sparar ett dokument i HTML och lägger till ett prefix till alla dess CSS-klassnamn.
+Visar hur man sparar ett dokument till HTML och lägger till ett prefix till alla dess CSS-klassnamn.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -50,8 +50,8 @@ Assert.True(outDocContents.Contains("<p class=\"myprefix-Footer\">"));
 
 outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.CssClassNamePrefix.css");
 
-Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n" +
-                                    ".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n"));
+Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }"));
+Assert.True(outDocContents.Contains(".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }"));
 ```
 
 ### Se även

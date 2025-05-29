@@ -3,26 +3,34 @@ title: Fill.ForeTintAndShade
 linktitle: ForeTintAndShade
 articleTitle: ForeTintAndShade
 second_title: Aspose.Words för .NET
-description: Fill ForeTintAndShade fast egendom. Hämtar eller ställer in ett dubbelt värde som gör förgrundsfärgen ljusare eller mörkare i C#.
+description: Justera egenskapen ForeTintAndShade för att enkelt ljusa upp eller mörka upp förgrundsfärgen, vilket förbättrar din design med precision och kreativitet.
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.drawing/fill/foretintandshade/
 ---
 ## Fill.ForeTintAndShade property
 
-Hämtar eller ställer in ett dubbelt värde som gör förgrundsfärgen ljusare eller mörkare.
+Hämtar eller ställer in ett dubbelvärde som ljusar eller mörkar förgrundsfärgen.
 
 ```csharp
 public double ForeTintAndShade { get; set; }
 ```
 
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentOutOfRangeException | Kasta om den här egenskapen sätts till ett värde mindre än -1 eller större än 1. |
+
 ## Anmärkningar
 
-De tillåtna värdena ligger inom intervallet från -1 (den mörkaste) till 1 (den ljusaste) för den här egenskapen. Noll (0) är neutral. Ett försök att ställa in den här egenskapen till ett värde mindre än -1 eller mer än 1 resulterar iArgumentOutOfRangeException.
+De tillåtna värdena ligger i intervallet från -1 (mörkast) till 1 (ljusast) för den här egenskapen.
+
+Noll (0) är neutral.
 
 ## Exempel
 
-Visar hur man hanterar ljusare och mörkare teckensnittsfärger i förgrunden.
+Visar hur man hanterar ljusare och mörkare förgrundsteckensnittsfärg.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");

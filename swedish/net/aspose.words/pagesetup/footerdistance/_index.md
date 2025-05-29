@@ -3,14 +3,14 @@ title: PageSetup.FooterDistance
 linktitle: FooterDistance
 articleTitle: FooterDistance
 second_title: Aspose.Words för .NET
-description: PageSetup FooterDistance fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidfoten och längst ned på sidan i C#.
+description: Justera egenskapen FooterDistance för att kontrollera avståndet mellan sidfoten och botten. Förbättra din dokumentlayout utan ansträngning!
 type: docs
 weight: 140
 url: /sv/net/aspose.words/pagesetup/footerdistance/
 ---
 ## PageSetup.FooterDistance property
 
-Returnerar eller ställer in avståndet (i poäng) mellan sidfoten och längst ned på sidan.
+Returnerar eller anger avståndet (i punkter) mellan sidfoten och sidans nederkant.
 
 ```csharp
 public double FooterDistance { get; set; }
@@ -18,7 +18,7 @@ public double FooterDistance { get; set; }
 
 ## Exempel
 
-Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
+Visar hur man justerar pappersstorlek, orientering, marginaler och andra inställningar för ett avsnitt.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: TxtLeadingSpacesOptions Enum
 linktitle: TxtLeadingSpacesOptions
 articleTitle: TxtLeadingSpacesOptions
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Loading.TxtLeadingSpacesOptions uppräkning. Anger tillgängliga alternativ för ledande utrymmeshantering under import frånText fil i C#.
+description: Upptäck Aspose.Words TxtLeadingSpacesOptions-enum för effektiv hantering av radavstånd vid import av textfiler. Optimera din dokumenthantering idag!
 type: docs
-weight: 3720
+weight: 4180
 url: /sv/net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration
 
-Anger tillgängliga alternativ för ledande utrymmeshantering under import frånText fil.
+Anger tillgängliga alternativ för hantering av inledande utrymme vid import frånText fil.
 
 ```csharp
 public enum TxtLeadingSpacesOptions
@@ -20,13 +20,13 @@ public enum TxtLeadingSpacesOptions
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| ConvertToIndent | `0` |  |
-| Trim | `1` |  |
-| Preserve | `2` |  |
+| ConvertToIndent | `0` | Inledande mellanslag tas bort och konverteras till vänsterindrag. |
+| Trim | `1` | Inledande mellanslag är borttagna |
+| Preserve | `2` | Inledande mellanslag bevaras. |
 
 ## Exempel
 
-Visar hur man beskär blanktecken när du laddar dokument i klartext.
+Visar hur man tar bort blanksteg när man laddar dokument i klartext.
 
 ```csharp
 string textDoc = "      Line 1 \n" +
@@ -34,20 +34,20 @@ string textDoc = "      Line 1 \n" +
                  " Line 3       ";
 
 // Skapa ett "TxtLoadOptions"-objekt, som vi kan skicka till ett dokuments konstruktor
-// för att ändra hur vi laddar ett dokument i klartext.
+// för att ändra hur vi laddar ett klartextdokument.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // Ställ in egenskapen "LeadingSpacesOptions" till "TxtLeadingSpacesOptions.Preserve"
 // för att bevara alla blanksteg i början av varje rad.
 // Ställ in egenskapen "LeadingSpacesOptions" till "TxtLeadingSpacesOptions.ConvertToIndent"
 // för att ta bort alla blanksteg från början av varje rad,
-// och använd sedan en vänster första rad indrag på stycket för att simulera effekten av blanksteg.
+// och applicera sedan ett vänsterindrag på första raden i stycket för att simulera effekten av mellanslag.
 // Ställ in egenskapen "LeadingSpacesOptions" till "TxtLeadingSpacesOptions.Trim"
-// för att ta bort alla blanksteg från varje rads början.
+// för att ta bort alla blanksteg från början av varje rad.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // Ställ in egenskapen "TrailingSpacesOptions" till "TxtTrailingSpacesOptions.Preserve"
- // för att bevara alla blanksteg i slutet av varje rad.
+ // för att bevara alla blankstegstecken i slutet av varje rad.
  // Ställ in egenskapen "TrailingSpacesOptions" till "TxtTrailingSpacesOptions.Trim" till
 // ta bort alla blanksteg från slutet av varje rad.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;

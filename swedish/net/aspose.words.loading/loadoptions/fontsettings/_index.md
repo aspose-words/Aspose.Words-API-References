@@ -3,14 +3,14 @@ title: LoadOptions.FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words för .NET
-description: LoadOptions FontSettings fast egendom. Gör det möjligt att ange inställningar för dokumentteckensnitt i C#.
+description: Anpassa ditt dokuments teckensnittsinställningar med LoadOptions FontSettings för förbättrad läsbarhet och stil. Optimera dina dokument utan ansträngning!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.loading/loadoptions/fontsettings/
 ---
 ## LoadOptions.FontSettings property
 
-Gör det möjligt att ange inställningar för dokumentteckensnitt.
+Gör det möjligt att ange dokumentets teckensnittsinställningar.
 
 ```csharp
 public FontSettings FontSettings { get; set; }
@@ -18,24 +18,24 @@ public FontSettings FontSettings { get; set; }
 
 ## Anmärkningar
 
-När du laddar vissa format kan Aspose.Words behöva lösa teckensnitten. Till exempel, när du laddar HTML-dokument kan Aspose.Words lösa teckensnitten för att utföra fallback.
+När vissa format laddas kan Aspose.Words behöva matcha teckensnitten. Till exempel, när du laddar HTML-dokument kan Aspose.Words matcha teckensnitten för att utföra reservteckensnitt.
 
-Om inställt på`null` , standardinställningar för statiska teckensnitt[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kommer att användas.
+Om inställd på`null` , standardinställningar för statiska teckensnitt[`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kommer att användas.
 
 Standardvärdet är`null`.
 
 ## Exempel
 
-Visar hur du tillämpar inställningar för teckensnittsersättning när du laddar ett dokument.
+Visar hur man använder inställningar för teckensnittsersättning när man laddar ett dokument.
 
 ```csharp
-// Skapa ett FontSettings-objekt som kommer att ersätta typsnittet "Times New Roman".
-// med typsnittet "Arvo" från vår "MyFonts"-mapp.
+// Skapa ett FontSettings-objekt som ersätter typsnittet "Times New Roman"
+// med typsnittet "Arvo" från vår mapp "MyFonts".
 FontSettings fontSettings = new FontSettings();
 fontSettings.SetFontsFolder(FontsDir, false);
 fontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Times New Roman", "Arvo");
 
-// Ställ in det FontSettings-objektet som en egenskap för ett nyskapat LoadOptions-objekt.
+// Ange FontSettings-objektet som en egenskap för ett nyskapat LoadOptions-objekt.
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.FontSettings = fontSettings;
 
@@ -45,23 +45,23 @@ Document doc = new Document(MyDir + "Document.docx", loadOptions);
 doc.Save(ArtifactsDir + "LoadOptions.FontSettings.pdf");
 ```
 
-Visar hur man anger teckensnittsersättningar under laddning.
+Visar hur man anger teckensnittsersättningar under inläsning.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 loadOptions.FontSettings = new FontSettings();
 
-// Ställ in en teckensnittsersättningsregel för ett LoadOptions-objekt.
+// Ange en regel för teckensnittsersättning för ett LoadOptions-objekt.
 // Om dokumentet vi laddar använder ett teckensnitt som vi inte har,
-// denna regel kommer att ersätta det otillgängliga teckensnittet med ett som finns.
+// den här regeln kommer att ersätta det otillgängliga teckensnittet med ett som redan finns.
 // I det här fallet kommer all användning av "MissingFont" att konverteras till "Comic Sans MS".
 TableSubstitutionRule substitutionRule = loadOptions.FontSettings.SubstitutionSettings.TableSubstitution;
-substitutionRule.AddSubstitutes("MissingFont", new[] {"Comic Sans MS"});
+substitutionRule.AddSubstitutes("MissingFont", "Comic Sans MS");
 
 Document doc = new Document(MyDir + "Missing font.html", loadOptions);
 
-// Vid det här laget kommer sådan text fortfarande att finnas i "MissingFont".
-// Teckensnittsbyte kommer att ske när vi renderar dokumentet.
+// Vid denna tidpunkt kommer sådan text fortfarande att vara i "MissingFont".
+// Typsnittsersättning kommer att ske när vi renderar dokumentet.
 Assert.AreEqual("MissingFont", doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Name);
 
 doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");

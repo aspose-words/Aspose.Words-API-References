@@ -3,14 +3,14 @@ title: List.IsMultiLevel
 linktitle: IsMultiLevel
 articleTitle: IsMultiLevel
 second_title: Aspose.Words för .NET
-description: List IsMultiLevel fast egendom. ReturnerarSann när listan innehåller 9 nivåerfalsk när 1 nivå i C#.
+description: Upptäck om din lista stöder flera nivåer! Vårt verktyg visar sant för 9 nivåer och falskt för 1, vilket förbättrar effektiviteten i din datahantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.lists/list/ismultilevel/
 ---
 ## List.IsMultiLevel property
 
-Returnerar`Sann` när listan innehåller 9 nivåer;`falsk` när 1 nivå.
+Returer`sann` när listan innehåller 9 nivåer;`falsk` när 1 nivå.
 
 ```csharp
 public bool IsMultiLevel { get; }
@@ -18,21 +18,21 @@ public bool IsMultiLevel { get; }
 
 ## Anmärkningar
 
-Listorna som du skapar med Aspose.Words är alltid flernivålistor och innehåller 9 nivåer.
+Listorna som du skapar med Aspose.Words är alltid listor med flera nivåer och innehåller 9 nivåer.
 
-Microsoft Word 2003 och senare skapar alltid listor med flera nivåer med 9 nivåer. Men i vissa dokument, skapade med tidigare versioner av Microsoft Word, kan du stöta på listor som bara har en nivå.
+Microsoft Word 2003 och senare skapar alltid listor med flera nivåer och 9 nivåer. Men i vissa dokument som skapats med tidigare versioner av Microsoft Word kan du stöta på listor som bara har 1 nivå.
 
 ## Exempel
 
-Visar hur du skapar en liststil och använder den i ett dokument.
+Visar hur man skapar en liststil och använder den i ett dokument.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -70,7 +70,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Skapa och tillämpa en annan lista baserat på liststilen.
+// Skapa och tillämpa en annan lista baserat på listformatet.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

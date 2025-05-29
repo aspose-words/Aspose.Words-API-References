@@ -3,9 +3,9 @@ title: WatermarkType Enum
 linktitle: WatermarkType
 articleTitle: WatermarkType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.WatermarkType uppräkning. Anger vattenstämpeltypen i C#.
+description: Upptäck Aspose.Words.WatermarkType-enum för enkel anpassning av vattenstämplar i dokument. Förbättra dina projekt med mångsidiga vattenstämpelalternativ!
 type: docs
-weight: 6690
+weight: 7540
 url: /sv/net/aspose.words/watermarktype/
 ---
 ## WatermarkType enumeration
@@ -20,9 +20,9 @@ public enum WatermarkType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Text | `0` | Indikerar att texten kommer att användas som vattenstämpel. |
-| Image | `1` | Indikerar att bilden kommer att användas som vattenstämpel. |
-| None | `2` | Indikerar att vattenstämpeln inte är inställd. |
+| Text | `0` | Anger att texten kommer att användas som vattenstämpel. |
+| Image | `1` | Anger att bilden kommer att användas som vattenstämpel. |
+| None | `2` | Indikerar att vattenstämpeln inte är angiven. |
 
 ## Exempel
 
@@ -31,11 +31,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

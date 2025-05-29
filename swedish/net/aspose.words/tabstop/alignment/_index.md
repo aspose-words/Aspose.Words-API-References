@@ -3,14 +3,14 @@ title: TabStop.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words för .NET
-description: TabStop Alignment fast egendom. Hämtar eller ställer in justeringen av text vid detta tabbstopp i C#.
+description: Upptäck egenskapen TabStop Alignment för att enkelt anpassa textjusteringen vid tabbstopp, vilket förbättrar dokumentets layout och läsbarhet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/tabstop/alignment/
 ---
 ## TabStop.Alignment property
 
-Hämtar eller ställer in justeringen av text vid detta tabbstopp.
+Hämtar eller ställer in textjusteringen vid detta tabbstopp.
 
 ```csharp
 public TabAlignment Alignment { get; set; }
@@ -18,20 +18,20 @@ public TabAlignment Alignment { get; set; }
 
 ## Exempel
 
-Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
+Visar hur man ändrar positionen för höger tabbstopp i stycken relaterade till innehållsförteckningen.
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Iterera genom alla stycken med TOC resultatbaserade stilar; detta är vilken stil som helst mellan TOC och TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Iterera genom alla stycken med resultatbaserade stilar baserade på innehållsförteckningen; detta är vilken stil som helst mellan innehållsförteckning och innehållsförteckning9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Få den första fliken som används i det här stycket, detta bör vara den flik som används för att anpassa sidnumren.
+        // Hämta den första tabbtangenten som används i detta stycke, detta ska vara den tabbtangent som används för att justera sidnumren.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // Ersätt den första standardfliken, sluta med ett anpassat tabbstopp.
+        // Ersätt den första standardtabbstoppet med en anpassad tabbstopp.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

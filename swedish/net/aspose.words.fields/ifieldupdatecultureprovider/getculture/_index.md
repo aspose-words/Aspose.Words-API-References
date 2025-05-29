@@ -3,14 +3,14 @@ title: IFieldUpdateCultureProvider.GetCulture
 linktitle: GetCulture
 articleTitle: GetCulture
 second_title: Aspose.Words för .NET
-description: IFieldUpdateCultureProvider GetCulture metod. Returnerar enCultureInfoobjekt som ska användas under fältets uppdatering i C#.
+description: Upptäck iFieldUpdateCultureProviders GetCulture-metod, som effektivt returnerar ett CultureInfo-objekt för sömlösa fältuppdateringar.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-Returnerar enCultureInfoobjekt som ska användas under fältets uppdatering.
+Returnerar enCultureInfo objekt som ska användas under fältuppdateringen.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -18,7 +18,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| culture | String | Namnet på den kultur som efterfrågas för fältet som uppdateras. |
+| culture | String | Namnet på den kultur som begärs för fältet som uppdateras. |
 | field | Field | Fältet uppdateras. |
 
 ### Returvärde
@@ -27,7 +27,7 @@ Kulturobjektet som ska användas för fältets uppdatering.
 
 ## Exempel
 
-Visar hur man anger en kultur som analyserar formatering av datum/tid för varje fält.
+Visar hur man anger en kultur som tolkar datum-/tidsformatering för varje fält.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -39,7 +39,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Ställ in en leverantör som returnerar ett kulturobjekt specifikt för varje fält.
+    // Ange en provider som returnerar ett kulturobjekt specifikt för varje fält.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -50,7 +50,7 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// Tillhandahåller ett CultureInfo-objekt som ska användas under uppdateringen av ett fält.
+/// Tillhandahåller ett CultureInfo-objekt som ska användas vid uppdatering av ett fält.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {

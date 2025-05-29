@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreFields
 linktitle: IgnoreFields
 articleTitle: IgnoreFields
 second_title: Aspose.Words för .NET
-description: FindReplaceOptions IgnoreFields fast egendom. Hämtar eller ställer in ett booleskt värde som anger att texten i fält ska ignoreras. Standardvärdet ärfalsk  i C#.
+description: Upptäck egenskapen FindReplaceOptions IgnoreFields för att enkelt hantera text i fält. Kontrollera när innehåll ska ignoreras för effektiv sökning!
 type: docs
 weight: 80
 url: /sv/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 ---
 ## FindReplaceOptions.IgnoreFields property
 
-Hämtar eller ställer in ett booleskt värde som anger att texten i fält ska ignoreras. Standardvärdet är`falsk` .
+Hämtar eller ställer in ett booleskt värde som anger att text i fält ska ignoreras. Standardvärdet är`falsk` .
 
 ```csharp
 public bool IgnoreFields { get; set; }
@@ -18,13 +18,13 @@ public bool IgnoreFields { get; set; }
 
 ## Anmärkningar
 
-Det här alternativet påverkar hela fältet (alla noder between FieldStart ochFieldEnd).
+Det här alternativet påverkar hela fältet (alla noder mellan FieldStart ochFieldEnd).
 
-För att ignorera endast fältkoder, använd motsvarande alternativ[`IgnoreFieldCodes`](../ignorefieldcodes/).
+För att endast ignorera fältkoder, använd motsvarande alternativ[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
 ## Exempel
 
-Visar hur man ignorerar text i fält.
+Visar hur man ignorerar text inuti fält.
 
 ```csharp
 Document doc = new Document();
@@ -33,13 +33,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertField("QUOTE", "Hello again!");
 
-// Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+// Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Ställ in "IgnoreFields"-flaggan till "true" för att få sök-och-ersätt
-// operation för att ignorera text i fält.
-// Ställ in "IgnoreFields"-flaggan till "false" för att få sök-och-ersätt
-// operation för att även söka efter text i fält.
+// Sätt flaggan "IgnoreFields" till "true" för att få sök-och-ersätt-funktionen
+// operation för att ignorera text inuti fält.
+// Sätt flaggan "IgnoreFields" till "false" för att få sök-och-ersätt-funktionen
+// operation för att även söka efter text inuti fält.
 options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);

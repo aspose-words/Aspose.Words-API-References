@@ -3,9 +3,9 @@ title: Paragraph.AppendField
 linktitle: AppendField
 articleTitle: AppendField
 second_title: Aspose.Words för .NET
-description: Paragraph AppendField metod. Lägger till ett fält i detta stycke i C#.
+description: Förbättra ditt dokument med metoden Paragraph AppendField, och lägg sömlöst till anpassade fält i stycken för förbättrad organisation och tydlighet.
 type: docs
-weight: 240
+weight: 260
 url: /sv/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
@@ -23,29 +23,29 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det bifogade fältet.
+En[`Field`](../../../aspose.words.fields/field/) objekt som representerar det tillagda fältet.
 
 ## Exempel
 
-Visar olika sätt att lägga till fält till ett stycke.
+Visar olika sätt att lägga till fält i ett stycke.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Nedan finns tre sätt att lägga till ett fält i slutet av ett stycke.
+// Nedan följer tre sätt att lägga till ett fält i slutet av ett stycke.
 // 1 - Lägg till ett DATUM-fält med en fälttyp och uppdatera det sedan:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Lägg till ett TID-fält med hjälp av en fältkod:
+ // 2 - Lägg till ett TIME-fält med hjälp av en fältkod:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Lägg till ett CITAT-fält med en fältkod och få det att visa ett platshållarvärde:
+// 3 - Lägg till ett QUOTE-fält med hjälp av en fältkod och få det att visa ett platshållarvärde:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Detta fält kommer att visa sitt platshållarvärde tills vi uppdaterar det.
+// Det här fältet visar sitt platshållarvärde tills vi uppdaterar det.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -73,33 +73,33 @@ public Field AppendField(string fieldCode)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fieldCode | String | Fältkoden som ska läggas till (utan hängslen). |
+| fieldCode | String | Fältkoden som ska läggas till (utan klammerparenteser). |
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det bifogade fältet.
+En[`Field`](../../../aspose.words.fields/field/) objekt som representerar det tillagda fältet.
 
 ## Exempel
 
-Visar olika sätt att lägga till fält till ett stycke.
+Visar olika sätt att lägga till fält i ett stycke.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Nedan finns tre sätt att lägga till ett fält i slutet av ett stycke.
+// Nedan följer tre sätt att lägga till ett fält i slutet av ett stycke.
 // 1 - Lägg till ett DATUM-fält med en fälttyp och uppdatera det sedan:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Lägg till ett TID-fält med hjälp av en fältkod:
+ // 2 - Lägg till ett TIME-fält med hjälp av en fältkod:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Lägg till ett CITAT-fält med en fältkod och få det att visa ett platshållarvärde:
+// 3 - Lägg till ett QUOTE-fält med hjälp av en fältkod och få det att visa ett platshållarvärde:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Detta fält kommer att visa sitt platshållarvärde tills vi uppdaterar det.
+// Det här fältet visar sitt platshållarvärde tills vi uppdaterar det.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -126,34 +126,34 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fieldCode | String | Fältkoden som ska läggas till (utan hängslen). |
-| fieldValue | String | Fältvärdet som ska läggas till. Passera`null` för fält som inte har ett värde. |
+| fieldCode | String | Fältkoden som ska läggas till (utan klammerparenteser). |
+| fieldValue | String | Fältvärdet som ska läggas till. Pass`null` för fält som inte har ett värde. |
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det bifogade fältet.
+En[`Field`](../../../aspose.words.fields/field/) objekt som representerar det tillagda fältet.
 
 ## Exempel
 
-Visar olika sätt att lägga till fält till ett stycke.
+Visar olika sätt att lägga till fält i ett stycke.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Nedan finns tre sätt att lägga till ett fält i slutet av ett stycke.
+// Nedan följer tre sätt att lägga till ett fält i slutet av ett stycke.
 // 1 - Lägg till ett DATUM-fält med en fälttyp och uppdatera det sedan:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Lägg till ett TID-fält med hjälp av en fältkod:
+ // 2 - Lägg till ett TIME-fält med hjälp av en fältkod:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Lägg till ett CITAT-fält med en fältkod och få det att visa ett platshållarvärde:
+// 3 - Lägg till ett QUOTE-fält med hjälp av en fältkod och få det att visa ett platshållarvärde:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Detta fält kommer att visa sitt platshållarvärde tills vi uppdaterar det.
+// Det här fältet visar sitt platshållarvärde tills vi uppdaterar det.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);

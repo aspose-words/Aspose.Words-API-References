@@ -3,14 +3,14 @@ title: ListTrailingCharacter Enum
 linktitle: ListTrailingCharacter
 articleTitle: ListTrailingCharacter
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Lists.ListTrailingCharacter uppräkning. Anger tecknet som skiljer listetiketten från texten i stycket i C#.
+description: Upptäck enumereringen Aspose.Words.Lists.ListTrailingCharacter för att anpassa listetiketter och förbättra styckeformateringen för en elegant dokumentpresentation.
 type: docs
-weight: 3540
+weight: 3990
 url: /sv/net/aspose.words.lists/listtrailingcharacter/
 ---
 ## ListTrailingCharacter enumeration
 
-Anger tecknet som skiljer listetiketten från texten i stycket.
+Anger tecknet som separerar listetiketten från styckets text.
 
 ```csharp
 public enum ListTrailingCharacter
@@ -20,26 +20,26 @@ public enum ListTrailingCharacter
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Tab | `0` | Ett tabbtecken placeras mellan listetiketten och texten i stycket. |
-| Space | `1` | Ett blanksteg placeras mellan listetiketten och texten i stycket. |
-| Nothing | `2` | Det finns inget skiljetecken mellan listetiketten och texten i stycket. |
+| Tab | `0` | Ett tabbtecken placeras mellan listetiketten och styckets text. |
+| Space | `1` | Ett mellanslag placeras mellan listetiketten och styckets text. |
+| Nothing | `2` | Det finns inget avgränsningstecken mellan listetiketten och styckets text. |
 
 ## Anmärkningar
 
-Används som ett värde för[`TrailingCharacter`](../listlevel/trailingcharacter/) fast egendom.
+Används som ett värde för[`TrailingCharacter`](../listlevel/trailingcharacter/) egendom.
 
 ## Exempel
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

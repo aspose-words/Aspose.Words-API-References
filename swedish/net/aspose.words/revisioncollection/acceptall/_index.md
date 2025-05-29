@@ -3,14 +3,14 @@ title: RevisionCollection.AcceptAll
 linktitle: AcceptAll
 articleTitle: AcceptAll
 second_title: Aspose.Words för .NET
-description: RevisionCollection AcceptAll metod. Accepterar alla versioner i denna samling i C#.
+description: Upptäck RevisionCollection AcceptAll-metoden för att sömlöst integrera alla revisioner, vilket förbättrar effektiviteten i ditt arbetsflöde och samarbetet.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection.AcceptAll method
 
-Accepterar alla versioner i denna samling.
+Accepterar alla revisioner i den här samlingen.
 
 ```csharp
 public void AcceptAll()
@@ -29,19 +29,19 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// Att jämföra dokument med revisioner ger ett undantag.
+// Jämförelse av dokument med revisioner kommer att utlösa ett undantag.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// Efter jämförelsen kommer originaldokumentet att få en ny version
-// för varje element som är olika i det redigerade dokumentet.
+// Efter jämförelsen kommer originaldokumentet att få en ny revision
+// för varje element som är annorlunda i det redigerade dokumentet.
 foreach (Revision r in docOriginal.Revisions)
 {
     Console.WriteLine($"Revision type: {r.RevisionType}, on a node of type \"{r.ParentNode.NodeType}\"");
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// Om du accepterar dessa ändringar förvandlas originaldokumentet till det redigerade dokumentet.
+// Om du accepterar dessa ändringar omvandlas originaldokumentet till det redigerade dokumentet.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());

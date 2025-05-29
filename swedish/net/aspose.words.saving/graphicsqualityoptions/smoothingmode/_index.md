@@ -3,7 +3,7 @@ title: GraphicsQualityOptions.SmoothingMode
 linktitle: SmoothingMode
 articleTitle: SmoothingMode
 second_title: Aspose.Words för .NET
-description: GraphicsQualityOptions SmoothingMode fast egendom. Hämtar eller ställer in renderingskvaliteten för denna grafik i C#.
+description: Upptäck egenskapen SmoothingMode i GraphicsQualityOptions för att förbättra renderingskvaliteten och höja grafikprestanda utan ansträngning.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
@@ -18,7 +18,7 @@ public SmoothingMode? SmoothingMode { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in alternativ för återgivningskvalitet när du konverterar dokument till bildformat.
+Visar hur man ställer in alternativ för renderingskvalitet vid konvertering av dokument till bildformat.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

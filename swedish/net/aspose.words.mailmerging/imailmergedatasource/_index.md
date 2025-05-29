@@ -3,14 +3,14 @@ title: IMailMergeDataSource Interface
 linktitle: IMailMergeDataSource
 articleTitle: IMailMergeDataSource
 second_title: Aspose.Words för .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource gränssnitt. Implementera detta gränssnitt för att tillåta sammanslagning av epost från en anpassad datakälla till exempel en lista med objekt. Masterdetalj data stöds också i C#.
+description: Lås upp kraftfull dokumentkoppling med Aspose.Words.MailMerging.IMailMergeDataSource. Anslut enkelt anpassade datakällor för sömlös dokumentautomation.
 type: docs
-weight: 3810
+weight: 4500
 url: /sv/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-Implementera detta gränssnitt för att tillåta sammanslagning av e-post från en anpassad datakälla, till exempel en lista med objekt. Master-detalj data stöds också.
+Implementera detta gränssnitt för att tillåta dokumentkoppling från en anpassad datakälla, till exempel en lista med objekt. Huvud- och detaljdata stöds också.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -26,17 +26,17 @@ public interface IMailMergeDataSource
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Aspose.Words kopplingsmotor anropar den här metoden när den stöter på början av en kapslad kopplingsregion. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | Aspose.Words-kopplingsmotorn anropar den här metoden när den stöter på början av ett kapslat kopplingsområde. |
 | [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | Returnerar ett värde för det angivna fältnamnet eller`falsk` om fältet inte hittas. |
-| [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Avancerar till nästa post i datakällan. |
+| [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | Går vidare till nästa post i datakällan. |
 
 ## Anmärkningar
 
-När en datakälla skapas ska den initieras så att den pekar på BOF (före den första posten). Aspose.Words e-postsammanfogningsmotor kommer att anropa[`MoveNext`](./movenext/) för att gå vidare till nästa post och anropa sedan[`GetValue`](./getvalue/) för varje kopplingsfält som det stöter på i dokumentet eller den aktuella kopplingsregionen.
+När en datakälla skapas bör den initieras så att den pekar på BOF (före den första posten). Aspose.Words-kopplingsmotorn kommer att anropa[`MoveNext`](./movenext/) för att gå vidare till nästa post och anropa sedan[`GetValue`](./getvalue/) för varje kopplingsfält som det påträffar i dokumentet eller det aktuella kopplade dokumentområdet.
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med en datakälla i form av ett anpassat objekt.
+Visar hur man utför en dokumentkoppling med en datakälla i form av ett anpassat objekt.
 
 ```csharp
 public void CustomDataSource()
@@ -53,7 +53,7 @@ public void CustomDataSource()
         new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
     };
 
-     // För att använda ett anpassat objekt som en datakälla måste det implementera IMailMergeDataSource-gränssnittet.
+     // För att använda ett anpassat objekt som datakälla måste det implementera IMailMergeDataSource-gränssnittet.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -77,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
- /// En anpassad kopplingsdatakälla som du implementerar för att tillåta Aspose.Words
-/// för att sammanfoga data från dina kundobjekt till Microsoft Word-dokument.
+ /// En anpassad datakälla för dokumentkoppling som du implementerar för att tillåta Aspose.Words
+/// för att koppla data från dina kundobjekt till Microsoft Word-dokument.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -91,7 +91,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Namnet på datakällan. Används endast av Aspose.Words när e-postsammanslagning med repeterbara regioner körs.
+    /// Namnet på datakällan. Används endast av Aspose.Words vid dokumentkoppling med repeterbara regioner.
     /// </summary>
     public string TableName
     {
@@ -99,7 +99,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words anropar denna metod för att få ett värde för varje datafält.
+    /// Aspose.Words anropar den här metoden för att hämta ett värde för varje datafält.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -112,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Returnera "false" till Aspose.Words kopplingsmotor för att beteckna
+                // Returnera "false" till Aspose.Words-kopplingsmotorn för att beteckna
                 // att vi inte kunde hitta ett fält med detta namn.
                 fieldValue = null;
                 return false;
@@ -120,7 +120,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// En standardimplementation för att flytta till nästa post i en samling.
+    /// En standardimplementering för att gå till nästa post i en samling.
     /// </summary>
     public bool MoveNext()
     {

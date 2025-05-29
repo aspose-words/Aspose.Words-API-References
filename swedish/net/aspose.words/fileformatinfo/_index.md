@@ -3,16 +3,16 @@ title: FileFormatInfo Class
 linktitle: FileFormatInfo
 articleTitle: FileFormatInfo
 second_title: Aspose.Words för .NET
-description: Aspose.Words.FileFormatInfo klass. Innehåller data som returneras avFileFormatUtil metoder för identifiering av dokumentformat i C#.
+description: Upptäck klassen Aspose.Words.FileFormatInfo för effektiv identifiering av dokumentformat. Få tillgång till detaljerad data för att förbättra dina filhanteringslösningar.
 type: docs
-weight: 2810
+weight: 3220
 url: /sv/net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
 
-Innehåller data som returneras av[`FileFormatUtil`](../fileformatutil/) metoder för identifiering av dokumentformat.
+Innehåller data som returneras av[`FileFormatUtil`](../fileformatutil/) metoder för dokumentformatdetektering.
 
-För att lära dig mer, besök[Upptäck filformat och kontrollera formatkompatibilitet](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokumentationsartikel.
+För att lära dig mer, besök[Identifiera filformat och kontrollera formatkompatibilitet](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) dokumentationsartikel.
 
 ```csharp
 public class FileFormatInfo
@@ -22,24 +22,25 @@ public class FileFormatInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Hämtar den upptäckta kodningen om det är tillämpligt för det aktuella dokumentformatet. Detekterar för närvarande kodning endast för HTML-dokument. |
-| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Returnerar`Sann`om detta dokument innehåller en digital signatur. Den här egenskapen informerar bara om att en digital signatur finns på ett dokument, men den anger inte om signaturen är giltig eller inte. |
-| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Returnerar`Sann` om dokumentet är krypterat och kräver ett lösenord för att öppnas. |
-| [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Hämtar det upptäckta dokumentformatet. |
+| [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Hämtar den detekterade kodningen om den är tillämplig för det aktuella dokumentformatet. För närvarande identifieras kodning endast för HTML-dokument. |
+| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Returer`sann`om detta dokument innehåller en digital signatur. Den här egenskapen informerar bara om att en digital signatur finns på ett dokument, men den anger inte om signaturen är giltig eller inte. |
+| [HasMacros](../../aspose.words/fileformatinfo/hasmacros/) { get; } | Returer`sann` om det här dokumentet innehåller VBA-makro. |
+| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Returer`sann` om dokumentet är krypterat och kräver ett lösenord för att öppnas. |
+| [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Hämtar det detekterade dokumentformatet. |
 
 ## Anmärkningar
 
-Du skapar inte instanser av den här klassen direkt. Objekt av denna klass returneras av [`DetectFileFormat`](../fileformatutil/detectfileformat/) metoder.
+Du skapar inte instanser av den här klassen direkt. Objekt i den här klassen returneras av [`DetectFileFormat`](../fileformatutil/detectfileformat/) metoder.
 
 ## Exempel
 
-Visar hur du använder klassen FileFormatUtil för att upptäcka dokumentformat och kryptering.
+Visar hur man använder FileFormatUtil-klassen för att identifiera dokumentformat och kryptering.
 
 ```csharp
 Document doc = new Document();
 
 // Konfigurera ett SaveOptions-objekt för att kryptera dokumentet
-// med ett lösenord när vi sparar det, och sedan spara dokumentet.
+// med ett lösenord när vi sparar det, och sedan sparar vi dokumentet.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
@@ -52,7 +53,7 @@ Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.True(info.IsEncrypted);
 ```
 
-Visar hur du använder klassen FileFormatUtil för att upptäcka dokumentformatet och förekomsten av digitala signaturer.
+Visar hur man använder FileFormatUtil-klassen för att identifiera dokumentformat och förekomst av digitala signaturer.
 
 ```csharp
 // Använd en FileFormatInfo-instans för att verifiera att ett dokument inte är digitalt signerat.
@@ -62,8 +63,9 @@ Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 // Använd en ny FileFormatInstance för att bekräfta att den är signerad.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");

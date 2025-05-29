@@ -3,14 +3,14 @@ title: ChartAxis.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
 second_title: Aspose.Words för .NET
-description: ChartAxis NumberFormat fast egendom. Returnerar enChartNumberFormat objekt som tillåter att definiera talformat för axeln i C#.
+description: Upptäck egenskapen ChartAxis NumberFormat för att enkelt anpassa diagrammets talformat med ChartNumberFormat-objektet för förbättrad datavisualisering.
 type: docs
-weight: 190
+weight: 200
 url: /sv/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
 
-Returnerar en[`ChartNumberFormat`](../../chartnumberformat/) objekt som tillåter att definiera talformat för axeln.
+Returnerar en[`ChartNumberFormat`](../../chartnumberformat/) objekt som tillåter definition av talformat för axeln.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -18,7 +18,7 @@ public ChartNumberFormat NumberFormat { get; }
 
 ## Exempel
 
-Visar hur du ställer in formatering för diagramvärden.
+Visar hur man ställer in formatering för diagramvärden.
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ Chart chart = shape.Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Lägg till en anpassad serie till diagrammet med kategorier för X-axeln,
+// Lägg till en anpassad serie i diagrammet med kategorier för X-axeln,
  // och stora respektive numeriska värden för Y-axeln.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Ställ in nummerformatet för Y-axelns bocketiketter för att inte gruppera siffror med kommatecken.
+ // Ställ in talformatet för Y-axelns tick-etiketter så att siffror inte grupperas med kommatecken.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Den här flaggan kan åsidosätta ovanstående värde och rita talformatet från källcellen.
+// Denna flagga kan åsidosätta ovanstående värde och hämta talformatet från källcellen.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

@@ -3,14 +3,14 @@ title: PdfSaveOptions.ImageColorSpaceExportMode
 linktitle: ImageColorSpaceExportMode
 articleTitle: ImageColorSpaceExportMode
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions ImageColorSpaceExportMode fast egendom. Anger hur färgrymden kommer att väljas för bilderna i PDFdokument i C#.
+description: Upptäck egenskapen PdfSaveOptions ImageColorSpaceExportMode för att optimera bildfärgsvalet i dina PDF-filer för fantastisk visuell kvalitet och konsekvens.
 type: docs
 weight: 190
 url: /sv/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions.ImageColorSpaceExportMode property
 
-Anger hur färgrymden kommer att väljas för bilderna i PDF-dokument.
+Anger hur färgrymden ska väljas för bilderna i PDF-dokumentet.
 
 ```csharp
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
@@ -20,13 +20,13 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 Standardvärdet ärAuto .
 
-OmSimpleCmyk värde är specificerat, [`ImageCompression`](../imagecompression/) alternativet ignoreras och Flate komprimering används för alla bilder i dokumentet.
+OmSimpleCmyk värdet är angivet, [`ImageCompression`](../imagecompression/) alternativet ignoreras och Plattkomprimering används för alla bilder i dokumentet.
 
-SimpleCmyk värde stöds inte när du sparar till PDF/A. Auto värde kommer att användas istället.
+SimpleCmyk värdet stöds inte vid sparning till PDF/A. Auto värdet kommer att användas istället.
 
 ## Exempel
 
-Visar hur man ställer in en annan färgrymd för bilder i ett dokument när vi exporterar det till PDF.
+Visar hur man ställer in ett annat färgutrymme för bilder i ett dokument när vi exporterar det till PDF.
 
 ```csharp
 Document doc = new Document();
@@ -38,16 +38,16 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
 // Ställ in egenskapen "ImageColorSpaceExportMode" till "PdfImageColorSpaceExportMode.Auto" för att få Aspose.Words till
-// väljer automatiskt färgrymden för bilder i dokumentet som det konverterar till PDF.
+// väljer automatiskt färgrymden för bilder i dokumentet som konverteras till PDF.
 // I de flesta fall kommer färgrymden att vara RGB.
 // Ställ in egenskapen "ImageColorSpaceExportMode" till "PdfImageColorSpaceExportMode.SimpleCmyk"
 // för att använda CMYK-färgrymden för alla bilder i den sparade PDF-filen.
-// Aspose.Words kommer också att tillämpa Flate-komprimering på alla bilder och ignorerar "ImageCompression"-egenskapens värde.
+// Aspose.Words kommer också att tillämpa Flate-komprimering på alla bilder och ignorera värdet på egenskapen "ImageCompression".
 pdfSaveOptions.ImageColorSpaceExportMode = pdfImageColorSpaceExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveOptions);

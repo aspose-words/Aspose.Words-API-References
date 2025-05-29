@@ -3,9 +3,9 @@ title: Style.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: Style Remove metod. Tar bort den angivna stilen från dokumentet i C#.
+description: Ta enkelt bort oönskade stilar från ditt dokument med metoden Style Remove. Förbättra ditt innehålls utseende och bibehåll konsekvens!
 type: docs
-weight: 190
+weight: 230
 url: /sv/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -18,11 +18,11 @@ public void Remove()
 
 ## Anmärkningar
 
-Formatborttagning har följande effekter på dokumentmodellen:
+Borttagning av stil har följande effekter på dokumentmodellen:
 
-* Alla referenser till stilen tas bort från motsvarande stycken, körningar och tabeller.
-* Om basstilen tas bort flyttas dess formatering till underordnade stilar.
-* Om stilen som ska raderas har en länkad stil raderas båda dessa.
+* Alla referenser till stilen tas bort från motsvarande stycken, avsnitt och tabeller.
+* Om basstilen tas bort flyttas dess formatering till understilar.
+* Om stilen som ska tas bort har en länkad stil, tas båda dessa bort.
 
 ## Exempel
 
@@ -40,7 +40,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Tillämpa en av stilarna från dokumentet på stycket som dokumentbyggaren skapar.
+// Använd en av formaten från dokumentet på stycket som dokumentbyggaren skapar.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 

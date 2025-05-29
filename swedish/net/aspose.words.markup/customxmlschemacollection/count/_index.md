@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: CustomXmlSchemaCollection Count fast egendom. Hämtar antalet element som finns i samlingen i C#.
+description: Upptäck egenskapen CustomXmlSchemaCollection Count för att enkelt hämta det totala antalet element i din XML-schemasamling. Optimera din datahantering!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/customxmlschemacollection/count/
@@ -39,15 +39,15 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Räkna upp scheman och skriv ut varje element.
+// Räkna upp schemana och skriv ut varje element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nedan finns tre sätt att ta bort scheman från samlingen.
-// 1 - Ta bort ett schema efter index:
+// Nedan följer tre sätt att ta bort scheman från samlingen.
+// 1 - Ta bort ett schema via index:
 schemas.RemoveAt(2);
 
 // 2 - Ta bort ett schema efter värde:

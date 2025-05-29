@@ -3,14 +3,14 @@ title: FieldTC.OmitPageNumber
 linktitle: OmitPageNumber
 articleTitle: OmitPageNumber
 second_title: Aspose.Words för .NET
-description: FieldTC OmitPageNumber fast egendom. Hämtar eller ställer in om sidnummer i innehållsförteckningen ska utelämnas för detta fält i C#.
+description: Upptäck egenskapen FieldTC OmitPageNumber – styr synligheten av sidnumret i innehållsförteckningen för förbättrad dokumenttydlighet och professionalism.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldtc/omitpagenumber/
 ---
 ## FieldTC.OmitPageNumber property
 
-Hämtar eller ställer in om sidnummer i innehållsförteckningen ska utelämnas för detta fält.
+Hämtar eller anger om sidnumret i innehållsförteckningen ska utelämnas för detta fält.
 
 ```csharp
 public bool OmitPageNumber { get; set; }
@@ -18,7 +18,7 @@ public bool OmitPageNumber { get; set; }
 
 ## Exempel
 
-Visar hur man infogar ett TOC-fält och filtrerar vilka TC-fält som slutar som poster.
+Visar hur man infogar ett innehållsförteckningsfält och filtrerar vilka innehållsförteckningsfält som slutar som poster.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Infoga ett TOC-fält, som kommer att kompilera alla TC-fält till en innehållsförteckning.
+    // Infoga ett innehållsförteckningsfält, vilket sammanställer alla TC-fält till en innehållsförteckning.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Konfigurera fältet endast för att ta upp TC-poster av typen "A" och en ingångsnivå mellan 1 och 3.
+    // Konfigurera fältet för att endast hämta TC-poster av typen "A" och en ingångsnivå mellan 1 och 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 

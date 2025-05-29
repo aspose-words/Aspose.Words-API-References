@@ -3,7 +3,7 @@ title: SignOptions
 linktitle: SignOptions
 articleTitle: SignOptions
 second_title: Aspose.Words för .NET
-description: SignOptions byggare. Default_Constructor i C#.
+description: Upptäck SignOptions, den mångsidiga konstruktören designad för enkel anpassning och sömlös integration. Lås upp unika funktioner för dina projekt idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.digitalsignatures/signoptions/signoptions/

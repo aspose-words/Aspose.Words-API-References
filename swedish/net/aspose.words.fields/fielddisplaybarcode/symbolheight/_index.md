@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words för .NET
-description: FieldDisplayBarcode SymbolHeight fast egendom. Hämtar eller ställer in höjden på symbolen. Enheterna är i TWIPS 1/1440 tum i C#.
+description: Justera egenskapen SymbolHeight för FieldDisplayBarcode för att anpassa streckkodshöjden i TWIPS. Förbättra din streckkodsvisning med precision!
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/fielddisplaybarcode/symbolheight/
 ---
 ## FieldDisplayBarcode.SymbolHeight property
 
-Hämtar eller ställer in höjden på symbolen. Enheterna är i TWIPS (1/1440 tum).
+Hämtar eller ställer in symbolens höjd. Enheterna är i TWIPS (1/1440 tum).
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -18,7 +18,7 @@ public string SymbolHeight { get; set; }
 
 ## Exempel
 
-Visar hur man infogar ett DISPLAYBARCODE-fält och ställer in dess egenskaper.
+Visar hur man infogar ett DISPLAYBARCODE-fält och anger dess egenskaper.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Nedan finns fyra typer av streckkoder, dekorerade på olika sätt, som fältet DISPLAYBARCODE kan visa.
+// Nedan visas fyra typer av streckkoder, dekorerade på olika sätt, som fältet DISPLAYBARCODE kan visa.
 // 1 - QR-kod med anpassade färger:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - EAN13 streckkod, med siffrorna under strecken:
+// 2 - EAN13-streckkod, med siffrorna som visas under staplarna:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4 streckkod, med en specificerad fallkod:
+// 4 - ITF4-streckkod, med en specificerad ärendekod:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

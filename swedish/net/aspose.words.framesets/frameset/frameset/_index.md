@@ -3,7 +3,7 @@ title: Frameset
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words för .NET
-description: Frameset byggare. Default_Constructor i C#.
+description: Skapa enkelt fantastiska ramar med vår mångsidiga ramuppsättningskonstruktör. Njut av sömlös anpassning och höj din webbdesign idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.framesets/frameset/frameset/

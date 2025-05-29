@@ -3,14 +3,14 @@ title: Stroke.EndArrowWidth
 linktitle: EndArrowWidth
 articleTitle: EndArrowWidth
 second_title: Aspose.Words för .NET
-description: Stroke EndArrowWidth fast egendom. Definierar pilspetsens bredd för slutet av ett streck i C#.
+description: Upptäck egenskapen Stroke EndArrowWidth för att anpassa pilspetsbredden för penseldrag, vilket förbättrar din designprecision och visuella attraktionskraft.
 type: docs
-weight: 70
+weight: 100
 url: /sv/net/aspose.words.drawing/stroke/endarrowwidth/
 ---
 ## Stroke.EndArrowWidth property
 
-Definierar pilspetsens bredd för slutet av ett streck.
+Definierar pilspetsbredden för slutet av ett penseldrag.
 
 ```csharp
 public ArrowWidth EndArrowWidth { get; set; }
@@ -22,15 +22,15 @@ Standardvärdet ärMedium.
 
 ## Exempel
 
-Visar för att skapa en mängd olika former.
+Visar hur man skapar en mängd olika former.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns fyra exempel på former som vi kan infoga i våra dokument.
+// Nedan följer fyra exempel på former som vi kan infoga i våra dokument.
 // 1 - Prickad, horisontell, halvtransparent röd linje
-// med en pil till vänster och en romb till höger:
+// med en pil i vänster ände och en diamant i höger ände:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Pil med en vänd orientering fylld i med Aspose-logotypen:
+// 4 - Pil med en omvänd orientering fylld med Aspose-logotypen:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // När vi vänder på riktningen på vår pil vänder vi också bilden som pilen innehåller.
-    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen att visa den.
+    // När vi vänder orienteringen på vår pil, vänder vi också bilden som pilen innehåller.
+    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen för att visa den.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

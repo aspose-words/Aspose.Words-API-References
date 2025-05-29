@@ -3,14 +3,14 @@ title: ShapeBase.WrapType
 linktitle: WrapType
 articleTitle: WrapType
 second_title: Aspose.Words för .NET
-description: ShapeBase WrapType fast egendom. Definierar om formen är inline eller flytande. För flytande former definierar lindningsläget för text runt formen i C#.
+description: Upptäck ShapeBase WrapType-egenskapen, styr inbäddade eller flytande former och anpassa textbrytning för ökad layoutflexibilitet.
 type: docs
-weight: 600
+weight: 640
 url: /sv/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-Definierar om formen är inline eller flytande. För flytande former definierar lindningsläget för text runt formen.
+Definierar om formen är inbäddad eller flytande. För flytande former definieras radbrytningsläget för text runt formen.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -20,7 +20,7 @@ public WrapType WrapType { get; set; }
 
 Standardvärdet ärNone.
 
-Har effekt endast för former på högsta nivå.
+Har endast effekt för former på översta nivån.
 
 ## Exempel
 
@@ -30,7 +30,7 @@ Visar hur man infogar en flytande bild i mitten av en sida.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en flytande bild som kommer att visas bakom den överlappande texten och justera den mot sidans mitt.
+// Infoga en flytande bild som visas bakom den överlappande texten och justera den mot sidans mitt.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -57,7 +57,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Lägg till ett stycke i textrutan och lägg till en serie text som textrutan kommer att visa.
+// Lägg till ett stycke i textrutan och lägg till en textsekvens som textrutan ska visa.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

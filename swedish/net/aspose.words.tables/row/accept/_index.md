@@ -3,14 +3,14 @@ title: Row.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words för .NET
-description: Row Accept metod. Accepterar en besökare i C#.
+description: Upptäck Row Accept-metoden, utformad för att förbättra besökarnas engagemang och effektivisera användarinteraktioner för att din webbplats ska bli framgångsrik.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.tables/row/accept/
 ---
 ## Row.Accept method
 
-Accepterar en besökare.
+Tar emot en besökare.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,15 +22,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan alla noder besöktes.
 
 ## Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Räknar upp denna nod och alla dess underordnade noder. Varje nod anropar en motsvarande metod.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-För mer information se Visitor design mönster.
+För mer information, se designmönstret för besökare.
 
-Samtal[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , sedan ringer[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder i avsnittet och anrop[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) i slutet.
+Samtal[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) , ringer sedan[`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder till section och anrop[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) i slutet.
 
 ## Exempel
 
@@ -43,7 +43,7 @@ public void TableToText()
     TableStructurePrinter visitor = new TableStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -51,8 +51,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade tabellnoder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade tabellnoder och deras undernoder.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -68,8 +68,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
-    /// Körningar som inte finns i tabeller registreras inte.
+    /// Anropas när en Run-nod påträffas i dokumentet.
+    /// Körningar som inte finns inom tabeller registreras inte.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -100,7 +100,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Kallas efter att alla undernoder i en tabellnod har besökts.
+    /// Anropas efter att alla undernoder till en tabellnod har besökts.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -132,7 +132,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en radnod har besökts.
+    /// Anropas efter att alla undernoder till en radnod har besökts.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -162,7 +162,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en cellnod har besökts.
+    /// Anropas efter att alla undernoder till en Cell-nod har besökts.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -172,10 +172,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djup besökaren är
-    /// i den aktuella tabellens träd med underordnade noder.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig
+    /// in i den aktuella tabellens träd med underordnade noder.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

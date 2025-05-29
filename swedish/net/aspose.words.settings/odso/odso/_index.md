@@ -3,7 +3,7 @@ title: Odso
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words för .NET
-description: Odso byggare. Default_Constructor i C#.
+description: Upptäck Odso-konstruktorn, din lösning för effektiv standardkonstruktion i programmering. Förenkla din kod och förbättra prestandan idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.settings/odso/odso/

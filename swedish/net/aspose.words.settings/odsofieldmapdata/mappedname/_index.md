@@ -3,14 +3,14 @@ title: OdsoFieldMapData.MappedName
 linktitle: MappedName
 articleTitle: MappedName
 second_title: Aspose.Words för .NET
-description: OdsoFieldMapData MappedName fast egendom. Anger det fördefinierade sammanslagningsfältets namn som ska mappas till kolumnnumret som anges avColumn egenskap inom denna fältmappning. Standardvärdet är en tom sträng i C#.
+description: Upptäck egenskapen OdsoFieldMapData MappedName, som länkar namn på kopplingsfält till angivna kolumner, vilket förbättrar effektiviteten och noggrannheten i datamappningen.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
 ## OdsoFieldMapData.MappedName property
 
-Anger det fördefinierade sammanslagningsfältets namn som ska mappas till kolumnnumret som anges av[`Column`](../column/) egenskap inom denna fältmappning. Standardvärdet är en tom sträng.
+Anger det fördefinierade kopplingsfältnamnet som ska mappas till kolumnnumret som anges av[`Column`](../column/) egenskap inom denna fältmappning. Standardvärdet är en tom sträng.
 
 ```csharp
 public string MappedName { get; set; }
@@ -18,13 +18,13 @@ public string MappedName { get; set; }
 
 ## Exempel
 
-Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
+Visar hur man kommer åt datasamlingen som mappar datakällkolumner till kopplingsfält.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Den här samlingen definierar hur en sammanslagning kommer att mappa kolumner från en datakälla
-// till fördefinierade fält MERGEFIELD, ADDRESSBLOCK och GREETINGLINE.
+// Denna samling definierar hur en dokumentkoppling mappar kolumner från en datakälla
+// till fördefinierade fält MERGEFIELD, ADDRESSBLOCK och GREETEINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -45,12 +45,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Klona elementen i den här samlingen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Använd "RemoveAt"-metodens element individuellt efter index.
+// Använd metodelementen "RemoveAt" individuellt efter index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Använd "Rensa"-metoden för att rensa hela samlingen på en gång.
+// Använd metoden "Rensa" för att rensa hela samlingen på en gång.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

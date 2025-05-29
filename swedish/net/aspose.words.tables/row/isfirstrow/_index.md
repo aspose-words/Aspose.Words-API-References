@@ -3,14 +3,14 @@ title: Row.IsFirstRow
 linktitle: IsFirstRow
 articleTitle: IsFirstRow
 second_title: Aspose.Words för .NET
-description: Row IsFirstRow fast egendom. True om detta är den första raden i en tabell falskt annars i C#.
+description: Upptäck egenskapen Row IsFirstRow, identifiera enkelt den första raden i en tabell. Förbättra din dataorganisation med denna viktiga funktion!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.tables/row/isfirstrow/
 ---
 ## Row.IsFirstRow property
 
-True om detta är den första raden i en tabell; falskt annars.
+Sant om detta är den första raden i en tabell; annars falskt.
 
 ```csharp
 public bool IsFirstRow { get; }
@@ -27,7 +27,7 @@ public void TableToText()
     TableStructurePrinter visitor = new TableStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -35,8 +35,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade tabellnoder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade tabellnoder och deras undernoder.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -52,8 +52,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
-    /// Körningar som inte finns i tabeller registreras inte.
+    /// Anropas när en Run-nod påträffas i dokumentet.
+    /// Körningar som inte finns inom tabeller registreras inte.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -84,7 +84,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Kallas efter att alla undernoder i en tabellnod har besökts.
+    /// Anropas efter att alla undernoder till en tabellnod har besökts.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -116,7 +116,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en radnod har besökts.
+    /// Anropas efter att alla undernoder till en radnod har besökts.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -146,7 +146,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en cellnod har besökts.
+    /// Anropas efter att alla undernoder till en Cell-nod har besökts.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -156,10 +156,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djup besökaren är
-    /// i den aktuella tabellens träd med underordnade noder.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig
+    /// in i den aktuella tabellens träd med underordnade noder.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

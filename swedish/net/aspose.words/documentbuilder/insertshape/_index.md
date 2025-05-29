@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertShape
 linktitle: InsertShape
 articleTitle: InsertShape
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertShape metod. Infogar inline form med angiven typ och storlek i C#.
+description: Lägg enkelt till anpassade inline-former med DocumentBuilders InsertShape-metod. Förbättra dina dokument med skräddarsydda bilder för effektfulla presentationer!
 type: docs
-weight: 430
+weight: 460
 url: /sv/net/aspose.words/documentbuilder/insertshape/
 ---
 ## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
 
-Infogar inline form med angiven typ och storlek.
+Infogar inbäddad form med angiven typ och storlek.
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, double width, double height)
@@ -34,17 +34,17 @@ Visar hur man infogar DML-former i ett dokument.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två typer av omslag som former kan ha.
+// Nedan följer två typer av omslag som former kan ha.
 // 1 - Flytande:
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - Inline:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// Om du behöver skapa "icke-primitiva" former, som SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded eller DiagonalCornersRounded,
-// spara sedan dokumentet med "Strict" eller "Transitional" compliance, vilket gör det möjligt att spara form som DML.
+// Om du behöver skapa "icke-primitiva" former, till exempel SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// ÖvreHörnEttRundatEttBeskärt, EnkeltHörnRundat, ÖvreHörnRundade eller DiagonalaHörnRundade,
+// spara sedan dokumentet med "Strict"- eller "Transitional"-kompatibilitet, vilket gör att formen kan sparas som DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "Shape.ShapeInsertion.docx", saveOptions);
 
 ## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertshape}
 
-Infogar fritt svävande form med angiven position, storlek och typ av textbrytning.
+Infogar fritt flytande form med angiven position, storlek och radbrytningstyp.
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos, double left, 
@@ -78,8 +78,8 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 | vertPos | RelativeVerticalPosition | Anger varifrån det vertikala avståndet till formen mäts. |
 | top | Double | Avstånd i punkter från origo till formens översida. |
 | width | Double | Formens bredd i punkter. |
-| height | Double | Formens bredd i punkter. |
-| wrapType | WrapType | Anger hur text lindas runt formen. |
+| height | Double | Formens höjd i punkter. |
+| wrapType | WrapType | Anger hur text ska radbrytas runt formen. |
 
 ### Returvärde
 
@@ -93,17 +93,17 @@ Visar hur man infogar DML-former i ett dokument.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två typer av omslag som former kan ha.
+// Nedan följer två typer av omslag som former kan ha.
 // 1 - Flytande:
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - Inline:
 builder.InsertShape(ShapeType.DiagonalCornersRounded, 50, 50);
 
-// Om du behöver skapa "icke-primitiva" former, som SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded eller DiagonalCornersRounded,
-// spara sedan dokumentet med "Strict" eller "Transitional" compliance, vilket gör det möjligt att spara form som DML.
+// Om du behöver skapa "icke-primitiva" former, till exempel SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+// ÖvreHörnEttRundatEttBeskärt, EnkeltHörnRundat, ÖvreHörnRundade eller DiagonalaHörnRundade,
+// spara sedan dokumentet med "Strict"- eller "Transitional"-kompatibilitet, vilket gör att formen kan sparas som DML.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.Compliance = OoxmlCompliance.Iso29500_2008_Transitional;
 

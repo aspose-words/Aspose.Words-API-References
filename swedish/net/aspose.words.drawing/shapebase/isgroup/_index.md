@@ -3,14 +3,14 @@ title: ShapeBase.IsGroup
 linktitle: IsGroup
 articleTitle: IsGroup
 second_title: Aspose.Words för .NET
-description: ShapeBase IsGroup fast egendom. ReturnerarSann om detta är en gruppform i C#.
+description: Upptäck ShapeBase IsGroup. Identifiera enkelt om en form är en grupp. Förbättra ditt designarbetsflöde med den här viktiga egenskapen för bättre organisation.
 type: docs
-weight: 260
+weight: 280
 url: /sv/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
 
-Returnerar`Sann` om detta är en gruppform.
+Returer`sann` om detta är en gruppform.
 
 ```csharp
 public bool IsGroup { get; }
@@ -18,7 +18,7 @@ public bool IsGroup { get; }
 
 ## Exempel
 
-Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
+Visar hur man skapar en grupp med former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
 ```csharp
 public void GroupOfShapes()
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Om du behöver skapa "NonPrimitive" former, som SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // använd DocumentBuilder.InsertShape metoder.
+    // Om du behöver skapa "Icke-primitiva" former, till exempel SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // ÖvreHörnEttRundatEttBeskärt, EnkeltHörnRundat, ÖvreHörnRundade, DiagonalaHörnRundade
+    // använd DocumentBuilder.InsertShape-metoderna.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

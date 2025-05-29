@@ -3,7 +3,7 @@ title: StyleCollection.AddCopy
 linktitle: AddCopy
 articleTitle: AddCopy
 second_title: Aspose.Words för .NET
-description: StyleCollection AddCopy metod. Kopierar en stil till den här samlingen i C#.
+description: Kopiera enkelt stilar med StyleCollection AddCopy-metoden. Förbättra ditt designarbetsflöde och effektivisera din stilhantering idag!
 type: docs
 weight: 70
 url: /sv/net/aspose.words/stylecollection/addcopy/
@@ -22,21 +22,21 @@ public Style AddCopy(Style style)
 
 ### Returvärde
 
-Kopierad stil redo för användning.
+Kopierad stil klar för användning.
 
 ## Anmärkningar
 
-Stil som ska kopieras kan tillhöra samma dokument såväl som till olika dokument.
+Stilen som ska kopieras kan tillhöra samma dokument såväl som ett annat dokument.
 
 Länkad stil kopieras.
 
 Den här metoden kopierar inte basstilar.
 
-Om samlingen redan innehåller en stil med samma namn, genereras det nya namnet automatiskt genom att lägga till suffixet "_number" med början från 0, t.ex. "Normal_0", "Rubrik 1_1" etc. Använd[`Name`](../../style/name/) för att ändra namnet på den importerade stilen.
+Om samlingen redan innehåller en stil med samma namn genereras det nya namnet automatiskt genom att lägga till suffixet "_number" som börjar från 0, t.ex. "Normal_0", "Rubrik 1_1" etc. Använd[`Name`](../../style/name/) inställare för att ändra namnet på den importerade stilen.
 
 ## Exempel
 
-Visar hur man importerar en stil från ett dokument till ett annat dokument.
+Visar hur man importerar en stil från ett dokument till ett annat.
 
 ```csharp
 Document srcDoc = new Document();
@@ -45,7 +45,7 @@ Document srcDoc = new Document();
 Style srcStyle = srcDoc.Styles.Add(StyleType.Paragraph, "MyStyle");
 srcStyle.Font.Color = Color.Red;
 
-// Importera källdokumentets anpassade stil till måldokumentet.
+// Importera källdokumentets anpassade stil till destinationsdokumentet.
 Document dstDoc = new Document();
 Style newStyle = dstDoc.Styles.AddCopy(srcStyle);
 
@@ -54,7 +54,7 @@ Assert.AreEqual("MyStyle", newStyle.Name);
 Assert.AreEqual(Color.Red.ToArgb(), newStyle.Font.Color.ToArgb());
 ```
 
-Visar hur man klona ett dokuments stil.
+Visar hur man klonar ett dokuments stil.
 
 ```csharp
 Document doc = new Document();
@@ -63,10 +63,10 @@ Document doc = new Document();
 // genererar automatiskt ett nytt namn för stilen, till exempel "Rubrik 1_0".
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// Använd stilens "Name"-egenskap för att ändra stilens identifierande namn.
+// Använd stilens "Namn"-egenskap för att ändra stilens identifierande namn.
 newStyle.Name = "My Heading 1";
 
-// Vårt dokument har nu två identiska stilar med olika namn.
+// Vårt dokument har nu två identiskt utseende stilar med olika namn.
 // Ändring av inställningar för en av stilarna påverkar inte den andra.
 newStyle.Font.Color = Color.Red;
 

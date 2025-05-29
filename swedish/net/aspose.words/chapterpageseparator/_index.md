@@ -3,14 +3,14 @@ title: ChapterPageSeparator Enum
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
 second_title: Aspose.Words för .NET
-description: Aspose.Words.ChapterPageSeparator uppräkning. Definierar avgränsningstecknet som visas mellan kapitel och sidnummer i C#.
+description: Upptäck enumereringen Aspose.Words.ChapterPageSeparator för att anpassa kapitel- och sidnummeravgränsare för förbättrad dokumentformatering och tydlighet.
 type: docs
-weight: 200
+weight: 390
 url: /sv/net/aspose.words/chapterpageseparator/
 ---
 ## ChapterPageSeparator enumeration
 
-Definierar avgränsningstecknet som visas mellan kapitel och sidnummer.
+Definierar avgränsartecknet som visas mellan kapitel- och sidnumret.
 
 ```csharp
 public enum ChapterPageSeparator
@@ -23,8 +23,8 @@ public enum ChapterPageSeparator
 | Hyphen | `0` | Ett kolon. |
 | Period | `1` | En punkt. |
 | Colon | `2` | Ett kolon. |
-| EmDash | `3` | Ett betonat streck. |
-| EnDash | `4` | Ett standardstreck. |
+| EmDash | `3` | Ett betonat bindestreck. |
+| EnDash | `4` | Ett vanligt streck. |
 
 ## Exempel
 

@@ -3,14 +3,14 @@ title: Document.ExtractPages
 linktitle: ExtractPages
 articleTitle: ExtractPages
 second_title: Aspose.Words för .NET
-description: Document ExtractPages metod. ReturnerarDocument objekt som representerar specificerat intervall av sidor i C#.
+description: Upptäck Document ExtractPages-metoden för att enkelt hämta specifika sidintervall, vilket förbättrar din dokumenthantering och effektivitet.
 type: docs
-weight: 600
+weight: 640
 url: /sv/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
 
-Returnerar[`Document`](../) objekt som representerar specificerat intervall av sidor.
+Returnerar[`Document`](../) objekt som representerar ett angivet sidintervall.
 
 ```csharp
 public Document ExtractPages(int index, int count)
@@ -23,11 +23,11 @@ public Document ExtractPages(int index, int count)
 
 ## Anmärkningar
 
-Det resulterande dokumentet ska se ut som det i MS Word, som om vi hade utfört 'Skriv ut specifika sidor' – numreringen, sidhuvuden/sidfötter och korstabelllayouten kommer att bevaras. Men på grund av ett stort antal nyanser, visas samtidigt som man minskar antalet sidor, är fullständig matchning av layouten en tyst och komplicerad uppgift som kräver mycket ansträngning. Beroende på dokumentets komplexitet kan det finnas små skillnader i den resulterande dokumentinnehållslayouten jämfört med källdokumentet. All feedback skulle vara mycket uppskattad.
+Det resulterande dokumentet ska se ut som det i MS Word, som om vi hade utfört "Skriv ut specifika sidor" – numreringen, sidhuvuden/sidfötter och layouten för korstabeller kommer att behållas. Men på grund av ett stort antal nyanser, som uppstår när antalet sidor minskas, är fullständig matchning av layouten en ganska komplicerad uppgift som kräver mycket ansträngning. Beroende på dokumentets komplexitet kan det finnas små skillnader i layouten för det resulterande dokumentinnehållet jämfört med källdokumentet. All feedback uppskattas mycket.
 
 ## Exempel
 
-Visar hur man får specificerat sidintervall från dokumentet.
+Visar hur man hämtar ett angivet sidintervall från dokumentet.
 
 ```csharp
 Document doc = new Document(MyDir + "Layout entities.docx");

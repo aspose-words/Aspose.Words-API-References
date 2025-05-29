@@ -3,14 +3,14 @@ title: FieldNoteRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words för .NET
-description: FieldNoteRef InsertHyperlink fast egendom. Hämtar eller ställer in om en hyperlänk ska infogas till det bokmärkta stycket i C#.
+description: Upptäck FieldNoteRef InsertHyperlink-egenskapen och hantera enkelt hyperlänkinfogning för bokmärkta stycken för att förbättra dokumentets interaktivitet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldnoteref/inserthyperlink/
 ---
 ## FieldNoteRef.InsertHyperlink property
 
-Hämtar eller ställer in om en hyperlänk ska infogas till det bokmärkta stycket.
+Hämtar eller anger om en hyperlänk ska infogas till det bokmärkta stycket.
 
 ```csharp
 public bool InsertHyperlink { get; set; }
@@ -18,7 +18,7 @@ public bool InsertHyperlink { get; set; }
 
 ## Exempel
 
-Visar för att infoga NOTEREF-fält och ändra deras utseende.
+Visar hur man infogar NOTEREF-fält och ändrar deras utseende.
 
 ```csharp
 public void FieldNoteRef()
@@ -26,7 +26,7 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Skapa ett bokmärke med en fotnot som NOTEREF-fältet refererar till.
+    // Skapa ett bokmärke med en fotnot som NOTEREF-fältet ska referera till.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
     // Detta NOTEREF-fält visar numret på fotnoten inuti det refererade bokmärket.
@@ -34,13 +34,13 @@ public void FieldNoteRef()
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // När du använder flaggan \p, efter fotnotsnumret, visar fältet även bokmärkets position i förhållande till fältet.
-    // Bokmärke1 är ovanför detta fält och innehåller fotnot nummer 1, så resultatet blir "1 ovan" vid uppdatering.
+    // När man använder \p-flaggan, efter fotnotsnumret, visar fältet även bokmärkets position i förhållande till fältet.
+    // Bokmärke1 finns ovanför detta fält och innehåller fotnot nummer 1, så resultatet blir "1 ovanför" vid uppdatering.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // Bokmärke2 är under detta fält och innehåller fotnot nummer 2, så fältet kommer att visa "2 nedan".
-    // Flaggan \f gör att siffran 2 visas i samma format som fotnotsnummeretiketten i själva texten.
+    // Bokmärke2 finns under detta fält och innehåller fotnot nummer 2, så fältet kommer att visa "2 nedan".
+    // Flaggan \f gör att siffran 2 visas i samma format som fotnotens numreringsetikett i den faktiska texten.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 
@@ -53,7 +53,7 @@ public void FieldNoteRef()
 }
 
 /// <summary>
-/// Använder en dokumentbyggare för att infoga ett NOTEREF-fält med specificerade egenskaper.
+/// Använder en dokumentbyggare för att infoga ett NOTEREF-fält med angivna egenskaper.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {

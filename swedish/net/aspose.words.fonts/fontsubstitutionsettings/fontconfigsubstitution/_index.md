@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.FontConfigSubstitution
 linktitle: FontConfigSubstitution
 articleTitle: FontConfigSubstitution
 second_title: Aspose.Words för .NET
-description: FontSubstitutionSettings FontConfigSubstitution fast egendom. Inställningar relaterade till regel för teckensnittskonfigurationsersättning i C#.
+description: Utforska FontSubstitutionSettings för optimerad typsnittskonfiguration. Upptäck hur du kan förbättra typografi med effektiva ersättningsregler för bättre design.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
 ---
 ## FontSubstitutionSettings.FontConfigSubstitution property
 
-Inställningar relaterade till regel för teckensnittskonfigurationsersättning.
+Inställningar relaterade till ersättningsregel för teckensnittskonfiguration.
 
 ```csharp
 public FontConfigSubstitutionRule FontConfigSubstitution { get; }
@@ -28,8 +28,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule-objektet fungerar annorlunda på Windows/icke-Windows-plattformar.
-// På Windows är det inte tillgängligt.
+// FontConfigSubstitutionRule-objektet fungerar olika på Windows- och icke-Windows-plattformar.
+// På Windows är den inte tillgänglig.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// På Linux/Mac kommer vi att ha tillgång till det och kommer att kunna utföra operationer.
+// På Linux/Mac kommer vi att ha tillgång till det och kunna utföra operationer.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

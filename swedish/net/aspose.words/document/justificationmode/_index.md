@@ -3,14 +3,14 @@ title: Document.JustificationMode
 linktitle: JustificationMode
 articleTitle: JustificationMode
 second_title: Aspose.Words för .NET
-description: Document JustificationMode fast egendom. Hämtar eller ställer in teckenavståndsjusteringen för ett dokument i C#.
+description: Upptäck hur du optimerar teckenavståndet i ditt dokument med egenskapen JustificationMode. Förbättra läsbarheten och presentationen utan ansträngning!
 type: docs
-weight: 230
+weight: 240
 url: /sv/net/aspose.words/document/justificationmode/
 ---
 ## Document.JustificationMode property
 
-Hämtar eller ställer in teckenavståndsjusteringen för ett dokument.
+Hämtar eller ställer in justeringen av teckenavståndet för ett dokument.
 
 ```csharp
 public JustificationMode JustificationMode { get; set; }
@@ -24,7 +24,7 @@ Visar hur man hanterar teckenavståndskontroll.
 Document doc = new Document(MyDir + "Document.docx");
 
 JustificationMode justificationMode = doc.JustificationMode;
-if (justificationMode == JustificationMode.Expand)                
+if (justificationMode == JustificationMode.Expand)
     doc.JustificationMode = JustificationMode.Compress;
 
 doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");

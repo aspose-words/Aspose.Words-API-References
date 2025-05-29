@@ -3,14 +3,14 @@ title: ChartYValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: ChartYValueCollection Count fast egendom. Hämtar antalet föremål i den här samlingen i C#.
+description: Upptäck egenskapen ChartYValueCollection Count för att enkelt komma åt det totala antalet objekt i din datasamling för förbättrad datahantering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartyvaluecollection/count/
 ---
 ## ChartYValueCollection.Count property
 
-Hämtar antalet föremål i den här samlingen.
+Hämtar antalet objekt i den här samlingen.
 
 ```csharp
 public int Count { get; }

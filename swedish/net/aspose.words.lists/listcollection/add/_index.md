@@ -3,7 +3,7 @@ title: ListCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: ListCollection Add metod. Skapar en ny lista baserad på en fördefinierad mall och lägger till den i samlingen av listor i dokumentet i C#.
+description: Upptäck hur ListCollection Add-metoden skapar anpassade listor från mallar, vilket förbättrar dokumentets organisation och effektivitet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.lists/listcollection/add/
@@ -26,9 +26,9 @@ Den nyskapade listan.
 
 ## Anmärkningar
 
-Aspose.Words listmallar motsvarar de 21 listmallarna available i dialogrutan Bullets and Numbering i Microsoft Word 2003.
+Aspose.Words-listmallarna motsvarar de 21 listmallarna som finns tillgängliga i dialogrutan Punkter och numrering i Microsoft Word 2003.
 
-Alla listor som skapas med denna metod har 9 listnivåer.
+Alla listor som skapas med den här metoden har 9 listnivåer.
 
 ## Exempel
 
@@ -44,34 +44,34 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
-List list = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
+List docList = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 1;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
-Visar hur man startar om numrering i en lista genom att kopiera en lista.
+Visar hur man startar om numreringen i en lista genom att kopiera en lista.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Skapa en lista från en Microsoft Word-mall och anpassa dess första listnivå.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Tillämpa vår lista på några stycken.
+// Tillämpa vår lista på vissa stycken.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -80,7 +80,7 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// Vi kan lägga till en kopia av en befintlig lista till dokumentets listsamling
+// Vi kan lägga till en kopia av en befintlig lista i dokumentets listsamling
 // för att skapa en liknande lista utan att göra ändringar i originalet.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
@@ -106,18 +106,18 @@ Assert.False(builder.ListFormat.IsListItem);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Nedan följer två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
 // 1 - En numrerad lista:
-// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje objekt.
+// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje element.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
 // Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
-// för att starta en fristående underlista vid det aktuella listobjektet.
-// Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
+// för att börja en fristående underlista vid det aktuella listobjektet.
+// Listmallen i Microsoft Word som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
  // Djupare listnivåer använder bokstäver och gemener romerska siffror.
 for (int i = 0; i < 9; i++)
 {
@@ -126,8 +126,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - En punktlista:
-// Denna lista kommer att tillämpa ett indrag och en punktsymbol ("•") före varje stycke.
-// Djupare nivåer i den här listan kommer att använda olika symboler, som "■" och "○".
+// Den här listan kommer att lägga till ett indrag och en punktsymbol ("•") före varje stycke.
+// Djupare nivåer i den här listan kommer att använda andra symboler, såsom "■" och "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -136,7 +136,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera "List"-flaggan.
+// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera flaggan "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -172,19 +172,19 @@ Den nyskapade listan.
 
 ## Anmärkningar
 
-Den nyskapade listan refererar till liststilen. Om du ändrar egenskaperna för list -stilen återspeglas det i listans egenskaper. Vice versa, om du ändrar egenskaperna för listan, återspeglas det i egenskaperna för liststilen.
+Den nyskapade listan refererar till liststilen. Om du ändrar egenskaperna för list -stilen återspeglas det i listans egenskaper. Omvänt, om du ändrar listans egenskaper återspeglas det i liststilens egenskaper.
 
 ## Exempel
 
-Visar hur du skapar en liststil och använder den i ett dokument.
+Visar hur man skapar en liststil och använder den i ett dokument.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -222,7 +222,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Skapa och tillämpa en annan lista baserat på liststilen.
+// Skapa och tillämpa en annan lista baserat på listformatet.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

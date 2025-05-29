@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RemoveAllChildren
 linktitle: RemoveAllChildren
 articleTitle: RemoveAllChildren
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart RemoveAllChildren metod. Tar bort alla noder mellan denna intervallstartnod och intervallslutnoden i C#.
+description: Använd metoden RemoveAllChildren effektivt för att rensa noder mellan StructuredDocumentTagRangeStart och end, vilket förbättrar dokumenthanteringen.
 type: docs
-weight: 230
+weight: 240
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-Tar bort alla noder mellan denna intervallstartnod och intervallslutnoden.
+Tar bort alla noder mellan denna startnod för intervallet och slutnoden för intervallet.
 
 ```csharp
 public void RemoveAllChildren()
@@ -18,7 +18,7 @@ public void RemoveAllChildren()
 
 ## Exempel
 
-Visar hur man skapar/tar bort strukturerad dokumenttagg och dess innehåll.
+Visar hur man skapar/tar bort en strukturerad dokumenttagg och dess innehåll.
 
 ```csharp
 public void SdtRangeExtendedMethods()
@@ -28,9 +28,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Tar bort strukturerad dokumenttagg med intervall, men håller innehållet inne.
+    // Tar bort taggen för strukturerat dokument med varierande intervall, men behåller innehållet inuti.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -43,25 +43,27 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Tar bort strukturerad dokumenttagg och innehåll i intervallet.
+    // Tar bort tagg och innehåll för strukturerat dokument med varierande intervall.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

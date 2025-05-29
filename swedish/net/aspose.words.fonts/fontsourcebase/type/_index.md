@@ -3,14 +3,14 @@ title: FontSourceBase.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: FontSourceBase Type fast egendom. Returnerar typen av teckensnittskälla i C#.
+description: Upptäck egenskapen FontSourceBase Type, hämta enkelt teckensnittskälltyper för att förbättra din webbdesign och optimera användarupplevelsen.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/fontsourcebase/type/
 ---
 ## FontSourceBase.Type property
 
-Returnerar typen av teckensnittskälla.
+Returnerar typen av teckensnittskällan.
 
 ```csharp
 public abstract FontSourceType Type { get; }
@@ -18,7 +18,7 @@ public abstract FontSourceType Type { get; }
 
 ## Exempel
 
-Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
+Visar hur man använder en teckensnittsfil i det lokala filsystemet som teckensnittskälla.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

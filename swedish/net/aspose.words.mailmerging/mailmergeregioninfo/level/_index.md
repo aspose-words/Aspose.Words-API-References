@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Level
 linktitle: Level
 articleTitle: Level
 second_title: Aspose.Words för .NET
-description: MailMergeRegionInfo Level fast egendom. Returnerar kapslingsnivån för regionen i C#.
+description: Upptäck egenskapen MailMergeRegionInfo Level som visar kapslingsnivån för dina regioner, vilket förbättrar din dokumentautomation och effektivitet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.mailmerging/mailmergeregioninfo/level/
@@ -18,15 +18,15 @@ public int Level { get; }
 
 ## Exempel
 
-Visar hur man verifierar kopplingsregioner.
+Visar hur man verifierar regioner för dokumentkoppling.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// Returnerar en fullständig hierarki av sammanslagningsregioner som innehåller MERGEFIELDs tillgängliga i dokumentet.
+// Returnerar en fullständig hierarki av sammanslagningsregioner som innehåller MERGEFIELDS tillgängliga i dokumentet.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Få toppregioner i dokumentet.
+// Hämta de översta regionerna i dokumentet.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -35,7 +35,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// Få kapslad region i första toppregionen.
+// Hämta kapslad region i den första översta regionen.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);
@@ -43,8 +43,9 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
-// Hämta lista över fält inom den första toppregionen.
+// Hämta lista över fält inom den första översta regionen.
 IList<Field> fieldList = topRegions[0].Fields;
 
 Assert.AreEqual(4, fieldList.Count);

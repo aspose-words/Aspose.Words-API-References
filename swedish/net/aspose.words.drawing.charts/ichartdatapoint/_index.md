@@ -3,9 +3,9 @@ title: IChartDataPoint Interface
 linktitle: IChartDataPoint
 articleTitle: IChartDataPoint
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.IChartDataPoint gränssnitt. Innehåller egenskaper för en enda datapunkt i diagrammet i C#.
+description: Utforska gränssnittet Aspose.Words.Drawing.Charts.IChartDataPoint för detaljerade egenskaper för diagramdatapunkter. Förbättra din datavisualisering utan ansträngning!
 type: docs
-weight: 900
+weight: 1220
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
@@ -20,14 +20,14 @@ public interface IChartDataPoint
 
 | namn | Beskrivning |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Anger om bubblorna i bubbeldiagrammet ska ha en 3D-effekt på dem. |
-| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Anger hur mycket datapunkten ska flyttas från mitten av cirkeln. Kan vara negativ, negativ betyder att egenskapen inte är inställd och ingen explosion ska tillämpas. Gäller endast cirkeldiagram. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Anger om det överordnade elementet ska invertera sina färger om värdet är negativt. |
-| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Anger en datamarkör. Markör skapas automatiskt vid begäran. |
+| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Anger om bubblorna i bubbeldiagrammet ska ha en 3D-effekt. |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Anger hur mycket datapunkten ska flyttas från cirkeldiagrammets mitt. Kan vara negativ, negativ betyder att egenskapen inte är angiven och ingen explosion ska tillämpas. Gäller endast cirkeldiagram. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Anger om förälderelementet ska invertera sina färger om värdet är negativt. |
+| [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Anger en datamarkör. Markören skapas automatiskt när den begärs. |
 
 ## Exempel
 
-Visar hur man arbetar med datapunkter på ett linjediagram.
+Visar hur man arbetar med datapunkter i ett linjediagram.
 
 ```csharp
 public void ChartDataPoint()
@@ -43,14 +43,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Framhäv diagrammets datapunkter genom att få dem att visas som diamantformer.
-    foreach (ChartSeries series in chart.Series) 
+    // Betona diagrammets datapunkter genom att få dem att visas som diamantformer.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Jämna ut linjen som representerar den första dataserien.
     chart.Series[0].Smooth = true;
 
-    // Kontrollera att datapunkter för den första serien inte kommer att invertera sina färger om värdet är negativt.
+    // Verifiera att datapunkterna för den första serien inte inverterar sina färger om värdet är negativt.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -59,10 +59,13 @@ public void ChartDataPoint()
         }
     }
 
-    // För en renare graf kan vi rensa format individuellt.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Vi kan också ta bort en hel serie datapunkter på en gång.
+    // För en renare graf kan vi rensa formatet individuellt.
+    dataPoint.ClearFormat();
+
+    // Vi kan också ta bort en hel serie datapunkter samtidigt.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

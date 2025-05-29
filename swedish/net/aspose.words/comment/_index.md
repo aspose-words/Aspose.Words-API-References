@@ -3,14 +3,14 @@ title: Comment Class
 linktitle: Comment
 articleTitle: Comment
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Comment klass. Representerar en behållare för text i en kommentar i C#.
+description: Upptäck klassen Aspose.Words.Comment, ditt viktiga verktyg för att hantera kommentartext i dokument. Förbättra ditt arbetsflöde med sömlös integration!
 type: docs
-weight: 230
+weight: 420
 url: /sv/net/aspose.words/comment/
 ---
 ## Comment class
 
-Representerar en behållare för text i en kommentar.
+Representerar en behållare för texten i en kommentar.
 
 För att lära dig mer, besök[Arbeta med kommentarer](https://docs.aspose.com/words/net/working-with-comments/) dokumentationsartikel.
 
@@ -22,93 +22,97 @@ public sealed class Comment : InlineStory
 
 | namn | Beskrivning |
 | --- | --- |
-| [Comment](comment/#constructor)(*[DocumentBase](../documentbase/)*) | Initierar en ny instans av`Comment` class. |
-| [Comment](comment/#constructor_1)(*[DocumentBase](../documentbase/), string, string, DateTime*) | Initierar en ny instans av`Comment` class. |
+| [Comment](comment/#constructor)(*[DocumentBase](../documentbase/)*) | Initierar en ny instans av`Comment` klass. |
+| [Comment](comment/#constructor_1)(*[DocumentBase](../documentbase/), string, string, DateTime*) | Initierar en ny instans av`Comment` klass. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Returnerar den överordnade`Comment` objekt. Returnerar`null` för kommentarer på toppnivå. |
-| [Author](../../aspose.words/comment/author/) { get; set; } | Returnerar eller ställer in författarens namn för en kommentar. |
+| [Ancestor](../../aspose.words/comment/ancestor/) { get; } | Returnerar föräldern`Comment`objekt. Returnerar`null` för kommentarer på toppnivå. |
+| [Author](../../aspose.words/comment/author/) { get; set; } | Returnerar eller anger författarnamnet för en kommentar. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | [DateTime](../../aspose.words/comment/datetime/) { get; set; } | Hämtar datum och tid då kommentaren gjordes. |
+| [DateTimeUtc](../../aspose.words/comment/datetimeutc/) { get; } | Hämtar UTC-datum och -tid då kommentaren gjordes. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
 | [Done](../../aspose.words/comment/done/) { get; set; } | Hämtar eller sätter en flagga som indikerar att kommentaren har markerats som klar. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Får det första barnet i noden. |
-| [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Får första stycket i berättelsen. |
-| [Font](../../aspose.words/inlinestory/font/) { get; } | Ger tillgång till teckensnittsformateringen av ankartecknet för detta objekt. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar`Sann` om denna nod har några undernoder. |
-| [Id](../../aspose.words/comment/id/) { get; } | Hämtar kommentarsidentifieraren. |
-| [Initial](../../aspose.words/comment/initial/) { get; set; } | Returnerar eller ställer in initialerna för användaren som är kopplad till en specifik kommentar. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar`Sann` eftersom denna nod kan ha underordnade noder. |
-| [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Hämtar nodens första barn. |
+| [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Hämtar det första stycket i berättelsen. |
+| [Font](../../aspose.words/inlinestory/font/) { get; } | Ger åtkomst till teckensnittsformateringen för ankartecknet i detta objekt. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returer`sann` om den här noden har några undernoder. |
+| [Id](../../aspose.words/comment/id/) { get; set; } | Hämtar eller ställer in kommentaridentifieraren. |
+| [Initial](../../aspose.words/comment/initial/) { get; set; } | Returnerar eller anger initialerna för den användare som är associerad med en specifik kommentar. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returer`sann` eftersom denna nod kan ha underordnade noder. |
+| [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Returnerar sant om det här objektet togs bort i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
+| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returer`sann` om det här objektet flyttades (raderades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returer`sann` om det här objektet flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista barn. |
 | [LastParagraph](../../aspose.words/inlinestory/lastparagraph/) { get; } | Hämtar det sista stycket i berättelsen. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/comment/nodetype/) { get; } | ReturnerarComment . |
-| [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Får en samling stycken som är omedelbara barn till berättelsen. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden som följer direkt efter denna nod. |
+| override [NodeType](../../aspose.words/comment/nodetype/) { get; } | ReturerComment . |
+| [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Hämtar en samling stycken som är direkta underordnade stycken till berättelsen. |
+| [ParentId](../../aspose.words/comment/parentid/) { get; set; } | Hämtar eller ställer in det överordnade kommentars-ID:t. Värdet är`-1` betyder att kommentaren inte har någon förälder. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Hämtar föräldern[`Paragraph`](../paragraph/) av denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
-| [Replies](../../aspose.words/comment/replies/) { get; } | Returnerar en samling av`Comment` objekt som är omedelbara underordnade av den angivna kommentaren. |
-| override [StoryType](../../aspose.words/comment/storytype/) { get; } | ReturnerarComments . |
-| [Tables](../../aspose.words/inlinestory/tables/) { get; } | Får en samling tabeller som är omedelbara barn till berättelsen. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden som omedelbart föregår denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/)objekt som representerar den del av ett dokument som finns i denna nod. |
+| [Replies](../../aspose.words/comment/replies/) { get; } | Returnerar en samling av`Comment` objekt som är omedelbara underordnade till den angivna kommentaren. |
+| override [StoryType](../../aspose.words/comment/storytype/) { get; } | ReturerComments . |
+| [Tables](../../aspose.words/inlinestory/tables/) { get; } | Hämtar en samling tabeller som är direkta underordnade tabeller till berättelsen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/comment/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
+| override [Accept](../../aspose.words/comment/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Tar emot en besökare. |
+| override [AcceptEnd](../../aspose.words/comment/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare för att besöka slutet av kommentaren. |
+| override [AcceptStart](../../aspose.words/comment/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare för att besöka början av kommentaren. |
 | [AddReply](../../aspose.words/comment/addreply/)(*string, string, DateTime, string*) | Lägger till ett svar på den här kommentaren. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
-| [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Om det sista underordnade inte är ett stycke, skapar och lägger till ett tomt stycke. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en duplikat av noden. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar en navigator som kan användas för att korsa och läsa noder. |
+| [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Om det sista underordnade stycket inte är ett stycke skapas och läggs till ett tomt stycke. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Returnerar en live-samling av underordnade noder som matchar den angivna typen. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Ger stöd för iterationen för varje stil över de underordnade noderna till denna nod. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade noder. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returnerar indexet för den angivna undernoden i undernodsmatrisen. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdtraversering. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder till den aktuella noden. |
 | [RemoveAllReplies](../../aspose.words/comment/removeallreplies/)() | Tar bort alla svar på den här kommentaren. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Tar bort den angivna underordnade noden. |
-| [RemoveReply](../../aspose.words/comment/removereply/)(*Comment*) | Tar bort det angivna svaret på denna kommentar. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Tar bort den angivna undernoden. |
+| [RemoveReply](../../aspose.words/comment/removereply/)(*Comment*) | Tar bort det angivna svaret på den här kommentaren. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/) underordnade noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Väljer en lista med noder som matchar XPath-uttrycket. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Väljer den första[`Node`](../node/) som matchar XPath-uttrycket. |
-| [SetText](../../aspose.words/comment/settext/)(*string*) | Detta är en bekvämlighetsmetod som gör det enkelt att ställa in texten i kommentaren. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [SetText](../../aspose.words/comment/settext/)(*string*) | Detta är en bekväm metod som gör det enkelt att ange kommentarens text. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar nodens innehåll till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar nodens innehåll till en sträng med de angivna sparalternativen. |
 
 ## Anmärkningar
 
-En kommentar är en anteckning som är förankrad till ett textområde eller till en position i text. En kommentar kan innehålla en godtycklig mängd innehåll på blocknivå.
+En kommentar är en anteckning som är förankrad i ett textområde eller en position i texten. En kommentar kan innehålla en godtycklig mängd innehåll på blocknivå.
 
-Om en`Comment` objektet uppstår av sig självt, är kommentaren förankrad till positionen för`Comment` objekt.
+Om en`Comment` objektet förekommer på egen hand, kommentaren är förankrad till positionen för`Comment` objekt.
 
-För att förankra en kommentar till en textregion krävs tre objekt:`Comment` , [`CommentRangeStart`](../commentrangestart/) och[`CommentRangeEnd`](../commentrangeend/) . Alla tre objekt måste dela same [`Id`](./id/) värde.
+För att förankra en kommentar till ett textområde krävs tre objekt:`Comment` , [`CommentRangeStart`](../commentrangestart/) och[`CommentRangeEnd`](../commentrangeend/) Alla tre objekten måste dela samma [`Id`](./id/) värde.
 
-`Comment` är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph/).
+`Comment` är en inline-nivånod och kan bara vara underordnad[`Paragraph`](../paragraph/).
 
-`Comment` kan innehålla[`Paragraph`](../paragraph/) och[`Table`](../../aspose.words.tables/table/) barnnoder.
+`Comment` kan innehålla[`Paragraph`](../paragraph/) och[`Table`](../../aspose.words.tables/table/) underordnade noder.
 
 ## Exempel
 
-Visar hur man lägger till en kommentar till ett stycke.
+Visar hur man lägger till en kommentar i ett stycke.
 
 ```csharp
 Document doc = new Document();
@@ -126,7 +130,7 @@ Assert.AreEqual(DateTime.Today, comment.DateTime);
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 
-Visar hur man lägger till en kommentar till ett dokument och sedan svarar på det.
+Visar hur man lägger till en kommentar i ett dokument och sedan svarar på den.
 
 ```csharp
 Document doc = new Document();
@@ -136,20 +140,20 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 
 // Placera kommentaren vid en nod i dokumentets brödtext.
-// Den här kommentaren kommer att dyka upp på platsen för dess stycke,
-// utanför sidans högra marginal och med en prickad linje som förbinder den med dess stycke.
+// Den här kommentaren kommer att visas där stycket är placerat,
+// utanför sidans högra marginal och med en prickad linje som förbinder den med sitt stycke.
 builder.CurrentParagraph.AppendChild(comment);
 
-// Lägg till ett svar, som kommer att dyka upp under dess överordnade kommentar.
+// Lägg till ett svar, som visas under dess överordnade kommentar.
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
-// Kommentarer och svar är båda Kommentarsnoder.
+// Kommentarer och svar är båda kommentarsnoder.
 Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
 
-// Kommentarer som inte svarar på andra kommentarer är "toppnivå". De har inga förfäders kommentarer.
+// Kommentarer som inte svarar på andra kommentarer är "toppnivå". De har inga överordnade kommentarer.
 Assert.Null(comment.Ancestor);
 
-// Svaren har en kommentar på översta nivån.
+// Svar har en överordnad kommentar på toppnivå.
 Assert.AreEqual(comment, comment.Replies[0].Ancestor);
 
 doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");

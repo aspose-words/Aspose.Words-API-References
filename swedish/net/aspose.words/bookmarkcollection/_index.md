@@ -3,14 +3,14 @@ title: BookmarkCollection Class
 linktitle: BookmarkCollection
 articleTitle: BookmarkCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.BookmarkCollection klass. En samling avBookmark objekt som representerar bokmärkena i det angivna intervallet i C#.
+description: Upptäck klassen Aspose.Words.BookmarkCollection, ett kraftfullt verktyg för att hantera bokmärken i dina dokument, förbättra organisation och navigering.
 type: docs
-weight: 50
+weight: 240
 url: /sv/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
-En samling av[`Bookmark`](../bookmark/) objekt som representerar bokmärkena i det angivna intervallet.
+En samling av[`Bookmark`](../bookmark/) objekt som representerar bokmärkena i det angivna området.
 
 För att lära dig mer, besök[Arbeta med bokmärken](https://docs.aspose.com/words/net/working-with-bookmarks/) dokumentationsartikel.
 
@@ -30,14 +30,14 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 | namn | Beskrivning |
 | --- | --- |
 | [Clear](../../aspose.words/bookmarkcollection/clear/)() | Tar bort alla bokmärken från den här samlingen och från dokumentet. |
-| [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
 | [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | Tar bort det angivna bokmärket från dokumentet. |
 | [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | Tar bort ett bokmärke med det angivna namnet. |
 | [RemoveAt](../../aspose.words/bookmarkcollection/removeat/)(*int*) | Tar bort ett bokmärke vid det angivna indexet. |
 
 ## Exempel
 
-Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
+Visar hur man lägger till bokmärken och uppdaterar deras innehåll.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -47,7 +47,7 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.
+    // Bokmärken kan nås i bokmärkessamlingen via index eller namn, och deras namn kan uppdateras.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -84,7 +84,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Skaffa varje bokmärke i samlingen för att acceptera en besökare som skriver ut dess innehåll.
+    // Få varje bokmärke i samlingen att acceptera en besökare som skriver ut dess innehåll.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -103,7 +103,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Skriver ut innehållet i alla besökta bokmärken till konsolen.
+/// Skriver ut innehållet i varje besökt bokmärke till konsolen.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

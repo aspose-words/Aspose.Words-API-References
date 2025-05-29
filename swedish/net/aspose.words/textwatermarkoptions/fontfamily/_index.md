@@ -3,14 +3,14 @@ title: TextWatermarkOptions.FontFamily
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words för .NET
-description: TextWatermarkOptions FontFamily fast egendom. Hämtar eller ställer in teckensnittets efternamn. Standardvärdet är Calibri i C#.
+description: Anpassa dina TextWatermarkOptions med egenskapen FontFamily för att förbättra dina designer. Standardinställningen är Calibri; välj en stil som passar ditt varumärke!
 type: docs
 weight: 30
 url: /sv/net/aspose.words/textwatermarkoptions/fontfamily/
 ---
 ## TextWatermarkOptions.FontFamily property
 
-Hämtar eller ställer in teckensnittets efternamn. Standardvärdet är "Calibri".
+Hämtar eller ställer in teckensnittsfamiljens namn. Standardvärdet är "Calibri".
 
 ```csharp
 public string FontFamily { get; set; }
@@ -23,11 +23,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

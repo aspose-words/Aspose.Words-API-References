@@ -3,14 +3,14 @@ title: FieldTitle.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words för .NET
-description: FieldTitle Text fast egendom. Hämtar eller ställer in texten i titeln i C#.
+description: Hantera din FieldTitle Text-egenskap enkelt. Hämta eller ställ enkelt in titeltext för förbättrad tydlighet och användarupplevelse i din applikation.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldtitle/text/
 ---
 ## FieldTitle.Text property
 
-Hämtar eller ställer in texten i titeln.
+Hämtar eller ställer in titelns text.
 
 ```csharp
 public string Text { get; set; }
@@ -18,15 +18,15 @@ public string Text { get; set; }
 
 ## Exempel
 
-Visar hur man använder fältet TITLE.
+Visar hur man använder fältet TITEL.
 
 ```csharp
 Document doc = new Document();
 
- // Ställ in ett värde för den inbyggda dokumentegenskapen "Titel".
+ // Ange ett värde för den inbyggda dokumentegenskapen "Titel".
 doc.BuiltInDocumentProperties.Title = "My Title";
 
-// Vi kan använda fältet TITLE för att visa värdet på den här egenskapen i dokumentet.
+// Vi kan använda fältet TITLE för att visa värdet för den här egenskapen i dokumentet.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldTitle field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Update();
@@ -34,8 +34,8 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Ange ett värde för fältets textegenskap,
-// och sedan uppdatera fältet kommer också att skriva över motsvarande inbyggda egenskap med det nya värdet.
+// Anger ett värde för fältets Text-egenskap,
+// och att sedan uppdatera fältet kommer även att skriva över motsvarande inbyggda egenskap med det nya värdet.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

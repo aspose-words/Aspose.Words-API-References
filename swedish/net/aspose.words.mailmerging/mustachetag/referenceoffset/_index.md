@@ -3,7 +3,7 @@ title: MustacheTag.ReferenceOffset
 linktitle: ReferenceOffset
 articleTitle: ReferenceOffset
 second_title: Aspose.Words för .NET
-description: MustacheTag ReferenceOffset fast egendom. Hämtar den nollbaserade startpositionen för taggen från början avReferenceRun  i C#.
+description: Upptäck egenskapen MustacheTag ReferenceOffset, som visar den nollbaserade startpositionen för taggar i din ReferenceRun för exakt datahantering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/mustachetag/referenceoffset/
@@ -18,7 +18,7 @@ public int ReferenceOffset { get; }
 
 ## Exempel
 
-Visar hur man arbetar med mustaschtaggarna.
+Visar hur man arbetar med mustaschtaggar.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

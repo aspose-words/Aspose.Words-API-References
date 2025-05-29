@@ -3,16 +3,16 @@ title: Body Class
 linktitle: Body
 articleTitle: Body
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Body klass. Representerar en behållare för huvudtexten i ett avsnitt i C#.
+description: Upptäck klassen Aspose.Words.Body, ditt viktiga verktyg för att enkelt hantera avsnittstext och förbättra effektiviteten i dokumenthanteringen.
 type: docs
-weight: 30
+weight: 220
 url: /sv/net/aspose.words/body/
 ---
 ## Body class
 
 Representerar en behållare för huvudtexten i ett avsnitt.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class Body : Story
@@ -22,7 +22,7 @@ public class Body : Story
 
 | namn | Beskrivning |
 | --- | --- |
-| [Body](body/)(*[DocumentBase](../documentbase/)*) | Initierar en ny instans av`Body` class. |
+| [Body](body/)(*[DocumentBase](../documentbase/)*) | Initierar en ny instans av`Body` klass. |
 
 ## Egenskaper
 
@@ -31,61 +31,63 @@ public class Body : Story
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Får det första barnet i noden. |
-| [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | Får första stycket i berättelsen. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar`Sann` om denna nod har några undernoder. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar`Sann` eftersom denna nod kan ha underordnade noder. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Hämtar nodens första barn. |
+| [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | Hämtar det första stycket i berättelsen. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returer`sann` om den här noden har några undernoder. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returer`sann` eftersom denna nod kan ha underordnade noder. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista barn. |
 | [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | Hämtar det sista stycket i berättelsen. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/body/nodetype/) { get; } | ReturnerarBody . |
-| [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | Får en samling stycken som är omedelbara barn till berättelsen. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden som följer direkt efter denna nod. |
+| override [NodeType](../../aspose.words/body/nodetype/) { get; } | ReturerBody . |
+| [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | Hämtar en samling stycken som är direkta underordnade stycken till berättelsen. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
-| [ParentSection](../../aspose.words/body/parentsection/) { get; } | Hämtar den överordnade delen av denna berättelse. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
-| [StoryType](../../aspose.words/story/storytype/) { get; } | Hämtar typen av denna berättelse. |
-| [Tables](../../aspose.words/story/tables/) { get; } | Får en samling tabeller som är omedelbara barn till berättelsen. |
+| [ParentSection](../../aspose.words/body/parentsection/) { get; } | Hämtar huvudavsnittet för den här artikeln. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden som omedelbart föregår denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/)objekt som representerar den del av ett dokument som finns i denna nod. |
+| [StoryType](../../aspose.words/story/storytype/) { get; } | Hämtar typen av den här berättelsen. |
+| [Tables](../../aspose.words/story/tables/) { get; } | Hämtar en samling tabeller som är direkta underordnade tabeller till berättelsen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/body/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| override [Accept](../../aspose.words/body/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Tar emot en besökare. |
+| override [AcceptEnd](../../aspose.words/body/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare för att besöka slutet av dokumentets brödtext. |
+| override [AcceptStart](../../aspose.words/body/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare för att besöka början av dokumentets brödtext. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
 | [AppendParagraph](../../aspose.words/story/appendparagraph/)(*string*) | En genvägsmetod som skapar en[`Paragraph`](../paragraph/) objekt med valfri text och lägger till den i slutet av detta objekt. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
-| [DeleteShapes](../../aspose.words/story/deleteshapes/)() | Tar bort alla former från texten i denna berättelse. |
-| [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | Om det sista underordnade inte är ett stycke, skapar och lägger till ett tomt stycke. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en duplikat av noden. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar en navigator som kan användas för att korsa och läsa noder. |
+| [DeleteShapes](../../aspose.words/story/deleteshapes/)() | Tar bort alla former från texten i den här berättelsen. |
+| [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | Om det sista underordnade stycket inte är ett stycke skapas och läggs till ett tomt stycke. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Returnerar en live-samling av underordnade noder som matchar den angivna typen. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Ger stöd för iterationen för varje stil över de underordnade noderna till denna nod. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade noder. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Returnerar indexet för den angivna undernoden i undernodsmatrisen. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdtraversering. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Tar bort den angivna underordnade noden. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder till den aktuella noden. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Tar bort den angivna undernoden. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/) underordnade noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Väljer en lista med noder som matchar XPath-uttrycket. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Väljer den första[`Node`](../node/) som matchar XPath-uttrycket. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar nodens innehåll till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar nodens innehåll till en sträng med de angivna sparalternativen. |
 
 ## Anmärkningar
 
-`Body` kan innehålla[`Paragraph`](../paragraph/) och[`Tabell`](../../aspose.words.tables/table/) barnnoder.
+`Body` kan innehålla[`Paragraph`](../paragraph/) och[`Tabell`](../../aspose.words.tables/table/) underordnade noder.
 
-`Body` är en nod på sektionsnivå och kan bara vara ett barn till[`Section`](../section/) . Det kan bara finnas en`Body` i en[`Section`](../section/).
+`Body` är en nod på sektionsnivå och kan bara vara underordnad[`Section`](../section/) . Det kan bara finnas en`Body` i en[`Section`](../section/).
 
-En minimal giltig`Body` måste innehålla minst en[`Paragraph`](../paragraph/).
+En minimal giltig`Body` behöver innehålla minst en[`Paragraph`](../paragraph/).
 
 ## Exempel
 
@@ -96,20 +98,20 @@ Document doc = new Document();
 
 // Ett tomt dokument innehåller ett avsnitt, en brödtext och ett stycke.
 // Anropa metoden "RemoveAllChildren" för att ta bort alla dessa noder,
-// och slutar med en dokumentnod utan underordnade.
+// och slutar med en dokumentnod utan barn.
 doc.RemoveAllChildren();
 
-// Det här dokumentet har nu inga sammansatta underordnade noder som vi kan lägga till innehåll till.
-// Om vi vill redigera den måste vi fylla på dess nodsamling.
-// Skapa först ett nytt avsnitt och lägg sedan till det som ett underordnat dokument i rotdokumentnoden.
+// Det här dokumentet har nu inga sammansatta undernoder som vi kan lägga till innehåll till.
+// Om vi vill redigera den måste vi fylla i dess nodsamling igen.
+// Skapa först en ny sektion och lägg sedan till den som ett underordnat avsnitt till rotdokumentnoden.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Ställ in några sidinställningar för avsnittet.
+// Ange vissa sidinställningar för avsnittet.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// En sektion behöver en kropp som kommer att innehålla och visa allt dess innehåll
+// En sektion behöver en brödtext, som innehåller och visar allt dess innehåll
 // på sidan mellan avsnittets sidhuvud och sidfot.
 Body body = new Body(doc);
 section.AppendChild(body);
@@ -122,8 +124,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Slutligen, lägg till lite innehåll för att göra dokumentet. Skapa en löprunda,
-// ställ in dess utseende och innehåll och lägg sedan till det som ett barn till stycket.
+// Slutligen, lägg till lite innehåll för att göra dokumentet. Skapa en körning,
+// ange dess utseende och innehåll och lägg sedan till det som ett underordnat stycke.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

@@ -3,28 +3,35 @@ title: Shading.BackgroundTintAndShade
 linktitle: BackgroundTintAndShade
 articleTitle: BackgroundTintAndShade
 second_title: Aspose.Words för .NET
-description: Shading BackgroundTintAndShade fast egendom. Hämtar eller ställer in ett dubbelt värde som gör en bakgrundstema ljusare eller mörkare i C#.
+description: Justera bakgrundsfärgen enkelt med egenskapen BackgroundTintAndShade. Ljusa eller mörka färger för en perfekt designtouch!
 type: docs
 weight: 30
 url: /sv/net/aspose.words/shading/backgroundtintandshade/
 ---
 ## Shading.BackgroundTintAndShade property
 
-Hämtar eller ställer in ett dubbelt värde som gör en bakgrundstema ljusare eller mörkare.
+Hämtar eller ställer in ett dubbelvärde som ljusar eller mörkar upp en bakgrundstemafärg.
 
 ```csharp
 public double BackgroundTintAndShade { get; set; }
 ```
 
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentOutOfRangeException | Kasta om den här egenskapen sätts till ett värde mindre än -1 eller större än 1. |
+| InvalidOperationException | Utlös om den här egenskapen anges för skuggningsobjekt med icke-temafärger. |
+
 ## Anmärkningar
 
-De tillåtna värdena ligger i intervallet från -1 (den mörkaste) till 1 (den ljusaste) för den här egenskapen. Noll (0) är neutral. Ett försök att ställa in den här egenskapen till ett värde mindre än -1 eller mer än 1 resulterar iArgumentOutOfRangeException.
+De tillåtna värdena ligger i intervallet från -1 (mörkast) till 1 (ljusast) för den här egenskapen.
 
-Om du ställer in den här egenskapen för Shading objekt med icke-tema colors resulterar iInvalidOperationException.
+Noll (0) är neutral.
 
 ## Exempel
 
-Visar hur man ställer in förgrunds- och bakgrundsfärger för skuggning av textur.
+Visar hur man ställer in förgrunds- och bakgrundsfärger för skuggningstextur.
 
 ```csharp
 Document doc = new Document();

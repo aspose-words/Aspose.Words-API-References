@@ -3,14 +3,14 @@ title: List.IsListStyleDefinition
 linktitle: IsListStyleDefinition
 articleTitle: IsListStyleDefinition
 second_title: Aspose.Words för .NET
-description: List IsListStyleDefinition fast egendom. ReturnerarSann om den här listan är en definition av en liststil i C#.
+description: Upptäck om egenskapen List IsListStyleDefinition definierar en liststil. Lås upp förbättrade stilalternativ för dina listor idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.lists/list/isliststyledefinition/
 ---
 ## List.IsListStyleDefinition property
 
-Returnerar`Sann` om den här listan är en definition av en liststil.
+Returer`sann` om den här listan är en definition av en liststil.
 
 ```csharp
 public bool IsListStyleDefinition { get; }
@@ -18,23 +18,23 @@ public bool IsListStyleDefinition { get; }
 
 ## Anmärkningar
 
-När denna fastighet är`Sann` , den[`Style`](../style/) egenskapen returnerar liststilen som denna lista definierar.
+När den här egendomen är`sann` , den[`Style`](../style/) egenskapen returnerar liststilen som den här listan definierar.
 
-Genom att ändra egenskaperna för en lista som definierar en liststil, ändrar du egenskaperna för liststilen.
+Genom att ändra egenskaperna för en lista som definierar en liststil, ändrar du properties för liststilen.
 
-En lista som är en definition av en liststil kan inte tillämpas direkt på stycken för att göra dem numrerade.
+En lista som är en definition av ett listformat kan inte tillämpas direkt på stycken för att numrera dem.
 
 ## Exempel
 
-Visar hur du skapar en liststil och använder den i ett dokument.
+Visar hur man skapar en liststil och använder den i ett dokument.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -72,7 +72,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Skapa och tillämpa en annan lista baserat på liststilen.
+// Skapa och tillämpa en annan lista baserat på listformatet.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

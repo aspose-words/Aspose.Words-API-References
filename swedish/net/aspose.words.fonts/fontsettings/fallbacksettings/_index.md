@@ -3,14 +3,14 @@ title: FontSettings.FallbackSettings
 linktitle: FallbackSettings
 articleTitle: FallbackSettings
 second_title: Aspose.Words för .NET
-description: FontSettings FallbackSettings fast egendom. Inställningar relaterade till reservmekanism för teckensnitt i C#.
+description: Upptäck egenskapen FontSettings FallbackSettings för optimerade mekanismer för teckensnittsreserv. Förbättra din design med sömlös textrendering!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontsettings/fallbacksettings/
 ---
 ## FontSettings.FallbackSettings property
 
-Inställningar relaterade till reservmekanism för teckensnitt.
+Inställningar relaterade till alternativ mekanism för teckensnitt.
 
 ```csharp
 public FontFallbackSettings FallbackSettings { get; }
@@ -27,19 +27,19 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Konfigurera våra teckensnittsinställningar till att endast källtypsnitt från mappen "MyFonts".
+// Konfigurera våra typsnittsinställningar så att de endast hämtar typsnitt från mappen "MyFonts".
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Att anropa "BuildAutomatic"-metoden kommer att generera ett reservschema som
-// distribuerar tillgängliga typsnitt över så många Unicode-teckenkoder som möjligt.
-// I vårt fall har den bara tillgång till en handfull typsnitt i mappen "MyFonts".
+// Anrop av metoden "BuildAutomatic" genererar ett reservschema som
+// distribuerar tillgängliga teckensnitt över så många Unicode-teckenkoder som möjligt.
+// I vårt fall har den bara åtkomst till de få teckensnitt som finns i mappen "MyFonts".
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
-// Vi kan också ladda ett anpassat ersättningsschema från en fil som denna.
-// Detta schema tillämpar typsnittet "AllegroOpen" över "0000-00ff" Unicode-blocken, "AllegroOpen"-teckensnittet över "0100-024f",
-// och typsnittet "M+ 2m" i alla andra intervall som andra typsnitt i schemat inte täcker.
+// Vi kan också ladda ett anpassat substitutionsschema från en fil som denna.
+// Detta schema tillämpar teckensnittet "AllegroOpen" över Unicode-blocken "0000-00ff", teckensnittet "AllegroOpen" över "0100-024f",
+// och teckensnittet "M+ 2m" i alla andra intervall som andra teckensnitt i schemat inte täcker.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
 // Skapa en dokumentbyggare och ställ in dess teckensnitt till ett som inte finns i någon av våra källor.
@@ -47,8 +47,8 @@ fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Använd byggaren för att skriva ut varje Unicode-tecken från 0x0021 till 0x052F,
-// med beskrivande linjer som delar Unicode-block som vi definierade i vårt anpassade typsnittsalternativ.
+// Använd byggaren för att skriva ut alla Unicode-tecken från 0x0021 till 0x052F,
+// med beskrivande linjer som delar Unicode-block som vi definierade i vårt anpassade teckensnittsalternativ.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

@@ -3,16 +3,16 @@ title: TabStopCollection Class
 linktitle: TabStopCollection
 articleTitle: TabStopCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.TabStopCollection klass. En samling avTabStop objekt som representerar anpassade flikar för ett stycke eller en stil i C#.
+description: Upptäck Aspose.Words.TabStopCollection. Hantera enkelt anpassade tabbstopp för stycken och formateringar, och förbättra formateringen av ditt dokument med precision.
 type: docs
-weight: 6210
+weight: 7060
 url: /sv/net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
 
 En samling av[`TabStop`](../tabstop/) objekt som representerar anpassade flikar för ett stycke eller en stil.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class TabStopCollection : InternableComplexAttr
@@ -23,7 +23,7 @@ public class TabStopCollection : InternableComplexAttr
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/tabstopcollection/count/) { get; } | Hämtar antalet tabbstopp i samlingen. |
-| [Item](../../aspose.words/tabstopcollection/item/) { get; } | Får ett tabbstopp vid det givna indexet. (2 indexers) |
+| [Item](../../aspose.words/tabstopcollection/item/) { get; } | Hämtar ett tabbstopp vid det angivna indexet. (2 indexers) |
 
 ## Metoder
 
@@ -31,22 +31,22 @@ public class TabStopCollection : InternableComplexAttr
 | --- | --- |
 | [Add](../../aspose.words/tabstopcollection/add/#add)(*[TabStop](../tabstop/)*) | Lägger till eller ersätter ett tabbstopp i samlingen. |
 | [Add](../../aspose.words/tabstopcollection/add/#add_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | Lägger till eller ersätter ett tabbstopp i samlingen. |
-| [After](../../aspose.words/tabstopcollection/after/)(*double*) | Får ett första tabbstopp till höger om den angivna positionen. |
-| [Before](../../aspose.words/tabstopcollection/before/)(*double*) | Får ett första tabbstopp till vänster om den angivna positionen. |
-| [Clear](../../aspose.words/tabstopcollection/clear/)() | Tar bort alla tabbstopppositioner. |
-| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(*object*) | Bestämmer om det angivna objektet har samma värde som det aktuella objektet. |
-| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(*TabStopCollection*) | Bestämmer om den angivna`TabStopCollection` är lika i värde med strömmen`TabStopCollection` . |
-| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Fungerar som en hashfunktion för denna typ. |
-| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(*double*) | Hämtar indexet för ett tabbstopp med angiven position i poäng. |
-| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(*int*) | Hämtar positionen (i poäng) för tabbstoppet vid det angivna indexet. |
+| [After](../../aspose.words/tabstopcollection/after/)(*double*) | Hämtar ett första tabbstopp till höger om den angivna positionen. |
+| [Before](../../aspose.words/tabstopcollection/before/)(*double*) | Hämtar ett första tabbstopp till vänster om den angivna positionen. |
+| [Clear](../../aspose.words/tabstopcollection/clear/)() | Tar bort alla tabbstoppspositioner. |
+| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(*object*) | Avgör om det angivna objektet har samma värde som det aktuella objektet. |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(*TabStopCollection*) | Avgör om den angivna`TabStopCollection` är lika värdefullt som den nuvarande`TabStopCollection` . |
+| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | Fungerar som en hashfunktion för den här typen. |
+| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(*double*) | Hämtar indexet för ett tabbstopp med den angivna positionen i punkter. |
+| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(*int*) | Hämtar positionen (i punkter) för tabbstoppet vid det angivna indexet. |
 | [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(*int*) | Tar bort ett tabbstopp vid det angivna indexet från samlingen. |
-| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(*double*) | Tar bort ett tabbstopp vid angiven position från samlingen. |
+| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(*double*) | Tar bort ett tabbstopp vid den angivna positionen från samlingen. |
 
 ## Anmärkningar
 
-I Microsoft Word-dokument kan ett tabbstopp definieras i egenskaperna för en stycke -stil eller direkt i egenskaperna för ett stycke. En stil kan baseras på en annan stil. Därför är den kompletta uppsättningen tabbstopp för ett givet objekt en kombination av tabbstopp definierade direkt på detta objekt och tabbstopp som ärvts från de överordnade stilarna.
+I Microsoft Word-dokument kan ett tabbstopp definieras i egenskaperna för en paragraph -stil eller direkt i egenskaperna för ett stycke. Ett format kan baseras på ett annat format. Därför är den kompletta uppsättningen tabbstopp för ett givet objekt en kombination av tabbstopp som definierats direkt på detta objekt och tabbstopp som ärvts från de överordnade formaten.
 
-I Aspose.Words, när du får en`TabStopCollection`för ett stycke eller en stil, innehåller den endast de anpassade tabbstoppen som definierats direkt för detta stycke eller formatet. Samlingen inkluderar inte tabbstopp definierade i de överordnade stilarna eller standardtabbstoppen.
+Med andra ord, när du får en`TabStopCollection` För ett stycke eller en stil innehåller den endast de anpassade tabbstopp som definierats direkt för detta stycke eller stil. Samlingen inkluderar inte tabbstopp som definierats i de överordnade stilarna eller standardtabbstopp.
 
 ## Exempel
 
@@ -58,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -77,7 +77,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

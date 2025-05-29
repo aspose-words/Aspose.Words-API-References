@@ -3,14 +3,14 @@ title: ConditionalStyleCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: ConditionalStyleCollection Count fast egendom. Hämtar antalet villkorade stilar i samlingen i C#.
+description: Upptäck egenskapen ConditionalStyleCollection Count för att enkelt komma åt det totala antalet villkorsstyrda stilar, vilket förbättrar din designflexibilitet och effektivitet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/conditionalstylecollection/count/
 ---
 ## ConditionalStyleCollection.Count property
 
-Hämtar antalet villkorade stilar i samlingen.
+Hämtar antalet villkorsstyrda stilar i samlingen.
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Exempel
 
-Visar hur man arbetar med vissa områdesstilar i en tabell.
+Visar hur man arbetar med vissa områdesformat i en tabell.
 
 ```csharp
 Document doc = new Document();
@@ -39,13 +39,13 @@ builder.EndTable();
 // Skapa en anpassad tabellstil.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Villkorsstilar är formateringsändringar som bara påverkar vissa av tabellens celler
-// baserat på ett predikat, som att cellerna är i den sista raden.
-// Nedan finns tre sätt att komma åt en tabellstils villkorliga stilar från "ConditionalStyles"-samlingen.
+// Villkorliga stilar är formateringsändringar som bara påverkar vissa av tabellens celler
+// baserat på ett predikat, till exempel att cellerna är på den sista raden.
+// Nedan följer tre sätt att komma åt en tabellstils villkorliga stilar från samlingen "ConditionalStyles".
 // 1 - Efter stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
-// 2 - Efter index:
+// 2 - Enligt index:
 tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
@@ -53,7 +53,7 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Som en egenskap:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Använd utfyllnad och textformatering på villkorliga stilar.
+// Använd utfyllnad och textformatering på villkorsstyrda stilar.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
@@ -70,14 +70,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// Använd den anpassade stilen, som innehåller alla villkorliga stilar, på tabellen.
+// Tillämpa den anpassade stilen, som innehåller alla villkorsstyrda stilar, på tabellen.
 table.Style = tableStyle;
 
-// Vår stil tillämpar vissa villkorade stilar som standard.
+// Vår stil använder vissa villkorliga stilar som standard.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Vi kommer att behöva aktivera alla andra stilar själva via egenskapen "StyleOptions".
+// Vi måste aktivera alla andra stilar själva via egenskapen "StyleOptions".
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

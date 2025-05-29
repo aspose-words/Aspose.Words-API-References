@@ -3,7 +3,7 @@ title: CommentRangeStart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words för .NET
-description: CommentRangeStart Id fast egendom. Anger identifieraren för kommentaren som denna region är länkad till i C#.
+description: Upptäck egenskapen CommentRangeStart Id, som länkar kommentarer sömlöst. Förbättra din dataorganisation med denna viktiga identifierare för större tydlighet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/commentrangestart/id/
@@ -18,7 +18,7 @@ public int Id { get; set; }
 
 ## Exempel
 
-Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
+Visar hur man skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -34,14 +34,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Lägg till text i dokumentet, förvräng den i ett kommentarsområde och lägg sedan till din kommentar.
+    // Lägg till text i dokumentet, förvräng den i ett kommentarområde och lägg sedan till din kommentar.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Lägg till två svar på kommentaren.
+    // Lägg till två svar till kommentaren.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -55,20 +55,24 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Iterera över alla kommentarer på toppnivå. Till skillnad från kommentarer av svarstyp har kommentarer på toppnivå ingen förfader.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Iterera över alla kommentarer på toppnivå. Till skillnad från kommentarer av svarstyp har kommentarer på toppnivå ingen överordnad text.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Besök först början av kommentarsintervallet.
+        // Först, besök början av kommentarsintervallet.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Besök sedan kommentaren och eventuella svar som den kan ha.
+        // Besök sedan kommentaren och eventuella svar som den kan innehålla.
         comment.Accept(commentVisitor);
+        // Besök endast början av kommentaren.
+        comment.AcceptStart(commentVisitor);
+        // Besök endast slutet av kommentaren.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Slutligen, besök slutet av kommentarsintervallet och skriv sedan ut besökarens textinnehåll.
+        // Slutligen, besök slutet av kommentarsområdet och skriv sedan ut besökarens textinnehåll.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -77,7 +81,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Skriver ut information och innehåll för alla kommentarer och kommentarintervall som påträffas i dokumentet.
+/// Skriver ut information och innehåll för alla kommentarer och kommentarintervall som finns i dokumentet.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -88,7 +92,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {
@@ -96,7 +100,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -130,7 +134,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en kommentarsnod påträffas i dokumentet.
+    /// Anropas när en kommentarnod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -143,7 +147,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besöket av en kommentarsnod avslutas i dokumentet.
+    /// Anropas när besöket av en kommentarsnod i dokumentet avslutas.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -155,9 +159,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

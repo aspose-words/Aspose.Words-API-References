@@ -3,7 +3,7 @@ title: PageSetup.FootnoteOptions
 linktitle: FootnoteOptions
 articleTitle: FootnoteOptions
 second_title: Aspose.Words för .NET
-description: PageSetup FootnoteOptions fast egendom. Ger alternativ som styr numrering och placering av fotnoter i det här avsnittet i C#.
+description: Upptäck PageSetup FootnoteOptions för att enkelt anpassa fotnotsnumrering och placering för förbättrad dokumenttydlighet och professionalism.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/pagesetup/footnoteoptions/
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote reference text.");
 
-// Konfigurera alla fotnoter i det första avsnittet för att starta om numreringen från 1
-// på varje ny sida och visa sig direkt under texten på varje sida.
+// Konfigurera alla fotnoter i det första avsnittet för att börja om numreringen från 1
+// på varje ny sida och visas direkt under texten på varje sida.
 FootnoteOptions footnoteOptions = doc.Sections[0].PageSetup.FootnoteOptions;
 footnoteOptions.Position = FootnotePosition.BeneathText;
 footnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
@@ -38,7 +38,7 @@ builder.Write(" Hello again.");
 builder.InsertFootnote(FootnoteType.Footnote, "Endnote reference text.");
 
 // Konfigurera alla slutnoter i det första avsnittet för att upprätthålla en kontinuerlig räkning genom hela avsnittet,
-// med början från 1. Ställ också in alla så att de visas samlade i slutet av dokumentet.
+// med början från 1. Ställ också in dem så att de alla visas samlade i slutet av dokumentet.
 EndnoteOptions endnoteOptions = doc.Sections[0].PageSetup.EndnoteOptions;
 endnoteOptions.Position = EndnotePosition.EndOfDocument;
 endnoteOptions.RestartRule = FootnoteNumberingRule.Continuous;

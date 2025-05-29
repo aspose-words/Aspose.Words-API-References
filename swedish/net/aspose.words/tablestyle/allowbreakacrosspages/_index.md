@@ -3,14 +3,14 @@ title: TableStyle.AllowBreakAcrossPages
 linktitle: AllowBreakAcrossPages
 articleTitle: AllowBreakAcrossPages
 second_title: Aspose.Words för .NET
-description: TableStyle AllowBreakAcrossPages fast egendom. Hämtar eller ställer in en flagga som anger om text i en tabellrad tillåts delas över en sidbrytning i C#.
+description: Upptäck egenskapen TableStyle AllowBreakAcrossPages, styr textflödet i tabeller och förbättra dokumentets läsbarhet över olika sidor.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/tablestyle/allowbreakacrosspages/
 ---
 ## TableStyle.AllowBreakAcrossPages property
 
-Hämtar eller ställer in en flagga som anger om text i en tabellrad tillåts delas över en sidbrytning.
+Hämtar eller ställer in en flagga som anger om text i en tabellrad får delas över en sidbrytning.
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }
@@ -18,7 +18,7 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet är`Sann` .
+Standardvärdet är`sann` .
 
 ## Exempel
 

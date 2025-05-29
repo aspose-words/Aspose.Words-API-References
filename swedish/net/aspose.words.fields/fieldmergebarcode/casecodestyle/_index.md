@@ -3,14 +3,14 @@ title: FieldMergeBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words för .NET
-description: FieldMergeBarcode CaseCodeStyle fast egendom. Hämtar eller ställer in stilen för en ärendekod för streckkodstyp ITF14. De giltiga värdena är STDEXTADD i C#.
+description: Upptäck egenskapen FieldMergeBarcode CaseCodeStyle för ITF14-streckkoder. Anpassa enkelt din Case Code-stil med giltiga alternativ som STDEXTADD.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-Hämtar eller ställer in stilen för en ärendekod för streckkodstyp ITF14. De giltiga värdena är [STD&#x7C;EXT&#x7C;ADD]
+Hämtar eller ställer in stilen för en ärendekod för streckkodstypen ITF14. Giltiga värden är [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -18,14 +18,14 @@ public string CaseCodeStyle { get; set; }
 
 ## Exempel
 
-Visar hur man utför en brevkoppling på ITF14 streckkoder.
+Visar hur man utför en dokumentkoppling på ITF14-streckkoder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett MERGEBARCODE-fält, som kommer att acceptera värden från en datakälla under en e-postkoppling.
-// Det här fältet kommer att konvertera alla värden i en sammanslagningsdatakällas kolumn "MyITF14Barcode" till ITF14-streckkoder.
+// Infoga ett fält för MERGEBARCODE, som accepterar värden från en datakälla under en dokumentkoppling.
+// Det här fältet konverterar alla värden i kolumnen "MyITF14Barcode" i en sammanfogad datakälla till ITF14-streckkoder.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -34,9 +34,9 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// Skapa en DataTable med en kolumn med samma namn som vårt MERGEBARCODE-fälts BarcodeValue.
-// Brevkopplingen skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
-// som kommer att visa en ITF14 streckkod med värdet från den sammanslagna raden.
+// Skapa en datatabell med en kolumn med samma namn som vårt MERGEBARCODE-fälts streckkodsvärde.
+// Kopplad utskrifter skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
+// vilket visar en ITF14-streckkod med värdet från den sammanslagna raden.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");
 table.Rows.Add(new[] { "09312345678907" });

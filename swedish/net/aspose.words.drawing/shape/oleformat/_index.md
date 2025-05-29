@@ -3,14 +3,14 @@ title: Shape.OleFormat
 linktitle: OleFormat
 articleTitle: OleFormat
 second_title: Aspose.Words för .NET
-description: Shape OleFormat fast egendom. Ger tillgång till OLEdata för en form. För en form som inte är ett OLEobjekt eller ActiveXkontroll returnerasnull  i C#.
+description: Få enkel åtkomst till och hantera OleFormat-egenskapen för former. Hämta OLE-data för förbättrad funktionalitet, med null-retur för icke-OLE-objekt.
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Ger tillgång till OLE-data för en form. För en form som inte är ett OLE-objekt eller ActiveX-kontroll, returneras`null` .
+Ger åtkomst till OLE-data för en form. För en form som inte är ett OLE-objekt eller en ActiveX-kontroll returneras`null` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Loggar utseenderelaterad information om besökta former.
+/// Loggar information om utseende och besökta former.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägger till en rad i StringBuilder med ett förekommande tabbtecken för varje indragsnivå.
+    /// Lägger till en rad i StringBuilder med ett tabbtecken före varje indragsnivå.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Returnera all text som StringBuilder har samlat på sig.
+    /// Returnerar all text som StringBuilder har ackumulerat.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -97,7 +96,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när den här besökaren besöker slutet av en Shape-nod.
+    /// Anropas när denna besökare besöker slutet av en Shape-nod.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {

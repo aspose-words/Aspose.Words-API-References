@@ -3,14 +3,14 @@ title: PdfSaveOptions.ExportDocumentStructure
 linktitle: ExportDocumentStructure
 articleTitle: ExportDocumentStructure
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions ExportDocumentStructure fast egendom. Hämtar eller ställer in ett värde som avgör om dokumentstruktur ska exporteras eller inte i C#.
+description: Kontrollera ditt dokuments exportstruktur med PdfSaveOptions. Hantera enkelt inställningar för optimal PDF-utdata och förbättra ditt arbetsflödes effektivitet.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.saving/pdfsaveoptions/exportdocumentstructure/
 ---
 ## PdfSaveOptions.ExportDocumentStructure property
 
-Hämtar eller ställer in ett värde som avgör om dokumentstruktur ska exporteras eller inte.
+Hämtar eller anger ett värde som avgör om dokumentstrukturen ska exporteras eller inte.
 
 ```csharp
 public bool ExportDocumentStructure { get; set; }
@@ -18,13 +18,13 @@ public bool ExportDocumentStructure { get; set; }
 
 ## Anmärkningar
 
-Detta värde ignoreras när du sparar till PDF/A-1a, PDF/A-2a och PDF/UA-1 eftersom dokumentstruktur krävs för denna överensstämmelse.
+Detta värde ignoreras när man sparar till PDF/A-1a, PDF/A-2a och PDF/UA-1 eftersom dokumentstruktur krävs för denna överensstämmelse.
 
-Observera att export av dokumentstrukturen avsevärt ökar minnesförbrukningen, särskilt för de stora dokumenten.
+Observera att export av dokumentstrukturen ökar minnesförbrukningen avsevärt, särskilt för stora dokument.
 
 ## Exempel
 
-Visar hur man bevarar dokumentstrukturelement, vilket kan hjälpa till att programmässigt tolka vårt dokument.
+Visar hur man bevarar dokumentstrukturelement, vilket kan hjälpa till att programmatiskt tolka vårt dokument.
 
 ```csharp
 Document doc = new Document();
@@ -36,16 +36,15 @@ builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Write(
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
-
-// Ställ in egenskapen "ExportDocumentStructure" till "true" för att göra dokumentstrukturen, sådana taggar, tillgänglig via
-// Navigeringsfönstret "Innehåll" i Adobe Acrobat till priset av ökad filstorlek.
-// Ställ in egenskapen "ExportDocumentStructure" till "false" för att inte exportera dokumentstrukturen.
+// Sätt egenskapen "ExportDocumentStructure" till "true" för att göra dokumentstrukturen, såsom taggar, tillgängliga via
+// Navigeringsfönstret "Innehåll" i Adobe Acrobat på bekostnad av ökad filstorlek.
+// Sätt egenskapen "ExportDocumentStructure" till "false" för att inte exportera dokumentstrukturen.
 options.ExportDocumentStructure = exportDocumentStructure;
 
-// Antag att vi exporterar dokumentstruktur medan vi sparar detta dokument. Isåfall,
+// Anta att vi exporterar dokumentstrukturen medan vi sparar detta dokument. I så fall,
 // vi kan öppna den med Adobe Acrobat och hitta taggar för element som rubriken
 // och nästa stycke via "Visa" -> "Visa/Dölj" -> "Navigeringsrutor" -> "Taggar".
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExportDocumentStructure.pdf", options);

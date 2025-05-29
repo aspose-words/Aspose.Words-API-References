@@ -3,7 +3,7 @@ title: ChartXValue.MultilevelValue
 linktitle: MultilevelValue
 articleTitle: MultilevelValue
 second_title: Aspose.Words för .NET
-description: ChartXValue MultilevelValue fast egendom. Hämtar det lagrade flernivåvärdet i C#.
+description: Upptäck ChartXValues MultilevelValue-egenskap för enkel åtkomst till lagrad data på flera nivåer. Få insikter och förbättra din dataanalys idag!
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/

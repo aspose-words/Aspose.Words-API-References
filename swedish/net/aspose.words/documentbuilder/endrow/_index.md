@@ -3,7 +3,7 @@ title: DocumentBuilder.EndRow
 linktitle: EndRow
 articleTitle: EndRow
 second_title: Aspose.Words för .NET
-description: DocumentBuilder EndRow metod. Avslutar en tabellrad i dokumentet i C#.
+description: Avsluta enkelt tabellrader i dina dokument med DocumentBuilders EndRow-metod. Effektivisera din formatering och förbättra dokumentets tydlighet!
 type: docs
 weight: 240
 url: /sv/net/aspose.words/documentbuilder/endrow/
@@ -18,41 +18,41 @@ public Row EndRow()
 
 ### Returvärde
 
-Radnoden som precis var klar.
+Radnoden som just blev klar.
 
 ## Anmärkningar
 
-Ring upp`EndRow` för att avsluta en tabellrad. Om du ringer[`InsertCell`](../insertcell/) omedelbart efter det, sedan fortsätter tabellen på en ny rad.
+Samtal`EndRow` för att avsluta en tabellrad. Om du anropar[`InsertCell`](../insertcell/) immediately efter det, sedan fortsätter tabellen på en ny rad.
 
 Använd[`RowFormat`](../rowformat/) egenskap för att ange radformatering.
 
 ## Exempel
 
-Visar hur man slår samman tabellceller vertikalt.
+Visar hur man sammanfogar tabellceller vertikalt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Infoga en cell i den första kolumnen på den första raden.
-// Den här cellen kommer att vara den första i en rad vertikalt sammanslagna celler.
+// Den här cellen blir den första i ett intervall av vertikalt sammanfogade celler.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Infoga en cell i den andra kolumnen på den första raden, avsluta sedan raden.
-// Konfigurera också byggaren för att inaktivera vertikal sammanslagning i skapade celler.
+// Infoga en cell i den andra kolumnen på den första raden och avsluta sedan raden.
+// Konfigurera även byggaren för att inaktivera vertikal sammanslagning i skapade celler.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
  // Infoga en cell i den första kolumnen på den andra raden.
-// Istället för att lägga till textinnehåll kommer vi att slå samman denna cell med den första cellen som vi lade till direkt ovanför.
+// Istället för att lägga till textinnehåll kommer vi att sammanfoga den här cellen med den första cellen som vi lade till direkt ovanför.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Infoga en annan oberoende cell i den andra kolumnen på den andra raden.
+// Infoga ytterligare en oberoende cell i den andra kolumnen på den andra raden.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
@@ -76,8 +76,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// När du bygger tabellen kommer dokumentbyggaren att tillämpa sina nuvarande RowFormat/CellFormat-egenskapsvärden
-// till den aktuella raden/cellen som markören är i och eventuella nya rader/celler när den skapar dem.
+// När tabellen skapas kommer dokumentbyggaren att tillämpa dess aktuella RowFormat/CellFormat-egenskapsvärden
+// till den aktuella raden/cellen där markören befinner sig och alla nya rader/celler allt eftersom de skapas.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -92,7 +92,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i byggarens formatering.
+// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i formateringen i verktyget.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -103,7 +103,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -135,9 +135,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -148,7 +148,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

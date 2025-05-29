@@ -3,14 +3,14 @@ title: XmlDataSource
 linktitle: XmlDataSource
 articleTitle: XmlDataSource
 second_title: Aspose.Words för .NET
-description: XmlDataSource byggare. Skapar en ny datakälla med data från en XMLfil med standardalternativ för XMLdataladdning i C#.
+description: Skapa enkelt en kraftfull datakälla med XmlDataSource-konstruktorn och läs in XML-data med optimerade standardalternativ för sömlös integration.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.reporting/xmldatasource/xmldatasource/
 ---
 ## XmlDataSource(*string*) {#constructor_4}
 
-Skapar en ny datakälla med data från en XML-fil med standardalternativ för XML-dataladdning.
+Skapar en ny datakälla med data från en XML-fil med standardalternativ för inläsning av XML-data.
 
 ```csharp
 public XmlDataSource(string xmlPath)
@@ -19,6 +19,19 @@ public XmlDataSource(string xmlPath)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | xmlPath | String | Sökvägen till XML-filen som ska användas som datakälla. |
+
+## Exempel
+
+Visa hur man använder XML som datakälla (sträng).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - XML data destination.docx");
+
+XmlDataSource dataSource = new XmlDataSource(MyDir + "List of people.xml");
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.XmlDataString.docx");
+```
 
 ### Se även
 
@@ -30,7 +43,7 @@ public XmlDataSource(string xmlPath)
 
 ## XmlDataSource(*Stream*) {#constructor}
 
-Skapar en ny datakälla med data från en XML-ström med standardalternativ för XML-dataladdning.
+Skapar en ny datakälla med data från en XML-ström med standardalternativ för inläsning av XML-data.
 
 ```csharp
 public XmlDataSource(Stream xmlStream)
@@ -38,7 +51,23 @@ public XmlDataSource(Stream xmlStream)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| xmlStream | Stream | Strömmen av XML-data som ska användas som datakälla. |
+| xmlStream | Stream | Den XML-dataström som ska användas som datakälla. |
+
+## Exempel
+
+Visa hur man använder XML som datakälla (ström).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - XML data destination.docx");
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.xml"))
+{
+    XmlDataSource dataSource = new XmlDataSource(stream);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.XmlDataStream.docx");
+```
 
 ### Se även
 
@@ -50,7 +79,7 @@ public XmlDataSource(Stream xmlStream)
 
 ## XmlDataSource(*string, string*) {#constructor_6}
 
-Skapar en ny datakälla med data från en XML-fil med hjälp av en XML Schema Definition-fil. Standard options används för XML-dataladdning.
+Skapar en ny datakälla med data från en XML-fil med hjälp av en XML-schemadefinitionsfil. Standardalternativen används för inläsning av XML-data.
 
 ```csharp
 public XmlDataSource(string xmlPath, string xmlSchemaPath)
@@ -59,7 +88,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | xmlPath | String | Sökvägen till XML-filen som ska användas som datakälla. |
-| xmlSchemaPath | String | Sökvägen till XML Schema Definition-filen som tillhandahåller schemat för XML -filen. |
+| xmlSchemaPath | String | Sökvägen till XML-schemadefinitionsfilen som tillhandahåller schemat för XML -filen. |
 
 ### Se även
 
@@ -71,7 +100,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath)
 
 ## XmlDataSource(*Stream, Stream*) {#constructor_2}
 
-Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. Standard options används för XML-dataladdning.
+Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. Standardalternativen används för inläsning av XML-data.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
@@ -79,8 +108,8 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| xmlStream | Stream | Strömmen av XML-data som ska användas som datakälla. |
-| xmlSchemaStream | Stream | Strömmen av XML Schema Definition som tillhandahåller schema för XML-data. |
+| xmlStream | Stream | Den XML-dataström som ska användas som datakälla. |
+| xmlSchemaStream | Stream | Flödet av XML-schemadefinition som tillhandahåller schemat för XML-data. |
 
 ### Se även
 
@@ -92,7 +121,7 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream)
 
 ## XmlDataSource(*string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_5}
 
-Skapar en ny datakälla med data från en XML-fil med de angivna alternativen för XML-dataladdning.
+Skapar en ny datakälla med data från en XML-fil med hjälp av de angivna alternativen för inläsning av XML-data.
 
 ```csharp
 public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
@@ -101,7 +130,7 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | xmlPath | String | Sökvägen till XML-filen som ska användas som datakälla. |
-| options | XmlDataLoadOptions | Alternativ för XML-dataladdning. |
+| options | XmlDataLoadOptions | Alternativ för inläsning av XML-data. |
 
 ### Se även
 
@@ -114,7 +143,7 @@ public XmlDataSource(string xmlPath, XmlDataLoadOptions options)
 
 ## XmlDataSource(*Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_1}
 
-Skapar en ny datakälla med data från en XML-ström med de angivna alternativen för XML-dataladdning.
+Skapar en ny datakälla med data från en XML-ström med hjälp av de angivna alternativen för XML-datainläsning.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
@@ -122,8 +151,8 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| xmlStream | Stream | Strömmen av XML-data som ska användas som datakälla. |
-| options | XmlDataLoadOptions | Alternativ för XML-dataladdning. |
+| xmlStream | Stream | Den XML-dataström som ska användas som datakälla. |
+| options | XmlDataLoadOptions | Alternativ för inläsning av XML-data. |
 
 ### Se även
 
@@ -136,7 +165,7 @@ public XmlDataSource(Stream xmlStream, XmlDataLoadOptions options)
 
 ## XmlDataSource(*string, string, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_7}
 
-Skapar en ny datakälla med data från en XML-fil med hjälp av en XML Schema Definition-fil. De specificerade -alternativen används för XML-dataladdning.
+Skapar en ny datakälla med data från en XML-fil med hjälp av en XML-schemadefinitionsfil. De angivna -alternativen används för inläsning av XML-data.
 
 ```csharp
 public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions options)
@@ -145,8 +174,8 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | xmlPath | String | Sökvägen till XML-filen som ska användas som datakälla. |
-| xmlSchemaPath | String | Sökvägen till XML Schema Definition-filen som tillhandahåller schemat för XML -filen. |
-| options | XmlDataLoadOptions | Alternativ för XML-dataladdning. |
+| xmlSchemaPath | String | Sökvägen till XML-schemadefinitionsfilen som tillhandahåller schemat för XML -filen. |
+| options | XmlDataLoadOptions | Alternativ för inläsning av XML-data. |
 
 ### Se även
 
@@ -159,7 +188,7 @@ public XmlDataSource(string xmlPath, string xmlSchemaPath, XmlDataLoadOptions op
 
 ## XmlDataSource(*Stream, Stream, [XmlDataLoadOptions](../../xmldataloadoptions/)*) {#constructor_3}
 
-Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. De specificerade -alternativen används för XML-dataladdning.
+Skapar en ny datakälla med data från en XML-ström med hjälp av en XML Schema Definition-ström. De angivna -alternativen används för inläsning av XML-data.
 
 ```csharp
 public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOptions options)
@@ -167,9 +196,9 @@ public XmlDataSource(Stream xmlStream, Stream xmlSchemaStream, XmlDataLoadOption
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| xmlStream | Stream | Strömmen av XML-data som ska användas som datakälla. |
-| xmlSchemaStream | Stream | Strömmen av XML Schema Definition som tillhandahåller schema för XML-data. |
-| options | XmlDataLoadOptions | Alternativ för XML-dataladdning. |
+| xmlStream | Stream | Den XML-dataström som ska användas som datakälla. |
+| xmlSchemaStream | Stream | Flödet av XML-schemadefinition som tillhandahåller schemat för XML-data. |
+| options | XmlDataLoadOptions | Alternativ för inläsning av XML-data. |
 
 ### Se även
 

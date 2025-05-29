@@ -3,16 +3,14 @@ title: Metered Class
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Metered klass. Tillhandahåller metoder för att ställa in mätnyckel i C#.
+description: Lås upp kraften i Aspose.Words.Metered-klassen! Hantera enkelt din mätta nyckel med effektiva metoder för sömlös dokumentbehandling.
 type: docs
-weight: 4160
+weight: 4850
 url: /sv/net/aspose.words/metered/
 ---
 ## Metered class
 
-Tillhandahåller metoder för att ställa in mätnyckel.
-
-För att lära dig mer, besök[Licensiering och prenumeration](https://docs.aspose.com/words/net/licensing/) dokumentationsartikel.
+Tillhandahåller metoder för att ställa in mätad nyckel.
 
 ```csharp
 public class Metered
@@ -28,13 +26,15 @@ public class Metered
 
 | namn | Beskrivning |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Ställer in mätt offentlig och privat nyckel. Om du köper mätlicens, när du startar applikationen, bör detta API anropas, normalt räcker detta. Men om alltid misslyckas med att ladda upp förbrukningsdata och överskrider 24 timmar, kommer licensen att ställas in på utvärderingsstatus, för att undvika sådana fall bör du regelbundet kontrollera licensstatusen, om det är utvärderingsstatus, ring detta API igen. |
+| [GetProductName](../../aspose.words/metered/getproductname/)() | Returer Produktnamn |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Ställer in uppmätt publik och privat nyckel. Om du köper en uppmätt licens bör detta API anropas när du startar applikationen, normalt räcker detta. Om det dock alltid misslyckas med att ladda upp förbrukningsdata och det tar mer än 24 timmar kommer licensen att ställas in på utvärderingsstatus. För att undvika sådana fall bör du regelbundet kontrollera licensstatusen. Om det är utvärderingsstatus, anropa detta API igen. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Får konsumtionskredit |
-| static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Får förbrukningsfilstorlek |
+| static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Hämtar förbrukningsfilens storlek |
+| static [IsMeteredLicensed](../../aspose.words/metered/ismeteredlicensed/)() | Kontrollera om den mätta enheten är licensierad |
 
 ## Exempel
 
-I det här exemplet kommer ett försök att göras att ställa in mätt offentlig och privat nyckel
+I det här exemplet kommer ett försök att ställa in uppmätta offentliga och privata nycklar.
 
 ```csharp
 [C#]
@@ -49,13 +49,15 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-Visar hur du aktiverar en mätlicens och spårar kredit/förbrukning.
+Visar hur man aktiverar en mätt licens och spårar kredit/förbrukning.
 
 ```csharp
-// Skapa en ny Metered-licens och skriv sedan ut dess användningsstatistik.
+// Skapa en ny mätt licens och skriv sedan ut dess användningsstatistik.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
@@ -64,7 +66,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
 // Aspose Metered Licensing-mekanism skickar inte användningsdata till köpservern varje gång,
-// du måste använda väntande.
+// du måste använda väntan.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

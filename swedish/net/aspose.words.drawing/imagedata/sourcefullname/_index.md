@@ -3,14 +3,14 @@ title: ImageData.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words för .NET
-description: ImageData SourceFullName fast egendom. Hämtar eller ställer in sökvägen och namnet på källfilen för den länkade bilden i C#.
+description: Upptäck egenskapen ImageData SourceFullName för att enkelt hantera länkade bildsökvägar och filnamn, vilket förbättrar din bildhanteringseffektivitet.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.drawing/imagedata/sourcefullname/
 ---
 ## ImageData.SourceFullName property
 
-Hämtar eller ställer in sökvägen och namnet på källfilen för den länkade bilden.
+Hämtar eller anger sökvägen och namnet på källfilen för den länkade bilden.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -20,7 +20,7 @@ public string SourceFullName { get; set; }
 
 Standardvärdet är en tom sträng.
 
-Om`SourceFullName` är inte en tom sträng, bilden är länkad.
+Om`SourceFullName` inte är en tom sträng, bilden är länkad.
 
 ## Exempel
 
@@ -32,8 +32,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Nedan finns två sätt att applicera en bild på en form så att den kan visa den.
-// 1 - Ställ in formen så att den innehåller bilden.
+// Nedan följer två sätt att tillämpa en bild på en form så att den kan visas.
+// 1 - Ange formen så att den innehåller bilden.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -47,7 +47,7 @@ Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedde
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Ställ in formen för att länka till en bildfil i det lokala filsystemet.
+// 2 - Ange formen för att länka till en bildfil i det lokala filsystemet.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;

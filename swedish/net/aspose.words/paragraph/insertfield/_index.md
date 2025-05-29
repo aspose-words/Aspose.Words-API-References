@@ -3,9 +3,9 @@ title: Paragraph.InsertField
 linktitle: InsertField
 articleTitle: InsertField
 second_title: Aspose.Words för .NET
-description: Paragraph InsertField metod. Infogar ett fält i detta stycke i C#.
+description: Infoga enkelt fält i stycken med metoden Paragraph InsertField. Förbättra dokumentets funktionalitet och effektivisera innehållshanteringen.
 type: docs
-weight: 270
+weight: 290
 url: /sv/net/aspose.words/paragraph/insertfield/
 ---
 ## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
@@ -20,12 +20,12 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 | --- | --- | --- |
 | fieldType | FieldType | Typen av fält som ska infogas. |
 | updateField | Boolean | Anger om fältet ska uppdateras omedelbart. |
-| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, läggs sedan till i slutet av stycket). |
+| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, lägger sedan till i slutet av stycket). |
 | isAfter | Boolean | Om fältet ska infogas efter eller före referensnoden. |
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
+En[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
 ## Exempel
 
@@ -35,7 +35,7 @@ Visar olika sätt att lägga till fält i ett stycke.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Nedan finns tre sätt att infoga ett fält i ett stycke.
+// Nedan följer tre sätt att infoga ett fält i ett stycke.
 // 1 - Infoga ett AUTHOR-fält i ett stycke efter en av styckets underordnade noder:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
@@ -49,13 +49,13 @@ para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Infoga ett CITAT-fält före en av styckets underordnade noder,
-// och få det att visa ett platshållarvärde:
+// 3 - Infoga ett CITAT-fält före en av styckets undernoder,
+// och få den att visa ett platshållarvärde:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Detta fält kommer att visa sitt platshållarvärde tills vi uppdaterar det.
+// Det här fältet visar sitt platshållarvärde tills vi uppdaterar det.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
@@ -84,13 +84,13 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fieldCode | String | Fältkoden som ska infogas (utan hängslen). |
-| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, läggs sedan till i slutet av stycket). |
+| fieldCode | String | Fältkoden som ska infogas (utan klammerparenteser). |
+| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, lägger sedan till i slutet av stycket). |
 | isAfter | Boolean | Om fältet ska infogas efter eller före referensnoden. |
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
+En[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
 ## Exempel
 
@@ -100,7 +100,7 @@ Visar olika sätt att lägga till fält i ett stycke.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Nedan finns tre sätt att infoga ett fält i ett stycke.
+// Nedan följer tre sätt att infoga ett fält i ett stycke.
 // 1 - Infoga ett AUTHOR-fält i ett stycke efter en av styckets underordnade noder:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
@@ -114,13 +114,13 @@ para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Infoga ett CITAT-fält före en av styckets underordnade noder,
-// och få det att visa ett platshållarvärde:
+// 3 - Infoga ett CITAT-fält före en av styckets undernoder,
+// och få den att visa ett platshållarvärde:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Detta fält kommer att visa sitt platshållarvärde tills vi uppdaterar det.
+// Det här fältet visar sitt platshållarvärde tills vi uppdaterar det.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
@@ -148,14 +148,14 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fieldCode | String | Fältkoden som ska infogas (utan hängslen). |
-| fieldValue | String | Fältvärdet som ska infogas. Passera`null` för fält som inte har ett värde. |
-| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, läggs sedan till i slutet av stycket). |
+| fieldCode | String | Fältkoden som ska infogas (utan klammerparenteser). |
+| fieldValue | String | Fältvärdet som ska infogas. Pass`null` för fält som inte har ett värde. |
+| refNode | Node | Referensnod i detta stycke (om*refNode* är`null`, lägger sedan till i slutet av stycket). |
 | isAfter | Boolean | Om fältet ska infogas efter eller före referensnoden. |
 
 ### Returvärde
 
-A[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
+En[`Field`](../../../aspose.words.fields/field/) objekt som representerar det infogade fältet.
 
 ## Exempel
 
@@ -165,7 +165,7 @@ Visar olika sätt att lägga till fält i ett stycke.
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Nedan finns tre sätt att infoga ett fält i ett stycke.
+// Nedan följer tre sätt att infoga ett fält i ett stycke.
 // 1 - Infoga ett AUTHOR-fält i ett stycke efter en av styckets underordnade noder:
 Run run = new Run(doc) { Text = "This run was written by " };
 para.AppendChild(run);
@@ -179,13 +179,13 @@ para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Infoga ett CITAT-fält före en av styckets underordnade noder,
-// och få det att visa ett platshållarvärde:
+// 3 - Infoga ett CITAT-fält före en av styckets undernoder,
+// och få den att visa ett platshållarvärde:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
 
-// Detta fält kommer att visa sitt platshållarvärde tills vi uppdaterar det.
+// Det här fältet visar sitt platshållarvärde tills vi uppdaterar det.
 doc.UpdateFields();
 
 Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);

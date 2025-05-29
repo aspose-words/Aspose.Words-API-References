@@ -3,7 +3,7 @@ title: OleFormat.GetRawData
 linktitle: GetRawData
 articleTitle: GetRawData
 second_title: Aspose.Words för .NET
-description: OleFormat GetRawData metod. Hämtar rådata för OLEobjekt i C#.
+description: Upptäck OleFormats GetRawData-metod för att enkelt hämta rådata från OLE-objekt, vilket förbättrar dina datahanterings- och integrationsmöjligheter.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.drawing/oleformat/getrawdata/

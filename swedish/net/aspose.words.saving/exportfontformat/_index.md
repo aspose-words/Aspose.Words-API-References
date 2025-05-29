@@ -3,14 +3,14 @@ title: ExportFontFormat Enum
 linktitle: ExportFontFormat
 articleTitle: ExportFontFormat
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.ExportFontFormat uppräkning. Indikerar formatet som används för att exportera teckensnitt vid rendering till HTMLfast format i C#.
+description: Upptäck Aspose.Words.Saving.ExportFontFormat-enum för optimal export av teckensnitt vid rendering till fast HTML-format. Förbättra dokumentets visuella kvalitet!
 type: docs
-weight: 4990
+weight: 5740
 url: /sv/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
 
-Indikerar formatet som används för att exportera teckensnitt vid rendering till HTML-fast format.
+Anger formatet som används för att exportera teckensnitt vid rendering till fast HTML-format.
 
 ```csharp
 public enum ExportFontFormat
@@ -20,12 +20,12 @@ public enum ExportFontFormat
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Woff | `0` | WOFF (Web Open Font Format). |
-| Ttf | `1` | TTF (TrueType Font-format). |
+| Woff | `0` | WOFF (webböppet teckensnittsformat). |
+| Ttf | `1` | TTF (TrueType-teckensnittsformat). |
 
 ## Exempel
 
-Visar hur teckensnitt endast används från målmaskinen när du sparar ett dokument i HTML.
+Visar hur man endast använder teckensnitt från måldatorn när man sparar ett dokument till HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

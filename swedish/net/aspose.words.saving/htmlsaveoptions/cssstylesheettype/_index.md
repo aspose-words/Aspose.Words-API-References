@@ -3,7 +3,7 @@ title: HtmlSaveOptions.CssStyleSheetType
 linktitle: CssStyleSheetType
 articleTitle: CssStyleSheetType
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions CssStyleSheetType fast egendom. Anger hur CSSstilar Cascading Style Sheet exporteras till HTML MHTML eller EPUB. Standardvärdet ärInline för HTML/MHTML och External för EPUB i C#.
+description: Upptäck hur egenskapen CssStyleSheetType i HtmlSaveOptions optimerar CSS-export till HTML-, MHTML- och EPUB-format för sömlös integration.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/htmlsaveoptions/cssstylesheettype/
@@ -18,30 +18,30 @@ public CssStyleSheetType CssStyleSheetType { get; set; }
 
 ## Anmärkningar
 
-Att spara CSS-stilmall i en extern fil stöds endast när du sparar till HTML. När du exporterar till ett av behållarformaten (EPUB eller MHTML) och anger External, CSS-filen kommer att inkapslas i utdatapaketet.
+Att spara CSS-stilmallar i en extern fil stöds endast när du sparar till HTML. När du exporterar till ett av containerformaten (EPUB eller MHTML) och anger External, CSS-filen kommer att inkapslas i utdatapaketet.
 
 ## Exempel
 
-Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
+Visar hur man arbetar med CSS-stilmallar som skapas av en HTML-konvertering.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur vi konverterar dokumentet till HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Ställ in egenskapen "CssStylesheetType" till "CssStyleSheetType.External" till
-    // åtfölja ett sparat HTML-dokument med en extern CSS-formatmallsfil.
+    // Ställ in egenskapen "CssStylesheetType" till "CssStyleSheetType.External" för att
+    // komplettera ett sparat HTML-dokument med en extern CSS-stilarksfil.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Nedan finns två sätt att ange kataloger och filnamn för CSS-formatmallar.
-    // 1 - Använd egenskapen "CssStyleSheetFileName" för att tilldela ett filnamn till vår stilmall:
+    // Nedan följer två sätt att ange kataloger och filnamn för CSS-formatmallar som utdata.
+    // 1 - Använd egenskapen "CssStyleSheetFileName" för att tilldela ett filnamn till vårt stilark:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Använd en anpassad återuppringning för att namnge vår stilmall:
+    // 2 - Använd en anpassad återuppringning för att namnge vårt stilark:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -49,7 +49,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Ställer in ett anpassat filnamn, tillsammans med andra parametrar för en extern CSS-stilmall.
+/// Anger ett anpassat filnamn, tillsammans med andra parametrar för ett externt CSS-stilark.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {

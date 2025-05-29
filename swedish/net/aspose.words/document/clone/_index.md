@@ -3,14 +3,14 @@ title: Document.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words för .NET
-description: Document Clone metod. Utför en djup kopia avDocument  i C#.
+description: Kopiera enkelt dina dokument med vår dokumentkloningsmetod. Få precisa djupa kopior för sömlös redigering och effektivt arbetsflöde.
 type: docs
-weight: 550
+weight: 590
 url: /sv/net/aspose.words/document/clone/
 ---
 ## Document.Clone method
 
-Utför en djup kopia av[`Document`](../) .
+Utför en djup kopiering av[`Document`](../) .
 
 ```csharp
 public Document Clone()
@@ -30,11 +30,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-// Kloning kommer att producera ett nytt dokument med samma innehåll som originalet,
+// Kloning skapar ett nytt dokument med samma innehåll som originalet,
 // men med en unik kopia av var och en av originaldokumentets noder.
 Document clone = doc.Clone();
 
-Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(), 
+Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(),
     clone.FirstSection.Body.FirstParagraph.Runs[0].Text);
 Assert.AreNotEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(),
     clone.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode());

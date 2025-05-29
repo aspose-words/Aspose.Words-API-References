@@ -3,14 +3,14 @@ title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
 second_title: Aspose.Words för .NET
-description: Shading Texture fast egendom. Får eller ställer in skuggningsstrukturen i C#.
+description: Upptäck egenskapen Skuggningstextur för att förbättra dina designer. Anpassa och ställ enkelt in texturer för fantastiska visuella effekter i dina projekt.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property
 
-Får eller ställer in skuggningsstrukturen.
+Hämtar eller ställer in skuggningstexturen.
 
 ```csharp
 public TextureIndex Texture { get; set; }
@@ -18,7 +18,7 @@ public TextureIndex Texture { get; set; }
 
 ## Exempel
 
-Visar hur man dekorerar text med kanter och skuggningar.
+Visar hur man dekorerar text med ramar och skuggning.
 
 ```csharp
 Document doc = new Document();

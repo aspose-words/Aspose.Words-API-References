@@ -3,14 +3,14 @@ title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words för .NET
-description: FileFontSource FilePath fast egendom. Sökväg till teckensnittsfilen i C#.
+description: Upptäck FileFontSource FilePath-egenskapen för enkel åtkomst till dina typsnittsfiler. Effektivisera din designprocess med detta viktiga verktyg!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/filefontsource/filepath/
 ---
 ## FileFontSource.FilePath property
 
-Sökväg till teckensnittsfilen.
+Sökväg till typsnittsfilen.
 
 ```csharp
 public string FilePath { get; }
@@ -18,7 +18,7 @@ public string FilePath { get; }
 
 ## Exempel
 
-Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
+Visar hur man använder en teckensnittsfil i det lokala filsystemet som teckensnittskälla.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

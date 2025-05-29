@@ -3,7 +3,7 @@ title: Theme
 linktitle: Theme
 articleTitle: Theme
 second_title: Aspose.Words för .NET
-description: Theme byggare. Default_Constructor i C#.
+description: Skapa enkelt fantastiska teman med vår intuitiva konstruktör. Anpassa din design enkelt och höj din webbplats attraktionskraft idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.themes/theme/theme/

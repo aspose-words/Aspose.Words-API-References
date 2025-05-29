@@ -3,7 +3,7 @@ title: AxisDisplayUnit.CustomUnit
 linktitle: CustomUnit
 articleTitle: CustomUnit
 second_title: Aspose.Words för .NET
-description: AxisDisplayUnit CustomUnit fast egendom. Hämtar eller ställer in en användardefinierad divisor för att skala visningsenheter på värdeaxeln i C#.
+description: Upptäck egenskapen AxisDisplayUnit CustomUnit för att enkelt anpassa dina visningsenheter för värdeaxeln med användardefinierad skalning för förbättrad datatydlighet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/axisdisplayunit/customunit/
@@ -18,13 +18,13 @@ public double CustomUnit { get; set; }
 
 ## Anmärkningar
 
-Egenskapen stöds inte av MS Office 2016 nya diagram. Standardvärdet är 1.
+Egenskapen stöds inte av de nya diagrammen i MS Office 2016. Standardvärdet är 1.
 
-Om du ställer in den här egenskapen ställer du in[`Unit`](../unit/) egenskap till Custom.
+Att om du anger den här egenskapen anger[`Unit`](../unit/) egenskapen to Custom.
 
 ## Exempel
 
-Visar hur man manipulerar bockmarkeringarna och visade värden för en diagramaxel.
+Visar hur man manipulerar skalstreck och visade värden på en diagramaxel.
 
 ```csharp
 Document doc = new Document();
@@ -36,43 +36,44 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 
-// Ställ in de mindre bockarna på Y-axeln så att de pekar bort från plotområdet,
-// och de stora bockarna för att korsa axeln.
+// Ställ in de mindre skalmarkeringarna på Y-axeln så att de pekar bort från plottområdet,
+// och de stora skalmarkeringarna som korsar axeln.
 ChartAxis axis = chart.AxisY;
 axis.MajorTickMark = AxisTickMark.Cross;
 axis.MinorTickMark = AxisTickMark.Outside;
 
-// Ställ in Y-axeln så att den visar en större bock var 10:e enhet, och en mindre bock var 1:e enhet.
+// Ställ in Y-axeln för att visa en större tick var 10:e enhet och en mindre tick var 1:e enhet.
 axis.MajorUnit = 10;
 axis.MinorUnit = 1;
 
-// Ställ in Y-axelns gränser till -10 och 20.
-// Den här Y-axeln kommer nu att visa 4 större tick-markeringar och 27 mindre tick-markeringar.
+// Sätt Y-axelns gränser till -10 och 20.
+// Denna Y-axel kommer nu att visa 4 större skalmärken och 27 mindre skalmärken.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(20);
 
-// För X-axeln, ställ in de viktigaste bockmarkeringarna på var 10:e enhet,
-// varje mindre bock vid 2,5 enheter.
+// För X-axeln, sätt de stora skalmarkeringarna var 10:e enhet,
+// varje mindre bockmarkering vid 2,5 enheter.
 axis = chart.AxisX;
 axis.MajorUnit = 10;
 axis.MinorUnit = 2.5;
 
-// Konfigurera båda typerna av bockmarkeringar så att de visas inuti diagramområdet.
+// Konfigurera båda typerna av skalstreck så att de visas inuti grafens plottområde.
 axis.MajorTickMark = AxisTickMark.Inside;
 axis.MinorTickMark = AxisTickMark.Inside;
 
-// Ställ in X-axelns gränser så att X-axeln sträcker sig över 5 större markeringar och 12 mindre markeringar.
+// Ställ in X-axelns gränser så att X-axeln sträcker sig över 5 större skalmärken och 12 mindre skalmärken.
 axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
-axis.TickLabelAlignment = ParagraphAlignment.Right;
+axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
-Assert.AreEqual(1, axis.TickLabelSpacing);
+Assert.AreEqual(1, axis.TickLabels.Spacing);
+Assert.AreEqual(doc, axis.DisplayUnit.Document);
 
-// Ställ in markeringarna så att de visar deras värde i miljoner.
+// Ställ in kryssrutorna så att de visar deras värde i miljoner.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;
 
-// Vi kan ställa in ett mer specifikt värde med vilket bocketiketter ska visa sina värden.
-// Detta påstående är likvärdigt med det ovan.
+// Vi kan ställa in ett mer specifikt värde med vilket tick-etiketter visar sina värden.
+// Detta påstående motsvarar det ovanstående.
 axis.DisplayUnit.CustomUnit = 1000000;
 doc.Save(ArtifactsDir + "Charts.AxisDisplayUnit.docx");
 ```

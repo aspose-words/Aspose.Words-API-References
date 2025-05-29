@@ -3,14 +3,14 @@ title: BuildingBlock.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words för .NET
-description: BuildingBlock Accept metod. Accepterar en besökare i C#.
+description: Upptäck BuildingBlocks Accept-metod för att smidigt engagera besökare och förbättra användarupplevelsen. Frigör din webbplats fulla potential idag!
 type: docs
 weight: 130
 url: /sv/net/aspose.words.buildingblocks/buildingblock/accept/
 ---
 ## BuildingBlock.Accept method
 
-Accepterar en besökare.
+Tar emot en besökare.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,31 +22,31 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan du besökte alla noder.
+Sant om alla noder besöktes; falskt om[`DocumentVisitor`](../../../aspose.words/documentvisitor/) stoppade operationen innan alla noder besöktes.
 
 ## Anmärkningar
 
-Räknar upp denna nod och alla dess barn. Varje nod anropar en motsvarande metod[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Räknar upp denna nod och alla dess underordnade noder. Varje nod anropar en motsvarande metod.[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-För mer information se Visitor design mönster.
+För mer information, se designmönstret för besökare.
 
 Samtal[`VisitBuildingBlockStart`](../../../aspose.words/documentvisitor/visitbuildingblockstart/) , anropar sedan [`Accept`](../../../aspose.words/node/accept/) för alla underordnade noder i detta byggblock, anropar sedan [`VisitBuildingBlockEnd`](../../../aspose.words/documentvisitor/visitbuildingblockend/).
 
-Obs: En byggblocksnod och dess underordnade nod besöks inte när du kör en besökare över en[`Document`](../../../aspose.words/document/) . Om du vill köra en besökare över a byggblock måste du köra besökaren över[`GlossaryDocument`](../../glossarydocument/) eller samtal`Accept` .
+Obs! En byggstensnod och dess underordnade noder besöks inte när du kör en Visitor över en[`Document`](../../../aspose.words/document/) Om du vill köra en Visitor över ett byggblock av typen måste du köra besökaren över[`GlossaryDocument`](../../glossarydocument/) eller samtal`Accept` .
 
 ## Exempel
 
-Visar hur man lägger till ett anpassat byggblock till ett dokument.
+Visar hur man lägger till ett anpassat byggblock i ett dokument.
 
 ```csharp
 public void CreateAndInsert()
 {
-    // Ett dokuments ordlista dokument lagrar byggstenar.
+    // Ett dokuments ordlista innehåller byggstenar.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Skapa ett byggblock, namnge det och lägg sedan till det i ordlistans dokument.
+    // Skapa en byggsten, namnge den och lägg sedan till den i ordlistadokumentet.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -54,39 +54,40 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Alla nya byggblock GUID har samma nollvärde som standard, och vi kan ge dem ett nytt unikt värde.
+    // Alla nya byggblocks-GUID:er har samma nollvärde som standard, och vi kan ge dem ett nytt unikt värde.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // Följande egenskaper kategoriserar byggstenar
-    // i menyn kan vi komma åt i Microsoft Word via "Infoga" -> "Snabbdelar" -> "Byggstensarrangör".
+    // i menyn som vi kan komma åt i Microsoft Word via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Innan vi kan lägga till den här byggstenen i vårt dokument måste vi ge det lite innehåll,
-    // vilket vi kommer att göra med en dokumentbesökare. Den här besökaren kommer också att ange en kategori, ett galleri och ett beteende.
+    // Innan vi kan lägga till den här byggstenen i vårt dokument måste vi ge den lite innehåll,
+    // vilket vi kommer att göra med hjälp av en dokumentbesökare. Denna besökare kommer också att ange en kategori, ett galleri och ett beteende.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Besök början/slut av BuildingBlock.
     block.Accept(visitor);
 
-    // Vi kan komma åt blocket som vi just skapade från ordlistans dokument.
+    // Vi kan komma åt blocket som vi just skapade från ordlistadokumentet.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
-    // Själva blocket är ett avsnitt som innehåller texten.
+    // Själva blocket är en sektion som innehåller texten.
     Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
     Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
     // Nu kan vi infoga det i dokumentet som ett nytt avsnitt.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // Vi kan också hitta det i Microsoft Words Building Blocks Organizer och placera det manuellt.
+    // Vi kan också hitta den i Microsoft Words Building Blocks Organizer och placera den manuellt.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Konfigurerar ett besökt byggblock som ska infogas i dokumentet som en snabb del och lägger till text i dess innehåll.
+/// Ställer in ett besökt byggblock som ska infogas i dokumentet som en snabbdel och lägger till text i dess innehåll.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -106,7 +107,7 @@ public class BuildingBlockVisitor : DocumentVisitor
         block.Gallery = BuildingBlockGallery.QuickParts;
 
         // Lägg till ett avsnitt med text.
-        // Om du infogar blocket i dokumentet kommer detta avsnitt att läggas till med dess underordnade noder på platsen.
+        // Om blocket infogas i dokumentet läggs det här avsnittet till med dess underordnade noder på platsen.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);
         block.FirstSection.EnsureMinimum();

@@ -3,14 +3,14 @@ title: CommentRangeStart Class
 linktitle: CommentRangeStart
 articleTitle: CommentRangeStart
 second_title: Aspose.Words för .NET
-description: Aspose.Words.CommentRangeStart klass. Betecknar början på en textregion som har en kommentar kopplad till sig i C#.
+description: Upptäck klassen Aspose.Words.CommentRangeStart, som markerar kommentarsassocierade textområden för förbättrad dokumenthantering och redigeringseffektivitet.
 type: docs
-weight: 260
+weight: 450
 url: /sv/net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class
 
-Betecknar början på en textregion som har en kommentar kopplad till sig.
+Anger början på ett textområde som har en associerad kommentar.
 
 För att lära dig mer, besök[Arbeta med kommentarer](https://docs.aspose.com/words/net/working-with-comments/) dokumentationsartikel.
 
@@ -31,37 +31,37 @@ public sealed class CommentRangeStart : Node
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
 | [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Anger identifieraren för kommentaren som denna region är länkad till. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | ReturnerarCommentRangeStart . |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returer`sann` om denna nod kan innehålla andra noder. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden som följer direkt efter denna nod. |
+| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | ReturerCommentRangeStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden som omedelbart föregår denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/)objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| override [Accept](../../aspose.words/commentrangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Tar emot en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en duplikat av noden. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
-| virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| virtual [GetText](../../aspose.words/node/gettext/)() | Hämtar texten för denna nod och alla dess underordnade noder. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdtraversering. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar nodens innehåll till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar nodens innehåll till en sträng med de angivna sparalternativen. |
 
 ## Anmärkningar
 
-För att skapa en kommentar förankrad till en textregion måste du skapa en[`Comment`](../comment/) and skapa sedan`CommentRangeStart` och[`CommentRangeEnd`](../commentrangeend/)och ställ in deras identifierare till samma[`Id`](../comment/id/) värde.
+För att skapa en kommentar förankrad i ett textområde måste du skapa en[`Comment`](../comment/) och skapa sedan`CommentRangeStart` och[`CommentRangeEnd`](../commentrangeend/) och ställ in deras identifierare till samma[`Id`](../comment/id/) värde.
 
-`CommentRangeStart` är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../paragraph/).
+`CommentRangeStart` är en inline-nivånod och kan bara vara underordnad[`Paragraph`](../paragraph/).
 
 ## Exempel
 
-Visar hur du skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
+Visar hur man skriver ut innehållet i alla kommentarer och deras kommentarintervall med hjälp av en dokumentbesökare.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -77,14 +77,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Lägg till text i dokumentet, förvräng den i ett kommentarsområde och lägg sedan till din kommentar.
+    // Lägg till text i dokumentet, förvräng den i ett kommentarområde och lägg sedan till din kommentar.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Lägg till två svar på kommentaren.
+    // Lägg till två svar till kommentaren.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -98,20 +98,24 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Iterera över alla kommentarer på toppnivå. Till skillnad från kommentarer av svarstyp har kommentarer på toppnivå ingen förfader.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Iterera över alla kommentarer på toppnivå. Till skillnad från kommentarer av svarstyp har kommentarer på toppnivå ingen överordnad text.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Besök först början av kommentarsintervallet.
+        // Först, besök början av kommentarsintervallet.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Besök sedan kommentaren och eventuella svar som den kan ha.
+        // Besök sedan kommentaren och eventuella svar som den kan innehålla.
         comment.Accept(commentVisitor);
+        // Besök endast början av kommentaren.
+        comment.AcceptStart(commentVisitor);
+        // Besök endast slutet av kommentaren.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Slutligen, besök slutet av kommentarsintervallet och skriv sedan ut besökarens textinnehåll.
+        // Slutligen, besök slutet av kommentarsområdet och skriv sedan ut besökarens textinnehåll.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -120,7 +124,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Skriver ut information och innehåll för alla kommentarer och kommentarintervall som påträffas i dokumentet.
+/// Skriver ut information och innehåll för alla kommentarer och kommentarintervall som finns i dokumentet.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -131,7 +135,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {
@@ -139,7 +143,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -173,7 +177,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en kommentarsnod påträffas i dokumentet.
+    /// Anropas när en kommentarnod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -186,7 +190,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besöket av en kommentarsnod avslutas i dokumentet.
+    /// Anropas när besöket av en kommentarsnod i dokumentet avslutas.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -198,9 +202,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

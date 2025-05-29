@@ -3,14 +3,14 @@ title: FieldGlossary.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words för .NET
-description: FieldGlossary EntryName fast egendom. Hämtar eller ställer in namnet på den ordlista som ska infogas i C#.
+description: Upptäck egenskapen FieldGlossary EntryName för att enkelt hantera ordlisteposter – hämta eller ange namn för sömlös innehållsintegration.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldglossary/entryname/
 ---
 ## FieldGlossary.EntryName property
 
-Hämtar eller ställer in namnet på den ordlista som ska infogas.
+Hämtar eller anger namnet på ordlistaposten som ska infogas.
 
 ```csharp
 public string EntryName { get; set; }
@@ -23,7 +23,7 @@ Visar hur man visar ett byggblock med fälten AUTOTEXT och ORDLISTA.
 ```csharp
 Document doc = new Document();
 
-// Skapa ett ordlistadokument och lägg till ett autotextbyggblock till det.
+// Skapa ett ordlistadokument och lägg till ett AutoText-byggblock i det.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -33,7 +33,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Skapa en källa och lägg till den som text i vårt byggblock.
+// Skapa en källkod och lägg till den som text i vår byggsten.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -41,12 +41,12 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Ställ in en fil som innehåller delar som vårt dokument eller dess bifogade mall kanske inte innehåller.
+// Ställ in en fil som innehåller delar som vårt dokument, eller dess bifogade mall, kanske inte innehåller.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två sätt att använda fält för att visa innehållet i vårt byggblock.
+// Nedan följer två sätt att använda fält för att visa innehållet i vårt byggblock.
 // 1 - Använda ett AUTOTEXT-fält:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";

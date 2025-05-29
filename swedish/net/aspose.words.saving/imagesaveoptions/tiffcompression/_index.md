@@ -3,14 +3,14 @@ title: ImageSaveOptions.TiffCompression
 linktitle: TiffCompression
 articleTitle: TiffCompression
 second_title: Aspose.Words för .NET
-description: ImageSaveOptions TiffCompression fast egendom. Hämtar eller ställer in vilken typ av komprimering som ska tillämpas när genererade bilder sparas i TIFFformatet i C#.
+description: Optimera dina TIFF-bilder med egenskapen TiffCompression i ImageSaveOptions, så att du kan välja den bästa komprimeringsmetoden för kvalitetsresultat.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
 
-Hämtar eller ställer in vilken typ av komprimering som ska tillämpas när genererade bilder sparas i TIFF-formatet.
+Hämtar eller ställer in vilken typ av komprimering som ska tillämpas när genererade bilder sparas i TIFF-format.
 
 ```csharp
 public TiffCompression TiffCompression { get; set; }
@@ -18,56 +18,32 @@ public TiffCompression TiffCompression { get; set; }
 
 ## Anmärkningar
 
-Har endast effekt när du sparar till TIFF.
+Gäller endast när man sparar till TIFF.
 
 Standardvärdet ärLzw.
 
 ## Exempel
 
-Visar hur man väljer det komprimeringsschema som ska tillämpas på ett dokument som vi konverterar till en TIFF-bild.
+Visar hur man väljer komprimeringsschemat som ska tillämpas på ett dokument som vi konverterar till en TIFF-bild.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
-            // för att ändra sättet på vilket den metoden renderar dokumentet till en bild.
-            ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+// Skapa ett "ImageSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
+// för att modifiera hur metoden renderar dokumentet till en bild.
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+// Ställ in egenskapen "TiffCompression" till "TiffCompression.None" för att inte tillämpa någon komprimering vid sparning,
+// vilket kan resultera i en mycket stor utdatafil.
+// Ställ in egenskapen "TiffCompression" till "TiffCompression.Rle" för att tillämpa RLE-komprimering
+// Sätt egenskapen "TiffCompression" till "TiffCompression.Lzw" för att tillämpa LZW-komprimering.
+// Sätt egenskapen "TiffCompression" till "TiffCompression.Ccitt3" för att tillämpa CCITT3-komprimering.
+// Sätt egenskapen "TiffCompression" till "TiffCompression.Ccitt4" för att tillämpa CCITT4-komprimering.
+options.TiffCompression = tiffCompression;
 
-            // Ställ in egenskapen "TiffCompression" till "TiffCompression.None" för att inte tillämpa någon komprimering när du sparar,
-            // vilket kan resultera i en mycket stor utdatafil.
-            // Ställ in egenskapen "TiffCompression" till "TiffCompression.Rle" för att tillämpa RLE-komprimering
-            // Ställ in egenskapen "TiffCompression" till "TiffCompression.Lzw" för att tillämpa LZW-komprimering.
-            // Ställ in egenskapen "TiffCompression" till "TiffCompression.Ccitt3" för att tillämpa CCITT3-komprimering.
-            // Ställ in egenskapen "TiffCompression" till "TiffCompression.Ccitt4" för att tillämpa CCITT4-komprimering.
-            options.TiffCompression = tiffCompression;
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);
-
-            switch (tiffCompression)
-            {
-                case TiffCompression.None:
-                    Assert.That(3000000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Rle:
-#if NET5_0_OR_GREATER
-                    Assert.That(6000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-#else
-                    Assert.That(600000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-#endif
-                    break;
-                case TiffCompression.Lzw:
-                    Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Ccitt3:
-                    Assert.That(90000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Ccitt4:
-                    Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-            }
+doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);
 ```
 
 ### Se även

@@ -3,14 +3,14 @@ title: ShapeBase.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words för .NET
-description: ShapeBase VerticalAlignment fast egendom. Anger hur formen är placerad vertikalt i C#.
+description: Upptäck egenskapen ShapeBase VerticalAlignment för att optimera din forms vertikala positionering för förbättrad designprecision och visuell attraktionskraft.
 type: docs
-weight: 560
+weight: 600
 url: /sv/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
 
-Anger hur formen är placerad vertikalt.
+Anger hur formen placeras vertikalt.
 
 ```csharp
 public VerticalAlignment VerticalAlignment { get; set; }
@@ -20,7 +20,7 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 Standardvärdet ärNone.
 
-Har effekt endast för svävande former på toppnivå.
+Har endast effekt för flytande former på översta nivån.
 
 ## Exempel
 
@@ -30,7 +30,7 @@ Visar hur man infogar en flytande bild i mitten av en sida.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en flytande bild som kommer att visas bakom den överlappande texten och justera den mot sidans mitt.
+// Infoga en flytande bild som visas bakom den överlappande texten och justera den mot sidans mitt.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

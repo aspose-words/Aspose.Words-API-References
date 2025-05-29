@@ -3,14 +3,14 @@ title: CustomDocumentProperties.AddLinkToContent
 linktitle: AddLinkToContent
 articleTitle: AddLinkToContent
 second_title: Aspose.Words för .NET
-description: CustomDocumentProperties AddLinkToContent metod. Skapar en ny länkad till innehåll anpassad dokumentegenskap i C#.
+description: Upptäck metoden AddLinkToContent i CustomDocumentProperties för att enkelt skapa länkade anpassade dokumentegenskaper för förbättrad dokumenthantering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.properties/customdocumentproperties/addlinktocontent/
 ---
 ## CustomDocumentProperties.AddLinkToContent method
 
-Skapar en ny länkad till innehåll anpassad dokumentegenskap.
+Skapar en ny anpassad dokumentegenskap för länkat innehåll.
 
 ```csharp
 public DocumentProperty AddLinkToContent(string name, string linkSource)
@@ -18,12 +18,12 @@ public DocumentProperty AddLinkToContent(string name, string linkSource)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Namnet på fastigheten. |
-| linkSource | String | Källan till fastigheten. |
+| name | String | Fastighetens namn. |
+| linkSource | String | Egendomens källa. |
 
 ### Returvärde
 
-Det nyskapade egenskapsobjektet eller`null` när*linkSource* är ogiltig.
+Det nyskapade egenskapsobjektet eller`null` när den*linkSource* är ogiltig.
 
 ## Exempel
 
@@ -37,8 +37,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Länka en ny anpassad egenskap till ett bokmärke. Värdet på denna fastighet
-// kommer att vara innehållet i bokmärket som det refererar till i "LinkSource"-medlemmen.
+// Länka en ny anpassad egenskap till ett bokmärke. Värdet för denna egenskap
+// kommer att vara innehållet i bokmärket som den refererar till i "LinkSource"-medlemmen.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

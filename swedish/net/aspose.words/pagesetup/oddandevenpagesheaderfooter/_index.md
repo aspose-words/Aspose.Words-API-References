@@ -3,14 +3,14 @@ title: PageSetup.OddAndEvenPagesHeaderFooter
 linktitle: OddAndEvenPagesHeaderFooter
 articleTitle: OddAndEvenPagesHeaderFooter
 second_title: Aspose.Words för .NET
-description: PageSetup OddAndEvenPagesHeaderFooter fast egendom. Sant om dokumentet har olika sidhuvuden och sidfötter för udda och jämna sidor i C#.
+description: Upptäck egenskapen PageSetup OddAndEvenPagesHeaderFooter för unika sidhuvuden och sidfot på udda och jämna sidor, vilket förbättrar dokumentets presentation.
 type: docs
 weight: 280
 url: /sv/net/aspose.words/pagesetup/oddandevenpagesheaderfooter/
 ---
 ## PageSetup.OddAndEvenPagesHeaderFooter property
 
-Sant om dokumentet har olika sidhuvuden och sidfötter för udda och jämna sidor.
+Sant om dokumentet har olika sidhuvuden och sidfot för udda och jämna sidor.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -18,17 +18,17 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 
 ## Anmärkningar
 
-Obs, att ändra den här egenskapen påverkar alla avsnitt i dokumentet.
+Observera att ändring av den här egenskapen påverkar alla avsnitt i dokumentet.
 
 ## Exempel
 
-Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
+Visar hur man skapar sidhuvuden och sidfot i ett dokument med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ange att vi vill ha olika sidhuvuden och sidfötter för första, jämna och udda sidor.
+// Ange att vi vill ha olika sidhuvuden och sidfot för första, jämna och udda sidor.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -50,22 +50,22 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Visar hur du aktiverar eller inaktiverar sidhuvuden/sidfötter på jämna sidor.
+Visar hur man aktiverar eller inaktiverar sidhuvuden/sidfot på jämna sidor.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två typer av sidhuvud/sidfötter.
-// 1 - Den "Primära" sidhuvudet/sidfoten, som visas på varje sida i avsnittet.
- // Vi kan åsidosätta den primära sidhuvudet/sidfoten med en första och en jämn sidhuvud/sidfot.
+// Nedan finns två typer av sidhuvud/sidfot.
+// 1 - Sidhuvudet/sidfoten "Primär", som visas på varje sida i avsnittet.
+// Vi kan åsidosätta den primära sidhuvudet/sidfoten med ett första och ett jämnt sidhuvud/sidfot.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("Primary footer.");
 
-// 2 - "Jämn" sidhuvudet/sidfoten, som visas på alla jämna sidor i det här avsnittet.
+// 2 - Sidhuvudet/sidfoten för "Jämna", som visas på varje jämn sida i det här avsnittet.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
 builder.Writeln("Even page header.");
 
@@ -79,11 +79,11 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Varje sektion har ett "PageSetup"-objekt som specificerar sidutseenderelaterade egenskaper
-// såsom orientering, storlek och kanter.
-// Ställ in egenskapen "OddAndEvenPagesHeaderFooter" till "true"
-// för att visa sidhuvudet/sidfoten på jämna sidor på jämna sidor.
-// Ställ in egenskapen "OddAndEvenPagesHeaderFooter" till "false"
+// Varje sektion har ett "PageSetup"-objekt som anger egenskaper relaterade till sidans utseende
+// såsom orientering, storlek och gränser.
+// Sätt egenskapen "OddAndJustPagesHeaderFooter" till "true"
+// för att visa sidhuvud/sidfot på jämna sidor.
+// Sätt egenskapen "OddAndJunPagesHeaderFooter" till "false"
 // för att visa den primära sidhuvudet/sidfoten på jämna sidor.
 builder.PageSetup.OddAndEvenPagesHeaderFooter = oddAndEvenPagesHeaderFooter;
 

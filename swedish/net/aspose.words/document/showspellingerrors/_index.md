@@ -3,14 +3,14 @@ title: Document.ShowSpellingErrors
 linktitle: ShowSpellingErrors
 articleTitle: ShowSpellingErrors
 second_title: Aspose.Words för .NET
-description: Document ShowSpellingErrors fast egendom. Anger om stavfel ska visas i detta dokument i C#.
+description: Kontrollera synligheten av stavfel i ditt dokument med egenskapen ShowSpellingErrors. Förbättra din redigeringsprocess och förbättra dokumentkvaliteten.
 type: docs
-weight: 400
+weight: 420
 url: /sv/net/aspose.words/document/showspellingerrors/
 ---
 ## Document.ShowSpellingErrors property
 
-Anger om stavfel ska visas i detta dokument.
+Anger om stavfel ska visas i det här dokumentet.
 
 ```csharp
 public bool ShowSpellingErrors { get; set; }
@@ -24,13 +24,13 @@ Visar hur man visar/döljer fel i dokumentet.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga två meningar med misstag som skulle plockas upp
+// Infoga två meningar med misstag som skulle upptäckas
 // av stavnings- och grammatikkontrollen i Microsoft Word.
 builder.Writeln("There is a speling error in this sentence.");
 builder.Writeln("Their is a grammatical error in this sentence.");
 
-// Om dessa alternativ är aktiverade kommer stavfel att vara understrukna
-// i utdatadokumentet med en taggig röd linje, och en dubbelblå linje kommer att markera grammatiska misstag.
+// Om dessa alternativ är aktiverade kommer stavfel att understrykas
+// i utdatadokumentet med en taggig röd linje, och en dubbel blå linje markerar grammatiska fel.
 doc.ShowGrammaticalErrors = showErrors;
 doc.ShowSpellingErrors = showErrors;
 

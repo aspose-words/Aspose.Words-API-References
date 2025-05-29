@@ -3,9 +3,9 @@ title: ProtectionType Enum
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.ProtectionType uppräkning. Skyddstyp för ett dokument i C#.
+description: Upptäck Aspose.Words.ProtectionType-enum för robust dokumentsäkerhet. Förbättra dina dokument med anpassningsbara skyddsalternativ idag!
 type: docs
-weight: 4510
+weight: 5240
 url: /sv/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -21,9 +21,9 @@ public enum ProtectionType
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | AllowOnlyComments | `1` | Användaren kan bara ändra kommentarer i dokumentet. |
-| AllowOnlyFormFields | `2` | Användaren kan endast ange data i formulärfälten i dokumentet. |
-| AllowOnlyRevisions | `0` | Användaren kan bara lägga till revisionsmärken till dokumentet. |
-| ReadOnly | `3` | Inga ändringar är tillåtna i dokumentet. Tillgänglig sedan Microsoft Word 2003. |
+| AllowOnlyFormFields | `2` | Användaren kan bara ange data i formulärfälten i dokumentet. |
+| AllowOnlyRevisions | `0` | Användaren kan bara lägga till revisionsmarkeringar i dokumentet. |
+| ReadOnly | `3` | Inga ändringar är tillåtna i dokumentet. Tillgängligt sedan Microsoft Word 2003. |
 | NoProtection | `-1` | Dokumentet är inte skyddat. |
 
 ## Exempel
@@ -41,14 +41,14 @@ builder.Writeln("Section 2. Hello again!");
 builder.Write("Please enter text here: ");
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Använd skrivskydd på varje avsnitt i dokumentet.
+// Tillämpa skrivskydd på varje avsnitt i dokumentet.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
-// Stäng av skrivskyddet för det första avsnittet.
+// Stäng av skrivskyddet för den första sektionen.
 doc.Sections[0].ProtectedForForms = false;
 
 // I detta utdatadokument kommer vi att kunna redigera det första avsnittet fritt,
-// och vi kommer bara att kunna redigera innehållet i formulärfältet i det andra avsnittet.
+// och vi kommer bara att kunna redigera innehållet i formulärfältet i den andra sektionen.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

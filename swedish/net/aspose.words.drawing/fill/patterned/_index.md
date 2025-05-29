@@ -3,9 +3,9 @@ title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
 second_title: Aspose.Words för .NET
-description: Fill Patterned metod. Ställer in den angivna fyllningen till ett mönster i C#.
+description: Upptäck metoden Fill Patterned för att enkelt applicera unika mönster på dina designer, vilket förbättrar kreativiteten och den visuella attraktionskraften i dina projekt.
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
@@ -32,7 +32,7 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Det finns flera sätt att specificera fyllning till ett mönster.
+// Det finns flera sätt att ange fyllning i ett mönster.
 // 1 - Applicera mönster på formfyllningen:
 fill.Patterned(PatternType.DiagonalBrick);
 
@@ -77,7 +77,7 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Det finns flera sätt att specificera fyllning till ett mönster.
+// Det finns flera sätt att ange fyllning i ett mönster.
 // 1 - Applicera mönster på formfyllningen:
 fill.Patterned(PatternType.DiagonalBrick);
 

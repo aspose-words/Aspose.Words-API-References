@@ -3,14 +3,14 @@ title: LineStyle Enum
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words för .NET
-description: Aspose.Words.LineStyle uppräkning. Anger linjestil för enBorder  i C#.
+description: Upptäck Aspose.Words.LineStyle-enum för anpassningsbara kantlinjer, vilket förbättrar din dokumentdesign med flexibilitet och precision.
 type: docs
-weight: 3450
+weight: 3900
 url: /sv/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
 
-Anger linjestil för en[`Border`](../border/) .
+Anger linjestilen för en[`Border`](../border/) .
 
 ```csharp
 public enum LineStyle
@@ -50,7 +50,7 @@ public enum LineStyle
 
 ## Exempel
 
-Visar hur man infogar en sträng omgiven av en kant i ett dokument.
+Visar hur man infogar en sträng omgiven av en kantlinje i ett dokument.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: ComparisonTargetType Enum
 linktitle: ComparisonTargetType
 articleTitle: ComparisonTargetType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Comparing.ComparisonTargetType uppräkning. Tillåter att ange basdokument som kommer att användas under jämförelse. Standardvärdet ärCurrent  i C#.
+description: Upptäck Aspose.Words ComparisonTargetType-enum för exakta dokumentjämförelser. Ställ enkelt in ditt basdokument för korrekta resultat. Börja optimera nu!
 type: docs
-weight: 280
+weight: 480
 url: /sv/net/aspose.words.comparing/comparisontargettype/
 ---
 ## ComparisonTargetType enumeration
 
-Tillåter att ange basdokument som kommer att användas under jämförelse. Standardvärdet ärCurrent .
+Gör det möjligt att ange vilket basdokument som ska användas vid jämförelsen. Standardvärdet ärCurrent .
 
 ```csharp
 public enum ComparisonTargetType
@@ -20,19 +20,19 @@ public enum ComparisonTargetType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Current | `0` | Det här dokumentet används som bas vid jämförelsen. |
-| New | `1` | Annat dokument används som bas vid jämförelse. |
+| Current | `0` | Detta dokument används som bas vid jämförelse. |
+| New | `1` | Annat dokument används som bas vid jämförelsen. |
 
 ## Anmärkningar
 
-Relaterar till Microsoft Word alternativet "Visa ändringar i" i dialogrutan "Jämför dokument".
+Avser alternativet "Visa ändringar i" i Microsoft Word i dialogrutan "Jämför dokument".
 
 ## Exempel
 
-Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
+Visar hur man filtrerar specifika typer av dokumentelement vid en jämförelse.
 
 ```csharp
-// Skapa originaldokumentet och fyll i det med olika typer av element.
+// Skapa originaldokumentet och fyll det med olika typer av element.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
@@ -53,7 +53,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATUMfält:
+// DATUM-fält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 
@@ -62,11 +62,11 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// Header:
+// Rubrik:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// Skapa en klon av vårt dokument och utför en snabb redigering av vart och ett av det klonade dokumentets element.
+// Skapa en klon av vårt dokument och utför en snabb redigering på vart och ett av det klonade dokumentets element.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -75,27 +75,30 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 ((Footnote)docEdited.GetChild(NodeType.Footnote, 0, true)).FirstParagraph.Runs[1].Text = "Edited endnote text.";
 ((Table)docEdited.GetChild(NodeType.Table, 0, true)).FirstRow.Cells[1].FirstParagraph.Runs[0].Text = "Edited Cell 2 contents";
 ((Shape)docEdited.GetChild(NodeType.Shape, 0, true)).FirstParagraph.Runs[0].Text = "Edited textbox contents";
-((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true; 
+((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true;
 ((Comment)docEdited.GetChild(NodeType.Comment, 0, true)).FirstParagraph.Runs[0].Text = "Edited comment.";
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
 // Att jämföra dokument skapar en revision för varje redigering i det redigerade dokumentet.
 // Ett CompareOptions-objekt har en serie flaggor som kan undertrycka revisioner
-// på varje respektive typ av element, i praktiken ignorerar deras förändring.
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
-compareOptions.IgnoreFormatting = false;
-compareOptions.IgnoreCaseChanges = false;
-compareOptions.IgnoreComments = false;
-compareOptions.IgnoreTables = false;
-compareOptions.IgnoreFields = false;
-compareOptions.IgnoreFootnotes = false;
-compareOptions.IgnoreTextboxes = false;
-compareOptions.IgnoreHeadersAndFooters = false;
-compareOptions.Target = ComparisonTargetType.New;
+// på varje respektive typ av element, vilket effektivt ignorerar deras förändring.
+CompareOptions compareOptions = new CompareOptions
+{
+    CompareMoves = false,
+    IgnoreFormatting = false,
+    IgnoreCaseChanges = false,
+    IgnoreComments = false,
+    IgnoreTables = false,
+    IgnoreFields = false,
+    IgnoreFootnotes = false,
+    IgnoreTextboxes = false,
+    IgnoreHeadersAndFooters = false,
+    Target = ComparisonTargetType.New
+};
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
+docOriginal.Save(ArtifactsDir + "Revision.CompareOptions.docx");
 ```
 
 ### Se även

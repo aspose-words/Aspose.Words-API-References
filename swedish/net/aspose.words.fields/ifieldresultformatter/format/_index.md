@@ -3,14 +3,14 @@ title: IFieldResultFormatter.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words för .NET
-description: IFieldResultFormatter Format metod. Anropas när Aspose.Words använder en byte av versalformat dvs.  Upper i C#.
+description: Upptäck formatmetoden iFieldResultFormatter i Aspose.Words som förbättrar dokumentformateringen med anpassningsbara alternativ för versaler, som till exempel versaler.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifieldresultformatter/format/
 ---
 ## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
-Anropas när Aspose.Words använder en byte av versalformat, dvs. \* Upper.
+Anropas när Aspose.Words använder en växel för versaler, t.ex. \* Upper.
 
 ```csharp
 public string Format(string value, GeneralFormat format)
@@ -18,7 +18,7 @@ public string Format(string value, GeneralFormat format)
 
 ## Anmärkningar
 
-Implementeringen bör återkomma`null` för att indikera att standardformateringen ska tillämpas.
+Implementeringen ska returnera`null` för att indikera att standardformateringen ska tillämpas.
 
 ## Exempel
 
@@ -32,9 +32,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Vår fältresultatformaterare tillämpar ett anpassat format på nyskapade fält av tre typer av format.
-    // Fältresultatformaterare tillämpar ny formatering på fält när de uppdateras,
-    // vilket händer så fort vi skapar dem med den här InsertField-metoden överbelastning.
+    // Vår fältresultatsformaterare tillämpar ett anpassat format på nyskapade fält med tre olika formattyper.
+    // Fältresultatformaterare tillämpar ny formatering på fält allt eftersom de uppdateras,
+    // vilket händer så fort vi skapar dem med hjälp av denna InsertField-metodöverbelastning.
     // 1 - Numerisk:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -57,8 +57,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// När fält med formatering uppdateras kommer denna formatterare att åsidosätta deras formatering
-/// med ett anpassat format, samtidigt som du spårar varje anrop.
+/// När fält med formatering uppdateras kommer denna formatering att åsidosätta deras formatering
+/// med ett anpassat format, samtidigt som varje anrop spåras.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -113,12 +113,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +
@@ -165,7 +164,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 ## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
-Anropas när Aspose.Words använder en sifferformatsväxling, dvs. \* Ordinal.
+Anropas när Aspose.Words använder en växel för talformat, t.ex. \* Ordinal.
 
 ```csharp
 public string Format(double value, GeneralFormat format)
@@ -173,7 +172,7 @@ public string Format(double value, GeneralFormat format)
 
 ## Anmärkningar
 
-Implementeringen bör återkomma`null` för att indikera att standardformateringen ska tillämpas.
+Implementeringen ska returnera`null` för att indikera att standardformateringen ska tillämpas.
 
 ## Exempel
 
@@ -187,9 +186,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Vår fältresultatformaterare tillämpar ett anpassat format på nyskapade fält av tre typer av format.
-    // Fältresultatformaterare tillämpar ny formatering på fält när de uppdateras,
-    // vilket händer så fort vi skapar dem med den här InsertField-metoden överbelastning.
+    // Vår fältresultatsformaterare tillämpar ett anpassat format på nyskapade fält med tre olika formattyper.
+    // Fältresultatformaterare tillämpar ny formatering på fält allt eftersom de uppdateras,
+    // vilket händer så fort vi skapar dem med hjälp av denna InsertField-metodöverbelastning.
     // 1 - Numerisk:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -212,8 +211,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// När fält med formatering uppdateras kommer denna formatterare att åsidosätta deras formatering
-/// med ett anpassat format, samtidigt som du spårar varje anrop.
+/// När fält med formatering uppdateras kommer denna formatering att åsidosätta deras formatering
+/// med ett anpassat format, samtidigt som varje anrop spåras.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -268,12 +267,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

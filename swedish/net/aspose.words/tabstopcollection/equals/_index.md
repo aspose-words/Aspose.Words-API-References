@@ -3,14 +3,14 @@ title: TabStopCollection.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words för .NET
-description: TabStopCollection Equals metod. Bestämmer om den angivnaTabStopCollection är lika i värde med strömmenTabStopCollection  i C#.
+description: Upptäck TabStopCollection Equals-metoden för att enkelt jämföra TabStopCollections för likhet, vilket förbättrar din kodningseffektivitet och noggrannhet.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/tabstopcollection/equals/
 ---
 ## Equals(*[TabStopCollection](../)*) {#equals}
 
-Bestämmer om den angivna[`TabStopCollection`](../) är lika i värde med strömmen[`TabStopCollection`](../) .
+Avgör om den angivna[`TabStopCollection`](../) är lika värdefullt som den nuvarande[`TabStopCollection`](../) .
 
 ```csharp
 public bool Equals(TabStopCollection rhs)
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -45,7 +45,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
@@ -67,7 +67,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 ## Equals(*object*) {#equals_1}
 
-Bestämmer om det angivna objektet har samma värde som det aktuella objektet.
+Avgör om det angivna objektet har samma värde som det aktuella objektet.
 
 ```csharp
 public override bool Equals(object obj)
@@ -83,7 +83,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -102,7 +102,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

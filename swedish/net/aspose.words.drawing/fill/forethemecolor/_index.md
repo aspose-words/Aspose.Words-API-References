@@ -3,9 +3,9 @@ title: Fill.ForeThemeColor
 linktitle: ForeThemeColor
 articleTitle: ForeThemeColor
 second_title: Aspose.Words för .NET
-description: Fill ForeThemeColor fast egendom. Hämtar eller ställer in ett ThemeColorobjekt som representerar förgrundsfärgen för fyllningen i C#.
+description: Upptäck hur du ställer in egenskapen ForeThemeColor för att anpassa din design med livfulla fyllningsfärger. Förbättra ditt projekts visuella attraktionskraft utan ansträngning!
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
@@ -18,7 +18,7 @@ public ThemeColor ForeThemeColor { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in temafärg för förgrunds-/bakgrundsformfärg.
+Visar hur man ställer in temafärg för förgrunds-/bakgrundsformfärg.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Fill fill = shape.Fill;
 fill.ForeThemeColor = ThemeColor.Dark1;
 fill.BackThemeColor = ThemeColor.Background2;
 
-// Obs: använd inte "BackThemeColor" och "BackTintAndShade" för teckensnittsfyllning.
+// Obs: använd inte "BackThemeColor" och "BackTintAndShade" för typsnittsfyllning.
 if (fill.BackTintAndShade == 0)
     fill.BackTintAndShade = 0.2;
 

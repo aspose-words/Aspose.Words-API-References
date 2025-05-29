@@ -3,14 +3,14 @@ title: OleFormat.ProgId
 linktitle: ProgId
 articleTitle: ProgId
 second_title: Aspose.Words för .NET
-description: OleFormat ProgId fast egendom. Hämtar eller ställer in ProgID för OLEobjektet i C#.
+description: Upptäck OleFormat ProgId-egenskapen för att enkelt hantera och anpassa OLE-objektets ProgID:er för förbättrad funktionalitet och sömlös integration.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing/oleformat/progid/
 ---
 ## OleFormat.ProgId property
 
-Hämtar eller ställer in ProgID för OLE-objektet.
+Hämtar eller anger ProgID för OLE-objektet.
 
 ```csharp
 public string ProgId { get; set; }
@@ -18,7 +18,7 @@ public string ProgId { get; set; }
 
 ## Anmärkningar
 
-ProgID-egenskapen finns inte alltid i Microsoft Word-dokument och kan inte litas på.
+ProgID-egenskapen finns inte alltid i Microsoft Word-dokument och kan inte åberopas.
 
 Kan inte vara`null`.
 
@@ -37,7 +37,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Vårt objekt är varken automatisk uppdatering eller låst från uppdateringar.
+// Vårt mål är varken automatisk uppdatering eller låst från uppdateringar.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -45,8 +45,8 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // vi kan använda egenskapen "SuggestedExtension" för att avgöra vilket filtillägg som ska tillämpas på filen.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Nedan finns två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
-// 1 - Spara det via en stream:
+// Nedan följer två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
+// 1 - Spara det via en ström:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

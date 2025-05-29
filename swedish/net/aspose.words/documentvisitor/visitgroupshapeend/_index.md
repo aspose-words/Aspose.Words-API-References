@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitGroupShapeEnd
 linktitle: VisitGroupShapeEnd
 articleTitle: VisitGroupShapeEnd
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitGroupShapeEnd metod. Anropas när uppräkningen av en gruppform har avslutats i C#.
+description: Upptäck DocumentVisitor VisitGroupShapeEnd-metoden, som effektivt signalerar slutet på gruppformsuppräkningen för sömlös dokumentbehandling.
 type: docs
 weight: 260
 url: /sv/net/aspose.words/documentvisitor/visitgroupshapeend/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
-Visar hur man skapar en grupp av former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
+Visar hur man skapar en grupp med former och skriver ut dess innehåll med hjälp av en dokumentbesökare.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Om du behöver skapa "NonPrimitive" former, som SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // använd DocumentBuilder.InsertShape metoder.
+    // Om du behöver skapa "Icke-primitiva" former, till exempel SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // ÖvreHörnEttRundatEttBeskärt, EnkeltHörnRundat, ÖvreHörnRundade, DiagonalaHörnRundade
+    // använd DocumentBuilder.InsertShape-metoderna.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

@@ -3,7 +3,7 @@ title: FrameFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words för .NET
-description: FrameFormat HeightRule fast egendom. Hämtar regeln för att bestämma höjden på den angivna ramen i C#.
+description: Upptäck egenskapen FrameFormat HeightRule för att enkelt bestämma ramhöjden. Optimera dina designer med exakt kontroll och förbättrad layouteffektivitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/frameformat/heightrule/

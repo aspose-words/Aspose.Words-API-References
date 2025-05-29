@@ -3,7 +3,7 @@ title: List.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: List Document fast egendom. Hämtar ägardokumentet i C#.
+description: Upptäck hur du enkelt kan lista dokumentegenskaper och få åtkomst till ägaruppgifter. Frigör din potential i dokumenthantering idag.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/list/document/
@@ -18,11 +18,11 @@ public DocumentBase Document { get; }
 
 ## Anmärkningar
 
-En lista har alltid ett överordnat dokument och är endast giltig i sammanhanget för det dokumentet.
+En lista har alltid ett överordnat dokument och är endast giltig i det dokumentets kontext.
 
 ## Exempel
 
-Visar hur man verifierar ägardokumentegenskaper för listor.
+Visar hur man verifierar egenskaper för ägardokument för listor.
 
 ```csharp
 Document doc = new Document();

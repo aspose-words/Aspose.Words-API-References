@@ -3,14 +3,14 @@ title: Shape.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words för .NET
-description: Shape FirstParagraph fast egendom. Får första stycket i formen i C#.
+description: Hämta det första stycket i en form utan ansträngning. Förbättra ditt dokuments layout med vår lättanvända funktion Forma första stycke.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
 
-Får första stycket i formen.
+Hämtar det första stycket i formen.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -33,7 +33,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Lägg till ett stycke i textrutan och lägg till en serie text som textrutan kommer att visa.
+// Lägg till ett stycke i textrutan och lägg till en textsekvens som textrutan ska visa.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

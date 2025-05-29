@@ -3,9 +3,9 @@ title: OfficeMathDisplayType Enum
 linktitle: OfficeMathDisplayType
 articleTitle: OfficeMathDisplayType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Math.OfficeMathDisplayType uppräkning. Anger visningsformattypen för ekvationen i C#.
+description: Upptäck enumerationen Aspose.Words.Math.OfficeMathDisplayType för att enkelt anpassa ekvationsvisningsformat för förbättrad dokumenttydlighet och presentation.
 type: docs
-weight: 4130
+weight: 4820
 url: /sv/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
@@ -20,19 +20,19 @@ public enum OfficeMathDisplayType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Display | `0` | Office Math visas på sin egen rad. |
-| Inline | `1` | Office Math visas i linje med texten. |
+| Display | `0` | Kontorsmatematiken visas på en egen rad. |
+| Inline | `1` | Kontorsmatematiken visas inbäddad i texten. |
 
 ## Exempel
 
-Visar hur du ställer in kontorsmattevisningsformatering.
+Visar hur man ställer in formatering för Office-matematikvisning.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// OfficeMath-noder som är barn till andra OfficeMath-noder är alltid inline.
+// OfficeMath-noder som är underordnade till andra OfficeMath-noder är alltid inline.
 // Noden vi arbetar med är basnoden för att ändra dess plats och visningstyp.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);

@@ -3,7 +3,7 @@ title: TextColumn.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words för .NET
-description: TextColumn Width fast egendom. Hämtar eller ställer in bredden på textkolumnen i punkter i C#.
+description: Justera egenskapen TextColumn Width för att enkelt anpassa textkolumnens bredd i punkter för förbättrad layoutkontroll och läsbarhet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/textcolumn/width/
@@ -29,17 +29,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestäm mängden utrymme som vi har tillgängligt för att arrangera kolumner.
+// Bestäm hur mycket utrymme vi har tillgängligt för att arrangera kolumner.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Ange att den första kolumnen ska vara smal.
+// Sätt den första kolumnen till att vara smal.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Ställ in den andra kolumnen för att ta resten av det tillgängliga utrymmet inom sidans marginaler.
+// Ställ in den andra kolumnen så att den tar upp resten av det tillgängliga utrymmet inom sidans marginaler.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

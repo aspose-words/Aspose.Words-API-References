@@ -3,9 +3,9 @@ title: ITextShaperFactory Interface
 linktitle: ITextShaperFactory
 articleTitle: ITextShaperFactory
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Shaping.ITextShaperFactory gränssnitt. Ett gränssnitt för en fabrik för konstruktionITextShaper implementeringar i C#.
+description: Upptäck gränssnittet Aspose.Words.ITextShaperFactory för att skapa anpassade ITextShaper-implementeringar och förbättra textformning i dina applikationer.
 type: docs
-weight: 6060
+weight: 6890
 url: /sv/net/aspose.words.shaping/itextshaperfactory/
 ---
 ## ITextShaperFactory interface
@@ -20,8 +20,8 @@ public interface ITextShaperFactory
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(*string, int*) | Returnerar en ny instans av en textformare för teckensnittet som anges av*fontPath* och*faceIndex* . |
-| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(*string, byte[], int*) | Returnerar ny instans av en textformare för teckensnittet som representeras av*fontBlob* och*faceIndex* . |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper_1)(*string, int*) | Returnerar en ny instans av en textformare för det teckensnitt som anges av*fontPath* och*faceIndex* . |
+| [GetTextShaper](../../aspose.words.shaping/itextshaperfactory/gettextshaper/#gettextshaper)(*string, byte[], int*) | Returnerar en ny instans av en textformare för teckensnittet som representeras av*fontBlob* och*faceIndex* . |
 
 ### Se även
 

@@ -3,14 +3,14 @@ title: OleFormat.SourceItem
 linktitle: SourceItem
 articleTitle: SourceItem
 second_title: Aspose.Words för .NET
-description: OleFormat SourceItem fast egendom. Hämtar eller ställer in en sträng som används för att identifiera den del av källfilen som länkas i C#.
+description: Upptäck OleFormat SourceItem-egenskapen och identifiera och hantera enkelt länkade delar av din källfil med denna viktiga strängfunktion.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/oleformat/sourceitem/
 ---
 ## OleFormat.SourceItem property
 
-Hämtar eller ställer in en sträng som används för att identifiera den del av källfilen som länkas.
+Hämtar eller anger en sträng som används för att identifiera den del av källfilen som länkas.
 
 ```csharp
 public string SourceItem { get; set; }
@@ -20,7 +20,7 @@ public string SourceItem { get; set; }
 
 Standardvärdet är en tom sträng.
 
-Till exempel, om källfilen är en Microsoft Excel-arbetsbok,`SourceItem` Egenskapen kan returnera "Arbetsbok1!R3C1:R4C2" om OLE-objektet bara innehåller några få celler från kalkylbladet.
+Om källfilen till exempel är en Microsoft Excel-arbetsbok,`SourceItem` Egenskapen kan returnera "Workbook1!R3C1:R4C2" om OLE-objektet bara innehåller ett fåtal celler från kalkylbladet.
 
 ## Exempel
 
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Om objektet innehåller OLE-data kan vi komma åt det med en ström.
+// Om objektet innehåller OLE-data kan vi komma åt det med hjälp av en ström.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

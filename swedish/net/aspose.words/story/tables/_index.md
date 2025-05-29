@@ -3,14 +3,14 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words för .NET
-description: Story Tables fast egendom. Får en samling tabeller som är omedelbara barn till berättelsen i C#.
+description: Upptäck Story Tables, en kurerad samling tabeller direkt kopplade till din berättelse, som enkelt förbättrar organisation och engagemang.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-Får en samling tabeller som är omedelbara barn till berättelsen.
+Hämtar en samling tabeller som är direkta underordnade tabeller till berättelsen.
 
 ```csharp
 public TableCollection Tables { get; }

@@ -3,7 +3,7 @@ title: FieldCompare
 linktitle: FieldCompare
 articleTitle: FieldCompare
 second_title: Aspose.Words för .NET
-description: FieldCompare byggare. Default_Constructor i C#.
+description: Upptäck FieldCompares standardkonstruktor för sömlös datajämförelse. Öka din kodningseffektivitet med vårt kraftfulla och användarvänliga verktyg!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldcompare/fieldcompare/

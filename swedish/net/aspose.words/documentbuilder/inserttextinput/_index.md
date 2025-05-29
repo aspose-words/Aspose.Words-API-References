@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertTextInput
 linktitle: InsertTextInput
 articleTitle: InsertTextInput
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertTextInput metod. Infogar ett textformulärfält på den aktuella positionen i C#.
+description: Lägg enkelt till textfält i formuläret med DocumentBuilder-metoden InsertTextInput. Förbättra ditt dokuments interaktivitet och användarupplevelse idag!
 type: docs
-weight: 470
+weight: 510
 url: /sv/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -21,13 +21,13 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 | --- | --- | --- |
 | name | String | Namnet på formulärfältet. Kan vara en tom sträng. |
 | type | TextFormFieldType | Anger typen av textformulärfält. |
-| format | String | Formatsträng som används för att formatera värdet på formulärfältet. |
+| format | String | Formatsträng som används för att formatera värdet i formulärfältet. |
 | fieldValue | String | Text som kommer att visas i fältet. |
 | maxLength | Int32 | Maximal längd som användaren kan ange i formulärfältet. Ställ in på noll för obegränsad längd. |
 
 ### Returvärde
 
-Formulärfältsnoden som precis infogades.
+Formulärfältnoden som just infogades.
 
 ## Anmärkningar
 
@@ -35,19 +35,19 @@ Om du anger ett namn för formulärfältet skapas automatiskt ett bokmärke med 
 
 ## Exempel
 
-Visar hur man infogar ett formulärfält för textinmatning i ett dokument.
+Visar hur man infogar ett textinmatningsfält i ett dokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett formulär som uppmanar användaren att skriva in text.
+// Infoga ett formulär som uppmanar användaren att ange text.
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Enter your text here", 0);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTextInput.docx");
 ```
 
-Visar hur man infogar ett formulärfält för textinmatning.
+Visar hur man infogar ett textinmatningsfält i formuläret.
 
 ```csharp
 Document doc = new Document();
@@ -56,11 +56,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Please enter text here: ");
 
 // Infoga ett textinmatningsfält som gör att användaren kan klicka på det och skriva in text.
-// Tilldela en platshållartext som användaren kan skriva över och passera
-// en maximal textlängd på 0 för att tillämpa ingen begränsning på formulärfältets innehåll.
+// Tilldela platsmarkörtext som användaren kan skriva över och skicka vidare
+// en maximal textlängd på 0 för att inte tillämpa någon gräns för formulärfältets innehåll.
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Formulärfältet kommer att visas i form av en "input" html-tagg, med en typ av "text".
+// Formulärfältet kommer att visas i form av en "input" html-tagg, med typen "text".
 doc.Save(ArtifactsDir + "FormFields.TextInput.html");
 ```
 
@@ -69,13 +69,13 @@ Visar hur man skapar formulärfält.
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Formulärfält är objekt i dokumentet som användaren kan interagera med genom att uppmanas att ange värden.
-// Vi kan skapa dem med hjälp av en dokumentbyggare, och nedan finns två sätt att göra det.
+// Formulärfält är objekt i dokumentet som användaren kan interagera med genom att bli ombedd att ange värden.
+// Vi kan skapa dem med hjälp av en dokumentbyggare, och nedan följer två sätt att göra det.
 // 1 - Grundläggande textinmatning:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - Kombinationsruta med prompttext och en rad möjliga värden:
+// 2 - Kombinationsruta med prompttext och ett intervall av möjliga värden:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

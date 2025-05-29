@@ -3,14 +3,14 @@ title: Style.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: Style Type fast egendom. Hämtar stiltypen stycke eller tecken i C#.
+description: Upptäck egenskapen Stiltyp för att enkelt komma åt och anpassa stycke- eller teckenformat, vilket förbättrar ditt dokuments visuella attraktionskraft.
 type: docs
-weight: 170
+weight: 200
 url: /sv/net/aspose.words/style/type/
 ---
 ## Style.Type property
 
-Hämtar stiltypen (stycke eller tecken).
+Hämtar formateringstypen (stycke eller tecken).
 
 ```csharp
 public StyleType Type { get; }
@@ -18,7 +18,7 @@ public StyleType Type { get; }
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();

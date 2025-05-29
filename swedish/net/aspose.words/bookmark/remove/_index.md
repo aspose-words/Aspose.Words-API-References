@@ -3,7 +3,7 @@ title: Bookmark.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: Bookmark Remove metod. Tar bort bokmärket från dokumentet. Tar inte bort text inuti bokmärket i C#.
+description: Ta enkelt bort bokmärken från ditt dokument samtidigt som du behåller texten inuti. Effektivisera din redigeringsprocess med vår effektiva metod för att ta bort bokmärken!
 type: docs
 weight: 80
 url: /sv/net/aspose.words/bookmark/remove/
@@ -41,12 +41,12 @@ BookmarkCollection bookmarks = doc.Range.Bookmarks;
 Assert.AreEqual(5, bookmarks.Count);
 
 // Det finns flera sätt att ta bort bokmärken.
-// 1 - Anropar bokmärkets borttagningsmetod:
+// 1 - Anrop av bokmärkets metod Ta bort:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Skicka bokmärket till samlingens borttagningsmetod:
+// 2 - Skicka bokmärket till samlingens Remove-metod:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
@@ -65,8 +65,8 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 // Vi kan rensa hela bokmärkessamlingen.
 bookmarks.Clear();
 
-// Texten som fanns i bokmärkena finns fortfarande kvar i dokumentet.
-Assert.That(bookmarks, Is.Empty);
+// Texten som fanns inuti bokmärkena finns fortfarande kvar i dokumentet.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

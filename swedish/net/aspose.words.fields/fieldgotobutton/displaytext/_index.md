@@ -3,7 +3,7 @@ title: FieldGoToButton.DisplayText
 linktitle: DisplayText
 articleTitle: DisplayText
 second_title: Aspose.Words för .NET
-description: FieldGoToButton DisplayText fast egendom. Hämtar eller ställer in texten för knappen som visas i dokumentet så att den kan väljas för att aktivera hoppet i C#.
+description: Anpassa din FieldGoToButtons DisplayText-egenskap för att förbättra användarupplevelsen. Ställ enkelt in knapptext för smidig dokumentnavigering och snabb åtkomst.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldgotobutton/displaytext/
@@ -18,14 +18,14 @@ public string DisplayText { get; set; }
 
 ## Exempel
 
-Visar för att infoga ett GOTOBUTTON-fält.
+Visar hur man infogar ett GOTOBUTTON-fält.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Lägg till ett GOTOBUTTON-fält. När vi dubbelklickar på det här fältet i Microsoft Word,
-// det tar textmarkören till bokmärket vars namn platsegenskapen refererar till.
+// den tar textmarkören till bokmärket vars namn egenskapen Location refererar till.
 FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoToButton, true);
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";

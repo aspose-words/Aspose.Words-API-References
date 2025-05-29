@@ -3,7 +3,7 @@ title: HtmlLoadOptions.BlockImportMode
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
 second_title: Aspose.Words för .NET
-description: HtmlLoadOptions BlockImportMode fast egendom. Hämtar eller ställer in ett värde som anger hur egenskaper för element på blocknivå importeras. Standardvärdet ärMerge  i C#.
+description: Upptäck HtmlLoadOptions BlockImportMode-egenskap för att anpassa import av element på blocknivå. Kontrollera sammanslagning för optimal innehållshantering!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.loading/htmlloadoptions/blockimportmode/
@@ -18,7 +18,7 @@ public BlockImportMode BlockImportMode { get; set; }
 
 ## Exempel
 
-Visar hur egenskaper för element på blocknivå importeras från HTML-baserade dokument.
+Visar hur egenskaper för blocknivåelement importeras från HTML-baserade dokument.
 
 ```csharp
 const string html = @"

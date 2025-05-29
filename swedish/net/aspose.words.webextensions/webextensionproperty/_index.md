@@ -3,14 +3,14 @@ title: WebExtensionProperty Class
 linktitle: WebExtensionProperty
 articleTitle: WebExtensionProperty
 second_title: Aspose.Words för .NET
-description: Aspose.Words.WebExtensions.WebExtensionProperty klass. Anger en anpassad egenskap för webbtillägg i C#.
+description: Upptäck klassen Aspose.Words.WebExtensionProperty för att definiera anpassade egenskaper för webbtillägg. Förbättra din dokumenthantering med lätthet!
 type: docs
-weight: 6780
+weight: 7630
 url: /sv/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
 
-Anger en anpassad egenskap för webbtillägg.
+Anger en anpassad egenskap för webbtillägget.
 
 För att lära dig mer, besök[Arbeta med Office-tillägg](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokumentationsartikel.
 
@@ -22,7 +22,7 @@ public class WebExtensionProperty
 
 | namn | Beskrivning |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty/)(*string, string*) | Skapar anpassad egendom för webbtillägg med angivet namn och värde. |
+| [WebExtensionProperty](webextensionproperty/)(*string, string*) | Skapar en anpassad egenskap för webbtillägget med angivet namn och värde. |
 
 ## Egenskaper
 

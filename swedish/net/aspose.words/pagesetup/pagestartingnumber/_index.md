@@ -3,14 +3,14 @@ title: PageSetup.PageStartingNumber
 linktitle: PageStartingNumber
 articleTitle: PageStartingNumber
 second_title: Aspose.Words för .NET
-description: PageSetup PageStartingNumber fast egendom. Hämtar eller ställer in startsidnumret för avsnittet i C#.
+description: Upptäck egenskapen PageSetup PageStartingNumber för att enkelt anpassa dokumentets startsida för förbättrad organisation och tydlighet.
 type: docs
 weight: 330
 url: /sv/net/aspose.words/pagesetup/pagestartingnumber/
 ---
 ## PageSetup.PageStartingNumber property
 
-Hämtar eller ställer in startsidnumret för avsnittet.
+Hämtar eller anger startsidan för avsnittet.
 
 ```csharp
 public int PageStartingNumber { get; set; }
@@ -18,7 +18,7 @@ public int PageStartingNumber { get; set; }
 
 ## Anmärkningar
 
-Den[`RestartPageNumbering`](../restartpagenumbering/)egenskap, om den är inställd på`falsk` , kommer att åsidosätta the `PageStartingNumber` egenskap så att sidnumreringen kan fortsätta från föregående avsnitt.
+Den[`RestartPageNumbering`](../restartpagenumbering/) egenskap, om den är inställd på`falsk` , kommer att åsidosätta `PageStartingNumber` egenskapen så att sidnumreringen kan fortsätta från föregående avsnitt.
 
 ## Exempel
 
@@ -40,23 +40,23 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Flytta dokumentbyggaren till det första avsnittets primära rubrik,
+// Flytta dokumentbyggaren till den första sektionens primära rubrik,
 // som varje sida i det avsnittet kommer att visa.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Infoga ett PAGE-fält som visar numret på den aktuella sidan.
+// Infoga ett PAGE-fält, som visar numret på den aktuella sidan.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Konfigurera avsnittet så att sidräkningen som PAGE-fälten visar börjar från 5.
-// Konfigurera också alla PAGE-fält för att visa deras sidnummer med stora romerska siffror.
+// Konfigurera sektionen så att sidantalet som PAGE-fälten visar börjar från 5.
+// Konfigurera också alla PAGE-fält så att deras sidnummer visas med versaler i romerska siffror.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// Skapa en annan primär rubrik för den andra sektionen, med ett annat PAGE-fält.
+// Skapa ytterligare en primär rubrik för den andra sektionen, med ytterligare ett PAGE-fält.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -64,8 +64,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// Konfigurera avsnittet så att sidantal som PAGE-fält visar börjar från 10.
-// Konfigurera också alla PAGE-fält för att visa deras sidnummer med arabiska siffror.
+// Konfigurera sektionen så att sidantalet som PAGE-fälten visar börjar från 10.
+// Konfigurera också alla PAGE-fält så att deras sidnummer visas med arabiska siffror.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

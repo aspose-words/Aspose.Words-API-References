@@ -3,14 +3,14 @@ title: ReplacingArgs.Match
 linktitle: Match
 articleTitle: Match
 second_title: Aspose.Words för .NET
-description: ReplacingArgs Match fast egendom. DenMatch som ett resultat av en enda regular uttrycksmatchning under enByta ut  i C#.
+description: Upptäck egenskapen ReplaceingArgs Match för sömlösa regex-ersättningar. Förbättra din kodningseffektivitet med exakta matchningsresultat!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-DenMatch som ett resultat av en enda regular uttrycksmatchning under en**Byta ut** .
+DenMatch resultatet av en enda matchning av regular -uttrycket under en**Ersätta** .
 
 ```csharp
 public Match Match { get; }
@@ -18,11 +18,11 @@ public Match Match { get; }
 
 ## Anmärkningar
 
-**Match.Index"** får den nollbaserade start positionen för matchen från början av sök- och ersätt-intervallet.
+**Match.Index"** hämtar den nollbaserade starting -positionen för matchningen från början av sök- och ersättningsintervallet.
 
 ## Exempel
 
-Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
+Visar hur man använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -34,10 +34,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill tillämpa på operationens resulterande text.
+    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill använda på operationens resulterande text.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -55,8 +55,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Ersätter numeriska sök-och-ersätt-matchningar med deras hexadecimala motsvarigheter.
-/// Upprätthåller en logg över varje ersättning.
+/// Ersätter numeriska sök-och-ersätt-träffar med deras hexadecimala motsvarigheter.
+/// För en logg över varje byte.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

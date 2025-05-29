@@ -3,9 +3,9 @@ title: Document.ViewOptions
 linktitle: ViewOptions
 articleTitle: ViewOptions
 second_title: Aspose.Words för .NET
-description: Document ViewOptions fast egendom. Ger alternativ för att styra hur dokumentet visas i Microsoft Word i C#.
+description: Upptäck egenskapen Dokumentvisningsalternativ för att anpassa dina visningsinställningar i Microsoft Word för en skräddarsydd visningsupplevelse.
 type: docs
-weight: 470
+weight: 490
 url: /sv/net/aspose.words/document/viewoptions/
 ---
 ## Document.ViewOptions property
@@ -18,7 +18,7 @@ public ViewOptions ViewOptions { get; }
 
 ## Exempel
 
-Visar hur man ställer in en anpassad zoomfaktor, vilken äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid inläsning.
+Visar hur man ställer in en anpassad zoomfaktor, som äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid laddning.
 
 ```csharp
 Document doc = new Document();
@@ -34,18 +34,18 @@ Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```
 
-Visar hur man ställer in en anpassad zoomtyp, vilka äldre versioner av Microsoft Word som kommer att tillämpas på ett dokument vid inläsning.
+Visar hur man ställer in en anpassad zoomtyp, som äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid laddning.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Ställ in "ZoomType"-egenskapen till "ZoomType.PageWidth" för att hämta Microsoft Word
+// Ställ in egenskapen "ZoomType" till "ZoomType.PageWidth" för att hämta Microsoft Word
 // för att automatiskt zooma dokumentet så att det passar sidans bredd.
-// Ställ in "ZoomType"-egenskapen till "ZoomType.FullPage" för att hämta Microsoft Word
-// för att automatiskt zooma dokumentet för att göra hela första sidan synlig.
-// Ställ in "ZoomType"-egenskapen till "ZoomType.TextFit" för att hämta Microsoft Word
+// Ställ in egenskapen "ZoomType" till "ZoomType.FullPage" för att hämta Microsoft Word
+// för att automatiskt zooma dokumentet så att hela första sidan blir synlig.
+// Ställ in egenskapen "ZoomType" till "ZoomType.TextFit" för att få Microsoft Word
 // för att automatiskt zooma dokumentet så att det passar de inre textmarginalerna på första sidan.
 doc.ViewOptions.ZoomType = zoomType;
 

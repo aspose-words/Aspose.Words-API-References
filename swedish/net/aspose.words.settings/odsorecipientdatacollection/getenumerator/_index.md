@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: OdsoRecipientDataCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
+description: Upptäck OdsoRecipientDataCollection GetEnumerator-metoden – iterera effektivt och enkelt genom samlingsobjekt och förbättra dina datahanteringsmöjligheter.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
 ## OdsoRecipientDataCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen.
 
 ```csharp
 public IEnumerator<OdsoRecipientData> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<OdsoRecipientData> GetEnumerator()
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

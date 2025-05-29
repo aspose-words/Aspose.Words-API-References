@@ -3,16 +3,16 @@ title: ReplacingArgs Class
 linktitle: ReplacingArgs
 articleTitle: ReplacingArgs
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Replacing.ReplacingArgs klass. Tillhandahåller data för en anpassad ersättningsoperation i C#.
+description: Upptäck klassen Aspose.Words.Replacing.ReplacingArgs för effektiv anpassad textersättning i dina dokument. Förbättra ditt arbetsflöde idag!
 type: docs
-weight: 4650
+weight: 5390
 url: /sv/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
-Tillhandahåller data för en anpassad ersättningsoperation.
+Tillhandahåller data för en anpassad ersättningsåtgärd.
 
-För att lära dig mer, besök[Hitta och ersätta](https://docs.aspose.com/words/net/find-and-replace/) dokumentationsartikel.
+För att lära dig mer, besök[Sök och ersätt](https://docs.aspose.com/words/net/find-and-replace/) dokumentationsartikel.
 
 ```csharp
 public class ReplacingArgs
@@ -22,11 +22,11 @@ public class ReplacingArgs
 
 | namn | Beskrivning |
 | --- | --- |
-| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifierar, genom index, en fångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) string. |
-| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifierar, med namn, en infångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) string. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DenMatch som ett resultat av en enda regular uttrycksmatchning under en**Byta ut** . |
+| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifierar, med hjälp av index, en fångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) sträng. |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifierar, med namn, en fångad grupp i[`Match`](./match/) som ska ersättas med[`Replacement`](./replacement/) sträng. |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DenMatch resultatet av en enda matchning av regular -uttrycket under en**Ersätta** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Hämtar noden som innehåller början av matchningen. |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Får den nollbaserade startpositionen för matchen från början av noden som innehåller början av matchningen. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Hämtar matchningens nollbaserade startposition från början av noden som innehåller matchningens början. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Hämtar eller ställer in ersättningssträngen. |
 
 ## Exempel
@@ -42,10 +42,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in en återuppringning som spårar alla ersättningar som "Ersätt"-metoden kommer att göra.
+    // Ställ in en återanropning som spårar alla ersättningar som "Replace"-metoden gör.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -59,8 +59,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Upprätthåller en logg över varje textersättning som görs med en sök-och-ersätt-operation
-/// och noterar den ursprungliga matchade textens värde.
+/// Upprätthåller en logg över varje textersättning som görs av en sök-och-ersätt-operation
+/// och noterar den ursprungliga matchande textens värde.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -82,14 +82,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
+Visar hur man infogar ett helt dokuments innehåll som en ersättning för en matchning i en sök-och-ersätt-åtgärd.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -104,11 +104,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Infoga ett dokument efter stycket som innehåller den matchade texten.
+        // Infoga ett dokument efter stycket som innehåller den matchande texten.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Ta bort stycket med den matchade texten.
+        // Ta bort stycket med den matchande texten.
         para.Remove();
 
         return ReplaceAction.Skip;

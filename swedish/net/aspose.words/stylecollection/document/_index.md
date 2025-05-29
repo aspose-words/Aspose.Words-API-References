@@ -3,7 +3,7 @@ title: StyleCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: StyleCollection Document fast egendom. Hämtar ägardokumentet i C#.
+description: Få enkel åtkomst till ägardokumentet med StyleCollection. Upptäck sömlös dokumenthantering och förbättra ditt arbetsflöde idag!
 type: docs
 weight: 40
 url: /sv/net/aspose.words/stylecollection/document/
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();

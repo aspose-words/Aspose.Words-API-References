@@ -3,14 +3,14 @@ title: BookmarkStart.Bookmark
 linktitle: Bookmark
 articleTitle: Bookmark
 second_title: Aspose.Words för .NET
-description: BookmarkStart Bookmark fast egendom. Hämtar fasadobjektet som kapslar in detta bokmärkes början och slut i C#.
+description: Upptäck BookmarkStarts unika egenskap för att komma åt fasadobjektet, vilket förenklar din bokmärkeshantering med sömlös start- och slutkapsling.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/bookmarkstart/bookmark/
 ---
 ## BookmarkStart.Bookmark property
 
-Hämtar fasadobjektet som kapslar in detta bokmärkes början och slut.
+Hämtar fasadobjektet som inkapslar detta bokmärkes början och slut.
 
 ```csharp
 public Bookmark Bookmark { get; }
@@ -18,7 +18,7 @@ public Bookmark Bookmark { get; }
 
 ## Exempel
 
-Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
+Visar hur man lägger till bokmärken och uppdaterar deras innehåll.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -28,7 +28,7 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.
+    // Bokmärken kan nås i bokmärkessamlingen via index eller namn, och deras namn kan uppdateras.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -65,7 +65,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Skaffa varje bokmärke i samlingen för att acceptera en besökare som skriver ut dess innehåll.
+    // Få varje bokmärke i samlingen att acceptera en besökare som skriver ut dess innehåll.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -84,7 +84,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Skriver ut innehållet i alla besökta bokmärken till konsolen.
+/// Skriver ut innehållet i varje besökt bokmärke till konsolen.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

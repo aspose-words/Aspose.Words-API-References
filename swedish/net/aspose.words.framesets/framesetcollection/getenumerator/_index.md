@@ -3,14 +3,14 @@ title: FramesetCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: FramesetCollection GetEnumerator metod. Returnerar en uppräkning som itererar genom samlingen i C#.
+description: Upptäck metoden FramesetCollection GetEnumerator, som effektivt itererar genom din samling, vilket förbättrar datahantering och tillgänglighet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.framesets/framesetcollection/getenumerator/
 ---
 ## FramesetCollection.GetEnumerator method
 
-Returnerar en uppräkning som itererar genom samlingen.
+Returnerar en uppräknare som itererar genom samlingen.
 
 ```csharp
 public IEnumerator<Frameset> GetEnumerator()

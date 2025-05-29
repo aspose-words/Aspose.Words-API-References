@@ -3,14 +3,14 @@ title: FormField.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words för .NET
-description: FormField Name fast egendom. Hämtar eller ställer in formulärfältets namn i C#.
+description: Upptäck hur du enkelt hanterar egenskapen FormField Name för att anpassa och optimera dina formulär för bättre användarengagemang och datainsamling.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/formfield/name/
 ---
 ## FormField.Name property
 
-Hämtar eller ställer in formulärfältets namn.
+Hämtar eller anger formulärfältets namn.
 
 ```csharp
 public string Name { get; set; }

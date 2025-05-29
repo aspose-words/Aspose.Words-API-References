@@ -3,9 +3,9 @@ title: DocumentBase.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
 second_title: Aspose.Words för .NET
-description: DocumentBase ImportNode metod. Importerar en nod från ett annat dokument till det aktuella dokumentet i C#.
+description: Importera enkelt noder från andra dokument för att förbättra ditt arbetsflöde med DocumentBases ImportNode-metod. Effektivisera din dokumenthantering idag!
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words/documentbase/importnode/
 ---
 ## ImportNode(*[Node](../../node/), bool*) {#importnode}
@@ -19,7 +19,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | srcNode | Node | Noden som importeras. |
-| isImportChildren | Boolean | `Sann` att importera alla underordnade noder rekursivt; annat,`falsk`. |
+| isImportChildren | Boolean | `sann` att importera alla underordnade noder rekursivt; annars,`falsk`. |
 
 ### Returvärde
 
@@ -27,13 +27,13 @@ Den klonade noden som tillhör det aktuella dokumentet.
 
 ## Anmärkningar
 
-Denna metod använderUseDestinationStyles alternativ för att lösa formatering.
+Den här metoden använderUseDestinationStyles alternativ för att lösa formatering.
 
-Genom att importera en nod skapas en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
+Import av en nod skapar en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
 
-Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
+Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under importen översätts dokumentspecifika egenskaper, såsom referenser till format och listor, från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med hjälp av[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
 
-Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av källnoden.
+Om källnoden redan tillhör destinationsdokumentet skapas helt enkelt en djup clone av källnoden.
 
 ## Exempel
 
@@ -48,13 +48,13 @@ srcDoc.FirstSection.Body.FirstParagraph.AppendChild(
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(
     new Run(dstDoc, "Destination document first paragraph text."));
 
-// Varje nod har ett överordnat dokument, vilket är dokumentet som innehåller noden.
-// Att infoga en nod i ett dokument som noden inte tillhör kommer att skapa ett undantag.
+// Varje nod har ett föräldradokument, vilket är det dokument som innehåller noden.
+// Att infoga en nod i ett dokument som noden inte tillhör kommer att utlösa ett undantag.
 Assert.AreNotEqual(dstDoc, srcDoc.FirstSection.Document);
-Assert.Throws<ArgumentException>(() => { dstDoc.AppendChild(srcDoc.FirstSection); });
+Assert.Throws<ArgumentException>(() => dstDoc.AppendChild(srcDoc.FirstSection));
 
-// Använd ImportNode-metoden för att skapa en kopia av en nod, som kommer att ha dokumentet
-// som anropade ImportNode-metoden som dess nya ägardokument.
+// Använd ImportNode-metoden för att skapa en kopia av en nod, som kommer att innehålla dokumentet
+// som anropade ImportNode-metoden och sattes som sitt nya ägardokument.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true);
 
 Assert.AreEqual(dstDoc, importedSection.Document);
@@ -86,29 +86,29 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | srcNode | Node | Noden som ska importeras. |
-| isImportChildren | Boolean | `Sann` att importera alla underordnade noder rekursivt; annat,`falsk`. |
-| importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
+| isImportChildren | Boolean | `sann` att importera alla underordnade noder rekursivt; annars,`falsk`. |
+| importFormatMode | ImportFormatMode | Anger hur formatering som krockar ska sammanfogas. |
 
 ### Returvärde
 
-Den klonade, importerade noden. Noden tillhör måldokumentet, men har ingen förälder.
+Den klonade, importerade noden. Noden tillhör destinationsdokumentet, men har ingen överordnad nod.
 
 ## Anmärkningar
 
 Denna överbelastning är användbar för att styra hur stilar och listformatering importeras.
 
-Genom att importera en nod skapas en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
+Import av en nod skapar en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
 
-Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
+Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under importen översätts dokumentspecifika egenskaper, såsom referenser till format och listor, från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med hjälp av[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
 
-Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av källnoden.
+Om källnoden redan tillhör destinationsdokumentet skapas helt enkelt en djup clone av källnoden.
 
 ## Exempel
 
-Visar hur man importerar nod från källdokument till måldokument med specifika alternativ.
+Visar hur man importerar en nod från ett källdokument till ett destinationsdokument med specifika alternativ.
 
 ```csharp
-// Skapa två dokument och lägg till en teckenstil till varje dokument.
+// Skapa två dokument och lägg till ett teckenformat i varje dokument.
 // Konfigurera stilarna så att de har samma namn, men olika textformatering.
 Document srcDoc = new Document();
 Style srcStyle = srcDoc.Styles.Add(StyleType.Character, "My style");
@@ -124,15 +124,15 @@ DocumentBuilder dstBuilder = new DocumentBuilder(dstDoc);
 dstBuilder.Font.Style = dstStyle;
 dstBuilder.Writeln("Destination document text.");
 
-// Importera avsnittet från måldokumentet till källdokumentet, vilket orsakar en stilnamnskollision.
-// Om vi använder målstilar kommer den importerade källtexten med samma stilnamn
-// som måltext kommer att anta målstilen.
+// Importera avsnittet från destinationsdokumentet till källdokumentet, vilket orsakar en stilnamnskollision.
+// Om vi använder destinationsstilar, då importeras källtexten med samma stilnamn
+// som destinationstext kommer att anta destinationsstilen.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.UseDestinationStyles);
 Assert.AreEqual(dstStyle.Font.Name, importedSection.Body.FirstParagraph.Runs[0].Font.Name);
 Assert.AreEqual(dstStyle.Name, importedSection.Body.FirstParagraph.Runs[0].Font.StyleName);
 
-// Om vi använder ImportFormatMode.KeepDifferentStyles bevaras källformatet,
-// och namnkrocken löser sig genom att lägga till ett suffix.
+// Om vi använder ImportFormatMode.KeepDifferentStyles, bevaras källstilen,
+// och namnkonflikten löses genom att lägga till ett suffix.
 dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.KeepDifferentStyles);
 Assert.AreEqual(dstStyle.Font.Name, dstDoc.Styles["My style"].Font.Name);
 Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);

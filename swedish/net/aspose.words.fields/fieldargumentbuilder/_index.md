@@ -3,16 +3,16 @@ title: FieldArgumentBuilder Class
 linktitle: FieldArgumentBuilder
 articleTitle: FieldArgumentBuilder
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldArgumentBuilder klass. Bygger ett komplext fältargument som består av fält noder och vanlig text i C#.
+description: Upptäck klassen Aspose.Words.Fields.FieldArgumentBuilder för att enkelt skapa komplexa fältargument med noder och text för förbättrad dokumentautomation.
 type: docs
-weight: 1550
+weight: 1960
 url: /sv/net/aspose.words.fields/fieldargumentbuilder/
 ---
 ## FieldArgumentBuilder class
 
-Bygger ett komplext fältargument som består av fält, noder och vanlig text.
+Bygger ett komplext fältargument bestående av fält, noder och vanlig text.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldArgumentBuilder
@@ -22,26 +22,26 @@ public class FieldArgumentBuilder
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldArgumentBuilder](fieldargumentbuilder/)() | Initierar en instans av`FieldArgumentBuilder` class. |
+| [FieldArgumentBuilder](fieldargumentbuilder/)() | Initierar en instans av`FieldArgumentBuilder` klass. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
 | [AddField](../../aspose.words.fields/fieldargumentbuilder/addfield/)(*[FieldBuilder](../fieldbuilder/)*) | Lägger till ett fält som representeras av en[`FieldBuilder`](../fieldbuilder/) till argumentet. |
-| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | Lägger till en nod till argumentet. |
-| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | Lägger till en vanlig text till argumentet. |
+| [AddNode](../../aspose.words.fields/fieldargumentbuilder/addnode/)(*[Inline](../../aspose.words/inline/)*) | Lägger till en nod i argumentet. |
+| [AddText](../../aspose.words.fields/fieldargumentbuilder/addtext/)(*string*) | Lägger till vanlig text i argumentet. |
 
 ## Exempel
 
-Visar hur man konstruerar fält med en fältbyggare och sedan infogar dem i dokumentet.
+Visar hur man konstruerar fält med hjälp av en fältbyggare och sedan infogar dem i dokumentet.
 
 ```csharp
 Document doc = new Document();
 
-// Nedan är tre exempel på fältkonstruktioner gjorda med en fältbyggare.
-// 1 - Enstaka fält:
-// Använd en fältbyggare för att lägga till ett SYMBOLfält som visar symbolen ƒ (Florin).
+// Nedan följer tre exempel på fältkonstruktion gjord med en fältbyggare.
+// 1 - Enskilt fält:
+// Använd en fältbyggare för att lägga till ett SYMBOL-fält som visar symbolen ƒ (Florin).
 FieldBuilder builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(402);
 builder.AddSwitch("\\f", "Arial");
@@ -51,28 +51,28 @@ Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
 Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
 
-// 2 - Kapslade fält:
+// 2 - Kapslat fält:
 // Använd en fältbyggare för att skapa ett formelfält som används som ett inre fält av en annan fältbyggare.
 FieldBuilder innerFormulaBuilder = new FieldBuilder(FieldType.FieldFormula);
 innerFormulaBuilder.AddArgument(100);
 innerFormulaBuilder.AddArgument("+");
 innerFormulaBuilder.AddArgument(74);
 
-// Skapa ytterligare en byggare för ett annat SYMBOL-fält och infoga formelfältet
+// Skapa en annan verktygsbyggare för ett annat SYMBOL-fält och infoga formelfältet
  // som vi har skapat ovan i SYMBOL-fältet som dess argument.
 builder = new FieldBuilder(FieldType.FieldSymbol);
 builder.AddArgument(innerFormulaBuilder);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-// Det yttre SYMBOL-fältet kommer att använda formelfältsresultatet, 174, som sitt argument,
-// som gör att fältet visar symbolen ® (Registered Sign) eftersom dess teckennummer är 174.
+// Det yttre SYMBOL-fältet kommer att använda formelfältets resultat, 174, som sitt argument,
+// vilket gör att fältet visar symbolen ® (registrerat tecken) eftersom dess teckennummer är 174.
 Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
 
 // 3 - Flera kapslade fält och argument:
-// Nu kommer vi att använda en byggare för att skapa ett IF-fält, som visar ett av två anpassade strängvärden,
-// beroende på värdet sant/falskt för dess uttryck. För att få ett sant/falskt värde
-// som bestämmer vilken sträng IF-fältet visar, kommer IF-fältet att testa två numeriska uttryck för likhet.
-// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kapslar inuti IF-fältet.
+// Nu ska vi använda en byggare för att skapa ett OM-fält, som visar ett av två anpassade strängvärden,
+// beroende på det sanna/falska värdet i dess uttryck. För att få ett sant/falskt värde
+// som avgör vilken sträng OM-fältet visar, OM-fältet kommer att testa två numeriska uttryck för likhet.
+// Vi kommer att tillhandahålla de två uttrycken i form av formelfält, som vi kommer att kapsla inuti OM-fältet.
 FieldBuilder leftExpression = new FieldBuilder(FieldType.FieldFormula);
 leftExpression.AddArgument(2);
 leftExpression.AddArgument("+");
@@ -83,8 +83,8 @@ rightExpression.AddArgument(2.5);
 rightExpression.AddArgument("*");
 rightExpression.AddArgument(5.2);
 
-// Därefter kommer vi att bygga två fältargument, som kommer att fungera som sanna/falska utdatasträngar för IF-fältet.
-// Dessa argument kommer att återanvända utdatavärdena för våra numeriska uttryck.
+// Härnäst ska vi bygga två fältargument, som kommer att fungera som sant/falskt utdatasträngar för OM-fältet.
+// Dessa argument kommer att återanvända utdatavärdena från våra numeriska uttryck.
 FieldArgumentBuilder trueOutput = new FieldArgumentBuilder();
 trueOutput.AddText("True, both expressions amount to ");
 trueOutput.AddField(leftExpression);
@@ -95,7 +95,7 @@ falseOutput.AddField(leftExpression);
 falseOutput.AddNode(new Run(doc, " does not equal "));
 falseOutput.AddField(rightExpression);
 
- // Slutligen kommer vi att skapa ytterligare en fältbyggare för IF-fältet och kombinera alla uttryck.
+ // Slutligen skapar vi ytterligare en fältbyggare för OM-fältet och kombinerar alla uttryck.
 builder = new FieldBuilder(FieldType.FieldIf);
 builder.AddArgument(leftExpression);
 builder.AddArgument("=");

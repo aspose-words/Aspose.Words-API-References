@@ -3,14 +3,14 @@ title: FieldUserName.UserName
 linktitle: UserName
 articleTitle: UserName
 second_title: Aspose.Words för .NET
-description: FieldUserName UserName fast egendom. Gest eller ställer in den nuvarande användarens namn i C#.
+description: Hantera den aktuella användarens namn enkelt med egenskapen FieldUserName. Förbättra användarupplevelsen och personifiera interaktioner sömlöst.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldusername/username/
 ---
 ## FieldUserName.UserName property
 
-Gest eller ställer in den nuvarande användarens namn.
+Gest eller anger den aktuella användarens namn.
 
 ```csharp
 public string UserName { get; set; }
@@ -18,12 +18,12 @@ public string UserName { get; set; }
 
 ## Exempel
 
-Visar hur man använder fältet USERNAME.
+Visar hur man använder fältet ANVÄNDARNAMN.
 
 ```csharp
 Document doc = new Document();
 
-// Skapa ett UserInformation-objekt och ställ in det som källa för användarinformation för alla fält som vi skapar.
+// Skapa ett UserInformation-objekt och ange det som källa för användarinformation för alla fält som vi skapar.
 UserInformation userInformation = new UserInformation();
 userInformation.Name = "John Doe";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -31,14 +31,14 @@ doc.FieldOptions.CurrentUser = userInformation;
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett ANVÄNDARNAMN-fält för att visa den aktuella användarens namn,
-// hämtat från UserInformation-objektet vi skapade ovan.
+// hämtad från UserInformation-objektet som vi skapade ovan.
 FieldUserName fieldUserName = (FieldUserName)builder.InsertField(FieldType.FieldUserName, true);
 Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
- // Vi kan ställa in den här egenskapen för att få vårt fält att åsidosätta värdet som för närvarande är lagrat i UserInformation-objektet.
+ // Vi kan ställa in den här egenskapen så att vårt fält åsidosätter det värde som för närvarande lagras i UserInformation-objektet.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 

@@ -3,7 +3,7 @@ title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
 second_title: Aspose.Words för .NET
-description: ImportFormatOptions MergePastedLists fast egendom. Hämtar eller ställer in ett booleskt värde som anger om inklistrade listor ska slås samman med omgivande listor. Standardvärdet ärfalsk  i C#.
+description: Kontrolllistor som slås samman med egenskapen ImportFormatOptions MergePastedLists. Hantera enkelt inklistrade listor för att förbättra dokumentformateringen. Standardvärde: falskt.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/importformatoptions/mergepastedlists/
@@ -18,7 +18,7 @@ public bool MergePastedLists { get; set; }
 
 ## Exempel
 
-Visar hur man slår samman listor från ett dokument.
+Visar hur man sammanfogar listor från dokument.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List item.docx");
@@ -26,7 +26,7 @@ Document dstDoc = new Document(MyDir + "List destination.docx");
 
 ImportFormatOptions options = new ImportFormatOptions { MergePastedLists = true };
 
-// Ställ in egenskapen "MergePastedLists" till "true" inklistrade listor kommer att slås samman med omgivande listor.
+// Sätt egenskapen "MergePastedLists" till "true" så kommer inklistrade listor att slås samman med omgivande listor.
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 
 dstDoc.Save(ArtifactsDir + "Document.MergePastedLists.docx");

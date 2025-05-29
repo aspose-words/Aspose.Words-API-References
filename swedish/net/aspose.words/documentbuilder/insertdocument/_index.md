@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertDocument
 linktitle: InsertDocument
 articleTitle: InsertDocument
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertDocument metod. Infogar ett dokument vid markörens position i C#.
+description: Infoga enkelt dokument var som helst vid markören med DocumentBuilders InsertDocument-metod. Effektivisera ditt arbetsflöde och öka produktiviteten!
 type: docs
 weight: 310
 url: /sv/net/aspose.words/documentbuilder/insertdocument/
@@ -18,16 +18,16 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| srcDoc | Document | Källdokument för insättning. |
-| importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
+| srcDoc | Document | Källdokument för infogning. |
+| importFormatMode | ImportFormatMode | Anger hur formatering som krockar ska sammanfogas. |
 
 ### Returvärde
 
-Första noden av det infogade innehållet.
+Första noden för det infogade innehållet.
 
 ## Anmärkningar
 
-Den här metoden efterliknar MS Word-beteendet, som om CTRL+'A' (välj allt innehåll) trycktes, sedan CTRL+'C' (kopiera vald i bufferten) i ett document och sedan CTRL+'V' (infoga innehåll från buffert) inuti ett annat dokument.
+Den här metoden imiterar beteendet i MS Word, som om CTRL+'A' (markera allt innehåll) trycktes, sedan CTRL+'C' (kopiera markerat till bufferten) i ett dokument och sedan CTRL+'V' (infoga innehåll från bufferten) i ett annat dokument.
 
 ## Exempel
 
@@ -68,21 +68,21 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| srcDoc | Document | Källdokument för insättning. |
-| importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
-| importFormatOptions | ImportFormatOptions | Tillåter att ange alternativ som påverkar formateringen av ett resultatdokument. |
+| srcDoc | Document | Källdokument för infogning. |
+| importFormatMode | ImportFormatMode | Anger hur formatering som krockar ska sammanfogas. |
+| importFormatOptions | ImportFormatOptions | Gör det möjligt att ange alternativ som påverkar formateringen av ett resultatdokument. |
 
 ### Returvärde
 
-Första noden av det infogade innehållet.
+Första noden för det infogade innehållet.
 
 ## Anmärkningar
 
-Den här metoden efterliknar MS Word-beteendet, som om CTRL+'A' (välj allt innehåll) trycktes, sedan CTRL+'C' (kopiera vald i bufferten) i ett document och sedan CTRL+'V' (infoga innehåll från buffert) inuti ett annat dokument.
+Den här metoden imiterar beteendet i MS Word, som om CTRL+'A' (markera allt innehåll) trycktes, sedan CTRL+'C' (kopiera markerat till bufferten) i ett dokument och sedan CTRL+'V' (infoga innehåll från bufferten) i ett annat dokument.
 
 ## Exempel
 
-Visar hur du löser dubbletter av stilar när du infogar dokument.
+Visar hur man åtgärdar dubbletter av format när man infogar dokument.
 
 ```csharp
 Document dstDoc = new Document();
@@ -96,14 +96,14 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Klona dokumentet och redigera klonens "MyStyle"-stil, så det är en annan färg än originalets.
-// Om vi infogar klonen i originaldokumentet kommer de två stilarna med samma namn att orsaka en konflikt.
+// Klona dokumentet och redigera klonens "MyStyle"-stil så att den har en annan färg än originalets.
+// Om vi infogar klonen i originaldokumentet kommer de två stilarna med samma namn att orsaka en kollision.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
 // När vi aktiverar SmartStyleBehavior och använder importformatläget KeepSourceFormatting,
-// Aspose.Words kommer att lösa stilkrockar genom att konvertera källdokumentstilar.
-// med samma namn som målstilar till direkta styckeattribut.
+// Aspose.Words löser stilkrockar genom att konvertera källdokumentets stilar.
+// med samma namn som destinationsformat till direkta styckeattribut.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;
 

@@ -3,14 +3,14 @@ title: ParagraphFormat.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words för .NET
-description: ParagraphFormat StyleIdentifier fast egendom. Hämtar eller ställer in den språkoberoende stilidentifieraren för styckeformatet som tillämpas på denna formatering i C#.
+description: Upptäck egenskapen ParagraphFormat StyleIdentifier för att enkelt hantera och anpassa styckeformat, vilket förbättrar dokumentets formatering och läsbarhet.
 type: docs
-weight: 350
+weight: 360
 url: /sv/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-Hämtar eller ställer in den språkoberoende stilidentifieraren för styckeformatet som tillämpas på denna formatering.
+Hämtar eller ställer in den språkoberoende formateringsidentifieraren för styckeformatet som tillämpas på denna formatering.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -18,21 +18,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## Exempel
 
-Visar hur man infogar en innehållsförteckning (TOC) i ett dokument med rubrikstilar som poster.
+Visar hur man infogar en innehållsförteckning (TOC) i ett dokument med hjälp av rubrikformat som poster.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Infoga en innehållsförteckning för dokumentets första sida.
-// Konfigurera tabellen för att ta upp stycken med rubriker på nivå 1 till 3.
-// Ställ också in dess poster att vara hyperlänkar som tar oss
-// till platsen för rubriken när du vänsterklickar i Microsoft Word.
+// Konfigurera tabellen för att hämta stycken med rubriker på nivå 1 till 3.
+// Ställ också in dess poster som hyperlänkar som tar oss
+// till rubrikens plats när man vänsterklickar i Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Fyll i innehållsförteckningen genom att lägga till stycken med rubrikstilar.
-// Varje sådan rubrik med en nivå mellan 1 och 3 kommer att skapa en post i tabellen.
+// Fyll innehållsförteckningen genom att lägga till stycken med rubrikformat.
+// Varje sådan rubrik med en nivå mellan 1 och 3 skapar en post i tabellen.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

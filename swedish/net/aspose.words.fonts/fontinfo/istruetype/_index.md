@@ -3,14 +3,14 @@ title: FontInfo.IsTrueType
 linktitle: IsTrueType
 articleTitle: IsTrueType
 second_title: Aspose.Words för .NET
-description: FontInfo IsTrueType fast egendom. Indikerar att detta teckensnitt är ett TrueType eller OpenTypeteckensnitt i motsats till ett raster eller vektorteckensnitt. Standard ärSann  i C#.
+description: Upptäck FontInfos IsTrueType-egenskap, som säkerställer att ditt teckensnitt är TrueType eller OpenType för överlägsen kvalitet – perfekt för skarpa och skalbara designer.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.fonts/fontinfo/istruetype/
 ---
 ## FontInfo.IsTrueType property
 
-Indikerar att detta teckensnitt är ett TrueType- eller OpenType-teckensnitt i motsats till ett raster- eller vektorteckensnitt. Standard är`Sann` .
+Indikerar att det här teckensnittet är ett TrueType- eller OpenType-teckensnitt i motsats till ett raster- eller vektorteckensnitt. Standard är`sann` .
 
 ```csharp
 public bool IsTrueType { get; set; }
@@ -18,13 +18,13 @@ public bool IsTrueType { get; set; }
 
 ## Exempel
 
-Visar hur man skriver ut information om vilka typsnitt som finns i ett dokument.
+Visar hur man skriver ut information om vilka teckensnitt som finns i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Skriv ut alla använda och oanvända typsnitt i dokumentet.
+// Skriv ut alla använda och oanvända teckensnitt i dokumentet.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

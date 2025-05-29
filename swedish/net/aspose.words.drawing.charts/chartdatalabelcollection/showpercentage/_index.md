@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowPercentage
 linktitle: ShowPercentage
 articleTitle: ShowPercentage
 second_title: Aspose.Words för .NET
-description: ChartDataLabelCollection ShowPercentage fast egendom. Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet ärfalsk . Gäller endast cirkeldiagram i C#.
+description: Upptäck egenskapen ShowPercentage i ChartDataLabelCollection för att förbättra dina cirkeldiagram genom att visa procentvärden för dataetiketter. Öka tydligheten och insikterna!
 type: docs
-weight: 120
+weight: 150
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-Gör det möjligt att ange om ett procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet är`falsk` . Gäller endast cirkeldiagram.
+Gör det möjligt att ange om procentvärde ska visas för dataetiketterna för hela serien. Standardvärdet är`falsk` Gäller endast cirkeldiagram.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -18,7 +18,7 @@ public bool ShowPercentage { get; set; }
 
 ## Anmärkningar
 
-Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowPercentage`](../../chartdatalabel/showpercentage/) egenskap.
+Värde definierat för den här egenskapen kan åsidosättas för en enskild dataetikett med hjälp av [`ShowPercentage`](../../chartdatalabel/showpercentage/) egendom.
 
 ## Exempel
 
@@ -33,12 +33,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Infoga en anpassad diagramserie med ett kategorinamn för var och en av sektorerna och deras frekvenstabell.
+// Infoga en anpassad diagramserie med ett kategorinamn för varje sektor och deras frekvenstabell.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Aktivera dataetiketter som visar både procent och frekvens för varje sektor, och ändra deras utseende.
+// Aktivera dataetiketter som visar både procentandel och frekvens för varje sektor och ändra deras utseende.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

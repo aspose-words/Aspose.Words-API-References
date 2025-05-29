@@ -3,7 +3,7 @@ title: FieldDatabaseDataTable.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words för .NET
-description: FieldDatabaseDataTable Rows fast egendom. Hämtar rader som hör till den här tabellen i C#.
+description: Upptäck egenskapen FieldDatabaseDataTable Rows för att enkelt komma åt och hantera alla rader i din tabell för effektiv datahantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fielddatabasedatatable/rows/

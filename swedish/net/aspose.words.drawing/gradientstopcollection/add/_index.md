@@ -3,7 +3,7 @@ title: GradientStopCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: GradientStopCollection Add metod. Lägger till en specificeradGradientStop till en gradient i C#.
+description: Förbättra enkelt dina gradienter med GradientStopCollection Add-metoden. Lägg sömlöst till anpassade GradientStops för livfulla designer.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/gradientstopcollection/add/
@@ -27,24 +27,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Få gradient stoppar samling.
+// Hämta samling av gradientstopp.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Ändra första gradientstopp.            
-gradientStops[0].Color = Color.Aqua;            
+// Ändra första gradientstopp.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Lägg till nytt övertoningsstopp i slutet av samlingen.
+// Lägg till nytt gradientstopp i slutet av samlingen.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
-// Ta bort gradientstopp vid index 1.
+// Ta bort gradientstoppet vid index 1.
 gradientStops.RemoveAt(1);
-// Och infoga nytt gradientstopp vid samma index 1.
+// Och infoga ett nytt gradientstopp vid samma index 1.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
-// Ta bort sista gradientstopp i samlingen.
+// Ta bort sista gradientstoppet i samlingen.
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 
@@ -59,8 +59,8 @@ Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
 Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
 Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
 
-// Använd efterlevnadsalternativet för att definiera formen med DML
-// om du vill få egenskapen "GradientStops" efter att dokumentet har sparats.
+// Använd alternativet compliance för att definiera formen med DML
+// om du vill få egenskapen "GradientStops" efter att dokumentet sparats.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);

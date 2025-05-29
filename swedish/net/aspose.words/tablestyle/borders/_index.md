@@ -3,7 +3,7 @@ title: TableStyle.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words för .NET
-description: TableStyle Borders fast egendom. Hämtar samlingen av standardcellkanter för stilen i C#.
+description: Upptäck egenskapen TableStyle Borders för att få tillgång till standardcellkanter för dina stilar och förbättra din design med sömlösa, anpassningsbara alternativ.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/tablestyle/borders/

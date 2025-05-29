@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.RecordIndex
 linktitle: RecordIndex
 articleTitle: RecordIndex
 second_title: Aspose.Words för .NET
-description: FieldMergingArgsBase RecordIndex fast egendom. Hämtar det nollbaserade indexet för posten som slås samman i C#.
+description: Upptäck egenskapen FieldMergingArgsBase RecordIndex. Få åtkomst till det nollbaserade indexet för den sammanslagna posten för förbättrad datahantering och integration.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
 ---
 ## FieldMergingArgsBase.RecordIndex property
 
-Hämtar det nollbaserade indexet för posten som slås samman.
+Hämtar det nollbaserade indexet för posten som sammanfogas.
 
 ```csharp
 public int RecordIndex { get; }
@@ -18,7 +18,7 @@ public int RecordIndex { get; }
 
 ## Exempel
 
-Visar hur man infogar kryssrutaformulär i MERGEFIELDs som sammanfogningsdata under sammanfogning.
+Visar hur man infogar kryssrutefält i MERGEFIELDS som kopplingsdata under dokumentkoppling.
 
 ```csharp
 public void InsertCheckBox()
@@ -26,8 +26,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Använd MERGEFIELDs med "TableStart"/"TableEnd"-taggar för att definiera en kopplingsregion
-    // som tillhör en datakälla som heter "StudentCourse" och har ett MERGEFIELD som accepterar data från en kolumn som heter "CourseName".
+    // Använd MERGEFIELDs med taggarna "TableStart"/"TableEnd" för att definiera ett område för dokumentkoppling
+    // som tillhör en datakälla med namnet "StudentCourse" och har ett MERGEFIELD som accepterar data från en kolumn med namnet "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -46,12 +46,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// När du stöter på ett MERGEFIELD med ett specifikt namn, infogar ett kryssrutaformulärfält istället för sammanslagningsdatatext.
+/// När ett MERGEFIELD med ett specifikt namn påträffas, infogas ett kryssruteformulärfält istället för text för sammanfogningsdata.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Anropas när en e-postsammanfogning slår samman data till ett MERGEFIELD.
+    /// Anropas när en dokumentkoppling sammanfogar data till ett MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -65,7 +65,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // I detta fall, för varje postindex 'n', är motsvarande fältvärde "Course n".
+            // I det här fallet är motsvarande fältvärde "Kurs n" för varje postindex 'n'.
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -75,14 +75,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
-/// Skapar en kopplingsdatakälla.
+/// Skapar en datakälla för dokumentkoppling.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

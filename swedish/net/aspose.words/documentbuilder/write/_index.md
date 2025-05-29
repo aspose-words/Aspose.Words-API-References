@@ -3,9 +3,9 @@ title: DocumentBuilder.Write
 linktitle: Write
 articleTitle: Write
 second_title: Aspose.Words för .NET
-description: DocumentBuilder Write metod. Infogar en sträng i dokumentet vid den aktuella infogningspositionen i C#.
+description: Infoga enkelt text i ditt dokument med DocumentBuilders Write-metod, vilket förbättrar din redigeringseffektivitet och effektiviserar ditt arbetsflöde.
 type: docs
-weight: 650
+weight: 690
 url: /sv/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -22,11 +22,11 @@ public void Write(string text)
 
 ## Anmärkningar
 
-Aktuell teckensnittsformatering specificerad av[`Font`](../font/) egenskapen används.
+Aktuell teckensnittsformatering som anges av[`Font`](../font/) egenskapen används.
 
 ## Exempel
 
-Visar hur man infogar en sträng omgiven av en kant i ett dokument.
+Visar hur man infogar en sträng omgiven av en kantlinje i ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -47,14 +47,14 @@ Visar hur man använder en dokumentbyggare för att skapa en tabell.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Starta tabellen och fyll sedan i den första raden med två celler.
+// Starta tabellen och fyll sedan den första raden med två celler.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Anrop byggarens "EndRow"-metod för att starta en ny rad.
+// Anropa byggarens "EndRow"-metod för att starta en ny rad.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -79,8 +79,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// När du bygger tabellen kommer dokumentbyggaren att tillämpa sina nuvarande RowFormat/CellFormat-egenskapsvärden
-// till den aktuella raden/cellen som markören är i och eventuella nya rader/celler när den skapar dem.
+// När tabellen skapas kommer dokumentbyggaren att tillämpa dess aktuella RowFormat/CellFormat-egenskapsvärden
+// till den aktuella raden/cellen där markören befinner sig och alla nya rader/celler allt eftersom de skapas.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -95,7 +95,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i byggarens formatering.
+// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i formateringen i verktyget.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -106,7 +106,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -138,9 +138,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -151,7 +151,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

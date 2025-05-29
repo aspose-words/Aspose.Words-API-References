@@ -3,14 +3,14 @@ title: Row.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words för .NET
-description: Row GetText metod. Hämtar texten för alla celler i den här raden inklusive slutet av radens tecken i C#.
+description: Upptäck metoden Row GetText för att enkelt hämta text från alla celler i rad, inklusive radslutstecknet för sömlös datahantering.
 type: docs
-weight: 140
+weight: 160
 url: /sv/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
 
-Hämtar texten för alla celler i den här raden inklusive slutet av radens tecken.
+Hämtar texten för alla celler i den här raden inklusive radslutstecknet.
 
 ```csharp
 public override string GetText()
@@ -18,9 +18,9 @@ public override string GetText()
 
 ## Anmärkningar
 
-Returnerar sammanlänkade text för alla underordnade noder med slutet av raden character [`Cell`](../../../aspose.words/controlchar/cell/) bifogas i slutet.
+Returnerar sammanfogad text från alla underordnade noder med slutet av raden character [`Cell`](../../../aspose.words/controlchar/cell/) bifogad i slutet.
 
-Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../../aspose.words/controlchar/).
+Den returnerade strängen innehåller alla kontroll- och specialtecken enligt beskrivningen i[`ControlChar`](../../../aspose.words/controlchar/).
 
 ## Exempel
 
@@ -33,7 +33,7 @@ public void TableToText()
     TableStructurePrinter visitor = new TableStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -41,8 +41,8 @@ public void TableToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade tabellnoder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade tabellnoder och deras undernoder.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -58,8 +58,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
-    /// Körningar som inte finns i tabeller registreras inte.
+    /// Anropas när en Run-nod påträffas i dokumentet.
+    /// Körningar som inte finns inom tabeller registreras inte.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -90,7 +90,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Kallas efter att alla undernoder i en tabellnod har besökts.
+    /// Anropas efter att alla undernoder till en tabellnod har besökts.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -122,7 +122,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en radnod har besökts.
+    /// Anropas efter att alla undernoder till en radnod har besökts.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -152,7 +152,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en cellnod har besökts.
+    /// Anropas efter att alla undernoder till en Cell-nod har besökts.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -162,10 +162,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djup besökaren är
-    /// i den aktuella tabellens träd med underordnade noder.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig
+    /// in i den aktuella tabellens träd med underordnade noder.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

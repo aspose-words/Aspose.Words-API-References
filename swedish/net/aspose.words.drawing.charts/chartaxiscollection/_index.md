@@ -3,14 +3,14 @@ title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection klass. Representerar en samling av diagramaxlar i C#.
+description: Upptäck klassen Aspose.Words.ChartAxisCollection, din lösning för att hantera diagramaxlar effektivt och förbättra datavisualiseringen i ditt dokument.
 type: docs
-weight: 640
+weight: 900
 url: /sv/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
 
-Representerar en samling av diagramaxlar.
+Representerar en samling diagramaxlar.
 
 ```csharp
 public class ChartAxisCollection : IEnumerable<ChartAxis>
@@ -20,27 +20,27 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartaxiscollection/count/) { get; } | Hämtar antalet axlar i den här samlingen. |
-| [Item](../../aspose.words.drawing.charts/chartaxiscollection/item/) { get; } | Hämtar axeln vid angivet index. |
+| [Count](../../aspose.words.drawing.charts/chartaxiscollection/count/) { get; } | Hämtar antalet axlar i denna samling. |
+| [Item](../../aspose.words.drawing.charts/chartaxiscollection/item/) { get; } | Hämtar axeln vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
 
 ## Exempel
 
-Visar hur man arbetar med yxsamling.
+Visar hur man arbetar med axlar.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Göm de stora rutnätslinjerna på den primära och sekundära Y-axeln.
+// Dölj de viktigaste rutnätslinjerna på den primära och sekundära Y-axeln.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

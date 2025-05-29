@@ -3,14 +3,14 @@ title: TextBox.Previous
 linktitle: Previous
 articleTitle: Previous
 second_title: Aspose.Words för .NET
-description: TextBox Previous fast egendom. Returnerar enTextBox som representerar det föregåendeTextBox i en sekvens av former i C#.
+description: Upptäck egenskapen Föregående textruta och få enkel åtkomst till den föregående textrutan i din formsekvens för en effektiv design och ett förbättrat arbetsflöde.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing/textbox/previous/
 ---
 ## TextBox.Previous property
 
-Returnerar en[`TextBox`](../) som representerar det föregående[`TextBox`](../) i en sekvens av former.
+Returnerar en[`TextBox`](../) som representerar det föregående[`TextBox`](../) en sekvens av former.
 
 ```csharp
 public TextBox Previous { get; }
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Endast en tom textruta kan ha en länk.
+// Endast en tom textruta får innehålla en länk.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -66,7 +66,6 @@ if (textBox3.Next == null && textBox3.Previous != null)
 
     // Bryt framåtlänken mellan textBox2 och textBox3 och verifiera sedan att de inte längre är länkade.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

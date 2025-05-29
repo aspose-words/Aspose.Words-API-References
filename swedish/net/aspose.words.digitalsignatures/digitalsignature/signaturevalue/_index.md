@@ -3,14 +3,14 @@ title: DigitalSignature.SignatureValue
 linktitle: SignatureValue
 articleTitle: SignatureValue
 second_title: Aspose.Words för .NET
-description: DigitalSignature SignatureValue fast egendom. Får en matris med byte som representerar ett signaturvärde i C#.
+description: Upptäck egenskapen DigitalSignature SignatureValue, som tillhandahåller en byte-matris för säker signaturrepresentation. Förbättra din digitala säkerhet idag!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 ---
 ## DigitalSignature.SignatureValue property
 
-Får en matris med byte som representerar ett signaturvärde.
+Hämtar en array av byte som representerar ett signaturvärde.
 
 ```csharp
 public byte[] SignatureValue { get; }
@@ -18,7 +18,7 @@ public byte[] SignatureValue { get; }
 
 ## Exempel
 
-Visar hur man får ett digitalt signaturvärde från ett digitalt signerat dokument.
+Visar hur man hämtar ett digitalt signaturvärde från ett digitalt signerat dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

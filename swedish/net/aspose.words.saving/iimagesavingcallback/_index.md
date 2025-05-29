@@ -3,14 +3,14 @@ title: IImageSavingCallback Interface
 linktitle: IImageSavingCallback
 articleTitle: IImageSavingCallback
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.IImageSavingCallback gränssnitt. Implementera detta gränssnitt om du vill kontrollera hur Aspose.Words sparar bilder när sparar ett dokument till HTML. Kan användas av andra format i C#.
+description: Styr bildsparning i Aspose.Words med IImageSavingCallback-gränssnittet. Optimera dokumentexport till HTML och andra format utan problem.
 type: docs
-weight: 5170
+weight: 5920
 url: /sv/net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
 
-Implementera detta gränssnitt om du vill kontrollera hur Aspose.Words sparar bilder när sparar ett dokument till HTML. Kan användas av andra format.
+Implementera detta gränssnitt om du vill styra hur Aspose.Words sparar bilder när ett dokument sparas till HTML. Kan användas av andra format.
 
 ```csharp
 public interface IImageSavingCallback
@@ -20,11 +20,11 @@ public interface IImageSavingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Anropas när Aspose.Words sparar en bild i HTML. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Anropas när Aspose.Words sparar en bild till HTML. |
 
 ## Exempel
 
-Visar hur du byter namn på bildnamnet när du sparar i Markdown-dokument.
+Visar hur man byter namn på bilden när den sparas i Markdown-dokumentet.
 
 ```csharp
 public void RenameImages()
@@ -32,13 +32,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
-    // Om vi konverterar ett dokument som innehåller bilder till Markdown kommer vi att få en Markdown-fil som länkar till flera bilder.
+    // Om vi konverterar ett dokument som innehåller bilder till Markdown, kommer vi att få en Markdown-fil som länkar till flera bilder.
     // Varje bild kommer att vara i form av en fil i det lokala filsystemet.
-    // Det finns också en återuppringning som kan anpassa namnet och filsystemets plats för varje bild.
+    // Det finns också en återanropsfunktion som kan anpassa namn och filsystemplats för varje bild.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // ImageSaving()-metoden för vår callback kommer att köras vid denna tidpunkt.
+    // Metoden ImageSaving() för vår återanropning kommer att köras vid denna tidpunkt.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -52,7 +52,7 @@ public void RenameImages()
 }
 
 /// <summary>
-/// Byter namn på sparade bilder som produceras när ett Markdown-dokument sparas.
+/// Byter namn på sparade bilder som skapas när ett Markdown-dokument sparas.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -86,29 +86,29 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur vi konverterar dokumentet till HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Om vi sparar dokumentet normalt kommer det att finnas en HTML-utdata
-    // dokument med allt källdokumentets innehåll.
+    // Om vi sparar dokumentet normalt kommer det att finnas en HTML-utgång
+    // dokument med allt innehåll i källdokumentet.
     // Ställ in egenskapen "DocumentSplitCriteria" till "DocumentSplitCriteria.SectionBreak" till
-    // spara vårt dokument i flera HTML-filer: en för varje avsnitt.
+    // spara vårt dokument till flera HTML-filer: en för varje avsnitt.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Tilldela en anpassad återuppringning till egenskapen "DocumentPartSavingCallback" för att ändra logiken för att spara dokumentdelen.
+    // Tilldela en anpassad återanropning till egenskapen "DocumentPartSavingCallback" för att ändra logiken för att spara dokumentdelen.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Om vi konverterar ett dokument som innehåller bilder till html kommer vi att få en html-fil som länkar till flera bilder.
+    // Om vi konverterar ett dokument som innehåller bilder till html, får vi en html-fil som länkar till flera bilder.
     // Varje bild kommer att vara i form av en fil i det lokala filsystemet.
-    // Det finns också en återuppringning som kan anpassa namnet och filsystemets plats för varje bild.
+    // Det finns också en återanropsfunktion som kan anpassa namn och filsystemplats för varje bild.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
 }
 
 /// <summary>
-/// Ställer in anpassade filnamn för utdatadokument som sparoperationen delar upp ett dokument i.
+/// Anger anpassade filnamn för utdatadokument som sparandet delar upp ett dokument i.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -143,7 +143,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Nedan finns två sätt att specificera var Aspose.Words kommer att spara varje del av dokumentet.
+        // Nedan följer två sätt att ange var Aspose.Words ska spara varje del av dokumentet.
         // 1 - Ange ett filnamn för utdatafilen:
         args.DocumentPartFileName = partFileName;
 
@@ -160,7 +160,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 }
 
 /// <summary>
-/// Ställer in anpassade filnamn för bildfiler som en HTML-konvertering skapar.
+/// Anger anpassade filnamn för bildfiler som skapas vid en HTML-konvertering.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -173,11 +173,11 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Nedan finns två sätt att specificera var Aspose.Words kommer att spara varje del av dokumentet.
-        // 1 - Ange ett filnamn för utdatafilen:
+        // Nedan följer två sätt att ange var Aspose.Words ska spara varje del av dokumentet.
+        // 1 - Ange ett filnamn för bildfilen som visas:
         args.ImageFileName = imageFileName;
 
-        // 2 - Skapa en anpassad ström för utdatafilen:
+        // 2 - Skapa en anpassad ström för utdatabildfilen:
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
         Assert.True(args.ImageStream.CanWrite);

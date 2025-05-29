@@ -3,9 +3,9 @@ title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words för .NET
-description: ShapeBase ParentParagraph fast egendom. Returnerar det omedelbara överordnade stycket i C#.
+description: Upptäck ShapeBase ParentParagraph-egenskapen – få effektiv åtkomst till det omedelbara överordnade stycket för effektiv innehållshantering och förbättrad organisation.
 type: docs
-weight: 410
+weight: 430
 url: /sv/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
@@ -18,11 +18,11 @@ public Paragraph ParentParagraph { get; }
 
 ## Anmärkningar
 
-För underordnade former av en gruppform och underordnade former av ett Office Math-objekt returneras alltid`null`.
+För underformer till en gruppform och underformer till ett Office Math-objekt returneras alltid`null`.
 
 ## Exempel
 
-Visar hur man infogar en textruta och ställer in teckensnittet för dess innehåll.
+Visar hur man infogar en textruta och anger teckensnittet för dess innehåll.
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Ställ in egenskapen "Hidden" för formens "Font"-objekt till "true" för att dölja textrutan.
-// och kollapsa utrymmet som det normalt skulle uppta.
-// Ställ in egenskapen "Hidden" för formens "Font"-objekt till "false" för att lämna textrutan synlig.
+// Sätt egenskapen "Hidden" för formens "Font"-objekt till "true" för att dölja textrutan
+// och komprimera det utrymme som den normalt skulle uppta.
+// Sätt egenskapen "Hidden" för formens "Font"-objekt till "false" för att lämna textrutan synlig.
 shape.Font.Hidden = hideShape;
 
-// Om formen är synlig kommer vi att ändra dess utseende via teckensnittsobjektet.
+// Om formen är synlig kommer vi att ändra dess utseende via font-objektet.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -47,7 +47,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// Flytta byggaren från textrutan tillbaka till huvuddokumentet.
+// Flytta verktyget ut ur textrutan tillbaka till huvuddokumentet.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

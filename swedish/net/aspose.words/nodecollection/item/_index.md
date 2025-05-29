@@ -3,14 +3,14 @@ title: NodeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: NodeCollection Item fast egendom. Hämtar en nod vid det givna indexet i C#.
+description: Få enkel åtkomst till vilken nod som helst med NodeCollection Item-egenskapen. Hämta snabbt noder via index för sömlös datahantering och förbättrad prestanda.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/nodecollection/item/
 ---
 ## NodeCollection indexer
 
-Hämtar en nod vid det givna indexet.
+Hämtar en nod vid det angivna indexet.
 
 ```csharp
 public Node this[int index] { get; }
@@ -24,15 +24,15 @@ public Node this[int index] { get; }
 
 Indexet är nollbaserat.
 
-Negativa index är tillåtna och indikerar åtkomst från baksidan av samlingen. Till exempel betyder -1 det sista objektet, -2 betyder näst före sist och så vidare.
+Negativa index är tillåtna och indikerar åtkomst från slutet av samlingen. Till exempel betyder -1 det sista objektet, -2 betyder det näst före sista och så vidare.
 
-Om index är större än eller lika med antalet objekt i listan, returnerar detta en nollreferens.
+Om index är större än eller lika med antalet objekt i listan returnerar detta en nullreferens.
 
-Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
+Om index är negativt och dess absoluta värde är större än antalet objekt i listan returnerar detta en null-referens.
 
 ## Exempel
 
-Visar hur man går igenom en sammansatt nods samling av undernoder.
+Visar hur man navigerar genom en sammansatt nods samling av underordnade noder.
 
 ```csharp
 Document doc = new Document();
@@ -44,15 +44,15 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Observera att 'CustomNodeId' inte sparas i en utdatafil och endast existerar under nodens livstid.
+// Observera att 'CustomNodeId' inte sparas i en utdatafil och endast finns under nodens livstid.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Iterera genom styckets samling av närmaste barn,
-// och skriv ut alla körningar eller former som vi hittar inom.
+// Iterera genom styckets samling av omedelbara underordnade,
+// och skriv ut alla körningar eller former som vi hittar inuti.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

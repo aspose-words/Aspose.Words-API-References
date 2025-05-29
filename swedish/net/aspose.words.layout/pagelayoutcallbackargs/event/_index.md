@@ -3,14 +3,14 @@ title: PageLayoutCallbackArgs.Event
 linktitle: Event
 articleTitle: Event
 second_title: Aspose.Words för .NET
-description: PageLayoutCallbackArgs Event fast egendom. Får händelse i C#.
+description: Upptäck händelseegenskapen PageLayoutCallbackArgs för att förbättra din applikations funktionalitet. Lås upp sömlös händelsehantering för bättre prestanda.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.layout/pagelayoutcallbackargs/event/
 ---
 ## PageLayoutCallbackArgs.Event property
 
-Får händelse.
+Hämtar händelse.
 
 ```csharp
 public PageLayoutEvent Event { get; }
@@ -18,7 +18,7 @@ public PageLayoutEvent Event { get; }
 
 ## Exempel
 
-Visar hur man spårar layoutändringar med en layoutåteruppringning.
+Visar hur man spårar layoutändringar med ett layoutåteranrop.
 
 ```csharp
 public void PageLayoutCallback()
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Meddelar oss när vi sparar dokumentet till ett fast sidformat
-/// och renderar en sida som vi utför ett sidflöde på till en bild i det lokala filsystemet.
+/// och renderar en sida som vi utför en sidflödesomflöde på till en bild i det lokala filsystemet.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

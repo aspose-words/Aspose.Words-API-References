@@ -3,14 +3,14 @@ title: ChartYValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: ChartYValueCollection Item fast egendom. Hämtar eller ställer in Yvärdet på det angivna indexet i C#.
+description: Upptäck egenskapen ChartYValueCollection Item för att enkelt komma åt eller ändra Y-värden vid valfritt index, vilket förbättrar din datavisualiseringsupplevelse.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartyvaluecollection/item/
 ---
 ## ChartYValueCollection indexer
 
-Hämtar eller ställer in Y-värdet på det angivna indexet.
+Hämtar eller ställer in Y-värdet vid det angivna indexet.
 
 ```csharp
 public ChartYValue this[int index] { get; set; }

@@ -3,14 +3,14 @@ title: Table.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words för .NET
-description: Table AllowOverlap fast egendom. Hämtar om en flytande tabell ska tillåta andra flytande objekt i document att överlappa dess omfattning när den visas. Standardvärdet ärSann  i C#.
+description: Upptäck egenskapen Table AllowOverlap, som styr om flytande objekt kan överlappa din tabell. Förbättra layoutflexibiliteten för bättre dokumentpresentation.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property
 
-Hämtar om en flytande tabell ska tillåta andra flytande objekt i document att överlappa dess omfattning när den visas. Standardvärdet är`Sann` .
+Hämtar om en flytande tabell ska tillåta andra flytande objekt i dokumentet att överlappa dess omfattning när den visas. Standardvärdet är`sann` .
 
 ```csharp
 public bool AllowOverlap { get; }
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Endast Marginal, Sida, Kolumn tillgängliga i RelativeHorizontalPosition för HorizontalAnchor Setter.
-    // ArgumentException kommer att kastas för alla andra värden.
+    // Endast marginal, sida och kolumn är tillgängliga i RelativeHorizontalPosition för HorizontalAnchor-sättaren.
+    // ArgumentException kommer att utlösas för alla andra värden.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Endast Marginal, Sida, Paragraph tillgängliga i RelativeVerticalPosition för VerticalAnchor Setter.
-    // ArgumentException kommer att kastas för alla andra värden.
+    // Endast marginal, sida och stycke tillgängliga i RelativeVerticalPosition för VerticalAnchor-inställaren.
+    // ArgumentException kommer att utlösas för alla andra värden.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

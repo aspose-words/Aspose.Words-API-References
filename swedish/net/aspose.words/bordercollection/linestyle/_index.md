@@ -3,7 +3,7 @@ title: BorderCollection.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words för .NET
-description: BorderCollection LineStyle fast egendom. Hämtar eller ställer in kantstilen i C#.
+description: Upptäck egenskapen BorderCollection LineStyle för att anpassa din design med flexibla kantstilar. Förbättra ditt projekts visuella attraktionskraft utan ansträngning!
 type: docs
 weight: 80
 url: /sv/net/aspose.words/bordercollection/linestyle/
@@ -18,13 +18,13 @@ public LineStyle LineStyle { get; set; }
 
 ## Anmärkningar
 
-Returnerar stilen för den första kanten i samlingen.
+Returnerar stilen för den första kantlinjen i samlingen.
 
-Ställer in stilen för alla kanter i samlingen exklusive diagonala kanter.
+Anger stilen för alla ramar i samlingen exklusive diagonala ramar.
 
 ## Exempel
 
-Visar hur man skapar grön vågig sidkant med en skugga.
+Visar hur man skapar en grön vågig sidkantlinje med en skugga.
 
 ```csharp
 Document doc = new Document();

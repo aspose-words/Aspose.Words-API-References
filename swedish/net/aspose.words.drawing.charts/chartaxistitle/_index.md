@@ -3,16 +3,16 @@ title: ChartAxisTitle Class
 linktitle: ChartAxisTitle
 articleTitle: ChartAxisTitle
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle klass. Ger tillgång till egenskaperna för axeltiteln i C#.
+description: Utforska klassen Aspose.Words.ChartAxisTitle för att enkelt hantera axeltitelegenskaper och förbättra dokumentets visuella effekt.
 type: docs
-weight: 650
+weight: 910
 url: /sv/net/aspose.words.drawing.charts/chartaxistitle/
 ---
 ## ChartAxisTitle class
 
-Ger tillgång till egenskaperna för axeltiteln.
+Ger åtkomst till axeltitelegenskaperna.
 
-För att lära dig mer, besök[Arbeta med diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med -diagram](https://docs.aspose.com/words/net/working-with-charts/) dokumentationsartikel.
 
 ```csharp
 public class ChartAxisTitle
@@ -22,9 +22,11 @@ public class ChartAxisTitle
 
 | namn | Beskrivning |
 | --- | --- |
-| [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Bestämmer om andra diagramelement ska tillåtas överlappa titeln. Standardvärdet är`falsk` . |
-| [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Bestämmer om titeln ska visas för axeln. Standardvärdet är`falsk` . |
-| [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Hämtar eller ställer in texten i axeltiteln. Om`null` eller tomt värde anges, kommer automatiskt genererad titel att visas. |
+| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } | Ger åtkomst till teckensnittsformateringen för axeltiteln. |
+| [Format](../../aspose.words.drawing.charts/chartaxistitle/format/) { get; } | Ger åtkomst till fyllnings- och linjeformatering av axelrubriken. |
+| [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Avgör om andra diagramelement ska tillåtas överlappa titeln. Standardvärdet är`falsk` . |
+| [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Avgör om titeln ska visas för axeln. Standardvärdet är`falsk` . |
+| [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Hämtar eller ställer in texten i axelrubriken. Om`null` eller om ett tomt värde anges visas den automatiskt genererade titeln. |
 
 ## Exempel
 
@@ -38,17 +40,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// Ta bort standardgenererade serier.
+// Radera standardgenererad serie.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Ställ in axeltitel.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

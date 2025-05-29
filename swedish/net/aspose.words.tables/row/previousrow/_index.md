@@ -3,7 +3,7 @@ title: Row.PreviousRow
 linktitle: PreviousRow
 articleTitle: PreviousRow
 second_title: Aspose.Words för .NET
-description: Row PreviousRow fast egendom. Hämtar föregåendeRow nod i C#.
+description: Få åtkomst till egenskapen PreviousRow för att enkelt hämta noden för föregående rad, vilket förbättrar din datanavigering och effektiviserar ditt kodningsarbetsflöde.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.tables/row/previousrow/
@@ -18,17 +18,17 @@ public Row PreviousRow { get; }
 
 ## Anmärkningar
 
-Metoden kan användas när du behöver ha maskinskriven åtkomst till tabellrader. Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)noden hittas i en tabell istället för en rad, den korsas automatiskt för att få en rad som finns inom.
+Metoden kan användas när du behöver ha skrivåtkomst till tabellrader. Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) noden finns i en tabell istället för en rad, den genomsöks automatiskt för att hämta en rad som finns inuti.
 
 ## Exempel
 
-Visar hur man räknar upp alla tabellceller.
+Visar hur man räknar igenom alla tabellceller.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Räkna upp genom alla celler i tabellen.
+// Räkna igenom alla celler i tabellen.
 for (Row row = table.FirstRow; row != null; row = row.NextRow)
 {
     for (Cell cell = row.FirstCell; cell != null; cell = cell.NextCell)

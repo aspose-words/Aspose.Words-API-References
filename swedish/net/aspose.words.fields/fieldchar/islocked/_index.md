@@ -3,14 +3,14 @@ title: FieldChar.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words för .NET
-description: FieldChar IsLocked fast egendom. Hämtar eller ställer in om det överordnade fältet är låst ska inte räkna om resultatet i C#.
+description: Upptäck egenskapen FieldChar IsLocked, kontrollera omräkning av fält med lätthet. Förbättra ditt dokuments noggrannhet och effektivitet idag!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldchar/islocked/
 ---
 ## FieldChar.IsLocked property
 
-Hämtar eller ställer in om det överordnade fältet är låst (ska inte räkna om resultatet).
+Hämtar eller anger om det överordnade fältet är låst (ska inte beräkna om resultatet).
 
 ```csharp
 public bool IsLocked { get; set; }

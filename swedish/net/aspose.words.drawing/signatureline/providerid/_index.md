@@ -3,14 +3,14 @@ title: SignatureLine.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
 second_title: Aspose.Words för .NET
-description: SignatureLine ProviderId fast egendom. Hämtar eller ställer in signaturleverantörsidentifierare för denna signaturrad. Standardvärdet är 000000000000000000000000000000000 i C#.
+description: Upptäck egenskapen SignatureLine ProviderId för att enkelt hantera identifierare för signaturers leverantörer. Förenkla ditt arbetsflöde med vår standardinställning.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing/signatureline/providerid/
 ---
 ## SignatureLine.ProviderId property
 
-Hämtar eller ställer in signaturleverantörsidentifierare för denna signaturrad. Standardvärdet är "{00000000-0000-0000-0000-0000000000000}".
+Hämtar eller ställer in signaturleverantörsidentifierare för denna signaturrad. Standardvärdet är "{00000000-0000-0000-0000-000000000000}".
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -18,11 +18,11 @@ public Guid ProviderId { get; set; }
 
 ## Anmärkningar
 
-Den kryptografiska tjänsteleverantören (CSP) är en oberoende programvarumodul som faktiskt utför kryptografialgoritmer för autentisering, kodning och kryptering. MS Office reserverar värdet av {00000000-0000-0000-0000-0000000000000} för sin standardsignaturleverantör.
+Kryptografiska tjänsteleverantören (CSP) är en oberoende programmodul som faktiskt utför kryptografiska algoritmer för autentisering, kodning och kryptering. MS Office reserverar värdet {00000000-0000-0000-0000-00000000000} för sin standardsignaturleverantör.
 
-GUID för den extra installerade leverantören bör erhållas från dokumentationen som levereras med leverantören.
+GUID för den ytterligare installerade providern bör hämtas från dokumentationen som medföljde providern.
 
-Dessutom är alla installerade kryptografiska leverantörer uppräknade i Windows-registret. Den kan hittas i följande sökväg: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Det finns ett nyckelnamn "CP Service UUID" som motsvarar en GUID för signaturleverantör.
+Dessutom listas alla installerade kryptografiska leverantörer i Windows-registret. Den finns på följande sökväg: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Det finns en nyckel med namnet "CP Service UUID" som motsvarar ett GUID för signaturleverantören.
 
 ## Exempel
 
@@ -64,7 +64,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

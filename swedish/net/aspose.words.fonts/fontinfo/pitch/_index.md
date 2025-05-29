@@ -3,14 +3,14 @@ title: FontInfo.Pitch
 linktitle: Pitch
 articleTitle: Pitch
 second_title: Aspose.Words för .NET
-description: FontInfo Pitch fast egendom. Tonhöjden indikerar om teckensnittet har fast tonhöjd proportionellt fördelat eller är beroende av en standardinställning i C#.
+description: Upptäck egenskapen FontInfo Pitch. Lär dig hur den definierar fast bredd kontra proportionellt avstånd, vilket förbättrar din typografi för bättre designtydlighet.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-Tonhöjden indikerar om teckensnittet har fast tonhöjd, proportionellt fördelat eller är beroende av en standardinställning.
+Bredvidden anger om teckensnittet har fast bredd, är proportionellt fördelat eller använder en standardinställning.
 
 ```csharp
 public FontPitch Pitch { get; set; }
@@ -18,7 +18,7 @@ public FontPitch Pitch { get; set; }
 
 ## Exempel
 
-Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
+Visar hur man kommer åt och skriver ut information om varje teckensnitt i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

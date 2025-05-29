@@ -3,14 +3,14 @@ title: Metered.GetConsumptionQuantity
 linktitle: GetConsumptionQuantity
 articleTitle: GetConsumptionQuantity
 second_title: Aspose.Words för .NET
-description: Metered GetConsumptionQuantity metod. Får förbrukningsfilstorlek i C#.
+description: Upptäck metoden Metered GetConsumptionQuantity för att effektivt hämta filstorleksdata och optimera din resurshantering. Förbättra dina datainsikter!
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words/metered/getconsumptionquantity/
 ---
 ## Metered.GetConsumptionQuantity method
 
-Får förbrukningsfilstorlek
+Hämtar förbrukningsfilens storlek
 
 ```csharp
 public static decimal GetConsumptionQuantity()
@@ -18,17 +18,19 @@ public static decimal GetConsumptionQuantity()
 
 ### Returvärde
 
-konsumtionsmängd
+förbrukningsmängd
 
 ## Exempel
 
-Visar hur du aktiverar en mätlicens och spårar kredit/förbrukning.
+Visar hur man aktiverar en mätt licens och spårar kredit/förbrukning.
 
 ```csharp
-// Skapa en ny Metered-licens och skriv sedan ut dess användningsstatistik.
+// Skapa en ny mätt licens och skriv sedan ut dess användningsstatistik.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
@@ -37,7 +39,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
 // Aspose Metered Licensing-mekanism skickar inte användningsdata till köpservern varje gång,
-// du måste använda väntande.
+// du måste använda väntan.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

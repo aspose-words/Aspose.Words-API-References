@@ -3,14 +3,14 @@ title: Document.Variables
 linktitle: Variables
 articleTitle: Variables
 second_title: Aspose.Words för .NET
-description: Document Variables fast egendom. Returnerar samlingen av variabler som lagts till i ett dokument eller mall i C#.
+description: Upptäck dokumentvariabler. Få tillgång till en kraftfull samling anpassningsbara variabler för dina dokument och mallar, vilket förbättrar effektiviteten och flexibiliteten.
 type: docs
-weight: 440
+weight: 460
 url: /sv/net/aspose.words/document/variables/
 ---
 ## Document.Variables property
 
-Returnerar samlingen av variabler som lagts till i ett dokument eller mall.
+Returnerar samlingen av variabler som lagts till i ett dokument eller en mall.
 
 ```csharp
 public VariableCollection Variables { get; }
@@ -24,14 +24,14 @@ Visar hur man arbetar med ett dokuments variabelsamling.
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Varje dokument har en samling nyckel-/värdeparvariabler som vi kan lägga till objekt till.
+// Varje dokument har en samling av nyckel/värde-parvariabler, som vi kan lägga till objekt till.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// Vi kan visa värdena för variabler i dokumentets brödtext med hjälp av DOCVARIABLE-fält.
+// Vi kan visa värdena för variabler i dokumentets innehåll med hjälp av DOCVARIABLE-fält.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -42,7 +42,7 @@ Assert.AreEqual("123 Main St.", field.Result);
 // Att tilldela värden till befintliga nycklar kommer att uppdatera dem.
 variables.Add("Home address", "456 Queen St.");
 
-// Vi måste då uppdatera DOCVARIABLE-fält för att säkerställa att de visar ett aktuellt värde.
+// Vi måste sedan uppdatera DOCVARIABLE-fälten för att säkerställa att de visar ett aktuellt värde.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -58,18 +58,21 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
 // Räkna upp över samlingen av variabler.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// Nedan finns tre sätt att ta bort dokumentvariabler från en samling.
+// Nedan följer tre sätt att ta bort dokumentvariabler från en samling.
 // 1 - Efter namn:
 variables.Remove("City");
 
 Assert.False(variables.Contains("City"));
 
-// 2 - Efter index:
+// 2 - Enligt index:
 variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
@@ -77,7 +80,7 @@ Assert.False(variables.Contains("Home address"));
 // 3 - Rensa hela samlingen på en gång:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### Se även

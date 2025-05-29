@@ -3,9 +3,9 @@ title: OoxmlSaveOptions.KeepLegacyControlChars
 linktitle: KeepLegacyControlChars
 articleTitle: KeepLegacyControlChars
 second_title: Aspose.Words för .NET
-description: OoxmlSaveOptions KeepLegacyControlChars fast egendom. Behåller originalrepresentationen av äldre kontrolltecken i C#.
+description: Upptäck OoxmlSaveOptions KeepLegacyControlChars-egenskap för att behålla det ursprungliga formatet för äldre kontrolltecken för sömlös dokumentkonvertering.
 type: docs
-weight: 40
+weight: 50
 url: /sv/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions.KeepLegacyControlChars property
@@ -24,11 +24,11 @@ Visar hur man stöder äldre kontrolltecken vid konvertering till .docx.
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // När vi sparar dokumentet i ett OOXML-format kan vi skapa ett OoxmlSaveOptions-objekt
-// och skicka det sedan till dokumentets sparmetod för att ändra hur vi sparar dokumentet.
-// Ställ in egenskapen "KeepLegacyControlChars" till "true" för att bevara
-// det äldre tecknet "ShortDateTime" när du sparar.
-// Ställ in egenskapen "KeepLegacyControlChars" till "false" för att ta bort
-// det äldre tecknet "ShortDateTime" från utdatadokumentet.
+// och skicka den sedan till dokumentets sparmetod för att ändra hur vi sparar dokumentet.
+// Sätt egenskapen "KeepLegacyControlChars" till "true" för att bevara
+// det gamla tecknet "ShortDateTime" vid sparning.
+// Sätt egenskapen "KeepLegacyControlChars" till "false" för att ta bort
+// det gamla tecknet "ShortDateTime" från utdatadokumentet.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

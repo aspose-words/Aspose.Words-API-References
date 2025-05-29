@@ -3,7 +3,7 @@ title: ChartXValue.DoubleValue
 linktitle: DoubleValue
 articleTitle: DoubleValue
 second_title: Aspose.Words för .NET
-description: ChartXValue DoubleValue fast egendom. Hämtar det lagrade numeriska värdet i C#.
+description: Upptäck egenskapen ChartXValue DoubleValue för att enkelt hämta och använda lagrade numeriska värden för förbättrad datavisualisering och analys.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/doublevalue/

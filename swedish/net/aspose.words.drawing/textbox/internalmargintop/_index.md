@@ -3,7 +3,7 @@ title: TextBox.InternalMarginTop
 linktitle: InternalMarginTop
 articleTitle: InternalMarginTop
 second_title: Aspose.Words för .NET
-description: TextBox InternalMarginTop fast egendom. Anger den inre övre marginalen i punkter för en form i C#.
+description: Upptäck egenskapen TextBox InternalMarginTop – styr din formes övre marginal i punkter för exakt layout och förbättrad designflexibilitet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing/textbox/internalmargintop/
@@ -28,7 +28,7 @@ Visar hur man ställer in interna marginaler för en textruta.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en annan textruta med specifika marginaler.
+// Infoga ytterligare en textruta med specifika marginaler.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

@@ -3,14 +3,14 @@ title: PageSetup.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words för .NET
-description: PageSetup Borders fast egendom. Hämtar en samling av sidkanterna i C#.
+description: Upptäck egenskapen Sidinställningar Kantlinjer för att enkelt komma åt och anpassa dina sidkantlinjer för ett elegant och professionellt utseende i dina dokument.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/pagesetup/borders/
 ---
 ## PageSetup.Borders property
 
-Hämtar en samling av sidkanterna.
+Hämtar en samling av sidkantlinjerna.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -18,7 +18,7 @@ public BorderCollection Borders { get; }
 
 ## Exempel
 
-Visar hur man skapar grön vågig sidkant med en skugga.
+Visar hur man skapar en grön vågig sidkantlinje med en skugga.
 
 ```csharp
 Document doc = new Document();

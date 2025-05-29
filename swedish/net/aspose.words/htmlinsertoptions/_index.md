@@ -3,9 +3,9 @@ title: HtmlInsertOptions Enum
 linktitle: HtmlInsertOptions
 articleTitle: HtmlInsertOptions
 second_title: Aspose.Words för .NET
-description: Aspose.Words.HtmlInsertOptions uppräkning. Anger alternativ förInsertHtml metod i C#.
+description: Utforska Aspose.Words.HtmlInsertOptions enum för att anpassa HTML-infogning med InsertHtml-metoden, vilket förbättrar effektiviteten i dokumentbehandlingen.
 type: docs
-weight: 3140
+weight: 3570
 url: /sv/net/aspose.words/htmlinsertoptions/
 ---
 ## HtmlInsertOptions enumeration
@@ -21,14 +21,14 @@ public enum HtmlInsertOptions
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Använd standardalternativen när du infogar HTML. |
-| UseBuilderFormatting | `1` | Använd teckensnitt och styckeformatering som anges i[`DocumentBuilder`](../documentbuilder/) som basformatering för text infogat från HTML. |
-| RemoveLastEmptyParagraph | `2` | Ta bort det tomma stycket som normalt infogas efter HTML som slutar med ett element på blocknivå. |
-| PreserveBlocks | `4` | Bevara egenskaperna för element på blocknivå. |
+| None | `0` | Använd standardinställningarna när du infogar HTML. |
+| UseBuilderFormatting | `1` | Använd teckensnitt och styckeformatering som anges i[`DocumentBuilder`](../documentbuilder/) som basformatering för text infogad från HTML. |
+| RemoveLastEmptyParagraph | `2` | Ta bort det tomma stycket som normalt infogas efter HTML och som slutar med ett blocknivåelement. |
+| PreserveBlocks | `4` | Bevara egenskaper för element på blocknivå. |
 
 ## Exempel
 
-Visar hur man gör det möjligt att bättre bevara kanter och marginaler.
+Visar hur man bättre bevarar synliga kanter och marginaler.
 
 ```csharp
 const string html = @"

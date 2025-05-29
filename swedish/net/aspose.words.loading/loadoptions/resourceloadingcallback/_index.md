@@ -3,7 +3,7 @@ title: LoadOptions.ResourceLoadingCallback
 linktitle: ResourceLoadingCallback
 articleTitle: ResourceLoadingCallback
 second_title: Aspose.Words för .NET
-description: LoadOptions ResourceLoadingCallback fast egendom. Gör det möjligt att styra hur externa resurser bilder stilmallar laddas när ett dokument importeras från HTML MHTML i C#.
+description: Optimera dina dokumentimporter med LoadOptions ResourceLoadingCallback. Kontrollera laddningen av externa resurser som bilder och formatmallar sömlöst.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.loading/loadoptions/resourceloadingcallback/
@@ -18,7 +18,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ## Exempel
 
-Visar hur man hanterar externa resurser när HTML-dokument laddas.
+Visar hur man hanterar externa resurser när man laddar HTML-dokument.
 
 ```csharp
 public void LoadOptionsCallback()
@@ -26,13 +26,13 @@ public void LoadOptionsCallback()
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();
 
-    // När vi laddar dokumentet kommer vår callback att hantera länkade resurser som CSS-formatmallar och bilder.
+    // När vi laddar dokumentet kommer vår callback att hantera länkade resurser som CSS-stilmallar och bilder.
     Document doc = new Document(MyDir + "Images.html", loadOptions);
     doc.Save(ArtifactsDir + "LoadOptions.LoadOptionsCallback.pdf");
 }
 
 /// <summary>
-/// Skriver ut filnamnen för alla externa stilmallar och ersätter alla bilder i ett laddat HTML-dokument.
+/// Skriver ut filnamnen på alla externa stilmallar och ersätter alla bilder i ett laddat HTML-dokument.
 /// </summary>
 private class HtmlLinkedResourceLoadingCallback : IResourceLoadingCallback
 {

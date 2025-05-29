@@ -3,14 +3,14 @@ title: ImageSaveOptions.GraphicsQualityOptions
 linktitle: GraphicsQualityOptions
 articleTitle: GraphicsQualityOptions
 second_title: Aspose.Words för .NET
-description: ImageSaveOptions GraphicsQualityOptions fast egendom. Tillåter att ange renderingsläge och kvalitet förGraphics objekt i C#.
+description: Optimera din grafik med egenskapen ImageSaveOptions GraphicsQualityOptions, vilket möjliggör exakta renderingslägen och överlägsen kvalitet för fantastiska bilder.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
 ## ImageSaveOptions.GraphicsQualityOptions property
 
-Tillåter att ange renderingsläge och kvalitet förGraphics objekt.
+Gör det möjligt att ange renderingsläge och kvalitet förGraphics objekt.
 
 ```csharp
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
@@ -20,11 +20,11 @@ public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 
 Använd den här egenskapen för att åsidosätta grafikinställningarna som tillhandahålls av Aspose.Words-motorn som standard.
 
-Det träder i kraft endast när ett dokument sparas i ett bildliknande format.
+Det träder bara i kraft när ett dokument sparas i ett bildliknande format.
 
 ## Exempel
 
-Visar hur du ställer in alternativ för återgivningskvalitet när du konverterar dokument till bildformat.
+Visar hur man ställer in alternativ för renderingskvalitet vid konvertering av dokument till bildformat.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

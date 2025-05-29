@@ -3,14 +3,14 @@ title: CssSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words för .NET
-description: CssSavingArgs IsExportNeeded fast egendom. Tillåter att ange om CSS ska exporteras till fil och bäddas in i HTMLdokument. Standard ärSann . När den här egenskapen ärfalsk  kommer CSSinformationen inte att sparas i en CSSfil och kommer inte att bäddas in i HTMLdokument i C#.
+description: Styr CSS-export med egenskapen CssSavingArgs IsExportNeeded. Välj att bädda in eller spara CSS till en fil för optimerade HTML-dokument. Standardvärde: sant.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/csssavingargs/isexportneeded/
 ---
 ## CssSavingArgs.IsExportNeeded property
 
-Tillåter att ange om CSS ska exporteras till fil och bäddas in i HTML-dokument. Standard är`Sann` . När den här egenskapen är`falsk` , kommer CSS-informationen inte att sparas i en CSS-fil och kommer inte att bäddas in i HTML-dokument.
+Gör det möjligt att ange om CSS-koden ska exporteras till en fil och bäddas in i ett HTML-dokument. Standardinställningen är`sann` . När den här egenskapen är`falsk` , CSS-informationen kommer inte att sparas i en CSS-fil och kommer inte att bäddas in i HTML-dokumentet.
 
 ```csharp
 public bool IsExportNeeded { get; set; }
@@ -18,26 +18,26 @@ public bool IsExportNeeded { get; set; }
 
 ## Exempel
 
-Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
+Visar hur man arbetar med CSS-stilmallar som skapas av en HTML-konvertering.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur vi konverterar dokumentet till HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Ställ in egenskapen "CssStylesheetType" till "CssStyleSheetType.External" till
-    // åtfölja ett sparat HTML-dokument med en extern CSS-formatmallsfil.
+    // Ställ in egenskapen "CssStylesheetType" till "CssStyleSheetType.External" för att
+    // komplettera ett sparat HTML-dokument med en extern CSS-stilarksfil.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Nedan finns två sätt att ange kataloger och filnamn för CSS-formatmallar.
-    // 1 - Använd egenskapen "CssStyleSheetFileName" för att tilldela ett filnamn till vår stilmall:
+    // Nedan följer två sätt att ange kataloger och filnamn för CSS-formatmallar som utdata.
+    // 1 - Använd egenskapen "CssStyleSheetFileName" för att tilldela ett filnamn till vårt stilark:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Använd en anpassad återuppringning för att namnge vår stilmall:
+    // 2 - Använd en anpassad återuppringning för att namnge vårt stilark:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -45,7 +45,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Ställer in ett anpassat filnamn, tillsammans med andra parametrar för en extern CSS-stilmall.
+/// Anger ett anpassat filnamn, tillsammans med andra parametrar för ett externt CSS-stilark.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {

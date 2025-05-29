@@ -3,14 +3,14 @@ title: HtmlSaveOptions.FontsFolder
 linktitle: FontsFolder
 articleTitle: FontsFolder
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions FontsFolder fast egendom. Anger den fysiska mapp där teckensnitt sparas vid export av ett dokument till HTML. Standard är en tom sträng i C#.
+description: Upptäck egenskapen HtmlSaveOptions FontsFolder för att enkelt hantera teckensnittslagring för HTML-export, vilket förbättrar dokumentpresentation och tillgänglighet.
 type: docs
 weight: 310
 url: /sv/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 ---
 ## HtmlSaveOptions.FontsFolder property
 
-Anger den fysiska mapp där teckensnitt sparas vid export av ett dokument till HTML. Standard är en tom sträng.
+Anger den fysiska mappen där teckensnitt sparas när ett dokument exporteras till HTML. Standardvärdet är en tom sträng.
 
 ```csharp
 public string FontsFolder { get; set; }
@@ -18,13 +18,13 @@ public string FontsFolder { get; set; }
 
 ## Anmärkningar
 
-När du sparar en[`Document`](../../../aspose.words/document/) i HTML-format och[`ExportFontResources`](../exportfontresources/) är inställd på`Sann` , Aspose.Words måste spara teckensnitt som används i dokumentet som fristående filer. `FontsFolder` låter dig ange var typsnitten ska sparas och [`FontsFolderAlias`](../fontsfolderalias/) gör det möjligt att specificera hur teckensnittets URI:er kommer att konstrueras.
+När du sparar en[`Document`](../../../aspose.words/document/) i HTML-format och[`ExportFontResources`](../exportfontresources/) är inställd på`sann` Aspose.Words behöver spara teckensnitt som används i dokumentet som fristående filer. `FontsFolder` låter dig ange var teckensnitten ska sparas and [`FontsFolderAlias`](../fontsfolderalias/) låter dig ange hur teckensnitts-URI:erna ska konstrueras.
 
-Om du sparar ett dokument i en fil och anger ett filnamn, sparar Aspose.Words som standard -teckensnitten i samma mapp där dokumentfilen sparas. Använda sig av`FontsFolder` för att åsidosätta detta beteende.
+Om du sparar ett dokument i en fil och anger ett filnamn, sparar Aspose.Words som standard teckensnitten i samma mapp där dokumentfilen är sparad.`FontsFolder` för att åsidosätta detta beteende.
 
-Om du sparar ett dokument i en ström så har Aspose.Words ingen mapp där du kan spara typsnitten, men behöver ändå spara typsnitten någonstans. I det här fallet måste du ange en tillgänglig mapp i`FontsFolder` egendom eller tillhandahålla anpassade strömmar via the[`FontSavingCallback`](../fontsavingcallback/) händelsehanterare.
+Om du sparar ett dokument i en ström har Aspose.Words ingen mapp där typsnitten ska sparas, , men behöver fortfarande spara dem någonstans. I det här fallet måste du ange en tillgänglig mapp i`FontsFolder` egendom eller tillhandahålla anpassade strömmar via the[`FontSavingCallback`](../fontsavingcallback/) händelsehanterare.
 
-Om mappen som anges av`FontsFolder` inte finns skapas den automatiskt.
+Om mappen som anges av`FontsFolder` inte finns, kommer den att skapas automatiskt.
 
 [`ResourceFolder`](../resourcefolder/) är ett annat sätt att ange en mapp där teckensnitt ska sparas.
 
@@ -45,7 +45,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
     FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    ImagesFolderAlias = "http://example.com/bilder",
     ResourceFolderAlias = "http://example.com/resurser",
     ExportOriginalUrlForLinkedImages = true
 };

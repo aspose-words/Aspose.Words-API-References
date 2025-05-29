@@ -3,14 +3,14 @@ title: StructuredDocumentTag.BuildingBlockCategory
 linktitle: BuildingBlockCategory
 articleTitle: BuildingBlockCategory
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTag BuildingBlockCategory fast egendom. Anger kategori av byggblock för dettaSDT node. Kan inte varanull  i C#.
+description: Upptäck egenskapen BuildingBlockCategory i StructuredDocumentTag, som är viktig för att definiera byggstenskategorier i SDT-noder. Förbättra din dokumentstruktur!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Anger kategori av byggblock för detta**SDT** node. Kan inte vara`null` .
+Anger kategori för byggsten för detta**SDT** nod. Kan inte vara`null` .
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
@@ -18,13 +18,13 @@ public string BuildingBlockCategory { get; set; }
 
 ## Anmärkningar
 
-Åtkomst till den här egenskapen fungerar bara förBuildingBlockGallery och DocPartObj SDT-typer. Den är skrivskyddad för**SDT** av typen dokumentdel.
+Åtkomst till den här egendomen fungerar endast förBuildingBlockGallery och DocPartObj SDT-typer. Den är skrivskyddad för**SDT** av dokumentdelstypen.
 
-För alla andra SDT-typer kommer undantag att förekomma.
+För alla andra SDT-typer kommer undantag att inträffa.
 
 ## Exempel
 
-Visar hur man infogar en strukturerad dokumenttagg som ett byggblock och ställer in dess kategori och galleri.
+Visar hur man infogar en strukturerad dokumenttagg som en byggsten och anger dess kategori och galleri.
 
 ```csharp
 Document doc = new Document();

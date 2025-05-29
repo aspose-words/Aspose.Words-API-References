@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToSection
 linktitle: MoveToSection
 articleTitle: MoveToSection
 second_title: Aspose.Words för .NET
-description: DocumentBuilder MoveToSection metod. Flyttar markören till början av brödtexten i ett angivet avsnitt i C#.
+description: Upptäck DocumentBuilder MoveToSection-metoden för att enkelt navigera till början av valfritt avsnitts brödtext, vilket förbättrar din dokumentredigeringseffektivitet.
 type: docs
-weight: 570
+weight: 610
 url: /sv/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
 
-Flyttar markören till början av brödtexten i ett angivet avsnitt.
+Flyttar markören till början av texten i ett angivet avsnitt.
 
 ```csharp
 public void MoveToSection(int sectionIndex)
@@ -18,23 +18,23 @@ public void MoveToSection(int sectionIndex)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| sectionIndex | Int32 | Indexet för avsnittet att flytta till. |
+| sectionIndex | Int32 | Indexet för det avsnitt som ska flyttas till. |
 
 ## Anmärkningar
 
-När*sectionIndex* är större än eller lika med 0, anger det ett index från början av dokumentet med 0 som den första delen. När*sectionIndex* är mindre än 0, det specificerade ett index från slutet av dokumentet med -1 som den sista sektionen.
+När*sectionIndex*är större än eller lika med 0, anger den ett index från början av dokumentet där 0 är det första avsnittet. När*sectionIndex* är mindre än 0, specificerade det ett index från slutet av dokumentet där -1 är det sista avsnittet.
 
-Markören flyttas till första stycket i[`Body`](../../body/) av det angivna avsnittet.
+Markören flyttas till det första stycket i[`Body`](../../body/) av det angivna avsnittet.
 
 ## Exempel
 
-Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
+Visar hur man skapar sidhuvuden och sidfot i ett dokument med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ange att vi vill ha olika sidhuvuden och sidfötter för första, jämna och udda sidor.
+// Ange att vi vill ha olika sidhuvuden och sidfot för första, jämna och udda sidor.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

@@ -3,14 +3,14 @@ title: MailMerge.MappedDataFields
 linktitle: MappedDataFields
 articleTitle: MappedDataFields
 second_title: Aspose.Words för .NET
-description: MailMerge MappedDataFields fast egendom. Returnerar en samling som representerar mappade datafält för kopplingsoperationen i C#.
+description: Upptäck egenskapen MailMerge MappedDataFields och få tillgång till en kraftfull samling mappade datafält för att enkelt förbättra dina dokumentkopplingsåtgärder.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.mailmerging/mailmerge/mappeddatafields/
 ---
 ## MailMerge.MappedDataFields property
 
-Returnerar en samling som representerar mappade datafält för kopplingsoperationen.
+Returnerar en samling som representerar mappade datafält för dokumentkopplingsoperationen.
 
 ```csharp
 public MappedDataFieldCollection MappedDataFields { get; }
@@ -18,11 +18,11 @@ public MappedDataFieldCollection MappedDataFields { get; }
 
 ## Anmärkningar
 
-Mappade datafält gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på kopplingsfält i dokumentet.
+Mappade datafält gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på fält för koppling av dokument i dokumentet.
 
 ## Exempel
 
-Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
+Visar hur man mappar datakolumner och MERGEFIELD-fält med olika namn så att data överförs mellan dem under en dokumentkoppling.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -30,29 +30,29 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // Tabellen har en kolumn som heter "Column2", men det finns inga MERGEFIELDs med det namnet.
-    // Dessutom har vi ett MERGEFIELD som heter "Column3", men datakällan har inte en kolumn med det namnet.
-    // Om data från "Column2" är lämplig för "Column3" MERGEFIELD,
+    // Tabellen har en kolumn med namnet "Kolumn2", men det finns inga MERGEFIELDS med det namnet.
+    // Vi har också ett MERGEFIELD-fält med namnet "Kolumn3", men datakällan har ingen kolumn med det namnet.
+    // Om data från "Kolumn2" passar för MERGEFIELD i "Kolumn3",
     // vi kan mappa det kolumnnamnet till MERGEFIELD i nyckel/värdeparet "MappedDataFields".
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Vi kan länka ett datakällas kolumnnamn till ett MERGEFIELD-namn som detta.
+    // Vi kan länka ett kolumnnamn för en datakälla till ett MERGEFIELD-namn så här.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // Länka datakällans kolumn med namnet "Column2" till MERGEFIELDs med namnet "Column3".
+    // Länka datakällkolumnen med namnet "Kolumn2" till MERGEFIELDS med namnet "Kolumn3".
     mappedDataFields.Add("Column3", "Column2");
 
-    // MERGEFIELD-namnet är "nyckeln" till respektive datakällas kolumnnamn "värde".
+    // MERGEFIELD-namnet är "nyckeln" till respektive datakällkolumnnamn "värde".
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Om vi nu kör den här kopplingen, kommer "Column3" MERGEFIELDs att ta data från "Column2" i tabellen.
+    // Om vi nu kör denna koppling av dokument, kommer "Kolumn3" MERGEFIELDS att hämta data från "Kolumn2" i tabellen.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
-    // Vi kan iterera över elementen i denna samling.
+    // Vi kan iterera över elementen i den här samlingen.
     Assert.AreEqual(2, mappedDataFields.Count);
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
@@ -72,7 +72,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Skapa ett dokument med 2 MERGEFIELDs, varav ett inte har en
+/// Skapa ett dokument med 2 MERGEFIELDS, varav en saknar en
 /// motsvarande kolumn i datatabellen från metoden nedan.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -88,7 +88,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Skapa en datatabell med 2 kolumner, varav en inte har en
+/// Skapa en datatabell med 2 kolumner, varav en saknar
 /// motsvarande MERGEFIELD i källdokumentet från metoden ovan.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

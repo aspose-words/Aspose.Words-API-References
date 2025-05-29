@@ -3,14 +3,14 @@ title: Glyph.Advance
 linktitle: Advance
 articleTitle: Advance
 second_title: Aspose.Words för .NET
-description: Glyph Advance fast egendom. Avancerad bredd som indikerar placering för den efterföljande glyfen i C#.
+description: Upptäck Glyph Advance-egenskaper, optimera textlayout med exakta breddindikatorer för sömlös placering av tecken och förbättrad läsbarhet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.shaping/glyph/advance/
 ---
 ## Glyph.Advance property
 
-Avancerad bredd som indikerar placering för den efterföljande glyfen.
+Öka bredden som anger placeringen för efterföljande tecken.
 
 ```csharp
 public short Advance { get; set; }

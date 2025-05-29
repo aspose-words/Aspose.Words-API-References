@@ -3,9 +3,9 @@ title: CellFormat Class
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Tables.CellFormat klass. Representerar all formatering för en tabellcell i C#.
+description: Upptäck klassen Aspose.Words.Tables.CellFormat för omfattande formatering av tabellceller. Förbättra din dokumentformatering med lättanvända funktioner!
 type: docs
-weight: 6260
+weight: 7110
 url: /sv/net/aspose.words.tables/cellformat/
 ---
 ## CellFormat class
@@ -22,27 +22,28 @@ public class CellFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Får samling av cellens kanter. |
-| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till under innehållet i cellen. |
-| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Om`Sann` , passar text i cellen, komprimerar varje stycke till cellens bredd. |
+| [Borders](../../aspose.words.tables/cellformat/borders/) { get; } | Hämtar en samling av cellens kantlinjer. |
+| [BottomPadding](../../aspose.words.tables/cellformat/bottompadding/) { get; set; } | Returnerar eller anger mängden mellanslag (i punkter) som ska läggas till under cellens innehåll. |
+| [FitText](../../aspose.words.tables/cellformat/fittext/) { get; set; } | Om`sann` , anpassar texten i cellen och komprimerar varje stycke till cellens bredd. |
+| [HideMark](../../aspose.words.tables/cellformat/hidemark/) { get; set; } | Returnerar eller anger synligheten för cellmarkeringen. |
 | [HorizontalMerge](../../aspose.words.tables/cellformat/horizontalmerge/) { get; set; } | Anger hur cellen sammanfogas horisontellt med andra celler i raden. |
-| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till till vänster om innehållet i cellen. |
-| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Returnerar eller ställer in orienteringen för text i en tabellcell. |
-| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Returnerar eller ställer in önskad bredd på cellen. |
-| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till till höger om innehållet i cellen. |
-| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Returnerar en[`Shading`](../../aspose.words/shading/) objekt som hänvisar till skuggformateringen för cellen. |
-| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till ovanför innehållet i cellen. |
-| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Returnerar eller ställer in den vertikala justeringen av text i cellen. |
+| [LeftPadding](../../aspose.words.tables/cellformat/leftpadding/) { get; set; } | Returnerar eller anger mängden utrymme (i punkter) som ska läggas till vänster om cellens innehåll. |
+| [Orientation](../../aspose.words.tables/cellformat/orientation/) { get; set; } | Returnerar eller anger orienteringen för text i en tabellcell. |
+| [PreferredWidth](../../aspose.words.tables/cellformat/preferredwidth/) { get; set; } | Returnerar eller anger önskad cellbredd. |
+| [RightPadding](../../aspose.words.tables/cellformat/rightpadding/) { get; set; } | Returnerar eller anger mängden utrymme (i punkter) som ska läggas till till höger om cellens innehåll. |
+| [Shading](../../aspose.words.tables/cellformat/shading/) { get; } | Returnerar en[`Shading`](../../aspose.words/shading/) objekt som refererar till skuggningsformateringen för cellen. |
+| [TopPadding](../../aspose.words.tables/cellformat/toppadding/) { get; set; } | Returnerar eller anger mängden utrymme (i punkter) som ska läggas till ovanför cellens innehåll. |
+| [VerticalAlignment](../../aspose.words.tables/cellformat/verticalalignment/) { get; set; } | Returnerar eller anger den vertikala justeringen av text i cellen. |
 | [VerticalMerge](../../aspose.words.tables/cellformat/verticalmerge/) { get; set; } | Anger hur cellen sammanfogas med andra celler vertikalt. |
-| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Får cellens bredd i punkter. |
-| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Om`Sann` , radbryt text för cellen. |
+| [Width](../../aspose.words.tables/cellformat/width/) { get; set; } | Hämtar cellens bredd i punkter. |
+| [WrapText](../../aspose.words.tables/cellformat/wraptext/) { get; set; } | Om`sann` , radbryt text för cellen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
 | [ClearFormatting](../../aspose.words.tables/cellformat/clearformatting/)() | Återställer till standardcellformatering. Ändrar inte cellens bredd. |
-| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Ställer in mängden utrymme (i poäng) som ska läggas till till vänster/överst/höger/botten av innehållet i cellen. |
+| [SetPaddings](../../aspose.words.tables/cellformat/setpaddings/)(*double, double, double, double*) | Anger mängden utrymme (i punkter) som ska läggas till vänster/överst/höger/nederst i cellens innehåll. |
 
 ## Exempel
 
@@ -53,7 +54,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// Använd en cells "CellFormat"-egenskap för att ställa in formatering som ändrar cellens utseende.
+// Använd en cells "CellFormat"-egenskap för att ange formatering som ändrar cellens utseende.
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -61,7 +62,7 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 ```
 
-Visar hur du ändrar formatet för rader och celler i en tabell.
+Visar hur man ändrar formatet för rader och celler i en tabell.
 
 ```csharp
 Document doc = new Document();
@@ -80,12 +81,12 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // Använd den första radens "RowFormat"-egenskap för att ändra formateringen
-// av innehållet i alla celler i den här raden.
+// av innehållet i alla celler på den här raden.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Använd egenskapen "CellFormat" för den första cellen i den sista raden för att ändra formateringen av cellens innehåll.
+// Använd egenskapen "CellFormat" för den första cellen på den sista raden för att ändra formateringen av cellens innehåll.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -93,7 +94,7 @@ cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 ```
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -125,9 +126,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -138,7 +139,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

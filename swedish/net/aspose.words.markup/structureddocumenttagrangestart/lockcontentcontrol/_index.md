@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart LockContentControl fast egendom. När inställd påSann  kommer den här egenskapen att förbjuda en användare från att ta bort den här strukturerade dokumenttaggen i C#.
+description: Upptäck hur egenskapen LockContentControl i StructuredDocumentTagRangeStart förbättrar dokumentsäkerheten genom att förhindra oönskade raderingar av viktiga taggar.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
 ---
 ## StructuredDocumentTagRangeStart.LockContentControl property
 
-När inställd på`Sann` , kommer den här egenskapen att förbjuda en användare från att ta bort den här strukturerade dokumenttaggen.
+När den är inställd på`sann` , den här egenskapen kommer att förhindra att en användare tar bort den här strukturerade dokumenttaggen.
 
 ```csharp
 public bool LockContentControl { get; set; }
@@ -18,7 +18,7 @@ public bool LockContentControl { get; set; }
 
 ## Exempel
 
-Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
+Visar hur man hämtar egenskaperna för taggar för strukturerade dokument med flera sektioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

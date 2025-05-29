@@ -3,14 +3,14 @@ title: ChartXValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: ChartXValueCollection Count fast egendom. Hämtar antalet föremål i den här samlingen i C#.
+description: Upptäck egenskapen ChartXValueCollection Count för att enkelt hämta det totala antalet objekt i din datasamling för effektiv analys.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartxvaluecollection/count/
 ---
 ## ChartXValueCollection.Count property
 
-Hämtar antalet föremål i den här samlingen.
+Hämtar antalet objekt i den här samlingen.
 
 ```csharp
 public int Count { get; }

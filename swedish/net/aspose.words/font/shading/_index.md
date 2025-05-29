@@ -3,14 +3,14 @@ title: Font.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words för .NET
-description: Font Shading fast egendom. Returnerar enShading objekt som hänvisar till skuggformateringen för teckensnittet i C#.
+description: Upptäck egenskapen Font Shading, som tillhandahåller ett skuggningsobjekt för anpassningsbar teckensnittsformatering, vilket förbättrar textens visuella attraktionskraft.
 type: docs
-weight: 320
+weight: 330
 url: /sv/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Returnerar en[`Shading`](../../shading/) objekt som hänvisar till skuggformateringen för teckensnittet.
+Returnerar en[`Shading`](../../shading/) objekt som refererar till skuggningsformateringen för teckensnittet.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## Exempel
 
-Visar hur man tillämpar skuggning på text som skapats av en dokumentbyggare.
+Visar hur man använder skuggning på text som skapats av en dokumentbyggare.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Color = Color.White;
 
-// Ett sätt att göra texten som skapats med vår vita teckenfärg synlig
-// är att tillämpa en bakgrundsskuggningseffekt.
+// Ett sätt att göra texten som skapats med vår vita typsnittsfärg synlig
+// är att applicera en bakgrundsskuggningseffekt.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;
 shading.BackgroundPatternColor = Color.OrangeRed;

@@ -3,7 +3,7 @@ title: IFieldUpdatingProgressCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words för .NET
-description: IFieldUpdatingProgressCallback Notify metod. En användardefinierad metod som anropas när uppdateringsförloppet ändras i C#.
+description: Förbättra din apps prestanda med metoden iFieldUpdatingProgressCallback Notify, utformad för att effektivt spåra och svara på förloppsuppdateringar.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
@@ -18,7 +18,7 @@ public void Notify(FieldUpdatingProgressArgs args)
 
 ## Exempel
 
-Visar hur man använder återuppringningsmetoder under en fältuppdatering.
+Visar hur man använder återanropsmetoder under en fältuppdatering.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementera detta gränssnitt om du vill ha dina egna anpassade metoder anropade under en fältuppdatering.
+/// Implementera detta gränssnitt om du vill att dina egna anpassade metoder anropas under en fältuppdatering.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {

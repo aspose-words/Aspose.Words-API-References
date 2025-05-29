@@ -3,14 +3,14 @@ title: PdfCustomPropertiesExport Enum
 linktitle: PdfCustomPropertiesExport
 articleTitle: PdfCustomPropertiesExport
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.PdfCustomPropertiesExport uppräkning. Anger sättetCustomDocumentProperties exporteras till PDFfil i C#.
+description: Upptäck hur Aspose.Words.PdfCustomPropertiesExport-enum förbättrar PDF-exporter genom att anpassa dokumentegenskaper för optimala resultat.
 type: docs
-weight: 5420
+weight: 6210
 url: /sv/net/aspose.words.saving/pdfcustompropertiesexport/
 ---
 ## PdfCustomPropertiesExport enumeration
 
-Anger sättet[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) exporteras till PDF-fil.
+Anger hur[`CustomDocumentProperties`](../../aspose.words/document/customdocumentproperties/) exporteras till PDF-fil.
 
 ```csharp
 public enum PdfCustomPropertiesExport
@@ -21,26 +21,26 @@ public enum PdfCustomPropertiesExport
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | None | `0` | Inga anpassade egenskaper exporteras. |
-| Standard | `1` | Anpassade egenskaper exporteras som poster i /Info ordbok. |
-| Metadata | `2` | Anpassade egenskaper är Metadata. |
+| Standard | `1` | Anpassade egenskaper exporteras som poster i /Info-ordboken. |
+| Metadata | `2` | Anpassade egenskaper är metadata. |
 
 ## Exempel
 
-Visar hur man exporterar anpassade egenskaper samtidigt som man konverterar ett dokument till PDF.
+Visar hur man exporterar anpassade egenskaper när man konverterar ett dokument till PDF.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("Company", "My value");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Ställ in egenskapen "CustomPropertiesExport" till "PdfCustomPropertiesExport.None" för att kassera
+// Sätt egenskapen "CustomPropertiesExport" till "PdfCustomPropertiesExport.None" för att ignorera
 // anpassade dokumentegenskaper när vi sparar dokumentet till .PDF.
 // Ställ in egenskapen "CustomPropertiesExport" till "PdfCustomPropertiesExport.Standard"
-// för att bevara anpassade egenskaper i det utgående PDF-dokumentet.
+// för att bevara anpassade egenskaper i PDF-dokumentet som utdata.
 // Ställ in egenskapen "CustomPropertiesExport" till "PdfCustomPropertiesExport.Metadata"
 // för att bevara anpassade egenskaper i ett XMP-paket.
 options.CustomPropertiesExport = pdfCustomPropertiesExportMode;

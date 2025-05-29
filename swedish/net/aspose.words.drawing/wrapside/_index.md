@@ -3,14 +3,14 @@ title: WrapSide Enum
 linktitle: WrapSide
 articleTitle: WrapSide
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.WrapSide uppräkning. Anger vilka sidor av formen eller bilden som texten lindas runt i C#.
+description: Upptäck enumereringen Aspose.Words.Drawing.WrapSide för att styra textbrytning runt former och bilder, vilket förbättrar dokumentlayout och läsbarhet.
 type: docs
-weight: 1390
+weight: 1800
 url: /sv/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
 
-Anger vilka sidor av formen eller bilden som texten lindas runt.
+Anger vilken/vilka sidor av formen eller bilden texten ska radbrytas runt.
 
 ```csharp
 public enum WrapSide
@@ -21,9 +21,9 @@ public enum WrapSide
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Both | `0` | Dokumenttexten radbryts på båda sidor av formen. |
-| Left | `1` | Dokumenttexten radbryts endast på vänster sida av formen. Det finns ett textfritt område till höger om formen. |
-| Right | `2` | Dokumenttexten radbryts endast på höger sida av formen. Det finns ett textfritt område på vänster sida av formen. |
-| Largest | `3` | Dokumenttexten radbryts på den sida av formen som är längst bort från sidmarginalen, vilket lämnar textfritt område på den andra sidan av formen. |
+| Left | `1` | Dokumentets text radbryts endast på vänster sida av formen. Det finns ett textfritt område till höger om formen. |
+| Right | `2` | Dokumentets text radbryts endast på höger sida av formen. Det finns ett textfritt område på vänster sida av formen. |
+| Largest | `3` | Dokumenttexten radbryts på den sida av formen som är längst bort från sidmarginalen, vilket lämnar ett textfritt område på den andra sidan av formen. |
 | Default | `0` | Standardvärdet ärBoth . |
 
 ## Exempel

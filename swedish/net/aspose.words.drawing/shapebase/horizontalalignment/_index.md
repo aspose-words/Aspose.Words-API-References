@@ -3,9 +3,9 @@ title: ShapeBase.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words för .NET
-description: ShapeBase HorizontalAlignment fast egendom. Anger hur formen placeras horisontellt i C#.
+description: Upptäck egenskapen ShapeBase HorizontalAlignment för att optimera den horisontella placeringen av former i din design för förbättrad layoutkontroll.
 type: docs
-weight: 220
+weight: 240
 url: /sv/net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
 ## ShapeBase.HorizontalAlignment property
@@ -20,7 +20,7 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 Standardvärdet ärNone.
 
-Har effekt endast för svävande former på toppnivå.
+Har endast effekt för flytande former på översta nivån.
 
 ## Exempel
 
@@ -30,7 +30,7 @@ Visar hur man infogar en flytande bild i mitten av en sida.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en flytande bild som kommer att visas bakom den överlappande texten och justera den mot sidans mitt.
+// Infoga en flytande bild som visas bakom den överlappande texten och justera den mot sidans mitt.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -3,14 +3,14 @@ title: Style.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words för .NET
-description: Style StyleIdentifier fast egendom. Hämtar den lokala stilidentifieraren för en inbyggd stil i C#.
+description: Upptäck den språkoberoende StyleIdentifier-egenskapen för inbyggda stilar. Förbättra dina projekt med konsekventa och mångsidiga stylinglösningar.
 type: docs
-weight: 150
+weight: 180
 url: /sv/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
 
-Hämtar den lokala stilidentifieraren för en inbyggd stil.
+Hämtar den språkoberoende stilidentifieraren för en inbyggd stil.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; }
@@ -18,24 +18,24 @@ public StyleIdentifier StyleIdentifier { get; }
 
 ## Anmärkningar
 
-För användardefinierade (anpassade) stilar returneras den här egenskapenUser.
+För användardefinierade (anpassade) stilar returnerar den här egenskapenUser.
 
 ## Exempel
 
-Visar hur man ändrar positionen för höger tabbstopp i innehållsförteckningsrelaterade stycken.
+Visar hur man ändrar positionen för höger tabbstopp i stycken relaterade till innehållsförteckningen.
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Iterera genom alla stycken med TOC resultatbaserade stilar; detta är vilken stil som helst mellan TOC och TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Iterera genom alla stycken med resultatbaserade stilar baserade på innehållsförteckningen; detta är vilken stil som helst mellan innehållsförteckning och innehållsförteckning9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Få den första fliken som används i det här stycket, detta bör vara den flik som används för att anpassa sidnumren.
+        // Hämta den första tabbtangenten som används i detta stycke, detta ska vara den tabbtangent som används för att justera sidnumren.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // Ersätt den första standardfliken, sluta med ett anpassat tabbstopp.
+        // Ersätt den första standardtabbstoppet med en anpassad tabbstopp.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

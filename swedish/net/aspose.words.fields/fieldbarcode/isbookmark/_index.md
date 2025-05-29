@@ -3,14 +3,14 @@ title: FieldBarcode.IsBookmark
 linktitle: IsBookmark
 articleTitle: IsBookmark
 second_title: Aspose.Words för .NET
-description: FieldBarcode IsBookmark fast egendom. Hämtar eller ställer in omPostalAddress är namnet på ett bokmärke i C#.
+description: Upptäck hur egenskapen FieldBarcode IsBookmark förbättrar din PostalAddress-funktionalitet och möjliggör sömlös bokmärkeshantering för förbättrad dataorganisation.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldbarcode/isbookmark/
 ---
 ## FieldBarcode.IsBookmark property
 
-Hämtar eller ställer in om[`PostalAddress`](../postaladdress/) är namnet på ett bokmärke.
+Hämtar eller anger om[`PostalAddress`](../postaladdress/) är namnet på ett bokmärke.
 
 ```csharp
 public bool IsBookmark { get; set; }
@@ -18,7 +18,7 @@ public bool IsBookmark { get; set; }
 
 ## Exempel
 
-Visar hur man använder streckkodsfältet för att visa amerikanska postnummer i form av en streckkod.
+Visar hur man använder fältet STRECKKOD för att visa amerikanska postnummer i form av en streckkod.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Nedan finns två sätt att använda STreckkodsfält för att visa anpassade värden som streckkoder.
-// 1 - Lagra värdet som streckkoden kommer att visa i egenskapen PostalAddress:
+// Nedan följer två sätt att använda STRECKKOD-fält för att visa anpassade värden som streckkoder.
+// 1 - Lagra värdet som streckkoden ska visa i egenskapen PostalAddress:
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
 // Detta värde måste vara ett giltigt postnummer.
@@ -39,15 +39,15 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - Referera till ett bokmärke som lagrar värdet som denna streckkod kommer att visa:
+// 2 - Referera till ett bokmärke som lagrar värdet som streckkoden kommer att visa:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
-// Bokmärket som BARCODE-fältet refererar till i sin PostalAddress-egenskap
-// behöver inte innehålla något förutom det giltiga postnumret.
+// Bokmärket som STRECKKOD-fältet refererar till i sin PostalAddress-egenskap
+// behöver inte innehålla något annat än det giltiga postnumret.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

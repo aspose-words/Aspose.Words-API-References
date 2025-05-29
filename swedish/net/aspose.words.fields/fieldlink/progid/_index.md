@@ -3,14 +3,14 @@ title: FieldLink.ProgId
 linktitle: ProgId
 articleTitle: ProgId
 second_title: Aspose.Words för .NET
-description: FieldLink ProgId fast egendom. Hämtar eller ställer in applikationstypen för länkinformationen i C#.
+description: Upptäck egenskapen FieldLink ProgId för att enkelt hantera applikationstyper för länkinformation. Optimera ditt arbetsflöde med detta viktiga verktyg!
 type: docs
 weight: 110
 url: /sv/net/aspose.words.fields/fieldlink/progid/
 ---
 ## FieldLink.ProgId property
 
-Hämtar eller ställer in applikationstypen för länkinformationen.
+Hämtar eller anger applikationstypen för länkinformationen.
 
 ```csharp
 public string ProgId { get; set; }
@@ -26,8 +26,8 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Nedan finns tre typer av fält som vi kan använda för att visa innehåll från ett länkat dokument i form av text.
-    // 1 - A LINK-fält:
+    // Nedan följer tre typer av fält som vi kan använda för att visa innehåll från ett länkat dokument i form av text.
+    // 1 - Ett LINK-fält:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
 
@@ -36,7 +36,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - A DDEAUTO-fält:
+    // 3 - Ett DDEAUTO-fält:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -50,8 +50,8 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Nedan finns tre typer av fält som vi kan använda för att visa innehåll från ett länkat dokument i form av en bild.
-    // 1 - A LINK-fält:
+    // Nedan följer tre typer av fält som vi kan använda för att visa innehåll från ett länkat dokument i form av en bild.
+    // 1 - Ett LINK-fält:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
         "Sheet1!R2C2", true);
@@ -61,7 +61,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - A DDEAUTO-fält:
+    // 3 - Ett DDEAUTO-fält:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -71,7 +71,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// Använd en dokumentbyggare för att infoga ett LÄNK-fält och ställ in dess egenskaper enligt parametrar.
+/// Använd en dokumentbyggare för att infoga ett LINK-fält och ange dess egenskaper enligt parametrar.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -109,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Använd en dokumentbyggare för att infoga ett DDE-fält och ställ in dess egenskaper enligt parametrar.
+/// Använd en dokumentbyggare för att infoga ett DDE-fält och ange dess egenskaper enligt parametrar.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -148,7 +148,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Använd en dokumentbyggare för att infoga ett DDEAUTO-fält och ställ in dess egenskaper enligt parametrar.
+/// Använd en dokumentbyggare för att infoga ett DDEAUTO-fält och ange dess egenskaper enligt parametrar.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)
@@ -185,12 +185,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // LinkedObjectAsText
+    // LänkatObjektSomText
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // LänkatObjektSomBild
     Picture,
     Bitmap
 }

@@ -3,14 +3,14 @@ title: WriteProtection.IsWriteProtected
 linktitle: IsWriteProtected
 articleTitle: IsWriteProtected
 second_title: Aspose.Words för .NET
-description: WriteProtection IsWriteProtected fast egendom. ReturnerarSann när ett skrivskyddslösenord är inställt i C#.
+description: Upptäck egenskapen WriteProtection IsWriteProtected och kontrollera enkelt om ett lösenord för skrivskydd är aktivt för förbättrad säkerhet och dataintegritet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.settings/writeprotection/iswriteprotected/
 ---
 ## WriteProtection.IsWriteProtected property
 
-Returnerar`Sann` när ett skrivskyddslösenord är inställt.
+Returer`sann` när ett lösenord för skrivskydd är inställt.
 
 ```csharp
 public bool IsWriteProtected { get; }
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Skyddet hindrar inte dokumentet från att redigeras programmatiskt, och det krypterar inte heller innehållet.
+// Skyddet hindrar inte dokumentet från att redigeras programmatiskt, och krypterar inte heller innehållet.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

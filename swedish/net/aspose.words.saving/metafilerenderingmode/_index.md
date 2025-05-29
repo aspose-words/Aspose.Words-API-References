@@ -3,14 +3,14 @@ title: MetafileRenderingMode Enum
 linktitle: MetafileRenderingMode
 articleTitle: MetafileRenderingMode
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.MetafileRenderingMode uppräkning. Anger hur Aspose.Words ska återge WMF och EMFmetafiler i C#.
+description: Upptäck hur Aspose.Words.Saving.MetafileRenderingMode förbättrar WMF- och EMF-metafilrendering för optimal dokumentkvalitet och prestanda.
 type: docs
-weight: 5290
+weight: 6070
 url: /sv/net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
 
-Anger hur Aspose.Words ska återge WMF- och EMF-metafiler.
+Anger hur Aspose.Words ska rendera WMF- och EMF-metafiler.
 
 ```csharp
 public enum MetafileRenderingMode
@@ -20,13 +20,13 @@ public enum MetafileRenderingMode
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| VectorWithFallback | `0` | Aspose.Words försöker rendera en metafil som vektorgrafik. Om Aspose.Words inte kan rendera några av metafilposterna korrekt till vektorgrafik så renderar Aspose.Words denna metafil till en bitmapp. |
-| Vector | `1` | Aspose.Words återger en metafil som vektorgrafik. |
-| Bitmap | `2` | Aspose.Words anropar GDI+ för att rendera en metafil till en bitmapp och sparar sedan bitmappen till utdatadokumentet. |
+| VectorWithFallback | `0` | Aspose.Words försöker rendera en metafil som vektorgrafik. Om Aspose.Words inte kan rendera några av metafilposterna korrekt till vektorgrafik, renderar Aspose.Words denna metafil till en bitmapp. |
+| Vector | `1` | Aspose.Words renderar en metafil som vektorgrafik. |
+| Bitmap | `2` | Aspose.Words anropar GDI+ för att rendera en metafil till en bitmapp och sparar sedan bitmappen i utdatadokumentet. |
 
 ## Exempel
 
-Visar lade till en reserv till bitmappsrendering och ändrade typ av varningar om metafilposter som inte stöds.
+Program har lagt till en reservfunktion för bitmappsrendering och ändrat typen av varningar om metafilposter som inte stöds.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -35,16 +35,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Ställ in egenskapen "EmulateRasterOperations" till "false" för att falla tillbaka till bitmapp när
-    // den stöter på en metafil, som kräver rasteroperationer för att rendera i utdata-PDF.
+    // Sätt egenskapen "EmulateRasterOperations" till "false" för att återgå till bitmapp när
+    // den stöter på en metafil, vilket kräver rasteroperationer för att renderas i utdata-PDF:en.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Ställ in egenskapen "RenderingMode" till "VectorWithFallback" för att försöka rendera varje metafil med vektorgrafik.
+    // Sätt egenskapen "RenderingMode" till "VectorWithFallback" för att försöka rendera varje metafil med vektorgrafik.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur den metoden konverterar dokumentet till .PDF och tillämpar konfigurationen
-    // i vårt MetafileRenderingOptions-objekt mot sparoperationen.
+    // i vårt MetafileRenderingOptions-objekt till sparoperationen.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -59,7 +59,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Skriver ut och samlar in formateringsförlustrelaterade varningar som uppstår när ett dokument sparas.
+/// Skriver ut och samlar in varningar om formateringsförlust som uppstår när ett dokument sparas.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

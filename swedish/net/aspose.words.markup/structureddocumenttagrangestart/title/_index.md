@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart Title fast egendom. Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg. Kan intenull  i C#.
+description: Upptäck egenskapen StructuredDocumentTagRangeStart Title för att definiera användarvänliga namn för strukturerade dokumenttaggar, vilket förbättrar dokumentets tydlighet och tillgänglighet.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/title/
 ---
 ## StructuredDocumentTagRangeStart.Title property
 
-Anger det vänliga namnet som är kopplat till denna strukturerade dokumenttagg. Kan inte`null` .
+Anger det användarvänliga namnet som är associerat med den här taggen för strukturerat dokument. Kan inte vara`null` .
 
 ```csharp
 public string Title { get; set; }
@@ -18,7 +18,7 @@ public string Title { get; set; }
 
 ## Exempel
 
-Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
+Visar hur man hämtar egenskaperna för taggar för strukturerade dokument med flera sektioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.DateDisplayFormat
 linktitle: DateDisplayFormat
 articleTitle: DateDisplayFormat
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTag DateDisplayFormat fast egendom. Sträng som representerar formatet som datum visas i. Kan inte varanull . Datumen för engelska USA är mm/dd/åååå i C#.
+description: Upptäck egenskapen DateDisplayFormat i StructuredDocumentTag för att enkelt anpassa datumvisningsformat. Förbättra ditt dokuments tydlighet och attraktionskraft!
 type: docs
 weight: 90
 url: /sv/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 ---
 ## StructuredDocumentTag.DateDisplayFormat property
 
-Sträng som representerar formatet som datum visas i. Kan inte vara`null` . Datumen för engelska (USA) är "mm/dd/åååå"
+Sträng som representerar formatet i vilket datum visas.
 
 ```csharp
 public string DateDisplayFormat { get; set; }
@@ -18,9 +18,13 @@ public string DateDisplayFormat { get; set; }
 
 ## Anmärkningar
 
-Åtkomst till den här egenskapen fungerar bara förDate SDT-typ.
+Kan inte vara`null`.
 
-För alla andra SDT-typer kommer undantag att förekomma.
+Datumet för engelska (USA) är "mm/dd/åååå"
+
+Åtkomst till den här egendomen fungerar endast förDate SDT-typ.
+
+För alla andra SDT-typer kommer undantag att inträffa.
 
 ## Exempel
 
@@ -30,23 +34,23 @@ Visar hur man uppmanar användaren att ange ett datum med en strukturerad dokume
 Document doc = new Document();
 
 // Infoga en strukturerad dokumenttagg som uppmanar användaren att ange ett datum.
-// I Microsoft Word är detta element känt som en "Date picker content control".
-// När vi klickar på pilen till höger på den här taggen i Microsoft Word,
-// vi kommer att se en popup i form av en klickbar kalender.
-// Vi kan använda den popupen för att välja ett datum som taggen ska visa.
+// I Microsoft Word kallas detta element för en "Datumväljarens innehållskontroll".
+// När vi klickar på pilen till höger om den här taggen i Microsoft Word,
+// vi kommer att se ett popup-fönster i form av en klickbar kalender.
+// Vi kan använda den popup-filen för att välja ett datum som taggen ska visa.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// Visa datumet enligt språket i Saudiarabien.
+// Visa datumet enligt den saudiarabiska språkinställningen.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
-// Ställ in formatet för att visa datumet.
+// Ange formatet som datumet ska visas med.
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 
-// Visa datum enligt Hijri-kalendern.
+// Visar datumet enligt Hijri-kalendern.
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
-// Innan användaren väljer ett datum i Microsoft Word kommer taggen att visa texten "Klicka här för att ange ett datum.".
+// Innan användaren väljer ett datum i Microsoft Word visar taggen texten "Klicka här för att ange ett datum.".
 // Enligt taggens kalender, ställ in egenskapen "FullDate" för att få taggen att visa ett standarddatum.
 sdtDate.FullDate = new DateTime(1440, 10, 20);
 

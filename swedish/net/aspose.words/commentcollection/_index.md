@@ -3,9 +3,9 @@ title: CommentCollection Class
 linktitle: CommentCollection
 articleTitle: CommentCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.CommentCollection klass. Ger maskinskriven åtkomst till en samling avComment noder i C#.
+description: Upptäck klassen Aspose.Words.CommentCollection för enkel åtkomst till kommentarnoder, vilket förbättrar dokumentredigering och samarbete i dina projekt.
 type: docs
-weight: 240
+weight: 430
 url: /sv/net/aspose.words/commentcollection/
 ---
 ## CommentCollection class
@@ -31,13 +31,13 @@ public class CommentCollection : NodeCollection
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Lägger till en nod i slutet av samlingen. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tar bort alla noder från den här samlingen och från dokumentet. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestämmer om en nod finns i samlingen. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Avgör om en nod finns i samlingen. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel iteration i "foreach"-stil över samlingen av noder. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Returnerar det nollbaserade indexet för den angivna noden. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Infogar en nod i samlingen vid det angivna indexet. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Tar bort noden från samlingen och från dokumentet. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
-| [ToArray](../../aspose.words/nodecollection/toarray/)() | Kopierar alla noder från samlingen till en ny array av noder. |
+| [ToArray](../../aspose.words/nodecollection/toarray/)() | Kopierar alla noder från samlingen till en ny array med noder. |
 
 ## Exempel
 
@@ -53,16 +53,16 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
- // Kommentarer har en "Klar"-flagga, som är inställd på "false" som standard.
-// Om en kommentar antyder att vi gör en ändring i dokumentet,
-// vi kan tillämpa ändringen, och sedan även sätta flaggan "Klar" efteråt för att indikera korrigeringen.
+ // Kommentarer har en "Klar"-flagga, som är inställd på "falskt" som standard.
+// Om en kommentar föreslår att vi gör en ändring i dokumentet,
+// vi kan tillämpa ändringen och sedan även sätta flaggan "Klar" efteråt för att indikera korrigeringen.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
-// Kommentarer som är "klara" kommer att skilja sig åt
-// från sådana som inte är "klara" med en blek textfärg.
+// Kommentarer som är "klara" kommer att särskilja sig
+// från de som inte är "klara" med en blek textfärg.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);

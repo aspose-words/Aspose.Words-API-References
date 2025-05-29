@@ -3,7 +3,7 @@ title: FieldFormText
 linktitle: FieldFormText
 articleTitle: FieldFormText
 second_title: Aspose.Words för .NET
-description: FieldFormText byggare. Default_Constructor i C#.
+description: Upptäck FieldFormText-konstruktorn – din lösning för sömlös texthantering i formulär. Förenkla din utvecklingsprocess idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldformtext/fieldformtext/

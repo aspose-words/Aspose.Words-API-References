@@ -3,16 +3,16 @@ title: FieldFormat Class
 linktitle: FieldFormat
 articleTitle: FieldFormat
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldFormat klass. Ger maskinskriven åtkomst till fältets siffror datum och tid samt allmän formatering i C#.
+description: Upptäck klassen Aspose.Words.Fields.FieldFormat för enkel åtkomst till numeriska fält, datum- och tidsfält. Förbättra dokumentformateringen med kraftfulla funktioner!
 type: docs
-weight: 1940
+weight: 2350
 url: /sv/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
-Ger maskinskriven åtkomst till fältets siffror, datum och tid samt allmän formatering.
+Ger åtkomst till fältens numeriska formatering, datum och tid samt allmän formatering med maskinskriven funktion.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldFormat
@@ -22,9 +22,9 @@ public class FieldFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Hämtar eller ställer in en formatering som tillämpas på ett datum- och tidsfältresultat. Motsvarar omkopplaren \@. |
-| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Hämtar en samling allmänna format som tillämpas på ett numeriskt, text- eller valfritt fältresultat. Motsvarar \*-omkopplarna. |
-| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältresultat. Motsvarar \# switch. |
+| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Hämtar eller ställer in en formatering som tillämpas på ett datum- och tidsfältresultat. Motsvarar växeln \@. |
+| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Hämtar en samling allmänna format som tillämpas på ett numeriskt, text- eller valfritt fältresultat. Motsvarar \*-växlarna. |
+| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältresultat. Motsvarar växeln \#. |
 
 ## Exempel
 
@@ -34,14 +34,14 @@ Visar hur man formaterar fältresultat.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan format.
+// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan formatering.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // Vi kan tillämpa ett format på ett fälts resultat med hjälp av fältets egenskaper.
-// Nedan finns tre typer av format som vi kan tillämpa på ett fälts resultat.
+// Nedan följer tre typer av format som vi kan tillämpa på ett fälts resultat.
 // 1 - Numeriskt format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -50,7 +50,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datum/tid format:
+// 2 - Datum-/tidsformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";

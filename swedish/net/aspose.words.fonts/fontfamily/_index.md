@@ -3,14 +3,14 @@ title: FontFamily Enum
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontFamily uppräkning. Representerar teckensnittsfamiljen i C#.
+description: Upptäck Aspose.Words.Fonts.FontFamily-uppräkningen – din nyckel till att enkelt hantera olika typsnittsfamiljer för förbättrad dokumentstyling och formatering.
 type: docs
-weight: 2910
+weight: 3340
 url: /sv/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
 
-Representerar teckensnittsfamiljen.
+Representerar typsnittsfamiljen.
 
 ```csharp
 public enum FontFamily
@@ -24,16 +24,16 @@ public enum FontFamily
 | Roman | `1` | Anger ett proportionellt teckensnitt med seriffer. Ett exempel är Times New Roman. |
 | Swiss | `2` | Anger ett proportionellt teckensnitt utan seriffer. Ett exempel är Arial. |
 | Modern | `3` | Anger ett monospace-teckensnitt med eller utan seriffer. Monospace-teckensnitt är vanligtvis moderna; exempel inkluderar Pica, Elite och Courier New. |
-| Script | `4` | Anger ett teckensnitt som är designat för att se ut som handstil; exempel inkluderar Script och Cursive. |
-| Decorative | `5` | Anger ett nyhetsteckensnitt. Ett exempel är Old English. |
+| Script | `4` | Anger ett teckensnitt som är utformat för att se ut som handstil; exempel inkluderar Script och Cursive. |
+| Decorative | `5` | Anger ett nyhetstypsnitt. Ett exempel är fornengelsk. |
 
 ## Anmärkningar
 
-En teckensnittsfamilj är en uppsättning teckensnitt med gemensamma streckbredd och serif-egenskaper.
+En typsnittsfamilj är en uppsättning typsnitt med gemensamma egenskaper för linjebredd och serif.
 
 ## Exempel
 
-Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
+Visar hur man kommer åt och skriver ut information om varje teckensnitt i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

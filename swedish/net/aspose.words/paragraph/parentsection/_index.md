@@ -3,14 +3,14 @@ title: Paragraph.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
 second_title: Aspose.Words för .NET
-description: Paragraph ParentSection fast egendom. Hämtar föräldernSection i stycket i C#.
+description: Upptäck egenskapen Paragraph ParentSection för att enkelt komma åt det överordnade avsnittet i ett stycke, vilket förbättrar din dokumentstruktur och organisation.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/paragraph/parentsection/
 ---
 ## Paragraph.ParentSection property
 
-Hämtar föräldern[`Section`](../../section/) i stycket.
+Hämtar föräldern[`Section`](../../section/) av stycket.
 
 ```csharp
 public Section ParentSection { get; }
@@ -23,8 +23,8 @@ Visar hur man skapar ett sidhuvud och en sidfot.
 ```csharp
 Document doc = new Document();
 
-// Skapa en rubrik och lägg till ett stycke till den. Texten i det stycket
-// kommer att visas överst på varje sida i det här avsnittet, ovanför huvudtexten.
+// Skapa en rubrik och lägg till ett stycke i den. Texten i det stycket
+// kommer att visas högst upp på varje sida i det här avsnittet, ovanför huvudtexten.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Skapa en sidfot och lägg till ett stycke till den. Texten i det stycket
-// kommer att visas längst ned på varje sida i det här avsnittet, under huvudtexten.
+// Skapa en sidfot och lägg till ett stycke i den. Texten i det stycket
+// kommer att visas längst ner på varje sida i det här avsnittet, under huvudtexten.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

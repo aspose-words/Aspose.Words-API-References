@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: OdsoFieldMapDataCollection Add metod. Lägger till ett objekt i slutet av den här samlingen i C#.
+description: Förbättra enkelt din datahantering med OdsoFieldMapDataCollection Add-metoden, utformad för att sömlöst lägga till objekt i din samling.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,17 +18,17 @@ public int Add(OdsoFieldMapData value)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| value | OdsoFieldMapData | Objektet att lägga till. Kan inte vara`null`. |
+| value | OdsoFieldMapData | Objektet som ska läggas till. Kan inte vara`null`. |
 
 ## Exempel
 
-Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
+Visar hur man kommer åt datasamlingen som mappar datakällkolumner till kopplingsfält.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Den här samlingen definierar hur en sammanslagning kommer att mappa kolumner från en datakälla
-// till fördefinierade fält MERGEFIELD, ADDRESSBLOCK och GREETINGLINE.
+// Denna samling definierar hur en dokumentkoppling mappar kolumner från en datakälla
+// till fördefinierade fält MERGEFIELD, ADDRESSBLOCK och GREETEINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -49,12 +49,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Klona elementen i den här samlingen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Använd "RemoveAt"-metodens element individuellt efter index.
+// Använd metodelementen "RemoveAt" individuellt efter index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Använd "Rensa"-metoden för att rensa hela samlingen på en gång.
+// Använd metoden "Rensa" för att rensa hela samlingen på en gång.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

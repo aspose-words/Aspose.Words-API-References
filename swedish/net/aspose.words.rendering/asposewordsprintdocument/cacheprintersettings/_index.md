@@ -3,7 +3,7 @@ title: AsposeWordsPrintDocument.CachePrinterSettings
 linktitle: CachePrinterSettings
 articleTitle: CachePrinterSettings
 second_title: Aspose.Words för .NET
-description: AsposeWordsPrintDocument CachePrinterSettings metod. Läser och cachar vissa fält avPrinterSettings för att minska utskriftstiden i C#.
+description: Förbättra utskriftseffektiviteten med Aspose.Words CachePrinterSettings-metod, som optimerar PrinterSettings för att minimera utskriftsfördröjningar och förbättra prestanda.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/
@@ -18,18 +18,18 @@ public void CachePrinterSettings()
 
 ## Anmärkningar
 
-Denna metod anropas innan utskriften startar om den inte utfördes tidigare.
+Den här metoden anropas innan utskriften startar om den inte har körts tidigare.
 
 ## Exempel
 
-Visar hur du väljer ett sidintervall och en skrivare att skriva ut dokumentet med och sedan tar fram en förhandsgranskning.
+Visar hur man väljer ett sidintervall och en skrivare att skriva ut dokumentet med, och sedan visar en förhandsgranskning.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// Anropa "Visa"-metoden för att få förhandsgranskningsformuläret att visas överst.
+// Anropa metoden "Visa" för att få förhandsgranskningsformuläret att visas överst.
 previewDlg.Show();
 
 // Initiera utskriftsdialogrutan med antalet sidor i dokumentet.
@@ -43,7 +43,7 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// Skapa "Aspose.Words"-implementeringen av .NET-skrivdokumentet,
+// Skapa implementeringen "Aspose.Words" av .NET-utskriftsdokumentet,
 // och skicka sedan skrivarinställningarna från dialogrutan.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
@@ -51,18 +51,18 @@ awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 // Ange det nya färgutskriftsläget.
 awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
 
-// Använd metoden "CachePrinterSettings" för att minska tiden för det första anropet av metoden "Skriv ut".
+// Använd metoden "CachePrinterSettings" för att minska tiden för det första anropet av metoden "Print".
 awPrintDoc.CachePrinterSettings();
 
-// Anropa "Hide" och sedan "InvalidatePreview"-metoderna för att få förhandsgranskningen att visas överst.
+// Anropa metoderna "Dölj" och sedan "InvalidatePreview" för att få förhandsgranskningen att visas överst.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Skicka "Aspose.Words" utskriftsdokumentet till .NET Print Preview-dialogrutan.
+// Skicka utskriftsdokumentet "Aspose.Words" till dialogrutan för förhandsgranskning i .NET.
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

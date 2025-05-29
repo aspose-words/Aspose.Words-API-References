@@ -3,7 +3,7 @@ title: List.ListLevels
 linktitle: ListLevels
 articleTitle: ListLevels
 second_title: Aspose.Words för .NET
-description: List ListLevels fast egendom. Hämtar samlingen av listnivåer för den här listan i C#.
+description: Upptäck ListLevels-egenskapen för att enkelt komma åt och hantera dina listnivåer, vilket förbättrar organisationen och tydligheten i dina dokument.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.lists/list/listlevels/
@@ -18,20 +18,20 @@ public ListLevelCollection ListLevels { get; }
 
 ## Anmärkningar
 
-Använd den här egenskapen för att komma åt och ändra individuell formatering för varje nivå i listan.
+Använd den här egenskapen för att komma åt och ändra formatering individuellt för varje nivå i listan.
 
 ## Exempel
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

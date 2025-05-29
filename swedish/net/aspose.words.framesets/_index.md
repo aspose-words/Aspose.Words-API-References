@@ -3,16 +3,16 @@ title: Aspose.Words.Framesets
 linktitle: Aspose.Words.Framesets
 articleTitle: Aspose.Words.Framesets
 second_title: Aspose.Words för .NET
-description: DeAspose.Words.Framesets namnutrymme tillhandahåller klasser och uppräkningar som representerar en ramsida eller en enskild ram på en ramsida i C#.
+description: Utforska namnrymden Aspose.Words.Framesets för kraftfulla klasser och enums som förenklar hanteringen av ramar och ramsidor i dina dokument.
 type: docs
-weight: 100
+weight: 120
 url: /sv/net/aspose.words.framesets/
 ---
-De**Aspose.Words.Framesets** namnutrymme tillhandahåller klasser och uppräkningar som representerar en ramsida eller en enskild ram på en ramsida.
+De**Aspose.Words.Framesets**namnrymden tillhandahåller klasser och uppräkningar som representerar en frames-sida eller en enskild ram på en frames-sida.
 
 ## Klasser
 
 | Klass | Beskrivning |
 | --- | --- |
-| [Frameset](./frameset/) | Representerar en ramsida eller en enda ram på en ramsida. |
-| [FramesetCollection](./framesetcollection/) | Representerar en samling instanser av[`Frameset`](../aspose.words.framesets/frameset/) class. |
+| [Frameset](./frameset/) | Representerar en bildrutesida eller en enskild bildruta på en bildrutesida. |
+| [FramesetCollection](./framesetcollection/) | Representerar en samling instanser av[`Frameset`](../aspose.words.framesets/frameset/) klass. |

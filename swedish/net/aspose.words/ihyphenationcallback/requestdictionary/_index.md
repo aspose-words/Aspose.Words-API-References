@@ -3,18 +3,18 @@ title: IHyphenationCallback.RequestDictionary
 linktitle: RequestDictionary
 articleTitle: RequestDictionary
 second_title: Aspose.Words för .NET
-description: IHyphenationCallback RequestDictionary metod. Meddelar programmet att avstavningsordbok för det angivna språket inte hittades och kan behöva registreras i C#.
+description: Upptäck IHyphenationCallback RequestDictionary-metoden och hantera effektivt saknade bindestrecksordböcker för sömlöst språkstöd i din applikation.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/ihyphenationcallback/requestdictionary/
 ---
 ## IHyphenationCallback.RequestDictionary method
 
-Meddelar programmet att avstavningsordbok för det angivna språket inte hittades och kan behöva registreras.
+Meddelar programmet att bindestreckslexikonet för det angivna språket inte hittades och kan behöva registreras.
 
-Implementation bör hitta en ordbok och registrera den med hjälp av[`RegisterDictionary`](../../hyphenation/registerdictionary/) metoder.
+Implementeringen bör hitta en ordbok och registrera den med hjälp av[`RegisterDictionary`](../../hyphenation/registerdictionary/) metoder.
 
-Om ordboken inte är tillgänglig för den angivna språkimplementeringen kan du välja bort ytterligare anrop för samma språk med[`RegisterDictionary`](../../hyphenation/registerdictionary/) med`null` värde.
+Om ordboken inte är tillgänglig för det angivna språket kan implementeringen välja bort ytterligare anrop för samma språk med hjälp av[`RegisterDictionary`](../../hyphenation/registerdictionary/) med`null` värde.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -22,11 +22,11 @@ public void RequestDictionary(string language)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| language | String | Ett språknamn, t.ex. "en-US". Se .NET-dokumentationen för "kulturnamn" och RFC 4646 för detaljer. |
+| language | String | Ett språknamn, t.ex. "en-US". Se .NET-dokumentationen för "kulturnamn" och RFC 4646 för mer information. |
 
 ## Anmärkningar
 
-Undantag som skapas av denna metod kommer att avbryta exekvering av sidlayoutprocessen.
+Undantag som utlöses av den här metoden avbryter körningen av sidlayoutprocessen.
 
 ## Exempel
 
@@ -35,36 +35,37 @@ Visar hur man öppnar och registrerar en ordbok från en fil.
 ```csharp
 public void RegisterDictionary()
 {
-    // Ställ in en återuppringning som spårar varningar som inträffar under registrering av avstavningslexikon.
+    // Konfigurera ett återanrop som spårar varningar som uppstår under registrering av bindestreckslexikon.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registrera en engelsk (amerikansk) avstavningsordbok efter ström.
+    // Registrera en engelsk (amerikansk) bindestreckslexikon efter ström.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Öppna ett dokument med en språkinställning som Microsoft Word inte får avstava på en engelsk maskin, till exempel tyska.
+    // Öppna ett dokument med en språkinställning som Microsoft Word inte får använda avstavning på en engelskspråkig dator, till exempel tyska.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // För att avstava det dokumentet vid lagring behöver vi en avstavningsordbok för språkkoden "de-CH".
-    // Denna återuppringning kommer att hantera den automatiska begäran för den ordboken.
+    // För att använda bindestreck för dokumentet när det sparas behöver vi en bindestreckslexikon för språkkoden "de-CH".
+    // Denna återanropning hanterar den automatiska begäran för den ordboken.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // När vi sparar dokumentet kommer tysk avstavning att träda i kraft.
+    // När vi sparar dokumentet kommer tysk bindestreck att gälla.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // Denna ordbok innehåller två identiska mönster, som kommer att utlösa en varning.
+    // Denna ordbok innehåller två identiska mönster, vilket kommer att utlösa en varning.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
-/// Associerar ISO-språkkoder med lokala systemfilnamn för avstavningsordboksfiler.
+/// Associerar ISO-språkkoder med lokala systemfilnamn för bindestreckslexikonfiler.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

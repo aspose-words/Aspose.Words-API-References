@@ -3,7 +3,7 @@ title: AxisScaling.LogBase
 linktitle: LogBase
 articleTitle: LogBase
 second_title: Aspose.Words för .NET
-description: AxisScaling LogBase fast egendom. Hämtar eller ställer in den logaritmiska basen för en logaritmisk axel i C#.
+description: Justera den logaritmiska basen för AxisScaling LogBase-egenskapen för exakt datavisualisering och förbättrad grafnoggrannhet. Optimera dina diagram idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/axisscaling/logbase/
@@ -18,11 +18,11 @@ public double LogBase { get; set; }
 
 ## Anmärkningar
 
-Egenskapen stöds inte av MS Office 2016 nya diagram.
+Egenskapen stöds inte av de nya diagrammen i MS Office 2016.
 
-Giltigt intervall för ett flyttalsvärde är större än eller lika med 2 och mindre än eller lika med 1000. Egenskapen har effekt endast om[`Type`](../type/) är inställd på Logarithmic.
+Giltigt intervall för ett flyttal är större än eller lika med 2 och mindre än eller lika med 1000. Egenskapen har endast effekt om[`Type`](../type/) är inställd på Logarithmic.
 
-Om du ställer in den här egenskapen ställer du in[`Type`](../type/) egendom tillLogarithmic .
+Att om du anger den här egenskapen anger[`Type`](../type/) egendom tillLogarithmic .
 
 ## Exempel
 
@@ -39,16 +39,16 @@ Chart chart = chartShape.Chart;
 chart.Series.Clear();
 
 // Infoga en serie med X/Y-koordinater för fem punkter.
-chart.Series.Add("Series 1", 
-    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 }, 
+chart.Series.Add("Series 1",
+    new[] { 1.0, 2.0, 3.0, 4.0, 5.0 },
     new[] { 1.0, 20.0, 400.0, 8000.0, 160000.0 });
 
 // Skalningen av X-axeln är linjär som standard,
-// visar jämnt ökande värden som täcker vårt X-värdeområde (0, 1, 2, 3...).
+// visar jämnt ökande värden som täcker vårt X-värdeintervall (0, 1, 2, 3...).
 // En linjär axel är inte idealisk för våra Y-värden
 // eftersom punkterna med de mindre Y-värdena blir svårare att läsa.
 // En logaritmisk skalning med basen 20 (1, 20, 400, 8000...)
-// kommer att sprida de plottade punkterna, vilket gör att vi lättare kan läsa deras värden på diagrammet.
+// kommer att sprida ut de plottade punkterna, vilket gör att vi lättare kan läsa deras värden i diagrammet.
 chart.AxisY.Scaling.Type = AxisScaleType.Logarithmic;
 chart.AxisY.Scaling.LogBase = 20;
 

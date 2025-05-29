@@ -3,14 +3,14 @@ title: StructuredDocumentTag
 linktitle: StructuredDocumentTag
 articleTitle: StructuredDocumentTag
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTag byggare. Initierar en ny instans avStrukturerad dokumenttagg class i C#.
+description: Skapa kraftfulla strukturerade dokument utan ansträngning med konstruktorn StructuredDocumentTag. Initiera nya instanser för förbättrad organisation och tydlighet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Initierar en ny instans av**Strukturerad dokumenttagg** class.
+Initierar en ny instans av**Tagg för strukturerat dokument** klass.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -20,7 +20,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
 | type | SdtType | Typ av SDT-nod. |
-| level | MarkupLevel | Nivå av SDT-nod i dokumentet. |
+| level | MarkupLevel | Nivå för SDT-nod i dokumentet. |
 
 ## Anmärkningar
 
@@ -45,9 +45,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Vi kan ställa in de symboler som används för att representera det markerade/omarkerade tillståndet för en innehållskontroll i kryssrutan.
+// Vi kan ställa in symbolerna som används för att representera det markerade/omarkerade tillståndet för en innehållskontroll för kryssrutan.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

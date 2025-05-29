@@ -3,14 +3,14 @@ title: MemoryFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: MemoryFontSource Type fast egendom. Returnerar typen av teckensnittskälla i C#.
+description: Upptäck egenskapen MemoryFontSource Type som avslöjar din typsnittskälltyp, vilket förbättrar din designprecision och kreativitet. Frigör din typsnittspotential!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/memoryfontsource/type/
 ---
 ## MemoryFontSource.Type property
 
-Returnerar typen av teckensnittskälla.
+Returnerar typen av teckensnittskällan.
 
 ```csharp
 public override FontSourceType Type { get; }

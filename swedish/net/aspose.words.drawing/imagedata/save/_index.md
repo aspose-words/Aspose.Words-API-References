@@ -3,9 +3,9 @@ title: ImageData.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words för .NET
-description: ImageData Save metod. Sparar bilden i den angivna strömmen i C#.
+description: Spara bilder enkelt med ImageData Save-metoden. Effektivisera ditt arbetsflöde genom att enkelt lagra bilder direkt i din valda ström.
 type: docs
-weight: 190
+weight: 200
 url: /sv/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(*Stream*) {#save}
@@ -18,11 +18,11 @@ public void Save(Stream stream)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Streamen där bilden ska sparas. |
+| stream | Stream | Strömmen där bilden ska sparas. |
 
 ## Anmärkningar
 
-Är det uppringarens ansvar att kassera strömobjektet.
+Är det anroparens ansvar att kassera strömobjektet.
 
 ## Exempel
 
@@ -32,25 +32,15 @@ Visar hur man sparar alla bilder från ett dokument till filsystemet.
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
 // Former med flaggan "HasImage" lagrar och visar alla dokumentets bilder.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
 // Gå igenom varje form och spara dess bild.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 
@@ -92,8 +82,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
-        // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
+         // Bilddata för former kan innehålla bilder i många möjliga bildformat.
+        // Vi kan automatiskt bestämma filändelsen för varje bild, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

@@ -3,7 +3,7 @@ title: Font.ComplexScript
 linktitle: ComplexScript
 articleTitle: ComplexScript
 second_title: Aspose.Words för .NET
-description: Font ComplexScript fast egendom. Anger om innehållet i denna körning ska behandlas som komplex skripttext oavsett deras Unicodeteckenvärden när formateringen för denna körning bestäms i C#.
+description: Upptäck egenskapen Font ComplexScript, så att din text formateras som komplext skript för förbättrad läsbarhet och stil, oavsett Unicode-värden.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/font/complexscript/

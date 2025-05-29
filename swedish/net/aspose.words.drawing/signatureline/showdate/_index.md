@@ -3,14 +3,14 @@ title: SignatureLine.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
 second_title: Aspose.Words för .NET
-description: SignatureLine ShowDate fast egendom. Hämtar eller ställer in ett värde som anger att teckendatum visas på signaturraden. Standardvärdet för den här egenskapen ärSann  i C#.
+description: Upptäck egenskapen SignatureLine ShowDate, som aktiverar eller inaktiverar synligheten av signaturdatum i din signaturrad för förbättrad dokumenttydlighet. Standardvärdet är sant.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing/signatureline/showdate/
 ---
 ## SignatureLine.ShowDate property
 
-Hämtar eller ställer in ett värde som anger att teckendatum visas på signaturraden. Standardvärdet för den här egenskapen är`Sann` .
+Hämtar eller ställer in ett värde som anger att signeringsdatum visas på signaturraden. Standardvärdet för den här egenskapen är`sann` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Infoga en form som kommer att innehålla en signaturlinje, vars utseende vi kommer att göra
-// anpassa med "SignatureLineOptions"-objektet vi har skapat ovan.
-// Om vi infogar en form vars koordinater kommer från det nedre högra hörnet på sidan,
-// vi kommer att behöva ange negativa x- och y-koordinater för att få formen att synas.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Infoga en form som ska innehålla en signaturrad, vars utseende vi kommer att
+// anpassa med hjälp av objektet "SignatureLineOptions" som vi skapade ovan.
+// Om vi infogar en form vars koordinater har sitt ursprung i sidans nedre högra hörn,
+// vi måste ange negativa x- och y-koordinater för att få formen att synas.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifiera egenskaperna för vår signaturlinje via dess Shape-objekt.
+// Verifiera egenskaperna för vår signaturrad via dess Shape-objekt.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

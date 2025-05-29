@@ -3,14 +3,14 @@ title: ChartMultilevelValue.Level3
 linktitle: Level3
 articleTitle: Level3
 second_title: Aspose.Words för .NET
-description: ChartMultilevelValue Level3 fast egendom. Hämtar namnet på diagrammets bottennivå som detta värde refererar till i C#.
+description: Upptäck egenskapen ChartMultilevelValue Level3 för att enkelt identifiera den nedre nivån i ditt diagram, vilket förbättrar datatydligheten och insikten.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartmultilevelvalue/level3/
 ---
 ## ChartMultilevelValue.Level3 property
 
-Hämtar namnet på diagrammets bottennivå som detta värde refererar till.
+Hämtar namnet på den nedre nivån i diagrammet som detta värde refererar till.
 
 ```csharp
 public string Level3 { get; }

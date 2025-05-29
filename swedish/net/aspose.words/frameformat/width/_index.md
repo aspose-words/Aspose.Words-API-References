@@ -3,7 +3,7 @@ title: FrameFormat.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words för .NET
-description: FrameFormat Width fast egendom. Hämtar bredden på den angivna ramen i punkter i C#.
+description: Upptäck egenskapen FrameFormat Width för att enkelt hämta ramens bredd i punkter, vilket förbättrar din designprecision och effektivitet.
 type: docs
 weight: 120
 url: /sv/net/aspose.words/frameformat/width/

@@ -3,14 +3,14 @@ title: Node.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words för .NET
-description: Node ToString metod. Exporterar innehållet i noden till en sträng i angivet format i C#.
+description: Upptäck Node ToString-metoden, konvertera enkelt nodinnehåll till strängar med anpassningsbara format för förbättrad datahantering. Optimera din kodning idag!
 type: docs
 weight: 160
 url: /sv/net/aspose.words/node/tostring/
 ---
 ## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
-Exporterar innehållet i noden till en sträng i angivet format.
+Exporterar nodens innehåll till en sträng i det angivna formatet.
 
 ```csharp
 public string ToString(SaveFormat saveFormat)
@@ -18,7 +18,7 @@ public string ToString(SaveFormat saveFormat)
 
 ### Returvärde
 
-Innehållet i noden i det angivna formatet.
+Nodens innehåll i det angivna formatet.
 
 ## Exempel
 
@@ -30,14 +30,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// GetText kommer att hämta den synliga texten samt fältkoder och specialtecken.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+// GetText hämtar den synliga texten samt fältkoder och specialtecken.
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
-// ToString kommer att ge oss dokumentets utseende om det sparas i ett godkänt sparaformat.
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+// ToString ger oss dokumentets utseende om det sparas i ett godkänt format.
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
-Exporterar innehållet i en nod till String i HTML-format.
+Exporterar innehållet i en nod till en sträng i HTML-format.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -45,7 +45,7 @@ Document doc = new Document(MyDir + "Document.docx");
 Node node = doc.LastSection.Body.LastParagraph;
 
 // När vi anropar ToString-metoden med hjälp av html SaveFormat-överbelastningen,
-// den konverterar nodens innehåll till deras råa html-representation.
+// den konverterar nodens innehåll till dess råa html-representation.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
@@ -67,21 +67,21 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Hitta om vi har styckelistan. I vårt dokument använder vår lista vanliga arabiska siffror,
+// Se om vi har styckelistan. I vårt dokument använder vår lista vanliga arabiska siffror,
 // som börjar vid tre och slutar vid sex.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Det här är texten vi får när vi matar ut den här noden till textformat.
-     // Denna textutgång kommer att utelämna listetiketter. Trimma alla tecken i styckeformatering.
+    // Detta är texten vi får när vi skriver ut noden i textformat.
+     // Denna textutdata kommer att utelämna listetiketter. Beskär alla tecken för styckeformatering.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Detta får styckets position på den aktuella nivån i listan. Om vi har en lista med flera nivåer,
-    // detta kommer att berätta vilken position det är på den nivån.
+    // Detta hämtar styckets position på listans aktuella nivå. Om vi har en lista med flera nivåer,
+    // detta kommer att berätta för oss vilken position den är på den nivån.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
     // Kombinera dem för att inkludera listetiketten med texten i utdata.
@@ -100,7 +100,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 ## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
-Exporterar innehållet i noden till en sträng med de angivna sparalternativen.
+Exporterar nodens innehåll till en sträng med de angivna sparalternativen.
 
 ```csharp
 public string ToString(SaveOptions saveOptions)
@@ -108,15 +108,15 @@ public string ToString(SaveOptions saveOptions)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| saveOptions | SaveOptions | Anger alternativen som styr hur noden sparas. |
+| saveOptions | SaveOptions | Anger de alternativ som styr hur noden sparas. |
 
 ### Returvärde
 
-Innehållet i noden i det angivna formatet.
+Nodens innehåll i det angivna formatet.
 
 ## Exempel
 
-Exporterar innehållet i en nod till String i HTML-format.
+Exporterar innehållet i en nod till en sträng i HTML-format.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -124,7 +124,7 @@ Document doc = new Document(MyDir + "Document.docx");
 Node node = doc.LastSection.Body.LastParagraph;
 
 // När vi anropar ToString-metoden med hjälp av html SaveFormat-överbelastningen,
-// den konverterar nodens innehåll till deras råa html-representation.
+// den konverterar nodens innehåll till dess råa html-representation.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));

@@ -3,7 +3,7 @@ title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: VbaReferenceCollection Count fast egendom. Returnerar antalet VBAreferenser i samlingen i C#.
+description: Upptäck egenskapen VBA Reference Collection Count för att enkelt hämta och hantera det totala antalet VBA-referenser för effektiv kodning.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbareferencecollection/count/
@@ -46,7 +46,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens.
+ /// Returnerar strängen som representerar LibId-sökvägen för en specificerad referens.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Returnerar sökväg från en specificerad identifierare för ett bibliotek av automationstyp.
+/// Returnerar sökvägen från en specificerad identifierare för ett bibliotek med automationstyper.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Returnerar sökväg från en specificerad identifierare för ett bibliotek av automationstyp.
+/// Returnerar sökvägen från en specificerad identifierare för ett bibliotek med automationstyper.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

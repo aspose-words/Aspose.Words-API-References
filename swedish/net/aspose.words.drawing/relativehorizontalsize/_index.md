@@ -3,14 +3,14 @@ title: RelativeHorizontalSize Enum
 linktitle: RelativeHorizontalSize
 articleTitle: RelativeHorizontalSize
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.RelativeHorizontalSize uppräkning. Anger i förhållande till vad bredden på en form eller en textram beräknas horisontellt i C#.
+description: Upptäck Aspose.Words.Drawing.RelativeHorizontalSize enum för exakt kontroll över form och textramsbredder i dina dokument. Förbättra din formatering idag!
 type: docs
-weight: 1200
+weight: 1590
 url: /sv/net/aspose.words.drawing/relativehorizontalsize/
 ---
 ## RelativeHorizontalSize enumeration
 
-Anger i förhållande till vad bredden på en form eller en textram beräknas horisontellt.
+Anger relativt till vad bredden på en form eller en textram beräknas horisontellt.
 
 ```csharp
 public enum RelativeHorizontalSize
@@ -20,12 +20,12 @@ public enum RelativeHorizontalSize
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Margin | `0` | Anger att bredden beräknas i förhållande till utrymmet mellan vänster och höger marginal. |
-| Page | `1` | Anger att bredden beräknas i förhållande till sidbredden. |
-| LeftMargin | `2` | Anger att bredden beräknas relativt den vänstra marginalens områdesstorlek. |
-| RightMargin | `3` | Anger att bredden beräknas relativt den högra marginalytans storlek. |
-| InnerMargin | `4` | Anger att bredden beräknas i förhållande till storleken på den inre marginalytan, till den vänstra marginalens områdesstorlek för udda sidor och till den högra marginalens områdesstorlek för jämna sidor. |
-| OuterMargin | `5` | Anger att bredden beräknas i förhållande till yttermarginalområdets storlek, till högermarginalområdets storlek för udda sidor och till vänstermarginalens områdesstorlek för jämna sidor. |
+| Margin | `0` | Anger att bredden beräknas i förhållande till avståndet mellan vänster och höger marginal. |
+| Page | `1` | Anger att bredden beräknas relativt till sidans bredd. |
+| LeftMargin | `2` | Anger att bredden beräknas relativt till vänstermarginalens storlek. |
+| RightMargin | `3` | Anger att bredden beräknas relativt till högermarginalens storlek. |
+| InnerMargin | `4` | Anger att bredden beräknas i förhållande till den inre marginalytans storlek, till den vänstra marginalytans storlek för udda sidor och till den högra marginalytans storlek för jämna sidor. |
+| OuterMargin | `5` | Anger att bredden beräknas i förhållande till den yttre marginalytans storlek, i förhållande till den högra marginalytans storlek för udda sidor och i förhållande till den vänstra marginalytans storlek för jämna sidor. |
 | Default | `1` | Standardvärdet ärMargin . |
 
 ## Exempel
@@ -36,44 +36,44 @@ Visar hur man ställer in relativ storlek och position.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägga till en enkel form med absolut storlek och position.
+// Lägger till en enkel form med absolut storlek och position.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
-// Ställ in WrapType till WrapType.None eftersom inline-former automatiskt konverteras till absoluta enheter.
+// Sätt WrapType till WrapType.None eftersom inbäddade former automatiskt konverteras till absoluta enheter.
 shape.WrapType = WrapType.None;
 
-// Kontrollera och ställa in den relativa horisontella storleken.
+// Kontroll och inställning av relativ horisontell storlek.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // Ställ in den horisontella storleksbindningen till Margin.
+    // Ställer in den horisontella storleksbindningen till Marginal.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // Ställa in bredden till 50 % av Margin width.
+    // Ställer in bredden till 50% av marginalbredden.
     shape.WidthRelative = 50;
 }
 
-// Kontrollera och ställa in den relativa vertikala storleken.
+// Kontroll och inställning av relativ vertikal storlek.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // Ställa in den vertikala storleksbindningen till Margin.
+    // Ställer in den vertikala storleksbindningen till Marginal.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // Ställ in höjden till 30 % av Marginalhöjden.
+    // Ställer in höjden till 30 % av marginalhöjden.
     shape.HeightRelative = 30;
 }
 
-// Kontrollera och ställa in den relativa vertikala positionen.
+// Kontroll och inställning av relativ vertikal position.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // att binda positionen till TopMargin.
+    // binder positionen till TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // Inställning av relativ Top till 30% av TopMargin position.
+    // Ställer in relativ topp till 30 % av TopMargin-positionen.
     shape.TopRelative = 30;
 }
 
-// Kontrollera och ställa in den relativa horisontella positionen.
+// Kontroll och inställning av det relativa horisontella läget.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
     // Ställer in positionsbindningen till RightMargin.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
-    // Positionens relativa värde kan vara negativt.
+    // Positionsrelativa värdet kan vara negativt.
     shape.LeftRelative = -260;
 }
 

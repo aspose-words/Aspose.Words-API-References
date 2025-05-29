@@ -3,9 +3,9 @@ title: ShapeRenderer Class
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Rendering.ShapeRenderer klass. Tillhandahåller metoder för att rendera en individShape ellerGroupShape till en raster eller vektorbild eller till ett grafikobjekt i C#.
+description: Upptäck Aspose.Words.Rendering.ShapeRenderer för att enkelt konvertera former och gruppformer till högkvalitativa raster- eller vektorbilder för dina projekt.
 type: docs
-weight: 4590
+weight: 5320
 url: /sv/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
@@ -28,9 +28,9 @@ public class ShapeRenderer : NodeRendererBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Får formens faktiska gränser i poäng. |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Får de ogenomskinliga gränserna för formen i punkter. |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Får den faktiska storleken på formen i poäng. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | Hämtar formens faktiska gränser i punkter. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | Hämtar formens ogenomskinliga gränser i punkter. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | Hämtar formens faktiska storlek i punkter. |
 
 ## Metoder
 
@@ -38,18 +38,20 @@ public class ShapeRenderer : NodeRendererBase
 | --- | --- |
 | [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float*) | Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning. |
 | [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float, float*) | Beräknar formens gränser i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Beräknar de ogenomskinliga gränserna för formen i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Beräknar storleken på formen i pixlar för en angiven zoomfaktor och upplösning. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Gör formen till enGraphics objekt i en angiven skala. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Gör formen till enGraphics objekt till en angiven storlek. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Gör formen till en bild och sparar den i en ström. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Gör formen till en bild och sparar den i en fil. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | Beräknar formens ogenomskinliga gränser i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Beräknar formens ogenomskinliga gränser i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Beräknar formens storlek i pixlar för en angiven zoomfaktor och upplösning. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Beräknar formens storlek i pixlar för en angiven zoomfaktor och upplösning. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Återger formen till enGraphics objekt till en specificerad skala. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Återger formen till enGraphics objekt till en angiven storlek. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Renderar formen till en bild och sparar i en ström. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Renderar formen till en SVG-bild och sparar i en dataström. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Renderar formen till en bild och sparar den i en fil. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Återger formen till en SVG-bild och sparar den i en fil. |
 
 ## Exempel
 
-Visar hur man renderar en form med ett grafikobjekt och visar det med ett Windows-formulär.
+Visar hur man renderar en form med ett grafikobjekt och visar den med hjälp av ett Windows-formulär.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -59,7 +61,7 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Nedan finns två sätt att använda klassen "ShapeRenderer" för att rendera en form till ett grafikobjekt.
+    // Nedan följer två sätt att använda klassen "ShapeRenderer" för att rendera en form till ett Graphics-objekt.
     // 1 - Skapa en form med ett diagram och rendera den till en specifik skala.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
@@ -101,7 +103,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Återger och visar en lista med former.
+/// Renderar och visar en lista med former.
 /// </summary>
 private class ShapeForm : Form
 {

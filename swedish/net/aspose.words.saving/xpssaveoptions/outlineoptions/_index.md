@@ -3,14 +3,14 @@ title: XpsSaveOptions.OutlineOptions
 linktitle: OutlineOptions
 articleTitle: OutlineOptions
 second_title: Aspose.Words för .NET
-description: XpsSaveOptions OutlineOptions fast egendom. Gör det möjligt att ange konturalternativ i C#.
+description: Upptäck egenskapen OutlineOptions i XpsSaveOptions för att anpassa dokumentets dispositionsinställningar för förbättrad organisation och presentation.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.saving/xpssaveoptions/outlineoptions/
 ---
 ## XpsSaveOptions.OutlineOptions property
 
-Gör det möjligt att ange konturalternativ.
+Gör det möjligt att ange dispositionsalternativ.
 
 ```csharp
 public OutlineOptions OutlineOptions { get; }
@@ -18,17 +18,17 @@ public OutlineOptions OutlineOptions { get; }
 
 ## Anmärkningar
 
-Anteckna det[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) alternativet fungerar inte när du sparar till XPS.
+Observera att[`ExpandedOutlineLevels`](../../outlineoptions/expandedoutlinelevels/) Alternativet fungerar inte när du sparar till XPS.
 
 ## Exempel
 
-Visar hur man begränsar rubrikernas nivå som visas i konturerna av ett sparat XPS-dokument.
+Visar hur man begränsar rubriknivån som visas i dispositionen i ett sparat XPS-dokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga rubriker som kan fungera som TOC-poster på nivåerna 1, 2 och sedan 3.
+// Infoga rubriker som kan fungera som innehållsförteckningsposter för nivå 1, 2 och sedan 3.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -45,16 +45,16 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 1.2.1");
 builder.Writeln("Heading 1.2.2");
 
-// Skapa ett "XpsSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "XpsSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .XPS.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
 Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
 
-// XPS-dokumentet kommer att innehålla en disposition, en innehållsförteckning som listar rubriker i dokumentets brödtext.
-// Genom att klicka på en post i denna disposition kommer vi till platsen för dess respektive rubrik.
-// Ställ in egenskapen "HeadingsOutlineLevels" till "2" för att utesluta alla rubriker vars nivåer är över 2 från dispositionen.
-// De två sista rubrikerna vi har infogat ovan kommer inte att visas.
+// Det utgående XPS-dokumentet kommer att innehålla en disposition, en innehållsförteckning som listar rubriker i dokumentets brödtext.
+// Om du klickar på en post i den här dispositionen kommer vi till platsen för respektive rubrik.
+// Sätt egenskapen "HeadingsOutlineLevels" till "2" för att exkludera alla rubriker vars nivåer är över 2 från dispositionen.
+// De två sista rubrikerna som vi har infogat ovan kommer inte att visas.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);

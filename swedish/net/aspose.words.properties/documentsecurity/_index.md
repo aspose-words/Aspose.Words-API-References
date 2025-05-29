@@ -3,9 +3,9 @@ title: DocumentSecurity Enum
 linktitle: DocumentSecurity
 articleTitle: DocumentSecurity
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Properties.DocumentSecurity uppräkning. Används som ett värde förSecurity property. Anger säkerhetsnivån för ett dokument som ett numeriskt värde i C#.
+description: Upptäck Aspose.Words.DocumentSecurity-enum för att förbättra säkerheten i ditt dokument. Ange och hantera enkelt säkerhetsnivåer för optimalt skydd.
 type: docs
-weight: 4490
+weight: 5220
 url: /sv/net/aspose.words.properties/documentsecurity/
 ---
 ## DocumentSecurity enumeration
@@ -21,22 +21,22 @@ public enum DocumentSecurity
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| None | `0` | Det finns inga säkerhetstillstånd specificerade av egenskapen. |
-| PasswordProtected | `1` | Dokumentet är lösenordsskyddat. (Anteckning har hittills aldrig setts i ett dokument). |
-| ReadOnlyRecommended | `2` | Dokumentet som ska öppnas skrivskyddat om möjligt, men inställningen kan åsidosättas. |
+| None | `0` | Inga säkerhetstillstånd har angetts av egenskapen. |
+| PasswordProtected | `1` | Dokumentet är lösenordsskyddat. (Anteckningen har aldrig setts i ett dokument hittills). |
+| ReadOnlyRecommended | `2` | Dokumentet ska öppnas skrivskyddat om möjligt, men inställningen kan åsidosättas. |
 | ReadOnlyEnforced | `4` | Dokumentet som alltid ska öppnas skrivskyddat. |
-| ReadOnlyExceptAnnotations | `8` | Dokumentet som alltid ska öppnas skrivskyddat förutom anteckningar. |
+| ReadOnlyExceptAnnotations | `8` | Dokumentet ska alltid öppnas skrivskyddat förutom för anteckningar. |
 
 ## Exempel
 
-Visar hur du använder dokumentegenskaper för att visa säkerhetsnivån för ett dokument.
+Visar hur man använder dokumentegenskaper för att visa ett dokuments säkerhetsnivå.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(DocumentSecurity.None, doc.BuiltInDocumentProperties.Security);
 
-// Om vi konfigurerar ett dokument att vara skrivskyddat kommer det att visa denna status med den inbyggda "Security"-egenskapen.
+// Om vi konfigurerar ett dokument som skrivskyddat, kommer det att visa denna status med hjälp av den inbyggda egenskapen "Säkerhet".
 doc.WriteProtection.ReadOnlyRecommended = true;
 doc.Save(ArtifactsDir + "DocumentProperties.Security.ReadOnlyRecommended.docx");
 

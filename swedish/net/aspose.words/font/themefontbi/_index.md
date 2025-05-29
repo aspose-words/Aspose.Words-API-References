@@ -3,14 +3,14 @@ title: Font.ThemeFontBi
 linktitle: ThemeFontBi
 articleTitle: ThemeFontBi
 second_title: Aspose.Words för .NET
-description: Font ThemeFontBi fast egendom. Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med dettaFont object i ett dokument på högertillvänsterspråk i C#.
+description: Upptäck hur du enkelt hanterar temateckensnitt i dokument som skrivs från höger till vänster med FontBi-egenskapen, vilket enkelt förbättrar din design och läsbarhet.
 type: docs
-weight: 490
+weight: 500
 url: /sv/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta[`Font`](../) object i ett dokument på höger-till-vänster-språk.
+Hämtar eller ställer in temateckensnittet i det tillämpade teckensnittsschemat som är associerat med detta[`Font`](../) object i ett dokument som skrivs från höger till vänster.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontBi { get; set; }
 
 ## Exempel
 
-Visar hur man arbetar med tematypsnitt och färger.
+Visar hur man arbetar med temateckensnitt och färger.
 
 ```csharp
 Document doc = new Document();
 
-// Definiera typsnitt för språk som används som standard.
+// Definiera teckensnitt för språk som används som standard.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Genom att ställa in teckensnitt/färgnamn som inte är tema:
+// 2 - Genom att ange namn på teckensnitt/färger som inte är temarelaterade:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -3,7 +3,7 @@ title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
 second_title: Aspose.Words för .NET
-description: List HasSameTemplate metod. Returnerar sant om den aktuella listan och den givna listan skapas från samma mall i C#.
+description: Upptäck HasSameTemplate-metoden, kontrollera enkelt om två listor delar samma mall, vilket säkerställer konsekvens och effektivitet i din datahantering.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.lists/list/hassametemplate/

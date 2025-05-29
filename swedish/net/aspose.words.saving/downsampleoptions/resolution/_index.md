@@ -3,7 +3,7 @@ title: DownsampleOptions.Resolution
 linktitle: Resolution
 articleTitle: Resolution
 second_title: Aspose.Words för .NET
-description: DownsampleOptions Resolution fast egendom. Anger upplösningen i pixlar per tum som bilderna ska nedsamplas till i C#.
+description: Optimera bildkvaliteten med egenskapen DownsampleOptions Resolution, som definierar de ideala pixlarna per tum för överlägsna nedsamplingsresultat.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/downsampleoptions/resolution/
@@ -22,12 +22,12 @@ Standardvärdet är 220 ppi.
 
 ## Exempel
 
-Visar hur du ändrar upplösningen på bilder i PDF-dokumentet.
+Visar hur man ändrar upplösningen på bilder i PDF-dokumentet.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
@@ -38,10 +38,10 @@ Assert.AreEqual(0, options.DownsampleOptions.ResolutionThreshold);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
 
-// Ställ in egenskapen "Resolution" till "36" för att nedsampla alla bilder till 36 ppi.
+// Sätt egenskapen "Upplösning" till "36" för att nedsampla alla bilder till 36 ppi.
 options.DownsampleOptions.Resolution = 36;
 
-// Ställ in egenskapen "ResolutionThreshold" för att endast tillämpa nedsamplingen på
+// Ställ in egenskapen "ResolutionThreshold" för att endast tillämpa nedsampling på
 // bilder med en upplösning som är över 128 ppi.
 options.DownsampleOptions.ResolutionThreshold = 128;
 

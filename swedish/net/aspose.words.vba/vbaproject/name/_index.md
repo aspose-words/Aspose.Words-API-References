@@ -3,14 +3,14 @@ title: VbaProject.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words för .NET
-description: VbaProject Name fast egendom. Hämtar eller ställer in VBAprojektnamn i C#.
+description: Upptäck hur du enkelt hanterar ditt VBA-projekt med egenskapen Namn. Lär dig att hämta och ange projektnamn för effektiv kodning!
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.vba/vbaproject/name/
 ---
 ## VbaProject.Name property
 
-Hämtar eller ställer in VBA-projektnamn.
+Hämtar eller anger VBA-projektnamn.
 
 ```csharp
 public string Name { get; set; }
@@ -51,14 +51,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

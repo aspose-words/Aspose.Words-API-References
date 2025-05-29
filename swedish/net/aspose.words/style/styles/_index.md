@@ -3,14 +3,14 @@ title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words för .NET
-description: Style Styles fast egendom. Får samlingen av stilar som denna stil tillhör i C#.
+description: Upptäck egenskapen Stil för att få tillgång till en kuraterad samling stilar som förbättrar din design med unik, sammanhängande estetik.
 type: docs
-weight: 160
+weight: 190
 url: /sv/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
 
-Får samlingen av stilar som denna stil tillhör.
+Hämtar samlingen av stilar som den här stilen tillhör.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -18,7 +18,7 @@ public StyleCollection Styles { get; }
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();

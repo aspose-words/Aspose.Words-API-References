@@ -3,7 +3,7 @@ title: FieldNextIf.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words för .NET
-description: FieldNextIf ComparisonOperator fast egendom. Hämtar eller ställer in jämförelseoperatorn i C#.
+description: Upptäck egenskapen FieldNextIf ComparisonOperator för att enkelt hantera och anpassa dina jämförelseoperatorer för förbättrad funktionalitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldnextif/comparisonoperator/
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; set; }
 
 ## Exempel
 
-Visar hur du använder NEXT/NEXTIF-fält för att slå samman flera rader till en sida under en e-postkoppling.
+Visar hur man använder NEXT/NEXTIF-fält för att sammanfoga flera rader till en sida under en dokumentkoppling.
 
 ```csharp
 public void FieldNext()
@@ -26,8 +26,8 @@ public void FieldNext()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Skapa en datakälla för vår brevkoppling med 3 rader.
-    // En sammanslagning som använder den här tabellen skulle normalt skapa ett 3-sidigt dokument.
+    // Skapa en datakälla för vår dokumentkoppling med 3 rader.
+    // En dokumentkoppling som använder den här tabellen skulle normalt skapa ett 3-sidigt dokument.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -38,21 +38,21 @@ public void FieldNext()
 
     InsertMergeFields(builder, "First row: ");
 
-    // Om vi har flera sammanslagningsfält med samma fältnamn,
+    // Om vi har flera kopplingsfält med samma fältnamn,
     // de kommer att ta emot data från samma rad i datakällan och visa samma värde efter sammanslagningen.
-    // Ett NÄSTA fält talar om för brevkopplingen omedelbart att flytta ned en rad,
-    // vilket betyder att alla MERGEFIELDs som följer fältet NÄSTA kommer att ta emot data från nästa rad.
-    // Se till att aldrig försöka hoppa till nästa rad medan du redan är på den sista raden.
+    // Ett NEXT-fält anger direkt att dokumentkopplingen ska flyttas ner en rad,
+    // vilket innebär att alla MERGEFIELD-värden som följer efter NEXT-fältet kommer att ta emot data från nästa rad.
+    // Se till att aldrig försöka hoppa till nästa rad medan du redan är på sista raden.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // Efter sammanslagning, datakällans värden som dessa MERGEFIELDs accepterar
-     // kommer att hamna på samma sida som MERGEFIELDs ovan.
+    // Efter sammanslagningen, de datakällvärden som dessa MERGEFIELDS accepterar
+     // kommer att hamna på samma sida som MERGEFIELDS ovan.
     InsertMergeFields(builder, "Second row: ");
 
     // Ett NEXTIF-fält har samma funktion som ett NEXT-fält,
-    // men den hoppar till nästa rad endast om ett påstående som konstruerats av följande 3 egenskaper är sant.
+    // men den hoppar bara till nästa rad om ett uttalande konstruerat av följande 3 egenskaper är sant.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -60,20 +60,20 @@ public void FieldNext()
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // Om jämförelsen i fältet ovan är korrekt,
-    // följande 3 sammanslagningsfält tar data från den tredje raden.
+    // Om jämförelsen som görs i ovanstående fält är korrekt,
+    // följande 3 mergefält kommer att ta data från den tredje raden.
     // Annars kommer dessa fält att ta data från rad 2 igen.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
 
      // Vår datakälla har 3 rader, och vi hoppade över rader två gånger.
-    // Vårt utdatadokument kommer att ha 1 sida med data från alla tre raderna.
+    // Vårt utdatadokument kommer att ha 1 sida med data från alla 3 rader.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }
 
 /// <summary>
-/// Använder en dokumentbyggare för att infoga MERGEFIELDs för en datakälla som innehåller kolumner med namnet "Courtesy Title", "First Name" och "Last Name".
+/// Använder en dokumentbyggare för att infoga MERGEFIELDS för en datakälla som innehåller kolumner med namnen "Courtesy Title", "First Name" och "Last Name".
 /// </summary>
 public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefore)
 {
@@ -84,7 +84,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Använder en dokumentbyggare för att infoga ett MERRGEFIELD med specificerade egenskaper.
+/// Använder en dokumentbyggare för att infoga ett MERRGEFIELD med angivna egenskaper.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

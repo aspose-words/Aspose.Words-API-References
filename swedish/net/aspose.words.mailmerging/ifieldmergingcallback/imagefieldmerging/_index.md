@@ -3,14 +3,14 @@ title: IFieldMergingCallback.ImageFieldMerging
 linktitle: ImageFieldMerging
 articleTitle: ImageFieldMerging
 second_title: Aspose.Words för .NET
-description: IFieldMergingCallback ImageFieldMerging metod. Anropas när kopplingsmotorn Aspose.Words håller på att infoga en bild i ett sammanfogningsfält i C#.
+description: Upptäck ImageFieldMerging-metoden i iFieldMergingCallback, utformad för sömlös bildinsättning i Aspose.Words-dokumentkoppling. Förbättra din dokumentautomation!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
 ---
 ## IFieldMergingCallback.ImageFieldMerging method
 
-Anropas när kopplingsmotorn Aspose.Words håller på att infoga en bild i ett sammanfogningsfält.
+Anropas när Aspose.Words-kopplingsmotorn ska infoga en bild i ett kopplingsfält.
 
 ```csharp
 public void ImageFieldMerging(ImageFieldMergingArgs args)
@@ -18,7 +18,7 @@ public void ImageFieldMerging(ImageFieldMergingArgs args)
 
 ## Exempel
 
-Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
+Visar hur man infogar bilder som lagras i ett BLOB-fält i en rapport.
 
 ```csharp
 public void ImageFromBlob()
@@ -48,11 +48,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 
     /// <summary>
-    /// Detta kallas när en sammanslagning stöter på ett MERGEFIELD i dokumentet med en "Image:"-tagg i sitt namn.
+    /// Detta anropas när en dokumentkoppling stöter på ett MERGEFIELD i dokumentet med en "Image:"-tagg i namnet.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

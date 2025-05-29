@@ -3,14 +3,14 @@ title: MailMerge.ExecuteWithRegionsADO
 linktitle: ExecuteWithRegionsADO
 articleTitle: ExecuteWithRegionsADO
 second_title: Aspose.Words för .NET
-description: MailMerge ExecuteWithRegionsADO metod. Utför koppling från ett ADO Recordsetobjekt till dokumentet med kopplingsregioner i C#.
+description: Effektivisera ditt dokumentskapande med MailMerge ExecuteWithRegionsADO-metoden. Sammanfoga enkelt ADO Recordset-data för personliga resultat.
 type: docs
 weight: 210
 url: /sv/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
 ---
 ## MailMerge.ExecuteWithRegionsADO method
 
-Utför koppling från ett ADO Recordset-objekt till dokumentet med kopplingsregioner.
+Utför dokumentkoppling från ett ADO Recordset-objekt till dokumentet med områden för dokumentkoppling.
 
 ```csharp
 public void ExecuteWithRegionsADO(object recordset, string tableName)
@@ -18,14 +18,14 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| recordset | Object | ADO Recordset eller Record-objekt. |
-| tableName | String | Namn på kopplingsregionen i dokumentet som ska fyllas i. |
+| recordset | Object | ADO-postuppsättning eller postobjekt. |
+| tableName | String | Namn på den kopplingsregion i dokumentet som ska fyllas i. |
 
 ## Anmärkningar
 
-Den här metoden är användbar när du tänker använda Aspose.Words-klasserna as COM-objekt från ohanterad kod, till exempel ett program byggt med ASP eller Visual Basic 6.0.
+Den här metoden är användbar när du tänker använda Aspose.Words-klasser som COM-objekt från ohanterad kod, till exempel ett program som byggts med ASP eller Visual Basic 6.0.
 
-För mer information se beskrivning av[`ExecuteWithRegions`](../executewithregions/).
+För mer information se beskrivningen av[`ExecuteWithRegions`](../executewithregions/).
 
 ## Exempel
 
@@ -48,7 +48,7 @@ Doc.MailMerge.ExecuteWithRegionsADO RS, "OrderDetails"
 Doc.Save "Invoice Out VBScript.doc"
 ```
 
-Visar hur man kör en sammanslagning med flera regioner, sammanställd med data från en ADO-datauppsättning.
+Visar hur man kör en dokumentkoppling med flera regioner, kompilerad med data från en ADO-datauppsättning.
 
 ```csharp
 public void ExecuteWithRegionsADO()
@@ -59,12 +59,12 @@ public void ExecuteWithRegionsADO()
     // som ingår i .NET-distributionen och lagras i "adodb.dll".
     ADODB.Connection connection = new ADODB.Connection();
 
-    // Skapa en anslutningssträng som pekar på databasfilen "Northwind".
+    // Skapa en anslutningssträng som pekar till databasfilen "Northwind"
     // i vårt lokala filsystem och öppna en anslutning.
     string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Fyll i vår datauppsättning genom att köra ett SQL-kommando på vår databas.
+    // Fyll i vår dataset genom att köra ett SQL-kommando i vår databas.
     // Namnen på kolumnerna i resultattabellen måste överensstämma
     // till värdena för MERGEFIELDS som kommer att rymma våra data.
     string command = "SELECT FirstName, LastName, City FROM Employees";
@@ -72,16 +72,16 @@ public void ExecuteWithRegionsADO()
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Kör en e-postkoppling på bara den första regionen, fyll dess MERGEFIELDS med data från postuppsättningen.
+    // Kör en dokumentkoppling på endast den första regionen och fyll dess MERGEFIELDS med data från postmängden.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion1");
 
-    // Stäng postuppsättningen och öppna den igen med data från en annan SQL-fråga.
+    // Stäng postmängden och öppna den igen med data från en annan SQL-fråga.
     command = "SELECT * FROM Customers";
 
     recordset.Close();
     recordset.Open(command, connection);
 
-    // Kör en andra sammanfogning på den andra regionen och spara dokumentet.
+    // Kör en andra dokumentkoppling på den andra regionen och spara dokumentet.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");
@@ -89,7 +89,7 @@ public void ExecuteWithRegionsADO()
 }
 
 /// <summary>
-/// Skapa ett dokument med två kopplingsregioner.
+/// Skapa ett dokument med två områden för dokumentkoppling.
 /// </summary>
 private static Document CreateSourceDocADOMailMergeWithRegions()
 {

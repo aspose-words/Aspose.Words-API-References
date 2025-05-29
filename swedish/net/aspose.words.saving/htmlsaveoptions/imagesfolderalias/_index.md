@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ImagesFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera bildURIer inskrivna i ett HTMLdokument. Standard är en tom sträng i C#.
+description: Upptäck egenskapen HtmlSaveOptions ImagesFolderAlias för att enkelt hantera bild-URI:er i dina HTML-dokument. Förenkla ditt arbetsflöde med denna viktiga funktion!
 type: docs
 weight: 370
 url: /sv/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
 ## HtmlSaveOptions.ImagesFolderAlias property
 
-Anger namnet på mappen som används för att konstruera bild-URI:er inskrivna i ett HTML-dokument. Standard är en tom sträng.
+Anger namnet på mappen som används för att konstruera bild-URI:er som skrivs in i ett HTML-dokument. Standardvärdet är en tom sträng.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -18,15 +18,15 @@ public string ImagesFolderAlias { get; set; }
 
 ## Anmärkningar
 
-När du sparar en[`Document`](../../../aspose.words/document/) i HTML-format måste Aspose.Words spara alla -bilder som är inbäddade i dokumentet som fristående filer.[`ImagesFolder`](../imagesfolder/) låter dig ange var bilderna ska sparas och`ImagesFolderAlias` tillåter att specificera hur bildens URI:er kommer att konstrueras.
+När du sparar en[`Document`](../../../aspose.words/document/) I HTML-format behöver Aspose.Words spara alla bilder som är inbäddade i dokumentet som fristående filer.[`ImagesFolder`](../imagesfolder/) låter dig ange var bilderna ska sparas och`ImagesFolderAlias` låter dig ange hur bildens URI:er ska konstrueras.
 
-Om`ImagesFolderAlias` inte är en tom sträng, så blir bilden URI written till HTMLImagesFolderAlias + &lt;bildfilnamn&gt;.
+Om`ImagesFolderAlias` inte är en tom sträng, så kommer bild-URI:n written till HTML att varaImagesFolderAlias + &lt;bildfilnamn&gt;.
 
-Om`ImagesFolderAlias` är en tom sträng, kommer bildens URI som är skriven till HTML att varaImagesFolder + &lt;bildfilnamn&gt;.
+Om`ImagesFolderAlias`är en tom sträng, så kommer bild-URI:n written till HTML att varaImagesFolder + &lt;bildfilnamn&gt;.
 
-Om`ImagesFolderAlias`är satt till '.' (prick), då kommer bildfilens namn att skrivas till HTML utan sökväg oavsett andra alternativ.
+Om`ImagesFolderAlias` är satt till '.' (punkt), så kommer bildfilen name att skrivas till HTML utan sökväg oavsett andra alternativ.
 
-Ett alternativt sätt att ange namnet på mappen för att konstruera bilden URIs är att använda[`ResourceFolderAlias`](../resourcefolderalias/).
+Ett annat sätt att ange namnet på mappen för att konstruera bild-URI:er är att använda[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ## Exempel
 
@@ -45,7 +45,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
     FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    ImagesFolderAlias = "http://example.com/bilder",
     ResourceFolderAlias = "http://example.com/resurser",
     ExportOriginalUrlForLinkedImages = true
 };

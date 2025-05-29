@@ -3,14 +3,14 @@ title: Cell.CellFormat
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words för .NET
-description: Cell CellFormat fast egendom. Ger tillgång till cellens formateringsegenskaper i C#.
+description: Upptäck egenskapen Cell CellFormat för att enkelt komma åt och anpassa cellformateringsalternativ för förbättrad datapresentation i dina applikationer.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/cell/cellformat/
 ---
 ## Cell.CellFormat property
 
-Ger tillgång till cellens formateringsegenskaper.
+Ger åtkomst till cellens formateringsegenskaper.
 
 ```csharp
 public CellFormat CellFormat { get; }
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-// Använd en cells "CellFormat"-egenskap för att ställa in formatering som ändrar cellens utseende.
+// Använd en cells "CellFormat"-egenskap för att ange formatering som ändrar cellens utseende.
 firstCell.CellFormat.Width = 30;
 firstCell.CellFormat.Orientation = TextOrientation.Downward;
 firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
@@ -33,29 +33,29 @@ firstCell.CellFormat.Shading.ForegroundPatternColor = Color.LightGreen;
 doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 ```
 
-Visar hur man kombinerar raderna från två tabeller till en.
+Visar hur man kombinerar rader från två tabeller till en.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Nedan finns två sätt att hämta en tabell från ett dokument.
-// 1 - Från samlingen "Tables" för en Body-nod:
+// Nedan följer två sätt att hämta en tabell från ett dokument.
+// 1 - Från samlingen "Tabeller" i en Body-nod:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Med "GetChild"-metoden:
+// 2 - Använda metoden "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Lägg till alla rader från den aktuella tabellen till nästa.
+// Lägger till alla rader från den aktuella tabellen till nästa.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Ta bort den tomma bordsbehållaren.
+// Ta bort den tomma tabellbehållaren.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-Visar hur du ändrar formatet för rader och celler i en tabell.
+Visar hur man ändrar formatet för rader och celler i en tabell.
 
 ```csharp
 Document doc = new Document();
@@ -74,12 +74,12 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // Använd den första radens "RowFormat"-egenskap för att ändra formateringen
-// av innehållet i alla celler i den här raden.
+// av innehållet i alla celler på den här raden.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Använd egenskapen "CellFormat" för den första cellen i den sista raden för att ändra formateringen av cellens innehåll.
+// Använd egenskapen "CellFormat" för den första cellen på den sista raden för att ändra formateringen av cellens innehåll.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

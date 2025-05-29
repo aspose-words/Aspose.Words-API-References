@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageResolution
 linktitle: ImageResolution
 articleTitle: ImageResolution
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ImageResolution fast egendom. Anger utdataupplösningen för bilder vid export till HTML MHTML eller EPUB. Standard är96 dpi  i C#.
+description: Justera bildupplösningen enkelt med HtmlSaveOptions. Optimera dina HTML-, MHTML- eller EPUB-exporter med anpassningsbara inställningar för fantastiska bilder.
 type: docs
 weight: 340
 url: /sv/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -18,7 +18,7 @@ public int ImageResolution { get; set; }
 
 ## Anmärkningar
 
-Den här egenskapen påverkar rasterbilder när[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) är`Sann` och effektmetafiler exporterade som rasterbilder. Vissa bildegenskaper som cropping eller rotation kräver att transformerade bilder sparas och i detta fall skapas transformerade bilder i den givna upplösningen.
+Den här egenskapen påverkar rasterbilder när[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) är`sann` och effektmetafiler exporteras som rasterbilder. Vissa bildegenskaper, som beskärning eller rotation, kräver att transformerade bilder sparas, och i det här fallet skapas transformerade bilder med den givna -upplösningen.
 
 ## Exempel
 
@@ -37,7 +37,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
     FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    ImagesFolderAlias = "http://example.com/bilder",
     ResourceFolderAlias = "http://example.com/resurser",
     ExportOriginalUrlForLinkedImages = true
 };

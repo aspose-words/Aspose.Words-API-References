@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.ContentStatus
 linktitle: ContentStatus
 articleTitle: ContentStatus
 second_title: Aspose.Words för .NET
-description: BuiltInDocumentProperties ContentStatus fast egendom. Hämtar eller ställer inContentStatus av dokumentet i C#.
+description: Hantera ditt dokuments innehållsstatus enkelt med egenskapen ContentStatus i BuiltInDocumentProperties. Förbättra organisationen och effektiviteten idag!
 type: docs
 weight: 80
 url: /sv/net/aspose.words.properties/builtindocumentproperties/contentstatus/
 ---
 ## BuiltInDocumentProperties.ContentStatus property
 
-Hämtar eller ställer inContentStatus av dokumentet.
+Hämtar eller anger dokumentets innehållsstatus.
 
 ```csharp
 public string ContentStatus { get; set; }
@@ -27,13 +27,13 @@ public void Content()
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
     // Genom att använda inbyggda egenskaper,
-    // vi kan behandla dokumentstatistik som ord/sida/teckenantal som metadata som man kan titta på utan att öppna dokumentet
+    // vi kan behandla dokumentstatistik som ord-/sid-/teckenantal som metadata som kan granskas utan att öppna dokumentet
     // Dessa egenskaper nås genom att högerklicka på filen i Utforskaren och navigera till Egenskaper > Detaljer > Innehåll
-    // Om vi vill visa dessa data inuti dokumentet kan vi använda fält som NUMPAGES, NUMWORDS, NUMCHARS etc.
-    // Dessa värden kan också ses i Microsoft Word genom att navigera i Arkiv > Egenskaper > Avancerade egenskaper > Statistik
-    // Antal sidor: Egenskapen PageCount visar antalet sidor i realtid och dess värde kan tilldelas egenskapen Sidor
+    // Om vi vill visa denna data inuti dokumentet kan vi använda fält som NUMPAGES, NUMWORDS, NUMCHARS etc.
+    // Dessa värden kan också visas i Microsoft Word genom att navigera Arkiv > Egenskaper > Avancerade egenskaper > Statistik
+    // Sidantal: Egenskapen PageCount visar antalet sidor i realtid och dess värde kan tilldelas egenskapen Pages
 
-     // Egenskapen "Sidor" lagrar antalet sidor i dokumentet.
+     // Egenskapen "Sidor" lagrar dokumentets sidantal.
     Assert.AreEqual(6, properties.Pages);
 
     // De inbyggda egenskaperna "Words", "Characters" och "CharactersWithSpaces" visar också olika dokumentstatistik,
@@ -50,24 +50,24 @@ public void Content()
 
     Assert.AreEqual(142, properties.Lines);
 
-    // Tilldela antalet paragrafnoder i dokumentet till den inbyggda egenskapen "Paragraphs".
+    // Tilldela antalet styckenoder i dokumentet till den inbyggda egenskapen "Stycken".
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // Få en uppskattning av filstorleken på vårt dokument via den inbyggda "Bytes"-egenskapen.
+    // Få en uppskattning av filstorleken på vårt dokument via den inbyggda egenskapen "Bytes".
     Assert.AreEqual(20310, properties.Bytes);
 
     // Ställ in en annan mall för vårt dokument och uppdatera sedan den inbyggda egenskapen "Mall" manuellt för att återspegla denna ändring.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 
     // "ContentStatus" är en beskrivande inbyggd egenskap.
     properties.ContentStatus = "Draft";
 
-    // När du har sparat kommer den inbyggda "ContentType"-egenskapen att innehålla MIME-typen för utdatasparformatet.
+    // Vid sparning kommer den inbyggda egenskapen "ContentType" att innehålla MIME-typen för utdataformatet för sparning.
     Assert.AreEqual(string.Empty, properties.ContentType);
 
     // Om dokumentet innehåller länkar, och alla är uppdaterade, kan vi ställa in egenskapen "LinksUpToDate" till "true".
@@ -79,7 +79,7 @@ public void Content()
 /// <summary>
 /// Räknar raderna i ett dokument.
 /// Går igenom dokumentets layoutentitetsträd vid konstruktion,
-/// räknande enheter av typen "Linje" som också innehåller riktig text.
+/// räknar enheter av typen "Linje" som också innehåller riktig text.
 /// </summary>
 private class LineCounter
 {

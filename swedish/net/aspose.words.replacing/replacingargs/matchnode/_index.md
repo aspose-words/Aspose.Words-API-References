@@ -3,7 +3,7 @@ title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
 second_title: Aspose.Words för .NET
-description: ReplacingArgs MatchNode fast egendom. Hämtar noden som innehåller början av matchningen i C#.
+description: Upptäck egenskapen ReplaceingArgs MatchNode för att enkelt komma åt noden där din matchning börjar, vilket förbättrar din kodningseffektivitet och noggrannhet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.replacing/replacingargs/matchnode/
@@ -18,14 +18,14 @@ public Node MatchNode { get; }
 
 ## Exempel
 
-Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
+Visar hur man infogar ett helt dokuments innehåll som en ersättning för en matchning i en sök-och-ersätt-åtgärd.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -40,11 +40,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Infoga ett dokument efter stycket som innehåller den matchade texten.
+        // Infoga ett dokument efter stycket som innehåller den matchande texten.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Ta bort stycket med den matchade texten.
+        // Ta bort stycket med den matchande texten.
         para.Remove();
 
         return ReplaceAction.Skip;

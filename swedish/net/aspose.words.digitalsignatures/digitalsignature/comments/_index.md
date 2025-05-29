@@ -3,14 +3,14 @@ title: DigitalSignature.Comments
 linktitle: Comments
 articleTitle: Comments
 second_title: Aspose.Words för .NET
-description: DigitalSignature Comments fast egendom. Får kommentaren för signeringssyfte i C#.
+description: Upptäck egenskapen Kommentarer till digitala signaturer för att förbättra din signeringsprocess med tydliga kommentarer. Öka effektiviteten och tydligheten i dina dokument.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/comments/
 ---
 ## DigitalSignature.Comments property
 
-Får kommentaren för signeringssyfte.
+Hämtar kommentaren om signeringssyftet.
 
 ```csharp
 public string Comments { get; }
@@ -26,7 +26,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

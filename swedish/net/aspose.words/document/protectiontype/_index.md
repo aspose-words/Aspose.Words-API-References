@@ -3,14 +3,14 @@ title: Document.ProtectionType
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words för .NET
-description: Document ProtectionType fast egendom. Får den för närvarande aktiva dokumentskyddstypen i C#.
+description: Upptäck den aktiva dokumentskyddstypen för förbättrad säkerhet och dataintegritet. Skydda dina filer enkelt med våra avancerade funktioner.
 type: docs
-weight: 330
+weight: 340
 url: /sv/net/aspose.words/document/protectiontype/
 ---
 ## Document.ProtectionType property
 
-Får den för närvarande aktiva dokumentskyddstypen.
+Hämtar den aktiva dokumentskyddstypen.
 
 ```csharp
 public ProtectionType ProtectionType { get; }
@@ -18,11 +18,11 @@ public ProtectionType ProtectionType { get; }
 
 ## Anmärkningar
 
-Den här egenskapen gör det möjligt att hämta den aktuella dokumentskyddstypen. För att ändra dokumentskyddstypen använd[`Protect`](../protect/) och[`Unprotect`](../unprotect/) metoder.
+Den här egenskapen gör det möjligt att hämta den aktuellt inställda dokumentskyddstypen. För att ändra dokumentskyddstypen, använd[`Protect`](../protect/) och[`Unprotect`](../unprotect/) metoder.
 
-När ett dokument är skyddat kan användaren endast göra begränsade ändringar, som att lägga till kommentarer, göra ändringar eller fylla i ett formulär.
+När ett dokument är skyddat kan användaren endast göra begränsade ändringar, som att lägga till anteckningar, göra ändringar eller fylla i ett formulär.
 
-Observera att dokumentskydd skiljer sig från skrivskydd. Skrivskydd specificeras med hjälp av[`WriteProtection`](../writeprotection/)
+Observera att dokumentskydd skiljer sig från skrivskydd. Skrivskydd anges med hjälp av[`WriteProtection`](../writeprotection/)
 
 ## Exempel
 
@@ -34,11 +34,11 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Om vi öppnar det här dokumentet med Microsoft Word för att redigera det,
-// vi kommer att behöva använda lösenordet för att komma igenom skyddet.
+// Om vi öppnar det här dokumentet med Microsoft Word och avser att redigera det,
+// vi måste ange lösenordet för att komma igenom skyddet.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// Observera att skyddet endast gäller för Microsoft Word-användare som öppnar vårt dokument.
+// Observera att skyddet endast gäller Microsoft Word-användare som öppnar vårt dokument.
 // Vi har inte krypterat dokumentet på något sätt, och vi behöver inte lösenordet för att öppna och redigera det programmatiskt.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
@@ -46,7 +46,7 @@ Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
-// Det finns två sätt att ta bort skydd från ett dokument.
+// Det finns två sätt att ta bort skyddet från ett dokument.
 // 1 - Utan lösenord:
 doc.Unprotect();
 

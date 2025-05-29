@@ -3,7 +3,7 @@ title: TableStyle.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words för .NET
-description: TableStyle VerticalAlignment fast egendom. Anger den vertikala justeringen för cellerna i C#.
+description: Upptäck egenskapen TableStyle VerticalAlignment för att enkelt kontrollera celljusteringen i dina tabeller, vilket förbättrar läsbarhet och presentation.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/tablestyle/verticalalignment/

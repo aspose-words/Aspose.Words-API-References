@@ -3,14 +3,14 @@ title: ImportFormatOptions.IgnoreTextBoxes
 linktitle: IgnoreTextBoxes
 articleTitle: IgnoreTextBoxes
 second_title: Aspose.Words för .NET
-description: ImportFormatOptions IgnoreTextBoxes fast egendom. Hämtar eller ställer in ett booleskt värde som anger att källformatering av textrutor innehåll ignored omKeepSourceFormatting läge används. Standardvärdet ärSann  i C#.
+description: Upptäck hur egenskapen ImportFormatOptions IgnoreTextBoxes förbättrar formateringen av ditt dokument genom att kontrollera textruteinnehållet. Optimera enkelt idag!
 type: docs
 weight: 50
 url: /sv/net/aspose.words/importformatoptions/ignoretextboxes/
 ---
 ## ImportFormatOptions.IgnoreTextBoxes property
 
-Hämtar eller ställer in ett booleskt värde som anger att källformatering av textrutor innehåll ignored omKeepSourceFormatting läge används. Standardvärdet är`Sann` .
+Hämtar eller ställer in ett booleskt värde som anger att källformateringen av textrutes innehåll ignoreras omKeepSourceFormatting läget används. Standardvärdet är`sann` .
 
 ```csharp
 public bool IgnoreTextBoxes { get; set; }
@@ -18,10 +18,10 @@ public bool IgnoreTextBoxes { get; set; }
 
 ## Exempel
 
-Visar hur du hanterar textruteformatering medan du lägger till ett dokument.
+Visar hur man hanterar formatering av textrutor när man lägger till ett dokument.
 
 ```csharp
-// Skapa ett dokument som kommer att ha noder från ett annat dokument infogat i det.
+// Skapa ett dokument som ska ha noder från ett annat dokument infogade i det.
 Document dstDoc = new Document();
 DocumentBuilder builder = new DocumentBuilder(dstDoc);
 
@@ -37,13 +37,13 @@ builder.ParagraphFormat.Style.Font.Name = "Courier New";
 builder.ParagraphFormat.Style.Font.Size = 24;
 builder.Write("Textbox contents");
 
-// Ställ in en flagga för att ange om textruteformateringen ska raderas eller bevaras
-// medan du importerar dem till andra dokument.
+// Ange en flagga för att ange om textrutans formatering ska raderas eller bevaras
+// när de importeras till andra dokument.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.IgnoreTextBoxes = ignoreTextBoxes;
 
-// Importera textrutan från källdokumentet till måldokumentet,
-// och verifiera sedan om vi har bevarat stilen på dess textinnehåll.
+// Importera textrutan från källdokumentet till destinationsdokumentet,
+// och sedan verifiera om vi har bevarat formateringen av dess textinnehåll.
 NodeImporter importer = new NodeImporter(srcDoc, dstDoc, ImportFormatMode.KeepSourceFormatting, importFormatOptions);
 Shape importedTextBox = (Shape)importer.ImportNode(textBox, true);
 dstDoc.FirstSection.Body.Paragraphs[1].AppendChild(importedTextBox);

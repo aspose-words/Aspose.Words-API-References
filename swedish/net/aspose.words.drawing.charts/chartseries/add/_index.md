@@ -3,17 +3,51 @@ title: ChartSeries.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: ChartSeries Add metod. Lägger till det angivna Xvärdet till diagramserien. Om serien stöder Yvärden och bubbelstorlekar kommer de att vara tomma för Xvärdet i C#.
+description: Upptäck ChartSeries Add-metoden för att enkelt integrera X-värden i dina diagram. Förbättra datavisualiseringen med stöd för Y-värden och bubbelstorlekar.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.drawing.charts/chartseries/add/
 ---
 ## Add(*[ChartXValue](../../chartxvalue/)*) {#add}
 
-Lägger till det angivna X-värdet till diagramserien. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet.
+Lägger till det angivna X-värdet i diagramserien. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet.
 
 ```csharp
 public void Add(ChartXValue xValue)
+```
+
+## Exempel
+
+Visar hur man fyller diagramserier med data.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// Rensa X- och Y-värdena för den första serien.
+series1.ClearValues();
+
+// Fyll serien med data.
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
+series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
+series1.Add(ChartXValue.FromDouble(9));
+
+ChartSeries series2 = chart.Series[1];
+// Rensa X- och Y-värdena för den andra serien.
+series2.Clear();
+
+// Fyll serien med data.
+series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
+series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
+series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));
+series2.Add(ChartXValue.FromDouble(8), ChartYValue.FromDouble(7));
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ```
 
 ### Se även
@@ -35,7 +69,7 @@ public void Add(ChartXValue xValue, ChartYValue yValue)
 
 ## Exempel
 
-Visar hur man lägger till/tar bort diagramdatavärden.
+Visar hur man lägger till/tar bort datavärden i diagrammet.
 
 ```csharp
 Document doc = new Document();
@@ -50,7 +84,7 @@ ChartSeries department2Series = chart.Series[1];
 department1Series.Remove(0);
 department2Series.Remove(0);
 
-// Lägg till nya värden till båda serierna.
+// Lägg till nya värden i båda serierna.
 ChartXValue newXCategory = ChartXValue.FromString("Q1, 2023");
 department1Series.Add(newXCategory, ChartYValue.FromDouble(10.3));
 department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));
@@ -62,25 +96,24 @@ Visar hur man fyller diagramserier med data.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ChartSeries series1 = chart.Series[0];
 
-// Rensa X- och Y-värden för den första serien.
+// Rensa X- och Y-värdena för den första serien.
 series1.ClearValues();
 
 // Fyll serien med data.
-series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
 series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
 series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
-series1.Add(ChartXValue.FromDouble(9), ChartYValue.FromDouble(17));
+series1.Add(ChartXValue.FromDouble(9));
 
 ChartSeries series2 = chart.Series[1];
-
-// Rensa X- och Y-värden i den andra serien.
-series2.ClearValues();
+// Rensa X- och Y-värdena för den andra serien.
+series2.Clear();
 
 // Fyll serien med data.
 series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
@@ -107,6 +140,40 @@ Lägger till det angivna X-värdet, Y-värdet och bubbelstorleken till diagramse
 
 ```csharp
 public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
+```
+
+## Exempel
+
+Visar hur man fyller diagramserier med data.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// Rensa X- och Y-värdena för den första serien.
+series1.ClearValues();
+
+// Fyll serien med data.
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
+series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
+series1.Add(ChartXValue.FromDouble(9));
+
+ChartSeries series2 = chart.Series[1];
+// Rensa X- och Y-värdena för den andra serien.
+series2.Clear();
+
+// Fyll serien med data.
+series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
+series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
+series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));
+series2.Add(ChartXValue.FromDouble(8), ChartYValue.FromDouble(7));
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ```
 
 ### Se även

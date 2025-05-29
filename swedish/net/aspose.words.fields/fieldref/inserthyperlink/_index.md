@@ -3,14 +3,14 @@ title: FieldRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words för .NET
-description: FieldRef InsertHyperlink fast egendom. Hämtar eller ställer in om en hyperlänk till det bokmärkta stycket ska skapas i C#.
+description: Upptäck FieldRef InsertHyperlink-egenskapen, skapa enkelt hyperlänkar till bokmärkta stycken och förbättra navigeringen och användarupplevelsen i dina dokument.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldref/inserthyperlink/
 ---
 ## FieldRef.InsertHyperlink property
 
-Hämtar eller ställer in om en hyperlänk till det bokmärkta stycket ska skapas.
+Hämtar eller anger om en hyperlänk ska skapas till det bokmärkta stycket.
 
 ```csharp
 public bool InsertHyperlink { get; set; }
@@ -33,11 +33,11 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // Vi kommer att tillämpa ett anpassat listformat, där antalet vinkelparenteser anger vilken listnivå vi för närvarande befinner oss på.
+    // Vi kommer att använda ett anpassat listformat, där antalet vinkelparenteser anger listnivån vi befinner oss på för närvarande.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // Infoga ett REF-fält som kommer att innehålla texten i vårt bokmärke, fungera som en hyperlänk och klona bokmärkets fotnoter.
+    // Infoga ett REF-fält som ska innehålla texten i vårt bokmärke, fungera som en hyperlänk och klona bokmärkets fotnoter.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
@@ -50,7 +50,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
 
-    // Visa listnumret för bokmärket som det visas i dokumentet.
+    // Visa bokmärkets listnummer som det visas i dokumentet.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
@@ -67,7 +67,7 @@ public void FieldRef()
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // Visa bokmärkets listnummer och numren för alla listnivåer ovanför det.
+    // Visar bokmärkets listnummer och numren för alla listnivåer ovanför det.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -75,13 +75,13 @@ public void FieldRef()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // Visa listnivånumren mellan detta REF-fält och bokmärket som det refererar till.
+    // Visar listnivånumren mellan detta REF-fält och bokmärket som det refererar till.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // I slutet av dokumentet kommer bokmärket att visas som ett listobjekt här.
+    // I slutet av dokumentet visas bokmärket som ett listobjekt här.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
@@ -91,7 +91,7 @@ public void FieldRef()
 }
 
 /// <summary>
-/// Få dokumentbyggaren att infoga ett REF-fält, referera till ett bokmärke med det och lägg till text före och efter det.
+/// Få dokumentbyggaren att infoga ett REF-fält, referera till ett bokmärke med det och lägga till text före och efter det.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

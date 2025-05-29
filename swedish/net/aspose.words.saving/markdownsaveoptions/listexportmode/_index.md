@@ -3,9 +3,9 @@ title: MarkdownSaveOptions.ListExportMode
 linktitle: ListExportMode
 articleTitle: ListExportMode
 second_title: Aspose.Words för .NET
-description: MarkdownSaveOptions ListExportMode fast egendom. Anger hur listobjekt ska skrivas till utdatafilen. Standardvärdet ärMarkdownSyntax  i C#.
+description: Upptäck egenskapen ListExportMode i MarkdownSaveOptions, som styr hur listobjekt visas. Optimera dina filer med flexibel MarkdownSyntax!
 type: docs
-weight: 60
+weight: 110
 url: /sv/net/aspose.words.saving/markdownsaveoptions/listexportmode/
 ---
 ## MarkdownSaveOptions.ListExportMode property
@@ -18,13 +18,13 @@ public MarkdownListExportMode ListExportMode { get; set; }
 
 ## Anmärkningar
 
-När den här egenskapen är inställd påPlainText alla listetiketter är uppdateras med[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)och exporteras med sina faktiska värden. Sådana lists kan vara icke-kompatibla med Markdown-format och kommer att kännas igen som vanlig text vid import i detta fall.
+När den här egenskapen är inställd påPlainText alla listetiketter är uppdaterade med[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) och exporteras med deras faktiska värden. Sådana listor kan vara inkompatibla med Markdown-formatet och kommer i det här fallet att identifieras som vanlig text vid import.
 
-När den här egenskapen är inställd påMarkdownSyntax, writer försöker exportera listobjekt på ett sätt som gör det möjligt att numrera listobjekt i automatiskt läge med Markdown.
+När den här egenskapen är inställd påMarkdownSyntax, författaren försöker export listobjekt på ett sätt som gör det möjligt att numrera listobjekt i automatiskt läge med Markdown.
 
 ## Exempel
 
-Visar hur man listar objekt kommer att skrivas till markdown-dokumentet.
+Visar hur man listar objekt som kommer att skrivas till markdown-dokumentet.
 
 ```csharp
 Document doc = new Document(MyDir + "List item.docx");

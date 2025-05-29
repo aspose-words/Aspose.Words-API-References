@@ -3,14 +3,14 @@ title: TextBox.Parent
 linktitle: Parent
 articleTitle: Parent
 second_title: Aspose.Words för .NET
-description: TextBox Parent fast egendom. Får en överordnad form förTextBox  i C#.
+description: Upptäck egenskapen TextBox Parent för att enkelt komma åt dess överordnade form, förbättra ditt designarbetsflöde och öka effektiviteten i dina projekt.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing/textbox/parent/
 ---
 ## TextBox.Parent property
 
-Får en överordnad form för[`TextBox`](../) .
+Hämtar en förälderform för[`TextBox`](../) .
 
 ```csharp
 public Shape Parent { get; }

@@ -3,14 +3,14 @@ title: FontSourceBase.GetAvailableFonts
 linktitle: GetAvailableFonts
 articleTitle: GetAvailableFonts
 second_title: Aspose.Words för .NET
-description: FontSourceBase GetAvailableFonts metod. Returnerar en lista över teckensnitt som är tillgängliga via den här källan i C#.
+description: Upptäck tillgängliga typsnitt med FontSourceBases GetAvailableFonts-metod. Förbättra dina projekt med ett varierat urval av högkvalitativa typsnitt!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
 ---
 ## FontSourceBase.GetAvailableFonts method
 
-Returnerar en lista över teckensnitt som är tillgängliga via den här källan.
+Returnerar en lista över teckensnitt som är tillgängliga via denna källa.
 
 ```csharp
 public IList<PhysicalFontInfo> GetAvailableFonts()
@@ -21,7 +21,7 @@ public IList<PhysicalFontInfo> GetAvailableFonts()
 Visar hur man listar tillgängliga teckensnitt.
 
 ```csharp
-// Konfigurera Aspose.Words för att hämta teckensnitt från en anpassad mapp och skriv sedan ut alla tillgängliga teckensnitt.
+// Konfigurera Aspose.Words för att hämta teckensnitt från en anpassad mapp och sedan skriva ut alla tillgängliga teckensnitt.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

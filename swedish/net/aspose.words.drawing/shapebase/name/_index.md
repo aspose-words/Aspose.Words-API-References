@@ -3,14 +3,14 @@ title: ShapeBase.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words för .NET
-description: ShapeBase Name fast egendom. Hämtar eller ställer in det valfria formnamnet i C#.
+description: Upptäck egenskapen ShapeBase Name för att enkelt hantera valfria formnamn, vilket förbättrar din designflexibilitet och projektorganisation.
 type: docs
-weight: 400
+weight: 420
 url: /sv/net/aspose.words.drawing/shapebase/name/
 ---
 ## ShapeBase.Name property
 
-Hämtar eller ställer in det valfria formnamnet.
+Hämtar eller anger det valfria formnamnet.
 
 ```csharp
 public string Name { get; set; }
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ## Anmärkningar
 
-Standard är tom sträng.
+Standardvärdet är en tom sträng.
 
 Kan inte vara`null`, men kan vara en tom sträng.
 
@@ -34,11 +34,11 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// Vi kan komma åt den alternativa texten i en form genom att högerklicka på den och sedan via "Formatera AutoShape" -> "Alt text".
+// Vi kan komma åt alternativtexten för en form genom att högerklicka på den och sedan via "Formatera autofigur" -> "Alternativ text".
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
-// Spara dokumentet i HTML och ta sedan bort den länkade bilden som tillhör vår form.
-// Webbläsaren som läser vår HTML kommer att visa alt-texten i stället för den saknade bilden.
+// Spara dokumentet som HTML och ta sedan bort den länkade bilden som tillhör vår form.
+// Webbläsaren som läser vår HTML kommer att visa alt-texten istället för den saknade bilden.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
 File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```

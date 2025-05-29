@@ -3,14 +3,14 @@ title: FrameFormat.RelativeHorizontalPosition
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words för .NET
-description: FrameFormat RelativeHorizontalPosition fast egendom. Får den relativa horisontella positionen för en ram i C#.
+description: Upptäck egenskapen FrameFormat RelativeHorizontalPosition för att enkelt bestämma en rams horisontella position för förbättrad layoutkontroll.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/frameformat/relativehorizontalposition/
 ---
 ## FrameFormat.RelativeHorizontalPosition property
 
-Får den relativa horisontella positionen för en ram.
+Hämtar den relativa horisontella positionen för en ram.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; }

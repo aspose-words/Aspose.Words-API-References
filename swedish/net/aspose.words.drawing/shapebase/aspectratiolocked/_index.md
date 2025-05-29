@@ -3,7 +3,7 @@ title: ShapeBase.AspectRatioLocked
 linktitle: AspectRatioLocked
 articleTitle: AspectRatioLocked
 second_title: Aspose.Words för .NET
-description: ShapeBase AspectRatioLocked fast egendom. Anger om formens bildförhållande är låst i C#.
+description: Upptäck ShapeBase AspectRatioLocked-egenskapen för att enkelt bibehålla dina formers bildförhållande för perfekt design. Förbättra dina projekt idag!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/shapebase/aspectratiolocked/
@@ -18,9 +18,9 @@ public bool AspectRatioLocked { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet beror på[`ShapeType`](../../shapetype/) , förImage det är`Sann` men för de andra formtyperna är det`falsk`.
+Standardvärdet beror på[`ShapeType`](../../shapetype/) , för denImage det är`sann` men för de andra formtyperna är det`falsk`.
 
-Har effekt endast för former på toppnivå.
+Gäller endast för former på översta nivån.
 
 ## Exempel
 
@@ -30,14 +30,14 @@ Visar hur man låser/låser upp en forms bildförhållande.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en form. Om vi öppnar det här dokumentet i Microsoft Word kan vi vänsterklicka på formen för att avslöja
+// Infoga en form. Om vi öppnar det här dokumentet i Microsoft Word kan vi vänsterklicka på formen för att visa den.
 // åtta storlekshandtag runt dess omkrets, som vi kan klicka och dra för att ändra storleken.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Ställ in egenskapen "AspectRatioLocked" till "true" för att bevara formens bildförhållande
-// när du använder något av de fyra diagonala storlekshandtagen, som ändrar både bildens höjd och bredd.
-// Att använda alla ortogonala storlekshandtag som antingen ändrar höjden eller bredden kommer fortfarande att ändra bildförhållandet.
-// Ställ in egenskapen "AspectRatioLocked" till "false" för att tillåta oss
+// Sätt egenskapen "AspectRatioLocked" till "true" för att bevara formens bildförhållande
+// när man använder något av de fyra diagonala storlekshandtagen, vilka ändrar både bildens höjd och bredd.
+// Att använda ortogonala storlekshandtag som antingen ändrar höjden eller bredden kommer fortfarande att ändra bildförhållandet.
+// Sätt egenskapen "AspectRatioLocked" till "false" för att tillåta oss att
 // ändra fritt bildens bildförhållande med alla storlekshandtag.
 shape.AspectRatioLocked = lockAspectRatio;
 

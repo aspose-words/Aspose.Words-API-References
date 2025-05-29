@@ -3,9 +3,9 @@ title: BasicTextShaperCache Class
 linktitle: BasicTextShaperCache
 articleTitle: BasicTextShaperCache
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Shaping.BasicTextShaperCache klass. Implementerar grundläggande cache förITextShaper instanser. Den här klassen är trådsäker i C#.
+description: Upptäck klassen Aspose.Words.Shaping.BasicTextShaperCache – din lösning för effektiv och trådsäker cachning av ITextShaper-instanser för förbättrad textbehandling.
 type: docs
-weight: 6000
+weight: 6830
 url: /sv/net/aspose.words.shaping/basictextshapercache/
 ---
 ## BasicTextShaperCache class
@@ -20,13 +20,13 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | namn | Beskrivning |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Wraps*factory* och cacher[`GetTextShaper`](../itextshaperfactory/gettextshaper/) resultat. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | Omslag*factory* och cacher[`GetTextShaper`](../itextshaperfactory/gettextshaper/) resultat. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose/)() | Kastar cachad[`ITextShaper`](../itextshaper/) instanser. |
+| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose/)() | Tar bort cachade filer[`ITextShaper`](../itextshaper/) instanser. |
 
 ### Se även
 

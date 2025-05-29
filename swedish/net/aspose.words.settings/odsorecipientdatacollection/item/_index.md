@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: OdsoRecipientDataCollection Item fast egendom. Hämtar eller ställer in ett objekt i den här samlingen i C#.
+description: Hantera enkelt din OdsoRecipientDataCollection med vår Item-egenskap. Hämta eller uppdatera enkelt objekt för sömlös datahantering.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -18,7 +18,7 @@ public OdsoRecipientData this[int index] { get; set; }
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

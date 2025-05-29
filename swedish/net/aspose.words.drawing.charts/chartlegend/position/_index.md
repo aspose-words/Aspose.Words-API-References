@@ -3,18 +3,22 @@ title: ChartLegend.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words för .NET
-description: ChartLegend Position fast egendom. Anger positionen för förklaringen på ett diagram. Standardvärdet ärRight  i C#.
+description: Upptäck egenskapen ChartLegend Position för att enkelt anpassa diagrammets förklaringsplacering för ökad tydlighet och visuell tilltalning.
 type: docs
-weight: 30
+weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-Anger positionen för förklaringen på ett diagram. Standardvärdet ärRight .
+Anger förklaringens position i ett diagram.
 
 ```csharp
 public LegendPosition Position { get; set; }
 ```
+
+## Anmärkningar
+
+Standardvärdet ärRight för diagram före Word 2016 och Top för Word 2016-diagram.
 
 ## Exempel
 

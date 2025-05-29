@@ -3,7 +3,7 @@ title: VbaModuleCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: VbaModuleCollection Add metod. Lägger till en modul i samlingen i C#.
+description: Förbättra enkelt dina VBA-projekt med VbaModuleCollection Add-metoden, vilket möjliggör sömlös tillägg av moduler för förbättrad funktionalitet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.vba/vbamodulecollection/add/

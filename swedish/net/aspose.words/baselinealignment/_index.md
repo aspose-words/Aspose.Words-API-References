@@ -3,14 +3,14 @@ title: BaselineAlignment Enum
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
 second_title: Aspose.Words för .NET
-description: Aspose.Words.BaselineAlignment uppräkning. Anger teckensnittens vertikala position på en linje i C#.
+description: Upptäck Aspose.Words.BaselineAlignment-uppräkningen för exakt teckensnittspositionering. Förbättra din dokumentformatering med optimala vertikala justeringsalternativ.
 type: docs
-weight: 20
+weight: 130
 url: /sv/net/aspose.words/baselinealignment/
 ---
 ## BaselineAlignment enumeration
 
-Anger teckensnittens vertikala position på en linje.
+Anger teckensnittens vertikala position på en rad.
 
 ```csharp
 public enum BaselineAlignment
@@ -20,15 +20,15 @@ public enum BaselineAlignment
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Top | `0` | Justeras längst upp på varje teckensnitt. |
+| Top | `0` | Justerar längs toppen av varje teckensnitt. |
 | Center | `1` | Justerar mittpunkterna för varje teckensnitt. |
-| Baseline | `2` | Justeras till styckets baslinje. |
-| Bottom | `3` | Justeras till botten av varje teckensnitt. |
+| Baseline | `2` | Justerar mot styckets baslinje. |
+| Bottom | `3` | Justerar längst ner i varje teckensnitt. |
 | Auto | `4` | Baslinjen justeras automatiskt. |
 
 ## Exempel
 
-Visar hur du ställer in teckensnitt vertikalt på en linje.
+Visar hur man ställer in teckensnittens vertikala position på en rad.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

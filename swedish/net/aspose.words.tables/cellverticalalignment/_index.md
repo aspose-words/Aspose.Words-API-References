@@ -3,9 +3,9 @@ title: CellVerticalAlignment Enum
 linktitle: CellVerticalAlignment
 articleTitle: CellVerticalAlignment
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Tables.CellVerticalAlignment uppräkning. Anger vertikal justering av text inuti en tabellcell i C#.
+description: Upptäck Aspose.Words.Tables.CellVerticalAlignment-uppräkningen för optimal textjustering i tabellceller. Förbättra din dokumentlayout utan ansträngning!
 type: docs
-weight: 6280
+weight: 7130
 url: /sv/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
@@ -20,9 +20,9 @@ public enum CellVerticalAlignment
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Top | `0` | Text är justerad överst i en cell. |
-| Center | `1` | Text är justerad i mitten av en cell. |
-| Bottom | `2` | Texten är justerad längst ned i cellen. |
+| Top | `0` | Texten justeras högst upp i en cell. |
+| Center | `1` | Texten är justerad mitt i en cell. |
+| Bottom | `2` | Texten justeras längst ner i cellen. |
 
 ## Exempel
 
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// När du bygger tabellen kommer dokumentbyggaren att tillämpa sina nuvarande RowFormat/CellFormat-egenskapsvärden
-// till den aktuella raden/cellen som markören är i och eventuella nya rader/celler när den skapar dem.
+// När tabellen skapas kommer dokumentbyggaren att tillämpa dess aktuella RowFormat/CellFormat-egenskapsvärden
+// till den aktuella raden/cellen där markören befinner sig och alla nya rader/celler allt eftersom de skapas.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i byggarens formatering.
+// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i formateringen i verktyget.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

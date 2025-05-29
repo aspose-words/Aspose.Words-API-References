@@ -3,14 +3,14 @@ title: ShapeBase.FlipOrientation
 linktitle: FlipOrientation
 articleTitle: FlipOrientation
 second_title: Aspose.Words för .NET
-description: ShapeBase FlipOrientation fast egendom. Ändrar orienteringen för en form i C#.
+description: Upptäck ShapeBase FlipOrientation-egenskapen för att enkelt ändra formens orientering och förbättra dina designer med lätthet och kreativitet.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.drawing/shapebase/fliporientation/
 ---
 ## ShapeBase.FlipOrientation property
 
-Ändrar orienteringen för en form.
+Växlar orienteringen på en form.
 
 ```csharp
 public FlipOrientation FlipOrientation { get; set; }
@@ -28,7 +28,7 @@ Visar hur man vänder en form på en axel.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en bildform och lämna dess orientering i standardläge.
+// Infoga en bildform och lämna dess orientering i standardläget.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
@@ -40,7 +40,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
 // Ställ in egenskapen "FlipOrientation" till "FlipOrientation.Horizontal" för att vända den andra formen på y-axeln,
-// gör det till en horisontell spegelbild av den första formen.
+// gör den till en horisontell spegelbild av den första formen.
 shape.FlipOrientation = FlipOrientation.Horizontal;
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
@@ -56,7 +56,7 @@ shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.Left
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
 // Ställ in egenskapen "FlipOrientation" till "FlipOrientation.Horizontal" för att vända den fjärde formen på både x- och y-axeln,
-// gör det till en horisontell och vertikal spegelbild av den första formen.
+// gör den till en horisontell och vertikal spegelbild av den första formen.
 shape.FlipOrientation = FlipOrientation.Both;
 
 doc.Save(ArtifactsDir + "Shape.FlipShapeOrientation.docx");

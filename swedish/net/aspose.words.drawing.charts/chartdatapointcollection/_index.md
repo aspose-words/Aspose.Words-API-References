@@ -3,9 +3,9 @@ title: ChartDataPointCollection Class
 linktitle: ChartDataPointCollection
 articleTitle: ChartDataPointCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection klass. Representerar en samling av enChartDataPoint  i C#.
+description: Upptäck klassen Aspose.Words.Drawing.Charts.ChartDataPointCollection, din nyckel till att enkelt hantera ChartDataPoint-samlingar för förbättrad datavisualisering.
 type: docs
-weight: 700
+weight: 980
 url: /sv/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
@@ -23,18 +23,20 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count/) { get; } | Returnerar antalet[`ChartDataPoint`](../chartdatapoint/) i den här samlingen. |
-| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | Returnerar[`ChartDataPoint`](../chartdatapoint/) för det angivna indexet. |
+| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | Returer[`ChartDataPoint`](../chartdatapoint/) för det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Rensar alla format[`ChartDataPoint`](../chartdatapoint/) i den här samlingen. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Rensar formatet för alla[`ChartDataPoint`](../chartdatapoint/) i den här samlingen. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(*int, int*) | Kopierar format från källdatapunkten till destinationsdatapunkten. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(*int*) | Hämtar en flagga som anger om datapunkten vid det angivna indexet har standardformat. |
 
 ## Exempel
 
-Visar hur man arbetar med datapunkter på ett linjediagram.
+Visar hur man arbetar med datapunkter i ett linjediagram.
 
 ```csharp
 public void ChartDataPoint()
@@ -50,14 +52,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Framhäv diagrammets datapunkter genom att få dem att visas som diamantformer.
-    foreach (ChartSeries series in chart.Series) 
+    // Betona diagrammets datapunkter genom att få dem att visas som diamantformer.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Jämna ut linjen som representerar den första dataserien.
     chart.Series[0].Smooth = true;
 
-    // Kontrollera att datapunkter för den första serien inte kommer att invertera sina färger om värdet är negativt.
+    // Verifiera att datapunkterna för den första serien inte inverterar sina färger om värdet är negativt.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -66,10 +68,13 @@ public void ChartDataPoint()
         }
     }
 
-    // För en renare graf kan vi rensa format individuellt.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Vi kan också ta bort en hel serie datapunkter på en gång.
+    // För en renare graf kan vi rensa formatet individuellt.
+    dataPoint.ClearFormat();
+
+    // Vi kan också ta bort en hel serie datapunkter samtidigt.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

@@ -3,14 +3,14 @@ title: ChartMultilevelValue.Level1
 linktitle: Level1
 articleTitle: Level1
 second_title: Aspose.Words för .NET
-description: ChartMultilevelValue Level1 fast egendom. Hämtar namnet på diagrammets toppnivå som detta värde refererar till i C#.
+description: Upptäck ChartMultilevelValue Level1. Identifiera enkelt diagramnamnet på den översta nivån för förbättrad datatydlighet och insikter. Frigör dina datas potential!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartmultilevelvalue/level1/
 ---
 ## ChartMultilevelValue.Level1 property
 
-Hämtar namnet på diagrammets toppnivå som detta värde refererar till.
+Hämtar namnet på den översta diagramnivån som detta värde refererar till.
 
 ```csharp
 public string Level1 { get; }

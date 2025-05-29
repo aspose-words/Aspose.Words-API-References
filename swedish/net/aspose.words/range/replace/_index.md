@@ -3,14 +3,14 @@ title: Range.Replace
 linktitle: Replace
 articleTitle: Replace
 second_title: Aspose.Words för .NET
-description: Range Replace metod. Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng i C#.
+description: Ersätt enkelt alla förekomster av ett teckensträngmönster med metoden Range Replace. Förbättra din textbehandling med detta kraftfulla verktyg!
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words/range/replace/
 ---
 ## Replace(*string, string*) {#replace}
 
-Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng.
+Ersätter alla förekomster av ett angivet teckensträngmönster med en ersättningssträng.
 
 ```csharp
 public int Replace(string pattern, string replacement)
@@ -18,29 +18,29 @@ public int Replace(string pattern, string replacement)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pattern | String | En sträng som ska bytas ut. |
-| replacement | String | En sträng för att ersätta alla förekomster av mönster. |
+| pattern | String | En sträng som ska ersättas. |
+| replacement | String | En sträng som ersätter alla förekomster av mönstret. |
 
 ### Returvärde
 
-Antalet byten som gjorts.
+Antalet gjorda ersättningar.
 
 ## Anmärkningar
 
-Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace`om du behöver reguljära uttryck.
+Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace` om du behöver reguljära uttryck.
 
-Använde skiftlägesokänslig jämförelse.
+Använde jämförelse utan skiftlägeskänslighet.
 
 Metoden kan bearbeta avbrott i både mönster- och ersättningssträngar.
 
-Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
+Du bör använda speciella metatecken om du behöver arbeta med brytningar:
 
-* **&amp;s** - styckebrytning
-* **&amp;b** - avsnittsuppehåll
+* **&amp;p** - styckebrytning
+* **&amp;b** - avsnittsbrytning
 * **&amp;m** - sidbrytning
 * **&amp;l** - manuell radbrytning
 
-Använd metod`Replace` för att få mer flexibel anpassning.
+Användningsmetod`Replace` för att ha mer flexibel anpassning.
 
 ## Exempel
 
@@ -53,7 +53,7 @@ builder.Writeln("Numbers 1, 2, 3");
 doc.Range.Replace("Numbers", "Numbers&p", new FindReplaceOptions());
 ```
 
-Visar hur man utför en sök-och-ersätt textoperation på innehållet i ett dokument.
+Visar hur man utför en sök-och-ersätt-text-operation på innehållet i ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -61,14 +61,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Greetings, _FullName_!");
 
-// Utför en sök-och-ersätt-operation på vårt dokuments innehåll och verifiera antalet ersättningar som ägde rum.
+// Utför en sök-och-ersätt-operation på vårt dokuments innehåll och verifiera antalet ersättningar som har skett.
 int replacementCount = doc.Range.Replace("_FullName_", "John Doe");
 
 Assert.AreEqual(1, replacementCount);
 Assert.AreEqual("Greetings, John Doe!", doc.GetText().Trim());
 ```
 
-Visar hur man lägger till formatering i stycken där en sök-och-ersätt-åtgärd har hittat matchningar.
+Visar hur man lägger till formatering i stycken där en sök-och-ersätt-åtgärd har hittat träffar.
 
 ```csharp
 Document doc = new Document();
@@ -84,14 +84,14 @@ Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
 Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
 
-// Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+// Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Ställ in egenskapen "Alignment" till "ParagraphAlignment.Right" för att högerjustera varje stycke
-// som innehåller en matchning som hitta-och-ersätt-operationen hittar.
+// som innehåller en matchning som sök-och-ersätt-operationen hittar.
 options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 
-// Byt ut varje punkt som är precis före en styckebrytning med ett utropstecken.
+// Ersätt varje punkt som står precis före en styckebrytning med ett utropstecken.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
 Assert.AreEqual(2, count);
@@ -122,26 +122,26 @@ public int Replace(Regex pattern, string replacement)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | pattern | Regex | Ett reguljärt uttrycksmönster som används för att hitta matchningar. |
-| replacement | String | En sträng för att ersätta alla förekomster av mönster. |
+| replacement | String | En sträng som ersätter alla förekomster av mönstret. |
 
 ### Returvärde
 
-Antalet byten som gjorts.
+Antalet gjorda ersättningar.
 
 ## Anmärkningar
 
-Ersätter hela matchningen som fångas av det reguljära uttrycket.
+Ersätter hela matchningen som registreras av det reguljära uttrycket.
 
 Metoden kan bearbeta avbrott i både mönster- och ersättningssträngar.
 
-Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
+Du bör använda speciella metatecken om du behöver arbeta med brytningar:
 
-* **&amp;s** - styckebrytning
-* **&amp;b** - avsnittsuppehåll
+* **&amp;p** - styckebrytning
+* **&amp;b** - avsnittsbrytning
 * **&amp;m** - sidbrytning
 * **&amp;l** - manuell radbrytning
 
-Använd metod`Replace` för att få mer flexibel anpassning.
+Användningsmetod`Replace` för att ha mer flexibel anpassning.
 
 ## Exempel
 
@@ -177,7 +177,7 @@ Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavend
 
 ## Replace(*string, string, [FindReplaceOptions](../../../aspose.words.replacing/findreplaceoptions/)*) {#replace_1}
 
-Ersätter alla förekomster av ett specificerat teckensträngmönster med en ersättningssträng.
+Ersätter alla förekomster av ett angivet teckensträngmönster med en ersättningssträng.
 
 ```csharp
 public int Replace(string pattern, string replacement, FindReplaceOptions options)
@@ -185,24 +185,24 @@ public int Replace(string pattern, string replacement, FindReplaceOptions option
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| pattern | String | En sträng som ska bytas ut. |
-| replacement | String | En sträng för att ersätta alla förekomster av mönster. |
+| pattern | String | En sträng som ska ersättas. |
+| replacement | String | En sträng som ersätter alla förekomster av mönstret. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) objekt för att ange ytterligare alternativ. |
 
 ### Returvärde
 
-Antalet byten som gjorts.
+Antalet gjorda ersättningar.
 
 ## Anmärkningar
 
-Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace`om du behöver reguljära uttryck.
+Mönstret kommer inte att användas som reguljärt uttryck. Vänligen använd`Replace` om du behöver reguljära uttryck.
 
 Metoden kan bearbeta avbrott i både mönster- och ersättningssträngar.
 
-Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
+Du bör använda speciella metatecken om du behöver arbeta med brytningar:
 
-* **&amp;s** - styckebrytning
-* **&amp;b** - avsnittsuppehåll
+* **&amp;p** - styckebrytning
+* **&amp;b** - avsnittsbrytning
 * **&amp;m** - sidbrytning
 * **&amp;l** - manuell radbrytning
 * **&amp;&amp;** - &amp; karaktär
@@ -238,7 +238,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Visar hur du växlar skiftlägeskänslighet när du utför en sök-och-ersätt-åtgärd.
+Visar hur man växlar mellan skiftlägeskänslighet och versalkänslighet när man utför en sök-och-ersätt-åtgärd.
 
 ```csharp
 Document doc = new Document();
@@ -246,11 +246,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Ruby bought a ruby necklace.");
 
-// Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+// Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Ställ in "MatchCase"-flaggan till "true" för att tillämpa skiftlägeskänslighet samtidigt som du hittar strängar att ersätta.
-// Ställ in "MatchCase"-flaggan till "false" för att ignorera skiftläge när du söker efter text som ska ersättas.
+// Sätt flaggan "MatchCase" till "true" för att tillämpa skiftlägeskänslighet när strängar söks efter att ersättas.
+// Sätt flaggan "MatchCase" till "false" för att ignorera skiftläge vid sökning efter text att ersätta.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
@@ -259,7 +259,7 @@ Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade
     doc.GetText().Trim());
 ```
 
-Visar hur du växlar fristående sök-och-ersätt-operationer för endast ord.
+Visar hur man växlar mellan fristående sök-och-ersätt-åtgärder som endast avser ord.
 
 ```csharp
 Document doc = new Document();
@@ -267,11 +267,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+// Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Ställ in "FindWholeWordsOnly"-flaggan till "true" för att ersätta den hittade texten om den inte är en del av ett annat ord.
-// Ställ in "FindWholeWordsOnly"-flaggan till "false" för att ersätta all text oavsett omgivning.
+// Sätt flaggan "FindWholeWordsOnly" till "true" för att ersätta den funna texten om den inte är en del av ett annat ord.
+// Sätt flaggan "FindWholeWordsOnly" till "false" för att ersätta all text oavsett dess omgivning.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);
@@ -281,7 +281,7 @@ Assert.AreEqual(
     doc.GetText().Trim());
 ```
 
-Visar hur man ersätter alla instanser av textsträng i en tabell och cell.
+Visar hur man ersätter alla förekomster av textsträngar i en tabell och cell.
 
 ```csharp
 Document doc = new Document();
@@ -303,10 +303,10 @@ FindReplaceOptions options = new FindReplaceOptions();
 options.MatchCase = true;
 options.FindWholeWordsOnly = true;
 
-// Utför en hitta-och-ersätt-operation på ett helt bord.
+// Utför en sök-och-ersätt-operation på en hel tabell.
 table.Range.Replace("Carrots", "Eggs", options);
 
-// Utför en sök-och-ersätt-operation på den sista cellen i den sista raden i tabellen.
+// Utför en sök-och-ersätt-operation på den sista cellen på den sista raden i tabellen.
 table.LastRow.LastCell.Range.Replace("50", "20", options);
 
 Assert.AreEqual("Eggs\a50\a\a" +
@@ -333,23 +333,23 @@ public int Replace(Regex pattern, string replacement, FindReplaceOptions options
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | pattern | Regex | Ett reguljärt uttrycksmönster som används för att hitta matchningar. |
-| replacement | String | En sträng för att ersätta alla förekomster av mönster. |
+| replacement | String | En sträng som ersätter alla förekomster av mönstret. |
 | options | FindReplaceOptions | [`FindReplaceOptions`](../../../aspose.words.replacing/findreplaceoptions/) objekt för att ange ytterligare alternativ. |
 
 ### Returvärde
 
-Antalet byten som gjorts.
+Antalet gjorda ersättningar.
 
 ## Anmärkningar
 
-Ersätter hela matchningen som fångas av det reguljära uttrycket.
+Ersätter hela matchningen som registreras av det reguljära uttrycket.
 
 Metoden kan bearbeta avbrott i både mönster- och ersättningssträngar.
 
-Du bör använda speciella meta-tecken om du behöver arbeta med pauser:
+Du bör använda speciella metatecken om du behöver arbeta med brytningar:
 
-* **&amp;s** - styckebrytning
-* **&amp;b** - avsnittsuppehåll
+* **&amp;p** - styckebrytning
+* **&amp;b** - avsnittsbrytning
 * **&amp;m** - sidbrytning
 * **&amp;l** - manuell radbrytning
 * **&amp;&amp;** - &amp; karaktär
@@ -376,10 +376,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in en återuppringning som spårar alla ersättningar som "Ersätt"-metoden kommer att göra.
+    // Ställ in en återanropning som spårar alla ersättningar som "Replace"-metoden gör.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -393,8 +393,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Upprätthåller en logg över varje textersättning som görs med en sök-och-ersätt-operation
-/// och noterar den ursprungliga matchade textens värde.
+/// Upprätthåller en logg över varje textersättning som görs av en sök-och-ersätt-operation
+/// och noterar den ursprungliga matchande textens värde.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -416,14 +416,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
+Visar hur man infogar ett helt dokuments innehåll som en ersättning för en matchning i en sök-och-ersätt-åtgärd.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -438,11 +438,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Infoga ett dokument efter stycket som innehåller den matchade texten.
+        // Infoga ett dokument efter stycket som innehåller den matchande texten.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Ta bort stycket med den matchade texten.
+        // Ta bort stycket med den matchande texten.
         para.Remove();
 
         return ReplaceAction.Skip;

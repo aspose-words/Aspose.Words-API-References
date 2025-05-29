@@ -3,14 +3,14 @@ title: HtmlSaveOptions.CssStyleSheetFileName
 linktitle: CssStyleSheetFileName
 articleTitle: CssStyleSheetFileName
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions CssStyleSheetFileName fast egendom. Anger sökvägen och namnet på CSSfilen Cascading Style Sheet som skrivs när ett document exporteras till HTML. Standard är en tom sträng i C#.
+description: Upptäck hur egenskapen HtmlSaveOptions CssStyleSheetFileName anpassar dina HTML-exporter med en specificerad CSS-filsökväg, vilket förbättrar dokumentets stil.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/htmlsaveoptions/cssstylesheetfilename/
 ---
 ## HtmlSaveOptions.CssStyleSheetFileName property
 
-Anger sökvägen och namnet på CSS-filen (Cascading Style Sheet) som skrivs när ett document exporteras till HTML. Standard är en tom sträng.
+Anger sökvägen och namnet på CSS-filen (Cascading Style Sheet) som skrivs när ett dokument exporteras till HTML. Standardvärdet är en tom sträng.
 
 ```csharp
 public string CssStyleSheetFileName { get; set; }
@@ -18,38 +18,38 @@ public string CssStyleSheetFileName { get; set; }
 
 ## Anmärkningar
 
-Den här egenskapen har endast effekt när du vill spara ett dokument i HTML-format och extern CSS-stilmall begärs med[`CssStyleSheetType`](../cssstylesheettype/).
+Den här egenskapen har endast effekt när ett dokument sparas i HTML-formatet och externt CSS-formatmall begärs med[`CssStyleSheetType`](../cssstylesheettype/).
 
-Om den här egenskapen är tom kommer CSS-filen att sparas i samma mapp och med samma namn som HTML -dokumentet men med tillägget ".css".
+Om den här egenskapen är tom sparas CSS-filen i samma mapp och med samma namn som HTML -dokumentet, men med filändelsen ".css".
 
-Om endast sökväg men inget filnamn anges i den här egenskapen, sparas CSS-filen i mappen specific och kommer att ha samma namn som HTML-dokumentet men med tillägget ".css".
+Om endast sökväg men inget filnamn anges i den här egenskapen, sparas CSS-filen i den angivna mappen och har samma namn som HTML-dokumentet men med filändelsen ".css".
 
-Om mappen som anges av den här egenskapen inte finns skapas den automatiskt innan CSS-filen sparas.
+Om mappen som anges av den här egenskapen inte finns, skapas den automatiskt innan CSS-filen sparas.
 
-Ett annat sätt att ange en mapp där extern CSS-fil sparas är att använda[`ResourceFolder`](../resourcefolder/) .
+Ett annat sätt att ange en mapp där externa CSS-filer sparas är att använda[`ResourceFolder`](../resourcefolder/) .
 
 ## Exempel
 
-Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
+Visar hur man arbetar med CSS-stilmallar som skapas av en HTML-konvertering.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur vi konverterar dokumentet till HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Ställ in egenskapen "CssStylesheetType" till "CssStyleSheetType.External" till
-    // åtfölja ett sparat HTML-dokument med en extern CSS-formatmallsfil.
+    // Ställ in egenskapen "CssStylesheetType" till "CssStyleSheetType.External" för att
+    // komplettera ett sparat HTML-dokument med en extern CSS-stilarksfil.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Nedan finns två sätt att ange kataloger och filnamn för CSS-formatmallar.
-    // 1 - Använd egenskapen "CssStyleSheetFileName" för att tilldela ett filnamn till vår stilmall:
+    // Nedan följer två sätt att ange kataloger och filnamn för CSS-formatmallar som utdata.
+    // 1 - Använd egenskapen "CssStyleSheetFileName" för att tilldela ett filnamn till vårt stilark:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Använd en anpassad återuppringning för att namnge vår stilmall:
+    // 2 - Använd en anpassad återuppringning för att namnge vårt stilark:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -57,7 +57,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Ställer in ett anpassat filnamn, tillsammans med andra parametrar för en extern CSS-stilmall.
+/// Anger ett anpassat filnamn, tillsammans med andra parametrar för ett externt CSS-stilark.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {

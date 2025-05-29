@@ -3,14 +3,14 @@ title: Document.WriteProtection
 linktitle: WriteProtection
 articleTitle: WriteProtection
 second_title: Aspose.Words för .NET
-description: Document WriteProtection fast egendom. Ger åtkomst till alternativen för dokumentskrivskydd i C#.
+description: Utforska egenskapen Dokumentskrivskydd för att enkelt hantera dokumentets skrivskyddsinställningar och förbättra säkerheten.
 type: docs
-weight: 500
+weight: 520
 url: /sv/net/aspose.words/document/writeprotection/
 ---
 ## Document.WriteProtection property
 
-Ger åtkomst till alternativen för dokumentskrivskydd.
+Ger åtkomst till dokumentets skrivskyddsalternativ.
 
 ```csharp
 public WriteProtection WriteProtection { get; }
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Skyddet hindrar inte dokumentet från att redigeras programmatiskt, och det krypterar inte heller innehållet.
+// Skyddet hindrar inte dokumentet från att redigeras programmatiskt, och krypterar inte heller innehållet.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

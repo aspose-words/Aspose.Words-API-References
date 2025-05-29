@@ -3,14 +3,14 @@ title: OlePackage.DisplayName
 linktitle: DisplayName
 articleTitle: DisplayName
 second_title: Aspose.Words för .NET
-description: OlePackage DisplayName fast egendom. Hämtar eller ställer in OLEpaketets visningsnamn i C#.
+description: Upptäck egenskapen OlePackage DisplayName för att enkelt hantera visningsnamn för OLE-paket. Förbättra din dataorganisation med denna viktiga funktion.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/olepackage/displayname/
 ---
 ## OlePackage.DisplayName property
 
-Hämtar eller ställer in OLE-paketets visningsnamn.
+Hämtar eller anger visningsnamn för OLE-paket.
 
 ```csharp
 public string DisplayName { get; set; }
@@ -24,7 +24,7 @@ Visar hur man infogar ett OLE-objekt i ett dokument.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// OLE-objekt tillåter oss att öppna andra filer i det lokala filsystemet med ett annat installerat program
+// OLE-objekt låter oss öppna andra filer i det lokala filsystemet med hjälp av ett annat installerat program
 // i vårt operativsystem genom att dubbelklicka på formen som innehåller OLE-objektet i dokumentets brödtext.
 // I det här fallet kommer vår externa fil att vara ett ZIP-arkiv.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");

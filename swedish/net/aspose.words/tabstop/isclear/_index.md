@@ -3,14 +3,14 @@ title: TabStop.IsClear
 linktitle: IsClear
 articleTitle: IsClear
 second_title: Aspose.Words för .NET
-description: TabStop IsClear fast egendom. ReturnerarSann om detta tabbstopp rensar alla befintliga tabbstopp i denna position i C#.
+description: Upptäck hur egenskapen TabStop IsClear förbättrar ditt användargränssnitt genom att säkerställa sömlös flikhantering, rensa befintliga stopp för en smidigare användarupplevelse.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/tabstop/isclear/
 ---
 ## TabStop.IsClear property
 
-Returnerar`Sann` om detta tabbstopp rensar alla befintliga tabbstopp i denna position.
+Returer`sann` om detta tabbstopp rensar alla befintliga tabbstopp i denna position.
 
 ```csharp
 public bool IsClear { get; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -45,7 +45,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

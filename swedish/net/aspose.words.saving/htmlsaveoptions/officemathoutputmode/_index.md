@@ -3,7 +3,7 @@ title: HtmlSaveOptions.OfficeMathOutputMode
 linktitle: OfficeMathOutputMode
 articleTitle: OfficeMathOutputMode
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions OfficeMathOutputMode fast egendom. Styr hur OfficeMathobjekt exporteras till HTML MHTML eller EPUB. Standardvärdet ärImage  i C#.
+description: Upptäck HtmlSaveOptions OfficeMathOutputMode för optimal HTML-, MHTML- eller EPUB-export. Anpassa OfficeMath-objektutdata enkelt!
 type: docs
 weight: 400
 url: /sv/net/aspose.words.saving/htmlsaveoptions/officemathoutputmode/
@@ -24,10 +24,10 @@ Visar hur man anger hur man exporterar Microsoft OfficeMath-objekt till HTML.
 Document doc = new Document(MyDir + "Office math.docx");
 
 // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt
-// för att bestämma hur sparoperationen hanterar OfficeMath-objekt.
-// Ställ in egenskapen "OfficeMathOutputMode" till "HtmlOfficeMathOutputMode.Image"
+// för att avgöra hur sparoperationen hanterar OfficeMath-objekt.
+// Ställer in egenskapen "OfficeMathOutputMode" till "HtmlOfficeMathOutputMode.Image"
 // kommer att rendera varje OfficeMath-objekt till en bild.
-// Ställ in egenskapen "OfficeMathOutputMode" till "HtmlOfficeMathOutputMode.MathML"
+// Ställer in egenskapen "OfficeMathOutputMode" till "HtmlOfficeMathOutputMode.MathML"
 // kommer att konvertera varje OfficeMath-objekt till MathML.
 // Ställer in egenskapen "OfficeMathOutputMode" till "HtmlOfficeMathOutputMode.Text"
 // kommer att representera varje OfficeMath-formel med vanlig HTML-text.
@@ -39,9 +39,9 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.OfficeM
 switch (htmlOfficeMathOutputMode)
 {
     case HtmlOfficeMathOutputMode.Image:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt\">" +
-                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"159\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
+                "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"163\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
                 "-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
             "</p>").Success);
         break;

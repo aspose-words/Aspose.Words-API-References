@@ -3,14 +3,14 @@ title: ParagraphFormat.KeepWithNext
 linktitle: KeepWithNext
 articleTitle: KeepWithNext
 second_title: Aspose.Words för .NET
-description: ParagraphFormat KeepWithNext fast egendom. Sant om stycket ska förbli på samma sida som stycket som följer efter det i C#.
+description: Upptäck hur egenskapen ParagraphFormat KeepWithNext säkerställer att dina stycken hålls ihop, vilket förbättrar dokumentflödet och läsbarheten för ett elegant utseende.
 type: docs
 weight: 170
 url: /sv/net/aspose.words/paragraphformat/keepwithnext/
 ---
 ## ParagraphFormat.KeepWithNext property
 
-Sant om stycket ska förbli på samma sida som stycket som följer efter det.
+Sant om stycket ska förbli på samma sida som stycket som följer det.
 
 ```csharp
 public bool KeepWithNext { get; set; }
@@ -18,16 +18,16 @@ public bool KeepWithNext { get; set; }
 
 ## Exempel
 
-Visar hur man ställer in ett bord för att hålla ihop på samma sida.
+Visar hur man dukar ett bord så att det står ihop på samma sida.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Aktivera KeepWithNext för varje stycke i tabellen utom för
-// de sista i den sista raden kommer att förhindra att tabellen delas upp på flera sidor.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Aktiverar KeepWithNext för varje stycke i tabellen förutom
+// de sista på den sista raden förhindrar att tabellen delas upp över flera sidor.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

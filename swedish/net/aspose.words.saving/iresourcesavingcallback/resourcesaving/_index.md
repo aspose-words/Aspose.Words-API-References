@@ -3,14 +3,14 @@ title: IResourceSavingCallback.ResourceSaving
 linktitle: ResourceSaving
 articleTitle: ResourceSaving
 second_title: Aspose.Words för .NET
-description: IResourceSavingCallback ResourceSaving metod. Anropas när Aspose.Words sparar en extern resurs till fasta HTML eller SVGformat på sidan i C#.
+description: Optimera din dokumenthantering med ResourceSaving-metoden i Aspose.Words, vilket förbättrar extern resurshantering för HTML- och SVG-format.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
 ---
 ## IResourceSavingCallback.ResourceSaving method
 
-Anropas när Aspose.Words sparar en extern resurs till fasta HTML- eller SVG-format på sidan.
+Anropas när Aspose.Words sparar en extern resurs till fasta sidformat i HTML eller SVG.
 
 ```csharp
 public void ResourceSaving(ResourceSavingArgs args)
@@ -18,7 +18,7 @@ public void ResourceSaving(ResourceSavingArgs args)
 
 ## Exempel
 
-Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
+Visar hur man använder en återanropsfunktion för att spåra externa resurser som skapats vid konvertering av ett dokument till HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Anropas när Aspose.Words sparar en extern resurs till fixerad HTML eller SVG.
+    /// Anropas när Aspose.Words sparar en extern resurs till en fast sida i HTML eller SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -58,7 +58,7 @@ private class FontSavingCallback : IResourceSavingCallback
 }
 ```
 
-Visar hur man använder en återuppringning för att skriva ut URI:erna för externa resurser som skapats när ett dokument konverterades till HTML.
+Visar hur man använder en återanropsfunktion för att skriva ut URI:erna för externa resurser som skapats vid konvertering av ett dokument till HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -77,7 +77,7 @@ public void HtmlFixedResourceFolder()
         ResourceSavingCallback = callback
     };
 
-    // En mapp specificerad av ResourcesFolderAlias kommer att innehålla resurserna istället för ResourcesFolder.
+    // En mapp som anges av ResourcesFolderAlias kommer att innehålla resurserna istället för ResourcesFolder.
     // Vi måste se till att mappen finns innan strömmarna kan lägga sina resurser i den.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
@@ -92,13 +92,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Räknar och skriver ut URI:er för resurser som finns i när de konverteras till fast HTML.
+/// Räknar och skriver ut URI:er för resurser som finns i `allt eftersom de konverteras till fast HTML`.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Om vi ställer in ett mappalias i SaveOptions-objektet kommer vi att kunna skriva ut det härifrån.
+        // Om vi anger ett mappalias i SaveOptions-objektet kommer vi att kunna skriva ut det härifrån.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -108,7 +108,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Som standard använder 'ResourceFileUri' systemmappen för teckensnitt.
-                // För att undvika problem på andra plattformar måste du uttryckligen ange sökvägen för typsnitten.
+                // För att undvika problem på andra plattformar måste du explicit ange sökvägen för teckensnitten.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -117,7 +117,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Om vi har angett en mapp i egenskapen "ResourcesFolderAlias",
-        // vi kommer också att behöva omdirigera varje ström för att placera dess resurs i den mappen.
+        // vi måste också omdirigera varje ström för att placera dess resurs i den mappen.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

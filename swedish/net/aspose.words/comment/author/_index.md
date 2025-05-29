@@ -3,14 +3,14 @@ title: Comment.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words för .NET
-description: Comment Author fast egendom. Returnerar eller ställer in författarens namn för en kommentar i C#.
+description: Hantera kommentarförfattare enkelt med egenskapen Kommentarförfattare. Returnera eller ange enkelt författarnamn för att förbättra användarengagemang och innehållets tydlighet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/comment/author/
 ---
 ## Comment.Author property
 
-Returnerar eller ställer in författarens namn för en kommentar.
+Returnerar eller anger författarnamnet för en kommentar.
 
 ```csharp
 public string Author { get; set; }
@@ -20,19 +20,19 @@ public string Author { get; set; }
 
 Kan inte vara`null`.
 
-Standard är tom sträng.
+Standardvärdet är en tom sträng.
 
 ## Exempel
 
-Visar hur du skriver ut alla kommentarer i ett dokument och deras svar.
+Visar hur man skriver ut alla kommentarer och svar i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Om en kommentar inte har någon förfader är den en kommentar på "toppnivå" i motsats till en kommentar av typen svar.
-// Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar de kan ha.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Om en kommentar inte har någon överordnad kommentar är det en kommentar på "toppnivå" i motsats till en kommentar av svarstyp.
+// Skriv ut alla kommentarer på toppnivå tillsammans med eventuella svar.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

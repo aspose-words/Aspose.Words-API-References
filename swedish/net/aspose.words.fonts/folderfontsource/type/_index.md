@@ -3,14 +3,14 @@ title: FolderFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: FolderFontSource Type fast egendom. Returnerar typen av teckensnittskälla i C#.
+description: Upptäck egenskapen FolderFontSource Type. Identifiera enkelt teckensnittskälltyper för att förbättra dina designprojekt och effektivisera ditt arbetsflöde.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fonts/folderfontsource/type/
 ---
 ## FolderFontSource.Type property
 
-Returnerar typen av teckensnittskälla.
+Returnerar typen av teckensnittskällan.
 
 ```csharp
 public override FontSourceType Type { get; }

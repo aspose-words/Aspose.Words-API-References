@@ -3,14 +3,14 @@ title: CustomPartCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: CustomPartCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
+description: Utforska CustomPartCollection GetEnumerator-metoden för att enkelt iterera igenom alla objekt i din samling. Effektivisera din datahantering idag!
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/custompartcollection/getenumerator/
 ---
 ## CustomPartCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen.
 
 ```csharp
 public IEnumerator<CustomPart> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<CustomPart> GetEnumerator()
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

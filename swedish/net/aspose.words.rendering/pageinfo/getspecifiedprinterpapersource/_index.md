@@ -3,14 +3,14 @@ title: PageInfo.GetSpecifiedPrinterPaperSource
 linktitle: GetSpecifiedPrinterPaperSource
 articleTitle: GetSpecifiedPrinterPaperSource
 second_title: Aspose.Words för .NET
-description: PageInfo GetSpecifiedPrinterPaperSource metod. FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av dettaPageInfo  i C#.
+description: Upptäck GetSpecifiedPrinterPaperSource-metoden i PageInfo. Hämta effektivt den perfekta PaperSource-källan för sömlös utskrift av sidor.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/
 ---
 ## PageInfo.GetSpecifiedPrinterPaperSource method
 
-FårPaperSource objekt som är lämpligt för utskrift sidan som representeras av detta[`PageInfo`](../) .
+HämtarPaperSource objekt lämpligt för utskrift sidan som representeras av detta[`PageInfo`](../) .
 
 ```csharp
 public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSources, 
@@ -20,7 +20,7 @@ public PaperSource GetSpecifiedPrinterPaperSource(PaperSourceCollection paperSou
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | paperSources | PaperSourceCollection | Tillgängliga papperskällor. |
-| defaultPageSettingsPaperSource | PaperSource | Papperskälla definierad i standardskrivarinställningar. |
+| defaultPageSettingsPaperSource | PaperSource | Papperskälla definierad i standardinställningarna för skrivaren. |
 
 ### Returvärde
 
@@ -28,17 +28,17 @@ Ett objekt som du kan använda i .NET-utskriftsramverket för att ange pappersk�
 
 ## Anmärkningar
 
-Denna metod kräver .NET Framework 2.0 eller senare.
+Den här metoden kräver .NET Framework 2.0 eller senare.
 
 ## Exempel
 
-Visar hur du skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
+Visar hur man skriver ut information om sidstorlek och orientering för varje sida i ett Word-dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Det första avsnittet har 2 sidor. Vi kommer att tilldela ett annat skrivarpappersfack till var och en,
-// vars nummer kommer att matcha en sorts papperskälla. Dessa källor och deras slag kommer att variera
+// Det första avsnittet har två sidor. Vi kommer att tilldela ett annat pappersfack till varje sida,
+// vars nummer matchar en typ av papperskälla. Dessa källor och deras typer kommer att variera
 // beroende på den installerade skrivardrivrutinen.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -62,7 +62,7 @@ for (int i = 0; i < doc.PageCount; i++)
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Skriv ut information om källfacket.
+    // Skriv ut informationen om källfacket.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

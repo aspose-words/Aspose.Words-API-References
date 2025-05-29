@@ -3,7 +3,7 @@ title: SignatureLine.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words för .NET
-description: SignatureLine IsSigned fast egendom. Indikerar att signaturraden är signerad med digital signatur i C#.
+description: Upptäck hur SignatureLines IsSigned-egenskap bekräftar äktheten hos digitala signaturer, vilket garanterar säkra och tillförlitliga transaktioner. Förbättra din dokumentintegritet!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/signatureline/issigned/
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

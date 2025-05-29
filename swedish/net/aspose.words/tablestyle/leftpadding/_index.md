@@ -3,14 +3,14 @@ title: TableStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words för .NET
-description: TableStyle LeftPadding fast egendom. Hämtar eller ställer in mängden utrymme i poäng som ska läggas till till vänster om innehållet i tabellceller i C#.
+description: Upptäck egenskapen TableStyle LeftPadding för att anpassa din tabellcellslayout. Justera enkelt vänsteravståndet för ett elegant och professionellt utseende.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/tablestyle/leftpadding/
 ---
 ## TableStyle.LeftPadding property
 
-Hämtar eller ställer in mängden utrymme (i poäng) som ska läggas till till vänster om innehållet i tabellceller.
+Hämtar eller anger mängden utrymme (i punkter) som ska läggas till vänster om innehållet i tabellceller.
 
 ```csharp
 public double LeftPadding { get; set; }

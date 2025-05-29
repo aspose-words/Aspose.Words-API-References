@@ -3,14 +3,14 @@ title: ListLevel.TabPosition
 linktitle: TabPosition
 articleTitle: TabPosition
 second_title: Aspose.Words för .NET
-description: ListLevel TabPosition fast egendom. Returnerar eller ställer in tabbpositionen i punkter för listnivån i C#.
+description: Upptäck egenskapen ListLevel TabPosition för att enkelt justera tabbpositioner i punkter för dina listnivåer och förbättra dokumentets formatering.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.lists/listlevel/tabposition/
 ---
 ## ListLevel.TabPosition property
 
-Returnerar eller ställer in tabbpositionen (i punkter) för listnivån.
+Returnerar eller anger tabbpositionen (i punkter) för listnivån.
 
 ```csharp
 public double TabPosition { get; set; }
@@ -18,20 +18,20 @@ public double TabPosition { get; set; }
 
 ## Anmärkningar
 
-Har effekt endast när[`TrailingCharacter`](../trailingcharacter/) är en flik.
+Har endast effekt när[`TrailingCharacter`](../trailingcharacter/) är en flik.
 
 ## Exempel
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

@@ -3,14 +3,14 @@ title: PdfDigitalSignatureTimestampSettings Class
 linktitle: PdfDigitalSignatureTimestampSettings
 articleTitle: PdfDigitalSignatureTimestampSettings
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings klass. Innehåller inställningar för den digitala signaturens tidsstämpel i C#.
+description: Upptäck Aspose.Words.PdfDigitalSignatureTimestampSettings för sömlös hantering av tidsstämplar för digitala signaturer. Förbättra din PDF-säkerhet utan ansträngning!
 type: docs
-weight: 5450
+weight: 6240
 url: /sv/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 ## PdfDigitalSignatureTimestampSettings class
 
-Innehåller inställningar för den digitala signaturens tidsstämpel.
+Innehåller inställningar för tidsstämpeln för digital signatur.
 
 För att lära dig mer, besök[Arbeta med digitala signaturer](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokumentationsartikel.
 
@@ -31,9 +31,9 @@ public class PdfDigitalSignatureTimestampSettings
 | namn | Beskrivning |
 | --- | --- |
 | [Password](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/) { get; set; } | Lösenord för tidsstämpelserver. |
-| [ServerUrl](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/) { get; set; } | Tidstämpelserverns URL. |
-| [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/) { get; set; } | Timeout-värde för åtkomst av tidsstämpelserver. |
-| [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/) { get; set; } | Användarnamn för tidsstämpelserver. |
+| [ServerUrl](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/serverurl/) { get; set; } | Tidsstämpelserverns URL. |
+| [Timeout](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/) { get; set; } | Timeout-värde för åtkomst till tidsstämpelservern. |
+| [UserName](../../aspose.words.saving/pdfdigitalsignaturetimestampsettings/username/) { get; set; } | Tidsstämpelserver användarnamn. |
 
 ## Exempel
 
@@ -44,15 +44,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Skapa en digital signatur och tilldela den till vårt SaveOptions-objekt för att signera dokumentet när vi sparar det till PDF.
+// Skapa en digital signatur och tilldela den till vårt SaveOptions-objekt för att signera dokumentet när vi sparar det som PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Skapa en tidsstämpel behörighetsverifierad tidsstämpel.
+// Skapa en tidsstämpel som verifierats av en tidsstämpel, auktoritetsverifierad.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "Mitt lösenord");
 
@@ -68,7 +68,7 @@ Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.Times
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// "Spara"-metoden kommer att tillämpa vår signatur på utdatadokumentet vid denna tidpunkt.
+// Metoden "Spara" kommer att tillämpa vår signatur på utdatadokumentet vid denna tidpunkt.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

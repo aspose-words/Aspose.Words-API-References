@@ -3,14 +3,14 @@ title: MailMergeSettings.DoNotSupressBlankLines
 linktitle: DoNotSupressBlankLines
 articleTitle: DoNotSupressBlankLines
 second_title: Aspose.Words för .NET
-description: MailMergeSettings DoNotSupressBlankLines fast egendom. Anger hur ett program som utför kopplingen ska hantera tomma rader i de sammanslagna dokumenten som är resultatet av kopplingen. Standardvärdet ärfalsk  i C#.
+description: Optimera din dokumentkoppling med egenskapen MailMergeSettings DoNotSupressBlankLines, vilket säkerställer att tomma rader hanteras effektivt för välutvecklade dokument.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-Anger hur ett program som utför kopplingen ska hantera tomma rader i de sammanslagna dokumenten som är resultatet av kopplingen. Standardvärdet är`falsk` .
+Anger hur ett program som utför dokumentkopplingen ska hantera tomma rader i de sammanfogade dokumenten som är resultatet av dokumentkopplingen. Standardvärdet är`falsk` .
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }
@@ -18,7 +18,7 @@ public bool DoNotSupressBlankLines { get; set; }
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

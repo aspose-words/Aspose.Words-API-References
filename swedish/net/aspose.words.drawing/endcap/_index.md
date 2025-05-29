@@ -3,14 +3,14 @@ title: EndCap Enum
 linktitle: EndCap
 articleTitle: EndCap
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.EndCap uppräkning. Anger linjekapsstil i C#.
+description: Upptäck Aspose.Words.Drawing.EndCap-enum för anpassningsbara radkapslar. Förbättra dina dokumentdesigner med unika visuella effekter!
 type: docs
-weight: 940
+weight: 1260
 url: /sv/net/aspose.words.drawing/endcap/
 ---
 ## EndCap enumeration
 
-Anger linjekapsstil.
+Anger stilen för radövergången.
 
 ```csharp
 public enum EndCap
@@ -21,21 +21,21 @@ public enum EndCap
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Round | `0` | Rundade ändar. |
-| Square | `1` | Fyrkant sticker ut med halva linjebredden. |
-| Flat | `2` | Linjen slutar vid ändpunkten. |
+| Square | `1` | Kvadraten sticker ut med halva linjebredden. |
+| Flat | `2` | Linjen slutar vid slutpunkten. |
 | Default | `2` | Standardvärdet ärFlat . |
 
 ## Exempel
 
-Visar för att skapa en mängd olika former.
+Visar hur man skapar en mängd olika former.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns fyra exempel på former som vi kan infoga i våra dokument.
+// Nedan följer fyra exempel på former som vi kan infoga i våra dokument.
 // 1 - Prickad, horisontell, halvtransparent röd linje
-// med en pil till vänster och en romb till höger:
+// med en pil i vänster ände och en diamant i höger ände:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -72,7 +72,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Pil med en vänd orientering fylld i med Aspose-logotypen:
+// 4 - Pil med en omvänd orientering fylld med Aspose-logotypen:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -84,8 +84,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // När vi vänder på riktningen på vår pil vänder vi också bilden som pilen innehåller.
-    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen att visa den.
+    // När vi vänder orienteringen på vår pil, vänder vi också bilden som pilen innehåller.
+    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen för att visa den.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

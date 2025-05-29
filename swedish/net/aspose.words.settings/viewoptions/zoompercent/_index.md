@@ -3,14 +3,14 @@ title: ViewOptions.ZoomPercent
 linktitle: ZoomPercent
 articleTitle: ZoomPercent
 second_title: Aspose.Words för .NET
-description: ViewOptions ZoomPercent fast egendom. Hämtar eller ställer in procentandelen mellan 10 och 500 som du vill visa ditt dokument med i C#.
+description: Justera egenskapen ZoomPercent i ViewOptions för att ställa in dokumentets zoomnivå mellan 10–500 %. Förbättra läsbarheten och optimera din visningsupplevelse!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/viewoptions/zoompercent/
 ---
 ## ViewOptions.ZoomPercent property
 
-Hämtar eller ställer in procentandelen (mellan 10 och 500) som du vill visa ditt dokument med.
+Hämtar eller ställer in procentsatsen med vilken du vill visa ditt dokument.
 
 ```csharp
 public int ZoomPercent { get; set; }
@@ -18,13 +18,11 @@ public int ZoomPercent { get; set; }
 
 ## Anmärkningar
 
-Om värdet är 0 så använder den här egenskapen 100 istället, annars om värdet är mindre än 10 eller större än 500 kastar denna egenskap.
-
-Även om Aspose.Words kan läsa och skriva detta alternativ, är dess användning applikationsspecifik. Till exempel respekterar MS Word 2013 inte värdet av detta alternativ.
+Även om Aspose.Words kan läsa och skriva till det här alternativet, är dess användning applikationsspecifik. Till exempel respekterar inte MS Word 2013 värdet av det här alternativet.
 
 ## Exempel
 
-Visar hur man ställer in en anpassad zoomfaktor, vilken äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid inläsning.
+Visar hur man ställer in en anpassad zoomfaktor, som äldre versioner av Microsoft Word kommer att tillämpa på ett dokument vid laddning.
 
 ```csharp
 Document doc = new Document();

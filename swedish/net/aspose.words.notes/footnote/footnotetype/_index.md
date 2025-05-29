@@ -3,9 +3,9 @@ title: Footnote.FootnoteType
 linktitle: FootnoteType
 articleTitle: FootnoteType
 second_title: Aspose.Words för .NET
-description: Footnote FootnoteType fast egendom. Returnerar ett värde som anger om detta är en fotnot eller slutnot i C#.
+description: Upptäck egenskapen FootnoteType, identifiera enkelt fotnoter eller slutnoter i dina dokument för ökad tydlighet och organisation.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.notes/footnote/footnotetype/
 ---
 ## Footnote.FootnoteType property
@@ -24,17 +24,17 @@ Visar skillnaden mellan fotnoter och slutnoter.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två sätt att bifoga numrerade referenser till texten. Båda dessa referenser kommer att lägga till en
-// liten upphöjd referensmarkering på platsen där vi infogar dem.
+// Nedan följer två sätt att koppla numrerade referenser till texten. Båda dessa referenser kommer att lägga till en
+// litet upphöjd referensmärke på den plats där vi infogar dem.
 // Referensmärket är som standard referensens indexnummer bland alla referenser i dokumentet.
-// Varje referens kommer också att skapa en post, som kommer att ha samma referensmärke som i brödtexten
+// Varje referens skapar också en post, som får samma referensmarkering som i brödtexten
 // och referenstext, som vi skickar till dokumentbyggarens "InsertFootnote"-metod.
-// 1 - En fotnot, vars post kommer att visas på samma sida som texten som den refererar till:
+// 1 - En fotnot, vars inlägg kommer att visas på samma sida som texten den refererar till:
 builder.Write("Footnote referenced main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, 
     "Footnote text, will appear at the bottom of the page that contains the referenced text.");
 
-// 2 - En slutnot, vars post kommer att visas i slutet av dokumentet:
+// 2 - En slutnot, vars inlägg kommer att visas i slutet av dokumentet:
 builder.Write("Endnote referenced main body text.");
 Footnote endnote = builder.InsertFootnote(FootnoteType.Endnote, 
     "Endnote text, will appear at the very end of the document.");

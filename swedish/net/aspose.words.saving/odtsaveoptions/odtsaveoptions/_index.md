@@ -3,14 +3,14 @@ title: OdtSaveOptions
 linktitle: OdtSaveOptions
 articleTitle: OdtSaveOptions
 second_title: Aspose.Words för .NET
-description: OdtSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument iOdt format i C#.
+description: Upptäck OdtSaveOptions-konstruktorn för att enkelt spara dokument i ODT-format. Effektivisera ditt arbetsflöde med detta kraftfulla verktyg!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions() {#constructor}
 
-Initierar en ny instans av denna klass som kan användas för att spara ett dokument iOdt format.
+Initierar en ny instans av den här klassen som kan användas för att spara ett dokument iOdt format.
 
 ```csharp
 public OdtSaveOptions()
@@ -42,7 +42,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(*string*) {#constructor_2}
 
-Initierar en ny instans av denna klass som kan användas för att spara ett dokument iOdt format krypterad med ett lösenord.
+Initierar en ny instans av den här klassen som kan användas för att spara ett dokument iOdt format krypterad med ett lösenord.
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -58,7 +58,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Initierar en ny instans av denna klass som kan användas för att spara ett dokument iOdt or Ott format.
+Initierar en ny instans av den här klassen som kan användas för att spara ett dokument iOdt eller Ott format.
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)
@@ -77,15 +77,15 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Skapa ett nytt OdtSaveOptions och skicka antingen "SaveFormat.Odt",
+// Skapa en ny OdtSaveOptions och skicka antingen "SaveFormat.Odt",
  // eller "SaveFormat.Ott" som formatet att spara dokumentet i.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
-// Om vi öppnar det här dokumentet med en lämplig redigerare,
-// det kommer att fråga oss om lösenordet vi angav i SaveOptions-objektet.
+// Om vi öppnar detta dokument med en lämplig editor,
+// den kommer att be oss ange lösenordet vi angav i SaveOptions-objektet.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
@@ -93,7 +93,7 @@ FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSave
 Assert.IsTrue(docInfo.IsEncrypted);
 
 // Om vi vill öppna eller redigera detta dokument igen med Aspose.Words,
-// vi måste tillhandahålla ett LoadOptions-objekt med rätt lösenord till laddningskonstruktorn.
+// vi måste ange ett LoadOptions-objekt med rätt lösenord till laddningskonstruktorn.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 

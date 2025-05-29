@@ -3,7 +3,7 @@ title: DocumentProperty.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words för .NET
-description: DocumentProperty Value fast egendom. Hämtar eller ställer in värdet på egenskapen i C#.
+description: Upptäck hur du effektivt hanterar DocumentProperty-värden – hämta eller uppdatera enkelt egenskapsvärden för förbättrad dokumentkontroll och produktivitet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.properties/documentproperty/value/
@@ -27,7 +27,7 @@ Visar hur man arbetar med inbyggda dokumentegenskaper.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// "Dokument"-objektet innehåller en del av dess metadata i sina medlemmar.
+// Objektet "Dokument" innehåller en del av dess metadata i sina medlemmar.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Dokumentet lagrar även metadata i sina inbyggda egenskaper.

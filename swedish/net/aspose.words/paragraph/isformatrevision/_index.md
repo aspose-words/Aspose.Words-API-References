@@ -3,14 +3,14 @@ title: Paragraph.IsFormatRevision
 linktitle: IsFormatRevision
 articleTitle: IsFormatRevision
 second_title: Aspose.Words för .NET
-description: Paragraph IsFormatRevision fast egendom. Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad i C#.
+description: Upptäck hur egenskapen IsFormatRevision i Microsoft Word spårar formateringsändringar, vilket säkerställer korrekta dokumentredigeringar och förbättrat samarbete.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/paragraph/isformatrevision/
 ---
 ## Paragraph.IsFormatRevision property
 
-Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad.
+Returnerar sant om objektets formatering ändrades i Microsoft Word medan ändringsspårning var aktiverad.
 
 ```csharp
 public bool IsFormatRevision { get; }
@@ -18,13 +18,13 @@ public bool IsFormatRevision { get; }
 
 ## Exempel
 
-Visar hur man kontrollerar om ett stycke är en formatversion.
+Visar hur man kontrollerar om ett stycke är en formatrevision.
 
 ```csharp
 Document doc = new Document(MyDir + "Format revision.docx");
 
-// Det här stycket är en "Format"-revision, som inträffar när vi ändrar formateringen av befintlig text
-// medan du spårar revisioner i Microsoft Word via "Review" -> "Spåra ändringar".
+// Detta stycke är en "Format"-revidering, vilket sker när vi ändrar formateringen av befintlig text.
+// vid spårning av revisioner i Microsoft Word via "Granska" -> "Spåra ändringar".
 Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
 ```
 

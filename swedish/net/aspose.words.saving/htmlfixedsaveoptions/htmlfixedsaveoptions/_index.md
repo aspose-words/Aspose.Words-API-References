@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions
 linktitle: HtmlFixedSaveOptions
 articleTitle: HtmlFixedSaveOptions
 second_title: Aspose.Words för .NET
-description: HtmlFixedSaveOptions byggare. Default_Constructor i C#.
+description: Upptäck konstruktorn HtmlFixedSaveOptions – din lösning för effektiv dokumentsparning med anpassningsbara funktioner för optimal prestanda.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/htmlfixedsaveoptions/

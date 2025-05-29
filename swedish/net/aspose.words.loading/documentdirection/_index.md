@@ -3,14 +3,14 @@ title: DocumentDirection Enum
 linktitle: DocumentDirection
 articleTitle: DocumentDirection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Loading.DocumentDirection uppräkning. Gör det möjligt att ange riktningen för att flöda texten i ett dokument i C#.
+description: Upptäck Aspose.Words.DocumentDirection enum för att enkelt kontrollera textflödet i dina dokument. Förbättra läsbarhet och formatering med denna kraftfulla funktion!
 type: docs
-weight: 3580
+weight: 4030
 url: /sv/net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration
 
-Gör det möjligt att ange riktningen för att flöda texten i ett dokument.
+Gör det möjligt att ange riktningen för textflödet i ett dokument.
 
 ```csharp
 public enum DocumentDirection
@@ -22,7 +22,32 @@ public enum DocumentDirection
 | --- | --- | --- |
 | LeftToRight | `0` | Vänster till höger riktning. |
 | RightToLeft | `1` | Höger till vänster riktning. |
-| Auto | `2` | Autodetektera riktning. |
+| Auto | `2` | Automatisk riktningsdetektering. |
+
+## Exempel
+
+Visar hur man identifierar textriktningen i klartextdokument.
+
+```csharp
+// Skapa ett "TxtLoadOptions"-objekt, som vi kan skicka till ett dokuments konstruktor
+// för att ändra hur vi laddar ett klartextdokument.
+TxtLoadOptions loadOptions = new TxtLoadOptions();
+
+// Sätt egenskapen "DocumentDirection" till "DocumentDirection.Auto" identifierar automatiskt
+// riktningen för varje textstycke som Aspose.Words laddar från klartext.
+// Varje styckes "Bidi"-egenskap lagrar dess riktning.
+loadOptions.DocumentDirection = DocumentDirection.Auto;
+
+// Identifiera hebreisk text som höger-till-vänster.
+Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
+
+Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+
+// Identifiera engelsk text som höger-till-vänster.
+doc = new Document(MyDir + "English text.txt", loadOptions);
+
+Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+```
 
 ### Se även
 

@@ -3,14 +3,14 @@ title: IBarcodeGenerator Interface
 linktitle: IBarcodeGenerator
 articleTitle: IBarcodeGenerator
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.IBarcodeGenerator gränssnitt. Offentligt gränssnitt för streckkodsgenerator. Implementering bör tillhandahållas av användaren i C#.
+description: Upptäck gränssnittet Aspose.Words.Fields.IBarcodeGenerator för generering av anpassade streckkoder. Förstärk dina projekt med användardefinierade implementeringar och förbättra funktionaliteten!
 type: docs
-weight: 2660
+weight: 3070
 url: /sv/net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
 
-Offentligt gränssnitt för streckkodsgenerator. Implementering bör tillhandahållas av användaren.
+Publikt gränssnitt för anpassad streckkodsgenerator. Implementeringen bör tillhandahållas av användaren.
 
 ```csharp
 public interface IBarcodeGenerator
@@ -20,12 +20,12 @@ public interface IBarcodeGenerator
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Generera streckkodsbild med hjälp av uppsättningen parametrar (för fältet DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Generera streckkodsbild med hjälp av uppsättningen parametrar (för gammaldags streckkodsfält). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Generera streckkodsbild med hjälp av parameteruppsättningen (för fältet DisplayBarcode). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Generera streckkodsbild med hjälp av parameteruppsättningen (för det gammaldags streckkodsfältet). |
 
 ## Anmärkningar
 
-Generator-instansen ska skickas genom[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) egenskap.
+Generator-instansen ska skickas genom[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) egendom.
 
 ## Exempel
 
@@ -35,10 +35,10 @@ Visar hur man använder en streckkodsgenerator.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 // Vi kan använda en anpassad IBarcodeGenerator-implementering för att generera streckkoder,
-// och infoga dem sedan i dokumentet som bilder.
+// och sedan infoga dem i dokumentet som bilder.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Nedan finns fyra exempel på olika streckkodstyper som vi kan skapa med vår generator.
+// Nedan följer fyra exempel på olika streckkodstyper som vi kan skapa med vår generator.
 // För varje streckkod anger vi en ny uppsättning streckkodsparametrar och genererar sedan bilden.
 // Efteråt kan vi infoga bilden i dokumentet, eller spara den i det lokala filsystemet.
 // 1 - QR-kod:
@@ -55,11 +55,17 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 2 - EAN13 streckkod:
+// 2 - EAN13-streckkod:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -70,7 +76,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - CODE39 streckkod:
@@ -82,10 +95,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 4 - ITF14 streckkod:
+// 4 - ITF14-streckkod:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",
@@ -94,7 +114,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

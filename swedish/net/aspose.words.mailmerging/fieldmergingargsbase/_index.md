@@ -3,16 +3,16 @@ title: FieldMergingArgsBase Class
 linktitle: FieldMergingArgsBase
 articleTitle: FieldMergingArgsBase
 second_title: Aspose.Words för .NET
-description: Aspose.Words.MailMerging.FieldMergingArgsBase klass. Basklass förFieldMergingArgs ochImageFieldMergingArgs  i C#.
+description: Upptäck klassen Aspose.Words.MailMerging.FieldMergingArgsBase, grunden för effektiv fältsammanfogning och bildhantering i dokumentautomation.
 type: docs
-weight: 3780
+weight: 4470
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class
 
 Basklass för[`FieldMergingArgs`](../fieldmergingargs/) och[`ImageFieldMergingArgs`](../imagefieldmergingargs/) .
 
-För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
+För att lära dig mer, besök[Koppla dokument och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public abstract class FieldMergingArgsBase
@@ -22,17 +22,17 @@ public abstract class FieldMergingArgsBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Returnerar[`Document`](./document/) objekt för vilket sammanslagningen utförs. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Hämtar namnet på sammanslagningsfältet som specificerats i dokumentet. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Hämtar objektet som representerar det aktuella sammanslagningsfältet. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Hämtar namnet på sammanslagningsfältet i datakällan. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Hämtar eller ställer in fältets värde från datakällan. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Hämtar det nollbaserade indexet för posten som slås samman. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Hämtar namnet på datatabellen för den aktuella sammanslagningsoperationen eller tom sträng om namnet inte är tillgängligt. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Returnerar[`Document`](./document/)objekt för vilket dokumentkopplingen utförs. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Hämtar namnet på kopplingsfältet som anges i dokumentet. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Hämtar objektet som representerar det aktuella kopplingsfältet. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Hämtar namnet på kopplingsfältet i datakällan. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Hämtar eller anger värdet för fältet från datakällan. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Hämtar det nollbaserade indexet för posten som sammanfogas. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Hämtar namnet på datatabellen för den aktuella sammanfogningsoperationen eller en tom sträng om namnet inte är tillgängligt. |
 
 ## Exempel
 
-Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
+Visar hur man utför en dokumentkoppling med ett anpassat återanrop som hanterar kopplingsdata i form av HTML-dokument.
 
 ```csharp
 public void MergeHtml()
@@ -65,32 +65,32 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Om kopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
-/// denna återuppringning analyserar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentplatsen för MERGEFIELD.
+/// Om dokumentkopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
+/// denna återanropsfunktion tolkar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentets plats för MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Anropas när en e-postsammanfogning slår samman data till ett MERGEFIELD.
+    /// Anropas när en dokumentkoppling sammanfogar data till ett MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Lägg till analyserad HTML-data till dokumentets brödtext.
+            // Lägg till parsad HTML-data i dokumentets brödtext.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+            // Eftersom vi redan har infogat det sammanfogade innehållet manuellt,
+            // vi behöver inte svara på den här händelsen genom att returnera innehåll via egenskapen "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 }
 ```

@@ -3,14 +3,14 @@ title: ImageData.CropTop
 linktitle: CropTop
 articleTitle: CropTop
 second_title: Aspose.Words för .NET
-description: ImageData CropTop fast egendom. Definierar andelen av bildborttagning från ovansidan i C#.
+description: Optimera dina bilder med ImageData CropTop och kontrollera bildborttagning från toppen för perfekt inramning och förbättrad visuell attraktionskraft.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.drawing/imagedata/croptop/
 ---
 ## ImageData.CropTop property
 
-Definierar andelen av bildborttagning från ovansidan.
+Definierar andelen bildborttagning från ovansidan.
 
 ```csharp
 public double CropTop { get; set; }
@@ -18,7 +18,7 @@ public double CropTop { get; set; }
 
 ## Anmärkningar
 
-Mängden beskärning kan variera från -1,0 till 1,0. Standardvärdet är 0. Observera att ett värde på 1 inte visar någon bild alls. Negativa värden kommer att resultera i att bilden pressas inåt från kanten som beskärs (det tomma utrymmet mellan bilden och den beskurna kanten kommer att fyllas med fyllningsfärgen för -formen). Positiva värden mindre än 1 kommer att resultera i att den återstående bilden sträcks ut för att passa formen.
+Beskärningsmängden kan variera från -1,0 till 1,0. Standardvärdet är 0. Observera att ett värde på 1 inte visar någon bild alls. Negativa värden resulterar i att bilden pressas inåt från kanten som beskärs (det tomma utrymmet mellan bilden och den beskurna kanten fylls av fyllningsfärgen för -formen). Positiva värden mindre än 1 resulterar i att den återstående bilden sträcks ut för att passa formen.
 
 Standardvärdet är 0.
 
@@ -42,21 +42,21 @@ imageData.Title = "Imported Image";
 
 Assert.True(imageData.HasImage);
 
-// Om en bild inte har några ramar kommer dess ImageData-objekt att definiera kantfärgen som tom.
+// Om en bild inte har några ramar, kommer dess ImageData-objekt att definiera ramfärgen som tom.
 Assert.AreEqual(4, imageData.Borders.Count);
 Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
 
-// Den här bilden länkar inte till någon annan form eller bildfil i det lokala filsystemet.
+// Den här bilden länkar inte till en annan form eller bildfil i det lokala filsystemet.
 Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
 // Egenskaperna "Ljusstyrka" och "Kontrast" definierar bildens ljusstyrka och kontrast
-// på en skala 0-1, med standardvärdet 0,5.
+// på en skala från 0 till 1, med standardvärdet 0,5.
 imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
-// Ovanstående ljusstyrka och kontrastvärden har skapat en bild med mycket vitt.
-// Vi kan välja en färg med egenskapen ChromaKey som ska ersättas med transparens, till exempel vit.
+// Ovanstående ljusstyrka- och kontrastvärden har skapat en bild med mycket vitt.
+// Vi kan välja en färg med ChromaKey-egenskapen för att ersätta med transparens, till exempel vit.
 imageData.ChromaKey = Color.White;
 
 // Importera källformen igen och ställ in bilden till monokrom.
@@ -72,7 +72,7 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
-// Beskärning bestäms på en 0-1 skala. Beskär en sida med 0,3
+// Beskärning bestäms på en skala från 0 till 1. Beskärning av en sida med 0,3
 // kommer att beskära 30% av bilden vid den beskurna sidan.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;

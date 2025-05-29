@@ -3,14 +3,14 @@ title: ListFormat.ListLevelNumber
 linktitle: ListLevelNumber
 articleTitle: ListLevelNumber
 second_title: Aspose.Words för .NET
-description: ListFormat ListLevelNumber fast egendom. Hämtar eller ställer in listnivånumret 0 till 8 för stycket i C#.
+description: Upptäck egenskapen ListFormat ListLevelNumber och hantera enkelt styckelistnivåer från 0 till 8 för förbättrad dokumentorganisation och tydlighet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.lists/listformat/listlevelnumber/
 ---
 ## ListFormat.ListLevelNumber property
 
-Hämtar eller ställer in listnivånumret (0 till 8) för stycket.
+Hämtar eller anger listnivånumret (0 till 8) för stycket.
 
 ```csharp
 public int ListLevelNumber { get; set; }
@@ -18,9 +18,9 @@ public int ListLevelNumber { get; set; }
 
 ## Anmärkningar
 
-I Word-dokument kan listor bestå av 1 eller 9 nivåer, numrerade 0 till 8.
+Word-dokument kan listor bestå av 1 eller 9 nivåer, numrerade från 0 till 8.
 
-Har effekt endast när[`List`](../list/) egenskapen är inställd för att referera till en giltig lista.
+Har endast effekt när[`List`](../list/) egenskapen är inställd på att referera till en giltig lista.
 
 ## Exempel
 
@@ -34,18 +34,18 @@ Assert.False(builder.ListFormat.IsListItem);
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Nedan finns två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Nedan följer två typer av listor som vi kan skapa med hjälp av en dokumentbyggare.
 // 1 - En numrerad lista:
-// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje objekt.
+// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje element.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
 // Genom att ställa in egenskapen "ListLevelNumber" kan vi öka listnivån
-// för att starta en fristående underlista vid det aktuella listobjektet.
-// Microsoft Word-listmallen som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
+// för att börja en fristående underlista vid det aktuella listobjektet.
+// Listmallen i Microsoft Word som heter "NumberDefault" använder siffror för att skapa listnivåer för den första listnivån.
  // Djupare listnivåer använder bokstäver och gemener romerska siffror.
 for (int i = 0; i < 9; i++)
 {
@@ -54,8 +54,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - En punktlista:
-// Denna lista kommer att tillämpa ett indrag och en punktsymbol ("•") före varje stycke.
-// Djupare nivåer i den här listan kommer att använda olika symboler, som "■" och "○".
+// Den här listan kommer att lägga till ett indrag och en punktsymbol ("•") före varje stycke.
+// Djupare nivåer i den här listan kommer att använda andra symboler, såsom "■" och "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -64,7 +64,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera "List"-flaggan.
+// Vi kan inaktivera listformatering för att inte formatera några efterföljande stycken som listor genom att avaktivera flaggan "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -82,11 +82,11 @@ builder.Writeln("Aspose.Words main advantages are:");
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Nedan finns två typer av listor som vi kan skapa med en dokumentbyggare.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Nedan följer två typer av listor som vi kan skapa med en dokumentbyggare.
 // 1 - En punktlista:
-// Denna lista kommer att tillämpa ett indrag och en punktsymbol ("•") före varje stycke.
+// Den här listan kommer att lägga till ett indrag och en punktsymbol ("•") före varje stycke.
 builder.ListFormat.ApplyBulletDefault();
 builder.Writeln("Great performance");
 builder.Writeln("High reliability");
@@ -101,22 +101,22 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 builder.Writeln("Aspose.Words allows:");
 
 // 2 - En numrerad lista:
-// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje objekt.
+// Numrerade listor skapar en logisk ordning för sina stycken genom att numrera varje element.
 builder.ListFormat.ApplyNumberDefault();
 
-// Detta stycke är den första punkten. Den första posten i en numrerad lista kommer att ha en "1". som dess listobjektsymbol.
+// Detta stycke är det första objektet. Det första objektet i en numrerad lista kommer att ha en "1." som listobjektsymbol.
 builder.Writeln("Opening documents from different formats:");
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
 // Anropa metoden "ListIndent" för att öka den aktuella listnivån,
-// som kommer att starta en ny fristående lista, med en djupare indrag, vid det aktuella objektet på den första listnivån.
+// vilket startar en ny fristående lista, med ett djupare indrag, vid det aktuella objektet på den första listnivån.
 builder.ListFormat.ListIndent();
 
 Assert.AreEqual(1, builder.ListFormat.ListLevelNumber);
 
-// Dessa är de tre första listobjekten på den andra listnivån, som kommer att behålla en räkning
-// oberoende av antalet på den första listnivån. Enligt nuvarande listformat,
+// Dessa är de tre första listposterna på den andra listnivån, som kommer att upprätthålla en räkning
+// oberoende av antalet för den första listnivån. Enligt det aktuella listformatet,
 // de kommer att ha symbolerna "a.", "b." och "c.".
 builder.Writeln("DOC");
 builder.Writeln("PDF");
@@ -127,12 +127,12 @@ builder.ListFormat.ListOutdent();
 
 Assert.AreEqual(0, builder.ListFormat.ListLevelNumber);
 
-// Dessa två stycken kommer att fortsätta räkningen av den första listnivån.
-// Dessa objekt kommer att ha symbolerna "2.", och "3."
+// Dessa två stycken fortsätter räkningen för den första listnivån.
+// Dessa objekt kommer att ha symbolerna "2." och "3."
 builder.Writeln("Processing documents");
 builder.Writeln("Saving documents in different formats:");
 
-// Om vi ökar listnivån till en nivå som vi har lagt till objekt till tidigare,
+// Om vi ökar listnivån till en nivå där vi tidigare har lagt till objekt,
  // den kapslade listan kommer att vara separat från den föregående, och dess numrering börjar från början.
 // Dessa listobjekt kommer att ha symbolerna "a.", "b.", "c.", "d." och "e".
 builder.ListFormat.ListIndent();
@@ -142,7 +142,7 @@ builder.Writeln("HTML");
 builder.Writeln("MHTML");
 builder.Writeln("Plain text");
 
-// Överträffa listnivån igen.
+// Dra ut listnivån igen.
 builder.ListFormat.ListOutdent();
 builder.Writeln("Doing many other things!");
 

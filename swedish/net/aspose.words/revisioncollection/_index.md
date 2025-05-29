@@ -3,9 +3,9 @@ title: RevisionCollection Class
 linktitle: RevisionCollection
 articleTitle: RevisionCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.RevisionCollection klass. En samling avRevision objekt som representerar revisioner i dokumentet i C#.
+description: Upptäck klassen Aspose.Words.RevisionCollection – hantera dokumentrevisioner effektivt med en kraftfull samling Revision-objekt för sömlös redigering.
 type: docs
-weight: 4770
+weight: 5510
 url: /sv/net/aspose.words/revisioncollection/
 ---
 ## RevisionCollection class
@@ -24,19 +24,21 @@ public class RevisionCollection : IEnumerable<Revision>
 | --- | --- |
 | [Count](../../aspose.words/revisioncollection/count/) { get; } | Returnerar antalet revisioner i samlingen. |
 | [Groups](../../aspose.words/revisioncollection/groups/) { get; } | Samling av revisionsgrupper. |
-| [Item](../../aspose.words/revisioncollection/item/) { get; } | Returnerar en[`Revision`](../revision/) vid angivet index. |
+| [Item](../../aspose.words/revisioncollection/item/) { get; } | Returnerar en[`Revision`](../revision/) vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [AcceptAll](../../aspose.words/revisioncollection/acceptall/)() | Accepterar alla versioner i denna samling. |
-| [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [Accept](../../aspose.words/revisioncollection/accept/)(*[IRevisionCriteria](../irevisioncriteria/)*) | Accepterar revisioner som matchar angivna kriterier. |
+| [AcceptAll](../../aspose.words/revisioncollection/acceptall/)() | Accepterar alla revisioner i den här samlingen. |
+| [GetEnumerator](../../aspose.words/revisioncollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
+| [Reject](../../aspose.words/revisioncollection/reject/)(*[IRevisionCriteria](../irevisioncriteria/)*) | Avvisar revisioner som matchar angivna kriterier. |
 | [RejectAll](../../aspose.words/revisioncollection/rejectall/)() | Avvisar alla revisioner i den här samlingen. |
 
 ## Anmärkningar
 
-Du skapar inte instanser av den här klassen direkt. Använd[`Revisions`](../document/revisions/) egenskap för att få revisioner närvarande i ett dokument.
+Du skapar inte instanser av den här klassen direkt. Använd[`Revisions`](../document/revisions/) egenskap för att hämta revisioner som finns i ett dokument.
 
 ## Exempel
 
@@ -51,7 +53,7 @@ builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// För att registrera våra redigeringar som revisioner måste vi deklarera en författare och sedan börja spåra dem.
+// För att registrera våra redigeringar som revisioner måste vi ange en författare och sedan börja spåra dem.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -59,13 +61,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Denna flagga motsvarar "Recension" -> "Spårning" -> Alternativet "Spåra ändringar" i Microsoft Word.
-// "StartTrackRevisions"-metoden påverkar inte dess värde,
+// Denna flagga motsvarar alternativet "Granska" -> "Spårning" -> "Spåra ändringar" i Microsoft Word.
+// Metoden "StartTrackRevisions" påverkar inte dess värde,
 // och dokumentet spårar revisioner programmatiskt trots att det har värdet "false".
 // Om vi öppnar det här dokumentet med Microsoft Word kommer det inte att spåra revisioner.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Vi har lagt till text med hjälp av dokumentbyggaren, så den första revisionen är en revision av insättningstyp.
+// Vi har lagt till text med hjälp av dokumentbyggaren, så den första revisionen är en revision av infogningstyp.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -73,20 +75,20 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// Ta bort en körning för att skapa en version av raderingstyp.
+// Ta bort en körning för att skapa en revision av borttagningstyp.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// Om du lägger till en ny version placeras den i början av revisionssamlingen.
+// Om du lägger till en ny revision placeras den i början av revisionssamlingen.
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// Infoga revisioner dyker upp i dokumentet innan vi accepterar/avvisar revisionen.
-// Att avvisa revisionen kommer att ta bort dess noder från kroppen. Omvänt tar noder som utgör bort revisioner
-// ligger också kvar i dokumentet tills vi accepterar revisionen.
+// Infoga revisioner visas i dokumentets brödtext redan innan vi accepterar/avvisar revisionen.
+// Om du avvisar revisionen tas dess noder bort från brödtexten. Omvänt tas noder som utgör revisionerna bort.
+// dröjer sig också kvar i dokumentet tills vi accepterar revisionen.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Om du accepterar borttagningsrevisionen tas dess överordnade nod bort från stycketexten
-// och ta sedan bort själva samlingens revision.
+// Om du accepterar borttagningsrevisionen tas dess överordnade nod bort från styckets text.
+// och sedan ta bort själva samlingens revision.
 doc.Revisions[0].Accept();
 
 Assert.AreEqual(1, doc.Revisions.Count);
@@ -111,7 +113,7 @@ Assert.AreEqual(RevisionType.Moving, doc.Revisions[0].RevisionType);
 Assert.AreEqual(8, doc.Revisions.Count);
 Assert.AreEqual("This is revision #2.\rThis is revision #1. \rThis is revision #2.", doc.GetText().Trim());
 
-// Den rörliga revisionen är nu på index 1. Avvisa revisionen för att kassera dess innehåll.
+// Den flyttande revisionen är nu på index 1. Avvisa revisionen för att kassera dess innehåll.
 doc.Revisions[1].Reject();
 
 Assert.AreEqual(6, doc.Revisions.Count);

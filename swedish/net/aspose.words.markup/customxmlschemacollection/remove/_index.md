@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: CustomXmlSchemaCollection Remove metod. Tar bort det angivna värdet från samlingen i C#.
+description: Hantera enkelt din CustomXmlSchemaCollection med metoden Remove för att eliminera specifika värden, vilket förbättrar dataorganisation och effektivitet.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.markup/customxmlschemacollection/remove/
@@ -43,15 +43,15 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Räkna upp scheman och skriv ut varje element.
+// Räkna upp schemana och skriv ut varje element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nedan finns tre sätt att ta bort scheman från samlingen.
-// 1 - Ta bort ett schema efter index:
+// Nedan följer tre sätt att ta bort scheman från samlingen.
+// 1 - Ta bort ett schema via index:
 schemas.RemoveAt(2);
 
 // 2 - Ta bort ett schema efter värde:

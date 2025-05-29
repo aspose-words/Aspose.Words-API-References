@@ -3,7 +3,7 @@ title: OdsoRecipientData.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words för .NET
-description: OdsoRecipientData Clone metod. Returnerar en djup klon av detta objekt i C#.
+description: Skapa enkelt en djup klon av ditt OdsoRecipientData-objekt med vår klonmetod. Förbättra din datahantering med enkelhet och effektivitet!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.settings/odsorecipientdata/clone/
@@ -18,7 +18,7 @@ public OdsoRecipientData Clone()
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 linktitle: SaveFontFaceCssSeparately
 articleTitle: SaveFontFaceCssSeparately
 second_title: Aspose.Words för .NET
-description: HtmlFixedSaveOptions SaveFontFaceCssSeparately fast egendom. Flagga anger om fontface CSSregler ska placeras i en separat fil fontFaces.css när ett dokument sparas med extern stilmall det vill säga närExportEmbeddedCss ärfalsk . Standardvärdet ärfalsk  alla CSSregler skrivs i en enda fil styles.css i C#.
+description: Upptäck hur egenskapen SaveFontFaceCssSeparately optimerar ditt dokuments CSS-hantering genom att spara teckensnittsregler i en separat fil för renare export.
 type: docs
-weight: 160
+weight: 180
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-Flagga anger om "@font-face" CSS-regler ska placeras i en separat fil "fontFaces.css" när ett dokument sparas med extern stilmall (det vill säga när[`ExportEmbeddedCss`](../exportembeddedcss/) är`falsk` ). Standardvärdet är`falsk` , alla CSS-regler skrivs i en enda fil "styles.css".
+Flaggan anger om CSS-reglerna "@font-face" ska placeras i en separat fil "fontFaces.css" när ett dokument sparas med ett externt formatmall (det vill säga när[`ExportEmbeddedCss`](../exportembeddedcss/) är`falsk` ). Standardvärdet är`falsk` , alla CSS-regler skrivs i en enda fil "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -18,7 +18,7 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ## Anmärkningar
 
-Ställer in den här egenskapen till`Sann` återställer det gamla beteendet (separata filer) för kompatibilitet med äldre kod.
+Ställer in den här egenskapen på`sann` återställer det gamla beteendet (separata filer) för kompatibilitet med äldre kod.
 
 ## Exempel
 

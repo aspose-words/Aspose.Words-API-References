@@ -3,14 +3,14 @@ title: MailMergeDestination Enum
 linktitle: MailMergeDestination
 articleTitle: MailMergeDestination
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.MailMergeDestination uppräkning. Anger möjliga resultat som kan genereras när en epostsammanslagning utförs på ett dokument i C#.
+description: Upptäck enumerationen Aspose.Words.MailMergeDestination, som definierar resultat för sömlösa dokumentkopplingar. Optimera din dokumenthantering idag!
 type: docs
-weight: 5830
+weight: 6660
 url: /sv/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
 
-Anger möjliga resultat som kan genereras när en e-postsammanslagning utförs på ett dokument.
+Anger de möjliga resultat som kan genereras när en dokumentkoppling utförs på ett dokument.
 
 ```csharp
 public enum MailMergeDestination
@@ -20,15 +20,15 @@ public enum MailMergeDestination
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| NewDocument | `0` | Anger att överensstämmande värdapplikationer ska generera nya dokument genom att fylla i fälten i ett givet dokument med data från den angivna externa datakällan. |
-| Printer | `1` | Anger att överensstämmande värdapplikationer ska skriva ut de dokument som blir resultatet av att fylla i -fälten i ett givet dokument med externa data från den angivna externa datakällan. |
-| Email | `2` | Anger att överensstämmande värdapplikationer ska generera e-postmeddelanden med de dokument som är resultatet av att fyller i fälten i ett givet dokument med data från den angivna externa datakällan. |
-| Fax | `4` | Anger att överensstämmande värdapplikationer ska generera fax med hjälp av de dokument som är resultatet av att fyller i fälten i ett givet dokument med data från den angivna externa datakällan. |
-| Default | `0` | är lika medNewDocument värde. |
+| NewDocument | `0` | Anger att kompatibla värdapplikationer ska generera nya dokument genom att fylla i fälten i ett givet dokument med data från den angivna externa datakällan. |
+| Printer | `1` | Anger att kompatibla värdprogram ska skriva ut de dokument som är resultatet av att fälten i ett givet dokument fylls i med externa data från den angivna externa datakällan. |
+| Email | `2` | Anger att kompatibla webbhotellsapplikationer ska generera e-postmeddelanden med hjälp av de dokument som är resultatet av att fyller i fälten i ett givet dokument med data från den angivna externa datakällan. |
+| Fax | `4` | Anger att kompatibla värdapplikationer ska generera fax med hjälp av de dokument som är resultatet av att fyller i fälten i ett givet dokument med data från den angivna externa datakällan. |
+| Default | `0` | Är lika medNewDocument värde. |
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -41,9 +41,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -71,7 +71,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

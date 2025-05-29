@@ -3,14 +3,14 @@ title: TextBox.LayoutFlow
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
 second_title: Aspose.Words för .NET
-description: TextBox LayoutFlow fast egendom. Bestämmer flödet av textlayouten i en form i C#.
+description: Upptäck hur egenskapen TextBox LayoutFlow förbättrar textlayouten i former, vilket förbättrar designflexibiliteten och läsbarheten för dina projekt.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing/textbox/layoutflow/
 ---
 ## TextBox.LayoutFlow property
 
-Bestämmer flödet av textlayouten i en form.
+Bestämmer flödet för textlayouten i en form.
 
 ```csharp
 public LayoutFlow LayoutFlow { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet ärHorizontal.
 
 ## Exempel
 
-Visar hur man ställer in orienteringen för text inuti en textruta.
+Visar hur man ställer in textens orientering inuti en textruta.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Flytta dokumentbyggaren till inuti TextBox och lägg till text.
+// Flytta dokumentbyggaren till textrutan och lägg till text.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Ställ in egenskapen "LayoutFlow" för att ställa in en orientering för textinnehållet i denna textruta.
+// Ställ in egenskapen "LayoutFlow" för att ange en orientering för textinnehållet i den här textrutan.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

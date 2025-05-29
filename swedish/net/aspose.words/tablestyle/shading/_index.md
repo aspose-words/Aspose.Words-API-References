@@ -3,14 +3,14 @@ title: TableStyle.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words för .NET
-description: TableStyle Shading fast egendom. Får enShading objekt som hänvisar till skuggningsformateringen för tabellceller i C#.
+description: Upptäck egenskapen TableStyle Shading för att förbättra dina tabellceller med anpassningsbar skuggningsformatering för ett polerat och professionellt utseende.
 type: docs
 weight: 130
 url: /sv/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-Får en[`Shading`](../../shading/) objekt som hänvisar till skuggningsformateringen för tabellceller.
+Får en[`Shading`](../../shading/) objekt som refererar till skuggningsformateringen för tabellceller.
 
 ```csharp
 public Shading Shading { get; }

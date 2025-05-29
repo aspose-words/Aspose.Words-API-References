@@ -3,9 +3,9 @@ title: DocumentPropertyCollection Class
 linktitle: DocumentPropertyCollection
 articleTitle: DocumentPropertyCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Properties.DocumentPropertyCollection klass. Basklass förBuiltInDocumentProperties ochCustomDocumentProperties samlingar i C#.
+description: Upptäck klassen Aspose.Words.Properties.DocumentPropertyCollection, din verktygslinje för att effektivt hantera inbyggda och anpassade dokumentegenskaper.
 type: docs
-weight: 4480
+weight: 5210
 url: /sv/net/aspose.words.properties/documentpropertycollection/
 ---
 ## DocumentPropertyCollection class
@@ -22,26 +22,26 @@ public abstract class DocumentPropertyCollection : IEnumerable<DocumentProperty>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Får antal föremål i samlingen. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt efter index. |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt efter egenskapens namn. |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Hämtar antalet objekt i samlingen. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt av index. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Returnerar en[`DocumentProperty`](../documentproperty/) objekt med egenskapens namn. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Tar bort alla egenskaper från samlingen. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Returnerar`Sann` om en egenskap med det angivna namnet finns i samlingen. |
-| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Returer`sann` om en egenskap med det angivna namnet finns i samlingen. |
+| [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Hämtar indexet för en egenskap efter namn. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Tar bort en egenskap med det angivna namnet från samlingen. |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | Tar bort en egenskap vid det angivna indexet. |
 
 ## Anmärkningar
 
-Namnen på egenskaperna är skiftlägesokänsliga.
+Namnen på egenskaperna är inte skiftlägeskänsliga.
 
-Fastigheterna i samlingen är sorterade alfabetiskt efter namn.
+Egenskaperna i samlingen är sorterade alfabetiskt efter namn.
 
 ## Exempel
 
@@ -53,7 +53,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Anpassade dokumentegenskaper är nyckel-värdepar som vi kan lägga till i dokumentet.
+// Anpassade dokumentegenskaper är nyckel-värde-par som vi kan lägga till i dokumentet.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -71,18 +71,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Visa värdet för en anpassad egenskap med ett DOCPROPERTY-fält.
+// Visa värdet för en anpassad egenskap med hjälp av ett DOCPROPERTY-fält.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Vi kan hitta dessa anpassade egenskaper i Microsoft Word via "File" -> "Egenskaper" > "Avancerade egenskaper" > "Beställnings".
+// Vi hittar dessa anpassade egenskaper i Microsoft Word via "Arkiv" -> "Egenskaper" > "Avancerade egenskaper" > "Anpassad".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Nedan finns tre sätt att ta bort anpassade egenskaper från ett dokument.
-// 1 - Ta bort efter index:
+// Nedan följer tre sätt att ta bort anpassade egenskaper från ett dokument.
+// 1 - Ta bort via index:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));

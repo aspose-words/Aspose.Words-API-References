@@ -3,14 +3,14 @@ title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words för .NET
-description: MemoryFontSource byggare. Ctor i C#.
+description: Upptäck MemoryFontSource, en kraftfull konstruktor för sömlös typsnittshantering i dina projekt. Förbättra din design enkelt och effektivt!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(*byte[]*) {#constructor}
 
-Ctor.
+ktor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -46,7 +46,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int*) {#constructor_1}
 
-Ctor.
+ktor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -55,7 +55,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fontData | Byte[] | Binära teckensnittsdata. |
-| priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
+| priority | Int32 | Prioritet för teckensnittskälla. Se[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 
 ## Exempel
 
@@ -83,7 +83,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
-Ctor.
+ktor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -92,12 +92,12 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | fontData | Byte[] | Binära teckensnittsdata. |
-| priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
-| cacheKey | String | Nyckeln till denna källa i cachen. Ser[`CacheKey`](../cachekey/) fastighetsbeskrivning för mer information. |
+| priority | Int32 | Prioritet för teckensnittskälla. Se[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
+| cacheKey | String | Nyckeln till denna källa i cachen. Se[`CacheKey`](../cachekey/) fastighetsbeskrivning för mer information. |
 
 ## Exempel
 
-Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
+Visar hur man påskyndar initialiseringsprocessen för teckensnittscachen.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,8 +127,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Ladda teckensnittsdata endast när det behövs istället för att lagra det i minnet
-/// under hela livslängden för objektet "FontSettings".
+/// Ladda endast teckensnittsdata när det behövs istället för att lagra dem i minnet
+/// för hela livslängden för "FontSettings"-objektet.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

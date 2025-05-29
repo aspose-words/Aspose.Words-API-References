@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.DocumentFieldName
 linktitle: DocumentFieldName
 articleTitle: DocumentFieldName
 second_title: Aspose.Words för .NET
-description: FieldMergingArgsBase DocumentFieldName fast egendom. Hämtar namnet på sammanslagningsfältet som specificerats i dokumentet i C#.
+description: Upptäck egenskapen DocumentFieldName i FieldMergingArgsBase. Få enkel åtkomst till och hantera namn på kopplingsfält för effektiv dokumentbehandling.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
 ---
 ## FieldMergingArgsBase.DocumentFieldName property
 
-Hämtar namnet på sammanslagningsfältet som specificerats i dokumentet.
+Hämtar namnet på kopplingsfältet som anges i dokumentet.
 
 ```csharp
 public string DocumentFieldName { get; }
@@ -18,13 +18,13 @@ public string DocumentFieldName { get; }
 
 ## Anmärkningar
 
-Om du har en mappning från ett dokumentfältnamn till en annan datakällas fältnamn, så är detta det ursprungliga fältnamnet som specificerats i dokumentet.
+Om du har en mappning från ett dokumentfältnamn till ett annat datakällfältnamn, , så är detta det ursprungliga fältnamnet som anges i dokumentet.
 
-Om du angav ett fältnamnsprefix, till exempel "Image:MyFieldName" i dokumentet, `DocumentFieldName` returnerar fältnamnet utan prefixet, det vill säga "MyFieldName".
+Om du angav ett fältnamnsprefix, till exempel "Bild:MittFältnamn" i dokumentet, så`DocumentFieldName` returnerar fältnamnet utan prefixet, det vill säga "MittFältnamn".
 
 ## Exempel
 
-Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
+Visar hur man utför en dokumentkoppling med ett anpassat återanrop som hanterar kopplingsdata i form av HTML-dokument.
 
 ```csharp
 public void MergeHtml()
@@ -57,32 +57,32 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Om kopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
-/// denna återuppringning analyserar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentplatsen för MERGEFIELD.
+/// Om dokumentkopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
+/// denna återanropsfunktion tolkar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentets plats för MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Anropas när en e-postsammanfogning slår samman data till ett MERGEFIELD.
+    /// Anropas när en dokumentkoppling sammanfogar data till ett MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Lägg till analyserad HTML-data till dokumentets brödtext.
+            // Lägg till parsad HTML-data i dokumentets brödtext.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+            // Eftersom vi redan har infogat det sammanfogade innehållet manuellt,
+            // vi behöver inte svara på den här händelsen genom att returnera innehåll via egenskapen "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 }
 ```

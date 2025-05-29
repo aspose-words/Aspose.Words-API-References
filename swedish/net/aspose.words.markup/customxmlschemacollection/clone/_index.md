@@ -3,14 +3,14 @@ title: CustomXmlSchemaCollection.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words för .NET
-description: CustomXmlSchemaCollection Clone metod. Gör en djup klon av detta objekt i C#.
+description: Duplicera enkelt din CustomXmlSchemaCollection med vår kloningsmetod för en sömlös djupkopieringsupplevelse. Förbättra din XML-hantering idag!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.markup/customxmlschemacollection/clone/
 ---
 ## CustomXmlSchemaCollection.Clone method
 
-Gör en djup klon av detta objekt.
+Skapar en djup klon av detta objekt.
 
 ```csharp
 public CustomXmlSchemaCollection Clone()
@@ -39,15 +39,15 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Räkna upp scheman och skriv ut varje element.
+// Räkna upp schemana och skriv ut varje element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nedan finns tre sätt att ta bort scheman från samlingen.
-// 1 - Ta bort ett schema efter index:
+// Nedan följer tre sätt att ta bort scheman från samlingen.
+// 1 - Ta bort ett schema via index:
 schemas.RemoveAt(2);
 
 // 2 - Ta bort ett schema efter värde:

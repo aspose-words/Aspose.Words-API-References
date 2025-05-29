@@ -3,28 +3,35 @@ title: Font.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
 second_title: Aspose.Words för .NET
-description: Font TintAndShade fast egendom. Hämtar eller ställer in ett dubbelt värde som gör en färg ljusare eller mörkare i C#.
+description: Upptäck egenskapen Font TintAndShade för att enkelt justera färger! Ljusa eller mörka nyanser för livfulla designer. Förbättra dina projekt utan ansträngning!
 type: docs
-weight: 520
+weight: 530
 url: /sv/net/aspose.words/font/tintandshade/
 ---
 ## Font.TintAndShade property
 
-Hämtar eller ställer in ett dubbelt värde som gör en färg ljusare eller mörkare.
+Hämtar eller ställer in ett dubbelvärde som ljusar eller mörkar upp en färg.
 
 ```csharp
 public double TintAndShade { get; set; }
 ```
 
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| ArgumentOutOfRangeException | Kasta om den här egenskapen sätts till ett värde mindre än -1 eller större än 1. |
+| InvalidOperationException | Kasta om den här egenskapen är satt för[`Font`](../) objekt med färger som inte är temafärger. |
+
 ## Anmärkningar
 
-De tillåtna värdena ligger inom området -1 (mörkast) till 1 (ljusast) för den här egenskapen. Noll (0) är neutral. Ett försök att ställa in den här egenskapen till ett värde mindre än -1 eller mer än 1 resulterar i enArgumentOutOfRangeException.
+De tillåtna värdena ligger i intervallet -1 (mörkast) till 1 (ljusast) för den här egenskapen.
 
-Ställer in den här egenskapen för[`Font`](../) objekt med icke-tema colors resulterar i enInvalidOperationException.
+Noll (0) är neutral.
 
 ## Exempel
 
-Visar hur man skapar och använder stil med teman.
+Visar hur man skapar och använder temainriktad stil.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +39,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Skapa lite stil med egenskaper för tematypsnitt.
+// Skapa lite stil med temats teckensnittsegenskaper.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;

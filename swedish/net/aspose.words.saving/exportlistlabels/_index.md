@@ -3,9 +3,9 @@ title: ExportListLabels Enum
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.ExportListLabels uppräkning. Anger hur listetiketter exporteras till HTML MHTML och EPUB i C#.
+description: Upptäck hur Aspose.Words.Saving.ExportListLabels-enumet förbättrar dina HTML-, MHTML- och EPUB-exporter med anpassningsbara listetikettalternativ.
 type: docs
-weight: 5010
+weight: 5760
 url: /sv/net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration
@@ -20,13 +20,13 @@ public enum ExportListLabels
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Auto | `0` | Matar ut listetiketter i autoläge. Använder inbyggda HTML-element när det är möjligt. |
-| AsInlineText | `1` | Matar ut alla listetiketter som inline text. |
-| ByHtmlTags | `2` | Matar ut alla listetiketter som inbyggda HTML-element. |
+| Auto | `0` | Visar listade etiketter i autoläge. Använder HTML-element när det är möjligt. |
+| AsInlineText | `1` | Visar alla listetiketter som inbäddad text. |
+| ByHtmlTags | `2` | Matar ut alla listetiketter som HTML-element. |
 
 ## Exempel
 
-Visar hur du konfigurerar listexport till HTML.
+Visar hur man konfigurerar export av listor till HTML.
 
 ```csharp
 Document doc = new Document();
@@ -56,12 +56,12 @@ builder.ListFormat.RemoveNumbers();
 
 // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt
 // för att bestämma vilka HTML-element dokumentet ska använda för att representera listor.
-// Ställ in egenskapen "ExportListLabels" till "ExportListLabels.AsInlineText"
-// kommer att skapa listor genom att formatera spann.
-// Om du ställer in egenskapen "ExportListLabels" till "ExportListLabels.Auto" kommer <p> märka
-// för att bygga listor i fall då du använder <ol> och <li> taggar kan orsaka förlust av formatering.
+// Ställer in egenskapen "ExportListLabels" till "ExportListLabels.AsInlineText"
+// skapar listor genom att formatera spann.
+// Om egenskapen "ExportListLabels" ställs in på "ExportListLabels.Auto" används taggen <p>
+// att bygga listor i de fall då användning av taggarna <ol> och <li> kan orsaka formateringsförlust.
 // Ställer in egenskapen "ExportListLabels" till "ExportListLabels.ByHtmlTags"
-// kommer att använda <ol> och <li> taggar för att bygga alla listor.
+// kommer att använda taggarna <ol> och <li> för att bygga alla listor.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

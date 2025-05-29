@@ -3,14 +3,14 @@ title: TableStyle.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
 second_title: Aspose.Words för .NET
-description: TableStyle CellSpacing fast egendom. Hämtar eller ställer in mängden utrymme i poäng mellan cellerna i C#.
+description: Upptäck egenskapen TableStyle CellSpacing för att enkelt justera cellavståndet i punkter, vilket förbättrar tabellens utseende och läsbarhet.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/tablestyle/cellspacing/
 ---
 ## TableStyle.CellSpacing property
 
-Hämtar eller ställer in mängden utrymme (i poäng) mellan cellerna.
+Hämtar eller anger mängden utrymme (i punkter) mellan cellerna.
 
 ```csharp
 public double CellSpacing { get; set; }

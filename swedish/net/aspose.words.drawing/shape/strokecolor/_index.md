@@ -3,9 +3,9 @@ title: Shape.StrokeColor
 linktitle: StrokeColor
 articleTitle: StrokeColor
 second_title: Aspose.Words för .NET
-description: Shape StrokeColor fast egendom. Definierar färgen på ett streck i C#.
+description: Anpassa din design med egenskapen Shape StrokeColor, så att du kan definiera livfulla streckfärger för en fantastisk visuell effekt.
 type: docs
-weight: 190
+weight: 200
 url: /sv/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
@@ -18,13 +18,13 @@ public Color StrokeColor { get; set; }
 
 ## Anmärkningar
 
-Detta är en genväg till[`Color`](../../stroke/color/) fast egendom.
+Detta är en genväg till[`Color`](../../stroke/color/) egendom.
 
-Standardvärdet är Black.
+Standardvärdet är Black .
 
 ## Exempel
 
-Visar hur man fyller en form med enfärgad.
+Visar hur man fyller en form med en helfärg.
 
 ```csharp
 Document doc = new Document();
@@ -37,18 +37,18 @@ builder.Writeln("Hello world!");
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Använd egenskapen "StrokeColor" för att ställa in färgen på formens kontur.
+// Använd egenskapen "StrokeColor" för att ange färgen på formens kontur.
 shape.StrokeColor = Color.CadetBlue;
 
-// Använd egenskapen "FillColor" för att ställa in färgen på formens insida.
+// Använd egenskapen "FillColor" för att ange färgen på formens insida.
 shape.FillColor = Color.LightBlue;
 
-// Egenskapen "Opacity" bestämmer hur transparent färgen är på en skala 0-1,
+// Egenskapen "Opacitet" avgör hur transparent färgen är på en skala från 0 till 1,
 // där 1 är helt ogenomskinlig och 0 är osynlig.
-// Formfyllningen är som standard helt ogenomskinlig, så vi kan inte se texten som denna form är ovanpå.
+// Formfyllningen är som standard helt ogenomskinlig, så vi kan inte se texten som formen ligger ovanpå.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Ställ in formfyllningsfärgens opacitet till ett lägre värde så att vi kan se texten under den.
+// Ställ in fyllningsfärgens opacitet till ett lägre värde så att vi kan se texten under den.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
@@ -67,7 +67,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Loggar utseenderelaterad information om besökta former.
+/// Loggar information om utseende och besökta former.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -79,7 +79,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägger till en rad i StringBuilder med ett förekommande tabbtecken för varje indragsnivå.
+    /// Lägger till en rad i StringBuilder med ett tabbtecken före varje indragsnivå.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -89,7 +89,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Returnera all text som StringBuilder har samlat på sig.
+    /// Returnerar all text som StringBuilder har ackumulerat.
     /// </summary>
     public string GetText()
     {
@@ -117,7 +117,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -133,7 +132,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när den här besökaren besöker slutet av en Shape-nod.
+    /// Anropas när denna besökare besöker slutet av en Shape-nod.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {

@@ -3,14 +3,14 @@ title: ImageData.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words för .NET
-description: ImageData SetImage metod. Ställer in bilden som formen visar i C#.
+description: Upptäck hur du använder SetImage-metoden i ImageData för att förbättra dina former med anpassade bilder. Förbättra din design utan ansträngning!
 type: docs
-weight: 200
+weight: 210
 url: /sv/net/aspose.words.drawing/imagedata/setimage/
 ---
 ## SetImage(*Image*) {#setimage}
 
-Ställer in bilden som formen visar.
+Anger bilden som formen visar.
 
 ```csharp
 public void SetImage(Image image)
@@ -31,7 +31,7 @@ Document doc = new Document();
 // som kommer att innehålla en bild och sedan lägga till den i dokumentets brödtext.
 Shape imgShape;
 
-// Nedan finns två sätt att få en bild från en fil i det lokala filsystemet.
+// Nedan följer två sätt att hämta en bild från en fil i det lokala filsystemet.
 // 1 - Skapa ett bildobjekt från en bildfil:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ## SetImage(*Stream*) {#setimage_1}
 
-Ställer in bilden som formen visar.
+Anger bilden som formen visar.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -83,7 +83,7 @@ Document doc = new Document();
 // som kommer att innehålla en bild och sedan lägga till den i dokumentets brödtext.
 Shape imgShape;
 
-// Nedan finns två sätt att få en bild från en fil i det lokala filsystemet.
+// Nedan följer två sätt att hämta en bild från en fil i det lokala filsystemet.
 // 1 - Skapa ett bildobjekt från en bildfil:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
@@ -114,7 +114,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ## SetImage(*string*) {#setimage_2}
 
-Ställer in bilden som formen visar.
+Anger bilden som formen visar.
 
 ```csharp
 public void SetImage(string fileName)
@@ -134,8 +134,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Nedan finns två sätt att applicera en bild på en form så att den kan visa den.
-// 1 - Ställ in formen så att den innehåller bilden.
+// Nedan följer två sätt att tillämpa en bild på en form så att den kan visas.
+// 1 - Ange formen så att den innehåller bilden.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -149,7 +149,7 @@ Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedde
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Ställ in formen för att länka till en bildfil i det lokala filsystemet.
+// 2 - Ange formen för att länka till en bildfil i det lokala filsystemet.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;

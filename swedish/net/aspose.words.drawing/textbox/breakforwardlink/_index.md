@@ -3,7 +3,7 @@ title: TextBox.BreakForwardLink
 linktitle: BreakForwardLink
 articleTitle: BreakForwardLink
 second_title: Aspose.Words för .NET
-description: TextBox BreakForwardLink metod. Bryter länken till nästaTextBox  i C#.
+description: Upptäck TextBox BreakForwardLink-metoden för att sömlöst koppla bort länkar till dina textrutor, vilket förbättrar användarupplevelsen och formulärnavigeringen. Optimera ditt användargränssnitt idag!
 type: docs
 weight: 130
 url: /sv/net/aspose.words.drawing/textbox/breakforwardlink/
@@ -18,7 +18,7 @@ public void BreakForwardLink()
 
 ## Anmärkningar
 
-`BreakForwardLink`bryter inte alla andra länkar i den aktuella sekvensen av former. Till exempel: 1-2-3-4 sekvens och`BreakForwardLink` vid den andra textrutan kommer att skapa två sekvenser 1-2, 3-4.
+`BreakForwardLink` bryter inte alla andra länkar i den aktuella sekvensen av former. Till exempel: 1-2-3-4 sekvens och`BreakForwardLink` i den andra textrutan skapas två sekvenser 1-2, 3-4.
 
 ## Exempel
 
@@ -50,7 +50,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Endast en tom textruta kan ha en länk.
+// Endast en tom textruta får innehålla en länk.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -70,7 +70,6 @@ if (textBox3.Next == null && textBox3.Previous != null)
 
     // Bryt framåtlänken mellan textBox2 och textBox3 och verifiera sedan att de inte längre är länkade.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

@@ -3,14 +3,14 @@ title: Document.HasMacros
 linktitle: HasMacros
 articleTitle: HasMacros
 second_title: Aspose.Words för .NET
-description: Document HasMacros fast egendom. ReturnerarSann om dokumentet har ett VBAprojekt makron i C#.
+description: Ta reda på om ditt dokument innehåller VBA-projektmakron med egenskapen HasMacros. Förbättra automatiseringen och effektiviteten i dina arbetsflöden idag!
 type: docs
-weight: 190
+weight: 200
 url: /sv/net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-Returnerar`Sann` om dokumentet har ett VBA-projekt (makron).
+Returer`sann` om dokumentet har ett VBA-projekt (makron).
 
 ```csharp
 public bool HasMacros { get; }
@@ -18,7 +18,7 @@ public bool HasMacros { get; }
 
 ## Exempel
 
-Visar hur man använder MACROBUTTON-fält för att tillåta oss att köra ett dokuments makron genom att klicka.
+Visar hur man använder MACROBUTTON-fält för att köra ett dokuments makron genom att klicka.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");
@@ -26,18 +26,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.IsTrue(doc.HasMacros);
 
-// Infoga ett MACROBUTTON-fält och referera till ett av dokumentets makron efter namn i egenskapen MacroName.
+// Infoga ett MAKROKNAPP-fält och referera till ett av dokumentets makron med namn i egenskapen Makronamn.
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
 
 Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
 
-// Använd egenskapen för att referera till "ViewZoom200", ett makro som levereras med Microsoft Word.
+// Använd egenskapen för att referera till "ViewZoom200", ett makro som medföljer Microsoft Word.
 // Vi kan hitta alla andra makron via Visa -> Makron (rullgardinsmeny) -> Visa makron.
-// I den menyn väljer du "Word Commands" från rullgardinsmenyn "Makron i:".
-// Om vårt dokument innehåller ett anpassat makro med samma namn som ett aktiemakro,
-// vårt makro kommer att vara det som fältet MACROBUTTON körs.
+// I den menyn väljer du "Word-kommandon" från rullgardinsmenyn "Makron i:".
+// Om vårt dokument innehåller ett anpassat makro med samma namn som ett standardmakro,
+// vårt makro kommer att vara det som MACROBUTTON-fältet kör.
 builder.InsertParagraph();
 field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "ViewZoom200";

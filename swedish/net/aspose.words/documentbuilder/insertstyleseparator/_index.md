@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertStyleSeparator
 linktitle: InsertStyleSeparator
 articleTitle: InsertStyleSeparator
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertStyleSeparator metod. Infogar stilavgränsare i dokumentet i C#.
+description: Förbättra dina dokument med DocumentBuilder InsertStyleSeparator-metoden och lägg enkelt till stilavgränsare för förbättrad formatering och organisation.
 type: docs
-weight: 450
+weight: 490
 url: /sv/net/aspose.words/documentbuilder/insertstyleseparator/
 ---
 ## DocumentBuilder.InsertStyleSeparator method
@@ -18,7 +18,7 @@ public void InsertStyleSeparator()
 
 ## Anmärkningar
 
-Den här metoden gör det möjligt att tillämpa olika styckestilar på två olika delar av en textrad.
+Den här metoden gör det möjligt att tillämpa olika styckeformat på två olika delar av en textrad.
 
 ## Exempel
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Varje stycke kan bara ha en stil.
-// Metoden InsertStyleSeparator tillåter oss att kringgå denna begränsning.
+// Metoden InsertStyleSeparator låter oss kringgå denna begränsning.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Write("This text is in a Heading style. ");
 builder.InsertStyleSeparator();
@@ -42,8 +42,8 @@ paraStyle.Font.Name = "Arial";
 builder.ParagraphFormat.StyleName = paraStyle.Name;
 builder.Write("This text is in a custom style. ");
 
-// Genom att anropa metoden InsertStyleSeparator skapas ytterligare ett stycke,
-// som kan ha en annan stil än föregående. Det blir ingen paus mellan styckena.
+// Anrop av InsertStyleSeparator-metoden skapar ytterligare ett stycke,
+// som kan ha en annan stil än den föregående. Det blir ingen paus mellan stycken.
 // Texten i utdatadokumentet kommer att se ut som ett stycke med två stilar.
 Assert.AreEqual(2, doc.FirstSection.Body.Paragraphs.Count);
 Assert.AreEqual("Heading 1", doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style.Name);

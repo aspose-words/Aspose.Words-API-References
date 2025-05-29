@@ -3,14 +3,14 @@ title: FieldIncludePicture.ResizeVertically
 linktitle: ResizeVertically
 articleTitle: ResizeVertically
 second_title: Aspose.Words för .NET
-description: FieldIncludePicture ResizeVertically fast egendom. Hämtar eller ställer in om bilden ska ändras vertikalt från källan i C#.
+description: Upptäck hur egenskapen ResizeVertically i FieldIncludePicture förbättrar bildhanteringen genom att tillåta vertikal storleksändring för optimal visning.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Hämtar eller ställer in om bilden ska ändras vertikalt från källan.
+Hämtar eller anger om bilden ska ändra storlek vertikalt från källan.
 
 ```csharp
 public bool ResizeVertically { get; set; }
@@ -18,14 +18,14 @@ public bool ResizeVertically { get; set; }
 
 ## Exempel
 
-Visar hur man infogar bilder med hjälp av IMPORT- och INCLUDEPICTURE-fälten.
+Visar hur man infogar bilder med hjälp av fälten IMPORT och INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två liknande fälttyper som vi kan använda för att visa bilder länkade från det lokala filsystemet.
-// 1 - Fältet INKLUDERA BILD:
+// Nedan följer två liknande fälttyper som vi kan använda för att visa bilder länkade från det lokala filsystemet.
+// 1 - Fältet INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

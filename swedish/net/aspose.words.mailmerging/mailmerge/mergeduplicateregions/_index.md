@@ -3,14 +3,14 @@ title: MailMerge.MergeDuplicateRegions
 linktitle: MergeDuplicateRegions
 articleTitle: MergeDuplicateRegions
 second_title: Aspose.Words för .NET
-description: MailMerge MergeDuplicateRegions fast egendom. Hämtar eller ställer in ett värde som indikerar om alla dokumentkopplingsregioner med namnet på en datakälla ska slås samman under körning av en brevkoppling med regioner mot datakällan eller bara den första i C#.
+description: Optimera din dokumentkopplingsprocess med egenskapen MergeDuplicateRegions. Styr hur datakällregioner slås samman för effektiv dokumenthantering.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-Hämtar eller ställer in ett värde som indikerar om alla dokumentkopplingsregioner med namnet på en datakälla ska slås samman under körning av en brevkoppling med regioner mot datakällan eller bara den första.
+Hämtar eller anger ett värde som anger om alla dokumentkopplingsområden med namnet på en datakälla ska slås samman vid utskriftskoppling med regioner mot datakällan eller bara den första.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet är`falsk` .
 
 ## Exempel
 
-Visar hur man arbetar med dubbletter av kopplingsregioner.
+Visar hur man arbetar med dubbletter av dokumentkopplingsområden.
 
 ```csharp
 public void MergeDuplicateRegions(bool mergeDuplicateRegions)
@@ -30,11 +30,11 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     Document doc = CreateSourceDocMergeDuplicateRegions();
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // Om vi ställer in egenskapen "MergeDuplicateRegions" till "false", kommer kopplingen att påverka den första regionen,
-    // medan MERGEFIELDs i den andra kommer att lämnas i pre-merge-tillståndet.
-    // För att få båda regionerna sammanslagna så,
-    // vi skulle behöva köra sammanslagningen två gånger på en tabell med samma namn.
-    // Om vi ställer in egenskapen "MergeDuplicateRegions" till "true", kommer sammanslagningen att påverka båda regionerna.
+    // Om vi ställer in egenskapen "MergeDuplicateRegions" till "false" kommer dokumentkopplingen att påverka den första regionen,
+    // medan MERGEFIELDS för den andra kommer att lämnas i tillståndet före sammanslagningen.
+    // För att få båda regionerna sammanslagna på det sättet,
+    // vi skulle behöva köra dokumentkopplingen två gånger på en tabell med samma namn.
+    // Om vi ställer in egenskapen "MergeDuplicateRegions" till "true" kommer dokumentkopplingen att påverka båda regionerna.
     doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
@@ -42,7 +42,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 }
 
 /// <summary>
-/// Returnerar ett dokument som innehåller två dubbletter av kopplingsregioner (som delar samma namn i "TableStart/End"-taggarna).
+/// Returnerar ett dokument som innehåller två dubbletter av dokumentkopplingsområden (som delar samma namn i taggarna "TableStart/End").
 /// </summary>
 private static Document CreateSourceDocMergeDuplicateRegions()
 {

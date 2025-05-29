@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Words
 linktitle: Words
 articleTitle: Words
 second_title: Aspose.Words för .NET
-description: BuiltInDocumentProperties Words fast egendom. Representerar en uppskattning av antalet ord i dokumentet i C#.
+description: Upptäck egenskapen Words i BuiltInDocumentProperties, som ger en korrekt uppskattning av ordantal för dina dokument för att förbättra redigeringseffektiviteten.
 type: docs
-weight: 330
+weight: 360
 url: /sv/net/aspose.words.properties/builtindocumentproperties/words/
 ---
 ## BuiltInDocumentProperties.Words property
@@ -18,11 +18,11 @@ public int Words { get; set; }
 
 ## Anmärkningar
 
-Aspose.Words uppdaterar den här egenskapen när du ringer[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
+Aspose.Words uppdaterar den här egenskapen när du anropar[`UpdateWordCount`](../../../aspose.words/document/updatewordcount/).
 
 ## Exempel
 
-Visar hur du uppdaterar alla listetiketter i ett dokument.
+Visar hur man uppdaterar alla listetiketter i ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words spårar inte dokumentmått som dessa i realtid.
+// Aspose.Words spårar inte dokumentstatistik som dessa i realtid.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -46,7 +46,7 @@ Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// För radräkningen måste vi anropa en specifik överbelastning av uppdateringsmetoden.
+// För radantalet måste vi anropa en specifik överbelastning av uppdateringsmetoden.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);
@@ -63,13 +63,13 @@ public void Content()
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
     // Genom att använda inbyggda egenskaper,
-    // vi kan behandla dokumentstatistik som ord/sida/teckenantal som metadata som man kan titta på utan att öppna dokumentet
+    // vi kan behandla dokumentstatistik som ord-/sid-/teckenantal som metadata som kan granskas utan att öppna dokumentet
     // Dessa egenskaper nås genom att högerklicka på filen i Utforskaren och navigera till Egenskaper > Detaljer > Innehåll
-    // Om vi vill visa dessa data inuti dokumentet kan vi använda fält som NUMPAGES, NUMWORDS, NUMCHARS etc.
-    // Dessa värden kan också ses i Microsoft Word genom att navigera i Arkiv > Egenskaper > Avancerade egenskaper > Statistik
-    // Antal sidor: Egenskapen PageCount visar antalet sidor i realtid och dess värde kan tilldelas egenskapen Sidor
+    // Om vi vill visa denna data inuti dokumentet kan vi använda fält som NUMPAGES, NUMWORDS, NUMCHARS etc.
+    // Dessa värden kan också visas i Microsoft Word genom att navigera Arkiv > Egenskaper > Avancerade egenskaper > Statistik
+    // Sidantal: Egenskapen PageCount visar antalet sidor i realtid och dess värde kan tilldelas egenskapen Pages
 
-     // Egenskapen "Sidor" lagrar antalet sidor i dokumentet.
+     // Egenskapen "Sidor" lagrar dokumentets sidantal.
     Assert.AreEqual(6, properties.Pages);
 
     // De inbyggda egenskaperna "Words", "Characters" och "CharactersWithSpaces" visar också olika dokumentstatistik,
@@ -86,24 +86,24 @@ public void Content()
 
     Assert.AreEqual(142, properties.Lines);
 
-    // Tilldela antalet paragrafnoder i dokumentet till den inbyggda egenskapen "Paragraphs".
+    // Tilldela antalet styckenoder i dokumentet till den inbyggda egenskapen "Stycken".
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // Få en uppskattning av filstorleken på vårt dokument via den inbyggda "Bytes"-egenskapen.
+    // Få en uppskattning av filstorleken på vårt dokument via den inbyggda egenskapen "Bytes".
     Assert.AreEqual(20310, properties.Bytes);
 
     // Ställ in en annan mall för vårt dokument och uppdatera sedan den inbyggda egenskapen "Mall" manuellt för att återspegla denna ändring.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 
     // "ContentStatus" är en beskrivande inbyggd egenskap.
     properties.ContentStatus = "Draft";
 
-    // När du har sparat kommer den inbyggda "ContentType"-egenskapen att innehålla MIME-typen för utdatasparformatet.
+    // Vid sparning kommer den inbyggda egenskapen "ContentType" att innehålla MIME-typen för utdataformatet för sparning.
     Assert.AreEqual(string.Empty, properties.ContentType);
 
     // Om dokumentet innehåller länkar, och alla är uppdaterade, kan vi ställa in egenskapen "LinksUpToDate" till "true".
@@ -115,7 +115,7 @@ public void Content()
 /// <summary>
 /// Räknar raderna i ett dokument.
 /// Går igenom dokumentets layoutentitetsträd vid konstruktion,
-/// räknande enheter av typen "Linje" som också innehåller riktig text.
+/// räknar enheter av typen "Linje" som också innehåller riktig text.
 /// </summary>
 private class LineCounter
 {

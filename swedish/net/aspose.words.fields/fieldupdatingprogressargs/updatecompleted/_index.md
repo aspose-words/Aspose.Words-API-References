@@ -3,14 +3,14 @@ title: FieldUpdatingProgressArgs.UpdateCompleted
 linktitle: UpdateCompleted
 articleTitle: UpdateCompleted
 second_title: Aspose.Words för .NET
-description: FieldUpdatingProgressArgs UpdateCompleted fast egendom. Får ett värde som indikerar om fältuppdateringen är klar i C#.
+description: Upptäck egenskapen FieldUpdatingProgressArgs UpdateCompleted, som effektivt indikerar om fältuppdateringar är slutförda, vilket förbättrar din datahanteringsprocess.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
 ---
 ## FieldUpdatingProgressArgs.UpdateCompleted property
 
-Får ett värde som indikerar om fältuppdateringen är klar.
+Hämtar ett värde som anger om fältuppdateringen är slutförd.
 
 ```csharp
 public bool UpdateCompleted { get; }
@@ -18,7 +18,7 @@ public bool UpdateCompleted { get; }
 
 ## Exempel
 
-Visar hur man använder återuppringningsmetoder under en fältuppdatering.
+Visar hur man använder återanropsmetoder under en fältuppdatering.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementera detta gränssnitt om du vill ha dina egna anpassade metoder anropade under en fältuppdatering.
+/// Implementera detta gränssnitt om du vill att dina egna anpassade metoder anropas under en fältuppdatering.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {

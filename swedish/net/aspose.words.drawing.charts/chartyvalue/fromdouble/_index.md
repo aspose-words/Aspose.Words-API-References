@@ -3,14 +3,14 @@ title: ChartYValue.FromDouble
 linktitle: FromDouble
 articleTitle: FromDouble
 second_title: Aspose.Words för .NET
-description: ChartYValue FromDouble metod. Skapar enChartYValue instans avDouble typ i C#.
+description: Upptäck ChartYValue FromDouble-metoden för att enkelt skapa ChartYValue-instanser av typen Double för förbättrad datavisualisering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/fromdouble/
 ---
 ## ChartYValue.FromDouble method
 
-Skapar en[`ChartYValue`](../) instans avDouble typ.
+Skapar en[`ChartYValue`](../) exempel påDouble typ.
 
 ```csharp
 public static ChartYValue FromDouble(double value)
@@ -22,25 +22,24 @@ Visar hur man fyller diagramserier med data.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ChartSeries series1 = chart.Series[0];
 
-// Rensa X- och Y-värden för den första serien.
+// Rensa X- och Y-värdena för den första serien.
 series1.ClearValues();
 
 // Fyll serien med data.
-series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
 series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
 series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
-series1.Add(ChartXValue.FromDouble(9), ChartYValue.FromDouble(17));
+series1.Add(ChartXValue.FromDouble(9));
 
 ChartSeries series2 = chart.Series[1];
-
-// Rensa X- och Y-värden i den andra serien.
-series2.ClearValues();
+// Rensa X- och Y-värdena för den andra serien.
+series2.Clear();
 
 // Fyll serien med data.
 series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));

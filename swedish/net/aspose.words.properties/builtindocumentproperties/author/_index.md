@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words för .NET
-description: BuiltInDocumentProperties Author fast egendom. Hämtar eller ställer in namnet på dokumentets författare i C#.
+description: Hantera dokumentförfattare enkelt med egenskapen BuiltInDocumentProperties Author. Ställ in eller hämta enkelt författarens namn för bättre organisation.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.properties/builtindocumentproperties/author/
 ---
 ## BuiltInDocumentProperties.Author property
 
-Hämtar eller ställer in namnet på dokumentets författare.
+Hämtar eller anger namnet på dokumentets författare.
 
 ```csharp
 public string Author { get; set; }
@@ -25,36 +25,36 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Nedan finns fyra inbyggda dokumentegenskaper som har fält som kan visa sina värden i dokumentets brödtext.
-// 1 - "Author"-egenskap, som vi kan visa med ett AUTHOR-fält:
+// Nedan följer fyra inbyggda dokumentegenskaper som har fält som kan visa sina värden i dokumentets brödtext.
+// 1 - Egenskapen "Author", som vi kan visa med hjälp av ett AUTHOR-fält:
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
 
-// 2 - Egenskapen "Titel", som vi kan visa med ett TITLE-fält:
+// 2 - Egenskapen "Titel", som vi kan visa med hjälp av ett TITEL-fält:
 properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
 
-// 3 - "Subject"-egenskap, som vi kan visa med ett SUBJECT-fält:
+// 3 - Egenskapen "Ämne", som vi kan visa med ett ÄMNE-fält:
 properties.Subject = "My subject";
 builder.Write("\nSubject:\t");
 builder.InsertField(FieldType.FieldSubject, true);
 
-// 4 - "Comments"-egenskapen, som vi kan visa med ett KOMMENTAR-fält:
+// 4 - Egenskapen "Kommentarer", som vi kan visa med hjälp av ett KOMMENTARER-fält:
 properties.Comments = $"This is {properties.Author}'s document about {properties.Subject}";
 builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// Den inbyggda egenskapen "Kategori" har inte ett fält som kan visa dess värde.
+// Den inbyggda egenskapen "Kategori" har inget fält som kan visa dess värde.
 properties.Category = "My category";
 
-// Vi kan ställa in flera nyckelord för ett dokument genom att separera strängvärdet för egenskapen "Keywords" med semikolon.
+// Vi kan ange flera nyckelord för ett dokument genom att separera strängvärdet för egenskapen "Nyckelord" med semikolon.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
 // Vi kan högerklicka på det här dokumentet i Utforskaren och hitta dessa egenskaper i "Egenskaper" -> "Detaljer".
-// Den inbyggda "Author"-egenskapen är i gruppen "Origin" och de andra är i gruppen "Description".
+// Den inbyggda egenskapen "Författare" finns i gruppen "Ursprung", och de andra finns i gruppen "Beskrivning".
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

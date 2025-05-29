@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.XmlMapping
 linktitle: XmlMapping
 articleTitle: XmlMapping
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart XmlMapping fast egendom. Hämtar ett objekt som representerar mappningen av detta strukturerade dokumenttaggintervall till XML data i en anpassad XMLdel av det aktuella dokumentet i C#.
+description: Upptäck hur egenskapen StructuredDocumentTagRangeStart XmlMapping kopplar ditt dokuments taggintervall till anpassade XML-data, vilket förbättrar dokumentintegrationen.
 type: docs
-weight: 180
+weight: 190
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/xmlmapping/
 ---
 ## StructuredDocumentTagRangeStart.XmlMapping property
 
-Hämtar ett objekt som representerar mappningen av detta strukturerade dokumenttaggintervall till XML data i en anpassad XML-del av det aktuella dokumentet.
+Hämtar ett objekt som representerar mappningen av detta strukturerade dokumenttaggintervall till XML-data i en anpassad XML-del av det aktuella dokumentet.
 
 ```csharp
 public XmlMapping XmlMapping { get; }
@@ -18,11 +18,11 @@ public XmlMapping XmlMapping { get; }
 
 ## Anmärkningar
 
-Du kan använda[`SetMapping`](../../xmlmapping/setmapping/) metod för detta objekt för att mappa ett strukturerat dokumenttaggområde till XML-data.
+Du kan använda[`SetMapping`](../../xmlmapping/setmapping/) Metod för this -objektet för att mappa ett strukturerat dokumenttaggintervall till XML-data.
 
 ## Exempel
 
-Visar hur man ställer in XML-mappningar för intervallstarten för en strukturerad dokumenttagg.
+Visar hur man ställer in XML-mappningar för intervallets början av en strukturerad dokumenttagg.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");
@@ -39,8 +39,8 @@ Assert.AreEqual("<root><text>Text element #1</text><text>Text element #2</text><
 StructuredDocumentTagRangeStart sdtRangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true);
 
 // Om vi ställer in en mappning för vår strukturerade dokumenttagg,
-// det kommer bara att visa en del av CustomXmlPart som XPath pekar på.
-// Denna XPath kommer att peka på innehållets andra "<text>" element i den första "<root>" element i vår CustomXmlPart.
+// den kommer bara att visa en del av CustomXmlPart som XPath pekar på.
+// Denna XPath kommer att peka på innehållets andra "<text>"-element i det första "<root>"-elementet i vår CustomXmlPart.
 sdtRangeStart.XmlMapping.SetMapping(xmlPart, "/root[1]/text[2]", null);
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.StructuredDocumentTagRangeStartXmlMapping.docx");

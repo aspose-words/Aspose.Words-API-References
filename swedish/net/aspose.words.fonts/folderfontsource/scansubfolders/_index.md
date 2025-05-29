@@ -3,14 +3,14 @@ title: FolderFontSource.ScanSubfolders
 linktitle: ScanSubfolders
 articleTitle: ScanSubfolders
 second_title: Aspose.Words för .NET
-description: FolderFontSource ScanSubfolders fast egendom. Bestämmer om undermapparna ska skannas eller inte i C#.
+description: Upptäck egenskapen FolderFontSource ScanSubfolders för att enkelt hantera teckensnittsorganisation genom att välja att skanna undermappar för ökad effektivitet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/folderfontsource/scansubfolders/
 ---
 ## FolderFontSource.ScanSubfolders property
 
-Bestämmer om undermapparna ska skannas eller inte.
+Avgör om undermapparna ska genomsökas eller inte.
 
 ```csharp
 public bool ScanSubfolders { get; }

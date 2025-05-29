@@ -3,9 +3,9 @@ title: SystemFontSource Class
 linktitle: SystemFontSource
 articleTitle: SystemFontSource
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.SystemFontSource klass. Representerar alla TrueTypeteckensnitt som är installerade i systemet i C#.
+description: Upptäck klassen Aspose.Words.Fonts.SystemFontSource, din inkörsport till alla TrueType-teckensnitt på ditt system för sömlös dokumentskapande.
 type: docs
-weight: 3050
+weight: 3480
 url: /sv/net/aspose.words.fonts/systemfontsource/
 ---
 ## SystemFontSource class
@@ -22,27 +22,27 @@ public class SystemFontSource : FontSourceBase
 
 | namn | Beskrivning |
 | --- | --- |
-| [SystemFontSource](systemfontsource/#constructor)() | Ctor. |
-| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | Ctor. |
+| [SystemFontSource](systemfontsource/#constructor)() | ktor. |
+| [SystemFontSource](systemfontsource/#constructor_1)(*int*) | ktor. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returnerar teckensnittskällans prioritet. |
-| override [Type](../../aspose.words.fonts/systemfontsource/type/) { get; } | Returnerar typen av teckensnittskälla. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som kan resultera i förlust av formatering. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returnerar teckensnittets källprioritet. |
+| override [Type](../../aspose.words.fonts/systemfontsource/type/) { get; } | Returnerar typen av teckensnittskällan. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Anropas under bearbetning av teckensnittskälla när ett problem upptäcks som kan leda till förlust av formateringstillverkning. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
-| static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Returnerar systemfontmappar eller tom array om mappar inte är tillgängliga. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via denna källa. |
+| static [GetSystemFontFolders](../../aspose.words.fonts/systemfontsource/getsystemfontfolders/)() | Returnerar systemfontmappar eller en tom array om mapparna inte är tillgängliga. |
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments systemteckensnittskälla och ställer in teckensnittsersättningar.
+Visar hur man kommer åt ett dokuments systemfontkälla och ställer in fontersättningar.
 
 ```csharp
 Document doc = new Document();
@@ -70,7 +70,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Ställ in ett teckensnitt som finns i Windows Fonts-katalogen som ett substitut för ett som inte gör det.
+// Ställ in ett teckensnitt som finns i Windows Fonts-katalogen som ersättning för ett som inte finns.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -79,18 +79,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternativt kan vi lägga till en mappfontkälla där motsvarande mapp innehåller typsnittet.
+// Alternativt kan vi lägga till en mapp för teckensnittskälla där motsvarande mapp innehåller teckensnittet.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Att återställa teckensnittskällorna lämnar oss fortfarande kvar med systemteckensnittskällan såväl som våra substitut.
+// Om vi återställer teckensnittskällorna har vi fortfarande kvar systemets teckensnittskälla samt våra ersättningar.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Se även

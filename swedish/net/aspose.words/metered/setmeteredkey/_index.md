@@ -3,14 +3,14 @@ title: Metered.SetMeteredKey
 linktitle: SetMeteredKey
 articleTitle: SetMeteredKey
 second_title: Aspose.Words för .NET
-description: Metered SetMeteredKey metod. Ställer in mätt offentlig och privat nyckel. Om du köper mätlicens när du startar applikationen bör detta API anropas normalt räcker detta. Men om alltid misslyckas med att ladda upp förbrukningsdata och överskrider 24 timmar kommer licensen att ställas in på utvärderingsstatus för att undvika sådana fall bör du regelbundet kontrollera licensstatusen om det är utvärderingsstatus ring detta API igen i C#.
+description: Hantera enkelt din uppmätta licens med SetMeteredKey-metoden. Säkerställ sömlösa datauppladdningar och undvik utvärderingsstatus med regelbundna kontroller.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-Ställer in mätt offentlig och privat nyckel. Om du köper mätlicens, när du startar applikationen, bör detta API anropas, normalt räcker detta. Men om alltid misslyckas med att ladda upp förbrukningsdata och överskrider 24 timmar, kommer licensen att ställas in på utvärderingsstatus, för att undvika sådana fall bör du regelbundet kontrollera licensstatusen, om det är utvärderingsstatus, ring detta API igen.
+Ställer in uppmätt publik och privat nyckel. Om du köper en uppmätt licens bör detta API anropas när du startar applikationen, normalt räcker detta. Om det dock alltid misslyckas med att ladda upp förbrukningsdata och det tar mer än 24 timmar kommer licensen att ställas in på utvärderingsstatus. För att undvika sådana fall bör du regelbundet kontrollera licensstatusen. Om det är utvärderingsstatus, anropa detta API igen.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -23,13 +23,15 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 ## Exempel
 
-Visar hur du aktiverar en mätlicens och spårar kredit/förbrukning.
+Visar hur man aktiverar en mätt licens och spårar kredit/förbrukning.
 
 ```csharp
-// Skapa en ny Metered-licens och skriv sedan ut dess användningsstatistik.
+// Skapa en ny mätt licens och skriv sedan ut dess användningsstatistik.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
@@ -38,7 +40,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
 // Aspose Metered Licensing-mekanism skickar inte användningsdata till köpservern varje gång,
-// du måste använda väntande.
+// du måste använda väntan.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

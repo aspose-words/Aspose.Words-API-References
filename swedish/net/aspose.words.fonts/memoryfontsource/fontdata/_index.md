@@ -3,7 +3,7 @@ title: MemoryFontSource.FontData
 linktitle: FontData
 articleTitle: FontData
 second_title: Aspose.Words för .NET
-description: MemoryFontSource FontData fast egendom. Binära teckensnittsdata i C#.
+description: Upptäck MemoryFontSources FontData-egenskap för sömlös integrering av binära teckensnitt. Förbättra dina projekt med effektiva lösningar för teckensnittshantering.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/memoryfontsource/fontdata/

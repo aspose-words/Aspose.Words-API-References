@@ -3,16 +3,16 @@ title: FieldDatabaseDataRow Class
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldDatabaseDataRow klass. Tillhandahåller data förFieldDatabase fältresultat. Snälla seDataRow instans i C#.
+description: Upptäck klassen Aspose.Words.Fields.FieldDatabaseDataRow, som erbjuder viktiga data för FieldDatabase-resultat. Förbättra din dokumenthantering idag!
 type: docs
-weight: 1750
+weight: 2160
 url: /sv/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-Tillhandahåller data för[`FieldDatabase`](../fielddatabase/) fältresultat. Snälla seDataRow instans.
+Tillhandahåller data för[`FieldDatabase`](../fielddatabase/) fältresultat. SeDataRow instans.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldDatabaseDataRow
@@ -22,7 +22,7 @@ public class FieldDatabaseDataRow
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Initierar en ny instans av`FieldDatabaseDataRow` class. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Initierar en ny instans av`FieldDatabaseDataRow` klass. |
 
 ## Egenskaper
 
@@ -34,7 +34,7 @@ public class FieldDatabaseDataRow
 
 | namn | Beskrivning |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Initierar en ny instans av`FieldDatabaseDataRow` class frånDataRow instans. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Initierar en ny instans av`FieldDatabaseDataRow` klass frånDataRow instans. |
 
 ### Se även
 

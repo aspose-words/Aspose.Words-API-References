@@ -3,14 +3,14 @@ title: LayoutOptions.RevisionOptions
 linktitle: RevisionOptions
 articleTitle: RevisionOptions
 second_title: Aspose.Words för .NET
-description: LayoutOptions RevisionOptions fast egendom. Får versionsalternativ i C#.
+description: Utforska egenskapen LayoutOptions RevisionOptions för att enkelt komma åt och anpassa revisionsinställningar för förbättrad dokumentkontroll och flexibilitet.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.layout/layoutoptions/revisionoptions/
 ---
 ## LayoutOptions.RevisionOptions property
 
-Får versionsalternativ.
+Hämtar revisionsalternativ.
 
 ```csharp
 public RevisionOptions RevisionOptions { get; }
@@ -24,18 +24,19 @@ Visar hur man ändrar utseendet på revisioner i ett renderat utdatadokument.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en revision och ändra sedan färgen på alla versioner till grön.
+// Infoga en revision och ändra sedan färgen på alla revisioner till grön.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Ta bort stapeln som visas till vänster om varje reviderad rad.
+// Ta bort fältet som visas till vänster om varje reviderad rad.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Se även

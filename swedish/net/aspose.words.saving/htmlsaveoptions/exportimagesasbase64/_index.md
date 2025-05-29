@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportImagesAsBase64
 linktitle: ExportImagesAsBase64
 articleTitle: ExportImagesAsBase64
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportImagesAsBase64 fast egendom. Anger om bilder sparas i Base64format till utdata HTML MHTML eller EPUB. Standard ärfalsk  i C#.
+description: Upptäck egenskapen HtmlSaveOptions ExportImagesAsBase64 för att spara bilder i Base64-format för optimerad HTML-, MHTML- eller EPUB-utdata. Förbättra din dokumentkvalitet!
 type: docs
 weight: 170
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportimagesasbase64/
 ---
 ## HtmlSaveOptions.ExportImagesAsBase64 property
 
-Anger om bilder sparas i Base64-format till utdata HTML, MHTML eller EPUB. Standard är`falsk` .
+Anger om bilder sparas i Base64-format som utdata i HTML, MHTML eller EPUB. Standard är`falsk` .
 
 ```csharp
 public bool ExportImagesAsBase64 { get; set; }
@@ -18,7 +18,7 @@ public bool ExportImagesAsBase64 { get; set; }
 
 ## Anmärkningar
 
-När den här egenskapen är inställd på`Sann` bilddata exporteras direkt till**img** element och separata filer skapas inte.
+När den här egenskapen är inställd på`sann` bilddata exporteras direkt till**bild** element och separata filer skapas inte.
 
 ## Exempel
 
@@ -37,7 +37,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
-Visar hur man sparar ett .html-dokument med bilder inbäddade i det.
+Visar hur man sparar ett .html-dokument med inbäddade bilder.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

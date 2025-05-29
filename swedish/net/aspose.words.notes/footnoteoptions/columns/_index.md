@@ -3,14 +3,14 @@ title: FootnoteOptions.Columns
 linktitle: Columns
 articleTitle: Columns
 second_title: Aspose.Words för .NET
-description: FootnoteOptions Columns fast egendom. Anger antalet kolumner som fotnotsområdet är formaterat med i C#.
+description: Upptäck egenskapen FootnoteOptions Columns för att enkelt formatera dina fotnoter med anpassningsbara kolumnlayouter för förbättrad läsbarhet och presentation.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.notes/footnoteoptions/columns/
 ---
 ## FootnoteOptions.Columns property
 
-Anger antalet kolumner som fotnotsområdet är formaterat med.
+Anger antalet kolumner som fotnotsområdet formateras med.
 
 ```csharp
 public int Columns { get; set; }
@@ -18,7 +18,7 @@ public int Columns { get; set; }
 
 ## Anmärkningar
 
-Om den här egenskapen har värdet 0, formateras fotnotsområdet med ett antal kolumner baserat på antalet kolumner på den visade sidan. Standardvärdet är 0.
+Om den här egenskapen har värdet 0 formateras fotnotsområdet med ett antal kolumner baserat på antalet kolumner på den visade sidan. Standardvärdet är 0.
 
 ## Exempel
 

@@ -3,14 +3,14 @@ title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
 second_title: Aspose.Words för .NET
-description: FindReplaceOptions ApplyFont fast egendom. Textformatering tillämpas på nytt innehåll i C#.
+description: Upptäck egenskapen ApplyFont i FindReplaceOptions för sömlös textformatering. Förbättra ditt innehåll med skräddarsydda stilar utan ansträngning!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
 ## FindReplaceOptions.ApplyFont property
 
-Textformatering tillämpas på nytt innehåll.
+Textformatering tillämpad på nytt innehåll.
 
 ```csharp
 public Font ApplyFont { get; }
@@ -18,7 +18,7 @@ public Font ApplyFont { get; }
 
 ## Exempel
 
-Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
+Visar hur man använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill tillämpa på operationens resulterande text.
+    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill använda på operationens resulterande text.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,8 +51,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Ersätter numeriska sök-och-ersätt-matchningar med deras hexadecimala motsvarigheter.
-/// Upprätthåller en logg över varje ersättning.
+/// Ersätter numeriska sök-och-ersätt-träffar med deras hexadecimala motsvarigheter.
+/// För en logg över varje byte.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

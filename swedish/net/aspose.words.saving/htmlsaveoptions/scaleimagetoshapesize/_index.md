@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ScaleImageToShapeSize
 linktitle: ScaleImageToShapeSize
 articleTitle: ScaleImageToShapeSize
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ScaleImageToShapeSize fast egendom. Anger om bilder skalas av Aspose.Words till den gränsande formstorleken vid export till HTML MHTML eller EPUB. Standardvärdet ärSann  i C#.
+description: Upptäck hur HtmlSaveOptions ScaleImageToShapeSize-egenskap optimerar bildskalning i Aspose.Words för HTML-, MHTML- eller EPUB-export. Förbättra dina dokument!
 type: docs
-weight: 450
+weight: 470
 url: /sv/net/aspose.words.saving/htmlsaveoptions/scaleimagetoshapesize/
 ---
 ## HtmlSaveOptions.ScaleImageToShapeSize property
 
-Anger om bilder skalas av Aspose.Words till den gränsande formstorleken vid export till HTML, MHTML eller EPUB. Standardvärdet är`Sann` .
+Anger om bilder skalas av Aspose.Words till den avgränsande formstorleken vid export till HTML, MHTML eller EPUB. Standardvärdet är`sann` .
 
 ```csharp
 public bool ScaleImageToShapeSize { get; set; }
@@ -18,66 +18,40 @@ public bool ScaleImageToShapeSize { get; set; }
 
 ## Anmärkningar
 
-En bild i ett Microsoft Word-dokument är en form. Formen har en storlek och image har sin egen storlek. Storlekarna är inte direkt kopplade. Till exempel kan bilden vara 1024x786 pixlar, men formen som visar denna bild kan vara 400x300 punkter.
+En bild i ett Microsoft Word-dokument är en form. Formen har en storlek och image har sin egen storlek. Storlekarna är inte direkt länkade. Till exempel kan bilden vara 1024x786 pixlar, men formen som visar bilden kan vara 400x300 punkter.
 
-För att visa en bild i webbläsaren måste den skalas till formstorleken. `ScaleImageToShapeSize` egenskapen styr var skalningen av image sker: i Aspose.Words under export till HTML eller i webbläsaren när dokumentet visas.
+För att visa en bild i webbläsaren måste den skalas till formstorleken. Den`ScaleImageToShapeSize` egenskapen styr var skalningen av image sker: i Aspose.Words vid export till HTML eller i webbläsaren när dokumentet visas.
 
-När`ScaleImageToShapeSize` är`Sann` , skalas bilden av Aspose.Words med högkvalitativ skalning under export till HTML. När`ScaleImageToShapeSize` är`falsk`, bilden matas ut med sin ursprungliga storlek och webbläsaren måste skala den.
+När`ScaleImageToShapeSize` är`sann` , bilden skalas av Aspose.Words med högkvalitativ skalning under export till HTML. När`ScaleImageToShapeSize` är`falsk`, bilden matas ut med sin ursprungliga storlek och webbläsaren måste skala den.
 
-allmänhet gör webbläsare snabb skalning av dålig kvalitet. Som ett resultat får du normalt bättre visningskvalitet i webbläsaren och mindre filstorlek när`ScaleImageToShapeSize` är`Sann` , men bättre utskriftskvalitet och snabbare konvertering när`ScaleImageToShapeSize` är`falsk`.
+Generellt sett gör webbläsare snabb och dålig skalning. Som ett resultat får du normalt bättre visningskvalitet i webbläsaren och mindre filstorlek när`ScaleImageToShapeSize` är`sann` , men bättre utskriftskvalitet och snabbare konvertering när`ScaleImageToShapeSize` är`falsk`.
 
-Förutom former som innehåller individuella rasterbilder, påverkar det här alternativet även gruppformer bestående av rasterbilder. Om`ScaleImageToShapeSize` är`falsk` och en gruppform innehåller rasterbilder vars inneboende upplösning är högre än värdet som anges i[`ImageResolution`](../imageresolution/), Aspose.Words kommer att öka renderingsupplösningen för den gruppen. Detta gör det möjligt att bättre bevara kvaliteten på grupperade högupplösta bilder när du sparar till HTML.
+Förutom former som innehåller enskilda rasterbilder påverkar det här alternativet även gruppformer som består av rasterbilder. Om`ScaleImageToShapeSize` är`falsk` och en gruppform innehåller rasterbilder vars inneboende upplösning är högre än det värde som anges i[`ImageResolution`](../imageresolution/)Aspose.Words kommer att öka renderingsupplösningen för den gruppen. Detta gör att kvaliteten på grupperade högupplösta bilder kan bevaras bättre när de sparas till HTML.
 
 ## Exempel
 
-Visar hur du inaktiverar skalningen av bilder till deras överordnade formdimensioner när du sparar till .html.
+Visar hur man inaktiverar skalning av bilder till deras överordnade formdimensioner när de sparas till .html.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            // Infoga en form som innehåller en bild och gör sedan den formen betydligt mindre än bilden.
-#if NET48 || JAVA
-            Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+// Infoga en form som innehåller en bild och gör sedan formen betydligt mindre än bilden.
+Shape imageShape = builder.InsertImage(ImageDir + "Transparent background logo.png");
+imageShape.Width = 50;
+imageShape.Height = 50;
 
-            Assert.AreEqual(400, image.Size.Width);
-            Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0_OR_GREATER
-            SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png");
+// Om man sparar ett dokument som innehåller former med bilder till HTML skapas en bildfil i det lokala filsystemet.
+// för varje sådan form. HTML-dokumentet som utdata kommer att använda <image>-taggar för att länka till och visa dessa bilder.
+// När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att avgöra
+// om alla bilder som finns inuti former ska skalas till storleken på deras former.
+// Om flaggan "ScaleImageToShapeSize" sätts till "true" krymper du varje bild
+// till storleken på formen som innehåller den, så att inga sparade bilder blir större än vad dokumentet kräver.
+// Om flaggan "ScaleImageToShapeSize" ställs in på "false" bevaras bildernas ursprungliga storlekar.
+// vilket tar upp mer utrymme i utbyte mot att bildkvaliteten bevaras.
+HtmlSaveOptions options = new HtmlSaveOptions { ScaleImageToShapeSize = scaleImageToShapeSize };
 
-            Assert.AreEqual(400, image.Width);
-            Assert.AreEqual(400, image.Height);
-#endif
-
-            Shape imageShape = builder.InsertImage(image);
-            imageShape.Width = 50;
-            imageShape.Height = 50;
-
-            // Att spara ett dokument som innehåller former med bilder till HTML skapar en bildfil i det lokala filsystemet
-            // för varje sådan form. HTML-dokumentet kommer att använda <image> taggar för att länka till och visa dessa bilder.
-            // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att fastställa
-            // om alla bilder som finns i former ska skalas till storleken på deras former.
-            // Att ställa in "ScaleImageToShapeSize"-flaggan till "true" kommer att krympa varje bild
-            // till storleken på formen som innehåller den, så att inga sparade bilder blir större än vad dokumentet kräver att de ska vara.
-            // Att ställa in "ScaleImageToShapeSize"-flaggan till "false" kommer att bevara dessa bilders ursprungliga storlekar,
-            // som kommer att ta upp mer utrymme i utbyte mot att bevara bildkvaliteten.
-            HtmlSaveOptions options = new HtmlSaveOptions { ScaleImageToShapeSize = scaleImageToShapeSize };
-
-            doc.Save(ArtifactsDir + "HtmlSaveOptions.ScaleImageToShapeSize.html", options);
-
-            FileInfo fileInfo = new FileInfo(ArtifactsDir + "HtmlSaveOptions.ScaleImageToShapeSize.001.png");
-
-#if NET48 || JAVA
-        if (scaleImageToShapeSize)
-            Assert.That(3000, Is.AtLeast(fileInfo.Length));
-        else
-            Assert.That(20000, Is.LessThan(fileInfo.Length));
-#elif NET5_0_OR_GREATER
-        if (scaleImageToShapeSize)
-            Assert.That(10000, Is.AtLeast(fileInfo.Length));
-        else
-            Assert.That(30000, Is.LessThan(fileInfo.Length));
-#endif
+doc.Save(ArtifactsDir + "HtmlSaveOptions.ScaleImageToShapeSize.html", options);
 ```
 
 ### Se även

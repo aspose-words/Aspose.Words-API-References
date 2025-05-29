@@ -3,14 +3,14 @@ title: BasicTextShaperCache.Dispose
 linktitle: Dispose
 articleTitle: Dispose
 second_title: Aspose.Words för .NET
-description: BasicTextShaperCache Dispose metod. Kastar cachadITextShaper instanser i C#.
+description: Hantera minne effektivt med BasicTextShaperCache Dispose-metoden, som rensar cachade ITextShaper-instanser för optimal prestanda.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.shaping/basictextshapercache/dispose/
 ---
 ## BasicTextShaperCache.Dispose method
 
-Kastar cachad[`ITextShaper`](../../itextshaper/) instanser.
+Tar bort cachade filer[`ITextShaper`](../../itextshaper/) instanser.
 
 ```csharp
 public void Dispose()
