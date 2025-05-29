@@ -3,7 +3,7 @@ title: TextBox.IsValidLinkTarget
 linktitle: IsValidLinkTarget
 articleTitle: IsValidLinkTarget
 second_title: Aspose.Words para .NET
-description: TextBox IsValidLinkTarget método. Determina si estoTextBox se puede vincular al objetivoTextBox  en C#.
+description: Descubre si tu TextBox puede vincularse a un objetivo con el método IsValidLinkTarget. ¡Mejora la funcionalidad de tu interfaz de usuario fácilmente!
 type: docs
 weight: 140
 url: /es/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -39,14 +39,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Crea enlaces entre algunos de los cuadros de texto.
+//Crea enlaces entre algunos de los cuadros de texto.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Sólo un cuadro de texto vacío puede tener un enlace.
+//Solo un cuadro de texto vacío puede tener un enlace.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Rompe el vínculo de reenvío entre textBox2 y textBox3 y luego verifica que ya no estén vinculados.
+    // Rompa el vínculo hacia adelante entre textBox2 y textBox3 y luego verifique que ya no estén vinculados.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

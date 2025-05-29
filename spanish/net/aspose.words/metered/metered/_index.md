@@ -3,7 +3,7 @@ title: Metered
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words para .NET
-description: Metered constructor. Inicializa una nueva instancia de esta clase en C#.
+description: Descubra nuestro constructor medido para una inicialización de instancias eficiente. Optimice su proceso de codificación con un rendimiento optimizado y una funcionalidad mejorada.
 type: docs
 weight: 10
 url: /es/net/aspose.words/metered/metered/
@@ -25,15 +25,17 @@ Muestra cómo activar una licencia medida y realizar un seguimiento del crédito
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Opere usando Aspose.Words y luego imprima nuestras estadísticas medidas nuevamente para ver cuánto gastamos.
+// Opere utilizando Aspose.Words y luego imprima nuevamente nuestras estadísticas medidas para ver cuánto gastamos.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// El mecanismo de licencia medida de Aspose no envía los datos de uso al servidor de compra cada vez,
-// necesitas usar la espera.
+// El mecanismo de licencias medidas de Aspose no envía los datos de uso al servidor de compra cada vez,
+// necesitas usar espera.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

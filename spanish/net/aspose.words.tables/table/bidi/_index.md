@@ -3,7 +3,7 @@ title: Table.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words para .NET
-description: Table Bidi propiedad. Obtiene o establece si se trata de una tabla de derecha a izquierda en C#.
+description: Descubre las propiedades de Table Bidi para un formato de tabla de derecha a izquierda perfecto. ¡Mejora tu diseño web con sencillas opciones de personalización!
 type: docs
 weight: 80
 url: /es/net/aspose.words.tables/table/bidi/
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Observaciones
 
-Cuando`verdadero`, las celdas de esta fila están dispuestas de derecha a izquierda.
+Cuando`verdadero`Las celdas de esta fila están dispuestas de derecha a izquierda.
 
 El valor predeterminado es`FALSO`.
 

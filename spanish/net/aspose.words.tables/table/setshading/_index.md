@@ -3,9 +3,9 @@ title: Table.SetShading
 linktitle: SetShading
 articleTitle: SetShading
 second_title: Aspose.Words para .NET
-description: Table SetShading método. Establece el sombreado en los valores especificados en toda la tabla en C#.
+description: Mejore la apariencia de su tabla con el método SetShading, que le permite aplicar valores de sombreado personalizados para una apariencia pulida y profesional.
 type: docs
-weight: 430
+weight: 450
 url: /es/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
@@ -30,14 +30,14 @@ Muestra cómo aplicar un borde de contorno a una tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Alinea la tabla con el centro de la página.
+// Alinea la tabla al centro de la página.
 table.Alignment = TableAlignment.Center;
 
-// Borra los bordes y sombreados existentes de la tabla.
+//Borra todos los bordes y sombreados existentes de la tabla.
 table.ClearBorders();
 table.ClearShading();
 
-// Agrega bordes verdes al contorno de la tabla.
+//Añade bordes verdes al contorno de la tabla.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

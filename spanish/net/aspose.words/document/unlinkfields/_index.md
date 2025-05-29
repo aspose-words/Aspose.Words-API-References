@@ -3,9 +3,9 @@ title: Document.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words para .NET
-description: Document UnlinkFields método. Desvincula campos en todo el documento en C#.
+description: Descubra cómo utilizar el método UnlinkFields para desvincular campos de manera eficiente en todo su documento, mejorando su flujo de trabajo de edición.
 type: docs
-weight: 730
+weight: 780
 url: /es/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
@@ -18,7 +18,7 @@ public void UnlinkFields()
 
 ## Observaciones
 
-Reemplaza todos los campos de todo el documento con sus resultados más recientes.
+Reemplaza todos los campos del documento completo con sus resultados más recientes.
 
 Para desvincular campos en una parte específica del documento utilice[`UnlinkFields`](../../range/unlinkfields/).
 

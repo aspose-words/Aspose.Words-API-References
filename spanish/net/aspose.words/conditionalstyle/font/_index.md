@@ -3,14 +3,14 @@ title: ConditionalStyle.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words para .NET
-description: ConditionalStyle Font propiedad. Obtiene el formato de caracteres del estilo condicional en C#.
+description: Descubra la propiedad de fuente ConditionalStyle para acceder y personalizar fácilmente el formato de caracteres para una mejor presentación del texto en sus proyectos.
 type: docs
 weight: 30
 url: /es/net/aspose.words/conditionalstyle/font/
 ---
 ## ConditionalStyle.Font property
 
-Obtiene el formato de caracteres del estilo condicional.
+Obtiene el formato de carácter del estilo condicional.
 
 ```csharp
 public Font Font { get; }
@@ -39,8 +39,8 @@ builder.EndTable();
 // Crea un estilo de tabla personalizado.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Los estilos condicionales son cambios de formato que afectan sólo a algunas de las celdas de la tabla.
-// basado en un predicado, como que las celdas estén en la última fila.
+// Los estilos condicionales son cambios de formato que afectan solo a algunas de las celdas de la tabla
+// basado en un predicado, como por ejemplo que las celdas estén en la última fila.
 // A continuación se muestran tres formas de acceder a los estilos condicionales de un estilo de tabla desde la colección "ConditionalStyles".
 // 1 - Por tipo de estilo:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
@@ -60,7 +60,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Enumere todas las condiciones de estilo posibles.
+// Enumere todas las posibles condiciones de estilo.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -73,7 +73,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Aplicar el estilo personalizado, que contiene todos los estilos condicionales, a la tabla.
 table.Style = tableStyle;
 
-// Nuestro estilo aplica algunos estilos condicionales de forma predeterminada.
+//Nuestro estilo aplica algunos estilos condicionales por defecto.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 

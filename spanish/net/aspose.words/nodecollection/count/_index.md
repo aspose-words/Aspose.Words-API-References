@@ -3,14 +3,14 @@ title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: NodeCollection Count propiedad. Obtiene el número de nodos de la colección en C#.
+description: Descubra la propiedad NodeCollection Count para acceder fácilmente al número total de nodos en su colección, mejorando la gestión y la eficiencia de los datos.
 type: docs
 weight: 10
 url: /es/net/aspose.words/nodecollection/count/
 ---
 ## NodeCollection.Count property
 
-Obtiene el número de nodos de la colección.
+Obtiene el número de nodos en la colección.
 
 ```csharp
 public int Count { get; }
@@ -30,7 +30,7 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Tenga en cuenta que 'CustomNodeId' no se guarda en un archivo de salida y existe solo durante la vida útil del nodo.
+// Tenga en cuenta que 'CustomNodeId' no se guarda en un archivo de salida y solo existe durante la vida útil del nodo.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
@@ -38,7 +38,7 @@ paragraph.AppendChild(shape);
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterar a través de la colección de hijos inmediatos del párrafo,
-// e imprimir cualquier corrida o forma que encontremos dentro.
+// e imprimir cualquier recorrido o forma que encontremos dentro.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -58,7 +58,7 @@ foreach (Node child in children)
     }
 ```
 
-Muestra cómo saber si una tabla está anidada.
+Muestra cómo averiguar si las tablas están anidadas.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -88,7 +88,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
-/// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).
+/// Un entero que indica la profundidad de anidación de la tabla (número de nodos de la tabla principal).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -106,19 +106,19 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Determina si una tabla contiene alguna tabla secundaria inmediata dentro de sus celdas.
-/// No recorra recursivamente esas tablas para buscar más tablas.
+/// No recorra recursivamente esas tablas para buscar otras tablas.
 /// </summary>
 /// <returns>
 /// Devuelve verdadero si al menos una celda secundaria contiene una tabla.
-/// Devuelve falso si ninguna celda de la tabla contiene una tabla.
+/// Devuelve falso si ninguna celda en la tabla contiene una tabla.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

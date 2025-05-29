@@ -3,14 +3,14 @@ title: ListLevel.DeletePictureBullet
 linktitle: DeletePictureBullet
 articleTitle: DeletePictureBullet
 second_title: Aspose.Words para .NET
-description: ListLevel DeletePictureBullet método. Elimina la viñeta de imagen para el nivel de lista actual en C#.
+description: Elimina fácilmente las viñetas de imágenes de tu nivel de lista actual con el método ListLevel DeletePictureBullet. ¡Simplifica el formato de tus documentos hoy mismo!
 type: docs
 weight: 160
 url: /es/net/aspose.words.lists/listlevel/deletepicturebullet/
 ---
 ## ListLevel.DeletePictureBullet method
 
-Elimina la viñeta de imagen para el nivel de lista actual.
+Elimina la viñeta de imagen del nivel de lista actual.
 
 ```csharp
 public void DeletePictureBullet()
@@ -18,11 +18,11 @@ public void DeletePictureBullet()
 
 ## Observaciones
 
-La viñeta predeterminada se mostrará después de eliminar.
+Después de eliminar se mostrará la viñeta predeterminada.
 
 ## Ejemplos
 
-Muestra cómo configurar un ícono de imagen personalizado para las etiquetas de elementos de la lista.
+Muestra cómo establecer un ícono de imagen personalizado para las etiquetas de elementos de la lista.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Document doc = new Document();
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
 // Crea una viñeta de imagen para el nivel de lista actual y establece una imagen desde un sistema de archivos local
-// como el icono que mostrarán las viñetas de este nivel de lista.
+// como el ícono que mostrarán las viñetas para este nivel de lista.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

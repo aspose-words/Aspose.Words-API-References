@@ -3,14 +3,14 @@ title: FieldToc.EntryLevelRange
 linktitle: EntryLevelRange
 articleTitle: EntryLevelRange
 second_title: Aspose.Words para .NET
-description: FieldToc EntryLevelRange propiedad. Obtiene o establece un rango de niveles de las entradas de la tabla de contenido que se incluirán en C#.
+description: Descubra la propiedad EntryLevelRange de FieldToc para personalizar fácilmente los niveles de su tabla de contenido para mejorar la navegación y la experiencia del usuario.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldtoc/entrylevelrange/
 ---
 ## FieldToc.EntryLevelRange property
 
-Obtiene o establece un rango de niveles de las entradas de la tabla de contenido que se incluirán.
+Obtiene o establece un rango de niveles de entradas de la tabla de contenido que se incluirán.
 
 ```csharp
 public string EntryLevelRange { get; set; }
@@ -26,7 +26,7 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserte un campo TOC, que compilará todos los campos TC en una tabla de contenido.
+    // Inserte un campo TOC, que compilará todos los campos TC en una tabla de contenidos.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
     // Configure el campo solo para recoger entradas TC del tipo "A" y un nivel de entrada entre 1 y 3.
@@ -35,14 +35,14 @@ public void FieldTocEntryIdentifier()
 
     Assert.AreEqual(" TOC  \\f A \\l 1-3", fieldToc.GetFieldCode());
 
-    // Estas dos entradas aparecerán en la tabla.
+    //Estas dos entradas aparecerán en la tabla.
     builder.InsertBreak(BreakType.PageBreak);
     InsertTocEntry(builder, "TC field 1", "A", "1");
     InsertTocEntry(builder, "TC field 2", "A", "2");
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Esta entrada se omitirá de la tabla porque tiene un tipo diferente de "A".
+    //Esta entrada se omitirá de la tabla porque tiene un tipo diferente de "A".
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
     // Esta entrada se omitirá de la tabla porque tiene un nivel de entrada fuera del rango 1-3.

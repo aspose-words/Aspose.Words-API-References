@@ -3,16 +3,16 @@ title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText propiedad. Especifica si se interpretará que el contenido de esta etiqueta de documento estructurado contiene texto de marcador de posición a diferencia del contenido de texto normal dentro de la etiqueta de documento estructurado en C#.
+description: Descubra la propiedad IsShowingPlaceholderText de StructuredDocumentTagRangeStart. ¡Administre fácilmente el texto de marcador de posición y el texto normal en sus documentos estructurados!
 type: docs
 weight: 50
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-Especifica si se interpretará que el contenido de esta etiqueta de documento estructurado contiene texto de marcador de posición (a diferencia del contenido de texto normal dentro de la etiqueta de documento estructurado).
+Especifica si el contenido de esta etiqueta de documento estructurado se debe interpretar como que contiene texto de marcador de posición (a diferencia del contenido de texto normal dentro de la etiqueta de documento estructurado).
 
-si está configurado en`verdadero` , este estado se reanudará (mostrando texto de marcador de posición) al abrir este documento.
+si se establece en`verdadero` , este estado se reanudará (mostrando texto de marcador de posición) al abrir este documento.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }
@@ -20,7 +20,7 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ## Ejemplos
 
-Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

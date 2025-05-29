@@ -3,9 +3,9 @@ title: BubbleSizeCollection Class
 linktitle: BubbleSizeCollection
 articleTitle: BubbleSizeCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection clase. Representa una colección de tamaños de burbujas para una serie de gráficos en C#.
+description: Descubra la clase Aspose.Words.Drawing.Charts.BubbleSizeCollection, su solución ideal para administrar tamaños de burbujas en series de gráficos de manera efectiva.
 type: docs
-weight: 610
+weight: 870
 url: /es/net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 ## BubbleSizeCollection class
@@ -20,7 +20,8 @@ public class BubbleSizeCollection : IEnumerable<double>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Obtiene el número de elementos de esta colección. |
+| [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Obtiene el número de elementos en esta colección. |
+| [FormatCode](../../aspose.words.drawing.charts/bubblesizecollection/formatcode/) { get; set; } | Obtiene o establece el código de formato aplicado a los tamaños de burbuja. |
 | [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Obtiene o establece el valor del tamaño de la burbuja en el índice especificado. |
 
 ## Métodos
@@ -31,9 +32,9 @@ public class BubbleSizeCollection : IEnumerable<double>
 
 ## Observaciones
 
-La colección sólo permite cambiar el tamaño de las burbujas. Para agregar o insertar nuevos valores a una serie de gráficos, o eliminar valores , los métodos apropiados del[`ChartSeries`](../chartseries/) Se puede utilizar la clase.
+La colección solo permite cambiar el tamaño de las burbujas. Para agregar o insertar nuevos valores a una serie de gráficos, o eliminar valores x000d, utilice los métodos correspondientes de[`ChartSeries`](../chartseries/) La clase se puede utilizar.
 
-Los valores del tamaño de burbuja vacía se representan comoNaN.
+Los valores de tamaño de burbuja vacíos se representan comoNaN.
 
 ### Ver también
 

@@ -3,9 +3,9 @@ title: Document.PackageCustomParts
 linktitle: PackageCustomParts
 articleTitle: PackageCustomParts
 second_title: Aspose.Words para .NET
-description: Document PackageCustomParts propiedad. Obtiene o establece la colección de partes personalizadas contenido arbitrario que están vinculadas al paquete OOXML mediante relaciones desconocidas en C#.
+description: Gestione fácilmente las partes personalizadas de su paquete OOXML. Acceda y modifique fácilmente el contenido vinculado para mejorar la flexibilidad y la funcionalidad de sus documentos.
 type: docs
-weight: 310
+weight: 320
 url: /es/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
@@ -20,15 +20,15 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 No confunda estas partes personalizadas con datos XML personalizados. Si necesita acceder a partes XML personalizadas, utilice el[`CustomXmlParts`](../customxmlparts/) propiedad.
 
-Esta colección contiene partes OOXML cuyo padre es el paquete OOXML y sus destinos tienen una "relación desconocida". Para obtener más información, consulte[`CustomPart`](../../../aspose.words.markup/custompart/).
+Esta colección contiene partes OOXML cuyo padre es el paquete OOXML y sus destinos son de una "relación desconocida". Para obtener más información, consulte[`CustomPart`](../../../aspose.words.markup/custompart/).
 
-Aspose.Words carga y guarda partes personalizadas únicamente en documentos OOXML.
+Aspose.Words carga y guarda partes personalizadas solo en documentos OOXML.
 
 Esta propiedad no puede ser`nulo`.
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -57,7 +57,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

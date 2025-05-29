@@ -3,7 +3,7 @@ title: DocumentBuilder.DeleteRow
 linktitle: DeleteRow
 articleTitle: DeleteRow
 second_title: Aspose.Words para .NET
-description: DocumentBuilder DeleteRow método. Elimina una fila de una tabla en C#.
+description: Elimine filas de tablas fácilmente con el método DeleteRow de DocumentBuilder. ¡Optimice la edición de documentos y mejore su flujo de trabajo!
 type: docs
 weight: 200
 url: /es/net/aspose.words/documentbuilder/deleterow/
@@ -19,7 +19,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | tableIndex | Int32 | El índice de la tabla. |
-| rowIndex | Int32 | El índice de la fila de la tabla. |
+| rowIndex | Int32 | El índice de la fila en la tabla. |
 
 ### Valor_devuelto
 
@@ -31,7 +31,7 @@ Si el cursor está dentro de la fila que se está eliminando, el cursor se mueve
 
 Si elimina una fila de una tabla que contiene solo una fila, se elimina toda la tabla .
 
-Para los parámetros de índice, cuando el índice es mayor o igual a 0, especifica un índice desde el comienzo siendo 0 el primer elemento. Cuando el índice es menor que 0, especifica un índice desde al final, siendo -1 el último elemento.
+Para los parámetros de índice, si el índice es mayor o igual a 0, se especifica un índice desde al inicio, siendo 0 el primer elemento. Si el índice es menor que 0, se especifica un índice desde al final, siendo -1 el último elemento.
 
 ## Ejemplos
 
@@ -55,7 +55,7 @@ builder.EndTable();
 
 Assert.AreEqual(2, table.Rows.Count);
 
-// Elimina la primera fila de la primera tabla del documento.
+//Eliminar la primera fila de la primera tabla del documento.
 builder.DeleteRow(0, 0);
 
 Assert.AreEqual(1, table.Rows.Count);

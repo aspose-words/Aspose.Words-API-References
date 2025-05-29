@@ -3,9 +3,9 @@ title: ShowInBalloons Enum
 linktitle: ShowInBalloons
 articleTitle: ShowInBalloons
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Layout.ShowInBalloons enumeración. Especifica qué revisiones se representan en globos en C#.
+description: Descubra cómo la enumeración Aspose.Words.Layout.ShowInBalloons mejora la edición de documentos al controlar las revisiones visibles en globos para una colaboración clara.
 type: docs
-weight: 3410
+weight: 3860
 url: /es/net/aspose.words.layout/showinballoons/
 ---
 ## ShowInBalloons enumeration
@@ -20,13 +20,13 @@ public enum ShowInBalloons
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `0` | Representa las revisiones de inserción, eliminación y formato en línea. |
-| Format | `1` | Representa la inserción y eliminación de revisiones en línea, formatea las revisiones en globos. |
-| FormatAndDelete | `2` | Procesa insertar revisiones en línea, eliminar y formatear revisiones en globos. |
+| None | `0` | Representa revisiones de inserción, eliminación y formato en línea. |
+| Format | `1` | Representa la inserción y eliminación de revisiones en línea, y formatea las revisiones en globos. |
+| FormatAndDelete | `2` | Representa revisiones de inserción en línea, y elimina y formatea revisiones en globos. |
 
 ## Observaciones
 
-Tenga en cuenta que las revisiones no se representan en globos paraShowInAnnotations .
+Tenga en cuenta que las revisiones no se muestran en globos paraShowInAnnotations .
 
 ## Ejemplos
 
@@ -35,25 +35,25 @@ Muestra cómo modificar la apariencia de las revisiones.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Obtiene el objeto RevisionOptions que controla la apariencia de las revisiones.
+// Obtenga el objeto RevisionOptions que controla la apariencia de las revisiones.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Representar revisiones de inserción en verde y cursiva.
+// Representar las revisiones de inserción en verde y cursiva.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Representar las revisiones eliminadas en rojo y negrita.
+// Representar las revisiones de eliminación en rojo y negrita.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// El mismo texto aparecerá dos veces en una revisión de movimiento:
-// una vez en el punto de partida y otra en el destino de llegada.
-// Representa el texto en la revisión de origen en amarillo con un doble tachado
-// y azul con doble subrayado en la revisión a la que se trasladó.
+//El mismo texto aparecerá dos veces en una revisión de movimiento:
+// una vez en el punto de partida y otra vez en el destino de llegada.
+// Representar el texto en la revisión movida en amarillo con un doble tachado
+// y doble subrayado azul en la revisión trasladada.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Representar las revisiones de formato en rojo oscuro y negrita.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
@@ -67,7 +67,7 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Obtener movimientos, eliminaciones, revisiones de formato y comentarios para que aparezcan en globos verdes
+// Haga que el movimiento, la eliminación, las revisiones de formato y los comentarios aparezcan en globos verdes
 // en el lado derecho de la página.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;

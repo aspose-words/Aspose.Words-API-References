@@ -3,9 +3,9 @@ title: Direction Enum
 linktitle: Direction
 articleTitle: Direction
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Shaping.Direction enumeración. Dirección del texto en C#.
+description: Explora la enumeración Aspose.Words.Shaping.Direction para controlar la dirección del texto de tus documentos de forma flexible. ¡Mejora la legibilidad y el diseño fácilmente!
 type: docs
-weight: 6020
+weight: 6850
 url: /es/net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration
@@ -24,7 +24,7 @@ public enum Direction
 | LTR | `0` | Dirección de escritura de izquierda a derecha. |
 | RTL | `1` | Dirección de escritura de derecha a izquierda. |
 | TTB | `2` | Dirección de escritura de arriba a abajo. |
-| BTT | `3` | Dirección de escritura de abajo hacia arriba. |
+| BTT | `3` | Dirección de escritura de abajo a arriba. |
 
 ### Ver también
 

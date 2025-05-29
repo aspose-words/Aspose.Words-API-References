@@ -3,7 +3,7 @@ title: ListLevel.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words para .NET
-description: ListLevel Alignment propiedad. Obtiene o establece la justificación del número real del elemento de la lista en C#.
+description: Descubra la propiedad Alineación de Nivel de Lista para personalizar fácilmente la justificación de los elementos de la lista. ¡Mejore la claridad y el atractivo visual de su documento hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.lists/listlevel/alignment/
@@ -18,20 +18,20 @@ public ListLevelAlignment Alignment { get; set; }
 
 ## Observaciones
 
-La etiqueta de la lista está justificada en relación con la[`NumberPosition`](../numberposition/) propiedad.
+La etiqueta de la lista está justificada con respecto a la[`NumberPosition`](../numberposition/) propiedad.
 
 ## Ejemplos
 
-Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
+Muestra cómo aplicar formato de lista personalizado a los párrafos cuando se utiliza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de su lista.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de lista.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

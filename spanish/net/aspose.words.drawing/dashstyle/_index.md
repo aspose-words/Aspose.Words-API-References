@@ -3,9 +3,9 @@ title: DashStyle Enum
 linktitle: DashStyle
 articleTitle: DashStyle
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.DashStyle enumeración. Estilo de línea discontinua en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.DashStyle para obtener estilos de línea discontinua versátiles. Mejore el diseño de sus documentos con elementos visuales personalizables.
 type: docs
-weight: 930
+weight: 1250
 url: /es/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
@@ -26,22 +26,22 @@ public enum DashStyle
 | ShortDashDot | `3` | Estilo de guión del sistema. |
 | ShortDashDotDot | `4` | Estilo de guión del sistema. |
 | Dot | `5` | Estilo de punto cuadrado. |
-| Dash | `6` | Estilo guión. |
-| LongDash | `7` | Estilo de guión largo. |
-| DashDot | `8` | Guión guión corto. |
+| Dash | `6` | Estilo de guión. |
+| LongDash | `7` | Estilo de guion largo. |
+| DashDot | `8` | Guión corto. |
 | LongDashDot | `9` | Guión largo guión corto. |
 | LongDashDotDot | `10` | Guión largo guión corto guión corto. |
-| Default | `0` | Igual queSolid . |
+| Default | `0` | Lo mismo queSolid . |
 
 ## Ejemplos
 
-Muestra para crear una variedad de formas.
+Muestra cómo crear una variedad de formas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
 // 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
@@ -92,8 +92,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
-    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
+    // Gira la imagen hacia el otro lado para cancelar esto antes de que la forma la muestre.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

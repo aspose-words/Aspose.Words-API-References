@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowSeriesName
 linktitle: ShowSeriesName
 articleTitle: ShowSeriesName
 second_title: Aspose.Words para .NET
-description: ChartDataLabelCollection ShowSeriesName propiedad. Devuelve o establece un valor booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos de toda la serie. verdadero para mostrar el nombre de la serieFALSO esconder. Por defectoFALSO  en C#.
+description: Descubra la propiedad ShowSeriesName de ChartDataLabelCollection y controle fácilmente la visibilidad del nombre de la serie en sus etiquetas de datos. ¡Mejore sus gráficos hoy mismo!
 type: docs
-weight: 130
+weight: 160
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/
 ---
 ## ChartDataLabelCollection.ShowSeriesName property
 
-Devuelve o establece un valor booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos de toda la serie. `verdadero` para mostrar el nombre de la serie;`FALSO` esconder. Por defecto`FALSO` .
+Devuelve o establece un valor booleano para indicar el comportamiento de visualización del nombre de la serie para las etiquetas de datos de toda la serie. `verdadero` para mostrar el nombre de la serie;`FALSO` para ocultar. Por defecto`FALSO` .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -18,7 +18,7 @@ public bool ShowSeriesName { get; set; }
 
 ## Observaciones
 
-El valor definido para esta propiedad se puede anular para una etiqueta de datos individual usando the [`ShowSeriesName`](../../chartdatalabel/showseriesname/) propiedad.
+El valor definido para esta propiedad se puede anular para una etiqueta de datos individual mediante el uso de [`ShowSeriesName`](../../chartdatalabel/showseriesname/) propiedad.
 
 ## Ejemplos
 
@@ -30,10 +30,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agrega una serie personalizada con coordenadas X/Y y diámetro de cada una de las burbujas.
+ // Agrega una serie personalizada con coordenadas X/Y y el diámetro de cada una de las burbujas.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

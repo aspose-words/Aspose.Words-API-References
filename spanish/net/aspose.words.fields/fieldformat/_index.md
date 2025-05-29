@@ -3,16 +3,16 @@ title: FieldFormat Class
 linktitle: FieldFormat
 articleTitle: FieldFormat
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldFormat clase. Proporciona acceso escrito al formato numérico de fecha y hora y al formato general del campo en C#.
+description: Descubra la clase Aspose.Words.Fields.FieldFormat para acceder fácilmente a campos numéricos, de fecha y de hora. ¡Mejore el formato de sus documentos con potentes funciones!
 type: docs
-weight: 1940
+weight: 2350
 url: /es/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
-Proporciona acceso escrito al formato numérico, de fecha y hora y al formato general del campo.
+Proporciona acceso escrito a los datos numéricos, de fecha y hora, y al formato general del campo.
 
-Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) Artículo de documentación.
 
 ```csharp
 public class FieldFormat
@@ -22,13 +22,13 @@ public class FieldFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Obtiene o establece un formato que se aplica al resultado del campo de fecha y hora. Corresponde al \@ switch. |
+| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Obtiene o establece un formato que se aplica al resultado de un campo de fecha y hora. Corresponde al parámetro \@. |
 | [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Obtiene una colección de formatos generales que se aplican a un resultado numérico, de texto o de cualquier campo. Corresponde a los modificadores \*. |
-| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Obtiene o establece un formato que se aplica al resultado de un campo numérico. Corresponde al \# switch. |
+| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Obtiene o establece un formato que se aplica al resultado de un campo numérico. Corresponde al parámetro \#. |
 
 ## Ejemplos
 
-Muestra cómo dar formato a los resultados de los campos.
+Muestra cómo formatear los resultados del campo.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ Field field = builder.InsertField("= 2 + 3");
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Podemos aplicar un formato al resultado de un campo usando las propiedades del campo.
-// A continuación se muestran tres tipos de formatos que podemos aplicar al resultado de un campo.
+//Podemos aplicar un formato al resultado de un campo usando las propiedades del campo.
+//A continuación se muestran tres tipos de formatos que podemos aplicar al resultado de un campo.
 // 1 - Formato numérico:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -50,7 +50,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Formato de fecha/hora:
+// 2 - Formato de fecha y hora:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -76,7 +76,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Podemos eliminar nuestros formatos para revertir el resultado del campo a su forma original.
+//Podemos eliminar nuestros formatos para revertir el resultado del campo a su forma original.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

@@ -3,9 +3,9 @@ title: Shape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words para .NET
-description: Shape Accept método. Acepta un visitante en C#.
+description: Descubra el método Shape Accept, diseñado para mejorar la participación de los visitantes y agilizar su proceso de aceptación para obtener mejores resultados.
 type: docs
-weight: 240
+weight: 250
 url: /es/net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method
@@ -28,9 +28,9 @@ Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../../
 
 Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Para obtener más información, consulte el patrón de diseño Visitante.
+Para obtener más información, consulte el patrón de diseño Visitor.
 
-llamadas[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , luego llama[`Accept`](../../../aspose.words/node/accept/) para todos los nodos secundarios de la forma y llamadas[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) al final.
+Llamadas[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , luego llama[`Accept`](../../../aspose.words/node/accept/) para todos los nodos secundarios de la forma y las llamadas[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) al final.
 
 ## Ejemplos
 
@@ -69,7 +69,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -97,7 +97,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

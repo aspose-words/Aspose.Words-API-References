@@ -3,7 +3,7 @@ title: NodeChangingArgs.Action
 linktitle: Action
 articleTitle: Action
 second_title: Aspose.Words para .NET
-description: NodeChangingArgs Action propiedad. Obtiene un valor que indica qué tipo de evento de cambio de nodo está ocurriendo en C#.
+description: Descubre la propiedad de acción NodeChangingArgs para identificar fácilmente eventos de cambio de nodo. ¡Mejora tu eficiencia de codificación con esta función esencial!
 type: docs
 weight: 10
 url: /es/net/aspose.words/nodechangingargs/action/
@@ -18,7 +18,7 @@ public NodeChangingAction Action { get; }
 
 ## Ejemplos
 
-Muestra cómo utilizar NodeChangingCallback para monitorear los cambios en el árbol del documento en tiempo real a medida que lo editamos.
+Muestra cómo utilizar un NodeChangingCallback para monitorear los cambios en el árbol del documento en tiempo real mientras lo editamos.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,12 +35,7 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }

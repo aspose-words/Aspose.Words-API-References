@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitStructuredDocumentTagEnd
 linktitle: VisitStructuredDocumentTagEnd
 articleTitle: VisitStructuredDocumentTagEnd
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitStructuredDocumentTagEnd método. Se llama cuando finaliza la enumeración de una etiqueta de documento estructurado en C#.
+description: Descubra el método VisitStructuredDocumentTagEnd de DocumentVisitor, esencial para gestionar eficientemente la enumeración de etiquetas de documentos estructurados. ¡Mejore sus habilidades de programación!
 type: docs
 weight: 440
 url: /es/net/aspose.words/documentvisitor/visitstructureddocumenttagend/
@@ -26,7 +26,7 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ## Ejemplos
 
-Muestra cómo imprimir la estructura de nodos de cada etiqueta de documento estructurado en un documento.
+Muestra cómo imprimir la estructura de nodo de cada etiqueta de documento estructurado en un documento.
 
 ```csharp
 public void StructuredDocumentTagToText()
@@ -34,16 +34,16 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos StructuredDocumentTag encontrados y sus hijos.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
@@ -55,7 +55,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -95,9 +95,9 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangrala dependiendo de qué tan profundo se encuentre el visitante en el árbol del documento.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

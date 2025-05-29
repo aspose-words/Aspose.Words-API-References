@@ -3,14 +3,14 @@ title: Hyphenation.Callback
 linktitle: Callback
 articleTitle: Callback
 second_title: Aspose.Words para .NET
-description: Hyphenation Callback propiedad. Obtiene o establece la interfaz de devolución de llamada utilizada para solicitar diccionarios cuando se crea el diseño de página del documento. Esto permite retrasar la carga de diccionarios lo que puede resultar útil al procesar documentos en muchos idiomas en C#.
+description: Optimice el diseño de su documento con la propiedad de devolución de llamada de separación de palabras. Cargue diccionarios eficientemente para el procesamiento multilingüe y mejore la experiencia del usuario.
 type: docs
 weight: 10
 url: /es/net/aspose.words/hyphenation/callback/
 ---
 ## Hyphenation.Callback property
 
-Obtiene o establece la interfaz de devolución de llamada utilizada para solicitar diccionarios cuando se crea el diseño de página del documento. Esto permite retrasar la carga de diccionarios, lo que puede resultar útil al procesar documentos en muchos idiomas.
+Obtiene o establece la interfaz de devolución de llamada utilizada para solicitar diccionarios cuando se crea el diseño de página del documento. Esto permite retrasar la carga de diccionarios, lo que puede ser útil al procesar documentos en muchos idiomas.
 
 ```csharp
 public static IHyphenationCallback Callback { get; set; }
@@ -27,20 +27,20 @@ public void RegisterDictionary()
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registre un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
+    // Registrar un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Abra un documento con una configuración regional en la que Microsoft Word no puede dividir con guiones en una máquina en inglés, como el alemán.
+    // Abra un documento con una configuración regional que Microsoft Word no pueda separar en una máquina que use inglés, como por ejemplo alemán.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Para dividir ese documento con guiones al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
+    // Para separar palabras de ese documento al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
     // Esta devolución de llamada manejará la solicitud automática de ese diccionario.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Cuando guardemos el documento, la separación de palabras en alemán entrará en vigor.
+    // Cuando guardemos el documento, la separación de palabras en alemán tendrá efecto.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Este diccionario contiene dos patrones idénticos, lo que activará una advertencia.
@@ -49,6 +49,7 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>

@@ -3,7 +3,7 @@ title: FrameFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words para .NET
-description: FrameFormat VerticalAlignment propiedad. Obtiene la alineación vertical del marco especificado en C#.
+description: Descubra la propiedad FrameFormat VerticalAlignment para administrar fácilmente la alineación vertical de los marcos y mejorar el diseño de su diseño sin esfuerzo.
 type: docs
 weight: 90
 url: /es/net/aspose.words/frameformat/verticalalignment/
@@ -18,7 +18,7 @@ public VerticalAlignment VerticalAlignment { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

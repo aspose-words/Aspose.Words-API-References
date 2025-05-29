@@ -3,7 +3,7 @@ title: OleFormat.OlePackage
 linktitle: OlePackage
 articleTitle: OlePackage
 second_title: Aspose.Words para .NET
-description: OleFormat OlePackage propiedad. Proporcionar acceso aOlePackage si el objeto OLE es un paquete OLE. Devuelvenulo de lo contrario en C#.
+description: Acceda fácilmente a las propiedades de OlePackage para objetos OLE. Consiga una integración perfecta con OLE Packages y mejore sus capacidades de gestión de datos.
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing/oleformat/olepackage/
@@ -18,7 +18,7 @@ public OlePackage OlePackage { get; }
 
 ## Observaciones
 
-El paquete OLE es una tecnología heredada que permite empaquetar cualquier formato de archivo que no esté presente en el registro OLE de un sistema Windows en un paquete genérico que permite incrustar casi cualquier cosa en un documento. Ver[`OlePackage`](../../olepackage/) escriba para más información.
+El paquete OLE es una tecnología heredada que permite encapsular cualquier formato de archivo que no esté presente en el registro OLE de un sistema Windows en un paquete genérico que permite incrustar casi cualquier cosa en un documento. Ver[`OlePackage`](../../olepackage/) Escribe para más información.
 
 ## Ejemplos
 

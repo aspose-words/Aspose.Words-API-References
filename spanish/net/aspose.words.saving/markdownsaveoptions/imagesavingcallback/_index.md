@@ -3,9 +3,9 @@ title: MarkdownSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words para .NET
-description: MarkdownSaveOptions ImageSavingCallback propiedad. Permite controlar cómo se guardan las imágenes cuando se guarda un documento en Markdown formato en C#.
+description: Controla el guardado de imágenes en Markdown con ImageSavingCallback de MarkdownSaveOptions. ¡Mejora el formato de tus documentos y optimiza tu flujo de trabajo sin esfuerzo!
 type: docs
-weight: 30
+weight: 70
 url: /es/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
@@ -26,11 +26,11 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
-    // Si convertimos un documento que contiene imágenes a Markdown, terminaremos con un archivo Markdown que enlaza con varias imágenes.
-    // Cada imagen tendrá la forma de un archivo en el sistema de archivos local.
+    // Si convertimos un documento que contiene imágenes a Markdown, terminaremos con un archivo Markdown que se vincula a varias imágenes.
+    //Cada imagen tendrá la forma de un archivo en el sistema de archivos local.
     // También hay una devolución de llamada que puede personalizar el nombre y la ubicación del sistema de archivos de cada imagen.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
     // El método ImageSaving() de nuestra devolución de llamada se ejecutará en este momento.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
@@ -46,7 +46,7 @@ public void RenameImages()
 }
 
 /// <summary>
-/// Cambia el nombre de las imágenes guardadas que se producen cuando se guarda un documento de Markdown.
+/// Cambia el nombre de las imágenes guardadas que se producen cuando se guarda un documento Markdown.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

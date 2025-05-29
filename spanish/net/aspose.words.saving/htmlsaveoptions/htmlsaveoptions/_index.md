@@ -3,14 +3,14 @@ title: HtmlSaveOptions
 linktitle: HtmlSaveOptions
 articleTitle: HtmlSaveOptions
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions constructor. Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elHtml formato en C#.
+description: Descubra el constructor HtmlSaveOptions para crear y guardar sin esfuerzo documentos en formato HTML, garantizando un formato óptimo y una fácil compartición.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elHtml formato.
+Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en elHtml formato.
 
 ```csharp
 public HtmlSaveOptions()
@@ -31,7 +31,7 @@ saveOptions.Encoding = Encoding.UTF8;
 // De forma predeterminada, un documento .epub de salida tendrá todo su contenido en una parte HTML.
 // Un criterio de división nos permite segmentar el documento en varias partes HTML.
 // Estableceremos los criterios para dividir el documento en párrafos de encabezado.
-// Esto es útil para lectores que no pueden leer archivos HTML más grandes que un tamaño específico.
+// Esto es útil para los lectores que no pueden leer archivos HTML más grandes que un tamaño específico.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Especificamos que queremos exportar las propiedades del documento.
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Inicializa una nueva instancia de esta clase que se puede utilizar para guardar un documento en elHtml ,Mhtml ,Epub , Azw3 oMobi formato.
+Inicializa una nueva instancia de esta clase que se puede usar para guardar un documento en elHtml ,Mhtml ,Epub , Azw3 oMobi formato.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -75,7 +75,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Nuestros documentos HTML tendrán pequeñas diferencias para ser compatibles con diferentes versiones de HTML.
+//Nuestros documentos HTML tendrán pequeñas diferencias para ser compatibles con diferentes versiones HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)
@@ -83,7 +83,7 @@ switch (htmlVersion)
     case HtmlVersion.Html5:
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<table style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        Assert.True(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
     case HtmlVersion.Xhtml:
         Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));

@@ -3,14 +3,14 @@ title: FontSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words para .NET
-description: FontSavingArgs Document propiedad. Obtiene el objeto del documento que se está guardando en C#.
+description: Descubra la propiedad FontSavingArgs para acceder al objeto de documento durante las operaciones de guardado, mejorando la eficiencia de la gestión de documentos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/fontsavingargs/document/
 ---
 ## FontSavingArgs.Document property
 
-Obtiene el objeto del documento que se está guardando.
+Obtiene el objeto de documento que se está guardando.
 
 ```csharp
 public Document Document { get; }
@@ -18,15 +18,15 @@ public Document Document { get; }
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

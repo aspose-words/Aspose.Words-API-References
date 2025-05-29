@@ -3,7 +3,7 @@ title: IMailMergeDataSource.MoveNext
 linktitle: MoveNext
 articleTitle: MoveNext
 second_title: Aspose.Words para .NET
-description: IMailMergeDataSource MoveNext método. Avanza al siguiente registro en la fuente de datos en C#.
+description: Descubra cómo el método IMailMergeDataSource MoveNext avanza sin problemas al siguiente registro, mejorando la eficiencia de la gestión de datos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,11 +18,11 @@ public bool MoveNext()
 
 ### Valor_devuelto
 
-`verdadero` si se pasó al siguiente registro con éxito;`FALSO` si se alcanza el final de la fuente de datos.
+`verdadero` si se movió al siguiente registro exitosamente;`FALSO` Si se llega al final de la fuente de datos.
 
 ## Ejemplos
 
-Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de objeto personalizado.
+Muestra cómo ejecutar una combinación de correspondencia con una fuente de datos en forma de un objeto personalizado.
 
 ```csharp
 public void CustomDataSource()
@@ -63,8 +63,8 @@ public class Customer
 }
 
 /// <summary>
- /// Una fuente de datos de combinación de correspondencia personalizada que implementas para permitir Aspose.Words
-/// para combinar datos de correspondencia de sus objetos de Cliente en documentos de Microsoft Word.
+ /// Una fuente de datos de combinación de correspondencia personalizada que se implementa para permitir Aspose.Words
+/// para combinar datos de sus objetos de Cliente en documentos de Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -72,12 +72,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Cuando inicializamos la fuente de datos, su posición debe estar antes del primer registro.
+        // Cuando inicializamos la fuente de datos, su posición debe ser anterior al primer registro.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Aspose.Words lo utiliza solo al ejecutar la combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {
@@ -106,7 +106,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro de una colección.
+    /// Una implementación estándar para pasar al siguiente registro en una colección.
     /// </summary>
     public bool MoveNext()
     {

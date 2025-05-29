@@ -3,16 +3,16 @@ title: FontSourceBase Class
 linktitle: FontSourceBase
 articleTitle: FontSourceBase
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontSourceBase clase. Esta es una clase base abstracta para las clases que permiten al usuario especificar varias fuentes de fuentes en C#.
+description: Descubra Aspose.Words.Fonts.FontSourceBase, la clase abstracta esencial para definir diversas fuentes en sus aplicaciones. ¡Mejore el formato de sus documentos!
 type: docs
-weight: 2980
+weight: 3410
 url: /es/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
 
-Esta es una clase base abstracta para las clases que permiten al usuario especificar varias fuentes de fuentes.
+Esta es una clase base abstracta para las clases que permiten al usuario especificar varias fuentes.
 
-Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) Artículo de documentación.
 
 ```csharp
 public abstract class FontSourceBase
@@ -22,15 +22,15 @@ public abstract class FontSourceBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Devuelve la prioridad de fuente de fuente. |
-| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Devuelve el tipo de fuente fuente. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Se llama durante el procesamiento del origen de la fuente cuando se detecta un problema que podría provocar una pérdida de fidelidad del formato. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Devuelve la prioridad de la fuente. |
+| abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Devuelve el tipo de la fuente de origen. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Se llama durante el procesamiento de la fuente de origen cuando se detecta un problema que podría provocar la pérdida de fidelidad del formato. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve una lista de fuentes disponibles a través de esta fuente. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Devuelve la lista de fuentes disponibles a través de esta fuente. |
 
 ## Ejemplos
 

@@ -3,16 +3,16 @@ title: Bookmark Class
 linktitle: Bookmark
 articleTitle: Bookmark
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Bookmark clase. Representa un único marcador en C#.
+description: Descubra la clase Aspose.Words.Bookmark, su solución para gestionar marcadores eficientemente en sus documentos. ¡Mejore su experiencia de edición de documentos hoy mismo!
 type: docs
-weight: 40
+weight: 230
 url: /es/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
-Representa un único marcador.
+Representa un solo marcador.
 
-Para obtener más información, visite el[Trabajar con marcadores](https://docs.aspose.com/words/net/working-with-bookmarks/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con marcadores](https://docs.aspose.com/words/net/working-with-bookmarks/) Artículo de documentación.
 
 ```csharp
 public class Bookmark
@@ -24,9 +24,9 @@ public class Bookmark
 | --- | --- |
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Obtiene el nodo que representa el final del marcador. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Obtiene el nodo que representa el inicio del marcador. |
-| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Obtiene el índice de base cero de la primera columna del rango de columnas de la tabla asociado con el marcador. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Devoluciones`verdadero` si este marcador es un marcador de columna de tabla. |
-| [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Obtiene el índice de base cero de la última columna del rango de columnas de la tabla asociado con el marcador. |
+| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Obtiene el índice basado en cero de la primera columna del rango de columnas de la tabla asociado con el marcador. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Devuelve`verdadero` Si este marcador es un marcador de columna de tabla. |
+| [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Obtiene el índice basado en cero de la última columna del rango de columnas de la tabla asociada con el marcador. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | Obtiene o establece el nombre del marcador. |
 | [Text](../../aspose.words/bookmark/text/) { get; set; } | Obtiene o establece el texto incluido en el marcador. |
 
@@ -38,7 +38,7 @@ public class Bookmark
 
 ## Observaciones
 
-`Bookmark` es un objeto de "fachada" que encapsula dos nodos[`BookmarkStart`](./bookmarkstart/) y[`BookmarkEnd`](./bookmarkend/) en un árbol de documentos y permite trabajar con un marcador como un solo objeto.
+`Bookmark` es un objeto "fachada" que encapsula dos nodos[`BookmarkStart`](./bookmarkstart/) y[`BookmarkEnd`](./bookmarkend/) en un árbol de documentos y permite trabajar con un marcador como un objeto único.
 
 ## Ejemplos
 
@@ -47,16 +47,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación de visitante de documento personalizada para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
+    //Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
+    // Imprima todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 

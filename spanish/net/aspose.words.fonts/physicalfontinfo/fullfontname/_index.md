@@ -3,9 +3,9 @@ title: PhysicalFontInfo.FullFontName
 linktitle: FullFontName
 articleTitle: FullFontName
 second_title: Aspose.Words para .NET
-description: PhysicalFontInfo FullFontName propiedad. Nombre completo de la fuente en C#.
+description: Descubra la propiedad FullFontName de PhysicalFontInfo para acceder fácilmente a los nombres de las fuentes. ¡Mejore su tipografía con una identificación precisa de fuentes!
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words.fonts/physicalfontinfo/fullfontname/
 ---
 ## PhysicalFontInfo.FullFontName property
@@ -21,7 +21,7 @@ public string FullFontName { get; }
 Muestra cómo enumerar las fuentes disponibles.
 
 ```csharp
-// Configure Aspose.Words para obtener fuentes de una carpeta personalizada y luego imprima todas las fuentes disponibles.
+// Configure Aspose.Words para obtener fuentes de una carpeta personalizada y luego imprimir todas las fuentes disponibles.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

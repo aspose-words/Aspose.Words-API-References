@@ -3,9 +3,9 @@ title: Shape.StrokeColor
 linktitle: StrokeColor
 articleTitle: StrokeColor
 second_title: Aspose.Words para .NET
-description: Shape StrokeColor propiedad. Define el color de un trazo en C#.
+description: Personalice su diseño con la propiedad Shape StrokeColor, que le permite definir colores de trazo vibrantes para lograr un impacto visual sorprendente.
 type: docs
-weight: 190
+weight: 200
 url: /es/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
@@ -18,9 +18,9 @@ public Color StrokeColor { get; set; }
 
 ## Observaciones
 
-Este es un atajo hacia el[`Color`](../../stroke/color/) propiedad.
+Este es un acceso directo a la[`Color`](../../stroke/color/) propiedad.
 
-El valor predeterminado es Black.
+El valor predeterminado es Black .
 
 ## Ejemplos
 
@@ -43,12 +43,12 @@ shape.StrokeColor = Color.CadetBlue;
 // Utilice la propiedad "FillColor" para establecer el color del área interior de la forma.
 shape.FillColor = Color.LightBlue;
 
-// La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0-1,
+// La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0 a 1,
 // siendo 1 completamente opaco y 0 invisible.
-// El relleno de forma por defecto es completamente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
+//El relleno de la forma por defecto es totalmente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Establece la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo.
+// Establezca la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo de él.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");
@@ -89,7 +89,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -117,7 +117,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

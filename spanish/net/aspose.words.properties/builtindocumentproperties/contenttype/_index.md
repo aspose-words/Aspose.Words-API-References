@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words para .NET
-description: BuiltInDocumentProperties ContentType propiedad. Obtiene o establece elContentType del documento en C#.
+description: Descubra cómo utilizar la propiedad ContentType BuiltInDocumentProperties para administrar de manera eficiente el tipo de contenido de su documento para una mejor organización.
 type: docs
 weight: 90
 url: /es/net/aspose.words.properties/builtindocumentproperties/contenttype/
 ---
 ## BuiltInDocumentProperties.ContentType property
 
-Obtiene o establece elContentType del documento.
+Obtiene o establece el tipo de contenido del documento.
 
 ```csharp
 public string ContentType { get; set; }
@@ -18,7 +18,7 @@ public string ContentType { get; set; }
 
 ## Ejemplos
 
-Muestra cómo trabajar con propiedades de documentos en la categoría "Contenido".
+Muestra cómo trabajar con las propiedades del documento en la categoría "Contenido".
 
 ```csharp
 public void Content()
@@ -26,18 +26,18 @@ public void Content()
     Document doc = new Document(MyDir + "Paragraphs.docx");
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-    // Al usar propiedades integradas,
-    // podemos tratar las estadísticas de documentos como el recuento de palabras/páginas/caracteres como metadatos que se pueden consultar sin abrir el documento
+    // Mediante el uso de propiedades integradas,
+    // Podemos tratar las estadísticas del documento, como el recuento de palabras, páginas y caracteres, como metadatos que se pueden consultar rápidamente sin abrir el documento.
     // Se accede a estas propiedades haciendo clic derecho en el archivo en el Explorador de Windows y navegando a Propiedades > Detalles > Contenido
-    // Si queremos mostrar estos datos dentro del documento, podemos usar campos como NUMPAGES, NUMWORDS, NUMCHARS, etc.
-    // Además, estos valores también se pueden ver en Microsoft Word navegando por Archivo > Propiedades > Propiedades avanzadas > Estadísticas
-    // Recuento de páginas: la propiedad PageCount muestra el recuento de páginas en tiempo real y su valor se puede asignar a la propiedad Pages
+    // Si queremos mostrar estos datos dentro del documento, podemos utilizar campos como NUMPAGES, NUMWORDS, NUMCHARS etc.
+    // Además, estos valores también se pueden ver en Microsoft Word navegando a Archivo > Propiedades > Propiedades avanzadas > Estadísticas
+    // Conteo de páginas: La propiedad PageCount muestra el conteo de páginas en tiempo real y su valor se puede asignar a la propiedad Pages
 
-     // La propiedad "Páginas" almacena el recuento de páginas del documento.
+     //La propiedad "Páginas" almacena el número de páginas del documento.
     Assert.AreEqual(6, properties.Pages);
 
-    // Las propiedades integradas "Palabras", "Caracteres" y "CaracteresConEspacios" también muestran varias estadísticas de documentos.
-    // pero necesitamos llamar al método "UpdateWordCount" en todo el documento antes de que podamos esperar que contengan valores precisos.
+    // Las propiedades integradas "Palabras", "Caracteres" y "CaracteresConEspacios" también muestran varias estadísticas del documento,
+    // pero necesitamos llamar al método "UpdateWordCount" en todo el documento antes de poder esperar que contengan valores precisos.
     doc.UpdateWordCount();
 
     Assert.AreEqual(1035, properties.Words);
@@ -50,17 +50,17 @@ public void Content()
 
     Assert.AreEqual(142, properties.Lines);
 
-    // Asigne el número de nodos de párrafo en el documento a la propiedad incorporada "Párrafos".
+    // Asigna el número de nodos de párrafo en el documento a la propiedad incorporada "Párrafos".
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // Obtenga una estimación del tamaño de archivo de nuestro documento a través de la propiedad incorporada "Bytes".
+    // Obtenga una estimación del tamaño del archivo de nuestro documento a través de la propiedad incorporada "Bytes".
     Assert.AreEqual(20310, properties.Bytes);
 
-    // Establece una plantilla diferente para nuestro documento y luego actualiza la propiedad incorporada "Plantilla" manualmente para reflejar este cambio.
+    // Establezca una plantilla diferente para nuestro documento y luego actualice la propiedad incorporada "Plantilla" manualmente para reflejar este cambio.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 
@@ -78,7 +78,7 @@ public void Content()
 
 /// <summary>
 /// Cuenta las líneas de un documento.
-/// Atraviesa el árbol de entidades de diseño del documento durante la construcción,
+/// Recorre el árbol de entidades de diseño del documento durante la construcción.
 /// contando entidades del tipo "Línea" que también contienen texto real.
 /// </summary>
 private class LineCounter

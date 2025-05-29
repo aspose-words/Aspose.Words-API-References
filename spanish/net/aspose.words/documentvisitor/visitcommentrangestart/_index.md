@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitCommentRangeStart
 linktitle: VisitCommentRangeStart
 articleTitle: VisitCommentRangeStart
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitCommentRangeStart método. Se llama cuando se encuentra el inicio de un rango de texto comentado en C#.
+description: Explore el método DocumentVisitor VisitCommentRangeStart para manejar de manera eficiente los comentarios de texto en su código, mejorando la legibilidad y la organización.
 type: docs
 weight: 120
 url: /es/net/aspose.words/documentvisitor/visitcommentrangestart/
@@ -34,16 +34,16 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos Comment/CommentRange encontrados y sus hijos.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
@@ -61,7 +61,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Se llama cuando se encuentra un nodo Ejecutar en el documento.
-    /// Una ejecución solo se registra si es hija de un nodo Comment o CommentRange.
+    /// Una ejecución solo se registra si es hija de un nodo Comentario o CommentRange.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -120,10 +120,10 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante.
+    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante
     /// en un árbol de nodos secundarios de un comentario/rango de comentarios.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

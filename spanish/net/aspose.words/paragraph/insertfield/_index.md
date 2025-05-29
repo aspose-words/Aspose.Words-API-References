@@ -3,9 +3,9 @@ title: Paragraph.InsertField
 linktitle: InsertField
 articleTitle: InsertField
 second_title: Aspose.Words para .NET
-description: Paragraph InsertField método. Inserta un campo en este párrafo en C#.
+description: Inserte campos fácilmente en párrafos con el método InsertarCampo de Párrafo. Mejore la funcionalidad de su documento y agilice la gestión de contenido.
 type: docs
-weight: 270
+weight: 290
 url: /es/net/aspose.words/paragraph/insertfield/
 ---
 ## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool, [Node](../../node/), bool*) {#insertfield}
@@ -20,8 +20,8 @@ public Field InsertField(FieldType fieldType, bool updateField, Node refNode, bo
 | --- | --- | --- |
 | fieldType | FieldType | El tipo de campo a insertar. |
 | updateField | Boolean | Especifica si se debe actualizar el campo inmediatamente. |
-| refNode | Node | Nodo de referencia dentro de este párrafo (si*refNode* es`nulo`, luego se agrega al final del párrafo). |
-| isAfter | Boolean | Ya sea para insertar el campo después o antes del nodo de referencia. |
+| refNode | Node | Nodo de referencia dentro de este párrafo (si*refNode* es`nulo`, luego se añade al final del párrafo). |
+| isAfter | Boolean | Si insertar el campo después o antes del nodo de referencia. |
 
 ### Valor_devuelto
 
@@ -43,14 +43,14 @@ para.AppendChild(run);
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Inserta un campo QUOTE después de uno de los nodos secundarios del párrafo:
+// 2 - Insertar un campo QUOTE después de uno de los nodos secundarios del párrafo:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Inserta un campo QUOTE antes de uno de los nodos secundarios del párrafo,
-// y conseguir que muestre un valor de marcador de posición:
+// 3 - Insertar un campo QUOTE antes de uno de los nodos secundarios del párrafo,
+// y hacer que muestre un valor de marcador de posición:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
@@ -85,8 +85,8 @@ public Field InsertField(string fieldCode, Node refNode, bool isAfter)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fieldCode | String | El código de campo a insertar (sin llaves). |
-| refNode | Node | Nodo de referencia dentro de este párrafo (si*refNode* es`nulo`, luego se agrega al final del párrafo). |
-| isAfter | Boolean | Ya sea para insertar el campo después o antes del nodo de referencia. |
+| refNode | Node | Nodo de referencia dentro de este párrafo (si*refNode* es`nulo`, luego se añade al final del párrafo). |
+| isAfter | Boolean | Si insertar el campo después o antes del nodo de referencia. |
 
 ### Valor_devuelto
 
@@ -108,14 +108,14 @@ para.AppendChild(run);
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Inserta un campo QUOTE después de uno de los nodos secundarios del párrafo:
+// 2 - Insertar un campo QUOTE después de uno de los nodos secundarios del párrafo:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Inserta un campo QUOTE antes de uno de los nodos secundarios del párrafo,
-// y conseguir que muestre un valor de marcador de posición:
+// 3 - Insertar un campo QUOTE antes de uno de los nodos secundarios del párrafo,
+// y hacer que muestre un valor de marcador de posición:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
@@ -149,9 +149,9 @@ public Field InsertField(string fieldCode, string fieldValue, Node refNode, bool
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fieldCode | String | El código de campo a insertar (sin llaves). |
-| fieldValue | String | El valor del campo a insertar. Aprobar`nulo` para campos que no tienen valor. |
-| refNode | Node | Nodo de referencia dentro de este párrafo (si*refNode* es`nulo`, luego se agrega al final del párrafo). |
-| isAfter | Boolean | Ya sea para insertar el campo después o antes del nodo de referencia. |
+| fieldValue | String | El valor del campo a insertar. Pasar`nulo` para campos que no tienen un valor. |
+| refNode | Node | Nodo de referencia dentro de este párrafo (si*refNode* es`nulo`, luego se añade al final del párrafo). |
+| isAfter | Boolean | Si insertar el campo después o antes del nodo de referencia. |
 
 ### Valor_devuelto
 
@@ -173,14 +173,14 @@ para.AppendChild(run);
 doc.BuiltInDocumentProperties["Author"].Value = "John Doe";
 para.InsertField(FieldType.FieldAuthor, true, run, true);
 
-// 2 - Inserta un campo QUOTE después de uno de los nodos secundarios del párrafo:
+// 2 - Insertar un campo QUOTE después de uno de los nodos secundarios del párrafo:
 run = new Run(doc) { Text = "." };
 para.AppendChild(run);
 
 Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 
-// 3 - Inserta un campo QUOTE antes de uno de los nodos secundarios del párrafo,
-// y conseguir que muestre un valor de marcador de posición:
+// 3 - Insertar un campo QUOTE antes de uno de los nodos secundarios del párrafo,
+// y hacer que muestre un valor de marcador de posición:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
 Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);

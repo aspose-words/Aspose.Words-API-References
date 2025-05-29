@@ -3,7 +3,7 @@ title: UserInformation.Initials
 linktitle: Initials
 articleTitle: Initials
 second_title: Aspose.Words para .NET
-description: UserInformation Initials propiedad. Obtiene o establece las iniciales del usuario en C#.
+description: Descubra cómo utilizar la propiedad Iniciales de UserInformation para administrar y personalizar fácilmente las iniciales del usuario para una mejor personalización y experiencia del usuario.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/userinformation/initials/
@@ -33,7 +33,7 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Inserte los campos NOMBRE DE USUARIO, INICIALES DE USUARIO y DIRECCIÓN DE USUARIO, que muestran valores de
+// Inserte los campos NOMBRE DE USUARIO, INICIALES DEL USUARIO y DIRECCIÓN DEL USUARIO, que muestran los valores de
  // las propiedades respectivas del objeto UserInformation que hemos creado anteriormente.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);

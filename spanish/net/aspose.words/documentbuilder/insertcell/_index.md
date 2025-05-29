@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCell
 linktitle: InsertCell
 articleTitle: InsertCell
 second_title: Aspose.Words para .NET
-description: DocumentBuilder InsertCell método. Inserta una celda de tabla en el documento en C#.
+description: Mejore sin esfuerzo sus documentos con el método InsertCell de DocumentBuilder: agregue rápidamente celdas de tabla personalizables para mejorar la organización y la claridad.
 type: docs
 weight: 270
 url: /es/net/aspose.words/documentbuilder/insertcell/
@@ -22,13 +22,13 @@ El nodo celular que se acaba de insertar.
 
 ## Observaciones
 
-Para iniciar una mesa, simplemente llame`InsertCell` . Después de esto, cualquier contenido que agregue usando otros métodos del[`DocumentBuilder`](../) La clase se agregará a la celda actual.
+Para empezar una mesa, simplemente llama`InsertCell` . Después de esto, cualquier contenido que agregues usando otros métodos del[`DocumentBuilder`](../) La clase se agregará a la celda actual.
 
 Para iniciar una nueva celda en la misma fila, llame`InsertCell` de nuevo.
 
-Para finalizar una llamada a una fila de la tabla[`EndRow`](../endrow/).
+Para finalizar una llamada de fila de tabla[`EndRow`](../endrow/).
 
-Utilizar el[`CellFormat`](../cellformat/)propiedad para especificar el formato de celda.
+Utilice el[`CellFormat`](../cellformat/) propiedad para especificar el formato de celda.
 
 ## Ejemplos
 
@@ -38,14 +38,14 @@ Muestra cómo utilizar un generador de documentos para crear una tabla.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inicie la tabla, luego complete la primera fila con dos celdas.
+// Inicie la tabla y luego rellene la primera fila con dos celdas.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Llame al método "EndRow" del constructor para iniciar una nueva fila.
+// Llame al método "EndRow" del constructor para comenzar una nueva fila.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -64,8 +64,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Configurar opciones de formato de tabla para un creador de documentos
-// los aplicará a cada fila y celda que agreguemos con ella.
+// Configuración de opciones de formato de tabla para un generador de documentos
+// los aplicará a cada fila y celda que agreguemos.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -88,9 +88,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Cambiar el formato lo aplicará a la celda actual,
+//Cambiar el formato se aplicará a la celda actual,
 // y cualquier celda nueva que creemos con el constructor posteriormente.
-// Esto no afectará a las celdas que hayamos añadido anteriormente.
+//Esto no afectará las celdas que hemos agregado previamente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

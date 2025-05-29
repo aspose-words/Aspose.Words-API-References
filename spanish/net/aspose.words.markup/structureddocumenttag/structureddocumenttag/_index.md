@@ -3,7 +3,7 @@ title: StructuredDocumentTag
 linktitle: StructuredDocumentTag
 articleTitle: StructuredDocumentTag
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTag constructor. Inicializa una nueva instancia delEtiqueta de documento estructurado clase en C#.
+description: Cree documentos estructurados potentes y sin esfuerzo con el constructor StructuredDocumentTag. Inicialice nuevas instancias para una mejor organización y claridad.
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
@@ -38,16 +38,16 @@ Se pueden crear los siguientes tipos de SDT:
 
 ## Ejemplos
 
-Muestre cómo crear una etiqueta de documento estructurada en forma de casilla de verificación.
+Muestra cómo crear una etiqueta de documento estructurado en forma de casilla de verificación.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Podemos configurar los símbolos utilizados para representar el estado marcado/no marcado de un control de contenido de casilla de verificación.
+// Podemos configurar los símbolos utilizados para representar el estado marcado/desmarcado de un control de contenido de casilla de verificación.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

@@ -3,7 +3,7 @@ title: FieldPrintDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words para .NET
-description: FieldPrintDate UseUmAlQuraCalendar propiedad. Obtiene o establece si se debe utilizar el calendario UmalQura en C#.
+description: Gestiona tus fechas fácilmente con la función UseUmAlQuraCalendar de FieldPrintDate. Activa o desactiva fácilmente el calendario UmalQura para gestionar las fechas sin problemas.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
@@ -18,22 +18,22 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ## Ejemplos
 
-Muestra los campos leídos PRINTDATE.
+Muestra los campos PRINTDATE leídos.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// Cuando un documento se imprime con una impresora o se imprime como PDF (pero no se exporta a PDF),
-// Los campos PRINTDATE mostrarán la fecha/hora de la operación de impresión.
+// Cuando un documento se imprime mediante una impresora o se imprime como PDF (pero no se exporta a PDF),
+// Los campos PRINTDATE mostrarán la fecha y hora de la operación de impresión.
 // Si no se ha realizado ninguna impresión, estos campos mostrarán "0/0/0000".
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
 
-// A continuación se muestran tres tipos de calendario diferentes según los cuales el campo PRINTDATE
-// puede mostrar la fecha y hora de la última operación de impresión.
-// 1 - Calendario Lunar Islámico:
+// A continuación se muestran tres tipos de calendario diferentes según los cuales se utiliza el campo PRINTDATE
+// Puede mostrar la fecha y hora de la última operación de impresión.
+// 1 - Calendario lunar islámico:
 field = (FieldPrintDate)doc.Range.Fields[1];
 
 Assert.True(field.UseLunarCalendar);

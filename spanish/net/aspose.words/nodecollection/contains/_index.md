@@ -3,7 +3,7 @@ title: NodeCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words para .NET
-description: NodeCollection Contains método. Determina si un nodo está en la colección en C#.
+description: Descubra cómo el método NodeCollection Contiene verifica eficientemente si existe un nodo en su colección, mejorando sus capacidades de administración de datos.
 type: docs
 weight: 50
 url: /es/net/aspose.words/nodecollection/contains/
@@ -22,26 +22,26 @@ public bool Contains(Node node)
 
 ### Valor_devuelto
 
-`verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
+`verdadero`si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
 ## Observaciones
 
-Este método realiza una búsqueda lineal; por lo tanto, el tiempo promedio de ejecución es proporcional a[`Count`](../count/).
+Este método realiza una búsqueda lineal, por lo tanto, el tiempo promedio de ejecución es proporcional a[`Count`](../count/).
 
 ## Ejemplos
 
-Muestra cómo trabajar con NodeCollection.
+Muestra cómo trabajar con una NodeCollection.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agrega texto al documento insertando Ejecuciones usando un DocumentBuilder.
+// Agregue texto al documento insertando ejecuciones usando un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Cada invocación del método "Write" crea una nueva Ejecución,
-// que luego aparece en RunCollection del párrafo principal.
+// Cada invocación del método "Write" crea una nueva ejecución,
+// que luego aparece en la RunCollection del párrafo padre.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);

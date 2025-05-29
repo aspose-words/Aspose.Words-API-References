@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.ResourceType
 linktitle: ResourceType
 articleTitle: ResourceType
 second_title: Aspose.Words para .NET
-description: ResourceLoadingArgs ResourceType propiedad. Tipo de recurso en C#.
+description: Descubra la propiedad ResourceType de ResourceLoadingArgs para optimizar la gestión de sus recursos. ¡Mejore el rendimiento y agilice su flujo de trabajo hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.loading/resourceloadingargs/resourcetype/
@@ -28,7 +28,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Las imágenes normalmente se insertan mediante un URI o una matriz de bytes.
+    // Las imágenes generalmente se insertan utilizando una URI o una matriz de bytes.
     // Cada instancia de una carga de recursos llamará al método ResourceLoading de nuestra devolución de llamada.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -40,15 +40,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Nos permite cargar imágenes en un documento usando abreviaturas predefinidas, en lugar de URI.
+/// Nos permite cargar imágenes en un documento utilizando abreviaturas predefinidas, en lugar de URI.
 /// Esto separará la lógica de carga de imágenes del resto de la construcción del documento.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Si esta devolución de llamada encuentra una de las taquigrafías de la imagen mientras se carga una imagen,
-        // aplicará una lógica única para cada taquigrafía definida en lugar de tratarla como un URI.
+        // Si esta devolución de llamada encuentra una de las abreviaturas de imagen al cargar una imagen,
+        // aplicará una lógica única para cada abreviatura definida en lugar de tratarla como una URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

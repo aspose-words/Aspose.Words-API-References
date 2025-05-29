@@ -3,9 +3,9 @@ title: Document.FirstSection
 linktitle: FirstSection
 articleTitle: FirstSection
 second_title: Aspose.Words para .NET
-description: Document FirstSection propiedad. Obtiene la primera sección del documento en C#.
+description: Recupera la primera sección de tu documento sin esfuerzo. Optimiza tu flujo de trabajo con nuestra propiedad "Primera Sección del Documento" para una organización optimizada.
 type: docs
-weight: 130
+weight: 140
 url: /es/net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property
@@ -18,7 +18,7 @@ public Section FirstSection { get; }
 
 ## Observaciones
 
-Devoluciones`nulo` si no hay secciones.
+Devuelve`nulo`si no hay secciones.
 
 ## Ejemplos
 
@@ -60,8 +60,8 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Cada sección tiene su propia configuración de configuración de página.
-// Podemos dividir el texto de la segunda sección en dos columnas.
+//Cada sección tiene su propia configuración de página.
+//Podemos dividir el texto de la segunda sección en dos columnas.
 // Esto no afectará el texto de la primera sección.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");
@@ -88,8 +88,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Una sección es un nodo compuesto y puede contener nodos secundarios.
-// pero sólo si esos nodos secundarios son del tipo de nodo "Body" o "HeaderFooter".
+// Una sección es un nodo compuesto y puede contener nodos secundarios,
+// pero sólo si esos nodos secundarios son de un tipo de nodo "Body" o "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

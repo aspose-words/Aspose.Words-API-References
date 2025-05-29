@@ -3,7 +3,7 @@ title: BorderCollection.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words para .NET
-description: BorderCollection LineStyle propiedad. Obtiene o establece el estilo del borde en C#.
+description: Descubre la propiedad LineStyle de BorderCollection para personalizar tu diseño con estilos de borde flexibles. ¡Mejora el atractivo visual de tu proyecto sin esfuerzo!
 type: docs
 weight: 80
 url: /es/net/aspose.words/bordercollection/linestyle/
@@ -20,7 +20,7 @@ public LineStyle LineStyle { get; set; }
 
 Devuelve el estilo del primer borde de la colección.
 
-Establece el estilo de todos los bordes de la colección, excepto los bordes diagonales.
+Establece el estilo de todos los bordes de la colección, excluidos los bordes diagonales.
 
 ## Ejemplos
 

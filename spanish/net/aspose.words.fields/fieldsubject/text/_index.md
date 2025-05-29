@@ -3,7 +3,7 @@ title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words para .NET
-description: FieldSubject Text propiedad. Obtiene o establece el texto del asunto en C#.
+description: Administre la propiedad Texto de FieldSubject sin esfuerzo: obtenga o configure el texto de su asunto para un manejo perfecto de los datos y una mejor experiencia del usuario.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldsubject/text/
@@ -23,10 +23,10 @@ Muestra cómo utilizar el campo ASUNTO.
 ```csharp
 Document doc = new Document();
 
-// Establece un valor para la propiedad incorporada "Asunto" del documento.
+// Establezca un valor para la propiedad incorporada "Asunto" del documento.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
-// Crea un campo ASUNTO para mostrar el valor de esa propiedad incorporada.
+// Cree un campo ASUNTO para mostrar el valor de esa propiedad incorporada.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldSubject field = (FieldSubject)builder.InsertField(FieldType.FieldSubject, true);
 field.Update();
@@ -34,7 +34,7 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// Si le damos el valor de la propiedad Texto del campo ASUNTO y lo actualizamos, el campo
+// Si le damos el valor de la propiedad Texto al campo ASUNTO y lo actualizamos, el campo
 // sobrescribe el valor actual de la propiedad incorporada "Asunto" con el valor de su propiedad Texto,
 // y luego mostrar el nuevo valor.
 field.Text = "My new subject";

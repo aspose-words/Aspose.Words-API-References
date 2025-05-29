@@ -3,9 +3,9 @@ title: FontInfo.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words para .NET
-description: FontInfo Name propiedad. Obtiene el nombre de la fuente en C#.
+description: Descubra la propiedad Nombre FontInfo para acceder y utilizar fácilmente los nombres de fuentes para mejorar la tipografía en sus proyectos.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words.fonts/fontinfo/name/
 ---
 ## FontInfo.Name property
@@ -28,7 +28,7 @@ Muestra cómo imprimir los detalles de las fuentes presentes en un documento.
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Imprime todas las fuentes usadas y no utilizadas en el documento.
+// Imprime todas las fuentes utilizadas y no utilizadas en el documento.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitEditableRangeEnd
 linktitle: VisitEditableRangeEnd
 articleTitle: VisitEditableRangeEnd
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitEditableRangeEnd método. Se llama cuando se encuentra el final de un rango editable en el documento en C#.
+description: Descubra el método VisitEditableRangeEnd de DocumentVisitor: gestione de manera eficiente los finales de rangos editables en sus documentos para lograr una edición perfecta y una funcionalidad mejorada.
 type: docs
 weight: 160
 url: /es/net/aspose.words/documentvisitor/visiteditablerangeend/
@@ -34,16 +34,16 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos EditableRange encontrados y sus hijos.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
@@ -55,7 +55,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -67,7 +67,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Queremos imprimir el contenido de las ejecuciones, pero sólo si están dentro de formas, como sería en el caso de los cuadros de texto
+        //Queremos imprimir el contenido de las ejecuciones, pero sólo si están dentro de formas, como sería el caso de los cuadros de texto
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
@@ -99,9 +99,9 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangrala dependiendo de qué tan profundo se encuentre el visitante en el árbol del documento.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

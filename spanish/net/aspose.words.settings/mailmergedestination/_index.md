@@ -3,9 +3,9 @@ title: MailMergeDestination Enum
 linktitle: MailMergeDestination
 articleTitle: MailMergeDestination
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeDestination enumeración. Especifica los posibles resultados que se pueden generar cuando se realiza una combinación de correspondencia en un documento en C#.
+description: Descubra la enumeración Aspose.Words.MailMergeDestination, que define resultados para fusiones de correspondencia de documentos fluidas. ¡Optimice el procesamiento de sus documentos hoy mismo!
 type: docs
-weight: 5830
+weight: 6660
 url: /es/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
@@ -20,11 +20,11 @@ public enum MailMergeDestination
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| NewDocument | `0` | Especifica que las aplicaciones de alojamiento conformes generarán nuevos documentos completando los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
-| Printer | `1` | Especifica que las aplicaciones de alojamiento conformes imprimirán los documentos resultantes de completar los campos dentro de un documento determinado con datos externos de la fuente de datos externa especificada. |
-| Email | `2` | Especifica que las aplicaciones de alojamiento conformes generarán correos electrónicos utilizando los documentos que resulten de completar los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
-| Fax | `4` | Especifica que las aplicaciones de alojamiento conformes generarán faxes utilizando los documentos resultantes de completar los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
-| Default | `0` | Igual a laNewDocument valor. |
+| NewDocument | `0` | Especifica que las aplicaciones de alojamiento conformes generarán nuevos documentos rellenando los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
+| Printer | `1` | Especifica que las aplicaciones de alojamiento compatibles deben imprimir los documentos resultantes de rellenar los campos dentro de un documento determinado con datos externos de la fuente de datos externa especificada. |
+| Email | `2` | Especifica que las aplicaciones de alojamiento compatibles deben generar correos electrónicos utilizando los documentos resultantes de rellenar los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
+| Fax | `4` | Especifica que las aplicaciones de alojamiento compatibles deben generar faxes utilizando los documentos resultantes de rellenar los campos dentro de un documento determinado con datos de la fuente de datos externa especificada. |
+| Default | `0` | Es igual a laNewDocument valor. |
 
 ## Ejemplos
 
@@ -41,8 +41,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

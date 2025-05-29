@@ -3,14 +3,14 @@ title: MailMergeSettings.MailAsAttachment
 linktitle: MailAsAttachment
 articleTitle: MailAsAttachment
 second_title: Aspose.Words para .NET
-description: MailMergeSettings MailAsAttachment propiedad. Especifica que los documentos generados durante una operación de combinación de correspondencia deben enviarse por correo electrónico como un archivo adjunto en lugar de y no como el cuerpo del correo electrónico real. El valor predeterminado esFALSO  en C#.
+description: Descubra cómo la propiedad MailAsAttachment en MailMergeSettings mejora sus campañas de correo electrónico al enviar documentos combinados como archivos adjuntos para una mejor interacción.
 type: docs
 weight: 120
 url: /es/net/aspose.words.settings/mailmergesettings/mailasattachment/
 ---
 ## MailMergeSettings.MailAsAttachment property
 
-Especifica que los documentos generados durante una operación de combinación de correspondencia deben enviarse por correo electrónico como un archivo adjunto en lugar de y no como el cuerpo del correo electrónico real. El valor predeterminado es`FALSO` .
+Especifica que los documentos generados durante una operación de combinación de correspondencia deben enviarse por correo electrónico como archivo adjunto en lugar de el cuerpo del correo electrónico. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool MailAsAttachment { get; set; }
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Podemos restablecer estas configuraciones borrándolas. Una vez que hagamos eso y guardemos el documento,
-// Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
+Podemos restablecer esta configuración borrándola. Una vez hecho esto y guardado el documento,
+//Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

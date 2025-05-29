@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.ExportEmbeddedSvg
 linktitle: ExportEmbeddedSvg
 articleTitle: ExportEmbeddedSvg
 second_title: Aspose.Words para .NET
-description: HtmlFixedSaveOptions ExportEmbeddedSvg propiedad. Especifica si los recursos SVG deben incrustarse en el documento HTML. El valor predeterminado esverdadero  en C#.
+description: Descubra la propiedad ExportEmbeddedSvg de HtmlFixedSaveOptions: incruste fácilmente recursos SVG en sus documentos HTML para mejorar la visualización. Valor predeterminado: verdadero.
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
@@ -18,17 +18,17 @@ public bool ExportEmbeddedSvg { get; set; }
 
 ## Ejemplos
 
-Muestra cómo determinar dónde almacenar objetos SVG al exportar un documento a HTML.
+Muestra cómo determinar dónde almacenar los objetos SVG al exportar un documento a HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
 // Cuando exportamos un documento con objetos SVG a .html,
 // Aspose.Words puede colocar estos objetos en dos ubicaciones posibles.
-// Establecer el indicador "ExportEmbeddedSvg" en "true" incrustará todos los datos sin procesar del objeto SVG
-// dentro del HTML de salida, dentro de <image> etiquetas.
-// Establecer este indicador en "falso" creará un archivo en el sistema de archivos local para cada objeto SVG.
-// El HTML se vinculará a cada archivo utilizando el atributo "datos" de un objeto <objeto> etiqueta.
+// Si se establece el indicador "ExportEmbeddedSvg" en "verdadero", se integrarán todos los datos sin procesar del objeto SVG
+// dentro del HTML de salida, dentro de las etiquetas <image>.
+// Establecer esta bandera como "falso" creará un archivo en el sistema de archivos local para cada objeto SVG.
+// El HTML se vinculará a cada archivo utilizando el atributo "data" de una etiqueta <object>.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedSvg = exportSvgs

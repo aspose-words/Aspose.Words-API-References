@@ -3,9 +3,9 @@ title: Font.UnderlineColor
 linktitle: UnderlineColor
 articleTitle: UnderlineColor
 second_title: Aspose.Words para .NET
-description: Font UnderlineColor propiedad. Obtiene o establece el color del subrayado aplicado a la fuente en C#.
+description: Descubra la propiedad Font UnderlineColor para personalizar fácilmente el color de subrayado de su fuente para mejorar el estilo del texto y el atractivo visual.
 type: docs
-weight: 540
+weight: 550
 url: /es/net/aspose.words/font/underlinecolor/
 ---
 ## Font.UnderlineColor property

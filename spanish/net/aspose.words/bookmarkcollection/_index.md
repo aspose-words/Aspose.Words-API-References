@@ -3,16 +3,16 @@ title: BookmarkCollection Class
 linktitle: BookmarkCollection
 articleTitle: BookmarkCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.BookmarkCollection clase. Una colección deBookmark objetos que representan los marcadores en el rango especificado en C#.
+description: Descubra la clase Aspose.Words.BookmarkCollection, una poderosa herramienta para administrar marcadores en sus documentos, mejorando la organización y la navegación.
 type: docs
-weight: 50
+weight: 240
 url: /es/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
 Una colección de[`Bookmark`](../bookmark/) objetos que representan los marcadores en el rango especificado.
 
-Para obtener más información, visite el[Trabajar con marcadores](https://docs.aspose.com/words/net/working-with-bookmarks/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con marcadores](https://docs.aspose.com/words/net/working-with-bookmarks/) Artículo de documentación.
 
 ```csharp
 public class BookmarkCollection : IEnumerable<Bookmark>
@@ -22,7 +22,7 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words/bookmarkcollection/count/) { get; } | Devuelve el número de marcadores de la colección. |
+| [Count](../../aspose.words/bookmarkcollection/count/) { get; } | Devuelve el número de marcadores en la colección. |
 | [Item](../../aspose.words/bookmarkcollection/item/) { get; } | Devuelve un marcador en el índice especificado. (2 indexers) |
 
 ## Métodos
@@ -42,16 +42,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación de visitante de documento personalizada para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
+    //Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
+    // Imprima todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 

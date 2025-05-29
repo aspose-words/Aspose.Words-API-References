@@ -3,9 +3,9 @@ title: Range.ToDocument
 linktitle: ToDocument
 articleTitle: ToDocument
 second_title: Aspose.Words para .NET
-description: Range ToDocument método. Construye un nuevo documento completamente formado que contiene el rango en C#.
+description: Descubra el método Range ToDocument, cree sin esfuerzo un documento completo a partir de su rango seleccionado, mejorando su flujo de trabajo y productividad.
 type: docs
-weight: 100
+weight: 110
 url: /es/net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method

@@ -3,9 +3,9 @@ title: GradientStyle Enum
 linktitle: GradientStyle
 articleTitle: GradientStyle
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.GradientStyle enumeración. Especifica el estilo de un relleno degradado en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.GradientStyle para obtener estilos de relleno degradado personalizables y mejorar los diseños de sus documentos con imágenes vibrantes.
 type: docs
-weight: 1000
+weight: 1330
 url: /es/net/aspose.words.drawing/gradientstyle/
 ---
 ## GradientStyle enumeration
@@ -21,11 +21,11 @@ public enum GradientStyle
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `-1` | Sin gradiente. |
-| Horizontal | `1` | Degradado que se ejecuta horizontalmente a través de un objeto. |
-| Vertical | `2` | Degradado que se ejecuta verticalmente hacia abajo de un objeto. |
+| Horizontal | `1` | Degradado que se extiende horizontalmente a través de un objeto. |
+| Vertical | `2` | Gradiente que corre verticalmente hacia abajo por un objeto. |
 | DiagonalUp | `3` | Degradado diagonal que se mueve desde una esquina inferior hasta la esquina opuesta. |
-| DiagonalDown | `4` | Degradado diagonal que se mueve desde una esquina superior hasta la esquina opuesta. |
-| FromCorner | `5` | Degradado que va desde una esquina hasta las otras tres esquinas. |
+| DiagonalDown | `4` | Degradado diagonal que se mueve desde una esquina superior hacia la esquina opuesta. |
+| FromCorner | `5` | Gradiente que va desde una esquina a las otras tres esquinas. |
 | FromCenter | `6` | Degradado que va desde el centro hacia las esquinas. |
 
 ## Ejemplos
@@ -37,7 +37,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Aplicar relleno degradado de un color a la forma con ForeColor de relleno degradado.
+// Aplicar relleno degradado de un color a la forma con ForeColor del relleno degradado.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -51,7 +51,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
+// El relleno de degradado no tiene ningún efecto, solo funcionará con degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());

@@ -3,26 +3,26 @@ title: Comment.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words para .NET
-description: Comment Id propiedad. Obtiene el identificador del comentario en C#.
+description: Administre los identificadores de comentarios sin esfuerzo con la propiedad Id. de comentario, lo que simplifica la organización de sus datos y mejora la participación del usuario.
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.words/comment/id/
 ---
 ## Comment.Id property
 
-Obtiene el identificador del comentario.
+Obtiene o establece el identificador del comentario.
 
 ```csharp
-public int Id { get; }
+public int Id { get; set; }
 ```
 
 ## Observaciones
 
-El identificador de comentario permite anclar un comentario a una región de texto en el documento. La región debe demarcarse usando el[`CommentRangeStart`](../../commentrangestart/) y[`CommentRangeEnd`](../../commentrangeend/) objeto que comparte el mismo valor de identificador que el[`Comment`](../) objeto.
+El identificador de comentario permite anclar un comentario a una región de texto en el documento. La región debe estar delimitada utilizando el[`CommentRangeStart`](../../commentrangestart/) y[`CommentRangeEnd`](../../commentrangeend/) objeto que comparte el mismo valor de identificador que el[`Comment`](../) objeto.
 
-Utilizaría este valor cuando busque el[`CommentRangeStart`](../../commentrangestart/) y [`CommentRangeEnd`](../../commentrangeend/) nodos que están vinculados a este comentario.
+Usarías este valor cuando busques el[`CommentRangeStart`](../../commentrangestart/) y [`CommentRangeEnd`](../../commentrangeend/) nodos que están vinculados a este comentario.
 
-Se supone que los identificadores de comentarios son únicos en un documento y Aspose.Words automáticamente mantiene identificadores de comentarios al cargar, guardar y combinar documentos.
+Se supone que los identificadores de comentarios son únicos en todo el documento y Aspose.Words mantiene automáticamente los identificadores de comentarios al cargar, guardar y combinar documentos.
 
 ## Ejemplos
 
@@ -42,14 +42,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Agrega texto al documento, deformalo en un rango de comentarios y luego agrega tu comentario.
+    // Agregue texto al documento, deformelo en un rango de comentarios y luego agregue su comentario.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Agrega dos respuestas al comentario.
+    //Añadir dos respuestas al comentario.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -63,15 +63,19 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Iterar sobre todos los comentarios de nivel superior. A diferencia de los comentarios de tipo respuesta, los comentarios de nivel superior no tienen antepasados.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itera sobre todos los comentarios de nivel superior. A diferencia de los comentarios de tipo respuesta, los comentarios de nivel superior no tienen antecesor.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
         // Primero, visita el inicio del rango de comentarios.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Luego, visita el comentario y las respuestas que pueda tener.
+        // Luego, visita el comentario y cualquier respuesta que pueda tener.
         comment.Accept(commentVisitor);
+        // Visita solo el inicio del comentario.
+        comment.AcceptStart(commentVisitor);
+        // Visita solo el final del comentario.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
@@ -85,7 +89,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Imprime la información y el contenido de todos los comentarios y rangos de comentarios encontrados en el documento.
+/// Imprime información y el contenido de todos los comentarios y rangos de comentarios encontrados en el documento.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -96,7 +100,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -151,7 +155,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita de un nodo Comentario en el documento.
+    /// Se llama cuando finaliza la visita a un nodo Comentario en el documento.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -163,9 +167,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangrala dependiendo de qué tan profundo se encuentre el visitante en el árbol del documento.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

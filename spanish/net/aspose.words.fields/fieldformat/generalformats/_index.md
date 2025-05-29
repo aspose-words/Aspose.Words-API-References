@@ -3,7 +3,7 @@ title: FieldFormat.GeneralFormats
 linktitle: GeneralFormats
 articleTitle: GeneralFormats
 second_title: Aspose.Words para .NET
-description: FieldFormat GeneralFormats propiedad. Obtiene una colección de formatos generales que se aplican a un resultado numérico de texto o de cualquier campo. Corresponde a los modificadores  en C#.
+description: Descubra la propiedad GeneralFormats de FieldFormat, que ofrece una colección versátil de formatos de texto numérico para mejorar la presentación de sus datos y resultados.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldformat/generalformats/
@@ -18,7 +18,7 @@ public GeneralFormatCollection GeneralFormats { get; }
 
 ## Ejemplos
 
-Muestra cómo dar formato a los resultados de los campos.
+Muestra cómo formatear los resultados del campo.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ Field field = builder.InsertField("= 2 + 3");
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Podemos aplicar un formato al resultado de un campo usando las propiedades del campo.
-// A continuación se muestran tres tipos de formatos que podemos aplicar al resultado de un campo.
+//Podemos aplicar un formato al resultado de un campo usando las propiedades del campo.
+//A continuación se muestran tres tipos de formatos que podemos aplicar al resultado de un campo.
 // 1 - Formato numérico:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -40,7 +40,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Formato de fecha/hora:
+// 2 - Formato de fecha y hora:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Podemos eliminar nuestros formatos para revertir el resultado del campo a su forma original.
+//Podemos eliminar nuestros formatos para revertir el resultado del campo a su forma original.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

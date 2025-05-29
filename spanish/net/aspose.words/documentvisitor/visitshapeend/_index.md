@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitShapeEnd
 linktitle: VisitShapeEnd
 articleTitle: VisitShapeEnd
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitShapeEnd método. Se llama cuando finaliza la enumeración de una forma en C#.
+description: Explora el método VisitShapeEnd de DocumentVisitor, esencial para gestionar la enumeración de formas en tus aplicaciones. ¡Mejora tu eficiencia de codificación hoy mismo!
 type: docs
 weight: 390
 url: /es/net/aspose.words/documentvisitor/visitshapeend/
@@ -26,7 +26,7 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ## Ejemplos
 
-Muestra cómo crear un grupo de formas e imprimir su contenido utilizando un visitante de documentos.
+Muestra cómo crear un grupo de formas e imprimir su contenido mediante un visitante de documentos.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si necesita crear formas "no primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Si necesita crear formas "No primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // EsquinasSuperioresUnaRedondeadaUnaRecortada, EsquinaÚnicaRedondeada, EsquinasSuperioresRedondeadas, EsquinasDiagonalesRedondeadas
     // utilice los métodos DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

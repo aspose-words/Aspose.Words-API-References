@@ -3,7 +3,7 @@ title: WarningInfoCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words para .NET
-description: WarningInfoCollection GetEnumerator método. Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección en C#.
+description: ¡Descubre el método GetEnumerator de WarningInfoCollection! Itera eficientemente todos los elementos de la colección con facilidad y mejora tu experiencia de programación.
 type: docs
 weight: 50
 url: /es/net/aspose.words/warninginfocollection/getenumerator/
@@ -26,20 +26,20 @@ public void EnableFontSubstitution()
     // Abra un documento que contenga texto formateado con una fuente que no existe en ninguna de nuestras fuentes de fuentes.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Asigna una devolución de llamada para manejar las advertencias de sustitución de fuentes.
+    // Asignar una devolución de llamada para manejar advertencias de sustitución de fuentes.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Establece un nombre de fuente predeterminado y habilita la sustitución de fuentes.
+    // Establezca un nombre de fuente predeterminado y habilite la sustitución de fuente.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Las métricas de fuente originales deben usarse después de la sustitución de fuentes.
+    // Las métricas de fuente originales deben utilizarse después de la sustitución de la fuente.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Recibiremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
+    //Recibiremos una advertencia de sustitución de fuente si guardamos un documento con una fuente faltante.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -55,7 +55,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

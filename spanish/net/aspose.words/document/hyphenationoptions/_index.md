@@ -3,9 +3,9 @@ title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words para .NET
-description: Document HyphenationOptions propiedad. Proporciona acceso a las opciones de separación de palabras del documento en C#.
+description: Explore la propiedad Document HyphenationOptions para personalizar la configuración de separación de palabras, mejorando la legibilidad y la presentación de su documento.
 type: docs
-weight: 210
+weight: 220
 url: /es/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property

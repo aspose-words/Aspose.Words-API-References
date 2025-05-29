@@ -3,16 +3,16 @@ title: BorderType Enum
 linktitle: BorderType
 articleTitle: BorderType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.BorderType enumeración. Especifica los lados de un borde en C#.
+description: Descubra la enumeración Aspose.Words.BorderType para personalizar los bordes. ¡Mejore sus documentos con un control y estilo precisos de los bordes!
 type: docs
-weight: 100
+weight: 290
 url: /es/net/aspose.words/bordertype/
 ---
 ## BorderType enumeration
 
 Especifica los lados de un borde.
 
-Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) artículo de documentación.
+Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) Artículo de documentación.
 
 ```csharp
 public enum BorderType
@@ -23,14 +23,14 @@ public enum BorderType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `-1` | Valor predeterminado. |
-| Bottom | `0` | Especifica el borde inferior de un párrafo o celda de una tabla. |
-| Left | `1` | Especifica el borde izquierdo de un párrafo o celda de una tabla. |
-| Right | `2` | Especifica el borde derecho de un párrafo o celda de una tabla. |
-| Top | `3` | Especifica el borde superior de un párrafo o celda de una tabla. |
+| Bottom | `0` | Especifica el borde inferior de un párrafo o una celda de tabla. |
+| Left | `1` | Especifica el borde izquierdo de un párrafo o una celda de tabla. |
+| Right | `2` | Especifica el borde derecho de un párrafo o de una celda de tabla. |
+| Top | `3` | Especifica el borde superior de un párrafo o una celda de tabla. |
 | Horizontal | `4` | Especifica el borde horizontal entre celdas de una tabla o entre párrafos conformes. |
-| Vertical | `5` | Especifica el borde vertical entre las celdas de una tabla. |
-| DiagonalDown | `6` | Especifica el borde diagonal en una celda de la tabla. |
-| DiagonalUp | `7` | Especifica el borde diagonal en una celda de la tabla. |
+| Vertical | `5` | Especifica el borde vertical entre celdas de una tabla. |
+| DiagonalDown | `6` | Especifica el borde diagonal en una celda de tabla. |
+| DiagonalUp | `7` | Especifica el borde diagonal en una celda de tabla. |
 
 ## Ejemplos
 
@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Establece ThemeColor solo cuando LineWidth o LineStyle están configurados.
+// Establezca ThemeColor solo cuando se configure LineWidth o LineStyle.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

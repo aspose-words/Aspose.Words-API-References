@@ -3,7 +3,7 @@ title: Node.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words para .NET
-description: Node Accept método. Acepta un visitante en C#.
+description: Descubre el método Node Accept para una interacción fluida con los visitantes. ¡Mejora la experiencia del usuario y potencia la interacción con esta potente herramienta!
 type: docs
 weight: 90
 url: /es/net/aspose.words/node/accept/
@@ -28,7 +28,7 @@ Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../doc
 
 Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../documentvisitor/).
 
-Para obtener más información, consulte el patrón de diseño Visitante.
+Para obtener más información, consulte el patrón de diseño Visitor.
 
 ## Ejemplos
 
@@ -40,8 +40,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documentos,
-    // lo que le permitirá visitar el nodo de aceptación y luego atravesar sus nodos secundarios en profundidad.
+    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documento,
+    // lo que le permitirá visitar el nodo aceptador y luego recorrer sus nodos secundarios en profundidad.
     // 1 - Nodo de párrafo:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -106,7 +106,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Párrafo en el documento.
+    /// Se llama cuando se encuentra un nodo de párrafo en el documento.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -176,6 +176,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -187,11 +189,11 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // El contenido dentro de las celdas de la tabla puede tener la marca de contenido oculto, pero las tablas mismas no.
-        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo.
-        // y no quedarán nodos secundarios.
-        // Por lo tanto, también podemos tratar la tabla como contenido oculto y eliminarla.
-        // Las tablas que están vacías pero que no tienen contenido oculto tendrán celdas con párrafos vacíos en su interior.
+        // El contenido dentro de las celdas de la tabla puede tener la bandera de contenido oculto, pero las tablas en sí mismas no pueden.
+        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo,
+        // y no quedarían nodos secundarios.
+        // De esta forma también podemos tratar la tabla en sí como contenido oculto y eliminarla.
+        // Las tablas que están vacías pero no tienen contenido oculto tendrán celdas con párrafos vacíos dentro,
         // que este visitante no eliminará.
         if (!table.HasChildNodes)
             table.Remove();
@@ -200,7 +202,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita a un nodo celular en el documento.
+    /// Se llama cuando finaliza la visita a un nodo de celda en el documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

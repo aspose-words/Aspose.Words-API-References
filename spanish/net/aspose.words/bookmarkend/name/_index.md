@@ -3,7 +3,7 @@ title: BookmarkEnd.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words para .NET
-description: BookmarkEnd Name propiedad. Obtiene o establece el nombre del marcador en C#.
+description: Descubra la propiedad BookmarkEnd Name para administrar y personalizar fácilmente los nombres de marcadores en sus documentos para una mejor organización y eficiencia.
 type: docs
 weight: 20
 url: /es/net/aspose.words/bookmarkend/name/
@@ -27,16 +27,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación de visitante de documento personalizada para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
+    //Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
+    // Imprima todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 

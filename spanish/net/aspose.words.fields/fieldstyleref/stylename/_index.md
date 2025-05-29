@@ -3,14 +3,14 @@ title: FieldStyleRef.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words para .NET
-description: FieldStyleRef StyleName propiedad. Obtiene o establece el nombre del estilo por el cual se formatea el texto a buscar en C#.
+description: Descubra la propiedad FieldStyleRef StyleName para personalizar y formatear fácilmente su texto de búsqueda. Mejore el estilo de su proyecto con flexibilidad y precisión.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldstyleref/stylename/
 ---
 ## FieldStyleRef.StyleName property
 
-Obtiene o establece el nombre del estilo por el cual se formatea el texto a buscar.
+Obtiene o establece el nombre del estilo con el que se formatea el texto a buscar.
 
 ```csharp
 public string StyleName { get; set; }
@@ -24,10 +24,10 @@ Muestra cómo utilizar los campos STYLEREF.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea una lista basada en una plantilla de lista de Microsoft Word.
+// Cree una lista basada en una plantilla de lista de Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Esta lista generada mostrará "1.a)".
+//Esta lista generada mostrará "1.a )".
  // El espacio antes del corchete es un carácter no delimitador, que podemos suprimir.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// También podemos usar campos STYLEREF para hacer referencia a los números de lista de listas.
+// También podemos utilizar los campos STYLEREF para hacer referencia a los números de lista de las listas.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

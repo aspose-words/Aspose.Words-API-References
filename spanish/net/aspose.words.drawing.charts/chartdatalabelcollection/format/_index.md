@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words para .NET
-description: ChartDataLabelCollection Format propiedad. Proporciona acceso al formato de relleno y línea de las etiquetas de datos en C#.
+description: Descubra la propiedad Formato ChartDataLabelCollection para acceder fácilmente al formato de relleno y línea personalizable para sus etiquetas de datos. ¡Mejore sus gráficos hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
 ---
 ## ChartDataLabelCollection.Format property
 
-Proporciona acceso al formato de relleno y línea de las etiquetas de datos.
+Proporciona acceso para rellenar y formatear las líneas de las etiquetas de datos.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## Ejemplos
 
-Muestra cómo configurar el formato de relleno, trazo y llamada para las etiquetas de datos del gráfico.
+Muestra cómo establecer el formato de relleno, trazo y llamada para las etiquetas de datos de gráficos.
 
 ```csharp
 Document doc = new Document();
@@ -27,10 +27,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Eliminar la serie generada por defecto.
+//Eliminar serie generada por defecto.
 chart.Series.Clear();
 
-// Agregar nueva serie.
+//Añadir nueva serie.
 ChartSeries series = chart.Series.Add("AW Series 1",
     new string[] { "AW Category 1", "AW Category 2", "AW Category 3", "AW Category 4" },
     new double[] { 100, 200, 300, 400 });
@@ -39,7 +39,7 @@ ChartSeries series = chart.Series.Add("AW Series 1",
 series.HasDataLabels = true;
 series.DataLabels.ShowValue = true;
 
-// Formatear etiquetas de datos como llamadas.
+// Formatear las etiquetas de datos como llamadas.
 ChartFormat format = series.DataLabels.Format;
 format.ShapeType = ChartShapeType.WedgeRectCallout;
 format.Stroke.Color = Color.DarkGreen;

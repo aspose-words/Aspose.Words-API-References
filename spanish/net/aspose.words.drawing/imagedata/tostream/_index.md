@@ -3,9 +3,9 @@ title: ImageData.ToStream
 linktitle: ToStream
 articleTitle: ToStream
 second_title: Aspose.Words para .NET
-description: ImageData ToStream método. Crea y devuelve una secuencia que contiene los bytes de la imagen en C#.
+description: Descubra el método ImageData ToStream: convierta imágenes en flujos de bytes de manera eficiente para un manejo fluido de datos y un mejor rendimiento de las aplicaciones.
 type: docs
-weight: 230
+weight: 240
 url: /es/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
@@ -18,13 +18,13 @@ public Stream ToStream()
 
 ## Observaciones
 
-Si los bytes de la imagen se almacenan en la forma, crea y devuelve unMemoryStream objeto.
+Si los bytes de la imagen se almacenan en la forma, crea y devuelve unaMemoryStream objeto.
 
 Si la imagen está vinculada y almacenada en un archivo, abre el archivo y devuelve unFileStream objeto.
 
 Si la imagen está vinculada y almacenada en una URL externa, descarga el archivo y devuelve unMemoryStream objeto.
 
-¿Es responsabilidad de la persona que llama deshacerse del objeto de flujo?
+¿Es responsabilidad del llamador disponer del objeto de flujo?
 
 ## Ejemplos
 
@@ -39,7 +39,7 @@ Assert.True(imgShape.HasImage);
 // ToByteArray() devuelve la matriz almacenada en la propiedad ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
-// Guarde los datos de la imagen de la forma en un archivo de imagen en el sistema de archivos local.
+// Guarde los datos de imagen de la forma en un archivo de imagen en el sistema de archivos local.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

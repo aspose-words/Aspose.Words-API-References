@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words para .NET
-description: FieldMergingArgsBase FieldName propiedad. Obtiene el nombre del campo de combinación en la fuente de datos en C#.
+description: Descubra la propiedad FieldName de FieldMergingArgsBase, que recupera el nombre del campo de combinación de su fuente de datos para una integración perfecta.
 type: docs
 weight: 40
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -18,13 +18,13 @@ public string FieldName { get; }
 
 ## Observaciones
 
-Si tiene una asignación de un nombre de campo de documento a un nombre de campo de origen de datos diferente, , entonces este es el nombre de campo asignado.
+Si tiene una asignación de un nombre de campo de documento a un nombre de campo de fuente de datos diferente, , entonces este es el nombre del campo asignado.
 
-Si especificó un prefijo de nombre de campo, por ejemplo "Imagen:MiNombreDeCampo" en el documento, entonces`FieldName` devuelve el nombre del campo sin el prefijo, es decir, "MyFieldName".
+Si especificó un prefijo de nombre de campo, por ejemplo "Image:MyFieldName" en el documento, entonces`FieldName` devuelve el nombre del campo sin el prefijo, es decir "MyFieldName".
 
 ## Ejemplos
 
-Muestra cómo insertar campos de formulario de casilla de verificación en MERGEFIELD como datos de combinación durante la combinación de correspondencia.
+Muestra cómo insertar campos de formulario de casilla de verificación en MERGEFIELDs como datos de combinación durante la combinación de correspondencia.
 
 ```csharp
 public void InsertCheckBox()
@@ -32,7 +32,7 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utilice MERGEFIELD con etiquetas "TableStart"/"TableEnd" para definir una región de combinación de correspondencia
+    // Utilice MERGEFIELDs con etiquetas "TableStart"/"TableEnd" para definir una región de combinación de correspondencia
     // que pertenece a una fuente de datos denominada "StudentCourse" y tiene un MERGEFIELD que acepta datos de una columna denominada "CourseName".
     builder.StartTable();
     builder.InsertCell();
@@ -52,12 +52,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// Al encontrar un MERGEFIELD con un nombre específico, inserta un campo de formulario de casilla de verificación en lugar de fusionar texto de datos.
+/// Al encontrar un MERGEFIELD con un nombre específico, inserta un campo de formulario de casilla de verificación en lugar de texto de datos combinados.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia fusiona datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -81,7 +81,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 
     private int mCheckBoxCount;

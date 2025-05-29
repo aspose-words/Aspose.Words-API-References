@@ -3,14 +3,14 @@ title: Shape.HorizontalRuleFormat
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words para .NET
-description: Shape HorizontalRuleFormat propiedad. Proporciona acceso a las propiedades de la forma de regla horizontal. Para una forma que no es una regla horizontal devuelvenulo  en C#.
+description: Acceda y personalice las propiedades de HorizontalRuleFormat para una mayor flexibilidad de diseño. Optimice sus formas con configuraciones personalizadas para obtener resultados únicos.
 type: docs
-weight: 100
+weight: 110
 url: /es/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Proporciona acceso a las propiedades de la forma de regla horizontal. Para una forma que no es una regla horizontal, devuelve`nulo` .
+Proporciona acceso a las propiedades de la forma de la regla horizontal. Para una forma que no es una regla horizontal, devuelve`nulo` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
@@ -18,7 +18,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ## Ejemplos
 
-Muestra cómo insertar una forma de regla horizontal y personalizar su formato.
+Muestra cómo insertar una regla horizontal y personalizar su formato.
 
 ```csharp
 Document doc = new Document();

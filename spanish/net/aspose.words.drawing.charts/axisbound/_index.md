@@ -3,16 +3,16 @@ title: AxisBound Class
 linktitle: AxisBound
 articleTitle: AxisBound
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.AxisBound clase. Representa el límite mínimo o máximo de los valores del eje en C#.
+description: Descubra la clase Aspose.Words.Drawing.Charts.AxisBound, su solución para definir límites de valores de ejes en gráficos para una visualización de datos precisa.
 type: docs
-weight: 510
+weight: 750
 url: /es/net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class
 
 Representa el límite mínimo o máximo de los valores del eje.
 
-Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) Artículo de documentación.
 
 ```csharp
 public sealed class AxisBound
@@ -22,8 +22,8 @@ public sealed class AxisBound
 
 | Nombre | Descripción |
 | --- | --- |
-| [AxisBound](axisbound/#constructor)() | Crea una nueva instancia que indica que el límite del eje debe determinarse automáticamente mediante una aplicación de procesamiento de textos . |
-| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Crea un límite de eje representado como valor de fecha y hora. |
+| [AxisBound](axisbound/#constructor)() | Crea una nueva instancia que indica que el límite del eje debe ser determinado automáticamente por una aplicación de procesamiento de textos. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Crea un límite de eje representado como un valor de fecha y hora. |
 | [AxisBound](axisbound/#constructor_1)(*double*) | Crea un límite de eje representado como un número. |
 
 ## Propiedades
@@ -38,8 +38,8 @@ public sealed class AxisBound
 
 | Nombre | Descripción |
 | --- | --- |
-| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
-| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Sirve como función hash para este tipo. |
+| override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Determina si el objeto especificado es igual en valor al objeto actual. |
+| override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Sirve como una función hash para este tipo. |
 | override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Devuelve una cadena fácil de usar que muestra el valor de este objeto. |
 
 ## Observaciones
@@ -50,7 +50,7 @@ Las instancias de esta clase son inmutables.
 
 ## Ejemplos
 
-Muestra cómo insertar un gráfico con valores de fecha/hora.
+Muestra cómo insertar un gráfico con valores de fecha y hora.
 
 ```csharp
 Document doc = new Document();
@@ -59,10 +59,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agregue una serie personalizada que contenga valores de fecha/hora para el eje X y los respectivos valores decimales para el eje Y.
+// Agregue una serie personalizada que contenga valores de fecha y hora para el eje X y valores decimales respectivos para el eje Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -71,12 +71,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Establece límites superior e inferior para el eje X.
+// Establezca límites inferior y superior para el eje X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Establece las unidades mayores del eje X en una semana y las unidades menores en un día.
+// Establezca las unidades principales del eje X en una semana y las unidades secundarias en un día.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -85,9 +85,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Definir propiedades del eje Y para valores decimales.
+// Define las propiedades del eje Y para valores decimales.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

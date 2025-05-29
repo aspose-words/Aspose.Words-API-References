@@ -3,9 +3,9 @@ title: Stroke.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words para .NET
-description: Stroke Fill propiedad. Obtiene el formato de relleno para elStroke  en C#.
+description: Descubre la propiedad Relleno de Trazo para mejorar el formato del relleno en tus diseños. ¡Mejora tus proyectos con la personalización precisa de trazos hoy mismo!
 type: docs
-weight: 90
+weight: 120
 url: /es/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Las formas básicas, como el rectángulo, tienen dos partes visibles.
+//Las formas básicas, como el rectángulo, tienen dos partes visibles.
 // 1 - El relleno, que se aplica al área dentro del contorno de la forma:
 shape.Fill.ForeColor = Color.White;
 
 // 2 - El trazo, que marca el contorno de la forma:
-// Modifica varias propiedades del trazo de esta forma.
+//Modifica varias propiedades del trazo de esta forma.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

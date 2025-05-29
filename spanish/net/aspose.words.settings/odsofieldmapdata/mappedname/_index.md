@@ -3,14 +3,14 @@ title: OdsoFieldMapData.MappedName
 linktitle: MappedName
 articleTitle: MappedName
 second_title: Aspose.Words para .NET
-description: OdsoFieldMapData MappedName propiedad. Especifica el nombre del campo de combinación predefinido que se asignará al número de columna especificado porColumn propiedad dentro de esta asignación de campos. El valor predeterminado es una cadena vacía en C#.
+description: Descubra la propiedad MappedName de OdsoFieldMapData, que vincula los nombres de los campos de combinación a columnas específicas, lo que mejora la eficiencia y la precisión del mapeo de datos.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/odsofieldmapdata/mappedname/
 ---
 ## OdsoFieldMapData.MappedName property
 
-Especifica el nombre del campo de combinación predefinido que se asignará al número de columna especificado por[`Column`](../column/) propiedad dentro de esta asignación de campos. El valor predeterminado es una cadena vacía.
+Especifica el nombre del campo de combinación predefinido que se asignará al número de columna especificado por el[`Column`](../column/) propiedad dentro de este campo mapping. El valor predeterminado es una cadena vacía.
 
 ```csharp
 public string MappedName { get; set; }
@@ -18,13 +18,13 @@ public string MappedName { get; set; }
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
+Muestra cómo acceder a la colección de datos que asigna columnas de fuente de datos a campos de combinación.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
 // Esta colección define cómo una combinación de correspondencia asignará columnas de una fuente de datos
-// a los campos predefinidos MERGEFIELD, ADDRESSBLOCK y GREETINGLINE.
+// a los campos MERGEFIELD, ADDRESSBLOCK y GREETINGLINE predefinidos.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clona los elementos de esta colección.
+// Clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utiliza los elementos del método "RemoveAt" individualmente por índice.
+// Utilice el método "RemoveAt" para eliminar elementos individualmente por índice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilice el método "Borrar" para borrar toda la colección a la vez.
+// Utilice el método "Borrar" para borrar toda la colección de una vez.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

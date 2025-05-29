@@ -3,14 +3,14 @@ title: Shape.FillColor
 linktitle: FillColor
 articleTitle: FillColor
 second_title: Aspose.Words para .NET
-description: Shape FillColor propiedad. Define el color del pincel que rellena el trazado cerrado de la forma en C#.
+description: Descubra la propiedad Shape FillColor para personalizar sus diseños con colores de pincel vibrantes que realzan sus formas y elevan sus proyectos.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.drawing/shape/fillcolor/
 ---
 ## Shape.FillColor property
 
-Define el color del pincel que rellena el trazado cerrado de la forma.
+Define el color del pincel que rellena la ruta cerrada de la forma.
 
 ```csharp
 public Color FillColor { get; set; }
@@ -18,9 +18,9 @@ public Color FillColor { get; set; }
 
 ## Observaciones
 
-Este es un atajo hacia el[`Color`](../../fill/color/) propiedad.
+Este es un acceso directo a la[`Color`](../../fill/color/) propiedad.
 
-El valor predeterminado es White.
+El valor predeterminado es White .
 
 ## Ejemplos
 
@@ -43,12 +43,12 @@ shape.StrokeColor = Color.CadetBlue;
 // Utilice la propiedad "FillColor" para establecer el color del área interior de la forma.
 shape.FillColor = Color.LightBlue;
 
-// La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0-1,
+// La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0 a 1,
 // siendo 1 completamente opaco y 0 invisible.
-// El relleno de forma por defecto es completamente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
+//El relleno de la forma por defecto es totalmente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Establece la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo.
+// Establezca la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo de él.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");

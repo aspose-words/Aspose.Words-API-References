@@ -3,16 +3,16 @@ title: Fill Class
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Fill clase. Representa el formato de relleno para un objeto en C#.
+description: Explore la clase Aspose.Words.Drawing.Fill para obtener opciones de formato de relleno avanzadas y mejorar el diseño y el atractivo visual de su documento sin esfuerzo.
 type: docs
-weight: 950
+weight: 1270
 url: /es/net/aspose.words.drawing/fill/
 ---
 ## Fill class
 
-Representa el formato de relleno para un objeto.
+Representa el formato de relleno de un objeto.
 
-Para obtener más información, visite el[Trabajar con elementos gráficos](https://docs.aspose.com/words/net/working-with-graphic-elements/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con elementos gráficos](https://docs.aspose.com/words/net/working-with-graphic-elements/) Artículo de documentación.
 
 ```csharp
 public class Fill
@@ -22,9 +22,10 @@ public class Fill
 
 | Nombre | Descripción |
 | --- | --- |
-| [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Obtiene o establece un objeto Color que representa el color de fondo del relleno. |
+| [BackColor](../../aspose.words.drawing/fill/backcolor/) { get; set; } | Obtiene o establece un objeto Color que representa el color de fondo para el relleno. |
 | [BackThemeColor](../../aspose.words.drawing/fill/backthemecolor/) { get; set; } | Obtiene o establece un objeto ThemeColor que representa el color de fondo para el relleno. |
 | [BackTintAndShade](../../aspose.words.drawing/fill/backtintandshade/) { get; set; } | Obtiene o establece un valor doble que aclara u oscurece el color de fondo. |
+| [BaseForeColor](../../aspose.words.drawing/fill/baseforecolor/) { get; } | Obtiene un objeto Color que representa el color de primer plano base para el relleno sin ningún modificador. |
 | [Color](../../aspose.words.drawing/fill/color/) { get; set; } | Obtiene o establece un objeto Color que representa el color de primer plano para el relleno. |
 | [FillType](../../aspose.words.drawing/fill/filltype/) { get; } | Obtiene un tipo de relleno. |
 | [ForeColor](../../aspose.words.drawing/fill/forecolor/) { get; set; } | Obtiene o establece un objeto Color que representa el color de primer plano para el relleno. |
@@ -33,22 +34,22 @@ public class Fill
 | [GradientAngle](../../aspose.words.drawing/fill/gradientangle/) { get; set; } | Obtiene o establece el ángulo del relleno degradado. |
 | [GradientStops](../../aspose.words.drawing/fill/gradientstops/) { get; } | Obtiene una colección de[`GradientStop`](../gradientstop/) objetos para el relleno. |
 | [GradientStyle](../../aspose.words.drawing/fill/gradientstyle/) { get; } | Obtiene el estilo de degradado[`GradientStyle`](../gradientstyle/) para el relleno. |
-| [GradientVariant](../../aspose.words.drawing/fill/gradientvariant/) { get; } | Obtiene la variante de gradiente[`GradientVariant`](../gradientvariant/) para el relleno. |
+| [GradientVariant](../../aspose.words.drawing/fill/gradientvariant/) { get; } | Obtiene la variante de degradado[`GradientVariant`](../gradientvariant/) para el relleno. |
 | [ImageBytes](../../aspose.words.drawing/fill/imagebytes/) { get; } | Obtiene los bytes sin procesar de la textura o patrón de relleno. |
 | [Opacity](../../aspose.words.drawing/fill/opacity/) { get; set; } | Obtiene o establece el grado de opacidad del relleno especificado como un valor entre 0,0 (transparente) y 1,0 (opaco). |
 | [Pattern](../../aspose.words.drawing/fill/pattern/) { get; } | Obtiene un[`PatternType`](../patterntype/) para el relleno. |
 | [PresetTexture](../../aspose.words.drawing/fill/presettexture/) { get; } | Obtiene un[`PresetTexture`](../presettexture/) para el relleno. |
 | [RotateWithObject](../../aspose.words.drawing/fill/rotatewithobject/) { get; set; } | Obtiene o establece si el relleno gira con el objeto especificado. |
 | [TextureAlignment](../../aspose.words.drawing/fill/texturealignment/) { get; set; } | Obtiene o establece la alineación para el relleno de textura de mosaico. |
-| [Transparency](../../aspose.words.drawing/fill/transparency/) { get; set; } | Obtiene o establece el grado de transparencia del relleno especificado como un valor entre 0,0 (opaco) y 1,0 (claro). |
-| [Visible](../../aspose.words.drawing/fill/visible/) { get; set; } | Obtiene o establece el valor que es`verdadero` si el formato aplicado a esta instancia es visible. |
+| [Transparency](../../aspose.words.drawing/fill/transparency/) { get; set; } | Obtiene o establece el grado de transparencia del relleno especificado como un valor entre 0,0 (opaco) y 1,0 (transparente). |
+| [Visible](../../aspose.words.drawing/fill/visible/) { get; set; } | Obtiene o establece el valor que es`verdadero` Si el formato aplicado a esta instancia es visible. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Establece el relleno especificado en un degradado de un color. |
-| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Establece el relleno especificado en un degradado de un color utilizando el color especificado. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient)(*[GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Establece el relleno especificado en un degradado de un solo color. |
+| [OneColorGradient](../../aspose.words.drawing/fill/onecolorgradient/#onecolorgradient_1)(*Color, [GradientStyle](../gradientstyle/), [GradientVariant](../gradientvariant/), double*) | Establece el relleno especificado en un degradado de un solo color utilizando el color especificado. |
 | [Patterned](../../aspose.words.drawing/fill/patterned/#patterned)(*[PatternType](../patterntype/)*) | Establece el relleno especificado en un patrón. |
 | [Patterned](../../aspose.words.drawing/fill/patterned/#patterned_1)(*[PatternType](../patterntype/), Color, Color*) | Establece el relleno especificado en un patrón. |
 | [PresetTextured](../../aspose.words.drawing/fill/presettextured/)(*[PresetTexture](../presettexture/)*) | Establece el relleno en una textura preestablecida. |
@@ -62,7 +63,7 @@ public class Fill
 
 ## Observaciones
 
-Utilizar el[`Fill`](../shapebase/fill/) o[`Fill`](../../aspose.words/font/fill/) propiedad para acceder a las propiedades de relleno de un objeto. No crea instancias del`Fill` clase directamente.
+Utilice el[`Fill`](../shapebase/fill/) o[`Fill`](../../aspose.words/font/fill/) propiedad para acceder a las propiedades de relleno de un objeto. No crea instancias de la`Fill` clase directamente.
 
 ## Ejemplos
 
@@ -85,12 +86,12 @@ shape.StrokeColor = Color.CadetBlue;
 // Utilice la propiedad "FillColor" para establecer el color del área interior de la forma.
 shape.FillColor = Color.LightBlue;
 
-// La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0-1,
+// La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0 a 1,
 // siendo 1 completamente opaco y 0 invisible.
-// El relleno de forma por defecto es completamente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
+//El relleno de la forma por defecto es totalmente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Establece la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo.
+// Establezca la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo de él.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");

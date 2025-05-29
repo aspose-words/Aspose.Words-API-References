@@ -3,7 +3,7 @@ title: MailMerge.GetRegionsHierarchy
 linktitle: GetRegionsHierarchy
 articleTitle: GetRegionsHierarchy
 second_title: Aspose.Words para .NET
-description: MailMerge GetRegionsHierarchy método. Devuelve una jerarquía completa de regiones con campos disponibles en el documento en C#.
+description: Descubra el método GetRegionsHierarchy de MailMerge para recuperar sin esfuerzo una jerarquía de regiones completa con campos de documentos accesibles para flujos de trabajo optimizados.
 type: docs
 weight: 250
 url: /es/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
@@ -18,7 +18,7 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 ### Valor_devuelto
 
-Jerarquía de las regiones.
+Jerarquía de regiones.
 
 ## Observaciones
 
@@ -26,15 +26,15 @@ La jerarquía se devuelve en forma de[`MailMergeRegionInfo`](../../mailmergeregi
 
 ## Ejemplos
 
-Muestra cómo verificar regiones de combinación de correspondencia.
+Muestra cómo verificar las regiones de combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELD disponibles en el documento.
+// Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELDs disponibles en el documento.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Obtener las principales regiones del documento.
+// Obtener las regiones principales del documento.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -51,6 +51,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Obtener la lista de campos dentro de la primera región superior.
 IList<Field> fieldList = topRegions[0].Fields;

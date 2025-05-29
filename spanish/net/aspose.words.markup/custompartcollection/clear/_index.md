@@ -3,7 +3,7 @@ title: CustomPartCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words para .NET
-description: CustomPartCollection Clear método. Elimina todos los elementos de la colección en C#.
+description: Limpie sin esfuerzo su CustomPartCollection con nuestro eficiente método Clear, eliminando todos los elementos para una administración perfecta y un rendimiento mejorado.
 type: docs
 weight: 50
 url: /es/net/aspose.words.markup/custompartcollection/clear/
@@ -18,7 +18,7 @@ public void Clear()
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

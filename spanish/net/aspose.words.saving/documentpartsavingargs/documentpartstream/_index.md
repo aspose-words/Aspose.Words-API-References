@@ -3,7 +3,7 @@ title: DocumentPartSavingArgs.DocumentPartStream
 linktitle: DocumentPartStream
 articleTitle: DocumentPartStream
 second_title: Aspose.Words para .NET
-description: DocumentPartSavingArgs DocumentPartStream propiedad. Permite especificar la secuencia donde se guardará la parte del documento en C#.
+description: Descubra cómo la propiedad DocumentPartStream en DocumentPartSavingArgs le permite especificar fácilmente dónde guardar las partes de su documento para una administración perfecta.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/documentpartsavingargs/documentpartstream/
@@ -22,9 +22,9 @@ Esta propiedad le permite guardar partes del documento en secuencias en lugar de
 
 El valor predeterminado es`nulo` . Cuando esta propiedad es`nulo` , la parte del documento se guardará en un archivo especificado en el[`DocumentPartFileName`](../documentpartfilename/) propiedad.
 
-Cuando se solicita guardar en una secuencia en formato HTML[`Save`](../../../aspose.words/document/save/) o[`Save`](../../../aspose.words/document/save/) y la primera parte del documento está a punto de guardarse, Aspose.Words sugiere aquí el flujo de salida principal pasado inicialmente por la persona que llama.
+Cuando se solicita guardar en una secuencia en formato HTML[`Save`](../../../aspose.words/document/save/) o[`Save`](../../../aspose.words/document/save/) y la primera parte del documento está a punto de ser guardada, Aspose.Words sugiere aquí el flujo de salida principal pasado inicialmente por el llamador.
 
-Al guardar en formato EPUB, que es un formato contenedor basado en HTML,`DocumentPartStream` No se puede especificar porque todas las partes subsidiarias se encapsularán en un único paquete de salida.
+Al guardar en formato EPUB, que es un formato contenedor basado en HTML,`DocumentPartStream` No se puede especificar porque todas las partes subsidiarias se encapsularán en un solo paquete de salida.
 
 ## Ejemplos
 
@@ -37,20 +37,20 @@ public void DocumentPartsFileNames()
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
     // Crea un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
-    // para modificar cómo convertimos el documento a HTML.
+    // para modificar la forma en que convertimos el documento a HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // Si guardamos el documento normalmente, habrá un HTML de salida
     // documento con todo el contenido del documento fuente.
-    // Establece la propiedad "DocumentSplitCriteria" en "DocumentSplitCriteria.SectionBreak" para
-    // guarda nuestro documento en varios archivos HTML: uno para cada sección.
+    // Establezca la propiedad "DocumentSplitCriteria" en "DocumentSplitCriteria.SectionBreak" en
+    // guardamos nuestro documento en múltiples archivos HTML: uno para cada sección.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Asigne una devolución de llamada personalizada a la propiedad "DocumentPartSavingCallback" para modificar la lógica de guardado de partes del documento.
+    // Asigne una devolución de llamada personalizada a la propiedad "DocumentPartSavingCallback" para alterar la lógica de guardado de partes del documento.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Si convertimos un documento que contiene imágenes a html, terminaremos con un archivo html que enlaza con varias imágenes.
-    // Cada imagen tendrá la forma de un archivo en el sistema de archivos local.
+    // Si convertimos un documento que contiene imágenes a html, terminaremos con un archivo html que enlaza a varias imágenes.
+    //Cada imagen tendrá la forma de un archivo en el sistema de archivos local.
     // También hay una devolución de llamada que puede personalizar el nombre y la ubicación del sistema de archivos de cada imagen.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
@@ -70,7 +70,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Podemos acceder al documento fuente completo a través de la propiedad "Documento".
+        //Podemos acceder al documento fuente completo a través de la propiedad "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -93,11 +93,11 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // A continuación se muestran dos formas de especificar dónde Aspose.Words guardará cada parte del documento.
-        // 1 - Establece un nombre de archivo para el archivo de pieza de salida:
+        A continuación se muestran dos formas de especificar dónde Aspose.Words guardará cada parte del documento.
+        // 1 - Establezca un nombre de archivo para el archivo de la parte de salida:
         args.DocumentPartFileName = partFileName;
 
-        // 2 - Crea una secuencia personalizada para el archivo de pieza de salida:
+        // 2 - Crea una secuencia personalizada para el archivo de la parte de salida:
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
         Assert.True(args.DocumentPartStream.CanWrite);
@@ -110,7 +110,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 }
 
 /// <summary>
-/// Establece nombres de archivos personalizados para los archivos de imagen que crea una conversión HTML.
+/// Establece nombres de archivo personalizados para los archivos de imagen que crea una conversión HTML.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {
@@ -123,8 +123,8 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // A continuación se muestran dos formas de especificar dónde Aspose.Words guardará cada parte del documento.
-        // 1 - Establece un nombre de archivo para el archivo de imagen de salida:
+        A continuación se muestran dos formas de especificar dónde Aspose.Words guardará cada parte del documento.
+        // 1 - Establezca un nombre de archivo para el archivo de imagen de salida:
         args.ImageFileName = imageFileName;
 
         // 2 - Crea una secuencia personalizada para el archivo de imagen de salida:

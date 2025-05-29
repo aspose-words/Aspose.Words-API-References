@@ -3,14 +3,14 @@ title: Field.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words para .NET
-description: Field Separator propiedad. Obtiene el nodo que representa el separador de campos. Puede sernulo  en C#.
+description: Descubra la propiedad Separador de Campo para acceder fácilmente al nodo que lo representa, optimizando así la gestión de datos. ¡Más información!
 type: docs
 weight: 80
 url: /es/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-Obtiene el nodo que representa el separador de campos. Puede ser`nulo` .
+Obtiene el nodo que representa el separador de campo. Puede ser`nulo` .
 
 ```csharp
 public FieldSeparator Separator { get; }
@@ -38,7 +38,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterar sobre la colección de campos e imprimir contenidos y escribir
+    // Iterar sobre la colección de campos e imprimir el contenido y el tipo
     // de cada campo utilizando una implementación de visitante personalizada.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implementación del visitante del documento que imprime la información del campo.
+/// Implementación del documento de visitante que imprime información del campo.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

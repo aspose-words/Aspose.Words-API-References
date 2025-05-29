@@ -3,7 +3,7 @@ title: CustomPartCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: CustomPartCollection Count propiedad. Obtiene el número de elementos contenidos en la colección en C#.
+description: Descubra la propiedad Count de CustomPartCollection para recuperar fácilmente el número total de elementos de su colección para una gestión de datos eficiente.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/custompartcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

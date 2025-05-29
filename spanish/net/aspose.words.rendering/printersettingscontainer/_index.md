@@ -3,16 +3,16 @@ title: PrinterSettingsContainer Class
 linktitle: PrinterSettingsContainer
 articleTitle: PrinterSettingsContainer
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Rendering.PrinterSettingsContainer clase. Representa un almacenamiento para algunos parámetros dePrinterSettings objeto en C#.
+description: Explore la clase Aspose.Words.Rendering.PrinterSettingsContainer para una gestión eficiente de los parámetros PrinterSettings, mejorando su experiencia de renderizado de documentos.
 type: docs
-weight: 4580
+weight: 5310
 url: /es/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
 Representa un almacenamiento para algunos parámetros dePrinterSettings objeto.
 
-Para obtener más información, visite el[Imprimir un documento mediante programación o mediante cuadros de diálogo](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) artículo de documentación.
+Para obtener más información, visite el[Imprimir un documento mediante programación o mediante cuadros de diálogo](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) Artículo de documentación.
 
 ```csharp
 public class PrinterSettingsContainer
@@ -34,11 +34,11 @@ public class PrinterSettingsContainer
 
 ## Observaciones
 
-Acceso a datos dePrinterSettings lleva mucho tiempo. `PrinterSettingsContainer` almacena en caché los parámetros dePrinterSettings , para que la impresión funcione más rápido.
+Acceso a datos dePrinterSettings toma mucho tiempo. `PrinterSettingsContainer` almacena en caché los parámetros dePrinterSettings , para que la impresión funcione más rápido.
 
 ## Ejemplos
 
-Muestra cómo acceder y enumerar los orígenes y tamaños del papel de su impresora.
+Muestra cómo acceder y enumerar las fuentes y tamaños de papel de su impresora.
 
 ```csharp
 // El "PrinterSettingsContainer" contiene un objeto "PrinterSettings",
@@ -53,12 +53,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// La propiedad "PaperSizes" contiene la lista de tamaños de papel que se deben indicar a la impresora.
+// La propiedad "PaperSizes" contiene la lista de tamaños de papel que se deben indicar a la impresora que utilice.
 // Tanto PrinterSource como PrinterSize contienen una propiedad "RawKind",
-// que equivale a un tipo de papel que figura en la enumeración PaperSourceKind.
+// lo que equivale a un tipo de papel listado en la enumeración PaperSourceKind.
 // Si hay una fuente de papel con el mismo valor "RawKind" que el de la página de impresión,
-// la impresora imprimirá la página utilizando la fuente y el tamaño del papel proporcionados.
-// De lo contrario, la impresora utilizará de forma predeterminada la fuente designada por la propiedad "DefaultPageSettingsPaperSource".
+//la impresora imprimirá la página utilizando la fuente y el tamaño de papel proporcionados.
+// De lo contrario, la impresora utilizará de manera predeterminada la fuente designada por la propiedad "DefaultPageSettingsPaperSource".
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

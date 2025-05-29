@@ -3,14 +3,14 @@ title: IFieldUserPromptRespondent.Respond
 linktitle: Respond
 articleTitle: Respond
 second_title: Aspose.Words para .NET
-description: IFieldUserPromptRespondent Respond método. Cuando se implementa devuelve una respuesta del usuario cuando se le solicita. Su implementación debería devolvernulo para indicar que el usuario no ha respondido al mensaje es decir el usuario ha presionado el botón Cancelar en la ventana del mensaje en C#.
+description: Descubre el método IFieldUserPromptRespondent Respond para capturar las respuestas de los usuarios eficazmente. ¡Aprende a gestionar las cancelaciones sin problemas!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-Cuando se implementa, devuelve una respuesta del usuario cuando se le solicita. Su implementación debería devolver`nulo` para indicar que el usuario no ha respondido al mensaje (es decir, el usuario ha presionado el botón Cancelar en la ventana del mensaje).
+Cuando se implementa, devuelve una respuesta del usuario al solicitarlo. Su implementación debería devolver`nulo` para indicar que el usuario no ha respondido al mensaje (es decir, el usuario ha presionado el botón Cancelar en la ventana del mensaje).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -18,7 +18,7 @@ public string Respond(string promptText, string defaultResponse)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| promptText | String | Texto de aviso (es decir, título de la ventana de aviso). |
+| promptText | String | Texto de solicitud (es decir, título de la ventana de solicitud). |
 | defaultResponse | String | Respuesta del usuario predeterminada (es decir, valor inicial contenido en la ventana de solicitud). |
 
 ### Valor_devuelto
@@ -27,7 +27,7 @@ Respuesta del usuario (es decir, valor confirmado contenido en la ventana de sol
 
 ## Ejemplos
 
-Muestra cómo crear un campo ASK y establecer sus propiedades.
+Muestra cómo crear un campo ASK y configurar sus propiedades.
 
 ```csharp
 public void FieldAsk()
@@ -35,14 +35,14 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Colocar un campo donde se colocará la respuesta a nuestro campo ASK.
+    //Coloca un campo donde se colocará la respuesta a nuestro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Inserte el campo ASK y edite sus propiedades para hacer referencia a nuestro campo REF por el nombre del marcador.
+    // Inserte el campo ASK y edite sus propiedades para hacer referencia a nuestro campo REF por nombre de marcador.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -54,7 +54,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // Los campos PREGUNTAR aplican la respuesta predeterminada a sus respectivos campos REF durante una combinación de correspondencia.
+    // Los campos ASK aplican la respuesta predeterminada a sus respectivos campos REF durante una combinación de correspondencia.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -63,7 +63,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Podemos modificar o anular la respuesta predeterminada en nuestros campos PREGUNTAR con un respondedor personalizado,
+    // Podemos modificar o anular la respuesta predeterminada en nuestros campos ASK con un respondedor de solicitud personalizado,
     // que ocurrirá durante una combinación de correspondencia.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -73,7 +73,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Antepone texto a la respuesta predeterminada de un campo PREGUNTAR durante una combinación de correspondencia.
+/// Agrega texto al comienzo de la respuesta predeterminada de un campo ASK durante una combinación de correspondencia.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

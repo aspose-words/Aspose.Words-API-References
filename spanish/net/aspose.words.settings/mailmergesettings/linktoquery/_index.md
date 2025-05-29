@@ -3,14 +3,14 @@ title: MailMergeSettings.LinkToQuery
 linktitle: LinkToQuery
 articleTitle: LinkToQuery
 second_title: Aspose.Words para .NET
-description: MailMergeSettings LinkToQuery propiedad. No estoy seguro acerca de este. La referencia de automatización de Microsoft Word sugiere que esto especifica que la consulta se ejecuta cada vez que se abre el documento en Microsoft Word. Pero la especificación OOXML sugiere que esto especifica que la consulta contiene una referencia a un archivo de consulta externo que contiene la consulta real. El valor predeterminado esFALSO  en C#.
+description: Descubra la propiedad LinkToQuery de MailMergeSettings, aprenda cómo controla la ejecución de consultas en documentos de Word y su configuración predeterminada para un rendimiento óptimo.
 type: docs
 weight: 110
 url: /es/net/aspose.words.settings/mailmergesettings/linktoquery/
 ---
 ## MailMergeSettings.LinkToQuery property
 
-No estoy seguro acerca de este. La referencia de automatización de Microsoft Word sugiere que esto especifica que la consulta se ejecuta cada vez que se abre el documento en Microsoft Word. Pero la especificación OOXML sugiere que esto especifica que la consulta contiene una referencia a un archivo de consulta externo que contiene la consulta real. El valor predeterminado es`FALSO` .
+No estoy seguro de esto. La Referencia de Automatización de Microsoft Word sugiere que esto especifica que la consulta se ejecuta cada vez que se abre el documento en Microsoft Word. Sin embargo, la especificación OOXML sugiere que esto especifica que la consulta contiene una referencia a un archivo de consulta externo que contiene la consulta real. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool LinkToQuery { get; set; }
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

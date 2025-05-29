@@ -3,7 +3,7 @@ title: LoadOptions.ProgressCallback
 linktitle: ProgressCallback
 articleTitle: ProgressCallback
 second_title: Aspose.Words para .NET
-description: LoadOptions ProgressCallback propiedad. Se llama durante la carga de un documento y acepta datos sobre el progreso de la carga en C#.
+description: Descubre la propiedad LoadOptions ProgressCallback para monitorizar eficientemente el progreso de carga de documentos. ¡Mejora el rendimiento y la experiencia de usuario de tu app!
 type: docs
 weight: 130
 url: /es/net/aspose.words.loading/loadoptions/progresscallback/
@@ -18,7 +18,7 @@ public IDocumentLoadingCallback ProgressCallback { get; set; }
 
 ## Observaciones
 
-Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott formatos soportados.
+Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott Formatos admitidos.
 
 ## Ejemplos
 
@@ -39,17 +39,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Manejar el problema de duración de la carga.
+        // Manejar el problema de duración de carga.
     }
 }
 
 /// <summary>
-/// Cancelar la carga de un documento después de los segundos de "MaxDuration".
+/// Cancelar la carga de un documento después de los segundos "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Centro.
+    /// Ctr.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -57,7 +57,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Método de devolución de llamada que llamó durante la carga del documento.
+    /// Método de devolución de llamada que se llamó durante la carga del documento.
     /// </summary>
     /// <param name="args">Cargando argumentos.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -70,12 +70,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Fecha y hora en que se inicia la carga del documento.
+    /// Fecha y hora en que se inició la carga del documento.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Duración máxima permitida en seg.
+    /// Duración máxima permitida en segundos.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

@@ -3,16 +3,16 @@ title: VbaReference Class
 linktitle: VbaReference
 articleTitle: VbaReference
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Vba.VbaReference clase. Implementa una referencia a una biblioteca de tipo de automatización o proyecto VBA en C#.
+description: Descubra la clase Aspose.Words.Vba.VbaReference para una integración perfecta con bibliotecas de tipos de automatización y proyectos VBA. ¡Mejore la automatización de sus documentos hoy mismo!
 type: docs
-weight: 6590
+weight: 7440
 url: /es/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
-Implementa una referencia a una biblioteca de tipo de automatización o proyecto VBA.
+Implementa una referencia a una biblioteca de tipos de automatización o un proyecto VBA.
 
-Para obtener más información, visite el[Trabajar con macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con macros de VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) Artículo de documentación.
 
 ```csharp
 public abstract class VbaReference
@@ -22,8 +22,8 @@ public abstract class VbaReference
 
 | Nombre | Descripción |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Obtiene un valor de cadena que contiene el identificador de una biblioteca de tipo de automatización. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Obtiene[`VbaReferenceType`](../vbareferencetype/) objeto que indica el tipo de referencia que un`VbaReference` el objeto representa. |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Obtiene un valor de cadena que contiene el identificador de una biblioteca de tipo Automation. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Obtiene[`VbaReferenceType`](../vbareferencetype/) objeto que indica el tipo de referencia que un`VbaReference` objeto representa. |
 
 ## Ejemplos
 
@@ -73,7 +73,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo de automatización.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -88,7 +88,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo de automatización.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

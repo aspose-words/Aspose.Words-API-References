@@ -3,7 +3,7 @@ title: OdsoRecipientData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words para .NET
-description: OdsoRecipientData Column propiedad. Especifica la columna dentro de la fuente de datos que contiene datos únicos para el registro actual. El valor predeterminado es 0 en C#.
+description: Descubra la propiedad de columna OdsoRecipientData, que permite identificar fácilmente columnas de datos únicas para los registros y optimizar la gestión de datos. El valor predeterminado es 0.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/odsorecipientdata/column/
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// Podemos clonar los elementos de esta colección.
+//Podemos clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// También podemos eliminar elementos individualmente o borrar toda la colección a la vez.
+// También podemos eliminar elementos individualmente o borrar toda la colección de una vez.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

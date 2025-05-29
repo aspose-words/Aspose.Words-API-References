@@ -3,14 +3,14 @@ title: Shape.Filled
 linktitle: Filled
 articleTitle: Filled
 second_title: Aspose.Words para .NET
-description: Shape Filled propiedad. Determina si se rellenará el camino cerrado de la forma en C#.
+description: Controle la estética de las formas con la propiedad Forma rellena, decidiendo si sus trazados cerrados se rellenan para lograr una mayor flexibilidad de diseño y atractivo visual.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
 
-Determina si se rellenará el camino cerrado de la forma.
+Determina si se rellenará la ruta cerrada de la forma.
 
 ```csharp
 public bool Filled { get; set; }
@@ -18,7 +18,7 @@ public bool Filled { get; set; }
 
 ## Observaciones
 
-Este es un atajo hacia el[`Visible`](../../fill/visible/) propiedad.
+Este es un acceso directo a la[`Visible`](../../fill/visible/) propiedad.
 
 El valor predeterminado es`verdadero`.
 
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

@@ -3,14 +3,14 @@ title: ITextShaperFactory Interface
 linktitle: ITextShaperFactory
 articleTitle: ITextShaperFactory
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Shaping.ITextShaperFactory interfaz. Una interfaz de una fábrica para construir.ITextShaper implementaciones en C#.
+description: Descubra la interfaz Aspose.Words.ITextShaperFactory para crear implementaciones personalizadas de ITextShaper y mejorar la forma del texto en sus aplicaciones.
 type: docs
-weight: 6060
+weight: 6890
 url: /es/net/aspose.words.shaping/itextshaperfactory/
 ---
 ## ITextShaperFactory interface
 
-Una interfaz de una fábrica para construir.[`ITextShaper`](../itextshaper/) implementaciones.
+Una interfaz de una fábrica para construir[`ITextShaper`](../itextshaper/) implementaciones.
 
 ```csharp
 public interface ITextShaperFactory

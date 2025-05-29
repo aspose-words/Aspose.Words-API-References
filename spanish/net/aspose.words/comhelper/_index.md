@@ -3,9 +3,9 @@ title: ComHelper Class
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: Aspose.Words para .NET
-description: Aspose.Words.ComHelper clase. Proporciona métodos para que los clientes COM carguen un documento en Aspose.Words en C#.
+description: Integración fluida de documentos con Aspose.Words.ComHelper. Carga y gestiona documentos fácilmente para clientes COM con potentes funciones.
 type: docs
-weight: 220
+weight: 410
 url: /es/net/aspose.words/comhelper/
 ---
 ## ComHelper class
@@ -26,15 +26,15 @@ public class ComHelper
 
 | Nombre | Descripción |
 | --- | --- |
-| [Open](../../aspose.words/comhelper/open/#open)(*Stream*) | Permite cargar una aplicación COM[`Document`](../document/) de una secuencia. |
-| [Open](../../aspose.words/comhelper/open/#open_1)(*string*) | Permite que una aplicación COM cargue un[`Document`](../document/) desde un archivo. |
-| [OpenIStream](../../aspose.words/comhelper/openistream/)(*IStream*) | Permite que una aplicación COM cargue un[`Document`](../document/) desde un objeto IStream. |
+| [Open](../../aspose.words/comhelper/open/#open)(*Stream*) | Permite que se cargue una aplicación COM[`Document`](../document/) de un arroyo. |
+| [Open](../../aspose.words/comhelper/open/#open_1)(*string*) | Permite que una aplicación COM cargue un[`Document`](../document/) de un archivo. |
+| [OpenIStream](../../aspose.words/comhelper/openistream/)(*IStream*) | Permite que una aplicación COM cargue un[`Document`](../document/) de un objeto IStream. |
 
 ## Observaciones
 
-Utilizar el`ComHelper` clase para cargar un documento desde un archivo o secuencia en un [`Document`](../document/) objeto en una aplicación COM.
+Utilice el`ComHelper` clase para cargar un documento desde un archivo o secuencia a un [`Document`](../document/) objeto en una aplicación COM.
 
-El[`Document`](../document/) La clase proporciona un constructor predeterminado para crear un nuevo documento y también proporciona constructores sobrecargados para cargar un documento desde un archivo o secuencia. Si está utilizando Aspose.Words desde una aplicación .NET, puede utilizar todos los[`Document`](../document/) constructores directamente, pero si está utilizando Aspose.Words desde una aplicación COM, solo el valor predeterminado[`Document`](../document/) constructor está disponible.
+El[`Document`](../document/) La clase proporciona un constructor predeterminado para crear un nuevo documento y también proporciona constructores sobrecargados para cargar un documento desde un archivo o secuencia. Si está usando Aspose.Words desde una aplicación .NET, puede usar todos los[`Document`](../document/) constructores directamente, pero si está usando Aspose.Words desde una aplicación COM, solo el valor predeterminado[`Document`](../document/) El constructor está disponible.
 
 ## Ejemplos
 
@@ -48,10 +48,10 @@ Dim doc
 Set doc = helper.Open(fileName)
 ```
 
-Muestra cómo abrir documentos usando la clase ComHelper.
+Muestra cómo abrir documentos utilizando la clase ComHelper.
 
 ```csharp
-// La clase ComHelper nos permite cargar documentos desde clientes COM.
+//La clase ComHelper nos permite cargar documentos desde dentro de los clientes COM.
 ComHelper comHelper = new ComHelper();
 
 // 1 - Usando un nombre de archivo del sistema local:
@@ -59,7 +59,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - Desde una secuencia:
+// 2 - Desde un stream:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

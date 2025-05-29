@@ -3,14 +3,14 @@ title: FontSourceBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words para .NET
-description: FontSourceBase WarningCallback propiedad. Se llama durante el procesamiento del origen de la fuente cuando se detecta un problema que podría provocar una pérdida de fidelidad del formato en C#.
+description: Descubra la propiedad FontSourceBase WarningCallback, esencial para garantizar la fidelidad del formato al detectar problemas durante el procesamiento de la fuente.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-Se llama durante el procesamiento del origen de la fuente cuando se detecta un problema que podría provocar una pérdida de fidelidad del formato.
+Se llama durante el procesamiento de la fuente de origen cuando se detecta un problema que podría provocar la pérdida de fidelidad del formato.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,7 +18,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Ejemplos
 
-Muestra cómo llamar a una devolución de llamada de advertencia cuando se trabaja con las fuentes de fuentes.
+Muestra cómo llamar a la devolución de llamada de advertencia cuando se trabaja con fuentes.
 
 ```csharp
 public void FontSourceWarning()
@@ -30,7 +30,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Obtenga la lista de fuentes para llamar a la devolución de llamada de advertencia.
+    // Obtenga la lista de fuentes para llamar a la devolución de advertencia.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -40,7 +40,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Se llama cada vez que ocurre una advertencia durante el procesamiento de la fuente de fuente.
+    /// Se llama cada vez que ocurre una advertencia durante el procesamiento de la fuente.
     /// </summary>
     public void Warning(WarningInfo info)
     {

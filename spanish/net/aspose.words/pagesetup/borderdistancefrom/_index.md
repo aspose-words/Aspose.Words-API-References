@@ -3,14 +3,14 @@ title: PageSetup.BorderDistanceFrom
 linktitle: BorderDistanceFrom
 articleTitle: BorderDistanceFrom
 second_title: Aspose.Words para .NET
-description: PageSetup BorderDistanceFrom propiedad. Obtiene o establece un valor que indica si el borde de la página especificada se mide desde el borde de la página o desde el texto que rodea en C#.
+description: Descubre la propiedad PageSetup BorderDistanceFrom para controlar las medidas de los bordes de página y lograr un formato preciso del documento. ¡Mejora tu diseño hoy mismo!
 type: docs
 weight: 40
 url: /es/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-Obtiene o establece un valor que indica si el borde de la página especificada se mide desde el borde de la página o desde el texto que rodea.
+Obtiene o establece un valor que indica si el borde de página especificado se mide desde el borde de la página o desde el texto que rodea.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }

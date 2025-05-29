@@ -3,14 +3,14 @@ title: Shape.Stroked
 linktitle: Stroked
 articleTitle: Stroked
 second_title: Aspose.Words para .NET
-description: Shape Stroked propiedad. Define si se trazará el camino en C#.
+description: ¡Descubre la propiedad Forma Trazada para mejorar tus diseños! Controla el estilo de los trazados con precisión para lograr efectos visuales impresionantes. ¡Potencia tu creatividad!
 type: docs
-weight: 200
+weight: 210
 url: /es/net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
 
-Define si se trazará el camino.
+Define si se trazará un trazo.
 
 ```csharp
 public bool Stroked { get; set; }
@@ -18,7 +18,7 @@ public bool Stroked { get; set; }
 
 ## Observaciones
 
-Este es un atajo hacia el[`On`](../../stroke/on/) propiedad.
+Este es un acceso directo a la[`On`](../../stroke/on/) propiedad.
 
 El valor predeterminado es`verdadero`.
 
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

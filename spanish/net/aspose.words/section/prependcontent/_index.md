@@ -3,14 +3,14 @@ title: Section.PrependContent
 linktitle: PrependContent
 articleTitle: PrependContent
 second_title: Aspose.Words para .NET
-description: Section PrependContent método. Inserta una copia del contenido de la sección fuente al principio de esta sección en C#.
+description: Mejore su contenido con el método Section PrependContent, insertando sin esfuerzo el texto de la sección fuente al comienzo para mejorar la organización y la claridad.
 type: docs
-weight: 140
+weight: 160
 url: /es/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
 
-Inserta una copia del contenido de la sección fuente al principio de esta sección.
+Inserta una copia del contenido de la sección fuente al comienzo de esta sección.
 
 ```csharp
 public void PrependContent(Section sourceSection)
@@ -18,15 +18,15 @@ public void PrependContent(Section sourceSection)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| sourceSection | Section | La sección desde la que copiar el contenido. |
+| sourceSection | Section | La sección desde donde copiar contenido. |
 
 ## Observaciones
 
-Sólo contenido de[`Body`](../body/) de la sección de origen se copia, la configuración de página, los encabezados y pies de página no se copian.
+Solo contenido de[`Body`](../body/) de la sección de origen se copia, la configuración de página, los encabezados y pies de página no se copian.
 
-Los nodos se importan automáticamente si la sección fuente pertenece a un documento diferente.
+Los nodos se importan automáticamente si la sección de origen pertenece a un documento diferente.
 
-No se crea ninguna sección nueva en el documento de destino.
+No se crea ninguna nueva sección en el documento de destino.
 
 ## Ejemplos
 
@@ -50,7 +50,7 @@ Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
-// Inserta el contenido de la segunda sección al final de la tercera sección.
+// Insertar el contenido de la segunda sección hasta el final de la tercera sección.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 

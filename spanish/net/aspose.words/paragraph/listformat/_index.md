@@ -3,7 +3,7 @@ title: Paragraph.ListFormat
 linktitle: ListFormat
 articleTitle: ListFormat
 second_title: Aspose.Words para .NET
-description: Paragraph ListFormat propiedad. Proporciona acceso a las propiedades de formato de lista del párrafo en C#.
+description: Descubra la propiedad Paragraph ListFormat para acceder y personalizar fácilmente el formato de lista de sus párrafos, mejorando la presentación de su documento.
 type: docs
 weight: 150
 url: /es/net/aspose.words/paragraph/listformat/
@@ -38,7 +38,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

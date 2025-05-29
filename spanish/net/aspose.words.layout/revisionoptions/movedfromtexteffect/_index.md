@@ -3,9 +3,9 @@ title: RevisionOptions.MovedFromTextEffect
 linktitle: MovedFromTextEffect
 articleTitle: MovedFromTextEffect
 second_title: Aspose.Words para .NET
-description: RevisionOptions MovedFromTextEffect propiedad. Permite especificar el efecto que se aplicará a las áreas desde donde se movió el contenidoMoving . El valor predeterminado esDoubleStrikeThrough en C#.
+description: Explora la propiedad MovedFromTextEffect de RevisionOptions para personalizar la visibilidad del movimiento del contenido con efectos como DoubleStrikeThrough. ¡Mejora la claridad de tus documentos!
 type: docs
-weight: 80
+weight: 100
 url: /es/net/aspose.words.layout/revisionoptions/movedfromtexteffect/
 ---
 ## RevisionOptions.MovedFromTextEffect property
@@ -23,25 +23,25 @@ Muestra cómo modificar la apariencia de las revisiones.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Obtiene el objeto RevisionOptions que controla la apariencia de las revisiones.
+// Obtenga el objeto RevisionOptions que controla la apariencia de las revisiones.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Representar revisiones de inserción en verde y cursiva.
+// Representar las revisiones de inserción en verde y cursiva.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Representar las revisiones eliminadas en rojo y negrita.
+// Representar las revisiones de eliminación en rojo y negrita.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// El mismo texto aparecerá dos veces en una revisión de movimiento:
-// una vez en el punto de partida y otra en el destino de llegada.
-// Representa el texto en la revisión de origen en amarillo con un doble tachado
-// y azul con doble subrayado en la revisión a la que se trasladó.
+//El mismo texto aparecerá dos veces en una revisión de movimiento:
+// una vez en el punto de partida y otra vez en el destino de llegada.
+// Representar el texto en la revisión movida en amarillo con un doble tachado
+// y doble subrayado azul en la revisión trasladada.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
 // Representar las revisiones de formato en rojo oscuro y negrita.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
@@ -55,7 +55,7 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Obtener movimientos, eliminaciones, revisiones de formato y comentarios para que aparezcan en globos verdes
+// Haga que el movimiento, la eliminación, las revisiones de formato y los comentarios aparezcan en globos verdes
 // en el lado derecho de la página.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;

@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart Id propiedad. Especifica una identificación numérica persistente única de solo lectura para esta etiqueta de documento estructurado en C#.
+description: Descubra la propiedad StructuredDocumentTagRangeStart Id: su clave para un identificador numérico único y de solo lectura para un etiquetado de documentos eficiente.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/id/
 ---
 ## StructuredDocumentTagRangeStart.Id property
 
-Especifica una identificación numérica persistente única de solo lectura para esta etiqueta de documento estructurado.
+Especifica un identificador numérico persistente único de solo lectura para esta etiqueta de documento estructurado.
 
 ```csharp
 public int Id { get; }
@@ -18,17 +18,17 @@ public int Id { get; }
 
 ## Observaciones
 
-El atributo de identificación deberá seguir estas reglas:
+El atributo Id debe seguir estas reglas:
 
-* El documento conservará los identificadores de etiqueta de documento estructurados solo si se clona todo el documento [`Clone`](../../../aspose.words/document/clone/).
-* Durante[`ImportNode`](../../../aspose.words/documentbase/importnode/) El ID se conservará si la importación no causa conflictos con otros ID de etiquetas de documentos estructurados en el documento de destino.
-* Si varios nodos de etiquetas de documentos estructurados especifican el mismo valor de número decimal para el atributo Id, , entonces la primera etiqueta de documento estructurado del documento mantendrá este Id. original, y todos los nodos de etiquetas de documentos estructurados posteriores tendrán nuevos identificadores asignados cuando el documento está cargado.
-* Durante la etiqueta de documento estructurado independienteINodeCloningListener)operación se generará una nueva ID única para el nodo de etiqueta de documento estructurado clonado.
-* Si no se especifica Id en el documento fuente, entonces el nodo de etiqueta del documento estructurado tendrá un nuevo identificador único asignado cuando se cargue el documento.
+* El documento conservará los identificadores de etiquetas de documento estructurado solo si se clona todo el documento [`Clone`](../../../aspose.words/document/clone/).
+* Durante[`ImportNode`](../../../aspose.words/documentbase/importnode/) El identificador se conservará si la importación no genera conflictos con otros identificadores de etiquetas de documentos estructurados en el documento de destino.
+* Si varios nodos de etiqueta de documento estructurado especifican el mismo valor de número decimal para el atributo Id, entonces la primera etiqueta de documento estructurado en el documento mantendrá este Id original, y todos los nodos de etiqueta de documento estructurado posteriores tendrán nuevos identificadores asignados cuando se cargue el documento.
+* Durante la etiqueta de documento estructurado independienteINodeCloningListener) Se generará una nueva ID única para la operación para el nodo de etiqueta del documento estructurado clonado.
+* Si no se especifica Id en el documento de origen, entonces se le asignará un nuevo identificador único al nodo de etiqueta del documento estructurado cuando se cargue el documento.
 
 ## Ejemplos
 
-Muestra cómo obtener las propiedades de etiquetas de documentos estructurados de varias secciones.
+Muestra cómo obtener las propiedades de las etiquetas de documentos estructurados de varias secciones.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

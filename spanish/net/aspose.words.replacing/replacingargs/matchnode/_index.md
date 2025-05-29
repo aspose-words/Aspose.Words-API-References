@@ -3,14 +3,14 @@ title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
 second_title: Aspose.Words para .NET
-description: ReplacingArgs MatchNode propiedad. Obtiene el nodo que contiene el inicio de la coincidencia en C#.
+description: Descubra la propiedad ReplacingArgs MatchNode para acceder fácilmente al nodo donde comienza su coincidencia, mejorando su eficiencia y precisión de codificación.
 type: docs
 weight: 40
 url: /es/net/aspose.words.replacing/replacingargs/matchnode/
 ---
 ## ReplacingArgs.MatchNode property
 
-Obtiene el nodo que contiene el inicio de la coincidencia.
+Obtiene el nodo que contiene el comienzo de la coincidencia.
 
 ```csharp
 public Node MatchNode { get; }
@@ -18,14 +18,14 @@ public Node MatchNode { get; }
 
 ## Ejemplos
 
-Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
+Muestra cómo insertar el contenido de un documento completo como reemplazo de una coincidencia en una operación de búsqueda y reemplazo.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -40,11 +40,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Inserta un documento después del párrafo que contiene el texto coincidente.
+        // Insertar un documento después del párrafo que contiene el texto coincidente.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Elimina el párrafo con el texto coincidente.
+        //Elimina el párrafo con el texto coincidente.
         para.Remove();
 
         return ReplaceAction.Skip;

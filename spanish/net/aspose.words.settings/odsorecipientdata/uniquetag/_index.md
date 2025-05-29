@@ -3,7 +3,7 @@ title: OdsoRecipientData.UniqueTag
 linktitle: UniqueTag
 articleTitle: UniqueTag
 second_title: Aspose.Words para .NET
-description: OdsoRecipientData UniqueTag propiedad. Especifica el contenido de un registro determinado en la columna que contiene datos únicos. El valor predeterminado esnulo  en C#.
+description: Descubra la propiedad UniqueTag de OdsoRecipientData, que define el contenido único de los registros. Optimice la gestión de sus datos con esta función esencial.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// Podemos clonar los elementos de esta colección.
+//Podemos clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// También podemos eliminar elementos individualmente o borrar toda la colección a la vez.
+// También podemos eliminar elementos individualmente o borrar toda la colección de una vez.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

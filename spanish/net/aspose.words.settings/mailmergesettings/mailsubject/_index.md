@@ -3,14 +3,14 @@ title: MailMergeSettings.MailSubject
 linktitle: MailSubject
 articleTitle: MailSubject
 second_title: Aspose.Words para .NET
-description: MailMergeSettings MailSubject propiedad. Especifica el texto que aparecerá en la línea de asunto de los correos electrónicos o faxes generados durante la combinación de correspondencia. El valor predeterminado es una cadena vacía en C#.
+description: Personalice su MailMerge con la propiedad MailSubject para crear líneas de asunto atractivas para correos electrónicos o faxes. Mejore la comunicación con contenido personalizado.
 type: docs
 weight: 130
 url: /es/net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
 ## MailMergeSettings.MailSubject property
 
-Especifica el texto que aparecerá en la línea de asunto de los correos electrónicos o faxes generados durante la combinación de correspondencia. El valor predeterminado es una cadena vacía.
+Especifica el texto que debe aparecer en la línea de asunto de los correos electrónicos o faxes producidos durante la combinación de correspondencia. El valor predeterminado es una cadena vacía.
 
 ```csharp
 public string MailSubject { get; set; }
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Podemos restablecer estas configuraciones borrándolas. Una vez que hagamos eso y guardemos el documento,
-// Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
+Podemos restablecer esta configuración borrándola. Una vez hecho esto y guardado el documento,
+//Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

@@ -3,9 +3,9 @@ title: Document.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words para .NET
-description: Document RenderToScale método. Representa una página de documento en unGraphics objeto a una escala especificada en C#.
+description: Descubra el método RenderToScale para renderizar de manera eficiente páginas de documentos en objetos gráficos en la escala deseada para obtener resultados visuales óptimos.
 type: docs
-weight: 680
+weight: 730
 url: /es/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
@@ -22,11 +22,11 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 | graphics | Graphics | El objeto donde renderizar. |
 | x | Single | La coordenada X (en unidades mundiales) de la esquina superior izquierda de la página renderizada. |
 | y | Single | La coordenada Y (en unidades mundiales) de la esquina superior izquierda de la página renderizada. |
-| scale | Single | La escala para renderizar la página (1,0 es 100%). |
+| scale | Single | La escala para renderizar la página (1.0 es 100%). |
 
 ### Valor_devuelto
 
-El ancho y alto (en unidades mundiales) de la página representada.
+El ancho y la altura (en unidades mundiales) de la página renderizada.
 
 ## Ejemplos
 
@@ -35,9 +35,10 @@ Muestra cómo convertir las páginas individuales de un documento en gráficos p
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Calcula el número de filas y columnas que rellenaremos con miniaturas.
+// Calcula el número de filas y columnas que llenaremos con miniaturas.
 const int thumbColumns = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbColumns, out int remainder);
+int thumbRows = doc.PageCount / thumbColumns;
+int remainder = doc.PageCount % thumbColumns;
 
 if (remainder > 0)
     thumbRows++;
@@ -61,13 +62,14 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbColumns, out int columnIdx);
+            int rowIdx = pageIndex / thumbColumns;
+            int columnIdx = pageIndex % thumbColumns;
 
             // Especifica dónde queremos que aparezca la miniatura.
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 
-            // Representa una página como una miniatura y luego la encuadra en un rectángulo del mismo tamaño.
+            // Representa una página como miniatura y luego enmárcala en un rectángulo del mismo tamaño.
             SizeF size = doc.RenderToScale(pageIndex, gr, thumbLeft, thumbTop, scale);
             gr.DrawRectangle(Pens.Black, thumbLeft, thumbTop, size.Width, size.Height);
         }
@@ -77,14 +79,15 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 }
 ```
 
-Representa páginas individuales en gráficos para crear una imagen con miniaturas de todas las páginas (.NetStandard 2.0).
+Convierte páginas individuales en gráficos para crear una imagen con miniaturas de todas las páginas (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Calcula el número de filas y columnas que rellenaremos con miniaturas.
+// Calcula el número de filas y columnas que llenaremos con miniaturas.
 const int thumbnailColumnsNum = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainder);
+int thumbRows = doc.PageCount / thumbnailColumnsNum;
+int remainder = doc.PageCount % thumbnailColumnsNum;
 
 if (remainder > 0)
     thumbRows++;
@@ -106,7 +109,8 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbnailColumnsNum, out int columnIdx);
+            int rowIdx = pageIndex / thumbnailColumnsNum;
+            int columnIdx = pageIndex % thumbnailColumnsNum;
 
             // Especifica dónde queremos que aparezca la miniatura.
             float thumbLeft = columnIdx * thumbSize.Width;
@@ -114,7 +118,7 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 
             SizeF size = doc.RenderToScale(pageIndex, canvas, thumbLeft, thumbTop, scale);
 
-            // Representa una página como una miniatura y luego la encuadra en un rectángulo del mismo tamaño.
+            // Representa una página como miniatura y luego enmárcala en un rectángulo del mismo tamaño.
             SKRect rect = new SKRect(0, 0, size.Width, size.Height);
             rect.Offset(thumbLeft, thumbTop);
             canvas.DrawRect(rect, new SKPaint

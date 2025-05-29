@@ -3,14 +3,14 @@ title: TextBox.InternalMarginTop
 linktitle: InternalMarginTop
 articleTitle: InternalMarginTop
 second_title: Aspose.Words para .NET
-description: TextBox InternalMarginTop propiedad. Especifica el margen superior interior en puntos para una forma en C#.
+description: Descubra la propiedad TextBox InternalMarginTop: controle el margen superior de su forma en puntos para lograr un diseño preciso y una mayor flexibilidad.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing/textbox/internalmargintop/
 ---
 ## TextBox.InternalMarginTop property
 
-Especifica el margen superior interior en puntos para una forma.
+Especifica el margen superior interno en puntos para una forma.
 
 ```csharp
 public double InternalMarginTop { get; set; }
@@ -28,7 +28,7 @@ Muestra cómo establecer márgenes internos para un cuadro de texto.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta otro cuadro de texto con márgenes específicos.
+// Insertar otro cuadro de texto con márgenes específicos.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

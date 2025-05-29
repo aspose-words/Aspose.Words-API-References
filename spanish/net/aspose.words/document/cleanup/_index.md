@@ -3,14 +3,14 @@ title: Document.Cleanup
 linktitle: Cleanup
 articleTitle: Cleanup
 second_title: Aspose.Words para .NET
-description: Document Cleanup método. Limpia estilos y listas no utilizados del documento en C#.
+description: Optimice sus documentos con nuestro método de Limpieza: elimine estilos y listas no utilizados para un flujo de trabajo más limpio y eficiente. ¡Mejore la legibilidad hoy mismo!
 type: docs
-weight: 540
+weight: 580
 url: /es/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
 
-Limpia estilos y listas no utilizados del documento.
+Limpia los estilos y listas no utilizados del documento.
 
 ```csharp
 public void Cleanup()
@@ -28,12 +28,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// Combinado con los estilos integrados, el documento ahora tiene ocho estilos.
-// Un estilo personalizado cuenta como "usado" mientras se aplica a alguna parte del documento.
-// lo que significa que los cuatro estilos que agregamos no se utilizan actualmente.
+// Combinado con los estilos incorporados, el documento ahora tiene ocho estilos.
+// Un estilo personalizado cuenta como "usado" cuando se aplica a alguna parte del documento,
+// lo que significa que los cuatro estilos que agregamos actualmente no se utilizan.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Aplicar un estilo de carácter personalizado y luego un estilo de lista personalizado. Al hacerlo, los estilos se marcarán como "usados".
+// Aplicar un estilo de carácter personalizado y, a continuación, un estilo de lista personalizado. Al hacerlo, los estilos se marcarán como "usados".
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -47,8 +47,8 @@ doc.Cleanup();
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// Eliminar cada nodo al que se aplica un estilo personalizado lo marca como "no utilizado" nuevamente.
-// Ejecute el método de limpieza nuevamente para eliminarlos.
+// Eliminar cada nodo al que se aplica un estilo personalizado lo marca nuevamente como "no utilizado".
+// Ejecute el método Cleanup nuevamente para eliminarlos.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup();
 
@@ -65,7 +65,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
-Limpia estilos y listas no utilizados del documento según lo dado[`CleanupOptions`](../../cleanupoptions/) .
+Limpia los estilos y listas no utilizados del documento según los datos proporcionados.[`CleanupOptions`](../../cleanupoptions/) .
 
 ```csharp
 public void Cleanup(CleanupOptions options)
@@ -83,12 +83,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// Combinado con los estilos integrados, el documento ahora tiene ocho estilos.
+// Combinado con los estilos incorporados, el documento ahora tiene ocho estilos.
 // Un estilo personalizado se marca como "usado" mientras haya texto dentro del documento
-// formateado en ese estilo. Esto significa que los 4 estilos que agregamos no se utilizan actualmente.
+// Formateado con ese estilo. Esto significa que los cuatro estilos que añadimos no se utilizan actualmente.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Aplicar un estilo de carácter personalizado y luego un estilo de lista personalizado. Al hacerlo, se marcarán como "usados".
+// Aplicar un estilo de carácter personalizado y, a continuación, un estilo de lista personalizado. Al hacerlo, se marcarán como "usados".
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -98,7 +98,7 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// Ahora hay un estilo de carácter no utilizado y un estilo de lista no utilizado.
+// Ahora, hay un estilo de carácter sin uso y un estilo de lista sin uso.
 // El método Cleanup(), cuando se configura con un objeto CleanupOptions, puede apuntar a estilos no utilizados y eliminarlos.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
@@ -109,8 +109,8 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // Eliminar cada nodo al que se aplica un estilo personalizado lo marca como "no utilizado" nuevamente.
-// Vuelva a ejecutar el método de limpieza para eliminarlos.
+ // Eliminar cada nodo al que se aplica un estilo personalizado lo marca nuevamente como "no utilizado".
+// Vuelva a ejecutar el método Cleanup para eliminarlos.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);
 

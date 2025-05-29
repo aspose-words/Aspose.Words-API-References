@@ -3,7 +3,7 @@ title: MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words para .NET
-description: MailMergeSettings constructor. Constructor predeterminado en C#.
+description: Descubra el constructor MailMergeSettings para una automatización fluida de documentos. ¡Desbloquee la eficiencia con nuestro constructor predeterminado para una configuración sencilla!
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/mailmergesettings/mailmergesettings/

@@ -3,14 +3,14 @@ title: DigitalSignatureCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: DigitalSignatureCollection Item propiedad. Obtiene la firma de un documento en el índice especificado en C#.
+description: Recupere fácilmente las firmas de sus documentos con DigitalSignatureCollection. Acceda a las firmas por índice para una gestión documental optimizada y una mayor eficiencia.
 type: docs
 weight: 40
 url: /es/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
 ---
 ## DigitalSignatureCollection indexer
 
-Obtiene la firma de un documento en el índice especificado.
+Obtiene una firma de documento en el índice especificado.
 
 ```csharp
 public DigitalSignature this[int index] { get; }
@@ -18,7 +18,7 @@ public DigitalSignature this[int index] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Índice de base cero de la firma. |
+| index | Índice basado en cero de la firma. |
 
 ## Ejemplos
 
@@ -32,13 +32,14 @@ Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigital
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Hay dos formas de guardar una copia firmada de un documento en el sistema de archivos local:
-// 1: designe un documento con un nombre de archivo del sistema local y guarde una copia firmada en una ubicación especificada con otro nombre de archivo.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 - Designa un documento con un nombre de archivo del sistema local y guarda una copia firmada en una ubicación especificada por otro nombre de archivo.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2: tomar un documento de una secuencia y guardar una copia firmada en otra secuencia.
+// 2 - Toma un documento de una secuencia y guarda una copia firmada en otra secuencia.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -49,7 +50,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// Verifique que todas las firmas digitales del documento sean válidas y verifique sus detalles.
+//Por favor verifique que todas las firmas digitales del documento sean válidas y verifique sus detalles.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

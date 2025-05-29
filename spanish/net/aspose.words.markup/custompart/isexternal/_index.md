@@ -3,14 +3,14 @@ title: CustomPart.IsExternal
 linktitle: IsExternal
 articleTitle: IsExternal
 second_title: Aspose.Words para .NET
-description: CustomPart IsExternal propiedad. Falso si esta parte personalizada está almacenada dentro del paquete OOXML. Verdadero si esta pieza personalizada es un destino externo en C#.
+description: Descubra la propiedad CustomPart IsExternal y aprenda cómo define partes personalizadas internas y externas en paquetes OOXML para una gestión de datos optimizada.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-Falso si esta parte personalizada está almacenada dentro del paquete OOXML. Verdadero si esta pieza personalizada es un destino externo.
+Falso si esta parte personalizada se almacena dentro del paquete OOXML. Verdadero si esta parte personalizada es un destino externo.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -22,7 +22,7 @@ El valor predeterminado es`FALSO`.
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

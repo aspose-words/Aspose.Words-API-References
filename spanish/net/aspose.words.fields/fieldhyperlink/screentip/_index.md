@@ -3,7 +3,7 @@ title: FieldHyperlink.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words para .NET
-description: FieldHyperlink ScreenTip propiedad. Obtiene o establece el texto de información en pantalla para el hipervínculo en C#.
+description: Descubre la propiedad FieldHyperlink ScreenTip para personalizar el texto de tus hipervínculos y mejorar la experiencia y la interacción del usuario. ¡Optimiza tus enlaces hoy mismo!
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldhyperlink/screentip/
@@ -18,7 +18,7 @@ public string ScreenTip { get; set; }
 
 ## Ejemplos
 
-Muestra cómo utilizar los campos HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
+Muestra cómo utilizar los campos HIPERVÍNCULO para vincular a documentos en el sistema de archivos local.
 
 ```csharp
 Document doc = new Document();

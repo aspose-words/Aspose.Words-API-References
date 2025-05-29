@@ -3,14 +3,14 @@ title: Font.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words para .NET
-description: Font Italic propiedad. Verdadero si la fuente tiene el formato de cursiva en C#.
+description: ¡Descubre la propiedad Font Italic! Formatea fácilmente el texto en cursiva para mejorar la legibilidad y el estilo de tus diseños. ¡Mejora tu tipografía hoy mismo!
 type: docs
 weight: 160
 url: /es/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-Verdadero si la fuente tiene el formato de cursiva.
+Verdadero si la fuente está formateada como cursiva.
 
 ```csharp
 public bool Italic { get; set; }

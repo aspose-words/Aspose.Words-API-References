@@ -3,7 +3,7 @@ title: TabStopCollection.GetIndexByPosition
 linktitle: GetIndexByPosition
 articleTitle: GetIndexByPosition
 second_title: Aspose.Words para .NET
-description: TabStopCollection GetIndexByPosition método. Obtiene el índice de una tabulación con la posición especificada en puntos en C#.
+description: Descubra el método GetIndexByPosition de TabStopCollection para encontrar fácilmente el índice de una tabulación en cualquier punto especificado. ¡Perfecto para un control preciso del diseño!
 type: docs
 weight: 90
 url: /es/net/aspose.words/tabstopcollection/getindexbyposition/
@@ -24,15 +24,15 @@ Muestra cómo buscar una posición para ver si existe una tabulación allí y ob
 Document doc = new Document();
 TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.TabStops;
 
-// Agregue una tabulación en una posición de 30 mm.
+// Agrega una tabulación en una posición de 30 mm.
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 
 // Un resultado de "0" devuelto por "GetIndexByPosition" confirma que hay una tabulación
-// a 30 mm existe en esta colección y está en el índice 0.
+// at 30mm existe en esta colección y está en el índice 0.
 Assert.AreEqual(0, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(30)));
 
 // Un "-1" devuelto por "GetIndexByPosition" confirma que
-// no hay tabulación en esta colección con una posición de 60 mm.
+// No hay tabulación en esta colección con una posición de 60 mm.
 Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60)));
 ```
 

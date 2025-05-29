@@ -3,7 +3,7 @@ title: SignatureLineOptions.DefaultInstructions
 linktitle: DefaultInstructions
 articleTitle: DefaultInstructions
 second_title: Aspose.Words para .NET
-description: SignatureLineOptions DefaultInstructions propiedad. Obtiene o establece un valor que indica que las instrucciones predeterminadas se muestran en el cuadro de diálogo Firmar. El valor predeterminado para esta propiedad esverdadero  en C#.
+description: Descubra cómo la propiedad DefaultInstructions de SignatureLineOptions mejora su cuadro de diálogo Firmar con instrucciones predeterminadas personalizables para una experiencia de usuario perfecta.
 type: docs
 weight: 30
 url: /es/net/aspose.words/signaturelineoptions/defaultinstructions/
@@ -56,8 +56,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean iguales a "true",
-// indicando que la línea de firma contiene una firma.
+// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean ambas iguales a "true",
+// indica que la línea de firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

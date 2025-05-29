@@ -3,7 +3,7 @@ title: IMailMergeCallback.TagsReplaced
 linktitle: TagsReplaced
 articleTitle: TagsReplaced
 second_title: Aspose.Words para .NET
-description: IMailMergeCallback TagsReplaced método. Se llama cuando las etiquetas de texto bigote se reemplazan con campos MERGEFIELD en C#.
+description: Descubra cómo el método IMailMergeCallback TagsReplaced mejora la automatización de sus documentos al reemplazar sin problemas el texto de bigote con campos MERGEFIELD.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
@@ -26,7 +26,7 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Inserte dos etiquetas de combinación de correspondencia que hagan referencia a dos columnas en una fuente de datos.
+    // Insertar dos etiquetas de combinación de correspondencia que hagan referencia a dos columnas en una fuente de datos.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
@@ -36,11 +36,11 @@ public void Callback()
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // Configurar nuestra combinación de correspondencia para utilizar etiquetas de combinación de correspondencia alternativas.
+    // Configure nuestra combinación de correspondencia para utilizar etiquetas de combinación de correspondencia alternativas.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // Luego, asegúrese de que la combinación de correspondencia convierta etiquetas, como nuestra etiqueta "Apellido",
-    // en MERGEFIELD en los documentos de combinación.
+    // Luego, asegúrese de que la combinación de correspondencia convertirá las etiquetas, como nuestra etiqueta "Apellido",
+    // en MERGEFIELDs en los documentos de fusión.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -51,7 +51,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Cuenta el número de veces que una combinación de correspondencia reemplaza etiquetas de combinación de correspondencia que no pudo llenar con datos con MERGEFIELD.
+/// Cuenta la cantidad de veces que una combinación de correspondencia reemplaza las etiquetas de combinación de correspondencia que no pudo llenar con datos con MERGEFIELDs.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

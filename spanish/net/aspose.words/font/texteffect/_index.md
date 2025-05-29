@@ -3,14 +3,14 @@ title: Font.TextEffect
 linktitle: TextEffect
 articleTitle: TextEffect
 second_title: Aspose.Words para .NET
-description: Font TextEffect propiedad. Obtiene o establece el efecto de animación de la fuente en C#.
+description: Descubra la propiedad Font TextEffect para personalizar fácilmente las animaciones de fuentes y mejorar sus diseños con efectos de texto dinámicos para una experiencia de usuario cautivadora.
 type: docs
-weight: 450
+weight: 460
 url: /es/net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property
 
-Obtiene o establece el efecto de animación de la fuente.
+Obtiene o establece el efecto de animación de fuente.
 
 ```csharp
 public TextEffect TextEffect { get; set; }
@@ -18,7 +18,7 @@ public TextEffect TextEffect { get; set; }
 
 ## Ejemplos
 
-Muestra cómo aplicar un efecto visual a una ejecución.
+Muestra cómo aplicar un efecto visual a una carrera.
 
 ```csharp
 Document doc = new Document();

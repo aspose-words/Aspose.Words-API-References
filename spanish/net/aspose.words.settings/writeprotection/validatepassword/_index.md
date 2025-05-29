@@ -3,14 +3,14 @@ title: WriteProtection.ValidatePassword
 linktitle: ValidatePassword
 articleTitle: ValidatePassword
 second_title: Aspose.Words para .NET
-description: WriteProtection ValidatePassword método. Devolucionesverdadero si la contraseña especificada es la misma que la contraseña de protección contra escritura con la que se protegió el documento. Si el documento no está protegido contra escritura con contraseña entonces regresaFALSO  en C#.
+description: Proteja sus documentos con el método WriteProtection ValidatePassword. Verifique fácilmente si la contraseña coincide con la protección del documento para mayor seguridad.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/writeprotection/validatepassword/
 ---
 ## WriteProtection.ValidatePassword method
 
-Devoluciones`verdadero` si la contraseña especificada es la misma que la contraseña de protección contra escritura con la que se protegió el documento. Si el documento no está protegido contra escritura con contraseña, entonces regresa`FALSO` .
+Devuelve`verdadero` Si la contraseña especificada es la misma que la contraseña de protección contra escritura con la que se protegió el documento. Si el documento no está protegido contra escritura con contraseña, entonces devuelve`FALSO` .
 
 ```csharp
 public bool ValidatePassword(string password)
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// La protección no impide que el documento se edite mediante programación ni cifra el contenido.
+//La protección no impide que el documento se edite mediante programación ni cifra el contenido.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

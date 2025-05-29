@@ -3,14 +3,14 @@ title: Font.SmallCaps
 linktitle: SmallCaps
 articleTitle: SmallCaps
 second_title: Aspose.Words para .NET
-description: Font SmallCaps propiedad. Verdadero si la fuente tiene el formato de letras mayúsculas minúsculas en C#.
+description: Descubre la propiedad Font SmallCaps. Formatea fácilmente el texto en versalitas para mejorar la legibilidad y darle un toque elegante a tus diseños.
 type: docs
-weight: 360
+weight: 370
 url: /es/net/aspose.words/font/smallcaps/
 ---
 ## Font.SmallCaps property
 
-Verdadero si la fuente tiene el formato de letras mayúsculas minúsculas.
+Verdadero si la fuente está formateada en mayúsculas pequeñas.
 
 ```csharp
 public bool SmallCaps { get; set; }
@@ -25,17 +25,17 @@ Document doc = new Document();
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
 // Hay dos formas de hacer que una ejecución muestre su texto en minúsculas en mayúsculas sin cambiar el contenido.
-// 1 - Establece el indicador AllCaps para mostrar todos los caracteres en mayúsculas normales:
+// 1 - Establezca la bandera AllCaps para mostrar todos los caracteres en mayúsculas regulares:
 Run run = new Run(doc, "all capitals");
 run.Font.AllCaps = true;
 para.AppendChild(run);
 
 para = (Paragraph)para.ParentNode.AppendChild(new Paragraph(doc));
 
-// 2 - Establece el indicador SmallCaps para mostrar todos los caracteres en minúsculas:
-// Si un carácter está en minúscula, aparecerá en mayúscula
-// pero tendrá la misma altura que las minúsculas (la altura x de la fuente).
-// Los caracteres que originalmente estaban en mayúsculas tendrán el mismo aspecto.
+// 2 - Establezca la bandera SmallCaps para mostrar todos los caracteres en versalitas:
+// Si un carácter está en minúscula, aparecerá en su forma mayúscula
+// pero tendrá la misma altura que la minúscula (la altura x de la fuente).
+//Los caracteres que originalmente estaban en mayúsculas se verán iguales.
 run = new Run(doc, "Small Capitals");
 run.Font.SmallCaps = true;
 para.AppendChild(run);

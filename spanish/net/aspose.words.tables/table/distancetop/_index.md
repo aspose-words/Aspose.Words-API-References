@@ -3,7 +3,7 @@ title: Table.DistanceTop
 linktitle: DistanceTop
 articleTitle: DistanceTop
 second_title: Aspose.Words para .NET
-description: Table DistanceTop propiedad. Obtiene o establece la distancia entre la parte superior de la mesa y el texto circundante en puntos en C#.
+description: Ajuste fácilmente la distancia entre la superficie de su mesa y el texto circundante. ¡Mejore su diseño para una apariencia impecable y profesional con DistanceTop!
 type: docs
 weight: 150
 url: /es/net/aspose.words.tables/table/distancetop/
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Establece la distancia entre la tabla y el texto circundante.
+// Establezca la distancia entre la tabla y el texto circundante.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

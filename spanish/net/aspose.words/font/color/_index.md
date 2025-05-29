@@ -3,7 +3,7 @@ title: Font.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words para .NET
-description: Font Color propiedad. Obtiene o establece el color de la fuente en C#.
+description: Descubre la propiedad Color de fuente para personalizar fácilmente los colores del texto en tus diseños. ¡Mejora la legibilidad y la estética con tonos vibrantes y llamativos!
 type: docs
 weight: 70
 url: /es/net/aspose.words/font/color/
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar texto formateado usando DocumentBuilder.
+Muestra cómo insertar texto formateado utilizando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserta un hipervínculo y enfatízalo con un formato personalizado.
+// Inserta un hipervínculo y enfatízalo con formato personalizado.
 // El hipervínculo será un fragmento de texto en el que se puede hacer clic y que nos llevará a la ubicación especificada en la URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

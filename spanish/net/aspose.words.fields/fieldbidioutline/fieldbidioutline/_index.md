@@ -3,7 +3,7 @@ title: FieldBidiOutline
 linktitle: FieldBidiOutline
 articleTitle: FieldBidiOutline
 second_title: Aspose.Words para .NET
-description: FieldBidiOutline constructor. Constructor predeterminado en C#.
+description: Descubra el constructor FieldBidiOutline: su solución ideal para gestionar datos eficientemente con su intuitiva configuración predeterminada. ¡Mejore su experiencia de programación hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldbidioutline/fieldbidioutline/

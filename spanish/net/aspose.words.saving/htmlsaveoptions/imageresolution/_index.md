@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImageResolution
 linktitle: ImageResolution
 articleTitle: ImageResolution
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ImageResolution propiedad. Especifica la resolución de salida de las imágenes al exportar a HTML MHTML o EPUB. El valor predeterminado es96 ppp  en C#.
+description: Ajuste la resolución de la imagen fácilmente con HtmlSaveOptions. Optimice sus exportaciones HTML, MHTML o EPUB con configuraciones personalizables para obtener imágenes impactantes.
 type: docs
 weight: 340
 url: /es/net/aspose.words.saving/htmlsaveoptions/imageresolution/
@@ -18,7 +18,7 @@ public int ImageResolution { get; set; }
 
 ## Observaciones
 
-Esta propiedad afecta a las imágenes rasterizadas cuando[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) es`verdadero` y metarchivos de efectos exportados como imágenes rasterizadas. Algunas propiedades de la imagen, como cropping o rotación, requieren guardar imágenes transformadas y, en este caso, las imágenes transformadas se crean con la resolución dada .
+Esta propiedad afecta a las imágenes rasterizadas cuando[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) es`verdadero` Y metarchivos de efectos exportados como imágenes rasterizadas. Algunas propiedades de imagen, como cropping o rotación, requieren guardar las imágenes transformadas; en este caso, las imágenes transformadas se crean con la resolución dada .
 
 ## Ejemplos
 
@@ -36,8 +36,8 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://ejemplo.com/fonts",
-    ImagesFolderAlias = "http://ejemplo.com/imagenes",
+    FontsFolderAlias = "http://ejemplo.com/fuentes",
+    ImagesFolderAlias = "http://ejemplo.com/imágenes",
     ResourceFolderAlias = "http://ejemplo.com/recursos",
     ExportOriginalUrlForLinkedImages = true
 };

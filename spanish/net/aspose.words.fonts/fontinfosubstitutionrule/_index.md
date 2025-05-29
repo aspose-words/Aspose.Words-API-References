@@ -3,16 +3,16 @@ title: FontInfoSubstitutionRule Class
 linktitle: FontInfoSubstitutionRule
 articleTitle: FontInfoSubstitutionRule
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontInfoSubstitutionRule clase. Regla de sustitución de información de fuente en C#.
+description: Descubra la clase Aspose.Words.Fonts.FontInfoSubstitutionRule para optimizar la gestión de fuentes en sus documentos con capacidades de sustitución perfectas.
 type: docs
-weight: 2940
+weight: 3370
 url: /es/net/aspose.words.fonts/fontinfosubstitutionrule/
 ---
 ## FontInfoSubstitutionRule class
 
 Regla de sustitución de información de fuente.
 
-Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) Artículo de documentación.
 
 ```csharp
 public class FontInfoSubstitutionRule : FontSubstitutionRule
@@ -26,7 +26,7 @@ public class FontInfoSubstitutionRule : FontSubstitutionRule
 
 ## Observaciones
 
-Según esta regla, Aspose.Words evalúa todos los campos relacionados en[`FontInfo`](../fontinfo/) (Panose, Sig, etc.) for la fuente que falta y encuentra la coincidencia más cercana entre las fuentes de fuentes disponibles. Si[`FontInfo`](../fontinfo/)no está disponible para la fuente que falta, entonces no se hará nada.
+Según esta regla, Aspose.Words evalúa todos los campos relacionados en[`FontInfo`](../fontinfo/) (Panose, Sig, etc.) busca la fuente faltante y encuentra la más cercana entre las fuentes disponibles. Si[`FontInfo`](../fontinfo/) no está disponible para la fuente faltante, entonces no se hará nada.
 
 ## Ejemplos
 
@@ -38,20 +38,20 @@ public void EnableFontSubstitution()
     // Abra un documento que contenga texto formateado con una fuente que no existe en ninguna de nuestras fuentes de fuentes.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Asigna una devolución de llamada para manejar las advertencias de sustitución de fuentes.
+    // Asignar una devolución de llamada para manejar advertencias de sustitución de fuentes.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Establece un nombre de fuente predeterminado y habilita la sustitución de fuentes.
+    // Establezca un nombre de fuente predeterminado y habilite la sustitución de fuente.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Las métricas de fuente originales deben usarse después de la sustitución de fuentes.
+    // Las métricas de fuente originales deben utilizarse después de la sustitución de la fuente.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Recibiremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
+    //Recibiremos una advertencia de sustitución de fuente si guardamos un documento con una fuente faltante.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -67,7 +67,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

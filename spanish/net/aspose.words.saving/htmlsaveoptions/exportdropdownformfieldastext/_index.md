@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 linktitle: ExportDropDownFormFieldAsText
 articleTitle: ExportDropDownFormFieldAsText
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportDropDownFormFieldAsText propiedad. Controla cómo se guardan los campos del formulario desplegable en HTML o MHTML. El valor predeterminado esFALSO  en C#.
+description: Descubra cómo la propiedad HtmlSaveOptions ExportDropDownFormFieldAsText mejora sus exportaciones HTML/MHTML controlando los formatos de los campos desplegables. ¡Optimice sus documentos!
 type: docs
 weight: 130
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
@@ -18,13 +18,13 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ## Observaciones
 
-Cuando se establece en`verdadero` , exporta los campos del formulario desplegable como texto normal. Cuando`FALSO`, exporta campos de formulario desplegables como elemento SELECT en HTML.
+Cuando se establece en`verdadero` , exporta campos de formulario desplegable como texto normal. Cuando`FALSO`, exporta campos de formulario desplegable como elemento SELECT en HTML.
 
-Al exportar a EPUB, los campos de texto del formulario desplegable siempre se guardan como texto debido a los requisitos de este formato.
+Al exportar a EPUB, los campos de formulario desplegable de texto siempre se guardan como texto debido a los requisitos de este formato.
 
 ## Ejemplos
 
-Muestra cómo hacer que los campos del formulario del cuadro combinado desplegable se mezclen con el texto del párrafo al guardar en HTML.
+Muestra cómo lograr que los campos de formulario del cuadro combinado desplegable se combinen con el texto del párrafo al guardar en HTML.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
 
 // El indicador "ExportDropDownFormFieldAsText" de este objeto SaveOptions nos permite
 // controla cómo se tratan los cuadros combinados desplegables al guardar el documento en HTML.
-// Establecerlo en "verdadero" convertirá cada cuadro combinado en texto simple
+// Establecerlo como "verdadero" convertirá cada cuadro combinado en texto simple
 // que muestra el valor seleccionado actualmente del cuadro combinado, congelándolo efectivamente.
-// Establecerlo en "falso" preservará la funcionalidad del cuadro combinado usando <select> y <opción> etiquetas.
+// Establecerlo como "falso" preservará la funcionalidad del cuadro combinado usando las etiquetas <select> y <option>.
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
 

@@ -3,14 +3,14 @@ title: RelativeHorizontalSize Enum
 linktitle: RelativeHorizontalSize
 articleTitle: RelativeHorizontalSize
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.RelativeHorizontalSize enumeración. Especifica en relación con qué ancho de una forma o un marco de texto se calcula horizontalmente en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.RelativeHorizontalSize para un control preciso del ancho de las formas y los marcos de texto en sus documentos. ¡Mejore su formato hoy mismo!
 type: docs
-weight: 1200
+weight: 1590
 url: /es/net/aspose.words.drawing/relativehorizontalsize/
 ---
 ## RelativeHorizontalSize enumeration
 
-Especifica en relación con qué ancho de una forma o un marco de texto se calcula horizontalmente.
+Especifica con relación a qué se calcula horizontalmente el ancho de una forma o un marco de texto.
 
 ```csharp
 public enum RelativeHorizontalSize
@@ -24,8 +24,8 @@ public enum RelativeHorizontalSize
 | Page | `1` | Especifica que el ancho se calcula en relación con el ancho de la página. |
 | LeftMargin | `2` | Especifica que el ancho se calcula en relación con el tamaño del área del margen izquierdo. |
 | RightMargin | `3` | Especifica que el ancho se calcula en relación con el tamaño del área del margen derecho. |
-| InnerMargin | `4` | Especifica que el ancho se calcula en relación con el tamaño del área del margen interior, con el tamaño del área del margen izquierdo para páginas impares y con el tamaño del área del margen derecho para páginas pares. |
-| OuterMargin | `5` | Especifica que el ancho se calcula en relación con el tamaño del área del margen exterior, con el tamaño del área del margen derecho para páginas impares y con el tamaño del área del margen izquierdo para páginas pares. |
+| InnerMargin | `4` | Especifica que el ancho se calcula en relación con el tamaño del área del margen interior, con el tamaño del área del margen izquierdo para las páginas impares y con el tamaño del área del margen derecho para las páginas pares. |
+| OuterMargin | `5` | Especifica que el ancho se calcula en relación con el tamaño del área del margen exterior, al tamaño del área del margen derecho para las páginas impares y al tamaño del área del margen izquierdo para las páginas pares. |
 | Default | `1` | El valor predeterminado esMargin . |
 
 ## Ejemplos
@@ -38,42 +38,42 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Agregar una forma simple con tamaño y posición absolutos.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
-// Establezca WrapType en WrapType.None ya que las formas en línea se convierten automáticamente a unidades absolutas.
+// Establezca WrapType en WrapType.None ya que las formas en línea se convierten automáticamente en unidades absolutas.
 shape.WrapType = WrapType.None;
 
-// Comprobando y configurando el tamaño horizontal relativo.
+// Comprobación y configuración del tamaño horizontal relativo.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // Establecer el enlace de tamaño horizontal en Margen.
+    // Establecer el tamaño de encuadernación horizontal en Margen.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // Estableciendo el ancho al 50% del ancho del margen.
+    // Establecer el ancho al 50% del ancho del margen.
     shape.WidthRelative = 50;
 }
 
-// Comprobando y configurando el tamaño vertical relativo.
+// Comprobación y configuración del tamaño vertical relativo.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // Establecer el enlace de tamaño vertical en Margen.
+    // Establecer el tamaño de encuadernación vertical en Margen.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // Estableciendo la altura al 30% de la altura del margen.
+    // Establecer la altura al 30% de la altura del margen.
     shape.HeightRelative = 30;
 }
 
-// Comprobando y configurando la posición vertical relativa.
+// Comprobación y configuración de la posición vertical relativa.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // configurando la posición vinculante a TopMargin.
+    // estableciendo la vinculación de posición a TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // Estableciendo el Top relativo al 30% de la posición TopMargin.
+    // Establecer el Top relativo al 30% de la posición TopMargin.
     shape.TopRelative = 30;
 }
 
-// Comprobando y configurando la posición horizontal relativa.
+// Comprobación y ajuste de la posición horizontal relativa.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
-    // Estableciendo la posición vinculante a RightMargin.
+    // Establecer la vinculación de posición a RightMargin.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
-    // El valor relativo de la posición puede ser negativo.
+    //El valor relativo de la posición puede ser negativo.
     shape.LeftRelative = -260;
 }
 

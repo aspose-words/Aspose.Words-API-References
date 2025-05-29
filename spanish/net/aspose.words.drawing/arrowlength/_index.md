@@ -3,9 +3,9 @@ title: ArrowLength Enum
 linktitle: ArrowLength
 articleTitle: ArrowLength
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.ArrowLength enumeración. Longitud de la flecha al final de una línea en C#.
+description: Descubre la enumeración Aspose.Words.Drawing.ArrowLength para personalizar la longitud de las flechas y mejorar los gráficos de línea en tus documentos. ¡Mejora tu diseño hoy mismo!
 type: docs
-weight: 480
+weight: 720
 url: /es/net/aspose.words.drawing/arrowlength/
 ---
 ## ArrowLength enumeration
@@ -23,17 +23,17 @@ public enum ArrowLength
 | Short | `0` |  |
 | Medium | `1` |  |
 | Long | `2` |  |
-| Default | `0` | Igual queShort . |
+| Default | `0` | Lo mismo queShort . |
 
 ## Ejemplos
 
-Muestra para crear una variedad de formas.
+Muestra cómo crear una variedad de formas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
 // 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
@@ -84,8 +84,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
-    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
+    // Gira la imagen hacia el otro lado para cancelar esto antes de que la forma la muestre.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

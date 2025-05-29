@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.CompositingQuality
 linktitle: CompositingQuality
 articleTitle: CompositingQuality
 second_title: Aspose.Words para .NET
-description: GraphicsQualityOptions CompositingQuality propiedad. Obtiene o establece la calidad de representación de las imágenes compuestas dibujadas en este Gráficos en C#.
+description: Descubre la propiedad GraphicsQualityOptions CompositingQuality para mejorar la representación de tus imágenes. ¡Optimiza las imágenes compuestas para una calidad visual impresionante!
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-Obtiene o establece la calidad de representación de las imágenes compuestas dibujadas en este Gráficos.
+Obtiene o establece la calidad de representación de las imágenes compuestas dibujadas en este Graphics.
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }

@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.CssClassNamesPrefix
 linktitle: CssClassNamesPrefix
 articleTitle: CssClassNamesPrefix
 second_title: Aspose.Words para .NET
-description: HtmlFixedSaveOptions CssClassNamesPrefix propiedad. Especifica el prefijo que se agrega a todos los nombres de clase en el archivo style.css. El valor predeterminado esay  en C#.
+description: Descubra cómo la propiedad HtmlFixedSaveOptions CssClassNamesPrefix mejora su estilo al agregar un prefijo personalizable a todos los nombres de clase en su style.css.
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 ---
 ## HtmlFixedSaveOptions.CssClassNamesPrefix property
 
-Especifica el prefijo que se agrega a todos los nombres de clase en el archivo style.css. El valor predeterminado es`"ay"` .
+Especifica el prefijo que se agrega a todos los nombres de clase en el archivo style.css. El valor predeterminado es`"aw"` .
 
 ```csharp
 public string CssClassNamesPrefix { get; set; }
@@ -18,7 +18,7 @@ public string CssClassNamesPrefix { get; set; }
 
 ## Ejemplos
 
-Muestra cómo colocar CSS en un archivo separado y agregar un prefijo a todos sus nombres de clases CSS.
+Muestra cómo colocar CSS en un archivo separado y agregar un prefijo a todos sus nombres de clase CSS.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

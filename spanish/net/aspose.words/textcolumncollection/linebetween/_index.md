@@ -3,14 +3,14 @@ title: TextColumnCollection.LineBetween
 linktitle: LineBetween
 articleTitle: LineBetween
 second_title: Aspose.Words para .NET
-description: TextColumnCollection LineBetween propiedad. cuandoverdadero agrega una línea vertical entre columnas en C#.
+description: Mejore su diseño con la propiedad TextColumnCollection LineBetween. Active líneas verticales entre columnas para una apariencia elegante y organizada.
 type: docs
 weight: 40
 url: /es/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-cuando`verdadero` agrega una línea vertical entre columnas.
+Cuando`verdadero` , agrega una línea vertical entre columnas.
 
 ```csharp
 public bool LineBetween { get; set; }
@@ -24,9 +24,9 @@ Muestra cómo separar columnas con una línea vertical.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Configura el objeto PageSetup de la sección actual para dividir el texto en varias columnas.
-// Establece la propiedad "LineBetween" en "true" para poner una línea divisoria entre columnas.
-// Establece la propiedad "LineBetween" en "false" para dejar el espacio entre columnas en blanco.
+// Configure el objeto PageSetup de la sección actual para dividir el texto en varias columnas.
+// Establezca la propiedad "LineBetween" en "verdadero" para colocar una línea divisoria entre las columnas.
+// Establezca la propiedad "LineBetween" en "false" para dejar el espacio entre columnas en blanco.
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.LineBetween = lineBetween;
 columns.SetCount(3);

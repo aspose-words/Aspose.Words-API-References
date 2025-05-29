@@ -3,14 +3,14 @@ title: RevisionOptions.InsertedTextColor
 linktitle: InsertedTextColor
 articleTitle: InsertedTextColor
 second_title: Aspose.Words para .NET
-description: RevisionOptions InsertedTextColor propiedad. Permite especificar el color que se utilizará para el contenido insertado.Insertion . El valor predeterminado esByAuthor  en C#.
+description: Personalice su experiencia de edición con la propiedad InsertedTextColor de RevisionOptions, que establece colores únicos para el contenido insertado. El valor predeterminado es PorAutor.
 type: docs
-weight: 40
+weight: 60
 url: /es/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 ---
 ## RevisionOptions.InsertedTextColor property
 
-Permite especificar el color que se utilizará para el contenido insertado.Insertion . El valor predeterminado esByAuthor .
+Permite especificar el color que se utilizará para el contenido insertadoInsertion . El valor predeterminado esByAuthor .
 
 ```csharp
 public RevisionColor InsertedTextColor { get; set; }
@@ -24,18 +24,19 @@ Muestra cómo alterar la apariencia de las revisiones en un documento de salida 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una revisión, luego cambia el color de todas las revisiones a verde.
+// Inserte una revisión, luego cambie el color de todas las revisiones a verde.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Elimina la barra que aparece a la izquierda de cada línea revisada.
+//Elimina la barra que aparece a la izquierda de cada línea revisada.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Ver también

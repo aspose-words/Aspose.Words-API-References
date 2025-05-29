@@ -3,14 +3,14 @@ title: CustomDocumentProperties.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words para .NET
-description: CustomDocumentProperties Add método. Crea una nueva propiedad de documento personalizada delString tipo de datos en C#.
+description: Cree propiedades de documento personalizadas y únicas fácilmente con el método Add. Mejore sus documentos con tipos de datos String personalizados para un rendimiento óptimo.
 type: docs
 weight: 10
 url: /es/net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(*string, string*) {#add_4}
 
-Crea una nueva propiedad de documento personalizada delString tipo de datos.
+Crea una nueva propiedad de documento personalizada delString tipo de dato.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -35,18 +35,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -60,10 +60,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 
@@ -93,7 +93,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(*string, int*) {#add_2}
 
-Crea una nueva propiedad de documento personalizada delNumber tipo de datos.
+Crea una nueva propiedad de documento personalizada delNumber tipo de dato.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -118,18 +118,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -143,10 +143,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 
@@ -176,7 +176,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(*string, DateTime*) {#add_3}
 
-Crea una nueva propiedad de documento personalizada delDateTime tipo de datos.
+Crea una nueva propiedad de documento personalizada delDateTime tipo de dato.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -193,14 +193,14 @@ El objeto de propiedad recién creado.
 
 ## Ejemplos
 
-Muestra cómo crear una propiedad de documento personalizada que contiene una fecha y hora.
+Muestra cómo crear una propiedad de documento personalizada que contiene una fecha y una hora.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 Muestra cómo trabajar con las propiedades personalizadas de un documento.
@@ -211,18 +211,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -236,10 +236,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 
@@ -269,7 +269,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(*string, bool*) {#add}
 
-Crea una nueva propiedad de documento personalizada delBoolean tipo de datos.
+Crea una nueva propiedad de documento personalizada delBoolean tipo de dato.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -294,18 +294,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -319,10 +319,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 
@@ -352,7 +352,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(*string, double*) {#add_1}
 
-Crea una nueva propiedad de documento personalizada delDouble tipo de datos.
+Crea una nueva propiedad de documento personalizada delDouble tipo de dato.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -377,18 +377,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -402,10 +402,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 

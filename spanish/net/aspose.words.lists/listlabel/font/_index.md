@@ -3,7 +3,7 @@ title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words para .NET
-description: ListLabel Font propiedad. Obtiene la fuente de la etiqueta de la lista en C#.
+description: Descubra la propiedad Fuente ListLabel para personalizar el estilo de fuente de la etiqueta de su lista y mejorar su diseño para darle un toque profesional.
 type: docs
 weight: 10
 url: /es/net/aspose.words.lists/listlabel/font/

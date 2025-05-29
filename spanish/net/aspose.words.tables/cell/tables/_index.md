@@ -3,7 +3,7 @@ title: Cell.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words para .NET
-description: Cell Tables propiedad. Obtiene una colección de tablas que son hijas inmediatas de la celda en C#.
+description: Descubra las tablas de celdas. Acceda fácilmente a una colección de tablas directamente en su celda para una organización optimizada y una mejor gestión de datos.
 type: docs
 weight: 120
 url: /es/net/aspose.words.tables/cell/tables/
@@ -18,7 +18,7 @@ public TableCollection Tables { get; }
 
 ## Ejemplos
 
-Muestra cómo saber si una tabla está anidada.
+Muestra cómo averiguar si las tablas están anidadas.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -48,7 +48,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
-/// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).
+/// Un entero que indica la profundidad de anidación de la tabla (número de nodos de la tabla principal).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -66,19 +66,19 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Determina si una tabla contiene alguna tabla secundaria inmediata dentro de sus celdas.
-/// No recorra recursivamente esas tablas para buscar más tablas.
+/// No recorra recursivamente esas tablas para buscar otras tablas.
 /// </summary>
 /// <returns>
 /// Devuelve verdadero si al menos una celda secundaria contiene una tabla.
-/// Devuelve falso si ninguna celda de la tabla contiene una tabla.
+/// Devuelve falso si ninguna celda en la tabla contiene una tabla.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

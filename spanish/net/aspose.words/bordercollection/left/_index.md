@@ -3,7 +3,7 @@ title: BorderCollection.Left
 linktitle: Left
 articleTitle: Left
 second_title: Aspose.Words para .NET
-description: BorderCollection Left propiedad. Obtiene el borde izquierdo en C#.
+description: Descubra la propiedad BorderCollection Left, acceda y personalice sin esfuerzo el borde izquierdo para obtener una mayor flexibilidad de diseño y atractivo visual.
 type: docs
 weight: 70
 url: /es/net/aspose.words/bordercollection/left/
@@ -18,13 +18,13 @@ public Border Left { get; }
 
 ## Ejemplos
 
-Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
+Muestra cómo aplicar colores de borde y sombreado al crear una tabla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inicia una tabla y establece un color/grosor predeterminado para sus bordes.
+// Inicia una tabla y establece un color y grosor predeterminado para sus bordes.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -38,7 +38,7 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // Restablecer el formato de celda para deshabilitar los colores de fondo
-// establece un grosor de borde personalizado para todas las celdas nuevas creadas por el constructor,
+// Establezca un grosor de borde personalizado para todas las celdas nuevas creadas por el generador,
 // luego construye una segunda fila.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;

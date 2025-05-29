@@ -3,16 +3,16 @@ title: VbaModule Class
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Vba.VbaModule clase. Proporciona acceso al módulo de proyecto VBA en C#.
+description: Desbloquee el poder de Aspose.Words.Vba.VbaModule para acceder sin problemas a los módulos de su proyecto VBA. ¡Mejore su productividad y agilice la automatización de sus documentos!
 type: docs
-weight: 6550
+weight: 7400
 url: /es/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
 
 Proporciona acceso al módulo de proyecto VBA.
 
-Para obtener más información, visite el[Trabajar con macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con macros de VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) Artículo de documentación.
 
 ```csharp
 public class VbaModule
@@ -45,24 +45,24 @@ Muestra cómo acceder a la información del proyecto VBA de un documento.
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// Un proyecto VBA contiene una colección de módulos VBA.
+//Un proyecto VBA contiene una colección de módulos VBA.
 VbaProject vbaProject = doc.VbaProject;
 Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Establece un nuevo código fuente para el módulo VBA. Puede acceder a los módulos VBA de la colección por índice o por nombre.
+// Establezca el nuevo código fuente para el módulo VBA. Puede acceder a los módulos VBA de la colección por índice o por nombre.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Eliminar un módulo de la colección.
+//Eliminar un módulo de la colección.
 vbaModules.Remove(vbaModules[2]);
 ```
 

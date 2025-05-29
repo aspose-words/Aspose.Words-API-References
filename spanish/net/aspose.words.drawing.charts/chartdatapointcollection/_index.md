@@ -3,16 +3,16 @@ title: ChartDataPointCollection Class
 linktitle: ChartDataPointCollection
 articleTitle: ChartDataPointCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection clase. Representa la colección de unChartDataPoint  en C#.
+description: Descubra la clase Aspose.Words.Drawing.Charts.ChartDataPointCollection, su clave para administrar colecciones ChartDataPoint sin esfuerzo para una mejor visualización de datos.
 type: docs
-weight: 700
+weight: 980
 url: /es/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
 
-Representa la colección de un[`ChartDataPoint`](../chartdatapoint/) .
+Representa una colección de un[`ChartDataPoint`](../chartdatapoint/) .
 
-Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) Artículo de documentación.
 
 ```csharp
 public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
@@ -23,14 +23,16 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count/) { get; } | Devuelve el número de[`ChartDataPoint`](../chartdatapoint/) en esta colección. |
-| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | Devoluciones[`ChartDataPoint`](../chartdatapoint/) para el índice especificado. |
+| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | Devuelve[`ChartDataPoint`](../chartdatapoint/) para el índice especificado. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Borra el formato de todo[`ChartDataPoint`](../chartdatapoint/) en esta colección. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | Borra el formato de todos[`ChartDataPoint`](../chartdatapoint/) en esta colección. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(*int, int*) | Copia el formato del punto de datos de origen al punto de datos de destino. |
 | [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | Devuelve un objeto enumerador. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(*int*) | Obtiene un indicador que indica si el punto de datos en el índice especificado tiene el formato predeterminado. |
 
 ## Ejemplos
 
@@ -50,8 +52,8 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamantes.
-    foreach (ChartSeries series in chart.Series) 
+    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamante.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Suaviza la línea que representa la primera serie de datos.
@@ -66,10 +68,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Para obtener un gráfico más limpio, podemos borrar el formato individualmente.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // También podemos eliminar una serie completa de puntos de datos a la vez.
+    // Para un gráfico más limpio, podemos borrar el formato individualmente.
+    dataPoint.ClearFormat();
+
+    // También podemos eliminar una serie entera de puntos de datos a la vez.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

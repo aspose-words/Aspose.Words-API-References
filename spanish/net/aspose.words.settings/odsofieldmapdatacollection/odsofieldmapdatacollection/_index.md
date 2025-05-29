@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words para .NET
-description: OdsoFieldMapDataCollection constructor. Constructor predeterminado en C#.
+description: Descubra el potente constructor predeterminado de OdsoFieldMapDataCollection para una integración de datos fluida. ¡Mejore sus proyectos con soluciones de mapeo eficientes!
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/odsofieldmapdatacollection/odsofieldmapdatacollection/

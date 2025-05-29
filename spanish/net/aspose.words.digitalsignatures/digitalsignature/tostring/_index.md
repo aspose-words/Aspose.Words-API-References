@@ -3,7 +3,7 @@ title: DigitalSignature.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words para .NET
-description: DigitalSignature ToString método. Devuelve una cadena fácil de usar que muestra el valor de este objeto en C#.
+description: Explore el método DigitalSignature ToString, recupere fácilmente una representación de cadena fácil de usar de su objeto de firma digital para una integración perfecta.
 type: docs
 weight: 90
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/tostring/

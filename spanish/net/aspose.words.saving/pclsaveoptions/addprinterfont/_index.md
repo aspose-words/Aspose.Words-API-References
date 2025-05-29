@@ -3,7 +3,7 @@ title: PclSaveOptions.AddPrinterFont
 linktitle: AddPrinterFont
 articleTitle: AddPrinterFont
 second_title: Aspose.Words para .NET
-description: PclSaveOptions AddPrinterFont método. Agrega información sobre la fuente que el fabricante carga en la impresora en C#.
+description: Descubra el método PclSaveOptions AddPrinterFont para cargar y administrar de manera eficiente las fuentes de impresora de los fabricantes para un mejor rendimiento de impresión.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/pclsaveoptions/addprinterfont/
@@ -23,11 +23,11 @@ public void AddPrinterFont(string fontFullName, string fontPclName)
 
 ## Observaciones
 
-Hay 52 fuentes que se deben crear en cualquier impresora de acuerdo con la especificación Pcl. Sin embargo, los fabricantes pueden agregar algunas otras fuentes a sus dispositivos.
+Hay 52 fuentes que se deben crear en cualquier impresora según la especificación Pcl. Sin embargo, los fabricantes pueden agregar otras fuentes a sus dispositivos.
 
 ## Ejemplos
 
-Muestra cómo hacer que una impresora sustituya todas las instancias de una fuente específica por una fuente diferente.
+Muestra cómo hacer que una impresora sustituya todas las instancias de una fuente específica con una fuente diferente.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ PclSaveOptions saveOptions = new PclSaveOptions();
 saveOptions.AddPrinterFont("Courier New", "Courier");
 
 // Al imprimir este documento, la impresora utilizará la fuente "Courier New"
-// para acceder a lugares donde nuestro documento utilizó la fuente "Courier".
+// para acceder a los lugares donde nuestro documento utilizó la fuente "Courier".
 doc.Save(ArtifactsDir + "PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 

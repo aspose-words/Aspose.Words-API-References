@@ -3,7 +3,7 @@ title: Shading.BackgroundPatternThemeColor
 linktitle: BackgroundPatternThemeColor
 articleTitle: BackgroundPatternThemeColor
 second_title: Aspose.Words para .NET
-description: Shading BackgroundPatternThemeColor propiedad. Obtiene o establece el color del tema del patrón de fondo en el esquema de color aplicado que está asociado con esteShading objeto en C#.
+description: Descubra cómo personalizar la propiedad Shading BackgroundPatternThemeColor para mejorar su diseño con patrones de fondo y esquemas de color únicos.
 type: docs
 weight: 20
 url: /es/net/aspose.words/shading/backgroundpatternthemecolor/
@@ -18,7 +18,7 @@ public ThemeColor BackgroundPatternThemeColor { get; set; }
 
 ## Ejemplos
 
-Muestra cómo configurar los colores de primer plano y de fondo para sombrear la textura.
+Muestra cómo establecer los colores de primer plano y de fondo para la textura de sombreado.
 
 ```csharp
 Document doc = new Document();

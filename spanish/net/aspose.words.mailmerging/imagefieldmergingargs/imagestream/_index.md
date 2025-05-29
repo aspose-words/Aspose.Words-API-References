@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words para .NET
-description: ImageFieldMergingArgs ImageStream propiedad. Especifica la secuencia para que el motor de combinación de correspondencia lea una imagen en C#.
+description: Descubra cómo la propiedad ImageStream de ImageFieldMergingArgs mejora su combinación de correspondencia al integrar imágenes sin problemas para obtener resultados profesionales.
 type: docs
 weight: 40
 url: /es/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
 ## ImageFieldMergingArgs.ImageStream property
 
-Especifica la secuencia para que el motor de combinación de correspondencia lea una imagen.
+Especifica la secuencia desde la cual el motor de combinación de correspondencia leerá una imagen.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -22,7 +22,7 @@ Aspose.Words cierra esta secuencia después de fusionar la imagen en el document
 
 ## Ejemplos
 
-Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
+Muestra cómo insertar imágenes almacenadas en un campo BLOB de base de datos en un informe.
 
 ```csharp
 public void ImageFromBlob()
@@ -52,11 +52,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 
     /// <summary>
-    /// Esto se llama cuando una combinación de correspondencia encuentra un MERGEFIELD en el documento con una etiqueta "Imagen:" en su nombre.
+    /// Esto se llama cuando una combinación de correspondencia encuentra un MERGEFIELD en el documento con una etiqueta "Image:" en su nombre.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

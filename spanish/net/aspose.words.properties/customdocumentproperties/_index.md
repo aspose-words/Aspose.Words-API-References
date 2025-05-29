@@ -3,16 +3,16 @@ title: CustomDocumentProperties Class
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Properties.CustomDocumentProperties clase. Una colección de propiedades de documentos personalizadas en C#.
+description: Descubra Aspose.Words.Properties.CustomDocumentProperties para gestionar propiedades de documentos personalizadas sin esfuerzo. ¡Mejore su gestión documental hoy mismo!
 type: docs
-weight: 4460
+weight: 5190
 url: /es/net/aspose.words.properties/customdocumentproperties/
 ---
 ## CustomDocumentProperties class
 
-Una colección de propiedades de documentos personalizadas.
+Una colección de propiedades de documento personalizadas.
 
-Para obtener más información, visite el[Trabajar con propiedades de documento](https://docs.aspose.com/words/net/work-with-document-properties/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con propiedades del documento](https://docs.aspose.com/words/net/work-with-document-properties/) Artículo de documentación.
 
 ```csharp
 public class CustomDocumentProperties : DocumentPropertyCollection
@@ -22,22 +22,22 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Obtiene el número de elementos de la colección. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por index. |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Obtiene el número de elementos en la colección. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por índice. |
 | virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por el nombre de la propiedad. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(*string, bool*) | Crea una nueva propiedad de documento personalizada delBoolean tipo de datos. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(*string, DateTime*) | Crea una nueva propiedad de documento personalizada delDateTime tipo de datos. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(*string, double*) | Crea una nueva propiedad de documento personalizada delDouble tipo de datos. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(*string, int*) | Crea una nueva propiedad de documento personalizada delNumber tipo de datos. |
-| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(*string, string*) | Crea una nueva propiedad de documento personalizada delString tipo de datos. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add)(*string, bool*) | Crea una nueva propiedad de documento personalizada delBoolean tipo de dato. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_3)(*string, DateTime*) | Crea una nueva propiedad de documento personalizada delDateTime tipo de dato. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(*string, double*) | Crea una nueva propiedad de documento personalizada delDouble tipo de dato. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(*string, int*) | Crea una nueva propiedad de documento personalizada delNumber tipo de dato. |
+| [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(*string, string*) | Crea una nueva propiedad de documento personalizada delString tipo de dato. |
 | [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | Crea una nueva propiedad de documento personalizada vinculada al contenido. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Elimina todas las propiedades de la colección. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Devoluciones`verdadero` si existe una propiedad con el nombre especificado en la colección. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Devuelve`verdadero` si existe una propiedad con el nombre especificado en la colección. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Obtiene el índice de una propiedad por nombre. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Elimina una propiedad con el nombre especificado de la colección. |
@@ -53,13 +53,13 @@ Las propiedades de la colección están ordenadas alfabéticamente por nombre.
 
 ## Ejemplos
 
-Muestra cómo trabajar con propiedades de documentos personalizados.
+Muestra cómo trabajar con propiedades de documentos personalizadas.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Cada documento contiene una colección de propiedades personalizadas que, al igual que las propiedades integradas, son pares clave-valor.
- // El documento tiene una lista fija de propiedades integradas. El usuario crea todas las propiedades personalizadas.
+ El documento tiene una lista fija de propiedades integradas. El usuario crea todas las propiedades personalizadas.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

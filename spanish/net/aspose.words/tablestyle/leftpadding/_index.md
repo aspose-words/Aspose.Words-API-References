@@ -3,7 +3,7 @@ title: TableStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words para .NET
-description: TableStyle LeftPadding propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará a la izquierda del contenido de las celdas de la tabla en C#.
+description: Descubre la propiedad TableStyle LeftPadding para personalizar el diseño de las celdas de tu tabla. Ajusta fácilmente el espaciado izquierdo para una apariencia profesional y pulida.
 type: docs
 weight: 100
 url: /es/net/aspose.words/tablestyle/leftpadding/

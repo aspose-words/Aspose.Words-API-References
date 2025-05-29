@@ -3,14 +3,14 @@ title: MemoryFontSource.FontData
 linktitle: FontData
 articleTitle: FontData
 second_title: Aspose.Words para .NET
-description: MemoryFontSource FontData propiedad. Datos de fuente binaria en C#.
+description: Descubra la propiedad FontData de MemoryFontSource para una integración fluida de fuentes binarias. Optimice sus proyectos con soluciones eficientes de gestión de fuentes.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-Datos de fuente binaria.
+Datos de fuente binarios.
 
 ```csharp
 public byte[] FontData { get; }
@@ -18,7 +18,7 @@ public byte[] FontData { get; }
 
 ## Ejemplos
 
-Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente de fuente.
+Muestra cómo utilizar una matriz de bytes con datos de un archivo de fuente como fuente.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

@@ -3,9 +3,9 @@ title: Font.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
 second_title: Aspose.Words para .NET
-description: Font TintAndShade propiedad. Obtiene o establece un valor doble que aclara u oscurece un color en C#.
+description: Descubre la propiedad Font TintAndShade para ajustar colores fácilmente. Aclara u oscurece tonos para lograr diseños vibrantes. ¡Mejora tus proyectos sin esfuerzo!
 type: docs
-weight: 520
+weight: 530
 url: /es/net/aspose.words/font/tintandshade/
 ---
 ## Font.TintAndShade property
@@ -16,11 +16,18 @@ Obtiene o establece un valor doble que aclara u oscurece un color.
 public double TintAndShade { get; set; }
 ```
 
+### Excepciones
+
+| excepción | condición |
+| --- | --- |
+| ArgumentOutOfRangeException | Se lanza si se establece esta propiedad en un valor menor que -1 o mayor que 1. |
+| InvalidOperationException | Lanza si se establece esta propiedad para[`Font`](../) objeto con colores no temáticos. |
+
 ## Observaciones
 
-Los valores permitidos están en el rango de -1 (el más oscuro) a 1 (el más claro) para esta propiedad. Cero (0) es neutral. Intentar establecer esta propiedad en un valor inferior a -1 o superior a 1 da como resultado unArgumentOutOfRangeException.
+Los valores permitidos están en el rango de -1 (más oscuro) a 1 (más claro) para esta propiedad.
 
-Establecer esta propiedad para[`Font`](../) objeto con colores no temáticos da como resultado unInvalidOperationException.
+Cero (0) es neutral.
 
 ## Ejemplos
 
@@ -32,7 +39,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Crea algún estilo con las propiedades de fuente del tema.
+// Crea algo de estilo con las propiedades de fuente del tema.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;

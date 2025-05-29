@@ -3,16 +3,16 @@ title: Hyphenation Class
 linktitle: Hyphenation
 articleTitle: Hyphenation
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Hyphenation clase. Proporciona métodos para trabajar con diccionarios de separación de palabras. Estos diccionarios prescriben dónde se pueden dividir con guiones las palabras de un idioma específico en C#.
+description: Descubra la clase Aspose.Words.Hyphenation para una gestión eficiente de la separación de palabras. Mejore sus documentos con reglas de separación precisas y específicas para cada idioma.
 type: docs
-weight: 3150
+weight: 3580
 url: /es/net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
 
-Proporciona métodos para trabajar con diccionarios de separación de palabras. Estos diccionarios prescriben dónde se pueden dividir con guiones las palabras de un idioma específico.
+Proporciona métodos para trabajar con diccionarios de separación de palabras. Estos diccionarios indican dónde se pueden separar las palabras de un idioma específico.
 
-Para obtener más información, visite el[Trabajar con separación de palabras](https://docs.aspose.com/words/net/working-with-hyphenation/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con la separación de palabras](https://docs.aspose.com/words/net/working-with-hyphenation/) Artículo de documentación.
 
 ```csharp
 public static class Hyphenation
@@ -22,16 +22,16 @@ public static class Hyphenation
 
 | Nombre | Descripción |
 | --- | --- |
-| static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | Obtiene o establece la interfaz de devolución de llamada utilizada para solicitar diccionarios cuando se crea el diseño de página del documento. Esto permite retrasar la carga de diccionarios, lo que puede resultar útil al procesar documentos en muchos idiomas. |
-| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | Se llama durante la carga de patrones de separación de palabras, cuando se detecta un problema que podría provocar una pérdida de fidelidad del formato. |
+| static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | Obtiene o establece la interfaz de devolución de llamada utilizada para solicitar diccionarios cuando se crea el diseño de página del documento. Esto permite retrasar la carga de diccionarios, lo que puede ser útil al procesar documentos en muchos idiomas. |
+| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | Se llama durante la carga de patrones de separación de palabras, cuando se detecta un problema que podría resultar en la pérdida de fidelidad del formato. |
 
 ## Métodos
 
 | Nombre | Descripción |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Devoluciones`FALSO` si para el idioma especificado no hay ningún diccionario registrado o si el registrado es un diccionario nulo,`verdadero` de lo contrario. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Registra y carga un diccionario de separación de palabras para el idioma especificado desde una secuencia. Se lanza si el diccionario no se puede leer o tiene un formato no válido. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Registra y carga un diccionario de separación de palabras para el idioma especificado desde el archivo. Se lanza si el diccionario no se puede leer o tiene un formato no válido. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Devuelve`FALSO` Si para el idioma especificado no hay ningún diccionario registrado o si el registrado es un diccionario Nulo,`verdadero` de lo contrario. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Registra y carga un diccionario de separación de palabras para el idioma especificado desde un flujo. Se lanza una excepción si el diccionario no se puede leer o tiene un formato no válido. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Registra y carga un diccionario de separación de palabras para el idioma especificado desde un archivo. Se genera una excepción si el diccionario no se puede leer o tiene un formato no válido. |
 | static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Anula el registro de un diccionario de separación de palabras para el idioma especificado. |
 
 ## Ejemplos
@@ -45,20 +45,20 @@ public void RegisterDictionary()
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registre un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
+    // Registrar un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Abra un documento con una configuración regional en la que Microsoft Word no puede dividir con guiones en una máquina en inglés, como el alemán.
+    // Abra un documento con una configuración regional que Microsoft Word no pueda separar en una máquina que use inglés, como por ejemplo alemán.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Para dividir ese documento con guiones al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
+    // Para separar palabras de ese documento al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
     // Esta devolución de llamada manejará la solicitud automática de ese diccionario.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Cuando guardemos el documento, la separación de palabras en alemán entrará en vigor.
+    // Cuando guardemos el documento, la separación de palabras en alemán tendrá efecto.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Este diccionario contiene dos patrones idénticos, lo que activará una advertencia.
@@ -67,6 +67,7 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>

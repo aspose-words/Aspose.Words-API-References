@@ -3,14 +3,14 @@ title: DocumentProperty.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words para .NET
-description: DocumentProperty ToByteArray método. Devuelve el valor de la propiedad como matriz de bytes en C#.
+description: Convierte DocumentProperty en una matriz de bytes fácilmente con el método ToByteArray. ¡Optimiza la gestión de datos y mejora la eficiencia de tu codificación!
 type: docs
 weight: 70
 url: /es/net/aspose.words.properties/documentproperty/tobytearray/
 ---
 ## DocumentProperty.ToByteArray method
 
-Devuelve el valor de la propiedad como matriz de bytes.
+Devuelve el valor de la propiedad como una matriz de bytes.
 
 ```csharp
 public byte[] ToByteArray()
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Si guardamos un documento, cuya propiedad "Miniatura" contiene datos de imagen que agregamos, como un Epub,
+// Si guardamos un documento, cuya propiedad "Miniatura" contiene datos de imágenes que agregamos, como un Epub,
 // un lector que abre ese documento puede mostrar la imagen antes de la primera página.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
@@ -38,7 +38,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Podemos extraer la imagen en miniatura de un documento y guardarla en el sistema de archivos local.
+//Podemos extraer la imagen en miniatura de un documento y guardarla en el sistema de archivos local.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

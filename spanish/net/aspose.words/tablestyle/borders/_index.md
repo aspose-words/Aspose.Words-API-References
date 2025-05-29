@@ -3,7 +3,7 @@ title: TableStyle.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words para .NET
-description: TableStyle Borders propiedad. Obtiene la colección de bordes de celda predeterminados para el estilo en C#.
+description: Descubra la propiedad TableStyle Borders para acceder a los bordes de celda predeterminados para sus estilos y mejorar su diseño con opciones personalizables y perfectas.
 type: docs
 weight: 40
 url: /es/net/aspose.words/tablestyle/borders/

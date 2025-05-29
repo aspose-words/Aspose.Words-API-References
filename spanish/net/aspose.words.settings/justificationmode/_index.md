@@ -3,14 +3,14 @@ title: JustificationMode Enum
 linktitle: JustificationMode
 articleTitle: JustificationMode
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.JustificationMode enumeración. Especifica el ajuste de espaciado de caracteres para un documento. El valor predeterminado esExpandir  en C#.
+description: Descubra la enumeración Aspose.Words JustificationMode para ajustar con precisión el espaciado entre caracteres en sus documentos. ¡Mejore la legibilidad con ajustes personalizables!
 type: docs
-weight: 5800
+weight: 6630
 url: /es/net/aspose.words.settings/justificationmode/
 ---
 ## JustificationMode enumeration
 
-Especifica el ajuste de espaciado de caracteres para un documento. El valor predeterminado es`Expandir` .
+Especifica el ajuste del espaciado de caracteres para un documento. El valor predeterminado es`Expandir` .
 
 ```csharp
 public enum JustificationMode
@@ -20,19 +20,19 @@ public enum JustificationMode
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Expand | `0` |  |
-| Compress | `1` |  |
-| CompressKana | `2` |  |
+| Expand | `0` | No comprima el espaciado entre caracteres. |
+| Compress | `1` | Comprimir el espaciado entre caracteres. |
+| CompressKana | `2` | Comprimir, utilizando reglas de los silabarios kana, hiragana y katakana. |
 
 ## Ejemplos
 
-Muestra cómo gestionar el control de espaciado entre caracteres.
+Muestra cómo administrar el control del espaciado entre caracteres.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 JustificationMode justificationMode = doc.JustificationMode;
-if (justificationMode == JustificationMode.Expand)                
+if (justificationMode == JustificationMode.Expand)
     doc.JustificationMode = JustificationMode.Compress;
 
 doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");

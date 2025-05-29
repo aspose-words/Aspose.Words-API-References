@@ -3,14 +3,14 @@ title: Section.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words para .NET
-description: Section EnsureMinimum método. Asegura que la sección tieneBody con unoParagraph  en C#.
+description: Optimice su contenido con el método EnsureMinimum, garantizando que cada sección incluya un Cuerpo con un Párrafo para una mayor claridad y estructura.
 type: docs
-weight: 130
+weight: 150
 url: /es/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
 
-Asegura que la sección tiene[`Body`](../body/) con uno[`Paragraph`](../../paragraph/) .
+Asegura que la sección tenga[`Body`](../body/) con uno[`Paragraph`](../../paragraph/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -18,13 +18,13 @@ public void EnsureMinimum()
 
 ## Ejemplos
 
-Muestra cómo preparar un nuevo nodo de sección para editarlo.
+Muestra cómo preparar un nuevo nodo de sección para su edición.
 
 ```csharp
 Document doc = new Document();
 
-// Un documento en blanco viene con una sección, la cual tiene un cuerpo, que a su vez tiene un párrafo.
-// Podemos agregar contenido a este documento agregando elementos como textos, formas o tablas a ese párrafo.
+// Un documento en blanco viene con una sección, que tiene un cuerpo, que a su vez tiene un párrafo.
+//Podemos agregar contenidos a este documento añadiendo elementos como líneas de texto, formas o tablas a ese párrafo.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);

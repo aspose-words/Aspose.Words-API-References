@@ -3,14 +3,14 @@ title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: BorderCollection Item propiedad. Recupera unBorder objeto por tipo de borde en C#.
+description: Descubre la propiedad Elemento BorderCollection para acceder fácilmente a los objetos Border por tipo. Optimiza tu diseño con una gestión eficiente de bordes.
 type: docs
 weight: 60
 url: /es/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Recupera un[`Border`](../../border/) objeto por tipo de borde.
+Recupera una[`Border`](../../border/) objeto por tipo de borde.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -22,7 +22,7 @@ public Border this[BorderType borderType] { get; }
 
 ## Observaciones
 
-Tenga en cuenta que no todos los bordes están presentes para diferentes elementos del documento. Este método genera una excepción si solicita un borde que no se aplica al objeto actual.
+Tenga en cuenta que no todos los bordes están presentes para los diferentes elementos del documento. Este método genera una excepción si solicita un borde que no es aplicable al objeto actual.
 
 ## Ejemplos
 
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Recupera un[`Border`](../../border/) objeto por index.
+Recupera una[`Border`](../../border/) objeto por índice.
 
 ```csharp
 public Border this[int index] { get; }
@@ -68,7 +68,7 @@ public Border this[int index] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Índice de base cero del borde que se va a recuperar. |
+| index | Índice basado en cero del borde a recuperar. |
 
 ## Ejemplos
 
@@ -81,7 +81,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Dado que usamos la misma configuración de borde al crear
+// Dado que utilizamos la misma configuración de borde al crear
 // estos párrafos, sus colecciones de bordes comparten los mismos elementos.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
@@ -95,14 +95,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Después de cambiar el estilo de línea de los bordes sólo en el segundo párrafo,
-// las colecciones fronterizas ya no comparten los mismos elementos.
+//Después de cambiar el estilo de línea de los bordes solo en el segundo párrafo,
+//Las colecciones de borde ya no comparten los mismos elementos.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Cambiar la apariencia de un borde vacío lo hace visible.
+    //Cambiar la apariencia de un borde vacío lo hace visible.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

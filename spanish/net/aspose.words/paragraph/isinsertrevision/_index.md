@@ -3,7 +3,7 @@ title: Paragraph.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: Aspose.Words para .NET
-description: Paragraph IsInsertRevision propiedad. Devuelve verdadero si este objeto se insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado en C#.
+description: Descubra la propiedad IsInsertRevision del párrafo en Word. Aprenda cómo identifica el texto insertado durante el seguimiento de cambios para una gestión eficiente de documentos.
 type: docs
 weight: 110
 url: /es/net/aspose.words/paragraph/isinsertrevision/
@@ -29,7 +29,7 @@ para.AppendChild(new Run(doc, "Paragraph 1. "));
 body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
-// Los párrafos anteriores no son revisiones.
+//Los párrafos anteriores no son revisiones.
 // Los párrafos que agreguemos después de iniciar el seguimiento de revisiones se registrarán como revisiones "Insertar".
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
@@ -45,8 +45,8 @@ Assert.AreEqual(4, paragraphs.Count);
 para = paragraphs[2];
 para.Remove();
 
-// Dichos párrafos permanecerán hasta que aceptemos o rechacemos la revisión eliminada.
-// Aceptar la revisión eliminará el párrafo para siempre,
+//Estos párrafos permanecerán hasta que aceptemos o rechacemos la revisión de eliminación.
+// Al aceptar la revisión se eliminará el párrafo definitivamente.
 // y rechazar la revisión la dejará en el documento como si nunca la hubiéramos eliminado.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
@@ -55,7 +55,7 @@ Assert.True(para.IsDeleteRevision);
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);
-Assert.That(para, Is.Empty);
+Assert.AreEqual(0, para.Count);
 Assert.AreEqual(
     "Paragraph 1. \r" +
     "Paragraph 2. \r" +

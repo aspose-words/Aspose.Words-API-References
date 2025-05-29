@@ -3,14 +3,14 @@ title: FieldDatabase.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words para .NET
-description: FieldDatabase FileName propiedad. Obtiene o establece la ruta completa y el nombre de archivo de la base de datos en C#.
+description: Descubra la propiedad FieldDatabase FileName para administrar fácilmente la ruta completa y el nombre de archivo de su base de datos, mejorando la organización y el acceso a sus datos.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fielddatabase/filename/
 ---
 ## FieldDatabase.FileName property
 
-Obtiene o establece la ruta completa y el nombre de archivo de la base de datos
+Obtiene o establece la ruta completa y el nombre del archivo de la base de datos
 
 ```csharp
 public string FileName { get; set; }
@@ -48,13 +48,13 @@ field.Query =
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Esta propiedad es el índice del formato que queremos usar para nuestra tabla. La lista de formatos de tabla se encuentra en el menú "Autoformato de tabla..."
-// que aparece cuando creamos un campo BASE DE DATOS en Microsoft Word. El índice #10 corresponde al formato "Colorful 3".
+Esta propiedad es el índice del formato que queremos usar para nuestra tabla. La lista de formatos de tabla se encuentra en el menú "Autoformato de tabla..."
+// que aparece al crear un campo de BASE DE DATOS en Microsoft Word. El índice 10 corresponde al formato "Colorful 3".
 field.TableFormat = "10";
 
-// La propiedad FormatAttribute es una representación de cadena de un número entero que almacena múltiples indicadores.
-// Podemos aplicar patriarcalmente el formato al que apunta la propiedad TableFormat estableciendo diferentes indicadores en esta propiedad.
-// El número que usamos es la suma de una combinación de valores correspondientes a diferentes aspectos del estilo de la tabla.
+// La propiedad FormatAttribute es una representación de cadena de un entero que almacena múltiples indicadores.
+//Podemos aplicar de forma patriarcal el formato al que apunta la propiedad TableFormat estableciendo diferentes indicadores en esta propiedad.
+// El número que utilizamos es la suma de una combinación de valores correspondientes a diferentes aspectos del estilo de la tabla.
 // 63 representa 1 (bordes) + 2 (sombreado) + 4 (fuente) + 8 (color) + 16 (ajuste automático) + 32 (filas de encabezado).
 field.FormatAttributes = "63";
 field.InsertHeadings = true;

@@ -3,9 +3,9 @@ title: Font.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words para .NET
-description: Font Shading propiedad. Devuelve unShading objeto que hace referencia al formato de sombreado de la fuente en C#.
+description: Descubra la propiedad Sombreado de fuente, que proporciona un objeto Sombreado para un formato de fuente personalizable, mejorando el atractivo visual de su texto.
 type: docs
-weight: 320
+weight: 330
 url: /es/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Color = Color.White;
 
-// Una forma de hacer visible el texto creado usando nuestro color de fuente blanco
+// Una forma de hacer visible el texto creado con nuestro color de fuente blanco
 // es aplicar un efecto de sombreado de fondo.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;

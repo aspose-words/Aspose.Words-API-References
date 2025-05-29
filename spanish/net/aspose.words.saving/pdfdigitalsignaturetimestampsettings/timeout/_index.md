@@ -3,7 +3,7 @@ title: PdfDigitalSignatureTimestampSettings.Timeout
 linktitle: Timeout
 articleTitle: Timeout
 second_title: Aspose.Words para .NET
-description: PdfDigitalSignatureTimestampSettings Timeout propiedad. Valor de tiempo de espera para acceder al servidor de marca de tiempo en C#.
+description: Optimice su firma digital PDF con configuraciones de tiempo de espera personalizables para un acceso sin problemas a los servidores de marca de tiempo. ¡Mejore la seguridad y la eficiencia hoy mismo!
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
@@ -22,29 +22,29 @@ El valor predeterminado es 100 segundos.
 
 ## Ejemplos
 
-Muestra cómo firmar digitalmente un documento PDF guardado y ponerle una marca de tiempo.
+Muestra cómo firmar digitalmente un documento PDF guardado y marcarlo con una marca de tiempo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
-// para modificar cómo ese método convierte el documento a .PDF.
+// Crea un objeto "PdfSaveOptions" que podamos pasar al método "Guardar" del documento
+// para modificar la forma en que ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // Crea una firma digital y asígnala a nuestro objeto SaveOptions para firmar el documento cuando lo guardemos en PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Crea una marca de tiempo verificada por la autoridad.
+// Crea una marca de tiempo verificada por la autoridad de marca de tiempo.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MiContraseña");
 
 // La vida útil predeterminada de la marca de tiempo es de 100 segundos.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// Podemos establecer nuestro período de tiempo de espera mediante el constructor.
+//Podemos establecer nuestro período de tiempo de espera a través del constructor.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "Mi contraseña", TimeSpan.FromMinutes(30));
 

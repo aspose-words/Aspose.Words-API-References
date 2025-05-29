@@ -3,14 +3,14 @@ title: GlossaryDocument.LastBuildingBlock
 linktitle: LastBuildingBlock
 articleTitle: LastBuildingBlock
 second_title: Aspose.Words para .NET
-description: GlossaryDocument LastBuildingBlock propiedad. Obtiene el último bloque de construcción del documento del glosario en C#.
+description: Descubra la propiedad LastBuildingBlock en GlossaryDocument, que permite un fácil acceso al bloque de construcción final para una mejor gestión de documentos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
 ---
 ## GlossaryDocument.LastBuildingBlock property
 
-Obtiene el último bloque de construcción del documento del glosario.
+Obtiene el último bloque de construcción en el documento del glosario.
 
 ```csharp
 public BuildingBlock LastBuildingBlock { get; }
@@ -18,11 +18,11 @@ public BuildingBlock LastBuildingBlock { get; }
 
 ## Observaciones
 
-Devoluciones`nulo` si no hay bloques de construcción disponibles.
+Devuelve`nulo` si no hay bloques de construcción disponibles.
 
 ## Ejemplos
 
-Muestra formas de acceder a bloques de construcción en un documento de glosario.
+Muestra formas de acceder a los bloques de construcción en un documento de glosario.
 
 ```csharp
 public void GlossaryDocument()
@@ -30,17 +30,22 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // Hay varias formas de acceder a los bloques de construcción.
+    //Hay varias formas de acceder a los bloques de construcción.
     // 1 - Obtener el primer/último bloque de construcción de la colección:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -56,15 +61,20 @@ public void GlossaryDocument()
     // Lo haremos usando un visitante personalizado,
     // que le dará a cada BuildingBlock en el GlossaryDocument un GUID único
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Visita el inicio/fin del documento Glosario.
     glossaryDoc.Accept(visitor);
+    // Visita solo el inicio del documento Glosario.
+    glossaryDoc.AcceptStart(visitor);
+    // Visita sólo el final del documento Glosario.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // En Microsoft Word, podemos acceder a los bloques de construcción mediante "Insertar" -> "Partes rápidas" -> "Organizador de bloques de construcción".
+    // En Microsoft Word, podemos acceder a los bloques de construcción a través de "Insertar" -> "Elementos rápidos" -> "Organizador de bloques de construcción".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Proporciona a cada bloque de construcción de un documento de glosario visitado un GUID único.
+/// Le otorga a cada bloque de construcción en un documento de glosario visitado un GUID único.
 /// Almacena los pares de bloques de construcción GUID en un diccionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor

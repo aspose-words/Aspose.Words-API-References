@@ -3,7 +3,7 @@ title: StyleCollection.DefaultFont
 linktitle: DefaultFont
 articleTitle: DefaultFont
 second_title: Aspose.Words para .NET
-description: StyleCollection DefaultFont propiedad. Obtiene el formato de texto predeterminado del documento en C#.
+description: Descubra la propiedad DefaultFont de StyleCollection para un formato de texto uniforme. Mejore sus documentos con un estilo uniforme y profesional.
 type: docs
 weight: 20
 url: /es/net/aspose.words/stylecollection/defaultfont/
@@ -28,7 +28,7 @@ Muestra cómo agregar un estilo a la colección de estilos de un documento.
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// Establece parámetros predeterminados para nuevos estilos que luego podremos agregar a esta colección.
+// Establezca parámetros predeterminados para nuevos estilos que podamos agregar más adelante a esta colección.
 styles.DefaultFont.Name = "Courier New";
 // Si agregamos un estilo de "StyleType.Paragraph", la colección aplicará los valores de
 // su propiedad "DefaultParagraphFormat" a la propiedad "ParagraphFormat" del estilo.

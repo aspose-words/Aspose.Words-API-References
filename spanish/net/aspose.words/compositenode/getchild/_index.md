@@ -3,14 +3,14 @@ title: CompositeNode.GetChild
 linktitle: GetChild
 articleTitle: GetChild
 second_title: Aspose.Words para .NET
-description: CompositeNode GetChild método. Devuelve un enésimo nodo secundario que coincide con el tipo especificado en C#.
+description: Descubra el método CompositeNode GetChild para recuperar fácilmente el nodo hijo N de un tipo específico, mejorando la eficiencia de la gestión de datos.
 type: docs
-weight: 80
+weight: 100
 url: /es/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
 
-Devuelve un enésimo nodo secundario que coincide con el tipo especificado.
+Devuelve un nodo secundario N que coincide con el tipo especificado.
 
 ```csharp
 public Node GetChild(NodeType nodeType, int index, bool isDeep)
@@ -19,18 +19,18 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | nodeType | NodeType | Especifica el tipo de nodo secundario. |
-| index | Int32 | Índice de base cero del nodo secundario a seleccionar. También se permiten índices negativos e indican acceso desde el final, es decir -1 significa el último nodo. |
-| isDeep | Boolean | `verdadero` para seleccionar de todos los nodos secundarios de forma recursiva; `FALSO`para seleccionar sólo entre los hijos inmediatos. Ver comentarios para más información. |
+| index | Int32 | Índice basado en cero del nodo hijo a seleccionar. También se permiten índices negativos e indican acceso desde el final, es decir -1 significa el último nodo. |
+| isDeep | Boolean | `verdadero` para seleccionar entre todos los nodos secundarios de forma recursiva; `FALSO` Para seleccionar solo entre los hijos inmediatos. Ver comentarios para más información. |
 
 ### Valor_devuelto
 
-El nodo hijo que coincide con los criterios o`nulo` si no se encuentra ningún nodo coincidente.
+El nodo secundario que coincide con los criterios o`nulo` si no se encuentra ningún nodo coincidente.
 
 ## Observaciones
 
-Si el índice está fuera de rango, un`nulo` es regresado.
+Si el índice está fuera de rango, un`nulo` se devuelve.
 
-Tenga en cuenta que los nodos de marcado (StructuredDocumentTag ySmartTag ) se recorren incluso cuando*isDeep* =`FALSO` y`GetChild` se invoca para el tipo de nodo sin marcado. Por ejemplo, si la primera ejecución en para está envuelta en un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , todavía será devuelto por`GetChild`(Run , 0,`FALSO`).
+Tenga en cuenta que los nodos de marcado (StructuredDocumentTag ySmartTag ) se recorren incluso cuando*isDeep* =`FALSO` y`GetChild` Se invoca para un tipo de nodo sin marcado. Por ejemplo, si la primera ejecución de un para está envuelta en un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , todavía será devuelto por`GetChild`(Run , 0,`FALSO`).
 
 ## Ejemplos
 
@@ -72,7 +72,7 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Tenga en cuenta que 'CustomNodeId' no se guarda en un archivo de salida y existe solo durante la vida útil del nodo.
+// Tenga en cuenta que 'CustomNodeId' no se guarda en un archivo de salida y solo existe durante la vida útil del nodo.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
@@ -80,7 +80,7 @@ paragraph.AppendChild(shape);
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterar a través de la colección de hijos inmediatos del párrafo,
-// e imprimir cualquier corrida o forma que encontremos dentro.
+// e imprimir cualquier recorrido o forma que encontremos dentro.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

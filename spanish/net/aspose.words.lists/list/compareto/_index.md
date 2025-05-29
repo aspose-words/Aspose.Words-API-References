@@ -3,7 +3,7 @@ title: List.CompareTo
 linktitle: CompareTo
 articleTitle: CompareTo
 second_title: Aspose.Words para .NET
-description: List CompareTo método. Compara el objeto especificado con el objeto actual en C#.
+description: Descubra el método List CompareTo, compare objetos de manera eficiente y mejore sus habilidades de codificación con esta herramienta de programación esencial.
 type: docs
 weight: 90
 url: /es/net/aspose.words.lists/list/compareto/

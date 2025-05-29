@@ -3,14 +3,14 @@ title: ShapeBase.HRef
 linktitle: HRef
 articleTitle: HRef
 second_title: Aspose.Words para .NET
-description: ShapeBase HRef propiedad. Obtiene o establece la dirección completa del hipervínculo para una forma en C#.
+description: Descubra la propiedad ShapeBase HRef para administrar fácilmente direcciones de hipervínculos completas para sus formas, mejorando la interactividad y la funcionalidad de su diseño.
 type: docs
-weight: 230
+weight: 250
 url: /es/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
 
-Obtiene o establece la dirección completa del hipervínculo para una forma.
+Obtiene o establece la dirección de hipervínculo completa para una forma.
 
 ```csharp
 public string HRef { get; set; }
@@ -24,15 +24,15 @@ A continuación se muestran ejemplos de valores válidos para esta propiedad:
 
 URI completa:`https://www.aspose.com/`.
 
-Nombre completo del archivo:`C:\\Mis documentos\\SalesReport.doc`.
+Nombre completo del archivo:`C:\\Mis documentos\\Informe de ventas.doc`.
 
 URI relativa:`../../../recurso.txt`
 
-Nombre de archivo relativo:`..\\Mis documentos\\SalesReport.doc`.
+Nombre de archivo relativo:`..\\Mis documentos\\Informe de ventas.doc`.
 
-Marcar dentro de otro documento:`https://www.aspose.com/Products/Default.aspx#Suites`
+Marcador dentro de otro documento:`https://www.aspose.com/Products/Default.aspx#Suites`
 
-Marcar dentro de este documento:`#NombreDeBookmak`.
+Marcador dentro de este documento:`#NombreDeLaMarcaDeLibro`.
 
 ## Ejemplos
 
@@ -47,7 +47,7 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + clic izquierdo en la forma en Microsoft Word abrirá una nueva ventana del navegador web
+// Al presionar Ctrl + clic izquierdo en la forma en Microsoft Word se abrirá una nueva ventana del navegador web
 // y nos lleva al hipervínculo en la propiedad "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```

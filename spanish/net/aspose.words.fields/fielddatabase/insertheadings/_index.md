@@ -3,14 +3,14 @@ title: FieldDatabase.InsertHeadings
 linktitle: InsertHeadings
 articleTitle: InsertHeadings
 second_title: Aspose.Words para .NET
-description: FieldDatabase InsertHeadings propiedad. Obtiene o establece si se deben insertar los nombres de los campos de la base de datos como encabezados de columna en la tabla resultante en C#.
+description: Administre su base de datos eficientemente con la propiedad FieldDatabase InsertHeadings. Personalice fácilmente los encabezados de columna para una presentación más clara de los datos.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fielddatabase/insertheadings/
 ---
 ## FieldDatabase.InsertHeadings property
 
-Obtiene o establece si se deben insertar los nombres de los campos de la base de datos como encabezados de columna en la tabla resultante.
+Obtiene o establece si se deben insertar los nombres de campo de la base de datos como encabezados de columna en la tabla resultante.
 
 ```csharp
 public bool InsertHeadings { get; set; }
@@ -48,13 +48,13 @@ field.Query =
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Esta propiedad es el índice del formato que queremos usar para nuestra tabla. La lista de formatos de tabla se encuentra en el menú "Autoformato de tabla..."
-// que aparece cuando creamos un campo BASE DE DATOS en Microsoft Word. El índice #10 corresponde al formato "Colorful 3".
+Esta propiedad es el índice del formato que queremos usar para nuestra tabla. La lista de formatos de tabla se encuentra en el menú "Autoformato de tabla..."
+// que aparece al crear un campo de BASE DE DATOS en Microsoft Word. El índice 10 corresponde al formato "Colorful 3".
 field.TableFormat = "10";
 
-// La propiedad FormatAttribute es una representación de cadena de un número entero que almacena múltiples indicadores.
-// Podemos aplicar patriarcalmente el formato al que apunta la propiedad TableFormat estableciendo diferentes indicadores en esta propiedad.
-// El número que usamos es la suma de una combinación de valores correspondientes a diferentes aspectos del estilo de la tabla.
+// La propiedad FormatAttribute es una representación de cadena de un entero que almacena múltiples indicadores.
+//Podemos aplicar de forma patriarcal el formato al que apunta la propiedad TableFormat estableciendo diferentes indicadores en esta propiedad.
+// El número que utilizamos es la suma de una combinación de valores correspondientes a diferentes aspectos del estilo de la tabla.
 // 63 representa 1 (bordes) + 2 (sombreado) + 4 (fuente) + 8 (color) + 16 (ajuste automático) + 32 (filas de encabezado).
 field.FormatAttributes = "63";
 field.InsertHeadings = true;

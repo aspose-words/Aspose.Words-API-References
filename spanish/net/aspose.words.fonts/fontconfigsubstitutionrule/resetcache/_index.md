@@ -3,14 +3,14 @@ title: FontConfigSubstitutionRule.ResetCache
 linktitle: ResetCache
 articleTitle: ResetCache
 second_title: Aspose.Words para .NET
-description: FontConfigSubstitutionRule ResetCache método. Restablece el caché de los resultados de llamadas de fontconfig en C#.
+description: Optimice la gestión de fuentes con el método FontConfigSubstitutionRule ResetCache. Borre fácilmente los resultados de fontconfig para un mejor rendimiento.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 ---
 ## FontConfigSubstitutionRule.ResetCache method
 
-Restablece el caché de los resultados de llamadas de fontconfig.
+Restablece el caché de los resultados de las llamadas a fontconfig.
 
 ```csharp
 public void ResetCache()
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// El objeto FontConfigSubstitutionRule funciona de forma diferente en plataformas Windows o no Windows.
+// El objeto FontConfigSubstitutionRule funciona de manera diferente en plataformas Windows y no Windows.
 // En Windows, no está disponible.
 if (isWindows)
 {

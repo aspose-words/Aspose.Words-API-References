@@ -3,9 +3,9 @@ title: FontInfo.Family
 linktitle: Family
 articleTitle: Family
 second_title: Aspose.Words para .NET
-description: FontInfo Family propiedad. Obtiene o establece la familia de fuentes a la que pertenece esta fuente en C#.
+description: Descubra la propiedad Familia FontInfo para administrar y personalizar fácilmente la configuración de su familia de fuentes para obtener una mayor flexibilidad y estilo de diseño.
 type: docs
-weight: 30
+weight: 40
 url: /es/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Los nombres alternativos suelen estar en blanco.
+        // Los nombres Alt normalmente están en blanco.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

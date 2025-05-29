@@ -3,14 +3,14 @@ title: CompositeNode.IsComposite
 linktitle: IsComposite
 articleTitle: IsComposite
 second_title: Aspose.Words para .NET
-description: CompositeNode IsComposite propiedad. Devolucionesverdadero ya que este nodo puede tener nodos secundarios en C#.
+description: Descubra la propiedad IsComposite de CompositeNode. Compruebe fácilmente si un nodo admite nodos secundarios para una mejor gestión de la estructura de datos.
 type: docs
 weight: 40
 url: /es/net/aspose.words/compositenode/iscomposite/
 ---
 ## CompositeNode.IsComposite property
 
-Devoluciones`verdadero` ya que este nodo puede tener nodos secundarios.
+Devuelve`verdadero` ya que este nodo puede tener nodos secundarios.
 
 ```csharp
 public override bool IsComposite { get; }
@@ -28,13 +28,13 @@ public void RecurseChildren()
     // Cualquier nodo que pueda contener nodos secundarios, como el propio documento, es compuesto.
     Assert.True(doc.IsComposite);
 
-    // Invoca la función recursiva que revisará e imprimirá todos los nodos secundarios de un nodo compuesto.
+    // Invoca la función recursiva que recorrerá e imprimirá todos los nodos secundarios de un nodo compuesto.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Atraviesa recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
-/// con una sangría que depende de la profundidad y del contenido de todos los nodos en línea.
+/// Recorre recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
+/// con una sangría dependiendo de la profundidad así como del contenido de todos los nodos en línea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Recurre al nodo si es un nodo compuesto. De lo contrario, imprima su contenido si es un nodo en línea.
+        // Recurse al nodo si es compuesto. De lo contrario, imprima su contenido si es un nodo en línea.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

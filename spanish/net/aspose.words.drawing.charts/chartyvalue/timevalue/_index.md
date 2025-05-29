@@ -3,7 +3,7 @@ title: ChartYValue.TimeValue
 linktitle: TimeValue
 articleTitle: TimeValue
 second_title: Aspose.Words para .NET
-description: ChartYValue TimeValue propiedad. Obtiene el valor de tiempo almacenado en C#.
+description: Descubra la propiedad TimeValue de ChartYValue para acceder y administrar fácilmente sus valores de tiempo almacenados para una mejor visualización y análisis de datos.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing.charts/chartyvalue/timevalue/

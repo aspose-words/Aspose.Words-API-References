@@ -3,7 +3,7 @@ title: NodeChangingArgs.OldParent
 linktitle: OldParent
 articleTitle: OldParent
 second_title: Aspose.Words para .NET
-description: NodeChangingArgs OldParent propiedad. Obtiene el padre del nodo antes de que comenzara la operación en C#.
+description: Descubra la propiedad NodeChangingArgs OldParent, que recupera el nodo padre antes de los cambios, lo que garantiza operaciones fluidas y una mejor gestión de datos.
 type: docs
 weight: 40
 url: /es/net/aspose.words/nodechangingargs/oldparent/
@@ -18,7 +18,7 @@ public Node OldParent { get; }
 
 ## Ejemplos
 
-Muestra cómo utilizar NodeChangingCallback para monitorear los cambios en el árbol del documento en tiempo real a medida que lo editamos.
+Muestra cómo utilizar un NodeChangingCallback para monitorear los cambios en el árbol del documento en tiempo real mientras lo editamos.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,12 +35,7 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }

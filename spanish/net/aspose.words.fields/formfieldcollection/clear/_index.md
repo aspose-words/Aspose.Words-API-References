@@ -3,14 +3,14 @@ title: FormFieldCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words para .NET
-description: FormFieldCollection Clear método. Elimina todos los campos del formulario de esta colección y del documento en C#.
+description: Borre sin esfuerzo todos los campos de formulario de su documento con el método FormFieldCollection Clear, lo que garantiza un espacio de trabajo optimizado y organizado.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/formfieldcollection/clear/
 ---
 ## FormFieldCollection.Clear method
 
-Elimina todos los campos del formulario de esta colección y del documento.
+Elimina todos los campos de formulario de esta colección y del documento.
 
 ```csharp
 public void Clear()
@@ -18,7 +18,7 @@ public void Clear()
 
 ## Ejemplos
 
-Muestra cómo insertar diferentes tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
+Muestra cómo insertar distintos tipos de campos de formulario en un documento y procesarlos mediante una implementación de visitante de documentos.
 
 ```csharp
 public void Visitor()
@@ -61,19 +61,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // Esta colección contiene todos nuestros campos de formulario.
+    //Esta colección contiene todos nuestros campos de formulario.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Los campos muestran nuestros campos de formulario. Podemos ver sus códigos de campo abriendo este documento.
-    // en Microsoft y presionando Alt + F9. Estos campos no tienen interruptores,
+    // Campos muestra los campos de nuestro formulario. Podemos ver sus códigos de campo abriendo este documento.
+    // en Microsoft y presionando Alt + F9. Estos campos no tienen modificadores.
     // y los miembros del objeto FormField gobiernan completamente el contenido de sus campos de formulario.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Permitir que cada campo del formulario acepte un visitante del documento.
+    // Permitir que cada campo de formulario acepte un visitante del documento.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -87,7 +87,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Implementación del visitante que imprime detalles de los campos del formulario que visita.
+ /// Implementación de visitante que imprime detalles de los campos de formulario que visita.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -123,12 +123,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Permitir que el visitante continúe visitando otros nodos.
+        //Deja que el visitante continúe visitando otros nodos.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Agrega texto terminado en caracteres de nueva línea a la salida actual.
+    /// Agrega texto terminado en carácter de nueva línea a la salida actual.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -136,7 +136,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

@@ -3,9 +3,9 @@ title: TextWrapping Enum
 linktitle: TextWrapping
 articleTitle: TextWrapping
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Tables.TextWrapping enumeración. Especifica cómo se ajusta el texto alrededor de la tabla en C#.
+description: Descubre la enumeración Aspose.Words.Tables.TextWrapping para ajustar el texto de forma eficiente alrededor de las tablas. ¡Mejora el formato de tus documentos fácilmente!
 type: docs
-weight: 6380
+weight: 7230
 url: /es/net/aspose.words.tables/textwrapping/
 ---
 ## TextWrapping enumeration
@@ -43,7 +43,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// Establece la propiedad "TextWrapping" en "TextWrapping.Around" para que la tabla ajuste el texto a su alrededor,
+// Establezca la propiedad "TextWrapping" en "TextWrapping.Around" para que la tabla ajuste el texto a su alrededor.
 // y empújelo hacia abajo en el párrafo siguiente estableciendo la posición.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;

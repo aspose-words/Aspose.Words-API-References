@@ -3,7 +3,7 @@ title: ParagraphFormat.BaselineAlignment
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
 second_title: Aspose.Words para .NET
-description: ParagraphFormat BaselineAlignment propiedad. Obtiene o establece la posición vertical de las fuentes en una línea en C#.
+description: Optimice el diseño de su texto con la propiedad ParagraphFormat BaselineAlignment, que permite un control preciso sobre la posición vertical de la fuente para una mejor legibilidad.
 type: docs
 weight: 40
 url: /es/net/aspose.words/paragraphformat/baselinealignment/
@@ -18,7 +18,7 @@ public BaselineAlignment BaselineAlignment { get; set; }
 
 ## Ejemplos
 
-Muestra cómo configurar la posición vertical de las fuentes en una línea.
+Muestra cómo establecer la posición vertical de las fuentes en una línea.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

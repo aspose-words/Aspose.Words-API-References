@@ -3,14 +3,14 @@ title: Field.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
 second_title: Aspose.Words para .NET
-description: Field IsDirty propiedad. Obtiene o establece si el resultado actual del campo ya no es correcto obsoleto debido a otras modificaciones realizadas en el documento en C#.
+description: Administre la propiedad IsDirty para garantizar que los datos de campo se mantengan precisos y actualizados, mejorando la integridad y el rendimiento del documento.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/field/isdirty/
 ---
 ## Field.IsDirty property
 
-Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas en el documento.
+Obtiene o establece si el resultado actual del campo ya no es correcto (obsoleto) debido a otras modificaciones realizadas al documento.
 
 ```csharp
 public bool IsDirty { get; set; }
@@ -24,14 +24,14 @@ Muestra cómo utilizar una propiedad especial para actualizar el resultado del c
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Proporcione el valor de propiedad "Autor" incorporado del documento y luego muéstrelo con un campo.
+// Proporcione el valor de la propiedad "Autor" incorporada del documento y luego muéstrelo con un campo.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
 Assert.False(field.IsDirty);
 Assert.AreEqual("John Doe", field.Result);
 
-// Actualiza la propiedad. El campo todavía muestra el valor anterior.
+// Actualizar la propiedad. El campo aún muestra el valor anterior.
 doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
@@ -56,7 +56,7 @@ using (MemoryStream docStream = new MemoryStream())
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
-    // La actualización de campos sucios como este establece automáticamente su indicador "IsDirty" en falso.
+    // Actualizar campos sucios como este establece automáticamente su indicador "IsDirty" en falso.
     if (updateDirtyFields)
     {
         Assert.AreEqual("John & Jane Doe", field.Result);

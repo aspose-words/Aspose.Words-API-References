@@ -3,14 +3,14 @@ title: CellFormat.HorizontalMerge
 linktitle: HorizontalMerge
 articleTitle: HorizontalMerge
 second_title: Aspose.Words para .NET
-description: CellFormat HorizontalMerge propiedad. Especifica cómo se fusiona la celda horizontalmente con otras celdas de la fila en C#.
+description: Descubra la propiedad CellFormat HorizontalMerge para combinar celdas horizontalmente sin problemas, mejorando el diseño y la organización de su hoja de cálculo.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
 
-Especifica cómo se fusiona la celda horizontalmente con otras celdas de la fila.
+Especifica cómo se fusiona la celda horizontalmente con otras celdas en la fila.
 
 ```csharp
 public CellMerge HorizontalMerge { get; set; }
@@ -18,7 +18,7 @@ public CellMerge HorizontalMerge { get; set; }
 
 ## Ejemplos
 
-Muestra cómo fusionar celdas de tablas horizontalmente.
+Muestra cómo fusionar celdas de una tabla horizontalmente.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserta una celda en la segunda columna de la primera fila. En lugar de agregar contenidos de texto,
-// fusionaremos esta celda con la primera celda que agregamos directamente a la izquierda.
+// Insertar una celda en la segunda columna de la primera fila. En lugar de añadir texto,
+// Fusionaremos esta celda con la primera celda que agregamos directamente a la izquierda.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
@@ -56,8 +56,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 

@@ -3,9 +3,9 @@ title: HtmlFixedSaveOptions.PageMargins
 linktitle: PageMargins
 articleTitle: PageMargins
 second_title: Aspose.Words para .NET
-description: HtmlFixedSaveOptions PageMargins propiedad. Especifica los márgenes alrededor de las páginas en un documento HTML. El valor de los márgenes se mide en puntos y debe ser igual o mayor que 0. El valor predeterminado es 10 puntos en C#.
+description: Descubra la propiedad HtmlFixedSaveOptions PageMargins para personalizar los márgenes de su documento HTML. Establezca valores en puntos para un control preciso del diseño.
 type: docs
-weight: 120
+weight: 130
 url: /es/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
@@ -22,11 +22,11 @@ Depende del valor de[`PageHorizontalAlignment`](../pagehorizontalalignment/) pro
 
 * Define los márgenes de página superior, inferior e izquierdo si el valor esLeft .
 * Define los márgenes de página superior, inferior y derecho si el valor esRight .
-* Define los márgenes superior e inferior de la página si el valor esCenter .
+* Define los márgenes de página superior e inferior si el valor esCenter .
 
 ## Ejemplos
 
-Muestra cómo ajustar los márgenes de la página al guardar un documento en HTML.
+Muestra cómo ajustar los márgenes de página al guardar un documento en HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

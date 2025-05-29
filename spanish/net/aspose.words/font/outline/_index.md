@@ -3,9 +3,9 @@ title: Font.Outline
 linktitle: Outline
 articleTitle: Outline
 second_title: Aspose.Words para .NET
-description: Font Outline propiedad. Verdadero si la fuente tiene el formato de contorno en C#.
+description: Descubre la propiedad Contorno de fuente. Formatea fácilmente las fuentes como contornos para un toque de diseño único. ¡Mejora tu tipografía con esta sencilla función!
 type: docs
-weight: 290
+weight: 300
 url: /es/net/aspose.words/font/outline/
 ---
 ## Font.Outline property
@@ -24,7 +24,7 @@ Muestra cómo crear una serie de texto con formato de esquema.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Establece la bandera Contorno para cambiar el color de relleno del texto a blanco y
+// Establezca la bandera Contorno para cambiar el color de relleno del texto a blanco y
  // deja un contorno fino alrededor de cada carácter en el color original del texto.
 builder.Font.Outline = true;
 builder.Font.Color = Color.Blue;

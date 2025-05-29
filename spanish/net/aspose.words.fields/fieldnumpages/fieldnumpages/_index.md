@@ -3,7 +3,7 @@ title: FieldNumPages
 linktitle: FieldNumPages
 articleTitle: FieldNumPages
 second_title: Aspose.Words para .NET
-description: FieldNumPages constructor. Constructor predeterminado en C#.
+description: Descubre el constructor FieldNumPages, la herramienta esencial para una gestión fluida de páginas en tus proyectos. ¡Aumenta la eficiencia y mejora tu experiencia de programación!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldnumpages/fieldnumpages/

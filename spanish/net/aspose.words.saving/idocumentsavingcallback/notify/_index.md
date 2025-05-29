@@ -3,14 +3,14 @@ title: IDocumentSavingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words para .NET
-description: IDocumentSavingCallback Notify método. Esto se llama para notificar el progreso de guardado del documento en C#.
+description: Monitorea el progreso de guardado de documentos con el método de notificación iDocumentSavingCallback. ¡Mejora la eficiencia y la experiencia de usuario de tu app hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback.Notify method
 
-Esto se llama para notificar el progreso de guardado del documento.
+Esto se llama para notificar el progreso del guardado del documento.
 
 ```csharp
 public void Notify(DocumentSavingArgs args)
@@ -22,20 +22,20 @@ public void Notify(DocumentSavingArgs args)
 
 ## Observaciones
 
-El uso principal de esta interfaz es permitir que el código de la aplicación obtenga el estado de progreso y cancele el proceso de guardado.
+Los usos principales de esta interfaz son permitir que el código de la aplicación obtenga el estado de progreso y cancele el proceso de guardado.
 
-Se debe generar una excepción desde la devolución de llamada de progreso para el aborto y se debe incluir en el código del consumidor.
+Se debe lanzar una excepción desde la devolución de llamada de progreso para el aborto y debe capturarse en el código del consumidor.
 
 ## Ejemplos
 
-Muestra cómo administrar un documento mientras se guarda en HTML.
+Muestra cómo administrar un documento mientras se guarda en html.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Se admiten los siguientes formatos: Html, Mhtml, Epub.
+    //Se admiten los siguientes formatos: Html, Mhtml, Epub.
     HtmlSaveOptions saveOptions = new HtmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -47,12 +47,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
+/// Retrollamada de progreso de guardado. Cancelar el guardado del documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro.
+    /// Ctr.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -60,7 +60,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Método de devolución de llamada que llamó durante el guardado del documento.
+    /// Método de devolución de llamada que se llamó durante el guardado del documento.
     /// </summary>
     /// <param name="args">Guardando argumentos.</param>
     public void Notify(DocumentSavingArgs args)
@@ -77,20 +77,20 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Duración máxima permitida en seg.
+    /// Duración máxima permitida en segundos.
     /// </summary>
     private const double MaxDuration = 0.1d;
 }
 ```
 
-Muestra cómo administrar un documento mientras se guarda en docx.
+Muestra cómo administrar un documento mientras se guarda en formato docx.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Se admiten los siguientes formatos: Docx, FlatOpc, Docm, Dotm, Dotx.
+    //Se admiten los siguientes formatos: Docx, FlatOpc, Docm, Dotm, Dotx.
     OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -102,12 +102,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
+/// Retrollamada de progreso de guardado. Cancelar el guardado del documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro.
+    /// Ctr.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -115,7 +115,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Método de devolución de llamada que llamó durante el guardado del documento.
+    /// Método de devolución de llamada que se llamó durante el guardado del documento.
     /// </summary>
     /// <param name="args">Guardando argumentos.</param>
     public void Notify(DocumentSavingArgs args)
@@ -132,7 +132,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Duración máxima permitida en seg.
+    /// Duración máxima permitida en segundos.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }
@@ -145,7 +145,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 {
     Document doc = new Document(MyDir + "Big document.docx");
 
-    // Se admiten los siguientes formatos: XamlFlow, XamlFlowPack.
+    //Se admiten los siguientes formatos: XamlFlow, XamlFlowPack.
     XamlFlowSaveOptions saveOptions = new XamlFlowSaveOptions(saveFormat)
     {
         ProgressCallback = new SavingProgressCallback()
@@ -157,12 +157,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Guardando la devolución de llamada de progreso. Cancele el guardado de un documento después de los segundos de "MaxDuration".
+/// Retrollamada de progreso de guardado. Cancelar el guardado del documento después de los segundos de "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Centro.
+    /// Ctr.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -170,7 +170,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Método de devolución de llamada que llamó durante el guardado del documento.
+    /// Método de devolución de llamada que se llamó durante el guardado del documento.
     /// </summary>
     /// <param name="args">Guardando argumentos.</param>
     public void Notify(DocumentSavingArgs args)
@@ -187,7 +187,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Duración máxima permitida en seg.
+    /// Duración máxima permitida en segundos.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }

@@ -3,9 +3,9 @@ title: ShapeBase.ZOrder
 linktitle: ZOrder
 articleTitle: ZOrder
 second_title: Aspose.Words para .NET
-description: ShapeBase ZOrder propiedad. Determina el orden de visualización de las formas superpuestas en C#.
+description: Descubra cómo la propiedad ShapeBase ZOrder mejora su diseño al controlar el orden de visualización de las formas superpuestas para un diseño más claro y organizado.
 type: docs
-weight: 610
+weight: 650
 url: /es/net/aspose.words.drawing/shapebase/zorder/
 ---
 ## ShapeBase.ZOrder property
@@ -22,7 +22,7 @@ Tiene efecto sólo para formas de nivel superior.
 
 El valor predeterminado es 0.
 
-El número representa la precedencia de apilamiento. Una forma con un número mayor se mostrará como si estuviera superpuesta (en "frente") a una forma con un número menor.
+El número representa la precedencia de apilamiento. Una forma con un número mayor se mostrará como si se superpusiera (delante de) una forma con un número menor.
 
 El orden de las formas superpuestas es independiente para las formas en el encabezado y en el texto main del documento.
 
@@ -36,7 +36,7 @@ Muestra cómo manipular el orden de las formas.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta tres rectángulos de diferentes colores que se superpongan parcialmente entre sí.
+// Inserte tres rectángulos de diferentes colores que se superpongan parcialmente entre sí.
 // Cuando insertamos una forma que se superpone a otra forma, Aspose.Words coloca la forma más nueva encima de la anterior.
 // El rectángulo verde claro se superpondrá al rectángulo azul claro y lo oscurecerá parcialmente.
 // y el rectángulo azul claro oscurecerá el rectángulo naranja.
@@ -55,11 +55,11 @@ shape.FillColor = Color.LightGreen;
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 // La propiedad "ZOrder" de una forma determina su prioridad de apilamiento entre otras formas superpuestas.
-// Si dos formas superpuestas tienen diferentes valores de "ZOrder",
-// Microsoft Word colocará la forma con un valor más alto sobre la forma con el valor más bajo. 
-// Establece los valores de "ZOrder" de nuestras formas para colocar el primer rectángulo naranja sobre el segundo azul claro
+// Si dos formas superpuestas tienen diferentes valores "ZOrder",
+ // Microsoft Word colocará la forma con un valor mayor sobre la forma con el valor menor.
+// Establezca los valores "ZOrder" de nuestras formas para colocar el primer rectángulo naranja sobre el segundo azul claro
 // y el segundo rectángulo azul claro sobre el tercer rectángulo verde claro.
-// Esto invertirá su orden de apilamiento original.
+// Esto revertirá su orden de apilamiento original.
 shapes[0].ZOrder = 3;
 shapes[1].ZOrder = 2;
 shapes[2].ZOrder = 1;

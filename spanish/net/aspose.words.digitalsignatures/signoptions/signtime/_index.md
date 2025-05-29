@@ -3,14 +3,14 @@ title: SignOptions.SignTime
 linktitle: SignTime
 articleTitle: SignTime
 second_title: Aspose.Words para .NET
-description: SignOptions SignTime propiedad. La fecha de firma. El valor predeterminado estiempo actual Now en C#.
+description: Descubra SignOptions SignTime para firmar sin esfuerzo. Configure fácilmente la fecha de firma con la hora actual predeterminada. ¡Optimice el procesamiento de sus documentos!
 type: docs
 weight: 70
 url: /es/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-La fecha de firma. El valor predeterminado es**tiempo actual** (Now).
+La fecha de firma. El valor predeterminado es**hora actual** (Now)
 
 ```csharp
 public DateTime SignTime { get; set; }
@@ -31,8 +31,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Tomar un documento sin firmar del sistema de archivos local a través de una secuencia de archivos,
-// luego crea una copia firmada determinada por el nombre de archivo de la secuencia del archivo de salida.
+// Tome un documento sin firmar del sistema de archivos local a través de un flujo de archivos,
+// luego crea una copia firmada determinada por el nombre del archivo de flujo de salida.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

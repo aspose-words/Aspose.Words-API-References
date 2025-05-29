@@ -3,7 +3,7 @@ title: FieldCompare.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words para .NET
-description: FieldCompare LeftExpression propiedad. Obtiene o establece la parte izquierda de la expresión de comparación en C#.
+description: Descubra la propiedad FieldCompare LeftExpression, acceda o modifique fácilmente el lado izquierdo de sus expresiones de comparación para un análisis de datos mejorado.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldcompare/leftexpression/
@@ -18,7 +18,7 @@ public string LeftExpression { get; set; }
 
 ## Ejemplos
 
-Muestra cómo comparar expresiones usando un campo COMPARE.
+Muestra cómo comparar expresiones utilizando un campo COMPARAR.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// El campo COMPARAR muestra un "0" o un "1", dependiendo de la veracidad de su declaración.
-// El resultado de esta declaración es falso por lo que este campo mostrará un "0".
+// El campo COMPARAR muestra un "0" o un "1", dependiendo de la veracidad de su afirmación.
+//El resultado de esta declaración es falso, por lo que este campo mostrará un "0".
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -43,7 +43,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// Este campo muestra un "1" ya que la afirmación es verdadera.
+//Este campo muestra un "1" ya que la declaración es verdadera.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

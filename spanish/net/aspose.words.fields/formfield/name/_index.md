@@ -3,14 +3,14 @@ title: FormField.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words para .NET
-description: FormField Name propiedad. Obtiene o establece el nombre del campo del formulario en C#.
+description: Descubra cómo administrar fácilmente la propiedad FormField Name para personalizar y optimizar sus formularios para una mejor participación del usuario y recopilación de datos.
 type: docs
 weight: 130
 url: /es/net/aspose.words.fields/formfield/name/
 ---
 ## FormField.Name property
 
-Obtiene o establece el nombre del campo del formulario.
+Obtiene o establece el nombre del campo de formulario.
 
 ```csharp
 public string Name { get; set; }
@@ -30,14 +30,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// Inserta un cuadro combinado que permitirá al usuario elegir una opción de una colección de cadenas.
+// Inserte un cuadro combinado que permitirá al usuario elegir una opción de una colección de cadenas.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// El campo del formulario aparecerá en forma de etiqueta html "seleccionada".
+//El campo de formulario aparecerá en forma de una etiqueta html "select".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

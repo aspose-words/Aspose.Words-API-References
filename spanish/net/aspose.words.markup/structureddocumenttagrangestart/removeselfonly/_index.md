@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RemoveSelfOnly
 linktitle: RemoveSelfOnly
 articleTitle: RemoveSelfOnly
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart RemoveSelfOnly método. Elimina este inicio de rango y los nodos de final de rango apropiados de la etiqueta del documento estructurado pero mantiene su contenido dentro del árbol del documento en C#.
+description: Elimine fácilmente el inicio de rangos de etiquetas de documentos estructurados, conservando el contenido. ¡Optimice la estructura de su documento con el método RemoveSelfOnly hoy mismo!
 type: docs
-weight: 240
+weight: 250
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/removeselfonly/
 ---
 ## StructuredDocumentTagRangeStart.RemoveSelfOnly method
 
-Elimina este inicio de rango y los nodos de final de rango apropiados de la etiqueta del documento estructurado, pero mantiene su contenido dentro del árbol del documento.
+Elimina los nodos de inicio y fin de rango correspondientes de la etiqueta del documento estructurado, pero mantiene su contenido dentro del árbol del documento.
 
 ```csharp
 public void RemoveSelfOnly()
@@ -18,7 +18,7 @@ public void RemoveSelfOnly()
 
 ## Ejemplos
 
-Muestra cómo crear/eliminar etiquetas de documentos estructurados y su contenido.
+Muestra cómo crear/eliminar la etiqueta de documento estructurado y su contenido.
 
 ```csharp
 public void SdtRangeExtendedMethods()
@@ -28,9 +28,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Elimina la etiqueta del documento estructurado por rangos, pero mantiene el contenido dentro.
+    // Elimina la etiqueta de documento estructurado con rango, pero mantiene el contenido dentro.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -43,25 +43,27 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Elimina la etiqueta del documento estructurado por rangos y el contenido del interior.
+    // Elimina la etiqueta del documento estructurado de rango y el contenido dentro.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

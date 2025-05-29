@@ -3,7 +3,7 @@ title: AxisBound.ValueAsDate
 linktitle: ValueAsDate
 articleTitle: ValueAsDate
 second_title: Aspose.Words para .NET
-description: AxisBound ValueAsDate propiedad. Devuelve el valor del límite del eje representado como fecha y hora en C#.
+description: Descubra la propiedad AxisBound ValueAsDate, que devuelve de manera eficiente valores limitados por ejes como fecha y hora para mejorar la visualización y el análisis de datos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing.charts/axisbound/valueasdate/
@@ -18,7 +18,7 @@ public DateTime ValueAsDate { get; }
 
 ## Ejemplos
 
-Muestra cómo establecer límites de eje personalizados.
+Muestra cómo establecer límites de ejes personalizados.
 
 ```csharp
 Document doc = new Document();
@@ -27,21 +27,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agrega una serie con dos matrices decimales. La primera matriz contiene los valores X,
-// y el segundo contiene los valores Y correspondientes a los puntos del gráfico de dispersión.
-chart.Series.Add("Series 1", 
-    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
+// Suma una serie con dos matrices decimales. La primera matriz contiene los valores de X.
+// y el segundo contiene valores Y correspondientes para los puntos en el gráfico de dispersión.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 },
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
-// De forma predeterminada, la escala predeterminada se aplica a los ejes X e Y del gráfico,
-// para que ambos rangos sean lo suficientemente grandes como para abarcar todos los valores X e Y de cada serie.
+// De forma predeterminada, la escala predeterminada se aplica a los ejes X e Y del gráfico.
+// de modo que ambos rangos sean lo suficientemente grandes para abarcar todos los valores X e Y de cada serie.
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
-// Podemos definir nuestros propios límites de eje.
-// En este caso, haremos que las reglas de los ejes X e Y muestren un rango de 0 a 10.
+//Podemos definir nuestros propios límites de eje.
+// En este caso, haremos que las reglas del eje X e Y muestren un rango de 0 a 10.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);

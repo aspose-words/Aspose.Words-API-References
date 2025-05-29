@@ -3,7 +3,7 @@ title: TabStopCollection.RemoveByIndex
 linktitle: RemoveByIndex
 articleTitle: RemoveByIndex
 second_title: Aspose.Words para .NET
-description: TabStopCollection RemoveByIndex método. Elimina una tabulación en el índice especificado de la colección en C#.
+description: Gestiona fácilmente tus tabulaciones con el método RemoveByIndex. Elimina rápidamente cualquier tabulación de tu colección para un diseño optimizado.
 type: docs
 weight: 110
 url: /es/net/aspose.words/tabstopcollection/removebyindex/
@@ -33,7 +33,7 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Das
 
 Assert.AreEqual(2, tabStops.Count);
 
-// Elimina la primera tabulación.
+//Eliminar la primera tabulación.
 tabStops.RemoveByIndex(0);
 
 Assert.AreEqual(1, tabStops.Count);

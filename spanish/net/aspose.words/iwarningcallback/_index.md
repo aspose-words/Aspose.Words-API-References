@@ -3,14 +3,14 @@ title: IWarningCallback Interface
 linktitle: IWarningCallback
 articleTitle: IWarningCallback
 second_title: Aspose.Words para .NET
-description: Aspose.Words.IWarningCallback interfaz. Implemente esta interfaz si desea tener su propio método personalizado llamado para capturar las advertencias de pérdida de fidelidad que pueden ocurrir durante la carga o el guardado de documentos en C#.
+description: Implemente la interfaz Aspose.Words.IWarningCallback para personalizar los métodos de captura de advertencias de fidelidad al cargar y guardar documentos. ¡Mejore la integridad de los documentos!
 type: docs
-weight: 3210
+weight: 3660
 url: /es/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-Implemente esta interfaz si desea tener su propio método personalizado llamado para capturar las advertencias de pérdida de fidelidad que pueden ocurrir durante la carga o el guardado de documentos.
+Implemente esta interfaz si desea tener su propio método personalizado llamado para capturar advertencias de pérdida de fidelidad que pueden ocurrir durante la carga o el guardado de documentos.
 
 ```csharp
 public interface IWarningCallback
@@ -20,7 +20,7 @@ public interface IWarningCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words invoca este método cuando encuentra algún problema durante la carga del documento o al guardarlo que podría resultar en la pérdida de formato o fidelidad de los datos. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words invoca este método cuando encuentra algún problema durante la carga o el guardado del documento que podría resultar en la pérdida de formato o fidelidad de los datos. |
 
 ## Ejemplos
 
@@ -38,15 +38,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Almacena la colección actual de fuentes de fuentes, que será la fuente de fuentes predeterminada para cada documento
-    // para el cual no especificamos una fuente de fuente diferente.
+    // Almacena la colección actual de fuentes, que será la fuente de fuente predeterminada para cada documento
+    // para el cual no especificamos una fuente diferente.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
     // Para fines de prueba, configuraremos Aspose.Words para que busque fuentes solo en una carpeta que no existe.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Al renderizar el documento, no habrá lugar para encontrar la fuente "Times New Roman".
-    // Esto generará una advertencia de sustitución de fuente, que nuestra devolución de llamada detectará.
+    //Al renderizar el documento, no habrá lugar para encontrar la fuente "Times New Roman".
+    // Esto provocará una advertencia de sustitución de fuente, que nuestra devolución de llamada detectará.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -54,7 +54,7 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -72,7 +72,7 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Los programas agregaron un respaldo a la representación de mapas de bits y cambiaron el tipo de advertencias sobre registros de metarchivos no compatibles.
+Se agregó una alternativa a la representación de mapas de bits y se cambió el tipo de advertencias sobre registros de metarchivos no compatibles.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -81,16 +81,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Establece la propiedad "EmulateRasterOperations" en "false" para volver al mapa de bits cuando
-    // encuentra un metarchivo que requerirá operaciones de trama para representar el PDF de salida.
+    // Establezca la propiedad "EmulateRasterOperations" en "false" para volver al mapa de bits cuando
+    // encuentra un metarchivo, que requerirá operaciones rasterizadas para renderizarse en el PDF de salida.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Establece la propiedad "RenderingMode" en "VectorWithFallback" para intentar renderizar cada metarchivo usando gráficos vectoriales.
+    // Establezca la propiedad "RenderingMode" en "VectorWithFallback" para intentar renderizar cada metarchivo utilizando gráficos vectoriales.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
+    // Crea un objeto "PdfSaveOptions" que podamos pasar al método "Guardar" del documento
     // para modificar cómo ese método convierte el documento a .PDF y aplica la configuración
-    // en nuestro objeto MetafileRenderingOptions para la operación de guardar.
+    // en nuestro objeto MetafileRenderingOptions para la operación de guardado.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -105,7 +105,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Imprime y recopila advertencias relacionadas con la pérdida de formato que ocurren al guardar un documento.
+/// Imprime y recopila advertencias relacionadas con la pérdida de formato que se producen al guardar un documento.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {
@@ -130,20 +130,20 @@ public void EnableFontSubstitution()
     // Abra un documento que contenga texto formateado con una fuente que no existe en ninguna de nuestras fuentes de fuentes.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Asigna una devolución de llamada para manejar las advertencias de sustitución de fuentes.
+    // Asignar una devolución de llamada para manejar advertencias de sustitución de fuentes.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Establece un nombre de fuente predeterminado y habilita la sustitución de fuentes.
+    // Establezca un nombre de fuente predeterminado y habilite la sustitución de fuente.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Las métricas de fuente originales deben usarse después de la sustitución de fuentes.
+    // Las métricas de fuente originales deben utilizarse después de la sustitución de la fuente.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Recibiremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
+    //Recibiremos una advertencia de sustitución de fuente si guardamos un documento con una fuente faltante.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -159,7 +159,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

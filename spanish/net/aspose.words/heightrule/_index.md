@@ -3,9 +3,9 @@ title: HeightRule Enum
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words para .NET
-description: Aspose.Words.HeightRule enumeración. Especifica la regla para determinar la altura de un objeto en C#.
+description: Descubra la enumeración Aspose.Words.HeightRule para un control preciso de la altura de los objetos en los documentos. ¡Optimice su flujo de trabajo con esta función esencial!
 type: docs
-weight: 3130
+weight: 3560
 url: /es/net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration
@@ -20,13 +20,13 @@ public enum HeightRule
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| AtLeast | `0` | La altura será al menos la altura especificada en puntos. Crecerá, si es necesario, para acomodar todo el texto dentro de un objeto. |
-| Exactly | `1` | La altura se especifica exactamente en puntos. Tenga en cuenta que si el texto no cabe dentro del objeto de esta altura, aparecerá truncado. |
+| AtLeast | `0` | La altura será al menos la altura especificada en puntos. Aumentará, si es necesario, para acomodar todo el texto dentro de un objeto. |
+| Exactly | `1` | La altura se especifica exactamente en puntos. Tenga en cuenta que si el texto no cabe en el objeto de esta altura, aparecerá truncado. |
 | Auto | `2` | La altura crecerá automáticamente para acomodar todo el texto dentro de un objeto. |
 
 ## Ejemplos
 
-Muestra cómo dar formato a filas con un generador de documentos.
+Muestra cómo formatear filas con un generador de documentos.
 
 ```csharp
 Document doc = new Document();
@@ -36,8 +36,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Inicie una segunda fila y luego configure su altura. El constructor aplicará esta configuración a
-// su fila actual, así como cualquier fila nueva que cree posteriormente.
+// Inicia una segunda fila y luego configura su altura. El constructor aplicará estos ajustes a
+// su fila actual, así como cualquier fila nueva que cree después.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -48,7 +48,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// La primera fila no se vio afectada por la reconfiguración del relleno y aún mantiene los valores predeterminados.
+// La primera fila no se vio afectada por la reconfiguración del relleno y aún conserva los valores predeterminados.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 

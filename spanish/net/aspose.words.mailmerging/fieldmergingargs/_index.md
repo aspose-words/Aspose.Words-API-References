@@ -3,16 +3,16 @@ title: FieldMergingArgs Class
 linktitle: FieldMergingArgs
 articleTitle: FieldMergingArgs
 second_title: Aspose.Words para .NET
-description: Aspose.Words.MailMerging.FieldMergingArgs clase. Proporciona datos para elFusionar campo evento en C#.
+description: Descubra la clase Aspose.Words.MailMerging.FieldMergingArgs para un manejo de datos sin inconvenientes en eventos MergeField, mejorando su experiencia de procesamiento de documentos.
 type: docs
-weight: 3770
+weight: 4460
 url: /es/net/aspose.words.mailmerging/fieldmergingargs/
 ---
 ## FieldMergingArgs class
 
-Proporciona datos para el**Fusionar campo** evento.
+Proporciona datos para el**Campo de fusión** evento.
 
-Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) artículo de documentación.
+Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Artículo de documentación.
 
 ```csharp
 public class FieldMergingArgs : FieldMergingArgsBase
@@ -22,18 +22,18 @@ public class FieldMergingArgs : FieldMergingArgsBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Devuelve el[`Document`](../fieldmergingargsbase/document/) objeto para el cual se realiza la combinación de correspondencia. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Devuelve el[`Document`](../fieldmergingargsbase/document/)objeto para el cual se realiza la combinación de correspondencia. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Obtiene el nombre del campo de combinación tal como se especifica en el documento. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Obtiene el objeto que representa el campo de combinación actual. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Obtiene el nombre del campo de combinación en la fuente de datos. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Obtiene o establece el valor del campo del origen de datos. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Obtiene el índice de base cero del registro que se está fusionando. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Obtiene o establece el valor del campo de la fuente de datos. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Obtiene el índice basado en cero del registro que se está fusionando. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Obtiene el nombre de la tabla de datos para la operación de combinación actual o una cadena vacía si el nombre no está disponible. |
 | [Text](../../aspose.words.mailmerging/fieldmergingargs/text/) { get; set; } | Obtiene o establece el texto que se insertará en el documento para el campo de combinación actual. |
 
 ## Observaciones
 
-El**Fusionar campo** El evento ocurre durante la combinación de correspondencia cuando se encuentra un campo simple mail merge en el documento. Puede responder a este evento para devolver el texto para que el motor de combinación de correspondencia lo inserte en el documento.
+El**Campo de fusión** El evento se produce durante la combinación de correspondencia cuando se encuentra un campo mail merge simple en el documento. Puede responder a este evento para devolver el texto `return ` que el motor de combinación de correspondencia insertará en el documento.
 
 ## Ejemplos
 
@@ -71,12 +71,12 @@ public void MergeHtml()
 
 /// <summary>
 /// Si la combinación de correspondencia encuentra un MERGEFIELD cuyo nombre comienza con el prefijo "html_",
-/// esta devolución de llamada analiza sus datos combinados como contenido HTML y agrega el resultado a la ubicación del documento de MERGEFIELD.
+/// esta devolución de llamada analiza sus datos de combinación como contenido HTML y agrega el resultado a la ubicación del documento MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia fusiona datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -88,14 +88,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Como ya hemos insertado el contenido fusionado manualmente,
-             // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
+            // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 }
 ```

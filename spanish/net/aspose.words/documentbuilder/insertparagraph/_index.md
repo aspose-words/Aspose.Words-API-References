@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 articleTitle: InsertParagraph
 second_title: Aspose.Words para .NET
-description: DocumentBuilder InsertParagraph método. Inserta un salto de párrafo en el documento en C#.
+description: Mejore sus documentos sin esfuerzo con el método InsertParagraph de DocumentBuilder, que permite saltos de párrafo perfectos para una mejor legibilidad.
 type: docs
-weight: 420
+weight: 450
 url: /es/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -24,9 +24,9 @@ El nodo de párrafo que se acaba de insertar. Es el mismo nodo que[`CurrentParag
 
 Formato de párrafo actual especificado por el[`ParagraphFormat`](../paragraphformat/) Se utiliza la propiedad.
 
-Divide el párrafo actual en dos. Después de insertar el párrafo, el cursor se coloca al principio del nuevo párrafo.
+Divide el párrafo actual en dos. Tras insertar el párrafo, el cursor se coloca al principio del nuevo párrafo.
 
-Se produce una excepción si no es posible insertar un salto de párrafo en la posición actual del cursor.
+Se lanza una excepción si no es posible insertar un salto de párrafo en la posición actual del cursor.
 
 ## Ejemplos
 

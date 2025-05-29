@@ -3,9 +3,9 @@ title: MailMergeCheckErrors Enum
 linktitle: MailMergeCheckErrors
 articleTitle: MailMergeCheckErrors
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeCheckErrors enumeración. Especifica cómo Microsoft Word informará los errores detectados durante la combinación de correspondencia en C#.
+description: Descubra cómo la enumeración Aspose.Words.MailMergeCheckErrors mejora su proceso de combinación de correspondencia al informar de manera eficiente los errores de Microsoft Word para una creación de documentos sin problemas.
 type: docs
-weight: 5810
+weight: 6640
 url: /es/net/aspose.words.settings/mailmergecheckerrors/
 ---
 ## MailMergeCheckErrors enumeration
@@ -20,10 +20,10 @@ public enum MailMergeCheckErrors
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Simulate | `1` | Simular la fusión e informar errores en un nuevo documento. |
-| PauseOnError | `2` | Complete la combinación y haga una pausa para informar errores. |
-| CollectErrors | `3` | Complete la combinación e informe de errores en un nuevo documento. |
-| Default | `2` | Igual a laPauseOnError valor. |
+| Simulate | `1` | Simular la fusión y reportar errores en un nuevo documento. |
+| PauseOnError | `2` | Complete la fusión y haga una pausa para informar errores. |
+| CollectErrors | `3` | Completar la fusión y reportar los errores en un nuevo documento. |
+| Default | `2` | Es igual a laPauseOnError valor. |
 
 ## Ejemplos
 
@@ -40,8 +40,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

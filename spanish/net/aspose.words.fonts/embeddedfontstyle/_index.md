@@ -3,9 +3,9 @@ title: EmbeddedFontStyle Enum
 linktitle: EmbeddedFontStyle
 articleTitle: EmbeddedFontStyle
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fonts.EmbeddedFontStyle enumeración. Especifica el estilo de una fuente incrustada dentro de unFontInfo objeto en C#.
+description: Descubra la enumeración Aspose.Words EmbeddedFontStyle para administrar fácilmente estilos de fuente incrustados en objetos FontInfo, mejorando sus capacidades de formato de documentos.
 type: docs
-weight: 2860
+weight: 3270
 url: /es/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
@@ -21,10 +21,10 @@ public enum EmbeddedFontStyle
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Regular | `0` | Especifica la fuente incrustada normal. |
+| Regular | `0` | Especifica la fuente incrustada Regular. |
 | Bold | `1` | Especifica la fuente incrustada en negrita. |
-| Italic | `2` | Especifica la fuente incrustada en cursiva. |
-| BoldItalic | `3` | Especifica la fuente incrustada negrita-cursiva. |
+| Italic | `2` | Especifica la fuente itálica incrustada. |
+| BoldItalic | `3` | Especifica la fuente incrustada en negrita y cursiva. |
 
 ## Ejemplos
 
@@ -37,8 +37,8 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Los formatos de fuentes incrustados pueden ser diferentes en otros formatos como .doc.
-// Necesitamos saber el formato correcto antes de poder extraer la fuente.
+// Los formatos de fuentes incrustadas pueden ser diferentes en otros formatos como .doc.
+//Necesitamos saber el formato correcto antes de poder extraer la fuente.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));

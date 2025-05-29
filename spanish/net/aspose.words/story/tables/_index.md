@@ -3,7 +3,7 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words para .NET
-description: Story Tables propiedad. Obtiene una colección de tablas que son hijas inmediatas de la historia en C#.
+description: Descubra Story Tables, una colección seleccionada de tablas vinculadas directamente a su historia, que mejoran la organización y la participación sin esfuerzo.
 type: docs
 weight: 50
 url: /es/net/aspose.words/story/tables/

@@ -3,14 +3,14 @@ title: DocumentBuilder.IsAtEndOfParagraph
 linktitle: IsAtEndOfParagraph
 articleTitle: IsAtEndOfParagraph
 second_title: Aspose.Words para .NET
-description: DocumentBuilder IsAtEndOfParagraph propiedad. Devolucionesverdadero si el cursor está al final del párrafo actual en C#.
+description: Descubra la propiedad IsAtEndOfParagraph de DocumentBuilder, que verifica de manera eficiente si el cursor está posicionado al final de un párrafo para una edición fluida del documento.
 type: docs
 weight: 110
 url: /es/net/aspose.words/documentbuilder/isatendofparagraph/
 ---
 ## DocumentBuilder.IsAtEndOfParagraph property
 
-Devoluciones`verdadero` si el cursor está al final del párrafo actual.
+Devuelve`verdadero` si el cursor está al final del párrafo actual.
 
 ```csharp
 public bool IsAtEndOfParagraph { get; }
@@ -18,13 +18,13 @@ public bool IsAtEndOfParagraph { get; }
 
 ## Ejemplos
 
-Muestra cómo mover el cursor de un generador de documentos a diferentes nodos de un documento.
+Muestra cómo mover el cursor de un generador de documentos a diferentes nodos en un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea un marcador válido, una entidad que consta de nodos encerrados por un nodo de inicio del marcador,
+// Crea un marcador válido, una entidad que consta de nodos encerrados por un nodo de inicio de marcador,
  // y un nodo final de marcador.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
@@ -37,9 +37,9 @@ Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// El cursor del generador de documentos siempre está delante del nodo que agregamos por última vez.
+//El cursor del generador de documentos siempre está delante del último nodo que agregamos con él.
 // Si el cursor del constructor está al final del documento, su nodo actual será nulo.
-// El nodo anterior es el nodo final del marcador que agregamos por última vez.
+//El nodo anterior es el nodo final del marcador que agregamos por última vez.
 // Agregar nuevos nodos con el constructor los agregará al último nodo.
 Assert.Null(builder.CurrentNode);
 
@@ -47,7 +47,7 @@ Assert.Null(builder.CurrentNode);
 // necesitaremos llevar el cursor al nodo que deseamos editar.
 builder.MoveToBookmark("MyBookmark");
 
-// Al moverlo a un marcador, se moverá al primer nodo dentro de los nodos de inicio y fin del marcador, la ejecución adjunta.
+// Moverlo a un marcador lo moverá al primer nodo dentro de los nodos de inicio y final del marcador, la ejecución adjunta.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
 // También podemos mover el cursor a un nodo individual como este.
@@ -57,7 +57,7 @@ Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
 Assert.IsTrue(builder.IsAtStartOfParagraph);
 
-// Podemos usar métodos específicos para movernos al inicio/final de un documento.
+//Podemos utilizar métodos específicos para movernos al inicio/final de un documento.
 builder.MoveToDocumentEnd();
 
 Assert.IsTrue(builder.IsAtEndOfParagraph);

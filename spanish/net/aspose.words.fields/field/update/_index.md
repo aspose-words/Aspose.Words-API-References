@@ -3,14 +3,14 @@ title: Field.Update
 linktitle: Update
 articleTitle: Update
 second_title: Aspose.Words para .NET
-description: Field Update método. Realiza la actualización del campo. Se produce si el campo ya se está actualizando en C#.
+description: Actualice los campos eficientemente con nuestro método de Actualización de Campos. Evita conflictos al garantizar que los campos no estén ya en uso. ¡Optimice la gestión de sus datos hoy mismo!
 type: docs
 weight: 140
 url: /es/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-Realiza la actualización del campo. Se produce si el campo ya se está actualizando.
+Realiza la actualización del campo. Se lanza una excepción si el campo ya se está actualizando.
 
 ```csharp
 public void Update()
@@ -18,14 +18,14 @@ public void Update()
 
 ## Ejemplos
 
-Muestra cómo insertar un campo en un documento usando FieldType.
+Muestra cómo insertar un campo en un documento utilizando FieldType.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta dos campos mientras pasas una bandera que determina si se actualizan a medida que el constructor los inserta.
-// En algunos casos, actualizar los campos puede resultar costoso desde el punto de vista computacional y puede ser una buena idea posponer la actualización.
+// Inserte dos campos mientras pasa un indicador que determina si actualizarlos a medida que el generador los inserta.
+// En algunos casos, actualizar los campos puede resultar computacionalmente costoso y puede ser una buena idea posponer la actualización.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -58,7 +58,7 @@ else
 }
 ```
 
-Muestra cómo dar formato a los resultados de los campos.
+Muestra cómo formatear los resultados del campo.
 
 ```csharp
 Document doc = new Document();
@@ -70,8 +70,8 @@ Field field = builder.InsertField("= 2 + 3");
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Podemos aplicar un formato al resultado de un campo usando las propiedades del campo.
-// A continuación se muestran tres tipos de formatos que podemos aplicar al resultado de un campo.
+//Podemos aplicar un formato al resultado de un campo usando las propiedades del campo.
+//A continuación se muestran tres tipos de formatos que podemos aplicar al resultado de un campo.
 // 1 - Formato numérico:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -80,7 +80,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Formato de fecha/hora:
+// 2 - Formato de fecha y hora:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -106,7 +106,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Podemos eliminar nuestros formatos para revertir el resultado del campo a su forma original.
+//Podemos eliminar nuestros formatos para revertir el resultado del campo a su forma original.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -127,7 +127,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(*bool*) {#update_1}
 
-Realiza una actualización de campo. Se produce si el campo ya se está actualizando.
+Realiza una actualización de campo. Se lanza una excepción si el campo ya se está actualizando.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -135,7 +135,7 @@ public void Update(bool ignoreMergeFormat)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | si`verdadero` luego se abandona el formateo directo del resultado del campo, independientemente del modificador MERGEFORMAT; de lo contrario, se realiza la actualización normal. |
+| ignoreMergeFormat | Boolean | Si`verdadero` entonces se abandona el formato de resultado de campo directo, independientemente del modificador MERGEFORMAT, de lo contrario se realiza la actualización normal. |
 
 ## Ejemplos
 
@@ -154,7 +154,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // Podemos establecer una bandera en un objeto LoadOptions para decidir si convertir todos los campos INCLUDEPICTURE
-    // en formas de imágenes al cargar un documento que las contiene.
+    // en formas de imagen al cargar un documento que las contiene.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

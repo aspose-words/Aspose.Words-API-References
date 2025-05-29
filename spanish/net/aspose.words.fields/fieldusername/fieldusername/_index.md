@@ -3,7 +3,7 @@ title: FieldUserName
 linktitle: FieldUserName
 articleTitle: FieldUserName
 second_title: Aspose.Words para .NET
-description: FieldUserName constructor. Constructor predeterminado en C#.
+description: Descubra el constructor FieldUserName, su solución ideal para una gestión de usuarios fluida en sus aplicaciones. ¡Optimice el rendimiento con nuestro constructor predeterminado!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldusername/fieldusername/

@@ -3,7 +3,7 @@ title: ChartYValue.DoubleValue
 linktitle: DoubleValue
 articleTitle: DoubleValue
 second_title: Aspose.Words para .NET
-description: ChartYValue DoubleValue propiedad. Obtiene el valor numérico almacenado en C#.
+description: Descubra la propiedad ChartYValue DoubleValue para recuperar y utilizar fácilmente valores numéricos almacenados para una mejor visualización y análisis de datos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.drawing.charts/chartyvalue/doublevalue/

@@ -3,14 +3,14 @@ title: FramesetCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words para .NET
-description: FramesetCollection GetEnumerator método. Devuelve un enumerador que recorre en iteración la colección en C#.
+description: Descubra el método GetEnumerator de FramesetCollection, que itera de manera eficiente a través de su colección, mejorando la gestión y la accesibilidad de los datos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.framesets/framesetcollection/getenumerator/
 ---
 ## FramesetCollection.GetEnumerator method
 
-Devuelve un enumerador que recorre en iteración la colección.
+Devuelve un enumerador que itera a través de la colección.
 
 ```csharp
 public IEnumerator<Frameset> GetEnumerator()

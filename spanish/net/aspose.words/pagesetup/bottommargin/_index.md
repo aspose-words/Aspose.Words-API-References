@@ -3,7 +3,7 @@ title: PageSetup.BottomMargin
 linktitle: BottomMargin
 articleTitle: BottomMargin
 second_title: Aspose.Words para .NET
-description: PageSetup BottomMargin propiedad. Devuelve o establece la distancia en puntos entre el borde inferior de la página y el límite inferior del cuerpo del texto en C#.
+description: Ajuste el diseño de su documento con la propiedad PageSetup BottomMargin, definiendo el espacio entre el borde inferior de la página y el cuerpo del texto para una presentación óptima.
 type: docs
 weight: 80
 url: /es/net/aspose.words/pagesetup/bottommargin/

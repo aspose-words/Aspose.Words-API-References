@@ -3,7 +3,7 @@ title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
 linktitle: ThresholdForFloydSteinbergDithering
 articleTitle: ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words para .NET
-description: ImageSaveOptions ThresholdForFloydSteinbergDithering propiedad. Obtiene o establece el umbral que determina el valor del error de binarización en el método FloydSteinberg. cuandoImageBinarizationMethod esFloydSteinbergDithering  en C#.
+description: Optimice sus imágenes con el umbral de ImageSaveOptions para el tramado Floyd-Steinberg. Controle el error de binarización para obtener resultados impresionantes en el procesamiento de imágenes.
 type: docs
 weight: 160
 url: /es/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
@@ -22,7 +22,7 @@ El valor predeterminado es 128.
 
 ## Ejemplos
 
-Muestra cómo configurar el umbral de error de binarización TIFF cuando se utiliza el método Floyd-Steinberg para representar una imagen TIFF.
+Muestra cómo establecer el umbral de error de binarización TIFF cuando se utiliza el método Floyd-Steinberg para renderizar una imagen TIFF.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Cuando guardamos el documento como TIFF, podemos pasar un objeto SaveOptions a
-// ajusta el tramado que aplicará Aspose.Words al renderizar esta imagen.
+// ajusta el tramado que Aspose.Words aplicará al renderizar esta imagen.
 // El valor predeterminado de la propiedad "ThresholdForFloydSteinbergDithering" es 128.
 // Los valores más altos tienden a producir imágenes más oscuras.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)

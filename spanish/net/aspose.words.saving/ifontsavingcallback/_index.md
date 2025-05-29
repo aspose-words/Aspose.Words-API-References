@@ -3,14 +3,14 @@ title: IFontSavingCallback Interface
 linktitle: IFontSavingCallback
 articleTitle: IFontSavingCallback
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Saving.IFontSavingCallback interfaz. Implemente esta interfaz si desea recibir notificaciones y controlar cómo Aspose.Words guarda fuentes al exportar un documento a formato HTML en C#.
+description: Controle el guardado de fuentes en Aspose.Words con la interfaz IFontSavingCallback. Reciba notificaciones y personalice las exportaciones HTML para optimizar la calidad del documento.
 type: docs
-weight: 5160
+weight: 5910
 url: /es/net/aspose.words.saving/ifontsavingcallback/
 ---
 ## IFontSavingCallback interface
 
-Implemente esta interfaz si desea recibir notificaciones y controlar cómo Aspose.Words guarda fuentes al exportar un documento a formato HTML.
+Implemente esta interfaz si desea recibir notificaciones y controlar cómo Aspose.Words guarda las fuentes al exportar un documento a formato HTML.
 
 ```csharp
 public interface IFontSavingCallback
@@ -24,15 +24,15 @@ public interface IFontSavingCallback
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -50,7 +50,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

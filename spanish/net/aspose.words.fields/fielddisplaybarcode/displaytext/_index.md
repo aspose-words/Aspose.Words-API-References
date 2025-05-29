@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.DisplayText
 linktitle: DisplayText
 articleTitle: DisplayText
 second_title: Aspose.Words para .NET
-description: FieldDisplayBarcode DisplayText propiedad. Obtiene o establece si se muestran datos de código de barras texto junto con la imagen en C#.
+description: Gestione fácilmente la visibilidad de los códigos de barras con la propiedad FieldDisplayBarcode DisplayText. Controle la visualización del texto junto con las imágenes para una mayor claridad.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fielddisplaybarcode/displaytext/
 ---
 ## FieldDisplayBarcode.DisplayText property
 
-Obtiene o establece si se muestran datos de código de barras (texto) junto con la imagen.
+Obtiene o establece si se deben mostrar los datos del código de barras (texto) junto con la imagen.
 
 ```csharp
 public bool DisplayText { get; set; }
@@ -18,7 +18,7 @@ public bool DisplayText { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar un campo DISPLAYBARCODE y establecer sus propiedades.
+Muestra cómo insertar un campo DISPLAYBARCODE y configurar sus propiedades.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas formas, que puede mostrar el campo DISPLAYBARCODE.
+// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas maneras, que el campo DISPLAYBARCODE puede mostrar.
 // 1 - Código QR con colores personalizados:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -51,7 +51,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - código de barras CODE39:
+// 3 - Código de barras CODE39:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";

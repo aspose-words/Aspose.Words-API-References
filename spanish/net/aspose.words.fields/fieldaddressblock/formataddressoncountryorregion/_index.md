@@ -3,7 +3,7 @@ title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 linktitle: FormatAddressOnCountryOrRegion
 articleTitle: FormatAddressOnCountryOrRegion
 second_title: Aspose.Words para .NET
-description: FieldAddressBlock FormatAddressOnCountryOrRegion propiedad. Obtiene o establece si se debe formatear la dirección según el país/región del destinatario según lo definido por POSTCODE Unión Postal Universal 2006 en C#.
+description: Optimice el formato de direcciones con la propiedad FieldAddressBlock FormatAddressOnCountryOrRegion, garantizando el cumplimiento de los estándares postales globales para una entrega precisa.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
@@ -28,7 +28,7 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Establecer esto en "2" incluirá todos los países y regiones,
+// Si se establece en "2", se incluirán todos los países y regiones.
 // a menos que sea el especificado en la propiedad ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
@@ -36,7 +36,7 @@ field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // De forma predeterminada, esta propiedad contendrá el ID de idioma del primer carácter del documento.
-// Podemos establecer una cultura diferente para el campo para formatear el resultado de esta manera.
+//Podemos establecer una cultura diferente para el campo para formatear el resultado de esta manera.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

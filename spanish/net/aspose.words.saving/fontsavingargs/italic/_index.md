@@ -3,7 +3,7 @@ title: FontSavingArgs.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words para .NET
-description: FontSavingArgs Italic propiedad. Indica si la fuente actual está en cursiva en C#.
+description: Descubra la propiedad FontSavingArgs Italic para comprobar fácilmente si su fuente está en cursiva, mejorando el estilo de su texto y la flexibilidad del diseño.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/fontsavingargs/italic/
@@ -18,15 +18,15 @@ public bool Italic { get; }
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

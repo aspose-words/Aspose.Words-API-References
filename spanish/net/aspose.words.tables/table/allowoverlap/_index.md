@@ -3,14 +3,14 @@ title: Table.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words para .NET
-description: Table AllowOverlap propiedad. Obtiene si una tabla flotante permitirá que otros objetos flotantes en el documento se superpongan en sus extensiones cuando se muestre. El valor predeterminado esverdadero  en C#.
+description: Descubra la propiedad AllowOverlap de tabla, que controla si los objetos flotantes pueden superponerse a su tabla. Mejore la flexibilidad del diseño para una mejor presentación del documento.
 type: docs
 weight: 70
 url: /es/net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property
 
-Obtiene si una tabla flotante permitirá que otros objetos flotantes en el documento se superpongan en sus extensiones cuando se muestre. El valor predeterminado es`verdadero` .
+Obtiene si una tabla flotante debe permitir que otros objetos flotantes en el documento se superpongan a sus extensiones cuando se muestran. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool AllowOverlap { get; }
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Solo Margen, Página y Columna están disponibles en RelativeHorizontalPosition para el configurador HorizontalAnchor.
-    // Se lanzará ArgumentException para cualquier otro valor.
+    // Solo Margen, Página, Columna están disponibles en RelativeHorizontalPosition para el configurador HorizontalAnchor.
+    // La ArgumentException se lanzará para cualquier otro valor.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Solo Margen, Página y Párrafo están disponibles en RelativeVerticalPosition para el configurador VerticalAnchor.
-    // Se lanzará ArgumentException para cualquier otro valor.
+    // Solo están disponibles Margen, Página y Párrafo en RelativeVerticalPosition para el configurador VerticalAnchor.
+    // La ArgumentException se lanzará para cualquier otro valor.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

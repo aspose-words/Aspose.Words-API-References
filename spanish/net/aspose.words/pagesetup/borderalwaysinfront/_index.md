@@ -3,14 +3,14 @@ title: PageSetup.BorderAlwaysInFront
 linktitle: BorderAlwaysInFront
 articleTitle: BorderAlwaysInFront
 second_title: Aspose.Words para .NET
-description: PageSetup BorderAlwaysInFront propiedad. Especifica dónde se coloca el borde de la página en relación con los textos y objetos que se cruzan en C#.
+description: Descubra la propiedad PageSetup BorderAlwaysInFront para optimizar los bordes de la página, mejorando el diseño y la visibilidad de los textos y objetos que se intersecan.
 type: docs
 weight: 20
 url: /es/net/aspose.words/pagesetup/borderalwaysinfront/
 ---
 ## PageSetup.BorderAlwaysInFront property
 
-Especifica dónde se coloca el borde de la página en relación con los textos y objetos que se cruzan.
+Especifica dónde se posiciona el borde de la página en relación con los textos y objetos que se intersecan.
 
 ```csharp
 public bool BorderAlwaysInFront { get; set; }

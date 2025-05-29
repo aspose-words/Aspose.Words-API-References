@@ -3,7 +3,7 @@ title: MailMergeSettings.DataType
 linktitle: DataType
 articleTitle: DataType
 second_title: Aspose.Words para .NET
-description: MailMergeSettings DataType propiedad. Especifica el tipo de origen de datos de combinación de correspondencia y el método de acceso a los datos. El valor predeterminado esDefault  en C#.
+description: Descubra la propiedad MailMergeSettings DataType, que define el tipo de origen de datos y el método de acceso para la combinación de correspondencia. ¡Optimice su flujo de trabajo sin esfuerzo!
 type: docs
 weight: 70
 url: /es/net/aspose.words.settings/mailmergesettings/datatype/
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

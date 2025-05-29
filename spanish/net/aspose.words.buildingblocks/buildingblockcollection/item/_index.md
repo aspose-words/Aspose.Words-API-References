@@ -3,7 +3,7 @@ title: BuildingBlockCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: BuildingBlockCollection Item propiedad. Recupera un bloque de construcción en el índice dado en C#.
+description: Accede fácilmente a bloques de construcción específicos con BuildingBlockCollection. Recupera elementos por índice para una integración perfecta en tus proyectos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.buildingblocks/buildingblockcollection/item/
@@ -22,17 +22,17 @@ public BuildingBlock this[int index] { get; }
 
 ## Observaciones
 
-El índice tiene base cero.
+El índice está basado en cero.
 
-Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
 Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
-Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
+Si el índice es negativo y su valor absoluto es mayor que la cantidad de elementos de la lista, esto devuelve una referencia nula.
 
 ## Ejemplos
 
-Muestra formas de acceder a bloques de construcción en un documento de glosario.
+Muestra formas de acceder a los bloques de construcción en un documento de glosario.
 
 ```csharp
 public void GlossaryDocument()
@@ -40,17 +40,22 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // Hay varias formas de acceder a los bloques de construcción.
+    //Hay varias formas de acceder a los bloques de construcción.
     // 1 - Obtener el primer/último bloque de construcción de la colección:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -66,15 +71,20 @@ public void GlossaryDocument()
     // Lo haremos usando un visitante personalizado,
     // que le dará a cada BuildingBlock en el GlossaryDocument un GUID único
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Visita el inicio/fin del documento Glosario.
     glossaryDoc.Accept(visitor);
+    // Visita solo el inicio del documento Glosario.
+    glossaryDoc.AcceptStart(visitor);
+    // Visita sólo el final del documento Glosario.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // En Microsoft Word, podemos acceder a los bloques de construcción mediante "Insertar" -> "Partes rápidas" -> "Organizador de bloques de construcción".
+    // En Microsoft Word, podemos acceder a los bloques de construcción a través de "Insertar" -> "Elementos rápidos" -> "Organizador de bloques de construcción".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Proporciona a cada bloque de construcción de un documento de glosario visitado un GUID único.
+/// Le otorga a cada bloque de construcción en un documento de glosario visitado un GUID único.
 /// Almacena los pares de bloques de construcción GUID en un diccionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor

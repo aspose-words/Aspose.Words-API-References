@@ -3,14 +3,14 @@ title: DocSaveOptions.SaveRoutingSlip
 linktitle: SaveRoutingSlip
 articleTitle: SaveRoutingSlip
 second_title: Aspose.Words para .NET
-description: DocSaveOptions SaveRoutingSlip propiedad. cuandoFALSO  Los datos de Routingslip no se guardan en el documento de salida. El valor predeterminado esverdadero  en C#.
+description: Descubra la propiedad DocSaveOptions SaveRoutingSlip. Controle el almacenamiento de datos de RoutingSlip para sus documentos. ¡Personalice fácilmente la salida!
 type: docs
-weight: 60
+weight: 70
 url: /es/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-cuando`FALSO` , Los datos de Routingslip no se guardan en el documento de salida. El valor predeterminado es`verdadero` .
+Cuando`FALSO` , Los datos de RoutingSlip no se guardan en el documento de salida. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }
@@ -18,7 +18,7 @@ public bool SaveRoutingSlip { get; set; }
 
 ## Ejemplos
 
-Muestra cómo configurar opciones de guardado para formatos antiguos de Microsoft Word.
+Muestra cómo configurar las opciones de guardado para formatos más antiguos de Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -27,16 +27,16 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Establece una contraseña que protegerá la carga del documento mediante Microsoft Word o Aspose.Words.
-// Tenga en cuenta que esto no cifra el contenido del documento de ninguna manera.
+// Establezca una contraseña que protegerá la carga del documento por Microsoft Word o Aspose.Words.
+// Tenga en cuenta que esto no encripta el contenido del documento de ninguna manera.
 options.Password = "MyPassword";
 
-// Si el documento contiene una hoja de ruta, podemos conservarlo mientras lo guardamos estableciendo este indicador en verdadero.
+// Si el documento contiene un comprobante de ruta, podemos conservarlo mientras lo guardamos estableciendo este indicador en verdadero.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
-// Para poder cargar el documento,
+//Para poder cargar el documento,
 // necesitaremos aplicar la contraseña que especificamos en el objeto DocSaveOptions en un objeto LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 

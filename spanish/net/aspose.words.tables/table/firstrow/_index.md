@@ -3,14 +3,14 @@ title: Table.FirstRow
 linktitle: FirstRow
 articleTitle: FirstRow
 second_title: Aspose.Words para .NET
-description: Table FirstRow propiedad. Devuelve el primeroRow nodo en la tabla en C#.
+description: Descubra la propiedad FirstRow de las tablas, acceda sin esfuerzo al nodo de la primera fila para una gestión optimizada de los datos y una funcionalidad mejorada de las tablas.
 type: docs
 weight: 160
 url: /es/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-Devuelve el primero[`Row`](../../row/) nodo en la tabla.
+Devuelve el primer[`Row`](../../row/) nodo en la tabla.
 
 ```csharp
 public Row FirstRow { get; }
@@ -43,7 +43,7 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación se muestran dos formas de obtener una tabla de un documento.
+A continuación se muestran dos formas de obtener una tabla de un documento.
 // 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
@@ -54,7 +54,7 @@ Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Elimina el contenedor de la tabla vacía.
+//Eliminar el contenedor de tabla vacío.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

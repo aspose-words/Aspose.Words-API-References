@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.StartField
 linktitle: StartField
 articleTitle: StartField
 second_title: Aspose.Words para .NET
-description: MailMergeRegionInfo StartField propiedad. Devuelve un campo inicial para la región en C#.
+description: Descubra la propiedad StartField de MailMergeRegionInfo: recupere de manera eficiente el campo de inicio para sus regiones de combinación y agilice la automatización de sus documentos.
 type: docs
 weight: 90
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/startfield/
 ---
 ## MailMergeRegionInfo.StartField property
 
-Devuelve un campo inicial para la región.
+Devuelve un campo de inicio para la región.
 
 ```csharp
 public FieldMergeField StartField { get; }
@@ -18,15 +18,15 @@ public FieldMergeField StartField { get; }
 
 ## Ejemplos
 
-Muestra cómo verificar regiones de combinación de correspondencia.
+Muestra cómo verificar las regiones de combinación de correspondencia.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELD disponibles en el documento.
+// Devuelve una jerarquía completa de regiones de fusión que contienen MERGEFIELDs disponibles en el documento.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// Obtener las principales regiones del documento.
+// Obtener las regiones principales del documento.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -43,6 +43,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Obtener la lista de campos dentro de la primera región superior.
 IList<Field> fieldList = topRegions[0].Fields;

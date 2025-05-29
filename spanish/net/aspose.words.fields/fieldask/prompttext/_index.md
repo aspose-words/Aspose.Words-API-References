@@ -3,7 +3,7 @@ title: FieldAsk.PromptText
 linktitle: PromptText
 articleTitle: PromptText
 second_title: Aspose.Words para .NET
-description: FieldAsk PromptText propiedad. Obtiene o establece el texto del mensaje el título de la ventana del mensaje en C#.
+description: Descubra cómo administrar fácilmente la propiedad FieldAsk PromptText para personalizar el título de su ventana de solicitud para una mejor experiencia del usuario.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldask/prompttext/
@@ -18,7 +18,7 @@ public string PromptText { get; set; }
 
 ## Ejemplos
 
-Muestra cómo crear un campo ASK y establecer sus propiedades.
+Muestra cómo crear un campo ASK y configurar sus propiedades.
 
 ```csharp
 public void FieldAsk()
@@ -26,14 +26,14 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Colocar un campo donde se colocará la respuesta a nuestro campo ASK.
+    //Coloca un campo donde se colocará la respuesta a nuestro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Inserte el campo ASK y edite sus propiedades para hacer referencia a nuestro campo REF por el nombre del marcador.
+    // Inserte el campo ASK y edite sus propiedades para hacer referencia a nuestro campo REF por nombre de marcador.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -45,7 +45,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // Los campos PREGUNTAR aplican la respuesta predeterminada a sus respectivos campos REF durante una combinación de correspondencia.
+    // Los campos ASK aplican la respuesta predeterminada a sus respectivos campos REF durante una combinación de correspondencia.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Podemos modificar o anular la respuesta predeterminada en nuestros campos PREGUNTAR con un respondedor personalizado,
+    // Podemos modificar o anular la respuesta predeterminada en nuestros campos ASK con un respondedor de solicitud personalizado,
     // que ocurrirá durante una combinación de correspondencia.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Antepone texto a la respuesta predeterminada de un campo PREGUNTAR durante una combinación de correspondencia.
+/// Agrega texto al comienzo de la respuesta predeterminada de un campo ASK durante una combinación de correspondencia.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

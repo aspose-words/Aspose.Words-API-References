@@ -3,14 +3,14 @@ title: HeaderFooter.IsHeader
 linktitle: IsHeader
 articleTitle: IsHeader
 second_title: Aspose.Words para .NET
-description: HeaderFooter IsHeader propiedad. Verdadero si estoHeaderFooter el objeto es un encabezado en C#.
+description: Descubra la propiedad IsHeader de HeaderFooter: identifique fácilmente si su objeto HeaderFooter es un encabezado para un formato de documento optimizado.
 type: docs
 weight: 30
 url: /es/net/aspose.words/headerfooter/isheader/
 ---
 ## HeaderFooter.IsHeader property
 
-Verdadero si esto[`HeaderFooter`](../) el objeto es un encabezado.
+Verdadero si esto[`HeaderFooter`](../) El objeto es un encabezado.
 
 ```csharp
 public bool IsHeader { get; }
@@ -23,7 +23,7 @@ Muestra cómo crear un encabezado y un pie de página.
 ```csharp
 Document doc = new Document();
 
-// Crea un encabezado y añádele un párrafo. El texto de ese párrafo
+// Crea un encabezado y añade un párrafo. El texto de ese párrafo
 // aparecerá en la parte superior de cada página de esta sección, encima del texto del cuerpo principal.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
@@ -33,7 +33,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Crea un pie de página y añádele un párrafo. El texto de ese párrafo
+// Crea un pie de página y añade un párrafo. El texto de ese párrafo
 // aparecerá en la parte inferior de cada página de esta sección, debajo del texto del cuerpo principal.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

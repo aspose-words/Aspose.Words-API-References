@@ -3,7 +3,7 @@ title: BorderCollection.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words para .NET
-description: BorderCollection Color propiedad. Obtiene o establece el color del borde en C#.
+description: Descubre la propiedad Color de BorderCollection para personalizar y gestionar fácilmente los colores de los bordes de tus diseños. ¡Mejora tu interfaz de usuario con opciones vibrantes!
 type: docs
 weight: 20
 url: /es/net/aspose.words/bordercollection/color/
@@ -20,7 +20,7 @@ public Color Color { get; set; }
 
 Devuelve el color del primer borde de la colección.
 
-Establece el color de todos los bordes de la colección, excepto los bordes diagonales.
+Establece el color de todos los bordes de la colección, excluidos los bordes diagonales.
 
 ## Ejemplos
 

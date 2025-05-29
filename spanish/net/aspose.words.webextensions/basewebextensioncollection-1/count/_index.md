@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: BaseWebExtensionCollection Count propiedad. Obtiene el número de elementos contenidos en la colección en C#.
+description: Descubra la propiedad BaseWebExtensionCollection Count para recuperar fácilmente el número total de elementos y mejorar la eficiencia de su desarrollo web.
 type: docs
 weight: 10
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/count/
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Imprime todas las propiedades de la extensión web del documento.
+//Imprimir todas las propiedades de la extensión web del documento.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -36,7 +36,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Elimina la extensión web.
+//Eliminar la extensión web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

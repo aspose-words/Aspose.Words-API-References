@@ -3,14 +3,14 @@ title: FieldStart.FieldData
 linktitle: FieldData
 articleTitle: FieldData
 second_title: Aspose.Words para .NET
-description: FieldStart FieldData propiedad. Obtiene datos de campo personalizados asociados con el campo en C#.
+description: Desbloquee datos de campos personalizados con la propiedad FieldData de FieldStart, mejorando su gestión de datos y aumentando la productividad sin esfuerzo.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldstart/fielddata/
 ---
 ## FieldStart.FieldData property
 
-Obtiene datos de campo personalizados asociados con el campo.
+Obtiene datos de campo personalizados que están asociados con el campo.
 
 ```csharp
 public byte[] FieldData { get; }
@@ -24,7 +24,7 @@ Muestra cómo obtener datos asociados con el campo.
 Document doc = new Document(MyDir + "Field sample - Field with data.docx");
 
 Field field = doc.Range.Fields[2];
-Console.WriteLine(Encoding.Default.GetString(field.Start.FieldData));
+Console.WriteLine(Encoding.UTF8.GetString(field.Start.FieldData));
 ```
 
 ### Ver también

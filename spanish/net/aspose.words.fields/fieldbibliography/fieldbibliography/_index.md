@@ -3,7 +3,7 @@ title: FieldBibliography
 linktitle: FieldBibliography
 articleTitle: FieldBibliography
 second_title: Aspose.Words para .NET
-description: FieldBibliography constructor. Constructor predeterminado en C#.
+description: Descubre el constructor FieldBibliography, tu herramienta esencial para crear citas fácilmente. ¡Simplifica tu investigación con nuestro constructor predeterminado hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldbibliography/fieldbibliography/

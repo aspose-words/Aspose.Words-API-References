@@ -3,7 +3,7 @@ title: FieldMergingArgs.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words para .NET
-description: FieldMergingArgs Text propiedad. Obtiene o establece el texto que se insertará en el documento para el campo de combinación actual en C#.
+description: Gestiona fácilmente los campos de combinación de tus documentos con FieldMergingArgs. Define o recupera texto fácilmente para una integración fluida en tus documentos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -20,9 +20,9 @@ public string Text { get; set; }
 
 Cuando se llama a su controlador de eventos, esta propiedad se establece en`nulo`.
 
-Si dejas Texto como`nulo` , el motor de combinación de correspondencia insertará[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) en lugar del campo de combinación.
+Si dejas el texto como`nulo` , el motor de combinación de correspondencia insertará[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) en lugar del campo de combinación.
 
-Si configura Texto en cualquier cadena (incluso vacía), la cadena se insertará en el documento en lugar del campo de combinación.
+Si establece Texto en cualquier cadena (incluso vacía), la cadena se insertará en el documento en lugar del campo de combinación.
 
 ## Ejemplos
 
@@ -60,12 +60,12 @@ public void MergeHtml()
 
 /// <summary>
 /// Si la combinación de correspondencia encuentra un MERGEFIELD cuyo nombre comienza con el prefijo "html_",
-/// esta devolución de llamada analiza sus datos combinados como contenido HTML y agrega el resultado a la ubicación del documento de MERGEFIELD.
+/// esta devolución de llamada analiza sus datos de combinación como contenido HTML y agrega el resultado a la ubicación del documento MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia fusiona datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -77,14 +77,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Como ya hemos insertado el contenido fusionado manualmente,
-             // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
+            // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 }
 ```

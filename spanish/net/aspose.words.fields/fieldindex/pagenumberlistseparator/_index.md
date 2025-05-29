@@ -3,7 +3,7 @@ title: FieldIndex.PageNumberListSeparator
 linktitle: PageNumberListSeparator
 articleTitle: PageNumberListSeparator
 second_title: Aspose.Words para .NET
-description: FieldIndex PageNumberListSeparator propiedad. Obtiene o establece la secuencia de caracteres que se utiliza para separar dos números de página en una lista de números de página en C#.
+description: Descubra la propiedad FieldIndex PageNumberListSeparator para personalizar fácilmente el formato de los números de página. ¡Mejore la legibilidad de su documento hoy mismo!
 type: docs
 weight: 110
 url: /es/net/aspose.words.fields/fieldindex/pagenumberlistseparator/
@@ -24,16 +24,16 @@ Muestra cómo editar el separador de número de página en un campo ÍNDICE.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree un campo ÍNDICE que mostrará una entrada para cada campo XE que se encuentra en el documento.
-// Cada entrada mostrará el valor de la propiedad Texto del campo XE en el lado izquierdo,
+// Cree un campo INDEX que mostrará una entrada para cada campo XE encontrado en el documento.
+// Cada entrada mostrará el valor de la propiedad de Texto del campo XE en el lado izquierdo,
 // y el número de la página que contiene el campo XE a la derecha.
-// La entrada ÍNDICE agrupará los campos XE con valores coincidentes en la propiedad "Texto"
-// en una entrada en lugar de hacer una entrada para cada campo XE.
+// La entrada INDEX agrupará los campos XE con valores coincidentes en la propiedad "Texto"
+// en una sola entrada en lugar de hacer una entrada para cada campo XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Si nuestro campo ÍNDICE tiene una entrada para un grupo de campos XE,
+// Si nuestro campo INDEX tiene una entrada para un grupo de campos XE,
 // esta entrada mostrará el número de cada página que contiene un campo XE que pertenece a este grupo.
-// Podemos establecer separadores personalizados para personalizar la apariencia de estos números de página.
+//Podemos configurar separadores personalizados para personalizar la apariencia de estos números de página.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageNumberListSeparator = " & ";
 

@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ForcePageBreaks
 linktitle: ForcePageBreaks
 articleTitle: ForcePageBreaks
 second_title: Aspose.Words para .NET
-description: TxtSaveOptionsBase ForcePageBreaks propiedad. Permite especificar si los saltos de página deben conservarse durante la exportación en C#.
+description: Controle los saltos de página con la propiedad ForcePageBreaks de TxtSaveOptionsBase. Asegúrese de que las exportaciones sean fluidas y mantenga el formato del documento sin problemas.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
@@ -20,11 +20,11 @@ public bool ForcePageBreaks { get; set; }
 
 ## Observaciones
 
-La propiedad afecta sólo a los saltos de página que se insertan explícitamente en un documento. No está relacionado con los saltos de página que MS Word inserta automáticamente al final de cada página.
+La propiedad afecta únicamente a los saltos de página que se insertan explícitamente en un documento. No está relacionada con los saltos de página que MS Word inserta automáticamente al final de cada página.
 
 ## Ejemplos
 
-Muestra cómo especificar si se conservan los saltos de página al exportar un documento a texto sin formato.
+Muestra cómo especificar si se deben conservar los saltos de página al exportar un documento a texto sin formato.
 
 ```csharp
 Document doc = new Document();
@@ -36,20 +36,20 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3");
 
-// Crea un objeto "TxtSaveOptions", que podemos pasar al "Guardar" del documento.
-// método para modificar cómo guardamos el documento en texto plano.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al "Guardar" del documento
+// método para modificar la forma en que guardamos el documento en texto plano.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
 // Los objetos "Documento" de Aspose.Words tienen saltos de página, al igual que los documentos de Microsoft Word.
-// Los formatos de guardado como ".txt" son un cuerpo de texto continuo sin saltos de página.
-// Establece la propiedad "ForcePageBreaks" en "true" para conservar todos los saltos de página en forma de caracteres '\f'.
-// Establece la propiedad "ForcePageBreaks" en "false" para descartar todos los saltos de página.
+// Los formatos guardados como ".txt" son un cuerpo continuo de texto sin saltos de página.
+// Establezca la propiedad "ForcePageBreaks" en "true" para conservar todos los saltos de página en forma de caracteres '\f'.
+// Establezca la propiedad "ForcePageBreaks" en "false" para descartar todos los saltos de página.
 saveOptions.ForcePageBreaks = forcePageBreaks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt", saveOptions);
 
 // Si cargamos un documento de texto plano con saltos de página,
-// el objeto "Documento" los usará para dividir el cuerpo en páginas.
+// El objeto "Documento" los usará para dividir el cuerpo en páginas.
 doc = new Document(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt");
 
 Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);

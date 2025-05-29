@@ -3,7 +3,7 @@ title: FieldOcx
 linktitle: FieldOcx
 articleTitle: FieldOcx
 second_title: Aspose.Words para .NET
-description: FieldOcx constructor. Constructor predeterminado en C#.
+description: Descubra el constructor FieldOcx, su solución ideal para una integración y personalización perfectas. ¡Desbloquee potentes funciones para un rendimiento óptimo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldocx/fieldocx/

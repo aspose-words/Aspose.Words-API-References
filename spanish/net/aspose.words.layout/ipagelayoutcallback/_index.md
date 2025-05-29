@@ -3,9 +3,9 @@ title: IPageLayoutCallback Interface
 linktitle: IPageLayoutCallback
 articleTitle: IPageLayoutCallback
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Layout.IPageLayoutCallback interfaz. Implemente esta interfaz si desea que se llame a su propio método personalizado durante la creación y representación del modelo de diseño de página en C#.
+description: Personaliza el diseño de tu documento con la interfaz Aspose.Words.Layout.IPageLayoutCallback. Optimiza la representación con tus propios métodos para obtener resultados óptimos.
 type: docs
-weight: 3310
+weight: 3760
 url: /es/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
@@ -20,17 +20,17 @@ public interface IPageLayoutCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Esto se llama para notificar sobre la construcción del diseño y el progreso de la representación. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Esto se llama para notificar el progreso de creación y renderizado del diseño. |
 
 ## Observaciones
 
 El uso principal de esta interfaz es permitir que el código de la aplicación cancele el proceso de compilación.
 
-Es posible crear un modelo de diseño de página solo para unas pocas páginas al inicio del documento, luego cancelar el proceso y representar solo lo que ya se ha creado.
+Es posible crear un modelo de diseño de página solo para unas pocas páginas al inicio del documento y luego abortar el proceso y renderizar solo lo que ya se ha creado.
 
-Tenga en cuenta, sin embargo, que los resultados de la representación pueden no coincidir con lo que se representaría para cada página si el proceso hubiera finalizado.
+Sin embargo, tenga en cuenta que los resultados de la representación pueden no coincidir con lo que se representaría para cada página si el proceso hubiera finalizado.
 
-Es posible que esta técnica no funcione para todos los documentos o que falle por completo.
+Esta técnica puede no funcionar para todos los documentos o puede fallar por completo.
 
 ## Ejemplos
 
@@ -52,7 +52,7 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Nos notifica cuando guardamos el documento en un formato de página fijo
+/// Nos avisa cuando guardamos el documento en un formato de página fijo
 /// y representa una página en la que realizamos un reflujo de página en una imagen en el sistema de archivos local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback

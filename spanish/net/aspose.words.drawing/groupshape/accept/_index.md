@@ -3,7 +3,7 @@ title: GroupShape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words para .NET
-description: GroupShape Accept método. Acepta un visitante en C#.
+description: Descubre el método GroupShape Accept para conectar con los visitantes sin problemas y mejorar la experiencia del usuario en tu sitio web. ¡Impulsa la interacción hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/groupshape/accept/
@@ -28,13 +28,13 @@ Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../../
 
 Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Para obtener más información, consulte el patrón de diseño Visitante.
+Para obtener más información, consulte el patrón de diseño Visitor.
 
-llamadas[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , luego llama[`Accept`](../../../aspose.words/node/accept/) para todas las formas secundarias de este grupo, formas y llamadas[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) al final.
+Llamadas[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) , luego llama[`Accept`](../../../aspose.words/node/accept/) para todas las formas secundarias de este grupo forma y llamadas[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) al final.
 
 ## Ejemplos
 
-Muestra cómo crear un grupo de formas e imprimir su contenido utilizando un visitante de documentos.
+Muestra cómo crear un grupo de formas e imprimir su contenido mediante un visitante de documentos.
 
 ```csharp
 public void GroupOfShapes()
@@ -42,19 +42,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si necesita crear formas "no primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Si necesita crear formas "No primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // EsquinasSuperioresUnaRedondeadaUnaRecortada, EsquinaÚnicaRedondeada, EsquinasSuperioresRedondeadas, EsquinasDiagonalesRedondeadas
     // utilice los métodos DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

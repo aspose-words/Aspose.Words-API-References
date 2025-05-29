@@ -3,9 +3,9 @@ title: HorizontalAlignment Enum
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.HorizontalAlignment enumeración. Especifica la alineación horizontal de una forma flotante un marco de texto o una tabla flotante en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.HorizontalAlignment para un control preciso de la alineación horizontal en marcos de texto flotantes y tablas. ¡Mejore el diseño de sus documentos!
 type: docs
-weight: 1030
+weight: 1360
 url: /es/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
@@ -20,13 +20,13 @@ public enum HorizontalAlignment
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `0` | El objeto se posiciona explícitamente, generalmente usando su**Izquierda** propiedad. |
-| Default | `0` | Igual queNone . |
-| Left | `1` | Especifica que el objeto se alineará a la izquierda con la base de alineación horizontal. |
-| Center | `2` | Especifica que el objeto estará centrado con respecto a la base de alineación horizontal. |
-| Right | `3` | Especifica que el objeto estará alineado a la derecha con la base de alineación horizontal. |
-| Inside | `4` | Especifica que el objeto estará dentro de la base de alineación horizontal. |
-| Outside | `5` | Especifica que el objeto estará fuera de la base de alineación horizontal. |
+| None | `0` | El objeto se posiciona explícitamente, generalmente utilizando su**Izquierda** propiedad. |
+| Default | `0` | Lo mismo queNone . |
+| Left | `1` | Especifica que el objeto se debe alinear a la izquierda con respecto a la base de alineación horizontal. |
+| Center | `2` | Especifica que el objeto debe estar centrado con respecto a la base de alineación horizontal. |
+| Right | `3` | Especifica que el objeto se alineará a la derecha con respecto a la base de alineación horizontal. |
+| Inside | `4` | Especifica que el objeto debe estar dentro de la base de alineación horizontal. |
+| Outside | `5` | Especifica que el objeto debe estar fuera de la base de alineación horizontal. |
 
 ## Ejemplos
 
@@ -36,7 +36,7 @@ Muestra cómo insertar una imagen flotante en el centro de una página.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una imagen flotante que aparecerá detrás del texto superpuesto y alinéala con el centro de la página.
+// Inserta una imagen flotante que aparecerá detrás del texto superpuesto y la alinea con el centro de la página.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.StartMustacheTag
 linktitle: StartMustacheTag
 articleTitle: StartMustacheTag
 second_title: Aspose.Words para .NET
-description: MailMergeRegionInfo StartMustacheTag propiedad. Devuelve una etiqueta inicial bigote para la región en C#.
+description: Descubra la propiedad MailMergeRegionInfo StartMustacheTag, que proporciona una etiqueta de inicio esencial para regiones de documentos sin uniones en sus proyectos.
 type: docs
 weight: 100
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
 ---
 ## MailMergeRegionInfo.StartMustacheTag property
 
-Devuelve una etiqueta inicial "bigote" para la región.
+Devuelve una etiqueta de inicio "bigote" para la región.
 
 ```csharp
 public MustacheTag StartMustacheTag { get; }

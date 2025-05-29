@@ -3,14 +3,14 @@ title: ImageData.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words para .NET
-description: ImageData ToByteArray método. Devuelve bytes de imagen para cualquier imagen independientemente de si la imagen está almacenada o vinculada en C#.
+description: Convierte cualquier imagen en una matriz de bytes fácilmente con el método ImageData ToByteArray. ¡Accede fácilmente a bytes de imágenes desde fuentes almacenadas o vinculadas!
 type: docs
-weight: 210
+weight: 220
 url: /es/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
 
-Devuelve bytes de imagen para cualquier imagen independientemente de si la imagen está almacenada o vinculada.
+Devuelve bytes de imagen para cualquier imagen, independientemente de si la imagen está almacenada o vinculada.
 
 ```csharp
 public byte[] ToByteArray()
@@ -18,7 +18,7 @@ public byte[] ToByteArray()
 
 ## Observaciones
 
-Si la imagen está vinculada, la descarga cada vez que se llama.
+Si la imagen está vinculada, descarga la imagen cada vez que se llama.
 
 ## Ejemplos
 
@@ -33,7 +33,7 @@ Assert.True(imgShape.HasImage);
 // ToByteArray() devuelve la matriz almacenada en la propiedad ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
-// Guarde los datos de la imagen de la forma en un archivo de imagen en el sistema de archivos local.
+// Guarde los datos de imagen de la forma en un archivo de imagen en el sistema de archivos local.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

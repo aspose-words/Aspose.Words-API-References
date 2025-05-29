@@ -3,7 +3,7 @@ title: UserInformation.Address
 linktitle: Address
 articleTitle: Address
 second_title: Aspose.Words para .NET
-description: UserInformation Address propiedad. Obtiene o establece la dirección postal del usuario en C#.
+description: Administre fácilmente las direcciones postales de los usuarios con la propiedad UserInformation Address. Optimice la gestión de datos para una mejor experiencia de usuario.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/userinformation/address/
@@ -33,7 +33,7 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Inserte los campos NOMBRE DE USUARIO, INICIALES DE USUARIO y DIRECCIÓN DE USUARIO, que muestran valores de
+// Inserte los campos NOMBRE DE USUARIO, INICIALES DEL USUARIO y DIRECCIÓN DEL USUARIO, que muestran los valores de
  // las propiedades respectivas del objeto UserInformation que hemos creado anteriormente.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);

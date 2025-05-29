@@ -3,16 +3,16 @@ title: OlePackage Class
 linktitle: OlePackage
 articleTitle: OlePackage
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.OlePackage clase. Permite acceder a las propiedades del paquete OLE en C#.
+description: Explore la clase Aspose.Words.Drawing.OlePackage para administrar fácilmente las propiedades del paquete OLE y mejorar sus capacidades de procesamiento de documentos.
 type: docs
-weight: 1160
+weight: 1540
 url: /es/net/aspose.words.drawing/olepackage/
 ---
 ## OlePackage class
 
 Permite acceder a las propiedades del paquete OLE.
 
-Para obtener más información, visite el[Trabajar con objetos antiguos](https://docs.aspose.com/words/net/working-with-ole-objects/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con objetos Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) Artículo de documentación.
 
 ```csharp
 public class OlePackage
@@ -27,7 +27,7 @@ public class OlePackage
 
 ## Observaciones
 
-El paquete OLE es una forma heredada e "indocumentada" de almacenar objetos incrustados si se desconoce el controlador OLE. Las primeras versiones de Windows, como Windows 3.1, 95 y 98, tenían la aplicación Packager.exe que podía usarse para incrustar cualquier tipo de datos en un documento. . Ahora esta aplicación está excluida de Windows, pero MS Word y otras aplicaciones aún la usan para incrustar datos si falta el controlador OLE o se desconoce.
+El paquete OLE es una forma heredada y "no documentada" de almacenar objetos incrustados si se desconoce el controlador OLE. Las primeras versiones de Windows, como Windows 3.1, 95 y 98, tenían la aplicación Packager.exe que podía usarse para incrustar cualquier tipo de datos en un documento. Ahora, esta aplicación está excluida de Windows, pero MS Word y otras aplicaciones aún la usan para incrustar datos si falta el controlador OLE o se desconoce.
 
 ## Ejemplos
 

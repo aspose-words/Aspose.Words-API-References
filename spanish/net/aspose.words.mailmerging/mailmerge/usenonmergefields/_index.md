@@ -3,14 +3,14 @@ title: MailMerge.UseNonMergeFields
 linktitle: UseNonMergeFields
 articleTitle: UseNonMergeFields
 second_title: Aspose.Words para .NET
-description: MailMerge UseNonMergeFields propiedad. cuandoverdadero  especifica que además de los campos MERGEFIELD la combinación de correspondencia se realiza en otros tipos de campos y también en las etiquetas fieldName en C#.
+description: ¡Desbloquea el poder de MailMerge! Usa la propiedad UseNonMergeFields para optimizar tus documentos fusionándolos con varios tipos de campos sin problemas.
 type: docs
 weight: 150
 url: /es/net/aspose.words.mailmerging/mailmerge/usenonmergefields/
 ---
 ## MailMerge.UseNonMergeFields property
 
-cuando`verdadero` , especifica que además de los campos MERGEFIELD, la combinación de correspondencia se realiza en otros tipos de campos y también en las etiquetas "{{fieldName}}".
+Cuando`verdadero` , especifica que además de los campos MERGEFIELD, la combinación de correspondencia se realiza en algunos otros tipos de campos y también en las etiquetas "{{fieldName}}".
 
 ```csharp
 public bool UseNonMergeFields { get; set; }
@@ -18,21 +18,21 @@ public bool UseNonMergeFields { get; set; }
 
 ## Observaciones
 
-Normalmente, la combinación de correspondencia solo se realiza en los campos MERGEFIELD, pero varios clientes crearon su reporting utilizando otros campos y muchos documentos se crearon de esta manera. Para simplificar la migración (y porque varios clientes utilizaron este enfoque de forma independiente) se introdujo la capacidad de combinar correspondencia en otros campos.
+Normalmente, la combinación de correspondencia solo se realiza en los campos MERGEFIELD, pero varios clientes crearon su reporting con otros campos y muchos documentos de esta manera. Para simplificar la migración (y dado que varios clientes utilizaron este enfoque de forma independiente), se introdujo la posibilidad de combinar correspondencia en otros campos.
 
-Cuando`UseNonMergeFields` se establece en`verdadero`, Aspose.Words realizará una combinación de correspondencia en los siguientes campos:
+Cuando`UseNonMergeFields` está configurado para`verdadero`Aspose.Words realizará la combinación de correspondencia en los siguientes campos:
 
 MERGEFIELD Nombre del campo
 
-MACROBUTTON NOMACRO Nombre del campo
+MACROBOTÓN NOMACRO Nombre del campo
 
-SI 0 = 0 "{Nombre del campo}" ""
+SI 0 = 0 "{NombreDeCampo}" ""
 
-Además, cuando`UseNonMergeFields` se establece en`verdadero`, Aspose.Words combinará correspondencia en etiquetas de texto "{{fieldName}}". Estos no son campos, sino sólo etiquetas de texto.
+Además, cuando`UseNonMergeFields` está configurado para`verdadero`Aspose.Words combinará correspondencia en etiquetas de texto "{{fieldName}}". Estas no son campos, sino etiquetas de texto.
 
 ## Ejemplos
 
-Muestra cómo conservar la apariencia de etiquetas de combinación de correspondencia alternativas que no se utilizan durante una combinación de correspondencia.
+Muestra cómo conservar la apariencia de las etiquetas de combinación de correspondencia alternativas que no se utilizan durante una combinación de correspondencia.
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -40,19 +40,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-     // De forma predeterminada, una combinación de correspondencia coloca datos de cada fila de una tabla en MERGEFIELD, que nombra las columnas de esa tabla.
-    // Nuestro documento no tiene tales campos, pero tiene etiquetas de texto sin formato encerradas entre llaves.
-    // Si configuramos el indicador "PreserveUnusedTags" en "true", podríamos tratar estas etiquetas como MERGEFIELD
+     // De manera predeterminada, una combinación de correspondencia coloca datos de cada fila de una tabla en MERGEFIELDs, que nombran las columnas de esa tabla.
+    // Nuestro documento no tiene tales campos, pero sí tiene etiquetas de texto simple encerradas entre llaves.
+    // Si establecemos el indicador "PreserveUnusedTags" en "verdadero", podríamos tratar estas etiquetas como MERGEFIELDs
     // para permitir que nuestra combinación de correspondencia inserte datos de la fuente de datos en esas etiquetas.
-    // Si configuramos el indicador "PreserveUnusedTags" en "falso",
-    // la combinación de correspondencia convertirá estas etiquetas en MERGEFIELD y las dejará sin completar.
+    // Si establecemos el indicador "PreserveUnusedTags" en "falso",
+    // la combinación de correspondencia convertirá estas etiquetas en MERGEFIELDs y las dejará sin completar.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // Nuestro documento tiene una etiqueta para una columna denominada "Columna2", que no existe en la tabla.
-    // Si configuramos el indicador "PreserveUnusedTags" en "falso", then the mail merge will convert this tag into a MERGEFIELD.
+    //Nuestro documento tiene una etiqueta para una columna llamada "Columna2", que no existe en la tabla.
+    // Si establecemos el indicador "PreserveUnusedTags" en "falso", then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -72,7 +72,7 @@ private static Document CreateSourceDocWithAlternativeMergeFields()
     builder.Writeln("{{ Column1 }}");
     builder.Writeln("{{ Column2 }}");
 
-    // Nuestras etiquetas se registrarán como destinos para los datos de combinación de correspondencia solo si lo configuramos en verdadero.
+    // Nuestras etiquetas se registrarán como destinos para datos de combinación de correspondencia solo si establecemos esto como verdadero.
     doc.MailMerge.UseNonMergeFields = true;
 
     return doc;

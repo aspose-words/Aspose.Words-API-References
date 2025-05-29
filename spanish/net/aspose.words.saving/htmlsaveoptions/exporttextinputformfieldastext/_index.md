@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 linktitle: ExportTextInputFormFieldAsText
 articleTitle: ExportTextInputFormFieldAsText
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportTextInputFormFieldAsText propiedad. Controla cómo se guardan los campos del formulario de entrada de texto en HTML o MHTML. El valor predeterminado esFALSO  en C#.
+description: Descubra cómo la propiedad HtmlSaveOptions ExportTextInputFormFieldAsText optimiza los campos de formulario de entrada de texto para un almacenamiento HTML o MHTML sin interrupciones. ¡Mejore su proceso de exportación!
 type: docs
 weight: 260
 url: /es/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
@@ -18,13 +18,13 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ## Observaciones
 
-Cuando se establece en`verdadero` , exporta campos de formulario de entrada de texto como texto normal. cuando`FALSO`, exporta campos de formulario de entrada de texto de Word como elementos INPUT en HTML.
+Cuando se establece en`verdadero` , exporta los campos del formulario de entrada de texto como texto normal. Cuando`FALSO`, exporta campos de formulario de ingreso de texto de Word como elementos INPUT en HTML.
 
 Al exportar a EPUB, los campos del formulario de entrada de texto siempre se guardan como texto debido a los requisitos de este formato.
 
 ## Ejemplos
 
-Muestra cómo especificar la carpeta para almacenar imágenes vinculadas después de guardarlas en .html.
+Muestra cómo especificar la carpeta para almacenar las imágenes vinculadas después de guardarlas en .html.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -36,7 +36,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// Establece una opción para exportar campos de formulario como texto sin formato en lugar de elementos de entrada HTML.
+// Establezca una opción para exportar los campos de formulario como texto simple en lugar de elementos de entrada HTML.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

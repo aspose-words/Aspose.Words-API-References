@@ -3,14 +3,14 @@ title: Table.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
 second_title: Aspose.Words para .NET
-description: Table VerticalAnchor propiedad. Obtiene el objeto base a partir del cual se debe calcular el posicionamiento vertical de la tabla flotante. El valor predeterminado esMargin  en C#.
+description: Descubra la propiedad Table VerticalAnchor para optimizar el posicionamiento de tablas flotantes. Aprenda a mejorar el control del diseño con su valor predeterminado de Margen.
 type: docs
 weight: 340
 url: /es/net/aspose.words.tables/table/verticalanchor/
 ---
 ## Table.VerticalAnchor property
 
-Obtiene el objeto base a partir del cual se debe calcular el posicionamiento vertical de la tabla flotante. El valor predeterminado esMargin .
+Obtiene el objeto base desde el cual se debe calcular el posicionamiento vertical de la tabla flotante. El valor predeterminado esMargin .
 
 ```csharp
 public RelativeVerticalPosition VerticalAnchor { get; set; }
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Solo Margen, Página y Columna están disponibles en RelativeHorizontalPosition para el configurador HorizontalAnchor.
-    // Se lanzará ArgumentException para cualquier otro valor.
+    // Solo Margen, Página, Columna están disponibles en RelativeHorizontalPosition para el configurador HorizontalAnchor.
+    // La ArgumentException se lanzará para cualquier otro valor.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Solo Margen, Página y Párrafo están disponibles en RelativeVerticalPosition para el configurador VerticalAnchor.
-    // Se lanzará ArgumentException para cualquier otro valor.
+    // Solo están disponibles Margen, Página y Párrafo en RelativeVerticalPosition para el configurador VerticalAnchor.
+    // La ArgumentException se lanzará para cualquier otro valor.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

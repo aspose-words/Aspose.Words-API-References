@@ -3,7 +3,7 @@ title: VbaExecutableAttribute
 linktitle: VbaExecutableAttribute
 articleTitle: VbaExecutableAttribute
 second_title: Aspose.Words para .NET
-description: VbaExecutableAttribute constructor. Constructor predeterminado en C#.
+description: ¡Descubre el constructor VbaExecutableAttribute! Consigue una ejecución fluida en tus proyectos VBA con este constructor predeterminado esencial.
 type: docs
 weight: 10
 url: /es/net/aspose.words.vba/vbaexecutableattribute/vbaexecutableattribute/

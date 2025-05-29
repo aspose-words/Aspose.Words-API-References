@@ -3,9 +3,9 @@ title: Stroke.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words para .NET
-description: Stroke Visible propiedad. Obtiene o establece un indicador que indica si el trazo es visible en C#.
+description: Controla la visibilidad del trazo con nuestra propiedad fácil de usar. ¡Mejora tu diseño activando y desactivando la visibilidad del trazo para un mayor impacto visual!
 type: docs
-weight: 200
+weight: 250
 url: /es/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
@@ -22,7 +22,7 @@ El valor predeterminado para un[`Shape`](../../shape/) es`verdadero` .
 
 ## Ejemplos
 
-Muestre cómo configurar el formato del marcador.
+Muestra cómo establecer el formato del marcador.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Eliminar la serie generada por defecto.
+//Eliminar serie generada por defecto.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Establecer formato de marcador.
+// Establecer el formato del marcador.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

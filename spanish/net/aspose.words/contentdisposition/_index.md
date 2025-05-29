@@ -3,9 +3,9 @@ title: ContentDisposition Enum
 linktitle: ContentDisposition
 articleTitle: ContentDisposition
 second_title: Aspose.Words para .NET
-description: Aspose.Words.ContentDisposition enumeración. Enumera diferentes formas de presentar el documento en el navegador del cliente en C#.
+description: Explore la enumeración Aspose.Words.ContentDisposition para descubrir varias opciones de presentación de documentos para mejorar las experiencias del navegador del cliente.
 type: docs
-weight: 340
+weight: 540
 url: /es/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
@@ -20,7 +20,7 @@ public enum ContentDisposition
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Attachment | `0` | Envíe el documento al navegador y presente una opción para guardar el documento en el disco o abrirlo en la aplicación asociada con la extensión del documento. |
+| Attachment | `0` | Envía el documento al navegador y presenta una opción para guardar el documento en el disco o abrirlo en la aplicación asociada con la extensión del documento. |
 | Inline | `1` | Envía el documento al navegador y presenta una opción para guardar el documento en el disco o abrirlo dentro del navegador. |
 
 ## Observaciones
@@ -47,11 +47,11 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
 // Envía el documento al navegador del cliente.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); // Lanzado porque HttpResponse es nulo en la prueba.
+//Se lanza porque HttpResponse es nulo en la prueba.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// Tendremos que cerrar esta respuesta manualmente para asegurarnos de no agregar ningún contenido superfluo al documento después de guardarlo.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+Necesitaremos cerrar esta respuesta manualmente para asegurarnos de no agregar ningún contenido superfluo al documento después de guardarlo.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### Ver también

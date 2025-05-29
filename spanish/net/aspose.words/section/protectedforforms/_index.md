@@ -3,14 +3,14 @@ title: Section.ProtectedForForms
 linktitle: ProtectedForForms
 articleTitle: ProtectedForForms
 second_title: Aspose.Words para .NET
-description: Section ProtectedForForms propiedad. Verdadero si la sección está protegida para formularios. Cuando una sección está protegida para formularios los usuarios pueden seleccionar y modificar texto solo en los campos de formulario en Microsoft Word en C#.
+description: Descubra cómo la propiedad ProtectedForForms en Microsoft Word mejora la seguridad del documento, permitiendo a los usuarios editar fácilmente únicamente los campos de formulario designados.
 type: docs
 weight: 60
 url: /es/net/aspose.words/section/protectedforforms/
 ---
 ## Section.ProtectedForForms property
 
-Verdadero si la sección está protegida para formularios. Cuando una sección está protegida para formularios, los usuarios pueden seleccionar y modificar texto solo en los campos de formulario en Microsoft Word.
+Verdadero si la sección está protegida para formularios. Cuando una sección está protegida para formularios, los usuarios solo pueden seleccionar y modificar texto en los campos de formulario de Microsoft Word.
 
 ```csharp
 public bool ProtectedForForms { get; set; }
@@ -34,11 +34,11 @@ builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholde
 // Aplicar protección contra escritura a cada sección del documento.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
-// Desactiva la protección contra escritura para la primera sección.
+// Desactive la protección contra escritura para la primera sección.
 doc.Sections[0].ProtectedForForms = false;
 
-// En este documento de salida, podremos editar la primera sección libremente,
-// y solo podremos editar el contenido del campo del formulario en la segunda sección.
+//En este documento de salida, podremos editar la primera sección libremente,
+// y solo podremos editar el contenido del campo de formulario en la segunda sección.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

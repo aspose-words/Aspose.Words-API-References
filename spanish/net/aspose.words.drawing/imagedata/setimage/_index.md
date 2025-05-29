@@ -3,9 +3,9 @@ title: ImageData.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words para .NET
-description: ImageData SetImage método. Establece la imagen que muestra la forma en C#.
+description: Descubre cómo usar el método SetImage en ImageData para mejorar tus formas con imágenes personalizadas. ¡Mejora tu diseño sin esfuerzo!
 type: docs
-weight: 200
+weight: 210
 url: /es/net/aspose.words.drawing/imagedata/setimage/
 ---
 ## SetImage(*Image*) {#setimage}
@@ -31,7 +31,7 @@ Document doc = new Document();
 // que contendrá una imagen y luego la agregará al cuerpo del documento.
 Shape imgShape;
 
-// A continuación se muestran dos formas de obtener una imagen de un archivo en el sistema de archivos local.
+A continuación se muestran dos formas de obtener una imagen de un archivo en el sistema de archivos local.
 // 1 - Crea un objeto de imagen a partir de un archivo de imagen:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
@@ -40,7 +40,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
-// 2 - Abre un archivo de imagen desde el sistema de archivos local usando una secuencia:
+// 2 - Abrir un archivo de imagen desde el sistema de archivos local usando una secuencia:
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -70,7 +70,7 @@ public void SetImage(Stream stream)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| stream | Stream | La secuencia que contiene la imagen. |
+| stream | Stream | El flujo que contiene la imagen. |
 
 ## Ejemplos
 
@@ -83,7 +83,7 @@ Document doc = new Document();
 // que contendrá una imagen y luego la agregará al cuerpo del documento.
 Shape imgShape;
 
-// A continuación se muestran dos formas de obtener una imagen de un archivo en el sistema de archivos local.
+A continuación se muestran dos formas de obtener una imagen de un archivo en el sistema de archivos local.
 // 1 - Crea un objeto de imagen a partir de un archivo de imagen:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
@@ -92,7 +92,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
-// 2 - Abre un archivo de imagen desde el sistema de archivos local usando una secuencia:
+// 2 - Abrir un archivo de imagen desde el sistema de archivos local usando una secuencia:
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -135,7 +135,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
 // A continuación se muestran dos formas de aplicar una imagen a una forma para que pueda mostrarla.
-// 1 - Establece la forma para contener la imagen.
+// 1 - Establece la forma que contendrá la imagen.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -144,12 +144,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Cada imagen que almacenemos en forma aumentará el tamaño de nuestro documento.
+//Cada imagen que almacenemos en shape aumentará el tamaño de nuestro documento.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 - Establece la forma para vincular a un archivo de imagen en el sistema de archivos local.
+// 2 - Establece la forma para vincularla a un archivo de imagen en el sistema de archivos local.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -157,7 +157,7 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Vincular a imágenes ahorrará espacio y dará como resultado un documento más pequeño.
+// Vincular a las imágenes ahorrará espacio y dará como resultado un documento más pequeño.
 // Sin embargo, el documento sólo puede mostrar la imagen correctamente mientras
 // el archivo de imagen está presente en la ubicación a la que apunta la propiedad "SourceFullName" de la forma.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);

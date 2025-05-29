@@ -3,7 +3,7 @@ title: RowFormat.HeadingFormat
 linktitle: HeadingFormat
 articleTitle: HeadingFormat
 second_title: Aspose.Words para .NET
-description: RowFormat HeadingFormat propiedad. Verdadero si la fila se repite como encabezado de tabla en cada página cuando la tabla abarca más de una página en C#.
+description: Descubra la propiedad RowFormat HeadingFormat, asegúrese de que los encabezados de sus tablas se repitan en cada página para lograr mayor claridad y una mejor legibilidad en documentos de varias páginas.
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/rowformat/headingformat/
@@ -18,7 +18,7 @@ public bool HeadingFormat { get; set; }
 
 ## Ejemplos
 
-Muestra cómo crear una tabla con filas que se repiten en cada página.
+Muestra cómo construir una tabla con filas que se repiten en cada página.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// Cualquier fila insertada mientras el indicador "HeadingFormat" esté establecido en "true"
+// Cualquier fila insertada mientras el indicador "HeadingFormat" esté establecido en "verdadero"
 // aparecerá en la parte superior de la tabla en cada página que abarque.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -42,7 +42,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// Agregue suficientes filas para que la tabla ocupe dos páginas.
+// Agregue suficientes filas para que la tabla abarque dos páginas.
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

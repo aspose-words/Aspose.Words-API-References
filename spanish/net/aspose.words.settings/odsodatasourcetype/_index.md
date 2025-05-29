@@ -3,14 +3,14 @@ title: OdsoDataSourceType Enum
 linktitle: OdsoDataSourceType
 articleTitle: OdsoDataSourceType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoDataSourceType enumeración. Especifica el tipo de fuente de datos externa a la que conectarse como parte de la información de conexión ODSO en C#.
+description: Descubra la enumeración OdsoDataSourceType de Aspose.Words para conectarse fácilmente a fuentes de datos externas y mejorar sus capacidades de procesamiento de documentos.
 type: docs
-weight: 5890
+weight: 6720
 url: /es/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
 
-Especifica el tipo de fuente de datos externa a la que conectarse como parte de la información de conexión ODSO.
+Especifica el tipo de fuente de datos externa a la que se conectará como parte de la información de conexión de ODSO.
 
 ```csharp
 public enum OdsoDataSourceType
@@ -27,10 +27,10 @@ public enum OdsoDataSourceType
 | Document2 | `4` | Especifica que un documento determinado se ha conectado a otro formato de documento compatible con la aplicación productora. Posiblemente wdMergeSubTypeWorks. |
 | Native | `5` | Especifica que un documento determinado se ha conectado a otro formato de documento nativo de la aplicación productora. Posiblemente wdMergeSubTypeOLEDBText |
 | Email | `6` | Especifica que un documento determinado se ha conectado a una aplicación de correo electrónico. Posiblemente wdMergeSubTypeOutlook. |
-| None | `7` | El tipo de fuente de datos externa no está especificado. Posiblemente wdMergeSubTypeWord. |
-| Legacy | `8` | Especifica que un documento determinado se ha conectado a un formato de documento heredado compatible con la aplicación productora Posiblemente wdMergeSubTypeWord2000. |
+| None | `7` | No se especifica el tipo de la fuente de datos externa. Posiblemente wdMergeSubTypeWord. |
+| Legacy | `8` | Especifica que un documento determinado se ha conectado a un formato de documento heredado compatible con la aplicación productora. Posiblemente wdMergeSubTypeWord2000. |
 | Master | `9` | Especifica que un documento determinado se ha conectado a una fuente de datos que agrega otras fuentes de datos. |
-| Default | `7` | Igual aNone . |
+| Default | `7` | Es igual aNone . |
 
 ## Observaciones
 
@@ -51,8 +51,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportListLabels
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportListLabels propiedad. Controla cómo se envían las etiquetas de la lista a HTML MHTML o EPUB. El valor predeterminado esAuto  en C#.
+description: Descubra cómo la propiedad HtmlSaveOptions ExportListLabels mejora sus resultados HTML, MHTML y EPUB. Optimice las etiquetas de lista fácilmente con la configuración automática.
 type: docs
 weight: 190
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
 ## HtmlSaveOptions.ExportListLabels property
 
-Controla cómo se envían las etiquetas de la lista a HTML, MHTML o EPUB. El valor predeterminado esAuto .
+Controla cómo se envían las etiquetas de lista a HTML, MHTML o EPUB. El valor predeterminado esAuto .
 
 ```csharp
 public ExportListLabels ExportListLabels { get; set; }
@@ -50,10 +50,10 @@ builder.ListFormat.RemoveNumbers();
 // para decidir qué elementos HTML utilizará el documento para representar listas.
 // Estableciendo la propiedad "ExportListLabels" en "ExportListLabels.AsInlineText"
 // creará listas formateando intervalos.
-// Al establecer la propiedad "ExportListLabels" en "ExportListLabels.Auto" se utilizará <p> etiqueta
-// para crear listas en los casos en que se utiliza <ol> y <li> Las etiquetas pueden causar pérdida de formato.
+// Al establecer la propiedad "ExportListLabels" en "ExportListLabels.Auto" se utilizará la etiqueta <p>
+// para crear listas en los casos en que el uso de las etiquetas <ol> y <li> pueda causar pérdida de formato.
 // Estableciendo la propiedad "ExportListLabels" en "ExportListLabels.ByHtmlTags"
-// usará <ol> y <li> etiquetas para construir todas las listas.
+// utilizará las etiquetas <ol> y <li> para construir todas las listas.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

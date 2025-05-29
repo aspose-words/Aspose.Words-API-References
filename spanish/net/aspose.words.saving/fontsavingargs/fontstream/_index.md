@@ -3,7 +3,7 @@ title: FontSavingArgs.FontStream
 linktitle: FontStream
 articleTitle: FontStream
 second_title: Aspose.Words para .NET
-description: FontSavingArgs FontStream propiedad. Permite especificar la secuencia donde se guardará la fuente en C#.
+description: Descubra la propiedad FontStream FontSavingArgs, que permite el almacenamiento y la gestión de fuentes sin inconvenientes para mejorar el rendimiento de la aplicación y la experiencia del usuario.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -24,15 +24,15 @@ El valor predeterminado es`nulo` . Cuando esta propiedad es`nulo` , la fuente se
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -50,7 +50,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

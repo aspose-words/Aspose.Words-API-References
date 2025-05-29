@@ -3,14 +3,14 @@ title: MailMergeSettings.HeaderSource
 linktitle: HeaderSource
 articleTitle: HeaderSource
 second_title: Aspose.Words para .NET
-description: MailMergeSettings HeaderSource propiedad. Especifica la ruta al origen del encabezado de combinación de correspondencia. El valor predeterminado es una cadena vacía en C#.
+description: Descubra la propiedad HeaderSource de MailMergeSettings y defina fácilmente la ruta del encabezado de combinación de correspondencia. ¡Optimice su flujo de trabajo documental hoy mismo!
 type: docs
 weight: 100
 url: /es/net/aspose.words.settings/mailmergesettings/headersource/
 ---
 ## MailMergeSettings.HeaderSource property
 
-Especifica la ruta al origen del encabezado de combinación de correspondencia. El valor predeterminado es una cadena vacía.
+Especifica la ruta a la fuente del encabezado de combinación de correspondencia. El valor predeterminado es una cadena vacía.
 
 ```csharp
 public string HeaderSource { get; set; }
@@ -34,7 +34,7 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
-// Crea un archivo de datos de combinación de etiquetas de correo que consta de una tabla con una fila
+// Cree un archivo de datos de combinación de etiquetas de correo que consta de una tabla con una fila
  // y el mismo número de columnas que la tabla del documento de encabezado.
 doc = new Document();
 builder = new DocumentBuilder(doc);
@@ -48,7 +48,7 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
-// Crea un documento de destino de fusión con MERGEFIELDS con nombres que
+// Cree un documento de destino de fusión con MERGEFIELDS con nombres que
 // coincide con los nombres de las columnas en la tabla del archivo de encabezado de combinación.
 doc = new Document();
 builder = new DocumentBuilder(doc);
@@ -60,7 +60,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 
 MailMergeSettings settings = doc.MailMergeSettings;
 
-// Construya una fuente de datos para nuestra combinación de correspondencia especificando dos nombres de archivo de documentos.
+// Construya una fuente de datos para nuestra combinación de correspondencia especificando dos nombres de archivos de documentos.
 // La fuente del encabezado nombrará las columnas de la tabla de fuente de datos.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 

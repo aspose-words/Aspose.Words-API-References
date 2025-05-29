@@ -3,14 +3,14 @@ title: SvgSaveOptions.ResourcesFolderAlias
 linktitle: ResourcesFolderAlias
 articleTitle: ResourcesFolderAlias
 second_title: Aspose.Words para .NET
-description: SvgSaveOptions ResourcesFolderAlias propiedad. Especifica el nombre de la carpeta utilizada para construir los URI de imágenes escritos en un documento SVG. El valor predeterminado esnulo  en C#.
+description: Descubra la propiedad SvgSaveOptions ResourcesFolderAlias para personalizar las URI de imágenes en documentos SVG. ¡Mejore su salida SVG con nombres de carpeta flexibles!
 type: docs
-weight: 60
+weight: 90
 url: /es/net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
 ---
 ## SvgSaveOptions.ResourcesFolderAlias property
 
-Especifica el nombre de la carpeta utilizada para construir los URI de imágenes escritos en un documento SVG. El valor predeterminado es`nulo` .
+Especifica el nombre de la carpeta utilizada para construir las URI de imágenes escritas en un documento SVG. El valor predeterminado es`nulo` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -18,11 +18,11 @@ public string ResourcesFolderAlias { get; set; }
 
 ## Observaciones
 
-Cuando guardas un[`Document`](../../../aspose.words/document/) en formato SVG, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.[`ResourcesFolder`](../resourcesfolder/) le permite especificar dónde se guardarán las imágenes y`ResourcesFolderAlias` permite especificar cómo se construirán los URI de la imagen.
+Cuando guardas un[`Document`](../../../aspose.words/document/) en formato SVG, Aspose.Words necesita guardar todas las imágenes incrustadas en el documento como archivos independientes.[`ResourcesFolder`](../resourcesfolder/) le permite especificar dónde se guardarán las imágenes y`ResourcesFolderAlias` permite especificar cómo se construirán las URI de las imágenes.
 
 ## Ejemplos
 
-Muestra cómo manipular e imprimir los URI de los recursos vinculados creados al convertir un documento a .svg.
+Muestra cómo manipular e imprimir las URI de los recursos vinculados creados al convertir un documento a .svg.
 
 ```csharp
 public void SvgResourceFolder()
@@ -46,7 +46,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Cuenta e imprime los URI de los recursos contenidos en a medida que se convierten a .svg.
+/// Cuenta e imprime las URI de los recursos contenidos en él a medida que se convierten a .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

@@ -3,9 +3,9 @@ title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words para .NET
-description: ShapeBase ParentParagraph propiedad. Devuelve el párrafo padre inmediato en C#.
+description: Descubra la propiedad ParentParagraph de ShapeBase: acceda de manera eficiente al párrafo padre inmediato para una administración de contenido optimizada y una organización mejorada.
 type: docs
-weight: 410
+weight: 430
 url: /es/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
@@ -18,11 +18,11 @@ public Paragraph ParentParagraph { get; }
 
 ## Observaciones
 
-Para formas secundarias de una forma de grupo y formas secundarias de un objeto de Office Math siempre devuelve`nulo`.
+Para las formas secundarias de una forma de grupo y las formas secundarias de un objeto de Office Math siempre devuelve`nulo`.
 
 ## Ejemplos
 
-Muestra cómo insertar un cuadro de texto y configurar la fuente de su contenido.
+Muestra cómo insertar un cuadro de texto y establecer la fuente de su contenido.
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Establece la propiedad "Oculta" del objeto "Fuente" de la forma en "verdadero" para ocultar el cuadro de texto a la vista
+// Establezca la propiedad "Oculto" del objeto "Fuente" de la forma en "verdadero" para ocultar el cuadro de texto de la vista
 // y colapsar el espacio que normalmente ocuparía.
-// Establece la propiedad "Oculta" del objeto "Fuente" de la forma en "falso" para dejar el cuadro de texto visible.
+// Establezca la propiedad "Oculto" del objeto "Fuente" de la forma en "falso" para dejar el cuadro de texto visible.
 shape.Font.Hidden = hideShape;
 
-// Si la forma es visible, modificaremos su apariencia mediante el objeto de fuente.
+// Si la forma es visible, modificaremos su apariencia a través del objeto de fuente.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -47,7 +47,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// Saca el constructor del cuadro de texto y vuelve al documento principal.
+// Mueva el generador fuera del cuadro de texto y devuélvalo al documento principal.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

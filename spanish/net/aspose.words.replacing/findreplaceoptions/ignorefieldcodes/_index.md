@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreFieldCodes
 linktitle: IgnoreFieldCodes
 articleTitle: IgnoreFieldCodes
 second_title: Aspose.Words para .NET
-description: FindReplaceOptions IgnoreFieldCodes propiedad. Obtiene o establece un valor booleano que indica que se debe ignorar el texto dentro de los códigos de campo. El valor predeterminado esFALSO  en C#.
+description: Descubra la propiedad FindReplaceOptions IgnoreFieldCodes para gestionar fácilmente el texto en los códigos de campo. ¡Controle la visibilidad con una sencilla configuración booleana!
 type: docs
 weight: 70
 url: /es/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
 ---
 ## FindReplaceOptions.IgnoreFieldCodes property
 
-Obtiene o establece un valor booleano que indica que se debe ignorar el texto dentro de los códigos de campo. El valor predeterminado es`FALSO` .
+Obtiene o establece un valor booleano que indica si se debe ignorar el texto dentro de los códigos de campo. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool IgnoreFieldCodes { get; set; }
@@ -18,7 +18,7 @@ public bool IgnoreFieldCodes { get; set; }
 
 ## Observaciones
 
-Esta opción afecta sólo a los códigos de campo (no ignora los nodos entre FieldSeparator yFieldEnd).
+Esta opción afecta solo a los códigos de campo (no ignora los nodos entre FieldSeparator yFieldEnd).
 
 Para ignorar todo el campo, utilice la opción correspondiente[`IgnoreFields`](../ignorefields/).
 
@@ -34,7 +34,7 @@ builder.InsertField("INCLUDETEXT", "Test IT!");
 
 FindReplaceOptions options = new FindReplaceOptions {IgnoreFieldCodes = ignoreFieldCodes};
 
-// Reemplace 'T' en el documento ignorando o no el texto dentro del código de campo.
+// Reemplazar 'T' en el documento ignorando el texto dentro del código del campo o no.
 doc.Range.Replace(new Regex("T"), "*", options);
 Console.WriteLine(doc.GetText());
 

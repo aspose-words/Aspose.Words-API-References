@@ -3,7 +3,7 @@ title: PdfSaveOptions.EncryptionDetails
 linktitle: EncryptionDetails
 articleTitle: EncryptionDetails
 second_title: Aspose.Words para .NET
-description: PdfSaveOptions EncryptionDetails propiedad. Obtiene o establece los detalles para cifrar el documento PDF de salida en C#.
+description: Descubra la propiedad EncryptionDetails de PdfSaveOptions para configurar fácilmente los ajustes de cifrado de PDF, garantizando que sus documentos permanezcan seguros y protegidos.
 type: docs
 weight: 130
 url: /es/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -18,15 +18,15 @@ public PdfEncryptionDetails EncryptionDetails { get; set; }
 
 ## Observaciones
 
-El valor predeterminado es`nulo` y el documento de salida no se cifrará. Cuando esta propiedad se establece en un valor válido[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, entonces el documento PDF de salida se cifrará.
+El valor predeterminado es`nulo` y el documento de salida no se cifrará. Cuando esta propiedad se establece en un valor válido[`PdfEncryptionDetails`](../../pdfencryptiondetails/)objeto, entonces el documento PDF de salida será cifrado.
 
-El algoritmo de cifrado AES-128 se utiliza al guardar en formato PDF 1.7 (incluido PDF/UA-1). El algoritmo de cifrado AES-256 se utiliza al guardar en formato PDF 2.0.
+El algoritmo de cifrado AES-128 se utiliza al guardar en formato compatible con PDF 1.7 (incluido PDF/UA-1). Se utiliza el algoritmo de cifrado AES-256 al guardar en formato compatible con PDF 2.0.
 
-El cifrado está prohibido por el cumplimiento de PDF/A. Esta opción se ignorará al guardar en PDF/A.
+El cifrado está prohibido por la compatibilidad con PDF/A. Esta opción se ignorará al guardar en PDF/A.
 
-ContentCopyForAccessibility Se requiere permiso para cumplimiento de PDF/UA si el documento de salida está cifrado. Este permiso se utilizará automáticamente al guardar en PDF/UA.
+ContentCopyForAccessibility Se requiere permiso para la conformidad con PDF/UA si el documento de salida está cifrado. Este permiso se usará automáticamente al guardar en PDF/UA.
 
-ContentCopyForAccessibility El permiso está obsoleto en formato PDF 2.0. Este permiso se ignorará al guardar en PDF 2.0.
+ContentCopyForAccessibility Este permiso está obsoleto en el formato PDF 2.0. Este permiso se ignorará al guardar en PDF 2.0.
 
 ## Ejemplos
 
@@ -38,17 +38,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Ampliar permisos para permitir la edición de anotaciones.
+//Ampliar los permisos para permitir la edición de anotaciones.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
-// para modificar cómo ese método convierte el documento a .PDF.
+// Crea un objeto "PdfSaveOptions" que podamos pasar al método "Guardar" del documento
+// para modificar la forma en que ese método convierte el documento a .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-// Habilite el cifrado mediante la propiedad "EncryptionDetails".
+// Habilite el cifrado a través de la propiedad "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Cuando abramos este documento, necesitaremos proporcionar la contraseña antes de acceder a su contenido.
+//Cuando abramos este documento, necesitaremos proporcionar la contraseña antes de acceder a su contenido.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

@@ -3,9 +3,9 @@ title: StructuredDocumentTag.SetUncheckedSymbol
 linktitle: SetUncheckedSymbol
 articleTitle: SetUncheckedSymbol
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTag SetUncheckedSymbol método. Establece el símbolo utilizado para representar el estado no marcado de un control de contenido de casilla de verificación en C#.
+description: Descubra cómo el método SetUncheckedSymbol mejora su StructuredDocumentTag al personalizar los elementos visuales de las casillas de verificación para una mejor experiencia del usuario.
 type: docs
-weight: 370
+weight: 390
 url: /es/net/aspose.words.markup/structureddocumenttag/setuncheckedsymbol/
 ---
 ## StructuredDocumentTag.SetUncheckedSymbol method
@@ -23,22 +23,22 @@ public void SetUncheckedSymbol(int characterCode, string fontName)
 
 ## Observaciones
 
-Acceder a este método sólo funcionará paraCheckbox Tipos de TDS.
+Acceder a este método solo funcionará paraCheckbox Tipos de SDT.
 
 Para todos los demás tipos de SDT se producirá una excepción.
 
 ## Ejemplos
 
-Muestre cómo crear una etiqueta de documento estructurada en forma de casilla de verificación.
+Muestra cómo crear una etiqueta de documento estructurado en forma de casilla de verificación.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Podemos configurar los símbolos utilizados para representar el estado marcado/no marcado de un control de contenido de casilla de verificación.
+// Podemos configurar los símbolos utilizados para representar el estado marcado/desmarcado de un control de contenido de casilla de verificación.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

@@ -3,14 +3,14 @@ title: MappedDataFieldCollection.ContainsKey
 linktitle: ContainsKey
 articleTitle: ContainsKey
 second_title: Aspose.Words para .NET
-description: MappedDataFieldCollection ContainsKey método. Determina si existe una asignación del campo especificado en el documento en la colección en C#.
+description: Descubra si existe una asignación de campo de documento específica en MappedDataFieldCollection con el método IncludesKey. ¡Optimice la gestión de datos!
 type: docs
 weight: 50
 url: /es/net/aspose.words.mailmerging/mappeddatafieldcollection/containskey/
 ---
 ## MappedDataFieldCollection.ContainsKey method
 
-Determina si existe una asignación del campo especificado en el documento en la colección.
+Determina si existe en la colección una asignación del campo especificado en el documento.
 
 ```csharp
 public bool ContainsKey(string documentFieldName)
@@ -18,15 +18,15 @@ public bool ContainsKey(string documentFieldName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| documentFieldName | String | Nombre que distingue entre mayúsculas y minúsculas del campo de combinación de correspondencia del documento. |
+| documentFieldName | String | Nombre que distingue entre mayúsculas y minúsculas del campo de combinación de correspondencia en el documento. |
 
 ### Valor_devuelto
 
-`verdadero` si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
+`verdadero`si el artículo se encuentra en la colección; de lo contrario,`FALSO`.
 
 ## Ejemplos
 
-Muestra cómo asignar columnas de datos y MERGEFIELD con diferentes nombres para que los datos se transfieran entre ellos durante una combinación de correspondencia.
+Muestra cómo asignar columnas de datos y MERGEFIELDs con diferentes nombres para que los datos se transfieran entre ellos durante una combinación de correspondencia.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -34,29 +34,29 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // La tabla tiene una columna llamada "Columna2", pero no hay MERGEFIELD con ese nombre.
-    // Además, tenemos un MERGEFIELD llamado "Columna3", pero la fuente de datos no tiene una columna con ese nombre.
-    // Si los datos de la "Columna2" son adecuados para la "Columna3" MERGEFIELD,
-    // podemos asignar ese nombre de columna a MERGEFIELD en el par clave/valor "MappedDataFields".
+    // La tabla tiene una columna llamada "Columna2", pero no hay ningún MERGEFIELD con ese nombre.
+    // Además, tenemos un MERGEFIELD llamado "Column3", pero la fuente de datos no tiene una columna con ese nombre.
+    // Si los datos de "Columna2" son adecuados para el CAMPO DE COMBINACIÓN "Columna3",
+    //podemos asignar ese nombre de columna al MERGEFIELD en el par clave/valor "MappedDataFields".
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Podemos vincular el nombre de una columna de fuente de datos a un nombre MERGEFIELD como este.
+    //Podemos vincular un nombre de columna de fuente de datos a un nombre MERGEFIELD de esta manera.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // Vincula la columna de origen de datos denominada "Columna2" a MERGEFIELD denominada "Columna3".
+    // Vincula la columna de fuente de datos denominada "Columna2" a los campos MERGEFIELD denominados "Columna3".
     mappedDataFields.Add("Column3", "Column2");
 
-    // El nombre MERGEFIELD es la "clave" del nombre de la columna de la fuente de datos respectiva "valor".
+    // El nombre de MERGEFIELD es la "clave" del nombre de la columna de fuente de datos respectiva "valor".
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Ahora, si ejecutamos esta combinación de correspondencia, los MERGEFIELD de la "Columna 3" tomarán datos de la "Columna 2" de la tabla.
+    // Ahora, si ejecutamos esta combinación de correspondencia, los MERGEFIELDs "Columna3" tomarán datos de la "Columna2" de la tabla.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
-    // Podemos iterar sobre los elementos de esta colección.
+    //Podemos iterar sobre los elementos de esta colección.
     Assert.AreEqual(2, mappedDataFields.Count);
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
@@ -64,7 +64,7 @@ public void MappedDataFieldCollection()
             Console.WriteLine(
                 $"Column named {enumerator.Current.Value} is mapped to MERGEFIELDs named {enumerator.Current.Key}");
 
-    // También podemos eliminar elementos de la colección.
+    //También podemos eliminar elementos de la colección.
     mappedDataFields.Remove("MergeFieldName");
 
     Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
@@ -76,7 +76,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Crea un documento con 2 MERGEFIELD, uno de los cuales no tiene
+/// Crea un documento con 2 MERGEFIELDs, uno de los cuales no tiene un
 /// columna correspondiente en la tabla de datos del método siguiente.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -92,7 +92,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Crea una tabla de datos con 2 columnas, una de las cuales no tiene
+/// Cree una tabla de datos con 2 columnas, una de las cuales no tiene una
 /// MERGEFIELD correspondiente en el documento fuente del método anterior.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

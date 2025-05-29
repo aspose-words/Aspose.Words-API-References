@@ -3,9 +3,9 @@ title: Document.CopyStylesFromTemplate
 linktitle: CopyStylesFromTemplate
 articleTitle: CopyStylesFromTemplate
 second_title: Aspose.Words para .NET
-description: Document CopyStylesFromTemplate método. Copia estilos de la plantilla especificada a un documento en C#.
+description: Copie sin esfuerzo estilos de su plantilla elegida a cualquier documento con el método CopyStylesFromTemplate, mejorando su flujo de trabajo y la consistencia del documento.
 type: docs
-weight: 570
+weight: 610
 url: /es/net/aspose.words/document/copystylesfromtemplate/
 ---
 ## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
@@ -18,7 +18,7 @@ public void CopyStylesFromTemplate(string template)
 
 ## Observaciones
 
-Cuando se copian estilos de una plantilla a un documento, los estilos con nombres similares en el documento se redefinen para que coincidan con las descripciones de estilo en la plantilla. Los estilos únicos de la plantilla se copian en el documento. Los estilos únicos del documento permanecen intactos.
+Al copiar estilos de una plantilla a un documento, los estilos con nombres similares en el documento se redefinen para que coincidan con las descripciones de la plantilla. Los estilos únicos de la plantilla se copian al documento. Los estilos únicos del documento se conservan.
 
 ## Ejemplos
 
@@ -42,7 +42,7 @@ style.Font.Color = Color.RoyalBlue;
 
 Assert.AreEqual(7, template.Styles.Count);
 
-// Crea un documento en el que copiaremos los estilos.
+// Crea un documento al que copiaremos los estilos.
 Document target = new Document();
 
 // Cree un estilo con el mismo nombre que un estilo del documento de plantilla y agréguelo al documento de destino.
@@ -87,7 +87,7 @@ public void CopyStylesFromTemplate(Document template)
 
 ## Observaciones
 
-Cuando se copian estilos de una plantilla a un documento, los estilos con nombres similares en el documento se redefinen para que coincidan con las descripciones de estilo en la plantilla. Los estilos únicos de la plantilla se copian en el documento. Los estilos únicos del documento permanecen intactos.
+Al copiar estilos de una plantilla a un documento, los estilos con nombres similares en el documento se redefinen para que coincidan con las descripciones de la plantilla. Los estilos únicos de la plantilla se copian al documento. Los estilos únicos del documento se conservan.
 
 ## Ejemplos
 
@@ -120,7 +120,7 @@ style.Font.Color = Color.RoyalBlue;
 
 Assert.AreEqual(7, template.Styles.Count);
 
-// Crea un documento en el que copiaremos los estilos.
+// Crea un documento al que copiaremos los estilos.
 Document target = new Document();
 
 // Cree un estilo con el mismo nombre que un estilo del documento de plantilla y agréguelo al documento de destino.

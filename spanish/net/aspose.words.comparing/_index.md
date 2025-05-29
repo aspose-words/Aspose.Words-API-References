@@ -3,9 +3,9 @@ title: Aspose.Words.Comparing
 linktitle: Aspose.Words.Comparing
 articleTitle: Aspose.Words.Comparing
 second_title: Aspose.Words para .NET
-description: ElAspose.Palabras.Comparando El espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales al comparar documentos en C#.
+description: Descubra Aspose.Words.Comparing para una potente comparación de documentos. Personalice las opciones fácilmente para mejorar la precisión y optimizar su flujo de trabajo.
 type: docs
-weight: 30
+weight: 50
 url: /es/net/aspose.words.comparing/
 ---
 El**Aspose.Palabras.Comparando** El espacio de nombres proporciona clases y enumeraciones que permiten especificar opciones adicionales al comparar documentos.
@@ -14,10 +14,11 @@ El**Aspose.Palabras.Comparando** El espacio de nombres proporciona clases y enum
 
 | Clase | Descripción |
 | --- | --- |
-| [CompareOptions](./compareoptions/) | Permite elegir opciones avanzadas para la operación de comparación de documentos. |
+| [AdvancedCompareOptions](./advancedcompareoptions/) | Permite configurar opciones de comparación avanzadas. |
+| [CompareOptions](./compareoptions/) | Permite elegir opciones adicionales para la operación de comparación de documentos. |
 ## Enumeración
 
 | Enumeración | Descripción |
 | --- | --- |
 | [ComparisonTargetType](./comparisontargettype/) | Permite especificar el documento base que se utilizará durante la comparación. El valor predeterminado esCurrent . |
-| [Granularity](./granularity/) | Especifica la granularidad de los cambios que se deben rastrear al comparar dos documentos. |
+| [Granularity](./granularity/) | Especifica la granularidad de los cambios a seguir al comparar dos documentos. |

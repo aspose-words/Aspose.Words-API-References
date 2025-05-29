@@ -3,7 +3,7 @@ title: ChartAxisCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: ChartAxisCollection Item propiedad. Obtiene el eje en el índice especificado en C#.
+description: Acceda al eje específico que necesita con la propiedad ChartAxisCollection Item. ¡Simplifique la visualización de datos recuperando ejes fácilmente!
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/chartaxiscollection/item/

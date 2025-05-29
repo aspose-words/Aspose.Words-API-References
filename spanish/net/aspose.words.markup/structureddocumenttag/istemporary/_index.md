@@ -3,14 +3,14 @@ title: StructuredDocumentTag.IsTemporary
 linktitle: IsTemporary
 articleTitle: IsTemporary
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTag IsTemporary propiedad. Especifica si estoTED se eliminará del documento WordProcessingML cuando se modifique su contenido  en C#.
+description: Descubra cómo la propiedad StructuredDocumentTag IsTemporary determina si su SDT se elimina de WordProcessingML al cambiar el contenido. ¡Optimice sus documentos hoy mismo!
 type: docs
 weight: 160
 url: /es/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-Especifica si esto**TED** se eliminará del documento WordProcessingML cuando se modifique su contenido .
+Especifica si esto**TED** se eliminará del documento WordProcessingML cuando se modifique su contenido.
 
 ```csharp
 public bool IsTemporary { get; set; }
@@ -18,18 +18,18 @@ public bool IsTemporary { get; set; }
 
 ## Ejemplos
 
-Muestra cómo hacer controles de un solo uso.
+Muestra cómo realizar controles de un solo uso.
 
 ```csharp
 Document doc = new Document();
 
-// Insertar una etiqueta de documento estructurado de texto sin formato,
-// que actuará como un formulario de texto sin formato en el que el usuario podrá ingresar texto.
+// Insertar una etiqueta de documento estructurado de texto simple,
+// que actuará como un formato de texto simple en el que el usuario podrá ingresar texto.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Establece la propiedad "IsTemporary" en "true" para hacer que la etiqueta del documento estructurado desaparezca y
+// Establezca la propiedad "IsTemporary" en "true" para que la etiqueta del documento estructurado desaparezca y
 // asimilar su contenido en el documento después de que el usuario lo edite una vez en Microsoft Word.
-// Establece la propiedad "IsTemporary" en "false" para permitir al usuario editar el contenido
+// Establezca la propiedad "IsTemporary" en "falso" para permitir que el usuario edite el contenido
 // de la etiqueta del documento estructurado cualquier número de veces.
 tag.IsTemporary = isTemporary;
 
@@ -41,9 +41,9 @@ builder.InsertNode(tag);
 tag = new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline);
 tag.Checked = true;
 
-// Establece la propiedad "IsTemporary" en "true" para que la casilla de verificación se convierta en un símbolo
+// Establezca la propiedad "IsTemporary" en "verdadero" para que la casilla de verificación se convierta en un símbolo
 // una vez que el usuario hace clic en él en Microsoft Word.
-// Establece la propiedad "IsTemporary" en "false" para permitir al usuario hacer clic en la casilla de verificación cualquier número de veces.
+// Establezca la propiedad "IsTemporary" en "falso" para permitir que el usuario haga clic en la casilla de verificación cualquier cantidad de veces.
 tag.IsTemporary = isTemporary;
 
 builder.Write("\nPlease click the check box: ");

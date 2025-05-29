@@ -3,7 +3,7 @@ title: ChartDataLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words para .NET
-description: ChartDataLabel Font propiedad. Proporciona acceso al formato de fuente de esta etiqueta de datos en C#.
+description: Descubra la propiedad Fuente ChartDataLabel para personalizar fácilmente el formato de fuente de su etiqueta de datos para lograr un atractivo visual y una claridad mejorados.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/font/
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Aplicar una etiqueta de datos a cada burbuja que muestre su diámetro.
+//Aplica una etiqueta de datos a cada burbuja que muestre su diámetro.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

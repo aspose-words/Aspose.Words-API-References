@@ -3,9 +3,9 @@ title: DocumentBase.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words para .NET
-description: DocumentBase Styles propiedad. Devuelve una colección de estilos definidos en el documento en C#.
+description: Explore la propiedad Estilos de DocumentBase para acceder a una amplia colección de estilos personalizables, mejorando el atractivo visual y la consistencia de su documento.
 type: docs
-weight: 80
+weight: 90
 url: /es/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
@@ -18,7 +18,7 @@ public StyleCollection Styles { get; }
 
 ## Observaciones
 
-Para más información ver la descripción del[`StyleCollection`](../../stylecollection/) clase.
+Para más información consulte la descripción del[`StyleCollection`](../../stylecollection/) clase.
 
 ## Ejemplos
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumerar y enumerar todos los estilos que contiene de forma predeterminada un documento creado con Aspose.Words.
+// Enumerar y listar todos los estilos que un documento creado con Aspose.Words contiene de forma predeterminada.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -57,15 +57,15 @@ style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Crea una lista y asegúrate de que los párrafos que usan este estilo usarán esta lista.
+// Cree una lista y asegúrese de que los párrafos que usan este estilo usarán esta lista.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Aplique el estilo de párrafo al párrafo actual del creador de documentos y luego agregue algo de texto.
+// Aplique el estilo de párrafo al párrafo actual del generador de documentos y luego agregue algo de texto.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Cambie el estilo del creador de documentos a uno que no tenga formato de lista y escriba otro párrafo.
+// Cambie el estilo del generador de documentos a uno que no tenga formato de lista y escriba otro párrafo.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

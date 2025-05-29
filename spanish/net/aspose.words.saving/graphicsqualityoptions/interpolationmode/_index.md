@@ -3,7 +3,7 @@ title: GraphicsQualityOptions.InterpolationMode
 linktitle: InterpolationMode
 articleTitle: InterpolationMode
 second_title: Aspose.Words para .NET
-description: GraphicsQualityOptions InterpolationMode propiedad. Obtiene o establece el modo de interpolación asociado con este gráfico en C#.
+description: Descubra la propiedad GraphicsQualityOptions InterpolationMode para personalizar fácilmente la configuración de interpolación de sus gráficos para una mejor calidad visual.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/

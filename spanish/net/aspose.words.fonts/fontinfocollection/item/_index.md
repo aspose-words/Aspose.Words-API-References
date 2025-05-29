@@ -3,7 +3,7 @@ title: FontInfoCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: FontInfoCollection Item propiedad. Obtiene una fuente con el nombre especificado en C#.
+description: Descubra la propiedad Item FontInfoCollection para recuperar fuentes fácilmente por nombre, mejorando sus proyectos de diseño con precisión y estilo.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +18,7 @@ public FontInfo this[string name] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| name | Nombre de la fuente que se va a localizar sin distinguir entre mayúsculas y minúsculas. |
+| name | Nombre de la fuente a localizar que no distingue entre mayúsculas y minúsculas. |
 
 ## Ejemplos
 
@@ -31,8 +31,8 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Los formatos de fuentes incrustados pueden ser diferentes en otros formatos como .doc.
-// Necesitamos saber el formato correcto antes de poder extraer la fuente.
+// Los formatos de fuentes incrustadas pueden ser diferentes en otros formatos como .doc.
+//Necesitamos saber el formato correcto antes de poder extraer la fuente.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
@@ -63,7 +63,7 @@ public FontInfo this[int index] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Índice de base cero de la fuente. |
+| index | Índice de la fuente basado en cero. |
 
 ## Ejemplos
 
@@ -76,8 +76,8 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Los formatos de fuentes incrustados pueden ser diferentes en otros formatos como .doc.
-// Necesitamos saber el formato correcto antes de poder extraer la fuente.
+// Los formatos de fuentes incrustadas pueden ser diferentes en otros formatos como .doc.
+//Necesitamos saber el formato correcto antes de poder extraer la fuente.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));

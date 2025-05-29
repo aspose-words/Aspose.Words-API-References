@@ -3,14 +3,14 @@ title: LoadOptions.PreserveIncludePictureField
 linktitle: PreserveIncludePictureField
 articleTitle: PreserveIncludePictureField
 second_title: Aspose.Words para .NET
-description: LoadOptions PreserveIncludePictureField propiedad. Obtiene o establece si se conserva el campo INCLUDEPICTURE al leer formatos de Microsoft Word. El valor predeterminado esFALSO  en C#.
+description: Controle el campo INCLUDEPICTURE en formatos de Microsoft Word con LoadOptions PreserveIncludePictureField. Administre fácilmente el formato del documento para obtener resultados óptimos.
 type: docs
 weight: 120
 url: /es/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
 ## LoadOptions.PreserveIncludePictureField property
 
-Obtiene o establece si se conserva el campo INCLUDEPICTURE al leer formatos de Microsoft Word. El valor predeterminado es`FALSO` .
+Obtiene o establece si se debe conservar el campo INCLUDEPICTURE al leer formatos de Microsoft Word. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool PreserveIncludePictureField { get; set; }
@@ -18,9 +18,9 @@ public bool PreserveIncludePictureField { get; set; }
 
 ## Observaciones
 
-De forma predeterminada, el campo INCLUDEPICTURE se convierte en un objeto de forma. Puede anular eso si necesita que se conserve el campo, por ejemplo, si desea actualizarlo mediante programación. Sin embargo, tenga en cuenta que este enfoque no es común para Aspose.Words. Úselo bajo su propio riesgo.
+De forma predeterminada, el campo INCLUDEPICTURE se convierte en un objeto de forma. Puede anular esta configuración si necesita que el campo se conserve, por ejemplo, si desea actualizarlo mediante programación. Sin embargo, tenga en cuenta que este método no es común en Aspose.Words. Úselo bajo su propia responsabilidad.
 
-Uno de los posibles casos de uso puede ser utilizar MERGEFIELD como campo secundario para cambiar dinámicamente la ruta de origen de la imagen. En este caso es necesario que INCLUDEPICTURE se conserve en el modelo.
+Un posible caso de uso podría ser usar un MERGEFIELD como campo secundario para cambiar dinámicamente la ruta de origen de la imagen. En este caso, es necesario conservar INCLUDEPICTURE en el modelo.
 
 ## Ejemplos
 
@@ -39,7 +39,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // Podemos establecer una bandera en un objeto LoadOptions para decidir si convertir todos los campos INCLUDEPICTURE
-    // en formas de imágenes al cargar un documento que las contiene.
+    // en formas de imagen al cargar un documento que las contiene.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

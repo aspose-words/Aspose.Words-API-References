@@ -3,14 +3,14 @@ title: OdsoRecipientData.Active
 linktitle: Active
 articleTitle: Active
 second_title: Aspose.Words para .NET
-description: OdsoRecipientData Active propiedad. Especifica si el registro de la fuente de datos se importará a un documento cuando se realice la combinación de correspondencia. El valor predeterminado esverdadero  en C#.
+description: Controle las importaciones de combinación de correspondencia con la propiedad OdsoRecipientData Active. Administre fácilmente los registros de datos para una creación de documentos fluida. El valor predeterminado es "true".
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-Especifica si el registro de la fuente de datos se importará a un documento cuando se realice la combinación de correspondencia. El valor predeterminado es`verdadero` .
+Especifica si el registro de la fuente de datos se importará a un documento cuando se realiza la combinación de correspondencia. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool Active { get; set; }
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// Podemos clonar los elementos de esta colección.
+//Podemos clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// También podemos eliminar elementos individualmente o borrar toda la colección a la vez.
+// También podemos eliminar elementos individualmente o borrar toda la colección de una vez.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

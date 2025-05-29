@@ -3,7 +3,7 @@ title: CustomPart.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words para .NET
-description: CustomPart ContentType propiedad. Especifica el tipo de contenido de esta parte personalizada en C#.
+description: Descubra cómo la propiedad CustomPart ContentType define el tipo de contenido de su parte personalizada, mejorando la funcionalidad y la experiencia del usuario.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/custompart/contenttype/
@@ -18,13 +18,13 @@ public string ContentType { get; set; }
 
 ## Observaciones
 
-Esta propiedad es aplicable sólo cuando[`IsExternal`](../isexternal/) es`FALSO`.
+Esta propiedad es aplicable únicamente cuando[`IsExternal`](../isexternal/) es`FALSO`.
 
 El valor predeterminado es una cadena vacía. Un valor válido debe ser una cadena que no esté vacía.
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

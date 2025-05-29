@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagCollection Item propiedad. Devuelve la etiqueta del documento estructurado en el índice especificado en C#.
+description: Acceda fácilmente a las etiquetas de documentos estructurados con la propiedad Item. Recupere cualquier etiqueta por índice para una gestión fluida de documentos y una organización optimizada.
 type: docs
 weight: 20
 url: /es/net/aspose.words.markup/structureddocumenttagcollection/item/

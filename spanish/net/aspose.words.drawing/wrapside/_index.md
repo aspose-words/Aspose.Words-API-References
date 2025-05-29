@@ -3,14 +3,14 @@ title: WrapSide Enum
 linktitle: WrapSide
 articleTitle: WrapSide
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.WrapSide enumeración. Especifica qué lados de la forma o imagen rodea el texto en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.WrapSide para controlar el ajuste del texto alrededor de formas e imágenes, mejorando el diseño y la legibilidad del documento.
 type: docs
-weight: 1390
+weight: 1800
 url: /es/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
 
-Especifica qué lado(s) de la forma o imagen rodea el texto.
+Especifica en qué lado(s) de la forma o imagen se ajusta el texto.
 
 ```csharp
 public enum WrapSide
@@ -20,15 +20,15 @@ public enum WrapSide
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Both | `0` | El texto del documento se ajusta a ambos lados de la forma. |
-| Left | `1` | El texto del documento se ajusta únicamente en el lado izquierdo de la forma. Hay un área libre de texto a la derecha de la forma. |
-| Right | `2` | El texto del documento se ajusta únicamente en el lado derecho de la forma. Hay un área libre de texto en el lado izquierdo de la forma. |
+| Both | `0` | El texto del documento se ajusta en ambos lados de la forma. |
+| Left | `1` | El texto del documento se ajusta solo al lado izquierdo de la forma. Hay un área libre de texto a la derecha. |
+| Right | `2` | El texto del documento se ajusta solo al lado derecho de la forma. Hay un área libre de texto a la izquierda. |
 | Largest | `3` | El texto del documento se ajusta en el lado de la forma que está más alejado del margen de la página, dejando un área libre de texto en el otro lado de la forma. |
 | Default | `0` | El valor predeterminado esBoth . |
 
 ## Ejemplos
 
-Muestra cómo reemplazar todas las formas de cuadros de texto con formas de imágenes.
+Muestra cómo reemplazar todas las formas de cuadro de texto con formas de imagen.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

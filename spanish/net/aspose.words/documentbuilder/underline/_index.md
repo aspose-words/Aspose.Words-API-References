@@ -3,7 +3,7 @@ title: DocumentBuilder.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words para .NET
-description: DocumentBuilder Underline propiedad. Obtiene/establece el tipo de subrayado para la fuente actual en C#.
+description: Descubra la propiedad Subrayado de DocumentBuilder para personalizar fácilmente los estilos de fuente. Mejore sus documentos con versátiles opciones de subrayado para una apariencia profesional.
 type: docs
 weight: 190
 url: /es/net/aspose.words/documentbuilder/underline/
@@ -18,7 +18,7 @@ public Underline Underline { get; set; }
 
 ## Ejemplos
 
-Muestra cómo dar formato al texto insertado por un generador de documentos.
+Muestra cómo formatear el texto insertado por un generador de documentos.
 
 ```csharp
 Document doc = new Document();

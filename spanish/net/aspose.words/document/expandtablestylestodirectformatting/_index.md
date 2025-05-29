@@ -3,9 +3,9 @@ title: Document.ExpandTableStylesToDirectFormatting
 linktitle: ExpandTableStylesToDirectFormatting
 articleTitle: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words para .NET
-description: Document ExpandTableStylesToDirectFormatting método. Convierte el formato especificado en los estilos de tabla en formato directo en las tablas del documento en C#.
+description: Transforme los estilos de tabla en formato directo con el método ExpandTableStylesToDirectFormatting, mejorando la apariencia de su documento sin esfuerzo.
 type: docs
-weight: 590
+weight: 630
 url: /es/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
@@ -18,12 +18,12 @@ public void ExpandTableStylesToDirectFormatting()
 
 ## Observaciones
 
-Este método existe porque esta versión de Aspose.Words proporciona solo soporte limitado para los estilos de tabla (ver más abajo). Este método puede resultar útil cuando carga un documento DOCX o WordprocessingML que contiene tablas formateadas con estilos de tabla y necesita consultar el formato de tablas, celdas, párrafos o texto.
+Este método existe porque esta versión de Aspose.Words ofrece compatibilidad limitada con estilos de tabla (ver más abajo). Este método puede ser útil al cargar un documento DOCX o WordprocessingML que contenga tablas formateadas con estilos de tabla y necesite consultar el formato de tablas, celdas, párrafos o texto.
 
-Esta versión de Aspose.Words proporciona soporte limitado para los estilos de tabla de la siguiente manera:
+Esta versión de Aspose.Words proporciona soporte limitado para estilos de tabla como se indica a continuación:
 
 * Los estilos de tabla definidos en documentos DOCX o WordprocessingML se conservan como estilos de tabla al guardar el documento como DOCX o WordprocessingML.
-* Los estilos de tabla definidos en documentos DOCX o WordprocessingML se convierten automáticamente al formato directo en tablas al guardar el documento en cualquier otro formato, renderizado o impresión.
+* Los estilos de tabla definidos en documentos DOCX o WordprocessingML se convierten automáticamente al formato directo en las tablas cuando el documento se guarda en cualquier otro formato, se renderiza o se imprime.
 * Los estilos de tabla definidos en documentos DOC se conservan como estilos de tabla cuando se guarda el documento solo como DOC.
 
 ## Ejemplos

@@ -3,7 +3,7 @@ title: Odso.ColumnDelimiter
 linktitle: ColumnDelimiter
 articleTitle: ColumnDelimiter
 second_title: Aspose.Words para .NET
-description: Odso ColumnDelimiter propiedad. Especifica el carácter que se interpretará como el delimitador de columna utilizado para separar columnas dentro de fuentes de datos externas. El valor predeterminado es 0 lo que significa que no hay ningún delimitador de columna definido en C#.
+description: Descubra la propiedad ColumnDelimiter de Odso para definir fácilmente separadores de columnas en fuentes de datos externas. ¡Mejore la organización de sus datos con delimitadores personalizables!
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/odso/columndelimiter/
@@ -35,8 +35,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

@@ -3,7 +3,7 @@ title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words para .NET
-description: Cell LastParagraph propiedad. Obtiene el último párrafo entre los hijos inmediatos en C#.
+description: Descubra la propiedad LastParagraph de la celda. Acceda fácilmente al último párrafo desde los elementos secundarios inmediatos para una gestión eficiente del contenido.
 type: docs
 weight: 60
 url: /es/net/aspose.words.tables/cell/lastparagraph/
@@ -18,13 +18,13 @@ public Paragraph LastParagraph { get; }
 
 ## Ejemplos
 
-Muestra cómo aplicar configuraciones a los bordes verticales al formato de fila de una tabla.
+Muestra cómo aplicar configuraciones a los bordes verticales del formato de una fila de tabla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea una tabla con bordes interiores rojos y azules.
+// Crea una tabla con bordes internos rojos y azules.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -37,18 +37,18 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Ajusta la apariencia de los bordes que aparecerán entre filas.
+    //Ajusta la apariencia de los bordes que aparecerán entre las filas.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Ajusta la apariencia de los bordes que aparecerán entre las celdas.
+    //Ajusta la apariencia de los bordes que aparecerán entre las celdas.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Un formato de fila y el párrafo interior de una celda utilizan diferentes configuraciones de borde.
+// Un formato de fila y un párrafo interno de una celda utilizan configuraciones de borde diferentes.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

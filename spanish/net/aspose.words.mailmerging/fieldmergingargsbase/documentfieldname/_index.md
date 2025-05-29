@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.DocumentFieldName
 linktitle: DocumentFieldName
 articleTitle: DocumentFieldName
 second_title: Aspose.Words para .NET
-description: FieldMergingArgsBase DocumentFieldName propiedad. Obtiene el nombre del campo de combinación tal como se especifica en el documento en C#.
+description: Descubra la propiedad DocumentFieldName de FieldMergingArgsBase. Acceda y administre fácilmente los nombres de los campos de combinación para un procesamiento eficiente de documentos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -18,9 +18,9 @@ public string DocumentFieldName { get; }
 
 ## Observaciones
 
-Si tiene una asignación de un nombre de campo de documento a un nombre de campo de origen de datos diferente, , entonces este es el nombre de campo original tal como se especifica en el documento.
+Si tiene una asignación de un nombre de campo de documento a un nombre de campo de fuente de datos diferente, , entonces este es el nombre de campo original tal como se especifica en el documento.
 
-Si especificó un prefijo de nombre de campo, por ejemplo "Imagen:MiNombreDeCampo" en el documento, entonces`DocumentFieldName` devuelve el nombre del campo sin el prefijo, es decir, "MyFieldName".
+Si especificó un prefijo de nombre de campo, por ejemplo "Image:MyFieldName" en el documento, entonces`DocumentFieldName` devuelve el nombre del campo sin el prefijo, es decir "MyFieldName".
 
 ## Ejemplos
 
@@ -58,12 +58,12 @@ public void MergeHtml()
 
 /// <summary>
 /// Si la combinación de correspondencia encuentra un MERGEFIELD cuyo nombre comienza con el prefijo "html_",
-/// esta devolución de llamada analiza sus datos combinados como contenido HTML y agrega el resultado a la ubicación del documento de MERGEFIELD.
+/// esta devolución de llamada analiza sus datos de combinación como contenido HTML y agrega el resultado a la ubicación del documento MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Se llama cuando una combinación de correspondencia combina datos en un MERGEFIELD.
+    /// Se llama cuando una combinación de correspondencia fusiona datos en un MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -75,14 +75,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // Como ya hemos insertado el contenido fusionado manualmente,
-             // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
+            // no necesitaremos responder a este evento devolviendo contenido a través de la propiedad "Texto".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 }
 ```

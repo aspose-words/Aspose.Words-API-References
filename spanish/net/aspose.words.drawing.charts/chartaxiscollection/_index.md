@@ -3,14 +3,14 @@ title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection clase. Representa una colección de ejes del gráfico en C#.
+description: Descubra la clase Aspose.Words.ChartAxisCollection, su solución ideal para administrar los ejes de los gráficos de manera eficiente y mejorar la visualización de datos de sus documentos.
 type: docs
-weight: 640
+weight: 900
 url: /es/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
 
-Representa una colección de ejes del gráfico.
+Representa una colección de ejes de gráfico.
 
 ```csharp
 public class ChartAxisCollection : IEnumerable<ChartAxis>
@@ -38,9 +38,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Ocultar las líneas principales de la cuadrícula en los ejes Y primario y secundario.
+// Ocultar las líneas de cuadrícula principales en los ejes Y primario y secundario.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

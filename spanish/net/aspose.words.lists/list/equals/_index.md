@@ -3,14 +3,14 @@ title: List.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words para .NET
-description: List Equals método. Se compara con la lista especificada en C#.
+description: Descubre cómo el método Lista Igual compara listas de forma eficiente y precisa. ¡Mejora tus habilidades de programación con esta técnica esencial!
 type: docs
 weight: 100
 url: /es/net/aspose.words.lists/list/equals/
 ---
 ## Equals(*[List](../)*) {#equals}
 
-Se compara con la lista especificada.
+Compara con la lista especificada.
 
 ```csharp
 public bool Equals(List list)
@@ -26,7 +26,7 @@ public bool Equals(List list)
 
 ## Equals(*object*) {#equals_1}
 
-Determina si el objeto especificado tiene el mismo valor que el objeto actual.
+Determina si el objeto especificado es igual en valor al objeto actual.
 
 ```csharp
 public override bool Equals(object obj)

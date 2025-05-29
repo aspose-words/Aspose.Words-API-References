@@ -3,7 +3,7 @@ title: StructuredDocumentTag.SdtType
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTag SdtType propiedad. Obtiene el tipo de estoEtiqueta de documento estructurado  en C#.
+description: Descubra la propiedad SdtType de StructuredDocumentTag para identificar fácilmente los tipos de etiquetas y mejorar la gestión y organización de sus documentos.
 type: docs
 weight: 250
 url: /es/net/aspose.words.markup/structureddocumenttag/sdttype/
@@ -18,7 +18,7 @@ public SdtType SdtType { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener el tipo de etiqueta de documento estructurado.
+Muestra cómo obtener el tipo de una etiqueta de documento estructurado.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

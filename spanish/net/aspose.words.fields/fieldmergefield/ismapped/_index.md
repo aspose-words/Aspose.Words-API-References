@@ -3,7 +3,7 @@ title: FieldMergeField.IsMapped
 linktitle: IsMapped
 articleTitle: IsMapped
 second_title: Aspose.Words para .NET
-description: FieldMergeField IsMapped propiedad. Obtiene o establece si este campo es un campo asignado en C#.
+description: Descubra la propiedad FieldMergeField IsMapped para administrar fácilmente los campos mapeados, mejorando la integración de datos y la eficiencia del flujo de trabajo.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldmergefield/ismapped/
@@ -24,7 +24,7 @@ Muestra cómo utilizar los campos MERGEFIELD para realizar una combinación de c
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree una tabla de datos para usarla como fuente de datos de combinación de correspondencia.
+// Cree una tabla de datos que se utilizará como fuente de datos de combinación de correspondencia.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -38,13 +38,14 @@ fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Podemos aplicar texto antes y después del valor que acepta este campo cuando se realiza la fusión.
+//Podemos aplicar texto antes y después del valor que acepta este campo cuando se realiza la fusión.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
-// Inserta otro MERGEFIELD para una columna diferente en la fuente de datos.
+// Inserte otro MERGEFIELD para una columna diferente en la fuente de datos.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

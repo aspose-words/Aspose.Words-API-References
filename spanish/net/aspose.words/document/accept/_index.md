@@ -3,9 +3,9 @@ title: Document.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words para .NET
-description: Document Accept método. Acepta un visitante en C#.
+description: Optimice la gestión de visitantes con nuestro método de aceptación de documentos. Mejore la seguridad y la eficiencia para una experiencia fluida.
 type: docs
-weight: 510
+weight: 530
 url: /es/net/aspose.words/document/accept/
 ---
 ## Document.Accept method
@@ -28,9 +28,9 @@ Verdadero si se visitaron todos los nodos; falso si[`DocumentVisitor`](../../doc
 
 Enumera este nodo y todos sus hijos. Cada nodo llama a un método correspondiente en[`DocumentVisitor`](../../documentvisitor/).
 
-Para obtener más información, consulte el patrón de diseño Visitante.
+Para obtener más información, consulte el patrón de diseño Visitor.
 
-llamadas[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , luego llama[`Accept`](../../node/accept/) para todos los nodos secundarios del document y llamadas[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) al final.
+Llamadas[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , luego llama[`Accept`](../../node/accept/) para todos los nodos secundarios del documento y llamadas[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) al final.
 
 ## Ejemplos
 
@@ -42,16 +42,16 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol de nodos secundarios de un nodo.
+/// Recorre el árbol de nodos secundarios de un nodo.
 /// Crea un mapa de este árbol en forma de cadena.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
@@ -67,7 +67,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Documento.
+    /// Se llama cuando se encuentra un nodo de documento.
     /// </summary>
     public override VisitorAction VisitDocumentStart(Document doc)
     {
@@ -81,7 +81,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo de documento.
+    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo de Documento.
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -96,7 +96,7 @@ public class DocStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
-        // Obtener el índice de nuestra sección dentro del documento.
+        //Obtener el índice de nuestra sección dentro del documento.
         NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
         int sectionIndex = docSections.IndexOf(section);
 
@@ -130,7 +130,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo Body.
+    /// Se llama después de que se hayan visitado todos los nodos secundarios de un nodo Cuerpo.
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -141,7 +141,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Párrafo en el documento.
+    /// Se llama cuando se encuentra un nodo de párrafo en el documento.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -183,9 +183,29 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Se llama cuando se encuentra un nodo SubDocumento en el documento.
     /// </summary>
-    /// <param nombre="texto"></param>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Se llama cuando se encuentra un nodo SubDocumento en el documento.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Agrega una línea al StringBuilder y sangrala dependiendo de qué tan profundo se encuentre el visitante en el árbol del documento.
+    /// </summary>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");

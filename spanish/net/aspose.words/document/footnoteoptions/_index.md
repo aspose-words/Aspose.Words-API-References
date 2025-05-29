@@ -3,14 +3,14 @@ title: Document.FootnoteOptions
 linktitle: FootnoteOptions
 articleTitle: FootnoteOptions
 second_title: Aspose.Words para .NET
-description: Document FootnoteOptions propiedad. Proporciona opciones que controlan la numeración y la ubicación de las notas a pie de página en este documento en C#.
+description: Explore la propiedad Document FootnoteOptions para personalizar la numeración y el posicionamiento de las notas al pie, mejorando la claridad y el profesionalismo de su documento.
 type: docs
-weight: 150
+weight: 160
 url: /es/net/aspose.words/document/footnoteoptions/
 ---
 ## Document.FootnoteOptions property
 
-Proporciona opciones que controlan la numeración y la ubicación de las notas a pie de página en este documento.
+Proporciona opciones que controlan la numeración y la posición de las notas al pie en este documento.
 
 ```csharp
 public FootnoteOptions FootnoteOptions { get; }
@@ -18,47 +18,47 @@ public FootnoteOptions FootnoteOptions { get; }
 
 ## Ejemplos
 
-Muestra cómo seleccionar un lugar diferente donde el documento recopila y muestra sus notas a pie de página.
+Muestra cómo seleccionar un lugar diferente donde el documento recopila y muestra sus notas al pie.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Una nota al pie es una forma de adjuntar una referencia o un comentario lateral al texto
- // que no interfiere con el flujo del texto del cuerpo principal.
-// Al insertar una nota al pie se agrega un pequeño símbolo de referencia en superíndice
+// Una nota al pie es una forma de adjuntar una referencia o un comentario al margen del texto.
+ // que no interfiera con el flujo del texto del cuerpo principal.
+// Insertar una nota al pie agrega un pequeño símbolo de referencia en superíndice
 // en el cuerpo principal del texto donde insertamos la nota al pie.
-// Cada nota al pie también crea una entrada en la parte inferior de la página, que consta de un símbolo
+// Cada nota al pie también crea una entrada en la parte inferior de la página, que consiste en un símbolo
 // que coincide con el símbolo de referencia en el texto del cuerpo principal.
-// El texto de referencia que pasamos al método "InsertFootnote" del creador de documentos.
+// El texto de referencia que pasamos al método "InsertFootnote" del generador de documentos.
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote contents.");
 
-// Podemos usar la propiedad "Posición" para determinar dónde colocará el documento todas sus notas al pie.
-// Si establecemos el valor de la propiedad "Position" en "FootnotePosition.BottomOfPage",
-// cada nota al pie aparecerá en la parte inferior de la página que contiene su marca de referencia. Este es el valor predeterminado.
-// Si establecemos el valor de la propiedad "Position" en "FootnotePosition.BeneathText",
-// cada nota al pie aparecerá al final del texto de la página que contiene su marca de referencia.
+//Podemos utilizar la propiedad "Posición" para determinar dónde colocará el documento todas sus notas al pie.
+// Si establecemos el valor de la propiedad "Posición" en "FootnotePosition.BottomOfPage",
+Cada nota al pie se mostrará al final de la página que contiene su marca de referencia. Este es el valor predeterminado.
+// Si establecemos el valor de la propiedad "Posición" en "FootnotePosition.BeneathText",
+// Cada nota al pie aparecerá al final del texto de la página que contiene su marca de referencia.
 doc.FootnoteOptions.Position = footnotePosition;
 
 doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 ```
 
-Muestra cómo establecer un número en el que el documento comienza el recuento de notas al pie/notas al final.
+Muestra cómo establecer un número en el que el documento inicia el recuento de notas al pie/notas finales.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Las notas al pie y al final son una forma de adjuntar una referencia o un comentario lateral al texto
- // que no interfiere con el flujo del texto del cuerpo principal.
-// Insertar una nota al pie/nota al final agrega un pequeño símbolo de referencia en superíndice
-// en el cuerpo principal del texto donde insertamos la nota al pie/nota al final.
-// Cada nota al pie/nota al final también crea una entrada, que consta de un símbolo
+// Las notas a pie de página y las notas finales son una forma de adjuntar una referencia o un comentario al margen del texto.
+ // que no interfiera con el flujo del texto del cuerpo principal.
+// Insertar una nota al pie o una nota final agrega un pequeño símbolo de referencia en superíndice
+// en el cuerpo principal del texto donde insertamos la nota al pie/nota final.
+// Cada nota al pie/nota final también crea una entrada, que consta de un símbolo
 // que coincide con el símbolo de referencia en el texto del cuerpo principal.
-// El texto de referencia que pasamos al método "InsertEndnote" del creador de documentos.
+// El texto de referencia que pasamos al método "InsertEndnote" del generador de documentos.
 // Las entradas de notas al pie, de forma predeterminada, aparecen en la parte inferior de cada página que contiene
-// sus símbolos de referencia y las notas finales aparecen al final del documento.
+// sus símbolos de referencia y notas finales aparecen al final del documento.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -75,34 +75,34 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 2.");
 builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 
-// De forma predeterminada, el símbolo de referencia para cada nota al pie y nota al final es su índice
-// entre todas las notas al pie/notas finales del documento. Cada documento mantiene recuentos separados
-// para notas a pie de página y notas finales, que comienzan en 1.
+// De forma predeterminada, el símbolo de referencia para cada nota al pie y nota final es su índice.
+// entre todas las notas al pie y al final del documento. Cada documento mantiene recuentos separados.
+// para notas a pie de página y para notas finales, que comienzan ambas en 1.
 Assert.AreEqual(1, doc.FootnoteOptions.StartNumber);
 Assert.AreEqual(1, doc.EndnoteOptions.StartNumber);
 
 // Podemos usar la propiedad "StartNumber" para obtener el documento
-// comenzar un recuento de notas al pie o al final en un número diferente.
+// comienza un recuento de notas al pie o notas finales en un número diferente.
 doc.EndnoteOptions.NumberStyle = NumberStyle.Arabic;
 doc.EndnoteOptions.StartNumber = 50;
 
 doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ```
 
-Muestra cómo cambiar el estilo numérico de las marcas de referencia de notas al pie/notas al final.
+Muestra cómo cambiar el estilo de número de las marcas de referencia de notas al pie/notas finales.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Las notas al pie y al final son una forma de adjuntar una referencia o un comentario lateral al texto
- // que no interfiere con el flujo del texto del cuerpo principal.
-// Insertar una nota al pie/nota al final agrega un pequeño símbolo de referencia en superíndice
-// en el cuerpo principal del texto donde insertamos la nota al pie/nota al final.
-// Cada nota al pie/nota al final también crea una entrada, que consta de un símbolo que coincide con la referencia
-// símbolo en el texto del cuerpo principal. El texto de referencia que pasamos al método "InsertEndnote" del generador de documentos.
+// Las notas a pie de página y las notas finales son una forma de adjuntar una referencia o un comentario al margen del texto.
+ // que no interfiera con el flujo del texto del cuerpo principal.
+// Insertar una nota al pie o una nota final agrega un pequeño símbolo de referencia en superíndice
+// en el cuerpo principal del texto donde insertamos la nota al pie/nota final.
+// Cada nota al pie/nota final también crea una entrada, que consiste en un símbolo que coincide con la referencia.
+// Símbolo en el cuerpo principal del texto. El texto de referencia que pasamos al método "InsertEndnote" del generador de documentos.
 // Las entradas de notas al pie, de forma predeterminada, aparecen en la parte inferior de cada página que contiene
-// sus símbolos de referencia y las notas finales aparecen al final del documento.
+// sus símbolos de referencia y notas finales aparecen al final del documento.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -119,35 +119,35 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 2.");
 builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote reference mark");
 
-// De forma predeterminada, el símbolo de referencia para cada nota al pie y nota al final es su índice
-// entre todas las notas al pie/notas finales del documento. Cada documento mantiene recuentos separados
-// para notas a pie de página y para notas finales. De forma predeterminada, las notas a pie de página muestran sus números utilizando números arábigos,
-// y las notas finales muestran sus números en números romanos minúsculas.
+// De forma predeterminada, el símbolo de referencia para cada nota al pie y nota final es su índice.
+// entre todas las notas al pie y al final del documento. Cada documento mantiene recuentos separados.
+// para notas al pie y notas finales. Por defecto, las notas al pie se numeran en números arábigos.
+// y las notas finales muestran sus números en números romanos en minúscula.
 Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
 Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
 
-// Podemos usar la propiedad "NumberStyle" para aplicar estilos de numeración personalizados a notas al pie y notas al final.
-// Esto no afectará las notas al pie/notas al final con marcas de referencia personalizadas.
+// Podemos utilizar la propiedad "NumberStyle" para aplicar estilos de numeración personalizados a notas al pie y notas finales.
+// Esto no afectará a las notas al pie/notas finales con marcas de referencia personalizadas.
 doc.FootnoteOptions.NumberStyle = NumberStyle.UppercaseRoman;
 doc.EndnoteOptions.NumberStyle = NumberStyle.UppercaseLetter;
 
 doc.Save(ArtifactsDir + "InlineStory.RefMarkNumberStyle.docx");
 ```
 
-Muestra cómo reiniciar la numeración de notas al pie/notas al final en ciertos lugares del documento.
+Muestra cómo reiniciar la numeración de notas al pie y notas finales en determinados lugares del documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Las notas al pie y al final son una forma de adjuntar una referencia o un comentario lateral al texto
- // que no interfiere con el flujo del texto del cuerpo principal.
-// Insertar una nota al pie/nota al final agrega un pequeño símbolo de referencia en superíndice
-// en el cuerpo principal del texto donde insertamos la nota al pie/nota al final.
-// Cada nota al pie/nota al final también crea una entrada, que consta de un símbolo que coincide con la referencia
-// símbolo en el texto del cuerpo principal. El texto de referencia que pasamos al método "InsertEndnote" del generador de documentos.
+// Las notas a pie de página y las notas finales son una forma de adjuntar una referencia o un comentario al margen del texto.
+ // que no interfiera con el flujo del texto del cuerpo principal.
+// Insertar una nota al pie o una nota final agrega un pequeño símbolo de referencia en superíndice
+// en el cuerpo principal del texto donde insertamos la nota al pie/nota final.
+// Cada nota al pie/nota final también crea una entrada, que consiste en un símbolo que coincide con la referencia.
+// Símbolo en el cuerpo principal del texto. El texto de referencia que pasamos al método "InsertEndnote" del generador de documentos.
 // Las entradas de notas al pie, de forma predeterminada, aparecen en la parte inferior de cada página que contiene
-// sus símbolos de referencia y las notas finales aparecen al final del documento.
+// sus símbolos de referencia y notas finales aparecen al final del documento.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -170,14 +170,14 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 builder.Write("Text 4. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 
-// De forma predeterminada, el símbolo de referencia para cada nota al pie y nota al final es su índice
-// entre todas las notas al pie/notas finales del documento. Cada documento mantiene recuentos separados
-// para notas a pie de página y notas finales y no reinicia estos conteos en ningún momento.
+// De forma predeterminada, el símbolo de referencia para cada nota al pie y nota final es su índice.
+// entre todas las notas al pie y al final del documento. Cada documento mantiene recuentos separados.
+// para notas al pie y notas finales y no reinicia estos recuentos en ningún momento.
 Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
 Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
 
 // Podemos usar la propiedad "RestartRule" para que el documento se reinicie
-// la nota al pie/nota al final cuenta en una nueva página o sección.
+// La nota al pie o nota final cuenta en una nueva página o sección.
 doc.FootnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
 doc.EndnoteOptions.RestartRule = FootnoteNumberingRule.RestartSection;
 

@@ -3,7 +3,7 @@ title: FieldFillIn.PromptOnceOnMailMerge
 linktitle: PromptOnceOnMailMerge
 articleTitle: PromptOnceOnMailMerge
 second_title: Aspose.Words para .NET
-description: FieldFillIn PromptOnceOnMailMerge propiedad. Obtiene o establece si la respuesta del usuario debe recibirse una vez por cada operación de combinación de correspondencia en C#.
+description: Optimice la combinación de correspondencia con la propiedad PromptOnceOnMailMerge. Controle las respuestas de los usuarios para una recopilación eficiente de datos en sus documentos.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/fieldfillin/promptonceonmailmerge/
@@ -26,8 +26,8 @@ public void FieldFillIn()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insertar un campo FILLIN. Cuando actualizamos manualmente este campo en Microsoft Word,
-    // nos pedirá que ingresemos una respuesta. El campo luego mostrará la respuesta como texto.
+    // Insertar un campo RELLENO. Al actualizar manualmente este campo en Microsoft Word,
+    Nos pedirá que ingresemos una respuesta. El campo mostrará la respuesta como texto.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
@@ -41,8 +41,8 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Si realizamos una combinación de correspondencia mediante programación, podemos utilizar un encuestado personalizado
-    // para editar automáticamente las respuestas de los campos FILLIN que encuentra la combinación de correspondencia.
+    // Si realizamos una combinación de correspondencia mediante programación, podemos usar un respondedor de solicitud personalizado
+    // para editar automáticamente las respuestas para los campos FILLIN que encuentra la combinación de correspondencia.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 

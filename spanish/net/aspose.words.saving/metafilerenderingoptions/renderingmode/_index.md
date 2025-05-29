@@ -3,14 +3,14 @@ title: MetafileRenderingOptions.RenderingMode
 linktitle: RenderingMode
 articleTitle: RenderingMode
 second_title: Aspose.Words para .NET
-description: MetafileRenderingOptions RenderingMode propiedad. Obtiene o establece un valor que determina cómo se deben representar las imágenes de metarchivo en C#.
+description: Descubra la propiedad MetafileRenderingOptions RenderingMode para controlar cómo se representan las imágenes de metarchivo, mejorando la calidad y el rendimiento de sus gráficos.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/metafilerenderingoptions/renderingmode/
 ---
 ## MetafileRenderingOptions.RenderingMode property
 
-Obtiene o establece un valor que determina cómo se deben representar las imágenes de metarchivo.
+Obtiene o establece un valor que determina cómo deben representarse las imágenes de metarchivo.
 
 ```csharp
 public MetafileRenderingMode RenderingMode { get; set; }
@@ -18,11 +18,11 @@ public MetafileRenderingMode RenderingMode { get; set; }
 
 ## Observaciones
 
-El valor predeterminado depende del formato de guardado. Para imágenes esBitmap . Para otros formatos esVectorWithFallback.
+El valor predeterminado depende del formato de guardado. Para las imágenes esBitmap . Para otros formatos esVectorWithFallback.
 
 ## Ejemplos
 
-Los programas agregaron un respaldo a la representación de mapas de bits y cambiaron el tipo de advertencias sobre registros de metarchivos no compatibles.
+Se agregó una alternativa a la representación de mapas de bits y se cambió el tipo de advertencias sobre registros de metarchivos no compatibles.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -31,16 +31,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Establece la propiedad "EmulateRasterOperations" en "false" para volver al mapa de bits cuando
-    // encuentra un metarchivo que requerirá operaciones de trama para representar el PDF de salida.
+    // Establezca la propiedad "EmulateRasterOperations" en "false" para volver al mapa de bits cuando
+    // encuentra un metarchivo, que requerirá operaciones rasterizadas para renderizarse en el PDF de salida.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Establece la propiedad "RenderingMode" en "VectorWithFallback" para intentar renderizar cada metarchivo usando gráficos vectoriales.
+    // Establezca la propiedad "RenderingMode" en "VectorWithFallback" para intentar renderizar cada metarchivo utilizando gráficos vectoriales.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
+    // Crea un objeto "PdfSaveOptions" que podamos pasar al método "Guardar" del documento
     // para modificar cómo ese método convierte el documento a .PDF y aplica la configuración
-    // en nuestro objeto MetafileRenderingOptions para la operación de guardar.
+    // en nuestro objeto MetafileRenderingOptions para la operación de guardado.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -55,7 +55,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Imprime y recopila advertencias relacionadas con la pérdida de formato que ocurren al guardar un documento.
+/// Imprime y recopila advertencias relacionadas con la pérdida de formato que se producen al guardar un documento.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

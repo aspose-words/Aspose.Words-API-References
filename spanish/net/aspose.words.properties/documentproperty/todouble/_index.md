@@ -3,7 +3,7 @@ title: DocumentProperty.ToDouble
 linktitle: ToDouble
 articleTitle: ToDouble
 second_title: Aspose.Words para .NET
-description: DocumentProperty ToDouble método. Devuelve el valor de la propiedad como doble en C#.
+description: Convierte fácilmente los valores de DocumentProperty a valores dobles con el método ToDouble. ¡Desbloquea hoy mismo el manejo preciso de datos para tus aplicaciones!
 type: docs
 weight: 90
 url: /es/net/aspose.words.properties/documentproperty/todouble/

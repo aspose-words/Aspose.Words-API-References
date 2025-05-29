@@ -3,7 +3,7 @@ title: HtmlLoadOptions.PreferredControlType
 linktitle: PreferredControlType
 articleTitle: PreferredControlType
 second_title: Aspose.Words para .NET
-description: HtmlLoadOptions PreferredControlType propiedad. Obtiene o establece el tipo preferido de nodos de documento que representarán los elementos input y select importados. El valor predeterminado esFormField  en C#.
+description: Descubra la propiedad PreferredControlType de HtmlLoadOptions para personalizar los tipos de nodos de documento para las entradas importadas y los elementos de selección. ¡Optimice sus formularios fácilmente!
 type: docs
 weight: 50
 url: /es/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
@@ -18,18 +18,18 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ## Observaciones
 
-Tenga en cuenta que establecer esta propiedad no garantiza que todos los controles importados sean del tipo especificado. Si un control HTML no se puede representar con nodos de documento del tipo preferido, Aspose.Words usará un control compatible[`HtmlControlType`](../../htmlcontroltype/) para ese control.
+Tenga en cuenta que configurar esta propiedad no garantiza que todos los controles importados sean del tipo especificado. Si un control HTML no se puede representar con nodos de documento del tipo preferido, Aspose.Words utilizará un control compatible.[`HtmlControlType`](../../htmlcontroltype/) para ese control.
 
 ## Ejemplos
 
-Muestra cómo configurar el tipo preferido de nodos de documento que representarán los elementos &lt;input&gt; y &lt;select&gt; importados.
+Muestra cómo establecer el tipo preferido de nodos de documento que representarán los elementos &lt;input&gt; y &lt;select&gt; importados.
 
 ```csharp
 const string html = @"
     <html>
         <select name='ComboBox' size='1'>
             <option value='val1'>item1</option>
-            <option value='val2'></option>                        
+            <option value='val2'></option>
         </select>
     </html>
 ";

@@ -3,14 +3,14 @@ title: TableSubstitutionRule.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words para .NET
-description: TableSubstitutionRule Save método. Guarda la configuración de sustitución de tabla actual en un archivo en C#.
+description: Guarde fácilmente la configuración de sustitución de tablas con el método TableSubstitutionRule Save. ¡Optimice la gestión de sus datos hoy mismo!
 type: docs
 weight: 70
 url: /es/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## Save(*string*) {#save_1}
 
-Guarda la configuración de sustitución de tabla actual en un archivo.
+Guarda la configuración de sustitución de tabla actual en el archivo.
 
 ```csharp
 public void Save(string fileName)
@@ -29,26 +29,26 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Cree una nueva regla de sustitución de tablas y cargue la tabla de sustitución de fuentes predeterminada de Microsoft Windows.
+// Cree una nueva regla de sustitución de tabla y cargue la tabla de sustitución de fuentes predeterminada de Microsoft Windows.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// En Windows, el sustituto predeterminado de la fuente "Times New Roman CE" es "Times New Roman".
+// En Windows, el sustituto predeterminado para la fuente "Times New Roman CE" es "Times New Roman".
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Podemos guardar la tabla en forma de documento XML.
+//Podemos guardar la tabla en forma de documento XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux tiene su propia tabla de sustitución.
-// Hay varias fuentes sustitutas para "Times New Roman CE".
+//Existen múltiples fuentes sustitutas para "Times New Roman CE".
 // Si el primer sustituto, "FreeSerif", tampoco está disponible,
 // esta regla recorrerá las demás en la matriz hasta encontrar una disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Guarde la tabla de sustitución de Linux en forma de documento XML mediante una secuencia.
+// Guarde la tabla de sustitución de Linux en forma de un documento XML mediante una secuencia.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {
@@ -85,26 +85,26 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Cree una nueva regla de sustitución de tablas y cargue la tabla de sustitución de fuentes predeterminada de Microsoft Windows.
+// Cree una nueva regla de sustitución de tabla y cargue la tabla de sustitución de fuentes predeterminada de Microsoft Windows.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// En Windows, el sustituto predeterminado de la fuente "Times New Roman CE" es "Times New Roman".
+// En Windows, el sustituto predeterminado para la fuente "Times New Roman CE" es "Times New Roman".
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Podemos guardar la tabla en forma de documento XML.
+//Podemos guardar la tabla en forma de documento XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux tiene su propia tabla de sustitución.
-// Hay varias fuentes sustitutas para "Times New Roman CE".
+//Existen múltiples fuentes sustitutas para "Times New Roman CE".
 // Si el primer sustituto, "FreeSerif", tampoco está disponible,
 // esta regla recorrerá las demás en la matriz hasta encontrar una disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Guarde la tabla de sustitución de Linux en forma de documento XML mediante una secuencia.
+// Guarde la tabla de sustitución de Linux en forma de un documento XML mediante una secuencia.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

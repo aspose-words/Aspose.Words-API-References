@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepWithNext
 linktitle: KeepWithNext
 articleTitle: KeepWithNext
 second_title: Aspose.Words para .NET
-description: ParagraphFormat KeepWithNext propiedad. Verdadero si el párrafo debe permanecer en la misma página que el párrafo que le sigue en C#.
+description: Descubra cómo la propiedad ParagraphFormat KeepWithNext garantiza que sus párrafos permanezcan juntos, mejorando el flujo y la legibilidad del documento para lograr una apariencia pulida.
 type: docs
 weight: 170
 url: /es/net/aspose.words/paragraphformat/keepwithnext/
@@ -18,16 +18,16 @@ public bool KeepWithNext { get; set; }
 
 ## Ejemplos
 
-Muestra cómo configurar una mesa para que permanezcan juntas en la misma página.
+Muestra cómo preparar una mesa para permanecer juntos en la misma página.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Habilitando KeepWithNext para cada párrafo de la tabla excepto el
-// los últimos en la última fila evitarán que la tabla se divida en varias páginas.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Habilitar KeepWithNext para cada párrafo de la tabla excepto el
+// Los últimos en la última fila evitarán que la tabla se divida en varias páginas.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

@@ -3,14 +3,14 @@ title: FontSavingArgs.IsSubsettingNeeded
 linktitle: IsSubsettingNeeded
 articleTitle: IsSubsettingNeeded
 second_title: Aspose.Words para .NET
-description: FontSavingArgs IsSubsettingNeeded propiedad. Permite especificar si la fuente actual se subdividirá antes de exportarla como recurso de fuente en C#.
+description: Descubra la propiedad FontSavingArgs IsSubsettingNeeded para controlar la subdivisión de fuentes y optimizar la exportación de recursos. ¡Mejore su flujo de trabajo de diseño hoy mismo!
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/fontsavingargs/issubsettingneeded/
 ---
 ## FontSavingArgs.IsSubsettingNeeded property
 
-Permite especificar si la fuente actual se subdividirá antes de exportarla como recurso de fuente.
+Permite especificar si la fuente actual se creará un subconjunto antes de exportarla como un recurso de fuente.
 
 ```csharp
 public bool IsSubsettingNeeded { get; set; }
@@ -18,21 +18,21 @@ public bool IsSubsettingNeeded { get; set; }
 
 ## Observaciones
 
-Las fuentes se pueden exportar como archivos de fuentes originales completos o en subconjuntos para incluir solo los caracteres que se utilizan en el documento. El subconjunto permite reducir el tamaño del recurso de fuente resultante.
+Las fuentes se pueden exportar como archivos de fuente originales completos o crear subconjuntos para incluir solo los caracteres utilizados en el documento. Crear subconjuntos permite reducir el tamaño de la fuente resultante.
 
-De forma predeterminada, Aspose.Words decide si realizar subconjuntos o no comparando el tamaño del archivo de fuente original con el especificado en[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Puede anular este comportamiento para fuentes individuales configurando el`IsSubsettingNeeded` propiedad.
+De forma predeterminada, Aspose.Words decide si realizar un subconjunto o no comparando el tamaño del archivo de fuente original con el especificado en[`FontResourcesSubsettingSizeThreshold`](../../htmlsaveoptions/fontresourcessubsettingsizethreshold/) . Puede anular este comportamiento para fuentes individuales configurando el`IsSubsettingNeeded` propiedad.
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -50,7 +50,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

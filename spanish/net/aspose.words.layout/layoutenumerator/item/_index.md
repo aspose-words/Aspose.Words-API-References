@@ -3,14 +3,14 @@ title: LayoutEnumerator.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: LayoutEnumerator Item propiedad. Obtiene una propiedad con nombre de la entidad en C#.
+description: Descubra la propiedad Item LayoutEnumerator para acceder fácilmente a las propiedades de entidades nombradas, mejorando la gestión de datos y la eficiencia del flujo de trabajo.
 type: docs
 weight: 40
 url: /es/net/aspose.words.layout/layoutenumerator/item/
 ---
 ## LayoutEnumerator indexer
 
-Obtiene una propiedad con nombre de la entidad.
+Obtiene una propiedad nombrada de la entidad.
 
 ```csharp
 public object this[string key] { get; }
@@ -18,15 +18,15 @@ public object this[string key] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| key | Un nombre de la propiedad (distingue entre mayúsculas y minúsculas). |
+| key | Un nombre de la propiedad (sensible a mayúsculas y minúsculas). |
 
 ### Valor_devuelto
 
-Nulo si la propiedad no está disponible; en caso contrario, valor de la propiedad.
+Nulo si la propiedad no está disponible, en caso contrario valor de la propiedad.
 
 ## Observaciones
 
-Esto se usa actualmente para obtener propiedades de fuente de intervalos. Ver[`Font`](../../../aspose.words/font/) class para posibles nombres de propiedades. No todas las propiedades son compatibles.
+Esto se utiliza actualmente para obtener las propiedades de fuente de spans. Ver[`Font`](../../../aspose.words/font/) Clase para posibles nombres de propiedades. No todas las propiedades son compatibles.
 
 ### Ver también
 

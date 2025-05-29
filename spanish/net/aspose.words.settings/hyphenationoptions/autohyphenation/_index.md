@@ -3,14 +3,14 @@ title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
 second_title: Aspose.Words para .NET
-description: HyphenationOptions AutoHyphenation propiedad. Obtiene o establece el valor que determina si la separación de palabras automática está activada para el documento. El valor predeterminado para esta propiedad esFALSO  en C#.
+description: Controle la separación automática de palabras con la propiedad HyphenationOptions. Mejore fácilmente la legibilidad de su documento activando o desactivando esta función.
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Obtiene o establece el valor que determina si la separación de palabras automática está activada para el documento. El valor predeterminado para esta propiedad es`FALSO` .
+Obtiene o establece un valor que determina si la separación automática de palabras está activada para el documento. El valor predeterminado para esta propiedad es`FALSO` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }

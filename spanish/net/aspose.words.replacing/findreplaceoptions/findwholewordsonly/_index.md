@@ -3,14 +3,14 @@ title: FindReplaceOptions.FindWholeWordsOnly
 linktitle: FindWholeWordsOnly
 articleTitle: FindWholeWordsOnly
 second_title: Aspose.Words para .NET
-description: FindReplaceOptions FindWholeWordsOnly propiedad. Verdadero indica que oldValue debe ser una palabra independiente en C#.
+description: Descubra cómo la propiedad FindWholeWordsOnly mejora su búsqueda con resultados precisos, garantizando que oldValue coincida solo como una palabra independiente.
 type: docs
 weight: 50
 url: /es/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
 ---
 ## FindReplaceOptions.FindWholeWordsOnly property
 
-Verdadero indica que oldValue debe ser una palabra independiente.
+True indica que el valor anterior debe ser una palabra independiente.
 
 ```csharp
 public bool FindWholeWordsOnly { get; set; }
@@ -18,7 +18,7 @@ public bool FindWholeWordsOnly { get; set; }
 
 ## Ejemplos
 
-Muestra cómo alternar operaciones independientes de búsqueda y reemplazo de solo palabras.
+Muestra cómo alternar operaciones de búsqueda y reemplazo independientes de solo palabras.
 
 ```csharp
 Document doc = new Document();
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+// Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Establece el indicador "FindWholeWordsOnly" en "true" para reemplazar el texto encontrado si no forma parte de otra palabra.
-// Establece el indicador "FindWholeWordsOnly" en "false" para reemplazar todo el texto independientemente de su entorno.
+// Establezca el indicador "FindWholeWordsOnly" en "verdadero" para reemplazar el texto encontrado si no es parte de otra palabra.
+// Establezca el indicador "FindWholeWordsOnly" en "falso" para reemplazar todo el texto independientemente de su entorno.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);

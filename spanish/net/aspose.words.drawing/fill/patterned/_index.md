@@ -3,9 +3,9 @@ title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
 second_title: Aspose.Words para .NET
-description: Fill Patterned método. Establece el relleno especificado en un patrón en C#.
+description: Descubra el método Fill Patterned para aplicar sin esfuerzo patrones únicos a sus diseños, mejorando la creatividad y el atractivo visual de sus proyectos.
 type: docs
-weight: 220
+weight: 230
 url: /es/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
@@ -32,7 +32,7 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Hay varias formas de rellenar un patrón.
+//Hay varias formas de rellenar un patrón especificado.
 // 1 - Aplicar patrón al relleno de forma:
 fill.Patterned(PatternType.DiagonalBrick);
 
@@ -62,7 +62,7 @@ public void Patterned(PatternType patternType, Color foreColor, Color backColor)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | patternType | PatternType | [`PatternType`](../../patterntype/) |
-| foreColor | Color | El color del relleno de primer plano. |
+| foreColor | Color | El color del relleno del primer plano. |
 | backColor | Color | El color del relleno de fondo. |
 
 ## Ejemplos
@@ -77,7 +77,7 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Hay varias formas de rellenar un patrón.
+//Hay varias formas de rellenar un patrón especificado.
 // 1 - Aplicar patrón al relleno de forma:
 fill.Patterned(PatternType.DiagonalBrick);
 

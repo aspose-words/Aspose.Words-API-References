@@ -3,7 +3,7 @@ title: ListLevel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words para .NET
-description: ListLevel Font propiedad. Especifica el formato de caracteres utilizado para la etiqueta de la lista en C#.
+description: Descubra la propiedad de fuente ListLevel para mejorar las etiquetas de sus listas con formato de caracteres personalizable para lograr una apariencia pulida y profesional.
 type: docs
 weight: 30
 url: /es/net/aspose.words.lists/listlevel/font/
@@ -18,16 +18,16 @@ public Font Font { get; }
 
 ## Ejemplos
 
-Muestra cómo aplicar formato de lista personalizado a párrafos cuando se utiliza DocumentBuilder.
+Muestra cómo aplicar formato de lista personalizado a los párrafos cuando se utiliza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de su lista.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+// Cree una lista a partir de una plantilla de Microsoft Word y personalice los dos primeros niveles de lista.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words para .NET
-description: DocumentPropertyCollection IndexOf método. Obtiene el índice de una propiedad por nombre en C#.
+description: Descubra el método DocumentPropertyCollection IndexOf para encontrar eficientemente el índice de una propiedad por su nombre. ¡Mejore su productividad de programación hoy mismo!
 type: docs
 weight: 60
 url: /es/net/aspose.words.properties/documentpropertycollection/indexof/
@@ -22,7 +22,7 @@ public int IndexOf(string name)
 
 ### Valor_devuelto
 
-El índice de base cero. Valor negativo si no se encuentra.
+Índice basado en cero. Valor negativo si no se encuentra.
 
 ## Ejemplos
 
@@ -34,18 +34,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -59,10 +59,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 

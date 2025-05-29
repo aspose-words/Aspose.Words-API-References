@@ -3,9 +3,9 @@ title: DigitalSignatureType Enum
 linktitle: DigitalSignatureType
 articleTitle: DigitalSignatureType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignatureType enumeración. Especifica el tipo de firma digital en C#.
+description: Descubra la enumeración Aspose.Words.DigitalSignatures.DigitalSignatureType para mejorar la seguridad de sus documentos con opciones de firma digital versátiles.
 type: docs
-weight: 400
+weight: 600
 url: /es/net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration
@@ -21,7 +21,7 @@ public enum DigitalSignatureType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | Unknown | `0` | Indica un error, tipo de firma digital desconocido. |
-| CryptoApi | `1` | El método de firma Crypto API utilizado en documentos binarios .DOC de Microsoft Word 97-2003. |
+| CryptoApi | `1` | El método de firma de Crypto API utilizado en documentos binarios .DOC de Microsoft Word 97-2003. |
 | XmlDsig | `2` | El método de firma XmlDsig utilizado en documentos OOXML y OpenDocument. |
 
 ## Ejemplos
@@ -36,13 +36,14 @@ Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigital
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Hay dos formas de guardar una copia firmada de un documento en el sistema de archivos local:
-// 1: designe un documento con un nombre de archivo del sistema local y guarde una copia firmada en una ubicación especificada con otro nombre de archivo.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 - Designa un documento con un nombre de archivo del sistema local y guarda una copia firmada en una ubicación especificada por otro nombre de archivo.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2: tomar un documento de una secuencia y guardar una copia firmada en otra secuencia.
+// 2 - Toma un documento de una secuencia y guarda una copia firmada en otra secuencia.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -53,7 +54,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// Verifique que todas las firmas digitales del documento sean válidas y verifique sus detalles.
+//Por favor verifique que todas las firmas digitales del documento sean válidas y verifique sus detalles.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 
