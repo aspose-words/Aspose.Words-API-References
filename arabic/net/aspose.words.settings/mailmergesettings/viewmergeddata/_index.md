@@ -3,14 +3,14 @@ title: MailMergeSettings.ViewMergedData
 linktitle: ViewMergedData
 articleTitle: ViewMergedData
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings ViewMergedData ملكية. يحدد أن Microsoft Word يجب أن يعرض البيانات من مصدر البيانات الخارجي المحدد حيث تم إدراج حقول الدمج على سبيل المثال معاينة البيانات المدمجة. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف كيف تعمل خاصية ViewMergedData الموجودة في MailMergeSettings في Microsoft Word على تعزيز عملية إنشاء المستندات من خلال معاينة البيانات المدمجة من مصادر خارجية.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-يحدد أن Microsoft Word يجب أن يعرض البيانات من مصدر البيانات الخارجي المحدد حيث تم إدراج حقول الدمج (على سبيل المثال، معاينة البيانات المدمجة). القيمة الافتراضية هي`خطأ شنيع` .
+يُحدد أن مايكروسوفت وورد سيعرض البيانات من مصدر البيانات الخارجي المُحدد الذي أُدرجت فيه حقول الدمج (مثل معاينة البيانات المدمجة). القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -18,7 +18,7 @@ public bool ViewMergedData { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

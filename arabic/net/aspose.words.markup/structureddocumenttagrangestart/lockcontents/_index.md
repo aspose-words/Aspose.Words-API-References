@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.LockContents
 linktitle: LockContents
 articleTitle: LockContents
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart LockContents ملكية. عند الضبط علىحقيقي  ستمنع هذه الخاصية المستخدم من تحرير محتويات علامة المستند المنظمة هذه في C#.
+description: اكتشف خاصية LockContents في StructuredDocumentTagRangeStart. فعّل قيود التحرير لتحسين سلامة المستند وتحكم المستخدم.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-عند الضبط على`حقيقي` ، ستمنع هذه الخاصية المستخدم من تحرير محتويات علامة المستند المنظمة هذه.
+عند ضبطه على`حقيقي` ، ستمنع هذه الخاصية المستخدم من تحرير محتويات علامة المستند المنظم هذه.
 
 ```csharp
 public bool LockContents { get; set; }
@@ -18,7 +18,7 @@ public bool LockContents { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

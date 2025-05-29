@@ -3,14 +3,14 @@ title: SaveOptions.UpdateLastPrintedProperty
 linktitle: UpdateLastPrintedProperty
 articleTitle: UpdateLastPrintedProperty
 second_title: Aspose.Words لـ .NET
-description: SaveOptions UpdateLastPrintedProperty ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كانLastPrinted يتم تحديث الخاصية قبل الحفظ في C#.
+description: حسّن إدارة المستندات باستخدام SaveOptions UpdateLastPrintedProperty. تحكّم بتحديثات LastPrinted لضمان الحفظ الفعال وتحسين سير العمل.
 type: docs
-weight: 170
+weight: 180
 url: /ar/net/aspose.words.saving/saveoptions/updatelastprintedproperty/
 ---
 ## SaveOptions.UpdateLastPrintedProperty property
 
-الحصول على أو تعيين قيمة لتحديد ما إذا كان[`LastPrinted`](../../../aspose.words.properties/builtindocumentproperties/lastprinted/) يتم تحديث الخاصية قبل الحفظ.
+يحصل على قيمة أو يعينها لتحديد ما إذا كان[`LastPrinted`](../../../aspose.words.properties/builtindocumentproperties/lastprinted/) يتم تحديث الخاصية قبل الحفظ.
 
 ```csharp
 public bool UpdateLastPrintedProperty { get; set; }
@@ -18,46 +18,31 @@ public bool UpdateLastPrintedProperty { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديث خاصية "CreatedTime" للمستند عند الحفظ.
-
-```csharp
-Document doc = new Document();
-doc.BuiltInDocumentProperties.CreatedTime = new DateTime(2019, 12, 20);
-
-// تحدد هذه العلامة ما إذا كان الوقت الذي تم إنشاؤه، وهو خاصية مضمنة، قد تم تحديثه أم لا.
-// إذا كان الأمر كذلك، فهذا يعني تاريخ آخر عملية حفظ للمستند
-// مع تمرير كائن SaveOptions هذا كمعلمة، يتم استخدامه كوقت الإنشاء.
-DocSaveOptions saveOptions = new DocSaveOptions();
-saveOptions.UpdateCreatedTimeProperty = isUpdateCreatedTimeProperty;
-
-doc.Save(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOptions);
-
-// افتح المستند المحفوظ، ثم تحقق من قيمة الخاصية.
-doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx");
-
-Assert.AreNotEqual(isUpdateCreatedTimeProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.CreatedTime);
-```
-
 يوضح كيفية تحديث خاصية "آخر طباعة" للمستند عند الحفظ.
 
 ```csharp
 Document doc = new Document();
-doc.BuiltInDocumentProperties.LastPrinted = new DateTime(2019, 12, 20);
 
-// تحدد هذه العلامة ما إذا كان تاريخ الطباعة الأخير، وهو خاصية مضمنة، قد تم تحديثه.
-// إذا كان الأمر كذلك، فهذا يعني تاريخ آخر عملية حفظ للمستند
-// مع تمرير كائن SaveOptions هذا كمعلمة، يتم استخدامه كتاريخ الطباعة.
+DateTime lastPrinted = new DateTime(2019, 12, 20);
+doc.BuiltInDocumentProperties.LastPrinted = lastPrinted;
+
+// يحدد هذا العلم ما إذا كان تاريخ الطباعة الأخير، وهو خاصية مضمنة، سيتم تحديثه.
+// إذا كان الأمر كذلك، فسيتم تحديد تاريخ أحدث عملية حفظ للمستند
+// مع هذا الكائن SaveOptions الذي تم تمريره كمعلمة يتم استخدامه كتاريخ للطباعة.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.UpdateLastPrintedProperty = isUpdateLastPrintedProperty;
 
-// في Microsoft Word 2003، يمكن العثور على هذه الخاصية عبر File -> الخصائص -> إحصائيات -> مطبوعة.
-// يمكن أيضًا عرضه في نص المستند باستخدام حقل PRINTDATE.
+// في Microsoft Word 2003، يمكن العثور على هذه الخاصية عبر ملف -> خصائص -> إحصائيات -> مطبوع.
+//يمكن أيضًا عرضه في نص المستند باستخدام حقل PRINTDATE.
 doc.Save(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOptions);
 
 // افتح المستند المحفوظ، ثم تحقق من قيمة الخاصية.
 doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc");
 
-Assert.AreNotEqual(isUpdateLastPrintedProperty, new DateTime(2019, 12, 20) == doc.BuiltInDocumentProperties.LastPrinted);
+if (isUpdateLastPrintedProperty)
+    Assert.AreNotEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
+else
+    Assert.AreEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
 ```
 
 ### أنظر أيضا

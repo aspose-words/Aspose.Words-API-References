@@ -3,14 +3,14 @@ title: FindReplaceOptions.ReplacingCallback
 linktitle: ReplacingCallback
 articleTitle: ReplacingCallback
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions ReplacingCallback ملكية. الطريقة المعرفة من قبل المستخدم والتي يتم استدعاؤها قبل كل حدث استبدال في C#.
+description: اكتشف خاصية FindReplaceOptions ReplacingCallback، وهي طريقة قابلة للتخصيص تعمل على تعزيز وظيفة الاستبدال لديك بدقة وتحكم.
 type: docs
-weight: 150
+weight: 160
 url: /ar/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
 
-الطريقة المعرفة من قبل المستخدم والتي يتم استدعاؤها قبل كل حدث استبدال.
+الطريقة المحددة من قبل المستخدم والتي يتم استدعاؤها قبل كل عملية استبدال.
 
 ```csharp
 public IReplacingCallback ReplacingCallback { get; set; }
@@ -18,7 +18,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
+يوضح كيفية استبدال جميع حالات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين رد اتصال يتتبع أي بدائل ستجريها طريقة "الاستبدال".
+    // قم بتعيين معاودة الاتصال لتتبع أي عمليات استبدال ستقوم بها طريقة "الاستبدال".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,7 +46,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// يحتفظ بسجل لكل استبدال نص يتم إجراؤه بواسطة عملية البحث والاستبدال
+/// يحتفظ بسجل لكل استبدال نص تم إجراؤه بواسطة عملية البحث والاستبدال
 /// ويلاحظ قيمة النص المطابق الأصلي.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -69,7 +69,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -81,10 +81,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
+    // قم بتعيين خاصية "HighlightColor" إلى لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -102,8 +102,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// يستبدل مطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية العشرية.
-/// يحتفظ بسجل لكل بديل.
+/// استبدال تطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية عشرية.
+/// يحتفظ بسجل لكل عملية استبدال.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

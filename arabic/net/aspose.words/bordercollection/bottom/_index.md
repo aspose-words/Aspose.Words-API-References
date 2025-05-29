@@ -3,14 +3,14 @@ title: BorderCollection.Bottom
 linktitle: Bottom
 articleTitle: Bottom
 second_title: Aspose.Words لـ .NET
-description: BorderCollection Bottom ملكية. الحصول على الحد السفلي في C#.
+description: اكتشف خاصية BorderCollection Bottom للوصول بسهولة إلى الحد السفلي وتخصيصه لتحسين مرونة التصميم والأناقة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/bordercollection/bottom/
 ---
 ## BorderCollection.Bottom property
 
-الحصول على الحد السفلي.
+يحصل على الحد السفلي.
 
 ```csharp
 public Border Bottom { get; }
@@ -18,17 +18,17 @@ public Border Bottom { get; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء الجدول.
+يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء جدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// ابدأ الجدول وقم بتعيين اللون/السمك الافتراضي لحدوده.
+// ابدأ جدولًا وقم بتعيين لون/سمك افتراضي لحدوده.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// أنشئ صفًا يحتوي على خليتين بألوان خلفية مختلفة.
+// قم بإنشاء صف يحتوي على خليتين بألوان خلفية مختلفة.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -38,8 +38,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // إعادة تعيين تنسيق الخلية لتعطيل ألوان الخلفية
-// قم بتعيين سمك حدود مخصص لجميع الخلايا الجديدة التي أنشأها المنشئ،
-// ثم أنشئ صفًا ثانيًا.
+// تعيين سمك حدود مخصص لجميع الخلايا الجديدة التي ينشئها المنشئ،
+// ثم قم ببناء صف ثاني.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

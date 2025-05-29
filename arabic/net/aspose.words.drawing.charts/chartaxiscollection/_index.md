@@ -3,14 +3,14 @@ title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection فصل. يمثل مجموعة من محاور المخطط في C#.
+description: اكتشف فئة Aspose.Words.ChartAxisCollection، الحل الأمثل لإدارة محاور المخطط بكفاءة وتحسين تصور بيانات مستندك.
 type: docs
-weight: 640
+weight: 900
 url: /ar/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
 
-يمثل مجموعة من محاور المخطط.
+يمثل مجموعة من محاور الرسم البياني.
 
 ```csharp
 public class ChartAxisCollection : IEnumerable<ChartAxis>
@@ -20,14 +20,14 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartaxiscollection/count/) { get; } | الحصول على عدد المحاور في هذه المجموعة. |
-| [Item](../../aspose.words.drawing.charts/chartaxiscollection/item/) { get; } | الحصول على المحور عند الفهرس المحدد. |
+| [Count](../../aspose.words.drawing.charts/chartaxiscollection/count/) { get; } | يحصل على عدد المحاور في هذه المجموعة. |
+| [Item](../../aspose.words.drawing.charts/chartaxiscollection/item/) { get; } | يحصل على المحور عند الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | يُرجع كائن العداد. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartaxiscollection/getenumerator/)() | يعيد كائن المعداد. |
 
 ## أمثلة
 
@@ -38,9 +38,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// إخفاء خطوط الشبكة الرئيسية على المحور Y الأساسي والثانوي.
+// إخفاء خطوط الشبكة الرئيسية على المحورين Y الأساسي والثانوي.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

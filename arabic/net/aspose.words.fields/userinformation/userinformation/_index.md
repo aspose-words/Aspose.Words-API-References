@@ -3,7 +3,7 @@ title: UserInformation
 linktitle: UserInformation
 articleTitle: UserInformation
 second_title: Aspose.Words لـ .NET
-description: UserInformation البناء. Default_Constructor في C#.
+description: اكتشف منشئ UserInformation - أداة أساسية لإنشاء ملفات تعريف المستخدم بسهولة باستخدام الإعدادات الافتراضية للتكامل السلس.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/userinformation/userinformation/

@@ -3,7 +3,7 @@ title: DocumentBuilder.CurrentStructuredDocumentTag
 linktitle: CurrentStructuredDocumentTag
 articleTitle: CurrentStructuredDocumentTag
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder CurrentStructuredDocumentTag ملكية. يحصل على علامة المستند المنظمة المحددة حاليًا في هذاDocumentBuilder  في C#.
+description: اكتشف خاصية CurrentStructuredDocumentTag في DocumentBuilder. تمكّن من الوصول بسهولة إلى وسم المستند الهيكلي المحدد لإدارة مستندات فعّالة.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -18,28 +18,28 @@ public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 
 ## أمثلة
 
-يوضح كيفية تحريك مؤشر DocumentBuilder داخل علامة مستند منظمة.
+يوضح كيفية نقل مؤشر DocumentBuilder داخل علامة مستند منظمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // هناك عدة طرق لتحريك المؤشر:
-// 1 - انتقل إلى الحرف الأول من علامة المستند المنظم حسب الفهرس.
+// 1 - الانتقال إلى أول حرف من علامة المستند المنظم بواسطة الفهرس.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - انتقل إلى الحرف الأول من علامة الوثيقة المنظمة حسب الكائن.
+// 2 - الانتقال إلى أول حرف من علامة المستند المنظم بواسطة الكائن.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - انتقل إلى نهاية علامة المستند المنظمة الثانية.
+// 3 - الانتقال إلى نهاية علامة المستند المنظم الثانية.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
-// احصل على علامة المستند المنظمة المحددة حاليًا.
+// احصل على علامة المستند المنظم المحددة حاليًا.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
 
 doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");

@@ -3,14 +3,14 @@ title: NodeImporter.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
 second_title: Aspose.Words لـ .NET
-description: NodeImporter ImportNode طريقة. يستورد عقدة من مستند إلى آخر في C#.
+description: انقل العقد بسهولة بين المستندات باستخدام طريقة ImportNode من NodeImporter. حسّن سير عملك وحسّن تكامل بياناتك اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodeimporter/importnode/
 ---
 ## NodeImporter.ImportNode method
 
-يستورد عقدة من مستند إلى آخر.
+استيراد عقدة من مستند إلى آخر.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -18,20 +18,20 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcNode | Node | العقدة المراد استيرادها. |
-| isImportChildren | Boolean | `حقيقي` لاستيراد كافة العقد التابعة بشكل متكرر؛ خلاف ذلك،`خطأ شنيع`. |
+| srcNode | Node | العقدة التي سيتم استيرادها. |
+| isImportChildren | Boolean | `حقيقي` لاستيراد جميع العقد الفرعية بشكل متكرر؛ وإلا،`خطأ شنيع`. |
 
 ### قيمة الإرجاع
 
-العقدة المستنسخة والمستوردة. تنتمي العقدة إلى المستند الوجهة، ولكن ليس لها أصل.
+العقدة المُستنسخة والمُستوردة. تنتمي هذه العقدة إلى مستند الوجهة، ولكن ليس لها عقدة رئيسية.
 
 ## ملاحظات
 
-يؤدي استيراد عقدة إلى إنشاء نسخة من العقدة المصدر التي تنتمي إلى مستند الاستيراد. العقدة التي تم إرجاعها ليس لها أصل. لا يتم تغيير العقدة المصدر أو إزالتها من المستند الأصلي.
+استيراد عقدة يُنشئ نسخة من العقدة المصدرية للمستند المُستورد. العقدة المُعادة ليس لها أصل. العقدة المصدرية لم تُعدّل أو تُزال من المستند الأصلي.
 
-قبل أن يتم إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تتم ترجمة الخصائص الخاصة بالمستند مثل المراجع إلى الأنماط والقوائم من المستند الأصلي إلى مستند الاستيراد. بعد استيراد العقدة، يمكن إدراجها في المكان المناسب في المستند باستخدام[`InsertBefore`](../../compositenode/insertbefore/) أو [`InsertAfter`](../../compositenode/insertafter/).
+قبل إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تُترجم خصائص المستند، مثل مراجع الأنماط والقوائم، من المستند الأصلي إلى المستند المُستورد. بعد استيراد العقدة، يُمكن إدراجها في المكان المناسب في المستند باستخدام[`InsertBefore`](../../compositenode/insertbefore/) أو [`InsertAfter`](../../compositenode/insertafter/).
 
-إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة، فسيتم ببساطة إنشاء استنساخ عميق للعقدة المصدر.
+إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة، فسيتم ببساطة إنشاء clone عميق للعقدة المصدر.
 
 ## أمثلة
 
@@ -73,8 +73,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // قم بالتكرار عبر جميع العقد على مستوى الكتلة في نص القسم،
-        // ثم انسخ وأدخل كل عقدة ليست آخر فقرة فارغة في القسم.
+        // قم بالمرور عبر جميع العقد على مستوى الكتلة في نص القسم،
+        // ثم استنسخ وأدرج كل عقدة ليست الفقرة الفارغة الأخيرة في القسم.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

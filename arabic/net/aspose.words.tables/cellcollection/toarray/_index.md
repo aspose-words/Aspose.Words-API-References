@@ -3,14 +3,14 @@ title: CellCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words لـ .NET
-description: CellCollection ToArray طريقة. نسخ كافة الخلايا من المجموعة إلى مجموعة جديدة من الخلايا في C#.
+description: قم بتحويل CellCollection إلى مصفوفة جديدة بسهولة باستخدام طريقة ToArray، مما يؤدي إلى تبسيط إدارة البيانات وتعزيز الأداء.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/cellcollection/toarray/
 ---
 ## CellCollection.ToArray method
 
-نسخ كافة الخلايا من المجموعة إلى مجموعة جديدة من الخلايا.
+نسخ جميع الخلايا من المجموعة إلى مجموعة جديدة من الخلايا.
 
 ```csharp
 public Cell[] ToArray()
@@ -18,11 +18,11 @@ public Cell[] ToArray()
 
 ### قيمة الإرجاع
 
-مصفوفة من الخلايا.
+مجموعة من الخلايا.
 
 ## أمثلة
 
-يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية تكرار جميع الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -36,7 +36,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" على مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

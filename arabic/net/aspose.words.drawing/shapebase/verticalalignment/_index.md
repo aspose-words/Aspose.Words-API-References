@@ -3,9 +3,9 @@ title: ShapeBase.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words لـ .NET
-description: ShapeBase VerticalAlignment ملكية. يحدد كيفية وضع الشكل عموديًا في C#.
+description: اكتشف خاصية ShapeBase VerticalAlignment لتحسين الوضع الرأسي لشكلتك لتحسين دقة التصميم والجاذبية البصرية.
 type: docs
-weight: 560
+weight: 600
 url: /ar/net/aspose.words.drawing/shapebase/verticalalignment/
 ---
 ## ShapeBase.VerticalAlignment property
@@ -20,7 +20,7 @@ public VerticalAlignment VerticalAlignment { get; set; }
 
 القيمة الافتراضية هيNone.
 
-له تأثير فقط على الأشكال العائمة ذات المستوى الأعلى.
+له تأثير فقط على الأشكال العائمة في المستوى العلوي.
 
 ## أمثلة
 
@@ -30,7 +30,7 @@ public VerticalAlignment VerticalAlignment { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
+// قم بإدراج صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع مركز الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

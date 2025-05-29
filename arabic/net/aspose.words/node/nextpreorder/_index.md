@@ -3,14 +3,14 @@ title: Node.NextPreOrder
 linktitle: NextPreOrder
 articleTitle: NextPreOrder
 second_title: Aspose.Words لـ .NET
-description: Node NextPreOrder طريقة. الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق في C#.
+description: اكتشف طريقة Node NextPreOrder لاجتياز شجرة البيانات بكفاءة. تعلّم كيفية استرجاع العقدة التالية باستخدام خوارزمية الترتيب المسبق بفعالية!
 type: docs
 weight: 130
 url: /ar/net/aspose.words/node/nextpreorder/
 ---
 ## Node.NextPreOrder method
 
-الحصول على العقدة التالية وفقًا لخوارزمية اجتياز شجرة الطلب المسبق.
+يحصل على العقدة التالية وفقًا لخوارزمية عبور شجرة الترتيب المسبق.
 
 ```csharp
 public Node NextPreOrder(Node rootNode)
@@ -18,15 +18,15 @@ public Node NextPreOrder(Node rootNode)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| rootNode | Node | العقدة العليا (الحد) للاجتياز. |
+| rootNode | Node | العقدة العلوية (الحد) للعبور. |
 
 ### قيمة الإرجاع
 
-العقدة التالية في الطلب المسبق. لاغية إذا وصلت إلى*rootNode*.
+العقدة التالية في ترتيب الطلب المسبق. لا شيء إذا وصلت إلى*rootNode*.
 
 ## أمثلة
 
-يوضح كيفية اجتياز شجرة عقدة المستند باستخدام خوارزمية اجتياز الطلب المسبق، وحذف أي شكل يتم مواجهته مع الصورة.
+يوضح كيفية التنقل عبر شجرة عقد المستند باستخدام خوارزمية التنقل حسب الطلب، وحذف أي شكل يتم مواجهته مع صورة.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

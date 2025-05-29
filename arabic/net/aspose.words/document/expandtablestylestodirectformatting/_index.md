@@ -3,14 +3,14 @@ title: Document.ExpandTableStylesToDirectFormatting
 linktitle: ExpandTableStylesToDirectFormatting
 articleTitle: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words لـ .NET
-description: Document ExpandTableStylesToDirectFormatting طريقة. تحويل التنسيق المحدد في أنماط الجدول إلى تنسيق مباشر على الجداول في المستند في C#.
+description: قم بتحويل أنماط الجدول إلى تنسيق مباشر باستخدام طريقة ExpandTableStylesToDirectFormatting، مما يعمل على تحسين مظهر مستندك بسهولة.
 type: docs
-weight: 590
+weight: 630
 url: /ar/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
 
-تحويل التنسيق المحدد في أنماط الجدول إلى تنسيق مباشر على الجداول في المستند.
+يحول التنسيق المحدد في أنماط الجدول إلى تنسيق مباشر على الجداول في المستند.
 
 ```csharp
 public void ExpandTableStylesToDirectFormatting()
@@ -18,13 +18,13 @@ public void ExpandTableStylesToDirectFormatting()
 
 ## ملاحظات
 
-توجد هذه الطريقة لأن هذا الإصدار من Aspose.Words يوفر دعمًا محدودًا فقط لأنماط الجدول (انظر أدناه). قد تكون هذه الطريقة مفيدة عند تحميل مستند DOCX أو WordprocessingML الذي يحتوي على جداول منسقة باستخدام أنماط الجدول وتحتاج إلى الاستعلام عن تنسيق الجداول أو الخلايا أو الفقرات أو النص .
+هذه الطريقة موجودة لأن هذا الإصدار من Aspose.Words لا يوفر سوى دعم محدود لأنماط جداول x000d_ (انظر أدناه). قد تكون هذه الطريقة مفيدة عند تحميل مستند DOCX أو WordprocessingML يحتوي على جداول مُنسقة بأنماط جداول، وتحتاج إلى الاستعلام عن تنسيق جداول x000d_ أو الخلايا أو الفقرات أو النصوص.
 
-يوفر هذا الإصدار من Aspose.Words دعمًا محدودًا لأنماط الجدول كما يلي:
+يوفر هذا الإصدار من Aspose.Words دعمًا محدودًا لأنماط الجدول على النحو التالي:
 
-* يتم الاحتفاظ بأنماط الجدول المحددة في مستندات DOCX أو WordprocessingML كأنماط جدول عند حفظ المستند كـ DOCX أو WordprocessingML.
-* يتم تحويل أنماط الجدول المحددة في مستندات DOCX أو WordprocessingML تلقائيًا إلى تنسيق مباشر على الجداول عند حفظ المستند في أي تنسيق آخر، أو للعرض أو الطباعة.
-* يتم الاحتفاظ بأنماط الجدول المحددة في مستندات DOC كأنماط جدول عند حفظ المستند كـ DOC فقط.
+* يتم الاحتفاظ بأنماط الجدول المحددة في مستندات DOCX أو WordprocessingML كـ table styles عند حفظ المستند بتنسيق DOCX أو WordprocessingML.
+* يتم تحويل أنماط الجدول المحددة في مستندات DOCX أو WordprocessingML تلقائيًا إلى تنسيق مباشر على الجداول عند حفظ المستند بأي تنسيق آخر أو عرضه أو طباعته.
+* يتم الاحتفاظ بأنماط الجدول المحددة في مستندات DOC كأنماط جدول عند حفظ المستند بتنسيق DOC فقط.
 
 ## أمثلة
 
@@ -48,7 +48,7 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 
 table.Style = tableStyle;
 
-// تتعلق هذه الطريقة بخصائص نمط الجدول مثل تلك التي حددناها أعلاه.
+//تتعلق هذه الطريقة بخصائص نمط الجدول مثل تلك التي قمنا بتعيينها أعلاه.
 doc.ExpandTableStylesToDirectFormatting();
 
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");

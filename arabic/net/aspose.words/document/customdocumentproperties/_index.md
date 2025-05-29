@@ -3,14 +3,14 @@ title: Document.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words لـ .NET
-description: Document CustomDocumentProperties ملكية. إرجاع مجموعة تمثل كافة خصائص المستند المخصصة للمستند في C#.
+description: استكشف خاصية CustomDocumentProperties للوصول إلى كافة خصائص المستند المخصصة وإدارتها بكفاءة، مما يؤدي إلى تحسين وظائف المستند لديك.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words/document/customdocumentproperties/
 ---
 ## Document.CustomDocumentProperties property
 
-إرجاع مجموعة تمثل كافة خصائص المستند المخصصة للمستند.
+يعيد مجموعة تمثل جميع خصائص المستند المخصصة للمستند.
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }
@@ -23,10 +23,10 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كائن "المستند" على بعض بيانات التعريف الخاصة به في أعضائه.
+//يحتوي كائن "المستند" على بعض بياناته الوصفية في أعضائه.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// يقوم المستند أيضًا بتخزين البيانات التعريفية في خصائصه المضمنة.
+// تقوم الوثيقة أيضًا بتخزين البيانات الوصفية في خصائصها المضمنة.
 // كل خاصية مضمنة هي عضو في كائن "BuiltInDocumentProperties" الخاص بالمستند.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)

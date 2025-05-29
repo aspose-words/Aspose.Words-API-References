@@ -3,14 +3,14 @@ title: SystemFontSource.GetSystemFontFolders
 linktitle: GetSystemFontFolders
 articleTitle: GetSystemFontFolders
 second_title: Aspose.Words لـ .NET
-description: SystemFontSource GetSystemFontFolders طريقة. إرجاع مجلدات خطوط النظام أو المصفوفة الفارغة إذا لم يكن من الممكن الوصول إلى المجلدات في C#.
+description: اكتشف طريقة GetSystemFontFolders في SystemFontSource. تمكّن من الوصول بسهولة إلى مجلدات خطوط النظام، أو احصل على مصفوفة فارغة في حال عدم توفرها.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/systemfontsource/getsystemfontfolders/
 ---
 ## SystemFontSource.GetSystemFontFolders method
 
-إرجاع مجلدات خطوط النظام أو المصفوفة الفارغة إذا لم يكن من الممكن الوصول إلى المجلدات.
+يعيد مجلدات الخطوط الخاصة بالنظام أو المصفوفة الفارغة إذا لم تكن المجلدات قابلة للوصول.
 
 ```csharp
 public static string[] GetSystemFontFolders()
@@ -18,17 +18,17 @@ public static string[] GetSystemFontFolders()
 
 ## ملاحظات
 
-في بعض الأنظمة الأساسية، يمكن لـ Aspose.Words البحث في خطوط النظام ليس فقط من خلال المجلدات ولكن في المصادر الأخرى أيضًا. على سبيل المثال، في نظام التشغيل Windows Platform Aspose.Words، ابحث عن الخطوط أيضًا في السجل.
+في بعض المنصات، يُمكن لبرنامج Aspose.Words البحث عن خطوط النظام ليس فقط من خلال المجلدات، بل في مصادر أخرى أيضًا. على سبيل المثال، على منصة Windows، يُمكن لبرنامج Aspose.Words البحث عن الخطوط أيضًا في سجل النظام.
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
+يوضح كيفية الوصول إلى مصدر الخط الخاص بنظام المستند وتعيين بدائل الخط.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// بشكل افتراضي، يحتوي المستند الفارغ دائمًا على مصدر خط النظام.
+// بشكل افتراضي، تحتوي المستندة الفارغة دائمًا على مصدر خط النظام.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -50,7 +50,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// قم بتعيين خط موجود في دليل خطوط Windows كبديل للخط غير الموجود.
+// تعيين الخط الموجود في دليل خطوط Windows كبديل للخط غير الموجود.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -59,18 +59,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// بدلاً من ذلك، يمكننا إضافة مصدر خط المجلد حيث يحتوي المجلد المقابل على الخط.
+//بدلاً من ذلك، يمكننا إضافة مصدر خط المجلد الذي يحتوي على الخط المقابل.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// إعادة تعيين مصادر الخطوط لا تزال تتركنا مع مصدر خط النظام بالإضافة إلى البدائل.
+// إعادة تعيين مصادر الخط لا يزال يترك لنا مصدر الخط الخاص بالنظام بالإضافة إلى البدائل لدينا.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### أنظر أيضا

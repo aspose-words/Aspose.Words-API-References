@@ -3,14 +3,14 @@ title: BubbleSizeCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: BubbleSizeCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
+description: اكتشف طريقة BubbleSizeCollection GetEnumerator. استرجع كائنات المُعَدِّد بكفاءة لتحسين معالجة البيانات وتحسين الأداء.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
 ---
 ## BubbleSizeCollection.GetEnumerator method
 
-يُرجع كائن العداد.
+يعيد كائن المعداد.
 
 ```csharp
 public IEnumerator<double> GetEnumerator()

@@ -3,14 +3,14 @@ title: WrapType Enum
 linktitle: WrapType
 articleTitle: WrapType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.WrapType تعداد. يحدد كيفية التفاف النص حول الشكل أو الصورة في C#.
+description: اكتشف كيف يعمل Aspose.Words.Drawing.WrapType على تعزيز التفاف النص حول الأشكال والصور لتنسيق المستندات بشكل احترافي.
 type: docs
-weight: 1400
+weight: 1810
 url: /ar/net/aspose.words.drawing/wraptype/
 ---
 ## WrapType enumeration
 
-يحدد كيفية التفاف النص حول الشكل أو الصورة.
+يحدد كيفية لف النص حول الشكل أو الصورة.
 
 ```csharp
 public enum WrapType
@@ -20,12 +20,12 @@ public enum WrapType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `3` | لا يوجد نص يلتف حول الشكل. يتم وضع الشكل خلف النص أو أمامه. |
-| Inline | `0` | يبقى الشكل على نفس طبقة النص ويتم التعامل معه كحرف. |
-| TopBottom | `1` | يتوقف النص عند أعلى الشكل ثم يبدأ من جديد على السطر الموجود أسفل الشكل. |
+| None | `3` | لا يوجد نص يلتف حول الشكل. الشكل موضوع خلف النص أو أمامه. |
+| Inline | `0` | يبقى الشكل على نفس الطبقة مثل النص ويتم التعامل معه كحرف. |
+| TopBottom | `1` | يتوقف النص في أعلى الشكل ويبدأ من جديد على السطر الموجود أسفل الشكل. |
 | Square | `2` | يلتف النص حول جميع جوانب المربع المحيط بالشكل. |
-| Tight | `4` | يتم الالتفاف بإحكام حول حواف الشكل، بدلاً من الالتفاف حول المربع المحيط. |
-| Through | `5` | نفس الشكل الضيق، ولكنه يلتف داخل أي أجزاء مفتوحة من الشكل. |
+| Tight | `4` | يلتف بشكل محكم حول حواف الشكل، بدلاً من الالتفاف حول المربع المحدد. |
+| Through | `5` | نفس الشيء مثل Tight، لكنه يلتف داخل أي أجزاء من الشكل مفتوحة. |
 
 ## أمثلة
 
@@ -35,7 +35,7 @@ public enum WrapType
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
+// قم بإدراج صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع مركز الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -53,10 +53,9 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل الصورة في الرأس بحيث تكون مرئية في كل صفحة.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+//أدرج الصورة في الرأس حتى تكون مرئية في كل صفحة.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -67,32 +66,6 @@ shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
 shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
-يوضح كيفية إدراج صورة واستخدامها كعلامة مائية (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// أدخل الصورة في الرأس بحيث تكون مرئية في كل صفحة.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // ضع الصورة في وسط الصفحة.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
 ### أنظر أيضا

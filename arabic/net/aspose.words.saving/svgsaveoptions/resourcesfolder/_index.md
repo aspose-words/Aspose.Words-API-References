@@ -3,14 +3,14 @@ title: SvgSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
 articleTitle: ResourcesFolder
 second_title: Aspose.Words لـ .NET
-description: SvgSaveOptions ResourcesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الموارد الصور عند تصدير مستند إلى تنسيق Svg. الافتراضي هوباطل  في C#.
+description: اكتشف كيفية ضبط مجلد الموارد في خيارات حفظ Svg لتخزين الصور بكفاءة عند تصدير المستندات بتنسيق SVG. حسّن سير عملك اليوم!
 type: docs
-weight: 50
+weight: 80
 url: /ar/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
 ---
 ## SvgSaveOptions.ResourcesFolder property
 
-يحدد المجلد الفعلي حيث يتم حفظ الموارد (الصور) عند تصدير مستند إلى تنسيق Svg. الافتراضي هو`باطل` .
+يحدد المجلد الفعلي الذي يتم حفظ الموارد (الصور) فيه عند تصدير مستند إلى تنسيق Svg. الافتراضي هو`باطل` .
 
 ```csharp
 public string ResourcesFolder { get; set; }
@@ -18,17 +18,17 @@ public string ResourcesFolder { get; set; }
 
 ## ملاحظات
 
-ليس له تأثير إلا إذا[`ExportEmbeddedImages`](../exportembeddedimages/) الملكية هي`خطأ شنيع`.
+لا يكون له تأثير إلا إذا[`ExportEmbeddedImages`](../exportembeddedimages/) الممتلكات هي`خطأ شنيع`.
 
-عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق SVG، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.`ResourcesFolder` يسمح لك بتحديد مكان حفظ الصور و[`ResourcesFolderAlias`](../resourcesfolderalias/) يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
+عندما تحفظ[`Document`](../../../aspose.words/document/) في تنسيق SVG، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.`ResourcesFolder` يسمح لك بتحديد المكان الذي سيتم حفظ الصور فيه و[`ResourcesFolderAlias`](../resourcesfolderalias/) يسمح لك بتحديد كيفية إنشاء عناوين URI للصور.
 
-إذا قمت بحفظ مستند في ملف وقمت بتوفير اسم ملف، فسيقوم Aspose.Words، افتراضيًا، بحفظ الصور في نفس المجلد حيث تم حفظ ملف المستند. يستخدم`ResourcesFolder` لتجاوز هذا السلوك.
+إذا حفظت مستندًا في ملف وأدخلت اسمًا للملف، فسيحفظ Aspose.Words افتراضيًا صور x000d_ في نفس المجلد الذي حُفظ فيه ملف المستند. استخدم`ResourcesFolder` لتجاوز هذا السلوك.
 
-إذا قمت بحفظ مستند في دفق، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه لا يزال بحاجة إلى حفظ الصور في مكان ما. في هذه الحالة، تحتاج إلى تحديد مجلد يمكن الوصول إليه في الملف`ResourcesFolder` ملكية
+إذا حفظت مستندًا في مسار، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ، ولكنه سيحتاج إلى حفظ الصور في مكان ما. في هذه الحالة، ستحتاج إلى تحديد مجلد يسهل الوصول إليه في`ResourcesFolder` ملكية
 
 ## أمثلة
 
-يوضح كيفية معالجة وطباعة معرفات URI للموارد المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى .svg.
+يوضح كيفية التعامل مع عناوين URI للموارد المرتبطة وطباعتها والتي تم إنشاؤها أثناء تحويل مستند إلى .svg.
 
 ```csharp
 public void SvgResourceFolder()
@@ -52,7 +52,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// يحسب ويطبع عناوين URI للموارد الموجودة في الملف عند تحويلها إلى .svg.
+/// يقوم بحساب وطباعة عناوين URI للموارد المضمنة بواسطة أثناء تحويلها إلى .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

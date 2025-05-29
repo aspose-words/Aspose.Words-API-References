@@ -3,7 +3,7 @@ title: OleFormat.SuggestedFileName
 linktitle: SuggestedFileName
 articleTitle: SuggestedFileName
 second_title: Aspose.Words لـ .NET
-description: OleFormat SuggestedFileName ملكية. يحصل على اسم الملف المقترح للكائن المضمن الحالي إذا كنت تريد حفظه في ملف في C#.
+description: اكتشف خاصية OleFormat SuchenFileName لاسترداد اسم الملف الموصى به بسهولة لحفظ الكائنات المضمنة بسلاسة.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing/oleformat/suggestedfilename/
@@ -23,9 +23,9 @@ public string SuggestedFileName { get; }
 ```csharp
 Document doc = new Document(MyDir + "OLE shape.rtf");
 
-Shape oleShape = (Shape) doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
+Shape oleShape = (Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 
-// يمكن أن توفر كائنات OLE اسم ملف وامتدادًا مقترحين،
+// يمكن لكائنات OLE توفير اسم ملف وملحق مقترحين،
 // والذي يمكننا استخدامه عند حفظ محتويات الكائن في ملف في نظام الملفات المحلي.
 string suggestedFileName = oleShape.OleFormat.SuggestedFileName;
 

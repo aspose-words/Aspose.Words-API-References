@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.GetByTag
 linktitle: GetByTag
 articleTitle: GetByTag
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagCollection GetByTag طريقة. إرجاع أول علامة مستند منظمة تمت مواجهتها في المجموعة بالعلامة المحددة في C#.
+description: اكتشف طريقة GetByTag في StructuredDocumentTagCollection. استرجع بكفاءة أول وسم مستند منظم باستخدام الوسم المطلوب لإدارة مستنداتك بسلاسة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/getbytag/
 ---
 ## StructuredDocumentTagCollection.GetByTag method
 
-إرجاع أول علامة مستند منظمة تمت مواجهتها في المجموعة بالعلامة المحددة.
+يعيد أول علامة مستند منظمة تم العثور عليها في المجموعة ذات العلامة المحددة.
 
 ```csharp
 public IStructuredDocumentTag GetByTag(string tag)
@@ -18,11 +18,11 @@ public IStructuredDocumentTag GetByTag(string tag)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| tag | String | علامة علامة الوثيقة المنظمة. |
+| tag | String | علامة علامة المستند المنظم. |
 
 ## ملاحظات
 
-يُرجع قيمة فارغة إذا تعذر العثور على علامة المستند المنظمة ذات العلامة المحددة.
+يتم إرجاع قيمة null إذا لم يتم العثور على علامة المستند المنظم التي تحتوي على العلامة المحددة.
 
 ### أنظر أيضا
 

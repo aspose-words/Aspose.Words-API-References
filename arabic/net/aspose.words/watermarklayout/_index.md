@@ -3,9 +3,9 @@ title: WatermarkLayout Enum
 linktitle: WatermarkLayout
 articleTitle: WatermarkLayout
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.WatermarkLayout تعداد. يحدد تخطيط العلامة المائية بالنسبة لمركز العلامة المائية في C#.
+description: اكتشف مجموعة Aspose.Words.WatermarkLayout لتحديد موضع العلامة المائية الأمثل. حسّن تصميم مستندك بتحكم دقيق في التخطيط وتخصيصه.
 type: docs
-weight: 6680
+weight: 7530
 url: /ar/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
@@ -20,8 +20,8 @@ public enum WatermarkLayout
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Horizontal | `0` | تخطيط العلامة المائية الأفقية. يتوافق مع 0 درجة من الدوران. |
-| Diagonal | `315` | تخطيط العلامة المائية القطرية. يتوافق مع 315 درجة دوران. |
+| Horizontal | `0` | تصميم علامة مائية أفقية. يتوافق مع 0 درجة دوران. |
+| Diagonal | `315` | تصميم علامة مائية قطري. يتوافق مع دوران ٣١٥ درجة. |
 
 ## أمثلة
 
@@ -30,10 +30,10 @@ public enum WatermarkLayout
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية نصية عادية.
+//أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
+// إذا أردنا تحرير تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -46,7 +46,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// يمكننا إزالة علامة مائية من مستند مثل هذا.
+//يمكننا إزالة العلامة المائية من مستند مثل هذا.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

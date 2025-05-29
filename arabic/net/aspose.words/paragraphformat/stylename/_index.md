@@ -3,14 +3,14 @@ title: ParagraphFormat.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat StyleName ملكية. الحصول على أو تعيين اسم نمط الفقرة المطبق على هذا التنسيق في C#.
+description: اكتشف خاصية ParagraphFormat StyleName لإدارة أنماط الفقرات وتخصيصها بسهولة لتحسين تنسيق المستندات وعرضها.
 type: docs
-weight: 360
+weight: 370
 url: /ar/net/aspose.words/paragraphformat/stylename/
 ---
 ## ParagraphFormat.StyleName property
 
-الحصول على أو تعيين اسم نمط الفقرة المطبق على هذا التنسيق.
+يحصل على اسم نمط الفقرة المطبق على هذا التنسيق أو يعينه.
 
 ```csharp
 public string StyleName { get; set; }
@@ -23,27 +23,27 @@ public string StyleName { get; set; }
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد ونص واحد وفقرة واحدة.
-// اتصل بالطريقة "RemoveAllChildren" لإزالة كل تلك العقد،
+//تحتوي الوثيقة الفارغة على قسم واحد ونص واحد وفقرة واحدة.
+//استدعاء طريقة "RemoveAllChildren" لإزالة كل هذه العقد،
 // وينتهي الأمر بعقدة مستند بدون أطفال.
 doc.RemoveAllChildren();
 
-// لا يحتوي هذا المستند الآن على عقد فرعية مركبة يمكننا إضافة محتوى إليها.
-// إذا أردنا تعديله، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
-// أولاً، قم بإنشاء قسم جديد، ثم قم بإلحاقه كفرع لعقدة المستند الجذر.
+// لا تحتوي هذه الوثيقة الآن على أي عقد فرعية مركبة يمكننا إضافة محتوى إليها.
+// إذا أردنا تحريره، فسوف نحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
+// أولاً، قم بإنشاء قسم جديد، ثم قم بإضافته كقسم فرعي إلى عقدة المستند الجذر.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// قم بتعيين بعض خصائص إعداد الصفحة للقسم.
+// تعيين بعض خصائص إعداد الصفحة للقسم.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// يحتاج القسم إلى نص يحتوي على جميع محتوياته ويعرضها
-// في الصفحة الواقعة بين رأس القسم وتذييله.
+// يحتاج القسم إلى نص، والذي سيحتوي على جميع محتوياته ويعرضها
+// على الصفحة بين رأس القسم وتذييله.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// أنشئ فقرة، وعيّن بعض خصائص التنسيق، ثم ألحقها كطفل فرعي بالنص.
+// قم بإنشاء فقرة، ثم اضبط بعض خصائص التنسيق، ثم أضفها كفقرة فرعية إلى النص.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -51,8 +51,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// وأخيرًا، أضف بعض المحتوى لإجراء المستند. إنشاء تشغيل،
-// اضبط مظهرها ومحتوياتها، ثم ألحقها كطفل للفقرة.
+// أخيرًا، أضف بعض المحتوى لإنشاء المستند. أنشئ مسارًا،
+// قم بتعيين مظهره ومحتوياته، ثم قم بإضافته كطفل إلى الفقرة.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

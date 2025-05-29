@@ -3,14 +3,14 @@ title: ShapeBase.HRef
 linktitle: HRef
 articleTitle: HRef
 second_title: Aspose.Words لـ .NET
-description: ShapeBase HRef ملكية. الحصول على عنوان الارتباط التشعبي الكامل للشكل أو تعيينه في C#.
+description: اكتشف خاصية ShapeBase HRef لإدارة عناوين الارتباط التشعبي الكاملة لأشكالك بسهولة، مما يعزز تفاعلية تصميمك ووظائفه.
 type: docs
-weight: 230
+weight: 250
 url: /ar/net/aspose.words.drawing/shapebase/href/
 ---
 ## ShapeBase.HRef property
 
-الحصول على عنوان الارتباط التشعبي الكامل للشكل أو تعيينه.
+يحصل على عنوان الارتباط التشعبي الكامل لشكل ما أو يعينه.
 
 ```csharp
 public string HRef { get; set; }
@@ -22,21 +22,21 @@ public string HRef { get; set; }
 
 فيما يلي أمثلة للقيم الصالحة لهذه الخاصية:
 
-عنوان URL الكامل:`https://www.aspose.com/`.
+عنوان URI الكامل:`https://www.aspose.com/`.
 
-اسم الملف الكامل:`C:\\My Documents\\SalesReport.doc`.
+اسم الملف الكامل:`C:\\مستنداتي\\SalesReport.doc`.
 
-معرف الموارد المنتظم (URI) النسبي:`../../../resource.txt`
+عنوان URI النسبي:`../../../resource.txt`
 
-اسم الملف النسبي:`..\\المستندات\\SalesReport.doc`.
+اسم الملف النسبي:`..\\مستنداتي\\SalesReport.doc`.
 
-إشارة مرجعية داخل مستند آخر:`https://www.aspose.com/Products/Default.aspx#Suites`
+وضع إشارة مرجعية داخل مستند آخر:`https://www.aspose.com/Products/Default.aspx#Suites`
 
-الإشارة المرجعية داخل هذا المستند:`#BookmakName`.
+وضع إشارة مرجعية داخل هذا المستند:`#اسم_كتاب`.
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل يحتوي على صورة، ويكون أيضًا ارتباطًا تشعبيًا.
+يوضح كيفية إدراج شكل يحتوي على صورة، وهو أيضًا ارتباط تشعبي.
 
 ```csharp
 Document doc = new Document();
@@ -47,8 +47,8 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + النقر بزر الماوس الأيسر على الشكل في Microsoft Word سيفتح نافذة متصفح ويب جديدة
-// وانقلنا إلى الارتباط التشعبي الموجود في خاصية "HRef".
+// الضغط على Ctrl + النقر بزر الماوس الأيسر على الشكل في Microsoft Word سيؤدي إلى فتح نافذة متصفح ويب جديدة
+// ويأخذنا إلى الرابط التشعبي في خاصية "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

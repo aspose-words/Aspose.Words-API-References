@@ -3,14 +3,14 @@ title: MappedDataFieldCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words لـ .NET
-description: MappedDataFieldCollection Remove طريقة. إزالة تعيين الحقل في C#.
+description: أزل تعيينات الحقول بسهولة باستخدام طريقة MappedDataFieldCollection Remove. بسّط عملية إدارة بياناتك اليوم!
 type: docs
 weight: 80
 url: /ar/net/aspose.words.mailmerging/mappeddatafieldcollection/remove/
 ---
 ## MappedDataFieldCollection.Remove method
 
-إزالة تعيين الحقل.
+يزيل تعيين الحقل.
 
 ```csharp
 public void Remove(string documentFieldName)
@@ -18,11 +18,11 @@ public void Remove(string documentFieldName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| documentFieldName | String | اسم حساس لحالة الأحرف لحقل دمج المراسلات في المستند. |
+| documentFieldName | String | اسم حساس لحالة الأحرف لحقل دمج البريد في المستند. |
 
 ## أمثلة
 
-يوضح كيفية تعيين أعمدة البيانات وMERGEFIELD بأسماء مختلفة بحيث يتم نقل البيانات فيما بينها أثناء عملية دمج البريد.
+يوضح كيفية تعيين أعمدة البيانات وحقول الدمج بأسماء مختلفة حتى يتم نقل البيانات بينها أثناء دمج البريد.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -30,29 +30,29 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // يحتوي الجدول على عمود يسمى "Column2"، لكن لا توجد حقول دمج بهذا الاسم.
-    // أيضًا، لدينا حقل MERGEFIELD يُسمى "Column3"، لكن مصدر البيانات لا يحتوي على عمود بهذا الاسم.
-    // إذا كانت البيانات من "Column2" مناسبة لـ MERGEFIELD "Column3"،
+    // يحتوي الجدول على عمود يسمى "Column2"، ولكن لا توجد حقول MERGEFIELD بهذا الاسم.
+    //أيضًا، لدينا MERGEFIELD باسم "Column3"، ولكن مصدر البيانات لا يحتوي على عمود بهذا الاسم.
+    // إذا كانت البيانات من "العمود 2" مناسبة لحقل الدمج "العمود 3"،
     // يمكننا تعيين اسم العمود هذا إلى MERGEFIELD في زوج المفتاح/القيمة "MappedDataFields".
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
     // يمكننا ربط اسم عمود مصدر البيانات باسم MERGEFIELD مثل هذا.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // قم بربط عمود مصدر البيانات المسمى "Column2" بـ MERGEFIELDs المسمى "Column3".
+    // ربط عمود مصدر البيانات المسمى "Column2" بـ MERGEFIELDs المسمى "Column3".
     mappedDataFields.Add("Column3", "Column2");
 
-    // اسم MERGEFIELD هو "المفتاح" لاسم عمود مصدر البيانات المعني "القيمة".
+    // اسم MERGEFIELD هو "المفتاح" لاسم عمود مصدر البيانات "القيمة".
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // الآن إذا قمنا بتشغيل دمج البريد هذا، فستأخذ وحدات MERGEFIELD "العمود 3" البيانات من "العمود 2" بالجدول.
+    // الآن إذا قمنا بتشغيل دمج البريد هذا، فإن حقول الدمج "Column3" ستأخذ البيانات من "Column2" في الجدول.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
-    // يمكننا تكرار العناصر الموجودة في هذه المجموعة.
+    //يمكننا تكرار العناصر الموجودة في هذه المجموعة.
     Assert.AreEqual(2, mappedDataFields.Count);
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
@@ -60,7 +60,7 @@ public void MappedDataFieldCollection()
             Console.WriteLine(
                 $"Column named {enumerator.Current.Value} is mapped to MERGEFIELDs named {enumerator.Current.Key}");
 
-    // يمكننا أيضًا إزالة العناصر من المجموعة.
+    //يمكننا أيضًا إزالة العناصر من المجموعة.
     mappedDataFields.Remove("MergeFieldName");
 
     Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
@@ -72,7 +72,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// أنشئ مستندًا يحتوي على حقلي MERGEFIELD، أحدهما لا يحتوي على ملف
+/// قم بإنشاء مستند يحتوي على حقلين MERGEFIELD، أحدهما لا يحتوي على
 /// العمود المقابل في جدول البيانات من الطريقة أدناه.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -88,8 +88,8 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// أنشئ جدول بيانات يتكون من عمودين، أحدهما لا يحتوي على
-/// MERGEFIELD المطابق في المستند المصدر بالطريقة المذكورة أعلاه.
+/// قم بإنشاء جدول بيانات يحتوي على عمودين، أحدهما لا يحتوي على
+/// MERGEFIELD المقابل في المستند المصدر من الطريقة أعلاه.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()
 {

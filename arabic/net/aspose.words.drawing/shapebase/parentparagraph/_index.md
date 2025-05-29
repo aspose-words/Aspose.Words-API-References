@@ -3,9 +3,9 @@ title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words لـ .NET
-description: ShapeBase ParentParagraph ملكية. إرجاع الفقرة الأصلية المباشرة في C#.
+description: اكتشف خاصية ShapeBase ParentParagraph—يمكنك الوصول بكفاءة إلى الفقرة الأصلية المباشرة لإدارة المحتوى بشكل مبسط وتحسين التنظيم.
 type: docs
-weight: 410
+weight: 430
 url: /ar/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
@@ -18,11 +18,11 @@ public Paragraph ParentParagraph { get; }
 
 ## ملاحظات
 
-بالنسبة للأشكال التابعة لشكل المجموعة والأشكال الفرعية لكائن Office Math، يتم إرجاعها دائمًا`باطل`.
+بالنسبة للأشكال الفرعية لشكل المجموعة والأشكال الفرعية لكائن Office Math، يتم إرجاعها دائمًا`باطل`.
 
 ## أمثلة
 
-يوضح كيفية إدراج مربع نص وتعيين خط محتوياته.
+يوضح كيفية إدراج مربع نص، وتعيين الخط الخاص بمحتوياته.
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// قم بتعيين الخاصية "مخفي" لكائن "الخط" الخاص بالشكل على "صحيح" لإخفاء مربع النص عن الأنظار
-// وقم بطي المساحة التي كانت تشغلها عادةً.
-// قم بتعيين الخاصية "مخفي" لكائن "الخط" الخاص بالشكل على "خطأ" لترك مربع النص مرئيًا.
+// اضبط خاصية "مخفي" لكائن "الخط" الخاص بالشكل على "صحيح" لإخفاء مربع النص عن الأنظار
+// وانهيار المساحة التي من شأنها أن تشغلها عادة.
+// قم بضبط خاصية "مخفي" لكائن "الخط" الخاص بالشكل إلى "خطأ" لترك مربع النص مرئيًا.
 shape.Font.Hidden = hideShape;
 
-// إذا كان الشكل مرئيًا، فسنقوم بتعديل مظهره عبر كائن الخط.
+// إذا كان الشكل مرئيًا، فسوف نقوم بتعديل مظهره عبر كائن الخط.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -47,7 +47,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// انقل المنشئ خارج مربع النص مرة أخرى إلى المستند الرئيسي.
+// نقل المنشئ خارج مربع النص إلى المستند الرئيسي.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

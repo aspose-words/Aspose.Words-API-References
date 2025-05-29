@@ -3,14 +3,14 @@ title: OdsoRecipientData.Hash
 linktitle: Hash
 articleTitle: Hash
 second_title: Aspose.Words لـ .NET
-description: OdsoRecipientData Hash ملكية. يمثل رمز التجزئة لهذا السجل. يستخدم Microsoft Word أحيانًاHash من سجل كامل بدلا منUniqueTag value. القيمة الافتراضية هي 0 في C#.
+description: اكتشف خاصية OdsoRecipientData Hash، التي توفر رمز تجزئة فريدًا للسجلات، مما يعزز سلامة البيانات في Microsoft Word. القيمة الافتراضية هي 0.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odsorecipientdata/hash/
 ---
 ## OdsoRecipientData.Hash property
 
-يمثل رمز التجزئة لهذا السجل. يستخدم Microsoft Word أحيانًا`Hash` من سجل كامل بدلا من[`UniqueTag`](../uniquetag/) value. القيمة الافتراضية هي 0.
+يمثل رمز التجزئة لهذا السجل. في بعض الأحيان يستخدم Microsoft Word`Hash` من سجل كامل بدلا من[`UniqueTag`](../uniquetag/) القيمة الافتراضية هي 0.
 
 ```csharp
 public int Hash { get; set; }
@@ -18,7 +18,7 @@ public int Hash { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال عملية دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
+//يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
+//يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

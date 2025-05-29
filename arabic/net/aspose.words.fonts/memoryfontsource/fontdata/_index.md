@@ -3,14 +3,14 @@ title: MemoryFontSource.FontData
 linktitle: FontData
 articleTitle: FontData
 second_title: Aspose.Words لـ .NET
-description: MemoryFontSource FontData ملكية. بيانات الخط الثنائي في C#.
+description: اكتشف خاصية FontData في MemoryFontSource لدمج الخطوط الثنائية بسلاسة. حسّن مشاريعك بحلول فعّالة لإدارة الخطوط.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-بيانات الخط الثنائي.
+بيانات الخط الثنائية.
 
 ```csharp
 public byte[] FontData { get; }
@@ -18,7 +18,7 @@ public byte[] FontData { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
+يوضح كيفية استخدام مجموعة بايتات تحتوي على بيانات من ملف الخط كمصدر للخط.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

@@ -3,7 +3,7 @@ title: FieldToc
 linktitle: FieldToc
 articleTitle: FieldToc
 second_title: Aspose.Words لـ .NET
-description: FieldToc البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldToc القوي لدمج البيانات بسلاسة. بسّط مشاريعك باستخدام أدواتنا البديهية، وحسّن سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtoc/fieldtoc/

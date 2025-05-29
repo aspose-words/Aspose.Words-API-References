@@ -3,14 +3,14 @@ title: MarkupLevel Enum
 linktitle: MarkupLevel
 articleTitle: MarkupLevel
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Markup.MarkupLevel تعداد. يحدد المستوى في شجرة الوثيقة حيث يوجد مستوى معينStructuredDocumentTag يمكن أن يحدث في C#.
+description: اكتشف Aspose.Words.Markup.MarkupLevel enum، الذي يحدد مكان ملاءمة StructuredDocumentTags في شجرة المستندات لديك لتحسين التنظيم والتحكم.
 type: docs
-weight: 3980
+weight: 4670
 url: /ar/net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
 
-يحدد المستوى في شجرة الوثيقة حيث يوجد مستوى معين[`StructuredDocumentTag`](../structureddocumenttag/) يمكن أن يحدث.
+يحدد المستوى في شجرة المستند حيث يوجد ملف معين[`StructuredDocumentTag`](../structureddocumenttag/) يمكن أن يحدث.
 
 ```csharp
 public enum MarkupLevel
@@ -21,14 +21,14 @@ public enum MarkupLevel
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Unknown | `0` | يحدد القيمة غير المعروفة أو غير الصالحة. |
-| Inline | `1` | يحدث العنصر على المستوى المضمن (على سبيل المثال، بين مجموعات النص). |
-| Block | `2` | يحدث العنصر على مستوى الكتلة (على سبيل المثال بين الجداول والفقرات). |
-| Row | `3` | يظهر العنصر بين صفوف الجدول. |
-| Cell | `4` | يحدث العنصر بين الخلايا في صف واحد. |
+| Inline | `1` | يظهر العنصر على مستوى السطر (على سبيل المثال بين عمليات تشغيل النص). |
+| Block | `2` | يظهر العنصر على مستوى الكتلة (على سبيل المثال بين الجداول والفقرات). |
+| Row | `3` | يظهر العنصر بين الصفوف في الجدول. |
+| Cell | `4` | يظهر العنصر بين الخلايا في صف واحد. |
 
 ## أمثلة
 
-يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
+يوضح كيفية العمل مع الأنماط لعناصر التحكم في المحتوى.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - قم بالإشارة إلى النمط الموجود في المستند بالاسم:
+// 2 - الإشارة إلى النمط في المستند بالاسم:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

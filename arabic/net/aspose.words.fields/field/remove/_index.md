@@ -3,14 +3,14 @@ title: Field.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words لـ .NET
-description: Field Remove طريقة. إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل فسيتم إرجاعهباطل  في C#.
+description: أزل الحقول من المستندات بسهولة باستخدام طريقة "إزالة الحقول". احصل على عوائد دقيقة للعقد، وتعامل مع الحقول الفارغة بسلاسة. حسّن سير عملك!
 type: docs
 weight: 120
 url: /ar/net/aspose.words.fields/field/remove/
 ---
 ## Field.Remove method
 
-إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` .
+يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` .
 
 ```csharp
 public Node Remove()
@@ -37,20 +37,20 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // فيما يلي أربع طرق لإزالة الحقول من مجموعة الحقول.
-// 1 - احصل على حقل لإزالة نفسه:
+// 1 - الحصول على حقل لإزالة نفسه:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - احصل على المجموعة لإزالة الحقل الذي نمرره إلى طريقة الإزالة الخاصة به:
+// 2 - الحصول على المجموعة لإزالة الحقل الذي نمرره إلى طريقة الإزالة الخاصة به:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - إزالة حقل من مجموعة في فهرس:
+// 3 - إزالة حقل من مجموعة عند الفهرس:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - قم بإزالة كافة الحقول من المجموعة مرة واحدة:
+// 4 - إزالة جميع الحقول من المجموعة مرة واحدة:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -65,19 +65,19 @@ public void FieldPrivate()
 
     // قد تحتوي مستندات WordPerfect 5.x/6.x مثل تلك التي قمنا بتحميلها على حقول خاصة.
     // يحتفظ Microsoft Word بالحقول الخاصة أثناء عمليات التحميل/الحفظ،
-    // لكنه لا يوفر أي وظيفة لهم.
+    //ولكن لا يوفر أي وظيفة لهم.
     FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
 
     Assert.AreEqual(" PRIVATE \"My value\" ", field.GetFieldCode());
     Assert.AreEqual(FieldType.FieldPrivate, field.Type);
 
-    // يمكننا أيضًا إدراج حقول خاصة باستخدام أداة إنشاء المستندات.
+    //يمكننا أيضًا إدراج الحقول الخاصة باستخدام منشئ المستندات.
     DocumentBuilder builder = new DocumentBuilder(doc);
     builder.InsertField(FieldType.FieldPrivate, true);
 
-    // هذه الحقول ليست طريقة فعالة لحماية المعلومات الحساسة.
-    // ما لم يكن التوافق مع الإصدارات السابقة مع الإصدارات الأقدم من WordPerfect ضروريًا،
-    // يمكننا إزالة هذه الحقول بأمان. يمكننا القيام بذلك باستخدام تطبيق DocumentVisiitor.
+    //هذه الحقول ليست طريقة فعالة لحماية المعلومات الحساسة.
+    // ما لم يكن التوافق مع الإصدارات الأقدم من WordPerfect ضروريًا،
+    // يمكننا إزالة هذه الحقول بأمان. يمكننا القيام بذلك باستخدام أداة DocumentVisiitor.
     Assert.AreEqual(2, doc.Range.Fields.Count);
 
     FieldPrivateRemover remover = new FieldPrivateRemover();
@@ -88,7 +88,7 @@ public void FieldPrivate()
 }
 
 /// <summary>
-/// يزيل كافة الحقول الخاصة التي تمت مواجهتها.
+/// يقوم بإزالة جميع الحقول الخاصة التي تم مواجهتها.
 /// </summary>
 public class FieldPrivateRemover : DocumentVisitor
 {
@@ -103,7 +103,7 @@ public class FieldPrivateRemover : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldEnd في المستند.
     /// إذا كانت العقدة تنتمي إلى حقل خاص، فسيتم إزالة الحقل بأكمله.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)

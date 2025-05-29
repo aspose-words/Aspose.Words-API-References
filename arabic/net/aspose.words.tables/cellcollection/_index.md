@@ -3,14 +3,14 @@ title: CellCollection Class
 linktitle: CellCollection
 articleTitle: CellCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Tables.CellCollection فصل. يوفر الوصول المكتوب إلى مجموعة منCell العقد في C#.
+description: اكتشف فئة Aspose.Words.Tables.CellCollection للوصول بسهولة إلى عقد Cell، مما يعزز معالجة المستندات وكفاءتها.
 type: docs
-weight: 6250
+weight: 7100
 url: /ar/net/aspose.words.tables/cellcollection/
 ---
 ## CellCollection class
 
-يوفر الوصول المكتوب إلى مجموعة من[`Cell`](../cell/) العقد.
+يوفر وصولاً مكتوبًا إلى مجموعة من[`Cell`](../cell/) العقد.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الجداول](https://docs.aspose.com/words/net/working-with-tables/) مقالة توثيقية.
 
@@ -22,26 +22,26 @@ public class CellCollection : NodeCollection
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words/nodecollection/count/) { get; } | الحصول على عدد العقد في المجموعة. |
-| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | يسترد أ[`Cell`](../cell/) في الفهرس المحدد. (2 indexers) |
+| [Count](../../aspose.words/nodecollection/count/) { get; } | يحصل على عدد العقد في المجموعة. |
+| [Item](../../aspose.words.tables/cellcollection/item/) { get; } | يسترجع[`Cell`](../cell/) عند الفهرس المعطى. (2 indexers) |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | إضافة عقدة إلى نهاية المجموعة. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | إزالة كافة العقد من هذه المجموعة ومن المستند. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | تحديد ما إذا كانت العقدة موجودة في المجموعة. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | إرجاع الفهرس الصفري للعقدة المحددة. |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | إدراج عقدة في المجموعة في الفهرس المحدد. |
-| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | إزالة العقدة من المجموعة ومن المستند. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | إزالة العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
-| [ToArray](../../aspose.words.tables/cellcollection/toarray/#toarray_1)() | نسخ كافة الخلايا من المجموعة إلى مجموعة جديدة من الخلايا. (2 methods) |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | يضيف عقدة إلى نهاية المجموعة. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | يزيل جميع العقد من هذه المجموعة ومن المستند. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | يحدد ما إذا كانت العقدة موجودة في المجموعة. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | يوفر تكرارًا بسيطًا بأسلوب "foreach" عبر مجموعة العقد. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | يعيد الفهرس المبني على الصفر للعقدة المحددة. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | يقوم بإدراج عقدة في المجموعة عند الفهرس المحدد. |
+| [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | يزيل العقدة من المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | يزيل العقدة الموجودة في الفهرس المحدد من المجموعة ومن المستند. |
+| [ToArray](../../aspose.words.tables/cellcollection/toarray/#toarray_1)() | نسخ جميع الخلايا من المجموعة إلى مجموعة جديدة من الخلايا. (2 methods) |
 
 ## أمثلة
 
-يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية تكرار جميع الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -55,7 +55,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" على مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -65,7 +65,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

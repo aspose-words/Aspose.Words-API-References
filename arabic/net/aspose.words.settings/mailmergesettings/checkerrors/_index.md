@@ -3,14 +3,14 @@ title: MailMergeSettings.CheckErrors
 linktitle: CheckErrors
 articleTitle: CheckErrors
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings CheckErrors ملكية. يحدد نوع الإبلاغ عن الأخطاء الذي يجب أن يتم إجراؤه بواسطة Microsoft Word عند إجراء عملية دمج البريد. القيمة الافتراضية هيDefault  في C#.
+description: اكتشف خاصية MailMergeSettings CheckErrors في Microsoft Word لتقارير فعّالة عن الأخطاء أثناء دمج البريد. حسّن سير عملك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/mailmergesettings/checkerrors/
 ---
 ## MailMergeSettings.CheckErrors property
 
-يحدد نوع الإبلاغ عن الأخطاء الذي يجب أن يتم إجراؤه بواسطة Microsoft Word عند إجراء عملية دمج البريد. القيمة الافتراضية هيDefault .
+يحدد نوع تقرير الخطأ الذي يجب أن يقوم به Microsoft Word عند تنفيذ دمج البريد. القيمة الافتراضية هيDefault .
 
 ```csharp
 public MailMergeCheckErrors CheckErrors { get; set; }
@@ -18,7 +18,7 @@ public MailMergeCheckErrors CheckErrors { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

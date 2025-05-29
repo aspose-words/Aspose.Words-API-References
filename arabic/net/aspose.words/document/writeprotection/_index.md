@@ -3,14 +3,14 @@ title: Document.WriteProtection
 linktitle: WriteProtection
 articleTitle: WriteProtection
 second_title: Aspose.Words لـ .NET
-description: Document WriteProtection ملكية. يوفر الوصول إلى خيارات الحماية ضد الكتابة في المستند في C#.
+description: استكشف خاصية Document WriteProtection لإدارة إعدادات حماية الكتابة الخاصة بمستندك بسهولة وتعزيز الأمان.
 type: docs
-weight: 500
+weight: 520
 url: /ar/net/aspose.words/document/writeprotection/
 ---
 ## Document.WriteProtection property
 
-يوفر الوصول إلى خيارات الحماية ضد الكتابة في المستند.
+يوفر الوصول إلى خيارات حماية الكتابة في المستند.
 
 ```csharp
 public WriteProtection WriteProtection { get; }
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// الحماية لا تمنع تحرير المستند برمجيًا، ولا تقوم بتشفير محتوياته.
+// الحماية لا تمنع تحرير المستند برمجيًا، ولا تقوم بتشفير المحتويات.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

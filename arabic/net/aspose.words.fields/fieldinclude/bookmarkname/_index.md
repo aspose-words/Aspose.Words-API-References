@@ -3,14 +3,14 @@ title: FieldInclude.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words لـ .NET
-description: FieldInclude BookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه في C#.
+description: اكتشف كيفية استخدام خاصية FieldInclude BookmarkName لإدارة الإشارات المرجعية في مستنداتك بسهولة لتحسين التنظيم والكفاءة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldinclude/bookmarkname/
 ---
 ## FieldInclude.BookmarkName property
 
-الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه.
+يحصل على اسم الإشارة المرجعية في المستند المراد تضمينها أو يعينه.
 
 ```csharp
 public string BookmarkName { get; set; }

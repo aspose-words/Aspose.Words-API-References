@@ -3,9 +3,9 @@ title: PdfPermissions Enum
 linktitle: PdfPermissions
 articleTitle: PdfPermissions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.PdfPermissions تعداد. يحدد العمليات المسموح بها للمستخدم على مستند PDF مشفر في C#.
+description: اكتشف خاصية Aspose.Words.PdfPermissions للتحكم في وصول المستخدمين إلى ملفات PDF المشفرة. حسّن الأمان وأدر عمليات المستندات بفعالية.
 type: docs
-weight: 5510
+weight: 6310
 url: /ar/net/aspose.words.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration
@@ -21,20 +21,20 @@ public enum PdfPermissions
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| DisallowAll | `0` | عدم السماح بجميع العمليات على مستند PDF. هذه هي القيمة الافتراضية. |
-| AllowAll | `FFFF` | يسمح بجميع العمليات على مستند PDF. |
-| ContentCopy | `10` | نسخ أو استخراج النص والرسومات من المستند عن طريق عمليات أخرى غير تلك التي يتم التحكم بها بواسطة ContentCopyForAccessibility . |
+| DisallowAll | `0` | لا يسمح بجميع العمليات على مستند PDF. هذه هي القيمة الافتراضية. |
+| AllowAll | `FFFF` | يسمح بإجراء كافة العمليات على مستند PDF. |
+| ContentCopy | `10` | نسخ أو استخراج النصوص والرسومات من المستند بطريقة أخرى من خلال عمليات أخرى غير تلك التي يتم التحكم فيها بواسطة ContentCopyForAccessibility . |
 | ContentCopyForAccessibility | `200` | استخراج النصوص والرسومات (لدعم إمكانية الوصول للمستخدمين ذوي الإعاقة أو لأغراض أخرى). |
-| ModifyContents | `8` | تعديل محتويات الوثيقة بعمليات أخرى غير تلك التي يتحكم فيها ModifyAnnotations ,FillIn ، وDocumentAssembly . |
-| ModifyAnnotations | `20` | إضافة التعليقات التوضيحية النصية أو تعديلها، وملء حقول النماذج التفاعلية، وإذاModifyContents is يقوم أيضًا بتعيين أو إنشاء أو تعديل حقول النموذج التفاعلية (بما في ذلك حقول التوقيع). |
+| ModifyContents | `8` | تعديل محتويات المستند من خلال عمليات أخرى غير تلك التي يتم التحكم فيها بواسطة ModifyAnnotations ،FillIn ، وDocumentAssembly . |
+| ModifyAnnotations | `20` | إضافة أو تعديل التعليقات النصية وملء حقول النموذج التفاعلي، وإذاModifyContents يقوم is أيضًا بتعيين أو إنشاء أو تعديل حقول النموذج التفاعلية (بما في ذلك حقول التوقيع). |
 | FillIn | `100` | املأ حقول النموذج التفاعلي الموجودة (بما في ذلك حقول التوقيع)، حتى لوModifyContents واضح. |
-| DocumentAssembly | `400` | قم بتجميع المستند (إدراج الصفحات أو تدويرها أو حذفها وإنشاء عناصر مخطط تفصيلي للمستند أو صور مصغرة )، حتى لوModifyContents واضح. |
-| Printing | `4` | طباعة المستند (ربما ليس على أعلى مستوى من الجودة، اعتمادًا على ما إذا كان HighResolutionPrinting تم ضبطه أيضًا). |
-| HighResolutionPrinting | `804` | اطبع المستند إلى تمثيل يمكن من خلاله إنشاء نسخة رقمية صحيحة من محتوى PDF ، بناءً على خوارزمية تعتمد على التنفيذ. عندما تكون هذه العلامة واضحة (and Printing تم تعيينه)، يجب أن تقتصر الطباعة على تمثيل منخفض المستوى للمظهر، ربما ذو جودة متدهورة. |
+| DocumentAssembly | `400` | تجميع المستند (إدراج أو تدوير أو حذف الصفحات وإنشاء عناصر مخطط المستند أو الصور المصغرة)، حتى لوModifyContents واضح. |
+| Printing | `4` | اطبع المستند (ربما ليس بأعلى مستوى من الجودة، اعتمادًا على ما إذا كان HighResolutionPrinting تم تعيينه أيضًا). |
+| HighResolutionPrinting | `804` | اطبع المستند على تمثيل يُمكن من خلاله إنشاء نسخة رقمية دقيقة من محتوى PDF، استنادًا إلى خوارزمية تعتمد على التنفيذ. عند مسح هذا العلم (و)Printing يجب أن تقتصر الطباعة على تمثيل منخفض المستوى للمظهر، ربما بجودة متدهورة. |
 
 ## أمثلة
 
-يوضح كيفية تعيين الأذونات على مستند PDF محفوظ.
+يوضح كيفية تعيين الأذونات على مستند PDF المحفوظ.
 
 ```csharp
 Document doc = new Document();
@@ -42,17 +42,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// توسيع الأذونات للسماح بتحرير التعليقات التوضيحية.
+// تمديد الأذونات للسماح بتحرير التعليقات التوضيحية.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // تمكين التشفير عبر خاصية "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// عندما نفتح هذا المستند، سنحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
+// عندما نفتح هذا المستند، سوف نحتاج إلى توفير كلمة المرور قبل الوصول إلى محتوياته.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

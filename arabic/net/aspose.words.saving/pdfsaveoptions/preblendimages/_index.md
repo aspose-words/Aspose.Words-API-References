@@ -3,14 +3,14 @@ title: PdfSaveOptions.PreblendImages
 linktitle: PreblendImages
 articleTitle: PreblendImages
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions PreblendImages ملكية. الحصول على أو تعيين قيمة لتحديد ما إذا كان سيتم مزج الصور الشفافة مسبقًا مع لون الخلفية السوداء أم لا في C#.
+description: اكتشف خاصية PreblendImages في PdfSaveOptions. تحكم بسهولة في مزج الصور الشفافة لتحسين جودة المستند وجاذبيته البصرية.
 type: docs
-weight: 260
+weight: 270
 url: /ar/net/aspose.words.saving/pdfsaveoptions/preblendimages/
 ---
 ## PdfSaveOptions.PreblendImages property
 
-الحصول على أو تعيين قيمة لتحديد ما إذا كان سيتم مزج الصور الشفافة مسبقًا مع لون الخلفية السوداء أم لا.
+يحصل على قيمة أو يعينها لتحديد ما إذا كان سيتم مزج الصور الشفافة مسبقًا مع لون الخلفية الأسود أم لا.
 
 ```csharp
 public bool PreblendImages { get; set; }
@@ -18,54 +18,31 @@ public bool PreblendImages { get; set; }
 
 ## ملاحظات
 
-قد يؤدي المزج المسبق للصور إلى تحسين المظهر المرئي لمستندات PDF في Adobe Reader وإزالة العناصر المضادة للتعرجات.
+قد يؤدي مزج الصور مسبقًا إلى تحسين المظهر المرئي لمستندات PDF في Adobe Reader وإزالة آثار التنعيم.
 
-من أجل عرض الصور الممزوجة مسبقًا بشكل صحيح، يجب أن يدعم تطبيق عارض PDF الإدخال /Matte في قاموس صور القناع الناعم. كما أن الصور الممزوجة مسبقًا قد تقلل من أداء عرض PDF.
+لعرض الصور الممزوجة مسبقًا بشكل صحيح، يجب أن يدعم تطبيق عارض PDF إدخال /Matte في قاموس الصور ذات القناع الناعم. كما أن المزج المسبق للصور قد يؤدي إلى تقليل أداء عرض PDF.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
 ## أمثلة
 
-يوضح كيفية مزج الصور مسبقًا بخلفيات شفافة أثناء حفظ المستند في ملف PDF.
+يوضح كيفية دمج الصور مسبقًا مع الخلفيات الشفافة أثناء حفظ مستند بتنسيق PDF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Image img = Image.FromFile(ImageDir + "Transparent background logo.png");
-builder.InsertImage(img);
+builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
-
 // اضبط خاصية "PreblendImages" على "true" لمزج الصور الشفافة مسبقًا
-// بخلفية قد تقلل من التحف.
-// اضبط خاصية "PreblendImages" على "خطأ" لعرض الصور الشفافة بشكل طبيعي.
+// مع خلفية، والتي قد تقلل من القطع الأثرية.
+// اضبط خاصية "PreblendImages" على "false" لعرض الصور الشفافة بشكل طبيعي.
 options.PreblendImages = preblendImages;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImages.pdf", options);
-```
-
-يوضح كيفية مزج الصور مسبقًا بخلفيات شفافة (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-using (Image image = Image.Decode(ImageDir + "Transparent background logo.png"))
-    builder.InsertImage(image);
-
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
-PdfSaveOptions options = new PdfSaveOptions();
-
-// اضبط خاصية "PreblendImages" على "true" لمزج الصور الشفافة مسبقًا
-// بخلفية قد تقلل من التحف.
-// اضبط خاصية "PreblendImages" على "خطأ" لعرض الصور الشفافة بشكل طبيعي.
-options.PreblendImages = preblendImages;
-
-doc.Save(ArtifactsDir + "PdfSaveOptions.PreblendImagesNetStandard2.pdf", options);
 ```
 
 ### أنظر أيضا

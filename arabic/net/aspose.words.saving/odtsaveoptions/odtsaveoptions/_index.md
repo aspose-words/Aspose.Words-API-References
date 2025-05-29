@@ -3,14 +3,14 @@ title: OdtSaveOptions
 linktitle: OdtSaveOptions
 articleTitle: OdtSaveOptions
 second_title: Aspose.Words لـ .NET
-description: OdtSaveOptions البناء. تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt التنسيق في C#.
+description: اكتشف مُنشئ OdtSaveOptions لحفظ المستندات بتنسيق ODT بسهولة. بسّط سير عملك مع هذه الأداة الفعّالة!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions() {#constructor}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt التنسيق.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ مستند فيOdt تنسيق.
 
 ```csharp
 public OdtSaveOptions()
@@ -42,7 +42,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(*string*) {#constructor_2}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt format مشفر بكلمة مرور.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ مستند فيOdt format مشفر بكلمة مرور.
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -58,7 +58,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-تهيئة مثيل جديد لهذه الفئة يمكن استخدامه لحفظ مستند في ملفOdt أو Ott التنسيق.
+يقوم بتهيئة مثيل جديد لهذه الفئة التي يمكن استخدامها لحفظ مستند فيOdt أو Ott تنسيق.
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)
@@ -66,7 +66,7 @@ public OdtSaveOptions(SaveFormat saveFormat)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| saveFormat | SaveFormat | يمكن ان يكونOdt أوOtt. |
+| saveFormat | SaveFormat | يمكن أن يكونOdt أوOtt. |
 
 ## أمثلة
 
@@ -77,22 +77,22 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بإنشاء OdtSaveOptions جديد، وقم بتمرير إما "SaveFormat.Odt"،
- // أو "SaveFormat.Ott" كتنسيق لحفظ المستند به.
+// قم بإنشاء OdtSaveOptions جديد، ثم مرر إما "SaveFormat.Odt" أو
+ // أو "SaveFormat.Ott" كتنسيق لحفظ المستند فيه.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
-// إذا فتحنا هذه الوثيقة باستخدام المحرر المناسب،
-// سيطالبنا بكلمة المرور التي حددناها في كائن SaveOptions.
+// إذا فتحنا هذا المستند باستخدام محرر مناسب،
+// سيطلب منا إدخال كلمة المرور التي حددناها في كائن SaveOptions.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
 
 Assert.IsTrue(docInfo.IsEncrypted);
 
-// إذا أردنا فتح هذا المستند أو تحريره مرة أخرى باستخدام Aspose.Words،
+// إذا أردنا فتح أو تحرير هذا المستند مرة أخرى باستخدام Aspose.Words،
 // سيتعين علينا توفير كائن LoadOptions بكلمة المرور الصحيحة لمنشئ التحميل.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));

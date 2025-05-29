@@ -3,7 +3,7 @@ title: BorderCollection.Left
 linktitle: Left
 articleTitle: Left
 second_title: Aspose.Words لـ .NET
-description: BorderCollection Left ملكية. يحصل على الحد الأيسر في C#.
+description: اكتشف خاصية BorderCollection Left، وقم بالوصول بسهولة إلى الحد الأيسر وتخصيصه لتحسين مرونة التصميم والجاذبية البصرية.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/bordercollection/left/
@@ -18,17 +18,17 @@ public Border Left { get; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء الجدول.
+يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء جدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// ابدأ الجدول وقم بتعيين اللون/السمك الافتراضي لحدوده.
+// ابدأ جدولًا وقم بتعيين لون/سمك افتراضي لحدوده.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// أنشئ صفًا يحتوي على خليتين بألوان خلفية مختلفة.
+// قم بإنشاء صف يحتوي على خليتين بألوان خلفية مختلفة.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -38,8 +38,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // إعادة تعيين تنسيق الخلية لتعطيل ألوان الخلفية
-// قم بتعيين سمك حدود مخصص لجميع الخلايا الجديدة التي أنشأها المنشئ،
-// ثم أنشئ صفًا ثانيًا.
+// تعيين سمك حدود مخصص لجميع الخلايا الجديدة التي ينشئها المنشئ،
+// ثم قم ببناء صف ثاني.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

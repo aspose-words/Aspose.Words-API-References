@@ -3,14 +3,14 @@ title: IFieldResultFormatter.FormatDateTime
 linktitle: FormatDateTime
 articleTitle: FormatDateTime
 second_title: Aspose.Words لـ .NET
-description: IFieldResultFormatter FormatDateTime طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق التاريخ/الوقت على سبيل المثال  dd.MM.yyyy في C#.
+description: اكتشف طريقة iFieldResultFormatter FormatDateTime لـ Aspose.Words. نسّق التواريخ بسهولة ويسر باستخدام مفتاح dd.MM.yyyy!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
 ## IFieldResultFormatter.FormatDateTime method
 
-يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق التاريخ/الوقت، على سبيل المثال \@ "dd.MM.yyyy".
+يتم استدعاؤها عندما يطبق Aspose.Words مفتاح تنسيق التاريخ/الوقت، على سبيل المثال \@ "dd.MM.yyyy".
 
 ```csharp
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
@@ -18,11 +18,11 @@ public string FormatDateTime(DateTime value, string format, CalendarType calenda
 
 ## ملاحظات
 
-يجب أن يعود التنفيذ`باطل` للإشارة إلى ضرورة تطبيق التنسيق الافتراضي.
+يجب أن يعود التنفيذ`باطل` للإشارة إلى أنه يجب تطبيق التنسيق الافتراضي.
 
 ## أمثلة
 
-يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
+يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول أثناء تحديث الحقول.
 
 ```csharp
 public void FieldResultFormatting()
@@ -32,9 +32,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // يطبق منسق نتيجة الحقل الخاص بنا تنسيقًا مخصصًا على الحقول التي تم إنشاؤها حديثًا والتي تتكون من ثلاثة أنواع من التنسيقات.
-    // يطبق منسقو نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
-    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField.
+    // يقوم منسق نتيجة الحقل الخاص بنا بتطبيق تنسيق مخصص على الحقول التي تم إنشاؤها حديثًا بثلاثة أنواع من التنسيقات.
+    // تطبق منسقات نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
+    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField هذه.
     // 1 - رقمي:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -57,8 +57,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// عندما يتم تحديث الحقول ذات التنسيق، سيتجاوز هذا المنسق تنسيقها
-/// بتنسيق مخصص، أثناء تتبع كل استدعاء.
+/// عند تحديث الحقول ذات التنسيق، سيتجاوز هذا المُنسِّق تنسيقها
+/// بتنسيق مخصص، مع تتبع كل استدعاء.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -113,12 +113,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

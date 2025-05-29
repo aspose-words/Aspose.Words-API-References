@@ -3,9 +3,9 @@ title: UserInformation Class
 linktitle: UserInformation
 articleTitle: UserInformation
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.UserInformation فصل. يحدد معلومات حول المستخدم في C#.
+description: اكتشف فئة Aspose.Words.Fields.UserInformation لإدارة تفاصيل المستخدم بشكل فعال وتحسين معالجة المستندات في تطبيقاتك.
 type: docs
-weight: 2790
+weight: 3200
 url: /ar/net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
@@ -29,9 +29,9 @@ public class UserInformation
 | اسم | وصف |
 | --- | --- |
 | static [DefaultUser](../../aspose.words.fields/userinformation/defaultuser/) { get; } | معلومات المستخدم الافتراضية. |
-| [Address](../../aspose.words.fields/userinformation/address/) { get; set; } | الحصول على العنوان البريدي للمستخدم أو تعيينه. |
-| [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | الحصول على الأحرف الأولى من اسم المستخدم أو تعيينها. |
-| [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | الحصول على اسم المستخدم أو تعيينه. |
+| [Address](../../aspose.words.fields/userinformation/address/) { get; set; } | يحصل على عنوان البريد الإلكتروني للمستخدم أو يعينه. |
+| [Initials](../../aspose.words.fields/userinformation/initials/) { get; set; } | يحصل على الأحرف الأولى من اسم المستخدم أو يعينها. |
+| [Name](../../aspose.words.fields/userinformation/name/) { get; set; } | يحصل على اسم المستخدم أو يعينه. |
 
 ## أمثلة
 
@@ -41,7 +41,7 @@ public class UserInformation
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء كائن معلومات المستخدم وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
+// قم بإنشاء كائن UserInformation وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -50,13 +50,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// أدخل حقول اسم المستخدم، ومعلومات المستخدم، وعنوان المستخدم، التي تعرض قيم
- // الخصائص الخاصة بكائن UserInformation الذي قمنا بإنشائه أعلاه.
+// أدخل حقول اسم المستخدم، والأحرف الأولى للمستخدم، وعنوان المستخدم، والتي تعرض قيم
+ // الخصائص الخاصة بكائن UserInformation الذي أنشأناه أعلاه.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// يحتوي كائن خيارات الحقل أيضًا على مستخدم افتراضي ثابت يمكن أن تشير إليه الحقول من جميع المستندات.
+// يحتوي كائن خيارات الحقل أيضًا على مستخدم افتراضي ثابت يمكن للحقول من كافة المستندات الرجوع إليه.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

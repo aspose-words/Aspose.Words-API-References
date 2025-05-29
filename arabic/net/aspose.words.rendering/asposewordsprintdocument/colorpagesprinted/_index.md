@@ -3,14 +3,14 @@ title: AsposeWordsPrintDocument.ColorPagesPrinted
 linktitle: ColorPagesPrinted
 articleTitle: ColorPagesPrinted
 second_title: Aspose.Words لـ .NET
-description: AsposeWordsPrintDocument ColorPagesPrinted ملكية. يحصل على عدد الصفحات المطبوعة بالألوان على سبيل المثالColor تم ضبطه على صحيح في C#.
+description: اكتشف خاصية PrintDocument ColorPagesPrinted في Aspose.Words لتتبع عدد الصفحات المطبوعة بألوان زاهية بكفاءة. حسّن رؤيتك للطباعة إلى أقصى حد!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
 ---
 ## AsposeWordsPrintDocument.ColorPagesPrinted property
 
-يحصل على عدد الصفحات المطبوعة بالألوان (على سبيل المثالColor تم ضبطه على "صحيح".
+يحصل على عدد الصفحات المطبوعة بالألوان (أي معColor تم ضبطه على true).
 
 ```csharp
 public int ColorPagesPrinted { get; }
@@ -18,17 +18,17 @@ public int ColorPagesPrinted { get; }
 
 ## أمثلة
 
-يوضح كيفية تحديد نطاق صفحات وطابعة لطباعة المستند بها، ثم إظهار معاينة الطباعة.
+يوضح كيفية تحديد نطاق الصفحات والطابعة لطباعة المستند، ثم إظهار معاينة الطباعة.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// اتصل بالطريقة "إظهار" للحصول على نموذج معاينة الطباعة ليظهر في الأعلى.
+// قم باستدعاء طريقة "إظهار" لإظهار نموذج معاينة الطباعة في الأعلى.
 previewDlg.Show();
 
-// تهيئة مربع حوار الطباعة بعدد الصفحات في المستند.
+// قم بتهيئة مربع حوار الطباعة بعدد الصفحات الموجودة في المستند.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -39,7 +39,7 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// إنشاء تطبيق "Aspose.Words" لمستند الطباعة .NET،
+// قم بإنشاء تنفيذ "Aspose.Words" لمستند الطباعة .NET،
 // ثم قم بتمرير إعدادات الطابعة من مربع الحوار.
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
@@ -47,18 +47,18 @@ awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 // حدد وضع الطباعة الملونة الجديد.
 awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
 
-// استخدم طريقة "CachePrinterSettings" لتقليل وقت الاستدعاء الأول لطريقة "الطباعة".
+// استخدم طريقة "CachePrinterSettings" لتقليل وقت الاستدعاء الأول لطريقة "Print".
 awPrintDoc.CachePrinterSettings();
 
-// اتصل بطرق "Hide"، ثم طرق "InvalidatePreview" للحصول على معاينة الطباعة لتظهر في الأعلى.
+// قم باستدعاء طريقتي "إخفاء"، ثم "InvalidatePreview" لجعل معاينة الطباعة تظهر في الأعلى.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// قم بتمرير مستند الطباعة "Aspose.Words" إلى مربع حوار معاينة الطباعة في .NET.
+// قم بتمرير مستند الطباعة "Aspose.Words" إلى مربع حوار معاينة الطباعة .NET.
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

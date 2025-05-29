@@ -3,14 +3,14 @@ title: ParagraphFormat.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat StyleIdentifier ملكية. الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الفقرة المطبق على هذا التنسيق في C#.
+description: اكتشف خاصية ParagraphFormat StyleIdentifier لإدارة أنماط الفقرات وتخصيصها بسهولة، مما يعزز تنسيق مستندك وقابليته للقراءة.
 type: docs
-weight: 350
+weight: 360
 url: /ar/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-الحصول على أو تعيين معرف النمط المحلي المستقل لنمط الفقرة المطبق على هذا التنسيق.
+يحصل على أو يعين معرف النمط المستقل عن الإعدادات المحلية لنمط الفقرة المطبق على هذا التنسيق.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -18,21 +18,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج جدول محتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
+يوضح كيفية إدراج جدول المحتويات (TOC) في مستند باستخدام أنماط العناوين كإدخالات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل جدول محتويات للصفحة الأولى من المستند.
-// قم بتكوين الجدول لالتقاط الفقرات ذات العناوين من المستويات 1 إلى 3.
-// أيضًا، قم بتعيين إدخالاته لتكون روابط تشعبية ستأخذنا
+//إدراج جدول المحتويات للصفحة الأولى من المستند.
+// قم بتكوين الجدول لالتقاط الفقرات التي تحتوي على عناوين من المستويات 1 إلى 3.
+// أيضًا، قم بتعيين إدخالاتها لتكون روابط تشعبية تأخذنا
 // إلى موقع العنوان عند النقر بزر الماوس الأيسر في Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// قم بملء جدول المحتويات عن طريق إضافة فقرات بأنماط العناوين.
-// كل عنوان بمستوى يتراوح بين 1 و 3 سيُنشئ مُدخلاً في الجدول.
+// قم بملء جدول المحتويات عن طريق إضافة فقرات ذات أنماط عناوين.
+// كل عنوان من هذا القبيل بمستوى بين 1 و3 سوف ينشئ إدخالاً في الجدول.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -60,7 +60,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// جدول المحتويات هو حقل من النوع الذي يحتاج إلى التحديث لإظهار نتيجة محدثة.
+// جدول المحتويات هو حقل من نوع يحتاج إلى التحديث لإظهار نتيجة محدثة.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

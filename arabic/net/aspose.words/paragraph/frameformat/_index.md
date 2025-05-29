@@ -3,7 +3,7 @@ title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words لـ .NET
-description: Paragraph FrameFormat ملكية. يوفر الوصول إلى خصائص تنسيق الإطار في C#.
+description: اكتشف خاصية Paragraph FrameFormat، وقم بالوصول بسهولة إلى خصائص تنسيق الإطار وتخصيصها لعرض مستند محسّن.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/paragraph/frameformat/
@@ -18,7 +18,7 @@ public FrameFormat FrameFormat { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تعتبر إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

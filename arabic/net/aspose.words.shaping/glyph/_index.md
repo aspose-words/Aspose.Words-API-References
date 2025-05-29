@@ -3,14 +3,14 @@ title: Glyph Class
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Shaping.Glyph فصل. يمثل الصورة الرمزية في C#.
+description: اكتشف فئة Aspose.Words.Shaping.Glyph—مفتاحك إلى الطباعة المتقدمة والتمثيل الدقيق للرموز من أجل تنسيق المستندات بسلاسة.
 type: docs
-weight: 6040
+weight: 6870
 url: /ar/net/aspose.words.shaping/glyph/
 ---
 ## Glyph class
 
-يمثل الصورة الرمزية
+يمثل رمزًا
 
 ```csharp
 public class Glyph
@@ -20,23 +20,23 @@ public class Glyph
 
 | اسم | وصف |
 | --- | --- |
-| [Glyph](glyph/)(*int, short, short, short*) | تهيئة المثيل الجديد لهذه الفئة. |
+| [Glyph](glyph/)(*int, short, short, short*) | يقوم بتهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | العرض المتقدم يشير إلى موضع الصورة الرمزية اللاحقة. |
-| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | الإزاحة الأفقية (x) بالنسبة لموضع الحرف الرسومي. تستخدم غالبًا لإرفاق علامات (مثل علامات التشكيل) بالأحرف الأساسية. |
-| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | الإزاحة الرأسية (y) بالنسبة لموضع الحرف الرسومي. تستخدم غالبًا لإرفاق علامات (مثل علامات التشكيل) بالأحرف الأساسية. |
-| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } | فهرس الصورة الرمزية (GID) بالخط الفعلي. |
+| [Advance](../../aspose.words.shaping/glyph/advance/) { get; set; } | عرض متقدم يشير إلى موضع الحرف التالي. |
+| [AdvanceOffset](../../aspose.words.shaping/glyph/advanceoffset/) { get; } | الإزاحة الأفقية (x) بالنسبة لموضع الحرف. تُستخدم في الغالب لربط العلامات (مثل العلامات الإعرابية) بالأحرف الأساسية. |
+| [AscenderOffset](../../aspose.words.shaping/glyph/ascenderoffset/) { get; } | الإزاحة الرأسية (y) بالنسبة لموضع الحرف. تُستخدم في الغالب لربط العلامات (مثل العلامات الإعرابية) بالأحرف الأساسية. |
+| [GlyphIndex](../../aspose.words.shaping/glyph/glyphindex/) { get; } | فهرس الحرف (GID) في الخط المادي. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | إرجاع نسخة من هذا المثيل. |
-| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | إرجاع عرض (مقدمة) الحرف الرسومي بالنقاط. |
+| virtual [Clone](../../aspose.words.shaping/glyph/clone/)() | يعيد نسخة من هذه المثيل. |
+| virtual [GetWidth](../../aspose.words.shaping/glyph/getwidth/)(*int, float*) | يعيد عرض (تقدم) الحرف بالنقاط. |
 
 ### أنظر أيضا
 

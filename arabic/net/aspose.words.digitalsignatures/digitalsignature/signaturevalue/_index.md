@@ -3,14 +3,14 @@ title: DigitalSignature.SignatureValue
 linktitle: SignatureValue
 articleTitle: SignatureValue
 second_title: Aspose.Words لـ .NET
-description: DigitalSignature SignatureValue ملكية. الحصول على مصفوفة من البايتات التي تمثل قيمة التوقيع في C#.
+description: اكتشف خاصية DigitalSignature SignatureValue، التي توفر مصفوفة بايتات لتمثيل آمن للتوقيع. حسّن أمانك الرقمي اليوم!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 ---
 ## DigitalSignature.SignatureValue property
 
-الحصول على مصفوفة من البايتات التي تمثل قيمة التوقيع.
+يحصل على مجموعة من البايتات التي تمثل قيمة التوقيع.
 
 ```csharp
 public byte[] SignatureValue { get; }
@@ -18,7 +18,7 @@ public byte[] SignatureValue { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على قيمة توقيع رقمي من مستند موقع رقميًا.
+يوضح كيفية الحصول على قيمة التوقيع الرقمي من مستند موقّع رقميًا.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

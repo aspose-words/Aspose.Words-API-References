@@ -3,9 +3,9 @@ title: FieldFileSize Class
 linktitle: FieldFileSize
 articleTitle: FieldFileSize
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldFileSize فصل. ينفذ حقل FILESIZE في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldFileSize لتنفيذ الحقل FILESIZE بسهولة، مما يعزز إدارة المستندات بسهولة.
 type: docs
-weight: 1880
+weight: 2290
 url: /ar/net/aspose.words.fields/fieldfilesize/
 ---
 ## FieldFileSize class
@@ -28,35 +28,35 @@ public class FieldFileSize : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsInKilobytes](../../aspose.words.fields/fieldfilesize/isinkilobytes/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم عرض حجم الملف بالكيلوبايت. |
-| [IsInMegabytes](../../aspose.words.fields/fieldfilesize/isinmegabytes/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم عرض حجم الملف بالميجابايت. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsInKilobytes](../../aspose.words.fields/fieldfilesize/isinkilobytes/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم عرض حجم الملف بالكيلوبايت. |
+| [IsInMegabytes](../../aspose.words.fields/fieldfilesize/isinmegabytes/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم عرض حجم الملف بالميجابايت. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
 استرداد حجم ملف المستند الحالي أو 0 إذا لم يكن من الممكن تحديد الحجم.
 
-في التنفيذ الحالي، يستخدم[`OriginalFileName`](../../aspose.words/document/originalfilename/) الخاصية لاسترداد اسم الملف المستخدم لتحديد حجم الملف.
+في التنفيذ الحالي، يستخدم[`OriginalFileName`](../../aspose.words/document/originalfilename/) الخاصية لاسترجاع اسم الملف المستخدم لتحديد حجم الملف.
 
 ## أمثلة
 
@@ -72,15 +72,15 @@ builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
 // فيما يلي ثلاث وحدات قياس مختلفة
-// التي يمكن لحقول FILESIZE من خلالها عرض حجم ملف المستند.
-// 1 - البايتات:
+// حيث يمكن لحقول FILESIZE عرض حجم ملف المستند.
+// 1 - بايت:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
 
 Assert.AreEqual(" FILESIZE ", field.GetFieldCode());
 Assert.AreEqual("18105", field.Result);
 
-// 2 - كيلو بايت:
+// 2 - كيلوبايت:
 builder.InsertParagraph();
 field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.IsInKilobytes = true;
@@ -89,7 +89,7 @@ field.Update();
 Assert.AreEqual(" FILESIZE  \\k", field.GetFieldCode());
 Assert.AreEqual("18", field.Result);
 
-// 3 - ميغابايت:
+// 3 - ميغا بايت:
 builder.InsertParagraph();
 field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.IsInMegabytes = true;

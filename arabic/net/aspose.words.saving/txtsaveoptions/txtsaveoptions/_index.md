@@ -3,7 +3,7 @@ title: TxtSaveOptions
 linktitle: TxtSaveOptions
 articleTitle: TxtSaveOptions
 second_title: Aspose.Words لـ .NET
-description: TxtSaveOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ TxtSaveOptions لحفظ الملفات بسلاسة. استفد من المُنشئ الافتراضي لإدارة بيانات فعّالة وتحسين الأداء.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/txtsaveoptions/txtsaveoptions/

@@ -3,14 +3,14 @@ title: TextOrientation Enum
 linktitle: TextOrientation
 articleTitle: TextOrientation
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.TextOrientation تعداد. يحدد اتجاه النص على الصفحة في خلية جدول أو إطار نص في C#.
+description: اكتشف Aspose.Words.TextOrientation enum للتحكم بسهولة في محاذاة النص في خلايا الجدول وإطارات النص، مما يعزز عرض المستند وقابليته للقراءة.
 type: docs
-weight: 6430
+weight: 7280
 url: /ar/net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration
 
-يحدد اتجاه النص على الصفحة، في خلية جدول أو إطار نص.
+يحدد اتجاه النص على الصفحة أو في خلية جدول أو إطار نص.
 
 ```csharp
 public enum TextOrientation
@@ -20,16 +20,16 @@ public enum TextOrientation
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Horizontal | `0` | النص مرتب أفقيا (lr-tb). |
-| Downward | `1` | يتم تدوير النص بمقدار 90 درجة إلى اليمين ليظهر من أعلى إلى أسفل (tb-rl). |
+| Horizontal | `0` | تم ترتيب النص أفقيًا (lr-tb). |
+| Downward | `1` | يتم تدوير النص بمقدار 90 درجة إلى اليمين ليظهر من الأعلى إلى الأسفل (tb-rl). |
 | Upward | `3` | يتم تدوير النص بمقدار 90 درجة إلى اليسار ليظهر من الأسفل إلى الأعلى (bt-lr). |
-| HorizontalRotatedFarEast | `4` | تم ترتيب النص أفقيًا، ولكن يتم تدوير أحرف الشرق الأقصى بمقدار 90 درجة إلى اليسار (lr-tb-v). |
-| VerticalFarEast | `5` | تظهر أحرف الشرق الأقصى رأسيًا، ويتم تدوير النصوص الأخرى بمقدار 90 درجة إلى اليمين لتظهر من أعلى إلى أسفل (tb-rl-v). |
-| VerticalRotatedFarEast | `7` | تظهر أحرف الشرق الأقصى رأسيًا، ويتم تدوير النصوص الأخرى بمقدار 90 درجة إلى اليمين لتظهر من أعلى إلى أسفل عموديًا، ثم من اليسار إلى اليمين أفقيًا (tb-lr-v). |
+| HorizontalRotatedFarEast | `4` | يتم ترتيب النص أفقيًا، ولكن يتم تدوير أحرف الشرق الأقصى بمقدار 90 درجة إلى اليسار (lr-tb-v). |
+| VerticalFarEast | `5` | تظهر أحرف الشرق الأقصى بشكل عمودي، ويتم تدوير النص الآخر بمقدار 90 درجة إلى اليمين لتظهر من أعلى إلى أسفل (tb-rl-v). |
+| VerticalRotatedFarEast | `7` | تظهر أحرف الشرق الأقصى بشكل عمودي، ويتم تدوير النص الآخر بمقدار 90 درجة إلى اليمين لتظهر من أعلى إلى أسفل عموديًا، ثم من اليسار إلى اليمين أفقيًا (tb-lr-v). |
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول منسق 2x2.
+يوضح كيفية إنشاء جدول 2x2 منسق.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
-// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيقوم منشئ المستند بتطبيق قيم خصائص RowFormat/CellFormat الحالية
+// إلى الصف/الخلية الحالية التي يتواجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 

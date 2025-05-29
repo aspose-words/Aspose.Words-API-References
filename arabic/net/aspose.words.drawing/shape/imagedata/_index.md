@@ -3,14 +3,14 @@ title: Shape.ImageData
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words لـ .NET
-description: Shape ImageData ملكية. يوفر الوصول إلى صورة الشكل. إرجاعباطل إذا كان الشكل لا يمكن أن يحتوي على صورة في C#.
+description: الوصول إلى صور الأشكال وإدارتها بسهولة باستخدام خاصية Shape ImageData. احصل على نتائج فورية، أو لا شيء إذا لم يكن ذلك مناسبًا. حسّن سير عملك التصميمي!
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/aspose.words.drawing/shape/imagedata/
 ---
 ## Shape.ImageData property
 
-يوفر الوصول إلى صورة الشكل. إرجاع`باطل` إذا كان الشكل لا يمكن أن يحتوي على صورة.
+يوفر الوصول إلى صورة الشكل. يعود`باطل` إذا لم يكن من الممكن أن يحتوي الشكل على صورة.
 
 ```csharp
 public ImageData ImageData { get; }
@@ -23,8 +23,8 @@ public ImageData ImageData { get; }
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// احصل على مجموعة الأشكال من المستند،
-// وحفظ بيانات الصورة لكل شكل مع صورة كملف في نظام الملفات المحلي.
+// الحصول على مجموعة الأشكال من المستند،
+// وحفظ بيانات الصورة لكل شكل مع الصورة كملف في نظام الملفات المحلي.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -34,8 +34,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // قد تحتوي بيانات صورة الأشكال على صور للعديد من تنسيقات الصور الممكنة.
-        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، بناءً على تنسيقها.
+         // قد تحتوي بيانات الصورة الخاصة بالأشكال على صور بتنسيقات صور متعددة محتملة.
+        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، استنادًا إلى تنسيقها.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -52,8 +52,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// فيما يلي طريقتان لتطبيق صورة على شكل حتى يتمكن من عرضها.
-// 1 - قم بتعيين الشكل الذي يحتوي على الصورة.
+// فيما يلي طريقتان لتطبيق صورة على شكل حتى يمكن عرضها.
+// 1 - اضبط الشكل لاحتواء الصورة.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -62,7 +62,7 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// كل صورة نخزنها في شكلها ستزيد من حجم وثيقتنا.
+// كل صورة نقوم بتخزينها بالشكل المناسب سوف تؤدي إلى زيادة حجم مستندنا.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
@@ -75,9 +75,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// سيؤدي الارتباط بالصور إلى توفير المساحة وينتج عنه مستند أصغر.
-// ومع ذلك، يمكن للمستند عرض الصورة بشكل صحيح فقط while
-// ملف الصورة موجود في الموقع الذي تشير إليه خاصية "SourceFullName" الخاصة بالشكل.
+// سيؤدي ربط الصور إلى توفير المساحة وسيؤدي إلى مستند أصغر حجمًا.
+// ومع ذلك، لا يمكن للمستند عرض الصورة بشكل صحيح إلا أثناء
+// ملف الصورة موجود في الموقع الذي يشير إليه خاصية "SourceFullName" الخاصة بالشكل.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

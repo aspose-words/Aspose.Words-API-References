@@ -3,14 +3,14 @@ title: FieldAutoTextList.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words لـ .NET
-description: FieldAutoTextList EntryName ملكية. الحصول على اسم إدخال النص التلقائي أو تعيينه في C#.
+description: اكتشف كيفية إدارة إدخالات النص التلقائي باستخدام خاصية EntryName في FieldAutoTextList—قم بتعيين الأسماء أو استردادها بسهولة لتحرير المستندات بشكل مبسط.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldautotextlist/entryname/
 ---
 ## FieldAutoTextList.EntryName property
 
-الحصول على اسم إدخال النص التلقائي أو تعيينه.
+يحصل على اسم إدخال النص التلقائي أو يعينه.
 
 ```csharp
 public string EntryName { get; set; }
@@ -25,7 +25,7 @@ public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // قم بإنشاء مستند معجم وقم بتعبئته بإدخالات نصية تلقائية.
+    // قم بإنشاء مستند مسرد وقم بملئه بإدخالات نصية تلقائية.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -33,8 +33,8 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أنشئ حقل قائمة نصوص تلقائية وقم بتعيين النص الذي سيعرضه الحقل في Microsoft Word.
-    // قم بتعيين النص لمطالبة المستخدم بالنقر بزر الماوس الأيمن فوق هذا الحقل لتحديد كتلة إنشاء النص التلقائي،
+    // قم بإنشاء حقل AUTOTEXTLIST وحدد النص الذي سيعرضه الحقل في Microsoft Word.
+    // تعيين النص ليطلب من المستخدم النقر بزر الماوس الأيمن على هذا الحقل لتحديد كتلة بناء النص التلقائي،
     // الذي سيتم عرض محتوياته في الحقل.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// قم بإنشاء كتلة إنشاء من نوع النص التلقائي وأضفها إلى مستند المسرد.
+/// قم بإنشاء كتلة بناء من نوع النص التلقائي وأضفها إلى مستند المصطلحات.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

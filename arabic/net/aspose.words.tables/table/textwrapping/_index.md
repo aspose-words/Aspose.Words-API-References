@@ -3,14 +3,14 @@ title: Table.TextWrapping
 linktitle: TextWrapping
 articleTitle: TextWrapping
 second_title: Aspose.Words لـ .NET
-description: Table TextWrapping ملكية. يحصل على أو مجموعاتTextWrapping للجدول في C#.
+description: اكتشف خاصية "التفاف النص في الجدول" لإدارة تدفق النص بسهولة في جداولك. حسّن سهولة القراءة والتصميم مع خيارات نص مرنة!
 type: docs
 weight: 310
 url: /ar/net/aspose.words.tables/table/textwrapping/
 ---
 ## Table.TextWrapping property
 
-يحصل على أو مجموعات`TextWrapping` للجدول.
+يحصل أو يعين`TextWrapping` للجدول.
 
 ```csharp
 public TextWrapping TextWrapping { get; set; }
@@ -35,8 +35,8 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 builder.Font.Size = 16;
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-// قم بتعيين خاصية "TextWrapping" على "TextWrapping.Around" لجعل الجدول يلتف النص حوله،
-// وادفعه للأسفل إلى الفقرة أدناه عن طريق تحديد الموضع.
+// قم بتعيين خاصية "TextWrapping" إلى "TextWrapping.Around" لجعل الجدول يلتف حول النص،
+// ثم ادفعه إلى الأسفل في الفقرة أدناه عن طريق تعيين الموضع.
 table.TextWrapping = TextWrapping.Around;
 table.AbsoluteHorizontalDistance = 100;
 table.AbsoluteVerticalDistance = 20;

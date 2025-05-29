@@ -3,14 +3,14 @@ title: CustomXmlPropertyCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words لـ .NET
-description: CustomXmlPropertyCollection RemoveAt طريقة. إزالة خاصية في الفهرس المحدد في C#.
+description: قم بإدارة CustomXmlPropertyCollection بسهولة باستخدام طريقة RemoveAt—قم بإزالة الخصائص بسرعة حسب الفهرس للتعامل مع البيانات بشكل مبسط.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.markup/customxmlpropertycollection/removeat/
 ---
 ## CustomXmlPropertyCollection.RemoveAt method
 
-إزالة خاصية في الفهرس المحدد.
+يزيل خاصية عند الفهرس المحدد.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,26 +18,26 @@ public void RemoveAt(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | المؤشر القائم على الصفر. |
+| index | Int32 | المؤشر المبني على الصفر. |
 
 ## أمثلة
 
-يوضح كيفية التعامل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
+يوضح كيفية العمل مع خصائص العلامات الذكية للحصول على معلومات متعمقة حول العلامات الذكية.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// العلامة الذكية التي تظهر في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كشكل من أشكال البيانات،
-// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض تسطيرًا منقطًا أرجوانيًا.
-// في Word 2003، يمكننا تمكين العلامات الذكية عبر "الأدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
-// في مستند الإدخال لدينا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
-// قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد.
+// تظهر علامة ذكية في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كنوع من البيانات،
+// مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض خطًا منقطًا باللون الأرجواني.
+// في Word 2003، يمكننا تمكين العلامات الذكية عبر "أدوات" -> "خيارات التصحيح التلقائي..." -> "العلامات الذكية".
+// في مستند الإدخال الخاص بنا، هناك ثلاثة كائنات سجلها Microsoft Word كعلامات ذكية.
+//قد تكون العلامات الذكية متداخلة، لذا تحتوي هذه المجموعة على المزيد منها.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// يحتوي عضو "الخصائص" في العلامة الذكية على بيانات التعريف الخاصة به، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
-// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم الخاص بها.
+// يحتوي عنصر "الخصائص" في العلامة الذكية على بياناتها الوصفية، والتي ستكون مختلفة لكل نوع من أنواع العلامات الذكية.
+// تحتوي خصائص العلامة الذكية من نوع "التاريخ" على السنة والشهر واليوم.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -51,7 +51,7 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
+//يمكننا أيضًا الوصول إلى الخصائص بطرق مختلفة، مثل زوج المفتاح والقيمة.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
@@ -63,7 +63,7 @@ properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);
 
-// 2 - الإزالة بالاسم:
+// 2 - إزالة حسب الاسم:
 properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);

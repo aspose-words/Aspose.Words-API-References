@@ -3,14 +3,14 @@ title: CellFormat.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words لـ .NET
-description: CellFormat Width ملكية. الحصول على عرض الخلية بالنقاط في C#.
+description: اكتشف خاصية CellFormat Width لقياس عرض الخلية بالنقاط بسهولة، مما يعزز تخطيط جدول البيانات لديك وقابليته للقراءة.
 type: docs
-weight: 130
+weight: 140
 url: /ar/net/aspose.words.tables/cellformat/width/
 ---
 ## CellFormat.Width property
 
-الحصول على عرض الخلية بالنقاط.
+يحصل على عرض الخلية بالنقاط.
 
 ```csharp
 public double Width { get; set; }
@@ -18,13 +18,13 @@ public double Width { get; set; }
 
 ## ملاحظات
 
-يتم حساب العرض بواسطة Aspose.Words عند تحميل المستندات وحفظها. حاليًا، لا يتم دعم كل مجموعة من خصائص الجدول والخلية والمستند. قد لا تكون القيمة التي تم إرجاعها دقيقة لبعض المستندات. قد لا تتطابق تمامًا مع عرض الخلية كما تم حسابه بواسطة MS Word عند فتح المستند في MS Word.
+يتم حساب العرض بواسطة Aspose.Words عند تحميل المستند وحفظه. حاليًا، لا يتم دعم كل مجموعة من خصائص الجدول والخلية والمستند. قد لا تكون القيمة المرتجعة دقيقة لبعض المستندات. قد لا تتطابق تمامًا مع عرض الخلية كما تم حسابه بواسطة MS Word عند فتح المستند في MS Word.
 
-لا يوصى بتعيين هذه الخاصية. ليس هناك ما يضمن أن الخلية سيكون لها بالفعل العرض المحدد. قد يتم ضبط العرض لاستيعاب محتويات الخلية في تخطيط جدول الاحتواء التلقائي. قد يكون للخلايا الموجودة في الصفوف الأخرى عرض متعارض settings. قد يتم تغيير حجم الجدول ليناسب الحاوية أو ليتوافق مع إعدادات عرض الجدول. فكر في استخدام[`PreferredWidth`](../preferredwidth/) لتعيين عرض الخلية. تحديد مجموعات الخصائص هذه[`PreferredWidth`](../preferredwidth/)ضمنيًا منذ الإصدار 15.8.
+لا يُنصح بتعيين هذه الخاصية. لا يوجد ضمان بأن الخلية ستحتوي بالفعل على العرض المحدد. قد يتم تعديل العرض لاستيعاب محتويات الخلية في تخطيط جدول ملائم تلقائيًا. قد تحتوي الخلايا الموجودة في صفوف أخرى على إعدادات عرض متعارضة. قد يتم تغيير حجم الجدول ليتناسب مع الحاوية أو لتلبية إعدادات عرض الجدول. فكر في استخدام[`PreferredWidth`](../preferredwidth/)لتعيين عرض الخلية. يؤدي تعيين هذه الخاصية إلى تعيين[`PreferredWidth`](../preferredwidth/) ضمنيًا منذ الإصدار 15.8.
 
 ## أمثلة
 
-يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
+يوضح كيفية تنسيق الخلايا باستخدام منشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// أدخل خلية ثانية، ثم قم بتكوين خيارات حشو نص الخلية.
-// سيقوم المنشئ بتطبيق هذه الإعدادات في خليته الحالية، وسيتم إنشاء أي خلايا جديدة بعد ذلك.
+// أدخل خلية ثانية، ثم قم بتكوين خيارات تعبئة نص الخلية.
+// سيقوم المنشئ بتطبيق هذه الإعدادات في الخلية الحالية، وأي خلايا جديدة يتم إنشاؤها بعد ذلك.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -62,7 +62,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// ستستمر الخلية الأولى في النمو في مستند الإخراج لتتناسب مع حجم الخلية المجاورة لها.
+// ستظل الخلية الأولى تنمو في مستند الإخراج لتتناسب مع حجم الخلية المجاورة لها.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
@@ -74,7 +74,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+//إعداد خيارات تنسيق الجدول لمنشئ المستندات
 // سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -99,8 +99,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
-// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
-// لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
+//وأي خلايا جديدة نقوم بإنشائها باستخدام المنشئ بعد ذلك.
+// لن يؤثر هذا على الخلايا التي أضفناها مسبقًا.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -111,7 +111,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// زيادة ارتفاع الصف ليناسب النص الرأسي.
+// زيادة ارتفاع الصف ليتناسب مع النص الرأسي.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

@@ -3,14 +3,14 @@ title: PdfLoadOptions.SkipPdfImages
 linktitle: SkipPdfImages
 articleTitle: SkipPdfImages
 second_title: Aspose.Words لـ .NET
-description: PdfLoadOptions SkipPdfImages ملكية. الحصول على أو تعيين العلامة التي تشير إلى ما إذا كان يجب تخطي الصور أثناء تحميل مستند PDF. الافتراضي هوخطأ شنيع  في C#.
+description: اكتشف خاصية SkipPdfImages في PdfLoadOptions للتحكم في تحميل الصور في ملفات PDF. حسّن الأداء بتخطي الصور لمعالجة أسرع للمستندات.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-الحصول على أو تعيين العلامة التي تشير إلى ما إذا كان يجب تخطي الصور أثناء تحميل مستند PDF. الافتراضي هو`خطأ شنيع` .
+يحصل على أو يضبط العلامة التي تشير إلى ضرورة تخطي الصور أثناء تحميل مستند PDF. الإعداد الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool SkipPdfImages { get; set; }
@@ -23,18 +23,16 @@ public bool SkipPdfImages { get; set; }
 ```csharp
 PdfLoadOptions options = new PdfLoadOptions();
 options.SkipPdfImages = isSkipPdfImages;
+options.PageIndex = 0;
+options.PageCount = 1;
 
 Document doc = new Document(MyDir + "Images.pdf", options);
 NodeCollection shapeCollection = doc.GetChildNodes(NodeType.Shape, true);
 
 if (isSkipPdfImages)
-{
     Assert.AreEqual(shapeCollection.Count, 0);
-}
 else
-{
     Assert.AreNotEqual(shapeCollection.Count, 0);
-}
 ```
 
 ### أنظر أيضا

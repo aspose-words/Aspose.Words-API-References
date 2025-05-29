@@ -3,14 +3,14 @@ title: IFontSavingCallback.FontSaving
 linktitle: FontSaving
 articleTitle: FontSaving
 second_title: Aspose.Words لـ .NET
-description: IFontSavingCallback FontSaving طريقة. يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ مورد الخط في C#.
+description: اكتشف طريقة iFontSavingCallback في Aspose.Words، المصممة لتحسين حفظ موارد الخطوط لتحسين أداء المستندات.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/ifontsavingcallback/fontsaving/
 ---
 ## IFontSavingCallback.FontSaving method
 
-يتم استدعاؤه عندما يكون Aspose.Words على وشك حفظ مورد الخط.
+يتم استدعاؤها عندما يكون Aspose.Words على وشك حفظ مورد الخط.
 
 ```csharp
 public void FontSaving(FontSavingArgs args)
@@ -18,22 +18,22 @@ public void FontSaving(FontSavingArgs args)
 
 ## أمثلة
 
-يوضح كيفية تحديد المنطق المخصص لتصدير الخطوط عند الحفظ إلى HTML.
+يوضح كيفية تحديد منطق مخصص لتصدير الخطوط عند الحفظ في HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // تكوين كائن SaveOptions لتصدير الخطوط إلى ملفات منفصلة.
-    // قم بتعيين رد اتصال يتعامل مع حفظ الخط بطريقة مخصصة.
+    // قم بتكوين كائن SaveOptions لتصدير الخطوط إلى ملفات منفصلة.
+    // قم بتعيين معاودة الاتصال التي ستتعامل مع حفظ الخط بطريقة مخصصة.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // سيقوم رد الاتصال بتصدير ملفات .ttf وحفظها بجانب المستند الناتج.
+    // ستقوم وظيفة معاودة الاتصال بتصدير ملفات .ttf وحفظها إلى جانب مستند الإخراج.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// يطبع معلومات حول الخطوط المصدرة ويحفظها في نفس مجلد النظام المحلي مثل مخرجاتها .html.
+/// يطبع معلومات حول الخطوط المصدرة ويحفظها في نفس مجلد النظام المحلي مثل ملف .html الناتج عنها.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -55,7 +55,7 @@ public class HandleFontSaving : IFontSavingCallback
         if (args.Italic) Console.Write(", italic");
         Console.WriteLine($"\nSource:\t{args.OriginalFileName}, {args.OriginalFileSize} bytes\n");
 
-        // يمكننا أيضًا الوصول إلى المستند المصدر من هنا.
+        //يمكننا أيضًا الوصول إلى المستند المصدر من هنا.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         Assert.True(args.IsExportNeeded);
@@ -65,7 +65,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 - احفظه في موقع نظام الملفات المحلي:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - احفظه في الدفق:
+        // 2 - احفظه في مجرى:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

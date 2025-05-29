@@ -3,14 +3,14 @@ title: FieldRef.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words لـ .NET
-description: FieldRef BookmarkName ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه في C#.
+description: اكتشف خاصية FieldRef BookmarkName لإدارة وتخصيص إشاراتك المرجعية بسهولة. حسّن تصفح مستنداتك بسهولة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldref/bookmarkname/
 ---
 ## FieldRef.BookmarkName property
 
-الحصول على اسم الإشارة المرجعية أو تعيينه.
+يحصل على اسم الإشارة المرجعية أو يعينه.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -18,14 +18,14 @@ public string BookmarkName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء نص ذو إشارة مرجعية باستخدام حقل SET، ثم عرضه في المستند باستخدام حقل REF.
+يوضح كيفية إنشاء نص مرجعي باستخدام حقل SET، ثم عرضه في المستند باستخدام حقل REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // قم بتسمية النص الذي تم وضع إشارة مرجعية عليه بحقل SET.
-// يشير هذا الحقل إلى "الإشارة المرجعية" وليس إلى بنية الإشارة المرجعية التي تظهر داخل النص، ولكنه يشير إلى متغير مسمى.
+ // قم بتسمية النص المضاف إليه إشارة مرجعية باستخدام حقل SET.
+// يشير هذا الحقل إلى "الإشارة المرجعية" وليس إلى بنية الإشارة المرجعية التي تظهر داخل النص، بل إلى متغير مسمى.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -33,7 +33,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// ارجع إلى الإشارة المرجعية بالاسم في حقل REF واعرض محتوياتها.
+// قم بالإشارة إلى الإشارة المرجعية بالاسم في حقل REF وعرض محتوياتها.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();
@@ -59,41 +59,41 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // سوف نقوم بتطبيق تنسيق قائمة مخصص، حيث يشير مقدار الأقواس الزاوية إلى مستوى القائمة الذي نحن فيه حاليًا.
+    // سوف نطبق تنسيق قائمة مخصص، حيث يشير عدد الأقواس الزاوية إلى مستوى القائمة الذي نحن فيه حاليًا.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // أدخل حقل REF الذي سيحتوي على النص الموجود داخل الإشارة المرجعية الخاصة بنا، وسيكون بمثابة رابط تشعبي، واستنساخ الحواشي السفلية للإشارة المرجعية.
+    // قم بإدراج حقل REF الذي سيحتوي على النص الموجود داخل الإشارة المرجعية لدينا، وسيعمل كارتباط تشعبي، ويستنسخ حواشي الإشارة المرجعية.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // أدخل حقل REF، واعرض ما إذا كانت الإشارة المرجعية أعلى أو أسفل منه.
+    // أدخل حقل REF، واعرض ما إذا كانت الإشارة المرجعية أعلى أو أسفله.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
     Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
 
-    // اعرض رقم قائمة الإشارة المرجعية كما يظهر في المستند.
+    // عرض رقم قائمة الإشارة المرجعية كما يظهر في المستند.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // عرض رقم قائمة الإشارة المرجعية، ولكن مع حذف الأحرف غير المحددة، مثل الأقواس الزاوية.
+    // عرض رقم قائمة الإشارة المرجعية، ولكن مع حذف الأحرف غير الفاصلة، مثل الأقواس الزاوية.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // تحرك لأسفل مستوى القائمة بمقدار مستوى واحد.
+    //الانتقال إلى أسفل مستوى واحد في القائمة.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // عرض رقم قائمة الإشارة المرجعية وأرقام جميع مستويات القائمة فوقها.
+    // عرض رقم قائمة الإشارة المرجعية وأرقام جميع مستويات القائمة الموجودة أعلى منها.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -117,7 +117,7 @@ public void FieldRef()
 }
 
 /// <summary>
-/// اطلب من منشئ المستندات إدراج حقل REF، والإشارة إلى إشارة مرجعية به، وإضافة نص قبله وبعده.
+/// احصل على منشئ المستندات لإدراج حقل REF، والإشارة إلى إشارة مرجعية به، وإضافة نص قبله وبعده.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

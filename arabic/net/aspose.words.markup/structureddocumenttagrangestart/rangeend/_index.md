@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RangeEnd
 linktitle: RangeEnd
 articleTitle: RangeEnd
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart RangeEnd ملكية. يحدد نهاية النطاق إذا كانStructuredDocumentTag هي علامة مستند منظمة ذات نطاق محدد. وإلا يعودباطل  في C#.
+description: استكشف خصائص StructuredDocumentTagRangeStart وRangeEnd لتحديد حدود علامات المستند، مما يعزز إدارة المستندات المنظمة لديك.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-يحدد نهاية النطاق إذا كان[`StructuredDocumentTag`](../../structureddocumenttag/) هي علامة مستند منظمة ذات نطاق محدد. وإلا يعود`باطل` .
+يحدد نهاية النطاق إذا كان[`StructuredDocumentTag`](../../structureddocumenttag/) هي علامة مستند منظمة ومحددة النطاق. وإلا فإنها ترجع`باطل` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
@@ -18,7 +18,7 @@ public StructuredDocumentTagRangeEnd RangeEnd { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

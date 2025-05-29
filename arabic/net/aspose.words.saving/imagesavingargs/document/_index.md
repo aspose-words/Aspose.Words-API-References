@@ -3,14 +3,14 @@ title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: ImageSavingArgs Document ملكية. الحصول على كائن المستند الذي يتم حفظه حاليًا في C#.
+description: اكتشف خاصية ImageSavingArgs Document للوصول إلى المستند الحالي الذي يتم حفظه، مما يعزز كفاءة سير العمل لديك ويوفر الوقت.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/imagesavingargs/document/
 ---
 ## ImageSavingArgs.Document property
 
-الحصول على كائن المستند الذي يتم حفظه حاليًا.
+يحصل على كائن المستند الذي يتم حفظه حاليًا.
 
 ```csharp
 public Document Document { get; }
@@ -18,14 +18,14 @@ public Document Document { get; }
 
 ## أمثلة
 
-يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
+يوضح كيفية إشراك استدعاء حفظ الصورة في عملية تحويل HTML.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لتعيين رد اتصال
+    // عندما نحفظ المستند في HTML، يمكننا تمرير كائن SaveOptions لتعيين معاودة الاتصال
     // لتخصيص عملية حفظ الصورة.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -34,8 +34,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// يطبع خصائص كل صورة بينما تقوم عملية الحفظ بحفظها في ملف صورة في نظام الملفات المحلي
-/// أثناء تصدير مستند إلى HTML.
+/// طباعة خصائص كل صورة أثناء عملية الحفظ التي تحفظها في ملف صورة في نظام الملفات المحلي
+/// أثناء تصدير المستند إلى HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

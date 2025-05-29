@@ -3,14 +3,14 @@ title: KnownTypeSet.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words لـ .NET
-description: KnownTypeSet Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
+description: اكتشف طريقة KnownTypeSet Clear لإزالة جميع العناصر من مجموعتك بسهولة، مما يعزز كفاءة إدارة البيانات لديك.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.reporting/knowntypeset/clear/
 ---
 ## KnownTypeSet.Clear method
 
-إزالة كافة العناصر من المجموعة.
+يزيل جميع العناصر من المجموعة.
 
 ```csharp
 public void Clear()

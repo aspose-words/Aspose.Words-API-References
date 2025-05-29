@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
+description: اكتشف طريقة StructuredDocumentTagCollection GetEnumerator للوصول بسهولة إلى كائنات المعداد، مما يعزز كفاءة إدارة المستندات لديك.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/getenumerator/
 ---
 ## StructuredDocumentTagCollection.GetEnumerator method
 
-يُرجع كائن العداد.
+يعيد كائن المعداد.
 
 ```csharp
 public IEnumerator<IStructuredDocumentTag> GetEnumerator()

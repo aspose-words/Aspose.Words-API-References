@@ -3,9 +3,9 @@ title: OoxmlSaveOptions.KeepLegacyControlChars
 linktitle: KeepLegacyControlChars
 articleTitle: KeepLegacyControlChars
 second_title: Aspose.Words لـ .NET
-description: OoxmlSaveOptions KeepLegacyControlChars ملكية. يحتفظ بالتمثيل الأصلي لأحرف التحكم القديمة في C#.
+description: اكتشف خاصية KeepLegacyControlChars في OoxmlSaveOptions للحفاظ على التنسيق الأصلي لأحرف التحكم القديمة لتحويل المستندات بسلاسة.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions.KeepLegacyControlChars property
@@ -24,11 +24,11 @@ public bool KeepLegacyControlChars { get; set; }
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // عندما نحفظ المستند بتنسيق OOXML، يمكننا إنشاء كائن OoxmlSaveOptions
-// ثم قم بتمريره إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
-// اضبط خاصية "KeepLegacyControlChars" على "صحيح" للمحافظة عليها
-// الحرف القديم "ShortDateTime" أثناء الحفظ.
-// اضبط خاصية "KeepLegacyControlChars" على "خطأ" لإزالتها
-// الحرف القديم "ShortDateTime" من مستند الإخراج.
+// ثم قم بتمريرها إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
+// اضبط خاصية "KeepLegacyControlChars" على "true" للحفاظ عليها
+// حرف "ShortDateTime" القديم أثناء الحفظ.
+// اضبط خاصية "KeepLegacyControlChars" على "false" لإزالة
+// حرف "ShortDateTime" القديم من المستند الناتج.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

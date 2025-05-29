@@ -3,14 +3,14 @@ title: FieldSymbol Class
 linktitle: FieldSymbol
 articleTitle: FieldSymbol
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldSymbol فصل. ينفذ حقل SYMBOL في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldSymbol لتنفيذ حقل SYMBOL بكفاءة، مما يعزز قدرات معالجة المستندات لديك.
 type: docs
-weight: 2460
+weight: 2870
 url: /ar/net/aspose.words.fields/fieldsymbol/
 ---
 ## FieldSymbol class
 
-ينفذ حقل SYMBOL.
+ينفذ حقل الرمز.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
@@ -28,38 +28,38 @@ public class FieldSymbol : Field
 
 | اسم | وصف |
 | --- | --- |
-| [CharacterCode](../../aspose.words.fields/fieldsymbol/charactercode/) { get; set; } | الحصول على قيمة نقطة رمز الحرف أو تعيينها بالنظام العشري أو الست عشري. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
-| [DontAffectsLineSpacing](../../aspose.words.fields/fieldsymbol/dontaffectslinespacing/) { get; set; } | الحصول على أو تعيين ما إذا كان الحرف الذي يتم استرداده بواسطة الحقل يؤثر على تباعد الأسطر في الفقرة. |
+| [CharacterCode](../../aspose.words.fields/fieldsymbol/charactercode/) { get; set; } | يحصل على قيمة نقطة رمز الحرف أو يعينها بالنظام العشري أو السداسي عشر. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
+| [DontAffectsLineSpacing](../../aspose.words.fields/fieldsymbol/dontaffectslinespacing/) { get; set; } | يحصل على أو يعين ما إذا كان الحرف الذي تم استرداده بواسطة الحقل يؤثر على تباعد أسطر الفقرة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [FontName](../../aspose.words.fields/fieldsymbol/fontname/) { get; set; } | الحصول على أو تعيين اسم خط الحرف الذي تم استرداده بواسطة الحقل. |
-| [FontSize](../../aspose.words.fields/fieldsymbol/fontsize/) { get; set; } | الحصول على أو تعيين الحجم بنقاط خط الحرف الذي تم استرداده بواسطة الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsAnsi](../../aspose.words.fields/fieldsymbol/isansi/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تفسير رمز الحرف كقيمة حرف ANSI. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [IsShiftJis](../../aspose.words.fields/fieldsymbol/isshiftjis/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تفسير رمز الحرف كقيمة حرف SHIFT-JIS. |
-| [IsUnicode](../../aspose.words.fields/fieldsymbol/isunicode/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تفسير رمز الحرف كقيمة حرف Unicode. |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [FontName](../../aspose.words.fields/fieldsymbol/fontname/) { get; set; } | يحصل على اسم الخط الخاص بالحرف الذي تم استرداده بواسطة الحقل أو يعينه. |
+| [FontSize](../../aspose.words.fields/fieldsymbol/fontsize/) { get; set; } | يحصل على أو يعين حجم الخط بالنقاط للحرف الذي تم استرداده بواسطة الحقل. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsAnsi](../../aspose.words.fields/fieldsymbol/isansi/) { get; set; } | يحصل على أو يحدد ما إذا كان يتم تفسير رمز الحرف كقيمة لحرف ANSI. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [IsShiftJis](../../aspose.words.fields/fieldsymbol/isshiftjis/) { get; set; } | يحصل على أو يحدد ما إذا كان يتم تفسير رمز الحرف كقيمة لحرف SHIFT-JIS. |
+| [IsUnicode](../../aspose.words.fields/fieldsymbol/isunicode/) { get; set; } | يحصل على أو يحدد ما إذا كان يتم تفسير رمز الحرف كقيمة لحرف Unicode. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-استرداد الحرف الذي تم تحديد قيمة نقطة الرمز الخاصة به بالنظام العشري أو الست عشري.
+يسترجع الحرف الذي تم تحديد قيمة نقطة الكود الخاصة به بالنظام العشري أو السداسي عشر.
 
 ## أمثلة
 
@@ -70,10 +70,10 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // فيما يلي ثلاث طرق لاستخدام حقل الرمز لعرض حرف واحد.
-// 1 - أضف حقل SYMBOL الذي يعرض رمز © (حقوق الطبع والنشر)، المحدد بواسطة رمز حرف ANSI:
+// 1 - أضف حقل رمز يعرض رمز © (حقوق الطبع والنشر)، المحدد بواسطة رمز حرف ANSI:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// رمز حرف ANSI "U+00A9"، أو "169" في شكل عدد صحيح، محجوز لرمز حقوق الطبع والنشر.
+// رمز الحرف ANSI "U+00A9"، أو "169" في شكل عدد صحيح، مخصص لرمز حقوق النشر.
 field.CharacterCode = 0x00a9.ToString();
 field.IsAnsi = true;
 
@@ -81,27 +81,27 @@ Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
 
 builder.Writeln(" Line 1");
 
-// 2 - أضف حقل SYMBOL الذي يعرض رمز ∞ (اللانهاية) وتعديل مظهره:
+// 2 - أضف حقل رمز يعرض رمز ∞ (اللانهاية)، وقم بتعديل مظهره:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// في Unicode، يحتل رمز اللانهاية الرمز "221E".
+// في Unicode، يحتل رمز اللانهاية الكود "221E".
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// قم بتغيير خط الرمز الخاص بنا بعد استخدام Windows Character Map
-// للتأكد من أن الخط يمكن أن يمثل هذا الرمز.
+// تغيير خط رمزنا بعد استخدام خريطة أحرف Windows
+// للتأكد من أن الخط يمكنه تمثيل هذا الرمز.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// يمكننا تعيين هذه العلامة للرموز الطويلة حتى لا تدفع بقية النص الموجود على سطرها للأسفل.
+// يمكننا تعيين هذا العلم للرموز الطويلة حتى لا تضغط على بقية النص الموجود على سطرها.
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());
 
 builder.Writeln("Line 2");
 
-// 3 - أضف حقل SYMBOL الذي يعرض الحرف あ،
-// بخط يدعم صفحة الرموز Shift-JIS (Windows-932):
+// 3 - أضف حقل الرمز الذي يعرض الحرف あ،
+// مع الخط الذي يدعم صفحة أكواد Shift-JIS (Windows-932):
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";
 field.CharacterCode = 0x82A0.ToString();

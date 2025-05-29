@@ -3,14 +3,14 @@ title: Node.CustomNodeId
 linktitle: CustomNodeId
 articleTitle: CustomNodeId
 second_title: Aspose.Words لـ .NET
-description: Node CustomNodeId ملكية. يحدد معرف العقدة المخصصة في C#.
+description: اكتشف خاصية Node CustomNodeId لتعريف عقدة مخصصة بكفاءة. حسّن مشروعك بمعرفات فريدة لتحسين التنظيم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/node/customnodeid/
 ---
 ## Node.CustomNodeId property
 
-يحدد معرف العقدة المخصصة.
+يحدد معرف العقدة المخصص.
 
 ```csharp
 public int CustomNodeId { get; set; }
@@ -18,35 +18,35 @@ public int CustomNodeId { get; set; }
 
 ## ملاحظات
 
-الافتراضي هو صفر.
+الإفتراضي هو صفر.
 
-يمكن تعيين هذا المعرف واستخدامه بشكل تعسفي. على سبيل المثال، كمفتاح للحصول على بيانات خارجية.
+يمكن تعيين هذا المُعرِّف واستخدامه بشكل عشوائي. على سبيل المثال، كمفتاح للحصول على بيانات خارجية.
 
-ملاحظة مهمة، لا يتم حفظ القيمة المحددة في ملف الإخراج وتكون موجودة فقط خلال عمر العقدة.
+ملاحظة هامة، القيمة المحددة لا يتم حفظها في ملف الإخراج ولا توجد إلا خلال عمر العقدة.
 
 ## أمثلة
 
-يوضح كيفية اجتياز مجموعة العقد الفرعية للعقدة المركبة.
+يوضح كيفية التنقل عبر مجموعة العقد الفرعية للعقدة المركبة.
 
 ```csharp
 Document doc = new Document();
 
-// أضف مسارين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
+// أضف تشغيلتين وشكلًا واحدًا كعقد فرعية إلى الفقرة الأولى من هذه الوثيقة.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// لاحظ أن "CustomNodeId" لا يتم حفظه في ملف إخراج وهو موجود فقط أثناء عمر العقدة.
+// لاحظ أن 'CustomNodeId' لا يتم حفظه في ملف إخراج ولا يوجد إلا أثناء عمر العقدة.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// كرر من خلال مجموعة الفقرة من العناصر الفرعية المباشرة،
-// وطباعة أي مسارات أو أشكال نجدها داخلها.
+// قم بالتكرار خلال مجموعة الأطفال المباشرين للفقرة،
+// وطباعة أي مسارات أو أشكال نجدها بالداخل.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

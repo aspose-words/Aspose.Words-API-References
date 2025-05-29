@@ -3,14 +3,14 @@ title: OleFormat.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words لـ .NET
-description: OleFormat SourceFullName ملكية. الحصول على أو تعيين مسار واسم الملف المصدر لكائن OLE المرتبط في C#.
+description: اكتشف خاصية OleFormat SourceFullName، وقم بإدارة المسار واسم ملف المصدر الخاص بكائن OLE المرتبط بسهولة لتحقيق التكامل السلس.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing/oleformat/sourcefullname/
 ---
 ## OleFormat.SourceFullName property
 
-الحصول على أو تعيين مسار واسم الملف المصدر لكائن OLE المرتبط.
+يحصل على مسار واسم ملف المصدر لكائن OLE المرتبط أو يعينه.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -20,7 +20,7 @@ public string SourceFullName { get; set; }
 
 القيمة الافتراضية هي سلسلة فارغة.
 
-لو`SourceFullName` ليست سلسلة فارغة، فإن كائن OLE مرتبط.
+لو`SourceFullName` ليس سلسلة فارغة، كائن OLE مرتبط.
 
 ## أمثلة
 
@@ -30,13 +30,13 @@ public string SourceFullName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتضمين رسم Microsoft Visio في المستند ككائن OLE.
+// تضمين رسم Microsoft Visio في المستند ككائن OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// أدخل رابطًا للملف في نظام الملفات المحلي واعرضه كرمز.
+// أدخل رابطًا للملف في نظام الملفات المحلي واعرضه كأيقونة.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// يؤدي إدراج كائنات OLE إلى إنشاء أشكال تخزن هذه الكائنات.
+// يؤدي إدراج كائنات OLE إلى إنشاء أشكال لتخزين هذه الكائنات.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// إذا كان الكائن يحتوي على بيانات OLE، فيمكننا الوصول إليه باستخدام الدفق.
+// إذا كان الكائن يحتوي على بيانات OLE، فيمكننا الوصول إليها باستخدام دفق.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

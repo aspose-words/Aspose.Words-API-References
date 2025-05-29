@@ -3,14 +3,14 @@ title: Row.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: Row Accept طريقة. يقبل الزائر في C#.
+description: اكتشف طريقة قبول الصف، المصممة لتعزيز مشاركة الزائرين وتبسيط تفاعلات المستخدمين لتحقيق نجاح موقع الويب الخاص بك.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.tables/row/accept/
 ---
 ## Row.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,19 +18,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقد. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقد. |
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
+صحيح إذا تمت زيارة جميع العقد؛ خطأ إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) تم إيقاف العملية قبل زيارة كافة العقد.
 
 ## ملاحظات
 
-يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+يُحصي هذه العقدة وجميع أبنائها. تستدعي كل عقدة طريقة مقابلة على[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
-المكالمات[`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع العقد التابعة للقسم والمكالمات[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) في النهاية.
+مكالمات [`VisitRowStart`](../../../aspose.words/documentvisitor/visitrowstart/) ، ثم يدعو[`Accept`](../../../aspose.words/node/accept/) لجميع العقد الفرعية لقسم والمكالمات[`VisitRowEnd`](../../../aspose.words/documentvisitor/visitrowend/) في النهاية.
 
 ## أمثلة
 
@@ -42,17 +42,17 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة تضم جميع عقد الجدول التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد الجدول التي تم مواجهتها وأطفالها.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -68,8 +68,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
-    /// لا يتم تسجيل العمليات التي ليست ضمن الجداول.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
+    /// لن يتم تسجيل عمليات التشغيل التي لا تقع ضمن الجداول.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -79,7 +79,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة جدول في المستند.
+    /// يتم استدعاؤها عند العثور على جدول في المستند.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -100,7 +100,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الجدول.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الجدول.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -112,7 +112,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة صف في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة صف في المستند.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -132,7 +132,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الصف.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الصف.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -143,7 +143,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة الخلية في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة خلية في المستند.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -162,7 +162,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الخلية.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الخلية.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -172,10 +172,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder، ثم ضع مسافة بادئة له اعتمادًا على مدى عمق الزائر
-    /// في شجرة العقد التابعة للجدول الحالي.
+    /// أضف سطرًا إلى StringBuilder، وقم بتدويره حسب عمق الزائر
+    /// في شجرة العقد الفرعية للجدول الحالي.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

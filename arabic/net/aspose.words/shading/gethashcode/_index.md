@@ -3,14 +3,14 @@ title: Shading.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words لـ .NET
-description: Shading GetHashCode طريقة. بمثابة وظيفة تجزئة لهذا النوع في C#.
+description: اكتشف طريقة Shading GetHashCode - التي تولد قيم تجزئة فريدة بكفاءة، مما يعزز سلامة البيانات والأداء في تطبيقاتك.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/shading/gethashcode/
 ---
 ## Shading.GetHashCode method
 
-بمثابة وظيفة تجزئة لهذا النوع.
+يعمل كدالة تجزئة لهذا النوع.
 
 ```csharp
 public override int GetHashCode()

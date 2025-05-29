@@ -3,14 +3,14 @@ title: ReplacingArgs.Match
 linktitle: Match
 articleTitle: Match
 second_title: Aspose.Words لـ .NET
-description: ReplacingArgs Match ملكية. الMatch الناتجة عن تطابق تعبير Regular واحد أثناء aيستبدل  في C#.
+description: اكتشف خاصية ReplacingArgs Match لاستبدالات تعبيرات عادية بسلاسة. حسّن كفاءة ترميزك بنتائج مطابقة دقيقة!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.replacing/replacingargs/match/
 ---
 ## ReplacingArgs.Match property
 
-الMatch الناتجة عن تطابق تعبير Regular واحد أثناء a**يستبدل** .
+الMatch نتيجة لمطابقة تعبير واحد لـ Regular أثناء**يستبدل** .
 
 ```csharp
 public Match Match { get; }
@@ -18,11 +18,11 @@ public Match Match { get; }
 
 ## ملاحظات
 
-**"مطابقة. الفهرس"** يحصل على موضع start القائم على الصفر للمطابقة من بداية نطاق البحث والاستبدال.
+**"مطابقة الفهرس"** يحصل على موضع البداية المستند إلى الصفر للمطابقة من بداية نطاق البحث والاستبدال.
 
 ## أمثلة
 
-يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -34,10 +34,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
+    // قم بتعيين خاصية "HighlightColor" إلى لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -55,8 +55,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// يستبدل مطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية العشرية.
-/// يحتفظ بسجل لكل بديل.
+/// استبدال تطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية عشرية.
+/// يحتفظ بسجل لكل عملية استبدال.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

@@ -3,14 +3,14 @@ title: ShapeMarkupLanguage Enum
 linktitle: ShapeMarkupLanguage
 articleTitle: ShapeMarkupLanguage
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.ShapeMarkupLanguage تعداد. تحديد لغة الترميز المستخدمة للشكل في C#.
+description: اكتشف مجموعة Aspose.Words.Drawing.ShapeMarkupLanguage، التي تحدد لغات ترميز الأشكال لتحسين تنسيق المستندات ومرونة التصميم.
 type: docs
-weight: 1280
+weight: 1670
 url: /ar/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
 
-تحديد لغة الترميز المستخدمة للشكل.
+يحدد لغة الترميز المستخدمة للشكل.
 
 ```csharp
 public enum ShapeMarkupLanguage : byte
@@ -25,22 +25,22 @@ public enum ShapeMarkupLanguage : byte
 
 ## أمثلة
 
-يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام به.
+يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام بها.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // إذا قمنا بتكوين خيارات التوافق لتتوافق مع Microsoft Word 2003،
-// إدراج صورة سيحدد شكلها باستخدام VML.
+// إدراج صورة سيؤدي إلى تحديد شكلها باستخدام VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // لا يدعم معيار OOXML "ISO/IEC 29500:2008" أشكال VML.
-// إذا قمنا بتعيين خاصية "الامتثال" لكائن SaveOptions على "OoxmlCompliance.Iso29500_2008_Strict"،
- // أي مستند نحفظه أثناء تمرير هذا الكائن يجب أن يتبع هذا المعيار.
+// إذا قمنا بتعيين خاصية "التوافق" لكائن SaveOptions إلى "OoxmlCompliance.Iso29500_2008_Strict"،
+ // أي مستند نقوم بحفظه أثناء تمرير هذا الكائن يجب أن يتبع هذا المعيار.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -49,7 +49,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// يحدد مستندنا المحفوظ الشكل باستخدام DML للالتزام بمعيار OOXML "ISO/IEC 29500:2008".
+// تحدد مستندنا المحفوظ الشكل باستخدام DML للالتزام بمعيار OOXML "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

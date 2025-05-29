@@ -3,7 +3,7 @@ title: FieldSymbol
 linktitle: FieldSymbol
 articleTitle: FieldSymbol
 second_title: Aspose.Words لـ .NET
-description: FieldSymbol البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldSymbol - الحل الأمثل لإنشاء رموز ديناميكية بسهولة. تمتع بميزات قوية مع مُنشئنا الافتراضي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldsymbol/fieldsymbol/

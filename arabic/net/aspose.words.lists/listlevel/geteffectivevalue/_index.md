@@ -3,14 +3,14 @@ title: ListLevel.GetEffectiveValue
 linktitle: GetEffectiveValue
 articleTitle: GetEffectiveValue
 second_title: Aspose.Words لـ .NET
-description: ListLevel GetEffectiveValue طريقة. يُبلغ عن تمثيل السلسلة لـListLevelكائن لـ Index المحدد لعنصر القائمة. تحدد المعلماتNumberStyle وتنسيق اختياري string يُستخدم متىCustom تم تحديده في C#.
+description: اكتشف طريقة ListLevel GetEffectiveValue لاسترجاع تمثيلات نصية لعناصر القائمة بسهولة. خصّصها باستخدام خيارات NumberStyle والتنسيق!
 type: docs
 weight: 190
 url: /ar/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-يُبلغ عن تمثيل السلسلة لـ[`ListLevel`](../)كائن لـ Index المحدد لعنصر القائمة. تحدد المعلمات[`NumberStyle`](../../../aspose.words/numberstyle/) وتنسيق اختياري string يُستخدم متىCustom تم تحديده.
+يعرض التمثيل النصي لـ[`ListLevel`](../)كائن لـ index المحدد لعنصر القائمة. تحدد المعلمات[`NumberStyle`](../../../aspose.words/numberstyle/) وتنسيق اختياري string يستخدم عندCustom تم تحديده.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -21,22 +21,22 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 | --- | --- | --- |
 | index | Int32 | فهرس عنصر القائمة (يجب أن يكون في النطاق من 1 إلى 32767). |
 | numberStyle | NumberStyle | ال[`NumberStyle`](../../../aspose.words/numberstyle/) التابع[`ListLevel`](../) الكائن. |
-| customNumberStyleFormat | String | سلسلة التنسيق الاختيارية المستخدمة عندماCustom تم تحديده (على سبيل المثال "a, ç, ĝ, ..."). في حالات أخرى، يجب أن تكون هذه المعلمة`باطل` أو فارغ. |
+| customNumberStyleFormat | String | سلسلة التنسيق الاختيارية المستخدمة عندCustom يتم تحديد (على سبيل المثال "a, ç, ĝ, ..."). في حالات أخرى، يجب أن تكون هذه المعلمة`باطل` أو فارغ. |
 
 ### قيمة الإرجاع
 
-تمثيل السلسلة لـ[`ListLevel`](../) الكائن الذي وصفه*numberStyle* المعلمة and و*customNumberStyleFormat* المعلمة، في عنصر القائمة في الموضع الذي يحدده*index* المعلمة.
+التمثيل النصي لـ[`ListLevel`](../) الكائن الذي تم وصفه بواسطة*numberStyle* المعلمة and *customNumberStyleFormat* المعلمة، في عنصر القائمة في الموضع الذي تم تحديده بواسطة*index* المعلمة.
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentException | *customNumberStyleFormat* يكون`باطل` أو فارغة عندما*numberStyle* مخصص.-أو- *customNumberStyleFormat* ليس`باطل` أو فارغة عندما*numberStyle* غير مخصص.-أو- *customNumberStyleFormat* غير صالح. |
-| ArgumentOutOfRangeException | الفهرس خارج النطاق. |
+| ArgumentException | *customNumberStyleFormat* يكون`باطل` أو فارغة عندما*numberStyle* هو مخصص.-أو- *customNumberStyleFormat* ليس كذلك`باطل` أو فارغة عندما*numberStyle* غير مخصص.-أو- *customNumberStyleFormat* غير صالح. |
+| ArgumentOutOfRangeException | المؤشر خارج النطاق. |
 
 ## أمثلة
 
-يوضح كيفية الحصول على تنسيق القائمة بنمط الأرقام المخصص.
+يوضح كيفية الحصول على تنسيق القائمة باستخدام نمط الرقم المخصص.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");
@@ -50,7 +50,7 @@ if (listLevel.NumberStyle == NumberStyle.Custom)
 
 Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
 
-// يمكننا الحصول على قيمة الفهرس المحدد لعنصر القائمة.
+//يمكننا الحصول على قيمة للمؤشر المحدد لعنصر القائمة.
 Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
 Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
 ```

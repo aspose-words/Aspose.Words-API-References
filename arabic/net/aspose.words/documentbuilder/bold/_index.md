@@ -3,14 +3,14 @@ title: DocumentBuilder.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder Bold ملكية. صحيح إذا كان الخط منسقًا بالخط الغامق في C#.
+description: اكتشف خاصية "الخط العريض" في DocumentBuilder. نسّق الخطوط بسهولة بخط عريض لتحسين وضوح النص وتأثيره في مستنداتك. حسّن تصميمك اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words/documentbuilder/bold/
 ---
 ## DocumentBuilder.Bold property
 
-صحيح إذا كان الخط منسقًا بالخط الغامق.
+صحيح إذا تم تنسيق الخط على أنه غامق.
 
 ```csharp
 public bool Bold { get; set; }
@@ -18,14 +18,14 @@ public bool Bold { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعبئة MERGEFIELDs بالبيانات باستخدام منشئ المستندات بدلاً من دمج البريد.
+يوضح كيفية ملء حقول MERGEFIELD بالبيانات باستخدام منشئ المستندات بدلاً من دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل بعض حقول MERGEFIELDS، التي تقبل البيانات من الأعمدة التي تحمل نفس الاسم في مصدر بيانات أثناء دمج البريد،
-// ثم املأها يدويًا.
+// إدراج بعض MERGEFIELDS، التي تقبل البيانات من الأعمدة التي تحمل نفس الاسم في مصدر البيانات أثناء دمج البريد،
+//ثم قم بملئها يدويًا.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");

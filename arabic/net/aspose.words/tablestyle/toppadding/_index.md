@@ -3,14 +3,14 @@ title: TableStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words لـ .NET
-description: TableStyle TopPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها فوق محتويات خلايا الجدول في C#.
+description: اكتشف خاصية TableStyle TopPadding لضبط المسافة فوق محتويات خلايا الجدول بسهولة، مما يعزز قابلية قراءة الجدول وتصميمه.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/tablestyle/toppadding/
 ---
 ## TableStyle.TopPadding property
 
-الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها فوق محتويات خلايا الجدول.
+يحصل على مقدار المساحة (بالنقاط) المراد إضافتها فوق محتويات خلايا الجدول أو يعينه.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

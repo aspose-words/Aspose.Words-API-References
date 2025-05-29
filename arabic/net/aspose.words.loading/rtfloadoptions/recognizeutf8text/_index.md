@@ -3,20 +3,22 @@ title: RtfLoadOptions.RecognizeUtf8Text
 linktitle: RecognizeUtf8Text
 articleTitle: RecognizeUtf8Text
 second_title: Aspose.Words لـ .NET
-description: RtfLoadOptions RecognizeUtf8Text ملكية. عند التعيين علىحقيقي CharsetDetector سيحاول اكتشاف أحرف UTF8 سيتم الاحتفاظ بها أثناء الاستيراد في C#.
+description: اكتشف كيف تحافظ خاصية RtfLoadOptions RecognizeUtf8Text على أحرف UTF-8 أثناء الاستيراد، مما يضمن تمثيل النص الدقيق والتكامل السلس.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 ---
 ## RtfLoadOptions.RecognizeUtf8Text property
 
-عند التعيين على`حقيقي` ,CharsetDetector سيحاول اكتشاف أحرف UTF8، سيتم الاحتفاظ بها أثناء الاستيراد.
-
-القيمة الافتراضية هي`خطأ شنيع` .
+عند ضبطه على`حقيقي` ، سيحاول اكتشاف أحرف UTF8، سيتم الاحتفاظ بها أثناء الاستيراد.
 
 ```csharp
 public bool RecognizeUtf8Text { get; set; }
 ```
+
+## ملاحظات
+
+القيمة الافتراضية هي`خطأ شنيع`.
 
 ## أمثلة
 
@@ -26,9 +28,9 @@ public bool RecognizeUtf8Text { get; set; }
 // قم بإنشاء كائن "RtfLoadOptions" لتعديل كيفية تحميل مستند RTF.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// قم بتعيين خاصية "RecognizeUtf8Text" على "خطأ" لافتراض أن المستند يستخدم مجموعة أحرف ISO 8859-1
-// ويقوم بتحميل كل حرف في المستند.
-// قم بتعيين خاصية "RecognizeUtf8Text" على "true" لتحليل أي أحرف متغيرة الطول قد تظهر في النص.
+// اضبط خاصية "RecognizeUtf8Text" على "false" لافتراض أن المستند يستخدم مجموعة أحرف ISO 8859-1
+// ويحمل كل حرف في المستند.
+// قم بضبط الخاصية "RecognizeUtf8Text" على "true" لتحليل أي أحرف ذات طول متغير قد تظهر في النص.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

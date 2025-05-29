@@ -3,14 +3,14 @@ title: Document.RenderToSize
 linktitle: RenderToSize
 articleTitle: RenderToSize
 second_title: Aspose.Words لـ .NET
-description: Document RenderToSize طريقة. يعرض صفحة المستند إلى ملفGraphics كائن بحجم محدد في C#.
+description: اكتشف طريقة RenderToSize لتحويل صفحات المستندات بكفاءة إلى كائنات رسومية بالأبعاد التي تريدها. حسّن عملية العرض لديك اليوم!
 type: docs
-weight: 690
+weight: 740
 url: /ar/net/aspose.words/document/rendertosize/
 ---
 ## Document.RenderToSize method
 
-يعرض صفحة المستند إلى ملفGraphics كائن بحجم محدد.
+يعرض صفحة مستند فيGraphics الكائن إلى حجم محدد.
 
 ```csharp
 public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, float width, 
@@ -19,20 +19,20 @@ public float RenderToSize(int pageIndex, Graphics graphics, float x, float y, fl
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pageIndex | Int32 | فهرس الصفحات المستند إلى 0. |
+| pageIndex | Int32 | فهرس الصفحة المبني على 0. |
 | graphics | Graphics | الكائن الذي سيتم تقديمه إليه. |
-| x | Single | الإحداثي X (بالوحدات العالمية) للزاوية العلوية اليسرى من الصفحة المعروضة. |
-| y | Single | الإحداثي Y (بالوحدات العالمية) للزاوية العلوية اليسرى من الصفحة المعروضة. |
-| width | Single | الحد الأقصى للعرض (بالوحدات العالمية) الذي يمكن أن تشغله الصفحة المعروضة. |
-| height | Single | الحد الأقصى للارتفاع (بالوحدات العالمية) الذي يمكن أن تشغله الصفحة المعروضة. |
+| x | Single | إحداثيات X (بالوحدات العالمية) في الزاوية العلوية اليسرى من الصفحة المرسومة. |
+| y | Single | إحداثيات Y (بالوحدات العالمية) في الزاوية العلوية اليسرى من الصفحة المرسومة. |
+| width | Single | الحد الأقصى للعرض (بالوحدات العالمية) الذي يمكن أن تشغله الصفحة المقدمة. |
+| height | Single | الارتفاع الأقصى (بالوحدات العالمية) الذي يمكن أن تشغله الصفحة المقدمة. |
 
 ### قيمة الإرجاع
 
-المقياس الذي تم حسابه تلقائيًا للصفحة المعروضة ليناسب الحجم المحدد.
+المقياس الذي تم حسابه تلقائيًا للصفحة المقدمة لتناسب الحجم المحدد.
 
 ## أمثلة
 
-يوضح كيفية عرض المستند كصورة نقطية في موقع وحجم محددين (.NetStandard 2.0).
+يوضح كيفية عرض المستند كخريطة نقطية في موقع وحجم محددين (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -41,16 +41,16 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
 {
     using (SKCanvas canvas = new SKCanvas(bitmap))
     {
-        // قم بتطبيق عامل تحجيم بنسبة 70% على الصفحة التي سنعرضها باستخدام هذه اللوحة.
+        // قم بتطبيق عامل مقياس بنسبة 70% على الصفحة التي سنقوم بعرضها باستخدام هذه اللوحة القماشية.
         canvas.Scale(70);
 
-        // إزاحة الصفحة بمقدار 0.5 بوصة من الحواف العلوية والأيسر للصفحة.
+        //إزاحة الصفحة بمقدار 0.5 بوصة من الحواف العلوية واليسرى للصفحة.
         canvas.Translate(0.5f, 0.5f);
 
-        // قم بتدوير الصفحة المعروضة بمقدار 10 درجات.
+        // تدوير الصفحة المقدمة بمقدار 10 درجات.
         canvas.RotateDegrees(10);
 
-        // إنشاء ورسم مستطيل.
+        // إنشاء مستطيل ورسمه.
         SKRect rect = new SKRect(0f, 0f, 3f, 3f);
         canvas.DrawRect(rect, new SKPaint
         {
@@ -59,18 +59,18 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
             StrokeWidth = 3f / 72f
         });
 
-        // اعرض الصفحة الأولى من المستند بنفس حجم المستطيل أعلاه.
-        // سيؤطر المستطيل هذه الصفحة.
+        // قم بعرض الصفحة الأولى من المستند بنفس حجم المستطيل أعلاه.
+        // سوف يقوم المستطيل بتأطير هذه الصفحة.
         float returnedScale = doc.RenderToSize(0, canvas, 0f, 0f, 3f, 3f);
 
         Console.WriteLine("The image was rendered at {0:P0} zoom.", returnedScale);
 
-        // أعد ضبط المصفوفة، ثم قم بتطبيق مجموعة جديدة من القياس والترجمات.
+        // إعادة تعيين المصفوفة، ثم تطبيق مجموعة جديدة من القياسات والترجمات.
         canvas.ResetMatrix();
         canvas.Scale(5);
         canvas.Translate(10, 10);
 
-        // أنشئ مستطيلاً آخر.
+        // إنشاء مستطيل آخر.
         rect = new SKRect(0, 0, 50, 100);
         rect.Offset(90, 10);
         canvas.DrawRect(rect, new SKPaint
@@ -91,7 +91,7 @@ using (SKBitmap bitmap = new SKBitmap(700, 700))
 }
 ```
 
-يوضح كيفية تحويل مستند إلى صورة نقطية في موقع وحجم محددين.
+يوضح كيفية عرض مستند إلى خريطة نقطية في موقع وحجم محددين.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -102,34 +102,34 @@ using (Bitmap bmp = new Bitmap(700, 700))
     {
         gr.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 
-        // قم بتعيين خاصية "PageUnit" على "GraphicsUnit.Inch" لاستخدام البوصة كـ
-        // وحدة القياس لأي تحويلات وأبعاد سنحددها.
+        // اضبط خاصية "PageUnit" على "GraphicsUnit.Inch" لاستخدام البوصات كوحدة
+        // وحدة القياس لأي تحويلات وأبعاد سنقوم بتعريفها.
         gr.PageUnit = GraphicsUnit.Inch;
 
-        // إزاحة الإخراج بمقدار 0.5 بوصة من الحافة.
+        //إزاحة الإخراج بمقدار 0.5 بوصة من الحافة.
         gr.TranslateTransform(0.5f, 0.5f);
 
         // قم بتدوير الإخراج بمقدار 10 درجات.
         gr.RotateTransform(10);
 
-        // ارسم مستطيلاً مقاس 3 × 3.
+        // ارسم مستطيلًا بمقاس 3 × 3 بوصة.
         gr.DrawRectangle(new Pen(Color.Black, 3f / 72f), 0f, 0f, 3f, 3f);
 
-        // ارسم الصفحة الأولى من وثيقتنا بنفس الأبعاد والتحويل مثل المستطيل.
-        // سيؤطر المستطيل الصفحة الأولى.
+        // ارسم الصفحة الأولى من مستندنا بنفس الأبعاد والتحويل مثل المستطيل.
+        // المستطيل سوف يحيط بالصفحة الأولى.
         float returnedScale = doc.RenderToSize(0, gr, 0f, 0f, 3f, 3f);
 
         // هذا هو عامل القياس الذي طبقته طريقة RenderToSize على الصفحة الأولى لتناسب الحجم المحدد.
         Assert.AreEqual(0.2566f, returnedScale, 0.0001f);
 
-        // قم بتعيين خاصية "PageUnit" على "GraphicsUnit.Millimeter" لاستخدام المليمترات كـ
-        // وحدة القياس لأي تحويلات وأبعاد سنحددها.
+        // اضبط خاصية "PageUnit" على "GraphicsUnit.Millimeter" لاستخدام المليمترات كوحدة
+        // وحدة القياس لأي تحويلات وأبعاد سنقوم بتعريفها.
         gr.PageUnit = GraphicsUnit.Millimeter;
 
         // إعادة تعيين التحويلات التي استخدمناها من العرض السابق.
         gr.ResetTransform();
 
-        // تطبيق مجموعة أخرى من التحولات.
+         // تطبيق مجموعة أخرى من التحويلات.
         gr.TranslateTransform(10, 10);
         gr.ScaleTransform(0.5f, 0.5f);
         gr.PageScale = 2f;

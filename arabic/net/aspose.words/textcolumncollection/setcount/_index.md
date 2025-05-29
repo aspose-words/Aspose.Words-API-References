@@ -3,14 +3,14 @@ title: TextColumnCollection.SetCount
 linktitle: SetCount
 articleTitle: SetCount
 second_title: Aspose.Words لـ .NET
-description: TextColumnCollection SetCount طريقة. ترتيب النص في العدد المحدد من أعمدة النص في C#.
+description: قم بتحسين تخطيطك باستخدام طريقة TextColumnCollection SetCount، وقم بترتيب النص بسهولة في العدد المطلوب من الأعمدة لتحسين قابلية القراءة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/textcolumncollection/setcount/
 ---
 ## TextColumnCollection.SetCount method
 
-ترتيب النص في العدد المحدد من أعمدة النص.
+يقوم بترتيب النص في العدد المحدد من أعمدة النص.
 
 ```csharp
 public void SetCount(int newCount)
@@ -22,11 +22,11 @@ public void SetCount(int newCount)
 
 ## ملاحظات
 
-متى[`EvenlySpaced`](../evenlyspaced/) يكون`خطأ شنيع` وقمت بزيادة عدد الأعمدة new[`TextColumn`](../../textcolumn/) يتم إنشاء الكائنات بعرض وتباعد صفر. تحتاج إلى ضبط العرض والتباعد للأعمدة الجديدة.
+متى[`EvenlySpaced`](../evenlyspaced/) يكون`خطأ شنيع` وتزيد عدد الأعمدة، جديد[`TextColumn`](../../textcolumn/) يتم إنشاء الكائنات بعرض ومسافة صفرية. تحتاج إلى تعيين العرض والمسافة للأعمدة الجديدة.
 
 ## أمثلة
 
-يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في القسم.
+يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في قسم.
 
 ```csharp
 Document doc = new Document();

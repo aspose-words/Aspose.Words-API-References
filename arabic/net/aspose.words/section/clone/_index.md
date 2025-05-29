@@ -3,14 +3,14 @@ title: Section.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words لـ .NET
-description: Section Clone طريقة. إنشاء نسخة مكررة من هذا القسم في C#.
+description: انسخ الأقسام بسهولة باستخدام طريقة نسخ الأقسام. بسّط سير عملك وحسّن إنتاجيتك مع هذه الأداة الفعّالة!
 type: docs
-weight: 110
+weight: 130
 url: /ar/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
 
-إنشاء نسخة مكررة من هذا القسم.
+ينشئ نسخة مكررة من هذا القسم.
 
 ```csharp
 public Section Clone()
@@ -18,7 +18,7 @@ public Section Clone()
 
 ## أمثلة
 
-يوضح كيفية إضافة وإزالة الأقسام في المستند.
+يوضح كيفية إضافة أقسام وإزالتها في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -30,12 +30,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// احذف القسم الأول من المستند.
+//حذف القسم الأول من المستند.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// إلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
+// قم بإضافة نسخة من القسم الأول إلى نهاية المستند.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

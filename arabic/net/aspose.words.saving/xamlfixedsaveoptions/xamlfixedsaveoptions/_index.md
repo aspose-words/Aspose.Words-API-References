@@ -3,7 +3,7 @@ title: XamlFixedSaveOptions
 linktitle: XamlFixedSaveOptions
 articleTitle: XamlFixedSaveOptions
 second_title: Aspose.Words لـ .NET
-description: XamlFixedSaveOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ XamlFixedSaveOptions لتكامل سلس وأداء مُحسّن في تطبيقاتك. بسّط برمجة تطبيقاتك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xamlfixedsaveoptions/xamlfixedsaveoptions/

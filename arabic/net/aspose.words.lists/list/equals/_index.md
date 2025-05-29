@@ -3,14 +3,14 @@ title: List.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words لـ .NET
-description: List Equals طريقة. يقارن بالقائمة المحددة في C#.
+description: اكتشف كيف تُقارن طريقة "القائمة تساوي" القوائم بكفاءة لضمان الدقة. طوّر مهاراتك البرمجية مع هذه التقنية البرمجية الأساسية!
 type: docs
 weight: 100
 url: /ar/net/aspose.words.lists/list/equals/
 ---
 ## Equals(*[List](../)*) {#equals}
 
-يقارن بالقائمة المحددة.
+يقارن مع القائمة المحددة.
 
 ```csharp
 public bool Equals(List list)
@@ -26,7 +26,7 @@ public bool Equals(List list)
 
 ## Equals(*object*) {#equals_1}
 
-تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي في القيمة الكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)

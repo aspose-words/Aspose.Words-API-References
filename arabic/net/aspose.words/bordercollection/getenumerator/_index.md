@@ -3,14 +3,14 @@ title: BorderCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: BorderCollection GetEnumerator طريقة. يُرجع كائن العداد الذي يمكن استخدامه للتكرار عبر كافة الحدود في المجموعة في C#.
+description: اكتشف طريقة BorderCollection GetEnumerator للتنقل بسهولة عبر كافة الحدود، مما يعزز كفاءة الترميز وإدارة المجموعة.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/bordercollection/getenumerator/
 ---
 ## BorderCollection.GetEnumerator method
 
-يُرجع كائن العداد الذي يمكن استخدامه للتكرار عبر كافة الحدود في المجموعة.
+يعيد كائن عداد يمكن استخدامه للتكرار عبر جميع الحدود في المجموعة.
 
 ```csharp
 public IEnumerator<Border> GetEnumerator()
@@ -18,13 +18,13 @@ public IEnumerator<Border> GetEnumerator()
 
 ## أمثلة
 
-يوضح كيفية التكرار وتحرير كل الحدود في كائن تنسيق الفقرة.
+يوضح كيفية تكرار وتحرير كافة الحدود في كائن تنسيق الفقرة.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتكوين إعدادات تنسيق الفقرة الخاصة بالمنشئ لإنشاء حد موجة خضراء من جميع الجوانب.
+// قم بتكوين إعدادات تنسيق فقرة المنشئ لإنشاء حدود موجة خضراء على جميع الجوانب.
 BorderCollection borders = builder.ParagraphFormat.Borders;
 
 using (IEnumerator<Border> enumerator = borders.GetEnumerator())
@@ -38,7 +38,7 @@ using (IEnumerator<Border> enumerator = borders.GetEnumerator())
     }
 }
 
-// أدخل فقرة. ستحدد إعدادات الحدود لدينا مظهر حدودها.
+// أدرج فقرة. إعدادات حدودنا ستحدد مظهر حدودها.
 builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");

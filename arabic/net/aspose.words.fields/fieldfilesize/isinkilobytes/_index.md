@@ -3,14 +3,14 @@ title: FieldFileSize.IsInKilobytes
 linktitle: IsInKilobytes
 articleTitle: IsInKilobytes
 second_title: Aspose.Words لـ .NET
-description: FieldFileSize IsInKilobytes ملكية. الحصول على أو تعيين ما إذا كان سيتم عرض حجم الملف بالكيلوبايت في C#.
+description: تحكم في عرض حجم الملف باستخدام FieldFileSize IsInKilobytes. يمكنك بسهولة تبديل عرض الحجم بالكيلوبايت لتحسين إدارة البيانات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldfilesize/isinkilobytes/
 ---
 ## FieldFileSize.IsInKilobytes property
 
-الحصول على أو تعيين ما إذا كان سيتم عرض حجم الملف بالكيلوبايت.
+يحصل على أو يحدد ما إذا كان سيتم عرض حجم الملف بالكيلوبايت.
 
 ```csharp
 public bool IsInKilobytes { get; set; }
@@ -30,15 +30,15 @@ builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
 // فيما يلي ثلاث وحدات قياس مختلفة
-// التي يمكن لحقول FILESIZE من خلالها عرض حجم ملف المستند.
-// 1 - البايتات:
+// حيث يمكن لحقول FILESIZE عرض حجم ملف المستند.
+// 1 - بايت:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
 
 Assert.AreEqual(" FILESIZE ", field.GetFieldCode());
 Assert.AreEqual("18105", field.Result);
 
-// 2 - كيلو بايت:
+// 2 - كيلوبايت:
 builder.InsertParagraph();
 field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.IsInKilobytes = true;
@@ -47,7 +47,7 @@ field.Update();
 Assert.AreEqual(" FILESIZE  \\k", field.GetFieldCode());
 Assert.AreEqual("18", field.Result);
 
-// 3 - ميغابايت:
+// 3 - ميغا بايت:
 builder.InsertParagraph();
 field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.IsInMegabytes = true;

@@ -3,7 +3,7 @@ title: PageSavingArgs
 linktitle: PageSavingArgs
 articleTitle: PageSavingArgs
 second_title: Aspose.Words لـ .NET
-description: PageSavingArgs البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ PageSavingArgs، أداتك الأساسية لإدارة بيانات فعّالة. بسّط برمجةك باستخدام هذا المُنشئ الافتراضي اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pagesavingargs/pagesavingargs/

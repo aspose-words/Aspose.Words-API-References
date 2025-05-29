@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ResourceFolder
 linktitle: ResourceFolder
 articleTitle: ResourceFolder
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ResourceFolder ملكية. يحدد مجلدًا فعليًا حيث يتم حفظ جميع الموارد مثل الصور والخطوط وCSS الخارجية عند تصدير document إلى HTML. الافتراضي هو سلسلة فارغة في C#.
+description: اكتشف خاصية HtmlSaveOptions ResourceFolder لتصدير المستندات على النحو الأمثل. أدر الصور والخطوط وCSS بسهولة في مجلد مخصص.
 type: docs
-weight: 420
+weight: 440
 url: /ar/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 ---
 ## HtmlSaveOptions.ResourceFolder property
 
-يحدد مجلدًا فعليًا حيث يتم حفظ جميع الموارد مثل الصور والخطوط وCSS الخارجية عند تصدير document إلى HTML. الافتراضي هو سلسلة فارغة.
+يُحدد مجلدًا فعليًا تُحفظ فيه جميع الموارد، مثل الصور والخطوط وCSS الخارجية، عند تصدير document إلى HTML. القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string ResourceFolder { get; set; }
@@ -18,15 +18,15 @@ public string ResourceFolder { get; set; }
 
 ## ملاحظات
 
-`ResourceFolder` هي أبسط طريقة لتحديد المجلد الذي يجب كتابة جميع الموارد فيه. هناك طريقة أخرى وهي استخدام الخصائص الفردية[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) و[`CssStyleSheetFileName`](../cssstylesheetfilename/).
+`ResourceFolder` هي أبسط طريقة لتحديد مجلد يجب كتابة جميع الموارد فيه. طريقة أخرى هي استخدام خصائص فردية[`FontsFolder`](../fontsfolder/) ،[`ImagesFolder`](../imagesfolder/) ، و[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
-`ResourceFolder` له أولوية أقل من المجلدات المحددة عبر[`FontsFolder`](../fontsfolder/)[`ImagesFolder`](../imagesfolder/) ، و[`CssStyleSheetFileName`](../cssstylesheetfilename/) . على سبيل المثال، إذا كان كلا `ResourceFolder` و[`FontsFolder`](../fontsfolder/)تم تحديد الخطوط، وسيتم حفظها إلى[`FontsFolder`](../fontsfolder/) ، بينما سيتم حفظ الصور وCSS في`ResourceFolder`.
+`ResourceFolder` لها أولوية أقل من المجلدات المحددة عبر[`FontsFolder`](../fontsfolder/) ، [`ImagesFolder`](../imagesfolder/) ، و[`CssStyleSheetFileName`](../cssstylesheetfilename/) على سبيل المثال، إذا كان both `ResourceFolder` و[`FontsFolder`](../fontsfolder/)إذا تم تحديد الخطوط، فسيتم حفظها إلى[`FontsFolder`](../fontsfolder/) ، بينما سيتم حفظ الصور وCSS في`ResourceFolder`.
 
-إذا كان المجلد المحدد بواسطة`ResourceFolder` غير موجود، سيتم إنشاؤه تلقائيًا.
+إذا تم تحديد المجلد بواسطة`ResourceFolder` غير موجود، سيتم إنشاؤه تلقائيًا.
 
 ## أمثلة
 
-يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
+يوضح كيفية تعيين المجلدات وأسماء المجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

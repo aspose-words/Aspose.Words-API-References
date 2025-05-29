@@ -3,14 +3,14 @@ title: Forms2OleControl.GroupName
 linktitle: GroupName
 articleTitle: GroupName
 second_title: Aspose.Words لـ .NET
-description: Forms2OleControl GroupName ملكية. الحصول على أو تعيين سلسلة تحدد مجموعة من عناصر التحكم المتبادلة. القيمة الافتراضية هي سلسلة فارغة في C#.
+description: اكتشف كيف تُحسّن خاصية Forms2OleControl GroupName تجربة المستخدم من خلال إدارة عناصر التحكم المتعارضة بسهولة. تعرّف على المزيد!
 type: docs
-weight: 40
+weight: 60
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrol/groupname/
 ---
 ## Forms2OleControl.GroupName property
 
-الحصول على أو تعيين سلسلة تحدد مجموعة من عناصر التحكم المتبادلة. القيمة الافتراضية هي سلسلة فارغة.
+يحصل على سلسلة تحدد مجموعة من عناصر التحكم المتبادلة الحصرية أو يعينها. القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string GroupName { get; set; }
@@ -18,27 +18,27 @@ public string GroupName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
+يوضح كيفية التحقق من خصائص عنصر التحكم ActiveX.
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
     Assert.AreEqual(string.Empty, checkBox.GroupName);
 
-    // لاحظ أنه لا يمكنك تعيين اسم المجموعة للإطار.
+    // لاحظ أنه لا يمكنك تعيين GroupName لإطار.
     checkBox.GroupName = "Aspose group name";
 }
 ```

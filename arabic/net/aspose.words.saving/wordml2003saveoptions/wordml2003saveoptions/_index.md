@@ -3,7 +3,7 @@ title: WordML2003SaveOptions
 linktitle: WordML2003SaveOptions
 articleTitle: WordML2003SaveOptions
 second_title: Aspose.Words لـ .NET
-description: WordML2003SaveOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ خيارات الحفظ WordML2003، الحل الأمثل لحفظ مستنداتك بسلاسة بتنسيق WordML. حسّن سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/wordml2003saveoptions/wordml2003saveoptions/

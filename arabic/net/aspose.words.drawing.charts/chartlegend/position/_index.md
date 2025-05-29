@@ -3,22 +3,26 @@ title: ChartLegend.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words لـ .NET
-description: ChartLegend Position ملكية. يحدد موضع وسيلة الإيضاح على المخطط. القيمة الافتراضية هيRight  في C#.
+description: اكتشف خاصية موضع ChartLegend لتخصيص موضع أسطورة الرسم البياني الخاص بك بسهولة لتحسين الوضوح والجاذبية البصرية.
 type: docs
-weight: 30
+weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-يحدد موضع وسيلة الإيضاح على المخطط. القيمة الافتراضية هيRight .
+يحدد موضع الأسطورة على الرسم البياني.
 
 ```csharp
 public LegendPosition Position { get; set; }
 ```
 
+## ملاحظات
+
+القيمة الافتراضية هيRight لمخططات ما قبل Word 2016 و Top لمخططات Word 2016.
+
 ## أمثلة
 
-يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
+يوضح كيفية تحرير مظهر أسطورة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +36,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// انقل وسيلة إيضاح المخطط إلى الزاوية اليمنى العليا.
+// نقل أسطورة الرسم البياني إلى الزاوية اليمنى العليا.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// امنح عناصر المخطط الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بتداخل وسيلة الإيضاح.
+// امنح عناصر الرسم البياني الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بالتداخل مع الأسطورة.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

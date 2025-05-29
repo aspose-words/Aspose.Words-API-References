@@ -3,14 +3,14 @@ title: SmartTag.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: SmartTag Accept طريقة. يقبل الزائر في C#.
+description: قم بتعزيز تفاعل المستخدم باستخدام طريقة القبول في SmartTag، المصممة للترحيب بالزائرين بسلاسة وتعزيز تفاعل موقع الويب الخاص بك.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/smarttag/accept/
 ---
 ## SmartTag.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,19 +18,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقد. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقد. |
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
+صحيح إذا تمت زيارة جميع العقد؛ خطأ إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) تم إيقاف العملية قبل زيارة كافة العقد.
 
 ## ملاحظات
 
-يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+يُحصي هذه العقدة وجميع أبنائها. تستدعي كل عقدة طريقة مقابلة على[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
-المكالمات[`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع العقد الفرعية للعلامة الذكية والمكالمات[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) في النهاية.
+مكالمات [`VisitSmartTagStart`](../../../aspose.words/documentvisitor/visitsmarttagstart/) ، ثم يدعو[`Accept`](../../../aspose.words/node/accept/) لجميع العقد الفرعية x000d_ للعلامة الذكية والمكالمات[`VisitSmartTagEnd`](../../../aspose.words/documentvisitor/visitsmarttagend/) في النهاية.
 
 ## أمثلة
 
@@ -41,16 +41,16 @@ public void Create()
 {
     Document doc = new Document();
 
-    // العلامة الذكية التي تظهر في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كشكل من أشكال البيانات،
-    // مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض تسطيرًا منقطًا أرجوانيًا.
+    // تظهر علامة ذكية في مستند باستخدام Microsoft Word تتعرف على جزء من نصه كنوع من البيانات،
+    // مثل الاسم أو التاريخ أو العنوان، وتحويله إلى ارتباط تشعبي يعرض خطًا منقطًا باللون الأرجواني.
     SmartTag smartTag = new SmartTag(doc);
 
-    // العلامات الذكية هي عقد مركبة تحتوي على النص الذي تم التعرف عليه بالكامل.
-    // أضف محتويات إلى هذه العلامة الذكية يدويًا.
+    // العلامات الذكية عبارة عن عقد مركبة تحتوي على النص المعترف به بالكامل.
+    //أضف المحتويات إلى هذه العلامة الذكية يدويًا.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // قد يتعرف Microsoft Word على المحتويات المذكورة أعلاه على أنها تاريخ.
-    // تستخدم العلامات الذكية خاصية "العنصر" لتعكس نوع البيانات التي تحتوي عليها.
+    // قد يتعرف Microsoft Word على المحتوى المذكور أعلاه باعتباره تاريخًا.
+    // تستخدم العلامات الذكية خاصية "Element" لتعكس نوع البيانات التي تحتوي عليها.
     smartTag.Element = "date";
 
     // تقوم بعض أنواع العلامات الذكية بمعالجة محتوياتها بشكل أكبر في خصائص XML المخصصة.
@@ -58,13 +58,13 @@ public void Create()
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // قم بتعيين URI الخاص بالعلامة الذكية على القيمة الافتراضية.
+    // تعيين عنوان URI للعلامة الذكية إلى القيمة الافتراضية.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // أنشئ علامة ذكية أخرى لمؤشر الأسهم.
+    // إنشاء علامة ذكية أخرى لمؤشر الأسهم.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -77,10 +77,10 @@ public void Create()
     // اطبع جميع العلامات الذكية في مستندنا باستخدام زائر المستند.
     doc.Accept(new SmartTagPrinter());
 
-    // الإصدارات الأقدم من Microsoft Word تدعم العلامات الذكية.
+    // تدعم الإصدارات الأقدم من Microsoft Word العلامات الذكية.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // استخدم طريقة "RemoveSmartTags" لإزالة كافة العلامات الذكية من المستند.
+    //استخدم طريقة "RemoveSmartTags" لإزالة كافة العلامات الذكية من المستند.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -94,7 +94,7 @@ public void Create()
 private class SmartTagPrinter : DocumentVisitor
 {
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة SmartTag في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة SmartTag في المستند.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {
@@ -103,7 +103,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند انتهاء زيارة عقدة SmartTag.
+    /// يتم استدعاؤها عند انتهاء زيارة عقدة SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

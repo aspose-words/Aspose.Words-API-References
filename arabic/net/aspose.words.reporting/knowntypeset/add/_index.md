@@ -3,26 +3,14 @@ title: KnownTypeSet.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words لـ .NET
-description: KnownTypeSet Add طريقة. يضيف المحددType اعتراض على المجموعة. رمياتArgumentException in الحالات التالية في C#.
+description: اكتشف طريقة KnownTypeSet Add لتضمين كائنات Type بسهولة في مجموعتك، مما يعزز إدارة البيانات ووظائفها.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-يضيف المحددType اعتراض على المجموعة. رمياتArgumentException in الحالات التالية:
-
--*type* يكون`باطل`.
-
--*type* يمثل نوع الفراغ.
-
--*type* يمثل نوعًا غير مرئي، أي نوع غير عام أو نوع عام متداخل type له نوع خارجي غير عام.
-
--*type* يمثل نوعًا عامًا.
-
--*type* يمثل نوع المصفوفة.
-
--*type* تمت إضافته إلى المجموعة بالفعل.
+يضيف المحددType كائن للمجموعة.
 
 ```csharp
 public void Add(Type type)
@@ -31,6 +19,12 @@ public void Add(Type type)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | type | Type | أType كائن لإضافته. |
+
+### استثناءات
+
+| استثناء | حالة |
+| --- | --- |
+| ArgumentException | يرمي في الحالات التالية: |
 
 ### أنظر أيضا
 

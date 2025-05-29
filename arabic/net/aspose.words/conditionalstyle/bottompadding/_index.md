@@ -3,14 +3,14 @@ title: ConditionalStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words لـ .NET
-description: ConditionalStyle BottomPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات خلايا الجدول في C#.
+description: اضبط خاصية BottomPadding في ConditionalStyle لتخصيص تباعد خلايا الجدول. حسّن تصميمك بتحكم دقيق في التخطيط والجماليات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/conditionalstyle/bottompadding/
 ---
 ## ConditionalStyle.BottomPadding property
 
-الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات خلايا الجدول.
+يحصل على مقدار المساحة (بالنقاط) المراد إضافتها أسفل محتويات خلايا الجدول أو يعينه.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -18,7 +18,7 @@ public double BottomPadding { get; set; }
 
 ## أمثلة
 
-يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
+يوضح كيفية العمل مع أنماط مناطق معينة من الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -39,9 +39,9 @@ builder.EndTable();
 // إنشاء نمط جدول مخصص.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// الأنماط الشرطية هي تغييرات التنسيق التي تؤثر فقط على بعض خلايا الجدول
-// استنادًا إلى المسند، مثل وجود الخلايا في الصف الأخير.
-// فيما يلي ثلاث طرق للوصول إلى الأنماط الشرطية لنمط الجدول من مجموعة "الأنماط الشرطية".
+// الأنماط الشرطية هي تغييرات تنسيق تؤثر فقط على بعض خلايا الجدول
+// بناءً على مسند، مثل وجود الخلايا في الصف الأخير.
+// فيما يلي ثلاث طرق للوصول إلى أنماط الجدول الشرطية من مجموعة "ConditionalStyles".
 // 1 - حسب نوع النمط:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -60,7 +60,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// قم بإدراج جميع شروط النمط الممكنة.
+// قم بإدراج جميع شروط الأسلوب الممكنة.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -73,11 +73,11 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // قم بتطبيق النمط المخصص، الذي يحتوي على كافة الأنماط الشرطية، على الجدول.
 table.Style = tableStyle;
 
-// يطبق أسلوبنا بعض الأنماط الشرطية بشكل افتراضي.
+//يطبق أسلوبنا بعض الأنماط الشرطية بشكل افتراضي.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// سنحتاج إلى تمكين جميع الأنماط الأخرى بأنفسنا عبر خاصية "StyleOptions".
+// سوف نحتاج إلى تمكين جميع الأنماط الأخرى بأنفسنا عبر خاصية "StyleOptions".
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTag Style ملكية. الحصول على نمط علامة المستند المنظمة أو تعيينه في C#.
+description: اكتشف كيفية إدارة خاصية Style الخاصة بـ StructuredDocumentTags لتحسين تنسيق مستندك وتحسين قابلية القراءة بسهولة.
 type: docs
 weight: 260
 url: /ar/net/aspose.words.markup/structureddocumenttag/style/
 ---
 ## StructuredDocumentTag.Style property
 
-الحصول على نمط علامة المستند المنظمة أو تعيينه.
+يحصل على نمط علامة المستند المنظم أو يعينه.
 
 ```csharp
 public Style Style { get; set; }
@@ -18,11 +18,11 @@ public Style Style { get; set; }
 
 ## ملاحظات
 
-فقطCharacter أسلوب أوParagraph يمكن ضبط النمط مع نمط الحرف المرتبط.
+فقطCharacter أسلوب أوParagraph يمكن تعيين النمط باستخدام نمط الحرف المرتبط.
 
 ## أمثلة
 
-يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
+يوضح كيفية العمل مع الأنماط لعناصر التحكم في المحتوى.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - قم بالإشارة إلى النمط الموجود في المستند بالاسم:
+// 2 - الإشارة إلى النمط في المستند بالاسم:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

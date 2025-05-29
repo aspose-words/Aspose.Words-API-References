@@ -3,14 +3,14 @@ title: BaseWebExtensionCollection1.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words لـ .NET
-description: BaseWebExtensionCollection Remove طريقة. إزالة العنصر الموجود في الفهرس المحدد من المجموعة في C#.
+description: احذف العناصر بسهولة من BaseWebExtensionCollection باستخدام طريقة الإزالة البديهية لدينا. بسّط إدارة بياناتك اليوم!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/remove/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.Remove method
 
-إزالة العنصر الموجود في الفهرس المحدد من المجموعة.
+يزيل العنصر الموجود في الفهرس المحدد من المجموعة.
 
 ```csharp
 public void Remove(int index)
@@ -18,7 +18,7 @@ public void Remove(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | الفهرس الصفري لعنصر المجموعة. |
+| index | Int32 | الفهرس المبني على الصفر لعنصر المجموعة. |
 
 ## أمثلة
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// اطبع كافة خصائص ملحق الويب الخاص بالمستند.
+// طباعة كافة خصائص ملحق الويب الخاص بالمستند.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// قم بإزالة ملحق الويب.
+// إزالة ملحق الويب.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

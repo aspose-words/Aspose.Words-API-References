@@ -3,14 +3,14 @@ title: CommentCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: CommentCollection Item ملكية. يسترد أComment في الفهرس المحدد في C#.
+description: الوصول إلى تعليقات محددة بسهولة باستخدام خاصية عنصر مجموعة التعليقات. استرجع التعليقات حسب الفهرس لإدارة محتوى مبسطة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/commentcollection/item/
 ---
 ## CommentCollection indexer
 
-يسترد أ[`Comment`](../../comment/) في الفهرس المحدد.
+يسترجع[`Comment`](../../comment/) عند الفهرس المعطى.
 
 ```csharp
 public Comment this[int index] { get; }
@@ -18,17 +18,17 @@ public Comment this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس في المجموعة. |
+| index | فهرس للمجموعة. |
 
 ## ملاحظات
 
-المؤشر قائم على الصفر.
+المؤشر يعتمد على الصفر.
 
-الفهارس السالبة مسموح بها وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال -1 يعني العنصر الأخير، -2 يعني الثاني قبل الأخير وهكذا.
+يُسمح بالمؤشرات السلبية وتشير إلى الوصول من الجزء الخلفي للمجموعة. على سبيل المثال، -1 يعني العنصر الأخير، -2 يعني العنصر الثاني قبل الأخير وهكذا.
 
-إذا كان الفهرس أكبر من أو يساوي عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس أكبر من أو يساوي عدد العناصر في القائمة، فسوف يؤدي هذا إلى إرجاع مرجع فارغ.
 
-إذا كان الفهرس سالبًا وقيمته المطلقة أكبر من عدد العناصر الموجودة في القائمة، فسيُرجع هذا مرجعًا فارغًا.
+إذا كان الفهرس سلبيًا وكانت قيمته المطلقة أكبر من عدد العناصر في القائمة، فسيؤدي هذا إلى إرجاع مرجع فارغ.
 
 ## أمثلة
 
@@ -45,18 +45,18 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
-Assert.AreEqual(2, comment.Replies.Count()); 
+Assert.AreEqual(2, comment.Replies.Count); 
 
 // فيما يلي طريقتان لإزالة الردود من التعليق.
-// 1 - استخدم طريقة "RemoveReply" لإزالة الردود من التعليق بشكل فردي:
+// 1 - استخدم طريقة "RemoveReply" لإزالة الردود من تعليق فرديًا:
 comment.RemoveReply(comment.Replies[0]);
 
-Assert.AreEqual(1, comment.Replies.Count());
+Assert.AreEqual(1, comment.Replies.Count);
 
-// 2 - استخدم طريقة "RemoveAllReplies" لإزالة كافة الردود من التعليق مرة واحدة:
+// 2 - استخدم طريقة "RemoveAllReplies" لإزالة جميع الردود من تعليق مرة واحدة:
 comment.RemoveAllReplies();
 
-Assert.AreEqual(0, comment.Replies.Count());
+Assert.AreEqual(0, comment.Replies.Count);
 ```
 
 ### أنظر أيضا

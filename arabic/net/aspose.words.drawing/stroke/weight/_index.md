@@ -3,14 +3,14 @@ title: Stroke.Weight
 linktitle: Weight
 articleTitle: Weight
 second_title: Aspose.Words لـ .NET
-description: Stroke Weight ملكية. يحدد سمك الفرشاة الذي يحدد مسار الشكل بالنقاط في C#.
+description: اكتشف خاصية "وزن الفرشاة" لتخصيص سُمك الفرشاة للأشكال. حسّن تصاميمك بضربات مسار دقيقة بالنقاط!
 type: docs
-weight: 210
+weight: 260
 url: /ar/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
 
-يحدد سمك الفرشاة الذي يحدد مسار الشكل بالنقاط.
+يحدد سمك الفرشاة التي ترسم مسار الشكل بالنقاط.
 
 ```csharp
 public double Weight { get; set; }
@@ -18,7 +18,7 @@ public double Weight { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية ل[`Shape`](../../shape/) هو 0.75.
+القيمة الافتراضية لـ[`Shape`](../../shape/) هو 0.75.
 
 ## أمثلة
 
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// الأشكال الأساسية، مثل المستطيل، لها جزأين مرئيين.
-// 1 - التعبئة، والتي تنطبق على المساحة الموجودة داخل المخطط التفصيلي للشكل:
+//الأشكال الأساسية، مثل المستطيل، تحتوي على جزأين مرئيين.
+// 1 - التعبئة، والتي تنطبق على المنطقة داخل مخطط الشكل:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - الحد الذي يحدد الخطوط العريضة للشكل:
-// تعديل الخصائص المختلفة لحد هذا الشكل.
+// 2 - الخط الذي يحدد الخطوط العريضة للشكل:
+// تعديل خصائص مختلفة لخط هذا الشكل.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

@@ -3,14 +3,14 @@ title: ChartXValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: ChartXValueCollection Item ملكية. الحصول على قيمة X أو تعيينها في الفهرس المحدد في C#.
+description: اكتشف خاصية ChartXValueCollection Item للوصول بسهولة إلى قيم X أو تعديلها في أي مؤشر، مما يعزز تجربة تصور البيانات لديك.
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartxvaluecollection/item/
 ---
 ## ChartXValueCollection indexer
 
-الحصول على قيمة X أو تعيينها في الفهرس المحدد.
+يحصل على قيمة X أو يعينها عند الفهرس المحدد.
 
 ```csharp
 public ChartXValue this[int index] { get; set; }
@@ -18,7 +18,7 @@ public ChartXValue this[int index] { get; set; }
 
 ## ملاحظات
 
-يتم تمثيل القيم الفارغة كـ**باطل** .
+يتم تمثيل القيم الفارغة على النحو التالي**باطل** .
 
 ### أنظر أيضا
 

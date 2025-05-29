@@ -1,15 +1,117 @@
 ---
 title: HeaderFooter.AcceptEnd
-second_title: Aspose.Words لمراجع .NET API
-description: HeaderFooter طريقة. 
+linktitle: AcceptEnd
+articleTitle: AcceptEnd
+second_title: Aspose.Words لـ .NET
+description: قم بتعزيز تجربة المستخدم لموقع الويب الخاص بك باستخدام طريقة HeaderFooter AcceptEnd، المصممة لإدارة تفاعلات الزائرين بسلاسة في نهاية الرأس.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/headerfooter/acceptend/
 ---
 ## HeaderFooter.AcceptEnd method
 
+يقبل زائرًا لزيارة نهاية الرأس.
+
 ```csharp
 public override VisitorAction AcceptEnd(DocumentVisitor visitor)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| visitor | DocumentVisitor | زائر الوثيقة. |
+
+### قيمة الإرجاع
+
+الإجراء الذي يجب على الزائر اتخاذه.
+
+## أمثلة
+
+يوضح كيفية طباعة بنية العقدة لكل رأس وتذييل في المستند.
+
+```csharp
+public void HeaderFooterToText()
+{
+    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
+    HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
+
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    doc.Accept(visitor);
+
+    Console.WriteLine(visitor.GetText());
+
+    // الطريقة البديلة للوصول إلى قسم رأس/تذييل المستند قسمًا تلو الآخر هي عن طريق الوصول إلى المجموعة.
+    HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
+    Assert.AreEqual(3, headerFooters.Length);
+}
+
+/// <summary>
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد HeaderFooter التي تم مواجهتها وأطفالها.
+/// </summary>
+public class HeaderFooterStructurePrinter : DocumentVisitor
+{
+    public HeaderFooterStructurePrinter()
+    {
+        mBuilder = new StringBuilder();
+        mVisitorIsInsideHeaderFooter = false;
+    }
+
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    /// <summary>
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
+    /// </summary>
+    public override VisitorAction VisitRun(Run run)
+    {
+        if (mVisitorIsInsideHeaderFooter) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤها عند مواجهة عقدة HeaderFooter في المستند.
+    /// </summary>
+    public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
+    {
+        IndentAndAppendLine("[HeaderFooter start] HeaderFooterType: " + headerFooter.HeaderFooterType);
+        mDocTraversalDepth++;
+        mVisitorIsInsideHeaderFooter = true;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة HeaderFooter.
+    /// </summary>
+    public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
+    {
+        mDocTraversalDepth--;
+        IndentAndAppendLine("[HeaderFooter end]");
+        mVisitorIsInsideHeaderFooter = false;
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// أضف سطرًا إلى StringBuilder، وقم بتدويره وفقًا لمدى عمق الزائر في شجرة المستند.
+    /// </summary>
+    /// <اسم المعلمة="نص"></param>
+    private void IndentAndAppendLine(string text)
+    {
+        for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");
+
+        mBuilder.AppendLine(text);
+    }
+
+    private bool mVisitorIsInsideHeaderFooter;
+    private int mDocTraversalDepth;
+    private readonly StringBuilder mBuilder;
+}
 ```
 
 ### أنظر أيضا
@@ -17,7 +119,5 @@ public override VisitorAction AcceptEnd(DocumentVisitor visitor)
 * enum [VisitorAction](../../visitoraction/)
 * class [DocumentVisitor](../../documentvisitor/)
 * class [HeaderFooter](../)
-* مساحة الاسم [Aspose.Words](../../headerfooter/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

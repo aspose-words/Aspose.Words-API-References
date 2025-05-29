@@ -3,14 +3,14 @@ title: ChartDataLabel.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words لـ .NET
-description: ChartDataLabel Separator ملكية. الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات في المخطط. الإعداد الافتراضي هو فاصلة باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط عند استخدام فاصل الأسطر بدلاً من ذلك في C#.
+description: اكتشف خاصية فاصل تسميات بيانات الرسم البياني لتخصيص تسميات بيانات الرسم البياني. عيّن فواصل السلاسل بسهولة للحصول على تصور ومعلومات أكثر وضوحًا.
 type: docs
-weight: 70
+weight: 120
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/separator/
 ---
 ## ChartDataLabel.Separator property
 
-الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات في المخطط. الإعداد الافتراضي هو فاصلة، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط، عند استخدام فاصل الأسطر بدلاً من ذلك.
+يحصل على أو يعين فاصل السلسلة المستخدم في تسميات البيانات على الرسم البياني. الافتراضي هو فاصلة، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط، عندما يتم استخدام فاصل الأسطر بدلاً من ذلك.
 
 ```csharp
 public string Separator { get; set; }
@@ -18,7 +18,7 @@ public string Separator { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
+يوضح كيفية تطبيق العلامات على نقاط البيانات في مخطط خطي.
 
 ```csharp
 public void DataLabels()
@@ -34,15 +34,15 @@ public void DataLabels()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // قم بتطبيق تسميات البيانات على كل سلسلة في المخطط.
-    // ستظهر هذه التسميات بجوار كل نقطة بيانات في الرسم البياني وستعرض قيمتها.
+    // تطبيق تسميات البيانات على كل سلسلة في الرسم البياني.
+    // ستظهر هذه العلامات بجوار كل نقطة بيانات في الرسم البياني وتعرض قيمتها.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // قم بتغيير السلسلة الفاصلة لكل تسمية بيانات في السلسلة.
+    // قم بتغيير سلسلة الفاصل لكل تسمية بيانات في السلسلة.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,8 +52,11 @@ public void DataLabels()
         }
     }
 
-    // للحصول على رسم بياني أكثر وضوحًا، يمكننا إزالة تسميات البيانات بشكل فردي.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
+
+    // للحصول على رسم بياني يبدو أكثر نظافة، يمكننا إزالة تسميات البيانات بشكل فردي.
+    dataLabel.ClearFormat();
 
     // يمكننا أيضًا تجريد سلسلة كاملة من تسميات البيانات الخاصة بها مرة واحدة.
     chart.Series[2].DataLabels.ClearFormat();
@@ -62,14 +65,15 @@ public void DataLabels()
 }
 
 /// <summary>
-/// قم بتطبيق تسميات البيانات بتنسيق أرقام مخصص وفاصل على عدة نقاط بيانات في سلسلة.
+/// قم بتطبيق تسميات البيانات بتنسيق رقم مخصص وفاصل لعدة نقاط بيانات في سلسلة.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

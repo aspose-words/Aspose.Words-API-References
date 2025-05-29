@@ -3,14 +3,14 @@ title: ShapeBase.RelativeVerticalSize
 linktitle: RelativeVerticalSize
 articleTitle: RelativeVerticalSize
 second_title: Aspose.Words لـ .NET
-description: ShapeBase RelativeVerticalSize ملكية. الحصول على أو تعيين قيمة الحجم النسبي للشكل في الاتجاه الرأسي في C#.
+description: اكتشف خاصية ShapeBase RelativeVerticalSize لضبط الأبعاد الرأسية للأشكال بسهولة لتحسين مرونة التصميم ودقته.
 type: docs
-weight: 450
+weight: 480
 url: /ar/net/aspose.words.drawing/shapebase/relativeverticalsize/
 ---
 ## ShapeBase.RelativeVerticalSize property
 
-الحصول على أو تعيين قيمة الحجم النسبي للشكل في الاتجاه الرأسي.
+يحصل على قيمة الحجم النسبي للشكل في الاتجاه الرأسي أو يعينها.
 
 ```csharp
 public RelativeVerticalSize RelativeVerticalSize { get; set; }
@@ -20,54 +20,54 @@ public RelativeVerticalSize RelativeVerticalSize { get; set; }
 
 القيمة الافتراضية هيMargin.
 
-ليس له تأثير إلا إذا[`HeightRelative`](../heightrelative/) تم تعيينه.
+لا يكون له تأثير إلا إذا[`HeightRelative`](../heightrelative/) تم تعيينه.
 
 ## أمثلة
 
-يوضح كيفية ضبط الحجم والموضع النسبي.
+يوضح كيفية تعيين الحجم والموضع النسبي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إضافة شكل بسيط بالحجم والموضع المطلقين.
+//إضافة شكل بسيط بالحجم والموضع المطلق.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
-// قم بتعيين WrapType على WrapType.None حيث يتم تحويل الأشكال المضمنة تلقائيًا إلى وحدات مطلقة.
+// قم بتعيين WrapType إلى WrapType.None نظرًا لأن الأشكال المضمنة يتم تحويلها تلقائيًا إلى وحدات مطلقة.
 shape.WrapType = WrapType.None;
 
 // التحقق من الحجم الأفقي النسبي وتعيينه.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // ضبط الحجم الأفقي للربط بالهامش.
+    // تعيين حجم الربط الأفقي إلى الهامش.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // ضبط العرض على 50% من عرض الهامش.
+    // ضبط العرض إلى 50% من عرض الهامش.
     shape.WidthRelative = 50;
 }
 
 // التحقق من الحجم الرأسي النسبي وتعيينه.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // ضبط الحجم الرأسي للربط بالهامش.
+    // تعيين حجم الربط الرأسي إلى الهامش.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // ضبط الارتفاع على 30% من ارتفاع الهامش.
+    // ضبط الارتفاع إلى 30% من ارتفاع الهامش.
     shape.HeightRelative = 30;
 }
 
-// التحقق من الوضع الرأسي النسبي وتعيينه.
+// التحقق من الموضع الرأسي النسبي وتعيينه.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // تحديد الموضع المرتبط بـ TopMargin.
+    // تعيين ربط الموضع إلى TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // تعيين أعلى نسبة إلى 30% من موضع الهامش العلوي.
+    // ضبط الجزء العلوي النسبي إلى 30% من موضع TopMargin.
     shape.TopRelative = 30;
 }
 
-// التحقق من الوضع الأفقي النسبي وضبطه.
+// التحقق من الموضع الأفقي النسبي وتعيينه.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
-    // تعيين موضع ربط RightMargin.
+    // تعيين ربط الموضع إلى RightMargin.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
-    // يمكن أن تكون القيمة النسبية للموضع سالبة.
+    //يمكن أن تكون القيمة النسبية للموضع سلبية.
     shape.LeftRelative = -260;
 }
 

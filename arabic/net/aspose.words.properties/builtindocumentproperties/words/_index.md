@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Words
 linktitle: Words
 articleTitle: Words
 second_title: Aspose.Words لـ .NET
-description: BuiltInDocumentProperties Words ملكية. يمثل تقديرًا لعدد الكلمات في المستند في C#.
+description: اكتشف خاصية الكلمات BuiltInDocumentProperties، التي توفر تقديرًا دقيقًا لعدد الكلمات في مستنداتك لتحسين كفاءة التحرير.
 type: docs
-weight: 330
+weight: 360
 url: /ar/net/aspose.words.properties/builtindocumentproperties/words/
 ---
 ## BuiltInDocumentProperties.Words property
@@ -22,7 +22,7 @@ public int Words { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديث جميع تسميات القائمة في المستند.
+يوضح كيفية تحديث كافة تسميات القائمة في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words لا يتتبع مقاييس المستند مثل هذه في الوقت الفعلي.
+// لا يتتبع Aspose.Words مقاييس المستندات مثل هذه في الوقت الفعلي.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -63,59 +63,59 @@ public void Content()
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
     // باستخدام الخصائص المضمنة،
-    // يمكننا التعامل مع إحصائيات المستند مثل عدد الكلمات/الصفحة/الأحرف كبيانات وصفية يمكن إلقاء نظرة سريعة عليها دون فتح المستند
-    // يتم الوصول إلى هذه الخصائص عن طريق النقر بزر الماوس الأيمن على الملف في مستكشف Windows والانتقال إلى الخصائص > التفاصيل > محتوى
+    // يمكننا التعامل مع إحصائيات المستند مثل عدد الكلمات/الصفحات/الأحرف كبيانات وصفية يمكن الاطلاع عليها دون فتح المستند
+    // يمكن الوصول إلى هذه الخصائص عن طريق النقر بزر الماوس الأيمن فوق الملف في مستكشف Windows والانتقال إلى الخصائص > التفاصيل > المحتوى
     // إذا أردنا عرض هذه البيانات داخل المستند، فيمكننا استخدام حقول مثل NUMPAGES وNUMWORDS وNUMCHARS وما إلى ذلك.
-    // يمكن أيضًا عرض هذه القيم في برنامج Microsoft Word من خلال التنقل في الملف > الخصائص > خصائص متقدمة > إحصائيات
-    // عدد الصفحات: تعرض خاصية PageCount عدد الصفحات في الوقت الفعلي ويمكن تعيين قيمتها لخاصية الصفحات
+    // كما يمكن أيضًا عرض هذه القيم في Microsoft Word من خلال التنقل عبر ملف > خصائص > خصائص متقدمة > إحصائيات
+    // عدد الصفحات: تعرض خاصية PageCount عدد الصفحات في الوقت الفعلي ويمكن تعيين قيمتها لخاصية Pages
 
-     // تقوم خاصية "الصفحات" بتخزين عدد صفحات المستند.
+     //تخزن خاصية "الصفحات" عدد صفحات المستند.
     Assert.AreEqual(6, properties.Pages);
 
-    // تعرض الخصائص المضمنة "Words" و"Characters" و"CharactersWithSpaces" أيضًا إحصائيات مستند متنوعة،
-    // ولكننا نحتاج إلى استدعاء أسلوب "UpdateWordCount" في المستند بأكمله قبل أن نتوقع احتوائه على قيم دقيقة.
+    // تعرض الخصائص المضمنة "الكلمات" و"الأحرف" و"الأحرف ذات المسافات" أيضًا إحصائيات مختلفة للمستند،
+    // ولكننا نحتاج إلى استدعاء طريقة "UpdateWordCount" على المستند بأكمله قبل أن نتوقع أن يحتوي على قيم دقيقة.
     doc.UpdateWordCount();
 
     Assert.AreEqual(1035, properties.Words);
     Assert.AreEqual(6026, properties.Characters);
     Assert.AreEqual(7041, properties.CharactersWithSpaces);
 
-    // احسب عدد الأسطر في المستند، ثم قم بتعيين النتيجة إلى خاصية "الأسطر" المضمنة.
+    // احسب عدد الأسطر في المستند، ثم قم بتعيين النتيجة إلى الخاصية المضمنة "الأسطر".
     LineCounter lineCounter = new LineCounter(doc);
     properties.Lines = lineCounter.GetLineCount();
 
     Assert.AreEqual(142, properties.Lines);
 
-    // قم بتعيين عدد عقد الفقرة في المستند إلى خاصية "الفقرات" المضمنة.
+    // تعيين عدد عقد الفقرات في المستند إلى الخاصية المضمنة "الفقرات".
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
     Assert.AreEqual(29, properties.Paragraphs);
 
-    // احصل على تقدير لحجم ملف وثيقتنا عبر خاصية "البايت" المضمنة.
+    // احصل على تقدير لحجم ملف مستندنا عبر الخاصية المضمنة "Bytes".
     Assert.AreEqual(20310, properties.Bytes);
 
-    // قم بتعيين قالب مختلف للمستند الخاص بنا، ثم قم بتحديث خاصية "القالب" المضمنة يدويًا لتعكس هذا التغيير.
+    // قم بتعيين قالب مختلف لمستندنا، ثم قم بتحديث خاصية "القالب" المضمنة يدويًا لتعكس هذا التغيير.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 
-    // "ContentStatus" هي خاصية وصفية مدمجة.
+    //"ContentStatus" هي خاصية مضمنة وصفية.
     properties.ContentStatus = "Draft";
 
-    // عند الحفظ، ستحتوي الخاصية المضمنة "ContentType" على نوع MIME لتنسيق حفظ الإخراج.
+    // عند الحفظ، ستحتوي الخاصية المضمنة "ContentType" على نوع MIME لتنسيق الحفظ الناتج.
     Assert.AreEqual(string.Empty, properties.ContentType);
 
-    // إذا كانت الوثيقة تحتوي على روابط، وجميعها محدثة، فيمكننا ضبط خاصية "LinksUpToDate" على "صحيح".
+    // إذا كانت الوثيقة تحتوي على روابط، وكانت جميعها محدثة، فيمكننا تعيين الخاصية "LinksUpToDate" إلى "true".
     Assert.False(properties.LinksUpToDate);
 
     doc.Save(ArtifactsDir + "DocumentProperties.Content.docx");
 }
 
 /// <summary>
-/// يحسب الأسطر في المستند.
-/// يجتاز شجرة كيانات تخطيط المستند عند الإنشاء،
-/// كيانات العد من النوع "الخط" التي تحتوي أيضًا على نص حقيقي.
+/// يحسب عدد الأسطر في المستند.
+/// يجتاز شجرة كيانات تخطيط المستند أثناء الإنشاء،
+/// حساب الكيانات من نوع "السطر" التي تحتوي أيضًا على نص حقيقي.
 /// </summary>
 private class LineCounter
 {

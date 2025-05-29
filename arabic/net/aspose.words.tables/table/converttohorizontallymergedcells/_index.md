@@ -3,14 +3,14 @@ title: Table.ConvertToHorizontallyMergedCells
 linktitle: ConvertToHorizontallyMergedCells
 articleTitle: ConvertToHorizontallyMergedCells
 second_title: Aspose.Words لـ .NET
-description: Table ConvertToHorizontallyMergedCells طريقة. تحويل الخلايا المدمجة أفقيا حسب العرض إلى الخلايا المدمجة بهاHorizontalMerge  في C#.
+description: اكتشف كيف تقوم طريقة ConvertToHorizontallyMergedCells بتحويل الخلايا المدمجة العريضة إلى خلايا مدمجة أفقياً، مما يعزز تنظيم البيانات لديك.
 type: docs
-weight: 390
+weight: 410
 url: /ar/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
 
-تحويل الخلايا المدمجة أفقيا حسب العرض إلى الخلايا المدمجة بها[`HorizontalMerge`](../../cellformat/horizontalmerge/) .
+يحول الخلايا المندمجة أفقيًا حسب العرض إلى خلايا مندمجة حسب[`HorizontalMerge`](../../cellformat/horizontalmerge/) .
 
 ```csharp
 public void ConvertToHorizontallyMergedCells()
@@ -18,11 +18,11 @@ public void ConvertToHorizontallyMergedCells()
 
 ## ملاحظات
 
-يمكن دمج خلايا الجدول أفقيًا إما باستخدام علامات الدمج[`HorizontalMerge`](../../cellformat/horizontalmerge/) أو باستخدام عرض الخلية[`Width`](../../cellformat/width/).
+يمكن دمج خلايا الجدول أفقيًا باستخدام علامات الدمج[`HorizontalMerge`](../../cellformat/horizontalmerge/) أو باستخدام عرض الخلية[`Width`](../../cellformat/width/).
 
-عندما يتم دمج خلية الجدول بواسطة خاصية العرض[`HorizontalMerge`](../../cellformat/horizontalmerge/) لا معنى له ولكن في بعض الأحيان يكون وجود علامات الدمج طريقة أكثر ملاءمة.
+عندما يتم دمج خلية الجدول بواسطة خاصية العرض[`HorizontalMerge`](../../cellformat/horizontalmerge/) لا معنى له، ولكن في بعض الأحيان يكون وجود أعلام الدمج هو الطريقة الأكثر ملاءمة.
 
-استخدم هذه الطريقة لتحويل خلايا الجدول المدمجة أفقيًا حسب العرض إلى خلايا مدمجة بواسطة إشارات الدمج.
+استخدم هذه الطريقة لتحويل خلايا الجدول المدمجة أفقياً حسب العرض إلى خلايا مدمجة بواسطة علامات الدمج.
 
 ## أمثلة
 
@@ -31,9 +31,9 @@ public void ConvertToHorizontallyMergedCells()
 ```csharp
 Document doc = new Document(MyDir + "Table with merged cells.docx");
 
-// لم يعد Microsoft Word يكتب علامات الدمج بعد الآن، بل يحدد الخلايا المدمجة حسب العرض بدلاً من ذلك.
-// يحدد Aspose.Words بشكل افتراضي 5 خلايا فقط في الصف، ولا تحتوي أي منها على علامة الدمج الأفقي،
-// على الرغم من وجود 7 خلايا في الصف قبل حدوث الدمج الأفقي.
+// لم يعد برنامج Microsoft Word يكتب علامات الدمج، بل يقوم بدلاً من ذلك بتحديد الخلايا المدمجة حسب العرض.
+// يحدد Aspose.Words بشكل افتراضي 5 خلايا فقط في صف واحد، ولا يحتوي أي منها على علامة الدمج الأفقي،
+// على الرغم من وجود 7 خلايا في الصف قبل إجراء الدمج الأفقي.
 Table table = doc.FirstSection.Body.Tables[0];
 Row row = table.Rows[0];
 
@@ -41,8 +41,8 @@ Assert.AreEqual(5, row.Cells.Count);
 Assert.True(row.Cells.All(c => ((Cell)c).CellFormat.HorizontalMerge == CellMerge.None));
 
 // استخدم طريقة "ConvertToHorizontallyMergedCells" لتحويل الخلايا المدمجة أفقيًا
-// حسب عرضه للخلية المدمجة أفقيًا بواسطة الأعلام.
-// الآن، لدينا 7 خلايا، وبعضها يحتوي على قيم دمج أفقي.
+// حسب عرضها إلى الخلية المندمجة أفقيًا بواسطة الأعلام.
+// الآن، لدينا 7 خلايا، وبعضها يحتوي على قيم دمج أفقية.
 table.ConvertToHorizontallyMergedCells();
 row = table.Rows[0];
 

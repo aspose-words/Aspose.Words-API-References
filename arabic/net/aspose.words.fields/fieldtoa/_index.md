@@ -3,9 +3,9 @@ title: FieldToa Class
 linktitle: FieldToa
 articleTitle: FieldToa
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldToa فصل. ينفذ حقل TOA في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldToa لتنفيذ حقول TOA بسلاسة. حسّن معالجة مستنداتك بميزات فعّالة اليوم!
 type: docs
-weight: 2520
+weight: 2930
 url: /ar/net/aspose.words.fields/fieldtoa/
 ---
 ## FieldToa class
@@ -28,45 +28,45 @@ public class FieldToa : Field
 
 | اسم | وصف |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname/) { get; set; } | الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد جزء المستند المستخدم لإنشاء الجدول. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname/) { get; set; } | يحصل على اسم الإشارة المرجعية التي تحدد الجزء من المستند المستخدم لبناء الجدول أو يعينه. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory/) { get; set; } | الحصول على أو تعيين الفئة المتكاملة للإدخالات المضمنة في الجدول. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل جدول إدخال المراجع ورقم الصفحة الخاص به. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين رقمي الصفحات في قائمة أرقام الصفحات. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين بداية نطاق الصفحات ونهايته. |
-| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إزالة تنسيق نص الإدخال في المستند من الإدخال في جدول المراجع المصدقة. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
-| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | الحصول على أو تعيين اسم التسلسل الذي تم تضمين رقمه مع رقم الصفحة. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | الحصول على أو تعيين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
+| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory/) { get; set; } | يحصل على الفئة المتكاملة للإدخالات المضمنة في الجدول أو يعينها. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator/) { get; set; } | يحصل على أو يعين تسلسل الأحرف المستخدم لفصل إدخال جدول السلطات ورقم الصفحة الخاص به. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator/) { get; set; } | يحصل على أو يعين تسلسل الأحرف المستخدم لفصل رقمين للصفحات في قائمة أرقام الصفحات. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | يحصل على أو يعين تسلسل الأحرف المستخدم لفصل بداية ونهاية نطاق الصفحة. |
+| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم إزالة تنسيق نص الإدخال في المستند من الإدخال في جدول السلطات. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
+| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | يحصل على اسم التسلسل الذي تم تضمين رقمه مع رقم الصفحة أو يعينه. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | يحصل على أو يعين تسلسل الأحرف المستخدم لفصل أرقام التسلسل وأرقام الصفحات. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
-| [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تضمين عنوان الفئة للإدخالات في جدول المراجع المصدقة. |
-| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم استبدال خمسة أو أكثر من مراجع الصفحات المختلفة لنفس المرجع بكلمة "passim"، والتي تستخدم للإشارة إلى تكرار كلمة أو مقطع ما في العمل المستشهد به. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
+| [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم تضمين عنوان الفئة للإدخالات في جدول السلطات. |
+| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم استبدال خمسة أو أكثر من المراجع المختلفة للصفحات لنفس المرجع بـ "passim"، والذي يستخدم للإشارة إلى أن الكلمة أو المقطع يظهر بشكل متكرر في العمل المذكور. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-إنشاء جدول بالمراجع (أي قائمة المراجع في مستند قانوني، مثل المراجع للقضايا والتشريعات والقواعد، بالإضافة إلى أرقام الصفحات التي تظهر عليها المراجع) باستخدام إدخالات المحددة بواسطة TA الحقول.
+يقوم ببناء جدول السلطات (أي قائمة المراجع في مستند قانوني، مثل المراجع للقضايا والتشريعات والقواعد، بالإضافة إلى أرقام الصفحات التي تظهر فيها المراجع) باستخدام إدخالات المحددة بواسطة حقول TA.
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول المراجع المصدقة وتخصيصه باستخدام حقلي TOA وTA.
+يوضح كيفية إنشاء جدول السلطات وتخصيصه باستخدام حقول TOA وTA.
 
 ```csharp
 public void FieldTOA()
@@ -78,37 +78,37 @@ public void FieldTOA()
     // عرض الاستشهادات الطويلة وأرقام الصفحات لكل إدخال.
     FieldToa fieldToa = (FieldToa)builder.InsertField(FieldType.FieldTOA, false);
 
-    // قم بتعيين فئة الإدخال لجدولنا. سيتضمن TOA الآن حقول TA فقط
+    // عيّن فئة الإدخال لجدولنا. سيتضمن هذا TOA الآن حقول TA فقط.
     // التي لها قيمة مطابقة في خاصية EntryCategory الخاصة بها.
     fieldToa.EntryCategory = "1";
 
-    // علاوة على ذلك، فإن جدول فئة السلطات في الفهرس 1 هو "القضايا"،
-    // والذي سيظهر كعنوان لجدولنا إذا قمنا بتعيين هذا المتغير على صحيح.
+    // علاوة على ذلك، فإن فئة جدول السلطات في الفهرس 1 هي "الحالات"،
+    // والذي سيظهر كعنوان لجدولنا إذا قمنا بتعيين هذا المتغير إلى true.
     fieldToa.UseHeading = true;
 
-    // يمكننا أيضًا تصفية حقول TA عن طريق تسمية إشارة مرجعية يجب أن تكون ضمن حدود TOA.
+    // يمكننا تصفية حقول TA بشكل أكبر عن طريق تسمية إشارة مرجعية يجب أن تكون ضمن حدود TOA.
     fieldToa.BookmarkName = "MyBookmark";
 
-    // بشكل افتراضي، تظهر علامة تبويب على مستوى الصفحة بخط منقط بين اقتباس حقل TA
-    // ورقم صفحته. يمكننا استبداله بأي نص نضعه على هذه الخاصية.
+    // بشكل افتراضي، يظهر خط منقط على مستوى الصفحة بين الاستشهادات في حقل TA
+    // ورقم الصفحة. يمكننا استبداله بأي نص نضعه على هذه الخاصية.
     // سيؤدي إدراج حرف علامة التبويب إلى الحفاظ على علامة التبويب الأصلية.
     fieldToa.EntrySeparator = " \t p.";
 
-    // إذا كان لدينا العديد من إدخالات TA التي تشترك في نفس الاقتباس الطويل،
-    // ستظهر جميع أرقام الصفحات الخاصة بها في صف واحد.
-    // يمكننا استخدام هذه الخاصية لتحديد سلسلة تفصل بين أرقام صفحاتها.
+    // إذا كان لدينا إدخالات TA متعددة تشترك في نفس الاقتباس الطويل،
+    // ستظهر جميع أرقام الصفحات الخاصة بهم في صف واحد.
+    //يمكننا استخدام هذه الخاصية لتحديد سلسلة من شأنها فصل أرقام الصفحات.
     fieldToa.PageNumberListSeparator = " & p. ";
 
-    // يمكننا ضبط هذا على "صحيح" حتى يعرض جدولنا كلمة "passim"
+    // يمكننا ضبط هذا على "صحيح" لجعل جدولنا يعرض الكلمة "passim"
     // إذا كان هناك خمسة أرقام صفحات أو أكثر في صف واحد.
     fieldToa.UsePassim = true;
 
-    // يمكن أن يشير حقل TA واحد إلى مجموعة من الصفحات.
-    // يمكننا تحديد سلسلة هنا لتظهر بين أرقام صفحة البداية والنهاية لمثل هذه النطاقات.
+    // يمكن لحقل TA واحد أن يشير إلى مجموعة من الصفحات.
+    //يمكننا تحديد سلسلة هنا لتظهر بين أرقام الصفحة الأولية والنهائية لمثل هذه النطاقات.
     fieldToa.PageRangeSeparator = " to ";
 
-    // سيتم نقل التنسيق من حقول TA إلى جدولنا.
-    // يمكننا تعطيل هذا عن طريق تعيين علامة RemoveEntryFormatting.
+    //سيتم نقل التنسيق من حقول TA إلى جدولنا.
+    //يمكننا تعطيل هذا عن طريق تعيين علم RemoveEntryFormatting.
     fieldToa.RemoveEntryFormatting = true;
     builder.Font.Color = Color.Green;
     builder.Font.Name = "Arial Black";
@@ -117,18 +117,18 @@ public void FieldTOA()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // لن يظهر حقل TA هذا كمدخل في TOA لأنه موجود بالخارج
+    // لن يظهر حقل TA هذا كإدخال في TOA لأنه خارج
     // حدود الإشارة المرجعية التي تحددها خاصية BookmarkName الخاصة بـ TOA.
     FieldTA fieldTA = InsertToaEntry(builder, "1", "Source 1");
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 1\"", fieldTA.GetFieldCode());
 
-    // حقل TA هذا موجود داخل الإشارة المرجعية،
-    // لكن فئة الإدخال لا تتطابق مع فئة الجدول، لذلك لن يتضمنها حقل TA.
+    // هذا الحقل TA موجود داخل الإشارة المرجعية،
+    // ولكن فئة الإدخال لا تتطابق مع فئة الجدول، لذا فإن حقل TA لن يتضمنها.
     builder.StartBookmark("MyBookmark");
     fieldTA = InsertToaEntry(builder, "2", "Source 2");
 
-    // سيظهر هذا الإدخال في الجدول.
+    //سيظهر هذا الإدخال في الجدول.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
 
     // لا يعرض جدول TOA الاستشهادات القصيرة،
@@ -138,16 +138,16 @@ public void FieldTOA()
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\s S.3", fieldTA.GetFieldCode());
 
     // يمكننا تنسيق رقم الصفحة لجعله غامقًا/مائلًا باستخدام الخصائص التالية.
-    // سنظل نرى هذه التأثيرات إذا قمنا بتعيين جدولنا لتجاهل التنسيق.
+    // سوف نستمر في رؤية هذه التأثيرات إذا قمنا بتعيين جدولنا لتجاهل التنسيق.
     fieldTA = InsertToaEntry(builder, "1", "Source 2");
     fieldTA.IsBold = true;
     fieldTA.IsItalic = true;
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 2\" \\b \\i", fieldTA.GetFieldCode());
 
-    // يمكننا تكوين حقول TA للحصول على إدخالات TOA الخاصة بها للإشارة إلى نطاق من الصفحات التي تمتد عبرها الإشارة المرجعية.
-    // لاحظ أن هذا الإدخال يشير إلى نفس المصدر الموجود أعلاه لمشاركة صف واحد في جدولنا.
-    // سيحتوي هذا الصف على رقم صفحة الإدخال أعلاه ونطاق صفحات هذا الإدخال،
+    // يمكننا تكوين حقول TA للحصول على إدخالات TOA الخاصة بها للإشارة إلى مجموعة من الصفحات التي يمتد عبرها الإشارة المرجعية.
+    // لاحظ أن هذا الإدخال يشير إلى نفس المصدر المذكور أعلاه لمشاركة صف واحد في جدولنا.
+    // سيحتوي هذا الصف على رقم الصفحة للإدخال أعلاه ونطاق الصفحة لهذا الإدخال،
     // مع قائمة صفحات الجدول وفواصل نطاق أرقام الصفحات بين أرقام الصفحات.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
     fieldTA.PageRangeBookmarkName = "MyMultiPageBookmark";
@@ -160,7 +160,7 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\r MyMultiPageBookmark", fieldTA.GetFieldCode());
 
-    // إذا قمنا بتمكين ميزة "Passim" في جدولنا، فإن وجود 5 إدخالات TA أو أكثر من نفس المصدر سيؤدي إلى استدعائها.
+    // إذا قمنا بتمكين ميزة "Passim" في جدولنا، فإن وجود 5 أو أكثر من إدخالات TA بنفس المصدر سيؤدي إلى استدعائها.
     for (int i = 0; i < 5; i++)
     {
         InsertToaEntry(builder, "1", "Source 4");

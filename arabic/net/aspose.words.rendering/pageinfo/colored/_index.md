@@ -3,7 +3,7 @@ title: PageInfo.Colored
 linktitle: Colored
 articleTitle: Colored
 second_title: Aspose.Words لـ .NET
-description: PageInfo Colored ملكية. إرجاعحقيقي إذا كانت الصفحة تحتوي على محتوى ملون في C#.
+description: اكتشف ما إذا كانت صفحتك تتميز بمحتوى ملون نابض بالحياة باستخدام خاصية PageInfo Colored. عزّز تفاعل المستخدمين وحسّن المظهر البصري!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.rendering/pageinfo/colored/
@@ -23,7 +23,7 @@ public bool Colored { get; }
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// تأكد من أن الصفحة الأولى من المستند غير ملونة.
+// تأكد من أن الصفحة الأولى من المستند ليست ملونة.
 Assert.IsFalse(doc.GetPageInfo(0).Colored);
 ```
 

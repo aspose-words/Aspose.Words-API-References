@@ -3,9 +3,9 @@ title: CellFormat.HorizontalMerge
 linktitle: HorizontalMerge
 articleTitle: HorizontalMerge
 second_title: Aspose.Words لـ .NET
-description: CellFormat HorizontalMerge ملكية. يحدد كيفية دمج الخلية أفقيًا مع الخلايا الأخرى في الصف في C#.
+description: اكتشف خاصية CellFormat HorizontalMerge لدمج الخلايا أفقيًا بسلاسة، مما يعزز تخطيط جدول البيانات وتنظيمه.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -24,19 +24,19 @@ public CellMerge HorizontalMerge { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل خلية في العمود الأول من الصف الأول.
-// ستكون هذه الخلية هي الأولى في نطاق من الخلايا المدمجة أفقيًا.
+//أدرج خلية في العمود الأول من الصف الأول.
+// ستكون هذه الخلية هي الأولى في نطاق الخلايا المدمجة أفقيًا.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// أدخل خلية في العمود الثاني من الصف الأول. بدلاً من إضافة محتويات نصية،
-// سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها مباشرة إلى اليسار.
+// أدخل خلية في العمود الثاني من الصف الأول. بدلًا من إضافة محتوى نصي،
+// سوف نقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها مباشرة إلى اليسار.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// أدخل خليتين غير مدمجتين في الصف الثاني.
+// أدخل خليتين غير مدمجتين إلى الصف الثاني.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -48,7 +48,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.HorizontalMerge.docx");
 ```
 
-طباعة نوع الدمج الأفقي والرأسي للخلية.
+يطبع نوع الدمج الأفقي والرأسي للخلية.
 
 ```csharp
 public void CheckCellsMerged()
@@ -56,8 +56,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 

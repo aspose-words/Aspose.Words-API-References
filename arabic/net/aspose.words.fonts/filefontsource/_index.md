@@ -3,14 +3,14 @@ title: FileFontSource Class
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.FileFontSource فصل. يمثل ملف خط TrueType الفردي المخزن في نظام الملفات في C#.
+description: اكتشف Aspose.Words.Fonts.FileFontSource. أدر ملفات خطوط TrueType بسهولة على نظامك لتحسين تنسيق المستندات ومرونة التصميم.
 type: docs
-weight: 2870
+weight: 3280
 url: /ar/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
-يمثل ملف خط TrueType الفردي المخزن في نظام الملفات.
+يمثل ملف الخط TrueType الوحيد المخزن في نظام الملفات.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
@@ -22,9 +22,9 @@ public class FileFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(*string*) | الممثل. |
-| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | الممثل. |
-| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | الممثل. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | المولد. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | المولد. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | المولد. |
 
 ## الخصائص
 
@@ -32,9 +32,9 @@ public class FileFontSource : FontSourceBase
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. |
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | المسار إلى ملف الخط. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يُرجع أولوية مصدر الخط. |
-| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | إرجاع نوع مصدر الخط. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يعيد أولوية مصدر الخط. |
+| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | يعيد نوع مصدر الخط. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤها أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
 
 ## طُرق
 

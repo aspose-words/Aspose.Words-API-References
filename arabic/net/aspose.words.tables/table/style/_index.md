@@ -3,14 +3,14 @@ title: Table.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words لـ .NET
-description: Table Style ملكية. الحصول على أو تعيين نمط الجدول المطبق على هذا الجدول في C#.
+description: اكتشف كيفية تخصيص مظهر الجدول الخاص بك بسهولة باستخدام خاصية Table Style - قم بتعزيز تصميماتك باستخدام أنماط فريدة دون عناء!
 type: docs
 weight: 270
 url: /ar/net/aspose.words.tables/table/style/
 ---
 ## Table.Style property
 
-الحصول على أو تعيين نمط الجدول المطبق على هذا الجدول.
+يحصل على نمط الجدول المطبق على هذا الجدول أو يعينه.
 
 ```csharp
 public Style Style { get; set; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

@@ -3,16 +3,16 @@ title: XmlDataLoadOptions Class
 linktitle: XmlDataLoadOptions
 articleTitle: XmlDataLoadOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Reporting.XmlDataLoadOptions فصل. يمثل خيارات تحميل بيانات XML في C#.
+description: اكتشف Aspose.Words.Reporting.XmlDataLoadOptions لتحميل بيانات XML بكفاءة. حسّن معالجة مستنداتك مع خيارات تكوين مرنة.
 type: docs
-weight: 4740
+weight: 5480
 url: /ar/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
 
 يمثل خيارات تحميل بيانات XML.
 
-لمعرفة المزيد، قم بزيارة[محرك التقارير LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[محرك إعداد التقارير LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) مقالة توثيقية.
 
 ```csharp
 public class XmlDataLoadOptions
@@ -22,13 +22,13 @@ public class XmlDataLoadOptions
 
 | اسم | وصف |
 | --- | --- |
-| [XmlDataLoadOptions](xmldataloadoptions/)() | تهيئة مثيل جديد لهذه الفئة بالخيارات الافتراضية. |
+| [XmlDataLoadOptions](xmldataloadoptions/)() | يقوم بتهيئة مثيل جديد لهذه الفئة باستخدام الخيارات الافتراضية. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | الحصول على علامة تشير إلى ما إذا كان مصدر البيانات الذي تم إنشاؤه سيحتوي دائمًا على كائن لعنصر جذر XML . إذا كان عنصر جذر XML لا يحتوي على سمات وجميع عناصره الفرعية لها نفس الأسماء، فلن يتم إنشاء مثل هذا الكائن بشكل افتراضي. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | يحصل على أو يضبط علامة تشير إلى ما إذا كان مصدر البيانات المُولّد سيحتوي دائمًا على كائن لعنصر جذر XML . إذا لم يكن لعنصر جذر XML أي سمات وكانت جميع عناصره الفرعية تحمل أسماءً متطابقة، فلن يُنشأ هذا الكائن افتراضيًا. |
 
 ## ملاحظات
 

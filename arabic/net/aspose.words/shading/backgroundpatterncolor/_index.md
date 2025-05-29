@@ -3,14 +3,14 @@ title: Shading.BackgroundPatternColor
 linktitle: BackgroundPatternColor
 articleTitle: BackgroundPatternColor
 second_title: Aspose.Words لـ .NET
-description: Shading BackgroundPatternColor ملكية. الحصول على أو تعيين اللون المطبق على خلفية الصورةShading الكائن في C#.
+description: اكتشف خاصية Shading BackgroundPatternColor لتخصيص لون خلفية كائن التظليل الخاص بك، مما يعزز الجاذبية البصرية لتصميمك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/shading/backgroundpatterncolor/
 ---
 ## Shading.BackgroundPatternColor property
 
-الحصول على أو تعيين اللون المطبق على خلفية الصورة[`Shading`](../) الكائن.
+يحصل على اللون الذي يتم تطبيقه على خلفية[`Shading`](../) الكائن.
 
 ```csharp
 public Color BackgroundPatternColor { get; set; }
@@ -18,7 +18,7 @@ public Color BackgroundPatternColor { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تزيين النص بالحدود والتظليل.
+يوضح كيفية تزيين النص باستخدام الحدود والتظليل.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: RevisionsView Enum
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.RevisionsView تعداد. يسمح بتحديد ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند في C#.
+description: اكتشف Aspose.Words.RevisionsView enum لاختيار بسهولة بين إصدارات المستند الأصلية والمنقحة لتسهيل التحرير والتعاون.
 type: docs
-weight: 4810
+weight: 5550
 url: /ar/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
 
-يسمح بتحديد ما إذا كان سيتم العمل مع النسخة الأصلية أو المنقحة من المستند.
+يسمح بتحديد ما إذا كان سيتم العمل مع الإصدار الأصلي أو المنقح للمستند.
 
 ```csharp
 public enum RevisionsView
@@ -20,12 +20,12 @@ public enum RevisionsView
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Original | `0` | يحدد النسخة الأصلية للمستند. |
-| Final | `1` | يحدد النسخة المنقحة من المستند. |
+| Original | `0` | يحدد الإصدار الأصلي للمستند. |
+| Final | `1` | يحدد الإصدار المنقح للمستند. |
 
 ## أمثلة
 
-يوضح كيفية التبديل بين العرض الأصلي والمراجع للمستند.
+يوضح كيفية التبديل بين العرض المنقح والعرض الأصلي للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");
@@ -36,7 +36,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// اعرض كائن المستند كما لو تم قبول جميع المراجعات. يدعم حاليا تسميات القائمة.
+// عرض كائن المستند كما لو أن جميع المراجعات مقبولة. يدعم حاليًا تسميات القوائم.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

@@ -3,14 +3,14 @@ title: RowCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words لـ .NET
-description: RowCollection ToArray طريقة. نسخ كافة الصفوف من المجموعة إلى مجموعة جديدة من الصفوف في C#.
+description: قم بتحويل RowCollection الخاص بك إلى مصفوفة جديدة بسهولة باستخدام طريقة ToArray، مما يضمن إدارة سلسة للبيانات وتحسين الأداء.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/rowcollection/toarray/
 ---
 ## RowCollection.ToArray method
 
-نسخ كافة الصفوف من المجموعة إلى مجموعة جديدة من الصفوف.
+نسخ جميع الصفوف من المجموعة إلى مجموعة جديدة من الصفوف.
 
 ```csharp
 public Row[] ToArray()
@@ -22,7 +22,7 @@ public Row[] ToArray()
 
 ## أمثلة
 
-يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية تكرار جميع الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -36,7 +36,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" على مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

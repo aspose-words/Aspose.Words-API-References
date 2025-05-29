@@ -3,14 +3,14 @@ title: ShapeBase.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words لـ .NET
-description: ShapeBase ScreenTip ملكية. تحديد النص المعروض عندما يتحرك مؤشر الماوس فوق الشكل في C#.
+description: اكتشف خاصية ShapeBase ScreenTip، وقم بتحسين تجربة المستخدم من خلال تخصيص نص التلميح الذي يظهر عند تحريك الماوس فوق الأشكال.
 type: docs
-weight: 480
+weight: 510
 url: /ar/net/aspose.words.drawing/shapebase/screentip/
 ---
 ## ShapeBase.ScreenTip property
 
-تحديد النص المعروض عندما يتحرك مؤشر الماوس فوق الشكل.
+يحدد النص المعروض عند تحرك مؤشر الماوس فوق الشكل.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -22,7 +22,7 @@ public string ScreenTip { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل يحتوي على صورة، ويكون أيضًا ارتباطًا تشعبيًا.
+يوضح كيفية إدراج شكل يحتوي على صورة، وهو أيضًا ارتباط تشعبي.
 
 ```csharp
 Document doc = new Document();
@@ -33,8 +33,8 @@ shape.HRef = "https://forum.aspose.com/";
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
-// Ctrl + النقر بزر الماوس الأيسر على الشكل في Microsoft Word سيفتح نافذة متصفح ويب جديدة
-// وانقلنا إلى الارتباط التشعبي الموجود في خاصية "HRef".
+// الضغط على Ctrl + النقر بزر الماوس الأيسر على الشكل في Microsoft Word سيؤدي إلى فتح نافذة متصفح ويب جديدة
+// ويأخذنا إلى الرابط التشعبي في خاصية "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

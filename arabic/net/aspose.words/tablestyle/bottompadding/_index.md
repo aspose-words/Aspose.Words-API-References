@@ -3,14 +3,14 @@ title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words لـ .NET
-description: TableStyle BottomPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط لإضافتها أسفل محتويات خلايا الجدول في C#.
+description: اكتشف خاصية TableStyle BottomPadding، وخصص تباعد خلايا جدولك لتحسين التخطيط وسهولة القراءة. حسّن تصميمك بسهولة!
 type: docs
 weight: 50
 url: /ar/net/aspose.words/tablestyle/bottompadding/
 ---
 ## TableStyle.BottomPadding property
 
-الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات خلايا الجدول.
+يحصل على مقدار المساحة (بالنقاط) المراد إضافتها أسفل محتويات خلايا الجدول أو يعينه.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

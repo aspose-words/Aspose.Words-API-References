@@ -3,14 +3,14 @@ title: TextBox.InternalMarginRight
 linktitle: InternalMarginRight
 articleTitle: InternalMarginRight
 second_title: Aspose.Words لـ .NET
-description: TextBox InternalMarginRight ملكية. يحدد الهامش الأيمن الداخلي بالنقاط للشكل في C#.
+description: اكتشف خاصية TextBox InternalMarginRight لتخصيص الأشكال الخاصة بك باستخدام هوامش يمين دقيقة في النقاط لتحسين مرونة التصميم.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/textbox/internalmarginright/
 ---
 ## TextBox.InternalMarginRight property
 
-يحدد الهامش الأيمن الداخلي بالنقاط للشكل.
+يحدد الهامش الداخلي الأيمن بالنقاط للشكل.
 
 ```csharp
 public double InternalMarginRight { get; set; }
@@ -28,7 +28,7 @@ public double InternalMarginRight { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مربع نص آخر بهوامش محددة.
+//إدراج مربع نص آخر بهوامش محددة.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

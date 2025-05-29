@@ -3,14 +3,14 @@ title: ChartFormat.Stroke
 linktitle: Stroke
 articleTitle: Stroke
 second_title: Aspose.Words لـ .NET
-description: ChartFormat Stroke ملكية. الحصول على تنسيق الخط لعنصر المخطط الأصلي في C#.
+description: اكتشف خاصية ChartFormat Stroke لتحسين تصميم الخطوط في مخططاتك، مما يضمن عروض تقديمية احترافية وجذابة بصريًا.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartformat/stroke/
 ---
 ## ChartFormat.Stroke property
 
-الحصول على تنسيق الخط لعنصر المخطط الأصلي.
+يحصل على تنسيق السطر لعنصر الرسم البياني الرئيسي.
 
 ```csharp
 public Stroke Stroke { get; }
@@ -18,7 +18,7 @@ public Stroke Stroke { get; }
 
 ## أمثلة
 
-أظهر كيفية ضبط تنسيق العلامة.
+إظهار كيفية تعيين تنسيق العلامة.
 
 ```csharp
 Document doc = new Document();
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// حذف السلسلة الافتراضية التي تم إنشاؤها.
+//حذف السلسلة المولدة افتراضيًا.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// ضبط تنسيق العلامة.
+// تعيين تنسيق العلامة.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

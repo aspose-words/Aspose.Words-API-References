@@ -3,9 +3,9 @@ title: IBibliographyStylesProvider Interface
 linktitle: IBibliographyStylesProvider
 articleTitle: IBibliographyStylesProvider
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.IBibliographyStylesProvider واجهه المستخدم. قم بتنفيذ هذه الواجهة لتوفير نمط المراجع لـ FieldBibliography وFieldCitation الحقول عند تحديثها في C#.
+description: قم بتعزيز تنسيق مستندك باستخدام واجهة Aspose.Words.IBibliographyStylesProvider، وهي مثالية لتخصيص أنماط المراجع في الاستشهادات.
 type: docs
-weight: 2670
+weight: 3080
 url: /ar/net/aspose.words.fields/ibibliographystylesprovider/
 ---
 ## IBibliographyStylesProvider interface
@@ -20,21 +20,25 @@ public interface IBibliographyStylesProvider
 
 | اسم | وصف |
 | --- | --- |
-| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | إرجاع نمط المراجع. |
+| [GetStyle](../../aspose.words.fields/ibibliographystylesprovider/getstyle/)(*string*) | يعيد نمط الببليوغرافيا. |
 
 ## أمثلة
 
-يوضح كيفية تجاوز الأنماط المضمنة أو توفير أنماط مخصصة.
+يوضح كيفية تجاوز الأنماط المضمنة أو توفير نمط مخصص.
 
 ```csharp
 public void ChangeBibliographyStyles()
-{            
+{
     Document doc = new Document(MyDir + "Bibliography.docx");
+
+    // إذا كان المستند يحتوي بالفعل على نمط، فيمكنك تغييره باستخدام الكود التالي:
+    // doc.Bibliography.BibliographyStyle = "Bibliography custom style.xsl";
 
     doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
     doc.UpdateFields();
 
     doc.Save(ArtifactsDir + "Field.ChangeBibliographyStyles.docx");
+
 }
 
 public class BibliographyStylesProvider : IBibliographyStylesProvider

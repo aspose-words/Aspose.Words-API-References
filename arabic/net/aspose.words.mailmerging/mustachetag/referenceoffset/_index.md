@@ -3,14 +3,14 @@ title: MustacheTag.ReferenceOffset
 linktitle: ReferenceOffset
 articleTitle: ReferenceOffset
 second_title: Aspose.Words لـ .NET
-description: MustacheTag ReferenceOffset ملكية. يحصل على موضع البداية الصفري للعلامة من بدايةReferenceRun  في C#.
+description: اكتشف خاصية MustacheTag ReferenceOffset، التي تكشف عن موضع البداية المستند إلى الصفر للعلامات في ReferenceRun لإدارة البيانات بدقة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/mustachetag/referenceoffset/
 ---
 ## MustacheTag.ReferenceOffset property
 
-يحصل على موضع البداية الصفري للعلامة من بداية[`ReferenceRun`](../referencerun/) .
+يحصل على موضع البداية المستند إلى الصفر للعلامة من بداية[`ReferenceRun`](../referencerun/) .
 
 ```csharp
 public int ReferenceOffset { get; }

@@ -3,14 +3,14 @@ title: Document.UpdateWordCount
 linktitle: UpdateWordCount
 articleTitle: UpdateWordCount
 second_title: Aspose.Words لـ .NET
-description: Document UpdateWordCount طريقة. لتحديث خصائص عدد الكلمات في المستند في C#.
+description: قم بتعزيز كفاءة مستندك باستخدام طريقة UpdateWordCount، مما يضمن خصائص عدد الكلمات الدقيقة لتحسين التحرير والمراجعة.
 type: docs
-weight: 790
+weight: 850
 url: /ar/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
 
-لتحديث خصائص عدد الكلمات في المستند.
+تحديث خصائص عدد الكلمات في المستند.
 
 ```csharp
 public void UpdateWordCount()
@@ -18,15 +18,15 @@ public void UpdateWordCount()
 
 ## ملاحظات
 
-`UpdateWordCount` يعيد حساب وتحديث خصائص الأحرف والكلمات والفقرات في ملف[`BuiltInDocumentProperties`](../builtindocumentproperties/) جمع من[`Document`](../).
+`UpdateWordCount` يعيد حساب وتحديث خصائص الأحرف والكلمات والفقرات في[`BuiltInDocumentProperties`](../builtindocumentproperties/) مجموعة من[`Document`](../).
 
-لاحظ أن`UpdateWordCount`لا يقوم بتحديث خصائص عدد الأسطر والصفحات. استخدم`UpdateWordCount` الزائد وتمرير`حقيقي` القيمة كمعلمة للقيام بذلك.
+لاحظ أن`UpdateWordCount` لا يتم تحديث عدد الأسطر وخصائص الصفحات. استخدم`UpdateWordCount` التحميل الزائد والتمرير`حقيقي` القيمة كمعلمة للقيام بذلك.
 
-عند استخدام إصدار تقييمي، سيتم أيضًا تضمين العلامة المائية للتقييم في عدد الكلمات.
+عند استخدام إصدار التقييم، سيتم أيضًا تضمين العلامة المائية للتقييم في عدد الكلمات.
 
 ## أمثلة
 
-يوضح كيفية تحديث جميع تسميات القائمة في المستند.
+يوضح كيفية تحديث كافة تسميات القائمة في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words لا يتتبع مقاييس المستند مثل هذه في الوقت الفعلي.
+// لا يتتبع Aspose.Words مقاييس المستندات مثل هذه في الوقت الفعلي.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -68,7 +68,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(*bool*) {#updatewordcount_1}
 
-يقوم بتحديث خصائص عدد الكلمات في المستند، ويتم تحديثه بشكل اختياري[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) الملكية.
+تحديث خصائص عدد الكلمات في المستند، ويتم التحديث بشكل اختياري[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) الملكية.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -76,15 +76,15 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| updateLinesCount | Boolean | `حقيقي` إذا تم حساب عدد الأسطر في الوثيقة. |
+| updateLinesCount | Boolean | `حقيقي` إذا كان من المفترض حساب عدد الأسطر في المستند. |
 
 ## ملاحظات
 
-ستعمل هذه الطريقة على إعادة بناء تخطيط صفحة المستند.
+ستعمل هذه الطريقة على إعادة بناء تخطيط الصفحة للمستند.
 
 ## أمثلة
 
-يوضح كيفية تحديث جميع تسميات القائمة في المستند.
+يوضح كيفية تحديث كافة تسميات القائمة في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -95,7 +95,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words لا يتتبع مقاييس المستند مثل هذه في الوقت الفعلي.
+// لا يتتبع Aspose.Words مقاييس المستندات مثل هذه في الوقت الفعلي.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);

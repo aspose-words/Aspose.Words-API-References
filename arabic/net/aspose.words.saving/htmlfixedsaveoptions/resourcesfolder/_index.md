@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
 articleTitle: ResourcesFolder
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions ResourcesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الموارد الصور الخطوط CSS عند تصدير مستند إلى تنسيق Html. الافتراضي هوباطل  في C#.
+description: اكتشف كيف تُحدد خاصية HtmlFixedSaveOptions ResourcesFolder مكان تخزين الصور والخطوط وCSS أثناء تصدير HTML. حسّن سير عمل مستندك!
 type: docs
-weight: 140
+weight: 160
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
 ---
 ## HtmlFixedSaveOptions.ResourcesFolder property
 
-يحدد المجلد الفعلي حيث يتم حفظ الموارد (الصور، الخطوط، CSS) عند تصدير مستند إلى تنسيق Html. الافتراضي هو`باطل` .
+يحدد المجلد الفعلي الذي يتم حفظ الموارد فيه (الصور والخطوط وCSS) عند تصدير مستند إلى تنسيق Html. الافتراضي هو`باطل` .
 
 ```csharp
 public string ResourcesFolder { get; set; }
@@ -18,17 +18,17 @@ public string ResourcesFolder { get; set; }
 
 ## ملاحظات
 
-ليس له تأثير إلا إذا[`ExportEmbeddedImages`](../exportembeddedimages/) الملكية هي`خطأ شنيع`.
+لا يكون له تأثير إلا إذا[`ExportEmbeddedImages`](../exportembeddedimages/) الممتلكات هي`خطأ شنيع`.
 
-عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق Html، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.`ResourcesFolder` يسمح لك بتحديد مكان حفظ الصور و[`ResourcesFolderAlias`](../resourcesfolderalias/) يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
+عندما تحفظ[`Document`](../../../aspose.words/document/) في تنسيق Html، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.`ResourcesFolder` يسمح لك بتحديد المكان الذي سيتم حفظ الصور فيه و[`ResourcesFolderAlias`](../resourcesfolderalias/) يسمح لك بتحديد كيفية إنشاء عناوين URI للصور.
 
-إذا قمت بحفظ مستند في ملف وقمت بتوفير اسم ملف، فسيقوم Aspose.Words، افتراضيًا، بحفظ الصور في نفس المجلد حيث تم حفظ ملف المستند. يستخدم`ResourcesFolder` لتجاوز هذا السلوك.
+إذا حفظت مستندًا في ملف وأدخلت اسمًا للملف، فسيحفظ Aspose.Words افتراضيًا صور x000d_ في نفس المجلد الذي حُفظ فيه ملف المستند. استخدم`ResourcesFolder` لتجاوز هذا السلوك.
 
-إذا قمت بحفظ مستند في دفق، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه لا يزال بحاجة إلى حفظ الصور في مكان ما. في هذه الحالة، تحتاج إلى تحديد مجلد يمكن الوصول إليه باستخدام الملف`ResourcesFolder` ملكية
+إذا حفظت مستندًا في مسار، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ، ولكنه سيحتاج إلى حفظها في مكان ما. في هذه الحالة، ستحتاج إلى تحديد مجلد يمكن الوصول إليه باستخدام`ResourcesFolder` ملكية
 
 ## أمثلة
 
-يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام معاودة الاتصال لطباعة عناوين URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -48,7 +48,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // سيحتوي المجلد المحدد بواسطة ResourcesFolderAlias على الموارد بدلاً من ResourcesFolder.
-    // يجب أن نتأكد من وجود المجلد قبل أن تتمكن التدفقات من وضع مواردها فيه.
+    // يتعين علينا التأكد من وجود المجلد قبل أن تتمكن التدفقات من وضع مواردها فيه.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -62,13 +62,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// يحسب ويطبع عناوين URI للموارد التي تحتوي عليها عند تحويلها إلى HTML ثابت.
+/// يقوم بحساب وطباعة عناوين URI للموارد المضمنة أثناء تحويلها إلى HTML ثابت.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions، فسنكون قادرين على طباعته من هنا.
+        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions، فسوف نتمكن من طباعته من هنا.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -78,7 +78,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // بشكل افتراضي، يستخدم 'ResourceFileUri' مجلد النظام للخطوط.
-                // لتجنب المشاكل في الأنظمة الأساسية الأخرى، يجب عليك تحديد مسار الخطوط بشكل صريح.
+                // لتجنب المشاكل في المنصات الأخرى، يجب عليك تحديد المسار للخطوط بشكل صريح.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -87,7 +87,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // إذا قمنا بتحديد مجلد في خاصية "ResourcesFolderAlias"،
-        // سنحتاج أيضًا إلى إعادة توجيه كل تيار لوضع موارده في هذا المجلد.
+        // سوف نحتاج أيضًا إلى إعادة توجيه كل مجرى لوضع موارده في هذا المجلد.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

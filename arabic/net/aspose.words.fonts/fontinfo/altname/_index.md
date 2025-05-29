@@ -3,14 +3,14 @@ title: FontInfo.AltName
 linktitle: AltName
 articleTitle: AltName
 second_title: Aspose.Words لـ .NET
-description: FontInfo AltName ملكية. الحصول على الاسم البديل للخط أو تعيينه في C#.
+description: اكتشف خاصية FontInfo AltName، وقم بإدارة أسماء الخطوط البديلة بسهولة لتحسين الطباعة وتحسين مشاريع التصميم الخاصة بك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontinfo/altname/
 ---
 ## FontInfo.AltName property
 
-الحصول على الاسم البديل للخط أو تعيينه.
+يحصل على الاسم البديل للخط أو يعينه.
 
 ```csharp
 public string AltName { get; set; }
@@ -18,7 +18,7 @@ public string AltName { get; set; }
 
 ## ملاحظات
 
-لا يمكن`باطل`. يمكن أن تكون سلسلة فارغة.
+لا يمكن أن يكون`باطل`.يمكن أن تكون سلسلة فارغة.
 
 ## أمثلة
 
@@ -35,7 +35,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // الأسماء البديلة عادة ما تكون فارغة.
+        // عادةً ما تكون أسماء Alt فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

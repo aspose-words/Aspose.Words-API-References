@@ -3,14 +3,14 @@ title: Stroke.Color2
 linktitle: Color2
 articleTitle: Color2
 second_title: Aspose.Words لـ .NET
-description: Stroke Color2 ملكية. يحدد اللون الثاني للحد في C#.
+description: اكتشف خاصية Stroke Color2 - قم بتعزيز تصميماتك باستخدام لون ضربة ثانية قابل للتخصيص للحصول على صور نابضة بالحياة وجذابة للنظر.
 type: docs
-weight: 30
+weight: 60
 url: /ar/net/aspose.words.drawing/stroke/color2/
 ---
 ## Stroke.Color2 property
 
-يحدد اللون الثاني للحد.
+يحدد لونًا ثانيًا للخط.
 
 ```csharp
 public Color Color2 { get; set; }
@@ -18,19 +18,19 @@ public Color Color2 { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية ل[`Shape`](../../shape/) is White.
+القيمة الافتراضية لـ[`Shape`](../../shape/) هو White .
 
 ## أمثلة
 
-يوضح كيفية معالجة ميزات حدود الشكل.
+يوضح كيفية معالجة ميزات شكل السكتة الدماغية.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Stroke stroke = shape.Stroke;
 
-// يمكن أن تحتوي الحدود على لونين، يُستخدمان لإنشاء نمط محدد بواسطة بيانات الصورة ذات اللونين.
-// لا تستخدم الحدود ذات اللون الواحد خاصية Color2.
+// يمكن أن تحتوي الضربات على لونين، يتم استخدامهما لإنشاء نمط محدد بواسطة بيانات صورة ثنائية اللون.
+// لا تستخدم الضربات ذات اللون الواحد خاصية Color2.
 Assert.AreEqual(Color.FromArgb(255, 128, 0, 0), stroke.Color);
 Assert.AreEqual(Color.FromArgb(255, 255, 255, 0), stroke.Color2);
 

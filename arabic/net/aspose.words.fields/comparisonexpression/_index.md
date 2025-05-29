@@ -3,9 +3,9 @@ title: ComparisonExpression Class
 linktitle: ComparisonExpression
 articleTitle: ComparisonExpression
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.ComparisonExpression فصل. تعبير المقارنة في C#.
+description: اكتشف فئة Aspose.Words.Fields.ComparisonExpression لمقارنة مستندات فعّالة. حسّن سير عملك مع إمكانيات تعبير فعّالة!
 type: docs
-weight: 1490
+weight: 1900
 url: /ar/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
@@ -22,13 +22,13 @@ public sealed class ComparisonExpression
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | الحصول على عامل المقارنة. |
+| [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | يحصل على عامل المقارنة. |
 | [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | يحصل على التعبير الأيسر. |
-| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | الحصول على التعبير الصحيح. |
+| [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | يحصل على التعبير الصحيح. |
 
 ## أمثلة
 
-يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
+يوضح كيفية تنفيذ التقييم المخصص لحقول IF و COMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -41,11 +41,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // رموز الحقول التي نستخدمها في هذا المثال:
-    // 1. " IF {0} {1} {2} \"الوسيطة الحقيقية\" \"الوسيطة الخاطئة\" ".
-    // 2. " قارن {0} {1} {2}".
+    // 1. "إذا {0} {1} {2} \"حجة صحيحة\" \"حجة خاطئة\" ".
+    // 2. " قارن {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // إذا كانت "comparisonResult" غير محددة، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من bool.
+    // إذا كانت "comparisonResult" غير محددة، نقوم بإنشاء "ComparisonEvaluationResult" بسلسلة، بدلاً من bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -60,13 +60,18 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// تقييم تعبيرات المقارنة لـ FieldIf و FieldCompare.
+/// تقييم تعبيرات المقارنة لـ FieldIf وFieldCompare.
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

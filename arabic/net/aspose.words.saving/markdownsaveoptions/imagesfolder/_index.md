@@ -3,14 +3,14 @@ title: MarkdownSaveOptions.ImagesFolder
 linktitle: ImagesFolder
 articleTitle: ImagesFolder
 second_title: Aspose.Words لـ .NET
-description: MarkdownSaveOptions ImagesFolder ملكية. يحدد المجلد الفعلي حيث يتم حفظ الصور عند تصدير مستند إلى Markdown شكل. الافتراضي هو سلسلة فارغة في C#.
+description: اكتشف كيف تعمل خاصية MarkdownSaveOptions ImagesFolder على تعزيز تصدير المستندات الخاصة بك عن طريق تحديد المجلد المثالي لحفظ الصور بتنسيق Markdown.
 type: docs
-weight: 40
+weight: 80
 url: /ar/net/aspose.words.saving/markdownsaveoptions/imagesfolder/
 ---
 ## MarkdownSaveOptions.ImagesFolder property
 
-يحدد المجلد الفعلي حيث يتم حفظ الصور عند تصدير مستند إلى Markdown شكل. الافتراضي هو سلسلة فارغة.
+يحدد المجلد الفعلي الذي يتم حفظ الصور فيه عند تصدير مستند إلى Markdown التنسيق الافتراضي هو سلسلة فارغة.
 
 ```csharp
 public string ImagesFolder { get; set; }
@@ -18,51 +18,31 @@ public string ImagesFolder { get; set; }
 
 ## ملاحظات
 
-عندما تقوم بحفظ ملف[`Document`](../../../aspose.words/document/) فيMarkdownالتنسيق، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة. `ImagesFolder` يسمح لك بتحديد مكان حفظ الصور.
+عندما تحفظ[`Document`](../../../aspose.words/document/) فيMarkdownيحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة. `ImagesFolder` يسمح لك بتحديد المكان الذي سيتم حفظ الصور فيه.
 
-إذا قمت بحفظ مستند في ملف وقمت بتوفير اسم ملف، فإن Aspose.Words، بشكل افتراضي، يحفظ الصور في نفس المجلد الذي تم حفظ ملف المستند فيه. يستخدم`ImagesFolder` لتجاوز هذا السلوك.
+إذا حفظت مستندًا في ملف وأدخلت اسمًا للملف، فسيحفظ Aspose.Words الصور افتراضيًا في نفس المجلد الذي حُفظ فيه ملف المستند. استخدم`ImagesFolder` لتجاوز هذا السلوك.
 
-إذا قمت بحفظ مستند في دفق، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه لا يزال بحاجة إلى حفظ الصور في مكان ما. في هذه الحالة، تحتاج إلى تحديد مجلد يمكن الوصول إليه في ملف`ImagesFolder` الملكية.
+إذا حفظت مستندًا في مسار، فلن يحتوي Aspose.Words على مجلد لحفظ الصور، ولكنه سيحتاج إلى حفظها في مكان ما. في هذه الحالة، ستحتاج إلى تحديد مجلد يمكن الوصول إليه في`ImagesFolder` الملكية.
 
 إذا كان المجلد المحدد بواسطة`ImagesFolder` غير موجود، سيتم إنشاؤه تلقائيًا.
 
 ## أمثلة
 
-يوضح كيفية تحديد اسم المجلد المستخدم لإنشاء معرفات URI للصورة.
+يوضح كيفية تحديد اسم المجلد المستخدم لإنشاء عناوين URI للصور.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.Writeln("Some image below:");
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
-builder.InsertImage(image);
+builder.InsertImage(ImageDir + "Logo.jpg");
 
+string imagesFolder = Path.Combine(ArtifactsDir, "ImagesDir");
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-// استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي
-// Aspose.Words سيحفظ جميع الصور المرتبطة بالمستند.
-saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
+// استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي سيتم تخزين الصور فيه
+// سيقوم Aspose.Words بحفظ جميع الصور المرتبطة بالمستند.
+saveOptions.ImagesFolder = imagesFolder;
 // استخدم خاصية "ImagesFolderAlias" لاستخدام هذا المجلد
-// عند إنشاء معرفات URI للصورة بدلاً من اسم مجلد الصور.
-saveOptions.ImagesFolderAlias = "http://example.com/images";
-
-builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
-```
-
-يوضح كيفية تحديد اسم المجلد المستخدم لإنشاء معرفات URI للصورة (.NetStandard 2.0).
-
-```csharp
-DocumentBuilder builder = new DocumentBuilder();
-
-builder.Writeln("Some image below:");
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(bitmap);
-
-MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-// استخدم خاصية "ImagesFolder" لتعيين مجلد في نظام الملفات المحلي الذي
-// Aspose.Words سيحفظ جميع الصور المرتبطة بالمستند.
-saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
-// استخدم خاصية "ImagesFolderAlias" لاستخدام هذا المجلد
-// عند إنشاء معرفات URI للصورة بدلاً من اسم مجلد الصور.
+// عند إنشاء عناوين URI للصور بدلاً من اسم مجلد الصور.
 saveOptions.ImagesFolderAlias = "http://example.com/images";
 
 builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);

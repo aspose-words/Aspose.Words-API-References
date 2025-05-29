@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words لـ .NET
-description: HorizontalRuleFormat Color ملكية. الحصول على أو تعيين لون الفرشاة الذي يملأ القاعدة الأفقية في C#.
+description: اكتشف خاصية لون HorizontalRuleFormat لتخصيص تصميمك. اضبط أو احصل على لون الفرشاة بسهولة للحصول على تأثير خط أفقي مذهل!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/horizontalruleformat/color/
 ---
 ## HorizontalRuleFormat.Color property
 
-الحصول على أو تعيين لون الفرشاة الذي يملأ القاعدة الأفقية.
+يحصل على لون الفرشاة التي تملأ الخط الأفقي أو يعينه.
 
 ```csharp
 public Color Color { get; set; }
@@ -18,13 +18,13 @@ public Color Color { get; set; }
 
 ## ملاحظات
 
-هذا اختصار لل[`Color`](../../fill/color/) ملكية.
+هذا اختصار لـ[`Color`](../../fill/color/) ملكية.
 
-القيمة الافتراضية هي Gray.
+القيمة الافتراضية هي Gray .
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل مسطرة أفقية وتخصيص تنسيقها.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: ControlChar.Cr
 linktitle: Cr
 articleTitle: Cr
 second_title: Aspose.Words لـ .NET
-description: ControlChar Cr مجال. حرف الإرجاع x000d أو r. مثلParagraphBreak  في C#.
+description: اكتشف ControlChar Cr، حرف الإرجاع (x000d أو r) الذي يُحسّن تنسيق النص. بسّط برمجة أعمالك مع حلولنا الفريدة!
 type: docs
 weight: 50
 url: /ar/net/aspose.words/controlchar/cr/
 ---
 ## ControlChar.Cr field
 
-حرف الإرجاع: "\x000d" أو "\r". مثل[`ParagraphBreak`](../paragraphbreak/) .
+حرف إرجاع العربة: "\x000d" أو "\r". نفس[`ParagraphBreak`](../paragraphbreak/) .
 
 ```csharp
 public static readonly string Cr;
@@ -24,18 +24,18 @@ public static readonly string Cr;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإدراج فقرات تحتوي على نص باستخدام DocumentBuilder.
+// إدراج فقرات تحتوي على نص باستخدام DocumentBuilder.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// يكشف تحويل المستند إلى نموذج نصي عن أحرف التحكم تلك
+// يؤدي تحويل المستند إلى نموذج نصي إلى إظهار أن أحرف التحكم
 // تمثل بعض العناصر الهيكلية للمستند، مثل فواصل الصفحات.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// عند تحويل مستند إلى نموذج سلسلة،
-// يمكننا حذف بعض أحرف التحكم باستخدام طريقة القطع.
+// عند تحويل مستند إلى شكل سلسلة،
+// يمكننا حذف بعض أحرف التحكم باستخدام طريقة Trim.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());
 ```

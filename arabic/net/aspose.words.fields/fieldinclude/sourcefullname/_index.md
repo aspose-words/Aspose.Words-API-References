@@ -3,14 +3,14 @@ title: FieldInclude.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words لـ .NET
-description: FieldInclude SourceFullName ملكية. الحصول على أو تعيين موقع المستند في C#.
+description: اكتشف كيفية استخدام خاصية FieldInclude SourceFullName لإدارة مواقع المستندات بكفاءة. حسّن سير عملك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldinclude/sourcefullname/
 ---
 ## FieldInclude.SourceFullName property
 
-الحصول على أو تعيين موقع المستند.
+يحصل على موقع المستند أو يعينه.
 
 ```csharp
 public string SourceFullName { get; set; }

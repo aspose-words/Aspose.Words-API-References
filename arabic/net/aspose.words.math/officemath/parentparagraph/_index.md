@@ -3,7 +3,7 @@ title: OfficeMath.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words لـ .NET
-description: OfficeMath ParentParagraph ملكية. يسترد الأصلParagraph من هذه العقدة في C#.
+description: اكتشف خاصية ParentParagraph في OfficeMath للوصول بسهولة إلى الفقرة الأصلية لأي عقدة، مما يعمل على تحسين تنسيق مستندك وبنيته.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.math/officemath/parentparagraph/
@@ -18,20 +18,20 @@ public Paragraph ParentParagraph { get; }
 
 ## أمثلة
 
-يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
+يوضح كيفية تعيين تنسيق عرض الرياضيات في المكتب.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// عقد OfficeMath التابعة لعقد OfficeMath الأخرى تكون دائمًا مضمّنة.
+// عقد OfficeMath التي تعد أبناء لعقد OfficeMath الأخرى تكون دائمًا مضمنة.
 // العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع العرض.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// تغيير الموقع ونوع العرض لعقدة OfficeMath.
+// تغيير موقع ونوع العرض لعقدة OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

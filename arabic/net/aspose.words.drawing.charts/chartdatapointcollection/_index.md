@@ -3,9 +3,9 @@ title: ChartDataPointCollection Class
 linktitle: ChartDataPointCollection
 articleTitle: ChartDataPointCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPointCollection فصل. يمثل مجموعة منChartDataPoint  في C#.
+description: اكتشف فئة Aspose.Words.Drawing.Charts.ChartDataPointCollection، وهي مفتاحك لإدارة مجموعات ChartDataPoint بسهولة لتحسين تصور البيانات.
 type: docs
-weight: 700
+weight: 980
 url: /ar/net/aspose.words.drawing.charts/chartdatapointcollection/
 ---
 ## ChartDataPointCollection class
@@ -23,18 +23,20 @@ public class ChartDataPointCollection : IEnumerable<ChartDataPoint>
 | اسم | وصف |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartdatapointcollection/count/) { get; } | إرجاع عدد[`ChartDataPoint`](../chartdatapoint/) في هذه المجموعة. |
-| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | إرجاع[`ChartDataPoint`](../chartdatapoint/) للفهرس المحدد. |
+| [Item](../../aspose.words.drawing.charts/chartdatapointcollection/item/) { get; } | إرجاع[`ChartDataPoint`](../chartdatapoint/) للمؤشر المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | مسح التنسيق للجميع[`ChartDataPoint`](../chartdatapoint/) في هذه المجموعة. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | يُرجع كائن العداد. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapointcollection/clearformat/)() | يمسح تنسيق الكل[`ChartDataPoint`](../chartdatapoint/) في هذه المجموعة. |
+| [CopyFormat](../../aspose.words.drawing.charts/chartdatapointcollection/copyformat/)(*int, int*) | نسخ التنسيق من نقطة البيانات المصدر إلى نقطة البيانات الوجهة. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartdatapointcollection/getenumerator/)() | يعيد كائن المعداد. |
+| [HasDefaultFormat](../../aspose.words.drawing.charts/chartdatapointcollection/hasdefaultformat/)(*int*) | يحصل على علم يشير إلى ما إذا كانت نقطة البيانات في الفهرس المحدد لها تنسيق افتراضي. |
 
 ## أمثلة
 
-يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
+يوضح كيفية العمل مع نقاط البيانات على مخطط خطي.
 
 ```csharp
 public void ChartDataPoint()
@@ -50,14 +52,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // قم بتأكيد نقاط بيانات المخطط من خلال جعلها تظهر كأشكال ماسية.
-    foreach (ChartSeries series in chart.Series) 
+    // قم بالتأكيد على نقاط بيانات الرسم البياني من خلال جعلها تظهر على شكل أشكال ماسية.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // قم بتسوية الخط الذي يمثل سلسلة البيانات الأولى.
+    // قم بتنعيم الخط الذي يمثل سلسلة البيانات الأولى.
     chart.Series[0].Smooth = true;
 
-    // تحقق من أن نقاط البيانات الخاصة بالسلسلة الأولى لن تعكس ألوانها إذا كانت القيمة سالبة.
+    // تأكد من أن نقاط البيانات الخاصة بالسلسلة الأولى لن تعكس ألوانها إذا كانت القيمة سلبية.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -66,8 +68,11 @@ public void ChartDataPoint()
         }
     }
 
-    // للحصول على رسم بياني أكثر وضوحًا، يمكننا مسح التنسيق بشكل فردي.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
+
+    // للحصول على رسم بياني يبدو أكثر نظافة، يمكننا مسح التنسيق بشكل فردي.
+    dataPoint.ClearFormat();
 
     // يمكننا أيضًا تجريد سلسلة كاملة من نقاط البيانات مرة واحدة.
     chart.Series[2].DataPoints.ClearFormat();
@@ -76,7 +81,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// يطبق عددًا من نقاط البيانات على السلسلة.
+/// تطبيق عدد من نقاط البيانات على سلسلة.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

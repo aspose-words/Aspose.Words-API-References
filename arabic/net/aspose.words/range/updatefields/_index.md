@@ -3,14 +3,14 @@ title: Range.UpdateFields
 linktitle: UpdateFields
 articleTitle: UpdateFields
 second_title: Aspose.Words لـ .NET
-description: Range UpdateFields طريقة. يقوم بتحديث قيم حقول المستند في هذا النطاق في C#.
+description: قم بتعزيز مستنداتك بسهولة باستخدام طريقة Range UpdateFields، وتحديث قيم الحقول بسرعة وفعالية لتحسين الدقة.
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.words/range/updatefields/
 ---
 ## Range.UpdateFields method
 
-يقوم بتحديث قيم حقول المستند في هذا النطاق.
+تحديث قيم حقول المستند في هذا النطاق.
 
 ```csharp
 public void UpdateFields()
@@ -18,19 +18,19 @@ public void UpdateFields()
 
 ## ملاحظات
 
-عند فتح مستند وتعديله ثم حفظه، لا يقوم Aspose.Words بتحديث الحقول تلقائيًا، بل يبقيها سليمة. لذلك، عادةً ما تريد استدعاء هذه الطريقة قبل الحفظ إذا قمت بتعديل document برمجيًا وتريد التأكد تظهر قيم الحقول المناسبة (المحسوبة) في المستند المحفوظ.
+عند فتح مستند وتعديله ثم حفظه، لا يقوم Aspose.Words بتحديث الحقول تلقائيًا، بل يبقيها سليمة. لذلك، قد ترغب عادةً في استدعاء هذه الطريقة قبل الحفظ إذا قمت بتعديل document برمجيًا وتريد التأكد من ظهور قيم الحقول الصحيحة (المحسوبة) في المستند المحفوظ.
 
-ليست هناك حاجة لتحديث الحقول بعد تنفيذ دمج البريد لأن دمج البريد هو نوع من تحديث الحقل ويقوم تلقائيًا بتحديث كافة الحقول في المستند.
+ليست هناك حاجة لتحديث الحقول بعد تنفيذ دمج البريد لأن دمج البريد هو نوع من تحديث الحقول ويقوم تلقائيًا بتحديث جميع الحقول في المستند.
 
-لا يقوم هذا الأسلوب بتحديث كافة أنواع الحقول. للحصول على قائمة مفصلة بأنواع الحقول المدعومة، راجع دليل المبرمجين.
+لا تُحدِّث هذه الطريقة جميع أنواع الحقول. للاطلاع على قائمة مُفصَّلة بأنواع الحقول المدعومة، راجع دليل المبرمجين.
 
-لا تقوم هذه الطريقة بتحديث الحقول المرتبطة بخوارزميات تخطيط الصفحة (مثل PAGE وPAGES وPAGEREF). يتم تحديث الحقول المرتبطة بتخطيط الصفحة عند عرض مستند أو الاتصال[`UpdatePageLayout`](../../document/updatepagelayout/).
+لا تقوم هذه الطريقة بتحديث الحقول المرتبطة بخوارزميات تخطيط الصفحة (على سبيل المثال PAGE وPAGES وPAGEREF). يتم تحديث الحقول المرتبطة بتخطيط الصفحة عند عرض مستند أو استدعاء[`UpdatePageLayout`](../../document/updatepagelayout/).
 
-لتحديث الحقول في استخدام الوثيقة بأكملها[`UpdateFields`](../../document/updatefields/).
+لتحديث الحقول في المستند بأكمله استخدم[`UpdateFields`](../../document/updatefields/).
 
 ## أمثلة
 
-يوضح كيفية تحديث كافة الحقول في النطاق.
+يوضح كيفية تحديث كافة الحقول في نطاق معين.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,11 @@ builder.InsertField(" DOCPROPERTY Category");
 // ستعرض حقول DOCPROPERTY أعلاه قيمة خاصية المستند المضمنة هذه.
 doc.BuiltInDocumentProperties.Category = "MyCategory";
 
-// إذا قمنا بتحديث قيمة خاصية مستند، فسنحتاج إلى تحديث جميع حقول DOCPROPERTY لعرضها.
+// إذا قمنا بتحديث قيمة خاصية المستند، فسنحتاج إلى تحديث كافة حقول DOCPROPERTY لعرضها.
 Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
 Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-// قم بتحديث كافة الحقول الموجودة في نطاق القسم الأول.
+//تحديث كافة الحقول الموجودة ضمن نطاق القسم الأول.
 doc.FirstSection.Range.UpdateFields();
 
 Assert.AreEqual("MyCategory", doc.Range.Fields[0].Result);

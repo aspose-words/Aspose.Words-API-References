@@ -3,14 +3,14 @@ title: EmphasisMark Enum
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.EmphasisMark تعداد. يحدد الأنواع المحتملة لعلامات التركيز في C#.
+description: اكتشف Aspose.Words.EmphasisMark enum، الذي يضم أنواعًا متنوعة من التوكيد لتحسين تنسيق مستندك. عزز تأثير نصك اليوم!
 type: docs
-weight: 1460
+weight: 1870
 url: /ar/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-يحدد الأنواع المحتملة لعلامات التركيز.
+يحدد أنواع علامات التأكيد الممكنة.
 
 ```csharp
 public enum EmphasisMark
@@ -20,20 +20,20 @@ public enum EmphasisMark
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لا توجد علامة تأكيد. |
-| OverSolidCircle | `1` | علامة التوكيد عبارة عن دائرة سوداء صلبة معروضة أعلى النص. |
-| OverComma | `2` | علامة التوكيد هي حرف فاصلة يتم عرضه فوق النص. |
-| OverWhiteCircle | `3` | علامة التوكيد عبارة عن دائرة بيضاء فارغة معروضة أعلى النص. |
-| UnderSolidCircle | `4` | علامة التوكيد عبارة عن دائرة سوداء صلبة معروضة أسفل النص. |
+| None | `0` | لا يوجد علامة توكيد. |
+| OverSolidCircle | `1` | علامة التأكيد هي عبارة عن دائرة سوداء متصلة تظهر أعلى النص. |
+| OverComma | `2` | علامة التأكيد هي حرف فاصلة يظهر أعلى النص. |
+| OverWhiteCircle | `3` | علامة التأكيد هي عبارة عن دائرة بيضاء فارغة تظهر أعلى النص. |
+| UnderSolidCircle | `4` | علامة التأكيد هي عبارة عن دائرة سوداء متصلة تظهر أسفل النص. |
 
 ## أمثلة
 
-يوضح كيفية إضافة حرف إضافي معروض أعلى/أسفل الحرف الرسومي.
+يوضح كيفية إضافة حرف إضافي يتم عرضه أعلى/أسفل الحرف الرسومي.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// الأنواع المحتملة لعلامة التركيز:
+// أنواع علامات التأكيد المحتملة:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

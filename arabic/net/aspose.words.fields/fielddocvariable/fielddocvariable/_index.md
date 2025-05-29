@@ -3,7 +3,7 @@ title: FieldDocVariable
 linktitle: FieldDocVariable
 articleTitle: FieldDocVariable
 second_title: Aspose.Words لـ .NET
-description: FieldDocVariable البناء. Default_Constructor في C#.
+description: اكتشف منشئ FieldDocVariable—الحل الافتراضي المفضل لديك للتعامل الفعال مع البيانات والتكامل السلس في مشاريعك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddocvariable/fielddocvariable/

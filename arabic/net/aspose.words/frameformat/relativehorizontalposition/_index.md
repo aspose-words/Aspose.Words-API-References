@@ -3,7 +3,7 @@ title: FrameFormat.RelativeHorizontalPosition
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words لـ .NET
-description: FrameFormat RelativeHorizontalPosition ملكية. يحصل على الموضع الأفقي النسبي للإطار في C#.
+description: اكتشف خاصية FrameFormat RelativeHorizontalPosition لتحديد الوضع الأفقي للإطار بسهولة لتحسين التحكم في التخطيط.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/frameformat/relativehorizontalposition/
@@ -18,7 +18,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تعتبر إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

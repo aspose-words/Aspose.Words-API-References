@@ -3,9 +3,9 @@ title: Orientation Enum
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Orientation تعداد. يحدد اتجاه الصفحة في C#.
+description: اكتشف خاصية Aspose.Words.Orientation للتحكم السلس في اتجاه الصفحات. حسّن تنسيق مستنداتك بسهولة ودقة!
 type: docs
-weight: 4320
+weight: 5050
 url: /ar/net/aspose.words/orientation/
 ---
 ## Orientation enumeration
@@ -20,12 +20,12 @@ public enum Orientation
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Portrait | `1` | اتجاه الصفحة عمودي (ضيق وطويل). |
-| Landscape | `2` | اتجاه الصفحة أفقي (عريض وقصير). |
+| Portrait | `1` | اتجاه الصفحة الرأسي (ضيق وطويل). |
+| Landscape | `2` | اتجاه الصفحة الأفقي (عريض وقصير). |
 
 ## أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// إذا بدأنا قسمًا جديدًا باستخدام منشئ المستندات،
 // سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// يمكننا إعادة خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
+// يمكننا إرجاع خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

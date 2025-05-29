@@ -3,14 +3,14 @@ title: LayoutCollector Class
 linktitle: LayoutCollector
 articleTitle: LayoutCollector
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Layout.LayoutCollector فصل. تسمح هذه الفئة بحساب أرقام الصفحات لعقد المستند في C#.
+description: اكتشف فئة Aspose.Words.Layout.LayoutCollector لحساب أرقام صفحات عقدة المستند بكفاءة، مما يعزز تجربة إدارة المستندات لديك.
 type: docs
-weight: 3320
+weight: 3770
 url: /ar/net/aspose.words.layout/layoutcollector/
 ---
 ## LayoutCollector class
 
-تسمح هذه الفئة بحساب أرقام الصفحات لعقد المستند.
+تسمح هذه الفئة بحساب أرقام الصفحات الخاصة بعقد المستندات.
 
 لمعرفة المزيد، قم بزيارة[التحويل إلى تنسيق الصفحة الثابتة](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) مقالة توثيقية.
 
@@ -22,46 +22,46 @@ public class LayoutCollector
 
 | اسم | وصف |
 | --- | --- |
-| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | تهيئة مثيل لهذه الفئة. |
+| [LayoutCollector](layoutcollector/)(*[Document](../../aspose.words/document/)*) | يقوم بتهيئة مثيل لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | الحصول على أو تعيين المستند الذي تم إرفاق نسخة المجمع به. |
+| [Document](../../aspose.words.layout/layoutcollector/document/) { get; set; } | يحصل على المستند الذي تم إرفاق مثيل المجمع به أو يعينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clear](../../aspose.words.layout/layoutcollector/clear/)() | مسح كافة بيانات التخطيط المجمعة. قم باستدعاء هذه الطريقة بعد تحديث المستند يدويًا، أو إعادة إنشاء التخطيط. |
-| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | يحصل على فهرس مستند إلى 1 للصفحة التي تنتهي فيها العقدة. يُرجع 0 إذا تعذر تعيين العقدة إلى الصفحة. |
-| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | إرجاع موضع معتم للملف[`LayoutEnumerator`](../layoutenumerator/) الذي يتوافق مع العقدة المحددة. يمكنك استخدام القيمة التي تم إرجاعها كوسيطة ل[`Current`](../layoutenumerator/current/) نظرًا لأن الوثيقة التي تم تعدادها ووثيقة العقدة هي نفسها. |
-| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | يحصل على عدد الصفحات التي تمتد عليها العقدة المحددة. 0 إذا كانت العقدة ضمن صفحة واحدة. وهذا هو نفسه[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
-| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | يحصل على فهرس مستند إلى 1 للصفحة التي تبدأ منها العقدة. يُرجع 0 إذا تعذر تعيين العقدة إلى الصفحة. |
+| [Clear](../../aspose.words.layout/layoutcollector/clear/)() | يمسح جميع بيانات التخطيط المجمعة. استدعي هذه الطريقة بعد تحديث المستند يدويًا، أو إعادة بناء التخطيط. |
+| [GetEndPageIndex](../../aspose.words.layout/layoutcollector/getendpageindex/)(*[Node](../../aspose.words/node/)*) | يحصل على فهرس الصفحة عند نهاية العقدة بقيمة 1. يُرجع القيمة 0 إذا تعذر ربط العقدة بصفحة. |
+| [GetEntity](../../aspose.words.layout/layoutcollector/getentity/)(*[Node](../../aspose.words/node/)*) | يعيد موضعًا معتمًا لـ[`LayoutEnumerator`](../layoutenumerator/) الذي يتوافق مع العقدة المحددة. يمكنك استخدام القيمة المرتجعة كحجة لـ[`Current`](../layoutenumerator/current/) نظرًا لأن المستند الذي يتم تعداده هو ومستند العقدة هما نفس الشيء. |
+| [GetNumPagesSpanned](../../aspose.words.layout/layoutcollector/getnumpagesspanned/)(*[Node](../../aspose.words/node/)*) | يحصل على عدد الصفحات التي تمتد إليها العقدة المحددة. 0 إذا كانت العقدة ضمن صفحة واحدة. هذا هو نفس[`GetEndPageIndex`](./getendpageindex/) -[`GetStartPageIndex`](./getstartpageindex/) . |
+| [GetStartPageIndex](../../aspose.words.layout/layoutcollector/getstartpageindex/)(*[Node](../../aspose.words/node/)*) | يحصل على فهرس الصفحة التي تبدأ منها العقدة بقيمة 1. يُرجع القيمة 0 إذا تعذر ربط العقدة بصفحة. |
 
 ## ملاحظات
 
-عندما تقوم بإنشاء`LayoutCollector` وحدد أ[`Document`](../../aspose.words/document/) كائن المستند الذي سيتم إرفاقه به، سيقوم المجمع بتسجيل تعيين عقد المستند إلى كائنات التخطيط عند تنسيق المستند في صفحات.
+عندما تقوم بإنشاء`LayoutCollector` وحدد[`Document`](../../aspose.words/document/)كائن المستند المراد إرفاقه به، سوف يسجل المجمع تعيين عقد المستند إلى كائنات التخطيط عندما يتم تنسيق المستند إلى صفحات.
 
-ستتمكن من معرفة الصفحة التي توجد بها عقدة مستند معينة (على سبيل المثال التشغيل أو الفقرة أو خلية الجدول) باستخدام[`GetStartPageIndex`](./getstartpageindex/) ,[`GetEndPageIndex`](./getendpageindex/) و[`GetNumPagesSpanned`](./getnumpagesspanned/)طُرق. تقوم هذه الطرق تلقائيًا بإنشاء نموذج تخطيط الصفحة للمستند وتحديث الحقول إذا لزم الأمر.
+ستتمكن من معرفة الصفحة التي توجد بها عقدة مستند معينة (مثل تشغيل أو فقرة أو خلية جدول) باستخدام[`GetStartPageIndex`](./getstartpageindex/) ،[`GetEndPageIndex`](./getendpageindex/) و[`GetNumPagesSpanned`](./getnumpagesspanned/) الأساليب. تقوم هذه الأساليب تلقائيًا ببناء نموذج تخطيط الصفحة للمستند وتحديث الحقول إذا لزم الأمر.
 
-عندما لم تعد بحاجة إلى جمع معلومات التخطيط، فمن الأفضل تعيين[`Document`](./document/) الملكية ل`باطل` لتجنب التجميع غير الضروري لمزيد من تعيينات التخطيط.
+عندما لم تعد بحاجة إلى جمع معلومات التخطيط، فمن الأفضل ضبط[`Document`](./document/) الممتلكات إلى`باطل` لتجنب التجميع غير الضروري لمزيد من تعيينات التخطيط.
 
 ## أمثلة
 
-يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
+يوضح كيفية رؤية نطاقات الصفحات التي تمتد عبرها العقدة.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// اتصل بطريقة "GetNumPagesSpanned" لحساب عدد الصفحات التي يغطيها محتوى وثيقتنا.
-// بما أن المستند فارغ، فإن عدد الصفحات هذا هو صفر حاليًا.
+// قم باستدعاء طريقة "GetNumPagesSpanned" لحساب عدد الصفحات التي يغطيها محتوى مستندنا.
+// بما أن المستند فارغ، فإن عدد الصفحات هو صفر حاليًا.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// املأ المستند بخمس صفحات من المحتوى.
+//إملأ المستند بخمس صفحات من المحتوى.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -71,8 +71,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// قبل تجميع التخطيط، نحتاج إلى استدعاء طريقة "UpdatePageLayout" لتعطينا
-// رقم دقيق لأي مقياس متعلق بالتخطيط، مثل عدد الصفحات.
+// قبل جامع التخطيط، نحتاج إلى استدعاء طريقة "UpdatePageLayout" لإعطائنا
+// رقم دقيق لأي مقياس مرتبط بالتخطيط، مثل عدد الصفحات.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -80,7 +80,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// يمكننا رؤية أرقام صفحات البداية والنهاية لأي عقدة وامتداد صفحاتها الإجمالي.
+// يمكننا رؤية أرقام الصفحات الأولية والنهائية لأي عقدة ومدى صفحاتها الإجمالي.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -90,13 +90,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// يمكننا التكرار على كيانات التخطيط باستخدام LayoutEnumerator.
+// يمكننا تكرار كيانات التخطيط باستخدام LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// يمكن لـ LayoutEnumerator اجتياز مجموعة كيانات التخطيط مثل الشجرة.
-// يمكننا أيضًا تطبيقه على كيان التخطيط المقابل لأي عقدة.
+// يمكن لـ LayoutEnumerator التنقل عبر مجموعة كيانات التخطيط مثل الشجرة.
+//يمكننا أيضًا تطبيقه على أي كيان تخطيط مطابق للعقدة.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

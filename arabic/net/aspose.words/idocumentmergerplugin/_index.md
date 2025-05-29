@@ -3,14 +3,14 @@ title: IDocumentMergerPlugin Interface
 linktitle: IDocumentMergerPlugin
 articleTitle: IDocumentMergerPlugin
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.IDocumentMergerPlugin واجهه المستخدم. تعريف واجهة البرنامج الإضافي للدمج الخارجي الذي يمكنه دمج مستندات Pdf في C#.
+description: اكتشف واجهة Aspose.Words.IDocumentMergerPlugin لدمج مستندات PDF بسلاسة. حسّن سير عملك مع إمكانيات دمج خارجية فعّالة!
 type: docs
-weight: 3170
+weight: 3600
 url: /ar/net/aspose.words/idocumentmergerplugin/
 ---
 ## IDocumentMergerPlugin interface
 
-تعريف واجهة البرنامج الإضافي للدمج الخارجي الذي يمكنه دمج مستندات Pdf.
+يحدد واجهة لمكون الدمج الخارجي الذي يمكنه دمج مستندات Pdf.
 
 ```csharp
 public interface IDocumentMergerPlugin
@@ -20,7 +20,7 @@ public interface IDocumentMergerPlugin
 
 | اسم | وصف |
 | --- | --- |
-| [Merge](../../aspose.words/idocumentmergerplugin/merge/)(*Stream, params Stream[]*) | يدمج مستندات PDF المدخلة في مستند PDF مخرج واحد باستخدام تدفقات الإدخال والإخراج المحددة. |
+| [Merge](../../aspose.words/idocumentmergerplugin/merge/)(*Stream, Stream[], LoadOptions[]*) | دمج مستندات PDF المدخلة المقدمة في مستند PDF مخرج واحد باستخدام تدفقات الإدخال والإخراج المحددة. |
 
 ### أنظر أيضا
 

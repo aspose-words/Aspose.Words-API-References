@@ -3,14 +3,14 @@ title: FieldDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words لـ .NET
-description: FieldDate UseLunarCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري في C#.
+description: حسّن إدارة بياناتك باستخدام خاصية UseLunarCalendar في FieldDate. بدّل بسهولة بين التقويمين الهجري والعبري القمري لتحسين الأداء.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fielddate/uselunarcalendar/
 ---
 ## FieldDate.UseLunarCalendar property
 
-الحصول على أو تحديد ما إذا كان سيتم استخدام التقويم القمري الهجري أو القمري العبري.
+يحصل على أو يعين ما إذا كان سيتم استخدام التقويم الهجري القمري أو التقويم العبري القمري.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -24,15 +24,15 @@ public bool UseLunarCalendar { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إذا أردنا أن يعرض النص الموجود في المستند دائمًا التاريخ الصحيح، فيمكننا استخدام حقل التاريخ.
-// فيما يلي ثلاثة أنواع من التقويمات الثقافية التي يمكن لحقل التاريخ استخدامها لعرض التاريخ.
+// إذا أردنا أن يعرض النص الموجود في المستند التاريخ الصحيح دائمًا، فيمكننا استخدام حقل DATE.
+// فيما يلي ثلاثة أنواع من التقويمات الثقافية التي يمكن لحقل DATE استخدامها لعرض التاريخ.
 // 1 - التقويم القمري الإسلامي:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
 Assert.AreEqual(" DATE  \\h", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - تقويم أم القرى :
+// 2 - تقويم أم القرى:
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseUmAlQuraCalendar = true;
 Assert.AreEqual(" DATE  \\u", field.GetFieldCode());
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// أدخل حقل التاريخ وقم بتعيين نوع التقويم الخاص به على النوع الذي استخدمه التطبيق المضيف آخر مرة.
-// في Microsoft Word، سيكون النوع هو الأحدث استخدامًا في الإدراج -> نص -> مربع حوار التاريخ والوقت.
+// أدخل حقل DATE وقم بتعيين نوع التقويم الخاص به إلى النوع الأخير الذي يستخدمه تطبيق المضيف.
+// في Microsoft Word، سيكون النوع هو الأحدث استخدامًا في مربع الحوار إدراج -> نص -> التاريخ والوقت.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

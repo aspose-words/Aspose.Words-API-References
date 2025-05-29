@@ -3,7 +3,7 @@ title: LoadOptions.ResourceLoadingCallback
 linktitle: ResourceLoadingCallback
 articleTitle: ResourceLoadingCallback
 second_title: Aspose.Words لـ .NET
-description: LoadOptions ResourceLoadingCallback ملكية. يسمح بالتحكم في كيفية تحميل الموارد الخارجية الصور أوراق الأنماط عند استيراد مستند من HTML MHTML في C#.
+description: حسّن استيراد مستنداتك باستخدام ResourceLoadingCallback من LoadOptions. تحكّم بسلاسة في تحميل الموارد الخارجية، مثل الصور وأوراق الأنماط.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.loading/loadoptions/resourceloadingcallback/
@@ -18,7 +18,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ## أمثلة
 
-يوضح كيفية التعامل مع الموارد الخارجية عند تحميل مستندات Html.
+يوضح كيفية التعامل مع الموارد الخارجية عند تحميل مستندات HTML.
 
 ```csharp
 public void LoadOptionsCallback()
@@ -26,13 +26,13 @@ public void LoadOptionsCallback()
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.ResourceLoadingCallback = new HtmlLinkedResourceLoadingCallback();
 
-    // عندما نقوم بتحميل المستند، سيتعامل رد الاتصال مع الموارد المرتبطة مثل أوراق أنماط CSS والصور.
+    // عندما نقوم بتحميل المستند، ستتعامل وظيفة معاودة الاتصال لدينا مع الموارد المرتبطة مثل أوراق أنماط CSS والصور.
     Document doc = new Document(MyDir + "Images.html", loadOptions);
     doc.Save(ArtifactsDir + "LoadOptions.LoadOptionsCallback.pdf");
 }
 
 /// <summary>
-/// يطبع أسماء ملفات جميع أوراق الأنماط الخارجية ويستبدل جميع صور مستند html الذي تم تحميله.
+/// يطبع أسماء الملفات لجميع أوراق الأنماط الخارجية ويستبدل جميع الصور الموجودة في مستند HTML المحمل.
 /// </summary>
 private class HtmlLinkedResourceLoadingCallback : IResourceLoadingCallback
 {

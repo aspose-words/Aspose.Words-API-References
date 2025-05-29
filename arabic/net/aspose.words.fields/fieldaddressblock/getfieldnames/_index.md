@@ -3,14 +3,14 @@ title: FieldAddressBlock.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words لـ .NET
-description: FieldAddressBlock GetFieldNames طريقة. إرجاع مجموعة من أسماء حقول دمج المراسلات المستخدمة بواسطة الحقل في C#.
+description: اكتشف طريقة GetFieldNames في FieldAddressBlock. استرجع أسماء حقول دمج البريد بسهولة لتحسين عملية أتمتة مستنداتك.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldaddressblock/getfieldnames/
 ---
 ## FieldAddressBlock.GetFieldNames method
 
-إرجاع مجموعة من أسماء حقول دمج المراسلات المستخدمة بواسطة الحقل.
+يعيد مجموعة من أسماء حقول دمج البريد التي يستخدمها الحقل.
 
 ```csharp
 public string[] GetFieldNames()
@@ -18,7 +18,7 @@ public string[] GetFieldNames()
 
 ## أمثلة
 
-يوضح كيفية الحصول على أسماء حقول دمج البريد التي يستخدمها الحقل.
+يوضح كيفية الحصول على أسماء حقول دمج البريد المستخدمة بواسطة الحقل.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - ADDRESSBLOCK.docx");

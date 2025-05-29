@@ -3,14 +3,14 @@ title: SaveOptions.AllowEmbeddingPostScriptFonts
 linktitle: AllowEmbeddingPostScriptFonts
 articleTitle: AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words لـ .NET
-description: SaveOptions AllowEmbeddingPostScriptFonts ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: تحكم بتضمين الخطوط في مستنداتك باستخدام AllowEmbeddingPostScriptFonts من SaveOptions. أدر خيارات خطوط TrueType بسهولة لتحسين جودة مستنداتك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
 ---
 ## SaveOptions.AllowEmbeddingPostScriptFonts property
 
-الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم السماح بدمج الخطوط باستخدام مخططات PostScript عند حفظ تضمين خطوط TrueType في مستند. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها للإشارة إلى ما إذا كان سيتم السماح بتضمين الخطوط مع الخطوط العريضة لـ PostScript عند تضمين خطوط TrueType في مستند عند حفظه. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool AllowEmbeddingPostScriptFonts { get; set; }
@@ -18,13 +18,13 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ## ملاحظات
 
-لاحظ أن Word لا يقوم بتضمين خطوط PostScript، لكن يمكنه فتح مستندات تحتوي على خطوط مضمنة من هذا النوع.
+لاحظ أن Word لا يقوم بتضمين خطوط PostScript، ولكن يمكنه فتح المستندات التي تحتوي على خطوط مضمنة من هذا النوع.
 
-هذا الخيار يعمل فقط عندما[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) من the [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) تم تعيين الخاصية على`حقيقي`.
+هذا الخيار يعمل فقط عندما[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) من [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) تم تعيين الخاصية إلى`حقيقي`.
 
 ## أمثلة
 
-يوضح كيفية حفظ المستند بخط PostScript.
+يوضح كيفية حفظ المستند باستخدام خط PostScript.
 
 ```csharp
 Document doc = new Document();
@@ -38,11 +38,11 @@ MemoryFontSource otf = new MemoryFontSource(File.ReadAllBytes(FontsDir + "Allegr
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
 
-// تضمين خطوط تروتايب.
+// تضمين خطوط TrueType.
 doc.FontInfos.EmbedTrueTypeFonts = true;
 
-// السماح بتضمين خطوط PostScript أثناء تضمين خطوط TrueType.
-// لا يقوم Microsoft Word بتضمين خطوط PostScript، لكن يمكنه فتح مستندات تحتوي على خطوط مضمنة من هذا النوع.
+//السماح بتضمين خطوط PostScript أثناء تضمين خطوط TrueType.
+// لا يقوم Microsoft Word بتضمين خطوط PostScript، ولكن يمكنه فتح المستندات التي تحتوي على خطوط مضمنة من هذا النوع.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Docx);
 saveOptions.AllowEmbeddingPostScriptFonts = true;
 

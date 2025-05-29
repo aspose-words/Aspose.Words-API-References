@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 linktitle: SaveFontFaceCssSeparately
 articleTitle: SaveFontFaceCssSeparately
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions SaveFontFaceCssSeparately ملكية. تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS fontface في ملف منفصل fontFaces.css عندما يتم حفظ مستند باستخدام ورقة أنماط خارجية أي عندماExportEmbeddedCss هوخطأ شنيع . القيمة الافتراضية هيخطأ شنيع جميع قواعد CSS مكتوبة في ملف واحد styles.css في C#.
+description: اكتشف كيف تعمل خاصية SaveFontFaceCssSeparately على تحسين إدارة CSS للمستند الخاص بك عن طريق حفظ قواعد وجه الخط في ملف منفصل للحصول على صادرات أنظف.
 type: docs
-weight: 160
+weight: 180
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-تشير العلامة إلى ما إذا كان يجب وضع قواعد CSS "@font-face" في ملف منفصل "fontFaces.css" عندما يتم حفظ مستند باستخدام ورقة أنماط خارجية (أي عندما[`ExportEmbeddedCss`](../exportembeddedcss/) هو`خطأ شنيع` ). القيمة الافتراضية هي`خطأ شنيع` جميع قواعد CSS مكتوبة في ملف واحد "styles.css".
+يشير العلم إلى ما إذا كان يجب وضع قواعد CSS "@font-face" في ملف منفصل "fontFaces.css" عند حفظ مستند باستخدام جدول أنماط خارجي (أي عندما[`ExportEmbeddedCss`](../exportembeddedcss/) هو`خطأ شنيع` ). القيمة الافتراضية هي`خطأ شنيع` ، تتم كتابة جميع قواعد CSS في ملف واحد "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -18,11 +18,11 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ## ملاحظات
 
-تعيين هذه الخاصية على`حقيقي` يستعيد السلوك القديم (ملفات منفصلة) للتوافق مع التعليمات البرمجية القديمة.
+تعيين هذه الخاصية إلى`حقيقي` يستعيد السلوك القديم (ملفات منفصلة) للتوافق مع الكود القديم.
 
 ## أمثلة
 
-يوضح كيفية وضع CSS في ملف منفصل وإضافة بادئة لجميع أسماء فئات CSS الخاصة به.
+يوضح كيفية وضع CSS في ملف منفصل وإضافة بادئة إلى جميع أسماء فئات CSS الخاصة به.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

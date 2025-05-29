@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder InsertSignatureLine طريقة. إدراج سطر التوقيع في الموضع الحالي في C#.
+description: أضف خطوط توقيع احترافية إلى مستنداتك بسهولة باستخدام طريقة InsertSignatureLine من DocumentBuilder. حسّن سير عملك اليوم!
 type: docs
-weight: 440
+weight: 470
 url: /ar/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
 
-إدراج سطر التوقيع في الموضع الحالي.
+يقوم بإدراج سطر توقيع في الموضع الحالي.
 
 ```csharp
 public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
@@ -18,11 +18,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | الكائن الذي يخزن معلمات إنشاء سطر التوقيع. |
+| signatureLineOptions | SignatureLineOptions | الكائن الذي يخزن معلمات إنشاء خط التوقيع. |
 
 ### قيمة الإرجاع
 
-عقدة سطر التوقيع التي تم إدراجها للتو.
+عقدة خط التوقيع التي تم إدراجها للتو.
 
 ## أمثلة
 
@@ -64,7 +64,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
+// أعد فتح المستند المحفوظ لدينا، وتأكد من أن الخاصيتين "IsSigned" و"IsValid" تساويان "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -86,7 +86,7 @@ Assert.True(signatureLine.IsValid);
 
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
 
-إدراج سطر التوقيع في الموضع المحدد.
+يقوم بإدراج سطر توقيع في الموضع المحدد.
 
 ```csharp
 public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, 
@@ -96,20 +96,20 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | الكائن الذي يخزن معلمات إنشاء سطر التوقيع. |
-| horzPos | RelativeHorizontalPosition | يحدد المكان الذي يتم منه قياس المسافة إلى خط التوقيع. |
-| left | Double | المسافة بالنقاط من نقطة الأصل إلى الجانب الأيسر من خط التوقيع. |
+| signatureLineOptions | SignatureLineOptions | الكائن الذي يخزن معلمات إنشاء خط التوقيع. |
+| horzPos | RelativeHorizontalPosition | يحدد المكان الذي يتم قياس المسافة منه إلى خط التوقيع. |
+| left | Double | المسافة بالنقاط من الأصل إلى الجانب الأيسر لخط التوقيع. |
 | vertPos | RelativeVerticalPosition | يحدد المكان الذي يتم قياس المسافة منه إلى خط التوقيع. |
-| top | Double | المسافة بالنقاط من الأصل إلى الجانب العلوي من خط التوقيع. |
-| wrapType | WrapType | يحدد كيفية التفاف النص حول سطر التوقيع. |
+| top | Double | المسافة بالنقاط من الأصل إلى الجانب العلوي لخط التوقيع. |
+| wrapType | WrapType | يحدد كيفية لف النص حول سطر التوقيع. |
 
 ### قيمة الإرجاع
 
-عقدة سطر التوقيع التي تم إدراجها للتو.
+عقدة خط التوقيع التي تم إدراجها للتو.
 
 ## ملاحظات
 
-يمكنك تغيير حجم الصورة والموقع وطريقة تحديد الموضع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بهذه الطريقة.
+يمكنك تغيير حجم الصورة وموقعها وطريقة تحديد الموقع والإعدادات الأخرى باستخدام [`Shape`](../../../aspose.words.drawing/shape/) الكائن الذي تم إرجاعه بواسطة هذه الطريقة.
 
 ## أمثلة
 
@@ -133,7 +133,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// يمكن توقيع سطر التوقيع في Microsoft Word بالنقر المزدوج عليه.
+//يمكن توقيع سطر التوقيع في Microsoft Word عن طريق النقر المزدوج عليه.
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

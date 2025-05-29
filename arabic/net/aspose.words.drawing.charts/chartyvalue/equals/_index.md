@@ -3,14 +3,14 @@ title: ChartYValue.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words لـ .NET
-description: ChartYValue Equals طريقة. الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة Y الحالي في C#.
+description: اكتشف طريقة ChartYValue Equals للتحقق بسهولة مما إذا كان الكائن يتطابق مع قيمة Y الحالية، مما يعزز كفاءة مقارنة البيانات لديك.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/equals/
 ---
 ## ChartYValue.Equals method
 
-الحصول على علامة تشير إلى ما إذا كان الكائن المحدد يساوي كائن القيمة Y الحالي.
+يحصل على علم يشير إلى ما إذا كان الكائن المحدد يساوي قيمة الكائن Y الحالية.
 
 ```csharp
 public override bool Equals(object obj)

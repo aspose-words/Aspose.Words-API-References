@@ -3,16 +3,16 @@ title: NodeChangingArgs Class
 linktitle: NodeChangingArgs
 articleTitle: NodeChangingArgs
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.NodeChangingArgs فصل. يوفر بيانات عن طرقINodeChangingCallback الواجهة في C#.
+description: اكتشف فئة Aspose.Words.NodeChangingArgs، المصممة لتحسين معالجة مستنداتك من خلال تكامل سلس مع INodeChangingCallback. حسّن سير عملك اليوم!
 type: docs
-weight: 4190
+weight: 4880
 url: /ar/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-يوفر بيانات عن طرق[`INodeChangingCallback`](../inodechangingcallback/) الواجهة.
+يوفر بيانات لأساليب[`INodeChangingCallback`](../inodechangingcallback/) الواجهة.
 
-لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[نموذج كائن المستند (DOM) في Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class NodeChangingArgs
@@ -22,14 +22,14 @@ public class NodeChangingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [Action](../../aspose.words/nodechangingargs/action/) { get; } | الحصول على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث. |
-| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | يحصل على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية. |
-| [Node](../../aspose.words/nodechangingargs/node/) { get; } | يحصل على[`Node`](./node/) التي تتم إضافتها أو إزالتها. |
-| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | الحصول على أصل العقدة قبل بدء العملية. |
+| [Action](../../aspose.words/nodechangingargs/action/) { get; } | يحصل على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | يحصل على العقدة الأصلية التي سيتم تعيينها بعد اكتمال العملية. |
+| [Node](../../aspose.words/nodechangingargs/node/) { get; } | يحصل على[`Node`](./node/) الذي يتم إضافته أو إزالته. |
+| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | يحصل على العقدة الأصلية قبل بدء العملية. |
 
 ## أمثلة
 
-يوضح كيفية تخصيص تغيير العقدة من خلال رد الاتصال.
+يوضح كيفية تخصيص تغيير العقدة باستخدام معاودة الاتصال.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -37,8 +37,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // قم بتعيين رد الاتصال المتغير للعقدة على التنفيذ المخصص،
-    // ثم قم بإضافة/إزالة العقد للحصول على سجل.
+    // تعيين معاودة الاتصال لتغيير العقدة إلى التنفيذ المخصص،
+    // ثم قم بإضافة/إزالة العقد حتى تتمكن من إنشاء سجل.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -53,8 +53,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// يسجل تاريخ ووقت كل إدخال وإزالة للعقدة.
-/// يعين اسم/حجم خط مخصص لمحتويات النص في عقد التشغيل.
+/// يسجل التاريخ والوقت لكل إدخال وإزالة للعقدة.
+/// تعيين اسم/حجم خط مخصص لمحتويات النص الخاصة بعقد التشغيل.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -65,7 +65,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

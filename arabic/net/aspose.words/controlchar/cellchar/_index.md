@@ -3,14 +3,14 @@ title: ControlChar.CellChar
 linktitle: CellChar
 articleTitle: CellChar
 second_title: Aspose.Words لـ .NET
-description: ControlChar CellChar مجال. نهاية خلية الجدول أو نهاية حرف صف الجدول char7 أو a في C#.
+description: اكتشف حقل ControlChar CellChar لإدارة جداول سلسة. حسّن تنظيم بياناتك باستخدام أحرف فعّالة في نهاية الخلية والصفوف.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/controlchar/cellchar/
 ---
 ## ControlChar.CellChar field
 
-نهاية خلية الجدول أو نهاية حرف صف الجدول: (char)7 أو "\a".
+نهاية خلية الجدول أو نهاية صف الجدول: (char)7 أو "\a".
 
 ```csharp
 public const char CellChar;
@@ -24,56 +24,56 @@ public const char CellChar;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف مسافة عادية.
+//أضف مسافة عادية.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
-// أضف NBSP، وهي مسافة غير منقسمة.
-// على عكس المساحة العادية، لا يمكن أن تحتوي هذه المساحة على فاصل أسطر تلقائي في موضعها.
+// أضف NBSP، وهي مسافة غير قابلة للكسر.
+// على عكس المساحة العادية، لا يمكن لهذه المساحة أن تحتوي على فاصل سطر تلقائي في موضعها.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// أضف حرف علامة التبويب.
+//أضف حرف الجدولة.
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// أضف فاصل أسطر.
+//أضف فاصلًا للسطر.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
-// أضف سطرًا جديدًا وابدأ فقرة جديدة.
+//أضف سطرًا جديدًا وابدأ فقرة جديدة.
 Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// حرف تغذية السطر له نسختان.
+// تحتوي حرف تغذية السطر على نسختين.
 Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 
-// يمكن تمثيل أحرف الإرجاع وخلاصات الأسطر معًا بحرف واحد.
+//يمكن تمثيل إرجاعات العربة وتغذية السطر معًا بحرف واحد.
 Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 
-// أضف فاصل فقرة، والذي سيبدأ فقرة جديدة.
+//أضف فاصل فقرة، مما سيؤدي إلى بدء فقرة جديدة.
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// أضف فاصل قسم. وهذا لا يؤدي إلى إنشاء قسم أو فقرة جديدة.
+// أضف فاصلًا للقسم. هذا لا يُنشئ قسمًا أو فقرة جديدة.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
 
-// أضف فاصل الصفحات.
+//أضف فاصل الصفحة.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
-// فاصل الصفحة هو نفس قيمة فاصل القسم.
+//قيمة كسر الصفحة هي نفس قيمة كسر القسم.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
-// أدخل قسمًا جديدًا، ثم اضبط عدد أعمدته على اثنين.
+// قم بإدراج قسم جديد، ثم قم بتعيين عدد أعمدته إلى اثنين.
 doc.AppendChild(new Section(doc));
 builder.MoveToSection(1);
 builder.CurrentSection.PageSetup.TextColumns.SetCount(2);
 
-// يمكننا استخدام حرف التحكم لتحديد النقطة التي ينتقل فيها النص إلى العمود التالي.
+//يمكننا استخدام حرف التحكم لتحديد النقطة التي ينتقل عندها النص إلى العمود التالي.
 builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at beginning of column 2.");
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// هناك نظيرات للحرف والسلسلة لمعظم الشخصيات.
+// هناك نظراء char و string لمعظم الأحرف.
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

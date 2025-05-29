@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs Class
 linktitle: ImageFieldMergingArgs
 articleTitle: ImageFieldMergingArgs
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs فصل. يوفر بيانات لـImageFieldMerging حدث في C#.
+description: اكتشف فئة Aspose.Words.MailMerging.ImageFieldMergingArgs، المصممة لتحسين دمج الصور في المستندات، مما يضمن سير عمل سلس وفعال.
 type: docs
-weight: 3830
+weight: 4520
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
-يوفر بيانات لـ[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) حدث.
+يوفر بيانات لـ[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) الحدث.
 
 لمعرفة المزيد، قم بزيارة[دمج البريد وإعداد التقارير](https://docs.aspose.com/words/net/mail-merge-and-reporting/) مقالة توثيقية.
 
@@ -22,27 +22,27 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | اسم | وصف |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | إرجاع[`Document`](../fieldmergingargsbase/document/) الكائن الذي يتم تنفيذ دمج البريد له. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | يحصل على اسم حقل الدمج كما هو محدد في الوثيقة. |
-| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | الحصول على الكائن الذي يمثل حقل الدمج الحالي. |
-| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | الحصول على اسم حقل الدمج في مصدر البيانات. |
-| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | الحصول على قيمة الحقل أو تعيينها من مصدر البيانات. |
-| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | تحديد الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند. |
-| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | يعين اسم ملف الصورة التي يجب على محرك دمج المراسلات إدراجها في المستند. |
-| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | يحدد ارتفاع الصورة المراد إدراجها في المستند. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | تحديد الدفق لمحرك دمج المراسلات لقراءة الصورة منه. |
-| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | يحدد عرض الصورة المراد إدراجها في المستند. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | الحصول على الفهرس الصفري للسجل الذي يتم دمجه. |
-| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | تحديد الشكل الذي يجب على محرك دمج المراسلات إدراجه في المستند. |
-| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا كان الاسم غير متاح. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | يعيد[`Document`](../fieldmergingargsbase/document/)الكائن الذي يتم تنفيذ عملية دمج البريد له. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | يحصل على اسم حقل الدمج كما هو محدد في المستند. |
+| [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | يحصل على الكائن الذي يمثل حقل الدمج الحالي. |
+| [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | يحصل على اسم حقل الدمج في مصدر البيانات. |
+| [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | يحصل على قيمة الحقل من مصدر البيانات أو يعينها. |
+| [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | يحدد الصورة التي يجب على محرك دمج البريد إدراجها في المستند. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | يحدد اسم ملف الصورة التي يجب على محرك دمج البريد إدراجها في المستند. |
+| [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | يحدد ارتفاع الصورة التي سيتم إدراجها في المستند. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | يحدد التدفق الذي سيقرأ منه محرك دمج البريد صورة. |
+| [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | يحدد عرض الصورة التي سيتم إدراجها في المستند. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | يحصل على الفهرس الصفري للسجل الذي يتم دمجه. |
+| [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | يحدد الشكل الذي يجب على محرك دمج البريد إدراجه في المستند. |
+| [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | يحصل على اسم جدول البيانات لعملية الدمج الحالية أو سلسلة فارغة إذا لم يكن الاسم متاحًا. |
 
 ## ملاحظات
 
-يحدث هذا الحدث أثناء دمج البريد عند مواجهة حقل merge لبريد الصورة في المستند. يمكنك الرد على هذا الحدث لإرجاع اسم ملف a أو دفق أو ملفImage كائن إلى محرك merge البريد بحيث يتم إدراجه في المستند.
+يحدث هذا الحدث أثناء دمج البريد عند وجود حقل دمج بريدي للصورة في المستند. يمكنك الاستجابة لهذا الحدث لإرجاع اسم ملف أو دفق أوImage قم بدمج الكائن في محرك الدمج البريدي حتى يتم إدراجه في المستند.
 
-هناك ثلاث خصائص متاحة[`ImageFileName`](./imagefilename/)[`ImageStream`](./imagestream/) و[`Image`](./image/) لتحديد المكان الذي يجب التقاط الصورة منه. قم بتعيين واحدة فقط من هذه الخصائص.
+هناك ثلاث خصائص متاحة[`ImageFileName`](./imagefilename/) ، [`ImageStream`](./imagestream/) و[`Image`](./image/) لتحديد المكان الذي يجب التقاط الصورة منه. قم بتعيين إحدى هذه الخصائص فقط.
 
-لإدراج حقل دمج بريد صورة في مستند في Word، حدد أمر إدراج/حقل، ثم حدد MergeField واكتب Image:MyFieldName.
+لإدراج حقل دمج بريدي للصورة في مستند في Word، حدد أمر الإدراج/الحقل، ثم حدد MergeField واكتب Image:MyFieldName.
 
 ## أمثلة
 
@@ -76,11 +76,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // لا تفعل شيئا.
+        //لا تفعل شيئا.
     }
 
     /// <summary>
-    /// يتم استدعاء هذا عندما يواجه دمج البريد MERGEFIELD في المستند الذي يحتوي على علامة "صورة:" في اسمه.
+    /// يتم استدعاء هذا عندما يواجه دمج البريد MERGEFIELD في المستند مع علامة "Image:" في اسمه.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -97,7 +97,7 @@ public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // أدخل MERGEFIELD الذي سيقبل الصور من المصدر أثناء دمج البريد. استخدم رمز الحقل للرجوع إليه
+    // أدخل حقل دمج يقبل الصور من مصدر أثناء دمج البريد. استخدم رمز الحقل للإشارة إليه.
     // عمود في مصدر البيانات يحتوي على أسماء ملفات النظام المحلي للصور التي نرغب في استخدامها في دمج البريد.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -105,14 +105,14 @@ public void MergeFieldImageDimension()
     // يجب أن يحتوي مصدر البيانات على عمود يسمى "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // قم بإنشاء مصدر بيانات مناسب.
+    // إنشاء مصدر بيانات مناسب.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // قم بتكوين رد اتصال لتعديل أحجام الصور في وقت الدمج، ثم قم بتنفيذ عملية دمج البريد.
+    // قم بتكوين معاودة الاتصال لتعديل أحجام الصور في وقت الدمج، ثم قم بتنفيذ دمج البريد.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -121,7 +121,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// يضبط حجم جميع الصور المدمجة بالبريد على عرض وارتفاع محددين.
+/// تعيين حجم جميع الصور المدمجة بالبريد إلى عرض وارتفاع محددين.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -147,6 +147,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

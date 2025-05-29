@@ -3,14 +3,14 @@ title: CellFormat.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words لـ .NET
-description: CellFormat TopPadding ملكية. إرجاع أو تعيين مقدار المسافة بالنقاط المراد إضافتها فوق محتويات الخلية في C#.
+description: اكتشف خاصية CellFormat TopPadding لتخصيص المسافة فوق محتويات الخلايا بالنقاط، مما يعزز تخطيط جدول البيانات الخاص بك وقابليته للقراءة.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
 
-إرجاع أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها فوق محتويات الخلية.
+يقوم بإرجاع أو تعيين مقدار المساحة (بالنقاط) المراد إضافتها فوق محتويات الخلية.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -18,7 +18,7 @@ public double TopPadding { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق الخلايا باستخدام أداة إنشاء المستندات.
+يوضح كيفية تنسيق الخلايا باستخدام منشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// أدخل خلية ثانية، ثم قم بتكوين خيارات حشو نص الخلية.
-// سيقوم المنشئ بتطبيق هذه الإعدادات في خليته الحالية، وسيتم إنشاء أي خلايا جديدة بعد ذلك.
+// أدخل خلية ثانية، ثم قم بتكوين خيارات تعبئة نص الخلية.
+// سيقوم المنشئ بتطبيق هذه الإعدادات في الخلية الحالية، وأي خلايا جديدة يتم إنشاؤها بعد ذلك.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// ستستمر الخلية الأولى في النمو في مستند الإخراج لتتناسب مع حجم الخلية المجاورة لها.
+// ستظل الخلية الأولى تنمو في مستند الإخراج لتتناسب مع حجم الخلية المجاورة لها.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

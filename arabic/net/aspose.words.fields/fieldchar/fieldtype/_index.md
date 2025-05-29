@@ -3,14 +3,14 @@ title: FieldChar.FieldType
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words لـ .NET
-description: FieldChar FieldType ملكية. إرجاع نوع الحقل في C#.
+description: اكتشف خاصية FieldChar FieldType، التي تكشف عن نوع الحقل، مما يُحسّن كفاءة إدارة البيانات والبرمجة لديك. تعرّف على المزيد الآن!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldchar/fieldtype/
 ---
 ## FieldChar.FieldType property
 
-إرجاع نوع الحقل.
+يعيد نوع الحقل.
 
 ```csharp
 public FieldType FieldType { get; }
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// استرداد كائن الواجهة الذي يمثل الحقل الموجود في المستند.
+// استرداد كائن الواجهة الذي يمثل الحقل في المستند.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// قم بتحديث الحقل لإظهار التاريخ الحالي.
+//تحديث الحقل لإظهار التاريخ الحالي.
 field.Update();
 ```
 

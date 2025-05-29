@@ -3,14 +3,14 @@ title: OfficeMath.Justification
 linktitle: Justification
 articleTitle: Justification
 second_title: Aspose.Words لـ .NET
-description: OfficeMath Justification ملكية. الحصول على/تعيين مبررات Office Math في C#.
+description: اكتشف خاصية محاذاة OfficeMath لتخصيص وضبط محاذاة Office Math بسهولة. حسّن عرض مستندك بسهولة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.math/officemath/justification/
 ---
 ## OfficeMath.Justification property
 
-الحصول على/تعيين مبررات Office Math.
+يحصل على/يعين مبرر Office Math.
 
 ```csharp
 public OfficeMathJustification Justification { get; set; }
@@ -18,28 +18,28 @@ public OfficeMathJustification Justification { get; set; }
 
 ## ملاحظات
 
-لا يمكن تعيين التبرير على Office Math مع نوع تنسيق العرضInline.
+لا يمكن ضبط التبرير على Office Math مع نوع تنسيق العرضInline.
 
-لا يمكن تعيين الضبط المضمّن على Office Math مع نوع تنسيق العرضDisplay.
+لا يمكن ضبط المحاذاة المضمنة على Office Math مع نوع تنسيق العرضDisplay.
 
-مُتَجَانِس[`DisplayType`](../displaytype/) يجب تعيينه قبل تعيين مبرر Office Math.
+مُتَجَانِس[`DisplayType`](../displaytype/) يجب تعيين ذلك قبل تعيين مبرر Office Math.
 
 ## أمثلة
 
-يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
+يوضح كيفية تعيين تنسيق عرض الرياضيات في المكتب.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// عقد OfficeMath التابعة لعقد OfficeMath الأخرى تكون دائمًا مضمّنة.
+// عقد OfficeMath التي تعد أبناء لعقد OfficeMath الأخرى تكون دائمًا مضمنة.
 // العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع العرض.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// تغيير الموقع ونوع العرض لعقدة OfficeMath.
+// تغيير موقع ونوع العرض لعقدة OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

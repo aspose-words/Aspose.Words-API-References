@@ -3,16 +3,16 @@ title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.NodeList فصل. يمثل مجموعة من العقد المطابقة لاستعلام XPath الذي تم تنفيذه باستخدامSelectNodes الطريقة في C#.
+description: استكشف فئة Aspose.Words.NodeList، الحل الأمثل لإدارة نتائج استعلامات XPath بكفاءة وتحسين قدرات معالجة المستندات.
 type: docs
-weight: 4220
+weight: 4910
 url: /ar/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
 يمثل مجموعة من العقد المطابقة لاستعلام XPath الذي تم تنفيذه باستخدام[`SelectNodes`](../compositenode/selectnodes/) الطريقة.
 
-لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[نموذج كائن المستند (DOM) في Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -22,27 +22,27 @@ public class NodeList : IEnumerable<Node>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words/nodelist/count/) { get; } | الحصول على عدد العقد في القائمة. |
-| [Item](../../aspose.words/nodelist/item/) { get; } | يسترد عقدة في الفهرس المحدد. |
+| [Count](../../aspose.words/nodelist/count/) { get; } | يحصل على عدد العقد في القائمة. |
+| [Item](../../aspose.words/nodelist/item/) { get; } | يسترجع عقدة عند الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | يوفر تكرارًا بسيطًا لنمط "foreach" عبر مجموعة العقد. |
-| [ToArray](../../aspose.words/nodelist/toarray/)() | نسخ كافة العقد من المجموعة إلى مجموعة جديدة من العقد. |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | يوفر تكرارًا بسيطًا بأسلوب "foreach" عبر مجموعة العقد. |
+| [ToArray](../../aspose.words/nodelist/toarray/)() | نسخ جميع العقد من المجموعة إلى مجموعة جديدة من العقد. |
 
 ## ملاحظات
 
-`NodeList` يتم إرجاعها بواسطة[`SelectNodes`](../compositenode/selectnodes/) ويحتوي على مجموعة من العقد المطابقة لاستعلام XPath.
+`NodeList` يتم إرجاعه بواسطة[`SelectNodes`](../compositenode/selectnodes/) ويحتوي على مجموعة من العقد المطابقة لاستعلام XPath.
 
-`NodeList` يدعم الوصول المفهرسة والتكرار.
+`NodeList` يدعم الوصول المفهرس والتكرار.
 
-علاج`NodeList` المجموعة كمجموعة "لقطة".`NodeList`يبدأ كمجموعة "مباشرة" لأنه لا يتم استرداد العقد فعليًا عند تشغيل استعلام XPath. يتم استرداد العقد فقط عند الوصول وفي هذا الوقت يتم تخزين العقدة وجميع العقد التي تسبق مؤقتًا لتشكل مجموعة "لقطة".
+علاج`NodeList` المجموعة كمجموعة "لقطة".`NodeList` يبدأ كمجموعة "حية" لأن العقد لا يتم استردادها فعليًا عند تشغيل استعلام XPath. يتم استرداد العقد فقط عند الوصول وفي هذا الوقت يتم تخزين العقدة وكل العقد التي تسبقها مؤقتًا لتشكيل مجموعة "لقطة".
 
 ## أمثلة
 
-يوضح كيفية البحث عن كافة الارتباطات التشعبية في مستند Word، ثم تغيير عناوين URL وأسماء العرض الخاصة بها.
+يوضح كيفية العثور على جميع الارتباطات التشعبية في مستند Word، ثم تغيير عناوين URL وأسماء العرض الخاصة بها.
 
 ```csharp
 using System;
@@ -61,9 +61,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // الارتباطات التشعبية في مستندات Word هي حقول. للبدء في البحث عن الارتباطات التشعبية، يجب علينا أولاً العثور على كافة الحقول.
-            // استخدم طريقة "SelectNodes" للعثور على كافة الحقول في المستند عبر XPath.
-            NodeList fieldStarts = doc.SelectNodes("//فيلدستارت");
+            // الروابط التشعبية في مستندات Word هي حقول. للبدء بالبحث عن الروابط التشعبية، يجب أولاً العثور على جميع الحقول.
+            //استخدم طريقة "SelectNodes" للعثور على جميع الحقول في المستند عبر XPath.
+            NodeList fieldStarts = doc.SelectNodes("//بدء الحقل");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -71,11 +71,11 @@ namespace ApiExamples
                 {
                     Hyperlink hyperlink = new Hyperlink(fieldStart);
 
-                    // الارتباطات التشعبية التي ترتبط بالإشارات المرجعية لا تحتوي على عناوين URL.
+                    //الروابط التشعبية التي ترتبط بالإشارات المرجعية لا تحتوي على عناوين URL.
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // أعط كل رابط تشعبي لعنوان URL عنوان URL واسمًا جديدًا.
+                    // أعط كل رابط تشعبي لـ URL عنوان URL جديدًا واسمًا.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -89,11 +89,11 @@ namespace ApiExamples
     }
 
      ///<summary>
-      ///تحتوي حقول الارتباط التشعبي على الارتباطات التشعبية وتعرضها في نص المستند. حقل في Aspose.Words
-      ///يتكون من عدة عقد، وقد يكون من الصعب العمل مع كل تلك العقد مباشرة.
-     ///لن يعمل هذا التنفيذ إلا إذا كان كل من رمز الارتباط التشعبي واسمه يتكونان من عقدة تشغيل واحدة فقط.
+      ///تحتوي حقول الارتباط التشعبي على روابط تشعبية وتعرضها في نص المستند. حقل في Aspose.Words
+      ///يتكون من عدة عقد، وقد يكون من الصعب العمل مع كل هذه العقد بشكل مباشر.
+     ///سيعمل هذا التنفيذ فقط إذا كان كود الارتباط التشعبي واسم كل منهما يتكون من عقدة تشغيل واحدة فقط.
     ///
-     ///بنية العقدة للحقول هي كما يلي:
+     ///هيكل العقدة للحقول هو كما يلي:
      ///
      ///[FieldStart][Run - field code][FieldSeparator][Run - field result][FieldEnd]
      ///
@@ -119,13 +119,13 @@ namespace ApiExamples
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // عادةً، يمكننا دائمًا العثور على عقدة نهاية الحقل، ولكن المستند النموذجي
-             // يحتوي على فاصل فقرة داخل الارتباط التشعبي، مما يضع نهاية الحقل
-            // في الفقرة التالية. سيكون التعامل مع الحقول التي تمتد لعدة مرات أكثر تعقيدًا
-            // الفقرات بشكل صحيح. في هذه الحالة، يعد السماح لنهاية الحقل بأن تكون فارغة أمرًا كافيًا.
+             // عادةً، يمكننا دائمًا العثور على عقدة نهاية الحقل، ولكن مستند المثال
+             // يحتوي على فاصل فقرة داخل ارتباط تشعبي، مما يضع نهاية الحقل
+             // في الفقرة التالية. سيكون التعامل مع الحقول التي تمتد على عدة
+            // الفقرات بشكل صحيح. في هذه الحالة، يكفي أن تكون نهاية الحقل فارغة.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // يبدو رمز الحقل مثل "HYPERLINK "http:\\www.myurl.com""، ولكنه يمكن أن يتكون من عدة عمليات تشغيل.
+            // يبدو رمز الحقل مثل "HYPERLINK "http:\\www.myurl.com""، ولكنه قد يتكون من عدة عمليات تشغيل.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
@@ -139,15 +139,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // يتم تخزين اسم عرض الارتباط التشعبي في نتيجة الحقل، وهو تشغيل
-                // العقدة بين فاصل الحقل ونهاية الحقل.
+                 // يتم تخزين اسم عرض الارتباط التشعبي في حقل النتيجة، وهو عبارة عن تشغيل
+                //عقدة بين فاصل الحقل ونهاية الحقل.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // إذا كانت نتيجة الحقل تتكون من أكثر من عملية تشغيل واحدة، فاحذف عمليات التشغيل هذه.
+                // إذا كانت نتيجة الحقل تتكون من أكثر من تشغيل واحد، فاحذف هذه التشغيلات.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -157,7 +160,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -180,11 +189,11 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // رمز حقل الحقل موجود في عقدة التشغيل بين عقدة بداية الحقل وفاصل الحقل.
+            // يوجد رمز حقل الحقل في عقدة التشغيل بين عقدة بداية الحقل وفاصل الحقل.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // إذا كان رمز الحقل يتكون من أكثر من تشغيل واحد، فاحذف عمليات التشغيل هذه.
+            // إذا كان رمز الحقل يتكون من أكثر من تشغيل واحد، فاحذف هذه التشغيلات.
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
@@ -242,13 +251,13 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // واحد أو أكثر بدون مسافات HYPERLINK أو كلمة أخرى في اللغات الأخرى.
+            "\\S+" + // كلمة واحدة أو أكثر بدون مسافات HYPERLINK أو كلمة أخرى في لغات أخرى.
             "\\s+" + // مسافة واحدة أو أكثر.
-            "(?:\"\"\\s+)?" + // عدم الالتقاط اختياري "" ومسافة واحدة أو أكثر.
-            "(\\\\l\\s+)?" + // علامة \l اختيارية متبوعة بمسافة واحدة أو أكثر.
-            "\"" +  // فاصلة عليا واحدة.
-            "([^\"]+)" + // حرف واحد أو أكثر، باستثناء الفاصلة العليا (هدف الارتباط التشعبي).
-            "\"" // فاصلة علوية واحدة للإغلاق.
+            "(?:\"\"\\s+)?" + // اختياري غير قابل للالتقاط "" ومسافة واحدة أو أكثر.
+            "(\\\\l\\s+)?" + // علامة اختيارية \l متبوعة بمسافة واحدة أو أكثر.
+            "\"" +  //علامة اقتباس واحدة.
+            "([^\"]+)" + // حرف واحد أو أكثر، باستثناء علامة الاقتباس العليا (هدف الارتباط التشعبي).
+            "\"" //علامة ختامية واحدة.
         );
     }
 }

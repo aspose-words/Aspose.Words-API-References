@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.RevisionNumber
 linktitle: RevisionNumber
 articleTitle: RevisionNumber
 second_title: Aspose.Words لـ .NET
-description: BuiltInDocumentProperties RevisionNumber ملكية. الحصول على رقم مراجعة المستند أو تعيينه في C#.
+description: إدارة رقم مراجعة مستندك باستخدام BuiltInDocumentProperties. تتبع التغييرات بسهولة وحسّن التحكم في الإصدارات لتحسين التعاون.
 type: docs
-weight: 240
+weight: 250
 url: /ar/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
 ---
 ## BuiltInDocumentProperties.RevisionNumber property
 
-الحصول على رقم مراجعة المستند أو تعيينه.
+يحصل على رقم مراجعة المستند أو يعينه.
 
 ```csharp
 public int RevisionNumber { get; set; }
@@ -37,9 +37,9 @@ Assert.AreEqual(" REVNUM ", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 
-// تحسب هذه الخاصية عدد مرات حفظ المستند في برنامج Microsoft Word،
-// ولا علاقة له بالمراجعات المتعقبة. يمكننا العثور عليه عن طريق النقر بزر الماوس الأيمن على المستند في مستكشف Windows
-// عبر الخصائص -> تفاصيل. يمكننا تحديث هذه الخاصية يدويًا.
+// تحسب هذه الخاصية عدد المرات التي تم فيها حفظ مستند في Microsoft Word،
+// ولا علاقة له بالمراجعات المُتتبَّعة. يُمكننا العثور عليه بالنقر بزر الماوس الأيمن على المستند في مستكشف Windows.
+// عبر الخصائص -> التفاصيل. يمكننا تحديث هذه الخاصية يدويًا.
 doc.BuiltInDocumentProperties.RevisionNumber++;
 field.Update();
 
@@ -49,31 +49,31 @@ Assert.AreEqual("2", field.Result);
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
 ```csharp
-// افتح مستندًا قمنا بإنشائه وتحريره باستخدام Microsoft Word.
+// افتح المستند الذي قمنا بإنشائه وتحريره باستخدام Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // تحتوي الخصائص المضمنة التالية على معلومات تتعلق بإنشاء هذا المستند وتحريره.
-// يمكننا النقر بزر الماوس الأيمن فوق هذا المستند في مستكشف Windows والعثور عليه
+// يمكننا النقر بزر الماوس الأيمن على هذا المستند في مستكشف Windows والعثور عليه
 // هذه الخصائص عبر "الخصائص" -> "التفاصيل" -> فئة "الأصل".
-// يمكن لحقول مثل PRINTDATE وEDITTIME عرض هذه القيم في نص المستند.
+// يمكن للحقول مثل PRINTDATE وEDITTIME عرض هذه القيم في نص المستند.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
 Console.WriteLine($"Template document: {properties.Template}");
 
-// يمكننا أيضًا تغيير قيم الخصائص المضمنة.
+//يمكننا أيضًا تغيير قيم الخصائص المضمنة.
 properties.Company = "Doe Ltd.";
 properties.Manager = "Jane Doe";
 properties.Version = 5;
 properties.RevisionNumber++;
 
-// يقوم Microsoft Word بتحديث الخصائص التالية تلقائيًا عندما نحفظ المستند.
-// لاستخدام هذه الخصائص مع Aspose.Words، سنحتاج إلى تعيين قيم لها يدويًا.
+// يقوم Microsoft Word بتحديث الخصائص التالية تلقائيًا عند حفظ المستند.
+// لاستخدام هذه الخصائص مع Aspose.Words، سنحتاج إلى تعيين القيم لها يدويًا.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// يمكننا النقر بزر الماوس الأيمن فوق هذا المستند في مستكشف Windows والعثور عليه these properties in "Properties" -> "Details" -> "Origin".
+// يمكننا النقر بزر الماوس الأيمن على هذا المستند في مستكشف Windows والعثور عليه these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

@@ -3,14 +3,14 @@ title: ConditionalStyle.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words لـ .NET
-description: ConditionalStyle GetHashCode طريقة. حساب رمز التجزئة لهذا الكائن في C#.
+description: اكتشف كيف تقوم طريقة ConditionalStyle GetHashCode بحساب رموز التجزئة الفريدة لكائناتك بكفاءة، مما يعزز الأداء وسلامة البيانات.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/conditionalstyle/gethashcode/
 ---
 ## ConditionalStyle.GetHashCode method
 
-حساب رمز التجزئة لهذا الكائن.
+يحسب رمز التجزئة لهذا الكائن.
 
 ```csharp
 public override int GetHashCode()

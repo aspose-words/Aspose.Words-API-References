@@ -3,14 +3,14 @@ title: IChartDataPoint.Explosion
 linktitle: Explosion
 articleTitle: Explosion
 second_title: Aspose.Words لـ .NET
-description: IChartDataPoint Explosion ملكية. يحدد مقدار نقل نقطة البيانات من مركز الدائرة. يمكن أن يكون سالبًا ويعني السالب أنه لم يتم تعيين الخاصية ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية في C#.
+description: اكتشف خاصية IChartDataPoint Explosion للمخططات الدائرية. تحكّم بدقة في موضع نقاط البيانات - حسّن سرد بياناتك المرئي اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion property
 
-يحدد مقدار نقل نقطة البيانات من مركز الدائرة. يمكن أن يكون سالبًا، ويعني السالب أنه لم يتم تعيين الخاصية ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية.
+يحدد مقدار نقل نقطة البيانات من مركز الفطيرة. يمكن أن يكون سلبيًا، ويعني السلبي أن الخاصية غير مضبوطة ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية.
 
 ```csharp
 public int Explosion { get; set; }
@@ -18,7 +18,7 @@ public int Explosion { get; set; }
 
 ## أمثلة
 
-يوضح كيفية نقل شرائح المخطط الدائري بعيدًا عن المركز.
+يوضح كيفية نقل شرائح الرسم البياني الدائري بعيدًا عن المركز.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Sales", chart.Series[0].Name);
 
-// يمكن نقل "شرائح" المخطط الدائري بعيدًا عن المركز بمسافة عبر سمة الانفجار الخاصة بنقطة البيانات المعنية.
-// أضف نقطة بيانات إلى الجزء الأول من المخطط الدائري وانقلها بعيدًا عن المركز بمقدار 10 نقاط.
-// يقوم Aspose.Words بإنشاء نقاط البيانات تلقائيًا في حالة عدم وجودها.
+// من الممكن نقل "شرائح" مخطط دائري بعيدًا عن المركز بمسافة عبر سمة الانفجار الخاصة بنقطة البيانات المعنية.
+// أضف نقطة بيانات إلى الجزء الأول من مخطط الفطيرة وحركها بعيدًا عن المركز بـ 10 نقاط.
+// يقوم Aspose.Words بإنشاء نقاط البيانات تلقائيًا إذا لم تكن موجودة.
 ChartDataPoint dataPoint = chart.Series[0].DataPoints[0];
 dataPoint.Explosion = 10;
 
-// قم بإزاحة الجزء الثاني لمسافة أكبر.
+//إزاحة الجزء الثاني بمسافة أكبر.
 dataPoint = chart.Series[0].DataPoints[1];
 dataPoint.Explosion = 40;
 

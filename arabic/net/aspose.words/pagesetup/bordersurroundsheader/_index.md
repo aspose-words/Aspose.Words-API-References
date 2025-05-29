@@ -3,14 +3,14 @@ title: PageSetup.BorderSurroundsHeader
 linktitle: BorderSurroundsHeader
 articleTitle: BorderSurroundsHeader
 second_title: Aspose.Words لـ .NET
-description: PageSetup BorderSurroundsHeader ملكية. يحدد ما إذا كانت حدود الصفحة تتضمن الرأس أم لا في C#.
+description: اكتشف خاصية PageSetup BorderSurroundsHeader لتخصيص حدود صفحتك. تحكم في تضمين الرأس للحصول على تصميم أنيق للمستند.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/pagesetup/bordersurroundsheader/
 ---
 ## PageSetup.BorderSurroundsHeader property
 
-يحدد ما إذا كانت حدود الصفحة تتضمن الرأس أم لا.
+يحدد ما إذا كانت حدود الصفحة تتضمن الرأس أم تستبعده.
 
 ```csharp
 public bool BorderSurroundsHeader { get; set; }
@@ -18,11 +18,11 @@ public bool BorderSurroundsHeader { get; set; }
 
 ## ملاحظات
 
-لاحظ أن تغيير هذه الخاصية يؤثر على كافة الأقسام في المستند.
+ملاحظة: تغيير هذه الخاصية يؤثر على جميع الأقسام في المستند.
 
 ## أمثلة
 
-يوضح كيفية تطبيق حد على الصفحة والرأس/التذييل.
+يوضح كيفية تطبيق حدود على الصفحة والرأس/التذييل.
 
 ```csharp
 Document doc = new Document();
@@ -35,15 +35,15 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer.");
 builder.MoveToDocumentEnd();
 
-// أدخل حدًا أزرقًا مزدوج الخط.
+//أدرج حدودًا مزدوجة الخطوط باللون الأزرق.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// يحتوي كائن PageSetup الخاص بالقسم على علامتي "BorderSurroundsHeader" و"BorderSurroundsFooter" التي تحدد
-// ما إذا كان حد الصفحة يحيط بالنص الأساسي، أم لا، ويتضمن أيضًا الرأس أو التذييل، على التوالي.
-// اضبط علامة "BorderSurroundsHeader" على "صحيح" لإحاطة الرأس بحدودنا،
-// ثم قم بتعيين علامة "BorderSurroundsFooter" لترك التذييل خارج الحدود.
+// يحتوي كائن PageSetup الخاص بالقسم على علامتي "BorderSurroundsHeader" و"BorderSurroundsFooter" اللتين تحددان
+// ما إذا كان إطار الصفحة يحيط بنص الهيئة الرئيسي، ويتضمن أيضًا الرأس أو التذييل، على التوالي.
+// اضبط علامة "BorderSurroundsHeader" على "true" لإحاطة الرأس بحدودنا،
+// ثم قم بتعيين العلم "BorderSurroundsFooter" لترك التذييل خارج الحدود.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

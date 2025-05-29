@@ -3,14 +3,14 @@ title: DocumentPropertyCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: DocumentPropertyCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
+description: اكتشف خاصية Count في DocumentPropertyCollection لاسترداد عدد العناصر في مجموعتك بسهولة لإدارة البيانات بكفاءة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.properties/documentpropertycollection/count/
 ---
 ## DocumentPropertyCollection.Count property
 
-الحصول على عدد العناصر الموجودة في المجموعة.
+يحصل على عدد العناصر في المجموعة.
 
 ```csharp
 public int Count { get; }
@@ -23,8 +23,8 @@ public int Count { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، هي أزواج قيمة المفتاح.
- // يحتوي المستند على قائمة ثابتة بالخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة.
+// تحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، عبارة عن أزواج من القيمة الأساسية.
+ // تحتوي الوثيقة على قائمة ثابتة من الخصائص المضمنة. يُنشئ المستخدم جميع الخصائص المخصصة.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

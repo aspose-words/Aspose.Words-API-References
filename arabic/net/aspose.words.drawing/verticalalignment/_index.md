@@ -3,9 +3,9 @@ title: VerticalAlignment Enum
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.VerticalAlignment تعداد. يحدد المحاذاة الرأسية لشكل عائم أو إطار نص أو جدول عائم في C#.
+description: اكتشف خاصية Aspose.Words.Drawing.VerticalAlignment لمحاذاة دقيقة عموديًا لإطارات النصوص والجداول في مستنداتك. حسّن التحكم في التخطيط!
 type: docs
-weight: 1380
+weight: 1790
 url: /ar/net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration
@@ -20,14 +20,14 @@ public enum VerticalAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | يتم تحديد موضع الكائن بشكل واضح، عادةً باستخدام**قمة** الملكية. |
-| Top | `1` | يحدد أن الكائن يجب أن يكون في أعلى قاعدة المحاذاة العمودية. |
-| Center | `2` | يحدد أن الكائن يجب أن يتم توسيطه فيما يتعلق بقاعدة المحاذاة الرأسية. |
+| None | `0` | يتم وضع الكائن بشكل صريح، عادةً باستخدام**قمة** الملكية. |
+| Top | `1` | يحدد أن الكائن يجب أن يكون في أعلى قاعدة المحاذاة الرأسية. |
+| Center | `2` | يحدد أن الكائن يجب أن يكون متمركزًا بالنسبة لقاعدة المحاذاة الرأسية. |
 | Bottom | `3` | يحدد أن الكائن يجب أن يكون في أسفل قاعدة المحاذاة الرأسية. |
 | Inside | `4` | يحدد أن الكائن يجب أن يكون داخل قاعدة المحاذاة الأفقية. |
-| Outside | `5` | يحدد أن الكائن يجب أن يكون خارج قاعدة المحاذاة العمودية. |
-| Inline | `-1` | غير موثقة. يبدو أنها قيمة محتملة للفقرات والجداول العائمة. |
-| Default | `0` | نفسNone . |
+| Outside | `5` | يحدد أن الكائن يجب أن يكون خارج قاعدة المحاذاة الرأسية. |
+| Inline | `-1` | غير موثّق. يبدو أنها قيمة محتملة للفقرات والجداول العائمة. |
+| Default | `0` | نفس الشيءNone . |
 
 ## أمثلة
 
@@ -37,7 +37,7 @@ public enum VerticalAlignment
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
+// قم بإدراج صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع مركز الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

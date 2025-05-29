@@ -3,14 +3,14 @@ title: ShapeLineStyle Enum
 linktitle: ShapeLineStyle
 articleTitle: ShapeLineStyle
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.ShapeLineStyle تعداد. يحدد نمط الخط المركب لـ aShape  في C#.
+description: اكتشف مجموعة Aspose.Words.Drawing.ShapeLineStyle لتعزيز تصميم مستندك باستخدام أنماط الخطوط المركبة القابلة للتخصيص للأشكال.
 type: docs
-weight: 1270
+weight: 1660
 url: /ar/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-يحدد نمط الخط المركب لـ a[`Shape`](../shape/) .
+يحدد نمط الخط المركب لـ[`Shape`](../shape/) .
 
 ```csharp
 public enum ShapeLineStyle
@@ -22,9 +22,9 @@ public enum ShapeLineStyle
 | --- | --- | --- |
 | Single | `0` | سطر واحد. |
 | Double | `1` | خطوط مزدوجة متساوية العرض. |
-| ThickThin | `2` | خطوط مزدوجة، واحد سميك والآخر رفيع. |
-| ThinThick | `3` | خطوط مزدوجة، واحد رفيع والآخر سميك. |
-| Triple | `4` | ثلاثة خطوط رفيعة سميكة رفيعة. |
+| ThickThin | `2` | خطوط مزدوجة، واحدة سميكة، وأخرى رفيعة. |
+| ThinThick | `3` | خطوط مزدوجة، واحدة رفيعة، وأخرى سميكة. |
+| Triple | `4` | ثلاثة خطوط، رفيع، سميك، رفيع. |
 | Default | `0` | القيمة الافتراضية هيSingle . |
 
 ## أمثلة
@@ -38,12 +38,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// الأشكال الأساسية، مثل المستطيل، لها جزأين مرئيين.
-// 1 - التعبئة، والتي تنطبق على المساحة الموجودة داخل المخطط التفصيلي للشكل:
+//الأشكال الأساسية، مثل المستطيل، تحتوي على جزأين مرئيين.
+// 1 - التعبئة، والتي تنطبق على المنطقة داخل مخطط الشكل:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - الحد الذي يحدد الخطوط العريضة للشكل:
-// تعديل الخصائص المختلفة لحد هذا الشكل.
+// 2 - الخط الذي يحدد الخطوط العريضة للشكل:
+// تعديل خصائص مختلفة لخط هذا الشكل.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

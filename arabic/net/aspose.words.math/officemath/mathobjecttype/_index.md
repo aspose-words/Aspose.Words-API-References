@@ -3,14 +3,14 @@ title: OfficeMath.MathObjectType
 linktitle: MathObjectType
 articleTitle: MathObjectType
 second_title: Aspose.Words لـ .NET
-description: OfficeMath MathObjectType ملكية. يحصل على النوعMathObjectType لكائن Office Math هذا في C#.
+description: اكتشف خاصية MathObjectType في OfficeMath للوصول بسهولة إلى MathObjectTypes والاستفادة منها لتحسين تنسيق المستندات ووظائفها.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.math/officemath/mathobjecttype/
 ---
 ## OfficeMath.MathObjectType property
 
-يحصل على النوع`MathObjectType` لكائن Office Math هذا.
+يحصل على النوع`MathObjectType`من كائن الرياضيات المكتبي هذا.
 
 ```csharp
 public MathObjectType MathObjectType { get; }
@@ -18,7 +18,7 @@ public MathObjectType MathObjectType { get; }
 
 ## أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل عقدة رياضية في المكتب في المستند.
+يوضح كيفية طباعة بنية العقدة لكل عقدة رياضيات مكتبية في مستند.
 
 ```csharp
 public void OfficeMathToText()
@@ -26,17 +26,17 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة لجميع عقد OfficeMath التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد OfficeMath التي تمت مواجهتها وأطفالها.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -47,7 +47,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -55,7 +55,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -65,7 +65,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة OfficeMath في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة OfficeMath في المستند.
     /// </summary>
     public override VisitorAction VisitOfficeMathStart(OfficeMath officeMath)
     {
@@ -77,7 +77,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة كافة العقد التابعة لعقدة OfficeMath.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة OfficeMath.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -89,9 +89,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
+    /// أضف سطرًا إلى StringBuilder وقم بتدويره وفقًا لمدى عمق الزائر في شجرة المستند.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

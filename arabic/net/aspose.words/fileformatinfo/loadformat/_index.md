@@ -3,14 +3,14 @@ title: FileFormatInfo.LoadFormat
 linktitle: LoadFormat
 articleTitle: LoadFormat
 second_title: Aspose.Words لـ .NET
-description: FileFormatInfo LoadFormat ملكية. الحصول على تنسيق المستند الذي تم اكتشافه في C#.
+description: اكتشف خاصية LoadFormat في FileFormatInfo لتتمكن من التعرف بسهولة على تنسيقات المستندات المكتشفة والوصول إليها لإدارة الملفات بسلاسة.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words/fileformatinfo/loadformat/
 ---
 ## FileFormatInfo.LoadFormat property
 
-الحصول على تنسيق المستند الذي تم اكتشافه.
+يحصل على تنسيق المستند المكتشف.
 
 ```csharp
 public LoadFormat LoadFormat { get; }
@@ -18,23 +18,23 @@ public LoadFormat LoadFormat { get; }
 
 ## ملاحظات
 
-عندما يتم تشفير مستند OOXML، لا يمكن التأكد مما إذا كان مستند Excel أو Word أو PowerPoint دون فك تشفيره أولاً، لذا بالنسبة لمستند OOXML المشفر، سترجع هذه الخاصية دائمًاDocx.
+عندما يتم تشفير مستند OOXML، فمن غير الممكن التأكد مما إذا كان مستند Excel أو Word أو PowerPoint دون فك تشفيره أولاً، لذلك بالنسبة لمستند OOXML المشفر، ستعيد هذه الخاصية دائمًاDocx.
 
 ## أمثلة
 
-يوضح كيفية استخدام فئة FileFormatUtil للكشف عن تنسيق المستند وتشفيره.
+يوضح كيفية استخدام فئة FileFormatUtil لاكتشاف تنسيق المستند والتشفير.
 
 ```csharp
 Document doc = new Document();
 
-// قم بتكوين كائن SaveOptions لتشفير المستند
-// بكلمة مرور عندما نحفظها، ثم نحفظ المستند.
+// تكوين كائن SaveOptions لتشفير المستند
+// بكلمة مرور عندما نحفظه، ثم نحفظ المستند.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
 doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 
-// تحقق من نوع ملف وثيقتنا وحالة التشفير الخاصة به.
+// التحقق من نوع الملف الخاص بمستندنا وحالة تشفيره.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
 Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
@@ -51,22 +51,23 @@ Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
-// استخدم FileFormatInstance جديد لتأكيد توقيعه.
+// استخدم FileFormatInstance جديدًا للتأكد من توقيعه.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
 
-// يمكننا تحميل التوقيعات الخاصة بالمستند الموقع في مجموعة كهذه والوصول إليها.
+// يمكننا تحميل التوقيعات الخاصة بمستند موقّع والوصول إليها في مجموعة مثل هذه.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 
-يوضح كيفية استخدام أساليب FileFormatUtil للكشف عن تنسيق المستند.
+يوضح كيفية استخدام طرق FileFormatUtil للكشف عن تنسيق المستند.
 
 ```csharp
-// قم بتحميل مستند من ملف يفتقد امتداد الملف، ثم اكتشف تنسيق الملف الخاص به.
+// قم بتحميل مستند من ملف يفتقد ملحق الملف، ثم اكتشف تنسيق الملف الخاص به.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -74,15 +75,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // فيما يلي طريقتان لتحويل LoadFormat إلى SaveFormat المطابق له.
+    // فيما يلي طريقتان لتحويل LoadFormat إلى SaveFormat المقابل له.
     // 1 - احصل على سلسلة امتداد الملف لـ LoadFormat، ثم احصل على SaveFormat المقابل من تلك السلسلة:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - تحويل LoadFormat مباشرةً إلى SaveFormat الخاص به:
+    // 2 - تحويل LoadFormat مباشرة إلى SaveFormat الخاص به:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // قم بتحميل مستند من الدفق، ثم احفظه في ملحق الملف الذي تم اكتشافه تلقائيًا.
+    // قم بتحميل مستند من الدفق، ثم احفظه في امتداد الملف الذي تم اكتشافه تلقائيًا.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

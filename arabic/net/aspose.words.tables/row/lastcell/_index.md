@@ -3,14 +3,14 @@ title: Row.LastCell
 linktitle: LastCell
 articleTitle: LastCell
 second_title: Aspose.Words لـ .NET
-description: Row LastCell ملكية. إرجاع الأخيرCell في الصف في C#.
+description: اكتشف خاصية Row LastCell للوصول بسهولة إلى الخلية الأخيرة في الصف، مما يعزز كفاءة إدارة البيانات وتحليلها.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.tables/row/lastcell/
 ---
 ## Row.LastCell property
 
-إرجاع الأخير[`Cell`](../../cell/) في الصف.
+يعيد آخر[`Cell`](../../cell/) في الصف.
 
 ```csharp
 public Cell LastCell { get; }
@@ -26,17 +26,17 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة تضم جميع عقد الجدول التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد الجدول التي تم مواجهتها وأطفالها.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -52,8 +52,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
-    /// لا يتم تسجيل العمليات التي ليست ضمن الجداول.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
+    /// لن يتم تسجيل عمليات التشغيل التي لا تقع ضمن الجداول.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -63,7 +63,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة جدول في المستند.
+    /// يتم استدعاؤها عند العثور على جدول في المستند.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -84,7 +84,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الجدول.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الجدول.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -96,7 +96,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة صف في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة صف في المستند.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -116,7 +116,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الصف.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الصف.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -127,7 +127,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة الخلية في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة خلية في المستند.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -146,7 +146,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الخلية.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة الخلية.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -156,10 +156,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder، ثم ضع مسافة بادئة له اعتمادًا على مدى عمق الزائر
-    /// في شجرة العقد التابعة للجدول الحالي.
+    /// أضف سطرًا إلى StringBuilder، وقم بتدويره حسب عمق الزائر
+    /// في شجرة العقد الفرعية للجدول الحالي.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

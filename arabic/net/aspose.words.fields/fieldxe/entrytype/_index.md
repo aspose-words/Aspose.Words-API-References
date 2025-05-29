@@ -3,14 +3,14 @@ title: FieldXE.EntryType
 linktitle: EntryType
 articleTitle: EntryType
 second_title: Aspose.Words لـ .NET
-description: FieldXE EntryType ملكية. الحصول على نوع إدخال الفهرس أو تعيينه في C#.
+description: اكتشف خاصية FieldXE EntryType، وقم بإدارة وتخصيص أنواع إدخالات الفهرس بسهولة لتحسين تنظيم البيانات وكفاءة الاسترجاع.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldxe/entrytype/
 ---
 ## FieldXE.EntryType property
 
-الحصول على نوع إدخال الفهرس أو تعيينه.
+يحصل على نوع إدخال الفهرس أو يعينه.
 
 ```csharp
 public string EntryType { get; set; }
@@ -24,27 +24,27 @@ public string EntryType { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء حقل INDEX الذي سيعرض إدخالاً لكل حقل XE موجود في المستند.
-// سيعرض كل إدخال قيمة خاصية النص لحقل XE على الجانب الأيسر
+// قم بإنشاء حقل INDEX والذي سيعرض إدخالاً لكل حقل XE موجود في المستند.
+// سيعرض كل إدخال قيمة خاصية النص الخاصة بحقل XE على الجانب الأيسر
 // والصفحة التي تحتوي على حقل XE على اليمين.
-// إذا كانت حقول XE لها نفس القيمة في خاصية "النص" الخاصة بها،
-// سيقوم حقل INDEX بتجميعها في إدخال واحد.
+// إذا كانت حقول XE تحتوي على نفس القيمة في خاصية "النص" الخاصة بها،
+// سوف يقوم حقل INDEX بتجميعهم في إدخال واحد.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // قم بتكوين حقل INDEX فقط لعرض حقول XE الموجودة ضمن الحدود
-// للإشارة المرجعية المسماة "MainBookmark"، والتي تحتوي خصائص "EntryType" الخاصة بها على قيمة "A".
-// بالنسبة لكل من الحقلين INDEX وXE، تستخدم خاصية "EntryType" فقط الحرف الأول من قيمة السلسلة الخاصة بها.
+// لإشارة مرجعية تسمى "MainBookmark"، وخصائص "EntryType" الخاصة بها لها قيمة "A".
+// بالنسبة لكلا الحقلين INDEX وXE، تستخدم خاصية "EntryType" الحرف الأول فقط من قيمة السلسلة الخاصة بها.
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// في صفحة جديدة، ابدأ الإشارة المرجعية باسم يطابق القيمة
-// الخاصية "BookmarkName" الخاصة بحقل INDEX.
+// في صفحة جديدة، ابدأ الإشارة المرجعية باسم يتطابق مع القيمة
+// من خاصية "BookmarkName" في حقل INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
 
-// سيلتقط حقل INDEX هذا الإدخال لأنه موجود داخل الإشارة المرجعية،
+// سوف يلتقط حقل INDEX هذا الإدخال لأنه موجود داخل الإشارة المرجعية،
 // ونوع الإدخال الخاص به يتطابق أيضًا مع نوع إدخال حقل INDEX.
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 1";
@@ -52,13 +52,13 @@ indexEntry.EntryType = "A";
 
 Assert.AreEqual(" XE  \"Index entry 1\" \\f A", indexEntry.GetFieldCode());
 
-// أدخل حقل XE الذي لن يظهر في الفهرس لأن أنواع الإدخال غير متطابقة.
+// أدخل حقل XE الذي لن يظهر في INDEX لأن أنواع الإدخالات لا تتطابق.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 2";
 indexEntry.EntryType = "B";
 
-// قم بإنهاء الإشارة المرجعية وأدخل حقل XE بعد ذلك.
+// قم بإنهاء الإشارة المرجعية وإدراج حقل XE بعد ذلك.
 // إنه من نفس نوع حقل INDEX، لكنه لن يظهر
 // لأنه خارج حدود الإشارة المرجعية.
 builder.EndBookmark("MainBookmark");

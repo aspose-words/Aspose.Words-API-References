@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowLegendKey
 linktitle: ShowLegendKey
 articleTitle: ShowLegendKey
 second_title: Aspose.Words لـ .NET
-description: ChartDataLabelCollection ShowLegendKey ملكية. يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: تحكم في مظهر مخططك باستخدام خاصية ShowLegendKey في ChartDataLabelCollection. يمكنك تبديل مفاتيح الأسطورة بسهولة لتحسين وضوح البيانات.
 type: docs
-weight: 110
+weight: 140
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
 ---
 ## ChartDataLabelCollection.ShowLegendKey property
 
-يسمح بتحديد ما إذا كان سيتم عرض مفتاح وسيلة الإيضاح لتسميات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هي`خطأ شنيع` .
+يسمح بتحديد ما إذا كان سيتم عرض مفتاح الأسطورة لملصقات البيانات الخاصة بالسلسلة بأكملها. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ShowLegendKey { get; set; }
@@ -18,11 +18,11 @@ public bool ShowLegendKey { get; set; }
 
 ## ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`ShowLegendKey`](../../chartdatalabel/showlegendkey/) الملكية.
+يمكن تجاوز القيمة المحددة لهذه الخاصية لعلامة بيانات فردية باستخدام [`ShowLegendKey`](../../chartdatalabel/showlegendkey/) الملكية.
 
 ## أمثلة
 
-يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الدائري.
+يوضح كيفية العمل مع تسميات البيانات في مخطط دائري.
 
 ```csharp
 Document doc = new Document();
@@ -30,15 +30,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أدخل سلسلة مخططات مخصصة مع اسم فئة لكل قطاع وجدول تكرارها.
+// قم بإدراج سلسلة مخططات مخصصة مع اسم الفئة لكل قطاع، وجدول التردد الخاص بها.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// تمكين تسميات البيانات التي ستعرض النسبة المئوية والتكرار لكل قطاع، وتعديل مظهرها.
+// تمكين تسميات البيانات التي ستعرض النسبة المئوية والتردد لكل قطاع، وتعديل مظهرها.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

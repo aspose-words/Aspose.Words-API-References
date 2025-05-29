@@ -3,7 +3,7 @@ title: CustomXmlPart
 linktitle: CustomXmlPart
 articleTitle: CustomXmlPart
 second_title: Aspose.Words لـ .NET
-description: CustomXmlPart البناء. Default_Constructor في C#.
+description: استكشف مُنشئ CustomXmlPart للتكامل السلس. اكتشف كيف يُحسّن المُنشئ الافتراضي تجربة تخصيص XML لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/customxmlpart/customxmlpart/

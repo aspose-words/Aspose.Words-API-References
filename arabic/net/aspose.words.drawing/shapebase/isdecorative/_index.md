@@ -3,14 +3,14 @@ title: ShapeBase.IsDecorative
 linktitle: IsDecorative
 articleTitle: IsDecorative
 second_title: Aspose.Words لـ .NET
-description: ShapeBase IsDecorative ملكية. الحصول على أو تعيين العلامة التي تحدد ما إذا كان الشكل مزخرفًا في المستند في C#.
+description: اكتشف ShapeBase. أدر خصائص الزخرفة في مستنداتك بسهولة. حسّن المظهر البصري من خلال تحديد علامات لتصاميم أشكال فريدة.
 type: docs
-weight: 240
+weight: 260
 url: /ar/net/aspose.words.drawing/shapebase/isdecorative/
 ---
 ## ShapeBase.IsDecorative property
 
-الحصول على أو تعيين العلامة التي تحدد ما إذا كان الشكل مزخرفًا في المستند.
+يحصل على العلم الذي يحدد ما إذا كان الشكل مزخرفًا في المستند أم لا.
 
 ```csharp
 public bool IsDecorative { get; set; }
@@ -27,18 +27,18 @@ public bool IsDecorative { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Decorative shapes.docx");
 
-Shape shape = (Shape) doc.GetChildNodes(NodeType.Shape, true)[0];
+Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(shape.IsDecorative);
 
-// إذا لم يكن "النص البديل" فارغًا، فلا يمكن أن يكون الشكل مزخرفًا.
-// لهذا السبب تغيرت قيمتنا إلى "خطأ".
+// إذا لم يكن "AlternativeText" فارغًا، فلا يمكن أن يكون الشكل زخرفيًا.
+// لهذا السبب تغيرت قيمتنا إلى 'خطأ'.
 shape.AlternativeText = "Alternative text.";
 Assert.False(shape.IsDecorative);
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.MoveToDocumentEnd();
-// إنشاء شكل جديد للزينة.
+// إنشاء شكل جديد كزخرفي.
 shape = builder.InsertShape(ShapeType.Rectangle, 100, 100);
 shape.IsDecorative = true;
 

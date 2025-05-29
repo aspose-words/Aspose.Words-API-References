@@ -3,7 +3,7 @@ title: FieldBidiOutline
 linktitle: FieldBidiOutline
 articleTitle: FieldBidiOutline
 second_title: Aspose.Words لـ .NET
-description: FieldBidiOutline البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldBidiOutline، الحل الأمثل لمعالجة البيانات بكفاءة بإعداداته الافتراضية البديهية. حسّن تجربة البرمجة لديك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldbidioutline/fieldbidioutline/

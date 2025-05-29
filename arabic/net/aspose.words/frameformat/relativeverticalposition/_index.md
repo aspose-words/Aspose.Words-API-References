@@ -3,7 +3,7 @@ title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words لـ .NET
-description: FrameFormat RelativeVerticalPosition ملكية. يحصل على الموضع الرأسي النسبي للإطار في C#.
+description: اكتشف خاصية FrameFormat RelativeVerticalPosition لتحديد المحاذاة الرأسية للإطار بسهولة، مما يعزز تخطيط وتصميم مستندك.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/frameformat/relativeverticalposition/
@@ -18,7 +18,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تعتبر إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

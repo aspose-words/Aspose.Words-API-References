@@ -3,7 +3,7 @@ title: RevisionGroup.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words لـ .NET
-description: RevisionGroup Text ملكية. إرجاع النص المدرج/المحذوف/المنقول أو وصف تغيير التنسيق في C#.
+description: استكشف خاصية النص RevisionGroup للوصول إلى النص المدرج أو المحذوف أو المنقول، مما يعزز رؤى تنسيق المستند وكفاءة التحرير.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/revisiongroup/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## أمثلة
 
-يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
+يوضح كيفية طباعة المعلومات حول مجموعة من المراجعات في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

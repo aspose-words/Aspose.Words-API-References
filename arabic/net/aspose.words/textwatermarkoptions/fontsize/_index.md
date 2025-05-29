@@ -3,14 +3,14 @@ title: TextWatermarkOptions.FontSize
 linktitle: FontSize
 articleTitle: FontSize
 second_title: Aspose.Words لـ .NET
-description: TextWatermarkOptions FontSize ملكية. الحصول على حجم الخط أو تعيينه. القيمة الافتراضية هي 0  auto في C#.
+description: خصّص خيارات علامة النص المائية لديك مع إمكانية تعديل حجم الخط. اضبط الحجم الذي يناسبك بسهولة لضمان وضوح وأسلوب مثاليين في تصميماتك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/textwatermarkoptions/fontsize/
 ---
 ## TextWatermarkOptions.FontSize property
 
-الحصول على حجم الخط أو تعيينه. القيمة الافتراضية هي 0 - auto.
+للحصول على حجم الخط أو تعيينه. القيمة الافتراضية هي 0 - تلقائي.
 
 ```csharp
 public float FontSize { get; set; }
@@ -20,13 +20,13 @@ public float FontSize { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
+| ArgumentOutOfRangeException | يتم طرحه عندما تكون الحجة خارج نطاق القيم الصالحة. |
 
 ## ملاحظات
 
-تتراوح القيم الصالحة من 0 إلى 65.5 ضمناً.
+تتراوح القيم الصالحة من 0 إلى 65.5 شاملة.
 
-حجم الخط التلقائي يعني أنه سيتم تغيير حجم العلامة المائية إلى الحد الأقصى للعرض والحد الأقصى للارتفاع بالنسبة إلى هوامش الصفحة.
+يعني حجم الخط التلقائي أن العلامة المائية سيتم تغيير حجمها إلى أقصى عرض وأقصى ارتفاع بالنسبة إلى هوامش الصفحة.
 
 ## أمثلة
 
@@ -35,10 +35,10 @@ public float FontSize { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية نصية عادية.
+//أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
+// إذا أردنا تحرير تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -51,7 +51,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// يمكننا إزالة علامة مائية من مستند مثل هذا.
+//يمكننا إزالة العلامة المائية من مستند مثل هذا.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

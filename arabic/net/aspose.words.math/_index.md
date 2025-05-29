@@ -3,22 +3,22 @@ title: Aspose.Words.Math
 linktitle: Aspose.Words.Math
 articleTitle: Aspose.Words.Math
 second_title: Aspose.Words لـ .NET
-description: الAspose.Words.Math تحتوي مساحة الاسم على فئات تمثل عناصر Office Math في C#.
+description: استكشف Aspose.Words.Math للحصول على فئات فعّالة لإنشاء عناصر Office Math ومعالجتها بسهولة. حسّن معالجة مستنداتك اليوم!
 type: docs
-weight: 170
+weight: 190
 url: /ar/net/aspose.words.math/
 ---
-ال**Aspose.Words.Math** تحتوي مساحة الاسم على فئات تمثل عناصر Office Math.
+ال**افترض.كلمات.رياضيات** تحتوي مساحة الاسم على فئات تمثل عناصر Office Math.
 
 ## الطبقات
 
 | فصل | وصف |
 | --- | --- |
-| [OfficeMath](./officemath/) | يمثل كائن Office Math مثل الدالة أو المعادلة أو المصفوفة أو ما شابه ذلك. يمكن أن تحتوي على العناصر الفرعية بما في ذلك مجموعة من النصوص الرياضية والإشارات المرجعية والتعليقات وغيرها[`OfficeMath`](../aspose.words.math/officemath/)المثيلات وبعض العقد الأخرى. |
+| [OfficeMath](./officemath/) | يمثل كائنًا رياضيًا في Office، مثل دالة أو معادلة أو مصفوفة أو ما شابه. يمكن أن يحتوي على عناصر فرعية ، بما في ذلك نصوص رياضية، وإشارات مرجعية، وتعليقات، وغيرها.[`OfficeMath`](../aspose.words.math/officemath/)الحالات وبعض العقد الأخرى. |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
 | [MathObjectType](./mathobjecttype/) | يحدد نوع كائن Office Math. |
-| [OfficeMathDisplayType](./officemathdisplaytype/) | يحدد نوع تنسيق عرض المعادلة. |
+| [OfficeMathDisplayType](./officemathdisplaytype/) | يحدد نوع تنسيق العرض للمعادلة. |
 | [OfficeMathJustification](./officemathjustification/) | يحدد مبرر المعادلة. |

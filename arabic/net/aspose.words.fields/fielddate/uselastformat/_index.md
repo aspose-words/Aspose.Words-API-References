@@ -3,14 +3,14 @@ title: FieldDate.UseLastFormat
 linktitle: UseLastFormat
 articleTitle: UseLastFormat
 second_title: Aspose.Words لـ .NET
-description: FieldDate UseLastFormat ملكية. الحصول على أو تعيين ما إذا كان سيتم استخدام التنسيق الذي تم استخدامه آخر مرة بواسطة تطبيق الاستضافة عند إدراج حقل DATE جديد في C#.
+description: اكتشف كيف تعمل خاصية FieldDate UseLastFormat على تعزيز سير عملك من خلال الاحتفاظ بتنسيق التاريخ المستخدم الأخير لتحقيق التكامل السلس في تطبيقاتك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fielddate/uselastformat/
 ---
 ## FieldDate.UseLastFormat property
 
-الحصول على أو تعيين ما إذا كان سيتم استخدام التنسيق الذي تم استخدامه آخر مرة بواسطة تطبيق الاستضافة عند إدراج حقل DATE جديد.
+يحصل على أو يحدد ما إذا كان سيتم استخدام التنسيق الذي استخدمه تطبيق الاستضافة آخر مرة عند إدراج حقل DATE جديد.
 
 ```csharp
 public bool UseLastFormat { get; set; }
@@ -24,15 +24,15 @@ public bool UseLastFormat { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إذا أردنا أن يعرض النص الموجود في المستند دائمًا التاريخ الصحيح، فيمكننا استخدام حقل التاريخ.
-// فيما يلي ثلاثة أنواع من التقويمات الثقافية التي يمكن لحقل التاريخ استخدامها لعرض التاريخ.
+// إذا أردنا أن يعرض النص الموجود في المستند التاريخ الصحيح دائمًا، فيمكننا استخدام حقل DATE.
+// فيما يلي ثلاثة أنواع من التقويمات الثقافية التي يمكن لحقل DATE استخدامها لعرض التاريخ.
 // 1 - التقويم القمري الإسلامي:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
 Assert.AreEqual(" DATE  \\h", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - تقويم أم القرى :
+// 2 - تقويم أم القرى:
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseUmAlQuraCalendar = true;
 Assert.AreEqual(" DATE  \\u", field.GetFieldCode());
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// أدخل حقل التاريخ وقم بتعيين نوع التقويم الخاص به على النوع الذي استخدمه التطبيق المضيف آخر مرة.
-// في Microsoft Word، سيكون النوع هو الأحدث استخدامًا في الإدراج -> نص -> مربع حوار التاريخ والوقت.
+// أدخل حقل DATE وقم بتعيين نوع التقويم الخاص به إلى النوع الأخير الذي يستخدمه تطبيق المضيف.
+// في Microsoft Word، سيكون النوع هو الأحدث استخدامًا في مربع الحوار إدراج -> نص -> التاريخ والوقت.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

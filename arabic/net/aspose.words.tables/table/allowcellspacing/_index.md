@@ -3,14 +3,14 @@ title: Table.AllowCellSpacing
 linktitle: AllowCellSpacing
 articleTitle: AllowCellSpacing
 second_title: Aspose.Words لـ .NET
-description: Table AllowCellSpacing ملكية. الحصول على خيار السماح بالتباعد بين الخلايا أو تعيينه في C#.
+description: اكتشف خاصية Table AllowCellSpacing لإدارة مسافات الخلايا بسهولة في تخطيطاتك. حسّن تصميمك بخيارات قابلة للتخصيص!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.tables/table/allowcellspacing/
 ---
 ## Table.AllowCellSpacing property
 
-الحصول على خيار "السماح بالتباعد بين الخلايا" أو تعيينه.
+يحصل على خيار "السماح بالتباعد بين الخلايا" أو يعينه.
 
 ```csharp
 public bool AllowCellSpacing { get; set; }
@@ -18,7 +18,7 @@ public bool AllowCellSpacing { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تمكين التباعد بين الخلايا الفردية في الجدول.
+يوضح كيفية تمكين المسافة بين الخلايا الفردية في جدول.
 
 ```csharp
 Document doc = new Document();
@@ -38,15 +38,15 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
-// اضبط خاصية "AllowCellSpacing" على "صحيح" لتمكين التباعد بين الخلايا
-// بحجم يساوي قيمة خاصية "CellSpacing" بالنقاط.
-// اضبط خاصية "AllowCellSpacing" على "خطأ" لتعطيل تباعد الخلايا
-// وتجاهل قيمة خاصية "CellSpacing".
+// اضبط خاصية "AllowCellSpacing" على "true" لتمكين التباعد بين الخلايا
+// بحجم يساوي قيمة خاصية "CellSpacing"، بالنقاط.
+// اضبط خاصية "AllowCellSpacing" على "false" لتعطيل تباعد الخلايا
+// وتجاهل قيمة الخاصية "CellSpacing".
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// سيؤدي ضبط خاصية "CellSpacing" إلى تمكين تباعد الخلايا تلقائيًا.
+// سيؤدي تعديل خاصية "CellSpacing" إلى تمكين تباعد الخلايا تلقائيًا.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);

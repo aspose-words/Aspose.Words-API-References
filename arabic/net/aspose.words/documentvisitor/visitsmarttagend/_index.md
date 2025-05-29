@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitSmartTagEnd
 linktitle: VisitSmartTagEnd
 articleTitle: VisitSmartTagEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitSmartTagEnd طريقة. يتم الاتصال به عند انتهاء تعداد العلامة الذكية في C#.
+description: اكتشف طريقة DocumentVisitor VisitSmartTagEnd، وهي أساسية لعدّ العلامات الذكية بكفاءة. حسّن مهاراتك البرمجية بهذه الوظيفة الأساسية!
 type: docs
 weight: 410
 url: /ar/net/aspose.words/documentvisitor/visitsmarttagend/
 ---
 ## DocumentVisitor.VisitSmartTagEnd method
 
-يتم الاتصال به عند انتهاء تعداد العلامة الذكية.
+يتم استدعاؤها عند انتهاء تعداد العلامة الذكية.
 
 ```csharp
 public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
@@ -18,15 +18,15 @@ public virtual VisitorAction VisitSmartTagEnd(SmartTag smartTag)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| smartTag | SmartTag | الكائن الذي تتم زيارته. |
+| smartTag | SmartTag | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل علامة ذكية في المستند.
+يوضح كيفية طباعة بنية العقدة لكل علامة ذكية في مستند.
 
 ```csharp
 public void SmartTagToText()
@@ -34,17 +34,17 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة لجميع عقد SmartTag التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد SmartTag التي تم مواجهتها وأطفالها.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -63,7 +63,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -73,7 +73,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة SmartTag في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة SmartTag في المستند.
     /// </summary>
     public override VisitorAction VisitSmartTagStart(SmartTag smartTag)
     {
@@ -85,7 +85,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة كافة العقد التابعة لعقدة SmartTag.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة SmartTag.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {
@@ -97,9 +97,9 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
+    /// أضف سطرًا إلى StringBuilder وقم بتدويره وفقًا لمدى عمق الزائر في شجرة المستند.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

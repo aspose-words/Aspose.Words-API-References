@@ -3,14 +3,14 @@ title: ShapeBase.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words لـ .NET
-description: ShapeBase Title ملكية. الحصول على أو تعيين العنوان التسمية التوضيحية لكائن الشكل الحالي في C#.
+description: أدر خصائص عنوان ShapeBase بسهولة. عيّن أو استرجع عنوان أي شكل لتحسين وضوح تصميمك وجاذبيته.
 type: docs
-weight: 530
+weight: 570
 url: /ar/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
 
-الحصول على أو تعيين العنوان (التسمية التوضيحية) لكائن الشكل الحالي.
+يحصل على عنوان (التعليق التوضيحي) لكائن الشكل الحالي أو يعينه.
 
 ```csharp
 public string Title { get; set; }
@@ -18,9 +18,9 @@ public string Title { get; set; }
 
 ## ملاحظات
 
-الافتراضي هو سلسلة فارغة.
+افتراضيًا، السلسلة فارغة.
 
-لا يمكن`باطل`، ولكن يمكن أن تكون سلسلة فارغة.
+لا يمكن أن يكون`باطل`، ولكن يمكن أن تكون سلسلة فارغة.
 
 ## أمثلة
 
@@ -30,7 +30,7 @@ public string Title { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أنشئ شكلاً، وأعطه عنوانًا، ثم أضفه إلى المستند.
+// قم بإنشاء شكل، وإعطائه عنوانًا، ثم قم بإضافته إلى المستند.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.Width = 200;
 shape.Height = 200;
@@ -38,8 +38,8 @@ shape.Title = "My cube";
 
 builder.InsertNode(shape);
 
-// عندما نحفظ مستندًا بشكل له عنوان،
-// سيقوم Aspose.Words بتخزين هذا العنوان في النص البديل للشكل.
+// عندما نحفظ مستندًا به شكل يحتوي على عنوان،
+// سيقوم Aspose.Words بتخزين هذا العنوان في نص Alt الخاص بالشكل.
 doc.Save(ArtifactsDir + "Shape.Title.docx");
 
 doc = new Document(ArtifactsDir + "Shape.Title.docx");

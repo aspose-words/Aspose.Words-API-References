@@ -3,14 +3,14 @@ title: FileFormatUtil.SaveFormatToExtension
 linktitle: SaveFormatToExtension
 articleTitle: SaveFormatToExtension
 second_title: Aspose.Words لـ .NET
-description: FileFormatUtil SaveFormatToExtension طريقة. تحويل قيمة تعداد تنسيق الحفظ إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة في C#.
+description: حوّل قيم تنسيق الحفظ إلى امتدادات ملفات بسهولة باستخدام طريقة SaveFormatToExtension من FileFormatUtil. احصل على امتدادات دقيقة بأحرف صغيرة بسهولة!
 type: docs
 weight: 80
 url: /ar/net/aspose.words/fileformatutil/saveformattoextension/
 ---
 ## FileFormatUtil.SaveFormatToExtension method
 
-تحويل قيمة تعداد تنسيق الحفظ إلى امتداد الملف. الامتداد الذي تم إرجاعه عبارة عن سلسلة صغيرة ذات نقطة بادئة.
+يُحوِّل قيمة مُعَدَّة بتنسيق الحفظ إلى امتداد ملف. الامتداد المُعاد هو سلسلة نصية صغيرة تُستهل بنقطة.
 
 ```csharp
 public static string SaveFormatToExtension(SaveFormat saveFormat)
@@ -20,7 +20,7 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentException | يرمي عندما لا يمكن تحويل. |
+| ArgumentException | يرمي عندما لا يمكن التحويل. |
 
 ## ملاحظات
 
@@ -30,10 +30,10 @@ public static string SaveFormatToExtension(SaveFormat saveFormat)
 
 ## أمثلة
 
-يوضح كيفية استخدام أساليب FileFormatUtil للكشف عن تنسيق المستند.
+يوضح كيفية استخدام طرق FileFormatUtil للكشف عن تنسيق المستند.
 
 ```csharp
-// قم بتحميل مستند من ملف يفتقد امتداد الملف، ثم اكتشف تنسيق الملف الخاص به.
+// قم بتحميل مستند من ملف يفتقد ملحق الملف، ثم اكتشف تنسيق الملف الخاص به.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -41,15 +41,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // فيما يلي طريقتان لتحويل LoadFormat إلى SaveFormat المطابق له.
+    // فيما يلي طريقتان لتحويل LoadFormat إلى SaveFormat المقابل له.
     // 1 - احصل على سلسلة امتداد الملف لـ LoadFormat، ثم احصل على SaveFormat المقابل من تلك السلسلة:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - تحويل LoadFormat مباشرةً إلى SaveFormat الخاص به:
+    // 2 - تحويل LoadFormat مباشرة إلى SaveFormat الخاص به:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // قم بتحميل مستند من الدفق، ثم احفظه في ملحق الملف الذي تم اكتشافه تلقائيًا.
+    // قم بتحميل مستند من الدفق، ثم احفظه في امتداد الملف الذي تم اكتشافه تلقائيًا.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

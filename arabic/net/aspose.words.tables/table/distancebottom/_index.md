@@ -3,14 +3,14 @@ title: Table.DistanceBottom
 linktitle: DistanceBottom
 articleTitle: DistanceBottom
 second_title: Aspose.Words لـ .NET
-description: Table DistanceBottom ملكية. الحصول على المسافة بين أسفل الجدول والنص المحيط بالنقاط أو تحديدها في C#.
+description: قم بضبط خاصية Table DistanceBottom للتحكم في المسافة بين أسفل الجدول والنص المحيط به، مما يؤدي إلى تحسين التخطيط وسهولة القراءة.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.tables/table/distancebottom/
 ---
 ## Table.DistanceBottom property
 
-الحصول على المسافة بين أسفل الجدول والنص المحيط بالنقاط أو تحديدها.
+يحصل على المسافة بين أسفل الجدول والنص المحيط بها، بالنقاط، أو يعينها.
 
 ```csharp
 public double DistanceBottom { get; set; }
@@ -18,7 +18,7 @@ public double DistanceBottom { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط المسافة بين حدود الجدول والنص.
+يوضح كيفية تعيين المسافة بين حدود الجدول والنص.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // اضبط المسافة بين الجدول والنص المحيط.
+// تعيين المسافة بين الجدول والنص المحيط به.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

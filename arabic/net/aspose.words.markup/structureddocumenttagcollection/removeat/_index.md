@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagCollection RemoveAt طريقة. إزالة علامة مستند منظمة في الفهرس المحدد في C#.
+description: أدر علامات مستنداتك المنظمة بسهولة باستخدام طريقة RemoveAt. أزل العلامات بسرعة حسب الفهرس لتحرير مستنداتك بسلاسة.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/removeat/
 ---
 ## StructuredDocumentTagCollection.RemoveAt method
 
-إزالة علامة مستند منظمة في الفهرس المحدد.
+يزيل علامة مستند منظمة في الفهرس المحدد.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | فهرس في المجموعة. |
+| index | Int32 | فهرس للمجموعة. |
 
 ## أمثلة
 
-يوضح كيفية إزالة علامة المستند المنظمة.
+يوضح كيفية إزالة علامة المستند المنظم.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
@@ -39,9 +39,9 @@ sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
 Assert.AreEqual(5, structuredDocumentTags.Count);
-// قم بإزالة علامة المستند المنظمة حسب المعرف.
+// قم بإزالة علامة المستند المنظم حسب المعرف.
 structuredDocumentTags.Remove(1691867797);
-// قم بإزالة علامة المستند المنظمة في الموضع 0.
+// قم بإزالة علامة المستند المنظم في الموضع 0.
 structuredDocumentTags.RemoveAt(0);
 Assert.AreEqual(3, structuredDocumentTags.Count);
 ```

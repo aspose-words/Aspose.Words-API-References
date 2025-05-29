@@ -3,14 +3,14 @@ title: TextBox.NoTextRotation
 linktitle: NoTextRotation
 articleTitle: NoTextRotation
 second_title: Aspose.Words لـ .NET
-description: TextBox NoTextRotation ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى عدم تدوير نص مربع النص عند تدوير الشكل في C#.
+description: تحكم في تدوير النص في مربع النص باستخدام خاصية NoTextRotation. تأكد من وضوح النص وقراءته حتى عند تدوير الأشكال. حسّن تصميمك!
 type: docs
 weight: 80
 url: /ar/net/aspose.words.drawing/textbox/notextrotation/
 ---
 ## TextBox.NoTextRotation property
 
-الحصول على قيمة منطقية أو تعيينها تشير إلى عدم تدوير نص مربع النص عند تدوير الشكل.
+يحصل على قيمة منطقية أو يعينها تشير إلى أنه لا ينبغي تدوير نص مربع النص عند تدوير الشكل.
 
 ```csharp
 public bool NoTextRotation { get; set; }

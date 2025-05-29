@@ -3,7 +3,7 @@ title: FieldCitation
 linktitle: FieldCitation
 articleTitle: FieldCitation
 second_title: Aspose.Words لـ .NET
-description: FieldCitation البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ الاستشهادات الميدانية، الحل الأمثل لإدارة الاستشهادات بكفاءة. بسّط عملية الاستشهادات لديك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldcitation/fieldcitation/

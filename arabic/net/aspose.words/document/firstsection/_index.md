@@ -3,14 +3,14 @@ title: Document.FirstSection
 linktitle: FirstSection
 articleTitle: FirstSection
 second_title: Aspose.Words لـ .NET
-description: Document FirstSection ملكية. للحصول على القسم الأول في المستند في C#.
+description: استرجع القسم الأول من مستندك بسهولة. حسّن سير عملك باستخدام خاصية "القسم الأول من المستند" لتنظيم مبسط.
 type: docs
-weight: 130
+weight: 140
 url: /ar/net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property
 
-للحصول على القسم الأول في المستند.
+يحصل على القسم الأول في المستند.
 
 ```csharp
 public Section FirstSection { get; }
@@ -18,7 +18,7 @@ public Section FirstSection { get; }
 
 ## ملاحظات
 
-إرجاع`باطل` إذا لم تكن هناك أقسام.
+إرجاع`باطل`إذا لم تكن هناك أقسام.
 
 ## أمثلة
 
@@ -42,26 +42,26 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-يوضح كيفية إنشاء قسم جديد باستخدام أداة إنشاء المستندات.
+يوضح كيفية إنشاء قسم جديد باستخدام منشئ المستندات.
 
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد افتراضيًا،
-// الذي يحتوي على العقد الفرعية التي يمكننا تحريرها.
+// تحتوي الوثيقة الفارغة على قسم واحد بشكل افتراضي،
+// والتي تحتوي على العقد الفرعية التي يمكننا تحريرها.
 Assert.AreEqual(1, doc.Sections.Count);
 
-// استخدم منشئ المستندات لإضافة نص إلى القسم الأول.
+//استخدم منشئ المستندات لإضافة نص إلى القسم الأول.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// أنشئ قسمًا ثانيًا عن طريق إدراج فاصل مقطعي.
+// قم بإنشاء قسم ثاني عن طريق إدراج فاصل قسم.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// لكل قسم إعدادات إعداد الصفحة الخاصة به.
-// يمكننا تقسيم النص في القسم الثاني إلى عمودين.
+// كل قسم لديه إعدادات إعداد الصفحة الخاصة به.
+//يمكننا تقسيم النص في القسم الثاني إلى عمودين.
 // لن يؤثر هذا على النص الموجود في القسم الأول.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");
@@ -74,7 +74,7 @@ Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
-يوضح كيفية التكرار من خلال أبناء العقدة المركبة.
+يوضح كيفية التكرار خلال أبناء العقدة المركبة.
 
 ```csharp
 Document doc = new Document();
@@ -88,8 +88,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// القسم عبارة عن عقدة مركبة ويمكن أن يحتوي على عقد فرعية،
-// ولكن فقط إذا كانت تلك العقد الفرعية من نوع العقدة "Body" أو "HeaderFooter".
+// القسم عبارة عن عقدة مركبة ويمكن أن تحتوي على عقد فرعية،
+// ولكن فقط إذا كانت هذه العقد الفرعية من نوع عقدة "Body" أو "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

@@ -3,7 +3,7 @@ title: BarcodeParameters
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
 second_title: Aspose.Words لـ .NET
-description: BarcodeParameters البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ BarcodeParameters لتكامل سلس. أطلق العنان لإدارة الباركود بكفاءة باستخدام مُنشئنا الافتراضي سهل الاستخدام.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/barcodeparameters/barcodeparameters/

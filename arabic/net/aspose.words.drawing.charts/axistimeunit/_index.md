@@ -3,14 +3,14 @@ title: AxisTimeUnit Enum
 linktitle: AxisTimeUnit
 articleTitle: AxisTimeUnit
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit تعداد. تحديد الوحدة الزمنية للمحاور في C#.
+description: اكتشف مجموعة Aspose.Words.Drawing.Charts.AxisTimeUnit—الحل الأمثل لتحديد وحدات الوقت على محاور الرسم البياني بكفاءة وفعالية.
 type: docs
-weight: 600
+weight: 860
 url: /ar/net/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enumeration
 
-تحديد الوحدة الزمنية للمحاور.
+يحدد وحدة الوقت للمحاور.
 
 ```csharp
 public enum AxisTimeUnit
@@ -20,10 +20,10 @@ public enum AxisTimeUnit
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Automatic | `0` | يحدد أن الوحدة لم يتم تعيينها بشكل صريح ويجب استخدام القيمة الافتراضية. |
-| Days | `1` | يحدد أن بيانات المخطط يجب أن تظهر خلال أيام. |
-| Months | `2` | يحدد أن بيانات المخطط يجب أن تظهر خلال أشهر. |
-| Years | `3` | يحدد أن بيانات المخطط يجب أن تظهر بالسنوات. |
+| Automatic | `0` | يحدد أن الوحدة لم يتم تعيينها صراحةً ويجب استخدام القيمة الافتراضية. |
+| Days | `1` | يحدد أنه سيتم عرض بيانات الرسم البياني بالأيام. |
+| Months | `2` | يحدد أنه سيتم عرض بيانات الرسم البياني بالأشهر. |
+| Years | `3` | يحدد أنه سيتم عرض بيانات الرسم البياني بالسنوات. |
 
 ## أمثلة
 
@@ -36,10 +36,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت للمحور السيني، والقيم العشرية المعنية للمحور ص.
+// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت لمحور X، والقيم العشرية المقابلة لمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -48,12 +48,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// تعيين الحدود الدنيا والعليا للمحور السيني.
+// تعيين الحدود الدنيا والعليا لمحور X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// اضبط الوحدات الرئيسية للمحور السيني على أسبوع، والوحدات الصغيرة على يوم.
+// قم بتعيين الوحدات الرئيسية للمحور X إلى أسبوع، والوحدات الثانوية إلى يوم.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -62,9 +62,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// تحديد خصائص المحور ص للقيم العشرية.
+// قم بتحديد خصائص المحور Y للقيم العشرية.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

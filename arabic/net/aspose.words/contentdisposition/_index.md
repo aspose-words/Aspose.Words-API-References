@@ -3,14 +3,14 @@ title: ContentDisposition Enum
 linktitle: ContentDisposition
 articleTitle: ContentDisposition
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.ContentDisposition تعداد. تعداد الطرق المختلفة لعرض المستند في متصفح العميل في C#.
+description: استكشف مجموعة Aspose.Words.ContentDisposition لاكتشاف خيارات عرض المستندات المختلفة لتحسين تجارب متصفح العميل.
 type: docs
-weight: 340
+weight: 540
 url: /ar/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-تعداد الطرق المختلفة لعرض المستند في متصفح العميل.
+يقوم بإحصاء الطرق المختلفة لعرض المستند في متصفح العميل.
 
 ```csharp
 public enum ContentDisposition
@@ -20,16 +20,16 @@ public enum ContentDisposition
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Attachment | `0` | أرسل المستند إلى المتصفح وقدم خيارًا لحفظ المستند على القرص أو فتحه في التطبيق المرتبط بامتداد المستند. |
-| Inline | `1` | أرسل المستند إلى المتصفح ويقدم خيار حفظ المستند على القرص أو فتحه داخل المتصفح. |
+| Attachment | `0` | إرسال المستند إلى المتصفح وتقديم خيار لحفظ المستند على القرص أو فتحه في التطبيق المرتبط بامتداد المستند. |
+| Inline | `1` | إرسال المستند إلى المتصفح ويقدم خيارًا لحفظ المستند على القرص أو فتحه داخل المتصفح. |
 
 ## ملاحظات
 
-لاحظ أن السلوك الفعلي في متصفح العميل قد يتأثر بتكوين أمان المتصفح.
+لاحظ أن السلوك الفعلي على متصفح العميل قد يتأثر بتكوين الأمان الخاص بالمتصفح.
 
 ## أمثلة
 
-يوضح كيفية إجراء دمج البريد، ثم حفظ المستند في مستعرض العميل.
+يوضح كيفية تنفيذ عملية دمج البريد، ثم حفظ المستند في متصفح العميل.
 
 ```csharp
 Document doc = new Document();
@@ -46,12 +46,12 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// أرسل المستند إلى متصفح العميل.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); // تم طرحه لأن HttpResponse فارغ في الاختبار.
+//إرسال المستند إلى متصفح العميل.
+//تم إلقاؤه لأن HttpResponse فارغ في الاختبار.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// سنحتاج إلى إغلاق هذه الاستجابة يدويًا للتأكد من أننا لا نضيف أي محتوى غير ضروري إلى المستند بعد الحفظ.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+// سوف نحتاج إلى إغلاق هذه الاستجابة يدويًا للتأكد من عدم إضافة أي محتوى غير ضروري إلى المستند بعد الحفظ.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### أنظر أيضا

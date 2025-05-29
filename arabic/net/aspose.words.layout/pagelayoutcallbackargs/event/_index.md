@@ -3,14 +3,14 @@ title: PageLayoutCallbackArgs.Event
 linktitle: Event
 articleTitle: Event
 second_title: Aspose.Words لـ .NET
-description: PageLayoutCallbackArgs Event ملكية. الحصول على الحدث في C#.
+description: اكتشف خاصية حدث PageLayoutCallbackArgs لتحسين أداء تطبيقك. حسّن معالجة الأحداث بسلاسة لتحسين الأداء.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.layout/pagelayoutcallbackargs/event/
 ---
 ## PageLayoutCallbackArgs.Event property
 
-الحصول على الحدث.
+يحصل على الحدث.
 
 ```csharp
 public PageLayoutEvent Event { get; }
@@ -18,7 +18,7 @@ public PageLayoutEvent Event { get; }
 
 ## أمثلة
 
-يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
+يوضح كيفية تتبع تغييرات التخطيط باستخدام استدعاء التخطيط.
 
 ```csharp
 public void PageLayoutCallback()
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// يخطرنا عندما نحفظ المستند بتنسيق صفحة ثابت
-/// ويعرض الصفحة التي نقوم بإعادة تدفق الصفحة عليها إلى صورة في نظام الملفات المحلي.
+/// ويقوم بعرض صفحة نقوم بإعادة ترتيب صفحاتها على صورة في نظام الملفات المحلي.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

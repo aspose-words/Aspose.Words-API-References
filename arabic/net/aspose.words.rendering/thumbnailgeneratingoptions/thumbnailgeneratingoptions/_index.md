@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words لـ .NET
-description: ThumbnailGeneratingOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ ThumbnailGeneratingOptions لإنشاء الصور المصغرة بسهولة. استخدم الإعدادات الافتراضية لإدارة الصور وتخصيصها بسلاسة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.rendering/thumbnailgeneratingoptions/thumbnailgeneratingoptions/

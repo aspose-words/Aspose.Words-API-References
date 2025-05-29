@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.LastPrinted
 linktitle: LastPrinted
 articleTitle: LastPrinted
 second_title: Aspose.Words لـ .NET
-description: BuiltInDocumentProperties LastPrinted ملكية. الحصول على أو تعيين تاريخ آخر طباعة للمستند بالتوقيت العالمي المنسق UTC في C#.
+description: اكتشف ميزة BuiltInDocumentProperties LastPrinted لتتبع تاريخ آخر طباعة لمستندك بسهولة بتوقيت UTC. حسّن سير عملك اليوم!
 type: docs
-weight: 150
+weight: 160
 url: /ar/net/aspose.words.properties/builtindocumentproperties/lastprinted/
 ---
 ## BuiltInDocumentProperties.LastPrinted property
 
-الحصول على أو تعيين تاريخ آخر طباعة للمستند بالتوقيت العالمي المنسق (UTC).
+يحصل على التاريخ الذي تمت فيه طباعة المستند آخر مرة بتوقيت UTC أو يعينه.
 
 ```csharp
 public DateTime LastPrinted { get; set; }
@@ -18,9 +18,9 @@ public DateTime LastPrinted { get; set; }
 
 ## ملاحظات
 
-بالنسبة للمستندات التي تم إنشاؤها من تنسيق RTF، تقوم هذه الخاصية بإرجاع التوقيت المحلي لآخر عملية طباعة.
+بالنسبة للمستندات المنشأ بتنسيق RTF، تقوم هذه الخاصية بإرجاع الوقت المحلي لعملية الطباعة الأخيرة.
 
-إذا لم تتم طباعة المستند مطلقًا، فستُرجع هذه الخاصية DateTime.MinValue.
+إذا لم تتم طباعة المستند مطلقًا، فسوف تقوم هذه الخاصية بإرجاع DateTime.MinValue.
 
 لا يقوم Aspose.Words بتحديث هذه الخاصية.
 
@@ -29,31 +29,31 @@ public DateTime LastPrinted { get; set; }
 يوضح كيفية العمل مع خصائص المستند في فئة "الأصل".
 
 ```csharp
-// افتح مستندًا قمنا بإنشائه وتحريره باستخدام Microsoft Word.
+// افتح المستند الذي قمنا بإنشائه وتحريره باستخدام Microsoft Word.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // تحتوي الخصائص المضمنة التالية على معلومات تتعلق بإنشاء هذا المستند وتحريره.
-// يمكننا النقر بزر الماوس الأيمن فوق هذا المستند في مستكشف Windows والعثور عليه
+// يمكننا النقر بزر الماوس الأيمن على هذا المستند في مستكشف Windows والعثور عليه
 // هذه الخصائص عبر "الخصائص" -> "التفاصيل" -> فئة "الأصل".
-// يمكن لحقول مثل PRINTDATE وEDITTIME عرض هذه القيم في نص المستند.
+// يمكن للحقول مثل PRINTDATE وEDITTIME عرض هذه القيم في نص المستند.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
 Console.WriteLine($"Template document: {properties.Template}");
 
-// يمكننا أيضًا تغيير قيم الخصائص المضمنة.
+//يمكننا أيضًا تغيير قيم الخصائص المضمنة.
 properties.Company = "Doe Ltd.";
 properties.Manager = "Jane Doe";
 properties.Version = 5;
 properties.RevisionNumber++;
 
-// يقوم Microsoft Word بتحديث الخصائص التالية تلقائيًا عندما نحفظ المستند.
-// لاستخدام هذه الخصائص مع Aspose.Words، سنحتاج إلى تعيين قيم لها يدويًا.
+// يقوم Microsoft Word بتحديث الخصائص التالية تلقائيًا عند حفظ المستند.
+// لاستخدام هذه الخصائص مع Aspose.Words، سنحتاج إلى تعيين القيم لها يدويًا.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// يمكننا النقر بزر الماوس الأيمن فوق هذا المستند في مستكشف Windows والعثور عليه these properties in "Properties" -> "Details" -> "Origin".
+// يمكننا النقر بزر الماوس الأيمن على هذا المستند في مستكشف Windows والعثور عليه these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

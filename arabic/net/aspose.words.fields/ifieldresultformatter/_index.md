@@ -3,9 +3,9 @@ title: IFieldResultFormatter Interface
 linktitle: IFieldResultFormatter
 articleTitle: IFieldResultFormatter
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.IFieldResultFormatter واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد التحكم في كيفية تنسيق نتيجة الحقل في C#.
+description: اكتشف واجهة Aspose.Words.Fields.IFieldResultFormatter لتخصيص وتحسين تنسيق نتائج الحقول لمستنداتك بسهولة.
 type: docs
-weight: 2700
+weight: 3110
 url: /ar/net/aspose.words.fields/ifieldresultformatter/
 ---
 ## IFieldResultFormatter interface
@@ -20,14 +20,14 @@ public interface IFieldResultFormatter
 
 | اسم | وصف |
 | --- | --- |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الأرقام، على سبيل المثال \* Ordinal. |
-| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة، على سبيل المثال \* Upper. |
-| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق التاريخ/الوقت، على سبيل المثال \@ "dd.MM.yyyy". |
-| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق مفتاح تنسيق رقمي، على سبيل المثال \# "#.##". |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format)(*double, [GeneralFormat](../generalformat/)*) | يتم استدعاؤها عندما يطبق Aspose.Words مفتاح تنسيق الأرقام، أي \* Ordinal. |
+| [Format](../../aspose.words.fields/ifieldresultformatter/format/#format_1)(*string, [GeneralFormat](../generalformat/)*) | يتم استدعاؤها عندما يطبق Aspose.Words مفتاح تنسيق الأحرف الكبيرة، على سبيل المثال \* Upper. |
+| [FormatDateTime](../../aspose.words.fields/ifieldresultformatter/formatdatetime/)(*DateTime, string, [CalendarType](../../aspose.words/calendartype/)*) | يتم استدعاؤها عندما يطبق Aspose.Words مفتاح تنسيق التاريخ/الوقت، على سبيل المثال \@ "dd.MM.yyyy". |
+| [FormatNumeric](../../aspose.words.fields/ifieldresultformatter/formatnumeric/)(*double, string*) | يتم استدعاؤها عندما يطبق Aspose.Words مفتاح تنسيق رقمي، على سبيل المثال \# "#.##". |
 
 ## أمثلة
 
-يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
+يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول أثناء تحديث الحقول.
 
 ```csharp
 public void FieldResultFormatting()
@@ -37,9 +37,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // يطبق منسق نتيجة الحقل الخاص بنا تنسيقًا مخصصًا على الحقول التي تم إنشاؤها حديثًا والتي تتكون من ثلاثة أنواع من التنسيقات.
-    // يطبق منسقو نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
-    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField.
+    // يقوم منسق نتيجة الحقل الخاص بنا بتطبيق تنسيق مخصص على الحقول التي تم إنشاؤها حديثًا بثلاثة أنواع من التنسيقات.
+    // تطبق منسقات نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
+    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField هذه.
     // 1 - رقمي:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -62,8 +62,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// عندما يتم تحديث الحقول ذات التنسيق، سيتجاوز هذا المنسق تنسيقها
-/// بتنسيق مخصص، أثناء تتبع كل استدعاء.
+/// عند تحديث الحقول ذات التنسيق، سيتجاوز هذا المُنسِّق تنسيقها
+/// بتنسيق مخصص، مع تتبع كل استدعاء.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -118,12 +118,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

@@ -3,14 +3,14 @@ title: ChartXValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: ChartXValueCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
+description: اكتشف طريقة ChartXValueCollection GetEnumerator—استرداد البيانات بكفاءة باستخدام كائن عداد قوي للتعامل مع البيانات بشكل مبسط.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartxvaluecollection/getenumerator/
 ---
 ## ChartXValueCollection.GetEnumerator method
 
-يُرجع كائن العداد.
+يعيد كائن المعداد.
 
 ```csharp
 public IEnumerator<ChartXValue> GetEnumerator()

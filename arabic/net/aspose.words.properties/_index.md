@@ -3,12 +3,12 @@ title: Aspose.Words.Properties
 linktitle: Aspose.Words.Properties
 articleTitle: Aspose.Words.Properties
 second_title: Aspose.Words لـ .NET
-description: الAspose.Words.Properties توفر مساحة الاسم فئات لـwork مع خصائص مستند مخصصة ومضمنة مثل العنوان والكلمات الرئيسية والشركة وما إلى ذلك في C#.
+description: اكتشف مساحة اسم Aspose.Words.Properties لإدارة خصائص المستندات المخصصة والمضمنة بسهولة مثل العنوان والكلمات الأساسية والشركة لتحسين تنظيم المستندات.
 type: docs
-weight: 190
+weight: 210
 url: /ar/net/aspose.words.properties/
 ---
-ال**Aspose.Words.Properties** توفر مساحة الاسم فئات لـwork مع خصائص مستند مخصصة ومضمنة مثل العنوان والكلمات الرئيسية والشركة وما إلى ذلك.
+ال**خصائص الكلمات** توفر مساحة الاسم فئات لـ work مع خصائص مستند مخصصة ومضمنة مثل العنوان والكلمات الأساسية والشركة وما إلى ذلك.
 
 ## الطبقات
 
@@ -22,5 +22,5 @@ url: /ar/net/aspose.words.properties/
 
 | تعداد | وصف |
 | --- | --- |
-| [DocumentSecurity](./documentsecurity/) | تستخدم كقيمة لـ[`Security`](../aspose.words.properties/builtindocumentproperties/security/) property. يحدد مستوى الأمان للمستند كقيمة رقمية. |
+| [DocumentSecurity](./documentsecurity/) | يتم استخدامه كقيمة لـ[`Security`](../aspose.words.properties/builtindocumentproperties/security/) property. يحدد مستوى أمان المستند كقيمة رقمية. |
 | [PropertyType](./propertytype/) | يحدد نوع بيانات خاصية المستند. |

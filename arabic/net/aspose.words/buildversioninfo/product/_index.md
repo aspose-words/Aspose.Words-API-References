@@ -3,14 +3,14 @@ title: BuildVersionInfo.Product
 linktitle: Product
 articleTitle: Product
 second_title: Aspose.Words لـ .NET
-description: BuildVersionInfo Product ملكية. الحصول على الاسم الكامل للمنتج في C#.
+description: اكتشف خاصية منتج BuildVersionInfo لاسترداد اسم المنتج الكامل بسهولة، مما يعزز أداء تطبيقك وتجربة المستخدم.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/buildversioninfo/product/
 ---
 ## BuildVersionInfo.Product property
 
-الحصول على الاسم الكامل للمنتج.
+يحصل على الاسم الكامل للمنتج.
 
 ```csharp
 public static string Product { get; }
@@ -18,7 +18,7 @@ public static string Product { get; }
 
 ## أمثلة
 
-يوضح كيفية عرض معلومات حول الإصدار المثبت لديك من Aspose.Words.
+يوضح لك كيفية عرض المعلومات حول إصدار Aspose.Words المثبت لديك.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

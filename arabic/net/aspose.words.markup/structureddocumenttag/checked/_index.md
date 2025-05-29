@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Checked
 linktitle: Checked
 articleTitle: Checked
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTag Checked ملكية. الحصول على/تعيين الحالة الحالية لمربع الاختيارالمعاملة الخاصة والتفضيلية . القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
+description: إدارة خانة الاختيار SDT باستخدام خاصية StructuredDocumentTag Checked. احصل على حالتها/عيّنها بسهولة - القيمة الافتراضية هي False. حسّن تفاعلية المستندات اليوم!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.markup/structureddocumenttag/checked/
 ---
 ## StructuredDocumentTag.Checked property
 
-الحصول على/تعيين الحالة الحالية لمربع الاختيار**المعاملة الخاصة والتفضيلية** . القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
+يحصل على/يحدد الحالة الحالية لمربع الاختيار**SDT** . القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
 
 ```csharp
 public bool Checked { get; set; }
@@ -18,22 +18,22 @@ public bool Checked { get; set; }
 
 ## ملاحظات
 
-الوصول إلى هذه الخاصية سوف يعمل فقط من أجلCheckbox أنواع المعاملة الخاصة والتفضيلية.
+سيتم الوصول إلى هذه الخاصية فقط لـCheckbox أنواع SDT.
 
 بالنسبة لجميع أنواع SDT الأخرى، سيحدث استثناء.
 
 ## أمثلة
 
-أظهر كيفية إنشاء علامة مستند منظمة على شكل مربع اختيار.
+إظهار كيفية إنشاء علامة مستند منظمة في شكل مربع اختيار.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// يمكننا تعيين الرموز المستخدمة لتمثيل الحالة المحددة/غير المحددة لعنصر التحكم في محتوى مربع الاختيار.
+// يمكننا تعيين الرموز المستخدمة لتمثيل حالة التحديد/عدم التحديد لمحتوى مربع الاختيار.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

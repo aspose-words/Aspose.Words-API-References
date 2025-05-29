@@ -3,14 +3,14 @@ title: SvgSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
 second_title: Aspose.Words لـ .NET
-description: SvgSaveOptions ShowPageBorder ملكية. يتحكم في إضافة حد إلى المخطط التفصيلي للصفحة. الإعداد الافتراضي هوحقيقي  في C#.
+description: اكتشف خاصية SvgSaveOptions ShowPageBorder لتخصيص مخطط صفحتك. تحكم في الحدود بسهولة - الإعداد الافتراضي صحيح لسهولة الاستخدام!
 type: docs
-weight: 80
+weight: 110
 url: /ar/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
 
-يتحكم في إضافة حد إلى المخطط التفصيلي للصفحة. الإعداد الافتراضي هو`حقيقي` .
+يتحكم فيما إذا كان سيتم إضافة حدود إلى مخطط الصفحة. الافتراضي هو`حقيقي` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }

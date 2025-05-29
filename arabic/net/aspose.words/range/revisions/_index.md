@@ -3,14 +3,14 @@ title: Range.Revisions
 linktitle: Revisions
 articleTitle: Revisions
 second_title: Aspose.Words لـ .NET
-description: Range Revisions ملكية. الحصول على مجموعة من المراجعات التغييرات المتعقبة الموجودة في هذا النطاق في C#.
+description: اكتشف مجموعة تعديلات النطاق. تتبع وأدر تغييرات العقارات بسهولة مع مجموعتنا الشاملة من التعديلات لتحسين وضوح المشروع.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/range/revisions/
 ---
 ## Range.Revisions property
 
-الحصول على مجموعة من المراجعات (التغييرات المتعقبة) الموجودة في هذا النطاق.
+يحصل على مجموعة من المراجعات (التغييرات المتعقبة) الموجودة في هذا النطاق.
 
 ```csharp
 public RevisionCollection Revisions { get; }
@@ -18,7 +18,7 @@ public RevisionCollection Revisions { get; }
 
 ## ملاحظات
 
-المجموعة التي تم إرجاعها هي مجموعة "مباشرة"، مما يعني أنه إذا قمت بإزالة أجزاء من مستند يحتوي على مراجعات ، فإن المراجعات المحذوفة ستختفي تلقائيًا من هذه المجموعة.
+المجموعة المرتجعة هي مجموعة "حية"، مما يعني أنه إذا قمت بإزالة أجزاء من مستند تحتوي على إصدارات، فستختفي الإصدارات المحذوفة تلقائيًا من هذه المجموعة.
 
 ## أمثلة
 
@@ -34,7 +34,7 @@ foreach (Revision revision in paragraph.Range.Revisions)
         revision.Accept();
 }
 
-// رفض مراجعات القسم الأول.
+// رفض المراجعات الخاصة بالقسم الأول.
 doc.FirstSection.Range.Revisions.RejectAll();
 ```
 

@@ -3,14 +3,14 @@ title: UserInformation.Initials
 linktitle: Initials
 articleTitle: Initials
 second_title: Aspose.Words لـ .NET
-description: UserInformation Initials ملكية. الحصول على الأحرف الأولى من اسم المستخدم أو تعيينها في C#.
+description: اكتشف كيفية استخدام خاصية الأحرف الأولى لـ UserInformation لإدارة وتخصيص الأحرف الأولى للمستخدم بسهولة لتحسين التخصيص وتجربة المستخدم.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/userinformation/initials/
 ---
 ## UserInformation.Initials property
 
-الحصول على الأحرف الأولى من اسم المستخدم أو تعيينها.
+يحصل على الأحرف الأولى من اسم المستخدم أو يعينها.
 
 ```csharp
 public string Initials { get; set; }
@@ -24,7 +24,7 @@ public string Initials { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء كائن معلومات المستخدم وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
+// قم بإنشاء كائن UserInformation وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// أدخل حقول اسم المستخدم، ومعلومات المستخدم، وعنوان المستخدم، التي تعرض قيم
- // الخصائص الخاصة بكائن UserInformation الذي قمنا بإنشائه أعلاه.
+// أدخل حقول اسم المستخدم، والأحرف الأولى للمستخدم، وعنوان المستخدم، والتي تعرض قيم
+ // الخصائص الخاصة بكائن UserInformation الذي أنشأناه أعلاه.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// يحتوي كائن خيارات الحقل أيضًا على مستخدم افتراضي ثابت يمكن أن تشير إليه الحقول من جميع المستندات.
+// يحتوي كائن خيارات الحقل أيضًا على مستخدم افتراضي ثابت يمكن للحقول من كافة المستندات الرجوع إليه.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

@@ -3,14 +3,14 @@ title: NodeImporter
 linktitle: NodeImporter
 articleTitle: NodeImporter
 second_title: Aspose.Words لـ .NET
-description: NodeImporter البناء. تهيئة مثيل جديد لـNodeImporter فئة في C#.
+description: اكتشف منشئ NodeImporter، وقم بإنشاء مثيلات NodeImporter جديدة بسهولة لتبسيط إدارة البيانات لديك وتعزيز كفاءة المشروع.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
-تهيئة مثيل جديد لـ[`NodeImporter`](../) فئة.
+يقوم بتهيئة مثيل جديد لـ[`NodeImporter`](../) الصف.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode)
@@ -18,9 +18,9 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcDoc | DocumentBase | الوثيقة المصدر. |
-| dstDoc | DocumentBase | مستند الوجهة الذي سيكون مالك العقد المستوردة. |
-| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
+| srcDoc | DocumentBase | الوثيقة المصدرية. |
+| dstDoc | DocumentBase | المستند الوجهة الذي سيكون مالكًا للعقد المستوردة. |
+| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات الأنماط المتعارضة. |
 
 ## أمثلة
 
@@ -62,8 +62,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // قم بالتكرار عبر جميع العقد على مستوى الكتلة في نص القسم،
-        // ثم انسخ وأدخل كل عقدة ليست آخر فقرة فارغة في القسم.
+        // قم بالمرور عبر جميع العقد على مستوى الكتلة في نص القسم،
+        // ثم استنسخ وأدرج كل عقدة ليست الفقرة الفارغة الأخيرة في القسم.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
@@ -99,7 +99,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
-تهيئة مثيل جديد لـ[`NodeImporter`](../) فئة.
+يقوم بتهيئة مثيل جديد لـ[`NodeImporter`](../) الصف.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode, 
@@ -108,10 +108,10 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| srcDoc | DocumentBase | الوثيقة المصدر. |
-| dstDoc | DocumentBase | مستند الوجهة الذي سيكون مالك العقد المستوردة. |
-| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
-| importFormatOptions | ImportFormatOptions | يحدد خيارات متنوعة لتنسيق العقدة المستوردة. |
+| srcDoc | DocumentBase | الوثيقة المصدرية. |
+| dstDoc | DocumentBase | المستند الوجهة الذي سيكون مالكًا للعقد المستوردة. |
+| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات الأنماط المتعارضة. |
+| importFormatOptions | ImportFormatOptions | يحدد خيارات مختلفة لتنسيق العقدة المستوردة. |
 
 ## أمثلة
 
@@ -121,29 +121,29 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
-// قم بتعيين خاصية "KeepSourceNumbering" على "صحيح" لتطبيق معرف تعريف قائمة مختلف
-// إلى أنماط متطابقة عندما يقوم Aspose.Words باستيرادها إلى المستندات الوجهة.
+// اضبط خاصية "KeepSourceNumbering" على "true" لتطبيق معرف تعريف قائمة مختلف
+// إلى الأنماط المتطابقة مثل Aspose.Words التي يستوردها إلى المستندات الوجهة.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
 dstDoc.UpdateListLabels();
 ```
 
-يوضح كيفية حل تضارب ترقيم القائمة في المستندات المصدر والوجهة.
+يوضح كيفية حل تعارضات ترقيم القائمة في المستندات المصدر والوجهة.
 
 ```csharp
-// افتح مستندًا بنظام ترقيم قائمة مخصص، ثم انسخه.
+// افتح مستندًا يحتوي على مخطط ترقيم قائمة مخصص، ثم استنسخه.
 // نظرًا لأن كلاهما لهما نفس تنسيق الترقيم، فسوف تتعارض التنسيقات إذا قمنا باستيراد مستند واحد إلى الآخر.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// عندما نستورد نسخة المستند إلى المستند الأصلي ثم نلحقه،
-// ثم ستنضم القائمتان بنفس تنسيق القائمة.
-// إذا قمنا بتعيين علامة "KeepSourceNumbering" على "خطأ"، فسيتم استنساخ القائمة من المستند
-// الذي نلحقه بالأصل سيستمر في ترقيم القائمة التي نلحقها بها.
-// سيؤدي هذا إلى دمج القائمتين بشكل فعال في قائمة واحدة.
-// إذا قمنا بتعيين علامة "KeepSourceNumbering" على "صحيح"، فسيتم استنساخ المستند
- // ستحتفظ القائمة بترقيمها الأصلي، مما يجعل القائمتين تظهران كقوائم منفصلة.
+// عندما نقوم باستيراد نسخة من المستند إلى المستند الأصلي ثم إضافته،
+// ثم سيتم دمج القائمتين اللتين لهما نفس تنسيق القائمة.
+// إذا قمنا بتعيين علامة "KeepSourceNumbering" إلى "false"، فسيتم استنساخ القائمة من المستند
+// الذي نضيفه إلى الأصل سيحمل ترقيم القائمة التي نضيفه إليها.
+// سيؤدي هذا إلى دمج القائمتين في قائمة واحدة بشكل فعال.
+// إذا قمنا بتعيين علامة "KeepSourceNumbering" إلى "true"، فسيتم استنساخ المستند
+ // ستحافظ القائمة على ترقيمها الأصلي، مما يجعل القائمتين تظهران كقوائم منفصلة.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

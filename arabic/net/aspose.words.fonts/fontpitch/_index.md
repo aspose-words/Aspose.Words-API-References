@@ -3,14 +3,14 @@ title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.FontPitch تعداد. يمثل درجة الخط في C#.
+description: اكتشف Aspose.Words.Fonts.FontPitch enum، وهي أداة قوية لإدارة أنماط الخطوط وتحسين تنسيق المستندات في تطبيقاتك.
 type: docs
-weight: 2960
+weight: 3390
 url: /ar/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-يمثل درجة الخط.
+يمثل درجة لون الخط.
 
 ```csharp
 public enum FontPitch
@@ -20,13 +20,13 @@ public enum FontPitch
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Default | `0` | يحدد عدم توفر أي معلومات حول درجة الخط. |
-| Fixed | `1` | يحدد أن هذا الخط ذو عرض ثابت. |
-| Variable | `2` | يحدد أن هذا خط ذو عرض متناسب. |
+| Default | `0` | يحدد أنه لا توجد معلومات متاحة حول درجة الخط. |
+| Fixed | `1` | يحدد أن هذا هو خط ذو عرض ثابت. |
+| Variable | `2` | يحدد أن هذا هو خط عرض متناسب. |
 
 ## ملاحظات
 
-تشير درجة الصوت إلى ما إذا كان الخط ثابتًا أو متباعدًا بشكل متناسب أو يعتمد على الإعداد الافتراضي.
+يشير الملعب إلى ما إذا كان الخط ذو ملعب ثابت، أو متباعد بشكل متناسب، أو يعتمد على إعداد افتراضي.
 
 ## أمثلة
 
@@ -43,7 +43,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // الأسماء البديلة عادة ما تكون فارغة.
+        // عادةً ما تكون أسماء Alt فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

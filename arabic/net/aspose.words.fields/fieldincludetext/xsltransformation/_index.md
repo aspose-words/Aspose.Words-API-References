@@ -3,14 +3,14 @@ title: FieldIncludeText.XslTransformation
 linktitle: XslTransformation
 articleTitle: XslTransformation
 second_title: Aspose.Words لـ .NET
-description: FieldIncludeText XslTransformation ملكية. الحصول على أو تعيين موقع تحويل XSL لتنسيق بيانات XML في C#.
+description: اكتشف خاصية FieldIncludeText XslTransformation لإدارة تنسيق بيانات XML بسهولة باستخدام تحويلات XSL قابلة للتخصيص. حسّن عرض بياناتك!
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/fieldincludetext/xsltransformation/
 ---
 ## FieldIncludeText.XslTransformation property
 
-الحصول على أو تعيين موقع تحويل XSL لتنسيق بيانات XML.
+يحصل على موقع تحويل XSL لتنسيق بيانات XML أو يعينه.
 
 ```csharp
 public string XslTransformation { get; set; }
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // فيما يلي طريقتان لاستخدام حقول INCLUDETEXT لعرض محتويات ملف XML في نظام الملفات المحلي.
-    // 1 - إجراء تحويل XSL على مستند XML:
+    // 1 - تنفيذ تحويل XSL على مستند XML:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - استخدم XPath لأخذ عناصر محددة من مستند XML:
+    // 2 - استخدام XPath لأخذ عناصر محددة من مستند XML:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
+/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT مع خصائص مخصصة.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

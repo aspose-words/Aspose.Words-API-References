@@ -3,7 +3,7 @@ title: FieldPrint
 linktitle: FieldPrint
 articleTitle: FieldPrint
 second_title: Aspose.Words لـ .NET
-description: FieldPrint البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldPrint الافتراضي القوي، المُصمم للتكامل السلس والأداء المُحسّن في مشاريعك. أطلق العنان لإمكانياته اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldprint/fieldprint/

@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.DefaultFontSubstitution
 linktitle: DefaultFontSubstitution
 articleTitle: DefaultFontSubstitution
 second_title: Aspose.Words لـ .NET
-description: FontSubstitutionSettings DefaultFontSubstitution ملكية. الإعدادات المتعلقة بقاعدة استبدال الخط الافتراضية في C#.
+description: اكتشف كيف تُحسّن خاصية "استبدال الخط الافتراضي" إعدادات الخط لضمان طباعة سلسة. حسّن تصميمك بقواعد استبدال خطوط فعّالة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property
 
-الإعدادات المتعلقة بقاعدة استبدال الخط الافتراضية.
+الإعدادات المتعلقة بقاعدة استبدال الخط الافتراضي.
 
 ```csharp
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
@@ -26,17 +26,17 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
 // احصل على قاعدة الاستبدال الافتراضية ضمن FontSettings.
-// ستستبدل هذه القاعدة كافة الخطوط المفقودة بـ "Times New Roman".
+// ستقوم هذه القاعدة باستبدال جميع الخطوط المفقودة بـ "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// قم بتعيين بديل الخط الافتراضي على "Courier New".
+// تعيين الخط البديل الافتراضي إلى "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// باستخدام أداة إنشاء المستندات، أضف بعض النص بخط لا نحتاجه حتى يتم الاستبدال،
-// ثم قم بتقديم النتيجة في ملف PDF.
+// باستخدام منشئ المستندات، أضف بعض النصوص بخط لا نحتاج إليه لرؤية عملية الاستبدال،
+// ثم قم بعرض النتيجة في ملف PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

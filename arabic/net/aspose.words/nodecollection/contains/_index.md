@@ -3,14 +3,14 @@ title: NodeCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words لـ .NET
-description: NodeCollection Contains طريقة. تحديد ما إذا كانت العقدة موجودة في المجموعة في C#.
+description: اكتشف كيف تقوم طريقة NodeCollection Contains بالتحقق بكفاءة من وجود عقدة في مجموعتك، مما يعزز قدرات إدارة البيانات لديك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/nodecollection/contains/
 ---
 ## NodeCollection.Contains method
 
-تحديد ما إذا كانت العقدة موجودة في المجموعة.
+يحدد ما إذا كانت العقدة موجودة في المجموعة.
 
 ```csharp
 public bool Contains(Node node)
@@ -18,15 +18,15 @@ public bool Contains(Node node)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| node | Node | العقدة لتحديد موقع. |
+| node | Node | العقدة التي يجب تحديد موقعها. |
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
+`حقيقي`إذا تم العثور على العنصر في المجموعة؛ وإلا،`خطأ شنيع`.
 
 ## ملاحظات
 
-تقوم هذه الطريقة بإجراء بحث خطي؛ ولذلك فإن متوسط وقت التنفيذ يتناسب مع[`Count`](../count/).
+تقوم هذه الطريقة بإجراء بحث خطي؛ وبالتالي فإن متوسط وقت التنفيذ يتناسب مع[`Count`](../count/).
 
 ## أمثلة
 
@@ -36,24 +36,24 @@ public bool Contains(Node node)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف نصًا إلى المستند عن طريق إدراج عمليات التشغيل باستخدام DocumentBuilder.
+// قم بإضافة نص إلى المستند عن طريق إدراج Runs باستخدام DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// كل استدعاء لأسلوب "الكتابة" يُنشئ عملية تشغيل جديدة،
-// والذي يظهر بعد ذلك في RunCollection الخاص بالفقرة الأصلية.
+// كل استدعاء لطريقة "الكتابة" ينشئ عملية تشغيل جديدة،
+// والتي تظهر بعد ذلك في RunCollection الخاصة بالفقرة الأصلية.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// يمكننا أيضًا إدراج عقدة في RunCollection يدويًا.
+//يمكننا أيضًا إدراج عقدة في RunCollection يدويًا.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// الوصول إلى عمليات التشغيل الفردية وإزالتها لإزالة النص الخاص بها من المستند.
+//الوصول إلى عمليات التشغيل الفردية وإزالتها لإزالة نصها من المستند.
 Run run = runs[1];
 runs.Remove(run);
 

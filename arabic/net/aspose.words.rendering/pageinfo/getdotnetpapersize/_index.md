@@ -3,14 +3,14 @@ title: PageInfo.GetDotNetPaperSize
 linktitle: GetDotNetPaperSize
 articleTitle: GetDotNetPaperSize
 second_title: Aspose.Words لـ .NET
-description: PageInfo GetDotNetPaperSize طريقة. يحصل علىPaperSize كائن مناسب لطباعة الصفحة التي يمثلها هذاPageInfo  في C#.
+description: اكتشف طريقة GetDotNetPaperSize في PageInfo، المصممة لاسترداد كائن PaperSize المثالي بسهولة لطباعة الصفحات بسلاسة.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.rendering/pageinfo/getdotnetpapersize/
 ---
 ## PageInfo.GetDotNetPaperSize method
 
-يحصل علىPaperSize كائن مناسب لطباعة الصفحة التي يمثلها هذا[`PageInfo`](../) .
+يحصل علىPaperSize الكائن المناسب للطباعة الصفحة التي يمثلها هذا[`PageInfo`](../) .
 
 ```csharp
 public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
@@ -18,7 +18,7 @@ public PaperSize GetDotNetPaperSize(PaperSizeCollection paperSizes)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| paperSizes | PaperSizeCollection | مقاسات الورق المتوفرة. |
+| paperSizes | PaperSizeCollection | أحجام الورق المتوفرة. |
 
 ### قيمة الإرجاع
 
@@ -40,7 +40,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// تحديد حجم الورق المناسب واتجاهه ودرج الورق عند الطباعة.
+/// يحدد حجم الورق والاتجاه ودرج الورق المناسب عند الطباعة.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -50,7 +50,7 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// تهيئة نطاق الصفحات المراد طباعتها وفقًا لاختيار المستخدم.
+    /// يقوم بتهيئة نطاق الصفحات التي سيتم طباعتها وفقًا لاختيار المستخدم.
     /// </summary>
     protected override void OnBeginPrint(PrintEventArgs e)
     {
@@ -72,45 +72,45 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// يتم الاتصال به قبل طباعة كل صفحة.
+     /// يتم استدعاؤها قبل طباعة كل صفحة.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
          // يمكن أن يحتوي مستند Microsoft Word واحد على أقسام متعددة تحدد الصفحات بأحجام مختلفة،
-         // التوجهات، وصواني الورق. يستدعي إطار عمل الطباعة .NET هذا الرمز من قبل
-        // تتم طباعة كل صفحة، مما يتيح لنا فرصة تحديد كيفية طباعة الصفحة الحالية.
+         // الاتجاهات، وصواني الورق. يستدعي إطار عمل الطباعة .NET هذا الكود قبل
+        // تتم طباعة كل صفحة، مما يمنحنا فرصة لتحديد كيفية طباعة الصفحة الحالية.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
         // يقوم Microsoft Word بتخزين مصدر الورق (درج الطابعة) لكل قسم كقيمة خاصة بالطابعة.
-        // للحصول على قيمة الدرج الصحيحة، ستحتاج إلى استخدام خاصية "RawKind"، التي يجب أن ترجعها طابعتك.
+        // للحصول على قيمة الدرج الصحيحة، ستحتاج إلى استخدام خاصية "RawKind"، والتي يجب أن تقوم الطابعة الخاصة بك بإرجاعها.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// يتم استدعاء كل صفحة لعرضها للطباعة.
+     /// يتم استدعاء كل صفحة لتقديمها للطباعة.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // يقوم محرك عرض Aspose.Words بإنشاء صفحة مرسومة من أصل الورقة (x = 0, y = 0).
-        // سيكون هناك هامش ثابت في الطابعة، والذي سيعرض كل صفحة. نحن بحاجة إلى التعويض بهذا الهامش الصعب.
+        // يقوم محرك العرض Aspose.Words بإنشاء صفحة مرسومة من الأصل (x = 0، y = 0) للورقة.
+        // سيكون هناك هامشٌ ثابتٌ في الطابعة، والذي سيُطبع كل صفحة. نحتاج إلى تعويضه بهذا الهامش الثابت.
         float hardOffsetX, hardOffsetY;
 
         // فيما يلي طريقتان لتعيين هامش ثابت.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
-            // 1 - عبر خاصية "إعدادات الصفحة".
+            // 1 - عبر خاصية "PageSettings".
             hardOffsetX = e.PageSettings.HardMarginX;
             hardOffsetY = e.PageSettings.HardMarginY;
         }
         else
         {
-            // 2 - استخدام القيم الخاصة بنا، إذا كانت خاصية "إعدادات الصفحة" غير متوفرة.
+            // 2 - استخدام قيمنا الخاصة، إذا كانت خاصية "PageSettings" غير متوفرة.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

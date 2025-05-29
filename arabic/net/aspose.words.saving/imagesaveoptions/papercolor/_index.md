@@ -3,14 +3,14 @@ title: ImageSaveOptions.PaperColor
 linktitle: PaperColor
 articleTitle: PaperColor
 second_title: Aspose.Words لـ .NET
-description: ImageSaveOptions PaperColor ملكية. الحصول على أو تعيين لون الخلفية الورق للصور التي تم إنشاؤها في C#.
+description: اكتشف خاصية PaperColor في ImageSaveOptions لتخصيص ألوان الخلفية للصور التي تم إنشاؤها بسهولة، مما يعزز الجاذبية البصرية والتفرد.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/imagesaveoptions/papercolor/
 ---
 ## ImageSaveOptions.PaperColor property
 
-الحصول على أو تعيين لون الخلفية (الورق) للصور التي تم إنشاؤها.
+يحصل على لون الخلفية (الورق) للصور المولدة أو يعينه.
 
 القيمة الافتراضية هيWhite.
 
@@ -20,11 +20,11 @@ public Color PaperColor { get; set; }
 
 ## ملاحظات
 
-عند عرض صفحات مستند يحدد لون الخلفية الخاص به، ، فإن لون خلفية المستند سيتجاوز اللون المحدد بواسطة هذه الخاصية.
+عند عرض صفحات مستند يحدد لون الخلفية الخاص به، فإن لون خلفية المستند سيحل محل اللون المحدد بواسطة هذه الخاصية.
 
 ## أمثلة
 
-يعرض صفحة من مستند Word في صورة ذات خلفية شفافة أو ملونة.
+يقوم بتحويل صفحة من مستند Word إلى صورة ذات خلفية شفافة أو ملونة.
 
 ```csharp
 Document doc = new Document();
@@ -36,18 +36,17 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
+// قم بإنشاء كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل الطريقة التي تقوم بها هذه الطريقة بتحويل المستند إلى صورة.
 ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.Png);
-
 // اضبط خاصية "PaperColor" على لون شفاف لتطبيق لون شفاف
-// خلفية للمستند أثناء تحويله إلى صورة.
+// خلفية المستند أثناء عرضه على صورة.
 imgOptions.PaperColor = Color.Transparent;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
 
 // اضبط خاصية "PaperColor" على لون معتم لتطبيق هذا اللون
-// كخلفية للمستند عندما نعرضه على صورة.
+// كخلفية للمستند كما نقوم بتحويله إلى صورة.
 imgOptions.PaperColor = Color.LightCoral;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);

@@ -3,7 +3,7 @@ title: TaskPane
 linktitle: TaskPane
 articleTitle: TaskPane
 second_title: Aspose.Words لـ .NET
-description: TaskPane البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ لوحة المهام، الحل الأمثل لإنشاء لوحات ديناميكية وقابلة للتخصيص بسهولة. حسّن تجربة المستخدم اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.webextensions/taskpane/taskpane/

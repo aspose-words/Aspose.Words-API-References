@@ -3,14 +3,14 @@ title: CustomPart.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words لـ .NET
-description: CustomPart Name ملكية. الحصول على الاسم المطلق لهذا الجزء أو تعيينه ضمن حزمة OOXML أو عنوان URL المستهدف في C#.
+description: اكتشف كيفية إدارة أسماء CustomPart في حزم OOXML. حدّد أو استرجاع الأسماء المطلقة بسهولة لضمان تكامل سلس ووظائف مُحسّنة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/custompart/name/
 ---
 ## CustomPart.Name property
 
-الحصول على الاسم المطلق لهذا الجزء أو تعيينه ضمن حزمة OOXML أو عنوان URL المستهدف.
+يحصل على الاسم المطلق لهذا الجزء أو يعينه داخل حزمة OOXML أو عنوان URL المستهدف.
 
 ```csharp
 public string Name { get; set; }
@@ -18,25 +18,25 @@ public string Name { get; set; }
 
 ## ملاحظات
 
-إذا كان هدف العلاقة داخليًا، فإن هذه الخاصية هي اسم الجزء المطلق داخل الحزمة. إذا كان هدف العلاقة خارجيًا، فإن هذه الخاصية هي عنوان URL الهدف.
+إذا كان هدف العلاقة داخليًا، فستكون هذه الخاصية هي اسم الجزء المطلق داخل الحزمة. إذا كان هدف العلاقة خارجيًا، فستكون هذه الخاصية هي عنوان URL المستهدف.
 
-القيمة الافتراضية هي سلسلة فارغة. يجب أن تكون القيمة الصالحة عبارة عن سلسلة غير فارغة.
+القيمة الافتراضية هي سلسلة نصية فارغة. يجب أن تكون القيمة الصحيحة سلسلة نصية غير فارغة.
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
+//استنساخ الجزء الثاني، ثم إضافة الاستنساخ إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// قم بتعداد المجموعة وطباعة كل جزء منها.
+// قم بإحصاء المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
+//يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

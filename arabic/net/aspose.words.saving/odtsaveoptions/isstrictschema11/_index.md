@@ -3,14 +3,14 @@ title: OdtSaveOptions.IsStrictSchema11
 linktitle: IsStrictSchema11
 articleTitle: IsStrictSchema11
 second_title: Aspose.Words لـ .NET
-description: OdtSaveOptions IsStrictSchema11 ملكية. يحدد ما إذا كان يجب أن يتوافق التصدير مع مواصفات ODT 1.1 بدقة. OOo 3.0 يعرض الملفات بشكل صحيح عندما تحتوي على عناصر وسمات ODT 1.2. استخدم خطأ لهذا الغرض أو صحيح للمطابقة الصارمة للمواصفات 1.1. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: حسّن تصديرات ODT باستخدام خاصية IsStrictSchema11. تأكد من التوافق التام مع إصدار ODT 1.1 أو فعّل التوافق مع الإصدار 1.2 للحصول على أفضل النتائج.
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/aspose.words.saving/odtsaveoptions/isstrictschema11/
 ---
 ## OdtSaveOptions.IsStrictSchema11 property
 
-يحدد ما إذا كان يجب أن يتوافق التصدير مع مواصفات ODT 1.1 بدقة. OOo 3.0 يعرض الملفات بشكل صحيح عندما تحتوي على عناصر وسمات ODT 1.2. استخدم "خطأ" لهذا الغرض، أو "صحيح" للمطابقة الصارمة للمواصفات 1.1. القيمة الافتراضية هي`خطأ شنيع` .
+يحدد ما إذا كان التصدير يجب أن يتوافق مع مواصفات ODT 1.1 بشكل صارم. يعرض OOo 3.0 الملفات بشكل صحيح عندما تحتوي على عناصر وسمات ODT 1.2. استخدم "false" لهذا الغرض، أو "true" للتوافق الصارم مع المواصفات 1.1. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IsStrictSchema11 { get; set; }

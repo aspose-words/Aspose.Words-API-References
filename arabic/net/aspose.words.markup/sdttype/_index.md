@@ -3,14 +3,14 @@ title: SdtType Enum
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Markup.SdtType تعداد. يحدد نوع عقدة علامة المستند المنظمة SDT في C#.
+description: اكتشف Aspose.Words.Markup.SdtType enum، الذي يحدد أنواع علامات المستندات المنظمة لإدارة المستندات بشكل أفضل وسير العمل بشكل مبسط.
 type: docs
-weight: 4040
+weight: 4730
 url: /ar/net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration
 
-يحدد نوع عقدة علامة المستند المنظمة (SDT).
+يحدد نوع عقدة علامة المستند المنظم (SDT).
 
 ```csharp
 public enum SdtType
@@ -20,25 +20,46 @@ public enum SdtType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لم يتم تخصيص أي نوع لـ SDT. |
-| Bibliography | `1` | تمثل المعاملة الخاصة والتفضيلية (SDT) إدخالاً ببليوغرافيًا. |
-| Citation | `2` | تمثل المعاملة الخاصة والتفضيلية اقتباسًا. |
-| Equation | `3` | تمثل المعاملة الخاصة والتفضيلية معادلة. |
-| DropDownList | `4` | تمثل المعاملة SDT قائمة منسدلة عند عرضها في المستند. |
-| ComboBox | `5` | يمثل SDT مربع التحرير والسرد عند عرضه في المستند. |
-| Date | `6` | يمثل SDT منتقي التاريخ عند عرضه في المستند. |
-| BuildingBlockGallery | `7` | يمثل SDT نوع معرض العناصر الأساسية. |
+| None | `0` | لم يتم تعيين أي نوع إلى SDT. |
+| Bibliography | `1` | يمثل SDT إدخالًا في المراجع. |
+| Citation | `2` | يمثل SDT استشهادًا. |
+| Equation | `3` | يمثل SDT معادلة. |
+| DropDownList | `4` | يمثل SDT قائمة منسدلة عند عرضها في المستند. |
+| ComboBox | `5` | يمثل SDT مربعًا مركبًا عند عرضه في المستند. |
+| Date | `6` | يمثل SDT أداة اختيار التاريخ عند عرضه في المستند. |
+| BuildingBlockGallery | `7` | يمثل SDT نوع معرض كتلة البناء. |
 | DocPartObj | `8` | يمثل SDT نوع جزء المستند. |
-| Group | `9` | تمثل المعاملة الخاصة والتفضيلية (SDT) تجميعًا مقيدًا عند عرضها في المستند. |
-| Picture | `10` | تمثل المعاملة SDT صورة عند عرضها في المستند. |
-| RichText | `11` | يمثل SDT مربع نص منسق عند عرضه في المستند. |
+| Group | `9` | يمثل SDT مجموعة مقيدة عند عرضها في المستند. |
+| Picture | `10` | يمثل SDT صورة عند عرضها في المستند. |
+| RichText | `11` | يمثل SDT مربع نص غني عند عرضه في المستند. |
 | PlainText | `12` | يمثل SDT مربع نص عادي عند عرضه في المستند. |
 | Checkbox | `13` | يمثل SDT مربع اختيار عند عرضه في المستند. |
 | RepeatingSection | `14` | يمثل SDT نوع القسم المتكرر عند عرضه في المستند. |
 | RepeatingSectionItem | `15` | يمثل SDT عنصر القسم المتكرر. |
-| EntityPicker | `16` | يمثل SDT منتقي الكيان الذي يسمح للمستخدم بتحديد مثيل لنوع محتوى خارجي. |
+| EntityPicker | `16` | يمثل SDT محدد الكيان الذي يسمح للمستخدم بتحديد مثيل لنوع المحتوى الخارجي. |
 
 ## أمثلة
+
+يوضح كيفية إنشاء علامة مستند منظمة من نوع الاستشهاد.
+
+```csharp
+Document doc = new Document();
+
+StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.Citation, MarkupLevel.Inline);
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+paragraph.AppendChild(sdt);
+
+// إنشاء حقل الاستشهاد.
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.MoveToParagraph(0, -1);
+builder.InsertField(@"CITATION Ath22 \l 1033 ", "(John Lennon, 2022)");
+
+// نقل الحقل إلى علامة المستند المنظم.
+while (sdt.NextSibling != null)
+    sdt.AppendChild(sdt.NextSibling);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.Citation.docx");
+```
 
 يوضح كيفية إنشاء علامة مستند منظمة للمجموعة على مستوى الصف.
 
@@ -54,7 +75,7 @@ table.AppendChild(groupSdt);
 groupSdt.IsShowingPlaceholderText = false;
 groupSdt.RemoveAllChildren();
 
-// قم بإنشاء صف فرعي لعلامة المستند المنظم.
+// إنشاء صف فرعي لعلامة المستند المنظم.
 Row row = new Row(doc);
 groupSdt.AppendChild(row);
 
@@ -63,19 +84,19 @@ row.AppendChild(cell);
 
 builder.EndTable();
 
-// أدخل محتويات الخلية.
+// إدراج محتويات الخلية.
 cell.EnsureMinimum();
 builder.MoveTo(cell.LastParagraph);
 builder.Write("Lorem ipsum dolor.");
 
-// أدخل النص بعد الجدول.
+//إدراج النص بعد الجدول.
 builder.MoveTo(table.NextSibling);
 builder.Write("Nulla blandit nisi.");
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.SdtAtRowLevel.docx");
 ```
 
-يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
+يوضح كيفية العمل مع الأنماط لعناصر التحكم في المحتوى.
 
 ```csharp
 Document doc = new Document();
@@ -87,7 +108,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - قم بالإشارة إلى النمط الموجود في المستند بالاسم:
+// 2 - الإشارة إلى النمط في المستند بالاسم:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -140,15 +161,15 @@ builder.Write("Author");
 builder.EndRow();
 builder.EndTable();
 
-// أنشئ جدولًا به قسم متكرر بداخله.
+// إنشاء جدول يحتوي على قسم متكرر بداخله.
 StructuredDocumentTag repeatingSectionSdt =
     new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
 repeatingSectionSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book", string.Empty);
 table.AppendChild(repeatingSectionSdt);
 
-// أضف عنصر قسم متكرر داخل القسم المتكرر وقم بوضع علامة عليه كصف.
+// أضف عنصر قسم متكرر داخل القسم المتكرر وقم بتمييزه كصف.
 // سيحتوي هذا الجدول على صف لكل عنصر يمكننا العثور عليه في مستند XML
-// باستخدام "/books[1]/book" XPath، والذي يوجد ثلاثة منه.
+// باستخدام "/books[1]/book" XPath، والذي يوجد منه ثلاثة.
 StructuredDocumentTag repeatingSectionItemSdt =
     new StructuredDocumentTag(doc, SdtType.RepeatingSectionItem, MarkupLevel.Row);
 repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
@@ -156,7 +177,7 @@ repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
 Row row = new Row(doc);
 repeatingSectionItemSdt.AppendChild(row);
 
-// قم بتعيين بيانات XML مع خلايا الجدول التي تم إنشاؤها لعنوان ومؤلف كل كتاب.
+// قم بإنشاء خريطة لبيانات XML باستخدام خلايا الجدول التي تم إنشاؤها لعنوان ومؤلف كل كتاب.
 StructuredDocumentTag titleSdt =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
 titleSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/title[1]", string.Empty);

@@ -3,14 +3,14 @@ title: TabStopCollection.RemoveByPosition
 linktitle: RemoveByPosition
 articleTitle: RemoveByPosition
 second_title: Aspose.Words لـ .NET
-description: TabStopCollection RemoveByPosition طريقة. إزالة علامة الجدولة عند الموضع المحدد من المجموعة في C#.
+description: أزل علامات التبويب بسهولة من مجموعتك باستخدام طريقة RemoveByPosition. بسّط تنسيقك لتحسين التحكم في مستنداتك!
 type: docs
 weight: 120
 url: /ar/net/aspose.words/tabstopcollection/removebyposition/
 ---
 ## TabStopCollection.RemoveByPosition method
 
-إزالة علامة الجدولة عند الموضع المحدد من المجموعة.
+يزيل علامة التبويب في الموضع المحدد من المجموعة.
 
 ```csharp
 public void RemoveByPosition(double position)
@@ -18,7 +18,7 @@ public void RemoveByPosition(double position)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| position | Double | موضع علامة التبويب (بالنقاط) المراد إزالتها. |
+| position | Double | موضع (بالنقاط) علامة التبويب التي يجب إزالتها. |
 
 ## أمثلة
 
@@ -27,15 +27,15 @@ public void RemoveByPosition(double position)
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// التكرار خلال جميع الفقرات باستخدام أنماط جدول المحتويات المستندة إلى النتائج; هذا هو أي نمط بين TOC وTOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// قم بالتكرار خلال جميع الفقرات باستخدام أنماط تعتمد على نتائج جدول المحتويات; وهذا هو أي نمط بين جدول المحتويات وجدول المحتويات 9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
         // احصل على علامة التبويب الأولى المستخدمة في هذه الفقرة، ويجب أن تكون هذه هي علامة التبويب المستخدمة لمحاذاة أرقام الصفحات.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // استبدل علامة التبويب الافتراضية الأولى، وتوقف بعلامة جدولة مخصصة.
+        // استبدال علامة التبويب الافتراضية الأولى، والتوقف بعلامة تبويب مخصصة.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

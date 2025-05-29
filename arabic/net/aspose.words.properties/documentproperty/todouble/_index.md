@@ -3,14 +3,14 @@ title: DocumentProperty.ToDouble
 linktitle: ToDouble
 articleTitle: ToDouble
 second_title: Aspose.Words لـ .NET
-description: DocumentProperty ToDouble طريقة. إرجاع قيمة الخاصية مزدوجة في C#.
+description: حوّل قيم DocumentProperty إلى قيم مضاعفة بسهولة باستخدام طريقة ToDouble. تمتع بمعالجة دقيقة للبيانات في تطبيقاتك اليوم!
 type: docs
 weight: 90
 url: /ar/net/aspose.words.properties/documentproperty/todouble/
 ---
 ## DocumentProperty.ToDouble method
 
-إرجاع قيمة الخاصية مزدوجة.
+يعيد قيمة الخاصية على هيئة double.
 
 ```csharp
 public double ToDouble()
@@ -18,7 +18,7 @@ public double ToDouble()
 
 ## ملاحظات
 
-يطرح استثناءً إذا لم يكن نوع الخاصية كذلكNumber .
+يطرح استثناءً إذا لم يكن نوع الخاصيةNumber .
 
 ## أمثلة
 

@@ -3,14 +3,14 @@ title: Border.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words لـ .NET
-description: Border GetHashCode طريقة. بمثابة دالة تجزئة لهذا النوع في C#.
+description: اكتشف دالة Border GetHashCode، وهي دالة تجزئة فعّالة تُحسّن سلامة البيانات وأداء تطبيقاتك. استغل إمكاناتها اليوم!
 type: docs
 weight: 110
 url: /ar/net/aspose.words/border/gethashcode/
 ---
 ## Border.GetHashCode method
 
-بمثابة دالة تجزئة لهذا النوع.
+يعمل كدالة تجزئة لهذا النوع.
 
 ```csharp
 public override int GetHashCode()
@@ -18,7 +18,7 @@ public override int GetHashCode()
 
 ## أمثلة
 
-يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
+يُظهر كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
+    // يؤدي تغيير مظهر الحدود الفارغة إلى جعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

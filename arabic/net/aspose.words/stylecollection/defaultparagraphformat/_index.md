@@ -3,14 +3,14 @@ title: StyleCollection.DefaultParagraphFormat
 linktitle: DefaultParagraphFormat
 articleTitle: DefaultParagraphFormat
 second_title: Aspose.Words لـ .NET
-description: StyleCollection DefaultParagraphFormat ملكية. الحصول على تنسيق الفقرة الافتراضي للمستند في C#.
+description: اكتشف خاصية StyleCollection DefaultParagraphFormat للوصول بسهولة إلى تنسيق الفقرة الافتراضية للمستند وتخصيصها لتحسين قابلية القراءة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/stylecollection/defaultparagraphformat/
 ---
 ## StyleCollection.DefaultParagraphFormat property
 
-الحصول على تنسيق الفقرة الافتراضي للمستند.
+يحصل على تنسيق الفقرة الافتراضي للمستند.
 
 ```csharp
 public ParagraphFormat DefaultParagraphFormat { get; }
@@ -18,7 +18,7 @@ public ParagraphFormat DefaultParagraphFormat { get; }
 
 ## ملاحظات
 
-لاحظ أنه تم تقديم الإعدادات الافتراضية على مستوى المستند في Microsoft Word 2007 وهي مدعومة بالكامل بتنسيقات OOXML (Docx) فقط. لا تحتوي تنسيقات المستندات السابقة على دعم لتنسيق الفقرة الافتراضي للمستند.
+لاحظ أنه تم تقديم الإعدادات الافتراضية على مستوى المستند في Microsoft Word 2007 وهي مدعومة بالكامل في تنسيقات OOXML (Docx) فقط. لا تدعم تنسيقات المستندات السابقة تنسيق الفقرة الافتراضية للمستند.
 
 ## أمثلة
 
@@ -28,12 +28,12 @@ public ParagraphFormat DefaultParagraphFormat { get; }
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// قم بتعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
+// تعيين المعلمات الافتراضية للأنماط الجديدة التي قد نضيفها لاحقًا إلى هذه المجموعة.
 styles.DefaultFont.Name = "Courier New";
-// إذا أضفنا نمطًا من "StyleType.Paragraph"، فستطبق المجموعة قيم
-// الخاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "ParagraphFormat" الخاصة بالنمط.
+// إذا أضفنا نمط "StyleType.Paragraph"، ستطبق المجموعة قيم
+// خاصية "DefaultParagraphFormat" الخاصة بها إلى خاصية "ParagraphFormat" الخاصة بالنمط.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// أضف نمطًا، ثم تحقق من أنه يحتوي على الإعدادات الافتراضية.
+//أضف نمطًا، ثم تأكد من أنه يحتوي على الإعدادات الافتراضية.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

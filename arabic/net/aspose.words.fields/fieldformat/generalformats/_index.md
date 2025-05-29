@@ -3,14 +3,14 @@ title: FieldFormat.GeneralFormats
 linktitle: GeneralFormats
 articleTitle: GeneralFormats
 second_title: Aspose.Words لـ .NET
-description: FieldFormat GeneralFormats ملكية. يحصل على مجموعة من التنسيقات العامة التي يتم تطبيقها على نتيجة رقمية أو نصية أو أي نتيجة حقل. يتوافق مع مفاتيح  في C#.
+description: اكتشف خاصية FieldFormat GeneralFormats، التي توفر مجموعة متعددة الاستخدامات من تنسيقات النص الرقمي لتحسين عرض البيانات والنتائج.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldformat/generalformats/
 ---
 ## FieldFormat.GeneralFormats property
 
-يحصل على مجموعة من التنسيقات العامة التي يتم تطبيقها على نتيجة رقمية أو نصية أو أي نتيجة حقل. يتوافق مع مفاتيح \*.
+يحصل على مجموعة من التنسيقات العامة التي يتم تطبيقها على نتيجة رقمية أو نصية أو أي حقل. يتوافق مع مفاتيح \*.
 
 ```csharp
 public GeneralFormatCollection GeneralFormats { get; }
@@ -18,19 +18,19 @@ public GeneralFormatCollection GeneralFormats { get; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق النتائج الميدانية.
+يوضح كيفية تنسيق نتائج الحقل.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون تطبيق أي تنسيق.
+// استخدم منشئ المستندات لإدراج حقل يعرض النتيجة دون تطبيق أي تنسيق.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// يمكننا تطبيق تنسيق على نتيجة الحقل باستخدام خصائص الحقل.
+//يمكننا تطبيق تنسيق على نتيجة الحقل باستخدام خصائص الحقل.
 // فيما يلي ثلاثة أنواع من التنسيقات التي يمكننا تطبيقها على نتيجة الحقل.
 // 1 - التنسيق الرقمي:
 FieldFormat format = field.Format;
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
+//يمكننا إزالة تنسيقاتنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

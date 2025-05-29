@@ -3,9 +3,9 @@ title: OleControl Class
 linktitle: OleControl
 articleTitle: OleControl
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Ole.OleControl فصل. يمثل عنصر تحكم OLE ActiveX في C#.
+description: اكتشف فئة Aspose.Words.Drawing.Ole.OleControl لدمج عناصر تحكم OLE ActiveX بسلاسة في تطبيقاتك لتحسين الوظائف.
 type: docs
-weight: 1140
+weight: 1500
 url: /ar/net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
@@ -22,32 +22,32 @@ public class OleControl
 
 | اسم | وصف |
 | --- | --- |
-| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | إرجاع`حقيقي` إذا كان التحكم أ[`Forms2OleControl`](../forms2olecontrol/) . |
-| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | الحصول على اسم عنصر تحكم ActiveX أو تعيينه. |
+| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | إرجاع`حقيقي` إذا كان التحكم هو[`Forms2OleControl`](../forms2olecontrol/) . |
+| [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | يحصل على اسم عنصر التحكم ActiveX أو يعينه. |
 
 ## أمثلة
 
-يوضح كيفية التحقق من خصائص عنصر تحكم ActiveX.
+يوضح كيفية التحقق من خصائص عنصر التحكم ActiveX.
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
     Assert.AreEqual(null, checkBox.ChildNodes);
     Assert.AreEqual(string.Empty, checkBox.GroupName);
 
-    // لاحظ أنه لا يمكنك تعيين اسم المجموعة للإطار.
+    // لاحظ أنه لا يمكنك تعيين GroupName لإطار.
     checkBox.GroupName = "Aspose group name";
 }
 ```

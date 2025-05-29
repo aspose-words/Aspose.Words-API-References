@@ -3,14 +3,14 @@ title: PageSetup.TextColumns
 linktitle: TextColumns
 articleTitle: TextColumns
 second_title: Aspose.Words لـ .NET
-description: PageSetup TextColumns ملكية. إرجاع مجموعة تمثل مجموعة أعمدة النص في C#.
+description: اكتشف خاصية PageSetup TextColumns، وتمكن من الوصول إلى مجموعة متعددة الاستخدامات من أعمدة النص لتحسين تخطيط مستندك وتنسيقه بسهولة.
 type: docs
 weight: 420
 url: /ar/net/aspose.words/pagesetup/textcolumns/
 ---
 ## PageSetup.TextColumns property
 
-إرجاع مجموعة تمثل مجموعة أعمدة النص.
+يعيد مجموعة تمثل مجموعة أعمدة النص.
 
 ```csharp
 public TextColumnCollection TextColumns { get; }
@@ -18,7 +18,7 @@ public TextColumnCollection TextColumns { get; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في القسم.
+يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في قسم.
 
 ```csharp
 Document doc = new Document();

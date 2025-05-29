@@ -3,7 +3,7 @@ title: FieldDdeAuto
 linktitle: FieldDdeAuto
 articleTitle: FieldDdeAuto
 second_title: Aspose.Words لـ .NET
-description: FieldDdeAuto البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldDdeAuto الافتراضي لتكامل سلس وأداء مُحسّن. حسّن كفاءة البرمجة لديك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldddeauto/fieldddeauto/

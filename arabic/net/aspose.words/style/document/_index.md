@@ -3,14 +3,14 @@ title: Style.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: Style Document ملكية. الحصول على مستند المالك في C#.
+description: اكتشف خاصية Style Document للوصول بسهولة إلى مستند المالك الخاص بك وإدارته لتحسين التنظيم والكفاءة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/style/document/
 ---
 ## Style.Document property
 
-الحصول على مستند المالك.
+يحصل على مستند المالك.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

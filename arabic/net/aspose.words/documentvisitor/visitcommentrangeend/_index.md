@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitCommentRangeEnd
 linktitle: VisitCommentRangeEnd
 articleTitle: VisitCommentRangeEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitCommentRangeEnd طريقة. يتم استدعاؤه عند مواجهة نهاية نطاق النص الذي تم التعليق عليه في C#.
+description: اكتشف طريقة DocumentVisitor VisitCommentRangeEnd، المصممة لتحسين معالجة النصوص من خلال التعامل بكفاءة مع نهايات نطاق التعليقات في مستنداتك.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/documentvisitor/visitcommentrangeend/
 ---
 ## DocumentVisitor.VisitCommentRangeEnd method
 
-يتم استدعاؤه عند مواجهة نهاية نطاق النص الذي تم التعليق عليه.
+يتم استدعاؤها عند مواجهة نهاية نطاق التعليق النصي.
 
 ```csharp
 public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
@@ -18,15 +18,15 @@ public virtual VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEn
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| commentRangeEnd | CommentRangeEnd | الكائن الذي تتم زيارته. |
+| commentRangeEnd | CommentRangeEnd | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## أمثلة
 
-يوضح كيفية طباعة بنية العقدة لكل تعليق ونطاق التعليقات في المستند.
+يوضح كيفية طباعة بنية العقدة لكل تعليق ونطاق التعليق في مستند.
 
 ```csharp
 public void CommentsToText()
@@ -34,17 +34,17 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة من جميع عقد التعليق/CommentRange التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد Comment/CommentRange التي تم مواجهتها وأطفالها.
 /// </summary>
 public class CommentStructurePrinter : DocumentVisitor
 {
@@ -60,8 +60,8 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
-    /// يتم تسجيل التشغيل فقط إذا كان تابعًا لعقدة التعليق أو نطاق التعليق.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
+    /// سيتم تسجيل التشغيل فقط إذا كان فرعيًا لعقدة تعليق أو تعليق نطاق.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة CommentRangeStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة CommentRangeStart في المستند.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -83,7 +83,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة CommentRangeEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة CommentRangeEnd في المستند.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -95,7 +95,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة عقدة تعليق في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تعليق في المستند.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -108,7 +108,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة كافة العقد التابعة لعقدة التعليق.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة التعليق.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -120,10 +120,10 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder، ثم ضع مسافة بادئة له اعتمادًا على مدى عمق الزائر
-    /// في شجرة العقد التابعة لنطاق التعليق/التعليق.
+    /// أضف سطرًا إلى StringBuilder، وقم بتدويره حسب عمق الزائر
+    /// في شجرة التعليق/نطاق التعليق للعقد الفرعية.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

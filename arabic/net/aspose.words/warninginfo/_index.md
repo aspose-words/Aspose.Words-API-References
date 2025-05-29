@@ -3,16 +3,16 @@ title: WarningInfo Class
 linktitle: WarningInfo
 articleTitle: WarningInfo
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.WarningInfo فصل. يحتوي على معلومات حول التحذير الذي أصدره Aspose.Words أثناء تحميل المستند أو حفظه في C#.
+description: اكتشف فئة Aspose.Words.WarningInfo، التي توفر رؤى مهمة حول التحذيرات أثناء تحميل المستندات أو حفظها، مما يعزز كفاءة سير العمل لديك.
 type: docs
-weight: 6630
+weight: 7480
 url: /ar/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
 يحتوي على معلومات حول التحذير الذي أصدره Aspose.Words أثناء تحميل المستند أو حفظه.
 
-لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[البرمجة باستخدام المستندات](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class WarningInfo
@@ -22,13 +22,13 @@ public class WarningInfo
 
 | اسم | وصف |
 | --- | --- |
-| [Description](../../aspose.words/warninginfo/description/) { get; } | يُرجع وصف التحذير. |
-| [Source](../../aspose.words/warninginfo/source/) { get; } | إرجاع مصدر التحذير. |
-| [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | يُرجع نوع التحذير. |
+| [Description](../../aspose.words/warninginfo/description/) { get; } | يعيد وصف التحذير. |
+| [Source](../../aspose.words/warninginfo/source/) { get; } | يعيد مصدر التحذير. |
+| [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | يعيد نوع التحذير. |
 
 ## ملاحظات
 
-لا تقم بإنشاء مثيلات هذه الفئة. يتم إنشاء كائنات هذه الفئة وتمريرها بواسطة Aspose.Words إلى ملف[`Warning`](../iwarningcallback/warning/) طريقة.
+لا تُنشئ مثيلات لهذه الفئة. كائنات هذه الفئة تُنشأ بواسطة Aspose.Words وتُمرر إلى[`Warning`](../iwarningcallback/warning/) طريقة.
 
 ## أمثلة
 
@@ -40,20 +40,20 @@ public void EnableFontSubstitution()
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // تعيين معاودة الاتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    // ينبغي استخدام مقاييس الخط الأصلية بعد استبدال الخط.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
+    // سوف نحصل على تحذير استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -61,7 +61,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // يمكننا أيضًا التحقق من التحذيرات في المجموعة ومسحها.
+    //يمكننا أيضًا التحقق من التحذيرات الموجودة في المجموعة ومسحها.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -69,13 +69,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
+    /// يتم استدعاؤها في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {

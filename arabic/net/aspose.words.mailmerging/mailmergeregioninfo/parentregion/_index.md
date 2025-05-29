@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.ParentRegion
 linktitle: ParentRegion
 articleTitle: ParentRegion
 second_title: Aspose.Words لـ .NET
-description: MailMergeRegionInfo ParentRegion ملكية. إرجاع معلومات المنطقة الأصلية خالية لمنطقة المستوى الأعلى في C#.
+description: اكتشف خاصية MailMergeRegionInfo ParentRegion، التي توفر تفاصيل أساسية عن المنطقة الأصلية، وتُرجع قيمة null للمناطق ذات المستوى الأعلى. حسّن أتمتة مستنداتك!
 type: docs
 weight: 70
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
 ---
 ## MailMergeRegionInfo.ParentRegion property
 
-إرجاع معلومات المنطقة الأصلية (خالية لمنطقة المستوى الأعلى).
+إرجاع معلومات المنطقة الأصلية (null للمنطقة ذات المستوى الأعلى).
 
 ```csharp
 public MailMergeRegionInfo ParentRegion { get; }
@@ -24,20 +24,20 @@ public MailMergeRegionInfo ParentRegion { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// علامات "TableStart" و"TableEnd"، التي تدخل داخل MERGEFIELDs،
+// علامتي "TableStart" و"TableEnd"، اللتين تدخلان داخل MERGEFIELDs،
 // تشير إلى السلاسل التي تشير إلى بدايات ونهايات مناطق دمج البريد.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
 // استخدم هذه العلامات لبدء وإنهاء منطقة دمج البريد المسماة "MailMergeRegion1"،
-// والذي سيحتوي على MERGEFIELDs لعمودين.
+// والتي سوف تحتوي على MERGEFIELDs لعمودين.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
 builder.InsertField(" MERGEFIELD Column2");
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// يمكننا تتبع مناطق الدمج وأعمدتها من خلال النظر إلى هذه المجموعات.
+// يمكننا متابعة مناطق الدمج وأعمدتها من خلال النظر إلى هذه المجموعات.
 IList<MailMergeRegionInfo> regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(1, regions.Count);
@@ -48,19 +48,19 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
-// أدخل منطقة بنفس الاسم داخل المنطقة الموجودة، مما يجعلها منطقة أصلية.
+// أدخل منطقة بنفس الاسم داخل المنطقة الموجودة، مما سيجعلها منطقة رئيسية.
 // الآن سيكون حقل "Column2" داخل منطقة جديدة.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// إذا بحثنا عن أسماء المناطق المكررة باستخدام طريقة "GetRegionsByName"،
-// سيُرجع جميع هذه المناطق في مجموعة.
+// إذا بحثنا عن اسم المناطق المكررة باستخدام طريقة "GetRegionsByName"،
+// سوف يقوم بإرجاع جميع هذه المناطق في المجموعة.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);
-// تأكد من أن المنطقة الثانية بها الآن منطقة أصل.
+// تأكد من أن المنطقة الثانية لديها الآن منطقة رئيسية.
 Assert.AreEqual("MailMergeRegion1", regions[1].ParentRegion.Name);
 
 mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1", 1);

@@ -3,14 +3,14 @@ title: ChartLegend Class
 linktitle: ChartLegend
 articleTitle: ChartLegend
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.ChartLegend فصل. يمثل خصائص وسيلة إيضاح المخطط في C#.
+description: اكتشف فئة Aspose.Words.Drawing.Charts.ChartLegend لتحسين مخططاتك باستخدام خصائص الأسطورة القابلة للتخصيص لتحسين تصور البيانات.
 type: docs
-weight: 720
+weight: 1010
 url: /ar/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
 
-يمثل خصائص وسيلة إيضاح المخطط.
+يمثل خصائص أسطورة الرسم البياني.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الرسوم البيانية](https://docs.aspose.com/words/net/working-with-charts/) مقالة توثيقية.
 
@@ -22,13 +22,15 @@ public class ChartLegend
 
 | اسم | وصف |
 | --- | --- |
-| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | إرجاع مجموعة من إدخالات وسيلة الإيضاح لجميع السلاسل وخطوط الاتجاه للمخطط الأصلي. |
-| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل وسيلة الإيضاح أم لا. القيمة الافتراضية هي`خطأ شنيع` . |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | يحدد موضع وسيلة الإيضاح على المخطط. القيمة الافتراضية هيRight . |
+| [Font](../../aspose.words.drawing.charts/chartlegend/font/) { get; } | يتيح الوصول إلى تنسيق الخط الافتراضي لإدخالات التسمية التوضيحية. لتجاوز تنسيق الخط لـ إدخال تسمية توضيحية محدد، استخدم[`Font`](../chartlegendentry/font/) الملكية. |
+| [Format](../../aspose.words.drawing.charts/chartlegend/format/) { get; } | يوفر إمكانية الوصول إلى تعبئة وتنسيق السطر الخاص بالأسطورة. |
+| [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | يقوم بإرجاع مجموعة من إدخالات الأسطورة لجميع السلاسل وخطوط الاتجاه للرسم البياني الرئيسي. |
+| [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | يحدد ما إذا كان سيتم السماح لعناصر الرسم البياني الأخرى بالتداخل مع الأسطورة. القيمة الافتراضية هي`خطأ شنيع` . |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | يحدد موضع الأسطورة على الرسم البياني. |
 
 ## أمثلة
 
-يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
+يوضح كيفية تحرير مظهر أسطورة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -42,11 +44,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// انقل وسيلة إيضاح المخطط إلى الزاوية اليمنى العليا.
+// نقل أسطورة الرسم البياني إلى الزاوية اليمنى العليا.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// امنح عناصر المخطط الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بتداخل وسيلة الإيضاح.
+// امنح عناصر الرسم البياني الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بالتداخل مع الأسطورة.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

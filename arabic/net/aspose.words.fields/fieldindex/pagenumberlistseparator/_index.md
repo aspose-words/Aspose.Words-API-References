@@ -3,14 +3,14 @@ title: FieldIndex.PageNumberListSeparator
 linktitle: PageNumberListSeparator
 articleTitle: PageNumberListSeparator
 second_title: Aspose.Words لـ .NET
-description: FieldIndex PageNumberListSeparator ملكية. الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين رقمي الصفحات في قائمة أرقام الصفحات في C#.
+description: اكتشف خاصية FieldIndex PageNumberListSeparator لتخصيص تنسيق أرقام الصفحات بسهولة. حسّن سهولة قراءة مستندك اليوم!
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/fieldindex/pagenumberlistseparator/
 ---
 ## FieldIndex.PageNumberListSeparator property
 
-الحصول على أو تعيين تسلسل الأحرف المستخدم للفصل بين رقمي الصفحات في قائمة أرقام الصفحات.
+يحصل على أو يعين تسلسل الأحرف المستخدم لفصل رقمين للصفحات في قائمة أرقام الصفحات.
 
 ```csharp
 public string PageNumberListSeparator { get; set; }
@@ -18,21 +18,21 @@ public string PageNumberListSeparator { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحرير فاصل رقم الصفحة في حقل INDEX.
+يوضح كيفية تحرير فاصل أرقام الصفحات في حقل INDEX.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء حقل INDEX الذي سيعرض إدخالاً لكل حقل XE موجود في المستند.
-// سيعرض كل إدخال قيمة خاصية النص لحقل XE على الجانب الأيسر،
+// قم بإنشاء حقل INDEX والذي سيعرض إدخالاً لكل حقل XE موجود في المستند.
+// سيعرض كل إدخال قيمة خاصية النص الخاصة بحقل XE على الجانب الأيسر،
 // ورقم الصفحة التي تحتوي على حقل XE على اليمين.
-// سيقوم إدخال INDEX بتجميع حقول XE ذات القيم المطابقة في خاصية "النص".
-// في إدخال واحد بدلاً من عمل إدخال لكل حقل XE.
+// سيقوم إدخال INDEX بتجميع حقول XE مع القيم المطابقة في خاصية "النص"
+// في إدخال واحد بدلاً من إنشاء إدخال لكل حقل XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // إذا كان حقل INDEX الخاص بنا يحتوي على إدخال لمجموعة من حقول XE،
-// سيعرض هذا الإدخال رقم كل صفحة تحتوي على حقل XE ينتمي إلى هذه المجموعة.
+// سيعرض هذا الإدخال رقم كل صفحة تحتوي على حقل XE الذي ينتمي إلى هذه المجموعة.
 // يمكننا تعيين فواصل مخصصة لتخصيص مظهر أرقام الصفحات هذه.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageNumberListSeparator = " & ";
@@ -40,7 +40,7 @@ index.PageNumberListSeparator = " & ";
 Assert.AreEqual(" INDEX  \\e \", on page(s) \" \\l \" & \"", index.GetFieldCode());
 Assert.True(index.HasPageNumberSeparator);
 
-// بعد إدراج حقول XE هذه، سيعرض حقل INDEX "الإدخال الأول، في الصفحة (الصفحات) 2 و3 و4".
+// بعد أن نقوم بإدخال حقول XE هذه، سيعرض حقل INDEX "الإدخال الأول، في الصفحة (الصفحات) 2 و3 و4".
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";

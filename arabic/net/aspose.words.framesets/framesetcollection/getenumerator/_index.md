@@ -3,14 +3,14 @@ title: FramesetCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: FramesetCollection GetEnumerator طريقة. يُرجع عدادًا يتكرر خلال المجموعة في C#.
+description: اكتشف طريقة FramesetCollection GetEnumerator، التي تتكرر بكفاءة عبر مجموعتك، مما يعزز إدارة البيانات وإمكانية الوصول إليها.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.framesets/framesetcollection/getenumerator/
 ---
 ## FramesetCollection.GetEnumerator method
 
-يُرجع عدادًا يتكرر خلال المجموعة.
+يعيد مُعَدِّدًا يتكرر خلال المجموعة.
 
 ```csharp
 public IEnumerator<Frameset> GetEnumerator()

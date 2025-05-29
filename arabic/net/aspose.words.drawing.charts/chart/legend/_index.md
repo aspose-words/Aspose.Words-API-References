@@ -3,14 +3,14 @@ title: Chart.Legend
 linktitle: Legend
 articleTitle: Legend
 second_title: Aspose.Words لـ .NET
-description: Chart Legend ملكية. يوفر الوصول إلى خصائص وسيلة إيضاح المخطط في C#.
+description: اكتشف خاصية "أسطورة الرسم البياني" لتخصيص مخططاتك بسهولة. حسّن تصوّر البيانات بخيارات أسطورة مُصمّمة خصيصًا لرؤى أفضل!
 type: docs
-weight: 50
+weight: 70
 url: /ar/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property
 
-يوفر الوصول إلى خصائص وسيلة إيضاح المخطط.
+يوفر الوصول إلى خصائص أسطورة الرسم البياني.
 
 ```csharp
 public ChartLegend Legend { get; }
@@ -18,7 +18,7 @@ public ChartLegend Legend { get; }
 
 ## أمثلة
 
-يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
+يوضح كيفية تحرير مظهر أسطورة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// انقل وسيلة إيضاح المخطط إلى الزاوية اليمنى العليا.
+// نقل أسطورة الرسم البياني إلى الزاوية اليمنى العليا.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// امنح عناصر المخطط الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بتداخل وسيلة الإيضاح.
+// امنح عناصر الرسم البياني الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بالتداخل مع الأسطورة.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

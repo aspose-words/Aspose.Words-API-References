@@ -3,14 +3,14 @@ title: PageSetup.LeftMargin
 linktitle: LeftMargin
 articleTitle: LeftMargin
 second_title: Aspose.Words لـ .NET
-description: PageSetup LeftMargin ملكية. إرجاع أو تعيين المسافة بالنقاط بين الحافة اليسرى للصفحة والحد الأيسر للنص الأساسي في C#.
+description: اكتشف خاصية LeftMargin في PageSetup لضبط الهامش الأيسر بسهولة بالنقاط، مما يعزز تخطيط مستندك وقابليته للقراءة.
 type: docs
 weight: 200
 url: /ar/net/aspose.words/pagesetup/leftmargin/
 ---
 ## PageSetup.LeftMargin property
 
-إرجاع أو تعيين المسافة (بالنقاط) بين الحافة اليسرى للصفحة والحد الأيسر للنص الأساسي.
+يعيد أو يضبط المسافة (بالنقاط) بين الحافة اليسرى للصفحة والحد الأيسر لنص الهيئة.
 
 ```csharp
 public double LeftMargin { get; set; }
@@ -18,7 +18,7 @@ public double LeftMargin { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق والاتجاه والهوامش، إلى جانب الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: Document.SpellingChecked
 linktitle: SpellingChecked
 articleTitle: SpellingChecked
 second_title: Aspose.Words لـ .NET
-description: Document SpellingChecked ملكية. إرجاعحقيقي إذا تم التدقيق الإملائي للمستند في C#.
+description: تأكد من خلو مستندك من الأخطاء الإملائية باستخدام خاصية التدقيق الإملائي. تأكد من أن محتواك قد خضع لتدقيق إملائي دقيق لضمان الاحترافية.
 type: docs
-weight: 410
+weight: 430
 url: /ar/net/aspose.words/document/spellingchecked/
 ---
 ## Document.SpellingChecked property
 
-إرجاع`حقيقي` إذا تم التدقيق الإملائي للمستند.
+إرجاع`حقيقي` إذا تم التحقق من صحة التهجئة في المستند.
 
 ```csharp
 public bool SpellingChecked { get; set; }
@@ -18,21 +18,21 @@ public bool SpellingChecked { get; set; }
 
 ## ملاحظات
 
-لإعادة التدقيق الإملائي في المستند، قم بتعيين هذه الخاصية إلى`خطأ شنيع` .
+لإعادة التحقق من التهجئة في المستند، اضبط هذه الخاصية على`خطأ شنيع` .
 
 ## أمثلة
 
-يوضح كيفية تعيين التدقيق الإملائي أو النحوي.
+يوضح كيفية ضبط التحقق من الإملاء أو القواعد النحوية.
 
 ```csharp
 Document doc = new Document();
 
-// السلسلة التي بها أخطاء إملائية.
+// السلسلة التي تحتوي على أخطاء إملائية.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
- // يبدأ التدقيق الإملائي/النحوي إذا قمنا بتعيين الخصائص على خطأ.
-// يمكننا رؤية جميع الأخطاء في Microsoft Word عبر المراجعة -> التهجئة & قواعد.
-// لاحظ أن Microsoft Word لا يبدأ التدقيق النحوي/الإملائي تلقائيًا لتنسيق مستند DOC وRTF.
+// تبدأ عملية التدقيق الإملائي/النحوي إذا قمنا بتعيين الخصائص على خطأ.
+// يمكننا رؤية جميع الأخطاء في Microsoft Word عبر المراجعة -> التدقيق الإملائي والنحوي.
+// لاحظ أن Microsoft Word لا يبدأ فحص القواعد النحوية/الإملائية تلقائيًا لتنسيقات المستندات DOC وRTF.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

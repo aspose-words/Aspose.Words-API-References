@@ -3,9 +3,9 @@ title: MailMergeRegionInfo Class
 linktitle: MailMergeRegionInfo
 articleTitle: MailMergeRegionInfo
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.MailMerging.MailMergeRegionInfo فصل. يحتوي على معلومات حول منطقة دمج البريد في C#.
+description: اكتشف فئة Aspose.Words.MailMerging.MailMergeRegionInfo لإدارة دمج البريد بكفاءة. تمتع بأتمتة مستندات سلسة اليوم!
 type: docs
-weight: 3860
+weight: 4550
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class
@@ -22,16 +22,16 @@ public class MailMergeRegionInfo
 
 | اسم | وصف |
 | --- | --- |
-| [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield/) { get; } | إرجاع حقل النهاية للمنطقة. |
-| [EndMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/) { get; } | إرجاع علامة نهاية "الشارب" للمنطقة. |
-| [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields/) { get; } | إرجاع قائمة الحقول الفرعية. |
-| [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | إرجاع مستوى التداخل للمنطقة. |
-| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | إرجاع قائمة بعلامات "الشارب" الفرعية. |
-| [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name/) { get; } | إرجاع اسم المنطقة. |
-| [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | إرجاع معلومات المنطقة الأصلية (خالية لمنطقة المستوى الأعلى). |
-| [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | إرجاع قائمة بالمناطق الفرعية. |
-| [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | إرجاع حقل البداية للمنطقة. |
-| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | إرجاع علامة البداية "شارب" للمنطقة. |
+| [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield/) { get; } | يعيد حقل نهاية للمنطقة. |
+| [EndMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/) { get; } | يعيد علامة نهاية "الشارب" للمنطقة. |
+| [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields/) { get; } | يعيد قائمة من الحقول الفرعية. |
+| [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | يعيد مستوى التعشيش للمنطقة. |
+| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | يعيد قائمة من علامات "الشارب" الفرعية. |
+| [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name/) { get; } | يعيد اسم المنطقة. |
+| [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | إرجاع معلومات المنطقة الأصلية (null للمنطقة ذات المستوى الأعلى). |
+| [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | يعيد قائمة بالمناطق الفرعية. |
+| [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | يعيد حقل البداية للمنطقة. |
+| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | يعيد علامة "mustache" البداية للمنطقة. |
 
 ## أمثلة
 
@@ -40,10 +40,10 @@ public class MailMergeRegionInfo
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
 
-// إرجاع تسلسل هرمي كامل لمناطق الدمج التي تحتوي على MERGEFIELDs المتوفرة في المستند.
+//إرجاع التسلسل الهرمي الكامل لمناطق الدمج التي تحتوي على MERGEFIELDs المتوفرة في المستند.
 MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 
-// احصل على المناطق العليا في المستند.
+// احصل على أفضل المناطق في المستند.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
 Assert.AreEqual(2, topRegions.Count);
@@ -52,7 +52,7 @@ Assert.AreEqual("Region2", topRegions[1].Name);
 Assert.AreEqual(1, topRegions[0].Level);
 Assert.AreEqual(1, topRegions[1].Level);
 
-// احصل على المنطقة المتداخلة في المنطقة العليا الأولى.
+// احصل على المنطقة المتداخلة في المنطقة العلوية الأولى.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
 Assert.AreEqual(2, nestedRegions.Count);
@@ -60,8 +60,9 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
-// احصل على قائمة الحقول داخل المنطقة العلوية الأولى.
+// الحصول على قائمة الحقول داخل المنطقة العلوية الأولى.
 IList<Field> fieldList = topRegions[0].Fields;
 
 Assert.AreEqual(4, fieldList.Count);

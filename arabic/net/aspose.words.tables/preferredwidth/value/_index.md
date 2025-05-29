@@ -3,14 +3,14 @@ title: PreferredWidth.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words لـ .NET
-description: PreferredWidth Value ملكية. يحصل على قيمة العرض المفضلة. وحدة القياس محددة فيType الملكية في C#.
+description: اكتشف خاصية "قيمة العرض المُفضّل" للوصول بسهولة إلى العرض المُفضّل وتخصيصه. حسّن تصميمك بقياسات دقيقة اليوم!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.tables/preferredwidth/value/
 ---
 ## PreferredWidth.Value property
 
-يحصل على قيمة العرض المفضلة. وحدة القياس محددة في[`Type`](../type/) الملكية.
+يحصل على قيمة العرض المُفضّلة. وحدة القياس مُحدّدة في[`Type`](../type/) الملكية.
 
 ```csharp
 public double Value { get; }
@@ -18,7 +18,7 @@ public double Value { get; }
 
 ## أمثلة
 
-يوضح كيفية التحقق من نوع العرض المفضل وقيمة خلية الجدول.
+يوضح كيفية التحقق من نوع العرض وقيمة خلية الجدول المفضلة.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

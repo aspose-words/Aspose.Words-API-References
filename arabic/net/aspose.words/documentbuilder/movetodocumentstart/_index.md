@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToDocumentStart
 linktitle: MoveToDocumentStart
 articleTitle: MoveToDocumentStart
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder MoveToDocumentStart طريقة. ينقل المؤشر إلى بداية المستند في C#.
+description: اكتشف طريقة MoveToDocumentStart في DocumentBuilder للتنقل بسهولة إلى بداية مستندك، مما يعزز كفاءة التحرير لديك.
 type: docs
-weight: 520
+weight: 560
 url: /ar/net/aspose.words/documentbuilder/movetodocumentstart/
 ---
 ## DocumentBuilder.MoveToDocumentStart method
 
-ينقل المؤشر إلى بداية المستند.
+يحرك المؤشر إلى بداية المستند.
 
 ```csharp
 public void MoveToDocumentStart()
@@ -18,13 +18,13 @@ public void MoveToDocumentStart()
 
 ## أمثلة
 
-يوضح كيفية نقل مؤشر أداة إنشاء المستندات إلى عقد مختلفة في المستند.
+يوضح كيفية نقل مؤشر منشئ المستندات إلى عقد مختلفة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إنشاء إشارة مرجعية صالحة، وهو كيان يتكون من العقد المحاطة بعقدة بداية الإشارة المرجعية،
+// قم بإنشاء إشارة مرجعية صالحة، وهي كيان يتكون من عقد محاطة بعقدة بداية الإشارة المرجعية،
  // وعقدة نهاية الإشارة المرجعية.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
@@ -37,27 +37,27 @@ Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// يكون مؤشر أداة إنشاء المستندات دائمًا متقدمًا على العقدة التي أضفناها معها آخر مرة.
+// يكون مؤشر منشئ المستند دائمًا أمام العقدة التي أضفناها معه آخر مرة.
 // إذا كان مؤشر المنشئ في نهاية المستند، فستكون العقدة الحالية فارغة.
 // العقدة السابقة هي عقدة نهاية الإشارة المرجعية التي أضفناها آخر مرة.
-// ستؤدي إضافة عقد جديدة مع المنشئ إلى إلحاقها بالعقدة الأخيرة.
+// إضافة عقد جديدة باستخدام المنشئ سوف يضيفها إلى العقدة الأخيرة.
 Assert.Null(builder.CurrentNode);
 
 // إذا أردنا تحرير جزء مختلف من المستند باستخدام المنشئ،
-// سنحتاج إلى إحضار المؤشر إلى العقدة التي نرغب في تحريرها.
+// سوف نحتاج إلى إحضار المؤشر إلى العقدة التي نرغب في تحريرها.
 builder.MoveToBookmark("MyBookmark");
 
-// سيؤدي نقلها إلى إشارة مرجعية إلى نقلها إلى العقدة الأولى داخل عقدتي بداية ونهاية الإشارة المرجعية، وهي العملية المرفقة.
+// نقله إلى إشارة مرجعية سوف ينقله إلى العقدة الأولى داخل عقدة بداية ونهاية الإشارة المرجعية، التشغيل المرفق.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
-// يمكننا أيضًا نقل المؤشر إلى عقدة فردية مثل هذه.
+//يمكننا أيضًا نقل المؤشر إلى عقدة فردية مثل هذه.
 builder.MoveTo(doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false)[0]);
 
 Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
 Assert.IsTrue(builder.IsAtStartOfParagraph);
 
-// يمكننا استخدام طرق محددة للانتقال إلى بداية/نهاية المستند.
+//يمكننا استخدام طرق محددة للانتقال إلى بداية/نهاية المستند.
 builder.MoveToDocumentEnd();
 
 Assert.IsTrue(builder.IsAtEndOfParagraph);

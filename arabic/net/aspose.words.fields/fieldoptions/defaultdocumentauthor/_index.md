@@ -3,14 +3,14 @@ title: FieldOptions.DefaultDocumentAuthor
 linktitle: DefaultDocumentAuthor
 articleTitle: DefaultDocumentAuthor
 second_title: Aspose.Words لـ .NET
-description: FieldOptions DefaultDocumentAuthor ملكية. الحصول على أو تعيين اسم مؤلف المستند الافتراضي. إذا كان اسم المؤلف محددًا بالفعل في خصائص المستند المضمنة فلن يتم أخذ هذا الخيار في الاعتبار في C#.
+description: إدارة خاصية DefaultDocumentAuthor لتعيين أسماء مؤلفي المستندات أو تحديثها بسهولة، مما يعزز كفاءة التنظيم وإدارة المستندات.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 ---
 ## FieldOptions.DefaultDocumentAuthor property
 
-الحصول على أو تعيين اسم مؤلف المستند الافتراضي. إذا كان اسم المؤلف محددًا بالفعل في خصائص المستند المضمنة، فلن يتم أخذ هذا الخيار في الاعتبار.
+يحصل على اسم مؤلف المستند الافتراضي أو يعيّنه. إذا كان اسم المؤلف محددًا مسبقًا في خصائص المستند المضمنة، فلن يُؤخذ هذا الخيار في الاعتبار.
 
 ```csharp
 public string DefaultDocumentAuthor { get; set; }
@@ -24,14 +24,14 @@ public string DefaultDocumentAuthor { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// حقول المؤلف مصدر نتائجها من خاصية المستند المضمنة والتي تسمى "المؤلف".
-// إذا قمنا بإنشاء مستند وحفظه في برنامج Microsoft Word،
-// سيكون له اسم المستخدم الخاص بنا في تلك الخاصية.
+// تحصل حقول المؤلف على نتائجها من خاصية المستند المضمنة المسماة "المؤلف".
+// إذا قمنا بإنشاء مستند وحفظه في Microsoft Word،
+//سيكون اسم المستخدم الخاص بنا موجودًا في تلك الخاصية.
 // ومع ذلك، إذا قمنا بإنشاء مستند برمجيًا باستخدام Aspose.Words،
-// ستكون خاصية "المؤلف" سلسلة فارغة بشكل افتراضي.
+// ستكون خاصية "المؤلف"، بشكل افتراضي، عبارة عن سلسلة فارغة.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
-// قم بتعيين اسم مؤلف احتياطي لحقول المؤلف لاستخدامها
+// تعيين اسم مؤلف احتياطي لحقول المؤلف لاستخدامه
 // إذا كانت خاصية "المؤلف" تحتوي على سلسلة فارغة.
 doc.FieldOptions.DefaultDocumentAuthor = "Joe Bloggs";
 
@@ -42,26 +42,26 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
-// تحديث حقل المؤلف الذي يحتوي على قيمة
-// سيتم تطبيق هذه القيمة على خاصية "المؤلف" المضمنة.
+// تحديث حقل AUTHOR الذي يحتوي على قيمة
+// سيتم تطبيق هذه القيمة على الخاصية المضمنة "المؤلف".
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
-// سيؤدي تغيير هذه الخاصية ثم تحديث حقل المؤلف إلى تطبيق هذه القيمة على الحقل.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+// سيؤدي تغيير هذه الخاصية، ثم تحديث حقل AUTHOR، إلى تطبيق هذه القيمة على الحقل.
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("John Doe", field.Result);
 
-// إذا قمنا بتحديث حقل المؤلف بعد تغيير خاصية "الاسم" الخاصة به،
-// ثم سيعرض الحقل الاسم الجديد ويطبق الاسم الجديد على الخاصية المضمنة.
+// إذا قمنا بتحديث حقل AUTHOR بعد تغيير خاصية "Name" الخاصة به،
+// ثم سيعرض الحقل الاسم الجديد وسيطبق الاسم الجديد على الخاصية المضمنة.
 field.AuthorName = "Jane Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR  \"Jane Doe\"", field.GetFieldCode());
 Assert.AreEqual("Jane Doe", field.Result);
 
-// حقول المؤلف لا تؤثر على خاصية DefaultDocumentAuthor.
+// لا تؤثر حقول AUTHOR على خاصية DefaultDocumentAuthor.
 Assert.AreEqual("Jane Doe", doc.BuiltInDocumentProperties.Author);
 Assert.AreEqual("Joe Bloggs", doc.FieldOptions.DefaultDocumentAuthor);
 

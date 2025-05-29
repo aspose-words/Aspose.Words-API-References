@@ -3,14 +3,14 @@ title: Document.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words لـ .NET
-description: Document BuiltInDocumentProperties ملكية. إرجاع مجموعة تمثل كافة خصائص المستند المضمنة في المستند في C#.
+description: استكشف خاصية BuiltInDocumentProperties للوصول إلى خصائص المستند الأساسية، مما يعزز إدارة المستندات لديك وكفاءتها.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words/document/builtindocumentproperties/
 ---
 ## Document.BuiltInDocumentProperties property
 
-إرجاع مجموعة تمثل كافة خصائص المستند المضمنة في المستند.
+يعيد مجموعة تمثل جميع خصائص المستند المضمنة.
 
 ```csharp
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
@@ -23,10 +23,10 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كائن "المستند" على بعض بيانات التعريف الخاصة به في أعضائه.
+//يحتوي كائن "المستند" على بعض بياناته الوصفية في أعضائه.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// يقوم المستند أيضًا بتخزين البيانات التعريفية في خصائصه المضمنة.
+// تقوم الوثيقة أيضًا بتخزين البيانات الوصفية في خصائصها المضمنة.
 // كل خاصية مضمنة هي عضو في كائن "BuiltInDocumentProperties" الخاص بالمستند.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)

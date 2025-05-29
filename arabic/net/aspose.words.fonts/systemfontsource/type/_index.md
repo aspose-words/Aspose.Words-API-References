@@ -3,14 +3,14 @@ title: SystemFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: SystemFontSource Type ملكية. إرجاع نوع مصدر الخط في C#.
+description: اكتشف خاصية SystemFontSource Type، وقم بالوصول بسهولة إلى أنواع مصادر الخطوط وتحديدها لتحسين تصميم الويب وتجربة المستخدم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/systemfontsource/type/
 ---
 ## SystemFontSource.Type property
 
-إرجاع نوع مصدر الخط.
+يعيد نوع مصدر الخط.
 
 ```csharp
 public override FontSourceType Type { get; }
@@ -18,13 +18,13 @@ public override FontSourceType Type { get; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مصدر خط نظام المستند وتعيين بدائل الخطوط.
+يوضح كيفية الوصول إلى مصدر الخط الخاص بنظام المستند وتعيين بدائل الخط.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// بشكل افتراضي، يحتوي المستند الفارغ دائمًا على مصدر خط النظام.
+// بشكل افتراضي، تحتوي المستندة الفارغة دائمًا على مصدر خط النظام.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// قم بتعيين خط موجود في دليل خطوط Windows كبديل للخط غير الموجود.
+// تعيين الخط الموجود في دليل خطوط Windows كبديل للخط غير الموجود.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -55,18 +55,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// بدلاً من ذلك، يمكننا إضافة مصدر خط المجلد حيث يحتوي المجلد المقابل على الخط.
+//بدلاً من ذلك، يمكننا إضافة مصدر خط المجلد الذي يحتوي على الخط المقابل.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// إعادة تعيين مصادر الخطوط لا تزال تتركنا مع مصدر خط النظام بالإضافة إلى البدائل.
+// إعادة تعيين مصادر الخط لا يزال يترك لنا مصدر الخط الخاص بالنظام بالإضافة إلى البدائل لدينا.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### أنظر أيضا

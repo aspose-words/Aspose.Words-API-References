@@ -3,16 +3,16 @@ title: Shading Class
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Shading فصل. يحتوي على سمات تظليل لكائن ما في C#.
+description: اكتشف فئة Aspose.Words.Shading، المصممة لتعزيز مستنداتك بسمات تظليل قابلة للتخصيص للحصول على مظهر احترافي.
 type: docs
-weight: 5990
+weight: 6820
 url: /ar/net/aspose.words/shading/
 ---
 ## Shading class
 
-يحتوي على سمات تظليل لكائن ما.
+يحتوي على سمات التظليل لكائن.
 
-لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[البرمجة باستخدام المستندات](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class Shading : InternableComplexAttr
@@ -22,26 +22,26 @@ public class Shading : InternableComplexAttr
 
 | اسم | وصف |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | الحصول على أو تعيين اللون المطبق على خلفية الصورة`Shading` الكائن. |
-| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | الحصول على أو تعيين لون سمة نمط الخلفية في نظام الألوان المطبق المرتبط بهذا`Shading` الكائن. |
-| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح أو تغميق لون سمة الخلفية. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | الحصول على أو تعيين اللون المطبق على مقدمة الصورة`Shading` الكائن. |
-| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | الحصول على أو تعيين لون سمة النمط الأمامي في نظام الألوان المطبق المرتبط بهذا`Shading` الكائن. |
-| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح أو تغميق لون المظهر الأمامي. |
-| [Texture](../../aspose.words/shading/texture/) { get; set; } | الحصول على نسيج التظليل أو تعيينه. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | يحصل على اللون الذي يتم تطبيقه على خلفية`Shading` الكائن. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | يحصل على لون سمة نمط الخلفية أو يعينه في مخطط الألوان المطبق المرتبط بهذا`Shading` الكائن. |
+| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | يحصل على قيمة مزدوجة أو يعينها لتفتيح أو تعتيم لون سمة الخلفية. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | يحصل على اللون الذي يتم تطبيقه على مقدمة الصورة أو يعينه`Shading` الكائن. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | يحصل على لون سمة نمط المقدمة أو يعينه في مخطط الألوان المطبق المرتبط بهذا`Shading` الكائن. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | يحصل على قيمة مزدوجة أو يعينها لتفتيح أو تعتيم لون السمة الأمامية. |
+| [Texture](../../aspose.words/shading/texture/) { get; set; } | يحصل على نسيج التظليل أو يعينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/shading/clearformatting/)() | إزالة التظليل من الكائن. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
-| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | تحديد ما إذا كان المحدد`Shading` يساوي القيمة الحالية`Shading` . |
-| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | بمثابة وظيفة تجزئة لهذا النوع. |
+| [ClearFormatting](../../aspose.words/shading/clearformatting/)() | يزيل التظليل من الكائن. |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | يحدد ما إذا كان الكائن المحدد يساوي في القيمة الكائن الحالي. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | يحدد ما إذا كان المحدد`Shading` يساوي القيمة الحالية`Shading` . |
+| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | يعمل كدالة تجزئة لهذا النوع. |
 
 ## أمثلة
 
-يوضح كيفية تزيين النص بالحدود والتظليل.
+يوضح كيفية تزيين النص باستخدام الحدود والتظليل.
 
 ```csharp
 Document doc = new Document();
@@ -63,17 +63,17 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء الجدول.
+يوضح كيفية تطبيق لون الحدود والتظليل أثناء إنشاء جدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// ابدأ الجدول وقم بتعيين اللون/السمك الافتراضي لحدوده.
+// ابدأ جدولًا وقم بتعيين لون/سمك افتراضي لحدوده.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// أنشئ صفًا يحتوي على خليتين بألوان خلفية مختلفة.
+// قم بإنشاء صف يحتوي على خليتين بألوان خلفية مختلفة.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -83,8 +83,8 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // إعادة تعيين تنسيق الخلية لتعطيل ألوان الخلفية
-// قم بتعيين سمك حدود مخصص لجميع الخلايا الجديدة التي أنشأها المنشئ،
-// ثم أنشئ صفًا ثانيًا.
+// تعيين سمك حدود مخصص لجميع الخلايا الجديدة التي ينشئها المنشئ،
+// ثم قم ببناء صف ثاني.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

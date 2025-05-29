@@ -3,9 +3,9 @@ title: BaselineAlignment Enum
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.BaselineAlignment تعداد. يحدد الموضع الرأسي للخطوط على السطر في C#.
+description: اكتشف خاصية Aspose.Words.BaselineAlignment لتحديد موضع الخط بدقة. حسّن تنسيق مستندك مع خيارات محاذاة رأسية مثالية.
 type: docs
-weight: 20
+weight: 130
 url: /ar/net/aspose.words/baselinealignment/
 ---
 ## BaselineAlignment enumeration
@@ -20,15 +20,15 @@ public enum BaselineAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Top | `0` | محاذاة أعلى كل خط. |
-| Center | `1` | محاذاة النقاط المركزية لكل خط. |
-| Baseline | `2` | محاذاة إلى الخط الأساسي للفقرة. |
-| Bottom | `3` | محاذاة إلى أسفل كل خط. |
-| Auto | `4` | يتم ضبط خط الأساس تلقائيًا. |
+| Top | `0` | محاذاة على طول الجزء العلوي من كل خط. |
+| Center | `1` | يقوم بمحاذاة النقاط المركزية لكل خط. |
+| Baseline | `2` | يتماشى مع خط الأساس للفقرة. |
+| Bottom | `3` | محاذاة أسفل كل خط. |
+| Auto | `4` | يتم تعديل خط الأساس تلقائيًا. |
 
 ## أمثلة
 
-يوضح كيفية ضبط الوضع الرأسي للخطوط على السطر.
+يوضح كيفية تعيين الموضع الرأسي للخطوط على خط ما.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");

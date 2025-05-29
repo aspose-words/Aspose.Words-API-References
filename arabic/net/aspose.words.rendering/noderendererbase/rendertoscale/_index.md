@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words لـ .NET
-description: NodeRendererBase RenderToScale طريقة. يحول الشكل إلى aGraphics كائن بمقياس محدد في C#.
+description: اكتشف طريقة NodeRendererBase RenderToScale—قم بتقديم الأشكال بكفاءة إلى كائنات رسومية بأي مقياس للحصول على إخراج مرئي محسّن.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-يحول الشكل إلى aGraphics كائن بمقياس محدد.
+يعرض الشكل فيGraphics الكائن إلى مقياس محدد.
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -19,9 +19,9 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | graphics | Graphics | الكائن الذي سيتم تقديمه إليه. |
-| x | Single | الإحداثي X (بالوحدات العالمية) للزاوية العلوية اليسرى من الشكل المعروض. |
-| y | Single | الإحداثي Y (بالوحدات العالمية) للزاوية العلوية اليسرى من الشكل المعروض. |
-| scale | Single | مقياس تقديم الشكل (1.0 هو 100%). |
+| x | Single | إحداثيات X (بالوحدات العالمية) للزاوية العلوية اليسرى للشكل المرسوم. |
+| y | Single | إحداثيات Y (بالوحدات العالمية) للزاوية العلوية اليسرى للشكل المرسوم. |
+| scale | Single | المقياس لتقديم الشكل (1.0 هو 100%). |
 
 ### قيمة الإرجاع
 
@@ -29,7 +29,7 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 ## أمثلة
 
-يوضح كيفية تقديم شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
+يوضح كيفية عرض شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -39,8 +39,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لتقديم شكل إلى كائن رسومي.
-    // 1 - قم بإنشاء شكل باستخدام مخطط، ثم قم بعرضه على مقياس محدد.
+    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لعرض شكل إلى كائن رسومي.
+    // 1 - إنشاء شكل باستخدام مخطط، ثم تقديمه بمقياس محدد.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -51,7 +51,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - إنشاء مجموعة أشكال، وعرضها بحجم محدد.
+    // 2 - إنشاء مجموعة أشكال، ثم تقديمها إلى حجم معين.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -81,7 +81,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// يعرض ويعرض قائمة من الأشكال.
+/// يقوم بمعالجة وعرض قائمة من الأشكال.
 /// </summary>
 private class ShapeForm : Form
 {

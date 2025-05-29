@@ -3,14 +3,14 @@ title: ParagraphFormat.SpaceAfter
 linktitle: SpaceAfter
 articleTitle: SpaceAfter
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat SpaceAfter ملكية. الحصول على أو تعيين مقدار التباعد بالنقاط بعد الفقرة في C#.
+description: تحكم في تباعد الفقرات باستخدام خاصية "المسافة بعد". اضبط التباعد بسهولة بالنقاط لتحسين سهولة قراءة مستندك وعرضه.
 type: docs
-weight: 300
+weight: 310
 url: /ar/net/aspose.words/paragraphformat/spaceafter/
 ---
 ## ParagraphFormat.SpaceAfter property
 
-الحصول على أو تعيين مقدار التباعد (بالنقاط) بعد الفقرة.
+يحصل على مقدار المسافة (بالنقاط) بعد الفقرة أو يعينه.
 
 ```csharp
 public double SpaceAfter { get; set; }
@@ -20,53 +20,53 @@ public double SpaceAfter { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentOutOfRangeException | يتم طرحه عندما تكون الوسيطة خارج نطاق القيم الصالحة. |
+| ArgumentOutOfRangeException | يتم طرحه عندما تكون الحجة خارج نطاق القيم الصالحة. |
 
 ## ملاحظات
 
-ليس له أي تأثير عندما[`SpaceAfterAuto`](../spaceafterauto/) يكون`حقيقي`.
+ليس له تأثير عندما[`SpaceAfterAuto`](../spaceafterauto/) يكون`حقيقي`.
 
-تتراوح القيم الصالحة من 0 إلى 1584 ضمناً.
+تتراوح القيم الصالحة من 0 إلى 1584 شاملة.
 
 ## أمثلة
 
-يوضح كيفية ضبط التباعد التلقائي للفقرات.
+يوضح كيفية تعيين المسافة التلقائية بين الفقرات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتطبيق قدر كبير من التباعد قبل وبعد الفقرات التي سينشئها هذا المنشئ.
+// قم بتطبيق قدر كبير من التباعد قبل وبعد الفقرات التي سيقوم هذا المنشئ بإنشائها.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
 // اضبط هذه العلامات على "صحيح" لتطبيق التباعد التلقائي،
-// تجاهل التباعد في الخصائص التي حددناها أعلاه بشكل فعال.
-// اتركها كـ "خطأ" سيؤدي إلى تطبيق تباعد الفقرات المخصص لدينا.
+// تجاهل فعليًا التباعد في الخصائص التي حددناها أعلاه.
+// تركها على "خطأ" سيؤدي إلى تطبيق المسافة المخصصة للفقرات.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// أدخل فقرتين بمسافة أعلى وأسفلهما واحفظ المستند.
+// قم بإدراج فقرتين بحيث يكون هناك مسافة بينهما أعلى وأسفل ثم احفظ المستند.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 
 doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-يوضح كيفية تطبيق عدم وجود مسافات بين الفقرات بنفس النمط.
+يوضح كيفية عدم تطبيق المسافة بين الفقرات بنفس النمط.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتطبيق قدر كبير من التباعد قبل وبعد الفقرات التي سينشئها هذا المنشئ.
+// قم بتطبيق قدر كبير من التباعد قبل وبعد الفقرات التي سيقوم هذا المنشئ بإنشائها.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// قم بتعيين علامة "NoSpaceBetweenParagraphsOfSameStyle" على "صحيح" للتطبيق
-// لا توجد مسافات بين الفقرات ذات النمط نفسه، مما يؤدي إلى تجميع الفقرات المتشابهة.
-// اترك علامة "NoSpaceBetweenParagraphsOfSameStyle" على أنها "خطأ"
-// لتطبيق المسافات بالتساوي على كل فقرة.
+// اضبط علامة "NoSpaceBetweenParagraphsOfSameStyle" على "true" لتطبيقها
+// لا توجد مسافة بين الفقرات التي لها نفس النمط، مما سيؤدي إلى تجميع الفقرات المتشابهة.
+// اترك علامة "NoSpaceBetweenParagraphsOfSameStyle" على "false"
+// لتطبيق التباعد بالتساوي على كل فقرة.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

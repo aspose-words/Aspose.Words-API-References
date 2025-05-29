@@ -3,14 +3,14 @@ title: FieldSet.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words لـ .NET
-description: FieldSet BookmarkName ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه في C#.
+description: اكتشف خاصية FieldSet BookmarkName لإدارة وتخصيص إشاراتك المرجعية بسهولة. حسّن تجربة استخدام تطبيقك بهذه الميزة الأساسية!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldset/bookmarkname/
 ---
 ## FieldSet.BookmarkName property
 
-الحصول على اسم الإشارة المرجعية أو تعيينه.
+يحصل على اسم الإشارة المرجعية أو يعينه.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -18,14 +18,14 @@ public string BookmarkName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء نص ذو إشارة مرجعية باستخدام حقل SET، ثم عرضه في المستند باستخدام حقل REF.
+يوضح كيفية إنشاء نص مرجعي باستخدام حقل SET، ثم عرضه في المستند باستخدام حقل REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // قم بتسمية النص الذي تم وضع إشارة مرجعية عليه بحقل SET.
-// يشير هذا الحقل إلى "الإشارة المرجعية" وليس إلى بنية الإشارة المرجعية التي تظهر داخل النص، ولكنه يشير إلى متغير مسمى.
+ // قم بتسمية النص المضاف إليه إشارة مرجعية باستخدام حقل SET.
+// يشير هذا الحقل إلى "الإشارة المرجعية" وليس إلى بنية الإشارة المرجعية التي تظهر داخل النص، بل إلى متغير مسمى.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -33,7 +33,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// ارجع إلى الإشارة المرجعية بالاسم في حقل REF واعرض محتوياتها.
+// قم بالإشارة إلى الإشارة المرجعية بالاسم في حقل REF وعرض محتوياتها.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();

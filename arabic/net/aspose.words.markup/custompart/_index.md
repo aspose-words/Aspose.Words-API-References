@@ -3,16 +3,16 @@ title: CustomPart Class
 linktitle: CustomPart
 articleTitle: CustomPart
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Markup.CustomPart فصل. يمثل جزءًا مخصصًا محتوى عشوائيًا لم يتم تعريفه بواسطة معيار ISO/IEC 29500 في C#.
+description: اكتشف فئة Aspose.Words.Markup.CustomPart لإدارة محتوى مرنة. أنشئ أجزاءً فريدةً وغير قياسية تتجاوز ISO/IEC 29500 بسهولة!
 type: docs
-weight: 3900
+weight: 4590
 url: /ar/net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
 
-يمثل جزءًا مخصصًا (محتوى عشوائيًا)، لم يتم تعريفه بواسطة معيار ISO/IEC 29500.
+يمثل جزءًا مخصصًا (محتوى عشوائي)، غير محدد بواسطة معيار ISO/IEC 29500.
 
-لمعرفة المزيد، قم بزيارة[علامات المستندات المنظمة أو التحكم في المحتوى](https://docs.aspose.com/words/net/working-with-content-control-sdt/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[علامات المستند المنظم أو التحكم في المحتوى](https://docs.aspose.com/words/net/working-with-content-control-sdt/) مقالة توثيقية.
 
 ```csharp
 public class CustomPart
@@ -28,43 +28,43 @@ public class CustomPart
 
 | اسم | وصف |
 | --- | --- |
-| [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | يحدد نوع محتوى هذا الجزء المخصص. |
+| [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | يحدد نوع المحتوى لهذا الجزء المخصص. |
 | [Data](../../aspose.words.markup/custompart/data/) { get; set; } | يحتوي على بيانات هذا الجزء المخصص. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | خطأ إذا تم تخزين هذا الجزء المخصص داخل حزمة OOXML. صحيح إذا كان هذا الجزء المخصص هدفًا خارجيًا. |
-| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | الحصول على الاسم المطلق لهذا الجزء أو تعيينه ضمن حزمة OOXML أو عنوان URL المستهدف. |
-| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | الحصول على أو تعيين نوع العلاقة من الجزء الأصلي إلى هذا الجزء المخصص. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | خطأ إذا كان هذا الجزء المخصص مُخزَّنًا داخل حزمة OOXML. صحيح إذا كان هذا الجزء المخصص هدفًا خارجيًا. |
+| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | يحصل على الاسم المطلق لهذا الجزء أو يعينه داخل حزمة OOXML أو عنوان URL المستهدف. |
+| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | يحصل على نوع العلاقة من الجزء الرئيسي إلى هذا الجزء المخصص أو يعينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clone](../../aspose.words.markup/custompart/clone/)() | يقوم بإنشاء نسخة "عميقة بما فيه الكفاية" من الكائن. لا يكرر بايتات ملف[`Data`](./data/) القيمة. |
+| [Clone](../../aspose.words.markup/custompart/clone/)() | يقوم بعمل نسخة "عميقة بدرجة كافية" من الكائن. لا يقوم بتكرار بايتات الكائن[`Data`](./data/) القيمة. |
 
 ## ملاحظات
 
-تمثل هذه الفئة جزء OOXML الذي يعد هدفًا لـ "علاقة غير معروفة". تعتبر جميع العلاقات غير المحددة ضمن ISO/IEC 29500 "علاقات غير معروفة". يُسمح بالعلاقات غير المعروفة ضمن مستند Office Open XML بشرط أن تكون متوافقة لإرشادات ترميز العلاقة.
+تمثل هذه الفئة جزء OOXML الذي يعد هدفًا لـ "علاقة غير معروفة". تعتبر جميع العلاقات غير المحددة ضمن ISO/IEC 29500 "علاقات غير معروفة". يُسمح بالعلاقات غير المعروفة داخل مستند Office Open XML بشرط أن تكون متوافقة مع إرشادات ترميز العلاقة.
 
-يحتفظ Microsoft Word بالأجزاء المخصصة أثناء دورات الفتح/الحفظ. يمكن العثور على بعض المعلومات الإضافية هنا http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
+يحتفظ مايكروسوفت وورد بالأجزاء المخصصة أثناء دورات الفتح/الحفظ. يمكنك العثور على معلومات إضافية هنا: http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-يقوم Aspose.Words أيضًا برحلة ذهابًا وإيابًا إلى الأجزاء المخصصة، وبالإضافة إلى ذلك، يسمح بالوصول برمجيًا إلى مثل هذه الأجزاء عبر`CustomPart` و[`CustomPartCollection`](../custompartcollection/) أشياء.
+يقوم Aspose.Words أيضًا بإدارة الأجزاء المخصصة، بالإضافة إلى السماح بالوصول برمجيًا إلى مثل هذه الأجزاء عبر`CustomPart` و[`CustomPartCollection`](../custompartcollection/) أشياء.
 
-لا تخلط بين الأجزاء المخصصة وبيانات XML المخصصة. يستخدم[`CustomXmlPart`](../customxmlpart/) إذا كنت بحاجة إلى للوصول إلى بيانات XML المخصصة.
+لا تخلط بين الأجزاء المخصصة وبيانات XML المخصصة. استخدم[`CustomXmlPart`](../customxmlpart/) إذا كنت بحاجة إلى للوصول إلى بيانات XML المخصصة.
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
+//استنساخ الجزء الثاني، ثم إضافة الاستنساخ إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// قم بتعداد المجموعة وطباعة كل جزء منها.
+// قم بإحصاء المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -81,7 +81,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
+//يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

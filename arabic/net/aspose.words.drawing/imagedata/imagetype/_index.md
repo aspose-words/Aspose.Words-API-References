@@ -3,14 +3,14 @@ title: ImageData.ImageType
 linktitle: ImageType
 articleTitle: ImageType
 second_title: Aspose.Words لـ .NET
-description: ImageData ImageType ملكية. الحصول على نوع الصورة في C#.
+description: اكتشف خاصية ImageData ImageType لتحديد أنواع الصور بسهولة وتحسين قدراتك على التعامل معها. حسّن كفاءة تطويرك اليوم!
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/imagedata/imagetype/
 ---
 ## ImageData.ImageType property
 
-الحصول على نوع الصورة.
+يحصل على نوع الصورة.
 
 ```csharp
 public ImageType ImageType { get; }
@@ -23,8 +23,8 @@ public ImageType ImageType { get; }
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// احصل على مجموعة الأشكال من المستند،
-// وحفظ بيانات الصورة لكل شكل مع صورة كملف في نظام الملفات المحلي.
+// الحصول على مجموعة الأشكال من المستند،
+// وحفظ بيانات الصورة لكل شكل مع الصورة كملف في نظام الملفات المحلي.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -34,8 +34,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // قد تحتوي بيانات صورة الأشكال على صور للعديد من تنسيقات الصور الممكنة.
-        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، بناءً على تنسيقها.
+         // قد تحتوي بيانات الصورة الخاصة بالأشكال على صور بتنسيقات صور متعددة محتملة.
+        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، استنادًا إلى تنسيقها.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

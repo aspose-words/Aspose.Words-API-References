@@ -3,7 +3,7 @@ title: OoxmlSaveOptions.CompressionLevel
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
 second_title: Aspose.Words لـ .NET
-description: OoxmlSaveOptions CompressionLevel ملكية. يحدد مستوى الضغط المستخدم لحفظ المستند. القيمة الافتراضية هيNormal  في C#.
+description: اكتشف خاصية OoxmlSaveOptions CompressionLevel لتحسين حفظ المستندات باستخدام مستويات ضغط قابلة للتخصيص لتحسين الأداء.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
@@ -18,18 +18,18 @@ public CompressionLevel CompressionLevel { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديد مستوى الضغط المطلوب استخدامه أثناء حفظ مستند OOXML.
+يوضح كيفية تحديد مستوى الضغط الذي يجب استخدامه أثناء حفظ مستند OOXML.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
 
 // عندما نحفظ المستند بتنسيق OOXML، يمكننا إنشاء كائن OoxmlSaveOptions
-// ثم قم بتمريره إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
-// اضبط خاصية "CompressionLevel" على "CompressionLevel.Maximum" لتطبيق الضغط الأقوى والأبطأ.
-// قم بتعيين خاصية "CompressionLevel" على "CompressionLevel.Normal" ليتم تطبيقها
+// ثم قم بتمريرها إلى طريقة حفظ المستند لتعديل كيفية حفظ المستند.
+// قم بضبط خاصية "CompressionLevel" على "CompressionLevel.Maximum" لتطبيق أقوى وأبطأ ضغط.
+// اضبط خاصية "CompressionLevel" على "CompressionLevel.Normal" لتطبيقها
 // الضغط الافتراضي الذي يستخدمه Aspose.Words أثناء حفظ مستندات OOXML.
-// اضبط خاصية "CompressionLevel" على "CompressionLevel.Fast" لتطبيق ضغط أسرع وأضعف.
-// قم بتعيين خاصية "CompressionLevel" على "CompressionLevel.SuperFast" لتطبيقها
+// قم بضبط خاصية "CompressionLevel" إلى "CompressionLevel.Fast" لتطبيق ضغط أسرع وأضعف.
+// اضبط خاصية "CompressionLevel" على "CompressionLevel.SuperFast" لتطبيقها
 // الضغط الافتراضي الذي يستخدمه Microsoft Word.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;

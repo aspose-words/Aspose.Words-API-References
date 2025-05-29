@@ -3,14 +3,14 @@ title: DocumentProperty.ToDateTime
 linktitle: ToDateTime
 articleTitle: ToDateTime
 second_title: Aspose.Words لـ .NET
-description: DocumentProperty ToDateTime طريقة. إرجاع قيمة الخاصية كـالتاريخ والوقت بالتوقيت العالمي المنسق في C#.
+description: حوّل DocumentProperty إلى تاريخ ووقت UTC بسهولة. احصل على تواريخ زمنية دقيقة وحسّن إدارة بياناتك بأسلوبنا الموثوق.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-إرجاع قيمة الخاصية كـ**التاريخ والوقت** بالتوقيت العالمي المنسق.
+يعيد قيمة الخاصية كـ**التاريخ والوقت** بالتوقيت العالمي المنسق.
 
 ```csharp
 public DateTime ToDateTime()
@@ -18,20 +18,20 @@ public DateTime ToDateTime()
 
 ## ملاحظات
 
-يطرح استثناءً إذا لم يكن نوع الخاصية كذلكDateTime.
+يُلقي استثناءً إذا لم يكن نوع الخاصيةDateTime.
 
 يقوم Microsoft Word بتخزين جزء التاريخ فقط (بدون وقت) لخصائص التاريخ المخصصة.
 
 ## أمثلة
 
-يوضح كيفية إنشاء خاصية مستند مخصصة تحتوي على التاريخ والوقت.
+يوضح كيفية إنشاء خاصية مستند مخصصة تحتوي على تاريخ ووقت.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 يعرض طرق تحويل النوع المختلفة لخصائص المستند المخصصة.

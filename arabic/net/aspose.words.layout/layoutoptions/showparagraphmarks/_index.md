@@ -3,14 +3,14 @@ title: LayoutOptions.ShowParagraphMarks
 linktitle: ShowParagraphMarks
 articleTitle: ShowParagraphMarks
 second_title: Aspose.Words لـ .NET
-description: LayoutOptions ShowParagraphMarks ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض علامات الفقرة أم لا. الإعداد الافتراضي هوخطأ شنيع  في C#.
+description: اكتشف كيف تُحسّن خاصية LayoutOptions ShowParagraphMarks تنسيق النص بتبديل ظهور علامات الفقرات. حسّن وضوح مستندك اليوم!
 type: docs
 weight: 90
 url: /ar/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض علامات الفقرة أم لا. الإعداد الافتراضي هو`خطأ شنيع` .
+يحصل على أو يعين مؤشرًا لما إذا كانت علامات الفقرة يتم عرضها أم لا. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -18,7 +18,7 @@ public bool ShowParagraphMarks { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إظهار علامات الفقرة في مستند الإخراج المعروض.
+يوضح كيفية إظهار علامات الفقرات في مستند الإخراج المقدم.
 
 ```csharp
 Document doc = new Document();

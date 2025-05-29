@@ -3,14 +3,14 @@ title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
 articleTitle: HeaderDistance
 second_title: Aspose.Words لـ .NET
-description: PageSetup HeaderDistance ملكية. إرجاع أو تعيين المسافة بالنقاط بين الرأس وأعلى الصفحة في C#.
+description: قم بضبط خاصية PageSetup HeaderDistance لتخصيص مسافة الرأس بالنقاط، مما يعمل على تحسين تخطيط المستند الخاص بك لتحسين قابلية القراءة والعرض.
 type: docs
 weight: 170
 url: /ar/net/aspose.words/pagesetup/headerdistance/
 ---
 ## PageSetup.HeaderDistance property
 
-إرجاع أو تعيين المسافة (بالنقاط) بين الرأس وأعلى الصفحة.
+يعيد أو يضبط المسافة (بالنقاط) بين الرأس وأعلى الصفحة.
 
 ```csharp
 public double HeaderDistance { get; set; }
@@ -18,7 +18,7 @@ public double HeaderDistance { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق والاتجاه والهوامش، إلى جانب الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();

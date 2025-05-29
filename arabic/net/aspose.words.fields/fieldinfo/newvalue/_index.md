@@ -3,14 +3,14 @@ title: FieldInfo.NewValue
 linktitle: NewValue
 articleTitle: NewValue
 second_title: Aspose.Words لـ .NET
-description: FieldInfo NewValue ملكية. الحصول على قيمة اختيارية أو تعيينها لتحديث الخاصية في C#.
+description: اكتشف خاصية FieldInfo NewValue، وقم بإدارة القيم الاختيارية بسهولة لتحسين تحديثات البيانات وتبسيط تجربة الترميز الخاصة بك.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldinfo/newvalue/
 ---
 ## FieldInfo.NewValue property
 
-الحصول على قيمة اختيارية أو تعيينها لتحديث الخاصية.
+يحصل على قيمة اختيارية لتحديث الخاصية أو يعينها.
 
 ```csharp
 public string NewValue { get; set; }
@@ -18,13 +18,13 @@ public string NewValue { get; set; }
 
 ## أمثلة
 
-يوضح كيفية العمل مع حقول INFO.
+يوضح كيفية العمل مع حقول المعلومات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعيين قيمة للخاصية المضمنة "التعليقات"، ثم قم بإدراج حقل INFO لعرض قيمة تلك الخاصية.
+// قم بتعيين قيمة لخاصية "التعليقات" المضمنة ثم أدخل حقل INFO لعرض قيمة تلك الخاصية.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -36,7 +36,7 @@ Assert.AreEqual("My comment", field.Result);
 builder.Writeln();
 
 // تعيين قيمة لخاصية NewValue للحقل وتحديثها
-// سيقوم الحقل أيضًا باستبدال الخاصية المضمنة المقابلة بالقيمة الجديدة.
+// سوف يقوم الحقل أيضًا باستبدال الخاصية المضمنة المقابلة بالقيمة الجديدة.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.NewValue = "New comment";

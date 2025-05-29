@@ -3,14 +3,14 @@ title: ImageData.ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words لـ .NET
-description: ImageData ImageSize ملكية. الحصول على معلومات حول حجم الصورة ودقتها في C#.
+description: اكتشف خاصية ImageData ImageSize للوصول بسهولة إلى التفاصيل الأساسية حول أبعاد الصورة ودقتها لتحسين جودة الصورة.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.drawing/imagedata/imagesize/
 ---
 ## ImageData.ImageSize property
 
-الحصول على معلومات حول حجم الصورة ودقتها.
+يحصل على معلومات حول حجم الصورة ودقتها.
 
 ```csharp
 public ImageSize ImageSize { get; }
@@ -18,60 +18,48 @@ public ImageSize ImageSize { get; }
 
 ## ملاحظات
 
-إذا كانت الصورة مرتبطة فقط ولم يتم تخزينها في المستند، فسيتم إرجاع الحجم صفر.
+إذا تم ربط الصورة فقط ولم يتم تخزينها في المستند، فسيتم إرجاع الحجم إلى صفر.
 
 ## أمثلة
 
 يوضح كيفية تغيير حجم الشكل باستخدام الصورة.
 
 ```csharp
-#if NET48 || JAVA
-            Image image = Image.FromFile(ImageDir + "Logo.jpg");
+// عندما نقوم بإدراج صورة باستخدام طريقة "InsertImage"، يقوم المنشئ بقياس الشكل الذي يعرض الصورة بحيث،
+// عندما نقوم بعرض المستند باستخدام تكبير 100% في Microsoft Word، يعرض الشكل الصورة بحجمها الفعلي.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            Assert.AreEqual(400, image.Size.Width);
-            Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0_OR_GREATER
-            SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg");
+// ستؤدي الصورة ذات الحجم 400x400 إلى إنشاء كائن ImageData بحجم صورة 300x300pt.
+ImageSize imageSize = shape.ImageData.ImageSize;
 
-            Assert.AreEqual(400, image.Width);
-            Assert.AreEqual(400, image.Height);
-#endif
+Assert.AreEqual(300.0d, imageSize.WidthPoints);
+Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // عندما نقوم بإدراج صورة باستخدام طريقة "InsertImage"، يقوم المنشئ بقياس الشكل الذي يعرض الصورة بحيث،
-            // عندما نعرض المستند باستخدام تكبير/تصغير بنسبة 100% في برنامج Microsoft Word، يعرض الشكل الصورة بحجمها الفعلي.
-            Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
-            Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+// إذا كانت أبعاد الشكل تتطابق مع أبعاد بيانات الصورة،
+// ثم يقوم الشكل بعرض الصورة بحجمها الأصلي.
+Assert.AreEqual(300.0d, shape.Width);
+Assert.AreEqual(300.0d, shape.Height);
 
-            // ستؤدي الصورة مقاس 400 × 400 إلى إنشاء كائن ImageData بحجم صورة يبلغ 300 × 300 نقطة.
-            ImageSize imageSize = shape.ImageData.ImageSize;
+ //تقليل الحجم الإجمالي للشكل بنسبة 50%.
+shape.Width *= 0.5;
 
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
+ // يتم تطبيق عوامل القياس على كل من العرض والارتفاع في نفس الوقت للحفاظ على نسب الشكل.
+Assert.AreEqual(150.0d, shape.Width);
+Assert.AreEqual(150.0d, shape.Height);
 
-            // إذا كانت أبعاد الشكل تطابق أبعاد بيانات الصورة،
-            // فإن الشكل يعرض الصورة بحجمها الأصلي.
-            Assert.AreEqual(300.0d, shape.Width);
-            Assert.AreEqual(300.0d, shape.Height);
+// عندما نقوم بتغيير حجم الشكل، يظل حجم بيانات الصورة كما هو.
+Assert.AreEqual(300.0d, imageSize.WidthPoints);
+Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-             // تقليل الحجم الكلي للشكل بنسبة 50%.
-            shape.Width *= 0.5;
+// يمكننا الرجوع إلى أبعاد بيانات الصورة لتطبيق مقياس بناءً على حجم الصورة.
+shape.Width = imageSize.WidthPoints * 1.1;
 
-             // تنطبق عوامل القياس على كل من العرض والارتفاع في نفس الوقت للحفاظ على تناسب الشكل.
-            Assert.AreEqual(150.0d, shape.Width);
-            Assert.AreEqual(150.0d, shape.Height);
+Assert.AreEqual(330.0d, shape.Width);
+Assert.AreEqual(330.0d, shape.Height);
 
-            // عندما نقوم بتغيير حجم الشكل، يظل حجم بيانات الصورة كما هو.
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
-
-            // يمكننا الرجوع إلى أبعاد بيانات الصورة لتطبيق القياس بناءً على حجم الصورة.
-            shape.Width = imageSize.WidthPoints * 1.1;
-
-            Assert.AreEqual(330.0d, shape.Width);
-            Assert.AreEqual(330.0d, shape.Height);
-
-            doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
+doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
 ```
 
 ### أنظر أيضا

@@ -3,14 +3,14 @@ title: GlossaryDocument.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: GlossaryDocument Accept طريقة. يقبل الزائر في C#.
+description: اكتشف طريقة قبول GlossaryDocument التي تُحسّن تجربة المستخدم من خلال إدارة تفاعلات الزوار بكفاءة. تعرّف على المزيد الآن!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.buildingblocks/glossarydocument/accept/
 ---
 ## GlossaryDocument.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,25 +18,25 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقد. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقد. |
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
+صحيح إذا تمت زيارة جميع العقد؛ خطأ إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) تم إيقاف العملية قبل زيارة كافة العقد.
 
 ## ملاحظات
 
-يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+يُحصي هذه العقدة وجميع أبنائها. تستدعي كل عقدة طريقة مقابلة على[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
-المكالمات[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع العقد التابعة لهذه العقدة ثم يستدعي[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) في النهاية.
+المكالمات[`VisitGlossaryDocumentStart`](../../../aspose.words/documentvisitor/visitglossarydocumentstart/) ، ثم يدعو[`Accept`](../../../aspose.words/node/accept/) لجميع العقد الفرعية لهذه العقدة ثم قم بالاتصال[`VisitGlossaryDocumentEnd`](../../../aspose.words/documentvisitor/visitglossarydocumentend/) في النهاية.
 
-ملاحظة: لا تتم زيارة عقدة مستند المسرد وأبناءها عند تنفيذ a Visitor عبر a[`Document`](../../../aspose.words/document/) . إذا كنت تريد تنفيذ زائر عبر مستند مسرد a ، فستحتاج إلى الاتصال`Accept` .
+ملاحظة: لا تتم زيارة عقدة مستند المصطلحات وأبنائها عندما تقوم بتنفيذ a زائر على[`Document`](../../../aspose.words/document/) . إذا كنت تريد تنفيذ زائر عبر مستند a ، فأنت بحاجة إلى الاتصال بـ`Accept` .
 
 ## أمثلة
 
-يعرض طرق الوصول إلى الكتل البرمجية الإنشائية في مستند المسرد.
+يوضح طرق الوصول إلى كتل البناء في مستند المصطلحات.
 
 ```csharp
 public void GlossaryDocument()
@@ -44,18 +44,23 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // هناك طرق مختلفة للوصول إلى الكتل البرمجية الإنشائية.
-    // 1 - احصل على اللبنات الأولى/الأخيرة في المجموعة:
+    // هناك طرق مختلفة للوصول إلى كتل البناء.
+    // 1 - احصل على أول/آخر كتلة بناء في المجموعة:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
@@ -63,23 +68,28 @@ public void GlossaryDocument()
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - احصل على أول كتلة بناء تطابق المعرض والاسم والفئة:
+    // 3 - احصل على أول كتلة بناء تتطابق مع المعرض والاسم والفئة:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // سنفعل ذلك باستخدام زائر مخصص،
-    // والذي سيمنح كل BuildingBlock في GlossaryDocument معرفًا فريدًا (GUID).
+    // سوف نفعل ذلك باستخدام زائر مخصص،
+    // مما سيعطي لكل BuildingBlock في GlossaryDocument معرف GUID فريدًا
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // قم بزيارة بداية/نهاية مستند المصطلحات.
     glossaryDoc.Accept(visitor);
+    // قم بزيارة بداية مستند المصطلحات فقط.
+    glossaryDoc.AcceptStart(visitor);
+    // قم بزيارة نهاية مستند المصطلحات فقط.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // في Microsoft Word، يمكننا الوصول إلى الكتل البرمجية الإنشائية عبر "إدراج" -> "الأجزاء السريعة" -> “منظم لبنات البناء”.
+    // في Microsoft Word، يمكننا الوصول إلى كتل البناء عبر "إدراج" -> "الأجزاء السريعة" -> "منظم كتل البناء".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// يمنح كل كتلة إنشاء في مستند المسرد الذي تمت زيارته معرفًا فريدًا (GUID).
-/// يخزن أزواج كتل بناء GUID في القاموس.
+/// يمنح كل كتلة بناء في مستند المصطلحات الذي تمت زيارتها معرف GUID فريدًا.
+/// يخزن أزواج كتلة بناء GUID في القاموس.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

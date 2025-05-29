@@ -3,14 +3,14 @@ title: FieldNoteRef.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words لـ .NET
-description: FieldNoteRef BookmarkName ملكية. الحصول على اسم الإشارة المرجعية أو تعيينه في C#.
+description: اكتشف خاصية FieldNoteRef BookmarkName لإدارة إشاراتك المرجعية وتخصيصها بسهولة لتحسين التنظيم والكفاءة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldnoteref/bookmarkname/
 ---
 ## FieldNoteRef.BookmarkName property
 
-الحصول على اسم الإشارة المرجعية أو تعيينه.
+يحصل على اسم الإشارة المرجعية أو يعينه.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -18,7 +18,7 @@ public string BookmarkName { get; set; }
 
 ## أمثلة
 
-يظهر لإدراج حقول NOTREF، وتعديل مظهرها.
+يوضح كيفية إدراج حقول NOTEREF وتعديل مظهرها.
 
 ```csharp
 public void FieldNoteRef()
@@ -26,21 +26,21 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // قم بإنشاء إشارة مرجعية مع حاشية سفلية سيشير إليها حقل NOTREF.
+    // قم بإنشاء إشارة مرجعية تحتوي على حاشية سفلية سيشير إليها حقل NOTREF.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // سيعرض حقل NOTREF هذا رقم الحاشية السفلية داخل الإشارة المرجعية المشار إليها.
-    // يتيح لنا تعيين خاصية InsertHyperlink الانتقال إلى الإشارة المرجعية عن طريق الضغط على Ctrl + النقر فوق الحقل في Microsoft Word.
+    // سيعرض حقل NOTEREF هذا رقم الحاشية السفلية داخل الإشارة المرجعية.
+    // يتيح لنا تعيين خاصية InsertHyperlink الانتقال إلى الإشارة المرجعية عن طريق الضغط على Ctrl والنقر فوق الحقل في Microsoft Word.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // عند استخدام العلامة \p، بعد رقم الحاشية السفلية، يعرض الحقل أيضًا موضع الإشارة المرجعية بالنسبة للحقل.
-    // الإشارة المرجعية 1 أعلى هذا الحقل وتحتوي على الحاشية السفلية رقم 1، لذا ستكون النتيجة "1 أعلاه" عند التحديث.
+    // عند استخدام علامة \p، بعد رقم الحاشية السفلية، يعرض الحقل أيضًا موضع الإشارة المرجعية بالنسبة للحقل.
+    // Bookmark1 يقع أعلى هذا الحقل ويحتوي على رقم الحاشية السفلية 1، لذا ستكون النتيجة "1 أعلى" عند التحديث.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // الإشارة المرجعية 2 موجودة أسفل هذا الحقل وتحتوي على الحاشية السفلية رقم 2، لذا سيعرض الحقل "2 أدناه".
-    // العلامة \f تجعل الرقم 2 يظهر بنفس تنسيق تسمية رقم الحاشية السفلية في النص الفعلي.
+    // Bookmark2 يقع أسفل هذا الحقل ويحتوي على رقم الحاشية السفلية 2، لذا سيعرض الحقل "2 أدناه".
+    // يجعل العلم \f الرقم 2 يظهر بنفس تنسيق تسمية رقم الحاشية السفلية في النص الفعلي.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 
@@ -53,7 +53,7 @@ public void FieldNoteRef()
 }
 
 /// <summary>
-/// يستخدم منشئ المستندات لإدراج حقل NOTREF بخصائص محددة.
+/// يستخدم منشئ المستندات لإدراج حقل NOTEREF بالخصائص المحددة.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {
@@ -70,7 +70,7 @@ private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// يستخدم أداة إنشاء المستندات لإدراج إشارة مرجعية مسماة مع حاشية سفلية في النهاية.
+/// يستخدم منشئ المستندات لإدراج إشارة مرجعية مسماة مع حاشية سفلية في النهاية.
 /// </summary>
 private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string bookmarkName, string bookmarkText, string footnoteText)
 {

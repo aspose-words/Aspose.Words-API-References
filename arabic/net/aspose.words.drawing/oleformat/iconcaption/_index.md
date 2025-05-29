@@ -3,16 +3,16 @@ title: OleFormat.IconCaption
 linktitle: IconCaption
 articleTitle: IconCaption
 second_title: Aspose.Words لـ .NET
-description: OleFormat IconCaption ملكية. الحصول على تسمية توضيحية لكائن OLE في C#.
+description: اكتشف خاصية OleFormat IconCaption لاسترداد تسميات أيقونة كائنات OLE وتخصيصها بسهولة لتحسين عرض المستندات.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/oleformat/iconcaption/
 ---
 ## OleFormat.IconCaption property
 
-الحصول على تسمية توضيحية لكائن OLE.
+يحصل على تسمية توضيحية لأيقونة كائن OLE.
 
-في حالة عدم تضمين كائن OLE كرمز أو تسمية توضيحية لا يمكن استردادها، يتم إرجاع سلسلة فارغة.
+في حالة عدم وجود رمز لكائن OLE أو تعذر استرداد التسمية التوضيحية، يتم إرجاع سلسلة empty .
 
 ```csharp
 public string IconCaption { get; }
@@ -26,13 +26,13 @@ public string IconCaption { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتضمين رسم Microsoft Visio في المستند ككائن OLE.
+// تضمين رسم Microsoft Visio في المستند ككائن OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// أدخل رابطًا للملف في نظام الملفات المحلي واعرضه كرمز.
+// أدخل رابطًا للملف في نظام الملفات المحلي واعرضه كأيقونة.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// يؤدي إدراج كائنات OLE إلى إنشاء أشكال تخزن هذه الكائنات.
+// يؤدي إدراج كائنات OLE إلى إنشاء أشكال لتخزين هذه الكائنات.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
@@ -57,7 +57,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// إذا كان الكائن يحتوي على بيانات OLE، فيمكننا الوصول إليه باستخدام الدفق.
+// إذا كان الكائن يحتوي على بيانات OLE، فيمكننا الوصول إليها باستخدام دفق.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

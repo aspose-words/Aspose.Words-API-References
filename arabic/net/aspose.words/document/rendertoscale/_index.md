@@ -3,14 +3,14 @@ title: Document.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words لـ .NET
-description: Document RenderToScale طريقة. يعرض صفحة المستند إلى ملفGraphics كائن بمقياس محدد في C#.
+description: اكتشف طريقة RenderToScale لتقديم صفحات المستندات بكفاءة إلى كائنات رسومية بالمقياس المطلوب للحصول على نتائج مرئية مثالية.
 type: docs
-weight: 680
+weight: 730
 url: /ar/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
 
-يعرض صفحة المستند إلى ملفGraphics كائن بمقياس محدد.
+يعرض صفحة مستند فيGraphics الكائن إلى مقياس محدد.
 
 ```csharp
 public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, float scale)
@@ -18,31 +18,32 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| pageIndex | Int32 | فهرس الصفحات المستند إلى 0. |
+| pageIndex | Int32 | فهرس الصفحة المبني على 0. |
 | graphics | Graphics | الكائن الذي سيتم تقديمه إليه. |
-| x | Single | الإحداثي X (بالوحدات العالمية) للزاوية العلوية اليسرى من الصفحة المعروضة. |
-| y | Single | الإحداثي Y (بالوحدات العالمية) للزاوية العلوية اليسرى من الصفحة المعروضة. |
+| x | Single | إحداثيات X (بالوحدات العالمية) في الزاوية العلوية اليسرى من الصفحة المرسومة. |
+| y | Single | إحداثيات Y (بالوحدات العالمية) في الزاوية العلوية اليسرى من الصفحة المرسومة. |
 | scale | Single | مقياس عرض الصفحة (1.0 هو 100%). |
 
 ### قيمة الإرجاع
 
-العرض والارتفاع (بالوحدات العالمية) للصفحة المعروضة.
+العرض والارتفاع (بالوحدات العالمية) للصفحة المقدمة.
 
 ## أمثلة
 
-يوضح كيفية تحويل الصفحات الفردية للمستند إلى رسومات لإنشاء صورة واحدة مع صور مصغرة لجميع الصفحات.
+يوضح كيفية تحويل الصفحات الفردية للمستند إلى رسومات لإنشاء صورة واحدة تحتوي على صور مصغرة لجميع الصفحات.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // احسب عدد الصفوف والأعمدة التي سنملأها بالصور المصغرة.
 const int thumbColumns = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbColumns, out int remainder);
+int thumbRows = doc.PageCount / thumbColumns;
+int remainder = doc.PageCount % thumbColumns;
 
 if (remainder > 0)
     thumbRows++;
 
-// قم بقياس الصور المصغرة بالنسبة لحجم الصفحة الأولى.
+// قم بتغيير حجم الصور المصغرة بالنسبة لحجم الصفحة الأولى.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
@@ -56,18 +57,19 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
     {
         gr.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 
-        // املأ الخلفية الشفافة باللون الأبيض بشكل افتراضي.
+        // املأ الخلفية، والتي تكون شفافة بشكل افتراضي، باللون الأبيض.
         gr.FillRectangle(new SolidBrush(Color.White), 0, 0, imgWidth, imgHeight);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbColumns, out int columnIdx);
+            int rowIdx = pageIndex / thumbColumns;
+            int columnIdx = pageIndex % thumbColumns;
 
             // حدد المكان الذي نريد أن تظهر فيه الصورة المصغرة.
             float thumbLeft = columnIdx * thumbSize.Width;
             float thumbTop = rowIdx * thumbSize.Height;
 
-            // اعرض الصفحة كصورة مصغرة، ثم ضعها في إطار مستطيل بنفس الحجم.
+            // عرض الصفحة كصورة مصغرة، ثم وضعها في إطار مستطيل بنفس الحجم.
             SizeF size = doc.RenderToScale(pageIndex, gr, thumbLeft, thumbTop, scale);
             gr.DrawRectangle(Pens.Black, thumbLeft, thumbTop, size.Width, size.Height);
         }
@@ -77,19 +79,20 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
 }
 ```
 
-يعرض الصفحات الفردية على شكل رسومات لإنشاء صورة واحدة تحتوي على صور مصغرة لجميع الصفحات (.NetStandard 2.0).
+يقوم بتحويل الصفحات الفردية إلى رسومات لإنشاء صورة واحدة تحتوي على صور مصغرة لجميع الصفحات (.NetStandard 2.0).
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // احسب عدد الصفوف والأعمدة التي سنملأها بالصور المصغرة.
 const int thumbnailColumnsNum = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainder);
+int thumbRows = doc.PageCount / thumbnailColumnsNum;
+int remainder = doc.PageCount % thumbnailColumnsNum;
 
 if (remainder > 0)
     thumbRows++;
 
- // قم بقياس الصور المصغرة بالنسبة لحجم الصفحة الأولى.
+ // قم بتغيير حجم الصور المصغرة بالنسبة لحجم الصفحة الأولى.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
@@ -101,12 +104,13 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 {
     using (SKCanvas canvas = new SKCanvas(bitmap))
     {
-        // املأ الخلفية الشفافة باللون الأبيض بشكل افتراضي.
+        // املأ الخلفية، والتي تكون شفافة بشكل افتراضي، باللون الأبيض.
         canvas.Clear(SKColors.White);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbnailColumnsNum, out int columnIdx);
+            int rowIdx = pageIndex / thumbnailColumnsNum;
+            int columnIdx = pageIndex % thumbnailColumnsNum;
 
             // حدد المكان الذي نريد أن تظهر فيه الصورة المصغرة.
             float thumbLeft = columnIdx * thumbSize.Width;
@@ -114,7 +118,7 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 
             SizeF size = doc.RenderToScale(pageIndex, canvas, thumbLeft, thumbTop, scale);
 
-            // اعرض الصفحة كصورة مصغرة، ثم ضعها في إطار مستطيل بنفس الحجم.
+            // عرض الصفحة كصورة مصغرة، ثم وضعها في إطار مستطيل بنفس الحجم.
             SKRect rect = new SKRect(0, 0, size.Width, size.Height);
             rect.Offset(thumbLeft, thumbTop);
             canvas.DrawRect(rect, new SKPaint

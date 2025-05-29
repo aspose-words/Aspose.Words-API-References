@@ -3,14 +3,14 @@ title: BorderCollection.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words لـ .NET
-description: BorderCollection LineWidth ملكية. الحصول على أو تعيين عرض الحدود بالنقاط في C#.
+description: اكتشف خاصية LineWidth في BorderCollection لضبط عرض الحدود بالنقاط بسهولة، مما يعزز دقة تصميمك وجاذبيته البصرية.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/bordercollection/linewidth/
 ---
 ## BorderCollection.LineWidth property
 
-الحصول على أو تعيين عرض الحدود بالنقاط.
+يحصل على عرض الحدود بالنقاط أو يعينه.
 
 ```csharp
 public double LineWidth { get; set; }
@@ -20,11 +20,11 @@ public double LineWidth { get; set; }
 
 إرجاع عرض الحد الأول في المجموعة.
 
-يضبط عرض كافة الحدود في المجموعة باستثناء الحدود القطرية.
+تعيين عرض جميع الحدود في المجموعة باستثناء الحدود القطرية.
 
 ## أمثلة
 
-يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
+يوضح كيفية إنشاء حدود صفحة متموجة باللون الأخضر مع ظل.
 
 ```csharp
 Document doc = new Document();

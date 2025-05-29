@@ -3,14 +3,14 @@ title: FontSettings.GetFontsSources
 linktitle: GetFontsSources
 articleTitle: GetFontsSources
 second_title: Aspose.Words لـ .NET
-description: FontSettings GetFontsSources طريقة. الحصول على نسخة من المصفوفة التي تحتوي على قائمة المصادر حيث يبحث Aspose.Words عن خطوط TrueType في C#.
+description: اكتشف طريقة FontSettings GetFontsSources للوصول بسهولة إلى مجموعة مصادر خطوط TrueType في Aspose.Words. حسّن إدارة خطوطك اليوم!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/fontsettings/getfontssources/
 ---
 ## FontSettings.GetFontsSources method
 
-الحصول على نسخة من المصفوفة التي تحتوي على قائمة المصادر حيث يبحث Aspose.Words عن خطوط TrueType.
+يحصل على نسخة من المصفوفة التي تحتوي على قائمة المصادر التي يبحث فيها Aspose.Words عن خطوط TrueType.
 
 ```csharp
 public FontSourceBase[] GetFontsSources()
@@ -18,15 +18,15 @@ public FontSourceBase[] GetFontsSources()
 
 ### قيمة الإرجاع
 
-نسخة من مصادر الخطوط الحالية.
+نسخة من مصادر الخط الحالية.
 
 ## ملاحظات
 
-القيمة التي تم إرجاعها هي نسخة من البيانات التي يستخدمها Aspose.Words. إذا قمت بتغيير الإدخالات في المصفوفة التي تم إرجاعها، فلن يكون لذلك أي تأثير على عرض المستند. لتحديد مصادر الخطوط الجديدة استخدم[`SetFontsSources`](../setfontssources/) طريقة.
+القيمة المُعادة هي نسخة من البيانات التي يستخدمها Aspose.Words. إذا غيّرت entrys في المصفوفة المُعادة، فلن يؤثر ذلك على عرض المستند. لتحديد مصادر خطوط جديدة، استخدم[`SetFontsSources`](../setfontssources/) طريقة.
 
 ## أمثلة
 
-يوضح كيفية إضافة مصدر خط إلى مصادر الخطوط الموجودة لدينا.
+يوضح كيفية إضافة مصدر الخط إلى مصادر الخطوط الموجودة لدينا.
 
 ```csharp
 Document doc = new Document();
@@ -45,19 +45,19 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// مصدر الخط الافتراضي يفتقد اثنين من الخطوط التي نستخدمها في وثيقتنا.
-// عندما نحفظ هذا المستند، سيقوم Aspose.Words بتطبيق الخطوط الاحتياطية على كل النص المنسق بخطوط لا يمكن الوصول إليها.
+//يفتقد مصدر الخط الافتراضي اثنين من الخطوط التي نستخدمها في مستندنا.
+// عندما نحفظ هذا المستند، سيقوم Aspose.Words بتطبيق الخطوط البديلة على كل النص المنسق بخطوط غير قابلة للوصول.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// قم بإنشاء مصدر خط من مجلد يحتوي على الخطوط.
+// قم بإنشاء مصدر الخط من مجلد يحتوي على الخطوط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
 // قم بتطبيق مجموعة جديدة من مصادر الخطوط التي تحتوي على مصادر الخطوط الأصلية، بالإضافة إلى الخطوط المخصصة لدينا.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// تحقق من أن Aspose.Words لديه حق الوصول إلى جميع الخطوط المطلوبة قبل تحويل المستند إلى PDF.
+// تأكد من أن Aspose.Words لديه إمكانية الوصول إلى جميع الخطوط المطلوبة قبل تقديم المستند إلى PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -66,7 +66,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// استعادة مصادر الخط الأصلي.
+//استعادة مصادر الخط الأصلية.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 

@@ -3,7 +3,7 @@ title: Field.End
 linktitle: End
 articleTitle: End
 second_title: Aspose.Words لـ .NET
-description: Field End ملكية. يحصل على العقدة التي تمثل نهاية الحقل في C#.
+description: اكتشف خاصية نهاية الحقل. تمتع بسهولة الوصول إلى العقدة التي تمثل نهاية الحقل لإدارة بيانات سلسة وتحسين الأداء.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/field/end/
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // كرر المجموعة الميدانية واطبع المحتويات واكتبها
-    // لكل حقل باستخدام تطبيق زائر مخصص.
+    // قم بالتكرار على مجموعة الحقول، ثم اطبع المحتويات والنوع
+    // لكل حقل باستخدام تنفيذ زائر مخصص.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// تنفيذ مستند الزائر الذي يطبع معلومات الحقل.
+/// تنفيذ زائر المستند الذي يطبع معلومات الحقل.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

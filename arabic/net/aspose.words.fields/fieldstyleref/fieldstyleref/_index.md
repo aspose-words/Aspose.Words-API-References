@@ -3,7 +3,7 @@ title: FieldStyleRef
 linktitle: FieldStyleRef
 articleTitle: FieldStyleRef
 second_title: Aspose.Words لـ .NET
-description: FieldStyleRef البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldStyleRef، أداة فعّالة لإنشاء أنماط حقول مخصصة بسهولة. استغل إمكانيات التصميم الفريدة اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldstyleref/fieldstyleref/

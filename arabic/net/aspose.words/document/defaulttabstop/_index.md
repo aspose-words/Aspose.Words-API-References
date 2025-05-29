@@ -3,14 +3,14 @@ title: Document.DefaultTabStop
 linktitle: DefaultTabStop
 articleTitle: DefaultTabStop
 second_title: Aspose.Words لـ .NET
-description: Document DefaultTabStop ملكية. الحصول على الفاصل الزمني بالنقاط أو تعيينه بين علامات الجدولة الافتراضية في C#.
+description: اكتشف كيفية تخصيص خاصية DefaultTabStop لتعيين فترات زمنية دقيقة للعلامات التبويبية بالنقاط، مما يؤدي إلى تحسين تنسيق مستندك وتخطيطه.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words/document/defaulttabstop/
 ---
 ## Document.DefaultTabStop property
 
-الحصول على الفاصل الزمني (بالنقاط) أو تعيينه بين علامات الجدولة الافتراضية.
+يحصل على الفاصل الزمني (بالنقاط) بين علامات التبويب الافتراضية أو يعينه.
 
 ```csharp
 public double DefaultTabStop { get; set; }
@@ -18,16 +18,16 @@ public double DefaultTabStop { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعيين فاصل زمني مخصص لمواضع علامات الجدولة.
+يوضح كيفية تعيين فترة زمنية مخصصة لمواضع علامة التبويب.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتعيين علامات الجدولة لتظهر كل 72 نقطة (1 بوصة).
+// تعيين علامات التبويب لتظهر كل 72 نقطة (1 بوصة).
 builder.Document.DefaultTabStop = 72;
 
-// يلتقط كل حرف جدولة النص الذي يليه إلى أقرب موضع لعلامة الجدولة.
+// كل حرف علامة تبويب يوجه النص بعده إلى أقرب موضع علامة تبويب.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

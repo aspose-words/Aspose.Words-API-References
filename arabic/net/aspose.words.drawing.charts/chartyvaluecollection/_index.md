@@ -3,14 +3,14 @@ title: ChartYValueCollection Class
 linktitle: ChartYValueCollection
 articleTitle: ChartYValueCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection فصل. يمثل مجموعة من قيم Y لسلسلة مخططات في C#.
+description: اكتشف فئة Aspose.Words.Drawing.Charts.ChartYValueCollection، الحل الأمثل لإدارة قيم Y في سلسلة المخططات بكفاءة وفعالية.
 type: docs
-weight: 880
+weight: 1200
 url: /ar/net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 ## ChartYValueCollection class
 
-يمثل مجموعة من قيم Y لسلسلة مخططات.
+يمثل مجموعة من قيم Y لسلسلة الرسم البياني.
 
 ```csharp
 public class ChartYValueCollection : IEnumerable<ChartYValue>
@@ -20,24 +20,25 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartyvaluecollection/count/) { get; } | الحصول على عدد العناصر في هذه المجموعة. |
-| [Item](../../aspose.words.drawing.charts/chartyvaluecollection/item/) { get; set; } | الحصول على قيمة Y أو تعيينها في الفهرس المحدد. |
+| [Count](../../aspose.words.drawing.charts/chartyvaluecollection/count/) { get; } | يحصل على عدد العناصر في هذه المجموعة. |
+| [FormatCode](../../aspose.words.drawing.charts/chartyvaluecollection/formatcode/) { get; set; } | يحصل على رمز التنسيق المطبق على قيم Y أو يعينه. |
+| [Item](../../aspose.words.drawing.charts/chartyvaluecollection/item/) { get; set; } | يحصل على قيمة Y أو يعينها عند الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | يُرجع كائن العداد. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | يعيد كائن المعداد. |
 
 ## ملاحظات
 
 جميع عناصر المجموعة بخلاف**باطل** يجب أن يكون له نفس الشيء[`ValueType`](../chartyvalue/valuetype/).
 
-تسمح المجموعة بتغيير قيم Y فقط. لإضافة أو إدراج قيم جديدة إلى سلسلة مخططات، أو إزالة القيم، الطرق المناسبة لـ[`ChartSeries`](../chartseries/) يمكن استخدام الطبقة.
+تسمح المجموعة بتغيير قيم Y فقط. لإضافة أو إدراج قيم جديدة إلى سلسلة مخططات، أو إزالة قيم، استخدم الطرق المناسبة لـ[`ChartSeries`](../chartseries/) يمكن استخدام الفصل.
 
 ## أمثلة
 
-يوضح كيفية الحصول على بيانات سلسلة المخططات.
+يوضح كيفية الحصول على بيانات سلسلة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -55,10 +56,10 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // مسح التنسيق الفردي لجميع نقاط البيانات.
-    // نقاط البيانات وقيم البيانات تكون فردية في المخططات العمودية.
+    // نقاط البيانات وقيم البيانات تكون متناسبة واحد لواحد في المخططات العمودية.
     series.DataPoints[i].ClearFormat();
 
-    // احصل على قيمة Y.
+    // الحصول على قيمة Y.
     double yValue = series.YValues[i].DoubleValue;
 
     if (yValue < minValue)
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// تغيير ألوان القيم القصوى والدنيا.
+//تغيير ألوان القيم القصوى والدنيا.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

@@ -3,7 +3,7 @@ title: FontInfoCollection.SaveSubsetFonts
 linktitle: SaveSubsetFonts
 articleTitle: SaveSubsetFonts
 second_title: Aspose.Words لـ .NET
-description: FontInfoCollection SaveSubsetFonts ملكية. يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع في C#.
+description: اكتشف خاصية SaveSubsetFonts في FontInfoCollection، وتحكم في مجموعات الخطوط TrueType المضمنة في مستنداتك لتحسين حجم الملف والأداء.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
@@ -12,7 +12,7 @@ url: /ar/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 
 يحدد ما إذا كان سيتم حفظ مجموعة فرعية من خطوط TrueType المضمنة مع المستند أم لا. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع`.
 
-هذا الخيار يعمل فقط عندما[`EmbedTrueTypeFonts`](../embedtruetypefonts/) تم تعيين الخاصية على`حقيقي`.
+يعمل هذا الخيار فقط عندما[`EmbedTrueTypeFonts`](../embedtruetypefonts/) تم تعيين الخاصية إلى`حقيقي`.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }
@@ -24,7 +24,7 @@ public bool SaveSubsetFonts { get; set; }
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند باستخدام خطوط TrueType المضمنة.
+يوضح كيفية حفظ مستند يحتوي على خطوط TrueType المضمنة.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### أنظر أيضا

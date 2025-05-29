@@ -3,14 +3,14 @@ title: FieldMergeBarcode.AddStartStopChar
 linktitle: AddStartStopChar
 articleTitle: AddStartStopChar
 second_title: Aspose.Words لـ .NET
-description: FieldMergeBarcode AddStartStopChar ملكية. الحصول على أو تعيين ما إذا كان سيتم إضافة أحرف البدء/الإيقاف لأنواع الرموز الشريطية NW7 وCODE39 في C#.
+description: تحكم في أحرف البدء/التوقف لرموز الباركود NW7 وCODE39 باستخدام خاصية FieldMergeBarcode AddStartStopChar. حسّن أداء رموز الباركود لديك اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 ---
 ## FieldMergeBarcode.AddStartStopChar property
 
-الحصول على أو تعيين ما إذا كان سيتم إضافة أحرف البدء/الإيقاف لأنواع الرموز الشريطية NW7 وCODE39.
+يحصل على أو يعين ما إذا كان سيتم إضافة أحرف البدء/الإيقاف لأنواع الباركود NW7 وCODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -18,28 +18,28 @@ public bool AddStartStopChar { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إجراء دمج البريد على الرموز الشريطية CODE39.
+يوضح كيفية تنفيذ دمج البريد على الباركود CODE39.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل حقل MERGEBARCODE، الذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
-// سيقوم هذا الحقل بتحويل كافة القيم الموجودة في عمود "MyCODE39Barcode" الخاص بمصدر بيانات الدمج إلى رموز شريطية CODE39.
+// سيقوم هذا الحقل بتحويل جميع القيم الموجودة في عمود "MyCODE39Barcode" الخاص بمصدر البيانات المدمج إلى رموز شريطية CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// قم بتحرير مظهره لعرض أحرف البداية/الإيقاف.
+// قم بتعديل مظهره لعرض أحرف البداية/التوقف.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// قم بإنشاء DataTable بعمود يحمل نفس اسم قيمة BarcodeValue لحقل MERGEBARCODE الخاص بنا.
-// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE،
-// والذي سيعرض الرمز الشريطي CODE39 بالقيمة من الصف المدمج.
+// قم بإنشاء جدول بيانات بعمود يحمل نفس اسم BarcodeValue الخاص بحقل MERGEBARCODE.
+// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE.
+// الذي سيعرض رمز شريطي CODE39 بالقيمة من الصف المدمج.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyCODE39Barcode");
 table.Rows.Add(new[] { "12345ABCDE" });

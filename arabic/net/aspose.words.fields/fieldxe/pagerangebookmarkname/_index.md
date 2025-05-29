@@ -3,14 +3,14 @@ title: FieldXE.PageRangeBookmarkName
 linktitle: PageRangeBookmarkName
 articleTitle: PageRangeBookmarkName
 second_title: Aspose.Words لـ .NET
-description: FieldXE PageRangeBookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد نطاقًا من الصفحات التي تم إدراجها كرقم صفحة الإدخال في C#.
+description: اكتشف خاصية FieldXE PageRangeBookmarkName—إدارة أسماء الإشارات المرجعية بكفاءة لتتبع نطاق الصفحات بدقة في مستنداتك.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
 ---
 ## FieldXE.PageRangeBookmarkName property
 
-الحصول على أو تعيين اسم الإشارة المرجعية التي تحدد نطاقًا من الصفحات التي تم إدراجها كرقم صفحة الإدخال.
+يحصل على اسم الإشارة المرجعية التي تحدد نطاق الصفحات التي يتم إدراجها كرقم صفحة الإدخال أو يعينه.
 
 ```csharp
 public string PageRangeBookmarkName { get; set; }
@@ -18,21 +18,21 @@ public string PageRangeBookmarkName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديد الصفحات الممتدة لإشارة مرجعية كنطاق صفحات لإدخال حقل INDEX.
+يوضح كيفية تحديد الصفحات الممتدة للإشارة المرجعية كنطاق صفحة لإدخال حقل INDEX.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء حقل INDEX الذي سيعرض إدخالاً لكل حقل XE موجود في المستند.
-// سيعرض كل إدخال قيمة خاصية النص لحقل XE على الجانب الأيسر،
+// قم بإنشاء حقل INDEX والذي سيعرض إدخالاً لكل حقل XE موجود في المستند.
+// سيعرض كل إدخال قيمة خاصية النص الخاصة بحقل XE على الجانب الأيسر،
 // ورقم الصفحة التي تحتوي على حقل XE على اليمين.
-// سيقوم إدخال INDEX بجمع كافة حقول XE ذات القيم المطابقة في خاصية "النص".
-// في إدخال واحد بدلاً من عمل إدخال لكل حقل XE.
+// سوف يقوم إدخال INDEX بجمع جميع حقول XE ذات القيم المطابقة في خاصية "النص"
+// في إدخال واحد بدلاً من إنشاء إدخال لكل حقل XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // بالنسبة لإدخالات INDEX التي تعرض نطاقات الصفحات، يمكننا تحديد سلسلة فاصلة
-// الذي سيظهر بين رقم الصفحة الأولى ورقم الصفحة الأخيرة.
+//الذي سيظهر بين رقم الصفحة الأولى ورقم الصفحة الأخيرة.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageRangeSeparator = " to ";
 
@@ -43,16 +43,16 @@ FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, tru
 indexEntry.Text = "My entry";
 
 // إذا قام حقل XE بتسمية إشارة مرجعية باستخدام خاصية PageRangeBookmarkName،
-// سيُظهر إدخال INDEX الخاص به نطاق الصفحات التي تغطيها الإشارة المرجعية
-// بدلاً من رقم الصفحة التي تحتوي على حقل XE.
+// سيعرض إدخال الفهرس نطاق الصفحات التي يغطيها الإشارة المرجعية
+//بدلاً من رقم الصفحة التي تحتوي على حقل XE.
 indexEntry.PageRangeBookmarkName = "MyBookmark";
 
 Assert.AreEqual(" XE  \"My entry\" \\r MyBookmark", indexEntry.GetFieldCode());
 Assert.AreEqual("MyBookmark", indexEntry.PageRangeBookmarkName);
 
-// أدخل إشارة مرجعية تبدأ في الصفحة 3 وتنتهي في الصفحة 5.
-// سيعرض إدخال INDEX لحقل XE الذي يشير إلى هذه الإشارة المرجعية نطاق الصفحات هذا.
-// في جدولنا، سيعرض مُدخل INDEX "إدخالي، في الصفحة (الصفحات) من 3 إلى 5".
+//أدرج إشارة مرجعية تبدأ في الصفحة 3 وتنتهي في الصفحة 5.
+// سيعرض إدخال INDEX لحقل XE الذي يشير إلى هذه الإشارة المرجعية نطاق الصفحة هذا.
+// في جدولنا، سيعرض إدخال INDEX "إدخالي، في الصفحة (الصفحات) من 3 إلى 5".
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MyBookmark");
 builder.Write("Start of MyBookmark");

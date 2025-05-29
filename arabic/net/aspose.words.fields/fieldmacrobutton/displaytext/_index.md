@@ -3,14 +3,14 @@ title: FieldMacroButton.DisplayText
 linktitle: DisplayText
 articleTitle: DisplayText
 second_title: Aspose.Words لـ .NET
-description: FieldMacroButton DisplayText ملكية. الحصول على النص أو تعيينه ليظهر على أنه الزر المحدد لتشغيل الماكرو أو الأمر في C#.
+description: اكتشف كيفية تخصيص خاصية "نص عرض زر الماكرو" لتحسين تنفيذ الماكرو. حدّد نص الزر المثالي لأوامر المستخدم بسلاسة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldmacrobutton/displaytext/
 ---
 ## FieldMacroButton.DisplayText property
 
-الحصول على النص أو تعيينه ليظهر على أنه "الزر" المحدد لتشغيل الماكرو أو الأمر.
+يحصل على النص أو يضبطه ليظهر كـ "الزر" المحدد لتشغيل الماكرو أو الأمر.
 
 ```csharp
 public string DisplayText { get; set; }
@@ -18,7 +18,7 @@ public string DisplayText { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام حقول MACROBUTTON للسماح لنا بتشغيل وحدات ماكرو للمستند من خلال النقر.
+يوضح كيفية استخدام حقول MACROBUTTON للسماح لنا بتشغيل وحدات الماكرو الخاصة بالمستند عن طريق النقر.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.IsTrue(doc.HasMacros);
 
-// قم بإدراج حقل MACROBUTTON، وقم بالإشارة إلى أحد وحدات ماكرو المستند حسب الاسم في خاصية MacroName.
+// أدخل حقل MACROBUTTON، ثم قم بالإشارة إلى أحد وحدات الماكرو الموجودة في المستند بالاسم في خاصية MacroName.
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
@@ -34,10 +34,10 @@ field.DisplayText = "Double click to run macro: " + field.MacroName;
 Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
 
 // استخدم الخاصية للإشارة إلى "ViewZoom200"، وهو ماكرو يأتي مع Microsoft Word.
-// يمكننا العثور على جميع وحدات الماكرو الأخرى عبر طريقة العرض -> وحدات الماكرو (القائمة المنسدلة) -> عرض وحدات الماكرو.
+// يمكننا العثور على جميع وحدات الماكرو الأخرى عبر عرض -> وحدات الماكرو (القائمة المنسدلة) -> عرض وحدات الماكرو.
 // في تلك القائمة، حدد "أوامر Word" من القائمة المنسدلة "وحدات الماكرو في:".
-// إذا كانت وثيقتنا تحتوي على ماكرو مخصص بنفس اسم ماكرو المخزون،
-// سيكون الماكرو الخاص بنا هو الذي يتم تشغيله في حقل MACROBUTTON.
+// إذا كانت مستندنا تحتوي على ماكرو مخصص يحمل نفس اسم الماكرو المخزن،
+// سيكون الماكرو الخاص بنا هو الذي يقوم بتشغيل حقل MACROBUTTON.
 builder.InsertParagraph();
 field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "ViewZoom200";

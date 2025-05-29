@@ -3,9 +3,9 @@ title: ColorMode Enum
 linktitle: ColorMode
 articleTitle: ColorMode
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.ColorMode تعداد. يحدد كيفية عرض الألوان في C#.
+description: اكتشف خاصية Aspose.Words.Saving.ColorMode لتحسين عرض الألوان. حسّن مظهر مستندك بإعدادات ألوان دقيقة.
 type: docs
-weight: 4860
+weight: 5600
 url: /ar/net/aspose.words.saving/colormode/
 ---
 ## ColorMode enumeration
@@ -20,21 +20,21 @@ public enum ColorMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Normal | `0` | العرض بألوان غير معدلة. |
-| Grayscale | `1` | تقديم الألوان في مجموعة من الظلال الرمادية من الأبيض إلى الأسود. |
+| Normal | `0` | العرض باستخدام الألوان غير المعدلة. |
+| Grayscale | `1` | عرض الألوان في مجموعة من درجات اللون الرمادي من الأبيض إلى الأسود. |
 
 ## أمثلة
 
-يوضح كيفية تغيير لون الصورة مع خاصية خيارات الحفظ.
+يوضح كيفية تغيير لون الصورة باستخدام خاصية خيارات الحفظ.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
-// اضبط خاصية "ColorMode" على "تدرج الرمادي" لعرض جميع الصور من المستند باللونين الأبيض والأسود.
-// قد يكون حجم مستند الإخراج أكبر مع هذا الإعداد.
-// اضبط خاصية "ColorMode" على "عادي" لعرض جميع الصور بالألوان.
+// قم بضبط خاصية "ColorMode" على "Grayscale" لعرض كافة الصور من المستند باللونين الأبيض والأسود.
+//قد يكون حجم المستند الناتج أكبر مع هذا الإعداد.
+// اضبط خاصية "ColorMode" على "Normal" لعرض كافة الصور بالألوان.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions { ColorMode = colorMode };
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ColorRendering.pdf", pdfSaveOptions);

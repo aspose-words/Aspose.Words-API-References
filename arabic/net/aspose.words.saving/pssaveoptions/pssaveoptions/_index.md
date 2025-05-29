@@ -3,7 +3,7 @@ title: PsSaveOptions
 linktitle: PsSaveOptions
 articleTitle: PsSaveOptions
 second_title: Aspose.Words لـ .NET
-description: PsSaveOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ PsSaveOptions للتكامل السلس. فعّل الإعدادات الافتراضية التي تُحسّن أداء تطبيقك وكفاءته.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/pssaveoptions/pssaveoptions/

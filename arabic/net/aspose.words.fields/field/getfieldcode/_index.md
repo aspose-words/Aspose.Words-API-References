@@ -3,14 +3,14 @@ title: Field.GetFieldCode
 linktitle: GetFieldCode
 articleTitle: GetFieldCode
 second_title: Aspose.Words لـ .NET
-description: Field GetFieldCode طريقة. إرجاع النص بين بداية الحقل وفاصل الحقل أو نهاية الحقل إذا لم يكن هناك فاصل. يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية في C#.
+description: اكتشف طريقة GetFieldCode، واسترجع بسهولة النص بين بداية الحقل والفاصل، بما في ذلك رموز الحقول الفرعية والنتائج. حسّن كفاءة ترميزك!
 type: docs
 weight: 110
 url: /ar/net/aspose.words.fields/field/getfieldcode/
 ---
 ## GetFieldCode() {#getfieldcode}
 
-إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية.
+يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية.
 
 ```csharp
 public string GetFieldCode()
@@ -29,26 +29,26 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// هذا التحميل الزائد لطريقة InsertField يقوم تلقائيًا بتحديث الحقول المدرجة.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// يؤدي هذا التحميل الزائد لطريقة InsertField إلى تحديث الحقول المدرجة تلقائيًا.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
-يوضح كيفية الحصول على رمز الحقل الخاص بالحقل.
+يوضح كيفية الحصول على رمز حقل الحقل.
 
 ```csharp
 // افتح مستندًا يحتوي على MERGEFIELD داخل حقل IF.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
-// هناك طريقتان للحصول على رمز الحقل:
-// 1 - حذف حقوله الداخلية:
+// هناك طريقتان للحصول على رمز حقل الحقل:
+// 1 - حذف الحقول الداخلية:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - تضمين حقوله الداخلية:
+// 2 - تضمين الحقول الداخلية:
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
-// افتراضيًا، تعرض طريقة GetFieldCode الحقول الداخلية.
+// بشكل افتراضي، تعرض طريقة GetFieldCode الحقول الداخلية.
 Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ```
 
@@ -70,26 +70,26 @@ public string GetFieldCode(bool includeChildFieldCodes)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| includeChildFieldCodes | Boolean | `حقيقي` إذا كان يجب تضمين رموز الحقول الفرعية. |
+| includeChildFieldCodes | Boolean | `حقيقي` إذا كان ينبغي تضمين رموز الحقول الفرعية. |
 
 ## أمثلة
 
-يوضح كيفية الحصول على رمز الحقل الخاص بالحقل.
+يوضح كيفية الحصول على رمز حقل الحقل.
 
 ```csharp
 // افتح مستندًا يحتوي على MERGEFIELD داخل حقل IF.
 Document doc = new Document(MyDir + "Nested fields.docx");
 FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
-// هناك طريقتان للحصول على رمز الحقل:
-// 1 - حذف حقوله الداخلية:
+// هناك طريقتان للحصول على رمز حقل الحقل:
+// 1 - حذف الحقول الداخلية:
 Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
 
-// 2 - تضمين حقوله الداخلية:
+// 2 - تضمين الحقول الداخلية:
 Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
     fieldIf.GetFieldCode(true));
 
-// افتراضيًا، تعرض طريقة GetFieldCode الحقول الداخلية.
+// بشكل افتراضي، تعرض طريقة GetFieldCode الحقول الداخلية.
 Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
 ```
 

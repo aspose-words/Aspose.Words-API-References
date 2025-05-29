@@ -3,14 +3,14 @@ title: Document.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words لـ .NET
-description: Document EnsureMinimum طريقة. إذا كانت الوثيقة لا تحتوي على أقسام قم بإنشاء قسم واحد بفقرة واحدة في C#.
+description: تعرف على كيفية استخدام طريقة EnsureMinimum لإنشاء قسم وفقرة تلقائيًا في المستندات، مما يضمن محتوى كاملاً ومنظمًا.
 type: docs
-weight: 580
+weight: 620
 url: /ar/net/aspose.words/document/ensureminimum/
 ---
 ## Document.EnsureMinimum method
 
-إذا كانت الوثيقة لا تحتوي على أقسام، قم بإنشاء قسم واحد بفقرة واحدة.
+إذا لم تحتوي الوثيقة على أي أقسام، فسيتم إنشاء قسم واحد يحتوي على فقرة واحدة.
 
 ```csharp
 public void EnsureMinimum()
@@ -21,8 +21,8 @@ public void EnsureMinimum()
 يوضح كيفية التأكد من أن المستند يحتوي على الحد الأدنى من العقد المطلوبة لتحرير محتوياته.
 
 ```csharp
-// يحتوي المستند الذي تم إنشاؤه حديثًا على قسم فرعي واحد، يتضمن نصًا فرعيًا واحدًا وفقرة فرعية واحدة.
-// يمكننا تحرير محتويات نص المستند عن طريق إضافة عقد مثل Runs أو الأشكال المضمنة إلى تلك الفقرة.
+// تحتوي الوثيقة التي تم إنشاؤها حديثًا على قسم فرعي واحد، والذي يتضمن نصًا فرعيًا واحدًا وفقرة فرعية واحدة.
+// يمكننا تحرير محتويات نص المستند عن طريق إضافة عقد مثل Runs أو Shapes المضمنة إلى تلك الفقرة.
 Document doc = new Document();
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 
@@ -35,13 +35,13 @@ Assert.AreEqual(nodes[0], nodes[1].ParentNode);
 Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
 Assert.AreEqual(nodes[1], nodes[2].ParentNode);
 
-// هذا هو الحد الأدنى من العقد التي نحتاجها حتى نتمكن من تحرير المستند.
+//هذه هي المجموعة الدنيا من العقد التي نحتاجها حتى نتمكن من تحرير المستند.
 // لن نتمكن بعد الآن من تحرير المستند إذا قمنا بإزالة أي منها.
 doc.RemoveAllChildren();
 
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);
 
-// اتصل بهذه الطريقة للتأكد من أن المستند يحتوي على تلك العقد الثلاث على الأقل حتى نتمكن من تحريره مرة أخرى.
+// اتصل بهذه الطريقة للتأكد من أن المستند يحتوي على هذه العقد الثلاث على الأقل حتى نتمكن من تحريره مرة أخرى.
 doc.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Section, nodes[0].NodeType);

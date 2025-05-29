@@ -3,7 +3,7 @@ title: TxtListIndentation
 linktitle: TxtListIndentation
 articleTitle: TxtListIndentation
 second_title: Aspose.Words لـ .NET
-description: TxtListIndentation البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ TxtListIndentation لتنسيق قوائم سلس. حسّن كفاءة ترميزك مع حلنا البديهي للمنشئ الافتراضي.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/txtlistindentation/txtlistindentation/

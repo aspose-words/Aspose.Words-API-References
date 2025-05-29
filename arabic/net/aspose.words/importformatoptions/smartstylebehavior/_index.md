@@ -3,14 +3,14 @@ title: ImportFormatOptions.SmartStyleBehavior
 linktitle: SmartStyleBehavior
 articleTitle: SmartStyleBehavior
 second_title: Aspose.Words لـ .NET
-description: ImportFormatOptions SmartStyleBehavior ملكية. الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الأنماط عندما يكون لها أسماء متساوية في المستندات المصدر والوجهة. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف كيف تُحسّن خاصية ImportFormatOptions SmartStyleBehavior استيراد الأنماط ذات الأسماء المتشابهة في المستندات. خصّص عملية الاستيراد بسهولة!
 type: docs
 weight: 80
 url: /ar/net/aspose.words/importformatoptions/smartstylebehavior/
 ---
 ## ImportFormatOptions.SmartStyleBehavior property
 
-الحصول على أو تعيين قيمة منطقية تحدد كيفية استيراد الأنماط عندما يكون لها أسماء متساوية في المستندات المصدر والوجهة. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها لتحديد كيفية استيراد الأنماط عندما يكون لها أسماء متساوية في المستندات المصدر والوجهة. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool SmartStyleBehavior { get; set; }
@@ -18,9 +18,9 @@ public bool SmartStyleBehavior { get; set; }
 
 ## ملاحظات
 
-عندما يكون هذا الخيار**ممكّن** ، سيتم توسيع النمط المصدر إلى سمات مباشرة داخل مستند الوجهة a ، إذاKeepSourceFormatting يتم استخدام وضع الاستيراد.
+عندما يكون هذا الخيار**مُمَكَّن** سيتم توسيع نمط المصدر إلى سمات مباشرة داخل مستند الوجهة a ، إذاKeepSourceFormatting يتم استخدام وضع الاستيراد.
 
-عندما يكون هذا الخيار**عاجز**، سيتم توسيع نمط المصدر فقط إذا كان مرقمًا. لن يتم تجاوز سمات الوجهة Existing ، بما في ذلك القوائم.
+عندما يكون هذا الخيار**عاجز**سيتم توسيع نمط المصدر فقط إذا كان مرقمًا. لن يتم تجاوز سمات الوجهة الموجودة، بما في ذلك القوائم.
 
 ## أمثلة
 
@@ -38,13 +38,13 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// انسخ المستند وقم بتحرير نمط "MyStyle" الخاص بالمستنسخ، بحيث يكون لونه مختلفًا عن اللون الأصلي.
-// إذا قمنا بإدراج النسخة في المستند الأصلي، فسيتسبب النمطان اللذان يحملان نفس الاسم في حدوث تعارض.
+// استنساخ المستند وتحرير نمط "MyStyle" الخاص بالاستنساخ، بحيث يكون لونه مختلفًا عن اللون الأصلي.
+// إذا قمنا بإدراج النسخة المستنسخة في المستند الأصلي، فإن النمطين اللذين يحملان نفس الاسم سوف يتسببان في حدوث تعارض.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// عندما نقوم بتمكين SmartStyleBehavior ونستخدم وضع تنسيق الاستيراد KeepSourceFormatting،
-// Aspose.Words سوف يحل تضارب الأنماط عن طريق تحويل أنماط المستند المصدر.
+// عندما نقوم بتمكين SmartStyleBehavior واستخدام وضع تنسيق الاستيراد KeepSourceFormatting،
+// سيقوم Aspose.Words بحل تضارب الأنماط عن طريق تحويل أنماط المستند المصدر.
 // بنفس أسماء أنماط الوجهة في سمات الفقرة المباشرة.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;

@@ -3,14 +3,14 @@ title: Font.DoubleStrikeThrough
 linktitle: DoubleStrikeThrough
 articleTitle: DoubleStrikeThrough
 second_title: Aspose.Words لـ .NET
-description: Font DoubleStrikeThrough ملكية. صحيح إذا تم تنسيق الخط كنص يتوسطه خط مزدوج في C#.
+description: اكتشف خاصية الخط المزدوج. نسّق النص بسهولة باستخدام خط مزدوج لتحسين الوضوح والأناقة في مستنداتك.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/font/doublestrikethrough/
 ---
 ## Font.DoubleStrikeThrough property
 
-صحيح إذا تم تنسيق الخط كنص يتوسطه خط مزدوج.
+صحيح إذا تم تنسيق الخط كنص مزدوج الشطب.
 
 ```csharp
 public bool DoubleStrikeThrough { get; set; }
@@ -18,7 +18,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إضافة خط يتوسطه خط إلى النص.
+يوضح كيفية إضافة خط مشطوب إلى النص.
 
 ```csharp
 Document doc = new Document();

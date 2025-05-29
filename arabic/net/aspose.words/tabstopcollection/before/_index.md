@@ -3,14 +3,14 @@ title: TabStopCollection.Before
 linktitle: Before
 articleTitle: Before
 second_title: Aspose.Words لـ .NET
-description: TabStopCollection Before طريقة. الحصول على علامة الجدولة الأولى على يسار الموضع المحدد في C#.
+description: اكتشف طريقة TabStopCollection Before، واسترجع بشكل فعال علامة التبويب اليسرى الأقرب للتنقل بسلاسة في تطبيقك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/tabstopcollection/before/
 ---
 ## TabStopCollection.Before method
 
-الحصول على علامة الجدولة الأولى على يسار الموضع المحدد.
+يحصل على علامة تبويب أولى على يسار الموضع المحدد.
 
 ```csharp
 public TabStop Before(double position)
@@ -18,19 +18,19 @@ public TabStop Before(double position)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| position | Double | الموضع المرجعي (بالنقاط). |
+| position | Double | موضع المرجع (بالنقاط). |
 
 ### قيمة الإرجاع
 
-كائن توقف الجدولة أو`باطل` إذا لم يتم العثور على علامة جدولة مناسبة.
+كائن علامة التبويب أو`باطل` إذا لم يتم العثور على علامة تبويب مناسبة.
 
 ## ملاحظات
 
-تخطي علامات التبويب مع[`Alignment`](../../tabstop/alignment/) ضبط لBar.
+يتخطى علامات التبويب مع[`Alignment`](../../tabstop/alignment/) تم ضبطه علىBar.
 
 ## أمثلة
 
-يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
+يوضح كيفية العمل مع مجموعة علامات التبويب الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 نقطة هي "بوصة" واحدة في مسطرة إيقاف علامة التبويب في Microsoft Word.
+// 72 نقطة هي "بوصة" واحدة على مسطرة علامة التبويب في برنامج Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -46,22 +46,22 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// يأخذ كل حرف "علامة تبويب" مؤشر المنشئ إلى موقع علامة التبويب التالية.
+// كل حرف "علامة تبويب" يأخذ مؤشر المنشئ إلى موقع علامة التبويب التالية.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// تحصل كل فقرة على مجموعة علامات الجدولة الخاصة بها، والتي تستنسخ قيمها من مجموعة علامات الجدولة الخاصة بمنشئ المستندات.
+// تحصل كل فقرة على مجموعة علامات التبويب الخاصة بها، والتي تستنسخ قيمها من مجموعة علامات التبويب الخاصة بمنشئ المستندات.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// يمكن أن توجهنا مجموعة علامات التبويب إلى TabStops قبل وبعد مواضع معينة.
+// يمكن لمجموعة علامات التبويب أن تشير إلينا إلى علامات التبويب قبل وبعد مواضع معينة.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// يمكننا مسح مجموعة علامات الجدولة الخاصة بالفقرة للعودة إلى سلوك الجدولة الافتراضي.
+// يمكننا مسح مجموعة علامات التبويب الخاصة بالفقرة للعودة إلى سلوك علامات التبويب الافتراضي.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

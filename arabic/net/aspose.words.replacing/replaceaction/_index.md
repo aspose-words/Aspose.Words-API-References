@@ -3,9 +3,9 @@ title: ReplaceAction Enum
 linktitle: ReplaceAction
 articleTitle: ReplaceAction
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Replacing.ReplaceAction تعداد. يسمح للمستخدم بتحديد ما يحدث للمطابقة الحالية أثناء عملية الاستبدال في C#.
+description: اكتشف Aspose.Words.ReplaceAction للتحكم في نتائج المطابقة في عمليات الاستبدال، مما يعزز كفاءة تحرير المستندات ودقتها.
 type: docs
-weight: 4640
+weight: 5370
 url: /ar/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -20,20 +20,20 @@ public enum ReplaceAction
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Replace | `0` | استبدل المطابقة الحالية. |
+| Replace | `0` | استبدال المطابقة الحالية. |
 | Skip | `1` | تخطي المباراة الحالية. |
 | Stop | `2` | إنهاء عملية الاستبدال. |
 
 ## أمثلة
 
-يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
+يوضح كيفية إدراج محتويات مستند بأكمله كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -48,7 +48,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // أدخل مستندًا بعد الفقرة التي تحتوي على النص المطابق.
+        //أدرج مستندًا بعد الفقرة التي تحتوي على النص المطابق.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -60,7 +60,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
+/// إدراج جميع عقد مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -74,7 +74,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // تخطي العقدة إذا كانت آخر فقرة فارغة في القسم.
+                // تخطي العقدة إذا كانت الفقرة الفارغة الأخيرة في القسم.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

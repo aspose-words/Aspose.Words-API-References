@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitLeftIndent
 linktitle: CharacterUnitLeftIndent
 articleTitle: CharacterUnitLeftIndent
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat CharacterUnitLeftIndent ملكية. الحصول على أو تعيين قيمة المسافة البادئة اليسرى بالأحرف للفقرات المحددة في C#.
+description: اكتشف كيفية ضبط المسافة البادئة اليسرى للفقرات بسهولة باستخدام خاصية CharacterUnitLeftIndent. حسّن تنسيق مستندك بسهولة!
 type: docs
 weight: 80
 url: /ar/net/aspose.words/paragraphformat/characterunitleftindent/
 ---
 ## ParagraphFormat.CharacterUnitLeftIndent property
 
-الحصول على أو تعيين قيمة المسافة البادئة اليسرى (بالأحرف) للفقرات المحددة.
+يحصل على قيمة المسافة البادئة اليسرى (بالأحرف) للفقرات المحددة أو يعينها.
 
 ```csharp
 public double CharacterUnitLeftIndent { get; set; }
@@ -18,14 +18,14 @@ public double CharacterUnitLeftIndent { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تغيير تباعد الفقرات والمسافات البادئة.
+يوضح كيفية تغيير المسافة بين الفقرات والمسافات البادئة.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// فيما يلي خمسة خيارات مختلفة للتباعد، بالإضافة إلى الخصائص التي يؤثر تكوينها بشكل غير مباشر.
+// فيما يلي خمسة خيارات مختلفة للتباعد، بالإضافة إلى الخصائص التي يؤثر عليها تكوينها بشكل غير مباشر.
 // 1 - المسافة البادئة اليسرى:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -40,21 +40,21 @@ format.CharacterUnitRightIndent = -5.5;
 
 Assert.AreEqual(format.RightIndent, -66.0d);
 
-// 3 - مسافة بادئة معلقة:
+// 3 - المسافة البادئة المعلقة:
 Assert.AreEqual(format.FirstLineIndent, 0.0d);
 
 format.CharacterUnitFirstLineIndent = 20.3;
 
 Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
 
-// 4 - تباعد الأسطر قبل الفقرات:
+// 4 - المسافة بين الأسطر قبل الفقرات:
 Assert.AreEqual(format.SpaceBefore, 0.0d);
 
 format.LineUnitBefore = 5.1;
 
 Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
 
-// 5 - تباعد الأسطر بعد الفقرات:
+// 5 - المسافة بين الأسطر بعد الفقرات:
 Assert.AreEqual(format.SpaceAfter, 0.0d);
 
 format.LineUnitAfter = 10.9;

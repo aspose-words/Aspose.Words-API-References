@@ -3,14 +3,14 @@ title: Shape
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words لـ .NET
-description: Shape البناء. إنشاء كائن شكل جديد في C#.
+description: أنشئ أشكالًا فريدة بكل سهولة باستخدام مُنشئ الأشكال لدينا. صمم أشكالًا مخصصة وحسّن مشاريعك بسهولة ودقة!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/shape/shape/
 ---
 ## Shape constructor
 
-إنشاء كائن شكل جديد.
+ينشئ كائن شكل جديد.
 
 ```csharp
 public Shape(DocumentBase doc, ShapeType shapeType)
@@ -19,23 +19,23 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
-| shapeType | ShapeType | نوع الشكل المراد إنشاؤه. |
+| shapeType | ShapeType | نوع الشكل الذي سيتم إنشاؤه. |
 
 ## ملاحظات
 
-يجب عليك تحديد خصائص الشكل المطلوب بعد إنشاء الشكل.
+يجب عليك تحديد خصائص الشكل المطلوبة بعد إنشاء الشكل.
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل به صورة من نظام الملفات المحلي في مستند.
+يوضح كيفية إدراج شكل مع صورة من نظام الملفات المحلي في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// سيقوم المنشئ العام لفئة "الشكل" بإنشاء شكل بنوع الترميز "ShapeMarkupLanguage.Vml".
-// إذا كنت بحاجة إلى إنشاء شكل من النوع غير البدائي، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
-// TopCornersOneRoundedOneSnipped، أو SingleCornerRounded، أو TopCornersRounded، أو DiagonalCornersRounded،
-// يرجى استخدام DocumentBuilder.InsertShape.
+// سيقوم المنشئ العام لفئة "Shape" بإنشاء شكل بنوع العلامة "ShapeMarkupLanguage.Vml".
+// إذا كنت بحاجة إلى إنشاء شكل من نوع غير بدائي، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornersSnipped،
+// TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، أو DiagonalCornersRounded،
+// الرجاء استخدام DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -57,11 +57,11 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// قم بتعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
+// تعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// أضف فقرة إلى مربع النص وأضف سلسلة من النص سيعرضها مربع النص.
+//أضف فقرة إلى مربع النص وأضف سلسلة من النص الذي سيعرضه مربع النص.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

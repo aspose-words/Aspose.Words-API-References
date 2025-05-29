@@ -3,14 +3,14 @@ title: List.CompareTo
 linktitle: CompareTo
 articleTitle: CompareTo
 second_title: Aspose.Words لـ .NET
-description: List CompareTo طريقة. مقارنة الكائن المحدد بالكائن الحالي في C#.
+description: اكتشف طريقة List CompareTo، وقم بمقارنة الكائنات بكفاءة وتعزيز مهاراتك في البرمجة باستخدام أداة البرمجة الأساسية هذه.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.lists/list/compareto/
 ---
 ## CompareTo(*object*) {#compareto_1}
 
-مقارنة الكائن المحدد بالكائن الحالي.
+يقارن الكائن المحدد بالكائن الحالي.
 
 ```csharp
 public int CompareTo(object obj)
@@ -26,7 +26,7 @@ public int CompareTo(object obj)
 
 ## CompareTo(*[List](../)*) {#compareto}
 
-مقارنة القائمة المحددة بالقائمة الحالية.
+يقارن القائمة المحددة بالقائمة الحالية.
 
 ```csharp
 public int CompareTo(List other)

@@ -3,14 +3,14 @@ title: SignatureLineOptions.Instructions
 linktitle: Instructions
 articleTitle: Instructions
 second_title: Aspose.Words لـ .NET
-description: SignatureLineOptions Instructions ملكية. الحصول على أو تعيين التعليمات للمُوقع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
+description: اكتشف كيفية تخصيص SignatureLineOptions بتعليمات واضحة للموقّعين، مما يُحسّن تجربة التوقيع. إعداد سهل باستخدام الإعدادات الافتراضية.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-الحصول على أو تعيين التعليمات للمُوقع التي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
+يحصل على التعليمات أو يعينها للموقع والتي يتم عرضها عند توقيع سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty ).
 
 ```csharp
 public string Instructions { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
+// أعد فتح المستند المحفوظ لدينا، وتأكد من أن الخاصيتين "IsSigned" و"IsValid" تساويان "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

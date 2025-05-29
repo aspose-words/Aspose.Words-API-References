@@ -3,14 +3,14 @@ title: Odso.FirstRowContainsColumnNames
 linktitle: FirstRowContainsColumnNames
 articleTitle: FirstRowContainsColumnNames
 second_title: Aspose.Words لـ .NET
-description: Odso FirstRowContainsColumnNames ملكية. يحدد أن تطبيق الاستضافة يجب أن يتعامل مع الصف الأول من البيانات في مصدر data الخارجي المحدد كصف رأس يحتوي على أسماء كل عمود في مصدر البيانات. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية Odso FirstRowContainsColumnNames، التي تسمح للتطبيقات بالتعرف على صف البيانات الأول كعناوين، مما يعزز وضوح البيانات وسهولة الاستخدام.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-يحدد أن تطبيق الاستضافة يجب أن يتعامل مع الصف الأول من البيانات في مصدر data الخارجي المحدد كصف رأس يحتوي على أسماء كل عمود في مصدر البيانات. القيمة الافتراضية هي`خطأ شنيع` .
+يحدد أن تطبيق الاستضافة يجب أن يعامل الصف الأول من البيانات في مصدر البيانات الخارجي المحدد كصف رأس يحتوي على أسماء كل عمود في مصدر البيانات. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -18,11 +18,11 @@ public bool FirstRowContainsColumnNames { get; set; }
 
 ## ملاحظات
 
-RK لم أر هذا قيد الاستخدام من قبل.
+RK لم أرى هذا قيد الاستخدام من قبل.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

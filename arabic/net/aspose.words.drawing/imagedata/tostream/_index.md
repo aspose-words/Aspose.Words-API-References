@@ -3,14 +3,14 @@ title: ImageData.ToStream
 linktitle: ToStream
 articleTitle: ToStream
 second_title: Aspose.Words لـ .NET
-description: ImageData ToStream طريقة. إنشاء وإرجاع دفق يحتوي على بايتات الصورة في C#.
+description: اكتشف طريقة ImageData ToStream—تحويل الصور إلى تدفقات بايت بكفاءة للتعامل بسلاسة مع البيانات وتحسين أداء التطبيق.
 type: docs
-weight: 230
+weight: 240
 url: /ar/net/aspose.words.drawing/imagedata/tostream/
 ---
 ## ImageData.ToStream method
 
-إنشاء وإرجاع دفق يحتوي على بايتات الصورة.
+ينشئ ويعيد مجرى يحتوي على بايتات الصورة.
 
 ```csharp
 public Stream ToStream()
@@ -18,17 +18,17 @@ public Stream ToStream()
 
 ## ملاحظات
 
-إذا تم تخزين بايتات الصورة في الشكل، فسيتم إنشاء وإرجاع ملفMemoryStream هدف.
+إذا تم تخزين بايتات الصورة في الشكل، يتم إنشاء وإرجاعMemoryStream هدف.
 
-إذا كانت الصورة مرتبطة ومخزنة في ملف، فافتح الملف وإرجاع ملفFileStream هدف.
+إذا تم ربط الصورة وتخزينها في ملف، فسيتم فتح الملف وإرجاعFileStream هدف.
 
-إذا كانت الصورة مرتبطة ومخزنة في عنوان URL خارجي، فسيتم تنزيل الملف وإرجاع ملفMemoryStream هدف.
+إذا تم ربط الصورة وتخزينها في عنوان URL خارجي، فسيتم تنزيل الملف وإرجاعهMemoryStream هدف.
 
-هل تقع على عاتق المتصل مسؤولية التخلص من كائن الدفق.
+هل تقع على عاتق المتصل مسؤولية التخلص من كائن التدفق؟
 
 ## أمثلة
 
-يوضح كيفية إنشاء ملف صورة من بيانات الصورة الأولية للشكل.
+يوضح كيفية إنشاء ملف صورة من بيانات الصورة الخام للشكل.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
@@ -36,7 +36,7 @@ Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
 Assert.True(imgShape.HasImage);
 
-// ToByteArray () يُرجع المصفوفة المخزنة في خاصية ImageBytes.
+// تقوم ToByteArray() بإرجاع المصفوفة المخزنة في خاصية ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
 // احفظ بيانات صورة الشكل في ملف صورة في نظام الملفات المحلي.

@@ -3,16 +3,16 @@ title: BaseWebExtensionCollectionT Class
 linktitle: BaseWebExtensionCollectionT
 articleTitle: BaseWebExtensionCollectionT
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T فصل. الفئة الأساسية لـTaskPaneCollection WebExtensionBindingCollectionWebExtensionPropertyCollection وWebExtensionReferenceCollection المجموعات في C#.
+description: اكتشف فئة Aspose.Words.WebExtensions.BaseWebExtensionCollection1T، وهي أداة أساسية لإدارة مجموعات TaskPane وWebExtension بكفاءة.
 type: docs
-weight: 6700
+weight: 7550
 url: /ar/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
-الفئة الأساسية لـ[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/)[`WebExtensionPropertyCollection`](../webextensionpropertycollection/) و[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) المجموعات.
+الفئة الأساسية لـ[`TaskPaneCollection`](../taskpanecollection/) ،[`WebExtensionBindingCollection`](../webextensionbindingcollection/) ، [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) و[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) المجموعات.
 
-لمعرفة المزيد، قم بزيارة[العمل مع وظائف Office الإضافية](https://docs.aspose.com/words/net/work-with-office-add-ins/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[العمل مع الوظائف الإضافية لـ Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) مقالة توثيقية.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -21,23 +21,23 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | معامل | وصف |
 | --- | --- |
-| T | نوع عنصر المجموعة. |
+| T | نوع من عناصر المجموعة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | الحصول على عنصر أو تعيينه في الفهرس المحدد. |
+| [Count](../../aspose.words.webextensions/basewebextensioncollection-1/count/) { get; } | يحصل على عدد العناصر الموجودة في المجموعة. |
+| [Item](../../aspose.words.webextensions/basewebextensioncollection-1/item/) { get; set; } | يحصل على عنصر أو يعينه في الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | إضافة عنصر محدد إلى المجموعة. |
-| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | إزالة كافة العناصر من المجموعة. |
-| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | يُرجع عدادًا يمكنه التكرار من خلال مجموعة. |
-| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | إزالة العنصر الموجود في الفهرس المحدد من المجموعة. |
+| [Add](../../aspose.words.webextensions/basewebextensioncollection-1/add/)(*T*) | يضيف العنصر المحدد إلى المجموعة. |
+| [Clear](../../aspose.words.webextensions/basewebextensioncollection-1/clear/)() | يزيل جميع العناصر من المجموعة. |
+| [GetEnumerator](../../aspose.words.webextensions/basewebextensioncollection-1/getenumerator/)() | يعيد مُعَدِّدًا يمكنه التكرار خلال مجموعة. |
+| [Remove](../../aspose.words.webextensions/basewebextensioncollection-1/remove/)(*int*) | يزيل العنصر الموجود في الفهرس المحدد من المجموعة. |
 
 ## أمثلة
 
@@ -48,7 +48,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// اطبع كافة خصائص ملحق الويب الخاص بالمستند.
+// طباعة كافة خصائص ملحق الويب الخاص بالمستند.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -59,7 +59,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// قم بإزالة ملحق الويب.
+// إزالة ملحق الويب.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

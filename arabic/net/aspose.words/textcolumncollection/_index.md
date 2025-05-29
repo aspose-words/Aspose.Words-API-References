@@ -3,14 +3,14 @@ title: TextColumnCollection Class
 linktitle: TextColumnCollection
 articleTitle: TextColumnCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.TextColumnCollection فصل. مجموعة منTextColumn الكائنات التي تمثل كافة أعمدة النص في قسم من المستند في C#.
+description: استكشف Aspose.Words.TextColumnCollection لإدارة أعمدة النص في مستنداتك بسهولة. حسّن تنسيق مستنداتك بسهولة!
 type: docs
-weight: 6400
+weight: 7250
 url: /ar/net/aspose.words/textcolumncollection/
 ---
 ## TextColumnCollection class
 
-مجموعة من[`TextColumn`](../textcolumn/) الكائنات التي تمثل كافة أعمدة النص في قسم من المستند.
+مجموعة من[`TextColumn`](../textcolumn/) الكائنات التي تمثل جميع أعمدة النص في قسم من المستند.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الأقسام](https://docs.aspose.com/words/net/working-with-sections/) مقالة توثيقية.
 
@@ -22,32 +22,32 @@ public class TextColumnCollection
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words/textcolumncollection/count/) { get; } | الحصول على عدد الأعمدة في قسم المستند. |
+| [Count](../../aspose.words/textcolumncollection/count/) { get; } | يحصل على عدد الأعمدة في قسم المستند. |
 | [EvenlySpaced](../../aspose.words/textcolumncollection/evenlyspaced/) { get; set; } | صحيح إذا كانت أعمدة النص متساوية العرض ومتباعدة بشكل متساوٍ. |
-| [Item](../../aspose.words/textcolumncollection/item/) { get; } | إرجاع عمود نصي في الفهرس المحدد. |
-| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | متى`حقيقي`يضيف خطًا رأسيًا بين الأعمدة. |
-| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | عندما تكون الأعمدة متباعدة بالتساوي، يتم الحصول على مقدار المسافة بين كل عمود أو تعيينه بالنقاط. |
-| [Width](../../aspose.words/textcolumncollection/width/) { get; } | عندما تكون الأعمدة متباعدة بشكل متساو، يتم الحصول على عرض الأعمدة. |
+| [Item](../../aspose.words/textcolumncollection/item/) { get; } | يعيد عمود نص عند الفهرس المحدد. |
+| [LineBetween](../../aspose.words/textcolumncollection/linebetween/) { get; set; } | عندما`حقيقي` ، يضيف خطًا رأسيًا بين الأعمدة. |
+| [Spacing](../../aspose.words/textcolumncollection/spacing/) { get; set; } | عندما تكون المسافة بين الأعمدة متساوية، يتم الحصول على مقدار المسافة بين كل عمود بالنقاط أو تعيينه. |
+| [Width](../../aspose.words/textcolumncollection/width/) { get; } | عندما تكون المسافة بين الأعمدة متساوية، يتم الحصول على عرض الأعمدة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | ترتيب النص في العدد المحدد من أعمدة النص. |
+| [SetCount](../../aspose.words/textcolumncollection/setcount/)(*int*) | يقوم بترتيب النص في العدد المحدد من أعمدة النص. |
 
 ## ملاحظات
 
 يستخدم[`SetCount`](./setcount/) لتعيين عدد أعمدة النص.
 
-لجعل جميع الأعمدة متساوية في العرض ومتباعدة بشكل متساوٍ، قم بتعيينها[`EvenlySpaced`](./evenlyspaced/) ل`حقيقي` وحدد مقدار المسافة بين الأعمدة الموجودة[`Spacing`](./spacing/). سوف يقوم برنامج MS Word بحساب عرض الأعمدة تلقائيًا.
+لجعل جميع الأعمدة متساوية العرض ومتباعدة بشكل متساوٍ، اضبط[`EvenlySpaced`](./evenlyspaced/) ل`حقيقي` وحدد مقدار المساحة بين الأعمدة في[`Spacing`](./spacing/)سيقوم MS Word بحساب عرض الأعمدة تلقائيًا.
 
-اذا كنت تمتلك[`EvenlySpaced`](./evenlyspaced/) ضبط ل`خطأ شنيع` ، فأنت بحاجة إلى تحديد العرض والتباعد لكل عمود بشكل فردي. استخدم المفهرس للوصول إلى الفرد[`TextColumn`](../textcolumn/) أشياء.
+إذا كان لديك[`EvenlySpaced`](./evenlyspaced/) تم ضبطه على`خطأ شنيع` يجب تحديد العرض والتباعد لكل عمود x000d_ على حدة. استخدم الفهرس للوصول إلى كل عمود على حدة.[`TextColumn`](../textcolumn/) أشياء.
 
-عند استخدام عروض الأعمدة المخصصة، تأكد من أن مجموع كل عروض الأعمدة والمسافات بينها يساوي عرض الصفحة ناقص هوامش الصفحة اليمنى واليسرى.
+عند استخدام عرض الأعمدة المخصص، تأكد من أن مجموع كل عرض الأعمدة والمسافات بينها يساوي عرض الصفحة مطروحًا منه الهوامش اليمنى واليسرى للصفحة.
 
 ## أمثلة
 
-يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في القسم.
+يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في قسم.
 
 ```csharp
 Document doc = new Document();

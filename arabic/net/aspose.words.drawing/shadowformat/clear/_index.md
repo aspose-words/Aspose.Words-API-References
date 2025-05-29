@@ -3,14 +3,14 @@ title: ShadowFormat.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words لـ .NET
-description: ShadowFormat Clear طريقة. مسح تنسيق الظل في C#.
+description: أعد ضبط تنسيق الظلال بسهولة باستخدام طريقة مسح تنسيق الظلال. حسّن تصميمك بلوحة نظيفة اليوم!
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.drawing/shadowformat/clear/
 ---
 ## ShadowFormat.Clear method
 
-مسح تنسيق الظل.
+يمسح تنسيق الظل.
 
 ```csharp
 public void Clear()
@@ -24,10 +24,10 @@ public void Clear()
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

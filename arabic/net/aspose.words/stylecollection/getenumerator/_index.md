@@ -3,14 +3,14 @@ title: StyleCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: StyleCollection GetEnumerator طريقة. الحصول على كائن التعداد الذي سيقوم بتعداد الأنماط بالترتيب الأبجدي لأسمائها في C#.
+description: اكتشف طريقة StyleCollection GetEnumerator لسرد الأنماط أبجديًا حسب الاسم بسهولة. حسّن كفاءة البرمجة لديك اليوم!
 type: docs
 weight: 90
 url: /ar/net/aspose.words/stylecollection/getenumerator/
 ---
 ## StyleCollection.GetEnumerator method
 
-الحصول على كائن التعداد الذي سيقوم بتعداد الأنماط بالترتيب الأبجدي لأسمائها.
+يحصل على كائن عدّاد يقوم بإحصاء الأنماط حسب الترتيب الأبجدي لأسمائها.
 
 ```csharp
 public IEnumerator<Style> GetEnumerator()
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

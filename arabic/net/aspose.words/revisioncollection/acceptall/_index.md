@@ -3,14 +3,14 @@ title: RevisionCollection.AcceptAll
 linktitle: AcceptAll
 articleTitle: AcceptAll
 second_title: Aspose.Words لـ .NET
-description: RevisionCollection AcceptAll طريقة. يقبل كافة المراجعات في هذه المجموعة في C#.
+description: اكتشف طريقة RevisionCollection AcceptAll لدمج جميع المراجعات بسلاسة، مما يعزز كفاءة سير العمل والتعاون لديك.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection.AcceptAll method
 
-يقبل كافة المراجعات في هذه المجموعة.
+يقبل جميع المراجعات في هذه المجموعة.
 
 ```csharp
 public void AcceptAll()
@@ -29,11 +29,11 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// ستؤدي مقارنة المستندات مع المراجعات إلى حدوث استثناء.
+// مقارنة المستندات مع المراجعات سوف يؤدي إلى حدوث استثناء.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// بعد المقارنة، سيحصل المستند الأصلي على مراجعة جديدة
+// بعد المقارنة، ستحصل الوثيقة الأصلية على مراجعة جديدة
 // لكل عنصر مختلف في المستند المحرر.
 foreach (Revision r in docOriginal.Revisions)
 {
@@ -41,7 +41,7 @@ foreach (Revision r in docOriginal.Revisions)
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// سيؤدي قبول هذه المراجعات إلى تحويل المستند الأصلي إلى المستند المحرر.
+// قبول هذه المراجعات سيؤدي إلى تحويل المستند الأصلي إلى المستند المحرر.
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());

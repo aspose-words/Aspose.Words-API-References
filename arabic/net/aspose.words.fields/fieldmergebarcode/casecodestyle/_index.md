@@ -3,14 +3,14 @@ title: FieldMergeBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words لـ .NET
-description: FieldMergeBarcode CaseCodeStyle ملكية. الحصول على أو تعيين نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي STDEXTADD في C#.
+description: اكتشف خاصية FieldMergeBarcode CaseCodeStyle لرموز ITF14 الشريطية. خصّص نمط CaseCode بسهولة باستخدام خيارات صالحة مثل STDEXTADD.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-الحصول على أو تعيين نمط رمز الحالة لنوع الرمز الشريطي ITF14. القيم الصالحة هي [STD&#x7C;EXT&#x7C;ADD]
+يحصل على نمط رمز الحالة أو يضبطه لنوع الباركود ITF14. القيم الصحيحة هي [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -18,14 +18,14 @@ public string CaseCodeStyle { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إجراء دمج البريد على الرموز الشريطية ITF14.
+يوضح كيفية تنفيذ دمج البريد على الباركودات ITF14.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // أدخل حقل MERGEBARCODE، الذي سيقبل القيم من مصدر البيانات أثناء دمج البريد.
-// سيقوم هذا الحقل بتحويل كافة القيم الموجودة في عمود "MyITF14Barcode" الخاص بمصدر بيانات الدمج إلى رموز شريطية ITF14.
+// سيقوم هذا الحقل بتحويل جميع القيم الموجودة في عمود "MyITF14Barcode" الخاص بمصدر البيانات المدمج إلى رموز شريطية ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -34,9 +34,9 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// قم بإنشاء DataTable بعمود يحمل نفس اسم قيمة BarcodeValue لحقل MERGEBARCODE الخاص بنا.
-// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE،
-// والذي سيعرض الرمز الشريطي ITF14 بالقيمة من الصف المدمج.
+// قم بإنشاء جدول بيانات بعمود يحمل نفس اسم BarcodeValue الخاص بحقل MERGEBARCODE.
+// سيؤدي دمج البريد إلى إنشاء صفحة جديدة لكل صف. ستحتوي كل صفحة على حقل DISPLAYBARCODE.
+// الذي سيعرض رمز شريطي ITF14 بالقيمة من الصف المدمج.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");
 table.Rows.Add(new[] { "09312345678907" });

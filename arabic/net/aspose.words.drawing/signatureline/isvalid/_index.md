@@ -3,14 +3,14 @@ title: SignatureLine.IsValid
 linktitle: IsValid
 articleTitle: IsValid
 second_title: Aspose.Words لـ .NET
-description: SignatureLine IsValid ملكية. يشير إلى أن سطر التوقيع موقّع بواسطة التوقيع الرقمي وأن هذا التوقيع الرقمي صالح في C#.
+description: تأكد من تأمين مستنداتك باستخدام خاصية IsValid من SignatureLine، والتي تؤكد صحة التوقيعات الرقمية للتأكد من صحتها والثقة بها.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/signatureline/isvalid/
 ---
 ## SignatureLine.IsValid property
 
-يشير إلى أن سطر التوقيع موقّع بواسطة التوقيع الرقمي وأن هذا التوقيع الرقمي صالح.
+يشير إلى أن سطر التوقيع موقّع بتوقيع رقمي وأن هذا التوقيع الرقمي صالح.
 
 ```csharp
 public bool IsValid { get; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
+// أعد فتح المستند المحفوظ لدينا، وتأكد من أن الخاصيتين "IsSigned" و"IsValid" تساويان "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

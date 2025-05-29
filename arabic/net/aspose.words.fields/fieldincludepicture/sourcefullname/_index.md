@@ -3,14 +3,14 @@ title: FieldIncludePicture.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words لـ .NET
-description: FieldIncludePicture SourceFullName ملكية. الحصول على موقع الصورة أو تعيينه باستخدام IRI في C#.
+description: اكتشف خاصية FieldIncludePicture SourceFullName. أدر مواقع الصور بسهولة باستخدام IRI لتحسين تكامل الوسائط وتجربة مستخدم سلسة.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldincludepicture/sourcefullname/
 ---
 ## FieldIncludePicture.SourceFullName property
 
-الحصول على موقع الصورة أو تعيينه باستخدام IRI.
+يحصل على موقع الصورة أو يعينه باستخدام IRI.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -18,14 +18,14 @@ public string SourceFullName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
+يوضح كيفية إدراج الصور باستخدام حقول IMPORT وINCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يوجد أدناه نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
-// 1 - حقل التضمين:
+// فيما يلي نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
+// 1 - حقل INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

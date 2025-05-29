@@ -3,14 +3,14 @@ title: SvgSaveOptions.ResourcesFolderAlias
 linktitle: ResourcesFolderAlias
 articleTitle: ResourcesFolderAlias
 second_title: Aspose.Words لـ .NET
-description: SvgSaveOptions ResourcesFolderAlias ملكية. يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند SVG. الافتراضي هوباطل  في C#.
+description: اكتشف خاصية SvgSaveOptions ResourcesFolderAlias لتخصيص عناوين URI للصور في مستندات SVG. حسّن مخرجات SVG الخاصة بك بتسمية المجلدات بمرونة!
 type: docs
-weight: 60
+weight: 90
 url: /ar/net/aspose.words.saving/svgsaveoptions/resourcesfolderalias/
 ---
 ## SvgSaveOptions.ResourcesFolderAlias property
 
-يحدد اسم المجلد المستخدم لإنشاء معرفات URI للصور المكتوبة في مستند SVG. الافتراضي هو`باطل` .
+يحدد اسم المجلد المستخدم لإنشاء عناوين URI للصور المكتوبة في مستند SVG. الافتراضي هو`باطل` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -18,11 +18,11 @@ public string ResourcesFolderAlias { get; set; }
 
 ## ملاحظات
 
-عندما تقوم بحفظ أ[`Document`](../../../aspose.words/document/) بتنسيق SVG، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.[`ResourcesFolder`](../resourcesfolder/) يسمح لك بتحديد مكان حفظ الصور و`ResourcesFolderAlias` يسمح بتحديد كيفية إنشاء معرفات URI للصورة.
+عندما تحفظ[`Document`](../../../aspose.words/document/) في تنسيق SVG، يحتاج Aspose.Words إلى حفظ جميع الصور المضمنة في المستند كملفات مستقلة.[`ResourcesFolder`](../resourcesfolder/) يسمح لك بتحديد المكان الذي سيتم حفظ الصور فيه و`ResourcesFolderAlias` يسمح لك بتحديد كيفية إنشاء عناوين URI للصور.
 
 ## أمثلة
 
-يوضح كيفية معالجة وطباعة معرفات URI للموارد المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى .svg.
+يوضح كيفية التعامل مع عناوين URI للموارد المرتبطة وطباعتها والتي تم إنشاؤها أثناء تحويل مستند إلى .svg.
 
 ```csharp
 public void SvgResourceFolder()
@@ -46,7 +46,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// يحسب ويطبع عناوين URI للموارد الموجودة في الملف عند تحويلها إلى .svg.
+/// يقوم بحساب وطباعة عناوين URI للموارد المضمنة بواسطة أثناء تحويلها إلى .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

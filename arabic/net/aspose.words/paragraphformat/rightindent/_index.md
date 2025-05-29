@@ -3,14 +3,14 @@ title: ParagraphFormat.RightIndent
 linktitle: RightIndent
 articleTitle: RightIndent
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat RightIndent ملكية. الحصول على أو تعيين القيمة بالنقاط التي تمثل المسافة البادئة الصحيحة للفقرة في C#.
+description: اكتشف كيفية تعديل المسافة البادئة اليمنى لفقراتك بسهولة باستخدام خاصية ParagraphFormat RightIndent. حسّن تنسيق مستندك اليوم!
 type: docs
-weight: 270
+weight: 280
 url: /ar/net/aspose.words/paragraphformat/rightindent/
 ---
 ## ParagraphFormat.RightIndent property
 
-الحصول على أو تعيين القيمة (بالنقاط) التي تمثل المسافة البادئة الصحيحة للفقرة.
+يحصل على القيمة (بالنقاط) التي تمثل المسافة البادئة الصحيحة للفقرة أو يعينها.
 
 ```csharp
 public double RightIndent { get; set; }
@@ -24,9 +24,9 @@ public double RightIndent { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// توسيط كل النص الذي يكتبه منشئ المستندات، وإعداد المسافات البادئة.
-// سيؤدي تكوين المسافة البادئة أدناه إلى إنشاء نص يتم وضعه بشكل غير متماثل على الصفحة.
-// "المركز" الذي نقوم بمحاذاة النص إليه سيكون منتصف نص النص، وليس منتصف الصفحة.
+// قم بتوسيط كل النص الذي يكتبه منشئ المستندات، وقم بإعداد المسافات البادئة.
+// سيؤدي تكوين المسافة البادئة أدناه إلى إنشاء مجموعة نصية ستظهر بشكل غير متماثل على الصفحة.
+// "المركز" الذي نقوم بمحاذاة النص إليه سيكون منتصف نص الموضوع، وليس منتصف الصفحة.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

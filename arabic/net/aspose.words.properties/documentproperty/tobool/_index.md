@@ -3,14 +3,14 @@ title: DocumentProperty.ToBool
 linktitle: ToBool
 articleTitle: ToBool
 second_title: Aspose.Words لـ .NET
-description: DocumentProperty ToBool طريقة. إرجاع قيمة الخاصية كقيمة منطقية في C#.
+description: اكتشف طريقة DocumentProperty ToBool التي تقوم بتحويل قيم الخصائص إلى قيم منطقية بكفاءة من أجل التعامل السلس مع البيانات وتحسين كفاءة الترميز.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.properties/documentproperty/tobool/
 ---
 ## DocumentProperty.ToBool method
 
-إرجاع قيمة الخاصية كقيمة منطقية.
+يعيد قيمة الخاصية كقيمة منطقية.
 
 ```csharp
 public bool ToBool()
@@ -18,7 +18,7 @@ public bool ToBool()
 
 ## ملاحظات
 
-يطرح استثناءً إذا لم يكن نوع الخاصية كذلكBoolean.
+يُلقي استثناءً إذا لم يكن نوع الخاصيةBoolean.
 
 ## أمثلة
 

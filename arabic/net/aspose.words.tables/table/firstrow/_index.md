@@ -3,14 +3,14 @@ title: Table.FirstRow
 linktitle: FirstRow
 articleTitle: FirstRow
 second_title: Aspose.Words لـ .NET
-description: Table FirstRow ملكية. إرجاع الأولRow العقدة في الجدول في C#.
+description: اكتشف خاصية FirstRow الخاصة بالجداول، وقم بالوصول بسهولة إلى عقدة الصف الأول لإدارة البيانات بشكل مبسط وتحسين وظائف الجدول.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.tables/table/firstrow/
 ---
 ## Table.FirstRow property
 
-إرجاع الأول[`Row`](../../row/) العقدة في الجدول.
+يعيد أول[`Row`](../../row/) عقدة في الجدول.
 
 ```csharp
 public Row FirstRow { get; }
@@ -18,7 +18,7 @@ public Row FirstRow { get; }
 
 ## أمثلة
 
-يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
+يوضح كيفية إزالة الصفوف الأولى والأخيرة من كافة الجداول في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -44,13 +44,13 @@ Assert.AreEqual(2, tables[1].Rows.Count);
 Document doc = new Document(MyDir + "Tables.docx");
 
 // فيما يلي طريقتان للحصول على جدول من مستند.
-// 1 - من مجموعة "الجداول" للعقدة الأساسية:
+// 1 - من مجموعة "الجداول" لعقدة الجسم:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - استخدام طريقة "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// إلحاق جميع الصفوف من الجدول الحالي بالجدول التالي.
+//إضافة كافة الصفوف من الجدول الحالي إلى الجدول التالي.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

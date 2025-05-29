@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.Comments
 linktitle: Comments
 articleTitle: Comments
 second_title: Aspose.Words لـ .NET
-description: BuiltInDocumentProperties Comments ملكية. الحصول على تعليقات المستند أو تعيينها في C#.
+description: أدر تعليقات مستنداتك بسهولة مع BuiltInDocumentProperties. احصل على التعليقات أو عيّنها بسهولة لتعزيز التعاون والوضوح.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.properties/builtindocumentproperties/comments/
 ---
 ## BuiltInDocumentProperties.Comments property
 
-الحصول على تعليقات المستند أو تعيينها.
+يحصل على تعليقات المستند أو يعينها.
 
 ```csharp
 public string Comments { get; set; }
@@ -26,12 +26,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // فيما يلي أربع خصائص مستند مضمنة تحتوي على حقول يمكنها عرض قيمها في نص المستند.
-// 1 - خاصية "المؤلف"، والتي يمكننا عرضها باستخدام حقل "المؤلف":
+// 1 - خاصية "المؤلف"، والتي يمكننا عرضها باستخدام حقل AUTHOR:
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
 
-// 2 - خاصية "العنوان"، والتي يمكننا عرضها باستخدام حقل العنوان:
+// 2 - خاصية "العنوان"، والتي يمكننا عرضها باستخدام حقل TITLE:
 properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
@@ -47,14 +47,14 @@ builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
 builder.Write("\"");
 
-// لا تحتوي خاصية "الفئة" المضمنة على حقل يمكنه عرض قيمته.
+// لا تحتوي الخاصية المضمنة "الفئة" على حقل يمكنه عرض قيمتها.
 properties.Category = "My category";
 
-// يمكننا تعيين كلمات رئيسية متعددة للمستند عن طريق فصل قيمة السلسلة لخاصية "الكلمات الرئيسية" بفواصل منقوطة.
+// يمكننا تعيين كلمات رئيسية متعددة لمستند ما عن طريق فصل قيمة السلسلة الخاصة بخاصية "الكلمات الرئيسية" بفاصلة منقوطة.
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// يمكننا النقر بزر الماوس الأيمن فوق هذا المستند في مستكشف Windows والعثور على هذه الخصائص في "الخصائص" -> "تفاصيل".
-// الخاصية "المؤلف" المضمنة موجودة في مجموعة "الأصل"، والآخرون موجودون في مجموعة "الوصف".
+// يمكننا النقر بزر الماوس الأيمن على هذا المستند في مستكشف Windows والعثور على هذه الخصائص في "الخصائص" -> "التفاصيل".
+//توجد الخاصية المضمنة "المؤلف" في المجموعة "الأصل"، بينما توجد الخاصية الأخرى في المجموعة "الوصف".
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```
 

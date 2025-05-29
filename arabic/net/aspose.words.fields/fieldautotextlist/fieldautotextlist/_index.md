@@ -3,7 +3,7 @@ title: FieldAutoTextList
 linktitle: FieldAutoTextList
 articleTitle: FieldAutoTextList
 second_title: Aspose.Words لـ .NET
-description: FieldAutoTextList البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldAutoTextList - الحل الأمثل لإدارة النصوص بسلاسة. حسّن كفاءة عملك مع مُنشئنا الافتراضي اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldautotextlist/fieldautotextlist/

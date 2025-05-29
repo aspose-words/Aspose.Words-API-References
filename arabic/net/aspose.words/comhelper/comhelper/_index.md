@@ -3,14 +3,14 @@ title: ComHelper
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: Aspose.Words لـ .NET
-description: ComHelper البناء. تهيئة مثيل جديد لهذه الفئة في C#.
+description: اكتشف ComHelper، المنشئ القوي الذي يقوم بسهولة بتهيئة مثيلات فئة جديدة، مما يعزز كفاءة البرمجة والإنتاجية لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/comhelper/comhelper/
 ---
 ## ComHelper constructor
 
-تهيئة مثيل جديد لهذه الفئة.
+يقوم بتهيئة مثيل جديد لهذه الفئة.
 
 ```csharp
 public ComHelper()
@@ -29,7 +29,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - من الدفق:
+// 2 - من مجرى:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

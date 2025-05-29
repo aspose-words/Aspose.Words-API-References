@@ -3,14 +3,14 @@ title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words لـ .NET
-description: NodeCollection IndexOf طريقة. إرجاع الفهرس الصفري للعقدة المحددة في C#.
+description: اكتشف طريقة NodeCollection IndexOf للعثور بكفاءة على الفهرس المبني على الصفر لأي عقدة محددة في مجموعاتك.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/nodecollection/indexof/
 ---
 ## NodeCollection.IndexOf method
 
-إرجاع الفهرس الصفري للعقدة المحددة.
+يعيد الفهرس المبني على الصفر للعقدة المحددة.
 
 ```csharp
 public int IndexOf(Node node)
@@ -18,15 +18,15 @@ public int IndexOf(Node node)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| node | Node | العقدة لتحديد موقع. |
+| node | Node | العقدة التي يجب تحديد موقعها. |
 
 ### قيمة الإرجاع
 
-الفهرس الصفري للعقدة داخل المجموعة، إذا تم العثور عليه؛ وإلا -1.
+الفهرس المبني على الصفر للعقدة داخل المجموعة، إذا تم العثور عليه؛ وإلا، -1.
 
 ## ملاحظات
 
-تقوم هذه الطريقة بإجراء بحث خطي؛ ولذلك فإن متوسط وقت التنفيذ يتناسب مع[`Count`](../count/).
+تقوم هذه الطريقة بإجراء بحث خطي؛ وبالتالي فإن متوسط وقت التنفيذ يتناسب مع[`Count`](../count/).
 
 ## أمثلة
 

@@ -3,22 +3,26 @@ title: CompareOptions.Granularity
 linktitle: Granularity
 articleTitle: Granularity
 second_title: Aspose.Words لـ .NET
-description: CompareOptions Granularity ملكية. يحدد ما إذا كان سيتم تعقب التغييرات حسب الحرف أو الكلمة. القيمة الافتراضية هيWordLevel  في C#.
+description: اكتشف خاصية تفصيل الخيارات المقارنة، وتتبع التغييرات حسب الحرف أو الكلمة لتحرير نصوصك بدقة. حسّن تحكمك في مستنداتك اليوم!
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
 
-يحدد ما إذا كان سيتم تعقب التغييرات حسب الحرف أو الكلمة. القيمة الافتراضية هيWordLevel .
+يحدد ما إذا كان سيتم تعقب التغييرات حسب الحرف أو حسب الكلمة.
 
 ```csharp
 public Granularity Granularity { get; set; }
 ```
 
+## ملاحظات
+
+القيمة الافتراضية هيWordLevel .
+
 ## أمثلة
 
-يظهر لتحديد التفاصيل أثناء مقارنة المستندات.
+يظهر لتحديد الحبيبات أثناء مقارنة المستندات.
 
 ```csharp
 Document docA = new Document();
@@ -29,14 +33,14 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// تحديد ما إذا كان سيتم تتبع التغييرات أم لا
+// حدد ما إذا كانت التغييرات تتبع
 // حسب الحرف ('Granularity.CharLevel')، أو حسب الكلمة ('Granularity.WordLevel').
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+CompareOptions compareOptions = new CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);
 
-// تحتوي مجموعة مجموعات المراجعة الخاصة بالمستند الأول على جميع الاختلافات بين المستندات.
+// تحتوي مجموعة المراجعات الخاصة بالمستند الأول على كافة الاختلافات بين المستندات.
 RevisionGroupCollection groups = docA.Revisions.Groups;
 Assert.AreEqual(5, groups.Count);
 ```

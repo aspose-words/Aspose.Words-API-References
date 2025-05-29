@@ -3,14 +3,14 @@ title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words لـ .NET
-description: ListLabel Font ملكية. الحصول على خط تسمية القائمة في C#.
+description: اكتشف خاصية خط ListLabel لتخصيص نمط خط تسمية القائمة الخاصة بك وتعزيز تصميمك للحصول على لمسة احترافية.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/listlabel/font/
 ---
 ## ListLabel.Font property
 
-الحصول على خط تسمية القائمة.
+يحصل على خط تسمية القائمة.
 
 ```csharp
 public Font Font { get; }

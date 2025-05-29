@@ -3,14 +3,14 @@ title: FieldOptions Class
 linktitle: FieldOptions
 articleTitle: FieldOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldOptions فصل. يمثل خيارات للتحكم في المعالجة الميدانية في المستند في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldOptions لتحسين التعامل مع الحقول في المستندات، مما يعزز سير عملك وكفاءة إدارة المستندات.
 type: docs
-weight: 2250
+weight: 2660
 url: /ar/net/aspose.words.fields/fieldoptions/
 ---
 ## FieldOptions class
 
-يمثل خيارات للتحكم في المعالجة الميدانية في المستند.
+يمثل خيارات للتحكم في التعامل مع الحقول في المستند.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
@@ -22,58 +22,58 @@ public sealed class FieldOptions
 
 | اسم | وصف |
 | --- | --- |
-| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator/) { get; set; } | الحصول على أو تعيين مولد باركود مخصص. |
-| [BibliographyStylesProvider](../../aspose.words.fields/fieldoptions/bibliographystylesprovider/) { get; set; } | الحصول على أو تعيين موفر يُرجع نمط المراجع لـ [`FieldBibliography`](../fieldbibliography/) و[`FieldCitation`](../fieldcitation/) الحقول. |
-| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths/) { get; set; } | الحصول على أو تعيين مسارات قوالب MS Word المضمنة. |
-| [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator/) { get; set; } | الحصول على أو تعيين مقيم تعبيرات مقارنة الحقول. |
-| [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser/) { get; set; } | الحصول على معلومات المستخدم الحالية أو تعيينها. |
-| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator/) { get; set; } | الحصول على فاصل نمط مخصص أو تعيينه للتبديل \t[`FieldToc`](../fieldtoc/) الحقل. |
-| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor/) { get; set; } | الحصول على أو تعيين اسم مؤلف المستند الافتراضي. إذا كان اسم المؤلف محددًا بالفعل في خصائص المستند المضمنة، فلن يتم أخذ هذا الخيار في الاعتبار. |
-| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider/) { get; set; } | الحصول على أو تعيين موفر يقوم بإرجاع نتيجة استعلام لـ[`FieldDatabase`](../fielddatabase/) الحقل. |
-| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat/) { get; set; } | الحصول على أو تعيين a[`FieldIndexFormat`](./fieldindexformat/) الذي يمثل التنسيق لـ[`FieldIndex`](../fieldindex/) الحقول في الوثيقة. |
-| [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider/) { get; set; } | الحصول على أو تعيين الموفر الذي يُرجع كائن الثقافة الخاص بكل حقل معين. |
+| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator/) { get; set; } | يحصل على مولد الباركود المخصص أو يعينه. |
+| [BibliographyStylesProvider](../../aspose.words.fields/fieldoptions/bibliographystylesprovider/) { get; set; } | يحصل على أو يعين موفرًا يعيد نمط ببليوغرافيا لـ [`FieldBibliography`](../fieldbibliography/) و[`FieldCitation`](../fieldcitation/) الحقول. |
+| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths/) { get; set; } | يحصل على مسارات قوالب MS Word المضمنة أو يعينها. |
+| [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator/) { get; set; } | يحصل على أو يعين مُقيِّم تعبيرات مقارنة الحقل. |
+| [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser/) { get; set; } | يحصل على معلومات المستخدم الحالية أو يعينها. |
+| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator/) { get; set; } | يحصل على أو يعين فاصل النمط المخصص لمفتاح \t في[`FieldToc`](../fieldtoc/) الحقل. |
+| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor/) { get; set; } | يحصل على اسم مؤلف المستند الافتراضي أو يعيّنه. إذا كان اسم المؤلف محددًا مسبقًا في خصائص المستند المضمنة، فلن يُؤخذ هذا الخيار في الاعتبار. |
+| [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider/) { get; set; } | يحصل على أو يعين موفرًا يعيد نتيجة استعلام لـ[`FieldDatabase`](../fielddatabase/) الحقل. |
+| [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat/) { get; set; } | يحصل على أو يعين[`FieldIndexFormat`](./fieldindexformat/) الذي يمثل التنسيق لـ[`FieldIndex`](../fieldindex/) الحقول في المستند. |
+| [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider/) { get; set; } | يحصل على أو يعين موفرًا يعيد كائن ثقافة محددًا لكل حقل معين. |
 | [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource/) { get; set; } | يحدد الثقافة التي سيتم استخدامها لتنسيق نتيجة الحقل. |
-| [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback/) { get; set; } | يحصل على أو مجموعات[`IFieldUpdatingCallback`](../ifieldupdatingcallback/) التنفيذ |
-| [FieldUpdatingProgressCallback](../../aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/) { get; set; } | يحصل على أو مجموعات[`IFieldUpdatingProgressCallback`](../ifieldupdatingprogresscallback/) التنفيذ. |
-| [FileName](../../aspose.words.fields/fieldoptions/filename/) { get; set; } | الحصول على اسم ملف المستند أو تعيينه. |
-| [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) { get; set; } | الحصول على أو تعيين القيمة التي تشير إلى ما إذا كان النص ثنائي الاتجاه مدعومًا بالكامل أثناء التحديث الميداني أم لا. |
-| [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat/) { get; set; } | الحصول على القيمة التي تشير إلى ما إذا كان تنسيق الأرقام القديم (أقدم من AW 13.10) للحقول أو تعيينه ممكنًا أم لا. |
-| [PreProcessCulture](../../aspose.words.fields/fieldoptions/preprocessculture/) { get; set; } | الحصول على الثقافة أو تعيينها لمعالجة قيم الحقول مسبقًا. |
+| [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback/) { get; set; } | يحصل أو يعين[`IFieldUpdatingCallback`](../ifieldupdatingcallback/) التنفيذ |
+| [FieldUpdatingProgressCallback](../../aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/) { get; set; } | يحصل أو يعين[`IFieldUpdatingProgressCallback`](../ifieldupdatingprogresscallback/) التنفيذ. |
+| [FileName](../../aspose.words.fields/fieldoptions/filename/) { get; set; } | يحصل على اسم ملف المستند أو يعينه. |
+| [IsBidiTextSupportedOnUpdate](../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) { get; set; } | يحصل على القيمة التي تشير إلى ما إذا كان النص ثنائي الاتجاه مدعومًا بالكامل أثناء تحديث الحقل أم لا أو يعينها. |
+| [LegacyNumberFormat](../../aspose.words.fields/fieldoptions/legacynumberformat/) { get; set; } | يحصل على القيمة التي تشير إلى ما إذا كان تنسيق الأرقام القديم (الأقدم من AW 13.10) للحقول ممكّنًا أم لا أو يعينها. |
+| [PreProcessCulture](../../aspose.words.fields/fieldoptions/preprocessculture/) { get; set; } | يحصل على الثقافة أو يعينها لمعالجة قيم الحقول مسبقًا. |
 | [ResultFormatter](../../aspose.words.fields/fieldoptions/resultformatter/) { get; set; } | يسمح بالتحكم في كيفية تنسيق نتيجة الحقل. |
-| [TemplateName](../../aspose.words.fields/fieldoptions/templatename/) { get; set; } | الحصول على أو تعيين اسم ملف القالب الذي يستخدمه المستند. |
-| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories/) { get; set; } | الحصول على أو تعيين جدول فئات المراجع. |
-| [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | الحصول على أو تعيين القيمة التي تشير إلى أنه تم تحليل تنسيق الأرقام باستخدام الثقافة الثابتة أو not |
-| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | الحصول على المستجيب أو تعيينه لمطالبات المستخدم أثناء التحديث الميداني. |
+| [TemplateName](../../aspose.words.fields/fieldoptions/templatename/) { get; set; } | يحصل على اسم ملف القالب الذي يستخدمه المستند أو يعينه. |
+| [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories/) { get; set; } | يحصل على فئات جدول السلطات أو يعينها. |
+| [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | يحصل على القيمة أو يعينها للإشارة إلى أن تنسيق الرقم يتم تحليله باستخدام ثقافة ثابتة أم لا |
+| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | يحصل على المستجيب أو يعينه على مطالبات المستخدم أثناء تحديث الحقل. |
 
 ## أمثلة
 
-يوضح كيفية تحديد مصدر الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل أو دمج المراسلات.
+يوضح كيفية تحديد مصدر الثقافة المستخدمة لتنسيق التاريخ أثناء تحديث الحقل أو دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقلين مدمجين باللغة الألمانية.
+// أدخل حقلي دمج باللغة الألمانية.
 builder.Font.LocaleId = new CultureInfo("de-DE").LCID;
 builder.InsertField("MERGEFIELD Date1 \\@ \"dddd, d MMMM yyyy\"");
 builder.Write(" - ");
 builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
-// اضبط الثقافة الحالية على اللغة الإنجليزية الأمريكية بعد الحفاظ على قيمتها الأصلية في متغير.
+// قم بتعيين الثقافة الحالية إلى اللغة الإنجليزية الأمريكية بعد الحفاظ على قيمتها الأصلية في المتغير.
 CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
 // سيستخدم هذا الدمج ثقافة الموضوع الحالي لتنسيق التاريخ، باللغة الإنجليزية الأمريكية.
 doc.MailMerge.Execute(new[] { "Date1" }, new object[] { new DateTime(2020, 1, 01) });
 
-// قم بتكوين الدمج التالي لمصدر قيمة الثقافة الخاصة به من رمز الحقل. وستكون قيمة تلك الثقافة ألمانية.
+// قم بتكوين الدمج التالي للحصول على قيمة ثقافته من رمز الحقل. ستكون قيمة هذه الثقافة بالألمانية.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 doc.MailMerge.Execute(new[] { "Date2" }, new object[] { new DateTime(2020, 1, 01) });
 
-// تحتوي نتيجة الدمج الأولى على تاريخ منسق باللغة الإنجليزية، بينما تحتوي النتيجة الثانية على تاريخ منسق باللغة الألمانية.
+// تحتوي نتيجة الدمج الأولى على تاريخ بتنسيق اللغة الإنجليزية، بينما النتيجة الثانية باللغة الألمانية.
 Assert.AreEqual("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020", doc.Range.Text.Trim());
 
-// استعادة الثقافة الأصلية للخيط.
+//استعادة ثقافة الموضوع الأصلية.
 Thread.CurrentThread.CurrentCulture = currentCulture;
 ```
 

@@ -3,14 +3,14 @@ title: ThemeFonts Class
 linktitle: ThemeFonts
 articleTitle: ThemeFonts
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Themes.ThemeFonts فصل. يمثل مجموعة من الخطوط في نظام الخطوط مما يسمح بتحديد خطوط مختلفة للغات مختلفةLatin EastAsian وComplexScript  في C#.
+description: اكتشف فئة Aspose.Words ThemeFonts، وهي أداة قوية لإدارة مخططات الخطوط متعددة اللغات، مما يعزز أسلوب مستندك وقابليته للقراءة.
 type: docs
-weight: 6500
+weight: 7350
 url: /ar/net/aspose.words.themes/themefonts/
 ---
 ## ThemeFonts class
 
-يمثل مجموعة من الخطوط في نظام الخطوط، مما يسمح بتحديد خطوط مختلفة للغات مختلفة[`Latin`](./latin/) ,[`EastAsian`](./eastasian/) و[`ComplexScript`](./complexscript/) .
+يمثل مجموعة من الخطوط في مخطط الخطوط، مما يسمح بتحديد خطوط مختلفة للغات مختلفة[`Latin`](./latin/) ،[`EastAsian`](./eastasian/) و[`ComplexScript`](./complexscript/) .
 
 لمعرفة المزيد، قم بزيارة[العمل مع الأنماط والموضوعات](https://docs.aspose.com/words/net/working-with-styles-and-themes/) مقالة توثيقية.
 
@@ -23,7 +23,7 @@ public class ThemeFonts
 | اسم | وصف |
 | --- | --- |
 | [ComplexScript](../../aspose.words.themes/themefonts/complexscript/) { get; set; } | يحدد اسم الخط لأحرف ComplexScript. |
-| [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | يحدد اسم الخط لأحرف EastAsian. |
+| [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | يحدد اسم الخط للأحرف EastAsian. |
 | [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | يحدد اسم الخط للأحرف اللاتينية. |
 
 ## أمثلة
@@ -33,24 +33,24 @@ public class ThemeFonts
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// يمنحنا كائن "Theme" إمكانية الوصول إلى سمة المستند، وهو مصدر الخطوط والألوان الافتراضية.
+// يمنحنا كائن "المظهر" إمكانية الوصول إلى مظهر المستند، وهو مصدر الخطوط والألوان الافتراضية.
 Theme theme = doc.Theme;
 
 // بعض الأنماط، مثل "العنوان 1" و"العنوان الفرعي"، سوف ترث هذه الخطوط.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// قد يكون للغات الأخرى أيضًا خطوطها المخصصة في هذا الموضوع.
+// قد يكون للغات الأخرى أيضًا خطوطها المخصصة في هذا المظهر.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
 // تحتوي خاصية "الألوان" على لوحة الألوان من Microsoft Word،
-// والذي يظهر عند تغيير التظليل أو لون الخط.
-// قم بتطبيق ألوان مخصصة على لوحة الألوان حتى نتمكن من الوصول إليها بسهولة في Microsoft Word
+//الذي يظهر عند تغيير التظليل أو لون الخط.
+// تطبيق ألوان مخصصة على لوحة الألوان حتى نتمكن من الوصول إليها بسهولة في Microsoft Word
 // عندما نقوم، على سبيل المثال، بتغيير لون الخط عبر "الصفحة الرئيسية" -> "الخط" -> "لون الخط"،
-// أو قم بإدراج شكل ثم قم بتعيين لون له عبر "تنسيق الشكل" -> "أنماط الشكل".
+// أو أدخل شكلًا، ثم قم بتعيين لون له عبر "تنسيق الشكل" -> "أنماط الشكل".
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -64,7 +64,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// تطبيق ألوان مخصصة على الارتباطات التشعبية في حالات النقر عليها وعدم النقر عليها.
+// تطبيق الألوان المخصصة على الروابط التشعبية في حالتها عند النقر عليها أو عدم النقر عليها.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

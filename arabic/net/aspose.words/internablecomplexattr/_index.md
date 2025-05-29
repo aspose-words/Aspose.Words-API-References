@@ -3,16 +3,16 @@ title: InternableComplexAttr Class
 linktitle: InternableComplexAttr
 articleTitle: InternableComplexAttr
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.InternableComplexAttr فصل. الفئة الأساسية للسمة المعقدة القابلة للداخل. يجب أن تقوم السمة المعقدة القابلة للداخل بإعلام المجموعة الأصلية عند تغييرها في C#.
+description: اكتشف فئة Aspose.Words.InternableComplexAttr، الحل الأمثل لإدارة السمات المعقدة بكفاءة. تمتع بتحديثات سلسة في المجموعات الرئيسية!
 type: docs
-weight: 3280
+weight: 3730
 url: /ar/net/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class
 
-الفئة الأساسية للسمة المعقدة القابلة للداخل. يجب أن تقوم السمة المعقدة القابلة للداخل بإعلام المجموعة الأصلية عند تغييرها.
+الفئة الأساسية لخاصية معقدة قابلة للتحويل. يجب على الخاصية المعقدة القابلة للتحويل إخطار المجموعة الرئيسية عند تغييرها.
 
-لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[نموذج كائن المستند (DOM) في Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public abstract class InternableComplexAttr

@@ -3,14 +3,14 @@ title: BookmarksOutlineLevelCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words لـ .NET
-description: BookmarksOutlineLevelCollection Add طريقة. إضافة إشارة مرجعية إلى المجموعة في C#.
+description: اكتشف كيفية تعزيز مشروعك باستخدام طريقة الإضافة BookmarksOutlineLevelCollection، مما يتيح لك بسهولة إضافة إشارات مرجعية إلى مجموعتك لتحسين التنظيم.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/bookmarksoutlinelevelcollection/add/
 ---
 ## BookmarksOutlineLevelCollection.Add method
 
-إضافة إشارة مرجعية إلى المجموعة.
+يضيف إشارة مرجعية إلى المجموعة.
 
 ```csharp
 public void Add(string name, int outlineLevel)
@@ -18,18 +18,18 @@ public void Add(string name, int outlineLevel)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| name | String | الاسم غير الحساس لحالة الأحرف للإشارة المرجعية المطلوب إضافتها. |
-| outlineLevel | Int32 | مستوى المخطط التفصيلي للإشارة المرجعية. النطاق الصالح هو 0 إلى 9. |
+| name | String | اسم الإشارة المرجعية التي تريد إضافتها دون مراعاة حالة الأحرف. |
+| outlineLevel | Int32 | مستوى مخطط الإشارة المرجعية. النطاق الصحيح من ٠ إلى ٩. |
 
 ## أمثلة
 
-يوضح كيفية تعيين مستويات المخطط التفصيلي للإشارات المرجعية.
+يوضح كيفية تعيين مستويات الخطوط العريضة للإشارات المرجعية.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل إشارة مرجعية مع إشارة مرجعية أخرى متداخلة بداخلها.
+// قم بإدراج إشارة مرجعية مع وجود إشارة مرجعية أخرى متداخلة بداخلها.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -40,14 +40,14 @@ builder.EndBookmark("Bookmark 2");
 builder.Writeln("Text inside Bookmark 1.");
 builder.EndBookmark("Bookmark 1");
 
-// أدخل إشارة مرجعية أخرى.
+//إدراج إشارة مرجعية أخرى.
 builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// عند الحفظ بصيغة pdf.، يمكن الوصول إلى الإشارات المرجعية عبر القائمة المنسدلة واستخدامها كنقاط ارتساء من قبل معظم القراء.
+// عند الحفظ بصيغة .pdf، يمكن الوصول إلى الإشارات المرجعية عبر قائمة منسدلة واستخدامها كمرسيات من قبل معظم القراء.
 // يمكن أن تحتوي الإشارات المرجعية أيضًا على قيم رقمية لمستويات المخطط التفصيلي،
-// تمكين إدخالات المخطط التفصيلي ذات المستوى الأدنى لإخفاء الإدخالات الفرعية ذات المستوى الأعلى عند طيها في القارئ.
+// تمكين إدخالات المخطط التفصيلي ذات المستوى الأدنى لإخفاء إدخالات الطفل ذات المستوى الأعلى عند طيها في القارئ.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -61,18 +61,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// يمكننا إزالة عنصرين بحيث لا يتبقى سوى تعيين مستوى المخطط التفصيلي لـ "الإشارة المرجعية 1".
+// يمكننا إزالة عنصرين بحيث يتبقى فقط تعيين مستوى المخطط التفصيلي لـ "الإشارة المرجعية 1".
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// هناك تسعة مستويات المخطط التفصيلي. سيتم تحسين ترقيمها أثناء عملية الحفظ.
-// في هذه الحالة، سيصبح المستويان "5" و"9" "2" و"3".
+// هناك تسعة مستويات للمخطط. سيتم تحسين ترقيمها أثناء عملية الحفظ.
+// في هذه الحالة، سوف تصبح المستويات "5" و"9" "2" و"3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// سيؤدي إفراغ هذه المجموعة إلى الحفاظ على الإشارات المرجعية ووضعها كلها على نفس مستوى المخطط التفصيلي.
+// سيؤدي إفراغ هذه المجموعة إلى الحفاظ على الإشارات المرجعية ووضعها جميعًا على نفس مستوى المخطط التفصيلي.
 outlineLevels.Clear();
 ```
 

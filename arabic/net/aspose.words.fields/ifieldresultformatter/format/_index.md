@@ -3,14 +3,14 @@ title: IFieldResultFormatter.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words لـ .NET
-description: IFieldResultFormatter Format طريقة. يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة على سبيل المثال  Upper في C#.
+description: اكتشف طريقة التنسيق iFieldResultFormatter في Aspose.Words التي تعمل على تحسين تنسيق المستندات باستخدام خيارات الأحرف الكبيرة القابلة للتخصيص مثل الأحرف الكبيرة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifieldresultformatter/format/
 ---
 ## Format(*string, [GeneralFormat](../../generalformat/)*) {#format_1}
 
-يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الكتابة بالأحرف الكبيرة، على سبيل المثال \* Upper.
+يتم استدعاؤها عندما يطبق Aspose.Words مفتاح تنسيق الأحرف الكبيرة، على سبيل المثال \* Upper.
 
 ```csharp
 public string Format(string value, GeneralFormat format)
@@ -18,11 +18,11 @@ public string Format(string value, GeneralFormat format)
 
 ## ملاحظات
 
-يجب أن يعود التنفيذ`باطل` للإشارة إلى ضرورة تطبيق التنسيق الافتراضي.
+يجب أن يعود التنفيذ`باطل` للإشارة إلى أنه يجب تطبيق التنسيق الافتراضي.
 
 ## أمثلة
 
-يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
+يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول أثناء تحديث الحقول.
 
 ```csharp
 public void FieldResultFormatting()
@@ -32,9 +32,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // يطبق منسق نتيجة الحقل الخاص بنا تنسيقًا مخصصًا على الحقول التي تم إنشاؤها حديثًا والتي تتكون من ثلاثة أنواع من التنسيقات.
-    // يطبق منسقو نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
-    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField.
+    // يقوم منسق نتيجة الحقل الخاص بنا بتطبيق تنسيق مخصص على الحقول التي تم إنشاؤها حديثًا بثلاثة أنواع من التنسيقات.
+    // تطبق منسقات نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
+    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField هذه.
     // 1 - رقمي:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -57,8 +57,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// عندما يتم تحديث الحقول ذات التنسيق، سيتجاوز هذا المنسق تنسيقها
-/// بتنسيق مخصص، أثناء تتبع كل استدعاء.
+/// عند تحديث الحقول ذات التنسيق، سيتجاوز هذا المُنسِّق تنسيقها
+/// بتنسيق مخصص، مع تتبع كل استدعاء.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -113,12 +113,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +
@@ -165,7 +164,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
 ## Format(*double, [GeneralFormat](../../generalformat/)*) {#format}
 
-يتم استدعاؤه عندما يقوم Aspose.Words بتطبيق تبديل تنسيق الأرقام، على سبيل المثال \* Ordinal.
+يتم استدعاؤها عندما يطبق Aspose.Words مفتاح تنسيق الأرقام، أي \* Ordinal.
 
 ```csharp
 public string Format(double value, GeneralFormat format)
@@ -173,11 +172,11 @@ public string Format(double value, GeneralFormat format)
 
 ## ملاحظات
 
-يجب أن يعود التنفيذ`باطل` للإشارة إلى ضرورة تطبيق التنسيق الافتراضي.
+يجب أن يعود التنفيذ`باطل` للإشارة إلى أنه يجب تطبيق التنسيق الافتراضي.
 
 ## أمثلة
 
-يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول عندما يتم تحديث الحقول.
+يوضح كيفية تطبيق تنسيق مخصص تلقائيًا على نتائج الحقول أثناء تحديث الحقول.
 
 ```csharp
 public void FieldResultFormatting()
@@ -187,9 +186,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // يطبق منسق نتيجة الحقل الخاص بنا تنسيقًا مخصصًا على الحقول التي تم إنشاؤها حديثًا والتي تتكون من ثلاثة أنواع من التنسيقات.
-    // يطبق منسقو نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
-    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField.
+    // يقوم منسق نتيجة الحقل الخاص بنا بتطبيق تنسيق مخصص على الحقول التي تم إنشاؤها حديثًا بثلاثة أنواع من التنسيقات.
+    // تطبق منسقات نتائج الحقول تنسيقًا جديدًا على الحقول عند تحديثها،
+    // والذي يحدث بمجرد إنشائها باستخدام التحميل الزائد لطريقة InsertField هذه.
     // 1 - رقمي:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -212,8 +211,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// عندما يتم تحديث الحقول ذات التنسيق، سيتجاوز هذا المنسق تنسيقها
-/// بتنسيق مخصص، أثناء تتبع كل استدعاء.
+/// عند تحديث الحقول ذات التنسيق، سيتجاوز هذا المُنسِّق تنسيقها
+/// بتنسيق مخصص، مع تتبع كل استدعاء.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -268,12 +267,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

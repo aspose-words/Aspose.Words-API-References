@@ -3,14 +3,14 @@ title: DocumentProperty.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words لـ .NET
-description: DocumentProperty Name ملكية. إرجاع اسم الخاصية في C#.
+description: اكتشف ميزة DocumentProperty Name التي تعمل على استرجاع أسماء الخصائص بسهولة، مما يعزز إدارة المستندات وكفاءة سير العمل.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.properties/documentproperty/name/
 ---
 ## DocumentProperty.Name property
 
-إرجاع اسم الخاصية.
+يعيد اسم الخاصية.
 
 ```csharp
 public string Name { get; }
@@ -18,7 +18,7 @@ public string Name { get; }
 
 ## ملاحظات
 
-لا يمكن`باطل` ولا يمكن أن تكون سلسلة فارغة.
+لا يمكن أن يكون`باطل` ولا يمكن أن تكون سلسلة فارغة.
 
 ## أمثلة
 
@@ -27,10 +27,10 @@ public string Name { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كائن "المستند" على بعض بيانات التعريف الخاصة به في أعضائه.
+//يحتوي كائن "المستند" على بعض بياناته الوصفية في أعضائه.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// يقوم المستند أيضًا بتخزين البيانات التعريفية في خصائصه المضمنة.
+// تقوم الوثيقة أيضًا بتخزين البيانات الوصفية في خصائصها المضمنة.
 // كل خاصية مضمنة هي عضو في كائن "BuiltInDocumentProperties" الخاص بالمستند.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.DocumentSplitCriteria
 linktitle: DocumentSplitCriteria
 articleTitle: DocumentSplitCriteria
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions DocumentSplitCriteria ملكية. يحدد كيفية تقسيم المستند عند الحفظ فيهHtmlEpub أوAzw3 شكل. الافتراضي هوNone لـ HTML و HeadingParagraph لـ EPUB وAZW3 في C#.
+description: اكتشف خاصية HtmlSaveOptions DocumentSplitCriteria لتحسين حفظ المستندات بتنسيقات HTML وEPUB وAZW3. حسّن تحكمك في التنسيق اليوم!
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/htmlsaveoptions/documentsplitcriteria/
 ---
 ## HtmlSaveOptions.DocumentSplitCriteria property
 
-يحدد كيفية تقسيم المستند عند الحفظ فيهHtmlEpub أوAzw3 شكل. الافتراضي هوNone لـ HTML و HeadingParagraph لـ EPUB وAZW3.
+يحدد كيفية تقسيم المستند عند الحفظ فيHtml ، Epub أوAzw3 التنسيق الافتراضي هوNone لـ HTML و HeadingParagraph لـ EPUB وAZW3.
 
 ```csharp
 public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
@@ -18,26 +18,26 @@ public DocumentSplitCriteria DocumentSplitCriteria { get; set; }
 
 ## ملاحظات
 
-عادةً ما تريد حفظ مستند بتنسيق HTML كملف واحد. ولكن في بعض الحالات يفضل تقسيم المخرجات إلى عدة صفحات HTML أصغر. عند الحفظ بتنسيق HTML، سيتم إخراج هذه الصفحات إلى ملفات أو تدفقات فردية. عند الحفظ بتنسيق EPUB، سيتم دمجها في الحزم المقابلة.
+عادةً ما تريد حفظ مستند بتنسيق HTML كملف واحد. ولكن في بعض الحالات يكون من الأفضل تقسيم الإخراج إلى عدة صفحات HTML أصغر. عند الحفظ بتنسيق HTML، سيتم إخراج هذه الصفحات إلى ملفات أو تدفقات فردية. عند الحفظ بتنسيق EPUB، سيتم دمجها في الحزم المقابلة.
 
-لا يمكن تقسيم المستند عند حفظه بتنسيق MHTML.
+لا يمكن تقسيم المستند عند الحفظ بتنسيق MHTML.
 
 ## أمثلة
 
-يوضح كيفية استخدام ترميز معين عند حفظ مستند إلى .epub.
+يوضح كيفية استخدام ترميز معين عند حفظ مستند بتنسيق .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// استخدم كائن SaveOptions لتحديد ترميز المستند الذي سنقوم بحفظه.
+// استخدم كائن SaveOptions لتحديد الترميز للمستند الذي سنحفظه.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// بشكل افتراضي، سيحتوي مستند الإخراج .epub على جميع محتوياته في جزء HTML واحد.
-// يسمح لنا معيار التقسيم بتقسيم المستند إلى عدة أجزاء بتنسيق HTML.
-// سنضع المعايير لتقسيم الوثيقة إلى فقرات رأسية.
-// هذا مفيد للقراء الذين لا يستطيعون قراءة ملفات HTML ذات حجم أكبر من حجم معين.
+// بشكل افتراضي، سيكون مستند .epub الناتج يحتوي على كل محتوياته في جزء HTML واحد.
+// يسمح لنا معيار التقسيم بتقسيم المستند إلى عدة أجزاء HTML.
+// سوف نقوم بتحديد المعايير لتقسيم المستند إلى فقرات عنوانية.
+// يعد هذا مفيدًا للقراء الذين لا يستطيعون قراءة ملفات HTML ذات حجم أكبر من حجم معين.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // حدد أننا نريد تصدير خصائص المستند.

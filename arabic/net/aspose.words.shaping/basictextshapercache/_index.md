@@ -3,14 +3,14 @@ title: BasicTextShaperCache Class
 linktitle: BasicTextShaperCache
 articleTitle: BasicTextShaperCache
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Shaping.BasicTextShaperCache فصل. يطبق ذاكرة التخزين المؤقت الأساسية لـITextShaper الحالات. هذه الفئة آمنة لمؤشر الترابط في C#.
+description: اكتشف فئة Aspose.Words.Shaping.BasicTextShaperCache—الحل الخاص بك للتخزين المؤقت الفعال والآمن للخيوط لمثيلات ITextShaper لتحسين معالجة النصوص.
 type: docs
-weight: 6000
+weight: 6830
 url: /ar/net/aspose.words.shaping/basictextshapercache/
 ---
 ## BasicTextShaperCache class
 
-يطبق ذاكرة التخزين المؤقت الأساسية لـ[`ITextShaper`](../itextshaper/) الحالات. هذه الفئة آمنة لمؤشر الترابط.
+ينفذ ذاكرة التخزين المؤقت الأساسية لـ[`ITextShaper`](../itextshaper/) الحالات. هذه الفئة آمنة للخيوط.
 
 ```csharp
 public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
@@ -20,13 +20,13 @@ public sealed class BasicTextShaperCache : IDisposable, ITextShaperFactory
 
 | اسم | وصف |
 | --- | --- |
-| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | يلتف*factory* والمخابئ[`GetTextShaper`](../itextshaperfactory/gettextshaper/) النتائج. |
+| [BasicTextShaperCache](basictextshapercache/)(*[ITextShaperFactory](../itextshaperfactory/)*) | لفات*factory* و مخابئ[`GetTextShaper`](../itextshaperfactory/gettextshaper/) النتائج. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose/)() | يتخلص من ذاكرة التخزين المؤقت[`ITextShaper`](../itextshaper/) الحالات. |
+| [Dispose](../../aspose.words.shaping/basictextshapercache/dispose/)() | يتخلص من البيانات المخزنة مؤقتًا[`ITextShaper`](../itextshaper/) الحالات. |
 
 ### أنظر أيضا
 

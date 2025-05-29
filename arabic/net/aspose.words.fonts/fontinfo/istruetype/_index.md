@@ -3,14 +3,14 @@ title: FontInfo.IsTrueType
 linktitle: IsTrueType
 articleTitle: IsTrueType
 second_title: Aspose.Words لـ .NET
-description: FontInfo IsTrueType ملكية. يشير إلى أن هذا الخط هو خط TrueType أو OpenType بدلاً من الخط النقطي أو المتجه. الافتراضي هوحقيقي  في C#.
+description: اكتشف خاصية IsTrueType في FontInfo، وتأكد من أن الخط الخاص بك هو TrueType أو OpenType للحصول على جودة فائقة - مثالية للتصميمات الواضحة والقابلة للتطوير.
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words.fonts/fontinfo/istruetype/
 ---
 ## FontInfo.IsTrueType property
 
-يشير إلى أن هذا الخط هو خط TrueType أو OpenType بدلاً من الخط النقطي أو المتجه. الافتراضي هو`حقيقي` .
+يشير إلى أن هذا الخط هو خط TrueType أو OpenType وليس خطًا نقطيًا أو متجهًا. الافتراضي هو`حقيقي` .
 
 ```csharp
 public bool IsTrueType { get; set; }
@@ -24,7 +24,7 @@ public bool IsTrueType { get; set; }
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// اطبع جميع الخطوط المستخدمة وغير المستخدمة في المستند.
+//طباعة جميع الخطوط المستخدمة وغير المستخدمة في المستند.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

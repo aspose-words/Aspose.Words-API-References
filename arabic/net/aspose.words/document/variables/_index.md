@@ -3,14 +3,14 @@ title: Document.Variables
 linktitle: Variables
 articleTitle: Variables
 second_title: Aspose.Words لـ .NET
-description: Document Variables ملكية. إرجاع مجموعة المتغيرات المضافة إلى مستند أو قالب في C#.
+description: اكتشف متغيرات المستندات. تمتع بمجموعة فعّالة من المتغيرات القابلة للتخصيص لمستنداتك وقوالبك، مما يُحسّن الكفاءة والمرونة.
 type: docs
-weight: 440
+weight: 460
 url: /ar/net/aspose.words/document/variables/
 ---
 ## Document.Variables property
 
-إرجاع مجموعة المتغيرات المضافة إلى مستند أو قالب.
+يعيد مجموعة المتغيرات المضافة إلى مستند أو قالب.
 
 ```csharp
 public VariableCollection Variables { get; }
@@ -18,20 +18,20 @@ public VariableCollection Variables { get; }
 
 ## أمثلة
 
-يوضح كيفية العمل مع مجموعة متغيرات المستند.
+يوضح كيفية العمل مع مجموعة المتغيرات الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// يحتوي كل مستند على مجموعة من متغيرات زوج المفتاح/القيمة، والتي يمكننا إضافة عناصر إليها.
+// تحتوي كل وثيقة على مجموعة من متغيرات أزواج المفتاح/القيمة، والتي يمكننا إضافة عناصر إليها.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// يمكننا عرض قيم المتغيرات في نص الوثيقة باستخدام حقول DOCVARIABLE.
+//يمكننا عرض قيم المتغيرات في نص المستند باستخدام حقول DOCVARIABLE.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -49,7 +49,7 @@ field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-// التحقق من وجود متغيرات المستند ذات اسم أو قيمة معينة.
+// تأكد من وجود متغيرات المستند التي تحمل اسمًا أو قيمة معينة.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
@@ -58,13 +58,16 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// تعداد مجموعة المتغيرات.
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
+//إحصاء مجموعة المتغيرات.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
 // فيما يلي ثلاث طرق لإزالة متغيرات المستند من المجموعة.
-// 1 - بالاسم:
+// 1 - حسب الاسم:
 variables.Remove("City");
 
 Assert.False(variables.Contains("City"));
@@ -77,7 +80,7 @@ Assert.False(variables.Contains("Home address"));
 // 3 - مسح المجموعة بأكملها مرة واحدة:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### أنظر أيضا

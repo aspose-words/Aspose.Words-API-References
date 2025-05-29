@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart Color ملكية. الحصول على أو تعيين لون علامة المستند المنظمة في C#.
+description: اكتشف كيفية تخصيص خاصية اللون في StructuredDocumentTagRangeStart لتحسين تنسيق المستندات وتحسين المظهر المرئي.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/color/
 ---
 ## StructuredDocumentTagRangeStart.Color property
 
-الحصول على أو تعيين لون علامة المستند المنظمة.
+يحصل على لون علامة المستند المنظم أو يعينه.
 
 ```csharp
 public Color Color { get; set; }
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

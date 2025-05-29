@@ -3,14 +3,14 @@ title: Cluster.Glyphs
 linktitle: Glyphs
 articleTitle: Glyphs
 second_title: Aspose.Words لـ .NET
-description: Cluster Glyphs ملكية. يحصل على الحروف الرسومية للمجموعة في C#.
+description: اكتشف رموز المجموعات. استرجع الرموز من مجموعاتك وأدرها بكفاءة لتحسين التصميم والأداء. أطلق العنان لإمكانات مشروعك!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.shaping/cluster/glyphs/
 ---
 ## Cluster.Glyphs property
 
-يحصل على الحروف الرسومية للمجموعة.
+يحصل على رموز المجموعة.
 
 ```csharp
 public Glyph[] Glyphs { get; }

@@ -3,14 +3,14 @@ title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
 second_title: Aspose.Words لـ .NET
-description: Font StrikeThrough ملكية. صحيح إذا تم تنسيق الخط كنص يتوسطه خط في C#.
+description: اكتشف خاصية "خط الشطب". نسّق النصوص بسهولة باستخدام الشطب لإضافة لمسة بصرية واضحة إلى تصاميمك. حسّن سهولة القراءة اليوم!
 type: docs
-weight: 390
+weight: 400
 url: /ar/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
 
-صحيح إذا تم تنسيق الخط كنص يتوسطه خط.
+صحيح إذا تم تنسيق الخط كنص مشطوب.
 
 ```csharp
 public bool StrikeThrough { get; set; }
@@ -18,7 +18,7 @@ public bool StrikeThrough { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إضافة خط يتوسطه خط إلى النص.
+يوضح كيفية إضافة خط مشطوب إلى النص.
 
 ```csharp
 Document doc = new Document();

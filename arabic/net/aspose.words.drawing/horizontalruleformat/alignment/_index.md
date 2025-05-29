@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words لـ .NET
-description: HorizontalRuleFormat Alignment ملكية. الحصول على أو تعيين محاذاة القاعدة الأفقية في C#.
+description: اكتشف خاصية محاذاة HorizontalRuleFormat لتخصيص محاذاة القواعد الأفقية بسهولة لتحسين مرونة التصميم.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/horizontalruleformat/alignment/
 ---
 ## HorizontalRuleFormat.Alignment property
 
-الحصول على أو تعيين محاذاة القاعدة الأفقية.
+يحصل على محاذاة القاعدة الأفقية أو يعينها.
 
 ```csharp
 public HorizontalRuleAlignment Alignment { get; set; }
@@ -22,7 +22,7 @@ public HorizontalRuleAlignment Alignment { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل مسطرة أفقية وتخصيص تنسيقها.
 
 ```csharp
 Document doc = new Document();

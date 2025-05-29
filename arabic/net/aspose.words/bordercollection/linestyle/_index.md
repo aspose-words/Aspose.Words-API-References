@@ -3,14 +3,14 @@ title: BorderCollection.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words لـ .NET
-description: BorderCollection LineStyle ملكية. الحصول على نمط الحدود أو تعيينه في C#.
+description: اكتشف خاصية BorderCollection LineStyle لتخصيص تصميمك بأنماط حدود مرنة. حسّن مظهر مشروعك البصري بسهولة!
 type: docs
 weight: 80
 url: /ar/net/aspose.words/bordercollection/linestyle/
 ---
 ## BorderCollection.LineStyle property
 
-الحصول على نمط الحدود أو تعيينه.
+يحصل على نمط الحدود أو يعينه.
 
 ```csharp
 public LineStyle LineStyle { get; set; }
@@ -18,13 +18,13 @@ public LineStyle LineStyle { get; set; }
 
 ## ملاحظات
 
-إرجاع نمط الحد الأول في المجموعة.
+إرجاع نمط الحدود الأولى في المجموعة.
 
-يضبط نمط كل الحدود في المجموعة باستثناء الحدود القطرية.
+تعيين نمط جميع الحدود في المجموعة باستثناء الحدود القطرية.
 
 ## أمثلة
 
-يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
+يوضح كيفية إنشاء حدود صفحة متموجة باللون الأخضر مع ظل.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: Forms2OleControlCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: Forms2OleControlCollection Item ملكية. يحصلForms2OleControl كائن في فهرس محدد في C#.
+description: يمكنك الوصول إلى كائن Forms2OleControl بسهولة باستخدام خاصية العنصر. بسّط إدارة عناصر التحكم لديك من خلال استرداد العناصر من أي فهرس بسلاسة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-يحصل[`Forms2OleControl`](../../forms2olecontrol/) كائن في فهرس محدد.
+يحصل[`Forms2OleControl`](../../forms2olecontrol/) الكائن عند فهرس محدد.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }
@@ -18,7 +18,7 @@ public Forms2OleControl this[int index] { get; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في المستند وعناصر التحكم التابعة له.
+يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في مستند وعناصر التحكم الفرعية الخاصة به.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
@@ -30,7 +30,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// قد تحتوي بعض عناصر تحكم OLE على عناصر تحكم فرعية، مثل تلك الموجودة في هذا المستند والتي تحتوي على ثلاثة أزرار خيارات.
+// قد تحتوي بعض عناصر تحكم OLE على عناصر تحكم فرعية، مثل تلك الموجودة في هذه الوثيقة والتي تحتوي على ثلاثة أزرار خيارات.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

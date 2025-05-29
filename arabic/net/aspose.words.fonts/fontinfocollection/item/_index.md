@@ -3,14 +3,14 @@ title: FontInfoCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: FontInfoCollection Item ملكية. الحصول على خط بالاسم المحدد في C#.
+description: اكتشف خاصية FontInfoCollection Item لاسترداد الخطوط بسهولة حسب الاسم، مما يعزز مشاريع التصميم الخاصة بك بدقة وأناقة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/fontinfocollection/item/
 ---
 ## FontInfoCollection indexer (1 of 2)
 
-الحصول على خط بالاسم المحدد.
+يحصل على خط بالاسم المحدد.
 
 ```csharp
 public FontInfo this[string name] { get; }
@@ -18,11 +18,11 @@ public FontInfo this[string name] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| name | اسم الخط الذي سيتم تحديد موقعه غير حساس لحالة الأحرف. |
+| name | اسم الخط الذي يجب تحديد موقعه دون مراعاة حالة الأحرف. |
 
 ## أمثلة
 
-يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
+يوضح كيفية استخراج الخط المضمن من مستند وحفظه في نظام الملفات المحلي.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -31,14 +31,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// قد تختلف تنسيقات الخطوط المضمنة في تنسيقات أخرى مثل .doc.
-// نحتاج إلى معرفة التنسيق الصحيح قبل أن نتمكن من استخراج الخط.
+//قد تختلف تنسيقات الخطوط المضمنة في التنسيقات الأخرى مثل .doc.
+//نحن بحاجة إلى معرفة التنسيق الصحيح قبل أن نتمكن من استخراج الخط.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// أيضًا، يمكننا تحويل تنسيق OpenType المضمن، والذي يأتي من مستندات ‎.doc، إلى OpenType.
+// كما يمكننا تحويل تنسيق OpenType المضمن، والذي يأتي من مستندات .doc، إلى OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
@@ -55,7 +55,7 @@ File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFon
 
 ## FontInfoCollection indexer (2 of 2)
 
-الحصول على خط في الفهرس المحدد.
+يحصل على خط في الفهرس المحدد.
 
 ```csharp
 public FontInfo this[int index] { get; }
@@ -63,11 +63,11 @@ public FontInfo this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | الفهرس الصفري للخط. |
+| index | فهرس الخط يبدأ من الصفر. |
 
 ## أمثلة
 
-يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
+يوضح كيفية استخراج الخط المضمن من مستند وحفظه في نظام الملفات المحلي.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -76,14 +76,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// قد تختلف تنسيقات الخطوط المضمنة في تنسيقات أخرى مثل .doc.
-// نحتاج إلى معرفة التنسيق الصحيح قبل أن نتمكن من استخراج الخط.
+//قد تختلف تنسيقات الخطوط المضمنة في التنسيقات الأخرى مثل .doc.
+//نحن بحاجة إلى معرفة التنسيق الصحيح قبل أن نتمكن من استخراج الخط.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// أيضًا، يمكننا تحويل تنسيق OpenType المضمن، والذي يأتي من مستندات ‎.doc، إلى OpenType.
+// كما يمكننا تحويل تنسيق OpenType المضمن، والذي يأتي من مستندات .doc، إلى OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

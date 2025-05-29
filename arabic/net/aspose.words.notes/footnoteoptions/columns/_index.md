@@ -3,14 +3,14 @@ title: FootnoteOptions.Columns
 linktitle: Columns
 articleTitle: Columns
 second_title: Aspose.Words لـ .NET
-description: FootnoteOptions Columns ملكية. يحدد عدد الأعمدة التي يتم تنسيق منطقة الحواشي السفلية بها في C#.
+description: اكتشف خاصية FootnoteOptions Columns لتنسيق الحواشي السفلية بسهولة باستخدام تخطيطات أعمدة قابلة للتخصيص لتحسين إمكانية القراءة والعرض.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.notes/footnoteoptions/columns/
 ---
 ## FootnoteOptions.Columns property
 
-يحدد عدد الأعمدة التي يتم تنسيق منطقة الحواشي السفلية بها.
+يحدد عدد الأعمدة التي سيتم تنسيق منطقة الحواشي السفلية بها.
 
 ```csharp
 public int Columns { get; set; }
@@ -18,7 +18,7 @@ public int Columns { get; set; }
 
 ## ملاحظات
 
-إذا كانت قيمة هذه الخاصية 0، فسيتم تنسيق منطقة الحواشي السفلية بعدد من الأعمدة بناءً على عدد الأعمدة في الصفحة المعروضة. القيمة الافتراضية هي 0.
+إذا كانت قيمة هذه الخاصية 0، فسيتم تنسيق منطقة الحواشي السفلية بعدد الأعمدة بناءً على عدد الأعمدة في الصفحة المعروضة. القيمة الافتراضية هي 0.
 
 ## أمثلة
 

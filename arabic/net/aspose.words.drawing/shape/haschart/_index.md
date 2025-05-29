@@ -3,14 +3,14 @@ title: Shape.HasChart
 linktitle: HasChart
 articleTitle: HasChart
 second_title: Aspose.Words لـ .NET
-description: Shape HasChart ملكية. إرجاعحقيقي اذا هذاShape لديهChart  في C#.
+description: اكتشف ما إذا كان شكلك يحتوي على مخطط باستخدام خاصية HasChart. حسّن تصور بياناتك بسهولة!
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.drawing/shape/haschart/
 ---
 ## Shape.HasChart property
 
-إرجاع`حقيقي` اذا هذا[`Shape`](../) لديه[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+إرجاع`حقيقي` إذا كان هذا[`Shape`](../) لديه[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public bool HasChart { get; }
@@ -18,7 +18,7 @@ public bool HasChart { get; }
 
 ## أمثلة
 
-يوضح كيفية التكرار على كافة الأشكال في المستند.
+يوضح كيفية تكرار جميع الأشكال في مستند.
 
 ```csharp
 public void VisitShapes()
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// يسجل المعلومات المتعلقة بالمظهر حول الأشكال التي تمت زيارتها.
+/// يسجل معلومات متعلقة بالمظهر حول الأشكال التي تمت زيارتها.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يُلحق سطرًا بـ StringBuilder بحرف جدولة مُسبق لكل مستوى مسافة بادئة.
+    /// يضيف سطرًا إلى StringBuilder بإضافة حرف تبويب واحد لكل مستوى مسافة بادئة.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإرجاع كل النص الذي قام StringBuilder بتجميعه.
+    /// إرجاع كل النص الذي قام StringBuilder بتجميعه.
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة الشكل.
+    /// يتم استدعاؤها عندما يزور هذا الزائر بداية عقدة الشكل.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -97,7 +96,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة الشكل.
+    /// يتم استدعاؤها عندما يقوم هذا الزائر بزيارة نهاية عقدة الشكل.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -109,7 +108,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة GroupShape.
+    /// يتم استدعاؤها عندما يزور هذا الزائر بداية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -120,7 +119,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة GroupShape.
+    /// يتم استدعاؤها عندما يزور هذا الزائر نهاية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

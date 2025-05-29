@@ -3,14 +3,14 @@ title: DocumentBuilder.EndColumnBookmark
 linktitle: EndColumnBookmark
 articleTitle: EndColumnBookmark
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder EndColumnBookmark طريقة. يحدد الموضع الحالي في المستند كنهاية إشارة مرجعية للعمود. يجب أن يكون الموضع في خلية الجدول في C#.
+description: استخدم طريقة EndColumnBookmark في DocumentBuilder لتمييز نهاية عمود في مستندك بسهولة. حسّن إدارة الجداول بدقة!
 type: docs
 weight: 220
 url: /ar/net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
 ## DocumentBuilder.EndColumnBookmark method
 
-يحدد الموضع الحالي في المستند كنهاية إشارة مرجعية للعمود. يجب أن يكون الموضع في خلية الجدول.
+يُحدِّد الموضع الحالي في المستند كعلامة مرجعية لنهاية العمود. يجب أن يكون الموضع في خلية جدول.
 
 ```csharp
 public BookmarkEnd EndColumnBookmark(string bookmarkName)
@@ -26,11 +26,11 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 ## ملاحظات
 
-تغطي الإشارة المرجعية للعمود عمودًا واحدًا أو أكثر في نطاق من الصفوف. لإنشاء إشارة مرجعية صالحة، يجب عليك الاتصال بكليهما[`StartColumnBookmark`](../startcolumnbookmark/) و`EndColumnBookmark` بنفس *bookmarkName*معامل.
+تغطي إشارة مرجعية العمود عمودًا واحدًا أو أكثر ضمن نطاق من الصفوف. لإنشاء إشارة مرجعية صالحة، عليك استدعاء كليهما.[`StartColumnBookmark`](../startcolumnbookmark/) و`EndColumnBookmark` مع نفس *bookmarkName* المعلمة.
 
-سيتم تجاهل الإشارات المرجعية التي تم تكوينها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
+سيتم تجاهل الإشارات المرجعية ذات التكوين السيئ أو الإشارات المرجعية التي تحتوي على أسماء مكررة عند حفظ المستند.
 
-الموضع الفعلي للإدراج[`BookmarkEnd`](../../bookmarkend/) قد تختلف العقدة عن موضع منشئ document الحالي.
+الموضع الفعلي للعنصر المُدرج[`BookmarkEnd`](../../bookmarkend/) قد تختلف العقدة عن موضع المنشئ document الحالي.
 
 ## أمثلة
 
@@ -45,7 +45,7 @@ builder.StartTable();
 builder.InsertCell();
 // سيتم وضع إشارة مرجعية على الخلايا 1،2،4،5.
 builder.StartColumnBookmark("MyBookmark_1");
-// سيتم تجاهل الإشارات المرجعية التي تم تشكيلها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
+// سيتم تجاهل الإشارات المرجعية ذات التكوين السيئ أو الإشارات المرجعية التي تحتوي على أسماء مكررة عند حفظ المستند.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

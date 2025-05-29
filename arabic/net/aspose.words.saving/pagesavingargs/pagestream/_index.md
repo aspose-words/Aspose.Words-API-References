@@ -3,14 +3,14 @@ title: PageSavingArgs.PageStream
 linktitle: PageStream
 articleTitle: PageStream
 second_title: Aspose.Words لـ .NET
-description: PageSavingArgs PageStream ملكية. يسمح بتحديد التدفق الذي سيتم حفظ صفحة المستند فيه في C#.
+description: اكتشف خاصية PageStream في PageSavingArgs، التي تتيح لك حفظ صفحة المستند بسلاسة في التدفق المطلوب لإدارة الملفات بكفاءة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/pagesavingargs/pagestream/
 ---
 ## PageSavingArgs.PageStream property
 
-يسمح بتحديد التدفق الذي سيتم حفظ صفحة المستند فيه.
+يسمح بتحديد الدفق الذي سيتم حفظ صفحة المستند فيه.
 
 ```csharp
 public Stream PageStream { get; set; }
@@ -18,15 +18,15 @@ public Stream PageStream { get; set; }
 
 ## ملاحظات
 
-تسمح لك هذه الخاصية بحفظ صفحات المستند في التدفقات بدلاً من الملفات.
+تتيح لك هذه الخاصية حفظ صفحات المستندات في التدفقات بدلاً من الملفات.
 
-القيمة الافتراضية هي`باطل` . عندما تكون هذه الخاصية`باطل` ، سيتم حفظ صفحة المستند في ملف محدد في ملف[`PageFileName`](../pagefilename/) ملكية.
+القيمة الافتراضية هي`باطل` . عندما تكون هذه الخاصية`باطل` سيتم حفظ صفحة المستند في الملف المحدد في[`PageFileName`](../pagefilename/) ملكية.
 
-إذا كان كل من`PageStream` و[`PageFileName`](../pagefilename/) تم تعيينها، ثم سيتم استخدام PageStream.
+إذا كان كلاهما`PageStream` و[`PageFileName`](../pagefilename/) إذا تم تعيينها، فسيتم استخدام PageStream.
 
 ## أمثلة
 
-يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
+يوضح كيفية استخدام معاودة الاتصال لحفظ مستند في صفحة HTML تلو الأخرى.
 
 ```csharp
 public void PageFileNames()
@@ -41,12 +41,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
     // لتعديل كيفية تحويل المستند إلى HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // سنقوم بحفظ كل صفحة في هذا المستند في ملف HTML منفصل في نظام الملفات المحلي.
-    // قم بتعيين رد اتصال يسمح لنا بتسمية كل مستند HTML مخرج.
+    // سوف نقوم بحفظ كل صفحة في هذا المستند في ملف HTML منفصل في نظام الملفات المحلي.
+    // قم بتعيين معاودة اتصال تسمح لنا بتسمية كل مستند HTML الناتج.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -58,7 +58,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// يحفظ جميع الصفحات في ملف ودليل محددين فيه.
+/// يحفظ جميع الصفحات في الملف والدليل المحددين بداخله.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -67,10 +67,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // فيما يلي طريقتان لتحديد المكان الذي سيحفظ فيه Aspose.Words كل صفحة من المستند.
-        // 1 - قم بتعيين اسم ملف لملف صفحة الإخراج:
+        // 1 - تعيين اسم ملف لملف الصفحة الناتج:
         args.PageFileName = outFileName;
 
-        // 2 - إنشاء دفق مخصص لملف صفحة الإخراج:
+        // 2 - إنشاء تدفق مخصص لملف الصفحة الناتج:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

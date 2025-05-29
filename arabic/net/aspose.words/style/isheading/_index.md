@@ -3,7 +3,7 @@ title: Style.IsHeading
 linktitle: IsHeading
 articleTitle: IsHeading
 second_title: Aspose.Words لـ .NET
-description: Style IsHeading ملكية. صحيح عندما يكون النمط أحد أنماط العناوين المضمنة في C#.
+description: اكتشف خاصية IsHeading. حدّد بسهولة ما إذا كان النمط مُدمجًا في نمط العنوان، مما يُحسّن بنية مستندك وسهولة قراءته.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/style/isheading/
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

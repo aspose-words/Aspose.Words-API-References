@@ -3,14 +3,14 @@ title: ResourceSavingArgs.ResourceFileName
 linktitle: ResourceFileName
 articleTitle: ResourceFileName
 second_title: Aspose.Words لـ .NET
-description: ResourceSavingArgs ResourceFileName ملكية. الحصول على أو تعيين اسم الملف بدون مسار حيث سيتم حفظ المورد فيه في C#.
+description: أدر مواردك بكفاءة مع ResourceSavingArgs. حدّد أو استرجاع اسم الملف لحفظ الموارد بسهولة، دون عناء البحث عن مسارات.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/resourcesavingargs/resourcefilename/
 ---
 ## ResourceSavingArgs.ResourceFileName property
 
-الحصول على أو تعيين اسم الملف (بدون مسار) حيث سيتم حفظ المورد فيه.
+يحصل على اسم الملف (بدون مسار) الذي سيتم حفظ المورد فيه أو يعينه.
 
 ```csharp
 public string ResourceFileName { get; set; }
@@ -20,21 +20,21 @@ public string ResourceFileName { get; set; }
 
 تتيح لك هذه الخاصية إعادة تعريف كيفية إنشاء أسماء ملفات الموارد أثناء التصدير إلى صفحة ثابتة بتنسيق HTML أو SVG.
 
-عند إطلاق الحدث، تحتوي هذه الخاصية على اسم الملف الذي تم إنشاؤه بواسطة Aspose.Words. يمكنك تغيير قيمة هذه الخاصية لحفظ المورد في ملف مختلف. لاحظ أن أسماء الملفات يجب أن تكون فريدة.
+عند تشغيل الحدث، تحتوي هذه الخاصية على اسم الملف الذي تم إنشاؤه بواسطة Aspose.Words . يمكنك تغيير قيمة هذه الخاصية لحفظ المورد في ملف مختلف. يُرجى ملاحظة أن أسماء الملفات يجب أن تكون فريدة.
 
-يقوم Aspose.Words تلقائيًا بإنشاء اسم ملف فريد لكل مورد عند تصدير إلى تنسيق HTML أو SVG لصفحة ثابتة. تعتمد كيفية إنشاء اسم ملف المورد على ما إذا كنت تقوم بحفظ المستند في ملف أو في دفق.
+يُنشئ Aspose.Words تلقائيًا اسم ملف فريد لكل مورد عند تصدير إلى تنسيق HTML أو SVG لصفحة ثابتة. تعتمد طريقة إنشاء اسم ملف المورد على ما إذا كنت تحفظ المستند في ملف أو في مسار.
 
-عند حفظ مستند في ملف، يبدو اسم ملف المورد الذي تم إنشاؤه مثل &lt;اسم الملف الأساسي للمستند&gt;.&lt;رقم الصورة&gt;.&lt;الامتداد&gt;.
+عند حفظ مستند في ملف، يبدو اسم ملف الموارد الناتج مثل &lt;اسم ملف قاعدة المستند&gt;.&lt;رقم الصورة&gt;.&lt;الامتداد&gt;.
 
-عند حفظ مستند في دفق، يبدو اسم ملف المورد الذي تم إنشاؤه مثل Aspose.Words.&lt;document guid&gt;.&lt;image number&gt;.&lt;extension&gt;.
+عند حفظ مستند في مجرى، يبدو اسم ملف الموارد الناتج مثل Aspose.Words.&lt;دليل المستند&gt;.&lt;رقم الصورة&gt;.&lt;الامتداد&gt;.
 
-`ResourceFileName` يجب أن يحتوي فقط على اسم الملف بدون المسار. يحدد Aspose.Words مسار الحفظ وقيمة الملف`src` سمة لكتابة إلى صفحة ثابتة بتنسيق HTML أو SVG باستخدام اسم ملف المستند،[`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/) أو[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/) و[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/) أو[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/) ملكيات.
+`ResourceFileName` يجب أن يحتوي فقط على اسم الملف بدون المسار. يحدد Aspose.Words المسار للحفظ وقيمة`المصدر` سمة لكتابة إلى صفحة HTML أو SVG ثابتة باستخدام اسم ملف المستند،[`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/) أو[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/) و[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/) أو[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/) ملكيات.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
 ## أمثلة
 
-يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام معاودة الاتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -56,7 +56,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
+    /// يتم استدعاؤها عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

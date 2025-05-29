@@ -3,14 +3,14 @@ title: EditableRange.SingleUser
 linktitle: SingleUser
 articleTitle: SingleUser
 second_title: Aspose.Words لـ .NET
-description: EditableRange SingleUser ملكية. إرجاع أو تعيين المستخدم الفردي للنطاق القابل للتحرير في C#.
+description: اكتشف خاصية EditableRange SingleUser لإدارة النطاقات القابلة للتحرير بكفاءة، وضمان التعاون السلس والتحكم في الوصول المخصص للمستخدم.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/editablerange/singleuser/
 ---
 ## EditableRange.SingleUser property
 
-إرجاع أو تعيين المستخدم الفردي للنطاق القابل للتحرير.
+يعيد أو يعين المستخدم الفردي للنطاق القابل للتحرير.
 
 ```csharp
 public string SingleUser { get; set; }
@@ -20,13 +20,13 @@ public string SingleUser { get; set; }
 
 يمكن تخزين هذا المحرر بأحد الأشكال التالية:
 
-المجال\اسم المستخدم - للمستخدمين الذين سيتم مصادقة وصولهم باستخدام بيانات اعتماد مجال المستخدم الحالي.
+المجال\اسم المستخدم - للمستخدمين الذين سيتم التحقق من وصولهم باستخدام بيانات اعتماد المجال الحالية للمستخدم.
 
-user@domain.com - للمستخدمين الذين يجب مصادقة وصولهم باستخدام عنوان البريد الإلكتروني للمستخدم كبيانات اعتماد.
+user@domain.com - للمستخدمين الذين سيتم التحقق من وصولهم باستخدام عنوان البريد الإلكتروني للمستخدم كبيانات اعتماد.
 
-المستخدم - للمستخدمين الذين يجب مصادقة وصولهم باستخدام بيانات اعتماد جهاز المستخدم الحالي.
+المستخدم - للمستخدمين الذين يجب التحقق من وصولهم باستخدام بيانات اعتماد جهاز المستخدم الحالي.
 
-لا يمكن تعيين مستخدم واحد ومجموعة محرر في وقت واحد لنطاق محدد قابل للتحرير، إذا تم تعيين أحدهما، فسيكون الآخر واضحًا.
+لا يمكن تعيين مستخدم واحد ومجموعة محرر في نفس الوقت لنطاق قابل للتحرير محدد، إذا تم تعيين أحدهما، فسيتم مسح الآخر.
 
 ## أمثلة
 
@@ -42,9 +42,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // عندما نحمي المستندات من الكتابة، تسمح لنا النطاقات القابلة للتحرير باختيار مناطق محددة يمكن للمستخدمين تحريرها.
-    // هناك طريقتان متنافيتان لتضييق نطاق قائمة المحررين المسموح بهم.
-    // 1 - تحديد مستخدم:
+    // عندما نقوم بحماية المستندات ضد الكتابة، فإن النطاقات القابلة للتحرير تسمح لنا باختيار مناطق معينة يمكن للمستخدمين تحريرها.
+    // هناك طريقتان متبادلتان لتضييق قائمة المحررين المسموح لهم.
+    // 1 - تحديد المستخدم:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -92,7 +92,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة EditableRangeStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة EditableRangeStart في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -110,7 +110,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة EditableRangeEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة EditableRangeEnd في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند. يقوم هذا الزائر بتسجيل عمليات التشغيل التي تقع داخل النطاقات القابلة للتحرير فقط.
+    /// يُستدعى عند وجود عقدة تشغيل في المستند. يُسجل هذا الزائر فقط عمليات التشغيل التي تقع ضمن نطاقات قابلة للتعديل.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

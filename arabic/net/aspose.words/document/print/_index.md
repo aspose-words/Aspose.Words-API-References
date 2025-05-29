@@ -3,14 +3,14 @@ title: Document.Print
 linktitle: Print
 articleTitle: Print
 second_title: Aspose.Words لـ .NET
-description: Document Print طريقة. طباعة المستند بالكامل إلى الطابعة الافتراضية في C#.
+description: اطبع مستندك بالكامل بسهولة على طابعتك الافتراضية باستخدام طريقة طباعة المستندات المبسطة لدينا. استمتع بطباعة سريعة وسهلة!
 type: docs
-weight: 640
+weight: 680
 url: /ar/net/aspose.words/document/print/
 ---
 ## Print() {#print}
 
-طباعة المستند بالكامل إلى الطابعة الافتراضية.
+يطبع المستند بأكمله على الطابعة الافتراضية.
 
 ```csharp
 public void Print()
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// فيما يلي طريقتان لطباعة وثيقتنا.
+// فيما يلي طريقتان لطباعة مستندنا.
 // 1 - الطباعة باستخدام الطابعة الافتراضية:
 doc.Print();
 
@@ -47,7 +47,7 @@ doc.Print(myPrinter);
 
 ## Print(*string*) {#print_3}
 
-طباعة المستند بالكامل إلى الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم).
+اطبع المستند بأكمله على الطابعة المحددة، باستخدام وحدة التحكم في الطباعة القياسية (بدون واجهة مستخدم).
 
 ```csharp
 public void Print(string printerName)
@@ -66,7 +66,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// فيما يلي طريقتان لطباعة وثيقتنا.
+// فيما يلي طريقتان لطباعة مستندنا.
 // 1 - الطباعة باستخدام الطابعة الافتراضية:
 doc.Print();
 
@@ -96,11 +96,11 @@ public void Print(PrinterSettings printerSettings)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | إعدادات الطابعة المراد استخدامها. |
+| printerSettings | PrinterSettings | إعدادات الطابعة التي سيتم استخدامها. |
 
 ## ملاحظات
 
-الPrinterSettings يتيح لك كائن تحديد الطابعة التي تريد الطباعة عليها، ونطاق الصفحات التي تريد طباعتها، والخيارات الأخرى.
+الPrinterSettings يسمح لك الكائن بتحديد الطابعة التي سيتم الطباعة عليها، ونطاق الصفحات التي سيتم طباعتها وخيارات أخرى.
 
 ## أمثلة
 
@@ -112,21 +112,21 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // قم بإنشاء كائن "PrinterSettings" لتعديل كيفية طباعة المستند.
 PrinterSettings printerSettings = new PrinterSettings();
 
-// قم بتعيين خاصية "PrintRange" على "PrintRange.SomePages" إلى
-// أخبر الطابعة أننا نعتزم طباعة بعض صفحات المستندات فقط.
+// اضبط خاصية "PrintRange" على "PrintRange.SomePages" لـ
+// أخبر الطابعة بأننا نعتزم طباعة بعض صفحات المستند فقط.
 printerSettings.PrintRange = System.Drawing.Printing.PrintRange.SomePages;
 
-// اضبط الخاصية "FromPage" على "1"، والخاصية "ToPage" على "3" لطباعة الصفحات من 1 إلى 3.
+// قم بتعيين الخاصية "FromPage" إلى "1"، والخاصية "ToPage" إلى "3" لطباعة الصفحات من 1 إلى 3.
 // فهرسة الصفحة تعتمد على 1.
 printerSettings.FromPage = 1;
 printerSettings.ToPage = 3;
 
-// فيما يلي طريقتان لطباعة وثيقتنا.
-// 1 - الطباعة أثناء تطبيق إعدادات الطباعة الخاصة بنا:
+// فيما يلي طريقتان لطباعة مستندنا.
+// 1 - الطباعة أثناء تطبيق إعدادات الطباعة لدينا:
 doc.Print(printerSettings);
 
-// 2 - الطباعة أثناء تطبيق إعدادات الطباعة لدينا، بينما أيضًا
-// إعطاء المستند اسمًا مخصصًا قد نتعرف عليه في قائمة انتظار الطابعة:
+// 2 - الطباعة أثناء تطبيق إعدادات الطباعة لدينا، مع مراعاة أيضًا
+// إعطاء المستند اسمًا مخصصًا يمكننا التعرف عليه في قائمة انتظار الطابعة:
 doc.Print(printerSettings, "My rendered document");
 ```
 
@@ -148,12 +148,12 @@ public void Print(PrinterSettings printerSettings, string documentName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | إعدادات الطابعة المراد استخدامها. |
+| printerSettings | PrinterSettings | إعدادات الطابعة التي سيتم استخدامها. |
 | documentName | String | اسم المستند الذي سيتم عرضه (على سبيل المثال، في مربع حوار حالة الطباعة أو قائمة انتظار الطابعة) أثناء طباعة المستند. |
 
 ## ملاحظات
 
-الPrinterSettings يتيح لك كائن تحديد الطابعة التي تريد الطباعة عليها، ونطاق الصفحات التي تريد طباعتها، والخيارات الأخرى.
+الPrinterSettings يسمح لك الكائن بتحديد الطابعة التي سيتم الطباعة عليها، ونطاق الصفحات التي سيتم طباعتها وخيارات أخرى.
 
 ## أمثلة
 
@@ -165,21 +165,21 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // قم بإنشاء كائن "PrinterSettings" لتعديل كيفية طباعة المستند.
 PrinterSettings printerSettings = new PrinterSettings();
 
-// قم بتعيين خاصية "PrintRange" على "PrintRange.SomePages" إلى
-// أخبر الطابعة أننا نعتزم طباعة بعض صفحات المستندات فقط.
+// اضبط خاصية "PrintRange" على "PrintRange.SomePages" لـ
+// أخبر الطابعة بأننا نعتزم طباعة بعض صفحات المستند فقط.
 printerSettings.PrintRange = System.Drawing.Printing.PrintRange.SomePages;
 
-// اضبط الخاصية "FromPage" على "1"، والخاصية "ToPage" على "3" لطباعة الصفحات من 1 إلى 3.
+// قم بتعيين الخاصية "FromPage" إلى "1"، والخاصية "ToPage" إلى "3" لطباعة الصفحات من 1 إلى 3.
 // فهرسة الصفحة تعتمد على 1.
 printerSettings.FromPage = 1;
 printerSettings.ToPage = 3;
 
-// فيما يلي طريقتان لطباعة وثيقتنا.
-// 1 - الطباعة أثناء تطبيق إعدادات الطباعة الخاصة بنا:
+// فيما يلي طريقتان لطباعة مستندنا.
+// 1 - الطباعة أثناء تطبيق إعدادات الطباعة لدينا:
 doc.Print(printerSettings);
 
-// 2 - الطباعة أثناء تطبيق إعدادات الطباعة لدينا، بينما أيضًا
-// إعطاء المستند اسمًا مخصصًا قد نتعرف عليه في قائمة انتظار الطابعة:
+// 2 - الطباعة أثناء تطبيق إعدادات الطباعة لدينا، مع مراعاة أيضًا
+// إعطاء المستند اسمًا مخصصًا يمكننا التعرف عليه في قائمة انتظار الطابعة:
 doc.Print(printerSettings, "My rendered document");
 ```
 

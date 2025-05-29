@@ -3,7 +3,7 @@ title: PlainTextDocument.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words لـ .NET
-description: PlainTextDocument CustomDocumentProperties ملكية. يحصلCustomDocumentProperties من الوثيقة في C#.
+description: اكتشف كيفية الوصول إلى CustomDocumentProperties في PlainTextDocument لتحسين إدارة المستندات وتخصيصها. أطلق العنان لإمكانات مستندك!
 type: docs
 weight: 30
 url: /ar/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -18,7 +18,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 
 ## أمثلة
 
-يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي ثم الوصول إلى الخصائص المخصصة للمستند الأصلي.
+يوضح كيفية تحميل محتويات مستند Microsoft Word في نص عادي ثم الوصول إلى خصائص المستند الأصلي المخصصة.
 
 ```csharp
 Document doc = new Document();

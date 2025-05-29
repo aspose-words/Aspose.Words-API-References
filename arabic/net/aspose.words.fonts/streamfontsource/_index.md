@@ -3,19 +3,19 @@ title: StreamFontSource Class
 linktitle: StreamFontSource
 articleTitle: StreamFontSource
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.StreamFontSource فصل. الفئة الأساسية لمصدر خط الدفق المحدد من قبل المستخدم في C#.
+description: اكتشف فئة Aspose.Words.Fonts.StreamFontSource، الحل الأمثل للحصول على مصادر خطوط مخصصة تعمل على تحسين مرونة المستندات وتصميمها.
 type: docs
-weight: 3040
+weight: 3470
 url: /ar/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
 
-الفئة الأساسية لمصدر خط الدفق المحدد من قبل المستخدم.
+الفئة الأساسية لمصدر الخط المباشر المحدد من قبل المستخدم.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
 ```csharp
-public abstract class StreamFontSource : FontSourceBase
+public abstract class StreamFontSource : FontSourceBase,   
 ```
 
 ## الخصائص
@@ -23,24 +23,24 @@ public abstract class StreamFontSource : FontSourceBase
 | اسم | وصف |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey/) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يُرجع أولوية مصدر الخط. |
-| [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | إرجاع نوع مصدر الخط. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يعيد أولوية مصدر الخط. |
+| [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | يعيد نوع مصدر الخط. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤها أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
 | [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | إرجاع قائمة الخطوط المتوفرة عبر هذا المصدر. |
-| abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | يجب أن تفتح هذه الطريقة الدفق ببيانات الخط حسب الطلب. |
+| abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | يجب أن تفتح هذه الطريقة التدفق ببيانات الخط عند الطلب. |
 
 ## ملاحظات
 
-من أجل استخدام مصدر خط الدفق، يجب عليك إنشاء فئة مشتقة من`StreamFontSource` وتوفير تنفيذ[`OpenFontDataStream`](./openfontdatastream/) طريقة.
+لكي تتمكن من استخدام مصدر الخط المتدفق، يجب عليك إنشاء فئة مشتقة من`StreamFontSource` وتوفير التنفيذ لـ[`OpenFontDataStream`](./openfontdatastream/) طريقة.
 
-[`OpenFontDataStream`](./openfontdatastream/)يمكن استدعاء الطريقة عدة مرات. لأول مرة سيتم استدعاؤه عندما يقوم Aspose.Words بمسح مصادر الخطوط المتوفرة للحصول على قائمة الخطوط المتاحة. قد يتم استدعاؤه لاحقًا إذا تم استخدام الخط في المستند لتحليل بيانات الخط وتضمين بيانات الخط في بعض تنسيقات الإخراج.
+[`OpenFontDataStream`](./openfontdatastream/)يمكن استدعاء هذه الطريقة عدة مرات. في المرة الأولى، سيتم استدعاؤها بـ عندما يفحص Aspose.Words مصادر الخطوط المُقدمة للحصول على قائمة الخطوط المتاحة. لاحقًا، قد يتم استدعاؤها إذا استُخدم الخط في المستند لتحليل بيانات الخط وتضمينها في بعض تنسيقات الإخراج.
 
-`StreamFontSource` قد يكون مفيدًا لأنه يسمح بتحميل بيانات الخط فقط عندما تكون مطلوبة وليس تخزينها في الذاكرة[`FontSettings`](../fontsettings/) حياة.
+`StreamFontSource` قد يكون مفيدًا لأنه يسمح بتحميل بيانات الخط فقط عندما تكون مطلوبة وليس تخزينها في الذاكرة لـ[`FontSettings`](../fontsettings/) حياة.
 
 ## أمثلة
 
@@ -76,5 +76,6 @@ private class StreamFontSourceFile : StreamFontSource
 ### أنظر أيضا
 
 * class [FontSourceBase](../fontsourcebase/)
+* interface [  ](../../global/%02  /)
 * مساحة الاسم [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * المجسم [Aspose.Words](../../)

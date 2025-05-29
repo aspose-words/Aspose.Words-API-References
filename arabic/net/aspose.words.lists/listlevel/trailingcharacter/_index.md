@@ -3,14 +3,14 @@ title: ListLevel.TrailingCharacter
 linktitle: TrailingCharacter
 articleTitle: TrailingCharacter
 second_title: Aspose.Words لـ .NET
-description: ListLevel TrailingCharacter ملكية. إرجاع أو تعيين الحرف المدرج بعد الرقم الخاص بمستوى القائمة في C#.
+description: اكتشف خاصية ListLevel TrailingCharacter لتخصيص تنسيق القائمة عن طريق تعيين أو استرداد الحرف بعد كل رقم قائمة.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.lists/listlevel/trailingcharacter/
 ---
 ## ListLevel.TrailingCharacter property
 
-إرجاع أو تعيين الحرف المدرج بعد الرقم الخاص بمستوى القائمة.
+يعيد أو يعين الحرف الذي تم إدراجه بعد الرقم لمستوى القائمة.
 
 ```csharp
 public ListTrailingCharacter TrailingCharacter { get; set; }
@@ -23,11 +23,11 @@ public ListTrailingCharacter TrailingCharacter { get; set; }
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// أنشئ قائمة من قالب Microsoft Word، وقم بتخصيص المستويين الأولين من قائمتها.
+// قم بإنشاء قائمة من قالب Microsoft Word، ثم قم بتخصيص المستويين الأولين من القائمة.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -48,12 +48,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// ستعمل قيمة NumberFormat هذه على إنشاء رموز قائمة نقطية على شكل نجمة.
+// ستقوم قيمة NumberFormat هذه بإنشاء رموز قائمة نقطية على شكل نجمة.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// قم بإنشاء فقرات وتطبيق كلا مستويي القائمة بتنسيق القائمة المخصص لدينا عليها.
+// قم بإنشاء فقرات ثم قم بتطبيق مستويي القائمة لتنسيق القائمة المخصصة عليها.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

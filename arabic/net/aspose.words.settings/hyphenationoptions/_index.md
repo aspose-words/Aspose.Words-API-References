@@ -3,16 +3,16 @@ title: HyphenationOptions Class
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Settings.HyphenationOptions فصل. يسمح بتكوين خيارات الواصلة للمستند في C#.
+description: اكتشف فئة Aspose.Words.Settings.HyphenationOptions لتخصيص إعدادات الوصل بسهولة لمستنداتك وتحسين عرض النص.
 type: docs
-weight: 5790
+weight: 6620
 url: /ar/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
-يسمح بتكوين خيارات الواصلة للمستند.
+يسمح بتكوين خيارات وضع علامات الوصل في المستند.
 
-لمعرفة المزيد، قم بزيارة[العمل مع الواصلة](https://docs.aspose.com/words/net/working-with-hyphenation/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[العمل مع الوصلات](https://docs.aspose.com/words/net/working-with-hyphenation/) مقالة توثيقية.
 
 ```csharp
 public class HyphenationOptions
@@ -28,14 +28,14 @@ public class HyphenationOptions
 
 | اسم | وصف |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تشغيل الواصلة التلقائية للمستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` . |
-| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | الحصول على أو تعيين الحد الأقصى لعدد الأسطر المتتالية التي يمكن أن تنتهي بواصلات. القيمة الافتراضية لهذه الخاصية هي 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | الحصول على قيمة أو تعيينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة موصولة بواصلة. القيمة الافتراضية لهذه الخاصية هي`حقيقي` . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | الحصول على أو تعيين المسافة بـ 1/20 نقطة من الهامش الأيمن الذي لا تريد وصل الكلمات فيه. القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة). |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | يحصل على القيمة أو يعينها لتحديد ما إذا كان يتم تشغيل الوصل التلقائي للمستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` . |
+| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | يحصل على أو يعين الحد الأقصى لعدد الأسطر المتتالية التي يمكن أن تنتهي بواصلات. القيمة الافتراضية لهذه الخاصية هي 0. |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | يحصل على القيمة أو يعينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة جميعها موصولة بواصلة. القيمة الافتراضية لهذه الخاصية هي`حقيقي` . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | يحصل على أو يضبط المسافة بمقدار 1/20 من نقطة من الهامش الأيمن الذي لا تريد أن تقوم بوضع علامة وصل بين الكلمات فيه. القيمة الافتراضية لهذه الخاصية هي 360 (0.25 بوصة). |
 
 ## أمثلة
 
-يوضح كيفية تكوين الواصلة التلقائية.
+يوضح كيفية تكوين الوصلة التلقائية.
 
 ```csharp
 Document doc = new Document();

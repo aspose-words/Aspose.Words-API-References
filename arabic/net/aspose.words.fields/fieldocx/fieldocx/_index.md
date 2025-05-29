@@ -3,7 +3,7 @@ title: FieldOcx
 linktitle: FieldOcx
 articleTitle: FieldOcx
 second_title: Aspose.Words لـ .NET
-description: FieldOcx البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldOcx، الحل الأمثل للتكامل والتخصيص بسلاسة. تمتع بميزات فعّالة لتحقيق أداء مثالي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldocx/fieldocx/

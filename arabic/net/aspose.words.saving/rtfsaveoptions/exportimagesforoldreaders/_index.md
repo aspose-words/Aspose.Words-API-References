@@ -3,7 +3,7 @@ title: RtfSaveOptions.ExportImagesForOldReaders
 linktitle: ExportImagesForOldReaders
 articleTitle: ExportImagesForOldReaders
 second_title: Aspose.Words لـ .NET
-description: RtfSaveOptions ExportImagesForOldReaders ملكية. يحدد ما إذا كانت الكلمات الأساسية لـ القراء القدامى مكتوبة في RTF أم لا. يمكن أن يؤثر هذا بشكل كبير على حجم مستند RTF. القيمة الافتراضية هيحقيقي  في C#.
+description: حسّن مستندات RTF باستخدام خاصية ExportImagesForOldReaders. تحكّم في تضمين الكلمات المفتاحية للقارئات القديمة، مما يؤثر على حجم الملف وأدائه.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/rtfsaveoptions/exportimagesforoldreaders/
@@ -18,13 +18,13 @@ public bool ExportImagesForOldReaders { get; set; }
 
 ## ملاحظات
 
-"القراء القدامى" هم تطبيقات ما قبل Microsoft Word 97 وأيضًا WordPad. عندما يكون هذا الخيار`حقيقي` يقوم Aspose.Words بكتابة كلمات RTF إضافية. تسمح هذه الكلمات الأساسية بعرض المستند بشكل صحيح عند فتحه في تطبيق "القارئ القديم"، ولكنها يمكن أن تزيد حجم المستند بشكل ملحوظ.
+"القراء القدامى" هي تطبيقات ما قبل Microsoft Word 97 وWordPad أيضًا. عندما يكون هذا الخيار متاحًا`حقيقي` يكتب Aspose.Words كلمات رئيسية إضافية لـ RTF. تسمح هذه الكلمات الرئيسية بعرض المستند بشكل صحيح عند فتحه في تطبيق "القارئ القديم" ، ولكنها قد تزيد بشكل كبير من حجم المستند.
 
-إذا قمت بتعيين هذا الخيار ل`خطأ شنيع`، فسيتم عرض الصور بتنسيقات WMF وEMF وBMP فقط في "أجهزة القراءة القديمة".
+إذا قمت بتعيين هذا الخيار على`خطأ شنيع`، ثم سيتم عرض الصور بتنسيقات WMF وEMF وBMP فقط في "القراء القدامى".
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند إلى .rtf مع خيارات مخصصة.
+يوضح كيفية حفظ مستند بتنسيق .rtf باستخدام خيارات مخصصة.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -34,14 +34,14 @@ RtfSaveOptions options = new RtfSaveOptions();
 
 Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
 
-// قم بتعيين خاصية "ExportCompactSize" على "صحيح" to
+// اضبط خاصية "ExportCompactSize" على "true" لـ
 // تقليل حجم المستند المحفوظ على حساب توافق النص من اليمين إلى اليسار.
 options.ExportCompactSize = true;
 
-// قم بتعيين خاصية "ExportImagesFotOldReaders" على "true" لاستخدام كلمات رئيسية إضافية للتأكد من أن وثيقتنا صحيحة
-// متوافق مع قارئات ما قبل Microsoft Word 97 وWordPad.
-// اضبط الخاصية "ExportImagesFotOldReaders" على "خطأ" لتقليل حجم المستند،
-// ولكن يمنع القراء القدامى من قراءة أي صور غير ملف تعريف أو BMP قد يحتوي عليها المستند.
+// اضبط خاصية "ExportImagesFotOldReaders" على "true" لاستخدام كلمات رئيسية إضافية لضمان أن مستندنا
+// متوافق مع برامج قراءة ما قبل Microsoft Word 97 وWordPad.
+// اضبط خاصية "ExportImagesFotOldReaders" على "false" لتقليل حجم المستند،
+// ولكن منع القراء القدامى من القدرة على قراءة أي صور غير ملف تعريفي أو صور BMP قد يحتوي عليها المستند.
 options.ExportImagesForOldReaders = exportImagesForOldReaders;
 
 doc.Save(ArtifactsDir + "RtfSaveOptions.ExportImages.rtf", options);

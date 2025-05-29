@@ -3,7 +3,7 @@ title: PhoneticGuide.BaseText
 linktitle: BaseText
 articleTitle: BaseText
 second_title: Aspose.Words لـ .NET
-description: PhoneticGuide BaseText ملكية. يحصل على النص الأساسي للدليل الصوتي في C#.
+description: اكتشف خاصية PhoneticGuide BaseText للوصول بسهولة إلى نص الدليل الصوتي الأساسي وتحسينه لتحسين الوضوح والتواصل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/phoneticguide/basetext/
@@ -18,16 +18,18 @@ public string BaseText { get; }
 
 ## أمثلة
 
-يبين كيفية الحصول على خصائص الدليل الصوتي.
+يوضح كيفية الحصول على خصائص الدليل الصوتي.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 // استخدم الدليل الصوتي في النص الآسيوي.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### أنظر أيضا

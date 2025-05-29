@@ -3,9 +3,9 @@ title: Document.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words لـ .NET
-description: Document UnlinkFields طريقة. إلغاء ربط الحقول في المستند بأكمله في C#.
+description: اكتشف كيفية استخدام طريقة UnlinkFields لإلغاء ربط الحقول بكفاءة في المستند بأكمله، مما يعزز سير عمل التحرير لديك.
 type: docs
-weight: 730
+weight: 780
 url: /ar/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
@@ -18,13 +18,13 @@ public void UnlinkFields()
 
 ## ملاحظات
 
-يستبدل جميع الحقول الموجودة في المستند بأكمله بأحدث نتائجها.
+استبدال كافة الحقول في المستند بأكمله بنتائجها الأحدث.
 
-لإلغاء ربط الحقول في جزء معين من استخدام المستند[`UnlinkFields`](../../range/unlinkfields/).
+لإلغاء ربط الحقول في جزء معين من المستند، استخدم[`UnlinkFields`](../../range/unlinkfields/).
 
 ## أمثلة
 
-يوضح كيفية إلغاء ربط كافة الحقول في المستند.
+يوضح كيفية إلغاء ربط جميع الحقول في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

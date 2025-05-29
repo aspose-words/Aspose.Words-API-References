@@ -3,14 +3,14 @@ title: DocumentBuilder.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder Document ملكية. الحصول على أو تعيينDocumentالكائن الذي يرتبط به هذا الكائن في C#.
+description: أدر خصائص المستندات بسهولة مع DocumentBuilder. احصل على كائن المستند أو عيّنه بسهولة لإدارة مستنداتك بسلاسة.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-الحصول على أو تعيين`Document`الكائن الذي يرتبط به هذا الكائن.
+يحصل على أو يعين`Document` الكائن الذي يرتبط به هذا الكائن.
 
 ```csharp
 public Document Document { get; set; }
@@ -18,7 +18,7 @@ public Document Document { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -29,14 +29,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// إذا بدأنا قسمًا جديدًا باستخدام منشئ المستندات،
 // سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// يمكننا إعادة خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
+// يمكننا إرجاع خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

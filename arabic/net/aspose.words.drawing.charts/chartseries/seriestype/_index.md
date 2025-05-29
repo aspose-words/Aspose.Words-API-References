@@ -3,14 +3,14 @@ title: ChartSeries.SeriesType
 linktitle: SeriesType
 articleTitle: SeriesType
 second_title: Aspose.Words لـ .NET
-description: ChartSeries SeriesType ملكية. الحصول على نوع سلسلة المخططات هذه في C#.
+description: اكتشف خاصية ChartSeries SeriesType لتحديد نوع سلسلة مخططاتك بسهولة وتحسين تصور بياناتك. احصل على رؤى قيّمة اليوم!
 type: docs
 weight: 120
 url: /ar/net/aspose.words.drawing.charts/chartseries/seriestype/
 ---
 ## ChartSeries.SeriesType property
 
-الحصول على نوع سلسلة المخططات هذه.
+يحصل على نوع سلسلة الرسم البياني هذه.
 
 ```csharp
 public ChartSeriesType SeriesType { get; }
@@ -18,7 +18,7 @@ public ChartSeriesType SeriesType { get; }
 
 ## أمثلة
 
-يبين كيفية
+يوضح كيفية إزالة سلسلة مخطط محددة.
 
 ```csharp
 Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");

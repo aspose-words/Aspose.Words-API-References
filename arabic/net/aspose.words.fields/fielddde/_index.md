@@ -3,9 +3,9 @@ title: FieldDde Class
 linktitle: FieldDde
 articleTitle: FieldDde
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldDde فصل. ينفذ حقل DDE في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldDde لتنفيذ حقول DDE بسلاسة. حسّن أتمتة مستنداتك بميزات فعّالة اليوم!
 type: docs
-weight: 1780
+weight: 2190
 url: /ar/net/aspose.words.fields/fielddde/
 ---
 ## FieldDde class
@@ -28,46 +28,46 @@ public class FieldDde : Field
 
 | اسم | وصف |
 | --- | --- |
-| [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تحديث هذا الحقل تلقائيًا. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [AutoUpdate](../../aspose.words.fields/fielddde/autoupdate/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم تحديث هذا الحقل تلقائيًا. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [InsertAsBitmap](../../aspose.words.fields/fielddde/insertasbitmap/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كصورة نقطية. |
-| [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كنص بتنسيق HTML. |
-| [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كصورة. |
-| [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نص منسق (RTF). |
-| [InsertAsText](../../aspose.words.fields/fielddde/insertastext/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نص فقط. |
-| [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كنص Unicode. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLinked](../../aspose.words.fields/fielddde/islinked/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تقليل حجم الملف من خلال عدم تخزين بيانات الرسومات مع المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [ProgId](../../aspose.words.fields/fielddde/progid/) { get; set; } | الحصول على أو تعيين نوع التطبيق لمعلومات الارتباط. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
-| [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname/) { get; set; } | الحصول على أو تعيين اسم وموقع الملف المصدر. |
-| [SourceItem](../../aspose.words.fields/fielddde/sourceitem/) { get; set; } | الحصول على أو تعيين جزء الملف المصدر الذي يتم ربطه. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [InsertAsBitmap](../../aspose.words.fields/fielddde/insertasbitmap/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم إدراج الكائن المرتبط كخريطة بتات. |
+| [InsertAsHtml](../../aspose.words.fields/fielddde/insertashtml/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نص HTML. |
+| [InsertAsPicture](../../aspose.words.fields/fielddde/insertaspicture/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم إدراج الكائن المرتبط كصورة. |
+| [InsertAsRtf](../../aspose.words.fields/fielddde/insertasrtf/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق النص الغني (RTF). |
+| [InsertAsText](../../aspose.words.fields/fielddde/insertastext/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نصي فقط. |
+| [InsertAsUnicode](../../aspose.words.fields/fielddde/insertasunicode/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم إدراج الكائن المرتبط كنص Unicode. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLinked](../../aspose.words.fields/fielddde/islinked/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم تقليل حجم الملف عن طريق عدم تخزين بيانات الرسومات مع المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [ProgId](../../aspose.words.fields/fielddde/progid/) { get; set; } | يحصل على نوع التطبيق لمعلومات الرابط أو يعينه. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
+| [SourceFullName](../../aspose.words.fields/fielddde/sourcefullname/) { get; set; } | يحصل على اسم وموقع ملف المصدر أو يعينه. |
+| [SourceItem](../../aspose.words.fields/fielddde/sourceitem/) { get; set; } | يحصل على جزء ملف المصدر الذي يتم ربطه أو يعينه. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-بالنسبة للمعلومات المنسوخة من تطبيق آخر، يربط هذا الحقل تلك المعلومات بملف المصدر الأصلي الخاص بها باستخدام DDE.
+بالنسبة للمعلومات المنسوخة من تطبيق آخر، يقوم هذا الحقل بربط تلك المعلومات بملف المصدر الأصلي باستخدام DDE.
 
 ## أمثلة
 
-يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
+يوضح كيفية استخدام أنواع مختلفة من الحقول للارتباط بمستندات أخرى في نظام الملفات المحلي، وعرض محتوياتها.
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -75,7 +75,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات مستند مرتبط في شكل نص.
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض المحتويات من مستند مرتبط في شكل نص.
     // 1 - حقل الرابط:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
@@ -99,7 +99,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات مستند مرتبط في شكل صورة.
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض المحتويات من مستند مرتبط في شكل صورة.
     // 1 - حقل الرابط:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
@@ -158,7 +158,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// استخدم منشئ المستندات لإدراج حقل DDE وتعيين خصائصه وفقًا للمعلمات.
+/// استخدم منشئ المستندات لإدراج حقل DDE، وتعيين خصائصه وفقًا للمعلمات.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -234,12 +234,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // LinkedObjectAsText
+    // كائن مرتبط كنص
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // كائن مرتبط كصورة
     Picture,
     Bitmap
 }

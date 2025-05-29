@@ -3,14 +3,14 @@ title: Font.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words لـ .NET
-description: Font Spacing ملكية. إرجاع أو ضبط التباعد بالنقاط بين الأحرف  في C#.
+description: اكتشف خاصية "تباعد الخطوط" لضبط تباعد الأحرف بسهولة. حسّن سهولة القراءة والتصميم بتحكم دقيق في الطباعة.
 type: docs
-weight: 380
+weight: 390
 url: /ar/net/aspose.words/font/spacing/
 ---
 ## Font.Spacing property
 
-إرجاع أو ضبط التباعد (بالنقاط) بين الأحرف .
+يعيد أو يضبط المسافة (بالنقاط) بين الأحرف.
 
 ```csharp
 public double Spacing { get; set; }
@@ -18,21 +18,21 @@ public double Spacing { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط القياس الأفقي والتباعد للأحرف.
+يوضح كيفية ضبط المقياس الأفقي والتباعد للأحرف.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إضافة نص وزيادة عرض الأحرف إلى 150%.
+//أضف سلسلة من النص وزد عرض الحرف إلى 150%.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// أضف نصًا وأضف 1pt من التباعد الأفقي الإضافي بين كل حرف.
+// أضف نصًا ممتدًا وأضف مسافة أفقية إضافية قدرها 1 نقطة بين كل حرف.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// إضافة نص وتقريب الأحرف من بعضها البعض بمقدار 1pt.
+// أضف سلسلة من النص وقرب الأحرف من بعضها البعض بمقدار نقطة واحدة.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

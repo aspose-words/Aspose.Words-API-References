@@ -3,14 +3,14 @@ title: Document.Sections
 linktitle: Sections
 articleTitle: Sections
 second_title: Aspose.Words لـ .NET
-description: Document Sections ملكية. إرجاع مجموعة تمثل كافة الأقسام في المستند في C#.
+description: استكشف خاصية أقسام المستند للوصول إلى مجموعة كاملة من كافة أقسام المستند، مما يعمل على تحسين تنظيم المحتوى والتنقل فيه.
 type: docs
-weight: 370
+weight: 390
 url: /ar/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
 
-إرجاع مجموعة تمثل كافة الأقسام في المستند.
+يعيد مجموعة تمثل جميع الأقسام في المستند.
 
 ```csharp
 public SectionCollection Sections { get; }
@@ -18,7 +18,7 @@ public SectionCollection Sections { get; }
 
 ## أمثلة
 
-يوضح كيفية إضافة وإزالة الأقسام في المستند.
+يوضح كيفية إضافة أقسام وإزالتها في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -30,12 +30,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// احذف القسم الأول من المستند.
+//حذف القسم الأول من المستند.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// إلحاق نسخة مما هو الآن القسم الأول بنهاية المستند.
+// قم بإضافة نسخة من القسم الأول إلى نهاية المستند.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -43,16 +43,16 @@ doc.Sections.Add(newSection);
 Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ```
 
-يوضح كيفية تحديد كيفية فصل قسم جديد عن القسم السابق.
+يوضح كيفية تحديد كيفية فصل القسم الجديد عن القسم السابق.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// تحدد أنواع الفواصل المقطعية كيفية فصل قسم جديد عن القسم السابق.
+// تحدد أنواع فواصل الأقسام كيفية فصل القسم الجديد عن القسم السابق.
 // فيما يلي خمسة أنواع من فواصل الأقسام.
-// 1 - يبدأ القسم التالي في صفحة جديدة:
+// 1 - يبدأ القسم التالي على صفحة جديدة:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
@@ -64,13 +64,13 @@ builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - يبدأ القسم التالي في صفحة زوجية جديدة:
+// 3 - يبدأ القسم التالي على صفحة زوجية جديدة:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - يبدأ القسم التالي في صفحة فردية جديدة:
+// 4 - يبدأ القسم التالي على صفحة فردية جديدة:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 

@@ -3,14 +3,14 @@ title: SignatureLineOptions.DefaultInstructions
 linktitle: DefaultInstructions
 articleTitle: DefaultInstructions
 second_title: Aspose.Words لـ .NET
-description: SignatureLineOptions DefaultInstructions ملكية. الحصول على قيمة أو تعيينها تشير إلى أن التعليمات الافتراضية تظهر في مربع حوار التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي  في C#.
+description: اكتشف كيف تعمل خاصية SignatureLineOptions DefaultInstructions على تعزيز مربع حوار Sign الخاص بك باستخدام تعليمات افتراضية قابلة للتخصيص للحصول على تجربة مستخدم سلسة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-الحصول على قيمة أو تعيينها تشير إلى أن التعليمات الافتراضية تظهر في مربع حوار التوقيع. القيمة الافتراضية لهذه الخاصية هي`حقيقي` .
+يحصل على قيمة أو يعينها تشير إلى أن التعليمات الافتراضية تظهر في مربع الحوار "التوقيع". القيمة الافتراضية لهذه الخاصية هي`حقيقي` .
 
 ```csharp
 public bool DefaultInstructions { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
+// أعد فتح المستند المحفوظ لدينا، وتأكد من أن الخاصيتين "IsSigned" و"IsValid" تساويان "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

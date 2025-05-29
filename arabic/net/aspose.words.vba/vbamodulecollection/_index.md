@@ -3,16 +3,16 @@ title: VbaModuleCollection Class
 linktitle: VbaModuleCollection
 articleTitle: VbaModuleCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Vba.VbaModuleCollection فصل. يمثل مجموعة منVbaModule الكائنات في C#.
+description: اكتشف فئة Aspose.Words.Vba.VbaModuleCollection، وهي أداة أساسية لإدارة كائنات VbaModule بكفاءة في أتمتة المستندات.
 type: docs
-weight: 6560
+weight: 7410
 url: /ar/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-يمثل مجموعة من[`VbaModule`](../vbamodule/) الكائنات.
+يمثل مجموعة من[`VbaModule`](../vbamodule/) الأشياء.
 
-لمعرفة المزيد، قم بزيارة[العمل مع وحدات ماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[العمل مع وحدات الماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -22,37 +22,37 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | إرجاع عدد وحدات VBA في المجموعة. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | يسترد أ[`VbaModule`](../vbamodule/) كائن حسب الفهرس. (2 indexers) |
+| [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | يعيد عدد وحدات VBA في المجموعة. |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | يسترجع[`VbaModule`](../vbamodule/) الكائن حسب index. (2 indexers) |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.vba/vbamodulecollection/add/)(*[VbaModule](../vbamodule/)*) | إضافة وحدة إلى المجموعة. |
-| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(*[VbaModule](../vbamodule/)*) | إزالة الوحدة المحددة من المجموعة. |
+| [Add](../../aspose.words.vba/vbamodulecollection/add/)(*[VbaModule](../vbamodule/)*) | يضيف وحدة إلى المجموعة. |
+| [Remove](../../aspose.words.vba/vbamodulecollection/remove/)(*[VbaModule](../vbamodule/)*) | يزيل الوحدة المحددة من المجموعة. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
+يوضح كيفية الوصول إلى معلومات مشروع VBA الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// يحتوي مشروع VBA على مجموعة من وحدات VBA.
+//يحتوي مشروع VBA على مجموعة من وحدات VBA.
 VbaProject vbaProject = doc.VbaProject;
 Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// قم بتعيين كود مصدر جديد لوحدة VBA. يمكنك الوصول إلى وحدات VBA الموجودة في المجموعة إما عن طريق الفهرس أو بالاسم.
+// تعيين شيفرة مصدر جديدة لوحدة VBA. يمكنك الوصول إلى وحدات VBA في المجموعة إما عن طريق الفهرس أو الاسم.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

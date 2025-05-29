@@ -3,14 +3,14 @@ title: OfficeMathDisplayType Enum
 linktitle: OfficeMathDisplayType
 articleTitle: OfficeMathDisplayType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Math.OfficeMathDisplayType تعداد. يحدد نوع تنسيق عرض المعادلة في C#.
+description: اكتشف Aspose.Words.Math.OfficeMathDisplayType لتخصيص تنسيقات عرض المعادلات بسهولة لتحسين وضوح المستند والعرض.
 type: docs
-weight: 4130
+weight: 4820
 url: /ar/net/aspose.words.math/officemathdisplaytype/
 ---
 ## OfficeMathDisplayType enumeration
 
-يحدد نوع تنسيق عرض المعادلة.
+يحدد نوع تنسيق العرض للمعادلة.
 
 ```csharp
 public enum OfficeMathDisplayType
@@ -20,25 +20,25 @@ public enum OfficeMathDisplayType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Display | `0` | يتم عرض Office Math في السطر الخاص بها. |
-| Inline | `1` | يتم عرض Office Math سطريًا مع النص. |
+| Display | `0` | يتم عرض الرياضيات المكتبية على سطر خاص بها. |
+| Inline | `1` | يتم عرض الرياضيات المكتبية مضمنة مع النص. |
 
 ## أمثلة
 
-يوضح كيفية ضبط تنسيق عرض الرياضيات المكتبية.
+يوضح كيفية تعيين تنسيق عرض الرياضيات في المكتب.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// عقد OfficeMath التابعة لعقد OfficeMath الأخرى تكون دائمًا مضمّنة.
+// عقد OfficeMath التي تعد أبناء لعقد OfficeMath الأخرى تكون دائمًا مضمنة.
 // العقدة التي نعمل معها هي العقدة الأساسية لتغيير موقعها ونوع العرض.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
 
-// تغيير الموقع ونوع العرض لعقدة OfficeMath.
+// تغيير موقع ونوع العرض لعقدة OfficeMath.
 officeMath.DisplayType = OfficeMathDisplayType.Display;
 officeMath.Justification = OfficeMathJustification.Left;
 

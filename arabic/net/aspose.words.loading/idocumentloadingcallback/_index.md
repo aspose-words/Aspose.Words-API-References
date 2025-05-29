@@ -3,14 +3,14 @@ title: IDocumentLoadingCallback Interface
 linktitle: IDocumentLoadingCallback
 articleTitle: IDocumentLoadingCallback
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Loading.IDocumentLoadingCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء تحميل المستند في C#.
+description: خصّص تحميل المستندات باستخدام Aspose.Words.IDocumentLoadingCallback. طبّق طريقتك الخاصة لتحسين التحكم والمرونة في إدارة المستندات.
 type: docs
-weight: 3630
+weight: 4080
 url: /ar/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء تحميل المستند.
+قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء تحميل مستند.
 
 ```csharp
 public interface IDocumentLoadingCallback
@@ -20,11 +20,11 @@ public interface IDocumentLoadingCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | يتم استدعاؤه للإخطار بتقدم تحميل المستند. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | يتم استدعاء هذا لإعلامك بتقدم تحميل المستند. |
 
 ## أمثلة
 
-يوضح كيفية إعلام المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
+يوضح كيفية إخطار المستخدم إذا تجاوز تحميل المستند وقت التحميل المتوقع.
 
 ```csharp
 public void ProgressCallback()
@@ -46,12 +46,12 @@ public void ProgressCallback()
 }
 
 /// <summary>
-/// قم بإلغاء تحميل مستند بعد ثواني "MaxDuration".
+/// إلغاء تحميل المستند بعد مرور "MaxDuration" ثانية.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// نسبة مئوية.
+    /// مركز.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -59,7 +59,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء تحميل المستند.
+    /// طريقة الاتصال الرجعي التي يتم استدعاؤها أثناء تحميل المستند.
     /// </summary>
     /// <param name="args">جاري تحميل الوسائط.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -72,7 +72,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// التاريخ والوقت الذي يبدأ فيه تحميل المستند.
+    /// التاريخ والوقت الذي بدأ فيه تحميل المستند.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 

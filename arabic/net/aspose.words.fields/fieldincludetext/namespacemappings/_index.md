@@ -3,14 +3,14 @@ title: FieldIncludeText.NamespaceMappings
 linktitle: NamespaceMappings
 articleTitle: NamespaceMappings
 second_title: Aspose.Words لـ .NET
-description: FieldIncludeText NamespaceMappings ملكية. الحصول على تعيينات مساحة الاسم لاستعلامات XPath أو تعيينها في C#.
+description: اكتشف خاصية FieldIncludeText NamespaceMappings لإدارة تعيينات المساحة الاسمية لاستعلامات XPath بسهولة، مما يعزز كفاءة التعامل مع البيانات لديك.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldincludetext/namespacemappings/
 ---
 ## FieldIncludeText.NamespaceMappings property
 
-الحصول على تعيينات مساحة الاسم لاستعلامات XPath أو تعيينها.
+يحصل على تعيينات مساحة الأسماء لاستعلامات XPath أو يعينها.
 
 ```csharp
 public string NamespaceMappings { get; set; }
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // فيما يلي طريقتان لاستخدام حقول INCLUDETEXT لعرض محتويات ملف XML في نظام الملفات المحلي.
-    // 1 - إجراء تحويل XSL على مستند XML:
+    // 1 - تنفيذ تحويل XSL على مستند XML:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - استخدم XPath لأخذ عناصر محددة من مستند XML:
+    // 2 - استخدام XPath لأخذ عناصر محددة من مستند XML:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
+/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT مع خصائص مخصصة.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

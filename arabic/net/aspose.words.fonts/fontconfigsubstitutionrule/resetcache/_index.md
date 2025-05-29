@@ -3,14 +3,14 @@ title: FontConfigSubstitutionRule.ResetCache
 linktitle: ResetCache
 articleTitle: ResetCache
 second_title: Aspose.Words لـ .NET
-description: FontConfigSubstitutionRule ResetCache طريقة. إعادة تعيين ذاكرة التخزين المؤقت لنتائج استدعاء Fontconfig في C#.
+description: حسّن إدارة خطوطك باستخدام طريقة إعادة تعيين ذاكرة التخزين المؤقت FontConfigSubstitutionRule. امسح نتائج fontconfig بسهولة لتحسين الأداء.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/resetcache/
 ---
 ## FontConfigSubstitutionRule.ResetCache method
 
-إعادة تعيين ذاكرة التخزين المؤقت لنتائج استدعاء Fontconfig.
+إعادة تعيين ذاكرة التخزين المؤقت لنتائج استدعاء fontconfig.
 
 ```csharp
 public void ResetCache()
@@ -28,8 +28,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على الأنظمة الأساسية التي تعمل بنظام Windows/غير Windows.
-// على نظام التشغيل Windows، فهو غير متوفر.
+// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على أنظمة التشغيل Windows/غير Windows.
+// على نظام التشغيل Windows، غير متوفر.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه وسنكون قادرين على تنفيذ العمليات.
+// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه، وسنكون قادرين على إجراء العمليات.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

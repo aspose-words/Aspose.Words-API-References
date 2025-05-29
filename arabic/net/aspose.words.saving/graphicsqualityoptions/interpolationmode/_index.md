@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.InterpolationMode
 linktitle: InterpolationMode
 articleTitle: InterpolationMode
 second_title: Aspose.Words لـ .NET
-description: GraphicsQualityOptions InterpolationMode ملكية. الحصول على أو تعيين وضع الاستيفاء المرتبط بهذه الرسومات في C#.
+description: اكتشف خاصية GraphicsQualityOptions InterpolationMode لتخصيص إعدادات استيفاء الرسومات بسهولة لتحسين جودة الصورة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/interpolationmode/
 ---
 ## GraphicsQualityOptions.InterpolationMode property
 
-الحصول على أو تعيين وضع الاستيفاء المرتبط بهذه الرسومات.
+يحصل على وضع الاستيفاء المرتبط بهذه الرسومات أو يعينه.
 
 ```csharp
 public InterpolationMode? InterpolationMode { get; set; }

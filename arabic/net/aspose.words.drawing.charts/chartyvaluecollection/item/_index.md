@@ -3,14 +3,14 @@ title: ChartYValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: ChartYValueCollection Item ملكية. الحصول على قيمة Y أو تعيينها في الفهرس المحدد في C#.
+description: اكتشف خاصية ChartYValueCollection Item للوصول بسهولة إلى قيم Y أو تعديلها في أي مؤشر، مما يعزز تجربة تصور البيانات لديك.
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartyvaluecollection/item/
 ---
 ## ChartYValueCollection indexer
 
-الحصول على قيمة Y أو تعيينها في الفهرس المحدد.
+يحصل على قيمة Y أو يعينها عند الفهرس المحدد.
 
 ```csharp
 public ChartYValue this[int index] { get; set; }
@@ -18,7 +18,7 @@ public ChartYValue this[int index] { get; set; }
 
 ## ملاحظات
 
-يتم تمثيل القيم الفارغة كـ**باطل** .
+يتم تمثيل القيم الفارغة على النحو التالي**باطل** .
 
 ### أنظر أيضا
 

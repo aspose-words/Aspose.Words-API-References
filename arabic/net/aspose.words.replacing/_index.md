@@ -3,12 +3,12 @@ title: Aspose.Words.Replacing
 linktitle: Aspose.Words.Replacing
 articleTitle: Aspose.Words.Replacing
 second_title: Aspose.Words لـ .NET
-description: الAspose.Words.Replaceing توفر مساحة الاسم فئات للتعامل مع من خلال عمليات البحث/الاستبدال عبر شجرة المستندات في C#.
+description: قم بتعزيز مستنداتك بسهولة باستخدام مساحة اسم Aspose.Words.Replacing—فئات قوية لعمليات البحث/الاستبدال الفعالة في شجرة المستندات الخاصة بك.
 type: docs
-weight: 210
+weight: 230
 url: /ar/net/aspose.words.replacing/
 ---
-ال**Aspose.Words.Replaceing** توفر مساحة الاسم فئات للتعامل مع من خلال عمليات البحث/الاستبدال عبر شجرة المستندات.
+ال**افترض.الكلمات.استبدال** توفر مساحة الاسم فئات لـ manipulate باستخدام عمليات البحث/الاستبدال عبر شجرة المستندات.
 
 ## الطبقات
 
@@ -20,10 +20,11 @@ url: /ar/net/aspose.words.replacing/
 
 | واجهه المستخدم | وصف |
 | --- | --- |
-| [IReplacingCallback](./ireplacingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء عملية البحث والاستبدال. |
+| [IReplacingCallback](./ireplacingcallback/) | قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء عملية البحث والاستبدال. |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
-| [FindReplaceDirection](./findreplacedirection/) | يحدد اتجاه عمليات الاستبدال. |
+| [FindReplaceDirection](./findreplacedirection/) | يحدد الاتجاه لعمليات الاستبدال. |
 | [ReplaceAction](./replaceaction/) | يسمح للمستخدم بتحديد ما يحدث للمطابقة الحالية أثناء عملية الاستبدال. |
+| [ReplacementFormat](./replacementformat/) | يحدد تنسيق الاستبدال. |

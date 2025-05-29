@@ -3,14 +3,14 @@ title: TabStop.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words لـ .NET
-description: TabStop GetHashCode طريقة. حساب رمز التجزئة لهذا الكائن في C#.
+description: اكتشف كيف تقوم طريقة TabStop GetHashCode بإنشاء رموز تجزئة فريدة لكائناتك بكفاءة، مما يعزز استرداد البيانات والأداء.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/tabstop/gethashcode/
 ---
 ## TabStop.GetHashCode method
 
-حساب رمز التجزئة لهذا الكائن.
+يحسب رمز التجزئة لهذا الكائن.
 
 ```csharp
 public override int GetHashCode()

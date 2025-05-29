@@ -3,14 +3,14 @@ title: TableStyle.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words لـ .NET
-description: TableStyle LeftIndent ملكية. الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول في C#.
+description: اكتشف خاصية TableStyle LeftIndent لتخصيص المسافة البادئة اليسرى للجدول بسهولة لتحسين التحكم في التخطيط والجاذبية البصرية.
 type: docs
 weight: 90
 url: /ar/net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property
 
-الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول.
+يحصل على القيمة التي تمثل المسافة البادئة اليسرى للجدول أو يعينها.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -18,20 +18,20 @@ public double LeftIndent { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط موضع الجدول.
+يوضح كيفية تعيين موضع الجدول.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // فيما يلي طريقتان لمحاذاة الجدول أفقيًا.
-// 1 - استخدم خاصية "المحاذاة" لمحاذاتها لموقع في الصفحة، مثل المركز:
+// 1 - استخدم خاصية "المحاذاة" لمواءمتها مع موقع على الصفحة، مثل المركز:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// أدخل جدولاً وقم بتطبيق النمط الذي أنشأناه عليه.
+//أدرج جدولًا ثم قم بتطبيق النمط الذي أنشأناه عليه.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");

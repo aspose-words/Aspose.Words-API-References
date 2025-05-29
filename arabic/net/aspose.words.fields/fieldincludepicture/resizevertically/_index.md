@@ -3,14 +3,14 @@ title: FieldIncludePicture.ResizeVertically
 linktitle: ResizeVertically
 articleTitle: ResizeVertically
 second_title: Aspose.Words لـ .NET
-description: FieldIncludePicture ResizeVertically ملكية. الحصول على أو تعيين ما إذا كان سيتم تغيير حجم الصورة عموديًا من المصدر في C#.
+description: اكتشف كيف تعمل خاصية ResizeVertically في FieldIncludePicture على تعزيز إدارة الصور من خلال السماح بتغيير الحجم الرأسي للحصول على عرض مثالي.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-الحصول على أو تعيين ما إذا كان سيتم تغيير حجم الصورة عموديًا من المصدر.
+يحصل على أو يحدد ما إذا كان سيتم تغيير حجم الصورة عموديًا من المصدر.
 
 ```csharp
 public bool ResizeVertically { get; set; }
@@ -18,14 +18,14 @@ public bool ResizeVertically { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
+يوضح كيفية إدراج الصور باستخدام حقول IMPORT وINCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يوجد أدناه نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
-// 1 - حقل التضمين:
+// فيما يلي نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
+// 1 - حقل INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

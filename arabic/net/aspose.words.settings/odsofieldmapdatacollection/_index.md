@@ -3,14 +3,14 @@ title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection فصل. مجموعة مكتوبة منOdsoFieldMapData الكائنات في C#.
+description: اكتشف فئة Aspose.Words OdsoFieldMapDataCollection، وهي مجموعة مكتوبة قوية لإدارة فعالة لكائنات OdsoFieldMapData.
 type: docs
-weight: 5910
+weight: 6740
 url: /ar/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
-مجموعة مكتوبة من[`OdsoFieldMapData`](../odsofieldmapdata/) الكائنات.
+مجموعة مطبوعة من[`OdsoFieldMapData`](../odsofieldmapdata/) الأشياء.
 
 لمعرفة المزيد، قم بزيارة[دمج البريد وإعداد التقارير](https://docs.aspose.com/words/net/mail-merge-and-reporting/) مقالة توثيقية.
 
@@ -28,27 +28,27 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.settings/odsofieldmapdatacollection/count/) { get; } | الحصول على عدد العناصر الموجودة في المجموعة. |
-| [Item](../../aspose.words.settings/odsofieldmapdatacollection/item/) { get; set; } | الحصول على أو تعيين عنصر في هذه المجموعة. |
+| [Count](../../aspose.words.settings/odsofieldmapdatacollection/count/) { get; } | يحصل على عدد العناصر الموجودة في المجموعة. |
+| [Item](../../aspose.words.settings/odsofieldmapdatacollection/item/) { get; set; } | يحصل على عنصر في هذه المجموعة أو يعينه. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | إضافة كائن إلى نهاية هذه المجموعة. |
-| [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | إزالة كافة العناصر من هذه المجموعة. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | إرجاع كائن العداد الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة. |
-| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | إزالة العنصر الموجود في الفهرس المحدد. |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | يضيف كائنًا إلى نهاية هذه المجموعة. |
+| [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | يزيل جميع العناصر من هذه المجموعة. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | يعيد كائن عداد يمكن استخدامه للتكرار على جميع العناصر في المجموعة. |
+| [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | يزيل العنصر عند الفهرس المحدد. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات إلى حقول الدمج.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// تحدد هذه المجموعة كيفية تعيين دمج البريد للأعمدة من مصدر بيانات
-// لحقول MERGEFIELD وADDRESSBLOCK وGREETINGLINE المحددة مسبقًا.
+// تحدد هذه المجموعة كيفية قيام دمج البريد بتعيين الأعمدة من مصدر البيانات
+// إلى الحقول المحددة مسبقًا MERGEFIELD وADDRESSBLOCK وGREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -66,15 +66,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// استنساخ العناصر الموجودة في هذه المجموعة.
+//استنساخ العناصر في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// استخدم عناصر الطريقة "RemoveAt" بشكل فردي حسب الفهرس.
+// استخدم عناصر طريقة "RemoveAt" بشكل فردي حسب الفهرس.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// استخدم طريقة "مسح" لمسح المجموعة بأكملها مرة واحدة.
+//استخدم طريقة "المسح" لمسح المجموعة بأكملها مرة واحدة.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

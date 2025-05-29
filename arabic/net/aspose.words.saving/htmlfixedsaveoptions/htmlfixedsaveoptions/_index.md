@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions
 linktitle: HtmlFixedSaveOptions
 articleTitle: HtmlFixedSaveOptions
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions البناء. Default_Constructor في C#.
+description: اكتشف منشئ HtmlFixedSaveOptions - الحل الأمثل لحفظ المستندات بكفاءة مع ميزات قابلة للتخصيص للحصول على الأداء الأمثل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/htmlfixedsaveoptions/

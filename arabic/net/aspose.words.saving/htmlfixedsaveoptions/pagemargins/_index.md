@@ -3,9 +3,9 @@ title: HtmlFixedSaveOptions.PageMargins
 linktitle: PageMargins
 articleTitle: PageMargins
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions PageMargins ملكية. يحدد الهوامش حول الصفحات في مستند HTML. يتم قياس قيمة الهوامش بالنقاط ويجب أن تكون مساوية أو أكبر من 0. القيمة الافتراضية هي 10 نقاط في C#.
+description: اكتشف خاصية PageMargins في HtmlFixedSaveOptions لتخصيص هوامش مستند HTML. حدّد القيم بالنقاط للتحكم الدقيق في التخطيط.
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
@@ -20,8 +20,8 @@ public double PageMargins { get; set; }
 
 يعتمد على قيمة[`PageHorizontalAlignment`](../pagehorizontalalignment/) ملكية:
 
-* يحدد هوامش الصفحة العلوية والسفلية واليسرى إذا كانت القيمة كذلكLeft .
-* يحدد هوامش الصفحة العلوية والسفلية واليمنى إذا كانت القيمة كذلكRight .
+* يحدد هوامش الصفحة العلوية والسفلية واليسرى إذا كانت القيمةLeft .
+* يحدد هوامش الصفحة العلوية والسفلية واليمنى إذا كانت القيمةRight .
 * يحدد هوامش الصفحة العلوية والسفلية إذا كانت القيمةCenter .
 
 ## أمثلة

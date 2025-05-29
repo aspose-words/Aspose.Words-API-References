@@ -3,7 +3,7 @@ title: FieldTA
 linktitle: FieldTA
 articleTitle: FieldTA
 second_title: Aspose.Words لـ .NET
-description: FieldTA البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldTA القوي للتكامل السلس. أنشئ حلولاً مخصصة بسهولة، وحسّن كفاءة مشروعك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldta/fieldta/

@@ -3,14 +3,14 @@ title: HtmlLoadOptions.PreferredControlType
 linktitle: PreferredControlType
 articleTitle: PreferredControlType
 second_title: Aspose.Words لـ .NET
-description: HtmlLoadOptions PreferredControlType ملكية. الحصول على أو تعيين النوع المفضل لعقد المستند التي ستمثل عناصر input وselect المستوردة. القيمة الافتراضية هيFormField  في C#.
+description: اكتشف خاصية PreferredControlType في HtmlLoadOptions لتخصيص أنواع عقد المستندات للمدخلات المستوردة وعناصر التحديد. حسّن نماذجك بسهولة!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 ---
 ## HtmlLoadOptions.PreferredControlType property
 
-الحصول على أو تعيين النوع المفضل لعقد المستند التي ستمثل عناصر &lt;input&gt; و&lt;select&gt; المستوردة. القيمة الافتراضية هيFormField .
+يحصل على أو يعين النوع المفضل من عقد المستندات التي ستمثل عناصر &lt;input&gt; و&lt;select&gt; المستوردة. القيمة الافتراضية هيFormField .
 
 ```csharp
 public HtmlControlType PreferredControlType { get; set; }
@@ -18,18 +18,18 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ## ملاحظات
 
-يرجى ملاحظة أن تعيين هذه الخاصية لا يضمن أن جميع عناصر التحكم المستوردة ستكون من النوع المحدد. إذا كان عنصر تحكم HTML غير قابل للتمثيل مع عقد المستند من النوع المفضل، فسوف يستخدم Aspose.Words عنصرًا متوافقًا[`HtmlControlType`](../../htmlcontroltype/) لهذا التحكم.
+يرجى ملاحظة أن تعيين هذه الخاصية لا يضمن أن تكون جميع عناصر التحكم المستوردة من النوع المحدد. إذا لم يكن من الممكن تمثيل عنصر تحكم HTML باستخدام عقد المستندات من النوع المفضل، فسوف يستخدم Aspose.Words عنصر تحكم متوافق[`HtmlControlType`](../../htmlcontroltype/) لهذا التحكم.
 
 ## أمثلة
 
-يوضح كيفية تعيين النوع المفضل لعقد المستند التي ستمثل عناصر &lt;input&gt; و&lt;select&gt; المستوردة.
+يوضح كيفية تعيين النوع المفضل لعقد المستندات التي ستمثل عناصر &lt;input&gt; و&lt;select&gt; المستوردة.
 
 ```csharp
 const string html = @"
     <html>
         <select name='ComboBox' size='1'>
             <option value='val1'>item1</option>
-            <option value='val2'></option>                        
+            <option value='val2'></option>
         </select>
     </html>
 ";

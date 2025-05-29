@@ -3,14 +3,14 @@ title: PdfSaveOptions.DigitalSignatureDetails
 linktitle: DigitalSignatureDetails
 articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions DigitalSignatureDetails ملكية. الحصول على أو تعيين تفاصيل التوقيع على مستند PDF الناتج في C#.
+description: اكتشف PdfSaveOptions DigitalSignatureDetails لإدارة تفاصيل توقيع PDF بسهولة، وضمان إخراج مستند آمن وفعال.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 ---
 ## PdfSaveOptions.DigitalSignatureDetails property
 
-الحصول على أو تعيين تفاصيل التوقيع على مستند PDF الناتج.
+يحصل على تفاصيل توقيع مستند PDF الناتج أو يعينها.
 
 ```csharp
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
@@ -18,11 +18,11 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هي`باطل`ولن يتم توقيع مستند الإخراج. عندما يتم تعيين هذه الخاصية إلى صالحة[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, ثم سيتم توقيع مستند PDF الناتج رقميًا.
+القيمة الافتراضية هي`باطل` ولن يتم توقيع المستند الناتج. عندما يتم تعيين هذه الخاصية على قيمة صالحة[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) الكائن، ثم سيتم توقيع مستند PDF الناتج رقميًا.
 
 ## أمثلة
 
-يوضح كيفية التوقيع على مستند PDF تم إنشاؤه.
+يوضح كيفية توقيع مستند PDF تم إنشاؤه.
 
 ```csharp
 Document doc = new Document();
@@ -31,11 +31,11 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// قم بتكوين كائن "DigitalSignatureDetails" للكائن "SaveOptions" إلى
+// قم بتكوين كائن "DigitalSignatureDetails" من كائن "SaveOptions" إلى
 // قم بتوقيع المستند رقميًا أثناء عرضه باستخدام طريقة "الحفظ".
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
@@ -45,6 +45,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

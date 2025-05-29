@@ -3,14 +3,14 @@ title: ResourceSavingArgs.ResourceFileUri
 linktitle: ResourceFileUri
 articleTitle: ResourceFileUri
 second_title: Aspose.Words لـ .NET
-description: ResourceSavingArgs ResourceFileUri ملكية. الحصول على أو تعيين معرف المورد الموحد URI المستخدم للإشارة إلى ملف المورد من المستند في C#.
+description: اكتشف خاصية ResourceSavingArgs ResourceFileUri لإدارة ملفات الموارد والرجوع إليها بسهولة في مستنداتك. حسّن كفاءتك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
 ---
 ## ResourceSavingArgs.ResourceFileUri property
 
-الحصول على أو تعيين معرف المورد الموحد (URI) المستخدم للإشارة إلى ملف المورد من المستند.
+يحصل على معرف المورد الموحد (URI) المستخدم للإشارة إلى ملف الموارد من المستند أو يعينه.
 
 ```csharp
 public string ResourceFileUri { get; set; }
@@ -18,17 +18,17 @@ public string ResourceFileUri { get; set; }
 
 ## ملاحظات
 
-تسمح لك هذه الخاصية بتغيير معرفات URI لملفات الموارد المصدرة إلى مستندات HTML أو SVG ذات صفحة ثابتة.
+تتيح لك هذه الخاصية تغيير عناوين URI الخاصة بملفات الموارد المصدرة إلى مستندات HTML أو SVG ذات الصفحات الثابتة.
 
-يقوم Aspose.Words تلقائيًا بإنشاء URI لكل ملف مورد أثناء التصدير إلى صفحة ثابتة بتنسيق HTML أو SVG. تشير معرفات URI التي تم إنشاؤها إلى ملفات الموارد المحفوظة بواسطة Aspose.Words. ومع ذلك، يمكن أن تكون عناوين URI غير صحيحة إذا تم نقل ملفات الموارد إلى موقع آخر أو إذا تم حفظ ملفات الموارد في التدفقات. تسمح هذه الخاصية بتصحيح معرفات URI في هذه الحالات.
+يُنشئ Aspose.Words تلقائيًا مُعرّف موارد (URI) لكل ملف مورد أثناء التصدير إلى تنسيق HTML لصفحة ثابتة أو SVG. تُشير مُعرّفات الموارد المُولّدة إلى ملفات الموارد المحفوظة بواسطة Aspose.Words. مع ذلك، قد تكون مُعرّفات الموارد (URIs) غير صحيحة إذا كان من المقرر نقل ملفات الموارد إلى موقع آخر أو إذا تم حفظها في تدفقات. تسمح هذه الخاصية بتصحيح مُعرّفات الموارد (URIs) في هذه الحالات.
 
-عند إطلاق الحدث، تحتوي هذه الخاصية على URI الذي تم إنشاؤه بواسطة Aspose.Words. يمكنك تغيير قيمة هذه الخاصية لتوفير عنوان URI مخصص لملف المورد.
+عند تشغيل الحدث، تحتوي هذه الخاصية على مُعرِّف الموارد المُولَّد بواسطة Aspose.Words. يمكنك تغيير قيمة هذه الخاصية لتوفير مُعرِّف موارد مُخصَّص لملف الموارد.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
 ## أمثلة
 
-يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام معاودة الاتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -50,7 +50,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
+    /// يتم استدعاؤها عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

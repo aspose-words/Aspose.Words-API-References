@@ -3,14 +3,14 @@ title: IDocumentReaderPlugin Interface
 linktitle: IDocumentReaderPlugin
 articleTitle: IDocumentReaderPlugin
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.IDocumentReaderPlugin واجهه المستخدم. يحدد واجهة للمكونات الإضافية للقارئ الخارجي التي يمكنها قراءة ملف في مستند في C#.
+description: اكتشف واجهة Aspose.Words.IDocumentReaderPlugin، التي تتيح التكامل السلس للقراء الخارجيين لتحويل الملفات إلى مستندات بسهولة.
 type: docs
-weight: 3180
+weight: 3620
 url: /ar/net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface
 
-يحدد واجهة للمكونات الإضافية للقارئ الخارجي التي يمكنها قراءة ملف في مستند.
+يحدد واجهة لمكونات إضافية للقراءة الخارجية التي يمكنها قراءة ملف في مستند.
 
 ```csharp
 public interface IDocumentReaderPlugin
@@ -20,7 +20,7 @@ public interface IDocumentReaderPlugin
 
 | اسم | وصف |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [Document](../document/)*) | يقرأ البيانات من الدفق المحدد إلى ملف[`Document`](../document/) المثال. |
+| [Read](../../aspose.words/idocumentreaderplugin/read/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [Document](../document/)*) | يقرأ البيانات من التدفق المحدد إلى[`Document`](../document/) مثال. |
 
 ### أنظر أيضا
 

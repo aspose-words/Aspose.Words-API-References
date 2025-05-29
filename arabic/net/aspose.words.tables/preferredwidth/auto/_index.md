@@ -3,14 +3,14 @@ title: PreferredWidth.Auto
 linktitle: Auto
 articleTitle: Auto
 second_title: Aspose.Words لـ .NET
-description: PreferredWidth Auto مجال. إرجاع مثيل يمثل القيمة لم يتم تحديد العرض المفضل في C#.
+description: اكتشف حقل PreferredWidth Auto، الذي يتعامل بكفاءة مع قيم العرض غير المحددة لتحقيق التخصيص الأمثل للتخطيط في مشاريعك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.tables/preferredwidth/auto/
 ---
 ## PreferredWidth.Auto field
 
-إرجاع مثيل يمثل القيمة "لم يتم تحديد العرض المفضل".
+يعيد مثيلًا يمثل قيمة "العرض المفضل غير محدد".
 
 ```csharp
 public static readonly PreferredWidth Auto;
@@ -26,13 +26,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // هناك طريقتان لتطبيق فئة "PreferredWidth" على خلايا الجدول.
-// 1 - قم بتعيين العرض المفضل المطلق بناءً على النقاط:
+// 1 - تعيين العرض المفضل المطلق استنادًا إلى النقاط:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - قم بتعيين العرض المفضل النسبي بناءً على النسبة المئوية لعرض الجدول:
+// 2 - تعيين عرض مفضل نسبيًا استنادًا إلى النسبة المئوية لعرض الجدول:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -40,10 +40,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// الخلية التي لم يتم تحديد العرض المفضل لها سوف تشغل بقية المساحة المتوفرة.
+// ستشغل الخلية التي ليس لها عرض مفضل محدد بقية المساحة المتوفرة.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// يقوم كل تكوين لخاصية "PreferredWidth" بإنشاء كائن جديد.
+// يؤدي كل تكوين لخاصية "PreferredWidth" إلى إنشاء كائن جديد.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

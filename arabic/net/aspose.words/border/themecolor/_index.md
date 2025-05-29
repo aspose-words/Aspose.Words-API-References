@@ -3,14 +3,14 @@ title: Border.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words لـ .NET
-description: Border ThemeColor ملكية. الحصول على لون السمة أو تعيينه في نظام الألوان المطبق المرتبط بكائن الحدود هذا في C#.
+description: اكتشف كيفية استخدام خاصية Border ThemeColor لتخصيص مخطط الألوان الخاص بك وتعزيز تصميمك باستخدام سمات نابضة بالحياة ومصممة خصيصًا.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/border/themecolor/
 ---
 ## Border.ThemeColor property
 
-الحصول على لون السمة أو تعيينه في نظام الألوان المطبق المرتبط بكائن الحدود هذا.
+يحصل على لون السمة أو يعينه في مخطط الألوان المطبق المرتبط بكائن الحدود هذا.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
@@ -18,7 +18,7 @@ public ThemeColor ThemeColor { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج فقرة ذات حد علوي.
+يوضح كيفية إدراج فقرة ذات حدود علوية.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// قم بتعيين ThemeColor فقط عند ضبط LineWidth أو LineStyle.
+// قم بتعيين ThemeColor فقط عند تعيين LineWidth أو LineStyle.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

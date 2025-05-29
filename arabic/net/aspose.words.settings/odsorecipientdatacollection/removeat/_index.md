@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words لـ .NET
-description: OdsoRecipientDataCollection RemoveAt طريقة. إزالة العنصر الموجود في الفهرس المحدد في C#.
+description: اكتشف طريقة OdsoRecipientDataCollection RemoveAt لإزالة العناصر بسهولة عن طريق الفهرس، مما يعزز كفاءة إدارة البيانات لديك.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/removeat/
 ---
 ## OdsoRecipientDataCollection.RemoveAt method
 
-إزالة العنصر الموجود في الفهرس المحدد.
+يزيل العنصر عند الفهرس المحدد.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | الفهرس الصفري للعنصر. |
+| index | Int32 | مؤشر العنصر المبني على الصفر. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال عملية دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -44,10 +44,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
+//يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
+//يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

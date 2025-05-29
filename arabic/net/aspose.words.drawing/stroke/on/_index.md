@@ -3,14 +3,14 @@ title: Stroke.On
 linktitle: On
 articleTitle: On
 second_title: Aspose.Words لـ .NET
-description: Stroke On ملكية. يحدد ما إذا كان سيتم تحديد المسار أم لا في C#.
+description: تحكم في تصميم المسارات باستخدام خاصية "الخطوط". حسّن تصميماتك بتحديد كيفية رسم المسارات لمظهر أنيق واحترافي.
 type: docs
-weight: 140
+weight: 190
 url: /ar/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
 
-يحدد ما إذا كان سيتم تحديد المسار أم لا.
+يحدد ما إذا كان سيتم رسم المسار أم لا.
 
 ```csharp
 public bool On { get; set; }
@@ -18,7 +18,7 @@ public bool On { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية ل[`Shape`](../../shape/) يكون`حقيقي`.
+القيمة الافتراضية لـ[`Shape`](../../shape/) يكون`حقيقي`.
 
 ## أمثلة
 
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// الأشكال الأساسية، مثل المستطيل، لها جزأين مرئيين.
-// 1 - التعبئة، والتي تنطبق على المساحة الموجودة داخل المخطط التفصيلي للشكل:
+//الأشكال الأساسية، مثل المستطيل، تحتوي على جزأين مرئيين.
+// 1 - التعبئة، والتي تنطبق على المنطقة داخل مخطط الشكل:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - الحد الذي يحدد الخطوط العريضة للشكل:
-// تعديل الخصائص المختلفة لحد هذا الشكل.
+// 2 - الخط الذي يحدد الخطوط العريضة للشكل:
+// تعديل خصائص مختلفة لخط هذا الشكل.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

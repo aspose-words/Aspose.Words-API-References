@@ -3,7 +3,7 @@ title: FieldBarcode.IsBookmark
 linktitle: IsBookmark
 articleTitle: IsBookmark
 second_title: Aspose.Words لـ .NET
-description: FieldBarcode IsBookmark ملكية. يحصل على أو يحدد ما إذا كانPostalAddress هو اسم الإشارة المرجعية في C#.
+description: اكتشف كيف تعمل خاصية FieldBarcode IsBookmark على تعزيز وظيفة PostalAddress لديك، مما يسمح بإدارة الإشارات المرجعية بسلاسة لتحسين تنظيم البيانات.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldbarcode/isbookmark/
@@ -18,7 +18,7 @@ public bool IsBookmark { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام حقل BARCODE لعرض الرموز البريدية الأمريكية على شكل باركود.
+يوضح كيفية استخدام حقل الباركود لعرض الرموز البريدية الأمريكية في شكل رمز شريطي.
 
 ```csharp
 Document doc = new Document();
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// فيما يلي طريقتان لاستخدام حقول الباركود لعرض القيم المخصصة كرموز شريطية.
-// 1 - قم بتخزين القيمة التي سيعرضها الباركود في خاصية العنوان البريدي:
+// فيما يلي طريقتان لاستخدام حقول BARCODE لعرض القيم المخصصة كرموز شريطية.
+// 1 - قم بتخزين القيمة التي سيعرضها الرمز الشريطي في خاصية PostalAddress:
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
-// يجب أن تكون هذه القيمة رمزًا بريديًا صالحًا.
+//يجب أن تكون هذه القيمة رمزًا بريديًا صالحًا.
 field.PostalAddress = "96801";
 field.IsUSPostalAddress = true;
 field.FacingIdentificationMark = "C";
@@ -39,15 +39,15 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - إشارة مرجعية تخزن القيمة التي سيعرضها هذا الرمز الشريطي:
+// 2 - قم بالإشارة إلى إشارة مرجعية تخزن القيمة التي سيعرضها هذا الرمز الشريطي:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
-// الإشارة المرجعية التي يشير إليها حقل BARCODE في خاصية PostalAddress الخاصة به
-// يجب ألا يحتوي على أي شيء إلى جانب الرمز البريدي الصالح.
+// الإشارة المرجعية التي يشير إليها حقل BARCODE في خاصية PostalAddress
+//يجب أن لا يحتوي على أي شيء سوى الرمز البريدي الصحيح.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

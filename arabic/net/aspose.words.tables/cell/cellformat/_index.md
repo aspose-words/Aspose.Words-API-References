@@ -3,14 +3,14 @@ title: Cell.CellFormat
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words لـ .NET
-description: Cell CellFormat ملكية. يوفر الوصول إلى خصائص تنسيق الخلية في C#.
+description: اكتشف خاصية CellFormat للوصول بسهولة إلى خيارات تنسيق الخلايا وتخصيصها لتحسين عرض البيانات في تطبيقاتك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/cell/cellformat/
 ---
 ## Cell.CellFormat property
 
-يوفر الوصول إلى خصائص تنسيق الخلية.
+يوفر الوصول إلى خصائص التنسيق الخاصة بالخلية.
 
 ```csharp
 public CellFormat CellFormat { get; }
@@ -39,13 +39,13 @@ doc.Save(ArtifactsDir + "Table.CellFormat.docx");
 Document doc = new Document(MyDir + "Tables.docx");
 
 // فيما يلي طريقتان للحصول على جدول من مستند.
-// 1 - من مجموعة "الجداول" للعقدة الأساسية:
+// 1 - من مجموعة "الجداول" لعقدة الجسم:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - استخدام طريقة "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// إلحاق جميع الصفوف من الجدول الحالي بالجدول التالي.
+//إضافة كافة الصفوف من الجدول الحالي إلى الجدول التالي.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
@@ -55,7 +55,7 @@ secondTable.Remove();
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
 ```
 
-يوضح كيفية تعديل تنسيق الصفوف والخلايا في الجدول.
+يوضح كيفية تعديل تنسيق الصفوف والخلايا في جدول.
 
 ```csharp
 Document doc = new Document();
@@ -73,13 +73,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// استخدم خاصية "RowFormat" للصف الأول لتعديل التنسيق
-// محتويات جميع الخلايا في هذا الصف.
+// استخدم خاصية "RowFormat" في الصف الأول لتعديل التنسيق
+// من محتويات جميع الخلايا في هذا الصف.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// استخدم خاصية "CellFormat" للخلية الأولى في الصف الأخير لتعديل تنسيق محتويات تلك الخلية.
+//استخدم خاصية "CellFormat" الخاصة بالخلية الأولى في الصف الأخير لتعديل تنسيق محتويات تلك الخلية.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

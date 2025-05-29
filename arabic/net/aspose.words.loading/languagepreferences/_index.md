@@ -3,9 +3,9 @@ title: LanguagePreferences Class
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Loading.LanguagePreferences فصل. يسمح بإعداد تفضيلات اللغة في C#.
+description: اكتشف فئة Aspose.Words.LanguagePreferences لتخصيص وإدارة إعدادات اللغة بسهولة لتحسين معالجة المستندات.
 type: docs
-weight: 3650
+weight: 4100
 url: /ar/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
@@ -28,18 +28,18 @@ public class LanguagePreferences
 
 | اسم | وصف |
 | --- | --- |
-| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage/) { get; set; } | الحصول على لغة التحرير الافتراضية أو تعيينها. |
+| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage/) { get; set; } | يحصل على لغة التحرير الافتراضية أو يعينها. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
 | [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | يضيف لغة تحرير إضافية. |
-| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | إضافة لغات تحرير إضافية. |
+| [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | يضيف لغات تحرير إضافية. |
 
 ## ملاحظات
 
-يقوم بتنفيذ مربع الحوار "تعيين تفضيلات لغة Office" في Word.
+ينفذ مربع الحوار "تعيين تفضيلات لغة Office" في Word.
 
 ## أمثلة
 

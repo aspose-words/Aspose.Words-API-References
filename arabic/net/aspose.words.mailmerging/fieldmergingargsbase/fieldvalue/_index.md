@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.FieldValue
 linktitle: FieldValue
 articleTitle: FieldValue
 second_title: Aspose.Words لـ .NET
-description: FieldMergingArgsBase FieldValue ملكية. الحصول على قيمة الحقل أو تعيينها من مصدر البيانات في C#.
+description: اكتشف خاصية FieldValue في FieldMergingArgsBase. تمتع بسهولة الوصول إلى قيم الحقول وتعديلها من مصدر بياناتك لتحسين إدارة بياناتك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
 ---
 ## FieldMergingArgsBase.FieldValue property
 
-الحصول على قيمة الحقل أو تعيينها من مصدر البيانات.
+يحصل على قيمة الحقل من مصدر البيانات أو يعينها.
 
 ```csharp
 public object FieldValue { get; set; }
@@ -18,11 +18,11 @@ public object FieldValue { get; set; }
 
 ## ملاحظات
 
-تحتوي هذه الخاصية على قيمة تم تحديدها للتو من مصدر البيانات الخاص بك لهذا الحقل بواسطة محرك دمج المراسلات. يمكنك أيضًا استبدال القيمة عن طريق تعيين الخاصية.
+تحتوي هذه الخاصية على قيمة تم تحديدها من مصدر بياناتك لهذا الحقل بواسطة محرك دمج البريد. يمكنك أيضًا استبدال القيمة بتعيين الخاصية.
 
 ## أمثلة
 
-يوضح كيفية تحرير القيم التي تتلقاها MERGEFIELDs عند حدوث عملية دمج البريد.
+يوضح كيفية تحرير القيم التي تتلقاها MERGEFIELDs أثناء عملية دمج البريد.
 
 ```csharp
 public void FieldFormats()
@@ -48,12 +48,12 @@ public void FieldFormats()
 
 /// <summary>
 /// يقوم بتحرير القيم التي تتلقاها MERGEFIELDs أثناء دمج البريد.
-/// يجب أن يحتوي اسم MERGEFIELD على بادئة حتى يصبح رد الاتصال هذا ساري المفعول على قيمته.
+/// يجب أن يحتوي اسم MERGEFIELD على بادئة حتى تسري هذه الدالة الراجعة على قيمته.
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
+    /// يتم استدعاؤها عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs e)
     {
@@ -65,7 +65,7 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
-        // لا تفعل شيئا.
+        //لا تفعل شيئا.
     }
 }
 ```

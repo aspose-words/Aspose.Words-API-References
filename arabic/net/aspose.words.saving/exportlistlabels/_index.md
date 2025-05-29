@@ -3,9 +3,9 @@ title: ExportListLabels Enum
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.ExportListLabels تعداد. يحدد كيفية تصدير تسميات القائمة إلى HTML وMHTML وEPUB في C#.
+description: اكتشف كيف يعمل Aspose.Words.Saving.ExportListLabels على تعزيز صادرات HTML وMHTML وEPUB باستخدام خيارات تسمية القائمة القابلة للتخصيص.
 type: docs
-weight: 5010
+weight: 5760
 url: /ar/net/aspose.words.saving/exportlistlabels/
 ---
 ## ExportListLabels enumeration
@@ -20,13 +20,13 @@ public enum ExportListLabels
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Auto | `0` | تسميات قائمة المخرجات في الوضع التلقائي. يستخدم عناصر HTML الأصلية عندما يكون ذلك ممكنًا. |
-| AsInlineText | `1` | إخراج كافة تسميات القائمة كنص مضمن. |
-| ByHtmlTags | `2` | إخراج كافة تسميات القائمة كعناصر HTML أصلية. |
+| Auto | `0` | يُخرج تسميات القوائم تلقائيًا. يستخدم عناصر HTML الأصلية كلما أمكن. |
+| AsInlineText | `1` | إخراج جميع تسميات القائمة كنص مضمن. |
+| ByHtmlTags | `2` | يقوم بإخراج جميع تسميات القائمة كعناصر HTML أصلية. |
 
 ## أمثلة
 
-يوضح كيفية تكوين قائمة التصدير إلى HTML.
+يوضح كيفية تكوين تصدير القائمة إلى HTML.
 
 ```csharp
 Document doc = new Document();
@@ -54,14 +54,14 @@ builder.ListFormat.ListIndent();
 builder.Writeln("Outline legal heading list item 5.");
 builder.ListFormat.RemoveNumbers();
 
-// عند حفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
+// عند حفظ المستند في HTML، يمكننا تمرير كائن SaveOptions
 // لتحديد عناصر HTML التي سيستخدمها المستند لتمثيل القوائم.
-// ضبط خاصية "ExportListLabels" على "ExportListLabels.AsInlineText"
-// سيُنشئ قوائم بتنسيق الامتدادات.
-// سيؤدي تعيين خاصية "ExportListLabels" إلى "ExportListLabels.Auto" إلى استخدام <p> بطاقة شعار
-// لإنشاء قوائم في الحالات عند استخدام <ol> <لي> قد تتسبب العلامات في فقدان التنسيق.
-// ضبط خاصية "ExportListLabels" على "ExportListLabels.ByHtmlTags"
-// سوف يستخدم <ol> <لي> العلامات لبناء كافة القوائم.
+// تعيين خاصية "ExportListLabels" إلى "ExportListLabels.AsInlineText"
+// سيتم إنشاء القوائم عن طريق تنسيق الامتدادات.
+// سيؤدي تعيين خاصية "ExportListLabels" إلى "ExportListLabels.Auto" إلى استخدام العلامة <p>
+// لبناء القوائم في الحالات التي قد يؤدي فيها استخدام علامتي <ol> و <li> إلى فقدان التنسيق.
+// تعيين خاصية "ExportListLabels" إلى "ExportListLabels.ByHtmlTags"
+// سيتم استخدام علامتي <ol> و <li> لبناء كافة القوائم.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

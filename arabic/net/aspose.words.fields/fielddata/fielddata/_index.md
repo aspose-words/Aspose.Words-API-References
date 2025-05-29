@@ -3,7 +3,7 @@ title: FieldData
 linktitle: FieldData
 articleTitle: FieldData
 second_title: Aspose.Words لـ .NET
-description: FieldData البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldData لإدارة بيانات سلسة. استخدم المُنشئ الافتراضي لتحسين أداء تطبيقك وكفاءته.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddata/fielddata/

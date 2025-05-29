@@ -3,7 +3,7 @@ title: MailMergeSettings.Destination
 linktitle: Destination
 articleTitle: Destination
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings Destination ملكية. يحدد كيفية قيام Microsoft Word بإخراج نتائج دمج البريد. القيمة الافتراضية هيDefault  في C#.
+description: اكتشف كيفية تخصيص خاصية "وجهة إعدادات دمج البريد" في مايكروسوفت وورد للحصول على مخرجات دمج بريد مُخصصة. حسّن كفاءة مستندك اليوم!
 type: docs
 weight: 80
 url: /ar/net/aspose.words.settings/mailmergesettings/destination/
@@ -18,7 +18,7 @@ public MailMergeDestination Destination { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

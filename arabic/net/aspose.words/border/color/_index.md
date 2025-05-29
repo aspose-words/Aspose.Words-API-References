@@ -3,14 +3,14 @@ title: Border.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words لـ .NET
-description: Border Color ملكية. الحصول على لون الحدود أو تعيينه في C#.
+description: قم بتخصيص تصميماتك بسهولة باستخدام خاصية لون الحدود، التي تسمح لك بتعيين وتعديل ألوان الحدود للحصول على تأثير بصري مذهل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/border/color/
 ---
 ## Border.Color property
 
-الحصول على لون الحدود أو تعيينه.
+يحصل على لون الحدود أو يعينه.
 
 ```csharp
 public Color Color { get; set; }
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
+يوضح كيفية إدراج سلسلة محاطة بحدود في مستند.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: ConditionalStyle Class
 linktitle: ConditionalStyle
 articleTitle: ConditionalStyle
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.ConditionalStyle فصل. يمثل التنسيق الخاص المطبق على بعض مناطق الجدول بنمط الجدول المخصص في C#.
+description: اكتشف فئة Aspose.Words.ConditionalStyle لتنسيق الجداول المتقدم. حسّن مستنداتك بأنماط ديناميكية وحسّن قابلية القراءة بسهولة.
 type: docs
-weight: 310
+weight: 510
 url: /ar/net/aspose.words/conditionalstyle/
 ---
 ## ConditionalStyle class
 
-يمثل التنسيق الخاص المطبق على بعض مناطق الجدول بنمط الجدول المخصص.
+يمثل تنسيقًا خاصًا يتم تطبيقه على بعض مناطق الجدول باستخدام نمط الجدول المخصص.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الجداول](https://docs.aspose.com/words/net/working-with-tables/) مقالة توثيقية.
 
@@ -22,27 +22,27 @@ public sealed class ConditionalStyle
 
 | اسم | وصف |
 | --- | --- |
-| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | الحصول على مجموعة حدود الخلايا الافتراضية للنمط الشرطي. |
-| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات خلايا الجدول. |
-| [Font](../../aspose.words/conditionalstyle/font/) { get; } | الحصول على تنسيق الأحرف للنمط الشرطي. |
-| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات خلايا الجدول. |
-| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | الحصول على تنسيق الفقرة بالنمط الشرطي. |
-| [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يمين محتويات خلايا الجدول. |
+| [Borders](../../aspose.words/conditionalstyle/borders/) { get; } | يحصل على مجموعة حدود الخلايا الافتراضية للنمط الشرطي. |
+| [BottomPadding](../../aspose.words/conditionalstyle/bottompadding/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) المراد إضافتها أسفل محتويات خلايا الجدول أو يعينه. |
+| [Font](../../aspose.words/conditionalstyle/font/) { get; } | يحصل على تنسيق الأحرف للنمط الشرطي. |
+| [LeftPadding](../../aspose.words/conditionalstyle/leftpadding/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يسار محتويات خلايا الجدول أو يعينها. |
+| [ParagraphFormat](../../aspose.words/conditionalstyle/paragraphformat/) { get; } | يحصل على تنسيق الفقرة للنمط الشرطي. |
+| [RightPadding](../../aspose.words/conditionalstyle/rightpadding/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يمين محتويات خلايا الجدول أو يعينها. |
 | [Shading](../../aspose.words/conditionalstyle/shading/) { get; } | يحصل على[`Shading`](../shading/) الكائن الذي يشير إلى تنسيق التظليل لهذا النمط الشرطي. |
-| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها فوق محتويات خلايا الجدول. |
-| [Type](../../aspose.words/conditionalstyle/type/) { get; } | الحصول على مساحة الجدول التي يرتبط بها هذا النمط الشرطي. |
+| [TopPadding](../../aspose.words/conditionalstyle/toppadding/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) المراد إضافتها فوق محتويات خلايا الجدول أو يعينه. |
+| [Type](../../aspose.words/conditionalstyle/type/) { get; } | يحصل على منطقة الجدول التي يرتبط بها هذا النمط الشرطي. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/conditionalstyle/clearformatting/)() | مسح تنسيق هذا النمط الشرطي. |
-| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | مقارنة هذا النمط الشرطي بالكائن المحدد. |
-| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | حساب رمز التجزئة لهذا الكائن. |
+| override [Equals](../../aspose.words/conditionalstyle/equals/)(*object*) | يقارن هذا النمط الشرطي بالكائن المحدد. |
+| override [GetHashCode](../../aspose.words/conditionalstyle/gethashcode/)() | يحسب رمز التجزئة لهذا الكائن. |
 
 ## أمثلة
 
-يوضح كيفية العمل مع أنماط مناطق معينة في الجدول.
+يوضح كيفية العمل مع أنماط مناطق معينة من الجدول.
 
 ```csharp
 Document doc = new Document();
@@ -63,9 +63,9 @@ builder.EndTable();
 // إنشاء نمط جدول مخصص.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// الأنماط الشرطية هي تغييرات التنسيق التي تؤثر فقط على بعض خلايا الجدول
-// استنادًا إلى المسند، مثل وجود الخلايا في الصف الأخير.
-// فيما يلي ثلاث طرق للوصول إلى الأنماط الشرطية لنمط الجدول من مجموعة "الأنماط الشرطية".
+// الأنماط الشرطية هي تغييرات تنسيق تؤثر فقط على بعض خلايا الجدول
+// بناءً على مسند، مثل وجود الخلايا في الصف الأخير.
+// فيما يلي ثلاث طرق للوصول إلى أنماط الجدول الشرطية من مجموعة "ConditionalStyles".
 // 1 - حسب نوع النمط:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -84,7 +84,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// قم بإدراج جميع شروط النمط الممكنة.
+// قم بإدراج جميع شروط الأسلوب الممكنة.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -97,11 +97,11 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // قم بتطبيق النمط المخصص، الذي يحتوي على كافة الأنماط الشرطية، على الجدول.
 table.Style = tableStyle;
 
-// يطبق أسلوبنا بعض الأنماط الشرطية بشكل افتراضي.
+//يطبق أسلوبنا بعض الأنماط الشرطية بشكل افتراضي.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// سنحتاج إلى تمكين جميع الأنماط الأخرى بأنفسنا عبر خاصية "StyleOptions".
+// سوف نحتاج إلى تمكين جميع الأنماط الأخرى بأنفسنا عبر خاصية "StyleOptions".
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

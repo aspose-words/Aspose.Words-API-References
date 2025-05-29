@@ -3,14 +3,14 @@ title: Font.ThemeFontBi
 linktitle: ThemeFontBi
 articleTitle: ThemeFontBi
 second_title: Aspose.Words لـ .NET
-description: Font ThemeFontBi ملكية. الحصول على أو تعيين خط السمة في نظام الخطوط المطبق المرتبط بهذاFont object في مستند لغة من اليمين إلى اليسار في C#.
+description: اكتشف كيفية إدارة خطوط السمات بسهولة في المستندات المكتوبة من اليمين إلى اليسار باستخدام خاصية FontBi، مما يعزز تصميمك وقابلية قراءته دون عناء.
 type: docs
-weight: 490
+weight: 500
 url: /ar/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-الحصول على أو تعيين خط السمة في نظام الخطوط المطبق المرتبط بهذا[`Font`](../) object في مستند لغة من اليمين إلى اليسار.
+يحصل على خط السمة أو يعينه في مخطط الخطوط المطبق المرتبط بهذا[`Font`](../) object في مستند بلغة من اليمين إلى اليسار.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontBi { get; set; }
 
 ## أمثلة
 
-يوضح كيفية العمل مع خطوط وألوان السمات.
+يوضح كيفية العمل مع الخطوط والألوان الخاصة بالموضوع.
 
 ```csharp
 Document doc = new Document();
 
-// تحديد الخطوط لاستخدامات اللغات بشكل افتراضي.
+// قم بتحديد الخطوط لاستخدامات اللغات بشكل افتراضي.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -31,7 +31,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// يمكننا استخدام خط السمة ولونها بدلاً من القيم الافتراضية.
+//يمكننا استخدام الخط واللون الخاص بالموضوع بدلاً من القيم الافتراضية.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -53,8 +53,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// هناك عدة طرق لإعادة ضبط الخط واللون.
-// 1 - عن طريق ضبط ThemeFont.None/ThemeColor.None:
+// هناك عدة طرق لإعادة تعيين الخط واللون.
+// 1 - عن طريق تعيين ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - عن طريق تعيين أسماء الخطوط/الألوان غير الموضوعية:
+// 2 - عن طريق تعيين أسماء الخطوط/الألوان غير المتعلقة بالموضوع:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -1,0 +1,95 @@
+---
+title: ConverterContext Class
+linktitle: ConverterContext
+articleTitle: ConverterContext
+second_title: Aspose.Words لـ .NET
+description: اكتشف فئة Aspose.Words LowCode ConverterContext القوية لتحويل مستنداتك بسلاسة وكفاءة مُحسّنة في سير العمل. حوّل مستنداتك بسهولة.
+type: docs
+weight: 4240
+url: /ar/net/aspose.words.lowcode/convertercontext/
+---
+## ConverterContext class
+
+سياق محول المستندات
+
+```csharp
+public class ConverterContext : ProcessorContext
+```
+
+## المنشئون
+
+| اسم | وصف |
+| --- | --- |
+| [ConverterContext](convertercontext/)() | Default_Constructor |
+
+## الخصائص
+
+| اسم | وصف |
+| --- | --- |
+| [FontSettings](../../aspose.words.lowcode/processorcontext/fontsettings/) { get; set; } | إعدادات الخط المستخدمة بواسطة المعالج. |
+| [LayoutOptions](../../aspose.words.lowcode/processorcontext/layoutoptions/) { get; } | خيارات تخطيط المستند التي يستخدمها المعالج. |
+| [WarningCallback](../../aspose.words.lowcode/processorcontext/warningcallback/) { get; set; } | استدعاء تحذيري يستخدمه المعالج. |
+
+## أمثلة
+
+يوضح كيفية تحويل المستندات بسطر واحد من التعليمات البرمجية باستخدام السياق.
+
+```csharp
+string doc = MyDir + "Big document.docx";
+
+Converter.Create(new ConverterContext())
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.ConvertContext.1.pdf")
+    .Execute();
+
+Converter.Create(new ConverterContext())
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.ConvertContext.2.pdf", SaveFormat.Rtf)
+    .Execute();
+
+OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
+LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+Converter.Create(new ConverterContext())
+    .From(doc, loadOptions)
+    .To(ArtifactsDir + "LowCode.ConvertContext.3.docx", saveOptions)
+    .Execute();
+
+Converter.Create(new ConverterContext())
+    .From(doc)
+    .To(ArtifactsDir + "LowCode.ConvertContext.4.png", new ImageSaveOptions(SaveFormat.Png))
+    .Execute();
+```
+
+يوضح كيفية تحويل المستندات من مجرى باستخدام سطر واحد من التعليمات البرمجية باستخدام السياق.
+
+```csharp
+string doc = MyDir + "Document.docx";
+using (FileStream streamIn = new FileStream(MyDir + "Big document.docx", FileMode.Open, FileAccess.Read))
+{
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertContextStream.1.docx", FileMode.Create, FileAccess.ReadWrite))
+        Converter.Create(new ConverterContext())
+            .From(streamIn)
+            .To(streamOut, SaveFormat.Rtf)
+            .Execute();
+
+    OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Password = "Aspose.Words" };
+    LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
+    using (FileStream streamOut = new FileStream(ArtifactsDir + "LowCode.ConvertContextStream.2.docx", FileMode.Create, FileAccess.ReadWrite))
+        Converter.Create(new ConverterContext())
+            .From(streamIn, loadOptions)
+            .To(streamOut, saveOptions)
+            .Execute();
+
+    List<Stream> pages = new List<Stream>();
+    Converter.Create(new ConverterContext())
+        .From(doc)
+        .To(pages, new ImageSaveOptions(SaveFormat.Png))
+        .Execute();
+}
+```
+
+### أنظر أيضا
+
+* class [ProcessorContext](../processorcontext/)
+* مساحة الاسم [Aspose.Words.LowCode](../../aspose.words.lowcode/)
+* المجسم [Aspose.Words](../../)

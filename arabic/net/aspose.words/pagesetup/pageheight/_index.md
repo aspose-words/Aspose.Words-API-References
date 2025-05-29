@@ -3,14 +3,14 @@ title: PageSetup.PageHeight
 linktitle: PageHeight
 articleTitle: PageHeight
 second_title: Aspose.Words لـ .NET
-description: PageSetup PageHeight ملكية. إرجاع أو تعيين ارتفاع الصفحة بالنقاط في C#.
+description: اكتشف خاصية PageHeight في PageSetup لإدارة ارتفاع مستندك بالنقاط بكفاءة، مما يعزز تخطيطك وعرضك التقديمي.
 type: docs
 weight: 310
 url: /ar/net/aspose.words/pagesetup/pageheight/
 ---
 ## PageSetup.PageHeight property
 
-إرجاع أو تعيين ارتفاع الصفحة بالنقاط.
+يعيد أو يضبط ارتفاع الصفحة بالنقاط.
 
 ```csharp
 public double PageHeight { get; set; }
@@ -24,10 +24,9 @@ public double PageHeight { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل الصورة في الرأس بحيث تكون مرئية في كل صفحة.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+//أدرج الصورة في الرأس حتى تكون مرئية في كل صفحة.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -38,32 +37,6 @@ shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
 shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
-```
-
-يوضح كيفية إدراج صورة واستخدامها كعلامة مائية (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// أدخل الصورة في الرأس بحيث تكون مرئية في كل صفحة.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // ضع الصورة في وسط الصفحة.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
 ```
 
 ### أنظر أيضا

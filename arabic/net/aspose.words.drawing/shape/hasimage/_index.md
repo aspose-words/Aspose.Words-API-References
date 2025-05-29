@@ -3,14 +3,14 @@ title: Shape.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: Aspose.Words لـ .NET
-description: Shape HasImage ملكية. إرجاعحقيقي إذا كان الشكل يحتوي على بايتات صورة أو يربط صورة في C#.
+description: اكتشف ما إذا كان الشكل يحتوي على بيانات صورة أو رابط لها باستخدام خاصية HasImage. حسّن تصميماتك بسهولة!
 type: docs
-weight: 80
+weight: 90
 url: /ar/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-إرجاع`حقيقي` إذا كان الشكل يحتوي على بايتات صورة أو يربط صورة.
+إرجاع`حقيقي` إذا كان الشكل يحتوي على بايتات صورة أو روابط صورة.
 
 ```csharp
 public bool HasImage { get; }
@@ -18,7 +18,7 @@ public bool HasImage { get; }
 
 ## أمثلة
 
-يوضح كيفية حذف جميع الأشكال التي تحتوي على صور من مستند.
+يوضح كيفية حذف كافة الأشكال التي تحتوي على صور من مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -38,8 +38,8 @@ Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// احصل على مجموعة الأشكال من المستند،
-// وحفظ بيانات الصورة لكل شكل مع صورة كملف في نظام الملفات المحلي.
+// الحصول على مجموعة الأشكال من المستند،
+// وحفظ بيانات الصورة لكل شكل مع الصورة كملف في نظام الملفات المحلي.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -49,8 +49,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // قد تحتوي بيانات صورة الأشكال على صور للعديد من تنسيقات الصور الممكنة.
-        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، بناءً على تنسيقها.
+         // قد تحتوي بيانات الصورة الخاصة بالأشكال على صور بتنسيقات صور متعددة محتملة.
+        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، استنادًا إلى تنسيقها.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

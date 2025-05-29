@@ -3,14 +3,14 @@ title: DocumentBuilder.PopFont
 linktitle: PopFont
 articleTitle: PopFont
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder PopFont طريقة. استرداد تنسيق الأحرف الذي تم حفظه مسبقًا على المكدس في C#.
+description: اكتشف طريقة DocumentBuilder PopFont لاستعادة تنسيق الأحرف بسهولة من المكدس، مما يعزز عملية إنشاء المستندات الخاصة بك.
 type: docs
-weight: 590
+weight: 630
 url: /ar/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
 
-استرداد تنسيق الأحرف الذي تم حفظه مسبقًا على المكدس.
+يسترجع تنسيق الأحرف المحفوظ مسبقًا على المكدس.
 
 ```csharp
 public void PopFont()
@@ -18,7 +18,7 @@ public void PopFont()
 
 ## أمثلة
 
-يوضح كيفية استخدام مكدس التنسيق الخاص بمنشئ المستندات.
+يوضح كيفية استخدام مجموعة التنسيق الخاصة بمنشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -29,10 +29,10 @@ builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// الحفاظ على تكوين التنسيق الحالي لدينا على المكدس.
+//الحفاظ على تكوين التنسيق الحالي على المكدس.
 builder.PushFont();
 
-// قم بتغيير التنسيق الحالي للمنشئ من خلال تطبيق نمط جديد.
+// تغيير تنسيق المنشئ الحالي من خلال تطبيق نمط جديد.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com"، خطأ);
 

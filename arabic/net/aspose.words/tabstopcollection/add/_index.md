@@ -3,14 +3,14 @@ title: TabStopCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words لـ .NET
-description: TabStopCollection Add طريقة. إضافة علامة جدولة أو استبدالها في المجموعة في C#.
+description: اكتشف كيف تقوم طريقة TabStopCollection Add بإضافة علامات التبويب أو تحديثها بكفاءة، مما يعمل على تحسين تخطيط مستندك وتنسيقه.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/tabstopcollection/add/
 ---
 ## Add(*[TabStop](../../tabstop/)*) {#add}
 
-إضافة علامة جدولة أو استبدالها في المجموعة.
+يضيف أو يستبدل علامة تبويب في المجموعة.
 
 ```csharp
 public void Add(TabStop tabStop)
@@ -18,37 +18,37 @@ public void Add(TabStop tabStop)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| tabStop | TabStop | كائن علامة جدولة لإضافته. |
+| tabStop | TabStop | كائن علامة التبويب لإضافته. |
 
 ## ملاحظات
 
-إذا كانت علامة الجدولة موجودة بالفعل في الموضع المحدد، فسيتم استبدالها.
+إذا كانت علامة التبويب موجودة بالفعل في الموضع المحدد، فسيتم استبدالها.
 
 ## أمثلة
 
-يوضح كيفية إضافة علامات جدولة مخصصة إلى مستند.
+يوضح كيفية إضافة علامات تبويب مخصصة إلى مستند.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// فيما يلي طريقتان لإضافة علامات الجدولة إلى مجموعة علامات الجدولة الخاصة بالفقرة عبر خاصية "ParagraphFormat".
-// 1 - قم بإنشاء كائن "TabStop"، ثم قم بإضافته إلى المجموعة:
+// فيما يلي طريقتان لإضافة علامات التبويب إلى مجموعة علامات التبويب الخاصة بالفقرة عبر خاصية "ParagraphFormat".
+// 1 - قم بإنشاء كائن "TabStop"، ثم أضفه إلى المجموعة:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - قم بتمرير قيم خصائص علامة التبويب الجديدة إلى طريقة "الإضافة":
+// 2 - قم بتمرير قيم خصائص علامة التبويب الجديدة إلى طريقة "إضافة":
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
-// أضف علامات الجدولة عند 5 سم لجميع الفقرات.
+// أضف علامات التبويب على مسافة 5 سم إلى جميع الفقرات.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
 {
     para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
         TabLeader.Dashes);
 }
 
-// يأخذ كل حرف "علامة تبويب" مؤشر المنشئ إلى موقع علامة التبويب التالية.
+// كل حرف "علامة تبويب" يأخذ مؤشر المنشئ إلى موقع علامة التبويب التالية.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 
@@ -66,7 +66,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.AddTabStops.docx");
 
 ## Add(*double, [TabAlignment](../../tabalignment/), [TabLeader](../../tableader/)*) {#add_1}
 
-إضافة علامة جدولة أو استبدالها في المجموعة.
+يضيف أو يستبدل علامة تبويب في المجموعة.
 
 ```csharp
 public void Add(double position, TabAlignment alignment, TabLeader leader)
@@ -74,39 +74,39 @@ public void Add(double position, TabAlignment alignment, TabLeader leader)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| position | Double | الموضع (بالنقاط) الذي تريد إضافة علامة الجدولة إليه. |
-| alignment | TabAlignment | أ[`TabAlignment`](../../tabalignment/) تحدد القيمة that محاذاة النص عند علامة الجدولة. |
-| leader | TabLeader | أ[`TabLeader`](../../tableader/) تحدد القيمة that نوع السطر الرئيسي المعروض أسفل حرف علامة التبويب. |
+| position | Double | موضع (بالنقاط) حيث سيتم إضافة علامة التبويب. |
+| alignment | TabAlignment | أ[`TabAlignment`](../../tabalignment/) القيمة that تحدد محاذاة النص عند علامة التبويب. |
+| leader | TabLeader | أ[`TabLeader`](../../tableader/)القيمة that تحدد نوع الخط الرئيسي المعروض أسفل حرف التبويب. |
 
 ## ملاحظات
 
-إذا كانت علامة الجدولة موجودة بالفعل في الموضع المحدد، فسيتم استبدالها.
+إذا كانت علامة التبويب موجودة بالفعل في الموضع المحدد، فسيتم استبدالها.
 
 ## أمثلة
 
-يوضح كيفية إضافة علامات جدولة مخصصة إلى مستند.
+يوضح كيفية إضافة علامات تبويب مخصصة إلى مستند.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// فيما يلي طريقتان لإضافة علامات الجدولة إلى مجموعة علامات الجدولة الخاصة بالفقرة عبر خاصية "ParagraphFormat".
-// 1 - قم بإنشاء كائن "TabStop"، ثم قم بإضافته إلى المجموعة:
+// فيما يلي طريقتان لإضافة علامات التبويب إلى مجموعة علامات التبويب الخاصة بالفقرة عبر خاصية "ParagraphFormat".
+// 1 - قم بإنشاء كائن "TabStop"، ثم أضفه إلى المجموعة:
 TabStop tabStop = new TabStop(ConvertUtil.InchToPoint(3), TabAlignment.Left, TabLeader.Dashes);
 paragraph.ParagraphFormat.TabStops.Add(tabStop);
 
-// 2 - قم بتمرير قيم خصائص علامة التبويب الجديدة إلى طريقة "الإضافة":
+// 2 - قم بتمرير قيم خصائص علامة التبويب الجديدة إلى طريقة "إضافة":
 paragraph.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(100), TabAlignment.Left,
     TabLeader.Dashes);
 
-// أضف علامات الجدولة عند 5 سم لجميع الفقرات.
+// أضف علامات التبويب على مسافة 5 سم إلى جميع الفقرات.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
 {
     para.ParagraphFormat.TabStops.Add(ConvertUtil.MillimeterToPoint(50), TabAlignment.Left,
         TabLeader.Dashes);
 }
 
-// يأخذ كل حرف "علامة تبويب" مؤشر المنشئ إلى موقع علامة التبويب التالية.
+// كل حرف "علامة تبويب" يأخذ مؤشر المنشئ إلى موقع علامة التبويب التالية.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Start\tTab 1\tTab 2\tTab 3\tTab 4");
 

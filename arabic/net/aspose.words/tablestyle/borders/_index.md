@@ -3,14 +3,14 @@ title: TableStyle.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words لـ .NET
-description: TableStyle Borders ملكية. الحصول على مجموعة حدود الخلايا الافتراضية للنمط في C#.
+description: اكتشف خاصية TableStyle Borders للوصول إلى حدود الخلايا الافتراضية لأنماطك، مما يعزز تصميمك بخيارات سلسة وقابلة للتخصيص.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/tablestyle/borders/
 ---
 ## TableStyle.Borders property
 
-الحصول على مجموعة حدود الخلايا الافتراضية للنمط.
+يحصل على مجموعة حدود الخلايا الافتراضية للنمط.
 
 ```csharp
 public BorderCollection Borders { get; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

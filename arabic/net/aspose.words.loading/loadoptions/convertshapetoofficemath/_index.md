@@ -3,14 +3,14 @@ title: LoadOptions.ConvertShapeToOfficeMath
 linktitle: ConvertShapeToOfficeMath
 articleTitle: ConvertShapeToOfficeMath
 second_title: Aspose.Words لـ .NET
-description: LoadOptions ConvertShapeToOfficeMath ملكية. الحصول على أو تعيين ما إذا كان سيتم تحويل الأشكال باستخدام EquationXML إلى كائنات Office Math في C#.
+description: قم بتحويل الأشكال باستخدام EquationXML إلى كائنات Office Math بسهولة باستخدام خاصية ConvertShapeToOfficeMath في LoadOptions لتحسين وضوح المستند.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.loading/loadoptions/convertshapetoofficemath/
 ---
 ## LoadOptions.ConvertShapeToOfficeMath property
 
-الحصول على أو تعيين ما إذا كان سيتم تحويل الأشكال باستخدام EquationXML إلى كائنات Office Math.
+يحصل على أو يحدد ما إذا كان سيتم تحويل الأشكال باستخدام EquationXML إلى كائنات Office Math.
 
 ```csharp
 public bool ConvertShapeToOfficeMath { get; set; }
@@ -23,7 +23,7 @@ public bool ConvertShapeToOfficeMath { get; set; }
 ```csharp
 LoadOptions loadOptions = new LoadOptions();
 
-// استخدم هذه العلامة لتحديد ما إذا كان سيتم تحويل الأشكال باستخدام سمات EquationXML
+// استخدم هذا العلم لتحديد ما إذا كان سيتم تحويل الأشكال باستخدام سمات EquationXML
 // إلى كائنات Office Math ثم قم بتحميل المستند.
 loadOptions.ConvertShapeToOfficeMath = isConvertShapeToOfficeMath;
 

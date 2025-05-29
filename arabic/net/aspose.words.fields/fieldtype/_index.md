@@ -3,9 +3,9 @@ title: FieldType Enum
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldType تعداد. يحدد أنواع حقول Microsoft Word في C#.
+description: اكتشف Aspose.Words.Fields.FieldType enum لإدارة أنواع حقول Microsoft Word بكفاءة وتعزيز أتمتة المستندات لديك.
 type: docs
-weight: 2540
+weight: 2950
 url: /ar/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -21,24 +21,24 @@ public enum FieldType
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | FieldNone | `0` | نوع الحقل غير محدد أو غير معروف. |
-| FieldCannotParse | `1` | يحدد أن الحقل غير قادر على التحليل. |
+| FieldCannotParse | `1` | يحدد أنه لم يتمكن من تحليل الحقل. |
 | FieldAddin | `81` | يحدد حقل ADDIN. |
 | FieldAddressBlock | `93` | يحدد حقل ADDRESSBLOCK. |
-| FieldAdvance | `84` | يحدد حقل التقدم. |
-| FieldAsk | `38` | يحدد حقل السؤال. |
+| FieldAdvance | `84` | يحدد حقل ADVANCE. |
+| FieldAsk | `38` | يحدد حقل ASK. |
 | FieldAuthor | `17` | يحدد حقل المؤلف. |
-| FieldAutoNum | `54` | يحدد الحقل AUTONUM. |
-| FieldAutoNumLegal | `53` | يحدد الحقل AUTONUMLGL. |
+| FieldAutoNum | `54` | يحدد حقل AUTONUM. |
+| FieldAutoNumLegal | `53` | يحدد حقل AUTONUMLGL. |
 | FieldAutoNumOutline | `52` | يحدد حقل AUTONUMOUT. |
 | FieldAutoText | `79` | يحدد حقل النص التلقائي. |
-| FieldAutoTextList | `89` | يحدد حقل القائمة التلقائية. |
-| FieldBarcode | `63` | يحدد حقل الباركود. |
-| FieldBibliography | `100500` | يحدد حقل الببليوغرافيا. |
+| FieldAutoTextList | `89` | يحدد حقل AUTOTEXTLIST. |
+| FieldBarcode | `63` | يحدد حقل الرمز الشريطي. |
+| FieldBibliography | `100500` | يحدد حقل المراجع. |
 | FieldBidiOutline | `92` | يحدد حقل BIDIOUTLINE. |
-| FieldCitation | `1980` | يحدد حقل الاقتباس. |
+| FieldCitation | `1980` | يحدد حقل الاستشهاد. |
 | FieldComments | `19` | يحدد حقل التعليقات. |
 | FieldCompare | `80` | يحدد حقل المقارنة. |
-| FieldCreateDate | `21` | يحدد الحقل "تاريخ الإنشاء". |
+| FieldCreateDate | `21` | يحدد حقل CREATEDATE. |
 | FieldData | `40` | يحدد حقل البيانات. |
 | FieldDatabase | `78` | يحدد حقل قاعدة البيانات. |
 | FieldDate | `31` | يحدد حقل التاريخ. |
@@ -47,34 +47,34 @@ public enum FieldType
 | FieldMergeBarcode | `6302` | يحدد حقل MERGEBARCODE. |
 | FieldDDEAuto | `46` | يحدد حقل DDEAUTO. |
 | FieldDocProperty | `85` | يحدد حقل DOCPROPERTY. |
-| FieldDocVariable | `64` | يحدد الحقل DOCVARIABLE. |
+| FieldDocVariable | `64` | يحدد حقل DOCVARIABLE. |
 | FieldEditTime | `25` | يحدد حقل EDITTIME. |
 | FieldEmbed | `58` | يحدد حقل EMBED. |
-| FieldEquation | `49` | يحدد حقل المعادل. |
-| FieldFileName | `29` | يحدد حقل FILENAME. |
-| FieldFileSize | `69` | يحدد الحقل FILESIZE. |
+| FieldEquation | `49` | يحدد حقل EQ. |
+| FieldFileName | `29` | يحدد حقل اسم الملف. |
+| FieldFileSize | `69` | يحدد حقل حجم الملف. |
 | FieldFillIn | `39` | يحدد حقل FILLIN. |
 | FieldFootnoteRef | `5` | يحدد حقل FOOTNOTEREF. |
 | FieldFormCheckBox | `71` | يحدد حقل FORMCHECKBOX. |
-| FieldFormDropDown | `83` | يحدد حقل FORMDROPDOWN. |
+| FieldFormDropDown | `83` | يحدد الحقل FORMDROPDOWN. |
 | FieldFormTextInput | `70` | يحدد حقل FORMTEXT. |
 | FieldFormula | `34` | يحدد الحقل = (الصيغة). |
-| FieldGreetingLine | `94` | يحدد حقل GREETINGLINE. |
-| FieldGlossary | `47` | يحدد حقل المسرد. |
+| FieldGreetingLine | `94` | يحدد حقل سطر التحية. |
+| FieldGlossary | `47` | يحدد حقل المصطلحات. |
 | FieldGoToButton | `50` | يحدد حقل GOTOBUTTON. |
 | FieldHtmlActiveX | `91` | يحدد الحقل الذي يمثل عنصر تحكم HTML. |
-| FieldHyperlink | `88` | يحدد حقل HYPERLINK. |
+| FieldHyperlink | `88` | يحدد حقل الارتباط التشعبي. |
 | FieldIf | `7` | يحدد حقل IF. |
-| FieldInclude | `36` | يحدد حقل "التضمين". |
-| FieldIncludePicture | `67` | يحدد حقل التضمين. |
+| FieldInclude | `36` | يحدد حقل INCLUDE. |
+| FieldIncludePicture | `67` | يحدد حقل INCLUDEPICTURE. |
 | FieldIncludeText | `68` | يحدد حقل INCLUDETEXT. |
 | FieldIndex | `8` | يحدد حقل INDEX. |
 | FieldIndexEntry | `4` | يحدد حقل XE. |
-| FieldInfo | `14` | يحدد حقل INFO. |
+| FieldInfo | `14` | يحدد حقل المعلومات. |
 | FieldImport | `55` | يحدد حقل الاستيراد. |
 | FieldKeyword | `18` | يحدد حقل الكلمات الرئيسية. |
 | FieldLastSavedBy | `20` | يحدد الحقل LASTSAVEDBY. |
-| FieldLink | `56` | يحدد حقل LINK. |
+| FieldLink | `56` | يحدد حقل الرابط. |
 | FieldListNum | `90` | يحدد حقل LISTNUM. |
 | FieldMacroButton | `51` | يحدد حقل MACROBUTTON. |
 | FieldMergeField | `59` | يحدد حقل MERGEFIELD. |
@@ -82,22 +82,22 @@ public enum FieldType
 | FieldMergeSeq | `75` | يحدد حقل MERGESEQ. |
 | FieldNext | `41` | يحدد الحقل التالي. |
 | FieldNextIf | `42` | يحدد الحقل NEXTIF. |
-| FieldNoteRef | `72` | يحدد حقل NOTREF. |
-| FieldNumChars | `28` | يحدد الحقل NUMCHARS. |
-| FieldNumPages | `26` | يحدد الحقل NUMPAGES. |
-| FieldNumWords | `27` | يحدد الحقل NUMWORDS. |
+| FieldNoteRef | `72` | يحدد حقل NOTEREF. |
+| FieldNumChars | `28` | يحدد حقل NUMCHARS. |
+| FieldNumPages | `26` | يحدد حقل NUMPAGES. |
+| FieldNumWords | `27` | يحدد حقل NUMWORDS. |
 | FieldOcx | `87` | يحدد حقل OCX. |
-| FieldPage | `33` | يحدد حقل PAGE. |
+| FieldPage | `33` | يحدد حقل الصفحة. |
 | FieldPageRef | `37` | يحدد حقل PAGEREF. |
 | FieldPrint | `48` | يحدد حقل الطباعة. |
 | FieldPrintDate | `23` | يحدد حقل PRINTDATE. |
 | FieldPrivate | `77` | يحدد الحقل الخاص. |
-| FieldQuote | `35` | يحدد حقل عرض الأسعار. |
+| FieldQuote | `35` | يحدد حقل الاقتباس. |
 | FieldRef | `3` | يحدد حقل REF. |
 | FieldRefNoKeyword | `2` | يحدد أن الحقل يمثل حقل REF حيث تم حذف الكلمة الأساسية. |
-| FieldRefDoc | `11` | يحدد مجال RD. |
-| FieldRevisionNum | `24` | يحدد الحقل REVNUM. |
-| FieldSaveDate | `22` | يحدد الحقل "حفظ". |
+| FieldRefDoc | `11` | يحدد حقل RD. |
+| FieldRevisionNum | `24` | يحدد حقل REVNUM. |
+| FieldSaveDate | `22` | يحدد حقل SAVEDATE. |
 | FieldSection | `65` | يحدد حقل القسم. |
 | FieldSectionPages | `66` | يحدد حقل SECTIONPAGES. |
 | FieldSequence | `12` | يحدد حقل التسلسل. |
@@ -114,7 +114,7 @@ public enum FieldType
 | FieldTOAEntry | `74` | يحدد حقل TA. |
 | FieldTOC | `13` | يحدد حقل جدول المحتويات. |
 | FieldTOCEntry | `9` | يحدد حقل TC. |
-| FieldUserAddress | `62` | يحدد حقل عنوان المستخدم. |
+| FieldUserAddress | `62` | يحدد حقل USERADDRESS. |
 | FieldUserInitials | `61` | يحدد حقل USERINITIALS. |
 | FieldUserName | `60` | يحدد حقل اسم المستخدم. |
 
@@ -131,8 +131,8 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// هذا التحميل الزائد لطريقة InsertField يقوم تلقائيًا بتحديث الحقول المدرجة.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// يؤدي هذا التحميل الزائد لطريقة InsertField إلى تحديث الحقول المدرجة تلقائيًا.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 يوضح كيفية العمل مع عقدة FieldStart.
@@ -151,13 +151,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// استرداد كائن الواجهة الذي يمثل الحقل الموجود في المستند.
+// استرداد كائن الواجهة الذي يمثل الحقل في المستند.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// قم بتحديث الحقل لإظهار التاريخ الحالي.
+//تحديث الحقل لإظهار التاريخ الحالي.
 field.Update();
 ```
 

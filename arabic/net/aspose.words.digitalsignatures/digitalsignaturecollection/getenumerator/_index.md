@@ -3,14 +3,14 @@ title: DigitalSignatureCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: DigitalSignatureCollection GetEnumerator طريقة. يُرجع كائن عداد القاموس الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة في C#.
+description: استكشف طريقة DigitalSignatureCollection GetEnumerator لتكرار جميع عناصر المجموعة بسهولة باستخدام معدد قاموس ملائم.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/
 ---
 ## DigitalSignatureCollection.GetEnumerator method
 
-يُرجع كائن عداد القاموس الذي يمكن استخدامه للتكرار على كافة العناصر الموجودة في المجموعة.
+يعيد كائن عداد القاموس الذي يمكن استخدامه للتكرار على جميع العناصر في المجموعة.
 
 ```csharp
 public IEnumerator<DigitalSignature> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<DigitalSignature> GetEnumerator()
 
 ## أمثلة
 
-يوضح كيفية طباعة جميع التوقيعات الرقمية للمستند الموقع.
+يوضح كيفية طباعة كافة التوقيعات الرقمية للمستند الموقع.
 
 ```csharp
 DigitalSignatureCollection digitalSignatures =

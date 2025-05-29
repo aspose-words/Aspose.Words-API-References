@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertField
 linktitle: InsertField
 articleTitle: InsertField
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder InsertField طريقة. يقوم بإدراج حقل Word في مستند ويقوم بتحديث نتيجة الحقل بشكل اختياري في C#.
+description: حسّن مستنداتك باستخدام طريقة InsertField من DocumentBuilder. أضف حقول Word وحدّثها بسهولة لتحسين المحتوى الديناميكي والوظائف.
 type: docs
-weight: 320
+weight: 330
 url: /ar/net/aspose.words/documentbuilder/insertfield/
 ---
 ## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
 
-يقوم بإدراج حقل Word في مستند ويقوم بتحديث نتيجة الحقل بشكل اختياري.
+يقوم بإدراج حقل Word في مستند ويقوم بشكل اختياري بتحديث نتيجة الحقل.
 
 ```csharp
 public Field InsertField(FieldType fieldType, bool updateField)
@@ -18,16 +18,16 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldType | FieldType | نوع الحقل المراد إلحاقه. |
+| fieldType | FieldType | نوع الحقل المراد إضافته. |
 | updateField | Boolean | يحدد ما إذا كان سيتم تحديث الحقل على الفور. |
 
 ### قيمة الإرجاع
 
-أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
+أ[`Field`](../../../aspose.words.fields/field/) الكائن الذي يمثل الحقل المدرج.
 
 ## ملاحظات
 
-تقوم هذه الطريقة بإدراج حقل في مستند. Aspose. يمكن للكلمات تحديث الحقول لمعظم الأنواع، ولكن ليس كلها. لمزيد من التفاصيل راجع the `InsertField` الزائد.
+تُدرج هذه الطريقة حقلاً في مستند. يمكن لـ Aspose.Words تحديث معظم أنواع الحقول، ولكن ليس جميعها. لمزيد من التفاصيل، راجع ملف x000d.`InsertField` التحميل الزائد.
 
 ## أمثلة
 
@@ -37,8 +37,8 @@ public Field InsertField(FieldType fieldType, bool updateField)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقلين أثناء تمرير علامة تحدد ما إذا كان سيتم تحديثهما عندما يقوم المنشئ بإدراجهما.
-// في بعض الحالات، قد يكون تحديث الحقول مكلفًا من الناحية الحسابية، وقد يكون تأجيل التحديث فكرة جيدة.
+// أدخل حقلين أثناء تمرير علم يحدد ما إذا كان سيتم تحديثهما أثناء قيام المنشئ بإدراجهما.
+// في بعض الحالات، قد يكون تحديث الحقول مكلفًا من الناحية الحسابية، وقد يكون من الجيد تأجيل التحديث.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -60,7 +60,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // سنحتاج إلى تحديث هذه الحقول باستخدام طرق التحديث يدويًا.
+    // سوف نحتاج إلى تحديث هذه الحقول باستخدام طرق التحديث يدويًا.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -83,7 +83,7 @@ else
 
 ## InsertField(*string*) {#insertfield_1}
 
-إدراج حقل Word في المستند وتحديث نتيجة الحقل.
+يقوم بإدراج حقل Word في مستند ويقوم بتحديث نتيجة الحقل.
 
 ```csharp
 public Field InsertField(string fieldCode)
@@ -91,15 +91,15 @@ public Field InsertField(string fieldCode)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldCode | String | رمز الحقل المراد إدراجه (بدون الأقواس المتعرجة). |
+| fieldCode | String | رمز الحقل المراد إدراجه (بدون أقواس متعرجة). |
 
 ### قيمة الإرجاع
 
-أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
+أ[`Field`](../../../aspose.words.fields/field/) الكائن الذي يمثل الحقل المدرج.
 
 ## ملاحظات
 
-تقوم هذه الطريقة بإدراج حقل في مستند وتحديث نتيجة الحقل على الفور. يمكن لـ Aspose.Words تحديث الحقول لمعظم الأنواع، ولكن ليس كلها. لمزيد من التفاصيل راجع the `InsertField` الزائد.
+تُدرج هذه الطريقة حقلاً في مستند وتُحدّث نتيجة الحقل فورًا. يُمكن لـ Aspose.Words تحديث معظم أنواع الحقول، ولكن ليس جميعها. لمزيد من التفاصيل، راجع `InsertField` التحميل الزائد.
 
 ## أمثلة
 
@@ -114,11 +114,11 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// هذا التحميل الزائد لطريقة InsertField يقوم تلقائيًا بتحديث الحقول المدرجة.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// يؤدي هذا التحميل الزائد لطريقة InsertField إلى تحديث الحقول المدرجة تلقائيًا.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
-يوضح كيفية إدراج الحقول وتحريك مؤشر أداة إنشاء المستندات إليها.
+يوضح كيفية إدراج الحقول، ونقل مؤشر منشئ المستندات إليها.
 
 ```csharp
 Document doc = new Document();
@@ -126,17 +126,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 
-// حرك المؤشر إلى حقل MERGEFIELD الأول.
+// نقل المؤشر إلى MERGEFIELD الأول.
 builder.MoveToMergeField("MyMergeField1", true, false);
 
-// لاحظ أن المؤشر يتم وضعه مباشرة بعد حقل الدمج الأول وقبل الثاني.
+// لاحظ أن المؤشر يوضع مباشرة بعد MERGEFIELD الأول، وقبل الثاني.
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// إذا أردنا تعديل رمز الحقل أو محتوياته باستخدام المنشئ،
-// يجب أن يكون المؤشر داخل الحقل.
-// لوضعه داخل حقل، سنحتاج إلى استدعاء أسلوب MoveTo الخاص بمنشئ المستندات
-// وتمرير بداية الحقل أو العقدة الفاصلة كوسيطة.
+// إذا أردنا تحرير كود الحقل أو محتوياته باستخدام المنشئ،
+//يجب أن يكون المؤشر داخل حقل.
+// لوضعه داخل حقل، سنحتاج إلى استدعاء طريقة MoveTo الخاصة بمنشئ المستندات
+// ومرر عقدة بداية الحقل أو الفاصلة كحجة.
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
@@ -153,7 +153,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
 
 ## InsertField(*string, string*) {#insertfield_2}
 
-إدراج حقل Word في مستند دون تحديث نتيجة الحقل.
+يقوم بإدراج حقل Word في مستند دون تحديث نتيجة الحقل.
 
 ```csharp
 public Field InsertField(string fieldCode, string fieldValue)
@@ -161,26 +161,26 @@ public Field InsertField(string fieldCode, string fieldValue)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldCode | String | رمز الحقل المراد إدراجه (بدون الأقواس المتعرجة). |
-| fieldValue | String | قيمة الحقل المراد إدراجه. يمر`باطل` للحقول التي ليس لها قيمة. |
+| fieldCode | String | رمز الحقل المراد إدراجه (بدون أقواس متعرجة). |
+| fieldValue | String | قيمة الحقل المراد إدراجها. تمرير`باطل` للحقول التي لا تحتوي على قيمة. |
 
 ### قيمة الإرجاع
 
-أ[`Field`](../../../aspose.words.fields/field/) كائن يمثل الحقل المدرج.
+أ[`Field`](../../../aspose.words.fields/field/) الكائن الذي يمثل الحقل المدرج.
 
 ## ملاحظات
 
-تتكون الحقول في مستندات Microsoft Word من رمز الحقل ونتيجة الحقل. يشبه رمز الحقل الصيغة وتكون نتيجة الحقل مثل القيمة التي تنتجها الصيغة . قد يحتوي رمز الحقل أيضًا على مفاتيح الحقل التي تشبه الإرشادات الإضافية لتنفيذ إجراء معين.
+تتكون الحقول في مستندات مايكروسوفت وورد من رمز حقل ونتيجة حقل. يشبه رمز الحقل صيغة، وتكون النتيجة هي القيمة التي تنتجها الصيغة. قد يحتوي رمز الحقل أيضًا على مفاتيح حقل، وهي بمثابة تعليمات إضافية لتنفيذ إجراء محدد.
 
-يمكنك التبديل بين عرض رموز الحقول والنتائج في مستندك in Microsoft Word باستخدام اختصار لوحة المفاتيح Alt+F9. تظهر رموز الحقول بين الأقواس المتعرجة ( { } ).
+يمكنك التبديل بين عرض رموز الحقول والنتائج في مستندك في Microsoft Word باستخدام اختصار لوحة المفاتيح Alt+F9. تظهر رموز الحقول بين أقواس متعرجة ( { } ).
 
-لإنشاء حقل، تحتاج إلى تحديد نوع الحقل ورمز الحقل وقيمة حقل "العنصر النائب". إذا لم تكن متأكدًا من بناء جملة رمز حقل معين، فقم بإنشاء الحقل في Microsoft Word first وقم بالتبديل لرؤية رمز الحقل الخاص به .
+لإنشاء حقل، يجب عليك تحديد نوع الحقل ورمز الحقل وقيمة حقل "عنصر نائب". إذا لم تكن متأكدًا من صيغة رمز حقل معين، فقم بإنشاء الحقل في Microsoft Word first والتبديل لرؤية رمز الحقل الخاص به.
 
-يمكن لـ Aspose.Words حساب نتائج الحقل لمعظم أنواع الحقول، لكن هذه الطريقة لا تقوم بتحديث نتيجة الحقل تلقائيًا. نظرًا لأن نتيجة الحقل لا يتم حسابها تلقائيًا، فمن المتوقع أن تمرر بعض قيم السلسلة (أو حتى سلسلة فارغة) التي سيتم إدراجها في نتيجة الحقل. ستبقى هذه القيمة في نتيجة الحقل كعنصر نائب حتى يتم إضافة الحقل update. لتحديث النتيجة الميدانية يمكنك الاتصال[`Update`](../../../aspose.words.fields/field/update/)على الكائن الميداني return إليك أو[`UpdateFields`](../../document/updatefields/) لتحديث الحقول في المستند بأكمله.
+يمكن لـ Aspose.Words حساب نتائج الحقول لمعظم أنواع الحقول، ولكن هذه الطريقة لا تُحدّث نتيجة الحقل تلقائيًا. ولأن نتيجة الحقل لا تُحسب تلقائيًا، فمن المتوقع أن تُمرّر قيمة نصية (أو حتى سلسلة نصية فارغة) ليتم إدراجها في حقل النتيجة. ستبقى هذه القيمة في حقل النتيجة كعنصر نائب حتى يتم تحديث الحقل. لتحديث نتيجة الحقل، يمكنك استدعاء[`Update`](../../../aspose.words.fields/field/update/) في حقل الكائن الذي تم إرجاعه إليك أو[`UpdateFields`](../../document/updatefields/) لتحديث الحقول في المستند بأكمله.
 
 ## أمثلة
 
-يوضح كيفية إعداد ترقيم الصفحات في القسم.
+يوضح كيفية إعداد ترقيم الصفحات في قسم.
 
 ```csharp
 Document doc = new Document();
@@ -198,23 +198,23 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// انقل أداة إنشاء المستندات إلى الرأس الأساسي للقسم الأول،
-// الذي ستعرضه كل صفحة في هذا القسم.
+// نقل منشئ المستند إلى العنوان الأساسي للقسم الأول،
+// والتي سيتم عرضها في كل صفحة في هذا القسم.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// أدخل حقل الصفحة، والذي سيعرض رقم الصفحة الحالية.
+// أدخل حقل PAGE، والذي سيعرض رقم الصفحة الحالية.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// قم بتكوين القسم بحيث يبدأ عدد الصفحات التي تعرضها حقول PAGE من 5.
-// أيضًا، قم بتكوين كافة حقول PAGE لعرض أرقام الصفحات الخاصة بها باستخدام الأرقام الرومانية الكبيرة.
+// قم بتكوين القسم بحيث يبدأ عدد الصفحات التي تعرضها حقول الصفحة من 5.
+// قم أيضًا بتكوين جميع حقول الصفحة لعرض أرقام صفحاتها باستخدام الأرقام الرومانية الكبيرة.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// أنشئ رأسًا أساسيًا آخر للقسم الثاني، مع حقل PAGE آخر.
+// قم بإنشاء رأس أساسي آخر للقسم الثاني، مع حقل PAGE آخر.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -222,8 +222,8 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// قم بتكوين القسم بحيث يبدأ عدد الصفحات التي تعرضها حقول PAGE من 10.
-// أيضًا، قم بتكوين جميع حقول PAGE لعرض أرقام صفحاتها باستخدام الأرقام العربية.
+// قم بتكوين القسم بحيث يبدأ عدد الصفحات التي تعرضها حقول الصفحة من 10.
+// قم أيضًا بتكوين جميع حقول الصفحة لعرض أرقام صفحاتها باستخدام الأرقام العربية.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

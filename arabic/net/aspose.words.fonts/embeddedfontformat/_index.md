@@ -3,16 +3,16 @@ title: EmbeddedFontFormat Enum
 linktitle: EmbeddedFontFormat
 articleTitle: EmbeddedFontFormat
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.EmbeddedFontFormat تعداد. يحدد تنسيق خط مضمن معين في الداخلFontInfo هدف في C#.
+description: اكتشف Aspose.Words.EmbeddedFontFormat enum، الذي يحدد تنسيقات الخطوط المضمنة في كائن FontInfo لتحسين تصميم المستندات.
 type: docs
-weight: 2850
+weight: 3260
 url: /ar/net/aspose.words.fonts/embeddedfontformat/
 ---
 ## EmbeddedFontFormat enumeration
 
-يحدد تنسيق خط مضمن معين في الداخل[`FontInfo`](../fontinfo/) هدف.
+يحدد تنسيق الخط المضمن المحدد بالداخل[`FontInfo`](../fontinfo/) هدف.
 
-عند حفظ مستند في ملف، تتم كتابة الخطوط المضمنة ذات التنسيق المقابل فقط.
+عند حفظ مستند في ملف، يتم فقط كتابة الخطوط المضمنة ذات التنسيق المقابل.
 
 ```csharp
 public enum EmbeddedFontFormat
@@ -22,12 +22,12 @@ public enum EmbeddedFontFormat
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| EmbeddedOpenType | `0` | يحدد تنسيق ملف OpenType (EOT) المضمن. |
-| OpenType | `1` | يحدد الخط، المضمن كنسخة عادية من ملف خط OpenType (TrueType). |
+| EmbeddedOpenType | `0` | يحدد تنسيق الملف OpenType المضمن (EOT). |
+| OpenType | `1` | يحدد الخط المضمن كنسخة عادية من ملف الخط OpenType (TrueType). |
 
 ## أمثلة
 
-يوضح كيفية استخراج خط مضمن من مستند وحفظه في نظام الملفات المحلي.
+يوضح كيفية استخراج الخط المضمن من مستند وحفظه في نظام الملفات المحلي.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -36,14 +36,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// قد تختلف تنسيقات الخطوط المضمنة في تنسيقات أخرى مثل .doc.
-// نحتاج إلى معرفة التنسيق الصحيح قبل أن نتمكن من استخراج الخط.
+//قد تختلف تنسيقات الخطوط المضمنة في التنسيقات الأخرى مثل .doc.
+//نحن بحاجة إلى معرفة التنسيق الصحيح قبل أن نتمكن من استخراج الخط.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// أيضًا، يمكننا تحويل تنسيق OpenType المضمن، والذي يأتي من مستندات ‎.doc، إلى OpenType.
+// كما يمكننا تحويل تنسيق OpenType المضمن، والذي يأتي من مستندات .doc، إلى OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

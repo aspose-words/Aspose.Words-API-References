@@ -3,9 +3,9 @@ title: Field Class
 linktitle: Field
 articleTitle: Field
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.Field فصل. يمثل حقل مستند Microsoft Word في C#.
+description: اكتشف فئة Aspose.Words.Fields.Field، مفتاحك لتحسين مستندات Microsoft Word باستخدام الحقول الديناميكية لتحسين الوظائف والكفاءة.
 type: docs
-weight: 1510
+weight: 1920
 url: /ar/net/aspose.words.fields/field/
 ---
 ## Field class
@@ -22,41 +22,41 @@ public class Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/#getfieldcode_1)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/#update)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/#update)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/#update_1)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-الحقل في مستند Word عبارة عن بنية معقدة تتكون من عقد متعددة تتضمن بداية الحقل ورمز الحقل وفاصل الحقل ونتيجة الحقل ونهاية الحقل. يمكن أن تكون الحقول متداخلة، وتحتوي على محتوى غني وتمتد إلى فقرات أو أقسام متعددة في المستند. ال`Field` الفئة هي كائن "واجهة" يوفر خصائص وأساليب تسمح بالعمل مع الحقل ككائن واحد.
+الحقل في مستند وورد هو بنية معقدة تتكون من عدة عقد تتضمن بداية الحقل، ورمز الحقل، وفاصل الحقل، ونتيجة الحقل، ونهايته. يمكن أن تكون الحقول متداخلة، وتحتوي على محتوى غني، وتمتد إلى عدة فقرات أو أقسام في المستند.`Field` الفئة هي كائن "واجهة" يوفر خصائص وطرقًا تسمح بالعمل مع الحقل ككائن واحد.
 
-ال[`Start`](./start/) ,[`Separator`](./separator/) و[`End`](./end/) تشير الخصائص إلى بداية الحقل والعقد الفاصلة والنهاية للحقل على التوالي.
+ال[`Start`](./start/) ،[`Separator`](./separator/) و[`End`](./end/) تشير الخصائص إلى عقد البداية والفاصل والنهاية لحقل على التوالي.
 
-المحتوى بين بداية الحقل والفاصل هو رمز الحقل. المحتوى بين فاصل الحقل ونهاية الحقل هو نتيجة الحقل. يتكون رمز الحقل عادةً من واحد أو أكثر [`Run`](../../aspose.words/run/) الكائنات التي تحدد التعليمات. من المتوقع أن يقوم تطبيق المعالجة بتنفيذ رمز الحقل لحساب نتيجة الحقل.
+المحتوى بين بداية الحقل والفاصل هو رمز الحقل. المحتوى بين فاصل الحقل ونهايته هو نتيجة الحقل. يتكون رمز الحقل عادةً من رمز واحد أو أكثر من .[`Run`](../../aspose.words/run/) الكائنات التي تحدد التعليمات. من المتوقع أن يقوم تطبيق المعالجة بتنفيذ رمز الحقل لحساب نتيجة الحقل.
 
-تسمى عملية حساب النتائج الميدانية بالتحديث الميداني. يمكن لـ Aspose.Words تحديث نتائج field لمعظم أنواع الحقول بنفس الطريقة التي يقوم بها Microsoft Word. وأبرزها، Aspose.Words يمكنه حساب نتائج حتى حقول الصيغة الأكثر تعقيدًا. لحساب نتيجة field لحقل واحد استخدم[`Update`](./update/) طريقة. لتحديث الحقول في استخدام document بأكمله[`UpdateFields`](../../aspose.words/document/updatefields/).
+تُسمى عملية حساب نتائج الحقول "تحديث الحقل". يُمكن لبرنامج Aspose.Words تحديث نتائج field لمعظم أنواع الحقول بنفس طريقة مايكروسوفت وورد. والجدير بالذكر أن Aspose.Words يستطيع حساب نتائج حتى حقول الصيغ الأكثر تعقيدًا. لحساب نتيجة field لحقل واحد، استخدم[`Update`](./update/) الطريقة. لتحديث الحقول في المستند بأكمله استخدم[`UpdateFields`](../../aspose.words/document/updatefields/).
 
-يمكنك الحصول على نسخة النص العادي من رمز الحقل باستخدام[`GetFieldCode`](./getfieldcode/) الطريقة. يمكنك الحصول على إصدار النص العادي لنتيجة الحقل وتعيينه باستخدام[`Result`](./result/) property. يمكن أن يحتوي كل من رمز الحقل ونتيجة الحقل على محتوى معقد، مثل الحقول المتداخلة والفقرات والأشكال وجداول وفي هذه الحالة قد ترغب في العمل مع عقد الحقل مباشرة إذا كنت بحاجة إلى مزيد من التحكم.
+يمكنك الحصول على نسخة النص العادي من رمز الحقل باستخدام[`GetFieldCode`](./getfieldcode/)الطريقة. يمكنك الحصول على إصدار النص العادي لنتيجة الحقل وتعيينه باستخدام[`Result`](./result/) يمكن أن يحتوي كل من رمز الحقل ونتيجة الحقل على محتوى معقد، مثل الحقول المتداخلة والفقرات والأشكال والجداول، وفي هذه الحالة قد ترغب في العمل مع عقد الحقل بشكل مباشر إذا كنت بحاجة إلى مزيد من التحكم.
 
-لا تقم بإنشاء مثيلات لـ`Field` class مباشرة. لإنشاء حقل جديد استخدم[`InsertField`](../../aspose.words/documentbuilder/insertfield/) طريقة.
+لا تقم بإنشاء حالات من`Field` الفئة مباشرة. لإنشاء حقل جديد استخدم[`InsertField`](../../aspose.words/documentbuilder/insertfield/) طريقة.
 
 ## أمثلة
 
@@ -71,8 +71,8 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// هذا التحميل الزائد لطريقة InsertField يقوم تلقائيًا بتحديث الحقول المدرجة.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// يؤدي هذا التحميل الزائد لطريقة InsertField إلى تحديث الحقول المدرجة تلقائيًا.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### أنظر أيضا

@@ -3,14 +3,14 @@ title: FontConfigSubstitutionRule.Enabled
 linktitle: Enabled
 articleTitle: Enabled
 second_title: Aspose.Words لـ .NET
-description: FontConfigSubstitutionRule Enabled ملكية. يحدد ما إذا كانت القاعدة مفعلة أم لا في C#.
+description: اكتشف كيفية إدارة خاصية FontConfigSubstitutionRule Enabled لتحسين إعدادات الخط وتعزيز مرونة التصميم لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/
 ---
 ## FontConfigSubstitutionRule.Enabled property
 
-يحدد ما إذا كانت القاعدة مفعلة أم لا.
+يحدد ما إذا كانت القاعدة ممكّنة أم لا.
 
 ```csharp
 public override bool Enabled { set; }
@@ -28,8 +28,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على الأنظمة الأساسية التي تعمل بنظام Windows/غير Windows.
-// على نظام التشغيل Windows، فهو غير متوفر.
+// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على أنظمة التشغيل Windows/غير Windows.
+// على نظام التشغيل Windows، غير متوفر.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه وسنكون قادرين على تنفيذ العمليات.
+// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه، وسنكون قادرين على إجراء العمليات.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

@@ -3,14 +3,14 @@ title: ListLevel.StartAt
 linktitle: StartAt
 articleTitle: StartAt
 second_title: Aspose.Words لـ .NET
-description: ListLevel StartAt ملكية. إرجاع أو تعيين رقم البداية لمستوى القائمة هذا في C#.
+description: اكتشف خاصية ListLevel StartAt لتخصيص رقم بداية القائمة بسهولة، مما يعزز التنظيم والوضوح في مستنداتك.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.lists/listlevel/startat/
 ---
 ## ListLevel.StartAt property
 
-إرجاع أو تعيين رقم البداية لمستوى القائمة هذا.
+يعيد أو يعين الرقم الابتدائي لمستوى القائمة هذا.
 
 ```csharp
 public int StartAt { get; set; }
@@ -22,16 +22,16 @@ public int StartAt { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إعادة تشغيل الترقيم في القائمة عن طريق نسخ القائمة.
+يوضح كيفية إعادة تشغيل الترقيم في قائمة عن طريق نسخ القائمة.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// قم بإنشاء قائمة من قالب Microsoft Word، وقم بتخصيص مستوى القائمة الأول الخاص بها.
+// قم بإنشاء قائمة من قالب Microsoft Word، ثم قم بتخصيص المستوى الأول من القائمة.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
@@ -45,13 +45,13 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// يمكننا إضافة نسخة من القائمة الموجودة إلى مجموعة قائمة الوثيقة
-// لإنشاء قائمة مماثلة دون إجراء تغييرات على القائمة الأصلية.
+// يمكننا إضافة نسخة من قائمة موجودة إلى مجموعة قوائم المستند
+// لإنشاء قائمة مماثلة دون إجراء أي تغييرات على القائمة الأصلية.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
-// قم بتطبيق القائمة الثانية على فقرات جديدة.
+// قم بتطبيق القائمة الثانية على الفقرات الجديدة.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
@@ -66,11 +66,11 @@ doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// أنشئ قائمة من قالب Microsoft Word، وقم بتخصيص المستويين الأولين من قائمتها.
+// قم بإنشاء قائمة من قالب Microsoft Word، ثم قم بتخصيص المستويين الأولين من القائمة.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -91,12 +91,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// ستعمل قيمة NumberFormat هذه على إنشاء رموز قائمة نقطية على شكل نجمة.
+// ستقوم قيمة NumberFormat هذه بإنشاء رموز قائمة نقطية على شكل نجمة.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// قم بإنشاء فقرات وتطبيق كلا مستويي القائمة بتنسيق القائمة المخصص لدينا عليها.
+// قم بإنشاء فقرات ثم قم بتطبيق مستويي القائمة لتنسيق القائمة المخصصة عليها.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

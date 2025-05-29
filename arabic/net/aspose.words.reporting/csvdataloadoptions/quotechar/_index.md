@@ -3,14 +3,14 @@ title: CsvDataLoadOptions.QuoteChar
 linktitle: QuoteChar
 articleTitle: QuoteChar
 second_title: Aspose.Words لـ .NET
-description: CsvDataLoadOptions QuoteChar ملكية. الحصول على أو تعيين الحرف المستخدم لاقتباس قيم الحقول في C#.
+description: اكتشف خاصية QuoteChar الخاصة بـ CsvDataLoadOptions لتخصيص قيمة الحقل بسهولة للتعامل مع البيانات بسلاسة وتحسين إدارة CSV.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.reporting/csvdataloadoptions/quotechar/
 ---
 ## CsvDataLoadOptions.QuoteChar property
 
-الحصول على أو تعيين الحرف المستخدم لاقتباس قيم الحقول.
+يحصل على الحرف المستخدم لاقتباس قيم الحقول أو يعينه.
 
 ```csharp
 public char QuoteChar { get; set; }
@@ -18,9 +18,28 @@ public char QuoteChar { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هي '"' (علامة الاقتباس).
+القيمة الافتراضية هي '"' (علامة اقتباس).
 
-قم بمضاعفة الحرف لوضعه في نص مقتبس.
+قم بمضاعفة الحرف لوضعه في النص المقتبس.
+
+## أمثلة
+
+يوضح كيفية استخدام CSV كمصدر بيانات (سلسلة).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### أنظر أيضا
 

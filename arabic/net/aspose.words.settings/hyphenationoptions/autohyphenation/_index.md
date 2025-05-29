@@ -3,14 +3,14 @@ title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
 second_title: Aspose.Words لـ .NET
-description: HyphenationOptions AutoHyphenation ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تشغيل الواصلة التلقائية للمستند. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
+description: تحكم في وضع الواصلة تلقائيًا باستخدام خاصية HyphenationOptions. حسّن سهولة قراءة مستندك بسهولة عن طريق تفعيل هذه الميزة أو إيقافها.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم تشغيل الواصلة التلقائية للمستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
+يحصل على القيمة أو يعينها لتحديد ما إذا كان يتم تشغيل الوصل التلقائي للمستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }
@@ -18,7 +18,7 @@ public bool AutoHyphenation { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تكوين الواصلة التلقائية.
+يوضح كيفية تكوين الوصلة التلقائية.
 
 ```csharp
 Document doc = new Document();

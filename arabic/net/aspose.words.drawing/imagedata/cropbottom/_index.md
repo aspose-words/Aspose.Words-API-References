@@ -3,7 +3,7 @@ title: ImageData.CropBottom
 linktitle: CropBottom
 articleTitle: CropBottom
 second_title: Aspose.Words لـ .NET
-description: ImageData CropBottom ملكية. يحدد جزء إزالة الصورة من الجانب السفلي في C#.
+description: اكتشف خاصية ImageData CropBottom لتخصيص صورك بسهولة عن طريق إزالة الأجزاء غير المرغوب فيها من الأسفل للحصول على ملاءمة مثالية.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.drawing/imagedata/cropbottom/
@@ -18,7 +18,7 @@ public double CropBottom { get; set; }
 
 ## ملاحظات
 
-يمكن أن تتراوح كمية الاقتصاص من -1.0 إلى 1.0. القيمة الافتراضية هي 0. لاحظ أن القيمة 1 لن تعرض أي صورة على الإطلاق. ستؤدي القيم السالبة إلى ضغط الصورة للداخل من الحافة التي يتم اقتصاصها (سيتم ملء المساحة الفارغة بين الصورة والحافة المقصوصة بلون تعبئة الشكل ). ستؤدي القيم الموجبة الأقل من 1 إلى تمديد الصورة المتبقية لتناسب الشكل.
+يمكن أن تتراوح قيمة الاقتصاص بين -1.0 و1.0. القيمة الافتراضية هي 0. لاحظ أن قيمة 1 لن تعرض أي صورة على الإطلاق. القيم السالبة ستؤدي إلى ضغط الصورة للداخل من الحافة المقصوصة (سيتم ملء المساحة الفارغة بين الصورة والحافة المقصوصة بلون تعبئة الشكل ). القيم الموجبة الأقل من 1 ستؤدي إلى تمديد الصورة المتبقية لتتناسب مع الشكل.
 
 القيمة الافتراضية هي 0.
 
@@ -32,31 +32,31 @@ Shape sourceShape = (Shape)imgSourceDoc.GetChildNodes(NodeType.Shape, true)[0];
 
 Document dstDoc = new Document();
 
-// قم باستيراد شكل من المستند المصدر وإلحاقه بالفقرة الأولى.
+// استيراد شكل من المستند المصدر وإضافته إلى الفقرة الأولى.
 Shape importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
-// الشكل المستورد يحتوي على صورة. يمكننا الوصول إلى خصائص الصورة والبيانات الأولية عبر كائن ImageData.
+// يحتوي الشكل المستورد على صورة. يمكننا الوصول إلى خصائص الصورة وبياناتها الخام عبر كائن ImageData.
 ImageData imageData = importedShape.ImageData;
 imageData.Title = "Imported Image";
 
 Assert.True(imageData.HasImage);
 
-// إذا كانت الصورة ليس لها حدود، فسيحدد كائن ImageData الخاص بها لون الحدود على أنه فارغ.
+// إذا لم يكن للصورة حدود، فسوف يحدد كائن ImageData لون الحدود على أنه فارغ.
 Assert.AreEqual(4, imageData.Borders.Count);
 Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
 
-// لا ترتبط هذه الصورة بشكل أو ملف صورة آخر في نظام الملفات المحلي.
+// لا ترتبط هذه الصورة بملف شكل أو صورة آخر في نظام الملفات المحلي.
 Assert.False(imageData.IsLink);
 Assert.False(imageData.IsLinkOnly);
 
 // تحدد خصائص "السطوع" و"التباين" سطوع الصورة وتباينها
-// على مقياس من 0 إلى 1، والقيمة الافتراضية هي 0.5.
+// على مقياس من 0 إلى 1، مع القيمة الافتراضية عند 0.5.
 imageData.Brightness = 0.8;
 imageData.Contrast = 1.0;
 
-// أدت قيم السطوع والتباين المذكورة أعلاه إلى إنشاء صورة بها الكثير من اللون الأبيض.
-// يمكننا تحديد لون باستخدام خاصية ChromaKey لاستبداله بالشفافية، مثل الأبيض.
+// لقد أدت قيم السطوع والتباين المذكورة أعلاه إلى إنشاء صورة تحتوي على قدر كبير من اللون الأبيض.
+// يمكننا تحديد لون باستخدام خاصية ChromaKey لاستبداله بالشفافية، مثل اللون الأبيض.
 imageData.ChromaKey = Color.White;
 
 // قم باستيراد الشكل المصدر مرة أخرى واضبط الصورة على أحادية اللون.
@@ -66,14 +66,14 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 importedShape.ImageData.GrayScale = true;
 
 // قم باستيراد الشكل المصدر مرة أخرى لإنشاء صورة ثالثة وتعيينها على BiLevel.
-// BiLevel يضبط كل بكسل على اللون الأسود أو الأبيض، أيهما أقرب إلى اللون الأصلي.
+// يقوم BiLevel بتعيين كل بكسل إلى اللون الأسود أو الأبيض، أيهما أقرب إلى اللون الأصلي.
 importedShape = (Shape)dstDoc.ImportNode(sourceShape, true);
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 
 importedShape.ImageData.BiLevel = true;
 
-// يتم تحديد الاقتصاص على مقياس من 0 إلى 1. اقتصاص الجانب بنسبة 0.3
-// سيتم اقتصاص 30% من الصورة من الجانب الذي تم اقتصاصه.
+// يُحدَّد القص على مقياس من ٠ إلى ١. قص جانب بمقدار ٠.٣
+// سيتم اقتصاص 30% من الصورة عند الجانب المقصوص.
 importedShape.ImageData.CropBottom = 0.3;
 importedShape.ImageData.CropLeft = 0.3;
 importedShape.ImageData.CropTop = 0.3;

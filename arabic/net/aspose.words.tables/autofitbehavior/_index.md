@@ -3,14 +3,14 @@ title: AutoFitBehavior Enum
 linktitle: AutoFitBehavior
 articleTitle: AutoFitBehavior
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Tables.AutoFitBehavior تعداد. يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاءAutoFit الطريقة في C#.
+description: اكتشف Aspose.Words.Tables.AutoFitBehavior enum لتحسين تغيير حجم الجدول باستخدام طريقة AutoFit، وتحسين تخطيط المستند وعرضه.
 type: docs
-weight: 6230
+weight: 7080
 url: /ar/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-يحدد كيفية قيام Aspose.Words بتغيير حجم الجدول عند استدعاء[`AutoFit`](../table/autofit/) الطريقة.
+يحدد كيفية تغيير حجم الجدول بواسطة Aspose.Words عند استدعاء[`AutoFit`](../table/autofit/) الطريقة.
 
 ```csharp
 public enum AutoFitBehavior
@@ -20,27 +20,27 @@ public enum AutoFitBehavior
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| AutoFitToContents | `0` | يعمل Aspose.Words على تمكين خيار الاحتواء التلقائي، وإزالة العرض المفضل من الجدول وجميع الخلايا، ثم يقوم بتحديث تخطيط الجدول. |
-| AutoFitToWindow | `1` | عند استخدام هذه القيمة، يقوم Aspose.Words بتمكين خيار الاحتواء التلقائي، وتعيين العرض المفضل للجدول على 100%، ويقوم بإزالة العروض المفضلة من جميع الخلايا ثم يقوم بتحديث تخطيط الجدول. |
-| FixedColumnWidths | `2` | يقوم Aspose.Words بتعطيل خيار الاحتواء التلقائي وإزالة الخيار المفضل من الجدول. |
+| AutoFitToContents | `0` | يتيح Aspose.Words خيار AutoFit، ويزيل العرض المفضل من الجدول وجميع الخلايا ثم يقوم بتحديث تخطيط الجدول. |
+| AutoFitToWindow | `1` | عند استخدام هذه القيمة، يقوم Aspose.Words بتمكين خيار AutoFit، ويضبط العرض المفضل للجدول إلى 100%، ويقوم بإزالة العرض المفضل من جميع الخلايا ثم يقوم بتحديث تخطيط الجدول. |
+| FixedColumnWidths | `2` | يقوم Aspose.Words بتعطيل خيار AutoFit وإزالة المفضل من الجدول. |
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول جديد أثناء تطبيق النمط.
+يوضح كيفية إنشاء جدول جديد أثناء تطبيق نمط.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// يجب علينا إدراج صف واحد على الأقل قبل تعيين أي تنسيق للجدول.
+// يجب علينا إدراج صف واحد على الأقل قبل تعيين تنسيق أي جدول.
 builder.InsertCell();
 
 // قم بتعيين نمط الجدول المستخدم بناءً على معرف النمط.
-// لاحظ أنه ليست كل أنماط الجدول متاحة عند الحفظ بتنسيق .doc.
+// لاحظ أن أنماط الجدول ليست كلها متاحة عند الحفظ بتنسيق .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// قم بتطبيق النمط جزئيًا على ميزات الجدول استنادًا إلى المسندات، ثم أنشئ الجدول.
+// قم بتطبيق النمط جزئيًا على ميزات الجدول استنادًا إلى المسندات، ثم قم ببناء الجدول.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -72,7 +72,7 @@ builder.EndRow();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
-يوضح كيفية إنشاء جدول منسق 2x2.
+يوضح كيفية إنشاء جدول 2x2 منسق.
 
 ```csharp
 Document doc = new Document();
@@ -86,8 +86,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
-// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيقوم منشئ المستند بتطبيق قيم خصائص RowFormat/CellFormat الحالية
+// إلى الصف/الخلية الحالية التي يتواجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 

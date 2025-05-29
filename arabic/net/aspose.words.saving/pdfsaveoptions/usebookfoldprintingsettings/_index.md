@@ -3,14 +3,14 @@ title: PdfSaveOptions.UseBookFoldPrintingSettings
 linktitle: UseBookFoldPrintingSettings
 articleTitle: UseBookFoldPrintingSettings
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions UseBookFoldPrintingSettings ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان يجب حفظ المستند باستخدام تخطيط طباعة الكتيبات إذا تم تحديده عبرMultiplePages  في C#.
+description: اكتشف خاصية PdfSaveOptions UseBookFoldPrintingSettings لحفظ المستندات بسهولة في تخطيط كتيب لتحسين كفاءة الطباعة.
 type: docs
-weight: 300
+weight: 320
 url: /ar/net/aspose.words.saving/pdfsaveoptions/usebookfoldprintingsettings/
 ---
 ## PdfSaveOptions.UseBookFoldPrintingSettings property
 
-الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان يجب حفظ المستند باستخدام تخطيط طباعة الكتيبات، إذا تم تحديده عبر[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
+يحصل على قيمة منطقية أو يعينها للإشارة إلى ما إذا كان يجب حفظ المستند باستخدام تخطيط طباعة الكتيبات، إذا تم تحديد ذلك عبر[`MultiplePages`](../../../aspose.words/pagesetup/multiplepages/) .
 
 ```csharp
 public bool UseBookFoldPrintingSettings { get; set; }
@@ -22,21 +22,21 @@ public bool UseBookFoldPrintingSettings { get; set; }
 
 ## أمثلة
 
-يوضح كيفية حفظ مستند بتنسيق PDF على شكل طية كتاب.
+يوضح كيفية حفظ مستند بتنسيق PDF في شكل كتاب مطوي.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// اضبط خاصية "UseBookFoldPrintingSettings" على "صحيح" لترتيب المحتويات
-// في ملف PDF الناتج بطريقة تساعدنا على استخدامه لعمل كتيب.
-// اضبط خاصية "UseBookFoldPrintingSettings" على "خطأ" لعرض ملف PDF بشكل طبيعي.
+// اضبط خاصية "UseBookFoldPrintingSettings" على "true" لترتيب المحتويات
+// في ملف PDF الناتج بطريقة تساعدنا على استخدامه لإنشاء كتيب.
+// قم بضبط خاصية "UseBookFoldPrintingSettings" على "false" لعرض ملف PDF بشكل طبيعي.
 options.UseBookFoldPrintingSettings = renderTextAsBookfold;
 
-// إذا كنا نعرض المستند ككتيب، فيجب علينا تعيين "الصفحات المتعددة"
+// إذا كنا نعرض المستند ككتيب، فيجب علينا تعيين "صفحات متعددة"
 // خصائص كائنات إعداد الصفحة لجميع الأقسام إلى "MultiplePagesType.BookFoldPrinting".
 if (renderTextAsBookfold)
     foreach (Section s in doc.Sections)
@@ -44,8 +44,8 @@ if (renderTextAsBookfold)
         s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
     }
 
-// بمجرد طباعة هذه الوثيقة على جانبي الصفحات، يمكننا طي جميع الصفحات إلى المنتصف مرة واحدة،
-// وسوف تصطف المحتويات بطريقة تُنشئ كتيبًا.
+// بمجرد طباعة هذا المستند على جانبي الصفحات، يمكننا طي جميع الصفحات من المنتصف مرة واحدة،
+//وسوف يتم ترتيب المحتويات بطريقة تؤدي إلى إنشاء كتيب.
 doc.Save(ArtifactsDir + "PdfSaveOptions.SaveAsPdfBookFold.pdf", options);
 ```
 

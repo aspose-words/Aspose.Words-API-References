@@ -3,7 +3,7 @@ title: FrameFormat.IsFrame
 linktitle: IsFrame
 articleTitle: IsFrame
 second_title: Aspose.Words لـ .NET
-description: FrameFormat IsFrame ملكية. إرجاعحقيقي إذا كانت الفقرة عبارة عن إطار في C#.
+description: اكتشف خاصية FrameFormat IsFrame. حدّد بسهولة ما إذا كانت فقرتك إطارًا، مما يُحسّن تخطيط وتصميم مستندك.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/frameformat/isframe/
@@ -18,7 +18,7 @@ public bool IsFrame { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تعتبر إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

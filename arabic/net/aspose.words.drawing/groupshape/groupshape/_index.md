@@ -3,14 +3,14 @@ title: GroupShape
 linktitle: GroupShape
 articleTitle: GroupShape
 second_title: Aspose.Words لـ .NET
-description: GroupShape البناء. إنشاء شكل مجموعة جديد في C#.
+description: صمم أشكالًا جماعية مذهلة بسهولة باستخدام مُنشئ أشكال المجموعات. حسّن مشاريعك بأدوات قابلة للتخصيص وسهلة الاستخدام لإبداعات فريدة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/groupshape/groupshape/
 ---
 ## GroupShape constructor
 
-إنشاء شكل مجموعة جديد.
+ينشئ شكل مجموعة جديد.
 
 ```csharp
 public GroupShape(DocumentBase doc)
@@ -24,11 +24,11 @@ public GroupShape(DocumentBase doc)
 
 بشكل افتراضي، يكون الشكل عائمًا وله موقع وحجم افتراضيان.
 
-يجب عليك تحديد خصائص الشكل المطلوب بعد إنشاء الشكل.
+يجب عليك تحديد خصائص الشكل المطلوبة بعد إنشاء الشكل.
 
 ## أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -36,19 +36,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
-    // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
+    // إذا كنت بحاجة إلى إنشاء أشكال "غير بدائية"، مثل SingleCornerSnipped وTopCornersSnipped وDiagonalCornersSnipped،
+    // الزوايا العلوية مستديرة واحدة، زوايا علوية مستديرة واحدة، زوايا علوية مستديرة، زوايا قطرية مستديرة
+    // يرجى استخدام طرق DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -68,7 +68,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
+/// طباعة محتويات مجموعة الأشكال التي تمت زيارتها في وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

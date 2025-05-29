@@ -3,14 +3,14 @@ title: FileFormatUtil.SaveFormatToLoadFormat
 linktitle: SaveFormatToLoadFormat
 articleTitle: SaveFormatToLoadFormat
 second_title: Aspose.Words لـ .NET
-description: FileFormatUtil SaveFormatToLoadFormat طريقة. تحويل أSaveFormat القيمة إلى أLoadFormat القيمة إن أمكن في C#.
+description: حوّل ملفات SaveFormat بسهولة إلى LoadFormat باستخدام FileFormatUtil. بسّط إدارة الملفات وحسّن التوافق اليوم!
 type: docs
 weight: 90
 url: /ar/net/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil.SaveFormatToLoadFormat method
 
-تحويل أ[`SaveFormat`](../../saveformat/) القيمة إلى أ[`LoadFormat`](../../loadformat/) القيمة إن أمكن.
+يحول[`SaveFormat`](../../saveformat/) قيمة ل[`LoadFormat`](../../loadformat/) القيمة إذا كان ذلك ممكنا.
 
 ```csharp
 public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
@@ -20,7 +20,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentException | يرمي عندما لا يمكن تحويل. |
+| ArgumentException | يرمي عندما لا يمكن التحويل. |
 
 ## أمثلة
 
@@ -29,8 +29,8 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// يمكن أن تحتوي بعض أنواع الملفات على مستندات محفوظة فيها، لكن لا يمكن تحميلها باستخدام Aspose.Words.
-// إذا حاولنا تحويل تنسيق حفظ من هذا النوع إلى تنسيق تحميل، فسيتم طرح استثناء.
+// يمكن حفظ المستندات في بعض أنواع الملفات، ولكن لا يمكن تحميلها منها باستخدام Aspose.Words.
+// إذا حاولنا تحويل تنسيق الحفظ من هذا النوع إلى تنسيق تحميل، فسيتم طرح استثناء.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```
 

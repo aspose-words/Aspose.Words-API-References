@@ -3,7 +3,7 @@ title: HtmlSaveOptions.CssSavingCallback
 linktitle: CssSavingCallback
 articleTitle: CssSavingCallback
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions CssSavingCallback ملكية. يسمح بالتحكم في كيفية حفظ أنماط CSS عند حفظ مستند بتنسيق HTML أو MHTML أو EPUB في C#.
+description: تحكم في حفظ أنماط CSS باستخدام HtmlSaveOptions CssSavingCallback. حسّن تصدير مستنداتك إلى HTML أو MHTML أو EPUB بسهولة!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
@@ -25,19 +25,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
     // لتعديل كيفية تحويل المستند إلى HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // قم بتعيين خاصية "CssStylesheetType" على "CssStyleSheetType.External" إلى
-    // قم بإرفاق مستند HTML محفوظ بملف ورقة أنماط CSS خارجي.
+    // اضبط خاصية "CssStylesheetType" إلى "CssStyleSheetType.External"
+    // قم بإرفاق مستند HTML المحفوظ بملف جدول أنماط CSS خارجي.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // فيما يلي طريقتان لتحديد الدلائل وأسماء الملفات لأوراق أنماط CSS الناتجة.
     // 1 - استخدم خاصية "CssStyleSheetFileName" لتعيين اسم ملف لورقة الأنماط الخاصة بنا:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - استخدم رد اتصال مخصصًا لتسمية ورقة الأنماط الخاصة بنا:
+    // 2 - استخدم استدعاء مخصص لتسمية ورقة الأنماط الخاصة بنا:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -45,7 +45,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// يعين اسم ملف مخصصًا، بالإضافة إلى معلمات أخرى لورقة أنماط CSS خارجية.
+/// تعيين اسم ملف مخصص، إلى جانب معلمات أخرى لنمط CSS الخارجي.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -58,7 +58,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // يمكننا الوصول إلى المستند المصدر بأكمله عبر خاصية "المستند".
+        //يمكننا الوصول إلى المستند المصدر بأكمله عبر خاصية "المستند".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

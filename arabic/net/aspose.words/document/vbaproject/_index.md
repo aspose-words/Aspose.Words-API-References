@@ -3,14 +3,14 @@ title: Document.VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words لـ .NET
-description: Document VbaProject ملكية. الحصول على أو تعيين aVbaProject  في C#.
+description: اكتشف كيفية إدارة خصائص VbaProject بفعالية. تعلم كيفية الحصول على VbaProject أو إعداده لتحسين الأتمتة وتبسيط سير العمل.
 type: docs
-weight: 450
+weight: 470
 url: /ar/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
 
-الحصول على أو تعيين a`VbaProject` .
+يحصل على أو يعين`VbaProject` .
 
 ```csharp
 public VbaProject VbaProject { get; set; }
@@ -18,25 +18,25 @@ public VbaProject VbaProject { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
+يوضح كيفية الوصول إلى معلومات مشروع VBA الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// يحتوي مشروع VBA على مجموعة من وحدات VBA.
+//يحتوي مشروع VBA على مجموعة من وحدات VBA.
 VbaProject vbaProject = doc.VbaProject;
 Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// قم بتعيين كود مصدر جديد لوحدة VBA. يمكنك الوصول إلى وحدات VBA الموجودة في المجموعة إما عن طريق الفهرس أو بالاسم.
+// تعيين شيفرة مصدر جديدة لوحدة VBA. يمكنك الوصول إلى وحدات VBA في المجموعة إما عن طريق الفهرس أو الاسم.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

@@ -3,9 +3,9 @@ title: FieldListNum Class
 linktitle: FieldListNum
 articleTitle: FieldListNum
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldListNum فصل. ينفذ حقل LISTNUM في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldListNum لتطبيق سلس لحقول LISTNUM. حسّن أتمتة المستندات بميزات فعّالة اليوم!
 type: docs
-weight: 2120
+weight: 2530
 url: /ar/net/aspose.words.fields/fieldlistnum/
 ---
 ## FieldListNum class
@@ -28,31 +28,31 @@ public class FieldListNum : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [HasListName](../../aspose.words.fields/fieldlistnum/haslistname/) { get; } | إرجاع قيمة تشير إلى ما إذا كان اسم تعريف الترقيم المجرد مقدمًا بواسطة رمز الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [ListLevel](../../aspose.words.fields/fieldlistnum/listlevel/) { get; set; } | الحصول على المستوى في القائمة أو تعيينه، متجاوزًا السلوك الافتراضي للحقل. |
-| [ListName](../../aspose.words.fields/fieldlistnum/listname/) { get; set; } | الحصول على أو تعيين اسم تعريف الترقيم المجرد المستخدم للترقيم. |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [HasListName](../../aspose.words.fields/fieldlistnum/haslistname/) { get; } | ترجع قيمة تشير إلى ما إذا كان اسم تعريف الترقيم المجرد يتم توفيره بواسطة كود الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [ListLevel](../../aspose.words.fields/fieldlistnum/listlevel/) { get; set; } | يحصل على المستوى الموجود في القائمة أو يعينه، متجاوزًا السلوك الافتراضي للحقل. |
+| [ListName](../../aspose.words.fields/fieldlistnum/listname/) { get; set; } | يحصل على اسم تعريف الترقيم المجرد المستخدم للترقيم أو يعينه. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber/) { get; set; } | الحصول على أو تعيين قيمة البداية لهذا الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| [StartingNumber](../../aspose.words.fields/fieldlistnum/startingnumber/) { get; set; } | يحصل على القيمة الأولية لهذا الحقل أو يعينها. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## أمثلة
 
@@ -63,20 +63,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // تعرض حقول LISTNUM رقمًا يتزايد في كل حقل LISTNUM.
-// تحتوي هذه الحقول أيضًا على مجموعة متنوعة من الخيارات التي تسمح لنا باستخدامها لمحاكاة القوائم المرقمة.
+//تحتوي هذه الحقول أيضًا على مجموعة متنوعة من الخيارات التي تسمح لنا باستخدامها لمحاكاة القوائم المرقمة.
 FieldListNum field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 
-// تبدأ القوائم بالعد عند 1 افتراضيًا، ولكن يمكننا ضبط هذا الرقم على قيمة مختلفة، مثل 0.
-// سيعرض هذا الحقل "0)".
+// تبدأ القوائم بالعد عند 1 بشكل افتراضي، ولكن يمكننا تعيين هذا الرقم إلى قيمة مختلفة، مثل 0.
+//سيتم عرض هذا الحقل "0)".
 field.StartingNumber = "0";
 builder.Writeln("Paragraph 1");
 
 Assert.AreEqual(" LISTNUM  \\s 0", field.GetFieldCode());
 
- // تحتفظ حقول LISTNUM بأعداد منفصلة لكل مستوى قائمة.
-// إدراج حقل LISTNUM في نفس الفقرة كحقل LISTNUM آخر
+// تحتفظ حقول LISTNUM بأعداد منفصلة لكل مستوى من مستويات القائمة.
+// إدراج حقل LISTNUM في نفس الفقرة مع حقل LISTNUM آخر
 // يزيد مستوى القائمة بدلاً من العدد.
-// سيواصل الحقل التالي العد الذي بدأناه أعلاه وسيعرض القيمة "1" على مستوى القائمة 1.
+// سيستمر الحقل التالي في العد الذي بدأناه أعلاه ويعرض قيمة "1" على مستوى القائمة 1.
 builder.InsertField(FieldType.FieldListNum, true);
 
 // سيبدأ هذا الحقل العد على مستوى القائمة 2. وسيعرض القيمة "1".
@@ -84,25 +84,25 @@ builder.InsertField(FieldType.FieldListNum, true);
 
 // سيبدأ هذا الحقل العد على مستوى القائمة 3. وسيعرض القيمة "1".
 // مستويات القائمة المختلفة لها تنسيق مختلف،
-// لذلك ستعرض هذه الحقول المدمجة قيمة "1)a)i)".
+// لذلك فإن دمج هذه الحقول سيؤدي إلى عرض قيمة "1)a)i)".
 builder.InsertField(FieldType.FieldListNum, true);
 builder.Writeln("Paragraph 2");
 
-// سيستمر حقل LISTNUM التالي الذي نقوم بإدراجه في العد على مستوى القائمة
-// أن حقل LISTNUM السابق كان قيد التشغيل.
-// يمكننا استخدام خاصية "ListLevel" للانتقال إلى مستوى قائمة مختلف.
-// إذا ظل حقل LISTNUM هذا في مستوى القائمة 3، فسيتم عرض "ii)"،
-// ولكن بما أننا نقلناه إلى مستوى القائمة 2، فإنه يستمر في العد عند هذا المستوى ويعرض "ب)".
+// الحقل LISTNUM التالي الذي نقوم بإدخاله سيستمر في العد على مستوى القائمة
+// أن الحقل LISTNUM السابق كان موجودًا.
+//يمكننا استخدام خاصية "ListLevel" للانتقال إلى مستوى قائمة مختلف.
+// إذا بقي حقل LISTNUM هذا على مستوى القائمة 3، فسوف يعرض "ii)"،
+// ولكن، نظرًا لأننا نقلناها إلى مستوى القائمة 2، فإنها تستمر في العد على هذا المستوى وتعرض "ب)".
 field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.ListLevel = "2";
 builder.Writeln("Paragraph 3");
 
 Assert.AreEqual(" LISTNUM  \\l 2", field.GetFieldCode());
 
-// يمكننا تعيين خاصية ListName للحصول على الحقل لمحاكاة نوع حقل AUTONUM مختلف.
+// يمكننا تعيين خاصية ListName لجعل الحقل يحاكي نوع حقل AUTONUM مختلفًا.
 // "NumberDefault" يحاكي AUTONUM، و"OutlineDefault" يحاكي AUTONUMOUT،
 // و"LegalDefault" يحاكي حقول AUTONUMLGL.
-// اسم القائمة "OutlineDefault" الذي يحتوي على 1 كرقم البداية سيؤدي إلى عرض "I.".
+// سيؤدي اسم القائمة "OutlineDefault" مع 1 كرقم بداية إلى عرض "I".
 field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.StartingNumber = "1";
 field.ListName = "OutlineDefault";
@@ -111,8 +111,8 @@ builder.Writeln("Paragraph 4");
 Assert.IsTrue(field.HasListName);
 Assert.AreEqual(" LISTNUM  OutlineDefault \\s 1", field.GetFieldCode());
 
-// لا ينتقل اسم القائمة من الحقل السابق، لذا سنحتاج إلى تعيينه لكل حقل جديد.
-// يستمر هذا الحقل في العد باسم قائمة مختلف ويعرض "II.".
+// لا يتم نقل ListName من الحقل السابق، لذا سنحتاج إلى تعيينه لكل حقل جديد.
+// يواصل هذا الحقل العد باستخدام اسم القائمة المختلفة ويعرض "II".
 field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.ListName = "OutlineDefault";
 builder.Writeln("Paragraph 5");

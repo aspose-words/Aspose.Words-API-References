@@ -3,14 +3,14 @@ title: LayoutEnumerator.Current
 linktitle: Current
 articleTitle: Current
 second_title: Aspose.Words لـ .NET
-description: LayoutEnumerator Current ملكية. الحصول على الموضع الحالي في نموذج تخطيط الصفحة أو تعيينه. تقوم هذه الخاصية بإرجاع كائن معتم يتوافق مع كيان التخطيط الحالي في C#.
+description: اكتشف خاصية LayoutEnumerator Current للوصول بسهولة إلى الموضع الحالي وتعديله في نموذج تخطيط الصفحة لتحسين مرونة التصميم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.layout/layoutenumerator/current/
 ---
 ## LayoutEnumerator.Current property
 
-الحصول على الموضع الحالي في نموذج تخطيط الصفحة أو تعيينه. تقوم هذه الخاصية بإرجاع كائن معتم يتوافق مع كيان التخطيط الحالي.
+يحصل على الموضع الحالي في نموذج تخطيط الصفحة أو يعينه. تعيد هذه الخاصية كائنًا غير شفاف يتوافق مع كيان التخطيط الحالي.
 
 ```csharp
 public object Current { get; set; }
@@ -18,18 +18,18 @@ public object Current { get; set; }
 
 ## أمثلة
 
-يوضح كيفية رؤية نطاقات الصفحات التي تمتد عليها العقدة.
+يوضح كيفية رؤية نطاقات الصفحات التي تمتد عبرها العقدة.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// اتصل بطريقة "GetNumPagesSpanned" لحساب عدد الصفحات التي يغطيها محتوى وثيقتنا.
-// بما أن المستند فارغ، فإن عدد الصفحات هذا هو صفر حاليًا.
+// قم باستدعاء طريقة "GetNumPagesSpanned" لحساب عدد الصفحات التي يغطيها محتوى مستندنا.
+// بما أن المستند فارغ، فإن عدد الصفحات هو صفر حاليًا.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// املأ المستند بخمس صفحات من المحتوى.
+//إملأ المستند بخمس صفحات من المحتوى.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -39,8 +39,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// قبل تجميع التخطيط، نحتاج إلى استدعاء طريقة "UpdatePageLayout" لتعطينا
-// رقم دقيق لأي مقياس متعلق بالتخطيط، مثل عدد الصفحات.
+// قبل جامع التخطيط، نحتاج إلى استدعاء طريقة "UpdatePageLayout" لإعطائنا
+// رقم دقيق لأي مقياس مرتبط بالتخطيط، مثل عدد الصفحات.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// يمكننا رؤية أرقام صفحات البداية والنهاية لأي عقدة وامتداد صفحاتها الإجمالي.
+// يمكننا رؤية أرقام الصفحات الأولية والنهائية لأي عقدة ومدى صفحاتها الإجمالي.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -58,13 +58,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// يمكننا التكرار على كيانات التخطيط باستخدام LayoutEnumerator.
+// يمكننا تكرار كيانات التخطيط باستخدام LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// يمكن لـ LayoutEnumerator اجتياز مجموعة كيانات التخطيط مثل الشجرة.
-// يمكننا أيضًا تطبيقه على كيان التخطيط المقابل لأي عقدة.
+// يمكن لـ LayoutEnumerator التنقل عبر مجموعة كيانات التخطيط مثل الشجرة.
+//يمكننا أيضًا تطبيقه على أي كيان تخطيط مطابق للعقدة.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

@@ -3,14 +3,14 @@ title: Node.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words لـ .NET
-description: Node ToString طريقة. تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد في C#.
+description: اكتشف طريقة Node ToString، وحوّل محتوى العقدة إلى سلاسل نصية بسهولة تامة بتنسيقات قابلة للتخصيص لتحسين معالجة البيانات. حسّن برمجة جهازك اليوم!
 type: docs
 weight: 160
 url: /ar/net/aspose.words/node/tostring/
 ---
 ## ToString(*[SaveFormat](../../saveformat/)*) {#tostring_1}
 
-تصدير محتوى العقدة إلى سلسلة بالتنسيق المحدد.
+يصدر محتوى العقدة إلى سلسلة بالتنسيق المحدد.
 
 ```csharp
 public string ToString(SaveFormat saveFormat)
@@ -22,7 +22,7 @@ public string ToString(SaveFormat saveFormat)
 
 ## أمثلة
 
-يُظهر الفرق بين استدعاء طريقتي GetText وToString على العقدة.
+يُظهر الفرق بين استدعاء طريقتي GetText وToString على عقدة.
 
 ```csharp
 Document doc = new Document();
@@ -30,27 +30,27 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
-// سيقوم GetText باسترداد النص المرئي بالإضافة إلى رموز الحقول والأحرف الخاصة.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+// سيقوم GetText باسترجاع النص المرئي بالإضافة إلى رموز الحقول والأحرف الخاصة.
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
-// ToString سيعطينا مظهر المستند إذا تم حفظه بتنسيق حفظ تم تمريره.
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+// سيعطينا ToString مظهر المستند إذا تم حفظه بتنسيق الحفظ الذي تم تمريره.
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
-تصدير محتوى العقدة إلى String بتنسيق HTML.
+يقوم بتصدير محتوى العقدة إلى سلسلة بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// عندما نستدعي طريقة ToString باستخدام التحميل الزائد لـ html SaveFormat،
-// يقوم بتحويل محتويات العقدة إلى تمثيل HTML الخام الخاص بها.
+// عندما نستدعي طريقة ToString باستخدام التحميل الزائد لـ SaveFormat في html،
+// يقوم بتحويل محتويات العقدة إلى تمثيلها الخام بصيغة HTML.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// يمكننا أيضًا تعديل نتيجة هذا التحويل باستخدام كائن SaveOptions.
+//يمكننا أيضًا تعديل نتيجة هذا التحويل باستخدام كائن SaveOptions.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 
@@ -59,7 +59,7 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
                 "</p>", node.ToString(saveOptions));
 ```
 
-يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تمثل عناصر قائمة.
+يوضح كيفية استخراج تسميات القائمة لجميع الفقرات التي تعد عناصر قائمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -67,24 +67,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// اكتشف ما إذا كان لدينا قائمة الفقرات. في وثيقتنا، تستخدم قائمتنا أرقامًا عربية بسيطة،
-// والتي تبدأ عند الثالثة وتنتهي عند السادسة.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+// ابحث إن كانت لدينا قائمة الفقرات. في مستندنا، تستخدم قائمتنا أرقامًا عربية بسيطة،
+// والتي تبدأ عند ثلاثة وتنتهي عند ستة.
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // هذا هو النص الذي نحصل عليه عند إخراج هذه العقدة إلى تنسيق النص.
-     // سيؤدي إخراج النص هذا إلى حذف تسميات القائمة. قم بقص أي أحرف بتنسيق الفقرة.
+    // هذا هو النص الذي نحصل عليه عندما نخرج هذه العقدة إلى تنسيق نصي.
+     // سيحذف هذا النص تسميات القائمة. قم بقص أي أحرف تنسيق للفقرات.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // يؤدي هذا إلى الحصول على موضع الفقرة في المستوى الحالي من القائمة. إذا كان لدينا قائمة ذات مستويات متعددة،
-    // هذا سيخبرنا عن موقعه على هذا المستوى.
+    // يُحدد هذا موضع الفقرة في المستوى الحالي من القائمة. إذا كانت لدينا قائمة ذات مستويات متعددة،
+    // هذا سيخبرنا ما هو الموضع على هذا المستوى.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // اجمعها معًا لتضمين تسمية القائمة مع النص الموجود في الإخراج.
+    // قم بدمجهما معًا لتضمين تسمية القائمة مع النص في الإخراج.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```
@@ -100,7 +100,7 @@ foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListForma
 
 ## ToString(*[SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#tostring_2}
 
-تصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة.
+يقوم بتصدير محتوى العقدة إلى سلسلة باستخدام خيارات الحفظ المحددة.
 
 ```csharp
 public string ToString(SaveOptions saveOptions)
@@ -116,20 +116,20 @@ public string ToString(SaveOptions saveOptions)
 
 ## أمثلة
 
-تصدير محتوى العقدة إلى String بتنسيق HTML.
+يقوم بتصدير محتوى العقدة إلى سلسلة بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// عندما نستدعي طريقة ToString باستخدام التحميل الزائد لـ html SaveFormat،
-// يقوم بتحويل محتويات العقدة إلى تمثيل HTML الخام الخاص بها.
+// عندما نستدعي طريقة ToString باستخدام التحميل الزائد لـ SaveFormat في html،
+// يقوم بتحويل محتويات العقدة إلى تمثيلها الخام بصيغة HTML.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
 
-// يمكننا أيضًا تعديل نتيجة هذا التحويل باستخدام كائن SaveOptions.
+//يمكننا أيضًا تعديل نتيجة هذا التحويل باستخدام كائن SaveOptions.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 

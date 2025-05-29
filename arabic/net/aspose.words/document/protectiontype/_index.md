@@ -3,14 +3,14 @@ title: Document.ProtectionType
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words لـ .NET
-description: Document ProtectionType ملكية. للحصول على نوع حماية المستند النشط حاليًا في C#.
+description: اكتشف نوع الحماية النشطة للمستندات لتعزيز الأمان وسلامة البيانات. احمِ ملفاتك بسهولة بفضل ميزاتنا المتقدمة.
 type: docs
-weight: 330
+weight: 340
 url: /ar/net/aspose.words/document/protectiontype/
 ---
 ## Document.ProtectionType property
 
-للحصول على نوع حماية المستند النشط حاليًا.
+يحصل على نوع حماية المستند النشط حاليًا.
 
 ```csharp
 public ProtectionType ProtectionType { get; }
@@ -18,11 +18,11 @@ public ProtectionType ProtectionType { get; }
 
 ## ملاحظات
 
-تسمح هذه الخاصية باسترداد نوع حماية المستند المحدد حاليًا. لتغيير نوع حماية المستند، استخدم[`Protect`](../protect/) و[`Unprotect`](../unprotect/) طُرق.
+تسمح هذه الخاصية باسترجاع نوع حماية المستند الذي تم تعيينه حاليًا. لتغيير نوع حماية المستند، استخدم[`Protect`](../protect/) و[`Unprotect`](../unprotect/) طُرق.
 
-عندما يكون المستند محميًا، يمكن للمستخدم إجراء تغييرات محدودة فقط، مثل إضافة التعليقات التوضيحية، أو إجراء المراجعات، أو إكمال النموذج.
+عندما يتم حماية مستند، لا يستطيع المستخدم سوى إجراء تغييرات محدودة، مثل إضافة تعليقات توضيحية، أو إجراء مراجعات، أو استكمال نموذج.
 
-لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/)
+لاحظ أن حماية المستندات تختلف عن حماية الكتابة. يتم تحديد حماية الكتابة باستخدام[`WriteProtection`](../writeprotection/)
 
 ## أمثلة
 
@@ -34,11 +34,11 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// إذا فتحنا هذا المستند باستخدام برنامج Microsoft Word بهدف تعديله،
-// سنحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
+// إذا فتحنا هذا المستند باستخدام Microsoft Word بهدف تحريره،
+// سوف نحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون وثيقتنا.
+// لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون مستندنا.
 // لم نقم بتشفير المستند بأي شكل من الأشكال، ولا نحتاج إلى كلمة المرور لفتحه وتحريره برمجيًا.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
@@ -60,7 +60,7 @@ doc.Unprotect("WrongPassword");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// 2 - بكلمة المرور الصحيحة:
+// 2 - مع كلمة المرور الصحيحة:
 doc.Unprotect("NewPassword");
 
 Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);

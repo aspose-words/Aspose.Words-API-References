@@ -3,14 +3,14 @@ title: OleFormat.Clsid
 linktitle: Clsid
 articleTitle: Clsid
 second_title: Aspose.Words لـ .NET
-description: OleFormat Clsid ملكية. الحصول على CLSID لكائن OLE في C#.
+description: اكتشف خاصية OleFormat Clsid لاسترداد CLSID الخاص بكائنات OLE بسهولة، مما يعزز وظائف تطبيقك وأدائه.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/oleformat/clsid/
 ---
 ## OleFormat.Clsid property
 
-الحصول على CLSID لكائن OLE.
+يحصل على CLSID لكائن OLE.
 
 ```csharp
 public Guid Clsid { get; }
@@ -18,7 +18,7 @@ public Guid Clsid { get; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في المستند وعناصر التحكم التابعة له.
+يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في مستند وعناصر التحكم الفرعية الخاصة به.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
@@ -30,7 +30,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// قد تحتوي بعض عناصر تحكم OLE على عناصر تحكم فرعية، مثل تلك الموجودة في هذا المستند والتي تحتوي على ثلاثة أزرار خيارات.
+// قد تحتوي بعض عناصر تحكم OLE على عناصر تحكم فرعية، مثل تلك الموجودة في هذه الوثيقة والتي تحتوي على ثلاثة أزرار خيارات.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

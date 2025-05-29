@@ -3,16 +3,16 @@ title: TabStopCollection Class
 linktitle: TabStopCollection
 articleTitle: TabStopCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.TabStopCollection فصل. مجموعة منTabStop الكائنات التي تمثل علامات تبويب مخصصة لفقرة أو نمط في C#.
+description: اكتشف مجموعة Aspose.Words.TabStopCollection. أدر بسهولة علامات تبويب مخصصة للفقرات والأنماط، مما يُحسّن تنسيق مستنداتك بدقة.
 type: docs
-weight: 6210
+weight: 7060
 url: /ar/net/aspose.words/tabstopcollection/
 ---
 ## TabStopCollection class
 
 مجموعة من[`TabStop`](../tabstop/) الكائنات التي تمثل علامات تبويب مخصصة لفقرة أو نمط.
 
-لمعرفة المزيد، قم بزيارة[نموذج كائن مستند Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[نموذج كائن المستند (DOM) في Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) مقالة توثيقية.
 
 ```csharp
 public class TabStopCollection : InternableComplexAttr
@@ -22,35 +22,35 @@ public class TabStopCollection : InternableComplexAttr
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words/tabstopcollection/count/) { get; } | الحصول على عدد علامات الجدولة في المجموعة. |
-| [Item](../../aspose.words/tabstopcollection/item/) { get; } | الحصول على علامة جدولة عند الفهرس المحدد. (2 indexers) |
+| [Count](../../aspose.words/tabstopcollection/count/) { get; } | يحصل على عدد علامات التبويب في المجموعة. |
+| [Item](../../aspose.words/tabstopcollection/item/) { get; } | يحصل على علامة تبويب عند الفهرس المحدد. (2 indexers) |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../aspose.words/tabstopcollection/add/#add)(*[TabStop](../tabstop/)*) | إضافة علامة جدولة أو استبدالها في المجموعة. |
-| [Add](../../aspose.words/tabstopcollection/add/#add_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | إضافة علامة جدولة أو استبدالها في المجموعة. |
-| [After](../../aspose.words/tabstopcollection/after/)(*double*) | الحصول على علامة الجدولة الأولى على يمين الموضع المحدد. |
-| [Before](../../aspose.words/tabstopcollection/before/)(*double*) | الحصول على علامة الجدولة الأولى على يسار الموضع المحدد. |
-| [Clear](../../aspose.words/tabstopcollection/clear/)() | حذف كافة مواضع علامات الجدولة. |
-| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
-| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(*TabStopCollection*) | تحديد ما إذا كان المحدد`TabStopCollection` يساوي القيمة الحالية`TabStopCollection` . |
-| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | بمثابة دالة تجزئة لهذا النوع. |
-| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(*double*) | الحصول على فهرس علامة الجدولة بالموضع المحدد بالنقاط. |
-| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(*int*) | الحصول على موضع علامة التبويب (بالنقاط) عند الفهرس المحدد. |
-| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(*int*) | إزالة علامة الجدولة عند الفهرس المحدد من المجموعة. |
-| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(*double*) | إزالة علامة الجدولة عند الموضع المحدد من المجموعة. |
+| [Add](../../aspose.words/tabstopcollection/add/#add)(*[TabStop](../tabstop/)*) | يضيف أو يستبدل علامة تبويب في المجموعة. |
+| [Add](../../aspose.words/tabstopcollection/add/#add_1)(*double, [TabAlignment](../tabalignment/), [TabLeader](../tableader/)*) | يضيف أو يستبدل علامة تبويب في المجموعة. |
+| [After](../../aspose.words/tabstopcollection/after/)(*double*) | يحصل على علامة تبويب أولى على يمين الموضع المحدد. |
+| [Before](../../aspose.words/tabstopcollection/before/)(*double*) | يحصل على علامة تبويب أولى على يسار الموضع المحدد. |
+| [Clear](../../aspose.words/tabstopcollection/clear/)() | يحذف جميع مواضع علامة التبويب. |
+| override [Equals](../../aspose.words/tabstopcollection/equals/#equals_1)(*object*) | يحدد ما إذا كان الكائن المحدد يساوي في القيمة الكائن الحالي. |
+| [Equals](../../aspose.words/tabstopcollection/equals/#equals)(*TabStopCollection*) | يحدد ما إذا كان المحدد`TabStopCollection` يساوي القيمة الحالية`TabStopCollection` . |
+| override [GetHashCode](../../aspose.words/tabstopcollection/gethashcode/)() | يعمل كدالة تجزئة لهذا النوع. |
+| [GetIndexByPosition](../../aspose.words/tabstopcollection/getindexbyposition/)(*double*) | يحصل على فهرس علامة التبويب مع الموضع المحدد بالنقاط. |
+| [GetPositionByIndex](../../aspose.words/tabstopcollection/getpositionbyindex/)(*int*) | يحصل على موضع (بالنقاط) علامة التبويب عند الفهرس المحدد. |
+| [RemoveByIndex](../../aspose.words/tabstopcollection/removebyindex/)(*int*) | يزيل علامة التبويب عند الفهرس المحدد من المجموعة. |
+| [RemoveByPosition](../../aspose.words/tabstopcollection/removebyposition/)(*double*) | يزيل علامة التبويب في الموضع المحدد من المجموعة. |
 
 ## ملاحظات
 
-في مستندات Microsoft Word، يمكن تعريف علامة الجدولة في خصائص نمط الفقرة أو مباشرة في خصائص الفقرة. يمكن أن يعتمد النمط على نمط آخر. وبالتالي، فإن المجموعة الكاملة من علامات الجدولة لكائن معين هي عبارة عن مجموعة من علامات الجدولة المحددة مباشرة على هذا الكائن وعلامات الجدولة الموروثة من الأنماط الأصلية.
+في مستندات مايكروسوفت وورد، يمكن تعريف علامة الجدولة ضمن خصائص نمط paragraph أو مباشرةً ضمن خصائص الفقرة. يمكن أن يستند النمط إلى نمط آخر. . لذلك، فإن المجموعة الكاملة لعلامات الجدولة لكائن معين هي مزيج من علامات الجدولة المُعرّفة مباشرةً في هذا الكائن وعلامات الجدولة الموروثة من الأنماط الأصلية.
 
-في Aspose.Words، عندما تحصل على ملف`TabStopCollection`بالنسبة لفقرة أو نمط، فهو يحتوي فقط على علامات الجدولة المخصصة المحددة مباشرة لهذه الفقرة أو النمط. لا تتضمن المجموعة علامات الجدولة المحددة في الأنماط الأصلية أو علامات الجدولة الافتراضية.
+في Aspose.Words، عندما تحصل على`TabStopCollection` بالنسبة لفقرة أو نمط، فهي تحتوي فقط على علامات التبويب المخصصة المحددة مباشرة لهذه الفقرة أو النمط. لا تتضمن المجموعة علامات التبويب المحددة في الأنماط الأصلية أو علامات التبويب الافتراضية.
 
 ## أمثلة
 
-يوضح كيفية التعامل مع مجموعة علامات الجدولة الخاصة بالمستند.
+يوضح كيفية العمل مع مجموعة علامات التبويب الموجودة في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -58,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 نقطة هي "بوصة" واحدة في مسطرة إيقاف علامة التبويب في Microsoft Word.
+// 72 نقطة هي "بوصة" واحدة على مسطرة علامة التبويب في برنامج Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -66,22 +66,22 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// يأخذ كل حرف "علامة تبويب" مؤشر المنشئ إلى موقع علامة التبويب التالية.
+// كل حرف "علامة تبويب" يأخذ مؤشر المنشئ إلى موقع علامة التبويب التالية.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// تحصل كل فقرة على مجموعة علامات الجدولة الخاصة بها، والتي تستنسخ قيمها من مجموعة علامات الجدولة الخاصة بمنشئ المستندات.
+// تحصل كل فقرة على مجموعة علامات التبويب الخاصة بها، والتي تستنسخ قيمها من مجموعة علامات التبويب الخاصة بمنشئ المستندات.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// يمكن أن توجهنا مجموعة علامات التبويب إلى TabStops قبل وبعد مواضع معينة.
+// يمكن لمجموعة علامات التبويب أن تشير إلينا إلى علامات التبويب قبل وبعد مواضع معينة.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// يمكننا مسح مجموعة علامات الجدولة الخاصة بالفقرة للعودة إلى سلوك الجدولة الافتراضي.
+// يمكننا مسح مجموعة علامات التبويب الخاصة بالفقرة للعودة إلى سلوك علامات التبويب الافتراضي.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

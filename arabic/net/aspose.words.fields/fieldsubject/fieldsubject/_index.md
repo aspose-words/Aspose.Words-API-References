@@ -3,7 +3,7 @@ title: FieldSubject
 linktitle: FieldSubject
 articleTitle: FieldSubject
 second_title: Aspose.Words لـ .NET
-description: FieldSubject البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldSubject لتكامل سلس. استفد من المُنشئ الافتراضي لتحسين كفاءة الترميز وتحسين الأداء.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldsubject/fieldsubject/

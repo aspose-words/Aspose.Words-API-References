@@ -3,14 +3,14 @@ title: DocumentBuilder.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder Font ملكية. إرجاع كائن يمثل خصائص تنسيق الخط الحالية في C#.
+description: استكشف خاصية الخط في DocumentBuilder للوصول إلى تنسيق خطك الحالي وتخصيصه بسهولة. حسّن أسلوب مستندك اليوم!
 type: docs
 weight: 100
 url: /ar/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
 
-إرجاع كائن يمثل خصائص تنسيق الخط الحالية.
+يعيد كائنًا يمثل خصائص تنسيق الخط الحالية.
 
 ```csharp
 public Font Font { get; }
@@ -20,11 +20,11 @@ public Font Font { get; }
 
 يستخدم`Font` للوصول إلى خصائص تنسيق الخط وتعديلها.
 
-تحديد تنسيق الخط قبل إدراج النص.
+حدد تنسيق الخط قبل إدراج النص.
 
 ## أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
+يوضح كيفية إدراج سلسلة محاطة بحدود في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// قم بتعيين بعض خيارات التنسيق لمظهر النص والجدول.
+// تعيين بعض خيارات التنسيق لمظهر النص والجدول.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -59,9 +59,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// سيؤدي تكوين خيارات التنسيق في أداة إنشاء المستندات إلى تطبيقها
-// إلى الخلية/الصف الحالي الذي يوجد به المؤشر،
-// بالإضافة إلى أي خلايا وصفوف جديدة تم إنشاؤها باستخدام هذا المنشئ.
+// سيؤدي تكوين خيارات التنسيق في منشئ المستندات إلى تطبيقها
+// إلى الخلية/الصف الحالي الذي يوجد فيه المؤشر،
+// بالإضافة إلى أي خلايا أو صفوف جديدة تم إنشاؤها باستخدام هذا المنشئ.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -69,8 +69,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// أعد تكوين كائنات التنسيق الخاصة بالمنشئ للصفوف والخلايا الجديدة التي نحن على وشك إنشاؤها.
-// لن يقوم المنشئ بتطبيق هذه العناصر على الصف الأول الذي تم إنشاؤه بالفعل بحيث يبرز كصف رأس.
+// إعادة تكوين كائنات تنسيق المنشئ للصفوف والخلايا الجديدة التي سنقوم بإنشائها.
+// لن يقوم المنشئ بتطبيق هذه العناصر على الصف الأول الذي تم إنشاؤه بالفعل حتى يظهر كصف رأس.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

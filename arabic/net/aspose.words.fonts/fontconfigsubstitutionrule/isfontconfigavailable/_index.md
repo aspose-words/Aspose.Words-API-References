@@ -3,14 +3,14 @@ title: FontConfigSubstitutionRule.IsFontConfigAvailable
 linktitle: IsFontConfigAvailable
 articleTitle: IsFontConfigAvailable
 second_title: Aspose.Words لـ .NET
-description: FontConfigSubstitutionRule IsFontConfigAvailable طريقة. تحقق مما إذا كانت الأداة المساعدة لتكوين الخطوط متاحة أم لا في C#.
+description: تأكد من توفر أداة FontConfig باستخدام طريقة IsFontConfigAvailable. وفّر إدارة مثالية للخطوط في تطبيقاتك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
 ---
 ## FontConfigSubstitutionRule.IsFontConfigAvailable method
 
-تحقق مما إذا كانت الأداة المساعدة لتكوين الخطوط متاحة أم لا.
+تحقق مما إذا كانت أداة fontconfig متاحة أم لا.
 
 ```csharp
 public bool IsFontConfigAvailable()
@@ -28,8 +28,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على الأنظمة الأساسية التي تعمل بنظام Windows/غير Windows.
-// على نظام التشغيل Windows، فهو غير متوفر.
+// يعمل كائن FontConfigSubstitutionRule بشكل مختلف على أنظمة التشغيل Windows/غير Windows.
+// على نظام التشغيل Windows، غير متوفر.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه وسنكون قادرين على تنفيذ العمليات.
+// على Linux/Mac، سيكون لدينا إمكانية الوصول إليه، وسنكون قادرين على إجراء العمليات.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

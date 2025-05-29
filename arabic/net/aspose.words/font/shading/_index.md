@@ -3,14 +3,14 @@ title: Font.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words لـ .NET
-description: Font Shading ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للخط في C#.
+description: اكتشف خاصية تظليل الخط، التي توفر كائن تظليل لتنسيق الخط القابل للتخصيص، مما يعزز من جاذبية النص المرئية.
 type: docs
-weight: 320
+weight: 330
 url: /ar/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-إرجاع أ[`Shading`](../../shading/) الكائن الذي يشير إلى تنسيق التظليل للخط.
+يعيد[`Shading`](../../shading/) كائن يشير إلى تنسيق التظليل للخط.
 
 ```csharp
 public Shading Shading { get; }
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Color = Color.White;
 
 // إحدى الطرق لجعل النص الذي تم إنشاؤه باستخدام لون الخط الأبيض مرئيًا
-// هو تطبيق تأثير تظليل الخلفية.
+// هو تطبيق تأثير التظليل في الخلفية.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;
 shading.BackgroundPatternColor = Color.OrangeRed;

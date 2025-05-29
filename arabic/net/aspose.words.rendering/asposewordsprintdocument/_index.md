@@ -3,16 +3,16 @@ title: AsposeWordsPrintDocument Class
 linktitle: AsposeWordsPrintDocument
 articleTitle: AsposeWordsPrintDocument
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Rendering.AsposeWordsPrintDocument فصل. يوفر تطبيقًا افتراضيًا لطباعة ملف aDocument ضمن إطار الطباعة .NET في C#.
+description: سهّل طباعة المستندات باستخدام Aspose.Words.Rendering. توفر فئة AsposeWordsPrintDocument تكاملاً سلسًا مع تطبيقات .NET.
 type: docs
-weight: 4530
+weight: 5260
 url: /ar/net/aspose.words.rendering/asposewordsprintdocument/
 ---
 ## AsposeWordsPrintDocument class
 
-يوفر تطبيقًا افتراضيًا لطباعة ملف a[`Document`](../../aspose.words/document/) ضمن إطار الطباعة .NET.
+يوفر تنفيذًا افتراضيًا لطباعة[`Document`](../../aspose.words/document/)within إطار عمل الطباعة .NET.
 
-لمعرفة المزيد، قم بزيارة[طباعة مستند برمجياً أو باستخدام مربعات الحوار](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[طباعة مستند برمجيًا أو باستخدام مربعات الحوار](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) مقالة توثيقية.
 
 ```csharp
 public class AsposeWordsPrintDocument : PrintDocument
@@ -22,28 +22,74 @@ public class AsposeWordsPrintDocument : PrintDocument
 
 | اسم | وصف |
 | --- | --- |
-| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | تهيئة مثيل جديد لهذه الفئة. |
+| [AsposeWordsPrintDocument](asposewordsprintdocument/)(*[Document](../../aspose.words/document/)*) | يقوم بتهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [ColorMode](../../aspose.words.rendering/asposewordsprintdocument/colormode/) { get; set; } | الحصول على أو تعيين كيفية طباعة الصفحات غير الملونة إذا كان الجهاز يدعم الطباعة الملونة. |
-| [ColorPagesPrinted](../../aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/) { get; } | يحصل على عدد الصفحات المطبوعة بالألوان (على سبيل المثالColor تم ضبطه على "صحيح". |
+| [ColorMode](../../aspose.words.rendering/asposewordsprintdocument/colormode/) { get; set; } | يحصل على كيفية طباعة الصفحات غير الملونة أو يعينها إذا كان الجهاز يدعم الطباعة الملونة. |
+| [ColorPagesPrinted](../../aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/) { get; } | يحصل على عدد الصفحات المطبوعة بالألوان (أي معColor تم ضبطه على true). |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | يقرأ ويخزن بعض حقولPrinterSettings لتقليل وقت الطباعة. |
+| [CachePrinterSettings](../../aspose.words.rendering/asposewordsprintdocument/cacheprintersettings/)() | يقرأ ويخزن بعض الحقول في ذاكرة التخزين المؤقتPrinterSettings لتقليل وقت الطباعة. |
 
 ## ملاحظات
 
-`AsposeWordsPrintDocument` يتجاوزPrintEventArgs) لطباعة نطاق الصفحات المحدد فيهPrinterSettings.
+`AsposeWordsPrintDocument` تجاوزاتPrintEventArgs) لطباعة نطاق الصفحات المحددة فيPrinterSettings.
 
-يمكن أن يتكون مستند Word واحد من أقسام متعددة تحدد الصفحات ذات الأحجام المختلفة، واتجاه ، وأدراج الورق.`AsposeWordsPrintDocument` overrides QueryPageSettingsEventArgs) لتحديد حجم الورق واتجاهه ومصدر الورق بشكل صحيح عند طباعة مستند Word.
+يمكن أن يتكون مستند Word واحد من أقسام متعددة تحدد صفحات ذات أحجام واتجاهات وأدراج ورق مختلفة.`AsposeWordsPrintDocument` تجاوزات QueryPageSettingsEventArgs) لتحديد حجم الورق والاتجاه ومصدر الورق بشكل صحيح عند طباعة مستند Word.
 
-يقوم Microsoft Word بتخزين قيم خاصة بالطابعة لأدراج الورق في مستند Word، وبالتالي، فإن الطباعة فقط على نفس طراز الطابعة الذي تم تحديده عندما حدد المستخدم أدراج الورق ستؤدي إلى الطباعة من الأدراج الصحيحة. إذا قمت بطباعة مستند على طابعة مختلفة، فمن المرجح أن يتم استخدام درج الورق الافتراضي، وليس الأدراج المحددة في المستند.
+يخزّن مايكروسوفت وورد قيمًا خاصة بالطابعة لأدراج الورق في مستند وورد، وبالتالي، فإن الطباعة باستخدام نفس طراز الطابعة التي حددها المستخدم عند تحديد أدراج الورق، سيؤدي إلى الطباعة من الأدراج الصحيحة. إذا طبعت مستندًا على طابعة مختلفة، فمن المرجح استخدام درج الورق الافتراضي، وليس الأدراج المحددة في المستند.
+
+## أمثلة
+
+يوضح كيفية تحديد نطاق الصفحات والطابعة لطباعة المستند، ثم إظهار معاينة الطباعة.
+
+```csharp
+Document doc = new Document(MyDir + "Rendering.docx");
+
+PrintPreviewDialog previewDlg = new PrintPreviewDialog();
+
+// قم باستدعاء طريقة "إظهار" لإظهار نموذج معاينة الطباعة في الأعلى.
+previewDlg.Show();
+
+// قم بتهيئة مربع حوار الطباعة بعدد الصفحات الموجودة في المستند.
+PrintDialog printDlg = new PrintDialog();
+printDlg.AllowSomePages = true;
+printDlg.PrinterSettings.MinimumPage = 1;
+printDlg.PrinterSettings.MaximumPage = doc.PageCount;
+printDlg.PrinterSettings.FromPage = 1;
+printDlg.PrinterSettings.ToPage = doc.PageCount;
+
+if (printDlg.ShowDialog() != DialogResult.OK)
+    return;
+
+// قم بإنشاء تنفيذ "Aspose.Words" لمستند الطباعة .NET،
+// ثم قم بتمرير إعدادات الطابعة من مربع الحوار.
+AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
+awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
+
+// حدد وضع الطباعة الملونة الجديد.
+awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
+
+// استخدم طريقة "CachePrinterSettings" لتقليل وقت الاستدعاء الأول لطريقة "Print".
+awPrintDoc.CachePrinterSettings();
+
+// قم باستدعاء طريقتي "إخفاء"، ثم "InvalidatePreview" لجعل معاينة الطباعة تظهر في الأعلى.
+previewDlg.Hide();
+previewDlg.PrintPreviewControl.InvalidatePreview();
+
+// قم بتمرير مستند الطباعة "Aspose.Words" إلى مربع حوار معاينة الطباعة .NET.
+previewDlg.Document = awPrintDoc;
+previewDlg.ShowDialog();
+
+awPrintDoc.Print();
+Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
+```
 
 ### أنظر أيضا
 

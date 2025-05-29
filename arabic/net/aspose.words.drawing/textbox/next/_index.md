@@ -3,14 +3,14 @@ title: TextBox.Next
 linktitle: Next
 articleTitle: Next
 second_title: Aspose.Words لـ .NET
-description: TextBox Next ملكية. إرجاع أو تعيين أTextBox الذي يمثل القادمTextBox في تسلسل من الأشكال في C#.
+description: اكتشف كيف تعمل خاصية TextBox Next على تعزيز سير عمل التصميم الخاص بك عن طريق ربط TextBoxes بسلاسة في مشاريعك لتحسين التنظيم.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-إرجاع أو تعيين أ[`TextBox`](../) الذي يمثل القادم[`TextBox`](../) في تسلسل من الأشكال.
+يعيد أو يعين[`TextBox`](../) الذي يمثل التالي[`TextBox`](../)في تسلسل من الأشكال.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// قد يحتوي مربع النص الفارغ فقط على رابط.
+// فقط مربع النص الفارغ يمكن أن يحتوي على رابط.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // اقطع الارتباط الأمامي بين textBox2 وtextBox3، ثم تحقق من أنهما لم يعودا مرتبطين.
+    // قم بقطع الارتباط الأمامي بين textBox2 وtextBox3، ثم تأكد من عدم وجود ارتباط بينهما بعد الآن.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

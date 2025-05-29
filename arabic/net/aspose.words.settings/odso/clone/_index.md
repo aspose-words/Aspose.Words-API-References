@@ -3,14 +3,14 @@ title: Odso.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words لـ .NET
-description: Odso Clone طريقة. يُرجع نسخة عميقة من هذا الكائن في C#.
+description: اكتشف طريقة Odso Clone لإنشاء نسخ مكررة من الكائنات بسهولة. اضمن سلامة بياناتك وحسّن كفاءة ترميزك اليوم!
 type: docs
 weight: 100
 url: /ar/net/aspose.words.settings/odso/clone/
 ---
 ## Odso.Clone method
 
-يُرجع نسخة عميقة من هذا الكائن.
+يعيد نسخة طبق الأصل من هذا الكائن.
 
 ```csharp
 public Odso Clone()
@@ -18,7 +18,7 @@ public Odso Clone()
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

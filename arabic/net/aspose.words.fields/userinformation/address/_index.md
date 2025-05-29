@@ -3,14 +3,14 @@ title: UserInformation.Address
 linktitle: Address
 articleTitle: Address
 second_title: Aspose.Words لـ .NET
-description: UserInformation Address ملكية. الحصول على العنوان البريدي للمستخدم أو تعيينه في C#.
+description: أدر عناوين المستخدمين البريدية بسهولة باستخدام خاصية عنوان معلومات المستخدم. حسّن معالجة البيانات لتحسين تجربة المستخدم.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/userinformation/address/
 ---
 ## UserInformation.Address property
 
-الحصول على العنوان البريدي للمستخدم أو تعيينه.
+يحصل على عنوان البريد الإلكتروني للمستخدم أو يعينه.
 
 ```csharp
 public string Address { get; set; }
@@ -24,7 +24,7 @@ public string Address { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء كائن معلومات المستخدم وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
+// قم بإنشاء كائن UserInformation وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// أدخل حقول اسم المستخدم، ومعلومات المستخدم، وعنوان المستخدم، التي تعرض قيم
- // الخصائص الخاصة بكائن UserInformation الذي قمنا بإنشائه أعلاه.
+// أدخل حقول اسم المستخدم، والأحرف الأولى للمستخدم، وعنوان المستخدم، والتي تعرض قيم
+ // الخصائص الخاصة بكائن UserInformation الذي أنشأناه أعلاه.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// يحتوي كائن خيارات الحقل أيضًا على مستخدم افتراضي ثابت يمكن أن تشير إليه الحقول من جميع المستندات.
+// يحتوي كائن خيارات الحقل أيضًا على مستخدم افتراضي ثابت يمكن للحقول من كافة المستندات الرجوع إليه.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

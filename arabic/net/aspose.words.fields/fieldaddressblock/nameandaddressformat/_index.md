@@ -3,14 +3,14 @@ title: FieldAddressBlock.NameAndAddressFormat
 linktitle: NameAndAddressFormat
 articleTitle: NameAndAddressFormat
 second_title: Aspose.Words لـ .NET
-description: FieldAddressBlock NameAndAddressFormat ملكية. الحصول على تنسيق الاسم والعنوان أو تعيينهما في C#.
+description: اكتشف خاصية NameAndAddressFormat في FieldAddressBlock لتخصيص تنسيقات الاسم والعنوان بسهولة لتحسين إدارة البيانات.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
 ---
 ## FieldAddressBlock.NameAndAddressFormat property
 
-الحصول على تنسيق الاسم والعنوان أو تعيينهما.
+يحصل على تنسيق الاسم والعنوان أو يعينه.
 
 ```csharp
 public string NameAndAddressFormat { get; set; }
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// ضبط هذا على "2" سيشمل جميع البلدان والمناطق،
-// إلا إذا كان هو المحدد في خاصية ExcludedCountryOrRegionName.
+// سيؤدي تعيين هذا على "2" إلى تضمين جميع البلدان والمناطق،
+// ما لم يكن هو المحدد في خاصية ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // بشكل افتراضي، ستحتوي هذه الخاصية على معرف اللغة للحرف الأول من المستند.
-// يمكننا تعيين ثقافة مختلفة للحقل لتنسيق النتيجة بهذا الشكل.
+//يمكننا تعيين ثقافة مختلفة للحقل لتنسيق النتيجة على هذا النحو.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

@@ -3,14 +3,14 @@ title: Cell.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words لـ .NET
-description: Cell EnsureMinimum طريقة. إذا لم يكن العنصر الفرعي الأخير فقرة فسيتم إنشاء فقرة واحدة فارغة وإلحاقها في C#.
+description: حسّن بنية خلاياك باستخدام طريقة EnsureMinimum، وأضف فقرة بسهولة إذا لم يكن العنصر الأخير منها. حسّن وضوح مستندك!
 type: docs
-weight: 140
+weight: 160
 url: /ar/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
 
-إذا لم يكن العنصر الفرعي الأخير فقرة، فسيتم إنشاء فقرة واحدة فارغة وإلحاقها.
+إذا لم يكن الطفل الأخير فقرة، يتم إنشاء فقرة فارغة وإضافتها.
 
 ```csharp
 public void EnsureMinimum()
@@ -30,11 +30,11 @@ Cell cell = new Cell(doc);
 row.AppendChild(cell);
 
 // قد تحتوي الخلايا على فقرات تحتوي على عناصر نموذجية مثل المسارات والأشكال وحتى الجداول الأخرى.
-// لا تحتوي خليتنا الجديدة على أي فقرات، ولا يمكننا إضافة محتويات مثل عقد التشغيل والشكل إليها حتى تحتوي عليها.
+// لا تحتوي الخلية الجديدة على أي فقرات، ولا يمكننا إضافة محتويات مثل عقد التشغيل والشكل إليها حتى تحتوي على فقرات.
 Assert.AreEqual(0, cell.GetChildNodes(NodeType.Any, true).Count);
 
-// سيؤدي استدعاء طريقة "EnsureMinimum" على الخلية إلى التأكد من ذلك
-// تحتوي الخلية على فقرة فارغة واحدة على الأقل، والتي يمكننا بعد ذلك إضافة محتويات إليها.
+// سيؤدي استدعاء طريقة "EnsureMinimum" على خلية إلى ضمان ذلك
+// تحتوي الخلية على فقرة فارغة واحدة على الأقل، والتي يمكننا بعد ذلك إضافة المحتويات إليها.
 cell.EnsureMinimum();
 cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

@@ -3,14 +3,14 @@ title: FieldIncludePicture.GraphicFilter
 linktitle: GraphicFilter
 articleTitle: GraphicFilter
 second_title: Aspose.Words لـ .NET
-description: FieldIncludePicture GraphicFilter ملكية. الحصول على أو تعيين اسم المرشح لتنسيق الرسم الذي سيتم إدراجه في C#.
+description: اكتشف خاصية FieldIncludePicture GraphicFilter، وقم بإدارة مرشحات تنسيق الرسوميات بسهولة لتحقيق تكامل سلس للصور في مشاريعك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldincludepicture/graphicfilter/
 ---
 ## FieldIncludePicture.GraphicFilter property
 
-الحصول على أو تعيين اسم المرشح لتنسيق الرسم الذي سيتم إدراجه.
+يحصل على اسم المرشح أو يعينه لتنسيق الرسم البياني الذي سيتم إدراجه.
 
 ```csharp
 public string GraphicFilter { get; set; }
@@ -18,14 +18,14 @@ public string GraphicFilter { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
+يوضح كيفية إدراج الصور باستخدام حقول IMPORT وINCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يوجد أدناه نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
-// 1 - حقل التضمين:
+// فيما يلي نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
+// 1 - حقل INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 
