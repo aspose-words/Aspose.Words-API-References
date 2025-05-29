@@ -3,7 +3,7 @@ title: FieldGreetingLine
 linktitle: FieldGreetingLine
 articleTitle: FieldGreetingLine
 second_title: Aspose.Words für .NET
-description: FieldGreetingLine constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldGreetingLine-Konstruktor – Ihre Lösung für die mühelose Erstellung personalisierter Begrüßungszeilen. Optimieren Sie Ihre Projekte noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldgreetingline/fieldgreetingline/

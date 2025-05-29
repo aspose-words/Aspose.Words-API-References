@@ -3,14 +3,14 @@ title: DocumentBuilder.CurrentSection
 linktitle: CurrentSection
 articleTitle: CurrentSection
 second_title: Aspose.Words für .NET
-description: DocumentBuilder CurrentSection eigendom. Ruft den Abschnitt ab der aktuell darin ausgewählt istDocumentBuilder  in C#.
+description: Entdecken Sie die DocumentBuilder CurrentSection-Eigenschaft, um einfach auf den ausgewählten Abschnitt in Ihrem Dokument zuzugreifen und ihn zu verwalten und so Ihr Bearbeitungserlebnis zu verbessern.
 type: docs
 weight: 60
 url: /de/net/aspose.words/documentbuilder/currentsection/
 ---
 ## DocumentBuilder.CurrentSection property
 
-Ruft den Abschnitt ab, der aktuell darin ausgewählt ist[`DocumentBuilder`](../) .
+Ruft den Abschnitt ab, der aktuell in diesem[`DocumentBuilder`](../) .
 
 ```csharp
 public Section CurrentSection { get; }
@@ -18,7 +18,7 @@ public Section CurrentSection { get; }
 
 ## Beispiele
 
-Zeigt, wie man ein schwebendes Bild einfügt und seine Position und Größe angibt.
+Zeigt, wie Sie ein schwebendes Bild einfügen und seine Position und Größe angeben.
 
 ```csharp
 Document doc = new Document();
@@ -28,22 +28,22 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Konfigurieren Sie die Eigenschaft „RelativeHorizontalPosition“ der Form, um den Wert der Eigenschaft „Left“ zu behandeln
- // als horizontaler Abstand der Form in Punkten von der linken Seite der Seite.
+    // als horizontaler Abstand der Form in Punkten von der linken Seite der Seite.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Legen Sie den horizontalen Abstand der Form von der linken Seite der Seite auf 100 fest.
+// Setzen Sie den horizontalen Abstand der Form von der linken Seite der Seite auf 100.
 shape.Left = 100;
 
-// Verwenden Sie die Eigenschaft „RelativeVerticalPosition“ auf ähnliche Weise, um die Form 80pt unter dem oberen Rand der Seite zu positionieren.
+// Verwenden Sie die Eigenschaft „RelativeVerticalPosition“ auf ähnliche Weise, um die Form 80pt unterhalb des oberen Seitenrands zu positionieren.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Legen Sie die Höhe der Form fest, wodurch die Breite automatisch skaliert wird, um die Abmessungen beizubehalten.
+// Legen Sie die Höhe der Form fest. Dadurch wird die Breite automatisch skaliert, um die Abmessungen beizubehalten.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Die Eigenschaften „Bottom“ und „Right“ enthalten den unteren und rechten Rand des Bildes.
+// Die Eigenschaften „Bottom“ und „Right“ enthalten die unteren und rechten Ränder des Bildes.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

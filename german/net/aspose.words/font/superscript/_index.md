@@ -3,14 +3,14 @@ title: Font.Superscript
 linktitle: Superscript
 articleTitle: Superscript
 second_title: Aspose.Words für .NET
-description: Font Superscript eigendom. True wenn die Schriftart hochgestellt formatiert ist in C#.
+description: Entdecken Sie die Funktion „Schrift hochgestellt“. Formatieren Sie Text ganz einfach hochgestellt für verbesserte Lesbarkeit und Stil in Ihren Dokumenten. Verbessern Sie Ihr Design noch heute!
 type: docs
-weight: 440
+weight: 450
 url: /de/net/aspose.words/font/superscript/
 ---
 ## Font.Superscript property
 
-True, wenn die Schriftart hochgestellt formatiert ist.
+Wahr, wenn die Schriftart als hochgestellt formatiert ist.
 
 ```csharp
 public bool Superscript { get; set; }
@@ -18,32 +18,32 @@ public bool Superscript { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Text formatiert wird, um seine Position zu versetzen.
+Zeigt, wie Text formatiert wird, um seine Position zu verschieben.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Diese Textzeile um 5 Punkte über die Grundlinie anheben.
+// Heben Sie diesen Textlauf 5 Punkte über die Grundlinie.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// Diese Textzeile um 10 Punkte unter die Grundlinie senken.
+// Senken Sie diesen Textlauf 10 Punkte unter die Grundlinie.
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);
 
-// Einen Lauf mit normalem Text hinzufügen.
+// Fügen Sie einen normalen Textabschnitt hinzu.
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// Fügen Sie eine Textzeile hinzu, die als Index angezeigt wird.
+// Fügen Sie einen Textlauf hinzu, der als tiefgestellter Index angezeigt wird.
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// Fügen Sie eine Textzeile hinzu, die hochgestellt angezeigt wird.
+// Fügen Sie einen Textlauf hinzu, der als hochgestellte Zahl angezeigt wird.
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

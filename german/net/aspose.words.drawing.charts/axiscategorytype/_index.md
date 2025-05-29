@@ -3,9 +3,9 @@ title: AxisCategoryType Enum
 linktitle: AxisCategoryType
 articleTitle: AxisCategoryType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.AxisCategoryType opsomming. Gibt den Typ einer Kategorieachse an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Drawing.Charts.AxisCategoryType, die Kategorieachsentypen für eine verbesserte Datenvisualisierung in Ihren Projekten definiert.
 type: docs
-weight: 530
+weight: 770
 url: /de/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration
@@ -21,12 +21,12 @@ public enum AxisCategoryType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Automatic | `0` | Gibt an, dass der Typ einer Kategorieachse automatisch basierend auf Daten bestimmt wird. |
-| Category | `1` | Gibt eine Achse eines beliebigen Satzes von Kategorien an. |
+| Category | `1` | Gibt eine Achse mit einer beliebigen Gruppe von Kategorien an. |
 | Time | `2` | Gibt eine Zeitkategorieachse an. |
 
 ## Beispiele
 
-Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
+Zeigt, wie Sie ein Diagramm einfügen und die Darstellung seiner Achsen ändern.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ chart.Series.Add("Aspose Test Series",
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
+// wie etwa ihre Richtung, große/kleine Einheitsstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -53,10 +53,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -66,7 +68,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Säulendiagramme haben keine Z-Achse.
 Assert.Null(chart.AxisZ);

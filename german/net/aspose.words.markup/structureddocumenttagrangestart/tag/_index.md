@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart Tag eigendom. Gibt ein Tag an das mit dem aktuellen TagKnoten des strukturierten Dokuments verknüpft ist. Kann nicht seinNull  in C#.
+description: Entdecken Sie die StructuredDocumentTagRangeStart-Eigenschaft für verbessertes Dokument-Tagging. Verknüpfen Sie Tags ganz einfach mit Knoten, um Ihren Workflow zu optimieren!
 type: docs
 weight: 150
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 ## StructuredDocumentTagRangeStart.Tag property
 
-Gibt ein Tag an, das mit dem aktuellen Tag-Knoten des strukturierten Dokuments verknüpft ist. Kann nicht sein`Null` .
+Gibt ein Tag an, das mit dem aktuellen Tag-Knoten des strukturierten Dokuments verknüpft ist. Kann nicht`null` .
 
 ```csharp
 public string Tag { get; set; }
@@ -18,11 +18,11 @@ public string Tag { get; set; }
 
 ## Bemerkungen
 
-Ein Tag ist eine beliebige Zeichenfolge, die Anwendungen mit dem strukturierten document -Tag verknüpfen können, um es zu identifizieren, ohne einen sichtbaren Anzeigenamen bereitzustellen.
+Ein Tag ist eine beliebige Zeichenfolge, die Anwendungen mit strukturierten Dokument- -Tags verknüpfen können, um diese zu identifizieren, ohne einen sichtbaren Anzeigenamen anzugeben.
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

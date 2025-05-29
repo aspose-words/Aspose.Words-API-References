@@ -3,14 +3,14 @@ title: FontInfo.Pitch
 linktitle: Pitch
 articleTitle: Pitch
 second_title: Aspose.Words für .NET
-description: FontInfo Pitch eigendom. Die Tonhöhe gibt an ob die Schriftart eine feste Tonhöhe einen proportionalen Abstand oder eine Standardeinstellung hat in C#.
+description: Entdecken Sie die FontInfo Pitch-Eigenschaft. Erfahren Sie, wie sie festen Abstand im Vergleich zu proportionalem Abstand definiert und so Ihre Typografie für mehr Klarheit im Design optimiert.
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-Die Tonhöhe gibt an, ob die Schriftart eine feste Tonhöhe, einen proportionalen Abstand oder eine Standardeinstellung hat.
+Die Tonhöhe gibt an, ob die Schriftart eine feste Tonhöhe hat, proportional verteilt ist oder auf einer Standardeinstellung basiert.
 
 ```csharp
 public FontPitch Pitch { get; set; }
@@ -18,7 +18,7 @@ public FontPitch Pitch { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf die Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

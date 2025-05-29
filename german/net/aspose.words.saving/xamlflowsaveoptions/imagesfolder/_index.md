@@ -3,14 +3,14 @@ title: XamlFlowSaveOptions.ImagesFolder
 linktitle: ImagesFolder
 articleTitle: ImagesFolder
 second_title: Aspose.Words für .NET
-description: XamlFlowSaveOptions ImagesFolder eigendom. Gibt den physischen Ordner an in dem Bilder gespeichert werden wenn ein Dokument in das XAMLFormat exportiert wird. Standard ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie, wie Sie mit der XamlFlowSaveOptions ImagesFolder-Eigenschaft beim Exportieren von Dokumenten in das XAML-Format ganz einfach einen Ordner zum Speichern von Bildern angeben können.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/xamlflowsaveoptions/imagesfolder/
 ---
 ## XamlFlowSaveOptions.ImagesFolder property
 
-Gibt den physischen Ordner an, in dem Bilder gespeichert werden, wenn ein Dokument in das XAML-Format exportiert wird. Standard ist eine leere Zeichenfolge.
+Gibt den physischen Ordner an, in dem Bilder beim Exportieren eines Dokuments in das XAML-Format gespeichert werden. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string ImagesFolder { get; set; }
@@ -18,15 +18,15 @@ public string ImagesFolder { get; set; }
 
 ## Bemerkungen
 
-Wenn Sie a speichern[`Document`](../../../aspose.words/document/) Im XAML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.`ImagesFolder` Mit können Sie angeben, wo die Bilder gespeichert werden[`ImagesFolderAlias`](../imagesfolderalias/) ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
+Wenn Sie eine[`Document`](../../../aspose.words/document/) Im XAML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.`ImagesFolder` ermöglicht Ihnen, festzulegen, wo die Bilder gespeichert werden und[`ImagesFolderAlias`](../imagesfolderalias/) ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
-Wenn Sie ein Dokument in einer Datei speichern und einen Dateinamen angeben, speichert Aspose.Words die -Bilder standardmäßig im selben Ordner, in dem die Dokumentdatei gespeichert ist. Verwenden`ImagesFolder` , um dieses Verhalten zu überschreiben.
+Wenn Sie ein Dokument in einer Datei speichern und einen Dateinamen angeben, speichert Aspose.Words die -Bilder standardmäßig im selben Ordner wie die Dokumentdatei. Verwenden Sie`ImagesFolder` , um dieses Verhalten zu überschreiben.
 
-Wenn Sie ein Dokument in einem Stream speichern, verfügt Aspose.Words über keinen Ordner zum Speichern der Bilder, , muss die Bilder aber trotzdem irgendwo speichern. In diesem Fall müssen Sie einen zugänglichen Ordner im angeben`ImagesFolder` Eigenschaft oder stellen Sie benutzerdefinierte Streams über bereit[`ImageSavingCallback`](../imagesavingcallback/) Ereignishandler.
+Wenn Sie ein Dokument in einem Stream speichern, verfügt Aspose.Words nicht über einen Ordner, in dem die Bilder gespeichert werden sollen, , muss die Bilder aber trotzdem irgendwo speichern. In diesem Fall müssen Sie einen zugänglichen Ordner im`ImagesFolder` Eigenschaft oder stellen Sie benutzerdefinierte Streams über bereit.[`ImageSavingCallback`](../imagesavingcallback/) Ereignishandler.
 
 ## Beispiele
 
-Zeigt, wie die Dateinamen verknüpfter Bilder gedruckt werden, die beim Konvertieren eines Dokuments in Flow-Form .xaml erstellt wurden.
+Zeigt, wie die Dateinamen verknüpfter Bilder gedruckt werden, die beim Konvertieren eines Dokuments in das Flow-Format .xaml erstellt wurden.
 
 ```csharp
 public void ImageFolder()
@@ -41,7 +41,7 @@ public void ImageFolder()
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Mit der Eigenschaft „ImagesFolder“ einen Ordner im lokalen Dateisystem zuweisen, in den
+    // Verwenden Sie die Eigenschaft "ImagesFolder", um einen Ordner im lokalen Dateisystem zuzuweisen, in den
     // Aspose.Words speichert alle verknüpften Bilder des Dokuments.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
@@ -62,7 +62,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Zählt und druckt Dateinamen von Bildern, während das übergeordnete Dokument in Flow-Form .xaml konvertiert wird.
+/// Zählt und druckt Dateinamen von Bildern, während ihr übergeordnetes Dokument in das Flow-Format .xaml konvertiert wird.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -76,7 +76,7 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Wenn wir einen Bildordner-Alias angeben würden, würden wir auch Folgendes benötigen
+        // Wenn wir einen Alias für den Bildordner angeben würden, bräuchten wir auch
         // um jeden Stream umzuleiten, um sein Bild im Alias-Ordner abzulegen.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;

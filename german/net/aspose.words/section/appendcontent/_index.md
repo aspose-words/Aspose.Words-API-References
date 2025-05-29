@@ -3,9 +3,9 @@ title: Section.AppendContent
 linktitle: AppendContent
 articleTitle: AppendContent
 second_title: Aspose.Words für .NET
-description: Section AppendContent methode. Fügt am Ende dieses Abschnitts eine Kopie des Inhalts des Quellabschnitts ein in C#.
+description: Entdecken Sie, wie die AppendContent-Methode Ihre Abschnitte durch nahtloses Hinzufügen von Quellinhalten verbessert und so die Organisation und Klarheit Ihrer Projekte verbessert.
 type: docs
-weight: 80
+weight: 100
 url: /de/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
@@ -22,7 +22,7 @@ public void AppendContent(Section sourceSection)
 
 ## Bemerkungen
 
-Nur Inhalt von[`Body`](../body/) des Quellabschnitts wird kopiert, Seiteneinrichtung, Kopf- und Fußzeilen werden nicht kopiert.
+Nur Inhalte von[`Body`](../body/) des Quellabschnitts wird kopiert, Seiteneinrichtung, Kopf- und Fußzeilen werden nicht kopiert.
 
 Die Knoten werden automatisch importiert, wenn der Quellabschnitt zu einem anderen Dokument gehört.
 

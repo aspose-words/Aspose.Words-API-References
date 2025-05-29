@@ -3,7 +3,7 @@ title: FormField.OwnHelp
 linktitle: OwnHelp
 articleTitle: OwnHelp
 second_title: Aspose.Words für .NET
-description: FormField OwnHelp eigendom. Gibt die Quelle des Textes an der in einem Meldungsfeld angezeigt wird wenn ein Formularfeld den Fokus hat und der Benutzer F1 drückt in C#.
+description: Entdecken Sie die FormField OwnHelp-Eigenschaft. Verbessern Sie die Benutzerfreundlichkeit, indem Sie Hilfemeldungen anpassen, wenn Benutzer in fokussierten Formularfeldern F1 drücken.
 type: docs
 weight: 150
 url: /de/net/aspose.words.fields/formfield/ownhelp/
@@ -18,7 +18,7 @@ public bool OwnHelp { get; set; }
 
 ## Bemerkungen
 
-Wenn`WAHR` , der durch die angegebene Text[`HelpText`](../helptext/) Eigenschaft wird angezeigt. Wenn`FALSCH` , der Text im AutoText-Eintrag, der durch angegeben wird[`HelpText`](../helptext/) Eigenschaft angezeigt wird.
+Wenn`WAHR` , der vom[`HelpText`](../helptext/) Eigenschaft wird angezeigt. Wenn`FALSCH` wird der Text im AutoText-Eintrag, der durch die[`HelpText`](../helptext/) Eigenschaft wird angezeigt.
 
 ## Beispiele
 
@@ -30,7 +30,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie einen Document Builder, um ein Kombinationsfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kombinationsfeld einzufügen.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -40,7 +40,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -54,7 +54,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -77,7 +77,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Zulassen, dass jedes Formularfeld einen Dokumentbesucher akzeptiert.
+    // Erlauben Sie jedem Formularfeld, einen Dokumentbesucher zu akzeptieren.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -91,7 +91,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
+    /// Besucherimplementierung, die Details der besuchten Formularfelder druckt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -132,7 +132,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
+    /// Fügt der aktuellen Ausgabe durch ein Zeichen abgeschlossenen Zeilenumbruchtext hinzu.
     /// </summary>
     private void AppendLine(string text)
     {

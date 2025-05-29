@@ -3,14 +3,14 @@ title: Odso.FirstRowContainsColumnNames
 linktitle: FirstRowContainsColumnNames
 articleTitle: FirstRowContainsColumnNames
 second_title: Aspose.Words für .NET
-description: Odso FirstRowContainsColumnNames eigendom. Gibt an dass eine Hostinganwendung die erste Datenzeile in der angegebenen externen Datenquelle als Kopfzeile behandeln soll die die Namen jeder Spalte in der Datenquelle enthält. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die Odso-Eigenschaft „FirstRowContainsColumnNames“, mit der Apps die erste Datenzeile als Überschrift erkennen und so die Übersichtlichkeit und Benutzerfreundlichkeit der Daten verbessern können.
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-Gibt an, dass eine Hostinganwendung die erste Datenzeile in der angegebenen externen Datenquelle als Kopfzeile behandeln soll, die die Namen jeder Spalte in der Datenquelle enthält. Der Standardwert ist`FALSCH` .
+Gibt an, dass eine Hostanwendung die erste Datenzeile in der angegebenen externen Datenquelle als Kopfzeile behandeln soll, die die Namen aller Spalten in der Datenquelle enthält. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -18,7 +18,7 @@ public bool FirstRowContainsColumnNames { get; set; }
 
 ## Bemerkungen
 
-RK Ich habe das noch nie im Einsatz gesehen.
+RK: Ich habe das noch nie im Einsatz gesehen.
 
 ## Beispiele
 
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

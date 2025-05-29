@@ -3,7 +3,7 @@ title: IChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words für .NET
-description: IChartDataPoint Bubble3D eigendom. Gibt an ob auf die Blasen im Blasendiagramm ein 3DEffekt angewendet werden soll in C#.
+description: Entdecken Sie die IChartDataPoint Bubble3D-Eigenschaft, um Ihre Blasendiagramme mit atemberaubenden 3D-Effekten für eine ansprechendere Datenvisualisierung zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Jeder Blase ein Datenetikett zuweisen, das ihren Durchmesser anzeigt.
+// Wenden Sie auf jede Blase eine Datenbeschriftung an, die ihren Durchmesser anzeigt.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

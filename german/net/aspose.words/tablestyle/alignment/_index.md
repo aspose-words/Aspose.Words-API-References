@@ -3,7 +3,7 @@ title: TableStyle.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words für .NET
-description: TableStyle Alignment eigendom. Gibt die Ausrichtung für den Tabellenstil an in C#.
+description: Entdecken Sie die Eigenschaft „TableStyle-Ausrichtung“, um das Layout Ihrer Tabelle mühelos anzupassen und die optische Attraktivität für ein professionelles Erscheinungsbild zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words/tablestyle/alignment/
@@ -28,8 +28,8 @@ Zeigt, wie die Position einer Tabelle festgelegt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei Möglichkeiten, eine Tabelle horizontal auszurichten.
-// 1 – Verwenden Sie die Eigenschaft „Alignment“, um es an einer Stelle auf der Seite auszurichten, beispielsweise in der Mitte:
+// Unten sind zwei Möglichkeiten zum horizontalen Ausrichten einer Tabelle aufgeführt.
+// 1 - Verwenden Sie die Eigenschaft „Ausrichtung“, um es an einer Position auf der Seite auszurichten, beispielsweise in der Mitte:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
@@ -44,7 +44,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 – Verwenden Sie „LeftIndent“, um einen Einzug vom linken Rand der Seite anzugeben:
+// 2 - Verwenden Sie „LeftIndent“, um einen Einzug vom linken Seitenrand anzugeben:
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

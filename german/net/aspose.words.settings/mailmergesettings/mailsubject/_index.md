@@ -3,14 +3,14 @@ title: MailMergeSettings.MailSubject
 linktitle: MailSubject
 articleTitle: MailSubject
 second_title: Aspose.Words für .NET
-description: MailMergeSettings MailSubject eigendom. Gibt den Text an der in der Betreffzeile der beim Seriendruck erstellten EMails oder Faxe erscheinen soll. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Passen Sie Ihren Serienbrief mit der Eigenschaft „MailSubject“ an, um ansprechende Betreffzeilen für E-Mails oder Faxe zu erstellen. Verbessern Sie die Kommunikation mit personalisierten Inhalten.
 type: docs
 weight: 130
 url: /de/net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
 ## MailMergeSettings.MailSubject property
 
-Gibt den Text an, der in der Betreffzeile der beim Seriendruck erstellten E-Mails oder Faxe erscheinen soll. Der Standardwert ist eine leere Zeichenfolge.
+Gibt den Text an, der in der Betreffzeile der während des Serienbriefversands erstellten E-Mails oder Faxe erscheinen soll. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string MailSubject { get; set; }

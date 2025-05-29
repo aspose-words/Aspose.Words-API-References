@@ -3,14 +3,14 @@ title: DocumentBuilder.EndColumnBookmark
 linktitle: EndColumnBookmark
 articleTitle: EndColumnBookmark
 second_title: Aspose.Words für .NET
-description: DocumentBuilder EndColumnBookmark methode. Markiert die aktuelle Position im Dokument als SpaltenLesezeichenende. Die Position muss in einer Tabellenzelle liegen in C#.
+description: Verwenden Sie die EndColumnBookmark-Methode von DocumentBuilder, um das Ende einer Spalte in Ihrem Dokument einfach zu markieren. Verbessern Sie die Tabellenverwaltung mit Präzision!
 type: docs
 weight: 220
 url: /de/net/aspose.words/documentbuilder/endcolumnbookmark/
 ---
 ## DocumentBuilder.EndColumnBookmark method
 
-Markiert die aktuelle Position im Dokument als Spalten-Lesezeichenende. Die Position muss in einer Tabellenzelle liegen.
+Markiert die aktuelle Position im Dokument als Spaltenlesezeichenende. Die Position muss in einer Tabellenzelle liegen.
 
 ```csharp
 public BookmarkEnd EndColumnBookmark(string bookmarkName)
@@ -22,15 +22,15 @@ public BookmarkEnd EndColumnBookmark(string bookmarkName)
 
 ### Rückgabewert
 
-Der Lesezeichen-Endknoten, der gerade erstellt wurde.
+Der gerade erstellte Lesezeichen-Endknoten.
 
 ## Bemerkungen
 
-Ein Spaltenlesezeichen deckt eine oder mehrere Spalten in einem Zeilenbereich ab. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen[`StartColumnBookmark`](../startcolumnbookmark/) Und`EndColumnBookmark` mit dem gleichen *bookmarkName*Parameter.
+Ein Spaltenlesezeichen umfasst eine oder mehrere Spalten in einem Zeilenbereich. Um ein gültiges Lesezeichen zu erstellen, müssen Sie beide aufrufen[`StartColumnBookmark`](../startcolumnbookmark/) Und`EndColumnBookmark` mit dem gleichen *bookmarkName* Parameter.
 
 Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 
-Die tatsächliche Position des eingefügten[`BookmarkEnd`](../../bookmarkend/) Der Knoten kann von der aktuellen document Builder-Position abweichen.
+Die tatsächliche Position des eingefügten[`BookmarkEnd`](../../bookmarkend/) Knoten kann von der aktuellen Position des document builder abweichen.
 
 ## Beispiele
 
@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 builder.InsertCell();
-// Zellen 1,2,4,5 werden mit einem Lesezeichen versehen.
+// Die Zellen 1, 2, 4 und 5 werden mit einem Lesezeichen versehen.
 builder.StartColumnBookmark("MyBookmark_1");
 // Falsch formatierte Lesezeichen oder Lesezeichen mit doppelten Namen werden beim Speichern des Dokuments ignoriert.
 builder.StartColumnBookmark("MyBookmark_1");

@@ -3,14 +3,14 @@ title: BorderCollection.Right
 linktitle: Right
 articleTitle: Right
 second_title: Aspose.Words für .NET
-description: BorderCollection Right eigendom. Ermittelt den richtigen Rand in C#.
+description: Entdecken Sie die BorderCollection Right-Eigenschaft für eine präzise Randkontrolle in Ihren Designs. Verbessern Sie Ihre Layouts jedes Mal mit dem perfekten Rand!
 type: docs
 weight: 100
 url: /de/net/aspose.words/bordercollection/right/
 ---
 ## BorderCollection.Right property
 
-Ermittelt den richtigen Rand.
+Erhält den richtigen Rahmen.
 
 ```csharp
 public Border Right { get; }
@@ -18,17 +18,17 @@ public Border Right { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie beim Erstellen einer Tabelle Rahmen- und Schattierungsfarben anwenden.
+Zeigt, wie beim Erstellen einer Tabelle Rahmen- und Schattierungsfarben angewendet werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Tabelle starten und eine Standardfarbe/-stärke für ihre Ränder festlegen.
+// Starten Sie eine Tabelle und legen Sie eine Standardfarbe/-dicke für ihre Ränder fest.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// Erstelle eine Zeile mit zwei Zellen mit unterschiedlichen Hintergrundfarben.
+// Erstellen Sie eine Zeile mit zwei Zellen mit unterschiedlichen Hintergrundfarben.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -37,8 +37,8 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Zellenformatierung zurücksetzen, um die Hintergrundfarben zu deaktivieren
-// Legen Sie eine benutzerdefinierte Rahmenstärke für alle neuen Zellen fest, die vom Builder erstellt wurden.
+// Setzen Sie die Zellenformatierung zurück, um die Hintergrundfarben zu deaktivieren
+// Legen Sie eine benutzerdefinierte Rahmenstärke für alle neuen Zellen fest, die vom Builder erstellt werden.
 // dann baue eine zweite Reihe.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag Clear methode. Löscht den Inhalt dieses strukturierten DokumentTags und zeigt einen Platzhalter an sofern dieser definiert ist in C#.
+description: Löschen Sie mühelos den Inhalt Ihres strukturierten Dokument-Tags mit der Clear-Methode und zeigen Sie einen definierten Platzhalter für eine verbesserte Dokumentenverwaltung an.
 type: docs
-weight: 340
+weight: 360
 url: /de/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
 
-Löscht den Inhalt dieses strukturierten Dokument-Tags und zeigt einen Platzhalter an, sofern dieser definiert ist.
+Löscht den Inhalt dieses strukturierten Dokument-Tags und zeigt einen Platzhalter an, falls dieser definiert ist.
 
 ```csharp
 public void Clear()
@@ -18,9 +18,9 @@ public void Clear()
 
 ## Bemerkungen
 
-Es ist nicht möglich, den Inhalt eines strukturierten Dokument-Tags zu löschen, wenn es Revisionen aufweist.
+Es ist nicht möglich, den Inhalt eines strukturierten Dokument-Tags zu löschen, wenn dieser Revisionen enthält.
 
-Wenn dieses strukturierte Dokument-Tag benutzerdefiniertem XML zugeordnet ist (unter Verwendung von[`XmlMapping`](../xmlmapping/) -Eigenschaft) wird der referenzierte XML-Knoten gelöscht.
+Wenn dieses strukturierte Dokument-Tag auf benutzerdefiniertes XML abgebildet wird (mithilfe des[`XmlMapping`](../xmlmapping/) -Eigenschaft) wird der referenzierte XML-Knoten gelöscht.
 
 ## Beispiele
 
@@ -29,7 +29,7 @@ Zeigt, wie Inhalte strukturierter Dokument-Tag-Elemente gelöscht werden.
 ```csharp
 Document doc = new Document();
 
-// Erstellen Sie ein strukturiertes Nur-Text-Dokument-Tag und hängen Sie es dann an das Dokument an.
+// Erstellen Sie ein Dokument-Tag mit einfacher Textstruktur und hängen Sie es dann an das Dokument an.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
@@ -37,7 +37,7 @@ doc.FirstSection.Body.AppendChild(tag);
 Assert.AreEqual("Click here to enter text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
-// Einen Baustein mit Textinhalten erstellen.
+// Erstellen Sie einen Baustein mit Textinhalt.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
 substituteBlock.Name = "My placeholder";
@@ -46,14 +46,14 @@ substituteBlock.FirstSection.EnsureMinimum();
 substituteBlock.FirstSection.Body.FirstParagraph.AppendChild(new Run(glossaryDoc, "Custom placeholder text."));
 glossaryDoc.AppendChild(substituteBlock);
 
-// Setzen Sie die Eigenschaft „PlaceholderName“ des strukturierten Dokument-Tags auf den Namen unseres abzurufenden Bausteins
+// Setzen Sie die Eigenschaft "PlaceholderName" des strukturierten Dokument-Tags auf den Namen unseres Bausteins, um
 // das strukturierte Dokument-Tag, um den Inhalt des Bausteins anstelle des ursprünglichen Standardtextes anzuzeigen.
 tag.PlaceholderName = "My placeholder";
 
 Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
-// Den Text des strukturierten Dokument-Tags bearbeiten und den Platzhaltertext ausblenden.
+// Bearbeiten Sie den Text des strukturierten Dokument-Tags und verbergen Sie den Platzhaltertext.
 Run run = (Run)tag.GetChild(NodeType.Run, 0, true);
 run.Text = "New text.";
 tag.IsShowingPlaceholderText = false;

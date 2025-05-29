@@ -3,7 +3,7 @@ title: FontSourceBase.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: FontSourceBase Type eigendom. Gibt den Typ der Schriftartquelle zurück in C#.
+description: Entdecken Sie die FontSourceBase-Type-Eigenschaft und rufen Sie ganz einfach Schriftartquellentypen ab, um Ihr Webdesign zu verbessern und das Benutzererlebnis zu optimieren.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontsourcebase/type/
@@ -18,7 +18,7 @@ public abstract FontSourceType Type { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
+Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

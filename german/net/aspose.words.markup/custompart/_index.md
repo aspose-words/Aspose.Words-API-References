@@ -3,16 +3,16 @@ title: CustomPart Class
 linktitle: CustomPart
 articleTitle: CustomPart
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Markup.CustomPart klas. Stellt einen benutzerdefinierten Teil beliebiger Inhalt dar der nicht durch den ISO/IEC 29500Standard definiert ist in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Markup.CustomPart für flexibles Content-Management. Erstellen Sie mühelos einzigartige, nicht standardisierte Teile, die über ISO/IEC 29500 hinausgehen!
 type: docs
-weight: 3900
+weight: 4590
 url: /de/net/aspose.words.markup/custompart/
 ---
 ## CustomPart class
 
-Stellt einen benutzerdefinierten Teil (beliebiger Inhalt) dar, der nicht durch den ISO/IEC 29500-Standard definiert ist.
+Stellt einen benutzerdefinierten Teil (mit beliebigem Inhalt) dar, der nicht durch den ISO/IEC 29500-Standard definiert ist.
 
-Um mehr zu erfahren, besuchen Sie die[Strukturierte Dokument-Tags oder Inhaltskontrolle](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Strukturierte Dokument-Tags oder Inhaltssteuerung](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Dokumentationsartikel.
 
 ```csharp
 public class CustomPart
@@ -30,25 +30,25 @@ public class CustomPart
 | --- | --- |
 | [ContentType](../../aspose.words.markup/custompart/contenttype/) { get; set; } | Gibt den Inhaltstyp dieses benutzerdefinierten Teils an. |
 | [Data](../../aspose.words.markup/custompart/data/) { get; set; } | Enthält die Daten dieses benutzerdefinierten Teils. |
-| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | False, wenn dieser benutzerdefinierte Teil im OOXML-Paket gespeichert ist. True, wenn dieses benutzerdefinierte Teil ein externes Ziel ist. |
-| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Ruft den absoluten Namen dieses Teils innerhalb des OOXML-Pakets oder der Ziel-URL ab oder legt diesen fest. |
-| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt diesen fest. |
+| [IsExternal](../../aspose.words.markup/custompart/isexternal/) { get; set; } | Falsch, wenn dieser benutzerdefinierte Teil im OOXML-Paket gespeichert ist. Wahr, wenn dieser benutzerdefinierte Teil ein externes Ziel ist. |
+| [Name](../../aspose.words.markup/custompart/name/) { get; set; } | Ruft den absoluten Namen dieses Teils innerhalb des OOXML-Pakets oder der Ziel-URL ab oder legt ihn fest. |
+| [RelationshipType](../../aspose.words.markup/custompart/relationshiptype/) { get; set; } | Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt ihn fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Clone](../../aspose.words.markup/custompart/clone/)() | Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert nicht die Bytes von[`Data`](./data/) value. |
+| [Clone](../../aspose.words.markup/custompart/clone/)() | Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert nicht die Bytes des[`Data`](./data/) Wert. |
 
 ## Bemerkungen
 
-Diese Klasse stellt einen OOXML-Teil dar, der ein Ziel einer „unbekannten Beziehung“ ist. Alle Beziehungen, die nicht in ISO/IEC 29500 definiert sind, gelten als „unbekannte Beziehungen“. Unbekannte Beziehungen sind innerhalb eines Office Open XML-Dokuments zulässig, sofern sie konform sind zu den Beziehungsmarkup-Richtlinien.
+Diese Klasse stellt einen OOXML-Teil dar, der Ziel einer „unbekannten Beziehung“ ist. Alle Beziehungen, die nicht in ISO/IEC 29500 definiert sind, werden als „unbekannte Beziehungen“ betrachtet. Unbekannte Beziehungen sind in einem Office Open XML-Dokument zulässig, sofern sie den Richtlinien zur Beziehungsmarkierung entsprechen.
 
-Microsoft Word behält benutzerdefinierte Teile während der Öffnungs-/Speicherzyklen bei. Einige zusätzliche Informationen finden Sie hier http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
+Microsoft Word behält benutzerdefinierte Teile während des Öffnens/Speicherns bei. Weitere Informationen finden Sie hier: http://blogs.msdn.com/dmahugh/archive/2006/11/25/arbitrary-content-in-an-opc-package.aspx
 
-Aspose.Words führt auch Roundtrips benutzerdefinierter Teile durch und ermöglicht darüber hinaus den programmgesteuerten Zugriff auf solcher Teile über`CustomPart` Und[`CustomPartCollection`](../custompartcollection/) Objekte.
+Aspose.Words führt auch Roundtrips für benutzerdefinierte Teile durch und ermöglicht darüber hinaus den programmgesteuerten Zugriff auf solche Teile über die`CustomPart` Und[`CustomPartCollection`](../custompartcollection/) Objekte.
 
-Verwechseln Sie benutzerdefinierte Teile nicht mit benutzerdefinierten XML-Daten. Verwenden[`CustomXmlPart`](../customxmlpart/) wenn Sie benötigen, um auf benutzerdefinierte XML-Daten zuzugreifen.
+Verwechseln Sie benutzerdefinierte Teile nicht mit benutzerdefinierten XML-Daten. Verwenden Sie[`CustomXmlPart`](../customxmlpart/) wenn Sie benötigen, um auf benutzerdefinierte XML-Daten zuzugreifen.
 
 ## Beispiele
 
@@ -59,12 +59,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

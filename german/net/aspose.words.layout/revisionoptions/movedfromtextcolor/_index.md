@@ -3,14 +3,14 @@ title: RevisionOptions.MovedFromTextColor
 linktitle: MovedFromTextColor
 articleTitle: MovedFromTextColor
 second_title: Aspose.Words für .NET
-description: RevisionOptions MovedFromTextColor eigendom. Ermöglicht die Angabe der Farbe die für Bereiche verwendet werden soll aus denen Inhalte verschoben wurdenMoving . Der Standardwert istByAuthor  in C#.
+description: Passen Sie Ihre RevisionOptions mit der Eigenschaft „MovedFromTextColor“ an. Markieren Sie verschobene Inhalte mühelos und verbessern Sie so die Übersichtlichkeit und das Benutzererlebnis.
 type: docs
-weight: 70
+weight: 90
 url: /de/net/aspose.words.layout/revisionoptions/movedfromtextcolor/
 ---
 ## RevisionOptions.MovedFromTextColor property
 
-Ermöglicht die Angabe der Farbe, die für Bereiche verwendet werden soll, aus denen Inhalte verschoben wurdenMoving . Der Standardwert istByAuthor .
+Ermöglicht die Angabe der Farbe für Bereiche, aus denen Inhalte verschoben wurdenMoving . Der Standardwert istByAuthor .
 
 ```csharp
 public RevisionColor MovedFromTextColor { get; set; }
@@ -23,27 +23,27 @@ Zeigt, wie das Erscheinungsbild von Revisionen geändert wird.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Holen Sie sich das RevisionOptions-Objekt, das die Darstellung von Revisionen steuert.
+// Holen Sie sich das RevisionOptions-Objekt, das das Erscheinungsbild von Revisionen steuert.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Einfügungsrevisionen in Grün und Kursiv darstellen.
+// Rendern Sie Einfügungsrevisionen in Grün und Kursivschrift.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Löschrevisionen rot und fett darstellen.
+// Löschrevisionen in Rot und Fettdruck darstellen.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // Derselbe Text erscheint zweimal in einer Bewegungsrevision:
-// einmal am Abfahrtsort und einmal am Ankunftsort.
-// Rendern Sie den Text in der Revision, aus der er verschoben wurde, gelb und doppelt durchgestrichen
-// und doppelt unterstrichen blau bei der verschobenen Revision.
+// einmal am Abfahrtsort und einmal am Zielort.
+// Den Text in der verschobenen Revision gelb und doppelt durchgestrichen darstellen
+// und doppelt blau unterstrichen bei der verschobenen Revision.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Formatrevisionen dunkelrot und fett darstellen.
+// Formatrevisionen in Dunkelrot und Fettdruck rendern.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
@@ -55,12 +55,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Bewegungen, Löschungen, Formatierungsänderungen und Kommentare werden in grünen Sprechblasen angezeigt
+// Bewegung, Löschung, Formatierungsänderungen und Kommentare werden in grünen Sprechblasen angezeigt
 // auf der rechten Seite der Seite.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Diese Funktionen gelten nur für Formate wie .pdf oder .jpg.
+// Diese Funktionen sind nur auf Formate wie .pdf oder .jpg anwendbar.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

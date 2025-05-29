@@ -3,14 +3,14 @@ title: MailMerge.UnconditionalMergeFieldsAndRegions
 linktitle: UnconditionalMergeFieldsAndRegions
 articleTitle: UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words für .NET
-description: MailMerge UnconditionalMergeFieldsAndRegions eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Zusammenführungsfelder und Zusammenführungsbereiche unabhängig von der Bedingung des übergeordneten IFFelds zusammengeführt werden in C#.
+description: Entdecken Sie, wie die Eigenschaft „UnconditionalMergeFieldsAndRegions“ von MailMerge die Dokumentautomatisierung verbessert, indem Felder und Regionen ohne bedingte Beschränkungen zusammengeführt werden.
 type: docs
 weight: 140
 url: /de/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
 ---
 ## MailMerge.UnconditionalMergeFieldsAndRegions property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob Zusammenführungsfelder und Zusammenführungsbereiche unabhängig von der Bedingung des übergeordneten IF-Felds zusammengeführt werden.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Zusammenführungsfelder und Zusammenführungsbereiche unabhängig von der Bedingung des übergeordneten IF-Felds zusammengeführt werden.
 
 ```csharp
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
@@ -22,23 +22,23 @@ Der Standardwert ist`FALSCH` .
 
 ## Beispiele
 
-Zeigt, wie Felder oder Regionen unabhängig von der Bedingung des übergeordneten IF-Felds zusammengeführt werden.
+Zeigt, wie Felder oder Regionen unabhängig vom Zustand des übergeordneten IF-Felds zusammengeführt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Füge ein MERGEFIELD ein, das in einem IF-Feld verschachtelt ist.
+// Fügen Sie ein MERGEFIELD ein, das in ein IF-Feld verschachtelt ist.
 // Da die IF-Feldanweisung falsch ist, wird das Ergebnis von MERGEFIELD nicht angezeigt.
-// Das MERGEFIELD erhält auch bei einem Serienbrief keine Daten.
+// Auch bei einem Serienbrief werden dem MERGEFIELD keine Daten zugeführt.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
-// Wenn wir das Flag „UnconditionalMergeFieldsAndRegions“ auf „true“ setzen,
-// Unser Serienbrief fügt Daten in nicht angezeigte Felder wie unser MERGEFIELD und alle anderen ein.
-// Wenn wir das Flag „UnconditionalMergeFieldsAndRegions“ auf „false“ setzen,
-// Unser Seriendruck fügt keine Daten in MERGEFIELDs ein, die durch IF-Felder mit falschen Anweisungen verdeckt werden.
+// Wenn wir das Flag "UnconditionalMergeFieldsAndRegions" auf "true" setzen,
+// Unser Serienbrief fügt Daten in nicht angezeigte Felder ein, beispielsweise in unser MERGEFIELD und alle anderen.
+// Wenn wir das Flag "UnconditionalMergeFieldsAndRegions" auf "false" setzen,
+// Unser Serienbrief fügt keine Daten in MERGEFIELDs ein, die durch IF-Felder mit falschen Anweisungen verborgen sind.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

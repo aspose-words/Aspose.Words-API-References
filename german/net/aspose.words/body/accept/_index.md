@@ -3,14 +3,14 @@ title: Body.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: Body Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die Body-Accept-Methode für nahtlose Besuchereinbindung. Verbessern Sie das Benutzererlebnis und steigern Sie die Conversions mit unserem einzigartigen Ansatz!
 type: docs
 weight: 40
 url: /de/net/aspose.words/body/accept/
 ---
 ## Body.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,148 +18,58 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Der Besucher, der die Knoten besucht. |
+| visitor | DocumentVisitor | Der Besucher, der die Knoten besuchen wird. |
 
 ### Rückgabewert
 
-True, wenn alle Knoten besucht wurden; falsch wenn[`DocumentVisitor`](../../documentvisitor/) stoppte den Vorgang, bevor alle Knoten besucht wurden.
+Wahr, wenn alle Knoten besucht wurden; falsch, wenn[`DocumentVisitor`](../../documentvisitor/) hat den Vorgang abgebrochen, bevor alle Knoten besucht wurden.
 
 ## Bemerkungen
 
-Listet diesen Knoten und alle seine untergeordneten Knoten auf. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
+Enumeriert diesen Knoten und alle seine Kinder. Jeder Knoten ruft eine entsprechende Methode auf[`DocumentVisitor`](../../documentvisitor/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
-Anrufe[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , dann ruft[`Accept`](../../node/accept/) für alle untergeordneten Knoten der section und Aufrufe[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) am Ende.
+Anrufe[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , dann ruft[`Accept`](../../node/accept/) für alle Kindknoten des Abschnitts und ruft[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) am Ende.
 
 ## Beispiele
 
-Zeigt, wie ein Dokumentbesucher zum Drucken der Knotenstruktur eines Dokuments verwendet wird.
+Zeigt, wie Tabulatorzeichen mit absoluter Position mit einem Dokumentbesucher verarbeitet werden.
 
 ```csharp
-public void DocStructureToText()
+public void DocumentToTxt()
 {
-    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
-    DocStructurePrinter visitor = new DocStructurePrinter();
+    Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
-    // Der Besucher kann jeden besuchten Knoten lesen und ändern.
-    doc.Accept(visitor);
+    // Extrahieren Sie den Textinhalt unseres Dokuments, indem Sie diesen benutzerdefinierten Dokumentbesucher akzeptieren.
+    DocTextExtractor myDocTextExtractor = new DocTextExtractor();
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Besuchen Sie nur den Anfang des Dokumenttexts.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Besuchen Sie nur das Ende des Dokumenttexts.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    Console.WriteLine(visitor.GetText());
+    // Die absolute Position Tab, für die es kein Äquivalent in Stringform gibt, wurde explizit in ein Tabulatorzeichen umgewandelt.
+    Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
+
+    // Ein AbsolutePositionTab kann auch selbst einen DocumentVisitor akzeptieren.
+    AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
+
+    myDocTextExtractor = new DocTextExtractor();
+    absPositionTab.Accept(myDocTextExtractor);
+
+    Assert.AreEqual("\t", myDocTextExtractor.GetText());
 }
 
 /// <summary>
-/// Durchläuft den Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte dieses Baums in Form einer Zeichenfolge.
+/// Sammelt den Textinhalt aller Läufe im besuchten Dokument. Ersetzt alle absoluten Tabulatorzeichen durch normale Tabulatoren.
 /// </summary>
-public class DocStructurePrinter : DocumentVisitor
+public class DocTextExtractor : DocumentVisitor
 {
-    public DocStructurePrinter()
+    public DocTextExtractor()
     {
-        mAcceptingNodeChildTree = new StringBuilder();
-    }
-
-    public string GetText()
-    {
-        return mAcceptingNodeChildTree.ToString();
-    }
-
-    /// <summary>
-    /// Wird aufgerufen, wenn ein Document-Knoten gefunden wird.
-    /// </summary>
-    public override VisitorAction VisitDocumentStart(Document doc)
-    {
-        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
-
-        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
-        mDocTraversalDepth++;
-
-        // Dem Besucher erlauben, weiterhin andere Knoten zu besuchen.
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Dokumentknotens besucht wurden.
-    /// </summary>
-    public override VisitorAction VisitDocumentEnd(Document doc)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Document end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Abschnittsknoten gefunden wird.
-    /// </summary>
-    public override VisitorAction VisitSectionStart(Section section)
-    {
-        // Holen Sie sich den Index unseres Abschnitts innerhalb des Dokuments.
-        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
-        int sectionIndex = docSections.IndexOf(section);
-
-        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Abschnittsknotens besucht wurden.
-    /// </summary>
-    public override VisitorAction VisitSectionEnd(Section section)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Section end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Body-Knoten gefunden wird.
-    /// </summary>
-    public override VisitorAction VisitBodyStart(Body body)
-    {
-        int paragraphCount = body.Paragraphs.Count;
-        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Body-Knotens besucht wurden.
-    /// </summary>
-    public override VisitorAction VisitBodyEnd(Body body)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Body end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Paragraph-Knoten gefunden wird.
-    /// </summary>
-    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
-    {
-        IndentAndAppendLine("[Paragraph start]");
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Wird aufgerufen, nachdem alle untergeordneten Knoten eines Absatzknotens besucht wurden.
-    /// </summary>
-    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Paragraph end]");
-
-        return VisitorAction.Continue;
+        mBuilder = new StringBuilder();
     }
 
     /// <summary>
@@ -167,34 +77,36 @@ public class DocStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
-
+        AppendText(run.Text);
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein SubDocument-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein AbsolutePositionTab-Knoten gefunden wird.
     /// </summary>
-    public override VisitorAction VisitSubDocument(SubDocument subDocument)
+    public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
-        IndentAndAppendLine("[SubDocument]");
-
+        mBuilder.Append("\t");
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügt der aktuellen Ausgabe Text hinzu. Beachtet das aktivierte/deaktivierte Ausgabeflag.
     /// </summary>
-    /// <param name="text"></param>
-    private void IndentAndAppendLine(string text)
+    private void AppendText(string text)
     {
-        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
-
-        mAcceptingNodeChildTree.AppendLine(text);
+        mBuilder.Append(text);
     }
 
-    private int mDocTraversalDepth;
-    private readonly StringBuilder mAcceptingNodeChildTree;
+    /// <summary>
+    /// Klartext des vom Besucher gesammelten Dokuments.
+    /// </summary>
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    private readonly StringBuilder mBuilder;
 }
 ```
 

@@ -3,7 +3,7 @@ title: TextWatermarkOptions.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words für .NET
-description: TextWatermarkOptions Color eigendom. Ruft die Schriftfarbe ab oder legt sie fest. Der Standardwert istSilver  in C#.
+description: Passen Sie Ihre TextWatermarkOptions mit der Eigenschaft „Farbe“ an, um die Sichtbarkeit zu verbessern. Wählen Sie Ihre bevorzugte Schriftfarbe für eine persönliche Note. Standardmäßig: Silber.
 type: docs
 weight: 20
 url: /de/net/aspose.words/textwatermarkoptions/color/
@@ -18,16 +18,16 @@ public Color Color { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man ein Textwasserzeichen erstellt.
+Zeigt, wie ein Textwasserzeichen erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Ein reines Textwasserzeichen hinzufügen.
+// Fügen Sie ein Wasserzeichen im Klartext hinzu.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Wenn wir die Textformatierung bearbeiten und ihn als Wasserzeichen verwenden möchten,
-// Wir können dies tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
+// Wenn wir die Textformatierung bearbeiten und sie als Wasserzeichen verwenden möchten,
+// Dies können wir tun, indem wir beim Erstellen des Wasserzeichens ein TextWatermarkOptions-Objekt übergeben.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

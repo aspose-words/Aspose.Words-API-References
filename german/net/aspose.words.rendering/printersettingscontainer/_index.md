@@ -3,14 +3,14 @@ title: PrinterSettingsContainer Class
 linktitle: PrinterSettingsContainer
 articleTitle: PrinterSettingsContainer
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Rendering.PrinterSettingsContainer klas. Stellt einen Speicher für einige Parameter von darPrinterSettings Objekt in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Rendering.PrinterSettingsContainer für die effiziente Verwaltung von PrinterSettings-Parametern und verbessern Sie so Ihr Dokument-Rendering-Erlebnis.
 type: docs
-weight: 4580
+weight: 5310
 url: /de/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
-Stellt einen Speicher für einige Parameter von darPrinterSettings Objekt.
+Stellt einen Speicher für einige Parameter dar vonPrinterSettings Objekt.
 
 Um mehr zu erfahren, besuchen Sie die[Drucken eines Dokuments programmgesteuert oder mithilfe von Dialogen](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) Dokumentationsartikel.
 
@@ -34,15 +34,15 @@ public class PrinterSettingsContainer
 
 ## Bemerkungen
 
-Zugriff auf Daten vonPrinterSettings dauert lange. `PrinterSettingsContainer` speichert Parameter vonPrinterSettings , damit das Drucken schneller funktioniert.
+Zugriff auf Daten vonPrinterSettings dauert lange. `PrinterSettingsContainer` speichert Parameter ausPrinterSettings , damit das Drucken schneller geht.
 
 ## Beispiele
 
-Zeigt, wie Sie auf die Papierquellen und -formate Ihres Druckers zugreifen und diese auflisten können.
+Zeigt, wie Sie auf die Papierquellen und -formate Ihres Druckers zugreifen und diese auflisten.
 
 ```csharp
-// Der „PrinterSettingsContainer“ enthält ein „PrinterSettings“-Objekt,
-//, das eindeutige Daten für verschiedene Druckertreiber enthält.
+// Der "PrinterSettingsContainer" enthält ein "PrinterSettings"-Objekt,
+// die eindeutige Daten für verschiedene Druckertreiber enthält.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -53,12 +53,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// Die Eigenschaft „PaperSizes“ enthält die Liste der Papierformate, die der Drucker verwenden soll.
-// Sowohl PrinterSource als auch PrinterSize enthalten eine „RawKind“-Eigenschaft,
-// was einem Papiertyp entspricht, der in der PaperSourceKind-Enumeration aufgeführt ist.
-// Wenn es eine Papierquelle mit demselben „RawKind“-Wert wie dem der Druckseite gibt,
-// Der Drucker druckt die Seite mit der angegebenen Papierquelle und dem angegebenen Format.
-// Andernfalls verwendet der Drucker standardmäßig die durch die Eigenschaft „DefaultPageSettingsPaperSource“ angegebene Quelle.
+// Die Eigenschaft „PaperSizes“ enthält die Liste der Papiergrößen, die der Drucker verwenden soll.
+// Sowohl PrinterSource als auch PrinterSize enthalten eine "RawKind"-Eigenschaft,
+// was einem Papiertyp entspricht, der in der Aufzählung PaperSourceKind aufgeführt ist.
+// Wenn es eine Papierquelle mit dem gleichen „RawKind“-Wert wie die Druckseite gibt,
+// Der Drucker druckt die Seite mit der angegebenen Papierquelle und -größe.
+// Andernfalls verwendet der Drucker standardmäßig die Quelle, die durch die Eigenschaft „DefaultPageSettingsPaperSource“ angegeben ist.
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

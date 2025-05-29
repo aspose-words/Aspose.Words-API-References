@@ -3,9 +3,9 @@ title: ChartSeries.Insert
 linktitle: Insert
 articleTitle: Insert
 second_title: Aspose.Words für .NET
-description: ChartSeries Insert methode. Fügt den angegebenen XWert am angegebenen Index in die Diagrammreihe ein. Wenn die Reihe YWerte und Blasengrößen unterstützt sind diese für den XWert leer in C#.
+description: Optimieren Sie Ihre Diagramme mühelos mit der ChartSeries-Einfügemethode. Fügen Sie X-Werte an jedem Index ein und optimieren Sie so Ihre Datenvisualisierung im Handumdrehen!
 type: docs
-weight: 190
+weight: 200
 url: /de/net/aspose.words.drawing.charts/chartseries/insert/
 ---
 ## Insert(*int, [ChartXValue](../../chartxvalue/)*) {#insert}
@@ -18,7 +18,30 @@ public void Insert(int index, ChartXValue xValue)
 
 ## Bemerkungen
 
-Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
+Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und Wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
+
+## Beispiele
+
+Zeigt, wie Daten in eine Diagrammreihe eingefügt werden.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// X- und Y-Werte der ersten Reihe löschen.
+series1.ClearValues();
+// Fülle die Reihe mit Daten.
+series1.Insert(0, ChartXValue.FromDouble(3));
+series1.Insert(1, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(2, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(3, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
+```
 
 ### Siehe auch
 
@@ -39,7 +62,30 @@ public void Insert(int index, ChartXValue xValue, ChartYValue yValue)
 
 ## Bemerkungen
 
-Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
+Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und Wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
+
+## Beispiele
+
+Zeigt, wie Daten in eine Diagrammreihe eingefügt werden.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// X- und Y-Werte der ersten Reihe löschen.
+series1.ClearValues();
+// Fülle die Reihe mit Daten.
+series1.Insert(0, ChartXValue.FromDouble(3));
+series1.Insert(1, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(2, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(3, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
+```
 
 ### Siehe auch
 
@@ -61,7 +107,30 @@ public void Insert(int index, ChartXValue xValue, ChartYValue yValue, double bub
 
 ## Bemerkungen
 
-Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
+Der entsprechende Datenpunkt mit Standardformatierung wird in die Datenpunktsammlung eingefügt. Und Wenn Datenbeschriftungen angezeigt werden, wird auch die entsprechende Datenbeschriftung mit Standardformatierung eingefügt.
+
+## Beispiele
+
+Zeigt, wie Daten in eine Diagrammreihe eingefügt werden.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// X- und Y-Werte der ersten Reihe löschen.
+series1.ClearValues();
+// Fülle die Reihe mit Daten.
+series1.Insert(0, ChartXValue.FromDouble(3));
+series1.Insert(1, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(2, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(3, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
+```
 
 ### Siehe auch
 

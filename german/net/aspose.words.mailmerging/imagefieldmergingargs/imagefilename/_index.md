@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.ImageFileName
 linktitle: ImageFileName
 articleTitle: ImageFileName
 second_title: Aspose.Words für .NET
-description: ImageFieldMergingArgs ImageFileName eigendom. Legt den Dateinamen des Bildes fest das die SerienbriefEngine in das Dokument einfügen muss in C#.
+description: Setzen Sie den ImageFileName in ImageFieldMergingArgs, um Bilder beim Seriendruck mühelos in Ihre Dokumente einzufügen. Optimieren Sie Ihren Workflow noch heute!
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
@@ -18,14 +18,14 @@ public string ImageFileName { get; set; }
 
 ## Beispiele
 
-Zeigt, wie die Abmessungen von Bildern festgelegt werden, wenn MERGEFIELDS sie während eines Seriendrucks akzeptiert.
+Zeigt, wie die Abmessungen von Bildern festgelegt werden, da MERGEFIELDS sie während eines Seriendrucks akzeptiert.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Fügen Sie ein MERGEFIELD ein, das während eines Seriendrucks Bilder von einer Quelle akzeptiert. Verwenden Sie den Feldcode als Referenz
+    // Fügen Sie ein MERGEFIELD ein, das während eines Serienbriefs Bilder aus einer Quelle akzeptiert. Verwenden Sie den Feldcode zum Verweisen
     // eine Spalte in der Datenquelle, die lokale Systemdateinamen von Bildern enthält, die wir im Serienbrief verwenden möchten.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -40,7 +40,7 @@ public void MergeFieldImageDimension()
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Konfigurieren Sie einen Rückruf, um die Größe der Bilder beim Zusammenführen zu ändern, und führen Sie dann den Serienbrief aus.
+    // Konfigurieren Sie einen Rückruf, um die Größe der Bilder beim Zusammenführen zu ändern, und führen Sie dann den Seriendruck aus.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -49,7 +49,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Setzt die Größe aller Serienbriefbilder auf eine definierte Breite und Höhe.
+/// Legt die Größe aller Serienbriefbilder auf eine definierte Breite und Höhe fest.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -75,6 +75,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

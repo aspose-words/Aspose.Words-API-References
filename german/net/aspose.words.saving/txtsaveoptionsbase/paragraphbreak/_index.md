@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
 second_title: Aspose.Words für .NET
-description: TxtSaveOptionsBase ParagraphBreak eigendom. Gibt die Zeichenfolge an die beim Exportieren in Textformate als Absatzumbruch verwendet werden soll in C#.
+description: Entdecken Sie die ParagraphBreak-Eigenschaft von TxtSaveOptionsBase, die benutzerdefinierte Absatzumbrüche für nahtlose Textformat-Exporte ermöglicht. Verbessern Sie die Lesbarkeit Ihres Dokuments!
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -22,7 +22,7 @@ Der Standardwert ist[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
 ## Beispiele
 
-Zeigt, wie man ein TXT-Dokument mit einem benutzerdefinierten Absatzumbruch speichert.
+Zeigt, wie ein TXT-Dokument mit einem benutzerdefinierten Absatzumbruch gespeichert wird.
 
 ```csharp
 Document doc = new Document();
@@ -32,13 +32,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Erstelle ein „TxtSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "TxtSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie wir das Dokument im Klartext speichern.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// Setzen Sie „ParagraphBreak“ auf einen benutzerdefinierten Wert, den wir am Ende jedes Absatzes einfügen möchten.
+// Setzen Sie „Absatzumbruch“ auf einen benutzerdefinierten Wert, den wir am Ende jedes Absatzes einfügen möchten.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

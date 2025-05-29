@@ -3,9 +3,9 @@ title: FontSourceBase Class
 linktitle: FontSourceBase
 articleTitle: FontSourceBase
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontSourceBase klas. Dies ist eine abstrakte Basisklasse für die Klassen die es dem Benutzer ermöglichen verschiedene Schriftartquellen anzugeben in C#.
+description: Entdecken Sie Aspose.Words.Fonts.FontSourceBase, die grundlegende abstrakte Klasse zum Definieren verschiedener Schriftquellen in Ihren Anwendungen. Verbessern Sie die Formatierung Ihrer Dokumente!
 type: docs
-weight: 2980
+weight: 3410
 url: /de/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
@@ -24,7 +24,7 @@ public abstract class FontSourceBase
 | --- | --- |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Gibt die Priorität der Schriftartquelle zurück. |
 | abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | Gibt den Typ der Schriftartquelle zurück. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen könnte. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen kann. |
 
 ## Methoden
 
@@ -34,7 +34,7 @@ public abstract class FontSourceBase
 
 ## Beispiele
 
-Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
+Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

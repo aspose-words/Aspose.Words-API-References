@@ -3,9 +3,9 @@ title: AxisTimeUnit Enum
 linktitle: AxisTimeUnit
 articleTitle: AxisTimeUnit
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.AxisTimeUnit opsomming. Gibt die Zeiteinheit für Achsen an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Drawing.Charts.AxisTimeUnit – Ihre Lösung zum effizienten und effektiven Definieren von Zeiteinheiten auf Diagrammachsen.
 type: docs
-weight: 600
+weight: 860
 url: /de/net/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enumeration
@@ -48,12 +48,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Untere und obere Grenze für die X-Achse festlegen.
+// Untere und obere Grenzen für die X-Achse festlegen.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Setze die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag.
+// Stellen Sie die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag ein.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -62,9 +62,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Y-Achsen-Eigenschaften für Dezimalwerte definieren.
+// Definieren Sie die Eigenschaften der Y-Achse für Dezimalwerte.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

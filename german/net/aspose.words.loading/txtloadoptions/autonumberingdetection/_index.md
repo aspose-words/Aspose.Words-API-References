@@ -3,14 +3,14 @@ title: TxtLoadOptions.AutoNumberingDetection
 linktitle: AutoNumberingDetection
 articleTitle: AutoNumberingDetection
 second_title: Aspose.Words für .NET
-description: TxtLoadOptions AutoNumberingDetection eigendom. Ruft einen booleschen Wert ab oder legt diesen fest der angibt ob beim Laden eines Dokuments eine automatische Nummerierungserkennung durchgeführt wird. Der Standardwert istWAHR  in C#.
+description: Entdecken Sie die AutoNumberingDetection-Eigenschaft von TxtLoadOptions. Aktivieren oder deaktivieren Sie die automatische Nummerierung für nahtloses Laden von Dokumenten. Standardmäßig ist „true“.
 type: docs
 weight: 20
 url: /de/net/aspose.words.loading/txtloadoptions/autonumberingdetection/
 ---
 ## TxtLoadOptions.AutoNumberingDetection property
 
-Ruft einen booleschen Wert ab oder legt diesen fest, der angibt, ob beim Laden eines Dokuments eine automatische Nummerierungserkennung durchgeführt wird. Der Standardwert ist`WAHR` .
+Ruft einen booleschen Wert ab oder legt ihn fest, der angibt, ob beim Laden eines Dokuments eine automatische Nummerierungserkennung durchgeführt wird. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool AutoNumberingDetection { get; set; }

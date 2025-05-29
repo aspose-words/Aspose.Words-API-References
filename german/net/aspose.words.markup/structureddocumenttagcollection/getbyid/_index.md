@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.GetById
 linktitle: GetById
 articleTitle: GetById
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagCollection GetById methode. Gibt das strukturierte DokumentTag nach Kennung zurück in C#.
+description: Rufen Sie strukturierte Dokument-Tags mühelos mit der GetById-Methode ab. Greifen Sie schnell auf Ihre Daten zu und steigern Sie die Effizienz Ihres Dokumentenmanagements.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
@@ -18,7 +18,7 @@ public IStructuredDocumentTag GetById(int id)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| id | Int32 | Die Tag-ID des strukturierten Dokuments. |
+| id | Int32 | Die strukturierte Dokument-Tag-Kennung. |
 
 ## Bemerkungen
 
@@ -26,14 +26,14 @@ Gibt null zurück, wenn das strukturierte Dokument-Tag mit der angegebenen Kennu
 
 ## Beispiele
 
-Zeigt, wie man ein strukturiertes Dokument-Tag erhält.
+Zeigt, wie man strukturierte Dokument-Tags erhält.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
-// Holen Sie sich das Tag des strukturierten Dokuments anhand der ID.
+// Holen Sie sich das strukturierte Dokument-Tag nach ID.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
 // Holen Sie sich das strukturierte Dokument-Tag oder das Bereichs-Tag nach Titel.

@@ -3,9 +3,9 @@ title: CellFormat.HorizontalMerge
 linktitle: HorizontalMerge
 articleTitle: HorizontalMerge
 second_title: Aspose.Words für .NET
-description: CellFormat HorizontalMerge eigendom. Gibt an wie die Zelle horizontal mit anderen Zellen in der Zeile zusammengeführt wird in C#.
+description: Entdecken Sie die CellFormat HorizontalMerge-Eigenschaft, um Zellen nahtlos horizontal zusammenzuführen und so das Layout und die Organisation Ihrer Tabelle zu verbessern.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
@@ -24,19 +24,19 @@ Zeigt, wie Tabellenzellen horizontal zusammengeführt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Zelle in die erste Spalte der ersten Zeile einfügen.
-// Diese Zelle ist die erste in einer Reihe horizontal verbundener Zellen.
+// Fügt eine Zelle in die erste Spalte der ersten Zeile ein.
+// Diese Zelle ist die erste in einem Bereich horizontal verbundener Zellen.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Eine Zelle in die zweite Spalte der ersten Zeile einfügen. Anstatt Textinhalte hinzuzufügen,
+// Fügt eine Zelle in die zweite Spalte der ersten Zeile ein. Anstatt Textinhalt hinzuzufügen,
 // Wir werden diese Zelle mit der ersten Zelle zusammenführen, die wir direkt links hinzugefügt haben.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Fügen Sie zwei weitere nicht verbundene Zellen in die zweite Zeile ein.
+//Fügen Sie zwei weitere nicht verbundene Zellen in die zweite Zeile ein.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -56,8 +56,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 

@@ -3,14 +3,14 @@ title: ParagraphFormat.LineUnitAfter
 linktitle: LineUnitAfter
 articleTitle: LineUnitAfter
 second_title: Aspose.Words für .NET
-description: ParagraphFormat LineUnitAfter eigendom. Ruft den Abstand in Gitterlinien nach den Absätzen ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „PargraphFormat LineUnitAfter“ – steuern Sie den Abstand in Gitternetzlinien für ein verbessertes Absatzlayout und eine verbesserte Lesbarkeit des Dokuments.
 type: docs
 weight: 220
 url: /de/net/aspose.words/paragraphformat/lineunitafter/
 ---
 ## ParagraphFormat.LineUnitAfter property
 
-Ruft den Abstand (in Gitterlinien) nach den Absätzen ab oder legt diesen fest.
+Ruft den Abstand (in Gitternetzlinien) nach den Absätzen ab oder legt ihn fest.
 
 ```csharp
 public double LineUnitAfter { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Nachfolgend finden Sie fünf verschiedene Abstandsoptionen sowie die Eigenschaften, die sich durch ihre Konfiguration indirekt auswirken.
+// Nachfolgend finden Sie fünf verschiedene Abstandsoptionen sowie die Eigenschaften, auf die sich ihre Konfiguration indirekt auswirkt.
 // 1 - Linker Einzug:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 

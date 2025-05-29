@@ -3,14 +3,14 @@ title: ImageSize.WidthPixels
 linktitle: WidthPixels
 articleTitle: WidthPixels
 second_title: Aspose.Words für .NET
-description: ImageSize WidthPixels eigendom. Ermittelt die Breite des Bildes in Pixel in C#.
+description: Entdecken Sie die ImageSize WidthPixels-Eigenschaft, um einfach die Pixelbreite Ihrer Bilder abzurufen und so Ihre Bildverwaltung und -optimierung zu verbessern.
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/imagesize/widthpixels/
 ---
 ## ImageSize.WidthPixels property
 
-Ermittelt die Breite des Bildes in Pixel.
+Ruft die Breite des Bildes in Pixeln ab.
 
 ```csharp
 public int WidthPixels { get; }
@@ -27,9 +27,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Fügen Sie eine Form in das Dokument ein, die ein Bild aus unserem lokalen Dateisystem enthält.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Wenn die Form ein Bild enthält, ist seine ImageData-Eigenschaft gültig.
+// Wenn die Form ein Bild enthält, ist ihre ImageData-Eigenschaft gültig.
 // und es wird ein ImageSize-Objekt enthalten.
-ImageSize imageSize = shape.ImageData.ImageSize; 
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // Das ImageSize-Objekt enthält schreibgeschützte Informationen über das Bild innerhalb der Form.
 Assert.AreEqual(400, imageSize.HeightPixels);
@@ -39,7 +39,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// Wir können die Größe der Form auf der Größe ihres Bildes basieren, um eine Dehnung des Bildes zu vermeiden.
+// Wir können die Größe der Form auf der Größe ihres Bildes basieren, um eine Streckung des Bildes zu vermeiden.
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

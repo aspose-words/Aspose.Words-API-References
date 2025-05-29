@@ -3,9 +3,9 @@ title: Document.LastSection
 linktitle: LastSection
 articleTitle: LastSection
 second_title: Aspose.Words für .NET
-description: Document LastSection eigendom. Ruft den letzten Abschnitt im Dokument ab in C#.
+description: Entdecken Sie die LastSection-Eigenschaft, um einfach auf den letzten Abschnitt Ihres Dokuments zuzugreifen und so die Navigation und die Effizienz der Inhaltsverwaltung zu verbessern.
 type: docs
-weight: 240
+weight: 250
 url: /de/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
@@ -18,20 +18,20 @@ public Section LastSection { get; }
 
 ## Bemerkungen
 
-Gibt zurück`Null` wenn keine Abschnitte vorhanden sind.
+Rückgaben`null`wenn keine Abschnitte vorhanden sind.
 
 ## Beispiele
 
-Zeigt, wie man mit einem Document Builder einen neuen Abschnitt erstellt.
+Zeigt, wie mit einem Dokumentgenerator ein neuer Abschnitt erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
 // Ein leeres Dokument enthält standardmäßig einen Abschnitt,
-// das untergeordnete Knoten enthält, die wir bearbeiten können.
+// die untergeordnete Knoten enthalten, die wir bearbeiten können.
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Verwenden Sie einen Dokumentersteller, um Text zum ersten Abschnitt hinzuzufügen.
+// Verwenden Sie einen Dokumentgenerator, um dem ersten Abschnitt Text hinzuzufügen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 

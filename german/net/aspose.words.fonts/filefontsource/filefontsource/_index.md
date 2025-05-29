@@ -3,7 +3,7 @@ title: FileFontSource
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words für .NET
-description: FileFontSource constructeur. Ctor in C#.
+description: Entdecken Sie den FileFontSource-Konstruktor für die nahtlose Schriftintegration in Ihre Projekte. Verbessern Sie Ihr Design mit benutzerfreundlichen Programmierlösungen!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/filefontsource/filefontsource/
@@ -22,7 +22,7 @@ public FileFontSource(string filePath)
 
 ## Beispiele
 
-Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
+Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -55,11 +55,11 @@ public FileFontSource(string filePath, int priority)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | filePath | String | Pfad zur Schriftartdatei. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ## Beispiele
 
-Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
+Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -92,12 +92,12 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | filePath | String | Pfad zur Schriftartdatei. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
-| cacheKey | String | Der Schlüssel dieser Quelle im Cache. Sehen[`CacheKey`](../cachekey/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| cacheKey | String | Der Schlüssel dieser Quelle im Cache. Siehe[`CacheKey`](../cachekey/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ## Beispiele
 
-Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
+Zeigt, wie der Initialisierungsprozess des Schriftartcaches beschleunigt werden kann.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,8 +127,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Laden Sie die Schriftartdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
-/// für die gesamte Lebensdauer des „FontSettings“-Objekts.
+/// Laden Sie die Schriftdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
+/// für die gesamte Lebensdauer des Objekts „FontSettings“.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

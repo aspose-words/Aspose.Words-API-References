@@ -3,14 +3,14 @@ title: Run.IsPhoneticGuide
 linktitle: IsPhoneticGuide
 articleTitle: IsPhoneticGuide
 second_title: Aspose.Words für .NET
-description: Run IsPhoneticGuide eigendom. Ruft einen booleschen Wert ab der angibt ob es sich bei der Ausführung um einen phonetischen Leitfaden handelt in C#.
+description: Entdecken Sie IsPhoneticGuide, ein leistungsstarkes Tool, das ermittelt, ob ein Lauf als phonetische Anleitung dient und so die Klarheit und Lesbarkeit Ihres Textes verbessert.
 type: docs
 weight: 20
 url: /de/net/aspose.words/run/isphoneticguide/
 ---
 ## Run.IsPhoneticGuide property
 
-Ruft einen booleschen Wert ab, der angibt, ob es sich bei der Ausführung um einen phonetischen Leitfaden handelt.
+Ruft einen booleschen Wert ab, der angibt, ob der Lauf eine phonetische Anleitung ist.
 
 ```csharp
 public bool IsPhoneticGuide { get; }
@@ -18,16 +18,18 @@ public bool IsPhoneticGuide { get; }
 
 ## Beispiele
 
-Zeigt, wie man Eigenschaften des phonetischen Führers erhält.
+Zeigt, wie man Eigenschaften des Phonetikleitfadens erhält.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
-// Lautschrift im asiatischen Text verwenden.
+// Verwenden Sie im asiatischen Text die Phonetikanleitung.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### Siehe auch

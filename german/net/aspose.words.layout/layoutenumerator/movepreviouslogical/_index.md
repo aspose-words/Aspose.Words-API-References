@@ -3,14 +3,14 @@ title: LayoutEnumerator.MovePreviousLogical
 linktitle: MovePreviousLogical
 articleTitle: MovePreviousLogical
 second_title: Aspose.Words für .NET
-description: LayoutEnumerator MovePreviousLogical methode. Wechselt in einer logischen Reihenfolge zur vorherigen gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes die über Seiten hinweg unterbrochen sind wechselt diese Methode zur vorherigen Zeile auch wenn sie sich auf einer anderen Seite befindet in C#.
+description: Entdecken Sie die MovePreviousLogical-Methode von LayoutEnumerator, um effizient durch Geschwisterentitäten zu navigieren und Absatzzeilen nahtlos über mehrere Seiten hinweg zu verarbeiten.
 type: docs
 weight: 160
 url: /de/net/aspose.words.layout/layoutenumerator/movepreviouslogical/
 ---
 ## LayoutEnumerator.MovePreviousLogical method
 
-Wechselt in einer logischen Reihenfolge zur vorherigen gleichgeordneten Entität. Beim Iterieren von Zeilen eines Absatzes, die über Seiten hinweg unterbrochen sind, wechselt diese Methode zur vorherigen Zeile, auch wenn sie sich auf einer anderen Seite befindet.
+Wechselt in logischer Reihenfolge zur vorherigen Geschwisterentität. Beim Durchlaufen von Zeilen eines Absatzes, der über mehrere Seiten verteilt ist, wechselt diese Methode zur vorherigen Zeile, auch wenn diese sich auf einer anderen Seite befindet.
 
 ```csharp
 public bool MovePreviousLogical()
@@ -18,21 +18,21 @@ public bool MovePreviousLogical()
 
 ## Bemerkungen
 
-Beachten Sie, dass alleSpan Entitäten sind also miteinander verbunden, wenn[`Current`](../current/) Die Entität ist bereichsübergreifend. Durch wiederholtes Aufrufen dieser Methode wird die gesamte Geschichte des Dokuments iteriert.
+Beachten Sie, dass alleSpan Entitäten sind miteinander verknüpft, also wenn[`Current`](../current/) Entität ist span. Wiederholtes Aufrufen dieser Methode iteriert die komplette Geschichte des Dokuments.
 
 ## Beispiele
 
-Zeigt Möglichkeiten zum Durchlaufen der Layoutelemente eines Dokuments.
+Zeigt Möglichkeiten zum Durchlaufen der Layout-Entitäten eines Dokuments.
 
 ```csharp
 public void LayoutEnumerator()
 {
     // Öffnen Sie ein Dokument, das verschiedene Layout-Entitäten enthält.
-    // Layout-Entitäten sind Seiten, Zellen, Zeilen, Linien und andere Objekte, die in der LayoutEntityType-Enumeration enthalten sind.
-    // Jede Layout-Entität hat einen rechteckigen Raum, den sie im Dokumentkörper einnimmt.
+    // Layout-Entitäten sind Seiten, Zellen, Zeilen, Linien und andere Objekte, die in der LayoutEntityType-Aufzählung enthalten sind.
+    // Jede Layout-Entität hat einen rechteckigen Platz, den sie im Dokumentkörper einnimmt.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Erstelle einen Enumerator, der diese Entitäten wie einen Baum durchlaufen kann.
+    // Erstellen Sie einen Enumerator, der diese Entitäten wie einen Baum durchlaufen kann.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -45,20 +45,20 @@ public void LayoutEnumerator()
     // Wir können diese Methode aufrufen, um sicherzustellen, dass sich der Enumerator bei der ersten Layout-Entität befindet.
     layoutEnumerator.Reset();
 
-    // Es gibt zwei Reihenfolgen, die bestimmen, wie der Layout-Enumerator weiterhin Layout-Entitäten durchläuft
-    // wenn es auf Entitäten trifft, die sich über mehrere Seiten erstrecken.
+    // Es gibt zwei Reihenfolgen, die bestimmen, wie der Layout-Enumerator die Layout-Entitäten weiter durchläuft
+    // wenn es auf Entitäten stößt, die sich über mehrere Seiten erstrecken.
     // 1 – In visueller Reihenfolge:
-    // Beim Durchlaufen der untergeordneten Elemente einer Entität, die sich über mehrere Seiten erstrecken,
-    // Das Seitenlayout hat Vorrang, und wir wechseln zu anderen untergeordneten Elementen auf dieser Seite und vermeiden diejenigen auf der nächsten.
+    // Wenn Sie sich durch die untergeordneten Elemente einer Entität bewegen, die sich über mehrere Seiten erstrecken,
+    // Das Seitenlayout hat Vorrang und wir wechseln zu anderen untergeordneten Elementen auf dieser Seite und vermeiden die auf der nächsten.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Unser Enumerator ist jetzt am Ende der Sammlung. Wir können die Layout-Entitäten rückwärts durchlaufen, um zum Anfang zurückzukehren.
+    // Unser Enumerator befindet sich nun am Ende der Sammlung. Wir können die Layout-Entitäten rückwärts durchlaufen, um zum Anfang zurückzukehren.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - In logischer Reihenfolge:
-    // Beim Durchlaufen der untergeordneten Elemente einer Entität, die sich über mehrere Seiten erstrecken,
+    // Wenn Sie sich durch die untergeordneten Elemente einer Entität bewegen, die sich über mehrere Seiten erstrecken,
     // Der Enumerator bewegt sich zwischen den Seiten, um alle untergeordneten Entitäten zu durchlaufen.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
@@ -68,8 +68,8 @@ public void LayoutEnumerator()
 }
 
 /// <summary>
-/// Durch die Layout-Entitätssammlung von layoutEnumerator von vorne nach hinten aufzählen,
-/// in einer Tiefenrichtung und in der „visuellen“ Reihenfolge.
+/// Durchlaufen Sie die Layout-Entity-Sammlung des LayoutEnumerators von vorne nach hinten.
+/// in einer Tiefensuche und in der Reihenfolge „Visuell“.
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -86,8 +86,8 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 }
 
 /// <summary>
-/// Durch die Layout-Entitätssammlung von layoutEnumerator von hinten nach vorne aufzählen,
-/// in einer Tiefenrichtung und in der „visuellen“ Reihenfolge.
+/// Durchlaufen Sie die Layout-Entity-Sammlung des LayoutEnumerators von hinten nach vorne,
+/// in einer Tiefensuche und in der Reihenfolge „Visuell“.
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -104,8 +104,8 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 }
 
 /// <summary>
-/// Durch die Layout-Entitätssammlung von layoutEnumerator von vorne nach hinten aufzählen,
-/// in einer Tiefen-zuerst-Methode und in der „logischen“ Reihenfolge.
+/// Durchlaufen Sie die Layout-Entity-Sammlung des LayoutEnumerators von vorne nach hinten.
+/// in einer Tiefensuche und in der „logischen“ Reihenfolge.
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -122,8 +122,8 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 }
 
 /// <summary>
-/// Durch die Layout-Entitätssammlung von layoutEnumerator von hinten nach vorne aufzählen,
-/// in einer Tiefen-zuerst-Methode und in der „logischen“ Reihenfolge.
+/// Durchlaufen Sie die Layout-Entity-Sammlung des LayoutEnumerators von hinten nach vorne,
+/// in einer Tiefensuche und in der „logischen“ Reihenfolge.
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -140,9 +140,9 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Informationen über die aktuelle Entität von layoutEnumerator an die Konsole ausgeben und dabei den Text mit Tabulatorzeichen einrücken
-/// basierend auf seiner Tiefe relativ zum Stammknoten, den wir in der Konstruktor-LayoutEnumerator-Instanz bereitgestellt haben.
-/// Das Rechteck, das wir am Ende verarbeiten, stellt die Fläche und Position dar, die die Entität im Dokument einnimmt.
+/// Informationen zur aktuellen Entität des LayoutEnumerators auf der Konsole ausgeben und dabei den Text mit Tabulatorzeichen einrücken
+/// basierend auf seiner Tiefe relativ zum Stammknoten, den wir in der Konstruktor-Instanz LayoutEnumerator bereitgestellt haben.
+/// Das Rechteck, das wir am Ende verarbeiten, stellt den Bereich und die Position dar, die die Entität im Dokument einnimmt.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
 {

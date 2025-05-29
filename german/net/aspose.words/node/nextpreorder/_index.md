@@ -3,7 +3,7 @@ title: Node.NextPreOrder
 linktitle: NextPreOrder
 articleTitle: NextPreOrder
 second_title: Aspose.Words für .NET
-description: Node NextPreOrder methode. Ruft den nächsten Knoten gemäß dem PreOrderTreeTraversalAlgorithmus ab in C#.
+description: Entdecken Sie die Node-NextPreOrder-Methode für effizientes Durchlaufen von Baumstrukturen. Erfahren Sie, wie Sie den nächsten Knoten mithilfe des Preorder-Algorithmus effektiv abrufen!
 type: docs
 weight: 130
 url: /de/net/aspose.words/node/nextpreorder/
@@ -22,11 +22,11 @@ public Node NextPreOrder(Node rootNode)
 
 ### Rückgabewert
 
-Nächster Knoten in der Vorbestellungsreihenfolge. Null, wenn erreicht*rootNode*.
+Nächster Knoten in der Vorbestellungsreihenfolge. Null, wenn der*rootNode*.
 
 ## Beispiele
 
-Zeigt, wie man den Knotenbaum des Dokuments mit dem Vorbestellungs-Traversalalgorithmus durchläuft und alle gefundenen Formen mit einem Bild löscht.
+Zeigt, wie der Knotenbaum des Dokuments mithilfe des Pre-Order-Traversal-Algorithmus durchlaufen und alle gefundenen Formen mit einem Bild gelöscht werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

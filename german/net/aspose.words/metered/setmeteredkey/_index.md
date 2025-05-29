@@ -3,14 +3,14 @@ title: Metered.SetMeteredKey
 linktitle: SetMeteredKey
 articleTitle: SetMeteredKey
 second_title: Aspose.Words für .NET
-description: Metered SetMeteredKey methode. Legt einen gemessenen öffentlichen und privaten Schlüssel fest. Wenn Sie eine gemessene Lizenz erwerben sollte beim Starten der Anwendung diese API aufgerufen werden. Normalerweise reicht dies aus. Wenn jedoch das Hochladen der Verbrauchsdaten immer fehlschlägt und 24 Stunden überschritten werden wird die Lizenz auf den Evaluierungsstatus gesetzt. Um einen solchen Fall zu vermeiden sollten Sie den Lizenzstatus regelmäßig überprüfen. Wenn es sich um den Evaluierungsstatus handelt rufen Sie diese API erneut auf in C#.
+description: Verwalten Sie Ihre gemessene Lizenz mühelos mit der SetMeteredKey-Methode. Sorgen Sie für reibungslose Datenuploads und vermeiden Sie Evaluierungsstatus durch regelmäßige Überprüfungen.
 type: docs
-weight: 20
+weight: 30
 url: /de/net/aspose.words/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-Legt einen gemessenen öffentlichen und privaten Schlüssel fest. Wenn Sie eine gemessene Lizenz erwerben, sollte beim Starten der Anwendung diese API aufgerufen werden. Normalerweise reicht dies aus. Wenn jedoch das Hochladen der Verbrauchsdaten immer fehlschlägt und 24 Stunden überschritten werden, wird die Lizenz auf den Evaluierungsstatus gesetzt. Um einen solchen Fall zu vermeiden, sollten Sie den Lizenzstatus regelmäßig überprüfen. Wenn es sich um den Evaluierungsstatus handelt, rufen Sie diese API erneut auf.
+Legt den öffentlichen und privaten Schlüssel mit Nutzungsdauer fest. Wenn Sie eine Lizenz mit Nutzungsdauer erwerben, sollte diese API beim Starten der Anwendung aufgerufen werden. Normalerweise reicht dies aus. Wenn das Hochladen der Verbrauchsdaten jedoch immer fehlschlägt und 24 Stunden überschritten werden, wird die Lizenz auf den Evaluierungsstatus gesetzt. Um dies zu vermeiden, sollten Sie den Lizenzstatus regelmäßig überprüfen. Wenn es sich um den Evaluierungsstatus handelt, rufen Sie diese API erneut auf.
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)
@@ -18,27 +18,29 @@ public void SetMeteredKey(string publicKey, string privateKey)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| publicKey | String | Öffentlicher Schlüssel |
-| privateKey | String | Privat Schlüssel |
+| publicKey | String | öffentlicher Schlüssel |
+| privateKey | String | privater Schlüssel |
 
 ## Beispiele
 
-Zeigt, wie Sie eine Metered-Lizenz aktivieren und Guthaben/Verbrauch verfolgen.
+Zeigt, wie Sie eine getaktete Lizenz aktivieren und Guthaben/Verbrauch verfolgen.
 
 ```csharp
-// Erstellen Sie eine neue Metered-Lizenz und drucken Sie dann deren Nutzungsstatistik aus.
+// Erstellen Sie eine neue getaktete Lizenz und drucken Sie dann ihre Nutzungsstatistiken aus.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Arbeiten Sie mit Aspose.Words und drucken Sie dann unsere gemessenen Statistiken erneut aus, um zu sehen, wie viel wir ausgegeben haben.
+// Arbeiten Sie mit Aspose.Words und drucken Sie dann unsere Messstatistiken erneut aus, um zu sehen, wie viel wir ausgegeben haben.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
 // Der Aspose Metered Licensing-Mechanismus sendet die Nutzungsdaten nicht jedes Mal an den Kaufserver.
-// Sie müssen warten verwenden.
+// Sie müssen warten.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

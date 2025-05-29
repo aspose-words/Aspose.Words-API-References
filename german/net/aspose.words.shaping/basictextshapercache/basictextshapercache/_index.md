@@ -3,7 +3,7 @@ title: BasicTextShaperCache
 linktitle: BasicTextShaperCache
 articleTitle: BasicTextShaperCache
 second_title: Aspose.Words für .NET
-description: BasicTextShaperCache constructeur. Wrapsfactory und CachesGetTextShaper Ergebnisse in C#.
+description: Entdecken Sie den Konstruktor BasicTextShaperCache, der die Textgestaltung durch Zwischenspeichern von Ergebnissen optimiert und so für eine schnellere und effizientere Leistung Ihrer Anwendungen sorgt.
 type: docs
 weight: 10
 url: /de/net/aspose.words.shaping/basictextshapercache/basictextshapercache/

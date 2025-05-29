@@ -3,12 +3,12 @@ title: Aspose.Words.Properties
 linktitle: Aspose.Words.Properties
 articleTitle: Aspose.Words.Properties
 second_title: Aspose.Words für .NET
-description: DerAspose.Words.Properties Der Namespace stellt Klassen für work mit benutzerdefinierten und integrierten Dokumenteigenschaften wie Titel Schlüsselwörter Firma usw. bereit in C#.
+description: Entdecken Sie den Aspose.Words.Properties-Namespace, um benutzerdefinierte und integrierte Dokumenteigenschaften wie Titel, Schlüsselwörter und Unternehmen für eine verbesserte Dokumentorganisation einfach zu verwalten.
 type: docs
-weight: 190
+weight: 210
 url: /de/net/aspose.words.properties/
 ---
-Der**Aspose.Words.Properties** Der Namespace stellt Klassen für work mit benutzerdefinierten und integrierten Dokumenteigenschaften wie Titel, Schlüsselwörter, Firma usw. bereit.
+Der**Aspose.Words.Eigenschaften** Der Namespace bietet Klassen zum Arbeiten mit benutzerdefinierten und integrierten Dokumenteigenschaften wie Titel, Schlüsselwörtern, Unternehmen usw.
 
 ## Klassen
 
@@ -22,5 +22,5 @@ Der**Aspose.Words.Properties** Der Namespace stellt Klassen für work mit benutz
 
 | Aufzählung | Beschreibung |
 | --- | --- |
-| [DocumentSecurity](./documentsecurity/) | Wird als Wert für verwendet[`Security`](../aspose.words.properties/builtindocumentproperties/security/) property. Gibt die Sicherheitsstufe eines Dokuments als numerischen Wert an. |
+| [DocumentSecurity](./documentsecurity/) | Wird als Wert für die[`Security`](../aspose.words.properties/builtindocumentproperties/security/) property. Gibt die Sicherheitsstufe eines Dokuments als numerischen Wert an. |
 | [PropertyType](./propertytype/) | Gibt den Datentyp einer Dokumenteigenschaft an. |

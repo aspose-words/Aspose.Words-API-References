@@ -3,14 +3,14 @@ title: FieldAddressBlock.IncludeCountryOrRegionName
 linktitle: IncludeCountryOrRegionName
 articleTitle: IncludeCountryOrRegionName
 second_title: Aspose.Words für .NET
-description: FieldAddressBlock IncludeCountryOrRegionName eigendom. Ruft ab oder legt fest ob der Name des Landes/der Region enthalten sein soll in C#.
+description: Entdecken Sie die FieldAddressBlock-Eigenschaft „IncludeCountryOrRegionName“, um die Einbeziehung von Länder-/Regionsnamen für eine verbesserte Adressformatierung einfach zu verwalten.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldaddressblock/includecountryorregionname/
 ---
 ## FieldAddressBlock.IncludeCountryOrRegionName property
 
-Ruft ab oder legt fest, ob der Name des Landes/der Region enthalten sein soll.
+Ruft ab oder legt fest, ob der Name des Landes/der Region eingeschlossen werden soll.
 
 ```csharp
 public string IncludeCountryOrRegionName { get; set; }
@@ -28,8 +28,8 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Wenn Sie dies auf „2“ setzen, werden alle Länder und Regionen einbezogen.
-// es sei denn, es ist das in der ExcludedCountryOrRegionName-Eigenschaft angegebene.
+// Wenn Sie diesen Wert auf "2" setzen, werden alle Länder und Regionen einbezogen.
+// es sei denn, es handelt sich um das in der Eigenschaft „ExcludedCountryOrRegionName“ angegebene Land.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";

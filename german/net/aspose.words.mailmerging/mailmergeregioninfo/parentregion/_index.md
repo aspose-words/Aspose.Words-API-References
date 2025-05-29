@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.ParentRegion
 linktitle: ParentRegion
 articleTitle: ParentRegion
 second_title: Aspose.Words für .NET
-description: MailMergeRegionInfo ParentRegion eigendom. Gibt Informationen zur übergeordneten Region zurück null für die Region der obersten Ebene in C#.
+description: Entdecken Sie die Eigenschaft „MailMergeRegionInfo ParentRegion“, die wichtige Informationen zur übergeordneten Region liefert und für Regionen der obersten Ebene Null zurückgibt. Verbessern Sie Ihre Dokumentenautomatisierung!
 type: docs
 weight: 70
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/parentregion/
@@ -18,14 +18,14 @@ public MailMergeRegionInfo ParentRegion { get; }
 
 ## Beispiele
 
-Zeigt, wie Seriendruckbereiche erstellt, aufgelistet und gelesen werden.
+Zeigt, wie Serienbriefbereiche erstellt, aufgelistet und gelesen werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // „TableStart“- und „TableEnd“-Tags, die in MERGEFIELDs eingefügt werden,
-// bezeichnen die Zeichenfolgen, die den Anfang und das Ende von Seriendruckbereichen kennzeichnen.
+// bezeichnen die Zeichenfolgen, die den Anfang und das Ende von Serienbriefbereichen kennzeichnen.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
@@ -37,7 +37,7 @@ builder.Write(", ");
 builder.InsertField(" MERGEFIELD Column2");
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Wir können Zusammenführungsregionen und ihre Spalten verfolgen, indem wir uns diese Sammlungen ansehen.
+// Wir können Zusammenführungsbereiche und ihre Spalten verfolgen, indem wir uns diese Sammlungen ansehen.
 IList<MailMergeRegionInfo> regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(1, regions.Count);
@@ -48,15 +48,15 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
-// Fügen Sie eine Region mit demselben Namen in die vorhandene Region ein, wodurch sie zu einer übergeordneten Region wird.
+// Fügen Sie eine Region mit demselben Namen in die vorhandene Region ein, wodurch diese zu einer übergeordneten Region wird.
 // Jetzt befindet sich ein „Column2“-Feld in einer neuen Region.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Wenn wir mit der Methode „GetRegionsByName“ nach den Namen doppelter Regionen suchen,
-// Es werden alle derartigen Regionen in einer Sammlung zurückgegeben.
+// Wenn wir den Namen doppelter Regionen mit der Methode „GetRegionsByName“ nachschlagen,
+// es werden alle derartigen Regionen in einer Sammlung zurückgegeben.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);

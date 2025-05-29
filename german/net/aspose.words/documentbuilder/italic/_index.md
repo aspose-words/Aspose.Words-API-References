@@ -3,14 +3,14 @@ title: DocumentBuilder.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words für .NET
-description: DocumentBuilder Italic eigendom. True wenn die Schriftart kursiv formatiert ist in C#.
+description: Entdecken Sie die DocumentBuilder-Eigenschaft „Italic“. Formatieren Sie Ihren Text einfach kursiv für bessere Lesbarkeit und Stil in Ihren Dokumenten.
 type: docs
 weight: 140
 url: /de/net/aspose.words/documentbuilder/italic/
 ---
 ## DocumentBuilder.Italic property
 
-True, wenn die Schriftart kursiv formatiert ist.
+Wahr, wenn die Schriftart kursiv formatiert ist.
 
 ```csharp
 public bool Italic { get; set; }
@@ -18,13 +18,13 @@ public bool Italic { get; set; }
 
 ## Beispiele
 
-Zeigt, wie MERGEFIELDs mit einem Dokumentenersteller anstelle eines Seriendrucks mit Daten gefüllt werden.
+Zeigt, wie MERGEFIELDs mit einem Dokumentgenerator anstelle eines Serienbriefs mit Daten gefüllt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie einige MERGEFIELDS ein, die während eines Seriendrucks Daten aus gleichnamigen Spalten in einer Datenquelle akzeptieren.
+// Fügen Sie einige MERGEFIELDS ein, die während eines Seriendrucks Daten aus gleichnamigen Spalten einer Datenquelle akzeptieren.
 // und füllen Sie sie dann manuell aus.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");

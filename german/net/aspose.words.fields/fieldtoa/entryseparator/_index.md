@@ -3,14 +3,14 @@ title: FieldToa.EntrySeparator
 linktitle: EntrySeparator
 articleTitle: EntrySeparator
 second_title: Aspose.Words für .NET
-description: FieldToa EntrySeparator eigendom. Ruft die Zeichenfolge ab die zum Trennen eines Normverzeichniseintrags und seiner Seitenzahl verwendet wird oder legt diese fest in C#.
+description: Entdecken Sie die FieldToa EntrySeparator-Eigenschaft, um Ihr Rechtsgrundlagenverzeichnis mit flexiblen Zeichenfolgen für mehr Übersichtlichkeit einfach anzupassen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldtoa/entryseparator/
 ---
 ## FieldToa.EntrySeparator property
 
-Ruft die Zeichenfolge ab, die zum Trennen eines Normverzeichniseintrags und seiner Seitenzahl verwendet wird, oder legt diese fest.
+Ruft die Zeichenfolge ab oder legt sie fest, die zum Trennen eines Eintrags im Rechtsgrundlagenverzeichnis und seiner Seitenzahl verwendet wird.
 
 ```csharp
 public string EntrySeparator { get; set; }
@@ -18,7 +18,7 @@ public string EntrySeparator { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
+Zeigt, wie Sie mithilfe der Felder TOA und TA ein Rechtsgrundlagenverzeichnis erstellen und anpassen.
 
 ```csharp
 public void FieldTOA()
@@ -26,41 +26,41 @@ public void FieldTOA()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Ein TOA-Feld einfügen, das einen Eintrag für jedes TA-Feld im Dokument erstellt,
+    // Fügen Sie ein TOA-Feld ein, das für jedes TA-Feld im Dokument einen Eintrag erstellt.
     // Anzeige langer Zitate und Seitenzahlen für jeden Eintrag.
     FieldToa fieldToa = (FieldToa)builder.InsertField(FieldType.FieldTOA, false);
 
-    // Legen Sie die Eintragskategorie für unsere Tabelle fest. Diese TOA umfasst jetzt nur noch TA-Felder
-    // die einen passenden Wert in ihrer EntryCategory-Eigenschaft haben.
+    // Legen Sie die Eintragskategorie für unsere Tabelle fest. Diese TOA enthält jetzt nur noch TA-Felder
+    // die einen übereinstimmenden Wert in ihrer EntryCategory-Eigenschaft haben.
     fieldToa.EntryCategory = "1";
 
-    // Darüber hinaus lautet die Kategorie „Tabelle der Behörden“ auf Index 1 „Fälle“.
-    // was als Titel unserer Tabelle angezeigt wird, wenn wir diese Variable auf true setzen.
+    // Darüber hinaus lautet die Kategorie des Rechtsgrundlagenverzeichnisses bei Index 1 „Fälle“,
+    // was als Titel unserer Tabelle angezeigt wird, wenn wir diese Variable auf „true“ setzen.
     fieldToa.UseHeading = true;
 
     // Wir können TA-Felder weiter filtern, indem wir ein Lesezeichen benennen, das besagt, dass sie innerhalb der TOA-Grenzen liegen müssen.
     fieldToa.BookmarkName = "MyBookmark";
 
-    // Standardmäßig wird zwischen dem Zitat des TA-Felds eine seitenweite Registerkarte mit gepunkteter Linie angezeigt
-    // und seine Seitenzahl. Wir können es durch jeden Text ersetzen, den wir auf dieser Eigenschaft platzieren.
+    // Standardmäßig wird eine seitenbreite Registerkarte mit gepunkteter Linie zwischen den Zitaten des TA-Felds angezeigt
+    // und seine Seitenzahl. Wir können es durch jeden beliebigen Text ersetzen, den wir in diese Eigenschaft einfügen.
     // Durch das Einfügen eines Tabulatorzeichens bleibt der ursprüngliche Tabulator erhalten.
     fieldToa.EntrySeparator = " \t p.";
 
-    // Wenn wir mehrere TA-Einträge haben, die dasselbe lange Zitat haben,
-    // alle zugehörigen Seitenzahlen werden in einer Zeile angezeigt.
+    // Wenn wir mehrere TA-Einträge haben, die das gleiche lange Zitat teilen,
+    // Alle entsprechenden Seitenzahlen werden in einer Zeile angezeigt.
     // Wir können diese Eigenschaft verwenden, um eine Zeichenfolge anzugeben, die ihre Seitenzahlen trennt.
     fieldToa.PageNumberListSeparator = " & p. ";
 
-    // Wir können dies auf „true“ setzen, damit unsere Tabelle das Wort „passim“ anzeigt.
-    // wenn in einer Zeile fünf oder mehr Seitenzahlen stehen.
+    // Wir können dies auf „true“ setzen, damit in unserer Tabelle das Wort „passim“ angezeigt wird.
+    // wenn sich fünf oder mehr Seitenzahlen in einer Zeile befinden.
     fieldToa.UsePassim = true;
 
-    // Ein TA-Feld kann sich auf einen Bereich von Seiten beziehen.
-    // Wir können hier eine Zeichenfolge angeben, die zwischen der Start- und Endseitennummer für solche Bereiche angezeigt wird.
+    // Ein TA-Feld kann sich auf einen Seitenbereich beziehen.
+    // Wir können hier eine Zeichenfolge angeben, die zwischen den Start- und Endseitenzahlen für solche Bereiche angezeigt wird.
     fieldToa.PageRangeSeparator = " to ";
 
     // Das Format aus den TA-Feldern wird in unsere Tabelle übernommen.
-    // Wir können dies deaktivieren, indem wir das RemoveEntryFormatting-Flag setzen.
+    // Wir können dies deaktivieren, indem wir das Flag RemoveEntryFormatting setzen.
     fieldToa.RemoveEntryFormatting = true;
     builder.Font.Color = Color.Green;
     builder.Font.Name = "Arial Black";
@@ -70,17 +70,17 @@ public void FieldTOA()
     builder.InsertBreak(BreakType.PageBreak);
 
     // Dieses TA-Feld erscheint nicht als Eintrag im TOA, da es außerhalb liegt
-    // die Grenzen des Lesezeichens, die die BookmarkName-Eigenschaft des TOA angibt.
+    // die Grenzen des Lesezeichens, die durch die BookmarkName-Eigenschaft des TOA angegeben werden.
     FieldTA fieldTA = InsertToaEntry(builder, "1", "Source 1");
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 1\"", fieldTA.GetFieldCode());
 
-    // Dieses TA-Feld befindet sich im Lesezeichen,
-    // aber die Eintragskategorie stimmt nicht mit der der Tabelle überein, sodass das TA-Feld sie nicht enthält.
+    // Dieses TA-Feld befindet sich innerhalb des Lesezeichens,
+    // aber die Eintragskategorie stimmt nicht mit der der Tabelle überein, daher wird sie nicht in das TA-Feld aufgenommen.
     builder.StartBookmark("MyBookmark");
     fieldTA = InsertToaEntry(builder, "2", "Source 2");
 
-    // Dieser Eintrag erscheint in der Tabelle.
+    // Dieser Eintrag wird in der Tabelle angezeigt.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
 
     // Eine TOA-Tabelle zeigt keine Kurzzitate an,
@@ -89,18 +89,18 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\s S.3", fieldTA.GetFieldCode());
 
-    // Mit den folgenden Eigenschaften können wir die Seitenzahl so formatieren, dass sie fett/kursiv erscheint.
-    // Wir werden diese Effekte immer noch sehen, wenn wir unsere Tabelle so einstellen, dass sie die Formatierung ignoriert.
+    // Wir können die Seitenzahl mit den folgenden Eigenschaften fett/kursiv formatieren.
+    // Wir werden diese Effekte immer noch sehen, wenn wir unsere Tabelle so einstellen, dass die Formatierung ignoriert wird.
     fieldTA = InsertToaEntry(builder, "1", "Source 2");
     fieldTA.IsBold = true;
     fieldTA.IsItalic = true;
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 2\" \\b \\i", fieldTA.GetFieldCode());
 
-    // Wir können TA-Felder so konfigurieren, dass ihre TOA-Einträge auf einen Bereich von Seiten verweisen, über die sich ein Lesezeichen erstreckt.
-    // Beachten Sie, dass sich dieser Eintrag auf dieselbe Quelle wie der obige bezieht, um eine Zeile in unserer Tabelle gemeinsam zu nutzen.
+    // Wir können TA-Felder so konfigurieren, dass ihre TOA-Einträge auf einen Seitenbereich verweisen, über den sich ein Lesezeichen erstreckt.
+    // Beachten Sie, dass dieser Eintrag auf dieselbe Quelle wie der obige verweist, um eine Zeile in unserer Tabelle gemeinsam zu nutzen.
     // Diese Zeile enthält die Seitenzahl des obigen Eintrags und den Seitenbereich dieses Eintrags.
-    // mit der Seitenliste der Tabelle und den Seitenzahlbereichstrennzeichen zwischen den Seitenzahlen.
+    // mit der Seitenliste der Tabelle und den Seitenzahlenbereichstrennzeichen zwischen den Seitenzahlen.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
     fieldTA.PageRangeBookmarkName = "MyMultiPageBookmark";
 
@@ -112,7 +112,7 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\r MyMultiPageBookmark", fieldTA.GetFieldCode());
 
-    // Wenn wir die „Passim“-Funktion unserer Tabelle aktiviert haben, wird sie bei 5 oder mehr TA-Einträgen mit derselben Quelle aufgerufen.
+    // Wenn wir die Funktion „Passim“ unserer Tabelle aktiviert haben, wird sie durch 5 oder mehr TA-Einträge mit derselben Quelle aufgerufen.
     for (int i = 0; i < 5; i++)
     {
         InsertToaEntry(builder, "1", "Source 4");

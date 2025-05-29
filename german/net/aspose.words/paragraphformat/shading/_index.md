@@ -3,14 +3,14 @@ title: ParagraphFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words für .NET
-description: ParagraphFormat Shading eigendom. Gibt a zurückShading Objekt das sich auf die Schattierungsformatierung für den Absatz bezieht in C#.
+description: Entdecken Sie die ParagraphFormat-Schattierungseigenschaft für verbesserte Textgestaltung. Greifen Sie auf ein Schattierungsobjekt zu, um die visuelle Attraktivität Ihres Absatzes mühelos zu steigern.
 type: docs
-weight: 280
+weight: 290
 url: /de/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-Gibt a zurück[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsformatierung für den Absatz bezieht.
+Gibt einen[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsformatierung für den Absatz bezieht.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## Beispiele
 
-Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
+Zeigt, wie Sie Text mit Rahmen und Schattierungen verzieren.
 
 ```csharp
 Document doc = new Document();

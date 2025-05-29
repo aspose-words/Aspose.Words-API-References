@@ -3,7 +3,7 @@ title: AxisBound
 linktitle: AxisBound
 articleTitle: AxisBound
 second_title: Aspose.Words für .NET
-description: AxisBound constructeur. Erstellt eine neue Instanz die angibt dass die Achsengrenze automatisch von einer Textverarbeitungsanwendung bestimmt werden soll in C#.
+description: Erstellen Sie mühelos dynamische Achsengrenzen mit dem AxisBound-Konstruktor, sodass Ihre Textverarbeitungs-App automatisch optimale Layouts für ein verbessertes Benutzererlebnis bestimmen kann.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/axisbound/axisbound/
@@ -30,18 +30,18 @@ Chart chart = chartShape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Eine Reihe mit zwei Dezimalarrays hinzufügen. Das erste Array enthält die X-Werte,
-// und der zweite enthält entsprechende Y-Werte für Punkte im Streudiagramm.
-chart.Series.Add("Series 1", 
-    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
+// Eine Reihe mit zwei Dezimal-Arrays hinzufügen. Das erste Array enthält die X-Werte,
+// und die zweite enthält entsprechende Y-Werte für Punkte im Streudiagramm.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 },
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
-// Standardmäßig wird die Standardskalierung auf die X- und Y-Achsen des Diagramms angewendet.
+// Standardmäßig wird die Standardskalierung auf die X- und Y-Achse des Diagramms angewendet,
 // sodass beide Bereiche groß genug sind, um jeden X- und Y-Wert jeder Reihe zu umfassen.
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
 // Wir können unsere eigenen Achsengrenzen definieren.
-// In diesem Fall stellen wir sicher, dass sowohl die X- als auch die Y-Achsenlineale einen Bereich von 0 bis 10 anzeigen.
+// In diesem Fall stellen wir sicher, dass sowohl die Lineale der X- als auch der Y-Achse einen Bereich von 0 bis 10 anzeigen.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
@@ -64,8 +64,8 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
-// Wir können Achsengrenzen auch in Form von Datumsangaben festlegen und so das Diagramm auf einen Zeitraum beschränken.
-// Wenn Sie den Bereich auf 1980-1990 festlegen, werden die beiden Serienwerte weggelassen
+// Wir können Achsengrenzen auch in Form von Daten festlegen und so das Diagramm auf einen Zeitraum beschränken.
+// Wenn Sie den Bereich auf 1980-1990 einstellen, werden die beiden Serienwerte weggelassen
 // die außerhalb des Bereichs des Diagramms liegen.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));
 chart.AxisX.Scaling.Maximum = new AxisBound(new DateTime(1990, 1, 1));
@@ -83,7 +83,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 
 ## AxisBound(*double*) {#constructor_1}
 
-Erstellt eine als Zahl dargestellte Achsengrenze.
+Erstellt eine Achsengrenze, die als Zahl dargestellt wird.
 
 ```csharp
 public AxisBound(double value)
@@ -112,12 +112,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Untere und obere Grenze für die X-Achse festlegen.
+// Untere und obere Grenzen für die X-Achse festlegen.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Setze die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag.
+// Stellen Sie die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag ein.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -126,9 +126,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Y-Achsen-Eigenschaften für Dezimalwerte definieren.
+// Definieren Sie die Eigenschaften der Y-Achse für Dezimalwerte.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
@@ -150,7 +150,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound(*DateTime*) {#constructor_2}
 
-Erstellt eine Achsengrenze, die als Datum/Uhrzeit-Wert dargestellt wird.
+Erstellt eine Achsengrenze, die als Datums-/Uhrzeitwert dargestellt wird.
 
 ```csharp
 public AxisBound(DateTime datetime)
@@ -179,12 +179,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Untere und obere Grenze für die X-Achse festlegen.
+// Untere und obere Grenzen für die X-Achse festlegen.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Setze die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag.
+// Stellen Sie die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag ein.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -193,9 +193,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Y-Achsen-Eigenschaften für Dezimalwerte definieren.
+// Definieren Sie die Eigenschaften der Y-Achse für Dezimalwerte.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

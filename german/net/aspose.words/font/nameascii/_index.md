@@ -3,14 +3,14 @@ title: Font.NameAscii
 linktitle: NameAscii
 articleTitle: NameAscii
 second_title: Aspose.Words für .NET
-description: Font NameAscii eigendom. Gibt die für lateinischen Text verwendete Schriftart zurück oder legt sie fest Zeichen mit Zeichencodes von 0 Null bis 127 in C#.
+description: Entdecken Sie die Eigenschaft „Font NameAscii“, um lateinische Textschriftarten anzupassen und Ihr Design mit den Zeichencodes 0–127 für eine bessere Lesbarkeit zu verbessern.
 type: docs
 weight: 240
 url: /de/net/aspose.words/font/nameascii/
 ---
 ## Font.NameAscii property
 
-Gibt die für lateinischen Text verwendete Schriftart zurück oder legt sie fest (Zeichen mit Zeichencodes von 0 (Null) bis 127).
+Gibt die Schriftart für lateinischen Text zurück oder legt sie fest (Zeichen mit Zeichencodes von 0 (Null) bis 127).
 
 ```csharp
 public string NameAscii { get; set; }
@@ -24,9 +24,9 @@ Zeigt, wie Microsoft Word zwei verschiedene Schriftarten in einem Durchgang komb
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Angenommen, ein Lauf, den wir mit dem Builder einfügen, während wir diese Schriftartenkonfiguration verwenden
-// enthält Zeichen innerhalb des ASCII-Zeichenbereichs. In diesem Fall,
-// Es werden diese Zeichen mit dieser Schriftart angezeigt.
+// Nehmen wir an, wir verwenden den Builder zum Einfügen, während wir diese Schriftartkonfiguration verwenden
+// enthält Zeichen innerhalb des ASCII-Zeichenbereichs. In diesem Fall
+// Es werden diese Zeichen in dieser Schriftart angezeigt.
 builder.Font.NameAscii = "Calibri";
 
 // Wenn keine andere Schriftart angegeben ist, wendet der Builder diese Schriftart auch auf alle Zeichen an, die er einfügt.
@@ -36,8 +36,8 @@ Assert.AreEqual("Calibri", builder.Font.Name);
 // Idealerweise sollte diese Schriftart für jeden erforderlichen Nicht-ASCII-Zeichencode ein Glyph haben.
 builder.Font.NameOther = "Courier New";
 
-// Einen Lauf mit einem Wort bestehend aus ASCII-Zeichen und einem Wort mit allen Zeichen außerhalb dieses Bereichs einfügen.
-// Jedes Zeichen wird abhängig von einer der Schriftarten angezeigt.
+// Fügen Sie einen Lauf mit einem Wort ein, das aus ASCII-Zeichen besteht, und einem Wort mit allen Zeichen außerhalb dieses Bereichs.
+// Jedes Zeichen wird je nach Schriftart in einer der beiden Schriftarten angezeigt.
 builder.Writeln("Hello, Привет");
 
 doc.Save(ArtifactsDir + "Font.NameAscii.docx");

@@ -3,14 +3,14 @@ title: OdsoRecipientData.UniqueTag
 linktitle: UniqueTag
 articleTitle: UniqueTag
 second_title: Aspose.Words für .NET
-description: OdsoRecipientData UniqueTag eigendom. Gibt den Inhalt eines bestimmten Datensatzes in der Spalte an die eindeutige Daten enthält. Der Standardwert istNull  in C#.
+description: Entdecken Sie die OdsoRecipientData UniqueTag-Eigenschaft, die eindeutige Datensatzinhalte definiert. Optimieren Sie Ihr Datenmanagement mit dieser wichtigen Funktion.
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/odsorecipientdata/uniquetag/
 ---
 ## OdsoRecipientData.UniqueTag property
 
-Gibt den Inhalt eines bestimmten Datensatzes in der Spalte an, die eindeutige Daten enthält. Der Standardwert ist`Null` .
+Gibt den Inhalt eines bestimmten Datensatzes in der Spalte mit eindeutigen Daten an. Der Standardwert ist`null` .
 
 ```csharp
 public byte[] UniqueTag { get; set; }
@@ -18,7 +18,7 @@ public byte[] UniqueTag { get; set; }
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Datensätze aus Seriendruckdatenquellen bei einem Seriendruck ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können Elemente auch einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.SdtType
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart SdtType eigendom. Ruft den Typ dieses strukturierten DokumentTags ab in C#.
+description: Entdecken Sie die SdtType-Eigenschaft von StructuredDocumentTagRangeStart. Erfahren Sie, wie Sie strukturierte Dokument-Tag-Typen für ein verbessertes Dokumentenmanagement identifizieren.
 type: docs
 weight: 140
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
@@ -18,7 +18,7 @@ public SdtType SdtType { get; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

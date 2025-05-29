@@ -3,7 +3,7 @@ title: ShapeBase.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words für .NET
-description: ShapeBase Fill eigendom. Ruft die Füllformatierung für die Form ab in C#.
+description: Entdecken Sie die ShapeBase-Füllfunktion, um Ihre Designs mit anpassbaren Füllformaten für Formen zu verbessern. Werten Sie Ihre visuellen Elemente mühelos auf!
 type: docs
 weight: 170
 url: /de/net/aspose.words.drawing/shapebase/fill/
@@ -24,7 +24,7 @@ Zeigt, wie eine Form mit einer Volltonfarbe gefüllt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Schreiben Sie etwas Text und bedecken Sie ihn dann mit einer schwebenden Form.
+// Schreiben Sie einen Text und bedecken Sie ihn dann mit einer schwebenden Form.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
@@ -37,7 +37,7 @@ shape.StrokeColor = Color.CadetBlue;
 // Verwenden Sie die Eigenschaft „FillColor“, um die Farbe des Innenbereichs der Form festzulegen.
 shape.FillColor = Color.LightBlue;
 
-// Die Eigenschaft „Opacity“ bestimmt, wie transparent die Farbe auf einer Skala von 0-1 ist,
+// Die Eigenschaft „Deckkraft“ bestimmt, wie transparent die Farbe auf einer Skala von 0 bis 1 ist.
 // wobei 1 völlig undurchsichtig und 0 unsichtbar ist.
 // Die Formfüllung ist standardmäßig vollständig undurchsichtig, sodass wir den Text, über dem sich diese Form befindet, nicht sehen können.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);

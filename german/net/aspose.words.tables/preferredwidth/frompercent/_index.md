@@ -3,14 +3,14 @@ title: PreferredWidth.FromPercent
 linktitle: FromPercent
 articleTitle: FromPercent
 second_title: Aspose.Words für .NET
-description: PreferredWidth FromPercent methode. Eine Erstellungsmethode die eine neue Instanz zurückgibt die eine bevorzugte Breite darstellt die als Prozentsatz angegeben wird in C#.
+description: Entdecken Sie die Methode PreferredWidth FromPercent, die eine neue Instanz zum Definieren bevorzugter Breiten als Prozentsatz erstellt. Verbessern Sie die Präzision Ihres Designs!
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/preferredwidth/frompercent/
 ---
 ## PreferredWidth.FromPercent method
 
-Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die als Prozentsatz angegeben wird.
+Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die als Prozentsatz angegeben ist.
 
 ```csharp
 public static PreferredWidth FromPercent(double percent)
@@ -22,7 +22,7 @@ public static PreferredWidth FromPercent(double percent)
 
 ## Beispiele
 
-Zeigt, wie man eine Tabelle so einstellt, dass sie automatisch an 50 % der Seitenbreite angepasst wird.
+Zeigt, wie Sie eine Tabelle so einstellen, dass sie automatisch auf 50 % der Seitenbreite angepasst wird.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ table.PreferredWidth = PreferredWidth.FromPercent(50);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```
 
-Zeigt, wie man eine bevorzugte Breite für Tabellenzellen festlegt.
+Zeigt, wie Sie eine bevorzugte Breite für Tabellenzellen festlegen.
 
 ```csharp
 Document doc = new Document();
@@ -63,7 +63,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Eine Zelle, für die keine bevorzugte Breite angegeben ist, nimmt den Rest des verfügbaren Platzes ein.
+// Eine Zelle ohne angegebene bevorzugte Breite nimmt den restlichen verfügbaren Platz ein.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Jede Konfiguration der Eigenschaft „PreferredWidth“ erstellt ein neues Objekt.

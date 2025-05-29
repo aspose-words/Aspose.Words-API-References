@@ -3,14 +3,14 @@ title: OdtSaveMeasureUnit Enum
 linktitle: OdtSaveMeasureUnit
 articleTitle: OdtSaveMeasureUnit
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.OdtSaveMeasureUnit opsomming. Spezifizierte Maßeinheiten die beim Speichern auf messbare Dokumentinhalte wie Form Breite usw. angewendet werden sollen in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.OdtSaveMeasureUnit für präzise Kontrolle über Dokumentmaße. Verbessern Sie mühelos die Formatierung Ihrer Dokumente!
 type: docs
-weight: 5320
+weight: 6100
 url: /de/net/aspose.words.saving/odtsavemeasureunit/
 ---
 ## OdtSaveMeasureUnit enumeration
 
-Spezifizierte Maßeinheiten, die beim Speichern auf messbare Dokumentinhalte wie Form, Breite usw. angewendet werden sollen.
+Angegebene Maßeinheiten, die beim Speichern auf messbare Dokumentinhalte wie Form, Breite und andere angewendet werden.
 
 ```csharp
 public enum OdtSaveMeasureUnit
@@ -25,16 +25,16 @@ public enum OdtSaveMeasureUnit
 
 ## Beispiele
 
-Zeigt, wie Sie verschiedene Maßeinheiten verwenden, um Stilparameter eines gespeicherten ODT-Dokuments zu definieren.
+Zeigt, wie verschiedene Maßeinheiten verwendet werden, um Stilparameter eines gespeicherten ODT-Dokuments zu definieren.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Wenn wir das Dokument in .odt exportieren, können wir ein OdtSaveOptions-Objekt verwenden, um zu ändern, wie wir das Dokument speichern.
-// Wir können die Eigenschaft „MeasureUnit“ auf „OdtSaveMeasureUnit.Centimeters“ setzen
- // um Inhalte wie Stilparameter mithilfe des metrischen Systems zu definieren, das Open Office verwendet.
+// Wir können die Eigenschaft „MeasureUnit“ auf „OdtSaveMeasureUnit.Centimeters“ setzen.
+    // um Inhalte wie Stilparameter mithilfe des metrischen Systems zu definieren, das Open Office verwendet.
 // Wir können die Eigenschaft „MeasureUnit“ auf „OdtSaveMeasureUnit.Inches“ setzen.
-// um Inhalte wie Stilparameter mithilfe des imperialen Systems zu definieren, das Microsoft Word verwendet.
+// um Inhalte wie Stilparameter mithilfe des imperialen Systems zu definieren, das von Microsoft Word verwendet wird.
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

@@ -1,7 +1,9 @@
 ---
 title: Section.AcceptStart
-second_title: Aspose.Words für .NET-API-Referenz
-description: Section methode. 
+linktitle: AcceptStart
+articleTitle: AcceptStart
+second_title: Aspose.Words für .NET
+description: Schalten Sie die nahtlose Integration mit der AcceptStart-Methode frei. Verbessern Sie Ihren Workflow und steigern Sie Ihre Effizienz noch heute mit unseren Expertenlösungen!
 type: docs
 weight: 90
 url: /de/net/aspose.words/section/acceptstart/
@@ -17,7 +19,5 @@ public override VisitorAction AcceptStart(DocumentVisitor visitor)
 * enum [VisitorAction](../../visitoraction/)
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* namensraum [Aspose.Words](../../section/)
+* namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)
-
-

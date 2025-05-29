@@ -3,9 +3,9 @@ title: Document.Sections
 linktitle: Sections
 articleTitle: Sections
 second_title: Aspose.Words für .NET
-description: Document Sections eigendom. Gibt eine Sammlung zurück die alle Abschnitte im Dokument darstellt in C#.
+description: Erkunden Sie die Eigenschaft „Dokumentabschnitte“, um auf eine vollständige Sammlung aller Dokumentabschnitte zuzugreifen und so Ihre Inhaltsorganisation und Navigation zu verbessern.
 type: docs
-weight: 370
+weight: 390
 url: /de/net/aspose.words/document/sections/
 ---
 ## Document.Sections property
@@ -30,12 +30,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// Den ersten Abschnitt aus dem Dokument löschen.
+// Löschen Sie den ersten Abschnitt aus dem Dokument.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Eine Kopie des nun ersten Abschnitts an das Ende des Dokuments anhängen.
+// Fügen Sie eine Kopie des jetzigen ersten Abschnitts an das Ende des Dokuments an.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
@@ -43,15 +43,15 @@ doc.Sections.Add(newSection);
 Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
 ```
 
-Zeigt, wie Sie angeben, wie sich ein neuer Abschnitt vom vorherigen trennt.
+Zeigt, wie Sie angeben, wie sich ein neuer Abschnitt vom vorherigen abgrenzt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Abschnittswechseltypen bestimmen, wie sich ein neuer Abschnitt vom vorherigen Abschnitt trennt.
-// Nachfolgend finden Sie fünf Arten von Abschnittsumbrüchen.
+// Abschnittsumbruchtypen bestimmen, wie sich ein neuer Abschnitt vom vorherigen Abschnitt abgrenzt.
+// Unten sind fünf Arten von Abschnittsumbrüchen aufgeführt.
 // 1 – Beginnt den nächsten Abschnitt auf einer neuen Seite:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");

@@ -3,14 +3,14 @@ title: ImageData.ToImage
 linktitle: ToImage
 articleTitle: ToImage
 second_title: Aspose.Words für .NET
-description: ImageData ToImage methode. Ruft das in der Form gespeicherte Bild als abImage Objekt in C#.
+description: Nutzen Sie die Leistungsfähigkeit der ToImage-Methode in ImageData, um in Formen gespeicherte Bilder einfach als Bildobjekte abzurufen. Optimieren Sie Ihre Projekte mühelos!
 type: docs
-weight: 220
+weight: 230
 url: /de/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-Ruft das in der Form gespeicherte Bild als abImage Objekt.
+Ruft das in der Form gespeicherte Bild alsImage Objekt.
 
 ```csharp
 public Image ToImage()
@@ -18,37 +18,27 @@ public Image ToImage()
 
 ## Bemerkungen
 
-Ein neuerImage Das Objekt wird bei jedem Aufruf dieser Methode erstellt.
+Ein neuesImage Bei jedem Aufruf dieser Methode wird ein Objekt erstellt.
 
-Es liegt in der Verantwortung des Aufrufers, über das Bildobjekt zu verfügen.
+Es liegt in der Verantwortung des Anrufers, das Bildobjekt zu entsorgen.
 
 ## Beispiele
 
-Zeigt, wie alle Bilder eines Dokuments im Dateisystem gespeichert werden.
+Zeigt, wie alle Bilder aus einem Dokument im Dateisystem gespeichert werden.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
 // Formen mit gesetztem „HasImage“-Flag speichern und zeigen alle Bilder des Dokuments an.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
-// Jede Form durchgehen und ihr Bild speichern.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+// Gehen Sie jede Form durch und speichern Sie ihr Bild.
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 

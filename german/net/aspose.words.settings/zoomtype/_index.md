@@ -3,14 +3,14 @@ title: ZoomType Enum
 linktitle: ZoomType
 articleTitle: ZoomType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.ZoomType opsomming. Mögliche Werte dafür wie groß oder klein das Dokument auf dem Bildschirm in Microsoft Word erscheint in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Settings.ZoomType, um die Dokumentanzeigegrößen in Microsoft Word für optimale Anzeige und Produktivität anzupassen.
 type: docs
-weight: 5980
+weight: 6810
 url: /de/net/aspose.words.settings/zoomtype/
 ---
 ## ZoomType enumeration
 
-Mögliche Werte dafür, wie groß oder klein das Dokument auf dem Bildschirm in Microsoft Word erscheint.
+Mögliche Werte dafür, wie groß oder klein das Dokument in Microsoft Word auf dem Bildschirm angezeigt wird.
 
 ```csharp
 public enum ZoomType
@@ -20,11 +20,29 @@ public enum ZoomType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Custom | `0` | Der Zoom-Prozentsatz wird explizit festgelegt. Es wird nicht automatisch neu berechnet, wenn sich die Kontrollgröße ändert. |
-| None | `0` | Gibt an, dass der explizite Zoom-Prozentsatz verwendet werden soll. Gleich wieCustom . |
-| FullPage | `1` | Der Zoom-Prozentsatz wird automatisch neu berechnet, sodass er auf eine ganze Seite passt. |
-| PageWidth | `2` | Der Zoom-Prozentsatz wird automatisch neu berechnet, um ihn an die Seitenbreite anzupassen. |
-| TextFit | `3` | Der Zoom-Prozentsatz wird automatisch neu berechnet, um ihn an den Text anzupassen. |
+| Custom | `0` | Der Zoomprozentsatz wird explizit festgelegt. Er wird nicht automatisch neu berechnet, wenn sich die Steuerelementgröße ändert. |
+| None | `0` | Gibt an, dass der explizite Zoomprozentsatz verwendet werden soll. Dasselbe wieCustom . |
+| FullPage | `1` | Der Zoomprozentsatz wird automatisch neu berechnet, um eine ganze Seite auszufüllen. |
+| PageWidth | `2` | Der Zoomprozentsatz wird automatisch neu berechnet, um der Seitenbreite zu entsprechen. |
+| TextFit | `3` | Der Zoomprozentsatz wird automatisch neu berechnet, damit der Text hineinpasst. |
+
+## Beispiele
+
+Zeigt, wie ein benutzerdefinierter Zoomfaktor festgelegt wird, den ältere Versionen von Microsoft Word beim Laden eines Dokuments anwenden.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Writeln("Hello world!");
+
+doc.ViewOptions.ViewType = ViewType.PageLayout;
+doc.ViewOptions.ZoomPercent = 50;
+
+Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
+Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+
+doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
+```
 
 ### Siehe auch
 

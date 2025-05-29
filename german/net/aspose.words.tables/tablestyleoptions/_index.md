@@ -3,9 +3,9 @@ title: TableStyleOptions Enum
 linktitle: TableStyleOptions
 articleTitle: TableStyleOptions
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Tables.TableStyleOptions opsomming. Gibt an wie der Tabellenstil auf eine Tabelle angewendet wird in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.Tables.TableStyleOptions für flexible Tabellengestaltung. Verbessern Sie Ihr Dokumentdesign noch heute mit anpassbaren Tabellenstilen!
 type: docs
-weight: 6370
+weight: 7220
 url: /de/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -21,19 +21,19 @@ public enum TableStyleOptions
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Es wird keine Formatierung im Tabellenstil angewendet. |
-| FirstRow | `20` | Bedingte Formatierung der ersten Zeile anwenden. |
-| LastRow | `40` | Bedingte Formatierung der letzten Zeile anwenden. |
-| FirstColumn | `80` | Wenden Sie die bedingte Formatierung der ersten Spalte an. |
+| None | `0` | Es wird keine Tabellenformatierung angewendet. |
+| FirstRow | `20` | Bedingte Formatierung auf die erste Zeile anwenden. |
+| LastRow | `40` | Bedingte Formatierung auf die letzte Zeile anwenden. |
+| FirstColumn | `80` | Bedingte Formatierung auf die erste Spalte anwenden. |
 | LastColumn | `100` | Bedingte Formatierung der letzten Spalte anwenden. |
-| RowBands | `200` | Bedingte Zeilenbandformatierung anwenden. |
-| ColumnBands | `400` | Wenden Sie die bedingte Formatierung der Spaltenbänder an. |
-| Default2003 | `600` | Zeilen- und Spaltenbänderung wird angewendet. Dies ist die Microsoft Word-Standardeinstellung für alte Formate wie DOC, WML und RTF. |
+| RowBands | `200` | Bedingte Formatierung für Zeilenbänder anwenden. |
+| ColumnBands | `400` | Bedingte Formatierung durch Spaltenbandbildung anwenden. |
+| Default2003 | `600` | Zeilen- und Spaltenbandierung wird angewendet. Dies ist die Standardeinstellung von Microsoft Word für alte Formate wie DOC, WML und RTF. |
 | Default | `2A0` | Dies sind die Standardeinstellungen von Microsoft Word. |
 
 ## Beispiele
 
-Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
+Zeigt, wie beim Anwenden eines Stils eine neue Tabelle erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -44,10 +44,10 @@ Table table = builder.StartTable();
 builder.InsertCell();
 
 // Legen Sie den verwendeten Tabellenstil basierend auf der Stilkennung fest.
-// Beachten Sie, dass beim Speichern im .doc-Format nicht alle Tabellenstile verfügbar sind.
+// Beachten Sie, dass beim Speichern im DOC-Format nicht alle Tabellenstile verfügbar sind.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Den Stil basierend auf Prädikaten teilweise auf Features der Tabelle anwenden und dann die Tabelle erstellen.
+// Wenden Sie den Stil teilweise auf Funktionen der Tabelle basierend auf Prädikaten an und erstellen Sie dann die Tabelle.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

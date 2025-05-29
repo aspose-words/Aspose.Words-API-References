@@ -3,14 +3,14 @@ title: Document.FootnoteOptions
 linktitle: FootnoteOptions
 articleTitle: FootnoteOptions
 second_title: Aspose.Words für .NET
-description: Document FootnoteOptions eigendom. Bietet Optionen die die Nummerierung und Positionierung von Fußnoten in diesem Dokument steuern in C#.
+description: Erkunden Sie die Document FootnoteOptions-Eigenschaft, um die Nummerierung und Positionierung von Fußnoten anzupassen und so die Klarheit und Professionalität Ihres Dokuments zu verbessern.
 type: docs
-weight: 150
+weight: 160
 url: /de/net/aspose.words/document/footnoteoptions/
 ---
 ## Document.FootnoteOptions property
 
-Bietet Optionen, die die Nummerierung und Positionierung von Fußnoten in diesem Dokument steuern.
+Bietet Optionen zur Steuerung der Nummerierung und Positionierung von Fußnoten in diesem Dokument.
 
 ```csharp
 public FootnoteOptions FootnoteOptions { get; }
@@ -24,40 +24,40 @@ Zeigt, wie Sie einen anderen Ort auswählen, an dem das Dokument seine Fußnoten
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Fußnote ist eine Möglichkeit, dem Text eine Referenz oder einen Randkommentar hinzuzufügen
- // das den Fluss des Haupttextes nicht beeinträchtigt.
-// Beim Einfügen einer Fußnote wird ein kleines hochgestelltes Referenzsymbol hinzugefügt
-// am Haupttext, wo wir die Fußnote einfügen.
+// Eine Fußnote ist eine Möglichkeit, einem Text einen Verweis oder einen Randkommentar hinzuzufügen.
+    // das den Textfluss des Hauptteils nicht beeinträchtigt.
+// Das Einfügen einer Fußnote fügt ein kleines hochgestelltes Referenzsymbol hinzu
+// im Haupttext, wo wir die Fußnote einfügen.
 // Jede Fußnote erzeugt auch einen Eintrag am Ende der Seite, bestehend aus einem Symbol
 // das mit dem Referenzsymbol im Haupttext übereinstimmt.
-// Der Referenztext, den wir an die Methode „InsertFootnote“ des Document Builders übergeben.
+// Der Referenztext, den wir an die Methode „InsertFootnote“ des Dokumentgenerators übergeben.
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote contents.");
 
-// Wir können die Eigenschaft „Position“ verwenden, um zu bestimmen, wo das Dokument alle seine Fußnoten platzieren soll.
+// Mit der Eigenschaft „Position“ können wir bestimmen, wo im Dokument alle Fußnoten platziert werden.
 // Wenn wir den Wert der Eigenschaft „Position“ auf „FootnotePosition.BottomOfPage“ setzen,
-// Jede Fußnote wird am Ende der Seite angezeigt, die ihre Referenzmarke enthält. Dies ist der Standardwert.
+// Jede Fußnote wird unten auf der Seite angezeigt, die das entsprechende Referenzzeichen enthält. Dies ist der Standardwert.
 // Wenn wir den Wert der Eigenschaft „Position“ auf „FootnotePosition.BeneathText“ setzen,
-// Jede Fußnote wird am Ende des Seitentextes angezeigt, der ihre Referenzmarke enthält.
+// Jede Fußnote wird am Ende des Seitentextes angezeigt, der ihr Referenzzeichen enthält.
 doc.FootnoteOptions.Position = footnotePosition;
 
 doc.Save(ArtifactsDir + "InlineStory.PositionFootnote.docx");
 ```
 
-Zeigt, wie man eine Zahl festlegt, bei der das Dokument mit der Fußnoten-/Endnotenzählung beginnt.
+Zeigt, wie eine Zahl festgelegt wird, bei der im Dokument mit der Zählung der Fußnoten/Endnoten begonnen wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fußnoten und Endnoten sind eine Möglichkeit, dem Text eine Referenz oder einen Randkommentar hinzuzufügen
- // das den Fluss des Haupttextes nicht beeinträchtigt.
-// Beim Einfügen einer Fußnote/Endnote wird ein kleines hochgestelltes Referenzsymbol hinzugefügt
-// am Haupttext, wo wir die Fußnote/Endnote einfügen.
-// Jede Fußnote/Endnote erzeugt auch einen Eintrag, der aus einem Symbol besteht
+// Fußnoten und Endnoten sind eine Möglichkeit, einen Verweis oder einen Randkommentar an den Text anzuhängen
+    // das den Textfluss des Hauptteils nicht beeinträchtigt.
+// Das Einfügen einer Fußnote/Endnote fügt ein kleines hochgestelltes Referenzsymbol hinzu
+// im Haupttext, wo wir die Fußnote/Endnote einfügen.
+// Jede Fußnote/Endnote erzeugt ebenfalls einen Eintrag, der aus einem Symbol besteht
 // das mit dem Referenzsymbol im Haupttext übereinstimmt.
-// Der Referenztext, den wir an die „InsertEndnote“-Methode des Document Builders übergeben.
-// Fußnoteneinträge werden standardmäßig unten auf jeder Seite angezeigt, die Folgendes enthält
+// Der Referenztext, den wir an die Methode „InsertEndnote“ des Dokumentgenerators übergeben.
+// Fußnoteneinträge erscheinen standardmäßig am Ende jeder Seite, die Folgendes enthält:
 // Ihre Referenzsymbole und Endnoten werden am Ende des Dokuments angezeigt.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
@@ -75,33 +75,33 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 2.");
 builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 
-// Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote ihr Index
+// Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote der Index
 // unter allen Fußnoten/Endnoten des Dokuments. Jedes Dokument verwaltet separate Zählungen
 // für Fußnoten und für Endnoten, die beide bei 1 beginnen.
 Assert.AreEqual(1, doc.FootnoteOptions.StartNumber);
 Assert.AreEqual(1, doc.EndnoteOptions.StartNumber);
 
-// Wir können die Eigenschaft „StartNumber“ verwenden, um das Dokument abzurufen
-// Beginnen Sie eine Fußnoten- oder Endnotenzählung mit einer anderen Zahl.
+// Wir können die Eigenschaft "StartNumber" verwenden, um das Dokument zu erhalten
+// Beginnen Sie mit der Zählung einer Fuß- oder Endnote bei einer anderen Zahl.
 doc.EndnoteOptions.NumberStyle = NumberStyle.Arabic;
 doc.EndnoteOptions.StartNumber = 50;
 
 doc.Save(ArtifactsDir + "InlineStory.StartNumber.docx");
 ```
 
-Zeigt, wie der Nummernstil von Fußnoten-/Endnoten-Referenzzeichen geändert wird.
+Zeigt, wie der Nummerierungsstil von Fußnoten-/Endnotenverweiszeichen geändert wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fußnoten und Endnoten sind eine Möglichkeit, dem Text eine Referenz oder einen Randkommentar hinzuzufügen
- // das den Fluss des Haupttextes nicht beeinträchtigt.
-// Beim Einfügen einer Fußnote/Endnote wird ein kleines hochgestelltes Referenzsymbol hinzugefügt
-// am Haupttext, wo wir die Fußnote/Endnote einfügen.
-// Jede Fußnote/Endnote erstellt auch einen Eintrag, der aus einem Symbol besteht, das mit der Referenz übereinstimmt
-// Symbol im Haupttext. Der Referenztext, den wir an die Methode „InsertEndnote“ des Document Builders übergeben.
-// Fußnoteneinträge werden standardmäßig unten auf jeder Seite angezeigt, die Folgendes enthält
+// Fußnoten und Endnoten sind eine Möglichkeit, einen Verweis oder einen Randkommentar an den Text anzuhängen
+    // das den Textfluss des Hauptteils nicht beeinträchtigt.
+// Das Einfügen einer Fußnote/Endnote fügt ein kleines hochgestelltes Referenzsymbol hinzu
+// im Haupttext, wo wir die Fußnote/Endnote einfügen.
+// Jede Fußnote/Endnote erzeugt ebenfalls einen Eintrag, der aus einem Symbol besteht, das mit der Referenz übereinstimmt
+// Symbol im Haupttext. Der Referenztext, den wir an die Methode „InsertEndnote“ des Dokumentgenerators übergeben.
+// Fußnoteneinträge erscheinen standardmäßig am Ende jeder Seite, die Folgendes enthält:
 // Ihre Referenzsymbole und Endnoten werden am Ende des Dokuments angezeigt.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
@@ -119,15 +119,15 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 2.");
 builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote reference mark");
 
-// Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote ihr Index
+// Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote der Index
 // unter allen Fußnoten/Endnoten des Dokuments. Jedes Dokument verwaltet separate Zählungen
-// für Fußnoten und für Endnoten. Standardmäßig werden in Fußnoten ihre Nummern mit arabischen Ziffern angezeigt.
-// und Endnoten zeigen ihre Nummern in kleinen römischen Ziffern an.
+// für Fußnoten und Endnoten. Standardmäßig werden Fußnoten mit arabischen Ziffern nummeriert,
+// und Endnoten zeigen ihre Nummern in römischen Kleinbuchstaben an.
 Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
 Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
 
 // Wir können die Eigenschaft „NumberStyle“ verwenden, um benutzerdefinierte Nummerierungsstile auf Fußnoten und Endnoten anzuwenden.
-// Dies hat keine Auswirkungen auf Fußnoten/Endnoten mit benutzerdefinierten Referenzmarken.
+// Fußnoten/Endnoten mit benutzerdefinierten Referenzzeichen sind hiervon nicht betroffen.
 doc.FootnoteOptions.NumberStyle = NumberStyle.UppercaseRoman;
 doc.EndnoteOptions.NumberStyle = NumberStyle.UppercaseLetter;
 
@@ -140,13 +140,13 @@ Zeigt, wie die Fußnoten-/Endnotennummerierung an bestimmten Stellen im Dokument
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fußnoten und Endnoten sind eine Möglichkeit, dem Text eine Referenz oder einen Randkommentar hinzuzufügen
- // das den Fluss des Haupttextes nicht beeinträchtigt.
-// Beim Einfügen einer Fußnote/Endnote wird ein kleines hochgestelltes Referenzsymbol hinzugefügt
-// am Haupttext, wo wir die Fußnote/Endnote einfügen.
-// Jede Fußnote/Endnote erstellt auch einen Eintrag, der aus einem Symbol besteht, das mit der Referenz übereinstimmt
-// Symbol im Haupttext. Der Referenztext, den wir an die Methode „InsertEndnote“ des Document Builders übergeben.
-// Fußnoteneinträge werden standardmäßig unten auf jeder Seite angezeigt, die Folgendes enthält
+// Fußnoten und Endnoten sind eine Möglichkeit, einen Verweis oder einen Randkommentar an den Text anzuhängen
+    // das den Textfluss des Hauptteils nicht beeinträchtigt.
+// Das Einfügen einer Fußnote/Endnote fügt ein kleines hochgestelltes Referenzsymbol hinzu
+// im Haupttext, wo wir die Fußnote/Endnote einfügen.
+// Jede Fußnote/Endnote erzeugt ebenfalls einen Eintrag, der aus einem Symbol besteht, das mit der Referenz übereinstimmt
+// Symbol im Haupttext. Der Referenztext, den wir an die Methode „InsertEndnote“ des Dokumentgenerators übergeben.
+// Fußnoteneinträge erscheinen standardmäßig am Ende jeder Seite, die Folgendes enthält:
 // Ihre Referenzsymbole und Endnoten werden am Ende des Dokuments angezeigt.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
@@ -170,14 +170,14 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 builder.Write("Text 4. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 
-// Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote ihr Index
+// Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote der Index
 // unter allen Fußnoten/Endnoten des Dokuments. Jedes Dokument verwaltet separate Zählungen
 // für Fußnoten und Endnoten und startet diese Zählungen zu keinem Zeitpunkt neu.
 Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
 Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
 
 // Wir können die Eigenschaft „RestartRule“ verwenden, um das Dokument neu zu starten
-// die Fußnote/Endnote zählt auf einer neuen Seite oder einem neuen Abschnitt.
+// Die Fußnote/Endnote zählt auf einer neuen Seite oder in einem neuen Abschnitt.
 doc.FootnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
 doc.EndnoteOptions.RestartRule = FootnoteNumberingRule.RestartSection;
 

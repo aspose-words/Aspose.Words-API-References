@@ -3,14 +3,14 @@ title: Font.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words für .NET
-description: Font Italic eigendom. True wenn die Schriftart kursiv formatiert ist in C#.
+description: Entdecken Sie die Font Italic-Funktion! Formatieren Sie Text einfach kursiv, um die Lesbarkeit und den Stil Ihrer Designs zu verbessern. Optimieren Sie Ihre Typografie noch heute!
 type: docs
 weight: 160
 url: /de/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-True, wenn die Schriftart kursiv formatiert ist.
+Wahr, wenn die Schriftart kursiv formatiert ist.
 
 ```csharp
 public bool Italic { get; set; }
@@ -18,7 +18,7 @@ public bool Italic { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man mit einem Document Builder kursiven Text schreibt.
+Zeigt, wie man mit einem Dokumentgenerator kursiven Text schreibt.
 
 ```csharp
 Document doc = new Document();

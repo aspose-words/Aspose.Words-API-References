@@ -3,14 +3,14 @@ title: DocumentBuilder.CurrentStructuredDocumentTag
 linktitle: CurrentStructuredDocumentTag
 articleTitle: CurrentStructuredDocumentTag
 second_title: Aspose.Words für .NET
-description: DocumentBuilder CurrentStructuredDocumentTag eigendom. Ruft das strukturierte DokumentTag ab das derzeit hier ausgewählt istDocumentBuilder  in C#.
+description: Entdecken Sie die CurrentStructuredDocumentTag-Eigenschaft in DocumentBuilder. Greifen Sie einfach auf das ausgewählte strukturierte Dokument-Tag zu und verwalten Sie Ihre Dokumente effizient.
 type: docs
 weight: 80
 url: /de/net/aspose.words/documentbuilder/currentstructureddocumenttag/
 ---
 ## DocumentBuilder.CurrentStructuredDocumentTag property
 
-Ruft das strukturierte Dokument-Tag ab, das derzeit hier ausgewählt ist[`DocumentBuilder`](../) .
+Ruft das strukturierte Dokument-Tag ab, das derzeit in diesem[`DocumentBuilder`](../) .
 
 ```csharp
 public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
@@ -25,10 +25,10 @@ Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Es gibt mehrere Möglichkeiten, den Cursor zu bewegen:
-// 1 – Nach Index zum ersten Zeichen des strukturierten Dokument-Tags wechseln.
+// 1 – Wechseln Sie nach Index zum ersten Zeichen des strukturierten Dokument-Tags.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 – Zum ersten Zeichen des strukturierten Dokuments wechseln, Tag für Objekt.
+// 2 – Wechseln Sie zum ersten Zeichen des strukturierten Dokument-Tags nach Objekt.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
@@ -37,7 +37,7 @@ Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
 // 3 – Zum Ende des zweiten strukturierten Dokument-Tags wechseln.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
 // Aktuell ausgewähltes strukturiertes Dokument-Tag abrufen.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;

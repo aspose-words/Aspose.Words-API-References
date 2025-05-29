@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 linktitle: DigitalSignatureCollection
 articleTitle: DigitalSignatureCollection
 second_title: Aspose.Words für .NET
-description: DigitalSignatureCollection constructeur. Default_Constructor in C#.
+description: Entdecken Sie den DigitalSignatureCollection-Konstruktor – Ihre Lösung für effizientes digitales Signaturmanagement. Vereinfachen Sie Ihren Workflow noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/

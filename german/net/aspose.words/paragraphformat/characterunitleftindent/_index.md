@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitLeftIndent
 linktitle: CharacterUnitLeftIndent
 articleTitle: CharacterUnitLeftIndent
 second_title: Aspose.Words für .NET
-description: ParagraphFormat CharacterUnitLeftIndent eigendom. Ruft den Wert für den linken Einzug in Zeichen für die angegebenen Absätze ab oder legt diesen fest in C#.
+description: Entdecken Sie, wie Sie den linken Einzug von Absätzen mit der Eigenschaft „CharacterUnitLeftIndent“ ganz einfach anpassen. Optimieren Sie mühelos die Formatierung Ihres Dokuments!
 type: docs
 weight: 80
 url: /de/net/aspose.words/paragraphformat/characterunitleftindent/
 ---
 ## ParagraphFormat.CharacterUnitLeftIndent property
 
-Ruft den Wert für den linken Einzug (in Zeichen) für die angegebenen Absätze ab oder legt diesen fest.
+Ruft den linken Einzugswert (in Zeichen) für die angegebenen Absätze ab oder legt ihn fest.
 
 ```csharp
 public double CharacterUnitLeftIndent { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Nachfolgend finden Sie fünf verschiedene Abstandsoptionen sowie die Eigenschaften, die sich durch ihre Konfiguration indirekt auswirken.
+// Nachfolgend finden Sie fünf verschiedene Abstandsoptionen sowie die Eigenschaften, auf die sich ihre Konfiguration indirekt auswirkt.
 // 1 - Linker Einzug:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 

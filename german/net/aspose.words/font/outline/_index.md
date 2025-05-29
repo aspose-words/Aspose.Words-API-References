@@ -3,14 +3,14 @@ title: Font.Outline
 linktitle: Outline
 articleTitle: Outline
 second_title: Aspose.Words für .NET
-description: Font Outline eigendom. True wenn die Schriftart als Outline formatiert ist in C#.
+description: Entdecken Sie die Schriftkontur-Funktion. Formatieren Sie Schriften ganz einfach als Konturen für ein einzigartiges Design. Verbessern Sie Ihre Typografie mit dieser einfachen Funktion!
 type: docs
-weight: 290
+weight: 300
 url: /de/net/aspose.words/font/outline/
 ---
 ## Font.Outline property
 
-True, wenn die Schriftart als Outline formatiert ist.
+Wahr, wenn die Schriftart als Umriss formatiert ist.
 
 ```csharp
 public bool Outline { get; set; }
@@ -18,14 +18,14 @@ public bool Outline { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man einen als Gliederung formatierten Textlauf erstellt.
+Zeigt, wie ein als Gliederung formatierter Textlauf erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Setzen Sie das Outline-Flag, um die Füllfarbe des Texts in Weiß zu ändern
- // Lassen Sie um jedes Zeichen einen dünnen Umriss in der Originalfarbe des Textes.
+// Setzen Sie das Outline-Flag, um die Füllfarbe des Textes auf Weiß zu ändern und
+    // Lassen Sie um jedes Zeichen einen dünnen Umriss in der Originalfarbe des Textes.
 builder.Font.Outline = true;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 36;

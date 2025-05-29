@@ -3,14 +3,14 @@ title: FieldDatabase.TableFormat
 linktitle: TableFormat
 articleTitle: TableFormat
 second_title: Aspose.Words für .NET
-description: FieldDatabase TableFormat eigendom. Ruft das Format ab das auf das Ergebnis der Datenbankabfrage angewendet werden soll oder legt dieses fest in C#.
+description: Entdecken Sie die TableFormat-Eigenschaft von FieldDatabase, um Ihre Datenbankabfrageergebnisse mit flexiblen Formatierungsoptionen für eine verbesserte Datenpräsentation einfach anzupassen.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fielddatabase/tableformat/
 ---
 ## FieldDatabase.TableFormat property
 
-Ruft das Format ab, das auf das Ergebnis der Datenbankabfrage angewendet werden soll, oder legt dieses fest.
+Ruft das Format ab oder legt es fest, das auf das Ergebnis der Datenbankabfrage angewendet werden soll.
 
 ```csharp
 public string TableFormat { get; set; }
@@ -18,13 +18,13 @@ public string TableFormat { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man Daten aus einer Datenbank extrahiert und als Feld in ein Dokument einfügt.
+Zeigt, wie Daten aus einer Datenbank extrahiert und als Feld in ein Dokument eingefügt werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Dieses DATABASE-Feld führt eine Abfrage in einer Datenbank aus und zeigt das Ergebnis in einer Tabelle an.
+// Dieses DATABASE-Feld führt eine Abfrage einer Datenbank aus und zeigt das Ergebnis in einer Tabelle an.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
 field.FileName = DatabaseDir + "Northwind.accdb";
 field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
@@ -32,7 +32,7 @@ field.Query = "SELECT * FROM [Products]";
 
 Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
 
-// Ein weiteres DATABASE-Feld mit einer komplexeren Abfrage einfügen, die alle Produkte in absteigender Reihenfolge nach Bruttoumsatz sortiert.
+// Fügen Sie ein weiteres DATABASE-Feld mit einer komplexeren Abfrage ein, die alle Produkte in absteigender Reihenfolge nach Bruttoumsatz sortiert.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
 field.FileName = DatabaseDir + "Northwind.accdb";
 field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
@@ -44,18 +44,18 @@ field.Query =
     "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
 
 // Diese Eigenschaften haben die gleiche Funktion wie LIMIT- und TOP-Klauseln.
-// Konfigurieren Sie sie so, dass nur die Zeilen 1 bis 10 des Abfrageergebnisses in der Tabelle des Felds angezeigt werden.
+// Konfigurieren Sie sie so, dass in der Tabelle des Felds nur die Zeilen 1 bis 10 des Abfrageergebnisses angezeigt werden.
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Diese Eigenschaft ist der Index des Formats, das wir für unsere Tabelle verwenden möchten. Die Liste der Tabellenformate finden Sie im Menü „Table AutoFormat…“.
-// das angezeigt wird, wenn wir ein DATABASE-Feld in Microsoft Word erstellen. Index Nr. 10 entspricht dem Format „Bunte 3“.
+// Diese Eigenschaft ist der Index des Formats, das wir für unsere Tabelle verwenden möchten. Die Liste der Tabellenformate finden Sie im Menü "Tabellen-AutoFormat..."
+// das wird angezeigt, wenn wir ein DATABASE-Feld in Microsoft Word erstellen. Index Nr. 10 entspricht dem Format „Colorful 3“.
 field.TableFormat = "10";
 
-// Die FormatAttribute-Eigenschaft ist eine String-Darstellung einer Ganzzahl, die mehrere Flags speichert.
-// Wir können das Format, auf das die TableFormat-Eigenschaft verweist, teilweise anwenden, indem wir in dieser Eigenschaft verschiedene Flags setzen.
+// Die Eigenschaft „FormatAttribute“ ist eine Zeichenfolgendarstellung einer Ganzzahl, die mehrere Flags speichert.
+// Wir können das Format, auf das die Eigenschaft TableFormat verweist, teilweise anwenden, indem wir in dieser Eigenschaft verschiedene Flags setzen.
 // Die von uns verwendete Zahl ist die Summe einer Kombination von Werten, die verschiedenen Aspekten des Tabellenstils entsprechen.
-// 63 steht für 1 (Ränder) + 2 (Schattierung) + 4 (Schriftart) + 8 (Farbe) + 16 (automatische Anpassung) + 32 (Überschriftenzeilen).
+// 63 steht für 1 (Ränder) + 2 (Schattierung) + 4 (Schriftart) + 8 (Farbe) + 16 (Automatische Anpassung) + 32 (Überschriftenzeilen).
 field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;

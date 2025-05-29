@@ -3,7 +3,7 @@ title: ChartSeries.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words für .NET
-description: ChartSeries Add methode. Fügt den angegebenen XWert zur Diagrammreihe hinzu. Wenn die Reihe YWerte und Blasengrößen unterstützt sind diese für den XWert leer in C#.
+description: Entdecken Sie die ChartSeries Add-Methode, um X-Werte einfach in Ihre Diagramme zu integrieren. Verbessern Sie die Datenvisualisierung mit Unterstützung für Y-Werte und Blasengrößen.
 type: docs
 weight: 160
 url: /de/net/aspose.words.drawing.charts/chartseries/add/
@@ -14,6 +14,40 @@ Fügt den angegebenen X-Wert zur Diagrammreihe hinzu. Wenn die Reihe Y-Werte und
 
 ```csharp
 public void Add(ChartXValue xValue)
+```
+
+## Beispiele
+
+Zeigt, wie Diagrammreihen mit Daten gefüllt werden.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// X- und Y-Werte der ersten Reihe löschen.
+series1.ClearValues();
+
+// Fülle die Reihe mit Daten.
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
+series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
+series1.Add(ChartXValue.FromDouble(9));
+
+ChartSeries series2 = chart.Series[1];
+// X- und Y-Werte der zweiten Reihe löschen.
+series2.Clear();
+
+// Fülle die Reihe mit Daten.
+series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
+series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
+series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));
+series2.Add(ChartXValue.FromDouble(8), ChartYValue.FromDouble(7));
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ```
 
 ### Siehe auch
@@ -27,7 +61,7 @@ public void Add(ChartXValue xValue)
 
 ## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/)*) {#add_1}
 
-Fügt die angegebenen X- und Y-Werte zur Diagrammreihe hinzu.
+Fügt der Diagrammreihe die angegebenen X- und Y-Werte hinzu.
 
 ```csharp
 public void Add(ChartXValue xValue, ChartYValue yValue)
@@ -46,11 +80,11 @@ Chart chart = shape.Chart;
 ChartSeries department1Series = chart.Series[0];
 ChartSeries department2Series = chart.Series[1];
 
-// Den ersten Wert in beiden Reihen entfernen.
+// Entfernen Sie den ersten Wert in beiden Reihen.
 department1Series.Remove(0);
 department2Series.Remove(0);
 
-// Neue Werte zu beiden Reihen hinzufügen.
+// Fügen Sie beiden Reihen neue Werte hinzu.
 ChartXValue newXCategory = ChartXValue.FromString("Q1, 2023");
 department1Series.Add(newXCategory, ChartYValue.FromDouble(10.3));
 department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));
@@ -62,27 +96,26 @@ Zeigt, wie Diagrammreihen mit Daten gefüllt werden.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ChartSeries series1 = chart.Series[0];
 
-// X- und Y-Werte der ersten Serie löschen.
+// X- und Y-Werte der ersten Reihe löschen.
 series1.ClearValues();
 
-// Die Reihe mit Daten füllen.
-series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+// Fülle die Reihe mit Daten.
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
 series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
 series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
-series1.Add(ChartXValue.FromDouble(9), ChartYValue.FromDouble(17));
+series1.Add(ChartXValue.FromDouble(9));
 
 ChartSeries series2 = chart.Series[1];
-
 // X- und Y-Werte der zweiten Reihe löschen.
-series2.ClearValues();
+series2.Clear();
 
-// Die Reihe mit Daten füllen.
+// Fülle die Reihe mit Daten.
 series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
 series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
 series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));
@@ -103,10 +136,44 @@ doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 
 ## Add(*[ChartXValue](../../chartxvalue/), [ChartYValue](../../chartyvalue/), double*) {#add_2}
 
-Fügt den angegebenen X-Wert, Y-Wert und die Blasengröße zur Diagrammreihe hinzu.
+Fügt der Diagrammreihe den angegebenen X-Wert, Y-Wert und die Blasengröße hinzu.
 
 ```csharp
 public void Add(ChartXValue xValue, ChartYValue yValue, double bubbleSize)
+```
+
+## Beispiele
+
+Zeigt, wie Diagrammreihen mit Daten gefüllt werden.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// X- und Y-Werte der ersten Reihe löschen.
+series1.ClearValues();
+
+// Fülle die Reihe mit Daten.
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
+series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
+series1.Add(ChartXValue.FromDouble(9));
+
+ChartSeries series2 = chart.Series[1];
+// X- und Y-Werte der zweiten Reihe löschen.
+series2.Clear();
+
+// Fülle die Reihe mit Daten.
+series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
+series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
+series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));
+series2.Add(ChartXValue.FromDouble(8), ChartYValue.FromDouble(7));
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
 ```
 
 ### Siehe auch

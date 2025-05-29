@@ -3,7 +3,7 @@ title: TxtSaveOptions.AddBidiMarks
 linktitle: AddBidiMarks
 articleTitle: AddBidiMarks
 second_title: Aspose.Words für .NET
-description: TxtSaveOptions AddBidiMarks eigendom. Gibt an ob beim Exportieren im NurTextFormat vor jedem BiDiLauf bidirektionale Markierungen hinzugefügt werden sollen in C#.
+description: Entdecken Sie, wie die TxtSaveOptions-Eigenschaft „AddBidiMarks“ den Nur-Text-Export verbessert, indem sie bidirektionale Markierungen für verbesserte Lesbarkeit und Formatierung hinzufügt.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/txtsaveoptions/addbidimarks/
@@ -20,7 +20,7 @@ public bool AddBidiMarks { get; set; }
 
 ## Beispiele
 
-Zeigt, wie das Unicode-Zeichen „RIGHT-TO-LEFT MARK“ (U+200F) vor jedem bidirektionalen Lauf im Text eingefügt wird.
+Zeigt, wie vor jedem bidirektionalen Lauf im Text das Unicode-Zeichen „RECHTS-NACH-LINKS-MARKIERUNG“ (U+200F) eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -31,14 +31,14 @@ builder.ParagraphFormat.Bidi = true;
 builder.Writeln("שלום עולם!");
 builder.Writeln("مرحبا بالعالم!");
 
-// Erstelle ein „TxtSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "TxtSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie wir das Dokument im Klartext speichern.
 TxtSaveOptions saveOptions = new TxtSaveOptions { Encoding = System.Text.Encoding.Unicode};
 
-// Setzen Sie die Eigenschaft „AddBidiMarks“ auf „true“, um vor Ausführungen Markierungen hinzuzufügen
+// Setzen Sie die Eigenschaft „AddBidiMarks“ auf „true“, um vor dem Ausführen Markierungen hinzuzufügen
 // mit Text von rechts nach links, um die Tatsache anzuzeigen.
 // Setzen Sie die Eigenschaft „AddBidiMarks“ auf „false“, um alles von links nach rechts zu schreiben
-// und von rechts nach links laufen gleichermaßen, ohne dass darauf hingewiesen wird, welches welches ist.
+// und von rechts nach links verlaufen sie gleichmäßig, ohne dass etwas darauf hinweist, was was ist.
 saveOptions.AddBidiMarks = addBidiMarks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.AddBidiMarks.txt", saveOptions);

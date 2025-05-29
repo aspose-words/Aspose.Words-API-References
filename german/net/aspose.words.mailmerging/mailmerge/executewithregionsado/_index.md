@@ -3,14 +3,14 @@ title: MailMerge.ExecuteWithRegionsADO
 linktitle: ExecuteWithRegionsADO
 articleTitle: ExecuteWithRegionsADO
 second_title: Aspose.Words für .NET
-description: MailMerge ExecuteWithRegionsADO methode. Führt einen Serienbrief von einem ADORecordsetObjekt in das Dokument mit Serienbriefbereichen durch in C#.
+description: Optimieren Sie Ihre Dokumenterstellung mit der MailMerge ExecuteWithRegionsADO-Methode. Führen Sie mühelos ADO-Recordset-Daten zusammen, um personalisierte Ergebnisse zu erzielen.
 type: docs
 weight: 210
 url: /de/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
 ---
 ## MailMerge.ExecuteWithRegionsADO method
 
-Führt einen Serienbrief von einem ADO-Recordset-Objekt in das Dokument mit Serienbriefbereichen durch.
+Führt einen Seriendruck von einem ADO-Recordset-Objekt in das Dokument mit Seriendruckbereichen durch.
 
 ```csharp
 public void ExecuteWithRegionsADO(object recordset, string tableName)
@@ -19,11 +19,11 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | recordset | Object | ADO-Recordset oder Record-Objekt. |
-| tableName | String | Name des Seriendruckbereichs im Dokument, der gefüllt werden soll. |
+| tableName | String | Name des Serienbriefbereichs im Dokument, der ausgefüllt werden soll. |
 
 ## Bemerkungen
 
-Diese Methode ist nützlich, wenn Sie Aspose.Words-Klassen als COM-Objekte aus nicht verwaltetem Code verwenden möchten, z. B. einer Anwendung, die mit ASP oder Visual Basic 6.0 erstellt wurde.
+Diese Methode ist nützlich, wenn Sie Aspose.Words-Klassen als COM-Objekte aus nicht verwaltetem Code verwenden möchten, z. B. einer mit ASP oder Visual Basic 6.0 erstellten Anwendung.
 
 Weitere Informationen finden Sie in der Beschreibung von[`ExecuteWithRegions`](../executewithregions/).
 
@@ -48,15 +48,15 @@ Doc.MailMerge.ExecuteWithRegionsADO RS, "OrderDetails"
 Doc.Save "Invoice Out VBScript.doc"
 ```
 
-Zeigt, wie ein Serienbrief mit mehreren Regionen ausgeführt wird, kompiliert mit Daten aus einem ADO-Datensatz.
+Zeigt, wie ein Serienbrief mit mehreren Regionen ausgeführt wird, der mit Daten aus einem ADO-Dataset kompiliert wurde.
 
 ```csharp
 public void ExecuteWithRegionsADO()
 {
     Document doc = CreateSourceDocADOMailMergeWithRegions();
 
-    // Um mit ADO DataSets arbeiten zu können, müssen wir einen Verweis auf die Microsoft ActiveX Data Objects-Bibliothek hinzufügen.
-    // welches in der .NET-Distribution enthalten und in „adodb.dll“ gespeichert ist.
+    // Um mit ADO-DataSets zu arbeiten, müssen wir einen Verweis auf die Microsoft ActiveX Data Objects-Bibliothek hinzufügen.
+    // das in der .NET-Distribution enthalten und in „adodb.dll“ gespeichert ist.
     ADODB.Connection connection = new ADODB.Connection();
 
     // Erstellen Sie eine Verbindungszeichenfolge, die auf die Datenbankdatei „Northwind“ verweist
@@ -64,18 +64,18 @@ public void ExecuteWithRegionsADO()
     string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Füllen Sie unser DataSet, indem Sie einen SQL-Befehl in unserer Datenbank ausführen.
+    // Füllen Sie unseren Datensatz, indem Sie einen SQL-Befehl in unserer Datenbank ausführen.
     // Die Namen der Spalten in der Ergebnistabelle müssen übereinstimmen
-    // zu den Werten der MERGEFIELDS, die unsere Daten aufnehmen.
+    // auf die Werte der MERGEFIELDS, die unsere Daten aufnehmen.
     string command = "SELECT FirstName, LastName, City FROM Employees";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Einen Serienbrief nur für die erste Region ausführen und deren MERGEFIELDS mit Daten aus dem Datensatz füllen.
+    // Führen Sie einen Serienbrief nur für die erste Region aus und füllen Sie deren MERGEFIELDS mit Daten aus dem Datensatz.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion1");
 
-    // Den Datensatz schließen und mit Daten aus einer anderen SQL-Abfrage erneut öffnen.
+    // Schließen Sie den Datensatz und öffnen Sie ihn erneut mit Daten aus einer anderen SQL-Abfrage.
     command = "SELECT * FROM Customers";
 
     recordset.Close();
@@ -89,7 +89,7 @@ public void ExecuteWithRegionsADO()
 }
 
 /// <summary>
-/// Erstellen Sie ein Dokument mit zwei Seriendruckbereichen.
+/// Erstellen Sie ein Dokument mit zwei Serienbriefbereichen.
 /// </summary>
 private static Document CreateSourceDocADOMailMergeWithRegions()
 {

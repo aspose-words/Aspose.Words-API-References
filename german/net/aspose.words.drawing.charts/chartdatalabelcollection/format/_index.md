@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words für .NET
-description: ChartDataLabelCollection Format eigendom. Bietet Zugriff auf die Füll und Zeilenformatierung der Datenbeschriftungen in C#.
+description: Entdecken Sie die Formateigenschaft von ChartDataLabelCollection für einfachen Zugriff auf anpassbare Füll- und Linienformatierungen für Ihre Datenbeschriftungen. Optimieren Sie Ihre Diagramme noch heute!
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
 ---
 ## ChartDataLabelCollection.Format property
 
-Bietet Zugriff auf die Füll- und Zeilenformatierung der Datenbeschriftungen.
+Bietet Zugriff auf die Füll- und Linienformatierung der Datenbeschriftungen.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## Beispiele
 
-Zeigt, wie Füll-, Strich- und Beschriftungsformatierungen für Diagrammdatenbeschriftungen festgelegt werden.
+Zeigt, wie Füllung, Strich und Legendenformatierung für Diagrammdatenbeschriftungen festgelegt werden.
 
 ```csharp
 Document doc = new Document();

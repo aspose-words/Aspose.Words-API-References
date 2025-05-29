@@ -3,9 +3,9 @@ title: FontInfo.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words für .NET
-description: FontInfo Name eigendom. Ruft den Namen der Schriftart ab in C#.
+description: Entdecken Sie die FontInfo-Name-Eigenschaft, um einfach auf Schriftnamen zuzugreifen und diese für eine verbesserte Typografie in Ihren Projekten zu verwenden.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/aspose.words.fonts/fontinfo/name/
 ---
 ## FontInfo.Name property
@@ -18,11 +18,11 @@ public string Name { get; }
 
 ## Bemerkungen
 
-Kann nicht sein`Null`. Kann eine leere Zeichenfolge sein.
+Kann nicht sein`null`. Kann eine leere Zeichenfolge sein.
 
 ## Beispiele
 
-Zeigt, wie die Details zu den in einem Dokument vorhandenen Schriftarten gedruckt werden.
+Zeigt, wie Sie die Details der in einem Dokument vorhandenen Schriftarten ausdrucken.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");

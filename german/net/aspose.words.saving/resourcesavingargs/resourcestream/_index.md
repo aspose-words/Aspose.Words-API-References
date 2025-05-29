@@ -3,7 +3,7 @@ title: ResourceSavingArgs.ResourceStream
 linktitle: ResourceStream
 articleTitle: ResourceStream
 second_title: Aspose.Words für .NET
-description: ResourceSavingArgs ResourceStream eigendom. Ermöglicht die Angabe des Streams in dem die Ressource gespeichert wird in C#.
+description: Entdecken Sie die ResourceSavingArgs ResourceStream-Eigenschaft, um einfach zu definieren, wo Ihre Ressourcen gespeichert werden, und so die Effizienz und Kontrolle Ihrer Projekte zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -20,13 +20,13 @@ public Stream ResourceStream { get; set; }
 
 Mit dieser Eigenschaft können Sie Ressourcen in Streams statt in Dateien speichern.
 
-Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird die Ressource in einer im angegebenen Datei gespeichert[`ResourceFileName`](../resourcefilename/) Eigentum.
+Der Standardwert ist`null` Wenn diese Eigenschaft`null` wird die Ressource in einer Datei gespeichert, die in der[`ResourceFileName`](../resourcefilename/) Eigentum.
 
-Benutzen[`IResourceSavingCallback`](../../iresourcesavingcallback/) Sie können eine Ressource nicht durch eine andere ersetzen. Es dient lediglich der Kontrolle über den Standort, an dem Ressourcen eingespart werden sollen.
+Verwenden[`IResourceSavingCallback`](../../iresourcesavingcallback/) Sie können eine Ressource nicht durch eine andere ersetzen. Es dient nur der Kontrolle über den Speicherort der Ressourcen.
 
 ## Beispiele
 
-Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie ein Rückruf verwendet wird, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -46,7 +46,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Ein durch ResourcesFolderAlias angegebener Ordner enthält die Ressourcen anstelle von ResourcesFolder.
-    // Wir müssen sicherstellen, dass der Ordner existiert, bevor die Streams ihre Ressourcen darin ablegen können.
+    // Wir müssen sicherstellen, dass der Ordner vorhanden ist, bevor die Streams ihre Ressourcen darin ablegen können.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -60,7 +60,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt URIs von Ressourcen, die in enthalten sind, während sie in festes HTML konvertiert werden.
+/// Zählt und druckt URIs der enthaltenen Ressourcen, wenn sie in festes HTML konvertiert werden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

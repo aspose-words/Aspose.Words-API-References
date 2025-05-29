@@ -3,7 +3,7 @@ title: IMailMergeDataSource.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words für .NET
-description: IMailMergeDataSource TableName eigendom. Gibt den Namen der Datenquelle zurück in C#.
+description: Entdecken Sie die TableName-Eigenschaft von IMailMergeDataSource, um einfach auf Ihren Datenquellennamen zuzugreifen und Ihren Dokumentautomatisierungsprozess zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -22,9 +22,9 @@ Der Name der Datenquelle. Leere Zeichenfolge, wenn die Datenquelle keinen Namen 
 
 ## Bemerkungen
 
-Wenn Sie implementieren[`IMailMergeDataSource`](../), geben Sie den Namen der data -Quelle aus dieser Eigenschaft zurück.
+Wenn Sie implementieren[`IMailMergeDataSource`](../), gibt den Namen der data -Quelle aus dieser Eigenschaft zurück.
 
-Aspose.Words verwendet diesen Namen zum Abgleich mit dem im Vorlagendokument angegebenen Seriendruck-Regionsnamen . Beim Vergleich zwischen dem Namen der Datenquelle und dem Namen der Seriendruckregion wird die Groß-/Kleinschreibung nicht beachtet.
+Aspose.Words verwendet diesen Namen für den Abgleich mit dem im Vorlagendokument angegebenen Seriendruckbereich . Der Vergleich zwischen dem Datenquellennamen und dem Seriendruckbereichsnamen berücksichtigt keine Groß- und Kleinschreibung.
 
 ## Beispiele
 
@@ -45,7 +45,7 @@ public void CustomDataSource()
         new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
     };
 
-     // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die IMailMergeDataSource-Schnittstelle implementieren.
+        // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die Schnittstelle IMailMergeDataSource implementieren.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -69,8 +69,8 @@ public class Customer
 }
 
 /// <summary>
- /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
-/// um Seriendaten aus Ihren Kundenobjekten in Microsoft Word-Dokumente zu übertragen.
+    /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
+/// um Daten aus Ihren Kundenobjekten per Serienbrief in Microsoft Word-Dokumente zu übertragen.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -83,7 +83,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Der Name der Datenquelle. Wird von Aspose.Words nur verwendet, wenn Serienbriefe mit wiederholbaren Bereichen ausgeführt werden.
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
     /// </summary>
     public string TableName
     {
@@ -91,7 +91,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld abzurufen.
+    /// Aspose.Words ruft diese Methode auf, um für jedes Datenfeld einen Wert zu erhalten.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -104,7 +104,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // „false“ an die Mail-Merge-Engine von Aspose.Words zurückgeben, um es zu kennzeichnen
+                // Gibt "false" an die Aspose.Words-Serienbrief-Engine zurück, um anzuzeigen,
                 // dass wir kein Feld mit diesem Namen finden konnten.
                 fieldValue = null;
                 return false;
@@ -112,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Eine Standardimplementierung zum Wechseln zu einem nächsten Datensatz in einer Sammlung.
+    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
     /// </summary>
     public bool MoveNext()
     {

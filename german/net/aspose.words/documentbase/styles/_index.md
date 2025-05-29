@@ -3,14 +3,14 @@ title: DocumentBase.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words für .NET
-description: DocumentBase Styles eigendom. Gibt eine Sammlung von im Dokument definierten Stilen zurück in C#.
+description: Erkunden Sie die DocumentBase-Stileigenschaft, um auf eine umfangreiche Sammlung anpassbarer Stile zuzugreifen und so die visuelle Attraktivität und Konsistenz Ihres Dokuments zu verbessern.
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words/documentbase/styles/
 ---
 ## DocumentBase.Styles property
 
-Gibt eine Sammlung von im Dokument definierten Stilen zurück.
+Gibt eine Sammlung der im Dokument definierten Stile zurück.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -61,11 +61,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Den Absatzstil auf den aktuellen Absatz des Document Builders anwenden und dann etwas Text hinzufügen.
+// Wenden Sie den Absatzstil auf den aktuellen Absatz des Dokumentgenerators an und fügen Sie dann etwas Text hinzu.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändern Sie den Stil des Document Builders in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
+// Ändern Sie den Stil des Dokument-Generators in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

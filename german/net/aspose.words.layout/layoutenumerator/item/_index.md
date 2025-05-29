@@ -3,7 +3,7 @@ title: LayoutEnumerator.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: LayoutEnumerator Item eigendom. Ruft eine benannte Eigenschaft der Entität ab in C#.
+description: Entdecken Sie die LayoutEnumerator-Elementeigenschaft, um einfach auf benannte Entitätseigenschaften zuzugreifen und so Ihre Datenverwaltung und Workflow-Effizienz zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words.layout/layoutenumerator/item/
@@ -22,11 +22,11 @@ public object this[string key] { get; }
 
 ### Rückgabewert
 
-Null, wenn die Eigenschaft nicht verfügbar ist, andernfalls der Wert der Eigenschaft.
+Null, wenn die Eigenschaft nicht verfügbar ist, andernfalls Wert der Eigenschaft.
 
 ## Bemerkungen
 
-Dies wird derzeit verwendet, um Schriftarteigenschaften von spans. abzurufen[`Font`](../../../aspose.words/font/) Klasse für mögliche Eigenschaftsnamen. Nicht alle Eigenschaften werden unterstützt.
+Dies wird derzeit verwendet, um Schrifteigenschaften von Spans zu erhalten. Siehe[`Font`](../../../aspose.words/font/) Klasse für mögliche Eigenschaftennamen. Nicht alle Eigenschaften werden unterstützt.
 
 ### Siehe auch
 

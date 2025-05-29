@@ -3,7 +3,7 @@ title: FieldQuote.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words für .NET
-description: FieldQuote Text eigendom. Ruft den abzurufenden Text ab oder legt ihn fest in C#.
+description: FieldQuote-Texteigenschaft. Rufen Sie Text einfach ab oder legen Sie ihn fest, um die Datenverwaltung zu verbessern. Optimieren Sie Ihren Workflow mit dieser leistungsstarken Funktion!
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldquote/text/
@@ -18,21 +18,21 @@ public string Text { get; set; }
 
 ## Beispiele
 
-Zeigt die Verwendung des QUOTE-Felds an.
+Zeigt die Verwendung des QUOTE-Felds.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein QUOTE-Feld einfügen, das den Wert seiner Text-Eigenschaft anzeigt.
+// Fügen Sie ein QUOTE-Feld ein, das den Wert seiner Texteigenschaft anzeigt.
 FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 field.Text = "\"Quoted text\"";
 
 Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
 
-// Ein QUOTE-Feld einfügen und darin ein DATE-Feld verschachteln.
+// Fügen Sie ein QUOTE-Feld ein und verschachteln Sie darin ein DATE-Feld.
 // DATE-Felder aktualisieren ihren Wert jedes Mal auf das aktuelle Datum, wenn wir das Dokument mit Microsoft Word öffnen.
-// Wenn Sie das DATE-Feld auf diese Weise im QUOTE-Feld verschachteln, wird dessen Wert eingefroren
+// Durch die Verschachtelung des Felds DATE in das Feld QUOTE wird sein Wert eingefroren
 // bis zum Datum, an dem wir das Dokument erstellt haben.
 builder.Write("\nDocument creation date: ");
 field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
@@ -41,7 +41,7 @@ builder.InsertField(FieldType.FieldDate, true);
 
 Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
 
-// Alle Felder aktualisieren, um die korrekten Ergebnisse anzuzeigen.
+// Aktualisieren Sie alle Felder, um die korrekten Ergebnisse anzuzeigen.
 doc.UpdateFields();
 
 Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);

@@ -3,7 +3,7 @@ title: ChartYValue.ValueType
 linktitle: ValueType
 articleTitle: ValueType
 second_title: Aspose.Words für .NET
-description: ChartYValue ValueType eigendom. Ruft den Typ des im Objekt gespeicherten YWerts ab in C#.
+description: Entdecken Sie die Eigenschaft ChartYValue ValueType, um einfach auf den Y-Werttyp in Ihrem Datenobjekt zuzugreifen und so Ihr Datenvisualisierungserlebnis zu verbessern.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing.charts/chartyvalue/valuetype/

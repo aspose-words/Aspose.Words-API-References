@@ -3,14 +3,14 @@ title: RowFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words für .NET
-description: RowFormat HeightRule eigendom. Ruft die Regel zur Bestimmung der Höhe der Tabellenzeile ab oder legt diese fest in C#.
+description: Entdecken Sie die RowFormat HeightRule-Eigenschaft, um die Zeilenhöhen von Tabellen einfach anzupassen und so ein optimales Layout und Design in Ihren Anwendungen zu erzielen.
 type: docs
 weight: 50
 url: /de/net/aspose.words.tables/rowformat/heightrule/
 ---
 ## RowFormat.HeightRule property
 
-Ruft die Regel zur Bestimmung der Höhe der Tabellenzeile ab oder legt diese fest.
+Ruft die Regel zur Bestimmung der Höhe der Tabellenzeile ab oder legt sie fest.
 
 ```csharp
 public HeightRule HeightRule { get; set; }
@@ -18,7 +18,7 @@ public HeightRule HeightRule { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Zeilen mit einem Document Builder formatiert werden.
+Zeigt, wie Zeilen mit einem Dokumentgenerator formatiert werden.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Eine zweite Zeile beginnen und dann deren Höhe konfigurieren. Der Builder wendet diese Einstellungen an
-// seine aktuelle Zeile sowie alle danach erstellten neuen Zeilen.
+// Starten Sie eine zweite Zeile und konfigurieren Sie dann deren Höhe. Der Builder wendet diese Einstellungen an auf
+// seine aktuelle Zeile sowie alle neuen Zeilen, die es danach erstellt.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// Die erste Zeile war von der Neukonfiguration der Auffüllung nicht betroffen und enthält weiterhin die Standardwerte.
+// Die erste Zeile wurde durch die Neukonfiguration der Auffüllung nicht beeinflusst und enthält weiterhin die Standardwerte.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -50,7 +50,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Zeigt, wie man mit DocumentBuilder eine formatierte Tabelle erstellt.
+Zeigt, wie mit DocumentBuilder eine formatierte Tabelle erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Legen Sie einige Formatierungsoptionen für Text und Tabellendarstellung fest.
+// Legen Sie einige Formatierungsoptionen für die Text- und Tabellendarstellung fest.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -70,7 +70,7 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Wenn Sie die Formatierungsoptionen in einem Dokument-Builder konfigurieren, werden diese angewendet
+// Durch die Konfiguration der Formatierungsoptionen in einem Dokument-Generator werden diese angewendet
 // zur aktuellen Zelle/Zeile, in der sich der Cursor befindet,
 // sowie alle neuen Zellen und Zeilen, die mit diesem Builder erstellt wurden.
 builder.Write("Header Row,\n Cell 1");
@@ -80,8 +80,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Konfigurieren Sie die Formatierungsobjekte des Builders für neue Zeilen und Zellen neu, die wir erstellen möchten.
-// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, sodass diese als Kopfzeile hervorsticht.
+// Konfigurieren Sie die Formatierungsobjekte des Builders für die neuen Zeilen und Zellen neu, die wir erstellen möchten.
+// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, sodass sie als Kopfzeile hervorsticht.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

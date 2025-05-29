@@ -3,9 +3,9 @@ title: ChartDataLabelCollection.ShowLegendKey
 linktitle: ShowLegendKey
 articleTitle: ShowLegendKey
 second_title: Aspose.Words für .NET
-description: ChartDataLabelCollection ShowLegendKey eigendom. Ermöglicht die Angabe ob der Legendenschlüssel für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Der Standardwert istFALSCH  in C#.
+description: Steuern Sie die Darstellung Ihres Diagramms mit der Eigenschaft „ShowLegendKey“ in der ChartDataLabelCollection. Schalten Sie Legendenschlüssel einfach um, um die Datenübersicht zu verbessern.
 type: docs
-weight: 110
+weight: 140
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
 ---
 ## ChartDataLabelCollection.ShowLegendKey property
@@ -18,7 +18,7 @@ public bool ShowLegendKey { get; set; }
 
 ## Bemerkungen
 
-Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowLegendKey`](../../chartdatalabel/showlegendkey/) Eigenschaft.
+Der für diese Eigenschaft definierte Wert kann für ein einzelnes Datenlabel mit dem überschrieben werden.[`ShowLegendKey`](../../chartdatalabel/showlegendkey/) Eigenschaft.
 
 ## Beispiele
 
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Fügen Sie eine benutzerdefinierte Diagrammreihe mit einem Kategorienamen für jeden Sektor und deren Häufigkeitstabelle ein.
+// Fügen Sie eine benutzerdefinierte Diagrammreihe mit einem Kategorienamen für jeden Sektor und ihrer Häufigkeitstabelle ein.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });

@@ -3,9 +3,9 @@ title: OoxmlSaveOptions.KeepLegacyControlChars
 linktitle: KeepLegacyControlChars
 articleTitle: KeepLegacyControlChars
 second_title: Aspose.Words für .NET
-description: OoxmlSaveOptions KeepLegacyControlChars eigendom. Behält die ursprüngliche Darstellung der alten Steuerzeichen bei in C#.
+description: Entdecken Sie die KeepLegacyControlChars-Eigenschaft von OoxmlSaveOptions, um das ursprüngliche Format älterer Steuerzeichen für eine nahtlose Dokumentkonvertierung beizubehalten.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions.KeepLegacyControlChars property
@@ -25,10 +25,10 @@ Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Wenn wir das Dokument in einem OOXML-Format speichern, können wir ein OoxmlSaveOptions-Objekt erstellen
 // und übergeben Sie es dann an die Speichermethode des Dokuments, um zu ändern, wie wir das Dokument speichern.
-// Setzen Sie die Eigenschaft „KeepLegacyControlChars“ auf „true“, um sie beizubehalten
+// Setzen Sie die Eigenschaft "KeepLegacyControlChars" auf "true", um
 // das Legacy-Zeichen „ShortDateTime“ beim Speichern.
-// Setzen Sie die Eigenschaft „KeepLegacyControlChars“ zum Entfernen auf „false“.
-// das „ShortDateTime“-Legacy-Zeichen aus dem Ausgabedokument.
+// Setzen Sie die Eigenschaft "KeepLegacyControlChars" auf "false", um
+// das Legacy-Zeichen „ShortDateTime“ aus dem Ausgabedokument.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

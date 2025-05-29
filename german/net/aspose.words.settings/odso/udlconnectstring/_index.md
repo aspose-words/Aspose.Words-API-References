@@ -3,14 +3,14 @@ title: Odso.UdlConnectString
 linktitle: UdlConnectString
 articleTitle: UdlConnectString
 second_title: Aspose.Words für .NET
-description: Odso UdlConnectString eigendom. Gibt die UDLVerbindungszeichenfolge Universal Data Link an die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie die Odso UdlConnectString-Eigenschaft für nahtlose Verbindungen zu externen Datenquellen mithilfe von UDL. Ermöglichen Sie die einfache und effiziente Datenintegration!
 type: docs
 weight: 90
 url: /de/net/aspose.words.settings/odso/udlconnectstring/
 ---
 ## Odso.UdlConnectString property
 
-Gibt die UDL-Verbindungszeichenfolge (Universal Data Link) an, die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
+Gibt die Universal Data Link (UDL)-Verbindungszeichenfolge an, die zum Herstellen einer Verbindung mit einer externen Datenquelle verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string UdlConnectString { get; set; }

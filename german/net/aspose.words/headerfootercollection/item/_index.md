@@ -3,14 +3,14 @@ title: HeaderFooterCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: HeaderFooterCollection Item eigendom. Ruft a abHeaderFooter am angegebenen Index in C#.
+description: Greifen Sie mühelos mit der Item-Eigenschaft auf HeaderFooter zu. Rufen Sie bestimmte Kopf- oder Fußzeilen nach Index ab, um die Dokumentenverwaltung zu optimieren.
 type: docs
 weight: 10
 url: /de/net/aspose.words/headerfootercollection/item/
 ---
 ## HeaderFooterCollection indexer (1 of 2)
 
-Ruft a ab[`HeaderFooter`](../../headerfooter/) am angegebenen Index.
+Ruft eine[`HeaderFooter`](../../headerfooter/) am angegebenen Index.
 
 ```csharp
 public HeaderFooter this[int index] { get; }
@@ -18,17 +18,17 @@ public HeaderFooter this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Ein Index in die Sammlung. |
+| index | Ein Index zur Sammlung. |
 
 ## Bemerkungen
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff vom Ende der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
 ## Beispiele
 
@@ -44,8 +44,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// Zum ersten Abschnitt wechseln und eine Kopf- und Fußzeile erstellen. Standardmäßig,
-// Die Kopf- und Fußzeile werden nur auf Seiten in dem Abschnitt angezeigt, der sie enthält.
+// Wechseln Sie zum ersten Abschnitt und erstellen Sie eine Kopf- und eine Fußzeile. Standardmäßig
+// Die Kopf- und Fußzeile werden auf den Seiten nur in dem Abschnitt angezeigt, der sie enthält.
 builder.MoveToSection(0);
 
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -55,28 +55,28 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer, which will be displayed in sections 1, 2 and 3.");
 
 // Wir können die Kopf-/Fußzeilen eines Abschnitts mit den Kopf-/Fußzeilen des vorherigen Abschnitts verknüpfen
-// damit der verlinkte Abschnitt die Kopf-/Fußzeilen des verlinkten Abschnitts anzeigen kann.
+// um dem Verknüpfungsabschnitt die Anzeige der Kopf-/Fußzeilen des verknüpften Abschnitts zu ermöglichen.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Jeder Abschnitt wird weiterhin seine eigenen Kopf-/Fußzeilenobjekte haben. Wenn wir Abschnitte verlinken,
-// Der verlinkende Abschnitt zeigt die Kopf-/Fußzeilen des verlinkten Abschnitts an, behält aber seine eigenen.
+// Jeder Abschnitt verfügt weiterhin über eigene Kopf-/Fußzeilenobjekte. Wenn wir Abschnitte verknüpfen,
+// Der Verknüpfungsbereich zeigt die Kopf-/Fußzeilen des verknüpften Bereichs an, behält aber seine eigenen bei.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
 // Verknüpfen Sie die Kopf-/Fußzeilen des dritten Abschnitts mit den Kopf-/Fußzeilen des zweiten Abschnitts.
-// Der zweite Abschnitt verlinkt bereits auf die Kopf-/Fußzeilen des ersten Abschnitts,
-// Durch die Verknüpfung mit dem zweiten Abschnitt wird also eine Verknüpfungskette erstellt.
-// Im ersten, zweiten und jetzt dritten Abschnitt werden alle die Kopfzeilen des ersten Abschnitts angezeigt.
+// Der zweite Abschnitt ist bereits mit den Kopf-/Fußzeilen des ersten Abschnitts verknüpft.
+// Durch die Verknüpfung mit dem zweiten Abschnitt wird also eine Linkkette erstellt.
+// Der erste, zweite und jetzt auch der dritte Abschnitt zeigen alle die Überschriften des ersten Abschnitts an.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Wir können die Verknüpfung der Kopf-/Fußzeilen eines vorherigen Abschnitts aufheben, indem wir beim Aufruf der LinkToPrevious-Methode „false“ übergeben.
+// Wir können die Verknüpfung der Kopf-/Fußzeilen eines vorherigen Abschnitts aufheben, indem wir beim Aufrufen der Methode LinkToPrevious „false“ übergeben.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // Mit dieser Methode können wir auch nur einen bestimmten Kopf-/Fußzeilentyp zum Verknüpfen auswählen.
-// Der dritte Abschnitt hat jetzt dieselbe Fußzeile wie der zweite und der erste Abschnitt, jedoch nicht die Kopfzeile.
+// Der dritte Abschnitt hat jetzt dieselbe Fußzeile wie der zweite und erste Abschnitt, jedoch nicht die Kopfzeile.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Die Kopf-/Fußzeilen des ersten Abschnitts können nicht mit irgendetwas verknüpft werden, da es keinen vorherigen Abschnitt gibt.
+// Die Kopf-/Fußzeilen des ersten Abschnitts können keine Verknüpfungen herstellen, da kein vorheriger Abschnitt vorhanden ist.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
@@ -84,7 +84,7 @@ Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count);
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count(hf => ((HeaderFooter)hf).IsLinkedToPrevious));
 
-// Im dritten Abschnitt wird nur die Fußzeile über den zweiten Abschnitt mit der Fußzeile des ersten Abschnitts verknüpft.
+// Im dritten Abschnitt wird nur der Footer über den zweiten Abschnitt mit dem Footer des ersten Abschnitts verknüpft.
 Assert.AreEqual(6, doc.Sections[2].HeadersFooters.Count);
 Assert.AreEqual(5, doc.Sections[2].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 Assert.True(doc.Sections[2].HeadersFooters[3].IsLinkedToPrevious);
@@ -103,7 +103,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## HeaderFooterCollection indexer (2 of 2)
 
-Ruft a ab[`HeaderFooter`](../../headerfooter/) des angegebenen Typs.
+Ruft eine[`HeaderFooter`](../../headerfooter/) des angegebenen Typs.
 
 ```csharp
 public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
@@ -115,7 +115,7 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 ## Bemerkungen
 
-Gibt zurück`Null` wenn die Kopf-/Fußzeile des angegebenen Typs nicht gefunden wird.
+Rückgaben`null`wenn die Kopf-/Fußzeile des angegebenen Typs nicht gefunden wird.
 
 ## Beispiele
 
@@ -144,11 +144,11 @@ Zeigt, wie alle Fußzeilen aus einem Dokument gelöscht werden.
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Jeden Abschnitt durchlaufen und Fußzeilen aller Art entfernen.
+// Durchlaufen Sie jeden Abschnitt und entfernen Sie Fußzeilen aller Art.
 foreach (Section section in doc.OfType<Section>())
 {
-    // Es gibt drei Arten von Fuß- und Kopfzeilentypen.
-    // 1 – Die „erste“ Kopf-/Fußzeile, die nur auf der ersten Seite eines Abschnitts erscheint.
+    // Es gibt drei Arten von Fußzeilen- und Kopfzeilentypen.
+    // 1 – Die „Erste“ Kopf-/Fußzeile, die nur auf der ersten Seite eines Abschnitts angezeigt wird.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
@@ -156,7 +156,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 – Die „gerade“ Kopf-/Fußzeile, die auf geraden Seiten erscheint.
+        // 3 – Die Kopf-/Fußzeile „Gerade“, die auf geraden Seiten erscheint.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

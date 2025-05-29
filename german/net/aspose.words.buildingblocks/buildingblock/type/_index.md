@@ -3,7 +3,7 @@ title: BuildingBlock.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: BuildingBlock Type eigendom. Gibt den Bausteintyp an in C#.
+description: Entdecken Sie die Eigenschaft „BuildingBlock Type“, die für die Definition von Bausteintypen in Ihren Projekten unerlässlich ist. Optimieren Sie Ihr Design mit Klarheit und Präzision!
 type: docs
 weight: 120
 url: /de/net/aspose.words.buildingblocks/buildingblock/type/
@@ -18,13 +18,13 @@ public BuildingBlockType Type { get; set; }
 
 ## Bemerkungen
 
-Der Bausteintyp kann die Sichtbarkeit und das Verhalten des Bausteins in Microsoft Word beeinflussen.
+Der Bausteintyp kann die Sichtbarkeit und das Verhalten des -Bausteins in Microsoft Word beeinflussen.
 
 Entspricht dem**docPartPr.types** Element in OOXML.
 
 ## Beispiele
 
-Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
+Zeigt, wie einem Dokument ein benutzerdefinierter Baustein hinzugefügt wird.
 
 ```csharp
 public void CreateAndInsert()
@@ -42,24 +42,25 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Alle neuen Baustein-GUIDs haben standardmäßig denselben Nullwert, und wir können ihnen einen neuen eindeutigen Wert geben.
+    // Alle neuen Baustein-GUIDs haben standardmäßig denselben Nullwert und wir können ihnen einen neuen eindeutigen Wert zuweisen.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // Die folgenden Eigenschaften kategorisieren Bausteine
-    // in das Menü gelangen wir in Microsoft Word über „Einfügen“ -> „Schnellteile“ -> „Baustein-Organizer“.
+    // Im Menü können wir in Microsoft Word über „Einfügen“ -> „Schnellbausteine“ -> „Baustein-Organizer“ darauf zugreifen.
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Bevor wir diesen Baustein zu unserem Dokument hinzufügen können, müssen wir ihm einige Inhalte geben,
-    // was wir mit einem Dokumentbesucher tun werden. Dieser Besucher legt außerdem eine Kategorie, eine Galerie und ein Verhalten fest.
+    // Bevor wir diesen Baustein zu unserem Dokument hinzufügen können, müssen wir ihm einen Inhalt geben,
+    // Dies tun wir mithilfe eines Dokumentbesuchers. Dieser Besucher legt auch eine Kategorie, eine Galerie und ein Verhalten fest.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Besuchen Sie den Anfang/das Ende des BuildingBlocks.
     block.Accept(visitor);
 
-    // Wir können über das Glossardokument auf den Block zugreifen, den wir gerade erstellt haben.
+    // Wir können auf den Block zugreifen, den wir gerade aus dem Glossardokument erstellt haben.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
@@ -69,12 +70,12 @@ public void CreateAndInsert()
     // Jetzt können wir es als neuen Abschnitt in das Dokument einfügen.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // Wir können es auch im Building Blocks Organizer von Microsoft Word finden und manuell platzieren.
+    // Wir können es auch im Baustein-Organizer von Microsoft Word finden und manuell platzieren.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Richtet einen besuchten Baustein ein, der als Schnellteil in das Dokument eingefügt wird, und fügt seinem Inhalt Text hinzu.
+/// Richtet einen besuchten Baustein zum Einfügen in das Dokument als Schnellbaustein ein und fügt seinem Inhalt Text hinzu.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -86,7 +87,7 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Konfigurieren Sie den Baustein als Schnellteil und fügen Sie Eigenschaften hinzu, die vom Building Blocks Organizer verwendet werden.
+        // Konfigurieren Sie den Baustein als Schnellbaustein und fügen Sie Eigenschaften hinzu, die vom Building Blocks Organizer verwendet werden.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =

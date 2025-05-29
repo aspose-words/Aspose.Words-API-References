@@ -3,14 +3,14 @@ title: Table.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words für .NET
-description: Table AllowOverlap eigendom. Ruft ab ob eine schwebende Tabelle zulassen soll dass andere schwebende Objekte im Dokument ihre Grenzen überlappen wenn sie angezeigt werden. Der Standardwert istWAHR  in C#.
+description: Entdecken Sie die Eigenschaft „Tabellenüberlappung zulassen“, die steuert, ob schwebende Objekte Ihre Tabelle überlappen können. Verbessern Sie die Layoutflexibilität für eine bessere Dokumentpräsentation.
 type: docs
 weight: 70
 url: /de/net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property
 
-Ruft ab, ob eine schwebende Tabelle zulassen soll, dass andere schwebende Objekte im Dokument ihre Grenzen überlappen, wenn sie angezeigt werden. Der Standardwert ist`WAHR` .
+Gibt an, ob eine schwebende Tabelle anderen schwebenden Objekten im Dokument erlauben soll, ihre Ausdehnungen bei der Anzeige zu überlappen. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool AllowOverlap { get; }
@@ -18,7 +18,7 @@ public bool AllowOverlap { get; }
 
 ## Beispiele
 
-Zeigt, wie mit Floating-Table-Eigenschaften gearbeitet wird.
+Zeigt, wie mit den Eigenschaften schwebender Tabellen gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Nur Rand, Seite, Spalte in RelativeHorizontalPosition für HorizontalAnchor-Setter verfügbar.
-    // Die ArgumentException wird für alle anderen Werte ausgelöst.
+    // Für den HorizontalAnchor-Setter sind in RelativeHorizontalPosition nur Margin, Page und Column verfügbar.
+    // Für alle anderen Werte wird die ArgumentException ausgelöst.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Nur Rand, Seite, Absatz verfügbar in RelativeVerticalPosition für VerticalAnchor-Setter.
-    // Die ArgumentException wird für alle anderen Werte ausgelöst.
+    // Für den VerticalAnchor-Setter sind in RelativeVerticalPosition nur Margin, Page und Paragraph verfügbar.
+    // Für alle anderen Werte wird die ArgumentException ausgelöst.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

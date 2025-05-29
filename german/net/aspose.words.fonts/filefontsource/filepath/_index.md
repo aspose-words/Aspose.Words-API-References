@@ -3,7 +3,7 @@ title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words für .NET
-description: FileFontSource FilePath eigendom. Pfad zur Schriftartdatei in C#.
+description: Entdecken Sie die FileFontSource FilePath-Eigenschaft für einfachen Zugriff auf Ihre Schriftdateien. Optimieren Sie Ihren Designprozess mit diesem unverzichtbaren Tool!
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/filefontsource/filepath/
@@ -18,7 +18,7 @@ public string FilePath { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
+Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

@@ -3,7 +3,7 @@ title: FolderFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: FolderFontSource Type eigendom. Gibt den Typ der Schriftartquelle zurück in C#.
+description: Entdecken Sie die Eigenschaft „FolderFontSourceType“. Identifizieren Sie mühelos Schriftarten, um Ihre Designprojekte zu verbessern und Ihren Workflow zu optimieren.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/folderfontsource/type/
@@ -21,7 +21,7 @@ public override FontSourceType Type { get; }
 Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
 ```csharp
-// Erstellen Sie eine Schriftartenquelle aus einem Ordner, der Schriftartendateien enthält.
+// Erstellen Sie eine Schriftartquelle aus einem Ordner, der Schriftartdateien enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

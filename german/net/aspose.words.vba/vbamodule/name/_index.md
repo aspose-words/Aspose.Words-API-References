@@ -3,7 +3,7 @@ title: VbaModule.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words für .NET
-description: VbaModule Name eigendom. Ruft den VBAProjektmodulnamen ab oder legt ihn fest in C#.
+description: Entdecken Sie, wie Sie mit der Eigenschaft „VbaModule Name“ die Modulnamen Ihres VBA-Projekts einfach verwalten und so für mehr Organisation und Effizienz sorgen können.
 type: docs
 weight: 20
 url: /de/net/aspose.words.vba/vbamodule/name/
@@ -18,23 +18,23 @@ public string Name { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
+Zeigt, wie man mit Makros ein VBA-Projekt erstellt.
 
 ```csharp
 Document doc = new Document();
 
-// Ein neues VBA-Projekt erstellen.
+// Erstellen Sie ein neues VBA-Projekt.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Ein neues Modul erstellen und einen Makroquellcode angeben.
+// Erstellen Sie ein neues Modul und geben Sie einen Makro-Quellcode an.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Modul zum VBA-Projekt hinzufügen.
+// Fügen Sie das Modul zum VBA-Projekt hinzu.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
@@ -51,7 +51,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -62,7 +62,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 

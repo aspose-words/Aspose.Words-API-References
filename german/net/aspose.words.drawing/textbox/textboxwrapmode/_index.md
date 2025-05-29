@@ -3,7 +3,7 @@ title: TextBox.TextBoxWrapMode
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
 second_title: Aspose.Words für .NET
-description: TextBox TextBoxWrapMode eigendom. Bestimmt wie Text innerhalb einer Form umbrochen wird in C#.
+description: Entdecken Sie die TextBox WrapMode-Eigenschaft, um den Textumbruch innerhalb von Formen zu verbessern und so die Klarheit und visuelle Attraktivität Ihres Designs zu steigern.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/textbox/textboxwrapmode/
@@ -32,8 +32,8 @@ Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
 // Setzen Sie die Eigenschaft „TextBoxWrapMode“ auf „TextBoxWrapMode.None“, um die Breite des Textfelds zu erhöhen
-// um Text unterzubringen, sollte dieser groß genug sein.
-// Setzen Sie die Eigenschaft „TextBoxWrapMode“ auf „TextBoxWrapMode.Square“.
+// um Text unterzubringen, falls dieser groß genug ist.
+// Setzen Sie die Eigenschaft "TextBoxWrapMode" auf "TextBoxWrapMode.Square" auf
 // Den gesamten Text in das Textfeld einschließen und dabei seine Abmessungen beibehalten.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 

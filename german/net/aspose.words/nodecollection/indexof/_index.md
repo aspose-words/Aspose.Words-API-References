@@ -3,7 +3,7 @@ title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words für .NET
-description: NodeCollection IndexOf methode. Gibt den nullbasierten Index des angegebenen Knotens zurück in C#.
+description: Entdecken Sie die NodeCollection IndexOf-Methode, um effizient den nullbasierten Index eines beliebigen angegebenen Knotens in Ihren Sammlungen zu finden.
 type: docs
 weight: 70
 url: /de/net/aspose.words/nodecollection/indexof/
@@ -18,15 +18,15 @@ public int IndexOf(Node node)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| node | Node | Der zu suchende Knoten. |
+| node | Node | Der zu lokalisierende Knoten. |
 
 ### Rückgabewert
 
-Der nullbasierte Index des Knotens innerhalb der Sammlung, falls gefunden; andernfalls -1.
+Der nullbasierte Index des Knotens innerhalb der Auflistung, sofern gefunden, andernfalls -1.
 
 ## Bemerkungen
 
-Diese Methode führt eine lineare Suche durch; Daher ist die durchschnittliche Ausführungszeit proportional zu[`Count`](../count/).
+Diese Methode führt eine lineare Suche durch; daher ist die durchschnittliche Ausführungszeit proportional zu[`Count`](../count/).
 
 ## Beispiele
 

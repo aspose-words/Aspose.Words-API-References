@@ -3,14 +3,14 @@ title: Node.NodeTypeToString
 linktitle: NodeTypeToString
 articleTitle: NodeTypeToString
 second_title: Aspose.Words für .NET
-description: Node NodeTypeToString methode. Eine Dienstprogrammmethode die einen KnotentypEnumerationswert in eine benutzerfreundliche Zeichenfolge konvertiert in C#.
+description: Entdecken Sie die NodeNodeTypeToString-Methode und konvertieren Sie mühelos Knotentyp-Enumerationen in benutzerfreundliche Zeichenfolgen für nahtlose Codierung und verbesserte Lesbarkeit.
 type: docs
 weight: 170
 url: /de/net/aspose.words/node/nodetypetostring/
 ---
 ## Node.NodeTypeToString method
 
-Eine Dienstprogrammmethode, die einen Knotentyp-Enumerationswert in eine benutzerfreundliche Zeichenfolge konvertiert.
+Eine Hilfsmethode, die einen Enumerationswert vom Knotentyp in eine benutzerfreundliche Zeichenfolge konvertiert.
 
 ```csharp
 public static string NodeTypeToString(NodeType nodeType)
@@ -18,7 +18,7 @@ public static string NodeTypeToString(NodeType nodeType)
 
 ## Beispiele
 
-Zeigt, wie die NextSibling-Eigenschaft eines Knotens verwendet wird, um seine unmittelbaren untergeordneten Knoten aufzuzählen.
+Zeigt, wie die NextSibling-Eigenschaft eines Knotens zum Aufzählen seiner unmittelbar untergeordneten Elemente verwendet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -40,16 +40,16 @@ public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Jeder Knoten, der untergeordnete Knoten enthalten kann, z. B. das Dokument selbst, ist zusammengesetzt.
+    // Jeder Knoten, der untergeordnete Knoten enthalten kann, wie z. B. das Dokument selbst, ist zusammengesetzt.
     Assert.True(doc.IsComposite);
 
-    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und ausgibt.
+    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und druckt.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Durchläuft rekursiv einen Knotenbaum und gibt dabei den Typ jedes Knotens aus
-/// mit einem Einzug abhängig von der Tiefe sowie dem Inhalt aller Inline-Knoten.
+/// mit einem Einzug, der von der Tiefe sowie dem Inhalt aller Inline-Knoten abhängt.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -57,7 +57,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls drucken Sie den Inhalt aus, wenn es sich um einen Inline-Knoten handelt.
+        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls wird der Inhalt gedruckt, wenn es sich um einen Inline-Knoten handelt.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

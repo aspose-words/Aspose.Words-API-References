@@ -3,14 +3,14 @@ title: ParagraphFormat.CharacterUnitFirstLineIndent
 linktitle: CharacterUnitFirstLineIndent
 articleTitle: CharacterUnitFirstLineIndent
 second_title: Aspose.Words für .NET
-description: ParagraphFormat CharacterUnitFirstLineIndent eigendom. Ruft den Wert in Zeichen für die erste Zeile oder den hängenden Einzug ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „ParagraphFormat CharacterUnitFirstLineIndent“, um die erste Zeile oder den hängenden Einzug Ihres Dokuments einfach anzupassen und so ein elegantes Erscheinungsbild zu erzielen.
 type: docs
 weight: 70
 url: /de/net/aspose.words/paragraphformat/characterunitfirstlineindent/
 ---
 ## ParagraphFormat.CharacterUnitFirstLineIndent property
 
-Ruft den Wert (in Zeichen) für die erste Zeile oder den hängenden Einzug ab oder legt diesen fest.
+Ruft den Wert (in Zeichen) für den Erstzeilen- oder hängenden Einzug ab oder legt ihn fest.
 
 Verwenden Sie positive Werte, um den Einzug der ersten Zeile festzulegen, und negative Werte, um den hängenden Einzug festzulegen.
 
@@ -27,7 +27,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Nachfolgend finden Sie fünf verschiedene Abstandsoptionen sowie die Eigenschaften, die sich durch ihre Konfiguration indirekt auswirken.
+// Nachfolgend finden Sie fünf verschiedene Abstandsoptionen sowie die Eigenschaften, auf die sich ihre Konfiguration indirekt auswirkt.
 // 1 - Linker Einzug:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 

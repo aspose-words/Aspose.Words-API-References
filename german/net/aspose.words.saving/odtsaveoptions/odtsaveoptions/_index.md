@@ -3,14 +3,14 @@ title: OdtSaveOptions
 linktitle: OdtSaveOptions
 articleTitle: OdtSaveOptions
 second_title: Aspose.Words für .NET
-description: OdtSaveOptions constructeur. Initialisiert eine neue Instanz dieser Klasse die zum Speichern eines Dokuments im verwendet werden kannOdt format in C#.
+description: Entdecken Sie den OdtSaveOptions-Konstruktor, um Dokumente mühelos im ODT-Format zu speichern. Optimieren Sie Ihren Workflow mit diesem leistungsstarken Tool!
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/odtsaveoptions/odtsaveoptions/
 ---
 ## OdtSaveOptions() {#constructor}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannOdt format.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imOdt format.
 
 ```csharp
 public OdtSaveOptions()
@@ -42,7 +42,7 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Odt11Schema.odt", saveOptions);
 
 ## OdtSaveOptions(*string*) {#constructor_2}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannOdt format verschlüsselt mit einem Passwort.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imOdt format mit einem Passwort verschlüsselt.
 
 ```csharp
 public OdtSaveOptions(string password)
@@ -58,7 +58,7 @@ public OdtSaveOptions(string password)
 
 ## OdtSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannOdt or Ott format.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imOdt oder Ott format.
 
 ```csharp
 public OdtSaveOptions(SaveFormat saveFormat)
@@ -70,22 +70,22 @@ public OdtSaveOptions(SaveFormat saveFormat)
 
 ## Beispiele
 
-Zeigt, wie man ein gespeichertes ODT/OTT-Dokument mit einem Passwort verschlüsselt und es dann mit Aspose.Words lädt.
+Zeigt, wie Sie ein gespeichertes ODT/OTT-Dokument mit einem Kennwort verschlüsseln und es dann mit Aspose.Words laden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Erstellen Sie eine neue OdtSaveOptions und übergeben Sie entweder „SaveFormat.Odt“,
- // oder „SaveFormat.Ott“ als Format zum Speichern des Dokuments.
+// Erstellen Sie eine neue OdtSaveOptions und übergeben Sie entweder "SaveFormat.Odt",
+    // oder „SaveFormat.Ott“ als Format, in dem das Dokument gespeichert werden soll.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
-// Wenn wir dieses Dokument mit einem geeigneten Editor öffnen,
-// Es wird uns zur Eingabe des Passworts auffordern, das wir im SaveOptions-Objekt angegeben haben.
+// Wenn wir dieses Dokument mit einem entsprechenden Editor öffnen,
+// Es fordert uns zur Eingabe des Passworts auf, das wir im SaveOptions-Objekt angegeben haben.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);

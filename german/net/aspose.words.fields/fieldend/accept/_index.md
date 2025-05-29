@@ -3,14 +3,14 @@ title: FieldEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: FieldEnd Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die Accept-Methode von FieldEnd – binden Sie Besucher nahtlos ein und verbessern Sie das Benutzererlebnis mit unseren innovativen Lösungen. Schöpfen Sie noch heute das Potenzial Ihrer Website aus!
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldend/accept/
 ---
 ## FieldEnd.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-**FALSCH** wenn der Besucher das Stoppen der Aufzählung angefordert hat.
+**FALSCH** wenn der Besucher die Beendigung der Aufzählung verlangt hat.
 
 ## Bemerkungen
 
 Anrufe[`VisitFieldEnd`](../../../aspose.words/documentvisitor/visitfieldend/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
 ## Beispiele
 
@@ -52,8 +52,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

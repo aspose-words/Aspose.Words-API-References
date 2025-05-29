@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToSection
 linktitle: MoveToSection
 articleTitle: MoveToSection
 second_title: Aspose.Words für .NET
-description: DocumentBuilder MoveToSection methode. Bewegt den Cursor an den Anfang des Körpers in einem angegebenen Abschnitt in C#.
+description: Entdecken Sie die MoveToSection-Methode von DocumentBuilder, um einfach zum Anfang des Hauptteils eines beliebigen Abschnitts zu navigieren und so die Effizienz Ihrer Dokumentbearbeitung zu steigern.
 type: docs
-weight: 570
+weight: 610
 url: /de/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
 
-Bewegt den Cursor an den Anfang des Körpers in einem angegebenen Abschnitt.
+Verschiebt den Cursor an den Anfang des Textkörpers in einem angegebenen Abschnitt.
 
 ```csharp
 public void MoveToSection(int sectionIndex)
@@ -22,23 +22,23 @@ public void MoveToSection(int sectionIndex)
 
 ## Bemerkungen
 
-Wann*sectionIndex* größer oder gleich 0 ist, gibt es einen Index vom Anfang des Dokuments an, wobei 0 der erste Abschnitt ist. Wann*sectionIndex* kleiner als 0, ist, wurde ein Index vom Ende des Dokuments angegeben, wobei -1 der letzte Abschnitt ist.
+Wann*sectionIndex*größer oder gleich 0 ist, gibt es einen Index von zum Anfang des Dokuments an, wobei 0 der erste Abschnitt ist. Wenn*sectionIndex* ist kleiner als 0, , es wurde ein Index vom Ende des Dokuments angegeben, wobei -1 der letzte Abschnitt ist.
 
-Der Cursor wird zum ersten Absatz im verschoben[`Body`](../../body/) des angegebenen Abschnitts.
+Der Cursor wird zum ersten Absatz im[`Body`](../../body/) des angegebenen Abschnitts.
 
 ## Beispiele
 
-Zeigt, wie man mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellt.
+Zeigt, wie Sie mit DocumentBuilder Kopf- und Fußzeilen in einem Dokument erstellen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geben Sie an, dass wir unterschiedliche Kopf- und Fußzeilen für die erste, gerade und ungerade Seite wünschen.
+// Geben Sie an, dass wir für die erste, die gerade und die ungerade Seite unterschiedliche Kopf- und Fußzeilen wünschen.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Erstellen Sie die Kopfzeilen und fügen Sie dann drei Seiten zum Dokument hinzu, um jeden Kopfzeilentyp anzuzeigen.
+// Erstellen Sie die Kopfzeilen und fügen Sie dem Dokument dann drei Seiten hinzu, um jeden Kopfzeilentyp anzuzeigen.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

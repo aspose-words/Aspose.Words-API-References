@@ -3,14 +3,14 @@ title: ChartAxis.MajorTickMark
 linktitle: MajorTickMark
 articleTitle: MajorTickMark
 second_title: Aspose.Words für .NET
-description: ChartAxis MajorTickMark eigendom. Gibt die wichtigsten Teilstriche zurück oder setzt sie in C#.
+description: Entdecken Sie die Eigenschaft „ChartAxis MajorTickMark“, um die Hauptmarkierungen Ihres Diagramms einfach anzupassen und so die visuelle Klarheit und Präzision zu verbessern.
 type: docs
-weight: 110
+weight: 120
 url: /de/net/aspose.words.drawing.charts/chartaxis/majortickmark/
 ---
 ## ChartAxis.MajorTickMark property
 
-Gibt die wichtigsten Teilstriche zurück oder setzt sie.
+Gibt die Hauptmarkierungen zurück oder legt sie fest.
 
 ```csharp
 public AxisTickMark MajorTickMark { get; set; }
@@ -18,7 +18,7 @@ public AxisTickMark MajorTickMark { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
+Zeigt, wie Sie ein Diagramm einfügen und die Darstellung seiner Achsen ändern.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ chart.Series.Add("Aspose Test Series",
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
+// wie etwa ihre Richtung, große/kleine Einheitsstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -45,10 +45,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -58,7 +60,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Säulendiagramme haben keine Z-Achse.
 Assert.Null(chart.AxisZ);

@@ -3,14 +3,14 @@ title: FieldIf.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words für .NET
-description: FieldIf LeftExpression eigendom. Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
+description: Entdecken Sie die LeftExpression-Eigenschaft von FieldIf und verwalten Sie ganz einfach die linke Seite Ihres Vergleichsausdrucks für eine verbesserte Datenverarbeitung und -analyse.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldif/leftexpression/
 ---
 ## FieldIf.LeftExpression property
 
-Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest.
+Ruft den linken Teil des Vergleichsausdrucks ab oder legt ihn fest.
 
 ```csharp
 public string LeftExpression { get; set; }
@@ -30,13 +30,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Das IF-Feld zeigt eine Zeichenfolge entweder seiner „TrueText“-Eigenschaft an,
-// oder seine „FalseText“-Eigenschaft, abhängig von der Wahrheit der Aussage, die wir erstellt haben.
+// Das IF-Feld zeigt eine Zeichenfolge aus seiner Eigenschaft "TrueText" an,
+// oder seine Eigenschaft „FalseText“, abhängig von der Wahrheit der von uns erstellten Aussage.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// In diesem Fall ist „0 = 1“ falsch, daher wird das angezeigte Ergebnis „Falsch“ sein.
+// In diesem Fall ist „0 = 1“ falsch, daher ist das angezeigte Ergebnis „Falsch“.
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -50,7 +50,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Diesmal ist die Aussage korrekt, daher wird das angezeigte Ergebnis „True“ sein.
+// Dieses Mal ist die Anweisung korrekt, daher ist das angezeigte Ergebnis „True“.
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

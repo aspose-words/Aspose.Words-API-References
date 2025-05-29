@@ -3,14 +3,14 @@ title: MailMergeSettings.LinkToQuery
 linktitle: LinkToQuery
 articleTitle: LinkToQuery
 second_title: Aspose.Words für .NET
-description: MailMergeSettings LinkToQuery eigendom. Da bin ich mir nicht sicher. Die Microsoft WordAutomatisierungsreferenz schlägt vor dass dies angibt dass die Abfrage jedes Mal ausgeführt wird wenn das Dokument in Microsoft Word geöffnet wird. Die OOXMLSpezifikation legt jedoch nahe dass dies angibt dass die Abfrage einen Verweis auf eine externe Abfragedatei enthält die die eigentliche Abfrage enthält. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die LinkToQuery-Eigenschaft von MailMergeSettings und erfahren Sie, wie sie die Abfrageausführung in Word-Dokumenten steuert und welche Standardeinstellung für optimale Leistung verwendet wird.
 type: docs
 weight: 110
 url: /de/net/aspose.words.settings/mailmergesettings/linktoquery/
 ---
 ## MailMergeSettings.LinkToQuery property
 
-Da bin ich mir nicht sicher. Die Microsoft Word-Automatisierungsreferenz schlägt vor, dass dies angibt, dass die Abfrage jedes Mal ausgeführt wird, wenn das Dokument in Microsoft Word geöffnet wird. Die OOXML-Spezifikation legt jedoch nahe, dass dies angibt, dass die Abfrage einen Verweis auf eine externe Abfragedatei enthält, die die eigentliche Abfrage enthält. Der Standardwert ist`FALSCH` .
+Hier bin ich mir nicht sicher. Die Microsoft Word Automation Reference legt nahe, dass die Abfrage jedes Mal ausgeführt wird, wenn das Dokument in Microsoft Word geöffnet wird. Die OOXML-Spezifikation legt jedoch nahe, dass die Abfrage einen Verweis auf eine externe Abfragedatei enthält, die die eigentliche Abfrage enthält. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool LinkToQuery { get; set; }
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

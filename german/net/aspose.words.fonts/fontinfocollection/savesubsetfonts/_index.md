@@ -3,16 +3,16 @@ title: FontInfoCollection.SaveSubsetFonts
 linktitle: SaveSubsetFonts
 articleTitle: SaveSubsetFonts
 second_title: Aspose.Words für .NET
-description: FontInfoCollection SaveSubsetFonts eigendom. Gibt an ob eine Teilmenge der eingebetteten TrueTypeSchriftarten mit document. gespeichert werden soll. Der Standardwert für diese Eigenschaft istFALSCH in C#.
+description: Entdecken Sie die SaveSubsetFonts-Eigenschaft der FontInfoCollection und steuern Sie eingebettete TrueType-Schriftarten-Teilmengen in Ihren Dokumenten, um Dateigröße und Leistung zu optimieren.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
 ---
 ## FontInfoCollection.SaveSubsetFonts property
 
-Gibt an, ob eine Teilmenge der eingebetteten TrueType-Schriftarten mit document. gespeichert werden soll. Der Standardwert für diese Eigenschaft ist`FALSCH`.
+Gibt an, ob eine Teilmenge der eingebetteten TrueType-Schriftarten mit dem Dokument gespeichert werden soll. Der Standardwert für diese Eigenschaft ist`FALSCH`.
 
-Diese Option funktioniert nur, wenn[`EmbedTrueTypeFonts`](../embedtruetypefonts/) Die Eigenschaft ist auf festgelegt`WAHR`.
+Diese Option funktioniert nur, wenn[`EmbedTrueTypeFonts`](../embedtruetypefonts/) Eigenschaft ist auf`WAHR`.
 
 ```csharp
 public bool SaveSubsetFonts { get; set; }
@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Siehe auch

@@ -3,7 +3,7 @@ title: PreferredWidth.Auto
 linktitle: Auto
 articleTitle: Auto
 second_title: Aspose.Words für .NET
-description: PreferredWidth Auto veld. Gibt eine Instanz zurück die den Wert Bevorzugte Breite ist nicht angegeben darstellt in C#.
+description: Entdecken Sie das automatische Feld „PreferredWidth“, das nicht angegebene Breitenwerte effizient verarbeitet, um eine optimale Layoutanpassung in Ihren Projekten zu ermöglichen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.tables/preferredwidth/auto/
@@ -18,7 +18,7 @@ public static readonly PreferredWidth Auto;
 
 ## Beispiele
 
-Zeigt, wie man eine bevorzugte Breite für Tabellenzellen festlegt.
+Zeigt, wie Sie eine bevorzugte Breite für Tabellenzellen festlegen.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Eine Zelle, für die keine bevorzugte Breite angegeben ist, nimmt den Rest des verfügbaren Platzes ein.
+// Eine Zelle ohne angegebene bevorzugte Breite nimmt den restlichen verfügbaren Platz ein.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Jede Konfiguration der Eigenschaft „PreferredWidth“ erstellt ein neues Objekt.

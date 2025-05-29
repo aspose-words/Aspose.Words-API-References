@@ -3,7 +3,7 @@ title: OdsoRecipientData.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words für .NET
-description: OdsoRecipientData Clone methode. Gibt einen tiefen Klon dieses Objekts zurück in C#.
+description: Erstellen Sie mühelos einen vollständigen Klon Ihres OdsoRecipientData-Objekts mit unserer Klonmethode. Verbessern Sie Ihr Datenmanagement einfach und effizient!
 type: docs
 weight: 60
 url: /de/net/aspose.words.settings/odsorecipientdata/clone/
@@ -18,7 +18,7 @@ public OdsoRecipientData Clone()
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Datensätze aus Seriendruckdatenquellen bei einem Seriendruck ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können Elemente auch einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

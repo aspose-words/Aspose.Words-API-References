@@ -3,16 +3,16 @@ title: CustomXmlSchemaCollection Class
 linktitle: CustomXmlSchemaCollection
 articleTitle: CustomXmlSchemaCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Markup.CustomXmlSchemaCollection klas. Eine Sammlung von Zeichenfolgen die XMLSchemas darstellen die einem benutzerdefinierten XMLTeil zugeordnet sind in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Markup.CustomXmlSchemaCollection zum Verwalten von XML-Schemas, die mit benutzerdefinierten XML-Teilen verknüpft sind, und verbessern Sie so die Dokumentflexibilität und -kontrolle.
 type: docs
-weight: 3960
+weight: 4650
 url: /de/net/aspose.words.markup/customxmlschemacollection/
 ---
 ## CustomXmlSchemaCollection class
 
 Eine Sammlung von Zeichenfolgen, die XML-Schemas darstellen, die einem benutzerdefinierten XML-Teil zugeordnet sind.
 
-Um mehr zu erfahren, besuchen Sie die[Strukturierte Dokument-Tags oder Inhaltskontrolle](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Strukturierte Dokument-Tags oder Inhaltssteuerung](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Dokumentationsartikel.
 
 ```csharp
 public class CustomXmlSchemaCollection : IEnumerable<string>
@@ -32,14 +32,14 @@ public class CustomXmlSchemaCollection : IEnumerable<string>
 | [Add](../../aspose.words.markup/customxmlschemacollection/add/)(*string*) | Fügt der Sammlung ein Element hinzu. |
 | [Clear](../../aspose.words.markup/customxmlschemacollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
 | [Clone](../../aspose.words.markup/customxmlschemacollection/clone/)() | Erstellt einen tiefen Klon dieses Objekts. |
-| [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
-| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(*string*) | Gibt den nullbasierten Index des angegebenen Werts in der Sammlung zurück. |
+| [GetEnumerator](../../aspose.words.markup/customxmlschemacollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können. |
+| [IndexOf](../../aspose.words.markup/customxmlschemacollection/indexof/)(*string*) | Gibt den nullbasierten Index des angegebenen Werts in der Auflistung zurück. |
 | [Remove](../../aspose.words.markup/customxmlschemacollection/remove/)(*string*) | Entfernt den angegebenen Wert aus der Sammlung. |
 | [RemoveAt](../../aspose.words.markup/customxmlschemacollection/removeat/)(*int*) | Entfernt einen Wert am angegebenen Index. |
 
 ## Bemerkungen
 
-Sie erstellen keine Instanzen dieser Klasse. Sie greifen auf die Sammlung von XML-Schemas eines benutzerdefinierten XML-Teils über zu[`Schemas`](../customxmlpart/schemas/) Eigentum.
+Sie erstellen keine Instanzen dieser Klasse. Sie greifen auf die Sammlung von XML-Schemata eines benutzerdefinierten XML-Teils über die[`Schemas`](../customxmlpart/schemas/) Eigentum.
 
 ## Beispiele
 
@@ -52,11 +52,11 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Eine XML-Schema-Zuordnung hinzufügen.
+// Eine XML-Schemazuordnung hinzufügen.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Klonen Sie die XML-Schema-Zuordnungssammlung des benutzerdefinierten XML-Teils.
-// und dann ein paar neue Schemata zum Klon hinzufügen.
+// Klonen Sie die XML-Schema-Assoziationssammlung des benutzerdefinierten XML-Teils.
+// und fügen Sie dem Klon dann ein paar neue Schemata hinzu.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -64,21 +64,21 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Zählen Sie die Schemata auf und drucken Sie jedes Element aus.
+// Schemata aufzählen und jedes Element drucken.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nachfolgend finden Sie drei Möglichkeiten, Schemata aus der Sammlung zu entfernen.
-// 1 – Ein Schema nach Index entfernen:
+// Unten sind drei Möglichkeiten zum Entfernen von Schemas aus der Sammlung aufgeführt.
+// 1 – Entfernen Sie ein Schema nach Index:
 schemas.RemoveAt(2);
 
-// 2 – Ein Schema nach Wert entfernen:
+// 2 – Entfernen Sie ein Schema nach Wert:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 – Verwenden Sie die Methode „Clear“, um die Sammlung sofort zu leeren.
+// 3 - Verwenden Sie die Methode „Clear“, um die Sammlung sofort zu leeren.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

@@ -3,14 +3,14 @@ title: FieldAutoTextList.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words für .NET
-description: FieldAutoTextList ScreenTip eigendom. Ruft den Text der anzuzeigenden QuickInfo ab oder legt diesen fest in C#.
+description: Entdecken Sie die QuickInfo-Eigenschaft „FieldAutoTextList“ und passen Sie Ihren QuickInfo-Text ganz einfach an, um das Benutzererlebnis und die Übersichtlichkeit Ihrer Anwendung zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldautotextlist/screentip/
 ---
 ## FieldAutoTextList.ScreenTip property
 
-Ruft den Text der anzuzeigenden QuickInfo ab oder legt diesen fest.
+Ruft den Text des anzuzeigenden ScreenTips ab oder legt ihn fest.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -18,14 +18,14 @@ public string ScreenTip { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ein AUTOTEXTLIST-Feld verwendet wird, um aus einer Liste von AutoText-Einträgen auszuwählen.
+Zeigt, wie Sie mithilfe eines AUTOTEXTLIST-Felds aus einer Liste mit AutoText-Einträgen auswählen.
 
 ```csharp
 public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Ein Glossardokument erstellen und es mit automatischen Texteinträgen füllen.
+    // Erstellen Sie ein Glossardokument und füllen Sie es mit automatischen Texteinträgen.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -33,9 +33,9 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Erstellen Sie ein AUTOTEXTLIST-Feld und legen Sie den Text fest, den das Feld in Microsoft Word anzeigen soll.
-    // Legen Sie den Text so fest, dass der Benutzer aufgefordert wird, mit der rechten Maustaste auf dieses Feld zu klicken, um einen AutoText-Baustein auszuwählen.
-    // dessen Inhalt das Feld anzeigt.
+    // Erstellen Sie ein AUTOTEXTLIST-Feld und legen Sie den Text fest, der im Feld in Microsoft Word angezeigt wird.
+    // Legen Sie den Text fest, der den Benutzer auffordert, mit der rechten Maustaste auf dieses Feld zu klicken, um einen AutoText-Baustein auszuwählen.
+    // dessen Inhalt das Feld anzeigen wird.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
     field.ListStyle = "Heading 1";

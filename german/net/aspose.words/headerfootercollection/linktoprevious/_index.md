@@ -3,14 +3,14 @@ title: HeaderFooterCollection.LinkToPrevious
 linktitle: LinkToPrevious
 articleTitle: LinkToPrevious
 second_title: Aspose.Words für .NET
-description: HeaderFooterCollection LinkToPrevious methode. Verknüpft alle Kopf und Fußzeilen mit den entsprechenden Kopf und Fußzeilen im vorherigen Abschnitt oder hebt die Verknüpfung auf in C#.
+description: Entdecken Sie die Methode LinkToPrevious in HeaderFooterCollection, um Kopf- und Fußzeilen in Ihren Dokumentabschnitten einfach zu verbinden oder zu trennen und so eine nahtlose Formatierung zu erreichen.
 type: docs
 weight: 20
 url: /de/net/aspose.words/headerfootercollection/linktoprevious/
 ---
 ## LinkToPrevious(*bool*) {#linktoprevious_1}
 
-Verknüpft alle Kopf- und Fußzeilen mit den entsprechenden Kopf- und Fußzeilen im vorherigen Abschnitt oder hebt die Verknüpfung auf.
+Verknüpft oder trennt alle Kopf- und Fußzeilen mit den entsprechenden Kopf- und Fußzeilen im vorherigen Abschnitt.
 
 ```csharp
 public void LinkToPrevious(bool isLinkToPrevious)
@@ -18,11 +18,11 @@ public void LinkToPrevious(bool isLinkToPrevious)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| isLinkToPrevious | Boolean | `WAHR` um die Kopf- und Fußzeilen mit dem vorherigen Abschnitt zu verknüpfen; `FALSCH` um sie zu entkoppeln. |
+| isLinkToPrevious | Boolean | `WAHR` um die Kopf- und Fußzeilen mit dem vorherigen Abschnitt zu verknüpfen; `FALSCH` um die Verknüpfung aufzuheben. |
 
 ## Bemerkungen
 
-Wenn eine der Kopf- oder Fußzeilen nicht vorhanden ist, werden sie automatisch erstellt.
+Wenn Kopf- oder Fußzeilen nicht vorhanden sind, werden sie automatisch erstellt.
 
 ## Beispiele
 
@@ -38,8 +38,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// Zum ersten Abschnitt wechseln und eine Kopf- und Fußzeile erstellen. Standardmäßig,
-// Die Kopf- und Fußzeile werden nur auf Seiten in dem Abschnitt angezeigt, der sie enthält.
+// Wechseln Sie zum ersten Abschnitt und erstellen Sie eine Kopf- und eine Fußzeile. Standardmäßig
+// Die Kopf- und Fußzeile werden auf den Seiten nur in dem Abschnitt angezeigt, der sie enthält.
 builder.MoveToSection(0);
 
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -49,28 +49,28 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer, which will be displayed in sections 1, 2 and 3.");
 
 // Wir können die Kopf-/Fußzeilen eines Abschnitts mit den Kopf-/Fußzeilen des vorherigen Abschnitts verknüpfen
-// damit der verlinkte Abschnitt die Kopf-/Fußzeilen des verlinkten Abschnitts anzeigen kann.
+// um dem Verknüpfungsabschnitt die Anzeige der Kopf-/Fußzeilen des verknüpften Abschnitts zu ermöglichen.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Jeder Abschnitt wird weiterhin seine eigenen Kopf-/Fußzeilenobjekte haben. Wenn wir Abschnitte verlinken,
-// Der verlinkende Abschnitt zeigt die Kopf-/Fußzeilen des verlinkten Abschnitts an, behält aber seine eigenen.
+// Jeder Abschnitt verfügt weiterhin über eigene Kopf-/Fußzeilenobjekte. Wenn wir Abschnitte verknüpfen,
+// Der Verknüpfungsbereich zeigt die Kopf-/Fußzeilen des verknüpften Bereichs an, behält aber seine eigenen bei.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
 // Verknüpfen Sie die Kopf-/Fußzeilen des dritten Abschnitts mit den Kopf-/Fußzeilen des zweiten Abschnitts.
-// Der zweite Abschnitt verlinkt bereits auf die Kopf-/Fußzeilen des ersten Abschnitts,
-// Durch die Verknüpfung mit dem zweiten Abschnitt wird also eine Verknüpfungskette erstellt.
-// Im ersten, zweiten und jetzt dritten Abschnitt werden alle die Kopfzeilen des ersten Abschnitts angezeigt.
+// Der zweite Abschnitt ist bereits mit den Kopf-/Fußzeilen des ersten Abschnitts verknüpft.
+// Durch die Verknüpfung mit dem zweiten Abschnitt wird also eine Linkkette erstellt.
+// Der erste, zweite und jetzt auch der dritte Abschnitt zeigen alle die Überschriften des ersten Abschnitts an.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Wir können die Verknüpfung der Kopf-/Fußzeilen eines vorherigen Abschnitts aufheben, indem wir beim Aufruf der LinkToPrevious-Methode „false“ übergeben.
+// Wir können die Verknüpfung der Kopf-/Fußzeilen eines vorherigen Abschnitts aufheben, indem wir beim Aufrufen der Methode LinkToPrevious „false“ übergeben.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // Mit dieser Methode können wir auch nur einen bestimmten Kopf-/Fußzeilentyp zum Verknüpfen auswählen.
-// Der dritte Abschnitt hat jetzt dieselbe Fußzeile wie der zweite und der erste Abschnitt, jedoch nicht die Kopfzeile.
+// Der dritte Abschnitt hat jetzt dieselbe Fußzeile wie der zweite und erste Abschnitt, jedoch nicht die Kopfzeile.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Die Kopf-/Fußzeilen des ersten Abschnitts können nicht mit irgendetwas verknüpft werden, da es keinen vorherigen Abschnitt gibt.
+// Die Kopf-/Fußzeilen des ersten Abschnitts können keine Verknüpfungen herstellen, da kein vorheriger Abschnitt vorhanden ist.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
@@ -78,7 +78,7 @@ Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count);
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count(hf => ((HeaderFooter)hf).IsLinkedToPrevious));
 
-// Im dritten Abschnitt wird nur die Fußzeile über den zweiten Abschnitt mit der Fußzeile des ersten Abschnitts verknüpft.
+// Im dritten Abschnitt wird nur der Footer über den zweiten Abschnitt mit dem Footer des ersten Abschnitts verknüpft.
 Assert.AreEqual(6, doc.Sections[2].HeadersFooters.Count);
 Assert.AreEqual(5, doc.Sections[2].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 Assert.True(doc.Sections[2].HeadersFooters[3].IsLinkedToPrevious);
@@ -96,7 +96,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 
 ## LinkToPrevious(*[HeaderFooterType](../../headerfootertype/), bool*) {#linktoprevious}
 
-Verknüpft oder hebt die Verknüpfung der angegebenen Kopf- oder Fußzeile mit der entsprechenden Kopf- oder Fußzeile im vorherigen Abschnitt auf.
+Verknüpft die angegebene Kopf- oder Fußzeile mit der entsprechenden Kopf- oder Fußzeile im vorherigen Abschnitt oder hebt die Verknüpfung auf.
 
 ```csharp
 public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevious)
@@ -104,8 +104,8 @@ public void LinkToPrevious(HeaderFooterType headerFooterType, bool isLinkToPrevi
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype/) value , der die Kopf- oder Fußzeile angibt, die verknüpft/verknüpft werden soll. |
-| isLinkToPrevious | Boolean | `WAHR`um die Kopf- oder Fußzeile mit dem vorherigen Abschnitt zu verknüpfen; `FALSCH` Verknüpfung aufheben. |
+| headerFooterType | HeaderFooterType | A[`HeaderFooterType`](../../headerfootertype/) value , der die Kopf- oder Fußzeile angibt, die verknüpft bzw. deren Verknüpfung aufgehoben werden soll. |
+| isLinkToPrevious | Boolean | `WAHR` um die Kopf- oder Fußzeile mit dem vorherigen Abschnitt zu verknüpfen; `FALSCH` um die Verknüpfung aufzuheben. |
 
 ## Bemerkungen
 
@@ -125,8 +125,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// Zum ersten Abschnitt wechseln und eine Kopf- und Fußzeile erstellen. Standardmäßig,
-// Die Kopf- und Fußzeile werden nur auf Seiten in dem Abschnitt angezeigt, der sie enthält.
+// Wechseln Sie zum ersten Abschnitt und erstellen Sie eine Kopf- und eine Fußzeile. Standardmäßig
+// Die Kopf- und Fußzeile werden auf den Seiten nur in dem Abschnitt angezeigt, der sie enthält.
 builder.MoveToSection(0);
 
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
@@ -136,28 +136,28 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer, which will be displayed in sections 1, 2 and 3.");
 
 // Wir können die Kopf-/Fußzeilen eines Abschnitts mit den Kopf-/Fußzeilen des vorherigen Abschnitts verknüpfen
-// damit der verlinkte Abschnitt die Kopf-/Fußzeilen des verlinkten Abschnitts anzeigen kann.
+// um dem Verknüpfungsabschnitt die Anzeige der Kopf-/Fußzeilen des verknüpften Abschnitts zu ermöglichen.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Jeder Abschnitt wird weiterhin seine eigenen Kopf-/Fußzeilenobjekte haben. Wenn wir Abschnitte verlinken,
-// Der verlinkende Abschnitt zeigt die Kopf-/Fußzeilen des verlinkten Abschnitts an, behält aber seine eigenen.
+// Jeder Abschnitt verfügt weiterhin über eigene Kopf-/Fußzeilenobjekte. Wenn wir Abschnitte verknüpfen,
+// Der Verknüpfungsbereich zeigt die Kopf-/Fußzeilen des verknüpften Bereichs an, behält aber seine eigenen bei.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
 // Verknüpfen Sie die Kopf-/Fußzeilen des dritten Abschnitts mit den Kopf-/Fußzeilen des zweiten Abschnitts.
-// Der zweite Abschnitt verlinkt bereits auf die Kopf-/Fußzeilen des ersten Abschnitts,
-// Durch die Verknüpfung mit dem zweiten Abschnitt wird also eine Verknüpfungskette erstellt.
-// Im ersten, zweiten und jetzt dritten Abschnitt werden alle die Kopfzeilen des ersten Abschnitts angezeigt.
+// Der zweite Abschnitt ist bereits mit den Kopf-/Fußzeilen des ersten Abschnitts verknüpft.
+// Durch die Verknüpfung mit dem zweiten Abschnitt wird also eine Linkkette erstellt.
+// Der erste, zweite und jetzt auch der dritte Abschnitt zeigen alle die Überschriften des ersten Abschnitts an.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Wir können die Verknüpfung der Kopf-/Fußzeilen eines vorherigen Abschnitts aufheben, indem wir beim Aufruf der LinkToPrevious-Methode „false“ übergeben.
+// Wir können die Verknüpfung der Kopf-/Fußzeilen eines vorherigen Abschnitts aufheben, indem wir beim Aufrufen der Methode LinkToPrevious „false“ übergeben.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
 // Mit dieser Methode können wir auch nur einen bestimmten Kopf-/Fußzeilentyp zum Verknüpfen auswählen.
-// Der dritte Abschnitt hat jetzt dieselbe Fußzeile wie der zweite und der erste Abschnitt, jedoch nicht die Kopfzeile.
+// Der dritte Abschnitt hat jetzt dieselbe Fußzeile wie der zweite und erste Abschnitt, jedoch nicht die Kopfzeile.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// Die Kopf-/Fußzeilen des ersten Abschnitts können nicht mit irgendetwas verknüpft werden, da es keinen vorherigen Abschnitt gibt.
+// Die Kopf-/Fußzeilen des ersten Abschnitts können keine Verknüpfungen herstellen, da kein vorheriger Abschnitt vorhanden ist.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
@@ -165,7 +165,7 @@ Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count);
 Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count(hf => ((HeaderFooter)hf).IsLinkedToPrevious));
 
-// Im dritten Abschnitt wird nur die Fußzeile über den zweiten Abschnitt mit der Fußzeile des ersten Abschnitts verknüpft.
+// Im dritten Abschnitt wird nur der Footer über den zweiten Abschnitt mit dem Footer des ersten Abschnitts verknüpft.
 Assert.AreEqual(6, doc.Sections[2].HeadersFooters.Count);
 Assert.AreEqual(5, doc.Sections[2].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 Assert.True(doc.Sections[2].HeadersFooters[3].IsLinkedToPrevious);

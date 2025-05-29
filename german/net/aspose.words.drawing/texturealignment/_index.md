@@ -3,9 +3,9 @@ title: TextureAlignment Enum
 linktitle: TextureAlignment
 articleTitle: TextureAlignment
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.TextureAlignment opsomming. Gibt die Ausrichtung für die Kachelung der Texturfüllung an in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.Drawing.TextureAlignment für eine präzise Ausrichtung der Texturfüllung. Verbessern Sie Ihre Dokumentdesigns mit nahtlosen Kacheloptionen!
 type: docs
-weight: 1370
+weight: 1780
 url: /de/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
@@ -21,11 +21,11 @@ public enum TextureAlignment
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | TopLeft | `0` | Texturausrichtung oben links. |
-| Top | `1` | Obere Texturausrichtung. |
+| Top | `1` | Ausrichtung der oberen Textur. |
 | TopRight | `2` | Texturausrichtung oben rechts. |
 | Left | `3` | Linke Texturausrichtung. |
-| Center | `4` | Texturausrichtung in der Mitte. |
-| Right | `5` | Rechte Texturausrichtung. |
+| Center | `4` | Texturausrichtung zentrieren. |
+| Right | `5` | Richtige Texturausrichtung. |
 | BottomLeft | `6` | Texturausrichtung unten links. |
 | Bottom | `7` | Ausrichtung der unteren Textur. |
 | BottomRight | `8` | Texturausrichtung unten rechts. |
@@ -45,11 +45,17 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// Verwenden Sie die Compliance-Option, um die Form mithilfe von DML zu definieren, wenn Sie „TextureAlignment“ erhalten möchten.
-// Eigenschaft nach dem Speichern des Dokuments.
+// Verwenden Sie die Compliance-Option, um die Form mit DML zu definieren, wenn Sie „TextureAlignment“ erhalten möchten.
+// Eigenschaft, nachdem das Dokument gespeichert wurde.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
+
+doc = new Document(ArtifactsDir + "Shape.TextureFill.docx");
+shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.AreEqual(TextureAlignment.TopRight, shape.Fill.TextureAlignment);
+Assert.AreEqual(PresetTexture.Canvas, shape.Fill.PresetTexture);
 ```
 
 ### Siehe auch

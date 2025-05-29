@@ -3,14 +3,14 @@ title: FieldRef.IncludeNoteOrComment
 linktitle: IncludeNoteOrComment
 articleTitle: IncludeNoteOrComment
 second_title: Aspose.Words für .NET
-description: FieldRef IncludeNoteOrComment eigendom. Ruft ab oder legt fest ob Fußnoten Endnoten und Anmerkungsnummern erhöht werden sollen die durch das Lesezeichen markiert sind und der entsprechende Fußnoten Endnoten und Kommentartext eingefügt werden soll in C#.
+description: Entdecken Sie die FieldRef IncludeNoteOrComment-Eigenschaft, um die Nummerierung von Fußnoten und Endnoten einfach zu verwalten und Ihre Dokumente mit nahtlosen Anmerkungen zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldref/includenoteorcomment/
 ---
 ## FieldRef.IncludeNoteOrComment property
 
-Ruft ab oder legt fest, ob Fußnoten-, Endnoten- und Anmerkungsnummern erhöht werden sollen, die durch das Lesezeichen markiert sind, und der entsprechende Fußnoten-, Endnoten- und Kommentartext eingefügt werden soll.
+Ruft ab oder legt fest, ob die durch das Lesezeichen markierten Fußnoten-, Endnoten- und Anmerkungsnummern erhöht und der entsprechende Fußnoten-, Endnoten- und Kommentartext eingefügt werden sollen.
 
 ```csharp
 public bool IncludeNoteOrComment { get; set; }
@@ -18,7 +18,7 @@ public bool IncludeNoteOrComment { get; set; }
 
 ## Beispiele
 
-Zeigt, wie REF-Felder zum Referenzieren von Lesezeichen eingefügt werden.
+Zeigt, wie REF-Felder zum Verweisen auf Lesezeichen eingefügt werden.
 
 ```csharp
 public void FieldRef()
@@ -33,7 +33,7 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // Wir werden ein benutzerdefiniertes Listenformat anwenden, wobei die Anzahl der spitzen Klammern die Listenebene angibt, auf der wir uns gerade befinden.
+    // Wir wenden ein benutzerdefiniertes Listenformat an, bei dem die Anzahl der spitzen Klammern die Listenebene angibt, auf der wir uns gerade befinden.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
@@ -56,18 +56,18 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Zeigt die Listennummer des Lesezeichens an, jedoch ohne Trennzeichen, wie z. B. spitze Klammern.
+    // Zeigt die Listennummer des Lesezeichens an, wobei jedoch Nicht-Trennzeichen wie etwa spitze Klammern weggelassen werden.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // Eine Listenebene nach unten verschieben.
+    // Eine Listenebene nach unten gehen.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // Listennummer des Lesezeichens und die Nummern aller darüber liegenden Listenebenen anzeigen.
+    // Zeigt die Listennummer des Lesezeichens und die Nummern aller darüber liegenden Listenebenen an.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -91,7 +91,7 @@ public void FieldRef()
 }
 
 /// <summary>
-/// Veranlassen Sie den Document Builder, ein REF-Feld einzufügen, damit auf ein Lesezeichen zu verweisen und Text davor und danach hinzuzufügen.
+/// Lassen Sie den Dokumentgenerator ein REF-Feld einfügen, damit auf ein Lesezeichen verweisen und davor und danach Text hinzufügen.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

@@ -3,7 +3,7 @@ title: Node.NextSibling
 linktitle: NextSibling
 articleTitle: NextSibling
 second_title: Aspose.Words für .NET
-description: Node NextSibling eigendom. Ruft den Knoten ab der diesem Knoten unmittelbar folgt in C#.
+description: Entdecken Sie die Node NextSibling-Eigenschaft, um einfach auf den nächsten Knoten in Ihrem DOM zuzugreifen. Verbessern Sie Ihre JavaScript-Kenntnisse und optimieren Sie Ihre Programmierung noch heute!
 type: docs
 weight: 40
 url: /de/net/aspose.words/node/nextsibling/
@@ -18,11 +18,11 @@ public Node NextSibling { get; }
 
 ## Bemerkungen
 
-Wenn es keinen nächsten Knoten gibt, a`Null` wird zurückgegeben.
+Wenn es keinen nächsten Knoten gibt, ein`null` wird zurückgegeben.
 
 ## Beispiele
 
-Zeigt, wie die NextSibling-Eigenschaft eines Knotens verwendet wird, um seine unmittelbaren untergeordneten Knoten aufzuzählen.
+Zeigt, wie die NextSibling-Eigenschaft eines Knotens zum Aufzählen seiner unmittelbar untergeordneten Elemente verwendet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -44,16 +44,16 @@ public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Jeder Knoten, der untergeordnete Knoten enthalten kann, z. B. das Dokument selbst, ist zusammengesetzt.
+    // Jeder Knoten, der untergeordnete Knoten enthalten kann, wie z. B. das Dokument selbst, ist zusammengesetzt.
     Assert.True(doc.IsComposite);
 
-    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und ausgibt.
+    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und druckt.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Durchläuft rekursiv einen Knotenbaum und gibt dabei den Typ jedes Knotens aus
-/// mit einem Einzug abhängig von der Tiefe sowie dem Inhalt aller Inline-Knoten.
+/// mit einem Einzug, der von der Tiefe sowie dem Inhalt aller Inline-Knoten abhängt.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -61,7 +61,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls drucken Sie den Inhalt aus, wenn es sich um einen Inline-Knoten handelt.
+        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls wird der Inhalt gedruckt, wenn es sich um einen Inline-Knoten handelt.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

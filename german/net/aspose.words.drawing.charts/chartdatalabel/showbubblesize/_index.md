@@ -3,9 +3,9 @@ title: ChartDataLabel.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
 second_title: Aspose.Words für .NET
-description: ChartDataLabel ShowBubbleSize eigendom. Ermöglicht die Angabe ob die Blasengröße für die Datenbeschriftungen in einem Diagramm angezeigt werden soll. Gilt nur für Blasendiagramme. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie, wie die Eigenschaft ShowBubbleSize Ihre Blasendiagramme durch die Anzeige von Datenbeschriftungsgrößen verbessert. Optimieren Sie noch heute Ihre visuelle Datendarstellung!
 type: docs
-weight: 80
+weight: 130
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 ---
 ## ChartDataLabel.ShowBubbleSize property
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Jeder Blase ein Datenetikett zuweisen, das ihren Durchmesser anzeigt.
+// Wenden Sie auf jede Blase eine Datenbeschriftung an, die ihren Durchmesser anzeigt.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

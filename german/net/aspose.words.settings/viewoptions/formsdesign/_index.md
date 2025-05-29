@@ -3,7 +3,7 @@ title: ViewOptions.FormsDesign
 linktitle: FormsDesign
 articleTitle: FormsDesign
 second_title: Aspose.Words für .NET
-description: ViewOptions FormsDesign eigendom. Gibt an ob sich das Dokument im Formularentwurfsmodus befindet in C#.
+description: Entdecken Sie, wie ViewOptions FormsDesign Ihr Dokumenterlebnis verbessert, indem es den Formularentwurfsmodus für nahtloses Bearbeiten und Anpassen umschaltet.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/viewoptions/formsdesign/

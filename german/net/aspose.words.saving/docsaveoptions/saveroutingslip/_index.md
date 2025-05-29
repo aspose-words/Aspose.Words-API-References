@@ -3,14 +3,14 @@ title: DocSaveOptions.SaveRoutingSlip
 linktitle: SaveRoutingSlip
 articleTitle: SaveRoutingSlip
 second_title: Aspose.Words für .NET
-description: DocSaveOptions SaveRoutingSlip eigendom. WannFALSCH  RoutingSlipDaten werden nicht im Ausgabedokument gespeichert. Der Standardwert istWAHR  in C#.
+description: Entdecken Sie die SaveRoutingSlip-Eigenschaft von DocSaveOptions. Steuern Sie die RoutingSlip-Datenspeicherung für Ihre Dokumente. Verbessern Sie die Ausgabeanpassung ganz einfach!
 type: docs
-weight: 60
+weight: 70
 url: /de/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-Wann`FALSCH` , RoutingSlip-Daten werden nicht im Ausgabedokument gespeichert. Der Standardwert ist`WAHR` .
+Wann`FALSCH` , Laufzetteldaten werden nicht im Ausgabedokument gespeichert. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }
@@ -27,11 +27,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Legen Sie ein Passwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
-// Beachten Sie, dass dadurch der Inhalt des Dokuments in keiner Weise verschlüsselt wird.
+// Legen Sie ein Kennwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
+// Beachten Sie, dass der Inhalt des Dokuments dadurch in keiner Weise verschlüsselt wird.
 options.Password = "MyPassword";
 
-// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf true setzen.
+// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf „true“ setzen.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

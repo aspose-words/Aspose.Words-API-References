@@ -3,14 +3,14 @@ title: MailMergeSettings.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words für .NET
-description: MailMergeSettings Clear methode. Löscht die Serienbriefeinstellungen so dass beim Speichern des Dokuments keine Serienbriefeinstellungen gespeichert werden und es zu einem normalen Dokument wird in C#.
+description: Setzen Sie Ihre Serienbriefeinstellungen mühelos mit der Methode „MailMergeSettings Clear“ zurück und wandeln Sie Ihr Dokument in ein Standardformat für die nahtlose Verwendung um.
 type: docs
 weight: 180
 url: /de/net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method
 
-Löscht die Serienbriefeinstellungen so, dass beim Speichern des Dokuments keine Serienbriefeinstellungen gespeichert werden und es zu einem normalen Dokument wird.
+Löscht die Serienbriefeinstellungen, sodass beim Speichern des Dokuments keine Serienbriefeinstellungen gespeichert werden und es zu einem normalen Dokument wird.
 
 ```csharp
 public void Clear()

@@ -3,14 +3,14 @@ title: WriteProtection.ValidatePassword
 linktitle: ValidatePassword
 articleTitle: ValidatePassword
 second_title: Aspose.Words für .NET
-description: WriteProtection ValidatePassword methode. Gibt zurückWAHR Wenn das angegebene Passwort mit dem Schreibschutzpasswort übereinstimmt mit dem das Dokument geschützt wurde. Wenn das Dokument nicht mit einem Passwort schreibgeschützt ist wird zurückgegebenFALSCH  in C#.
+description: Sichern Sie Ihre Dokumente mit der WriteProtection ValidatePassword-Methode. Überprüfen Sie einfach, ob das Kennwort mit dem Schutz des Dokuments übereinstimmt, und erhöhen Sie so die Sicherheit.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/writeprotection/validatepassword/
 ---
 ## WriteProtection.ValidatePassword method
 
-Gibt zurück`WAHR` Wenn das angegebene Passwort mit dem Schreibschutzpasswort übereinstimmt, mit dem das Dokument geschützt wurde. Wenn das Dokument nicht mit einem Passwort schreibgeschützt ist, wird zurückgegeben`FALSCH` .
+Rückgaben`WAHR` wenn das angegebene Passwort mit dem Schreibschutzpasswort übereinstimmt, mit dem das Dokument geschützt wurde. Wenn das Dokument nicht mit einem Passwort schreibgeschützt ist, wird Folgendes zurückgegeben:`FALSCH` .
 
 ```csharp
 public bool ValidatePassword(string password)
@@ -18,20 +18,20 @@ public bool ValidatePassword(string password)
 
 ## Beispiele
 
-Zeigt, wie man ein Dokument mit einem Passwort schützt.
+Zeigt, wie Sie ein Dokument mit einem Kennwort schützen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// Geben Sie ein bis zu 15 Zeichen langes Passwort ein und überprüfen Sie dann den Schutzstatus des Dokuments.
+// Geben Sie ein bis zu 15 Zeichen langes Passwort ein und überprüfen Sie anschließend den Schutzstatus des Dokuments.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Der Schutz verhindert nicht, dass das Dokument programmgesteuert bearbeitet wird, und verschlüsselt auch nicht den Inhalt.
+// Der Schutz verhindert weder die programmgesteuerte Bearbeitung des Dokuments noch verschlüsselt er den Inhalt.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

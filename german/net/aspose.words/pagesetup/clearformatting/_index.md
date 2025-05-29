@@ -3,7 +3,7 @@ title: PageSetup.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words für .NET
-description: PageSetup ClearFormatting methode. Setzt die Seiteneinrichtung auf die Standardpapiergröße ränder und ausrichtung zurück in C#.
+description: Mit der ClearFormatting-Methode können Sie die Seitenkonfiguration Ihres Dokuments mühelos zurücksetzen. Stellen Sie Standardränder, Papiergröße und -ausrichtung wieder her, um ein ansprechendes Erscheinungsbild zu erzielen.
 type: docs
 weight: 460
 url: /de/net/aspose.words/pagesetup/clearformatting/
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Beispiele
 
-Zeigt, wie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument angewendet und wiederhergestellt werden.
+Zeigt, wie Sie Seiteneinrichtungseinstellungen auf Abschnitte in einem Dokument anwenden und zurücksetzen.
 
 ```csharp
 Document doc = new Document();
@@ -29,14 +29,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Wenn wir einen neuen Abschnitt mit einem Document Builder beginnen,
-// Es erbt die aktuellen Seiteneinrichtungseigenschaften des Builders.
+// Wenn wir einen neuen Abschnitt mit einem Dokumentgenerator beginnen,
+// Es werden die aktuellen Seiteneinrichtungseigenschaften des Builders übernommen.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Mit der Methode „ClearFormatting“ können wir die Seiteneinrichtungseigenschaften auf ihre Standardwerte zurücksetzen.
+// Wir können die Seiteneinrichtungseigenschaften mit der Methode „ClearFormatting“ auf ihre Standardwerte zurücksetzen.
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

@@ -3,9 +3,9 @@ title: ChartAxis Class
 linktitle: ChartAxis
 articleTitle: ChartAxis
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartAxis klas. Stellt die Achsenoptionen des Diagramms dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.Charts.ChartAxis für anpassbare Diagrammachsenoptionen. Verbessern Sie Ihre Datenvisualisierung mühelos!
 type: docs
-weight: 630
+weight: 890
 url: /de/net/aspose.words.drawing.charts/chartaxis/
 ---
 ## ChartAxis class
@@ -22,39 +22,36 @@ public class ChartAxis
 
 | Name | Beschreibung |
 | --- | --- |
-| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob die Wertachse die Kategorieachse zwischen Kategorien kreuzt. |
+| [AxisBetweenCategories](../../aspose.words.drawing.charts/chartaxis/axisbetweencategories/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob die Werteachse die Kategorieachse zwischen Kategorien schneidet. |
 | [BaseTimeUnit](../../aspose.words.drawing.charts/chartaxis/basetimeunit/) { get; set; } | Gibt die kleinste Zeiteinheit zurück, die auf der Zeitkategorieachse dargestellt wird, oder legt sie fest. |
-| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype/) { get; set; } | Ruft den Typ der Kategorieachse ab oder legt diesen fest. |
+| [CategoryType](../../aspose.words.drawing.charts/chartaxis/categorytype/) { get; set; } | Ruft den Typ der Kategorieachse ab oder legt ihn fest. |
 | [Crosses](../../aspose.words.drawing.charts/chartaxis/crosses/) { get; set; } | Gibt an, wie diese Achse die senkrechte Achse schneidet. |
-| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Gibt an, wo sich die Achse auf der senkrechten Achse kreuzt. |
+| [CrossesAt](../../aspose.words.drawing.charts/chartaxis/crossesat/) { get; set; } | Gibt an, wo auf der senkrechten Achse die Achse kreuzt. |
 | [DisplayUnit](../../aspose.words.drawing.charts/chartaxis/displayunit/) { get; } | Gibt den Skalierungswert der Anzeigeeinheiten für die Werteachse an. |
-| [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Gibt das Dokument zurück, zu dem der Titelinhaber gehört. |
-| [HasMajorGridlines](../../aspose.words.drawing.charts/chartaxis/hasmajorgridlines/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob die Achse über Hauptgitterlinien verfügt. |
-| [HasMinorGridlines](../../aspose.words.drawing.charts/chartaxis/hasminorgridlines/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob die Achse Nebengitterlinien hat. |
-| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob diese Achse ausgeblendet ist oder nicht. |
-| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark/) { get; set; } | Gibt die wichtigsten Teilstriche zurück oder setzt sie. |
-| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit/) { get; set; } | Gibt den Abstand zwischen den Hauptteilstrichen zurück oder legt ihn fest. |
-| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob der Standardabstand zwischen den Hauptteilstrichen verwendet werden soll. |
-| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale/) { get; set; } | Gibt den Skalenwert für Hauptteilstriche auf der Zeitkategorieachse zurück oder legt diesen fest. |
-| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark/) { get; set; } | Gibt die kleinen Teilstriche für die Achse zurück oder setzt sie. |
-| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit/) { get; set; } | Gibt den Abstand zwischen kleinen Teilstrichen zurück oder legt ihn fest. |
-| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob der Standardabstand zwischen kleinen Teilstrichen verwendet werden soll. |
-| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale/) { get; set; } | Gibt den Skalenwert für kleine Teilstriche auf der Zeitkategorieachse zurück oder legt diesen fest. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat/) { get; } | Gibt a zurück[`ChartNumberFormat`](../chartnumberformat/) Objekt, das die Definition von Zahlenformaten für die Achse ermöglicht. |
-| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder/) { get; set; } | Gibt ein Flag zurück oder setzt es, das angibt, ob die Werte der Achse in umgekehrter Reihenfolge angezeigt werden sollen, d. h. von max nach min. |
+| [Document](../../aspose.words.drawing.charts/chartaxis/document/) { get; } | Gibt das Dokument zurück, das das übergeordnete Diagramm enthält. |
+| [Format](../../aspose.words.drawing.charts/chartaxis/format/) { get; } | Bietet Zugriff auf die Linienformatierung der Achse und die Füllung der Teilstrichbeschriftungen. |
+| [HasMajorGridlines](../../aspose.words.drawing.charts/chartaxis/hasmajorgridlines/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob die Achse über Hauptgitternetzlinien verfügt. |
+| [HasMinorGridlines](../../aspose.words.drawing.charts/chartaxis/hasminorgridlines/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob die Achse über Nebengitternetzlinien verfügt. |
+| [Hidden](../../aspose.words.drawing.charts/chartaxis/hidden/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob diese Achse ausgeblendet ist oder nicht. |
+| [MajorTickMark](../../aspose.words.drawing.charts/chartaxis/majortickmark/) { get; set; } | Gibt die Hauptmarkierungen zurück oder legt sie fest. |
+| [MajorUnit](../../aspose.words.drawing.charts/chartaxis/majorunit/) { get; set; } | Gibt den Abstand zwischen den Hauptmarkierungen zurück oder legt ihn fest. |
+| [MajorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/majorunitisauto/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob der Standardabstand zwischen den Hauptmarkierungen verwendet werden soll. |
+| [MajorUnitScale](../../aspose.words.drawing.charts/chartaxis/majorunitscale/) { get; set; } | Gibt den Skalenwert für die Hauptmarkierungen auf der Zeitkategorieachse zurück oder legt ihn fest. |
+| [MinorTickMark](../../aspose.words.drawing.charts/chartaxis/minortickmark/) { get; set; } | Gibt die kleinen Teilstriche für die Achse zurück oder legt sie fest. |
+| [MinorUnit](../../aspose.words.drawing.charts/chartaxis/minorunit/) { get; set; } | Gibt den Abstand zwischen kleineren Teilstrichen zurück oder legt ihn fest. |
+| [MinorUnitIsAuto](../../aspose.words.drawing.charts/chartaxis/minorunitisauto/) { get; set; } | Ruft ein Flag ab oder legt es fest, das angibt, ob der Standardabstand zwischen kleinen Teilstrichen verwendet werden soll. |
+| [MinorUnitScale](../../aspose.words.drawing.charts/chartaxis/minorunitscale/) { get; set; } | Gibt den Skalierungswert für kleinere Teilstriche auf der Zeitkategorieachse zurück oder legt ihn fest. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartaxis/numberformat/) { get; } | Gibt einen[`ChartNumberFormat`](../chartnumberformat/) Objekt, mit dem Zahlenformate für die Achse definiert werden können. |
+| [ReverseOrder](../../aspose.words.drawing.charts/chartaxis/reverseorder/) { get; set; } | Gibt ein Flag zurück oder setzt es, das angibt, ob die Werte der Achse in umgekehrter Reihenfolge angezeigt werden sollen, d. h. von Maximum bis Minimum. |
 | [Scaling](../../aspose.words.drawing.charts/chartaxis/scaling/) { get; } | Bietet Zugriff auf die Skalierungsoptionen der Achse. |
-| [TickLabelAlignment](../../aspose.words.drawing.charts/chartaxis/ticklabelalignment/) { get; set; } | Ruft die Textausrichtung von Achsenteilstrichbeschriftungen ab oder legt diese fest. |
-| [TickLabelOffset](../../aspose.words.drawing.charts/chartaxis/ticklabeloffset/) { get; set; } | Ruft den Abstand der Beschriftungen von der Achse ab oder legt diesen fest. |
-| [TickLabelPosition](../../aspose.words.drawing.charts/chartaxis/ticklabelposition/) { get; set; } | Gibt die Position der Teilstrichbeschriftungen auf der Achse zurück oder legt sie fest. |
-| [TickLabelSpacing](../../aspose.words.drawing.charts/chartaxis/ticklabelspacing/) { get; set; } | Ruft das Intervall ab, in dem Teilstrichbeschriftungen gezeichnet werden, oder legt dieses fest. |
-| [TickLabelSpacingIsAuto](../../aspose.words.drawing.charts/chartaxis/ticklabelspacingisauto/) { get; set; } | Ruft ein Flag ab oder setzt es, das angibt, ob das automatische Intervall zum Zeichnen von Teilstrichbeschriftungen verwendet werden soll. |
-| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Ruft das Intervall ab, in dem Teilstriche gezeichnet werden, oder legt es fest. |
-| [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Bietet Zugriff auf die Eigenschaften des Achsentitels. |
+| [TickLabels](../../aspose.words.drawing.charts/chartaxis/ticklabels/) { get; } | Bietet Zugriff auf die Eigenschaften der Beschriftungen der Achsenmarkierungen. |
+| [TickMarkSpacing](../../aspose.words.drawing.charts/chartaxis/tickmarkspacing/) { get; set; } | Ruft das Intervall ab oder legt es fest, in dem Teilstriche gezeichnet werden. |
+| [Title](../../aspose.words.drawing.charts/chartaxis/title/) { get; } | Bietet Zugriff auf die Achsentiteleigenschaften. |
 | [Type](../../aspose.words.drawing.charts/chartaxis/type/) { get; } | Gibt den Typ der Achse zurück. |
 
 ## Beispiele
 
-Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
+Zeigt, wie Sie ein Diagramm einfügen und die Darstellung seiner Achsen ändern.
 
 ```csharp
 Document doc = new Document();
@@ -72,7 +69,7 @@ chart.Series.Add("Aspose Test Series",
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
+// wie etwa ihre Richtung, große/kleine Einheitsstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -81,10 +78,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -94,7 +93,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Säulendiagramme haben keine Z-Achse.
 Assert.Null(chart.AxisZ);

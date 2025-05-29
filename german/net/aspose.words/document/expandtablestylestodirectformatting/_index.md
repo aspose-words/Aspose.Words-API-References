@@ -3,14 +3,14 @@ title: Document.ExpandTableStylesToDirectFormatting
 linktitle: ExpandTableStylesToDirectFormatting
 articleTitle: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words für .NET
-description: Document ExpandTableStylesToDirectFormatting methode. Konvertiert die in Tabellenstilen angegebene Formatierung in direkte Formatierung für Tabellen im Dokument in C#.
+description: Wandeln Sie Tabellenstile mit der Methode ExpandTableStylesToDirectFormatting in direkte Formatierung um und verbessern Sie so mühelos das Erscheinungsbild Ihres Dokuments.
 type: docs
-weight: 590
+weight: 630
 url: /de/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
 
-Konvertiert die in Tabellenstilen angegebene Formatierung in direkte Formatierung für Tabellen im Dokument.
+Wandelt die in Tabellenstilen angegebene Formatierung in direkte Formatierung der Tabellen im Dokument um.
 
 ```csharp
 public void ExpandTableStylesToDirectFormatting()
@@ -18,17 +18,17 @@ public void ExpandTableStylesToDirectFormatting()
 
 ## Bemerkungen
 
-Diese Methode existiert, weil diese Version von Aspose.Words nur begrenzte Unterstützung für -Tabellenstile bietet (siehe unten). Diese Methode kann nützlich sein, wenn Sie ein DOCX- oder WordprocessingML -Dokument laden, das Tabellen enthält, die mit Tabellenstilen formatiert sind, und Sie die Formatierung von Tabellen, Zellen, Absätzen oder Text abfragen müssen.
+Diese Methode existiert, weil diese Version von Aspose.Words nur eingeschränkte Unterstützung für -Tabellenformate bietet (siehe unten). Diese Methode kann nützlich sein, wenn Sie ein DOCX- oder WordprocessingML -Dokument laden, das mit Tabellenformaten formatierte Tabellen enthält, und Sie die Formatierung von -Tabellen, Zellen, Absätzen oder Text abfragen müssen.
 
 Diese Version von Aspose.Words bietet eingeschränkte Unterstützung für Tabellenstile wie folgt:
 
-* Tabellenstile, die in DOCX- oder WordprocessingML-Dokumenten definiert sind, werden als Tabellenstile beibehalten, wenn das Dokument als DOCX oder WordprocessingML gespeichert wird.
-* Tabellenstile, die in DOCX- oder WordprocessingML-Dokumenten definiert sind, werden beim Speichern des Dokuments in einem anderen Format, beim Rendern oder Drucken automatisch in die direkte Formatierung in Tabellen konvertiert.
+* In DOCX- oder WordprocessingML-Dokumenten definierte Tabellenstile bleiben beim Speichern des Dokuments als DOCX- oder WordprocessingML-Dokumente als Tabellenstile erhalten.
+* In DOCX- oder WordprocessingML-Dokumenten definierte Tabellenstile werden automatisch in die direkte Formatierung von Tabellen konvertiert, wenn das Dokument in ein anderes Format gespeichert, gerendert oder gedruckt wird.
 * In DOC-Dokumenten definierte Tabellenstile bleiben als Tabellenstile erhalten, wenn das Dokument nur als DOC gespeichert wird.
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften eines Tabellenstils direkt auf die Elemente der Tabelle angewendet werden.
+Zeigt, wie die Eigenschaften des Stils einer Tabelle direkt auf die Elemente der Tabelle angewendet werden.
 
 ```csharp
 Document doc = new Document();

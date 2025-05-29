@@ -3,14 +3,14 @@ title: Table.StyleOptions
 linktitle: StyleOptions
 articleTitle: StyleOptions
 second_title: Aspose.Words für .NET
-description: Table StyleOptions eigendom. Ruft Bitflags ab oder setzt diese die angeben wie ein Tabellenstil auf diese Tabelle angewendet wird in C#.
+description: Entdecken Sie die Eigenschaft „Table StyleOptions“, um das Erscheinungsbild Ihrer Tabelle mit flexiblen Bit-Flags anzupassen. Verbessern Sie mühelos den Stil Ihrer Tabelle!
 type: docs
 weight: 300
 url: /de/net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property
 
-Ruft Bitflags ab oder setzt diese, die angeben, wie ein Tabellenstil auf diese Tabelle angewendet wird.
+Ruft Bitflags ab oder legt diese fest, die angeben, wie ein Tabellenstil auf diese Tabelle angewendet wird.
 
 ```csharp
 public TableStyleOptions StyleOptions { get; set; }
@@ -18,7 +18,7 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
+Zeigt, wie beim Anwenden eines Stils eine neue Tabelle erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -29,10 +29,10 @@ Table table = builder.StartTable();
 builder.InsertCell();
 
 // Legen Sie den verwendeten Tabellenstil basierend auf der Stilkennung fest.
-// Beachten Sie, dass beim Speichern im .doc-Format nicht alle Tabellenstile verfügbar sind.
+// Beachten Sie, dass beim Speichern im DOC-Format nicht alle Tabellenstile verfügbar sind.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Den Stil basierend auf Prädikaten teilweise auf Features der Tabelle anwenden und dann die Tabelle erstellen.
+// Wenden Sie den Stil teilweise auf Funktionen der Tabelle basierend auf Prädikaten an und erstellen Sie dann die Tabelle.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

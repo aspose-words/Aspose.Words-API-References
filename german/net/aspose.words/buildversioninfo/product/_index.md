@@ -3,7 +3,7 @@ title: BuildVersionInfo.Product
 linktitle: Product
 articleTitle: Product
 second_title: Aspose.Words für .NET
-description: BuildVersionInfo Product eigendom. Ruft den vollständigen Namen des Produkts ab in C#.
+description: Entdecken Sie die Produkteigenschaft „BuildVersionInfo“, um einfach den vollständigen Produktnamen abzurufen und so die Leistung und das Benutzererlebnis Ihrer Anwendung zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words/buildversioninfo/product/

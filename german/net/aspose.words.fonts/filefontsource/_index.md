@@ -3,14 +3,14 @@ title: FileFontSource Class
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FileFontSource klas. Stellt die einzelne TrueTypeSchriftartdatei dar die im Dateisystem gespeichert ist in C#.
+description: Entdecken Sie Aspose.Words.Fonts.FileFontSource. Verwalten Sie TrueType-Schriftdateien ganz einfach auf Ihrem System für verbesserte Dokumentformatierung und Designflexibilität.
 type: docs
-weight: 2870
+weight: 3280
 url: /de/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
-Stellt die einzelne TrueType-Schriftartdatei dar, die im Dateisystem gespeichert ist.
+Stellt die einzelne im Dateisystem gespeicherte TrueType-Schriftdatei dar.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
@@ -34,7 +34,7 @@ public class FileFontSource : FontSourceBase
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Pfad zur Schriftartdatei. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Gibt die Priorität der Schriftartquelle zurück. |
 | override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Gibt den Typ der Schriftartquelle zurück. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen könnte. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen kann. |
 
 ## Methoden
 
@@ -44,7 +44,7 @@ public class FileFontSource : FontSourceBase
 
 ## Beispiele
 
-Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
+Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

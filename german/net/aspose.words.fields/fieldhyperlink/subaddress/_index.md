@@ -3,14 +3,14 @@ title: FieldHyperlink.SubAddress
 linktitle: SubAddress
 articleTitle: SubAddress
 second_title: Aspose.Words für .NET
-description: FieldHyperlink SubAddress eigendom. Ruft eine Position in der Datei ab oder legt diese fest beispielsweise ein Lesezeichen an die dieser Hyperlink springt in C#.
+description: Entdecken Sie die Eigenschaft „FieldHyperlink SubAddress“, um bestimmte Dateispeicherorte oder Lesezeichen für eine nahtlose Hyperlink-Navigation einfach festzulegen oder abzurufen.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldhyperlink/subaddress/
 ---
 ## FieldHyperlink.SubAddress property
 
-Ruft eine Position in der Datei ab oder legt diese fest, beispielsweise ein Lesezeichen, an die dieser Hyperlink springt.
+Ruft eine Position in der Datei ab oder legt sie fest, z. B. ein Lesezeichen, zu dem dieser Hyperlink springt.
 
 ```csharp
 public string SubAddress { get; set; }

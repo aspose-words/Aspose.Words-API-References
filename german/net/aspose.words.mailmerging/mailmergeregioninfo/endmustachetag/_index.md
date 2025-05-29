@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.EndMustacheTag
 linktitle: EndMustacheTag
 articleTitle: EndMustacheTag
 second_title: Aspose.Words für .NET
-description: MailMergeRegionInfo EndMustacheTag eigendom. Gibt ein EndMustacheTag für die Region zurück in C#.
+description: Entdecken Sie die MailMergeRegionInfo-Eigenschaft EndMustacheTag, die effizient das End-Mustache-Tag für Ihre Dokumentbereiche zurückgibt. Optimieren Sie Ihren Workflow!
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
@@ -18,7 +18,7 @@ public MustacheTag EndMustacheTag { get; }
 
 ## Beispiele
 
-Zeigt, wie mit den Moustache-Tags gearbeitet wird.
+Zeigt, wie mit den Mustache-Tags gearbeitet wird.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

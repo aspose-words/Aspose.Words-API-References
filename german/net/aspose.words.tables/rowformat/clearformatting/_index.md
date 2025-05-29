@@ -3,14 +3,14 @@ title: RowFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words für .NET
-description: RowFormat ClearFormatting methode. Setzt die Standardzeilenformatierung zurück in C#.
+description: Entdecken Sie, wie die Methode RowFormat ClearFormatting Ihre Daten mühelos auf ihren Standardstil zurücksetzt und so die Übersichtlichkeit und Präsentation verbessert.
 type: docs
 weight: 60
 url: /de/net/aspose.words.tables/rowformat/clearformatting/
 ---
 ## RowFormat.ClearFormatting method
 
-Setzt die Standardzeilenformatierung zurück.
+Setzt die Zeilenformatierung auf die Standardeinstellung zurück.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Beispiele
 
-Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
+Zeigt, wie eine Tabelle mit benutzerdefinierten Rändern erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Festlegen von Tabellenformatierungsoptionen für einen Dokumentersteller
+// Festlegen von Tabellenformatierungsoptionen für einen Dokumentgenerator
 // wendet sie auf jede Zeile und Zelle an, die wir damit hinzufügen.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -50,7 +50,7 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// Das Ändern der Formatierung wird auf die aktuelle Zelle angewendet,
 // und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
 // Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
+// Erhöhen Sie die Zeilenhöhe, damit der vertikale Text hineinpasst.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

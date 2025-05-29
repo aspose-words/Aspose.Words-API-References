@@ -3,14 +3,14 @@ title: ReportingEngine.KnownTypes
 linktitle: KnownTypes
 articleTitle: KnownTypes
 second_title: Aspose.Words für .NET
-description: ReportingEngine KnownTypes eigendom. Ruft eine ungeordnete Menge dh eine Sammlung eindeutiger Elemente ab die Folgendes enthältTypeObjekte  deren vollständig oder teilweise qualifizierte Namen in Berichtsvorlagen verwendet werden können die von dieser Engine Instanz verarbeitet werden um die statischen Mitglieder der entsprechenden Typen aufzurufen Typumwandlungen durchzuführen usw in C#.
+description: Entdecken Sie die KnownTypes-Eigenschaft von ReportingEngine, eine einzigartige Sammlung von Type-Objekten für die nahtlose Integration von Berichtsvorlagen und effiziente Typumwandlung.
 type: docs
 weight: 20
 url: /de/net/aspose.words.reporting/reportingengine/knowntypes/
 ---
 ## ReportingEngine.KnownTypes property
 
-Ruft eine ungeordnete Menge (dh eine Sammlung eindeutiger Elemente) ab, die Folgendes enthält:TypeObjekte , deren vollständig oder teilweise qualifizierte Namen in Berichtsvorlagen verwendet werden können, die von dieser Engine -Instanz verarbeitet werden, um die statischen Mitglieder der entsprechenden Typen aufzurufen, Typumwandlungen durchzuführen usw.
+Ruft einen ungeordneten Satz (d. h. eine Sammlung eindeutiger Elemente) ab, der enthältType Objekte , deren vollständig oder teilweise qualifizierte Namen in Berichtsvorlagen verwendet werden können, die von dieser Engine -Instanz verarbeitet werden, um die statischen Mitglieder der entsprechenden Typen aufzurufen, Typumwandlungen durchzuführen usw.
 
 ```csharp
 public KnownTypeSet KnownTypes { get; }

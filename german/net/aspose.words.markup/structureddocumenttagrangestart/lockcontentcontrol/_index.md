@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart LockContentControl eigendom. Wenn eingestellt aufWAHR  diese Eigenschaft verhindert dass ein Benutzer dieses strukturierte DokumentTag löscht in C#.
+description: Entdecken Sie, wie die LockContentControl-Eigenschaft in StructuredDocumentTagRangeStart die Dokumentsicherheit verbessert, indem sie das ungewollte Löschen wichtiger Tags verhindert.
 type: docs
 weight: 80
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
@@ -18,7 +18,7 @@ public bool LockContentControl { get; set; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

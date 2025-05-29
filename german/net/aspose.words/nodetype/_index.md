@@ -3,9 +3,9 @@ title: NodeType Enum
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.NodeType opsomming. Gibt den Typ eines WordDokumentknotens an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.NodeType, um verschiedene Word-Dokumentknotentypen für eine nahtlose Dokumentverarbeitung einfach zu identifizieren und zu verwalten.
 type: docs
-weight: 4230
+weight: 4920
 url: /de/net/aspose.words/nodetype/
 ---
 ## NodeType enumeration
@@ -20,45 +20,45 @@ public enum NodeType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Any | `0` | Gibt alle Knotentypen an. Ermöglicht die Auswahl aller Kinder. |
+| Any | `0` | Zeigt alle Knotentypen an. Ermöglicht die Auswahl aller untergeordneten Knoten. |
 | Document | `1` | A[`Document`](../document/) Objekt, das als Wurzel des Dokumentbaums Zugriff auf das gesamte Word-Dokument bietet. |
 | Section | `2` | A[`Section`](../section/) Objekt, das einem Abschnitt in einem Word-Dokument entspricht. |
-| Body | `3` | A[`Body`](../body/) Objekt, das den Haupttext eines Abschnitts (Haupttextstory) enthält. |
-| HeaderFooter | `4` | A[`HeaderFooter`](../headerfooter/) Objekt, das den Text einer bestimmten Kopf- oder Fußzeile innerhalb eines Abschnitts enthält. |
+| Body | `3` | A[`Body`](../body/) Objekt, das den Haupttext eines Abschnitts enthält (Haupttextgeschichte). |
+| HeaderFooter | `4` | A[`HeaderFooter`](../headerfooter/) Objekt, das Text einer bestimmten Kopf- oder Fußzeile innerhalb eines Abschnitts enthält. |
 | Table | `5` | A[`Table`](../../aspose.words.tables/table/) Objekt, das eine Tabelle in einem Word-Dokument darstellt. |
 | Row | `6` | Eine Zeile einer Tabelle. |
 | Cell | `7` | Eine Zelle einer Tabellenzeile. |
-| Paragraph | `8` | Ein Textabschnitt. |
-| BookmarkStart | `9` | Der Anfang einer Lesezeichenmarkierung. |
-| BookmarkEnd | `10` | Ein Ende einer Lesezeichenmarkierung. |
-| EditableRangeStart | `11` | Ein Anfang eines bearbeitbaren Bereichs. |
-| EditableRangeEnd | `12` | Ein Ende eines bearbeitbaren Bereichs. |
-| MoveFromRangeStart | `13` | Ein Anfang eines MoveFrom-Bereichs. |
-| MoveFromRangeEnd | `14` | Ein Ende eines MoveFrom-Bereichs. |
-| MoveToRangeStart | `15` | Ein Anfang eines MoveTo-Bereichs. |
-| MoveToRangeEnd | `16` | Ein Ende eines MoveTo-Bereichs. |
+| Paragraph | `8` | Ein Textabsatz. |
+| BookmarkStart | `9` | Der Anfang eines Lesezeichenmarkers. |
+| BookmarkEnd | `10` | Das Ende eines Lesezeichenmarkers. |
+| EditableRangeStart | `11` | Der Anfang eines bearbeitbaren Bereichs. |
+| EditableRangeEnd | `12` | Das Ende eines bearbeitbaren Bereichs. |
+| MoveFromRangeStart | `13` | Der Anfang eines MoveFrom-Bereichs. |
+| MoveFromRangeEnd | `14` | Das Ende eines MoveFrom-Bereichs. |
+| MoveToRangeStart | `15` | Der Anfang eines MoveTo-Bereichs. |
+| MoveToRangeEnd | `16` | Das Ende eines MoveTo-Bereichs. |
 | GroupShape | `17` | Eine Gruppe von Formen, Bildern, OLE-Objekten oder anderen Gruppenformen. |
 | Shape | `18` | Ein Zeichenobjekt, beispielsweise eine OfficeArt-Form, ein Bild oder ein OLE-Objekt. |
 | Comment | `19` | Ein Kommentar in einem Word-Dokument. |
 | Footnote | `20` | Eine Fußnote oder Endnote in einem Word-Dokument. |
-| Run | `21` | Eine Textzeile. |
-| FieldStart | `22` | Ein Sonderzeichen, das den Anfang eines Word-Felds kennzeichnet. |
+| Run | `21` | Ein Textlauf. |
+| FieldStart | `22` | Ein Sonderzeichen, das den Anfang eines Wortfelds kennzeichnet. |
 | FieldSeparator | `23` | Ein Sonderzeichen, das den Feldcode vom Feldergebnis trennt. |
-| FieldEnd | `24` | Ein Sonderzeichen, das das Ende eines Word-Felds kennzeichnet. |
+| FieldEnd | `24` | Ein Sonderzeichen, das das Ende eines Wortfelds kennzeichnet. |
 | FormField | `25` | Ein Formularfeld. |
 | SpecialChar | `26` | Ein Sonderzeichen, das nicht zu den spezifischeren Sonderzeichentypen gehört. |
-| SmartTag | `27` | Ein Smart-Tag um eine oder mehrere Inline-Strukturen (Läufe, Bilder, Felder usw.) innerhalb eines Absatzes |
-| StructuredDocumentTag | `28` | Ermöglicht die Definition kundenspezifischer Informationen und deren Darstellungsmöglichkeiten. |
-| StructuredDocumentTagRangeStart | `29` | Ein Anfang**reichte** Strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. |
-| StructuredDocumentTagRangeEnd | `30` | Ein Ende**reichte** Strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. |
-| GlossaryDocument | `31` | Ein Glossardokument im Hauptdokument. |
+| SmartTag | `27` | Ein Smarttag um eine oder mehrere Inline-Strukturen (Läufe, Bilder, Felder usw.) innerhalb eines Absatzes |
+| StructuredDocumentTag | `28` | Ermöglicht die Definition kundenspezifischer Informationen und deren Darstellungsformen. |
+| StructuredDocumentTagRangeStart | `29` | Ein Anfang von**reichte** strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. |
+| StructuredDocumentTagRangeEnd | `30` | Ein Ende von**reichte** strukturiertes Dokument-Tag, das Inhalte mit mehreren Abschnitten akzeptiert. |
+| GlossaryDocument | `31` | Ein Glossardokument innerhalb des Hauptdokuments. |
 | BuildingBlock | `32` | Ein Baustein innerhalb eines Glossardokuments (z. B. Glossardokumenteintrag). |
 | CommentRangeStart | `33` | Ein Markierungsknoten, der den Anfang eines kommentierten Bereichs darstellt. |
 | CommentRangeEnd | `34` | Ein Markierungsknoten, der das Ende eines kommentierten Bereichs darstellt. |
-| OfficeMath | `35` | Ein Office Math-Objekt. Kann eine Gleichung, eine Funktion, eine Matrix oder ein anderes mathematisches Objekt sein. Kann eine Sammlung mathematischer Objekte sein und auch einige nichtmathematische Objekte wie Textzeilen enthalten. |
-| SubDocument | `36` | Ein Unterdokumentknoten, der einen Link zu einem anderen Dokument darstellt. |
-| System | `37` | Reserviert für die interne Verwendung durch Aspose.Words. |
-| Null | `38` | Reserviert für die interne Verwendung durch Aspose.Words. |
+| OfficeMath | `35` | Ein Office Math-Objekt. Kann eine Gleichung, Funktion, Matrix oder eines anderer mathematischer Objekte sein. Kann eine Sammlung mathematischer Objekte sein und auch einige nicht-mathematische Objekte wie Textläufe enthalten. |
+| SubDocument | `36` | Ein Unterdokumentknoten, der eine Verknüpfung zu einem anderen Dokument darstellt. |
+| System | `37` | Für die interne Verwendung durch Aspose.Words reserviert. |
+| Null | `38` | Für die interne Verwendung durch Aspose.Words reserviert. |
 
 ## Beispiele
 
@@ -74,15 +74,15 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Knotenlebensdauer vorhanden ist.
+// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Lebensdauer des Knotens existiert.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Durch die Sammlung der unmittelbar untergeordneten Elemente des Absatzes iterieren,
-// und alle Läufe oder Formen drucken, die wir darin finden.
+// Durchlaufen Sie die Sammlung der unmittelbar untergeordneten Elemente des Absatzes.
+// und drucke alle Läufe oder Formen aus, die wir darin finden.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

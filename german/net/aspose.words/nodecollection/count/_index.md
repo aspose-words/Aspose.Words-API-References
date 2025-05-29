@@ -3,7 +3,7 @@ title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: NodeCollection Count eigendom. Ruft die Anzahl der Knoten in der Sammlung ab in C#.
+description: Entdecken Sie die Eigenschaft „NodeCollection Count“, um einfach auf die Gesamtzahl der Knoten in Ihrer Sammlung zuzugreifen und so die Datenverwaltung und Effizienz zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words/nodecollection/count/
@@ -30,15 +30,15 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Knotenlebensdauer vorhanden ist.
+// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Lebensdauer des Knotens existiert.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Durch die Sammlung der unmittelbar untergeordneten Elemente des Absatzes iterieren,
-// und alle Läufe oder Formen drucken, die wir darin finden.
+// Durchlaufen Sie die Sammlung der unmittelbar untergeordneten Elemente des Absatzes.
+// und drucke alle Läufe oder Formen aus, die wir darin finden.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -69,7 +69,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Herausfinden, ob Zellen in der Tabelle andere Tabellen als untergeordnete Tabellen haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -105,20 +105,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
-/// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
+/// Bestimmt, ob eine Tabelle innerhalb ihrer Zellen eine unmittelbar untergeordnete Tabelle enthält.
+/// Durchlaufen Sie diese Tabellen nicht rekursiv, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
+/// Gibt „true“ zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt „false“ zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

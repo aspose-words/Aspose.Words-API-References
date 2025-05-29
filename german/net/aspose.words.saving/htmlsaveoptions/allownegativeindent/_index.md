@@ -3,7 +3,7 @@ title: HtmlSaveOptions.AllowNegativeIndent
 linktitle: AllowNegativeIndent
 articleTitle: AllowNegativeIndent
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions AllowNegativeIndent eigendom. Gibt an ob negative linke und rechte Einzüge von Absätzen beim Speichern in HTML MHTML oder EPUB normalisiert werden. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die HtmlSaveOptions AllowNegativeIndent-Eigenschaft zur Steuerung von Absatzeinzügen beim Speichern in HTML, MHTML oder EPUB. Optimieren Sie noch heute Ihre Dokumentformatierung!
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
@@ -18,17 +18,17 @@ public bool AllowNegativeIndent { get; set; }
 
 ## Bemerkungen
 
-Wenn ein negativer Einzug nicht zulässig ist, wird er als Nullrand nach HTML exportiert. Wenn ein negativer Einzug zulässig ist, wird ein Absatz möglicherweise teilweise außerhalb des Browserfensters angezeigt.
+Wenn ein negativer Einzug nicht zulässig ist, wird er mit Nullrand in HTML exportiert. Wenn ein negativer Einzug zulässig ist, kann ein Absatz teilweise außerhalb des Browserfensters erscheinen.
 
 ## Beispiele
 
-Zeigt, wie negative Einzüge in der Ausgabe-.html beibehalten werden.
+Zeigt, wie negative Einrückungen in der HTML-Ausgabe beibehalten werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Tabelle mit einem negativen Einzug einfügen, wodurch sie nach links über die linke Seitengrenze hinaus verschoben wird.
+// Fügen Sie eine Tabelle mit negativem Einzug ein, wodurch sie nach links über die linke Seitengrenze hinaus verschoben wird.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -40,7 +40,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Fügen Sie eine Tabelle mit einem positiven Einzug ein, wodurch die Tabelle nach rechts verschoben wird.
+// Fügen Sie eine Tabelle mit einem positiven Einzug ein, der die Tabelle nach rechts verschiebt.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -50,7 +50,7 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// Wenn wir ein Dokument in HTML speichern, behält Aspose.Words nur negative Einrückungen bei
+// Wenn wir ein Dokument im HTML-Format speichern, behält Aspose.Words nur negative Einrückungen bei
 // wie die, die wir auf die erste Tabelle angewendet haben, wenn wir das Flag „AllowNegativeIndent“ setzen
 // in einem SaveOptions-Objekt, das wir an „true“ übergeben.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)

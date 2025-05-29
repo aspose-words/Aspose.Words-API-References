@@ -3,9 +3,9 @@ title: VbaModule Class
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Vba.VbaModule klas. Bietet Zugriff auf das VBAProjektmodul in C#.
+description: Nutzen Sie die Leistungsfähigkeit von Aspose.Words.Vba.VbaModule für nahtlosen Zugriff auf Ihre VBA-Projektmodule. Steigern Sie die Produktivität und optimieren Sie Ihre Dokumentenautomatisierung!
 type: docs
-weight: 6550
+weight: 7400
 url: /de/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
@@ -36,7 +36,7 @@ public class VbaModule
 
 | Name | Beschreibung |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbamodule/clone/)() | Führt eine Kopie des aus`VbaModule` . |
+| [Clone](../../aspose.words.vba/vbamodule/clone/)() | Führt eine Kopie der`VbaModule` . |
 
 ## Beispiele
 
@@ -51,7 +51,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -62,7 +62,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 

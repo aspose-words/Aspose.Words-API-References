@@ -3,7 +3,7 @@ title: Node.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words für .NET
-description: Node GetText methode. Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab in C#.
+description: Entdecken Sie die Node GetText-Methode, um mühelos Text aus einem Knoten und seinen untergeordneten Elementen abzurufen und so Ihre Datenverwaltung und Entwicklungseffizienz zu verbessern.
 type: docs
 weight: 120
 url: /de/net/aspose.words/node/gettext/
@@ -18,7 +18,7 @@ public virtual string GetText()
 
 ## Bemerkungen
 
-Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in beschrieben[`ControlChar`](../../controlchar/).
+Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen wie in[`ControlChar`](../../controlchar/).
 
 ## Beispiele
 
@@ -28,18 +28,18 @@ Zeigt, wie Steuerzeichen verwendet werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Mit DocumentBuilder Absätze mit Text einfügen.
+// Fügen Sie mit DocumentBuilder Absätze mit Text ein.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Beim Konvertieren des Dokuments in Textform werden die Steuerzeichen sichtbar
-// stellen einige der Strukturelemente des Dokuments dar, z. B. Seitenumbrüche.
+// Die Konvertierung des Dokuments in Textform zeigt, dass Steuerzeichen
+// stellen einige Strukturelemente des Dokuments dar, beispielsweise Seitenumbrüche.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// Beim Konvertieren eines Dokuments in String-Form,
-// Mit der Trim-Methode können wir einige Steuerzeichen weglassen.
+// Beim Konvertieren eines Dokuments in die Zeichenfolgenform,
+// Wir können einige der Steuerzeichen mit der Trim-Methode weglassen.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());
 ```
@@ -51,12 +51,12 @@ Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
 // Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
-// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
+// und am Ende einen Dokumentknoten ohne untergeordnete Elemente erhalten.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -69,7 +69,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Einen Absatz erstellen, einige Formatierungseigenschaften festlegen und ihn dann als untergeordnetes Element an den Text anhängen.
+// Erstellen Sie einen Absatz, legen Sie einige Formatierungseigenschaften fest und hängen Sie ihn dann als untergeordnetes Element an den Textkörper an.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -77,8 +77,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Zum Schluss fügen Sie etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
-// Aussehen und Inhalt festlegen und dann als untergeordnetes Element an den Absatz anhängen.
+// Abschließend fügen Sie dem Dokument noch Inhalt hinzu. Erstellen Sie einen Lauf,
+// Legen Sie das Erscheinungsbild und den Inhalt fest und hängen Sie es dann als untergeordnetes Element an den Absatz an.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

@@ -3,7 +3,7 @@ title: CustomPart.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words für .NET
-description: CustomPart ContentType eigendom. Gibt den Inhaltstyp dieses benutzerdefinierten Teils an in C#.
+description: Entdecken Sie, wie die Eigenschaft „CustomPart ContentType“ den Inhaltstyp Ihres benutzerdefinierten Teils definiert und so die Funktionalität und das Benutzererlebnis verbessert.
 type: docs
 weight: 20
 url: /de/net/aspose.words.markup/custompart/contenttype/
@@ -20,7 +20,7 @@ public string ContentType { get; set; }
 
 Diese Eigenschaft ist nur anwendbar, wenn[`IsExternal`](../isexternal/) Ist`FALSCH`.
 
-Der Standardwert ist eine leere Zeichenfolge. Ein gültiger Wert muss eine nicht leere Zeichenfolge sein.
+Der Standardwert ist eine leere Zeichenfolge. Ein gültiger Wert darf keine leere Zeichenfolge sein.
 
 ## Beispiele
 
@@ -31,12 +31,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

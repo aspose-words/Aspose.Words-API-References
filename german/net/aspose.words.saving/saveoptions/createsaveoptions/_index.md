@@ -3,7 +3,7 @@ title: SaveOptions.CreateSaveOptions
 linktitle: CreateSaveOptions
 articleTitle: CreateSaveOptions
 second_title: Aspose.Words für .NET
-description: SaveOptions CreateSaveOptions methode. Erstellt ein Speicheroptionsobjekt einer Klasse die für das angegebene Speicherformat geeignet ist in C#.
+description: Entdecken Sie die Methode CreateSaveOptions, um ganz einfach Speicheroptionen zu generieren, die auf Ihr bevorzugtes Format zugeschnitten sind, und so die Effizienz Ihrer Dokumentenverwaltung zu steigern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/saveoptions/createsaveoptions/
@@ -22,7 +22,7 @@ public static SaveOptions CreateSaveOptions(SaveFormat saveFormat)
 
 ### Rückgabewert
 
-Ein Objekt einer Klasse, die von abgeleitet ist[`SaveOptions`](../).
+Ein Objekt einer Klasse, die abgeleitet ist von[`SaveOptions`](../).
 
 ## Beispiele
 
@@ -31,11 +31,11 @@ Zeigt eine Option zur Optimierung des Speicherverbrauchs beim Rendern großer Do
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// Setzen Sie die Eigenschaft „MemoryOptimization“ auf „true“, um den Speicherbedarf bei Speichervorgängen großer Dokumente zu verringern
+// Setzen Sie die Eigenschaft „MemoryOptimization“ auf „true“, um den Speicherbedarf beim Speichern großer Dokumente zu verringern
 // auf Kosten einer Verlängerung der Operationsdauer.
 // Setzen Sie die Eigenschaft „MemoryOptimization“ auf „false“, um das Dokument normal als PDF zu speichern.
 saveOptions.MemoryOptimization = memoryOptimization;
@@ -62,11 +62,11 @@ public static SaveOptions CreateSaveOptions(string fileName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fileName | String | Die Erweiterung dieses Dateinamens bestimmt die Klasse des zu erstellenden Speicheroptionsobjekts. |
+| fileName | String | Die Erweiterung dieses Dateinamens bestimmt die Klasse des zu erstellenden Speicheroptionenobjekts. |
 
 ### Rückgabewert
 
-Ein Objekt einer Klasse, die von abgeleitet ist[`SaveOptions`](../).
+Ein Objekt einer Klasse, die abgeleitet ist von[`SaveOptions`](../).
 
 ## Beispiele
 
@@ -80,9 +80,9 @@ doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Da es kein Vorlagendokument gibt, konnte das Dokument Stiländerungen nicht nachverfolgen.
+// Da es kein Vorlagendokument gibt, gab es im Dokument keine Möglichkeit, Stiländerungen nachzuverfolgen.
 // Verwenden Sie ein SaveOptions-Objekt, um automatisch eine Vorlage festzulegen
-// wenn ein Dokument, das wir speichern, keins hat.
+// wenn ein Dokument, das wir speichern, keines hat.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

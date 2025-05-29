@@ -3,14 +3,14 @@ title: PdfDigitalSignatureDetails.TimestampSettings
 linktitle: TimestampSettings
 articleTitle: TimestampSettings
 second_title: Aspose.Words für .NET
-description: PdfDigitalSignatureDetails TimestampSettings eigendom. Ruft die Zeitstempeleinstellungen für die digitale Signatur ab oder legt diese fest in C#.
+description: Entdecken Sie die Eigenschaft „PdfDigitalSignatureDetails TimestampSettings“, um Zeitstempel digitaler Signaturen einfach zu verwalten und so die Dokumentensicherheit und -konformität zu verbessern.
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/pdfdigitalsignaturedetails/timestampsettings/
 ---
 ## PdfDigitalSignatureDetails.TimestampSettings property
 
-Ruft die Zeitstempeleinstellungen für die digitale Signatur ab oder legt diese fest.
+Ruft die Zeitstempeleinstellungen für die digitale Signatur ab oder legt sie fest.
 
 ```csharp
 public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
@@ -18,7 +18,7 @@ public PdfDigitalSignatureTimestampSettings TimestampSettings { get; set; }
 
 ## Bemerkungen
 
-Der Standardwert ist`Null` und die digitale Signatur wird nicht mit einem Zeitstempel versehen. Wenn diese Eigenschaft auf einen gültigen Wert gesetzt ist[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, dann wird die digitale Signatur im PDF-Dokument mit einem Zeitstempel versehen.
+Der Standardwert ist`null` und die digitale Signatur wird nicht mit einem Zeitstempel versehen. Wenn diese Eigenschaft auf einen gültigen Wert gesetzt ist[`PdfDigitalSignatureTimestampSettings`](../../pdfdigitalsignaturetimestampsettings/) object, , dann wird die digitale Signatur im PDF-Dokument mit einem Zeitstempel versehen.
 
 ## Beispiele
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
@@ -37,23 +37,23 @@ PdfSaveOptions options = new PdfSaveOptions();
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Einen von der Behörde überprüften Zeitstempel erstellen.
+// Erstellen Sie einen von einer Zeitstempelbehörde verifizierten Zeitstempel.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", „JohnDoe“, „MyPassword“);
 
 // Die Standardlebensdauer des Zeitstempels beträgt 100 Sekunden.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// Wir können unseren Timeout-Zeitraum über den Konstruktor festlegen.
+// Wir können unsere Timeout-Periode über den Konstruktor festlegen.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", „JohnDoe“, „MyPassword“, TimeSpan.FromMinutes(30));
 
 Assert.AreEqual(1800.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
-Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.TimestampSettings.ServerUrl);
+Assert.AreEqual("https://freetsa.org/tsr", Optionen.DigitalSignatureDetails.TimestampSettings.ServerUrl);
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// Die Methode „Speichern“ wendet zu diesem Zeitpunkt unsere Signatur auf das Ausgabedokument an.
+// Die Methode „Speichern“ wendet unsere Signatur jetzt auf das Ausgabedokument an.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

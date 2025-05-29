@@ -3,7 +3,7 @@ title: BorderCollection.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words für .NET
-description: BorderCollection Color eigendom. Ruft die Rahmenfarbe ab oder legt sie fest in C#.
+description: Entdecken Sie die BorderCollection-Farbeigenschaft, um Rahmenfarben für Ihre Designs einfach anzupassen und zu verwalten. Verbessern Sie Ihre Benutzeroberfläche mit lebendigen Optionen!
 type: docs
 weight: 20
 url: /de/net/aspose.words/bordercollection/color/
@@ -20,11 +20,11 @@ public Color Color { get; set; }
 
 Gibt die Farbe des ersten Rahmens in der Sammlung zurück.
 
-Legt die Farbe aller Rahmen in der Sammlung fest, mit Ausnahme der diagonalen Ränder.
+Legt die Farbe aller Rahmen in der Sammlung fest, mit Ausnahme diagonaler Rahmen.
 
 ## Beispiele
 
-Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
+Zeigt, wie man einen grünen, gewellten Seitenrand mit Schatten erstellt.
 
 ```csharp
 Document doc = new Document();

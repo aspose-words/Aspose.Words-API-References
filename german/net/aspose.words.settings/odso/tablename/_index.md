@@ -3,7 +3,7 @@ title: Odso.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words für .NET
-description: Odso TableName eigendom. Gibt den bestimmten Datensatz an mit dem eine Quelle innerhalb einer externen Datenquelle verbunden werden soll. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie die Odso TableName-Eigenschaft, stellen Sie mühelos eine Verbindung zu bestimmten Datensätzen in externen Quellen her und verbessern Sie so die Datenintegration auf einfache Weise.
 type: docs
 weight: 80
 url: /de/net/aspose.words.settings/odso/tablename/

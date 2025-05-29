@@ -3,7 +3,7 @@ title: PrinterSettingsContainer.DefaultPageSettingsPaperSource
 linktitle: DefaultPageSettingsPaperSource
 articleTitle: DefaultPageSettingsPaperSource
 second_title: Aspose.Words für .NET
-description: PrinterSettingsContainer DefaultPageSettingsPaperSource eigendom. SiehePaperSource vonDefaultPageSettings  in C#.
+description: Entdecken Sie die Eigenschaft „DefaultPageSettingsPaperSource“ für PrinterSettingsContainer. Optimieren Sie Ihren Druck mit anpassbaren Papierquellenoptionen!
 type: docs
 weight: 20
 url: /de/net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/
@@ -18,11 +18,11 @@ public PaperSource DefaultPageSettingsPaperSource { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie auf die Papierquellen und -formate Ihres Druckers zugreifen und diese auflisten können.
+Zeigt, wie Sie auf die Papierquellen und -formate Ihres Druckers zugreifen und diese auflisten.
 
 ```csharp
-// Der „PrinterSettingsContainer“ enthält ein „PrinterSettings“-Objekt,
-//, das eindeutige Daten für verschiedene Druckertreiber enthält.
+// Der "PrinterSettingsContainer" enthält ein "PrinterSettings"-Objekt,
+// die eindeutige Daten für verschiedene Druckertreiber enthält.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -33,12 +33,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// Die Eigenschaft „PaperSizes“ enthält die Liste der Papierformate, die der Drucker verwenden soll.
-// Sowohl PrinterSource als auch PrinterSize enthalten eine „RawKind“-Eigenschaft,
-// was einem Papiertyp entspricht, der in der PaperSourceKind-Enumeration aufgeführt ist.
-// Wenn es eine Papierquelle mit demselben „RawKind“-Wert wie dem der Druckseite gibt,
-// Der Drucker druckt die Seite mit der angegebenen Papierquelle und dem angegebenen Format.
-// Andernfalls verwendet der Drucker standardmäßig die durch die Eigenschaft „DefaultPageSettingsPaperSource“ angegebene Quelle.
+// Die Eigenschaft „PaperSizes“ enthält die Liste der Papiergrößen, die der Drucker verwenden soll.
+// Sowohl PrinterSource als auch PrinterSize enthalten eine "RawKind"-Eigenschaft,
+// was einem Papiertyp entspricht, der in der Aufzählung PaperSourceKind aufgeführt ist.
+// Wenn es eine Papierquelle mit dem gleichen „RawKind“-Wert wie die Druckseite gibt,
+// Der Drucker druckt die Seite mit der angegebenen Papierquelle und -größe.
+// Andernfalls verwendet der Drucker standardmäßig die Quelle, die durch die Eigenschaft „DefaultPageSettingsPaperSource“ angegeben ist.
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

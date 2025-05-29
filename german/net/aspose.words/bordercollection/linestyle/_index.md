@@ -3,7 +3,7 @@ title: BorderCollection.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words für .NET
-description: BorderCollection LineStyle eigendom. Ruft den Rahmenstil ab oder legt ihn fest in C#.
+description: Entdecken Sie die LineStyle-Eigenschaft der BorderCollection, um Ihr Design mit flexiblen Rahmenstilen anzupassen. Verbessern Sie mühelos die visuelle Attraktivität Ihres Projekts!
 type: docs
 weight: 80
 url: /de/net/aspose.words/bordercollection/linestyle/
@@ -20,11 +20,11 @@ public LineStyle LineStyle { get; set; }
 
 Gibt den Stil des ersten Rahmens in der Sammlung zurück.
 
-Legt den Stil aller Rahmen in der Sammlung fest, mit Ausnahme diagonaler Ränder.
+Legt den Stil aller Rahmen in der Sammlung fest, mit Ausnahme diagonaler Rahmen.
 
 ## Beispiele
 
-Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
+Zeigt, wie man einen grünen, gewellten Seitenrand mit Schatten erstellt.
 
 ```csharp
 Document doc = new Document();

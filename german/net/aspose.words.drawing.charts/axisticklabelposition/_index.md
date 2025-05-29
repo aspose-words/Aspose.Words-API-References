@@ -3,9 +3,9 @@ title: AxisTickLabelPosition Enum
 linktitle: AxisTickLabelPosition
 articleTitle: AxisTickLabelPosition
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition opsomming. Gibt die möglichen Positionen für Teilstrichbeschriftungen an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Drawing.Charts.AxisTickLabelPosition, die optimale Platzierungen von Teilstrichbeschriftungen für eine verbesserte Übersichtlichkeit und Darstellung des Diagramms definiert.
 type: docs
-weight: 580
+weight: 830
 url: /de/net/aspose.words.drawing.charts/axisticklabelposition/
 ---
 ## AxisTickLabelPosition enumeration
@@ -20,9 +20,9 @@ public enum AxisTickLabelPosition
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| High | `0` | Gibt an, dass sich die Achsenbeschriftungen am oberen Ende der senkrechten Achse befinden sollen. |
-| Low | `1` | Gibt an, dass sich die Achsenbeschriftungen am unteren Ende der senkrechten Achse befinden sollen. |
-| NextToAxis | `2` | Gibt an, dass sich die Achsenbeschriftungen neben der Achse befinden sollen. |
+| High | `0` | Gibt an, dass die Achsenbeschriftungen am oberen Ende der senkrechten Achse stehen sollen. |
+| Low | `1` | Gibt an, dass die Achsenbeschriftungen am unteren Ende der senkrechten Achse stehen sollen. |
+| NextToAxis | `2` | Gibt an, dass die Achsenbeschriftungen neben der Achse stehen sollen. |
 | None | `3` | Gibt an, dass die Achsenbeschriftungen nicht gezeichnet werden. |
 | Default | `2` | Gibt den Standardwert der Position der Teilstrichbeschriftungen an. |
 
@@ -49,12 +49,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Untere und obere Grenze für die X-Achse festlegen.
+// Untere und obere Grenzen für die X-Achse festlegen.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Setze die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag.
+// Stellen Sie die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag ein.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -63,9 +63,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Y-Achsen-Eigenschaften für Dezimalwerte definieren.
+// Definieren Sie die Eigenschaften der Y-Achse für Dezimalwerte.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

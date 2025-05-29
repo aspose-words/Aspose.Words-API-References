@@ -3,7 +3,7 @@ title: FileFormatUtil.ContentTypeToLoadFormat
 linktitle: ContentTypeToLoadFormat
 articleTitle: ContentTypeToLoadFormat
 second_title: Aspose.Words für .NET
-description: FileFormatUtil ContentTypeToLoadFormat methode. Konvertiert den IANAInhaltstyp in einen Aufzählungswert im Ladeformat in C#.
+description: Transformieren Sie IANA-Inhaltstypen mühelos in Ladeformatwerte mit der FileFormatUtil ContentTypeToLoadFormat-Methode. Vereinfachen Sie noch heute Ihre Dateiverwaltung!
 type: docs
 weight: 10
 url: /de/net/aspose.words/fileformatutil/contenttypetoloadformat/
@@ -24,10 +24,10 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 ## Beispiele
 
-Zeigt, wie Sie das entsprechende Aspose-Lade-/Speicherformat aus jeder Medientypzeichenfolge finden.
+Zeigt, wie Sie aus jeder Medientypzeichenfolge das entsprechende Aspose-Lade-/Speicherformat finden.
 
 ```csharp
- // Die ContentTypeToSaveFormat/ContentTypeToLoadFormat-Methoden akzeptieren nur offizielle IANA-Medientypnamen, auch MIME-Typen genannt.
+    // Die Methoden ContentTypeToSaveFormat/ContentTypeToLoadFormat akzeptieren nur offizielle IANA-Medientypnamen, auch als MIME-Typen bekannt.
 // Alle gültigen Medientypen sind hier aufgelistet: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
 // Der Versuch, ein SaveFormat mit einer teilweisen Medientypzeichenfolge zu verknüpfen, funktioniert nicht.
@@ -49,7 +49,7 @@ Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("applicat
 Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
 Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
 
-// Für Dateitypen, die gespeichert und geladen werden können, können wir einen Medientyp sowohl einem Ladeformat als auch einem Speicherformat zuordnen.
+// Bei Dateitypen, die gespeichert und geladen werden können, können wir einen Medientyp sowohl einem Ladeformat als auch einem Speicherformat zuordnen.
 Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
 Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
 

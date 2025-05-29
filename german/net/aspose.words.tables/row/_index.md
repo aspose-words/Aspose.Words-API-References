@@ -3,9 +3,9 @@ title: Row Class
 linktitle: Row
 articleTitle: Row
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Tables.Row klas. Stellt eine Tabellenzeile dar in C#.
+description: Entdecken Sie die Aspose.Words.Tables.Row-Klasse für nahtloses Tabellenzeilenmanagement in Ihren Dokumenten. Verbessern Sie Ihre Dokumentenverarbeitung mit leistungsstarken Funktionen!
 type: docs
-weight: 6310
+weight: 7160
 url: /de/net/aspose.words.tables/row/
 ---
 ## Row class
@@ -22,71 +22,73 @@ public class Row : CompositeNode
 
 | Name | Beschreibung |
 | --- | --- |
-| [Row](row/)(*[DocumentBase](../../aspose.words/documentbase/)*) | Initialisiert eine neue Instanz von`Row` Klasse. |
+| [Row](row/)(*[DocumentBase](../../aspose.words/documentbase/)*) | Initialisiert eine neue Instanz des`Row` Klasse. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [Cells](../../aspose.words.tables/row/cells/) { get; } | Bietet typisierten Zugriff auf[`Cell`](../cell/) Unterknoten der Zeile. |
-| [Count](../../aspose.words/compositenode/count/) { get; } | Ruft die Anzahl der unmittelbaren Kinder dieses Knotens ab. |
+| [Cells](../../aspose.words.tables/row/cells/) { get; } | Bietet typisierten Zugriff auf die[`Cell`](../cell/) untergeordnete Knoten der Zeile. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Ruft die Anzahl der unmittelbar untergeordneten Elemente dieses Knotens ab. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| [FirstCell](../../aspose.words.tables/row/firstcell/) { get; } | Gibt den ersten zurück[`Cell`](../cell/) in der Zeile. |
+| [FirstCell](../../aspose.words.tables/row/firstcell/) { get; } | Gibt den ersten[`Cell`](../cell/) in der Reihe. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Ruft das erste untergeordnete Element des Knotens ab. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Gibt zurück`WAHR` wenn dieser Knoten untergeordnete Knoten hat. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Gibt zurück`WAHR` da dieser Knoten untergeordnete Knoten haben kann. |
-| [IsFirstRow](../../aspose.words.tables/row/isfirstrow/) { get; } | True, wenn dies die erste Zeile in einer Tabelle ist; sonst falsch. |
-| [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | True, wenn dies die letzte Zeile in einer Tabelle ist; sonst falsch. |
-| [LastCell](../../aspose.words.tables/row/lastcell/) { get; } | Gibt den letzten zurück[`Cell`](../cell/) in der Zeile. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Rückgaben`WAHR` wenn dieser Knoten untergeordnete Knoten hat. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Rückgaben`WAHR` da dieser Knoten untergeordnete Knoten haben kann. |
+| [IsFirstRow](../../aspose.words.tables/row/isfirstrow/) { get; } | Wahr, wenn dies die erste Zeile in einer Tabelle ist, andernfalls falsch. |
+| [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | Wahr, wenn dies die letzte Zeile in einer Tabelle ist, andernfalls falsch. |
+| [LastCell](../../aspose.words.tables/row/lastcell/) { get; } | Gibt die letzte[`Cell`](../cell/) in der Reihe. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Ruft das letzte untergeordnete Element des Knotens ab. |
-| [NextRow](../../aspose.words.tables/row/nextrow/) { get; } | Ruft den nächsten ab`Row` node. |
+| [NextRow](../../aspose.words.tables/row/nextrow/) { get; } | Ruft den nächsten`Row` Knoten. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | Gibt zurückRow . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
+| override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | RückgabenRow . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
 | [ParentTable](../../aspose.words.tables/row/parenttable/) { get; } | Gibt die unmittelbar übergeordnete Tabelle der Zeile zurück. |
-| [PreviousRow](../../aspose.words.tables/row/previousrow/) { get; } | Ruft den vorherigen ab`Row` node. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
-| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück[`Range`](../../aspose.words/range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
+| [PreviousRow](../../aspose.words.tables/row/previousrow/) { get; } | Ruft die vorherige`Row` Knoten. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorausgeht. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt einen[`Range`](../../aspose.words/range/)Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
 | [RowFormat](../../aspose.words.tables/row/rowformat/) { get; } | Bietet Zugriff auf die Formatierungseigenschaften der Zeile. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words.tables/row/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Akzeptiert einen Besucher. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten am Ende der Liste der untergeordneten Knoten für diesen Knoten hinzu. |
+| override [Accept](../../aspose.words.tables/row/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Nimmt einen Besucher auf. |
+| override [AcceptEnd](../../aspose.words.tables/row/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Akzeptiert einen Besucher für den Besuch des Zeilenendes. |
+| override [AcceptStart](../../aspose.words.tables/row/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Akzeptiert einen Besucher für den Besuch des Zeilenanfangs. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Fügt den angegebenen Knoten am Ende der Liste der untergeordneten Knoten für diesen Knoten hinzu. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Erstellt einen Navigator, der zum Durchlaufen und Lesen von Knoten verwendet werden kann. |
-| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | Wenn die`Row` hat keine Zellen, erstellt eine und hängt eine an[`Cell`](../cell/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../../aspose.words/nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | Wenn die`Row` hat keine Zellen, erstellt und fügt eine hinzu[`Cell`](../cell/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ruft den ersten Vorfahren des angegebenen[`NodeType`](../../aspose.words/nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorgänger des angegebenen Objekttyps ab. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Gibt einen N-ten untergeordneten Knoten zurück, der dem angegebenen Typ entspricht. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Gibt eine Live-Sammlung untergeordneter Knoten zurück, die dem angegebenen Typ entsprechen. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Gibt eine Live-Sammlung von untergeordneten Knoten zurück, die dem angegebenen Typ entsprechen. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bietet Unterstützung für die Iteration des For-Each-Stils über die untergeordneten Knoten dieses Knotens. |
 | override [GetText](../../aspose.words.tables/row/gettext/)() | Ruft den Text aller Zellen in dieser Zeile ab, einschließlich des Zeilenendezeichens. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Gibt den Index des angegebenen untergeordneten Knotens im untergeordneten Knoten-Array zurück. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten unmittelbar nach dem angegebenen Referenzknoten ein. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten unmittelbar vor dem angegebenen Referenzknoten ein. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten unmittelbar nach dem angegebenen Referenzknoten ein. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten unmittelbar vor dem angegebenen Referenzknoten ein. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Fügt den angegebenen Knoten am Anfang der Liste der untergeordneten Knoten für diesen Knoten hinzu. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Fügt den angegebenen Knoten am Anfang der Liste der untergeordneten Knoten für diesen Knoten hinzu. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Entfernt alle untergeordneten Knoten des aktuellen Knotens. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Entfernt den angegebenen untergeordneten Knoten. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Entfernt alle[`SmartTag`](../../aspose.words.markup/smarttag/)Nachkommenknoten des aktuellen Knotens. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Entfernt den angegebenen untergeordneten Knoten. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Entfernt alle[`SmartTag`](../../aspose.words.markup/smarttag/) Nachkommenknoten des aktuellen Knotens. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Wählt eine Liste von Knoten aus, die dem XPath-Ausdruck entsprechen. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Wählt den ersten aus[`Node`](../../aspose.words/node/) das entspricht dem XPath-Ausdruck. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Wählt den ersten[`Node`](../../aspose.words/node/) das dem XPath-Ausdruck entspricht. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exportiert den Inhalt des Knotens in eine Zeichenfolge im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in eine Zeichenfolge. |
 
 ## Bemerkungen
 
-`Row` kann nur ein Kind von a sein[`Table`](../table/).
+`Row` kann nur ein Kind eines[`Table`](../table/).
 
-`Row` kann eine oder mehrere enthalten[`Cell`](../cell/) Knoten.
+`Row` kann ein oder mehrere enthalten[`Cell`](../cell/) Knoten.
 
-Eine minimale gültige Zeile muss mindestens eine haben[`Cell`](../cell/).
+Eine minimal gültige Zeile muss mindestens eine[`Cell`](../cell/).
 
 ## Beispiele
 
@@ -97,10 +99,10 @@ Document doc = new Document();
 Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
-// Tabellen enthalten Zeilen, die Zellen enthalten, die möglicherweise Absätze enthalten
+// Tabellen enthalten Zeilen, die Zellen enthalten, die Absätze enthalten können
 // mit typischen Elementen wie Läufen, Formen und sogar anderen Tabellen.
-// Der Aufruf der Methode „EnsureMinimum“ für eine Tabelle stellt dies sicher
-// Die Tabelle enthält mindestens eine Zeile, eine Zelle und einen Absatz.
+// Der Aufruf der Methode "EnsureMinimum" für eine Tabelle stellt sicher, dass
+// Die Tabelle hat mindestens eine Zeile, Zelle und einen Absatz.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
 
@@ -110,14 +112,14 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// Text zum ersten Aufruf in der ersten Zeile der Tabelle hinzufügen.
+// Fügen Sie der ersten Zelle in der ersten Zeile der Tabelle Text hinzu.
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
+Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -131,7 +133,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Wir können die Methode „ToArray“ für eine Zeilensammlung verwenden, um sie in ein Array zu klonen.
+    // Wir können die Methode „ToArray“ auf eine Zeilensammlung anwenden, um sie in ein Array zu klonen.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -141,7 +143,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Wir können die Methode „ToArray“ für eine Zellsammlung verwenden, um sie in ein Array zu klonen.
+        // Wir können die Methode „ToArray“ auf eine Zellensammlung anwenden, um sie in ein Array zu klonen.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 
@@ -158,7 +160,7 @@ for (int i = 0; i < tables.Count; i++)
 }
 ```
 
-Zeigt, wie man eine verschachtelte Tabelle erstellt, ohne einen Document Builder zu verwenden.
+Zeigt, wie eine verschachtelte Tabelle ohne Verwendung eines Dokumentgenerators erstellt wird.
 
 ```csharp
 public void CreateNestedTable()
@@ -169,7 +171,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Erstelle eine weitere Tabelle mit zwei Zeilen und zwei Spalten und füge sie dann in die erste Zelle der ersten Tabelle ein.
+    // Erstellen Sie eine weitere Tabelle mit zwei Zeilen und zwei Spalten und fügen Sie sie dann in die erste Zelle der ersten Tabelle ein.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -198,9 +200,9 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Mit den Eigenschaften „Title“ und „Description“ können Sie Ihrer Tabelle einen Titel bzw. eine Beschreibung hinzufügen.
+    // Mit den Eigenschaften „Titel“ und „Beschreibung“ können Sie Ihrer Tabelle jeweils einen Titel und eine Beschreibung hinzufügen.
     // Die Tabelle muss mindestens eine Zeile haben, bevor wir diese Eigenschaften verwenden können.
-    // Diese Eigenschaften sind für ISO/IEC 29500-konforme .docx-Dokumente von Bedeutung (siehe die OoxmlCompliance-Klasse).
+    // Diese Eigenschaften sind für ISO/IEC 29500-konforme .docx-Dokumente von Bedeutung (siehe Klasse OoxmlCompliance).
     // Wenn wir das Dokument in Formaten vor ISO/IEC 29500 speichern, ignoriert Microsoft Word diese Eigenschaften.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

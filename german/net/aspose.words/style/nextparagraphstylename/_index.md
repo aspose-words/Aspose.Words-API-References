@@ -3,9 +3,9 @@ title: Style.NextParagraphStyleName
 linktitle: NextParagraphStyleName
 articleTitle: NextParagraphStyleName
 second_title: Aspose.Words für .NET
-description: Style NextParagraphStyleName eigendom. Ruft den Namen des Stils ab bzw. legt ihn fest der automatisch auf einen neuen Absatz angewendet werden soll der nach einem Absatz eingefügt wird der mit dem angegebenen Stil formatiert ist in C#.
+description: Entdecken Sie, wie Sie die Eigenschaft „NextParagraphStyleName“ effektiv nutzen können, um die Stilanwendung für neue Absätze zu automatisieren und so die Formatierung Ihres Dokuments zu verbessern.
 type: docs
-weight: 130
+weight: 140
 url: /de/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
@@ -18,7 +18,7 @@ public string NextParagraphStyleName { get; set; }
 
 ## Bemerkungen
 
-Diese Eigenschaft wird von Aspose.Words nicht verwendet. Der nächste Absatzstil wird nur automatisch angewendet, wenn Sie das Dokument in MS Word bearbeiten.
+Diese Eigenschaft wird von Aspose.Words nicht verwendet. Der nächste Absatzstil wird erst automatisch angewendet, wenn Sie das Dokument in MS Word bearbeiten.
 
 ## Beispiele
 

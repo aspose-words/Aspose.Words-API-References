@@ -3,16 +3,16 @@ title: WebExtensionBinding Class
 linktitle: WebExtensionBinding
 articleTitle: WebExtensionBinding
 second_title: Aspose.Words für .NET
-description: Aspose.Words.WebExtensions.WebExtensionBinding klas. Gibt eine verbindliche Beziehung zwischen einer Weberweiterung und den Daten im Dokument an in C#.
+description: Entdecken Sie die Aspose.Words.WebExtensionBinding-Klasse für die nahtlose Integration von Web-Erweiterungen in Ihre Dokumentdaten. Erweitern Sie die Funktionalität mühelos!
 type: docs
-weight: 6750
+weight: 7600
 url: /de/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-Gibt eine verbindliche Beziehung zwischen einer Weberweiterung und den Daten im Dokument an.
+Gibt eine Bindungsbeziehung zwischen einer Weberweiterung und den Daten im Dokument an.
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten Sie mit Office-Add-Ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Office-Add-Ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) Dokumentationsartikel.
 
 ```csharp
 public class WebExtensionBinding
@@ -28,7 +28,7 @@ public class WebExtensionBinding
 
 | Name | Beschreibung |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Gibt den Bindungsschlüssel an, der zum Zuordnen des Bindungseintrags in dieser Liste zu den gebundenen Daten im Dokument verwendet wird. |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Gibt den Bindungsschlüssel an, der verwendet wird, um den Bindungseintrag in dieser Liste den gebundenen Daten im Dokument zuzuordnen. |
 | [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | Gibt den Bindungstyp an. |
 | [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | Gibt die Bindungskennung an. |
 

@@ -3,7 +3,7 @@ title: FieldUnknown
 linktitle: FieldUnknown
 articleTitle: FieldUnknown
 second_title: Aspose.Words für .NET
-description: FieldUnknown constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldUnknown-Konstruktor, einen leistungsstarken Standardkonstruktor für nahtlose Integration und verbesserte Leistung in Ihren Codierungsprojekten.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldunknown/fieldunknown/

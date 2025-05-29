@@ -3,14 +3,14 @@ title: RowFormat Class
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Tables.RowFormat klas. Stellt alle Formatierungen für eine Tabellenzeile dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Tables.RowFormat für umfassende Tabellenzeilenformatierung. Verbessern Sie Ihr Dokumentdesign mit leistungsstarken, flexiblen Funktionen.
 type: docs
-weight: 6330
+weight: 7180
 url: /de/net/aspose.words.tables/rowformat/
 ---
 ## RowFormat class
 
-Stellt alle Formatierungen für eine Tabellenzeile dar.
+Stellt die gesamte Formatierung für eine Tabellenzeile dar.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Tabellen](https://docs.aspose.com/words/net/working-with-tables/) Dokumentationsartikel.
 
@@ -22,17 +22,17 @@ public class RowFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | True, wenn der Text in einer Tabellenzeile über einen Seitenumbruch geteilt werden darf. |
+| [AllowBreakAcrossPages](../../aspose.words.tables/rowformat/allowbreakacrosspages/) { get; set; } | Wahr, wenn der Text in einer Tabellenzeile über einen Seitenumbruch hinweg aufgeteilt werden darf. |
 | [Borders](../../aspose.words.tables/rowformat/borders/) { get; } | Ruft die Sammlung der Standardzellenränder für die Zeile ab. |
-| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | True, wenn die Zeile als Tabellenüberschrift auf jeder Seite wiederholt wird, wenn die Tabelle mehr als eine Seite umfasst. |
+| [HeadingFormat](../../aspose.words.tables/rowformat/headingformat/) { get; set; } | Wahr, wenn die Zeile als Tabellenüberschrift auf jeder Seite wiederholt wird, wenn die Tabelle mehr als eine Seite umfasst. |
 | [Height](../../aspose.words.tables/rowformat/height/) { get; set; } | Ruft die Höhe der Tabellenzeile in Punkten ab oder legt sie fest. |
-| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | Ruft die Regel zur Bestimmung der Höhe der Tabellenzeile ab oder legt diese fest. |
+| [HeightRule](../../aspose.words.tables/rowformat/heightrule/) { get; set; } | Ruft die Regel zur Bestimmung der Höhe der Tabellenzeile ab oder legt sie fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Setzt die Standardzeilenformatierung zurück. |
+| [ClearFormatting](../../aspose.words.tables/rowformat/clearformatting/)() | Setzt die Zeilenformatierung auf die Standardeinstellung zurück. |
 
 ## Beispiele
 
@@ -69,7 +69,7 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Verwenden Sie die Eigenschaft „RowFormat“ der ersten Zeile, um die Formatierung zu ändern
+// Verwenden Sie die Eigenschaft "RowFormat" der ersten Zeile, um die Formatierung zu ändern
 // des Inhalts aller Zellen in dieser Zeile.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
@@ -83,7 +83,7 @@ cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 ```
 
-Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
+Zeigt, wie eine Tabelle mit benutzerdefinierten Rändern erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -91,7 +91,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Festlegen von Tabellenformatierungsoptionen für einen Dokumentersteller
+// Festlegen von Tabellenformatierungsoptionen für einen Dokumentgenerator
 // wendet sie auf jede Zeile und Zelle an, die wir damit hinzufügen.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -115,7 +115,7 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// Das Ändern der Formatierung wird auf die aktuelle Zelle angewendet,
 // und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
 // Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
@@ -128,7 +128,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
+// Erhöhen Sie die Zeilenhöhe, damit der vertikale Text hineinpasst.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

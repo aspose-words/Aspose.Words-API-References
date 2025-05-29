@@ -3,16 +3,16 @@ title: ThemeFonts Class
 linktitle: ThemeFonts
 articleTitle: ThemeFonts
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Themes.ThemeFonts klas. Stellt eine Sammlung von Schriftarten im Schriftartenschema dar und ermöglicht die Angabe verschiedener Schriftarten für verschiedene SprachenLatin EastAsian UndComplexScript  in C#.
+description: Entdecken Sie die Aspose.Words ThemeFonts-Klasse, ein leistungsstarkes Tool zum Verwalten mehrsprachiger Schriftartenschemata, das den Stil und die Lesbarkeit Ihres Dokuments verbessert.
 type: docs
-weight: 6500
+weight: 7350
 url: /de/net/aspose.words.themes/themefonts/
 ---
 ## ThemeFonts class
 
-Stellt eine Sammlung von Schriftarten im Schriftartenschema dar und ermöglicht die Angabe verschiedener Schriftarten für verschiedene Sprachen[`Latin`](./latin/) ,[`EastAsian`](./eastasian/) Und[`ComplexScript`](./complexscript/) .
+Stellt eine Sammlung von Schriftarten im Schriftartenschema dar, die es ermöglicht, unterschiedliche Schriftarten für unterschiedliche Sprachen anzugeben[`Latin`](./latin/) ,[`EastAsian`](./eastasian/) Und[`ComplexScript`](./complexscript/) .
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Stilen und Themen](https://docs.aspose.com/words/net/working-with-styles-and-themes/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Stilen und Designs](https://docs.aspose.com/words/net/working-with-styles-and-themes/) Dokumentationsartikel.
 
 ```csharp
 public class ThemeFonts
@@ -24,33 +24,33 @@ public class ThemeFonts
 | --- | --- |
 | [ComplexScript](../../aspose.words.themes/themefonts/complexscript/) { get; set; } | Gibt den Schriftartnamen für ComplexScript-Zeichen an. |
 | [EastAsian](../../aspose.words.themes/themefonts/eastasian/) { get; set; } | Gibt den Schriftartnamen für ostasiatische Zeichen an. |
-| [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Gibt den Schriftartnamen für lateinische Zeichen an. |
+| [Latin](../../aspose.words.themes/themefonts/latin/) { get; set; } | Gibt den Schriftartnamen für lateinische Buchstaben an. |
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
+Zeigt, wie benutzerdefinierte Farben und Schriftarten für Designs festgelegt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// Das „Theme“-Objekt gibt uns Zugriff auf das Dokumentthema, eine Quelle für Standardschriftarten und -farben.
+// Das Objekt „Design“ gibt uns Zugriff auf das Dokumentdesign, eine Quelle für Standardschriftarten und -farben.
 Theme theme = doc.Theme;
 
-// Einige Stile wie „Überschrift 1“ und „Untertitel“ erben diese Schriftarten.
+// Einige Stile, wie „Überschrift 1“ und „Untertitel“, übernehmen diese Schriftarten.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// Andere Sprachen haben möglicherweise auch ihre benutzerdefinierten Schriftarten in diesem Thema.
+// Auch andere Sprachen können in diesem Design über eigene Schriftarten verfügen.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// Die Eigenschaft „Colors“ enthält die Farbpalette aus Microsoft Word,
-// was erscheint, wenn die Schattierung oder die Schriftfarbe geändert wird.
-// Wenden Sie benutzerdefinierte Farben auf die Farbpalette an, damit wir in Microsoft Word problemlos darauf zugreifen können
-// wenn wir zum Beispiel über „Home“ -> die Schriftfarbe ändern "Schriftart" -> "Schriftfarbe",
-// oder eine Form einfügen und dann über „Formformat“ eine Farbe dafür festlegen -> „Formstile“.
+// Die Eigenschaft „Farben“ enthält die Farbpalette von Microsoft Word,
+// das beim Ändern der Schattierung oder Schriftfarbe erscheint.
+// Wenden Sie benutzerdefinierte Farben auf die Farbpalette an, damit wir in Microsoft Word einfach darauf zugreifen können
+// wenn wir beispielsweise über "Home" -> "Schriftart" -> "Schriftfarbe" die Schriftfarbe ändern,
+// oder fügen Sie eine Form ein und legen Sie dann über „Formformat“ -> „Formstile“ eine Farbe dafür fest.
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -64,7 +64,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Benutzerdefinierte Farben auf Hyperlinks im angeklickten und nicht angeklickten Zustand anwenden.
+// Wenden Sie benutzerdefinierte Farben auf Hyperlinks im angeklickten und nicht angeklickten Zustand an.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

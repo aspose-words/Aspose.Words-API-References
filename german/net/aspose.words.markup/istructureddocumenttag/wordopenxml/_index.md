@@ -3,17 +3,32 @@ title: IStructuredDocumentTag.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
 second_title: Aspose.Words für .NET
-description: IStructuredDocumentTag WordOpenXML eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format in C#.
+description: Entdecken Sie die WordOpenXML-Eigenschaft IStructuredDocumentTag und greifen Sie auf XML-Zeichenfolgen im FlatOpc-Format zu, um die Dokumentenverwaltung und -integration zu verbessern.
 type: docs
-weight: 120
+weight: 150
 url: /de/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property
 
-Ruft eine Zeichenfolge ab, die das im Knoten im enthaltene XML darstelltFlatOpc format.
+Ruft eine Zeichenfolge ab, die das XML darstellt, das im Knoten imFlatOpc format.
 
 ```csharp
 public string WordOpenXML { get; }
+```
+
+## Beispiele
+
+Zeigt, wie XML im Knoten im FlatOpc-Format abgerufen wird.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags.docx");
+
+List<StructuredDocumentTag> tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true)
+    .OfType<StructuredDocumentTag>().ToList();
+
+Assert.True(tags[0].WordOpenXML
+    .Contains(
+        "<pkg:part pkg:name=\"/docProps/app.xml\" pkg:contentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\">"));
 ```
 
 ### Siehe auch

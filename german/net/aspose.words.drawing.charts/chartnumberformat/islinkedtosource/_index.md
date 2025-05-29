@@ -3,14 +3,14 @@ title: ChartNumberFormat.IsLinkedToSource
 linktitle: IsLinkedToSource
 articleTitle: IsLinkedToSource
 second_title: Aspose.Words für .NET
-description: ChartNumberFormat IsLinkedToSource eigendom. Gibt an ob der Formatcode mit einer Quellzelle verknüpft ist. Der Standardwert ist true in C#.
+description: Entdecken Sie, wie die Eigenschaft „ChartNumberFormat IsLinkedToSource“ Ihre Datenvisualisierung durch die Verknüpfung von Formatcodes mit Quellzellen verbessert. Jetzt mehr erfahren!
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartnumberformat/islinkedtosource/
 ---
 ## ChartNumberFormat.IsLinkedToSource property
 
-Gibt an, ob der Formatcode mit einer Quellzelle verknüpft ist. Der Standardwert ist true.
+Gibt an, ob der Formatcode mit einer Quellzelle verknüpft ist. Der Standardwert ist „true“.
 
 ```csharp
 public bool IsLinkedToSource { get; set; }
@@ -34,16 +34,16 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Dem Diagramm eine benutzerdefinierte Reihe mit Kategorien für die X-Achse hinzufügen,
- // und große jeweilige numerische Werte für die Y-Achse.
+// Fügen Sie dem Diagramm eine benutzerdefinierte Reihe mit Kategorien für die X-Achse hinzu,
+    // und große entsprechende numerische Werte für die Y-Achse.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Stellen Sie das Zahlenformat der Y-Achsen-Teilstrichbeschriftungen so ein, dass Ziffern nicht mit Kommas gruppiert werden.
+    // Legen Sie das Zahlenformat der Teilstrichbeschriftungen der Y-Achse so fest, dass Ziffern nicht durch Kommas gruppiert werden.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Dieses Flag kann den obigen Wert überschreiben und das Zahlenformat aus der Quellzelle ziehen.
+// Dieses Flag kann den obigen Wert überschreiben und das Zahlenformat aus der Quellzelle übernehmen.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

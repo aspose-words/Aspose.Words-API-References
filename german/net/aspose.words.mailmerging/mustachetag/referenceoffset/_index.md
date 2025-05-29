@@ -3,14 +3,14 @@ title: MustacheTag.ReferenceOffset
 linktitle: ReferenceOffset
 articleTitle: ReferenceOffset
 second_title: Aspose.Words für .NET
-description: MustacheTag ReferenceOffset eigendom. Ruft die nullbasierte Startposition des Tags ab dem Anfang abReferenceRun  in C#.
+description: Entdecken Sie die MustacheTag ReferenceOffset-Eigenschaft, die die nullbasierte Startposition von Tags in Ihrem ReferenceRun für eine präzise Datenverwaltung anzeigt.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/mustachetag/referenceoffset/
 ---
 ## MustacheTag.ReferenceOffset property
 
-Ruft die nullbasierte Startposition des Tags ab dem Anfang ab[`ReferenceRun`](../referencerun/) .
+Ruft die nullbasierte Startposition des Tags vom Anfang des[`ReferenceRun`](../referencerun/) .
 
 ```csharp
 public int ReferenceOffset { get; }
@@ -18,7 +18,7 @@ public int ReferenceOffset { get; }
 
 ## Beispiele
 
-Zeigt, wie mit den Moustache-Tags gearbeitet wird.
+Zeigt, wie mit den Mustache-Tags gearbeitet wird.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

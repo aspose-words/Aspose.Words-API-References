@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words für .NET
-description: NodeRendererBase RenderToScale methode. Rendert die Form in eineGraphics Objekt in einem bestimmten Maßstab in C#.
+description: Entdecken Sie die RenderToScale-Methode von NodeRendererBase – rendern Sie Formen effizient in Grafikobjekte in jedem Maßstab für eine verbesserte visuelle Ausgabe.
 type: docs
 weight: 70
 url: /de/net/aspose.words.rendering/noderendererbase/rendertoscale/
 ---
 ## NodeRendererBase.RenderToScale method
 
-Rendert die Form in eineGraphics Objekt in einem bestimmten Maßstab.
+Rendert die Form in einGraphics Objekt auf einen angegebenen Maßstab.
 
 ```csharp
 public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
@@ -18,10 +18,10 @@ public SizeF RenderToScale(Graphics graphics, float x, float y, float scale)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| graphics | Graphics | Das Objekt, zu dem gerendert werden soll. |
+| graphics | Graphics | Das Objekt, in das gerendert werden soll. |
 | x | Single | Die X-Koordinate (in Welteinheiten) der oberen linken Ecke der gerenderten Form. |
 | y | Single | Die Y-Koordinate (in Welteinheiten) der oberen linken Ecke der gerenderten Form. |
-| scale | Single | Der Maßstab zum Rendern der Form (1,0 ist 100 %). |
+| scale | Single | Der Maßstab für die Darstellung der Form (1,0 ist 100 %). |
 
 ### Rückgabewert
 
@@ -29,7 +29,7 @@ Die Breite und Höhe (in Welteinheiten) der gerenderten Form.
 
 ## Beispiele
 
-Zeigt, wie eine Form mit einem Grafikobjekt gerendert und mithilfe eines Windows Forms angezeigt wird.
+Zeigt, wie eine Form mit einem Grafikobjekt gerendert und mithilfe eines Windows-Formulars angezeigt wird.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -39,7 +39,7 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Im Folgenden finden Sie zwei Möglichkeiten, die Klasse „ShapeRenderer“ zum Rendern einer Form in ein Grafikobjekt zu verwenden.
+    // Unten sind zwei Möglichkeiten aufgeführt, wie Sie mit der Klasse „ShapeRenderer“ eine Form in ein Grafikobjekt rendern können.
     // 1 – Erstellen Sie eine Form mit einem Diagramm und rendern Sie sie in einem bestimmten Maßstab.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
@@ -51,7 +51,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 – Erstellen Sie eine Formgruppe und rendern Sie sie auf eine bestimmte Größe.
+    // 2 – Erstellen Sie eine Formgruppe und rendern Sie sie in einer bestimmten Größe.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);

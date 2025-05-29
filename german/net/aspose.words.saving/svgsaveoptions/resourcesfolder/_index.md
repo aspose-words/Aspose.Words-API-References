@@ -3,14 +3,14 @@ title: SvgSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
 articleTitle: ResourcesFolder
 second_title: Aspose.Words für .NET
-description: SvgSaveOptions ResourcesFolder eigendom. Gibt den physischen Ordner an in dem Ressourcen Bilder gespeichert werden wenn ein Dokument in das SVGFormat exportiert wird. Standard istNull  in C#.
+description: Erfahren Sie, wie Sie den ResourcesFolder in SvgSaveOptions für eine effiziente Bildspeicherung beim Exportieren von Dokumenten ins SVG-Format festlegen. Optimieren Sie noch heute Ihren Workflow!
 type: docs
-weight: 50
+weight: 80
 url: /de/net/aspose.words.saving/svgsaveoptions/resourcesfolder/
 ---
 ## SvgSaveOptions.ResourcesFolder property
 
-Gibt den physischen Ordner an, in dem Ressourcen (Bilder) gespeichert werden, wenn ein Dokument in das SVG-Format exportiert wird. Standard ist`Null` .
+Gibt den physischen Ordner an, in dem Ressourcen (Bilder) beim Exportieren eines Dokuments in das SVG-Format gespeichert werden. Standard ist`null` .
 
 ```csharp
 public string ResourcesFolder { get; set; }
@@ -18,13 +18,13 @@ public string ResourcesFolder { get; set; }
 
 ## Bemerkungen
 
-Hat nur Wirkung, wenn[`ExportEmbeddedImages`](../exportembeddedimages/) Eigentum ist`FALSCH`.
+Wirkt nur, wenn[`ExportEmbeddedImages`](../exportembeddedimages/) Eigentum ist`FALSCH`.
 
-Wenn Sie a speichern[`Document`](../../../aspose.words/document/) Im SVG-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.`ResourcesFolder` Mit können Sie angeben, wo die Bilder gespeichert werden[`ResourcesFolderAlias`](../resourcesfolderalias/) ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
+Wenn Sie eine[`Document`](../../../aspose.words/document/) Im SVG-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.`ResourcesFolder` ermöglicht Ihnen, festzulegen, wo die Bilder gespeichert werden und[`ResourcesFolderAlias`](../resourcesfolderalias/) ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
-Wenn Sie ein Dokument in einer Datei speichern und einen Dateinamen angeben, speichert Aspose.Words standardmäßig die -Bilder im selben Ordner, in dem die Dokumentdatei gespeichert ist. Verwenden`ResourcesFolder` , um dieses Verhalten zu überschreiben.
+Wenn Sie ein Dokument in einer Datei speichern und einen Dateinamen angeben, speichert Aspose.Words die -Bilder standardmäßig im selben Ordner wie die Dokumentdatei. Verwenden Sie`ResourcesFolder` , um dieses Verhalten zu überschreiben.
 
-Wenn Sie ein Dokument in einem Stream speichern, verfügt Aspose.Words nicht über einen Ordner zum Speichern der Bilder, , muss die Bilder aber dennoch irgendwo speichern. In diesem Fall müssen Sie einen zugänglichen Ordner im angeben`ResourcesFolder` Eigentum
+Wenn Sie ein Dokument in einem Stream speichern, verfügt Aspose.Words nicht über einen Ordner, in dem die Bilder gespeichert werden können, , muss die Bilder aber trotzdem irgendwo speichern. In diesem Fall müssen Sie einen zugänglichen Ordner in der`ResourcesFolder` Eigentum
 
 ## Beispiele
 
@@ -52,7 +52,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt die URIs der darin enthaltenen Ressourcen, während sie in .svg konvertiert werden.
+/// Zählt und druckt URIs der enthaltenen Ressourcen, wenn sie in .svg konvertiert werden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

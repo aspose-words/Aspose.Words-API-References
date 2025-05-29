@@ -3,9 +3,9 @@ title: FieldAutoNumLgl Class
 linktitle: FieldAutoNumLgl
 articleTitle: FieldAutoNumLgl
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldAutoNumLgl klas. Implementiert das AUTONUMLGLFeld in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.FieldAutoNumLgl für die nahtlose Implementierung von AUTONUMLGL-Feldern und verbessern Sie die Dokumentautomatisierung und -formatierung.
 type: docs
-weight: 1590
+weight: 2000
 url: /de/net/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class
@@ -30,13 +30,13 @@ public class FieldAutoNumLgl : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Erhält eine[`FieldFormat`](../fieldformat/)Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (das Ergebnis sollte nicht neu berechnet werden). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [RemoveTrailingPeriod](../../aspose.words.fields/fieldautonumlgl/removetrailingperiod/) { get; set; } | Ruft ab oder legt fest, ob die Zahl ohne nachgestellten Punkt angezeigt werden soll. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
+| [RemoveTrailingPeriod](../../aspose.words.fields/fieldautonumlgl/removetrailingperiod/) { get; set; } | Ruft ab oder legt fest, ob die Zahl ohne abschließenden Punkt angezeigt werden soll. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab oder legt ihn fest, der zwischen Feldtrennzeichen und Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`null` . |
 | [SeparatorCharacter](../../aspose.words.fields/fieldautonumlgl/separatorcharacter/) { get; set; } | Ruft das zu verwendende Trennzeichen ab oder legt es fest. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
@@ -45,16 +45,16 @@ public class FieldAutoNumLgl : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern werden einbezogen. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt die Feldverknüpfung aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ## Bemerkungen
 
-Fügt eine automatische Zahl im legalen Format ein.
+Fügt eine automatische Nummer im legalen Format ein.
 
 ## Beispiele
 
@@ -69,41 +69,41 @@ public void FieldAutoNumLgl()
     const string fillerText = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +
                               "\nUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ";
 
-    // AUTONUMLGL-Felder zeigen eine Zahl an, die bei jedem AUTONUMLGL-Feld innerhalb seiner aktuellen Überschriftenebene erhöht wird.
-    // Diese Felder führen eine separate Zählung für jede Überschriftenebene,
-     // und jedes Feld zeigt auch die AUTONUMLGL-Feldanzahl für alle Überschriftenebenen unterhalb seiner eigenen an.
-    // Durch Ändern der Anzahl für eine Überschriftenebene werden die Anzahlen für alle Ebenen über dieser Ebene auf 1 zurückgesetzt.
+    // AUTONUMLGL-Felder zeigen eine Zahl an, die bei jedem AUTONUMLGL-Feld innerhalb der aktuellen Überschriftenebene erhöht wird.
+    // Diese Felder verwalten eine separate Zählung für jede Überschriftenebene,
+        // und jedes Feld zeigt auch die AUTONUMLGL-Feldanzahl für alle Überschriftenebenen unter seiner eigenen an.
+    // Wenn Sie die Anzahl für eine Überschriftenebene ändern, werden die Anzahlen für alle Ebenen über dieser Ebene auf 1 zurückgesetzt.
     // Dadurch können wir unser Dokument in Form einer Gliederungsliste organisieren.
-    // Dies ist das erste AUTONUMLGL-Feld auf der Überschriftenebene 1, das „1“ anzeigt. im Dokument.
+    // Dies ist das erste AUTONUMLGL-Feld auf der Überschriftenebene 1, das im Dokument „1.“ anzeigt.
     InsertNumberedClause(builder, "\tHeading 1", fillerText, StyleIdentifier.Heading1);
 
-    // Dies ist das zweite AUTONUMLGL-Feld mit der Überschriftenebene 1, daher wird „2“ angezeigt.
+    // Dies ist das zweite AUTONUMLGL-Feld auf der Überschriftenebene 1 und zeigt daher „2.“ an.
     InsertNumberedClause(builder, "\tHeading 2", fillerText, StyleIdentifier.Heading1);
 
-    // Dies ist das erste AUTONUMLGL-Feld auf einer Überschriftenebene von 2,
-    // und der AUTONUMLGL-Zähler für die Überschriftenebene darunter ist „2“, daher wird „2.1“ angezeigt.
+    // Dies ist das erste AUTONUMLGL-Feld auf Überschriftenebene 2,
+    // und der AUTONUMLGL-Zähler für die Überschriftenebene darunter ist „2“, daher wird „2.1.“ angezeigt.
     InsertNumberedClause(builder, "\tHeading 3", fillerText, StyleIdentifier.Heading2);
 
-     // Dies ist das erste AUTONUMLGL-Feld auf der Überschriftenebene 3.
-    // Funktioniert auf die gleiche Weise wie das Feld oben und zeigt „2.1.1.“ an.
+        // Dies ist das erste AUTONUMLGL-Feld auf Überschriftenebene 3.
+    // Funktioniert auf die gleiche Weise wie das Feld oben, zeigt aber „2.1.1.“ an.
     InsertNumberedClause(builder, "\tHeading 4", fillerText, StyleIdentifier.Heading3);
 
-    // Dieses Feld hat eine Überschriftenebene von 2 und sein entsprechender AUTONUMLGL-Zähler liegt bei 2, sodass das Feld „2.2“ anzeigt.
+    // Dieses Feld befindet sich auf der Überschriftenebene 2 und sein entsprechender AUTONUMLGL-Zähler beträgt 2, daher wird im Feld „2.2.“ angezeigt.
     InsertNumberedClause(builder, "\tHeading 5", fillerText, StyleIdentifier.Heading2);
 
-    // Erhöhen des AUTONUMLGL-Zählers für eine Überschriftenebene unterhalb dieser
-    // hat die Zählung für diese Ebene zurückgesetzt, sodass in diesem Feld „2.2.1“ angezeigt wird.
+    // Inkrementieren des AUTONUMLGL-Zählers für eine Überschriftenebene unterhalb dieser
+    // hat den Zähler für diese Ebene zurückgesetzt, sodass in diesem Feld „2.2.1.“ angezeigt wird.
     InsertNumberedClause(builder, "\tHeading 6", fillerText, StyleIdentifier.Heading3);
 
-    foreach (FieldAutoNumLgl field in doc.Range.Fields.Where(f => f.Type == FieldType.FieldAutoNumLegal))
+    foreach (FieldAutoNumLgl field in doc.Range.Fields.Where(f => f.Type == FieldType.FieldAutoNumLegal).ToList())
     {
-        // Das Trennzeichen, das im Feldergebnis direkt nach der Zahl erscheint,
+        // Das Trennzeichen, das im Feldergebnis unmittelbar nach der Zahl erscheint,
         // ist standardmäßig ein Punkt. Wenn wir diese Eigenschaft null lassen,
-        // Unser letztes AUTONUMLGL-Feld zeigt „2.2.1“ an. im Dokument.
+        // Unser letztes AUTONUMLGL-Feld zeigt im Dokument „2.2.1.“ an.
         Assert.IsNull(field.SeparatorCharacter);
 
-        // Ein benutzerdefiniertes Trennzeichen festlegen und den abschließenden Punkt entfernen
-        // ändert das Erscheinungsbild dieses Felds von „2.2.1.“ auf „2:2:1“.
+        // Festlegen eines benutzerdefinierten Trennzeichens und Entfernen des abschließenden Punkts
+        // ändert das Erscheinungsbild dieses Feldes von „2.2.1.“ in „2:2:1“.
         // Wir werden dies auf alle Felder anwenden, die wir erstellt haben.
         field.SeparatorCharacter = ":";
         field.RemoveTrailingPeriod = true;
@@ -114,7 +114,7 @@ public void FieldAutoNumLgl()
 }
 
 /// <summary>
-/// Verwendet einen Dokument-Builder, um eine durch ein AUTONUMLGL-Feld nummerierte Klausel einzufügen.
+/// Verwendet einen Dokumentgenerator, um eine durch ein AUTONUMLGL-Feld nummerierte Klausel einzufügen.
 /// </summary>
 private static void InsertNumberedClause(DocumentBuilder builder, string heading, string contents, StyleIdentifier headingStyle)
 {
@@ -122,8 +122,8 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
     builder.CurrentParagraph.ParagraphFormat.StyleIdentifier = headingStyle;
     builder.Writeln(heading);
 
-    // Dieser Text gehört zum darüber liegenden Auto-Num-Rechtsfeld.
-    // Es wird ausgeblendet, wenn wir in Microsoft Word auf den Pfeil neben dem entsprechenden AUTONUMLGL-Feld klicken.
+    // Dieser Text gehört zum darüber liegenden Autonum-Rechtsfeld.
+    // Es wird reduziert, wenn wir in Microsoft Word auf den Pfeil neben dem entsprechenden AUTONUMLGL-Feld klicken.
     builder.CurrentParagraph.ParagraphFormat.StyleIdentifier = StyleIdentifier.BodyText;
     builder.Writeln(contents);
 }

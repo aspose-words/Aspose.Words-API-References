@@ -3,7 +3,7 @@ title: FontFallbackSettings.BuildAutomatic
 linktitle: BuildAutomatic
 articleTitle: BuildAutomatic
 second_title: Aspose.Words für .NET
-description: FontFallbackSettings BuildAutomatic methode. Erstellt automatisch die FallbackEinstellungen durch Scannen verfügbarer Schriftarten in C#.
+description: Entdecken Sie die BuildAutomatic-Methode „FontFallbackSettings“, die mühelos Schriftarten scannt, um optimale Fallback-Einstellungen für verbesserte Typografie zu erstellen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
@@ -18,7 +18,7 @@ public void BuildAutomatic()
 
 ## Bemerkungen
 
-Diese Methode führt möglicherweise zu nicht optimalen Fallback-Einstellungen. Schriftarten werden von überprüft[ Unicode-Zeichenbereich](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) Felder und nicht durch das tatsächliche Vorhandensein von Glyphen. Außerdem werden Unicode-Bereiche einzeln überprüft und mehrere Bereiche, die sich auf eine einzelne Sprache/ein einzelnes Skript beziehen, können unterschiedliche Fallback-Schriftarten verwenden.
+Diese Methode kann zu nicht optimalen Fallback-Einstellungen führen. Schriftarten werden überprüft durch[ Unicode-Zeichenbereich](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) Felder und nicht durch das tatsächliche Vorhandensein von Glyphen. Auch Unicode-Bereiche werden einzeln geprüft und mehrere Bereiche, die sich auf eine einzelne Sprache/ein einzelnes Skript beziehen, können unterschiedliche Ersatzschriftarten verwenden.
 
 ## Beispiele
 
@@ -31,28 +31,28 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Konfigurieren Sie unsere Schriftarteinstellungen so, dass Schriftarten nur aus dem Ordner „MyFonts“ stammen.
+// Konfigurieren Sie unsere Schriftarteinstellungen so, dass Schriftarten nur aus dem Ordner „MyFonts“ bezogen werden.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Durch Aufrufen der Methode „BuildAutomatic“ wird ein Fallback-Schema generiert
-// verteilt zugängliche Schriftarten auf möglichst viele Unicode-Zeichencodes.
-// In unserem Fall hat es nur Zugriff auf die wenigen Schriftarten im Ordner „MyFonts“.
+// Durch Aufrufen der Methode „BuildAutomatic“ wird ein Fallback-Schema generiert, das
+// verteilt zugängliche Schriftarten auf so viele Unicode-Zeichencodes wie möglich.
+// In unserem Fall hat es nur Zugriff auf die Handvoll Schriftarten im Ordner „MyFonts“.
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
-// Wir können auch ein benutzerdefiniertes Ersetzungsschema aus einer Datei wie dieser laden.
-// Dieses Schema wendet die Schriftart „AllegroOpen“ auf die Unicode-Blöcke „0000-00ff“ und die Schriftart „AllegroOpen“ auf die Unicode-Blöcke „0100-024f“ an.
-// und die Schriftart „M+ 2m“ in allen anderen Bereichen, die andere Schriftarten im Schema nicht abdecken.
+// Wir können auch ein benutzerdefiniertes Substitutionsschema aus einer Datei wie dieser laden.
+// Dieses Schema wendet die Schriftart "AllegroOpen" auf die Unicode-Blöcke "0000-00ff" an, die Schriftart "AllegroOpen" auf die Blöcke "0100-024f",
+// und die Schriftart „M+ 2m“ in allen anderen Bereichen, die von anderen Schriftarten im Schema nicht abgedeckt werden.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
-// Erstellen Sie einen Dokument-Builder und legen Sie seine Schriftart auf eine fest, die in keiner unserer Quellen vorhanden ist.
+// Erstellen Sie einen Dokumentgenerator und legen Sie seine Schriftart auf eine fest, die in keiner unserer Quellen vorhanden ist.
 // Unsere Schriftarteinstellungen rufen das Fallback-Schema für Zeichen auf, die wir mit der nicht verfügbaren Schriftart eingeben.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
 // Verwenden Sie den Builder, um jedes Unicode-Zeichen von 0x0021 bis 0x052F zu drucken.
-// mit beschreibenden Zeilen, die Unicode-Blöcke unterteilen, die wir in unserem benutzerdefinierten Schriftart-Fallback-Schema definiert haben.
+// mit beschreibenden Linien, die die Unicode-Blöcke trennen, die wir in unserem benutzerdefinierten Schriftart-Fallback-Schema definiert haben.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

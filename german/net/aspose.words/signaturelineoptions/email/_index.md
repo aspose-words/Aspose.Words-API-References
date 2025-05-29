@@ -3,14 +3,14 @@ title: SignatureLineOptions.Email
 linktitle: Email
 articleTitle: Email
 second_title: Aspose.Words für .NET
-description: SignatureLineOptions Email eigendom. Ruft die EMailAdresse des vorgeschlagenen Unterzeichners ab oder legt diese fest. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
+description: Verwalten Sie vorgeschlagene E-Mail-Adressen für Unterzeichner mühelos mit SignatureLineOptions. Optimieren Sie Ihren E-Mail-Workflow mit anpassbaren Optionen für eine reibungslose Kommunikation.
 type: docs
 weight: 40
 url: /de/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Ruft die E-Mail-Adresse des vorgeschlagenen Unterzeichners ab oder legt diese fest. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
+Ruft die E-Mail-Adresse des vorgeschlagenen Unterzeichners ab oder legt sie fest. Der Standardwert für diese Eigenschaft ist**leere Zeichenfolge** (Empty ).
 
 ```csharp
 public string Email { get; set; }

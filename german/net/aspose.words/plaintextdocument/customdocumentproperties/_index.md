@@ -3,7 +3,7 @@ title: PlainTextDocument.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words für .NET
-description: PlainTextDocument CustomDocumentProperties eigendom. Ruft abCustomDocumentProperties des Dokuments in C#.
+description: Entdecken Sie, wie Sie in PlainTextDocument auf CustomDocumentProperties zugreifen, um die Dokumentenverwaltung und -anpassung zu verbessern. Entfesseln Sie das Potenzial Ihres Dokuments!
 type: docs
 weight: 30
 url: /de/net/aspose.words/plaintextdocument/customdocumentproperties/
@@ -18,7 +18,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie den Inhalt eines Microsoft Word-Dokuments im Klartext laden und dann auf die benutzerdefinierten Eigenschaften des Originaldokuments zugreifen.
+Zeigt, wie der Inhalt eines Microsoft Word-Dokuments im Klartext geladen und dann auf die benutzerdefinierten Eigenschaften des Originaldokuments zugegriffen wird.
 
 ```csharp
 Document doc = new Document();

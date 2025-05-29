@@ -3,7 +3,7 @@ title: RevisionGroup.RevisionType
 linktitle: RevisionType
 articleTitle: RevisionType
 second_title: Aspose.Words für .NET
-description: RevisionGroup RevisionType eigendom. Ruft den Typ der in dieser Gruppe enthaltenen Revisionen ab in C#.
+description: Entdecken Sie die Eigenschaft RevisionGroup RevisionType, um die Revisionstypen in Ihrem Projekt einfach zu identifizieren und zu verwalten. Optimieren Sie Ihren Workflow noch heute!
 type: docs
 weight: 20
 url: /de/net/aspose.words/revisiongroup/revisiontype/

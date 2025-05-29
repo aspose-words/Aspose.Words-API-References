@@ -3,14 +3,14 @@ title: Shading.BackgroundPatternColor
 linktitle: BackgroundPatternColor
 articleTitle: BackgroundPatternColor
 second_title: Aspose.Words für .NET
-description: Shading BackgroundPatternColor eigendom. Ruft die Farbe ab die auf den Hintergrund des angewendet wird oder legt diese festShading Objekt in C#.
+description: Entdecken Sie die Shading-Eigenschaft „BackgroundPatternColor“, um die Hintergrundfarbe Ihres Shading-Objekts anzupassen und so die visuelle Attraktivität Ihres Designs zu steigern.
 type: docs
 weight: 10
 url: /de/net/aspose.words/shading/backgroundpatterncolor/
 ---
 ## Shading.BackgroundPatternColor property
 
-Ruft die Farbe ab, die auf den Hintergrund des angewendet wird, oder legt diese fest[`Shading`](../) Objekt.
+Ruft die Farbe ab oder legt sie fest, die auf den Hintergrund des[`Shading`](../) Objekt.
 
 ```csharp
 public Color BackgroundPatternColor { get; set; }
@@ -18,7 +18,7 @@ public Color BackgroundPatternColor { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
+Zeigt, wie Sie Text mit Rahmen und Schattierungen verzieren.
 
 ```csharp
 Document doc = new Document();

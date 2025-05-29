@@ -3,7 +3,7 @@ title: FieldCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: FieldCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück in C#.
+description: Entdecken Sie die Methode „FieldCollection GetEnumerator“ – geben Sie effizient ein Enumerator-Objekt zurück und verbessern Sie Ihre Datenverarbeitungsfunktionen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldcollection/getenumerator/
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

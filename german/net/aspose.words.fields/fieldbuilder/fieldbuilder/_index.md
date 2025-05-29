@@ -3,14 +3,14 @@ title: FieldBuilder
 linktitle: FieldBuilder
 articleTitle: FieldBuilder
 second_title: Aspose.Words für .NET
-description: FieldBuilder constructeur. Initialisiert eine Instanz vonFieldBuilder Klasse in C#.
+description: Entdecken Sie FieldBuilder, das leistungsstarke Tool zum mühelosen Erstellen und Verwalten von Feldern in Ihren Projekten. Optimieren Sie noch heute Ihren Workflow!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
 ## FieldBuilder constructor
 
-Initialisiert eine Instanz von[`FieldBuilder`](../) Klasse.
+Initialisiert eine Instanz des[`FieldBuilder`](../) Klasse.
 
 ```csharp
 public FieldBuilder(FieldType fieldType)
@@ -22,18 +22,18 @@ public FieldBuilder(FieldType fieldType)
 
 ## Beispiele
 
-Zeigt, wie man ein Feld mit einem Feld-Builder erstellt und einfügt.
+Zeigt, wie Sie mit einem Feldgenerator ein Feld erstellen und einfügen.
 
 ```csharp
 Document doc = new Document();
 
-// Eine bequeme Möglichkeit, Textinhalte zu einem Dokument hinzuzufügen, ist die Verwendung eines Document Builders.
+// Eine bequeme Möglichkeit, einem Dokument Textinhalte hinzuzufügen, ist die Verwendung eines Dokumentgenerators.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// Felder haben ihren Builder, mit dem wir Stück für Stück einen Feldcode erstellen können.
-// In diesem Fall erstellen wir ein BARCODE-Feld, das eine US-Postleitzahl darstellt.
-// und dann vor einem Run einfügen.
+// Felder haben ihren Builder, mit dem wir Stück für Stück einen Feldcode konstruieren können.
+// In diesem Fall erstellen wir ein BARCODE-Feld, das eine US-Postleitzahl darstellt,
+// und fügen Sie es dann vor einem Run ein.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");
 fieldBuilder.AddSwitch("\\f", "A");

@@ -3,7 +3,7 @@ title: ListLevel.CreatePictureBullet
 linktitle: CreatePictureBullet
 articleTitle: CreatePictureBullet
 second_title: Aspose.Words für .NET
-description: ListLevel CreatePictureBullet methode. Erstellt eine Bildaufzählungsform für die aktuelle Listenebene in C#.
+description: Entdecken Sie die Methode „ListLevel CreatePictureBullet“, um Ihre Listen mühelos mit benutzerdefinierten Bildaufzählungszeichen zu verbessern und so für optische Attraktivität und Übersichtlichkeit zu sorgen.
 type: docs
 weight: 150
 url: /de/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -18,11 +18,11 @@ public void CreatePictureBullet()
 
 ## Bemerkungen
 
-Bitte beachten Sie,[`NumberStyle`](../numberstyle/) wird eingestelltBullet and [`NumberFormat`](../numberformat/) auf „\xF0B7“, um Bildaufzählungszeichen richtig anzuzeigen. Das Bild mit dem roten Kreuz wird beim Erstellen als Bildaufzählungsbild festgelegt. Um es zu ändern, verwenden Sie bitte[`ImageData`](../imagedata/).
+Bitte beachten Sie,[`NumberStyle`](../numberstyle/) wird eingestellt aufBullet und [`NumberFormat`](../numberformat/) zu "\xF0B7", um Bildaufzählungszeichen richtig anzuzeigen. Das rote Kreuzbild wird beim Erstellen als Bildaufzählungszeichen festgelegt. Um es zu ändern, verwenden Sie bitte[`ImageData`](../imagedata/).
 
 ## Beispiele
 
-Zeigt, wie man ein benutzerdefiniertes Bildsymbol für Listenelementbezeichnungen festlegt.
+Zeigt, wie ein benutzerdefiniertes Bildsymbol für Listenelementbeschriftungen festgelegt wird.
 
 ```csharp
 Document doc = new Document();

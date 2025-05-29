@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions ImagesFolderAlias eigendom. Gibt den Namen des Ordners an der zum Erstellen von BildURIs verwendet wird die in ein HTMLDokument geschrieben werden. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie die Eigenschaft „HtmlSaveOptions ImagesFolderAlias“ zur einfachen Verwaltung von Bild-URIs in Ihren HTML-Dokumenten. Vereinfachen Sie Ihren Workflow mit dieser wichtigen Funktion!
 type: docs
 weight: 370
 url: /de/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
@@ -18,19 +18,19 @@ public string ImagesFolderAlias { get; set; }
 
 ## Bemerkungen
 
-Wenn Sie a speichern[`Document`](../../../aspose.words/document/) Im HTML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.[`ImagesFolder`](../imagesfolder/) Mit können Sie angeben, wo die Bilder gespeichert werden`ImagesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
+Wenn Sie eine[`Document`](../../../aspose.words/document/) Im HTML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.[`ImagesFolder`](../imagesfolder/) ermöglicht Ihnen, festzulegen, wo die Bilder gespeichert werden und`ImagesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
-Wenn`ImagesFolderAlias` kein leerer String ist, wird der Bild-URI in HTML geschrieben angezeigtImagesFolderAlias + &lt;Bilddateiname&gt;.
+Wenn`ImagesFolderAlias` ist keine leere Zeichenfolge, dann wird die Bild-URI geschrieben zu HTML wirdImagesFolderAlias + &lt;Bilddateiname&gt;.
 
-Wenn`ImagesFolderAlias` eine leere Zeichenfolge ist, wird der Bild-URI in HTML geschriebenImagesFolder + &lt;Bilddateiname&gt;.
+Wenn`ImagesFolderAlias`ist eine leere Zeichenfolge, dann wird die Bild-URI geschrieben zu HTML wirdImagesFolder + &lt;Bilddateiname&gt;.
 
-Wenn`ImagesFolderAlias`ist eingestellt auf '.' (Punkt), dann wird der Bilddateiname unabhängig von anderen Optionen ohne Pfad in HTML geschrieben.
+Wenn`ImagesFolderAlias` auf „.“ (Punkt) gesetzt ist, wird der Bilddateiname ohne Pfad in HTML geschrieben, unabhängig von anderen Optionen.
 
-Eine alternative Möglichkeit, den Namen des Ordners anzugeben, um Bild-URIs zu erstellen, ist die Verwendung[`ResourceFolderAlias`](../resourcefolderalias/).
+Alternativ können Sie den Namen des Ordners angeben, um Bild-URIs zu erstellen. Verwenden Sie dazu[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ## Beispiele
 
-Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments in HTML erstellt.
+Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments im HTML-Format erstellt.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

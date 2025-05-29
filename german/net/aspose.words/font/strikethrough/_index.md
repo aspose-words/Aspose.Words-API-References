@@ -3,14 +3,14 @@ title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
 second_title: Aspose.Words für .NET
-description: Font StrikeThrough eigendom. True wenn die Schriftart als durchgestrichener Text formatiert ist in C#.
+description: Entdecken Sie die Schrift-Durchstreichungseigenschaft. Formatieren Sie Text einfach durchgestrichen für klare visuelle Hervorhebung in Ihren Designs. Verbessern Sie noch heute die Lesbarkeit!
 type: docs
-weight: 390
+weight: 400
 url: /de/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property
 
-True, wenn die Schriftart als durchgestrichener Text formatiert ist.
+Wahr, wenn die Schriftart als durchgestrichener Text formatiert ist.
 
 ```csharp
 public bool StrikeThrough { get; set; }
@@ -18,7 +18,7 @@ public bool StrikeThrough { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man dem Text eine durchgestrichene Linie hinzufügt.
+Zeigt, wie Sie einem Text eine durchgestrichene Zeile hinzufügen.
 
 ```csharp
 Document doc = new Document();

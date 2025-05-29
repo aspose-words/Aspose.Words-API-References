@@ -3,14 +3,14 @@ title: BorderCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: BorderCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller Grenzen in der Sammlung verwendet werden kann in C#.
+description: Entdecken Sie die BorderCollection GetEnumerator-Methode, um einfach durch alle Grenzen zu iterieren und so Ihre Codierungseffizienz und Sammlungsverwaltung zu verbessern.
 type: docs
 weight: 160
 url: /de/net/aspose.words/bordercollection/getenumerator/
 ---
 ## BorderCollection.GetEnumerator method
 
-Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Grenzen in der Sammlung verwendet werden kann.
+Gibt ein Enumeratorobjekt zurück, mit dem alle Grenzen in der Sammlung durchlaufen werden können.
 
 ```csharp
 public IEnumerator<Border> GetEnumerator()
@@ -38,7 +38,7 @@ using (IEnumerator<Border> enumerator = borders.GetEnumerator())
     }
 }
 
-// Einen Absatz einfügen. Unsere Randeinstellungen bestimmen das Aussehen des Randes.
+// Fügen Sie einen Absatz ein. Unsere Rahmeneinstellungen bestimmen das Erscheinungsbild des Rahmens.
 builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");

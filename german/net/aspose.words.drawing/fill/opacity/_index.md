@@ -3,14 +3,14 @@ title: Fill.Opacity
 linktitle: Opacity
 articleTitle: Opacity
 second_title: Aspose.Words für .NET
-description: Fill Opacity eigendom. Ruft den Grad der Deckkraft der angegebenen Füllung ab oder legt diesen als Wert zwischen 00 klar und 10 undurchsichtig fest in C#.
+description: Steuern Sie die Transparenz Ihres Designs mit der Eigenschaft „Füllopazität“ und passen Sie die Klarheit von völlig klar bis völlig undurchsichtig an, um eine beeindruckende Optik zu erzielen.
 type: docs
-weight: 140
+weight: 150
 url: /de/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
 
-Ruft den Grad der Deckkraft der angegebenen Füllung ab oder legt diesen als Wert zwischen 0,0 (klar) und 1,0 (undurchsichtig) fest.
+Ruft den Grad der Deckkraft der angegebenen Füllung als Wert zwischen 0,0 (klar) und 1,0 (undurchsichtig) ab oder legt ihn fest.
 
 ```csharp
 public double Opacity { get; set; }
@@ -28,7 +28,7 @@ Zeigt, wie eine Form mit einer Volltonfarbe gefüllt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Schreiben Sie etwas Text und bedecken Sie ihn dann mit einer schwebenden Form.
+// Schreiben Sie einen Text und bedecken Sie ihn dann mit einer schwebenden Form.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
@@ -41,7 +41,7 @@ shape.StrokeColor = Color.CadetBlue;
 // Verwenden Sie die Eigenschaft „FillColor“, um die Farbe des Innenbereichs der Form festzulegen.
 shape.FillColor = Color.LightBlue;
 
-// Die Eigenschaft „Opacity“ bestimmt, wie transparent die Farbe auf einer Skala von 0-1 ist,
+// Die Eigenschaft „Deckkraft“ bestimmt, wie transparent die Farbe auf einer Skala von 0 bis 1 ist.
 // wobei 1 völlig undurchsichtig und 0 unsichtbar ist.
 // Die Formfüllung ist standardmäßig vollständig undurchsichtig, sodass wir den Text, über dem sich diese Form befindet, nicht sehen können.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);

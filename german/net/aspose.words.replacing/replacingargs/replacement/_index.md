@@ -3,14 +3,14 @@ title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
 second_title: Aspose.Words für .NET
-description: ReplacingArgs Replacement eigendom. Ruft die Ersatzzeichenfolge ab oder legt sie fest in C#.
+description: Entdecken Sie die ReplacingArgs-Ersetzungseigenschaft, um Ihre Ersetzungszeichenfolgen einfach zu verwalten und anzupassen und so die Codierungseffizienz zu verbessern.
 type: docs
 weight: 60
 url: /de/net/aspose.words.replacing/replacingargs/replacement/
 ---
 ## ReplacingArgs.Replacement property
 
-Ruft die Ersatzzeichenfolge ab oder legt sie fest.
+Ruft die Ersetzungszeichenfolge ab oder legt sie fest.
 
 ```csharp
 public string Replacement { get; set; }
@@ -18,7 +18,7 @@ public string Replacement { get; set; }
 
 ## Beispiele
 
-Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden, während alle Ersetzungen verfolgt werden.
+Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden und dabei alle derartigen Ersetzungen nachverfolgt werden.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Replace“ vornimmt.
+    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Ersetzen“ vornimmt.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,8 +46,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Verwaltet ein Protokoll aller Textersetzungen, die durch einen Such- und Ersetzungsvorgang durchgeführt werden
-/// und notiert den Wert des ursprünglich übereinstimmenden Texts.
+/// Führt ein Protokoll über jeden Textaustausch durch eine Suchen-und-Ersetzen-Operation
+/// und notiert den Wert des ursprünglichen übereinstimmenden Textes.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {

@@ -3,7 +3,7 @@ title: ChartSeries.XValues
 linktitle: XValues
 articleTitle: XValues
 second_title: Aspose.Words für .NET
-description: ChartSeries XValues eigendom. Ruft eine Sammlung von XWerten für diese Diagrammreihe ab in C#.
+description: Entdecken Sie die ChartSeries XValues-Eigenschaft, um auf eine leistungsstarke Sammlung von X-Werten zuzugreifen und so Ihre Datenvisualisierung und -analyse zu verbessern.
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing.charts/chartseries/xvalues/
@@ -14,6 +14,41 @@ Ruft eine Sammlung von X-Werten für diese Diagrammreihe ab.
 
 ```csharp
 public ChartXValueCollection XValues { get; }
+```
+
+## Beispiele
+
+Zeigt, wie mit dem Formatcode der Diagrammdaten gearbeitet wird.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Fügen Sie ein Blasendiagramm ein.
+Shape shape = builder.InsertChart(ChartType.Bubble, 432, 252);
+Chart chart = shape.Chart;
+
+// Standardmäßig generierte Serien löschen.
+chart.Series.Clear();
+
+ChartSeries series = chart.Series.Add(
+    "Series1",
+    new double[] { 1, 1.9, 2.45, 3 },
+    new double[] { 1, -0.9, 1.82, 0 },
+    new double[] { 2, 1.1, 2.95, 2 });
+
+// Datenbeschriftungen anzeigen.
+series.HasDataLabels = true;
+series.DataLabels.ShowCategoryName = true;
+series.DataLabels.ShowValue = true;
+series.DataLabels.ShowBubbleSize = true;
+
+// Datenformatcodes festlegen.
+series.XValues.FormatCode = "#,##0.0#";
+series.YValues.FormatCode = "#,##0.0#;[Red]\\-#,##0.0#";
+series.BubbleSizes.FormatCode = "#,##0.0#";
+
+doc.Save(ArtifactsDir + "Charts.FormatCode.docx");
 ```
 
 ### Siehe auch

@@ -3,7 +3,7 @@ title: Paragraph.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: Aspose.Words für .NET
-description: Paragraph IsInsertRevision eigendom. Gibt true zurück wenn dieses Objekt in Microsoft Word eingefügt wurde während die Änderungsverfolgung aktiviert war in C#.
+description: Entdecken Sie die Absatzeigenschaft „IsInsertRevision“ in Word. Erfahren Sie, wie sie eingefügten Text während der Änderungsverfolgung identifiziert und so für effizientes Dokumentenmanagement sorgt.
 type: docs
 weight: 110
 url: /de/net/aspose.words/paragraph/isinsertrevision/
@@ -30,14 +30,14 @@ body.AppendParagraph("Paragraph 2. ");
 body.AppendParagraph("Paragraph 3. ");
 
 // Die obigen Absätze sind keine Überarbeitungen.
-// Absätze, die wir nach dem Start der Revisionsverfolgung hinzufügen, werden als „Einfüge“-Revisionen registriert.
+// Absätze, die wir nach dem Starten der Revisionsverfolgung hinzufügen, werden als „Einfügen“-Revisionen registriert.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 para = body.AppendParagraph("Paragraph 4. ");
 
 Assert.True(para.IsInsertRevision);
 
-// Absätze, die wir nach dem Start der Revisionsverfolgung entfernen, werden als „Löschen“-Revisionen registriert.
+// Absätze, die wir nach dem Starten der Revisionsverfolgung entfernen, werden als „Gelöschte“ Revisionen registriert.
 ParagraphCollection paragraphs = body.Paragraphs;
 
 Assert.AreEqual(4, paragraphs.Count);
@@ -46,8 +46,8 @@ para = paragraphs[2];
 para.Remove();
 
 // Solche Absätze bleiben bestehen, bis wir die Löschrevision entweder akzeptieren oder ablehnen.
-// Durch das Akzeptieren der Überarbeitung wird der Absatz endgültig entfernt.
-// und wenn Sie die Überarbeitung ablehnen, bleibt sie im Dokument, als ob wir sie nie gelöscht hätten.
+// Durch die Annahme der Überarbeitung wird der Absatz endgültig entfernt.
+// und wenn Sie die Revision ablehnen, bleibt sie im Dokument, als hätten wir sie nie gelöscht.
 Assert.AreEqual(4, paragraphs.Count);
 Assert.True(para.IsDeleteRevision);
 
@@ -55,7 +55,7 @@ Assert.True(para.IsDeleteRevision);
 doc.AcceptAllRevisions();
 
 Assert.AreEqual(3, paragraphs.Count);
-Assert.That(para, Is.Empty);
+Assert.AreEqual(0, para.Count);
 Assert.AreEqual(
     "Paragraph 1. \r" +
     "Paragraph 2. \r" +

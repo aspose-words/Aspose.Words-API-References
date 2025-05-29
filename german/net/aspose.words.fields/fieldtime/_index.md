@@ -3,9 +3,9 @@ title: FieldTime Class
 linktitle: FieldTime
 articleTitle: FieldTime
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldTime klas. Implementiert das TIMEFeld in C#.
+description: Entdecken Sie die Aspose.Words.Fields.FieldTime-Klasse für die nahtlose Implementierung von TIME-Feldern. Verbessern Sie Ihre Dokumentenautomatisierung mit leistungsstarken Funktionen!
 type: docs
-weight: 2500
+weight: 2910
 url: /de/net/aspose.words.fields/fieldtime/
 ---
 ## FieldTime class
@@ -30,12 +30,12 @@ public class FieldTime : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Erhält eine[`FieldFormat`](../fieldformat/)Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (das Ergebnis sollte nicht neu berechnet werden). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab oder legt ihn fest, der zwischen Feldtrennzeichen und Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
@@ -43,10 +43,10 @@ public class FieldTime : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern werden einbezogen. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt die Feldverknüpfung aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
@@ -56,7 +56,7 @@ Fügt das aktuelle Datum und die aktuelle Uhrzeit ein.
 
 ## Beispiele
 
-Zeigt, wie die aktuelle Uhrzeit mithilfe des TIME-Felds angezeigt wird.
+Zeigt, wie die aktuelle Uhrzeit mithilfe des Felds TIME angezeigt wird.
 
 ```csharp
 public void FieldTime()
@@ -74,7 +74,7 @@ public void FieldTime()
 
     Assert.AreEqual(" TIME \\@ HHmm", field.GetFieldCode());
 
-    // Wir können das Format anpassen, damit das TIME-Feld auch das Datum gemäß dem gregorianischen Kalender anzeigt.
+    // Wir können das Format anpassen, damit im Feld TIME auch das Datum gemäß dem gregorianischen Kalender angezeigt wird.
     field = InsertFieldTime(builder, "\\@ \"M/d/yyyy h mm:ss am/pm\"");
 
     Assert.AreEqual(" TIME \\@ \"M/d/yyyy h mm:ss am/pm\"", field.GetFieldCode());
@@ -83,7 +83,7 @@ public void FieldTime()
 }
 
 /// <summary>
-/// Verwenden Sie einen Document Builder, um ein TIME-Feld einzufügen, einen neuen Absatz einzufügen und das Feld zurückzugeben.
+/// Verwenden Sie einen Dokumentgenerator, um ein ZEIT-Feld einzufügen, einen neuen Absatz einzufügen und das Feld zurückzugeben.
 /// </summary>
 private static FieldTime InsertFieldTime(DocumentBuilder builder, string format)
 {

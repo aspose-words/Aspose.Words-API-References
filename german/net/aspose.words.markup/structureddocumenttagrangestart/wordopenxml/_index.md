@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart WordOpenXML eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format in C#.
+description: Entdecken Sie die StructuredDocumentTagRangeStart-Eigenschaft in WordOpenXML. Greifen Sie auf XML-Daten im FlatOpc-Format zu, um die Dokumentenverwaltung und -anpassung zu verbessern.
 type: docs
 weight: 170
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart.WordOpenXML property
 
-Ruft eine Zeichenfolge ab, die das im Knoten im enthaltene XML darstelltFlatOpc format.
+Ruft eine Zeichenfolge ab, die das XML darstellt, das im Knoten imFlatOpc format.
 
 ```csharp
 public string WordOpenXML { get; }
@@ -18,7 +18,7 @@ public string WordOpenXML { get; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -3,9 +3,9 @@ title: PhysicalFontInfo.FontFamilyName
 linktitle: FontFamilyName
 articleTitle: FontFamilyName
 second_title: Aspose.Words für .NET
-description: PhysicalFontInfo FontFamilyName eigendom. Familienname der Schriftart in C#.
+description: Entdecken Sie die PhysicalFontInfo FontFamilyName-Eigenschaft, Ihren Schlüssel zum Identifizieren und effektiven Verwenden von Schriftfamilien in Ihren Projekten.
 type: docs
-weight: 20
+weight: 30
 url: /de/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
@@ -21,7 +21,7 @@ public string FontFamilyName { get; }
 Zeigt, wie verfügbare Schriftarten aufgelistet werden.
 
 ```csharp
-// Aspose.Words so konfigurieren, dass Schriftarten aus einem benutzerdefinierten Ordner stammen, und dann jede verfügbare Schriftart drucken.
+// Konfigurieren Sie Aspose.Words so, dass Schriftarten aus einem benutzerdefinierten Ordner bezogen werden, und drucken Sie dann alle verfügbaren Schriftarten.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

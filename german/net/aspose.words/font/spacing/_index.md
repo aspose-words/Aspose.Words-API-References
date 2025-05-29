@@ -3,14 +3,14 @@ title: Font.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words für .NET
-description: Font Spacing eigendom. Gibt den Abstand in Punkt zwischen Zeichen zurück oder legt diesen fest in C#.
+description: Entdecken Sie die Schriftabstand-Eigenschaft, um den Zeichenabstand in Punkten einfach anzupassen. Verbessern Sie Lesbarkeit und Design mit präziser typografischer Kontrolle.
 type: docs
-weight: 380
+weight: 390
 url: /de/net/aspose.words/font/spacing/
 ---
 ## Font.Spacing property
 
-Gibt den Abstand (in Punkt) zwischen Zeichen zurück oder legt diesen fest.
+Gibt den Abstand (in Punkten) zwischen Zeichen zurück oder legt ihn fest.
 
 ```csharp
 public double Spacing { get; set; }
@@ -24,15 +24,15 @@ Zeigt, wie die horizontale Skalierung und der Abstand für Zeichen festgelegt we
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Text hinzufügen und Zeichenbreite auf 150 % erhöhen.
+// Textlauf hinzufügen und Zeichenbreite auf 150 % erhöhen.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// Textlauf hinzufügen und 1 Punkt zusätzlichen horizontalen Abstand zwischen jedem Zeichen hinzufügen.
+// Textlauf hinzufügen und 1pt zusätzlichen horizontalen Abstand zwischen den einzelnen Zeichen hinzufügen.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// Text hinzufügen und Zeichen um 1 Punkt näher zusammenbringen.
+// Textlauf hinzufügen und Zeichen um 1pt näher zusammenbringen.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

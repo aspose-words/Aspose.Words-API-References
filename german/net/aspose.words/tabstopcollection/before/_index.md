@@ -3,14 +3,14 @@ title: TabStopCollection.Before
 linktitle: Before
 articleTitle: Before
 second_title: Aspose.Words für .NET
-description: TabStopCollection Before methode. Ruft einen ersten Tabstopp links von der angegebenen Position ab in C#.
+description: Entdecken Sie die Methode „TabStopCollection Before“, um effizient den nächsten linken Tabstopp abzurufen und so eine nahtlose Navigation in Ihrer Anwendung zu ermöglichen.
 type: docs
 weight: 50
 url: /de/net/aspose.words/tabstopcollection/before/
 ---
 ## TabStopCollection.Before method
 
-Ruft einen ersten Tabstopp links von der angegebenen Position ab.
+Ruft einen ersten Tabulatorstopp links von der angegebenen Position ab.
 
 ```csharp
 public TabStop Before(double position)
@@ -22,15 +22,15 @@ public TabStop Before(double position)
 
 ### Rückgabewert
 
-Ein Tabstoppobjekt oder`Null` wenn kein passender Tabstopp gefunden wurde.
+Ein Tabstoppobjekt oder`null` wenn kein passender Tabulator gefunden wurde.
 
 ## Bemerkungen
 
-Überspringt Tabstopps mit[`Alignment`](../../tabstop/alignment/) einstellenBar.
+Überspringt Tabstopps mit[`Alignment`](../../tabstop/alignment/) eingestellt aufBar.
 
 ## Beispiele
 
-Zeigt, wie mit der Sammlung von Tabstopps eines Dokuments gearbeitet wird.
+Zeigt, wie mit der Tabstopp-Sammlung eines Dokuments gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 Punkte sind ein „Zoll“ auf dem Tabstopp-Lineal von Microsoft Word.
+// 72 Punkte sind ein „Zoll“ auf dem Tabstopplineal von Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -46,14 +46,14 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// Jedes „Tab“-Zeichen bringt den Cursor des Builders an die Position des nächsten Tabstopps.
+// Jedes „Tabulator“-Zeichen bringt den Cursor des Builders an die Position des nächsten Tabulatorstopps.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Jeder Absatz erhält seine Tabstopp-Sammlung, die seine Werte aus der Tabstopp-Sammlung des Document Builders klont.
+// Jeder Absatz erhält seine Tabstopp-Sammlung, die ihre Werte aus der Tabstopp-Sammlung des Dokument-Generators klont.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
@@ -61,7 +61,7 @@ Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].Paragrap
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// Wir können die Tabstopp-Sammlung eines Absatzes löschen, um zum Standard-Tabbing-Verhalten zurückzukehren.
+// Wir können die Tabstopp-Sammlung eines Absatzes löschen, um zum Standard-Tabulatorverhalten zurückzukehren.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

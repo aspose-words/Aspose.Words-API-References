@@ -3,14 +3,14 @@ title: OleFormat.SourceItem
 linktitle: SourceItem
 articleTitle: SourceItem
 second_title: Aspose.Words für .NET
-description: OleFormat SourceItem eigendom. Ruft eine Zeichenfolge ab oder legt diese fest die zur Identifizierung des Teils der Quelldatei verwendet wird der verknüpft wird in C#.
+description: Entdecken Sie die OleFormat SourceItem-Eigenschaft und identifizieren und verwalten Sie verknüpfte Teile Ihrer Quelldatei ganz einfach mit dieser wichtigen Zeichenfolgenfunktion.
 type: docs
 weight: 110
 url: /de/net/aspose.words.drawing/oleformat/sourceitem/
 ---
 ## OleFormat.SourceItem property
 
-Ruft eine Zeichenfolge ab oder legt diese fest, die zur Identifizierung des Teils der Quelldatei verwendet wird, der verknüpft wird.
+Ruft eine Zeichenfolge ab oder legt sie fest, die zum Identifizieren des Teils der Quelldatei verwendet wird, der verknüpft wird.
 
 ```csharp
 public string SourceItem { get; set; }
@@ -20,7 +20,7 @@ public string SourceItem { get; set; }
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-Wenn es sich bei der Quelldatei beispielsweise um eine Microsoft Excel-Arbeitsmappe handelt, wird die`SourceItem` Die Eigenschaft gibt möglicherweise „Workbook1!R3C1:R4C2“ zurück, wenn das OLE-Objekt nur wenige Zellen aus dem Arbeitsblatt enthält.
+Wenn die Quelldatei beispielsweise eine Microsoft Excel-Arbeitsmappe ist,`SourceItem` Die Eigenschaft gibt möglicherweise „Workbook1!R3C1:R4C2“ zurück, wenn das OLE-Objekt nur wenige Zellen aus dem Arbeitsblatt enthält.
 
 ## Beispiele
 
@@ -30,10 +30,10 @@ Zeigt, wie verknüpfte und nicht verknüpfte OLE-Objekte eingefügt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Microsoft Visio-Zeichnung als OLE-Objekt in das Dokument einbetten.
+// Betten Sie eine Microsoft Visio-Zeichnung als OLE-Objekt in das Dokument ein.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Einen Link zur Datei im lokalen Dateisystem einfügen und als Symbol anzeigen.
+// Fügen Sie einen Link zur Datei im lokalen Dateisystem ein und zeigen Sie ihn als Symbol an.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // Durch das Einfügen von OLE-Objekten werden Formen erstellt, die diese Objekte speichern.
@@ -42,8 +42,8 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// Wenn eine Form ein OLE-Objekt enthält, verfügt sie über eine gültige „OleFormat“-Eigenschaft.
-// mit dem wir einige Aspekte der Form überprüfen können.
+// Wenn eine Form ein OLE-Objekt enthält, verfügt sie über eine gültige "OleFormat"-Eigenschaft,
+// die wir verwenden können, um einige Aspekte der Form zu überprüfen.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);

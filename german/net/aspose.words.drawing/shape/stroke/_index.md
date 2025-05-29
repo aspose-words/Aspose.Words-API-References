@@ -3,9 +3,9 @@ title: Shape.Stroke
 linktitle: Stroke
 articleTitle: Stroke
 second_title: Aspose.Words für .NET
-description: Shape Stroke eigendom. Definiert einen Strich für eine Form in C#.
+description: Entdecken Sie die Eigenschaft „Formstrich“, um Ihre Designs mit anpassbaren Strichen zu verbessern und Ihren Formen mühelos Tiefe und Stil zu verleihen.
 type: docs
-weight: 180
+weight: 190
 url: /de/net/aspose.words.drawing/shape/stroke/
 ---
 ## Shape.Stroke property
@@ -18,14 +18,14 @@ public Stroke Stroke { get; }
 
 ## Beispiele
 
-Zeigt, um eine Vielzahl von Formen zu erstellen.
+Zeigt, wie man eine Vielzahl von Formen erstellt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie vier Beispiele für Formen, die wir in unsere Dokumente einfügen können.
-// 1 – Gepunktete, horizontale, halbtransparente rote Linie
+// Unten sind vier Beispiele für Formen, die wir in unsere Dokumente einfügen können.
+// 1 - Gepunktete, horizontale, halbtransparente rote Linie
 // mit einem Pfeil am linken Ende und einer Raute am rechten Ende:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -43,7 +43,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 – Dicke schwarze diagonale Linie mit abgerundeten Enden:
+// 2 - Dicke schwarze diagonale Linie mit abgerundeten Enden:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -63,7 +63,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 – Pfeil mit umgekehrter Ausrichtung, gefüllt mit dem Aspose-Logo:
+// 4 – Pfeil mit umgekehrter Ausrichtung, ausgefüllt mit dem Aspose-Logo:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -75,8 +75,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Wenn wir die Ausrichtung unseres Pfeils umdrehen, drehen wir auch das Bild um, das der Pfeil enthält.
-    // Drehen Sie das Bild in die andere Richtung, um dies aufzuheben, bevor Sie die Form erhalten, in der es angezeigt wird.
+    // Wenn wir die Ausrichtung unseres Pfeils umkehren, spiegeln wir auch das Bild, das der Pfeil enthält.
+    // Drehen Sie das Bild in die andere Richtung, um dies aufzuheben, bevor Sie die Form zur Anzeige erhalten.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

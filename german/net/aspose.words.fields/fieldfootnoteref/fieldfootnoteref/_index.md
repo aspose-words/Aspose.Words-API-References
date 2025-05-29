@@ -3,7 +3,7 @@ title: FieldFootnoteRef
 linktitle: FieldFootnoteRef
 articleTitle: FieldFootnoteRef
 second_title: Aspose.Words für .NET
-description: FieldFootnoteRef constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldFootnoteRef-Konstruktor – Ihre Lösung für nahtlose Integration und erweiterte Funktionalität in Ihren Projekten. Verbessern Sie Ihre Programmierkenntnisse noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldfootnoteref/fieldfootnoteref/

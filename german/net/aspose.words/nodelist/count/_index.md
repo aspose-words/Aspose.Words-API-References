@@ -3,7 +3,7 @@ title: NodeList.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: NodeList Count eigendom. Ruft die Anzahl der Knoten in der Liste ab in C#.
+description: Entdecken Sie die NodeList Count-Eigenschaft, um einfach die Gesamtzahl der Knoten in Ihrer Liste abzurufen und so die Effizienz Ihrer Webentwicklung zu steigern.
 type: docs
 weight: 10
 url: /de/net/aspose.words/nodelist/count/
@@ -24,7 +24,7 @@ Zeigt, wie XPaths zum Navigieren in einer NodeList verwendet werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einige Knoten mit einem DocumentBuilder einfügen.
+// Fügen Sie einige Knoten mit einem DocumentBuilder ein.
 builder.Writeln("Hello world!");
 
 builder.StartTable();
@@ -34,12 +34,7 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-#if NET48 || JAVA
-builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0_OR_GREATER || __MOBILE__
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(image);
-#endif
+builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Unser Dokument enthält drei Run-Knoten.
 NodeList nodeList = doc.SelectNodes("//Laufen");
@@ -50,19 +45,19 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
 // Verwenden Sie einen doppelten Schrägstrich, um alle Run-Knoten auszuwählen
-// das sind indirekte Nachkommen eines Tabellenknotens, also die Läufe innerhalb der beiden von uns eingefügten Zellen.
-nodeList = doc.SelectNodes("//Table//Laufen");
+// die indirekte Nachkommen eines Tabellenknotens sind, also die Läufe innerhalb der beiden von uns eingefügten Zellen.
+nodeList = doc.SelectNodes("//Tabelle//Ausführen");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
 // Einzelne Schrägstriche geben direkte Nachkommenbeziehungen an,
-// was wir übersprungen haben, als wir doppelte Schrägstriche verwendet haben.
-Assert.AreEqual(doc.SelectNodes(" //Tabelle//Ausführen"),
-    doc.SelectNodes("//Tabelle/Zeile/Zelle/Absatz/Lauf"));
+// die wir übersprungen haben, als wir doppelte Schrägstriche verwendet haben.
+Assert.AreEqual(doc.SelectNodes("    //Tabelle//Ausführen"),
+    doc.SelectNodes("//Tabelle/Zeile/Zelle/Absatz/Ausführen"));
 
-// Auf die Form zugreifen, die das von uns eingefügte Bild enthält.
+// Greifen Sie auf die Form zu, die das von uns eingefügte Bild enthält.
 nodeList = doc.SelectNodes("//Form");
 
 Assert.AreEqual(1, nodeList.Count);

@@ -3,14 +3,14 @@ title: DocSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words für .NET
-description: DocSaveOptions Password eigendom. Ruft ein Passwort ab bzw. legt es fest um das Dokument mit der RC4Verschlüsselungsmethode zu verschlüsseln in C#.
+description: Sichern Sie Ihre Dokumente mit DocSaveOptions! Legen Sie einfach ein Passwort für die RC4-Verschlüsselung fest oder rufen Sie es ab, um Ihre vertraulichen Informationen zu schützen.
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words.saving/docsaveoptions/password/
 ---
 ## DocSaveOptions.Password property
 
-Ruft ein Passwort ab bzw. legt es fest, um das Dokument mit der RC4-Verschlüsselungsmethode zu verschlüsseln.
+Ruft ein Kennwort ab bzw. legt es fest, um das Dokument mit der RC4-Verschlüsselungsmethode zu verschlüsseln.
 
 ```csharp
 public string Password { get; set; }
@@ -18,7 +18,7 @@ public string Password { get; set; }
 
 ## Bemerkungen
 
-Um ein Dokument ohne Verschlüsselung zu speichern, sollte diese Eigenschaft vorhanden sein`Null` oder leere Zeichenfolge.
+Um das Dokument unverschlüsselt zu speichern, sollte diese Eigenschaft`null` oder eine leere Zeichenfolge.
 
 ## Beispiele
 
@@ -31,11 +31,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Legen Sie ein Passwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
-// Beachten Sie, dass dadurch der Inhalt des Dokuments in keiner Weise verschlüsselt wird.
+// Legen Sie ein Kennwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
+// Beachten Sie, dass der Inhalt des Dokuments dadurch in keiner Weise verschlüsselt wird.
 options.Password = "MyPassword";
 
-// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf true setzen.
+// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf „true“ setzen.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

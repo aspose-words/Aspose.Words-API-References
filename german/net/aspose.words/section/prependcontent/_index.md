@@ -3,14 +3,14 @@ title: Section.PrependContent
 linktitle: PrependContent
 articleTitle: PrependContent
 second_title: Aspose.Words für .NET
-description: Section PrependContent methode. Fügt eine Kopie des Inhalts des Quellabschnitts am Anfang dieses Abschnitts ein in C#.
+description: Verbessern Sie Ihren Inhalt mit der Methode „Section PrependContent“, indem Sie mühelos Quellabschnittstext am Anfang einfügen und so für mehr Organisation und Klarheit sorgen.
 type: docs
-weight: 140
+weight: 160
 url: /de/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
 
-Fügt eine Kopie des Inhalts des Quellabschnitts am Anfang dieses Abschnitts ein.
+Fügt am Anfang dieses Abschnitts eine Kopie des Inhalts des Quellabschnitts ein.
 
 ```csharp
 public void PrependContent(Section sourceSection)
@@ -22,7 +22,7 @@ public void PrependContent(Section sourceSection)
 
 ## Bemerkungen
 
-Nur Inhalt von[`Body`](../body/) des Quellabschnitts wird kopiert, Seiteneinrichtung, Kopf- und Fußzeilen werden nicht kopiert.
+Nur Inhalte von[`Body`](../body/) des Quellabschnitts wird kopiert, Seiteneinrichtung, Kopf- und Fußzeilen werden nicht kopiert.
 
 Die Knoten werden automatisch importiert, wenn der Quellabschnitt zu einem anderen Dokument gehört.
 

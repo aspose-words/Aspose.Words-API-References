@@ -3,7 +3,7 @@ title: FieldCitation
 linktitle: FieldCitation
 articleTitle: FieldCitation
 second_title: Aspose.Words für .NET
-description: FieldCitation constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldCitation-Konstruktor, Ihre Lösung für effizientes Zitationsmanagement. Vereinfachen Sie noch heute Ihren Referenzierungsprozess!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldcitation/fieldcitation/

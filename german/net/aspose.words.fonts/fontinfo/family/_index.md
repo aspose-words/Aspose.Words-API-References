@@ -3,14 +3,14 @@ title: FontInfo.Family
 linktitle: Family
 articleTitle: Family
 second_title: Aspose.Words für .NET
-description: FontInfo Family eigendom. Ruft die Schriftfamilie ab zu der diese Schriftart gehört oder legt diese fest in C#.
+description: Entdecken Sie die FontInfo-Familieneigenschaft, um Ihre Schriftfamilieneinstellungen einfach zu verwalten und anzupassen und so mehr Designflexibilität und Stil zu erzielen.
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
 
-Ruft die Schriftfamilie ab, zu der diese Schriftart gehört, oder legt diese fest.
+Ruft die Schriftfamilie ab oder legt sie fest, zu der diese Schriftart gehört.
 
 ```csharp
 public FontFamily Family { get; set; }
@@ -18,7 +18,7 @@ public FontFamily Family { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie auf Details zu jeder Schriftart in einem Dokument zugreifen und diese drucken können.
+Zeigt, wie Sie auf die Details jeder Schriftart in einem Dokument zugreifen und diese drucken können.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

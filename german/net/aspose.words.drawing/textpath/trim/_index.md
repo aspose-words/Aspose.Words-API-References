@@ -3,14 +3,14 @@ title: TextPath.Trim
 linktitle: Trim
 articleTitle: Trim
 second_title: Aspose.Words für .NET
-description: TextPath Trim eigendom. Legt fest ob zusätzlicher Platz über und unter dem Text entfernt wird in C#.
+description: Entdecken Sie die Eigenschaft „TextPath Trim“, um Ihr Design zu verbessern, indem Sie unerwünschten Platz über und unter dem Text entfernen und so ein saubereres, eleganteres Erscheinungsbild erzielen.
 type: docs
 weight: 180
 url: /de/net/aspose.words.drawing/textpath/trim/
 ---
 ## TextPath.Trim property
 
-Legt fest, ob zusätzlicher Platz über und unter dem Text entfernt wird.
+Bestimmt, ob zusätzlicher Platz über und unter dem Text entfernt wird.
 
 ```csharp
 public bool Trim { get; set; }
@@ -22,23 +22,23 @@ Der Standardwert ist`FALSCH`.
 
 ## Beispiele
 
-Zeigt, wie man mit WordArt arbeitet.
+Zeigt, wie mit WordArt gearbeitet wird.
 
 ```csharp
 public void InsertTextPaths()
 {
     Document doc = new Document();
 
-    // Ein WordArt-Objekt einfügen, um Text in einer Form anzuzeigen, deren Größe wir ändern und mit der Maus in Microsoft Word verschieben können.
+    // Fügen Sie ein WordArt-Objekt ein, um Text in einer Form anzuzeigen, deren Größe wir mithilfe der Maus in Microsoft Word ändern und verschieben können.
     // Geben Sie einen „ShapeType“ als Argument an, um eine Form für das WordArt festzulegen.
-    Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
+    Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.",
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
-    // Wenden Sie die Formatierungseinstellungen „Fett“ und „Kursiv“ mithilfe der entsprechenden Eigenschaften auf den Text an.
+    // Wenden Sie die Formatierungseinstellungen „Fett“ und „Kursiv“ mithilfe der jeweiligen Eigenschaften auf den Text an.
     shape.TextPath.Bold = true;
     shape.TextPath.Italic = true;
 
-    // Nachfolgend finden Sie verschiedene andere Eigenschaften im Zusammenhang mit der Textformatierung.
+    // Nachfolgend finden Sie verschiedene andere Eigenschaften zur Textformatierung.
     Assert.False(shape.TextPath.Underline);
     Assert.False(shape.TextPath.Shadow);
     Assert.False(shape.TextPath.StrikeThrough);
@@ -51,7 +51,7 @@ public void InsertTextPaths()
     Assert.AreEqual("Hello World! This text is bold, and italic.", shape.TextPath.Text);
     Assert.AreEqual(ShapeType.TextPlainText, shape.ShapeType);
 
-    // Verwenden Sie die Eigenschaft „On“, um den Text anzuzeigen/auszublenden.
+    // Verwenden Sie die Eigenschaft „Ein“, um den Text anzuzeigen/auszublenden.
     shape = AppendWordArt(doc, "On set to \"true\"", "Calibri", 150, 24, Color.Yellow, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.On = true;
 
@@ -73,18 +73,18 @@ public void InsertTextPaths()
     shape = AppendWordArt(doc, "RotateLetters", "Calibri", 200, 36, Color.GreenYellow, Color.Green, ShapeType.TextWave);
     shape.TextPath.RotateLetters = true;
 
-    // Setzen Sie die Eigenschaft „SameLetterHeights“ auf „true“, damit die x-Höhe jedes Zeichens der Versalhöhe entspricht.
+    // Setzen Sie die Eigenschaft „SameLetterHeights“ auf „true“, um die x-Höhe jedes Zeichens gleich der Großbuchstabenhöhe zu machen.
     shape = AppendWordArt(doc, "Same character height for lower and UPPER case", "Calibri", 300, 24, Color.DeepSkyBlue, Color.DodgerBlue, ShapeType.TextSlantUp);
     shape.TextPath.SameLetterHeights = true;
 
-    // Standardmäßig wird die Textgröße immer an die Größe der enthaltenden Form angepasst und überschreibt dabei die Einstellung für die Textgröße.
+    // Standardmäßig wird die Textgröße immer an die Größe der enthaltenen Form angepasst und die Einstellung für die Textgröße überschrieben.
     shape = AppendWordArt(doc, "FitShape on", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     Assert.True(shape.TextPath.FitShape);
     shape.TextPath.Size = 24.0;
 
-    // Wenn wir die Eigenschaft „FitShape:“ auf „false“ setzen, behält der Text die Größe
-    // was die Eigenschaft „Size“ unabhängig von der Größe der Form angibt.
-    // Verwenden Sie die Eigenschaft „TextPathAlignment“ auch, um den Text an einer Seite der Form auszurichten.
+    // Wenn wir die Eigenschaft "FitShape:" auf "false" setzen, behält der Text die Größe
+    // die die Eigenschaft „Größe“ unabhängig von der Größe der Form angibt.
+    // Verwenden Sie die Eigenschaft „TextPathAlignment“, um den Text auch an einer Seite der Form auszurichten.
     shape = AppendWordArt(doc, "FitShape off", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     shape.TextPath.FitShape = false;
     shape.TextPath.Size = 24.0;
@@ -94,14 +94,14 @@ public void InsertTextPaths()
 }
 
 /// <summary>
-/// Einen neuen Absatz mit einer WordArt-Form darin einfügen.
+/// Fügen Sie einen neuen Absatz mit einer WordArt-Form darin ein.
 /// </summary>
 private static Shape AppendWordArt(Document doc, string text, string textFontFamily, double shapeWidth, double shapeHeight, Color wordArtFill, Color line, ShapeType wordArtShapeType)
 {
-    // Erstelle eine Inline-Form, die als Container für unser WordArt dient.
-    // Die Form kann nur dann eine gültige WordArt-Form sein, wenn wir ihr einen von WordArt angegebenen ShapeType zuweisen.
+    // Erstellen Sie eine Inline-Form, die als Container für unser WordArt dient.
+    // Die Form kann nur dann eine gültige WordArt-Form sein, wenn wir ihr einen von WordArt festgelegten ShapeType zuweisen.
     // Diese Typen haben „WordArt-Objekt“ in der Beschreibung,
-    // und die Namen ihrer Enumeratorkonstanten beginnen alle mit „Text“.
+    // und ihre Enumeratorkonstantennamen beginnen alle mit „Text“.
     Shape shape = new Shape(doc, wordArtShapeType)
     {
         WrapType = WrapType.Inline,

@@ -3,14 +3,14 @@ title: Document.ShadeFormData
 linktitle: ShadeFormData
 articleTitle: ShadeFormData
 second_title: Aspose.Words für .NET
-description: Document ShadeFormData eigendom. Gibt an ob die Grauschattierung auf Formularfeldern aktiviert werden soll in C#.
+description: Entdecken Sie, wie Sie mit der ShadeFormData-Eigenschaft die Sichtbarkeit von Formularen durch Grauschattierungen verbessern und so die Benutzererfahrung und Zugänglichkeit verbessern.
 type: docs
-weight: 380
+weight: 400
 url: /de/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
 
-Gibt an, ob die Grauschattierung auf Formularfeldern aktiviert werden soll.
+Gibt an, ob die graue Schattierung für Formularfelder aktiviert werden soll.
 
 ```csharp
 public bool ShadeFormData { get; set; }
@@ -18,7 +18,7 @@ public bool ShadeFormData { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Grauschattierungen auf Formularfelder angewendet werden.
+Zeigt, wie Formularfelder grau schattiert werden.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Write("Hello world! ");
 builder.InsertTextInput("My form field", TextFormFieldType.Regular, "",
     "Text contents of form field, which are shaded in grey by default.", 0);
 
-// Wir können die Grauschattierung deaktivieren, sodass der mit einem Lesezeichen versehene Text mit dem anderen Text verschmilzt.
+// Wir können die graue Schattierung ausschalten, sodass der mit einem Lesezeichen versehene Text mit dem anderen Text verschmilzt.
 doc.ShadeFormData = useGreyShading;
 doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ```

@@ -3,9 +3,9 @@ title: ShapeBase.MarkupLanguage
 linktitle: MarkupLanguage
 articleTitle: MarkupLanguage
 second_title: Aspose.Words für .NET
-description: ShapeBase MarkupLanguage eigendom. Ruft die für dieses Grafikobjekt verwendete MarkupLanguage ab in C#.
+description: Entdecken Sie die ShapeBase MarkupLanguage-Eigenschaft für verbessertes Grafikobjektmanagement. Profitieren Sie noch heute von nahtloser Integration und verbesserter Designeffizienz!
 type: docs
-weight: 390
+weight: 410
 url: /de/net/aspose.words.drawing/shapebase/markuplanguage/
 ---
 ## ShapeBase.MarkupLanguage property
@@ -18,7 +18,7 @@ public ShapeMarkupLanguage MarkupLanguage { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie die Größe und Markup-Sprache einer Form überprüfen.
+Zeigt, wie die Größe und Auszeichnungssprache einer Form überprüft wird.
 
 ```csharp
 Document doc = new Document();

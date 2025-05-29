@@ -3,7 +3,7 @@ title: IResourceSavingCallback.ResourceSaving
 linktitle: ResourceSaving
 articleTitle: ResourceSaving
 second_title: Aspose.Words für .NET
-description: IResourceSavingCallback ResourceSaving methode. Wird aufgerufen wenn Aspose.Words eine externe Ressource in festen SeitenHTML oder SVGFormaten speichert in C#.
+description: Optimieren Sie Ihre Dokumentverarbeitung mit der ResourceSaving-Methode in Aspose.Words und verbessern Sie die externe Ressourcenverwaltung für HTML- und SVG-Formate.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/iresourcesavingcallback/resourcesaving/
@@ -18,7 +18,7 @@ public void ResourceSaving(ResourceSavingArgs args)
 
 ## Beispiele
 
-Zeigt, wie Sie einen Rückruf verwenden, um externe Ressourcen zu verfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie ein Rückruf verwendet wird, um externe Ressourcen zu verfolgen, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn Aspose.Words eine externe Ressource in einer festen HTML- oder SVG-Seite speichert.
+    /// Wird aufgerufen, wenn Aspose.Words eine externe Ressource in festem Seiten-HTML oder SVG speichert.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -58,7 +58,7 @@ private class FontSavingCallback : IResourceSavingCallback
 }
 ```
 
-Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie ein Rückruf verwendet wird, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -78,7 +78,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Ein durch ResourcesFolderAlias angegebener Ordner enthält die Ressourcen anstelle von ResourcesFolder.
-    // Wir müssen sicherstellen, dass der Ordner existiert, bevor die Streams ihre Ressourcen darin ablegen können.
+    // Wir müssen sicherstellen, dass der Ordner vorhanden ist, bevor die Streams ihre Ressourcen darin ablegen können.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -92,7 +92,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt URIs von Ressourcen, die in enthalten sind, während sie in festes HTML konvertiert werden.
+/// Zählt und druckt URIs der enthaltenen Ressourcen, wenn sie in festes HTML konvertiert werden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

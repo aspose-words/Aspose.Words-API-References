@@ -3,7 +3,7 @@ title: VbaModuleCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: VbaModuleCollection Count eigendom. Gibt die Anzahl der VBAModule in der Sammlung zurück in C#.
+description: Entdecken Sie die Eigenschaft „VbaModuleCollection Count“, die Ihre VBA-Module effizient zählt und so Ihren Codierungsworkflow und Ihre Organisation verbessert.
 type: docs
 weight: 10
 url: /de/net/aspose.words.vba/vbamodulecollection/count/
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -40,7 +40,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 

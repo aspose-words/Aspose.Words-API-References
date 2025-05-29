@@ -3,9 +3,9 @@ title: Document.VersionsCount
 linktitle: VersionsCount
 articleTitle: VersionsCount
 second_title: Aspose.Words für .NET
-description: Document VersionsCount eigendom. Ruft die Anzahl der Dokumentversionen ab die im DOCDokument gespeichert wurden in C#.
+description: Entdecken Sie die Eigenschaft „Document VersionsCount“, um die Anzahl der gespeicherten Dokumentversionen in Ihren DOC-Dateien einfach zu verfolgen und so die Verwaltung und Organisation zu verbessern.
 type: docs
-weight: 460
+weight: 480
 url: /de/net/aspose.words/document/versionscount/
 ---
 ## Document.VersionsCount property
@@ -18,21 +18,21 @@ public int VersionsCount { get; }
 
 ## Bemerkungen
 
-Der Zugriff auf Versionen in Microsoft Word erfolgt über das Menü Datei/Versionen. Microsoft Word unterstützt -Versionen nur für DOC-Dateien.
+Der Zugriff auf Versionen in Microsoft Word erfolgt über das Menü „Datei“ &gt; „Versionen“. Microsoft Word unterstützt -Versionen nur für DOC-Dateien.
 
-Mit dieser Eigenschaft können Sie erkennen, ob in diesem Dokument Dokumentversionen gespeichert waren, bevor es in Aspose.Words geöffnet wurde. Aspose.Words bietet keine weitere Unterstützung für Dokumentversionen. Wenn Sie dieses Dokument mit Aspose.Words speichern, wird das Dokument ohne Versionen gespeichert.
+Mit dieser Eigenschaft lässt sich feststellen, ob in diesem Dokument Dokumentversionen gespeichert waren, bevor es in Aspose.Words geöffnet wurde. Aspose.Words bietet keine weitere Unterstützung für Dokumentversionen. Wenn Sie dieses Dokument mit Aspose.Words speichern, wird das Dokument ohne Versionen gespeichert.
 
 ## Beispiele
 
-Zeigt, wie Sie mit der Funktion zur Versionszählung älterer Microsoft Word-Dokumente arbeiten.
+Zeigt, wie Sie mit der Versionszählfunktion älterer Microsoft Word-Dokumente arbeiten.
 
 ```csharp
 Document doc = new Document(MyDir + "Versions.doc");
 
-// Wir können diese Eigenschaft eines Dokuments lesen, aber wir können sie beim Speichern nicht beibehalten.
+// Wir können diese Eigenschaft eines Dokuments lesen, aber beim Speichern nicht beibehalten.
 Assert.AreEqual(4, doc.VersionsCount);
 
-doc.Save(ArtifactsDir + "Document.VersionsCount.doc");      
+doc.Save(ArtifactsDir + "Document.VersionsCount.doc");
 doc = new Document(ArtifactsDir + "Document.VersionsCount.doc");
 
 Assert.AreEqual(0, doc.VersionsCount);

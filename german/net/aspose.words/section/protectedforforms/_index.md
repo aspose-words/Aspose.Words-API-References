@@ -3,14 +3,14 @@ title: Section.ProtectedForForms
 linktitle: ProtectedForForms
 articleTitle: ProtectedForForms
 second_title: Aspose.Words für .NET
-description: Section ProtectedForForms eigendom. True wenn der Abschnitt für Formulare geschützt ist. Wenn ein Abschnitt für Formulare geschützt ist können Benutzer Text nur in Formularfeldern in Microsoft Word auswählen und ändern in C#.
+description: Entdecken Sie, wie die Eigenschaft „ProtectedForForms“ in Microsoft Word die Dokumentsicherheit verbessert und es Benutzern ermöglicht, nur bestimmte Formularfelder einfach zu bearbeiten.
 type: docs
 weight: 60
 url: /de/net/aspose.words/section/protectedforforms/
 ---
 ## Section.ProtectedForForms property
 
-True, wenn der Abschnitt für Formulare geschützt ist. Wenn ein Abschnitt für Formulare geschützt ist, können Benutzer Text nur in Formularfeldern in Microsoft Word auswählen und ändern.
+„True“, wenn der Abschnitt für Formulare geschützt ist. Wenn ein Abschnitt für Formulare geschützt ist, können Benutzer Text nur in Formularfeldern in Microsoft Word auswählen und ändern.
 
 ```csharp
 public bool ProtectedForForms { get; set; }

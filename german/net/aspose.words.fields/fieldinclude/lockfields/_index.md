@@ -3,14 +3,14 @@ title: FieldInclude.LockFields
 linktitle: LockFields
 articleTitle: LockFields
 second_title: Aspose.Words für .NET
-description: FieldInclude LockFields eigendom. Ruft ab oder legt fest ob verhindert werden soll dass Felder im enthaltenen Dokument aktualisiert werden in C#.
+description: Verwalten Sie Dokumentaktualisierungen mühelos mit der Eigenschaft FieldInclude LockFields. Steuern Sie die Feldbearbeitung und verbessern Sie die Dokumentintegrität mühelos.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldinclude/lockfields/
 ---
 ## FieldInclude.LockFields property
 
-Ruft ab oder legt fest, ob verhindert werden soll, dass Felder im enthaltenen Dokument aktualisiert werden.
+Ruft ab oder legt fest, ob die Aktualisierung von Feldern im eingeschlossenen Dokument verhindert werden soll.
 
 ```csharp
 public bool LockFields { get; set; }

@@ -3,14 +3,14 @@ title: ChartFormat.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words für .NET
-description: ChartFormat ShapeType eigendom. Ruft den Formtyp des übergeordneten Diagrammelements ab oder legt diesen fest in C#.
+description: Entdecken Sie, wie Sie mit der ShapeType-Eigenschaft von ChartFormat Ihre Diagrammelemente effektiv anpassen. Optimieren Sie noch heute Ihre Datenvisualisierung!
 type: docs
-weight: 20
+weight: 30
 url: /de/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
 
-Ruft den Formtyp des übergeordneten Diagrammelements ab oder legt diesen fest.
+Ruft den Formtyp des übergeordneten Diagrammelements ab oder legt ihn fest.
 
 ```csharp
 public ChartShapeType ShapeType { get; set; }
@@ -22,7 +22,7 @@ Derzeit kann die Eigenschaft nur für Datenbeschriftungen verwendet werden.
 
 ## Beispiele
 
-Zeigt, wie Füll-, Strich- und Beschriftungsformatierungen für Diagrammdatenbeschriftungen festgelegt werden.
+Zeigt, wie Füllung, Strich und Legendenformatierung für Diagrammdatenbeschriftungen festgelegt werden.
 
 ```csharp
 Document doc = new Document();

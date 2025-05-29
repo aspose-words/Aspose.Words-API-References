@@ -3,9 +3,9 @@ title: Shape.UpdateSmartArtDrawing
 linktitle: UpdateSmartArtDrawing
 articleTitle: UpdateSmartArtDrawing
 second_title: Aspose.Words für .NET
-description: Shape UpdateSmartArtDrawing methode. Aktualisiert die vorgerenderte SmartArtZeichnung mithilfe der SmartArtColdRenderingEngine von Aspose.Words in C#.
+description: Verbessern Sie Ihre Dokumente mit der Shape UpdateSmartArtDrawing-Methode und nutzen Sie das erweiterte SmartArt-Rendering von Aspose.Words für beeindruckende Visualisierungen.
 type: docs
-weight: 250
+weight: 280
 url: /de/net/aspose.words.drawing/shape/updatesmartartdrawing/
 ---
 ## Shape.UpdateSmartArtDrawing method
@@ -18,7 +18,7 @@ public void UpdateSmartArtDrawing()
 
 ## Bemerkungen
 
-Microsoft Word generiert und speichert die vorgerenderte Zeichnung zusammen mit dem SmartArt-Objekt. Wenn das Dokument jedoch von anderen Anwendungen gespeichert wird, fehlt möglicherweise die vorgerenderte SmartArt-Zeichnung oder ist falsch. Wenn eine vorgerenderte Zeichnung verfügbar ist, verwendet Aspose.Words sie zum Rendern des SmartArt-Objekts. Bei vorgerenderter Zeichnung fehlt, verwendet Aspose.Words seine eigene SmartArt-Cold-Rendering-Engine, um das SmartArt-Objekt zu rendern. Wenn die vorgerenderte Zeichnung falsch ist, muss diese Methode aufgerufen werden, um die SmartArt-Cold-Rendering-Engine aufzurufen.
+Microsoft Word generiert und speichert die vorgerenderte Zeichnung zusammen mit dem SmartArt-Objekt. Wenn das Dokument jedoch von anderen Anwendungen gespeichert wird, kann die vorgerenderte SmartArt-Zeichnung fehlen oder fehlerhaft sein. Ist eine vorgerenderte Zeichnung verfügbar, verwendet Aspose.Words diese zum Rendern des SmartArt-Objekts. Fehlt eine vorgerenderte Zeichnung, verwendet Aspose.Words seine eigene SmartArt-Kaltrendering-Engine zum Rendern des SmartArt-Objekts. Ist die vorgerenderte Zeichnung fehlerhaft, muss diese Methode aufgerufen werden, um die SmartArt-Kaltrendering-Engine zu starten.
 
 ### Siehe auch
 

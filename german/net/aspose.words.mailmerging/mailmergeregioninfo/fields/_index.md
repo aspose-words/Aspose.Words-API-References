@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.Fields
 linktitle: Fields
 articleTitle: Fields
 second_title: Aspose.Words für .NET
-description: MailMergeRegionInfo Fields eigendom. Gibt eine Liste untergeordneter Felder zurück in C#.
+description: Entdecken Sie die Eigenschaft „MailMergeRegionInfo-Felder“, greifen Sie einfach auf untergeordnete Felder zu und verwalten Sie diese für eine effiziente Dokumentautomatisierung und gesteigerte Produktivität.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/fields/
@@ -18,7 +18,7 @@ public IList<Field> Fields { get; }
 
 ## Beispiele
 
-Zeigt, wie Seriendruckbereiche überprüft werden.
+Zeigt, wie Serienbriefbereiche überprüft werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -43,6 +43,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Liste der Felder innerhalb der ersten oberen Region abrufen.
 IList<Field> fieldList = topRegions[0].Fields;

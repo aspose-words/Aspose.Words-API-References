@@ -3,9 +3,9 @@ title: ListLevelAlignment Enum
 linktitle: ListLevelAlignment
 articleTitle: ListLevelAlignment
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Lists.ListLevelAlignment opsomming. Gibt die Ausrichtung für die Listennummer oder das Aufzählungszeichen an in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.Lists.ListLevelAlignment für optimale Listennummern- und Aufzählungsausrichtung. Verbessern Sie mühelos die Dokumentformatierung!
 type: docs
-weight: 3510
+weight: 3960
 url: /de/net/aspose.words.lists/listlevelalignment/
 ---
 ## ListLevelAlignment enumeration
@@ -20,13 +20,13 @@ public enum ListLevelAlignment
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Left | `0` | Die Listenbeschriftung wird links von der Nummernposition ausgerichtet. |
-| Center | `1` | Die Listenbeschriftung wird an der Nummernposition zentriert. |
-| Right | `2` | Diese Listenbeschriftung wird rechts von der Nummernposition ausgerichtet. |
+| Left | `0` | Die Listenbeschriftung wird links neben der Zahlenposition ausgerichtet. |
+| Center | `1` | Die Listenbeschriftung wird an der Zahlenposition zentriert. |
+| Right | `2` | Diese Listenbezeichnung ist rechts neben der Zahlenposition ausgerichtet. |
 
 ## Bemerkungen
 
-Wird als Wert für verwendet[`Alignment`](../listlevel/alignment/) Eigentum.
+Wird als Wert für die[`Alignment`](../listlevel/alignment/) Eigentum.
 
 ## Beispiele
 
@@ -35,9 +35,9 @@ Zeigt, wie Sie bei Verwendung von DocumentBuilder eine benutzerdefinierte Listen
 ```csharp
 Document doc = new Document();
 
-// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
- // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
- // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
+// Eine Liste ermöglicht es uns, Absatzsätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+    // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+    // Wir können eine Liste beginnen und beenden, indem wir die Eigenschaft „ListFormat“ eines Dokument-Generators verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
 // Erstellen Sie eine Liste aus einer Microsoft Word-Vorlage und passen Sie die ersten beiden Listenebenen an.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -60,12 +60,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Dieser NumberFormat-Wert erstellt sternförmige Aufzählungssymbole.
+// Dieser NumberFormat-Wert erstellt sternförmige Aufzählungslistensymbole.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// Absätze erstellen und beide Listenebenen unserer benutzerdefinierten Listenformatierung darauf anwenden.
+// Erstellen Sie Absätze und wenden Sie beide Listenebenen unserer benutzerdefinierten Listenformatierung darauf an.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

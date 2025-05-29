@@ -3,7 +3,7 @@ title: TextColumn.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words für .NET
-description: TextColumn Width eigendom. Ruft die Breite der Textspalte in Punkten ab oder legt sie fest in C#.
+description: Passen Sie die Eigenschaft „TextColumn Width“ an, um die Breite Ihrer Textspalte in Punkten einfach anzupassen und so die Layoutkontrolle und Lesbarkeit zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words/textcolumn/width/
@@ -18,7 +18,7 @@ public double Width { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
+Zeigt, wie Spalten mit ungleichmäßigem Abstand erstellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -29,17 +29,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestimmen Sie den verfügbaren Platz für die Anordnung der Spalten.
+// Bestimmen Sie, wie viel Platz uns zum Anordnen der Spalten zur Verfügung steht.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Setze die erste Spalte auf schmal.
+// Legen Sie fest, dass die erste Spalte schmal ist.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Legen Sie die zweite Spalte so fest, dass sie den Rest des verfügbaren Platzes innerhalb der Seitenränder einnimmt.
+// Stellen Sie die zweite Spalte so ein, dass sie den restlichen verfügbaren Platz innerhalb der Seitenränder einnimmt.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

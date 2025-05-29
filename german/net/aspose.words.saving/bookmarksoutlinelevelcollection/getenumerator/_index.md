@@ -3,14 +3,14 @@ title: BookmarksOutlineLevelCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: BookmarksOutlineLevelCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann in C#.
+description: Entdecken Sie die GetEnumerator-Methode von BookmarksOutlineLevelCollection, um Sammlungselemente effizient und einfach zu durchlaufen. Verbessern Sie noch heute Ihre Programmiererfahrung!
 type: docs
 weight: 70
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/
 ---
 ## BookmarksOutlineLevelCollection.GetEnumerator method
 
-Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann.
+Gibt ein Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können.
 
 ```csharp
 public IEnumerator<KeyValuePair<string, int>> GetEnumerator()

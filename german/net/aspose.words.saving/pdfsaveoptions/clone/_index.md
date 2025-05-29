@@ -3,9 +3,9 @@ title: PdfSaveOptions.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words für .NET
-description: PdfSaveOptions Clone methode. Erstellt einen tiefen Klon dieses Objekts in C#.
+description: Entdecken Sie die Klonmethode von PdfSaveOptions, um mühelos einen vollständigen Klon Ihrer Objekte zu erstellen und so Ihre PDF-Verwaltungsfunktionen zu verbessern.
 type: docs
-weight: 340
+weight: 370
 url: /de/net/aspose.words.saving/pdfsaveoptions/clone/
 ---
 ## PdfSaveOptions.Clone method
@@ -24,9 +24,9 @@ Zeigt, wie alle Felder in einem Dokument unmittelbar vor dem Speichern als PDF a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Text mit den Feldern PAGE und NUMPAGES einfügen. Diese Felder zeigen nicht den korrekten Wert in Echtzeit an.
-// Wir müssen sie manuell mit Aktualisierungsmethoden wie „Field.Update()“ und „Document.UpdateFields()“ aktualisieren.
-// jedes Mal, wenn wir sie benötigen, um genaue Werte anzuzeigen.
+// Text mit den Feldern PAGE und NUMPAGES einfügen. Diese Felder zeigen in Echtzeit nicht den richtigen Wert an.
+// Wir müssen sie manuell aktualisieren, indem wir Aktualisierungsmethoden wie „Field.Update()“ und „Document.UpdateFields()“ verwenden.
+// jedes Mal müssen sie genaue Werte anzeigen.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 builder.Write(" of ");
@@ -34,14 +34,14 @@ builder.InsertField("NUMPAGES", "");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Hello World!");
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Setzen Sie die Eigenschaft „UpdateFields“ auf „false“, um nicht alle Felder in einem Dokument unmittelbar vor einem Speichervorgang zu aktualisieren.
+// Setzen Sie die Eigenschaft „UpdateFields“ auf „false“, um nicht alle Felder in einem Dokument direkt vor einem Speichervorgang zu aktualisieren.
 // Dies ist die bevorzugte Option, wenn wir wissen, dass alle unsere Felder vor dem Speichern auf dem neuesten Stand sind.
-// Setzen Sie die Eigenschaft „UpdateFields“ auf „true“, um das gesamte Dokument zu durchlaufen
-// Felder und aktualisieren Sie sie, bevor wir sie als PDF speichern. Dadurch wird sichergestellt, dass alle Felder angezeigt werden
+// Setzen Sie die Eigenschaft "UpdateFields" auf "true", um das gesamte Dokument zu durchlaufen
+// Felder und aktualisieren Sie sie, bevor wir es als PDF speichern. Dadurch wird sichergestellt, dass alle Felder angezeigt werden
 // die genauesten Werte im PDF.
 options.UpdateFields = updateFields;
 

@@ -3,14 +3,14 @@ title: IFieldUserPromptRespondent.Respond
 linktitle: Respond
 articleTitle: Respond
 second_title: Aspose.Words für .NET
-description: IFieldUserPromptRespondent Respond methode. Gibt bei Implementierung eine Antwort des Benutzers auf Aufforderung zurück. Ihre Implementierung sollte zurückgegeben werdenNull um anzuzeigen dass der Benutzer nicht auf die Eingabeaufforderung geantwortet hat d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche Abbrechen geklickt in C#.
+description: Entdecken Sie die IFieldUserPromptRespondent-Antwortmethode, um Benutzerreaktionen effektiv zu erfassen. Erfahren Sie, wie Sie Stornierungen reibungslos handhaben!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-Gibt bei Implementierung eine Antwort des Benutzers auf Aufforderung zurück. Ihre Implementierung sollte zurückgegeben werden`Null` um anzuzeigen, dass der Benutzer nicht auf die Eingabeaufforderung geantwortet hat (d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche „Abbrechen“ geklickt).
+Wenn implementiert, gibt es auf Nachfrage eine Antwort vom Benutzer zurück. Ihre Implementierung sollte zurückgeben`null` um anzuzeigen, dass der Benutzer nicht auf die Eingabeaufforderung reagiert hat (d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche „Abbrechen“ geklickt).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -18,12 +18,12 @@ public string Respond(string promptText, string defaultResponse)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| promptText | String | Eingabeaufforderungstext (z. B. Titel des Eingabeaufforderungsfensters). |
-| defaultResponse | String | Standardmäßige Benutzerantwort (dh der im Eingabeaufforderungsfenster enthaltene Anfangswert). |
+| promptText | String | Eingabeaufforderungstext (d. h. Titel des Eingabeaufforderungsfensters). |
+| defaultResponse | String | Standardmäßige Benutzerantwort (d. h. Anfangswert im Eingabeaufforderungsfenster). |
 
 ### Rückgabewert
 
-Benutzerantwort (dh bestätigter Wert im Eingabeaufforderungsfenster).
+Benutzerantwort (d. h. bestätigter Wert im Eingabeaufforderungsfenster).
 
 ## Beispiele
 
@@ -42,7 +42,7 @@ public void FieldAsk()
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um unser REF-Feld über den Lesezeichennamen zu referenzieren.
+    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um über den Lesezeichennamen auf unser REF-Feld zu verweisen.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -64,7 +64,7 @@ public void FieldAsk()
     fieldMergeField.FieldName = "Column 1";
 
     // Wir können die Standardantwort in unseren ASK-Feldern mit einem benutzerdefinierten Prompt-Responder ändern oder überschreiben.
-    // was während eines Seriendrucks auftreten wird.
+    // was während eines Serienbriefs geschieht.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -73,7 +73,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Fügt der Standardantwort eines ASK-Felds während eines Seriendrucks Text voran.
+/// Fügt während einer Serienbrieffunktion der Standardantwort eines ASK-Felds Text voran.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

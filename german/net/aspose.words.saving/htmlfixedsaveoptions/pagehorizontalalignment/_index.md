@@ -3,9 +3,9 @@ title: HtmlFixedSaveOptions.PageHorizontalAlignment
 linktitle: PageHorizontalAlignment
 articleTitle: PageHorizontalAlignment
 second_title: Aspose.Words für .NET
-description: HtmlFixedSaveOptions PageHorizontalAlignment eigendom. Gibt die horizontale Ausrichtung von Seiten in einem HTMLDokument an. Der Standardwert istCenter  in C#.
+description: Entdecken Sie die Eigenschaft „HtmlFixedSaveOptions PageHorizontalAlignment“, um die Seitenausrichtung in HTML-Dokumenten einfach zu steuern. Für eine optimale Darstellung ist die Standardeinstellung „Zentriert“ eingestellt.
 type: docs
-weight: 110
+weight: 120
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
@@ -39,11 +39,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

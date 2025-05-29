@@ -3,14 +3,14 @@ title: StructuredDocumentTag
 linktitle: StructuredDocumentTag
 articleTitle: StructuredDocumentTag
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag constructeur. Initialisiert eine neue Instanz vonStrukturiertes DokumentTag Klasse in C#.
+description: Erstellen Sie mühelos leistungsstarke strukturierte Dokumente mit dem StructuredDocumentTag-Konstruktor. Initialisieren Sie neue Instanzen für mehr Übersichtlichkeit und Übersichtlichkeit.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-Initialisiert eine neue Instanz von**Strukturiertes Dokument-Tag** Klasse.
+Initialisiert eine neue Instanz des**Strukturiertes Dokument-Tag** Klasse.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -24,7 +24,7 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 
 ## Bemerkungen
 
-Die folgenden Arten von SDT können erstellt werden:
+Die folgenden SDT-Typen können erstellt werden:
 
 * Checkbox
 * DropDownList
@@ -45,9 +45,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// Wir können die Symbole festlegen, die verwendet werden, um den aktivierten/nicht aktivierten Status eines Kontrollkästchen-Inhaltssteuerelements darzustellen.
+// Wir können die Symbole festlegen, die zur Darstellung des aktivierten/deaktivierten Status eines Kontrollkästchen-Inhaltssteuerelements verwendet werden.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

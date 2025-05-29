@@ -3,14 +3,14 @@ title: CustomPart.RelationshipType
 linktitle: RelationshipType
 articleTitle: RelationshipType
 second_title: Aspose.Words für .NET
-description: CustomPart RelationshipType eigendom. Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „CustomPart RelationshipType“, um Beziehungen zwischen übergeordneten und benutzerdefinierten Teilen einfach zu verwalten und zu definieren und so die Funktionalität zu verbessern.
 type: docs
 weight: 60
 url: /de/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt diesen fest.
+Ruft den Beziehungstyp vom übergeordneten Teil zu diesem benutzerdefinierten Teil ab oder legt ihn fest.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -20,7 +20,7 @@ public string RelationshipType { get; set; }
 
 Der Beziehungstyp für ein benutzerdefiniertes Teil muss „unbekannt“ sein, z. B. ein benutzerdefinierter Beziehungstyp, und nicht einer der in ISO/IEC 29500 definierten Beziehungstypen.
 
-Der Standardwert ist eine leere Zeichenfolge. Ein gültiger Wert muss eine nicht leere Zeichenfolge sein.
+Der Standardwert ist eine leere Zeichenfolge. Ein gültiger Wert darf keine leere Zeichenfolge sein.
 
 ## Beispiele
 
@@ -31,12 +31,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

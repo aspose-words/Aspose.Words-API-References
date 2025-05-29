@@ -3,9 +3,9 @@ title: ShadowFormat.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words für .NET
-description: ShadowFormat Clear methode. Löscht das Schattenformat in C#.
+description: Setzen Sie Ihr Schattenformat mühelos mit der ShadowFormat Clear-Methode zurück. Verbessern Sie Ihr Design noch heute mit einem sauberen Blatt!
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words.drawing/shadowformat/clear/
 ---
 ## ShadowFormat.Clear method
@@ -24,10 +24,10 @@ Zeigt, wie mit einer Schattenformatierung für die Form gearbeitet wird.
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

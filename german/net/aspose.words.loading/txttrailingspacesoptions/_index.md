@@ -3,14 +3,14 @@ title: TxtTrailingSpacesOptions Enum
 linktitle: TxtTrailingSpacesOptions
 articleTitle: TxtTrailingSpacesOptions
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions opsomming. Gibt die verfügbaren Optionen für die Behandlung von nachgestellten Leerzeichen beim Import aus anText Datei in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.TxtTrailingSpacesOptions für effizientes Verwalten von Leerzeichen beim Importieren von Textdateien. Optimieren Sie Ihre Dokumentenverarbeitung noch heute!
 type: docs
-weight: 3740
+weight: 4200
 url: /de/net/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enumeration
 
-Gibt die verfügbaren Optionen für die Behandlung von nachgestellten Leerzeichen beim Import aus anText Datei.
+Gibt die verfügbaren Optionen für die Behandlung von Leerzeichen beim Importieren an.Text Datei.
 
 ```csharp
 public enum TxtTrailingSpacesOptions
@@ -20,8 +20,8 @@ public enum TxtTrailingSpacesOptions
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Trim | `0` |  |
-| Preserve | `1` |  |
+| Trim | `0` | Nachstehende Leerzeichen werden entfernt. |
+| Preserve | `1` | Nachstehende Leerzeichen bleiben erhalten. |
 
 ## Beispiele
 
@@ -32,23 +32,23 @@ string textDoc = "      Line 1 \n" +
                  "    Line 2   \n" +
                  " Line 3       ";
 
-// Erstelle ein „TxtLoadOptions“-Objekt, das wir an den Konstruktor eines Dokuments übergeben können
+// Erstelle ein "TxtLoadOptions"-Objekt, das wir an den Konstruktor eines Dokuments übergeben können
 // um zu ändern, wie wir ein Klartextdokument laden.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // Setzen Sie die Eigenschaft „LeadingSpacesOptions“ auf „TxtLeadingSpacesOptions.Preserve“
 // um alle Leerzeichen am Anfang jeder Zeile beizubehalten.
 // Setzen Sie die Eigenschaft „LeadingSpacesOptions“ auf „TxtLeadingSpacesOptions.ConvertToIndent“
-// um alle Leerzeichen am Anfang jeder Zeile zu entfernen,
-// und wenden Sie dann einen linken Einzug in der ersten Zeile auf den Absatz an, um die Wirkung der Leerzeichen zu simulieren.
+// um alle Leerzeichen vom Anfang jeder Zeile zu entfernen,
+// und wenden Sie dann einen linken Einzug der ersten Zeile auf den Absatz an, um die Wirkung der Leerzeichen zu simulieren.
 // Setzen Sie die Eigenschaft „LeadingSpacesOptions“ auf „TxtLeadingSpacesOptions.Trim“
-// um alle Leerzeichen am Anfang jeder Zeile zu entfernen.
+// um alle Leerzeichen vom Anfang jeder Zeile zu entfernen.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // Setzen Sie die Eigenschaft „TrailingSpacesOptions“ auf „TxtTrailingSpacesOptions.Preserve“
- // um alle Leerzeichen am Ende jeder Zeile beizubehalten.
- // Die Eigenschaft „TrailingSpacesOptions“ auf „TxtTrailingSpacesOptions.Trim“ setzen
-// alle Leerzeichen vom Ende jeder Zeile entfernen.
+    // um alle Leerzeichen am Ende jeder Zeile beizubehalten.
+    // Setzen Sie die Eigenschaft "TrailingSpacesOptions" auf "TxtTrailingSpacesOptions.Trim" auf
+// Entfernen Sie alle Leerzeichen vom Ende jeder Zeile.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

@@ -3,9 +3,9 @@ title: HtmlElementSizeOutputMode Enum
 linktitle: HtmlElementSizeOutputMode
 articleTitle: HtmlElementSizeOutputMode
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode opsomming. Gibt an wie Aspose.Words Elementbreiten und höhen nach HTML MHTML und EPUB exportiert in C#.
+description: Entdecken Sie Aspose.Words.Saving.HtmlElementSizeOutputMode. Steuern Sie die Elementgrößen für optimale HTML-, MHTML- und EPUB-Exporte. Verbessern Sie die Formatierung Ihrer Dokumente!
 type: docs
-weight: 5060
+weight: 5810
 url: /de/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
@@ -21,18 +21,18 @@ public enum HtmlElementSizeOutputMode
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | All | `0` | Alle im Dokument angegebenen Elementgrößen, sowohl in absoluten als auch in relativen Einheiten, werden exportiert. |
-| RelativeOnly | `1` | Elementgrößen werden nur exportiert, wenn sie im Dokument in relativen Einheiten angegeben werden. Feste Größen werden in diesem Modus nicht exportiert. Visuelle Agenten berechnen fehlende Größen, um das Dokumentlayout natürlicher zu gestalten. |
-| None | `2` | Elementgrößen werden nicht exportiert. Visuelle Agenten erstellen das Layout automatisch entsprechend der Beziehung zwischen Elementen. |
+| RelativeOnly | `1` | Elementgrößen werden nur exportiert, wenn sie im Dokument in relativen Einheiten angegeben sind. Feste Größen werden in diesem Modus nicht exportiert. Visuelle Agenten berechnen fehlende Größen, um das Dokumentlayout natürlicher zu gestalten. |
+| None | `2` | Elementgrößen werden nicht exportiert. Visuelle Agenten erstellen das Layout automatisch entsprechend der Beziehung zwischen den Elementen. |
 
 ## Beispiele
 
-Zeigt, wie negative Einzüge in der Ausgabe-.html beibehalten werden.
+Zeigt, wie negative Einrückungen in der HTML-Ausgabe beibehalten werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Tabelle mit einem negativen Einzug einfügen, wodurch sie nach links über die linke Seitengrenze hinaus verschoben wird.
+// Fügen Sie eine Tabelle mit negativem Einzug ein, wodurch sie nach links über die linke Seitengrenze hinaus verschoben wird.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -44,7 +44,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Fügen Sie eine Tabelle mit einem positiven Einzug ein, wodurch die Tabelle nach rechts verschoben wird.
+// Fügen Sie eine Tabelle mit einem positiven Einzug ein, der die Tabelle nach rechts verschiebt.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -54,7 +54,7 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// Wenn wir ein Dokument in HTML speichern, behält Aspose.Words nur negative Einrückungen bei
+// Wenn wir ein Dokument im HTML-Format speichern, behält Aspose.Words nur negative Einrückungen bei
 // wie die, die wir auf die erste Tabelle angewendet haben, wenn wir das Flag „AllowNegativeIndent“ setzen
 // in einem SaveOptions-Objekt, das wir an „true“ übergeben.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)

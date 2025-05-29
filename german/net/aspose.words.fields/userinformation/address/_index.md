@@ -3,14 +3,14 @@ title: UserInformation.Address
 linktitle: Address
 articleTitle: Address
 second_title: Aspose.Words für .NET
-description: UserInformation Address eigendom. Ruft die Postanschrift des Benutzers ab oder legt diese fest in C#.
+description: Verwalten Sie Benutzeradressen mühelos mit der UserInformation-Adresseigenschaft. Optimieren Sie die Datenverarbeitung für ein verbessertes Benutzererlebnis.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/userinformation/address/
 ---
 ## UserInformation.Address property
 
-Ruft die Postanschrift des Benutzers ab oder legt diese fest.
+Ruft die Postanschrift des Benutzers ab oder legt sie fest.
 
 ```csharp
 public string Address { get; set; }
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Felder USERNAME, USERINITIALS und USERADDRESS einfügen, die Werte von anzeigen
- // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
+// Fügen Sie die Felder USERNAME, USERINITIALS und USERADDRESS ein, die Werte von
+    // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Das Feldoptionsobjekt verfügt außerdem über einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
+// Das Feldoptionenobjekt hat auch einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

@@ -3,14 +3,14 @@ title: TableStyle.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words für .NET
-description: TableStyle LeftIndent eigendom. Ruft den Wert ab der den linken Einzug einer Tabelle darstellt oder legt diesen fest in C#.
+description: Entdecken Sie die TableStyle LeftIndent-Eigenschaft, um den linken Einzug Ihrer Tabelle einfach anzupassen und so die Layoutkontrolle und optische Attraktivität zu verbessern.
 type: docs
 weight: 90
 url: /de/net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property
 
-Ruft den Wert ab, der den linken Einzug einer Tabelle darstellt, oder legt diesen fest.
+Ruft den Wert ab oder legt ihn fest, der den linken Einzug einer Tabelle darstellt.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -24,8 +24,8 @@ Zeigt, wie die Position einer Tabelle festgelegt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei Möglichkeiten, eine Tabelle horizontal auszurichten.
-// 1 – Verwenden Sie die Eigenschaft „Alignment“, um es an einer Stelle auf der Seite auszurichten, beispielsweise in der Mitte:
+// Unten sind zwei Möglichkeiten zum horizontalen Ausrichten einer Tabelle aufgeführt.
+// 1 - Verwenden Sie die Eigenschaft „Ausrichtung“, um es an einer Position auf der Seite auszurichten, beispielsweise in der Mitte:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
@@ -40,7 +40,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 – Verwenden Sie „LeftIndent“, um einen Einzug vom linken Rand der Seite anzugeben:
+// 2 - Verwenden Sie „LeftIndent“, um einen Einzug vom linken Seitenrand anzugeben:
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitShapeStart
 linktitle: VisitShapeStart
 articleTitle: VisitShapeStart
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitShapeStart methode. Wird aufgerufen wenn die Aufzählung einer Form begonnen hat in C#.
+description: Entdecken Sie die DocumentVisitor VisitShapeStart-Methode, um die Shape-Aufzählung in Ihren Anwendungen zu verbessern. Steigern Sie die Effizienz und optimieren Sie Ihren Codierungsprozess!
 type: docs
 weight: 400
 url: /de/net/aspose.words/documentvisitor/visitshapestart/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitShapeStart(Shape shape)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
-Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie Sie eine Gruppe von Formen erstellen und deren Inhalt mithilfe eines Dokumentbetrachters drucken.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, wie z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Eine abgerundete obere Ecke, eine abgeschnittene Ecke, eine abgerundete obere Ecke, abgerundete diagonale Ecke
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe auf der Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {
@@ -120,8 +120,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können.
+    // Dadurch kann es den akzeptierenden Knoten besuchen und dann seine untergeordneten Knoten in einer Tiefensuche durchlaufen.
     // 1 - Absatzknoten:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -186,7 +186,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Paragraph-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Absatzknoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -252,10 +252,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -263,16 +265,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
         // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
-        // und es gäbe keine untergeordneten Knoten mehr.
-        // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
+        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles entfernt.
+        // und es wären keine untergeordneten Knoten übrig.
+        // Daher können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
         // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
-        // was dieser Besucher nicht entfernen wird.
+        // die dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -280,7 +282,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -291,7 +293,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

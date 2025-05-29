@@ -3,14 +3,14 @@ title: Stroke.Visible
 linktitle: Visible
 articleTitle: Visible
 second_title: Aspose.Words für .NET
-description: Stroke Visible eigendom. Ruft ein Flag ab oder setzt es das angibt ob der Strich sichtbar ist in C#.
+description: Steuern Sie die Strichsichtbarkeit mit unserer benutzerfreundlichen Funktion. Verbessern Sie Ihr Design, indem Sie die Strichsichtbarkeit für eine bessere visuelle Wirkung aktivieren!
 type: docs
-weight: 200
+weight: 250
 url: /de/net/aspose.words.drawing/stroke/visible/
 ---
 ## Stroke.Visible property
 
-Ruft ein Flag ab oder setzt es, das angibt, ob der Strich sichtbar ist.
+Ruft ein Flag ab oder legt es fest, das angibt, ob der Strich sichtbar ist.
 
 ```csharp
 public bool Visible { get; set; }
@@ -18,7 +18,7 @@ public bool Visible { get; set; }
 
 ## Bemerkungen
 
-Der Standardwert für a[`Shape`](../../shape/) Ist`WAHR` .
+Der Standardwert für eine[`Shape`](../../shape/) Ist`WAHR` .
 
 ## Beispiele
 

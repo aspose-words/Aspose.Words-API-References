@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag Style eigendom. Ruft den Stil des strukturierten DokumentTags ab oder legt diesen fest in C#.
+description: Entdecken Sie, wie Sie die Style-Eigenschaft von StructuredDocumentTags verwalten, um die Formatierung Ihres Dokuments zu verbessern und die Lesbarkeit mühelos zu steigern.
 type: docs
 weight: 260
 url: /de/net/aspose.words.markup/structureddocumenttag/style/
 ---
 ## StructuredDocumentTag.Style property
 
-Ruft den Stil des strukturierten Dokument-Tags ab oder legt diesen fest.
+Ruft den Stil des strukturierten Dokument-Tags ab oder legt ihn fest.
 
 ```csharp
 public Style Style { get; set; }
@@ -18,7 +18,7 @@ public Style Style { get; set; }
 
 ## Bemerkungen
 
-Nur Character Stil bzwParagraph Stil mit verknüpftem Zeichenstil kann eingestellt werden.
+NurCharacter Stil oderParagraph Stil mit verknüpftem Zeichenstil kann eingestellt werden.
 
 ## Beispiele
 
@@ -28,13 +28,13 @@ Zeigt, wie mit Stilen für Inhaltssteuerelemente gearbeitet wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
-// 1 – Ein Stilobjekt aus der Stilsammlung des Dokuments anwenden:
+// Unten finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
+// 1 – Wenden Sie ein Stilobjekt aus der Stilsammlung des Dokuments an:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 – Einen Stil im Dokument namentlich referenzieren:
+// 2 - Verweisen Sie im Dokument anhand des Namens auf einen Stil:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

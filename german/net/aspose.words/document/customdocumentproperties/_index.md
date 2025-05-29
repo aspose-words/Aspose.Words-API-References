@@ -3,9 +3,9 @@ title: Document.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words für .NET
-description: Document CustomDocumentProperties eigendom. Gibt eine Sammlung zurück die alle benutzerdefinierten Dokumenteigenschaften des Dokuments darstellt in C#.
+description: Erkunden Sie die Eigenschaft CustomDocumentProperties, um effizient auf alle benutzerdefinierten Dokumenteigenschaften zuzugreifen und sie zu verwalten und so die Funktionalität Ihres Dokuments zu verbessern.
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.words/document/customdocumentproperties/
 ---
 ## Document.CustomDocumentProperties property
@@ -23,11 +23,11 @@ Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Das Objekt „Document“ enthält einige seiner Metadaten in seinen Mitgliedern.
+// Das Objekt „Dokument“ enthält einige seiner Metadaten in seinen Mitgliedern.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Das Dokument speichert auch Metadaten in seinen integrierten Eigenschaften.
-// Jede integrierte Eigenschaft ist Mitglied des „BuiltInDocumentProperties“-Objekts des Dokuments.
+// Jede integrierte Eigenschaft ist ein Mitglied des Objekts „BuiltInDocumentProperties“ des Dokuments.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

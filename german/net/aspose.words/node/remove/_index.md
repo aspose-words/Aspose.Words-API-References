@@ -3,7 +3,7 @@ title: Node.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words für .NET
-description: Node Remove methode. Entfernt sich selbst vom übergeordneten Element in C#.
+description: Entdecken Sie die Methode „Node Remove“, um Knoten mühelos von ihrem übergeordneten Element zu trennen und so die Effizienz und Struktur Ihres Codes zu verbessern.
 type: docs
 weight: 150
 url: /de/net/aspose.words/node/remove/
@@ -47,7 +47,7 @@ while (curNode != null)
     // Speichern Sie den nächsten Geschwisterknoten als Variable, falls wir nach dem Löschen dieses Knotens dorthin wechseln möchten.
     Node nextNode = curNode.NextSibling;
 
-    // Ein Abschnittshauptteil kann Absatz- und Tabellenknoten enthalten.
+    // Ein Abschnittstext kann Absatz- und Tabellenknoten enthalten.
     // Wenn der Knoten eine Tabelle ist, entfernen Sie ihn vom übergeordneten Knoten.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();

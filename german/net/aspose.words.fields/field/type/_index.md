@@ -3,7 +3,7 @@ title: Field.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: Field Type eigendom. Ruft den Microsoft WordFeldtyp ab in C#.
+description: Entdecken Sie den Microsoft Word-Feldtyp mit unserer Feldtyp-Eigenschaft. Optimieren Sie Ihre Dokumente mit präziser Formatierung und dynamischen Inhaltsfunktionen.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/field/type/
@@ -18,7 +18,7 @@ public virtual FieldType Type { get; }
 
 ## Beispiele
 
-Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
+Zeigt, wie Sie mithilfe eines Feldcodes ein Feld in ein Dokument einfügen.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Diese Überladung der InsertField-Methode aktualisiert automatisch eingefügte Felder.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// Diese Überladung der InsertField-Methode aktualisiert eingefügte Felder automatisch.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### Siehe auch

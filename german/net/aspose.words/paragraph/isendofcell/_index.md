@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfCell
 linktitle: IsEndOfCell
 articleTitle: IsEndOfCell
 second_title: Aspose.Words für .NET
-description: Paragraph IsEndOfCell eigendom. True wenn dieser Absatz der letzte Absatz in a istCell  sonst falsch in C#.
+description: Entdecken Sie die IsEndOfCell-Eigenschaft für Absätze. Erfahren Sie, wie Sie erkennen, ob ein Absatz der letzte in einer Zelle ist, und so Ihre Dokumentstruktur verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words/paragraph/isendofcell/
 ---
 ## Paragraph.IsEndOfCell property
 
-True, wenn dieser Absatz der letzte Absatz in a ist[`Cell`](../../../aspose.words.tables/cell/) ; sonst falsch.
+Wahr, wenn dieser Absatz der letzte Absatz in einem[`Cell`](../../../aspose.words.tables/cell/) ; andernfalls false.
 
 ```csharp
 public bool IsEndOfCell { get; }
@@ -18,16 +18,16 @@ public bool IsEndOfCell { get; }
 
 ## Beispiele
 
-Zeigt, wie man eine Tabelle so einrichtet, dass sie auf derselben Seite bleibt.
+Zeigt, wie man einen Tisch einrichtet, damit alle Beteiligten auf dem gleichen Stand bleiben.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// KeepWithNext für jeden Absatz in der Tabelle außer dem aktivieren
+// Aktivieren von KeepWithNext für jeden Absatz in der Tabelle außer dem
 // Die letzten in der letzten Zeile verhindern, dass die Tabelle auf mehrere Seiten aufgeteilt wird.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

@@ -3,7 +3,7 @@ title: FieldRef
 linktitle: FieldRef
 articleTitle: FieldRef
 second_title: Aspose.Words für .NET
-description: FieldRef constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldRef-Konstruktor, den unverzichtbaren Standard-Builder für die effiziente Datenverarbeitung in Ihren Anwendungen. Vereinfachen Sie Ihre Programmierung noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldref/fieldref/

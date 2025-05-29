@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
 second_title: Aspose.Words für .NET
-description: HtmlFixedSaveOptions ShowPageBorder eigendom. Gibt an ob der Rand um Seiten herum angezeigt werden soll. Die Standardeinstellung istWAHR  in C#.
+description: Entdecken Sie die Eigenschaft „HtmlFixedSaveOptions ShowPageBorder“ und steuern Sie Seitenränder ganz einfach. Verbessern Sie das Erscheinungsbild Ihres Dokuments mit anpassbaren Einstellungen.
 type: docs
-weight: 180
+weight: 200
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/showpageborder/
 ---
 ## HtmlFixedSaveOptions.ShowPageBorder property
 
-Gibt an, ob der Rand um Seiten herum angezeigt werden soll. Die Standardeinstellung ist`WAHR` .
+Gibt an, ob ein Rahmen um die Seiten angezeigt werden soll. Standard ist`WAHR` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -18,7 +18,7 @@ public bool ShowPageBorder { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie ein Rückruf verwendet wird, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -38,7 +38,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Ein durch ResourcesFolderAlias angegebener Ordner enthält die Ressourcen anstelle von ResourcesFolder.
-    // Wir müssen sicherstellen, dass der Ordner existiert, bevor die Streams ihre Ressourcen darin ablegen können.
+    // Wir müssen sicherstellen, dass der Ordner vorhanden ist, bevor die Streams ihre Ressourcen darin ablegen können.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -52,7 +52,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt URIs von Ressourcen, die in enthalten sind, während sie in festes HTML konvertiert werden.
+/// Zählt und druckt URIs der enthaltenen Ressourcen, wenn sie in festes HTML konvertiert werden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

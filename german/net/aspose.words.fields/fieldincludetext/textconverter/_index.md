@@ -3,14 +3,14 @@ title: FieldIncludeText.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
 second_title: Aspose.Words für .NET
-description: FieldIncludeText TextConverter eigendom. Ruft den Namen des Textkonverters für das Format der enthaltenen Datei ab oder legt diesen fest in C#.
+description: Entdecken Sie die TextConverter-Eigenschaft FieldIncludeText, um Textkonverternamen für Ihre eingebundenen Dateiformate einfach zu verwalten. Optimieren Sie Ihren Workflow noch heute!
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/fieldincludetext/textconverter/
 ---
 ## FieldIncludeText.TextConverter property
 
-Ruft den Namen des Textkonverters für das Format der enthaltenen Datei ab oder legt diesen fest.
+Ruft den Namen des Textkonverters für das Format der eingebundenen Datei ab oder legt ihn fest.
 
 ```csharp
 public string TextConverter { get; set; }
@@ -18,7 +18,7 @@ public string TextConverter { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ein INCLUDETEXT-Feld erstellt und seine Eigenschaften festgelegt werden.
+Zeigt, wie Sie ein INCLUDETEXT-Feld erstellen und seine Eigenschaften festlegen.
 
 ```csharp
 public void FieldIncludeText()
@@ -26,8 +26,8 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Im Folgenden finden Sie zwei Möglichkeiten, INCLUDETEXT-Felder zu verwenden, um den Inhalt einer XML-Datei im lokalen Dateisystem anzuzeigen.
-    // 1 – Führen Sie eine XSL-Transformation für ein XML-Dokument durch:
+    // Unten sind zwei Möglichkeiten zur Verwendung von INCLUDETEXT-Feldern aufgeführt, um den Inhalt einer XML-Datei im lokalen Dateisystem anzuzeigen.
+    // 1 – Führen Sie eine XSL-Transformation an einem XML-Dokument durch:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// Verwenden Sie einen Dokument-Builder, um ein INCLUDETEXT-Feld mit benutzerdefinierten Eigenschaften einzufügen.
+/// Verwenden Sie einen Dokumentgenerator, um ein INCLUDETEXT-Feld mit benutzerdefinierten Eigenschaften einzufügen.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

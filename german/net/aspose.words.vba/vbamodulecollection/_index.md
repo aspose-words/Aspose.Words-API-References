@@ -3,14 +3,14 @@ title: VbaModuleCollection Class
 linktitle: VbaModuleCollection
 articleTitle: VbaModuleCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Vba.VbaModuleCollection klas. Stellt eine Sammlung von darVbaModule Objekte in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Vba.VbaModuleCollection, Ihr unverzichtbares Tool für die effiziente Verwaltung von VbaModule-Objekten bei der Dokumentenautomatisierung.
 type: docs
-weight: 6560
+weight: 7410
 url: /de/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Stellt eine Sammlung von dar[`VbaModule`](../vbamodule/) Objekte.
+Stellt eine Sammlung von[`VbaModule`](../vbamodule/) Objekte.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit VBA-Makros](https://docs.aspose.com/words/net/working-with-vba-macros/) Dokumentationsartikel.
 
@@ -23,7 +23,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | Gibt die Anzahl der VBA-Module in der Sammlung zurück. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Ruft a ab[`VbaModule`](../vbamodule/) Objekt nach index. (2 indexers) |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Ruft eine[`VbaModule`](../vbamodule/) Objekt nach Index. (2 indexers) |
 
 ## Methoden
 
@@ -45,7 +45,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -56,7 +56,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 

@@ -3,7 +3,7 @@ title: Border.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words für .NET
-description: Border Color eigendom. Ruft die Rahmenfarbe ab oder legt sie fest in C#.
+description: Passen Sie Ihre Designs mühelos mit der Eigenschaft „Rahmenfarbe“ an. So können Sie Rahmenfarben festlegen und ändern, um eine beeindruckende visuelle Wirkung zu erzielen.
 type: docs
 weight: 10
 url: /de/net/aspose.words/border/color/
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
+Zeigt, wie eine von einem Rahmen umgebene Zeichenfolge in ein Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();

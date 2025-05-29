@@ -3,14 +3,14 @@ title: Shape.Stroked
 linktitle: Stroked
 articleTitle: Stroked
 second_title: Aspose.Words für .NET
-description: Shape Stroked eigendom. Definiert ob der Pfad gestrichen wird in C#.
+description: Entdecken Sie die Shape Stroked-Eigenschaft, um Ihre Designs zu verbessern! Steuern Sie die Pfadgestaltung präzise und erzielen Sie beeindruckende visuelle Effekte. Steigern Sie Ihre Kreativität!
 type: docs
-weight: 200
+weight: 210
 url: /de/net/aspose.words.drawing/shape/stroked/
 ---
 ## Shape.Stroked property
 
-Definiert, ob der Pfad gestrichen wird.
+Definiert, ob der Pfad mit Strichen versehen wird.
 
 ```csharp
 public bool Stroked { get; set; }
@@ -18,7 +18,7 @@ public bool Stroked { get; set; }
 
 ## Bemerkungen
 
-Dies ist eine Verknüpfung zum[`On`](../../stroke/on/) Eigentum.
+Dies ist eine Abkürzung zum[`On`](../../stroke/on/) Eigentum.
 
 Der Standardwert ist`WAHR`.
 
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
+/// Protokolliert erscheinungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
+    /// Fügt dem StringBuilder eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einrückungsebene hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
+    /// Gibt den gesamten Text zurück, den der StringBuilder angesammelt hat.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

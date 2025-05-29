@@ -3,14 +3,14 @@ title: FormField.CalculateOnExit
 linktitle: CalculateOnExit
 articleTitle: CalculateOnExit
 second_title: Aspose.Words für .NET
-description: FormField CalculateOnExit eigendom. True wenn Verweise auf das angegebene Formularfeld automatisch aktualisiert werden wenn das Feld verlassen wird in C#.
+description: Entdecken Sie, wie die FormField-Eigenschaft CalculateOnExit die Feldreferenzen beim Verlassen automatisch aktualisiert und so die Genauigkeit und Effizienz Ihres Dokuments verbessert.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/formfield/calculateonexit/
 ---
 ## FormField.CalculateOnExit property
 
-True, wenn Verweise auf das angegebene Formularfeld automatisch aktualisiert werden, wenn das Feld verlassen wird.
+Wahr, wenn Verweise auf das angegebene Formularfeld automatisch aktualisiert werden, wenn das Feld verlassen wird.
 
 ```csharp
 public bool CalculateOnExit { get; set; }
@@ -18,7 +18,7 @@ public bool CalculateOnExit { get; set; }
 
 ## Bemerkungen
 
-Einstellung`CalculateOnExit` wirkt sich nur auf das Verhalten des Formularfelds aus, wenn das Dokument in Microsoft Word geöffnet wird. Aspose.Words aktualisiert niemals references auf das Formularfeld.
+Einstellung`CalculateOnExit` wirkt sich nur auf das Verhalten des Formularfelds aus, wenn das Dokument in Microsoft Word geöffnet wird. Aspose.Words aktualisiert niemals Referenzen zum Formularfeld.
 
 ## Beispiele
 
@@ -30,7 +30,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie einen Document Builder, um ein Kombinationsfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kombinationsfeld einzufügen.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -40,7 +40,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -54,7 +54,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -77,7 +77,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Zulassen, dass jedes Formularfeld einen Dokumentbesucher akzeptiert.
+    // Erlauben Sie jedem Formularfeld, einen Dokumentbesucher zu akzeptieren.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -91,7 +91,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
+    /// Besucherimplementierung, die Details der besuchten Formularfelder druckt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -132,7 +132,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
+    /// Fügt der aktuellen Ausgabe durch ein Zeichen abgeschlossenen Zeilenumbruchtext hinzu.
     /// </summary>
     private void AppendLine(string text)
     {

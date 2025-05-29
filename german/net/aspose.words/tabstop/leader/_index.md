@@ -3,14 +3,14 @@ title: TabStop.Leader
 linktitle: Leader
 articleTitle: Leader
 second_title: Aspose.Words für .NET
-description: TabStop Leader eigendom. Ruft den Typ der Führungslinie ab die unter dem Tabulatorzeichen angezeigt wird oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaften von TabStop Leader, um die Führungslinientypen für Ihre Tabs anzupassen und so die Übersichtlichkeit und Präsentation Ihres Dokuments zu verbessern. Optimieren Sie Ihre Formatierung noch heute!
 type: docs
 weight: 40
 url: /de/net/aspose.words/tabstop/leader/
 ---
 ## TabStop.Leader property
 
-Ruft den Typ der Führungslinie ab, die unter dem Tabulatorzeichen angezeigt wird, oder legt diesen fest.
+Ruft den Typ der unter dem Tabulatorzeichen angezeigten Führungslinie ab oder legt ihn fest.
 
 ```csharp
 public TabLeader Leader { get; set; }
@@ -23,12 +23,12 @@ Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Ab
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Alle Absätze mit TOC-ergebnisbasierten Stilen durchlaufen; Dies ist jeder Stil zwischen TOC und TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Durchlaufe alle Absätze mit auf dem Inhaltsverzeichnisergebnis basierenden Stilen. Dies ist jeder Stil zwischen Inhaltsverzeichnis und Inhaltsverzeichnis9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Holen Sie sich den ersten Tab, der in diesem Absatz verwendet wird. Dies sollte der Tab sein, der zum Ausrichten der Seitenzahlen verwendet wird.
+        // Holen Sie sich den ersten Tabulator, der in diesem Absatz verwendet wird. Dies sollte der Tabulator sein, der zum Ausrichten der Seitenzahlen verwendet wird.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
         // Ersetzen Sie den ersten Standard-Tabstopp durch einen benutzerdefinierten Tabstopp.

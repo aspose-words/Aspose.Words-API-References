@@ -3,16 +3,16 @@ title: RevisionGroup Class
 linktitle: RevisionGroup
 articleTitle: RevisionGroup
 second_title: Aspose.Words für .NET
-description: Aspose.Words.RevisionGroup klas. Stellt eine Gruppe von sequentiellen Elementen darRevision Objekte in C#.
+description: Entdecken Sie die Klasse Aspose.Words.RevisionGroup, die für die effiziente Verwaltung und Organisation sequenzieller Revisionsobjekte zur optimierten Dokumentbearbeitung entwickelt wurde.
 type: docs
-weight: 4780
+weight: 5520
 url: /de/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
-Stellt eine Gruppe von sequentiellen Elementen dar[`Revision`](../revision/) Objekte.
+Stellt eine Gruppe von sequentiellen[`Revision`](../revision/) Objekte.
 
-Um mehr zu erfahren, besuchen Sie die[Verfolgen Sie Änderungen in einem Dokument](https://docs.aspose.com/words/net/track-changes-in-a-document/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Änderungen in einem Dokument verfolgen](https://docs.aspose.com/words/net/track-changes-in-a-document/) Dokumentationsartikel.
 
 ```csharp
 public class RevisionGroup

@@ -3,14 +3,14 @@ title: Style.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words für .NET
-description: Style StyleIdentifier eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung für einen integrierten Stil ab in C#.
+description: Entdecken Sie die lokal unabhängige StyleIdentifier-Eigenschaft für integrierte Stile. Optimieren Sie Ihre Projekte mit konsistenten und vielseitigen Styling-Lösungen.
 type: docs
-weight: 150
+weight: 180
 url: /de/net/aspose.words/style/styleidentifier/
 ---
 ## Style.StyleIdentifier property
 
-Ruft die vom Gebietsschema unabhängige Stilkennung für einen integrierten Stil ab.
+Ruft die gebietsschemaunabhängige Stilkennung für einen integrierten Stil ab.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; }
@@ -18,7 +18,7 @@ public StyleIdentifier StyleIdentifier { get; }
 
 ## Bemerkungen
 
-Für benutzerdefinierte (benutzerdefinierte) Stile wird diese Eigenschaft zurückgegebenUser.
+Für benutzerdefinierte Stile gibt diese Eigenschaft zurückUser.
 
 ## Beispiele
 
@@ -27,12 +27,12 @@ Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Ab
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Alle Absätze mit TOC-ergebnisbasierten Stilen durchlaufen; Dies ist jeder Stil zwischen TOC und TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Durchlaufe alle Absätze mit auf dem Inhaltsverzeichnisergebnis basierenden Stilen. Dies ist jeder Stil zwischen Inhaltsverzeichnis und Inhaltsverzeichnis9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Holen Sie sich den ersten Tab, der in diesem Absatz verwendet wird. Dies sollte der Tab sein, der zum Ausrichten der Seitenzahlen verwendet wird.
+        // Holen Sie sich den ersten Tabulator, der in diesem Absatz verwendet wird. Dies sollte der Tabulator sein, der zum Ausrichten der Seitenzahlen verwendet wird.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
         // Ersetzen Sie den ersten Standard-Tabstopp durch einen benutzerdefinierten Tabstopp.

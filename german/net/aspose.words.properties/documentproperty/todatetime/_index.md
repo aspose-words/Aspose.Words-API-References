@@ -3,14 +3,14 @@ title: DocumentProperty.ToDateTime
 linktitle: ToDateTime
 articleTitle: ToDateTime
 second_title: Aspose.Words für .NET
-description: DocumentProperty ToDateTime methode. Gibt den Eigenschaftswert zurück alsTerminzeit in UTC in C#.
+description: Konvertieren Sie DocumentProperty mühelos in UTC DateTime. Greifen Sie auf genaue Zeitstempel zu und verbessern Sie Ihr Datenmanagement mit unserer zuverlässigen Methode.
 type: docs
 weight: 80
 url: /de/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-Gibt den Eigenschaftswert zurück als**Terminzeit** in UTC.
+Gibt den Eigenschaftswert zurück als**Datum/Uhrzeit** in UTC.
 
 ```csharp
 public DateTime ToDateTime()
@@ -18,9 +18,9 @@ public DateTime ToDateTime()
 
 ## Bemerkungen
 
-Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht vorhanden istDateTime.
+Löst eine Ausnahme aus, wenn der Eigenschaftstyp nichtDateTime.
 
-Microsoft Word speichert nur den Datumsteil (keine Uhrzeit) für benutzerdefinierte Datumseigenschaften.
+Microsoft Word speichert für benutzerdefinierte Datumseigenschaften nur den Datumsteil (keine Uhrzeit).
 
 ## Beispiele
 
@@ -30,11 +30,11 @@ Zeigt, wie eine benutzerdefinierte Dokumenteigenschaft erstellt wird, die ein Da
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
-Zeigt verschiedene Typkonvertierungsmethoden für benutzerdefinierte Dokumenteigenschaften.
+Zeigt verschiedene Methoden zur Typkonvertierung benutzerdefinierter Dokumenteigenschaften.
 
 ```csharp
 Document doc = new Document();

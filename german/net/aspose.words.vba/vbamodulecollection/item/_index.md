@@ -3,14 +3,14 @@ title: VbaModuleCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: VbaModuleCollection Item eigendom. Ruft a abVbaModule Objekt nach index in C#.
+description: Greifen Sie mühelos auf VbaModule-Objekte mit der VbaModuleCollection-Elementeigenschaft zu. Optimieren Sie Ihre VBA-Projekte durch einfache Indizierung und verbesserte Verwaltung.
 type: docs
 weight: 20
 url: /de/net/aspose.words.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-Ruft a ab[`VbaModule`](../../vbamodule/) Objekt nach index.
+Ruft eine[`VbaModule`](../../vbamodule/) Objekt nach Index.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -33,7 +33,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -44,7 +44,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 
@@ -59,7 +59,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-Ruft a ab[`VbaModule`](../../vbamodule/) Objekt nach Name oder Null, wenn es nicht gefunden wird.
+Ruft eine[`VbaModule`](../../vbamodule/) Objekt nach Name oder Null, wenn nicht gefunden.
 
 ```csharp
 public VbaModule this[string name] { get; }
@@ -78,7 +78,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -89,7 +89,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 

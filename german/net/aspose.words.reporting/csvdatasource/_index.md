@@ -3,16 +3,16 @@ title: CsvDataSource Class
 linktitle: CsvDataSource
 articleTitle: CsvDataSource
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Reporting.CsvDataSource klas. Bietet Zugriff auf Daten einer CSVDatei oder eines CSVStreams zur Verwendung in einem Bericht in C#.
+description: Greifen Sie mühelos auf CSV-Daten zu und nutzen Sie sie mit Aspose.Words.Reporting.CsvDataSource. Optimieren Sie Ihre Berichte durch nahtlose Datenintegration!
 type: docs
-weight: 4670
+weight: 5410
 url: /de/net/aspose.words.reporting/csvdatasource/
 ---
 ## CsvDataSource class
 
-Bietet Zugriff auf Daten einer CSV-Datei oder eines CSV-Streams zur Verwendung in einem Bericht.
+Bietet Zugriff auf Daten einer CSV-Datei oder eines Streams zur Verwendung in einem Bericht.
 
-Um mehr zu erfahren, besuchen Sie die[LINQ-Reporting-Engine](https://docs.aspose.com/words/net/linq-reporting-engine/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[LINQ-Berichtsmodul](https://docs.aspose.com/words/net/linq-reporting-engine/) Dokumentationsartikel.
 
 ```csharp
 public class CsvDataSource
@@ -22,18 +22,18 @@ public class CsvDataSource
 
 | Name | Beschreibung |
 | --- | --- |
-| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung von Standardoptionen zum Parsen von CSV-Daten. |
+| [CsvDataSource](csvdatasource/#constructor)(*Stream*) | Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung der Standardoptionen zum Parsen von CSV-Daten. |
 | [CsvDataSource](csvdatasource/#constructor_2)(*string*) | Erstellt eine neue Datenquelle mit Daten aus einer CSV-Datei unter Verwendung der Standardoptionen zum Parsen von CSV-Daten. |
 | [CsvDataSource](csvdatasource/#constructor_1)(*Stream, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung der angegebenen Optionen zum Parsen von CSV-Daten. |
 | [CsvDataSource](csvdatasource/#constructor_3)(*string, [CsvDataLoadOptions](../csvdataloadoptions/)*) | Erstellt eine neue Datenquelle mit Daten aus einer CSV-Datei unter Verwendung der angegebenen Optionen zum Parsen von CSV-Daten. |
 
 ## Bemerkungen
 
-Um beim Erstellen eines Berichts auf Daten der entsprechenden Datei oder des entsprechenden Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als eine Datenquelle an eine von[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
+Um beim Generieren eines Berichts auf die Daten der entsprechenden Datei oder des Streams zuzugreifen, übergeben Sie eine Instanz dieser Klasse als eine Datenquelle an einen der[`ReportingEngine`](../reportingengine/) .BuildReport-Überladungen.
 
-In Vorlagendokumenten a`CsvDataSource` Die Instanz sollte genauso behandelt werden, als ob sie a wäreDataTable Instanz. Weitere Informationen finden Sie in der Vorlagensyntaxreferenz (https://docs.aspose.com/display/wordsnet/Template+Syntax).
+In Vorlagendokumenten kann ein`CsvDataSource` Instanz sollte auf die gleiche Weise behandelt werden, als wäre sie eineDataTable -Instanz. Weitere Informationen finden Sie in der Vorlagensyntaxreferenz (https://docs.aspose.com/display/wordsnet/Template+Syntax).
 
-Datentypen von durch Kommas getrennten Werten werden automatisch anhand ihrer Zeichenfolgendarstellungen bestimmt. In template -Dokumenten können Sie also mit typisierten Werten statt nur mit Zeichenfolgen arbeiten. Die Engine ist in der Lage, -Werte der folgenden Typen automatisch zu erkennen:
+Die Datentypen kommagetrennter Werte werden automatisch anhand ihrer Zeichenfolgendarstellung bestimmt. Daher können Sie in Vorlagendokumenten mit typisierten Werten statt nur mit Zeichenfolgen arbeiten. Die Engine erkennt -Werte der folgenden Typen automatisch:
 
 * Nullable
 * Nullable
@@ -41,9 +41,28 @@ Datentypen von durch Kommas getrennten Werten werden automatisch anhand ihrer Ze
 * Nullable
 * String
 
-Beachten Sie, dass Zeichenfolgendarstellungen durch Kommas getrennter Werte unter Verwendung invarianter Kultureinstellungen erstellt werden sollten, damit die automatische Erkennung von Datentypen funktioniert.
+Beachten Sie, dass für die automatische Erkennung von Datentypen Zeichenfolgendarstellungen von durch Kommas getrennten Werten unter Verwendung invarianter Kultureinstellungen erstellt werden sollten.
 
-Um das Standardverhalten beim Laden von CSV-Daten zu überschreiben, initialisieren und übergeben Sie a[`CsvDataLoadOptions`](../csvdataloadoptions/) Instanz an einen Konstruktor dieser Klasse.
+Um das Standardverhalten des CSV-Datenladens zu überschreiben, initialisieren und übergeben Sie ein[`CsvDataLoadOptions`](../csvdataloadoptions/) instance zu einem Konstruktor dieser Klasse.
+
+## Beispiele
+
+Zeigt, wie CSV als Datenquelle (Zeichenfolge) verwendet wird.
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### Siehe auch
 

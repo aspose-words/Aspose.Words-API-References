@@ -3,14 +3,14 @@ title: ImageSavingArgs.CurrentShape
 linktitle: CurrentShape
 articleTitle: CurrentShape
 second_title: Aspose.Words für .NET
-description: ImageSavingArgs CurrentShape eigendom. Ruft die abShapeBase Objekt das der Form oder Gruppenform entspricht die gespeichert werden soll in C#.
+description: Entdecken Sie die Eigenschaft „ImageSavingArgs CurrentShape“, um auf das ShapeBase-Objekt zuzugreifen und Formen und Gruppenformen in Ihren Projekten effizient zu speichern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/imagesavingargs/currentshape/
 ---
 ## ImageSavingArgs.CurrentShape property
 
-Ruft die ab[`ShapeBase`](../../../aspose.words.drawing/shapebase/) Objekt, das der Form oder Gruppenform entspricht, die gespeichert werden soll.
+Ruft die[`ShapeBase`](../../../aspose.words.drawing/shapebase/) Objekt, das der Form oder Gruppenform entspricht, die gespeichert werden soll.
 
 ```csharp
 public ShapeBase CurrentShape { get; }
@@ -18,9 +18,9 @@ public ShapeBase CurrentShape { get; }
 
 ## Bemerkungen
 
-[`IImageSavingCallback`](../../iimagesavingcallback/) kann beim Speichern einer Form oder einer Gruppenform ausgelöst werden. Deshalb hat die Immobilie[`ShapeBase`](../../../aspose.words.drawing/shapebase/) Typ. Sie können überprüfen, ob es sich um eine Gruppenform handelt, indem Sie vergleichen.[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) mitGroup oder durch Umwandlung in eine der abgeleiteten Klassen: [`Shape`](../../../aspose.words.drawing/shape/) oder[`GroupShape`](../../../aspose.words.drawing/groupshape/).
+[`IImageSavingCallback`](../../iimagesavingcallback/) kann beim Speichern einer Form oder einer Gruppenform ausgelöst werden. Deshalb hat die Eigenschaft[`ShapeBase`](../../../aspose.words.drawing/shapebase/) Typ. Sie können überprüfen, ob es sich um eine Gruppenform handelt, indem Sie vergleichen[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) mitGroup oder durch Umwandeln in eine der abgeleiteten Klassen: [`Shape`](../../../aspose.words.drawing/shape/) oder[`GroupShape`](../../../aspose.words.drawing/groupshape/).
 
-Aspose.Words verwendet den Dateinamen des Dokuments und eine eindeutige Nummer, um für jedes im Dokument gefundene Bild einen eindeutigen Dateinamen zu generieren. Du kannst den ... benutzen`CurrentShape`Eigenschaft, um einen „besseren“ Dateinamen zu generieren, indem Formeigenschaften wie untersucht werden[`Title`](../../../aspose.words.drawing/imagedata/title/) (nur Form),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (Nur Form) und[`Name`](../../../aspose.words.drawing/shapebase/name/). Natürlich können Sie Dateinamen mit beliebigen anderen Eigenschaften oder Kriterien erstellen , aber beachten Sie, dass untergeordnete Dateinamen innerhalb des Exportvorgangs eindeutig sein müssen.
+Aspose.Words verwendet den Dateinamen des Dokuments und eine eindeutige Nummer, um für jedes im Dokument gefundene Bild einen eindeutigen Dateinamen zu generieren. Sie können die`CurrentShape`Eigenschaft, um einen "besseren" Dateinamen zu generieren, indem Formeigenschaften wie[`Title`](../../../aspose.words.drawing/imagedata/title/) (nur Form),[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) (Nur Form) und[`Name`](../../../aspose.words.drawing/shapebase/name/). Natürlich können Sie Dateinamen anhand anderer Eigenschaften oder Kriterien erstellen , beachten Sie jedoch, dass die untergeordneten Dateinamen innerhalb des Exportvorgangs eindeutig sein müssen.
 
 Einige Bilder im Dokument sind möglicherweise nicht verfügbar. Um die Bildverfügbarkeit zu überprüfen, verwenden Sie [`IsImageAvailable`](../isimageavailable/) Eigentum.
 

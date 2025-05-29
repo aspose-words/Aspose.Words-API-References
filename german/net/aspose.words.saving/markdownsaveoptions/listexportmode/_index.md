@@ -3,9 +3,9 @@ title: MarkdownSaveOptions.ListExportMode
 linktitle: ListExportMode
 articleTitle: ListExportMode
 second_title: Aspose.Words für .NET
-description: MarkdownSaveOptions ListExportMode eigendom. Gibt an wie Listenelemente in die Ausgabedatei geschrieben werden. Der Standardwert istMarkdownSyntax  in C#.
+description: Entdecken Sie die ListExportMode-Eigenschaft von MarkdownSaveOptions, die die Ausgabe von Listenelementen steuert. Optimieren Sie Ihre Dateien mit flexibler MarkdownSyntax!
 type: docs
-weight: 60
+weight: 110
 url: /de/net/aspose.words.saving/markdownsaveoptions/listexportmode/
 ---
 ## MarkdownSaveOptions.ListExportMode property
@@ -18,9 +18,9 @@ public MarkdownListExportMode ListExportMode { get; set; }
 
 ## Bemerkungen
 
-Wenn diese Eigenschaft auf festgelegt istPlainText Alle Listenbezeichnungen werden mit aktualisiert[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/)und mit ihren tatsächlichen Werten exportiert. Solche Listen sind möglicherweise nicht mit dem Markdown-Format kompatibel und werden in diesem Fall beim Import als einfacher Text erkannt.
+Wenn diese Eigenschaft aufPlainText alle Listenbezeichnungen werden aktualisiert mit[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) und mit ihren tatsächlichen Werten exportiert. Solche Listen können nicht mit dem Markdown-Format kompatibel sein und werden in diesem Fall beim Import als einfacher Text erkannt.
 
-Wenn diese Eigenschaft auf festgelegt istMarkdownSyntax, versucht der Autor, Listenelemente auf eine Weise zu exportieren, die es ermöglicht, Listenelemente im automatischen Modus durch Markdown zu nummerieren.
+Wenn diese Eigenschaft aufMarkdownSyntaxDer Writer versucht, x000d_ Listenelemente so zu exportieren, dass die Listenelemente im automatischen Modus durch Markdown nummeriert werden können.
 
 ## Beispiele
 

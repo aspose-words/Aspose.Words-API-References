@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: OdsoRecipientDataCollection Item eigendom. Ruft ein Element in dieser Sammlung ab oder legt es fest in C#.
+description: Verwalten Sie Ihre OdsoRecipientDataCollection mühelos mit unserer Item-Eigenschaft. Rufen Sie Elemente einfach ab oder aktualisieren Sie sie für eine nahtlose Datenverarbeitung.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/odsorecipientdatacollection/item/
@@ -18,7 +18,7 @@ public OdsoRecipientData this[int index] { get; set; }
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Datensätze aus Seriendruckdatenquellen bei einem Seriendruck ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können Elemente auch einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

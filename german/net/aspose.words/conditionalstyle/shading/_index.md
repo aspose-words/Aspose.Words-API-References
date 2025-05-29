@@ -3,14 +3,14 @@ title: ConditionalStyle.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words für .NET
-description: ConditionalStyle Shading eigendom. Ruft a abShading Objekt das sich auf die Schattierungsformatierung für diesen bedingten Stil bezieht in C#.
+description: Entdecken Sie die ConditionalStyle-Shading-Eigenschaft, um auf die Schattierungsformatierung Ihrer Stile zuzugreifen. Verbessern Sie Ihre Designs noch heute mit maßgeschneiderten visuellen Effekten!
 type: docs
 weight: 70
 url: /de/net/aspose.words/conditionalstyle/shading/
 ---
 ## ConditionalStyle.Shading property
 
-Ruft a ab[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsformatierung für diesen bedingten Stil bezieht.
+Erhält eine[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsformatierung für diesen bedingten Stil bezieht.
 
 ```csharp
 public Shading Shading { get; }
@@ -36,12 +36,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Einen benutzerdefinierten Tabellenstil erstellen.
+// Erstellen Sie einen benutzerdefinierten Tabellenstil.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Bedingte Stile sind Formatierungsänderungen, die sich nur auf einige Zellen der Tabelle auswirken
-// basierend auf einem Prädikat, z. B. den Zellen in der letzten Zeile.
-// Nachfolgend finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der „ConditionalStyles“-Sammlung zuzugreifen.
+// Bedingte Stile sind Formatierungsänderungen, die nur einige Zellen der Tabelle betreffen
+// basierend auf einem Prädikat, z. B. dass sich die Zellen in der letzten Zeile befinden.
+// Unten sind drei Möglichkeiten aufgeführt, um auf die bedingten Stile eines Tabellenstils aus der Sammlung „ConditionalStyles“ zuzugreifen.
 // 1 - Nach Stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 

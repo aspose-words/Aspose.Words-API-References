@@ -3,39 +3,45 @@ title: SaveOptions.TempFolder
 linktitle: TempFolder
 articleTitle: TempFolder
 second_title: Aspose.Words für .NET
-description: SaveOptions TempFolder eigendom. Gibt den Ordner für temporäre Dateien an die beim Speichern in einer DOC oder DOCXDatei verwendet werden. Standardmäßig ist diese EigenschaftNull und es werden keine temporären Dateien verwendet in C#.
+description: Optimieren Sie das Speichern Ihrer Dokumente mit der SaveOptions TempFolder-Eigenschaft, die einen Ordner für temporäre DOC- und DOCX-Dateien festlegt und so die Effizienz steigert.
 type: docs
 weight: 140
 url: /de/net/aspose.words.saving/saveoptions/tempfolder/
 ---
 ## SaveOptions.TempFolder property
 
-Gibt den Ordner für temporäre Dateien an, die beim Speichern in einer DOC- oder DOCX-Datei verwendet werden. Standardmäßig ist diese Eigenschaft`Null` und es werden keine temporären Dateien verwendet.
+Gibt den Ordner für temporäre Dateien an, der beim Speichern in eine DOC- oder DOCX-Datei verwendet wird. Standardmäßig ist diese Eigenschaft`null` und es werden keine temporären Dateien verwendet.
 
 ```csharp
 public string TempFolder { get; set; }
 ```
 
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| OutOfMemoryException | Wird ausgelöst, wenn Sie ein sehr großes Dokument (Tausende von Seiten) speichern und/oder viele Dokumente gleichzeitig verarbeiten. Die Speicherspitze während des Speicherns kann groß genug sein, um die Ausnahme zu verursachen. |
+
 ## Bemerkungen
 
-Wenn Aspose.Words ein Dokument speichert, müssen temporäre interne Strukturen erstellt werden. Standardmäßig werden diese internen Strukturen im Speicher erstellt und die Speichernutzung steigt kurzzeitig an, während das Dokument gespeichert wird. Wenn der Speichervorgang abgeschlossen ist, wird der Speicher freigegeben und vom Garbage Collector zurückgefordert.
+Wenn Aspose.Words ein Dokument speichert, müssen temporäre interne Strukturen erstellt werden. Standardmäßig werden diese internen Strukturen im Speicher erstellt, und die Speicherauslastung steigt während des Speicherns des Dokuments kurzzeitig an. Nach Abschluss des Speichervorgangs wird der Speicher freigegeben und vom Garbage Collector freigegeben.
 
-Wenn Sie ein sehr großes Dokument (Tausende Seiten) speichern und/oder viele Dokumente gleichzeitig verarbeiten, kann die Speicherspitze während des Speicherns so groß sein, dass das System einen Fehler verursachtOutOfMemoryException . Angeben eines temporären Ordners mit`TempFolder` führt dazu, dass Aspose.Words die internen Strukturen in temporären Dateien statt im Speicher behält. Dadurch wird die Speichernutzung beim Speichern reduziert, die Speicherleistung wird jedoch verringert.
+Festlegen eines temporären Ordners mit`TempFolder` bewirkt, dass Aspose.Words die internen Strukturen in temporären Dateien (x000d) statt im Speicher speichert. Dies reduziert den Speicherverbrauch beim Speichern, verringert jedoch die Speicherleistung.
 
 Der Ordner muss vorhanden und beschreibbar sein, andernfalls wird eine Ausnahme ausgelöst.
 
-Aspose.Words löscht automatisch alle temporären Dateien, wenn der Speichervorgang abgeschlossen ist.
+Aspose.Words löscht nach Abschluss des Speichervorgangs automatisch alle temporären Dateien.
 
 ## Beispiele
 
-Zeigt, wie Sie beim Speichern eines Dokuments die Festplatte anstelle des Speichers verwenden.
+Zeigt, wie beim Speichern eines Dokuments die Festplatte anstelle des Arbeitsspeichers verwendet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Wenn wir ein Dokument speichern, werden während des Speichervorgangs verschiedene Elemente vorübergehend im Speicher gespeichert.
-// Mit dieser Option können wir stattdessen einen temporären Ordner im lokalen Dateisystem verwenden.
-// was den Speicheraufwand unserer Anwendung reduziert.
+// Wenn wir ein Dokument speichern, werden während des Speichervorgangs verschiedene Elemente vorübergehend im Speicher abgelegt.
+// Wir können diese Option verwenden, um stattdessen einen temporären Ordner im lokalen Dateisystem zu verwenden.
+// wodurch der Speicheraufwand unserer Anwendung reduziert wird.
 DocSaveOptions options = new DocSaveOptions();
 options.TempFolder = ArtifactsDir + "TempFiles";
 
@@ -44,8 +50,8 @@ Directory.CreateDirectory(options.TempFolder);
 
 doc.Save(ArtifactsDir + "DocSaveOptions.TempFolder.doc", options);
 
-// Der Ordner bleibt ohne Restinhalte vom Ladevorgang bestehen.
-Assert.That(Directory.GetFiles(options.TempFolder), Is.Empty);
+// Der Ordner bleibt bestehen und enthält keinen Restinhalt vom Ladevorgang.
+Assert.AreEqual(0, Directory.GetFiles(options.TempFolder).Length);
 ```
 
 ### Siehe auch

@@ -3,7 +3,7 @@ title: FontConfigSubstitutionRule.Enabled
 linktitle: Enabled
 articleTitle: Enabled
 second_title: Aspose.Words für .NET
-description: FontConfigSubstitutionRule Enabled eigendom. Gibt an ob die Regel aktiviert ist oder nicht in C#.
+description: Entdecken Sie, wie Sie die Eigenschaft „FontConfigSubstitutionRule Enabled“ verwalten, um die Schriftarteinstellungen zu optimieren und Ihre Designflexibilität zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/fontconfigsubstitutionrule/enabled/

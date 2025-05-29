@@ -3,7 +3,7 @@ title: FieldStyleRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words für .NET
-description: FieldStyleRef InsertRelativePosition eigendom. Ruft ab oder legt fest ob die relative Position des referenzierten Absatzes eingefügt werden soll in C#.
+description: Entdecken Sie, wie die InsertRelativePosition-Eigenschaft von FieldStyleRef die Formatierung Ihres Dokuments durch die effektive Verwaltung von Absatzverweisen verbessern kann.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Erstellen Sie eine Liste basierend auf einer Microsoft Word-Listenvorlage.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Diese generierte Liste zeigt „1.a)“ an.
- // Das Leerzeichen vor der Klammer ist ein Zeichen ohne Trennzeichen, das wir unterdrücken können.
+// Diese generierte Liste zeigt „1.a )“ an.
+    // Das Leerzeichen vor der Klammer ist kein Trennzeichen, das wir unterdrücken können.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Text hinzufügen und Absatzstile anwenden, auf die STYLEREF-Felder verweisen.
+// Fügen Sie Text hinzu und wenden Sie Absatzstile an, auf die STYLEREF-Felder verweisen.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -44,7 +44,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Platzieren Sie ein STYLEREF-Feld in der Kopfzeile und zeigen Sie den ersten Text im „List Paragraph“-Stil im Dokument an.
+// Platzieren Sie ein STYLEREF-Feld in der Kopfzeile und zeigen Sie den ersten Text im „Listenabsatz“-Stil im Dokument an.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// Wir können STYLEREF-Felder auch verwenden, um auf die Listennummern von Listen zu verweisen.
+// Wir können auch STYLEREF-Felder verwenden, um auf die Listennummern von Listen zu verweisen.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

@@ -3,14 +3,14 @@ title: ImlRenderingMode Enum
 linktitle: ImlRenderingMode
 articleTitle: ImlRenderingMode
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.ImlRenderingMode opsomming. Gibt an wie InkObjekte InkML in feste Seitenformate gerendert werden in C#.
+description: Entdecken Sie die Aspose.Words ImlRenderingMode-Aufzählung für optimales InkML-Rendering. Verbessern Sie Ihre Dokumentausgabe mit präziser Tintenobjektvisualisierung!
 type: docs
-weight: 5250
+weight: 6000
 url: /de/net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration
 
-Gibt an, wie Ink-Objekte (InkML) in feste Seitenformate gerendert werden.
+Gibt an, wie InkML-Objekte (InkML) in feste Seitenformate gerendert werden.
 
 ```csharp
 public enum ImlRenderingMode
@@ -20,17 +20,17 @@ public enum ImlRenderingMode
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Fallback | `0` | Wenn eine Fallback-Form für ein Ink-Objekt (InkML) verfügbar ist, rendert Aspose.Words eine Fallback-Form anstelle von InkML. |
+| Fallback | `0` | Wenn eine Ersatzform für ein InkML-Objekt verfügbar ist, rendert Aspose.Words die Ersatzform anstelle von InkML. |
 | InkML | `1` | Aspose.Words ignoriert die Fallback-Form des Ink-Objekts (InkML) und rendert InkML selbst. Dies ist der Standardmodus. |
 
 ## Beispiele
 
-Zeigt, wie ein Ink-Objekt gerendert wird.
+Zeigt, wie Ink-Objekte gerendert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");
 
-// „ImlRenderingMode.InkML“ festlegen, ignoriert die Fallback-Form des Ink-Objekts (InkML) und rendert InkML selbst.
+// Set 'ImlRenderingMode.InkML' ignoriert die Fallback-Form des Ink-Objekts (InkML) und rendert InkML selbst.
 // Wenn das Rendering-Ergebnis unbefriedigend ist,
 // Bitte verwenden Sie „ImlRenderingMode.Fallback“, um ein ähnliches Ergebnis wie in früheren Versionen zu erhalten.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg)

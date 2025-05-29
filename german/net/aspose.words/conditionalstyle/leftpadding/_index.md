@@ -3,14 +3,14 @@ title: ConditionalStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words für .NET
-description: ConditionalStyle LeftPadding eigendom. Ruft die Menge an Platz in Punkten ab die links vom Inhalt von Tabellenzellen hinzugefügt werden soll oder legt diese fest in C#.
+description: Entdecken Sie die ConditionalStyle LeftPadding-Eigenschaft, um den linken Abstand in Tabellenzellen einfach anzupassen. Verbessern Sie Ihre Layouts mit präziser Kontrolle!
 type: docs
 weight: 40
 url: /de/net/aspose.words/conditionalstyle/leftpadding/
 ---
 ## ConditionalStyle.LeftPadding property
 
-Ruft die Menge an Platz (in Punkten) ab, die links vom Inhalt von Tabellenzellen hinzugefügt werden soll, oder legt diese fest.
+Ruft den Abstand (in Punkten) ab, der links vom Inhalt der Tabellenzellen hinzugefügt werden soll, oder legt diesen fest.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -36,12 +36,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Einen benutzerdefinierten Tabellenstil erstellen.
+// Erstellen Sie einen benutzerdefinierten Tabellenstil.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Bedingte Stile sind Formatierungsänderungen, die sich nur auf einige Zellen der Tabelle auswirken
-// basierend auf einem Prädikat, z. B. den Zellen in der letzten Zeile.
-// Nachfolgend finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der „ConditionalStyles“-Sammlung zuzugreifen.
+// Bedingte Stile sind Formatierungsänderungen, die nur einige Zellen der Tabelle betreffen
+// basierend auf einem Prädikat, z. B. dass sich die Zellen in der letzten Zeile befinden.
+// Unten sind drei Möglichkeiten aufgeführt, um auf die bedingten Stile eines Tabellenstils aus der Sammlung „ConditionalStyles“ zuzugreifen.
 // 1 - Nach Stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 

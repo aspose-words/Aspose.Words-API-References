@@ -3,7 +3,7 @@ title: IDocumentReaderPlugin.Read
 linktitle: Read
 articleTitle: Read
 second_title: Aspose.Words für .NET
-description: IDocumentReaderPlugin Read methode. Liest die Daten aus dem angegebenen Stream in denDocument Instanz in C#.
+description: Lesen Sie Daten mühelos in Ihre Dokumentinstanz ein – mit der Read-Methode des IDocumentReaderPlugin. Verbessern Sie noch heute Ihre Dokumentenverarbeitung!
 type: docs
 weight: 10
 url: /de/net/aspose.words/idocumentreaderplugin/read/
@@ -20,7 +20,7 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 | --- | --- | --- |
 | src | Stream | Der Quellstream, aus dem das Dokument gelesen werden soll. |
 | loadOptions | LoadOptions | Eine zusätzliche Ladeoption zum Laden des Dokuments. |
-| document | Document | Die Instanz des[`Document`](../../document/) Klasse, in die die Daten gelesen werden sollen. Wenn die Instanz Inhalt enthält, wird dieser durch die Daten aus dem Quellstream überschrieben |
+| document | Document | Die Instanz des[`Document`](../../document/) Klasse, in die die Daten gelesen werden. Wenn die Instanz Inhalt enthält, wird dieser durch die Daten aus dem Quellstream überschrieben |
 
 ### Siehe auch
 

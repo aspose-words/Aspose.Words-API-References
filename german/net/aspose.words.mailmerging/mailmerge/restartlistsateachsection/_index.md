@@ -3,14 +3,14 @@ title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
 second_title: Aspose.Words für .NET
-description: MailMerge RestartListsAtEachSection eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob Listen in jedem Abschnitt nach der Ausführung eines Seriendrucks neu gestartet werden in C#.
+description: Entdecken Sie die MailMerge-Eigenschaft „RestartListsAtEachSection“ – die Kontrolllisten werden in jedem Abschnitt zurückgesetzt, um nahtlose Serienbriefe zu ermöglichen. Verbessern Sie noch heute die Präzision Ihrer Dokumente!
 type: docs
 weight: 110
 url: /de/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
 ## MailMerge.RestartListsAtEachSection property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob Listen in jedem Abschnitt nach der Ausführung eines Seriendrucks neu gestartet werden.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob Listen nach der Ausführung eines Seriendrucks in jedem Abschnitt neu gestartet werden.
 
 ```csharp
 public bool RestartListsAtEachSection { get; set; }
@@ -22,7 +22,7 @@ Der Standardwert ist`WAHR` .
 
 ## Beispiele
 
-Zeigt, wie Sie steuern können, ob die Listennummerierung in jedem Abschnitt neu gestartet wird, wenn ein Seriendruck durchgeführt wird.
+Zeigt, wie gesteuert wird, ob die Listennummerierung bei jedem Abschnitt neu gestartet wird, wenn ein Seriendruck ausgeführt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

@@ -3,9 +3,9 @@ title: VbaModuleType Enum
 linktitle: VbaModuleType
 articleTitle: VbaModuleType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Vba.VbaModuleType opsomming. Gibt den Typ eines Modells in einem VBAProjekt an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Vba.VbaModuleType, die Modelltypen in VBA-Projekten für eine verbesserte Automatisierung und optimierte Dokumentenverwaltung definiert.
 type: docs
-weight: 6570
+weight: 7420
 url: /de/net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration
@@ -20,30 +20,30 @@ public enum VbaModuleType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| DocumentModule | `0` | Ein VBA-Projektelementtyp, der ein Modul für eingebettete Makros und programmgesteuerte Zugriffsvorgänge angibt, die einem Dokument zugeordnet sind. |
+| DocumentModule | `0` | Ein Typ von VBA-Projektelement, das ein Modul für eingebettete Makros und programmgesteuerte Zugriffsvorgänge angibt, die einem Dokument zugeordnet sind. |
 | ProceduralModule | `1` | Eine Sammlung von Unterprogrammen und Funktionen. |
-| ClassModule | `2` | Ein Modul, das die Definition für ein neues Objekt enthält. Jede Instanz einer Klasse erstellt ein neues Objekt, und Prozeduren, die im Modul definiert sind, werden zu Eigenschaften und Methoden des Objekts. |
+| ClassModule | `2` | Ein Modul, das die Definition eines neuen Objekts enthält. Jede Instanz einer Klasse erzeugt ein neues Objekt. Die im Modul definierten Prozeduren werden zu Eigenschaften und Methoden des Objekts. |
 | DesignerModule | `3` | Ein VBA-Modul, das die Methoden und Eigenschaften eines ActiveX-Steuerelements erweitert, das beim Projekt registriert wurde. |
 
 ## Beispiele
 
-Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
+Zeigt, wie man mit Makros ein VBA-Projekt erstellt.
 
 ```csharp
 Document doc = new Document();
 
-// Ein neues VBA-Projekt erstellen.
+// Erstellen Sie ein neues VBA-Projekt.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Ein neues Modul erstellen und einen Makroquellcode angeben.
+// Erstellen Sie ein neues Modul und geben Sie einen Makro-Quellcode an.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Modul zum VBA-Projekt hinzufügen.
+// Fügen Sie das Modul zum VBA-Projekt hinzu.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

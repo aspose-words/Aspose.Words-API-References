@@ -3,14 +3,14 @@ title: PageSetup.BorderDistanceFrom
 linktitle: BorderDistanceFrom
 articleTitle: BorderDistanceFrom
 second_title: Aspose.Words für .NET
-description: PageSetup BorderDistanceFrom eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob der angegebene Seitenrand vom Rand der Seite oder vom Text den er umgibt gemessen wird in C#.
+description: Entdecken Sie die PageSetup BorderDistanceFrom-Eigenschaft, um die Seitenrandmaße für eine präzise Dokumentformatierung zu steuern. Optimieren Sie Ihr Layout noch heute!
 type: docs
 weight: 40
 url: /de/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob der angegebene Seitenrand vom Rand der Seite oder vom Text, den er umgibt, gemessen wird.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der angegebene Seitenrand vom Rand der Seite oder vom umgebenden Text gemessen wird.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
@@ -18,7 +18,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
+Zeigt, wie oben auf der ersten Seite ein breiter blauer Bandrand erstellt wird.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: Paragraph.BreakIsStyleSeparator
 linktitle: BreakIsStyleSeparator
 articleTitle: BreakIsStyleSeparator
 second_title: Aspose.Words für .NET
-description: Paragraph BreakIsStyleSeparator eigendom. True wenn dieser Absatzumbruch ein Stiltrennzeichen ist. Ein Stiltrennzeichen ermöglicht dass ein Absatz aus Teilen mit unterschiedlichen Absatzstilen bestehen kann in C#.
+description: Entdecken Sie, wie die Eigenschaft „Absatzumbruch IsStyleSeparator“ die Dokumentformatierung verbessert, indem sie gemischte Absatzstile für mehr Designflexibilität ermöglicht.
 type: docs
 weight: 20
 url: /de/net/aspose.words/paragraph/breakisstyleseparator/
 ---
 ## Paragraph.BreakIsStyleSeparator property
 
-True, wenn dieser Absatzumbruch ein Stiltrennzeichen ist. Ein Stiltrennzeichen ermöglicht, dass ein Absatz aus Teilen mit unterschiedlichen Absatzstilen bestehen kann.
+Wahr, wenn dieser Absatzumbruch ein Stiltrennzeichen ist. Ein Stiltrennzeichen ermöglicht es, dass ein Absatz aus Teilen mit unterschiedlichen Absatzstilen besteht.
 
 ```csharp
 public bool BreakIsStyleSeparator { get; }
@@ -18,7 +18,7 @@ public bool BreakIsStyleSeparator { get; }
 
 ## Beispiele
 
-Zeigt, wie man Text in dieselbe Zeile wie die Überschrift eines Inhaltsverzeichnisses schreibt und dafür sorgt, dass dieser nicht im Inhaltsverzeichnis angezeigt wird.
+Zeigt, wie Sie Text in dieselbe Zeile wie eine Inhaltsverzeichnisüberschrift schreiben, ohne dass er im Inhaltsverzeichnis angezeigt wird.
 
 ```csharp
 Document doc = new Document();
@@ -27,16 +27,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertTableOfContents("\\o \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Einen Absatz mit einem Stil einfügen, den das Inhaltsverzeichnis als Eintrag aufnimmt.
+// Fügen Sie einen Absatz mit einem Stil ein, den das Inhaltsverzeichnis als Eintrag übernimmt.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
-// Diese beiden Zeichenfolgen befinden sich im selben Absatz und werden daher im selben TOC-Eintrag angezeigt.
+// Beide Zeichenfolgen befinden sich im selben Absatz und werden daher im selben Inhaltsverzeichniseintrag angezeigt.
 builder.Write("Heading 1. ");
 builder.Write("Will appear in the TOC. ");
 
-// Wenn wir ein Stiltrennzeichen einfügen, können wir mehr Text in denselben Absatz schreiben
-// und einen anderen Stil verwenden, ohne dass dieser im Inhaltsverzeichnis angezeigt wird.
-// Wenn wir nach dem Trennzeichen einen Überschriftenstil verwenden, können wir mehrere Inhaltsverzeichniseinträge aus einer Dokumenttextzeile zeichnen.
+// Wenn wir einen Stiltrenner einfügen, können wir mehr Text in den gleichen Absatz schreiben
+// und einen anderen Stil verwenden, ohne im Inhaltsverzeichnis angezeigt zu werden.
+// Wenn wir nach dem Trennzeichen einen Überschriftenstil verwenden, können wir aus einer Dokumenttextzeile mehrere Inhaltsverzeichniseinträge zeichnen.
 builder.InsertStyleSeparator();
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Quote;
 builder.Write("Won't appear in the TOC. ");

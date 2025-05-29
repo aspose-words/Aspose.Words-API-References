@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words für .NET
-description: FieldDisplayBarcode CaseCodeStyle eigendom. Ruft den Stil eines Fallcodes für den Barcodetyp ITF14 ab oder legt ihn fest. Die gültigen Werte sind STDEXTADD in C#.
+description: Entdecken Sie die FieldDisplayBarcode CaseCodeStyle-Eigenschaft für ITF14-Barcodes. Passen Sie Ihren Case-Code-Stil ganz einfach mit gültigen Optionen wie STDEXTADD an.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 ---
 ## FieldDisplayBarcode.CaseCodeStyle property
 
-Ruft den Stil eines Fallcodes für den Barcodetyp ITF14 ab oder legt ihn fest. Die gültigen Werte sind [STD&#x7C;EXT&#x7C;ADD]
+Ruft den Stil eines Case Codes für den Barcode-Typ ITF14 ab oder legt ihn fest. Die gültigen Werte sind [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Unten sind vier Arten von Barcodes aufgeführt, die auf unterschiedliche Weise dekoriert sind und die im Feld DISPLAYBARCODE angezeigt werden können.
+// Unten sind vier Arten von Barcodes aufgeführt, die auf verschiedene Weise gestaltet sind und die das Feld DISPLAYBARCODE anzeigen kann.
 // 1 - QR-Code mit benutzerdefinierten Farben:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 – EAN13-Barcode, mit den unter den Balken angezeigten Ziffern:
+// 2 - EAN13-Barcode, mit den unter den Balken angezeigten Ziffern:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 – ITF4-Barcode, mit einem angegebenen Fallcode:
+// 4 - ITF4-Barcode mit einem angegebenen Fallcode:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

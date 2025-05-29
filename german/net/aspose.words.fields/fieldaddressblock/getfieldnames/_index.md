@@ -3,7 +3,7 @@ title: FieldAddressBlock.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words für .NET
-description: FieldAddressBlock GetFieldNames methode. Gibt eine Sammlung von Serienbrieffeldnamen zurück die vom Feld verwendet werden in C#.
+description: Entdecken Sie die GetFieldNames-Methode in FieldAddressBlock. Rufen Sie mühelos Serienbrief-Feldnamen ab, um Ihren Dokumentenautomatisierungsprozess zu verbessern.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/fieldaddressblock/getfieldnames/
@@ -18,7 +18,7 @@ public string[] GetFieldNames()
 
 ## Beispiele
 
-Zeigt, wie von einem Feld verwendete Serienbrieffeldnamen abgerufen werden.
+Zeigt, wie Sie die von einem Feld verwendeten Seriendruckfeldnamen abrufen.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - ADDRESSBLOCK.docx");

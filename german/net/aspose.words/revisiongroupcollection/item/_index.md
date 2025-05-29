@@ -3,7 +3,7 @@ title: RevisionGroupCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: RevisionGroupCollection Item eigendom. Gibt eine Revisionsgruppe am angegebenen Index zurück in C#.
+description: Greifen Sie mühelos auf bestimmte Revisionsgruppen zu – mit der Elementeigenschaft „RevisionGroupCollection“. Verbessern Sie Ihr Datenmanagement durch präzise Indizierung.
 type: docs
 weight: 20
 url: /de/net/aspose.words/revisiongroupcollection/item/
@@ -18,7 +18,7 @@ public RevisionGroup this[int index] { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Gruppe von Revisionen in einem Dokument abgerufen wird.
+Zeigt, wie man eine Gruppe von Revisionen in einem Dokument erhält.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

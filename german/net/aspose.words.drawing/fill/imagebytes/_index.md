@@ -3,14 +3,14 @@ title: Fill.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words für .NET
-description: Fill ImageBytes eigendom. Ruft die Rohbytes der Fülltextur oder des Füllmusters ab in C#.
+description: Greifen Sie mit der ImageBytes-Eigenschaft auf die Rohbytes Ihrer Fülltextur oder Ihres Musters zu, um eine nahtlose Designintegration und verbesserte visuelle Qualität zu erzielen.
 type: docs
-weight: 130
+weight: 140
 url: /de/net/aspose.words.drawing/fill/imagebytes/
 ---
 ## Fill.ImageBytes property
 
-Ruft die Rohbytes der Fülltextur oder des Füllmusters ab.
+Ruft die Rohbytes der Fülltextur oder des Musters ab.
 
 ```csharp
 public byte[] ImageBytes { get; }
@@ -18,18 +18,18 @@ public byte[] ImageBytes { get; }
 
 ## Bemerkungen
 
-Der Standardwert ist`Null`.
+Der Standardwert ist`null`.
 
 ## Beispiele
 
-Zeigt, um eine Vielzahl von Formen zu erstellen.
+Zeigt, wie man eine Vielzahl von Formen erstellt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie vier Beispiele für Formen, die wir in unsere Dokumente einfügen können.
-// 1 – Gepunktete, horizontale, halbtransparente rote Linie
+// Unten sind vier Beispiele für Formen, die wir in unsere Dokumente einfügen können.
+// 1 - Gepunktete, horizontale, halbtransparente rote Linie
 // mit einem Pfeil am linken Ende und einer Raute am rechten Ende:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -47,7 +47,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 – Dicke schwarze diagonale Linie mit abgerundeten Enden:
+// 2 - Dicke schwarze diagonale Linie mit abgerundeten Enden:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 – Pfeil mit umgekehrter Ausrichtung, gefüllt mit dem Aspose-Logo:
+// 4 – Pfeil mit umgekehrter Ausrichtung, ausgefüllt mit dem Aspose-Logo:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Wenn wir die Ausrichtung unseres Pfeils umdrehen, drehen wir auch das Bild um, das der Pfeil enthält.
-    // Drehen Sie das Bild in die andere Richtung, um dies aufzuheben, bevor Sie die Form erhalten, in der es angezeigt wird.
+    // Wenn wir die Ausrichtung unseres Pfeils umkehren, spiegeln wir auch das Bild, das der Pfeil enthält.
+    // Drehen Sie das Bild in die andere Richtung, um dies aufzuheben, bevor Sie die Form zur Anzeige erhalten.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

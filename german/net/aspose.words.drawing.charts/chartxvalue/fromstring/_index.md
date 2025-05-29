@@ -3,7 +3,7 @@ title: ChartXValue.FromString
 linktitle: FromString
 articleTitle: FromString
 second_title: Aspose.Words für .NET
-description: ChartXValue FromString methode. Erstellt eineChartXValue Instanz derString Typ in C#.
+description: Entdecken Sie die ChartXValue FromString-Methode, um mühelos ChartXValue-Instanzen vom Typ String zu erstellen. Verbessern Sie noch heute Ihre Datenvisualisierung!
 type: docs
 weight: 40
 url: /de/net/aspose.words.drawing.charts/chartxvalue/fromstring/
@@ -29,11 +29,11 @@ Chart chart = shape.Chart;
 ChartSeries department1Series = chart.Series[0];
 ChartSeries department2Series = chart.Series[1];
 
-// Den ersten Wert in beiden Reihen entfernen.
+// Entfernen Sie den ersten Wert in beiden Reihen.
 department1Series.Remove(0);
 department2Series.Remove(0);
 
-// Neue Werte zu beiden Reihen hinzufügen.
+// Fügen Sie beiden Reihen neue Werte hinzu.
 ChartXValue newXCategory = ChartXValue.FromString("Q1, 2023");
 department1Series.Add(newXCategory, ChartYValue.FromDouble(10.3));
 department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));

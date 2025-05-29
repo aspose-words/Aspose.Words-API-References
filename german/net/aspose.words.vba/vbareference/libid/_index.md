@@ -3,14 +3,14 @@ title: VbaReference.LibId
 linktitle: LibId
 articleTitle: LibId
 second_title: Aspose.Words für .NET
-description: VbaReference LibId eigendom. Ruft einen Zeichenfolgenwert ab der den Bezeichner einer Automatisierungstypbibliothek enthält in C#.
+description: Entdecken Sie die VBA-LibId-Eigenschaft und rufen Sie mit diesem wichtigen Leitfaden für Entwickler mühelos die Kennung der Automatisierungstypbibliothek ab. Verbessern Sie Ihre Programmierkenntnisse!
 type: docs
 weight: 10
 url: /de/net/aspose.words.vba/vbareference/libid/
 ---
 ## VbaReference.LibId property
 
-Ruft einen Zeichenfolgenwert ab, der den Bezeichner einer Automatisierungstypbibliothek enthält.
+Ruft einen Zeichenfolgenwert ab, der die Kennung einer Automatisierungstypbibliothek enthält.
 
 ```csharp
 public abstract string LibId { get; }
@@ -18,10 +18,10 @@ public abstract string LibId { get; }
 
 ## Bemerkungen
 
-Abhängig vom Referenztyp kann der Wert dieser Eigenschaft sein:
+Je nach Referenztyp kann der Wert dieser Eigenschaft sein:
 
-* eine LibidReference, angegeben unter 2.1.1.8 LibidReference von [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
-* eine ProjectReference, angegeben unter 2.1.1.12 ProjectReference von [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
+* eine LibidReference angegeben unter 2.1.1.8 LibidReference von [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* eine unter 2.1.1.12 angegebene Projektreferenz Projektreferenz von [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ## Beispiele
 
@@ -53,7 +53,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt.
+    /// Gibt eine Zeichenfolge zurück, die den LibId-Pfad einer angegebenen Referenz darstellt.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

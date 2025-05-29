@@ -3,14 +3,14 @@ title: Font.EmphasisMark
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
 second_title: Aspose.Words für .NET
-description: Font EmphasisMark eigendom. Ruft die auf diese Formatierung angewendete Hervorhebungsmarkierung ab oder legt diese fest in C#.
+description: Entdecken Sie, wie Sie mit der Schriftart-Hervorhebungseigenschaft Ihre Textformatierung verbessern. Erfahren Sie, wie Sie Hervorhebungen für eine bessere Lesbarkeit festlegen und anpassen.
 type: docs
 weight: 110
 url: /de/net/aspose.words/font/emphasismark/
 ---
 ## Font.EmphasisMark property
 
-Ruft die auf diese Formatierung angewendete Hervorhebungsmarkierung ab oder legt diese fest.
+Ruft das Hervorhebungszeichen ab oder legt es fest, das auf diese Formatierung angewendet wird.
 
 ```csharp
 public EmphasisMark EmphasisMark { get; set; }
@@ -18,7 +18,7 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man zusätzliche Zeichen hinzufügt, die über/unter dem Glyphenzeichen gerendert werden.
+Zeigt, wie zusätzliche Zeichen hinzugefügt werden, die über/unter dem Glyphenzeichen dargestellt werden.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();

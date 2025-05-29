@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection
 linktitle: OdsoRecipientDataCollection
 articleTitle: OdsoRecipientDataCollection
 second_title: Aspose.Words für .NET
-description: OdsoRecipientDataCollection constructeur. Default_Constructor in C#.
+description: Entdecken Sie den OdsoRecipientDataCollection-Konstruktor – Ihre Lösung für effiziente Datenverarbeitung. Vereinfachen Sie Ihre Programmierung mit unserem Standardkonstruktor!
 type: docs
 weight: 10
 url: /de/net/aspose.words.settings/odsorecipientdatacollection/odsorecipientdatacollection/

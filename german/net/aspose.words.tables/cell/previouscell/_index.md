@@ -3,14 +3,14 @@ title: Cell.PreviousCell
 linktitle: PreviousCell
 articleTitle: PreviousCell
 second_title: Aspose.Words für .NET
-description: Cell PreviousCell eigendom. Ruft den vorherigen abCell node in C#.
+description: Greifen Sie mit der Cell PreviousCell-Eigenschaft mühelos auf den vorherigen Zellknoten zu. Verbessern Sie Ihre Datennavigation und optimieren Sie Ihren Codierungsprozess.
 type: docs
 weight: 110
 url: /de/net/aspose.words.tables/cell/previouscell/
 ---
 ## Cell.PreviousCell property
 
-Ruft den vorherigen ab[`Cell`](../) node.
+Ruft die vorherige[`Cell`](../) Knoten.
 
 ```csharp
 public Cell PreviousCell { get; }
@@ -18,17 +18,17 @@ public Cell PreviousCell { get; }
 
 ## Bemerkungen
 
-Die Methode kann verwendet werden, wenn Sie typisierten Zugriff auf Zellen von a benötigen[`Row`](../../row/) . Wenn a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) Wird ein Knoten in einer Zeile statt in einer Zelle gefunden, wird er automatisch durchlaufen, um eine darin enthaltene Zelle zu erhalten.
+Die Methode kann verwendet werden, wenn Sie typisierten Zugriff auf Zellen einer[`Row`](../../row/) Wenn a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) Wenn ein Knoten in einer Zeile statt in einer Zelle gefunden wird, wird er automatisch durchlaufen, um eine darin enthaltene Zelle zu finden.
 
 ## Beispiele
 
-Zeigt, wie alle Tabellenzellen aufgezählt werden.
+Zeigt, wie alle Tabellenzellen durchnummeriert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Alle Zellen der Tabelle aufzählen.
+// Alle Zellen der Tabelle durchzählen.
 for (Row row = table.FirstRow; row != null; row = row.NextRow)
 {
     for (Cell cell = row.FirstCell; cell != null; cell = cell.NextCell)

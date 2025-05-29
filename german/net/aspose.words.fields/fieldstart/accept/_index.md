@@ -3,14 +3,14 @@ title: FieldStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: FieldStart Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die Accept-Methode von FieldStart, um die Besucherinteraktion zu verbessern und die Interaktionen auf Ihrer Website zu optimieren. Steigern Sie mühelos die Konversionsrate!
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldstart/accept/
 ---
 ## FieldStart.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-**FALSCH** wenn der Besucher das Stoppen der Aufzählung angefordert hat.
+**FALSCH** wenn der Besucher die Beendigung der Aufzählung verlangt hat.
 
 ## Bemerkungen
 
 Anrufe[`VisitFieldStart`](../../../aspose.words/documentvisitor/visitfieldstart/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
 ## Beispiele
 
@@ -52,8 +52,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

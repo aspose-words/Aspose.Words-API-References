@@ -3,9 +3,9 @@ title: BookmarksOutlineLevelCollection Class
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection klas. Eine Sammlung einzelner Lesezeichen auf Gliederungsebene in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Saving.BookmarksOutlineLevelCollection – ein leistungsstarkes Tool zum mühelosen Verwalten von Lesezeichen und Verbessern der Dokumentnavigation.
 type: docs
-weight: 4850
+weight: 5590
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
@@ -37,17 +37,17 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 | --- | --- |
 | [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Fügt der Sammlung ein Lesezeichen hinzu. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Ermittelt, ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält. |
-| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Bestimmt, ob die Sammlung ein Lesezeichen mit dem angegebenen Namen enthält. |
+| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können. |
 | [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Gibt den nullbasierten Index des angegebenen Lesezeichens in der Sammlung zurück. |
 | [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Entfernt ein Lesezeichen mit dem angegebenen Namen aus der Sammlung. |
 | [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Entfernt ein Lesezeichen am angegebenen Index. |
 
 ## Bemerkungen
 
-Der Schlüssel ist ein Lesezeichenname mit Zeichenkette, bei dem die Groß-/Kleinschreibung nicht beachtet wird. Der Wert ist eine int-Lesezeichen-Gliederungsebene.
+Der Schlüssel ist ein String-Lesezeichenname ohne Berücksichtigung der Groß-/Kleinschreibung. Der Wert ist eine Ganzzahl der Lesezeichengliederungsebene.
 
-Die Lesezeichen-Gliederungsebene kann ein Wert zwischen 0 und 9 sein. Geben Sie 0 an, und das Word-Lesezeichen wird nicht in der Dokumentgliederung angezeigt. Geben Sie 1 an, und das Word-Lesezeichen wird in der Dokumentgliederung auf Ebene 1 angezeigt. 2 für Level 2 und so weiter.
+Die Gliederungsebene des Lesezeichens kann einen Wert zwischen 0 und 9 haben. Geben Sie 0 an, und das Word-Lesezeichen wird nicht in der Dokumentgliederung angezeigt. Geben Sie 1 an, und das Word-Lesezeichen wird in der Dokumentgliederung auf Ebene 1 angezeigt; 2 für Ebene 2 und so weiter.
 
 ## Beispiele
 
@@ -57,7 +57,7 @@ Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein Lesezeichen mit einem anderen darin verschachtelten Lesezeichen ein.
+// Fügt ein Lesezeichen ein, in dem ein weiteres Lesezeichen verschachtelt ist.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -93,14 +93,14 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Es gibt neun Gliederungsebenen. Ihre Nummerierung wird während des Speichervorgangs optimiert.
-// In diesem Fall werden die Stufen „5“ und „9“ zu „2“ und „3“.
+// Es gibt neun Gliederungsebenen. Ihre Nummerierung wird beim Speichern optimiert.
+// In diesem Fall werden die Ebenen „5“ und „9“ zu „2“ und „3“.
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Durch das Leeren dieser Sammlung bleiben die Lesezeichen erhalten und werden alle auf derselben Gliederungsebene platziert.
+// Durch das Leeren dieser Sammlung bleiben die Lesezeichen erhalten und werden alle auf die gleiche Gliederungsebene gesetzt.
 outlineLevels.Clear();
 ```
 

@@ -3,14 +3,14 @@ title: PreferredWidth.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words für .NET
-description: PreferredWidth Equals methode. Bestimmt ob die angegebenePreferredWidth ist vom Wert her gleich dem StromPreferredWidth  in C#.
+description: Entdecken Sie, wie die Methode „PreferredWidth Equals“ prüft, ob Ihre angegebene Breite mit dem aktuellen Wert übereinstimmt, und so die Präzision Ihres Layoutdesigns gewährleistet.
 type: docs
 weight: 60
 url: /de/net/aspose.words.tables/preferredwidth/equals/
 ---
 ## Equals(*[PreferredWidth](../)*) {#equals}
 
-Bestimmt, ob die angegebene[`PreferredWidth`](../) ist vom Wert her gleich dem Strom[`PreferredWidth`](../) .
+Bestimmt, ob die angegebene[`PreferredWidth`](../) ist im Wert gleich dem aktuellen[`PreferredWidth`](../) .
 
 ```csharp
 public bool Equals(PreferredWidth other)
@@ -18,7 +18,7 @@ public bool Equals(PreferredWidth other)
 
 ## Beispiele
 
-Zeigt, wie man eine bevorzugte Breite für Tabellenzellen festlegt.
+Zeigt, wie Sie eine bevorzugte Breite für Tabellenzellen festlegen.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Eine Zelle, für die keine bevorzugte Breite angegeben ist, nimmt den Rest des verfügbaren Platzes ein.
+// Eine Zelle ohne angegebene bevorzugte Breite nimmt den restlichen verfügbaren Platz ein.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Jede Konfiguration der Eigenschaft „PreferredWidth“ erstellt ein neues Objekt.
@@ -71,7 +71,7 @@ public override bool Equals(object obj)
 
 ## Beispiele
 
-Zeigt, wie man eine bevorzugte Breite für Tabellenzellen festlegt.
+Zeigt, wie Sie eine bevorzugte Breite für Tabellenzellen festlegen.
 
 ```csharp
 Document doc = new Document();
@@ -93,7 +93,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Eine Zelle, für die keine bevorzugte Breite angegeben ist, nimmt den Rest des verfügbaren Platzes ein.
+// Eine Zelle ohne angegebene bevorzugte Breite nimmt den restlichen verfügbaren Platz ein.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Jede Konfiguration der Eigenschaft „PreferredWidth“ erstellt ein neues Objekt.

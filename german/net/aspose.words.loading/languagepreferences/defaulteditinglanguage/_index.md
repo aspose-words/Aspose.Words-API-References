@@ -3,14 +3,14 @@ title: LanguagePreferences.DefaultEditingLanguage
 linktitle: DefaultEditingLanguage
 articleTitle: DefaultEditingLanguage
 second_title: Aspose.Words für .NET
-description: LanguagePreferences DefaultEditingLanguage eigendom. Ruft die Standardbearbeitungssprache ab oder legt diese fest in C#.
+description: Verwalten Sie Ihre Bearbeitungserfahrung mit der Eigenschaft „Language“ von LanguagePreferences. Legen Sie ganz einfach Ihre Standardbearbeitungssprache fest und passen Sie sie an.
 type: docs
 weight: 20
 url: /de/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
 ---
 ## LanguagePreferences.DefaultEditingLanguage property
 
-Ruft die Standardbearbeitungssprache ab oder legt diese fest.
+Ruft die Standardbearbeitungssprache ab oder legt sie fest.
 
 Der Standardwert istEnglishUS.
 

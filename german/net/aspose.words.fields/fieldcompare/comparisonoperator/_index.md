@@ -3,7 +3,7 @@ title: FieldCompare.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words für .NET
-description: FieldCompare ComparisonOperator eigendom. Ruft den Vergleichsoperator ab oder legt ihn fest in C#.
+description: Entdecken Sie die FieldCompare ComparisonOperator-Eigenschaft – verwalten Sie Ihre Vergleichsoperatoren ganz einfach für eine verbesserte Datenanalyse und Effizienz.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldcompare/comparisonoperator/
@@ -30,7 +30,7 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// Das COMPARE-Feld zeigt eine „0“ oder eine „1“ an, abhängig von der Wahrheit seiner Aussage.
+// Das Feld COMPARE zeigt eine „0“ oder eine „1“ an, abhängig von der Wahrheit seiner Aussage.
 // Das Ergebnis dieser Anweisung ist falsch, sodass in diesem Feld eine „0“ angezeigt wird.
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);

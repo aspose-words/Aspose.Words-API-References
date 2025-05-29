@@ -3,7 +3,7 @@ title: TableSubstitutionRule.LoadAndroidSettings
 linktitle: LoadAndroidSettings
 articleTitle: LoadAndroidSettings
 second_title: Aspose.Words für .NET
-description: TableSubstitutionRule LoadAndroidSettings methode. Lädt vordefinierte Tabellenersetzungseinstellungen für die AndroidPlattform in C#.
+description: Laden Sie mühelos vordefinierte Tabellensubstitutionseinstellungen für Android mit der Methode TableSubstitutionRule LoadAndroidSettings. Optimieren Sie Ihre App noch heute!
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/

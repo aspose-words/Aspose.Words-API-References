@@ -3,7 +3,7 @@ title: Node.CustomNodeId
 linktitle: CustomNodeId
 articleTitle: CustomNodeId
 second_title: Aspose.Words für .NET
-description: Node CustomNodeId eigendom. Gibt die benutzerdefinierte Knotenkennung an in C#.
+description: Entdecken Sie die Node CustomNodeId-Eigenschaft für eine effiziente benutzerdefinierte Knotenidentifizierung. Verbessern Sie Ihr Projekt mit eindeutigen Kennungen für eine bessere Organisation!
 type: docs
 weight: 10
 url: /de/net/aspose.words/node/customnodeid/
@@ -20,9 +20,9 @@ public int CustomNodeId { get; set; }
 
 Der Standardwert ist Null.
 
-Dieser Bezeichner kann beliebig festgelegt und verwendet werden. Zum Beispiel als Schlüssel zum Abrufen externer Daten.
+Diese Kennung kann beliebig gesetzt und verwendet werden. Beispielsweise als Schlüssel zum Abrufen externer Daten.
 
-Wichtiger Hinweis: Der angegebene Wert wird nicht in einer Ausgabedatei gespeichert und existiert nur während der Knotenlebensdauer.
+Wichtiger Hinweis: Der angegebene Wert wird nicht in einer Ausgabedatei gespeichert und existiert nur während der Lebensdauer des Knotens.
 
 ## Beispiele
 
@@ -38,15 +38,15 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Knotenlebensdauer vorhanden ist.
+// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Lebensdauer des Knotens existiert.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Durch die Sammlung der unmittelbar untergeordneten Elemente des Absatzes iterieren,
-// und alle Läufe oder Formen drucken, die wir darin finden.
+// Durchlaufen Sie die Sammlung der unmittelbar untergeordneten Elemente des Absatzes.
+// und drucke alle Läufe oder Formen aus, die wir darin finden.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

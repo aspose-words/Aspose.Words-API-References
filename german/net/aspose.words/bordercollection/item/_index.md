@@ -3,14 +3,14 @@ title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: BorderCollection Item eigendom. Ruft a abBorder Objekt nach Rahmentyp in C#.
+description: Entdecken Sie die BorderCollection-Elementeigenschaft, um einfach auf Border-Objekte nach Typ zuzugreifen. Optimieren Sie Ihr Design mit effizienter Rahmenverwaltung!
 type: docs
 weight: 60
 url: /de/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Ruft a ab[`Border`](../../border/) Objekt nach Rahmentyp.
+Ruft eine[`Border`](../../border/) Objekt nach Rahmentyp.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -18,15 +18,15 @@ public Border this[BorderType borderType] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| borderType | A[`BorderType`](../../bordertype/) value , der den Typ des abzurufenden Rahmens angibt. |
+| borderType | A[`BorderType`](../../bordertype/) value , der den Typ der abzurufenden Grenze angibt. |
 
 ## Bemerkungen
 
-Beachten Sie, dass nicht alle Rahmen für verschiedene Dokumentelemente vorhanden sind. Diese Methode löst eine Ausnahme aus, wenn Sie einen Rahmen anfordern, der nicht auf das aktuelle Objekt anwendbar ist.
+Beachten Sie, dass nicht alle Rahmen für verschiedene Dokumentelemente vorhanden sind. Diese Methode löst eine Ausnahme aus, wenn Sie einen Rahmen anfordern, der für das aktuelle Objekt nicht anwendbar ist.
 
 ## Beispiele
 
-Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
+Zeigt, wie Sie Text mit Rahmen und Schattierungen verzieren.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Ruft a ab[`Border`](../../border/) Objekt nach index.
+Ruft eine[`Border`](../../border/) Objekt nach Index.
 
 ```csharp
 public Border this[int index] { get; }
@@ -68,7 +68,7 @@ public Border this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Nullbasierter Index des abzurufenden Rahmens. |
+| index | Nullbasierter Index der abzurufenden Grenze. |
 
 ## Beispiele
 
@@ -81,8 +81,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Da wir beim Erstellen dieselbe Rahmenkonfiguration verwendet haben
-// Diese Absätze und ihre Randsammlungen haben dieselben Elemente.
+// Da wir beim Erstellen die gleiche Rahmenkonfiguration verwendet haben
+// Diese Absätze und ihre Randsammlungen weisen dieselben Elemente auf.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -95,8 +95,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Nachdem der Linienstil der Ränder nur im zweiten Absatz geändert wurde,
-// Die Border-Sammlungen teilen nicht mehr dieselben Elemente.
+// Nachdem ich den Linienstil der Rahmen nur im zweiten Absatz geändert habe,
+// Die Randsammlungen weisen nicht mehr dieselben Elemente auf.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

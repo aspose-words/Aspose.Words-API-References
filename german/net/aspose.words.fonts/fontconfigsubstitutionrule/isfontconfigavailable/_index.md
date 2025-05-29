@@ -3,7 +3,7 @@ title: FontConfigSubstitutionRule.IsFontConfigAvailable
 linktitle: IsFontConfigAvailable
 articleTitle: IsFontConfigAvailable
 second_title: Aspose.Words für .NET
-description: FontConfigSubstitutionRule IsFontConfigAvailable methode. Überprüfen Sie ob das Dienstprogramm fontconfig verfügbar ist oder nicht in C#.
+description: Ermitteln Sie mit der Methode IsFontConfigAvailable, ob das Dienstprogramm FontConfig verfügbar ist. Sorgen Sie für optimales Schriftartenmanagement für Ihre Anwendungen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/

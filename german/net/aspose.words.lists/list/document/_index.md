@@ -3,14 +3,14 @@ title: List.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words für .NET
-description: List Document eigendom. Ruft das Eigentümerdokument ab in C#.
+description: Entdecken Sie, wie Sie Dokumenteigenschaften auflisten und mühelos auf Eigentümerdetails zugreifen. Entfesseln Sie noch heute Ihr Dokumentenmanagement-Potenzial!
 type: docs
 weight: 10
 url: /de/net/aspose.words.lists/list/document/
 ---
 ## List.Document property
 
-Ruft das Eigentümerdokument ab.
+Ruft das Besitzerdokument ab.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -22,7 +22,7 @@ Eine Liste hat immer ein übergeordnetes Dokument und ist nur im Kontext dieses 
 
 ## Beispiele
 
-Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
+Zeigt, wie die Eigentümerdokumenteigenschaften von Listen überprüft werden.
 
 ```csharp
 Document doc = new Document();

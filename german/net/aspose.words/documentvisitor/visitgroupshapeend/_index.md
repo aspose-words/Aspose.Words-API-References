@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitGroupShapeEnd
 linktitle: VisitGroupShapeEnd
 articleTitle: VisitGroupShapeEnd
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitGroupShapeEnd methode. Wird aufgerufen wenn die Aufzählung einer Gruppenform beendet wurde in C#.
+description: Entdecken Sie die DocumentVisitor-Methode VisitGroupShapeEnd, die das Ende der Gruppenformaufzählung effizient signalisiert, um eine nahtlose Dokumentverarbeitung zu gewährleisten.
 type: docs
 weight: 260
 url: /de/net/aspose.words/documentvisitor/visitgroupshapeend/
 ---
 ## DocumentVisitor.VisitGroupShapeEnd method
 
-Wird aufgerufen, wenn die Aufzählung einer Gruppenform beendet wurde.
+Wird aufgerufen, wenn die Aufzählung einer Gruppenform beendet ist.
 
 ```csharp
 public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
-Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie Sie eine Gruppe von Formen erstellen und deren Inhalt mithilfe eines Dokumentbetrachters drucken.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, wie z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Eine abgerundete obere Ecke, eine abgeschnittene Ecke, eine abgerundete obere Ecke, abgerundete diagonale Ecke
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe auf der Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

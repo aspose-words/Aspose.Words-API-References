@@ -3,14 +3,14 @@ title: PageSetup.LinesPerPage
 linktitle: LinesPerPage
 articleTitle: LinesPerPage
 second_title: Aspose.Words für .NET
-description: PageSetup LinesPerPage eigendom. Ruft die Anzahl der Zeilen pro Seite im Dokumentraster ab oder legt diese fest in C#.
+description: Steuern Sie Ihr Dokumentlayout mit der Eigenschaft „PageSetup LinesPerPage“. Passen Sie die Zeilen pro Seite einfach an, um optimale Lesbarkeit und Organisation zu gewährleisten.
 type: docs
 weight: 240
 url: /de/net/aspose.words/pagesetup/linesperpage/
 ---
 ## PageSetup.LinesPerPage property
 
-Ruft die Anzahl der Zeilen pro Seite im Dokumentraster ab oder legt diese fest.
+Ruft die Anzahl der Zeilen pro Seite im Dokumentraster ab oder legt sie fest.
 
 ```csharp
 public int LinesPerPage { get; set; }
@@ -18,20 +18,20 @@ public int LinesPerPage { get; set; }
 
 ## Bemerkungen
 
-Der Mindestwert der Eigenschaft ist 1. Der Höchstwert hängt von der Seitenhöhe und der Schriftgröße des Normal -Stils ab. Der minimale Zeilenabstand beträgt 136 Prozent der Schriftgröße. Beispielsweise beträgt die maximale Anzahl von Zeilen pro Seite einer Letter-Seite mit einem Zoll Rand 39.
+Der Mindestwert der Eigenschaft ist 1. Der Maximalwert hängt von der Seitenhöhe und der Schriftgröße des Stils „Normal“ ab. Der minimale Zeilenabstand beträgt 136 Prozent der Schriftgröße. Beispielsweise beträgt die maximale Zeilenanzahl pro Seite einer Letter-Seite mit 2,5 cm Rand 39.
 
-Standardmäßig hat die Eigenschaft einen Wert, bei dem der Zeilenabstand 1,5-mal größer ist als die Schriftgröße des Normalstils.
+Standardmäßig hat die Eigenschaft einen Wert, bei dem der Zeilenabstand 1,5-mal größer ist als die Schriftgröße von im Stil „Normal“.
 
 ## Beispiele
 
-Zeigt, wie Sie einen Grenzwert für die Anzahl der Zeilen festlegen, die jede Seite haben darf.
+Zeigt, wie Sie eine Begrenzung für die Zeilenanzahl festlegen, die jede Seite haben darf.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Pitching aktivieren und dann verwenden, um die Anzahl der Zeilen pro Seite in diesem Abschnitt festzulegen.
-// Eine ausreichend große Schriftgröße verschiebt einige Zeilen nach unten auf die nächste Seite, um überlappende Zeichen zu vermeiden.
+// Pitching aktivieren und dann damit die Zeilenanzahl pro Seite in diesem Abschnitt festlegen.
+// Eine ausreichend große Schriftgröße verschiebt einige Zeilen auf die nächste Seite, um überlappende Zeichen zu vermeiden.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

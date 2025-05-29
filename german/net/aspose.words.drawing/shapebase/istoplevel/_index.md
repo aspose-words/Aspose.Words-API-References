@@ -3,14 +3,14 @@ title: ShapeBase.IsTopLevel
 linktitle: IsTopLevel
 articleTitle: IsTopLevel
 second_title: Aspose.Words für .NET
-description: ShapeBase IsTopLevel eigendom. Gibt zurückWAHRwenn diese Form kein untergeordnetes Element einer Gruppenform ist in C#.
+description: Entdecken Sie ShapeBase IsTopLevel. Überprüfen Sie schnell, ob eine Form allein steht, und verbessern Sie Ihren Design-Workflow durch effizientes Gruppenmanagement.
 type: docs
-weight: 350
+weight: 370
 url: /de/net/aspose.words.drawing/shapebase/istoplevel/
 ---
 ## ShapeBase.IsTopLevel property
 
-Gibt zurück`WAHR`wenn diese Form kein untergeordnetes Element einer Gruppenform ist.
+Rückgaben`WAHR` wenn diese Form kein untergeordnetes Element einer Gruppenform ist.
 
 ```csharp
 public bool IsTopLevel { get; }
@@ -18,7 +18,7 @@ public bool IsTopLevel { get; }
 
 ## Beispiele
 
-Zeigt, wie man erkennt, ob eine Form Teil einer Gruppenform ist.
+Zeigt, wie Sie erkennen, ob eine Form Teil einer Gruppenform ist.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ Assert.True(shape.IsTopLevel);
 GroupShape group = new GroupShape(doc);
 group.AppendChild(shape);
 
-// Sobald wir eine Form in eine Gruppenform assimilieren, ändert sich die Eigenschaft „IsTopLevel“ in „false“.
+// Sobald wir eine Form in eine Gruppenform integrieren, ändert sich die Eigenschaft „IsTopLevel“ in „false“.
 Assert.False(shape.IsTopLevel);
 ```
 

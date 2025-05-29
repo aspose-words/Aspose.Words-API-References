@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words für .NET
-description: DocumentPropertyCollection RemoveAt methode. Entfernt eine Eigenschaft am angegebenen Index in C#.
+description: Verwalten Sie Ihre DocumentPropertyCollection mühelos, indem Sie mit der RemoveAt-Methode Eigenschaften an jedem Index löschen. Optimieren Sie noch heute Ihr Dokumentenmanagement!
 type: docs
 weight: 80
 url: /de/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der auf Null basierende Index. |
+| index | Int32 | Der nullbasierte Index. |
 
 ## Beispiele
 
@@ -48,18 +48,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds anzeigen.
+// Zeigen Sie den Wert einer benutzerdefinierten Eigenschaft mithilfe eines DOCPROPERTY-Felds an.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Wir können diese benutzerdefinierten Eigenschaften in Microsoft Word über „Datei“ finden –> „Eigenschaften“ > „Erweiterte Eigenschaften“ > "Brauch".
+// Diese benutzerdefinierten Eigenschaften finden wir in Microsoft Word über „Datei“ -> „Eigenschaften“ > „Erweiterte Eigenschaften“ > „Benutzerdefiniert“.
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Im Folgenden finden Sie drei Möglichkeiten, benutzerdefinierte Eigenschaften aus einem Dokument zu entfernen.
-// 1 - Nach Index entfernen:
+// Unten sind drei Möglichkeiten zum Entfernen benutzerdefinierter Eigenschaften aus einem Dokument aufgeführt.
+// 1 - Entfernen nach Index:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -71,7 +71,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 – Die gesamte Sammlung auf einmal leeren:
+// 3 - Die gesamte Sammlung auf einmal leeren:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

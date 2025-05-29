@@ -3,14 +3,14 @@ title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
 articleTitle: MatchOffset
 second_title: Aspose.Words für .NET
-description: ReplacingArgs MatchOffset eigendom. Ruft die nullbasierte Startposition der Übereinstimmung ab dem Anfang des Knotens ab der den Anfang der Übereinstimmung enthält in C#.
+description: Entdecken Sie die MatchOffset-Eigenschaft von ReplacingArgs und finden Sie ganz einfach die nullbasierte Startposition von Übereinstimmungen in Ihren Knoten für eine effiziente Datenverarbeitung.
 type: docs
 weight: 50
 url: /de/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-Ruft die nullbasierte Startposition der Übereinstimmung ab dem Anfang des Knotens ab, der den Anfang der Übereinstimmung enthält.
+Ruft die nullbasierte Startposition der Übereinstimmung vom Anfang des Knotens ab, der den Anfang der Übereinstimmung enthält.
 
 ```csharp
 public int MatchOffset { get; }
@@ -18,7 +18,7 @@ public int MatchOffset { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neue Inhalte anwenden.
+Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neuen Inhalt anwenden.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Setzen Sie die Eigenschaft „HighlightColor“ auf eine Hintergrundfarbe, die wir auf den resultierenden Text der Operation anwenden möchten.
+    // Legen Sie die Eigenschaft „HighlightColor“ auf eine Hintergrundfarbe fest, die wir auf den resultierenden Text der Operation anwenden möchten.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -52,7 +52,7 @@ public void ConvertNumbersToHexadecimal()
 
 /// <summary>
 /// Ersetzt numerische Such- und Ersetzungsübereinstimmungen durch ihre hexadezimalen Entsprechungen.
-/// Führt ein Protokoll über jede Ersetzung.
+/// Führt ein Protokoll über jeden Austausch.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

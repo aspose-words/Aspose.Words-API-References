@@ -3,7 +3,7 @@ title: CustomXmlPartCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words für .NET
-description: CustomXmlPartCollection RemoveAt methode. Entfernt ein Element am angegebenen Index in C#.
+description: Verwalten Sie Ihre CustomXmlPartCollection mühelos mit der RemoveAt-Methode – entfernen Sie Elemente schnell nach Index für eine optimierte Datenverarbeitung.
 type: docs
 weight: 90
 url: /de/net/aspose.words.markup/customxmlpartcollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der auf Null basierende Index. |
+| index | Int32 | Der nullbasierte Index. |
 
 ## Beispiele
 
@@ -27,9 +27,9 @@ Zeigt, wie ein strukturiertes Dokument-Tag mit benutzerdefinierten XML-Daten ers
 ```csharp
 Document doc = new Document();
 
-// Einen XML-Teil erstellen, der Daten enthält, und ihn der Sammlung des Dokuments hinzufügen.
-// Wenn wir die Registerkarte „Entwickler“ in Microsoft Word aktivieren,
-// Elemente aus dieser Sammlung finden wir im „XML Mapping Pane“, zusammen mit einigen Standardelementen.
+// Erstellen Sie einen XML-Teil, der Daten enthält, und fügen Sie ihn der Sammlung des Dokuments hinzu.
+// Wenn wir die Registerkarte "Entwickler" in Microsoft Word aktivieren,
+// Wir können Elemente aus dieser Sammlung zusammen mit einigen Standardelementen im „XML-Mapping-Bereich“ finden.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -37,24 +37,24 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Nachfolgend finden Sie zwei Möglichkeiten, auf XML-Teile zu verweisen.
+// Unten sind zwei Möglichkeiten, auf XML-Teile zu verweisen.
 // 1 – Durch einen Index in der benutzerdefinierten XML-Teilesammlung:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - Nach GUID:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Eine XML-Schema-Zuordnung hinzufügen.
+// Eine XML-Schemazuordnung hinzufügen.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Ein Teil klonen und es dann in die Sammlung einfügen.
+// Klonen Sie einen Teil und fügen Sie ihn dann in die Sammlung ein.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
 
 Assert.AreEqual(2, doc.CustomXmlParts.Count);
 
-// Durchlaufen Sie die Sammlung und drucken Sie den Inhalt jedes Teils aus.
+// Durchlaufen Sie die Sammlung und drucken Sie den Inhalt jedes Teils.
 using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator())
 {
     int index = 0;
@@ -71,11 +71,11 @@ doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Klonen Sie die XML-Teilesammlung und entfernen Sie dann mit der Methode „Clear“ alle Elemente auf einmal.
+// Klonen Sie die XML-Teilesammlung und verwenden Sie dann die Methode „Clear“, um alle Elemente auf einmal zu entfernen.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Erstellen Sie ein strukturiertes Dokument-Tag, das den Inhalt unseres Teils anzeigt, und fügen Sie ihn in den Dokumentkörper ein.
+// Erstellen Sie ein strukturiertes Dokument-Tag, das den Inhalt unseres Teils anzeigt, und fügen Sie es in den Dokumenttext ein.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

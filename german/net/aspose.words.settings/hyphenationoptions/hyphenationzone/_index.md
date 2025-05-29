@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenationZone
 linktitle: HyphenationZone
 articleTitle: HyphenationZone
 second_title: Aspose.Words für .NET
-description: HyphenationOptions HyphenationZone eigendom. Ruft den Abstand in 1/20 eines Punktes vom rechten Rand ab innerhalb dessen Sie Wörter nicht trennen möchten. Der Standardwert für diese Eigenschaft ist 360 025 Zoll in C#.
+description: Optimieren Sie das Textlayout mit der Eigenschaft „HyphenationZone“. Steuern Sie den Silbentrennungsabstand vom rechten Rand für übersichtlichere, professionelle Dokumente.
 type: docs
 weight: 50
 url: /de/net/aspose.words.settings/hyphenationoptions/hyphenationzone/
 ---
 ## HyphenationOptions.HyphenationZone property
 
-Ruft den Abstand in 1/20 eines Punktes vom rechten Rand ab, innerhalb dessen Sie Wörter nicht trennen möchten. Der Standardwert für diese Eigenschaft ist 360 (0,25 Zoll).
+Ruft den Abstand in 1/20 Punkt vom rechten Rand ab oder legt ihn fest, innerhalb dessen Wörter nicht getrennt werden sollen. Der Standardwert für diese Eigenschaft ist 360 (0,25 Zoll).
 
 ```csharp
 public int HyphenationZone { get; set; }

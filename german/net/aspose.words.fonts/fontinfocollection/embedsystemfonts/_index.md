@@ -3,16 +3,16 @@ title: FontInfoCollection.EmbedSystemFonts
 linktitle: EmbedSystemFonts
 articleTitle: EmbedSystemFonts
 second_title: Aspose.Words für .NET
-description: FontInfoCollection EmbedSystemFonts eigendom. Gibt an ob Systemschriftarten in das Dokument eingebettet werden sollen. Der Standardwert für diese Eigenschaft istFALSCH in C#.
+description: Entdecken Sie, wie die FontInfoCollection-Eigenschaft EmbedSystemFonts Ihre Dokumente durch die Einbettung von Systemschriften verbessert. Erfahren Sie mehr über den Standardwert und die Vorteile!
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-Gibt an, ob Systemschriftarten in das Dokument eingebettet werden sollen. Der Standardwert für diese Eigenschaft ist`FALSCH`.
+Gibt an, ob Systemschriftarten in das Dokument eingebettet werden sollen oder nicht. Der Standardwert für diese Eigenschaft ist`FALSCH`.
 
-Diese Option funktioniert nur, wenn[`EmbedTrueTypeFonts`](../embedtruetypefonts/) Option ist auf eingestellt`WAHR`.
+Diese Option funktioniert nur, wenn[`EmbedTrueTypeFonts`](../embedtruetypefonts/) ist auf`WAHR`.
 
 ```csharp
 public bool EmbedSystemFonts { get; set; }
@@ -20,7 +20,7 @@ public bool EmbedSystemFonts { get; set; }
 
 ## Bemerkungen
 
-Diese Eigenschaft festlegen auf`WAHR`ist nützlich, wenn der Benutzer ein ostasiatisches System verwendet und ein Dokument erstellen möchte, das für andere lesbar ist, die keine Schriftarten für diese -Sprache auf ihrem System haben. Beispielsweise könnte ein Benutzer auf einem japanischen System die -Schriftarten in ein Dokument einbetten, sodass das japanische Dokument auf allen Systemen lesbar wäre.
+Festlegen dieser Eigenschaft auf`WAHR` Dies ist nützlich, wenn der Benutzer ein ostasiatisches System verwendet und ein Dokument erstellen möchte, das auch von anderen Benutzern gelesen werden kann, die keine Schriftarten für diese Sprache auf ihrem System installiert haben. Beispielsweise könnte ein Benutzer eines japanischen Systems die Schriftarten in ein Dokument einbetten, sodass das japanische Dokument auf allen Systemen lesbar ist.
 
 Diese Option funktioniert nur für die Formate DOC, DOCX und RTF.
 
@@ -37,11 +37,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Siehe auch

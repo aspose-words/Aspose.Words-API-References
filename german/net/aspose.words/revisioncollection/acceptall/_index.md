@@ -3,9 +3,9 @@ title: RevisionCollection.AcceptAll
 linktitle: AcceptAll
 articleTitle: AcceptAll
 second_title: Aspose.Words für .NET
-description: RevisionCollection AcceptAll methode. Akzeptiert alle Revisionen in dieser Sammlung in C#.
+description: Entdecken Sie die RevisionCollection AcceptAll-Methode zur nahtlosen Integration aller Revisionen und verbessern Sie so die Effizienz Ihres Arbeitsablaufs und die Zusammenarbeit.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection.AcceptAll method
@@ -29,7 +29,7 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// Beim Vergleich von Dokumenten mit Revisionen wird eine Ausnahme ausgelöst.
+// Beim Vergleichen von Dokumenten mit Revisionen wird eine Ausnahme ausgelöst.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 

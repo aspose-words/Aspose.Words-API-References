@@ -3,9 +3,9 @@ title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words für .NET
-description: Style Styles eigendom. Ruft die Sammlung von Stilen ab zu denen dieser Stil gehört in C#.
+description: Entdecken Sie die Eigenschaft „Stilstile“, um auf eine kuratierte Sammlung von Stilen zuzugreifen und Ihr Design mit einer einzigartigen, zusammenhängenden Ästhetik aufzuwerten.
 type: docs
-weight: 160
+weight: 190
 url: /de/net/aspose.words/style/styles/
 ---
 ## Style.Styles property

@@ -3,7 +3,7 @@ title: Cell.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words für .NET
-description: Cell FirstParagraph eigendom. Ruft den ersten Absatz unter den unmittelbar untergeordneten Elementen ab in C#.
+description: Entdecken Sie die Cell FirstParagraph-Eigenschaft, um mühelos auf den ersten Absatz von unmittelbar untergeordneten Absätzen zuzugreifen und so Ihr Inhaltsmanagement zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.tables/cell/firstparagraph/
@@ -18,20 +18,20 @@ public Paragraph FirstParagraph { get; }
 
 ## Beispiele
 
-Zeigt, wie man mit einem Document Builder eine verschachtelte Tabelle erstellt.
+Zeigt, wie mit einem Dokumentgenerator eine verschachtelte Tabelle erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Die äußere Tabelle erstellen.
+// Erstellen Sie die äußere Tabelle.
 Cell cell = builder.InsertCell();
 builder.Writeln("Outer Table Cell 1");
 builder.InsertCell();
 builder.Writeln("Outer Table Cell 2");
 builder.EndTable();
 
-// Zur ersten Zelle der äußeren Tabelle wechseln, dann eine weitere Tabelle innerhalb der Zelle erstellen.
+// Zur ersten Zelle der äußeren Tabelle wechseln und innerhalb der Zelle eine weitere Tabelle erstellen.
 builder.MoveTo(cell.FirstParagraph);
 builder.InsertCell();
 builder.Writeln("Inner Table Cell 1");
@@ -42,7 +42,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertNestedTable.docx");
 ```
 
-Zeigt, wie man eine verschachtelte Tabelle erstellt, ohne einen Document Builder zu verwenden.
+Zeigt, wie eine verschachtelte Tabelle ohne Verwendung eines Dokumentgenerators erstellt wird.
 
 ```csharp
 public void CreateNestedTable()
@@ -53,7 +53,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Erstelle eine weitere Tabelle mit zwei Zeilen und zwei Spalten und füge sie dann in die erste Zelle der ersten Tabelle ein.
+    // Erstellen Sie eine weitere Tabelle mit zwei Zeilen und zwei Spalten und fügen Sie sie dann in die erste Zelle der ersten Tabelle ein.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -82,9 +82,9 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Mit den Eigenschaften „Title“ und „Description“ können Sie Ihrer Tabelle einen Titel bzw. eine Beschreibung hinzufügen.
+    // Mit den Eigenschaften „Titel“ und „Beschreibung“ können Sie Ihrer Tabelle jeweils einen Titel und eine Beschreibung hinzufügen.
     // Die Tabelle muss mindestens eine Zeile haben, bevor wir diese Eigenschaften verwenden können.
-    // Diese Eigenschaften sind für ISO/IEC 29500-konforme .docx-Dokumente von Bedeutung (siehe die OoxmlCompliance-Klasse).
+    // Diese Eigenschaften sind für ISO/IEC 29500-konforme .docx-Dokumente von Bedeutung (siehe Klasse OoxmlCompliance).
     // Wenn wir das Dokument in Formaten vor ISO/IEC 29500 speichern, ignoriert Microsoft Word diese Eigenschaften.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

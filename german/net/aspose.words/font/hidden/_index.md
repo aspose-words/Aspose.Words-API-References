@@ -3,14 +3,14 @@ title: Font.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words für .NET
-description: Font Hidden eigendom. True wenn die Schriftart als versteckter Text formatiert ist in C#.
+description: Entdecken Sie die Eigenschaft „Schriftart versteckt“. Erkennen Sie mühelos, ob Ihr Text als versteckt formatiert ist. Verbessern Sie noch heute die Übersichtlichkeit und Präsentation Ihres Dokuments!
 type: docs
 weight: 140
 url: /de/net/aspose.words/font/hidden/
 ---
 ## Font.Hidden property
 
-True, wenn die Schriftart als versteckter Text formatiert ist.
+Wahr, wenn die Schriftart als versteckter Text formatiert ist.
 
 ```csharp
 public bool Hidden { get; set; }
@@ -18,15 +18,15 @@ public bool Hidden { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man eine Reihe versteckten Textes erstellt.
+Zeigt, wie ein Lauf mit verstecktem Text erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wenn das Hidden-Flag auf true gesetzt ist, ist jeder Text, den wir mit diesem Font-Objekt erstellen, im Dokument unsichtbar.
-// Wir werden versteckten Text nicht sehen oder hervorheben, es sei denn, wir aktivieren die Option „Versteckter Text“.
-// gefunden in Microsoft Word über „Datei“ -> „Optionen“ -> "Anzeige". Der Text wird immer noch da sein,
+// Wenn das Flag „Hidden“ auf „true“ gesetzt ist, ist jeglicher Text, den wir mit diesem Font-Objekt erstellen, im Dokument unsichtbar.
+// Wir werden versteckten Text nicht sehen oder hervorheben, es sei denn, wir aktivieren die Option „Versteckter Text“
+// in Microsoft Word über "Datei" -> "Optionen" -> "Anzeige" zu finden. Der Text bleibt weiterhin vorhanden,
 // und wir können programmgesteuert auf diesen Text zugreifen.
 // Es wird nicht empfohlen, diese Methode zum Verbergen vertraulicher Informationen zu verwenden.
 builder.Font.Hidden = true;
@@ -45,8 +45,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können.
+    // Dadurch kann es den akzeptierenden Knoten besuchen und dann seine untergeordneten Knoten in einer Tiefensuche durchlaufen.
     // 1 - Absatzknoten:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -111,7 +111,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Paragraph-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Absatzknoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -177,10 +177,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -188,16 +190,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
         // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
-        // und es gäbe keine untergeordneten Knoten mehr.
-        // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
+        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles entfernt.
+        // und es wären keine untergeordneten Knoten übrig.
+        // Daher können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
         // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
-        // was dieser Besucher nicht entfernen wird.
+        // die dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -205,7 +207,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -216,7 +218,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

@@ -3,14 +3,14 @@ title: MemoryFontSource Class
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.MemoryFontSource klas. Stellt die einzelne im Speicher gespeicherte TrueTypeSchriftartdatei dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fonts.MemoryFontSource, die einen nahtlosen Zugriff auf im Speicher abgelegte TrueType-Schriftarten für eine verbesserte Dokumentverarbeitung ermöglicht.
 type: docs
-weight: 3020
+weight: 3450
 url: /de/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
-Stellt die einzelne im Speicher gespeicherte TrueType-Schriftartdatei dar.
+Stellt die einzelne im Speicher gespeicherte TrueType-Schriftdatei dar.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
@@ -31,10 +31,10 @@ public class MemoryFontSource : FontSourceBase
 | Name | Beschreibung |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | Der Schlüssel dieser Quelle im Cache. |
-| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Binäre Schriftartdaten. |
+| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | Binäre Schriftdaten. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Gibt die Priorität der Schriftartquelle zurück. |
 | override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | Gibt den Typ der Schriftartquelle zurück. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen könnte. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen kann. |
 
 ## Methoden
 

@@ -3,14 +3,14 @@ title: FieldIndex.HasSequenceName
 linktitle: HasSequenceName
 articleTitle: HasSequenceName
 second_title: Aspose.Words für .NET
-description: FieldIndex HasSequenceName eigendom. Ruft einen Wert ab der angibt ob eine Sequenz verwendet werden soll während das Feldergebnis erstellt wird in C#.
+description: Ermitteln Sie mit der Eigenschaft FieldIndex HasSequenceName, ob eine Sequenz für die effiziente Erstellung von Feldergebnissen erforderlich ist. Optimieren Sie Ihr Datenmanagement noch heute!
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldindex/hassequencename/
 ---
 ## FieldIndex.HasSequenceName property
 
-Ruft einen Wert ab, der angibt, ob eine Sequenz verwendet werden soll, während das Feldergebnis erstellt wird.
+Ruft einen Wert ab, der angibt, ob beim Erstellen des Feldergebnisses eine Sequenz verwendet werden soll.
 
 ```csharp
 public bool HasSequenceName { get; }
@@ -18,25 +18,25 @@ public bool HasSequenceName { get; }
 
 ## Beispiele
 
-Zeigt, wie ein Dokument durch Kombinieren von INDEX- und SEQ-Feldern in Teile aufgeteilt wird.
+Zeigt, wie ein Dokument durch die Kombination von INDEX- und SEQ-Feldern in Teile aufgeteilt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstellen Sie ein INDEX-Feld, das einen Eintrag für jedes im Dokument gefundene XE-Feld anzeigt.
-// Jeder Eintrag zeigt den Text-Eigenschaftswert des XE-Felds auf der linken Seite an.
+// Erstellen Sie ein INDEX-Feld, das für jedes im Dokument gefundene XE-Feld einen Eintrag anzeigt.
+// Jeder Eintrag zeigt auf der linken Seite den Text-Eigenschaftswert des XE-Felds an,
 // und die Nummer der Seite, die rechts das XE-Feld enthält.
-// Wenn die XE-Felder in ihrer Eigenschaft „Text“ den gleichen Wert haben,
+// Wenn die XE-Felder den gleichen Wert in ihrer Eigenschaft "Text" haben,
 // Das INDEX-Feld gruppiert sie in einem Eintrag.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Benennen Sie in der Eigenschaft „SequenceName“ eine SEQ-Feldsequenz. Jeder Eintrag dieses INDEX-Feldes wird nun auch angezeigt
+// Benennen Sie in der Eigenschaft SequenceName eine SEQ-Feldsequenz. Jeder Eintrag dieses INDEX-Feldes wird nun auch angezeigt
 // die Nummer, auf der sich die Sequenzzählung an der XE-Feldposition befindet, die diesen Eintrag erstellt hat.
 index.SequenceName = "MySequence";
 
-// Legen Sie Text fest, der die Reihenfolge und die Seitenzahlen umgibt, um dem Benutzer deren Bedeutung zu erklären.
-// Ein mit dieser Konfiguration erstellter Eintrag zeigt an seiner Seitenzahl etwa „MySequence at 1 on page 1“ an.
+// Legen Sie einen Text fest, der die Sequenz- und Seitenzahlen umgibt, um dem Benutzer deren Bedeutung zu erklären.
+// Ein mit dieser Konfiguration erstellter Eintrag zeigt als Seitenzahl etwas wie „MySequence bei 1 auf Seite 1“ an.
 // PageNumberSeparator und SequenceSeparator dürfen nicht länger als 15 Zeichen sein.
 index.PageNumberSeparator = "\tMySequence at ";
 index.SequenceSeparator = " on page ";
@@ -44,42 +44,42 @@ Assert.IsTrue(index.HasSequenceName);
 
 Assert.AreEqual(" INDEX  \\s MySequence \\e \"\tMySequence at \" \\d \" on page \"", index.GetFieldCode());
 
-// SEQ-Felder zeigen einen Zähler an, der bei jedem SEQ-Feld erhöht wird.
-// Diese Felder verwalten auch separate Zählwerte für jede eindeutig benannte Sequenz
+// SEQ-Felder zeigen eine Zählung an, die bei jedem SEQ-Feld erhöht wird.
+// Diese Felder verwalten auch separate Zählungen für jede eindeutige benannte Sequenz
 // identifiziert durch die Eigenschaft „SequenceIdentifier“ des SEQ-Felds.
-// Ein SEQ-Feld einfügen, das die „MySequence“-Sequenz auf 1 verschiebt.
-// Dieses Feld unterscheidet sich nicht vom normalen Dokumenttext. Es erscheint nicht im Inhaltsverzeichnis eines INDEX-Felds.
+// Fügt ein SEQ-Feld ein, das die Sequenz „MySequence“ auf 1 verschiebt.
+// Dieses Feld unterscheidet sich nicht vom normalen Dokumenttext. Es wird nicht im Inhaltsverzeichnis eines INDEX-Felds angezeigt.
 builder.InsertBreak(BreakType.PageBreak);
 FieldSeq sequenceField = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 sequenceField.SequenceIdentifier = "MySequence";
 
 Assert.AreEqual(" SEQ  MySequence", sequenceField.GetFieldCode());
 
-// Ein XE-Feld einfügen, das einen Eintrag im INDEX-Feld erstellt.
-// Da „MySequence“ den Wert 1 hat und sich dieses XE-Feld zusammen mit den oben definierten benutzerdefinierten Trennzeichen auf Seite 2 befindet,
-// Der INDEX-Eintrag dieses Feldes zeigt „Cat“ auf der linken Seite und „MySequence at 1 on page 2“ auf der rechten Seite an.
+// Fügen Sie ein XE-Feld ein, das einen Eintrag im INDEX-Feld erstellt.
+// Da „MySequence“ auf 1 steht und dieses XE-Feld auf Seite 2 ist, zusammen mit den benutzerdefinierten Trennzeichen, die wir oben definiert haben,
+// Der INDEX-Eintrag dieses Felds zeigt auf der linken Seite „Cat“ und auf der rechten Seite „MySequence bei 1 auf Seite 2“ an.
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cat";
 
 Assert.AreEqual(" XE  Cat", indexEntry.GetFieldCode());
 
-// Einen Seitenumbruch einfügen und SEQ-Felder verwenden, um „MySequence“ auf 3 zu erhöhen.
+// Fügen Sie einen Seitenumbruch ein und verwenden Sie SEQ-Felder, um „MySequence“ auf 3 zu verschieben.
 builder.InsertBreak(BreakType.PageBreak);
 sequenceField = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 sequenceField.SequenceIdentifier = "MySequence";
 sequenceField = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 sequenceField.SequenceIdentifier = "MySequence";
 
-// Ein XE-Feld mit derselben Text-Eigenschaft wie oben einfügen.
-// Der INDEX-Eintrag gruppiert XE-Felder mit übereinstimmenden Werten in der Eigenschaft „Text“.
-// in einen Eintrag, anstatt für jedes XE-Feld einen Eintrag vorzunehmen.
+// Fügen Sie ein XE-Feld mit derselben Texteigenschaft wie oben ein.
+// Der INDEX-Eintrag gruppiert XE-Felder mit übereinstimmenden Werten in der Eigenschaft "Text"
+// in einen Eintrag, anstatt für jedes XE-Feld einen Eintrag zu erstellen.
 // Da wir uns auf Seite 2 mit „MySequence“ bei 3 befinden, wird „, 3 auf Seite 3“ an denselben INDEX-Eintrag wie oben angehängt.
-// Der Seitenzahlteil dieses INDEX-Eintrags zeigt jetzt „MySequence at 1 on page 2, 3 on page 3“ an.
+// Der Seitenzahlenteil dieses INDEX-Eintrags zeigt jetzt „MySequence bei 1 auf Seite 2, 3 auf Seite 3“ an.
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cat";
 
-// Ein XE-Feld mit einem neuen und eindeutigen Text-Eigenschaftswert einfügen.
-// Dadurch wird ein neuer Eintrag hinzugefügt, mit MySequence bei 3 auf Seite 4.
+// Fügen Sie ein XE-Feld mit einem neuen und eindeutigen Texteigenschaftswert ein.
+// Dadurch wird ein neuer Eintrag mit MySequence bei 3 auf Seite 4 hinzugefügt.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Dog";

@@ -3,14 +3,14 @@ title: PreferredWidth Class
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Tables.PreferredWidth klas. Stellt einen Wert und seine Maßeinheit dar die zur Angabe der bevorzugten Breite einer Tabelle oder Zelle verwendet wird in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Tables.PreferredWidth, Ihre Lösung zur präzisen und flexiblen Definition optimaler Tabellen- und Zellenbreiten. Optimieren Sie noch heute Ihre Dokumentlayouts!
 type: docs
-weight: 6290
+weight: 7140
 url: /de/net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class
 
-Stellt einen Wert und seine Maßeinheit dar, die zur Angabe der bevorzugten Breite einer Tabelle oder Zelle verwendet wird.
+Stellt einen Wert und seine Maßeinheit dar, der verwendet wird, um die bevorzugte Breite einer Tabelle oder Zelle anzugeben.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Tabellen](https://docs.aspose.com/words/net/working-with-tables/) Dokumentationsartikel.
 
@@ -22,17 +22,17 @@ public sealed class PreferredWidth
 
 | Name | Beschreibung |
 | --- | --- |
-| [Type](../../aspose.words.tables/preferredwidth/type/) { get; } | Ruft die Maßeinheit ab, die für diesen bevorzugten Breitenwert verwendet wird. |
-| [Value](../../aspose.words.tables/preferredwidth/value/) { get; } | Ruft den bevorzugten Breitenwert ab. Die Maßeinheit ist im angegeben[`Type`](./type/) Eigenschaft. |
+| [Type](../../aspose.words.tables/preferredwidth/type/) { get; } | Ruft die für diesen bevorzugten Breitenwert verwendete Maßeinheit ab. |
+| [Value](../../aspose.words.tables/preferredwidth/value/) { get; } | Ruft den gewünschten Breitenwert ab. Die Maßeinheit wird in der[`Type`](./type/) Eigenschaft. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die als Prozentsatz angegeben wird. |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die als Prozentsatz angegeben ist. |
 | static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | Eine Erstellungsmethode, die eine neue Instanz zurückgibt, die eine bevorzugte Breite darstellt, die mithilfe einer Anzahl von Punkten angegeben wird. |
 | override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | Bestimmt, ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Bestimmt, ob die angegebene`PreferredWidth` ist vom Wert her gleich dem Strom`PreferredWidth` . |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | Bestimmt, ob die angegebene`PreferredWidth` ist im Wert gleich dem aktuellen`PreferredWidth` . |
 | override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | Dient als Hash-Funktion für diesen Typ. |
 | override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | Gibt eine benutzerfreundliche Zeichenfolge zurück, die den Wert dieses Objekts anzeigt. |
 
@@ -44,13 +44,13 @@ public sealed class PreferredWidth
 
 ## Bemerkungen
 
-Die bevorzugte Breite kann als Prozentsatz, Anzahl der Punkte oder als spezieller „Keine/Auto“-Wert angegeben werden.
+Die bevorzugte Breite kann als Prozentsatz, Anzahl der Punkte oder ein spezieller „keine/automatischer“ Wert angegeben werden.
 
 Die Instanzen dieser Klasse sind unveränderlich.
 
 ## Beispiele
 
-Zeigt, wie man eine Tabelle so einstellt, dass sie automatisch an 50 % der Seitenbreite angepasst wird.
+Zeigt, wie Sie eine Tabelle so einstellen, dass sie automatisch auf 50 % der Seitenbreite angepasst wird.
 
 ```csharp
 Document doc = new Document();
@@ -69,7 +69,7 @@ table.PreferredWidth = PreferredWidth.FromPercent(50);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```
 
-Zeigt, wie man eine bevorzugte Breite für Tabellenzellen festlegt.
+Zeigt, wie Sie eine bevorzugte Breite für Tabellenzellen festlegen.
 
 ```csharp
 Document doc = new Document();
@@ -91,7 +91,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Eine Zelle, für die keine bevorzugte Breite angegeben ist, nimmt den Rest des verfügbaren Platzes ein.
+// Eine Zelle ohne angegebene bevorzugte Breite nimmt den restlichen verfügbaren Platz ein.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Jede Konfiguration der Eigenschaft „PreferredWidth“ erstellt ein neues Objekt.

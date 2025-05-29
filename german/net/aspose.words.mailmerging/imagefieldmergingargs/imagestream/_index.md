@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words für .NET
-description: ImageFieldMergingArgs ImageStream eigendom. Gibt den Stream an aus dem die SerienbriefEngine ein Bild lesen soll in C#.
+description: Entdecken Sie, wie die ImageFieldMergingArgs ImageStream-Eigenschaft Ihren Serienbrief durch die nahtlose Integration von Bildern für professionelle Ergebnisse verbessert.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -18,11 +18,11 @@ public Stream ImageStream { get; set; }
 
 ## Bemerkungen
 
-Aspose.Words schließt diesen Stream, nachdem das Bild in das Dokument eingefügt wurde.
+Aspose.Words schließt diesen Stream, nachdem es das Bild in das Dokument eingefügt hat.
 
 ## Beispiele
 
-Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
+Zeigt, wie in einem BLOB-Feld einer Datenbank gespeicherte Bilder in einen Bericht eingefügt werden.
 
 ```csharp
 public void ImageFromBlob()
@@ -38,7 +38,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze auf einmal liest.
+        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze gleichzeitig liest.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -56,7 +56,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Dies wird aufgerufen, wenn ein Serienbrief im Dokument auf ein MERGEFIELD mit einem „Image:“-Tag im Namen trifft.
+    /// Dies wird aufgerufen, wenn ein Serienbrief auf ein MERGEFIELD im Dokument trifft, dessen Name ein „Image:“-Tag enthält.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

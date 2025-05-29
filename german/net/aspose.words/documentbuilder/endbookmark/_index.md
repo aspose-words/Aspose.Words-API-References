@@ -3,7 +3,7 @@ title: DocumentBuilder.EndBookmark
 linktitle: EndBookmark
 articleTitle: EndBookmark
 second_title: Aspose.Words für .NET
-description: DocumentBuilder EndBookmark methode. Markiert die aktuelle Position im Dokument als Lesezeichenende in C#.
+description: Markieren Sie mühelos das Ende eines Lesezeichens in Ihrem Dokument mit der EndBookmark-Methode von DocumentBuilder und verbessern Sie so die Organisation und Navigation Ihres Dokuments.
 type: docs
 weight: 210
 url: /de/net/aspose.words/documentbuilder/endbookmark/
@@ -22,7 +22,7 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 ### Rückgabewert
 
-Der Lesezeichen-Endknoten, der gerade erstellt wurde.
+Der gerade erstellte Lesezeichen-Endknoten.
 
 ## Bemerkungen
 
@@ -38,8 +38,8 @@ Zeigt, wie ein Lesezeichen erstellt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein gültiges Lesezeichen muss den Dokumenttext enthalten
-// BookmarkStart- und BookmarkEnd-Knoten, die mit einem passenden Lesezeichennamen erstellt wurden.
+// Ein gültiges Lesezeichen muss einen Dokumenttext enthalten, der von
+// BookmarkStart- und BookmarkEnd-Knoten mit einem passenden Lesezeichennamen erstellt.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
 builder.EndBookmark("MyBookmark");
@@ -60,11 +60,12 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Ein HYPERLINK-Feld einfügen, das auf das Lesezeichen verweist. Wir können Feldschalter passieren
-// an die Methode „InsertHyperlink“ als Teil des Arguments, das den Namen des referenzierten Lesezeichens enthält.
+// Fügt ein HYPERLINK-Feld ein, das auf das Lesezeichen verweist. Wir können Feldschalter übergeben
+// zur Methode „InsertHyperlink“ als Teil des Arguments, das den Namen des referenzierten Lesezeichens enthält.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```

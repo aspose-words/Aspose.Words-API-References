@@ -3,16 +3,16 @@ title: LanguagePreferences Class
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Loading.LanguagePreferences klas. Ermöglicht das Einrichten von Spracheinstellungen in C#.
+description: Entdecken Sie die Klasse Aspose.Words.LanguagePreferences, um Spracheinstellungen für eine verbesserte Dokumentverarbeitung mühelos anzupassen und zu verwalten.
 type: docs
-weight: 3650
+weight: 4100
 url: /de/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
 Ermöglicht das Einrichten von Spracheinstellungen.
 
-Um mehr zu erfahren, besuchen Sie die[Geben Sie Ladeoptionen an](https://docs.aspose.com/words/net/specify-load-options/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Ladeoptionen festlegen](https://docs.aspose.com/words/net/specify-load-options/) Dokumentationsartikel.
 
 ```csharp
 public class LanguagePreferences
@@ -28,7 +28,7 @@ public class LanguagePreferences
 
 | Name | Beschreibung |
 | --- | --- |
-| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage/) { get; set; } | Ruft die Standardbearbeitungssprache ab oder legt diese fest. |
+| [DefaultEditingLanguage](../../aspose.words.loading/languagepreferences/defaulteditinglanguage/) { get; set; } | Ruft die Standardbearbeitungssprache ab oder legt sie fest. |
 
 ## Methoden
 

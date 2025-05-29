@@ -3,14 +3,14 @@ title: FontSourceBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words für .NET
-description: FontSourceBase WarningCallback eigendom. Wird während der Verarbeitung der Schriftartquelle aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Formatierungstreue führen könnte in C#.
+description: Entdecken Sie die Eigenschaft „FontSourceBase WarningCallback“, die für die Gewährleistung der Formatierungstreue durch Erkennen von Problemen während der Verarbeitung der Schriftartquelle unerlässlich ist.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen könnte.
+Wird während der Verarbeitung der Schriftartquelle aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Formatierungstreue führen kann.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,7 +18,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ein Warnrückruf aufgerufen wird, wenn mit den Schriftartquellen gearbeitet wird.
+Zeigt, wie ein Warn-Callback aufgerufen wird, wenn mit den Schriftartquellen gearbeitet wird.
 
 ```csharp
 public void FontSourceWarning()
@@ -30,7 +30,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Holen Sie sich die Liste der Schriftarten, die als Warnrückruf aufgerufen werden sollen.
+    // Holen Sie sich die Liste der Schriftarten, um den Warn-Callback aufzurufen.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description

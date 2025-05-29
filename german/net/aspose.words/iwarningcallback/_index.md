@@ -3,14 +3,14 @@ title: IWarningCallback Interface
 linktitle: IWarningCallback
 articleTitle: IWarningCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.IWarningCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode aufrufen möchten um Warnungen zum Verlust der Wiedergabetreue zu erfassen die beim Laden oder Speichern von Dokumenten auftreten können in C#.
+description: Implementieren Sie die Schnittstelle Aspose.Words.IWarningCallback, um Methoden zum Erfassen von Qualitätswarnungen beim Laden und Speichern von Dokumenten anzupassen. Verbessern Sie die Dokumentintegrität!
 type: docs
-weight: 3210
+weight: 3660
 url: /de/net/aspose.words/iwarningcallback/
 ---
 ## IWarningCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie Ihre eigene benutzerdefinierte Methode aufrufen möchten, um Warnungen zum Verlust der Wiedergabetreue zu erfassen, die beim Laden oder Speichern von Dokumenten auftreten können.
+Implementieren Sie diese Schnittstelle, wenn Sie Ihre eigene benutzerdefinierte Methode aufrufen möchten, um Warnungen vor Qualitätsverlust zu erfassen, die beim Laden oder Speichern von Dokumenten auftreten können.
 
 ```csharp
 public interface IWarningCallback
@@ -20,7 +20,7 @@ public interface IWarningCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words ruft diese Methode auf, wenn beim Laden oder Speichern des Dokuments ein Problem auftritt, das zu einem Verlust der Formatierung oder Datentreue führen kann. |
+| [Warning](../../aspose.words/iwarningcallback/warning/)(*[WarningInfo](../warninginfo/)*) | Aspose.Words ruft diese Methode auf, wenn beim Laden oder Speichern eines Dokuments ein Problem auftritt, das zu einem Verlust der Formatierung oder Datentreue führen kann. |
 
 ## Beispiele
 
@@ -38,15 +38,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Speichern Sie die aktuelle Sammlung von Schriftartquellen, die die Standardschriftquelle für jedes Dokument sein wird
+    // Speichert die aktuelle Sammlung von Schriftartquellen, die als Standardschriftartquelle für jedes Dokument dienen.
     // für die wir keine andere Schriftartquelle angeben.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // Zu Testzwecken stellen wir Aspose.Words so ein, dass es nur in einem Ordner nach Schriftarten sucht, der nicht existiert.
+    // Zu Testzwecken stellen wir Aspose.Words so ein, dass nur in einem Ordner nach Schriftarten gesucht wird, der nicht existiert.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Beim Rendern des Dokuments ist die Schriftart „Times New Roman“ nicht zu finden.
-    // Dies führt zu einer Schriftartersetzungswarnung, die unser Rückruf erkennt.
+    // Beim Rendern des Dokuments ist die Schriftart „Times New Roman“ nirgends zu finden.
+    // Dies führt zu einer Warnung bezüglich der Schriftartersetzung, die von unserem Rückruf erkannt wird.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -54,7 +54,7 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -72,7 +72,7 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Zeigt einen Fallback für die Bitmap-Wiedergabe und eine Änderung der Art von Warnungen zu nicht unterstützten Metadateidatensätzen an.
+Zeigt einen Fallback für die Bitmap-Wiedergabe und eine Änderung der Art der Warnungen zu nicht unterstützten Metadateidatensätzen an.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -81,16 +81,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Setzen Sie die Eigenschaft „EmulateRasterOperations“ auf „false“, um auf die Bitmap zurückzugreifen, wenn
-    // es trifft auf eine Metadatei, die Rasteroperationen zum Rendern in der Ausgabe-PDF erfordert.
+    // Setzen Sie die Eigenschaft "EmulateRasterOperations" auf "false", um auf Bitmap zurückzugreifen, wenn
+    // Es wird auf eine Metadatei gestoßen, die Rasteroperationen erfordert, um sie im Ausgabe-PDF darzustellen.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
     // Setzen Sie die Eigenschaft „RenderingMode“ auf „VectorWithFallback“, um zu versuchen, jede Metadatei mithilfe von Vektorgrafiken zu rendern.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert und die Konfiguration anwendet
-    // in unserem MetafileRenderingOptions-Objekt für den Speichervorgang.
+    // in unserem MetafileRenderingOptions-Objekt zum Speichervorgang.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -105,7 +105,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Druckt und sammelt Warnungen im Zusammenhang mit Formatierungsverlusten, die beim Speichern eines Dokuments auftreten.
+/// Druckt und sammelt Warnungen bezüglich Formatierungsverlust, die beim Speichern eines Dokuments auftreten.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {
@@ -122,7 +122,7 @@ public class HandleDocumentWarnings : IWarningCallback
 }
 ```
 
-Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
+Zeigt, wie die Eigenschaft zum Suchen der besten Entsprechung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen festgelegt wird.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -130,7 +130,7 @@ public void EnableFontSubstitution()
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Weisen Sie einen Rückruf für die Behandlung von Schriftartersetzungswarnungen zu.
+    // Weisen Sie einen Rückruf für die Behandlung von Warnungen zur Schriftartersetzung zu.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
@@ -140,7 +140,7 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftmaße verwendet werden.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
@@ -159,7 +159,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

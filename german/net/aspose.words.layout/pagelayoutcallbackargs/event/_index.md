@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Event
 linktitle: Event
 articleTitle: Event
 second_title: Aspose.Words für .NET
-description: PageLayoutCallbackArgs Event eigendom. Ruft das Ereignis ab in C#.
+description: Entdecken Sie die Ereigniseigenschaft PageLayoutCallbackArgs, um die Funktionalität Ihrer Anwendung zu verbessern. Schalten Sie die nahtlose Ereignisbehandlung für eine bessere Leistung frei.
 type: docs
 weight: 20
 url: /de/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -18,7 +18,7 @@ public PageLayoutEvent Event { get; }
 
 ## Beispiele
 
-Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
+Zeigt, wie Layoutänderungen mit einem Layout-Rückruf verfolgt werden.
 
 ```csharp
 public void PageLayoutCallback()
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Benachrichtigt uns, wenn wir das Dokument in einem festen Seitenformat speichern
-/// und rendert eine Seite, auf der wir einen Seiten-Reflow durchführen, in ein Bild im lokalen Dateisystem.
+/// und rendert eine Seite, auf der wir einen Seitenumbruch in ein Bild im lokalen Dateisystem durchführen.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

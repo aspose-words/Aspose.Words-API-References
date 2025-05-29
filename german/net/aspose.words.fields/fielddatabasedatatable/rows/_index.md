@@ -3,7 +3,7 @@ title: FieldDatabaseDataTable.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words für .NET
-description: FieldDatabaseDataTable Rows eigendom. Ruft Zeilen ab die zu dieser Tabelle gehören in C#.
+description: Entdecken Sie die Eigenschaft „FieldDatabaseDataTable Rows“, um einfach auf alle Zeilen in Ihrer Tabelle zuzugreifen und sie zu verwalten und so eine effiziente Datenverarbeitung zu ermöglichen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fielddatabasedatatable/rows/

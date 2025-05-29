@@ -3,14 +3,14 @@ title: FieldDatabaseDataRow Class
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldDatabaseDataRow klas. Stellt Daten für die bereitFieldDatabase Feldergebnis. Bitte sehenDataRow Instanz in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.FieldDatabaseDataRow, die wichtige Daten für FieldDatabase-Ergebnisse bietet. Optimieren Sie noch heute Ihre Dokumentenverarbeitung!
 type: docs
-weight: 1750
+weight: 2160
 url: /de/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-Stellt Daten für die bereit[`FieldDatabase`](../fielddatabase/) Feldergebnis. Bitte sehenDataRow Instanz.
+Liefert Daten für die[`FieldDatabase`](../fielddatabase/) Feldergebnis. Bitte beachten SieDataRow Instanz.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
@@ -22,7 +22,7 @@ public class FieldDatabaseDataRow
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Initialisiert eine neue Instanz von`FieldDatabaseDataRow` Klasse. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Initialisiert eine neue Instanz des`FieldDatabaseDataRow` Klasse. |
 
 ## Eigenschaften
 
@@ -34,7 +34,7 @@ public class FieldDatabaseDataRow
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Initialisiert eine neue Instanz von`FieldDatabaseDataRow` class aus demDataRow Instanz. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Initialisiert eine neue Instanz des`FieldDatabaseDataRow` class aus demDataRow Instanz. |
 
 ### Siehe auch
 

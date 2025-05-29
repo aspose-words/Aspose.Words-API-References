@@ -3,14 +3,14 @@ title: Frameset.FrameDefaultUrl
 linktitle: FrameDefaultUrl
 articleTitle: FrameDefaultUrl
 second_title: Aspose.Words für .NET
-description: Frameset FrameDefaultUrl eigendom. Ruft die URL der Webseite oder den Namen der Dokumentdatei ab die in diesem Frame angezeigt werden sollen oder legt diese fest in C#.
+description: Entdecken Sie die Frameset-Eigenschaft FrameDefaultUrl, um Webseiten-URLs oder Dokumentdateien einfach für die nahtlose Frame-Anzeige festzulegen. Verbessern Sie Ihr Web-Erlebnis!
 type: docs
 weight: 30
 url: /de/net/aspose.words.framesets/frameset/framedefaulturl/
 ---
 ## Frameset.FrameDefaultUrl property
 
-Ruft die URL der Webseite oder den Namen der Dokumentdatei ab, die in diesem Frame angezeigt werden sollen, oder legt diese fest.
+Ruft die URL der Webseite oder den Dateinamen des Dokuments ab oder legt diese fest, um sie in diesem Frame anzuzeigen.
 
 ```csharp
 public string FrameDefaultUrl { get; set; }
@@ -18,13 +18,14 @@ public string FrameDefaultUrl { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man auf Frames auf der Seite zugreift.
+Zeigt, wie auf Frames auf der Seite zugegriffen wird.
 
 ```csharp
-// Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
+// Das Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) überprüfen oder ob der Frame eine externe Ressource ist.
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
+// Wir können die Standard-URL (die URL einer Webseite oder eines lokalen Dokuments) überprüfen oder ob es sich bei dem Frame um eine externe Ressource handelt.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

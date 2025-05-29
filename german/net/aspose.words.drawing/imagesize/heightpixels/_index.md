@@ -3,14 +3,14 @@ title: ImageSize.HeightPixels
 linktitle: HeightPixels
 articleTitle: HeightPixels
 second_title: Aspose.Words für .NET
-description: ImageSize HeightPixels eigendom. Ermittelt die Höhe des Bildes in Pixel in C#.
+description: Entdecken Sie die ImageSize HeightPixels-Eigenschaft, um einfach auf die Höhe Ihres Bilds in Pixeln zuzugreifen und diese für eine bessere Leistung und Qualität zu optimieren.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/imagesize/heightpixels/
 ---
 ## ImageSize.HeightPixels property
 
-Ermittelt die Höhe des Bildes in Pixel.
+Ruft die Höhe des Bildes in Pixeln ab.
 
 ```csharp
 public int HeightPixels { get; }
@@ -27,9 +27,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Fügen Sie eine Form in das Dokument ein, die ein Bild aus unserem lokalen Dateisystem enthält.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Wenn die Form ein Bild enthält, ist seine ImageData-Eigenschaft gültig.
+// Wenn die Form ein Bild enthält, ist ihre ImageData-Eigenschaft gültig.
 // und es wird ein ImageSize-Objekt enthalten.
-ImageSize imageSize = shape.ImageData.ImageSize; 
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // Das ImageSize-Objekt enthält schreibgeschützte Informationen über das Bild innerhalb der Form.
 Assert.AreEqual(400, imageSize.HeightPixels);
@@ -39,7 +39,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// Wir können die Größe der Form auf der Größe ihres Bildes basieren, um eine Dehnung des Bildes zu vermeiden.
+// Wir können die Größe der Form auf der Größe ihres Bildes basieren, um eine Streckung des Bildes zu vermeiden.
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

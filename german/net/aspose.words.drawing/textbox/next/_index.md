@@ -3,14 +3,14 @@ title: TextBox.Next
 linktitle: Next
 articleTitle: Next
 second_title: Aspose.Words für .NET
-description: TextBox Next eigendom. Gibt a zurück oder legt es festTextBox das stellt das nächste darTextBox in einer Folge von Formen in C#.
+description: Entdecken Sie, wie die TextBox Next-Eigenschaft Ihren Design-Workflow verbessert, indem sie Textfelder nahtlos in Ihre Projekte einbindet und so für eine bessere Organisation sorgt.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-Gibt a zurück oder legt es fest[`TextBox`](../) das stellt das nächste dar[`TextBox`](../) in einer Folge von Formen.
+Gibt zurück oder setzt einen[`TextBox`](../) das stellt die nächste[`TextBox`](../)in einer Abfolge von Formen.
 
 ```csharp
 public TextBox Next { get; set; }
@@ -39,14 +39,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Verknüpfungen zwischen einigen Textfeldern erstellen.
+// Erstellen Sie Links zwischen einigen Textfeldern.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Nur ein leeres Textfeld darf einen Link haben.
+// Nur ein leeres Textfeld kann einen Link enthalten.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und stellen Sie dann sicher, dass sie nicht mehr verknüpft sind.
+    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen TextBox2 und TextBox3 und stellen Sie dann sicher, dass sie nicht mehr verknüpft sind.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

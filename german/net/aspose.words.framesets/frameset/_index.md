@@ -3,9 +3,9 @@ title: Frameset Class
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Framesets.Frameset klas. Stellt eine FramesSeite oder einen einzelnen Frame auf einer FramesSeite dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Framesets.Frameset für nahtloses Frame-Management in Dokumenten. Verbessern Sie Ihre Webseiten mit effizienter Frame-Integration!
 type: docs
-weight: 3080
+weight: 3510
 url: /de/net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
@@ -28,23 +28,24 @@ public class Frameset
 
 | Name | Beschreibung |
 | --- | --- |
-| [ChildFramesets](../../aspose.words.framesets/frameset/childframesets/) { get; } | Ruft die Sammlung untergeordneter Frames und Frame-Seiten ab. |
-| [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Ruft die URL der Webseite oder den Namen der Dokumentdatei ab, die in diesem Frame angezeigt werden sollen, oder legt diese fest. |
-| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Ruft einen Wert ab oder legt diesen fest, der angibt, ob der in the angegebene Webseiten- oder Dokumentdateiname verwendet wird.[`FrameDefaultUrl`](./framedefaulturl/) Eigenschaft ist eine externe Ressource, mit der der Frame verknüpft ist. |
+| [ChildFramesets](../../aspose.words.framesets/frameset/childframesets/) { get; } | Ruft die Sammlung untergeordneter Frames und Frameseiten ab. |
+| [FrameDefaultUrl](../../aspose.words.framesets/frameset/framedefaulturl/) { get; set; } | Ruft die URL der Webseite oder den Dateinamen des Dokuments ab oder legt diese fest, um sie in diesem Frame anzuzeigen. |
+| [IsFrameLinkToFile](../../aspose.words.framesets/frameset/isframelinktofile/) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob der in der Datei angegebene Name der Webseite oder des Dokuments[`FrameDefaultUrl`](./framedefaulturl/) Eigenschaft ist eine externe Ressource, mit der der Frame verknüpft ist. |
 
 ## Bemerkungen
 
-Wenn die[`ChildFramesets`](./childframesets/) Die Eigenschaft enthält Elemente. Diese Instanz ist eine Frames-Seite, andernfalls handelt es sich um einen einzelnen Frame.
+Wenn die[`ChildFramesets`](./childframesets/) Eigenschaft enthält Elemente, diese Instanz ist eine Frames-Seite, andernfalls ist es ein einzelner Frame.
 
 ## Beispiele
 
-Zeigt, wie man auf Frames auf der Seite zugreift.
+Zeigt, wie auf Frames auf der Seite zugegriffen wird.
 
 ```csharp
-// Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
+// Das Dokument enthält mehrere Frames mit Links zu anderen Dokumenten.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-// Wir können die Standard-URL (eine Webseiten-URL oder ein lokales Dokument) überprüfen oder ob der Frame eine externe Ressource ist.
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
+// Wir können die Standard-URL (die URL einer Webseite oder eines lokalen Dokuments) überprüfen oder ob es sich bei dem Frame um eine externe Ressource handelt.
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
 Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);

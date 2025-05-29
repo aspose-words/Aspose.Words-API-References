@@ -3,7 +3,7 @@ title: Range.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words für .NET
-description: Range Text eigendom. Ruft den Text des Bereichs ab in C#.
+description: Entdecken Sie die Textbereichseigenschaft, um Text innerhalb eines angegebenen Bereichs einfach abzurufen und zu bearbeiten und so die Inhaltsverwaltung zu verbessern.
 type: docs
 weight: 60
 url: /de/net/aspose.words/range/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Bemerkungen
 
-Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in beschrieben[`ControlChar`](../../controlchar/).
+Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen wie in[`ControlChar`](../../controlchar/).
 
 ## Beispiele
 

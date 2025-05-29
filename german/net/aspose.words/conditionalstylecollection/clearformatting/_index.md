@@ -3,7 +3,7 @@ title: ConditionalStyleCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words für .NET
-description: ConditionalStyleCollection ClearFormatting methode. Löscht alle bedingten Stile des Tabellenstils in C#.
+description: Entdecken Sie, wie die ClearFormatting-Methode „ConditionalStyleCollection“ alle bedingten Stile effektiv aus Ihrer Tabelle entfernt und so Übersichtlichkeit und Design verbessert.
 type: docs
 weight: 150
 url: /de/net/aspose.words/conditionalstylecollection/clearformatting/
@@ -35,19 +35,19 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// Legen Sie den Tabellenstil fest, um die Ränder der ersten Zeile der Tabelle rot zu färben.
+// Legen Sie den Tabellenstil fest, um die Ränder der ersten Tabellenzeile rot einzufärben.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// Legen Sie den Tabellenstil fest, um die Ränder der letzten Tabellenzeile blau zu färben.
+// Legen Sie den Tabellenstil fest, um die Ränder der letzten Tabellenzeile blau einzufärben.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
-// Nachfolgend finden Sie zwei Möglichkeiten, die Methode „ClearFormatting“ zum Löschen der bedingten Stile zu verwenden.
-// 1 – Bedingte Stile für einen bestimmten Teil einer Tabelle löschen:
+// Unten sind zwei Möglichkeiten aufgeführt, wie Sie mit der Methode „ClearFormatting“ die bedingten Stile löschen können.
+// 1 – Löschen Sie die bedingten Stile für einen bestimmten Teil einer Tabelle:
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);
 
-// 2 – Bedingte Stile für die gesamte Tabelle löschen:
+// 2 - Löschen Sie die bedingten Stile für die gesamte Tabelle:
 tableStyle.ConditionalStyles.ClearFormatting();
 
 Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty));

@@ -3,14 +3,14 @@ title: FieldBarcode.IsUSPostalAddress
 linktitle: IsUSPostalAddress
 articleTitle: IsUSPostalAddress
 second_title: Aspose.Words für .NET
-description: FieldBarcode IsUSPostalAddress eigendom. Ruft ab oder legt fest obPostalAddress ist eine USPostadresse in C#.
+description: Entdecken Sie die Eigenschaft „IsUSPostalAddress“ von FieldBarcode. Verwalten Sie die Validierung von US-Postadressen ganz einfach für präzise Datenverarbeitung und mehr Effizienz.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldbarcode/isuspostaladdress/
 ---
 ## FieldBarcode.IsUSPostalAddress property
 
-Ruft ab oder legt fest, ob[`PostalAddress`](../postaladdress/) ist eine US-Postadresse.
+Ruft ab oder legt fest, ob[`PostalAddress`](../postaladdress/) ist eine US-Postanschrift.
 
 ```csharp
 public bool IsUSPostalAddress { get; set; }
@@ -18,7 +18,7 @@ public bool IsUSPostalAddress { get; set; }
 
 ## Beispiele
 
-Zeigt, wie das Feld BARCODE verwendet wird, um US-Postleitzahlen in Form eines Barcodes anzuzeigen.
+Zeigt, wie das BARCODE-Feld verwendet wird, um US-Postleitzahlen in Form eines Barcodes anzuzeigen.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Nachfolgend finden Sie zwei Möglichkeiten, BARCODE-Felder zu verwenden, um benutzerdefinierte Werte als Barcodes anzuzeigen.
-// 1 – Speichern Sie den Wert, den der Barcode in der PostalAddress-Eigenschaft anzeigt:
+// Unten sind zwei Möglichkeiten zur Verwendung von BARCODE-Feldern aufgeführt, um benutzerdefinierte Werte als Barcodes anzuzeigen.
+// 1 – Speichern Sie den Wert, der im Barcode angezeigt wird, in der Eigenschaft „PostalAddress“:
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
 // Dieser Wert muss eine gültige Postleitzahl sein.
@@ -39,15 +39,15 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 – Verweisen Sie auf ein Lesezeichen, das den Wert speichert, den dieser Barcode anzeigt:
+// 2 – Verweisen Sie auf ein Lesezeichen, das den Wert speichert, der von diesem Barcode angezeigt wird:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
-// Das Lesezeichen, auf das das BARCODE-Feld in seiner PostalAddress-Eigenschaft verweist
-// muss außer der gültigen Postleitzahl nichts enthalten.
+// Das Lesezeichen, auf das das Feld BARCODE in seiner Eigenschaft PostalAddress verweist
+// darf außer der gültigen Postleitzahl nichts enthalten.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

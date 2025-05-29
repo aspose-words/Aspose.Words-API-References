@@ -3,14 +3,14 @@ title: Body.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words für .NET
-description: Body NodeType eigendom. Gibt zurückBody  in C#.
+description: Entdecken Sie die Body NodeType-Eigenschaft, die den Body-Inhalt effizient zurückgibt, Ihre Webentwicklungserfahrung verbessert und Ihre Projekte optimiert.
 type: docs
 weight: 20
 url: /de/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-Gibt zurückBody .
+RückgabenBody .
 
 ```csharp
 public override NodeType NodeType { get; }

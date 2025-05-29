@@ -3,7 +3,7 @@ title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words für .NET
-description: FieldSubject Text eigendom. Ruft den Text des Betreffs ab oder legt ihn fest in C#.
+description: Verwalten Sie die FieldSubject-Texteigenschaft mühelos – rufen Sie Ihren Betrefftext ab oder legen Sie ihn fest, um eine nahtlose Datenverarbeitung und ein verbessertes Benutzererlebnis zu ermöglichen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldsubject/text/
@@ -18,12 +18,12 @@ public string Text { get; set; }
 
 ## Beispiele
 
-Zeigt, wie das Feld SUBJECT verwendet wird.
+Zeigt, wie das Feld „BETREFF“ verwendet wird.
 
 ```csharp
 Document doc = new Document();
 
-// Legen Sie einen Wert für die integrierte Eigenschaft „Subject“ des Dokuments fest.
+// Legen Sie einen Wert für die integrierte Eigenschaft „Betreff“ des Dokuments fest.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
 // Erstellen Sie ein SUBJECT-Feld, um den Wert dieser integrierten Eigenschaft anzuzeigen.
@@ -34,8 +34,8 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// Wenn wir den Text-Eigenschaftswert des SUBJECT-Felds angeben und ihn aktualisieren, wird das Feld dies tun
-// den aktuellen Wert der integrierten Eigenschaft „Subject“ mit dem Wert ihrer Text-Eigenschaft überschreiben,
+// Wenn wir dem Feld SUBJECT den Eigenschaftswert Text geben und ihn aktualisieren, wird das Feld
+// den aktuellen Wert der integrierten Eigenschaft „Betreff“ mit dem Wert ihrer Texteigenschaft überschreiben,
 // und dann den neuen Wert anzeigen.
 field.Text = "My new subject";
 field.Update();

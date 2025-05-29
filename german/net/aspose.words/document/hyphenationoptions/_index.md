@@ -3,14 +3,14 @@ title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words für .NET
-description: Document HyphenationOptions eigendom. Bietet Zugriff auf Silbentrennungsoptionen für Dokumente in C#.
+description: Erkunden Sie die Eigenschaft „Document HyphenationOptions“, um die Silbentrennungseinstellungen anzupassen und so die Lesbarkeit zu verbessern und die Präsentation Ihres Dokuments zu verbessern.
 type: docs
-weight: 210
+weight: 220
 url: /de/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-Bietet Zugriff auf Silbentrennungsoptionen für Dokumente.
+Bietet Zugriff auf Dokument-Silbentrennungsoptionen.
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }

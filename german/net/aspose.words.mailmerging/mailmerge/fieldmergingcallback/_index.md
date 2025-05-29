@@ -3,14 +3,14 @@ title: MailMerge.FieldMergingCallback
 linktitle: FieldMergingCallback
 articleTitle: FieldMergingCallback
 second_title: Aspose.Words für .NET
-description: MailMerge FieldMergingCallback eigendom. Tritt beim Serienbrief auf wenn im Dokument ein Serienbrieffeld gefunden wird in C#.
+description: Entdecken Sie die MailMerge FieldMergingCallback-Eigenschaft, die Ihr Serienbrieferlebnis durch die effiziente Handhabung von Dokumentfeldern für eine nahtlose Integration verbessert.
 type: docs
 weight: 30
 url: /de/net/aspose.words.mailmerging/mailmerge/fieldmergingcallback/
 ---
 ## MailMerge.FieldMergingCallback property
 
-Tritt beim Serienbrief auf, wenn im Dokument ein Serienbrieffeld gefunden wird.
+Tritt während des Seriendrucks auf, wenn im Dokument ein Seriendruckfeld gefunden wird.
 
 ```csharp
 public IFieldMergingCallback FieldMergingCallback { get; set; }
@@ -18,7 +18,7 @@ public IFieldMergingCallback FieldMergingCallback { get; set; }
 
 ## Beispiele
 
-Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
+Zeigt, wie in einem BLOB-Feld einer Datenbank gespeicherte Bilder in einen Bericht eingefügt werden.
 
 ```csharp
 public void ImageFromBlob()
@@ -34,7 +34,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze auf einmal liest.
+        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze gleichzeitig liest.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -52,7 +52,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Dies wird aufgerufen, wenn ein Serienbrief im Dokument auf ein MERGEFIELD mit einem „Image:“-Tag im Namen trifft.
+    /// Dies wird aufgerufen, wenn ein Serienbrief auf ein MERGEFIELD im Dokument trifft, dessen Name ein „Image:“-Tag enthält.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -62,7 +62,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
+Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Serienbriefdaten in Form von HTML-Dokumenten verarbeitet.
 
 ```csharp
 public void MergeHtml()
@@ -95,25 +95,25 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix „html_“ beginnt,
-/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort des MERGEFIELD hinzu.
+/// Wenn der Serienbrief auf ein MERGEFIELD trifft, dessen Name mit dem Präfix "html_" beginnt,
+/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis zum Dokumentspeicherort des MERGEFIELD hinzu.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in ein MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Geparste HTML-Daten zum Hauptteil des Dokuments hinzufügen.
+            // Fügen Sie dem Hauptteil des Dokuments analysierte HTML-Daten hinzu.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Da wir den zusammengeführten Inhalt bereits manuell eingefügt haben,
-             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
+            // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
             args.Text = string.Empty;
         }
     }

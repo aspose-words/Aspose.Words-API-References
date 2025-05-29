@@ -3,14 +3,14 @@ title: EditableRangeStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: EditableRangeStart Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die EditableRangeStart Accept-Methode, um Besucherinteraktionen effizient zu verwalten und das Benutzererlebnis auf Ihrer Site zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words/editablerangestart/accept/
 ---
 ## EditableRangeStart.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,17 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-`FALSCH` wenn der Besucher das Stoppen der Aufzählung angefordert hat.
+`FALSCH` wenn der Besucher die Beendigung der Aufzählung verlangt hat.
 
 ## Bemerkungen
 
 Anrufe[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
 ## Beispiele
 
-Zeigt, wie man die Bearbeitungsrechte bearbeitbarer Bereiche auf eine bestimmte Gruppe/einen bestimmten Benutzer beschränkt.
+Zeigt, wie die Bearbeitungsrechte bearbeitbarer Bereiche auf eine bestimmte Gruppe/einen bestimmten Benutzer beschränkt werden.
 
 ```csharp
 public void Visitor()
@@ -44,9 +44,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Wenn wir Dokumente mit einem Schreibschutz versehen, ermöglichen uns bearbeitbare Bereiche die Auswahl bestimmter Bereiche, die Benutzer bearbeiten dürfen.
+    // Wenn wir Dokumente mit einem Schreibschutz versehen, können wir mithilfe bearbeitbarer Bereiche bestimmte Bereiche auswählen, die Benutzer bearbeiten dürfen.
     // Es gibt zwei sich gegenseitig ausschließende Möglichkeiten, die Liste der zulässigen Editoren einzugrenzen.
-    // 1 – Geben Sie einen Benutzer an:
+    // 1 - Geben Sie einen Benutzer an:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -54,7 +54,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 – Geben Sie eine Gruppe an, der zulässige Benutzer zugeordnet sind:
+    // 2 - Geben Sie eine Gruppe an, der zulässige Benutzer zugeordnet sind:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Details und Inhalte aller bearbeitbaren Bereiche im Dokument drucken.
+    // Details und Inhalte jedes bearbeitbaren Bereichs im Dokument drucken.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Sammelt Eigenschaften und Inhalte der besuchten bearbeitbaren Bereiche in einem String.
+/// Sammelt Eigenschaften und Inhalte der besuchten bearbeitbaren Bereiche in einer Zeichenfolge.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {

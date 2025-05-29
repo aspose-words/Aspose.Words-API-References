@@ -3,14 +3,14 @@ title: FieldMergeBarcode.ForegroundColor
 linktitle: ForegroundColor
 articleTitle: ForegroundColor
 second_title: Aspose.Words für .NET
-description: FieldMergeBarcode ForegroundColor eigendom. Ruft die Vordergrundfarbe des Barcodesymbols ab oder legt diese fest. Gültige Werte liegen im Bereich 0 0xFFFFFF in C#.
+description: Entdecken Sie die FieldMergeBarcode ForegroundColor-Eigenschaft, um das Erscheinungsbild Ihres Barcodes anzupassen. Stellen Sie Farben einfach mit Werten von 0 bis 0xFFFFFF ein!
 type: docs
 weight: 100
 url: /de/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
 ---
 ## FieldMergeBarcode.ForegroundColor property
 
-Ruft die Vordergrundfarbe des Barcodesymbols ab oder legt diese fest. Gültige Werte liegen im Bereich [0, 0xFFFFFF]
+Ruft die Vordergrundfarbe des Barcode-Symbols ab oder legt sie fest. Gültige Werte liegen im Bereich [0, 0xFFFFFF]
 
 ```csharp
 public string ForegroundColor { get; set; }
@@ -18,14 +18,14 @@ public string ForegroundColor { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man einen Serienbrief für QR-Barcodes durchführt.
+Zeigt, wie ein Serienbrief mit QR-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer Zusammenführungsdatenquelle in QR-Codes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer zusammengeführten Datenquelle in QR-Codes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -45,7 +45,7 @@ builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein QR-Code mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein QR-Code mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

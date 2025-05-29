@@ -3,14 +3,14 @@ title: OleFormat.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words für .NET
-description: OleFormat SourceFullName eigendom. Ruft den Pfad und Namen der Quelldatei für das verknüpfte OLEObjekt ab oder legt diesen fest in C#.
+description: Entdecken Sie die OleFormat SourceFullName-Eigenschaft und verwalten Sie ganz einfach den Pfad und den Namen der Quelldatei Ihres verknüpften OLE-Objekts für eine nahtlose Integration.
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing/oleformat/sourcefullname/
 ---
 ## OleFormat.SourceFullName property
 
-Ruft den Pfad und Namen der Quelldatei für das verknüpfte OLE-Objekt ab oder legt diesen fest.
+Ruft den Pfad und den Namen der Quelldatei für das verknüpfte OLE-Objekt ab oder legt diese fest.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -20,7 +20,7 @@ public string SourceFullName { get; set; }
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-Wenn`SourceFullName` keine leere Zeichenfolge ist, ist das OLE-Objekt verknüpft.
+Wenn`SourceFullName` kein leerer String ist, wird das OLE-Objekt verknüpft.
 
 ## Beispiele
 
@@ -30,10 +30,10 @@ Zeigt, wie verknüpfte und nicht verknüpfte OLE-Objekte eingefügt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Microsoft Visio-Zeichnung als OLE-Objekt in das Dokument einbetten.
+// Betten Sie eine Microsoft Visio-Zeichnung als OLE-Objekt in das Dokument ein.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Einen Link zur Datei im lokalen Dateisystem einfügen und als Symbol anzeigen.
+// Fügen Sie einen Link zur Datei im lokalen Dateisystem ein und zeigen Sie ihn als Symbol an.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // Durch das Einfügen von OLE-Objekten werden Formen erstellt, die diese Objekte speichern.
@@ -42,8 +42,8 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// Wenn eine Form ein OLE-Objekt enthält, verfügt sie über eine gültige „OleFormat“-Eigenschaft.
-// mit dem wir einige Aspekte der Form überprüfen können.
+// Wenn eine Form ein OLE-Objekt enthält, verfügt sie über eine gültige "OleFormat"-Eigenschaft,
+// die wir verwenden können, um einige Aspekte der Form zu überprüfen.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);

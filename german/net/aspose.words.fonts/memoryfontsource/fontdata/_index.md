@@ -3,14 +3,14 @@ title: MemoryFontSource.FontData
 linktitle: FontData
 articleTitle: FontData
 second_title: Aspose.Words für .NET
-description: MemoryFontSource FontData eigendom. Binäre Schriftartdaten in C#.
+description: Entdecken Sie die FontData-Eigenschaft von MemoryFontSource für die nahtlose Integration binärer Schriftarten. Optimieren Sie Ihre Projekte mit effizienten Lösungen zur Schriftverwaltung.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-Binäre Schriftartdaten.
+Binäre Schriftdaten.
 
 ```csharp
 public byte[] FontData { get; }

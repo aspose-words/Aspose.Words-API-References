@@ -3,9 +3,9 @@ title: FieldIfComparisonResult Enum
 linktitle: FieldIfComparisonResult
 articleTitle: FieldIfComparisonResult
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldIfComparisonResult opsomming. Gibt das Ergebnis der IFFeldbedingungsauswertung an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Fields.FieldIfComparisonResult, die Ergebnisse von IF-Feldauswertungen definiert und so Ihre Möglichkeiten zur Dokumentautomatisierung verbessert.
 type: docs
-weight: 2010
+weight: 2420
 url: /de/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
@@ -38,13 +38,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Das IF-Feld zeigt eine Zeichenfolge entweder seiner „TrueText“-Eigenschaft an,
-// oder seine „FalseText“-Eigenschaft, abhängig von der Wahrheit der Aussage, die wir erstellt haben.
+// Das IF-Feld zeigt eine Zeichenfolge aus seiner Eigenschaft "TrueText" an,
+// oder seine Eigenschaft „FalseText“, abhängig von der Wahrheit der von uns erstellten Aussage.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// In diesem Fall ist „0 = 1“ falsch, daher wird das angezeigte Ergebnis „Falsch“ sein.
+// In diesem Fall ist „0 = 1“ falsch, daher ist das angezeigte Ergebnis „Falsch“.
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -58,7 +58,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Diesmal ist die Aussage korrekt, daher wird das angezeigte Ergebnis „True“ sein.
+// Dieses Mal ist die Anweisung korrekt, daher ist das angezeigte Ergebnis „True“.
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

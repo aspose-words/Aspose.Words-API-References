@@ -3,14 +3,14 @@ title: SignOptions.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
 second_title: Aspose.Words für .NET
-description: SignOptions ProviderId eigendom. Gibt die KlassenID des Signaturanbieters an. Der Standardwert istLeere alle Nullen Guid  in C#.
+description: Entdecken Sie die SignOptions ProviderId-Eigenschaft, die die Klassen-ID Ihres Signaturanbieters definiert. Für optimale Leistung können Sie die Eigenschaft ganz einfach mit einer eindeutigen GUID anpassen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Gibt die Klassen-ID des Signaturanbieters an. Der Standardwert ist**Leere (alle Nullen) Guid** .
+Gibt die Klassen-ID des Signaturanbieters an. Der Standardwert ist**Leere (nur Nullen) GUID** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -18,11 +18,11 @@ public Guid ProviderId { get; set; }
 
 ## Bemerkungen
 
-Der Kryptografiedienstanbieter (CSP) ist ein unabhängiges Softwaremodul, das tatsächlich Kryptografiealgorithmen zur Authentifizierung, Kodierung und Verschlüsselung ausführt. MS Office reserviert den Wert von {00000000-0000-0000-0000-000000000000} für seinen Standardsignaturanbieter.
+Der Kryptografiedienstanbieter (CSP) ist ein unabhängiges Softwaremodul, das tatsächlich Kryptografiealgorithmen zur Authentifizierung, Verschlüsselung und Verschlüsselung ausführt. MS Office reserviert den Wert von {00000000-0000-0000-0000-000000000000} für seinen Standardsignaturanbieter.
 
-Die GUID des zusätzlich installierten Providers entnehmen Sie bitte der mitgelieferten Dokumentation des Providers.
+Die GUID des zusätzlich installierten Providers entnehmen Sie bitte der mit dem Provider mitgelieferten Dokumentation.
 
-Darüber hinaus werden alle installierten Kryptografieanbieter in der Windows-Registrierung aufgelistet. Sie finden sie im folgenden Pfad: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Es gibt einen Schlüsselnamen „CP Service UUID“, der entspricht eine GUID des Signaturanbieters.
+Darüber hinaus werden alle installierten Kryptografieanbieter in der Windows-Registrierung aufgelistet. Sie befinden sich im folgenden Pfad: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Es gibt einen Schlüsselnamen „CP Service UUID“, der einer GUID des Signaturanbieters entspricht.
 
 ## Beispiele
 

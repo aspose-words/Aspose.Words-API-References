@@ -3,14 +3,14 @@ title: PageInfo.Landscape
 linktitle: Landscape
 articleTitle: Landscape
 second_title: Aspose.Words für .NET
-description: PageInfo Landscape eigendom. Gibt zurückWAHR wenn die im Dokument für diese Seite angegebene Seitenausrichtung Querformat ist in C#.
+description: Mit PageInfo können Sie feststellen, ob Ihr Dokument im Querformat ausgerichtet ist. So gewährleisten Sie optimales Layout für beeindruckende Präsentationen und Ausdrucke.
 type: docs
 weight: 30
 url: /de/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-Gibt zurück`WAHR` wenn die im Dokument für diese Seite angegebene Seitenausrichtung Querformat ist.
+Rückgaben`WAHR` wenn die im Dokument für diese Seite angegebene Seitenausrichtung Querformat ist.
 
 ```csharp
 public bool Landscape { get; }
@@ -18,13 +18,13 @@ public bool Landscape { get; }
 
 ## Beispiele
 
-Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite in einem Word-Dokument gedruckt werden.
+Zeigt, wie Seitengrößen- und Ausrichtungsinformationen für jede Seite eines Word-Dokuments gedruckt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Der erste Abschnitt hat 2 Seiten. Wir werden jedem ein anderes Druckerpapierfach zuweisen,
-// dessen Nummer mit einer Art Papierquelle übereinstimmt. Diese Quellen und ihre Arten können variieren
+// Der erste Abschnitt besteht aus zwei Seiten. Wir weisen jeder Seite ein anderes Druckerpapierfach zu.
+// deren Nummer einer Papierquelle entspricht. Diese Quellen und ihre Arten variieren
 // abhängig vom installierten Druckertreiber.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -38,17 +38,17 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Jede Seite hat ein PageInfo-Objekt, dessen Index die Nummer der jeweiligen Seite ist.
+    // Jede Seite hat ein PageInfo-Objekt, dessen Index die jeweilige Seitennummer ist.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Ausrichtung und Abmessungen der Seite drucken.
+    // Drucken Sie die Ausrichtung und Abmessungen der Seite.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Drucken Sie die Informationen zum Quellfach.
+    // Druckt die Quellfachinformationen.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");
@@ -101,15 +101,15 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// Wird aufgerufen, bevor jede Seite gedruckt wird.
+        /// Wird vor dem Drucken jeder Seite aufgerufen.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-         // Ein einzelnes Microsoft Word-Dokument kann mehrere Abschnitte haben, die Seiten mit unterschiedlichen Größen angeben.
-         // Ausrichtungen und Papierfächer. Das .NET-Druckframework ruft diesen Code zuvor auf
-        // jede Seite wird gedruckt, was uns die Möglichkeit gibt anzugeben, wie die aktuelle Seite gedruckt werden soll.
+            // Ein einzelnes Microsoft Word-Dokument kann mehrere Abschnitte enthalten, die Seiten mit unterschiedlichen Größen angeben,
+            // Ausrichtungen und Papierfächer. Das .NET-Druckframework ruft diesen Code auf, bevor
+        // Jede Seite wird gedruckt, was uns die Möglichkeit gibt, anzugeben, wie die aktuelle Seite gedruckt werden soll.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
@@ -120,17 +120,17 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// Wird für jede Seite aufgerufen, um sie zum Drucken zu rendern.
+        /// Wird für jede Seite aufgerufen, um sie für den Druck zu rendern.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Die Aspose.Words-Rendering-Engine erstellt eine Seite, die vom Ursprung (x = 0, y = 0) des Papiers gezeichnet wird.
-        // Im Drucker wird ein harter Rand vorhanden sein, der jede Seite rendert. Wir müssen diesen harten Spielraum ausgleichen.
+        // Die Rendering-Engine von Aspose.Words erstellt eine Seite, die vom Ursprung (x = 0, y = 0) des Papiers aus gezeichnet wird.
+        // Der Drucker verfügt über einen festen Rand, der jede Seite rendert. Wir benötigen diesen Abstand.
         float hardOffsetX, hardOffsetY;
 
-        // Unten finden Sie zwei Möglichkeiten, einen harten Rand festzulegen.
+        // Unten sind zwei Möglichkeiten zum Festlegen eines festen Rands aufgeführt.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
             // 1 – Über die Eigenschaft „PageSettings“.
@@ -139,7 +139,7 @@ public class MyPrintDocument : PrintDocument
         }
         else
         {
-            // 2 – Verwendung unserer eigenen Werte, wenn die Eigenschaft „PageSettings“ nicht verfügbar ist.
+            // 2 – Verwenden unserer eigenen Werte, wenn die Eigenschaft „PageSettings“ nicht verfügbar ist.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

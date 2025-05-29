@@ -3,14 +3,14 @@ title: Font.LineSpacing
 linktitle: LineSpacing
 articleTitle: LineSpacing
 second_title: Aspose.Words für .NET
-description: Font LineSpacing eigendom. Gibt den Zeilenabstand dieser Schriftart zurück in Punkt in C#.
+description: Entdecken Sie die Font LineSpacing-Eigenschaft, die den genauen Zeilenabstand in Punkten bereitstellt und so die Lesbarkeit und das Design Ihres Textes verbessert.
 type: docs
 weight: 190
 url: /de/net/aspose.words/font/linespacing/
 ---
 ## Font.LineSpacing property
 
-Gibt den Zeilenabstand dieser Schriftart zurück (in Punkt).
+Gibt den Zeilenabstand dieser Schriftart (in Punkten) zurück.
 
 ```csharp
 public double LineSpacing { get; }
@@ -18,13 +18,13 @@ public double LineSpacing { get; }
 
 ## Beispiele
 
-Zeigt, wie der Zeilenabstand einer Schriftart in Punkt ermittelt wird.
+Zeigt, wie der Zeilenabstand einer Schriftart in Punkten ermittelt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Verschiedene Schriftarten für den DocumentBuilder festlegen und deren Zeilenabstand überprüfen.
+// Legen Sie für den DocumentBuilder unterschiedliche Schriftarten fest und überprüfen Sie deren Zeilenabstand.
 builder.Font.Name = "Calibri";
 Assert.AreEqual(14.6484375d, builder.Font.LineSpacing);
 

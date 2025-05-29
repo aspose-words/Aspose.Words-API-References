@@ -3,9 +3,9 @@ title: RevisionOptions.InsertedTextColor
 linktitle: InsertedTextColor
 articleTitle: InsertedTextColor
 second_title: Aspose.Words für .NET
-description: RevisionOptions InsertedTextColor eigendom. Ermöglicht die Angabe der Farbe die für eingefügte Inhalte verwendet werden sollInsertion . Der Standardwert istByAuthor  in C#.
+description: Passen Sie Ihr Bearbeitungserlebnis mit der RevisionOptions InsertedTextColor-Eigenschaft an und legen Sie eindeutige Farben für eingefügte Inhalte fest. Standard: ByAuthor.
 type: docs
-weight: 40
+weight: 60
 url: /de/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 ---
 ## RevisionOptions.InsertedTextColor property
@@ -24,18 +24,19 @@ Zeigt, wie das Erscheinungsbild von Revisionen in einem gerenderten Ausgabedokum
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Revision einfügen und dann die Farbe aller Revisionen in Grün ändern.
+// Fügen Sie eine Revision ein und ändern Sie dann die Farbe aller Revisionen in Grün.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Entfernen Sie die Leiste, die links von jeder überarbeiteten Zeile erscheint.
+// Entfernen Sie den Balken, der links neben jeder überarbeiteten Zeile erscheint.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Siehe auch

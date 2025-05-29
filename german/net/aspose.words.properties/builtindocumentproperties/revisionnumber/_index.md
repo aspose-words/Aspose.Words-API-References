@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.RevisionNumber
 linktitle: RevisionNumber
 articleTitle: RevisionNumber
 second_title: Aspose.Words für .NET
-description: BuiltInDocumentProperties RevisionNumber eigendom. Ruft die Revisionsnummer des Dokuments ab oder legt diese fest in C#.
+description: Verwalten Sie die Revisionsnummer Ihres Dokuments mit BuiltInDocumentProperties. Verfolgen Sie Änderungen ganz einfach und verbessern Sie die Versionskontrolle für eine bessere Zusammenarbeit.
 type: docs
-weight: 240
+weight: 250
 url: /de/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
 ---
 ## BuiltInDocumentProperties.RevisionNumber property
 
-Ruft die Revisionsnummer des Dokuments ab oder legt diese fest.
+Ruft die Revisionsnummer des Dokuments ab oder legt sie fest.
 
 ```csharp
 public int RevisionNumber { get; set; }
@@ -30,16 +30,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Current revision #");
 
-// Ein REVNUM-Feld einfügen, das die aktuelle Revisionsnummereigenschaft des Dokuments anzeigt.
+// Fügen Sie ein REVNUM-Feld ein, das die aktuelle Revisionsnummerneigenschaft des Dokuments anzeigt.
 FieldRevNum field = (FieldRevNum)builder.InsertField(FieldType.FieldRevisionNum, true);
 
 Assert.AreEqual(" REVNUM ", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 
-// Diese Eigenschaft zählt, wie oft ein Dokument in Microsoft Word gespeichert wurde.
-// und hat nichts mit nachverfolgten Revisionen zu tun. Wir können es finden, indem wir im Windows Explorer mit der rechten Maustaste auf das Dokument klicken
-// über Eigenschaften -> Einzelheiten. Wir können diese Eigenschaft manuell aktualisieren.
+// Diese Eigenschaft zählt, wie oft ein Dokument in Microsoft Word gespeichert wurde,
+// und hat nichts mit verfolgten Revisionen zu tun. Wir finden es, indem wir im Windows Explorer mit der rechten Maustaste auf das Dokument klicken.
+// über Eigenschaften -> Details. Wir können diese Eigenschaft manuell aktualisieren.
 doc.BuiltInDocumentProperties.RevisionNumber++;
 field.Update();
 
@@ -54,9 +54,9 @@ Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Die folgenden integrierten Eigenschaften enthalten Informationen zur Erstellung und Bearbeitung dieses Dokuments.
-// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und es finden
-// diese Eigenschaften über „Eigenschaften“ -> „Details“ -> Kategorie „Herkunft“.
-// Felder wie PRINTDATE und EDITTIME können diese Werte im Dokumentkörper anzeigen.
+// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und finden
+// diese Eigenschaften über die Kategorie „Eigenschaften“ -> „Details“ -> „Herkunft“.
+// Felder wie PRINTDATE und EDITTIME können diese Werte im Dokumenttext anzeigen.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
@@ -69,11 +69,11 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word aktualisiert die folgenden Eigenschaften automatisch, wenn wir das Dokument speichern.
-// Um diese Eigenschaften mit Aspose.Words zu verwenden, müssen wir Werte für sie manuell festlegen.
+// Um diese Eigenschaften mit Aspose.Words zu verwenden, müssen wir die Werte manuell festlegen.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und es finden these properties in "Properties" -> "Details" -> "Origin".
+// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und diese Eigenschaften unter „Eigenschaften“ -> „Details“ -> „Ursprung“ finden.
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

@@ -3,14 +3,14 @@ title: Story.AppendParagraph
 linktitle: AppendParagraph
 articleTitle: AppendParagraph
 second_title: Aspose.Words für .NET
-description: Story AppendParagraph methode. Eine Verknüpfungsmethode die eine erstelltParagraph Objekt mit optionalem Text und hängt ihn am Ende dieses Objekts an in C#.
+description: Entdecken Sie die Story AppendParagraph-Methode, erstellen und hängen Sie mühelos ein Absatzobjekt mit anpassbarem Text an, um Dokumente nahtlos zu verbessern.
 type: docs
 weight: 60
 url: /de/net/aspose.words/story/appendparagraph/
 ---
 ## Story.AppendParagraph method
 
-Eine Verknüpfungsmethode, die eine erstellt[`Paragraph`](../../paragraph/) Objekt mit optionalem Text und hängt ihn am Ende dieses Objekts an.
+Eine Abkürzungsmethode, die eine[`Paragraph`](../../paragraph/) Objekt mit optionalem Text und hängt ihn an das Ende dieses Objekts an.
 
 ```csharp
 public Paragraph AppendParagraph(string text)
@@ -18,7 +18,7 @@ public Paragraph AppendParagraph(string text)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| text | String | Der Text für den Absatz. Kann sein`Null` oder leere Zeichenfolge. |
+| text | String | Der Text für den Absatz. Kann sein`null` oder eine leere Zeichenfolge. |
 
 ### Rückgabewert
 
@@ -26,12 +26,12 @@ Der neu erstellte und angehängte Absatz.
 
 ## Beispiele
 
-Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
+Zeigt, wie eine Kopf- und eine Fußzeile erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Eine Überschrift erstellen und einen Absatz daran anhängen. Der Text in diesem Absatz
+// Erstellen Sie eine Überschrift und fügen Sie einen Absatz hinzu. Der Text in diesem Absatz
 // wird oben auf jeder Seite dieses Abschnitts über dem Haupttext angezeigt.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
@@ -41,7 +41,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Eine Fußzeile erstellen und einen Absatz daran anhängen. Der Text in diesem Absatz
+// Erstellen Sie eine Fußzeile und fügen Sie einen Absatz hinzu. Der Text in diesem Absatz
 // wird unten auf jeder Seite dieses Abschnitts unter dem Haupttext angezeigt.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

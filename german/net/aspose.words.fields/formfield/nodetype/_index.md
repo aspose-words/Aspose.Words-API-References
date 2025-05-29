@@ -3,14 +3,14 @@ title: FormField.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words für .NET
-description: FormField NodeType eigendom. Gibt zurückFormField  in C#.
+description: Entdecken Sie die FormField NodeType-Eigenschaft, die FormField-Daten effizient zurückgibt und Ihre Entwicklungserfahrung durch nahtlose Integration verbessert.
 type: docs
 weight: 140
 url: /de/net/aspose.words.fields/formfield/nodetype/
 ---
 ## FormField.NodeType property
 
-Gibt zurückFormField .
+RückgabenFormField .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -25,16 +25,16 @@ public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Jeder Knoten, der untergeordnete Knoten enthalten kann, z. B. das Dokument selbst, ist zusammengesetzt.
+    // Jeder Knoten, der untergeordnete Knoten enthalten kann, wie z. B. das Dokument selbst, ist zusammengesetzt.
     Assert.True(doc.IsComposite);
 
-    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und ausgibt.
+    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und druckt.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Durchläuft rekursiv einen Knotenbaum und gibt dabei den Typ jedes Knotens aus
-/// mit einem Einzug abhängig von der Tiefe sowie dem Inhalt aller Inline-Knoten.
+/// mit einem Einzug, der von der Tiefe sowie dem Inhalt aller Inline-Knoten abhängt.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls drucken Sie den Inhalt aus, wenn es sich um einen Inline-Knoten handelt.
+        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls wird der Inhalt gedruckt, wenn es sich um einen Inline-Knoten handelt.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

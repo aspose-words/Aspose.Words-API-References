@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words für .NET
-description: XamlFlowSaveOptions ImageSavingCallback eigendom. Ermöglicht die Steuerung wie Bilder gespeichert werden wenn ein Dokument in XAML gespeichert wird in C#.
+description: Entdecken Sie die ImageSavingCallback-Eigenschaft von XamlFlow, um Bildspeicheroptionen beim Exportieren von Dokumenten nach XAML mühelos zu verwalten. Optimieren Sie Ihren Workflow noch heute!
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/xamlflowsaveoptions/imagesavingcallback/
@@ -18,7 +18,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## Beispiele
 
-Zeigt, wie die Dateinamen verknüpfter Bilder gedruckt werden, die beim Konvertieren eines Dokuments in Flow-Form .xaml erstellt wurden.
+Zeigt, wie die Dateinamen verknüpfter Bilder gedruckt werden, die beim Konvertieren eines Dokuments in das Flow-Format .xaml erstellt wurden.
 
 ```csharp
 public void ImageFolder()
@@ -33,7 +33,7 @@ public void ImageFolder()
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Mit der Eigenschaft „ImagesFolder“ einen Ordner im lokalen Dateisystem zuweisen, in den
+    // Verwenden Sie die Eigenschaft "ImagesFolder", um einen Ordner im lokalen Dateisystem zuzuweisen, in den
     // Aspose.Words speichert alle verknüpften Bilder des Dokuments.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
@@ -54,7 +54,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Zählt und druckt Dateinamen von Bildern, während das übergeordnete Dokument in Flow-Form .xaml konvertiert wird.
+/// Zählt und druckt Dateinamen von Bildern, während ihr übergeordnetes Dokument in das Flow-Format .xaml konvertiert wird.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -68,7 +68,7 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Wenn wir einen Bildordner-Alias angeben würden, würden wir auch Folgendes benötigen
+        // Wenn wir einen Alias für den Bildordner angeben würden, bräuchten wir auch
         // um jeden Stream umzuleiten, um sein Bild im Alias-Ordner abzulegen.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;

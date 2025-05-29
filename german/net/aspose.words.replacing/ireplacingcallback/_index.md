@@ -3,14 +3,14 @@ title: IReplacingCallback Interface
 linktitle: IReplacingCallback
 articleTitle: IReplacingCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Replacing.IReplacingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode während eines Such und Ersetzungsvorgangs aufrufen möchten in C#.
+description: Verbessern Sie Ihre Dokumentenverarbeitung mit der IReplacingCallback-Schnittstelle von Aspose.Words. Erstellen Sie benutzerdefinierte Such- und Ersetzungsmethoden für maßgeschneiderte Ergebnisse.
 type: docs
-weight: 4630
+weight: 5360
 url: /de/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie Ihre eigene benutzerdefinierte Methode während eines Such- und Ersetzungsvorgangs aufrufen möchten.
+Implementieren Sie diese Schnittstelle, wenn Sie während eines Such- und Ersetzungsvorgangs Ihre eigene benutzerdefinierte Methode aufrufen möchten.
 
 ```csharp
 public interface IReplacingCallback
@@ -20,11 +20,54 @@ public interface IReplacingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Eine benutzerdefinierte Methode, die während eines Ersetzungsvorgangs für jede gefundene Übereinstimmung aufgerufen wird, kurz bevor ein Ersetzungsvorgang durchgeführt wird. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Eine benutzerdefinierte Methode, die während eines Ersetzungsvorgangs für jede Übereinstimmung aufgerufen wird, die unmittelbar vor dem Ersetzen gefunden wurde. |
 
 ## Beispiele
 
-Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden, während alle Ersetzungen verfolgt werden.
+Zeigt, wie die Reihenfolge verfolgt wird, in der ein Textersetzungsvorgang Knoten durchläuft.
+
+```csharp
+public void Order(bool differentFirstPageHeaderFooter)
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
+
+    Section firstPageSection = doc.FirstSection;
+
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
+
+    // Die Verwendung einer anderen Kopf-/Fußzeile für die erste Seite wirkt sich auf die Suchreihenfolge aus.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
+
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
+
+/// <summary>
+/// Zeichnet während einer Suchen-und-Ersetzen-Operation den Inhalt jedes Knotens auf, der Text enthält, den die Operation „findet“.
+/// in dem Zustand, in dem es sich vor dem Austausch befindet.
+/// Dadurch wird die Reihenfolge angezeigt, in der der Textersetzungsvorgang die Knoten durchläuft.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
+
+    internal string Text => mTextBuilder.ToString();
+
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
+```
+
+Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden und dabei alle derartigen Ersetzungen nachverfolgt werden.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -35,10 +78,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Replace“ vornimmt.
+    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Ersetzen“ vornimmt.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -52,8 +95,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Verwaltet ein Protokoll aller Textersetzungen, die durch einen Such- und Ersetzungsvorgang durchgeführt werden
-/// und notiert den Wert des ursprünglich übereinstimmenden Texts.
+/// Führt ein Protokoll über jeden Textaustausch durch eine Suchen-und-Ersetzen-Operation
+/// und notiert den Wert des ursprünglichen übereinstimmenden Textes.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -75,64 +118,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Zeigt, wie die Reihenfolge verfolgt wird, in der ein Textersetzungsvorgang Knoten durchläuft.
-
-```csharp
-public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
-
-            Section firstPageSection = doc.FirstSection;
-
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
-
-            // Die Verwendung einer anderen Kopf-/Fußzeile für die erste Seite wirkt sich auf die Suchreihenfolge aus.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
-
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
-
-        /// <summary>
-        /// Zeichnet während einer Such- und Ersetzungsoperation den Inhalt jedes Knotens auf, der Text enthält, den die Operation „findet“.
-        /// in dem Zustand, in dem es sich vor der Ersetzung befindet.
-        /// Dies zeigt die Reihenfolge an, in der die Textersetzungsoperation Knoten durchläuft.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
-
-            internal string Text => mTextBuilder.ToString();
-
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
-```
-
-Zeigt, wie der Inhalt eines gesamten Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
+Zeigt, wie der gesamte Inhalt eines Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -147,11 +140,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Ein Dokument nach dem Absatz einfügen, der den übereinstimmenden Text enthält.
+        // Fügen Sie nach dem Absatz, der den übereinstimmenden Text enthält, ein Dokument ein.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Den Absatz mit dem übereinstimmenden Text entfernen.
+        // Entfernen Sie den Absatz mit dem übereinstimmenden Text.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -159,7 +152,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Fügt alle Knoten eines anderen Dokuments nach einem Absatz oder einer Tabelle ein.
+/// Fügt nach einem Absatz oder einer Tabelle alle Knoten eines anderen Dokuments ein.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -173,7 +166,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Den Knoten überspringen, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
+                // Überspringe den Knoten, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

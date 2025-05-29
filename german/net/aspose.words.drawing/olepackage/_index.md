@@ -3,16 +3,16 @@ title: OlePackage Class
 linktitle: OlePackage
 articleTitle: OlePackage
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.OlePackage klas. Ermöglicht den Zugriff auf OLEPaketeigenschaften in C#.
+description: Erkunden Sie die Klasse Aspose.Words.Drawing.OlePackage, um OLE-Paketeigenschaften einfach zu verwalten und Ihre Dokumentverarbeitungsfunktionen zu verbessern.
 type: docs
-weight: 1160
+weight: 1540
 url: /de/net/aspose.words.drawing/olepackage/
 ---
 ## OlePackage class
 
 Ermöglicht den Zugriff auf OLE-Paketeigenschaften.
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Ole-Objekten](https://docs.aspose.com/words/net/working-with-ole-objects/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit OLE-Objekten](https://docs.aspose.com/words/net/working-with-ole-objects/) Dokumentationsartikel.
 
 ```csharp
 public class OlePackage
@@ -22,12 +22,12 @@ public class OlePackage
 
 | Name | Beschreibung |
 | --- | --- |
-| [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | Ruft den Anzeigenamen des OLE-Pakets ab oder legt diesen fest. |
-| [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | Ruft den Namen der OLE-Paketdatei ab oder legt diesen fest. |
+| [DisplayName](../../aspose.words.drawing/olepackage/displayname/) { get; set; } | Ruft den Anzeigenamen des OLE-Pakets ab oder legt ihn fest. |
+| [FileName](../../aspose.words.drawing/olepackage/filename/) { get; set; } | Ruft den Dateinamen des OLE-Pakets ab oder legt ihn fest. |
 
 ## Bemerkungen
 
-OLE-Paket ist eine veraltete und „undokumentierte“ Methode zum Speichern eingebetteter Objekte, wenn der OLE-Handler unbekannt ist. Frühe Windows-Versionen wie Windows 3.1, 95 und 98 verfügten über die Anwendung Packager.exe, mit der beliebige Datentypen in Dokumente eingebettet werden konnten . Jetzt ist diese Anwendung von Windows ausgeschlossen, aber MS Word und andere Anwendungen verwenden sie weiterhin zum Einbetten von Daten, wenn der OLE-Handler fehlt oder unbekannt ist.
+OLE-Pakete sind eine veraltete und „undokumentierte“ Methode zum Speichern eingebetteter Objekte, wenn der OLE-Handler unbekannt ist. Frühe Windows-Versionen wie Windows 3.1, 95 und 98 verfügten über die Anwendung Packager.exe, mit der beliebige Datentypen in Dokumente eingebettet werden konnten. Diese Anwendung ist mittlerweile nicht mehr in Windows enthalten, wird aber von MS Word und anderen Anwendungen weiterhin zum Einbetten von Daten verwendet, wenn der OLE-Handler fehlt oder unbekannt ist.
 
 ## Beispiele
 
@@ -38,7 +38,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // OLE-Objekte ermöglichen es uns, andere Dateien im lokalen Dateisystem mit einer anderen installierten Anwendung zu öffnen
-// in unserem Betriebssystem durch Doppelklicken auf die Form, die das OLE-Objekt im Dokumentkörper enthält.
+// in unserem Betriebssystem durch Doppelklicken auf die Form, die das OLE-Objekt im Dokumenttext enthält.
 // In diesem Fall ist unsere externe Datei ein ZIP-Archiv.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 

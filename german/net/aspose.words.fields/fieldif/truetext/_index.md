@@ -3,14 +3,14 @@ title: FieldIf.TrueText
 linktitle: TrueText
 articleTitle: TrueText
 second_title: Aspose.Words für .NET
-description: FieldIf TrueText eigendom. Ruft den angezeigten Text ab oder legt diesen fest wenn der Vergleichsausdruck wahr ist in C#.
+description: Entdecken Sie die Eigenschaft „FieldIf TrueText“, verwalten Sie einfach angezeigten Text für echte Vergleichsausdrücke und verbessern Sie so das Benutzererlebnis und die Datenklarheit.
 type: docs
 weight: 60
 url: /de/net/aspose.words.fields/fieldif/truetext/
 ---
 ## FieldIf.TrueText property
 
-Ruft den angezeigten Text ab oder legt diesen fest, wenn der Vergleichsausdruck wahr ist.
+Ruft den angezeigten Text ab oder legt ihn fest, wenn der Vergleichsausdruck wahr ist.
 
 ```csharp
 public string TrueText { get; set; }
@@ -30,13 +30,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Das IF-Feld zeigt eine Zeichenfolge entweder seiner „TrueText“-Eigenschaft an,
-// oder seine „FalseText“-Eigenschaft, abhängig von der Wahrheit der Aussage, die wir erstellt haben.
+// Das IF-Feld zeigt eine Zeichenfolge aus seiner Eigenschaft "TrueText" an,
+// oder seine Eigenschaft „FalseText“, abhängig von der Wahrheit der von uns erstellten Aussage.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// In diesem Fall ist „0 = 1“ falsch, daher wird das angezeigte Ergebnis „Falsch“ sein.
+// In diesem Fall ist „0 = 1“ falsch, daher ist das angezeigte Ergebnis „Falsch“.
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -50,7 +50,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Diesmal ist die Aussage korrekt, daher wird das angezeigte Ergebnis „True“ sein.
+// Dieses Mal ist die Anweisung korrekt, daher ist das angezeigte Ergebnis „True“.
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

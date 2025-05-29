@@ -3,9 +3,9 @@ title: Style.ParagraphFormat
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
 second_title: Aspose.Words für .NET
-description: Style ParagraphFormat eigendom. Ruft die Absatzformatierung des Stils ab in C#.
+description: Entdecken Sie, wie Sie auf die Absatzformatierung von Stilen zugreifen und diese anpassen können, um die Dokumentpräsentation zu verbessern und eine professionelle Formatierung zu erzielen.
 type: docs
-weight: 140
+weight: 150
 url: /de/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
@@ -18,7 +18,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ## Bemerkungen
 
-Für Zeichen- und Listenstile gibt diese Eigenschaft zurück`Null`.
+Für Zeichen- und Listenstile gibt diese Eigenschaft zurück`null`.
 
 ## Beispiele
 
@@ -38,11 +38,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Den Absatzstil auf den aktuellen Absatz des Document Builders anwenden und dann etwas Text hinzufügen.
+// Wenden Sie den Absatzstil auf den aktuellen Absatz des Dokumentgenerators an und fügen Sie dann etwas Text hinzu.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändern Sie den Stil des Document Builders in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
+// Ändern Sie den Stil des Dokument-Generators in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

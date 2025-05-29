@@ -3,9 +3,9 @@ title: ViewType Enum
 linktitle: ViewType
 articleTitle: ViewType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.ViewType opsomming. Mögliche Werte für den Ansichtsmodus in Microsoft Word in C#.
+description: Entdecken Sie die Aspose.Words.Settings.ViewType-Aufzählung für Microsoft Word. Schalten Sie flexible Ansichtsmodi frei, um die Dokumentpräsentation und das Benutzererlebnis zu verbessern.
 type: docs
-weight: 5960
+weight: 6790
 url: /de/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
@@ -22,14 +22,14 @@ public enum ViewType
 | --- | --- | --- |
 | None | `0` | Das Dokument soll in der Standardansicht der Anwendung gerendert werden. |
 | Reading | `0` | Das Dokument soll in der Standardansicht der Anwendung gerendert werden. |
-| PageLayout | `1` | Das Dokument soll in einer Ansicht geöffnet werden, die das Dokument so anzeigt, wie es gedruckt wird. |
-| Outline | `3` | Das Dokument muss in einer Ansicht gerendert werden, die für die Gliederung oder Erstellung langer Dokumente optimiert ist. |
-| Normal | `4` | Das Dokument muss in einer Ansicht gerendert werden, die für die Gliederung oder Erstellung langer Dokumente optimiert ist. |
+| PageLayout | `1` | Das Dokument muss in einer Ansicht geöffnet werden, die das Dokument so anzeigt, wie es gedruckt wird. |
+| Outline | `3` | Das Dokument muss in einer Ansicht wiedergegeben werden, die für die Gliederung oder Erstellung langer Dokumente optimiert ist. |
+| Normal | `4` | Das Dokument muss in einer Ansicht wiedergegeben werden, die für die Gliederung oder Erstellung langer Dokumente optimiert ist. |
 | Web | `5` | Das Dokument soll in einer Ansicht gerendert werden, die die Art und Weise nachahmt, wie dieses Dokument auf einer Webseite angezeigt würde. |
 
 ## Beispiele
 
-Zeigt, wie man einen benutzerdefinierten Zoomfaktor festlegt, den ältere Versionen von Microsoft Word beim Laden auf ein Dokument anwenden.
+Zeigt, wie ein benutzerdefinierter Zoomfaktor festgelegt wird, den ältere Versionen von Microsoft Word beim Laden eines Dokuments anwenden.
 
 ```csharp
 Document doc = new Document();

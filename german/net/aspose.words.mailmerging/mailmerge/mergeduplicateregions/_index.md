@@ -3,14 +3,14 @@ title: MailMerge.MergeDuplicateRegions
 linktitle: MergeDuplicateRegions
 articleTitle: MergeDuplicateRegions
 second_title: Aspose.Words für .NET
-description: MailMerge MergeDuplicateRegions eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob alle DokumentSeriendruckbereiche mit dem Namen einer Datenquelle beim Ausführen eines Seriendrucks mit Bereichen für die Datenquelle zusammengeführt werden sollen oder nur der erste in C#.
+description: Optimieren Sie Ihren Seriendruckprozess mit der Eigenschaft „MergeDuplicateRegions“. Steuern Sie, wie Datenquellenbereiche zusammengeführt werden, für ein effizientes Dokumentenmanagement.
 type: docs
 weight: 60
 url: /de/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob alle Dokument-Seriendruckbereiche mit dem Namen einer Datenquelle beim Ausführen eines Seriendrucks mit Bereichen für die Datenquelle zusammengeführt werden sollen oder nur der erste.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob beim Ausführen eines Seriendrucks mit Regionen für die Datenquelle alle Seriendruckregionen des Dokuments mit dem Namen einer Datenquelle oder nur die erste zusammengeführt werden sollen.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -30,11 +30,11 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     Document doc = CreateSourceDocMergeDuplicateRegions();
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // Wenn wir die Eigenschaft „MergeDuplicateRegions“ auf „false“ setzen, wirkt sich der Seriendruck auf die erste Region aus.
-    // während die MERGEFIELDs des zweiten im Zustand vor der Zusammenführung belassen werden.
+    // Wenn wir die Eigenschaft "MergeDuplicateRegions" auf "false" setzen, betrifft der Serienbrief die erste Region,
+    // während die MERGEFIELDs des zweiten im Zustand vor dem Zusammenführen verbleiben.
     // Um beide Regionen auf diese Weise zusammenzuführen,
-    // wir müssten den Serienbrief zweimal für eine Tabelle mit demselben Namen ausführen.
-    // Wenn wir die Eigenschaft „MergeDuplicateRegions“ auf „true“ setzen, wirkt sich der Seriendruck auf beide Regionen aus.
+    // wir müssten den Serienbrief zweimal auf einer Tabelle mit demselben Namen ausführen.
+    // Wenn wir die Eigenschaft „MergeDuplicateRegions“ auf „true“ setzen, wirkt sich der Serienbrief auf beide Regionen aus.
     doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
@@ -42,7 +42,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 }
 
 /// <summary>
-/// Gibt ein Dokument zurück, das zwei doppelte Seriendruckbereiche enthält (mit demselben Namen in den „TableStart/End“-Tags).
+/// Gibt ein Dokument zurück, das zwei doppelte Serienbriefbereiche enthält (mit demselben Namen in den Tags „TableStart/End“).
 /// </summary>
 private static Document CreateSourceDocMergeDuplicateRegions()
 {

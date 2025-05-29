@@ -3,14 +3,14 @@ title: FieldCitation.VolumeNumber
 linktitle: VolumeNumber
 articleTitle: VolumeNumber
 second_title: Aspose.Words für .NET
-description: FieldCitation VolumeNumber eigendom. Ruft eine mit dem Zitat verknüpfte Bandnummer ab oder legt diese fest in C#.
+description: Verwalten Sie Ihre Zitate mühelos mit der Eigenschaft „FieldCitation VolumeNumber“, mit der Sie zugehörige Bandnummern einfach festlegen oder abrufen können.
 type: docs
 weight: 110
 url: /de/net/aspose.words.fields/fieldcitation/volumenumber/
 ---
 ## FieldCitation.VolumeNumber property
 
-Ruft eine mit dem Zitat verknüpfte Bandnummer ab oder legt diese fest.
+Ruft eine mit dem Zitat verknüpfte Bandnummer ab oder legt sie fest.
 
 ```csharp
 public string VolumeNumber { get; set; }
@@ -21,8 +21,8 @@ public string VolumeNumber { get; set; }
 Zeigt, wie mit den Feldern CITATION und BIBLIOGRAPHY gearbeitet wird.
 
 ```csharp
-// Öffnen Sie ein Dokument mit bibliografischen Quellen, in denen wir finden können
-// Microsoft Word über Referenzen -> Zitate & Bibliographie -> Quellen verwalten.
+// Öffnen Sie ein Dokument mit bibliographischen Quellen, die wir finden können in
+// Microsoft Word über Verweise -> Zitate & Bibliografie -> Quellen verwalten.
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
@@ -30,7 +30,7 @@ builder.Write("Text to be cited with one source.");
 // Erstellen Sie ein Zitat nur mit der Seitenzahl und dem Autor des referenzierten Buches.
 FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
 
-// Wir verweisen auf Quellen mit ihren Tag-Namen.
+// Wir verweisen auf Quellen anhand ihrer Tag-Namen.
 fieldCitation.SourceTag = "Book1";
 fieldCitation.PageNumber = "85";
 fieldCitation.SuppressAuthor = false;
@@ -39,7 +39,7 @@ fieldCitation.SuppressYear = true;
 
 Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
 
-// Erstellen Sie ein detaillierteres Zitat, das zwei Quellen zitiert.
+// Erstellen Sie ein ausführlicheres Zitat, das zwei Quellen zitiert.
 builder.InsertParagraph();
 builder.Write("Text to be cited with two sources.");
 fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
@@ -60,8 +60,10 @@ Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
 fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FilterLanguageId = "5129";
+fieldBibliography.SourceTag = "Book2";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

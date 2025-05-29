@@ -3,7 +3,7 @@ title: ShapeBase.AlternativeText
 linktitle: AlternativeText
 articleTitle: AlternativeText
 second_title: Aspose.Words für .NET
-description: ShapeBase AlternativeText eigendom. Definiert alternativen Text der anstelle einer Grafik angezeigt werden soll in C#.
+description: Entdecken Sie die ShapeBase AlternativeText-Eigenschaft, die die Zugänglichkeit verbessert, indem sie beschreibenden Text für Grafiken bereitstellt und so die Benutzererfahrung und SEO verbessert.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/shapebase/alternativetext/
@@ -32,11 +32,11 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// Wir können auf den alternativen Text einer Form zugreifen, indem wir mit der rechten Maustaste darauf klicken und dann über „AutoShape formatieren“ -> "Alt-Text".
+// Auf den Alternativtext einer Form können wir zugreifen, indem wir mit der rechten Maustaste darauf klicken und dann über „AutoForm formatieren“ -> „Alternativtext“ gehen.
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
 // Speichern Sie das Dokument im HTML-Format und löschen Sie dann das verknüpfte Bild, das zu unserer Form gehört.
-// Der Browser, der unseren HTML-Code liest, zeigt den Alternativtext anstelle des fehlenden Bildes an.
+// Der Browser, der unser HTML liest, zeigt den Alternativtext anstelle des fehlenden Bildes an.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
 File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```

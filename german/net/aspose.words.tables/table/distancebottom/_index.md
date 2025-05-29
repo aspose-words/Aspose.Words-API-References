@@ -3,14 +3,14 @@ title: Table.DistanceBottom
 linktitle: DistanceBottom
 articleTitle: DistanceBottom
 second_title: Aspose.Words für .NET
-description: Table DistanceBottom eigendom. Ruft den Abstand zwischen der Tabellenunterseite und dem umgebenden Text in Punkten ab oder legt diesen fest in C#.
+description: Passen Sie die Eigenschaft „Table DistanceBottom“ an, um den Abstand zwischen dem unteren Rand Ihrer Tabelle und dem umgebenden Text zu steuern und so das Layout und die Lesbarkeit zu verbessern.
 type: docs
 weight: 120
 url: /de/net/aspose.words.tables/table/distancebottom/
 ---
 ## Table.DistanceBottom property
 
-Ruft den Abstand zwischen der Tabellenunterseite und dem umgebenden Text in Punkten ab oder legt diesen fest.
+Ruft den Abstand zwischen Tabellenunterseite und umgebendem Text in Punkten ab oder legt ihn fest.
 
 ```csharp
 public double DistanceBottom { get; set; }
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Abstand zwischen Tabelle und umgebendem Text festlegen.
+// Abstand zwischen Tabelle und umgebendem Text festlegen.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

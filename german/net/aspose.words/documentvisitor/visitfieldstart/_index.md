@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFieldStart
 linktitle: VisitFieldStart
 articleTitle: VisitFieldStart
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitFieldStart methode. Wird aufgerufen wenn ein Feld im Dokument beginnt in C#.
+description: Entdecken Sie die DocumentVisitor-Methode VisitFieldStart, die am Anfang eines Felds in Ihrem Dokument ausgelöst wird und Ihre Codierungseffizienz und Ihren Arbeitsablauf verbessert.
 type: docs
 weight: 200
 url: /de/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,17 +22,17 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Bemerkungen
 
 Ein Feld in einem Word-Dokument besteht aus einem Feldcode und einem Feldwert.
 
-Ein Feld, das eine Seitenzahl anzeigt, kann beispielsweise wie folgt dargestellt werden:
+Beispielsweise kann ein Feld, das eine Seitenzahl anzeigt, wie folgt dargestellt werden:
 
-[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+[Feldanfang]SEITE[Feldtrennzeichen]98[Feldende]
 
-Das Feldtrennzeichen trennt den Feldcode vom Feldwert im Dokument. Beachten Sie, dass einige -Felder nur einen Feldcode und kein Feldtrennzeichen und keinen Feldwert haben.
+Das Feldtrennzeichen trennt den Feldcode vom Feldwert im Dokument. Beachten Sie, dass einige -Felder nur den Feldcode, aber kein Feldtrennzeichen und keinen Feldwert enthalten.
 
 Felder können verschachtelt werden.
 
@@ -46,8 +46,8 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -56,7 +56,7 @@ public void FieldToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Feldknoten und ihrer untergeordneten Knoten.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Feldknoten und ihrer untergeordneten Elemente.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -116,8 +116,8 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief der Besucher ist
-    /// in den Baum der untergeordneten Knoten des Feldes.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie diese ein, je nachdem, wie tief der Besucher ist
+    /// in den Baum der untergeordneten Knoten des Felds.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,14 +3,14 @@ title: NodeCollection.Insert
 linktitle: Insert
 articleTitle: Insert
 second_title: Aspose.Words für .NET
-description: NodeCollection Insert methode. Fügt am angegebenen Index einen Knoten in die Sammlung ein in C#.
+description: Fügen Sie mit unserer optimierten Insert-Methode mühelos Knoten an jedem beliebigen Index in Ihre NodeCollection ein. Optimieren Sie Ihr Datenmanagement noch heute!
 type: docs
 weight: 80
 url: /de/net/aspose.words/nodecollection/insert/
 ---
 ## NodeCollection.Insert method
 
-Fügt am angegebenen Index einen Knoten in die Sammlung ein.
+Fügt einen Knoten am angegebenen Index in die Sammlung ein.
 
 ```csharp
 public void Insert(int index, Node node)
@@ -31,9 +31,9 @@ public void Insert(int index, Node node)
 
 Der Knoten wird als untergeordnetes Element in das Knotenobjekt eingefügt, aus dem die Sammlung erstellt wurde.
 
-Wenn der Index gleich oder größer ist[`Count`](../count/), wird der Knoten am Ende der Sammlung hinzugefügt.
+Wenn der Index gleich oder größer ist als[`Count`](../count/), der Knoten wird am Ende der Sammlung hinzugefügt.
 
-Wenn der Index negativ ist und sein absoluter Wert größer ist als[`Count`](../count/), wird der Knoten am Ende der Sammlung hinzugefügt.
+Wenn der Index negativ ist und sein absoluter Wert größer ist als[`Count`](../count/), der Knoten wird am Ende der Sammlung hinzugefügt.
 
 Wenn der einzufügende Knoten aus einem anderen Dokument erstellt wurde, sollten Sie verwenden.[`ImportNode`](../../documentbase/importnode/) um den Knoten in das aktuelle Dokument zu importieren. Der importierte Knoten kann dann in das aktuelle Dokument eingefügt werden.
 
@@ -45,24 +45,24 @@ Zeigt, wie mit einer NodeCollection gearbeitet wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie dem Dokument Text hinzu, indem Sie Runs mit einem DocumentBuilder einfügen.
+// Fügen Sie dem Dokument Text hinzu, indem Sie mithilfe eines DocumentBuilder Runs einfügen.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Jeder Aufruf der Methode „Write“ erstellt einen neuen Run,
+// Jeder Aufruf der Methode "Write" erzeugt einen neuen Run,
 // die dann in der RunCollection des übergeordneten Absatzes erscheint.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
 
-// Wir können einen Knoten auch manuell in die RunCollection einfügen.
+// Wir können auch manuell einen Knoten in die RunCollection einfügen.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Auf einzelne Läufe zugreifen und sie entfernen, um ihren Text aus dem Dokument zu entfernen.
+// Greifen Sie auf einzelne Läufe zu und entfernen Sie sie, um ihren Text aus dem Dokument zu entfernen.
 Run run = runs[1];
 runs.Remove(run);
 

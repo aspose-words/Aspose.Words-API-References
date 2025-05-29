@@ -3,14 +3,14 @@ title: AutoFitBehavior Enum
 linktitle: AutoFitBehavior
 articleTitle: AutoFitBehavior
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Tables.AutoFitBehavior opsomming. Bestimmt wie Aspose.Words die Größe der Tabelle ändert wenn Sie das aufrufenAutoFit method in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Tables.AutoFitBehavior, um die Größenänderung von Tabellen mit der AutoFit-Methode zu optimieren und so das Layout und die Präsentation von Dokumenten zu verbessern.
 type: docs
-weight: 6230
+weight: 7080
 url: /de/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
 
-Bestimmt, wie Aspose.Words die Größe der Tabelle ändert, wenn Sie das aufrufen[`AutoFit`](../table/autofit/) method.
+Bestimmt, wie Aspose.Words die Größe der Tabelle ändert, wenn Sie die[`AutoFit`](../table/autofit/) Methode.
 
 ```csharp
 public enum AutoFitBehavior
@@ -22,11 +22,11 @@ public enum AutoFitBehavior
 | --- | --- | --- |
 | AutoFitToContents | `0` | Aspose.Words aktiviert die Option „AutoFit“, entfernt die bevorzugte Breite aus der Tabelle und allen Zellen und aktualisiert dann das Tabellenlayout. |
 | AutoFitToWindow | `1` | Wenn Sie diesen Wert verwenden, aktiviert Aspose.Words die Option „AutoFit“, legt die bevorzugte Breite für die Tabelle auf 100 % fest, entfernt die bevorzugten Breiten aus allen Zellen und aktualisiert dann das Tabellenlayout. |
-| FixedColumnWidths | `2` | Aspose.Words deaktiviert die Option „AutoFit“ und entfernt das bevorzugte Wort aus der Tabelle. |
+| FixedColumnWidths | `2` | Aspose.Words deaktiviert die AutoFit-Option und entfernt die bevorzugte Breite aus der Tabelle. |
 
 ## Beispiele
 
-Zeigt, wie man eine neue Tabelle erstellt und dabei einen Stil anwendet.
+Zeigt, wie beim Anwenden eines Stils eine neue Tabelle erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -37,10 +37,10 @@ Table table = builder.StartTable();
 builder.InsertCell();
 
 // Legen Sie den verwendeten Tabellenstil basierend auf der Stilkennung fest.
-// Beachten Sie, dass beim Speichern im .doc-Format nicht alle Tabellenstile verfügbar sind.
+// Beachten Sie, dass beim Speichern im DOC-Format nicht alle Tabellenstile verfügbar sind.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Den Stil basierend auf Prädikaten teilweise auf Features der Tabelle anwenden und dann die Tabelle erstellen.
+// Wenden Sie den Stil teilweise auf Funktionen der Tabelle basierend auf Prädikaten an und erstellen Sie dann die Tabelle.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -86,8 +86,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Beim Erstellen der Tabelle wendet der Document Builder seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
-// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, während sie erstellt werden.
+// Beim Erstellen der Tabelle wendet der Dokumentgenerator seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
+// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, sobald diese erstellt werden.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -102,7 +102,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Zuvor hinzugefügte Zeilen und Zellen werden von Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
+// Zuvor hinzugefügte Zeilen und Zellen werden durch Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

@@ -3,14 +3,14 @@ title: CellFormat.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words für .NET
-description: CellFormat PreferredWidth eigendom. Gibt die bevorzugte Breite der Zelle zurück oder legt sie fest in C#.
+description: Entdecken Sie die CellFormat-Eigenschaft „PreferredWidth“, um die Zellenbreite für optimales Layout und Design in Ihren Tabellen einfach anzupassen. Verbessern Sie Ihre Datenpräsentation!
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
 
-Gibt die bevorzugte Breite der Zelle zurück oder legt sie fest.
+Gibt die gewünschte Breite der Zelle zurück oder legt sie fest.
 
 ```csharp
 public PreferredWidth PreferredWidth { get; set; }
@@ -18,15 +18,15 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## Bemerkungen
 
-Die bevorzugte Breite (zusammen mit der Option „Automatische Anpassung“ der Tabelle) bestimmt, wie die tatsächliche -Breite der Zelle vom Tabellenlayout-Algorithmus berechnet wird. Das Tabellenlayout kann von Aspose.Words beim Speichern des Dokuments oder von Microsoft Word beim Anzeigen des Dokuments durchgeführt werden.
+Die gewünschte Breite (zusammen mit der Option „Automatisch anpassen“) bestimmt, wie die tatsächliche Zellenbreite vom Tabellenlayout-Algorithmus berechnet wird. Das Tabellenlayout kann von Aspose.Words beim Speichern des Dokuments oder von Microsoft Word beim Anzeigen des Dokuments durchgeführt werden.
 
-Die bevorzugte Breite kann in Punkten oder in Prozent angegeben werden. Die bevorzugte Breite kann auch als „auto“ angegeben werden, was bedeutet, dass keine bevorzugte Breite angegeben wird.
+Die gewünschte Breite kann in Punkten oder Prozent angegeben werden. Die gewünschte Breite kann auch als „auto“ angegeben werden, d. h. es wird keine gewünschte Breite angegeben.
 
 Der Standardwert ist[`Auto`](../../preferredwidth/auto/).
 
 ## Beispiele
 
-Zeigt, wie man eine bevorzugte Breite für Tabellenzellen festlegt.
+Zeigt, wie Sie eine bevorzugte Breite für Tabellenzellen festlegen.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Eine Zelle, für die keine bevorzugte Breite angegeben ist, nimmt den Rest des verfügbaren Platzes ein.
+// Eine Zelle ohne angegebene bevorzugte Breite nimmt den restlichen verfügbaren Platz ein.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Jede Konfiguration der Eigenschaft „PreferredWidth“ erstellt ein neues Objekt.

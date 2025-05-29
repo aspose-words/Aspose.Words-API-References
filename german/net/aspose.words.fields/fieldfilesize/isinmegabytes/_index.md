@@ -3,7 +3,7 @@ title: FieldFileSize.IsInMegabytes
 linktitle: IsInMegabytes
 articleTitle: IsInMegabytes
 second_title: Aspose.Words für .NET
-description: FieldFileSize IsInMegabytes eigendom. Ruft ab oder legt fest ob die Dateigröße in Megabyte angezeigt werden soll in C#.
+description: Steuern Sie die Anzeige der Dateigröße mit der IsInMegabytes-Eigenschaft von FieldFileSize. Wechseln Sie einfach zwischen Bytes und Megabytes für mehr Übersichtlichkeit und Benutzerfreundlichkeit.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldfilesize/isinmegabytes/
@@ -29,8 +29,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// Nachfolgend sind drei verschiedene Maßeinheiten aufgeführt
-// mit dem FILESIZE-Felder die Dateigröße des Dokuments anzeigen können.
+// Unten sind drei verschiedene Maßeinheiten
+// mit denen FILESIZE-Felder die Dateigröße des Dokuments anzeigen können.
 // 1 - Bytes:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -57,7 +57,7 @@ Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
 // Um die Werte dieser Felder während der Bearbeitung in Microsoft Word zu aktualisieren,
-// Wir müssen zuerst die Änderungen speichern und dann diese Felder manuell aktualisieren.
+// Wir müssen zuerst die Änderungen speichern und diese Felder dann manuell aktualisieren.
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```
 

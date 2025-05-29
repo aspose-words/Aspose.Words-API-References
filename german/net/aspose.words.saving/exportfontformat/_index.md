@@ -3,9 +3,9 @@ title: ExportFontFormat Enum
 linktitle: ExportFontFormat
 articleTitle: ExportFontFormat
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.ExportFontFormat opsomming. Gibt das Format an das zum Exportieren von Schriftarten beim Rendern in das feste HTMLFormat verwendet wird in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Saving.ExportFontFormat für optimalen Schriftartexport beim Rendern im HTML-Format. Verbessern Sie die visuelle Qualität Ihres Dokuments!
 type: docs
-weight: 4990
+weight: 5740
 url: /de/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
@@ -25,7 +25,7 @@ public enum ExportFontFormat
 
 ## Beispiele
 
-Zeigt, wie beim Speichern eines Dokuments im HTML-Format Schriftarten nur vom Zielcomputer verwendet werden.
+Zeigt, wie beim Speichern eines Dokuments im HTML-Format nur Schriftarten vom Zielcomputer verwendet werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

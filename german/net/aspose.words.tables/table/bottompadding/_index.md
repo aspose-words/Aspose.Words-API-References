@@ -3,7 +3,7 @@ title: Table.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words für .NET
-description: Table BottomPadding eigendom. Ruft den Abstand in Punkten ab der unterhalb des Zellinhalts hinzugefügt werden soll oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „Table BottomPadding“, mit der Sie den Abstand unter dem Zelleninhalt einfach anpassen können, um die Layoutkontrolle zu verbessern und die Optik anzuheben.
 type: docs
 weight: 90
 url: /de/net/aspose.words.tables/table/bottompadding/
@@ -18,7 +18,7 @@ public double BottomPadding { get; set; }
 
 ## Beispiele
 
-Zeigt, wie das Auffüllen von Inhalten in einer Tabelle konfiguriert wird.
+Zeigt, wie die Inhaltsauffüllung in einer Tabelle konfiguriert wird.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Für jede Zelle in der Tabelle den Abstand zwischen ihrem Inhalt und jedem ihrer Ränder festlegen.
-// Diese Tabelle behält den minimalen Füllabstand bei, indem Text umbrochen wird.
+    // Legen Sie für jede Zelle in der Tabelle den Abstand zwischen ihrem Inhalt und ihren jeweiligen Rändern fest.
+// Diese Tabelle hält den Mindestabstand durch Umbrechen des Textes ein.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

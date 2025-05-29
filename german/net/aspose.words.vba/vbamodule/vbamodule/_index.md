@@ -3,7 +3,7 @@ title: VbaModule
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words für .NET
-description: VbaModule constructeur. Erstellt ein leeres Modul in C#.
+description: Erstellen Sie mühelos leere VBA-Module mit unserem VbaModule-Konstruktor. Optimieren Sie Ihren Codierungsprozess und verbessern Sie Ihren Entwicklungsworkflow noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.vba/vbamodule/vbamodule/
@@ -18,23 +18,23 @@ public VbaModule()
 
 ## Beispiele
 
-Zeigt, wie man ein VBA-Projekt mithilfe von Makros erstellt.
+Zeigt, wie man mit Makros ein VBA-Projekt erstellt.
 
 ```csharp
 Document doc = new Document();
 
-// Ein neues VBA-Projekt erstellen.
+// Erstellen Sie ein neues VBA-Projekt.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// Ein neues Modul erstellen und einen Makroquellcode angeben.
+// Erstellen Sie ein neues Modul und geben Sie einen Makro-Quellcode an.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Modul zum VBA-Projekt hinzufügen.
+// Fügen Sie das Modul zum VBA-Projekt hinzu.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

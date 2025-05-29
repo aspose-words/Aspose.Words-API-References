@@ -3,16 +3,16 @@ title: NodeChangingArgs Class
 linktitle: NodeChangingArgs
 articleTitle: NodeChangingArgs
 second_title: Aspose.Words für .NET
-description: Aspose.Words.NodeChangingArgs klas. Stellt Daten für Methoden des bereitINodeChangingCallback Schnittstelle in C#.
+description: Entdecken Sie die Klasse Aspose.Words.NodeChangingArgs, die Ihre Dokumentenverarbeitung durch die nahtlose Integration von INodeChangingCallback verbessert. Optimieren Sie Ihren Workflow noch heute!
 type: docs
-weight: 4190
+weight: 4880
 url: /de/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-Stellt Daten für Methoden des bereit[`INodeChangingCallback`](../inodechangingcallback/) Schnittstelle.
+Stellt Daten für Methoden der[`INodeChangingCallback`](../inodechangingcallback/) Schnittstelle.
 
-Um mehr zu erfahren, besuchen Sie die[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Aspose.Words Dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Dokumentationsartikel.
 
 ```csharp
 public class NodeChangingArgs
@@ -23,13 +23,13 @@ public class NodeChangingArgs
 | Name | Beschreibung |
 | --- | --- |
 | [Action](../../aspose.words/nodechangingargs/action/) { get; } | Ruft einen Wert ab, der angibt, welche Art von Knotenänderungsereignis auftritt. |
-| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | Ruft den übergeordneten Knoten des Knotens ab, der nach Abschluss des Vorgangs festgelegt wird. |
-| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Ruft die ab[`Node`](./node/) das hinzugefügt oder entfernt wird. |
-| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Ruft den übergeordneten Knoten des Knotens ab, bevor die Operation begann. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | Ruft das übergeordnete Element des Knotens ab, das nach Abschluss des Vorgangs festgelegt wird. |
+| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Ruft die[`Node`](./node/) das hinzugefügt oder entfernt wird. |
+| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Ruft den übergeordneten Knoten vor Beginn der Operation ab. |
 
 ## Beispiele
 
-Zeigt, wie Knotenänderungen mit einem Rückruf angepasst werden.
+Zeigt, wie Sie Knotenänderungen mit einem Rückruf anpassen.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -38,7 +38,7 @@ public void FontChangeViaCallback()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Den Rückruf zum Ändern des Knotens auf eine benutzerdefinierte Implementierung setzen,
-    // dann Knoten hinzufügen/entfernen, damit ein Protokoll generiert wird.
+    // dann Knoten hinzufügen/entfernen, um ein Protokoll zu generieren.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -53,8 +53,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Protokolliert Datum und Uhrzeit des Einfügens und Entfernens jedes Knotens.
-/// Legt einen benutzerdefinierten Schriftartnamen/eine benutzerdefinierte Schriftart für den Textinhalt von Run-Knoten fest.
+/// Protokolliert Datum und Uhrzeit jedes Einfügens und Entfernens eines Knotens.
+/// Legt einen benutzerdefinierten Schriftnamen/eine benutzerdefinierte Schriftgröße für den Textinhalt von Run-Knoten fest.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -65,7 +65,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

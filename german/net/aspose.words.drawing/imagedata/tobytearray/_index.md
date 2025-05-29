@@ -3,9 +3,9 @@ title: ImageData.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words für .NET
-description: ImageData ToByteArray methode. Gibt Bildbytes für jedes Bild zurück unabhängig davon ob das Bild gespeichert oder verknüpft ist in C#.
+description: Konvertieren Sie jedes Bild mühelos in ein Byte-Array mit der Methode ImageData ToByteArray. Greifen Sie einfach auf Bildbytes aus gespeicherten oder verknüpften Quellen zu!
 type: docs
-weight: 210
+weight: 220
 url: /de/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
@@ -22,7 +22,7 @@ Wenn das Bild verlinkt ist, wird das Bild bei jedem Aufruf heruntergeladen.
 
 ## Beispiele
 
-Zeigt, wie eine Bilddatei aus den Rohbilddaten einer Form erstellt wird.
+Zeigt, wie aus den Rohbilddaten einer Form eine Bilddatei erstellt wird.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");

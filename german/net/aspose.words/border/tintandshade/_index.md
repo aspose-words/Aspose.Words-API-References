@@ -3,24 +3,29 @@ title: Border.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
 second_title: Aspose.Words für .NET
-description: Border TintAndShade eigendom. Ruft einen DoubleWert ab oder legt ihn fest der eine Farbe heller oder dunkler macht in C#.
+description: Entdecken Sie Border TintAndShade und passen Sie die Farbhelligkeit mühelos mit einem einfachen Doppelwert an, um beeindruckende Designverbesserungen zu erzielen. Perfekt für Ihre kreativen Projekte!
 type: docs
 weight: 80
 url: /de/net/aspose.words/border/tintandshade/
 ---
 ## Border.TintAndShade property
 
-Ruft einen Double-Wert ab oder legt ihn fest, der eine Farbe heller oder dunkler macht.
+Ruft einen Double-Wert ab oder legt ihn fest, der eine Farbe aufhellt oder abdunkelt.
 
 ```csharp
 public double TintAndShade { get; set; }
 ```
 
+### Ausnahmen
+
+| Ausnahme | Bedingung |
+| --- | --- |
+| ArgumentOutOfRangeException | Wird ausgelöst, wenn Sie versuchen, diese Eigenschaft auf einen Wert kleiner als -1 oder größer als 1 festzulegen. |
+| InvalidOperationException | Wird ausgelöst, wenn diese Eigenschaft für ein Rahmenobjekt mit nicht zum Design gehörenden Farben festgelegt wird. |
+
 ## Bemerkungen
 
-Die zulässigen Werte für diese Eigenschaft liegen im Bereich von -1 (am dunkelsten) bis 1 (am hellsten). Null (0) ist neutral. Der Versuch, diese Eigenschaft auf einen Wert kleiner als -1 oder mehr als 1 festzulegen, führt zuArgumentOutOfRangeException.
-
-Das Festlegen dieser Eigenschaft für ein Rahmenobjekt mit Nicht-Theme-Farben führt zuInvalidOperationException.
+Die zulässigen Werte für diese Eigenschaft liegen im Bereich von -1 (dunkelster Wert) bis 1 (hellster Wert). Null (0) ist neutral.
 
 ## Beispiele
 
@@ -33,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// ThemeColor nur festlegen, wenn LineWidth oder LineStyle festgelegt ist.
+// ThemeColor nur festlegen, wenn LineWidth oder LineStyle festgelegt sind.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

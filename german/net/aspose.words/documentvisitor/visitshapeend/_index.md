@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitShapeEnd
 linktitle: VisitShapeEnd
 articleTitle: VisitShapeEnd
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitShapeEnd methode. Wird aufgerufen wenn die Aufzählung einer Form beendet wurde in C#.
+description: Entdecken Sie die DocumentVisitor VisitShapeEnd-Methode, die für die Verwaltung der Shape-Enumeration in Ihren Anwendungen unerlässlich ist. Steigern Sie noch heute Ihre Programmiereffizienz!
 type: docs
 weight: 390
 url: /de/net/aspose.words/documentvisitor/visitshapeend/
 ---
 ## DocumentVisitor.VisitShapeEnd method
 
-Wird aufgerufen, wenn die Aufzählung einer Form beendet wurde.
+Wird aufgerufen, wenn die Aufzählung einer Form beendet ist.
 
 ```csharp
 public virtual VisitorAction VisitShapeEnd(Shape shape)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitShapeEnd(Shape shape)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
-Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie Sie eine Gruppe von Formen erstellen und deren Inhalt mithilfe eines Dokumentbetrachters drucken.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, wie z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Eine abgerundete obere Ecke, eine abgeschnittene Ecke, eine abgerundete obere Ecke, abgerundete diagonale Ecke
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe auf der Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

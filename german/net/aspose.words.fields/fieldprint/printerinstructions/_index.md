@@ -3,7 +3,7 @@ title: FieldPrint.PrinterInstructions
 linktitle: PrinterInstructions
 articleTitle: PrinterInstructions
 second_title: Aspose.Words für .NET
-description: FieldPrint PrinterInstructions eigendom. Ruft die druckerspezifischen Steuercodezeichen oder PostScriptAnweisungen ab oder legt diese fest in C#.
+description: Entdecken Sie, wie Sie druckerspezifische Steuercodes und PostScript-Anweisungen mit FieldPrint PrinterInstructions für optimierte Drucklösungen verwalten.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldprint/printerinstructions/
@@ -18,7 +18,7 @@ public string PrinterInstructions { get; set; }
 
 ## Beispiele
 
-Zeigt an, wie ein PRINT-Feld eingefügt werden soll.
+Zeigt das Einfügen eines PRINT-Felds.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// Das PRINT-Feld kann Anweisungen an den Drucker senden.
+// Das Feld PRINT kann Anweisungen an den Drucker senden.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
 // Legen Sie den Bereich fest, in dem der Drucker Anweisungen ausführen soll.

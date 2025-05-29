@@ -3,7 +3,7 @@ title: FontSavingArgs.FontStream
 linktitle: FontStream
 articleTitle: FontStream
 second_title: Aspose.Words für .NET
-description: FontSavingArgs FontStream eigendom. Ermöglicht die Angabe des Streams in dem die Schriftart gespeichert wird in C#.
+description: Entdecken Sie die FontStream-Eigenschaft FontSavingArgs, die eine nahtlose Speicherung und Verwaltung von Schriftarten für eine verbesserte Anwendungsleistung und Benutzererfahrung ermöglicht.
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/fontsavingargs/fontstream/
@@ -18,13 +18,13 @@ public Stream FontStream { get; set; }
 
 ## Bemerkungen
 
-Mit dieser Eigenschaft können Sie Schriftarten während des HTML-Exports in Streams statt in Dateien speichern.
+Mit dieser Eigenschaft können Sie Schriftarten beim HTML-Export in Streams statt in Dateien speichern.
 
-Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird die Schriftart in einer im angegebenen Datei gespeichert[`FontFileName`](../fontfilename/) Eigentum.
+Der Standardwert ist`null` Wenn diese Eigenschaft`null` wird die Schriftart in einer Datei gespeichert, die in der[`FontFileName`](../fontfilename/) Eigentum.
 
 ## Beispiele
 
-Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
+Zeigt, wie Sie beim Speichern im HTML-Format eine benutzerdefinierte Logik zum Exportieren von Schriftarten definieren.
 
 ```csharp
 public void SaveExportedFonts()
@@ -32,7 +32,7 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurieren Sie ein SaveOptions-Objekt, um Schriftarten in separate Dateien zu exportieren.
-    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise übernimmt.
+    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise handhabt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -50,7 +50,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-.html.
+/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-HTML.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -71,7 +71,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 – Speichern Sie es an einem lokalen Dateisystemspeicherort:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 – In einem Stream speichern:
+        // 2 - In einem Stream speichern:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

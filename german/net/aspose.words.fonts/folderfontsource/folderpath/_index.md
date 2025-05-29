@@ -3,7 +3,7 @@ title: FolderFontSource.FolderPath
 linktitle: FolderPath
 articleTitle: FolderPath
 second_title: Aspose.Words für .NET
-description: FolderFontSource FolderPath eigendom. Pfad zum Ordner in C#.
+description: Entdecken Sie die FolderFontSource FolderPath-Eigenschaft für einfachen Zugriff auf Ihren Schriftartenordner. Optimieren Sie noch heute Ihren Design-Workflow!
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -21,7 +21,7 @@ public string FolderPath { get; }
 Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
 ```csharp
-// Erstellen Sie eine Schriftartenquelle aus einem Ordner, der Schriftartendateien enthält.
+// Erstellen Sie eine Schriftartquelle aus einem Ordner, der Schriftartdateien enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

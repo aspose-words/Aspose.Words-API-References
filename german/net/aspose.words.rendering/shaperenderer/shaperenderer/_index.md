@@ -3,7 +3,7 @@ title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words für .NET
-description: ShapeRenderer constructeur. Initialisiert eine neue Instanz dieser Klasse in C#.
+description: Entdecken Sie den ShapeRenderer-Konstruktor, um in Ihren Projekten einfach Formen zu erstellen und anzupassen und so die Optik und Funktionalität zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -22,7 +22,7 @@ public ShapeRenderer(ShapeBase shape)
 
 ## Beispiele
 
-Zeigt, wie eine Form mit einem Grafikobjekt gerendert und mithilfe eines Windows Forms angezeigt wird.
+Zeigt, wie eine Form mit einem Grafikobjekt gerendert und mithilfe eines Windows-Formulars angezeigt wird.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -32,7 +32,7 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Im Folgenden finden Sie zwei Möglichkeiten, die Klasse „ShapeRenderer“ zum Rendern einer Form in ein Grafikobjekt zu verwenden.
+    // Unten sind zwei Möglichkeiten aufgeführt, wie Sie mit der Klasse „ShapeRenderer“ eine Form in ein Grafikobjekt rendern können.
     // 1 – Erstellen Sie eine Form mit einem Diagramm und rendern Sie sie in einem bestimmten Maßstab.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
@@ -44,7 +44,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 – Erstellen Sie eine Formgruppe und rendern Sie sie auf eine bestimmte Größe.
+    // 2 – Erstellen Sie eine Formgruppe und rendern Sie sie in einer bestimmten Größe.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);

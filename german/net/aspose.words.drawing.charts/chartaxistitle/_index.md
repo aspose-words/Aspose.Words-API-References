@@ -3,16 +3,16 @@ title: ChartAxisTitle Class
 linktitle: ChartAxisTitle
 articleTitle: ChartAxisTitle
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisTitle klas. Bietet Zugriff auf die Eigenschaften des Achsentitels in C#.
+description: Erkunden Sie die Klasse Aspose.Words.ChartAxisTitle, um Achsentiteleigenschaften einfach zu verwalten und die visuelle Wirkung Ihres Dokuments zu verbessern.
 type: docs
-weight: 650
+weight: 910
 url: /de/net/aspose.words.drawing.charts/chartaxistitle/
 ---
 ## ChartAxisTitle class
 
-Bietet Zugriff auf die Eigenschaften des Achsentitels.
+Bietet Zugriff auf die Achsentiteleigenschaften.
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Diagrammen](https://docs.aspose.com/words/net/working-with-charts/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit -Diagrammen](https://docs.aspose.com/words/net/working-with-charts/) Dokumentationsartikel.
 
 ```csharp
 public class ChartAxisTitle
@@ -22,13 +22,15 @@ public class ChartAxisTitle
 
 | Name | Beschreibung |
 | --- | --- |
+| [Font](../../aspose.words.drawing.charts/chartaxistitle/font/) { get; } | Bietet Zugriff auf die Schriftformatierung des Achsentitels. |
+| [Format](../../aspose.words.drawing.charts/chartaxistitle/format/) { get; } | Bietet Zugriff auf die Füll- und Linienformatierung des Achsentitels. |
 | [Overlay](../../aspose.words.drawing.charts/chartaxistitle/overlay/) { get; set; } | Legt fest, ob andere Diagrammelemente den Titel überlappen dürfen. Der Standardwert ist`FALSCH` . |
-| [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Legt fest, ob der Titel für die Achse angezeigt werden soll. Der Standardwert ist`FALSCH` . |
-| [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Ruft den Text des Achsentitels ab oder legt ihn fest. Wenn`Null` oder ein leerer Wert angegeben wird, wird der automatisch generierte Titel angezeigt. |
+| [Show](../../aspose.words.drawing.charts/chartaxistitle/show/) { get; set; } | Bestimmt, ob der Titel für die Achse angezeigt werden soll. Der Standardwert ist`FALSCH` . |
+| [Text](../../aspose.words.drawing.charts/chartaxistitle/text/) { get; set; } | Liest oder setzt den Text des Achsentitels. Wenn`null` oder ein leerer Wert angegeben wird, wird ein automatisch generierter Titel angezeigt. |
 
 ## Beispiele
 
-Zeigt, wie der Titel der Diagrammachse festgelegt wird.
+Zeigt, wie der Achsentitel eines Diagramms festgelegt wird.
 
 ```csharp
 Document doc = new Document();
@@ -43,12 +45,15 @@ seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Achsentitel festlegen.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

@@ -3,14 +3,14 @@ title: Table.ConvertToHorizontallyMergedCells
 linktitle: ConvertToHorizontallyMergedCells
 articleTitle: ConvertToHorizontallyMergedCells
 second_title: Aspose.Words für .NET
-description: Table ConvertToHorizontallyMergedCells methode. Konvertiert horizontal um die Breite verbundene Zellen in um zusammengeführte ZellenHorizontalMerge  in C#.
+description: Entdecken Sie, wie die Methode ConvertToHorizontallyMergedCells breite verbundene Zellen in horizontal verbundene Zellen umwandelt und so Ihre Datenorganisation verbessert.
 type: docs
-weight: 390
+weight: 410
 url: /de/net/aspose.words.tables/table/converttohorizontallymergedcells/
 ---
 ## Table.ConvertToHorizontallyMergedCells method
 
-Konvertiert horizontal um die Breite verbundene Zellen in um zusammengeführte Zellen[`HorizontalMerge`](../../cellformat/horizontalmerge/) .
+Konvertiert horizontal durch Breite verbundene Zellen in Zellen, die durch[`HorizontalMerge`](../../cellformat/horizontalmerge/) .
 
 ```csharp
 public void ConvertToHorizontallyMergedCells()
@@ -18,31 +18,31 @@ public void ConvertToHorizontallyMergedCells()
 
 ## Bemerkungen
 
-Tabellenzellen können entweder mithilfe von Merge-Flags horizontal zusammengeführt werden[`HorizontalMerge`](../../cellformat/horizontalmerge/) oder mit der Zellenbreite[`Width`](../../cellformat/width/).
+Tabellenzellen können horizontal zusammengeführt werden, entweder durch Zusammenführungsflags[`HorizontalMerge`](../../cellformat/horizontalmerge/) oder mithilfe der Zellenbreite[`Width`](../../cellformat/width/).
 
-Wenn eine Tabellenzelle durch die Eigenschaft „Breite“ zusammengeführt wird[`HorizontalMerge`](../../cellformat/horizontalmerge/) ist bedeutungslos, aber manchmal ist es bequemer, Merge-Flags zu haben.
+Wenn Tabellenzellen durch die Breiteneigenschaft zusammengeführt werden[`HorizontalMerge`](../../cellformat/horizontalmerge/) ist bedeutungslos, aber manchmal ist es praktischer, Merge-Flags zu haben.
 
-Verwenden Sie diese Methode, um horizontal nach der Breite zusammengeführte Tabellenzellen in durch Zusammenführungsflags zusammengeführte Zellen umzuwandeln.
+Verwenden Sie diese Methode, um horizontal nach Breite zusammengeführte Tabellenzellen in Zellen umzuwandeln, die nach Zusammenführungsflags zusammengeführt wurden.
 
 ## Beispiele
 
-Zeigt, wie horizontal nach Breite zusammengeführte Zellen in durch CellFormat.HorizontalMerge zusammengeführte Zellen konvertiert werden.
+Zeigt, wie horizontal nach Breite verbundene Zellen in durch CellFormat.HorizontalMerge verbundene Zellen konvertiert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Table with merged cells.docx");
 
-// Microsoft Word schreibt keine Zusammenführungsflags mehr, sondern definiert zusammengeführte Zellen stattdessen nach der Breite.
-// Aspose.Words definiert standardmäßig nur 5 Zellen in einer Zeile und keine davon verfügt über die Flagge für die horizontale Zusammenführung.
-// obwohl sich vor der horizontalen Zusammenführung 7 Zellen in der Zeile befanden.
+// Microsoft Word schreibt keine Merge-Flags mehr, sondern definiert zusammengeführte Zellen stattdessen nach der Breite.
+// Aspose.Words definiert standardmäßig nur 5 Zellen in einer Zeile und keine davon hat das horizontale Zusammenführungsflag.
+// obwohl vor der horizontalen Zusammenführung 7 Zellen in der Zeile waren.
 Table table = doc.FirstSection.Body.Tables[0];
 Row row = table.Rows[0];
 
 Assert.AreEqual(5, row.Cells.Count);
 Assert.True(row.Cells.All(c => ((Cell)c).CellFormat.HorizontalMerge == CellMerge.None));
 
-// Verwenden Sie die Methode „ConvertToHorizontallyMergedCells“, um horizontal zusammengeführte Zellen zu konvertieren
-// um seine Breite zur horizontal durch Flags zusammengeführten Zelle.
-// Jetzt haben wir 7 Zellen und einige davon haben horizontale Zusammenführungswerte.
+// Verwenden Sie die Methode "ConvertToHorizontallyMergedCells", um horizontal verbundene Zellen zu konvertieren
+// durch seine Breite mit der Zelle, die horizontal durch Flags verbunden ist.
+// Jetzt haben wir 7 Zellen und einige davon haben horizontal zusammengeführte Werte.
 table.ConvertToHorizontallyMergedCells();
 row = table.Rows[0];
 

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.BuildingBlockGallery
 linktitle: BuildingBlockGallery
 articleTitle: BuildingBlockGallery
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag BuildingBlockGallery eigendom. Gibt den Typ des Bausteins dafür anSDT . Kann nicht seinNull  in C#.
+description: Entdecken Sie die StructuredDocumentTag BuildingBlockGallery-Eigenschaft, die den Bausteintyp Ihres SDT definiert. Sorgen Sie für eine nahtlose Dokumentanpassung!
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/structureddocumenttag/buildingblockgallery/
 ---
 ## StructuredDocumentTag.BuildingBlockGallery property
 
-Gibt den Typ des Bausteins dafür an**SDT** . Kann nicht sein`Null` .
+Gibt den Typ des Bausteins für dieses**SDT** . Kann nicht sein`null` .
 
 ```csharp
 public string BuildingBlockGallery { get; set; }
@@ -18,13 +18,13 @@ public string BuildingBlockGallery { get; set; }
 
 ## Bemerkungen
 
-Der Zugriff auf diese Eigenschaft funktioniert nur fürBuildingBlockGallery and DocPartObj SDT-Typen. Es ist schreibgeschützt für**SDT** des Dokumentteiltyps.
+Der Zugriff auf diese Eigenschaft funktioniert nur fürBuildingBlockGallery und DocPartObj SDT-Typen. Es ist schreibgeschützt für**SDT** des Dokumentteiltyps.
 
 Bei allen anderen SDT-Typen tritt eine Ausnahme auf.
 
 ## Beispiele
 
-Zeigt, wie man ein strukturiertes Dokument-Tag als Baustein einfügt und seine Kategorie und Galerie festlegt.
+Zeigt, wie Sie ein strukturiertes Dokument-Tag als Baustein einfügen und seine Kategorie und Galerie festlegen.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: ShapeBase.IsMoveFromRevision
 linktitle: IsMoveFromRevision
 articleTitle: IsMoveFromRevision
 second_title: Aspose.Words für .NET
-description: ShapeBase IsMoveFromRevision eigendom. Gibt zurückWAHR wenn dieses Objekt in Microsoft Word verschoben gelöscht wurde während die Änderungsverfolgung aktiviert war in C#.
+description: Entdecken Sie die ShapeBase-Eigenschaft „IsMoveFromRevision“ in Microsoft Word. Verfolgen Sie Änderungen ganz einfach und identifizieren Sie verschobene oder gelöschte Objekte präzise.
 type: docs
-weight: 320
+weight: 340
 url: /de/net/aspose.words.drawing/shapebase/ismovefromrevision/
 ---
 ## ShapeBase.IsMoveFromRevision property
 
-Gibt zurück`WAHR` wenn dieses Objekt in Microsoft Word verschoben (gelöscht) wurde, während die Änderungsverfolgung aktiviert war.
+Rückgaben`WAHR` wenn dieses Objekt in Microsoft Word verschoben (gelöscht) wurde, während die Änderungsverfolgung aktiviert war.
 
 ```csharp
 public bool IsMoveFromRevision { get; }
@@ -18,28 +18,28 @@ public bool IsMoveFromRevision { get; }
 
 ## Beispiele
 
-Zeigt, wie Verschiebungsrevisionsformen identifiziert werden.
+Zeigt, wie verschobene Revisionsformen identifiziert werden.
 
 ```csharp
-// Eine Verschiebungsrevision liegt vor, wenn wir ein Element im Dokumentkörper verschieben, indem wir es in Microsoft Word ausschneiden und einfügen
-// Änderungen verfolgen. Wenn wir eine Inline-Form in eine solche Textbewegung einbeziehen, ist diese Form ebenfalls eine Revision.
-// Beim Kopieren und Einfügen oder Verschieben schwebender Formen werden keine Verschiebungsrevisionen erstellt.
+// Eine Verschiebungsrevision liegt vor, wenn wir ein Element im Dokumentkörper verschieben, indem wir es in Microsoft Word ausschneiden und einfügen, während
+// Änderungen verfolgen. Wenn wir eine Inline-Form in eine solche Textbewegung einbeziehen, wird diese Form auch eine Überarbeitung sein.
+// Durch Kopieren und Einfügen oder Verschieben schwebender Formen werden keine Verschiebungsrevisionen erstellt.
 Document doc = new Document(MyDir + "Revision shape.docx");
 
-// Verschieberevisionen bestehen aus Paaren von „Verschieben von“- und „Verschieben nach“-Revisionen. Wir haben dieses Dokument in einer Form verschoben,
+// Verschieberevisionen bestehen aus Paaren von "Verschieben von" und "Verschieben nach". Wir haben dieses Dokument in einer Form verschoben,
 // aber bis wir die Verschiebungsrevision akzeptieren oder ablehnen, wird es zwei Instanzen dieser Form geben.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
 
-// Dies ist die „Move to“-Revision, also die Form am Zielort.
-// Wenn wir die Revision akzeptieren, verschwindet diese „Verschieben nach“-Revisionsform.
+// Dies ist die „Verschieben nach“-Revision, also die Form an ihrem Zielort.
+// Wenn wir die Revision akzeptieren, verschwindet diese Revisionsform „Verschieben nach“.
 // und die Revisionsform „Verschieben von“ bleibt erhalten.
 Assert.False(shapes[0].IsMoveFromRevision);
 Assert.True(shapes[0].IsMoveToRevision);
 
-// Dies ist die „Move from“-Revision, also die Form an ihrem ursprünglichen Standort.
-// Wenn wir die Revision akzeptieren, verschwindet diese „Verschieben von“-Revisionsform.
+// Dies ist die „Verschieben von“-Revision, also die Form an ihrem ursprünglichen Speicherort.
+// Wenn wir die Revision akzeptieren, verschwindet diese Revisionsform „Verschieben von“,
 // und die Revisionsform „Verschieben nach“ bleibt erhalten.
 Assert.True(shapes[1].IsMoveFromRevision);
 Assert.False(shapes[1].IsMoveToRevision);
