@@ -3,14 +3,14 @@ title: Run.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words pour .NET
-description: Run GetText méthode. Récupère le texte de lexécution en C#.
+description: Récupérez facilement du texte grâce à la méthode GetText. Simplifiez votre codage grâce à cet outil essentiel pour une gestion efficace du texte.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/run/gettext/
 ---
 ## Run.GetText method
 
-Récupère le texte de l'exécution.
+Obtient le texte de l'exécution.
 
 ```csharp
 public override string GetText()
@@ -30,20 +30,20 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
-    // puis parcourt tous les enfants du nœud en profondeur.
+    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
+    // et parcourt ensuite tous les enfants du nœud de manière approfondie.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Une autre manière d'accéder à l'en-tête/pied de page d'un document, section par section, consiste à accéder à la collection.
+    // Une autre façon d'accéder section par section à l'en-tête/pied de page d'un document est d'accéder à la collection.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Parcourt l'arborescence non binaire des nœuds enfants d'un nœud.
+/// Parcourt l'arbre non binaire des nœuds enfants d'un nœud.
 /// Crée une carte sous la forme d'une chaîne de tous les nœuds HeaderFooter rencontrés et de leurs enfants.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
@@ -94,9 +94,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

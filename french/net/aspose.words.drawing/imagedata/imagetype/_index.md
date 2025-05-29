@@ -3,7 +3,7 @@ title: ImageData.ImageType
 linktitle: ImageType
 articleTitle: ImageType
 second_title: Aspose.Words pour .NET
-description: ImageData ImageType propriété. Obtient le type de limage en C#.
+description: Découvrez la propriété ImageData ImageType pour identifier facilement les types d'images et améliorer vos capacités de traitement. Optimisez votre efficacité de développement dès aujourd'hui !
 type: docs
 weight: 140
 url: /fr/net/aspose.words.drawing/imagedata/imagetype/
@@ -18,13 +18,13 @@ public ImageType ImageType { get; }
 
 ## Exemples
 
-Montre comment extraire des images d'un document et les enregistrer sur le système de fichiers local en tant que fichiers individuels.
+Montre comment extraire des images d'un document et les enregistrer sur le système de fichiers local sous forme de fichiers individuels.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Récupère la collection de formes du document,
-// et enregistrez les données d'image de chaque forme avec une image sous forme de fichier dans le système de fichiers local.
+// Récupérer la collection de formes du document,
+// et enregistrez les données d'image de chaque forme avec une image sous forme de fichier sur le système de fichiers local.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));

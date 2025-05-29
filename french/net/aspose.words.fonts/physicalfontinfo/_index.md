@@ -3,16 +3,16 @@ title: PhysicalFontInfo Class
 linktitle: PhysicalFontInfo
 articleTitle: PhysicalFontInfo
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo classe. Spécifie des informations sur la police physique disponible pour le moteur de police Aspose.Words en C#.
+description: Découvrez la classe Aspose.Words.Fonts.PhysicalFontInfo, qui fournit des détails essentiels sur les polices physiques pour un traitement et une conception de documents améliorés.
 type: docs
-weight: 3030
+weight: 3460
 url: /fr/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Spécifie des informations sur la police physique disponible pour le moteur de police Aspose.Words.
+Spécifie les informations sur la police physique disponible pour le moteur de polices Aspose.Words.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
 public class PhysicalFontInfo
@@ -22,7 +22,8 @@ public class PhysicalFontInfo
 
 | Nom | La description |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Chemin d'accès au fichier de police le cas échéant. |
+| [EmbeddingLicensingRights](../../aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/) { get; } | Incorporation des droits de licence pour la police. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Chemin vers le fichier de police, le cas échéant. |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Nom de famille de la police. |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Nom complet de la police. |
 | [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Chaîne de version de la police. |
@@ -32,7 +33,7 @@ public class PhysicalFontInfo
 Montre comment répertorier les polices disponibles.
 
 ```csharp
-// Configurez Aspose.Words pour rechercher les polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
+// Configurez Aspose.Words pour rechercher des polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

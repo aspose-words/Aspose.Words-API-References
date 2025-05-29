@@ -3,7 +3,7 @@ title: ParagraphFormat.LineSpacingRule
 linktitle: LineSpacingRule
 articleTitle: LineSpacingRule
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat LineSpacingRule propriété. Obtient ou définit linterligne du paragraphe en C#.
+description: Découvrez la propriété ParagraphFormat LineSpacingRule pour personnaliser facilement l'espacement des lignes de paragraphe pour une lisibilité et un style améliorés dans vos documents.
 type: docs
 weight: 200
 url: /fr/net/aspose.words/paragraphformat/linespacingrule/
@@ -18,17 +18,17 @@ public LineSpacingRule LineSpacingRule { get; set; }
 
 ## Exemples
 
-Montre comment utiliser l'espacement des lignes.
+Montre comment travailler avec l'espacement des lignes.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous trois règles d'espacement des lignes que nous pouvons définir à l'aide de la
-// Propriété "LineSpacingRule" du paragraphe pour configurer l'espacement entre les paragraphes.
-// 1 - Définit un espacement minimum.
+// Vous trouverez ci-dessous trois règles d'espacement des lignes que nous pouvons définir à l'aide de
+// propriété « LineSpacingRule » du paragraphe pour configurer l'espacement entre les paragraphes.
+// 1 - Définir une quantité minimale d'espacement.
 // Cela donnera un remplissage vertical aux lignes de texte de n'importe quelle taille
-// c'est trop petit pour maintenir la hauteur de ligne minimale.
+// qui est trop petit pour maintenir la hauteur de ligne minimale.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.AtLeast;
 builder.ParagraphFormat.LineSpacing = 20;
 
@@ -43,7 +43,7 @@ builder.ParagraphFormat.LineSpacing = 5;
 builder.Writeln("Line spacing of exactly 5.");
 builder.Writeln("Line spacing of exactly 5.");
 
-// 3 - Définissez l'espacement comme un multiple de l'espacement des lignes par défaut, qui est de 12 points par défaut.
+// 3 - Définissez l'espacement comme un multiple de l'espacement de ligne par défaut, qui est de 12 points par défaut.
 // Ce type d'espacement s'adaptera à différentes tailles de police.
 builder.ParagraphFormat.LineSpacingRule = LineSpacingRule.Multiple;
 builder.ParagraphFormat.LineSpacing = 18;

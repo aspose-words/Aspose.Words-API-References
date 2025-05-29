@@ -3,9 +3,9 @@ title: Shape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: Shape Accept méthode. Accepte un visiteur en C#.
+description: Découvrez la méthode Shape Accept, conçue pour améliorer l'engagement des visiteurs et rationaliser votre processus d'acceptation pour de meilleurs résultats.
 type: docs
-weight: 240
+weight: 250
 url: /fr/net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../../aspose.words/documentvisitor/) a arrêté l'opération avant de visiter tous les nœuds.
 
 ## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Pour plus d’informations, consultez le modèle de conception Visiteur.
+Pour plus d'informations, consultez le modèle de conception Visitor.
 
-Appels[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour tous les nœuds enfants de la forme et des appels[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) à la fin.
+Appels[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , puis appelle[`Accept`](../../../aspose.words/node/accept/) pour tous les nœuds enfants de la forme et les appels[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) à la fin.
 
 ## Exemples
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -69,7 +69,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -97,7 +97,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

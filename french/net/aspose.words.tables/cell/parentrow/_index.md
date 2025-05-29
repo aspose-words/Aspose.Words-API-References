@@ -3,7 +3,7 @@ title: Cell.ParentRow
 linktitle: ParentRow
 articleTitle: ParentRow
 second_title: Aspose.Words pour .NET
-description: Cell ParentRow propriété. Renvoie la ligne parent de la cellule en C#.
+description: Découvrez la propriété Cell ParentRow pour accéder facilement à la ligne parent de n'importe quelle cellule, améliorant ainsi votre gestion des données et l'efficacité de votre navigation.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.tables/cell/parentrow/
@@ -16,10 +16,6 @@ Renvoie la ligne parent de la cellule.
 public Row ParentRow { get; }
 ```
 
-## Remarques
-
-Équivalent àFirstNonMarkupParentNode jeté à[`Row`](../../row/).
-
 ## Exemples
 
 Montre comment dresser une table pour rester ensemble sur la même page.
@@ -28,10 +24,10 @@ Montre comment dresser une table pour rester ensemble sur la même page.
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Activation de KeepWithNext pour chaque paragraphe du tableau à l'exception du
+// Activation de KeepWithNext pour chaque paragraphe du tableau, à l'exception du
 // les derniers de la dernière ligne empêcheront le tableau de se diviser sur plusieurs pages.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

@@ -3,7 +3,7 @@ title: CommentRangeEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: CommentRangeEnd Accept méthode. Accepte un visiteur en C#.
+description: Découvrez la méthode CommentRangeEnd Accept pour interagir facilement avec vos visiteurs et améliorer l'interaction utilisateur sur votre plateforme. Boostez l'engagement dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words/commentrangeend/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-`FAUX` si le visiteur a demandé l'arrêt de l'énumération.
+`FAUX` si le visiteur a demandé l'arrêt du dénombrement.
 
 ## Remarques
 
 Appels[`VisitCommentRangeEnd`](../../documentvisitor/visitcommentrangeend/).
 
-Pour plus d’informations, consultez le modèle de conception Visiteur.
+Pour plus d'informations, consultez le modèle de conception Visitor.
 
 ## Exemples
 
@@ -55,7 +55,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Ajoute deux réponses au commentaire.
+    // Ajoutez deux réponses au commentaire.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -63,21 +63,25 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itérer sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Tout d'abord, visitez le début de la plage de commentaires.
+        // Tout d’abord, visitez le début de la plage de commentaires.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut avoir.
+        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut contenir.
         comment.Accept(commentVisitor);
+        // Visitez uniquement le début du commentaire.
+        comment.AcceptStart(commentVisitor);
+        // Visitez uniquement la fin du commentaire.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
@@ -144,7 +148,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Commentaire est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Comment est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -169,9 +173,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

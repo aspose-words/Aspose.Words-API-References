@@ -3,16 +3,16 @@ title: SpecialChar Class
 linktitle: SpecialChar
 articleTitle: SpecialChar
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.SpecialChar classe. Classe de base pour les caractères spéciaux dans le document en C#.
+description: Découvrez la classe Aspose.Words.SpecialChar, votre outil indispensable pour gérer les caractères spéciaux dans vos documents. Améliorez le traitement de vos documents dès aujourd'hui !
 type: docs
-weight: 6100
+weight: 6950
 url: /fr/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
 
 Classe de base pour les caractères spéciaux dans le document.
 
-Pour en savoir plus, visitez le[Modèle objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article documentaire.
+Pour en savoir plus, visitez le[Modèle d'objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article de documentation.
 
 ```csharp
 public class SpecialChar : Inline
@@ -24,10 +24,10 @@ public class SpecialChar : Inline
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Spécifie l'identifiant de nœud personnalisé. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel appartient ce nœud. |
-| [Font](../../aspose.words/inline/font/) { get; } | Donne accès au formatage de la police de cet objet. |
+| [Font](../../aspose.words/inline/font/) { get; } | Donne accès à la mise en forme de la police de cet objet. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Retours`vrai` si ce nœud peut contenir d'autres nœuds. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Renvoie vrai si le formatage de l'objet a été modifié dans Microsoft Word alors que le suivi des modifications était activé. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Renvoie true si la mise en forme de l'objet a été modifiée dans Microsoft Word alors que le suivi des modifications était activé. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suivi des modifications était activé. |
 | [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Retours`vrai` si cet objet a été déplacé (supprimé) dans Microsoft Word alors que le suivi des modifications était activé. |
 | [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Retours`vrai` si cet objet a été déplacé (inséré) dans Microsoft Word alors que le suivi des modifications était activé. |
@@ -36,34 +36,34 @@ public class SpecialChar : Inline
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Récupère le parent[`Paragraph`](../paragraph/) de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/) objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/)objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un doublon du nœud. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | Obtient le caractère spécial que représente ce nœud. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | Obtient le caractère spécial que ce nœud représente. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne en utilisant les options de sauvegarde spécifiées. |
 
 ## Remarques
 
-Un document Microsoft Word peut inclure un certain nombre de caractères spéciaux qui représentent des champs, des champs de formulaire, des formes, des objets OLE, des notes de bas de page, etc. Pour la liste de caractères spéciaux, voir[`ControlChar`](../controlchar/).
+Un document Microsoft Word peut inclure un certain nombre de caractères spéciaux qui représentent des champs, des champs de formulaire, des formes, des objets OLE, des notes de bas de page, etc. Pour la liste des caractères spéciaux, voir[`ControlChar`](../controlchar/).
 
-`SpecialChar`est un nœud en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
+`SpecialChar` est un nœud en ligne et ne peut être qu'un enfant de[`Paragraph`](../paragraph/).
 
-`SpecialChar` char est utilisé comme classe de base pour des classes plus spécifiques qui représentent des caractères spéciaux pour lesquels Aspose.Words fournit un accès par programmation. Le`SpecialChar` La classe est également utilisée elle-même pour représenter un caractère spécial pour lequel Aspose.Words ne fournit pas d'accès programmatique détaillé.
+`SpecialChar` char est utilisé comme classe de base pour des classes plus spécifiques qui représentent des caractères spéciaux pour lesquels Aspose.Words fournit un accès programmatique. Le`SpecialChar`la classe est également utilisée elle-même pour représenter un caractère spécial pour lequel Aspose.Words ne fournit pas d'accès programmatique détaillé.
 
 ## Exemples
 
-Montre comment utiliser une implémentation de DocumentVisitor pour supprimer tout le contenu masqué d'un document.
+Montre comment utiliser une implémentation DocumentVisitor pour supprimer tout le contenu masqué d'un document.
 
 ```csharp
 public void RemoveHiddenContentFromDocument()
@@ -72,23 +72,23 @@ public void RemoveHiddenContentFromDocument()
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Vous trouverez ci-dessous trois types de champs pouvant accepter un visiteur de document,
-    // ce qui lui permettra de visiter le nœud accepteur, puis de parcourir ses nœuds enfants en profondeur d'abord.
+    // ce qui lui permettra de visiter le nœud accepteur, puis de parcourir ses nœuds enfants de manière approfondie.
     // 1 - Nœud de paragraphe :
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
-    // 2 - Nœud table :
+    // 2 - Nœud de table :
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - Nœud Document :
+    // 3 - Nœud de document :
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
 }
 
 /// <summary>
-/// Supprime tous les nœuds visités marqués comme "contenu caché".
+/// Supprime tous les nœuds visités marqués comme « contenu caché ».
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -203,10 +203,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un SpecialCharacter est rencontré dans le document.
+    /// Appelé lorsqu'un caractère spécial est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -214,15 +216,15 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsque la visite d'un nœud Table est terminée dans le document.
+    /// Appelé lorsque la visite d'un nœud de table est terminée dans le document.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
         // Le contenu à l'intérieur des cellules du tableau peut avoir l'indicateur de contenu masqué, mais les tableaux eux-mêmes ne le peuvent pas.
-        // Si cette table n'avait que du contenu caché, ce visiteur l'aurait tout supprimé,
+        // Si cette table n'avait que du contenu caché, ce visiteur l'aurait supprimé en entier,
         // et il n'y aurait plus de nœuds enfants.
         // Ainsi, nous pouvons également traiter la table elle-même comme un contenu caché et la supprimer.
-        // Les tableaux vides mais sans contenu masqué auront des cellules avec des paragraphes vides à l'intérieur,
+        // Les tableaux qui sont vides mais qui n'ont pas de contenu caché auront des cellules avec des paragraphes vides à l'intérieur,
         // que ce visiteur ne supprimera pas.
         if (!table.HasChildNodes)
             table.Remove();

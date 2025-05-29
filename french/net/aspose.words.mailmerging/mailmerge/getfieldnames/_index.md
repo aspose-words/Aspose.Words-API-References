@@ -3,7 +3,7 @@ title: MailMerge.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words pour .NET
-description: MailMerge GetFieldNames méthode. Renvoie une collection de noms de champs de publipostage disponibles dans le document en C#.
+description: Découvrez la méthode MailMerge GetFieldNames pour accéder et utiliser sans effort tous les noms de champs de publipostage de votre document pour une automatisation simplifiée des documents.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.mailmerging/mailmerge/getfieldnames/
@@ -18,7 +18,7 @@ public string[] GetFieldNames()
 
 ## Remarques
 
-Renvoie les noms complets des champs de fusion, y compris le préfixe facultatif. N'élimine pas les noms de champs en double.
+Renvoie les noms de champs de fusion complets, y compris le préfixe facultatif. N'élimine pas les doublons.
 
 Un nouveau tableau de chaînes est créé à chaque appel.
 

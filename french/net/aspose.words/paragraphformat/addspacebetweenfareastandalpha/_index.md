@@ -3,7 +3,7 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndAlpha
 linktitle: AddSpaceBetweenFarEastAndAlpha
 articleTitle: AddSpaceBetweenFarEastAndAlpha
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndAlpha propriété. Obtient ou définit un indicateur indiquant si lespacement entre les caractères est automatiquement ajusté entre les régions du texte latin et les régions du texte dAsie de lEst dans le paragraphe actuel en C#.
+description: Optimisez l'apparence de votre document avec la propriété ParagraphFormat AddSpaceBetweenFarEastAndAlpha, améliorant l'espacement entre le texte latin et est-asiatique.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/paragraphformat/addspacebetweenfareastandalpha/
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// La méthode "Writeln" termine le paragraphe après avoir ajouté du texte
-// puis commence une nouvelle ligne, ajoutant un nouveau paragraphe.
+// La méthode « Writeln » termine le paragraphe après avoir ajouté du texte
+// puis démarre une nouvelle ligne, ajoutant un nouveau paragraphe.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

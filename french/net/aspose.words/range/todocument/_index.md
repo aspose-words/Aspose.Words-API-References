@@ -3,9 +3,9 @@ title: Range.ToDocument
 linktitle: ToDocument
 articleTitle: ToDocument
 second_title: Aspose.Words pour .NET
-description: Range ToDocument méthode. Construit un nouveau document entièrement formé qui contient la plage en C#.
+description: Découvrez la méthode Range ToDocument, créez sans effort un document complet à partir de votre plage sélectionnée, améliorant ainsi votre flux de travail et votre productivité.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words/range/todocument/
 ---
 ## Range.ToDocument method

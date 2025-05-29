@@ -3,16 +3,16 @@ title: ConvertUtil Class
 linktitle: ConvertUtil
 articleTitle: ConvertUtil
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.ConvertUtil classe. Fournit des fonctions dassistance pour convertir entre différentes unités de mesure en C#.
+description: Découvrez la classe Aspose.Words.ConvertUtil pour une conversion d'unités fluide. Améliorez le traitement de vos documents grâce à des fonctions d'assistance essentielles dès aujourd'hui !
 type: docs
-weight: 360
+weight: 560
 url: /fr/net/aspose.words/convertutil/
 ---
 ## ConvertUtil class
 
-Fournit des fonctions d'assistance pour convertir entre différentes unités de mesure.
+Fournit des fonctions d'aide pour convertir entre différentes unités de mesure.
 
-Pour en savoir plus, visitez le[Convertir entre les unités de mesure](https://docs.aspose.com/words/net/convert-between-measurement-units/) article documentaire.
+Pour en savoir plus, visitez le[Convertir entre les unités de mesure](https://docs.aspose.com/words/net/convert-between-measurement-units/) article de documentation.
 
 ```csharp
 public static class ConvertUtil
@@ -33,7 +33,7 @@ public static class ConvertUtil
 
 ## Exemples
 
-Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
+Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();
@@ -59,8 +59,8 @@ Montre comment spécifier les propriétés de la page en pouces.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La "Mise en page" d'une section définit la taille des marges de la page en points.
-// On peut également utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
+// La « Mise en page » d'une section définit la taille des marges de la page en points.
+// Nous pouvons également utiliser la classe « ConvertUtil » pour utiliser une unité de mesure plus familière,
 // comme les pouces lors de la définition des limites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);

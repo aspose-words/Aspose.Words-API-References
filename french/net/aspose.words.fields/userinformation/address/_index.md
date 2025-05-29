@@ -3,7 +3,7 @@ title: UserInformation.Address
 linktitle: Address
 articleTitle: Address
 second_title: Aspose.Words pour .NET
-description: UserInformation Address propriété. Obtient ou définit ladresse postale de lutilisateur en C#.
+description: Gérez facilement les adresses postales des utilisateurs grâce à la propriété UserInformation Address. Simplifiez la gestion des données pour une expérience utilisateur optimale.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/userinformation/address/
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Insère les champs USERNAME, USERINITIALS et USERADDRESS, qui affichent les valeurs de
+// Insérer les champs USERNAME, USERINITIALS et USEADDRESS, qui affichent les valeurs de
  // les propriétés respectives de l'objet UserInformation que nous avons créé ci-dessus.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// L'objet d'options de champ a également un utilisateur statique par défaut auquel les champs de tous les documents peuvent faire référence.
+// L'objet d'options de champ dispose également d'un utilisateur par défaut statique auquel les champs de tous les documents peuvent faire référence.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

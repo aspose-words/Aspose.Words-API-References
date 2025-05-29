@@ -3,7 +3,7 @@ title: HeaderFooterCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: HeaderFooterCollection Item propriété. Récupère unHeaderFooter à lindex donné en C#.
+description: Accédez facilement aux en-têtes et pieds de page grâce à la propriété Élément. Récupérez des en-têtes ou pieds de page spécifiques par index pour une gestion simplifiée des documents.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/headerfootercollection/item/
@@ -18,17 +18,17 @@ public HeaderFooter this[int index] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| index | Un index dans la collection. |
+| index | Un index de la collection. |
 
 ## Remarques
 
-L'indice est de base zéro.
+L'indice est basé sur zéro.
 
-Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
+Les index négatifs sont autorisés et indiquent l'accès depuis l'arrière de la collection. Par exemple, -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
-Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
 ## Exemples
 
@@ -44,7 +44,7 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 3");
 
-// Passe à la première section et crée un en-tête et un pied de page. Par défaut,
+// Accédez à la première section et créez un en-tête et un pied de page. Par défaut,
 // l'en-tête et le pied de page n'apparaîtront que sur les pages de la section qui les contient.
 builder.MoveToSection(0);
 
@@ -54,29 +54,29 @@ builder.Write("This is the header, which will be displayed in sections 1 and 2."
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer, which will be displayed in sections 1, 2 and 3.");
 
-// On peut lier les en-têtes/pieds de page d'une section aux en-têtes/pieds de page de la section précédente
+// Nous pouvons lier les en-têtes/pieds de page d'une section aux en-têtes/pieds de page de la section précédente
 // pour permettre à la section de liaison d'afficher les en-têtes/pieds de page de la section liée.
 doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
-// Chaque section aura toujours ses propres objets d'en-tête/pied de page. Lorsque nous lions des sections,
-// la section de liaison affichera l'en-tête/pied de page de la section liée tout en conservant les siens.
+// Chaque section conservera ses propres objets d'en-tête et de pied de page. Lorsque nous lions des sections,
+// la section de liaison affichera l'en-tête/les pieds de page de la section liée tout en conservant les siens.
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
 Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
 
 // Liez les en-têtes/pieds de page de la troisième section aux en-têtes/pieds de page de la deuxième section.
-// La deuxième section est déjà liée aux en-têtes/pieds de page de la première section,
-// donc créer un lien vers la deuxième section créera une chaîne de liens.
+// La deuxième section est déjà liée à l'en-tête/pied de page de la première section,
+// donc le lien vers la deuxième section créera une chaîne de liens.
 // Les première, deuxième et maintenant troisième sections afficheront toutes les en-têtes de la première section.
 doc.Sections[2].HeadersFooters.LinkToPrevious(true);
 
-// Nous pouvons dissocier l'en-tête/pied de page d'une section précédente en passant "false" lors de l'appel de la méthode LinkToPrevious.
+// Nous pouvons dissocier l'en-tête/les pieds de page d'une section précédente en passant « false » lors de l'appel de la méthode LinkToPrevious.
 doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 
-// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/pied de page à lier en utilisant cette méthode.
+// Nous pouvons également sélectionner uniquement un type spécifique d'en-tête/pied de page à lier à l'aide de cette méthode.
 // La troisième section aura désormais le même pied de page que les deuxième et première sections, mais pas l'en-tête.
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
-// L'en-tête/pied de page de la première section ne peut pas se lier à quoi que ce soit car il n'y a pas de section précédente.
+// L'en-tête/les pieds de page de la première section ne peuvent pas se lier à quoi que ce soit car il n'y a pas de section précédente.
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
 Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
 
@@ -115,7 +115,7 @@ public HeaderFooter this[HeaderFooterType headerFooterType] { get; }
 
 ## Remarques
 
-Retours`nul` si l'en-tête/pied de page du type spécifié est introuvable.
+Retours`nul`si l'en-tête/pied de page du type spécifié n'est pas trouvé.
 
 ## Exemples
 
@@ -139,7 +139,7 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-Montre comment supprimer tous les pieds de page d’un document.
+Montre comment supprimer tous les pieds de page d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
@@ -147,16 +147,16 @@ Document doc = new Document(MyDir + "Header and footer types.docx");
 // Parcourez chaque section et supprimez les pieds de page de toutes sortes.
 foreach (Section section in doc.OfType<Section>())
 {
-    // Il existe trois types de types de pied de page et d'en-tête.
-    // 1 - L'en-tête/pied de page "Premier", qui n'apparaît que sur la première page d'une section.
+    // Il existe trois types de pieds de page et d'en-têtes.
+    // 1 - L'en-tête/pied de page « Premier », qui n'apparaît que sur la première page d'une section.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
-    // 2 - L'en-tête/pied de page "Primaire", qui apparaît sur les pages impaires.
+    // 2 - L'en-tête/pied de page « Principal », qui apparaît sur les pages impaires.
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - L'en-tête/pied de page "Pair", qui apparaît sur les pages paires.
+     // 3 - L'en-tête/pied de page « Pair », qui apparaît sur les pages paires.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

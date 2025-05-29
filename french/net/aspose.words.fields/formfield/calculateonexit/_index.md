@@ -3,14 +3,14 @@ title: FormField.CalculateOnExit
 linktitle: CalculateOnExit
 articleTitle: CalculateOnExit
 second_title: Aspose.Words pour .NET
-description: FormField CalculateOnExit propriété. True si les références au champ de formulaire spécifié sont automatiquement mises à jour chaque fois que vous quittez le champ en C#.
+description: Découvrez comment la propriété FormField CalculateOnExit met automatiquement à jour les références de champ à la sortie, améliorant ainsi la précision et l'efficacité de votre document.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/formfield/calculateonexit/
 ---
 ## FormField.CalculateOnExit property
 
-True si les références au champ de formulaire spécifié sont automatiquement mises à jour chaque fois que vous quittez le champ.
+Vrai si les références au champ de formulaire spécifié sont automatiquement mises à jour chaque fois que le champ est quitté.
 
 ```csharp
 public bool CalculateOnExit { get; set; }
@@ -18,7 +18,7 @@ public bool CalculateOnExit { get; set; }
 
 ## Remarques
 
-Paramètre`CalculateOnExit` n'affecte le comportement du champ du formulaire que lorsque le document est ouvert dans Microsoft Word. Aspose.Words ne met jamais à jour references dans le champ du formulaire.
+Paramètre`CalculateOnExit` Cela n'affecte le comportement du champ de formulaire que lorsque le document est ouvert dans Microsoft Word. Aspose.Words ne met jamais à jour les références du champ de formulaire.
 
 ## Exemples
 
@@ -69,15 +69,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

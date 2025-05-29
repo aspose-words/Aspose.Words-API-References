@@ -3,7 +3,7 @@ title: ShapeBase.AlternativeText
 linktitle: AlternativeText
 articleTitle: AlternativeText
 second_title: Aspose.Words pour .NET
-description: ShapeBase AlternativeText propriété. Définit un texte alternatif à afficher à la place dun graphique en C#.
+description: Découvrez la propriété ShapeBase AlternativeText, qui améliore l'accessibilité en fournissant un texte descriptif pour les graphiques, améliorant ainsi l'expérience utilisateur et le référencement.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/shapebase/alternativetext/
@@ -22,7 +22,7 @@ La valeur par défaut est une chaîne vide.
 
 ## Exemples
 
-Montre comment utiliser le texte alternatif d’une forme.
+Montre comment utiliser le texte alternatif d'une forme.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// On peut accéder au texte alternatif d'une forme en faisant un clic droit dessus, puis via "Format AutoShape" -> "Texte alternatif".
+// Nous pouvons accéder au texte alternatif d'une forme en cliquant dessus avec le bouton droit de la souris, puis via « Format de la forme automatique » -> « Texte alternatif ».
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
 // Enregistrez le document au format HTML, puis supprimez l'image liée qui appartient à notre forme.

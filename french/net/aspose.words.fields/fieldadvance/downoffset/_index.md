@@ -3,14 +3,14 @@ title: FieldAdvance.DownOffset
 linktitle: DownOffset
 articleTitle: DownOffset
 second_title: Aspose.Words pour .NET
-description: FieldAdvance DownOffset propriété. Obtient ou définit le nombre de points dont le texte qui suit le champ doit être déplacé vers le bas en C#.
+description: Découvrez la propriété FieldAdvance DownOffset, ajustez facilement le positionnement du texte avec un contrôle précis de l'espacement vertical pour une mise en forme améliorée du document.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldadvance/downoffset/
 ---
 ## FieldAdvance.DownOffset property
 
-Obtient ou définit le nombre de points dont le texte qui suit le champ doit être déplacé vers le bas.
+Obtient ou définit le nombre de points par lesquels le texte qui suit le champ doit être déplacé vers le bas.
 
 ```csharp
 public string DownOffset { get; set; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Vous trouverez ci-dessous deux manières d'utiliser le champ ADVANCE pour ajuster la position du texte qui le suit.
-// Les effets d'un champ ADVANCE continuent à s'appliquer jusqu'à la fin du paragraphe,
+// Vous trouverez ci-dessous deux manières d'utiliser le champ AVANCE pour ajuster la position du texte qui le suit.
+// Les effets d'un champ AVANCE continuent d'être appliqués jusqu'à la fin du paragraphe,
 // ou un autre champ ADVANCE met à jour les valeurs de décalage/coordonnées.
 // 1 - Spécifiez un décalage directionnel :
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
@@ -46,7 +46,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - Déplacer le texte vers une position spécifiée par les coordonnées :
+// 2 - Déplacer le texte vers une position spécifiée par des coordonnées :
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

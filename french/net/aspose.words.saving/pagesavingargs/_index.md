@@ -3,16 +3,16 @@ title: PageSavingArgs Class
 linktitle: PageSavingArgs
 articleTitle: PageSavingArgs
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.PageSavingArgs classe. Fournit des données pour lePageSaving événement en C#.
+description: Découvrez la classe Aspose.Words.Saving.PageSavingArgs, essentielle pour optimiser le traitement des documents grâce à des données détaillées sur les événements PageSaving. Améliorez votre flux de travail !
 type: docs
-weight: 5380
+weight: 6160
 url: /fr/net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
 
 Fournit des données pour le[`PageSaving`](../ipagesavingcallback/pagesaving/) événement.
 
-Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article documentaire.
+Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article de documentation.
 
 ```csharp
 public class PageSavingArgs
@@ -28,7 +28,7 @@ public class PageSavingArgs
 
 | Nom | La description |
 | --- | --- |
-| [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen/) { get; set; } | Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une page de document. |
+| [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen/) { get; set; } | Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après l'enregistrement d'une page de document. |
 | [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename/) { get; set; } | Obtient ou définit le nom du fichier dans lequel la page du document sera enregistrée. |
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | Index de la page actuelle. |
 | [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | Permet de spécifier le flux dans lequel la page du document sera enregistrée. |
@@ -50,7 +50,7 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
+    // Créez un objet « HtmlFixedSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
@@ -75,11 +75,11 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // Vous trouverez ci-dessous deux façons de spécifier où Aspose.Words enregistrera chaque page du document.
-        // 1 - Définissez un nom de fichier pour le fichier d'échange de sortie :
+        // Vous trouverez ci-dessous deux manières de spécifier où Aspose.Words enregistrera chaque page du document.
+        // 1 - Définir un nom de fichier pour le fichier de page de sortie :
         args.PageFileName = outFileName;
 
-        // 2 - Créez un flux personnalisé pour le fichier d'échange de sortie :
+        // 2 - Créer un flux personnalisé pour le fichier de page de sortie :
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

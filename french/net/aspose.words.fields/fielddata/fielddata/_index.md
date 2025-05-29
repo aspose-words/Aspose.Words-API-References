@@ -3,7 +3,7 @@ title: FieldData
 linktitle: FieldData
 articleTitle: FieldData
 second_title: Aspose.Words pour .NET
-description: FieldData constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldData pour une gestion fluide des données. Utilisez le constructeur par défaut pour améliorer les performances et l'efficacité de votre application.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fielddata/fielddata/

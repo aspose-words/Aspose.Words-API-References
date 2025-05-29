@@ -3,9 +3,9 @@ title: ShapeBase.IsHorizontalRule
 linktitle: IsHorizontalRule
 articleTitle: IsHorizontalRule
 second_title: Aspose.Words pour .NET
-description: ShapeBase IsHorizontalRule propriété. Retoursvrai si cette forme est une règle horizontale en C#.
+description: Découvrez la propriété ShapeBase IsHorizontalRule, identifiez facilement les règles horizontales dans vos conceptions pour une meilleure efficacité de mise en page et de style.
 type: docs
-weight: 270
+weight: 290
 url: /fr/net/aspose.words.drawing/shapebase/ishorizontalrule/
 ---
 ## ShapeBase.IsHorizontalRule property

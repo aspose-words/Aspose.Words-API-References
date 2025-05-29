@@ -3,14 +3,14 @@ title: PageSetup.PageStartingNumber
 linktitle: PageStartingNumber
 articleTitle: PageStartingNumber
 second_title: Aspose.Words pour .NET
-description: PageSetup PageStartingNumber propriété. Obtient ou définit le numéro de page de début de la section en C#.
+description: Découvrez la propriété PageSetup PageStartingNumber pour personnaliser facilement le numéro de page de départ de votre document pour une organisation et une clarté améliorées.
 type: docs
 weight: 330
 url: /fr/net/aspose.words/pagesetup/pagestartingnumber/
 ---
 ## PageSetup.PageStartingNumber property
 
-Obtient ou définit le numéro de page de début de la section.
+Obtient ou définit le numéro de page de départ de la section.
 
 ```csharp
 public int PageStartingNumber { get; set; }
@@ -18,7 +18,7 @@ public int PageStartingNumber { get; set; }
 
 ## Remarques
 
-Le[`RestartPageNumbering`](../restartpagenumbering/)propriété, si elle est définie sur`FAUX` , remplacera the `PageStartingNumber` propriété afin que la numérotation des pages puisse continuer à partir de la section précédente.
+Le[`RestartPageNumbering`](../restartpagenumbering/) propriété, si définie sur`FAUX` , remplacera the `PageStartingNumber` propriété afin que la numérotation des pages puisse continuer à partir de la section précédente.
 
 ## Exemples
 
@@ -40,17 +40,17 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Déplace le générateur de documents vers l'en-tête principal de la première section,
+// Déplacer le générateur de documents vers l'en-tête principal de la première section,
 // que chaque page de cette section affichera.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Insère un champ PAGE, qui affichera le numéro de la page en cours.
+// Insérer un champ PAGE, qui affichera le numéro de la page actuelle.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
 // Configurez la section pour que le nombre de pages affiché par les champs PAGE commence à 5.
-// Configurez également tous les champs PAGE pour afficher leurs numéros de page en utilisant des chiffres romains majuscules.
+// Configurez également tous les champs PAGE pour afficher leurs numéros de page à l'aide de chiffres romains majuscules.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
@@ -65,7 +65,7 @@ builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
 // Configurez la section pour que le nombre de pages affiché par les champs PAGE commence à 10.
-// Configurez également tous les champs PAGE pour afficher leurs numéros de page en utilisant des chiffres arabes.
+// Configurez également tous les champs PAGE pour afficher leurs numéros de page à l'aide de chiffres arabes.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

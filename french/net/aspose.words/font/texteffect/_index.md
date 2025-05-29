@@ -3,9 +3,9 @@ title: Font.TextEffect
 linktitle: TextEffect
 articleTitle: TextEffect
 second_title: Aspose.Words pour .NET
-description: Font TextEffect propriété. Obtient ou définit leffet danimation de la police en C#.
+description: Découvrez la propriété Font TextEffect pour personnaliser facilement les animations de polices, en améliorant vos conceptions avec des effets de texte dynamiques pour une expérience utilisateur captivante.
 type: docs
-weight: 450
+weight: 460
 url: /fr/net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property
@@ -18,7 +18,7 @@ public TextEffect TextEffect { get; set; }
 
 ## Exemples
 
-Montre comment appliquer un effet visuel à une exécution.
+Montre comment appliquer un effet visuel à une course.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.Font.TextEffect = TextEffect.SparkleText;
 
 builder.Writeln("Text with a sparkle effect.");
 
-// Les anciennes versions de Microsoft Word ne prennent en charge que les effets d'animation de polices.
+// Les anciennes versions de Microsoft Word ne prennent en charge que les effets d’animation de police.
 doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 ```
 

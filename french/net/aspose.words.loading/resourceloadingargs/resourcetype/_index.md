@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.ResourceType
 linktitle: ResourceType
 articleTitle: ResourceType
 second_title: Aspose.Words pour .NET
-description: ResourceLoadingArgs ResourceType propriété. Type de ressource en C#.
+description: Découvrez la propriété ResourceType de ResourceLoadingArgs pour optimiser la gestion de vos ressources. Améliorez vos performances et rationalisez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.loading/resourceloadingargs/resourcetype/
@@ -40,7 +40,7 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Nous permet de charger des images dans un document à l'aide de raccourcis prédéfinis, par opposition aux URI.
+/// Nous permet de charger des images dans un document en utilisant des raccourcis prédéfinis, par opposition aux URI.
 /// Cela séparera la logique de chargement de l'image du reste de la construction du document.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback

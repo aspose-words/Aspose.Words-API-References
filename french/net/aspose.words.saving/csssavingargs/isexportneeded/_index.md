@@ -3,14 +3,14 @@ title: CssSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words pour .NET
-description: CssSavingArgs IsExportNeeded propriété. Permet de spécifier si le CSS sera exporté dans un fichier et intégré dans un document HTML. La valeur par défaut estvrai . Lorsque cette propriété estFAUX  les informations CSS ne seront pas enregistrées dans un fichier CSS et ne seront pas intégrées au document HTML en C#.
+description: Contrôlez l'exportation CSS avec la propriété IsExportNeeded de CssSavingArgs. Choisissez d'intégrer ou d'enregistrer le CSS dans un fichier pour optimiser vos documents HTML. Valeur par défaut : true.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/csssavingargs/isexportneeded/
 ---
 ## CssSavingArgs.IsExportNeeded property
 
-Permet de spécifier si le CSS sera exporté dans un fichier et intégré dans un document HTML. La valeur par défaut est`vrai` . Lorsque cette propriété est`FAUX` , les informations CSS ne seront pas enregistrées dans un fichier CSS et ne seront pas intégrées au document HTML.
+Permet de spécifier si le CSS sera exporté vers un fichier et intégré au document HTML. La valeur par défaut est`vrai` . Lorsque cette propriété est`FAUX` , les informations CSS ne seront pas enregistrées dans un fichier CSS et ne seront pas intégrées au document HTML.
 
 ```csharp
 public bool IsExportNeeded { get; set; }
@@ -18,23 +18,23 @@ public bool IsExportNeeded { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les feuilles de style CSS créées par une conversion HTML.
+Montre comment travailler avec les feuilles de style CSS créées par une conversion HTML.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
+    // Créez un objet « HtmlFixedSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Définissez la propriété "CssStylesheetType" sur "CssStyleSheetType.External" pour
-    // accompagne un document HTML enregistré avec un fichier de feuille de style CSS externe.
+    // Définissez la propriété « CssStylesheetType » sur « CssStyleSheetType.External » pour
+    // accompagner un document HTML enregistré avec un fichier de feuille de style CSS externe.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Vous trouverez ci-dessous deux manières de spécifier des répertoires et des noms de fichiers pour les feuilles de style CSS de sortie.
-    // 1 - Utilisez la propriété "CssStyleSheetFileName" pour attribuer un nom de fichier à notre feuille de style :
+    // Vous trouverez ci-dessous deux manières de spécifier les répertoires et les noms de fichiers pour les feuilles de style CSS de sortie.
+    // 1 - Utilisez la propriété « CssStyleSheetFileName » pour attribuer un nom de fichier à notre feuille de style :
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Utilisez un rappel personnalisé pour nommer notre feuille de style :
@@ -58,7 +58,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // On peut accéder à l'intégralité du document source via la propriété "Document".
+        // Nous pouvons accéder à l'intégralité du document source via la propriété "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

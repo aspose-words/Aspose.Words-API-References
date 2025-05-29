@@ -3,7 +3,7 @@ title: AxisBound.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words pour .NET
-description: AxisBound ToString méthode. Renvoie une chaîne conviviale qui affiche la valeur de cet objet en C#.
+description: Découvrez la méthode AxisBound ToString qui génère une représentation de chaîne claire et conviviale de la valeur de votre objet pour une meilleure lisibilité.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.drawing.charts/axisbound/tostring/

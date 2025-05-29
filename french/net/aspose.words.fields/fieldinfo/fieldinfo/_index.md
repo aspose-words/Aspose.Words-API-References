@@ -3,7 +3,7 @@ title: FieldInfo
 linktitle: FieldInfo
 articleTitle: FieldInfo
 second_title: Aspose.Words pour .NET
-description: FieldInfo constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldInfo, votre solution idéale pour une gestion efficace des données en programmation. Simplifiez votre code avec notre constructeur par défaut !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldinfo/fieldinfo/

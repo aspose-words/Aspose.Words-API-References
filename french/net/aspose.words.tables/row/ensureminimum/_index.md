@@ -3,14 +3,14 @@ title: Row.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words pour .NET
-description: Row EnsureMinimum méthode. Si leRow na pas de cellules en crée et en ajoute uneCell  en C#.
+description: Découvrez la méthode Row EnsureMinimum, créez et ajoutez sans effort une cellule lorsqu'il n'en existe aucune, améliorant ainsi la gestion de votre structure de données.
 type: docs
-weight: 130
+weight: 150
 url: /fr/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-Si le[`Row`](../) n'a pas de cellules, en crée et en ajoute une[`Cell`](../../cell/) .
+Si le[`Row`](../) n'a pas de cellules, crée et ajoute une[`Cell`](../../cell/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -27,11 +27,11 @@ doc.FirstSection.Body.AppendChild(table);
 Row row = new Row(doc);
 table.AppendChild(row);
 
-// Les lignes contiennent des cellules contenant des paragraphes avec des éléments typiques tels que des lignes, des formes et même d'autres tableaux.
-// Notre nouvelle ligne ne contient aucun de ces nœuds et nous ne pouvons pas y ajouter de contenu tant que ce n'est pas le cas.
+// Les lignes contiennent des cellules, contenant des paragraphes avec des éléments typiques tels que des exécutions, des formes et même d'autres tableaux.
+// Notre nouvelle ligne n'a aucun de ces nœuds et nous ne pouvons pas y ajouter de contenu tant qu'elle n'en a pas.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
-// L'appel de la méthode "EnsureMinimum" sur une table garantira que
+// L'appel de la méthode « EnsureMinimum » sur une table garantira que
 // le tableau contient au moins une cellule avec un paragraphe vide.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));

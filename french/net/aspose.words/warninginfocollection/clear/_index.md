@@ -3,7 +3,7 @@ title: WarningInfoCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words pour .NET
-description: WarningInfoCollection Clear méthode. Supprime tous les éléments de la collection en C#.
+description: Effacez sans effort votre WarningInfoCollection avec cette méthode, en supprimant tous les éléments pour une gestion simplifiée des données et des performances améliorées.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/warninginfocollection/clear/
@@ -18,25 +18,25 @@ public void Clear()
 
 ## Exemples
 
-Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante à partir des sources de polices disponibles.
+Montre comment définir la propriété permettant de trouver la correspondance la plus proche pour une police manquante parmi les sources de polices disponibles.
 
 ```csharp
 public void EnableFontSubstitution()
 {
-    // Ouvre un document contenant du texte formaté avec une police qui n'existe dans aucune de nos sources de polices.
+    // Ouvrez un document contenant du texte formaté avec une police qui n'existe dans aucune de nos sources de polices.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Attribue un rappel pour gérer les avertissements de substitution de police.
+    // Attribuer un rappel pour gérer les avertissements de substitution de police.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Définit un nom de police par défaut et active la substitution de police.
+    // Définissez un nom de police par défaut et activez la substitution de police.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Les métriques de police d'origine doivent être utilisées après la substitution de police.
+    // Les mesures de police d'origine doivent être utilisées après la substitution de police.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Nous recevrons un avertissement de substitution de police si nous enregistrons un document avec une police manquante.
@@ -47,7 +47,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // Nous pouvons également vérifier les avertissements de la collection et les effacer.
+    // Nous pouvons également vérifier les avertissements dans la collection et les effacer.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -55,13 +55,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Appelé à chaque fois qu'un avertissement se produit lors du chargement/sauvegarde.
+    /// Appelé chaque fois qu'un avertissement se produit pendant le chargement/la sauvegarde.
     /// </summary>
     public void Warning(WarningInfo info)
     {

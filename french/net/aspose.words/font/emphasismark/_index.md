@@ -3,14 +3,14 @@ title: Font.EmphasisMark
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
 second_title: Aspose.Words pour .NET
-description: Font EmphasisMark propriété. Obtient ou définit la marque daccentuation appliquée à ce formatage en C#.
+description: Découvrez comment utiliser la propriété Marque d'emphase de police pour améliorer la mise en forme de votre texte. Apprenez à définir et personnaliser les marques d'emphase pour une meilleure lisibilité.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/font/emphasismark/
 ---
 ## Font.EmphasisMark property
 
-Obtient ou définit la marque d'accentuation appliquée à ce formatage.
+Obtient ou définit la marque d'emphase appliquée à cette mise en forme.
 
 ```csharp
 public EmphasisMark EmphasisMark { get; set; }
@@ -23,7 +23,7 @@ Montre comment ajouter un caractère supplémentaire rendu au-dessus/en dessous 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Types possibles de marque d'accentuation :
+// Types possibles de marque d'emphase :
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

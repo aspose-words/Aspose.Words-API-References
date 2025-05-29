@@ -3,14 +3,14 @@ title: Node.Range
 linktitle: Range
 articleTitle: Range
 second_title: Aspose.Words pour .NET
-description: Node Range propriété. Renvoie unRange objet qui représente la partie dun document contenue dans ce nœud en C#.
+description: Découvrez la propriété Node Range, accédez sans effort à un objet Range qui définit le segment de document dans votre nœud pour une gestion de contenu améliorée.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-Renvoie un[`Range`](../../range/) objet qui représente la partie d'un document contenue dans ce nœud.
+Renvoie un[`Range`](../../range/)objet qui représente la partie d'un document contenue dans ce nœud.
 
 ```csharp
 public Range Range { get; }
@@ -18,7 +18,7 @@ public Range Range { get; }
 
 ## Exemples
 
-Montre comment supprimer tous les nœuds d’une plage.
+Montre comment supprimer tous les nœuds d'une plage.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Supprime entièrement la première section en supprimant tous les nœuds
-// dans sa plage, y compris la section elle-même.
+// Supprimez entièrement la première section en supprimant tous les nœuds
+// dans sa portée, y compris la section elle-même.
 doc.Sections[0].Range.Delete();
 
 Assert.AreEqual(1, doc.Sections.Count);

@@ -3,7 +3,7 @@ title: Cell.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words pour .NET
-description: Cell Tables propriété. Obtient une collection de tables qui sont les enfants immédiats de la cellule en C#.
+description: Découvrez les tableaux de cellules. Accédez facilement à un ensemble de tableaux directement dans votre cellule pour une organisation simplifiée et une gestion optimisée des données.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.tables/cell/tables/
@@ -29,11 +29,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Déterminez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Détermine si la table est imbriquée dans une autre table et, si oui, à quelle profondeur.
+        // Déterminez si la table est imbriquée dans une autre table et, si oui, à quelle profondeur.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -48,7 +48,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcule à quel niveau une table est imbriquée dans d'autres tables.
 /// </summary>
 /// <returns>
-/// Un entier indiquant la profondeur d'imbrication de la table (nombre de nœuds de la table parent).
+/// Un entier indiquant la profondeur d'imbrication de la table (nombre de nœuds de table parent).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -66,7 +66,7 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
+/// Ne parcourez pas récursivement ces tables pour vérifier d'autres tables.
 /// </summary>
 /// <returns>
 /// Renvoie vrai si au moins une cellule enfant contient un tableau.
@@ -76,9 +76,9 @@ private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

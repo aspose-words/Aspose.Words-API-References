@@ -3,7 +3,7 @@ title: FontInfo.AltName
 linktitle: AltName
 articleTitle: AltName
 second_title: Aspose.Words pour .NET
-description: FontInfo AltName propriété. Obtient ou définit le nom alternatif de la police en C#.
+description: Découvrez la propriété FontInfo AltName, gérez facilement les noms de polices alternatifs pour améliorer la typographie et améliorer vos projets de conception.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontinfo/altname/
@@ -18,7 +18,7 @@ public string AltName { get; set; }
 
 ## Remarques
 
-C'est pas possible`nul`. Peut être une chaîne vide.
+Ne peut pas être`nul`. Peut être une chaîne vide.
 
 ## Exemples
 

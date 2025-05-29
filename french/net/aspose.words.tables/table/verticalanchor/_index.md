@@ -3,14 +3,14 @@ title: Table.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
 second_title: Aspose.Words pour .NET
-description: Table VerticalAnchor propriété. Obtient lobjet de base à partir duquel le positionnement vertical de la table flottante doit être calculé. La valeur par défaut estMargin  en C#.
+description: Découvrez la propriété Table VerticalAnchor pour optimiser le positionnement des tableaux flottants. Apprenez à améliorer le contrôle de la mise en page grâce à sa valeur Marge par défaut.
 type: docs
 weight: 340
 url: /fr/net/aspose.words.tables/table/verticalanchor/
 ---
 ## Table.VerticalAnchor property
 
-Obtient l'objet de base à partir duquel le positionnement vertical de la table flottante doit être calculé. La valeur par défaut estMargin .
+Obtient l'objet de base à partir duquel le positionnement vertical du tableau flottant doit être calculé. La valeur par défaut estMargin .
 
 ```csharp
 public RelativeVerticalPosition VerticalAnchor { get; set; }
@@ -18,7 +18,7 @@ public RelativeVerticalPosition VerticalAnchor { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les propriétés des tables flottantes.
+Montre comment travailler avec les propriétés des tables flottantes.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Seules les marges, pages et colonnes sont disponibles dans RelativeHorizontalPosition pour le setter HorizontalAnchor.
-    // L'ArgumentException sera levée pour toutes les autres valeurs.
+    // Seules Marge, Page, Colonne sont disponibles dans RelativeHorizontalPosition pour le setter HorizontalAnchor.
+    // L'ArgumentException sera levée pour toute autre valeur.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Seules les marges, pages et paragraphes sont disponibles dans RelativeVerticalPosition pour le setter VerticalAnchor.
-    // L'ArgumentException sera levée pour toutes les autres valeurs.
+    // Seules Marge, Page, Paragraphe sont disponibles dans RelativeVerticalPosition pour le setter VerticalAnchor.
+    // L'ArgumentException sera levée pour toute autre valeur.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

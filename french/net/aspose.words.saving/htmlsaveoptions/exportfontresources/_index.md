@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportFontResources
 linktitle: ExportFontResources
 articleTitle: ExportFontResources
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions ExportFontResources propriété. Spécifie si les ressources de polices doivent être exportées au format HTML MHTML ou EPUB. La valeur par défaut estFAUX  en C#.
+description: Découvrez la propriété HtmlSaveOptions ExportFontResources pour contrôler l'exportation des ressources de polices au format HTML, MHTML ou EPUB. Optimisez l'attrait visuel de votre document !
 type: docs
 weight: 140
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportfontresources/
 ---
 ## HtmlSaveOptions.ExportFontResources property
 
-Spécifie si les ressources de polices doivent être exportées au format HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
+Spécifie si les ressources de police doivent être exportées vers HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportFontResources { get; set; }
@@ -18,17 +18,17 @@ public bool ExportFontResources { get; set; }
 
 ## Remarques
 
-L'exportation de ressources de polices permet un rendu cohérent des documents, indépendamment des polices disponibles dans l'environnement d'un utilisateur donné.
+L'exportation des ressources de polices permet un rendu cohérent des documents indépendamment des polices disponibles dans l'environnement d'un utilisateur donné.
 
-Si`ExportFontResources` est réglé sur`vrai` , le document HTML principal fera référence à chaque police via le CSS 3**@font-face** La règle at et les polices seront sorties sous forme de fichiers séparés. Lors de l'exportation aux formats IDPF EPUB ou MHTML , les polices seront intégrées dans le package correspondant avec d'autres fichiers subsidiaires.
+Si`ExportFontResources` est réglé sur`vrai` , le document HTML principal fera référence à chaque police via le CSS 3**@font-face** Les règles et les polices seront générées dans des fichiers séparés. Lors de l'exportation aux formats IDPF, EPUB ou MHTML , les polices seront intégrées au package correspondant avec les autres fichiers annexes.
 
-Si[`ExportFontsAsBase64`](../exportfontsasbase64/) est réglé sur`vrai` les polices ne seront pas enregistrées dans des fichiers séparés. Au lieu de cela, elles seront intégrées dans**@font-face** règles at dans l'encodage Base64.
+Si[`ExportFontsAsBase64`](../exportfontsasbase64/) est réglé sur`vrai` , les polices ne seront pas enregistrées dans des fichiers séparés. Au lieu de cela, elles seront intégrées dans**@font-face** règles at dans l'encodage Base64.
 
-**Important!** Lors de l’exportation de ressources de polices, les problèmes de licence de polices doivent être pris en compte. Les auteurs qui souhaitent utiliser des polices spécifiques via un mécanisme de police downloadable doivent toujours vérifier soigneusement que leur utilisation prévue entre dans le cadre de la licence de police. De nombreuses polices commerciales ne permettent actuellement pas de télécharger leurs polices sur le Web sous quelque forme que ce soit. Les contrats de licence qui couvrent certaines polices indiquent spécifiquement que l'utilisation via**@font-face** Rules dans les feuilles de style CSS n'est pas autorisé. Les sous-ensembles de polices peuvent également enfreindre les termes de la licence.
+**Important!**Lors de l'exportation de ressources de polices, les questions de licence doivent être prises en compte. Les auteurs souhaitant utiliser des polices spécifiques via un mécanisme de téléchargement doivent toujours vérifier soigneusement que l'utilisation prévue est conforme à la licence de police. De nombreuses polices commerciales n'autorisent actuellement pas le téléchargement web, sous quelque forme que ce soit. Les contrats de licence qui couvrent certaines polices précisent expressément que leur utilisation via**@font-face** Les règles dans les feuilles de style CSS ne sont pas autorisées. Les sous-ensembles de polices peuvent également enfreindre les conditions de licence.
 
 ## Exemples
 
-Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l'exportation de polices lors de l'enregistrement au format HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -54,7 +54,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -71,7 +71,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières de sauvegarder une police exportée.
+        // Il existe deux manières d'enregistrer une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

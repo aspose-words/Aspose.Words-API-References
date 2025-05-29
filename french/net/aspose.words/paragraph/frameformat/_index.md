@@ -3,7 +3,7 @@ title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words pour .NET
-description: Paragraph FrameFormat propriété. Donne accès aux propriétés de formatage du cadre en C#.
+description: Découvrez la propriété Paragraph FrameFormat, accédez et personnalisez facilement les propriétés de formatage du cadre pour une présentation améliorée du document.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/paragraph/frameformat/
@@ -18,7 +18,7 @@ public FrameFormat FrameFormat { get; }
 
 ## Exemples
 
-Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
+Montre comment obtenir des informations sur les propriétés de formatage des paragraphes qui sont des cadres.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

@@ -3,7 +3,7 @@ title: FieldRevNum
 linktitle: FieldRevNum
 articleTitle: FieldRevNum
 second_title: Aspose.Words pour .NET
-description: FieldRevNum constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldRevNum ! Bénéficiez d'une intégration fluide et de fonctionnalités efficaces avec notre constructeur par défaut pour des performances optimisées.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldrevnum/fieldrevnum/

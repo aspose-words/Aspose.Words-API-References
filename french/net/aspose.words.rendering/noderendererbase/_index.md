@@ -3,16 +3,16 @@ title: NodeRendererBase Class
 linktitle: NodeRendererBase
 articleTitle: NodeRendererBase
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Rendering.NodeRendererBase classe. Classe de base pourShapeRenderer etOfficeMathRenderer  en C#.
+description: Découvrez la classe Aspose.Words.Rendering.NodeRendererBase, votre base pour un rendu Shape et OfficeMath efficace dans le traitement des documents.
 type: docs
-weight: 4550
+weight: 5280
 url: /fr/net/aspose.words.rendering/noderendererbase/
 ---
 ## NodeRendererBase class
 
 Classe de base pour[`ShapeRenderer`](../shaperenderer/) et[`OfficeMathRenderer`](../officemathrenderer/) .
 
-Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article de documentation.
 
 ```csharp
 public abstract class NodeRendererBase
@@ -39,11 +39,13 @@ public abstract class NodeRendererBase
 | [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Rend la forme dans unGraphics objet à une échelle spécifiée. |
 | [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Rend la forme dans unGraphics objet à une taille spécifiée. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/#save)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rend la forme dans une image et l'enregistre dans un flux. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rend la forme dans une image et l'enregistre dans un fichier. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_1)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Rend la forme dans une image SVG et l'enregistre dans un flux. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_2)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rend la forme dans une image et l'enregistre dans un fichier. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/#save_3)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Rend la forme dans une image SVG et l'enregistre dans un fichier. |
 
 ## Exemples
 
-Montre comment mesurer et mettre à l’échelle des formes.
+Montre comment mesurer et mettre à l'échelle des formes.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
@@ -51,38 +53,38 @@ Document doc = new Document(MyDir + "Office math.docx");
 OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 OfficeMathRenderer renderer = new OfficeMathRenderer(officeMath);
 
-// Vérifiez la taille de l'image que l'objet OfficeMath créera lors du rendu.
-Assert.AreEqual(119.0f, renderer.SizeInPoints.Width, 0.2f);
-Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.1f);
+// Vérifiez la taille de l'image que l'objet OfficeMath créera lorsque nous la rendrons.
+Assert.AreEqual(122.0f, renderer.SizeInPoints.Width, 0.25f);
+Assert.AreEqual(13.0f, renderer.SizeInPoints.Height, 0.15f);
 
-Assert.AreEqual(119.0f, renderer.BoundsInPoints.Width, 0.2f);
-Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.1f);
+Assert.AreEqual(122.0f, renderer.BoundsInPoints.Width, 0.25f);
+Assert.AreEqual(13.0f, renderer.BoundsInPoints.Height, 0.15f);
 
-// Les formes avec des parties transparentes peuvent contenir des valeurs différentes dans les propriétés "OpaqueBoundsInPoints".
-Assert.AreEqual(119.0f, renderer.OpaqueBoundsInPoints.Width, 0.2f);
+// Les formes avec des parties transparentes peuvent contenir des valeurs différentes dans les propriétés « OpaqueBoundsInPoints ».
+Assert.AreEqual(122.0f, renderer.OpaqueBoundsInPoints.Width, 0.25f);
 Assert.AreEqual(14.2f, renderer.OpaqueBoundsInPoints.Height, 0.1f);
 
 // Obtenez la taille de la forme en pixels, avec une mise à l'échelle linéaire vers un DPI spécifique.
 Rectangle bounds = renderer.GetBoundsInPixels(1.0f, 96.0f);
 
-Assert.AreEqual(159, bounds.Width);
+Assert.AreEqual(163, bounds.Width);
 Assert.AreEqual(18, bounds.Height);
 
-// Récupère la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
+// Obtenez la taille de la forme en pixels, mais avec un DPI différent pour les dimensions horizontales et verticales.
 bounds = renderer.GetBoundsInPixels(1.0f, 96.0f, 150.0f);
-Assert.AreEqual(159, bounds.Width);
-Assert.AreEqual(28, bounds.Height);
+Assert.AreEqual(163, bounds.Width);
+Assert.AreEqual(27, bounds.Height);
 
 // Les limites opaques peuvent également varier ici.
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f);
 
-Assert.AreEqual(159, bounds.Width);
-Assert.AreEqual(18, bounds.Height);
+Assert.AreEqual(163, bounds.Width);
+Assert.AreEqual(19, bounds.Height);
 
 bounds = renderer.GetOpaqueBoundsInPixels(1.0f, 96.0f, 150.0f);
 
-Assert.AreEqual(159, bounds.Width);
-Assert.AreEqual(30, bounds.Height);
+Assert.AreEqual(163, bounds.Width);
+Assert.AreEqual(29, bounds.Height);
 ```
 
 ### Voir également

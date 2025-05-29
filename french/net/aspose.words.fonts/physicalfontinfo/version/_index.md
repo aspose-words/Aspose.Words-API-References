@@ -3,9 +3,9 @@ title: PhysicalFontInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words pour .NET
-description: PhysicalFontInfo Version propriété. Chaîne de version de la police en C#.
+description: Découvrez la propriété Version PhysicalFontInfo, accédez facilement à la chaîne de version de la police pour une cohérence de conception améliorée et une typographie améliorée.
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/aspose.words.fonts/physicalfontinfo/version/
 ---
 ## PhysicalFontInfo.Version property
@@ -21,7 +21,7 @@ public string Version { get; }
 Montre comment répertorier les polices disponibles.
 
 ```csharp
-// Configurez Aspose.Words pour rechercher les polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
+// Configurez Aspose.Words pour rechercher des polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

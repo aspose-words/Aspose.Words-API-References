@@ -3,7 +3,7 @@ title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
 second_title: Aspose.Words pour .NET
-description: ReplacingArgs MatchNode propriété. Obtient le nœud qui contient le début de la correspondance en C#.
+description: Découvrez la propriété ReplacingArgs MatchNode pour accéder facilement au nœud où commence votre correspondance, améliorant ainsi l'efficacité et la précision de votre codage.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.replacing/replacingargs/matchnode/
@@ -18,14 +18,14 @@ public Node MatchNode { get; }
 
 ## Exemples
 
-Montre comment insérer le contenu entier d’un document en remplacement d’une correspondance dans une opération de recherche et de remplacement.
+Montre comment insérer le contenu entier d'un document en remplacement d'une correspondance dans une opération de recherche et de remplacement.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -40,11 +40,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Insère un document après le paragraphe contenant le texte correspondant.
+        // Insérer un document après le paragraphe contenant le texte correspondant.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Supprime le paragraphe avec le texte correspondant.
+        // Supprimez le paragraphe avec le texte correspondant.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -66,7 +66,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Ignore le nœud s'il s'agit du dernier paragraphe vide d'une section.
+                // Ignorer le nœud s'il s'agit du dernier paragraphe vide d'une section.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

@@ -3,7 +3,7 @@ title: Table.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words pour .NET
-description: Table TopPadding propriété. Obtient ou définit la quantité despace en points à ajouter audessus du contenu des cellules en C#.
+description: Découvrez la propriété Table TopPadding, ajustez facilement l'espace dans les points au-dessus du contenu des cellules pour un contrôle de mise en page amélioré et une meilleure lisibilité.
 type: docs
 weight: 330
 url: /fr/net/aspose.words.tables/table/toppadding/

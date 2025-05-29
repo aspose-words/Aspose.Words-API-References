@@ -3,7 +3,7 @@ title: ChartMultilevelValue.Level1
 linktitle: Level1
 articleTitle: Level1
 second_title: Aspose.Words pour .NET
-description: ChartMultilevelValue Level1 propriété. Obtient le nom du niveau supérieur du graphique auquel cette valeur fait référence en C#.
+description: Découvrez ChartMultilevelValue Level1. Identifiez facilement le nom du graphique principal pour une meilleure clarté et une meilleure compréhension des données. Libérez le potentiel de vos données !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartmultilevelvalue/level1/

@@ -3,14 +3,14 @@ title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontPitch énumération. Représente lespacement de la police en C#.
+description: Découvrez l'énumération Aspose.Words.Fonts.FontPitch, un outil puissant pour gérer les styles de police et améliorer la mise en forme des documents dans vos applications.
 type: docs
-weight: 2960
+weight: 3390
 url: /fr/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Représente l'espacement de la police.
+Représente la hauteur de police.
 
 ```csharp
 public enum FontPitch

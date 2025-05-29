@@ -3,14 +3,14 @@ title: MustacheTag.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words pour .NET
-description: MustacheTag Text propriété. Récupère le texte de la balise en C#.
+description: Découvrez la propriété MustacheTag Text pour récupérer et utiliser sans effort le texte des balises pour une gestion améliorée des données et une intégration transparente.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.mailmerging/mustachetag/text/
 ---
 ## MustacheTag.Text property
 
-Récupère le texte de la balise.
+Obtient le texte de la balise.
 
 ```csharp
 public string Text { get; }
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Exemples
 
-Montre comment utiliser les balises de moustache.
+Montre comment travailler avec les balises de moustache.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

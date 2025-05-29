@@ -3,14 +3,14 @@ title: TxtSaveOptionsBase.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words pour .NET
-description: TxtSaveOptionsBase Encoding propriété. Spécifie lencodage à utiliser lors de lexportation au format texte. La valeur par défaut estEncodage.UTF8  en C#.
+description: Découvrez comment optimiser les exportations de texte avec la propriété Encoding de TxtSaveOptionsBase. Définissez facilement les options d'encodage pour un formatage UTF-8 fluide.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/txtsaveoptionsbase/encoding/
 ---
 ## TxtSaveOptionsBase.Encoding property
 
-Spécifie l'encodage à utiliser lors de l'exportation au format texte. La valeur par défaut est**Encodage.UTF8** .
+Spécifie l'encodage à utiliser lors de l'exportation au format texte. La valeur par défaut est**Codage.UTF8** .
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,20 +18,20 @@ public Encoding Encoding { get; set; }
 
 ## Exemples
 
-Montre comment définir le codage pour un document de sortie .txt.
+Montre comment définir l'encodage pour un document de sortie .txt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoute du texte avec des caractères extérieurs au jeu de caractères ASCII.
+// Ajoutez du texte avec des caractères extérieurs au jeu de caractères ASCII.
 builder.Write("À È Ì Ò Ù.");
 
-// Crée un objet "TxtSaveOptions", que l'on peut passer à la méthode "Save" du document
+// Créez un objet « TxtSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
 // pour modifier la façon dont nous enregistrons le document en texte brut.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Vérifiez que la propriété "Encoding" contient l'encodage approprié pour le contenu de notre document.
+// Vérifiez que la propriété « Encodage » contient l'encodage approprié pour le contenu de notre document.
 Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);

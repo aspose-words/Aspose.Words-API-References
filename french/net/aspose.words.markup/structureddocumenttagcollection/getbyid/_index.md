@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.GetById
 linktitle: GetById
 articleTitle: GetById
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagCollection GetById méthode. Renvoie la balise du document structuré par identifiant en C#.
+description: Récupérez facilement les balises structurées de vos documents grâce à la méthode GetById. Accédez rapidement à vos données et optimisez votre gestion documentaire.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
@@ -18,7 +18,7 @@ public IStructuredDocumentTag GetById(int id)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| id | Int32 | L’identifiant de la balise du document structuré. |
+| id | Int32 | L'identifiant de balise de document structuré. |
 
 ## Remarques
 
@@ -26,17 +26,17 @@ Renvoie null si la balise de document structuré avec l'identifiant spécifié e
 
 ## Exemples
 
-Montre comment obtenir une balise de document structuré.
+Montre comment obtenir une balise de document structurée.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
-// Récupère la balise du document structuré par Id.
+// Récupérez la balise du document structuré par ID.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
-// Récupère la balise du document structuré ou la balise à distance par titre.
+// Obtenez la balise de document structurée ou la balise à distance par titre.
 sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
 Console.WriteLine(sdt.Id);
 ```

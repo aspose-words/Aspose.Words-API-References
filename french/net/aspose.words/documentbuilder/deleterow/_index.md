@@ -3,14 +3,14 @@ title: DocumentBuilder.DeleteRow
 linktitle: DeleteRow
 articleTitle: DeleteRow
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder DeleteRow méthode. Supprime une ligne dun tableau en C#.
+description: Supprimez facilement des lignes de tableaux grâce à la méthode DeleteRow de DocumentBuilder. Simplifiez l'édition de vos documents et optimisez votre flux de travail !
 type: docs
 weight: 200
 url: /fr/net/aspose.words/documentbuilder/deleterow/
 ---
 ## DocumentBuilder.DeleteRow method
 
-Supprime une ligne d'un tableau.
+Supprime une ligne d'une table.
 
 ```csharp
 public Row DeleteRow(int tableIndex, int rowIndex)
@@ -18,24 +18,24 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| tableIndex | Int32 | L'index du tableau. |
-| rowIndex | Int32 | L'index de la ligne dans le tableau. |
+| tableIndex | Int32 | L'index de la table. |
+| rowIndex | Int32 | L'index de la ligne dans la table. |
 
 ### Return_Value
 
-Le nœud de ligne qui vient d'être supprimé.
+Le nœud de ligne qui vient d’être supprimé.
 
 ## Remarques
 
 Si le curseur se trouve à l'intérieur de la ligne en cours de suppression, le curseur est déplacé vers la ligne suivante ou vers le paragraphe suivant après le tableau.
 
-Si vous supprimez une ligne d'une table qui ne contient qu'une seule ligne, la table Whole est supprimée.
+Si vous supprimez une ligne d'une table qui ne contient qu'une seule ligne, la table whole est supprimée.
 
-Pour les paramètres d'index, lorsque l'index est supérieur ou égal à 0, il spécifie un index from au début, 0 étant le premier élément. Lorsque l'index est inférieur à 0, il spécifie un index from à la fin, -1 étant le dernier élément.
+Pour les paramètres d'index, lorsque l'index est supérieur ou égal à 0, il spécifie un index de début à partir de x000d, 0 étant le premier élément. Lorsque l'index est inférieur à 0, il spécifie un index de fin à partir de x000d, 1 étant le dernier élément.
 
 ## Exemples
 
-Montre comment supprimer une ligne d’un tableau.
+Montre comment supprimer une ligne d'un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +55,7 @@ builder.EndTable();
 
 Assert.AreEqual(2, table.Rows.Count);
 
-// Supprime la première ligne du premier tableau du document.
+// Supprimez la première ligne du premier tableau du document.
 builder.DeleteRow(0, 0);
 
 Assert.AreEqual(1, table.Rows.Count);

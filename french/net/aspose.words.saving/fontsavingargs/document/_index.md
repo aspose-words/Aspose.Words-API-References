@@ -3,7 +3,7 @@ title: FontSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words pour .NET
-description: FontSavingArgs Document propriété. Obtient lobjet document en cours denregistrement en C#.
+description: Découvrez la propriété FontSavingArgs pour accéder à l'objet document pendant les opérations de sauvegarde, améliorant ainsi l'efficacité de votre gestion de documents.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/fontsavingargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Exemples
 
-Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l'exportation de polices lors de l'enregistrement au format HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -61,7 +61,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières de sauvegarder une police exportée.
+        // Il existe deux manières d'enregistrer une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

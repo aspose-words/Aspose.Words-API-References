@@ -3,7 +3,7 @@ title: ChartXValue.DateTimeValue
 linktitle: DateTimeValue
 articleTitle: DateTimeValue
 second_title: Aspose.Words pour .NET
-description: ChartXValue DateTimeValue propriété. Obtient la valeur datetime stockée en C#.
+description: Découvrez la propriété ChartXValue DateTimeValue pour récupérer et gérer facilement les valeurs datetime stockées pour une visualisation améliorée des données.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.drawing.charts/chartxvalue/datetimevalue/

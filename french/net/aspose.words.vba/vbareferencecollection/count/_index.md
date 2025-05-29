@@ -3,7 +3,7 @@ title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: VbaReferenceCollection Count propriété. Renvoie le nombre de références VBA dans la collection en C#.
+description: Découvrez la propriété VBA Reference Collection Count pour récupérer et gérer facilement le nombre total de références VBA pour un codage efficace.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.vba/vbareferencecollection/count/
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

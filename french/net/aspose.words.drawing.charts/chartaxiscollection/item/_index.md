@@ -3,7 +3,7 @@ title: ChartAxisCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: ChartAxisCollection Item propriété. Obtient laxe à lindex spécifié en C#.
+description: Accédez à l'axe spécifique dont vous avez besoin grâce à la propriété d'élément ChartAxisCollection. Simplifiez la visualisation des données en récupérant facilement les axes !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartaxiscollection/item/

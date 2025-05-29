@@ -3,7 +3,7 @@ title: LayoutEnumerator.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: LayoutEnumerator Item propriété. Obtient une propriété nommée de lentité en C#.
+description: Découvrez la propriété d'élément LayoutEnumerator pour accéder facilement aux propriétés d'entité nommées, améliorant ainsi votre gestion des données et l'efficacité de votre flux de travail.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.layout/layoutenumerator/item/
@@ -22,11 +22,11 @@ public object this[string key] { get; }
 
 ### Return_Value
 
-Nul si le bien n'est pas disponible, sinon valeur du bien.
+Null si la propriété n'est pas disponible, sinon valeur de la propriété.
 
 ## Remarques
 
-Ceci est actuellement utilisé pour obtenir les propriétés de police de spans. Voir[`Font`](../../../aspose.words/font/) classe pour les noms de propriétés possibles. Toutes les propriétés ne sont pas prises en charge.
+Ceci est actuellement utilisé pour obtenir les propriétés de police de spans. Voir[`Font`](../../../aspose.words/font/) Classe pour les noms de propriétés possibles. Toutes les propriétés ne sont pas prises en charge.
 
 ### Voir également
 

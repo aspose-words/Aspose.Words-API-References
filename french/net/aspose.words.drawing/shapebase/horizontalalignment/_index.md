@@ -3,9 +3,9 @@ title: ShapeBase.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words pour .NET
-description: ShapeBase HorizontalAlignment propriété. Spécifie comment la forme est positionnée horizontalement en C#.
+description: Découvrez la propriété ShapeBase HorizontalAlignment pour optimiser le positionnement horizontal des formes dans votre conception pour un contrôle de mise en page amélioré.
 type: docs
-weight: 220
+weight: 240
 url: /fr/net/aspose.words.drawing/shapebase/horizontalalignment/
 ---
 ## ShapeBase.HorizontalAlignment property
@@ -20,17 +20,17 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 La valeur par défaut estNone.
 
-N'a d'effet que sur les formes flottantes de niveau supérieur.
+N'a d'effet que pour les formes flottantes de niveau supérieur.
 
 ## Exemples
 
-Montre comment insérer une image flottante au centre d’une page.
+Montre comment insérer une image flottante au centre d'une page.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
+// Insérez une image flottante qui apparaîtra derrière le texte superposé et alignez-la au centre de la page.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

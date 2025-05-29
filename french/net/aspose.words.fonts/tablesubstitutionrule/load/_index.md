@@ -3,7 +3,7 @@ title: TableSubstitutionRule.Load
 linktitle: Load
 articleTitle: Load
 second_title: Aspose.Words pour .NET
-description: TableSubstitutionRule Load méthode. Charge les paramètres de substitution de table à partir du fichier XML en C#.
+description: Chargez facilement les paramètres de substitution de table à partir de fichiers XML grâce à la méthode TableSubstitutionRule Load. Optimisez votre gestion de données dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/load/
@@ -22,7 +22,7 @@ public void Load(string fileName)
 
 ## Exemples
 
-Montre comment utiliser des tables de substitution de polices personnalisées.
+Montre comment travailler avec des tables de substitution de polices personnalisées.
 
 ```csharp
 Document doc = new Document();
@@ -32,14 +32,14 @@ doc.FontSettings = fontSettings;
 // Créez une nouvelle règle de substitution de table et chargez la table de substitution de polices Windows par défaut.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
-// Si nous sélectionnons des polices exclusivement dans notre dossier, nous aurons besoin d'une table de substitution personnalisée.
+// Si nous sélectionnons des polices exclusivement à partir de notre dossier, nous aurons besoin d'une table de substitution personnalisée.
 // Nous n'aurons plus accès aux polices Microsoft Windows,
-// comme "Arial" ou "Times New Roman" puisqu'ils n'existent pas dans notre nouveau dossier de polices.
+// comme « Arial » ou « Times New Roman » car ils n'existent pas dans notre nouveau dossier de polices.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Vous trouverez ci-dessous deux manières de charger une table de substitution à partir d'un fichier dans le système de fichiers local.
-// 1 - Depuis un flux :
+// Vous trouverez ci-dessous deux manières de charger une table de substitution à partir d'un fichier du système de fichiers local.
+// 1 - À partir d'un flux :
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
     tableSubstitutionRule.Load(fileStream);
@@ -48,26 +48,26 @@ using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.x
 // 2 - Directement depuis un fichier :
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
-// Puisque nous n'avons plus accès à "Arial", notre table de polices va d'abord essayer de la remplacer par "Police inexistante".
-// Nous n'avons pas cette police donc elle passera au prochain substitut, "Kreon", trouvé dans le dossier "MyFonts".
+// Puisque nous n'avons plus accès à « Arial », notre table de polices va d'abord essayer de la remplacer par « Police inexistante ».
+// Nous n'avons pas cette police, elle sera donc déplacée vers le prochain substitut, "Kreon", trouvé dans le dossier "MyFonts".
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// Nous pouvons développer cette table par programme. Nous ajouterons une entrée qui remplace "Times New Roman" par "Arvo".
+// Nous pouvons étendre cette table par programmation. Nous allons ajouter une entrée remplaçant « Times New Roman » par « Arvo ».
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
 // Nous pouvons ajouter un substitut de secours secondaire pour une entrée de police existante avec AddSubstitutes().
-// Dans le cas où "Arvo" n'est pas disponible, notre tableau recherchera "M+ 2m" comme deuxième option de remplacement.
+// Si « Arvo » n'est pas disponible, notre table recherchera « M+ 2m » comme deuxième option de substitution.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
 // SetSubstitutes() peut définir une nouvelle liste de polices de substitution pour une police.
-tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT", "M+ 2m"});
+tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Écrire du texte dans des polices auxquelles nous n'avons pas accès invoquera nos règles de substitution.
+// L'écriture de texte dans des polices auxquelles nous n'avons pas accès invoquera nos règles de substitution.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");
@@ -100,7 +100,7 @@ public void Load(Stream stream)
 
 ## Exemples
 
-Montre comment utiliser des tables de substitution de polices personnalisées.
+Montre comment travailler avec des tables de substitution de polices personnalisées.
 
 ```csharp
 Document doc = new Document();
@@ -110,14 +110,14 @@ doc.FontSettings = fontSettings;
 // Créez une nouvelle règle de substitution de table et chargez la table de substitution de polices Windows par défaut.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
-// Si nous sélectionnons des polices exclusivement dans notre dossier, nous aurons besoin d'une table de substitution personnalisée.
+// Si nous sélectionnons des polices exclusivement à partir de notre dossier, nous aurons besoin d'une table de substitution personnalisée.
 // Nous n'aurons plus accès aux polices Microsoft Windows,
-// comme "Arial" ou "Times New Roman" puisqu'ils n'existent pas dans notre nouveau dossier de polices.
+// comme « Arial » ou « Times New Roman » car ils n'existent pas dans notre nouveau dossier de polices.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Vous trouverez ci-dessous deux manières de charger une table de substitution à partir d'un fichier dans le système de fichiers local.
-// 1 - Depuis un flux :
+// Vous trouverez ci-dessous deux manières de charger une table de substitution à partir d'un fichier du système de fichiers local.
+// 1 - À partir d'un flux :
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
     tableSubstitutionRule.Load(fileStream);
@@ -126,26 +126,26 @@ using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.x
 // 2 - Directement depuis un fichier :
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
-// Puisque nous n'avons plus accès à "Arial", notre table de polices va d'abord essayer de la remplacer par "Police inexistante".
-// Nous n'avons pas cette police donc elle passera au prochain substitut, "Kreon", trouvé dans le dossier "MyFonts".
+// Puisque nous n'avons plus accès à « Arial », notre table de polices va d'abord essayer de la remplacer par « Police inexistante ».
+// Nous n'avons pas cette police, elle sera donc déplacée vers le prochain substitut, "Kreon", trouvé dans le dossier "MyFonts".
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// Nous pouvons développer cette table par programme. Nous ajouterons une entrée qui remplace "Times New Roman" par "Arvo".
+// Nous pouvons étendre cette table par programmation. Nous allons ajouter une entrée remplaçant « Times New Roman » par « Arvo ».
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
 // Nous pouvons ajouter un substitut de secours secondaire pour une entrée de police existante avec AddSubstitutes().
-// Dans le cas où "Arvo" n'est pas disponible, notre tableau recherchera "M+ 2m" comme deuxième option de remplacement.
+// Si « Arvo » n'est pas disponible, notre table recherchera « M+ 2m » comme deuxième option de substitution.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
 // SetSubstitutes() peut définir une nouvelle liste de polices de substitution pour une police.
-tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT", "M+ 2m"});
+tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Écrire du texte dans des polices auxquelles nous n'avons pas accès invoquera nos règles de substitution.
+// L'écriture de texte dans des polices auxquelles nous n'avons pas accès invoquera nos règles de substitution.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");

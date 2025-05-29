@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.DocumentFieldName
 linktitle: DocumentFieldName
 articleTitle: DocumentFieldName
 second_title: Aspose.Words pour .NET
-description: FieldMergingArgsBase DocumentFieldName propriété. Obtient le nom du champ de fusion tel que spécifié dans le document en C#.
+description: Découvrez la propriété DocumentFieldName de FieldMergingArgsBase. Accédez et gérez facilement les noms des champs de fusion pour un traitement efficace des documents.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -18,9 +18,9 @@ public string DocumentFieldName { get; }
 
 ## Remarques
 
-Si vous disposez d'un mappage d'un nom de champ de document vers un nom de champ de source de données différent, , il s'agit du nom de champ d'origine tel que spécifié dans le document.
+Si vous avez un mappage d'un nom de champ de document vers un nom de champ de source de données différent, , il s'agit alors du nom de champ d'origine tel que spécifié dans le document.
 
-Si vous avez spécifié un préfixe de nom de champ, par exemple "Image:MyFieldName" dans le document, alors`DocumentFieldName` renvoie le nom du champ sans le préfixe, c'est-à-dire "MyFieldName".
+Si vous avez spécifié un préfixe de nom de champ, par exemple « Image : MyFieldName » dans le document, alors`DocumentFieldName` renvoie le nom du champ sans le préfixe, c'est-à-dire « MyFieldName ».
 
 ## Exemples
 
@@ -57,8 +57,8 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Si le publipostage rencontre un MERGEFIELD dont le nom commence par le préfixe "html_",
-/// ce rappel analyse ses données de fusion en tant que contenu HTML et ajoute le résultat à l'emplacement du document du MERGEFIELD.
+/// Si le publipostage rencontre un MERGEFIELD dont le nom commence par le préfixe « html_ »,
+/// ce rappel analyse ses données de fusion en tant que contenu HTML et ajoute le résultat à l'emplacement du document MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -69,20 +69,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Ajoute des données HTML analysées au corps du document.
+            // Ajoutez les données HTML analysées au corps du document.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
+            // Puisque nous avons déjà inséré le contenu fusionné manuellement,
+            // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 }
 ```

@@ -3,7 +3,7 @@ title: Table.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words pour .NET
-description: Table LeftPadding propriété. Obtient ou définit la quantité despace en points à ajouter à gauche du contenu des cellules en C#.
+description: Découvrez la propriété Table LeftPadding, ajustez facilement l'espacement du contenu des cellules en points pour un contrôle de mise en page amélioré et une flexibilité de conception améliorée.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.tables/table/leftpadding/

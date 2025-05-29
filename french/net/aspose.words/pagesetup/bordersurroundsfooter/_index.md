@@ -3,7 +3,7 @@ title: PageSetup.BorderSurroundsFooter
 linktitle: BorderSurroundsFooter
 articleTitle: BorderSurroundsFooter
 second_title: Aspose.Words pour .NET
-description: PageSetup BorderSurroundsFooter propriété. Spécifie si la bordure de la page inclut ou exclut le pied de page en C#.
+description: Découvrez comment la propriété PageSetup BorderSurroundsFooter peut améliorer la mise en page de votre document en contrôlant l'inclusion du pied de page dans les bordures de page.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/pagesetup/bordersurroundsfooter/
@@ -18,7 +18,7 @@ public bool BorderSurroundsFooter { get; set; }
 
 ## Remarques
 
-Notez que la modification de cette propriété affecte toutes les sections du document.
+Remarque : la modification de cette propriété affecte toutes les sections du document.
 
 ## Exemples
 
@@ -35,15 +35,15 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer.");
 builder.MoveToDocumentEnd();
 
-// Insère une bordure bleue à double ligne.
+// Insérer une bordure à double ligne bleue.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// L'objet PageSetup d'une section possède les indicateurs "BorderSurroundsHeader" et "BorderSurroundsFooter" qui déterminent
-// si une bordure de page entoure le corps du texte principal, inclut également respectivement l'en-tête ou le pied de page.
-// Met le flag "BorderSurroundsHeader" à "true" pour entourer l'en-tête de notre bordure,
-// puis définissez l'indicateur "BorderSurroundsFooter" pour laisser le pied de page en dehors de la bordure.
+// L'objet PageSetup d'une section possède les indicateurs « BorderSurroundsHeader » et « BorderSurroundsFooter » qui déterminent
+// si une bordure de page entoure le texte du corps principal, inclut également l'en-tête ou le pied de page, respectivement.
+// Définissez l'indicateur « BorderSurroundsHeader » sur « true » pour entourer l'en-tête avec notre bordure,
+// puis définissez l'indicateur « BorderSurroundsFooter » pour laisser le pied de page en dehors de la bordure.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

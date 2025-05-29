@@ -3,16 +3,16 @@ title: FontNameSubstitutionRule Class
 linktitle: FontNameSubstitutionRule
 articleTitle: FontNameSubstitutionRule
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontNameSubstitutionRule classe. Règle de substitution de police pour le traitement du nom de police en C#.
+description: Découvrez la classe Aspose.Words.Fonts.FontNameSubstitutionRule pour un traitement efficace des noms de polices et une mise en forme fluide des documents. Améliorez le rendu de votre texte !
 type: docs
-weight: 2950
+weight: 3380
 url: /fr/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
 
 Règle de substitution de police pour le traitement du nom de police.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
 public class FontNameSubstitutionRule : FontSubstitutionRule
@@ -26,7 +26,7 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 ## Remarques
 
-Selon cette règle, Aspose.Words essaie de traiter le nom de la police pour obtenir la substitution. Particulièrement Aspose.Words essaie de supprimer les suffixes avec les séparateurs '-', ',' et '(' comme il le fait avec MS Word.
+Selon cette règle, Aspose.Words tente de traiter le nom de la police pour obtenir la substitution. En particulier, Aspose.Words supprime les suffixes avec les séparateurs « - », « , » et « ( », comme dans MS Word.
 
 ### Voir également
 

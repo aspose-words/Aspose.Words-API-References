@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: OdsoFieldMapDataCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
+description: Découvrez la propriété OdsoFieldMapDataCollection Count pour récupérer efficacement le nombre total d'éléments de votre collection. Optimisez votre gestion de données dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/odsofieldmapdatacollection/count/
@@ -24,7 +24,7 @@ Montre comment accéder à la collection de données qui mappe les colonnes de l
 Document doc = new Document(MyDir + "Odso data.docx");
 
 // Cette collection définit comment un publipostage mappera les colonnes d'une source de données
-// aux champs prédéfinis MERGEFIELD, ADDRESSBLOCK et GREETINGLINE.
+// aux champs MERGEFIELD, ADDRESSBLOCK et GREETINGLINE prédéfinis.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clonez les éléments de cette collection.
+// Cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode « RemoveAt » individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
+// Utilisez la méthode « Clear » pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

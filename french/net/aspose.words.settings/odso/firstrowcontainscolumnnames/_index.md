@@ -3,14 +3,14 @@ title: Odso.FirstRowContainsColumnNames
 linktitle: FirstRowContainsColumnNames
 articleTitle: FirstRowContainsColumnNames
 second_title: Aspose.Words pour .NET
-description: Odso FirstRowContainsColumnNames propriété. Spécifie quune application dhébergement doit traiter la première ligne de données de la source data externe spécifiée comme une ligne dentête contenant les noms de chaque colonne de la source de données. La valeur par défaut estFAUX  en C#.
+description: Découvrez la propriété Odso FirstRowContainsColumnNames, qui permet aux applications de reconnaître la première ligne de données comme en-têtes, améliorant ainsi la clarté et la convivialité des données.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-Spécifie qu'une application d'hébergement doit traiter la première ligne de données de la source data externe spécifiée comme une ligne d'en-tête contenant les noms de chaque colonne de la source de données. La valeur par défaut est`FAUX` .
+Spécifie qu'une application d'hébergement doit traiter la première ligne de données dans la source de données externe spécifiée comme une ligne d'en-tête contenant les noms de chaque colonne de la source de données. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -18,11 +18,11 @@ public bool FirstRowContainsColumnNames { get; set; }
 
 ## Remarques
 
-RK Je n'ai jamais vu cela utilisé.
+RK Je n'ai jamais vu cela en usage.
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

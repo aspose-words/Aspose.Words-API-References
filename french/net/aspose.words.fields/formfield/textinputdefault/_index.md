@@ -3,14 +3,14 @@ title: FormField.TextInputDefault
 linktitle: TextInputDefault
 articleTitle: TextInputDefault
 second_title: Aspose.Words pour .NET
-description: FormField TextInputDefault propriété. Obtient ou définit la chaîne par défaut ou une expression de calcul dun champ de formulaire de texte en C#.
+description: Découvrez la propriété FormField TextInputDefault, définissez facilement le texte ou les calculs par défaut pour vos formulaires, améliorant ainsi l'expérience utilisateur et la précision des données.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.fields/formfield/textinputdefault/
 ---
 ## FormField.TextInputDefault property
 
-Obtient ou définit la chaîne par défaut ou une expression de calcul d'un champ de formulaire de texte.
+Obtient ou définit la chaîne par défaut ou une expression de calcul d'un champ de formulaire texte.
 
 ```csharp
 public string TextInputDefault { get; set; }
@@ -18,11 +18,11 @@ public string TextInputDefault { get; set; }
 
 ## Remarques
 
-La signification de cette propriété dépend de la valeur du[`TextInputType`](../textinputtype/) propriété.
+La signification de cette propriété dépend de la valeur de la[`TextInputType`](../textinputtype/) propriété.
 
-Quand[`TextInputType`](../textinputtype/) estRegular ou Number, cette chaîne spécifie la chaîne par défaut pour le champ de formulaire de texte. Cette chaîne est le contenu que Microsoft Word affichera dans le document lorsque le champ de formulaire est vide.
+Quand[`TextInputType`](../textinputtype/) estRegular ou Numbercette chaîne spécifie la chaîne par défaut pour le champ de formulaire texte. Cette chaîne est le contenu que Microsoft Word affichera dans le document lorsque le champ de formulaire est vide.
 
-Quand[`TextInputType`](../textinputtype/) estCalculated, alors cette chaîne contient l'expression à calculer. L'expression doit être une formule valide selon les exigences de la formule Microsoft Word field . Lorsque vous définissez une nouvelle expression à l'aide de cette propriété, Aspose.Words calcule automatiquement la formule result et l'insère dans le champ du formulaire.
+Quand[`TextInputType`](../textinputtype/) estCalculated, cette chaîne contient l'expression à calculer. L'expression doit être une formule valide selon les exigences du champ de formule Microsoft Word . Lorsque vous définissez une nouvelle expression avec cette propriété, Aspose.Words calcule automatiquement le résultat de la formule et l'insère dans le champ de formulaire.
 
 Microsoft Word autorise les chaînes contenant au maximum 255 caractères.
 
@@ -75,15 +75,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

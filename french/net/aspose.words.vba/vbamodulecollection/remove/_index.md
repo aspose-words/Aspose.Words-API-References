@@ -3,7 +3,7 @@ title: VbaModuleCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: VbaModuleCollection Remove méthode. Supprime le module spécifié de la collection en C#.
+description: Supprimez facilement des modules spécifiques de votre collection VBAModuleCollection grâce à notre méthode de suppression facile à utiliser. Simplifiez vos projets VBA dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.vba/vbamodulecollection/remove/
@@ -22,7 +22,7 @@ public void Remove(VbaModule module)
 
 ## Exemples
 
-Montre comment accéder aux informations de projet VBA d’un document.
+Montre comment accéder aux informations du projet VBA d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -33,18 +33,18 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Définir un nouveau code source pour le module VBA. Vous pouvez accéder aux modules VBA de la collection soit par index, soit par nom.
+// Définition du nouveau code source du module VBA. Vous pouvez accéder aux modules VBA de la collection par index ou par nom.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Supprime un module de la collection.
+// Supprimer un module de la collection.
 vbaModules.Remove(vbaModules[2]);
 ```
 

@@ -3,14 +3,14 @@ title: FieldAdvance.LeftOffset
 linktitle: LeftOffset
 articleTitle: LeftOffset
 second_title: Aspose.Words pour .NET
-description: FieldAdvance LeftOffset propriété. Obtient ou définit le nombre de points dont le texte qui suit le champ doit être déplacé vers la gauche en C#.
+description: Découvrez la propriété « Offset gauche » de FieldAdvance pour ajuster facilement l'alignement du texte en définissant des points pour un déplacement précis vers la gauche. Améliorez la mise en page de votre document !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldadvance/leftoffset/
 ---
 ## FieldAdvance.LeftOffset property
 
-Obtient ou définit le nombre de points dont le texte qui suit le champ doit être déplacé vers la gauche.
+Obtient ou définit le nombre de points par lesquels le texte qui suit le champ doit être déplacé vers la gauche.
 
 ```csharp
 public string LeftOffset { get; set; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Vous trouverez ci-dessous deux manières d'utiliser le champ ADVANCE pour ajuster la position du texte qui le suit.
-// Les effets d'un champ ADVANCE continuent à s'appliquer jusqu'à la fin du paragraphe,
+// Vous trouverez ci-dessous deux manières d'utiliser le champ AVANCE pour ajuster la position du texte qui le suit.
+// Les effets d'un champ AVANCE continuent d'être appliqués jusqu'à la fin du paragraphe,
 // ou un autre champ ADVANCE met à jour les valeurs de décalage/coordonnées.
 // 1 - Spécifiez un décalage directionnel :
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
@@ -46,7 +46,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - Déplacer le texte vers une position spécifiée par les coordonnées :
+// 2 - Déplacer le texte vers une position spécifiée par des coordonnées :
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

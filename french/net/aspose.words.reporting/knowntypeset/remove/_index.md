@@ -3,14 +3,14 @@ title: KnownTypeSet.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: KnownTypeSet Remove méthode. Supprime le spécifiéTypeobjet de lensemble. JetésArgumentException si type estnul  en C#.
+description: Supprimez facilement des objets Type spécifiques de votre KnownTypeSet grâce à notre méthode efficace Remove. Simplifiez la gestion de vos données dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.reporting/knowntypeset/remove/
 ---
 ## KnownTypeSet.Remove method
 
-Supprime le spécifiéTypeobjet de l’ensemble. JetésArgumentException si *type* est`nul` .
+Supprime le spécifiéType objet de l'ensemble.
 
 ```csharp
 public void Remove(Type type)
@@ -18,7 +18,13 @@ public void Remove(Type type)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| type | Type | UNType objet à supprimer. |
+| type | Type | UNType objet à retirer. |
+
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentException | Jette si*type* est`nul`. |
 
 ### Voir également
 

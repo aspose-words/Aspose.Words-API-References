@@ -3,9 +3,9 @@ title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 linktitle: NoSpaceBetweenParagraphsOfSameStyle
 articleTitle: NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle propriété. Quandvrai SpaceBefore etSpaceAfter sera ignoré entre les paragraphes du même style en C#.
+description: Découvrez la propriété ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle. Optimisez la mise en page de votre document en supprimant l'espace entre les paragraphes de même style.
 type: docs
-weight: 240
+weight: 250
 url: /fr/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
@@ -18,24 +18,24 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ## Remarques
 
-Ce paramètre ne prend effet que lorsqu'il est appliqué à un style de paragraphe. S'il est appliqué directement à un paragraphe, cela n'a aucun effet.
+Ce paramètre n'est effectif que s'il est appliqué à un style de paragraphe. S'il est appliqué directement à un paragraphe, il n'a aucun effet.
 
 ## Exemples
 
-Montre comment n’appliquer aucun espacement entre les paragraphes ayant le même style.
+Montre comment appliquer aucun espacement entre les paragraphes avec le même style.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Applique une grande quantité d'espacement avant et après les paragraphes que ce générateur créera.
+// Appliquez une grande quantité d'espacement avant et après les paragraphes que ce générateur créera.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Définissez l'indicateur "NoSpaceBetweenParagraphsOfSameStyle" sur "true" pour appliquer
-// pas d'espacement entre les paragraphes de même style, ce qui regroupera les paragraphes similaires.
-// Laisse le flag "NoSpaceBetweenParagraphsOfSameStyle" à "false"
-// pour appliquer uniformément un espacement à chaque paragraphe.
+// Définissez l'indicateur « NoSpaceBetweenParagraphsOfSameStyle » sur « true » pour appliquer
+// pas d'espacement entre les paragraphes avec le même style, ce qui regroupera les paragraphes similaires.
+// Laissez l'indicateur « NoSpaceBetweenParagraphsOfSameStyle » sur « false »
+// pour appliquer uniformément l'espacement à chaque paragraphe.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

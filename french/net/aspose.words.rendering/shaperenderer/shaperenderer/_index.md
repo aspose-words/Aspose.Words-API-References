@@ -3,7 +3,7 @@ title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words pour .NET
-description: ShapeRenderer constructeur. Initialise une nouvelle instance de cette classe en C#.
+description: Découvrez le constructeur ShapeRenderer pour créer et personnaliser facilement des formes dans vos projets, améliorant ainsi l'attrait visuel et la fonctionnalité.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,11 +18,11 @@ public ShapeRenderer(ShapeBase shape)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| shape | ShapeBase | Objet de forme DrawinML que vous souhaitez restituer. |
+| shape | ShapeBase | L'objet de forme DrawinML que vous souhaitez restituer. |
 
 ## Exemples
 
-Montre comment restituer une forme avec un objet Graphics et l’afficher à l’aide d’un Windows Form.
+Montre comment restituer une forme avec un objet graphique et l'afficher à l'aide d'un formulaire Windows.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -32,7 +32,7 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme dans un objet Graphics.
+    // Vous trouverez ci-dessous deux manières d'utiliser la classe « ShapeRenderer » pour restituer une forme dans un objet Graphics.
     // 1 - Créez une forme avec un graphique et restituez-la à une échelle spécifique.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
@@ -44,7 +44,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Créez un groupe de formes et affichez-le à une taille spécifique.
+    // 2 - Créez un groupe de formes et rendez-le à une taille spécifique.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);

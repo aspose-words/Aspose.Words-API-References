@@ -3,7 +3,7 @@ title: Body.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words pour .NET
-description: Body NodeType propriété. RetoursBody  en C#.
+description: Découvrez la propriété Body NodeType qui renvoie efficacement le contenu du corps, améliorant ainsi votre expérience de développement Web et rationalisant vos projets.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/body/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Exemples
 
-Montre comment parcourir les enfants d’un nœud composite.
+Montre comment parcourir les enfants d'un nœud composite.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Une Section est un nœud composite et peut contenir des nœuds enfants,
-// mais seulement si ces nœuds enfants sont de type nœud "Body" ou "HeaderFooter".
+// Une section est un nœud composite et peut contenir des nœuds enfants,
+// mais seulement si ces nœuds enfants sont de type nœud « Body » ou « HeaderFooter ».
 foreach (Node node in section)
 {
     switch (node.NodeType)

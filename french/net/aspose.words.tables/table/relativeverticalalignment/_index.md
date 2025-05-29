@@ -3,7 +3,7 @@ title: Table.RelativeVerticalAlignment
 linktitle: RelativeVerticalAlignment
 articleTitle: RelativeVerticalAlignment
 second_title: Aspose.Words pour .NET
-description: Table RelativeVerticalAlignment propriété. Obtient ou définit lalignement vertical relatif de la table flottante en C#.
+description: Découvrez la propriété Table RelativeVerticalAlignment pour gérer facilement l'alignement vertical des tableaux flottants, améliorant ainsi la précision et la conception de votre mise en page.
 type: docs
 weight: 240
 url: /fr/net/aspose.words.tables/table/relativeverticalalignment/
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Définit l'emplacement du tableau à un endroit de la page, comme, dans ce cas, le coin inférieur droit.
+// Définissez l'emplacement du tableau sur un endroit de la page, comme, dans ce cas, le coin inférieur droit.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Nous pouvons également définir un décalage horizontal et vertical en points par rapport à l'emplacement du paragraphe où nous avons inséré le tableau.
+ // Nous pouvons également définir un décalage horizontal et vertical en points à partir de l'emplacement du paragraphe où nous avons inséré le tableau.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

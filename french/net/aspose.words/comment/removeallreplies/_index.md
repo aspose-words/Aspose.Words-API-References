@@ -3,9 +3,9 @@ title: Comment.RemoveAllReplies
 linktitle: RemoveAllReplies
 articleTitle: RemoveAllReplies
 second_title: Aspose.Words pour .NET
-description: Comment RemoveAllReplies méthode. Supprime toutes les réponses à ce commentaire en C#.
+description: Effacez sans effort toutes les réponses à votre commentaire avec la méthode RemoveAllReplies, garantissant une discussion sans encombrement et une expérience utilisateur améliorée.
 type: docs
-weight: 130
+weight: 170
 url: /fr/net/aspose.words/comment/removeallreplies/
 ---
 ## Comment.RemoveAllReplies method
@@ -35,18 +35,18 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
-Assert.AreEqual(2, comment.Replies.Count()); 
+Assert.AreEqual(2, comment.Replies.Count); 
 
 // Vous trouverez ci-dessous deux manières de supprimer les réponses d'un commentaire.
-// 1 - Utilisez la méthode "RemoveReply" pour supprimer individuellement les réponses d'un commentaire :
+// 1 - Utilisez la méthode « RemoveReply » pour supprimer individuellement les réponses d'un commentaire :
 comment.RemoveReply(comment.Replies[0]);
 
-Assert.AreEqual(1, comment.Replies.Count());
+Assert.AreEqual(1, comment.Replies.Count);
 
-// 2 - Utilisez la méthode "RemoveAllReplies" pour supprimer toutes les réponses d'un commentaire d'un coup :
+// 2 - Utilisez la méthode « RemoveAllReplies » pour supprimer toutes les réponses d'un commentaire à la fois :
 comment.RemoveAllReplies();
 
-Assert.AreEqual(0, comment.Replies.Count());
+Assert.AreEqual(0, comment.Replies.Count);
 ```
 
 ### Voir également

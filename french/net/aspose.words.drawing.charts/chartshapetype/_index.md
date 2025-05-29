@@ -3,9 +3,9 @@ title: ChartShapeType Enum
 linktitle: ChartShapeType
 articleTitle: ChartShapeType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartShapeType énumération. Spécifie le type de forme des éléments du graphique en C#.
+description: Explorez l'énumération Aspose.Words.Drawing.Charts.ChartShapeType pour définir diverses formes d'éléments de graphique, améliorant ainsi l'attrait visuel et la clarté des données de votre document.
 type: docs
-weight: 810
+weight: 1120
 url: /fr/net/aspose.words.drawing.charts/chartshapetype/
 ---
 ## ChartShapeType enumeration
@@ -34,12 +34,12 @@ public enum ChartShapeType
 | Plus | `11` | Plus. |
 | Star | `12` | Étoile. |
 | Arrow | `13` | Flèche. |
-| HomePlate | `14` | Plaque de but. |
+| HomePlate | `14` | Marbre. |
 | Cube | `15` | Cube. |
 | Arc | `16` | Arc. |
 | Line | `17` | Ligne. |
 | Plaque | `18` | Plaque. |
-| Can | `19` | Can. |
+| Can | `19` | Peut. |
 | Donut | `20` | Beignet. |
 | StraightConnector1 | `21` | Connecteur droit 1. |
 | BentConnector2 | `22` | Connecteur coudé 2. |
@@ -53,20 +53,20 @@ public enum ChartShapeType
 | Callout1 | `30` | Légende 1. |
 | Callout2 | `31` | Légende 2. |
 | Callout3 | `32` | Légende 3. |
-| AccentCallout1 | `33` | Légende d'accentuation 1. |
-| AccentCallout2 | `34` | Légende d'accentuation 2. |
-| AccentCallout3 | `35` | Légende d'accentuation 3. |
+| AccentCallout1 | `33` | Accentuation de la légende 1. |
+| AccentCallout2 | `34` | Accentuation de l'appel 2. |
+| AccentCallout3 | `35` | Accentuation de la légende 3. |
 | BorderCallout1 | `36` | Légende avec bordure 1. |
 | BorderCallout2 | `37` | Légende avec bordure 2. |
 | BorderCallout3 | `38` | Légende avec bordure 3. |
-| AccentBorderCallout1 | `39` | Légende d'accentuation avec bordure 1. |
-| AccentBorderCallout2 | `40` | Légende d'accentuation avec bordure 2. |
-| AccentBorderCallout3 | `41` | Légende d'accentuation avec bordure 3. |
+| AccentBorderCallout1 | `39` | Accentuation de la légende avec bordure 1. |
+| AccentBorderCallout2 | `40` | Accentuation de la légende avec bordure 2. |
+| AccentBorderCallout3 | `41` | Accentuation de la légende avec bordure 3. |
 | Ribbon | `42` | Ruban. |
 | Ribbon2 | `43` | Ruban 2. |
 | Chevron | `44` | Chevron. |
 | Pentagon | `45` | Pentagone. |
-| NoSmoking | `46` | Ne pas fumer. |
+| NoSmoking | `46` | Interdit de fumer. |
 | Seal4 | `47` | Étoile à quatre branches. |
 | Seal6 | `48` | Étoile à six branches. |
 | Seal7 | `49` | Étoile à sept branches. |
@@ -76,9 +76,9 @@ public enum ChartShapeType
 | Seal16 | `53` | Étoile à seize branches. |
 | Seal24 | `54` | Étoile à vingt-quatre branches. |
 | Seal32 | `55` | Étoile à trente-deux branches. |
-| WedgeRectCallout | `56` | Légende rectangle en coin. |
-| WedgeRRectCallout | `57` | Légende coin rond rectangle. |
-| WedgeEllipseCallout | `58` | Ellipse en coin de légende. |
+| WedgeRectCallout | `56` | Rectangle de coin de légende. |
+| WedgeRRectCallout | `57` | Rectangle rond en coin de légende. |
+| WedgeEllipseCallout | `58` | Ellipse de coin de légende. |
 | Wave | `59` | Vague. |
 | FoldedCorner | `60` | Coin plié. |
 | LeftArrow | `61` | Flèche gauche. |
@@ -86,24 +86,24 @@ public enum ChartShapeType
 | UpArrow | `63` | Flèche vers le haut. |
 | LeftRightArrow | `64` | Flèche gauche et droite. |
 | UpDownArrow | `65` | Flèche haut et bas. |
-| IrregularSeal1 | `66` | Joint irrégulier 1. |
+| IrregularSeal1 | `66` | Sceau irrégulier 1. |
 | IrregularSeal2 | `67` | Joint irrégulier 2. |
 | LightningBolt | `68` | Éclair. |
 | Heart | `69` | Coeur. |
 | QuadArrow | `70` | Flèche quadruple. |
-| LeftArrowCallout | `71` | Flèche gauche de légende. |
-| RightArrowCallout | `72` | Légende, flèche droite. |
-| UpArrowCallout | `73` | Légende, flèche vers le haut. |
+| LeftArrowCallout | `71` | Légende flèche gauche. |
+| RightArrowCallout | `72` | Légende flèche droite. |
+| UpArrowCallout | `73` | Flèche vers le haut de l'appel. |
 | DownArrowCallout | `74` | Flèche vers le bas de la légende. |
 | LeftRightArrowCallout | `75` | Légende flèche gauche et droite. |
-| UpDownArrowCallout | `76` | Légende flèche haut et bas. |
-| QuadArrowCallout | `77` | Flèche quadruple de légende. |
+| UpDownArrowCallout | `76` | Flèche haut et bas de légende. |
+| QuadArrowCallout | `77` | Flèche quadruple d'appel. |
 | Bevel | `78` | Biseau. |
-| LeftBracket | `79` | Support gauche. |
-| RightBracket | `80` | Support droit. |
+| LeftBracket | `79` | Crochet gauche. |
+| RightBracket | `80` | Crochet droit. |
 | LeftBrace | `81` | Accolade gauche. |
-| RightBrace | `82` | Renfort droit. |
-| LeftUpArrow | `83` | Flèche vers le haut vers la gauche. |
+| RightBrace | `82` | Accolade droite. |
+| LeftUpArrow | `83` | Flèche gauche vers le haut. |
 | BentUpArrow | `84` | Flèche courbée vers le haut. |
 | BentArrow | `85` | Flèche courbée. |
 | StripedRightArrow | `86` | Flèche droite rayée. |
@@ -113,12 +113,12 @@ public enum ChartShapeType
 | VerticalScroll | `90` | Défilement vertical. |
 | HorizontalScroll | `91` | Défilement horizontal. |
 | CircularArrow | `92` | Flèche circulaire. |
-| UturnArrow | `93` | Flèche demi-tour. |
-| CurvedRightArrow | `94` | Flèche droite incurvée. |
-| CurvedLeftArrow | `95` | Flèche gauche incurvée. |
-| CurvedUpArrow | `96` | Flèche incurvée vers le haut. |
-| CurvedDownArrow | `97` | Flèche incurvée vers le bas. |
-| CloudCallout | `98` | Nuage d'appel. |
+| UturnArrow | `93` | Flèche de demi-tour. |
+| CurvedRightArrow | `94` | Flèche courbée vers la droite. |
+| CurvedLeftArrow | `95` | Flèche courbée vers la gauche. |
+| CurvedUpArrow | `96` | Flèche courbée vers le haut. |
+| CurvedDownArrow | `97` | Flèche courbée vers le bas. |
+| CloudCallout | `98` | Nuage d'appels. |
 | EllipseRibbon | `99` | Ruban Ellipse. |
 | EllipseRibbon2 | `100` | Ruban Ellipse 2. |
 | FlowChartProcess | `101` | Flux de processus. |
@@ -130,15 +130,15 @@ public enum ChartShapeType
 | FlowChartMultidocument | `107` | Flux multi-documents. |
 | FlowChartTerminator | `108` | Flux de terminaison. |
 | FlowChartPreparation | `109` | Flux de préparation. |
-| FlowChartManualInput | `110` | Flux d'entrée manuel. |
-| FlowChartManualOperation | `111` | Flux de fonctionnement manuel. |
+| FlowChartManualInput | `110` | Flux de saisie manuelle. |
+| FlowChartManualOperation | `111` | Flux d'opération manuelle. |
 | FlowChartConnector | `112` | Flux du connecteur. |
 | FlowChartPunchedCard | `113` | Flux de cartes perforées. |
 | FlowChartPunchedTape | `114` | Flux de bande perforée. |
-| FlowChartSummingJunction | `115` | Flux de jonction sommateur. |
+| FlowChartSummingJunction | `115` | Écoulement de jonction de sommation. |
 | FlowChartOr | `116` | Ou flux. |
-| FlowChartCollate | `117` | Flux d'assemblage. |
-| FlowChartSort | `118` | Flux de tri. |
+| FlowChartCollate | `117` | Collate flow. |
+| FlowChartSort | `118` | Trier le flux. |
 | FlowChartExtract | `119` | Extraire le flux. |
 | FlowChartMerge | `120` | Fusionner le flux. |
 | FlowChartOfflineStorage | `121` | Flux de stockage hors ligne. |
@@ -146,35 +146,35 @@ public enum ChartShapeType
 | FlowChartMagneticTape | `123` | Flux de bande magnétique. |
 | FlowChartMagneticDisk | `124` | Flux de disque magnétique. |
 | FlowChartMagneticDrum | `125` | Flux de tambour magnétique. |
-| FlowChartDisplay | `126` | Afficher le flux. |
-| FlowChartDelay | `127` | Délai de flux. |
+| FlowChartDisplay | `126` | Flux d'affichage. |
+| FlowChartDelay | `127` | Flux de retard. |
 | FlowChartAlternateProcess | `128` | Flux de processus alternatif. |
 | FlowChartOffpageConnector | `129` | Flux de connecteur hors page. |
-| LeftRightUpArrow | `130` | Flèche gauche vers le haut. |
+| LeftRightUpArrow | `130` | Flèche gauche droite haut. |
 | Sun | `131` | Dim. |
 | Moon | `132` | Lune. |
 | BracketPair | `133` | Paire de supports. |
-| BracePair | `134` | Paire de renforts. |
+| BracePair | `134` | Paire d'accolades. |
 | DoubleWave | `135` | Double vague. |
 | ActionButtonBlank | `136` | Bouton vide. |
-| ActionButtonHome | `137` | Bouton Accueil. |
-| ActionButtonHelp | `138` | Bouton Aide. |
+| ActionButtonHome | `137` | Bouton d'accueil. |
+| ActionButtonHelp | `138` | Bouton d'aide. |
 | ActionButtonInformation | `139` | Bouton d'information. |
 | ActionButtonForwardNext | `140` | Bouton Suivant ou Suivant. |
-| ActionButtonBackPrevious | `141` | Bouton Retour ou Précédent. |
+| ActionButtonBackPrevious | `141` | Bouton Retour ou précédent. |
 | ActionButtonEnd | `142` | Bouton Fin. |
-| ActionButtonBeginning | `143` | Bouton Début. |
+| ActionButtonBeginning | `143` | Bouton de démarrage. |
 | ActionButtonReturn | `144` | Bouton Retour. |
 | ActionButtonDocument | `145` | Bouton Document. |
 | ActionButtonSound | `146` | Bouton son. |
 | ActionButtonMovie | `147` | Bouton Film. |
-| SingleCornerSnipped | `148` | Couper un objet rectangle à un seul coin. |
+| SingleCornerSnipped | `148` | Coupez l'objet rectangle à un seul coin. |
 | TopCornersSnipped | `149` | Coupez le rectangle du même coin latéral. |
-| DiagonalCornersSnipped | `150` | Coupez le rectangle d'un coin en diagonale. |
-| TopCornersOneRoundedOneSnipped | `151` | Coupez et arrondissez un rectangle à un seul coin. |
-| SingleCornerRounded | `152` | Rectangle à coin unique arrondi. |
-| TopCornersRounded | `153` | Rectangle de coin arrondi du même côté. |
-| DiagonalCornersRounded | `154` | Rectangle de coin diagonal arrondi. |
+| DiagonalCornersSnipped | `150` | Coupez le rectangle d'angle diagonal. |
+| TopCornersOneRoundedOneSnipped | `151` | Coupez et arrondissez le rectangle à un seul coin. |
+| SingleCornerRounded | `152` | Rectangle à un seul coin arrondi. |
+| TopCornersRounded | `153` | Rectangle arrondi aux coins du même côté. |
+| DiagonalCornersRounded | `154` | Rectangle à coins diagonaux arrondis. |
 | Heptagon | `155` | Heptagone. |
 | Cloud | `156` | Nuage. |
 | SwooshArrow | `157` | Flèche Swoosh. |
@@ -184,11 +184,11 @@ public enum ChartShapeType
 | Pie | `161` | Tarte. |
 | WedgePie | `162` | Tarte en quartiers. |
 | InverseLine | `163` | Ligne inverse. |
-| MathPlus | `164` | Math plus. |
+| MathPlus | `164` | Mathématiques plus. |
 | MathMinus | `165` | Math moins. |
 | MathMultiply | `166` | Multiplication mathématique. |
 | MathDivide | `167` | Division mathématique. |
-| MathEqual | `168` | Math égal. |
+| MathEqual | `168` | Égal mathématique. |
 | MathNotEqual | `169` | Les mathématiques ne sont pas égales. |
 | NonIsoscelesTrapezoid | `170` | Trapèze non isocèle. |
 | LeftRightCircularArrow | `171` | Flèche circulaire gauche-droite. |
@@ -206,12 +206,12 @@ public enum ChartShapeType
 | CornerTabs | `183` | Onglets d'angle. |
 | Chord | `184` | Accord. |
 | ChartPlus | `185` | Graphique plus. |
-| ChartStar | `186` | Étoile du graphique. |
+| ChartStar | `186` | Étoile de la carte. |
 | ChartX | `187` | Graphique X. |
 
 ## Exemples
 
-Montre comment définir le formatage du remplissage, du contour et des légendes pour les étiquettes de données de graphique.
+Montre comment définir le formatage du remplissage, du contour et des légendes pour les étiquettes de données du graphique.
 
 ```csharp
 Document doc = new Document();
@@ -220,7 +220,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Supprime la série générée par défaut.
+// Supprimer la série générée par défaut.
 chart.Series.Clear();
 
 // Ajouter une nouvelle série.
@@ -232,14 +232,14 @@ ChartSeries series = chart.Series.Add("AW Series 1",
 series.HasDataLabels = true;
 series.DataLabels.ShowValue = true;
 
-// Formate les étiquettes de données sous forme de légendes.
+// Formater les étiquettes de données sous forme d'appels.
 ChartFormat format = series.DataLabels.Format;
 format.ShapeType = ChartShapeType.WedgeRectCallout;
 format.Stroke.Color = Color.DarkGreen;
 format.Fill.Solid(Color.Green);
 series.DataLabels.Font.Color = Color.Yellow;
 
-// Modifie le remplissage et le contour d'une étiquette de données individuelle.
+// Modifier le remplissage et le contour d'une étiquette de données individuelle.
 ChartFormat labelFormat = series.DataLabels[0].Format;
 labelFormat.Stroke.Color = Color.DarkBlue;
 labelFormat.Fill.Solid(Color.Blue);

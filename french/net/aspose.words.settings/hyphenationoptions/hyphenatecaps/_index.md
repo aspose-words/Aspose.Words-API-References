@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenateCaps
 linktitle: HyphenateCaps
 articleTitle: HyphenateCaps
 second_title: Aspose.Words pour .NET
-description: HyphenationOptions HyphenateCaps propriété. Obtient ou définit la valeur déterminant si les mots écrits en majuscules sont coupés. La valeur par défaut de cette propriété estvrai  en C#.
+description: Découvrez la propriété HyphenateCaps dans HyphenationOptions. Contrôlez facilement la césure des mots en majuscules ; la valeur par défaut est « true ». Optimisez votre texte dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Obtient ou définit la valeur déterminant si les mots écrits en majuscules sont coupés. La valeur par défaut de cette propriété est`vrai` .
+Obtient ou définit une valeur déterminant si les mots écrits en majuscules sont coupés. La valeur par défaut de cette propriété est`vrai` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }

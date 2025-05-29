@@ -3,14 +3,14 @@ title: PreferredWidthType Enum
 linktitle: PreferredWidthType
 articleTitle: PreferredWidthType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Tables.PreferredWidthType énumération. Spécifie lunité de mesure pour la largeur préférée dun tableau ou dune cellule en C#.
+description: Découvrez l'énumération Aspose.Words.Tables.PreferredWidthType. Définissez facilement les mesures de largeur des tableaux et des cellules pour une mise en forme précise des documents.
 type: docs
-weight: 6300
+weight: 7150
 url: /fr/net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration
 
-Spécifie l'unité de mesure pour la largeur préférée d'un tableau ou d'une cellule.
+Spécifie l'unité de mesure de la largeur préférée d'un tableau ou d'une cellule.
 
 ```csharp
 public enum PreferredWidthType
@@ -20,13 +20,13 @@ public enum PreferredWidthType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Auto | `1` | La largeur préférée n'est pas spécifiée. La largeur réelle du tableau ou de la cellule est soit spécifiée à l'aide de la largeur explicite, soit sera déterminée automatiquement par l'algorithme de disposition du tableau lorsque le tableau est affiché, en fonction du paramètre d'ajustement automatique du tableau. |
-| Percent | `2` | Mesurez la largeur actuelle de l'élément en utilisant un pourcentage spécifié. |
-| Points | `3` | Mesurez la largeur actuelle de l'article en utilisant un nombre spécifié de points (1/72 de pouce). |
+| Auto | `1` | La largeur préférée n'est pas spécifiée. La largeur réelle du tableau ou de la cellule est soit spécifiée explicitement, soit déterminée automatiquement par l'algorithme de mise en page du tableau lors de son affichage, selon le paramètre d'ajustement automatique du tableau. |
+| Percent | `2` | Mesurez la largeur de l'élément actuel à l'aide d'un pourcentage spécifié. |
+| Points | `3` | Mesurez la largeur de l'élément actuel à l'aide d'un nombre de points spécifié (1/72 pouce). |
 
 ## Exemples
 
-Montre comment vérifier le type de largeur préféré et la valeur d’une cellule de tableau.
+Montre comment vérifier le type de largeur et la valeur préférés d'une cellule de tableau.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

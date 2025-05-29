@@ -3,7 +3,7 @@ title: DefaultFontSubstitutionRule.DefaultFontName
 linktitle: DefaultFontName
 articleTitle: DefaultFontName
 second_title: Aspose.Words pour .NET
-description: DefaultFontSubstitutionRule DefaultFontName propriété. Obtient ou définit le nom de la police par défaut en C#.
+description: Découvrez comment gérer facilement la règle DefaultFontSubstitutionRule et personnaliser le nom de votre police par défaut pour une flexibilité de conception améliorée.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -29,18 +29,18 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Récupère la règle de substitution par défaut dans FontSettings.
-// Cette règle remplacera toutes les polices manquantes par "Times New Roman".
+// Obtenez la règle de substitution par défaut dans FontSettings.
+// Cette règle remplacera toutes les polices manquantes par « Times New Roman ».
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Définissez le substitut de police par défaut sur "Courier New".
+// Définissez le substitut de police par défaut sur « Courier New ».
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// A l'aide d'un générateur de documents, on ajoute du texte dans une police dont on n'est pas obligé pour voir la substitution s'effectuer,
-// puis affiche le résultat dans un PDF.
+// À l'aide d'un générateur de documents, ajoutez du texte dans une police dont nous n'avons pas besoin pour voir la substitution avoir lieu,
+// puis restituer le résultat dans un PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";
@@ -62,18 +62,18 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-// Les sources de polices utilisées par le document contiennent la police "Arial", mais pas "Arvo".
+// Les sources de polices utilisées par le document contiennent la police « Arial », mais pas « Arvo ».
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Définissez la propriété "DefaultFontName" sur "Courier New" pour,
- // lors du rendu du document, applique cette police dans tous les cas où une autre police n'est pas disponible.
+// Définissez la propriété « DefaultFontName » sur « Courier New » pour,
+// lors du rendu du document, appliquez cette police dans tous les cas où une autre police n'est pas disponible.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Aspose.Words utilisera désormais la police par défaut à la place de toutes les polices manquantes lors de tout appel de rendu.
+// Aspose.Words utilisera désormais la police par défaut à la place de toutes les polices manquantes lors de tous les appels de rendu.
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ```
 

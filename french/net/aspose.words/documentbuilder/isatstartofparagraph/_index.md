@@ -3,14 +3,14 @@ title: DocumentBuilder.IsAtStartOfParagraph
 linktitle: IsAtStartOfParagraph
 articleTitle: IsAtStartOfParagraph
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder IsAtStartOfParagraph propriété. Retoursvrai si le curseur est au début du paragraphe en cours pas de texte avant le curseur en C#.
+description: Découvrez la propriété IsAtStartOfParagraph de DocumentBuilder. Vérifiez facilement si votre curseur est au début du paragraphe pour une édition de texte efficace.
 type: docs
 weight: 130
 url: /fr/net/aspose.words/documentbuilder/isatstartofparagraph/
 ---
 ## DocumentBuilder.IsAtStartOfParagraph property
 
-Retours`vrai` si le curseur est au début du paragraphe en cours (pas de texte avant le curseur).
+Retours`vrai`si le curseur est au début du paragraphe actuel (pas de texte avant le curseur).
 
 ```csharp
 public bool IsAtStartOfParagraph { get; }
@@ -18,13 +18,13 @@ public bool IsAtStartOfParagraph { get; }
 
 ## Exemples
 
-Montre comment déplacer le curseur d'un générateur de document vers différents nœuds d'un document.
+Montre comment déplacer le curseur d'un générateur de documents vers différents nœuds d'un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un signet valide, une entité composée de nœuds entourés d'un nœud de début de signet,
+// Créer un signet valide, une entité composée de nœuds entourés d'un nœud de départ de signet,
  // et un nœud de fin de signet.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
@@ -37,17 +37,17 @@ Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
 Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
 Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
 
-// Le curseur du générateur de document est toujours devant le nœud que nous avons ajouté en dernier avec lui.
-// Si le curseur du constructeur est à la fin du document, son nœud courant sera nul.
-// Le nœud précédent est le nœud de fin du signet que nous avons ajouté en dernier.
-// L'ajout de nouveaux nœuds avec le constructeur les ajoutera au dernier nœud.
+// Le curseur du générateur de documents est toujours en avance sur le nœud que nous avons ajouté en dernier avec lui.
+// Si le curseur du générateur est à la fin du document, son nœud actuel sera nul.
+// Le nœud précédent est le nœud de fin de signet que nous avons ajouté en dernier.
+// L'ajout de nouveaux nœuds avec le générateur les ajoutera au dernier nœud.
 Assert.Null(builder.CurrentNode);
 
-// Si l'on souhaite éditer une autre partie du document avec le builder,
+// Si nous souhaitons éditer une autre partie du document avec le générateur,
 // nous devrons amener son curseur sur le nœud que nous souhaitons éditer.
 builder.MoveToBookmark("MyBookmark");
 
-// Le déplacer vers un signet le déplacera vers le premier nœud des nœuds de début et de fin du signet, l'exécution ci-jointe.
+// Le déplacer vers un signet le déplacera vers le premier nœud dans les nœuds de début et de fin du signet, l'exécution incluse.
 Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
 
 // Nous pouvons également déplacer le curseur vers un nœud individuel comme celui-ci.
@@ -57,7 +57,7 @@ Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
 Assert.IsTrue(builder.IsAtStartOfParagraph);
 
-// On peut utiliser des méthodes spécifiques pour se déplacer au début/fin d'un document.
+// Nous pouvons utiliser des méthodes spécifiques pour nous déplacer au début/à la fin d'un document.
 builder.MoveToDocumentEnd();
 
 Assert.IsTrue(builder.IsAtEndOfParagraph);

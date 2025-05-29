@@ -3,9 +3,9 @@ title: IHyphenationCallback Interface
 linktitle: IHyphenationCallback
 articleTitle: IHyphenationCallback
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.IHyphenationCallback interface. Implémenté par des classes qui peuvent enregistrer des dictionnaires de césure en C#.
+description: Explorez l'interface Aspose.Words.IHyphenationCallback pour implémenter et enregistrer facilement des dictionnaires de césure pour une mise en forme améliorée des documents.
 type: docs
-weight: 3190
+weight: 3630
 url: /fr/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
@@ -20,16 +20,16 @@ public interface IHyphenationCallback
 
 | Nom | La description |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Avertit l'application que le dictionnaire de césure pour la langue spécifiée n'a pas été trouvé et qu'il doit peut-être être enregistré. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | Avertit l'application que le dictionnaire de césure pour la langue spécifiée n'a pas été trouvé et qu'il peut être nécessaire de l'enregistrer. |
 
 ## Exemples
 
-Montre comment ouvrir et enregistrer un dictionnaire à partir d’un fichier.
+Montre comment ouvrir et enregistrer un dictionnaire à partir d'un fichier.
 
 ```csharp
 public void RegisterDictionary()
 {
-    // Configure un rappel qui suit les avertissements qui se produisent lors de l'enregistrement du dictionnaire de césure.
+    // Configurez un rappel qui suit les avertissements qui se produisent lors de l'enregistrement du dictionnaire de césure.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
@@ -39,22 +39,23 @@ public void RegisterDictionary()
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Ouvrir un document avec des paramètres régionaux que Microsoft Word ne peut pas couper sur une machine anglaise, comme l'allemand.
+    // Ouvrez un document avec des paramètres régionaux que Microsoft Word ne peut pas couper sur une machine anglaise, comme l'allemand.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Pour couper ce document lors de l'enregistrement, nous avons besoin d'un dictionnaire de césure pour le code de langue "de-CH".
-    // Ce rappel gérera la requête automatique pour ce dictionnaire.
+    // Pour couper ce document lors de l'enregistrement, nous avons besoin d'un dictionnaire de coupure pour le code de langue « de-CH ».
+    // Ce rappel gérera la demande automatique de ce dictionnaire.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Lorsque nous enregistrons le document, la césure allemande prendra effet.
+    // Lorsque nous enregistrons le document, la césure allemande prend effet.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // Ce dictionnaire contient deux modèles identiques, qui déclencheront un avertissement.
+    // Ce dictionnaire contient deux modèles identiques, ce qui déclenchera un avertissement.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>

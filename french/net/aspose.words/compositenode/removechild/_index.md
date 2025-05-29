@@ -3,22 +3,23 @@ title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
 second_title: Aspose.Words pour .NET
-description: CompositeNode RemoveChild méthode. Supprime le nœud enfant spécifié en C#.
+description: Gérez sans effort votre CompositeNode avec la méthode RemoveChild, conçue pour rationaliser la suppression des nœuds pour des performances et une efficacité améliorées.
 type: docs
-weight: 170
+weight: 190
 url: /fr/net/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
+## CompositeNode.RemoveChild&lt;T&gt; method
 
 Supprime le nœud enfant spécifié.
 
 ```csharp
-public Node RemoveChild(Node oldChild)
+public T RemoveChild<T>(T oldChild)
+    where T : Node
 ```
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| oldChild | Node | Le nœud à supprimer. |
+| oldChild | T | Le nœud à supprimer. |
 
 ### Return_Value
 
@@ -26,7 +27,7 @@ Le nœud supprimé.
 
 ## Remarques
 
-Le parent de*oldChild* est réglé sur`nul` après la suppression du nœud.
+Le parent de*oldChild* est réglé sur`nul` après le retrait du nœud.
 
 ## Exemples
 
@@ -40,11 +41,11 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Les deux sections sont frères et sœurs l'un de l'autre.
+// Les deux sections sont sœurs l'une de l'autre.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Supprime une section en fonction de sa relation fraternelle avec une autre section.
+// Supprimez une section en fonction de sa relation de fratrie avec une autre section.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

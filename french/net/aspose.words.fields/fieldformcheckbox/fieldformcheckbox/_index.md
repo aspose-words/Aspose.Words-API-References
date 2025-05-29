@@ -3,7 +3,7 @@ title: FieldFormCheckBox
 linktitle: FieldFormCheckBox
 articleTitle: FieldFormCheckBox
 second_title: Aspose.Words pour .NET
-description: FieldFormCheckBox constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldFormCheckBox pour une intégration fluide des formulaires. Améliorez l'expérience utilisateur grâce à notre conception intuitive et nos fonctionnalités robustes.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldformcheckbox/fieldformcheckbox/

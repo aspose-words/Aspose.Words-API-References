@@ -3,14 +3,14 @@ title: IBarcodeGenerator Interface
 linktitle: IBarcodeGenerator
 articleTitle: IBarcodeGenerator
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.IBarcodeGenerator interface. Interface publique pour le générateur personnalisé de codesbarres. Limplémentation doit être fournie par user en C#.
+description: Découvrez l'interface Aspose.Words.Fields.IBarcodeGenerator pour la génération de codes-barres personnalisés. Dynamisez vos projets grâce à des implémentations personnalisées et optimisez les fonctionnalités !
 type: docs
-weight: 2660
+weight: 3070
 url: /fr/net/aspose.words.fields/ibarcodegenerator/
 ---
 ## IBarcodeGenerator interface
 
-Interface publique pour le générateur personnalisé de codes-barres. L'implémentation doit être fournie par user.
+Interface publique pour le générateur de codes-barres personnalisé. L'implémentation doit être fournie par l'utilisateur.
 
 ```csharp
 public interface IBarcodeGenerator
@@ -20,12 +20,12 @@ public interface IBarcodeGenerator
 
 | Nom | La description |
 | --- | --- |
-| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Générez une image de code-barres à l'aide de l'ensemble de paramètres (pour le champ DisplayBarcode). |
-| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Générez une image de code-barres à l'aide de l'ensemble de paramètres (pour le champ Code-barres à l'ancienne). |
+| [GetBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Générer une image de code-barres à l'aide de l'ensemble de paramètres (pour le champ DisplayBarcode). |
+| [GetOldBarcodeImage](../../aspose.words.fields/ibarcodegenerator/getoldbarcodeimage/)(*[BarcodeParameters](../barcodeparameters/)*) | Générer une image de code-barres à l'aide de l'ensemble de paramètres (pour le champ de code-barres à l'ancienne). |
 
 ## Remarques
 
-L'instance Generator doit être transmise via le[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) propriété.
+L'instance du générateur doit être transmise via le[`BarcodeGenerator`](../fieldoptions/barcodegenerator/) propriété.
 
 ## Exemples
 
@@ -40,8 +40,8 @@ doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Vous trouverez ci-dessous quatre exemples de différents types de codes-barres que nous pouvons créer à l'aide de notre générateur.
 // Pour chaque code-barres, nous spécifions un nouvel ensemble de paramètres de code-barres, puis générons l'image.
-// Ensuite, nous pouvons insérer l'image dans le document ou la sauvegarder dans le système de fichiers local.
-// 1 - Code QR :
+// Ensuite, nous pouvons insérer l'image dans le document ou l'enregistrer sur le système de fichiers local.
+// 1 - Code QR :
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -55,11 +55,17 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 2 - Code barre EAN13 :
+// 2 - Code-barres EAN13 :
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -70,10 +76,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 3 - Code barre CODE39 :
+// 3 - Code-barres CODE39 :
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -82,10 +95,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 4 - Code barre ITF14 :
+// 4 - Code-barres ITF14 :
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",
@@ -94,7 +114,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

@@ -3,9 +3,9 @@ title: Font.Size
 linktitle: Size
 articleTitle: Size
 second_title: Aspose.Words pour .NET
-description: Font Size propriété. Obtient ou définit la taille de la police en points en C#.
+description: Ajustez facilement la taille de police grâce à la propriété Taille de police. Personnalisez votre texte en points pour une meilleure lisibilité et un design plus attrayant.
 type: docs
-weight: 340
+weight: 350
 url: /fr/net/aspose.words/font/size/
 ---
 ## Font.Size property
@@ -18,7 +18,7 @@ public double Size { get; set; }
 
 ## Exemples
 
-Montre comment formater une séquence de texte à l’aide de sa propriété font.
+Montre comment formater une série de texte à l'aide de sa propriété de police.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Montre comment insérer du texte formaté à l’aide de DocumentBuilder.
+Montre comment insérer du texte formaté à l'aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: Document.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words pour .NET
-description: Document UnlinkFields méthode. Dissocie les champs dans tout le document en C#.
+description: Découvrez comment utiliser la méthode UnlinkFields pour dissocier efficacement les champs de l'ensemble de votre document, améliorant ainsi votre flux de travail d'édition.
 type: docs
-weight: 730
+weight: 780
 url: /fr/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
 
-Dissocie les champs dans tout le document.
+Dissocie les champs dans l'ensemble du document.
 
 ```csharp
 public void UnlinkFields()
@@ -20,7 +20,7 @@ public void UnlinkFields()
 
 Remplace tous les champs de l'ensemble du document par leurs résultats les plus récents.
 
-Pour dissocier des champs dans une partie spécifique du document, utilisez[`UnlinkFields`](../../range/unlinkfields/).
+Pour dissocier les champs dans une partie spécifique du document, utilisez[`UnlinkFields`](../../range/unlinkfields/).
 
 ## Exemples
 

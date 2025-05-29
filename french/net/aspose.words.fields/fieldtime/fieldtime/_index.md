@@ -3,7 +3,7 @@ title: FieldTime
 linktitle: FieldTime
 articleTitle: FieldTime
 second_title: Aspose.Words pour .NET
-description: FieldTime constructeur. Default_Constructor en C#.
+description: Découvrez le puissant constructeur de FieldTime pour une gestion de projet fluide. Simplifiez votre flux de travail dès aujourd'hui grâce à notre constructeur par défaut intuitif !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldtime/fieldtime/

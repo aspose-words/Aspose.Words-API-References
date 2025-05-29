@@ -3,7 +3,7 @@ title: TaskPane
 linktitle: TaskPane
 articleTitle: TaskPane
 second_title: Aspose.Words pour .NET
-description: TaskPane constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur TaskPane, votre solution idéale pour créer facilement des panneaux dynamiques et personnalisables. Améliorez votre expérience utilisateur dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.webextensions/taskpane/taskpane/

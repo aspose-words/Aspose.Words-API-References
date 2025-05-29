@@ -3,7 +3,7 @@ title: DocumentBuilder.CurrentStructuredDocumentTag
 linktitle: CurrentStructuredDocumentTag
 articleTitle: CurrentStructuredDocumentTag
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder CurrentStructuredDocumentTag propriété. Obtient la balise de document structuré actuellement sélectionnée dans ceDocumentBuilder  en C#.
+description: Découvrez la propriété CurrentStructuredDocumentTag dans DocumentBuilder. Accédez facilement à la balise de document structuré sélectionnée pour une gestion documentaire efficace.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/documentbuilder/currentstructureddocumenttag/
@@ -18,28 +18,28 @@ public StructuredDocumentTag CurrentStructuredDocumentTag { get; }
 
 ## Exemples
 
-Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structuré.
+Montre comment déplacer le curseur de DocumentBuilder à l'intérieur d'une balise de document structurée.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Il existe plusieurs manières de déplacer le curseur :
-// 1 - Passer au premier caractère de la balise du document structuré par index.
+// Il existe plusieurs façons de déplacer le curseur :
+// 1 - Déplacer vers le premier caractère de la balise de document structuré par index.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - Passer au premier caractère de la balise du document structuré par objet.
+// 2 - Déplacer vers le premier caractère de la balise de document structuré par objet.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - Passer à la fin de la deuxième balise du document structuré.
+// 3 - Déplacer vers la fin de la deuxième balise de document structuré.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
-// Récupère la balise du document structuré actuellement sélectionné.
+// Obtenir la balise de document structuré actuellement sélectionnée.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
 
 doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");

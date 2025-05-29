@@ -3,14 +3,14 @@ title: FieldMergeBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words pour .NET
-description: FieldMergeBarcode CaseCodeStyle propriété. Obtient ou définit le style dun code de cas pour le type de codebarres ITF14. Les valeurs valides sont STDEXTADD en C#.
+description: Découvrez la propriété FieldMergeBarcode CaseCodeStyle pour les codes-barres ITF14. Personnalisez facilement votre style de code de cas avec des options valides comme STDEXTADD.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldmergebarcode/casecodestyle/
 ---
 ## FieldMergeBarcode.CaseCodeStyle property
 
-Obtient ou définit le style d'un code de cas pour le type de code-barres ITF14. Les valeurs valides sont [STD&#x7C;EXT&#x7C;ADD]
+Récupère ou définit le style d'un code de cas pour le code-barres de type ITF14. Les valeurs valides sont [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }
@@ -24,8 +24,8 @@ Montre comment effectuer un publipostage sur des codes-barres ITF14.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
-// Ce champ convertira toutes les valeurs de la colonne "MyITF14Barcode" d'une source de données de fusion en codes-barres ITF14.
+// Insérez un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
+// Ce champ convertira toutes les valeurs de la colonne « MyITF14Barcode » d'une source de données de fusion en codes-barres ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -34,8 +34,8 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
-// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
+// Créez un DataTable avec une colonne portant le même nom que BarcodeValue de notre champ MERGEBARCODE.
+// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE.
 // qui affichera un code-barres ITF14 avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");

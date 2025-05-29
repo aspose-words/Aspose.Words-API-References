@@ -3,14 +3,14 @@ title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
 second_title: Aspose.Words pour .NET
-description: IReplacingCallback Replacing méthode. Une méthode définie par lutilisateur qui est appelée lors dune opération de remplacement pour chaque correspondance trouvée juste avant quun remplacement ne soit effectué en C#.
+description: Améliorez votre codage avec la méthode IReplacingCallback ! Personnalisez efficacement les opérations de remplacement en exécutant des actions personnalisées pour chaque correspondance trouvée.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-Une méthode définie par l'utilisateur qui est appelée lors d'une opération de remplacement pour chaque correspondance trouvée juste avant qu'un remplacement ne soit effectué.
+Une méthode définie par l'utilisateur qui est appelée pendant une opération de remplacement pour chaque correspondance trouvée juste avant qu'un remplacement ne soit effectué.
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -33,10 +33,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définit un rappel qui suit tous les remplacements effectués par la méthode "Replace".
+    // Définissez un rappel qui suit tous les remplacements que la méthode « Remplacer » effectuera.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,8 +50,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Tient un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
-/// et note la valeur du texte original correspondant.
+/// Conserve un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
+/// et note la valeur du texte correspondant d'origine.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -73,14 +73,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Montre comment insérer le contenu entier d’un document en remplacement d’une correspondance dans une opération de recherche et de remplacement.
+Montre comment insérer le contenu entier d'un document en remplacement d'une correspondance dans une opération de recherche et de remplacement.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -95,11 +95,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Insère un document après le paragraphe contenant le texte correspondant.
+        // Insérer un document après le paragraphe contenant le texte correspondant.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Supprime le paragraphe avec le texte correspondant.
+        // Supprimez le paragraphe avec le texte correspondant.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -121,7 +121,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Ignore le nœud s'il s'agit du dernier paragraphe vide d'une section.
+                // Ignorer le nœud s'il s'agit du dernier paragraphe vide d'une section.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

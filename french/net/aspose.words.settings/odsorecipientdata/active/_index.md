@@ -3,14 +3,14 @@ title: OdsoRecipientData.Active
 linktitle: Active
 articleTitle: Active
 second_title: Aspose.Words pour .NET
-description: OdsoRecipientData Active propriété. Spécifie si lenregistrement de la source de données doit être importé dans un document lors du publipostage. La valeur par défaut estvrai  en C#.
+description: Contrôlez les importations de publipostage avec la propriété OdsoRecipientData Active. Gérez facilement les enregistrements de données pour une création fluide de documents. La valeur par défaut est « true ».
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-Spécifie si l'enregistrement de la source de données doit être importé dans un document lors du publipostage. La valeur par défaut est`vrai` .
+Spécifie si l'enregistrement de la source de données doit être importé dans un document lorsque le publipostage est effectué. La valeur par défaut est`vrai` .
 
 ```csharp
 public bool Active { get; set; }
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

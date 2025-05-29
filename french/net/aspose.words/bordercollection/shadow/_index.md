@@ -3,7 +3,7 @@ title: BorderCollection.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words pour .NET
-description: BorderCollection Shadow propriété. Obtient ou définit une valeur indiquant si la bordure a une ombre en C#.
+description: Découvrez la propriété Ombre de BorderCollection pour sublimer vos créations. Contrôlez facilement les ombres des bordures pour un look moderne et élégant à vos projets !
 type: docs
 weight: 110
 url: /fr/net/aspose.words/bordercollection/shadow/
@@ -20,7 +20,7 @@ public bool Shadow { get; set; }
 
 Obtient la valeur de la première bordure de la collection.
 
-Définit la valeur de toutes les bordures de la collection, à l'exception des bordures diagonales.
+Définit la valeur de toutes les bordures de la collection, à l'exclusion des bordures diagonales.
 
 ## Exemples
 

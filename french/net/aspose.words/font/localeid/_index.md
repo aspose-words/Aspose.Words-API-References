@@ -3,14 +3,14 @@ title: Font.LocaleId
 linktitle: LocaleId
 articleTitle: LocaleId
 second_title: Aspose.Words pour .NET
-description: Font LocaleId propriété. Obtient ou définit lidentifiant de paramètres régionaux langue des caractères formatés en C#.
+description: Découvrez comment la propriété Font LocaleId améliore la mise en forme de votre texte en gérant les identifiants régionaux pour différentes langues de caractères. Améliorez votre codage dès aujourd'hui !
 type: docs
 weight: 200
 url: /fr/net/aspose.words/font/localeid/
 ---
 ## Font.LocaleId property
 
-Obtient ou définit l'identifiant de paramètres régionaux (langue) des caractères formatés.
+Obtient ou définit l'identifiant régional (langue) des caractères formatés.
 
 ```csharp
 public int LocaleId { get; set; }
@@ -28,12 +28,12 @@ Montre comment définir les paramètres régionaux du texte que nous ajoutons av
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Si nous définissons les paramètres régionaux de la police sur Anglais et insérons du texte russe,
-// le correcteur orthographique des paramètres régionaux anglais ne reconnaîtra pas le texte et le détectera comme une faute d'orthographe.
+// Si nous définissons les paramètres régionaux de la police sur l'anglais et insérons du texte russe,
+// Le correcteur orthographique local anglais ne reconnaîtra pas le texte et le détectera comme une erreur d'orthographe.
 builder.Font.LocaleId = new CultureInfo("en-US", false).LCID;
 builder.Writeln("Привет!");
 
-// Définissez une locale correspondante pour le texte que nous sommes sur le point d'ajouter afin d'appliquer le correcteur orthographique approprié.
+// Définissez des paramètres régionaux correspondants pour le texte que nous sommes sur le point d'ajouter pour appliquer le correcteur orthographique approprié.
 builder.Font.LocaleId = new CultureInfo("ru-RU", false).LCID;
 builder.Writeln("Привет!");
 

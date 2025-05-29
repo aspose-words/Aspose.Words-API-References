@@ -3,14 +3,14 @@ title: DocSaveOptions.SaveRoutingSlip
 linktitle: SaveRoutingSlip
 articleTitle: SaveRoutingSlip
 second_title: Aspose.Words pour .NET
-description: DocSaveOptions SaveRoutingSlip propriété. QuandFAUX  les données Routingslip ne sont pas enregistrées dans le document de sortie. La valeur par défaut estvrai  en C#.
+description: Découvrez la propriété SaveRoutingSlip de DocSaveOptions. Contrôlez l'enregistrement des données RoutingSlip pour vos documents. Améliorez facilement la personnalisation de vos résultats !
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-Quand`FAUX` , les données Routingslip ne sont pas enregistrées dans le document de sortie. La valeur par défaut est`vrai` .
+Quand`FAUX` Les données RoutingSlip ne sont pas enregistrées dans le document de sortie. La valeur par défaut est`vrai` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }
@@ -27,11 +27,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Définir un mot de passe qui protégera le chargement du document par Microsoft Word ou Aspose.Words.
-// Notez que cela ne crypte en aucun cas le contenu du document.
+// Définissez un mot de passe qui protégera le chargement du document par Microsoft Word ou Aspose.Words.
+// Notez que cela ne crypte en aucune façon le contenu du document.
 options.Password = "MyPassword";
 
-// Si le document contient un bordereau de routage, nous pouvons le conserver lors de l'enregistrement en mettant cet indicateur à true.
+// Si le document contient un bordereau d'acheminement, nous pouvons le conserver lors de l'enregistrement en définissant cet indicateur sur true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

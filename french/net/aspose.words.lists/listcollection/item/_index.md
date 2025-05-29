@@ -3,7 +3,7 @@ title: ListCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: ListCollection Item propriété. Obtient une liste par index en C#.
+description: Accédez facilement aux éléments ListCollection par index. Simplifiez la gestion de vos données et optimisez votre codage grâce à cette puissante propriété !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.lists/listcollection/item/
@@ -35,7 +35,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-Montre comment appliquer la mise en forme d’une liste existante à une collection de paragraphes.
+Montre comment appliquer la mise en forme d'une liste existante à une collection de paragraphes.
 
 ```csharp
 Document doc = new Document();
@@ -47,18 +47,18 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
 doc.Lists.Add(ListTemplate.NumberDefault);
-List list = doc.Lists[0];
+List docList = doc.Lists[0];
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 2;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
 ### Voir également

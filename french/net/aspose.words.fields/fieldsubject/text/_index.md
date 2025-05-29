@@ -3,7 +3,7 @@ title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words pour .NET
-description: FieldSubject Text propriété. Obtient ou définit le texte du sujet en C#.
+description: Gérez la propriété Texte du sujet du champ sans effort : obtenez ou définissez votre texte d'objet pour une gestion transparente des données et une expérience utilisateur améliorée.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldsubject/text/
@@ -23,7 +23,7 @@ Montre comment utiliser le champ SUJET.
 ```csharp
 Document doc = new Document();
 
-// Définit une valeur pour la propriété intégrée "Sujet" du document.
+// Définissez une valeur pour la propriété intégrée « Sujet » du document.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
 // Créez un champ SUBJECT pour afficher la valeur de cette propriété intégrée.
@@ -34,9 +34,9 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// Si nous donnons la valeur de la propriété Texte du champ SUJET et que nous la mettons à jour, le champ
-// écrase la valeur actuelle de la propriété intégrée "Sujet" par la valeur de sa propriété Text,
-// puis affiche la nouvelle valeur.
+// Si nous donnons la valeur de la propriété Texte du champ SUBJECT et la mettons à jour, le champ sera
+// remplacer la valeur actuelle de la propriété intégrée « Subject » par la valeur de sa propriété Text,
+// puis affichez la nouvelle valeur.
 field.Text = "My new subject";
 field.Update();
 

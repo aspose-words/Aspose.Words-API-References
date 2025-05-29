@@ -3,9 +3,9 @@ title: ChartYValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: ChartYValueCollection Item propriété. Obtient ou définit la valeur Y à lindex spécifié en C#.
+description: Découvrez la propriété d'élément ChartYValueCollection pour accéder ou modifier facilement les valeurs Y à n'importe quel index, améliorant ainsi votre expérience de visualisation des données.
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartyvaluecollection/item/
 ---
 ## ChartYValueCollection indexer

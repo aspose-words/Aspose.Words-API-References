@@ -3,7 +3,7 @@ title: Table.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words pour .NET
-description: Table StyleName propriété. Obtient ou définit le nom du style de tableau appliqué à ce tableau en C#.
+description: Découvrez la propriété StyleName pour personnaliser facilement l'apparence de votre tableau. Améliorez votre design avec des options de style de tableau uniques dès aujourd'hui !
 type: docs
 weight: 290
 url: /fr/net/aspose.words.tables/table/stylename/
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

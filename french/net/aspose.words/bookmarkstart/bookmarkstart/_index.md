@@ -3,7 +3,7 @@ title: BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words pour .NET
-description: BookmarkStart constructeur. Initialise une nouvelle instance duBookmarkStart classe en C#.
+description: Découvrez le constructeur BookmarkStart ! Initialisez facilement de nouvelles instances BookmarkStart pour une gestion efficace des signets dans vos applications. Boostez votre productivité dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -19,7 +19,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | doc | DocumentBase | Le document du propriétaire. |
-| name | String | Le nom du signet. C'est pas possible`nul`. |
+| name | String | Le nom du signet. Impossible`nul`. |
 
 ## Exemples
 
@@ -42,7 +42,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -70,7 +70,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

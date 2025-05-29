@@ -3,14 +3,14 @@ title: FieldIncludePicture.IsLinked
 linktitle: IsLinked
 articleTitle: IsLinked
 second_title: Aspose.Words pour .NET
-description: FieldIncludePicture IsLinked propriété. Obtient ou définit sil faut réduire la taille du fichier en ne stockant pas les données graphiques avec le document en C#.
+description: Optimisez vos documents avec la propriété FieldIncludePicture IsLinked : contrôlez le stockage graphique pour réduire la taille des fichiers et améliorer les performances.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldincludepicture/islinked/
 ---
 ## FieldIncludePicture.IsLinked property
 
-Obtient ou définit s'il faut réduire la taille du fichier en ne stockant pas les données graphiques avec le document.
+Obtient ou définit s'il faut réduire la taille du fichier en ne stockant pas de données graphiques avec le document.
 
 ```csharp
 public bool IsLinked { get; set; }
@@ -18,20 +18,20 @@ public bool IsLinked { get; set; }
 
 ## Exemples
 
-Montre comment insérer des images à l’aide des champs IMPORT et INCLUDEPICTURE.
+Montre comment insérer des images à l'aide des champs IMPORT et INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux types de champs similaires que nous pouvons utiliser pour afficher des images liées depuis le système de fichiers local.
+// Vous trouverez ci-dessous deux types de champs similaires que nous pouvons utiliser pour afficher des images liées à partir du système de fichiers local.
 // 1 - Le champ INCLUDEPICTURE :
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 
 Assert.True(Regex.Match(fieldIncludePicture.GetFieldCode(), " INCLUDEPICTURE  .*").Success);
 
-// Applique le filtre PNG32.FLT.
+// Appliquer le filtre PNG32.FLT.
 fieldIncludePicture.GraphicFilter = "PNG32";
 fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;

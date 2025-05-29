@@ -3,7 +3,7 @@ title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
 second_title: Aspose.Words pour .NET
-description: Shading Texture propriété. Obtient ou définit la texture dombrage en C#.
+description: Découvrez la propriété Texture d'ombrage pour sublimer vos créations. Personnalisez et définissez facilement des textures pour des effets visuels époustouflants dans vos projets.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/shading/texture/

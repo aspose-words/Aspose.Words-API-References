@@ -3,14 +3,14 @@ title: ImageWatermarkOptions.Scale
 linktitle: Scale
 articleTitle: Scale
 second_title: Aspose.Words pour .NET
-description: ImageWatermarkOptions Scale propriété. Obtient ou définit le facteur déchelle exprimé en fraction de limage. La valeur par défaut est 0  auto en C#.
+description: Découvrez la propriété Échelle d'ImageWatermarkOptions pour ajuster facilement la mise à l'échelle de l'image et optimiser le filigrane. La valeur par défaut est 0 auto pour une intégration transparente.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/imagewatermarkoptions/scale/
 ---
 ## ImageWatermarkOptions.Scale property
 
-Obtient ou définit le facteur d'échelle exprimé en fraction de l'image. La valeur par défaut est 0 - auto.
+Récupère ou définit le facteur d'échelle, exprimé en fraction de l'image. La valeur par défaut est 0 (automatique).
 
 ```csharp
 public double Scale { get; set; }
@@ -20,30 +20,35 @@ public double Scale { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque l'argument est hors de la plage des valeurs valides. |
+| ArgumentOutOfRangeException | Lancé lorsque l'argument est hors de la plage de valeurs valides. |
 
 ## Remarques
 
 Les valeurs valides vont de 0 à 65,5 inclus.
 
-L'échelle automatique signifie que le filigrane sera mis à l'échelle à sa largeur maximale et à sa hauteur maximale par rapport à les marges de la page.
+La mise à l'échelle automatique signifie que le filigrane sera mis à l'échelle à sa largeur maximale et à sa hauteur maximale par rapport aux marges de la page.
 
 ## Exemples
 
-Montre comment créer un filigrane à partir d’une image dans le système de fichiers local.
+Montre comment créer un filigrane à partir d'une image dans le système de fichiers local.
 
 ```csharp
 Document doc = new Document();
 
-            // Modifier l'apparence du filigrane de l'image avec un objet ImageWatermarkOptions,
-            // puis transmettez-le en créant un filigrane à partir d'un fichier image.
+            // Modifiez l'apparence du filigrane de l'image avec un objet ImageWatermarkOptions,
+            // puis transmettez-le lors de la création d'un filigrane à partir d'un fichier image.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // Nous avons différentes options pour insérer une image :
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

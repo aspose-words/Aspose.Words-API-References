@@ -3,7 +3,7 @@ title: Paragraph.IsEndOfDocument
 linktitle: IsEndOfDocument
 articleTitle: IsEndOfDocument
 second_title: Aspose.Words pour .NET
-description: Paragraph IsEndOfDocument propriété. Vrai si ce paragraphe est le dernier paragraphe de la dernière section du document en C#.
+description: Découvrez la propriété IsEndOfDocument pour les paragraphes. Apprenez à identifier le dernier paragraphe de la dernière section de votre document pour une mise en forme efficace.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/paragraph/isendofdocument/
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// La méthode "Writeln" termine le paragraphe après avoir ajouté du texte
-// puis commence une nouvelle ligne, ajoutant un nouveau paragraphe.
+// La méthode « Writeln » termine le paragraphe après avoir ajouté du texte
+// puis démarre une nouvelle ligne, ajoutant un nouveau paragraphe.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

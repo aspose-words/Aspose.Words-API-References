@@ -3,14 +3,14 @@ title: Odso.ColumnDelimiter
 linktitle: ColumnDelimiter
 articleTitle: ColumnDelimiter
 second_title: Aspose.Words pour .NET
-description: Odso ColumnDelimiter propriété. Spécifie le caractère qui doit être interprété comme délimiteur de colonne utilisé pour séparer les colonnes dans les sources de données externes. La valeur par défaut est 0 ce qui signifie quaucun délimiteur de colonne nest défini en C#.
+description: Découvrez la propriété Odso ColumnDelimiter pour définir facilement des séparateurs de colonnes dans les sources de données externes. Améliorez l'organisation de vos données grâce à des délimiteurs personnalisables !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/odso/columndelimiter/
 ---
 ## Odso.ColumnDelimiter property
 
-Spécifie le caractère qui doit être interprété comme délimiteur de colonne utilisé pour séparer les colonnes dans les sources de données externes. La valeur par défaut est 0, ce qui signifie qu'aucun délimiteur de colonne n'est défini.
+Spécifie le caractère qui doit être interprété comme le délimiteur de colonne utilisé pour séparer les colonnes dans les sources de données externes. La valeur par défaut est 0, ce qui signifie qu'aucun délimiteur de colonne n'est défini.
 
 ```csharp
 public char ColumnDelimiter { get; set; }
@@ -18,11 +18,11 @@ public char ColumnDelimiter { get; set; }
 
 ## Remarques
 
-RK Je n'ai jamais vu cela utilisé.
+RK Je n'ai jamais vu cela en usage.
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

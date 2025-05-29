@@ -3,7 +3,7 @@ title: FieldAutoTextList.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words pour .NET
-description: FieldAutoTextList ScreenTip propriété. Obtient ou définit le texte de linfobulle à afficher en C#.
+description: Découvrez la propriété ScreenTip FieldAutoTextList, personnalisez facilement votre texte ScreenTip pour une expérience utilisateur améliorée et une clarté dans votre application.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldautotextlist/screentip/
@@ -18,14 +18,14 @@ public string ScreenTip { get; set; }
 
 ## Exemples
 
-Montre comment utiliser un champ AUTOTEXTLIST pour effectuer une sélection dans une liste d’entrées d’insertion automatique.
+Montre comment utiliser un champ AUTOTEXTLIST pour sélectionner dans une liste d'entrées de texte automatique.
 
 ```csharp
 public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Créez un document glossaire et remplissez-le avec des entrées de texte automatiques.
+    // Créez un document de glossaire et remplissez-le avec des entrées de texte automatiques.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -34,7 +34,7 @@ public void FieldAutoTextList()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Créez un champ AUTOTEXTLIST et définissez le texte que le champ affichera dans Microsoft Word.
-    // Définit le texte pour inviter l'utilisateur à cliquer avec le bouton droit sur ce champ pour sélectionner un bloc de construction d'insertion automatique,
+    // Définissez le texte pour inviter l'utilisateur à cliquer avec le bouton droit sur ce champ pour sélectionner un bloc de construction de texte automatique,
     // dont le contenu sera affiché dans le champ.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// Créez un bloc de construction de type AutoTexte et ajoutez-le à un document glossaire.
+/// Créez un bloc de construction de type AutoText et ajoutez-le à un document de glossaire.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

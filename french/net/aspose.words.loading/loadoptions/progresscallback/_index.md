@@ -3,14 +3,14 @@ title: LoadOptions.ProgressCallback
 linktitle: ProgressCallback
 articleTitle: ProgressCallback
 second_title: Aspose.Words pour .NET
-description: LoadOptions ProgressCallback propriété. Appelé lors du chargement dun document et accepte les données sur la progression du chargement en C#.
+description: Découvrez la propriété LoadOptions ProgressCallback pour suivre efficacement la progression du chargement des documents. Améliorez les performances de votre application et l'expérience utilisateur !
 type: docs
 weight: 130
 url: /fr/net/aspose.words.loading/loadoptions/progresscallback/
 ---
 ## LoadOptions.ProgressCallback property
 
-Appelé lors du chargement d'un document et accepte les données sur la progression du chargement.
+Appelé lors du chargement d'un document et accepte des données sur la progression du chargement.
 
 ```csharp
 public IDocumentLoadingCallback ProgressCallback { get; set; }
@@ -22,7 +22,7 @@ Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott forma
 
 ## Exemples
 
-Montre comment avertir l'utilisateur si le chargement du document a dépassé le temps de chargement prévu.
+Montre comment avertir l'utilisateur si le chargement du document dépasse le temps de chargement prévu.
 
 ```csharp
 public void ProgressCallback()
@@ -39,12 +39,12 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Gère le problème de durée de chargement.
+        // Gérer le problème de durée de chargement.
     }
 }
 
 /// <summary>
-/// Annule le chargement d'un document après les secondes "MaxDuration".
+/// Annuler le chargement d'un document après les secondes "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {

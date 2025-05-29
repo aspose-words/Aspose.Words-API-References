@@ -3,7 +3,7 @@ title: FieldAsk
 linktitle: FieldAsk
 articleTitle: FieldAsk
 second_title: Aspose.Words pour .NET
-description: FieldAsk constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldAsk, votre solution idéale pour une intégration fluide et des performances optimales dans vos projets. Exploitez tout son potentiel dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldask/fieldask/

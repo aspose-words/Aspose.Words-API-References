@@ -3,14 +3,14 @@ title: Comment.Done
 linktitle: Done
 articleTitle: Done
 second_title: Aspose.Words pour .NET
-description: Comment Done propriété. Obtient ou définit lindicateur indiquant que le commentaire a été marqué comme terminé en C#.
+description: Marquez les commentaires comme terminés avec la propriété Terminé. Gérez facilement vos tâches et améliorez l'efficacité de votre flux de travail grâce à cette fonctionnalité simple.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words/comment/done/
 ---
 ## Comment.Done property
 
-Obtient ou définit l'indicateur indiquant que le commentaire a été marqué comme terminé.
+Obtient ou définit un indicateur indiquant que le commentaire a été marqué comme terminé.
 
 ```csharp
 public bool Done { get; set; }
@@ -25,21 +25,21 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
- // Insère un commentaire pour signaler une erreur.
+ // Insérer un commentaire pour signaler une erreur.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
- // Les commentaires ont un indicateur "Terminé", qui est défini sur "false" par défaut.
-// Si un commentaire nous suggère d'effectuer une modification au sein du document,
-// nous pouvons appliquer la modification, puis également définir le drapeau "Terminé" par la suite pour indiquer la correction.
+ // Les commentaires ont un indicateur « Terminé », qui est défini sur « faux » par défaut.
+// Si un commentaire suggère que nous apportions une modification au sein du document,
+// nous pouvons appliquer la modification, puis également définir l'indicateur « Terminé » par la suite pour indiquer la correction.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
-// Les commentaires "terminés" se différencieront
-// parmi ceux qui ne sont pas "finis" avec une couleur de texte délavée.
+// Les commentaires « terminés » se différencieront
+// de ceux qui ne sont pas « finis » avec une couleur de texte délavée.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);
@@ -70,7 +70,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Ajoute deux réponses au commentaire.
+    // Ajoutez deux réponses au commentaire.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -78,21 +78,25 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itérer sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Tout d'abord, visitez le début de la plage de commentaires.
+        // Tout d’abord, visitez le début de la plage de commentaires.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut avoir.
+        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut contenir.
         comment.Accept(commentVisitor);
+        // Visitez uniquement le début du commentaire.
+        comment.AcceptStart(commentVisitor);
+        // Visitez uniquement la fin du commentaire.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
@@ -159,7 +163,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Commentaire est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Comment est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -184,9 +188,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

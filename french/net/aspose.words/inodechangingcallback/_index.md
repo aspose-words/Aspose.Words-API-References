@@ -3,9 +3,9 @@ title: INodeChangingCallback Interface
 linktitle: INodeChangingCallback
 articleTitle: INodeChangingCallback
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.INodeChangingCallback interface. Implémentez cette interface si vous souhaitez recevoir des notifications lorsque des nœuds sont insérés ou supprimés dans le document en C#.
+description: Implémentez l'interface Aspose.Words.INodeChangingCallback pour obtenir des notifications en temps réel sur les modifications des nœuds de document, améliorant ainsi votre expérience de gestion de documents.
 type: docs
-weight: 3200
+weight: 3640
 url: /fr/net/aspose.words/inodechangingcallback/
 ---
 ## INodeChangingCallback interface
@@ -35,8 +35,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Définit le rappel de changement de nœud sur une implémentation personnalisée,
-    // puis ajoutez/supprimez des nœuds pour qu'il génère un journal.
+    // Définir le rappel de changement de nœud sur une implémentation personnalisée,
+    // puis ajoutez/supprimez des nœuds pour générer un journal.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -52,7 +52,7 @@ public void FontChangeViaCallback()
 
 /// <summary>
 /// Enregistre la date et l'heure de chaque insertion et suppression de nœud.
-/// Définit un nom/une taille de police personnalisée pour le contenu du texte des nœuds Run.
+/// Définit un nom/une taille de police personnalisée pour le contenu texte des nœuds Run.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -63,7 +63,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

@@ -3,16 +3,16 @@ title: FieldMergingArgsBase Class
 linktitle: FieldMergingArgsBase
 articleTitle: FieldMergingArgsBase
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.FieldMergingArgsBase classe. Classe de base pourFieldMergingArgs etImageFieldMergingArgs  en C#.
+description: Découvrez la classe Aspose.Words.MailMerging.FieldMergingArgsBase, la base d'une fusion de champs et d'une gestion d'images efficaces dans l'automatisation des documents.
 type: docs
-weight: 3780
+weight: 4470
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class
 
 Classe de base pour[`FieldMergingArgs`](../fieldmergingargs/) et[`ImageFieldMergingArgs`](../imagefieldmergingargs/) .
 
-Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article de documentation.
 
 ```csharp
 public abstract class FieldMergingArgsBase
@@ -22,7 +22,7 @@ public abstract class FieldMergingArgsBase
 
 | Nom | La description |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Renvoie le[`Document`](./document/) objet pour lequel le publipostage est effectué. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Renvoie le[`Document`](./document/)objet pour lequel le publipostage est effectué. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Obtient le nom du champ de fusion tel que spécifié dans le document. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Obtient l'objet qui représente le champ de fusion actuel. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Obtient le nom du champ de fusion dans la source de données. |
@@ -65,8 +65,8 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Si le publipostage rencontre un MERGEFIELD dont le nom commence par le préfixe "html_",
-/// ce rappel analyse ses données de fusion en tant que contenu HTML et ajoute le résultat à l'emplacement du document du MERGEFIELD.
+/// Si le publipostage rencontre un MERGEFIELD dont le nom commence par le préfixe « html_ »,
+/// ce rappel analyse ses données de fusion en tant que contenu HTML et ajoute le résultat à l'emplacement du document MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -77,20 +77,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Ajoute des données HTML analysées au corps du document.
+            // Ajoutez les données HTML analysées au corps du document.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
+            // Puisque nous avons déjà inséré le contenu fusionné manuellement,
+            // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 }
 ```

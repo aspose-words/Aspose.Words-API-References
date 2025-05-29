@@ -3,14 +3,14 @@ title: Font.DoubleStrikeThrough
 linktitle: DoubleStrikeThrough
 articleTitle: DoubleStrikeThrough
 second_title: Aspose.Words pour .NET
-description: Font DoubleStrikeThrough propriété. Vrai si la police est formatée en texte double barré en C#.
+description: Découvrez la propriété Police DoubleStrikeThrough. Formatez facilement du texte avec un double barré pour plus de clarté et de style dans vos documents.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/font/doublestrikethrough/
 ---
 ## Font.DoubleStrikeThrough property
 
-Vrai si la police est formatée en texte double barré.
+Vrai si la police est formatée en texte barré double.
 
 ```csharp
 public bool DoubleStrikeThrough { get; set; }

@@ -3,7 +3,7 @@ title: PreferredWidth.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words pour .NET
-description: PreferredWidth GetHashCode méthode. Sert de fonction de hachage pour ce type en C#.
+description: Découvrez la méthode PreferredWidth GetHashCode, une fonction de hachage essentielle pour une gestion efficace des données et une génération de valeur unique dans vos applications.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.tables/preferredwidth/gethashcode/
@@ -25,14 +25,14 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Il existe deux manières d'appliquer la classe "PreferredWidth" aux cellules d'un tableau.
-// 1 - Définit une largeur préférée absolue basée sur les points :
+// Il existe deux manières d'appliquer la classe « PreferredWidth » aux cellules du tableau.
+// 1 - Définir une largeur préférée absolue en fonction des points :
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Définit une largeur préférée relative basée sur le pourcentage de la largeur du tableau :
+// 2 - Définir une largeur préférée relative en fonction du pourcentage de la largeur du tableau :
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -43,7 +43,7 @@ builder.InsertCell();
 // Une cellule sans largeur préférée spécifiée occupera le reste de l'espace disponible.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// Chaque configuration de la propriété "PreferredWidth" crée un nouvel objet.
+// Chaque configuration de la propriété « PreferredWidth » crée un nouvel objet.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

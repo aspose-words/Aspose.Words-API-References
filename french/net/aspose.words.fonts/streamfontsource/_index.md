@@ -3,19 +3,19 @@ title: StreamFontSource Class
 linktitle: StreamFontSource
 articleTitle: StreamFontSource
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.StreamFontSource classe. Classe de base pour la source de police de flux définie par lutilisateur en C#.
+description: Découvrez la classe Aspose.Words.Fonts.StreamFontSource, votre solution de référence pour les sources de polices de flux personnalisées qui améliorent la flexibilité et la conception des documents.
 type: docs
-weight: 3040
+weight: 3470
 url: /fr/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
 
 Classe de base pour la source de police de flux définie par l'utilisateur.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
-public abstract class StreamFontSource : FontSourceBase
+public abstract class StreamFontSource : FontSourceBase,   
 ```
 
 ## Propriétés
@@ -23,9 +23,9 @@ public abstract class StreamFontSource : FontSourceBase
 | Nom | La description |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey/) { get; } | La clé de cette source dans le cache. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de police. |
-| [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | Renvoie le type de la source de police. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Renvoie la priorité de la source de la police. |
+| [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | Renvoie le type de la source de la police. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Appelé pendant le traitement de la source de police lorsqu'un problème est détecté qui pourrait entraîner une perte de fidélité du formatage. |
 
 ## Méthodes
 
@@ -36,15 +36,15 @@ public abstract class StreamFontSource : FontSourceBase
 
 ## Remarques
 
-Afin d'utiliser la source de police de flux, vous devez créer une classe dérivée à partir du`StreamFontSource` et assurer la mise en œuvre du[`OpenFontDataStream`](./openfontdatastream/) méthode.
+Pour utiliser la source de police de flux, vous devez créer une classe dérivée à partir de la`StreamFontSource` et fournir la mise en œuvre du[`OpenFontDataStream`](./openfontdatastream/) méthode.
 
-[`OpenFontDataStream`](./openfontdatastream/)La méthode peut être appelée plusieurs fois. Pour la première fois, il sera appelé lorsqu'Aspose.Words analysera les sources de polices fournies pour obtenir la liste des polices disponibles. Plus tard, il peut être appelé si la police est utilisée dans le document pour analyser les données de police et pour intégrer les données de police dans certains formats de sortie.
+[`OpenFontDataStream`](./openfontdatastream/)La méthode peut être appelée plusieurs fois. Pour la première fois, elle sera appelée lorsqu'Aspose.Words analysera les sources de polices fournies pour obtenir la liste des polices disponibles. Elle pourra ensuite être appelée si la police est utilisée dans le document pour analyser les données de police et les intégrer à certains formats de sortie.
 
-`StreamFontSource` peut être utile car cela permet de charger les données de police uniquement lorsqu'elles sont requises et de ne pas les stocker en mémoire pour le[`FontSettings`](../fontsettings/) durée de vie.
+`StreamFontSource` peut être utile car cela permet de charger les données de police uniquement lorsque cela est nécessaire et de ne pas les stocker en mémoire pour le[`FontSettings`](../fontsettings/) durée de vie.
 
 ## Exemples
 
-Montre comment charger les polices à partir du flux.
+Montre comment charger des polices à partir du flux.
 
 ```csharp
 public void StreamFontSourceFileRendering()
@@ -61,8 +61,8 @@ public void StreamFontSourceFileRendering()
 }
 
 /// <summary>
-/// Charge les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
-/// pendant toute la durée de vie de l'objet "FontSettings".
+/// Chargez les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
+/// pendant toute la durée de vie de l'objet « FontSettings ».
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {
@@ -76,5 +76,6 @@ private class StreamFontSourceFile : StreamFontSource
 ### Voir également
 
 * class [FontSourceBase](../fontsourcebase/)
+* interface [  ](../../global/%02  /)
 * espace de noms [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * Assemblée [Aspose.Words](../../)

@@ -3,7 +3,7 @@ title: MappedDataFieldCollection.ContainsValue
 linktitle: ContainsValue
 articleTitle: ContainsValue
 second_title: Aspose.Words pour .NET
-description: MappedDataFieldCollection ContainsValue méthode. Détermine si un mappage du champ spécifié dans la source de données existe dans la collection en C#.
+description: Découvrez si un mappage de champs existe dans MappedDataFieldCollection grâce à la méthode ContainsValue. Améliorez votre gestion de données dès aujourd'hui !
 type: docs
 weight: 60
 url: /fr/net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/
@@ -18,15 +18,15 @@ public bool ContainsValue(string dataSourceFieldName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| dataSourceFieldName | String | Nom du champ sensible à la casse dans la source de données. |
+| dataSourceFieldName | String | Nom sensible à la casse du champ dans la source de données. |
 
 ### Return_Value
 
-`vrai` si l'article est trouvé dans la collection ; sinon,`FAUX`.
+`vrai`si l'élément est trouvé dans la collection ; sinon,`FAUX`.
 
 ## Exemples
 
-Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre elles lors d'un publipostage.
+Montre comment mapper des colonnes de données et des MERGEFIELD avec des noms différents afin que les données soient transférées entre eux lors d'un publipostage.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -34,24 +34,24 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // La table a une colonne nommée "Colonne2", mais il n'existe aucun MERGEFIELD portant ce nom.
-    // Nous avons également un MERGEFIELD nommé "Column3", mais la source de données n'a pas de colonne portant ce nom.
-    // Si les données de "Colonne2" conviennent au MERGEFIELD "Colonne3",
-    // nous pouvons mapper ce nom de colonne au MERGEFIELD dans la paire clé/valeur "MappedDataFields".
+    // La table a une colonne nommée « Colonne2 », mais il n'y a pas de MERGEFIELD portant ce nom.
+    // Nous avons également un MERGEFIELD nommé « Column3 », mais la source de données n'a pas de colonne portant ce nom.
+    // Si les données de « Colonne 2 » conviennent au MERGEFIELD « Colonne 3 »,
+    // nous pouvons mapper ce nom de colonne au MERGEFIELD dans la paire clé/valeur « MappedDataFields ».
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
     // Nous pouvons lier un nom de colonne de source de données à un nom MERGEFIELD comme celui-ci.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // Liez la colonne de source de données nommée "Column2" aux MERGEFIELD nommés "Column3".
+    // Liez la colonne de source de données nommée « Colonne2 » aux MERGEFIELD nommés « Colonne3 ».
     mappedDataFields.Add("Column3", "Column2");
 
-    // Le nom MERGEFIELD est la "clé" du nom de colonne de source de données respectif "valeur".
+    // Le nom MERGEFIELD est la « clé » du nom de colonne de source de données respectif « valeur ».
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Maintenant, si nous exécutons ce publipostage, les MERGEFIELD "Colonne3" prendront les données de la "Colonne2" de la table.
+    // Maintenant, si nous exécutons cette fusion, les MERGEFIELD « Colonne 3 » prendront les données de la « Colonne 2 » de la table.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
@@ -64,7 +64,7 @@ public void MappedDataFieldCollection()
             Console.WriteLine(
                 $"Column named {enumerator.Current.Value} is mapped to MERGEFIELDs named {enumerator.Current.Key}");
 
-    // On peut également supprimer des éléments de la collection.
+    // Nous pouvons également supprimer des éléments de la collection.
     mappedDataFields.Remove("MergeFieldName");
 
     Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
@@ -76,7 +76,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Crée un document avec 2 MERGEFIELD dont un n'a pas de
+/// Créez un document avec 2 MERGEFIELD, dont l'un n'a pas de
 /// colonne correspondante dans le tableau de données de la méthode ci-dessous.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -92,7 +92,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Créer une table de données avec 2 colonnes dont une sans
+/// Créez une table de données avec 2 colonnes, dont une sans
 /// MERGEFIELD correspondant dans le document source de la méthode ci-dessus.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

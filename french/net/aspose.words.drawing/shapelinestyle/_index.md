@@ -3,9 +3,9 @@ title: ShapeLineStyle Enum
 linktitle: ShapeLineStyle
 articleTitle: ShapeLineStyle
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.ShapeLineStyle énumération. Spécifie le style de ligne composé dunShape  en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.ShapeLineStyle pour améliorer la conception de votre document avec des styles de lignes composées personnalisables pour les formes.
 type: docs
-weight: 1270
+weight: 1660
 url: /fr/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
@@ -21,10 +21,10 @@ public enum ShapeLineStyle
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Single | `0` | Ligne unique. |
-| Double | `1` | Lignes doubles d'égale largeur. |
+| Double | `1` | Lignes doubles de largeur égale. |
 | ThickThin | `2` | Lignes doubles, une épaisse, une fine. |
 | ThinThick | `3` | Lignes doubles, une fine, une épaisse. |
-| Triple | `4` | Trois lignes, fines, épaisses, fines. |
+| Triple | `4` | Trois lignes, fine, épaisse, fine. |
 | Default | `0` | La valeur par défaut estSingle . |
 
 ## Exemples
@@ -38,8 +38,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Les formes de base, comme le rectangle, comportent deux parties visibles.
-// 1 - Le remplissage, qui s'applique à la zone située à l'intérieur du contour de la forme :
+// Les formes de base, comme le rectangle, ont deux parties visibles.
+// 1 - Le remplissage, qui s'applique à la zone à l'intérieur du contour de la forme :
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Le trait, qui marque le contour de la forme :

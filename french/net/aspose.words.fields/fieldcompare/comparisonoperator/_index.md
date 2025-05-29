@@ -3,7 +3,7 @@ title: FieldCompare.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words pour .NET
-description: FieldCompare ComparisonOperator propriété. Obtient ou définit lopérateur de comparaison en C#.
+description: Découvrez la propriété FieldCompare ComparisonOperator : gérez facilement vos opérateurs de comparaison pour une analyse et une efficacité des données améliorées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldcompare/comparisonoperator/
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; set; }
 
 ## Exemples
 
-Montre comment comparer des expressions à l’aide d’un champ COMPARE.
+Montre comment comparer des expressions à l'aide d'un champ COMPARE.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// Le champ COMPARE affiche un "0" ou un "1", selon la véracité de sa déclaration.
-// Le résultat de cette instruction est faux donc ce champ affichera un "0".
+// Le champ COMPARE affiche un « 0 » ou un « 1 », selon la véracité de son affirmation.
+// Le résultat de cette instruction est faux, donc ce champ affichera un « 0 ».
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -43,7 +43,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// Ce champ affiche un "1" puisque la déclaration est vraie.
+// Ce champ affiche un « 1 » puisque l'affirmation est vraie.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

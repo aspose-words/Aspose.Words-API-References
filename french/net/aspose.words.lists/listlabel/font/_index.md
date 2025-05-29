@@ -3,7 +3,7 @@ title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words pour .NET
-description: ListLabel Font propriété. Obtient la police de létiquette de la liste en C#.
+description: Découvrez la propriété Police ListLabel pour personnaliser le style de police de votre étiquette de liste et améliorer votre conception pour une touche professionnelle.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lists/listlabel/font/

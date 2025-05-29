@@ -3,7 +3,7 @@ title: ConvertUtil.InchToPoint
 linktitle: InchToPoint
 articleTitle: InchToPoint
 second_title: Aspose.Words pour .NET
-description: ConvertUtil InchToPoint méthode. Convertit les pouces en points en C#.
+description: Convertissez facilement des pouces en points grâce à la méthode InchToPoint de ConvertUtil. Améliorez dès aujourd'hui la précision de vos conceptions et de vos mesures !
 type: docs
 weight: 10
 url: /fr/net/aspose.words/convertutil/inchtopoint/
@@ -26,7 +26,7 @@ public static double InchToPoint(double inches)
 
 ## Exemples
 
-Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
+Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();
@@ -52,8 +52,8 @@ Montre comment spécifier les propriétés de la page en pouces.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La "Mise en page" d'une section définit la taille des marges de la page en points.
-// On peut également utiliser la classe "ConvertUtil" pour utiliser une unité de mesure plus familière,
+// La « Mise en page » d'une section définit la taille des marges de la page en points.
+// Nous pouvons également utiliser la classe « ConvertUtil » pour utiliser une unité de mesure plus familière,
 // comme les pouces lors de la définition des limites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);

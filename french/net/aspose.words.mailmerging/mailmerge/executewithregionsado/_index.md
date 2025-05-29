@@ -3,7 +3,7 @@ title: MailMerge.ExecuteWithRegionsADO
 linktitle: ExecuteWithRegionsADO
 articleTitle: ExecuteWithRegionsADO
 second_title: Aspose.Words pour .NET
-description: MailMerge ExecuteWithRegionsADO méthode. Effectue un publipostage à partir dun objet ADO Recordset dans le document avec des régions de publipostage en C#.
+description: Simplifiez la création de vos documents grâce à la méthode MailMerge ExecuteWithRegionsADO. Fusionnez facilement les données d'un Recordset ADO pour des résultats personnalisés.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
@@ -18,12 +18,12 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| recordset | Object | ADO Recordset ou objet Record. |
-| tableName | String | Nom de la région de publipostage dans le document à remplir. |
+| recordset | Object | Objet Recordset ou Record ADO. |
+| tableName | String | Nom de la région de publipostage dans le document à renseigner. |
 
 ## Remarques
 
-Cette méthode est utile lorsque vous avez l'intention d'utiliser les classes Aspose.Words as COM à partir de code non managé tel qu'une application créée à l'aide de ASP ou Visual Basic 6.0.
+Cette méthode est utile lorsque vous avez l'intention d'utiliser les classes Aspose.Words comme objets COM à partir de code non managé tel qu'une application créée à l'aide d'ASP ou de Visual Basic 6.0.
 
 Pour plus d'informations, voir la description de[`ExecuteWithRegions`](../executewithregions/).
 
@@ -48,40 +48,40 @@ Doc.MailMerge.ExecuteWithRegionsADO RS, "OrderDetails"
 Doc.Save "Invoice Out VBScript.doc"
 ```
 
-Montre comment exécuter un publipostage avec plusieurs régions, compilé avec les données d'un ensemble de données ADO.
+Montre comment exécuter un publipostage avec plusieurs régions, compilées avec des données provenant d'un ensemble de données ADO.
 
 ```csharp
 public void ExecuteWithRegionsADO()
 {
     Document doc = CreateSourceDocADOMailMergeWithRegions();
 
-    // Pour travailler avec ADO DataSets, nous devrons ajouter une référence à la bibliothèque Microsoft ActiveX Data Objects,
-    // qui est inclus dans la distribution .NET et stocké dans "adodb.dll".
+    // Pour travailler avec les DataSets ADO, nous devrons ajouter une référence à la bibliothèque Microsoft ActiveX Data Objects,
+    // qui est inclus dans la distribution .NET et stocké dans « adodb.dll ».
     ADODB.Connection connection = new ADODB.Connection();
 
-    // Crée une chaîne de connexion qui pointe vers le fichier de base de données "Northwind"
+    // Créer une chaîne de connexion qui pointe vers le fichier de base de données « Northwind »
     // dans notre système de fichiers local et ouvrez une connexion.
     string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Remplir notre DataSet en exécutant une commande SQL sur notre base de données.
-    // Les noms des colonnes de la table de résultats devront correspondre
+    // Remplissez notre DataSet en exécutant une commande SQL sur notre base de données.
+    // Les noms des colonnes dans la table de résultats devront correspondre
     // aux valeurs des MERGEFIELDS qui accueilleront nos données.
     string command = "SELECT FirstName, LastName, City FROM Employees";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Exécute un publipostage uniquement sur la première région, en remplissant ses MERGEFIELDS avec les données du jeu d'enregistrements.
+    // Exécutez un publipostage uniquement sur la première région, en remplissant ses MERGEFIELDS avec les données de l'ensemble d'enregistrements.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion1");
 
-    // Fermez le jeu d'enregistrements et rouvrez-le avec les données d'une autre requête SQL.
+    // Fermez l'ensemble d'enregistrements et rouvrez-le avec les données d'une autre requête SQL.
     command = "SELECT * FROM Customers";
 
     recordset.Close();
     recordset.Open(command, connection);
 
-    // Exécute un deuxième publipostage sur la deuxième région et enregistre le document.
+    // Exécutez un deuxième publipostage sur la deuxième région et enregistrez le document.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");

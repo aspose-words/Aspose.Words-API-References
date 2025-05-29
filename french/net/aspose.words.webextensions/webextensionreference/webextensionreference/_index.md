@@ -3,7 +3,7 @@ title: WebExtensionReference
 linktitle: WebExtensionReference
 articleTitle: WebExtensionReference
 second_title: Aspose.Words pour .NET
-description: WebExtensionReference constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur WebExtensionReference : votre passerelle pour créer facilement des extensions puissantes. Bénéficiez de fonctionnalités uniques et optimisez vos fonctionnalités dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.webextensions/webextensionreference/webextensionreference/

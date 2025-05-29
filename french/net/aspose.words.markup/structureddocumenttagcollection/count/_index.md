@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagCollection Count propriété. Renvoie le nombre de balises de document structuré dans la collection en C#.
+description: Découvrez la propriété Count de StructuredDocumentTagCollection, qui révèle efficacement le nombre total de balises de documents structurés pour une meilleure gestion des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/count/
 ---
 ## StructuredDocumentTagCollection.Count property
 
-Renvoie le nombre de balises de document structuré dans la collection.
+Renvoie le nombre de balises de documents structurés dans la collection.
 
 ```csharp
 public int Count { get; }

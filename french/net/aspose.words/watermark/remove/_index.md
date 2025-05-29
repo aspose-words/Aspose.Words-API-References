@@ -3,7 +3,7 @@ title: Watermark.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: Watermark Remove méthode. Supprime le filigrane en C#.
+description: Supprimez les filigranes sans effort grâce à notre méthode efficace. Redonnez à vos images leur beauté d'origine et sublimez vos projets créatifs dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words/watermark/remove/
@@ -23,10 +23,10 @@ Montre comment créer un filigrane de texte.
 ```csharp
 Document doc = new Document();
 
-// Ajoute un filigrane en texte brut.
+// Ajouter un filigrane en texte brut.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Si l'on souhaite éditer la mise en forme du texte en l'utilisant comme filigrane,
+// Si nous souhaitons modifier la mise en forme du texte en l'utilisant comme filigrane,
 // nous pouvons le faire en passant un objet TextWatermarkOptions lors de la création du filigrane.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

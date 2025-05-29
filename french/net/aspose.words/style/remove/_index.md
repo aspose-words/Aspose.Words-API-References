@@ -3,9 +3,9 @@ title: Style.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: Style Remove méthode. Supprime le style spécifié du document en C#.
+description: Supprimez facilement les styles indésirables de votre document grâce à la méthode « Supprimer les styles ». Améliorez l'apparence de votre contenu et préservez sa cohérence !
 type: docs
-weight: 190
+weight: 230
 url: /fr/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -20,9 +20,9 @@ public void Remove()
 
 La suppression du style a les effets suivants sur le modèle de document :
 
-* Toutes les références au style sont supprimées des paragraphes, passages et tableaux correspondants.
+* Toutes les références au style sont supprimées des paragraphes, séries et tableaux correspondants.
 * Si le style de base est supprimé, sa mise en forme est déplacée vers les styles enfants.
-* Si le style à supprimer possède un style lié, ces deux styles sont supprimés.
+* Si le style à supprimer a un style lié, alors les deux sont supprimés.
 
 ## Exemples
 
@@ -35,12 +35,12 @@ Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle");
 style.Font.Name = "Times New Roman";
 style.Font.Size = 16;
 style.Font.Color = Color.Navy;
-// Redéfinit automatiquement le style.
+// Redéfinir automatiquement le style.
 style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Applique l'un des styles du document au paragraphe créé par le générateur de document.
+// Appliquez l’un des styles du document au paragraphe que le générateur de documents est en train de créer.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 
@@ -53,7 +53,7 @@ doc.Styles["MyStyle"].Remove();
 
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-// Tout texte utilisant un style supprimé revient au formatage par défaut.
+// Tout texte qui utilise un style supprimé revient à la mise en forme par défaut.
 Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
 Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
 Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);

@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.Uri
 linktitle: Uri
 articleTitle: Uri
 second_title: Aspose.Words pour .NET
-description: ResourceLoadingArgs Uri propriété. URI de la ressource utilisée pour le téléchargement siResourceLoading renvoieDefault en C#.
+description: Découvrez la propriété URI ResourceLoadingArgs pour un téléchargement efficace des ressources. Simplifiez votre flux de travail grâce à une gestion optimale des URI pour une intégration fluide.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.loading/resourceloadingargs/uri/

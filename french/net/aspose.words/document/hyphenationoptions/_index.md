@@ -3,14 +3,14 @@ title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words pour .NET
-description: Document HyphenationOptions propriété. Donne accès aux options de césure des documents en C#.
+description: Explorez la propriété Document HyphenationOptions pour personnaliser les paramètres de césure, améliorant ainsi la lisibilité et la présentation de votre document.
 type: docs
-weight: 210
+weight: 220
 url: /fr/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-Donne accès aux options de césure des documents.
+Donne accès aux options de césure du document.
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }

@@ -3,7 +3,7 @@ title: ListLabel.LabelString
 linktitle: LabelString
 articleTitle: LabelString
 second_title: Aspose.Words pour .NET
-description: ListLabel LabelString propriété. Obtient une représentation sous forme de chaîne de létiquette de la liste en C#.
+description: Découvrez la propriété ListLabel LabelString pour une représentation simple des étiquettes de liste sous forme de chaîne, améliorant ainsi la présentation et l'organisation de vos données sans effort.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.lists/listlabel/labelstring/
@@ -26,21 +26,21 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Trouve si nous avons la liste des paragraphes. Dans notre document, notre liste utilise des chiffres arabes simples,
-// qui commence à trois heures et se termine à six heures.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+// Vérifiez si nous avons la liste des paragraphes. Dans notre document, notre liste utilise des chiffres arabes simples.
+// qui commencent à trois heures et se terminent à six heures.
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Il s'agit du texte que nous obtenons lorsque nous extrayons ce nœud au format texte.
-     // Cette sortie texte omettra les étiquettes de liste. Coupez tous les caractères de formatage de paragraphe.
+    // Il s'agit du texte que nous obtenons lorsque nous exportons ce nœud au format texte.
+     // Ce texte affiché omettra les étiquettes de liste. Supprimez tous les caractères de formatage de paragraphe.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Ceci obtient la position du paragraphe dans le niveau actuel de la liste. Si nous avons une liste à plusieurs niveaux,
-    // cela nous dira quelle est sa position à ce niveau.
+    // Ceci récupère la position du paragraphe dans le niveau actuel de la liste. Si la liste comporte plusieurs niveaux,
+    // cela nous indiquera quelle position il occupe à ce niveau.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
     // Combinez-les ensemble pour inclure l'étiquette de liste avec le texte dans la sortie.

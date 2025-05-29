@@ -3,7 +3,7 @@ title: Border.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words pour .NET
-description: Border GetHashCode méthode. Sert de fonction de hachage pour ce type en C#.
+description: Découvrez la méthode Border GetHashCode, une puissante fonction de hachage qui améliore l'intégrité des données et les performances de vos applications. Libérez son potentiel dès aujourd'hui !
 type: docs
 weight: 110
 url: /fr/net/aspose.words/border/gethashcode/
@@ -41,7 +41,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Après avoir modifié le style de ligne des bordures uniquement dans le deuxième paragraphe,
+// Après avoir modifié le style de ligne des bordures dans le deuxième paragraphe seulement,
 // les collections de bordures ne partagent plus les mêmes éléments.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {

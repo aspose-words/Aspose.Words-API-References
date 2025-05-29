@@ -3,14 +3,14 @@ title: LoadOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words pour .NET
-description: LoadOptions Password propriété. Obtient ou définit le mot de passe pour ouvrir un document crypté. Peut êtrenul ou une chaîne vide. La valeur par défaut estnul  en C#.
+description: Gérez vos documents chiffrés en toute simplicité grâce à la propriété LoadOptions Password. Définissez ou récupérez votre mot de passe en toute sécurité pour un accès simplifié.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-Obtient ou définit le mot de passe pour ouvrir un document crypté. Peut être`nul` ou une chaîne vide. La valeur par défaut est`nul` .
+Obtient ou définit le mot de passe pour ouvrir un document chiffré. Peut être`nul` ou chaîne vide. La valeur par défaut est`nul` .
 
 ```csharp
 public string Password { get; set; }
@@ -18,7 +18,7 @@ public string Password { get; set; }
 
 ## Remarques
 
-Vous devez connaître le mot de passe pour ouvrir un document crypté. Si le document n'est pas crypté, définissez-le sur`nul` ou une chaîne vide.
+Vous devez connaître le mot de passe pour ouvrir un document chiffré. Si le document n'est pas chiffré, définissez-le sur`nul` ou chaîne vide.
 
 ## Exemples
 
@@ -36,7 +36,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// Définit un nom de fichier système local pour le document d'entrée non signé et un nom de fichier de sortie pour sa nouvelle copie signée numériquement.
+// Définissez un nom de fichier système local pour le document d'entrée non signé et un nom de fichier de sortie pour sa nouvelle copie signée numériquement.
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 

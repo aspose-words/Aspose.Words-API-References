@@ -3,7 +3,7 @@ title: FieldIf
 linktitle: FieldIf
 articleTitle: FieldIf
 second_title: Aspose.Words pour .NET
-description: FieldIf constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldIf, votre solution idéale pour une intégration fluide et un codage efficace. Bénéficiez dès aujourd'hui de puissantes fonctionnalités pour vos projets !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldif/fieldif/

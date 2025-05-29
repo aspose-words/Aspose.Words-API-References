@@ -3,9 +3,9 @@ title: FindReplaceOptions.ReplacingCallback
 linktitle: ReplacingCallback
 articleTitle: ReplacingCallback
 second_title: Aspose.Words pour .NET
-description: FindReplaceOptions ReplacingCallback propriété. La méthode définie par lutilisateur qui est appelée avant chaque occurrence de remplacement en C#.
+description: Découvrez la propriété FindReplaceOptions ReplacingCallback, une méthode personnalisable qui améliore votre fonctionnalité de remplacement avec précision et contrôle.
 type: docs
-weight: 150
+weight: 160
 url: /fr/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définit un rappel qui suit tous les remplacements effectués par la méthode "Replace".
+    // Définissez un rappel qui suit tous les remplacements que la méthode « Remplacer » effectuera.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,8 +46,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Tient un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
-/// et note la valeur du texte original correspondant.
+/// Conserve un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
+/// et note la valeur du texte correspondant d'origine.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -69,7 +69,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Montre comment appliquer une police différente au nouveau contenu via FindReplaceOptions.
+Montre comment appliquer une police différente à un nouveau contenu via FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -81,10 +81,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définissez la propriété "HighlightColor" sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
+    // Définissez la propriété « HighlightColor » sur une couleur d'arrière-plan que nous souhaitons appliquer au texte résultant de l'opération.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -103,7 +103,7 @@ public void ConvertNumbersToHexadecimal()
 
 /// <summary>
 /// Remplace les correspondances numériques de recherche et de remplacement par leurs équivalents hexadécimaux.
-/// Tient un journal de chaque remplacement.
+/// Conserve un journal de chaque remplacement.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

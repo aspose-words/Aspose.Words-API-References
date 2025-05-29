@@ -3,9 +3,9 @@ title: Shape.Filled
 linktitle: Filled
 articleTitle: Filled
 second_title: Aspose.Words pour .NET
-description: Shape Filled propriété. Détermine si le chemin fermé de la forme sera rempli en C#.
+description: Contrôlez l'esthétique des formes avec la propriété Forme remplie, en décidant si vos chemins fermés sont remplis pour une flexibilité de conception et un attrait visuel améliorés.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
@@ -24,7 +24,7 @@ La valeur par défaut est`vrai`.
 
 ## Exemples
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

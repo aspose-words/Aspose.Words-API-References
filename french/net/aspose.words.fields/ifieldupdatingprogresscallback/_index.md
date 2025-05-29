@@ -3,9 +3,9 @@ title: IFieldUpdatingProgressCallback Interface
 linktitle: IFieldUpdatingProgressCallback
 articleTitle: IFieldUpdatingProgressCallback
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback interface. Implémentez cette interface si vous souhaitez suivre la progression de la mise à jour des champs en C#.
+description: Suivez facilement la progression de la mise à jour des champs grâce à l'interface Aspose.Words.Fields.IFieldUpdatingProgressCallback. Améliorez la gestion de vos documents dès aujourd'hui !
 type: docs
-weight: 2730
+weight: 3140
 url: /fr/net/aspose.words.fields/ifieldupdatingprogresscallback/
 ---
 ## IFieldUpdatingProgressCallback interface
@@ -20,11 +20,11 @@ public interface IFieldUpdatingProgressCallback
 
 | Nom | La description |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Une méthode définie par l'utilisateur qui est appelée lors de la modification de la progression de la mise à jour. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Une méthode définie par l'utilisateur qui est appelée lorsque la progression de la mise à jour est modifiée. |
 
 ## Exemples
 
-Montre comment utiliser les méthodes de rappel lors d’une mise à jour de champ.
+Montre comment utiliser les méthodes de rappel lors d'une mise à jour de champ.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

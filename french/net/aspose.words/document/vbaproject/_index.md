@@ -3,9 +3,9 @@ title: Document.VbaProject
 linktitle: VbaProject
 articleTitle: VbaProject
 second_title: Aspose.Words pour .NET
-description: Document VbaProject propriété. Obtient ou définit unVbaProject  en C#.
+description: Découvrez comment gérer efficacement les propriétés de VbaProject. Apprenez à obtenir ou à configurer VbaProject pour une automatisation améliorée et des workflows simplifiés.
 type: docs
-weight: 450
+weight: 470
 url: /fr/net/aspose.words/document/vbaproject/
 ---
 ## Document.VbaProject property
@@ -18,7 +18,7 @@ public VbaProject VbaProject { get; set; }
 
 ## Exemples
 
-Montre comment accéder aux informations de projet VBA d’un document.
+Montre comment accéder aux informations du projet VBA d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,18 +29,18 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Définir un nouveau code source pour le module VBA. Vous pouvez accéder aux modules VBA de la collection soit par index, soit par nom.
+// Définition du nouveau code source du module VBA. Vous pouvez accéder aux modules VBA de la collection par index ou par nom.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Supprime un module de la collection.
+// Supprimer un module de la collection.
 vbaModules.Remove(vbaModules[2]);
 ```
 

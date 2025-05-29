@@ -3,9 +3,9 @@ title: ResourceLoadingArgs Class
 linktitle: ResourceLoadingArgs
 articleTitle: ResourceLoadingArgs
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Loading.ResourceLoadingArgs classe. Fournit des données pour leResourceLoading méthode en C#.
+description: Découvrez la classe Aspose.Words.Loading.ResourceLoadingArgs, conçue pour optimiser le chargement des ressources dans vos applications. Bénéficiez d'une intégration fluide dès aujourd'hui !
 type: docs
-weight: 3690
+weight: 4150
 url: /fr/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -20,7 +20,7 @@ public class ResourceLoadingArgs
 
 | Nom | La description |
 | --- | --- |
-| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | URI d'origine de la ressource tel que spécifié dans le document importé. |
+| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | URI d'origine de la ressource telle que spécifiée dans le document importé. |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype/) { get; } | Type de ressource. |
 | [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI de la ressource utilisée pour le téléchargement si[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) renvoieDefault. |
 
@@ -54,7 +54,7 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Nous permet de charger des images dans un document à l'aide de raccourcis prédéfinis, par opposition aux URI.
+/// Nous permet de charger des images dans un document en utilisant des raccourcis prédéfinis, par opposition aux URI.
 /// Cela séparera la logique de chargement de l'image du reste de la construction du document.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback

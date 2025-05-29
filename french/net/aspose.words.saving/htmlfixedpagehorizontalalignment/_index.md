@@ -3,9 +3,9 @@ title: HtmlFixedPageHorizontalAlignment Enum
 linktitle: HtmlFixedPageHorizontalAlignment
 articleTitle: HtmlFixedPageHorizontalAlignment
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.HtmlFixedPageHorizontalAlignment énumération. Spécifie lalignement horizontal des pages dans le document HTML de sortie en C#.
+description: Découvrez l'énumération Aspose.Words.HtmlFixedPageHorizontalAlignment pour un contrôle précis de l'alignement des pages dans vos documents HTML. Améliorez la mise en forme de vos documents dès aujourd'hui !
 type: docs
-weight: 5070
+weight: 5820
 url: /fr/net/aspose.words.saving/htmlfixedpagehorizontalalignment/
 ---
 ## HtmlFixedPageHorizontalAlignment enumeration
@@ -20,9 +20,9 @@ public enum HtmlFixedPageHorizontalAlignment
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Left | `0` | Aligner les pages à gauche. |
-| Center | `1` | Pages centrales. Il s'agit de la valeur par défaut. |
-| Right | `2` | Aligner les pages à droite. |
+| Left | `0` | Alignez les pages à gauche. |
+| Center | `1` | Pages centrales. Valeur par défaut. |
+| Right | `2` | Alignez les pages à droite. |
 
 ## Exemples
 
@@ -47,11 +47,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

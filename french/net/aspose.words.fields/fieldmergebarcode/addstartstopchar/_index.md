@@ -3,14 +3,14 @@ title: FieldMergeBarcode.AddStartStopChar
 linktitle: AddStartStopChar
 articleTitle: AddStartStopChar
 second_title: Aspose.Words pour .NET
-description: FieldMergeBarcode AddStartStopChar propriété. Obtient ou définit sil faut ajouter des caractères Start/Stop pour les types de codesbarres NW7 et CODE39 en C#.
+description: Contrôlez les caractères de début et de fin des codes-barres NW7 et CODE39 avec la propriété FieldMergeBarcode AddStartStopChar. Améliorez les fonctionnalités de vos codes-barres dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 ---
 ## FieldMergeBarcode.AddStartStopChar property
 
-Obtient ou définit s'il faut ajouter des caractères Start/Stop pour les types de codes-barres NW7 et CODE39.
+Obtient ou définit s'il faut ajouter des caractères de démarrage/arrêt pour les types de codes-barres NW7 et CODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -24,21 +24,21 @@ Montre comment effectuer un publipostage sur les codes-barres CODE39.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
-// Ce champ convertira toutes les valeurs de la colonne "MyCODE39Barcode" d'une source de données de fusion en codes-barres CODE39.
+// Insérez un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
+// Ce champ convertira toutes les valeurs de la colonne « MyCODE39Barcode » d'une source de données de fusion en codes-barres CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Modifie son apparence pour afficher les caractères de démarrage/arrêt.
+// Modifiez son apparence pour afficher les caractères de début/fin.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
-// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
+// Créez un DataTable avec une colonne portant le même nom que BarcodeValue de notre champ MERGEBARCODE.
+// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE.
 // qui affichera un code-barres CODE39 avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyCODE39Barcode");

@@ -3,14 +3,14 @@ title: FontInfoCollection.EmbedSystemFonts
 linktitle: EmbedSystemFonts
 articleTitle: EmbedSystemFonts
 second_title: Aspose.Words pour .NET
-description: FontInfoCollection EmbedSystemFonts propriété. Spécifie sil faut ou non intégrer les polices système dans le document. La valeur par défaut de cette propriété estFAUX en C#.
+description: Découvrez comment la propriété FontInfoCollection EmbedSystemFonts améliore vos documents en intégrant les polices système. Découvrez sa valeur par défaut et ses avantages !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontinfocollection/embedsystemfonts/
 ---
 ## FontInfoCollection.EmbedSystemFonts property
 
-Spécifie s'il faut ou non intégrer les polices système dans le document. La valeur par défaut de cette propriété est`FAUX`.
+Spécifie s'il faut ou non incorporer les polices système dans le document. La valeur par défaut de cette propriété est`FAUX`.
 
 Cette option ne fonctionne que lorsque[`EmbedTrueTypeFonts`](../embedtruetypefonts/) l'option est définie sur`vrai`.
 
@@ -20,7 +20,7 @@ public bool EmbedSystemFonts { get; set; }
 
 ## Remarques
 
-Définir cette propriété sur`vrai`est utile si l'utilisateur se trouve sur un système d'Asie de l'Est et souhaite créer un document lisible par d'autres personnes qui n'ont pas de polices pour cette langue sur leur système. Par exemple, un utilisateur sur un système japonais pourrait choisir d'incorporer les polices dans un document afin que le document japonais soit lisible sur tous les systèmes.
+Définition de cette propriété sur`vrai` Ceci est utile si l'utilisateur utilise un système d'Asie de l'Est et souhaite créer un document lisible par d'autres utilisateurs ne disposant pas de polices pour cette langue. Par exemple, un utilisateur utilisant un système japonais pourrait choisir d'intégrer les polices dans un document afin que celui-ci soit lisible sur tous les systèmes.
 
 Cette option fonctionne uniquement pour les formats DOC, DOCX et RTF.
 
@@ -37,11 +37,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Voir également

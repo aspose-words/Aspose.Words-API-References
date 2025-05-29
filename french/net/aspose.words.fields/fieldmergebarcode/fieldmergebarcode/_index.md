@@ -3,7 +3,7 @@ title: FieldMergeBarcode
 linktitle: FieldMergeBarcode
 articleTitle: FieldMergeBarcode
 second_title: Aspose.Words pour .NET
-description: FieldMergeBarcode constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldMergeBarcode pour une intégration fluide. Bénéficiez de fonctionnalités puissantes et optimisez vos projets sans effort !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldmergebarcode/fieldmergebarcode/

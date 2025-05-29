@@ -3,9 +3,9 @@ title: FindReplaceOptions.UseLegacyOrder
 linktitle: UseLegacyOrder
 articleTitle: UseLegacyOrder
 second_title: Aspose.Words pour .NET
-description: FindReplaceOptions UseLegacyOrder propriété. True indique quune recherche de texte est effectuée séquentiellement de haut en bas en tenant compte des zones de texte. La valeur par défaut estFAUX  en C#.
+description: Découvrez la propriété UseLegacyOrder dans FindReplaceOptions. Activez les recherches de texte séquentielles pour une meilleure précision. La valeur par défaut est « false ». Optimisez votre traitement de texte !
 type: docs
-weight: 170
+weight: 180
 url: /fr/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
@@ -18,7 +18,7 @@ public bool UseLegacyOrder { get; set; }
 
 ## Exemples
 
-Montre comment modifier l’ordre de recherche des nœuds lors de l’exécution d’une opération de recherche et de remplacement de texte.
+Montre comment modifier l'ordre de recherche des nœuds lors de l'exécution d'une opération de recherche et de remplacement de texte.
 
 ```csharp
 public void UseLegacyOrder(bool useLegacyOrder)
@@ -26,7 +26,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insère trois exécutions que nous pouvons rechercher à l'aide d'un modèle regex.
+    // Insérez trois exécutions que nous pouvons rechercher à l'aide d'un modèle regex.
     // Placez l'une de ces exécutions dans une zone de texte.
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
@@ -34,18 +34,18 @@ public void UseLegacyOrder(bool useLegacyOrder)
     builder.MoveTo(textBox.FirstParagraph);
     builder.Write("[tag 3]");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Attribue un rappel personnalisé à la propriété "ReplacingCallback".
+    // Attribuez un rappel personnalisé à la propriété « ReplacingCallback ».
     TextReplacementTracker callback = new TextReplacementTracker();
     options.ReplacingCallback = callback;
 
-    // Si nous définissons la propriété "UseLegacyOrder" à "true", le
+    // Si nous définissons la propriété "UseLegacyOrder" sur "true", le
     // L'opération de recherche et de remplacement parcourra toutes les exécutions en dehors d'une zone de texte
-    // avant de passer en revue ceux qui se trouvent à l'intérieur d'une zone de texte.
-    // Si on fixe la propriété "UseLegacyOrder" à "false", le
-    // L'opération de recherche et de remplacement parcourra toutes les exécutions d'une plage dans un ordre séquentiel.
+    // avant de parcourir ceux à l'intérieur d'une zone de texte.
+    // Si nous définissons la propriété "UseLegacyOrder" sur "false", le
+    // L'opération de recherche et de remplacement parcourra toutes les exécutions d'une plage dans l'ordre séquentiel.
     options.UseLegacyOrder = useLegacyOrder;
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
@@ -56,7 +56,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
 }
 
 /// <summary>
-/// Enregistre l'ordre de toutes les correspondances qui se produisent lors d'une opération de recherche et de remplacement.
+/// Enregistre l'ordre de toutes les correspondances qui se produisent au cours d'une opération de recherche et de remplacement.
 /// </summary>
 private class TextReplacementTracker : IReplacingCallback
 {

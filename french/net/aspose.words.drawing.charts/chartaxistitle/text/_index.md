@@ -3,9 +3,9 @@ title: ChartAxisTitle.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words pour .NET
-description: ChartAxisTitle Text propriété. Obtient ou définit le texte du titre de laxe. Sinul ou une valeur vide est spécifiée le titre généré automatiquement sera affiché en C#.
+description: Découvrez la propriété Texte ChartAxisTitle pour personnaliser facilement les titres de vos axes. Définissez ou obtenez des titres dynamiques pour une visualisation optimisée des données.
 type: docs
-weight: 30
+weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartaxistitle/text/
 ---
 ## ChartAxisTitle.Text property
@@ -18,11 +18,11 @@ public string Text { get; set; }
 
 ## Remarques
 
-Utiliser[`Show`](../show/) option si vous devez afficher le titre.
+Utiliser[`Show`](../show/)option si vous devez afficher le titre.
 
 ## Exemples
 
-Montre comment définir le titre de l’axe du graphique.
+Montre comment définir le titre de l'axe du graphique.
 
 ```csharp
 Document doc = new Document();
@@ -32,17 +32,20 @@ Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 
 Chart chart = shape.Chart;
 ChartSeriesCollection seriesColl = chart.Series;
-// Supprime la série générée par défaut.
+// Supprimer la série générée par défaut.
 seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Définir le titre de l'axe.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

@@ -3,7 +3,7 @@ title: ParagraphFormat.FirstLineIndent
 linktitle: FirstLineIndent
 articleTitle: FirstLineIndent
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat FirstLineIndent propriété. Obtient ou définit la valeur en points dune première ligne ou dun retrait suspendu en C#.
+description: Découvrez comment utiliser la propriété ParagraphFormat FirstLineIndent pour personnaliser facilement les retraits de première ligne ou suspendus dans vos documents pour une meilleure lisibilité.
 type: docs
 weight: 120
 url: /fr/net/aspose.words/paragraphformat/firstlineindent/
@@ -12,7 +12,7 @@ url: /fr/net/aspose.words/paragraphformat/firstlineindent/
 
 Obtient ou définit la valeur (en points) d'une première ligne ou d'un retrait suspendu.
 
-Utilisez des valeurs positives pour définir le retrait de la première ligne et des valeurs négatives pour définir le retrait négatif.
+Utilisez des valeurs positives pour définir le retrait de la première ligne et des valeurs négatives pour définir le retrait suspendu.
 
 ```csharp
 public double FirstLineIndent { get; set; }
@@ -40,8 +40,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// La méthode "Writeln" termine le paragraphe après avoir ajouté du texte
-// puis commence une nouvelle ligne, ajoutant un nouveau paragraphe.
+// La méthode « Writeln » termine le paragraphe après avoir ajouté du texte
+// puis démarre une nouvelle ligne, ajoutant un nouveau paragraphe.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

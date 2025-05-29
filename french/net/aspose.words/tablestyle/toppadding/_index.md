@@ -3,7 +3,7 @@ title: TableStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words pour .NET
-description: TableStyle TopPadding propriété. Obtient ou définit la quantité despace en points à ajouter audessus du contenu des cellules du tableau en C#.
+description: Découvrez la propriété TableStyle TopPadding pour ajuster facilement l'espacement au-dessus du contenu des cellules du tableau, améliorant ainsi la lisibilité et la conception de votre tableau.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/tablestyle/toppadding/
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

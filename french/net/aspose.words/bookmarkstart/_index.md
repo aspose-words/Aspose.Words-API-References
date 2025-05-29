@@ -3,16 +3,16 @@ title: BookmarkStart Class
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.BookmarkStart classe. Représente le début dun signet dans un document Word en C#.
+description: Découvrez la classe Aspose.Words.BookmarkStart, essentielle à la gestion des signets dans les documents Word. Améliorez votre expérience d'édition de documents dès aujourd'hui !
 type: docs
-weight: 70
+weight: 260
 url: /fr/net/aspose.words/bookmarkstart/
 ---
 ## BookmarkStart class
 
 Représente le début d'un signet dans un document Word.
 
-Pour en savoir plus, visitez le[Travailler avec des signets](https://docs.aspose.com/words/net/working-with-bookmarks/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des signets](https://docs.aspose.com/words/net/working-with-bookmarks/) article de documentation.
 
 ```csharp
 public class BookmarkStart : Node
@@ -37,30 +37,30 @@ public class BookmarkStart : Node
 | override [NodeType](../../aspose.words/bookmarkstart/nodetype/) { get; } | RetoursBookmarkStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/) objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/)objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words/bookmarkstart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un doublon du nœud. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | override [GetText](../../aspose.words/bookmarkstart/gettext/)() | Renvoie une chaîne vide. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne en utilisant les options de sauvegarde spécifiées. |
 
 ## Remarques
 
-Un signet complet dans un document Word se compose d'un`BookmarkStart` et un correspondant[`BookmarkEnd`](../bookmarkend/) avec le même nom de signet.
+Un signet complet dans un document Word se compose d'un`BookmarkStart` et une correspondance[`BookmarkEnd`](../bookmarkend/) avec le même nom de signet.
 
-`BookmarkStart` et[`BookmarkEnd`](../bookmarkend/) ne sont que des marqueurs à l'intérieur d'un document qui spécifient où commence et se termine le signet.
+`BookmarkStart` et[`BookmarkEnd`](../bookmarkend/) ce sont simplement des marqueurs à l'intérieur d'un document qui spécifient où le signet commence et se termine.
 
-Utilisez le[`Bookmark`](./bookmark/) classe comme "façade" pour travailler avec un bookmark comme objet unique.
+Utilisez le[`Bookmark`](./bookmark/) classe comme une « façade » pour travailler avec un bookmark comme un seul objet.
 
 ## Exemples
 
@@ -83,7 +83,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -111,7 +111,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

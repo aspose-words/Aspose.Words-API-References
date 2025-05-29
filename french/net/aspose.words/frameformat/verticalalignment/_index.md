@@ -3,7 +3,7 @@ title: FrameFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words pour .NET
-description: FrameFormat VerticalAlignment propriété. Obtient lalignement vertical du cadre spécifié en C#.
+description: Découvrez la propriété FrameFormat VerticalAlignment pour gérer facilement l'alignement vertical des cadres, améliorant ainsi la conception de votre mise en page sans effort.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/frameformat/verticalalignment/
@@ -18,7 +18,7 @@ public VerticalAlignment VerticalAlignment { get; }
 
 ## Exemples
 
-Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
+Montre comment obtenir des informations sur les propriétés de formatage des paragraphes qui sont des cadres.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

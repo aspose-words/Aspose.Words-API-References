@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitGlossaryDocumentStart
 linktitle: VisitGlossaryDocumentStart
 articleTitle: VisitGlossaryDocumentStart
 second_title: Aspose.Words pour .NET
-description: DocumentVisitor VisitGlossaryDocumentStart méthode. Appelé lorsque lénumération dun document glossaire a commencé en C#.
+description: Découvrez la méthode VisitGlossaryDocumentStart dans DocumentVisitor. Gérez efficacement l'énumération des documents de glossaire, avec simplicité et précision.
 type: docs
 weight: 250
 url: /fr/net/aspose.words/documentvisitor/visitglossarydocumentstart/
 ---
 ## DocumentVisitor.VisitGlossaryDocumentStart method
 
-Appelé lorsque l'énumération d'un document glossaire a commencé.
+Appelé lorsque l'énumération d'un document de glossaire a commencé.
 
 ```csharp
 public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossary)
@@ -22,15 +22,15 @@ public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossar
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l'énumération.
 
 ## Remarques
 
-Remarque : Un nœud de document de glossaire et ses enfants ne sont pas visités lorsque vous exécutez a Visitor sur un[`Document`](../../document/) . Si vous souhaitez exécuter un Visiteur sur un document glossaire , vous devez appeler[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
+Remarque : un nœud de document de glossaire et ses enfants ne sont pas visités lorsque vous exécutez un visiteur sur un[`Document`](../../document/) . Si vous souhaitez exécuter un visiteur sur un document de glossaire a , vous devez appeler[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
 ## Exemples
 
-Montre les moyens d'accéder aux blocs de construction dans un document glossaire.
+Montre les moyens d’accéder aux blocs de construction dans un document de glossaire.
 
 ```csharp
 public void GlossaryDocument()
@@ -38,42 +38,52 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // Il existe différentes manières d'accéder aux blocs de construction.
-    // 1 - Récupère les premier/dernier blocs de construction de la collection :
+    // Il existe différentes manières d’accéder aux blocs de construction.
+    // 1 - Obtenir les premier/dernier blocs de construction de la collection :
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Récupère un bloc de construction par index :
+    // 2 - Obtenir un bloc de construction par index :
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Obtenez le premier bloc de construction qui correspond à une galerie, un nom et une catégorie :
+    // 3 - Obtenir le premier bloc de construction qui correspond à une galerie, un nom et une catégorie :
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Nous ferons cela en utilisant un visiteur personnalisé,
+    // Nous le ferons en utilisant un visiteur personnalisé,
     // qui donnera à chaque BuildingBlock du GlossaryDocument un GUID unique
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Visitez le début/la fin du document Glossaire.
     glossaryDoc.Accept(visitor);
+    // Visitez uniquement le début du document Glossaire.
+    glossaryDoc.AcceptStart(visitor);
+    // Visitez uniquement la fin du document Glossaire.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // Dans Microsoft Word, nous pouvons accéder aux blocs de construction via "Insérer" -> "Pièces rapides" -> "Organisateur de blocs de construction".
+    // Dans Microsoft Word, nous pouvons accéder aux blocs de construction via « Insertion » -> « Parties rapides » -> « Organisateur de blocs de construction ».
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Donne à chaque bloc de construction d'un document de glossaire visité un GUID unique.
-/// Stocke les paires de blocs de construction GUID dans un dictionnaire.
+/// Attribue à chaque bloc de construction d'un document de glossaire visité un GUID unique.
+/// Stocke les paires GUID-bloc de construction dans un dictionnaire.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

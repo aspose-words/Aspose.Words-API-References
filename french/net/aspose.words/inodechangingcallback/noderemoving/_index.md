@@ -3,7 +3,7 @@ title: INodeChangingCallback.NodeRemoving
 linktitle: NodeRemoving
 articleTitle: NodeRemoving
 second_title: Aspose.Words pour .NET
-description: INodeChangingCallback NodeRemoving méthode. Appelé juste avant quun nœud appartenant à ce document soit sur le point dêtre supprimé du document en C#.
+description: Découvrez la méthode INodeChangingCallback NodeRemoving, qui se déclenche avant la suppression d'un nœud de document, garantissant ainsi une gestion fluide des documents.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/inodechangingcallback/noderemoving/
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Définit le rappel de changement de nœud sur une implémentation personnalisée,
-    // puis ajoutez/supprimez des nœuds pour qu'il génère un journal.
+    // Définir le rappel de changement de nœud sur une implémentation personnalisée,
+    // puis ajoutez/supprimez des nœuds pour générer un journal.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -43,7 +43,7 @@ public void FontChangeViaCallback()
 
 /// <summary>
 /// Enregistre la date et l'heure de chaque insertion et suppression de nœud.
-/// Définit un nom/une taille de police personnalisée pour le contenu du texte des nœuds Run.
+/// Définit un nom/une taille de police personnalisée pour le contenu texte des nœuds Run.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

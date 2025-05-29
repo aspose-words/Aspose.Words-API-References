@@ -3,7 +3,7 @@ title: FieldIncludeText.MimeType
 linktitle: MimeType
 articleTitle: MimeType
 second_title: Aspose.Words pour .NET
-description: FieldIncludeText MimeType propriété. Obtient ou définit le type MIME du fichier référencé en C#.
+description: Gérez vos fichiers sans effort avec la propriété FieldIncludeText MimeType, vous permettant d'obtenir ou de définir facilement le type MIME pour une intégration transparente.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldincludetext/mimetype/
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous deux manières d'utiliser les champs INCLUDETEXT pour afficher le contenu d'un fichier XML dans le système de fichiers local.
-    // 1 - Effectuer une transformation XSL sur un document XML :
+    // 1 - Effectuer une transformation XSL sur un document XML :
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utiliser un XPath pour récupérer des éléments spécifiques d'un document XML :
+    // 2 - Utiliser un XPath pour extraire des éléments spécifiques d'un document XML :
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

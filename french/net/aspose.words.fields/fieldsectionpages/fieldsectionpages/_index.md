@@ -3,7 +3,7 @@ title: FieldSectionPages
 linktitle: FieldSectionPages
 articleTitle: FieldSectionPages
 second_title: Aspose.Words pour .NET
-description: FieldSectionPages constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldSectionPages : votre solution de référence pour une gestion efficace des pages. Bénéficiez d'une intégration fluide et optimisez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldsectionpages/fieldsectionpages/

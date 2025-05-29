@@ -3,7 +3,7 @@ title: FixedPageSaveOptions.NumeralFormat
 linktitle: NumeralFormat
 articleTitle: NumeralFormat
 second_title: Aspose.Words pour .NET
-description: FixedPageSaveOptions NumeralFormat propriété. Obtient ou définitNumeralFormat utilisé pour le rendu des chiffres. Les chiffres européens sont utilisés par défaut en C#.
+description: Découvrez la propriété FixedPageSaveOptions NumeralFormat pour personnaliser le rendu numérique. Passez facilement aux chiffres européens pour une présentation améliorée de vos documents.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/fixedpagesaveoptions/numeralformat/
@@ -18,7 +18,7 @@ public NumeralFormat NumeralFormat { get; set; }
 
 ## Remarques
 
-Si la valeur de cette propriété est modifiée et que la mise en page est déjà créée, alors [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) est invoqué automatiquement pour mettre à jour les modifications.
+Si la valeur de cette propriété est modifiée et que la mise en page est déjà créée, alors [`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) est invoqué automatiquement pour mettre à jour toutes les modifications.
 
 ## Exemples
 
@@ -31,18 +31,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.LocaleId = new CultureInfo("ar-AR").LCID;
 builder.Writeln("1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 50, 100");
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Définissez la propriété "NumeralFormat" sur "NumeralFormat.ArabicIndic" pour
-// utilise les glyphes de la plage U+0660 à U+0669 comme nombres.
-// Définissez la propriété "NumeralFormat" sur "NumeralFormat.Context" pour
-// recherche les paramètres régionaux pour déterminer le nombre de glyphes à utiliser.
-// Définissez la propriété "NumeralFormat" sur "NumeralFormat.EasternArabicIndic" pour
-// utilise les glyphes de la plage U+06F0 à U+06F9 comme nombres.
-// Définissez la propriété "NumeralFormat" sur "NumeralFormat.European" pour utiliser des chiffres européens.
-// Définissez la propriété "NumeralFormat" sur "NumeralFormat.System" pour déterminer le jeu de symboles à partir des paramètres régionaux.
+// Définissez la propriété « NumeralFormat » sur « NumeralFormat.ArabicIndic » pour
+// utiliser les glyphes de la plage U+0660 à U+0669 comme nombres.
+// Définissez la propriété « NumeralFormat » sur « NumeralFormat.Context » pour
+// recherchez les paramètres régionaux pour déterminer le nombre de glyphes à utiliser.
+// Définissez la propriété « NumeralFormat » sur « NumeralFormat.EasternArabicIndic » pour
+// utiliser les glyphes de la plage U+06F0 à U+06F9 comme nombres.
+// Définissez la propriété « NumeralFormat » sur « NumeralFormat.European » pour utiliser les chiffres européens.
+// Définissez la propriété « NumeralFormat » sur « NumeralFormat.System » pour déterminer le jeu de symboles à partir des paramètres régionaux.
 options.NumeralFormat = numeralFormat;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);

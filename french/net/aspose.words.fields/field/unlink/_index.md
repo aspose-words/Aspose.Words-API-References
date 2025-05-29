@@ -3,7 +3,7 @@ title: Field.Unlink
 linktitle: Unlink
 articleTitle: Unlink
 second_title: Aspose.Words pour .NET
-description: Field Unlink méthode. Effectue la dissociation du champ en C#.
+description: Découvrez la méthode Field Unlink pour dissocier les champs sans effort, améliorant ainsi votre gestion des données et rationalisant votre flux de travail pour des résultats optimaux.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.fields/field/unlink/
@@ -24,7 +24,7 @@ public bool Unlink()
 
 Remplace le champ par son résultat le plus récent.
 
-Certains champs, tels que les champs XE (Index Entry) et SEQ (Sequence), ne peuvent pas être dissociés.
+Certains champs, tels que les champs XE (entrée d'index) et les champs SEQ (séquence), ne peuvent pas être dissociés.
 
 ## Exemples
 

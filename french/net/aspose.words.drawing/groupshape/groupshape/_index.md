@@ -3,7 +3,7 @@ title: GroupShape
 linktitle: GroupShape
 articleTitle: GroupShape
 second_title: Aspose.Words pour .NET
-description: GroupShape constructeur. Crée une nouvelle forme de groupe en C#.
+description: Créez facilement de superbes formes de groupe avec le constructeur GroupShape. Optimisez vos projets grâce à des outils personnalisables et conviviaux pour des créations uniques.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/groupshape/groupshape/
@@ -28,7 +28,7 @@ Vous devez spécifier les propriétés de forme souhaitées après avoir créé 
 
 ## Exemples
 
-Montre comment créer un groupe de formes et imprimer son contenu à l’aide d’un visiteur de document.
+Montre comment créer un groupe de formes et imprimer son contenu à l'aide d'un visiteur de document.
 
 ```csharp
 public void GroupOfShapes()
@@ -36,19 +36,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si vous devez créer des formes "NonPrimitive", telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Si vous devez créer des formes « NonPrimitives », telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Coins supérieurs un arrondi un coupé, Coin unique arrondi, Coins supérieurs arrondis, Coins diagonaux arrondis
     // veuillez utiliser les méthodes DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

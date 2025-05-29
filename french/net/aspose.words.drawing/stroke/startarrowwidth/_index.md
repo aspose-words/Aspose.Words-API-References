@@ -3,9 +3,9 @@ title: Stroke.StartArrowWidth
 linktitle: StartArrowWidth
 articleTitle: StartArrowWidth
 second_title: Aspose.Words pour .NET
-description: Stroke StartArrowWidth propriété. Définit la largeur de la pointe de flèche pour le début dun trait en C#.
+description: Découvrez la propriété Stroke StartArrowWidth pour personnaliser la largeur de la pointe de flèche de vos traits, améliorant ainsi la précision et l'attrait visuel de votre conception.
 type: docs
-weight: 180
+weight: 230
 url: /fr/net/aspose.words.drawing/stroke/startarrowwidth/
 ---
 ## Stroke.StartArrowWidth property
@@ -22,15 +22,15 @@ La valeur par défaut estMedium.
 
 ## Exemples
 
-Montre pour créer une variété de formes.
+Montre comment créer une variété de formes.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vous trouverez ci-dessous quatre exemples de formes que nous pouvons insérer dans nos documents.
-// 1 - Ligne rouge pointillée, horizontale, semi-transparente
-// avec une flèche à gauche et un losange à droite :
+// 1 - Ligne rouge pointillée horizontale semi-transparente
+// avec une flèche à l'extrémité gauche et un losange à l'extrémité droite :
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -47,7 +47,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Ligne diagonale noire épaisse aux extrémités arrondies :
+// 2 - Ligne diagonale noire épaisse aux extrémités arrondies :
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -57,7 +57,7 @@ line.Stroke.EndCap = EndCap.Round;
 
 builder.InsertNode(line);
 
-// 3 - Flèche avec un remplissage vert :
+// 3 - Flèche avec un remplissage vert :
 Shape filledInArrow = new Shape(doc, ShapeType.Arrow);
 filledInArrow.Width = 200;
 filledInArrow.Height = 40;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Flèche d'orientation inversée remplie du logo Aspose :
+// 4 - Flèche avec une orientation inversée remplie avec le logo Aspose :
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -80,7 +80,7 @@ using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
     // Lorsque nous inversons l'orientation de notre flèche, nous inversons également l'image que contient la flèche.
-    // Retournez l'image dans l'autre sens pour l'annuler avant que la forme ne l'affiche.
+    // Retournez l'image dans l'autre sens pour annuler cela avant d'obtenir la forme pour l'afficher.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

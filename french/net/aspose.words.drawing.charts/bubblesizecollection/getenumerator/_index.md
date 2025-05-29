@@ -3,9 +3,9 @@ title: BubbleSizeCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: BubbleSizeCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
+description: Découvrez la méthode GetEnumerator de BubbleSizeCollection. Récupérez efficacement les objets énumérateurs pour une gestion simplifiée des données et des performances améliorées.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
 ---
 ## BubbleSizeCollection.GetEnumerator method

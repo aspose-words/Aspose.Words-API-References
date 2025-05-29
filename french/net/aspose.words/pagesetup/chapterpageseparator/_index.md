@@ -3,7 +3,7 @@ title: PageSetup.ChapterPageSeparator
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
 second_title: Aspose.Words pour .NET
-description: PageSetup ChapterPageSeparator propriété. Obtient ou définit le caractère séparateur qui apparaît entre le numéro de chapitre et le numéro de page en C#.
+description: Découvrez la propriété ChapterPageSeparator dans PageSetup. Personnalisez facilement le caractère de séparation entre les numéros de chapitre et de page pour un rendu soigné.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/pagesetup/chapterpageseparator/
@@ -22,7 +22,7 @@ Avant de pouvoir créer des numéros de page incluant des numéros de chapitre, 
 
 ## Exemples
 
-Montre comment travailler avec les chapitres de page.
+Montre comment travailler avec des chapitres de page.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");

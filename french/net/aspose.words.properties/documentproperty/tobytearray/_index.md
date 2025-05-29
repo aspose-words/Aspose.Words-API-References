@@ -3,7 +3,7 @@ title: DocumentProperty.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words pour .NET
-description: DocumentProperty ToByteArray méthode. Renvoie la valeur de la propriété sous forme de tableau doctets en C#.
+description: Convertissez facilement DocumentProperty en tableau d'octets grâce à la méthode ToByteArray. Simplifiez la gestion des données et améliorez votre efficacité de codage !
 type: docs
 weight: 70
 url: /fr/net/aspose.words.properties/documentproperty/tobytearray/
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Si nous enregistrons un document dont la propriété "Thumbnail" contient des données d'image que nous avons ajoutées, au format Epub,
+// Si nous enregistrons un document, dont la propriété « Miniature » contient des données d'image que nous avons ajoutées, en tant qu'Epub,
 // un lecteur qui ouvre ce document peut afficher l'image avant la première page.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
@@ -38,7 +38,7 @@ properties.Thumbnail = thumbnailBytes;
 
 doc.Save(ArtifactsDir + "DocumentProperties.Thumbnail.epub");
 
-// Nous pouvons extraire l'image miniature d'un document et l'enregistrer dans le système de fichiers local.
+// Nous pouvons extraire l'image miniature d'un document et l'enregistrer sur le système de fichiers local.
 DocumentProperty thumbnail = doc.BuiltInDocumentProperties["Thumbnail"];
 File.WriteAllBytes(ArtifactsDir + "DocumentProperties.Thumbnail.gif", thumbnail.ToByteArray());
 ```

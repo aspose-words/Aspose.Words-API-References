@@ -3,7 +3,7 @@ title: FieldCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: FieldCollection Item propriété. Renvoie un champ à lindex spécifié en C#.
+description: Découvrez la propriété FieldCollection Item, accédez sans effort aux champs par index et améliorez votre gestion de données avec facilité et précision.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldcollection/item/
@@ -18,21 +18,21 @@ public Field this[int index] { get; }
 
 | Paramètre | La description |
 | --- | --- |
-| index | Un index dans la collection. |
+| index | Un index de la collection. |
 
 ## Remarques
 
-L'indice est de base zéro.
+L'indice est basé sur zéro.
 
-Les index négatifs sont autorisés et indiquent un accès depuis l'arrière de la collection. Par exemple -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
+Les index négatifs sont autorisés et indiquent l'accès depuis l'arrière de la collection. Par exemple, -1 signifie le dernier élément, -2 signifie l'avant-dernier et ainsi de suite.
 
-Si l'index est supérieur ou égal au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est supérieur ou égal au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
-Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments de la liste, cela renvoie une référence nulle.
+Si l'index est négatif et que sa valeur absolue est supérieure au nombre d'éléments dans la liste, cela renvoie une référence nulle.
 
 ## Exemples
 
-Montre comment supprimer des champs d’une collection de champs.
+Montre comment supprimer des champs d'une collection de champs.
 
 ```csharp
 Document doc = new Document();
@@ -50,21 +50,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Vous trouverez ci-dessous quatre façons de supprimer des champs d'une collection de champs.
-// 1 - Récupère un champ à supprimer :
+// Vous trouverez ci-dessous quatre manières de supprimer des champs d’une collection de champs.
+// 1 - Obtenir un champ pour qu'il se supprime lui-même :
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Récupère la collection pour supprimer un champ que l'on passe à sa méthode de suppression :
+// 2 - Récupérer la collection pour supprimer un champ que nous passons à sa méthode de suppression :
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Supprime un champ d'une collection à un index :
+// 3 - Supprimer un champ d'une collection à un index :
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Supprimez tous les champs de la collection d'un coup :
+// 4 - Supprimez tous les champs de la collection en une seule fois :
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

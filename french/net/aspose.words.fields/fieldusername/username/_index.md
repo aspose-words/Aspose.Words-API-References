@@ -3,14 +3,14 @@ title: FieldUserName.UserName
 linktitle: UserName
 articleTitle: UserName
 second_title: Aspose.Words pour .NET
-description: FieldUserName UserName propriété. Gest ou définit le nom de lutilisateur actuel en C#.
+description: Gérez facilement le nom de l'utilisateur actuel grâce à la propriété FieldUserName. Améliorez l'expérience utilisateur et personnalisez les interactions en toute fluidité.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldusername/username/
 ---
 ## FieldUserName.UserName property
 
-Gest ou définit le nom de l'utilisateur actuel.
+Gère ou définit le nom de l'utilisateur actuel.
 
 ```csharp
 public string UserName { get; set; }
@@ -18,7 +18,7 @@ public string UserName { get; set; }
 
 ## Exemples
 
-Montre comment utiliser le champ USERNAME.
+Montre comment utiliser le champ NOM D'UTILISATEUR.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ doc.FieldOptions.CurrentUser = userInformation;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un champ USERNAME pour afficher le nom de l'utilisateur actuel,
+// Créez un champ USERNAME pour afficher le nom de l'utilisateur actuel,
 // extrait de l'objet UserInformation que nous avons créé ci-dessus.
 FieldUserName fieldUserName = (FieldUserName)builder.InsertField(FieldType.FieldUserName, true);
 Assert.AreEqual(userInformation.Name, fieldUserName.Result);

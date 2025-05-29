@@ -3,7 +3,7 @@ title: TextColumnCollection.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words pour .NET
-description: TextColumnCollection Spacing propriété. Lorsque les colonnes sont régulièrement espacées obtient ou définit la quantité despace entre chaque colonne en points en C#.
+description: Découvrez la propriété d'espacement TextColumnCollection : gérez facilement l'espacement des colonnes en points pour une mise en page soignée et professionnelle. Améliorez votre design dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words/textcolumncollection/spacing/

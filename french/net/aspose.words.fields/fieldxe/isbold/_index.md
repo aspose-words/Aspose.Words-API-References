@@ -3,7 +3,7 @@ title: FieldXE.IsBold
 linktitle: IsBold
 articleTitle: IsBold
 second_title: Aspose.Words pour .NET
-description: FieldXE IsBold propriété. Obtient ou définit sil faut appliquer une mise en forme en gras au numéro de page de lentrée en C#.
+description: Améliorez votre expérience FieldXE ! Contrôlez facilement la mise en gras des numéros de page d'entrée grâce à la propriété IsBold. Optimisez la lisibilité et le style !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldxe/isbold/
@@ -25,26 +25,26 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Créez un champ INDEX qui affichera une entrée pour chaque champ XE trouvé dans le document.
-// Chaque entrée affichera la valeur de la propriété Text du champ XE sur le côté gauche,
+// Chaque entrée affichera la valeur de la propriété Texte du champ XE sur le côté gauche,
 // et le numéro de la page qui contient le champ XE à droite.
-// Si les champs XE ont la même valeur dans leur propriété "Texte",
+// Si les champs XE ont la même valeur dans leur propriété « Texte »,
 // le champ INDEX les regroupera en une seule entrée.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
 
-// Définir la valeur de cette propriété sur "A" regroupera toutes les entrées par leur première lettre,
+// Définir la valeur de cette propriété sur « A » regroupera toutes les entrées par leur première lettre,
 // et placez cette lettre en majuscule au-dessus de chaque groupe.
 index.Heading = "A";
 
-// Définit la table créée par le champ INDEX pour qu'elle s'étende sur 2 colonnes.
+// Définissez la table créée par le champ INDEX pour qu'elle s'étende sur 2 colonnes.
 index.NumberOfColumns = "2";
 
-// Définit toutes les entrées avec des lettres de début en dehors de la plage de caractères "ac" à omettre.
+// Définissez toutes les entrées avec des lettres de départ en dehors de la plage de caractères « ac » à omettre.
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
 
-// Ces deux champs XE suivants apparaîtront sous l'en-tête "A",
+// Ces deux prochains champs XE apparaîtront sous le titre « A »,
 // avec leurs styles de texte respectifs également appliqués à leurs numéros de page.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
@@ -60,7 +60,7 @@ indexEntry.IsBold = true;
 
 Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
 
-// Les deux champs XE suivants seront sous les en-têtes "B" et "C" dans la table des matières des champs INDEX.
+// Les deux champs XE suivants seront sous un en-tête « B » et « C » dans la table des matières des champs INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -69,13 +69,13 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cherry";
 
-// Les champs INDEX trient toutes les entrées par ordre alphabétique, donc cette entrée apparaîtra sous "A" avec les deux autres.
+// Les champs INDEX trient toutes les entrées par ordre alphabétique, donc cette entrée apparaîtra sous « A » avec les deux autres.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
-// Cette entrée n'apparaîtra pas car elle commence par la lettre "D",
-// qui se trouve en dehors de la plage de caractères "ac" définie par la propriété LetterRange du champ INDEX.
+// Cette entrée n'apparaîtra pas car elle commence par la lettre « D »,
+// qui est en dehors de la plage de caractères « ac » définie par la propriété LetterRange du champ INDEX.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";

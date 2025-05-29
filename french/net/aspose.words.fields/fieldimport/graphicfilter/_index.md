@@ -3,7 +3,7 @@ title: FieldImport.GraphicFilter
 linktitle: GraphicFilter
 articleTitle: GraphicFilter
 second_title: Aspose.Words pour .NET
-description: FieldImport GraphicFilter propriété. Obtient ou définit le nom du filtre pour le format du graphique à insérer en C#.
+description: Découvrez la propriété FieldImport GraphicFilter pour définir ou récupérer facilement des filtres de format graphique, améliorant ainsi votre processus d'insertion de contenu.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldimport/graphicfilter/
@@ -18,20 +18,20 @@ public string GraphicFilter { get; set; }
 
 ## Exemples
 
-Montre comment insérer des images à l’aide des champs IMPORT et INCLUDEPICTURE.
+Montre comment insérer des images à l'aide des champs IMPORT et INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux types de champs similaires que nous pouvons utiliser pour afficher des images liées depuis le système de fichiers local.
+// Vous trouverez ci-dessous deux types de champs similaires que nous pouvons utiliser pour afficher des images liées à partir du système de fichiers local.
 // 1 - Le champ INCLUDEPICTURE :
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 
 Assert.True(Regex.Match(fieldIncludePicture.GetFieldCode(), " INCLUDEPICTURE  .*").Success);
 
-// Applique le filtre PNG32.FLT.
+// Appliquer le filtre PNG32.FLT.
 fieldIncludePicture.GraphicFilter = "PNG32";
 fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;

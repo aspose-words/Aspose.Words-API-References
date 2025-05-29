@@ -3,14 +3,14 @@ title: DocumentBuilder.CellFormat
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder CellFormat propriété. Renvoie un objet qui représente les propriétés actuelles de formatage des cellules du tableau en C#.
+description: Découvrez la propriété CellFormat de DocumentBuilder pour une mise en forme fluide des cellules de tableau. Améliorez vos documents avec des styles et propriétés personnalisables dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words/documentbuilder/cellformat/
 ---
 ## DocumentBuilder.CellFormat property
 
-Renvoie un objet qui représente les propriétés actuelles de formatage des cellules du tableau.
+Renvoie un objet qui représente les propriétés de mise en forme des cellules du tableau actuel.
 
 ```csharp
 public CellFormat CellFormat { get; }
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Insère une deuxième cellule, puis configure les options de remplissage du texte des cellules.
-// Le générateur appliquera ces paramètres à sa cellule actuelle, et toutes les nouvelles cellules créées par la suite.
+// Insérez une deuxième cellule, puis configurez les options de remplissage du texte de la cellule.
+// Le générateur appliquera ces paramètres à sa cellule actuelle et à toutes les nouvelles cellules créées par la suite.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La première cellule n'a pas été affectée par la reconfiguration du remplissage et contient toujours les valeurs par défaut.
+// La première cellule n'a pas été affectée par la reconfiguration du remplissage et conserve toujours les valeurs par défaut.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,11 +56,11 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La première cellule continuera à s'agrandir dans le document de sortie pour correspondre à la taille de sa cellule voisine.
+// La première cellule continuera de croître dans le document de sortie pour correspondre à la taille de sa cellule voisine.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-Montre comment créer un tableau 2x2 formaté.
+Montre comment créer un tableau formaté 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -90,7 +90,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
+// Les lignes et cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -110,7 +110,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Définition des options de formatage de tableau pour un générateur de documents
-// les appliquera à chaque ligne et cellule que nous ajouterons avec.
+// les appliquera à chaque ligne et cellule que nous ajouterons avec lui.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -133,8 +133,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer le formatage l'appliquera à la cellule actuelle,
-// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
+// La modification de la mise en forme l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons avec le générateur par la suite.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -146,7 +146,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
+// Augmenter la hauteur de la ligne pour s'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

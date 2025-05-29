@@ -3,7 +3,7 @@ title: PdfLoadOptions
 linktitle: PdfLoadOptions
 articleTitle: PdfLoadOptions
 second_title: Aspose.Words pour .NET
-description: PdfLoadOptions constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur PdfLoadOptions pour une gestion fluide des PDF. Découvrez comment les paramètres par défaut optimisent le traitement de vos documents !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/pdfloadoptions/pdfloadoptions/

@@ -3,7 +3,7 @@ title: OleFormat.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words pour .NET
-description: OleFormat Save méthode. Enregistre les données de lobjet incorporé dans le flux spécifié en C#.
+description: Découvrez la méthode OleFormat Save pour stocker efficacement les données d'objets incorporés dans le flux de votre choix. Optimisez la gestion de vos données en toute simplicité !
 type: docs
 weight: 160
 url: /fr/net/aspose.words.drawing/oleformat/save/
@@ -24,15 +24,15 @@ public void Save(Stream stream)
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Lance si vous essayez d'enregistrer un objet lié. |
+| InvalidOperationException | Lève une exception si vous tentez de sauvegarder un objet lié. |
 
 ## Remarques
 
-Il est de la responsabilité de l'appelant de supprimer le flux.
+Il est de la responsabilité de l'appelant de disposer du flux.
 
 ## Exemples
 
-Montre comment extraire des objets OLE incorporés dans des fichiers.
+Montre comment extraire des objets OLE intégrés dans des fichiers.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -48,7 +48,7 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Si nous prévoyons d'enregistrer l'objet OLE dans un fichier du système de fichiers local,
-// nous pouvons utiliser la propriété "SuggestedExtension" pour déterminer quelle extension de fichier appliquer au fichier.
+// nous pouvons utiliser la propriété « SuggestedExtension » pour déterminer quelle extension de fichier appliquer au fichier.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // Vous trouverez ci-dessous deux manières d'enregistrer un objet OLE dans un fichier du système de fichiers local.
@@ -58,7 +58,7 @@ using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted 
     oleFormat.Save(fs);
 }
 
-// 2 - Enregistrez-le directement sous un nom de fichier :
+// 2 - Enregistrez-le directement dans un nom de fichier :
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 
@@ -80,17 +80,17 @@ public void Save(string fileName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Nom du fichier pour enregistrer les données de l'objet OLE. |
+| fileName | String | Nom du fichier dans lequel enregistrer les données de l'objet OLE. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| InvalidOperationException | Lance si vous essayez d'enregistrer un objet lié. |
+| InvalidOperationException | Lève une exception si vous tentez de sauvegarder un objet lié. |
 
 ## Exemples
 
-Montre comment extraire des objets OLE incorporés dans des fichiers.
+Montre comment extraire des objets OLE intégrés dans des fichiers.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -106,7 +106,7 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Si nous prévoyons d'enregistrer l'objet OLE dans un fichier du système de fichiers local,
-// nous pouvons utiliser la propriété "SuggestedExtension" pour déterminer quelle extension de fichier appliquer au fichier.
+// nous pouvons utiliser la propriété « SuggestedExtension » pour déterminer quelle extension de fichier appliquer au fichier.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // Vous trouverez ci-dessous deux manières d'enregistrer un objet OLE dans un fichier du système de fichiers local.
@@ -116,7 +116,7 @@ using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted 
     oleFormat.Save(fs);
 }
 
-// 2 - Enregistrez-le directement sous un nom de fichier :
+// 2 - Enregistrez-le directement dans un nom de fichier :
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

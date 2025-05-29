@@ -3,14 +3,14 @@ title: StructuredDocumentTag.FullDate
 linktitle: FullDate
 articleTitle: FullDate
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTag FullDate propriété. Spécifie la date et lheure complètes saisies pour la dernière foisTSD  en C#.
+description: Découvrez la propriété StructuredDocumentTag FullDate, qui capture la date et l'heure complètes pour une précision et un suivi améliorés des documents.
 type: docs
 weight: 130
 url: /fr/net/aspose.words.markup/structureddocumenttag/fulldate/
 ---
 ## StructuredDocumentTag.FullDate property
 
-Spécifie la date et l'heure complètes saisies pour la dernière fois**TSD** .
+Spécifie la date et l'heure complètes de la dernière saisie dans ce**SDT** .
 
 ```csharp
 public DateTime FullDate { get; set; }
@@ -24,30 +24,30 @@ Pour tous les autres types de SDT, une exception se produira.
 
 ## Exemples
 
-Montre comment inviter l'utilisateur à saisir une date avec une balise de document structuré.
+Montre comment inviter l'utilisateur à saisir une date avec une balise de document structurée.
 
 ```csharp
 Document doc = new Document();
 
-// Insère une balise de document structuré qui invite l'utilisateur à saisir une date.
-// Dans Microsoft Word, cet élément est appelé « Contrôle de contenu du sélecteur de date ».
-// Quand on clique sur la flèche à l'extrémité droite de cette balise dans Microsoft Word,
-// nous verrons une pop up sous la forme d'un calendrier cliquable.
+// Insérez une balise de document structurée qui invite l'utilisateur à saisir une date.
+// Dans Microsoft Word, cet élément est connu sous le nom de « contrôle de contenu de sélecteur de date ».
+// Lorsque nous cliquons sur la flèche à l'extrémité droite de cette balise dans Microsoft Word,
+// nous verrons une fenêtre contextuelle sous la forme d'un calendrier cliquable.
 // Nous pouvons utiliser cette fenêtre contextuelle pour sélectionner une date à laquelle la balise affichera.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// Affiche la date, selon les paramètres régionaux de l'arabe saoudien.
+// Affiche la date, selon les paramètres régionaux de l'Arabie saoudite.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
-// Définit le format avec lequel afficher la date.
+// Définissez le format avec lequel afficher la date.
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 
-// Afficher la date selon le calendrier Hijri.
+// Affiche la date selon le calendrier hégirien.
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
-// Avant que l'utilisateur ne choisisse une date dans Microsoft Word, la balise affichera le texte "Cliquez ici pour saisir une date.".
-// Selon le calendrier du tag, définissez la propriété "FullDate" pour que le tag affiche une date par défaut.
+// Avant que l'utilisateur ne choisisse une date dans Microsoft Word, la balise affichera le texte « Cliquez ici pour saisir une date ».
+// Selon le calendrier de la balise, définissez la propriété « FullDate » pour que la balise affiche une date par défaut.
 sdtDate.FullDate = new DateTime(1440, 10, 20);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

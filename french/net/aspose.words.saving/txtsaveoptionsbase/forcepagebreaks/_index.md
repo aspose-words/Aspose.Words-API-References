@@ -3,14 +3,14 @@ title: TxtSaveOptionsBase.ForcePageBreaks
 linktitle: ForcePageBreaks
 articleTitle: ForcePageBreaks
 second_title: Aspose.Words pour .NET
-description: TxtSaveOptionsBase ForcePageBreaks propriété. Permet de préciser si les sauts de page doivent être conservés lors de lexport en C#.
+description: Contrôlez les sauts de page avec la propriété ForcePageBreaks de TxtSaveOptionsBase. Exportez vos documents en toute transparence et conservez leur mise en forme sans effort.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/txtsaveoptionsbase/forcepagebreaks/
 ---
 ## TxtSaveOptionsBase.ForcePageBreaks property
 
-Permet de préciser si les sauts de page doivent être conservés lors de l'export.
+Permet de spécifier si les sauts de page doivent être conservés lors de l'export.
 
 La valeur par défaut est`FAUX`.
 
@@ -20,11 +20,11 @@ public bool ForcePageBreaks { get; set; }
 
 ## Remarques
 
-La propriété affecte uniquement les sauts de page insérés explicitement dans un document. Il n'est pas lié aux sauts de page que MS Word insère automatiquement à la fin de chaque page.
+La propriété affecte uniquement les sauts de page insérés explicitement dans un document. Elle n'est pas liée aux sauts de page que MS Word insère automatiquement à la fin de chaque page.
 
 ## Exemples
 
-Montre comment spécifier s’il faut conserver les sauts de page lors de l’exportation d’un document en texte brut.
+Montre comment spécifier s'il faut conserver les sauts de page lors de l'exportation d'un document en texte brut.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3");
 
-// Crée un objet "TxtSaveOptions", que l'on peut passer au "Save" du document
-// Méthode pour modifier la façon dont nous enregistrons le document en texte brut.
+// Créer un objet « TxtSaveOptions », que nous pouvons transmettre à la section « Enregistrer » du document
+// méthode pour modifier la façon dont nous enregistrons le document en texte brut.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
-// Les objets "Document" Aspose.Words ont des sauts de page, tout comme les documents Microsoft Word.
-// Les formats de sauvegarde tels que ".txt" constituent un corps de texte continu sans sauts de page.
-// Définissez la propriété "ForcePageBreaks" sur "true" pour conserver tous les sauts de page sous la forme de caractères '\f'.
-// Définissez la propriété "ForcePageBreaks" sur "false" pour ignorer tous les sauts de page.
+// Les objets « Document » d'Aspose.Words ont des sauts de page, tout comme les documents Microsoft Word.
+// Les formats d'enregistrement tels que « .txt » sont un corps de texte continu sans sauts de page.
+// Définissez la propriété « ForcePageBreaks » sur « true » pour conserver tous les sauts de page sous la forme de caractères « \f ».
+// Définissez la propriété « ForcePageBreaks » sur « false » pour supprimer tous les sauts de page.
 saveOptions.ForcePageBreaks = forcePageBreaks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt", saveOptions);

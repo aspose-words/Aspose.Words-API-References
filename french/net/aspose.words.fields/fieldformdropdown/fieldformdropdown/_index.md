@@ -3,7 +3,7 @@ title: FieldFormDropDown
 linktitle: FieldFormDropDown
 articleTitle: FieldFormDropDown
 second_title: Aspose.Words pour .NET
-description: FieldFormDropDown constructeur. Default_Constructor en C#.
+description: Créez des formulaires dynamiques en toute simplicité grâce au constructeur FieldFormDropDown. Simplifiez la création de menus déroulants et améliorez l'expérience utilisateur dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldformdropdown/fieldformdropdown/

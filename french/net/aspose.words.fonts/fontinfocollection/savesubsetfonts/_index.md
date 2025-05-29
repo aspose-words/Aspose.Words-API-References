@@ -3,7 +3,7 @@ title: FontInfoCollection.SaveSubsetFonts
 linktitle: SaveSubsetFonts
 articleTitle: SaveSubsetFonts
 second_title: Aspose.Words pour .NET
-description: FontInfoCollection SaveSubsetFonts propriété. Spécifie sil faut ou non enregistrer un sousensemble des polices TrueType incorporées avec le document. La valeur par défaut de cette propriété estFAUX en C#.
+description: Découvrez la propriété SaveSubsetFonts de FontInfoCollection, contrôlez les sous-ensembles de polices TrueType intégrés dans vos documents pour une taille de fichier et des performances optimisées.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/fontinfocollection/savesubsetfonts/
@@ -35,11 +35,6 @@ fontInfos.EmbedSystemFonts = embedAllFonts;
 fontInfos.SaveSubsetFonts = embedAllFonts;
 
 doc.Save(ArtifactsDir + "Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-    Assert.That(25000, Is.LessThan(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
-else
-    Assert.That(15000, Is.AtLeast(new FileInfo(ArtifactsDir + "Font.FontInfoCollection.docx").Length));
 ```
 
 ### Voir également

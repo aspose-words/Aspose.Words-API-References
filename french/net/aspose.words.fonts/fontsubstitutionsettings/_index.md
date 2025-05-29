@@ -3,16 +3,16 @@ title: FontSubstitutionSettings Class
 linktitle: FontSubstitutionSettings
 articleTitle: FontSubstitutionSettings
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fonts.FontSubstitutionSettings classe. Spécifie les paramètres du mécanisme de substitution de police en C#.
+description: Découvrez Aspose.Words.Fonts.FontSubstitutionSettings pour une gestion efficace des polices. Optimisez le rendu de vos documents grâce à des options de substitution de polices personnalisables.
 type: docs
-weight: 3010
+weight: 3440
 url: /fr/net/aspose.words.fonts/fontsubstitutionsettings/
 ---
 ## FontSubstitutionSettings class
 
 Spécifie les paramètres du mécanisme de substitution de police.
 
-Pour en savoir plus, visitez le[Travailler avec des polices](https://docs.aspose.com/words/net/working-with-fonts/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les polices](https://docs.aspose.com/words/net/working-with-fonts/) article de documentation.
 
 ```csharp
 public class FontSubstitutionSettings
@@ -30,17 +30,17 @@ public class FontSubstitutionSettings
 
 ## Remarques
 
-Le processus de substitution de police se compose de plusieurs règles qui sont vérifiées une par une dans un ordre spécifique. Si la première règle ne peut pas résoudre la police, la deuxième règle est vérifiée et ainsi de suite.
+Le processus de substitution de police consiste en plusieurs règles qui sont vérifiées une par une dans un ordre spécifique. Si la première règle ne peut pas résoudre la police, la deuxième règle est vérifiée et ainsi de suite.
 
-L'ordre des règles est le suivant : 1. Règle de substitution du nom de police (activée par défaut) 2. Règle de substitution de la configuration de la police (désactivée par défaut) 3. Règle de substitution de table (activée par défaut) 4. Règle de substitution des informations de police (activé par défaut) 5. Règle de police par défaut (activée par défaut)
+L'ordre des règles est le suivant : 1. Règle de substitution du nom de police (activée par défaut) 2. Règle de substitution de configuration de police (désactivée par défaut) 3. Règle de substitution de tableau (activée par défaut) 4. Règle de substitution des informations de police (activée par défaut) 5. Règle de police par défaut (activée par défaut)
 
-Notez que la règle de substitution des informations sur la police résoudra toujours la police si[`FontInfo`](../fontinfo/) est disponible et remplacera la règle de police par défaut. Si vous souhaitez utiliser la règle de police par défaut, vous devez désactiver la règle de substitution des informations de police .
+Notez que la règle de substitution des informations de police résoudra toujours la police si[`FontInfo`](../fontinfo/) est disponible et remplacera la règle de police par défaut. Si vous souhaitez utiliser la règle de police par défaut, désactivez la règle de substitution des informations de police .
 
 Notez que la règle de substitution de configuration de police résoudra la police dans la plupart des cas et remplacera ainsi toutes les autres règles.
 
 ## Exemples
 
-Montre comment accéder à la source de police système d’un document et définir des substituts de police.
+Montre comment accéder à la source de police système d'un document et définir des substituts de police.
 
 ```csharp
 Document doc = new Document();
@@ -68,7 +68,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Définit une police qui existe dans le répertoire des polices Windows en remplacement d'une autre qui n'existe pas.
+// Définissez une police qui existe dans le répertoire des polices Windows en remplacement d'une police qui n'existe pas.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -82,13 +82,14 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// La réinitialisation des sources de polices nous laisse toujours la source de police système ainsi que nos substituts.
+// La réinitialisation des sources de polices nous laisse toujours avec la source de polices système ainsi que nos substituts.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Voir également

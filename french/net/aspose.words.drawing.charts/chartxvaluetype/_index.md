@@ -3,9 +3,9 @@ title: ChartXValueType Enum
 linktitle: ChartXValueType
 articleTitle: ChartXValueType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueType énumération. Permet de spécifier le type dune valeur X dune série de graphiques en C#.
+description: Découvrez l'énumération Aspose.Words.ChartXValueType pour définir facilement les types de valeurs X pour votre série de graphiques, améliorant ainsi la visualisation des données de votre document.
 type: docs
-weight: 860
+weight: 1180
 url: /fr/net/aspose.words.drawing.charts/chartxvaluetype/
 ---
 ## ChartXValueType enumeration

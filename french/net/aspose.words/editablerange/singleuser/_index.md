@@ -3,7 +3,7 @@ title: EditableRange.SingleUser
 linktitle: SingleUser
 articleTitle: SingleUser
 second_title: Aspose.Words pour .NET
-description: EditableRange SingleUser propriété. Renvoie ou définit lutilisateur unique pour la plage modifiable en C#.
+description: Découvrez la propriété EditableRange SingleUser pour gérer efficacement les plages modifiables, garantissant une collaboration transparente et un contrôle d'accès spécifique à l'utilisateur.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/editablerange/singleuser/
@@ -20,13 +20,13 @@ public string SingleUser { get; set; }
 
 Cet éditeur peut être stocké sous l'une des formes suivantes :
 
-DOMAIN\Username - pour les utilisateurs dont l'accès doit être authentifié à l'aide des informations d'identification de domaine de l'utilisateur actuel.
+DOMAINE\Nom d'utilisateur - pour les utilisateurs dont l'accès doit être authentifié à l'aide des informations d'identification de domaine de l'utilisateur actuel.
 
-user@domain.com - pour les utilisateurs dont l'accès doit être authentifié en utilisant l'adresse e-mail de l'utilisateur comme identifiant.
+user@domain.com - pour les utilisateurs dont l'accès doit être authentifié à l'aide de l'adresse e-mail de l'utilisateur comme informations d'identification.
 
 utilisateur - pour les utilisateurs dont l'accès doit être authentifié à l'aide des informations d'identification de la machine de l'utilisateur actuel.
 
-Un seul utilisateur et un groupe d'éditeurs ne peuvent pas être définis simultanément pour la plage modifiable spécifique, si l'un est défini, l'autre sera clair.
+Un seul utilisateur et un groupe d'éditeurs ne peuvent pas être définis simultanément pour la plage modifiable spécifique, si l'un est défini, l'autre sera effacé.
 
 ## Exemples
 
@@ -62,7 +62,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Imprimer les détails et le contenu de chaque plage modifiable du document.
+    // Imprimez les détails et le contenu de chaque plage modifiable dans le document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -122,7 +122,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions comprises dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -3,9 +3,9 @@ title: Font.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words pour .NET
-description: Font ClearFormatting méthode. Réinitialise le formatage de police par défaut en C#.
+description: Restaurez le style d'origine de votre texte grâce à la méthode Font ClearFormatting. Profitez d'une mise en forme propre et cohérente pour un rendu soigné !
 type: docs
-weight: 550
+weight: 560
 url: /fr/net/aspose.words/font/clearformatting/
 ---
 ## Font.ClearFormatting method
@@ -18,11 +18,11 @@ public void ClearFormatting()
 
 ## Remarques
 
-Supprime tout le formatage de police spécifié explicitement sur l'objet à partir duquel [`Font`](../) a été obtenu, le formatage de la police sera donc hérité de le parent approprié.
+Supprime toute la mise en forme de police spécifiée explicitement sur l'objet à partir duquel [`Font`](../) a été obtenu afin que le formatage de la police soit hérité de le parent approprié.
 
 ## Exemples
 
-Montre comment insérer un champ de lien hypertexte.
+Montre comment insérer un champ d'hyperlien.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Insère un lien hypertexte et soulignez-le avec un formatage personnalisé.
-// Le lien hypertexte sera un morceau de texte cliquable qui nous amènera à l'emplacement spécifié dans l'URL.
+// Insérez un lien hypertexte et mettez-le en valeur avec une mise en forme personnalisée.
+// L'hyperlien sera un morceau de texte cliquable qui nous mènera à l'emplacement spécifié dans l'URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Google website", "https://www.google.com", faux);

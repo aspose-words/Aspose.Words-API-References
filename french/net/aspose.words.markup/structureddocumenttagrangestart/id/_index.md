@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart Id propriété. Spécifie un identifiant numérique persistant unique en lecture seule pour cette balise de document structuré en C#.
+description: Découvrez la propriété StructuredDocumentTagRangeStart Id : votre clé vers un identifiant numérique unique en lecture seule pour un balisage efficace des documents.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/id/
@@ -20,15 +20,15 @@ public int Id { get; }
 
 L'attribut Id doit suivre ces règles :
 
-* Le document doit conserver les identifiants de balises de document structurés uniquement si l'intégralité du document est cloné.[`Clone`](../../../aspose.words/document/clone/).
-* Pendant[`ImportNode`](../../../aspose.words/documentbase/importnode/) L'identifiant doit être conservé si l'importation ne provoque pas de conflits avec d'autres identifiants de balise de document structuré dans le document cible.
-* Si plusieurs nœuds de balise de document structuré spécifient la même valeur de nombre décimal pour l'attribut Id, alors la première balise de document structuré dans le document doit conserver cet identifiant d'origine, et tous les nœuds de balise de document structuré suivants doivent se voir attribuer de nouveaux identifiants lorsque le document est chargé.
-* Pendant la balise de document structuré autonomeINodeCloningListener)le nouvel ID unique de l'opération sera généré pour le nœud de balise de document structuré cloné.
-* Si l'ID n'est pas spécifié dans le document source, alors le nœud de balise du document structuré doit se voir attribuer un nouvel identifiant unique lorsque le document est chargé.
+* Le document ne conservera les identifiants de balises de document structurés que si l'ensemble du document est cloné[`Clone`](../../../aspose.words/document/clone/).
+* Pendant[`ImportNode`](../../../aspose.words/documentbase/importnode/) L'ID doit être conservé si l'importation ne provoque pas de conflits avec d'autres ID de balises de document structuré dans le document cible.
+* Si plusieurs nœuds de balises de document structuré spécifient la même valeur de nombre décimal pour l'attribut Id, , alors la première balise de document structuré dans le document doit conserver cet Id d'origine, et tous les nœuds de balises de document structuré suivants doivent se voir attribuer de nouveaux identifiants lors du chargement du document.
+* Pendant la balise de document structuré autonomeINodeCloningListener) l'opération un nouvel ID unique sera généré pour le nœud de balise de document structuré cloné.
+* Si l'identifiant n'est pas spécifié dans le document source, le nœud de balise de document structuré doit avoir un nouvel identifiant unique qui lui est attribué lorsque le document est chargé.
 
 ## Exemples
 
-Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
+Montre comment obtenir les propriétés des balises de document structurées à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

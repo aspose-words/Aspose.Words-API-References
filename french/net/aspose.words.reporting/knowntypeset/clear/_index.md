@@ -3,7 +3,7 @@ title: KnownTypeSet.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words pour .NET
-description: KnownTypeSet Clear méthode. Supprime tous les éléments de lensemble en C#.
+description: Découvrez la méthode KnownTypeSet Clear pour supprimer sans effort tous les éléments de votre ensemble, améliorant ainsi l'efficacité de votre gestion des données.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.reporting/knowntypeset/clear/

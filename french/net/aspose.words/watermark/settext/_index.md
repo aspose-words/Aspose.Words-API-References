@@ -3,7 +3,7 @@ title: Watermark.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words pour .NET
-description: Watermark SetText méthode. Ajoute un filigrane de texte dans le document en C#.
+description: Améliorez vos documents avec notre méthode Watermark SetText. Ajoutez facilement des filigranes de texte personnalisables pour une touche professionnelle !
 type: docs
 weight: 40
 url: /fr/net/aspose.words/watermark/settext/
@@ -18,14 +18,14 @@ public void SetText(string text)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| text | String | Texte affiché sous forme de filigrane. |
+| text | String | Texte affiché en filigrane. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque la longueur du texte est hors plage ou que le texte ne contient que des espaces. |
-| ArgumentNullException | Lance lorsque le texte est`nul` . |
+| ArgumentOutOfRangeException | Lancé lorsque la longueur du texte est hors limites ou que le texte ne contient que des espaces. |
+| ArgumentNullException | Lancé lorsque le texte est`nul` . |
 
 ## Remarques
 
@@ -38,10 +38,10 @@ Montre comment créer un filigrane de texte.
 ```csharp
 Document doc = new Document();
 
-// Ajoute un filigrane en texte brut.
+// Ajouter un filigrane en texte brut.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Si l'on souhaite éditer la mise en forme du texte en l'utilisant comme filigrane,
+// Si nous souhaitons modifier la mise en forme du texte en l'utilisant comme filigrane,
 // nous pouvons le faire en passant un objet TextWatermarkOptions lors de la création du filigrane.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -77,15 +77,15 @@ public void SetText(string text, TextWatermarkOptions options)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| text | String | Texte affiché sous forme de filigrane. |
+| text | String | Texte affiché en filigrane. |
 | options | TextWatermarkOptions | Définit des options supplémentaires pour le filigrane de texte. |
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque la longueur du texte est hors plage ou que le texte ne contient que des espaces. |
-| ArgumentNullException | Lance lorsque le texte est`nul` . |
+| ArgumentOutOfRangeException | Lancé lorsque la longueur du texte est hors limites ou que le texte ne contient que des espaces. |
+| ArgumentNullException | Lancé lorsque le texte est`nul` . |
 
 ## Remarques
 
@@ -100,10 +100,10 @@ Montre comment créer un filigrane de texte.
 ```csharp
 Document doc = new Document();
 
-// Ajoute un filigrane en texte brut.
+// Ajouter un filigrane en texte brut.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Si l'on souhaite éditer la mise en forme du texte en l'utilisant comme filigrane,
+// Si nous souhaitons modifier la mise en forme du texte en l'utilisant comme filigrane,
 // nous pouvons le faire en passant un objet TextWatermarkOptions lors de la création du filigrane.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";

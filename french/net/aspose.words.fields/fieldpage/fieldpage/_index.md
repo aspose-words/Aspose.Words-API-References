@@ -3,7 +3,7 @@ title: FieldPage
 linktitle: FieldPage
 articleTitle: FieldPage
 second_title: Aspose.Words pour .NET
-description: FieldPage constructeur. Default_Constructor en C#.
+description: Créez des pages époustouflantes en toute simplicité grâce au constructeur intuitif de FieldPage. Créez des mises en page uniques en quelques minutes et améliorez votre présence en ligne !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldpage/fieldpage/

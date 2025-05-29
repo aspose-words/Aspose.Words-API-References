@@ -3,7 +3,7 @@ title: OleFormat.Clsid
 linktitle: Clsid
 articleTitle: Clsid
 second_title: Aspose.Words pour .NET
-description: OleFormat Clsid propriété. Obtient le CLSID de lobjet OLE en C#.
+description: Découvrez la propriété OleFormat Clsid pour récupérer facilement le CLSID des objets OLE, améliorant ainsi les fonctionnalités et les performances de votre application.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/oleformat/clsid/
@@ -18,7 +18,7 @@ public Guid Clsid { get; }
 
 ## Exemples
 
-Montre comment accéder à un contrôle OLE incorporé dans un document et à ses contrôles enfants.
+Montre comment accéder à un contrôle OLE intégré dans un document et à ses contrôles enfants.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");

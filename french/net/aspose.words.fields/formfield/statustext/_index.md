@@ -3,14 +3,14 @@ title: FormField.StatusText
 linktitle: StatusText
 articleTitle: StatusText
 second_title: Aspose.Words pour .NET
-description: FormField StatusText propriété. Renvoie ou définit le texte affiché dans la barre détat lorsquun champ de formulaire a le focus en C#.
+description: Découvrez la propriété StatusText de FormField pour personnaliser les messages de la barre d'état lorsque les champs de formulaire sont activés. Améliorez l'expérience utilisateur sans effort !
 type: docs
 weight: 180
 url: /fr/net/aspose.words.fields/formfield/statustext/
 ---
 ## FormField.StatusText property
 
-Renvoie ou définit le texte affiché dans la barre d'état lorsqu'un champ de formulaire a le focus.
+Renvoie ou définit le texte qui s'affiche dans la barre d'état lorsqu'un champ de formulaire a le focus.
 
 ```csharp
 public string StatusText { get; set; }
@@ -18,7 +18,7 @@ public string StatusText { get; set; }
 
 ## Remarques
 
-Si la[`OwnStatus`](../ownstatus/) la propriété est définie sur`vrai` , le`StatusText` La propriété spécifie le texte de la barre d'état. Si le[`OwnStatus`](../ownstatus/) la propriété est définie sur`FAUX` , le`StatusText` La propriété spécifie le nom d'une entrée AutoText qui contient le texte de la barre d'état pour le champ du formulaire.
+Si le[`OwnStatus`](../ownstatus/) la propriété est définie sur`vrai` , le`StatusText` la propriété spécifie le texte de la barre d'état. Si le[`OwnStatus`](../ownstatus/) la propriété est définie sur`FAUX` , le`StatusText` La propriété spécifie le nom d'une entrée AutoText qui contient le texte de la barre d'état pour le champ de formulaire.
 
 Microsoft Word autorise les chaînes contenant au maximum 138 caractères.
 
@@ -71,15 +71,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

@@ -3,14 +3,14 @@ title: Paragraph.ParagraphBreakFont
 linktitle: ParagraphBreakFont
 articleTitle: ParagraphBreakFont
 second_title: Aspose.Words pour .NET
-description: Paragraph ParagraphBreakFont propriété. Donne accès au formatage de la police du caractère de saut de paragraphe en C#.
+description: Découvrez la propriété ParagraphBreakFont pour une mise en forme transparente des polices de sauts de paragraphe, améliorant ainsi l'apparence et la lisibilité de votre texte.
 type: docs
 weight: 180
 url: /fr/net/aspose.words/paragraph/paragraphbreakfont/
 ---
 ## Paragraph.ParagraphBreakFont property
 
-Donne accès au formatage de la police du caractère de saut de paragraphe.
+Donne accès à la mise en forme de la police du caractère de saut de paragraphe.
 
 ```csharp
 public Font ParagraphBreakFont { get; }
@@ -18,7 +18,7 @@ public Font ParagraphBreakFont { get; }
 
 ## Exemples
 
-Montre comment utiliser une implémentation de DocumentVisitor pour supprimer tout le contenu masqué d'un document.
+Montre comment utiliser une implémentation DocumentVisitor pour supprimer tout le contenu masqué d'un document.
 
 ```csharp
 public void RemoveHiddenContentFromDocument()
@@ -27,23 +27,23 @@ public void RemoveHiddenContentFromDocument()
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Vous trouverez ci-dessous trois types de champs pouvant accepter un visiteur de document,
-    // ce qui lui permettra de visiter le nœud accepteur, puis de parcourir ses nœuds enfants en profondeur d'abord.
+    // ce qui lui permettra de visiter le nœud accepteur, puis de parcourir ses nœuds enfants de manière approfondie.
     // 1 - Nœud de paragraphe :
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
 
-    // 2 - Nœud table :
+    // 2 - Nœud de table :
     Table table = doc.FirstSection.Body.Tables[0];
     table.Accept(hiddenContentRemover);
 
-    // 3 - Nœud Document :
+    // 3 - Nœud de document :
     doc.Accept(hiddenContentRemover);
 
     doc.Save(ArtifactsDir + "Font.RemoveHiddenContentFromDocument.docx");
 }
 
 /// <summary>
-/// Supprime tous les nœuds visités marqués comme "contenu caché".
+/// Supprime tous les nœuds visités marqués comme « contenu caché ».
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -158,10 +158,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un SpecialCharacter est rencontré dans le document.
+    /// Appelé lorsqu'un caractère spécial est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -169,15 +171,15 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsque la visite d'un nœud Table est terminée dans le document.
+    /// Appelé lorsque la visite d'un nœud de table est terminée dans le document.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
         // Le contenu à l'intérieur des cellules du tableau peut avoir l'indicateur de contenu masqué, mais les tableaux eux-mêmes ne le peuvent pas.
-        // Si cette table n'avait que du contenu caché, ce visiteur l'aurait tout supprimé,
+        // Si cette table n'avait que du contenu caché, ce visiteur l'aurait supprimé en entier,
         // et il n'y aurait plus de nœuds enfants.
         // Ainsi, nous pouvons également traiter la table elle-même comme un contenu caché et la supprimer.
-        // Les tableaux vides mais sans contenu masqué auront des cellules avec des paragraphes vides à l'intérieur,
+        // Les tableaux qui sont vides mais qui n'ont pas de contenu caché auront des cellules avec des paragraphes vides à l'intérieur,
         // que ce visiteur ne supprimera pas.
         if (!table.HasChildNodes)
             table.Remove();

@@ -3,14 +3,14 @@ title: FieldMergeBarcode.FixCheckDigit
 linktitle: FixCheckDigit
 articleTitle: FixCheckDigit
 second_title: Aspose.Words pour .NET
-description: FieldMergeBarcode FixCheckDigit propriété. Obtient ou définit sil faut corriger le chiffre de contrôle sil est invalide en C#.
+description: Optimisez votre FieldMergeBarcode avec la propriété FixCheckDigit pour garantir une validation précise des chiffres de contrôle et améliorer l'intégrité des données sans effort.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/fieldmergebarcode/fixcheckdigit/
 ---
 ## FieldMergeBarcode.FixCheckDigit property
 
-Obtient ou définit s'il faut corriger le chiffre de contrôle s'il est invalide.
+Obtient ou définit s'il faut corriger le chiffre de contrôle s'il n'est pas valide.
 
 ```csharp
 public bool FixCheckDigit { get; set; }
@@ -24,8 +24,8 @@ Montre comment effectuer un publipostage sur des codes-barres EAN13.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
-// Ce champ convertira toutes les valeurs de la colonne "MyEAN13Barcode" d'une source de données de fusion en codes-barres EAN13.
+// Insérez un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
+// Ce champ convertira toutes les valeurs de la colonne « MyEAN13Barcode » d'une source de données de fusion en codes-barres EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -39,8 +39,8 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
-// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
+// Créez un DataTable avec une colonne portant le même nom que BarcodeValue de notre champ MERGEBARCODE.
+// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE.
 // qui affichera un code-barres EAN13 avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");

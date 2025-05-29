@@ -3,14 +3,14 @@ title: OoxmlSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words pour .NET
-description: OoxmlSaveOptions Password propriété. Obtient/définit un mot de passe pour chiffrer le document à laide de lalgorithme de chiffrement standard ECMA376 en C#.
+description: Sécurisez vos documents avec OoxmlSaveOptions ! Définissez facilement un mot de passe de chiffrement conforme à la norme ECMA376 pour une protection renforcée des données.
 type: docs
-weight: 50
+weight: 60
 url: /fr/net/aspose.words.saving/ooxmlsaveoptions/password/
 ---
 ## OoxmlSaveOptions.Password property
 
-Obtient/définit un mot de passe pour chiffrer le document à l'aide de l'algorithme de chiffrement standard ECMA376.
+Obtient/définit un mot de passe pour crypter le document à l'aide de l'algorithme de cryptage standard ECMA376.
 
 ```csharp
 public string Password { get; set; }
@@ -18,7 +18,7 @@ public string Password { get; set; }
 
 ## Remarques
 
-Afin d'enregistrer le document sans cryptage, cette propriété doit être`nul` ou une chaîne vide.
+Afin de sauvegarder le document sans cryptage, cette propriété doit être`nul` ou chaîne vide.
 
 ## Exemples
 

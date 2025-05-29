@@ -3,7 +3,7 @@ title: FontSavingArgs.OriginalFileSize
 linktitle: OriginalFileSize
 articleTitle: OriginalFileSize
 second_title: Aspose.Words pour .NET
-description: FontSavingArgs OriginalFileSize propriété. Obtient la taille du fichier de police dorigine en C#.
+description: Découvrez la propriété FontSavingArgs OriginalFileSize pour récupérer efficacement la taille du fichier de police d'origine, améliorant ainsi votre expérience de gestion des polices.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -18,11 +18,11 @@ public int OriginalFileSize { get; }
 
 ## Remarques
 
-Cette propriété contient la taille de fichier d'origine de la police actuelle si elle est connue. Sinon, cela peut être nul.
+Cette propriété contient la taille du fichier d'origine de la police actuelle, si elle est connue. Sinon, elle peut être nulle.
 
 ## Exemples
 
-Montre comment définir une logique personnalisée pour l’exportation des polices lors de l’enregistrement au format HTML.
+Montre comment définir une logique personnalisée pour l'exportation de polices lors de l'enregistrement au format HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -48,7 +48,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime les informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
+/// Imprime des informations sur les polices exportées et les enregistre dans le même dossier système local que leur sortie .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -65,7 +65,7 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Il existe deux manières de sauvegarder une police exportée.
+        // Il existe deux manières d'enregistrer une police exportée.
         // 1 - Enregistrez-le dans un emplacement du système de fichiers local :
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 

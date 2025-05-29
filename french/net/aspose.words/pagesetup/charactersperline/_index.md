@@ -3,7 +3,7 @@ title: PageSetup.CharactersPerLine
 linktitle: CharactersPerLine
 articleTitle: CharactersPerLine
 second_title: Aspose.Words pour .NET
-description: PageSetup CharactersPerLine propriété. Obtient ou définit le nombre de caractères par ligne dans la grille du document en C#.
+description: Contrôlez la mise en page de votre document avec la propriété CaractèresParLigne de PageSetup. Ajustez facilement le nombre de caractères par ligne pour une lisibilité et une mise en page optimales.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/pagesetup/charactersperline/
@@ -18,19 +18,19 @@ public int CharactersPerLine { get; set; }
 
 ## Remarques
 
-La valeur minimale de la propriété est 1. La valeur maximale dépend de la largeur de la page et de la taille de la police du style Normal . L'espacement minimum des caractères est de 90 pour cent de la taille de la police. Par exemple, le nombre maximum de caractères par ligne d'une page Lettre avec des marges d'un pouce est de 43.
+La valeur minimale de la propriété est 1. Sa valeur maximale dépend de la largeur de la page et de la taille de police du style Normal . L'espacement minimal des caractères est de 90 % de la taille de police. Par exemple, le nombre maximal de caractères par ligne d'une page Lettre avec des marges d'un pouce est de 43.
 
-Par défaut, la propriété a une valeur sur laquelle le pas des caractères est égal à la taille de la police du style Normal .
+Par défaut, la propriété a une valeur dont la hauteur de caractère est égale à la taille de police du style Normal .
 
 ## Exemples
 
-Montre comment spécifier a pour le nombre de caractères que chaque ligne peut contenir.
+Montre comment spécifier un pour le nombre de caractères que chaque ligne peut avoir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Activez le pitch, puis utilisez-le pour définir le nombre de caractères par ligne dans cette section.
+// Activez le pitching, puis utilisez-le pour définir le nombre de caractères par ligne dans cette section.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 

@@ -3,14 +3,14 @@ title: Table.DistanceTop
 linktitle: DistanceTop
 articleTitle: DistanceTop
 second_title: Aspose.Words pour .NET
-description: Table DistanceTop propriété. Obtient ou définit la distance entre le dessus du tableau et le texte environnant en points en C#.
+description: Ajustez facilement la distance entre le plateau de votre table et le texte environnant. Améliorez votre mise en page pour un rendu soigné et professionnel avec DistanceTop !
 type: docs
 weight: 150
 url: /fr/net/aspose.words.tables/table/distancetop/
 ---
 ## Table.DistanceTop property
 
-Obtient ou définit la distance entre le dessus du tableau et le texte environnant, en points.
+Obtient ou définit la distance entre le dessus de la table et le texte environnant, en points.
 
 ```csharp
 public double DistanceTop { get; set; }
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Définit la distance entre le tableau et le texte environnant.
+// Définir la distance entre le tableau et le texte environnant.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

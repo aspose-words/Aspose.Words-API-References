@@ -3,7 +3,7 @@ title: FormFieldCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words pour .NET
-description: FormFieldCollection RemoveAt méthode. Supprime un champ de formulaire à lindex spécifié en C#.
+description: Supprimez facilement un champ de formulaire grâce à la méthode FormFieldCollection RemoveAt. Simplifiez vos formulaires grâce à cette solution efficace basée sur l'indexation.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | Index de base zéro du champ de formulaire à supprimer. |
+| index | Int32 | L'index de base zéro du champ de formulaire à supprimer. |
 
 ## Remarques
 
-S'il existe un signet associé au champ du formulaire, le signet n'est pas supprimé.
+S'il existe un signet associé au champ de formulaire, le signet n'est pas supprimé.
 
 ## Exemples
 
@@ -73,15 +73,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

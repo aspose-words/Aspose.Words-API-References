@@ -3,7 +3,7 @@ title: Row.NextRow
 linktitle: NextRow
 articleTitle: NextRow
 second_title: Aspose.Words pour .NET
-description: Row NextRow propriété. Obtient le suivantRow nœud en C#.
+description: Découvrez la propriété NextRow pour accéder sans effort au nœud de ligne suivant, améliorant ainsi votre expérience de navigation et de gestion des données.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.tables/row/nextrow/
@@ -18,7 +18,7 @@ public Row NextRow { get; }
 
 ## Remarques
 
-La méthode peut être utilisée lorsque vous devez avoir un accès typé aux lignes du tableau. Si a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)le nœud se trouve dans une table au lieu d'une ligne, il est automatiquement parcouru pour obtenir une ligne contenue à l'intérieur.
+Cette méthode peut être utilisée lorsque vous avez besoin d'un accès typé aux lignes d'une table. Si a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) le nœud est trouvé dans une table au lieu d'une ligne, il est automatiquement parcouru pour obtenir une ligne contenue à l'intérieur.
 
 ## Exemples
 
@@ -28,7 +28,7 @@ Montre comment énumérer toutes les cellules du tableau.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Énumère toutes les cellules du tableau.
+// Énumérer toutes les cellules du tableau.
 for (Row row = table.FirstRow; row != null; row = row.NextRow)
 {
     for (Cell cell = row.FirstCell; cell != null; cell = cell.NextCell)

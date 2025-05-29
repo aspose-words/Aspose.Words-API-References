@@ -3,7 +3,7 @@ title: Cluster.GetString
 linktitle: GetString
 articleTitle: GetString
 second_title: Aspose.Words pour .NET
-description: Cluster GetString méthode. CréeString en utilisant les points de code des clusters spécifiés en C#.
+description: Créez sans effort des chaînes avec la méthode Cluster GetString, en utilisant des points de code provenant de clusters spécifiés pour une gestion efficace des données.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.shaping/cluster/getstring/

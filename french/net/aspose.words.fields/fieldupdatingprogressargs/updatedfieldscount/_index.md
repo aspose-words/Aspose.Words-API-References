@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 articleTitle: UpdatedFieldsCount
 second_title: Aspose.Words pour .NET
-description: FieldUpdatingProgressArgs UpdatedFieldsCount propriété. Obtient le nombre de champs mis à jour en C#.
+description: Découvrez la propriété UpdatedFieldsCount de FieldUpdatingProgressArgs pour suivre facilement le nombre de champs mis à jour dans votre application.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -18,7 +18,7 @@ public int UpdatedFieldsCount { get; }
 
 ## Exemples
 
-Montre comment utiliser les méthodes de rappel lors d’une mise à jour de champ.
+Montre comment utiliser les méthodes de rappel lors d'une mise à jour de champ.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

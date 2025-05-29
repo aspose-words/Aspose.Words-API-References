@@ -3,16 +3,16 @@ title: DocumentPartSavingArgs Class
 linktitle: DocumentPartSavingArgs
 articleTitle: DocumentPartSavingArgs
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.DocumentPartSavingArgs classe. Fournit des données pour leDocumentPartSaving rappel en C#.
+description: Découvrez la classe Aspose.Words.Saving.DocumentPartSavingArgs, essentielle pour améliorer le traitement des documents avec des options de sauvegarde personnalisables et des rappels efficaces.
 type: docs
-weight: 4940
+weight: 5690
 url: /fr/net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
 
 Fournit des données pour le[`DocumentPartSaving`](../idocumentpartsavingcallback/documentpartsaving/) rappel.
 
-Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article documentaire.
+Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article de documentation.
 
 ```csharp
 public class DocumentPartSavingArgs
@@ -25,15 +25,15 @@ public class DocumentPartSavingArgs
 | [Document](../../aspose.words.saving/documentpartsavingargs/document/) { get; } | Obtient l'objet document en cours d'enregistrement. |
 | [DocumentPartFileName](../../aspose.words.saving/documentpartsavingargs/documentpartfilename/) { get; set; } | Obtient ou définit le nom du fichier (sans chemin) dans lequel la partie du document sera enregistrée. |
 | [DocumentPartStream](../../aspose.words.saving/documentpartsavingargs/documentpartstream/) { get; set; } | Permet de spécifier le flux dans lequel la partie du document sera enregistrée. |
-| [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une partie du document. |
+| [KeepDocumentPartStreamOpen](../../aspose.words.saving/documentpartsavingargs/keepdocumentpartstreamopen/) { get; set; } | Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après l'enregistrement d'une partie du document. |
 
 ## Remarques
 
-Lorsque Aspose.Words enregistre un document au format HTML ou dans des formats associés et[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) est spécifié, le document est divisé en parties et par défaut, chaque partie du document est enregistrée dans un fichier distinct.
+Lorsque Aspose.Words enregistre un document au format HTML ou dans des formats associés et[`DocumentSplitCriteria`](../htmlsaveoptions/documentsplitcriteria/) est spécifié, le document est divisé en parties et par défaut, chaque partie du document est enregistrée dans un fichier séparé.
 
-Classe`DocumentPartSavingArgs` vous permet de contrôler la manière dont chaque partie du document sera enregistrée. Il permet de redéfinir la façon dont les noms de fichiers sont générés ou de contourner complètement l'enregistrement de parties de documents dans des fichiers en fournissant vos propres objets de flux.
+Classe`DocumentPartSavingArgs` vous permet de contrôler la manière dont chaque partie du document sera enregistrée. Il permet de redéfinir la manière dont les noms de fichiers sont générés ou de contourner complètement l'enregistrement des parties du document dans des fichiers en fournissant vos propres objets de flux.
 
-Pour enregistrer des parties de document dans des flux plutôt que dans des fichiers, utilisez l'option[`DocumentPartStream`](./documentpartstream/) propriété.
+Pour enregistrer des parties de document dans des flux plutôt que dans des fichiers, utilisez le[`DocumentPartStream`](./documentpartstream/) propriété.
 
 ## Exemples
 
@@ -45,22 +45,22 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
+    // Créez un objet « HtmlFixedSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Si nous enregistrons le document normalement, il y aura une sortie HTML
+    // Si nous enregistrons le document normalement, il y aura un seul HTML de sortie
     // document avec tout le contenu du document source.
-    // Définissez la propriété "DocumentSplitCriteria" sur "DocumentSplitCriteria.SectionBreak" pour
-    // enregistre notre document dans plusieurs fichiers HTML : un pour chaque section.
+    // Définissez la propriété « DocumentSplitCriteria » sur « DocumentSplitCriteria.SectionBreak » pour
+    // enregistrez notre document dans plusieurs fichiers HTML : un pour chaque section.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
-    // Attribuez un rappel personnalisé à la propriété "DocumentPartSavingCallback" pour modifier la logique d'enregistrement des parties du document.
+    // Affectez un rappel personnalisé à la propriété « DocumentPartSavingCallback » pour modifier la logique d'enregistrement de la partie du document.
     options.DocumentPartSavingCallback = new SavedDocumentPartRename(outFileName, options.DocumentSplitCriteria);
 
-    // Si nous convertissons un document contenant des images en HTML, nous nous retrouverons avec un fichier HTML qui renvoie à plusieurs images.
+    // Si nous convertissons un document contenant des images en HTML, nous nous retrouverons avec un fichier HTML contenant des liens vers plusieurs images.
     // Chaque image sera sous la forme d'un fichier dans le système de fichiers local.
-    // Il existe également un rappel qui permet de personnaliser le nom et l'emplacement du système de fichiers de chaque image.
+    // Il existe également un rappel qui peut personnaliser le nom et l'emplacement du système de fichiers de chaque image.
     options.ImageSavingCallback = new SavedImageRename(outFileName);
 
     doc.Save(ArtifactsDir + outFileName, options);
@@ -79,7 +79,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // On peut accéder à l'intégralité du document source via la propriété "Document".
+        // Nous pouvons accéder à l'intégralité du document source via la propriété "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -103,10 +103,10 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
         // Vous trouverez ci-dessous deux manières de spécifier où Aspose.Words enregistrera chaque partie du document.
-        // 1 - Définissez un nom de fichier pour le fichier pièce de sortie :
+        // 1 - Définir un nom de fichier pour le fichier de sortie :
         args.DocumentPartFileName = partFileName;
 
-        // 2 - Créez un flux personnalisé pour le fichier pièce de sortie :
+        // 2 - Créer un flux personnalisé pour le fichier de sortie :
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
         Assert.True(args.DocumentPartStream.CanWrite);
@@ -133,10 +133,10 @@ public class SavedImageRename : IImageSavingCallback
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
         // Vous trouverez ci-dessous deux manières de spécifier où Aspose.Words enregistrera chaque partie du document.
-        // 1 - Définissez un nom de fichier pour le fichier image de sortie :
+        // 1 - Définir un nom de fichier pour le fichier image de sortie :
         args.ImageFileName = imageFileName;
 
-        // 2 - Créez un flux personnalisé pour le fichier image de sortie :
+        // 2 - Créer un flux personnalisé pour le fichier image de sortie :
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
         Assert.True(args.ImageStream.CanWrite);

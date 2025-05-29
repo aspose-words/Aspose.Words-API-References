@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.StartMustacheTag
 linktitle: StartMustacheTag
 articleTitle: StartMustacheTag
 second_title: Aspose.Words pour .NET
-description: MailMergeRegionInfo StartMustacheTag propriété. Renvoie une balise de début moustache pour la région en C#.
+description: Découvrez la propriété MailMergeRegionInfo StartMustacheTag, qui fournit une balise de démarrage essentielle pour des régions de document transparentes dans vos projets.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
 ---
 ## MailMergeRegionInfo.StartMustacheTag property
 
-Renvoie une balise de début "moustache" pour la région.
+Renvoie une balise de début « moustache » pour la région.
 
 ```csharp
 public MustacheTag StartMustacheTag { get; }
@@ -18,7 +18,7 @@ public MustacheTag StartMustacheTag { get; }
 
 ## Exemples
 
-Montre comment utiliser les balises de moustache.
+Montre comment travailler avec les balises de moustache.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

@@ -3,7 +3,7 @@ title: DigitalSignatureCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: DigitalSignatureCollection GetEnumerator méthode. Renvoie un objet énumérateur de dictionnaire qui peut être utilisé pour parcourir tous les éléments de la collection en C#.
+description: Explorez la méthode GetEnumerator de DigitalSignatureCollection pour parcourir facilement tous les éléments de la collection avec un énumérateur de dictionnaire pratique.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/

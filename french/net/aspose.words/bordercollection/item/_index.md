@@ -3,7 +3,7 @@ title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: BorderCollection Item propriété. Récupère unBorder objet par type de bordure en C#.
+description: Découvrez la propriété d'élément BorderCollection pour accéder facilement aux objets Border par type. Simplifiez votre conception grâce à une gestion efficace des bordures !
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bordercollection/item/
@@ -95,7 +95,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Après avoir modifié le style de ligne des bordures uniquement dans le deuxième paragraphe,
+// Après avoir modifié le style de ligne des bordures dans le deuxième paragraphe seulement,
 // les collections de bordures ne partagent plus les mêmes éléments.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {

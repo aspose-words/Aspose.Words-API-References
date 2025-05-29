@@ -3,14 +3,14 @@ title: FontSourceBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words pour .NET
-description: FontSourceBase WarningCallback propriété. Appelé lors du traitement de la source de police lorsquun problème susceptible dentraîner une perte de fidélité du formatage est détecté en C#.
+description: Découvrez la propriété FontSourceBase WarningCallback, essentielle pour garantir la fidélité du formatage en détectant les problèmes lors du traitement de la source de police.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-Appelé lors du traitement de la source de police lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté.
+Appelé pendant le traitement de la source de police lorsqu'un problème est détecté qui pourrait entraîner une perte de fidélité du formatage.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,7 +18,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Exemples
 
-Montre comment appeler un rappel d'avertissement lorsque les sources de polices fonctionnent.
+Montre comment appeler le rappel d'avertissement lorsque les sources de police fonctionnent.
 
 ```csharp
 public void FontSourceWarning()
@@ -30,7 +30,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Récupère la liste des polices à appeler en rappel d'avertissement.
+    // Obtenir la liste des polices pour appeler le rappel d'avertissement.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -40,7 +40,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Appelé chaque fois qu'un avertissement se produit lors du traitement de la source de police.
+    /// Appelé chaque fois qu'un avertissement se produit pendant le traitement de la source de la police.
     /// </summary>
     public void Warning(WarningInfo info)
     {

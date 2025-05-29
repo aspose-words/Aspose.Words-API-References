@@ -3,7 +3,7 @@ title: TableStyle.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words pour .NET
-description: TableStyle Bidi propriété. Obtient ou définit sil sagit dun style pour un tableau de droite à gauche en C#.
+description: Découvrez la propriété TableStyle Bidi pour gérer facilement les styles de tableau de droite à gauche, améliorant ainsi votre mise en page pour une meilleure lisibilité et une meilleure expérience utilisateur.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/tablestyle/bidi/
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Remarques
 
-Quand`vrai`, les cellules en rangées sont disposées de droite à gauche.
+Quand`vrai`, les cellules des rangées sont disposées de droite à gauche.
 
 La valeur par défaut est`FAUX`.
 
@@ -55,7 +55,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

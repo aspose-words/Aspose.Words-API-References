@@ -3,9 +3,9 @@ title: Stroke.ForeColor
 linktitle: ForeColor
 articleTitle: ForeColor
 second_title: Aspose.Words pour .NET
-description: Stroke ForeColor propriété. Obtient ou définit la couleur de premier plan du trait en C#.
+description: Découvrez la propriété Stroke ForeColor pour personnaliser facilement la couleur de premier plan de votre trait pour une flexibilité de conception et un attrait visuel améliorés.
 type: docs
-weight: 100
+weight: 130
 url: /fr/net/aspose.words.drawing/stroke/forecolor/
 ---
 ## Stroke.ForeColor property
@@ -18,11 +18,11 @@ public Color ForeColor { get; set; }
 
 ## Remarques
 
-La valeur par défaut d'un[`Shape`](../../shape/) est Black.
+La valeur par défaut pour un[`Shape`](../../shape/) is Black .
 
 ## Exemples
 
-Montrez comment définir le formatage des marqueurs.
+Montrez comment définir la mise en forme des marqueurs.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Supprime la série générée par défaut.
+// Supprimer la série générée par défaut.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Définit le formatage du marqueur.
+// Définir le formatage du marqueur.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

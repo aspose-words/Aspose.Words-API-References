@@ -3,14 +3,14 @@ title: Field.Update
 linktitle: Update
 articleTitle: Update
 second_title: Aspose.Words pour .NET
-description: Field Update méthode. Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour en C#.
+description: Mettez à jour efficacement vos champs grâce à notre méthode de mise à jour des champs. Évitez les conflits en vérifiant que les champs ne sont pas déjà utilisés. Simplifiez la gestion de vos données dès aujourd'hui !
 type: docs
 weight: 140
 url: /fr/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-Effectue la mise à jour du champ. Lance si le champ est déjà mis à jour.
+Effectue la mise à jour du champ. Lève une requête si le champ est déjà en cours de mise à jour.
 
 ```csharp
 public void Update()
@@ -24,8 +24,8 @@ Montre comment insérer un champ dans un document à l'aide de FieldType.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère deux champs en passant un indicateur qui détermine s'il faut les mettre à jour au fur et à mesure que le constructeur les insère.
-// Dans certains cas, la mise à jour des champs peut être coûteuse en calcul, et il peut être judicieux de différer la mise à jour.
+// Insérer deux champs tout en passant un indicateur qui détermine s'il faut les mettre à jour lorsque le générateur les insère.
+// Dans certains cas, la mise à jour des champs peut être coûteuse en termes de calcul, et il peut être judicieux de différer la mise à jour.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -47,7 +47,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Nous devrons mettre à jour ces champs manuellement en utilisant les méthodes de mise à jour.
+    // Nous devrons mettre à jour ces champs en utilisant les méthodes de mise à jour manuellement.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -64,7 +64,7 @@ Montre comment formater les résultats des champs.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans aucun format appliqué.
+// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans format appliqué.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -72,7 +72,7 @@ Assert.AreEqual("5", field.Result);
 
 // Nous pouvons appliquer un format au résultat d'un champ en utilisant les propriétés du champ.
 // Vous trouverez ci-dessous trois types de formats que nous pouvons appliquer au résultat d'un champ.
-// 1 - Format numérique :
+// 1 - Format numérique :
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -106,7 +106,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Nous pouvons supprimer nos formats pour rétablir le résultat du champ dans sa forme originale.
+// Nous pouvons supprimer nos formats pour ramener le résultat du champ à sa forme d'origine.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -127,7 +127,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(*bool*) {#update_1}
 
-Effectue une mise à jour du champ. Lance si le champ est déjà mis à jour.
+Effectue une mise à jour du champ. L'erreur est générée si le champ est déjà en cours de mise à jour.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -135,11 +135,11 @@ public void Update(bool ignoreMergeFormat)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Si`vrai` alors le formatage des résultats du champ direct est abandonné, quel que soit le commutateur MERGEFORMAT, sinon une mise à jour normale est effectuée. |
+| ignoreMergeFormat | Boolean | Si`vrai` alors le formatage direct du résultat du champ est abandonné, quel que soit le commutateur MERGEFORMAT, sinon une mise à jour normale est effectuée. |
 
 ## Exemples
 
-Montre comment conserver ou supprimer les champs INCLUDEPICTURE lors du chargement d’un document.
+Montre comment conserver ou supprimer les champs INCLUDEPICTURE lors du chargement d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -153,7 +153,7 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Nous pouvons définir un indicateur dans un objet LoadOptions pour décider s'il faut convertir tous les champs INCLUDEPICTURE
+    // Nous pouvons définir un indicateur dans un objet LoadOptions pour décider de convertir ou non tous les champs INCLUDEPICTURE
     // dans les formes d'image lors du chargement d'un document qui les contient.
     LoadOptions loadOptions = new LoadOptions
     {

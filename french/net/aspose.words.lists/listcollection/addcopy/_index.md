@@ -3,7 +3,7 @@ title: ListCollection.AddCopy
 linktitle: AddCopy
 articleTitle: AddCopy
 second_title: Aspose.Words pour .NET
-description: ListCollection AddCopy méthode. Crée une nouvelle liste en copiant la liste spécifiée et en lajoutant à la collection de listes dans le document en C#.
+description: Découvrez la méthode ListCollection AddCopy pour dupliquer sans effort une liste et enrichir la collection de votre document avec facilité et efficacité.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.lists/listcollection/addcopy/
@@ -18,7 +18,7 @@ public List AddCopy(List srcList)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| srcList | List | La liste des sources à partir de laquelle copier. |
+| srcList | List | La liste source à partir de laquelle copier. |
 
 ### Return_Value
 
@@ -26,7 +26,7 @@ La liste nouvellement créée.
 
 ## Remarques
 
-La liste des sources peut provenir de n’importe quel document. Si la liste source appartient à un autre document, une copie de la liste est créée et ajoutée au document actuel.
+La liste source peut provenir de n'importe quel document. Si elle appartient à un autre document, une copie de la liste est créée et ajoutée au document actuel.
 
 Si la liste source est une référence ou une définition d'un style de liste, la liste nouvellement créée n'est pas liée au style de liste d'origine.
 
@@ -73,14 +73,14 @@ Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Créez une liste à partir d'un modèle Microsoft Word et personnalisez son premier niveau de liste.
+// Créez une liste à partir d’un modèle Microsoft Word et personnalisez son premier niveau de liste.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Applique notre liste à certains paragraphes.
+// Appliquez notre liste à certains paragraphes.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -95,7 +95,7 @@ List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
-// Applique la deuxième liste aux nouveaux paragraphes.
+// Appliquer la deuxième liste aux nouveaux paragraphes.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");

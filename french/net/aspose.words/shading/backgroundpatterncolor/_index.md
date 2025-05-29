@@ -3,7 +3,7 @@ title: Shading.BackgroundPatternColor
 linktitle: BackgroundPatternColor
 articleTitle: BackgroundPatternColor
 second_title: Aspose.Words pour .NET
-description: Shading BackgroundPatternColor propriété. Obtient ou définit la couleur appliquée à larrièreplan duShading objet en C#.
+description: Découvrez la propriété Shading BackgroundPatternColor pour personnaliser la couleur d'arrière-plan de votre objet Shading, améliorant ainsi l'attrait visuel de votre conception.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/shading/backgroundpatterncolor/

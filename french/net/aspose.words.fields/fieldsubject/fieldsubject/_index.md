@@ -3,7 +3,7 @@ title: FieldSubject
 linktitle: FieldSubject
 articleTitle: FieldSubject
 second_title: Aspose.Words pour .NET
-description: FieldSubject constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldSubject pour une intégration fluide. Exploitez le constructeur par défaut pour un codage efficace et des performances améliorées.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldsubject/fieldsubject/

@@ -3,7 +3,7 @@ title: Glyph
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words pour .NET
-description: Glyph constructeur. Initialise une nouvelle instance de cette classe en C#.
+description: Créez de superbes glyphes sans effort grâce à notre constructeur de glyphes. Initialisez facilement de nouvelles instances et améliorez vos projets de conception dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.shaping/glyph/glyph/

@@ -3,7 +3,7 @@ title: Field.DisplayResult
 linktitle: DisplayResult
 articleTitle: DisplayResult
 second_title: Aspose.Words pour .NET
-description: Field DisplayResult propriété. Obtient le texte qui représente le résultat du champ affiché en C#.
+description: Découvrez la propriété Field DisplayResult qui fournit le texte de vos résultats de champ affichés, améliorant ainsi la clarté et l'expérience utilisateur.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/field/displayresult/
@@ -22,7 +22,7 @@ Le[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) la mét
 
 ## Exemples
 
-Montre comment obtenir le texte réel affiché par un champ dans le document.
+Montre comment obtenir le texte réel qu'un champ affiche dans le document.
 
 ```csharp
 Document doc = new Document();
@@ -36,8 +36,8 @@ fieldAuthor.AuthorName = "John Doe";
 // un champ s'afficherait à sa place dans le document.
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
- // Les champs ne conservent pas les valeurs de résultat précises en temps réel.
-// Pour nous assurer que nos champs affichent des résultats précis à tout moment,
+ // Les champs ne conservent pas de valeurs de résultat précises en temps réel.
+// Pour garantir que nos champs affichent des résultats précis à tout moment,
 // comme juste avant une opération de sauvegarde, nous devons les mettre à jour manuellement.
 fieldAuthor.Update();
 

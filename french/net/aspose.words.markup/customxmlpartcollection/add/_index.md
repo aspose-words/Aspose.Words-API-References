@@ -3,7 +3,7 @@ title: CustomXmlPartCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words pour .NET
-description: CustomXmlPartCollection Add méthode. Ajoute un élément à la collection en C#.
+description: Découvrez la méthode CustomXmlPartCollection Add pour améliorer sans effort vos collections en ajoutant de nouveaux éléments avec facilité et efficacité.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/customxmlpartcollection/add/
@@ -22,14 +22,14 @@ public void Add(CustomXmlPart part)
 
 ## Exemples
 
-Montre comment créer une balise de document structuré avec des données XML personnalisées.
+Montre comment créer une balise de document structurée avec des données XML personnalisées.
 
 ```csharp
 Document doc = new Document();
 
 // Construisez une partie XML contenant des données et ajoutez-la à la collection du document.
-// Si nous activons l'onglet "Développeur" dans Microsoft Word,
-// nous pouvons trouver des éléments de cette collection dans le "XML Mapping Pane", ainsi que quelques éléments par défaut.
+// Si nous activons l'onglet « Développeur » dans Microsoft Word,
+// nous pouvons trouver des éléments de cette collection dans le « volet de mappage XML », ainsi que quelques éléments par défaut.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -38,16 +38,16 @@ Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
 // Vous trouverez ci-dessous deux manières de faire référence aux parties XML.
-// 1 - Par un index dans la collection de composants XML personnalisés :
+// 1 - Par un index dans la collection de parties XML personnalisées :
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - Par GUID :
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Ajout d'une association de schéma XML.
+// Ajouter une association de schéma XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clonez une pièce, puis insérez-la dans la collection.
+// Clonez une partie, puis insérez-la dans la collection.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
@@ -66,16 +66,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Utilisez la méthode "RemoveAt" pour supprimer la partie clonée par index.
+// Utilisez la méthode « RemoveAt » pour supprimer la partie clonée par index.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Clonez la collection de composants XML, puis utilisez la méthode "Clear" pour supprimer tous ses éléments en même temps.
+// Clonez la collection de pièces XML, puis utilisez la méthode « Clear » pour supprimer tous ses éléments à la fois.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Créez une balise de document structurée qui affichera le contenu de notre pièce et l'insérerez dans le corps du document.
+// Créez une balise de document structurée qui affichera le contenu de notre partie et l'insérera dans le corps du document.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 
@@ -108,18 +108,18 @@ public CustomXmlPart Add(string id, string xml)
 
 ### Return_Value
 
-Création d'une partie XML personnalisée.
+Partie XML personnalisée créée.
 
 ## Exemples
 
-Montre comment créer une balise de document structuré avec des données XML personnalisées.
+Montre comment créer une balise de document structurée avec des données XML personnalisées.
 
 ```csharp
 Document doc = new Document();
 
 // Construisez une partie XML contenant des données et ajoutez-la à la collection du document.
-// Si nous activons l'onglet "Développeur" dans Microsoft Word,
-// nous pouvons trouver des éléments de cette collection dans le "XML Mapping Pane", ainsi que quelques éléments par défaut.
+// Si nous activons l'onglet « Développeur » dans Microsoft Word,
+// nous pouvons trouver des éléments de cette collection dans le « volet de mappage XML », ainsi que quelques éléments par défaut.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -128,16 +128,16 @@ Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
 // Vous trouverez ci-dessous deux manières de faire référence aux parties XML.
-// 1 - Par un index dans la collection de composants XML personnalisés :
+// 1 - Par un index dans la collection de parties XML personnalisées :
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - Par GUID :
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Ajout d'une association de schéma XML.
+// Ajouter une association de schéma XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Clonez une pièce, puis insérez-la dans la collection.
+// Clonez une partie, puis insérez-la dans la collection.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
@@ -156,16 +156,16 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Utilisez la méthode "RemoveAt" pour supprimer la partie clonée par index.
+// Utilisez la méthode « RemoveAt » pour supprimer la partie clonée par index.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Clonez la collection de composants XML, puis utilisez la méthode "Clear" pour supprimer tous ses éléments en même temps.
+// Clonez la collection de pièces XML, puis utilisez la méthode « Clear » pour supprimer tous ses éléments à la fois.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 
-// Créez une balise de document structurée qui affichera le contenu de notre pièce et l'insérerez dans le corps du document.
+// Créez une balise de document structurée qui affichera le contenu de notre partie et l'insérera dans le corps du document.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 tag.XmlMapping.SetMapping(xmlPart, "/root[1]/text[1]", string.Empty);
 

@@ -3,14 +3,14 @@ title: FormField.OwnHelp
 linktitle: OwnHelp
 articleTitle: OwnHelp
 second_title: Aspose.Words pour .NET
-description: FormField OwnHelp propriété. Spécifie la source du texte affiché dans une boîte de message lorsquun champ de formulaire a le focus et que lutilisateur appuie sur F1 en C#.
+description: Découvrez la propriété OwnHelp de FormField. Simplifiez l'expérience utilisateur en personnalisant les messages d'aide lorsque les utilisateurs appuient sur F1 dans les champs de formulaire ciblés.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.fields/formfield/ownhelp/
 ---
 ## FormField.OwnHelp property
 
-Spécifie la source du texte affiché dans une boîte de message lorsqu'un champ de formulaire a le focus et que l'utilisateur appuie sur F1.
+Spécifie la source du texte qui s'affiche dans une boîte de message lorsqu'un champ de formulaire est activé et que l'utilisateur appuie sur F1.
 
 ```csharp
 public bool OwnHelp { get; set; }
@@ -18,7 +18,7 @@ public bool OwnHelp { get; set; }
 
 ## Remarques
 
-Si`vrai` , le texte spécifié par le[`HelpText`](../helptext/) la propriété est affichée. Si`FAUX` , le texte de l'entrée d'insertion automatique spécifiée par le[`HelpText`](../helptext/) la propriété est affichée.
+Si`vrai` , le texte spécifié par le[`HelpText`](../helptext/) la propriété est affichée. Si`FAUX` , le texte dans l'entrée de texte automatique spécifiée par le[`HelpText`](../helptext/) la propriété est affichée.
 
 ## Exemples
 
@@ -69,15 +69,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

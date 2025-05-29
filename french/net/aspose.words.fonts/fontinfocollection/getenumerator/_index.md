@@ -3,7 +3,7 @@ title: FontInfoCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: FontInfoCollection GetEnumerator méthode. Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection en C#.
+description: Découvrez la méthode GetEnumerator de FontInfoCollection pour parcourir facilement tous les éléments de la collection. Simplifiez votre codage grâce à cet outil efficace !
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fonts/fontinfocollection/getenumerator/

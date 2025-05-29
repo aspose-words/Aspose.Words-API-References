@@ -3,7 +3,7 @@ title: FieldBuilder
 linktitle: FieldBuilder
 articleTitle: FieldBuilder
 second_title: Aspose.Words pour .NET
-description: FieldBuilder constructeur. Initialise une instance duFieldBuilder classe en C#.
+description: Découvrez FieldBuilder, l'outil puissant pour créer et gérer facilement les champs de vos projets. Optimisez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldbuilder/fieldbuilder/
@@ -18,20 +18,20 @@ public FieldBuilder(FieldType fieldType)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fieldType | FieldType | Le type de champ à construire. |
+| fieldType | FieldType | Le type de terrain à construire. |
 
 ## Exemples
 
-Montre comment créer et insérer un champ à l’aide d’un générateur de champs.
+Montre comment créer et insérer un champ à l'aide d'un générateur de champs.
 
 ```csharp
 Document doc = new Document();
 
-// Un moyen pratique d'ajouter du contenu textuel à un document consiste à utiliser un générateur de documents.
+// Un moyen pratique d'ajouter du contenu textuel à un document est d'utiliser un générateur de documents.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// Les champs ont leur constructeur, que nous pouvons utiliser pour construire un code de champ morceau par morceau.
+// Les champs ont leur générateur, que nous pouvons utiliser pour construire un code de champ morceau par morceau.
 // Dans ce cas, nous allons construire un champ BARCODE représentant un code postal américain,
 // puis insérez-le devant un Run.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);

@@ -3,14 +3,14 @@ title: ShapeBase.Rotation
 linktitle: Rotation
 articleTitle: Rotation
 second_title: Aspose.Words pour .NET
-description: ShapeBase Rotation propriété. Définit langle en degrés de rotation dune forme. La valeur positive correspond à langle de rotation dans le sens des aiguilles dune montre en C#.
+description: Découvrez la propriété ShapeBase Rotation, définissez et personnalisez facilement les angles de rotation de vos formes, améliorant ainsi la précision et la créativité de votre conception.
 type: docs
-weight: 470
+weight: 500
 url: /fr/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
 
-Définit l'angle (en degrés) de rotation d'une forme. La valeur positive correspond à l'angle de rotation dans le sens des aiguilles d'une montre.
+Définit l'angle (en degrés) selon lequel une forme est tournée. Une valeur positive correspond à un angle de rotation dans le sens des aiguilles d'une montre.
 
 ```csharp
 public double Rotation { get; set; }
@@ -28,8 +28,8 @@ Montre comment insérer et faire pivoter une image.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une forme avec une image.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+// Insérer une forme avec une image.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 

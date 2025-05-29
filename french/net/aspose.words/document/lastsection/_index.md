@@ -3,9 +3,9 @@ title: Document.LastSection
 linktitle: LastSection
 articleTitle: LastSection
 second_title: Aspose.Words pour .NET
-description: Document LastSection propriété. Obtient la dernière section du document en C#.
+description: Découvrez la propriété LastSection pour accéder facilement à la section finale de votre document, améliorant ainsi l'efficacité de la navigation et de la gestion du contenu.
 type: docs
-weight: 240
+weight: 250
 url: /fr/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
@@ -18,7 +18,7 @@ public Section LastSection { get; }
 
 ## Remarques
 
-Retours`nul` s'il n'y a pas de sections.
+Retours`nul`s'il n'y a pas de sections.
 
 ## Exemples
 
@@ -28,7 +28,7 @@ Montre comment créer une nouvelle section avec un générateur de documents.
 Document doc = new Document();
 
 // Un document vierge contient une section par défaut,
-// qui contient des nœuds enfants que nous pouvons modifier.
+// qui contient des nœuds enfants que nous pouvons éditer.
 Assert.AreEqual(1, doc.Sections.Count);
 
 // Utilisez un générateur de documents pour ajouter du texte à la première section.
@@ -40,7 +40,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Chaque section a ses propres paramètres de mise en page.
+// Chaque section a ses propres paramètres de configuration de page.
 // Nous pouvons diviser le texte de la deuxième section en deux colonnes.
 // Cela n'affectera pas le texte de la première section.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);

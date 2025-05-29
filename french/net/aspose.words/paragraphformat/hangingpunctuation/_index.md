@@ -3,7 +3,7 @@ title: ParagraphFormat.HangingPunctuation
 linktitle: HangingPunctuation
 articleTitle: HangingPunctuation
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat HangingPunctuation propriété. Obtient ou définit un indicateur indiquant si la ponctuation suspendue est activée pour le paragraphe actuel en C#.
+description: Découvrez comment améliorer la mise en page de votre texte grâce à la propriété Ponctuation suspendue de ParagraphFormat. Optimisez la lisibilité et le style sans effort !
 type: docs
 weight: 130
 url: /fr/net/aspose.words/paragraphformat/hangingpunctuation/

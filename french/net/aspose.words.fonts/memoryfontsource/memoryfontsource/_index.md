@@ -3,14 +3,14 @@ title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words pour .NET
-description: MemoryFontSource constructeur. Directeur en C#.
+description: Découvrez MemoryFontSource, un puissant constructeur pour une gestion fluide des polices dans vos projets. Améliorez votre design facilement et efficacement !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(*byte[]*) {#constructor}
 
-Directeur.
+Cteur.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -22,7 +22,7 @@ public MemoryFontSource(byte[] fontData)
 
 ## Exemples
 
-Montre comment utiliser un tableau d'octets avec les données d'un fichier de police comme source de police.
+Montre comment utiliser un tableau d'octets avec des données provenant d'un fichier de police comme source de police.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -46,7 +46,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int*) {#constructor_1}
 
-Directeur.
+Cteur.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -55,11 +55,11 @@ public MemoryFontSource(byte[] fontData, int priority)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | fontData | Byte[] | Données de police binaires. |
-| priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
+| priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) description de la propriété pour plus d'informations. |
 
 ## Exemples
 
-Montre comment utiliser un tableau d'octets avec les données d'un fichier de police comme source de police.
+Montre comment utiliser un tableau d'octets avec des données provenant d'un fichier de police comme source de police.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -83,7 +83,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
-Directeur.
+Cteur.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -92,8 +92,8 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | fontData | Byte[] | Données de police binaires. |
-| priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) Description de la propriété pour plus d'informations. |
-| cacheKey | String | La clé de cette source dans le cache. Voir[`CacheKey`](../cachekey/) Description de la propriété pour plus d'informations. |
+| priority | Int32 | Priorité de la source de police. Voir le[`Priority`](../../fontsourcebase/priority/) description de la propriété pour plus d'informations. |
+| cacheKey | String | La clé de cette source dans le cache. Voir[`CacheKey`](../cachekey/) description de la propriété pour plus d'informations. |
 
 ## Exemples
 
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,8 +127,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Charge les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
-/// pendant toute la durée de vie de l'objet "FontSettings".
+/// Chargez les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
+/// pendant toute la durée de vie de l'objet « FontSettings ».
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

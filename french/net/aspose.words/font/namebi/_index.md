@@ -3,14 +3,14 @@ title: Font.NameBi
 linktitle: NameBi
 articleTitle: NameBi
 second_title: Aspose.Words pour .NET
-description: Font NameBi propriété. Renvoie ou définit le nom de la police dans un document rédigé en langue de droite à gauche en C#.
+description: Découvrez comment définir et personnaliser facilement les noms de police pour les documents écrits de droite à gauche, améliorant ainsi la lisibilité et la conception. Optimisez votre texte dès aujourd'hui !
 type: docs
 weight: 250
 url: /fr/net/aspose.words/font/namebi/
 ---
 ## Font.NameBi property
 
-Renvoie ou définit le nom de la police dans un document rédigé en langue de droite à gauche.
+Renvoie ou définit le nom de la police dans un document de langue s'écrivant de droite à gauche.
 
 ```csharp
 public string NameBi { get; set; }
@@ -38,13 +38,13 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Nous pouvons utiliser le drapeau Bidi pour indiquer si le texte que nous sommes sur le point d'ajouter
-// avec le générateur de documents, c'est de droite à gauche. Lorsque nous ajoutons du texte avec cet indicateur défini sur true,
+// Nous pouvons utiliser l'indicateur Bidi pour indiquer si le texte que nous sommes sur le point d'ajouter
+// avec le générateur de documents, l'écriture s'effectue de droite à gauche. Lorsque nous ajoutons du texte avec cet indicateur à « vrai »,
 // il sera formaté en utilisant l'ensemble de paramètres de police de droite à gauche.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Définissez l'indicateur sur false, puis ajoutez du texte de gauche à droite.
+// Définissez l'indicateur sur faux, puis ajoutez du texte de gauche à droite.
 // Le générateur de documents les formatera en utilisant l'ensemble de paramètres de police de gauche à droite.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");

@@ -3,7 +3,7 @@ title: MustacheTag.ReferenceRun
 linktitle: ReferenceRun
 articleTitle: ReferenceRun
 second_title: Aspose.Words pour .NET
-description: MustacheTag ReferenceRun propriété. Obtient lexécution qui contient le début de la balise en C#.
+description: Découvrez MustacheTag ReferenceRun. Accédez à l'exécution qui marque le début de votre balise pour une gestion fluide des données et des performances améliorées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -18,7 +18,7 @@ public Run ReferenceRun { get; }
 
 ## Exemples
 
-Montre comment utiliser les balises de moustache.
+Montre comment travailler avec les balises de moustache.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

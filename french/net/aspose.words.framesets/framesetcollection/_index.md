@@ -3,16 +3,16 @@ title: FramesetCollection Class
 linktitle: FramesetCollection
 articleTitle: FramesetCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Framesets.FramesetCollection classe. Représente une collection dinstances duFrameset classe en C#.
+description: Découvrez la classe Aspose.Words FramesetCollection, votre solution de référence pour gérer plusieurs instances Frameset sans effort dans le traitement de documents.
 type: docs
-weight: 3090
+weight: 3520
 url: /fr/net/aspose.words.framesets/framesetcollection/
 ---
 ## FramesetCollection class
 
 Représente une collection d'instances du[`Frameset`](../frameset/) classe.
 
-Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article documentaire.
+Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article de documentation.
 
 ```csharp
 public class FramesetCollection : IEnumerable<Frameset>
@@ -36,6 +36,29 @@ public class FramesetCollection : IEnumerable<Frameset>
 | Nom | La description |
 | --- | --- |
 | [GetEnumerator](../../aspose.words.framesets/framesetcollection/getenumerator/)() | Renvoie un énumérateur qui parcourt la collection. |
+
+## Exemples
+
+Montre comment accéder aux cadres sur la page.
+
+```csharp
+// Le document contient plusieurs cadres avec des liens vers d'autres documents.
+Document doc = new Document(MyDir + "Frameset.docx");
+
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
+// Nous pouvons vérifier l'URL par défaut (une URL de page Web ou un document local) ou si le cadre est une ressource externe.
+Assert.AreEqual("https://fichier-exemples-com.github.io/uploads/2017/02/fichier-exemple_100kB.docx",
+    doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
+Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
+
+Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
+Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
+
+// Modifier les propriétés de l'un de nos cadres.
+doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
+    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx";
+doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
+```
 
 ### Voir également
 

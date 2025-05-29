@@ -3,14 +3,14 @@ title: StyleCollection.DefaultParagraphFormat
 linktitle: DefaultParagraphFormat
 articleTitle: DefaultParagraphFormat
 second_title: Aspose.Words pour .NET
-description: StyleCollection DefaultParagraphFormat propriété. Obtient le formatage de paragraphe par défaut du document en C#.
+description: Découvrez la propriété StyleCollection DefaultParagraphFormat pour accéder et personnaliser facilement la mise en forme de paragraphe par défaut de votre document pour une meilleure lisibilité.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/stylecollection/defaultparagraphformat/
 ---
 ## StyleCollection.DefaultParagraphFormat property
 
-Obtient le formatage de paragraphe par défaut du document.
+Obtient la mise en forme de paragraphe par défaut du document.
 
 ```csharp
 public ParagraphFormat DefaultParagraphFormat { get; }
@@ -22,7 +22,7 @@ Notez que les valeurs par défaut à l'échelle du document ont été introduite
 
 ## Exemples
 
-Montre comment ajouter un style à la collection de styles d’un document.
+Montre comment ajouter un style à la collection de styles d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ Document doc = new Document();
 StyleCollection styles = doc.Styles;
 // Définissez les paramètres par défaut pour les nouveaux styles que nous pourrons ajouter ultérieurement à cette collection.
 styles.DefaultFont.Name = "Courier New";
-// Si on ajoute un style du "StyleType.Paragraph", la collection appliquera les valeurs de
-// sa propriété "DefaultParagraphFormat" à la propriété "ParagraphFormat" du style.
+// Si nous ajoutons un style de type "StyleType.Paragraph", la collection appliquera les valeurs de
+// sa propriété « DefaultParagraphFormat » à la propriété « ParagraphFormat » du style.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
 // Ajoutez un style, puis vérifiez qu'il possède les paramètres par défaut.
 styles.Add(StyleType.Paragraph, "MyStyle");

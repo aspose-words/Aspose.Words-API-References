@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.PosCodeStyle
 linktitle: PosCodeStyle
 articleTitle: PosCodeStyle
 second_title: Aspose.Words pour .NET
-description: FieldDisplayBarcode PosCodeStyle propriété. Obtient ou définit le style dun codebarres de point de vente types de codesbarres UPCAUPCEEAN13EAN8. Les valeurs valides insensibles à la casse sont STDSUP2SUP5CASE en C#.
+description: Découvrez la propriété FieldDisplayBarcode PosCodeStyle pour personnaliser les codes-barres de point de vente. Prise en charge des formats UPCA, EAN13 et autres pour une efficacité optimale.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 ---
 ## FieldDisplayBarcode.PosCodeStyle property
 
-Obtient ou définit le style d'un code-barres de point de vente (types de codes-barres UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Les valeurs valides (insensibles à la casse) sont [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+Récupère ou définit le style d'un code-barres de point de vente (types de codes-barres UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Les valeurs valides (insensibles à la casse) sont [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - Code barre EAN13, avec les chiffres affichés sous les barres :
+// 2 - Code-barres EAN13, avec les chiffres affichés sous les barres :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -51,7 +51,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - Code barre CODE39 :
+// 3 - Code-barres CODE39 :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - Code-barres ITF4, avec un code cas spécifié :
+// 4 - Code-barres ITF4, avec un code de cas spécifié :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

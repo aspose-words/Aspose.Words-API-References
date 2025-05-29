@@ -3,14 +3,14 @@ title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words pour .NET
-description: FileFontSource FilePath propriété. Chemin daccès au fichier de police en C#.
+description: Découvrez la propriété FileFontSource FilePath pour accéder facilement à vos fichiers de polices. Simplifiez votre processus de création grâce à cet outil essentiel !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fonts/filefontsource/filepath/
 ---
 ## FileFontSource.FilePath property
 
-Chemin d'accès au fichier de police.
+Chemin vers le fichier de police.
 
 ```csharp
 public string FilePath { get; }

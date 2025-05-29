@@ -3,7 +3,7 @@ title: Node.PreviousSibling
 linktitle: PreviousSibling
 articleTitle: PreviousSibling
 second_title: Aspose.Words pour .NET
-description: Node PreviousSibling propriété. Obtient le nœud précédant immédiatement ce nœud en C#.
+description: Découvrez la propriété Node PreviousSibling pour accéder facilement au nœud qui précède votre nœud actuel, améliorant ainsi vos compétences en manipulation DOM.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/node/previoussibling/
@@ -32,11 +32,11 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Les deux sections sont frères et sœurs l'un de l'autre.
+// Les deux sections sont sœurs l'une de l'autre.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Supprime une section en fonction de sa relation fraternelle avec une autre section.
+// Supprimez une section en fonction de sa relation de fratrie avec une autre section.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

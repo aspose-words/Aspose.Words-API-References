@@ -3,7 +3,7 @@ title: HeaderFooter.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words pour .NET
-description: HeaderFooter NodeType propriété. RetoursHeaderFooter  en C#.
+description: Découvrez la propriété NodeType HeaderFooter qui récupère efficacement les détails de l'en-tête et du pied de page, améliorant ainsi la structure de votre contenu et l'expérience utilisateur.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/headerfooter/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Exemples
 
-Montre comment parcourir les enfants d’un nœud composite.
+Montre comment parcourir les enfants d'un nœud composite.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Une Section est un nœud composite et peut contenir des nœuds enfants,
-// mais seulement si ces nœuds enfants sont de type nœud "Body" ou "HeaderFooter".
+// Une section est un nœud composite et peut contenir des nœuds enfants,
+// mais seulement si ces nœuds enfants sont de type nœud « Body » ou « HeaderFooter ».
 foreach (Node node in section)
 {
     switch (node.NodeType)

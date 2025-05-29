@@ -3,9 +3,9 @@ title: ReplaceAction Enum
 linktitle: ReplaceAction
 articleTitle: ReplaceAction
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Replacing.ReplaceAction énumération. Permet à lutilisateur de spécifier ce qui arrive à la correspondance actuelle lors dune opération de remplacement en C#.
+description: Découvrez l'énumération Aspose.Words.ReplaceAction pour contrôler les résultats de correspondance dans vos opérations de remplacement, améliorant ainsi l'efficacité et la précision de l'édition de documents.
 type: docs
-weight: 4640
+weight: 5370
 url: /fr/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
@@ -20,20 +20,20 @@ public enum ReplaceAction
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Replace | `0` | Remplacer la correspondance actuelle. |
+| Replace | `0` | Remplacez la correspondance actuelle. |
 | Skip | `1` | Ignorer le match en cours. |
 | Stop | `2` | Terminez l'opération de remplacement. |
 
 ## Exemples
 
-Montre comment insérer le contenu entier d’un document en remplacement d’une correspondance dans une opération de recherche et de remplacement.
+Montre comment insérer le contenu entier d'un document en remplacement d'une correspondance dans une opération de recherche et de remplacement.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -48,11 +48,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Insère un document après le paragraphe contenant le texte correspondant.
+        // Insérer un document après le paragraphe contenant le texte correspondant.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Supprime le paragraphe avec le texte correspondant.
+        // Supprimez le paragraphe avec le texte correspondant.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -74,7 +74,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Ignore le nœud s'il s'agit du dernier paragraphe vide d'une section.
+                // Ignorer le nœud s'il s'agit du dernier paragraphe vide d'une section.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

@@ -3,7 +3,7 @@ title: FieldDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words pour .NET
-description: FieldDate UseUmAlQuraCalendar propriété. Obtient ou définit sil faut utiliser le calendrier UmalQura en C#.
+description: Découvrez la propriété FieldDate UseUmAlQuraCalendar pour gérer facilement les dates avec le calendrier UmalQura. Optimisez votre gestion des dates dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fielddate/useumalquracalendar/
@@ -26,13 +26,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Si nous voulons que le texte du document affiche toujours la date correcte, nous pouvons utiliser un champ DATE.
 // Vous trouverez ci-dessous trois types de calendriers culturels qu'un champ DATE peut utiliser pour afficher une date.
-// 1 - Calendrier Lunaire Islamique :
+// 1 - Calendrier lunaire islamique :
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
 Assert.AreEqual(" DATE  \\h", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - Calendrier Umm al-Qura :
+// 2 - Calendrier d'Umm al-Qura :
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseUmAlQuraCalendar = true;
 Assert.AreEqual(" DATE  \\u", field.GetFieldCode());
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Insère un champ DATE et définit son type de calendrier sur celui utilisé en dernier par l'application hôte.
-// Dans Microsoft Word, le type sera le dernier utilisé dans le champ Insertion -> Texte -> Boîte de dialogue Date et heure.
+// Insérez un champ DATE et définissez son type de calendrier sur celui utilisé en dernier par l'application hôte.
+// Dans Microsoft Word, le type sera le plus récemment utilisé dans la boîte de dialogue Insérer -> Texte -> Date et heure.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

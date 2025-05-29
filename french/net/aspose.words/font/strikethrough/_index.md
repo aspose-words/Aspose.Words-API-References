@@ -3,9 +3,9 @@ title: Font.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
 second_title: Aspose.Words pour .NET
-description: Font StrikeThrough propriété. Vrai si la police est formatée en texte barré en C#.
+description: Découvrez la propriété Police barrée. Formatez facilement votre texte avec le texte barré pour une mise en valeur visuelle claire dans vos créations. Améliorez la lisibilité dès aujourd'hui !
 type: docs
-weight: 390
+weight: 400
 url: /fr/net/aspose.words/font/strikethrough/
 ---
 ## Font.StrikeThrough property

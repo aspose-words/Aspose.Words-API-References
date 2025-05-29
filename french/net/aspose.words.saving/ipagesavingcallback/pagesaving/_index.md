@@ -3,14 +3,14 @@ title: IPageSavingCallback.PageSaving
 linktitle: PageSaving
 articleTitle: PageSaving
 second_title: Aspose.Words pour .NET
-description: IPageSavingCallback PageSaving méthode. Appelé lorsquAspose.Words enregistre une page distincte dans des formats de page fixes en C#.
+description: Découvrez la méthode iPageSavingCallback dans Aspose.Words, conçue pour optimiser l'enregistrement des pages aux formats fixes. Améliorez votre gestion documentaire dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/ipagesavingcallback/pagesaving/
 ---
 ## IPageSavingCallback.PageSaving method
 
-Appelé lorsqu'Aspose.Words enregistre une page distincte dans des formats de page fixes.
+Appelé lorsque Aspose.Words enregistre une page distincte dans des formats de page fixes.
 
 ```csharp
 public void PageSaving(PageSavingArgs args)
@@ -33,7 +33,7 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
+    // Créez un objet « HtmlFixedSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
@@ -58,11 +58,11 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // Vous trouverez ci-dessous deux façons de spécifier où Aspose.Words enregistrera chaque page du document.
-        // 1 - Définissez un nom de fichier pour le fichier d'échange de sortie :
+        // Vous trouverez ci-dessous deux manières de spécifier où Aspose.Words enregistrera chaque page du document.
+        // 1 - Définir un nom de fichier pour le fichier de page de sortie :
         args.PageFileName = outFileName;
 
-        // 2 - Créez un flux personnalisé pour le fichier d'échange de sortie :
+        // 2 - Créer un flux personnalisé pour le fichier de page de sortie :
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

@@ -3,9 +3,9 @@ title: LayoutFlow Enum
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.LayoutFlow énumération. Détermine le flux de la disposition du texte dans une zone de texte en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.LayoutFlow pour contrôler la mise en page du texte dans les zones de texte, améliorant ainsi la conception et la lisibilité de votre document sans effort.
 type: docs
-weight: 1100
+weight: 1430
 url: /fr/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
@@ -37,10 +37,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape textbox = new Shape(doc, ShapeType.TextBox)
 {
-    Width = 100, 
-    Height = 100,
-    TextBox = { LayoutFlow = LayoutFlow.BottomToTop }
+    Width = 100,
+    Height = 100
 };
+textbox.TextBox.LayoutFlow = LayoutFlow.BottomToTop;
 
 textbox.AppendChild(new Paragraph(doc));
 builder.InsertNode(textbox);

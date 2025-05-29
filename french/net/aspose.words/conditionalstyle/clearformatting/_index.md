@@ -3,14 +3,14 @@ title: ConditionalStyle.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words pour .NET
-description: ConditionalStyle ClearFormatting méthode. Efface le formatage de ce style conditionnel en C#.
+description: Une mise en forme claire et sans effort grâce à la méthode ConditionalStyle ClearFormatting. Simplifiez votre processus de conception et améliorez la clarté de vos documents dès aujourd'hui !
 type: docs
 weight: 100
 url: /fr/net/aspose.words/conditionalstyle/clearformatting/
 ---
 ## ConditionalStyle.ClearFormatting method
 
-Efface le formatage de ce style conditionnel.
+Efface la mise en forme de ce style conditionnel.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Exemples
 
-Montre comment réinitialiser les styles de tableau conditionnel.
+Montre comment réinitialiser les styles de tableau conditionnels.
 
 ```csharp
 Document doc = new Document();
@@ -35,19 +35,19 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 table.Style = tableStyle;
 
-// Définit le style du tableau pour colorer les bordures de la première ligne du tableau en rouge.
+// Définissez le style du tableau pour colorer les bordures de la première ligne du tableau en rouge.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// Définit le style du tableau pour colorer les bordures de la dernière ligne du tableau en bleu.
+// Définissez le style du tableau pour colorer les bordures de la dernière ligne du tableau en bleu.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
-// Vous trouverez ci-dessous deux manières d'utiliser la méthode "ClearFormatting" pour effacer les styles conditionnels.
-// 1 - Efface les styles conditionnels pour une partie spécifique d'un tableau :
+// Vous trouverez ci-dessous deux manières d'utiliser la méthode « ClearFormatting » pour effacer les styles conditionnels.
+// 1 - Effacer les styles conditionnels pour une partie spécifique d'un tableau :
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);
 
-// 2 - Efface les styles conditionnels pour l'ensemble du tableau :
+// 2 - Effacer les styles conditionnels pour l'ensemble du tableau :
 tableStyle.ConditionalStyles.ClearFormatting();
 
 Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty));

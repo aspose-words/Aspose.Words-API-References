@@ -3,9 +3,9 @@ title: SaveOptions.UseAntiAliasing
 linktitle: UseAntiAliasing
 articleTitle: UseAntiAliasing
 second_title: Aspose.Words pour .NET
-description: SaveOptions UseAntiAliasing propriété. Obtient ou définit une valeur déterminant sil faut ou non utiliser lanticrénelage pour le rendu en C#.
+description: Découvrez la propriété SaveOptions UseAntiAliasing pour améliorer la qualité de votre rendu. Contrôlez l'anticrénelage pour des visuels plus fluides et des performances améliorées.
 type: docs
-weight: 190
+weight: 200
 url: /fr/net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property
@@ -18,13 +18,13 @@ public bool UseAntiAliasing { get; set; }
 
 ## Remarques
 
-La valeur par défaut est`FAUX` . Lorsque cette valeur est fixée à`vrai` l'anticrénelage is utilisé pour le rendu.
+La valeur par défaut est`FAUX` . Lorsque cette valeur est définie sur`vrai` l'anticrénelage est utilisé pour le rendu.
 
-Cette propriété est utilisée lorsque le document est exporté aux formats suivants : Tiff ,Png ,Bmp , Jpeg ,Emf . Lorsque le document est exporté vers the Html ,Mhtml , Epub ,Azw3 ouMobi formats, cette option est utilisée pour les images raster.
+Cette propriété est utilisée lorsque le document est exporté vers les formats suivants : Tiff ,Png ,Bmp , Jpeg ,Emf . Lorsque le document est exporté vers the Html ,Mhtml , Epub ,Azw3 ouMobiformats cette option est utilisée pour les images raster.
 
 ## Exemples
 
-Montre comment améliorer la qualité d’un document rendu avec SaveOptions.
+Montre comment améliorer la qualité d'un document rendu avec SaveOptions.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

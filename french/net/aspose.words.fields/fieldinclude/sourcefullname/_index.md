@@ -3,7 +3,7 @@ title: FieldInclude.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words pour .NET
-description: FieldInclude SourceFullName propriété. Obtient ou définit lemplacement du document en C#.
+description: Découvrez comment utiliser la propriété FieldInclude SourceFullName pour gérer efficacement l'emplacement des documents. Améliorez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldinclude/sourcefullname/
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Nous pouvons utiliser un champ INCLUDE pour importer une partie d'un autre document dans le système de fichiers local.
-// Le signet de l'autre document auquel nous référençons avec ce champ contient cette partie importée.
+// Le signet de l'autre document auquel nous faisons référence avec ce champ contient cette partie importée.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

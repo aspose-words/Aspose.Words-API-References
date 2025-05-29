@@ -3,7 +3,7 @@ title: Table.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
 second_title: Aspose.Words pour .NET
-description: Table CellSpacing propriété. Obtient ou définit la quantité despace en points entre les cellules en C#.
+description: Découvrez la propriété Table CellSpacing pour personnaliser facilement l'espacement des cellules en points, améliorant ainsi l'apparence et la lisibilité de votre tableau.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.tables/table/cellspacing/
@@ -18,7 +18,7 @@ public double CellSpacing { get; set; }
 
 ## Exemples
 
-Montre comment activer l’espacement entre les cellules individuelles d’un tableau.
+Montre comment activer l'espacement entre les cellules individuelles d'un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -38,15 +38,15 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
-// Définissez la propriété "AllowCellSpacing" sur "true" pour activer l'espacement entre les cellules
-// d'une grandeur égale à la valeur de la propriété "CellSpacing", en points.
-// Définissez la propriété "AllowCellSpacing" sur "false" pour désactiver l'espacement des cellules
-// et ignore la valeur de la propriété "CellSpacing".
+// Définissez la propriété « AllowCellSpacing » sur « true » pour activer l'espacement entre les cellules
+// avec une grandeur égale à la valeur de la propriété "CellSpacing", en points.
+// Définissez la propriété « AllowCellSpacing » sur « false » pour désactiver l'espacement des cellules
+// et ignorez la valeur de la propriété « CellSpacing ».
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// L'ajustement de la propriété "CellSpacing" activera automatiquement l'espacement des cellules.
+// Le réglage de la propriété « CellSpacing » activera automatiquement l'espacement des cellules.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);
@@ -83,7 +83,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

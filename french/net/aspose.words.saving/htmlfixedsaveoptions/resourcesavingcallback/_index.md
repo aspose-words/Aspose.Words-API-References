@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ResourceSavingCallback
 linktitle: ResourceSavingCallback
 articleTitle: ResourceSavingCallback
 second_title: Aspose.Words pour .NET
-description: HtmlFixedSaveOptions ResourceSavingCallback propriété. Permet de contrôler la façon dont les ressources images polices et CSS sont enregistrées lorsquun document est exporté au format HTML de page fixe en C#.
+description: Optimisez vos exportations de documents avec la fonction ResourceSavingCallback HtmlFixedSaveOptions. Contrôlez l'enregistrement des images, des polices et du CSS pour un rendu HTML optimisé.
 type: docs
-weight: 130
+weight: 150
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 ---
 ## HtmlFixedSaveOptions.ResourceSavingCallback property
 
-Permet de contrôler la façon dont les ressources (images, polices et CSS) sont enregistrées lorsqu'un document est exporté au format HTML de page fixe.
+Permet de contrôler la manière dont les ressources (images, polices et css) sont enregistrées lorsqu'un document est exporté au format Html à page fixe.
 
 ```csharp
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
@@ -52,7 +52,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en HTML fixe.
+/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en HTML fixe.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -68,7 +68,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Par défaut, 'ResourceFileUri' utilise le dossier système pour les polices.
-                // Pour éviter des problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
+                // Pour éviter les problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -77,7 +77,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si nous avons spécifié un dossier dans la propriété "ResourcesFolderAlias",
-        // nous devrons également rediriger chaque flux pour mettre sa ressource dans ce dossier.
+        // nous devrons également rediriger chaque flux pour placer sa ressource dans ce dossier.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

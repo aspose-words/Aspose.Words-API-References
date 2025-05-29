@@ -3,14 +3,14 @@ title: ListLevel.GetEffectiveValue
 linktitle: GetEffectiveValue
 articleTitle: GetEffectiveValue
 second_title: Aspose.Words pour .NET
-description: ListLevel GetEffectiveValue méthode. Indique la représentation sous forme de chaîne duListLevelobjet pour lindex spécifié de lélément de liste. Les paramètres spécifient leNumberStyle et un format facultatif string utilisé lorsqueCustom est spécifié en C#.
+description: Découvrez la méthode ListLevel GetEffectiveValue pour récupérer facilement les représentations sous forme de chaîne des éléments d'une liste. Personnalisez-la avec les options NumberStyle et Format !
 type: docs
 weight: 190
 url: /fr/net/aspose.words.lists/listlevel/geteffectivevalue/
 ---
 ## ListLevel.GetEffectiveValue method
 
-Indique la représentation sous forme de chaîne du[`ListLevel`](../)objet pour l'index spécifié de l'élément de liste. Les paramètres spécifient le[`NumberStyle`](../../../aspose.words/numberstyle/) et un format facultatif string utilisé lorsqueCustom est spécifié.
+Indique la représentation sous forme de chaîne de[`ListLevel`](../)objet pour l'index spécifié de l'élément de liste. Les paramètres spécifient[`NumberStyle`](../../../aspose.words/numberstyle/) et une chaîne de format facultative utilisée lorsqueCustom est spécifié.
 
 ```csharp
 public static string GetEffectiveValue(int index, NumberStyle numberStyle, 
@@ -19,24 +19,24 @@ public static string GetEffectiveValue(int index, NumberStyle numberStyle,
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | L'index de l'élément de liste (doit être compris entre 1 et 32767). |
+| index | Int32 | L'index de l'élément de la liste (doit être compris entre 1 et 32767). |
 | numberStyle | NumberStyle | Le[`NumberStyle`](../../../aspose.words/numberstyle/) de la[`ListLevel`](../) objet. |
 | customNumberStyleFormat | String | La chaîne de format facultative utilisée lorsqueCustom est spécifié (par exemple "a, ç, ĝ, ..."). Dans les autres cas, ce paramètre doit être`nul` ou vide. |
 
 ### Return_Value
 
-La représentation sous forme de chaîne du[`ListLevel`](../) objet, décrit par le*numberStyle* paramètre and le*customNumberStyleFormat* paramètre, dans l'élément de liste à la position déterminée par le*index* paramètre.
+La représentation sous forme de chaîne de[`ListLevel`](../) objet, décrit par le*numberStyle* paramètre and le*customNumberStyleFormat* paramètre, dans l'élément de liste à la position déterminée par le*index* paramètre.
 
 ### Exceptions
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | *customNumberStyleFormat* est`nul` ou vide lorsque le*numberStyle* est personnalisé.-or- *customNumberStyleFormat* n'est pas`nul` ou vide lorsque le*numberStyle* n'est pas personnalisé.-or- *customNumberStyleFormat* n'est pas valide. |
-| ArgumentOutOfRangeException | l'indice est hors de portée. |
+| ArgumentException | *customNumberStyleFormat* est`nul` ou vide lorsque le*numberStyle* est personnalisé.-ou- *customNumberStyleFormat* n'est pas`nul` ou vide lorsque le*numberStyle* n'est pas personnalisé.-ou- *customNumberStyleFormat* est invalide. |
+| ArgumentOutOfRangeException | l'index est hors de portée. |
 
 ## Exemples
 
-Montre comment obtenir le format d’une liste avec le style de numéro personnalisé.
+Montre comment obtenir le format d'une liste avec le style de numéro personnalisé.
 
 ```csharp
 Document doc = new Document(MyDir + "List with leading zero.docx");

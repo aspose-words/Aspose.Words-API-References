@@ -3,7 +3,7 @@ title: FieldAddressBlock.NameAndAddressFormat
 linktitle: NameAndAddressFormat
 articleTitle: NameAndAddressFormat
 second_title: Aspose.Words pour .NET
-description: FieldAddressBlock NameAndAddressFormat propriété. Obtient ou définit le format du nom et de ladresse en C#.
+description: Découvrez la propriété NameAndAddressFormat de FieldAddressBlock pour personnaliser facilement les formats de nom et d'adresse pour une gestion améliorée des données.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
@@ -28,8 +28,8 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Définir ceci sur "2" inclura tous les pays et régions,
-// sauf s'il s'agit de celui spécifié dans la propriété ExcludCountryOrRegionName.
+// Définir cette valeur sur « 2 » inclura tous les pays et régions,
+// sauf s'il s'agit de celui spécifié dans la propriété ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";

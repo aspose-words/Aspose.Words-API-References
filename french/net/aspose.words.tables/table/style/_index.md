@@ -3,7 +3,7 @@ title: Table.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words pour .NET
-description: Table Style propriété. Obtient ou définit le style de tableau appliqué à ce tableau en C#.
+description: Découvrez comment personnaliser facilement l'apparence de votre table avec la propriété Style de table : améliorez vos conceptions avec des styles uniques sans effort !
 type: docs
 weight: 270
 url: /fr/net/aspose.words.tables/table/style/
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

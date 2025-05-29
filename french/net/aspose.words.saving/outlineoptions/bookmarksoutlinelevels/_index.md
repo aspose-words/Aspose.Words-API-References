@@ -3,14 +3,14 @@ title: OutlineOptions.BookmarksOutlineLevels
 linktitle: BookmarksOutlineLevels
 articleTitle: BookmarksOutlineLevels
 second_title: Aspose.Words pour .NET
-description: OutlineOptions BookmarksOutlineLevels propriété. Permet de spécifier le niveau de présentation des signets individuels en C#.
+description: Découvrez la propriété BookmarksOutlineLevels dans OutlineOptions pour personnaliser la hiérarchie de vos signets pour une navigation et une expérience utilisateur améliorées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/outlineoptions/bookmarksoutlinelevels/
 ---
 ## OutlineOptions.BookmarksOutlineLevels property
 
-Permet de spécifier le niveau de présentation des signets individuels.
+Permet de spécifier le niveau de contour des signets individuels.
 
 ```csharp
 public BookmarksOutlineLevelCollection BookmarksOutlineLevels { get; }
@@ -22,13 +22,13 @@ Si le niveau de signet n'est pas spécifié dans cette collection, alors[`Defaul
 
 ## Exemples
 
-Montre comment définir les niveaux de plan pour les signets.
+Montre comment définir les niveaux de contour des signets.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un signet avec un autre signet imbriqué à l'intérieur.
+// Insérer un signet avec un autre signet imbriqué à l'intérieur.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -39,14 +39,14 @@ builder.EndBookmark("Bookmark 2");
 builder.Writeln("Text inside Bookmark 1.");
 builder.EndBookmark("Bookmark 1");
 
-// Insère un autre signet.
+// Insérer un autre signet.
 builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
 // Lors de l'enregistrement au format .pdf, les signets sont accessibles via un menu déroulant et utilisés comme ancres par la plupart des lecteurs.
-// Les signets peuvent également avoir des valeurs numériques pour les niveaux hiérarchiques,
-// permettant aux entrées de plan de niveau inférieur de masquer les entrées enfants de niveau supérieur lorsqu'elles sont réduites dans le lecteur.
+// Les signets peuvent également avoir des valeurs numériques pour les niveaux de plan,
+// activer les entrées de plan de niveau inférieur pour masquer les entrées enfants de niveau supérieur lorsqu'elles sont réduites dans le lecteur.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -60,18 +60,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// Nous pouvons supprimer deux éléments afin qu'il ne reste que la désignation du niveau hiérarchique pour "Signet 1".
+// Nous pouvons supprimer deux éléments afin qu'il ne reste que la désignation du niveau de plan pour « Signet 1 ».
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Il existe neuf niveaux de plan. Leur numérotation sera optimisée lors de l'opération de sauvegarde.
-// Dans ce cas, les niveaux "5" et "9" deviendront "2" et "3".
+// Il existe neuf niveaux de plan. Leur numérotation sera optimisée lors de la sauvegarde.
+// Dans ce cas, les niveaux « 5 » et « 9 » deviendront « 2 » et « 3 ».
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Vider cette collection conservera les signets et les placera tous au même niveau hiérarchique.
+// Vider cette collection préservera les signets et les placera tous au même niveau de plan.
 outlineLevels.Clear();
 ```
 

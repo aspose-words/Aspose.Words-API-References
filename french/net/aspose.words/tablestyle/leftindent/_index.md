@@ -3,14 +3,14 @@ title: TableStyle.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words pour .NET
-description: TableStyle LeftIndent propriété. Obtient ou définit la valeur qui représente le retrait gauche dune table en C#.
+description: Découvrez la propriété TableStyle LeftIndent pour personnaliser facilement le retrait à gauche de votre tableau pour un contrôle de mise en page amélioré et un attrait visuel.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property
 
-Obtient ou définit la valeur qui représente le retrait gauche d'une table.
+Obtient ou définit la valeur qui représente le retrait à gauche d'un tableau.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -25,13 +25,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vous trouverez ci-dessous deux manières d'aligner un tableau horizontalement.
-// 1 - Utilisez la propriété "Alignement" pour l'aligner à un emplacement de la page, comme le centre :
+// 1 - Utilisez la propriété « Alignment » pour l'aligner sur un emplacement de la page, comme le centre :
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// Insère un tableau et lui applique le style que nous avons créé.
+// Insérez un tableau et appliquez-lui le style que nous avons créé.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");
@@ -40,7 +40,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 - Utilisez le "LeftIndent" pour spécifier un retrait à partir de la marge gauche de la page :
+// 2 - Utilisez « LeftIndent » pour spécifier un retrait à partir de la marge gauche de la page :
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

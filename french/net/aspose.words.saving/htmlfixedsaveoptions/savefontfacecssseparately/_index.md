@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 linktitle: SaveFontFaceCssSeparately
 articleTitle: SaveFontFaceCssSeparately
 second_title: Aspose.Words pour .NET
-description: HtmlFixedSaveOptions SaveFontFaceCssSeparately propriété. Lindicateur indique si les règles CSS fontface doivent être placées dans un fichier séparé fontFaces.css lorsquun document est enregistré avec une feuille de style externe cestàdire lorsquExportEmbeddedCss estFAUX . La valeur par défaut estFAUX  toutes les règles CSS sont écrites dans un seul fichier styles.css en C#.
+description: Découvrez comment la propriété SaveFontFaceCssSeparately optimise la gestion CSS de votre document en enregistrant les règles de police dans un fichier séparé pour des exportations plus propres.
 type: docs
-weight: 160
+weight: 180
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-L'indicateur indique si les règles CSS "@font-face" doivent être placées dans un fichier séparé "fontFaces.css" lorsqu'un document est enregistré avec une feuille de style externe (c'est-à-dire lorsqu'[`ExportEmbeddedCss`](../exportembeddedcss/) est`FAUX` ). La valeur par défaut est`FAUX` , toutes les règles CSS sont écrites dans un seul fichier "styles.css".
+L'indicateur indique si les règles CSS « @font-face » doivent être placées dans un fichier séparé « fontFaces.css » lorsqu'un document est enregistré avec une feuille de style externe (c'est-à-dire lorsque[`ExportEmbeddedCss`](../exportembeddedcss/) est`FAUX` ). La valeur par défaut est`FAUX` , toutes les règles CSS sont écrites dans un seul fichier « styles.css ».
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -18,7 +18,7 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ## Remarques
 
-Définir cette propriété sur`vrai` restaure l'ancien comportement (fichiers séparés) pour la compatibilité avec le code existant.
+Définition de cette propriété sur`vrai` restaure l'ancien comportement (fichiers séparés) pour la compatibilité avec le code hérité.
 
 ## Exemples
 

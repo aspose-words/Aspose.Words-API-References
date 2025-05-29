@@ -3,14 +3,14 @@ title: ListLevel.IsLegal
 linktitle: IsLegal
 articleTitle: IsLegal
 second_title: Aspose.Words pour .NET
-description: ListLevel IsLegal propriété. Vrai si le niveau transforme tous les nombres hérités en arabe faux sil préserve leur style numérique en C#.
+description: Découvrez ListLevel IsLegal. Contrôlez facilement les styles de nombres hérités. Choisissez l'arabe pour un look moderne ou conservez les styles originaux pour une touche classique.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.lists/listlevel/islegal/
 ---
 ## ListLevel.IsLegal property
 
-Vrai si le niveau transforme tous les nombres hérités en arabe, faux s'il préserve leur style numérique.
+Vrai si le niveau transforme tous les nombres hérités en arabe, faux s'il conserve leur style numérique.
 
 ```csharp
 public bool IsLegal { get; set; }
@@ -18,7 +18,7 @@ public bool IsLegal { get; set; }
 
 ## Exemples
 
-Présente des méthodes avancées de personnalisation des étiquettes de liste.
+Affiche des méthodes avancées de personnalisation des étiquettes de liste.
 
 ```csharp
 Document doc = new Document();
@@ -26,23 +26,23 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
-// Les étiquettes de niveau 1 seront formatées selon le style de paragraphe "Titre 1" et auront un préfixe.
-// Ceux-ci ressembleront à "Annexe A", "Annexe B"...
+// Les étiquettes de niveau 1 seront formatées selon le style de paragraphe « Titre 1 » et auront un préfixe.
+// Ceux-ci ressembleront à « Annexe A », « Annexe B »...
 list.ListLevels[0].NumberFormat = "Appendix \x0000";
 list.ListLevels[0].NumberStyle = NumberStyle.UppercaseLetter;
 list.ListLevels[0].LinkedStyle = doc.Styles["Heading 1"];
 
 // Les étiquettes de niveau 2 afficheront les numéros actuels des premier et deuxième niveaux de liste et auront des zéros non significatifs.
-// Si le premier niveau de liste est à 1, alors les étiquettes de liste de ceux-ci ressembleront à "Section (1.01)", "Section (1.02)"...
+// Si le premier niveau de liste est à 1, alors les étiquettes de liste de ceux-ci ressembleront à « Section (1.01) », « Section (1.02) »...
 list.ListLevels[1].NumberFormat = "Section (\x0000.\x0001)";
 list.ListLevels[1].NumberStyle = NumberStyle.LeadingZero;
 
 // Notez que le niveau supérieur utilise la numérotation UppercaseLetter.
-// Nous pouvons définir la propriété "IsLegal" pour qu'elle utilise des nombres arabes pour les niveaux de liste supérieurs.
+// Nous pouvons définir la propriété « IsLegal » pour utiliser des nombres arabes pour les niveaux de liste supérieurs.
 list.ListLevels[1].IsLegal = true;
 list.ListLevels[1].RestartAfterLevel = 0;
 
@@ -52,11 +52,11 @@ list.ListLevels[2].NumberFormat = "-\x0002-";
 list.ListLevels[2].NumberStyle = NumberStyle.UppercaseRoman;
 list.ListLevels[2].RestartAfterLevel = 1;
 
-// Mettez les étiquettes de tous les niveaux de liste en gras.
+// Mettre les étiquettes de tous les niveaux de liste en gras.
 foreach (ListLevel level in list.ListLevels)
     level.Font.Bold = true;
 
-// Applique le formatage de la liste au paragraphe actuel.
+// Appliquer la mise en forme de la liste au paragraphe actuel.
 builder.ListFormat.List = list;
 
 // Créez des éléments de liste qui afficheront nos trois niveaux de liste.

@@ -3,7 +3,7 @@ title: HtmlSaveOptions.CssClassNamePrefix
 linktitle: CssClassNamePrefix
 articleTitle: CssClassNamePrefix
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions CssClassNamePrefix propriété. Spécifie un préfixe qui est ajouté à tous les noms de classe CSS. La valeur par défaut est une chaîne vide et les noms de classe CSS générés nont pas de préfixe commun en C#.
+description: Découvrez la propriété HtmlSaveOptions CssClassNamePrefix pour personnaliser facilement les noms de classe CSS avec un préfixe unique, améliorant ainsi la cohérence de votre conception Web.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/htmlsaveoptions/cssclassnameprefix/
@@ -50,8 +50,8 @@ Assert.True(outDocContents.Contains("<p class=\"myprefix-Footer\">"));
 
 outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.CssClassNamePrefix.css");
 
-Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n" +
-                                    ".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt }\r\n"));
+Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }"));
+Assert.True(outDocContents.Contains(".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }"));
 ```
 
 ### Voir également

@@ -3,7 +3,7 @@ title: Range.Bookmarks
 linktitle: Bookmarks
 articleTitle: Bookmarks
 second_title: Aspose.Words pour .NET
-description: Range Bookmarks propriété. Renvoie unBookmarks collection qui représente tous les signets de la plage en C#.
+description: Découvrez la propriété Range Bookmarks pour accéder à une collection complète de signets, améliorant ainsi la navigation et l'organisation de vos documents sans effort.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/range/bookmarks/
@@ -37,7 +37,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -65,7 +65,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

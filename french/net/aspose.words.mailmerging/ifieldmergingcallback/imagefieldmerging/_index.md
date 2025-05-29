@@ -3,7 +3,7 @@ title: IFieldMergingCallback.ImageFieldMerging
 linktitle: ImageFieldMerging
 articleTitle: ImageFieldMerging
 second_title: Aspose.Words pour .NET
-description: IFieldMergingCallback ImageFieldMerging méthode. Appelé lorsque le moteur de publipostage Aspose.Words est sur le point dinsérer une image dans un champ de fusion en C#.
+description: Découvrez la méthode ImageFieldMerging dans IFieldMergingCallback, conçue pour une insertion d'images fluide dans le publipostage Aspose.Words. Optimisez l'automatisation de vos documents !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
@@ -34,7 +34,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Ouvrez le lecteur de données, qui doit être dans un mode permettant de lire tous les enregistrements en même temps.
+        // Ouvrez le lecteur de données, qui doit être dans un mode qui lit tous les enregistrements à la fois.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -48,11 +48,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 
     /// <summary>
-    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise "Image:" dans son nom.
+    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise « Image : » dans son nom.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

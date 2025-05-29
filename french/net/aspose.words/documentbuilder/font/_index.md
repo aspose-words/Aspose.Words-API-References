@@ -3,14 +3,14 @@ title: DocumentBuilder.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder Font propriété. Renvoie un objet qui représente les propriétés actuelles de formatage de la police en C#.
+description: Explorez la propriété Police de DocumentBuilder pour accéder à votre mise en forme de police actuelle et la personnaliser facilement. Améliorez le style de votre document dès aujourd'hui !
 type: docs
 weight: 100
 url: /fr/net/aspose.words/documentbuilder/font/
 ---
 ## DocumentBuilder.Font property
 
-Renvoie un objet qui représente les propriétés actuelles de formatage de la police.
+Renvoie un objet qui représente les propriétés de formatage de police actuelles.
 
 ```csharp
 public Font Font { get; }
@@ -39,7 +39,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-Montre comment créer un tableau formaté à l’aide de DocumentBuilder.
+Montre comment créer un tableau formaté à l'aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Définit certaines options de formatage pour l'apparence du texte et du tableau.
+// Définissez certaines options de formatage pour l'apparence du texte et du tableau.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -60,7 +60,7 @@ builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
 // La configuration des options de formatage dans un générateur de documents les appliquera
-// vers la cellule/ligne actuelle dans laquelle se trouve le curseur,
+// à la cellule/ligne actuelle dans laquelle se trouve son curseur,
 // ainsi que toutes les nouvelles cellules et lignes créées à l'aide de ce générateur.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
@@ -70,7 +70,7 @@ builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
 // Reconfigurez les objets de formatage du générateur pour les nouvelles lignes et cellules que nous sommes sur le point de créer.
-// Le constructeur ne les appliquera pas à la première ligne déjà créée afin qu'elle ressorte comme ligne d'en-tête.
+// Le constructeur ne les appliquera pas à la première ligne déjà créée afin qu'elle se démarque comme une ligne d'en-tête.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

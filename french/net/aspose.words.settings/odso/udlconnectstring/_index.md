@@ -3,7 +3,7 @@ title: Odso.UdlConnectString
 linktitle: UdlConnectString
 articleTitle: UdlConnectString
 second_title: Aspose.Words pour .NET
-description: Odso UdlConnectString propriété. Spécifie la chaîne de connexion Universal Data Link UDL utilisée pour se connecter à une source de données externe. La valeur par défaut est une chaîne vide en C#.
+description: Découvrez la propriété Odso UdlConnectString pour des connexions fluides aux sources de données externes grâce à UDL. Intégrez vos données facilement et efficacement !
 type: docs
 weight: 90
 url: /fr/net/aspose.words.settings/odso/udlconnectstring/
@@ -18,7 +18,7 @@ public string UdlConnectString { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage lors de la connexion à une source de données externe.
+Montre comment exécuter un publipostage tout en se connectant à une source de données externe.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois que nous avons fait cela et enregistré le document,
+// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois cette opération effectuée et le document enregistré,
 // Microsoft Word n'exécutera plus de publipostage lorsque nous l'utiliserons pour charger le document.
 settings.Clear();
 

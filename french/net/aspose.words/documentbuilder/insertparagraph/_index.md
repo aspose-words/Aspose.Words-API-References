@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 articleTitle: InsertParagraph
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder InsertParagraph méthode. Insère un saut de paragraphe dans le document en C#.
+description: Améliorez vos documents sans effort avec la méthode InsertParagraph de DocumentBuilder, permettant des sauts de paragraphe transparents pour une meilleure lisibilité.
 type: docs
-weight: 420
+weight: 450
 url: /fr/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -18,13 +18,13 @@ public Paragraph InsertParagraph()
 
 ### Return_Value
 
-Le nœud de paragraphe qui vient d'être inséré. C'est le même nœud que[`CurrentParagraph`](../currentparagraph/).
+Le nœud de paragraphe qui vient d'être inséré. Il s'agit du même nœud que[`CurrentParagraph`](../currentparagraph/).
 
 ## Remarques
 
-Formatage actuel du paragraphe spécifié par le[`ParagraphFormat`](../paragraphformat/) la propriété est utilisée.
+Formatage de paragraphe actuel spécifié par le[`ParagraphFormat`](../paragraphformat/) la propriété est utilisée.
 
-Coupe le paragraphe actuel en deux. Après avoir inséré le paragraphe, le curseur est placé au début du nouveau paragraphe.
+Coupe le paragraphe actuel en deux. Après insertion du paragraphe, le curseur se place au début du nouveau paragraphe.
 
 Une exception est levée s'il n'est pas possible d'insérer un saut de paragraphe à la position actuelle du curseur.
 
@@ -50,8 +50,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// La méthode "Writeln" termine le paragraphe après avoir ajouté du texte
-// puis commence une nouvelle ligne, ajoutant un nouveau paragraphe.
+// La méthode « Writeln » termine le paragraphe après avoir ajouté du texte
+// puis démarre une nouvelle ligne, ajoutant un nouveau paragraphe.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

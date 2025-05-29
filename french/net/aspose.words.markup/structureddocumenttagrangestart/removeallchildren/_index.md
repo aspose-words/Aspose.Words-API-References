@@ -3,9 +3,9 @@ title: StructuredDocumentTagRangeStart.RemoveAllChildren
 linktitle: RemoveAllChildren
 articleTitle: RemoveAllChildren
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart RemoveAllChildren méthode. Supprime tous les nœuds entre ce nœud de début de plage et le nœud de fin de plage en C#.
+description: Utilisez efficacement la méthode RemoveAllChildren pour effacer les nœuds entre StructuredDocumentTagRangeStart et end, améliorant ainsi la gestion des documents.
 type: docs
-weight: 230
+weight: 240
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
@@ -18,7 +18,7 @@ public void RemoveAllChildren()
 
 ## Exemples
 
-Montre comment créer/supprimer une balise de document structuré et son contenu.
+Montre comment créer/supprimer une balise de document structurée et son contenu.
 
 ```csharp
 public void SdtRangeExtendedMethods()
@@ -28,9 +28,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Supprime la balise de document structuré à distance, mais conserve le contenu à l'intérieur.
+    // Supprime la balise de document structurée à distance, mais conserve le contenu à l'intérieur.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -43,25 +43,27 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // Supprime la balise de document structuré à distance et le contenu à l'intérieur.
+    // Supprime la balise de document structurée à distance et le contenu à l'intérieur.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

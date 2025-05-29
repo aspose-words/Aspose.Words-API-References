@@ -3,7 +3,7 @@ title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words pour .NET
-description: ImageSavingArgs Document propriété. Obtient lobjet document en cours denregistrement en C#.
+description: Découvrez la propriété Document ImageSavingArgs pour accéder au document en cours d'enregistrement, améliorant ainsi l'efficacité de votre flux de travail et vous faisant gagner du temps.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/imagesavingargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Exemples
 
-Montre comment impliquer un rappel d’enregistrement d’image dans un processus de conversion HTML.
+Montre comment impliquer un rappel d'enregistrement d'image dans un processus de conversion HTML.
 
 ```csharp
 public void ImageSavingCallback()
@@ -26,7 +26,7 @@ public void ImageSavingCallback()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions pour désigner un rappel
-    // pour personnaliser le processus de sauvegarde de l'image.
+    // pour personnaliser le processus d'enregistrement de l'image.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -34,8 +34,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Imprime les propriétés de chaque image au fur et à mesure que le processus d'enregistrement l'enregistre dans un fichier image dans le système de fichiers local
-/// lors de l'export d'un document au format HTML.
+/// Imprime les propriétés de chaque image lorsque le processus d'enregistrement l'enregistre dans un fichier image dans le système de fichiers local
+/// lors de l'exportation d'un document au format HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

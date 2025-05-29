@@ -3,7 +3,7 @@ title: PrinterSettingsContainer.DefaultPageSettingsPaperSource
 linktitle: DefaultPageSettingsPaperSource
 articleTitle: DefaultPageSettingsPaperSource
 second_title: Aspose.Words pour .NET
-description: PrinterSettingsContainer DefaultPageSettingsPaperSource propriété. VoirPaperSource deDefaultPageSettings  en C#.
+description: Découvrez la propriété DefaultPageSettingsPaperSource pour PrinterSettingsContainer. Optimisez vos impressions grâce à des options de source de papier personnalisables !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.rendering/printersettingscontainer/defaultpagesettingspapersource/
@@ -18,7 +18,7 @@ public PaperSource DefaultPageSettingsPaperSource { get; }
 
 ## Exemples
 
-Montre comment accéder et répertorier les sources et formats de papier de votre imprimante.
+Montre comment accéder et répertorier les sources et les formats de papier de votre imprimante.
 
 ```csharp
 // Le "PrinterSettingsContainer" contient un objet "PrinterSettings",
@@ -33,12 +33,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// La propriété "PaperSizes" contient la liste des formats de papier à demander à l'imprimante.
-// PrinterSource et PrinterSize contiennent tous deux une propriété "RawKind",
-// ce qui équivaut à un type de papier répertorié dans l'énumération PaperSourceKind.
-// S'il existe une source papier avec la même valeur "RawKind" que celle de la page à imprimer,
-// l'imprimante imprimera la page en utilisant la source et le format de papier fournis.
-// Sinon, l'imprimante utilisera par défaut la source désignée par la propriété "DefaultPageSettingsPaperSource".
+// La propriété « PaperSizes » contient la liste des formats de papier à utiliser par l'imprimante.
+// PrinterSource et PrinterSize contiennent tous deux une propriété « RawKind »,
+// qui équivaut à un type de papier répertorié dans l'énumération PaperSourceKind.
+// S'il existe une source de papier avec la même valeur « RawKind » que celle de la page d'impression,
+// l'imprimante imprimera la page en utilisant la source de papier et le format fournis.
+// Sinon, l'imprimante utilisera par défaut la source désignée par la propriété « DefaultPageSettingsPaperSource ».
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

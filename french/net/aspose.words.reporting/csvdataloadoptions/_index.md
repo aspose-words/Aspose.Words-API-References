@@ -3,16 +3,16 @@ title: CsvDataLoadOptions Class
 linktitle: CsvDataLoadOptions
 articleTitle: CsvDataLoadOptions
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Reporting.CsvDataLoadOptions classe. Représente les options danalyse des données CSV en C#.
+description: Découvrez Aspose.Words.Reporting.CsvDataLoadOptions pour une analyse efficace des données CSV. Optimisez le traitement de vos documents grâce à des options personnalisables dès aujourd'hui !
 type: docs
-weight: 4660
+weight: 5400
 url: /fr/net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
 
 Représente les options d'analyse des données CSV.
 
-Pour en savoir plus, visitez le[Moteur de reporting LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) article documentaire.
+Pour en savoir plus, visitez le[Moteur de création de rapports LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) article de documentation.
 
 ```csharp
 public class CsvDataLoadOptions
@@ -23,7 +23,7 @@ public class CsvDataLoadOptions
 | Nom | La description |
 | --- | --- |
 | [CsvDataLoadOptions](csvdataloadoptions/#constructor)() | Initialise une nouvelle instance de cette classe avec les options par défaut. |
-| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | Initialise une nouvelle instance de cette classe en spécifiant si les données CSV contiennent des noms de colonnes sur la première ligne. |
+| [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | Initialise une nouvelle instance de cette classe en spécifiant si les données CSV contiennent des noms de colonnes à la première ligne. |
 
 ## Propriétés
 
@@ -36,7 +36,26 @@ public class CsvDataLoadOptions
 
 ## Remarques
 
-Une instance de cette classe peut être transmise aux constructeurs de[`CsvDataSource`](../csvdatasource/) .
+Une instance de cette classe peut être passée aux constructeurs de[`CsvDataSource`](../csvdatasource/) .
+
+## Exemples
+
+Montre comment utiliser CSV comme source de données (chaîne).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### Voir également
 

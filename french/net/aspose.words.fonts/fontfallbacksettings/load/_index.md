@@ -3,7 +3,7 @@ title: FontFallbackSettings.Load
 linktitle: Load
 articleTitle: Load
 second_title: Aspose.Words pour .NET
-description: FontFallbackSettings Load méthode. Charge les paramètres de secours des polices à partir du fichier XML en C#.
+description: Chargez et gérez sans effort les paramètres de secours des polices à partir de fichiers XML avec la méthode de chargement FontFallbackSettings pour une intégration typographique transparente.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/fontfallbacksettings/load/
@@ -27,14 +27,14 @@ Montre comment charger et enregistrer les paramètres de secours des polices ver
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Charge un document XML qui définit un ensemble de paramètres de secours de police.
+// Chargez un document XML qui définit un ensemble de paramètres de police de secours.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Enregistrez les paramètres de secours de police actuels de notre document en tant que document XML.
+// Enregistrez les paramètres de police de secours actuels de notre document sous forme de document XML.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 
@@ -65,7 +65,7 @@ Montre comment charger et enregistrer les paramètres de secours des polices ver
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Charge un document XML qui définit un ensemble de paramètres de secours de police.
+// Chargez un document XML qui définit un ensemble de paramètres de police de secours.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -76,7 +76,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Utiliser un flux pour enregistrer les paramètres de secours de police actuels de notre document en tant que document XML.
+// Utilisez un flux pour enregistrer les paramètres de police de secours actuels de notre document sous forme de document XML.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {

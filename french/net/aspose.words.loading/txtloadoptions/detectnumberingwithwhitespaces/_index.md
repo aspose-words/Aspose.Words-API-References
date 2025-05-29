@@ -3,14 +3,14 @@ title: TxtLoadOptions.DetectNumberingWithWhitespaces
 linktitle: DetectNumberingWithWhitespaces
 articleTitle: DetectNumberingWithWhitespaces
 second_title: Aspose.Words pour .NET
-description: TxtLoadOptions DetectNumberingWithWhitespaces propriété. Permet de spécifier comment les éléments de liste numérotés sont reconnus lorsque le document est importé à partir du format texte brut. La valeur par défaut estvrai en C#.
+description: Optimisez vos importations de documents avec la fonctionnalité DetectNumberingWithWhitespaces de TxtLoadOptions, garantissant une reconnaissance précise des listes numérotées à partir de texte brut.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.loading/txtloadoptions/detectnumberingwithwhitespaces/
 ---
 ## TxtLoadOptions.DetectNumberingWithWhitespaces property
 
-Permet de spécifier comment les éléments de liste numérotés sont reconnus lorsque le document est importé à partir du format texte brut. La valeur par défaut est`vrai`.
+Permet de spécifier comment les éléments de liste numérotés sont reconnus lorsque le document est importé à partir d'un format texte brut. La valeur par défaut est`vrai`.
 
 ```csharp
 public bool DetectNumberingWithWhitespaces { get; set; }
@@ -18,19 +18,19 @@ public bool DetectNumberingWithWhitespaces { get; set; }
 
 ## Remarques
 
-Si cette option est définie sur`FAUX`, l'algorithme de reconnaissance de listes détecte les paragraphes de liste lorsque les numéros de liste se terminent par soit par un point, soit par un crochet droit, soit par des puces (tels que "•", "*", "-" ou "o").
+Si cette option est définie sur`FAUX`, l'algorithme de reconnaissance des listes détecte les paragraphes de liste, lorsque les numéros de liste se terminent par un point, un crochet droit ou des symboles de puce (tels que « • », « * », « - » ou « o »).
 
-Si cette option est définie sur`vrai`les espaces sont également utilisés comme délimiteurs de numéros de liste : l'algorithme de reconnaissance de liste pour la numérotation de style arabe (1., 1.1.2.) utilise à la fois les espaces et les symboles point ("").
+Si cette option est définie sur`vrai`, les espaces blancs sont également utilisés comme délimiteurs de numéros de liste : L'algorithme de reconnaissance de liste pour la numérotation de style arabe (1., 1.1.2.) utilise à la fois des espaces blancs et des symboles point (".").
 
 ## Exemples
 
 Montre comment détecter les listes lors du chargement de documents en texte brut.
 
 ```csharp
-// Crée un document en texte brut dans une chaîne avec quatre parties distinctes que l'on peut interpréter comme des listes,
-// avec des délimiteurs différents. Lors du chargement du document en clair dans un objet "Document",
-// Aspose.Words détectera toujours les trois premières listes et ajoutera un objet "List"
-// pour chacun à la propriété "Listes" du document.
+// Créer un document en texte brut dans une chaîne avec quatre parties distinctes que nous pouvons interpréter comme des listes,
+// avec différents délimiteurs. Lors du chargement du document en clair dans un objet « Document »,
+// Aspose.Words détectera toujours les trois premières listes et ajoutera un objet « List »
+// pour chaque propriété « Listes » du document.
 const string textDoc = "Full stop delimiters:\n" +
                        "1. First list item 1\n" +
                        "2. First list item 2\n" +
@@ -48,14 +48,14 @@ const string textDoc = "Full stop delimiters:\n" +
                        "2 Fourth list item 2\n" +
                        "3 Fourth list item 3";
 
-// Crée un objet "TxtLoadOptions", que l'on peut transmettre au constructeur d'un document
+// Créer un objet « TxtLoadOptions », que nous pouvons transmettre au constructeur d'un document
 // pour modifier la façon dont nous chargeons un document en texte brut.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Définit la propriété "DetectNumberingWithWhitespaces" sur "true" pour détecter les éléments numérotés
+// Définissez la propriété « DetectNumberingWithWhitespaces » sur « true » pour détecter les éléments numérotés
 // avec des délimiteurs d'espaces, comme la quatrième liste de notre document, sous forme de listes.
-// Cela peut également détecter à tort les paragraphes commençant par des chiffres sous forme de listes.
-// Définit la propriété "DetectNumberingWithWhitespaces" sur "false"
+// Cela peut également détecter à tort les paragraphes commençant par des nombres sous forme de listes.
+// Définissez la propriété « DetectNumberingWithWhitespaces » sur « false »
 // pour ne pas créer de listes à partir d'éléments numérotés avec des délimiteurs d'espaces.
 loadOptions.DetectNumberingWithWhitespaces = detectNumberingWithWhitespaces;
 

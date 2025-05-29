@@ -3,9 +3,9 @@ title: SdtType Enum
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Markup.SdtType énumération. Spécifie le type dun nœud de balise de document structuré SDT en C#.
+description: Découvrez l'énumération Aspose.Words.Markup.SdtType, définissant des types de balises de documents structurés pour une gestion améliorée des documents et des flux de travail rationalisés.
 type: docs
-weight: 4040
+weight: 4730
 url: /fr/net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration
@@ -32,15 +32,36 @@ public enum SdtType
 | Group | `9` | Le SDT représente un regroupement restreint lorsqu'il est affiché dans le document. |
 | Picture | `10` | Le SDT représente une image lorsqu'il est affiché dans le document. |
 | RichText | `11` | Le SDT représente une zone de texte enrichi lorsqu'il est affiché dans le document. |
-| PlainText | `12` | Le SDT représente une zone de texte brut lorsqu'il est affiché dans le document. |
+| PlainText | `12` | Le SDT représente une zone de texte simple lorsqu'il est affiché dans le document. |
 | Checkbox | `13` | Le SDT représente une case à cocher lorsqu'il est affiché dans le document. |
-| RepeatingSection | `14` | Le SDT représente un type de section répétitive lorsqu'il est affiché dans le document. |
-| RepeatingSectionItem | `15` | Le SDT représente un élément de section répétitive. |
+| RepeatingSection | `14` | Le SDT représente le type de section répétitive lorsqu'il est affiché dans le document. |
+| RepeatingSectionItem | `15` | Le SDT représente un élément de section répétitif. |
 | EntityPicker | `16` | Le SDT représente un sélecteur d'entités qui permet à l'utilisateur de sélectionner une instance d'un type de contenu externe. |
 
 ## Exemples
 
-Montre comment créer une balise de document structuré de groupe au niveau de la ligne.
+Montre comment créer une balise de document structurée de type Citation.
+
+```csharp
+Document doc = new Document();
+
+StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.Citation, MarkupLevel.Inline);
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+paragraph.AppendChild(sdt);
+
+// Créer un champ Citation.
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.MoveToParagraph(0, -1);
+builder.InsertField(@"CITATION Ath22 \l 1033 ", "(John Lennon, 2022)");
+
+// Déplacez le champ vers la balise de document structuré.
+while (sdt.NextSibling != null)
+    sdt.AppendChild(sdt.NextSibling);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.Citation.docx");
+```
+
+Montre comment créer une balise de document structurée en groupe au niveau de la ligne.
 
 ```csharp
 Document doc = new Document();
@@ -48,13 +69,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// Créez une balise de document structuré de groupe au niveau de la ligne.
+// Créez une balise de document structurée de groupe au niveau de la ligne.
 StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.Group, MarkupLevel.Row);
 table.AppendChild(groupSdt);
 groupSdt.IsShowingPlaceholderText = false;
 groupSdt.RemoveAllChildren();
 
-// Crée une ligne enfant de la balise du document structuré.
+// Créer une ligne enfant de la balise de document structuré.
 Row row = new Row(doc);
 groupSdt.AppendChild(row);
 
@@ -63,26 +84,26 @@ row.AppendChild(cell);
 
 builder.EndTable();
 
-// Insère le contenu de la cellule.
+// Insérer le contenu de la cellule.
 cell.EnsureMinimum();
 builder.MoveTo(cell.LastParagraph);
 builder.Write("Lorem ipsum dolor.");
 
-// Insère du texte après le tableau.
+// Insérer du texte après le tableau.
 builder.MoveTo(table.NextSibling);
 builder.Write("Nulla blandit nisi.");
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.SdtAtRowLevel.docx");
 ```
 
-Montre comment utiliser les styles pour les éléments de contrôle de contenu.
+Montre comment travailler avec des styles pour les éléments de contrôle de contenu.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux manières d'appliquer un style du document à une balise de document structuré.
-// 1 - Appliquer un objet style de la collection de styles du document :
+// Vous trouverez ci-dessous deux manières d'appliquer un style du document à une balise de document structurée.
+// 1 - Appliquer un objet de style de la collection de styles du document :
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
@@ -131,7 +152,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
         "</book>" +
     "</books>");
 
-// Crée des en-têtes pour les données à partir du contenu XML.
+// Créer des en-têtes pour les données à partir du contenu XML.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Title");
@@ -140,15 +161,15 @@ builder.Write("Author");
 builder.EndRow();
 builder.EndTable();
 
-// Crée un tableau avec une section répétitive à l'intérieur.
+// Créez un tableau avec une section répétitive à l'intérieur.
 StructuredDocumentTag repeatingSectionSdt =
     new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
 repeatingSectionSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book", string.Empty);
 table.AppendChild(repeatingSectionSdt);
 
-// Ajoutez un élément de section répétitive à l'intérieur de la section répétitive et marquez-le comme une ligne.
-// Ce tableau aura une ligne pour chaque élément que l'on peut trouver dans le document XML
-// en utilisant le XPath "/books[1]/book", il y en a trois.
+// Ajoutez un élément de section répétitif à l'intérieur de la section répétitive et marquez-le comme une ligne.
+// Ce tableau aura une ligne pour chaque élément que nous pouvons trouver dans le document XML
+// en utilisant le XPath "/books[1]/book", dont il existe trois.
 StructuredDocumentTag repeatingSectionItemSdt =
     new StructuredDocumentTag(doc, SdtType.RepeatingSectionItem, MarkupLevel.Row);
 repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
@@ -156,7 +177,7 @@ repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
 Row row = new Row(doc);
 repeatingSectionItemSdt.AppendChild(row);
 
-// Mappez les données XML avec les cellules du tableau créées pour le titre et l'auteur de chaque livre.
+// Mappez les données XML avec les cellules de tableau créées pour le titre et l'auteur de chaque livre.
 StructuredDocumentTag titleSdt =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
 titleSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/title[1]", string.Empty);

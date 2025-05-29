@@ -3,7 +3,7 @@ title: FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words pour .NET
-description: FontSettings constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FontSettings pour personnaliser facilement les propriétés des polices. Améliorez l'affichage du texte de votre application grâce à notre configuration par défaut !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontsettings/fontsettings/

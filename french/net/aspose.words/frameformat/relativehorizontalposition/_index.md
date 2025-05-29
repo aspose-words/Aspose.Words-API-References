@@ -3,7 +3,7 @@ title: FrameFormat.RelativeHorizontalPosition
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words pour .NET
-description: FrameFormat RelativeHorizontalPosition propriété. Obtient la position horizontale relative dun cadre en C#.
+description: Découvrez la propriété FrameFormat RelativeHorizontalPosition pour déterminer facilement le positionnement horizontal d'un cadre pour un contrôle de mise en page amélioré.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/frameformat/relativehorizontalposition/
@@ -18,7 +18,7 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; }
 
 ## Exemples
 
-Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
+Montre comment obtenir des informations sur les propriétés de formatage des paragraphes qui sont des cadres.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

@@ -3,7 +3,7 @@ title: BorderCollection.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words pour .NET
-description: BorderCollection LineWidth propriété. Obtient ou définit la largeur de la bordure en points en C#.
+description: Découvrez la propriété BorderCollection LineWidth pour ajuster facilement la largeur de la bordure en points, améliorant ainsi la précision et l'attrait visuel de votre conception.
 type: docs
 weight: 90
 url: /fr/net/aspose.words/bordercollection/linewidth/

@@ -3,16 +3,16 @@ title: TableCollection Class
 linktitle: TableCollection
 articleTitle: TableCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Tables.TableCollection classe. Fournit un accès typé à une collection deTable nœuds en C#.
+description: Découvrez la classe Aspose.Words.Tables.TableCollection pour un accès facile et typé aux nœuds Table, améliorant l'efficacité et la flexibilité du traitement des documents.
 type: docs
-weight: 6360
+weight: 7210
 url: /fr/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
 Fournit un accès typé à une collection de[`Table`](../table/) nœuds.
 
-Pour en savoir plus, visitez le[Travailler avec des tableaux](https://docs.aspose.com/words/net/working-with-tables/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des tableaux](https://docs.aspose.com/words/net/working-with-tables/) article de documentation.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -31,17 +31,17 @@ public class TableCollection : NodeCollection
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Ajoute un nœud à la fin de la collection. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Supprime tous les nœuds de cette collection et du document. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Détermine si un nœud fait partie de la collection. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Détermine si un nœud est dans la collection. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fournit une itération simple de style « foreach » sur la collection de nœuds. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Renvoie l'index de base zéro du nœud spécifié. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Insère un nœud dans la collection à l'index spécifié. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Supprime le nœud de la collection et du document. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Supprime le nœud à l'index spécifié de la collection et du document. |
-| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copie toutes les tables de la collection vers un nouveau tableau de tables. (2 methods) |
+| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copie toutes les tables de la collection dans un nouveau tableau de tables. (2 methods) |
 
 ## Exemples
 
-Montre comment supprimer les première et dernière lignes de tous les tableaux d’un document.
+Montre comment supprimer la première et la dernière ligne de tous les tableaux d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -72,11 +72,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Déterminez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Détermine si la table est imbriquée dans une autre table et, si oui, à quelle profondeur.
+        // Déterminez si la table est imbriquée dans une autre table et, si oui, à quelle profondeur.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -91,7 +91,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcule à quel niveau une table est imbriquée dans d'autres tables.
 /// </summary>
 /// <returns>
-/// Un entier indiquant la profondeur d'imbrication de la table (nombre de nœuds de la table parent).
+/// Un entier indiquant la profondeur d'imbrication de la table (nombre de nœuds de table parent).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -109,7 +109,7 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
+/// Ne parcourez pas récursivement ces tables pour vérifier d'autres tables.
 /// </summary>
 /// <returns>
 /// Renvoie vrai si au moins une cellule enfant contient un tableau.
@@ -119,9 +119,9 @@ private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

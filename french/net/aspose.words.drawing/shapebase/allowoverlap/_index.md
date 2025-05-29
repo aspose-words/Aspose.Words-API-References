@@ -3,7 +3,7 @@ title: ShapeBase.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words pour .NET
-description: ShapeBase AllowOverlap propriété. Obtient ou définit une valeur qui spécifie si cette forme peut chevaucher dautres formes en C#.
+description: Découvrez la propriété ShapeBase AllowOverlap, contrôlez les interactions des formes en activant ou en désactivant le chevauchement avec d'autres formes pour une flexibilité de conception améliorée.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/shapebase/allowoverlap/
@@ -26,7 +26,7 @@ La valeur par défaut est`vrai`.
 
 ## Exemples
 
-Montre comment utiliser les propriétés des tables flottantes.
+Montre comment travailler avec les propriétés des tables flottantes.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -39,12 +39,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Seules les marges, pages et colonnes sont disponibles dans RelativeHorizontalPosition pour le setter HorizontalAnchor.
-    // L'ArgumentException sera levée pour toutes les autres valeurs.
+    // Seules Marge, Page, Colonne sont disponibles dans RelativeHorizontalPosition pour le setter HorizontalAnchor.
+    // L'ArgumentException sera levée pour toute autre valeur.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Seules les marges, pages et paragraphes sont disponibles dans RelativeVerticalPosition pour le setter VerticalAnchor.
-    // L'ArgumentException sera levée pour toutes les autres valeurs.
+    // Seules Marge, Page, Paragraphe sont disponibles dans RelativeVerticalPosition pour le setter VerticalAnchor.
+    // L'ArgumentException sera levée pour toute autre valeur.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

@@ -3,14 +3,14 @@ title: ShapeBase.GetShapeRenderer
 linktitle: GetShapeRenderer
 articleTitle: GetShapeRenderer
 second_title: Aspose.Words pour .NET
-description: ShapeBase GetShapeRenderer méthode. Crée et renvoie un objet qui peut être utilisé pour restituer cette forme en image en C#.
+description: Découvrez la méthode ShapeBase GetShapeRenderer pour créer et restituer sans effort des formes sous forme d'images, améliorant ainsi vos projets de conception en toute simplicité.
 type: docs
-weight: 660
+weight: 670
 url: /fr/net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase.GetShapeRenderer method
 
-Crée et renvoie un objet qui peut être utilisé pour restituer cette forme en image.
+Crée et renvoie un objet qui peut être utilisé pour rendre cette forme dans une image.
 
 ```csharp
 public ShapeRenderer GetShapeRenderer()
@@ -36,7 +36,7 @@ Assert.AreEqual(7, shapes.Length);
 
 // Il y a 7 formes dans le document, dont une forme de groupe avec 2 formes enfants.
 // Nous allons rendre chaque forme dans un fichier image dans le système de fichiers local
-// en ignorant les formes de groupe puisqu'elles n'ont pas d'apparence.
+// tout en ignorant les formes de groupe car elles n'ont aucune apparence.
 // Cela produira 6 fichiers image.
 foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 {

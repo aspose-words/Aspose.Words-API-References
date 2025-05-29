@@ -3,7 +3,7 @@ title: MailMerge.UnconditionalMergeFieldsAndRegions
 linktitle: UnconditionalMergeFieldsAndRegions
 articleTitle: UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words pour .NET
-description: MailMerge UnconditionalMergeFieldsAndRegions propriété. Obtient ou définit une valeur indiquant si les champs de fusion et les régions de fusion sont fusionnés quelle que soit la condition du champ IF parent en C#.
+description: Découvrez comment la propriété UnconditionalMergeFieldsAndRegions de MailMerge améliore l'automatisation des documents en fusionnant des champs et des régions sans limites conditionnelles.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
@@ -28,17 +28,17 @@ Montre comment fusionner des champs ou des régions quelle que soit la condition
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un MERGEFIELD imbriqué dans un champ IF.
-// Puisque l'instruction du champ IF est fausse, elle n'affichera pas le résultat du MERGEFIELD.
+// Insérer un MERGEFIELD imbriqué dans un champ IF.
+// Étant donné que l'instruction du champ IF est fausse, elle n'affichera pas le résultat du MERGEFIELD.
 // Le MERGEFIELD ne recevra également aucune donnée lors d'un publipostage.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
-// Si nous définissons le flag "UnconditionalMergeFieldsAndRegions" à "true",
+// Si nous définissons l'indicateur « UnconditionalMergeFieldsAndRegions » sur « true »,
 // notre publipostage insérera des données dans des champs non affichés tels que notre MERGEFIELD ainsi que tous les autres.
-// Si nous mettons le flag "UnconditionalMergeFieldsAndRegions" à "false",
-// notre publipostage n'insérera pas de données dans les MERGEFIELD masqués par les champs IF avec de fausses déclarations.
+// Si nous définissons l'indicateur « UnconditionalMergeFieldsAndRegions » sur « false »,
+// notre publipostage n'insérera pas de données dans les MERGEFIELD masqués par les champs IF avec de fausses instructions.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

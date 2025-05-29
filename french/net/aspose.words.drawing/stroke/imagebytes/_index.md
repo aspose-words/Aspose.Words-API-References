@@ -3,9 +3,9 @@ title: Stroke.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words pour .NET
-description: Stroke ImageBytes propriété. Définit limage pour une image de trait ou un remplissage de motif en C#.
+description: Découvrez comment utiliser la propriété ImageBytes pour créer de superbes images de traits et des motifs de remplissage uniques pour vos créations. Améliorez vos visuels dès aujourd'hui !
 type: docs
-weight: 110
+weight: 160
 url: /fr/net/aspose.words.drawing/stroke/imagebytes/
 ---
 ## Stroke.ImageBytes property
@@ -18,7 +18,7 @@ public byte[] ImageBytes { get; }
 
 ## Exemples
 
-Montre comment traiter les caractéristiques de trait de forme.
+Montre comment traiter les fonctions de trait de forme.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");

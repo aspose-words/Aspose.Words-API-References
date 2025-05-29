@@ -3,9 +3,9 @@ title: ChartAxis.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words pour .NET
-description: ChartAxis Hidden propriété. Obtient ou définit un indicateur indiquant si cet axe est masqué ou non en C#.
+description: Découvrez la propriété « Axe du graphique masqué » pour gérer facilement la visibilité des axes dans vos graphiques. Améliorez la présentation de vos données grâce à cette simple fonctionnalité de basculement !
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Effacez la série de données de démonstration du graphique pour démarrer avec un graphique propre.
 chart.Series.Clear();
 
 // Ajoutez une série personnalisée avec des catégories pour l'axe X et des valeurs décimales respectives pour l'axe Y.

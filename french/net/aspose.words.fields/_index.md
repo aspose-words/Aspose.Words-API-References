@@ -3,9 +3,9 @@ title: Aspose.Words.Fields
 linktitle: Aspose.Words.Fields
 articleTitle: Aspose.Words.Fields
 second_title: Aspose.Words pour .NET
-description: LeAspose.Words.Fields Lespace de noms contient des classes qui représentent les champs Microsoft Word dans un document en C#.
+description: Découvrez l'espace de noms Aspose.Words.Fields, doté de classes puissantes pour gérer de manière transparente les champs Microsoft Word dans vos documents pour une édition et une automatisation améliorées.
 type: docs
-weight: 80
+weight: 100
 url: /fr/net/aspose.words.fields/
 ---
 Le**Aspose.Words.Fields** L'espace de noms contient des classes qui représentent les champs Microsoft Word dans un document.
@@ -14,36 +14,36 @@ Le**Aspose.Words.Fields** L'espace de noms contient des classes qui représenten
 
 | Classer | La description |
 | --- | --- |
-| [BarcodeParameters](./barcodeparameters/) | Classe conteneur pour les paramètres de codes-barres à transmettre à BarcodeGenerator. |
-| [ComparisonEvaluationResult](./comparisonevaluationresult/) | Le résultat de l'évaluation de la comparaison. |
+| [BarcodeParameters](./barcodeparameters/) | Classe conteneur pour les paramètres de code-barres à transmettre à BarcodeGenerator. |
+| [ComparisonEvaluationResult](./comparisonevaluationresult/) | Le résultat de l'évaluation de comparaison. |
 | [ComparisonExpression](./comparisonexpression/) | L'expression de comparaison. |
 | [DropDownItemCollection](./dropdownitemcollection/) | Une collection de chaînes qui représentent tous les éléments d'un champ de formulaire déroulant. |
 | [Field](./field/) | Représente un champ de document Microsoft Word. |
 | [FieldAddIn](./fieldaddin/) | Implémente le champ ADDIN. |
 | [FieldAddressBlock](./fieldaddressblock/) | Implémente le champ ADDRESSBLOCK. |
 | [FieldAdvance](./fieldadvance/) | Implémente le champ ADVANCE. |
-| [FieldArgumentBuilder](./fieldargumentbuilder/) | Construit un argument de champ complexe composé de champs, de nœuds et de texte brut. |
+| [FieldArgumentBuilder](./fieldargumentbuilder/) | Crée un argument de champ complexe composé de champs, de nœuds et de texte brut. |
 | [FieldAsk](./fieldask/) | Implémente le champ ASK. |
 | [FieldAuthor](./fieldauthor/) | Implémente le champ AUTEUR. |
 | [FieldAutoNum](./fieldautonum/) | Implémente le champ AUTONUM. |
 | [FieldAutoNumLgl](./fieldautonumlgl/) | Implémente le champ AUTONUMLGL. |
 | [FieldAutoNumOut](./fieldautonumout/) | Implémente le champ AUTONUMOUT. |
-| [FieldAutoText](./fieldautotext/) | Implémente le champ AUTOTEXTE. |
+| [FieldAutoText](./fieldautotext/) | Implémente le champ AUTOTEXT. |
 | [FieldAutoTextList](./fieldautotextlist/) | Implémente le champ AUTOTEXTLIST. |
 | [FieldBarcode](./fieldbarcode/) | Implémente le champ BARCODE. |
 | [FieldBibliography](./fieldbibliography/) | Implémente le champ BIBLIOGRAPHIE. |
 | [FieldBidiOutline](./fieldbidioutline/) | Implémente le champ BIDIOUTLINE. |
-| [FieldBuilder](./fieldbuilder/) | Construit un champ à partir de jetons de code de champ (arguments et commutateurs). |
+| [FieldBuilder](./fieldbuilder/) | Crée un champ à partir de jetons de code de champ (arguments et commutateurs). |
 | [FieldChar](./fieldchar/) | Classe de base pour les nœuds qui représentent les caractères de champ dans un document. |
 | [FieldCitation](./fieldcitation/) | Implémente le champ CITATION. |
 | [FieldCollection](./fieldcollection/) | Une collection de[`Field`](../aspose.words.fields/field/) objets qui représentent les champs dans la plage spécifiée. |
 | [FieldComments](./fieldcomments/) | Implémente le champ COMMENTAIRES. |
-| [FieldCompare](./fieldcompare/) | Implémente le champ COMPARER. |
+| [FieldCompare](./fieldcompare/) | Implémente le champ COMPARE. |
 | [FieldCreateDate](./fieldcreatedate/) | Implémente le champ CREATEDATE. |
 | [FieldData](./fielddata/) | Implémente le champ DATA. |
 | [FieldDatabase](./fielddatabase/) | Implémente le champ DATABASE. |
-| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Fournit des données pour le[`FieldDatabase`](../aspose.words.fields/fielddatabase/) résultat du champ. S'il te plait regardeDataRow instance. |
-| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Fournit des données pour le[`FieldDatabase`](../aspose.words.fields/fielddatabase/) résultat du champ. S'il te plait regardeDataTable instance. |
+| [FieldDatabaseDataRow](./fielddatabasedatarow/) | Fournit des données pour le[`FieldDatabase`](../aspose.words.fields/fielddatabase/) résultat du champ. Veuillez consulterDataRow instance. |
+| [FieldDatabaseDataTable](./fielddatabasedatatable/) | Fournit des données pour le[`FieldDatabase`](../aspose.words.fields/fielddatabase/) résultat du champ. Veuillez consulterDataTable instance. |
 | [FieldDate](./fielddate/) | Implémente le champ DATE. |
 | [FieldDde](./fielddde/) | Implémente le champ DDE. |
 | [FieldDdeAuto](./fieldddeauto/) | Implémente le champ DDEAUTO. |
@@ -58,7 +58,7 @@ Le**Aspose.Words.Fields** L'espace de noms contient des classes qui représenten
 | [FieldFileSize](./fieldfilesize/) | Implémente le champ FILESIZE. |
 | [FieldFillIn](./fieldfillin/) | Implémente le champ FILLIN. |
 | [FieldFootnoteRef](./fieldfootnoteref/) | Implémente le champ FOOTNOTEREF. |
-| [FieldFormat](./fieldformat/) | Fournit un accès saisi aux valeurs numériques, à la date et à l'heure du champ, ainsi qu'au formatage général. |
+| [FieldFormat](./fieldformat/) | Fournit un accès typé aux valeurs numériques, à la date et à l'heure du champ, ainsi qu'au formatage général. |
 | [FieldFormCheckBox](./fieldformcheckbox/) | Implémente le champ FORMCHECKBOX. |
 | [FieldFormDropDown](./fieldformdropdown/) | Implémente le champ FORMDROPDOWN. |
 | [FieldFormText](./fieldformtext/) | Implémente le champ FORMTEXT. |
@@ -110,13 +110,13 @@ Le**Aspose.Words.Fields** L'espace de noms contient des classes qui représenten
 | [FieldSkipIf](./fieldskipif/) | Implémente le champ SKIPIF. |
 | [FieldStart](./fieldstart/) | Représente le début d'un champ Word dans un document. |
 | [FieldStyleRef](./fieldstyleref/) | Implémente le champ STYLEREF. |
-| [FieldSubject](./fieldsubject/) | Implémente le champ SUJET. |
-| [FieldSymbol](./fieldsymbol/) | Implémente un champ SYMBOLE. |
+| [FieldSubject](./fieldsubject/) | Implémente le champ SUBJECT. |
+| [FieldSymbol](./fieldsymbol/) | Implémente un champ SYMBOL. |
 | [FieldTA](./fieldta/) | Implémente le champ TA. |
 | [FieldTC](./fieldtc/) | Implémente le champ TC. |
 | [FieldTemplate](./fieldtemplate/) | Implémente le champ TEMPLATE. |
 | [FieldTime](./fieldtime/) | Implémente le champ TIME. |
-| [FieldTitle](./fieldtitle/) | Implémente le champ TITRE. |
+| [FieldTitle](./fieldtitle/) | Implémente le champ TITLE. |
 | [FieldToa](./fieldtoa/) | Implémente le champ TOA. |
 | [FieldToc](./fieldtoc/) | Implémente le champ TOC. |
 | [FieldUnknown](./fieldunknown/) | Implémente un champ inconnu ou non reconnu. |
@@ -129,14 +129,14 @@ Le**Aspose.Words.Fields** L'espace de noms contient des classes qui représenten
 | [FormFieldCollection](./formfieldcollection/) | Une collection de[`FormField`](../aspose.words.fields/formfield/) objets qui représentent tous les champs de formulaire dans une plage. |
 | [GeneralFormatCollection](./generalformatcollection/) | Représente une collection typée de formats généraux. |
 | [MergeFieldImageDimension](./mergefieldimagedimension/) | Représente une dimension d'image (c'est-à-dire la largeur ou la hauteur) utilisée dans un processus de publipostage. |
-| [ToaCategories](./toacategories/) | Représente un tableau des catégories d'autorités. |
+| [ToaCategories](./toacategories/) | Représente un tableau de catégories d'autorités. |
 | [UserInformation](./userinformation/) | Spécifie des informations sur l'utilisateur. |
 ## Interfaces
 
 | Interface | La description |
 | --- | --- |
-| [IBarcodeGenerator](./ibarcodegenerator/) | Interface publique pour le générateur personnalisé de codes-barres. L'implémentation doit être fournie par user. |
-| [IBibliographyStylesProvider](./ibibliographystylesprovider/) | Implémentez cette interface pour fournir un style de bibliographie pour le[`FieldBibliography`](../aspose.words.fields/fieldbibliography/) et[`FieldCitation`](../aspose.words.fields/fieldcitation/) champs lorsqu'ils sont mis à jour. |
+| [IBarcodeGenerator](./ibarcodegenerator/) | Interface publique pour le générateur de codes-barres personnalisé. L'implémentation doit être fournie par l'utilisateur. |
+| [IBibliographyStylesProvider](./ibibliographystylesprovider/) | Implémentez cette interface pour fournir un style bibliographique pour le[`FieldBibliography`](../aspose.words.fields/fieldbibliography/) et[`FieldCitation`](../aspose.words.fields/fieldcitation/) champs lorsqu'ils sont mis à jour. |
 | [IComparisonExpressionEvaluator](./icomparisonexpressionevaluator/) | Une fois implémenté, permet de remplacer l'évaluation des expressions de comparaison par défaut pour le[`FieldIf`](../aspose.words.fields/fieldif/) et[`FieldCompare`](../aspose.words.fields/fieldcompare/) champs. |
 | [IFieldDatabaseProvider](./ifielddatabaseprovider/) | Implémentez cette interface pour fournir des données pour le[`FieldDatabase`](../aspose.words.fields/fielddatabase/) champ lorsqu'il est mis à jour. |
 | [IFieldResultFormatter](./ifieldresultformatter/) | Implémentez cette interface si vous souhaitez contrôler la façon dont le résultat du champ est formaté. |
@@ -151,7 +151,7 @@ Le**Aspose.Words.Fields** L'espace de noms contient des classes qui représenten
 | [FieldIfComparisonResult](./fieldifcomparisonresult/) | Spécifie le résultat de l'évaluation de la condition du champ IF. |
 | [FieldIndexFormat](./fieldindexformat/) | Spécifie le formatage du[`FieldIndex`](../aspose.words.fields/fieldindex/) champs dans un document. |
 | [FieldType](./fieldtype/) | Spécifie les types de champs Microsoft Word. |
-| [FieldUpdateCultureSource](./fieldupdateculturesource/) | Indique la culture à utiliser lors de la mise à jour du champ. |
-| [GeneralFormat](./generalformat/) | Spécifie un format général appliqué à un résultat numérique, texte ou à tout autre résultat de champ. Un champ peut avoir une combinaison de formats généraux. |
+| [FieldUpdateCultureSource](./fieldupdateculturesource/) | Indique quelle culture utiliser lors de la mise à jour du champ. |
+| [GeneralFormat](./generalformat/) | Spécifie un format général qui est appliqué à un résultat numérique, textuel ou à tout résultat de champ. Un champ peut avoir une combinaison de formats généraux. |
 | [MergeFieldImageDimensionUnit](./mergefieldimagedimensionunit/) | Spécifie une unité de dimension d'image (c'est-à-dire la largeur ou la hauteur) utilisée dans un processus de publipostage. |
-| [TextFormFieldType](./textformfieldtype/) | Spécifie le type d'un champ de formulaire de texte. |
+| [TextFormFieldType](./textformfieldtype/) | Spécifie le type d'un champ de formulaire texte. |

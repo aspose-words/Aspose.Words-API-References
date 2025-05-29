@@ -3,7 +3,7 @@ title: ImageSavingArgs.IsImageAvailable
 linktitle: IsImageAvailable
 articleTitle: IsImageAvailable
 second_title: Aspose.Words pour .NET
-description: ImageSavingArgs IsImageAvailable propriété. Retoursvrai si limage actuelle est disponible pour lexportation en C#.
+description: Vérifiez si une image est prête à être exportée avec la propriété IsImageAvailable dans ImageSavingArgs. Assurez une gestion fluide et efficace des images !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/imagesavingargs/isimageavailable/
@@ -18,13 +18,13 @@ public bool IsImageAvailable { get; }
 
 ## Remarques
 
-Certaines images du document peuvent être indisponibles, par exemple parce que l'image est liée et que le lien est inaccessible ou ne pointe pas vers une image valide. Dans ce cas, Aspose.Words exporte une icône avec une croix rouge. Cette propriété renvoie `vrai` si l'image originale est disponible ; Retour`FAUX`si l'image originale n'est pas disponible et une icône « pas d'image » sera proposée pour la sauvegarde.
+Certaines images du document peuvent être indisponibles, par exemple parce que l'image est liée et que le lien est inaccessible ou ne pointe pas vers une image valide. Dans ce cas, Aspose.Words exporte une icône avec une croix rouge. Cette propriété renvoie .`vrai` si l'image originale est disponible ; renvoie`FAUX`si l'image originale n'est pas disponible et qu'une icône « aucune image » sera proposée pour l'enregistrement.
 
 Lors de l'enregistrement d'une forme de groupe ou d'une forme qui ne nécessite aucune image, cette propriété est toujours`vrai`.
 
 ## Exemples
 
-Montre comment impliquer un rappel d’enregistrement d’image dans un processus de conversion HTML.
+Montre comment impliquer un rappel d'enregistrement d'image dans un processus de conversion HTML.
 
 ```csharp
 public void ImageSavingCallback()
@@ -32,7 +32,7 @@ public void ImageSavingCallback()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Lorsque nous enregistrons le document au format HTML, nous pouvons passer un objet SaveOptions pour désigner un rappel
-    // pour personnaliser le processus de sauvegarde de l'image.
+    // pour personnaliser le processus d'enregistrement de l'image.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -40,8 +40,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Imprime les propriétés de chaque image au fur et à mesure que le processus d'enregistrement l'enregistre dans un fichier image dans le système de fichiers local
-/// lors de l'export d'un document au format HTML.
+/// Imprime les propriétés de chaque image lorsque le processus d'enregistrement l'enregistre dans un fichier image dans le système de fichiers local
+/// lors de l'exportation d'un document au format HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

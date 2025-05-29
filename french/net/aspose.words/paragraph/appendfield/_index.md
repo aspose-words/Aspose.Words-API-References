@@ -3,9 +3,9 @@ title: Paragraph.AppendField
 linktitle: AppendField
 articleTitle: AppendField
 second_title: Aspose.Words pour .NET
-description: Paragraph AppendField méthode. Ajoute un champ à ce paragraphe en C#.
+description: Améliorez votre document avec la méthode Paragraph AppendField, en ajoutant de manière transparente des champs personnalisés aux paragraphes pour une meilleure organisation et clarté.
 type: docs
-weight: 240
+weight: 260
 url: /fr/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
@@ -18,7 +18,7 @@ public Field AppendField(FieldType fieldType, bool updateField)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fieldType | FieldType | Type de champ à ajouter. |
+| fieldType | FieldType | Le type de champ à ajouter. |
 | updateField | Boolean | Spécifie s'il faut mettre à jour le champ immédiatement. |
 
 ### Return_Value
@@ -27,20 +27,20 @@ UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ 
 
 ## Exemples
 
-Montre différentes manières d’ajouter des champs à un paragraphe.
+Affiche différentes manières d’ajouter des champs à un paragraphe.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Vous trouverez ci-dessous trois façons d'ajouter un champ à la fin d'un paragraphe.
-// 1 - Ajoutez un champ DATE en utilisant un type de champ, puis mettez-le à jour :
+// Vous trouverez ci-dessous trois manières d’ajouter un champ à la fin d’un paragraphe.
+// 1 - Ajoutez un champ DATE à l'aide d'un type de champ, puis mettez-le à jour :
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Ajouter un champ TIME en utilisant un code de champ :
+ // 2 - Ajouter un champ TIME à l'aide d'un code de champ :
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Ajoutez un champ QUOTE à l'aide d'un code de champ et faites-le afficher une valeur d'espace réservé :
+// 3 - Ajoutez un champ QUOTE à l'aide d'un code de champ et faites en sorte qu'il affiche une valeur d'espace réservé :
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
@@ -81,20 +81,20 @@ UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ 
 
 ## Exemples
 
-Montre différentes manières d’ajouter des champs à un paragraphe.
+Affiche différentes manières d’ajouter des champs à un paragraphe.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Vous trouverez ci-dessous trois façons d'ajouter un champ à la fin d'un paragraphe.
-// 1 - Ajoutez un champ DATE en utilisant un type de champ, puis mettez-le à jour :
+// Vous trouverez ci-dessous trois manières d’ajouter un champ à la fin d’un paragraphe.
+// 1 - Ajoutez un champ DATE à l'aide d'un type de champ, puis mettez-le à jour :
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Ajouter un champ TIME en utilisant un code de champ :
+ // 2 - Ajouter un champ TIME à l'aide d'un code de champ :
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Ajoutez un champ QUOTE à l'aide d'un code de champ et faites-le afficher une valeur d'espace réservé :
+// 3 - Ajoutez un champ QUOTE à l'aide d'un code de champ et faites en sorte qu'il affiche une valeur d'espace réservé :
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
@@ -135,20 +135,20 @@ UN[`Field`](../../../aspose.words.fields/field/) objet qui représente le champ 
 
 ## Exemples
 
-Montre différentes manières d’ajouter des champs à un paragraphe.
+Affiche différentes manières d’ajouter des champs à un paragraphe.
 
 ```csharp
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Vous trouverez ci-dessous trois façons d'ajouter un champ à la fin d'un paragraphe.
-// 1 - Ajoutez un champ DATE en utilisant un type de champ, puis mettez-le à jour :
+// Vous trouverez ci-dessous trois manières d’ajouter un champ à la fin d’un paragraphe.
+// 1 - Ajoutez un champ DATE à l'aide d'un type de champ, puis mettez-le à jour :
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Ajouter un champ TIME en utilisant un code de champ :
+ // 2 - Ajouter un champ TIME à l'aide d'un code de champ :
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Ajoutez un champ QUOTE à l'aide d'un code de champ et faites-le afficher une valeur d'espace réservé :
+// 3 - Ajoutez un champ QUOTE à l'aide d'un code de champ et faites en sorte qu'il affiche une valeur d'espace réservé :
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);

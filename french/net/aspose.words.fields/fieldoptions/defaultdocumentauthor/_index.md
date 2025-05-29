@@ -3,14 +3,14 @@ title: FieldOptions.DefaultDocumentAuthor
 linktitle: DefaultDocumentAuthor
 articleTitle: DefaultDocumentAuthor
 second_title: Aspose.Words pour .NET
-description: FieldOptions DefaultDocumentAuthor propriété. Obtient ou définit le nom de lauteur du document par défaut. Si le nom de lauteur est déjà spécifié dans les propriétés intégrées du document cette option nest pas prise en compte en C#.
+description: Gérez la propriété DefaultDocumentAuthor pour définir ou mettre à jour facilement les noms des auteurs de documents, améliorant ainsi l'organisation et l'efficacité de la gestion des documents.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 ---
 ## FieldOptions.DefaultDocumentAuthor property
 
-Obtient ou définit le nom de l'auteur du document par défaut. Si le nom de l'auteur est déjà spécifié dans les propriétés intégrées du document, cette option n'est pas prise en compte.
+Récupère ou définit le nom de l'auteur par défaut du document. Si le nom de l'auteur est déjà spécifié dans les propriétés intégrées du document, cette option n'est pas prise en compte.
 
 ```csharp
 public string DefaultDocumentAuthor { get; set; }
@@ -24,10 +24,10 @@ Montre comment utiliser un champ AUTEUR pour afficher le nom du créateur d'un d
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Les champs AUTEUR tirent leurs résultats de la propriété de document intégrée appelée "Auteur".
+// Les champs AUTEUR tirent leurs résultats de la propriété de document intégrée appelée « Auteur ».
 // Si nous créons et enregistrons un document dans Microsoft Word,
 // il aura notre nom d'utilisateur dans cette propriété.
-// Cependant, si nous créons un document par programme en utilisant Aspose.Words,
+// Cependant, si nous créons un document par programmation en utilisant Aspose.Words,
 // la propriété "Auteur", par défaut, sera une chaîne vide.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
@@ -42,18 +42,18 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
-// Mise à jour d'un champ AUTEUR qui contient une valeur
-// appliquera cette valeur à la propriété intégrée "Auteur".
+// Mise à jour d'un champ AUTEUR contenant une valeur
+// appliquera cette valeur à la propriété intégrée « Auteur ».
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
 // La modification de cette propriété, puis la mise à jour du champ AUTEUR appliqueront cette valeur au champ.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("John Doe", field.Result);
 
-// Si on met à jour un champ AUTEUR après avoir changé sa propriété "Nom",
+// Si nous mettons à jour un champ AUTEUR après avoir modifié sa propriété « Nom »,
 // alors le champ affichera le nouveau nom et appliquera le nouveau nom à la propriété intégrée.
 field.AuthorName = "Jane Doe";
 field.Update();

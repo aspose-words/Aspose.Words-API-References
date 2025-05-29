@@ -3,7 +3,7 @@ title: RowFormat.HeadingFormat
 linktitle: HeadingFormat
 articleTitle: HeadingFormat
 second_title: Aspose.Words pour .NET
-description: RowFormat HeadingFormat propriété. Vrai si la ligne est répétée comme entête de tableau sur chaque page lorsque le tableau sétend sur plusieurs pages en C#.
+description: Découvrez la propriété RowFormat HeadingFormat, assurez-vous que les en-têtes de vos tableaux se répètent sur chaque page pour plus de clarté et une meilleure lisibilité dans les documents de plusieurs pages.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.tables/rowformat/headingformat/
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// Toutes les lignes insérées alors que l'indicateur "HeadingFormat" est défini sur "true"
+// Toutes les lignes insérées alors que l'indicateur « HeadingFormat » est défini sur « true »
 // apparaîtra en haut du tableau sur chaque page qu'il couvre.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;

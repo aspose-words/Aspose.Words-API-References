@@ -3,16 +3,16 @@ title: ResourceSavingArgs Class
 linktitle: ResourceSavingArgs
 articleTitle: ResourceSavingArgs
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.ResourceSavingArgs classe. Fournit des données pour leResourceSaving événement en C#.
+description: Découvrez la classe Aspose.Words.Saving.ResourceSavingArgs, qui améliore le traitement de vos documents en fournissant des données essentielles pour l'événement ResourceSaving.
 type: docs
-weight: 5560
+weight: 6360
 url: /fr/net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
 Fournit des données pour le[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) événement.
 
-Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article documentaire.
+Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article de documentation.
 
 ```csharp
 public class ResourceSavingArgs
@@ -25,22 +25,22 @@ public class ResourceSavingArgs
 | [Document](../../aspose.words.saving/resourcesavingargs/document/) { get; } | Obtient l'objet document en cours d'enregistrement. |
 | [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen/) { get; set; } | Spécifie si Aspose.Words doit garder le flux ouvert ou le fermer après avoir enregistré une ressource. |
 | [ResourceFileName](../../aspose.words.saving/resourcesavingargs/resourcefilename/) { get; set; } | Obtient ou définit le nom du fichier (sans chemin) dans lequel la ressource sera enregistrée. |
-| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Obtient ou définit l'identificateur de ressource uniforme (URI) utilisé pour référencer le fichier de ressources du document. |
+| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | Obtient ou définit l'identifiant de ressource uniforme (URI) utilisé pour référencer le fichier de ressources à partir du document. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | Permet de spécifier le flux dans lequel la ressource sera enregistrée. |
 
 ## Remarques
 
-Par défaut, lorsque Aspose.Words enregistre un document sur une page fixe HTML ou SVG, il enregistre chaque ressource dans un fichier distinct. Aspose.Words utilise le nom du fichier du document et un numéro unique pour générer un nom de fichier unique pour chaque ressource trouvée dans le document.
+Par défaut, lorsqu'Aspose.Words enregistre un document au format HTML ou SVG, il enregistre chaque ressource dans un fichier distinct. Aspose.Words utilise le nom de fichier du document et un numéro unique pour générer un nom de fichier unique pour chaque ressource présente dans le document.
 
-`ResourceSavingArgs` permet de redéfinir la façon dont les noms de fichiers de ressources sont générés ou de contourner complètement la sauvegarde des ressources dans des fichiers en fournissant vos propres objets de flux.
+`ResourceSavingArgs` permet de redéfinir la manière dont les noms de fichiers de ressources sont générés ou de contourner complètement l'enregistrement des ressources dans les fichiers en fournissant vos propres objets de flux.
 
-Pour appliquer votre propre logique pour générer des noms de fichiers de ressources, utilisez le [`ResourceFileName`](./resourcefilename/) propriété.
+Pour appliquer votre propre logique de génération de noms de fichiers de ressources, utilisez [`ResourceFileName`](./resourcefilename/) propriété.
 
-Pour enregistrer les ressources dans des flux plutôt que dans des fichiers, utilisez l'option[`ResourceStream`](./resourcestream/) propriété.
+Pour enregistrer des ressources dans des flux plutôt que dans des fichiers, utilisez le[`ResourceStream`](./resourcestream/) propriété.
 
 ## Exemples
 
-Montre comment utiliser un rappel pour suivre les ressources externes créées lors de la conversion d'un document au format HTML.
+Montre comment utiliser un rappel pour suivre les ressources externes créées lors de la conversion d'un document en HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -62,7 +62,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page HTML ou SVG fixe.
+    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page fixe HTML ou SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

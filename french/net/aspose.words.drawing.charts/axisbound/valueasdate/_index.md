@@ -3,14 +3,14 @@ title: AxisBound.ValueAsDate
 linktitle: ValueAsDate
 articleTitle: ValueAsDate
 second_title: Aspose.Words pour .NET
-description: AxisBound ValueAsDate propriété. Renvoie la valeur de la limite de laxe représentée par datetime en C#.
+description: Découvrez la propriété AxisBound ValueAsDate, qui renvoie efficacement les valeurs liées aux axes sous forme de date/heure pour une visualisation et une analyse améliorées des données.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.drawing.charts/axisbound/valueasdate/
 ---
 ## AxisBound.ValueAsDate property
 
-Renvoie la valeur de la limite de l'axe représentée par datetime.
+Renvoie la valeur de la limite de l'axe représentée sous forme de datetime.
 
 ```csharp
 public DateTime ValueAsDate { get; }
@@ -18,7 +18,7 @@ public DateTime ValueAsDate { get; }
 
 ## Exemples
 
-Montre comment définir les limites des axes personnalisés.
+Montre comment définir des limites d'axe personnalisées.
 
 ```csharp
 Document doc = new Document();
@@ -27,21 +27,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Effacez la série de données de démonstration du graphique pour démarrer avec un graphique propre.
 chart.Series.Clear();
 
-// Ajoute une série avec deux tableaux décimaux. Le premier tableau contient les valeurs X,
-// et le second contient les valeurs Y correspondantes pour les points du nuage de points.
-chart.Series.Add("Series 1", 
-    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
+// Ajoute une série de deux tableaux décimaux. Le premier tableau contient les valeurs X.
+// et le second contient les valeurs Y correspondantes pour les points du graphique en nuage de points.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 },
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
 // Par défaut, la mise à l'échelle par défaut est appliquée aux axes X et Y du graphique,
-// afin que leurs deux plages soient suffisamment grandes pour englober toutes les valeurs X et Y de chaque série.
+// afin que leurs deux plages soient suffisamment grandes pour englober chaque valeur X et Y de chaque série.
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
 // Nous pouvons définir nos propres limites d'axe.
-// Dans ce cas, nous ferons en sorte que les règles des axes X et Y affichent une plage de 0 à 10.
+// Dans ce cas, nous allons faire en sorte que les règles des axes X et Y affichent une plage de 0 à 10.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
@@ -64,7 +64,7 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
-// Nous pouvons également définir les limites des axes sous forme de dates, limitant le graphique à une période.
+// Nous pouvons également définir des limites d'axe sous forme de dates, limitant ainsi le graphique à une période.
 // Définir la plage sur 1980-1990 omettra les deux valeurs de la série
 // qui sont en dehors de la plage du graphique.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));

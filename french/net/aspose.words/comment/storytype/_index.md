@@ -3,9 +3,9 @@ title: Comment.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words pour .NET
-description: Comment StoryType propriété. RetoursComments  en C#.
+description: Découvrez la propriété StoryType pour récupérer facilement les commentaires et améliorer l'engagement de votre contenu. Accédez à des informations précieuses dès aujourd'hui !
 type: docs
-weight: 100
+weight: 120
 url: /fr/net/aspose.words/comment/storytype/
 ---
 ## Comment.StoryType property
@@ -25,23 +25,23 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, null);
 
-// Les nœuds de table ont une méthode "EnsureMinimum()" qui garantit que la table contient au moins une cellule.
+// Les nœuds de table ont une méthode « EnsureMinimum() » qui garantit que la table contient au moins une cellule.
 Table table = new Table(doc);
 table.EnsureMinimum();
 
-// On peut placer un tableau à l'intérieur d'une note de bas de page, ce qui le fera apparaître en pied de page de référence.
-Assert.That(footnote.Tables, Is.Empty);
+// Nous pouvons placer un tableau à l'intérieur d'une note de bas de page, ce qui le fera apparaître dans le pied de page de la page de référence.
+Assert.AreEqual(0, footnote.Tables.Count);
 footnote.AppendChild(table);
 Assert.AreEqual(1, footnote.Tables.Count);
 Assert.AreEqual(NodeType.Table, footnote.LastChild.NodeType);
 
-// Un InlineStory possède également une méthode "EnsureMinimum()", mais dans ce cas,
+// Une InlineStory possède également une méthode « EnsureMinimum() », mais dans ce cas,
 // il s'assure que le dernier enfant du nœud est un paragraphe,
 // pour que nous puissions cliquer et écrire du texte facilement dans Microsoft Word.
 footnote.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, footnote.LastChild.NodeType);
 
-// Modifie l'apparence de l'ancre, qui est le petit numéro en exposant
+// Modifier l'apparence de l'ancre, qui est le petit nombre en exposant
 // dans le texte principal qui pointe vers la note de bas de page.
 footnote.Font.Name = "Arial";
 footnote.Font.Color = Color.Green;
@@ -52,13 +52,13 @@ Assert.AreEqual(StoryType.Footnotes, footnote.StoryType);
 // Un commentaire est un autre type d'histoire en ligne.
 Comment comment = (Comment)builder.CurrentParagraph.AppendChild(new Comment(doc, "John Doe", "J. D.", DateTime.Now));
 
-// Le paragraphe parent d'un nœud d'histoire en ligne sera celui du corps principal du document.
+// Le paragraphe parent d'un nœud d'histoire en ligne sera celui du corps du document principal.
 Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, comment.ParentParagraph);
 
 // Cependant, le dernier paragraphe est celui du contenu du texte du commentaire,
-// qui sera en dehors du corps principal du document dans une bulle.
+// qui sera en dehors du corps du document principal dans une bulle de dialogue.
 // Un commentaire n'aura aucun nœud enfant par défaut,
-// afin que nous puissions appliquer la méthode EnsureMinimum() pour placer un paragraphe ici également.
+// nous pouvons donc appliquer la méthode EnsureMinimum() pour placer un paragraphe ici également.
 Assert.Null(comment.LastParagraph);
 comment.EnsureMinimum();
 Assert.AreEqual(NodeType.Paragraph, comment.LastChild.NodeType);

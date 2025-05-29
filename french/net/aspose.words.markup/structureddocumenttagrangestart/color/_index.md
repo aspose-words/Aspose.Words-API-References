@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart Color propriété. Obtient ou définit la couleur de la balise du document structuré en C#.
+description: Découvrez comment personnaliser la propriété de couleur de StructuredDocumentTagRangeStart pour une mise en forme améliorée du document et un attrait visuel amélioré.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/color/
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## Exemples
 
-Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
+Montre comment obtenir les propriétés des balises de document structurées à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

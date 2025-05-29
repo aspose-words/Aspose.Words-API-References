@@ -3,9 +3,9 @@ title: PdfDigitalSignatureHashAlgorithm Enum
 linktitle: PdfDigitalSignatureHashAlgorithm
 articleTitle: PdfDigitalSignatureHashAlgorithm
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.PdfDigitalSignatureHashAlgorithm énumération. Spécifie un algorithme de hachage numérique utilisé par une signature numérique en C#.
+description: Explorez l'énumération Aspose.Words PdfDigitalSignatureHashAlgorithm, définissant des algorithmes de hachage numérique pour des signatures numériques sécurisées dans vos documents.
 type: docs
-weight: 5440
+weight: 6230
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturehashalgorithm/
 ---
 ## PdfDigitalSignatureHashAlgorithm enumeration
@@ -36,12 +36,12 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Configurez l'objet "DigitalSignatureDetails" de l'objet "SaveOptions" pour
-// signez numériquement le document au fur et à mesure que nous le rendons avec la méthode "Save".
+// Configurez l'objet « DigitalSignatureDetails » de l'objet « SaveOptions » pour
+// signer numériquement le document tel que nous le rendons avec la méthode « Enregistrer ».
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -50,6 +50,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

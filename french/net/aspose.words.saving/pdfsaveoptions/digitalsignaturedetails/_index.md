@@ -3,14 +3,14 @@ title: PdfSaveOptions.DigitalSignatureDetails
 linktitle: DigitalSignatureDetails
 articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words pour .NET
-description: PdfSaveOptions DigitalSignatureDetails propriété. Obtient ou définit les détails de signature du document PDF de sortie en C#.
+description: Découvrez PdfSaveOptions DigitalSignatureDetails pour gérer facilement les détails de signature PDF, garantissant une sortie de document sécurisée et efficace.
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 ---
 ## PdfSaveOptions.DigitalSignatureDetails property
 
-Obtient ou définit les détails de signature du document PDF de sortie.
+Obtient ou définit les détails pour la signature du document PDF de sortie.
 
 ```csharp
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
@@ -18,7 +18,7 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 
 ## Remarques
 
-La valeur par défaut est`nul`et le document de sortie ne sera pas signé. Lorsque cette propriété est définie sur un valide[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, , le document PDF de sortie sera signé numériquement.
+La valeur par défaut est`nul` et le document de sortie ne sera pas signé. Lorsque cette propriété est définie sur une valeur valide[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) objet, alors le document PDF de sortie sera signé numériquement.
 
 ## Exemples
 
@@ -31,12 +31,12 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Configurez l'objet "DigitalSignatureDetails" de l'objet "SaveOptions" pour
-// signez numériquement le document au fur et à mesure que nous le rendons avec la méthode "Save".
+// Configurez l'objet « DigitalSignatureDetails » de l'objet « SaveOptions » pour
+// signer numériquement le document tel que nous le rendons avec la méthode « Enregistrer ».
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -45,6 +45,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

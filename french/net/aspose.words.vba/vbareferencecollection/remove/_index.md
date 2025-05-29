@@ -3,14 +3,14 @@ title: VbaReferenceCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: VbaReferenceCollection Remove méthode. Supprime la première occurrence dun élément spécifiéVbaReference objet de la collection en C#.
+description: Supprimez facilement le premier élément VBAReference de votre collection grâce à la méthode Remove. Optimisez vos projets VBA pour des performances optimales !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-Supprime la première occurrence d'un élément spécifié[`VbaReference`](../../vbareference/) objet de la collection.
+Supprime la première occurrence d'un élément spécifié[`VbaReference`](../../vbareference/) article de la collection.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

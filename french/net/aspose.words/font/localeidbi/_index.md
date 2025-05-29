@@ -3,14 +3,14 @@ title: Font.LocaleIdBi
 linktitle: LocaleIdBi
 articleTitle: LocaleIdBi
 second_title: Aspose.Words pour .NET
-description: Font LocaleIdBi propriété. Obtient ou définit lidentifiant de paramètres régionaux langue des caractères formatés de droite à gauche en C#.
+description: Découvrez la propriété Font LocaleIdBi, gérez facilement les identifiants régionaux pour les caractères formatés de droite à gauche, améliorant ainsi vos applications multilingues.
 type: docs
 weight: 210
 url: /fr/net/aspose.words/font/localeidbi/
 ---
 ## Font.LocaleIdBi property
 
-Obtient ou définit l'identifiant de paramètres régionaux (langue) des caractères formatés de droite à gauche.
+Obtient ou définit l'identifiant régional (langue) des caractères formatés de droite à gauche.
 
 ```csharp
 public int LocaleIdBi { get; set; }
@@ -42,13 +42,13 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Nous pouvons utiliser le drapeau Bidi pour indiquer si le texte que nous sommes sur le point d'ajouter
-// avec le générateur de documents, c'est de droite à gauche. Lorsque nous ajoutons du texte avec cet indicateur défini sur true,
+// Nous pouvons utiliser l'indicateur Bidi pour indiquer si le texte que nous sommes sur le point d'ajouter
+// avec le générateur de documents, l'écriture s'effectue de droite à gauche. Lorsque nous ajoutons du texte avec cet indicateur à « vrai »,
 // il sera formaté en utilisant l'ensemble de paramètres de police de droite à gauche.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Définissez l'indicateur sur false, puis ajoutez du texte de gauche à droite.
+// Définissez l'indicateur sur faux, puis ajoutez du texte de gauche à droite.
 // Le générateur de documents les formatera en utilisant l'ensemble de paramètres de police de gauche à droite.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");

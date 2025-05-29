@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreStructuredDocumentTags
 linktitle: IgnoreStructuredDocumentTags
 articleTitle: IgnoreStructuredDocumentTags
 second_title: Aspose.Words pour .NET
-description: FindReplaceOptions IgnoreStructuredDocumentTags propriété. Obtient ou définit une valeur booléenne indiquant soit dignorer le contenu deStructuredDocumentTag . La valeur par défaut estFAUX  en C#.
+description: Découvrez la propriété IgnoreStructuredDocumentTags de FindReplaceOptions. Contrôlez si le contenu de StructuredDocumentTag est ignoré grâce à ce paramètre booléen facile à utiliser.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
 ---
 ## FindReplaceOptions.IgnoreStructuredDocumentTags property
 
-Obtient ou définit une valeur booléenne indiquant soit d'ignorer le contenu de[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) . La valeur par défaut est`FAUX` .
+Obtient ou définit une valeur booléenne indiquant d'ignorer le contenu de[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) . La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool IgnoreStructuredDocumentTags { get; set; }
@@ -18,13 +18,13 @@ public bool IgnoreStructuredDocumentTags { get; set; }
 
 ## Remarques
 
-Lorsque cette option est définie sur`vrai` , le contenu de[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) sera traité comme un simple texte.
+Lorsque cette option est définie sur`vrai` , le contenu de[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) sera traité comme un texte simple.
 
-Sinon,[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) sera traité comme Story autonome et le modèle de remplacement sera recherché séparément pour chaque[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/), de sorte que si le motif traverse un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , alors le remplacement ne sera pas effectué pour un tel modèle.
+Sinon,[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) sera traité comme Story autonome et le modèle de remplacement sera recherché séparément pour chaque[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , de sorte que si le motif traverse un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , alors le remplacement ne sera pas effectué pour un tel modèle.
 
 ## Exemples
 
-Montre comment ignorer le contenu des balises lors du remplacement.
+Montre comment ignorer le contenu des balises de remplacement.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

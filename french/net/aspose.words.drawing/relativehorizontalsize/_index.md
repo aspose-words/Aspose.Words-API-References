@@ -3,9 +3,9 @@ title: RelativeHorizontalSize Enum
 linktitle: RelativeHorizontalSize
 articleTitle: RelativeHorizontalSize
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.RelativeHorizontalSize énumération. Spécifie par rapport à quoi la largeur dune forme ou dun cadre de texte est calculée horizontalement en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.RelativeHorizontalSize pour un contrôle précis de la forme et de la largeur des blocs de texte dans vos documents. Améliorez votre mise en forme dès aujourd'hui !
 type: docs
-weight: 1200
+weight: 1590
 url: /fr/net/aspose.words.drawing/relativehorizontalsize/
 ---
 ## RelativeHorizontalSize enumeration
@@ -38,33 +38,33 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ajout d'une forme simple avec une taille et une position absolues.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
-// Définissez WrapType sur WrapType.None puisque les formes en ligne sont automatiquement converties en unités absolues.
+// Définissez WrapType sur WrapType.None car les formes en ligne sont automatiquement converties en unités absolues.
 shape.WrapType = WrapType.None;
 
 // Vérification et définition de la taille horizontale relative.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // Définition de la liaison de taille horizontale sur Marge.
+    // Définition de la taille horizontale de la liaison sur Marge.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // Définition de la largeur à 50 % de la largeur de la marge.
+    // Définition de la largeur à 50 % de la largeur de la marge.
     shape.WidthRelative = 50;
 }
 
 // Vérification et définition de la taille verticale relative.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // Définition de la liaison de taille verticale sur Marge.
+    // Définition de la taille verticale de la liaison sur Marge.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // Définition de la hauteur à 30 % de la hauteur de la marge.
+    // Définition de la hauteur à 30 % de la hauteur de la marge.
     shape.HeightRelative = 30;
 }
 
 // Vérification et réglage de la position verticale relative.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // définition de la liaison de position à TopMargin.
+    // définir la position de liaison à TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // Définition du Top relatif à 30 % de la position TopMargin.
+    // Définition du Top relatif à 30 % de la position TopMargin.
     shape.TopRelative = 30;
 }
 

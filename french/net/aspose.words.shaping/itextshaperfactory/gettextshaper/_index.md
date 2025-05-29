@@ -3,14 +3,14 @@ title: ITextShaperFactory.GetTextShaper
 linktitle: GetTextShaper
 articleTitle: GetTextShaper
 second_title: Aspose.Words pour .NET
-description: ITextShaperFactory GetTextShaper méthode. Renvoie une nouvelle instance dun façonneur de texte pour la police spécifiée parfontPath etfaceIndex  en C#.
+description: Découvrez la méthode GetTextShaper d'ITextShaperFactory pour créer un modeleur de texte personnalisé pour vos besoins de police spécifiques, améliorant ainsi votre expérience de rendu de texte.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.shaping/itextshaperfactory/gettextshaper/
 ---
 ## GetTextShaper(*string, int*) {#gettextshaper_1}
 
-Renvoie une nouvelle instance d'un façonneur de texte pour la police spécifiée par*fontPath* et*faceIndex* .
+Renvoie une nouvelle instance d'un modeleur de texte pour la police spécifiée par*fontPath* et*faceIndex* .
 
 ```csharp
 public ITextShaper GetTextShaper(string fontPath, int faceIndex)
@@ -32,7 +32,7 @@ public ITextShaper GetTextShaper(string fontPath, int faceIndex)
 
 ## GetTextShaper(*string, byte[], int*) {#gettextshaper}
 
-Renvoie une nouvelle instance d'un façonneur de texte pour la police représentée par*fontBlob* et*faceIndex* .
+Renvoie une nouvelle instance d'un modeleur de texte pour la police représentée par*fontBlob* et*faceIndex* .
 
 ```csharp
 public ITextShaper GetTextShaper(string fontId, byte[] fontBlob, int faceIndex)

@@ -3,14 +3,14 @@ title: EditableRange.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words pour .NET
-description: EditableRange Remove méthode. Supprime la plage modifiable du document. Ne supprime pas le contenu à lintérieur de la plage modifiable en C#.
+description: Supprimez facilement les plages modifiables de votre document grâce à la méthode EditableRange Remove, tout en préservant votre contenu. Optimisez la gestion de vos documents !
 type: docs
 weight: 60
 url: /fr/net/aspose.words/editablerange/remove/
 ---
 ## EditableRange.Remove method
 
-Supprime la plage modifiable du document. Ne supprime pas le contenu à l'intérieur de la plage modifiable.
+Supprime la plage modifiable du document. Ne supprime pas le contenu de cette plage.
 
 ```csharp
 public void Remove()
@@ -28,13 +28,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour l'édition.
+// Les plages modifiables nous permettent de laisser des parties de documents protégés ouvertes pour modification.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
-// Une plage modifiable bien formée a un nœud de début et un nœud de fin.
-// Ces nœuds ont des ID correspondants et englobent des nœuds modifiables.
+// Une plage modifiable bien formée possède un nœud de départ et un nœud de fin.
+// Ces nœuds ont des identifiants correspondants et englobent des nœuds modifiables.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
@@ -46,8 +46,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Nous pouvons accéder aux types de nœuds de chaque partie comme ceci. La plage modifiable elle-même n'est pas un nœud,
-// mais une entité composée d'un début, d'une fin et de leur contenu inclus.
+// Nous pouvons accéder aux types de nœuds de chaque partie de cette manière. La plage modifiable elle-même n'est pas un nœud.
+// mais une entité qui se compose d'un début, d'une fin et de leur contenu inclus.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -55,7 +55,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Supprime une plage modifiable. Tous les nœuds qui se trouvaient à l'intérieur de la plage resteront intacts.
+// Supprimer une plage modifiable. Tous les nœuds contenus dans la plage resteront intacts.
 editableRange.Remove();
 ```
 

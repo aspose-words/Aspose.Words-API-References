@@ -3,14 +3,14 @@ title: Document.RevisionsView
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words pour .NET
-description: Document RevisionsView propriété. Obtient ou définit une valeur indiquant sil faut utiliser la version originale ou révisée dun document en C#.
+description: Gérez facilement les révisions de vos documents ! Choisissez entre les versions originales ou mises à jour pour une collaboration fluide et une productivité accrue.
 type: docs
-weight: 360
+weight: 380
 url: /fr/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
 
-Obtient ou définit une valeur indiquant s'il faut utiliser la version originale ou révisée d'un document.
+Obtient ou définit une valeur indiquant s'il faut travailler avec la version originale ou révisée d'un document.
 
 ```csharp
 public RevisionsView RevisionsView { get; set; }
@@ -33,7 +33,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// Affiche l'objet document comme si toutes les révisions étaient acceptées. Prend actuellement en charge les étiquettes de liste.
+// Afficher l'objet document comme si toutes les révisions étaient acceptées. Prend actuellement en charge les étiquettes de liste.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

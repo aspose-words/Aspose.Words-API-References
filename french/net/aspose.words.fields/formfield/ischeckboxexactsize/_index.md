@@ -3,7 +3,7 @@ title: FormField.IsCheckBoxExactSize
 linktitle: IsCheckBoxExactSize
 articleTitle: IsCheckBoxExactSize
 second_title: Aspose.Words pour .NET
-description: FormField IsCheckBoxExactSize propriété. Obtient ou définit la valeur booléenne qui indique si la taille de la zone de texte est automatique ou spécifiée explicitement en C#.
+description: Découvrez la propriété FormField IsCheckBoxExactSize, contrôlez facilement la taille de la zone de texte avec un simple paramètre booléen pour une personnalisation optimale.
 type: docs
 weight: 110
 url: /fr/net/aspose.words.fields/formfield/ischeckboxexactsize/
@@ -69,15 +69,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

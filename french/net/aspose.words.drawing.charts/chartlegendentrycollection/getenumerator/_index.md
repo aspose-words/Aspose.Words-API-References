@@ -3,7 +3,7 @@ title: ChartLegendEntryCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: ChartLegendEntryCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
+description: Découvrez la méthode GetEnumerator de ChartLegendEntryCollection pour une énumération efficace des entrées de légende. Simplifiez la gestion de vos données dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/

@@ -3,14 +3,14 @@ title: FieldIncludeText.NamespaceMappings
 linktitle: NamespaceMappings
 articleTitle: NamespaceMappings
 second_title: Aspose.Words pour .NET
-description: FieldIncludeText NamespaceMappings propriété. Obtient ou définit les mappages despace de noms pour les requêtes XPath en C#.
+description: Découvrez la propriété FieldIncludeText NamespaceMappings pour gérer facilement les mappages d'espaces de noms pour les requêtes XPath, améliorant ainsi l'efficacité de votre gestion des données.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldincludetext/namespacemappings/
 ---
 ## FieldIncludeText.NamespaceMappings property
 
-Obtient ou définit les mappages d'espace de noms pour les requêtes XPath.
+Obtient ou définit les mappages d'espaces de noms pour les requêtes XPath.
 
 ```csharp
 public string NamespaceMappings { get; set; }
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous deux manières d'utiliser les champs INCLUDETEXT pour afficher le contenu d'un fichier XML dans le système de fichiers local.
-    // 1 - Effectuer une transformation XSL sur un document XML :
+    // 1 - Effectuer une transformation XSL sur un document XML :
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utiliser un XPath pour récupérer des éléments spécifiques d'un document XML :
+    // 2 - Utiliser un XPath pour extraire des éléments spécifiques d'un document XML :
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

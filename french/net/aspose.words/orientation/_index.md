@@ -3,9 +3,9 @@ title: Orientation Enum
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Orientation énumération. Spécifie lorientation de la page en C#.
+description: Découvrez l'énumération Aspose.Words.Orientation pour un contrôle transparent de l'orientation des pages. Améliorez la mise en forme de vos documents avec facilité et précision !
 type: docs
-weight: 4320
+weight: 5050
 url: /fr/net/aspose.words/orientation/
 ---
 ## Orientation enumeration
@@ -20,30 +20,30 @@ public enum Orientation
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Portrait | `1` | Orientation de la page Portrait (étroite et haute). |
-| Landscape | `2` | Orientation de la page Paysage (large et courte). |
+| Portrait | `1` | Orientation de la page portrait (étroite et haute). |
+| Landscape | `2` | Orientation de la page paysage (large et courte). |
 
 ## Exemples
 
-Montre comment appliquer et rétablir les paramètres de mise en page aux sections d’un document.
+Montre comment appliquer et rétablir les paramètres de mise en page aux sections d'un document.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifie les propriétés de mise en page de la section actuelle du générateur et ajoute du texte.
+// Modifiez les propriétés de configuration de la page pour la section actuelle du générateur et ajoutez du texte.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Si on démarre une nouvelle section en utilisant un générateur de documents,
-// il héritera des propriétés de mise en page actuelles du constructeur.
+// Si nous commençons une nouvelle section en utilisant un générateur de documents,
+// il héritera des propriétés de configuration de page actuelles du constructeur.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Nous pouvons rétablir ses propriétés de mise en page à leurs valeurs par défaut en utilisant la méthode "ClearFormatting".
+// Nous pouvons rétablir ses propriétés de configuration de page à leurs valeurs par défaut en utilisant la méthode « ClearFormatting ».
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

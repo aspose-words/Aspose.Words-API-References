@@ -3,7 +3,7 @@ title: FieldAsk.PromptOnceOnMailMerge
 linktitle: PromptOnceOnMailMerge
 articleTitle: PromptOnceOnMailMerge
 second_title: Aspose.Words pour .NET
-description: FieldAsk PromptOnceOnMailMerge propriété. Obtient ou définit si la réponse de lutilisateur doit être reçue une fois par opération de publipostage en C#.
+description: Optimisez vos publipostages avec FieldAsk PromptOnceOnMailMerge. Contrôlez efficacement les réponses des utilisateurs, améliorez la précision des données et simplifiez votre processus.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldask/promptonceonmailmerge/
@@ -26,7 +26,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Placez un champ où sera placée la réponse à notre champ ASK.
+    // Placez un champ où la réponse à notre champ ASK sera placée.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur personnalisé,
+    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur d'invite personnalisé,
     // qui se produira lors d'un publipostage.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

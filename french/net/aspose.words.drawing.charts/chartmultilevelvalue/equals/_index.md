@@ -3,7 +3,7 @@ title: ChartMultilevelValue.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words pour .NET
-description: ChartMultilevelValue Equals méthode. Obtient un indicateur indiquant si lobjet spécifié est égal à lobjet de données multiniveau actuel en C#.
+description: Découvrez comment la méthode ChartMultilevelValue Equals détermine l'égalité avec vos objets de données multiniveaux. Améliorez votre efficacité de codage dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartmultilevelvalue/equals/

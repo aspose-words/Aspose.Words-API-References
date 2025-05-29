@@ -3,7 +3,7 @@ title: FieldNextIf
 linktitle: FieldNextIf
 articleTitle: FieldNextIf
 second_title: Aspose.Words pour .NET
-description: FieldNextIf constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldNextIf, votre solution idéale pour une intégration fluide et une gestion efficace du code. Simplifiez votre processus de développement dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldnextif/fieldnextif/

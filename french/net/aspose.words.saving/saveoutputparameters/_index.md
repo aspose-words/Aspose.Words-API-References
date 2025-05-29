@@ -3,16 +3,16 @@ title: SaveOutputParameters Class
 linktitle: SaveOutputParameters
 articleTitle: SaveOutputParameters
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.SaveOutputParameters classe. Cet objet est renvoyé à lappelant après lenregistrement dun document et contient des informations supplémentaires indiquant que a été générée ou calculée lors de lopération de sauvegarde. Lappelant peut utiliser ou ignorer cet objet en C#.
+description: Découvrez la classe Aspose.Words.Saving.SaveOutputParameters, qui fournit des détails essentiels après l'enregistrement du document, améliorant ainsi votre expérience de gestion de documents.
 type: docs
-weight: 5590
+weight: 6390
 url: /fr/net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
 
-Cet objet est renvoyé à l'appelant après l'enregistrement d'un document et contient des informations supplémentaires indiquant que a été générée ou calculée lors de l'opération de sauvegarde. L'appelant peut utiliser ou ignorer cet objet.
+Cet objet est renvoyé à l'appelant après l'enregistrement d'un document et contient les informations supplémentaires générées ou calculées lors de l'enregistrement. L'appelant peut utiliser ou ignorer cet objet.
 
-Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article documentaire.
+Pour en savoir plus, visitez le[Enregistrer un document](https://docs.aspose.com/words/net/save-a-document/) article de documentation.
 
 ```csharp
 public class SaveOutputParameters
@@ -26,7 +26,7 @@ public class SaveOutputParameters
 
 ## Exemples
 
-Montre comment accéder aux paramètres de sortie de l’opération d’enregistrement d’un document.
+Montre comment accéder aux paramètres de sortie de l'opération d'enregistrement d'un document.
 
 ```csharp
 Document doc = new Document();

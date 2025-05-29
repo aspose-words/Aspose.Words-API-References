@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagCollection RemoveAt méthode. Supprime une balise de document structuré à lindex spécifié en C#.
+description: Gérez facilement les balises de vos documents structurés grâce à la méthode RemoveAt. Supprimez rapidement les balises par index pour une édition simplifiée.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.markup/structureddocumenttagcollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | Un index dans la collection. |
+| index | Int32 | Un index de la collection. |
 
 ## Exemples
 
@@ -39,9 +39,9 @@ sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
 Assert.AreEqual(5, structuredDocumentTags.Count);
-// Supprime la balise du document structuré par Id.
+// Supprimez la balise de document structuré par ID.
 structuredDocumentTags.Remove(1691867797);
-// Supprime la balise du document structuré à la position 0.
+// Supprimez la balise de document structuré à la position 0.
 structuredDocumentTags.RemoveAt(0);
 Assert.AreEqual(3, structuredDocumentTags.Count);
 ```

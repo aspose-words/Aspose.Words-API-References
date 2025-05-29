@@ -3,14 +3,14 @@ title: BorderCollection.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
 second_title: Aspose.Words pour .NET
-description: BorderCollection DistanceFromText propriété. Obtient ou définit la distance entre la bordure et le texte en points en C#.
+description: Découvrez la propriété DistanceFromText de BorderCollection pour personnaliser facilement l'espacement des bordures de texte dans vos créations. Optimisez votre mise en page sans effort !
 type: docs
 weight: 40
 url: /fr/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-Obtient ou définit la distance entre la bordure et le texte en points.
+Obtient ou définit la distance de la bordure par rapport au texte en points.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -20,7 +20,7 @@ public double DistanceFromText { get; set; }
 
 Obtient la distance du texte pour la première bordure.
 
-Définit la distance par rapport au texte pour toutes les bordures de la collection, à l'exception des bordures diagonales.
+Définit la distance par rapport au texte pour toutes les bordures de la collection, à l'exclusion des bordures diagonales.
 
 N'a aucun effet et sera automatiquement réinitialisé à zéro pour les bordures des cellules du tableau.
 

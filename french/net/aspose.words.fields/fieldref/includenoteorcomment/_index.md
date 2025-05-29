@@ -3,14 +3,14 @@ title: FieldRef.IncludeNoteOrComment
 linktitle: IncludeNoteOrComment
 articleTitle: IncludeNoteOrComment
 second_title: Aspose.Words pour .NET
-description: FieldRef IncludeNoteOrComment propriété. Obtient ou définit sil faut incrémenter les numéros de note de bas de page de fin et dannotation qui sont marqués par le signet et insérer le texte de note de bas de page de fin et de commentaire correspondant en C#.
+description: Découvrez la propriété FieldRef IncludeNoteOrComment pour gérer facilement la numérotation des notes de bas de page et de fin, améliorant ainsi vos documents avec des annotations transparentes.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldref/includenoteorcomment/
 ---
 ## FieldRef.IncludeNoteOrComment property
 
-Obtient ou définit s'il faut incrémenter les numéros de note de bas de page, de fin et d'annotation qui sont marqués par le signet, et insérer le texte de note de bas de page, de fin et de commentaire correspondant.
+Obtient ou définit s'il faut incrémenter les numéros de note de bas de page, de note de fin et d'annotation qui sont marqués par le signet, et insérer le texte de note de bas de page, de note de fin et de commentaire correspondant.
 
 ```csharp
 public bool IncludeNoteOrComment { get; set; }
@@ -44,7 +44,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // Insère un champ REF et affiche si le signet référencé est au-dessus ou en dessous de celui-ci.
+    // Insérer un champ REF et afficher si le signet référencé est au-dessus ou en dessous.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
@@ -56,7 +56,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Affiche le numéro de liste du signet, mais en omettant les caractères non délimiteurs, tels que les crochets angulaires.
+    // Affiche le numéro de liste du signet, mais avec les caractères non délimiteurs, tels que les chevrons, omis.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
@@ -81,7 +81,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // À la fin du document, le signet apparaîtra ici comme élément de liste.
+    // À la fin du document, le signet apparaîtra comme un élément de liste ici.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";

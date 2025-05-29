@@ -3,16 +3,16 @@ title: Bookmark Class
 linktitle: Bookmark
 articleTitle: Bookmark
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Bookmark classe. Représente un seul signet en C#.
+description: Découvrez la classe Aspose.Words.Bookmark, votre solution pour gérer efficacement vos signets dans vos documents. Améliorez votre expérience d'édition dès aujourd'hui !
 type: docs
-weight: 40
+weight: 230
 url: /fr/net/aspose.words/bookmark/
 ---
 ## Bookmark class
 
 Représente un seul signet.
 
-Pour en savoir plus, visitez le[Travailler avec des signets](https://docs.aspose.com/words/net/working-with-bookmarks/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des signets](https://docs.aspose.com/words/net/working-with-bookmarks/) article de documentation.
 
 ```csharp
 public class Bookmark
@@ -24,9 +24,9 @@ public class Bookmark
 | --- | --- |
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Obtient le nœud qui représente la fin du signet. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Obtient le nœud qui représente le début du signet. |
-| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Obtient l'index de base zéro de la première colonne de la plage de colonnes du tableau associée au signet. |
+| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Obtient l'index de base zéro de la première colonne de la plage de colonnes de table associée au signet. |
 | [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Retours`vrai` si ce signet est un signet de colonne de tableau. |
-| [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Obtient l'index de base zéro de la dernière colonne de la plage de colonnes du tableau associée au signet. |
+| [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Obtient l'index de base zéro de la dernière colonne de la plage de colonnes de table associée au signet. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | Obtient ou définit le nom du signet. |
 | [Text](../../aspose.words/bookmark/text/) { get; set; } | Obtient ou définit le texte inclus dans le signet. |
 
@@ -38,7 +38,7 @@ public class Bookmark
 
 ## Remarques
 
-`Bookmark` est un objet "façade" qui encapsule deux nœuds[`BookmarkStart`](./bookmarkstart/) et[`BookmarkEnd`](./bookmarkend/) dans une arborescence de documents et permet de travailler avec un signet comme un objet unique.
+`Bookmark` est un objet « façade » qui encapsule deux nœuds[`BookmarkStart`](./bookmarkstart/) et[`BookmarkEnd`](./bookmarkend/) dans une arborescence de documents et permet de travailler avec un signet comme un objet unique.
 
 ## Exemples
 
@@ -61,7 +61,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -89,7 +89,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

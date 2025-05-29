@@ -3,7 +3,7 @@ title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words pour .NET
-description: Cell LastParagraph propriété. Obtient le dernier paragraphe parmi les enfants immédiats en C#.
+description: Découvrez la propriété LastParagraph de la cellule. Accédez facilement au dernier paragraphe depuis les éléments enfants immédiats pour une gestion efficace du contenu.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.tables/cell/lastparagraph/
@@ -18,13 +18,13 @@ public Paragraph LastParagraph { get; }
 
 ## Exemples
 
-Montre comment appliquer les paramètres des bordures verticales au format d’une ligne de tableau.
+Montre comment appliquer des paramètres aux bordures verticales au format d'une ligne de tableau.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un tableau avec des bordures intérieures rouges et bleues.
+// Créez un tableau avec des bordures intérieures rouges et bleues.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -37,12 +37,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Ajuste l'apparence des bordures qui apparaîtront entre les lignes.
+    // Ajustez l'apparence des bordures qui apparaîtront entre les lignes.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Ajuste l'apparence des bordures qui apparaîtront entre les cellules.
+    // Ajustez l'apparence des bordures qui apparaîtront entre les cellules.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
